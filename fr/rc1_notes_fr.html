@@ -1,0 +1,161 @@
+<html>
+<title>Release Notes</title>
+<body>
+<h1>RELEASE NOTES - XFce 4.0-RC1</h1>
+
+<h2>Contenu</h2>
+
+<ol>
+<li>Qu'est-ce que c'est?</li>
+<li>Qu'y-a-t-il de nouveau?</li>
+<li>Paquets disponibles</li>
+<li>Où les obtenir?</li>
+<li>Guide d'installation</li>
+<li>Comment les utiliser?</li>
+</ol>
+
+<h2>Qu'est-ce que c'est?</h2>
+
+<p>XFce 4 est un environnement de bureau pour les systèmes d'exploitation apparentés à Unix. Il vise à être rapide et léger, tout en restant esthétiquement attirant et facile à utiliser. Il est basé sur la version 2 de GTK+ et suit les standards définis sur <a href="http://www.freedesktop.org">http://www.freedesktop.org"</a>.</p>
+
+<p>XFce4 est constitué de plusieurs éléments qui ensemble fournissent toutes les fonctionnalités de l'environnement de bureau. Sa conception modulaire vous permet de choisir parmi les paquets disponibles pour vous créer le meilleur environnement de travail possible.</p>
+
+<p>XFce 4 est un logiciel libre. Chaque composant est livré sous license BSD, GNU LGPL ou GNU GPL.</p>
+
+<p>Visitez le site <a href="http://www.xfce.org">http://www.xfce.org</a> pour plus d'informations.</p>
+
+<h2>Qu'y-a-t-il de nouveau?</h2>
+
+<p>La RC1 est la troisième version de développement publiée de la prochaine génération de l'environnement de bureau XFce, et la première release candidate. Si aucun problème d'importance n'est mis en évidence, elle est sensée devenir la version 4.0. XFce 4 est une récriture complète de XFce3.</p>
+
+<p>Fonctionnalités générales de l'environnement de bureau XFce 4:</p>
+
+<ul>
+<li>Basé sur GTK2: apparence générale améliorée, polices anti-aliasées.</li>
+<li>Une conception modulaire: choisissez parmi les paquets disponibles.</li>
+<li>Une plateforme de développement: XFce 4 fournit un lot de bibliothèques qui rendent facile la création de programmes s'intégrant bien dans l'environnement de bureau, en offrant des fonctions utilitaires, des widgets et des dialogues, ainsi qu'un framework pour les préférences globales.</li>
+<li>Un gestionnaire de fenêtres conforme aux standards, avec de grandes aptitudes à la personnalisation, et fourni avec de nombreux thèmes.</li>
+<li>Un panneau amélioré avec mode horizontal et vertical, masquage automatique et un framework pour l'intégration de plugins tiers.</li>
+<li>Un gestionnaire de fichiers avec un navigateur de réseau SMB intégré.</li>
+<li>Un gestionnaire de paramètres pour les préférences globales des composants de XFce et pour les paramètres de l'interface utilisateur.</li>
+<li>De nombreux autre paquets, comme une barre des tâches, une boîte à icônes ou une fenêtre de dialogue pour l'impression.</li>
+</ul>
+
+<p>Changements entre la beta2 et la rc1:</p>
+
+<ul>
+<li>Nombreux changements internes au niveau des bibliothèques. Cela signifie que les applications liées à libxfcegui4 doivent être recompilées contre la nouvelle version de cette bibliothèque.</li>
+<li>Un nouvel item "Séparation" pour le panneau.</li>
+<li>Suppression de la fonctionnalité "Revenir" des fenêtres de dialogue des éléments du panneau. Les plugins externes pour le panneau doivent être mis à jour par leurs auteurs, sinon cela posera des problèmes. Tous les plugins du panneau doivent être recompilés.</li>
+<li>L'ordre des colonnes du gestionnaire de fichiers peut être modifié et faisant glisser leurs en-têtes.</li>
+<li>Auto-complétion grâce à la touche Tab dans les boîtes d'entrée du gestionnaire de fichiers.</li>
+<li>Le gestionnaire de fenêtres enregistre les informations de la session lorsqu'un gestionnaire de session est utilisé.</li>
+<li>Support xrandr pour le gestionnaire de fenêtres.</li>
+<li>Amélioration de la prise en charge des recommendations pour les fenêtres spéciales.</li>
+<li>Nombreuses corrections de bogues et améliorations générales.</li>
+</ul>
+
+<p>Changements entre la beta1 et la beta2:</p>
+
+<ul>
+<li>Amélioration majeure du support du Xinerama.</li>
+<li>Nouveaux thèmes pour le panneau, basés sur des icônes SVG.</li>
+<li>Nouveaux paquets ajoutés depuis xfce4-extras:
+	<ul>
+	<li>xfce4-systray: a notification area for the panel</li>
+	<li>xfce4-themes: icon themes for the panel</li>
+	</ul></li>
+<li>Par défaut, le panneau n'est plus focalisé quand le focus est permuté en utilisant le raccourci clavier Alt+Tab.</li>
+<li>Le panneau permet maintenant d'indiquer le nom d'un répertoire en tant que lanceur, ce qui ouvrira le gestionnaire de fichiers (xffm) directement sur lui.</li>
+<li>Nouvelle présentation de l'interface utilisateur des fenêtres de dialogue du gestionnaire de configuration, de meilleure apparence.</li>
+<li>xfce4-tips inclut maintenant plusieurs "trucs et astuces" très utiles.</li>
+<li>Plusieurs corrections de bogues sous Solaris.</li>
+</ul>
+
+<h2>Paquets disponibles</h2>
+
+<p>XFce 4.0-RC1 comprend les paquets suivants:</p>
+
+<p><b>Bibliothèques</b></p>
+
+<ul>
+<li>libxfce4util: bibliothèque possédant des fonctions d'aide non graphiques.</li>
+<li>libxfcegui4: bibliothèque widget (ensemble d'éléments graphiques), obligatoirement requise pour xfce4 et xfwm4.</li>
+<li>libxfce4mcs: bibliothèque de gestion des paramètres, utilisée par la plupart des modules de XFce 4.</li>
+</ul>
+
+<p><b>Bureau</b></p>
+
+<ul>
+<li>xfce-mcs-manager: gestionnaire de paramètres : centre de contrôle pour les plugins de configuration fournis par les autres modules.</li>
+<li>xfce-mcs-plugins: plugins pour le gestionnaire de paramètres : fournissent des fenêtres de dialogue pour la configuration d'éléments qui ne font pas partie d'un des modules de XFce 4, par exemple pour la configuration de GTK, de la souris et du clavier.</li>
+<li>xfwm4: le gestionnaire de fenêtres de la prochaine génération. Il gère le placement des fenêtres des applications sur l'écran, fournit les décorations de ces fenêtres et gère les espaces de travail ou "bureaux virtuels".</li>
+<li>xfce4-panel: le panneau principal : fournit des lanceurs de programmes, un changeur de bureaux, une horloge, des menus et bien plus encore.</li>
+<li>xfdesktop: le gestionnaire de fond d'écran. Ce programme gère l'image de fond d'écran et fournit un menu de bureau. Ce module fournit également deux fenêtres de dialogue qui permettent de changer le fond d'écran et de modifier le nombre de bureaux virtuels.</li>
+<li>xfce-utils: Utilitaires essentiels et scripts. Fournit une barre des tâches, une fenêtre "à propos", une fenêtre de dialogue pour le lancement de programmes et plusieurs scripts qui sont utilisés par d'autres modules, y compris le panneau. Contient également le guide d'utilisation.</li>
+<li>xffm: le gestionnaire de fichiers. Permet également de naviguer parmi les dossiers partagés d'un réseau samba.</li>
+<li>xfprint: Fenêtre de dialogue de l'imprimante. Fournit une interface graphique pour l'impression. Ce module inclut xfprint4 et xfprint-manager.</li>
+<li>gtk-xfce-engine-2: Moteur de thèmes pour GTK2. Il est facultatif, mais c'est un moteur de thèmes réussi que vous devriez essayer.</li>
+</ul>
+
+<p><b>Extras</b></p>
+
+<ul>
+<li>xfwm4-themes: décorations de fenêtres pour xfwm4.</li>
+<li>xffm-icons: thèmes d'icônes pour le gestionnaire de fichiers xffm.</li>
+<li>xfce4-themes: thèmes d'icônes pour le panneau de XFce 4.</li>
+<li>xfce4-iconbox: une boîte à icônes qui peut être employée comme une alternative à la barre des tâches fournie par le module xfce-utils.</li>
+<li>xfce4-mixer: un réglage de volume pour le panneau. Inclut un simple mixer.</li>
+<li>xfce4-systray: aire de notification ou "system tray" pour le panneau.</li>
+<li>xfce4-toys: utilitaires et ajouts moins sérieux pour le panneau. Contient actuellement une fenêtre de dialogue pour les trucs et astuces / fortunes, et une implémentation de xeyes.</li>
+</ul>
+
+<h2>Où les obtenir?</h2>
+
+<p>Des archives du code source et des paquets rpm sont disponibles depuis notre dépôt sur <a href="http://sourceforge.net/project/showfiles.php?group_id=19869">Sourceforge</a>.</p>
+
+<h2>Guide d'installation</h2>
+
+<p>Des paquets RPM pour Redhat 8 et 9 sont fournis avec cette release candidate. Des paquets Debian devraient être disponibles bientôt pour 'unstable'.</p>
+
+<p>Si vous ne trouvez pas de paquets binaires pour votre système d'exploitation ou votre distribution, ou bien si vous préférez compiler les paquets vous-même, lisez les instructions ci-dessous.</p>
+
+<p>Ordre de compilation:</p>
+
+<ul>
+<li>libxfce4util</li>
+<li>libxfce4mcs</li>
+<li>libxfcegui4</li>
+<li>les modules du bureau (voir section "Paquets")</li>
+<li>les modules extras (voir section "Paquets")</li>
+</ul>
+
+<p>Compiler un paquer devrait être aussi simple que de décompresser l'archive et, depuis le répertoire parent des sources, de taper:</p>
+
+<p><code>./configure &amp;&amp; make &amp;&amp; make install</code></p>
+
+<p>La compilation de XFce 4 depend de pkg-config, GTK+ >= 2.0.6 (y compris les paquets 'dev'),libxml2 et, pour xffm, libdbh, qui est disponible sur <a href="http://sf.net/projects/dbh/">SourceForge</a>.</p>
+
+<p>De manière optionnelle, vous pouvez installer librsvg2 >= 2.2, pour le support des icônes SVG, et libstartup-notification, pour voir apparaître une petite horloge à la place du pointeur de la souris losqu'une application supportant ce standard se lance.</p>
+
+<p>Si vous effectuez l'installation avec un préfixe différent de celui de pkg-config, vous devez ajuster la variable d'environnement PKG_CONFIG_PATH pour qu'elle inclue le chemin vers les fichiers *.pc installés par les bibliothèques de XFce 4, qui est ${prefix}/lib/pkgconfig. Par exemple:</p>
+
+<p><code>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig</code></p>
+
+<p>Toutes les archives des sources contiennent des fichiers appelés 'spec files' qui vous permettent de fabriquer vos propres paquets RPM:</p>
+
+<p><code>rpmbuild -ta module.tar.gz</code></p>
+
+<h2>Comment les utiliser?</h2>
+
+<p>Pour démarrer une session lancer 'startxfce4' depuis la console, au lieu de startx. Pour personnaliser le comportement de startxfce4 vous pouvez copier le fichier xinitrc depuis  ${sysconfdir}/xfce4/xinitrc vers ~/.xfce4/xinitrc et l'éditer.</p>
+
+<p>Le paquet xfce-utils fournit également un script pour gdm, qui sera installé si gdm est détecté pendant l'étape 'configure'. Consultez la documentation de gdm, kdm ou xdm pour savoir comment ajouter une session personnalisée à votre gestionnaire de connection graphique. Généralement, créer un fichier ~/.xsession et mettre startxfce4 dedans devrait fonctionner; alors vous pourrez choisir la session par défaut depuis le gestionnaire de connection. Les fichier ~/.xsession doit être exécutable.<.p>
+
+<p>Pour plus d'informations, lisez la documentation de XFce 4, en commençant par le guide de l'utilisateur. Pour accéder à la documentation, vous pouvez lancer 'xfhelp4', choisir 'help' depuis de menu clic-gauche du fond d'écran ou depuis le menu clic-droit des poignées de déplacement du panneau.</p>
+
+<p>Merci de l'intérêt que vous portez à XFce 4. S'il vous plaît, signalez les bogues à xfce4-dev@moongroup.com (vous pouvez vous abonner sur <a href="http://www.moongroup.com/mailman/listinfo/xfce4-dev/">http://www.moongroup.com/mailman/listinfo/xfce4-dev/</a>).</p>
+
+</body>
+</html>
+

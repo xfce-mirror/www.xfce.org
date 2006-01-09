@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Bluefish">
+<meta name="keywords" content="Xfce desktop 4.2 notes preview faq">
+<title>Notes about Xfce 4.2</title>
+ <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body text="#154374" link="#154374" vlink="#154374" alink="#154374" style="font-size: 12px; margin-bottom: 20px; margin-left: 40px; margin-right: 40px; margin-top: 20px; text-align: justify; ">
+
+<div align="center"><h2>Some notes about Xfce 4.2</h2></div>
+
+<p>Here is a quick and dirty page about the <b>development</b> version of the <a href="http://xfce.org">Xfce</a> desktop environment, the future 4.2.<br>The current stable version of Xfce is 4.0.5, and it's available from <a href="http://xfce.org/index.php?page=download&lang=en">this page</a>.</p>
+
+<p>Here is the <b>current schedule</b> for Xfce 4.2 :</p>
+
+<table align="center" border="0">
+
+<tr><td>
+
+<b>Aug 15th</b>
+
+<ul>
+<li>Feature freeze</li>
+<li>Messages freeze (so that translators can start working)</li>
+</ul>
+
+<b>Aug 22th</b>
+
+<ul>
+<li>Tag CVS for alpha 1 release</li>
+</ul>
+
+<b>Week #35</b>
+
+<ul>
+<li>Release Xfce 4.2 alpha 1 as source packages (possibly as RPMs if time permits)</li>
+</ul>
+
+<b>Sep #19 (week #39)</b>
+
+<ul>
+<li>Start xfce 4.2 beta release cycle</li>
+</ul>
+
+<b>Nov 21st (week #48)</b>
+
+<ul>
+<li>Start xfce 4.2 release candidate cycle</li>
+</ul>
+
+<p><b>Notes: </b>After Aug 15, no additions or change in existing messages is allowed.<br> Removal of messages may occur, when needed, as this doesn't require changes in po files.</p>
+
+</li></ul></table>
+
+<p><b><font size="+1">How to test?</font></b></p>
+
+<p>You can download and build the Xfce development version from CVS. An installation guide is available on <a href="http://xfce.org/index.php?page=documentation&lang=en#install">this page</a>. This version of course includes bugs, broken translations, out of date documentation, and may fail to build or even crash. If you find new bugs, please report them using the Xfce <a href="http://bugs.xfce.org/">bug tracking system</a>.</p>
+
+<p><b><font size="+1">The inevitable screenie</font></b></p><br>
+
+<div align="center"><a href="../images/screenshots/xfce42.png"><img src="../images/screenshots/xfce42_thumbnail.gif" width="256" height="113" border="2" alt="Xfce 4.2 in xinerama mode"></a><br><br><font size="-1">Xfce 4.1 in xinerama mode</font></div><br>
+
+<p>Xfce 4.2 will include many new features and several new applications.</p>
+
+<p><b><font size="+1">List of the changes</font></b></p>
+
+<p>Here is an incomplete list of the changes which are apparent for the user:</p>
+
+<b>General</b>
+
+<ul>
+<li>improved xinerama support</li>
+<li>support for partial struts in xfwm4, xftaskbar4 and xfce4-panel.</li>
+<li>freedesktop specifications compliance regarding menu and icons themes</li>
+</ul>
+
+<b>xftaskbar4</b>
+
+<ul>
+<li>"always group tasks" option</li>
+<li>selectable left/center/right alignment</li>
+<li>variable width</li>
+<li>right-clic action menu</li>
+</ul>
+
+<b>xfwm4</b>
+
+<ul>
+<li>support for image composition with PNG images as layers, 
+which means that one can do gradients or anything else, and that 
+applies to any pixmap that make the window frame</li>
+<li>native multihead support</li>
+<li>several new themes</li>
+<li>new themes location</li>
+<li>supports the "show desktop" protocol</li>
+<li>supports the KDE context help</li>
+<li>"keep on top" option</li>
+<li>icons in the "Alt+Tab" dialog</li>
+<li>keyboard shorcuts editor included in the xfwm settings manager dialog</li>
+</ul>
+
+<b>Settings manager</b>
+
+<ul>
+<li>font rendering setup dialog</li>
+<li>merged Desktop workspaces and Workspaces margins dialogs (so for a 4.0.x to 4.2 upgrade, you will need to remove workspaces_settings.* and margins_plugin.* from /usr/local/lib/xfce4/mcs_plugins/ or it won't work)</li>
+<li>display resolution and gamma correction dialog</li>
+</ul>
+
+<b>New session manager</b>
+
+<ul>
+<li>Gnome/KDE compatibility</li>
+<li>multiscreen safety</li>
+<li>doesn't rely on smproxy (or any rewrite like gnome-smproxy), but provides (partial) session management even for non-sm or X11R5-sm aware apps</li>
+<li>support for nice themes</li>
+</ul>
+
+<b>xfdesktop</b>
+
+<ul>
+<li>gradient support for background color</li>
+<li>saturation support for background image</li>
+<li>real multiscreen and xinerama support</li>
+<li>optional support for icons in window list and desktop menu</li>
+<li>desktop menu editor with DND support from xfce4-appfinder and .desktop files from Rox, Konqueror, Nautilus, Xffm,...</li>
+<li>desktop menu plugin for the panel: now you can get standard menu from either the panel or the desktop</li>
+</ul>
+
+<b>xffm</b>
+
+<ul>
+<li>functional double pane</li>
+<li>icons themes editor</li>
+<li>many new features</li>
+</ul>
+
+<b>panel</b>
+
+<ul>
+<li>simplified mcs dialog</li>
+<li>new positioning scheme</li>
+<li>new panel icon theme implementation. The panel now follows the general icon theme, that can be set in the user interface dialog.</li>
+<li>new way to add a plugin to the panel, using a dialog and mouse double-click</li>
+<li>prettier move handles</li>
+<li>unloading of unused modules</li>
+</ul>
+
+<b>xfce4-mixer</b>
+
+<ul>
+<li>complete rewrite</li>
+</ul>
+
+<b>xfce4-appfinder</b>
+
+<ul>
+<li>new Xfce4 application</li>
+</ul>
+
+<b>gtk-xfce-theme-engine</b>
+
+<ul>
+<li>new themes</li>
+</ul>
+
+<br><br>
+
+</body>
+</html>
