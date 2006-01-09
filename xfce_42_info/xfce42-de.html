@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="generator" content="Bluefish">
+<meta name="keywords" content="Xfce desktop 4.2 notes preview faq">
+<title>Anmerkungen zu Xfce 4.2</title>
+ <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body text="#154374" link="#154374" vlink="#154374" alink="#154374" style="font-size: 12px; margin-bottom: 20px; margin-left: 40px; margin-right: 40px; margin-top: 20px; text-align: justify; ">
+
+<div align="center"><h2>Anmerkungen zu Xfce 4.2</h2></div>
+
+<p>Dies ist eine erste, improvisierte Seite mit Informationen zur aktuellen
+Entwicklerversion der <a href="http://xfce.org">Xfce</a> Desktop Umgebung, die in hoffentlich nicht
+allzu ferner Zukunft in der Version 4.2 münden wird. Es handelt sich hierbei
+keinesfalls um einen präzisen Releaseplan, da bisher auch noch kein genaues
+Datum für das Erscheinen der Version 4.2 abzusehen ist. Die aktuelle, für
+Anwender empfohlene Version ist Xfce 4.0.5, welche von <a href="http://xfce.org/index.php?page=download&lang=de">hier</a> heruntergeladen
+werden kann.</p>
+
+<p><b><font size="+1">Wie kann ich die neue Version testen?</font></b></p>
+
+<p>Sie können die aktuelle Entwicklerversion aus unserem CVS Repository beziehen
+und installieren. Eine Anleitung hierzu ist auf <a href="http://xfce.org/index.php?page=documentation&lang=de#install">dieser Seite</a> verfügbar. Diese
+Version enthält naturgemäß etliche Fehler, unvollständige Übersetzungen,
+veraltete Dokumentation und es ist durchaus möglich, dass sie sich zu einem
+bestimmten Zeitpunkt garnicht erst kompilieren lässt. Sollten Ihnen derartige
+Fehler auffallen, benutzen Sie bitte das Xfce <a href="http://bugs.xfce.org/">bug tracking system</a> um
+uns von diesen Fehlern in Kenntnis zu setzen. Vergewissern Sie sich aber
+bitte zuvor, dass derselbe Fehler nicht bereits durch einen anderen Anwender
+gemeldet worden ist.</p>
+
+<p><b><font size="+1">Der unausweichliche Screenshot</font></b></p><br>
+
+<div align="center"><a href="../images/screenshots/xfce42.png"><img src="../images/screenshots/xfce42_thumbnail.png" width="256" height="113" border="2" alt="Xfce 4.2 in xinerama mode"></a><br><br><font size="-1">Xfce 4.1 im Xinerama Betrieb</font></div><br>
+
+<p>Xfce 4.2 enthält viele neue Features und einige neue Anwendungen.</p>
+
+<p><b><font size="+1">Liste der Änderungen</font></b></p>
+
+<p>Hier ist eine mehr oder weniger unvollständige Liste mit Änderungen, die
+für den Benutzer von Interesse sind:</p>
+
+<b>Generell</b>
+
+<ul>
+<li>Der Mehrbildschirmbetrieb wurde masgeblich verbessert.</li>
+<li>support for partial struts in xfwm4, xftaskbar4 and xfce4-panel.</li>
+<li>Die Behandlung von Menus und Icon Themes folgt nun der freedesktop
+	  Spezifikation</li>
+</ul>
+
+<b>xftaskbar4</b>
+
+<ul>
+<li>neue Option "Anwendungen immer gruppieren"</li>
+<li>Ausrichtung einstellbar (links/rechts/zentriert)</li>
+<li>Breite einstellbar</li>
+<li>Ein Rechtsklick Menu wurde hinzugefügt
+</li>
+</ul>
+
+<b>xfwm4</b>
+
+<ul>
+<li>support for image composition with PNG images as layers, 
+which means that one can do gradients or anything else, and that 
+applies to any pixmap that make the window frame</li>
+<li>etliche neue Fensterdekorationen</li>
+<li>der Speicherort für Fensterdekorationen hat sich geändert</li>
+<li>Unterstützung für das "show desktop" Protokoll</li>
+<li>Unterstützung für KDE Kontext Hilfe</li>
+<li>neue Option "Immer oben" für Fenster</li>
+<li>icons in the "Alt+Tab" dialog</li>
+</ul>
+
+<b>Settings manager</b>
+
+<ul>
+<li>neue Optionen wie Schriften gerendert werden sollen</li>
+<li>ein gemeinsamer Dialog für "Desktop workspaces" und "Workspace
+	  margins"</li>
+<li>Monitorauflösung und Gamma Korrektur Dialog hinzugekommen</li>
+</ul>
+
+<b>Neuer Sitzungs Manager</b>
+
+<ul>
+<li>integrierte Kompatibilität mit KDE und Gnome</li>
+<li>Mehrbildschirmbetrieb</li>
+<li>Ist nicht auf smproxy (oder gnome-smproxy) angewiesen, sondern
+	  bietet einfache Unterstützung für Anwendungen, die nicht das
+	  X11R6 Session Management Protocoll implementieren.</li>
+<li>bietet Unterstützung für schöne Themes</li>
+</ul>
+
+<b>xfdesktop</b>
+
+<ul>
+<li>Hintergrund kann nun auch ein Farbverlauf sein</li>
+<li>Optionale Unterstützung für Icons in der Fensterliste und dem
+	  Arbeitsplatzmenu</li>
+<li>Menueditor</li>
+<li>Plugin für das Panel. Damit ist das Arbeitsplatzmenu nun auch
+	  über das Panel erreichbar.</li>
+</ul>
+
+<b>xffm</b>
+
+<ul>
+<li>Unterstützung für zwei Sichten in einem Fenster</li>
+<li>Icon Theme Editor</li>
+<li>viele neue Features</li>
+</ul>
+
+<b>panel</b>
+
+<ul>
+<li>der Einstellungsdialog wurde vereinfacht</li>
+<li>neues Positionierungsschema</li>
+<li>neue Plugin werden nun über einen Dialog dem Panel hinzugefügt.</li>
+<li>prettier move handles</li>
+<li>nicht benutzte Module werden nun automatisch entladen
+</li>
+</ul>
+
+<b>xfce4-mixer</b>
+
+<ul>
+<li>komplett neu geschrieben</li>
+</ul>
+
+<b>xfce4-appfinder</b>
+
+<ul>
+<li>neue Xfce4 Anwendung</li>
+</ul>
+
+<b>gtk-xfce-theme-engine</b>
+
+<ul>
+<li>neue Themes</li>
+</ul>
+
+<br><br>
+
+</body>
+</html> 
