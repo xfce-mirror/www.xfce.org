@@ -1,0 +1,132 @@
+body {
+	margin: 10px;
+	padding: 0;
+	cursor: default;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/**
+ * Make sure, but maybe useless
+ **/
+	div {
+		margin: 0;
+		padding: 0;
+	}
+
+/**
+ * Main divs
+ **/
+	#content-wrap {
+		text-align: center;
+	}
+
+	#global-page {
+		margin: auto;
+		text-align: left;
+		/* width is style dependant */
+		
+		/* Style is designed for >= 780px */
+		min-width: 740px;
+	}
+
+	#global-contentwrap {
+		clear: both;
+		padding: 10px;
+	}
+
+/**
+ * links
+ **/
+	a:link, a:visited, a:active {
+		color: #154374;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color:#ff0000;
+		text-decoration: underline;
+	}
+
+
+/**
+ * Global Fonts
+ **/
+	body, input {
+		font-family: 'trebuchet ms',arial,sans-serif;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+		font-weight: bold;
+		color: #154374;
+	}
+
+	div, p, li, span, a {
+		font-size: 12px;
+	}
+
+/**
+ * Fonts, used in the header
+ **/
+	#header-style p, #header-style a {
+		font-size: 12px;
+	}
+
+	#header-search input {
+		font-size: 12px;
+	}
+
+	#header-menu ul li a {
+		font-size: 12px;
+	}
+	
+/**
+ * Navigation bar
+ **/
+ 
+#content-locationbar, #content-locationbar a {
+	font-size: 11px;
+}
+
+/**
+ * Fonts, used in the front page
+ **/
+	#front-download h2 a {
+		font-size: 25px;
+	}
+
+/**
+ * Usefull classes
+ **/
+	.readmore {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+
+		.readmore a {
+			margin: 0;
+			padding: 0px 5px 0px 15px;
+			background:url(../images/next.png) no-repeat 1px 50%;
+		}
+
+	.hidden {
+		display: none;
+		height: 0;
+		width: 0;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	.clearboth {
+		clear:both;
+		margin: 0;
+		padding: 0;
+	}
+
+	.grey {
+		color: #666666;
+	}
