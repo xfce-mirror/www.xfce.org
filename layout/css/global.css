@@ -1,0 +1,110 @@
+body {
+	margin: 10px;
+	padding: 0;
+	cursor: default;
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+/**
+ * Make sure, but maybe useless
+ **/
+	div {
+		margin: 0;
+		padding: 0;
+	}
+
+/**
+ * Main divs
+ **/
+	#content-wrap {
+		text-align: center;
+	}
+
+	#global-page {
+		margin: auto;
+		text-align: left;
+		/* width is style dependant */
+		
+		/* Style is designed for >= 780px */
+		min-width: 740px;
+	}
+
+	#global-contentwrap {
+		clear: both;
+		padding: 10px;
+	}
+
+/**
+ * links
+ **/
+	a:link, a:visited, a:active {
+		color: #154374;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		color:#ff0000;
+		text-decoration: underline;
+	}
+
+
+/**
+ * Global Fonts
+ **/
+	body, input {
+		font-family: arial, verdana, sans-serif;
+		font-size: 85%;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: 0;
+		padding: 0;
+		font-size: 120%;
+		font-weight: bold;
+		color: #154374;
+	}
+	
+	/* Smaller text */
+	li ul, .grey, #header-style {
+		font-size: 85%;
+	}
+	
+	/* Fixed fonts size, because the box is fixed */
+	#front-download h2 {
+		font-size: 26px;
+	}
+
+
+/**
+ * Usefull classes
+ **/
+	.readmore {
+		text-align: right;
+		margin: 0;
+		padding: 0;
+	}
+
+		.readmore a {
+			margin: 0;
+			padding: 0px 5px 0px 15px;
+			background:url(../images/next.png) no-repeat 1px 50%;
+		}
+
+	.hidden {
+		display: none;
+		height: 0;
+		width: 0;
+		overflow: hidden;
+		position: absolute;
+	}
+
+	.clearboth {
+		clear:both;
+		margin: 0;
+		padding: 0;
+	}
+
+	.grey {
+		color: #666666;
+	}
