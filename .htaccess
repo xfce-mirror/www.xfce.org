@@ -1,7 +1,14 @@
 #<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /
+#	RewriteEngine On
+#	RewriteBase /
+#	RewriteCond %{REQUEST_FILENAME} !-f
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteRule . /test.php
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On RewriteBase /
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
-	RewriteRule . /test.php
-#</IfModule>
+RewriteRule ^(.+)$ /test.php/$1 [L,QSA]
+</IfModule>
