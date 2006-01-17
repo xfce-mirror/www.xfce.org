@@ -14,7 +14,7 @@
     
     if ($uri == "") {
       #index
-      return (XFCEROOT ."includes/frontpage.php");
+      return (XFCEROOT ."include/frontpage.php");
     }
     
       
