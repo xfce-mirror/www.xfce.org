@@ -12,7 +12,7 @@
 				</div>
 				<div id="front-lang">
 					<h2 class="hidden">Site Language</h2>
-					<p class="langcolor">Language: <a href="#" title="Deutsch">du</a> | <a href="#" title="Nederlands">nl</a> | <a href="#" title="Español">es</a> | <a href="#" title="Français">fr</a> | <a href="#" title="">ru</a> | <a href="#" title="Italiano">it</a> | <a href="#" title="">zh</a></p>
+					<p class="langcolor">Language: <a href="#" title="">du</a> | <a href="#" title="">nl</a> | <a href="#" title="">es</a> | <a href="#" title="">fr</a> | <a href="#" title="">ru</a> | <a href="#" title="">it</a> | <a href="#" title="">zh</a></p>
 				</div>
 			</div>
 			<div id="front-intro-about">

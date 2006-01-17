@@ -11,7 +11,7 @@
 	if ($file) {
 		include ($file);
 	} else {
-		echo "Page not found, search the Xfce website.";
+		print ("Page '<strong>". $uri ."</strong>' not found, search the Xfce website.");
 	}
 	
 	include ("includes/footer.php");
