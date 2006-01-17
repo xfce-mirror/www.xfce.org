@@ -1,8 +1,8 @@
 <?php
-	$defaultstyle = "fixed";
+	$defaultstyle = "normal";
 	
 	if (strtolower ($_GET["style"]) == "liquid"
-		|| strtolower ($_GET["style"]) == "fixed")
+		|| strtolower ($_GET["style"]) == "normal")
 	{
 		$style = strtolower ($_GET["style"]);
 		
@@ -12,7 +12,7 @@
 	{
 		$style = $_COOKIE["xfcestyle"];
 		
-		if ($style != "liquid" && $style != "fixed")
+		if ($style != "liquid" && $style != "normal")
 		{
 			$style = $defaultstyle;
 		}
@@ -30,33 +30,47 @@
 		<title>Xfce - Desktop Environment</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		
-		<style type="text/css">
-		
-			@import url("'. XFCEURL .'/layout/css/global.css");
-			@import url("'. XFCEURL .'/layout/css/content.css");
-			@import url("'. XFCEURL .'/layout/css/header.css");
-			@import url("'. XFCEURL .'/layout/css/footer.css");
-			@import url("'. XFCEURL .'/layout/css/ie.css");
-			
-			@import url("'. XFCEURL .'/layout/css/front.css");
-			
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/global.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/content.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/header.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/footer.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/ie.css" type="text/css" />
 		');
-
-		if ($style == "liquid")
+		
+		if (CleanupURI($_SERVER["REDIRECT_URL"]) == "")
 		{
-			
-			print ('#global-page {
-					width: 100%;
-				}');
-			
+			print ('<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/front.css" type="text/css" />');
 		}
-		else /* fixed */
-		{ 
+		
+	print ('
+		<style type="text/css">
+		');
 			
-			print ('#global-page {
-					width: 780px;
-				}');
-		}
+		
+			
+	if ($style == "liquid")
+	{
+			
+		print ('
+			#global-page {
+				width: 100%;
+			}');
+			
+	}
+	else /* normal */
+	{ 
+			
+		print ('
+			#global-page {
+				min-width: 740px;
+				max-width: 1000px;
+				width: 100%;
+			}
+				
+			* html #global-page {
+				width: 780px;
+			}');
+	}
 		
 			
 	print ('
@@ -83,7 +97,7 @@
 					<div id="header-right">
 						<div id="header-style">
 							<h2 class="hidden">Website Layout</h2>
-							<p>Layout: <a href="?style=fixed" title="Fixed Width Layout (780px Width)">Fixed</a> / 
+							<p>Layout: <a href="?style=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
 							<a href="?style=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
 						</div>
 						<div id="header-search">
