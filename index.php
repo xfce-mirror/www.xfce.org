@@ -12,8 +12,6 @@
 		include ($file);
 	} else {
 		print ("Page '<strong>". $uri ."</strong>' not found, search the Xfce website.");
-		print ("<br />");
-		print ("REQUEST_URI: <strong>". $_SERVER["REQUEST_URI"] ."</strong>");
 	}
 	
 	include ("includes/footer.php");

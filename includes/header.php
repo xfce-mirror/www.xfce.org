@@ -1,19 +1,12 @@
 <?php
 	$defaultstyle = "fixed";
 	
-	if ($_GET["style"])
+	if (strtolower ($_GET["style"]) == "liquid"
+		|| strtolower ($_GET["style"]) == "fixed")
 	{
 		$style = strtolower ($_GET["style"]);
 		
-		if ($style == "liquid" || $style == "fixed")
-		{
-			/* Save cookie */
-			setcookie ( "xfcestyle", $style, (time()+(60*60*24*365)));
-		}
-		else
-		{
-			$style = $defaultstyle;
-		}
+		setcookie ( "xfcestyle", $style, (time()+(60*60*24*365)));
 	}
 	else if ($_COOKIE["xfcestyle"])
 	{
