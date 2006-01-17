@@ -29,11 +29,6 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<title>Xfce - Desktop Environment</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-
-		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/fixed.css" type="text/css" title="Fixed" />
-		<link rel="alternate stylesheet" media="screen" href="'. XFCEURL .'/layout/css/liquid.css" type="text/css" title="Liquid" />
-		<!-- Only needed for the front page -->
-		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/front.css" type="text/css" />
 		
 		<style type="text/css">
 		
@@ -42,6 +37,8 @@
 			@import url("'. XFCEURL .'/layout/css/header.css");
 			@import url("'. XFCEURL .'/layout/css/footer.css");
 			@import url("'. XFCEURL .'/layout/css/ie.css");
+			
+			@import url("'. XFCEURL .'/layout/css/front.css");
 			
 		');
 
