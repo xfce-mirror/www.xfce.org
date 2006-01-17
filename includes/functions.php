@@ -11,14 +11,14 @@
 		
 		if ($uri == "") {
 			#index
-			return false;
+			return (XFCEROOT ."includes/frontpage.php");
 		}
 		
 				
 		$file = XFCEROOT . "i18n/" . $uri . "." . $lang . ".php";
 		if (is_file ($file )) {
 			
-			return $file;
+			return ($file);
 		} else {
 			/**
 			 * Maybe recursively strip the uri and try it, so projects/mousepad/download/foo/foo/foo/foo/foo
