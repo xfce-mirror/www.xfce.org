@@ -1,5 +1,4 @@
 <?php
-
 	print ('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 		    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 		<html xmlns="http://www.w3.org/1999/xhtml">
@@ -8,15 +7,15 @@
 		<title>Xfce - Desktop Environment</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-		<link rel="stylesheet" media="screen" href="./layout/css/fixed.css" type="text/css" title="Fixed" />
-		<link rel="alternate stylesheet" media="screen" href="./layout/css/liquid.css" type="text/css" title="Liquid" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/fixed.css" type="text/css" title="Fixed" />
+		<link rel="alternate stylesheet" media="screen" href="'. XFCEURL .'/layout/css/liquid.css" type="text/css" title="Liquid" />
 		<!-- Only needed for the front page -->
-		<link rel="stylesheet" media="screen" href="./layout/css/front.css" type="text/css" />
+		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/front.css" type="text/css" />
 
-		<link rel="alternate" type="application/rss+xml" title="Xfce News" href="./news.rdf" />
-		<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="./blog.rdf" />
+		<link rel="alternate" type="application/rss+xml" title="Xfce News" href="'. XFCEURL .'/news.rdf" />
+		<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="'. XFCEURL .'/blog.rdf" />
 
-		<script type="text/javascript" src="./layout/js/styleswitcher.js"></script>
+		<script type="text/javascript" src="'. XFCEURL .'/layout/js/styleswitcher.js"></script>
 
 		</head>
 		<body>
@@ -50,12 +49,12 @@
 					<div id="header-menu">
 						<h2 class="hidden">Site navigation</h2>
 						<ul>
-							<li><a href="./" title="Home">Home</a></li>
-							<li><a href="./about" title="About">About</a></li>
-							<li><a href="./projects" title="Projects">Projects</a></li>
-							<li><a href="./download" title="Download">Download</a></li>
-							<li><a href="./docs" title="Documentation">Documentation</a></li>
-							<li><a href="./community" title="Community">Community</a></li>
+							<li><a href="'. XFCEURL .'/" title="Home">Home</a></li>
+							<li><a href="'. XFCEURL .'/about" title="About">About</a></li>
+							<li><a href="'. XFCEURL .'/projects" title="Projects">Projects</a></li>
+							<li><a href="'. XFCEURL .'/download" title="Download">Download</a></li>
+							<li><a href="'. XFCEURL .'/docs" title="Documentation">Documentation</a></li>
+							<li><a href="'. XFCEURL .'/community" title="Community">Community</a></li>
 						</ul>
 					</div>
 				</div>
