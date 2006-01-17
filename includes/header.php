@@ -1,4 +1,34 @@
 <?php
+	$defaultstyle = "fixed";
+	
+	if ($_GET["style"])
+	{
+		$style = strtolower ($_GET["style"]);
+		
+		if ($style == "liquid" || $style == "fixed")
+		{
+			/* Save cookie */
+			setcookie ( "xfcestyle", $style, (time()+(60*60*24*365)));
+		}
+		else
+		{
+			$style = $defaultstyle;
+		}
+	}
+	else if ($_COOKIE["xfcestyle"])
+	{
+		$style = $_COOKIE["xfcestyle"];
+		
+		if ($style != "liquid" && $style != "fixed")
+		{
+			$style = $defaultstyle;
+		}
+	}
+	else
+	{
+		$style = $defaultstyle;
+	}
+	
 	print ('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 		    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 		<html xmlns="http://www.w3.org/1999/xhtml">
@@ -11,11 +41,39 @@
 		<link rel="alternate stylesheet" media="screen" href="'. XFCEURL .'/layout/css/liquid.css" type="text/css" title="Liquid" />
 		<!-- Only needed for the front page -->
 		<link rel="stylesheet" media="screen" href="'. XFCEURL .'/layout/css/front.css" type="text/css" />
+		
+		<style type="text/css">
+		
+			@import url("'. XFCEURL .'/layout/css/global.css");
+			@import url("'. XFCEURL .'/layout/css/content.css");
+			@import url("'. XFCEURL .'/layout/css/header.css");
+			@import url("'. XFCEURL .'/layout/css/footer.css");
+			@import url("'. XFCEURL .'/layout/css/ie.css");
+			
+		');
+
+		if ($style == "liquid")
+		{
+			
+			print ('#global-page {
+					width: 100%;
+				}');
+			
+		}
+		else /* fixed */
+		{ 
+			
+			print ('#global-page {
+					width: 780px;
+				}');
+		}
+		
+			
+	print ('
+		</style>
 
 		<link rel="alternate" type="application/rss+xml" title="Xfce News" href="'. XFCEURL .'/news.rdf" />
 		<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="'. XFCEURL .'/blog.rdf" />
-
-		<script type="text/javascript" src="'. XFCEURL .'/layout/js/styleswitcher.js"></script>
 
 		</head>
 		<body>
@@ -35,8 +93,8 @@
 					<div id="header-right">
 						<div id="header-style">
 							<h2 class="hidden">Website Layout</h2>
-							<p>Layout: <a href="#" title="Fixed Width Layout (780px Width)" onclick="setActiveStyleSheet(\'Fixed\'); return false;">Fixed</a> / 
-							<a href="#" title="Fluid Layout (100% Width)" onclick="setActiveStyleSheet(\'Liquid\'); return false;">Liquid</a></p>
+							<p>Layout: <a href="?style=fixed" title="Fixed Width Layout (780px Width)">Fixed</a> / 
+							<a href="?style=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
 						</div>
 						<div id="header-search">
 							<h2 class="hidden">Search</h2>
