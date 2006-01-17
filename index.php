@@ -1,8 +1,8 @@
 <?php
-	include_once ("includes/config.php");
-	include_once ("includes/functions.php");
+	include_once ("include/config.php");
+	include_once ("include/functions.php");
 	
-	include ("includes/header.php");
+	include ("include/header.php");
 	
 	$lang = "en";
 	$uri = CleanupURI($_SERVER["REDIRECT_URL"]);
@@ -14,5 +14,5 @@
 		print ("Page '<strong>". $uri ."</strong>' not found, search the Xfce website.");
 	}
 	
-	include ("includes/footer.php");
+	include ("include/footer.php");
 ?>
