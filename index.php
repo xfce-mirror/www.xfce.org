@@ -1,20 +1,39 @@
 <?php
-	include_once ("include/functions.php");
-	include_once ("include/header.php");
-	include_once ("include/footer.php");
+include_once ("include/header.php");
+include_once ("include/footer.php");
+include_once ("include/frontpage.php");
 
-	$lang = "en";
-	$uri = CleanupURI($_SERVER["REDIRECT_URL"]);
+$lang = "en";
 
-	$file = GetContentPage ($uri, $lang);
-
-	PrintHeader ($uri, $file, $lang);
+$uri = $_SERVER["REDIRECT_URL"];
+	$uri = trim($uri, '/');
+	$uri = strtolower ($uri);
 	
-	if ($file) {
+	
+PrintHeader ($uri, $file, $lang);
+	
+if ($uri == "")
+{
+	PrintFrontpage ();
+}
+else
+{
+	$file = "i18n/" . $uri . "." . $lang . ".php";
+	$file_en = "i18n/" . $uri . ".en.php";
+	
+	if (is_file ($file))
+	{
 		include ($file);
-	} else {
-		include ("include/frontpage.php");
 	}
-	
-	PrintFooter ($lang);
+	else if (is_file ($file_en))
+	{
+		include ($file_en);
+	}
+	else
+	{
+		print ("<h1>404, page not found</h1>");
+	}
+}
+
+PrintFooter ($lang);
 ?>
