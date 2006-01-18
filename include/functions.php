@@ -23,7 +23,7 @@
      * will be reduced to projects/mousepad/download and /projects/mousepad/download.en.php will be returned
      **/
     
-    $file = XFCEROOT . "i18n/" . $uri . "." . $lang . ".php";
+    $file = "i18n/" . $uri . "." . $lang . ".php";
     
     
     if (is_file ($file)) {
@@ -33,7 +33,7 @@
     
     
     if ($lang != "en") {
-      $file_en = XFCEROOT . "i18n/" . $uri . ".en.php";
+      $file_en = "i18n/" . $uri . ".en.php";
       if (is_file ($file_en)) {
       
         return ($file_en);
