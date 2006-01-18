@@ -6,6 +6,7 @@
   function CleanupURI ($uri) {
   
     $uri = trim($uri, '/');
+    $uri = strtolower ($uri);
     
     return $uri;
   }
@@ -14,10 +15,9 @@
     
     if ($uri == "") {
       #index
-      return (XFCEROOT ."include/frontpage.php");
+      return false;
     }
     
-      
     /**
      * Maybe recursively strip the uri and try it, so projects/mousepad/download/foo/foo/foo/foo/foo
      * will be reduced to projects/mousepad/download and /projects/mousepad/download.en.php will be returned
@@ -53,5 +53,39 @@
   function SetLanguage () {
   
   
+  }
+  
+/**
+ * Breadcrumbs
+ **/
+  function CreateBreadcrumbs ($uri)
+  {
+	/* &#187; */
+	
+	$crumbs = explode ("/", $uri);
+
+	if ($crumbs[0])
+	{
+		#goto frontpage
+		$url = '/';
+		$breadcrumbs = '<a href="'. $url .'" title="Home">Home</a> &#187; ';
+		
+		for ($i=0; $i < (count($crumbs)-1); $i++)
+		{
+			$url .= $crumbs[$i] . '/';
+			$breadcrumbs .= '<a href="'. $url .'" title="'. ucfirst($crumbs[$i]) .'">'. ucfirst($crumbs[$i]) .'</a> &#187; ';
+			
+		}
+		
+		# Add last item
+		$url .= $crumbs[count($crumbs)-1] . '/';
+		$breadcrumbs .= ucfirst($crumbs[count($crumbs)-1]);
+		
+		return $breadcrumbs;
+	}
+	else
+	{
+		return false;
+	}
   }
 ?>
