@@ -1,13 +1,11 @@
 <?php
 	/* Benchmark */
 	$startTime = array_sum(explode(" ",microtime()));
-
-	include_once ("include/config.php");
+	
 	include_once ("include/functions.php");
 	include_once ("include/header.php");
 	include_once ("include/footer.php");
-	
-	
+	echo ''. round((array_sum(explode(" ",microtime())) - $startTime),4).' seconds';
 	$lang = "en";
 	$uri = CleanupURI($_SERVER["REDIRECT_URL"]);
 
@@ -24,5 +22,5 @@
 	
 	PrintFooter ($lang);
 	
-	echo '<!-- '. round((array_sum(explode(" ",microtime())) - $startTime),4).' seconds -->';
+	echo ''. round((array_sum(explode(" ",microtime())) - $startTime),4).' seconds';
 ?>
