@@ -92,7 +92,7 @@ function PrintHeader ($uri, $file, $lang)
 	else
 		$content_bool = true;
 
-	if ($file) /* Don't display on Frontpage */
+	if ($file) /* Don't display on Frontpage or if file doesn't exist */
 		$breadcrumbs = CreateBreadcrumbs ($uri);
 
 	if (is_file ("i18n/header.".$lang.".php"))
