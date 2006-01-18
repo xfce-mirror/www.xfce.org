@@ -2,19 +2,22 @@
 		<div id="content-menu">
 			<h2 class="hidden">Content Navigation</h2>
 			<ul>
-				<li><strong>Applications</strong>
+				<li><a href="/projects/thunar">About</a></li>
+				<li><a href="/projects/thunar/documentation">Documentation</a></li>
+				<li><a href="/projects/thunar/download">Downloads</a>
 					<ul>
-						<li><a href="/projects/thunar">Thunar</a></li>
-						<li>Terminal</li>
-						<li>Xfmedia</li>
-						<li>Xffm</li>
-						<li>Xfburn</li>
-						<li>Mousepad</li>
+						<li><a href="/projects/thunar/download#releases">Releases</a></li>
+						<li><a href="/projects/thunar/download#snapshots">Daily Snapshot</a></li>
+						<li><a href="/projects/thunar/download#svn">Build from SVN</a></li>
 					</ul>
 				</li>
-				<li><strong>Other</strong>
+				<li><a href="/projects/thunar/news">News</a></li>
+				<li><a href="/projects/thunar/credits">Credits</a></li>
+				<li><a href="/projects/thunar/contact">Contact</a></li>
+				<li><a href="/projects/thunar/links">Links</a>
 					<ul>
-						<li>Xfce website</li>
+						<li><a href="http://xfce-diary.blogspot.com/" target="_blank">Blog</a></li>
+						<li><a href="http://www.os-cillation.com/" target="_blank">os-cillation</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -26,6 +29,6 @@
 		</div>
 	</div>
 	<div id="content-text">
-		<h2>Projects</h2>
+		<h2>Thunar</h2>
 		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut faucibus  ipsum sit amet libero. Donec tincidunt. Cras elementum. In venenatis,  risus sagittis bibendum viverra, orci purus ullamcorper lacus, vitae  viverra erat libero eget dolor. Maecenas ac leo a libero mollis rutrum.  Morbi sit amet lectus. Pellentesque porttitor. Proin risus justo,  interdum vitae, convallis eget, gravida et, nisi. Ut aliquet felis sed  nisi. Cras accumsan mauris vulputate pede. Nullam sit amet quam ac  turpis viverra blandit. Sed at pede vel lorem varius aliquam. Fusce non  est. Etiam lacus leo, convallis id, ultrices sit amet, dictum et,  ipsum. Cras iaculis ligula vitae nibh. Sed dictum lacus sit amet velit. </p>
 	</div>
