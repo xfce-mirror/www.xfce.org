@@ -9,8 +9,7 @@ $uri = $_SERVER["REDIRECT_URL"];
 	$uri = trim($uri, '/');
 	$uri = strtolower ($uri);
 	
-	
-PrintHeader ($uri, $file, $lang);
+PrintHeader ($uri, $lang);
 	
 if ($uri == "")
 {

@@ -82,18 +82,17 @@ function CreateBreadcrumbs ($uri)
 	}
 }
 
-function PrintHeader ($uri, $file, $lang)
+function PrintHeader ($uri, $lang)
 {
 
 	$custom_css = LayoutCSS ();
 
-	if (!$file) /* Front page will be displayed */
+	if ($uri == "") /* Front page will be displayed */
 		$linked_css = '<link rel="stylesheet" media="screen" href="/layout/css/front.css" type="text/css" />';
 	else
 		$content_bool = true;
-
-	if ($file) /* Don't display on Frontpage or if file doesn't exist */
-		$breadcrumbs = CreateBreadcrumbs ($uri);
+	
+	$breadcrumbs = CreateBreadcrumbs ($uri);
 
 	if (is_file ("i18n/header.".$lang.".php"))
 		include ("i18n/header.".$lang.".php");
