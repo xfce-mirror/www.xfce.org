@@ -48,7 +48,7 @@ if ($uri == "")
 }
 else
 {
-	$content = GetContent ($uri, $lang)
+	$content = GetContent ($uri, $lang);
 	PrintHeader ($uri, $lang, $layout);
 	PrintContent ($content);
 	PrintFooter ($lang);
