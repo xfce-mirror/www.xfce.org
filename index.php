@@ -10,8 +10,6 @@ session_start();
 $layout = UserVariable ("layout", array ("normal","liquid"), "normal");
 $lang = UserVariable ("lang", array ("en","nl"), "en");
 
-echo $lang;
-
 /* Recursive stripping idea:
 	- explode uri
 	- start building the uri again while trying if the file exists
