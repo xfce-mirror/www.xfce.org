@@ -47,7 +47,7 @@
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
 						<form action="#" method="post">
-							<input name="q" type="text" id="q" onfocus="if(this.value==this.defaultValue ) this.value=\'\';" onblur="if(this.value==\'\') this.value=this.defaultValue;" value="Search..." />
+							<input name="q" type="text" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
 							<input type="button" class="hidden" value="Search" />
 						</form>
 					</div>

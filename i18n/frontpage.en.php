@@ -24,7 +24,7 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to \'Xfce News\'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
+			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
 			<ul>
 				<li><span class="grey">2006-12-06</span><br />
 					<a href="#">OSNews has a review of the new 4.4 release</a>
@@ -76,7 +76,7 @@
 	</div>
 	<div id="front-blog">
 		<div id="front-blog-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to \'Xfce Blog\'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
+			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
 			<ul>
 				<li><span class="grey">Eduard @ 2006-01-10</span><br />
 					<a href="#">Appfinder integration in panel</a>
