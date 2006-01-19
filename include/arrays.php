@@ -1,8 +1,9 @@
 <?php
 
 $languages = array (
-    "en" => 'English',
-    "nl" => 'Nederlandssss',
+	"du" => 'Deutsch',
+	"en" => 'English',
+	"nl" => 'Nederlands',
 );
 
 class Contrubutors {

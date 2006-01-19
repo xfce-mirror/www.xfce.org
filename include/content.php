@@ -28,6 +28,7 @@ function GetContent ($uri, $lang)
 		}
 		else
 		{
+			# Page does not exist, return 404 page and 404 header for wget
 			header("HTTP/1.0 404 Not Found");
 			return GetContent ("404", $lang);
 		}
