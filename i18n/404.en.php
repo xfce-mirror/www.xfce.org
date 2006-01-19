@@ -1,11 +1,19 @@
-<h1>404 Page not found error</h1>
+<h1>Page not found</h1>
 
-<p>The page you requested was not found. Please report this error to the webmaster, and try one of the alternative ways to find the page you are looking for:</p>
+<p>The page you requested was not found (404 error).<p>
 
-<p>
-	<ul>
-		<li>Use the back buttin to go back to the page you came from</li>
-		<li>Navigate the index page to the page you need</li>
-		<li>Use the search facility on this site</li>
-	</ul>
-</p>
+<p><i>This is not supposed to happen!</i></p>
+
+<p>If you clicked on a link that brought you to this page, or you have reached this page through a search engine or bookmark, it could very well be that the page you were looking for was removed, renamed or temporary unavailable.</p>
+
+<p>Please try one of the following methods to find the page you are looking for:</p>
+
+<ul>
+	<li>If you typed the page address in the Address bar, make sure that it is spelled correctly.</li>
+ <li>Open the <a href="/">Xfce home page</a> and look for links to the information you want.</li>
+ <li>Use the navigation bar on the right to find the link you are looking for.</li>
+ <li>Click the Back button to try another link.</li>
+ <li>Enter a term in the search form above to look for information on the Xfce website</li>
+</ul>
+
+<p>You can always <a href="mailto:webmaster@xfce.org">ask the webmaster</a> to assist you with your search, or report the problem in case you think this is needed.</p>
