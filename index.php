@@ -1,11 +1,16 @@
 <?php
 
+include_once ("include/functions.php");
 include_once ("include/header.php");
 include_once ("include/footer.php");
 include_once ("include/frontpage.php");
 include_once ("include/content.php");
 
-$lang = "en";
+session_start();
+$layout = UserVariable ("layout", array ("normal","liquid"), "normal");
+$lang = UserVariable ("lang", array ("en","nl"), "en");
+
+echo $lang;
 
 /* Recursive stripping idea:
 	- explode uri
@@ -23,7 +28,7 @@ $uri = $_SERVER["REDIRECT_URL"];
 	$uri = trim($uri, '/');
 	$uri = strtolower ($uri);
 	
-PrintHeader ($uri, $lang);
+PrintHeader ($uri, $lang, $layout);
 	
 if ($uri == "")
 {

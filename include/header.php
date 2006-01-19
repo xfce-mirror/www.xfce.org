@@ -4,6 +4,7 @@ function LayoutCSS ()
 	/**
 	* Define style css
 	**/
+	
 	$normal ='#global-page {'.
 			'min-width: 740px; '.
 			'max-width: 1000px; '.
@@ -27,14 +28,25 @@ function LayoutCSS ()
 	if ($get == "liquid")
 	{
 		setcookie ("layout", "liquid", $expire, "/");
+		$_SESSION["layout"] = "liquid";
 		return $liquid;
 	}
 
 	if ($get == "normal")
 	{
 		setcookie ("layout", "normal", $expire, "/");
+		$_SESSION["layout"] = "normal";
 		return $normal;
 	}
+	
+	/**
+	 * Session value
+	 **/
+	if ($_SESSION["layout"] == "liquid")
+		return $liquid;
+
+	if ($_SESSION["layout"] == "normal")
+		return $normal;
 
 	/**
 	* Search for cookie
@@ -42,16 +54,22 @@ function LayoutCSS ()
 	$cookie = strtolower ($_COOKIE["layout"]);
 
 	if ($cookie == "liquid")
+	{
+		$_SESSION["layout"] = "liquid";
 		return $liquid;
+	}
 
 	if ($cookie == "normal")
+	{
+		$_SESSION["layout"] = "normal";
 		return $normal;
+	}
 
 	/**
 	* Default value
 	**/
+	$_SESSION["layout"] = "normal";
 	return $normal;
-
 }
 
 function CreateBreadcrumbs ($uri)
@@ -83,10 +101,27 @@ function CreateBreadcrumbs ($uri)
 	}
 }
 
-function PrintHeader ($uri, $lang)
+function PrintHeader ($uri, $lang, $layout)
 {
-
-	$custom_css = LayoutCSS ();
+	# Define style css
+	if ($layout == "liquid")
+	{
+		$layout_css =	'#global-page {'.
+					'width: 100%; '.
+				'}';
+	} else {
+		
+			
+		$layout_css =	'#global-page {'.
+					'min-width: 740px; '.
+					'max-width: 1000px; '.
+					'width: 100%; '.
+				'}'.
+				' '.
+				'* html #global-page {'.
+					'width: 780px; '.
+				'}';
+	}
 
 	if ($uri == "") 
 		# Frontpage: show extra css file

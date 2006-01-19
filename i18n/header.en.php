@@ -15,7 +15,7 @@
 
 
 	<style type="text/css">
-		<?php echo $custom_css; ?>
+		<?php echo $layout_css; ?>
 		
 	</style>
 
@@ -41,8 +41,8 @@
 				<div id="header-right">
 					<div id="header-style">
 						<h2 class="hidden">Website Layout</h2>
-						<p>Layout: <a href="?style=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
-						<a href="?style=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
+						<p>Layout: <a href="?layout=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
+						<a href="?layout=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
