@@ -48,8 +48,7 @@ if ($uri == "")
 }
 else
 {
-	if (! $content = GetContent ($uri, $lang))
-		header("HTTP/1.0 404 Not Found");
+	$content = GetContent ($uri, $lang)
 	PrintHeader ($uri, $lang, $layout);
 	PrintContent ($content);
 	PrintFooter ($lang);

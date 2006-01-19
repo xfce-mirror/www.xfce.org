@@ -29,8 +29,8 @@ function GetContent ($uri, $lang)
 		}
 		else
 		{
-			GetContent ("404", $lang);
-			return false;
+			header("HTTP/1.0 404 Not Found");
+			return GetContent ("404", $lang);
 		}
 		
 		$uri_dir = dirname ($uri);
