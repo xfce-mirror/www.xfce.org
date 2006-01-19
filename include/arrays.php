@@ -6,7 +6,7 @@ $languages = array (
 	"nl" => 'Nederlands',
 );
 
-class Contrubutors {
+class Contributors {
 	
 	function Developers ()
 	{
