@@ -1,5 +1,12 @@
 <?php
 
+function microtime_float()
+{
+	list($usec, $sec) = explode(" ", microtime());
+	return ((float)$usec + (float)$sec);
+}
+$time_start = microtime_float();
+
 include_once ("include/functions.php");
 include_once ("include/arrays.php");
 include_once ("include/header.php");
@@ -48,4 +55,7 @@ else
 }
 
 PrintFooter ($lang);
+
+$time_end = microtime_float();
+echo "<center>Execution time: ". round($time_end - $time_start, 4) ." seconds</center>"; 
 ?>

@@ -10,7 +10,7 @@
 		</div>
 		<div id="front-lang">
 			<h2 class="hidden">Site Language</h2>
-			<p class="langcolor">Language: <?php echo $lang_links ?></p>
+			<p class="langcolor">Taal: <?php echo $lang_links ?></p>
 		</div>
 	</div>
 	<div id="front-intro-about">
