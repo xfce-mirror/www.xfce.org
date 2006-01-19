@@ -10,7 +10,7 @@
 		</div>
 		<div id="front-lang">
 			<h2 class="hidden">Site Language</h2>
-			<p class="langcolor">Language: <a href="?lang=en" title="English">en</a> | <a href="?lang=nl" title="Nederlands">nl</a></p>
+			<p class="langcolor">Language: <?php echo $lang_links ?></p>
 		</div>
 	</div>
 	<div id="front-intro-about">

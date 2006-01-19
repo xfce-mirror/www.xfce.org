@@ -1,14 +1,20 @@
 <?php
 
 include_once ("include/functions.php");
+include_once ("include/arrays.php");
 include_once ("include/header.php");
 include_once ("include/footer.php");
 include_once ("include/frontpage.php");
 include_once ("include/content.php");
 
+$languages = array (
+    "en" => 'English',
+    "nl" => 'Nederlands',
+);
+
 session_start();
 $layout = UserVariable ("layout", array ("normal","liquid"), "normal");
-$lang = UserVariable ("lang", array ("en","nl"), "en");
+$lang = UserVariable ("lang", array_keys($languages), "en");
 
 /* Recursive stripping idea:
 	- explode uri
@@ -30,7 +36,7 @@ PrintHeader ($uri, $lang, $layout);
 	
 if ($uri == "")
 {
-	PrintFrontpage ($lang);
+	PrintFrontpage ($lang, $languages);
 }
 elseif ($content = GetContent ($uri, $lang))
 {
