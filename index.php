@@ -39,22 +39,22 @@ $uri = $_SERVER["REDIRECT_URL"];
 	$uri = trim($uri, '/');
 	$uri = strtolower ($uri);
 	
-PrintHeader ($uri, $lang, $layout);
 	
 if ($uri == "")
 {
+	PrintHeader ($uri, $lang, $layout);
 	PrintFrontpage ($lang, $languages);
-}
-elseif ($content = GetContent ($uri, $lang))
-{
-	PrintContent ($content);
+	PrintFooter ($lang);
 }
 else
 {
-	print ("<h1>404, page not found</h1>");
+	if (! $content = GetContent ($uri, $lang))
+		header("HTTP/1.0 404 Not Found");
+	PrintHeader ($uri, $lang, $layout);
+	PrintContent ($content);
+	PrintFooter ($lang);
 }
 
-PrintFooter ($lang);
 
 $time_end = microtime_float();
 echo "<center>Execution time: ". round($time_end - $time_start, 4) ." seconds</center>"; 
