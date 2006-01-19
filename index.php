@@ -1,11 +1,5 @@
 <?php
 
-function micro_time() {
-   $temp = explode(" ", microtime());
-   return bcadd($temp[0], $temp[1], 6);
-}
-$time_start = micro_time();
-
 include_once ("include/header.php");
 include_once ("include/footer.php");
 include_once ("include/frontpage.php");
@@ -45,8 +39,4 @@ else
 }
 
 PrintFooter ($lang);
-
-$time_stop = micro_time();
-
-echo round(($time_stop - $time_start), 6);
 ?>
