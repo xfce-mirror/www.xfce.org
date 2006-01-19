@@ -20,12 +20,11 @@ function GetContent ($uri, $lang)
 		if (is_file ($file))
 		{
 			$content["file"] = $file;
-			$content["filelang"] = true; # In your language
 		}
 		elseif (is_file ($file_en))
 		{
 			$content["file"] = $file_en;
-			$content["filelang"] = false;
+			$content["wronglang"] = true; # not in your language
 		}
 		else
 		{
@@ -41,12 +40,10 @@ function GetContent ($uri, $lang)
 		if (is_file ($nav))
 		{
 			$content["nav"] = $nav;
-			$content["navlang"] = true;
 		}
 		elseif (is_file ($nav_en))
 		{
 			$content["nav"] = $nav_en;
-			$content["navlang"] = false;
 		}
 		else
 		{
@@ -68,6 +65,14 @@ function PrintSponsor () {
 function PrintContent ($content)
 {
 	print ('<div id="content-right">');
+	
+	if ($content["wronglang"])
+	{
+		print ('<div id="content-lang">');
+		print ('<p>This page is not available in your language. Feel free to translate.</p>');
+		print ('</div');
+	}
+	
 	if ($content["nav"])
 	{
 		print ('<div id="content-menu">
