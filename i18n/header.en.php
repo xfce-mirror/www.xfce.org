@@ -63,9 +63,15 @@
 						<li><a href="/community" title="Community">Community</a></li>
 					</ul>
 				</div>
-				<div id="header-breadcrumbs">
-					<h2 class="hidden">Breadcrumbs</h2>
-					<?php echo $breadcrumbs; ?>
+				<div id="header-white">
+					<div id="header-language">
+						<h2 class="hidden">Site Language</h2>
+						<?php echo $lang_links; ?>
+					</div>
+					<div id="header-breadcrumbs">
+						<h2 class="hidden">Breadcrumbs</h2>
+						<?php echo $breadcrumbs; ?>
+					</div>
 				</div>
 			</div>
 			<hr class="hidden" />

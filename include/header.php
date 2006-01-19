@@ -1,75 +1,21 @@
 <?php
-function LayoutCSS ()
+function CreateLanguageBar ($languages, $lang)
 {
-	/**
-	* Define style css
-	**/
-	
-	$normal ='#global-page {'.
-			'min-width: 740px; '.
-			'max-width: 1000px; '.
-			'width: 100%; '.
-		'}'.
-		' '.
-		'* html #global-page {'.
-			'width: 780px; '.
-		'}';
-
-	$liquid ='#global-page {'.
-			'width: 100%; '.
-		'}';
-    
-	/**
-	* Is there a post value?
-	**/
-	$get = strtolower ($_GET["style"]);
-	$expire = time()+(60*60*24*365);
-
-	if ($get == "liquid")
+	$links = "";
+	foreach($languages as $short => $long)
 	{
-		setcookie ("layout", "liquid", $expire, "/");
-		$_SESSION["layout"] = "liquid";
-		return $liquid;
+		$i++;
+		
+		if ($short == $lang)
+			$links .= '<a href="?lang='. $short .'" title="'. $long .'"><strong>'. $short .'</strong></a>';
+		else
+			$links .= '<a href="?lang='. $short .'" title="'. $long .'">'. $short .'</a>';
+		
+		if ($i < count ($languages))
+			$links .= ' | ';
 	}
 
-	if ($get == "normal")
-	{
-		setcookie ("layout", "normal", $expire, "/");
-		$_SESSION["layout"] = "normal";
-		return $normal;
-	}
-	
-	/**
-	 * Session value
-	 **/
-	if ($_SESSION["layout"] == "liquid")
-		return $liquid;
-
-	if ($_SESSION["layout"] == "normal")
-		return $normal;
-
-	/**
-	* Search for cookie
-	**/
-	$cookie = strtolower ($_COOKIE["layout"]);
-
-	if ($cookie == "liquid")
-	{
-		$_SESSION["layout"] = "liquid";
-		return $liquid;
-	}
-
-	if ($cookie == "normal")
-	{
-		$_SESSION["layout"] = "normal";
-		return $normal;
-	}
-
-	/**
-	* Default value
-	**/
-	$_SESSION["layout"] = "normal";
-	return $normal;
+	return $links;
 }
 
 function CreateBreadcrumbs ($uri)
@@ -101,7 +47,7 @@ function CreateBreadcrumbs ($uri)
 	}
 }
 
-function PrintHeader ($uri, $lang, $layout)
+function PrintHeader ($uri, $lang, $layout, $languages)
 {
 	# Define style css
 	if ($layout == "liquid")
@@ -132,6 +78,9 @@ function PrintHeader ($uri, $lang, $layout)
 	
 	# Create breadcrumb links
 	$breadcrumbs = CreateBreadcrumbs ($uri);
+	
+	#languages
+	$lang_links = CreateLanguageBar ($languages, $lang);
 
 	# Get the (translated) file
 	if (is_file ("i18n/header.".$lang.".php"))

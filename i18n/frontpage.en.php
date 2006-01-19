@@ -8,10 +8,6 @@
 				<p><a href="#" title="Read the release notes">Release Notes</a><span class="grey"> | </span><a href="#" title="What\'s new in Xfce 4.4">Tour</a></p>
 			</div>
 		</div>
-		<div id="front-lang">
-			<h2 class="hidden">Site Language</h2>
-			<p class="langcolor">Language: <?php echo $lang_links ?></p>
-		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>About Xfce</h1>

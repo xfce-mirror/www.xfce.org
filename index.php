@@ -42,14 +42,14 @@ $uri = $_SERVER["REDIRECT_URL"];
 	
 if ($uri == "")
 {
-	PrintHeader ($uri, $lang, $layout);
-	PrintFrontpage ($lang, $languages);
+	PrintHeader ($uri, $lang, $layout, $languages);
+	PrintFrontpage ($lang);
 	PrintFooter ($lang);
 }
 else
 {
 	$content = GetContent ($uri, $lang);
-	PrintHeader ($uri, $lang, $layout);
+	PrintHeader ($uri, $lang, $layout, $languages);
 	PrintContent ($content);
 	PrintFooter ($lang);
 }
