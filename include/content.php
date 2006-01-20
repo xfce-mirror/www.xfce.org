@@ -58,38 +58,38 @@ function GetContent ($uri, $lang)
 function PrintSponsor () {
 	
 	print ('<h2 class="hidden">Sponsor</h2>
-		<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>
-		<p><a href="http://www.2x.com/" title="2X  Software Ltd" target="_blank">Developers</a> of <a href="http://www.2x.com/terminalserver" target="_blank" title="2X Terminal Server for Linux">2X Terminal Server for Linux</a> &amp; <a href="http://www.2x.com/thinclientserver" target="_blank" title="2X Thin Client Server">2X Thin Client Server</a><br />Linux <a href="http://www.2x.com/" target="_blank" title="2X  Software Ltd">thin client OS</a>, deployment &amp; management</p>
-		');
+			<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>
+			<p><a href="http://www.2x.com/" title="2X  Software Ltd" target="_blank">Developers</a> of <a href="http://www.2x.com/terminalserver" target="_blank" title="2X Terminal Server for Linux">2X Terminal Server for Linux</a> &amp; <a href="http://www.2x.com/thinclientserver" target="_blank" title="2X Thin Client Server">2X Thin Client Server</a><br />Linux <a href="http://www.2x.com/" target="_blank" title="2X  Software Ltd">thin client OS</a>, deployment &amp; management</p>
+		   ');
 }
 
 function PrintContent ($content)
 {
 	print ('<div id="content-right">');
 	
-	if ($content["wronglang"])
-	{
-		print ('<div id="content-lang">');
-		print ('<p>This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.</p>');
-		print ('</div');
-	}
-	
-	if ($content["nav"])
-	{
-		print ('<div id="content-menu">
-				<h2 class="hidden">Content Navigation</h2>');
-		include ($content["nav"]);
-		print ('</div>');
+		if ($content["wronglang"])
+		{
+			print ('<div id="content-lang">');
+			print ('<p>This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.</p>');
+			print ('</div');
+		}
 		
-	}
-		print ('<div id="content-sponsor">');
-				PrintSponsor ();
-		print ('</div>');
+		if ($content["nav"])
+		{
+			print ('<div id="content-menu">');
+			print ('<h2 class="hidden">Content Navigation</h2>');
+					include ($content["nav"]);
+			print ('</div>');
+			
+		}
+			print ('<div id="content-sponsor">');
+					PrintSponsor ();
+			print ('</div>');
 	
-	print ('</div>
-		<div id="content-text">');
+	print ('</div>'); #end content-right
+	print ('<div id="content-text">');
 			include ($content["file"]);
-	print ('</div>');
+	print ('</div>'); #end content-text
 }
 
 
