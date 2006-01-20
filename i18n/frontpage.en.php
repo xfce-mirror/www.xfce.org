@@ -44,7 +44,7 @@
 		</div>
 	</div>
 	<div id="front-projects">
-		<div class="front-borders">
+		<div id="front-borders">
 			<div id="front-projects-content">
 				<h2>Xfce projects</h2>
 				<ul>
