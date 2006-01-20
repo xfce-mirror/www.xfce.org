@@ -70,7 +70,7 @@ function PrintContent ($content)
 		if ($content["wronglang"])
 		{
 			print ('<div id="content-lang">');
-				print ('<p><img src="/layout/images/spacer.gif" alt="" width="0" height="0" align="left" />This page is not available in your <a href="/translate" title="Join the Xfce i18n project to help translating this website.">language</a>, so the English version is shown.</p>');
+				print ('<p><img src="/layout/images/spacer.gif" alt="" width="0" height="0" align="left" />This page is not available in your <a href="/translate" title="Join the Xfce i18n project to help translating this website.">language</a>.</p>');
 			print ('</div>');
 		}
 		
