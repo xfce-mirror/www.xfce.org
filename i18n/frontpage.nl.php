@@ -20,7 +20,7 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
+			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Schijf in op 'Xfce Niews'..." width="12" height="12" border="0" align="right" /></a>Laatste nieuws</h2>
 			<ul>
 				<li><span class="grey">2006-12-06</span><br />
 					<a href="#">OSNews has a review of the new 4.4 release</a>
@@ -39,40 +39,40 @@
 				</li>
 			</ul>
 			<div class="readmore">
-				<a href="#" title="View the news archive...">archive</a>
+				<a href="#" title="Bekijk het nieuws achief...">archief</a>
 			</div>
 		</div>
 	</div>
 	<div id="front-projects">
-		<div class="front-borders">
+		<div id="front-borders">
 			<div id="front-projects-content">
-				<h2>Xfce projects</h2>
+				<h2>Xfce projecten</h2>
 				<ul>
 					<li><a href="#">Thunar</a><br />
-						<span class="grey">Thunar is a new modern file manager for the Xfce Desktop Environment.</span>
+						<span class="grey">Thunar is een moderne bestands manager voor de Xfce desktop.</span>
 					</li>
 					<li><a href="#">Mousepad</a><br />
-						<span class="grey">Mousepad is a simple, fast and easy-to-use text editor for the Xfce desktop environment, based on the Leafpad text editor.</span>
+						<span class="grey">Mousepad is een simpele, snelle en makkelijke te gebruiken tekst editor voor de Xfce desktop, gebaseerd op Leafpad.</span>
 					</li>
 					<li><a href="#">Orage</a><br />
-						<span class="grey">Calendar for the Xfce project.</span>
+						<span class="grey">Calender voor de Xfce desktop.</span>
 					</li>
 					<li><a href="#">Xfburn</a><br />
-						<span class="grey">CD and DVD burning application.</span>
+						<span class="grey">CD en DVD brand programma.</span>
 					</li>
 					<li><a href="#">Xfmedia</a><br />
-						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
+						<span class="grey">Xfmedia is een simpele en makkelijk te gebruiken multimedia speler, gebaseerd op Xine.</span>
 					</li>
 				</ul>
 				<div class="readmore">
-					<a href="#" title="View all Xfce projects...">more projects</a>
+					<a href="#" title="Bekijk alle Xfce projectem...">meer projecten</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="front-blog">
 		<div id="front-blog-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
+			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Schrijf in op 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
 			<ul>
 				<li><span class="grey">Eduard @ 2006-01-10</span><br />
 					<a href="#">Appfinder integration in panel</a>
@@ -85,14 +85,14 @@
 				</li>
 			</ul>
 			<div class="readmore">
-				<a href="#" title="View the blog archive...">archive</a>
+				<a href="#" title="Bekijk het blog archief...">archief</a>
 			</div>
-			<h2>Shortcuts</h2>
+			<h2>Snelkoppelingen</h2>
 			<ul>
-				<li><a href="#" title="Mailinglists">Mailinglists</a></li>
+				<li><a href="#" title="Mail lijsten">Mail lijsten</a></li>
 				<li><a href="#" title="Xfce Forum">Xfce Forum</a></li>
-				<li><a href="#" title="Report a bug">Report a bug</a></li>
-				<li><a href="#" title="Handbook">Handbook</a></li>
+				<li><a href="#" title="Meld een fout">Meld een fout</a></li>
+				<li><a href="#" title="Handboek">Handboek</a></li>
 				<li><a href="#" title="Xfce Wiki">Xfce Wiki</a></li>
 			</ul>
 		</div>
