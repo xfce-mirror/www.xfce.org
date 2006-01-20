@@ -6,11 +6,7 @@
 	<title>Xfce - Desktop Environment</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
-	<link rel="stylesheet" media="screen" href="/layout/css/global.css" type="text/css" />
-	<link rel="stylesheet" media="screen" href="/layout/css/header.css" type="text/css" />
-	<link rel="stylesheet" media="screen" href="/layout/css/content.css" type="text/css" />
-	<link rel="stylesheet" media="screen" href="/layout/css/footer.css" type="text/css" />
-	<link rel="stylesheet" media="screen" href="/layout/css/ie.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
 	<?php echo $linked_css; ?>
 
 
