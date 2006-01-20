@@ -65,26 +65,26 @@ function PrintSponsor () {
 
 function PrintContent ($content)
 {
-	print ('<div id="content-right">');
+	print ('<div id="content-right">1');
 	
 		if ($content["wronglang"])
 		{
-			print ('<div id="content-lang">');
-			print ('<p>This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.</p>');
-			print ('</div');
+			print ('<div id="content-lang">2');
+				print ('<p>This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.</p>');
+			print ('3</div');
 		}
 		
 		if ($content["nav"])
 		{
-			print ('<div id="content-menu">');
-			print ('<h2 class="hidden">Content Navigation</h2>');
-					include ($content["nav"]);
-			print ('</div>');
+			print ('<div id="content-menu">4');
+				print ('<h2 class="hidden">Content Navigation</h2>');
+				include ($content["nav"]);
+			print ('5</div>');
 			
 		}
-			print ('<div id="content-sponsor">');
+			print ('<div id="content-sponsor">6');
 					PrintSponsor ();
-			print ('</div>');
+			print ('7</div>');
 	
 	print ('</div>'); #end content-right
 	print ('<div id="content-text">');
