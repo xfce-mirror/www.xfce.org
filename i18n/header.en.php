@@ -63,10 +63,12 @@
 						<h2 class="hidden">Site Language</h2>
 						<?php echo $lang_links; ?>
 					</div>
+					<?php if ($breadcrumbs) { ?>
 					<div id="header-breadcrumbs">
 						<h2 class="hidden">Breadcrumbs</h2>
 						<?php echo $breadcrumbs; ?>
 					</div>
+					<?php } ?>
 				</div>
 			</div>
 			<hr class="hidden" />
