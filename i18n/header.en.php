@@ -32,8 +32,7 @@
 	<div id="global-pagewrap">
 		<div id="global-page">
 			<div id="header">
-				<div id="header-logo">
-				</div>
+				<div id="header-logo"></div>
 				<div id="header-right">
 					<div id="header-style">
 						<h2 class="hidden">Website Layout</h2>
@@ -72,3 +71,4 @@
 			</div>
 			<hr class="hidden" />
 			<div id="global-contentwrap">
+<!-- end header.*.php -->

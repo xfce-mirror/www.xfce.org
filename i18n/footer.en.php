@@ -1,5 +1,6 @@
+<!-- begin footer.*.php -->
 			<div class="clearboth"></div>
-		</div>
+		</div><!-- global-contentwrap -->
 		<div id="footer">
 			<div id="footer-line"><hr class="hidden" /></div>
 			<div id="footer-sponsors">
@@ -17,7 +18,7 @@
 			</div>
 			<div class="clearboth"></div>
 		</div>
-	</div>
-</div>
+	</div><!-- global-page -->
+</div><!-- global-pagewrap -->
 </body>
 </html>
