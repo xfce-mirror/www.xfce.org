@@ -70,7 +70,7 @@ function PrintContent ($content)
 		if ($content["wronglang"])
 		{
 			print ('<div id="content-lang">');
-				print ('<p>This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.</p>');
+				print ('This page is not available in your language. You can help us out by <a href="translate">translating</a> it into your language.');
 			print ('</div');
 		}
 		
