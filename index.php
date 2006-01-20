@@ -40,5 +40,5 @@ else
 }
 
 $time_end = microtime_float();
-echo "<center>Execution time: ". round($time_end - $time_start, 4) ." seconds</center>"; 
+echo "<!-- Execution time: ". round($time_end - $time_start, 4) ." seconds -->"; 
 ?>
