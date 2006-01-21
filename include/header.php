@@ -31,6 +31,8 @@ function CreateBreadcrumbs ($uri)
 		# Add items with links
 		for ($i=0; $i < (count($crumbs)-1); $i++)
 		{
+			if ($i > 15) break; #arbitary
+			
 			$url .= $crumbs[$i] . '/';
 			$breadcrumbs .= '<a href="'. $url .'" title="'. ucfirst($crumbs[$i]) .'">'. ucfirst($crumbs[$i]) .'</a> &#187; ';
 		}
