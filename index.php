@@ -25,6 +25,7 @@ if (!in_array ($userlang, array_keys($languages)))
 # Get saved variables
 $layout = UserVariable ("layout", $layouts, "normal");
 $lang = UserVariable ("lang", array_keys($languages), $userlang);
+$lastvisit = UserLastVisit ();
 
 # Get relative url
 $uri = $_SERVER["REDIRECT_URL"];

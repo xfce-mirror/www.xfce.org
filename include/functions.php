@@ -29,4 +29,24 @@ function UserVariable ($name, $values, $default)
 	return $default;
 }
 
+function UserLastVisit ()
+{
+	if (!$_SESSION["lastvisit"])
+	{
+		$cookie = $_COOKIE["lastvisit"];
+		$now = date ("U");
+		
+		if ($cookie)
+			# Old user, retrieve last visit (unix)time.
+			$_SESSION["lastvisit"] = $cookie;
+		else
+			# New user, no cookie, so last visit is current (unix)time.
+			$_SESSION["lastvisit"] = $now;
+			
+		# Set new cookie with current time, for the next time he/she visits
+		$_COOKIE["lastvisit"] = $now;	
+	}
+
+	return $_SESSION["lastvisit"];
+}
 ?>
