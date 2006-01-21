@@ -32,6 +32,7 @@ $uri = $_SERVER["REDIRECT_URL"];
 	$uri = trim($uri, '/');
 	$uri = strtolower ($uri);
 	
+
 #Create webpage
 if ($uri == "")
 {
