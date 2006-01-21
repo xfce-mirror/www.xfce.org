@@ -16,8 +16,15 @@ include_once ("include/content.php");
 
 # Load session valiables
 session_start();
-$layout = UserVariable ("layout", array ("normal","liquid"), "normal");
-$lang = UserVariable ("lang", array_keys($languages), "en");
+
+# User language
+$userlang = substr(trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]), 0, 2);
+if (!in_array ($userlang, array_keys($languages)))
+	$userlang = "en";
+
+# Get saved variables
+$layout = UserVariable ("layout", $layouts, "normal");
+$lang = UserVariable ("lang", array_keys($languages), $userlang);
 
 # Get relative url
 $uri = $_SERVER["REDIRECT_URL"];
