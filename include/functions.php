@@ -35,6 +35,7 @@ function UserLastVisit ()
 	{
 		$cookie = $_COOKIE["lastvisit"];
 		$now = date ("U");
+		$expire = time()+(60*60*24*365);
 		
 		if ($cookie)
 			# Old user, retrieve last visit (unix)time.
@@ -44,7 +45,7 @@ function UserLastVisit ()
 			$_SESSION["lastvisit"] = $now;
 			
 		# Set new cookie with current time, for the next time he/she visits
-		$_COOKIE["lastvisit"] = $now;	
+		setcookie ("lastvisit", $now, $expire, "/");
 	}
 
 	return $_SESSION["lastvisit"];
