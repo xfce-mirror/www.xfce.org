@@ -90,10 +90,10 @@
 			<h2>Shortcuts</h2>
 			<ul>
 				<li><a href="#" title="Mailinglists">Mailinglists</a></li>
-				<li><a href="#" title="Xfce Forum">Xfce Forum</a></li>
-				<li><a href="#" title="Report a bug">Report a bug</a></li>
+				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" target="_blank" class="external">Report a bug</a></li>
 				<li><a href="#" title="Handbook">Handbook</a></li>
-				<li><a href="#" title="Xfce Wiki">Xfce Wiki</a></li>
+				<li><a href="http://www.xfcewiki.org" title="Xfce Wiki  (New window)" target="_blank" class="external">Xfce Wiki</a></li>
 			</ul>
 		</div>
 	</div>

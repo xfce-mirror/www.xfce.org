@@ -18,30 +18,44 @@ function CreateLanguageBar ($languages, $lang)
 	return $links;
 }
 
-function CreateBreadcrumbs ($uri)
+function CreateBreadcrumbs ($uri, $lang)
 {
+	$file = "i18n/arrays/". $lang .".breadcrumbs.php";
+	$breadcrumbs = array ("home" => "Home");
+	
+	if (is_file ($file))
+		include_once ($file);
+	
 	$crumbs = explode ("/", $uri);
 
 	if ($crumbs[0])
 	{
 		# Goto frontpage
 		$url = '/';
-		$breadcrumbs = '<a href="'. $url .'" title="Home">Home</a> &#187; ';
+		$html = '<a href="'. $url .'" title="'. $breadcrumbs["home"] .'">'. $breadcrumbs["home"] .'</a> &#187; ';
 
-		# Add items with links
-		for ($i=0; $i < (count($crumbs)-1); $i++)
+		foreach ($crumbs as $name)
 		{
-			if ($i > 15) break; #arbitary
+			$url .= $name . '/';
+			$i++;
 			
-			$url .= $crumbs[$i] . '/';
-			$breadcrumbs .= '<a href="'. $url .'" title="'. ucfirst($crumbs[$i]) .'">'. ucfirst($crumbs[$i]) .'</a> &#187; ';
+			# Create breadcrumb title
+			if (array_key_exists($url, $breadcrumbs))
+				$title = $breadcrumbs[$url];
+			else
+				$title = ucfirst($name);
+			
+			# Build link
+			if ($i > 15)
+				break; # Arbitary maximum
+			
+			elseif ($i < count($crumbs))
+				$html .= '<a href="'. $url .'" title="'. $title .'">'. $title .'</a> &#187; ';
+			else
+				$html .= $title;
 		}
 
-		# Add last item, without a link
-		$url .= $crumbs[count($crumbs)-1] . '/';
-		$breadcrumbs .= ucfirst($crumbs[count($crumbs)-1]);
-
-		return $breadcrumbs;
+		return $html;
 	}
 	else
 	{
@@ -79,7 +93,7 @@ function PrintHeader ($uri, $lang, $layout, $languages)
 		$content_bool = true;
 	
 	# Create breadcrumb links
-	$breadcrumbs = CreateBreadcrumbs ($uri);
+	$breadcrumbs = CreateBreadcrumbs ($uri, $lang);
 	
 	#languages
 	$lang_links = CreateLanguageBar ($languages, $lang);
