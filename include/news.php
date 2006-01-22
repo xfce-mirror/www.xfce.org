@@ -46,8 +46,8 @@ function getElementAttributes($DomNode,$elementName,$attriName)
 
 function ParseFile ($file)
 {
-	$element = "pb";
-$att = "id";
+$element = "item";
+$att = "creator";
 $DomDocument = domxml_open_file($file);
 $RootDomNode = $DomDocument->document_element();
 $array = getElementAttributes($RootDomNode,$element,$att);
