@@ -1,7 +1,7 @@
 <?php
 
 $languages = array (
-	"du" => 'Deutsch',
+	"de" => 'Deutsch',
 	"en" => 'English',
 	"nl" => 'Nederlands',
 );
