@@ -35,21 +35,17 @@ function GetContent ($uri, $lang)
 		
 		$uri_dir = dirname ($uri);
 		
-		$nav = "i18n/" . $uri_dir . "/navigation." . $lang . ".nav";
-		$nav_en = "i18n/" . $uri_dir . "/navigation.en.nav";
+		$nav = "i18n/" . $uri_dir . "/" . $lang . ".nav.php";
+		$nav_en = "i18n/" . $uri_dir . "/en.nav.php";
 		
 		if (is_file ($nav))
-		{
 			$content["nav"] = $nav;
-		}
+			
 		elseif (is_file ($nav_en))
-		{
 			$content["nav"] = $nav_en;
-		}
+			
 		else
-		{
 			$content["nav"] = false;
-		}
 		
 		return $content;
 	}
