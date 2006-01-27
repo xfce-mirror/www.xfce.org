@@ -21,23 +21,12 @@
 	<div id="front-news">
 		<div id="front-news-content">
 			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
-			<ul>
-				<li><span class="grey">2006-12-06</span><br />
-					<a href="#">OSNews has a review of the new 4.4 release</a>
-				</li>
-				<li><span class="grey">2006-12-06</span><br />
-					<a href="#">Xfce 4.4 released</a>
-				</li>
-				<li><span class="grey">2006-12-06</span><br />
-					<a href="#">A brand new Xfce website</a>
-				</li>
-				<li><span class="grey">2006-12-06</span><br />
-					<a href="#">Xfce 4.2.3.2 released</a>
-				</li>
-				<li><span class="grey">2006-12-06</span><br />
-					<a href="#">Thunar, a new filemanager for the Xfce desktop</a>
-				</li>
-			</ul>
+			<?php
+				if ($frontpage["xfce"])
+					include $frontpage["xfce"];
+				else
+					echo "Something is wrong with the news files";
+			?>
 			<div class="readmore">
 				<a href="#" title="View the news archive...">archive</a>
 			</div>
@@ -47,23 +36,12 @@
 		<div id="front-borders">
 			<div id="front-projects-content">
 				<h2>Xfce projects</h2>
-				<ul>
-					<li><a href="#">Thunar</a><br />
-						<span class="grey">Thunar is a new modern file manager for the Xfce Desktop Environment.</span>
-					</li>
-					<li><a href="#">Mousepad</a><br />
-						<span class="grey">Mousepad is a simple, fast and easy-to-use text editor for the Xfce desktop environment, based on the Leafpad text editor.</span>
-					</li>
-					<li><a href="#">Orage</a><br />
-						<span class="grey">Calendar for the Xfce project.</span>
-					</li>
-					<li><a href="#">Xfburn</a><br />
-						<span class="grey">CD and DVD burning application.</span>
-					</li>
-					<li><a href="#">Xfmedia</a><br />
-						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
-					</li>
-				</ul>
+				<?php
+					if ($frontpage["projects"])
+					include $frontpage["projects"];
+				else
+					echo "Something is wrong with the project files";
+				?>
 				<div class="readmore">
 					<a href="#" title="View all Xfce projects...">more projects</a>
 				</div>
@@ -73,17 +51,12 @@
 	<div id="front-blog">
 		<div id="front-blog-content">
 			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
-			<ul>
-				<li><span class="grey">Eduard @ 2006-01-10</span><br />
-					<a href="#">Appfinder integration in panel</a>
-				</li>
-				<li><span class="grey">Jasper @ 2006-01-10</span><br />
-					<a href="#">&quot;Use KDE&quot; -- Linus Torvalds</a>
-				</li>
-				<li><span class="grey">Olivier @ 2006-01-10</span><br />
-					<a href="#">NVidia drivers updated</a>
-				</li>
-			</ul>
+			<?php
+				if ($frontpage["blog"])
+					include $frontpage["blog"];
+				else
+					echo "Something is wrong with the blog files";
+			?>
 			<div class="readmore">
 				<a href="#" title="View the blog archive...">archive</a>
 			</div>
