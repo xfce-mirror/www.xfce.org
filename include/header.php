@@ -24,7 +24,7 @@ function CreateBreadcrumbs ($uri, $lang)
 	$breadcrumbs = array ("home" => "Home");
 	
 	if (is_file ($file))
-		include_once ($file);
+		include ($file);
 	
 	$crumbs = explode ("/", $uri);
 

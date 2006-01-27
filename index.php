@@ -7,12 +7,12 @@ function microtime_float()
 }
 $time_start = microtime_float();
 
-include_once ("include/functions.php");
-include_once ("include/arrays.php");
-include_once ("include/header.php");
-include_once ("include/footer.php");
-include_once ("include/frontpage.php");
-include_once ("include/content.php");
+include ("include/functions.php");
+include ("include/arrays.php");
+include ("include/header.php");
+include ("include/footer.php");
+include ("include/frontpage.php");
+include ("include/content.php");
 
 # Load session valiables
 session_start();
@@ -44,7 +44,7 @@ else
 {
 	$content = GetContent ($uri, $lang);
 	PrintHeader ($uri, $lang, $layout, $languages);
-	PrintContent ($content);
+	PrintContent ($content, $lang);
 	PrintFooter ($lang);
 }
 

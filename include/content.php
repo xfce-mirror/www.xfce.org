@@ -53,20 +53,32 @@ function GetContent ($uri, $lang)
 
 function PrintSponsor () {
 	
-	print ('<h2 class="hidden">Sponsor</h2>
+	/* print ('<h2 class="hidden">Sponsor</h2>
 			<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>
 			<p><a href="http://www.2x.com/" title="2X  Software Ltd" target="_blank">Developers</a> of <a href="http://www.2x.com/terminalserver" target="_blank" title="2X Terminal Server for Linux">2X Terminal Server for Linux</a> &amp; <a href="http://www.2x.com/thinclientserver" target="_blank" title="2X Thin Client Server">2X Thin Client Server</a><br />Linux <a href="http://www.2x.com/" target="_blank" title="2X  Software Ltd">thin client OS</a>, deployment &amp; management</p>
-		   ');
+		   '); */
+	
+	print ('<h2 class="hidden">Sponsor</h2>');
+	print ('<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>');
+	print ('<p>Check out the 2X range: <a href="http://www.2x.com/thinclientserver/" target="_blank">2X ThinClientServer</a>, <a href="http://www.2x.com/loadbalancer/" target="_blank">2X LoadBalancer</a>, <a href="http://www.2x.com/applicationserver/" target="_blank">2X ApplicationServer</a></p>');
 }
 
 function PrintContent ($content)
 {
+	$file = "i18n/arrays/". $lang .".content.php";
+	
+	if (is_file ($file))
+		include ($file);
+	else
+		include ("i18n/arrays/en.content.php");
+	
 	print ('<div id="content-right">');
 	
 		if ($content["wronglang"])
 		{
+			print ('<h2 class="hidden">Warning</h2>');
 			print ('<div id="content-lang">');
-				print ('<p><img src="/layout/images/spacer.gif" alt="" width="0" height="0" align="left" />This page is not available in your <a href="/translate" title="Join the Xfce i18n project to help translating this website.">language</a>.</p>');
+				print ('<p><img src="/layout/images/spacer.gif" alt="" width="0" height="0" align="left" />'. $notinlang .'</p>');
 			print ('</div>');
 		}
 		
