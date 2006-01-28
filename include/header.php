@@ -7,9 +7,9 @@ function CreateLanguageBar ($languages, $lang)
 		$i++;
 		
 		if ($short == $lang)
-			$links .= '<a href="?lang='. $short .'" title="'. $long .'"><strong>'. $short .'</strong></a>';
+			$links .= '<a href="?lang='. $short .'" title="'. $long[0] .'"><strong>'. $short .'</strong></a>';
 		else
-			$links .= '<a href="?lang='. $short .'" title="'. $long .'">'. $short .'</a>';
+			$links .= '<a href="?lang='. $short .'" title="'. $long[0] .'">'. $short .'</a>';
 		
 		if ($i < count ($languages))
 			$links .= ' | ';
@@ -97,6 +97,9 @@ function PrintHeader ($uri, $lang, $layout, $languages)
 	
 	#languages
 	$lang_links = CreateLanguageBar ($languages, $lang);
+	
+	# Charset
+	$charset = $languages[$lang][1];
 
 	# Get the (translated) file
 	if (is_file ("i18n/header.".$lang.".php"))
