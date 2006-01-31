@@ -8,5 +8,5 @@ $breadcrumbs = array (
 	"/documentation/manuals/installation/" => "Installation Guide",
 	"/documentation/manuals/program/" => "Program Documentation",
 	"/documentation/whatsnew/" => "What's New",
-	"/community/lists/" => "Mailinglists"
+	"/community/lists/" => "Mailing Lists"
 );
