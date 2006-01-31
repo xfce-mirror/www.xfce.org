@@ -21,10 +21,13 @@ function CreateLanguageBar ($languages, $lang)
 function CreateBreadcrumbs ($uri, $lang)
 {
 	$file = "i18n/arrays/". $lang .".breadcrumbs.php";
+	$file_en = "i18n/arrays/en.breadcrumbs.php";
 	$breadcrumbs = array ("home" => "Home");
 	
 	if (is_file ($file))
 		include ($file);
+	elseif (is_file ($file_en))
+		include ($file_en);
 	
 	$crumbs = explode ("/", $uri);
 
