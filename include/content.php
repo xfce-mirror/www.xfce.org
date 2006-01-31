@@ -60,7 +60,11 @@ function PrintSponsor () {
 	
 	print ('<h2 class="hidden">Sponsor</h2>');
 	print ('<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>');
-	print ('<p>Check out the 2X range: <a href="http://www.2x.com/thinclientserver/" target="_blank">2X ThinClientServer</a>, <a href="http://www.2x.com/loadbalancer/" target="_blank">2X LoadBalancer</a>, <a href="http://www.2x.com/applicationserver/" target="_blank">2X ApplicationServer</a></p>');
+	print ('<p>Check out the 2X range:<br />'.
+				'<a href="http://www.2x.com/thinclientserver/" target="_blank">2X ThinClientServer</a>,<br />'.
+				'<a href="http://www.2x.com/loadbalancer/" target="_blank">2X LoadBalancer</a>,<br />'.
+				'<a href="http://www.2x.com/applicationserver/" target="_blank">2X ApplicationServer</a>'.
+			'</p>');
 }
 
 function PrintContent ($content)
