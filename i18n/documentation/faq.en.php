@@ -1,5 +1,5 @@
 <h1>Xfce FAQ</h1>
-<p>TODO: answer question, alpabetical order </p>
+<p>TODO: answer question, logical/alpabetical order</p>
 <h2>Questions</h2>
 <h3>Getting started</h3>
 <ul>
