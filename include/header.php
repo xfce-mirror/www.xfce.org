@@ -88,12 +88,16 @@ function PrintHeader ($uri, $lang, $layout, $languages)
 				'}';
 	}
 
-	if ($uri == "") 
+	if ($uri == "")
+	{
 		# Frontpage: show extra css file
 		$linked_css = '<link rel="stylesheet" media="screen" href="/layout/css/front.css" type="text/css" />';
-	else
-		# No frontpage, show page jump for non-css readers
+	} else {
+		# Show content css file
+		$linked_css = '<link rel="stylesheet" media="screen" href="/layout/css/content.css" type="text/css" />';
+		# Show page jump for non-css readers
 		$content_bool = true;
+	}
 	
 	# Create breadcrumb links
 	$breadcrumbs = CreateBreadcrumbs ($uri, $lang);
