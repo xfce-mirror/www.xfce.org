@@ -56,7 +56,7 @@
 						<li><a href="/download" title="Download">Download</a></li>
 						<li><a href="/documentation" title="Documentation">Documentation</a></li>
 						<li><a href="/community" title="Community">Community</a></li>
-						<li><a href="/development" title="Developers">Development</a></li>
+						<li><a href="/development" title="Development">Development</a></li>
 					</ul>
 				</div>
 				<div id="header-white">
