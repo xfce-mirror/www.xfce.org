@@ -1,135 +1,128 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Xfce - Desktop Environment</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Xfce - Desktop Environment</title>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
 
-<link rel="stylesheet" media="screen" href="layout/css/fixed.css" type="text/css" title="Fixed" />
-<link rel="alternate stylesheet" media="screen" href="layout/css/liquid.css" type="text/css" title="Liquid" />
+	<link rel="stylesheet" media="screen" href="../layout/css/layout.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="../layout/css/content.css" type="text/css" />
 
-<script type="text/javascript" src="layout/js/styleswitcher.js"></script>
+	<style type="text/css">
+		#global-page {min-width: 740px; max-width: 1000px; width: 100%; } * html #global-page {width: 780px; }		
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/news.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="/blog.rdf" />
 
 </head>
 <body>
-<div class="hidden">
-	<a href="#global-contentwrap" title="Skip site navigation" accesskey="1">Skip site navigation</a> (1)
-	<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
-	<h1>Xfce Desktop Environment</h1>
-	<h4>...and everything goes faster!</h4>
-	<hr />
-</div>
-<div id="global-pagewrap">
-	<div id="global-page">
-		<div id="header">
-			<div id="header-logo"><!-- Place holder for image logo --></div>
-			<div id="header-right">
-				<div id="header-style">
-					<h2 class="hidden">Website Layout</h2>
-					<p>Layout: <a href="#" title="Fixed Width Layout (780px Width)" onclick="setActiveStyleSheet('Fixed'); return false;">Fixed</a> / 
-					<a href="#" title="Fluid Layout (100% Width)" onclick="setActiveStyleSheet('Liquid'); return false;">Liquid</a></p>
+	<div class="hidden">
+		<a href="#global-contentwrap" title="Skip site navigation" accesskey="1">Skip site navigation</a> (1)
+			<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
+			<h1>Xfce Desktop Environment</h1>
+
+		<h4>...and everything goes faster!</h4>
+		<hr />
+	</div>
+	<div id="global-pagewrap">
+		<div id="global-page">
+			<div id="header">
+				<div id="header-logo"></div>
+				<div id="header-right">
+
+					<div id="header-style">
+						<h2 class="hidden">Website Layout</h2>
+						<p>Layout: <a href="?layout=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
+						<a href="?layout=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
+					</div>
+					<div id="header-search">
+						<h2 class="hidden">Search</h2>
+
+						<form action="#" method="post">
+							<input name="q" type="text" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
+							<input type="button" class="hidden" value="Search" />
+						</form>
+					</div>
 				</div>
-				<div id="header-search">
-					<h2 class="hidden">Search</h2>
-					<form action="#" method="post">
-						<input name="q" type="text" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
-						<input type="button" class="hidden" value="Search" />
-					</form>
-				</div>
-			</div>
-			<div id="header-menu">
-				<h2 class="hidden">Site navigation</h2>
-				<ul>
-					<li><a href="index.html" title="Home">Home</a></li>
-					<li><a href="#" title="About">About</a></li>
-					<li><a href="projects.html" title="Projects">Projects</a></li>
-					<li><a href="#" title="Download">Download</a></li>
-					<li><a href="#" title="Documentation">Documentation</a></li>
-					<li><a href="#" title="Community">Community</a></li>
-				</ul>
-			</div>
-		</div>
-		<hr class="hidden" />
-		<div id="global-contentwrap">
-		<!-- begin content -->
-			<div id="content-right">
-				<div id="content-menu">
-					<h2 class="hidden">Content Navigation</h2>
+				<div id="header-menu">
+					<h2 class="hidden">Site navigation</h2>
+
 					<ul>
-						<li><a href="#">Xfce Core</a>
-							<ul>
-								<li><a href="#">Xfwm4</a></li>
-								<li><a href="#">Xfprint</a></li>
-								<li><a href="#">Xfce4 panel</a></li>
-								<li><a href="#">Xfdesktop</a></li>
-								<li><a href="#">Xfce4 session</a></li>
-								<li><a href="#">Xfce settings manager</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Applications</a>
-							<ul>
-								<li><a href="#">Thunar</a></li>
-								<li><a href="#">Terminal</a></li>
-								<li><a href="#">Xfmedia</a></li>
-								<li><a href="#">Xffm</a></li>
-								<li><a href="#">Xfburn</a></li>
-								<li><a href="#">Mousepad</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Libraries</a>
-							<ul>
-								<li><a href="#">libxfce4mcs</a></li>
-								<li><a href="#">libxfce4util</a></li>
-								<li><a href="#">libxfcegui4</a></li>
-								<li><a href="#">libexo</a></li>
-								<li><a href="#">libxfce4panel</a></li>
-							</ul>
-						</li>					
-						<li><a href="#">Bindings</a>
-							<ul>
-								<li><a href="#">Xfce4 perl</a></li>
-								<li><a href="#">Pyxfce</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Other</a></li>
+						<li><a href="/" title="Home">Home</a></li>
+						<li><a href="/about" title="About">About</a></li>
+						<li><a href="/projects" title="Projects">Projects</a></li>
+						<li><a href="/download" title="Download">Download</a></li>
+						<li><a href="/documentation" title="Documentation">Documentation</a></li>
+
+						<li><a href="/community" title="Community">Community</a></li>
+						<li><a href="/development" title="Development">Development</a></li>
 					</ul>
 				</div>
-				<div id="content-sponsor">
-					<h2 class="hidden">Sponsor</h2>
-					<a href="http://www.2x.com/" target="_blank"><img src="layout/sponsors/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>
-					<p><a href="http://www.2x.com/" title="2X  Software Ltd" target="_blank">Developers</a> of <a href="http://www.2x.com/terminalserver" target="_blank" title="2X Terminal Server for Linux">2X Terminal Server for Linux</a> & <a href="http://www.2x.com/thinclientserver" target="_blank" title="2X Thin Client Server">2X Thin Client Server</a><br>Linux <a href="http://www.2x.com/" target="_blank" title="2X  Software Ltd">thin client OS</a>, deployment & management</p>
-				</div>
+				<div id="header-white">
+					<div id="header-language">
+						<h2 class="hidden">Site Language</h2>
+
+						<a href="?lang=de" title="Deutsch">de</a> | <a href="?lang=en" title="English"><strong>en</strong></a> | <a href="?lang=nl" title="Nederlands">nl</a>					</div>
+										<div id="header-breadcrumbs">
+						<h2 class="hidden">Breadcrumbs</h2>
+						<a href="/" title="Home">Home</a> &#187; Projects					</div>
+
+									</div>
 			</div>
-			<div id="content-locationbar">
-				<h2 class="hidden">Location bar</h2>
-				<a href="http://www.xfce.org/index.html">Home</a> &#187; <a href="http://www.xfce.org/projects/index.html">Projects</a> &#187; <a href="http://www.xfce.org/projects/xfmedia/index.html">Xfmedia</a> &#187; Screenshots
-			</div>
-			<div id="content-text">
-				<h2>Projects</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut faucibus  ipsum sit amet libero. Donec tincidunt. Cras elementum. In venenatis,  risus sagittis bibendum viverra, orci purus ullamcorper lacus, vitae  viverra erat libero eget dolor. Maecenas ac leo a libero mollis rutrum.  Morbi sit amet lectus. Pellentesque porttitor. Proin risus justo,  interdum vitae, convallis eget, gravida et, nisi. Ut aliquet felis sed  nisi. Cras accumsan mauris vulputate pede. Nullam sit amet quam ac  turpis viverra blandit. Sed at pede vel lorem varius aliquam. Fusce non  est. Etiam lacus leo, convallis id, ultrices sit amet, dictum et,  ipsum. Cras iaculis ligula vitae nibh. Sed dictum lacus sit amet velit. </p>
-			</div>
-		<!-- end content -->
-		<div class="clearboth"><!-- dummy --></div>
-		</div>
+			<hr class="hidden" />
+			<div id="global-contentwrap">
+<!-- end header.*.php -->
+<div id="content-right"><div id="content-menu"><h2 class="hidden">Content Navigation</h2><ul>
+	<li><a href="/projects">Projects</a></li>
+	<li><a href="/projects/core">Core Components</a>
+
+		<ul>
+			<li><a href="/projects/core#programs">Programs</a></li>
+			<li><a href="/projects/core#libraries">Libraries</a></li>
+			<li><a href="/projects/core#utilities">Utilities</a></li>
+		</ul>
+	</li>
+	<li><a href="/projects/projects">Projects</a>
+
+		<ul>
+			<li><a href="/projects/projects#programs">Programs</a></li>
+			<li><a href="/projects/projects#libraries">Libraries</a></li>
+			<li><a href="/projects/projects#bindings">Bindings</a></li>
+			<li><a href="/projects/projects#themes">Themes</a></li>
+			<li><a href="/projects/projects#development">Development</a></li>
+
+		</ul>
+	</li>
+	<li><a href="/projects/related">Xfce Related</a></li>
+</ul>
+</div><div id="content-sponsor"><h2 class="hidden">Sponsor</h2><a href="http://www.2x.com/" target="_blank"><img src="../layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a><p>Check out the 2X range:<br />&#8226; <a href="http://www.2x.com/thinclientserver/" target="_blank">2X ThinClientServer</a><br />&#8226; <a href="http://www.2x.com/loadbalancer/" target="_blank">2X LoadBalancer</a><br />&#8226; <a href="http://www.2x.com/applicationserver/" target="_blank">2X ApplicationServer</a></p></div></div><div id="content-text"><h1>Projects</h1>
+
+</div><!-- begin footer.*.php -->
+			<div class="clearboth"></div>
+		</div><!-- global-contentwrap -->
 		<div id="footer">
 			<div id="footer-line"><hr class="hidden" /></div>
 			<div id="footer-sponsors">
 				<h2 class="hidden">Logos</h2>
 				<ul>
-					<li><a href="http://www.2x.com/" title="2X Thin client computing software" target="_blank"><img src="layout/sponsors/2x_small.jpg" alt="2X" width="96" height="30" border="0" /></a></li>
-					<li><a href="http://www.os-cillation.com/" title="os-cillation" target="_blank"><img src="layout/sponsors/os-cillation.jpg" alt="os-cillation" width="115" height="30" border="0" /></a></li>
-					<li><a href="http://sourceforge.net/" title="SourceForge.net" target="_blank"><img src="layout/sponsors/sf.jpg" alt="SourceForge.net" width="87" height="30" border="0" /></a></li>
-					<li><a href="http://www.lunar-linux.org/" title="Lunar-Linux" target="_blank"><img src="layout/sponsors/lunarlinux.jpg" alt="Lunar-Linux" width="112" height="30" border="0" /></a></li>
-					<li><a href="http://www.web-adept.nl/" title="Web-Adept" target="_blank"><img src="layout/sponsors/web_adept.jpg" alt="Web-Adept" width="94" height="30" border="0" /></a></li>
+					<li><a href="http://www.2x.com/" title="2X Thin client computing software" target="_blank"><img src="../layout/friends/2x_small.jpg" alt="2X" border="1" /></a></li>
+
+					<li><a href="http://www.os-cillation.com/" title="os-cillation" target="_blank"><img src="../layout/friends/os-cillation.jpg" alt="os-cillation" border="1" /></a></li>
+					<li><a href="http://sourceforge.net/" title="SourceForge.net" target="_blank"><img src="../layout/friends/sf.jpg" alt="SourceForge.net" border="1" /></a></li>
+					<li><a href="http://www.lunar-linux.org/" title="Lunar-Linux" target="_blank"><img src="../layout/friends/lunarlinux.jpg" alt="Lunar-Linux" border="1" /></a></li>
+					<li><a href="http://www.web-adept.nl/" title="Web-Adept" target="_blank"><img src="../layout/friends/web_adept.jpg" alt="Web-Adept" border="1" /></a></li>
 				</ul>
 			</div>
 			<div id="footer-copyright">
-				&copy; <a href="mailto:fourdan@xfce.org" title="">Olivier Fourdan</a> 1996 - 2006
+				&copy; <a href="mailto:fourdan@xfce.org" title="Mail Olivier Fourdan">Olivier Fourdan</a> 1996 - 2006
 			</div>
-			<div class="clearboth"><!-- dummy --></div>
+
+			<div class="clearboth"></div>
 		</div>
-	</div>
-</div>
+	</div><!-- global-page -->
+</div><!-- global-pagewrap -->
 </body>
 </html>
+<!-- Execution time: 0.0209 seconds -->
