@@ -45,13 +45,13 @@
 <h2>Answers</h2>
 <h3>Getting started</h3>
 <dl>
-	<dt id="1"><strong>What is &quot;Xfce&quot; and why should I use it?</strong></dt>
+	<dt id="1">What is &quot;Xfce&quot; and why should I use it?</dt>
 	<dd>bladiebladiebla</dd>
-	<dt id="2"><strong>How is Xfce pronounced and what does it mean?</strong></dt>
+	<dt id="2">How is Xfce pronounced and what does it mean?</dt>
 	<dd>bladiebladiebla</dd>
-	<dt id="3"><strong>What does the logo symbolize?</a></strong></dt>
+	<dt id="3">What does the logo symbolize?</dt>
 	<dd>bladiebladiebla</dd>
-	<dt id="4"><strong>On what platforms does Xfce currently run?</strong></dt>
+	<dt id="4">On what platforms does Xfce currently run?</dt>
 	<dd>bladiebladiebla</dd>
 </dl>
 <h3>Installation</h3>
