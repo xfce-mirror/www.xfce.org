@@ -104,5 +104,126 @@
 </table>
 
 <h2 id="projects">Projects</h2>
+<table>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/mousepad">Mousepad</a></h3>
+	    <p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for Mousepad was to provide 
+	    printing support, which would have been difficult for Leafpad for various reasons.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/intallit">Intallit</a></h3>
+	    <p>nstallIt is the official approach of transforming the famous Xfce installer into a more generic 
+	    software management and installation tool. It is written in Python using Python-GTK.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/terminal">Terminal</a></h3>
+	    <p>Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce 
+	    desktop environment. We developed it because we saw the need for a lightweight and easy to use 
+	    terminal emulator in the Xfce desktop environment, that doesn't require the user to install the GNOME 
+	    plattform, but still provides a worthy alternative to the GNOME terminal emulator.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/thunar">File manager (Thunar)</a></h3>
+	    <p>Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed 
+	    from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does 
+	    not include any confusing or useless options. Thunar is fast and responsive with a good start up time 
+	    and directory load time. Thunar is accessible using Assistive Technologies and is fully standards complaint.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfburn">Xfburn</a></h3>
+	    <p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao, mkisofs) to create 
+	    and burn CD's and DVD's. The easy gui frontent should make it an attractive and usable CD burning application.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/orage">Orage</a></h3>
+	    <p>A simple calendar application with reminders.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce4-appfinder">Application finder</a></h3>
+	    <p>Allows you to search, launch and find information about applications installed on your system.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce4-mixer">Sound Mixer</a></h3>
+	    <p>A volume control for the panel. It includes a mixer dialog wich supports ALSA, OSS and Sun audio.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce4-terminal">Xfce4-terminal</a></h3>
+	    <p>XFce4-terminal is a terminal emulator for xfce4, based on vte libs.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfmedia">Xfmedia</a></h3>
+	    <p>Xfmedia is a simple, easy-to-use media player based on the xine engine. The GTK+ GUI focuses on playing and 
+	    managing audio files, but, being based on xine, supports video as well.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xffm">File Manager (Xffm)</a></h3>
+	    <p>A fast file manager, with two independent panes, integrated samba network browser and mount/umount capabilities 
+	    using fstab data. It includes an icon theme editor.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/libexo">Libexo</a></h3>
+	    <p>Libexo is an extension library for Xfce, developed by os-cillation. While the core Xfce libraries are targeted 
+	    at desktop development, libexo is targeted at application developement - in particular, developing applications 
+	    for the Xfce Desktop Environment.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/pyxfce">Pyxfce</a></h3>
+	    <p>Pyxfce are xfce bindings for python. You can use python to create xfce programs, after you installed pyxfce.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfc">Xfce Foundation Classes</a></h3>
+	    <p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce applications on UNIX-like 
+	    operating systems such as Linux. The classes combine the power of GTK+ and the power of C++ into a state-of-the-art 
+	    application development framework for the Xfce Desktop Environment.</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce-gtk-engine">GTK Theme Engine</a></h3>
+	    <p>A theme engine for GTK2. Not required for the desktop, but it's a nice theme engine so you might just as well give it a try.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce-icon">Icon Theme</a></h3>
+	    <p>Default icon theme for Xfce 4. It includes both PNG and SVG icons</p>
+	<td>
+    </tr>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/xfce4-dev-tools">Xfce development tools</a></h3>
+	    <p>The Xfce developer tools provide a collection of scripts and M4 macros that are required to build the Xfce core desktop 
+	    components and various other software packages straight from SVN/CVS. You do not need the developer tools if you are building 
+	    from the release tarballs.</p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/"></a></h3>
+	    <p></p>
+	<td>
+    </tr>
+</table>
 
 <h2 id="related">Related</h2>
+<table>
+    <tr>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/"></a></h3>
+	    <p></p>
+	<td>
+	<td width="50%" valign="top">
+	    <h3><a href="/projects/"></a></h3>
+	    <p></p>
+	<td>
+    </tr>
+</table>
