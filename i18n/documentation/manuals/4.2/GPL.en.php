@@ -1,8 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>GNU General Public License</title><link rel="stylesheet" href="../xfce.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.66.1"><link rel="start" href="xfce4-user-guide.html" title="
-  The Xfce 4 Desktop Environment
-"><link rel="up" href="xfce4-user-guide.html" title="
-  The Xfce 4 Desktop Environment
-"><link rel="prev" href="BSD.html" title="BSD License"><link rel="next" href="LGPL.html" title="GNU Library General Public License"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">GNU General Public License</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="BSD.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="LGPL.html">Next</a></td></tr></table><hr></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="GPL"></a>GNU General Public License</h2></div></div></div><table border="0" bgcolor="#F3F4F8" width="100%"><tr><td><pre class="programlisting">
+<pre>
                          GNU GENERAL PUBLIC LICENSE
      
                             Version 2, June 1991
@@ -302,4 +298,4 @@
      ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
      
                          END OF TERMS AND CONDITIONS
-</pre></td></tr></table></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="BSD.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="xfce4-user-guide.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="LGPL.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">BSD License </td><td width="20%" align="center"><a accesskey="h" href="xfce4-user-guide.html">Home</a></td><td width="40%" align="right" valign="top"> GNU Library General Public License</td></tr></table></div></body></html>
+</pre>
