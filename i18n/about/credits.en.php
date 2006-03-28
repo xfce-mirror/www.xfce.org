@@ -92,7 +92,7 @@ Olivier Fourdan [fourdan at xfce.org]
 		<td width="60%" bgcolor="#eeeeee"></td>
 	</tr>
 	<tr>
-		<td width="40%">Jens Luedicke [jens at irs-net.com]</td>
+		<td width="40%">Jens Luedicke [perldude at xfce.org]</td>
 		<td width="60%"></td>
 	</tr>
 	<tr>
