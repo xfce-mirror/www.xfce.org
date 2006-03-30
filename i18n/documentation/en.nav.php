@@ -16,9 +16,9 @@
 			<li><a href="/documentation/manuals/installation">Installation Guide</a></li>
 			<li><a href="/documentation/manuals/quickstart">Getting started</a></li>
 			<li><a href="/documentation/manuals/program">Program documentation</a></li>
-			<li><a href="/documentation/manuals/developers">Developers (API)</a></li>
 		</ul>
 	</li>
 	<li><a href="/documentation/notes">Release Notes</a></li>
+	<li><a href="/documentation/api/">Developers (API)</a></li>
 	
 </ul>
