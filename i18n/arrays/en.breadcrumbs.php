@@ -7,10 +7,11 @@ $breadcrumbs = array (
 	"/projects/related/"					=> "Xfce Related",
 	"/download/development/"				=> "Development version",
 	"/download/plugins/"					=> "Panel Plugins",
+	"/documentation/faq/"					=> "FAQs",
 	"/documentation/manuals/developers/"	=> "Developers (API)",
 	"/documentation/manuals/installation/"	=> "Installation Guide",
 	"/documentation/manuals/program/"		=> "Program Documentation",
-	"/documentation/whatsnew/"				=> "What's New",
+	"/documentation/notes/"					=> "Release Notes",
 	"/community/lists/"						=> "Mailing Lists",
 	"/community/irc/"						=> "IRC"
 );

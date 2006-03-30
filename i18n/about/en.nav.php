@@ -7,11 +7,13 @@
 		<ul>
 			<li><a href="/about/credits#lead">Project Lead</a></li>
 			<li><a href="/about/credits#core">Core Developers</a></li>
-			<li><a href="/about/credits#contributors">Contributors</a></li>
 			<li><a href="/about/credits#server">Server</a></li>
+			<li><a href="/about/credits#contributors">Contributors</a></li>
 			<li><a href="/about/credits#translators">Translators</a></li>
 		</ul>
 	</li>
 	<li><a href="/about/press">Press</a></li>
+	<!--
 	<li><a href="/about/artwork">Artwork</a></li>
+	-->
 </ul>

@@ -2,12 +2,14 @@
 <p></p>
 
 <h2 id="lead">Project Lead</h2>
-<p>
-Olivier Fourdan [fourdan at xfce.org]
-</p>
+<table width="100%">
+  <tr>
+    <td>Olivier Fourdan [fourdan at xfce.org]</td>
+  </tr>
+</table>
+
 <br />
 <h2 id="core">Core Developers</h2>
-<p>
 <table width="100%">
 	<tr>
 		<th width="40%" align="left"><h3>Contributor</h3></th>
@@ -62,72 +64,8 @@ Olivier Fourdan [fourdan at xfce.org]
 		<td width="60%">Window Manager </td>
 	</tr>
 </table>
-</p>
-<br />
-<h2 id="contributors">Contributors</h2>
-<p>
-<table width="100%">
-	<tr>
-	  <th width="40%" align="left"><h3>Contributor</h3></th>
-		<th width="60%" align="left"><h3>Contribution</h3></th>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Bernhard Walle [Bernhard.Walle at gmx.de]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Craig Betts [craig.betts at dfrc.nasa.gov]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Ejvend Nielsen [prophet at sphere-x.net]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Erik Touve [etouve at earthlink.net]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Jens Guballa [j.guballa at t-online.de]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Jens Luedicke [perldude at xfce.org]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Joakim Andreasson [joakim.andreasson at gmx.net]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Karsten Luetkewitz [phrep at plskthx.org]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Martin Loschwitz [madkiss at debian.org]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Michael Mosier [michael at spyonit.com]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Thomas Leonard [tal00r at ecs.soton.ac.uk]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-	<tr>
-		<td width="40%">Tobias Henle [tobias at page23.de]</td>
-		<td width="60%"></td>
-	</tr>
-	<tr>
-		<td width="40%" bgcolor="#eeeeee">Xavier Maillard [zedek at fxgsproject.org]</td>
-		<td width="60%" bgcolor="#eeeeee"></td>
-	</tr>
-</table>
-</p>
-<br />
+
 <h2 id="server">Server and website </h2>
-<p>
 <table width="100%">
 	<tr>
 	  <th align="left"><h3>Contributor</h3></th>
@@ -150,10 +88,49 @@ Olivier Fourdan [fourdan at xfce.org]
 	  <td><a href="http://www.web-adept.nl" target="_blank">Hosting</a></td>
   </tr>
 </table>
-</p>
+
+<br />
+<h2 id="contributors">Contributors</h2>
+<table width="100%">
+	<tr>
+      <td colspan="2"><strong>The following people are frequent contributors of patches, ideas, bug fixes and new code:</strong></td>
+  </tr>
+	<tr>
+	  <th width="50%" align="left"><h3>Contributor</h3></th>
+		<th width="50%" align="left"><h3>Contributor</h3></th>
+  </tr>
+	<tr>
+		<td bgcolor="#eeeeee">Bernhard Walle [Bernhard.Walle at gmx.de]</td>
+		<td bgcolor="#eeeeee">Joakim Andreasson [joakim.andreasson at gmx.net]</td>
+	</tr>
+	<tr>
+		<td>Craig Betts [craig.betts at dfrc.nasa.gov]</td>
+		<td>Karsten Luetkewitz [phrep at plskthx.org]</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee">Ejvend Nielsen [prophet at sphere-x.net]</td>
+		<td bgcolor="#eeeeee">Martin Loschwitz [madkiss at debian.org]</td>
+	</tr>
+	<tr>
+		<td>Erik Touve [etouve at earthlink.net]</td>
+		<td>Michael Mosier [michael at spyonit.com]</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee">Jens Guballa [j.guballa at t-online.de]</td>
+		<td bgcolor="#eeeeee">Thomas Leonard [tal00r at ecs.soton.ac.uk]</td>
+	</tr>
+	<tr>
+		<td>Jens Luedicke [perldude at xfce.org]</td>
+		<td>Tobias Henle [tobias at page23.de]</td>
+	</tr>
+	<tr>
+		<td bgcolor="#eeeeee">&nbsp;</td>
+		<td bgcolor="#eeeeee">Xavier Maillard [zedek at fxgsproject.org]</td>
+	</tr>
+</table>
+
 <br />
 <h2 id="translators">Translators</h2>
-<p>
 <table width="100%">
   <tr>
     <th align="left"><h3>Translations supervision</h3></th>
@@ -165,8 +142,6 @@ Olivier Fourdan [fourdan at xfce.org]
     <td>Jean-Fran&ccedil;ois Wauthy [pollux at xfce.org]</td>
   </tr>
 </table>
-</p>
-<p>
 <table width="100%">
   <tr>
     <th width="20%" align="left"><h3>Language</h3></th>
