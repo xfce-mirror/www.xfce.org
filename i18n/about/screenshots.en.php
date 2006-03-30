@@ -1,5 +1,5 @@
 <h1>Screenshots</h1>
-<p></p>
+<p>Some screenshots of Xfce, ordered by version. </p>
 
 <h2>Xfce 4.4 Beta</h2>
 <p>
@@ -14,5 +14,9 @@
 <a href="/images/screenshots/4.2-2.jpg"><img src="/images/screenshots/4.2-2-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
 <a href="/images/screenshots/4.2-3.jpg"><img src="/images/screenshots/4.2-3-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
 <a href="/images/screenshots/4.2-4.jpg"><img src="/images/screenshots/4.2-4-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
-<a href="/images/screenshots/4.2-5.jpg"><img src="/images/screenshots/4.2-5-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
-</p>
+<a href="/images/screenshots/4.2-5.jpg"><img src="/images/screenshots/4.2-5-small.jpg" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a></p>
+
+<h2>Xfce 4.0</h2>
+<p>
+<a href="/images/screenshots/4.0-1.png"><img src="/images/screenshots/4.0-1-small.png" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
+<a href="/images/screenshots/4.0-2.png"><img src="/images/screenshots/4.0-2-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a></p>
