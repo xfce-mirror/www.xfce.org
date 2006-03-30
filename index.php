@@ -32,6 +32,13 @@ $uri = $_SERVER["REDIRECT_URL"];
 $uri = trim($uri, '/');
 $uri = strtolower ($uri);
 
+# Check if the user asks for a normal file (image for example)
+if (is_file ("i18n/". $uri))
+{
+	header('Location: /i18n/'. $uri);
+	return;
+}
+
 #Create webpage
 if ($uri == "")
 {
