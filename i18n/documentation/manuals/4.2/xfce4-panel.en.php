@@ -70,7 +70,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "panel-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 panel is part of the <a href="http://www.xfce.org"
@@ -82,7 +82,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "panel-getting-started"></a>Getting Started</h2>
 
   <p>You will usually start the panel as part of your Xfce session,
@@ -144,7 +144,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="panel-items"></a>Panel
+  <h2><a name="panel-items"></a>Panel
   Items</h2>
 
   <p>The Xfce 4 panel has the possibility to load external plugins
@@ -333,7 +333,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="subpanels"></a>Panel Menus</h2>
+  <h2><a name="subpanels"></a>Panel Menus</h2>
 
   <p>Panel launcher items can have a menu associated with it, which
   can be opened by clicking on the small arrow button next to the
@@ -364,7 +364,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="panel-settings"></a>Panel
+  <h2><a name="panel-settings"></a>Panel
   Preferences</h2>
 
   <p>The properties dialog for the Xfce 4 Panel can be opened from
@@ -414,7 +414,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "panel-advanced"></a>Advanced</h2>
 
   <h3><a name="panel-files"></a>Files and Environment
@@ -542,7 +542,7 @@ iconbox=0
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="panel-copyright"></a>About
+  <h2><a name="panel-copyright"></a>About
   <b><tt>xfce4-panel</tt></b></h2>
 
   <p><b><tt>xfce4-panel</tt></b> was written by Jasper Huijsmans

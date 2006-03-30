@@ -52,7 +52,7 @@
   allow multiple channels, so a module can listen only to changes
   it is interested in; The mcs in the name stands for <em>multichannel settings</em>.</p>
 
-  <h2 style="clear: both"><a name="manager-dialog"
+  <h2><a name="manager-dialog"
   id="manager-dialog"></a>Settings Manager Dialog</h2>
 
   <h3><a name="id2533406"></a>Opening
@@ -136,7 +136,7 @@
 
 
 
-  <h2 style="clear: both"><a name="manager-copyright"
+  <h2><a name="manager-copyright"
   id="manager-copyright"></a>About Xfce 4 Settings Manager</h2>
 
   <p>This package was written by Olivier Fourdan (<tt>&lt;<a href=

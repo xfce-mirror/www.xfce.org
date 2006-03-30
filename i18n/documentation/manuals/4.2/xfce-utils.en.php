@@ -39,7 +39,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "utils-intro"></a>Introduction</h2>
 
   <p>The <b><tt>xfce-utils</tt></b> package provides a taskbar, the
@@ -49,7 +49,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="utils-taskbar"></a>Taskbar</h2>
+  <h2><a name="utils-taskbar"></a>Taskbar</h2>
 
   <p>The taskbar shows all running programs. The behaviour of the
   taskbar can be changed from the settings manager. Run
@@ -80,7 +80,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="utils-run"></a>Run
+  <h2><a name="utils-run"></a>Run
   Dialog</h2><a name="run-dialog-fig"></a>
 
   <p><b>Figure�2.�Run dialog</b></p><img src=
@@ -93,7 +93,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="utils-about"></a>About
+  <h2><a name="utils-about"></a>About
   Dialog</h2><a name="about-dialog-fig"></a>
 
   <p><b>Figure�3.�About dialog</b></p><img src=
@@ -106,7 +106,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="utils-scripts"></a>Scripts</h2>
+  <h2><a name="utils-scripts"></a>Scripts</h2>
 
   <dl>
     <dt>startxfce4</dt>
@@ -192,7 +192,7 @@ export BROWSER="galeon -w"
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="utils-copyright"></a>About
+  <h2><a name="utils-copyright"></a>About
   xfce-utils</h2>
 
   <p><b><tt>xfce-utils</tt></b> was written by Jasper Huijsmans

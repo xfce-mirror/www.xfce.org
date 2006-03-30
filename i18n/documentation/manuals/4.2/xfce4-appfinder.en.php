@@ -31,7 +31,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "appfinder-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Appfinder is part of the <a href=
@@ -42,7 +42,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "appfinder-getting-started"></a>Getting Started</h2>
 
   <p>You can start Appfinder from console running
@@ -75,7 +75,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "appfinder-advanced"></a>Appfinder Advanced features</h2>
 
   <p>The Xfce 4 appfinder has the possibility to interact with
@@ -96,7 +96,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="appfinder-copyright"></a>About
+  <h2><a name="appfinder-copyright"></a>About
   <b><tt>xfce4-appfinder</tt></b></h2>
 
   <p><b><tt>xfce4-appfinder</tt></b> was written by Eduard

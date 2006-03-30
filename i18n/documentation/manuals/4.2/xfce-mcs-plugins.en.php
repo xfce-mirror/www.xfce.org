@@ -48,7 +48,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "plugins-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 settings manager provides access to the settings of
@@ -59,7 +59,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="id2533145"></a>Mouse
+  <h2><a name="id2533145"></a>Mouse
   Settings</h2><a name="mouse-settings-fig"></a>
 
   <p><b>Figure�1.�Mouse settings dialog</b></p><img src=
@@ -104,7 +104,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="id2533386"></a>Keyboard
+  <h2><a name="id2533386"></a>Keyboard
   Settings</h2><a name="keyboard-settings-fig"></a>
 
   <p><b>Figure�2.�Keyboard settings dialog</b></p><img src=
@@ -147,7 +147,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="id2533552"></a>User Interface
+  <h2><a name="id2533552"></a>User Interface
   Settings</h2><a name="ui-settings-fig"></a>
 
   <p><b>Figure�3.�User interface settings dialog</b></p><img src=
@@ -215,7 +215,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="id2533703"></a>Display
+  <h2><a name="id2533703"></a>Display
   Preferences</h2><a name="display-preferences-fig"></a>
 
   <p><b>Figure�5.�Display Preferences dialog</b></p><img src=
@@ -254,7 +254,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="plugins-copyright"></a>About
+  <h2><a name="plugins-copyright"></a>About
   Settings Manager Plugins</h2>
 
   <p>This package was written by Olivier Fourdan (<tt>&lt;<a href=

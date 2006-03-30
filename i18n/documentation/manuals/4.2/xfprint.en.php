@@ -42,7 +42,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfprint-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Printing Management is part of the <a href=
@@ -60,7 +60,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfprint-select"></a>Printer
+  <h2><a name="xfprint-select"></a>Printer
   selection</h2>Before doing anything with <b><tt>xfprint</tt></b>
   you need to select the printing system backend. <a name=
   "mcs-plugin"></a>
@@ -100,7 +100,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfprint-use"></a>Using
+  <h2><a name="xfprint-use"></a>Using
   <b><tt>xfprint4</tt></b></h2>The <b><tt>xfprint4</tt></b>
   application allows the user to print files of many different
   types and to set the printing options. For this it makes use of
@@ -175,7 +175,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfprintmanager-use"></a>Using
+  <h2><a name="xfprintmanager-use"></a>Using
   <b><tt>xfprint-manager</tt></b></h2>The
   <b><tt>xfprint-manager</tt></b> application provides queue and
   job control for the printing systems that support it. It allows
@@ -193,7 +193,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfprint-copyright"></a>About
+  <h2><a name="xfprint-copyright"></a>About
   <b><tt>xfprint</tt></b></h2>
 
   <p><b><tt>xfprint</tt></b> was written by Jean-Fran�ois Wauthy

@@ -1,4 +1,4 @@
-<h2 style="clear: both"><a name="xfce4-install" id=
+<h2><a name="xfce4-install" id=
 "xfce4-install"></a>Installing Xfce4</h2>
 
 <h3><a name="id2534533" id="id2534533"></a>Binary packages</h3>

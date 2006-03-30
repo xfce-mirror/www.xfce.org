@@ -69,7 +69,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfsm-intro"></a>Introduction</h2>
 
   <p><b><tt>xfce4-session</tt></b> is a session manager for Xfce 4.
@@ -90,7 +90,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfce4-session-settings"></a>Session Manager settings</h2>
 
   <h3><a name="xfsm-general-settings"></a>General
@@ -172,7 +172,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfsm-customize"></a>Customizing
+  <h2><a name="xfsm-customize"></a>Customizing
   the Session Manager</h2>
 
   <p>You can customize the splash-screen that
@@ -228,7 +228,7 @@ myuser myhost=/usr/local/libexec/xfsm-shutdown-helper
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfsm-advanced"></a>Advanced</h2>
+  <h2><a name="xfsm-advanced"></a>Advanced</h2>
 
   <h3><a name="files-and-env-vars"></a>Files and Environment
   Variables</h3>
@@ -416,7 +416,7 @@ CustomizeSecurity=NONE
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xfsm-copyright"></a>About
+  <h2><a name="xfsm-copyright"></a>About
   <b><tt>xfce4-session</tt></b></h2>
 
   <p><b><tt>xfce4-session</tt></b> was written by Benedikt Meurer

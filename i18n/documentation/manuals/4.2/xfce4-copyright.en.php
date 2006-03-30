@@ -1,5 +1,5 @@
 
-  <h2 style="clear: both"><a name="xfce4-copyright" id=
+  <h2><a name="xfce4-copyright" id=
   "xfce4-copyright"></a>Copyright and Licences</h2>
 
   <p>Xfce 4 is copyright � Olivier Fourdan (<tt>&lt;<a href=

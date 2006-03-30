@@ -40,7 +40,7 @@
     <dt><a href="#xfdesktop-copyright">About xfdesktop</a></dt>
   </dl>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfdesktop-intro"></a>Introduction</h2>
 
   <p>The <b><tt>xfdesktop</tt></b> application manages the desktop
@@ -54,7 +54,7 @@
   this dialog you can change the backdrop image and color and
   change settings for the menu and the window list.</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfdesktop-background"></a>Backdrops</h2>
 
   <p>You can start the Desktop settings dialog by clicking on the
@@ -156,7 +156,7 @@
     </dd>
   </dl>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xfdesktop-menu"></a><b><tt>xfdesktop</tt></b> root menu</h2>
 
   <p><b><tt>xfdesktop</tt></b> provides an applications menu and a
@@ -230,7 +230,7 @@
   and for the windowlist use <b><tt>xfdesktop</tt></b>
   <b><tt>-windowlist</tt></b>.</p>
 
-  <h2 style="clear: both"><a name="xfdesktop-copyright"></a>About
+  <h2><a name="xfdesktop-copyright"></a>About
   xfdesktop</h2>
 
   <p><b><tt>xfdesktop</tt></b> was written by Brian Tarricone

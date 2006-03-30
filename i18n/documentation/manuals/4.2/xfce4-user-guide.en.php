@@ -85,7 +85,7 @@
     License</a></dt>
   </dl>
 
-  <h2 style="clear: both"><a name="preface" id=
+  <h2><a name="preface" id=
   "preface"></a>Preface</h2>
 
   <p>This document gives an overview of the Xfce 4 Desktop

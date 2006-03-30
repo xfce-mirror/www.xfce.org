@@ -1,5 +1,5 @@
 
-  <h2 style="clear: both"><a name="xfce4-components" id=
+  <h2><a name="xfce4-components" id=
   "xfce4-components"></a>Components of Xfce 4</h2>
 
   <p>The Xfce 4 components are packaged separately. This section

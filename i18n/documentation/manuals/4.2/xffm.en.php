@@ -140,7 +140,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "introduction"></a>Introduction</h2>
 
   <p>This document describes the basic function and behaviour of
@@ -171,7 +171,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name=
+  <h2><a name=
   "xffm-getting-started"></a>Getting Started</h2>
 
   <p>You will usually start the filemanager by selecting the
@@ -190,7 +190,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xffm-tree-types"></a>File
+  <h2><a name="xffm-tree-types"></a>File
   manager root branches</h2>
 
   <p>Currently there are the following root level branches. You can
@@ -267,7 +267,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xffm-menus"></a>The menus</h2>
+  <h2><a name="xffm-menus"></a>The menus</h2>
 
   <p>The key to working with the filemanager is understanding the
   menus. There are exactly two menus to deal with: the main and the
@@ -654,7 +654,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="Toolbar"></a>The toolbars</h2>
+  <h2><a name="Toolbar"></a>The toolbars</h2>
 
   <h3><a name="standard_toolbar"></a>The standard
   toolbar</h3><a name="toolbar-fig"></a>
@@ -756,7 +756,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="xffm-settings"></a>The
+  <h2><a name="xffm-settings"></a>The
   xfce-mcs-manager</h2><a name="mcs-plugin-fig"></a>
 
   <p><b>Figure�31.�The mcs plugin</b></p><img src=
@@ -817,7 +817,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="diagnostics"></a>The diagnostics
+  <h2><a name="diagnostics"></a>The diagnostics
   window</h2><a name="diagnostics-window-fig"></a>
 
   <p><b>Figure�32.�The diagnostics window</b></p><img src=
@@ -832,7 +832,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="FAQ"></a>FAQ</h2>
+  <h2><a name="FAQ"></a>FAQ</h2>
 
   <h3><a name="FAQ1"></a>Is there an icon view?</h3>
 

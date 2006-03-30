@@ -1,5 +1,5 @@
 
-  <h2 style="clear: both"><a name="xfce4-intro" id=
+  <h2><a name="xfce4-intro" id=
   "xfce4-intro"></a>Introduction</h2>
 
   <p>Xfce is a lightweight desktop environment for unix-like

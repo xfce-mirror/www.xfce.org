@@ -63,7 +63,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="wm-intro"></a>Introduction</h2>
+  <h2><a name="wm-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Window Manager is part of the <a href=
   "http://www.xfce.org" target="_top">Xfce Desktop Environment</a>.
@@ -110,7 +110,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="wm-using"></a>Using
+  <h2><a name="wm-using"></a>Using
   <b><tt>xfwm4</tt></b></h2>
 
   <h3><a name="wm-windows"></a>Manage windows</h3>
@@ -438,7 +438,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="wm-settings"></a>Customizing
+  <h2><a name="wm-settings"></a>Customizing
   <b><tt>xfwm4</tt></b></h2>
 
   <p>To open the Window Manager preferences dialog, click the
@@ -789,7 +789,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="workspaces"></a>Managing
+  <h2><a name="workspaces"></a>Managing
   workspaces</h2>
 
   <p><b><tt>xfwm4</tt></b> also manages workspaces. There is a
@@ -846,7 +846,7 @@
 
   <p>�</p>
 
-  <h2 style="clear: both"><a name="wm-copyright"></a>About
+  <h2><a name="wm-copyright"></a>About
   <b><tt>xfwm4</tt></b></h2>
 
   <p><b><tt>xfwm4</tt></b> was written Olivier Fourdan
