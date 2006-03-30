@@ -1,4 +1,4 @@
-<pre></pre>
+<pre>
 		  GNU LIBRARY GENERAL PUBLIC LICENSE
 		       Version 2, June 1991
 

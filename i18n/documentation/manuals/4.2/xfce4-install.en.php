@@ -1,21 +1,3 @@
-<table width="100%" summary="Navigation header">
-<tr>
-<th colspan="3" align="center">Installing Xfce4</th>
-</tr>
-
-<tr>
-<td width="20%" align="left"><a accesskey="p" href=
-"xfce4-components.html">Prev</a>&iuml;&iquest;&frac12;</td>
-
-<th width="60%" align="center">&iuml;&iquest;&frac12;</th>
-
-<td width="20%" align="right">
-&iuml;&iquest;&frac12;<a accesskey="n" href=
-"xfce4-copyright.html">Next</a></td>
-</tr>
-</table>
-<hr>
-
 <h2 style="clear: both"><a name="xfce4-install" id=
 "xfce4-install"></a>Installing Xfce4</h2>
 
@@ -137,33 +119,3 @@ perfect desktop environment.</p>
 "_top">Terminal</a> is an advanced, but easy to use terminal
 emulator for the Xfce Desktop Environment. It contains all
 feature you would expect from a modern terminal emulator.</p>
-
-<p>&iuml;&iquest;&frac12;</p>
-<hr>
-
-<table width="100%" summary="Navigation footer">
-<tr>
-<td width="40%" align="left"><a accesskey="p" href=
-"xfce4-components.html">Prev</a>&iuml;&iquest;&frac12;</td>
-
-<td width="20%" align="center"><a accesskey="u" href=
-"xfce4-user-guide.html">Up</a></td>
-
-<td width="40%" align="right">
-&iuml;&iquest;&frac12;<a accesskey="n" href=
-"xfce4-copyright.html">Next</a></td>
-</tr>
-
-<tr>
-<td width="40%" align="left" valign="top">Components of Xfce
-4&iuml;&iquest;&frac12;</td>
-
-<td width="20%" align="center"><a accesskey="h" href=
-"xfce4-user-guide.html">Home</a></td>
-
-<td width="40%" align="right" valign="top">
-&iuml;&iquest;&frac12;Copyright and Licences</td>
-</tr>
-</table>
-
-

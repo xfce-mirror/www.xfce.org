@@ -1,4 +1,4 @@
-<h2>User Guide</h2>
+<p>User Guide</p>
 
 <ul>
     <li><a href="/documentation/manuals/4.2/xfce4-user-guide#preface">Preface</a></li>
@@ -9,7 +9,7 @@
     <li><a href="/documentation/manuals/4.2/xfce4-copyright">Copyright and Licenses</a></li>
 </ul>
 
-<h2>User Manuals</h2>
+<p>User Manuals</p>
 
 <ul>
     <li><a href="/documentation/manuals/4.2/xfce4-panel">Panel</a></li>
@@ -24,4 +24,4 @@
     <li><a href="/documentation/manuals/4.2/xfce4-appfinder">Application Finder</a></li>
 </ul>
 
-<h2><a href="../../api/">API Documentation</a></h2>
+<p><a href="../../api/">API Documentation</a></p>

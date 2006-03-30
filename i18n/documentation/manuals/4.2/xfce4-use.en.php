@@ -1,21 +1,3 @@
-
-  <table width="100%" summary="Navigation header">
-    <tr>
-      <th colspan="3" align="center">Using Xfce4</th>
-    </tr>
-
-    <tr>
-      <td width="20%" align="left"><a accesskey="p" href=
-      "xfce4-intro.html">Prev</a>�</td>
-
-      <th width="60%" align="center">�</th>
-
-      <td width="20%" align="right">�<a accesskey="n" href=
-      "xfce4-components.html">Next</a></td>
-    </tr>
-  </table>
-  <hr>
-
   <h2 style="clear: both"><a name="xfce4-use" id=
   "xfce4-use"></a>Using Xfce4</h2>
 
@@ -262,27 +244,3 @@
   <a href="index.html" target="_top">manuals</a> of the separate
   components of Xfce 4.</p>
   <hr>
-
-  <table width="100%" summary="Navigation footer">
-    <tr>
-      <td width="40%" align="left"><a accesskey="p" href=
-      "xfce4-intro.html">Prev</a>�</td>
-
-      <td width="20%" align="center"><a accesskey="u" href=
-      "xfce4-user-guide.html">Up</a></td>
-
-      <td width="40%" align="right">�<a accesskey="n" href=
-      "xfce4-components.html">Next</a></td>
-    </tr>
-
-    <tr>
-      <td width="40%" align="left" valign="top">Introduction�</td>
-
-      <td width="20%" align="center"><a accesskey="h" href=
-      "xfce4-user-guide.html">Home</a></td>
-
-      <td width="40%" align="right" valign="top">�Components of
-      Xfce 4</td>
-    </tr>
-  </table>
-

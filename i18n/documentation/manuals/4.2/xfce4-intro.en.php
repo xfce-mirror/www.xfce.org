@@ -1,21 +1,4 @@
 
-  <table width="100%" summary="Navigation header">
-    <tr>
-      <th colspan="3" align="center">Introduction</th>
-    </tr>
-
-    <tr>
-      <td width="20%" align="left"><a accesskey="p" href=
-      "xfce4-user-guide.html">Prev</a>�</td>
-
-      <th width="60%" align="center">�</th>
-
-      <td width="20%" align="right">�<a accesskey="n" href=
-      "xfce4-use.html">Next</a></td>
-    </tr>
-  </table>
-  <hr>
-
   <h2 style="clear: both"><a name="xfce4-intro" id=
   "xfce4-intro"></a>Introduction</h2>
 
@@ -66,27 +49,3 @@
     <li><a href="http://bugzilla.xfce.org" target="_top">Bug
     tracker</a></li>
   </ul>
-  <hr>
-
-  <table width="100%" summary="Navigation footer">
-    <tr>
-      <td width="40%" align="left"><a accesskey="p" href=
-      "xfce4-user-guide.html">Prev</a>�</td>
-
-      <td width="20%" align="center"><a accesskey="u" href=
-      "xfce4-user-guide.html">Up</a></td>
-
-      <td width="40%" align="right">�<a accesskey="n" href=
-      "xfce4-use.html">Next</a></td>
-    </tr>
-
-    <tr>
-      <td width="40%" align="left" valign="top">The Xfce 4 Desktop
-      Environment �</td>
-
-      <td width="20%" align="center"><a accesskey="h" href=
-      "xfce4-user-guide.html">Home</a></td>
-
-      <td width="40%" align="right" valign="top">�Using Xfce4</td>
-    </tr>
-  </table>
