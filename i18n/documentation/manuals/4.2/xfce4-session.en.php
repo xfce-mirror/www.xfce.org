@@ -1,26 +1,19 @@
 
   <h1><a name="xfce4-session"></a>Xfce 4 Session Manager</h1>
 
-  <h3>Benedikt Meurer</h3>
+  <p>Benedikt Meurer &lt;benny@xfce.org&gt;</p>
+  
+  os-cillation<br />
+  System development<br />
+  Software develope<br />
 
-  <p><tt>&lt;<a href=
-  "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt></p>os-cillation<br>
+  <h3>This manual describes the xfce4-session package, version 4.2.0. Last updated: Jan 2005</h3>
 
-  System development<br>
-  Software developer<br>
-
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">�</span></p>This
-  manual describes the <b><tt>xfce4-session</tt></b> package,
-  version 4.2.0. Last updated: Jan 2005<br>
-  <br>
-
-  <p>Copyright � 2003, 2004 Benedikt Meurer</p><a name=
-  "legalnotice"></a>
+  <p>Copyright &copy; 2003, 2004 Benedikt Meurer</p>
 
   <p>This document is provided under the terms of the GNU GPL,
   version 2 or (at your option) any later version.</p>
-  <hr>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -67,7 +60,7 @@
     <b><tt>xfce4-session</tt></b></a></dt>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "xfsm-intro"></a>Introduction</h2>
@@ -88,7 +81,7 @@
   <b><tt>smproxy</tt></b> would do, and besides that, it also
   supports multiscreen display.</p>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "xfce4-session-settings"></a>Session Manager settings</h2>
@@ -96,9 +89,9 @@
   <h3><a name="xfsm-general-settings"></a>General
   preferences</h3><a name="xfsm-general-fig"></a>
 
-  <p><b>Figure�1.�<tt>xfce4-session</tt> general
+  <p><b>Figure 1. <tt>xfce4-session</tt> general
   preferences</b></p><img src="/images/manual/4.2/xfsm-general.png" alt=
-  "Shows the General tab of the xfce4-session settings dialog.">
+  "Shows the General tab of the xfce4-session settings dialog." />
 
   <dl>
     <dt>Display chooser on login</dt>
@@ -130,9 +123,9 @@
   <h3><a name="xfsm-advanced settings"></a>Advanced
   preferences</h3><a name="xfsm-advanced-fig"></a>
 
-  <p><b>Figure�2.�<tt>xfce4-session</tt> advanced
+  <p><b>Figure 2. <tt>xfce4-session</tt> advanced
   preferences</b></p><img src="/images/manual/4.2/xfsm-advanced.png" alt=
-  "Shows Advanced tab of the xfce4-session settings dialog.">
+  "Shows Advanced tab of the xfce4-session settings dialog." />
 
   <dl>
     <dt>Launch Gnome services on startup</dt>
@@ -170,7 +163,7 @@
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="xfsm-customize"></a>Customizing
   the Session Manager</h2>
@@ -183,9 +176,9 @@
   <h3><a name="xfsm-engines"></a>Splash screen
   settings</h3><a name="splash-screen-settings-fig"></a>
 
-  <p><b>Figure�3.�Splash screen settings dialog</b></p><img src=
+  <p><b>Figure 3. Splash screen settings dialog</b></p><img src=
   "/images/manual/4.2/xfsm-splash.png" alt=
-  "Shows the xfce4-session splash screen settings dialog.">
+  "Shows the xfce4-session splash screen settings dialog." />
 
   <p>On the left, the dialog shows a list of all installed engines.
   Select an engine, and you will see, if available, a preview and
@@ -226,7 +219,7 @@ myuser myhost=/usr/local/libexec/xfsm-shutdown-helper
     </tr>
   </table>
 
-  <p>�</p>
+  
 
   <h2><a name="xfsm-advanced"></a>Advanced</h2>
 
@@ -414,7 +407,7 @@ CustomizeSecurity=NONE
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="xfsm-copyright"></a>About
   <b><tt>xfce4-session</tt></b></h2>

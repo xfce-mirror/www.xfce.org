@@ -27,7 +27,7 @@
   <tt>/usr/X11R6/etc</tt>; you can use your package manager to find
   out.</p>
 
-  <p>�</p>
+  
 
   <h3><a name="id2533342" id="id2533342"></a>The Default
   Desktop</h3>
@@ -37,13 +37,14 @@
   old UNIX tradition of small tools that do one job and do it best.
   A default Xfce 4 desktop with no programs running is shown in
   <a href="xfce4-use.html#default-session-fig" title=
-  "Figure�1.�Default Xfce 4 session">Figure�1, “Default Xfce 4
-  session”</a>.</p><a name="default-session-fig" id=
+  "Figure 1. Default Xfce 4 session">Figure 1, &quot;Default Xfce 4
+  session&quot;</a>.</p>
+  <a name="default-session-fig" id=
   "default-session-fig"></a>
 
-  <p><b>Figure�1.�Default Xfce 4 session</b></p><img src=
+  <p><b>Figure 1. Default Xfce 4 session</b></p><img src=
   "/images/manual/4.2/default-session.png" alt=
-  "Shows default Xfce session, with background manager, panel and taskbar. ">
+  "Shows default Xfce session, with background manager, panel and taskbar. " />
 
   <p>When you run <b><tt>startxfce4</tt></b> for the first time,
   several applications are started by the Xfce session manager:</p>
@@ -174,8 +175,8 @@
     <dd>
       <p>You can move windows around the screen by dragging their
       title bar. A window can be closed, hidden, maximized, shaded
-      and made sticky — this means it will show up on all
-      workspaces — by using the title bar buttons.</p>
+      and made sticky &#8212; this means it will show up on all
+      workspaces &#8212; by using the title bar buttons.</p>
 
       <p>Right clicking on the title bar will open a menu that
       gives access to all window operations.</p>
@@ -243,4 +244,4 @@
   Xfce 4 Desktop Environment. More information is available in the
   <a href="index.html" target="_top">manuals</a> of the separate
   components of Xfce 4.</p>
-  <hr>
+  <hr />

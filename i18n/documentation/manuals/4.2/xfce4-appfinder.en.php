@@ -1,18 +1,12 @@
 
   <h1><a name="xfce4-appfinder"></a>Xfce 4 Appfinder</h1>
 
-  <h3>Eduard Roccatello</h3>
+  <p><strong>Eduard Roccatello</strong> &lt;eduard@xfce.org&gt;</p>
 
-  <p><tt>&lt;<a href=
-  "mailto:eduard@xfce.org">eduard@xfce.org</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes <b><tt>xfce4-appfinder</tt></b> version 4.2.0.
-  Last updated: Jan 2005<br>
-  <br>
+  <h3>This manual describes xfce4-appfinder version 4.2.0. Last updated: Jan 2005</h3>
 
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Eduard Roccatello</p>
-  <hr>
+  <p>Copyright &copy; 2004 Eduard Roccatello</p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -29,7 +23,7 @@
     <b><tt>xfce4-appfinder</tt></b></a></dt>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "appfinder-intro"></a>Introduction</h2>
@@ -40,7 +34,7 @@
   system. It searches for <tt>.desktop</tt> files based on the
   freedesktop spec and makes an index of the found apps.</p>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "appfinder-getting-started"></a>Getting Started</h2>
@@ -53,27 +47,27 @@
   center of your screen, looking like this:</p><a name=
   "default-appfinder-fig"></a>
 
-  <p><b>Figure�1.�Xfce4 Appfinder</b></p><img src=
+  <p><b>Figure 1. Xfce4 Appfinder</b></p><img src=
   "/images/manual/4.2/default_appfinder.png" alt=
-  "Xfce4 Appfinder window is splitted in two parts: on the left we have categories and on the right found applications matching the category chosen. It also include a box to search applications matching a particular keyword. ">
+  "Xfce4 Appfinder window is splitted in two parts: on the left we have categories and on the right found applications matching the category chosen. It also include a box to search applications matching a particular keyword. " />
 
   <p>Double clicking an application will launch it, while a right
   click will show up a pop up menu, where getting informations
   about the selected item.</p><a name="handle-popup-fig"></a>
 
-  <p><b>Figure�2.�Popup menu</b></p><img src=
+  <p><b>Figure 2. Popup menu</b></p><img src=
   "/images/manual/4.2/appfinder-handle-popup.png" alt=
-  "Right click popup menu.">
+  "Right click popup menu." />
 
   <p>The informations window is useful to get all details of a
   desktop file entry. We can get informations about Name, Comment,
   Categories and Command.</p><a name="item-popup-fig"></a>
 
-  <p><b>Figure�3.�Item informations window</b></p><img src=
+  <p><b>Figure 3. Item informations window</b></p><img src=
   "/images/manual/4.2/appfinder-item-popup.png" alt=
-  "Item informations window.">
+  "Item informations window." />
 
-  <p>�</p>
+  
 
   <h2><a name=
   "appfinder-advanced"></a>Appfinder Advanced features</h2>
@@ -94,7 +88,7 @@
   Command text entry of Xfce 4 panel launcher settings and get the
   full command written. A fast way to add a new application.</p>
 
-  <p>�</p>
+  
 
   <h2><a name="appfinder-copyright"></a>About
   <b><tt>xfce4-appfinder</tt></b></h2>

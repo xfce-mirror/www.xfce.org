@@ -23,8 +23,8 @@
   <p>Xfce is all free software. The separate components are
   released under either the BSD license, the GNU LGPL or the GNU
   GPL (see <a href="xfce4-copyright.html" title=
-  "Copyright and Licences">the section called “Copyright and
-  Licences”</a> for details).</p>
+  "Copyright and Licences">the section called &quot;Copyright and
+  Licences&quot;</a> for details).</p>
 
   <h3><a name="xfce4-resources" id=
   "xfce4-resources"></a>Resources</h3>

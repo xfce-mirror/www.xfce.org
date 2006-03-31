@@ -1,19 +1,15 @@
 
   <h1><a name="xfwm4"></a>Xfce 4 Window Manager</h1>
 
-  <h3>Fran�ois Le Clainche</h3>
+  <p><strong>Fran&ccedil;ois Le Clainche</strong> &lt;fleclainche@wanadoo.fr&gt;</p>
 
-  <p><tt>&lt;<a href=
-  "mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes <b><tt>xfwm4</tt></b> version 4.2.0<br>
-  <br></span>
+  <h3>This manual describes xfwm4 version 4.2.0</h3>
 
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Fran�ois Le Clainche</span></p>
-
-  <p>Copyright � 2004 Jasper Huijsmans</p>
-  <hr>
+  <p>
+  Copyright &copy; 2004 Fran&ccedil;ois Le Clainche<br />
+  Copyright &copy; 2004 Jasper Huijsmans
+  </p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -61,7 +57,7 @@
     <b><tt>xfwm4</tt></b></a></dt>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="wm-intro"></a>Introduction</h2>
 
@@ -108,7 +104,7 @@
   disable the compositor on <b><tt>xfwm4</tt></b> startup using the
   '--compositor=off' argument.</p>
 
-  <p>�</p>
+  
 
   <h2><a name="wm-using"></a>Using
   <b><tt>xfwm4</tt></b></h2>
@@ -123,9 +119,9 @@
   and a title on regular application windows. The six buttons
   perform these basic functions:</p><a name="titlebar-fig"></a>
 
-  <p><b>Figure�1.�<tt>xfwm4</tt> title bar buttons</b></p><img src=
+  <p><b>Figure 1. <tt>xfwm4</tt> title bar buttons</b></p><img src=
   "/images/manual/4.2/titlebar.png" alt=
-  "xfwm4 title bar buttons and functions">
+  "xfwm4 title bar buttons and functions" />
 
   <p>You can open the window menu with a left-click on the menu
   button on the title bar, or with a right-click on the window
@@ -136,7 +132,7 @@
   includes several items among those available in the window
   menu.</p>
 
-  <p>�</p>
+  
 
   <dl>
     <dt>Give focus to a window</dt>
@@ -175,7 +171,7 @@
         <li>click the maximize button of the title bar</li>
 
         <li>open the window menu from the title bar and choose the
-        "maximize" item</li>
+        &quot;maximize&quot; item</li>
 
         <li>use Alt + F5 keyboard shortcut</li>
       </ul>
@@ -210,10 +206,10 @@
 
         <li>use the same keyboard shortcut once again</li>
 
-        <li>choose the "Unmaximize" item in the window menu</li>
+        <li>choose the &quot;Unmaximize&quot; item in the window menu</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Resize windows</dt>
@@ -235,7 +231,7 @@
         + (up, down, right or left) Arrow</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Hide / unhide windows</dt>
@@ -248,17 +244,17 @@
         <li>click the hide button of the title bar</li>
 
         <li>open the window menu from the title bar and choose the
-        "Hide" item</li>
+        &quot;Hide&quot; item</li>
 
         <li>use Alt + F8 keyboard shortcut</li>
       </ul>
 
       <p>Alternatively, you can hide all windows of current
       workspace, excepted the one you are using, in only one action
-      : click the menu button of the title bar and choose "Hide all
-      others".</p>
+      : click the menu button of the title bar and choose &quot;Hide all
+      others&quot;.</p>
 
-      <p>To "unhide" a window, you will have to select its name or
+      <p>To &quot;unhide&quot; a window, you will have to select its name or
       its icon in one of those Xfce 4 components :</p>
 
       <ul type="disc">
@@ -272,13 +268,13 @@
         <li>the <b><tt>xfce4-iconbox</tt></b></li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Shade / unshade windows</dt>
 
     <dd>
-      <p>If you "shade" a window, it will be reduced to the size of
+      <p>If you &quot;shade&quot; a window, it will be reduced to the size of
       its title bar. The same repeated action makes a window to
       shade/unshade :</p>
 
@@ -286,7 +282,7 @@
         <li>click the shade/unshade button of the title bar</li>
 
         <li>open the window menu from the title bar and choose
-        "Shade" or "Unshade" item</li>
+        &quot;Shade&quot; or &quot;Unshade&quot; item</li>
 
         <li>use the mouse scrollwheel while you hold the pointer
         over the title bar</li>
@@ -294,13 +290,13 @@
         <li>use the Alt + F9 keyboard shortcut</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Stick / unstick windows</dt>
 
     <dd>
-      <p>If you "stick" a window, it will be visible at the same
+      <p>If you &quot;stick&quot; a window, it will be visible at the same
       place on all your workspaces. The same repeated action make a
       window to stick/unstick :</p>
 
@@ -308,18 +304,18 @@
         <li>click the stick/unstick button of the title bar</li>
 
         <li>open the window menu button from the title bar and
-        choose "Stick" or "Unstick" item</li>
+        choose &quot;Stick&quot; or &quot;Unstick&quot; item</li>
 
         <li>use the Alt + F10 keyboard shortcut</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Raise / lower windows</dt>
 
     <dd>
-      <p>The "raise window" function makes a window frame appear
+      <p>The &quot;raise window&quot; function makes a window frame appear
       above all the other frames. To raise a window, you can :</p>
 
       <ul type="disc">
@@ -342,11 +338,11 @@
       </ul>
 
       <p>You can make a window frame to always stay above all other
-      windows by opening the window menu and selecting the "always
-      on top" item.</p>
+      windows by opening the window menu and selecting the &quot;always
+      on top&quot; item.</p>
 
-      <p>The "lower" function sends a window frame below all other
-      frames. To "lower" a window, you can :</p>
+      <p>The &quot;lower&quot; function sends a window frame below all other
+      frames. To &quot;lower&quot; a window, you can :</p>
 
       <ul type="disc">
         <li>middle-click on its title bar</li>
@@ -355,7 +351,7 @@
         the window is focused)</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Move windows</dt>
@@ -374,7 +370,7 @@
         Arrow keyboard shortcut</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Move a window to another workspace</dt>
@@ -387,7 +383,7 @@
         <li>stick the window, move to another workspace, then
         unstick the window.</li>
 
-        <li>use the window menu and choose one of the "Send to"
+        <li>use the window menu and choose one of the &quot;Send to&quot;
         submenu items.</li>
 
         <li>left or right click on the title bar of the window,
@@ -417,7 +413,7 @@
         workspace.</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Close a window</dt>
@@ -429,20 +425,20 @@
         <li>click the close button of the title bar</li>
 
         <li>Open the window menu from the title bar and choose the
-        "Close" item</li>
+        &quot;Close&quot; item</li>
 
         <li>or use Alt + F4 keyboard shortcut</li>
       </ul>
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="wm-settings"></a>Customizing
   <b><tt>xfwm4</tt></b></h2>
 
   <p>To open the Window Manager preferences dialog, click the
-  button labelled "Window Manager" in the <a href=
+  button labelled &quot;Window Manager&quot; in the <a href=
   "xfce-mcs-manager.html#manager-dialog" target="_top">Xfce 4
   Settings manager</a>. The dialog shows four tabs : Style,
   Keyboard, Focus, Advanced. All modifications will have an
@@ -451,8 +447,8 @@
   <h3><a name="wm-style"></a>Decoration style</h3><a name=
   "wm_decoration_style-fig"></a>
 
-  <p><b>Figure�2.�Decoration style preferences</b></p><img src=
-  "/images/manual/4.2/decoration_style.png" alt="The decoration style tab">
+  <p><b>Figure 2. Decoration style preferences</b></p><img src=
+  "/images/manual/4.2/decoration_style.png" alt="The decoration style tab" />
 
   <dl>
     <dt>Window style</dt>
@@ -468,9 +464,9 @@
     <dt>Title font</dt>
 
     <dd>
-      <p>The "Font select" button shows the family font currently
+      <p>The &quot;Font select&quot; button shows the family font currently
       in use for the window title appearance. Click this button if
-      you want to change it, and a "Font selection" dialog will
+      you want to change it, and a &quot;Font selection&quot; dialog will
       appear. It works like the font selection dialog of the
       <a href="xfce-mcs-plugins.html#id2811474" target="_top">user
       interface settings manager plugin</a>.</p>
@@ -490,7 +486,7 @@
     <dd>
       <p>The button layout configuration uses an easy drag and drop
       tool. Click and drag the buttons to change the layout. Drop a
-      button in the "Hidden" area to remove a button from the
+      button in the &quot;Hidden&quot; area to remove a button from the
       titlebar. All modifications will have an immediate effect on
       the title bar buttons position.</p>
     </dd>
@@ -499,8 +495,8 @@
   <h3><a name="keyboard_shortcuts"></a>Keyboard
   shortcuts</h3><a name="keyboard_shortcuts-fig"></a>
 
-  <p><b>Figure�3.�Keyboard shortcuts preferences</b></p><img src=
-  "/images/manual/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab">
+  <p><b>Figure 3. Keyboard shortcuts preferences</b></p><img src=
+  "/images/manual/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab" />
 
   <dl>
     <dt>Keyboard Shortcuts</dt>
@@ -569,16 +565,16 @@
       </ul>
 
       <p>There are two lists on the right side of the dialog. The
-      "Windows shortcuts" list shows the keyboard shortcuts which
-      are used to drive the window manager. The "Command shortcuts"
+      &quot;Windows shortcuts&quot; list shows the keyboard shortcuts which
+      are used to drive the window manager. The &quot;Command shortcuts&quot;
       list shows the keyboard shortcuts which are aimed at
       launching applications. To modify one of the shortcuts, you
       have to double-click on it in the list, using the left button
       of your mouse, and compose your new shortcut when the
-      "Compose shortcut" popup window appears.</p><a name=
+      &quot;Compose shortcut&quot; popup window appears.</p><a name=
       "compose_shortcut-fig"></a>
 
-      <p><b>Figure�4.�The compose shortcut popup</b></p><img src=
+      <p><b>Figure 4. The compose shortcut popup</b></p><img src=
       "/images/manual/4.2/compose_shortcut.png" alt=
       "The compose shortcut popup">
 
@@ -588,7 +584,7 @@
       list of available themes.</p>
 
       <p>If you do not know the names of your keyboard modifier
-      keys, you can launch the "xev" application from a terminal
+      keys, you can launch the &quot;xev&quot; application from a terminal
       and test them.</p>
     </dd>
   </dl>
@@ -596,8 +592,8 @@
   <h3><a name="focus"></a>Focus preferences</h3><a name=
   "focus-fig"></a>
 
-  <p><b>Figure�5.�Focus preferences</b></p><img src=
-  "/images/manual/4.2/focus.png" alt="The Focus tab">
+  <p><b>Figure 5. Focus preferences</b></p><img src=
+  "/images/manual/4.2/focus.png" alt="The Focus tab" />
 
   <dl>
     <dt>Focus model</dt>
@@ -616,7 +612,7 @@
         over its frame.</li>
       </ul>
 
-      <p>�</p>
+      
     </dd>
 
     <dt>New window focus</dt>
@@ -632,7 +628,7 @@
     <dd>
       <p>If this option is selected, the frame of a newly focused
       window will automatically appear over all other frames, after
-      an amount of time that you can adjust with the "delay"
+      an amount of time that you can adjust with the &quot;delay&quot;
       slider.</p>
     </dd>
 
@@ -649,8 +645,8 @@
   <h3><a name="wm_advanced"></a>Advanced settings</h3><a name=
   "misc_wm_prefs-fig"></a>
 
-  <p><b>Figure�6.�Advanced preferences</b></p><img src=
-  "/images/manual/4.2/misc_wm_prefs.png" alt="Advanced tab">
+  <p><b>Figure 6. Advanced preferences</b></p><img src=
+  "/images/manual/4.2/misc_wm_prefs.png" alt="Advanced tab" />
 
   <dl>
     <dt>Windows snapping</dt>
@@ -659,7 +655,7 @@
       <p>You can choose the windows borders to be attracted by the
       borders of other windows, or by the screen edges, when they
       are moved. The distance from which this effect will be
-      applied can be specified with the "Distance" slider.</p>
+      applied can be specified with the &quot;Distance&quot; slider.</p>
     </dd>
 
     <dt>Wrap workspaces</dt>
@@ -787,7 +783,7 @@
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="workspaces"></a>Managing
   workspaces</h2>
@@ -803,9 +799,9 @@
   <h3><a name="id2597233"></a>Workspaces settings</h3><a name=
   "xfwm-workspace-fig"></a>
 
-  <p><b>Figure�7.�Workspace Settings</b></p><img src=
+  <p><b>Figure 7. Workspace Settings</b></p><img src=
   "/images/manual/4.2/xfwm_workspaces.png" alt=
-  "Shows workspace settings tab folder. ">
+  "Shows workspace settings tab folder. " />
 
   <dl>
     <dt>Workspaces</dt>
@@ -821,7 +817,7 @@
       <p>This field shows the list of avaible workspaces. If you
       want to edit the name of one of them, click its number and a
       fill the entry of the dialog that will then appear. When it's
-      done, click the "Apply" button, or just press the Enter key,
+      done, click the &quot;Apply&quot; button, or just press the Enter key,
       to return to the list.</p>
     </dd>
   </dl>
@@ -829,14 +825,14 @@
   <h3><a name="workspace-margins"></a>Workspaces
   margins</h3><a name="workspace_margins-fig"></a>
 
-  <p><b>Figure�8.�The workspace margins dialog</b></p><img src=
+  <p><b>Figure 8. The workspace margins dialog</b></p><img src=
   "/images/manual/4.2/workspace_margins.png" alt=
-  "The workspace margins tab folder">
+  "The workspace margins tab folder" />
 
   <p>To open the Workspace Margins dialog, click the button
-  labelled "Workspaces and Margins" in the <a href=
+  labelled &quot;Workspaces and Margins&quot; in the <a href=
   "xfce-mcs-manager.html#manager-dialog" target="_top">settings
-  manager dialog</a> and choose the tab labelled "Margins".</p>
+  manager dialog</a> and choose the tab labelled &quot;Margins&quot;.</p>
 
   <p>Margins are areas on the edges of the screen that maximized
   windows won't cover. You can adjust the size, in pixels, of all
@@ -844,7 +840,7 @@
   example, if you do not want maximized windows to overlap panel or
   iconbox frames.</p>
 
-  <p>�</p>
+  
 
   <h2><a name="wm-copyright"></a>About
   <b><tt>xfwm4</tt></b></h2>

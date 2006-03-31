@@ -1,27 +1,15 @@
 
   <h1><a name="xfprint"></a>Xfce 4 Printing Management</h1>
 
-  <h3>Jean-Fran�ois Wauthy</h3>
+  <p>
+  <strong>Jean-Fran&ccedil;ois Wauthy</strong> &lt;pollux@xfce.org&gt;<br />
+  <strong>Jasper Huijsmans</strong> &lt;jasperx@xfce.org&gt;
+  </p>
 
-  <p><tt>&lt;<a href=
-  "mailto:pollux@xfce.org">pollux@xfce.org</a>&gt;</tt></p>
+  <h3>This manual describes xfprint version 4.2.0</h3>
 
-  <h3>Jasper Huijsmans</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:jasperx@xfce.org">jasperx@xfce.org</a>&gt;</tt></p>
-
-  <h3>Jasper Huijsmans</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:jasperx@xfce.org">jasperx@xfce.org</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes <b><tt>xfprint</tt></b> version 4.2.0<br>
-  <br></span>
-
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Jean-Fran�ois Wauthy</span></p>
-  <hr>
+  <p>Copyright &copy; 2004 Jean-Fran&ccedil;ois Wauthy</p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -40,7 +28,7 @@
     <b><tt>xfprint</tt></b></a></dt>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "xfprint-intro"></a>Introduction</h2>
@@ -58,16 +46,16 @@
   <b><tt>xfprint</tt></b>. It can only use printing systems that
   have already been configured properly.</p>
 
-  <p>�</p>
+  
 
   <h2><a name="xfprint-select"></a>Printer
   selection</h2>Before doing anything with <b><tt>xfprint</tt></b>
   you need to select the printing system backend. <a name=
   "mcs-plugin"></a>
 
-  <p><b>Figure�1.�<tt>xfprint</tt> printing system
+  <p><b>Figure 1. <tt>xfprint</tt> printing system
   selection</b></p><img src="/images/manual/4.2/xfprint_mcs_plugin.png" alt=
-  "xfprint printing system selection">
+  "xfprint printing system selection" />
 
   <p>At the time of this writing three printing system backends are
   available:</p>
@@ -98,7 +86,7 @@
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="xfprint-use"></a>Using
   <b><tt>xfprint4</tt></b></h2>The <b><tt>xfprint4</tt></b>
@@ -116,11 +104,11 @@
     <dd>
       <a name="xfprint-sheets-fig"></a>
 
-      <p><b>Figure�2.�<tt>xfprint4</tt> dialog |
+      <p><b>Figure 2. <tt>xfprint4</tt> dialog |
       Sheets</b></p><img src="/images/manual/4.2/xfprint_sheets.png" alt=
       "xfprint4 dialog | Sheets ">
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Virtual pages</dt>
@@ -128,11 +116,11 @@
     <dd>
       <a name="xfprint-virtualpages-fig"></a>
 
-      <p><b>Figure�3.�<tt>xfprint4</tt> dialog | Virtual
+      <p><b>Figure 3. <tt>xfprint4</tt> dialog | Virtual
       pages</b></p><img src="/images/manual/4.2/xfprint_virtualpages.png" alt=
       "xfprint4 dialog | Virtual pages system ">
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Pretty-printing</dt>
@@ -140,12 +128,12 @@
     <dd>
       <a name="xfprint-prettyprinting-fig"></a>
 
-      <p><b>Figure�4.�<tt>xfprint4</tt> dialog |
+      <p><b>Figure 4. <tt>xfprint4</tt> dialog |
       Pretty-printing</b></p><img src=
       "/images/manual/4.2/xfprint_prettyprinting.png" alt=
       "xfprint4 dialog | Pretty-printing ">
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Input</dt>
@@ -153,11 +141,11 @@
     <dd>
       <a name="xfprint-input-fig"></a>
 
-      <p><b>Figure�5.�<tt>xfprint4</tt> dialog |
+      <p><b>Figure 5. <tt>xfprint4</tt> dialog |
       Input</b></p><img src="/images/manual/4.2/xfprint_input.png" alt=
       "xfprint4 dialog | Input ">
 
-      <p>�</p>
+      
     </dd>
 
     <dt>Headings</dt>
@@ -165,15 +153,15 @@
     <dd>
       <a name="xfprint-headings-fig"></a>
 
-      <p><b>Figure�6.�<tt>xfprint4</tt> dialog |
+      <p><b>Figure 6. <tt>xfprint4</tt> dialog |
       Headings</b></p><img src="/images/manual/4.2/xfprint_headings.png" alt=
       "xfprint4 dialog | Headings ">
 
-      <p>�</p>
+      
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="xfprintmanager-use"></a>Using
   <b><tt>xfprint-manager</tt></b></h2>The
@@ -182,21 +170,21 @@
   you to set the printer you want to use and set which one should
   be the default. <a name="xfprint-manager-fig"></a>
 
-  <p><b>Figure�7.�<tt>xfprint-manager</tt> main
+  <p><b>Figure 7. <tt>xfprint-manager</tt> main
   dialog</b></p><img src="/images/manual/4.2/xfprint-manager.png" alt=
-  "xfprint-manager main dialog"><a name=
+  "xfprint-manager main dialog" /><a name=
   "xfprint-manager-queue-fig"></a>
 
-  <p><b>Figure�8.�<tt>xfprint-manager</tt> queue
+  <p><b>Figure 8. <tt>xfprint-manager</tt> queue
   management</b></p><img src="/images/manual/4.2/xfprint-manager-queue.png"
-  alt="xfprint-manager queue management screenshot">
+  alt="xfprint-manager queue management screenshot" />
 
-  <p>�</p>
+  
 
   <h2><a name="xfprint-copyright"></a>About
   <b><tt>xfprint</tt></b></h2>
 
-  <p><b><tt>xfprint</tt></b> was written by Jean-Fran�ois Wauthy
+  <p><b><tt>xfprint</tt></b> was written by Jean-Fran&ccedil;ois Wauthy
   (<tt>&lt;<a href=
   "mailto:pollux@xfce.org">pollux@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"

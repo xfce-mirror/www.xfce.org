@@ -1,17 +1,11 @@
   <h1><a name="xfce4-panel"></a>Xfce 4 Panel</h1>
 
-  <h3>Jasper Huijsmans</h3>
+  <p><strong>Jasper Huijsmans</strong> &lt;jasper@xfce.org&gt;</p>
 
-  <p><tt>&lt;<a href=
-  "mailto:jasper@xfce.org">jasper@xfce.org</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes <b><tt>xfce4-panel</tt></b> version 4.2.0. Last
-  updated: Jan 2005<br>
-  <br></span>
+  <h3>This manual describes xfce4-panel version 4.2.0. Last updated: Jan 2005</h3>
 
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Jasper Huijsmans</span></p>
-  <hr>
+  <p>Copyright &copy; 2004 Jasper Huijsmans</p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -68,7 +62,7 @@
     <b><tt>xfce4-panel</tt></b></a></dt>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "panel-intro"></a>Introduction</h2>
@@ -80,7 +74,7 @@
   dialogs. This manual should provide you with all necessary
   information on how to adjust the panel to your liking.</p>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "panel-getting-started"></a>Getting Started</h2>
@@ -93,9 +87,9 @@
   bottom of your screen, looking like this:</p><a name=
   "default-panel-fig"></a>
 
-  <p><b>Figure�1.�Default Xfce panel</b></p><img src=
+  <p><b>Figure 1. Default Xfce panel</b></p><img src=
   "/images/manual/4.2/default_panel.png" alt=
-  "The Xfce Panel default configuration: several launchers, a new mail monitor, a clock and a desktop pager; also includes an opened panel menu. ">
+  "The Xfce Panel default configuration: several launchers, a new mail monitor, a clock and a desktop pager; also includes an opened panel menu. " />
 
   <p>The figure shows the default panel configuration with one open
   panel menu. Hovering the mouse over an item will show a tooltip.
@@ -112,37 +106,38 @@
   of them shows a popup menu ... Go on, try it ;-)</p><a name=
   "handle-popup-fig"></a>
 
-  <p><b>Figure�2.�Move handle popup menu</b></p><img src=
-  "/images/manual/4.2/handle-popup.png" alt="Move handle popup menu.">
+  <p><b>Figure 2. Move handle popup menu</b></p><img src=
+  "/images/manual/4.2/handle-popup.png" alt="Move handle popup menu." />
 
   <p>The area between the move handles contains panel items. The
-  available items are are described in the "<a href="#panel-items"
-  target="_top">Panel Items</a>" section. Most items perform an
+  available items are are described in the &quot; <a href="#panel-items"
+  target="_top">Panel Items</a>&quot; section. Most items perform an
   action when clicked. Right-clicking on an item will popup a menu
   from which you can open a properties dialog, remove the item or
   add a new item. Items can also be added from the right-click menu
-  on one of the move handles (see above).</p><a name=
+  on one of the move handles (see above).</p>
+  <a name=
   "item-popup-fig"></a>
 
-  <p><b>Figure�3.�Item popup menu</b></p><img src=
-  "/images/manual/4.2/item-popup.png" alt="Item popup menu.">
+  <p><b>Figure 3. Item popup menu</b></p><img src=
+  "/images/manual/4.2/item-popup.png" alt="Item popup menu." />
 
   <p>When you want to add an item, a dialog is opened showing all
   available panel items. Some items can appear only once in the
   panel, e.g. the system tray, and they will appear greyed out when
   one is already present.</p><a name="add-item-dialog-fig"></a>
 
-  <p><b>Figure�4.�Add item dialog</b></p><img src=
+  <p><b>Figure 4. Add item dialog</b></p><img src=
   "/images/manual/4.2/add-item-dialog.png" alt=
-  "Dialog with available panel items">
+  "Dialog with available panel items" />
 
   <p>Global panel preferences can be changed from the Xfce 4
   Settings Manager, which can be started either from a panel
   launcher, or by running <b><tt>xfce-settings-show</tt></b>. See
-  "<a href="#panel-settings" target="_top">Panel Preferences</a>"
+  &quot;<a href="#panel-settings" target="_top">Panel Preferences</a>&quot;
   for an explanation of the available options.</p>
 
-  <p>�</p>
+  
 
   <h2><a name="panel-items"></a>Panel
   Items</h2>
@@ -212,9 +207,9 @@
     </dd>
   </dl><a name="launcher-fig"></a>
 
-  <p><b>Figure�5.�Launcher item</b></p><img src=
+  <p><b>Figure 5. Launcher item</b></p><img src=
   "/images/manual/4.2/launcher-properties.png" alt=
-  "Shows properties dialog for launcher item.">
+  "Shows properties dialog for launcher item." />
 
   <h3><a name="clock-item"></a>Xfce Clock</h3>
 
@@ -226,9 +221,9 @@
   The clock shows the current date as a tooltip. Clicking on the
   clock will not perform any action.</p><a name="clock-fig"></a>
 
-  <p><b>Figure�6.�Clock item</b></p><img src=
+  <p><b>Figure 6. Clock item</b></p><img src=
   "/images/manual/4.2/clock-properties.png" alt=
-  "Shows properties dialog for clock item.">
+  "Shows properties dialog for clock item." />
 
   <h3><a name="mailcheck-item"></a>Mail checker</h3>
 
@@ -243,9 +238,9 @@
   command to run when new mail arrives.</p><a name=
   "mailcheck-fig"></a>
 
-  <p><b>Figure�7.�Mail checker item</b></p><img src=
+  <p><b>Figure 7. Mail checker item</b></p><img src=
   "/images/manual/4.2/mailcheck-properties.png" alt=
-  "Shows properties dialog for mail checker item.">
+  "Shows properties dialog for mail checker item." />
 
   <p>For advanced usage you can also provide a remote POP3 mailbox
   if you use the following format for the mailbox entry:
@@ -271,9 +266,9 @@
   or columns when the panel is in vertical mode.</p><a name=
   "pager-fig"></a>
 
-  <p><b>Figure�8.�Graphical pager</b></p><img src=
+  <p><b>Figure 8. Graphical pager</b></p><img src=
   "/images/manual/4.2/pager-properties.png" alt=
-  "Shows properties dialog for the graphical pager. ">
+  "Shows properties dialog for the graphical pager. " />
 
   <h3><a name="systembuttons-item"></a>System Buttons</h3>
 
@@ -314,9 +309,9 @@
     </dd>
   </dl><a name="systembuttons-fig"></a>
 
-  <p><b>Figure�9.�Systembuttons item</b></p><img src=
+  <p><b>Figure 9. Systembuttons item</b></p><img src=
   "/images/manual/4.2/systembuttons-properties.png" alt=
-  "Shows properties dialog for systembuttons item. ">
+  "Shows properties dialog for systembuttons item. " />
 
   <h3><a name="separator-item"></a>Separator</h3>
 
@@ -327,11 +322,11 @@
   because you only have a small area to click on.</p><a name=
   "nooptions-fig"></a>
 
-  <p><b>Figure�10.�Item without options</b></p><img src=
+  <p><b>Figure 10. Item without options</b></p><img src=
   "/images/manual/4.2/nooptions-properties.png" alt=
-  "Shows properties dialog for item without options. ">
+  "Shows properties dialog for item without options. " />
 
-  <p>�</p>
+  
 
   <h2><a name="subpanels"></a>Panel Menus</h2>
 
@@ -358,11 +353,11 @@
   similar to the dialog for launcher type panel items.</p><a name=
   "menuitem-fig"></a>
 
-  <p><b>Figure�11.�Menu Item</b></p><img src=
+  <p><b>Figure 11. Menu Item</b></p><img src=
   "/images/manual/4.2/menuitem-properties.png" alt=
-  "Shows properties dialog for menu items. ">
+  "Shows properties dialog for menu items. " />
 
-  <p>�</p>
+  
 
   <h2><a name="panel-settings"></a>Panel
   Preferences</h2>
@@ -371,9 +366,9 @@
   the Xfce 4 Settings Manager or from the right-click menu on one
   of the panel move handles.</p><a name="panel-settings-fig"></a>
 
-  <p><b>Figure�12.�Panel Settings</b></p><img src=
+  <p><b>Figure 12. Panel Settings</b></p><img src=
   "/images/manual/4.2/panel-settings.png" alt=
-  "Shows properties dialog for global panel preferences. ">
+  "Shows properties dialog for global panel preferences. " />
 
   <h3><a name="panel-apearance"></a>Appearance</h3>
 
@@ -412,7 +407,7 @@
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name=
   "panel-advanced"></a>Advanced</h2>
@@ -540,7 +535,7 @@ iconbox=0
     </tr>
   </table>
 
-  <p>�</p>
+  
 
   <h2><a name="panel-copyright"></a>About
   <b><tt>xfce4-panel</tt></b></h2>

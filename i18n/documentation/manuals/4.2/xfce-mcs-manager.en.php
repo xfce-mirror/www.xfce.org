@@ -1,19 +1,17 @@
   <h1>Xfce 4 Settings Manager</h1>
 
-  <h3>Fran&cced;ois Le Clainche</h3>
+  <p>
+  <strong>Fran&ccedil;ois Le Clainche</strong> &lt;fleclainche@wanadoo.fr&gt;<br />
+  <strong>Jasper Huijsmans</strong> &lt;huysmans@users.sourceforge.net&gt;
+  </p>
 
-  <p>&lt;fleclainche@wanadoo.fr&gt;</p>
+  <h3>This manual describes xfce-mcs-manager version 4.2.0</h3>
 
-  <h3>Jasper Huijsmans</h3>
-
-  <p>&lt;huysmans@users.sourceforge.net&gt;</p>
-
-  <p>This manual describes xfce-mcs-manager version 4.2.0</p>
-
-  <p>Copyright &copy; 2004 Fran&cced;ois Le Clainche</p>
-
-  <p>Copyright &copy; 2004 Jasper Huijsmans</p>
-  <hr>
+  <p>
+  Copyright &copy; 2004 Fran&ccedil;ois Le Clainche<br />
+  Copyright &copy; 2004 Jasper Huijsmans
+  </p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -69,7 +67,7 @@
 
   <p><b>Figure 1. Setup button on Xfce 4
   panel</b></p><img src="/images/manual/4.2/smgr_from_setup_button.png" alt=
-  "Shows setup button on Xfce 4 panel, used to open the settings manager dialog. ">
+  "Shows setup button on Xfce 4 panel, used to open the settings manager dialog. " />
 
   <p>The root window menu provided by the Xfce 4 Desktop Manager
   (<b><tt>xfdesktop</tt></b>) contains an entry
@@ -80,7 +78,7 @@
 
   <p><b>Figure 2. Root window mouse
   menu</b></p><img src="/images/manual/4.2/smgr_from_root_menu.png" alt=
-  "Shows root window mouse menu, used to open the settings manager dialog. ">
+  "Shows root window mouse menu, used to open the settings manager dialog. " />
 
   <p>Finally, you can open the settings manager dialog by running
   <b><tt>xfce-setting-show</tt></b>.</p>
@@ -95,7 +93,7 @@
 
   <p><b>Figure 3. Settings Manager
   Dialog</b></p><img src="/images/manual/4.2/settings_manager.png" alt=
-  "Shows settings manager dialog. ">
+  "Shows settings manager dialog. " />
 
   <p>Just click on the button corresponding to the module that you
   want to configure. This action will open a new properties dialog.
@@ -120,8 +118,7 @@
   manager if it is not already running.</p>
 
   <p>The <b><tt>startxfce4</tt></b> script
-  provided with Xfce 4 (part of the <span class=
-  "emphasis"><em>xfce-utils</em> package) takes care of
+  provided with Xfce 4 (part of the <em>xfce-utils</em> package) takes care of
   running it at the start of an X session. If you don't use that
   add it to your <tt>~/.xinitrc</tt> file. The
   manager will run in the background after it has initialized, so

@@ -2,21 +2,16 @@
   <h1><a name="xfce4-user-guide" id="xfce4-user-guide"></a> The
   Xfce 4 Desktop Environment</h1>
 
-  <h3><i><img src="/images/manual/4.2/link_xfce.jpg"> <em>... and mice fly
+  <h3><i><img src="/images/manual/4.2/link_xfce.jpg" /> <em>... and mice fly
   ...</em></i></h3>
 
-  <h3>Jasper Huijsmans</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:jasper@xfce.org">jasper@xfce.org</a>&gt;</tt></p>
-
-  <h3>Benedikt Meurer</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt></p>
+  <p>
+  <strong>Jasper Huijsmans</strong> &lt;jasper@xfce.org&gt;<br  />
+  <strong>Benedikt Meurer</strong> &lt;benny@xfce.org&gt;
+  </p>
 
   <p>Copyright &copy; 2004 Jasper Huijsmans</p>
-  <hr>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -96,5 +91,5 @@
   <p>The latest version of this document can always be found at
   <a href="http://www.loculus.nl/xfce/documentation/" target=
   "_top">this location</a>.</p>
-  <hr>
+  <hr />
 

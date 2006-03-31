@@ -1,31 +1,20 @@
 
   <h1><a name="xfdesktop"></a>Xfce 4 Desktop Manager</h1>
 
-  <h3>Jasper Huijsmans</h3>
+  <p>
+  <strong>Jasper Huijsmans</strong> &lt;jasper@xfce.org&gt;<br />
+  <strong>Fran&ccedil;ois Le Clainche</strong> &lt;fleclainche@wanadoo.fr&gt;<br />
+  <strong>Brian Tarricone</strong> &lt;kelnos@xfce.org&gt;
+  </p>
 
-  <p><tt>&lt;<a href=
-  "mailto:jasper@xfce.org">jasper@xfce.org</a>&gt;</tt></p>
+  <h3>This manual describes xfdesktop version 4.2.0.</h3>
 
-  <h3>Fran�ois Le Clainche</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
-
-  <h3>Brian Tarricone</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:kelnos@xfce.org">kelnos@xfce.org</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes <b><tt>xfdesktop</tt></b> version 4.2.0.<br>
-  <br></span>
-
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Jasper Huijsmans</span></p>
-
-  <p>Copyright � 2004 Fran�ois Le Clainche</p>
-
-  <p>Copyright � 2004 Brian Tarricone</p>
-  <hr>
+  <p>
+  Copyright &copy; 2004 Jasper Huijsmans<br />
+  Copyright &copy; 2004 Fran&ccedil;ois Le Clainche<br />
+  Copyright &copy; 2004 Brian Tarricone
+  </p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -58,13 +47,13 @@
   "xfdesktop-background"></a>Backdrops</h2>
 
   <p>You can start the Desktop settings dialog by clicking on the
-  "Desktop" button in the <a href=
+  &quot;Desktop&quot; button in the <a href=
   "xfce-mcs-manager.html#manager-dialog" target="_top">Xfce
   Settings Manager</a>.</p><a name="xfdesktop-background-fig"></a>
 
-  <p><b>Figure�1.�Backdrop Settings</b></p><img src=
+  <p><b>Figure 1. Backdrop Settings</b></p><img src=
   "/images/manual/4.2/xfdesktop-background.png" alt=
-  "Shows backdrop settings dialog. ">
+  "Shows backdrop settings dialog. " />
 
   <dl>
     <dt>Color</dt>
@@ -73,15 +62,15 @@
       <p>This dialog allows you to select a color style for your
       desktop backdrop: solid color, horizontal gradient or
       vertical gradient. Depending on your choice, you will be able
-      to choose one or two colors, using "First Color" and "Second
-      Color" buttons. These buttons open a color chooser
+      to choose one or two colors, using &quot;First Color&quot; and &quot;Second
+      Color&quot; buttons. These buttons open a color chooser
       dialog:</p><a name="select_bg_color-fig"></a>
 
-      <p><b>Figure�2.�Select backdrop color</b></p><img src=
+      <p><b>Figure 2. Select backdrop color</b></p><img src=
       "/images/manual/4.2/select_bg_color.png" alt=
       "Shows the Select backdrop color dialog">
 
-      <p>�</p>
+      
 
       <ul type="disc">
         <li>You can use the colored ring with a triangle inside:
@@ -95,7 +84,7 @@
         your screen to select the color.</li>
 
         <li>You can enter an HTML-style hexadecimal color value, or
-        simply a color name, in the "Color Name" entry.</li>
+        simply a color name, in the &quot;Color Name&quot; entry.</li>
       </ul>
 
       <p>The selected colors will fill the entire root window, and
@@ -105,32 +94,32 @@
     <dt>Image</dt>
 
     <dd>
-      <p>Unselect the "Show Image" option if you want
+      <p>Unselect the &quot;Show Image&quot; option if you want
       <b><tt>xfdesktop</tt></b> to ignore the backdrop image and
       only use the previously selected colors.</p>
 
-      <p>The "File" entry shows the path to the currently selected
+      <p>The &quot;File&quot; entry shows the path to the currently selected
       backdrop image. If you want to change it, just drop and image
       on the path field, or edit the path, or click the browse
       button, and a classic file-browsing dialog will appear.</p>
 
       <p>You can create a list of backdrop images that will be
-      randomly used at startup. Click the "New list" button to open
+      randomly used at startup. Click the &quot;New list&quot; button to open
       the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 
-      <p><b>Figure�3.�Backdrop List</b></p><img src=
+      <p><b>Figure 3. Backdrop List</b></p><img src=
       "/images/manual/4.2/xfdesktop-list.png" alt=
       "Shows backdrop list manager.">
 
       <p>You may want to change the default path and name of your
-      custom list of backdrops in the "List file" entry.</p>
+      custom list of backdrops in the &quot;List file&quot; entry.</p>
 
-      <p>You can easily add an image file by clicking the "plus"
+      <p>You can easily add an image file by clicking the &quot;plus&quot;
       button. That action will open a file-browsing window. You can
       remove a file, if you select it in the list and click the
-      "minus" button. When your list is complete, click the "Save"
+      &quot;minus&quot; button. When your list is complete, click the &quot;Save&quot;
       button to save it. If you want to modify its content later,
-      use the "Edit list" button of the Backdrop settings
+      use the &quot;Edit list&quot; button of the Backdrop settings
       manager.</p>
 
       <p>You can recover an older list by dropping its name.list
@@ -144,14 +133,14 @@
       <p>Four Style options (Tiled, Scaled, Centered and Stretched)
       are available to specify the fitting of the backdrop image on
       the screen, depending on its size. You can also select the
-      "Auto" item if you want to let <b><tt>xfdesktop</tt></b> take
+      &quot;Auto&quot; item if you want to let <b><tt>xfdesktop</tt></b> take
       care of this setting.</p>
 
       <p>The slider at the bottom of the dialog allows you to
       adjust the brightness of the backdrop image and/or color.</p>
 
       <p>xfdesktop supports xinerama and multiscreen modes. In
-      multiscreen mode, the "Backdrops" dialog shows one tab per
+      multiscreen mode, the &quot;Backdrops&quot; dialog shows one tab per
       screen.</p>
     </dd>
   </dl>
@@ -167,9 +156,9 @@
   configure the menu behaviour.</p><a name=
   "xfdesktop-menu-tab-fig"></a>
 
-  <p><b>Figure�4.�Menu tab</b></p><img src=
+  <p><b>Figure 4. Menu tab</b></p><img src=
   "/images/manual/4.2/xfdesktop-menu-tab.png" alt=
-  "Shows the menu tab of the Desktop settings dialog.">
+  "Shows the menu tab of the Desktop settings dialog." />
 
   <p>If you want to use the root menu and/or the window list, the
   corresponding options have to be selected in the settings
@@ -185,8 +174,8 @@
   <p>While it is possible to edit the file manually, the
   recommended method for editing the <tt>menu.xml</tt> file is via
   the Xfce 4 Menu Editor, which can be started by running
-  <b><tt>xfce4-menueditor</tt></b>, or using the "Edit desktop
-  menu" button available from the Menu tab of the Desktop settings
+  <b><tt>xfce4-menueditor</tt></b>, or using the &quot;Edit desktop
+  menu&quot; button available from the Menu tab of the Desktop settings
   dialog. The menu editor also supports drag'n'drop from a file
   manager.</p>
 
@@ -198,9 +187,9 @@
   editing the file manually, copying it to this location first is
   the preferred method.</p><a name="xfdesktop-editor-fig"></a>
 
-  <p><b>Figure�5.�<tt>xfdesktop</tt> menu editor</b></p><img src=
+  <p><b>Figure 5. <tt>xfdesktop</tt> menu editor</b></p><img src=
   "/images/manual/4.2/xfdesktop-editor.png" alt=
-  "Shows xfdesktop menu editor. ">
+  "Shows xfdesktop menu editor. " />
 
   <p>NOTE: If you choose to edit the file manually,
   <tt>menu.xml</tt> has to be in UTF-8 encoding for the toolkit to
@@ -208,17 +197,17 @@
   Therefore, you need an editor that supports UTF-8, like
   <b><tt>gedit</tt></b>.</p><a name="root-menu-fig"></a>
 
-  <p><b>Figure�6.�<tt>xfdesktop</tt> right-click mouse
+  <p><b>Figure 6. <tt>xfdesktop</tt> right-click mouse
   menu</b></p><img src="/images/manual/4.2/root_menu.png" alt=
-  "Shows xfdesktop right-click mouse menu. ">
+  "Shows xfdesktop right-click mouse menu. " />
 
   <p>A middle-click on the desktop backdrop shows a list of all
   opened windows ordered by workspace. It also allows you to add or
   remove a workspace.</p><a name="root-menu2-fig"></a>
 
-  <p><b>Figure�7.�<tt>xfdesktop</tt> middle-click mouse
+  <p><b>Figure 7. <tt>xfdesktop</tt> middle-click mouse
   menu</b></p><img src="/images/manual/4.2/root_menu2.png" alt=
-  "Shows xfdesktop middle-click mouse menu. ">
+  "Shows xfdesktop middle-click mouse menu. " />
 
   <p>In order to lower the hardware requirements to run xfdesktop,
   you can disable the usage of icons in the desktop menu and the

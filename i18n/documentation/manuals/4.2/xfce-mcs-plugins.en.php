@@ -2,32 +2,18 @@
   <h1><a name="xfce-mcs-plugins"></a>Xfce 4 Settings Manager
   Plugins</h1>
 
-  <h3>Fran�ois Le Clainche</h3>
+  <p>
+  <strong>Fran&ccedil;ois Le Clainche</strong> &lt;fleclainche@wanadoo.fr&gt;<br />
+  <strong>Benedikt Meurer</strong> &lt;benny@xfce.org&gt;<br />
+  <strong>Jasper Huijsmans</strong> &lt;huysmans@users.sourceforge.net&gt;
+  </p>
 
-  <p><tt>&lt;<a href=
-  "mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
+  <h3>This manual describes the xfce-mcs-plugins package, version 4.2.0</h3>
 
-  <h3>Benedikt Meurer</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt></p>
-
-  <h3>Jasper Huijsmans</h3>
-
-  <p><tt>&lt;<a href=
-  "mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-  manual describes the <b><tt>xfce-mcs-plugins</tt></b> package,
-  version 4.2.0<br>
-  <br>
-
-  <p><span xmlns=
-  "http://www.w3.org/TR/xhtml1/transitional">Copyright � 2004
-  Fran�ois Le Clainche</p>
-
-  <p>Copyright � 2004 Benedikt Meurer</p>
-
-  <p>Copyright � 2004 Jasper Huijsmans</p>
-  <hr>
+  <p>Copyright &copy; 2004 Fran&ccedil;ois Le Clainche<br />
+  Copyright &copy; 2004 Benedikt Meurer<br />
+  Copyright &copy; 2004 Jasper Huijsmans</p>
+  <hr />
 
   <p><b>Table of Contents</b></p>
 
@@ -46,8 +32,6 @@
     Plugins</a></dt>
   </dl>
 
-  <p>�</p>
-
   <h2><a name=
   "plugins-intro"></a>Introduction</h2>
 
@@ -57,13 +41,11 @@
   (including themes). All modifications will have an immediate
   effect on the behaviour of the selected module.</p>
 
-  <p>�</p>
-
   <h2><a name="id2533145"></a>Mouse
   Settings</h2><a name="mouse-settings-fig"></a>
 
-  <p><b>Figure�1.�Mouse settings dialog</b></p><img src=
-  "/images/manual/4.2/mouse_settings.png" alt="Shows mouse settings dialog. ">
+  <p><b>Figure 1. Mouse settings dialog</b></p><img src=
+  "/images/manual/4.2/mouse_settings.png" alt="Shows mouse settings dialog. " />
 
   <dl>
     <dt>Button settings</dt>
@@ -77,10 +59,10 @@
     <dt>Motion settings</dt>
 
     <dd>
-      <p>Acceleration — this slider allows easy control of the
+      <p>Acceleration &#8212; this slider allows easy control of the
       speed of the mouse pointer when you move it.</p>
 
-      <p>Threshold — Controls the threshold (in terms of distance)
+      <p>Threshold &#8212; Controls the threshold (in terms of distance)
       from which acceleration is applied to the mouse pointer.</p>
     </dd>
 
@@ -96,20 +78,18 @@
 
     <dd>
       <p>Use this slider to choose the speed of the double-click
-      action. "Slow" will increase the delay that can pass between
-      mouse clicks when you double-click. "Fast" will decrease this
+      action. &quot;Slow&quot; will increase the delay that can pass between
+      mouse clicks when you double-click. &quot;Fast&quot; will decrease this
       delay.</p>
     </dd>
   </dl>
 
-  <p>�</p>
-
   <h2><a name="id2533386"></a>Keyboard
   Settings</h2><a name="keyboard-settings-fig"></a>
 
-  <p><b>Figure�2.�Keyboard settings dialog</b></p><img src=
+  <p><b>Figure 2. Keyboard settings dialog</b></p><img src=
   "/images/manual/4.2/keyboard_settings.png" alt=
-  "Shows keyboard settings dialog. ">
+  "Shows keyboard settings dialog. " />
 
   <dl>
     <dt>Select GTK key theme</dt>
@@ -123,36 +103,37 @@
 
     <dd>
       <p>When you press and hold a keyboard key, the corresponding
-      action will be repeated if the "Repeat" option is
+      action will be repeated if the &quot;Repeat&quot; option is
       selected.</p>
 
-      <p>Delay — Use this slider to specify the delay between the
+      <p>Delay &#8212; Use this slider to specify the delay between the
       first action of the pressed key, and the moment this action
       will begin to repeat itself.</p>
 
-      <p>Speed — This slider determines at which speed an action
+      <p>Speed &#8212; This slider determines at which speed an action
       will be repeated.</p>
     </dd>
 
     <dt>Cursor</dt>
 
     <dd>
-      <p>Select the "Show blinking" option if you want the cursor
+      <p>Select the &quot;Show blinking&quot; option if you want the cursor
       to blink in text boxes.</p>
 
-      <p>Speed — Use this slider to specify at which interval the
+      <p>Speed &#8212; Use this slider to specify at which interval the
       cursor will blink.</p>
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="id2533552"></a>User Interface
   Settings</h2><a name="ui-settings-fig"></a>
 
-  <p><b>Figure�3.�User interface settings dialog</b></p><img src=
+  <p><b>Figure 3. User interface settings dialog</b></p>
+  <img src=
   "/images/manual/4.2/user_interface_settings.png" alt=
-  "Shows user interface settings dialog. ">
+  "Shows user interface settings dialog. " />
 
   <dl>
     <dt>Theme tab</dt>
@@ -172,18 +153,19 @@
     <dt>Font</dt>
 
     <dd>
-      <p>The "font select" button shows the font family currently
+      <p>The &quot;font select&quot; button shows the font family currently
       in use in your environment. Click this button if you want to
-      change it, and a "font selection" dialog will
+      change it, and a &quot;font selection&quot; dialog will
       appear.</p><a name="font-dialog-fig"></a>
 
-      <p><b>Figure�4.�Font selection dialog</b></p><img src=
+      <p><b>Figure 4. Font selection dialog</b></p>
+      <img src=
       "/images/manual/4.2/font_selection.png" alt=
       "Shows font selection dialog. ">
 
       <p>This dialog allows you to choose a font family, its style
       and its size, with the help of a preview box at the bottom of
-      the window. Just click the "OK" button to apply the new
+      the window. Just click the &quot;OK&quot; button to apply the new
       setting and close the dialog.</p>
     </dd>
 
@@ -206,21 +188,22 @@
       hinting, a font-rendering that improves the quality of fonts
       at small sizes and at low resolutions. You can select full,
       medium and slight hinting. Moreover, you can choose the
-      sub-pixel color order for your fonts, using the "Use
-      sub-pixel hinting" option and one of the four available
+      sub-pixel color order for your fonts, using the &quot;Use
+      sub-pixel hinting&quot; option and one of the four available
       hinting technics in the chooser, especially if you have a LCD
       or a flat-screen display.</p>
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="id2533703"></a>Display
   Preferences</h2><a name="display-preferences-fig"></a>
 
-  <p><b>Figure�5.�Display Preferences dialog</b></p><img src=
+  <p><b>Figure 5. Display Preferences dialog</b></p>
+  <img src=
   "/images/manual/4.2/display_preferences.png" alt=
-  "Shows display preferences dialog. ">
+  "Shows display preferences dialog. " />
 
   <dl>
     <dt>Resolution</dt>
@@ -252,7 +235,7 @@
     </dd>
   </dl>
 
-  <p>�</p>
+  
 
   <h2><a name="plugins-copyright"></a>About
   Settings Manager Plugins</h2>
