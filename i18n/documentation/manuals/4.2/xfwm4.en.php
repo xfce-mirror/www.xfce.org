@@ -576,7 +576,7 @@
 
       <p><b>Figure 4. The compose shortcut popup</b></p><img src=
       "/images/manual/4.2/compose_shortcut.png" alt=
-      "The compose shortcut popup">
+      "The compose shortcut popup" />
 
       <p>If you want to create a new theme, create a directory like
       this one, for instance :
