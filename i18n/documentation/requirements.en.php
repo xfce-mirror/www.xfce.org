@@ -148,4 +148,3 @@
     <td>libexo&nbsp;&gt;=&nbsp;0.2.0, libstartup-notification&nbsp;&gt;=&nbsp;0.5, dbus&nbsp;&gt;=&nbsp;0.22, taglib </td>
   </tr>
 </table>
-<p>&nbsp;</p>

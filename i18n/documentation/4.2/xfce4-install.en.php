@@ -14,8 +14,6 @@ packages. If you could not find binary packages for your OS, they
 may be available from your OS vendor or distributor, or you can
 install Xfce 4 from source.</p>
 
-<p>&iuml;&iquest;&frac12;</p>
-
 <h3><a name="id2534968" id="id2534968"></a>Graphical
 installers</h3>
 
@@ -23,8 +21,6 @@ installers</h3>
 <a href="http://xfce-installers.os-cillation.com/" target=
 "_top">graphical installers</a>. Documentation and instructions
 are available.</p>
-
-<p>&iuml;&iquest;&frac12;</p>
 
 <h3><a name="id2534990" id="id2534990"></a>Building from
 source</h3>
@@ -36,7 +32,7 @@ locations</a>.</p>
 <p>Building the packages should be a simple matter of unpacking
 the tarballs and, from the top source directory, typing:</p>
 
-<table border="0" bgcolor="#F3F4F8" width="100%">
+<table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
 <td>
 <pre>
@@ -64,7 +60,7 @@ have to set the PKG_CONFIG_PATH variable to include the path to
 the *.pc files installed by the Xfce 4 libraries, which is
 ${prefix}/lib/pkgconfig. For example:</p>
 
-<table border="0" bgcolor="#F3F4F8" width="100%">
+<table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
 <td>
 <pre>
@@ -77,17 +73,15 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 <p>All source tarballs also contain a so called spec file that
 allows you to build your own rpm's:</p>
 
-<table border="0" bgcolor="#F3F4F8" width="100%">
+<table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
 <td>
 <pre>
-rpmbuild -ta <tt>module-x.y.z.tar.gz</tt>
+rpmbuild -ta module-x.y.z.tar.gz
 </pre>
 </td>
 </tr>
 </table>
-
-<p>&iuml;&iquest;&frac12;</p>
 
 <h3><a name="id2535072" id="id2535072"></a>Using CVS</h3>
 
@@ -99,8 +93,6 @@ CVS.</p>
 target="_top">here</a> for information on how to obtain the
 latest development updates from CVS. You can also use the WebCVS
 link to browse the CVS tree.</p>
-
-<p>&iuml;&iquest;&frac12;</p>
 
 <h3><a name="id2596877" id="id2596877"></a>Additional
 software</h3>

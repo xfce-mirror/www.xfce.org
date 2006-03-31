@@ -1,6 +1,5 @@
 
-  <h1><a name="xfce4-user-guide" id="xfce4-user-guide"></a> The
-  Xfce 4 Desktop Environment</h1>
+  <h1><a name="xfce4-user-guide" id="xfce4-user-guide"></a> The Xfce 4.2 Users Guide </h1>
 
   <h3><i><img src="/images/manual/4.2/link_xfce.jpg" /> <em>... and mice fly
   ...</em></i></h3>
@@ -16,7 +15,7 @@
   <p><b>Table of Contents</b></p>
 
   <dl>
-    <dt><a href="xfce4-user-guide#preface">Preface</a></dt>
+    <dt><a href="#preface">Preface</a></dt>
 
     <dt><a href="xfce4-intro">Introduction</a></dt>
 
@@ -72,11 +71,11 @@
     <dt><a href="xfce4-copyright">Copyright and
     Licences</a></dt>
 
-    <dt><a href="BSD">BSD License</a></dt>
+    <dt><a href="bsd">BSD License</a></dt>
 
-    <dt><a href="GPL">GNU General Public License</a></dt>
+    <dt><a href="gpl">GNU General Public License</a></dt>
 
-    <dt><a href="LGPL">GNU Library General Public
+    <dt><a href="lgpl">GNU Library General Public
     License</a></dt>
   </dl>
 
@@ -88,8 +87,4 @@
   is meant to be a starting point for anyone who wants to use Xfce
   4 and it includes pointers to other sources of information.</p>
 
-  <p>The latest version of this document can always be found at
-  <a href="http://www.loculus.nl/xfce/documentation/" target=
-  "_top">this location</a>.</p>
-  <hr />
-
+  
