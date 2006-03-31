@@ -94,7 +94,7 @@
   "default-panel-fig"></a>
 
   <p><b>Figure�1.�Default Xfce panel</b></p><img src=
-  "images/default_panel.png" alt=
+  "/images/manual/4.2/default_panel.png" alt=
   "The Xfce Panel default configuration: several launchers, a new mail monitor, a clock and a desktop pager; also includes an opened panel menu. ">
 
   <p>The figure shows the default panel configuration with one open
@@ -113,7 +113,7 @@
   "handle-popup-fig"></a>
 
   <p><b>Figure�2.�Move handle popup menu</b></p><img src=
-  "images/handle-popup.png" alt="Move handle popup menu.">
+  "/images/manual/4.2/handle-popup.png" alt="Move handle popup menu.">
 
   <p>The area between the move handles contains panel items. The
   available items are are described in the "<a href="#panel-items"
@@ -125,7 +125,7 @@
   "item-popup-fig"></a>
 
   <p><b>Figure�3.�Item popup menu</b></p><img src=
-  "images/item-popup.png" alt="Item popup menu.">
+  "/images/manual/4.2/item-popup.png" alt="Item popup menu.">
 
   <p>When you want to add an item, a dialog is opened showing all
   available panel items. Some items can appear only once in the
@@ -133,7 +133,7 @@
   one is already present.</p><a name="add-item-dialog-fig"></a>
 
   <p><b>Figure�4.�Add item dialog</b></p><img src=
-  "images/add-item-dialog.png" alt=
+  "/images/manual/4.2/add-item-dialog.png" alt=
   "Dialog with available panel items">
 
   <p>Global panel preferences can be changed from the Xfce 4
@@ -213,7 +213,7 @@
   </dl><a name="launcher-fig"></a>
 
   <p><b>Figure�5.�Launcher item</b></p><img src=
-  "images/launcher-properties.png" alt=
+  "/images/manual/4.2/launcher-properties.png" alt=
   "Shows properties dialog for launcher item.">
 
   <h3><a name="clock-item"></a>Xfce Clock</h3>
@@ -227,7 +227,7 @@
   clock will not perform any action.</p><a name="clock-fig"></a>
 
   <p><b>Figure�6.�Clock item</b></p><img src=
-  "images/clock-properties.png" alt=
+  "/images/manual/4.2/clock-properties.png" alt=
   "Shows properties dialog for clock item.">
 
   <h3><a name="mailcheck-item"></a>Mail checker</h3>
@@ -244,7 +244,7 @@
   "mailcheck-fig"></a>
 
   <p><b>Figure�7.�Mail checker item</b></p><img src=
-  "images/mailcheck-properties.png" alt=
+  "/images/manual/4.2/mailcheck-properties.png" alt=
   "Shows properties dialog for mail checker item.">
 
   <p>For advanced usage you can also provide a remote POP3 mailbox
@@ -272,7 +272,7 @@
   "pager-fig"></a>
 
   <p><b>Figure�8.�Graphical pager</b></p><img src=
-  "images/pager-properties.png" alt=
+  "/images/manual/4.2/pager-properties.png" alt=
   "Shows properties dialog for the graphical pager. ">
 
   <h3><a name="systembuttons-item"></a>System Buttons</h3>
@@ -315,7 +315,7 @@
   </dl><a name="systembuttons-fig"></a>
 
   <p><b>Figure�9.�Systembuttons item</b></p><img src=
-  "images/systembuttons-properties.png" alt=
+  "/images/manual/4.2/systembuttons-properties.png" alt=
   "Shows properties dialog for systembuttons item. ">
 
   <h3><a name="separator-item"></a>Separator</h3>
@@ -328,7 +328,7 @@
   "nooptions-fig"></a>
 
   <p><b>Figure�10.�Item without options</b></p><img src=
-  "images/nooptions-properties.png" alt=
+  "/images/manual/4.2/nooptions-properties.png" alt=
   "Shows properties dialog for item without options. ">
 
   <p>�</p>
@@ -359,7 +359,7 @@
   "menuitem-fig"></a>
 
   <p><b>Figure�11.�Menu Item</b></p><img src=
-  "images/menuitem-properties.png" alt=
+  "/images/manual/4.2/menuitem-properties.png" alt=
   "Shows properties dialog for menu items. ">
 
   <p>�</p>
@@ -372,7 +372,7 @@
   of the panel move handles.</p><a name="panel-settings-fig"></a>
 
   <p><b>Figure�12.�Panel Settings</b></p><img src=
-  "images/panel-settings.png" alt=
+  "/images/manual/4.2/panel-settings.png" alt=
   "Shows properties dialog for global panel preferences. ">
 
   <h3><a name="panel-apearance"></a>Appearance</h3>

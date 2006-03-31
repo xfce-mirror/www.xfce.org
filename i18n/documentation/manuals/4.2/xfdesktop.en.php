@@ -63,7 +63,7 @@
   Settings Manager</a>.</p><a name="xfdesktop-background-fig"></a>
 
   <p><b>Figure�1.�Backdrop Settings</b></p><img src=
-  "images/xfdesktop-background.png" alt=
+  "/images/manual/4.2/xfdesktop-background.png" alt=
   "Shows backdrop settings dialog. ">
 
   <dl>
@@ -78,7 +78,7 @@
       dialog:</p><a name="select_bg_color-fig"></a>
 
       <p><b>Figure�2.�Select backdrop color</b></p><img src=
-      "images/select_bg_color.png" alt=
+      "/images/manual/4.2/select_bg_color.png" alt=
       "Shows the Select backdrop color dialog">
 
       <p>�</p>
@@ -119,7 +119,7 @@
       the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 
       <p><b>Figure�3.�Backdrop List</b></p><img src=
-      "images/xfdesktop-list.png" alt=
+      "/images/manual/4.2/xfdesktop-list.png" alt=
       "Shows backdrop list manager.">
 
       <p>You may want to change the default path and name of your
@@ -168,7 +168,7 @@
   "xfdesktop-menu-tab-fig"></a>
 
   <p><b>Figure�4.�Menu tab</b></p><img src=
-  "images/xfdesktop-menu-tab.png" alt=
+  "/images/manual/4.2/xfdesktop-menu-tab.png" alt=
   "Shows the menu tab of the Desktop settings dialog.">
 
   <p>If you want to use the root menu and/or the window list, the
@@ -199,7 +199,7 @@
   the preferred method.</p><a name="xfdesktop-editor-fig"></a>
 
   <p><b>Figure�5.�<tt>xfdesktop</tt> menu editor</b></p><img src=
-  "images/xfdesktop-editor.png" alt=
+  "/images/manual/4.2/xfdesktop-editor.png" alt=
   "Shows xfdesktop menu editor. ">
 
   <p>NOTE: If you choose to edit the file manually,
@@ -209,7 +209,7 @@
   <b><tt>gedit</tt></b>.</p><a name="root-menu-fig"></a>
 
   <p><b>Figure�6.�<tt>xfdesktop</tt> right-click mouse
-  menu</b></p><img src="images/root_menu.png" alt=
+  menu</b></p><img src="/images/manual/4.2/root_menu.png" alt=
   "Shows xfdesktop right-click mouse menu. ">
 
   <p>A middle-click on the desktop backdrop shows a list of all
@@ -217,7 +217,7 @@
   remove a workspace.</p><a name="root-menu2-fig"></a>
 
   <p><b>Figure�7.�<tt>xfdesktop</tt> middle-click mouse
-  menu</b></p><img src="images/root_menu2.png" alt=
+  menu</b></p><img src="/images/manual/4.2/root_menu2.png" alt=
   "Shows xfdesktop middle-click mouse menu. ">
 
   <p>In order to lower the hardware requirements to run xfdesktop,

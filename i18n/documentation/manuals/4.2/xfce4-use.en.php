@@ -42,7 +42,7 @@
   "default-session-fig"></a>
 
   <p><b>Figure�1.�Default Xfce 4 session</b></p><img src=
-  "images/default-session.png" alt=
+  "/images/manual/4.2/default-session.png" alt=
   "Shows default Xfce session, with background manager, panel and taskbar. ">
 
   <p>When you run <b><tt>startxfce4</tt></b> for the first time,

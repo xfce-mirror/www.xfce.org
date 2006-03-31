@@ -68,7 +68,7 @@
   "smgr-setup-button-fig"></a>
 
   <p><b>Figure 1. Setup button on Xfce 4
-  panel</b></p><img src="images/smgr_from_setup_button.png" alt=
+  panel</b></p><img src="/images/manual/4.2/smgr_from_setup_button.png" alt=
   "Shows setup button on Xfce 4 panel, used to open the settings manager dialog. ">
 
   <p>The root window menu provided by the Xfce 4 Desktop Manager
@@ -79,7 +79,7 @@
   "smgr-root-menu-fig" id="smgr-root-menu-fig"></a>
 
   <p><b>Figure 2. Root window mouse
-  menu</b></p><img src="images/smgr_from_root_menu.png" alt=
+  menu</b></p><img src="/images/manual/4.2/smgr_from_root_menu.png" alt=
   "Shows root window mouse menu, used to open the settings manager dialog. ">
 
   <p>Finally, you can open the settings manager dialog by running
@@ -94,7 +94,7 @@
   "smgr-dialog-fig"></a>
 
   <p><b>Figure 3. Settings Manager
-  Dialog</b></p><img src="images/settings_manager.png" alt=
+  Dialog</b></p><img src="/images/manual/4.2/settings_manager.png" alt=
   "Shows settings manager dialog. ">
 
   <p>Just click on the button corresponding to the module that you

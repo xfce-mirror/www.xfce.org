@@ -185,7 +185,7 @@
   "xffm-default-fig"></a>
 
   <p><b>Figure�1.�Default Xffm window</b></p><img src=
-  "images/xffm_default.png" alt=
+  "/images/manual/4.2/xffm_default.png" alt=
   "The default Xffm configuration: One main menu, one toolbar, one sidebar, one window-pane with a local branch and all columns active, and a smaller window pane with all root branches active and no columns active. ">
 
   <p>�</p>
@@ -279,7 +279,7 @@
   <h3><a name="main-menu"></a>The main menu</h3><a name=
   "main-menu-fig"></a>
 
-  <p><b>Figure�2.�</b></p><img src="images/main_menu.png" alt=
+  <p><b>Figure�2.�</b></p><img src="/images/manual/4.2/main_menu.png" alt=
   "The main menu. ">
 
   <p>In the figure is the main menu. This can be called by right or
@@ -305,7 +305,7 @@
   "tools-menu-fig"></a>
 
   <p><b>Figure�3.�The tools menu</b></p><img src=
-  "images/tools_menu.png" alt="The tools menu. ">
+  "/images/manual/4.2/tools_menu.png" alt="The tools menu. ">
 
   <p>The <em>tools</em> menu can be displayed from the main menu or
   by using F3, and has the following entries:</p>
@@ -344,7 +344,7 @@
   </ul><a name="open-menu-fig"></a>
 
   <p><b>Figure�4.�The open menu</b></p><img src=
-  "images/open_menu.png" alt="The open menu. ">
+  "/images/manual/4.2/open_menu.png" alt="The open menu. ">
 
   <p>The <em>open</em> menu can be displayed from the main menu or
   by using F4, and has the following entries:</p>
@@ -377,7 +377,7 @@
     <b><tt>xffrequent4</tt></b> from a command line.</li>
   </ul><a name="go-menu-fig"></a>
 
-  <p><b>Figure�5.�The go menu</b></p><img src="images/go_menu.png"
+  <p><b>Figure�5.�The go menu</b></p><img src="/images/manual/4.2/go_menu.png"
   alt="The go menu. ">
 
   <p>The <em>go</em> menu can be displayed from the main menu or by
@@ -400,7 +400,7 @@
   </ul><a name="options-menu-fig"></a>
 
   <p><b>Figure�6.�The options menu</b></p><img src=
-  "images/options_menu.png" alt="The options menu. ">
+  "/images/manual/4.2/options_menu.png" alt="The options menu. ">
 
   <p>The <em>options</em> menu can be displayed from the main menu
   or by using F6, has the following entries:</p>
@@ -427,7 +427,7 @@
   </ul><a name="preferences-menu-fig"></a>
 
   <p><b>Figure�7.�The preferences menu</b></p><img src=
-  "images/preferences_menu.png" alt="The preferences menu. ">
+  "/images/manual/4.2/preferences_menu.png" alt="The preferences menu. ">
 
   <p>The <em>preferences</em> submenu can be displayed from the
   main menu or by using F7, and has the following checkboxes:</p>
@@ -495,7 +495,7 @@
   "book-menu-fig"></a>
 
   <p><b>Figure�8.�The book popup menu</b></p><img src=
-  "images/book_popup.png" alt="The menu. ">
+  "/images/manual/4.2/book_popup.png" alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
   also open a named book, open the default book, list all named
@@ -503,21 +503,21 @@
   name.</p><a name="frequent-menu-fig"></a>
 
   <p><b>Figure�9.�The frequent popup menu</b></p><img src=
-  "images/frequent_popup.png" alt="The menu. ">
+  "/images/manual/4.2/frequent_popup.png" alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
   reset the frequency threshold from the default value of 13
   hits.</p><a name="recent-menu-fig"></a>
 
   <p><b>Figure�10.�The recent popup menu</b></p><img src=
-  "images/recent_popup.png" alt="The menu. ">
+  "/images/manual/4.2/recent_popup.png" alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
   reset the recent threshold from the default value of 3
   days.</p><a name="fstab-mount-fig"></a>
 
   <p><b>Figure�11.�The fstab popup menu
-  (mount/unmount)</b></p><img src="images/fstab_popup_mount.png"
+  (mount/unmount)</b></p><img src="/images/manual/4.2/fstab_popup_mount.png"
   alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
@@ -526,7 +526,7 @@
   filesystems).</p><a name="trash-menu-fig"></a>
 
   <p><b>Figure�12.�The trash popup menu</b></p><img src=
-  "images/trash_popup.png" alt="The menu. ">
+  "/images/manual/4.2/trash_popup.png" alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
   permanently delete all the collected trash from the filesystem.
@@ -535,7 +535,7 @@
   appear again.</p><a name="directory-menu-fig"></a>
 
   <p><b>Figure�13.�The directory popup menu</b></p><img src=
-  "images/directory_popup.png" alt="The menu. ">
+  "/images/manual/4.2/directory_popup.png" alt="The menu. ">
 
   <p>Aside from the normal operations, from this popup menu you can
   create gzipped or bzipped tarballs. You can also create iso
@@ -543,7 +543,7 @@
   "directory-menu-unmount-fig"></a>
 
   <p><b>Figure�14.�The directory popup menu
-  (unmount)</b></p><img src="images/directory_popup_unmount.png"
+  (unmount)</b></p><img src="/images/manual/4.2/directory_popup_unmount.png"
   alt="The menu. ">
 
   <p>In the case where a directory is also listed in the fstab file
@@ -551,7 +551,7 @@
   popup.</p><a name="file-popup-fig"></a>
 
   <p><b>Figure�15.�The file popup menu</b></p><img src=
-  "images/file_popup.png" alt="The menu. ">
+  "/images/manual/4.2/file_popup.png" alt="The menu. ">
 
   <p>The file popup has all the operations normally performed on
   files. Depending on the mimetype of the selected file, you may
@@ -569,7 +569,7 @@
   F8.</p><a name="file-submenu-fig"></a>
 
   <p><b>Figure�16.�The file popup submenu</b></p><img src=
-  "images/file_subpopup.png" alt="The menu. ">
+  "/images/manual/4.2/file_subpopup.png" alt="The menu. ">
 
   <p>The file submenu which may be quickly accessed with F8,
   contains the basic operations normally done to the
@@ -615,14 +615,14 @@
   </ul><a name="netfile-menu-fig"></a>
 
   <p><b>Figure�17.�The netfile popup menu</b></p><img src=
-  "images/netfile_popup.png" alt="The menu. ">
+  "/images/manual/4.2/netfile_popup.png" alt="The menu. ">
 
   <p>The popup for SMB network files is similar to the one for
   local files, but does not contain the file submenu.</p><a name=
   "columns-menu-fig"></a>
 
   <p><b>Figure�18.�The columns popup menu</b></p><img src=
-  "images/column_titles_popup.png" alt="The menu. ">
+  "/images/manual/4.2/column_titles_popup.png" alt="The menu. ">
 
   <p>If you right click over the titles of the columns, you get the
   <em>columns popup</em>. With this popup you can toggle which
@@ -632,7 +632,7 @@
   "icon-title-smartbutton-fig"></a>
 
   <p><b>Figure�19.�The icon title smart button</b></p><img src=
-  "images/icon_title_smartbutton.png" alt="The menu. ">
+  "/images/manual/4.2/icon_title_smartbutton.png" alt="The menu. ">
 
   <p>This is the popup for the icon column title. By keeping
   pressed you make a popup of buttons appear. Release on any button
@@ -643,7 +643,7 @@
   "sort-popup-fig"></a>
 
   <p><b>Figure�20.�The sort popup submenu</b></p><img src=
-  "images/sort_subpopup.png" alt="The menu. ">
+  "/images/manual/4.2/sort_subpopup.png" alt="The menu. ">
 
   <p>The sort submenu allows you to toggle the set sorting method
   for the treeview. The <em>unsorted</em> method implies a sorting
@@ -659,7 +659,7 @@
   <h3><a name="standard_toolbar"></a>The standard
   toolbar</h3><a name="toolbar-fig"></a>
 
-  <p><b>Figure�21.�</b></p><img src="images/toolbar.png" alt=
+  <p><b>Figure�21.�</b></p><img src="/images/manual/4.2/toolbar.png" alt=
   "The toolbar. ">
 
   <p>The standard toolbar is a shortcut to many menu functions. By
@@ -676,7 +676,7 @@
   elements:</p><a name="filter-fig"></a>
 
   <p><b>Figure�22.�The filter box</b></p><img src=
-  "images/filter_box.png" alt="The menu. ">
+  "/images/manual/4.2/filter_box.png" alt="The menu. ">
 
   <p>This allows you to filter the contents of a directory before
   being inserted into the treeview. Regular expressions such as
@@ -686,7 +686,7 @@
   filtered.</p><a name="hide-show-buttons-fig"></a>
 
   <p><b>Figure�23.�The hide/show buttons</b></p><img src=
-  "images/hide_show_buttons.png" alt="The menu. ">
+  "/images/manual/4.2/hide_show_buttons.png" alt="The menu. ">
 
   <p>In the menu toolbar, you have buttons for showing only the
   right treeview (also with F12), the left treeview (also with
@@ -703,7 +703,7 @@
   configuration.</p><a name="file-submenu-sidebar-fig"></a>
 
   <p><b>Figure�24.�The file submenu sidebar</b></p><img src=
-  "images/sidebar_filesubmenu.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_filesubmenu.png" alt="The menu. ">
 
   <p>See "<a href="#file-submenu-fig" target="_top">File
   submenu</a>" for an explanation of the available options. Exactly
@@ -711,14 +711,14 @@
   be active.</p><a name="go-sidebar-fig"></a>
 
   <p><b>Figure�25.�The go sidebar</b></p><img src=
-  "images/sidebar_go.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_go.png" alt="The menu. ">
 
   <p>See "<a href="#go-menu-fig" target="_top">go menu</a>" for an
   explanation of the available options.</p><a name=
   "multiple-select-sidebar-fig"></a>
 
   <p><b>Figure�26.�The multiple_select sidebar</b></p><img src=
-  "images/sidebar_multiple_select.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_multiple_select.png" alt="The menu. ">
 
   <p>You can create a new file or directory or open the properties
   dialog from here. At least one item must be selected from the
@@ -727,21 +727,21 @@
   available options.</p><a name="open-sidebar-fig"></a>
 
   <p><b>Figure�27.�The open sidebar</b></p><img src=
-  "images/sidebar_open.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_open.png" alt="The menu. ">
 
   <p>See "<a href="#open-menu-fig" target="_top">open menu</a>" for
   an explanation of the available options.</p><a name=
   "options-sidebar-fig"></a>
 
   <p><b>Figure�28.�The options sidebar</b></p><img src=
-  "images/sidebar_options.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_options.png" alt="The menu. ">
 
   <p>See "<a href="#options-menu-fig" target="_top">options
   menu</a>" for an explanation of the available
   options.</p><a name="paste-sidebar-fig"></a>
 
   <p><b>Figure�29.�The paste sidebar</b></p><img src=
-  "images/sidebar_paste.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_paste.png" alt="The menu. ">
 
   <p>You can paste the contents of the pasteboard, or paste-link
   the contents of the pasteboard. The paste-link function creates
@@ -749,7 +749,7 @@
   "tools-sidebar-fig"></a>
 
   <p><b>Figure�30.�The tools sidebar</b></p><img src=
-  "images/sidebar_tools.png" alt="The menu. ">
+  "/images/manual/4.2/sidebar_tools.png" alt="The menu. ">
 
   <p>See "<a href="#tools-menu-fig" target="_top">tools menu</a>"
   for an explanation of the available options.</p>
@@ -760,7 +760,7 @@
   xfce-mcs-manager</h2><a name="mcs-plugin-fig"></a>
 
   <p><b>Figure�31.�The mcs plugin</b></p><img src=
-  "images/mcs-plugin.png" alt="The menu. ">
+  "/images/manual/4.2/mcs-plugin.png" alt="The menu. ">
 
   <p>Certain functions perform better if configured with the mcs
   manager plugin.</p>
@@ -821,7 +821,7 @@
   window</h2><a name="diagnostics-window-fig"></a>
 
   <p><b>Figure�32.�The diagnostics window</b></p><img src=
-  "images/diagnostics_window.png" alt="The menu. ">
+  "/images/manual/4.2/diagnostics_window.png" alt="The menu. ">
 
   <p>This is the window where output from commands performed by the
   filemanager is displayed. If you wish to increase the verbosity,

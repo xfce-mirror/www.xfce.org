@@ -97,7 +97,7 @@
   preferences</h3><a name="xfsm-general-fig"></a>
 
   <p><b>Figure�1.�<tt>xfce4-session</tt> general
-  preferences</b></p><img src="images/xfsm-general.png" alt=
+  preferences</b></p><img src="/images/manual/4.2/xfsm-general.png" alt=
   "Shows the General tab of the xfce4-session settings dialog.">
 
   <dl>
@@ -131,7 +131,7 @@
   preferences</h3><a name="xfsm-advanced-fig"></a>
 
   <p><b>Figure�2.�<tt>xfce4-session</tt> advanced
-  preferences</b></p><img src="images/xfsm-advanced.png" alt=
+  preferences</b></p><img src="/images/manual/4.2/xfsm-advanced.png" alt=
   "Shows Advanced tab of the xfce4-session settings dialog.">
 
   <dl>
@@ -184,7 +184,7 @@
   settings</h3><a name="splash-screen-settings-fig"></a>
 
   <p><b>Figure�3.�Splash screen settings dialog</b></p><img src=
-  "images/xfsm-splash.png" alt=
+  "/images/manual/4.2/xfsm-splash.png" alt=
   "Shows the xfce4-session splash screen settings dialog.">
 
   <p>On the left, the dialog shows a list of all installed engines.

@@ -63,7 +63,7 @@
   Settings</h2><a name="mouse-settings-fig"></a>
 
   <p><b>Figure�1.�Mouse settings dialog</b></p><img src=
-  "images/mouse_settings.png" alt="Shows mouse settings dialog. ">
+  "/images/manual/4.2/mouse_settings.png" alt="Shows mouse settings dialog. ">
 
   <dl>
     <dt>Button settings</dt>
@@ -108,7 +108,7 @@
   Settings</h2><a name="keyboard-settings-fig"></a>
 
   <p><b>Figure�2.�Keyboard settings dialog</b></p><img src=
-  "images/keyboard_settings.png" alt=
+  "/images/manual/4.2/keyboard_settings.png" alt=
   "Shows keyboard settings dialog. ">
 
   <dl>
@@ -151,7 +151,7 @@
   Settings</h2><a name="ui-settings-fig"></a>
 
   <p><b>Figure�3.�User interface settings dialog</b></p><img src=
-  "images/user_interface_settings.png" alt=
+  "/images/manual/4.2/user_interface_settings.png" alt=
   "Shows user interface settings dialog. ">
 
   <dl>
@@ -178,7 +178,7 @@
       appear.</p><a name="font-dialog-fig"></a>
 
       <p><b>Figure�4.�Font selection dialog</b></p><img src=
-      "images/font_selection.png" alt=
+      "/images/manual/4.2/font_selection.png" alt=
       "Shows font selection dialog. ">
 
       <p>This dialog allows you to choose a font family, its style
@@ -219,7 +219,7 @@
   Preferences</h2><a name="display-preferences-fig"></a>
 
   <p><b>Figure�5.�Display Preferences dialog</b></p><img src=
-  "images/display_preferences.png" alt=
+  "/images/manual/4.2/display_preferences.png" alt=
   "Shows display preferences dialog. ">
 
   <dl>

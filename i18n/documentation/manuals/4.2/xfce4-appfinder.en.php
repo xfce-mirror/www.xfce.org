@@ -54,7 +54,7 @@
   "default-appfinder-fig"></a>
 
   <p><b>Figure�1.�Xfce4 Appfinder</b></p><img src=
-  "images/default_appfinder.png" alt=
+  "/images/manual/4.2/default_appfinder.png" alt=
   "Xfce4 Appfinder window is splitted in two parts: on the left we have categories and on the right found applications matching the category chosen. It also include a box to search applications matching a particular keyword. ">
 
   <p>Double clicking an application will launch it, while a right
@@ -62,7 +62,7 @@
   about the selected item.</p><a name="handle-popup-fig"></a>
 
   <p><b>Figure�2.�Popup menu</b></p><img src=
-  "images/appfinder-handle-popup.png" alt=
+  "/images/manual/4.2/appfinder-handle-popup.png" alt=
   "Right click popup menu.">
 
   <p>The informations window is useful to get all details of a
@@ -70,7 +70,7 @@
   Categories and Command.</p><a name="item-popup-fig"></a>
 
   <p><b>Figure�3.�Item informations window</b></p><img src=
-  "images/appfinder-item-popup.png" alt=
+  "/images/manual/4.2/appfinder-item-popup.png" alt=
   "Item informations window.">
 
   <p>�</p>

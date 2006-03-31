@@ -124,7 +124,7 @@
   perform these basic functions:</p><a name="titlebar-fig"></a>
 
   <p><b>Figure�1.�<tt>xfwm4</tt> title bar buttons</b></p><img src=
-  "images/titlebar.png" alt=
+  "/images/manual/4.2/titlebar.png" alt=
   "xfwm4 title bar buttons and functions">
 
   <p>You can open the window menu with a left-click on the menu
@@ -452,7 +452,7 @@
   "wm_decoration_style-fig"></a>
 
   <p><b>Figure�2.�Decoration style preferences</b></p><img src=
-  "images/decoration_style.png" alt="The decoration style tab">
+  "/images/manual/4.2/decoration_style.png" alt="The decoration style tab">
 
   <dl>
     <dt>Window style</dt>
@@ -500,7 +500,7 @@
   shortcuts</h3><a name="keyboard_shortcuts-fig"></a>
 
   <p><b>Figure�3.�Keyboard shortcuts preferences</b></p><img src=
-  "images/keyboard_shortcuts.png" alt="The keyboard shortcuts tab">
+  "/images/manual/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab">
 
   <dl>
     <dt>Keyboard Shortcuts</dt>
@@ -579,7 +579,7 @@
       "compose_shortcut-fig"></a>
 
       <p><b>Figure�4.�The compose shortcut popup</b></p><img src=
-      "images/compose_shortcut.png" alt=
+      "/images/manual/4.2/compose_shortcut.png" alt=
       "The compose shortcut popup">
 
       <p>If you want to create a new theme, create a directory like
@@ -597,7 +597,7 @@
   "focus-fig"></a>
 
   <p><b>Figure�5.�Focus preferences</b></p><img src=
-  "images/focus.png" alt="The Focus tab">
+  "/images/manual/4.2/focus.png" alt="The Focus tab">
 
   <dl>
     <dt>Focus model</dt>
@@ -650,7 +650,7 @@
   "misc_wm_prefs-fig"></a>
 
   <p><b>Figure�6.�Advanced preferences</b></p><img src=
-  "images/misc_wm_prefs.png" alt="Advanced tab">
+  "/images/manual/4.2/misc_wm_prefs.png" alt="Advanced tab">
 
   <dl>
     <dt>Windows snapping</dt>
@@ -804,7 +804,7 @@
   "xfwm-workspace-fig"></a>
 
   <p><b>Figure�7.�Workspace Settings</b></p><img src=
-  "images/xfwm_workspaces.png" alt=
+  "/images/manual/4.2/xfwm_workspaces.png" alt=
   "Shows workspace settings tab folder. ">
 
   <dl>
@@ -830,7 +830,7 @@
   margins</h3><a name="workspace_margins-fig"></a>
 
   <p><b>Figure�8.�The workspace margins dialog</b></p><img src=
-  "images/workspace_margins.png" alt=
+  "/images/manual/4.2/workspace_margins.png" alt=
   "The workspace margins tab folder">
 
   <p>To open the Workspace Margins dialog, click the button

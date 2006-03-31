@@ -57,7 +57,7 @@
   from the panel.</p><a name="taskbar-settings-fig"></a>
 
   <p><b>Figure�1.�Taskbar settings dialog</b></p><img src=
-  "images/taskbar_settings.png" alt=
+  "/images/manual/4.2/taskbar_settings.png" alt=
   "Shows the taskbar settings dialog. ">
 
   <p>From the settings dialog, your can select the taskbar
@@ -84,7 +84,7 @@
   Dialog</h2><a name="run-dialog-fig"></a>
 
   <p><b>Figure�2.�Run dialog</b></p><img src=
-  "images/run-dialog.png" alt="Shows the run dialog.">
+  "/images/manual/4.2/run-dialog.png" alt="Shows the run dialog.">
 
   <p>The run dialog allows the user to launch applications.
   Applications can be run in a Terminal emulator (xterm by default,
@@ -97,7 +97,7 @@
   Dialog</h2><a name="about-dialog-fig"></a>
 
   <p><b>Figure�3.�About dialog</b></p><img src=
-  "images/about-dialog.png" alt=
+  "/images/manual/4.2/about-dialog.png" alt=
   "Shows the About Dialog displaying the credits page. ">
 
   <p>The About Dialog is used to display information about Xfce 4,
