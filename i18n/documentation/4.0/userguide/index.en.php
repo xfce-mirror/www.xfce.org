@@ -1,38 +1,19 @@
-<h1>XFce 4 Documentation</h1>
-
-<p>The documentation for XFce 4 is installed with the different
-components that make up the desktop environment. As a
-consequence, some of the documents listed here may not be
-available on your system.</p>
-
-<p>The on-line version of this document is available at <a href=
-"http://members.home.nl/xfce4/documentation/">http://www.xfce.org/documentation/</a>.</p>
-
-<p>&nbsp;</p>
-
-<h2>Guides</h2>
-
-<p><a href="xfce4-user-guide.html">XFce 4 User Guide</a></p>
-
-<p>&nbsp;</p>
-
-<h2>Manuals</h2>
-
+<h1>Xfce 4.0 User Guide</h1>
 <ul>
-<li><a href="xfce4-panel.html">Panel</a></li>
-
-<li><a href="xfwm4.html">Window Manager</a></li>
-
-<li><a href="xfdesktop.html">Desktop Manager</a></li>
-
-<li><a href="xfce-utils.html">Utilities and Scripts</a></li>
-
-<li><a href="xfce-mcs-manager.html">Settings Manager</a></li>
-
-<li><a href="xfce-mcs-plugins.html">Settings Manager
-Plugins</a></li>
-
-<li><a href="xffm.html">Filemanager</a></li>
+  <li><a href="/documentation/4.0/userguide/#preface">Preface</a></li>
+  <li><a href="/documentation/4.0/userguide/xfce4-intro">Introduction</a></li>
+  <li><a href="/documentation/4.0/userguide/xfce4-use">Using Xfce 4</a></li>
+  <li><a href="/documentation/4.0/userguide/xfce4-install">Installing Xfce 4</a></li>
+  <li><a href="/documentation/4.0/userguide/xfce4-copyright">Copyright and Licenses</a></li>
 </ul>
 
+<hr>
 
+<a name="preface"></a><h3>Preface</h3>
+
+<p>
+This document gives an overview of the XFce 4 Desktop Environment and
+explains how to perform several common tasks. It is meant to be a starting
+point for anyone who wants to use XFce 4 and it includes pointers
+to other sources of information.
+</p>
