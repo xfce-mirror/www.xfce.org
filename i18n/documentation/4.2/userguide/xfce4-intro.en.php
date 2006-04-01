@@ -10,12 +10,12 @@
   <p>Xfce 4 embodies the traditional UNIX philosophy of modularity
   and re-usability. All of Xfce 4's core components can be build
   and installed separately. Xfce 4 is based on the <a href=
-  "http://www.gtk.org" target="_top">GTK+ toolkit</a> version
+  "http://www.gtk.org">GTK+ toolkit</a> version
   2.</p>
 
   <p>Adhereance to standards is one of the main design goals of
   Xfce 4, specifically those defined at <a href=
-  "http://www.freedesktop.org" target="_top">Freedesktop.org</a>.
+  "http://www.freedesktop.org">Freedesktop.org</a>.
   This allows Xfce 4 to seamlessly interoperate with programs
   written for other desktop environments that follow these
   specifications.</p>
@@ -34,18 +34,18 @@
   list:</p>
 
   <ul type="disc">
-    <li><a href="http://www.xfce.org" target="_top">Xfce
+    <li><a href="http://www.xfce.org">Xfce
     website</a></li>
 
-    <li><a href="http://xfce.org/mailman/listinfo/xfce" target=
-    "_top">User mailing list</a></li>
+    <li><a href="http://xfce.org/mailman/listinfo/xfce"
+    >User mailing list</a></li>
 
     <li><a href="http://xfce.org/mailman/listinfo/xfce4-dev"
-    target="_top">Development mailing list</a></li>
+   >Development mailing list</a></li>
 
-    <li><a href="http://forum.xfce.org" target="_top">Xfce
+    <li><a href="http://forum.xfce.org">Xfce
     Forum</a></li>
 
-    <li><a href="http://bugzilla.xfce.org" target="_top">Bug
+    <li><a href="http://bugzilla.xfce.org">Bug
     tracker</a></li>
   </ul>

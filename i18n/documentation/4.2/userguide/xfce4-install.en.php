@@ -8,7 +8,7 @@ the desktop environment. However, binary packages may have been
 contributed by other people for your OS or distribution.</p>
 
 <p>Look at the Xfce site for <a href=
-"http://xfce.org/index.php?page=download" target="_top">download
+"http://xfce.org/index.php?page=download">download
 locations</a> and additional information about available binary
 packages. If you could not find binary packages for your OS, they
 may be available from your OS vendor or distributor, or you can
@@ -18,15 +18,15 @@ install Xfce 4 from source.</p>
 installers</h3>
 
 <p>The easiest way to install Xfce from source is by using the
-<a href="http://xfce-installers.os-cillation.com/" target=
-"_top">graphical installers</a>. Documentation and instructions
+<a href="http://xfce-installers.os-cillation.com/"
+>graphical installers</a>. Documentation and instructions
 are available.</p>
 
 <h3><a name="id2534990" id="id2534990"></a>Building from
 source</h3>
 
 <p>To compile Xfce manually, look at the Xfce site for <a href=
-"http://xfce.org/index.php?page=download" target="_top">download
+"http://xfce.org/index.php?page=download">download
 locations</a>.</p>
 
 <p>Building the packages should be a simple matter of unpacking
@@ -47,7 +47,7 @@ can find them by typing <b>./configure <tt>--help</tt></b>.</p>
 
 <p>Xfce 4 depends on pkg-config, GTK+ &gt;= 2.2, libxml2 and, for
 xffm, on libdbh, which is available from <a href=
-"http://sf.net/projects/libdbh" target="_top">SourceForge</a>. If
+"http://sf.net/projects/libdbh">SourceForge</a>. If
 you installed these from a binary package, make sure you have the
 corresponding <tt>-dev</tt> packages installed as well.</p>
 
@@ -90,24 +90,24 @@ CVS.</p>
 
 <p>Look <a href=
 "http://xfce.org/index.php?page=documentation&amp;lang=en#install"
-target="_top">here</a> for information on how to obtain the
+>here</a> for information on how to obtain the
 latest development updates from CVS. You can also use the WebCVS
 link to browse the CVS tree.</p>
 
 <h3><a name="id2596877" id="id2596877"></a>Additional
 software</h3>
 
-<p>The <a href="http://xfce-goodies.berlios.de" target=
-"_top">Xfce Goodies</a> project collects third-party
+<p>The <a href="http://xfce-goodies.berlios.de"
+>Xfce Goodies</a> project collects third-party
 contributions for Xfce 4. There are some excellent panel plugins
 available that greatly enhance the functionality of Xfce 4.</p>
 
 <p><a href="http://spuriousinterrupt.org/projects/xfmedia/"
-target="_top">Xfmedia</a> is a lightweight media player for Xfce,
+>Xfmedia</a> is a lightweight media player for Xfce,
 based on the xine engine. It is the perfect media player for the
 perfect desktop environment.</p>
 
-<p><a href="http://terminal.os-cillation.com/" target=
-"_top">Terminal</a> is an advanced, but easy to use terminal
+<p><a href="http://terminal.os-cillation.com/"
+>Terminal</a> is an advanced, but easy to use terminal
 emulator for the Xfce Desktop Environment. It contains all
 feature you would expect from a modern terminal emulator.</p>
