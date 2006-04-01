@@ -1,5 +1,5 @@
 
-  <h1><a name="xfce4-user-guide" id="xfce4-user-guide"></a> The Xfce 4.2 Users Guide </h1>
+  <h1><a name="xfce4-user-guide" id="xfce4-user-guide"></a>The Xfce 4.2 User Guide </h1>
 
   <h3><i><img src="/images/documentation/4.2/link_xfce.jpg" /> <em>... and mice fly
   ...</em></i></h3>
