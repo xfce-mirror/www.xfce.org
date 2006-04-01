@@ -9,7 +9,7 @@
 
 <hr>
 
-<a name="preface"></a><h3>Preface</h3>
+<a name="preface"></a><h2>Preface</h2>
 
 <p>
 This document gives an overview of the XFce 4 Desktop Environment and
