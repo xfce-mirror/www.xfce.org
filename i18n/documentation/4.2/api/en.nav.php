@@ -9,6 +9,7 @@
     <li><a href="../api/thunar-vfs/">thunar-vfs</a></li>
     <li><a href="../api/thunarx/">thunarx</a></li>
   </ul>
+<hr>
 <?php
 	include "i18n/documentation/en.nav.php";
 ?>

@@ -11,7 +11,7 @@
     <li><a href="../manuals/xffm">Filemanager</a></li>
     <li><a href="../manuals/xfce4-appfinder">Application Finder</a></li>
   </ul>
-
+<hr>
 <?php
 	include "i18n/documentation/en.nav.php";
 ?>
