@@ -1,5 +1,5 @@
 
-<h2><a name="xfce4-copyright" id= "xfce4-copyright"></a>Copyright and Licences</h2>
+<h2><a name="xfce4-copyright" id="xfce4-copyright"></a>Copyright and Licences</h2>
 
 <p>XFce 4 is copyright &copy; Olivier Fourdan (<tt>&lt;<a href=
 "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). The
