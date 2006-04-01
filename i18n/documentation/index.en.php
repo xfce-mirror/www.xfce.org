@@ -3,7 +3,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h2><a href="/documentation/4.2/userguide/">4.2 User Guide</a></h2>
+      <h2><a href="/documentation/4.2/userguide/">User Guide</a></h2>
       <ul>
         <li><a href="/documentation/4.2/userguide/#preface">Preface</a></li>
         <li><a href="/documentation/4.2/userguide/xfce4-intro">Introduction</a></li>
@@ -48,7 +48,7 @@
         <li><a href="/documentation/faq#development">Development</a></li>
       </ul>
       <h2><a href="/documentation/notes/">Release Notes </a></h2>
-    <p>All Xfce 4.2 and 4.4 release notes, ordered by version.</p>
+    <p>All Xfce 4 release notes, ordered by version.</p>
     </td>
   </tr>
 </table>
