@@ -47,7 +47,7 @@ A default XFce 4 desktop with no programs running is shown in
 "default-session-fig" id="default-session-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Default XFce 4 session</b></p><img src=
-"images/default-session.png" alt=
+"/images/documentation/4.0/default-session.png" alt=
 "Shows default XFce session, with background manager, panel and taskbar. ">
 
 <p>When you run <b><tt>startxfce4</tt></b> several applications
