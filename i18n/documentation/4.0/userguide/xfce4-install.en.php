@@ -1,6 +1,5 @@
 
-<h2 style="clear: both"><a name="xfce4-install" id=
-"xfce4-install"></a>Installing XFce4</h2>
+<h2><a name="xfce4-install" id= "xfce4-install"></a>Installing XFce4</h2>
 
 <h3><a name="id2452637" id="id2452637"></a>Components of XFce
 4</h3>

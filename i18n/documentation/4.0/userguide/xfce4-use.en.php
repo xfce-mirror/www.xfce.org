@@ -1,5 +1,4 @@
-<h2 style="clear: both"><a name="xfce4-use" id=
-"xfce4-use"></a>Using XFce4</h2>
+<h2><a name="xfce4-use" id="xfce4-use"></a>Using XFce4</h2>
 
 <h3><a name="xfce4-getting-started" id=
 "xfce4-getting-started"></a>Getting started</h3>

@@ -1,5 +1,4 @@
-<h2 style="clear: both"><a name="xfce4-intro" id=
-"xfce4-intro"></a>Introduction</h2>
+<h2><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h2>
 
 <p>XFce is a lightweight desktop environment for unix-like
 operating systems. It aims to be fast and lightweight, while
