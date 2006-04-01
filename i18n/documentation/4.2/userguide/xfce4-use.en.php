@@ -77,7 +77,7 @@
       the items is done by using the right mouse button. Both the
       panel items and the panel move handles have a right-click
       mouse menu from where you can chage the panel configuration.
-      For more information look at the <a href="xfce4-panel">panel manual</a>.</p>
+      For more information look at the <a href="../manuals/xfce4-panel">panel manual</a>.</p>
     </dd>
 
     <dt>Desktop Manager</dt>
@@ -87,7 +87,7 @@
       and two menus when you click on the desktop background.</p>
 
       <p>The right mouse button opens a menu that allows you to
-      start applications. Look at the <a href="xfdesktop">manual</a> to find out how to change the menu
+      start applications. Look at the <a href="../manuals/xfdesktop">manual</a> to find out how to change the menu
       contents.</p>
 
       <p>The middle mouse button (or Shift + left click) opens a
@@ -103,7 +103,7 @@
       decorations. It allows you to move windows around by draggin
       the titlebar and provides title bar buttons, for example to
       close, minimize or maximize a window. Look at the <a href=
-      "xfwm4">manual</a> for a full explanation
+      "../manuals/xfwm4">manual</a> for a full explanation
       of the window manager.</p>
     </dd>
 
@@ -115,8 +115,8 @@
       user changes something in the settings manager dialog (see
       following section) and takes care of reading the
       configuration from disk at startup. Look at the <a href=
-      "xfce-mcs-manager">Settings Manager</a>
-      and <a href="xfce-mcs-plugins">Settings
+      "../manuals/xfce-mcs-manager">Settings Manager</a>
+      and <a href="../manuals/xfce-mcs-plugins">Settings
       Plugins</a> manuals for a full explanation of the settings
       manager.</p>
     </dd>
@@ -144,7 +144,7 @@
 
     <dd>
       <p>Another method for starting applications is from the
-      desktop mouse menu. Read the <a href="xfdesktop">Desktop Manager manual</a> for information on how to
+      desktop mouse menu. Read the <a href="../manuals/xfdesktop">Desktop Manager manual</a> for information on how to
       change the menu contents.</p>
     </dd>
 
@@ -237,6 +237,6 @@
 
   <p>This user guide has only given a very general overview of the
   Xfce 4 Desktop Environment. More information is available in the
-  <a href="../">manuals</a> of the separate
+  <a href="../manuals/">manuals</a> of the separate
   components of Xfce 4.</p>
   <hr />
