@@ -13,4 +13,5 @@
 	</li>
 	<li><a href="/documentation/requirements">Requirements</a></li>
 	<li><a href="/documentation/notes">Release Notes</a></li>
+	<li><a href="/documentation/4.0/">Xfce 4.0 documentation...</a></li>
 </ul>
