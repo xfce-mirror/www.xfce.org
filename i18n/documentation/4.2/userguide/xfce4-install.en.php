@@ -1,5 +1,4 @@
-<h2><a name="xfce4-install" id=
-"xfce4-install"></a>Installing Xfce4</h2>
+<h2><a name="xfce4-install" id="xfce4-install"></a>Installing Xfce4</h2>
 
 <h3><a name="id2534533" id="id2534533"></a>Binary packages</h3>
 
@@ -8,7 +7,7 @@ the desktop environment. However, binary packages may have been
 contributed by other people for your OS or distribution.</p>
 
 <p>Look at the Xfce site for <a href=
-"http://xfce.org/index.php?page=download">download
+"http://xfce.org/download">download
 locations</a> and additional information about available binary
 packages. If you could not find binary packages for your OS, they
 may be available from your OS vendor or distributor, or you can
@@ -26,7 +25,7 @@ are available.</p>
 source</h3>
 
 <p>To compile Xfce manually, look at the Xfce site for <a href=
-"http://xfce.org/index.php?page=download">download
+"http://xfce.org/download">download
 locations</a>.</p>
 
 <p>Building the packages should be a simple matter of unpacking
@@ -89,7 +88,7 @@ rpmbuild -ta module-x.y.z.tar.gz
 CVS.</p>
 
 <p>Look <a href=
-"http://xfce.org/index.php?page=documentation&amp;lang=en#install"
+"http://xfce.org/documentation/"
 >here</a> for information on how to obtain the
 latest development updates from CVS. You can also use the WebCVS
 link to browse the CVS tree.</p>

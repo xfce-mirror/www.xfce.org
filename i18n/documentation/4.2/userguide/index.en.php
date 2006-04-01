@@ -71,16 +71,15 @@
     <dt><a href="xfce4-copyright">Copyright and
     Licences</a></dt>
 
-    <dt><a href="bsd">BSD License</a></dt>
+    <dt><a href="BSD">BSD License</a></dt>
 
-    <dt><a href="gpl">GNU General Public License</a></dt>
+    <dt><a href="GPL">GNU General Public License</a></dt>
 
-    <dt><a href="lgpl">GNU Library General Public
+    <dt><a href="LGPL">GNU Library General Public
     License</a></dt>
   </dl>
 
-  <h2><a name="preface" id=
-  "preface"></a>Preface</h2>
+  <h2><a name="preface" id="preface"></a>Preface</h2>
 
   <p>This document gives an overview of the Xfce 4 Desktop
   Environment and explains how to perform several common tasks. It

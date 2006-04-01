@@ -1,6 +1,5 @@
 
-  <h2><a name="xfce4-intro" id=
-  "xfce4-intro"></a>Introduction</h2>
+  <h2><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h2>
 
   <p>Xfce is a lightweight desktop environment for unix-like
   operating systems. It aims to be fast and light on system
@@ -22,7 +21,7 @@
 
   <p>Xfce is all free software. The separate components are
   released under either the BSD license, the GNU LGPL or the GNU
-  GPL (see <a href="xfce4-copyright.html" title=
+  GPL (see <a href="xfce4-copyright" title=
   "Copyright and Licences">the section called &quot;Copyright and
   Licences&quot;</a> for details).</p>
 
