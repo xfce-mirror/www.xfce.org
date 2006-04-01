@@ -1,5 +1,5 @@
 <h1>Xfce 4.0 Documentation</h1>
-<p>This page provides most of the Xfce 4.0 documenation for both users and developers.</p>
+<p>This page provides most of the Xfce 4.0 documentation for both users and developers.</p>
 <h2><a href="/documentation/4.0/userguide/">User Guide</a></h2>
 <ul>
   <li><a href="/documentation/4.0/userguide/#preface">Preface</a></li>
