@@ -197,7 +197,7 @@ The clock shows the current date as a tooltip. Clicking on the
 clock will not perform any action.</p><a name="clock-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;Clock item</b></p><img src=
-"/image/documentation/4.0/lock-properties.png" alt=
+"/images/documentation/4.0/lock-properties.png" alt=
 "Shows properties dialog for clock item.">
 
 <h3><a name="mailcheck-item"></a>Mail Check</h3>
@@ -211,7 +211,7 @@ launcher item command (see <a href="#launcher-item"
 >above</a>).</p><a name="mailcheck-fig"></a>
 
 <p><b>Figure&nbsp;6.&nbsp;Mailcheck item</b></p><img src=
-"/image/documentation/4.0/ailcheck-properties.png" alt=
+"/images/documentation/4.0/ailcheck-properties.png" alt=
 "Shows properties dialog for mailcheck item.">
 
 <h3><a name="switcher-item"></a>Desktop Switcher and Graphical
@@ -227,7 +227,7 @@ scrollwheel, when you hold the mouse over it.</p><a name=
 "nooptions-fig"></a>
 
 <p><b>Figure&nbsp;7.&nbsp;Item without options</b></p><img src=
-"/image/documentation/4.0/ooptions-properties.png" alt=
+"/images/documentation/4.0/ooptions-properties.png" alt=
 "Shows properties dialog for item without options. ">
 
 <h3><a name="systembuttons-item"></a>System Buttons</h3>
@@ -263,7 +263,7 @@ mouse behaviour and user interface settings.</dd>
 </dl><a name="systembuttons-fig"></a>
 
 <p><b>Figure&nbsp;8.&nbsp;Systembuttons item</b></p><img src=
-"/image/documentation/4.0/ystembuttons-properties.png" alt=
+"/images/documentation/4.0/ystembuttons-properties.png" alt=
 "Shows properties dialog for systembuttons item. ">
 
 <h3><a name="separator-item"></a>Separator</h3>
@@ -302,7 +302,7 @@ dialog itself is very similar to the dialog for launcher type
 panel items.</p><a name="menuitem-fig"></a>
 
 <p><b>Figure&nbsp;9.&nbsp;Menu Item</b></p><img src=
-"/image/documentation/4.0/enuitem-properties.png" alt=
+"/images/documentation/4.0/enuitem-properties.png" alt=
 "Shows properties dialog for menu items. ">
 
 <p>&nbsp;</p>
@@ -317,7 +317,7 @@ menu also provides direct access to the panel properties
 dialog.</p><a name="panel-settings-fig"></a>
 
 <p><b>Figure&nbsp;10.&nbsp;Panel Settings</b></p><img src=
-"/image/documentation/4.0/anel-settings.png" alt=
+"/images/documentation/4.0/anel-settings.png" alt=
 "Shows properties dialog for global panel preferences. ">
 
 <h3><a name="panel-apearance"></a>Appearance</h3>
