@@ -90,7 +90,7 @@
   preferences</h3><a name="xfsm-general-fig"></a>
 
   <p><b>Figure 1. <tt>xfce4-session</tt> general
-  preferences</b></p><img src="/images/manual/4.2/xfsm-general.png" alt=
+  preferences</b></p><img src="/images/documentation/4.2/xfsm-general.png" alt=
   "Shows the General tab of the xfce4-session settings dialog." />
 
   <dl>
@@ -124,7 +124,7 @@
   preferences</h3><a name="xfsm-advanced-fig"></a>
 
   <p><b>Figure 2. <tt>xfce4-session</tt> advanced
-  preferences</b></p><img src="/images/manual/4.2/xfsm-advanced.png" alt=
+  preferences</b></p><img src="/images/documentation/4.2/xfsm-advanced.png" alt=
   "Shows Advanced tab of the xfce4-session settings dialog." />
 
   <dl>
@@ -159,7 +159,7 @@
 
       <p>System administrators may want to disable this option
       globally using the session managers <a href=
-      "#xfsm-kiosk-mode" target="_top">KIOSK capabilities</a>.</p>
+      "#xfsm-kiosk-mode">KIOSK capabilities</a>.</p>
     </dd>
   </dl>
 
@@ -177,7 +177,7 @@
   settings</h3><a name="splash-screen-settings-fig"></a>
 
   <p><b>Figure 3. Splash screen settings dialog</b></p><img src=
-  "/images/manual/4.2/xfsm-splash.png" alt=
+  "/images/documentation/4.2/xfsm-splash.png" alt=
   "Shows the xfce4-session splash screen settings dialog." />
 
   <p>On the left, the dialog shows a list of all installed engines.
@@ -227,7 +227,7 @@ myuser myhost=/usr/local/libexec/xfsm-shutdown-helper
   Variables</h3>
 
   <p>Xfce now uses the Basedir Specification as defined on <a href=
-  "http://freedesktop.org/" target="_top">Freedesktop.org</a> to
+  "http://freedesktop.org/">Freedesktop.org</a> to
   locate its data and configuration files. This means that file
   locations will be specified as a path relative to the directories
   described in the specification.</p>
@@ -286,7 +286,7 @@ myuser myhost=/usr/local/libexec/xfsm-shutdown-helper
 
     <dd>
       <p>Kiosk mode configuration file. See <a href=
-      "#xfsm-kiosk-mode" target="_top">next section</a> for an
+      "#xfsm-kiosk-mode">next section</a> for an
       explanation.</p>
     </dd>
   </dl>
@@ -416,20 +416,20 @@ CustomizeSecurity=NONE
   (<tt>&lt;<a href=
   "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU General
   Public License as published by the Free Software Foundation;

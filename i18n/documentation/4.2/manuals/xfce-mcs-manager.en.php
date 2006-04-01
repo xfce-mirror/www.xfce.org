@@ -66,7 +66,7 @@
   "smgr-setup-button-fig"></a>
 
   <p><b>Figure 1. Setup button on Xfce 4
-  panel</b></p><img src="/images/manual/4.2/smgr_from_setup_button.png" alt=
+  panel</b></p><img src="/images/documentation/4.2/smgr_from_setup_button.png" alt=
   "Shows setup button on Xfce 4 panel, used to open the settings manager dialog. " />
 
   <p>The root window menu provided by the Xfce 4 Desktop Manager
@@ -77,7 +77,7 @@
   "smgr-root-menu-fig" id="smgr-root-menu-fig"></a>
 
   <p><b>Figure 2. Root window mouse
-  menu</b></p><img src="/images/manual/4.2/smgr_from_root_menu.png" alt=
+  menu</b></p><img src="/images/documentation/4.2/smgr_from_root_menu.png" alt=
   "Shows root window mouse menu, used to open the settings manager dialog. " />
 
   <p>Finally, you can open the settings manager dialog by running
@@ -92,7 +92,7 @@
   "smgr-dialog-fig"></a>
 
   <p><b>Figure 3. Settings Manager
-  Dialog</b></p><img src="/images/manual/4.2/settings_manager.png" alt=
+  Dialog</b></p><img src="/images/documentation/4.2/settings_manager.png" alt=
   "Shows settings manager dialog. " />
 
   <p>Just click on the button corresponding to the module that you
@@ -105,7 +105,7 @@
   change your mind about a setting you will manually have to change
   it back.</p>
 
-  <p>Please refer to the <a href="index.html">manuals</a> of the different Xfce 4 components to learn
+  <p>Please refer to the <a href="index">manuals</a> of the different Xfce 4 components to learn
   more about their configuration options.</p>
 
 
@@ -143,20 +143,20 @@
   Benedikt Meurer (<tt>&lt;<a href=
   "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU Lesser
   General Public License as published by the Free Software

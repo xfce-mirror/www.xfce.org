@@ -51,7 +51,7 @@
   from the panel.</p><a name="taskbar-settings-fig"></a>
 
   <p><b>Figure 1. Taskbar settings dialog</b></p><img src=
-  "/images/manual/4.2/taskbar_settings.png" alt=
+  "/images/documentation/4.2/taskbar_settings.png" alt=
   "Shows the taskbar settings dialog. " />
 
   <p>From the settings dialog, your can select the taskbar
@@ -78,7 +78,7 @@
   Dialog</h2><a name="run-dialog-fig"></a>
 
   <p><b>Figure 2. Run dialog</b></p><img src=
-  "/images/manual/4.2/run-dialog.png" alt="Shows the run dialog." />
+  "/images/documentation/4.2/run-dialog.png" alt="Shows the run dialog." />
 
   <p>The run dialog allows the user to launch applications.
   Applications can be run in a Terminal emulator (xterm by default,
@@ -91,7 +91,7 @@
   Dialog</h2><a name="about-dialog-fig"></a>
 
   <p><b>Figure 3. About dialog</b></p><img src=
-  "/images/manual/4.2/about-dialog.png" alt=
+  "/images/documentation/4.2/about-dialog.png" alt=
   "Shows the About Dialog displaying the credits page. " />
 
   <p>The About Dialog is used to display information about Xfce 4,
@@ -197,20 +197,20 @@ export BROWSER=&quot;galeon -w&quot;
   Benedikt Meurer (<tt>&lt;<a href=
   "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU General
   Public License as published by the Free Software Foundation;

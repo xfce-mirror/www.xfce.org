@@ -48,11 +48,11 @@
 
   <p>You can start the Desktop settings dialog by clicking on the
   &quot;Desktop&quot; button in the <a href=
-  "xfce-mcs-manager.html#manager-dialog" target="_top">Xfce
+  "xfce-mcs-manager#manager-dialog">Xfce
   Settings Manager</a>.</p><a name="xfdesktop-background-fig"></a>
 
   <p><b>Figure 1. Backdrop Settings</b></p><img src=
-  "/images/manual/4.2/xfdesktop-background.png" alt=
+  "/images/documentation/4.2/xfdesktop-background.png" alt=
   "Shows backdrop settings dialog. " />
 
   <dl>
@@ -67,7 +67,7 @@
       dialog:</p><a name="select_bg_color-fig"></a>
 
       <p><b>Figure 2. Select backdrop color</b></p><img src=
-      "/images/manual/4.2/select_bg_color.png" alt=
+      "/images/documentation/4.2/select_bg_color.png" alt=
       "Shows the Select backdrop color dialog">
 
       
@@ -108,7 +108,7 @@
       the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 
       <p><b>Figure 3. Backdrop List</b></p><img src=
-      "/images/manual/4.2/xfdesktop-list.png" alt=
+      "/images/documentation/4.2/xfdesktop-list.png" alt=
       "Shows backdrop list manager.">
 
       <p>You may want to change the default path and name of your
@@ -157,7 +157,7 @@
   "xfdesktop-menu-tab-fig"></a>
 
   <p><b>Figure 4. Menu tab</b></p><img src=
-  "/images/manual/4.2/xfdesktop-menu-tab.png" alt=
+  "/images/documentation/4.2/xfdesktop-menu-tab.png" alt=
   "Shows the menu tab of the Desktop settings dialog." />
 
   <p>If you want to use the root menu and/or the window list, the
@@ -188,7 +188,7 @@
   the preferred method.</p><a name="xfdesktop-editor-fig"></a>
 
   <p><b>Figure 5. <tt>xfdesktop</tt> menu editor</b></p><img src=
-  "/images/manual/4.2/xfdesktop-editor.png" alt=
+  "/images/documentation/4.2/xfdesktop-editor.png" alt=
   "Shows xfdesktop menu editor. " />
 
   <p>NOTE: If you choose to edit the file manually,
@@ -198,7 +198,7 @@
   <b><tt>gedit</tt></b>.</p><a name="root-menu-fig"></a>
 
   <p><b>Figure 6. <tt>xfdesktop</tt> right-click mouse
-  menu</b></p><img src="/images/manual/4.2/root_menu.png" alt=
+  menu</b></p><img src="/images/documentation/4.2/root_menu.png" alt=
   "Shows xfdesktop right-click mouse menu. " />
 
   <p>A middle-click on the desktop backdrop shows a list of all
@@ -206,7 +206,7 @@
   remove a workspace.</p><a name="root-menu2-fig"></a>
 
   <p><b>Figure 7. <tt>xfdesktop</tt> middle-click mouse
-  menu</b></p><img src="/images/manual/4.2/root_menu2.png" alt=
+  menu</b></p><img src="/images/documentation/4.2/root_menu2.png" alt=
   "Shows xfdesktop middle-click mouse menu. " />
 
   <p>In order to lower the hardware requirements to run xfdesktop,
@@ -230,20 +230,20 @@
   Meurer (<tt>&lt;<a href=
   "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt>). For more
   information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce website</a>.</p>
+ >Xfce website</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU General
   Public License as published by the Free Software Foundation;

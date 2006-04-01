@@ -68,7 +68,7 @@
   "panel-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 panel is part of the <a href="http://www.xfce.org"
-  target="_top">Xfce 4 Desktop Environment</a> and features program
+ >Xfce 4 Desktop Environment</a> and features program
   launchers, panel menus, a clock, a desktop switcher and more.
   Many aspects of the panel can be configured through graphical
   dialogs. This manual should provide you with all necessary
@@ -88,7 +88,7 @@
   "default-panel-fig"></a>
 
   <p><b>Figure 1. Default Xfce panel</b></p><img src=
-  "/images/manual/4.2/default_panel.png" alt=
+  "/images/documentation/4.2/default_panel.png" alt=
   "The Xfce Panel default configuration: several launchers, a new mail monitor, a clock and a desktop pager; also includes an opened panel menu. " />
 
   <p>The figure shows the default panel configuration with one open
@@ -107,11 +107,11 @@
   "handle-popup-fig"></a>
 
   <p><b>Figure 2. Move handle popup menu</b></p><img src=
-  "/images/manual/4.2/handle-popup.png" alt="Move handle popup menu." />
+  "/images/documentation/4.2/handle-popup.png" alt="Move handle popup menu." />
 
   <p>The area between the move handles contains panel items. The
   available items are are described in the &quot; <a href="#panel-items"
-  target="_top">Panel Items</a>&quot; section. Most items perform an
+ >Panel Items</a>&quot; section. Most items perform an
   action when clicked. Right-clicking on an item will popup a menu
   from which you can open a properties dialog, remove the item or
   add a new item. Items can also be added from the right-click menu
@@ -120,7 +120,7 @@
   "item-popup-fig"></a>
 
   <p><b>Figure 3. Item popup menu</b></p><img src=
-  "/images/manual/4.2/item-popup.png" alt="Item popup menu." />
+  "/images/documentation/4.2/item-popup.png" alt="Item popup menu." />
 
   <p>When you want to add an item, a dialog is opened showing all
   available panel items. Some items can appear only once in the
@@ -128,13 +128,13 @@
   one is already present.</p><a name="add-item-dialog-fig"></a>
 
   <p><b>Figure 4. Add item dialog</b></p><img src=
-  "/images/manual/4.2/add-item-dialog.png" alt=
+  "/images/documentation/4.2/add-item-dialog.png" alt=
   "Dialog with available panel items" />
 
   <p>Global panel preferences can be changed from the Xfce 4
   Settings Manager, which can be started either from a panel
   launcher, or by running <b><tt>xfce-settings-show</tt></b>. See
-  &quot;<a href="#panel-settings" target="_top">Panel Preferences</a>&quot;
+  &quot;<a href="#panel-settings">Panel Preferences</a>&quot;
   for an explanation of the available options.</p>
 
   
@@ -170,8 +170,8 @@
 
     <dd>
       <p>The icons used by the panel will follow the icon theme you
-      choose from the <a href="xfce-mcs-plugins.html#ui-settings"
-      target="_top">user interface settings dialog</a>. Of course
+      choose from the <a href="xfce-mcs-plugins#ui-settings"
+     >user interface settings dialog</a>. Of course
       you can also choose a custom icon, either by browsing the
       file system from the button next to the entry or by dragging
       an image on the preview area from a file manager.</p>
@@ -200,15 +200,15 @@
     <dd>
       <p>A launcher can have a panel menu attached to it. When this
       option is selected a small button with an arrow will appear
-      next to the item. Look <a href="#subpanels" target=
-      "_top">here</a> for more info on panel menus. The position of
+      next to the item. Look <a href="#subpanels"
+      >here</a> for more info on panel menus. The position of
       the menu button can be changed from the global settings
       dialog.</p>
     </dd>
   </dl><a name="launcher-fig"></a>
 
   <p><b>Figure 5. Launcher item</b></p><img src=
-  "/images/manual/4.2/launcher-properties.png" alt=
+  "/images/documentation/4.2/launcher-properties.png" alt=
   "Shows properties dialog for launcher item." />
 
   <h3><a name="clock-item"></a>Xfce Clock</h3>
@@ -222,7 +222,7 @@
   clock will not perform any action.</p><a name="clock-fig"></a>
 
   <p><b>Figure 6. Clock item</b></p><img src=
-  "/images/manual/4.2/clock-properties.png" alt=
+  "/images/documentation/4.2/clock-properties.png" alt=
   "Shows properties dialog for clock item." />
 
   <h3><a name="mailcheck-item"></a>Mail checker</h3>
@@ -234,12 +234,12 @@
   the location of the mailbox, the command to run when you click on
   the button and the interval between checks. The command has the
   same options as the launcher item command (see <a href=
-  "#launcher-item" target="_top">above</a>). You can also choose a
+  "#launcher-item">above</a>). You can also choose a
   command to run when new mail arrives.</p><a name=
   "mailcheck-fig"></a>
 
   <p><b>Figure 7. Mail checker item</b></p><img src=
-  "/images/manual/4.2/mailcheck-properties.png" alt=
+  "/images/documentation/4.2/mailcheck-properties.png" alt=
   "Shows properties dialog for mail checker item." />
 
   <p>For advanced usage you can also provide a remote POP3 mailbox
@@ -267,7 +267,7 @@
   "pager-fig"></a>
 
   <p><b>Figure 8. Graphical pager</b></p><img src=
-  "/images/manual/4.2/pager-properties.png" alt=
+  "/images/documentation/4.2/pager-properties.png" alt=
   "Shows properties dialog for the graphical pager. " />
 
   <h3><a name="systembuttons-item"></a>System Buttons</h3>
@@ -310,7 +310,7 @@
   </dl><a name="systembuttons-fig"></a>
 
   <p><b>Figure 9. Systembuttons item</b></p><img src=
-  "/images/manual/4.2/systembuttons-properties.png" alt=
+  "/images/documentation/4.2/systembuttons-properties.png" alt=
   "Shows properties dialog for systembuttons item. " />
 
   <h3><a name="separator-item"></a>Separator</h3>
@@ -323,7 +323,7 @@
   "nooptions-fig"></a>
 
   <p><b>Figure 10. Item without options</b></p><img src=
-  "/images/manual/4.2/nooptions-properties.png" alt=
+  "/images/documentation/4.2/nooptions-properties.png" alt=
   "Shows properties dialog for item without options. " />
 
   
@@ -345,7 +345,7 @@
   <p>A special feature of panel menus is that they can be detached
   from the panel and live in their own window. To detach a menu
   click on the small line at the bottom of the menu (see the
-  <a href="#default-panel-fig" target="_top">screenshot</a> of the
+  <a href="#default-panel-fig">screenshot</a> of the
   default panel).</p>
 
   <p>The properties dialog for a menu item is opened immediately
@@ -354,7 +354,7 @@
   "menuitem-fig"></a>
 
   <p><b>Figure 11. Menu Item</b></p><img src=
-  "/images/manual/4.2/menuitem-properties.png" alt=
+  "/images/documentation/4.2/menuitem-properties.png" alt=
   "Shows properties dialog for menu items. " />
 
   
@@ -367,7 +367,7 @@
   of the panel move handles.</p><a name="panel-settings-fig"></a>
 
   <p><b>Figure 12. Panel Settings</b></p><img src=
-  "/images/manual/4.2/panel-settings.png" alt=
+  "/images/documentation/4.2/panel-settings.png" alt=
   "Shows properties dialog for global panel preferences. " />
 
   <h3><a name="panel-apearance"></a>Appearance</h3>
@@ -416,7 +416,7 @@
   Variables</h3>
 
   <p>Xfce now uses the Basedir Specification as defined on <a href=
-  "http://freedesktop.org" target="_top">Freedesktop.org</a> to
+  "http://freedesktop.org">Freedesktop.org</a> to
   locate its data and configuration files. This means that file
   locations will be specified as a path relative to the directories
   described in the specification.</p>
@@ -459,14 +459,14 @@
 
     <dd>
       <p>Kiosk Mode configuration file. See <a href="#panel-kiosk"
-      target="_top">next section</a> for an explanation.</p>
+     >next section</a> for an explanation.</p>
     </dd>
 
     <dt>&lt;basedir&gt;/xfce4/transparency</dt>
 
     <dd>
       <p>Transparency configuration. Further explanation is given
-      in <a href="#panel-transparency" target="_top">this
+      in <a href="#panel-transparency">this
       section</a> below.</p>
     </dd>
   </dl>
@@ -544,20 +544,20 @@ iconbox=0
   (<tt>&lt;<a href=
   "mailto:jasper@xfce.org">jasper@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p><b><tt>xfce4-panel</tt></b> is distributed under the terms of
   the GNU General Public License as published by the Free Software

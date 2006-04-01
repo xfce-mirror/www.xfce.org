@@ -62,7 +62,7 @@
   <h2><a name="wm-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Window Manager is part of the <a href=
-  "http://www.xfce.org" target="_top">Xfce Desktop Environment</a>.
+  "http://www.xfce.org">Xfce Desktop Environment</a>.
   The actual command to run is <b><tt>xfwm4</tt></b>. To run it in
   the background use <b><tt>xfwm4</tt> --daemon</b>. The window
   manager is responsible for the placement of windows on the
@@ -70,8 +70,8 @@
   instance to move, resize or close them.</p>
 
   <p><b><tt>xfwm4</tt></b> adheres strongly to the standards
-  defined on <a href="http://www.freedesktop.org" target=
-  "_top">freedesktop.org</a>. Consequently, special features such
+  defined on <a href="http://www.freedesktop.org"
+  >freedesktop.org</a>. Consequently, special features such
   as making windows borderless, or providing an icon for the
   application must now be implemented in the application; you can
   no longer use the window manager to force different behaviour.
@@ -85,15 +85,15 @@
   than one monitor connected to your computer.</p>
 
   <p><b><tt>xfwm4</tt></b> can be run stand-alone, but if you use
-  it this way, you will need the <a href="xfce-mcs-manager.html"
-  target="_top">Xfce 4 Settings Manager</a> if you want GUI
+  it this way, you will need the <a href="xfce-mcs-manager"
+ >Xfce 4 Settings Manager</a> if you want GUI
   settings management. Tasks other than managing windows, like
   setting a background image or launching programs, need to be
   performed by other programs.</p>
 
   <p><b><tt>xfwm4</tt></b> includes its own compositing manager,
   which takes advantage of the new <a href=
-  "http://freedesktop.org/Software/xorg" target="_top">X.org</a>'s
+  "http://freedesktop.org/Software/xorg">X.org</a>'s
   server extensions. The compositor is like a WM on its own, it
   manages a stack of all windows, monitor all kinds on X event and
   reacts accordingly. Having the compositing manager embedded in
@@ -120,7 +120,7 @@
   perform these basic functions:</p><a name="titlebar-fig"></a>
 
   <p><b>Figure 1. <tt>xfwm4</tt> title bar buttons</b></p><img src=
-  "/images/manual/4.2/titlebar.png" alt=
+  "/images/documentation/4.2/titlebar.png" alt=
   "xfwm4 title bar buttons and functions" />
 
   <p>You can open the window menu with a left-click on the menu
@@ -142,7 +142,7 @@
       receive keyboard and mouse input. Window decorations colors
       will change, following the focus. To obtain more details
       about focus options, please refer to the <a href="#focus"
-      target="_top">corresponding section</a> below.</p>
+     >corresponding section</a> below.</p>
 
       <p>A keyboard shortcut allows to switch the focus from a
       window to others : Hold Alt and then you can press Tab
@@ -161,7 +161,7 @@
     <dd>
       <p>If you maximize a window, it will expand on your display
       and use all avaible space (as it is defined by <a href=
-      "xfdesktop.html#xfdesktop-workspace" target="_top">workspace
+      "xfdesktop#xfdesktop-workspace">workspace
       settings</a>). Moreover, you can maximize a window only
       vertically or horizontally.</p>
 
@@ -322,13 +322,13 @@
         <li>left click on its titlebar</li>
 
         <li>give the focus to the window, if the corresponding
-        option is selected in the <a href="xfwm4.html#wm-focus"
-        target="_top">Keyboard and focus preferences
+        option is selected in the <a href="xfwm4#wm-focus"
+       >Keyboard and focus preferences
         dialog</a></li>
 
         <li>left click anywhere on its frame, if the corresponding
-        option is selected in the <a href="xfwm4.html#wm-focus"
-        target="_top">Keyboard and focus preferences
+        option is selected in the <a href="xfwm4#wm-focus"
+       >Keyboard and focus preferences
         dialog</a></li>
 
         <li>click on its label in the taskbar or the iconbox</li>
@@ -390,7 +390,7 @@
         drag it to the screen edge : the pointer will then go to
         the next workspace, still holding the window. Corresponding
         option needs to be selected in the <a href=
-        "xfwm4.html#wm_misc" target="_top">Window Manager
+        "xfwm4#wm_misc">Window Manager
         Preferences dialog</a>.</li>
 
         <li>use keyboard shortcuts :
@@ -407,8 +407,8 @@
           </ul>
         </li>
 
-        <li>use the <a href="xfce4-panel.html#switcher-item"
-        target="_top">graphical pager</a> by clicking on the
+        <li>use the <a href="xfce4-panel#switcher-item"
+       >graphical pager</a> by clicking on the
         representation of the window, and move it to the desired
         workspace.</li>
       </ul>
@@ -439,7 +439,7 @@
 
   <p>To open the Window Manager preferences dialog, click the
   button labelled &quot;Window Manager&quot; in the <a href=
-  "xfce-mcs-manager.html#manager-dialog" target="_top">Xfce 4
+  "xfce-mcs-manager#manager-dialog">Xfce 4
   Settings manager</a>. The dialog shows four tabs : Style,
   Keyboard, Focus, Advanced. All modifications will have an
   immediate effect on the behaviour of the selected module.</p>
@@ -448,7 +448,7 @@
   "wm_decoration_style-fig"></a>
 
   <p><b>Figure 2. Decoration style preferences</b></p><img src=
-  "/images/manual/4.2/decoration_style.png" alt="The decoration style tab" />
+  "/images/documentation/4.2/decoration_style.png" alt="The decoration style tab" />
 
   <dl>
     <dt>Window style</dt>
@@ -468,7 +468,7 @@
       in use for the window title appearance. Click this button if
       you want to change it, and a &quot;Font selection&quot; dialog will
       appear. It works like the font selection dialog of the
-      <a href="xfce-mcs-plugins.html#id2811474" target="_top">user
+      <a href="xfce-mcs-plugins#id2811474">user
       interface settings manager plugin</a>.</p>
     </dd>
 
@@ -496,7 +496,7 @@
   shortcuts</h3><a name="keyboard_shortcuts-fig"></a>
 
   <p><b>Figure 3. Keyboard shortcuts preferences</b></p><img src=
-  "/images/manual/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab" />
+  "/images/documentation/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab" />
 
   <dl>
     <dt>Keyboard Shortcuts</dt>
@@ -575,7 +575,7 @@
       "compose_shortcut-fig"></a>
 
       <p><b>Figure 4. The compose shortcut popup</b></p><img src=
-      "/images/manual/4.2/compose_shortcut.png" alt=
+      "/images/documentation/4.2/compose_shortcut.png" alt=
       "The compose shortcut popup" />
 
       <p>If you want to create a new theme, create a directory like
@@ -593,7 +593,7 @@
   "focus-fig"></a>
 
   <p><b>Figure 5. Focus preferences</b></p><img src=
-  "/images/manual/4.2/focus.png" alt="The Focus tab" />
+  "/images/documentation/4.2/focus.png" alt="The Focus tab" />
 
   <dl>
     <dt>Focus model</dt>
@@ -646,7 +646,7 @@
   "misc_wm_prefs-fig"></a>
 
   <p><b>Figure 6. Advanced preferences</b></p><img src=
-  "/images/manual/4.2/misc_wm_prefs.png" alt="Advanced tab" />
+  "/images/documentation/4.2/misc_wm_prefs.png" alt="Advanced tab" />
 
   <dl>
     <dt>Windows snapping</dt>
@@ -791,8 +791,8 @@
   <p><b><tt>xfwm4</tt></b> also manages workspaces. There is a
   special settings dialog to change the workspace properties. You
   can start it by choosing <em>Workspaces and Margins</em> from the
-  the <a href="xfce-mcs-manager.html#manager-dialog" target=
-  "_top">settings manager dialog</a>. The dialog contains two tab
+  the <a href="xfce-mcs-manager#manager-dialog"
+  >settings manager dialog</a>. The dialog contains two tab
   folders where you can change workspace settings and desktop
   margins.</p>
 
@@ -800,7 +800,7 @@
   "xfwm-workspace-fig"></a>
 
   <p><b>Figure 7. Workspace Settings</b></p><img src=
-  "/images/manual/4.2/xfwm_workspaces.png" alt=
+  "/images/documentation/4.2/xfwm_workspaces.png" alt=
   "Shows workspace settings tab folder. " />
 
   <dl>
@@ -826,12 +826,12 @@
   margins</h3><a name="workspace_margins-fig"></a>
 
   <p><b>Figure 8. The workspace margins dialog</b></p><img src=
-  "/images/manual/4.2/workspace_margins.png" alt=
+  "/images/documentation/4.2/workspace_margins.png" alt=
   "The workspace margins tab folder" />
 
   <p>To open the Workspace Margins dialog, click the button
   labelled &quot;Workspaces and Margins&quot; in the <a href=
-  "xfce-mcs-manager.html#manager-dialog" target="_top">settings
+  "xfce-mcs-manager#manager-dialog">settings
   manager dialog</a> and choose the tab labelled &quot;Margins&quot;.</p>
 
   <p>Margins are areas on the edges of the screen that maximized
@@ -849,20 +849,20 @@
   (<tt>&lt;<a href=
   "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU General
   Public License as published by the Free Software Foundation;

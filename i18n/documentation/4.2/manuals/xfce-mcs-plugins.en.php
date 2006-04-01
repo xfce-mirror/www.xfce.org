@@ -45,7 +45,7 @@
   Settings</h2><a name="mouse-settings-fig"></a>
 
   <p><b>Figure 1. Mouse settings dialog</b></p><img src=
-  "/images/manual/4.2/mouse_settings.png" alt="Shows mouse settings dialog. " />
+  "/images/documentation/4.2/mouse_settings.png" alt="Shows mouse settings dialog. " />
 
   <dl>
     <dt>Button settings</dt>
@@ -88,7 +88,7 @@
   Settings</h2><a name="keyboard-settings-fig"></a>
 
   <p><b>Figure 2. Keyboard settings dialog</b></p><img src=
-  "/images/manual/4.2/keyboard_settings.png" alt=
+  "/images/documentation/4.2/keyboard_settings.png" alt=
   "Shows keyboard settings dialog. " />
 
   <dl>
@@ -132,7 +132,7 @@
 
   <p><b>Figure 3. User interface settings dialog</b></p>
   <img src=
-  "/images/manual/4.2/user_interface_settings.png" alt=
+  "/images/documentation/4.2/user_interface_settings.png" alt=
   "Shows user interface settings dialog. " />
 
   <dl>
@@ -160,7 +160,7 @@
 
       <p><b>Figure 4. Font selection dialog</b></p>
       <img src=
-      "/images/manual/4.2/font_selection.png" alt=
+      "/images/documentation/4.2/font_selection.png" alt=
       "Shows font selection dialog. ">
 
       <p>This dialog allows you to choose a font family, its style
@@ -202,7 +202,7 @@
 
   <p><b>Figure 5. Display Preferences dialog</b></p>
   <img src=
-  "/images/manual/4.2/display_preferences.png" alt=
+  "/images/documentation/4.2/display_preferences.png" alt=
   "Shows display preferences dialog. " />
 
   <dl>
@@ -247,20 +247,20 @@
   Benedikt Meurer (<tt>&lt;<a href=
   "mailto:benny@xfce.org">benny@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>This program is distributed under the terms of the GNU General
   Public License as published by the Free Software Foundation;

@@ -29,7 +29,7 @@
   "appfinder-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Appfinder is part of the <a href=
-  "http://www.xfce.org" target="_top">Xfce 4 Desktop
+  "http://www.xfce.org">Xfce 4 Desktop
   Environment</a> and features application search on the whole
   system. It searches for <tt>.desktop</tt> files based on the
   freedesktop spec and makes an index of the found apps.</p>
@@ -48,7 +48,7 @@
   "default-appfinder-fig"></a>
 
   <p><b>Figure 1. Xfce4 Appfinder</b></p><img src=
-  "/images/manual/4.2/default_appfinder.png" alt=
+  "/images/documentation/4.2/default_appfinder.png" alt=
   "Xfce4 Appfinder window is splitted in two parts: on the left we have categories and on the right found applications matching the category chosen. It also include a box to search applications matching a particular keyword. " />
 
   <p>Double clicking an application will launch it, while a right
@@ -56,7 +56,7 @@
   about the selected item.</p><a name="handle-popup-fig"></a>
 
   <p><b>Figure 2. Popup menu</b></p><img src=
-  "/images/manual/4.2/appfinder-handle-popup.png" alt=
+  "/images/documentation/4.2/appfinder-handle-popup.png" alt=
   "Right click popup menu." />
 
   <p>The informations window is useful to get all details of a
@@ -64,7 +64,7 @@
   Categories and Command.</p><a name="item-popup-fig"></a>
 
   <p><b>Figure 3. Item informations window</b></p><img src=
-  "/images/manual/4.2/appfinder-item-popup.png" alt=
+  "/images/documentation/4.2/appfinder-item-popup.png" alt=
   "Item informations window." />
 
   
@@ -97,20 +97,20 @@
   Roccatello (<tt>&lt;<a href=
   "mailto:eduard@xfce.org">eduard@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p><b><tt>xfce4-appfinder</tt></b> is distributed under the terms
   of the GNU General Public License as published by the Free

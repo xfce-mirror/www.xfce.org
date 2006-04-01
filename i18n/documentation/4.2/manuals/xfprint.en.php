@@ -34,7 +34,7 @@
   "xfprint-intro"></a>Introduction</h2>
 
   <p>The Xfce 4 Printing Management is part of the <a href=
-  "http://www.xfce.org" target="_top">Xfce Desktop Environment</a>.
+  "http://www.xfce.org">Xfce Desktop Environment</a>.
   It's composed of two applications : <b><tt>xfprint4</tt></b> and
   <b><tt>xfprint-manager</tt></b>. <b><tt>xfprint4</tt></b>
   provides a graphical frontend for printing and
@@ -54,7 +54,7 @@
   "mcs-plugin"></a>
 
   <p><b>Figure 1. <tt>xfprint</tt> printing system
-  selection</b></p><img src="/images/manual/4.2/xfprint_mcs_plugin.png" alt=
+  selection</b></p><img src="/images/documentation/4.2/xfprint_mcs_plugin.png" alt=
   "xfprint printing system selection" />
 
   <p>At the time of this writing three printing system backends are
@@ -105,7 +105,7 @@
       <a name="xfprint-sheets-fig"></a>
 
       <p><b>Figure 2. <tt>xfprint4</tt> dialog |
-      Sheets</b></p><img src="/images/manual/4.2/xfprint_sheets.png" alt=
+      Sheets</b></p><img src="/images/documentation/4.2/xfprint_sheets.png" alt=
       "xfprint4 dialog | Sheets ">
 
       
@@ -117,7 +117,7 @@
       <a name="xfprint-virtualpages-fig"></a>
 
       <p><b>Figure 3. <tt>xfprint4</tt> dialog | Virtual
-      pages</b></p><img src="/images/manual/4.2/xfprint_virtualpages.png" alt=
+      pages</b></p><img src="/images/documentation/4.2/xfprint_virtualpages.png" alt=
       "xfprint4 dialog | Virtual pages system ">
 
       
@@ -130,7 +130,7 @@
 
       <p><b>Figure 4. <tt>xfprint4</tt> dialog |
       Pretty-printing</b></p><img src=
-      "/images/manual/4.2/xfprint_prettyprinting.png" alt=
+      "/images/documentation/4.2/xfprint_prettyprinting.png" alt=
       "xfprint4 dialog | Pretty-printing ">
 
       
@@ -142,7 +142,7 @@
       <a name="xfprint-input-fig"></a>
 
       <p><b>Figure 5. <tt>xfprint4</tt> dialog |
-      Input</b></p><img src="/images/manual/4.2/xfprint_input.png" alt=
+      Input</b></p><img src="/images/documentation/4.2/xfprint_input.png" alt=
       "xfprint4 dialog | Input ">
 
       
@@ -154,7 +154,7 @@
       <a name="xfprint-headings-fig"></a>
 
       <p><b>Figure 6. <tt>xfprint4</tt> dialog |
-      Headings</b></p><img src="/images/manual/4.2/xfprint_headings.png" alt=
+      Headings</b></p><img src="/images/documentation/4.2/xfprint_headings.png" alt=
       "xfprint4 dialog | Headings ">
 
       
@@ -171,12 +171,12 @@
   be the default. <a name="xfprint-manager-fig"></a>
 
   <p><b>Figure 7. <tt>xfprint-manager</tt> main
-  dialog</b></p><img src="/images/manual/4.2/xfprint-manager.png" alt=
+  dialog</b></p><img src="/images/documentation/4.2/xfprint-manager.png" alt=
   "xfprint-manager main dialog" /><a name=
   "xfprint-manager-queue-fig"></a>
 
   <p><b>Figure 8. <tt>xfprint-manager</tt> queue
-  management</b></p><img src="/images/manual/4.2/xfprint-manager-queue.png"
+  management</b></p><img src="/images/documentation/4.2/xfprint-manager-queue.png"
   alt="xfprint-manager queue management screenshot" />
 
   
@@ -188,20 +188,20 @@
   (<tt>&lt;<a href=
   "mailto:pollux@xfce.org">pollux@xfce.org</a>&gt;</tt>). To find
   more information, please visit the <a href="http://www.xfce.org"
-  target="_top">Xfce web site</a>.</p>
+ >Xfce web site</a>.</p>
 
   <p>To report a bug or make a suggestion regarding this
   application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/" target=
-  "_top">http://bugzilla.xfce.org/</a>.</p>
+  <a href="http://bugzilla.xfce.org/"
+  >http://bugzilla.xfce.org/</a>.</p>
 
   <p>If you have questions about the use or installation of this
   package, please ask on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce" target=
-  "_top">xfce</a> mailing list. Development discussion takes place
+  "http://lunar-linux.org/mailman/listinfo/xfce"
+  >xfce</a> mailing list. Development discussion takes place
   on the <a href=
-  "http://lunar-linux.org/mailman/listinfo/xfce4-dev" target=
-  "_top">xfce4-dev</a> mailing list.</p>
+  "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
+  >xfce4-dev</a> mailing list.</p>
 
   <p>You should have received a copy of the GNU General Public
   License along with this program; if not, write to the Free
