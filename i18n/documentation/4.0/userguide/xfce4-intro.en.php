@@ -26,7 +26,7 @@ environment.</p>
 
 <p>XFce is all free software. The separate components are
 released under either the BSD license, the GNU LGPL or the GNU
-GPL (see <a href="xfce4-copyright.html" title=
+GPL (see <a href="xfce4-copyright" title=
 "Copyright and Licences">the section called &ldquo;Copyright and
 Licences&rdquo;</a> for details).</p>
 

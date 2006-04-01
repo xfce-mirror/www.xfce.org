@@ -143,7 +143,7 @@ functionality.</p>
 <dd>
 <p>An iconbox that can be used as an alternative for the
 taskbar provided in the xfce-utils package. See <a href=
-"xfce4-use.html#xfce4-getting-started" title=
+"xfce4-use#xfce4-getting-started" title=
 "Getting started">the section called &ldquo;Getting
 started&rdquo;</a> to find out how to modify the startup
 script.</p>
@@ -195,7 +195,7 @@ XFce 4 packages for Debian unstable. Up-to-date versions should
 be available soon after the release.</p>
 
 <p>Look at the XFce site for <a href=
-"http://www.xfce.org/en/download.html" target="_top">download
+"http://www.xfce.org/download" target="_top">download
 locations</a> and additional information about available binary
 packages.</p>
 
@@ -209,7 +209,7 @@ XFce 4 from source.</p>
 source</h3>
 
 <p>Look at the XFce site for <a href=
-"http://www.xfce.org/en/download.html" target="_top">download
+"http://www.xfce.org/download" target="_top">download
 locations</a> for the source tarballs.</p>
 
 <p>Building the packages should be a simple matter of unpacking

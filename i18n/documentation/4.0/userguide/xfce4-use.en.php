@@ -40,7 +40,7 @@ Desktop</h3>
 provides all funtionality, but rather it tries to adhere to the
 old UNIX tradition of small tools that do one job and do it well.
 A default XFce 4 desktop with no programs running is shown in
-<a href="xfce4-use.html#default-session-fig" title=
+<a href="xfce4-use#default-session-fig" title=
 "Figure&nbsp;1.&nbsp;Default XFce 4 session">Figure&nbsp;1,
 &ldquo;Default XFce 4 session&rdquo;</a>.</p><a name=
 "default-session-fig" id="default-session-fig"></a>
@@ -82,7 +82,7 @@ and the properties of the items is done by using the right
 mouse button. Both the panel items and the panel move handles
 have a right-click mouse menu from where you can chage the
 panel configuration. For more information look at the
-<a href="xfce4-panel.html" target="_top">panel
+<a href="../manuals/xfce4-panel">panel
 manual</a>.</p>
 </dd>
 
@@ -93,8 +93,8 @@ manual</a>.</p>
 and two menus when you click on the desktop background.</p>
 
 <p>The right mouse button opens a menu that allows you to
-start applications. Look at the <a href="xfdesktop.html"
-target="_top">manual</a> to find out how to change the menu
+start applications. Look at the <a href="../manuals/xfdesktop"
+>manual</a> to find out how to change the menu
 contents.</p>
 
 <p>The middle mouse button (or Shift + left click) opens a
@@ -110,7 +110,7 @@ on the screen and provides the window borders and
 decorations. It allows you to move windows around by draggin
 the titlebar and provides title bar buttons, for example to
 close, minimize or maximize a window. Look at the <a href=
-"xfwm4.html" target="_top">manual</a> for a full explanation
+"../manuals/xfwm4">manual</a> for a full explanation
 of the window manager.</p>
 </dd>
 
@@ -148,7 +148,7 @@ menu.</p>
 <dd>
 <p>Another method for starting applications is from the
 desktop mouse menu. Read the <b><tt>xfdesktop</tt></b>
-<a href="xfdesktop.html" target="_top">manual</a> for
+<a href="../manuals/xfdesktop">manual</a> for
 information on how to change the menu contents.</p>
 </dd>
 
@@ -238,7 +238,7 @@ allow you to create the best possible working environment.</p>
 
 <p>This user guide has only given a very general overview of the
 XFce 4 Desktop Environment. More information is available in the
-<a href="index.html" target="_top">manuals</a> of the separate
+<a href="../manuals/">manuals</a> of the separate
 components of XFce 4.</p>
 
 
