@@ -4,13 +4,11 @@
 <h3>Fran&#231;ois Le Clainche</h3>
 
 <p><tt>&lt;<a href=
-"mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-manual describes <b><tt>xfwm4</tt></b> version 4.0<br>
-<br></span>
+"mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
+This manual describes <b><tt>xfwm4</tt></b> version 4.0<br>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Fran&#231;ois Le Clainche</span></p>
+<p>Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
 <hr>
@@ -51,10 +49,10 @@ margins</a></dt>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="wm-intro"></a>Introduction</h2>
+<h2><a name="wm-intro"></a>Introduction</h2>
 
 <p>The XFce 4 Window Manager is part of the <a href=
-"http://www.xfce.org" target="_top">XFce Desktop Environment</a>.
+"http://www.xfce.org">XFce Desktop Environment</a>.
 The actual command to run is <b><tt>xfwm4</tt></b>. To run it in
 the background use <b><tt>xfwm4</tt> --daemon</b>. The window
 manager is responsible for the placement of windows on the
@@ -64,7 +62,7 @@ instance to move, resize or close them.</p>
 <p>If you are familiar with previous versions of XFce you will
 find many changes. First of all, <b><tt>xfwm4</tt></b> adheres
 strongly to the standards defined on <a href=
-"http://www.freedesktop.org" target="_top">freedesktop.org</a>.
+"http://www.freedesktop.org">freedesktop.org</a>.
 Consequently, special features such as making windows borderless,
 or providing an icon for the application must now be implemented
 in the application; you can no longer use the window manager to
@@ -79,7 +77,7 @@ have to make sure <b><tt>libxfcegui4</tt></b> is compiled with
 <tt>--enable-xinerama</tt>.</p>
 
 <p><b><tt>xfwm4</tt></b> can be run stand-alone, but if you use
-it this way, you will need the <a href="xfce-mcs-manager.html"
+it this way, you will need the <a href="xfce-mcs-manager"
 target="_top">XFce 4 Settings Manager</a> if you want GUI
 settings management. Tasks other than managing windows, like
 setting a background image or launching programs, need to be
@@ -87,7 +85,7 @@ performed by other programs.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="wm-using"></a>Using
+<h2><a name="wm-using"></a>Using
 <b><tt>xfwm4</tt></b></h2>
 
 <h3><a name="wm-windows"></a>Manage windows</h3>
@@ -101,7 +99,7 @@ and a title on regular application windows. The six buttons
 perform these basic functions:</p><a name="titlebar-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;<tt>xfwm4</tt> title bar
-buttons</b></p><img src="images/titlebar.png" alt=
+buttons</b></p><img src="/images/documentation/4.0/titlebar.png" alt=
 "xfwm4 title bar buttons and functions">
 
 <p>You can open the window menu with a left-click on the menu
@@ -142,7 +140,7 @@ needs the application window to have the focus :)</p>
 <dd>
 <p>If you maximize a window, it will expand on your display
 and use all avaible space (as it is defined by <a href=
-"xfdesktop.html#xfdesktop-workspace" target="_top">workspace
+"xfdesktop#xfdesktop-workspace">workspace
 settings</a>). Moreover, you can maximize a window only
 vertically ou horizontally.</p>
 
@@ -324,7 +322,7 @@ submenu items.</li>
 drag it to the screen edge : the pointer will then go to
 the next workspace, still holding the window. Corresponding
 option needs to be selected in the <a href=
-"xfwm4.html#wm_misc" target="_top">Window Manager
+"xfwm4#wm_misc">Window Manager
 Preferences dialog</a>.</li>
 
 <li>use keyboard shortcuts :
@@ -341,7 +339,7 @@ window to corresponding workspace</li>
 </ul>
 </li>
 
-<li>use the <a href="xfce4-panel.html#switcher-item"
+<li>use the <a href="xfce4-panel#switcher-item"
 target="_top">graphical pager</a> by clicking on the
 representation of the window, and move it to the desired
 workspace.</li>
@@ -419,12 +417,12 @@ keypad key number N</li>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="wm-settings"></a>Customizing
+<h2><a name="wm-settings"></a>Customizing
 <b><tt>xfwm4</tt></b></h2>
 
 <p>To open the Window Manager preferences dialog, click the
 button labelled "Window Manager" in the <a href=
-"xfce-mcs-manager.html#manager-dialog" target="_top">XFce 4
+"xfce-mcs-manager#manager-dialog">XFce 4
 Settings manager</a>. The dialog shows three tabs : Decoration
 style, Keyboard and focus, Advanced. All modifications will have
 an immediate effect on the behaviour of the selected module.</p>
@@ -433,7 +431,7 @@ an immediate effect on the behaviour of the selected module.</p>
 "wm_decoration_style-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Decoration style
-preferences</b></p><img src="images/decoration_style.png" alt=
+preferences</b></p><img src="/images/documentation/4.0/decoration_style.png" alt=
 "The decoration style tab">
 
 <dl>
@@ -445,7 +443,7 @@ window decorations. The xfwm 4 module offers the choice
 between 10 different themes, but there are more than 50
 supplementary themes avaible in xfwm4-themes extra package.
 You can preview all of them on the official <a href=
-"http://www.xfce.org" target="_top">XFce Website</a></p>
+"http://www.xfce.org">XFce Website</a></p>
 </dd>
 
 <dt>Title font</dt>
@@ -455,7 +453,7 @@ You can preview all of them on the official <a href=
 in use for the window title appearance. Click this button if
 you want to change it, and a "Font selection" dialog will
 appear. It works like the font selection dialog of the
-<a href="xfce-mcs-plugins.html#id2811474" target="_top">user
+<a href="xfce-mcs-plugins#id2811474">user
 interface settings manager plugin</a>.</p>
 </dd>
 
@@ -483,7 +481,7 @@ the title bar buttons position.</p>
 "wm_focus-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;Keyboard and focus
-preferences</b></p><img src="images/keyboard_and_focus.png" alt=
+preferences</b></p><img src="/images/documentation/4.0/keyboard_and_focus.png" alt=
 "The keyboard and focus tab">
 
 <dl>
@@ -563,7 +561,7 @@ decorations (title bar, borders or corners) to raise it.</p>
 "misc_wm_prefs-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Advanced preferences</b></p><img src=
-"images/misc_wm_prefs.png" alt="Advanced tab">
+"/images/documentation/4.0/misc_wm_prefs.png" alt="Advanced tab">
 
 <dl>
 <dt>Windows snapping</dt>
@@ -604,17 +602,17 @@ window, hide window, maximize window or none.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "workspace-margins"></a>Customizing workspace
 margins</h2><a name="workspace_margins-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;The workspace margins
-dialog</b></p><img src="images/workspace_margins.png" alt=
+dialog</b></p><img src="/images/documentation/4.0/workspace_margins.png" alt=
 "The workspace margins dialog">
 
 <p>To open the Workspace Margins dialog, click the button
 labelled "Workspace Margins" in the <a href=
-"xfce-mcs-manager.html#manager-dialog" target="_top">settings
+"xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p>
 
 <p>Margins are areas on the edges of the screen that maximized
@@ -625,7 +623,7 @@ iconbox frames.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="wm-copyright"></a>About
+<h2><a name="wm-copyright"></a>About
 <b><tt>xfwm4</tt></b></h2>
 
 <p><b><tt>xfwm4</tt></b> was written Olivier Fourdan
@@ -636,14 +634,14 @@ target="_top">XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;

@@ -9,14 +9,12 @@
 <h3>Jasper Huijsmans</h3>
 
 <p><tt>&lt;<a href=
-"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
+"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>This
 manual describes <b><tt>xfce-mcs-manager</tt></b> version 4.0<br>
-<br></span>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional"><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Fran&#231;ois Le Clainche</span></span></p>
+<p>
+Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
 <hr>
@@ -45,7 +43,7 @@ Manager</a></dt>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "manager-intro"></a>Introduction</h2>
 
 <p>The XFce 4 settings manager provides access to the settings of
@@ -63,7 +61,7 @@ it is interested in; The mcs in the name stands for
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="manager-dialog"></a>Settings
+<h2><a name="manager-dialog"></a>Settings
 Manager Dialog</h2>
 
 <h3><a name="id2820533"></a>Opening the dialog</h3>
@@ -120,13 +118,13 @@ by clicking on the <b>Close</b> button. Note that there is no
 <b>Cancel</b>; if you change your mind about a setting you will
 manually have to change it back.</p>
 
-<p>Please refer to the <a href="index.html" target=
-"_top">manuals</a> of the different XFce 4 components to learn
+<p>Please refer to the <a href="../manuals/"
+>manuals</a> of the different XFce 4 components to learn
 more about their configuration options.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="manager-backend"></a>Settings
+<h2><a name="manager-backend"></a>Settings
 Manager Backend</h2>
 
 <p>The <b><tt>xfce-mcs-manager</tt></b> application should be
@@ -157,24 +155,24 @@ $ killall -USR1 xfce-mcs-manager
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="manager-copyright"></a>About
+<h2><a name="manager-copyright"></a>About
 XFce 4 Settings Manager</h2>
 
 <p>This package was written by Olivier Fourdan (<tt>&lt;<a href=
 "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). To find
 more information, please visit the <a href="http://www.xfce.org"
-target="_top">XFce web site</a>.</p>
+>XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU Lesser
 General Public License as published by the Free Software

@@ -8,14 +8,12 @@
 <h3>Benedikt Meurer</h3>
 
 <p><tt>&lt;<a href=
-"mailto:benedikt.meurer@unix-ag.uni-siegen.de">benedikt.meurer@unix-ag.uni-siegen.de</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-manual describes the <b><tt>xfce-utils</tt></b> package, version
+"mailto:benedikt.meurer@unix-ag.uni-siegen.de">benedikt.meurer@unix-ag.uni-siegen.de</a>&gt;</tt></p>
+This manual describes the <b><tt>xfce-utils</tt></b> package, version
 4.0.<br>
-<br></span>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Jasper Huijsmans</span></p>
+<p>Copyright &#169; 2003 Jasper Huijsmans</p>
 
 <p>Copyright &#169; 2003 Benedikt Meurer</p>
 <hr>
@@ -38,7 +36,7 @@ Jasper Huijsmans</span></p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "utils-intro"></a>Introduction</h2>
 
 <p>The <b><tt>xfce-utils</tt></b> package provides a taskbar, the
@@ -48,7 +46,7 @@ and the desktop menu.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="utils-taskbar"></a>Taskbar</h2>
+<h2><a name="utils-taskbar"></a>Taskbar</h2>
 
 <p>The taskbar is either at the top or the bottom of the screen
 and shows all running programs. The behaviour of the taskbar can
@@ -60,11 +58,11 @@ tray). Both can be disabled from the settings dialog.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="utils-run"></a>Run
+<h2><a name="utils-run"></a>Run
 Dialog</h2><a name="run-dialog-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Run dialog</b></p><img src=
-"images/run-dialog.png" alt="Shows the run dialog.">
+"/images/documentation/4.0/run-dialog.png" alt="Shows the run dialog.">
 
 <p>The run dialog allows the user to launch applications.
 Applications can be run in a Terminal emulator (xterm by default,
@@ -75,11 +73,11 @@ the run dialog.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="utils-about"></a>About
+<h2><a name="utils-about"></a>About
 Dialog</h2><a name="about-dialog-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;About dialog</b></p><img src=
-"images/about-dialog.png" alt=
+"/images/documentation/4.0/about-dialog.png" alt=
 "Shows the About Dialog displaying the credits page. ">
 
 <p>The About Dialog is used to display information about XFce 4,
@@ -88,7 +86,7 @@ helped to create XFce 4 and license information.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="utils-scripts"></a>Scripts</h2>
+<h2><a name="utils-scripts"></a>Scripts</h2>
 
 <dl>
 <dt>startxfce4</dt>
@@ -179,7 +177,7 @@ files, lynx for html).</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="utils-copyright"></a>About
+<h2><a name="utils-copyright"></a>About
 xfce-utils</h2>
 
 <p><b><tt>xfce-utils</tt></b> was written by Jasper Huijsmans
@@ -190,18 +188,18 @@ Olivier Fourdan (<tt>&lt;<a href=
 Benedikt Meurer (<tt>&lt;<a href=
 "mailto:benedikt.meurer@unix-ag.uni-siegen.de">benedikt.meurer@unix-ag.uni-siegen.de</a>&gt;</tt>).
 To find more information, please visit the <a href=
-"http://www.xfce.org" target="_top">XFce web site</a>.</p>
+"http://www.xfce.org">XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;

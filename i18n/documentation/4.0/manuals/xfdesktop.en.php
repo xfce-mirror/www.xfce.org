@@ -9,13 +9,11 @@
 <h3>Fran&#231;ois Le Clainche</h3>
 
 <p><tt>&lt;<a href=
-"mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-manual describes <b><tt>xfdesktop</tt></b> version 4.0.<br>
-<br></span>
+"mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
+This manual describes <b><tt>xfdesktop</tt></b> version 4.0.<br>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Jasper Huijsmans</span></p>
+<p>Copyright &#169; 2003 Jasper Huijsmans</p>
 
 <p>Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
 <hr>
@@ -34,7 +32,7 @@ Jasper Huijsmans</span></p>
 <dt><a href="#xfdesktop-copyright">About xfdesktop</a></dt>
 </dl>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "xfdesktop-intro"></a>Introduction</h2>
 
 <p>The <b><tt>xfdesktop</tt></b> application manages the desktop
@@ -45,16 +43,16 @@ installed for use with the <em>XFce 4 Settings Manager</em>.
 These dialogs allow you to change the background image and color
 and manage the number of workspaces.</p>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "xfdesktop-background"></a>Background</h2>
 
 <p>You can start the background properties dialog by clicking on
 the "Desktop: backdrop" button in the <a href=
-"xfce-mcs-manager.html#manager-dialog" target="_top">settings
+"xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p><a name="xfdesktop-background-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Background Settings</b></p><img src=
-"images/xfdesktop-background.png" alt=
+"/images/documentation/4.0/xfdesktop-background.png" alt=
 "Shows background settings dialog. ">
 
 <dl>
@@ -65,7 +63,7 @@ manager dialog</a>.</p><a name="xfdesktop-background-fig"></a>
 appear :</p><a name="select_bg_color-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Select background
-color</b></p><img src="images/select_bg_color.png" alt=
+color</b></p><img src="/images/documentation/4.0/select_bg_color.png" alt=
 "Shows the Select background color dialog">
 
 <p>This dialog allows you to choose a color for the desktop
@@ -113,7 +111,7 @@ randomly used at startup. Click the "New list" button to open
 the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;Backdrop List</b></p><img src=
-"images/xfdesktop-list.png" alt=
+"/images/documentation/4.0/xfdesktop-list.png" alt=
 "Shows backdrop list manager.">
 
 <p>You may want to change the default path and name of your
@@ -137,16 +135,16 @@ e.g. from a terminal or the run dialog.</p>
 </dd>
 </dl>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "xfdesktop-workspace"></a>Workspaces</h2>
 
 <p>You can start the Workspace Settings manager by clicking on
 the "Desktop: workspaces" button in the <a href=
-"xfce-mcs-manager.html#manager-dialog" target="_top">settings
+"xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p><a name="xfdesktop-workspace-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Workspace Settings</b></p><img src=
-"images/xfdesktop-workspace.png" alt=
+"/images/documentation/4.0/xfdesktop-workspace.png" alt=
 "Shows workspace settings dialog. ">
 
 <dl>
@@ -168,7 +166,7 @@ to return to the list.</p>
 </dd>
 </dl>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "xfdesktop-menu"></a><b><tt>xfdesktop</tt></b> root menu</h2>
 
 <p><b><tt>xfdesktop</tt></b> provides a mouse menu that appears
@@ -198,7 +196,7 @@ characters. Therefore, you need an editor that supports utf-8,
 like <b><tt>gedit</tt></b>.</p><a name="root-menu-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;<tt>xfdesktop</tt> right-click mouse
-menu</b></p><img src="images/root_menu.png" alt=
+menu</b></p><img src="/images/documentation/4.0/root_menu.png" alt=
 "Shows xfdesktop right-click mouse menu. ">
 
 <p>A middle-click on the desktop background shows a list of all
@@ -206,10 +204,10 @@ opened windows ordered by workspace. It also allows you to add or
 remove a workspace.</p><a name="root-menu2-fig"></a>
 
 <p><b>Figure&nbsp;6.&nbsp;<tt>xfdesktop</tt> middle-click mouse
-menu</b></p><img src="images/root_menu2.png" alt=
+menu</b></p><img src="/images/documentation/4.0/root_menu2.png" alt=
 "Shows xfdesktop middle-click mouse menu. ">
 
-<h2 style="clear: both"><a name="xfdesktop-copyright"></a>About
+<h2><a name="xfdesktop-copyright"></a>About
 xfdesktop</h2>
 
 <p><b><tt>xfdesktop</tt></b> was written by Jasper Huijsmans
@@ -220,18 +218,18 @@ Olivier Fourdan (<tt>&lt;<a href=
 Chacko (<tt>&lt;<a href=
 "mailto:botsie@myrealbox.com">botsie@myrealbox.com</a>&gt;</tt>).
 To find more information, please visit the <a href=
-"http://www.xfce.org" target="_top">XFce web site</a>.</p>
+"http://www.xfce.org">XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;

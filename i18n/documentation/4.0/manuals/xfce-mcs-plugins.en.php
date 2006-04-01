@@ -9,10 +9,10 @@ Plugins</h1>
 <h3>Jasper Huijsmans</h3>
 
 <p><tt>&lt;<a href=
-"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
+"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>This
 manual describes the <b><tt>xfce-mcs-plugins</tt></b> package,
 version 4.0<br>
-<br></span>
+<br>
 
 <p><span xmlns=
 "http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
@@ -38,7 +38,7 @@ Plugins</a></dt>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name=
+<h2><a name=
 "plugins-intro"></a>Introduction</h2>
 
 <p>The XFce 4 settings manager provides access to the settings of
@@ -49,11 +49,11 @@ effect on the behaviour of the selected module.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="id2820505"></a>Mouse
+<h2><a name="id2820505"></a>Mouse
 Settings</h2><a name="mouse-settings-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Mouse settings dialog</b></p><img src=
-"images/mouse_settings.png" alt="Shows mouse settings dialog. ">
+"/images/documentation/4.0/mouse_settings.png" alt="Shows mouse settings dialog. ">
 
 <dl>
 <dt>Button settings</dt>
@@ -95,11 +95,11 @@ delay.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="id2820649"></a>Keyboard
+<h2><a name="id2820649"></a>Keyboard
 Settings</h2><a name="keyboard-settings-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Keyboard settings
-dialog</b></p><img src="images/keyboard_settings.png" alt=
+dialog</b></p><img src="/images/documentation/4.0/keyboard_settings.png" alt=
 "Shows keyboard settings dialog. ">
 
 <dl>
@@ -138,11 +138,11 @@ the cursor will blink.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="id2818679"></a>User Interface
+<h2><a name="id2818679"></a>User Interface
 Settings</h2><a name="ui-settings-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;User interface settings
-dialog</b></p><img src="images/user_interface_settings.png" alt=
+dialog</b></p><img src="/images/documentation/4.0/user_interface_settings.png" alt=
 "Shows user interface settings dialog. ">
 
 <dl>
@@ -162,7 +162,7 @@ change it, and a "font selection" dialog will
 appear.</p><a name="font-dialog-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Font selection
-dialog</b></p><img src="images/font_selection.png" alt=
+dialog</b></p><img src="/images/documentation/4.0/font_selection.png" alt=
 "Shows font selection dialog. ">
 
 <p>This dialog allows you to choose a font family, its style
@@ -183,24 +183,24 @@ Both horizontal.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="plugins-copyright"></a>About
+<h2><a name="plugins-copyright"></a>About
 Settings Manager Plugins</h2>
 
 <p>This package was written by Olivier Fourdan (<tt>&lt;<a href=
 "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). To find
 more information, please visit the <a href="http://www.xfce.org"
-target="_top">XFce web site</a>.</p>
+>XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;

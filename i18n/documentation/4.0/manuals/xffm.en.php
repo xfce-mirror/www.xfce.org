@@ -4,14 +4,11 @@
 <h3>Edscott Wilson Garcia</h3>
 
 <p><tt>&lt;<a href=
-"mailto:edcott@imp.mx">edcott@imp.mx</a>&gt;</tt></p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">This manual describes
-<b><tt>xffm</tt></b> version 4.0<br>
-<br></span>
+"mailto:edcott@imp.mx">edcott@imp.mx</a>&gt;</tt></p>
+This manual describes <b><tt>xffm</tt></b> version 4.0<br>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Edscott Wilson Garcia</span></p>
+<p> Copyright &#169; 2003 Edscott Wilson Garcia</p>
 <hr>
 
 <p><b>Table of Contents</b></p>
@@ -39,7 +36,7 @@ story</a></dt>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-tree-types"></a>File
+<h2><a name="xffm-tree-types"></a>File
 manager tree types</h2>
 
 <p>Currently there are seven different types of root level branch
@@ -119,7 +116,7 @@ or uncollected into the trashcan. Files will remain in the
 wastebasket they belong to; this may be a xffm wastebasket, a
 GNOME wastebasket or a KDE wastebasket among others. More
 information about the way it works can be found in the
-<a href="#xffm-wastebaskets" target="_top">wastebasket
+<a href="#xffm-wastebaskets">wastebasket
 story</a> below. To invoke xffm with only the trashcan branch
 active, use <b><tt>xftrash4</tt></b> as the command line.</p>
 </dd>
@@ -127,7 +124,7 @@ active, use <b><tt>xftrash4</tt></b> as the command line.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-operations"></a>File
+<h2><a name="xffm-operations"></a>File
 manager operations</h2>
 
 <p>The following table lists the filemanager operations and their
@@ -464,7 +461,7 @@ availability.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-commands"></a>File manager
+<h2><a name="xffm-commands"></a>File manager
 commands</h2>
 
 <p>The following table lists the filemanager commands and their
@@ -1498,7 +1495,7 @@ availability.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-settings"></a>The
+<h2><a name="xffm-settings"></a>The
 xfce-mcs-manager</h2>
 
 <p>If you wish to enable a certain configuration of which
@@ -1551,7 +1548,7 @@ place them at the top.</li>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-themes"></a>The icon
+<h2><a name="xffm-themes"></a>The icon
 themes</h2>
 
 <p>If you like cute icons, xffm has several sets to choose from.
@@ -1584,7 +1581,7 @@ icon guy or gal.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-wastebaskets"></a>The
+<h2><a name="xffm-wastebaskets"></a>The
 wastebasket story</h2>
 
 <p>Once upon a time, in a far away land, there was a prince who
@@ -1635,7 +1632,7 @@ Thus the xffm wastebasket scheme was born.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-filter-find"></a>The filter
+<h2><a name="xffm-filter-find"></a>The filter
 and find story</h2>
 
 <p>Some time later, the prince found that his directories,
@@ -1659,7 +1656,7 @@ so pleased that he knighted every one of the programmers.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-samba"></a>The samba
+<h2><a name="xffm-samba"></a>The samba
 story</h2>
 
 <p>Finally, the prince was dissappointed that most of the people
@@ -1682,25 +1679,25 @@ release of xffm.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="xffm-copyright"></a>About
+<h2><a name="xffm-copyright"></a>About
 xffm</h2>
 
 <p><b><tt>xffm</tt></b> was written by Edscott Wilson Garcia
 (<tt>&lt;<a href=
 "mailto:edscott@imp.mx">edscott@imp.mx</a>&gt;</tt>). To find
 more information, please visit the <a href="http://www.xfce.org"
-target="_top">XFce web site</a>.</p>
+>XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;

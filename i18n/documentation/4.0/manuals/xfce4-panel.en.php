@@ -3,14 +3,12 @@
 <h3>Jasper Huijsmans</h3>
 
 <p><tt>&lt;<a href=
-"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p><span xmlns="http://www.w3.org/TR/xhtml1/transitional">This
-manual describes <b><tt>xfce4-panel</tt></b> version 4.0. Last
+"mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>
+This manual describes <b><tt>xfce4-panel</tt></b> version 4.0. Last
 updated: Sep 2003<br>
-<br></span>
+<br>
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Jasper Huijsmans</span></p>
+<p>Copyright &#169; 2003 Jasper Huijsmans</p>
 <hr>
 
 <p><b>Table of Contents</b></p>
@@ -30,8 +28,7 @@ Jasper Huijsmans</span></p>
 
 <dt><a href="#mailcheck-item">Mail Check</a></dt>
 
-<dt><a href="#switcher-item">Desktop Switcher and Graphical
-Pager</a></dt>
+<dt><a href="#switcher-item">Desktop Switcher and Graphical Pager</a></dt>
 
 <dt><a href="#systembuttons-item">System Buttons</a></dt>
 
@@ -60,7 +57,7 @@ Pager</a></dt>
 "panel-intro"></a>Introduction</h2>
 
 <p>The XFce 4 panel is part of the <a href="http://www.xfce.org"
-target="_top">XFce 4 Desktop Environment</a> and features program
+>XFce 4 Desktop Environment</a> and features program
 launchers, panel menus, a clock, a desktop switcher and more. The
 actual command to run is <b><tt>xfce4-panel</tt></b>. Many
 aspects of the panel can be configured through graphical
@@ -77,15 +74,14 @@ liking.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name=
-"panel-getting-started"></a>Getting Started</h2>
+<h2><a name="panel-getting-started"></a>Getting Started</h2>
 
 <p>When you start the panel you will see a bar apearing at the
 bottom of your screen, looking like this:</p><a name=
 "default-panel-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Default XFce panel</b></p><img src=
-"images/default_panel.png" alt=
+"/images/documentation/4.0/default_panel.png" alt=
 "Shows XFce panel default configuration. Contains several launchers, a new mail monitor, a clock and a desktop pager. Also shows an opened panel menu. ">
 
 <p>The figure shows the default panel configuration with one open
@@ -99,11 +95,11 @@ popup menu ... Go on, try it ;-)</p><a name=
 "handle-popup-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Move handle popup menu</b></p><img src=
-"images/handle-popup.png" alt="Shows move handle popup menu.">
+"/images/documentation/4.0/handle-popup.png" alt="Shows move handle popup menu.">
 
 <p>The area between the move handles contains panel items. The
 available items are are described in the "<a href="#panel-items"
-target="_top">Panel Items</a>" section. Most items perform an
+>Panel Items</a>" section. Most items perform an
 action when clicked. Configuration of panel items is done from a
 right-click popup menu.</p>
 
@@ -117,19 +113,18 @@ change the item's options and position on the panel.</p><a name=
 "item-popup-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;Item popup menu</b></p><img src=
-"images/item-popup.png" alt="Shows item popup menu.">
+"/images/documentation/4.0/item-popup.png" alt="Shows item popup menu.">
 
 <p>Global panel preferences can be changed from the XFce 4
 Settings Manager, which can be started either from a panel
 laucher, or by choosing the 'Properties...' entry from the
 right-click menu on the move handles. See "<a href=
-"#panel-settings" target="_top">Panel Preferences</a>" for an
+"#panel-settings">Panel Preferences</a>" for an
 explanation of the available options.</p>
 
 <p>&nbsp;</p>
 
-<h2 style="clear: both"><a name="panel-items"></a>Panel
-Items</h2>
+<h2><a name="panel-items"></a>Panel Items</h2>
 
 <p>The XFce 4 panel has the possibility to load external plugins
 as well as builtin ones. In this section we will only decribe
@@ -167,7 +162,7 @@ it.</dd>
 
 <dd>The panel provides a number of standard icons that can be
 used. These icons will also follow the icon theme you choose
-from the <a href="#panel-settings" target="_top">global
+from the <a href="#panel-settings">global
 preferences dialog</a>. Of course you can also choose a custom
 icon, either by browsing the file system from the button next
 to the entry or by dropping an image on the preview area from a
@@ -182,14 +177,13 @@ over it.</dd>
 
 <dd>A launcher can have a panel menu attached to it. When this
 option is selected a small button with an arrow will appear
-next to the item. Look <a href="#subpanels" target=
-"_top">here</a> for more info on panel menus. The position of
+next to the item. Look <a href="#subpanels">here</a> for more info on panel menus. The position of
 the menu button can be changed from the global settings
 dialog.</dd>
 </dl><a name="launcher-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Launcher item</b></p><img src=
-"images/launcher-properties.png" alt=
+"/images/documentation/4.0/launcher-properties.png" alt=
 "Shows properties dialog for launcher item.">
 
 <h3><a name="clock-item"></a>XFce Clock</h3>
@@ -203,7 +197,7 @@ The clock shows the current date as a tooltip. Clicking on the
 clock will not perform any action.</p><a name="clock-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;Clock item</b></p><img src=
-"images/clock-properties.png" alt=
+"/image/documentation/4.0/lock-properties.png" alt=
 "Shows properties dialog for clock item.">
 
 <h3><a name="mailcheck-item"></a>Mail Check</h3>
@@ -213,11 +207,11 @@ you want, as long as it is in mbox format. The mailbox icon will
 follow your icon theme. You can choose the location of the
 mailbox, the command to run when you click on the button and the
 interval between checks. The command has the same options as the
-launcher item command (see <a href="#launcher-item" target=
-"_top">above</a>).</p><a name="mailcheck-fig"></a>
+launcher item command (see <a href="#launcher-item"
+>above</a>).</p><a name="mailcheck-fig"></a>
 
 <p><b>Figure&nbsp;6.&nbsp;Mailcheck item</b></p><img src=
-"images/mailcheck-properties.png" alt=
+"/image/documentation/4.0/ailcheck-properties.png" alt=
 "Shows properties dialog for mailcheck item.">
 
 <h3><a name="switcher-item"></a>Desktop Switcher and Graphical
@@ -233,7 +227,7 @@ scrollwheel, when you hold the mouse over it.</p><a name=
 "nooptions-fig"></a>
 
 <p><b>Figure&nbsp;7.&nbsp;Item without options</b></p><img src=
-"images/nooptions-properties.png" alt=
+"/image/documentation/4.0/ooptions-properties.png" alt=
 "Shows properties dialog for item without options. ">
 
 <h3><a name="systembuttons-item"></a>System Buttons</h3>
@@ -269,7 +263,7 @@ mouse behaviour and user interface settings.</dd>
 </dl><a name="systembuttons-fig"></a>
 
 <p><b>Figure&nbsp;8.&nbsp;Systembuttons item</b></p><img src=
-"images/systembuttons-properties.png" alt=
+"/image/documentation/4.0/ystembuttons-properties.png" alt=
 "Shows properties dialog for systembuttons item. ">
 
 <h3><a name="separator-item"></a>Separator</h3>
@@ -299,7 +293,7 @@ in the item properties dialog.</p>
 <p>A special feature of panel menus is that they can be detached
 from the panel and live in their own window. To detach a menu
 click on the small line at the bottom of the menu (see the
-<a href="#default-panel-fig" target="_top">screenshot</a> of the
+<a href="#default-panel-fig">screenshot</a> of the
 default panel).</p>
 
 <p>The properties dialog for a menu item is opened immediately
@@ -308,7 +302,7 @@ dialog itself is very similar to the dialog for launcher type
 panel items.</p><a name="menuitem-fig"></a>
 
 <p><b>Figure&nbsp;9.&nbsp;Menu Item</b></p><img src=
-"images/menuitem-properties.png" alt=
+"/image/documentation/4.0/enuitem-properties.png" alt=
 "Shows properties dialog for menu items. ">
 
 <p>&nbsp;</p>
@@ -323,7 +317,7 @@ menu also provides direct access to the panel properties
 dialog.</p><a name="panel-settings-fig"></a>
 
 <p><b>Figure&nbsp;10.&nbsp;Panel Settings</b></p><img src=
-"images/panel-settings.png" alt=
+"/image/documentation/4.0/anel-settings.png" alt=
 "Shows properties dialog for global panel preferences. ">
 
 <h3><a name="panel-apearance"></a>Appearance</h3>
@@ -403,18 +397,18 @@ makes the target much easier to hit).</p>
 (<tt>&lt;<a href=
 "mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt>).
 To find more information, please visit the <a href=
-"http://www.xfce.org" target="_top">XFce web site</a>.</p>
+"http://www.xfce.org">XFce web site</a>.</p>
 
 <p>To report a bug or make a suggestion regarding this
 application or this manual, send an email to the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce4-dev/" target=
-"_top">xfce4-dev</a> mailing list &#8212; this is the preferred
+"http://www.moongroup.com/mailman/listinfo/xfce4-dev/"
+>xfce4-dev</a> mailing list &#8212; this is the preferred
 method &#8212; or use the bug tracking system at the <a href=
-"http://sourceforge.net/projects/xfce" target="_top">XFce
+"http://sourceforge.net/projects/xfce">XFce
 SourceForge project site</a>. If you have questions about the use
 or installation of this package, please ask on the <a href=
-"http://www.moongroup.com/mailman/listinfo/xfce/" target=
-"_top">xfce</a> mailing list.</p>
+"http://www.moongroup.com/mailman/listinfo/xfce/"
+>xfce</a> mailing list.</p>
 
 <p>This program is distributed under the terms of the GNU General
 Public License as published by the Free Software Foundation;
