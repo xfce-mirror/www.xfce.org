@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="/documentation/">Documenation</a>
+	<li><a href="/documentation/">Documentation</a>
 		<ul>
 			<li><a href="/documentation/4.2/">4.2 Users Guide</a></li>
 			<li><a href="/documentation/manuals/">Manuals</a></li>
