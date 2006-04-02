@@ -1,0 +1,287 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Miscellaneous Utility Functions</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-miscelleanous.html" title="Part&#160;V.&#160;Miscelleanous">
+<link rel="prev" href="exo-Opening-URLs.html" title="Opening URLs">
+<link rel="next" href="ExoXsessionClient.html" title="ExoXsessionClient">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="exo-toolbars.html" title="Part&#160;II.&#160;Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part&#160;III.&#160;Additional widgets">
+<link rel="part" href="exo-extensions.html" title="Part&#160;IV.&#160;Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part&#160;V.&#160;Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part&#160;VI.&#160;Tools">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="exo-Opening-URLs.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-miscelleanous.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="ExoXsessionClient.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="exo-Miscellaneous-Utility-Functions"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Miscellaneous Utility Functions</span></h2>
+<p>Miscellaneous Utility Functions &#8212; miscellaneous utility functions.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+
+void        <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop">exo_noop</a>                        (void);
+gint        <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop-one">exo_noop_one</a>                    (void);
+gint        <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop-zero">exo_noop_zero</a>                   (void);
+gpointer    <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop-null">exo_noop_null</a>                   (void);
+gboolean    <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop-true">exo_noop_true</a>                   (void);
+gboolean    <a href="exo-Miscellaneous-Utility-Functions.html#exo-noop-false">exo_noop_false</a>                  (void);
+void        <a href="exo-Miscellaneous-Utility-Functions.html#exo-atomic-inc">exo_atomic_inc</a>                  (gint *value);
+gboolean    <a href="exo-Miscellaneous-Utility-Functions.html#exo-atomic-dec">exo_atomic_dec</a>                  (gint *value);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2678542"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2678552"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2678557"></a><h3>
+<a name="exo-noop"></a>exo_noop ()</h3>
+<a class="indexterm" name="id2678566"></a><pre class="programlisting">void        exo_noop                        (void);</pre>
+<p>
+This function has no effect. It does nothing but
+returning instantly. It is mostly useful in
+situations that require a function to be called,
+but that function does not need to do anything
+useful.</p>
+<p>
+
+</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678661"></a><h3>
+<a name="exo-noop-one"></a>exo_noop_one ()</h3>
+<a class="indexterm" name="id2678669"></a><pre class="programlisting">gint        exo_noop_one                    (void);</pre>
+<p>
+This function has no effect but simply returns
+the integer value <code class="literal">1</code>. It is mostly useful in
+situations where you just need a function that
+returns <code class="literal">1</code>, but don't want to perform any other
+actions.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the integer value <code class="literal">1</code>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678727"></a><h3>
+<a name="exo-noop-zero"></a>exo_noop_zero ()</h3>
+<a class="indexterm" name="id2678736"></a><pre class="programlisting">gint        exo_noop_zero                   (void);</pre>
+<p>
+This function has no effect but simply returns
+the integer value <code class="literal">0</code>. It is mostly useful in
+situations where you just need a function that
+returns <code class="literal">0</code>, but don't want to perform any other
+actions.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the integer value <code class="literal">0</code>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678793"></a><h3>
+<a name="exo-noop-null"></a>exo_noop_null ()</h3>
+<a class="indexterm" name="id2678802"></a><pre class="programlisting">gpointer    exo_noop_null                   (void);</pre>
+<p>
+This function has no effect but simply returns
+a <code class="literal">NULL</code> pointer. It is mostly useful in
+situations where you just need a function that
+returns <code class="literal">NULL</code>, but don't want to perform any
+other actions.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> a <code class="literal">NULL</code> pointer.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678860"></a><h3>
+<a name="exo-noop-true"></a>exo_noop_true ()</h3>
+<a class="indexterm" name="id2678869"></a><pre class="programlisting">gboolean    exo_noop_true                   (void);</pre>
+<p>
+This function has no effect, but simply returns
+the boolean value <code class="literal">TRUE</code>. It is mostly useful in
+situations where you just need a function that
+returns <code class="literal">TRUE</code>, but don't want to perform any
+other actions.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the boolean value <code class="literal">TRUE</code>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678926"></a><h3>
+<a name="exo-noop-false"></a>exo_noop_false ()</h3>
+<a class="indexterm" name="id2678935"></a><pre class="programlisting">gboolean    exo_noop_false                  (void);</pre>
+<p>
+This function has no effect, but simply returns
+the boolean value <code class="literal">FALSE</code>. It is mostly useful in
+situations where you just need a function that
+returns <code class="literal">FALSE</code>, but don't want to perform any
+other actions.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the boolean value <code class="literal">FALSE</code>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2678993"></a><h3>
+<a name="exo-atomic-inc"></a>exo_atomic_inc ()</h3>
+<a class="indexterm" name="id2679001"></a><pre class="programlisting">void        exo_atomic_inc                  (gint *value);</pre>
+<p>
+  Increments the integer at <em class="parameter"><code>value</code></em> by one in an
+  atomic fashion.  The advantage over using
+  <code class="function">g_atomic_int_inc()</code> is that calls to this
+  function can be inlined.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td>a pointer to the integer value to increment.
+</td>
+</tr></tbody>
+</table></div>
+<p>Since 0.3.1
+
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2679064"></a><h3>
+<a name="exo-atomic-dec"></a>exo_atomic_dec ()</h3>
+<a class="indexterm" name="id2679073"></a><pre class="programlisting">gboolean    exo_atomic_dec                  (gint *value);</pre>
+<p>
+  Decrements the integer at <em class="parameter"><code>value</code></em> by one in an atomic
+  fashion and returns <code class="literal">TRUE</code> if the <em class="parameter"><code>value</code></em> dropped to
+  zero by this operation, else <code class="literal">FALSE</code>. The advantage
+  over using <code class="function">g_atomic_int_dec()</code> is that calls to this
+  function can be inlined.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td>a pointer to the integer value to decrement.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+<code class="literal">TRUE</code> if <em class="parameter"><code>value</code></em> dropped to zero, else <code class="literal">FALSE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since 0.3.1
+
+
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2679246"></a><h2>See Also</h2>
+<p>
+<a href="http://developer.gnome.org/doc/API/2.0/glib/glib-Atomic-Operations.html" target="_top">GLib
+Atomic Operations</a>
+</p>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="exo-Opening-URLs.html"><b>&lt;&lt;&#160;Opening URLs</b></a></td>
+<td align="right"><a accesskey="n" href="ExoXsessionClient.html"><b>ExoXsessionClient&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>
