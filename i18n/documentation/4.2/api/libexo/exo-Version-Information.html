@@ -1,0 +1,69 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>Version Information</title><meta name="generator" content="DocBook XSL Stylesheets V1.68.1"><link rel="start" href="index.html" title="exo Reference Manual"><link rel="up" href="exo-miscelleanous.html" title="Part V. Miscelleanous"><link rel="prev" href="exo-miscelleanous.html" title="Part V. Miscelleanous"><link rel="next" href="exo-Binding-Properties-Functions.html" title="Binding Properties Functions"><meta name="generator" content="GTK-Doc V1.3 (XML mode)"><link rel="stylesheet" href="style.css" type="text/css"><link rel="part" href="exo-overview.html" title="Part I. Overview"><link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars"><link rel="part" href="exo-widgets.html" title="Part III. Additional widgets"><link rel="part" href="exo-extensions.html" title="Part IV. Extensions to existing frameworks"><link rel="part" href="exo-miscelleanous.html" title="Part V. Miscelleanous"><link rel="index" href="ix01.html" title="Index"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle"><td><a accesskey="p" href="exo-miscelleanous.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td><td><a accesskey="u" href="exo-miscelleanous.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td><td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td><th width="100%" align="center">exo Reference Manual</th><td><a accesskey="n" href="exo-Binding-Properties-Functions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td></tr></table><div class="refentry" lang="en"><a name="exo-Version-Information"></a><div class="titlepage"></div><div class="refnamediv"><table width="100%"><tr><td valign="top"><h2><span class="refentrytitle">Version Information</span></h2><p>Version Information &#8212; Variables and macros to check the exo version</p></td><td valign="top" align="right"></td></tr></table></div><div class="refsynopsisdiv"><h2>Synopsis</h2><pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+
+extern      const guint <a href="exo-Version-Information.html#exo-major-version">exo_major_version</a>;
+extern      const guint <a href="exo-Version-Information.html#exo-minor-version">exo_minor_version</a>;
+extern      const guint <a href="exo-Version-Information.html#exo-micro-version">exo_micro_version</a>;
+
+#define     <a href="exo-Version-Information.html#EXO-MAJOR-VERSION:CAPS">EXO_MAJOR_VERSION</a>
+#define     <a href="exo-Version-Information.html#EXO-MINOR-VERSION:CAPS">EXO_MINOR_VERSION</a>
+#define     <a href="exo-Version-Information.html#EXO-MICRO-VERSION:CAPS">EXO_MICRO_VERSION</a>
+#define     <a href="exo-Version-Information.html#EXO-CHECK-VERSION:CAPS">EXO_CHECK_VERSION</a>               (major,minor,micro)
+</pre></div><div class="refsect1" lang="en"><a name="id2643686"></a><h2>Description</h2><p>
+Exo provides version information, primarily useful in configure for
+builds that have a configure script. Applications may use it to
+check if a certain feature is available in the version of libexo
+they are being built against or being linked with.
+</p></div><div class="refsect1" lang="en"><a name="id2643696"></a><h2>Details</h2><div class="refsect2" lang="en"><a name="id2643701"></a><h3><a name="exo-major-version"></a>exo_major_version</h3><a class="indexterm" name="id2643709"></a><pre class="programlisting">extern const guint exo_major_version;
+</pre><p>
+The major version number of the exo library (e.g. in libexo 0.1.3
+this is 0).
+</p><p>
+This variable is in the library, and therefore represents the exo
+library you have linked against. Contrast with the <a href="exo-Version-Information.html#EXO-MAJOR-VERSION:CAPS"><span class="type">EXO_MAJOR_VERSION</span></a>
+macro, which represents the major version of the libexo headers
+you have included.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643734"></a><h3><a name="exo-minor-version"></a>exo_minor_version</h3><a class="indexterm" name="id2643742"></a><pre class="programlisting">extern const guint exo_minor_version;
+</pre><p>
+The minor version number of the exo library (e.g. in libexo 0.1.3
+this is 1).
+</p><p>
+This variable is in the library, and therefore represents the exo
+library you have linked against. Contrast with the <a href="exo-Version-Information.html#EXO-MINOR-VERSION:CAPS"><span class="type">EXO_MINOR_VERSION</span></a>
+macro, which represents the minor version of the libexo headers
+you have included.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643767"></a><h3><a name="exo-micro-version"></a>exo_micro_version</h3><a class="indexterm" name="id2643776"></a><pre class="programlisting">extern const guint exo_micro_version;
+</pre><p>
+The micro version number of the exo library (e.g. in libexo 0.1.3
+this is 3).
+</p><p>
+This variable is in the library, and therefore represents the exo
+library you have linked against. Contrast with the <a href="exo-Version-Information.html#EXO-MICRO-VERSION:CAPS"><span class="type">EXO_MICRO_VERSION</span></a>
+macro, which represents the micro version of the libexo headers
+you have included.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643800"></a><h3><a name="EXO-MAJOR-VERSION:CAPS"></a>EXO_MAJOR_VERSION</h3><a class="indexterm" name="id2643809"></a><pre class="programlisting">#define EXO_MAJOR_VERSION 0
+</pre><p>
+Like <a href="exo-Version-Information.html#exo-major-version"><span class="type">exo_major_version</span></a>, but from the headers used at application
+compile time, rather than from the library linked against at
+application run time.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643829"></a><h3><a name="EXO-MINOR-VERSION:CAPS"></a>EXO_MINOR_VERSION</h3><a class="indexterm" name="id2643906"></a><pre class="programlisting">#define EXO_MINOR_VERSION 3
+</pre><p>
+Like <a href="exo-Version-Information.html#exo-minor-version"><span class="type">exo_minor_version</span></a>, but from the headers used at application
+compile time, rather than from the library linked against at
+application run time.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643926"></a><h3><a name="EXO-MICRO-VERSION:CAPS"></a>EXO_MICRO_VERSION</h3><a class="indexterm" name="id2643934"></a><pre class="programlisting">#define EXO_MICRO_VERSION 0
+</pre><p>
+Like <a href="exo-Version-Information.html#exo-micro-version"><span class="type">exo_micro_version</span></a>, but from the headers used at application
+compile time, rather than from the library linked against at
+application run time.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2643955"></a><h3><a name="EXO-CHECK-VERSION:CAPS"></a>EXO_CHECK_VERSION()</h3><a class="indexterm" name="id2643963"></a><pre class="programlisting">#define     EXO_CHECK_VERSION(major,minor,micro)</pre><p>
+Returns <code class="literal">TRUE</code> if the version of the libexo header files is 
+equal or better than the passed-in version.
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>major</code></em> :</span></td><td>major version (e.g. 0 for version 0.1.3)
+</td></tr><tr><td><span class="term"><em class="parameter"><code>minor</code></em> :</span></td><td>minor version (e.g. 1 for version 0.1.3)
+</td></tr><tr><td><span class="term"><em class="parameter"><code>micro</code></em> :</span></td><td>micro version (e.g. 3 for version 0.1.3)
+
+
+</td></tr></tbody></table></div></div></div></div><table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle"><td align="left"><a accesskey="p" href="exo-miscelleanous.html"><b>&lt;&lt; Part V. Miscelleanous</b></a></td><td align="right"><a accesskey="n" href="exo-Binding-Properties-Functions.html"><b>Binding Properties Functions &gt;&gt;</b></a></td></tr></table></body></html>
