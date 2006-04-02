@@ -1,6 +1,6 @@
 <h1>Xfce 4.2 Documentation</h1>
 
-  <h2><a href="userguide/">User Guide</a></h2>
+  <h3><a href="userguide/">User Guide</a></h3>
   <ul>
     <li><a href="userguide/#preface">Preface</a></li>
     <li><a href="userguide/xfce4-intro">Introduction</a></li>
@@ -10,7 +10,7 @@
     <li><a href="userguide/xfce4-copyright">Copyright and License</a></li>
   </ul>
 
-  <h2><a href="manuals/">Application Manuals</a></h2>
+  <h3><a href="manuals/">Application Manuals</a></h3>
   <ul>
     <li><a href="manuals/xfce4-panel">Panel</a></li>
     <li><a href="manuals/xfwm4">Window Manager</a></li>
@@ -24,7 +24,7 @@
     <li><a href="manuals/xfce4-appfinder">Application Finder</a></li>
   </ul>
 
-  <h2><a href="api/">Developer Documentation</a></h2>
+  <h3><a href="api/">Developer Documentation</a></h3>
   <ul>
     <li><a href="api/libxfce4util/">libxfce4util</a></li>
     <li><a href="api/libxfce4mcs/">libxfce4mcs</a></li>

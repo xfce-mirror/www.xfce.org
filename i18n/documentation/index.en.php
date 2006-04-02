@@ -24,7 +24,7 @@
       </ul>
       <h2><a href="/documentation/requirements">Requirements</a></h2>
           <p>A detailed list of all Xfce dependencies.</p>
-          <h2><a href="/documentation/4.0/">Archive</a></h2>
+          <h2><a href="/documentation/archive">Archive</a></h2>
           <ul>
             <li><a href="/documentation/4.2/">4.2 documentation</a></li>
             <li><a href="/documentation/4.0/">4.0 documentation  </a></li>

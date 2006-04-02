@@ -1,5 +1,5 @@
 
-  <h2><a href="../api/">Developer Documentation</a></h2>
+  <h3 align="center"><a href="../api/">Developer Documentation</a></h3>
   <ul>
     <li><a href="../api/libxfce4util/">libxfce4util</a></li>
     <li><a href="../api/libxfce4mcs/">libxfce4mcs</a></li>

@@ -1,6 +1,8 @@
-<h1>Xfce 4.0 Manuals</h1>
-<p>This page provides most of the Xfce 4.0 manuals.</p>
-<h2><a href="/documentation/4.0/manuals/">Application Manuals</a></h2>
+<h1>Xfce 4.0 Application Manuals</h1>
+<p>The documentation for Xfce 4.0 is installed with the different 
+  components that make up the desktop environment. As a consequence, 
+  some of the documents listed here may not be available on your system.</p>
+<hr />
 <ul>
   <li><a href="/documentation/4.0/manuals/xfce4-panel">Panel</a></li>
   <li><a href="/documentation/4.0/manuals/xfwm4">Window Manager</a></li>
