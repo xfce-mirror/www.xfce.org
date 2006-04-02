@@ -1,4 +1,4 @@
-<h1>Developers Documentation (4.2) </h1>
+<h1>Developers Documentation (4.4) </h1>
 <h3><a href="/documentation/api/libxfce4util/">libxfce4util</a></h3>
 <p>This component is the basic utilitiy library for the Xfce Desktop Environment. Everything else is build on top of this library and the functionality provided by it.</p>
 
@@ -11,3 +11,9 @@
 <h3><a href="/documentation/api/libexo/">libexo</a></h3>
 <p>Libexo is an extension library for Xfce, developed by <a href="http://www.os-cillation.com/" target="_blank">os-cillation</a>. While the core Xfce libraries are targeted at desktop development, libexo is targeted at application developement - in particular, developing applications for the Xfce Desktop Environment.</p>
 
+<h3><a href="/documentation/api/libxfce4panel/">libxfce4panel</a></h3>
+<p>Documentation for the new panel framework.</p>
+<h3><a href="/documentation/api/thunar-vfs/">thunar-vfs</a></h3>
+<p> Thunar-vfs is a filesystem abstraction library allowing applications plugable transparent access to a variety of &quot;real&quot; filesystems.</p>
+<h3><a href="/documentation/api/thunarx/">thunarx</a></h3>
+<p> The Thunar Extension Framework (thunarx) provides developers with an easy way to extend the basic functionality provided by        the <a href="http://thunar.xfce.org/" target="_top">Thunar File Manager</a>.        The thunarx library includes interfaces that can        be implemented by extensions for various purposes.</p>

@@ -43,8 +43,8 @@ function CreateBreadcrumbs ($uri, $lang)
 			$i++;
 			
 			# Create breadcrumb title
-			if (array_key_exists($url, $breadcrumbs))
-				$title = $breadcrumbs[$url];
+			if (array_key_exists($name, $breadcrumbs))
+				$title = $breadcrumbs[$name];
 			else
 				$title = ucfirst($name);
 			

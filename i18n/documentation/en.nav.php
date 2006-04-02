@@ -1,9 +1,9 @@
 <ul>
-	<li><a href="/documentation/">Documentation</a>
+	<li><a href="/documentation/">4.4 Documentation</a>
 		<ul>
-			<li><a href="/documentation/4.2/userguide/">User Guide</a></li>
-			<li><a href="/documentation/4.2/manuals/">Manuals</a></li>
-			<li><a href="/documentation/4.2/api/">Developers (API)</a></li>
+			<li><a href="/documentation/4.4/userguide/">User Guide</a></li>
+			<li><a href="/documentation/4.4/manuals/">Manuals</a></li>
+			<li><a href="/documentation/4.4/api/">Developers (API)</a></li>
 		</ul>
 	</li>
 	<li><a href="/documentation/faq/">FAQs</a>
@@ -13,5 +13,10 @@
 	</li>
 	<li><a href="/documentation/requirements">Requirements</a></li>
 	<li><a href="/documentation/notes">Release Notes</a></li>
-	<li><a href="/documentation/4.0/">Xfce 4.0 documentation...</a></li>
+	<li><a href="/documentation/archive">Archive</a>
+	  <ul>
+	    <li><a href="/documentation/4.2/">4.2 documentation</a></li>
+        <li><a href="/documentation/4.0/">4.0 documentation</a></li>
+	  </ul>
+	</li>
 </ul>

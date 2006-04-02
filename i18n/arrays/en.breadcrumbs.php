@@ -2,23 +2,27 @@
 
 # Translations or Style updates for the breadcrumbs
 $breadcrumbs = array (
-	"home" 						=> "Home",
-	"/download/development/"			=> "Development version",
+	# Catogory names
+	"home" 			=> "Home",
+	"development"	=> "Development version",
+	"lists"			=> "Mailing Lists",
+	"irc"			=> "IRC",
+	"faq"			=> "FAQs",
+	"notes"			=> "Release Notes",
+	"userguide"		=> "User Guide",
+	"api"			=> "Developers (API)",
 	
-	"/community/lists/"				=> "Mailing Lists",
-	"/community/irc/"				=> "IRC",
-	
-	"/documentation/faq/"				=> "FAQs",
-	"/documentation/notes/"				=> "Release Notes",
-	
-	"/documentation/4.2/"				=> "4.2 Documentation",
-	"/documentation/4.2/userguide/"			=> "User Guide",
-	"/documentation/4.2/manuals/"			=> "Manuals",
-	"/documentation/4.2/api/"			=> "API",
-	
-	"/documentation/4.0/"				=> "4.0 Documentation",
-	"/documentation/4.0/userguide/"			=> "User Guide",
-	"/documentation/4.0/manuals/"			=> "Manuals",
+	# Common Xfce components
+	"xfce4-panel"	=> "Panel",
+	"xfwm4"			=> "Window Manager",
+	"xfdesktop"		=> "Desktop Manager",
+	"xfce4-session" => "Session Manager",
+	"xfce-utils"	=> "Utilities and Scripts",
+	"xfprint"		=> "Printing Management",
+	"xfce-mcs-manager" => "Settings Manager",
+	"xfce-mcs-plugins" => "Settings Manager Plugins",
+	"xffm" 			=> "Filemanager",
+	"xfce4-appfinder"  => "Application Finder",
 );
 
 ?>
