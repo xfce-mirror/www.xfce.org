@@ -1,0 +1,383 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Basic Types</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="prev" href="thunar-vfs-Initialization-and-Shutdown.html" title="Initialization and Shutdown">
+<link rel="next" href="thunar-vfs-ThunarVfsPath.html" title="ThunarVfsPath">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;III.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;IV.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;V.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VI.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="thunar-vfs-Initialization-and-Shutdown.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="thunar-vfs-ThunarVfsPath.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="thunar-vfs-Basic-Types"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Basic Types</span></h2>
+<p>Basic Types &#8212; Standard Thunar-VFS types, defined for ease-of-use and portability.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1" lang="en">
+<a name="id2553026"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+enum        <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileType">ThunarVfsFileType</a>;
+enum        <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileMode">ThunarVfsFileMode</a>;
+enum        <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileFlags">ThunarVfsFileFlags</a>;
+typedef     <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileDevice">ThunarVfsFileDevice</a>;
+typedef     <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileSize">ThunarVfsFileSize</a>;
+typedef     <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a>;
+typedef     <a href="thunar-vfs-Basic-Types.html#ThunarVfsGroupId">ThunarVfsGroupId</a>;
+typedef     <a href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a>;
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2553496"></a><h2>Description</h2>
+<p>
+  Thunar-VFS defines a number of commonly used types to abstract the details
+  of the underlying system.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2553506"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2553511"></a><h3>
+<a name="ThunarVfsFileType"></a>enum ThunarVfsFileType</h3>
+<a class="indexterm" name="id2554612"></a><pre class="programlisting">typedef enum {
+  THUNAR_VFS_FILE_TYPE_SOCKET     = 0140000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_SYMLINK    = 0120000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_REGULAR    = 0100000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_BLOCKDEV   = 0060000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_DIRECTORY  = 0040000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_CHARDEV    = 0020000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_FIFO       = 0010000 &gt;&gt; 12,
+  THUNAR_VFS_FILE_TYPE_UNKNOWN    = 0000000 &gt;&gt; 12,
+} ThunarVfsFileType;
+</pre>
+<p>
+Describes the type of a file.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_SOCKET</code></span></td>
+<td> A unix domain socket.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_SYMLINK</code></span></td>
+<td> A broken symlink, for which the target does
+                                 not exist (if the target would exist, the
+                                 <a href="thunar-vfs-ThunarVfsInfo.html#ThunarVfsInfo"><span class="type">ThunarVfsInfo</span></a> object would have the type
+                                 of the target).
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_REGULAR</code></span></td>
+<td> A regular file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_BLOCKDEV</code></span></td>
+<td> A block device node.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_DIRECTORY</code></span></td>
+<td> A directory node.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_CHARDEV</code></span></td>
+<td> A character device node.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_FIFO</code></span></td>
+<td> A named FIFO.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_TYPE_UNKNOWN</code></span></td>
+<td> The exact type of the file could not be
+                                 determined.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2601923"></a><h3>
+<a name="ThunarVfsFileMode"></a>enum ThunarVfsFileMode</h3>
+<a class="indexterm" name="id2601931"></a><pre class="programlisting">typedef enum { /*&lt; flags &gt;*/
+  THUNAR_VFS_FILE_MODE_SUID       = 04000,
+  THUNAR_VFS_FILE_MODE_SGID       = 02000,
+  THUNAR_VFS_FILE_MODE_STICKY     = 01000,
+  THUNAR_VFS_FILE_MODE_USR_ALL    = 00700,
+  THUNAR_VFS_FILE_MODE_USR_READ   = 00400,
+  THUNAR_VFS_FILE_MODE_USR_WRITE  = 00200,
+  THUNAR_VFS_FILE_MODE_USR_EXEC   = 00100,
+  THUNAR_VFS_FILE_MODE_GRP_ALL    = 00070,
+  THUNAR_VFS_FILE_MODE_GRP_READ   = 00040,
+  THUNAR_VFS_FILE_MODE_GRP_WRITE  = 00020,
+  THUNAR_VFS_FILE_MODE_GRP_EXEC   = 00010,
+  THUNAR_VFS_FILE_MODE_OTH_ALL    = 00007,
+  THUNAR_VFS_FILE_MODE_OTH_READ   = 00004,
+  THUNAR_VFS_FILE_MODE_OTH_WRITE  = 00002,
+  THUNAR_VFS_FILE_MODE_OTH_EXEC   = 00001,
+} ThunarVfsFileMode;
+</pre>
+<p>
+Special flags and permissions of a filesystem entity.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_SUID</code></span></td>
+<td> SUID bit.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_SGID</code></span></td>
+<td> SGID bit.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_STICKY</code></span></td>
+<td> Sticky bit.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_USR_ALL</code></span></td>
+<td> Owner can do everything.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_USR_READ</code></span></td>
+<td> Owner can read the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_USR_WRITE</code></span></td>
+<td> Owner can write the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_USR_EXEC</code></span></td>
+<td> Owner can execute the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_GRP_ALL</code></span></td>
+<td> Owner group can do everything.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_GRP_READ</code></span></td>
+<td> Owner group can read the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_GRP_WRITE</code></span></td>
+<td> Owner group can write the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_GRP_EXEC</code></span></td>
+<td> Owner group can execute the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_OTH_ALL</code></span></td>
+<td> Others can do everything.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_OTH_READ</code></span></td>
+<td> Others can read the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_OTH_WRITE</code></span></td>
+<td> Others can write the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_MODE_OTH_EXEC</code></span></td>
+<td> Others can execute the file.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602234"></a><h3>
+<a name="ThunarVfsFileFlags"></a>enum ThunarVfsFileFlags</h3>
+<a class="indexterm" name="id2602243"></a><pre class="programlisting">typedef enum { /*&lt; flags &gt;*/
+  THUNAR_VFS_FILE_FLAGS_NONE       = 0,
+  THUNAR_VFS_FILE_FLAGS_SYMLINK    = 1L &lt;&lt; 0,
+  THUNAR_VFS_FILE_FLAGS_EXECUTABLE = 1L &lt;&lt; 1,
+  THUNAR_VFS_FILE_FLAGS_HIDDEN     = 1L &lt;&lt; 2,
+} ThunarVfsFileFlags;
+</pre>
+<p>
+Flags providing additional information about the
+file system entity.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_FLAGS_NONE</code></span></td>
+<td> No additional information available.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_FLAGS_SYMLINK</code></span></td>
+<td> The file is a symlink. Whether or not
+                                    the info fields refer to the symlink
+                                    itself or the linked file, depends on 
+                                    whether the symlink is broken or not.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_FLAGS_EXECUTABLE</code></span></td>
+<td> The file can most probably be executed
+                                    by <a href="thunar-vfs-ThunarVfsInfo.html#thunar-vfs-info-execute"><code class="function">thunar_vfs_info_execute()</code></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_FILE_FLAGS_HIDDEN</code></span></td>
+<td> The file should not be displayed normally,
+                                    but only if the user requests to display
+                                    hidden files. Hidden files start with a
+                                    dot character ('.') or end with a tilde
+                                    character ('~').
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602330"></a><h3>
+<a name="ThunarVfsFileDevice"></a>ThunarVfsFileDevice</h3>
+<a class="indexterm" name="id2602339"></a><pre class="programlisting">typedef dev_t ThunarVfsFileDevice;
+</pre>
+<p>
+  Datatype to represent the device number of a file.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602355"></a><h3>
+<a name="ThunarVfsFileSize"></a>ThunarVfsFileSize</h3>
+<a class="indexterm" name="id2602363"></a><pre class="programlisting">typedef gint64 ThunarVfsFileSize;
+</pre>
+<p>
+  Datatype to represent file sizes (in bytes). The file size
+  is always represented as a 64bit integer, even on system that
+  do not support large files.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602378"></a><h3>
+<a name="ThunarVfsFileTime"></a>ThunarVfsFileTime</h3>
+<a class="indexterm" name="id2602387"></a><pre class="programlisting">typedef time_t ThunarVfsFileTime;
+</pre>
+<p>
+  Datatype to represent file times (in seconds).
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602403"></a><h3>
+<a name="ThunarVfsGroupId"></a>ThunarVfsGroupId</h3>
+<a class="indexterm" name="id2602411"></a><pre class="programlisting">typedef gid_t ThunarVfsGroupId;
+</pre>
+<p>
+  Datatype to represent a group id.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602427"></a><h3>
+<a name="ThunarVfsUserId"></a>ThunarVfsUserId</h3>
+<a class="indexterm" name="id2602436"></a><pre class="programlisting">typedef uid_t ThunarVfsUserId;
+</pre>
+<p>
+  Datatype to represent a user id.
+</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="thunar-vfs-Initialization-and-Shutdown.html"><b>&lt;&lt;&#160;Initialization and Shutdown</b></a></td>
+<td align="right"><a accesskey="n" href="thunar-vfs-ThunarVfsPath.html"><b>ThunarVfsPath&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

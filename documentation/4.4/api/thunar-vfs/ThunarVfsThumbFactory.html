@@ -1,0 +1,420 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsThumbFactory</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.68.1">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="thumbnails.html" title="Part&#160;VIII.&#160;Thumbnails">
+<link rel="prev" href="thunar-vfs-Thumbnail-Functions.html" title="Thumbnail Functions">
+<link rel="next" href="ix01.html" title="Index">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;III.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;IV.&#160;MIME Types">
+<link rel="part" href="trash-handling.html" title="Part&#160;V.&#160;Trash Handling">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="part" href="thumbnails.html" title="Part&#160;VIII.&#160;Thumbnails">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="thunar-vfs-Thumbnail-Functions.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="thumbnails.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="ix01.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="ThunarVfsThumbFactory"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">ThunarVfsThumbFactory</span></h2>
+<p>ThunarVfsThumbFactory &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+            <a href="ThunarVfsThumbFactory.html#ThunarVfsThumbFactory-struct">ThunarVfsThumbFactory</a>;
+<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a>* <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-new">thunar_vfs_thumb_factory_new</a>
+                                            (<a href="thunar-vfs-Thumbnail-Functions.html#ThunarVfsThumbSize">ThunarVfsThumbSize</a> size);
+gchar*      <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-lookup-thumbnail">thunar_vfs_thumb_factory_lookup_thumbnail</a>
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);
+gboolean    <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-can-thumbnail">thunar_vfs_thumb_factory_can_thumbnail</a>
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             const <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo">ThunarVfsMimeInfo</a> *mime_info,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);
+gboolean    <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-has-failed-thumbnail">thunar_vfs_thumb_factory_has_failed_thumbnail</a>
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);
+GdkPixbuf*  <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-generate-thumbnail">thunar_vfs_thumb_factory_generate_thumbnail</a>
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             const <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo">ThunarVfsMimeInfo</a> *mime_info);
+gboolean    <a href="ThunarVfsThumbFactory.html#thunar-vfs-thumb-factory-store-thumbnail">thunar_vfs_thumb_factory_store_thumbnail</a>
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const GdkPixbuf *pixbuf,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime,
+                                             GError **error);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2633799"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----ThunarVfsThumbFactory
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2633816"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="ThunarVfsThumbFactory.html#ThunarVfsThumbFactory--size">size</a>"                 <a href="thunar-vfs-Thumbnail-Functions.html#ThunarVfsThumbSize">ThunarVfsThumbSize</a>    : Read / Write / Construct Only
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2633841"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2633850"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2633856"></a><h3>
+<a name="ThunarVfsThumbFactory-struct"></a>ThunarVfsThumbFactory</h3>
+<a class="indexterm" name="id2633864"></a><pre class="programlisting">typedef struct _ThunarVfsThumbFactory ThunarVfsThumbFactory;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633879"></a><h3>
+<a name="thunar-vfs-thumb-factory-new"></a>thunar_vfs_thumb_factory_new ()</h3>
+<a class="indexterm" name="id2633888"></a><pre class="programlisting"><a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a>* thunar_vfs_thumb_factory_new
+                                            (<a href="thunar-vfs-Thumbnail-Functions.html#ThunarVfsThumbSize">ThunarVfsThumbSize</a> size);</pre>
+<p>
+Allocates a new <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>, that is able to
+load and store thumbnails in the given <em class="parameter"><code>size</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></td>
+<td> the desired <a href="thunar-vfs-Thumbnail-Functions.html#ThunarVfsThumbSize"><span class="type">ThunarVfsThumbSize</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633966"></a><h3>
+<a name="thunar-vfs-thumb-factory-lookup-thumbnail"></a>thunar_vfs_thumb_factory_lookup_thumbnail ()</h3>
+<a class="indexterm" name="id2633978"></a><pre class="programlisting">gchar*      thunar_vfs_thumb_factory_lookup_thumbnail
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>factory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mtime</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2634136"></a><h3>
+<a name="thunar-vfs-thumb-factory-can-thumbnail"></a>thunar_vfs_thumb_factory_can_thumbnail ()</h3>
+<a class="indexterm" name="id2634148"></a><pre class="programlisting">gboolean    thunar_vfs_thumb_factory_can_thumbnail
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             const <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo">ThunarVfsMimeInfo</a> *mime_info,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);</pre>
+<p>
+Checks if <em class="parameter"><code>factory</code></em> can generate a thumbnail for
+the file specified by <em class="parameter"><code>uri</code></em>, which is of type
+<em class="parameter"><code>mime_info</code></em>.
+</p>
+<p>
+The usage of this method is thread-safe.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>factory</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI"><span class="type">ThunarVfsURI</span></a> to a file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mime_info</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo"><span class="type">ThunarVfsMimeInfo</span></a> of the file referred to by <em class="parameter"><code>uri</code></em>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mtime</code></em>&#160;:</span></td>
+<td> the modification time of the file referred to by <em class="parameter"><code>uri</code></em>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if <em class="parameter"><code>factory</code></em> can generate a thumbnail for <em class="parameter"><code>uri</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2634328"></a><h3>
+<a name="thunar-vfs-thumb-factory-has-failed-thumbnail"></a>thunar_vfs_thumb_factory_has_failed_thumbnail ()</h3>
+<a class="indexterm" name="id2634340"></a><pre class="programlisting">gboolean    thunar_vfs_thumb_factory_has_failed_thumbnail
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime);</pre>
+<p>
+Checks whether we know that <em class="parameter"><code>factory</code></em> won't be able to generate
+a thumbnail for the file referred to by <em class="parameter"><code>uri</code></em>, whose modification
+time is <em class="parameter"><code>mtime</code></em>.
+</p>
+<p>
+The usage of this method is thread-safe.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>factory</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI"><span class="type">ThunarVfsURI</span></a> to a file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mtime</code></em>&#160;:</span></td>
+<td> the modification time of the file referred to by <em class="parameter"><code>uri</code></em>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if <em class="parameter"><code>factory</code></em> knows that it cannot generate
+              a thumbnail for <em class="parameter"><code>uri</code></em>, else <code class="literal">TRUE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2634563"></a><h3>
+<a name="thunar-vfs-thumb-factory-generate-thumbnail"></a>thunar_vfs_thumb_factory_generate_thumbnail ()</h3>
+<a class="indexterm" name="id2634574"></a><pre class="programlisting">GdkPixbuf*  thunar_vfs_thumb_factory_generate_thumbnail
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             const <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo">ThunarVfsMimeInfo</a> *mime_info);</pre>
+<p>
+Tries to generate a thumbnail for the file referred to by <em class="parameter"><code>uri</code></em> in
+<em class="parameter"><code>factory</code></em>.
+</p>
+<p>
+The caller is responsible to free the returned <span class="type">GdkPixbuf</span> using
+<code class="function">g_object_unref()</code> when no longer needed.
+</p>
+<p>
+The usage of this method is thread-safe.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>factory</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI"><span class="type">ThunarVfsURI</span></a> to the file for which a thumbnail
+             should be generated.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mime_info</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsMimeInfo.html#ThunarVfsMimeInfo"><span class="type">ThunarVfsMimeInfo</span></a> for the file referred to by <em class="parameter"><code>uri</code></em>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the thumbnail for the <em class="parameter"><code>uri</code></em> or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2634738"></a><h3>
+<a name="thunar-vfs-thumb-factory-store-thumbnail"></a>thunar_vfs_thumb_factory_store_thumbnail ()</h3>
+<a class="indexterm" name="id2634749"></a><pre class="programlisting">gboolean    thunar_vfs_thumb_factory_store_thumbnail
+                                            (<a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory">ThunarVfsThumbFactory</a> *factory,
+                                             const GdkPixbuf *pixbuf,
+                                             const <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             <a href="thunar-vfs-Basic-Types.html#ThunarVfsFileTime">ThunarVfsFileTime</a> mtime,
+                                             GError **error);</pre>
+<p>
+Stores <em class="parameter"><code>pixbuf</code></em> as thumbnail for <em class="parameter"><code>uri</code></em> in the right place, according
+to the size set for <em class="parameter"><code>factory</code></em>.
+</p>
+<p>
+If you specify <code class="literal">NULL</code> for <em class="parameter"><code>pixbuf</code></em>, the <em class="parameter"><code>factory</code></em> will remember that
+the thumbnail generation for <em class="parameter"><code>uri</code></em> failed.
+</p>
+<p>
+The usage of this method is thread-safe.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>factory</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsThumbFactory.html" title="ThunarVfsThumbFactory"><span class="type">ThunarVfsThumbFactory</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>pixbuf</code></em>&#160;:</span></td>
+<td> the thumbnail <span class="type">GdkPixbuf</span> to store or <code class="literal">NULL</code>
+           to remember the thumbnail for <em class="parameter"><code>uri</code></em> as failed.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI"><span class="type">ThunarVfsURI</span></a> of the original file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mtime</code></em>&#160;:</span></td>
+<td> the last known modification time of the original file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if the thumbnail was stored successfully,
+              else <code class="literal">FALSE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2634978"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2634983"></a><h3>
+<a name="ThunarVfsThumbFactory--size"></a>The "<code class="literal">size</code>" property</h3>
+<pre class="programlisting">  "size"                 <a href="thunar-vfs-Thumbnail-Functions.html#ThunarVfsThumbSize">ThunarVfsThumbSize</a>    : Read / Write / Construct Only</pre>
+<p>The desired thumbnail size.</p>
+<p>Default value: THUNAR_VFS_THUMB_SIZE_NORMAL</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="thunar-vfs-Thumbnail-Functions.html"><b>&lt;&lt;&#160;Thumbnail Functions</b></a></td>
+<td align="right"><a accesskey="n" href="ix01.html"><b>Index&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

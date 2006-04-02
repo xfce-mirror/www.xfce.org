@@ -1,0 +1,279 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsTrashManager</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.68.1">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="trash-handling.html" title="Part&#160;V.&#160;Trash Handling">
+<link rel="prev" href="ThunarVfsTrash.html" title="ThunarVfsTrash">
+<link rel="next" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;III.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;IV.&#160;MIME Types">
+<link rel="part" href="trash-handling.html" title="Part&#160;V.&#160;Trash Handling">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="part" href="thumbnails.html" title="Part&#160;VIII.&#160;Thumbnails">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="ThunarVfsTrash.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="trash-handling.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="users-and-groups-handling.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="ThunarVfsTrashManager"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">ThunarVfsTrashManager</span></h2>
+<p>ThunarVfsTrashManager &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+            <a href="ThunarVfsTrashManager.html#ThunarVfsTrashManager-struct">ThunarVfsTrashManager</a>;
+<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a>* <a href="ThunarVfsTrashManager.html#thunar-vfs-trash-manager-get-default">thunar_vfs_trash_manager_get_default</a>
+                                            (void);
+gboolean    <a href="ThunarVfsTrashManager.html#thunar-vfs-trash-manager-is-empty">thunar_vfs_trash_manager_is_empty</a>
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager);
+GList*      <a href="ThunarVfsTrashManager.html#thunar-vfs-trash-manager-get-trashes">thunar_vfs_trash_manager_get_trashes</a>
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager);
+<a href="ThunarVfsTrash.html" title="ThunarVfsTrash">ThunarVfsTrash</a>* <a href="ThunarVfsTrashManager.html#thunar-vfs-trash-manager-resolve-uri">thunar_vfs_trash_manager_resolve_uri</a>
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager,
+                                             <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             gchar **path,
+                                             GError **error);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2621389"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----ThunarVfsTrashManager
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2621406"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="ThunarVfsTrashManager.html#ThunarVfsTrashManager--empty">empty</a>"                gboolean              : Read
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2621430"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2621440"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2621445"></a><h3>
+<a name="ThunarVfsTrashManager-struct"></a>ThunarVfsTrashManager</h3>
+<a class="indexterm" name="id2621453"></a><pre class="programlisting">typedef struct _ThunarVfsTrashManager ThunarVfsTrashManager;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2621468"></a><h3>
+<a name="thunar-vfs-trash-manager-get-default"></a>thunar_vfs_trash_manager_get_default ()</h3>
+<a class="indexterm" name="id2621480"></a><pre class="programlisting"><a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a>* thunar_vfs_trash_manager_get_default
+                                            (void);</pre>
+<p>
+Returns the default trash manager instance, which is shared by all
+modules using the trash implementation. You'll need to call
+#<code class="function">g_object_unref()</code> on the returned object when you're done with it.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the default trash manager.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2621526"></a><h3>
+<a name="thunar-vfs-trash-manager-is-empty"></a>thunar_vfs_trash_manager_is_empty ()</h3>
+<a class="indexterm" name="id2621538"></a><pre class="programlisting">gboolean    thunar_vfs_trash_manager_is_empty
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager);</pre>
+<p>
+Determines whether all trashes handled by <em class="parameter"><code>manager</code></em> are
+empty. Returns <code class="literal">FALSE</code> if atleast one trash contains
+files, else <code class="literal">TRUE</code>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager"><span class="type">ThunarVfsTrashManager</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if <em class="parameter"><code>manager</code></em> has no files, else <code class="literal">FALSE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2621633"></a><h3>
+<a name="thunar-vfs-trash-manager-get-trashes"></a>thunar_vfs_trash_manager_get_trashes ()</h3>
+<a class="indexterm" name="id2621644"></a><pre class="programlisting">GList*      thunar_vfs_trash_manager_get_trashes
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager);</pre>
+<p>
+Returns all trashes currently known to the <em class="parameter"><code>manager</code></em>.
+</p>
+<p>
+The returned list must be freed when no longer needed,
+which can be done like this:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager"><span class="type">ThunarVfsTrashManager</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of currently known trashes.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2621721"></a><h3>
+<a name="thunar-vfs-trash-manager-resolve-uri"></a>thunar_vfs_trash_manager_resolve_uri ()</h3>
+<a class="indexterm" name="id2621733"></a><pre class="programlisting"><a href="ThunarVfsTrash.html" title="ThunarVfsTrash">ThunarVfsTrash</a>* thunar_vfs_trash_manager_resolve_uri
+                                            (<a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager">ThunarVfsTrashManager</a> *manager,
+                                             <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI">ThunarVfsURI</a> *uri,
+                                             gchar **path,
+                                             GError **error);</pre>
+<p>
+Parses the given <em class="parameter"><code>uri</code></em> and determines the trash referenced by
+the <em class="parameter"><code>uri</code></em> and the relative path of the file within the trash.
+</p>
+<p>
+Returns the <a href="ThunarVfsTrash.html" title="ThunarVfsTrash"><span class="type">ThunarVfsTrash</span></a> referenced by <em class="parameter"><code>uri</code></em> or <code class="literal">NULL</code> on
+error, in which case <em class="parameter"><code>error</code></em> will point to a description
+of the exact cause.
+</p>
+<p>
+For example, the URI 'trash:///0-bar/foo' referes to the
+file 'foo' in 'bar' within the first trash, which is usually
+the "home trash". So a reference to the "home trash" will
+be returned and <em class="parameter"><code>path</code></em> will be set to 'bar/foo'.
+</p>
+<p>
+It is a bug to pass the root trash URI 'trash:///' to
+this function.
+</p>
+<p>
+You'll need to call #<code class="function">g_object_unref()</code> on the returned
+object when you are done with it. In addition if you
+did not specify <code class="literal">NULL</code> for <em class="parameter"><code>path</code></em>, you'll also have to
+#<code class="function">g_free()</code> the returned path.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>  a <a href="ThunarVfsTrashManager.html" title="ThunarVfsTrashManager"><span class="type">ThunarVfsTrashManager</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>uri</code></em>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsURI.html#ThunarVfsURI"><span class="type">ThunarVfsURI</span></a> to resolve.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> location to store the relative path to.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="ThunarVfsTrash.html" title="ThunarVfsTrash"><span class="type">ThunarVfsTrash</span></a> or <code class="literal">NULL</code> on error.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2621959"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2621964"></a><h3>
+<a name="ThunarVfsTrashManager--empty"></a>The "<code class="literal">empty</code>" property</h3>
+<pre class="programlisting">  "empty"                gboolean              : Read</pre>
+<p>
+<code class="literal">TRUE</code> if all trashes handled by the given trash manager are
+empty, else <code class="literal">FALSE</code>.</p>
+<p>
+
+</p>
+<p>Default value: TRUE</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="ThunarVfsTrash.html"><b>&lt;&lt;&#160;ThunarVfsTrash</b></a></td>
+<td align="right"><a accesskey="n" href="users-and-groups-handling.html"><b>Part&#160;VI.&#160;Users and Groups Handling&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

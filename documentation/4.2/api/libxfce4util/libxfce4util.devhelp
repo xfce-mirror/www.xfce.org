@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="libxfce4util Reference Manual" link="index.html" author="" name="libxfce4util">
+  <chapters>
+    <sub name="libxfce4util Overview" link="reference.html"/>
+    <sub name="Xfce Fundamentals" link="libxfce4util-fundamentals.html">
+      <sub name="Standard Macros" link="libxfce4util-Standard-Macros.html"/>
+      <sub name="Internationalization" link="libxfce4util-Internationalisation.html"/>
+    </sub>
+    <sub name="Xfce Core Application support" link="libxfce4util-core.html">
+      <sub name="XfceDesktopEntry" link="libxfce4util-Desktop-entries.html"/>
+      <sub name="Xfce Kiosk functions" link="libxfce4util-Xfce-Kiosk-functions.html"/>
+    </sub>
+    <sub name="Xfce Utilities" link="libxfce4util-utilities.html">
+      <sub name="Resource lookup functions" link="libxfce4util-Resource-lookup-functions.html"/>
+      <sub name="Resource Config File Support" link="libxfce4util-Resource-Config-File-Support.html"/>
+      <sub name="File Utilities" link="libxfce4util-File-Utilities.html"/>
+      <sub name="Miscellaneous Utilities" link="libxfce4util-Miscellaneous-Utilities.html"/>
+      <sub name="Unicode Manipulation" link="libxfce4util-Unicode-Support-Functions.html"/>
+    </sub>
+    <sub name="Xfce Data types" link="libxfce4util-datatypes.html">
+      <sub name="Xfce Generics" link="libxfce4util-Xfce-Generics.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <function name="LIBXFCE4UTIL_MAJOR_VERSION" link="libxfce4util-Standard-Macros.html#LIBXFCE4UTIL-MAJOR-VERSION-CAPS"/>
+    <function name="LIBXFCE4UTIL_MINOR_VERSION" link="libxfce4util-Standard-Macros.html#LIBXFCE4UTIL-MINOR-VERSION-CAPS"/>
+    <function name="LIBXFCE4UTIL_MICRO_VERSION" link="libxfce4util-Standard-Macros.html#LIBXFCE4UTIL-MICRO-VERSION-CAPS"/>
+    <function name="LIBXFCE4UTIL_CHECK_VERSION()" link="libxfce4util-Standard-Macros.html#LIBXFCE4UTIL-CHECK-VERSION-CAPS"/>
+    <function name="_()" link="libxfce4util-Internationalisation.html#gettext-macro"/>
+    <function name="N_()" link="libxfce4util-Internationalisation.html#N--CAPS"/>
+    <function name="Q_()" link="libxfce4util-Internationalisation.html#Q--CAPS"/>
+    <function name="xfce_textdomain()" link="libxfce4util-Internationalisation.html#xfce-textdomain"/>
+    <function name="xfce_strip_context ()" link="libxfce4util-Internationalisation.html#xfce-strip-context"/>
+    <function name="xfce_get_file_localized ()" link="libxfce4util-Internationalisation.html#xfce-get-file-localized"/>
+    <function name="xfce_get_file_localized_r ()" link="libxfce4util-Internationalisation.html#xfce-get-file-localized-r"/>
+    <function name="xfce_get_dir_localized ()" link="libxfce4util-Internationalisation.html#xfce-get-dir-localized"/>
+    <function name="xfce_get_dir_localized_r ()" link="libxfce4util-Internationalisation.html#xfce-get-dir-localized-r"/>
+    <function name="xfce_get_path_localized ()" link="libxfce4util-Internationalisation.html#xfce-get-path-localized"/>
+    <function name="XFCE_LOCALE_FULL_MATCH" link="libxfce4util-Internationalisation.html#XFCE-LOCALE-FULL-MATCH-CAPS"/>
+    <function name="XFCE_LOCALE_NO_MATCH" link="libxfce4util-Internationalisation.html#XFCE-LOCALE-NO-MATCH-CAPS"/>
+    <function name="xfce_locale_match ()" link="libxfce4util-Internationalisation.html#xfce-locale-match"/>
+    <function name="struct XfceDesktopEntry" link="libxfce4util-Desktop-entries.html#XfceDesktopEntry-struct"/>
+    <function name="xfce_desktop_entry_new ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-new"/>
+    <function name="xfce_desktop_entry_new_from_data ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-new-from-data"/>
+    <function name="xfce_desktop_entry_parse ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-parse"/>
+    <function name="xfce_desktop_entry_get_file ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-get-file"/>
+    <function name="xfce_desktop_entry_get_string ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-get-string"/>
+    <function name="xfce_desktop_entry_get_int ()" link="libxfce4util-Desktop-entries.html#xfce-desktop-entry-get-int"/>
+    <function name="struct XfceKiosk" link="libxfce4util-Xfce-Kiosk-functions.html#XfceKiosk"/>
+    <function name="xfce_kiosk_new ()" link="libxfce4util-Xfce-Kiosk-functions.html#xfce-kiosk-new"/>
+    <function name="xfce_kiosk_query ()" link="libxfce4util-Xfce-Kiosk-functions.html#xfce-kiosk-query"/>
+    <function name="xfce_kiosk_free ()" link="libxfce4util-Xfce-Kiosk-functions.html#xfce-kiosk-free"/>
+    <function name="enum XfceResourceType" link="libxfce4util-Resource-lookup-functions.html#XfceResourceType"/>
+    <function name="XfceMatchFunc ()" link="libxfce4util-Resource-lookup-functions.html#XfceMatchFunc"/>
+    <function name="xfce_resource_dirs ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-dirs"/>
+    <function name="xfce_resource_lookup ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-lookup"/>
+    <function name="xfce_resource_lookup_all ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-lookup-all"/>
+    <function name="xfce_resource_match ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-match"/>
+    <function name="xfce_resource_match_custom ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-match-custom"/>
+    <function name="xfce_resource_push_path ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-push-path"/>
+    <function name="xfce_resource_pop_path ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-pop-path"/>
+    <function name="xfce_resource_save_location ()" link="libxfce4util-Resource-lookup-functions.html#xfce-resource-save-location"/>
+    <function name="struct XfceRc" link="libxfce4util-Resource-Config-File-Support.html#XfceRc"/>
+    <function name="xfce_rc_simple_open ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-simple-open"/>
+    <function name="xfce_rc_config_open ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-config-open"/>
+    <function name="xfce_rc_close ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-close"/>
+    <function name="xfce_rc_flush ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-flush"/>
+    <function name="xfce_rc_is_dirty ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-dirty"/>
+    <function name="xfce_rc_is_readonly ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-readonly"/>
+    <function name="xfce_rc_get_locale ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-locale"/>
+    <function name="xfce_rc_get_groups ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-groups"/>
+    <function name="xfce_rc_get_entries ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-entries"/>
+    <function name="xfce_rc_delete_group ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-group"/>
+    <function name="xfce_rc_get_group ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-group"/>
+    <function name="xfce_rc_has_group ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-group"/>
+    <function name="xfce_rc_set_group ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-set-group"/>
+    <function name="xfce_rc_delete_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-entry"/>
+    <function name="xfce_rc_has_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-entry"/>
+    <function name="xfce_rc_read_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"/>
+    <function name="xfce_rc_read_entry_untranslated ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry-untranslated"/>
+    <function name="xfce_rc_read_bool_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-bool-entry"/>
+    <function name="xfce_rc_read_int_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-int-entry"/>
+    <function name="xfce_rc_read_list_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-list-entry"/>
+    <function name="xfce_rc_write_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"/>
+    <function name="xfce_rc_write_bool_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-bool-entry"/>
+    <function name="xfce_rc_write_int_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-int-entry"/>
+    <function name="xfce_rc_write_list_entry ()" link="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-list-entry"/>
+    <function name="xfce_mkdirhier ()" link="libxfce4util-File-Utilities.html#xfce-mkdirhier"/>
+    <function name="XFCE_LICENSE_BSD" link="libxfce4util-Miscellaneous-Utilities.html#XFCE-LICENSE-BSD-CAPS"/>
+    <function name="XFCE_LICENSE_GPL" link="libxfce4util-Miscellaneous-Utilities.html#XFCE-LICENSE-GPL-CAPS"/>
+    <function name="XFCE_LICENSE_LGPL" link="libxfce4util-Miscellaneous-Utilities.html#XFCE-LICENSE-LGPL-CAPS"/>
+    <function name="xfce_version_string ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-version-string"/>
+    <function name="xfce_get_homedir ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homedir"/>
+    <function name="xfce_get_homefile()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homefile"/>
+    <function name="xfce_get_homefile_r ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homefile-r"/>
+    <function name="xfce_get_userdir ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userdir"/>
+    <function name="xfce_get_userfile()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userfile"/>
+    <function name="xfce_get_userfile_r ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userfile-r"/>
+    <function name="xfce_strjoin ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-strjoin"/>
+    <function name="xfce_gethostname ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-gethostname"/>
+    <function name="xfce_putenv ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-putenv"/>
+    <function name="xfce_setenv ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-setenv"/>
+    <function name="xfce_unsetenv ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-unsetenv"/>
+    <function name="xfce_expand_variables ()" link="libxfce4util-Miscellaneous-Utilities.html#xfce-expand-variables"/>
+    <function name="xfce_utf8_remove_controls ()" link="libxfce4util-Unicode-Support-Functions.html#xfce-utf8-remove-controls"/>
+    <function name="XFCE_GENERIC_STACK()" link="libxfce4util-Xfce-Generics.html#XFCE-GENERIC-STACK-CAPS"/>
+    <function name="xfce_stack_new()" link="libxfce4util-Xfce-Generics.html#xfce-stack-new"/>
+    <function name="xfce_stack_free()" link="libxfce4util-Xfce-Generics.html#xfce-stack-free"/>
+    <function name="xfce_stack_top()" link="libxfce4util-Xfce-Generics.html#xfce-stack-top"/>
+    <function name="xfce_stack_pop()" link="libxfce4util-Xfce-Generics.html#xfce-stack-pop"/>
+    <function name="xfce_stack_push()" link="libxfce4util-Xfce-Generics.html#xfce-stack-push"/>
+  </functions>
+</book>

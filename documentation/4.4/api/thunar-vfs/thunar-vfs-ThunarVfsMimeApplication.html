@@ -1,0 +1,625 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsMimeApplication</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="mime-types.html" title="Part&#160;IV.&#160;MIME Types">
+<link rel="prev" href="ThunarVfsMimeDatabase.html" title="ThunarVfsMimeDatabase">
+<link rel="next" href="users-and-groups-handling.html" title="Part&#160;V.&#160;Users and Groups Handling">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;III.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;IV.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;V.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VI.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="ThunarVfsMimeDatabase.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="mime-types.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="users-and-groups-handling.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="thunar-vfs-ThunarVfsMimeApplication"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">ThunarVfsMimeApplication</span></h2>
+<p>ThunarVfsMimeApplication &#8212; Registered Applications for MIME types.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+enum        <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplicationFlags">ThunarVfsMimeApplicationFlags</a>;
+            <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>;
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-new-from-desktop-id">thunar_vfs_mime_application_new_from_desktop_id</a>
+                                            (const gchar *desktop_id);
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-new-from-file">thunar_vfs_mime_application_new_from_file</a>
+                                            (const gchar *path,
+                                             const gchar *desktop_id);
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-ref">thunar_vfs_mime_application_ref</a>
+                                            (<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+void        <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-unref">thunar_vfs_mime_application_unref</a>
+                                            (<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+const gchar* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-get-command">thunar_vfs_mime_application_get_command</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+const gchar* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-get-desktop-id">thunar_vfs_mime_application_get_desktop_id</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplicationFlags">ThunarVfsMimeApplicationFlags</a> <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-get-flags">thunar_vfs_mime_application_get_flags</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+const gchar* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-get-name">thunar_vfs_mime_application_get_name</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);
+gboolean    <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-exec">thunar_vfs_mime_application_exec</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GdkScreen *screen,
+                                             GList *path_list,
+                                             GError **error);
+gboolean    <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-exec-with-env">thunar_vfs_mime_application_exec_with_env</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GdkScreen *screen,
+                                             GList *path_list,
+                                             gchar **envp,
+                                             GError **error);
+const gchar* <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-lookup-icon-name">thunar_vfs_mime_application_lookup_icon_name</a>
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GtkIconTheme *icon_theme);
+guint       <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-hash">thunar_vfs_mime_application_hash</a>
+                                            (gconstpointer application);
+gboolean    <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-equal">thunar_vfs_mime_application_equal</a>
+                                            (gconstpointer a,
+                                             gconstpointer b);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2627905"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2627914"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2627920"></a><h3>
+<a name="ThunarVfsMimeApplicationFlags"></a>enum ThunarVfsMimeApplicationFlags</h3>
+<a class="indexterm" name="id2627929"></a><pre class="programlisting">typedef enum /*&lt; flags &gt;*/
+{
+  THUNAR_VFS_MIME_APPLICATION_HIDDEN                  = (1 &lt;&lt; 0L),
+  THUNAR_VFS_MIME_APPLICATION_REQUIRES_TERMINAL       = (1 &lt;&lt; 1L),
+  THUNAR_VFS_MIME_APPLICATION_SUPPORTS_STARTUP_NOTIFY = (1 &lt;&lt; 2L),
+  THUNAR_VFS_MIME_APPLICATION_SUPPORTS_MULTI          = (1 &lt;&lt; 3L),
+} ThunarVfsMimeApplicationFlags;
+</pre>
+<p>
+Various flags associated with a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_MIME_APPLICATION_HIDDEN</code></span></td>
+<td> the application should not be displayed in the menu system.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_MIME_APPLICATION_REQUIRES_TERMINAL</code></span></td>
+<td> the application must be run in a terminal.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_MIME_APPLICATION_SUPPORTS_STARTUP_NOTIFY</code></span></td>
+<td> the application supports startup notification.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><code class="literal">THUNAR_VFS_MIME_APPLICATION_SUPPORTS_MULTI</code></span></td>
+<td> the application supports opening multiple documents at once (<code class="literal">F</code> or <code class="literal">U</code>).
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628033"></a><h3>
+<a name="ThunarVfsMimeApplication"></a>ThunarVfsMimeApplication</h3>
+<a class="indexterm" name="id2628041"></a><pre class="programlisting">typedef struct _ThunarVfsMimeApplication ThunarVfsMimeApplication;</pre>
+<p>
+  The <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> struct contains private data only, and should
+  be accessed using the functions below.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628061"></a><h3>
+<a name="thunar-vfs-mime-application-new-from-desktop-id"></a>thunar_vfs_mime_application_new_from_desktop_id ()</h3>
+<a class="indexterm" name="id2628073"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* thunar_vfs_mime_application_new_from_desktop_id
+                                            (const gchar *desktop_id);</pre>
+<p>
+Generates a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> instance for the application
+referenced by <em class="parameter"><code>desktop_id</code></em>. Returns <code class="literal">NULL</code> if <em class="parameter"><code>desktop_id</code></em> is not valid.
+</p>
+<p>
+The caller is responsible to free the returned instance using
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-unref"><code class="function">thunar_vfs_mime_application_unref()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>desktop_id</code></em>&#160;:</span></td>
+<td> the id of an application's .desktop file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> for <em class="parameter"><code>desktop_id</code></em> or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628185"></a><h3>
+<a name="thunar-vfs-mime-application-new-from-file"></a>thunar_vfs_mime_application_new_from_file ()</h3>
+<a class="indexterm" name="id2628197"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* thunar_vfs_mime_application_new_from_file
+                                            (const gchar *path,
+                                             const gchar *desktop_id);</pre>
+<p>
+Generates a new <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> for the application
+described by <em class="parameter"><code>path</code></em> and <em class="parameter"><code>desktop_id</code></em>.
+</p>
+<p>
+The caller is responsible to free the returned instance using
+<a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-unref"><code class="function">thunar_vfs_mime_application_unref()</code></a>.
+</p>
+<p>
+You should really seldomly use this function and always
+prefer <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-new-from-desktop-id"><code class="function">thunar_vfs_mime_application_new_from_desktop_id()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> the absolute path to the desktop file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>desktop_id</code></em>&#160;:</span></td>
+<td> the desktop-id of the file.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> for <em class="parameter"><code>desktop_id</code></em>
+              or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628338"></a><h3>
+<a name="thunar-vfs-mime-application-ref"></a>thunar_vfs_mime_application_ref ()</h3>
+<a class="indexterm" name="id2628347"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>* thunar_vfs_mime_application_ref
+                                            (<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Increases the reference count on <em class="parameter"><code>application</code></em> by one
+and returns the reference to <em class="parameter"><code>application</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> a reference to <em class="parameter"><code>application</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628425"></a><h3>
+<a name="thunar-vfs-mime-application-unref"></a>thunar_vfs_mime_application_unref ()</h3>
+<a class="indexterm" name="id2628437"></a><pre class="programlisting">void        thunar_vfs_mime_application_unref
+                                            (<a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Decreases the reference count on <em class="parameter"><code>application</code></em> and frees
+the <em class="parameter"><code>application</code></em> object once the reference count drops
+to zero.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628569"></a><h3>
+<a name="thunar-vfs-mime-application-get-command"></a>thunar_vfs_mime_application_get_command ()</h3>
+<a class="indexterm" name="id2628581"></a><pre class="programlisting">const gchar* thunar_vfs_mime_application_get_command
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Returns the command line to run <em class="parameter"><code>application</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the command to run <em class="parameter"><code>application</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628654"></a><h3>
+<a name="thunar-vfs-mime-application-get-desktop-id"></a>thunar_vfs_mime_application_get_desktop_id ()</h3>
+<a class="indexterm" name="id2628666"></a><pre class="programlisting">const gchar* thunar_vfs_mime_application_get_desktop_id
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Returns the desktop-id of <em class="parameter"><code>application</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the desktop-id of <em class="parameter"><code>application</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628739"></a><h3>
+<a name="thunar-vfs-mime-application-get-flags"></a>thunar_vfs_mime_application_get_flags ()</h3>
+<a class="indexterm" name="id2628750"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplicationFlags">ThunarVfsMimeApplicationFlags</a> thunar_vfs_mime_application_get_flags
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Returns the flags for <em class="parameter"><code>application</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the flags for <em class="parameter"><code>application</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628890"></a><h3>
+<a name="thunar-vfs-mime-application-get-name"></a>thunar_vfs_mime_application_get_name ()</h3>
+<a class="indexterm" name="id2628902"></a><pre class="programlisting">const gchar* thunar_vfs_mime_application_get_name
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application);</pre>
+<p>
+Returns the generic name of <em class="parameter"><code>application</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the generic name of <em class="parameter"><code>application</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2628974"></a><h3>
+<a name="thunar-vfs-mime-application-exec"></a>thunar_vfs_mime_application_exec ()</h3>
+<a class="indexterm" name="id2628986"></a><pre class="programlisting">gboolean    thunar_vfs_mime_application_exec
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GdkScreen *screen,
+                                             GList *path_list,
+                                             GError **error);</pre>
+<p>
+Wrapper to <a href="thunar-vfs-ThunarVfsMimeApplication.html#thunar-vfs-mime-application-exec-with-env"><code class="function">thunar_vfs_mime_application_exec_with_env()</code></a>, which
+simply passes a <code class="literal">NULL</code> pointer for the environment variables.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td> a <span class="type">GdkScreen</span> or <code class="literal">NULL</code> to use the default screen.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if the execution succeed, else <code class="literal">FALSE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2629159"></a><h3>
+<a name="thunar-vfs-mime-application-exec-with-env"></a>thunar_vfs_mime_application_exec_with_env ()</h3>
+<a class="indexterm" name="id2629171"></a><pre class="programlisting">gboolean    thunar_vfs_mime_application_exec_with_env
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GdkScreen *screen,
+                                             GList *path_list,
+                                             gchar **envp,
+                                             GError **error);</pre>
+<p>
+Executes <em class="parameter"><code>application</code></em> on <em class="parameter"><code>screen</code></em> using the given <em class="parameter"><code>path_list</code></em>. If
+<em class="parameter"><code>path_list</code></em> contains more than one <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> and <em class="parameter"><code>application</code></em>
+doesn't support opening multiple documents at once, one
+instance of <em class="parameter"><code>application</code></em> will be spawned for every <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>
+given in <em class="parameter"><code>path_list</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td> a <span class="type">GdkScreen</span> or <code class="literal">NULL</code> to use the default screen.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>envp</code></em>&#160;:</span></td>
+<td> child's environment or <code class="literal">NULL</code> to inherit parent's.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if the execution succeed, else <code class="literal">FALSE</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2629400"></a><h3>
+<a name="thunar-vfs-mime-application-lookup-icon-name"></a>thunar_vfs_mime_application_lookup_icon_name ()</h3>
+<a class="indexterm" name="id2629412"></a><pre class="programlisting">const gchar* thunar_vfs_mime_application_lookup_icon_name
+                                            (const <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication">ThunarVfsMimeApplication</a> *application,
+                                             GtkIconTheme *icon_theme);</pre>
+<p>
+Looks up the icon name for <em class="parameter"><code>application</code></em> in
+<em class="parameter"><code>icon_theme</code></em>. Returns <code class="literal">NULL</code> if no suitable
+icon is present in <em class="parameter"><code>icon_theme</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon_theme</code></em>&#160;:</span></td>
+<td> a <span class="type">GtkIconTheme</span>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the icon name for <em class="parameter"><code>application</code></em> or
+              <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2629601"></a><h3>
+<a name="thunar-vfs-mime-application-hash"></a>thunar_vfs_mime_application_hash ()</h3>
+<a class="indexterm" name="id2629612"></a><pre class="programlisting">guint       thunar_vfs_mime_application_hash
+                                            (gconstpointer application);</pre>
+<p>
+Converts <em class="parameter"><code>application</code></em> to a hash value. It can be passed
+to <code class="function">g_hash_table_new()</code> as the <em class="parameter"><code>hash_func</code></em> parameter,
+when using <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>s as keys
+in a <span class="type">GHashTable</span>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>application</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> a hash value corresponding to the key.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2629777"></a><h3>
+<a name="thunar-vfs-mime-application-equal"></a>thunar_vfs_mime_application_equal ()</h3>
+<a class="indexterm" name="id2629788"></a><pre class="programlisting">gboolean    thunar_vfs_mime_application_equal
+                                            (gconstpointer a,
+                                             gconstpointer b);</pre>
+<p>
+Checks whether <em class="parameter"><code>a</code></em> and <em class="parameter"><code>b</code></em> refer to the same application.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>a</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>b</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsMimeApplication.html#ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> if <em class="parameter"><code>a</code></em> and <em class="parameter"><code>b</code></em> are equal.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="ThunarVfsMimeDatabase.html"><b>&lt;&lt;&#160;ThunarVfsMimeDatabase</b></a></td>
+<td align="right"><a accesskey="n" href="users-and-groups-handling.html"><b>Part&#160;V.&#160;Users and Groups Handling&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>
