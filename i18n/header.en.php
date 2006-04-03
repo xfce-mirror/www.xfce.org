@@ -51,12 +51,12 @@
 					<h2 class="hidden">Site navigation</h2>
 					<ul>
 						<li><a href="/" title="Home">Home</a></li>
-						<li><a href="/about" title="About">About</a></li>
-						<li><a href="/projects" title="Projects">Projects</a></li>
-						<li><a href="/download" title="Download">Download</a></li>
-						<li><a href="/documentation" title="Documentation">Documentation</a></li>
-						<li><a href="/community" title="Community">Community</a></li>
-						<li><a href="/development" title="Development">Development</a></li>
+						<li><a href="/about/" title="About">About</a></li>
+						<li><a href="/projects/" title="Projects">Projects</a></li>
+						<li><a href="/download/" title="Download">Download</a></li>
+						<li><a href="/documentation/" title="Documentation">Documentation</a></li>
+						<li><a href="/community/" title="Community">Community</a></li>
+						<li><a href="/development/" title="Development">Development</a></li>
 					</ul>
 				</div>
 				<div id="header-white">
