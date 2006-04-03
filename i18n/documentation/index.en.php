@@ -1,5 +1,5 @@
 <h1>Documentation</h1>
-<p>This page provides most of the Xfce documenation for both users and developers.</p>
+<p>This page provides most of the Xfce documentation for both users and developers.</p>
 <table width="100%">
   <tr>
     <td width="49%" valign="top">
