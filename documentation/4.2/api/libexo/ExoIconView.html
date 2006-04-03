@@ -1,0 +1,366 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>ExoIconView</title><meta name="generator" content="DocBook XSL Stylesheets V1.68.1"><link rel="start" href="index.html" title="exo Reference Manual"><link rel="up" href="exo-widgets.html" title="Part III. Additional widgets"><link rel="prev" href="ExoIconBar.html" title="ExoIconBar"><link rel="next" href="exo-extensions.html" title="Part IV. Extensions to existing frameworks"><meta name="generator" content="GTK-Doc V1.3 (XML mode)"><link rel="stylesheet" href="style.css" type="text/css"><link rel="part" href="exo-overview.html" title="Part I. Overview"><link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars"><link rel="part" href="exo-widgets.html" title="Part III. Additional widgets"><link rel="part" href="exo-extensions.html" title="Part IV. Extensions to existing frameworks"><link rel="part" href="exo-miscelleanous.html" title="Part V. Miscelleanous"><link rel="index" href="ix01.html" title="Index"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle"><td><a accesskey="p" href="ExoIconBar.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td><td><a accesskey="u" href="exo-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td><td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td><th width="100%" align="center">exo Reference Manual</th><td><a accesskey="n" href="exo-extensions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td></tr></table><div class="refentry" lang="en"><a name="ExoIconView"></a><div class="titlepage"></div><div class="refnamediv"><table width="100%"><tr><td valign="top"><h2><span class="refentrytitle">ExoIconView</span></h2><p>ExoIconView &#8212; A widget which displays a list of icons in a grid</p></td><td valign="top" align="right"></td></tr></table></div><div class="refsynopsisdiv"><h2>Synopsis</h2><pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+
+            <a href="ExoIconView.html#ExoIconView-struct">ExoIconView</a>;
+GtkWidget*  <a href="ExoIconView.html#exo-icon-view-new">exo_icon_view_new</a>               (void);
+GtkWidget*  <a href="ExoIconView.html#exo-icon-view-new-with-model">exo_icon_view_new_with_model</a>    (GtkTreeModel *model);
+GtkTreeModel* <a href="ExoIconView.html#exo-icon-view-get-model">exo_icon_view_get_model</a>       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-model">exo_icon_view_set_model</a>         (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreeModel *model);
+gint        <a href="ExoIconView.html#exo-icon-view-get-text-column">exo_icon_view_get_text_column</a>   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-text-column">exo_icon_view_set_text_column</a>   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);
+gint        <a href="ExoIconView.html#exo-icon-view-get-markup-column">exo_icon_view_get_markup_column</a> (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-markup-column">exo_icon_view_set_markup_column</a> (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);
+gint        <a href="ExoIconView.html#exo-icon-view-get-pixbuf-column">exo_icon_view_get_pixbuf_column</a> (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-pixbuf-column">exo_icon_view_set_pixbuf_column</a> (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);
+GtkOrientation <a href="ExoIconView.html#exo-icon-view-get-orientation">exo_icon_view_get_orientation</a>
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-orientation">exo_icon_view_set_orientation</a>   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkOrientation orientation);
+GtkSelectionMode <a href="ExoIconView.html#exo-icon-view-get-selection-mode">exo_icon_view_get_selection_mode</a>
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-set-selection-mode">exo_icon_view_set_selection_mode</a>
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkSelectionMode mode);
+GtkTreePath* <a href="ExoIconView.html#exo-icon-view-get-path-at-pos">exo_icon_view_get_path_at_pos</a>  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint x,
+                                             gint y);
+void        (<a href="ExoIconView.html#ExoIconViewForeachFunc">*ExoIconViewForeachFunc</a>)       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path,
+                                             gpointer data);
+void        <a href="ExoIconView.html#exo-icon-view-selected-foreach">exo_icon_view_selected_foreach</a>  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             <a href="ExoIconView.html#ExoIconViewForeachFunc">ExoIconViewForeachFunc</a> func,
+                                             gpointer data);
+void        <a href="ExoIconView.html#exo-icon-view-select-path">exo_icon_view_select_path</a>       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);
+void        <a href="ExoIconView.html#exo-icon-view-unselect-path">exo_icon_view_unselect_path</a>     (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);
+gboolean    <a href="ExoIconView.html#exo-icon-view-path-is-selected">exo_icon_view_path_is_selected</a>  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);
+GList*      <a href="ExoIconView.html#exo-icon-view-get-selected-items">exo_icon_view_get_selected_items</a>
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-select-all">exo_icon_view_select_all</a>        (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-unselect-all">exo_icon_view_unselect_all</a>      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void        <a href="ExoIconView.html#exo-icon-view-item-activated">exo_icon_view_item_activated</a>    (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);
+
+
+</pre></div><div class="refsect1" lang="en"><a name="id2632519"></a><h2>Object Hierarchy</h2><pre class="synopsis">
+
+  GObject
+   +----GtkObject
+         +----GtkWidget
+               +----GtkContainer
+                     +----ExoIconView
+</pre></div><div class="refsect1" lang="en"><a name="id2632553"></a><h2>Implemented Interfaces</h2><p>
+ExoIconView implements
+ AtkImplementorIface.</p></div><div class="refsect1" lang="en"><a name="id2632568"></a><h2>Properties</h2><pre class="synopsis">
+
+  "<a href="ExoIconView.html#ExoIconView--markup-column">markup-column</a>"        gint                  : Read / Write
+  "<a href="ExoIconView.html#ExoIconView--model">model</a>"                GtkTreeModel          : Read / Write
+  "<a href="ExoIconView.html#ExoIconView--orientation">orientation</a>"          GtkOrientation        : Read / Write
+  "<a href="ExoIconView.html#ExoIconView--pixbuf-column">pixbuf-column</a>"        gint                  : Read / Write
+  "<a href="ExoIconView.html#ExoIconView--selection-mode">selection-mode</a>"       GtkSelectionMode      : Read / Write
+  "<a href="ExoIconView.html#ExoIconView--text-column">text-column</a>"          gint                  : Read / Write
+</pre></div><div class="refsect1" lang="en"><a name="id2632717"></a><h2>Style Properties</h2><pre class="synopsis">
+
+  "<a href="ExoIconView.html#ExoIconView--selection-box-alpha">selection-box-alpha</a>"  guchar                : Read
+  "<a href="ExoIconView.html#ExoIconView--selection-box-color">selection-box-color</a>"  GdkColor              : Read
+</pre></div><div class="refsect1" lang="en"><a name="id2632758"></a><h2>Signal Prototypes</h2><pre class="synopsis">
+
+"<a href="ExoIconView.html#ExoIconView-activate-cursor-item">activate-cursor-item</a>"
+            gboolean    user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-item-activated">item-activated</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkTreePath *arg1,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-move-cursor">move-cursor</a>"
+            gboolean    user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkMovementStep arg1,
+                                            gint arg2,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-select-all">select-all</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-select-cursor-item">select-cursor-item</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-selection-changed">selection-changed</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-set-scroll-adjustments">set-scroll-adjustments</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkAdjustment *arg1,
+                                            GtkAdjustment *arg2,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-toggle-cursor-item">toggle-cursor-item</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+"<a href="ExoIconView.html#ExoIconView-unselect-all">unselect-all</a>"
+            void        user_function      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);
+</pre></div><div class="refsect1" lang="en"><a name="id2633146"></a><h2>Description</h2><p>
+  <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> provides an alternative view on a list model.
+  It displays the model as a grid of icons with labels. Like
+  <span class="type">GtkTreeView</span>, it allows to select one or multiple items 
+  (depending on the selection mode, see <a href="ExoIconView.html#exo-icon-view-set-selection-mode"><code class="function">exo_icon_view_set_selection_mode()</code></a>).
+  In addition to selection with the arrow keys, <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> supports
+  rubberband selection, which is controlled by dragging the pointer.
+</p></div><div class="refsect1" lang="en"><a name="id2633188"></a><h2>Details</h2><div class="refsect2" lang="en"><a name="id2633193"></a><h3><a name="ExoIconView-struct"></a>ExoIconView</h3><a class="indexterm" name="id2633202"></a><pre class="programlisting">typedef struct _ExoIconView ExoIconView;</pre><p>
+  The <span class="structname">ExoIconView</span> struct contains only
+  private fields and should not be directly accessed.
+</p></div><hr><div class="refsect2" lang="en"><a name="id2633220"></a><h3><a name="exo-icon-view-new"></a>exo_icon_view_new ()</h3><a class="indexterm" name="id2633228"></a><pre class="programlisting">GtkWidget*  exo_icon_view_new               (void);</pre><p>
+Creates a new <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> A newly created <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633277"></a><h3><a name="exo-icon-view-new-with-model"></a>exo_icon_view_new_with_model ()</h3><a class="indexterm" name="id2633286"></a><pre class="programlisting">GtkWidget*  exo_icon_view_new_with_model    (GtkTreeModel *model);</pre><p>
+Creates a new <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget with the model <em class="parameter"><code>model</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>model</code></em> :</span></td><td> The model.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> A newly created <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633358"></a><h3><a name="exo-icon-view-get-model"></a>exo_icon_view_get_model ()</h3><a class="indexterm" name="id2633367"></a><pre class="programlisting">GtkTreeModel* exo_icon_view_get_model       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Returns the model the <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> is based on.  Returns <code class="literal">NULL</code> if the
+model is unset.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> a <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> A <span class="type">GtkTreeModel</span>, or <code class="literal">NULL</code> if none is currently being used.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633452"></a><h3><a name="exo-icon-view-set-model"></a>exo_icon_view_set_model ()</h3><a class="indexterm" name="id2633529"></a><pre class="programlisting">void        exo_icon_view_set_model         (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreeModel *model);</pre><p>
+Sets the model for a <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.  
+If the <em class="parameter"><code>icon_view</code></em> already has a model set, it will remove 
+it before setting the new model.  If <em class="parameter"><code>model</code></em> is <code class="literal">NULL</code>, then
+it will unset the old model.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>model</code></em> :</span></td><td> The model.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633623"></a><h3><a name="exo-icon-view-get-text-column"></a>exo_icon_view_get_text_column ()</h3><a class="indexterm" name="id2633633"></a><pre class="programlisting">gint        exo_icon_view_get_text_column   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Returns the column with text for <em class="parameter"><code>icon_view</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> the text column, or -1 if it's unset.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633701"></a><h3><a name="exo-icon-view-set-text-column"></a>exo_icon_view_set_text_column ()</h3><a class="indexterm" name="id2633710"></a><pre class="programlisting">void        exo_icon_view_set_text_column   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);</pre><p>
+Sets the column with text for <em class="parameter"><code>icon_view</code></em> to be <em class="parameter"><code>column</code></em>. The text
+column must be of type <span class="type">G_TYPE_STRING</span>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>column</code></em> :</span></td><td> A column in the currently used model.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633868"></a><h3><a name="exo-icon-view-get-markup-column"></a>exo_icon_view_get_markup_column ()</h3><a class="indexterm" name="id2633878"></a><pre class="programlisting">gint        exo_icon_view_get_markup_column (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Returns the column with markup text for <em class="parameter"><code>icon_view</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> the markup column, or -1 if it's unset.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2633946"></a><h3><a name="exo-icon-view-set-markup-column"></a>exo_icon_view_set_markup_column ()</h3><a class="indexterm" name="id2633956"></a><pre class="programlisting">void        exo_icon_view_set_markup_column (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);</pre><p>
+Sets the column with markup information for <em class="parameter"><code>icon_view</code></em> to be
+<em class="parameter"><code>column</code></em>. The markup column must be of type <span class="type">G_TYPE_STRING</span>.
+If the markup column is set to something, it overrides
+the text column set by <a href="ExoIconView.html#exo-icon-view-set-text-column"><code class="function">exo_icon_view_set_text_column()</code></a>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>column</code></em> :</span></td><td> A column in the currently used model.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634055"></a><h3><a name="exo-icon-view-get-pixbuf-column"></a>exo_icon_view_get_pixbuf_column ()</h3><a class="indexterm" name="id2634065"></a><pre class="programlisting">gint        exo_icon_view_get_pixbuf_column (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Returns the column with pixbufs for <em class="parameter"><code>icon_view</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> the pixbuf column, or -1 if it's unset.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634133"></a><h3><a name="exo-icon-view-set-pixbuf-column"></a>exo_icon_view_set_pixbuf_column ()</h3><a class="indexterm" name="id2634142"></a><pre class="programlisting">void        exo_icon_view_set_pixbuf_column (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint column);</pre><p>
+Sets the column with pixbufs for <em class="parameter"><code>icon_view</code></em> to be <em class="parameter"><code>column</code></em>. The pixbuf
+column must be of type <span class="type">GDK_TYPE_PIXBUF</span></p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>column</code></em> :</span></td><td> A column in the currently used model.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634232"></a><h3><a name="exo-icon-view-get-orientation"></a>exo_icon_view_get_orientation ()</h3><a class="indexterm" name="id2634242"></a><pre class="programlisting">GtkOrientation exo_icon_view_get_orientation
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Returns the value of the ::orientation property which determines 
+whether the labels are drawn beside the icons instead of below.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> a <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> the relative position of texts and icons 
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634302"></a><h3><a name="exo-icon-view-set-orientation"></a>exo_icon_view_set_orientation ()</h3><a class="indexterm" name="id2634312"></a><pre class="programlisting">void        exo_icon_view_set_orientation   (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkOrientation orientation);</pre><p>
+Sets the ::orientation property which determines whether the labels 
+are drawn beside the icons instead of below.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> a <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>orientation</code></em> :</span></td><td> the relative position of texts and icons 
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634384"></a><h3><a name="exo-icon-view-get-selection-mode"></a>exo_icon_view_get_selection_mode ()</h3><a class="indexterm" name="id2634396"></a><pre class="programlisting">GtkSelectionMode exo_icon_view_get_selection_mode
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Gets the selection mode of the <em class="parameter"><code>icon_view</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> the current selection mode
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634464"></a><h3><a name="exo-icon-view-set-selection-mode"></a>exo_icon_view_set_selection_mode ()</h3><a class="indexterm" name="id2634476"></a><pre class="programlisting">void        exo_icon_view_set_selection_mode
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkSelectionMode mode);</pre><p>
+Sets the selection mode of the <em class="parameter"><code>icon_view</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>mode</code></em> :</span></td><td> The selection mode
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634553"></a><h3><a name="exo-icon-view-get-path-at-pos"></a>exo_icon_view_get_path_at_pos ()</h3><a class="indexterm" name="id2634563"></a><pre class="programlisting">GtkTreePath* exo_icon_view_get_path_at_pos  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             gint x,
+                                             gint y);</pre><p>
+Finds the path at the point (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>), relative to widget coordinates.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>x</code></em> :</span></td><td> The x position to be identified
+</td></tr><tr><td><span class="term"><em class="parameter"><code>y</code></em> :</span></td><td> The y position to be identified
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> The <span class="type">GtkTreePath</span> corresponding to the icon or <code class="literal">NULL</code>
+if no icon exists at that position.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634757"></a><h3><a name="ExoIconViewForeachFunc"></a>ExoIconViewForeachFunc ()</h3><a class="indexterm" name="id2634765"></a><pre class="programlisting">void        (*ExoIconViewForeachFunc)       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path,
+                                             gpointer data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>path</code></em> :</span></td><td>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>data</code></em> :</span></td><td>
+
+
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2634914"></a><h3><a name="exo-icon-view-selected-foreach"></a>exo_icon_view_selected_foreach ()</h3><a class="indexterm" name="id2634923"></a><pre class="programlisting">void        exo_icon_view_selected_foreach  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             <a href="ExoIconView.html#ExoIconViewForeachFunc">ExoIconViewForeachFunc</a> func,
+                                             gpointer data);</pre><p>
+Calls a function for each selected icon. Note that the model or
+selection cannot be modified from within this function.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>func</code></em> :</span></td><td> The funcion to call for each selected icon.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>data</code></em> :</span></td><td> User data to pass to the function.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635015"></a><h3><a name="exo-icon-view-select-path"></a>exo_icon_view_select_path ()</h3><a class="indexterm" name="id2635024"></a><pre class="programlisting">void        exo_icon_view_select_path       (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);</pre><p>
+Selects the row at <em class="parameter"><code>path</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>path</code></em> :</span></td><td> The <span class="type">GtkTreePath</span> to be selected.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635106"></a><h3><a name="exo-icon-view-unselect-path"></a>exo_icon_view_unselect_path ()</h3><a class="indexterm" name="id2635114"></a><pre class="programlisting">void        exo_icon_view_unselect_path     (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);</pre><p>
+Unselects the row at <em class="parameter"><code>path</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>path</code></em> :</span></td><td> The <span class="type">GtkTreePath</span> to be unselected.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635196"></a><h3><a name="exo-icon-view-path-is-selected"></a>exo_icon_view_path_is_selected ()</h3><a class="indexterm" name="id2635206"></a><pre class="programlisting">gboolean    exo_icon_view_path_is_selected  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);</pre><p>
+Returns <code class="literal">TRUE</code> if the icon pointed to by <em class="parameter"><code>path</code></em> is currently
+selected. If <em class="parameter"><code>icon</code></em> does not point to a valid location, <code class="literal">FALSE</code> is returned.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>path</code></em> :</span></td><td> A <span class="type">GtkTreePath</span> to check selection on.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> <code class="literal">TRUE</code> if <em class="parameter"><code>path</code></em> is selected.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635325"></a><h3><a name="exo-icon-view-get-selected-items"></a>exo_icon_view_get_selected_items ()</h3><a class="indexterm" name="id2635338"></a><pre class="programlisting">GList*      exo_icon_view_get_selected_items
+                                            (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Creates a list of paths of all selected items. Additionally, if you are
+planning on modifying the model after calling this function, you may
+want to convert the returned list into a list of <span class="type">GtkTreeRowReference</span>s.
+To do this, you can use <code class="function">gtk_tree_row_reference_new()</code>.
+</p><p>
+To free the return value, use:
+</p><div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, gtk_tree_path_free, NULL);
+g_list_free (list);
+</pre></div><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td> A <span class="type">GList</span> containing a <span class="type">GtkTreePath</span> for each selected row.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635437"></a><h3><a name="exo-icon-view-select-all"></a>exo_icon_view_select_all ()</h3><a class="indexterm" name="id2635446"></a><pre class="programlisting">void        exo_icon_view_select_all        (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Selects all the icons. <em class="parameter"><code>icon_view</code></em> must has its selection mode set
+to <span class="type">GTK_SELECTION_MULTIPLE</span>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635510"></a><h3><a name="exo-icon-view-unselect-all"></a>exo_icon_view_unselect_all ()</h3><a class="indexterm" name="id2635518"></a><pre class="programlisting">void        exo_icon_view_unselect_all      (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre><p>
+Unselects all the icons.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2635570"></a><h3><a name="exo-icon-view-item-activated"></a>exo_icon_view_item_activated ()</h3><a class="indexterm" name="id2635715"></a><pre class="programlisting">void        exo_icon_view_item_activated    (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                             GtkTreePath *path);</pre><p>
+Activates the item determined by <em class="parameter"><code>path</code></em>.</p><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></td><td> A <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>path</code></em> :</span></td><td> The <span class="type">GtkTreePath</span> to be activated
+</td></tr></tbody></table></div></div></div><div class="refsect1" lang="en"><a name="id2635799"></a><h2>Properties</h2><div class="refsect2" lang="en"><a name="id2635804"></a><h3><a name="ExoIconView--markup-column"></a>The "<code class="literal">markup-column</code>" property</h3><pre class="programlisting">  "markup-column"        gint                  : Read / Write</pre><p>
+The ::markup-column property contains the number of the model column
+containing markup information to be displayed. The markup column must be 
+of type <span class="type">G_TYPE_STRING</span>. If this property and the :text-column property 
+are both set to column numbers, it overrides the text column.
+If both are set to -1, no texts are displayed.</p><p>
+
+</p><p>Allowed values: &gt;= -1</p><p>Default value: -1</p></div><hr><div class="refsect2" lang="en"><a name="id2635850"></a><h3><a name="ExoIconView--model"></a>The "<code class="literal">model</code>" property</h3><pre class="programlisting">  "model"                GtkTreeModel          : Read / Write</pre><p>The model for the icon view.</p></div><hr><div class="refsect2" lang="en"><a name="id2635877"></a><h3><a name="ExoIconView--orientation"></a>The "<code class="literal">orientation</code>" property</h3><pre class="programlisting">  "orientation"          GtkOrientation        : Read / Write</pre><p>How the text and icon of each item are positioned relative to each other.</p><p>Default value: GTK_ORIENTATION_VERTICAL</p></div><hr><div class="refsect2" lang="en"><a name="id2635909"></a><h3><a name="ExoIconView--pixbuf-column"></a>The "<code class="literal">pixbuf-column</code>" property</h3><pre class="programlisting">  "pixbuf-column"        gint                  : Read / Write</pre><p>
+The ::pixbuf-column property contains the number of the model column
+containing the pixbufs which are displayed. The pixbuf column must be 
+of type <span class="type">GDK_TYPE_PIXBUF</span>. Setting this property to -1 turns off the
+display of pixbufs.</p><p>
+
+</p><p>Allowed values: &gt;= -1</p><p>Default value: -1</p></div><hr><div class="refsect2" lang="en"><a name="id2635956"></a><h3><a name="ExoIconView--selection-mode"></a>The "<code class="literal">selection-mode</code>" property</h3><pre class="programlisting">  "selection-mode"       GtkSelectionMode      : Read / Write</pre><p>
+The ::selection-mode property specifies the selection mode of
+icon view. If the mode is <span class="type">GTK_SELECTION_MULTIPLE</span>, rubberband selection
+is enabled, for the other modes, only keyboard selection is possible.</p><p>
+
+</p><p>Default value: GTK_SELECTION_SINGLE</p></div><hr><div class="refsect2" lang="en"><a name="id2635997"></a><h3><a name="ExoIconView--text-column"></a>The "<code class="literal">text-column</code>" property</h3><pre class="programlisting">  "text-column"          gint                  : Read / Write</pre><p>
+The ::text-column property contains the number of the model column
+containing the texts which are displayed. The text column must be 
+of type <span class="type">G_TYPE_STRING</span>. If this property and the :markup-column 
+property are both set to -1, no texts are displayed.</p><p>
+
+</p><p>Allowed values: &gt;= -1</p><p>Default value: -1</p></div></div><div class="refsect1" lang="en"><a name="id2636044"></a><h2>Style Properties</h2><div class="refsect2" lang="en"><a name="id2636050"></a><h3><a name="ExoIconView--selection-box-alpha"></a>The "<code class="literal">selection-box-alpha</code>" style property</h3><pre class="programlisting">  "selection-box-alpha"  guchar                : Read</pre><p>Opacity of the selection box.</p><p>Default value: 64</p></div><hr><div class="refsect2" lang="en"><a name="id2636085"></a><h3><a name="ExoIconView--selection-box-color"></a>The "<code class="literal">selection-box-color</code>" style property</h3><pre class="programlisting">  "selection-box-color"  GdkColor              : Read</pre><p>Color of the selection box.</p></div></div><div class="refsect1" lang="en"><a name="id2636118"></a><h2>Signals</h2><div class="refsect2" lang="en"><a name="id2636123"></a><h3><a name="ExoIconView-activate-cursor-item"></a>The "activate-cursor-item" signal</h3><pre class="programlisting">gboolean    user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td>
+
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636201"></a><h3><a name="ExoIconView-item-activated"></a>The "item-activated" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkTreePath *arg1,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>arg1</code></em> :</span></td><td>
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636285"></a><h3><a name="ExoIconView-move-cursor"></a>The "move-cursor" signal</h3><pre class="programlisting">gboolean    user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkMovementStep arg1,
+                                            gint arg2,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>arg1</code></em> :</span></td><td>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>arg2</code></em> :</span></td><td>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr><tr><td><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></td><td>
+
+</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636467"></a><h3><a name="ExoIconView-select-all"></a>The "select-all" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636532"></a><h3><a name="ExoIconView-select-cursor-item"></a>The "select-cursor-item" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636597"></a><h3><a name="ExoIconView-selection-changed"></a>The "selection-changed" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636662"></a><h3><a name="ExoIconView-set-scroll-adjustments"></a>The "set-scroll-adjustments" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            GtkAdjustment *arg1,
+                                            GtkAdjustment *arg2,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+</td></tr><tr><td><span class="term"><em class="parameter"><code>arg1</code></em> :</span></td><td>
+</td></tr><tr><td><span class="term"><em class="parameter"><code>arg2</code></em> :</span></td><td>
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636836"></a><h3><a name="ExoIconView-toggle-cursor-item"></a>The "toggle-cursor-item" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div><hr><div class="refsect2" lang="en"><a name="id2636901"></a><h3><a name="ExoIconView-unselect-all"></a>The "unselect-all" signal</h3><pre class="programlisting">void        user_function                  (<a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *exoiconview,
+                                            gpointer user_data);</pre><p>
+
+</p><div class="variablelist"><table border="0"><col align="left" valign="top"><tbody><tr><td><span class="term"><em class="parameter"><code>exoiconview</code></em> :</span></td><td>the object which received the signal.
+
+</td></tr><tr><td><span class="term"><em class="parameter"><code>user_data</code></em> :</span></td><td>user data set when the signal handler was connected.</td></tr></tbody></table></div></div></div></div><table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle"><td align="left"><a accesskey="p" href="ExoIconBar.html"><b>&lt;&lt; ExoIconBar</b></a></td><td align="right"><a accesskey="n" href="exo-extensions.html"><b>Part IV. Extensions to existing frameworks &gt;&gt;</b></a></td></tr></table></body></html>
