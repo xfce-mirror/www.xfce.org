@@ -39,7 +39,7 @@
   </tr>
   <tr>
     <td><img src="../../images/download/fedora.png" alt="Fedora" width="40" height="40" /></td>
-    <td><strong>Redhat & Fedora</strong><br />
+    <td><strong>Redhat &amp; Fedora</strong><br />
     <a href="<?php echo $sf_net; ?>" target="_blank">SourceForge.net<br />
     </a><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a><br />
     <a href="http://www.p0llux.be/xfce/xfce-<?php echo $version; ?>/installers/" target="_blank">p0llux.be</a><br />

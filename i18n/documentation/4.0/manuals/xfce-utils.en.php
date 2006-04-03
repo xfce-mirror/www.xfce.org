@@ -10,13 +10,13 @@
 <p><tt>&lt;<a href=
 "mailto:benedikt.meurer@unix-ag.uni-siegen.de">benedikt.meurer@unix-ag.uni-siegen.de</a>&gt;</tt></p>
 This manual describes the <b><tt>xfce-utils</tt></b> package, version
-4.0.<br>
-<br>
+4.0.<br />
+<br />
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
 
 <p>Copyright &#169; 2003 Benedikt Meurer</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -62,7 +62,7 @@ tray). Both can be disabled from the settings dialog.</p>
 Dialog</h2><a name="run-dialog-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Run dialog</b></p><img src=
-"/images/documentation/4.0/run-dialog.png" alt="Shows the run dialog.">
+"/images/documentation/4.0/run-dialog.png" alt="Shows the run dialog." />
 
 <p>The run dialog allows the user to launch applications.
 Applications can be run in a Terminal emulator (xterm by default,
@@ -78,7 +78,7 @@ Dialog</h2><a name="about-dialog-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;About dialog</b></p><img src=
 "/images/documentation/4.0/about-dialog.png" alt=
-"Shows the About Dialog displaying the credits page. ">
+"Shows the About Dialog displaying the credits page. " />
 
 <p>The About Dialog is used to display information about XFce 4,
 including a list of components, a credits page for all people who
@@ -132,7 +132,7 @@ the following line:</p>
 <tr>
 <td>
 <pre>
-export BROWSER="galeon -w"
+export BROWSER=&quot;galeon -w&quot;
 </pre>
 </td>
 </tr>

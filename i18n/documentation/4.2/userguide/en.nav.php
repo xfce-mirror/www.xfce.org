@@ -8,7 +8,7 @@
     <li><a href="../userguide/xfce4-install">Installing Xfce4</a></li>
     <li><a href="../userguide/xfce4-copyright">Copyright and License</a></li>
   </ul>
-<hr>
+<hr />
 <?php
 	include "i18n/documentation/en.nav.php";
 ?>

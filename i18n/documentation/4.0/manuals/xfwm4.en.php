@@ -5,13 +5,13 @@
 
 <p><tt>&lt;<a href=
 "mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
-This manual describes <b><tt>xfwm4</tt></b> version 4.0<br>
-<br>
+This manual describes <b><tt>xfwm4</tt></b> version 4.0<br />
+<br />
 
 <p>Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -100,7 +100,7 @@ perform these basic functions:</p><a name="titlebar-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;<tt>xfwm4</tt> title bar
 buttons</b></p><img src="/images/documentation/4.0/titlebar.png" alt=
-"xfwm4 title bar buttons and functions">
+"xfwm4 title bar buttons and functions" />
 
 <p>You can open the window menu with a left-click on the menu
 button on the title bar, or with a right-click on the window
@@ -150,7 +150,7 @@ vertically ou horizontally.</p>
 <li>click the maximize button of the title bar</li>
 
 <li>open the window menu from the title bar and choose the
-"maximize" item</li>
+&quot;maximize&quot; item</li>
 
 <li>use Alt + F5 keyboard shortcut</li>
 </ul>
@@ -180,7 +180,7 @@ actions :</p>
 
 <li>use the same keyboard shortcut once again</li>
 
-<li>choose the "Unmaximize" item in the window menu</li>
+<li>choose the &quot;Unmaximize&quot; item in the window menu</li>
 </ul>
 
 <p>&nbsp;</p>
@@ -218,17 +218,17 @@ the window</li>
 <li>click the hide button of the title bar</li>
 
 <li>open the window menu from the title bar and choose the
-"Hide" item</li>
+&quot;Hide&quot; item</li>
 
 <li>use Alt + F8 keyboard shortcut</li>
 </ul>
 
 <p>Alternatively, you can hide all windows of current
 workspace, excepted the one you are using, in only one action
-: click the menu button of the title bar and choose "Hide all
-others".</p>
+: click the menu button of the title bar and choose &quot;Hide all
+others&quot;.</p>
 
-<p>To "unhide" a window, you will have to select its name or
+<p>To &quot;unhide&quot; a window, you will have to select its name or
 its icon in one of those XFce 4 components :</p>
 
 <ul type="disc">
@@ -248,7 +248,7 @@ are marked between [ ].</li>
 <dt>Shade / unshade windows</dt>
 
 <dd>
-<p>If you "shade" a window, it will be reduced to the size of
+<p>If you &quot;shade&quot; a window, it will be reduced to the size of
 its title bar. The same repeated action makes a window to
 shade/unshade :</p>
 
@@ -256,7 +256,7 @@ shade/unshade :</p>
 <li>click the shade/unshade button of the title bar</li>
 
 <li>open the window menu from the title bar and choose
-"Shade" or "Unshade" item</li>
+&quot;Shade&quot; or &quot;Unshade&quot; item</li>
 
 <li>use the mouse scrollwheel while you hold the pointer
 over the title bar</li>
@@ -270,7 +270,7 @@ over the title bar</li>
 <dt>Stick / unstick windows</dt>
 
 <dd>
-<p>If you "stick" a window, it will be visible at the same
+<p>If you &quot;stick&quot; a window, it will be visible at the same
 place on all your workspaces. The same repeated action make a
 window to stick/unstick :</p>
 
@@ -278,7 +278,7 @@ window to stick/unstick :</p>
 <li>click the stick/unstick button of the title bar</li>
 
 <li>open the window menu button from the title bar and
-choose "Stick" or "Unstick" item</li>
+choose &quot;Stick&quot; or &quot;Unstick&quot; item</li>
 
 <li>use the Alt + F10 keyboard shortcut</li>
 </ul>
@@ -315,7 +315,7 @@ one of these actions :</p>
 <li>stick the window, move to another workspace, then
 unstick the window.</li>
 
-<li>use the window menu and choose one of the "Send to"
+<li>use the window menu and choose one of the &quot;Send to&quot;
 submenu items.</li>
 
 <li>left or right click on the title bar of the window,
@@ -357,7 +357,7 @@ workspace.</li>
 <li>click the close button of the title bar</li>
 
 <li>Open the window menu from the title bar and choose the
-"Close" item</li>
+&quot;Close&quot; item</li>
 
 <li>or use Alt + F4 keyboard shortcut</li>
 </ul>
@@ -421,7 +421,7 @@ keypad key number N</li>
 <b><tt>xfwm4</tt></b></h2>
 
 <p>To open the Window Manager preferences dialog, click the
-button labelled "Window Manager" in the <a href=
+button labelled &quot;Window Manager&quot; in the <a href=
 "xfce-mcs-manager#manager-dialog">XFce 4
 Settings manager</a>. The dialog shows three tabs : Decoration
 style, Keyboard and focus, Advanced. All modifications will have
@@ -432,7 +432,7 @@ an immediate effect on the behaviour of the selected module.</p>
 
 <p><b>Figure&nbsp;2.&nbsp;Decoration style
 preferences</b></p><img src="/images/documentation/4.0/decoration_style.png" alt=
-"The decoration style tab">
+"The decoration style tab" />
 
 <dl>
 <dt>Window style</dt>
@@ -449,9 +449,9 @@ You can preview all of them on the official <a href=
 <dt>Title font</dt>
 
 <dd>
-<p>The "Font select" button shows the family font currently
+<p>The &quot;Font select&quot; button shows the family font currently
 in use for the window title appearance. Click this button if
-you want to change it, and a "Font selection" dialog will
+you want to change it, and a &quot;Font selection&quot; dialog will
 appear. It works like the font selection dialog of the
 <a href="xfce-mcs-plugins#id2811474">user
 interface settings manager plugin</a>.</p>
@@ -482,7 +482,7 @@ the title bar buttons position.</p>
 
 <p><b>Figure&nbsp;3.&nbsp;Keyboard and focus
 preferences</b></p><img src="/images/documentation/4.0/keyboard_and_focus.png" alt=
-"The keyboard and focus tab">
+"The keyboard and focus tab" />
 
 <dl>
 <dt>Keyboard Shortcuts</dt>
@@ -507,7 +507,7 @@ $HOME/.themes/xfwm4/custom.keys/keythemerc.</p>
 4 setup, usually /usr or /usr/local.</p>
 
 <p>If you do not know the names of your keyboard modifier
-keys, you can launch the "xev" application from a terminal
+keys, you can launch the &quot;xev&quot; application from a terminal
 and test them.</p>
 </dd>
 
@@ -543,7 +543,7 @@ mouse pointer.</p>
 <dd>
 <p>If this option is selected, the frame of a newly focused
 window will automatically appear over all other frames, after
-an amount of time that you can adjust with the "delay"
+an amount of time that you can adjust with the &quot;delay&quot;
 slider.</p>
 </dd>
 
@@ -561,7 +561,7 @@ decorations (title bar, borders or corners) to raise it.</p>
 "misc_wm_prefs-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Advanced preferences</b></p><img src=
-"/images/documentation/4.0/misc_wm_prefs.png" alt="Advanced tab">
+"/images/documentation/4.0/misc_wm_prefs.png" alt="Advanced tab" />
 
 <dl>
 <dt>Windows snapping</dt>
@@ -570,7 +570,7 @@ decorations (title bar, borders or corners) to raise it.</p>
 <p>You can choose the windows borders to be attracted by the
 borders of other windows, or by the screen edges, when they
 are moved. The distance from which this effect will be
-applied can be specified with the "Distance" slider.</p>
+applied can be specified with the &quot;Distance&quot; slider.</p>
 </dd>
 
 <dt>Wrap workspaces</dt>
@@ -608,10 +608,10 @@ margins</h2><a name="workspace_margins-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;The workspace margins
 dialog</b></p><img src="/images/documentation/4.0/workspace_margins.png" alt=
-"The workspace margins dialog">
+"The workspace margins dialog" />
 
 <p>To open the Workspace Margins dialog, click the button
-labelled "Workspace Margins" in the <a href=
+labelled &quot;Workspace Margins&quot; in the <a href=
 "xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p>
 

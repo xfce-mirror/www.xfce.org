@@ -93,7 +93,7 @@ will lead to faster development of free libraries.
 
 The precise terms and conditions for copying, distribution and
 modification follow.  Pay close attention to the difference between a
-"work based on the library" and a "work that uses the library".  The
+&quot;work based on the library&quot; and a &quot;work that uses the library&quot;.  The
 former contains code derived from the library, while the latter only
 works together with the library.
 
@@ -106,22 +106,22 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 0. This License Agreement applies to any software library which
 contains a notice placed by the copyright holder or other authorized
 party saying it may be distributed under the terms of this Library
-General Public License (also called "this License").  Each licensee is
-addressed as "you".
+General Public License (also called &quot;this License&quot;).  Each licensee is
+addressed as &quot;you&quot;.
 
-A "library" means a collection of software functions and/or data
+A &quot;library&quot; means a collection of software functions and/or data
 prepared so as to be conveniently linked with application programs
 (which use some of those functions and data) to form executables.
 
-The "Library", below, refers to any such software library or work
-which has been distributed under these terms.  A "work based on the
-Library" means either the Library or any derivative work under
+The &quot;Library&quot;, below, refers to any such software library or work
+which has been distributed under these terms.  A &quot;work based on the
+Library&quot; means either the Library or any derivative work under
 copyright law: that is to say, a work containing the Library or a
 portion of it, either verbatim or with modifications and/or translated
 straightforwardly into another language.  (Hereinafter, translation is
-included without limitation in the term "modification".)
+included without limitation in the term &quot;modification&quot;.)
 
-"Source code" for a work means the preferred form of the work for
+&quot;Source code&quot; for a work means the preferred form of the work for
 making modifications to it.  For a library, complete source code means
 all the source code for all modules it contains, plus any associated
 interface definition files, plus the scripts used to control compilation
@@ -227,17 +227,17 @@ compelled to copy the source along with the object code.
 
 5. A program that contains no derivative of any portion of the
 Library, but is designed to work with the Library by being compiled or
-linked with it, is called a "work that uses the Library".  Such a
+linked with it, is called a &quot;work that uses the Library&quot;.  Such a
 work, in isolation, is not a derivative work of the Library, and
 therefore falls outside the scope of this License.
 
-However, linking a "work that uses the Library" with the Library
+However, linking a &quot;work that uses the Library&quot; with the Library
 creates an executable that is a derivative of the Library (because it
-contains portions of the Library), rather than a "work that uses the
-library".  The executable is therefore covered by this License.
+contains portions of the Library), rather than a &quot;work that uses the
+library&quot;.  The executable is therefore covered by this License.
 Section 6 states terms for distribution of such executables.
 
-When a "work that uses the Library" uses material from a header file
+When a &quot;work that uses the Library&quot; uses material from a header file
 that is part of the Library, the object code for the work may be a
 derivative work of the Library even though the source code is not.
 Whether this is true is especially significant if the work can be
@@ -257,7 +257,7 @@ Any executables containing that work also fall under Section 6,
 whether or not they are linked directly with the Library itself.
 
 6. As an exception to the Sections above, you may also compile or
-link a "work that uses the Library" with the Library to produce a
+link a &quot;work that uses the Library&quot; with the Library to produce a
 work containing portions of the Library, and distribute that work
 under terms of your choice, provided that the terms permit
 modification of the work for the customer's own use and reverse
@@ -275,8 +275,8 @@ a) Accompany the work with the complete corresponding
 machine-readable source code for the Library including whatever
 changes were used in the work (which must be distributed under
 Sections 1 and 2 above); and, if the work is an executable linked
-with the Library, with the complete machine-readable "work that
-uses the Library", as object code and/or source code, so that the
+with the Library, with the complete machine-readable &quot;work that
+uses the Library&quot;, as object code and/or source code, so that the
 user can modify the Library and then relink to produce a modified
 executable containing the modified Library.  (It is understood
 that the user who changes the contents of definitions files in the
@@ -295,8 +295,8 @@ specified materials from the same place.
 d) Verify that the user has already received a copy of these
 materials or that you have already sent this user a copy.
 
-For an executable, the required form of the "work that uses the
-Library" must include any data and utility programs needed for
+For an executable, the required form of the &quot;work that uses the
+Library&quot; must include any data and utility programs needed for
 reproducing the executable from it.  However, as a special exception,
 the source code distributed need not include anything that is normally
 distributed (in either source or binary form) with the major
@@ -397,7 +397,7 @@ but may differ in detail to address new problems or concerns.
 
 Each version is given a distinguishing version number.  If the Library
 specifies a version number of this License which applies to it and
-"any later version", you have the option of following the terms and
+&quot;any later version&quot;, you have the option of following the terms and
 conditions either of that version or of any later version published by
 the Free Software Foundation.  If the Library does not specify a
 license version number, you may choose any version ever published by
@@ -417,7 +417,7 @@ NO WARRANTY
 15. BECAUSE THE LIBRARY IS LICENSED FREE OF CHARGE, THERE IS NO
 WARRANTY FOR THE LIBRARY, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
 EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR
-OTHER PARTIES PROVIDE THE LIBRARY "AS IS" WITHOUT WARRANTY OF ANY
+OTHER PARTIES PROVIDE THE LIBRARY &quot;AS IS&quot; WITHOUT WARRANTY OF ANY
 KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE
 IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
 PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE
@@ -448,7 +448,7 @@ ordinary General Public License).
 To apply these terms, attach the following notices to the library.  It is
 safest to attach them to the start of each source file to most effectively
 convey the exclusion of warranty; and each file should have at least the
-"copyright" line and a pointer to where the full notice is found.
+&quot;copyright&quot; line and a pointer to where the full notice is found.
 
 &lt;one line to give the library's name and a brief idea of what it does.&gt;
 Copyright (C) &lt;year&gt;  &lt;name of author&gt;
@@ -471,7 +471,7 @@ Boston, MA  02111-1307  USA.
 Also add information on how to contact you by electronic and paper mail.
 
 You should also get your employer (if you work as a programmer) or your
-school, if any, to sign a "copyright disclaimer" for the library, if
+school, if any, to sign a &quot;copyright disclaimer&quot; for the library, if
 necessary.  Here is a sample; alter the names:
 
 Yoyodyne, Inc., hereby disclaims all copyright interest in the

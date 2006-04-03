@@ -10,13 +10,13 @@
 
 <p><tt>&lt;<a href=
 "mailto:fleclainche@wanadoo.fr">fleclainche@wanadoo.fr</a>&gt;</tt></p>
-This manual describes <b><tt>xfdesktop</tt></b> version 4.0.<br>
-<br>
+This manual describes <b><tt>xfdesktop</tt></b> version 4.0.<br />
+<br />
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
 
 <p>Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -47,19 +47,19 @@ and manage the number of workspaces.</p>
 "xfdesktop-background"></a>Background</h2>
 
 <p>You can start the background properties dialog by clicking on
-the "Desktop: backdrop" button in the <a href=
+the &quot;Desktop: backdrop&quot; button in the <a href=
 "xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p><a name="xfdesktop-background-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Background Settings</b></p><img src=
 "/images/documentation/4.0/xfdesktop-background.png" alt=
-"Shows background settings dialog. ">
+"Shows background settings dialog. " />
 
 <dl>
 <dt>Color</dt>
 
 <dd>
-<p>Click the "Background color" button, and a new dialog will
+<p>Click the &quot;Background color&quot; button, and a new dialog will
 appear :</p><a name="select_bg_color-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Select background
@@ -83,10 +83,10 @@ through the entries on the right side of the window.</li>
 your screen to select the color.</li>
 
 <li>you can enter an HTML-style hexadecimal color value, or
-simply a color name, in the "Color Name" entry</li>
+simply a color name, in the &quot;Color Name&quot; entry</li>
 </ul>
 
-<p>Select the "Use color only" option if you want
+<p>Select the &quot;Use color only&quot; option if you want
 <b><tt>xfdesktop</tt></b> to ignore the backgroung image and
 only use the choosen color.</p>
 </dd>
@@ -94,20 +94,20 @@ only use the choosen color.</p>
 <dt>Image</dt>
 
 <dd>
-<p>The "File" entry shows the path to the currently selected
+<p>The &quot;File&quot; entry shows the path to the currently selected
 background image. If you want to change it, just drop and
 image on the dialog from a file manager, or edit the path, or
-click the "Browse" button, and a classic file-browsing dialog
+click the &quot;Browse&quot; button, and a classic file-browsing dialog
 will appear.</p>
 
 <p>Three Style options (Tiled, Scaled, and Centered) can be
 used to specify the fitting of the background image on the
 screen, depending on its size. You can also select the
-"Automatic" item if you want to let <b><tt>xfdesktop</tt></b>
+&quot;Automatic&quot; item if you want to let <b><tt>xfdesktop</tt></b>
 take care of this setting.</p>
 
 <p>You can create a list of background images that will be
-randomly used at startup. Click the "New list" button to open
+randomly used at startup. Click the &quot;New list&quot; button to open
 the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;Backdrop List</b></p><img src=
@@ -115,14 +115,14 @@ the list editing dialog:</p><a name="xfdesktop-list-fig"></a>
 "Shows backdrop list manager.">
 
 <p>You may want to change the default path and name of your
-custom list of backdrops in the "List file" entry.</p>
+custom list of backdrops in the &quot;List file&quot; entry.</p>
 
-<p>You can easily add an image file by clicking the "plus"
+<p>You can easily add an image file by clicking the &quot;plus&quot;
 button. That action will open a file-browsing window. You can
 remove a file, if you select it in the list and click the
-"minus" button. When your list is complete, click the "Save"
+&quot;minus&quot; button. When your list is complete, click the &quot;Save&quot;
 button to save it. If you want to modify its content later,
-use the "Edit list" button of the Background settings
+use the &quot;Edit list&quot; button of the Background settings
 manager.</p>
 
 <p>You can recover an older list by dropping its name.list
@@ -139,13 +139,13 @@ e.g. from a terminal or the run dialog.</p>
 "xfdesktop-workspace"></a>Workspaces</h2>
 
 <p>You can start the Workspace Settings manager by clicking on
-the "Desktop: workspaces" button in the <a href=
+the &quot;Desktop: workspaces&quot; button in the <a href=
 "xfce-mcs-manager#manager-dialog">settings
 manager dialog</a>.</p><a name="xfdesktop-workspace-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Workspace Settings</b></p><img src=
 "/images/documentation/4.0/xfdesktop-workspace.png" alt=
-"Shows workspace settings dialog. ">
+"Shows workspace settings dialog. " />
 
 <dl>
 <dt>Workspaces</dt>
@@ -161,7 +161,7 @@ you want to use (between 1 and 32).</p>
 <p>This field shows the list of avaible workspaces. If you
 want to edit the name of one of them, click its number and a
 fill the entry of the dialog that will then appear. When it's
-done, click the "Apply" button, or just press the Enter key,
+done, click the &quot;Apply&quot; button, or just press the Enter key,
 to return to the list.</p>
 </dd>
 </dl>
@@ -197,7 +197,7 @@ like <b><tt>gedit</tt></b>.</p><a name="root-menu-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;<tt>xfdesktop</tt> right-click mouse
 menu</b></p><img src="/images/documentation/4.0/root_menu.png" alt=
-"Shows xfdesktop right-click mouse menu. ">
+"Shows xfdesktop right-click mouse menu. " />
 
 <p>A middle-click on the desktop background shows a list of all
 opened windows ordered by workspace. It also allows you to add or
@@ -205,7 +205,7 @@ remove a workspace.</p><a name="root-menu2-fig"></a>
 
 <p><b>Figure&nbsp;6.&nbsp;<tt>xfdesktop</tt> middle-click mouse
 menu</b></p><img src="/images/documentation/4.0/root_menu2.png" alt=
-"Shows xfdesktop middle-click mouse menu. ">
+"Shows xfdesktop middle-click mouse menu. " />
 
 <h2><a name="xfdesktop-copyright"></a>About
 xfdesktop</h2>

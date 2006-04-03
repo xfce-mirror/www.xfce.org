@@ -5,11 +5,11 @@
 
 <p><tt>&lt;<a href=
 "mailto:edcott@imp.mx">edcott@imp.mx</a>&gt;</tt></p>
-This manual describes <b><tt>xffm</tt></b> version 4.0<br>
-<br>
+This manual describes <b><tt>xffm</tt></b> version 4.0<br />
+<br />
 
 <p> Copyright &#169; 2003 Edscott Wilson Garcia</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -150,7 +150,7 @@ availability.</p>
 
 <p>** loses trashed status</p>
 
-<table xmlns="http://www.w3.org/TR/xhtml1/transitional" bgcolor=
+<table bgcolor=
 "#E0E0E0" cellspacing="0" cellpadding="4" border="1">
 <colgroup>
 <col>
@@ -469,7 +469,7 @@ availability.</p>
 
 <p>* applies to selected branch only</p>
 
-<table xmlns="http://www.w3.org/TR/xhtml1/transitional" bgcolor=
+<table bgcolor=
 "#E0E0E0" cellspacing="0" cellpadding="4" border="1">
 <colgroup>
 <col>

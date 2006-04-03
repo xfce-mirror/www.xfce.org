@@ -10,14 +10,14 @@
 
 <p><tt>&lt;<a href=
 "mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>This
-manual describes <b><tt>xfce-mcs-manager</tt></b> version 4.0<br>
-<br>
+manual describes <b><tt>xfce-mcs-manager</tt></b> version 4.0<br />
+<br />
 
 <p>
 Copyright &#169; 2003 Fran&#231;ois Le Clainche</p>
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -76,15 +76,15 @@ Systemsbuttons item.</p><a name="smgr-setup-button-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Setup button on XFce 4
 panel</b></p><img src="images/smgr_from_setup_button.png" alt=
-"Shows setup button on XFce 4 panel, used to open the settings manager dialog. ">
+"Shows setup button on XFce 4 panel, used to open the settings manager dialog. " />
 
 <p>Alternatively, you can right-click (or Shift-click) on one of
-the move handles of the panel, and choose the "Settings manager"
+the move handles of the panel, and choose the &quot;Settings manager&quot;
 item from the popup menu.</p><a name="smgr-panel-menu-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Mouse menu of XFce 4
 panel</b></p><img src="images/smgr_from_panel.png" alt=
-"Shows mouse menu of XFce 4 panel, used to open the settings manager dialog. ">
+"Shows mouse menu of XFce 4 panel, used to open the settings manager dialog. " />
 
 <p>The root window menu provided by the XFce 4 Desktop Manager
 (<b><tt>xfdesktop</tt></b>) contains an entry to open the
@@ -92,10 +92,10 @@ settings manager dialog. Right-click on the desktop background
 and choose <b>All Settings</b> in the <b>Settings</b>
 sub-menu.</p><a name="smgr-root-menu-fig"></a>
 
-<p><b>Figure&nbsp;3.&nbsp;Root window mouse menu</b></p><img src=
+<p><b>Figure&nbsp;3.&nbsp;Root window mouse menu</b></p>
+<img src=
 "images/smgr_from_root_menu.png" alt=
-"Shows root window mouse menu, used to open the settings manager dialog. ">
-
+"Shows root window mouse menu, used to open the settings manager dialog. " />
 <p>Finally, you can open the settings manager dialog by running
 <b><tt>xfce-setting-show</tt></b>.</p>
 
@@ -107,7 +107,7 @@ necessarily have to be running.</p><a name="smgr-dialog-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Settings Manager
 Dialog</b></p><img src="images/settings_manager.png" alt=
-"Shows settings manager dialog. ">
+"Shows settings manager dialog. " />
 
 <p>Just click on the button corresponding to the module that you
 want to configure. This action will open a new properties dialog.

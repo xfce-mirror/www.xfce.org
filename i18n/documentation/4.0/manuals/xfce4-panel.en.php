@@ -5,11 +5,11 @@
 <p><tt>&lt;<a href=
 "mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>
 This manual describes <b><tt>xfce4-panel</tt></b> version 4.0. Last
-updated: Sep 2003<br>
-<br>
+updated: Sep 2003<br />
+<br />
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -82,7 +82,7 @@ bottom of your screen, looking like this:</p><a name=
 
 <p><b>Figure&nbsp;1.&nbsp;Default XFce panel</b></p><img src=
 "/images/documentation/4.0/default_panel.png" alt=
-"Shows XFce panel default configuration. Contains several launchers, a new mail monitor, a clock and a desktop pager. Also shows an opened panel menu. ">
+"Shows XFce panel default configuration. Contains several launchers, a new mail monitor, a clock and a desktop pager. Also shows an opened panel menu. " />
 
 <p>The figure shows the default panel configuration with one open
 panel menu and the mouse hovering over a launcher button, making
@@ -95,11 +95,11 @@ popup menu ... Go on, try it ;-)</p><a name=
 "handle-popup-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Move handle popup menu</b></p><img src=
-"/images/documentation/4.0/handle-popup.png" alt="Shows move handle popup menu.">
+"/images/documentation/4.0/handle-popup.png" alt="Shows move handle popup menu." />
 
 <p>The area between the move handles contains panel items. The
-available items are are described in the "<a href="#panel-items"
->Panel Items</a>" section. Most items perform an
+available items are are described in the &quot;<a href="#panel-items"
+>Panel Items</a>&quot; section. Most items perform an
 action when clicked. Configuration of panel items is done from a
 right-click popup menu.</p>
 
@@ -113,13 +113,13 @@ change the item's options and position on the panel.</p><a name=
 "item-popup-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;Item popup menu</b></p><img src=
-"/images/documentation/4.0/item-popup.png" alt="Shows item popup menu.">
+"/images/documentation/4.0/item-popup.png" alt="Shows item popup menu." />
 
 <p>Global panel preferences can be changed from the XFce 4
 Settings Manager, which can be started either from a panel
 laucher, or by choosing the 'Properties...' entry from the
-right-click menu on the move handles. See "<a href=
-"#panel-settings">Panel Preferences</a>" for an
+right-click menu on the move handles. See &quot;<a href=
+"#panel-settings">Panel Preferences</a>&quot; for an
 explanation of the available options.</p>
 
 <p>&nbsp;</p>
@@ -184,7 +184,7 @@ dialog.</dd>
 
 <p><b>Figure&nbsp;4.&nbsp;Launcher item</b></p><img src=
 "/images/documentation/4.0/launcher-properties.png" alt=
-"Shows properties dialog for launcher item.">
+"Shows properties dialog for launcher item." />
 
 <h3><a name="clock-item"></a>XFce Clock</h3>
 
@@ -198,7 +198,7 @@ clock will not perform any action.</p><a name="clock-fig"></a>
 
 <p><b>Figure&nbsp;5.&nbsp;Clock item</b></p><img src=
 "/images/documentation/4.0/clock-properties.png" alt=
-"Shows properties dialog for clock item.">
+"Shows properties dialog for clock item." />
 
 <h3><a name="mailcheck-item"></a>Mail Check</h3>
 
@@ -212,7 +212,7 @@ launcher item command (see <a href="#launcher-item"
 
 <p><b>Figure&nbsp;6.&nbsp;Mailcheck item</b></p><img src=
 "/images/documentation/4.0/mailcheck-properties.png" alt=
-"Shows properties dialog for mailcheck item.">
+"Shows properties dialog for mailcheck item." />
 
 <h3><a name="switcher-item"></a>Desktop Switcher and Graphical
 Pager</h3>
@@ -228,7 +228,7 @@ scrollwheel, when you hold the mouse over it.</p><a name=
 
 <p><b>Figure&nbsp;7.&nbsp;Item without options</b></p><img src=
 "/images/documentation/4.0/nooptions-properties.png" alt=
-"Shows properties dialog for item without options. ">
+"Shows properties dialog for item without options. " />
 
 <h3><a name="systembuttons-item"></a>System Buttons</h3>
 
@@ -264,7 +264,7 @@ mouse behaviour and user interface settings.</dd>
 
 <p><b>Figure&nbsp;8.&nbsp;Systembuttons item</b></p><img src=
 "/images/documentation/4.0/systembuttons-properties.png" alt=
-"Shows properties dialog for systembuttons item. ">
+"Shows properties dialog for systembuttons item. " />
 
 <h3><a name="separator-item"></a>Separator</h3>
 
@@ -303,7 +303,7 @@ panel items.</p><a name="menuitem-fig"></a>
 
 <p><b>Figure&nbsp;9.&nbsp;Menu Item</b></p><img src=
 "/images/documentation/4.0/menuitem-properties.png" alt=
-"Shows properties dialog for menu items. ">
+"Shows properties dialog for menu items. " />
 
 <p>&nbsp;</p>
 
@@ -318,7 +318,7 @@ dialog.</p><a name="panel-settings-fig"></a>
 
 <p><b>Figure&nbsp;10.&nbsp;Panel Settings</b></p><img src=
 "/images/documentation/4.0/panel-settings.png" alt=
-"Shows properties dialog for global panel preferences. ">
+"Shows properties dialog for global panel preferences. " />
 
 <h3><a name="panel-apearance"></a>Appearance</h3>
 

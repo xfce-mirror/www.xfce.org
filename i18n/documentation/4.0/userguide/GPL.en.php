@@ -72,13 +72,13 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 0. This License applies to any program or other work which contains
 a notice placed by the copyright holder saying it may be
 distributed under the terms of this General Public License. The
-"Program", below, refers to any such program or work, and a "work
-based on the Program" means either the Program or any derivative
+&quot;Program&quot;, below, refers to any such program or work, and a &quot;work
+based on the Program&quot; means either the Program or any derivative
 work under copyright law: that is to say, a work containing the
 Program or a portion of it, either verbatim or with modifications
 and/or translated into another language. (Hereinafter, translation
-is included without limitation in the term "modification".) Each
-licensee is addressed as "you".
+is included without limitation in the term &quot;modification&quot;.) Each
+licensee is addressed as &quot;you&quot;.
 
 Activities other than copying, distribution and modification are
 not covered by this License; they are outside its scope. The act of
@@ -258,7 +258,7 @@ differ in detail to address new problems or concerns.
 
 Each version is given a distinguishing version number. If the
 Program specifies a version number of this License which applies to
-it and "any later version", you have the option of following the
+it and &quot;any later version&quot;, you have the option of following the
 terms and conditions either of that version or of any later version
 published by the Free Software Foundation. If the Program does not
 specify a version number of this License, you may choose any
@@ -278,7 +278,7 @@ NO WARRANTY
 11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO
 WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE
 LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS
-AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+AND/OR OTHER PARTIES PROVIDE THE PROGRAM &quot;AS IS&quot; WITHOUT WARRANTY
 OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT
 LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
 FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND
@@ -309,7 +309,7 @@ these terms.
 To do so, attach the following notices to the program. It is safest
 to attach them to the start of each source file to most effectively
 convey the exclusion of warranty; and each file should have at
-least the "copyright" line and a pointer to where the full notice
+least the &quot;copyright&quot; line and a pointer to where the full notice
 is found.
 
 &lt;one line to give the program's name and a brief idea of what it
@@ -351,7 +351,7 @@ commands you use may be called something other than `show w' and
 suits your program.
 
 You should also get your employer (if you work as a programmer) or
-your school, if any, to sign a "copyright disclaimer" for the
+your school, if any, to sign a &quot;copyright disclaimer&quot; for the
 program, if necessary. Here is a sample; alter the names:
 
 Yoyodyne, Inc., hereby disclaims all copyright interest in the

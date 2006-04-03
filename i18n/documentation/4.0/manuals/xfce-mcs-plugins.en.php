@@ -11,15 +11,14 @@ Plugins</h1>
 <p><tt>&lt;<a href=
 "mailto:huysmans@users.sourceforge.net">huysmans@users.sourceforge.net</a>&gt;</tt></p>This
 manual describes the <b><tt>xfce-mcs-plugins</tt></b> package,
-version 4.0<br>
-<br>
+version 4.0<br />
+<br />
 
-<p><span xmlns=
-"http://www.w3.org/TR/xhtml1/transitional">Copyright &#169; 2003
-Fran&#231;ois Le Clainche</span></p>
+<p>Copyright &#169; 2003
+Fran&#231;ois Le Clainche</p>
 
 <p>Copyright &#169; 2003 Jasper Huijsmans</p>
-<hr>
+<hr />
 
 <p><b>Table of Contents</b></p>
 
@@ -53,7 +52,7 @@ effect on the behaviour of the selected module.</p>
 Settings</h2><a name="mouse-settings-fig"></a>
 
 <p><b>Figure&nbsp;1.&nbsp;Mouse settings dialog</b></p><img src=
-"/images/documentation/4.0/mouse_settings.png" alt="Shows mouse settings dialog. ">
+"/images/documentation/4.0/mouse_settings.png" alt="Shows mouse settings dialog. " />
 
 <dl>
 <dt>Button settings</dt>
@@ -87,8 +86,8 @@ item while you are moving it with the mouse.</p>
 
 <dd>
 <p>Use this slider to choose the speed of the double-click
-action. "Slow" will increase the delay that can pass between
-mouse clicks when you double-click. "Fast" will decrease this
+action. &quot;Slow&quot; will increase the delay that can pass between
+mouse clicks when you double-click. &quot;Fast&quot; will decrease this
 delay.</p>
 </dd>
 </dl>
@@ -100,7 +99,7 @@ Settings</h2><a name="keyboard-settings-fig"></a>
 
 <p><b>Figure&nbsp;2.&nbsp;Keyboard settings
 dialog</b></p><img src="/images/documentation/4.0/keyboard_settings.png" alt=
-"Shows keyboard settings dialog. ">
+"Shows keyboard settings dialog. " />
 
 <dl>
 <dt>Select GTK key theme</dt>
@@ -114,7 +113,7 @@ Default or Emacs.</p>
 
 <dd>
 <p>When you press and hold a keyboard key, the corresponding
-action will be repeated if the "Repeat" option is
+action will be repeated if the &quot;Repeat&quot; option is
 selected.</p>
 
 <p>Delay &#8212; Use this slider to specify the delay between
@@ -128,7 +127,7 @@ action will be repeated.</p>
 <dt>Cursor</dt>
 
 <dd>
-<p>Select the "Show blinking" option if you want the cursor
+<p>Select the &quot;Show blinking&quot; option if you want the cursor
 to blink in text boxes.</p>
 
 <p>Speed &#8212; Use this slider to specify at which interval
@@ -143,7 +142,7 @@ Settings</h2><a name="ui-settings-fig"></a>
 
 <p><b>Figure&nbsp;3.&nbsp;User interface settings
 dialog</b></p><img src="/images/documentation/4.0/user_interface_settings.png" alt=
-"Shows user interface settings dialog. ">
+"Shows user interface settings dialog. " />
 
 <dl>
 <dt>Select theme</dt>
@@ -156,9 +155,9 @@ to the entire environment (all GTK2 based applications).</p>
 <dt>Font select</dt>
 
 <dd>
-<p>The "font select" button shows the font family currently
+<p>The &quot;font select&quot; button shows the font family currently
 in use in your environment. Click this button if you want to
-change it, and a "font selection" dialog will
+change it, and a &quot;font selection&quot; dialog will
 appear.</p><a name="font-dialog-fig"></a>
 
 <p><b>Figure&nbsp;4.&nbsp;Font selection
@@ -167,7 +166,7 @@ dialog</b></p><img src="/images/documentation/4.0/font_selection.png" alt=
 
 <p>This dialog allows you to choose a font family, its style
 and its size, with the help of a preview box at the bottom of
-the window. Just click the "OK" button to apply the new
+the window. Just click the &quot;OK&quot; button to apply the new
 setting and close the dialog.</p>
 </dd>
 
