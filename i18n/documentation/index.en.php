@@ -48,11 +48,11 @@
         <li><a href="/documentation/faq#starting">Getting started</a></li>
         <li><a href="/documentation/faq#installation">Installation</a></li>
         <li><a href="/documentation/faq#usage">Usage</a></li>
-        <li><a href="/documentation/faq#looks">Visual Look</a></li>
+        <li><a href="/documentation/faq#appearance">Visual Appearance</a></li>
         <li><a href="/documentation/faq#development">Development</a></li>
       </ul>
-      <h2><a href="/documentation/notes/">Release Notes </a></h2>
-    <p>All Xfce 4 release notes, ordered by version.</p>
+      <h2><a href="/documentation/changelogs/">Changelogs</a></h2>
+    <p>All Xfce 4 changelogs, ordered by version.</p>
     </td>
   </tr>
 </table>

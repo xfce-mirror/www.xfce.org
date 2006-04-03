@@ -29,7 +29,7 @@
 	<li><a href="#3-9">The left-click to get the menu on the title bar menu button seems a little slow. How do I change that?</a></li>
 </ul>
 <ul>
-	<h3 id="looks">Visual Look</h3>
+	<h3 id="appearance">Visual Appearance</h3>
 	<li><a href="#4-1">How do I set the panel layer in Xfce 4.2 and 4.4?</a></li>
 	<li><a href="#4-2">How do I enable panel transparency and windows shadows? </a></li>
 	<li><a href="#4-3">The Xfce Desktop doesn't has any shortcut icons, why? </a></li>
@@ -112,7 +112,7 @@
 	<dd>The left-button single-click menu button display speed is linked to the double click speed. If one wants the menu to appear quicker, just change the double click speed in the Xfce 4 Settings Manager Mouse properties to be faster. Or, one can right click on the title bar to get the menu displayed almost instantly without adjusting the double-click speed. The menu will display both ways.</dd>
 </dl>
 
-<h2>Visual Look</h2>
+<h2>Visual Appearance</h2>
 <dl>
 	<dt id="4-1">How do I set the panel layer in Xfce 4.2 and 4.4?</dt>
 	<dd>&nbsp;</dd>

@@ -12,7 +12,7 @@
 		</ul>
 	</li>
 	<li><a href="/documentation/requirements">Requirements</a></li>
-	<li><a href="/documentation/notes">Release Notes</a></li>
+	<li><a href="/documentation/changelogs/">Changelogs</a></li>
 	<li><a href="/documentation/archive">Archive</a>
 	  <ul>
 	    <li><a href="/documentation/4.2/">4.2 documentation</a></li>
