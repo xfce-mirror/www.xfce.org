@@ -8,7 +8,6 @@ $breadcrumbs = array (
 	"lists"			=> "Mailing Lists",
 	"irc"			=> "IRC",
 	"faq"			=> "FAQs",
-	"notes"			=> "Release Notes",
 	"userguide"		=> "User Guide",
 	"api"			=> "Developers (API)",
 	
