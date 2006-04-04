@@ -10,7 +10,7 @@
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
 <ul>
   <li><a href="<?php echo $sf_net; ?>" target="_blank">SourceForge.net</a></li>
-  <li><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a></li>
+  <li><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a> | <a href="http://www.de.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">de.xfce.org</a> </li>
   <li><a href="http://www.p0llux.be/xfce/xfce-<?php echo $version; ?>/" target="_blank">p0llux.be</a></li>
   <!-- <li><a href="http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/">http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/</a></li> -->
   <li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-<?php echo $version; ?>/" target="_blank">Hannelore</a></li>
@@ -21,7 +21,7 @@
   <li>Xfce installer
     <ul>
       <li><a href="http://prdownloads.sourceforge.net/xfce/xfce4-<?php echo $version; ?>-installer.bin?download" target="_blank">SourceForge.net</a></li>
-      <li><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">ca-us.xfce.org</a></li>
+      <li><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>/installers/" target="_blank">ca-us.xfce.org</a> | <a href="http://www.de.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">de.xfce.org</a> </li>
       <li><a href="http://www.p0llux.be/xfce/xfce-<?php echo $version; ?>/installers/" target="_blank">p0llux.be</a></li>
       <li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-<?php echo $version; ?>/installers/" target="_blank">Hannelore</a></li>
     </ul>
@@ -41,7 +41,7 @@
     <td><img src="../../images/download/fedora.png" alt="Fedora" width="40" height="40" /></td>
     <td><strong>Redhat &amp; Fedora</strong><br />
     <a href="<?php echo $sf_net; ?>" target="_blank">SourceForge.net<br />
-    </a><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a><br />
+    </a><a href="http://www.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a> | <a href="http://www.de.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">de.xfce.org</a> <br />
     <a href="http://www.p0llux.be/xfce/xfce-<?php echo $version; ?>/installers/" target="_blank">p0llux.be</a><br />
     <a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-<?php echo $version; ?>/installers/" target="_blank">Hannelore</a><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-4.2.2/" target="_blank"></a></td>
   </tr>
