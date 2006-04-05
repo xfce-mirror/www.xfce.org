@@ -2,7 +2,7 @@
 <p>Piece of text about the Xfce components</p>
 
 <h2 id="core">Core Components</h2>
-<table width="100%" border="0" cellspacing="10" cellpadding="0">
+<table width="99%" border="0" cellspacing="10" cellpadding="0">
 <!-- Blank Row
     <tr>
 	<td width="50%" valign="top">

@@ -1,7 +1,7 @@
 <h1>Xfce Mailing Lists</h1>
 <p><strong>NOTE:</strong> In order to post to these lists, you must first subscribe. </p>
 
-<table width="100%" cellpadding="2">
+<table width="99%" cellpadding="2">
     <tr>
 		<th align="left"><h3>List</h3></th>
 		<th align="left"><h3>Description</h3></th>

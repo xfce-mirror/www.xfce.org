@@ -2,7 +2,7 @@
 <p></p>
 
 <h2 id="lead">Project Lead</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <td>Olivier Fourdan [fourdan at xfce.org]</td>
   </tr>
@@ -10,7 +10,7 @@
 
 <br />
 <h2 id="core">Core Developers</h2>
-<table width="100%">
+<table width="99%">
 	<tr>
 		<th width="40%" align="left"><h3>Contributor</h3></th>
 		<th width="60%" align="left"><h3>Main Project(s)</h3></th>
@@ -66,7 +66,7 @@
 </table>
 
 <h2 id="server">Server and website </h2>
-<table width="100%">
+<table width="99%">
 	<tr>
 	  <th align="left"><h3>Contributor</h3></th>
 		<th align="left"><h3>Contribution</h3></th>
@@ -91,7 +91,7 @@
 
 <br />
 <h2 id="contributors">Contributors</h2>
-<table width="100%">
+<table width="99%">
 	<tr>
       <td colspan="2"><strong>The following people are frequent contributors of patches, ideas, bug fixes and new code:</strong></td>
   </tr>
@@ -131,7 +131,7 @@
 
 <br />
 <h2 id="translators">Translators</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th align="left"><h3>Translations supervision</h3></th>
   </tr>
@@ -142,7 +142,7 @@
     <td>Jean-Fran&ccedil;ois Wauthy [pollux at xfce.org]</td>
   </tr>
 </table>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Language</h3></th>
     <th width="80%" align="left"><h3>Contributor(s)</h3></th>

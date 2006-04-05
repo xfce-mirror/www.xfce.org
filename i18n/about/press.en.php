@@ -1,6 +1,6 @@
 <h1>Xfce in the News</h1>
 <h2>2006</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Date</h3></th>
     <th width="20%" align="left"><h3>Website</h3></th>
@@ -13,7 +13,7 @@
   </tr>
 </table>
 <h2>2005</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Date</h3></th>
     <th width="20%" align="left"><h3>Website</h3></th>
@@ -31,7 +31,7 @@
   </tr>
 </table>
 <h2>2004</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Date</h3></th>
     <th width="20%" align="left"><h3>Website</h3></th>
@@ -59,7 +59,7 @@
   </tr>
 </table>
 <h2>2003</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Date</h3></th>
     <th width="20%" align="left"><h3>Website</h3></th>
@@ -77,7 +77,7 @@
   </tr>
 </table>
 <h2>2002</h2>
-<table width="100%">
+<table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Date</h3></th>
     <th width="20%" align="left"><h3>Website</h3></th>

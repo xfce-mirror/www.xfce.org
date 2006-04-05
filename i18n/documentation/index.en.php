@@ -1,6 +1,6 @@
 <h1>Documentation</h1>
 <p>This page provides most of the Xfce documentation for both users and developers.</p>
-<table width="100%">
+<table width="99%">
   <tr>
     <td width="49%" valign="top">
       <h2><a href="/documentation/4.4/userguide/">User Guide</a></h2>
