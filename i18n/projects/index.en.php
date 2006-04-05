@@ -3,18 +3,6 @@
 
 <h2 id="core">Core Components</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
-<!-- Blank Row
-    <tr>
-	<td width="50%" valign="top">
-	    <h3><a href="/projects/"></a></h3>
-	    <p></p>
-	<td>
-	<td width="50%" valign="top">
-	    <h3><a href="/projects/"></a></h3>
-	    <p></p>
-	<td>
-    </tr>
--->
     <tr>
 	<td valign="top"><img src="../../images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></td>
 	<td width="33%" valign="top"><h3><a href="/projects/xfwm4">Window manager</a></h3>
@@ -25,49 +13,29 @@
         <p>The Xfce 4 panel is part of the Xfce 4 Desktop Environment and features program launchers, panel menus, a clock, a desktop switcher and more.</p></td>
     <td valign="top"><img src="../../images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfdesktop">Desktop manager</a></h3>
-        <!-- Minimized icons or Launcher icons (Thunar-vfs) -->
         <p>This program sets the background image and provides a root window menu, desktop icons or minimized icons and a windows list. </p></td>
     </tr>
     <tr>
 	<td valign="top"><img src="../../images/projects/xfce4-session.png" alt="xfce4-session" width="48" height="48" /></td>
 	<td width="33%" valign="top">
 	    <h3><a href="/projects/xfce4-session">Session manager</a></h3>
-	    <!-- No big changes -->
 	    <p> The session manager controls the startup and shutdown of the Xfce Desktop Environment.</p>	</td>
     <td valign="top"><img src="../../images/projects/xfprint.png" alt="xfprint" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfprint4">Printing Helper</a></h3>
-        <!-- No big changes -->
         <p>Provides a graphical frontend for printing. Xfprint can use either 
           CUPS, BSD-LPR or a file as destination, and printers are retrieved from the printing system you choosed.</p></td>
     <td valign="top"><img src="../../images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfce-mcs-manager">Settings manager</a></h3>
-        <!-- No big changes -->
         <p>This is the Xfce configuration system and it runs on the background and provides global settings information to other Xfce components </p></td>
     </tr>
     <tr>
 	<td valign="top"><img src="../../images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" /></td>
 	<td width="33%" valign="top"><h3><a href="/projects/xfce-utils">Utilities</a></h3>
-	    <!-- New run dialog?? -->
         <p>Essential utilities and scripts. Provides an &quot;about&quot; dialog, a run dialog and several important 
           scripts that are used by other packages.</p></td>
 	<td valign="top"><img src="../../images/projects/library.png" alt="library" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/libraries">Xfce Libraries</a></h3>
-        <!-- 1 piece of text about the 3 core libs -->
-        <p>The three base libraries of Xfce (libxfcegui4, libxfce4mcs and libxfce4utils) are used by almost any Xfce application. </p>
-      <!--
-	    Libxfce4util:
-	    This component is the basic utilitiy library for the Xfce Desktop Environment. Everything else is build on top of this 
-	    library and the functionality provided by it.
-	    
-	    Libxfcegui4:
-	    The basic widget library for the Xfce Desktop Environment,it contains additional widgets, that extend the basic widget 
-	    set provided by Gtk+, functions to communicate with other NET compliant Xclients and various utility functions and modules.
-	    
-	    Libxfce4mcs:
-	    This package contains the modules used in the Xfce Multi-Channel Settings (MCS) system. The manual 
-	    describes both the manager-side API - used when creating plugins for the Xfce MCS Manager - and the client-side 
-	    API - used in creation of clients that access their settings using the MCS system
-	    -->    </td>
+        <p>The three base libraries of Xfce (libxfcegui4, libxfce4mcs and libxfce4utils) are used by almost any Xfce application. </p></td>
     <td valign="top">&nbsp;</td>
     <td width="33%" valign="top">&nbsp;</td>
     </tr>
