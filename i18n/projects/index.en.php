@@ -86,7 +86,7 @@
 	  <td width="33%" valign="top"><h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 	      <p>Xfmedia is a simple, easy-to-use media player based on the xine engine. The GTK+ GUI focuses on playing and 
 	        managing audio files, but, being based on xine, supports video as well.</p></td>
-	  <td width="48" valign="top"><img src="../../images/projects/thunar.png" alt="xffm" width="48" height="48" /></td>
+	  <td width="48" valign="top"><img src="../../images/projects/xffm.png" alt="xffm" width="48" height="48" /></td>
       <td width="33%" valign="top"><h3><a href="/projects/xffm">XFFM Filemanager </a></h3>
           <p>A fast file manager, with two independent panes, integrated samba network browser and mount/umount capabilities 
             using fstab data. It includes an icon theme editor.</p></td>
