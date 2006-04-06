@@ -32,7 +32,7 @@ function RunSearch ($search_db)
 		$disc = str_replace ($keyword, "<strong>". $keyword ."</strong>", $disc);
 		
 		
-		echo "<h3>". $page ."</h3>";
+		echo '<h3><a href="'. $page .'">'. $page .'</a></h3>';
 		echo "<p>";
 		echo "...". $disc ."...";
 		echo "</p>";
