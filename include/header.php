@@ -1,4 +1,8 @@
 <?php
+/**
+ * This function creates the language bar, located
+ * right under the header.
+ **/
 function CreateLanguageBar ($languages, $lang)
 {
 	$links = "";
@@ -18,8 +22,12 @@ function CreateLanguageBar ($languages, $lang)
 	return $links;
 }
 
+/**
+ * This function creates the breadcrumbs links
+ **/
 function CreateBreadcrumbs ($uri, $lang)
 {
+	# Load breadcrumb correction/translation array
 	$file = "i18n/arrays/". $lang .".breadcrumbs.php";
 	$file_en = "i18n/arrays/en.breadcrumbs.php";
 	$breadcrumbs = array ("home" => "Home");
@@ -66,6 +74,10 @@ function CreateBreadcrumbs ($uri, $lang)
 	}
 }
 
+/**
+ * This function prepares the variables used in the header.xx.php file
+ * and loads this file
+ **/
 function PrintHeader ($uri, $lang, $layout, $languages)
 {
 	# Define style css

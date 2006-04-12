@@ -3,6 +3,7 @@
 function UserVariable ($name, $values, $default)
 {
 	$get = strtolower ($_GET[$name]);
+	
 	$expire = time()+(60*60*24*365);
 	if (in_array ($get, $values))
 	{

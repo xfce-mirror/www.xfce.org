@@ -11,6 +11,7 @@ include ("include/functions.php");
 include ("include/arrays.php");
 include ("include/header.php");
 include ("include/footer.php");
+include ("include/search.php");
 include ("include/frontpage.php");
 include ("include/content.php");
 
@@ -32,6 +33,11 @@ $uri = $_SERVER["REDIRECT_URL"];
 $uri = trim($uri, '/');
 $uri = strtolower ($uri);
 
+# Block some pages users are not allowed to see
+$forbidden = array ("footer", "frontpage", "header");
+if (in_array ($uri, $forbidden))
+	$uri = "";
+
 #Create webpage
 if ($uri == "")
 {
@@ -39,9 +45,16 @@ if ($uri == "")
 	PrintFrontpage ($lang);
 	PrintFooter ($lang);
 }
+elseif ($uri == "search")
+{
+	$search = PrepareSearch ($lang, $languages);
+	PrintHeader ($uri, $lang, $layout, $languages);
+	PrintSearch ($search, $lang, $languages);
+	PrintFooter ($lang);
+}
 else
 {
-	$content = GetContent ($uri, $lang);
+	$content = PrepareContent ($uri, $lang);
 	PrintHeader ($uri, $lang, $layout, $languages);
 	PrintContent ($content, $lang);
 	PrintFooter ($lang);

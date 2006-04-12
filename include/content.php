@@ -1,22 +1,19 @@
 <?php
 
-
-function GetContent ($uri, $lang)
+function PrepareContent ($uri, $lang)
 {
 	$dir = "i18n/" . $uri;
 	
 	if (is_dir ($dir))
 	{
-		return GetContent ( $uri . "/index", $lang );
+		return PrepareContent ( $uri . "/index", $lang );
 	}
 	else
 	{
 		# $uri = projects/xfmedia/downloads = file? => get the index page
 		$file = "i18n/" . $uri . "." . $lang . ".php";
 		$file_en = "i18n/" . $uri . ".en.php";
-		
-		
-		
+
 		if (is_file ($file))
 		{
 			$content["file"] = $file;
@@ -30,7 +27,7 @@ function GetContent ($uri, $lang)
 		{
 			# Page does not exist, return 404 page and 404 header for wget
 			header("HTTP/1.0 404 Not Found");
-			return GetContent ("404", $lang);
+			return PrepareContent ("404", $lang);
 		}
 		
 		$uri_dir = dirname ($uri);
@@ -53,11 +50,6 @@ function GetContent ($uri, $lang)
 
 function PrintSponsor () {
 	
-	/* print ('<h2 class="hidden">Sponsor</h2>
-			<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>
-			<p><a href="http://www.2x.com/" title="2X  Software Ltd" target="_blank">Developers</a> of <a href="http://www.2x.com/terminalserver" target="_blank" title="2X Terminal Server for Linux">2X Terminal Server for Linux</a> &amp; <a href="http://www.2x.com/thinclientserver" target="_blank" title="2X Thin Client Server">2X Thin Client Server</a><br />Linux <a href="http://www.2x.com/" target="_blank" title="2X  Software Ltd">thin client OS</a>, deployment &amp; management</p>
-		   '); */
-	
 	print ('<h2 class="hidden">Sponsor</h2>');
 	print ('<a href="http://www.2x.com/" target="_blank"><img src="/layout/friends/2x_large.jpg" width="160" height="50" alt="2X" border="0" /></a>');
 	print ('<p>Check out the 2X range:<br />'.
@@ -69,10 +61,8 @@ function PrintSponsor () {
 
 function PrintContent ($content)
 {
-	$file = "i18n/arrays/". $lang .".content.php";
-	
-	if (is_file ($file))
-		include ($file);
+	if (is_file ("i18n/arrays/". $lang .".content.php"))
+		include ("i18n/arrays/". $lang .".content.php");
 	else
 		include ("i18n/arrays/en.content.php");
 	
