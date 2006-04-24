@@ -43,7 +43,7 @@
         <li><a href="/documentation/4.4/manuals/xffm">Filemanager</a></li>
         <li><a href="/documentation/4.4/manuals/xfce4-appfinder">Application Finder</a></li>
     </ul>
-      <h2><a href="documentation/faq">FAQs</a></h2>
+      <h2><a href="/documentation/faq">FAQs</a></h2>
       <ul>
         <li><a href="/documentation/faq#starting">Getting started</a></li>
         <li><a href="/documentation/faq#installation">Installation</a></li>
