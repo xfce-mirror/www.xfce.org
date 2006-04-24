@@ -56,13 +56,19 @@
 	<dd>You really didn't see??? You got to be joking... it's a mouse for all kind of obvious reasons like World Domination and other monsters out there</dd>
 	
 	<dt id="1-4">On what platforms does Xfce currently run?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Xfce has been developped with versatility in mind and currently is supported on Linux, Solaris and BSD.</dd>
 </dl>
 
 <h2>Installation</h2>
 <dl>
 	<dt id="2-1">How do I install Xfce?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Xfce can be installed in at least three different ways.
+		<ul>
+		  <li> From source code, building the environment by yourself </li>
+		  <li> Use the package manager of your distro, it will provide you the precompiled binaries or install instructions to build from source </li>
+      <li> Use the graphical installer provided by <a href="http://www.os-cillation.com/index.php?id=31&L=5">os-cillation</a>. Follow instructions on <a href="http://www.os-works.com/documentation/xfce-installers/4.2.1/xfce-installer/">this</a> page to use the installer.</li>
+		</ul>
+	</dd>
 	
 	<dt id="2-2">What is the &quot;use startup notification&quot; option?</dt>
 	<dd>If you select this option, the window-manager will show an hourglass while the program is loading. The startup-notification libraries have to be installed. They are probably available with your distibution. This feature is only supported by modern applications (Gtk2.x and Qt3.x based).
@@ -70,11 +76,27 @@
 		Please note that the API is not yet frozen, and therefore Xfce 4 is only garantied to work with the startup-notification library version &gt;= 0.5.</dd>
 	
 	<dt id="2-3">The graphical installer fails with &quot;C++ preprocessor fails sanity check&quot;</dt>
-	<dd>&nbsp;</dd>
+	<dd>This error message tells you that the configure  script was unable to verify that the C++ preprocessor is setup properly on your system. You can most probably fix this problem by installing the g++ package for your distribution.</dd>
 	
 	<dt id="2-4">The graphical installer fails with &quot;Unable to connect to Xserver&quot;</dt>
-	<dd>&nbsp;</dd>
-	
+	<dd> For some reason the installation wizard is not able to connect to an Xserver, which is required for the installer. This usually happens when you use su, and su in turn doesn't pass the DISPLAY environment variable properly. Try to use the commands:
+	<br />
+	<br />
+	  <code>
+	    $ xhost +localhost <br />
+	    $ su --preserve-environment <br />
+	    # ./xfce4-4.2.1.1-installer.bin <br />
+	  </code>
+		<br />
+	  or 
+		<br />
+		<br />
+			<code>
+			$ xhost +localhost <br />
+			$ su <br />
+				# env DISPLAY=:0 ./xfce4-4.2.1.1-installer.bin <br /><br />
+			</code>
+      instead (replace :0 with your display name if required).</dd>
 	<dt id="2-5">Is it possible to use Xfce with DM's?</dt>
 	<dd>&nbsp;</dd>
 	
