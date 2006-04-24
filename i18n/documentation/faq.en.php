@@ -9,7 +9,7 @@
 </ul>
 <ul>
 	<h3 id="installation">Installation</h3>
-	<li><a href="#2-1">How do I installate Xfce? </a></li>
+	<li><a href="#2-1">How do I install Xfce? </a></li>
 	<li><a href="#2-2">What is the &quot;use startup notification&quot; option?</a></li>
 	<li><a href="#2-3">The graphical installer fails with &quot;C++ preprocessor fails sanity check&quot;</a></li>
 	<li><a href="#2-4">The graphical installer fails with &quot;Unable to connect to Xserver&quot;</a></li>
@@ -53,7 +53,7 @@
 	<dd>The name Xfce originally stood for XForms Common Environment, but since then, Xfce war rewritten twice and doesn't use XForms toolkit anymore. The name survived, but is no longer capitalized as "XFce" , but "Xfce". Currently the acronym doesn't stand for anything any more.</dd>
 	
 	<dt id="1-3">What does the logo symbolize?</dt>
-	<dd>&nbsp;</dd>
+	<dd>You really didn't see??? You got to be joking... it's a mouse for all kind of obvious reasons like World Domination and other monsters out there</dd>
 	
 	<dt id="1-4">On what platforms does Xfce currently run?</dt>
 	<dd>&nbsp;</dd>
@@ -61,7 +61,7 @@
 
 <h2>Installation</h2>
 <dl>
-	<dt id="2-1">How do I installate Xfce?</dt>
+	<dt id="2-1">How do I install Xfce?</dt>
 	<dd>&nbsp;</dd>
 	
 	<dt id="2-2">What is the &quot;use startup notification&quot; option?</dt>
