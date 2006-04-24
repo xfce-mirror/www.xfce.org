@@ -47,10 +47,10 @@
 <h2>Getting started</h2>
 <dl>
 	<dt id="1-1">What is &quot;Xfce&quot; and why should I use it?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Xfce is a desktop environment for Unix and other Unix-like platforms, such as Linux, Solaris or BSD. The design philosophy "Designed for productivity, it loads and executes applications fast, while conserving system resources" (Olivier Fourdan) should appeal anyone looking for a fast, modern and efficient working environment for his *NIX box.</dd>
 	
 	<dt id="1-2">How is Xfce pronounced and what does it mean?</dt>
-	<dd>&nbsp;</dd>
+	<dd>The name Xfce originally stood for XForms Common Environment, but since then, Xfce war rewritten twice and doesn't use XForms toolkit anymore. The name survived, but is no longer capitalized as "XFce" , but "Xfce". Currently the acronym doesn't stand for anything any more.</dd>
 	
 	<dt id="1-3">What does the logo symbolize?</dt>
 	<dd>&nbsp;</dd>
