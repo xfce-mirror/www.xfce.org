@@ -102,30 +102,30 @@
 	<p><strong>Setting up GDM</strong><br />
 	If you installed Xfce system-wide and you want to use the GNOME Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach gdm how to start the Xfce session. This is a sample desktop file, Xfce.desktop:<br />
 	<code>
-	[Desktop Entry]
-	Encoding=UTF-8
-	Name=Xfce 4.4 Session
-	Comment=Use this session to run Xfce 4.4 as your desktop environment
-	Exec=/usr/local/bin/startxfce4
-	Icon=/usr/local/share/pixmaps/xfce4_xicon1.png
-	Type=Application
+	[Desktop Entry]<br />
+	Encoding=UTF-8<br />
+	Name=Xfce 4.4 Session<br />
+	Comment=Use this session to run Xfce 4.4 as your desktop environment<br />
+	Exec=/usr/local/bin/startxfce4<br />
+	Icon=/usr/local/share/pixmaps/xfce4_xicon1.png<br />
+	Type=Application<br />
 	</code><br/>
 	It is usually enough to simply copy the example file to the Session directory used by gdm; this directory is usually located in /etc/dm/Sessions, /etc/X11/gdm/Sessions, /usr/share/xsessions, /usr/X11/share/gnome/xsessions or some other location, refer to the documentation of your system for details. You need to restart gdm after you created the file.<br />
 	</p>
 	<p>
 	<strong>Setting up KDM</strong><br />
 	If you installed Xfce system-wide and you want to use the KDE Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach kdm how to start the Xfce session. <br />
-	First you need to find where kdm searches for its .desktop files:
-	<code>located kde.desktop</code><br />
+	First you need to find where kdm searches for its .desktop files:<br />
+	<code>locate kde.desktop</code><br />
 	Common locations are /usr/share/apps/kdm/sessions or /usr/local/share/kdm/sessions. Once you found the kdm session directory, you need to create a new file Xfce.desktop with the following:<br />
 	<code>
-	[Desktop Entry]
-	Encoding=UTF-8
-	Type=XSession
-	Exec=/usr/local/bin/startxfce4
-	TryExec=/usr/local/bin/startxfce4
-	Name=Xfce 4.4
-	Comment=The Xfce 4.4 Desktop Environment
+	[Desktop Entry]<br />
+	Encoding=UTF-8<br />
+	Type=XSession<br />
+	Exec=/usr/local/bin/startxfce4<br />
+	TryExec=/usr/local/bin/startxfce4<br />
+	Name=Xfce 4.4<br />
+	Comment=The Xfce 4.4 Desktop Environment<br />
 	</code>
 	</dd>
 	
@@ -135,9 +135,9 @@
 	<li>You can just login with the command <code>startxfce4</code></li>
 	<li>You put the following in your .bash_profile/.bashrc if you want that Xfce is started automatically when you login on tty1:<br />
 	<code>
-	if [ "$(tty)" = "/dev/tty1" -o  "$(tty)" = "/dev/vc/1" ] ; then
-	  startxfce4
-	fi
+	if [ "$(tty)" = "/dev/tty1" -o  "$(tty)" = "/dev/vc/1" ] ; then<br />
+	startxfce4<br />
+	fi<br />
 	</code>
 	</li>
 	</ul>
