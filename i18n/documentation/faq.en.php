@@ -99,6 +99,7 @@
       instead (replace :0 with your display name if required).</dd>
 	<dt id="2-5">Is it possible to use Xfce with DM's?</dt>
 	<dd>Sure, both gdm and kdm can start Xfce. 
+	<strong>TEst de strong</strong>
 <p>Testing Testing Testing, i really need to test this....</p>
 <h1>test</h1>
 <h2>testh2</h2>
