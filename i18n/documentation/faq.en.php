@@ -14,7 +14,7 @@
 	<li><a href="#2-3">The graphical installer fails with &quot;C++ preprocessor fails sanity check&quot;</a></li>
 	<li><a href="#2-4">The graphical installer fails with &quot;Unable to connect to Xserver&quot;</a></li>
 	<li><a href="#2-5">Is it possible to use Xfce with DM's? </a></li>
-	<li><a href="#2-6">Is it possible to start Xfce when I manual login? </a></li>
+	<li><a href="#2-6">Is it possible to start Xfce when I login on the console? </a></li>
 </ul>
 <ul>
 	<h3 id="usage">Usage</h3>
@@ -98,15 +98,52 @@
 			</code>
       instead (replace :0 with your display name if required).</dd>
 	<dt id="2-5">Is it possible to use Xfce with DM's?</dt>
-	<dd>Sure, both gdm and kdm can start Xfce. 
-	<strong>TEst de strong</strong>
-<p>Testing Testing Testing, i really need to test this....</p>
-<h1>test</h1>
-<h2>testh2</h2>
+	<dd>Sure, both gdm and kdm can start Xfce. <br />
+	<p><strong>Setting up GDM</strong><br />
+	If you installed Xfce system-wide and you want to use the GNOME Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach gdm how to start the Xfce session. This is a sample desktop file, Xfce.desktop:<br />
+	<code>
+	[Desktop Entry]
+	Encoding=UTF-8
+	Name=Xfce 4.4 Session
+	Comment=Use this session to run Xfce 4.4 as your desktop environment
+	Exec=/usr/local/bin/startxfce4
+	Icon=/usr/local/share/pixmaps/xfce4_xicon1.png
+	Type=Application
+	</code><br/>
+	It is usually enough to simply copy the example file to the Session directory used by gdm; this directory is usually located in /etc/dm/Sessions, /etc/X11/gdm/Sessions, /usr/share/xsessions, /usr/X11/share/gnome/xsessions or some other location, refer to the documentation of your system for details. You need to restart gdm after you created the file.<br />
+	</p>
+	<p>
+	<strong>Setting up KDM</strong><br />
+	If you installed Xfce system-wide and you want to use the KDE Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach kdm how to start the Xfce session. <br />
+	First you need to find where kdm searches for its .desktop files:
+	<code>located kde.desktop</code><br />
+	Common locations are /usr/share/apps/kdm/sessions or /usr/local/share/kdm/sessions. Once you found the kdm session directory, you need to create a new file Xfce.desktop with the following:<br />
+	<code>
+	[Desktop Entry]
+	Encoding=UTF-8
+	Type=XSession
+	Exec=/usr/local/bin/startxfce4
+	TryExec=/usr/local/bin/startxfce4
+	Name=Xfce 4.4
+	Comment=The Xfce 4.4 Desktop Environment
+	</code>
 	</dd>
 	
-	<dt id="2-6">Is it possible to start Xfce when I manual login?</dt>
-	<dd>&nbsp;</dd>
+	<dt id="2-6">Is it possible to start Xfce when I login on the console?</dt>
+	<dd>There are two different ways to do this:<br />
+	<ul>
+	<li>You can just login with the command <code>startxfce4</code></li>
+	<li>You put the following in your .bash_profile/.bashrc if you want that Xfce is started automatically when you login on tty1:<br />
+	<code>
+	if [ "$(tty)" = "/dev/tty1" -o  "$(tty)" = "/dev/vc/1" ] ; then
+	  startxfce4
+	fi
+	</code>
+	</li>
+	</ul>
+	
+	
+	</dd>
 </dl>
 
 <h2>Usage</h2>
