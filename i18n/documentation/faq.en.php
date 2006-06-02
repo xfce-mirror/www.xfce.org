@@ -32,7 +32,7 @@
 	<h3 id="appearance">Visual Appearance</h3>
 	<li><a href="#4-1">How do I set the panel layer in Xfce 4.2 and 4.4?</a></li>
 	<li><a href="#4-2">How do I enable panel transparency and windows shadows? </a></li>
-	<li><a href="#4-3">The Xfce Desktop doesn't has any shortcut icons, why? </a></li>
+	<li><a href="#4-3">My Xfce Desktop doesn't has any shortcut icons, why? </a></li>
 	<li><a href="#4-4">The gtk-xfce-engine themes do not appear in the &quot;user interface&quot; settings dialog. </a></li>
 	<li><a href="#4-5">Is it possible to change the icon used by the iconbox or taskbar for a given application?</a></li>
 	<li><a href="#4-6">I've installed a plugin for the panel, but the indicators don't use different colors. What can I do?</a></li>
@@ -98,7 +98,11 @@
 			</code>
       instead (replace :0 with your display name if required).</dd>
 	<dt id="2-5">Is it possible to use Xfce with DM's?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Sure, both gdm and kdm can start Xfce. 
+<p>Testing Testing Testing, i really need to test this....</p>
+<h1>test</h1>
+<h2>testh2</h2>
+	</dd>
 	
 	<dt id="2-6">Is it possible to start Xfce when I manual login?</dt>
 	<dd>&nbsp;</dd>
@@ -142,7 +146,7 @@
 	<dt id="4-2">How do I enable panel transparency and windows shadows?</dt>
 	<dd>&nbsp;</dd>
 	
-	<dt id="4-3">The Xfce Desktop doesn't has any shortcut icons, why?</dt>
+	<dt id="4-3">My Xfce Desktop doesn't has any shortcut icons, why?</dt>
 	<dd>&nbsp;</dd>
 	
 	<dt id="4-4">The gtk-xfce-engine themes do not appear in the &quot;user interface&quot; settings dialog</dt>
