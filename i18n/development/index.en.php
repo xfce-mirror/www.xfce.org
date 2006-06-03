@@ -1,5 +1,5 @@
 <h1>Development</h1>
-<p>Xfce is a lightweight desktop environment, designed for productivity.</p>
+<p></p>
 <h2 id="involved">Getting involved</h2>
 <p>If you are looking for a way to contribute to Xfce, 
 please concider joining the <a href="../community/lists">mailing lists</a> and <a href="http://forum.xfce.org">forum</a> regarding one of these items.</p>
