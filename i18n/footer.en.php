@@ -10,6 +10,7 @@
 					<li><a href="http://www.os-cillation.com/" title="os-cillation" target="_blank"><img src="/layout/friends/os-cillation.jpg" alt="os-cillation" border="1" /></a></li>
 					<li><a href="http://sourceforge.net/" title="SourceForge.net" target="_blank"><img src="/layout/friends/sf.jpg" alt="SourceForge.net" border="1" /></a></li>
 					<li><a href="http://www.lunar-linux.org/" title="Lunar-Linux" target="_blank"><img src="/layout/friends/lunarlinux.jpg" alt="Lunar-Linux" border="1" /></a></li>
+					<li><a href="http://www.zenwalk.org/" title="Zenwalk Linux" target="_blank"><img src="/layout/friends/zenwalk.jpg" alt="Zenwalk Linux" border="1" /></a></li>
 					<li><a href="http://www.web-adept.nl/" title="Web-Adept" target="_blank"><img src="/layout/friends/web_adept.jpg" alt="Web-Adept" border="1" /></a></li>
 				</ul>
 			</div>
