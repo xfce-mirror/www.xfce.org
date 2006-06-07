@@ -49,7 +49,7 @@
 	    <p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for Mousepad was to provide 
 	      printing support, which would have been difficult for Leafpad for various reasons.</p></td>
 	<td width="48" valign="top"><img src="../../images/projects/installit.png" alt="installit" width="48" height="48" /></td>
-    <td width="33%" valign="top"><h3><a href="/projects/intallit/">Installit</a></h3>
+    <td width="33%" valign="top"><h3><a href="/projects/installit/">Installit</a></h3>
         <p>InstallIt is the official approach of transforming the famous Xfce installer into a more generic 
           software management and installation tool. It is written in Python using Python-GTK.</p></td>
     <td width="48" valign="top"><img src="../../images/projects/terminal.png" alt="terminal" width="48" height="48" /> </td>
