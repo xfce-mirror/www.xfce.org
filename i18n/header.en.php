@@ -39,6 +39,7 @@
 						<p>Layout: <a href="?layout=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
 						<a href="?layout=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
 					</div>
+					<!--
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
 						<form action="/search" method="post">
@@ -46,6 +47,7 @@
 							<input name="FromHeader" type="submit" class="hidden" id="submit" value="Search" />
 						</form>
 					</div>
+					-->
 				</div>
 				<div id="header-menu">
 					<h2 class="hidden">Site navigation</h2>
