@@ -2,7 +2,7 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="#" title="Downlaod Xfce 4.4">Download Xfce 4.4</a></h2>
+				<h2><a href="#" title="Download Xfce 4.4">Download Xfce 4.4</a></h2>
 			</div>
 			<div class="notes">
 				<p><a href="#" title="Read the release notes">Release Notes</a><span class="grey"> | </span><a href="#" title="What's new in Xfce 4.4">Tour</a></p>
