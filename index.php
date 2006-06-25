@@ -11,7 +11,6 @@ include ("include/functions.php");
 include ("include/arrays.php");
 include ("include/header.php");
 include ("include/footer.php");
-include ("include/search.php");
 include ("include/frontpage.php");
 include ("include/content.php");
 
@@ -43,13 +42,6 @@ if ($uri == "")
 {
 	PrintHeader ($uri, $lang, $layout, $languages);
 	PrintFrontpage ($lang);
-	PrintFooter ($lang);
-}
-elseif ($uri == "search")
-{
-	$search = PrepareSearch ($lang, $languages);
-	PrintHeader ($uri, $lang, $layout, $languages);
-	PrintSearch ($search, $lang, $languages);
 	PrintFooter ($lang);
 }
 else
