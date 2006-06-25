@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
-	<META name="verify-v1" content="cSLdw4tBCdH+3VZ59li/DF8AjMeKqiUEEr+RKUr1i/I=" />
 	<title>Xfce - Desktop Environment</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
@@ -40,15 +39,16 @@
 						<p>Layout: <a href="?layout=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normal</a> / 
 						<a href="?layout=liquid" title="Fluid Layout (100% Width)">Liquid</a></p>
 					</div>
-					<!--
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
-						<form action="/search" method="post">
-							<input name="q" type="text" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
-							<input name="FromHeader" type="submit" class="hidden" id="submit" value="Search" />
+						<form method="get" action="http://ww.google.com/search" name="g">
+							<input type="text" name="q" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
+							<input type="hidden" name="as_sitesearch" value="xfce.org" />
+							<input type="hidden" name="num" value="30" />
+							<input type="hidden" name="lr" value="lang_<?php echo $lang ?>" />
+							<input type="submit" name="btnG" class="hidden" id="submit" value="Search" />
 						</form>
 					</div>
-					-->
 				</div>
 				<div id="header-menu">
 					<h2 class="hidden">Site navigation</h2>
