@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
+	<META name="verify-v1" content="cSLdw4tBCdH+3VZ59li/DF8AjMeKqiUEEr+RKUr1i/I=" />
 	<title>Xfce - Desktop Environment</title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
