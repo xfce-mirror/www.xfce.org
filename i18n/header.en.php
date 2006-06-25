@@ -42,7 +42,7 @@
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
 						<form method="get" action="http://ww.google.com/search" name="g">
-							<input type="text" name="q" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
+							<input type="text" class="searchbox" name="q" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
 							<input type="hidden" name="sitesearch" value="xfce.org" />
 							<input type="hidden" name="num" value="30" />
 							<input type="hidden" name="lr" value="lang_<?php echo $lang ?>" />

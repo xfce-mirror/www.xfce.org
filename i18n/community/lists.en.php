@@ -43,3 +43,12 @@
 		<td bgcolor="#EEEEEE">A mailing list for development of the Thunar file manager</td>
     </tr>
 </table>
+<p></p>
+<h1>Search the mailing lists</h1>
+<p>
+    <form method="get" action="http://www.google.com/search">
+	<input type="text" name="q" size="47" class="searchbox" maxlength="255" value="">
+	<input type="hidden" name="sitesearch" value="foo-projects.org/pipermail" />
+	<input type="submit" name="btnG" VALUE="Search">
+    </form>
+</p>
