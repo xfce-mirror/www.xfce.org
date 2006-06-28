@@ -164,7 +164,7 @@
 	<dd>&nbsp;</dd>
 	
 	<dt id="3-6">How do I get numlock to start on login?</dt>
-	<dd>&nbsp;</dd>
+	<dd>There are two possibilities to achieve this. Or you should use a display manager that turns the numlock on (eg. gdm, check the settings) or you can use a little program called numlockx <a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>adding <code>numlockx on</code> in your .xinitrc will do the job.</dd>
 	
 	<dt id="3-7">Is it possible to use Media keys in the Shortcut Editor?</dt>
 	<dd>&nbsp;</dd>
