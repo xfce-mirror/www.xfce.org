@@ -12,5 +12,5 @@
 			<li><a href="http://foo-projects.org/~pollux/xfce-snapshots/" target="_blank" class="external">Daily Snapshots</a></li>
 		</ul>
 	</li>
-	<li><a href="http://xfce-goodies.berlios.de" target="_blank" class="external">Panel Plugins</a></li>
+	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugins</a></li>
 </ul>
