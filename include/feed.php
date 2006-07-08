@@ -14,6 +14,9 @@ function ParseRssFeed ($lang)
     else
         include ("i18n/arrays/en.feed.php");
     
+    # Set header type
+    header ('Content-type: application/xml; charset="utf-8"', true);
+    
     # Rss/Xml basic stuff
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
          "<rss version=\"2.0\">\n".
@@ -46,8 +49,5 @@ function ParseRssFeed ($lang)
     # Close
     echo "    </channel>\n".
          "</rss>";
-    
-    # Set header type
-    header ('Content-type: application/xml; charset="utf-8"', true);
 }
 ?>
