@@ -51,6 +51,12 @@
       <a href="http://www.students.oamk.fi/~olilju00/xfce4/" target="_blank">http://www.students.oamk.fi/~olilju00/xfce4/</a></td>
   </tr>
   <tr>
+    <td><img src="../../images/download/mandriva.png" alt="Mandriva" width="40" height="40" /></td>
+    <td><strong>Mandriva &amp; Mandrake</strong><br />
+      <a href="ftp://mandrivauser.de/rpm/GPL/" target="_blank">ftp://mandrivauser.de/rpm/GPL/</a><br />
+      <a href="http://www.eslrahc.com/" target="_blank">http://www.eslrahc.com/</a></td>
+  </tr>
+  <tr>
     <td><img src="../../images/download/solaris.png" alt="Solaris" width="40" height="40" /></td>
     <td><strong>Solaris SPARC/x86/AMD</strong><br />
       <a href="http://www.blastwave.org" target="_blank">http://www.blastwave.org</a></td>
