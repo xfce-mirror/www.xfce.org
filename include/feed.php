@@ -19,7 +19,10 @@ function ParseRssFeed ($lang)
     
     # Rss/Xml basic stuff
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
-         "<rss version=\"2.0\">\n".
+         "<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" ".
+	      "xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" ".
+	      "xmlns:dc=\"http://purl.org/dc/elements/1.1/\" ".
+	      "version=\"2.0\">\n".
          "    <channel>\n".
          "        <title>$title</title>\n".
          "        <description>$discription</description>\n".
