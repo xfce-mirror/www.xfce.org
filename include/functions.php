@@ -1,5 +1,16 @@
 <?php
 
+function CreateDate ($date, $format, $locale=false)
+{
+    if (($unix = strtotime ($date)) === false)
+        return $date;
+
+    if ($locale)
+        return strftime ($format, $unix);
+    else
+        return date ($format, $unix);
+}
+
 function UserVariable ($name, $values, $default)
 {
 	$get = strtolower ($_GET[$name]);

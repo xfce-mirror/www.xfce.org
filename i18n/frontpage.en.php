@@ -2,7 +2,7 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="#" title="Download Xfce 4.4">Download Xfce 4.4</a></h2>
+				<h2><a href="/download/" title="Download Xfce 4.4">Download Xfce 4.4</a></h2>
 			</div>
 			<div class="notes">
 				<p><a href="#" title="Read the release notes">Release Notes</a><span class="grey"> | </span><a href="#" title="What's new in Xfce 4.4">Tour</a></p>
@@ -20,15 +20,12 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
+			<h2><a href="/?feed=rss2&lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
 			<?php
-				if ($frontpage["xfce"])
-					include $frontpage["xfce"];
-				else
-					echo "Something is wrong with the news files";
+				echo $frontpage["news"];
 			?>
 			<div class="readmore">
-				<a href="#" title="View the news archive...">archive</a>
+				<a href="/about/news" title="Read all Xfce news...">read more</a>
 			</div>
 		</div>
 	</div>
@@ -36,29 +33,37 @@
 		<div id="front-borders">
 			<div id="front-projects-content">
 				<h2>Xfce projects</h2>
-				<?php
-					if ($frontpage["projects"])
-					include $frontpage["projects"];
-				else
-					echo "Something is wrong with the project files";
-				?>
+				<ul>
+					<li><a href="#">Thunar</a><br />
+						<span class="grey">Thunar is a new modern file manager for the Xfce Desktop Environment.</span>
+					</li>
+					<li><a href="#">Mousepad</a><br />
+						<span class="grey">Mousepad is a simple, fast and easy-to-use text editor for the Xfce desktop environment, based on the Leafpad text editor.</span>
+					</li>
+					<li><a href="#">Orage</a><br />
+						<span class="grey">Calendar for the Xfce project.</span>
+					</li>
+					<li><a href="#">Xfburn</a><br />
+						<span class="grey">CD and DVD burning application.</span>
+					</li>
+					<li><a href="#">Xfmedia</a><br />
+						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
+					</li>
+				</ul>
 				<div class="readmore">
-					<a href="#" title="View all Xfce projects...">more projects</a>
+					<a href="/projects/" title="View all Xfce projects...">more projects</a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div id="front-blog">
 		<div id="front-blog-content">
-			<h2><a href="#"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
+			<h2><a href="http://blog.xfce.org/?feed=rss2"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce Blog'..." width="12" height="12" border="0" align="right" /></a>Developers Blog</h2>
 			<?php
-				if ($frontpage["blog"])
-					include $frontpage["blog"];
-				else
-					echo "Something is wrong with the blog files";
+				echo $frontpage["blog"];
 			?>
 			<div class="readmore">
-				<a href="#" title="View the blog archive...">archive</a>
+				<a href="http://blog.xfce.org/" title="View the entire Xfce blog...">visit blog</a>
 			</div>
 			<h2>Shortcuts</h2>
 			<ul>

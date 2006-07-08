@@ -15,8 +15,8 @@
 		
 	</style>
 
-	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/news.rdf" />
-	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="/blog.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&lang=<?php echo $lang ?>" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 
 </head>
 <body>

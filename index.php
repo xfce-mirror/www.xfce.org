@@ -13,6 +13,8 @@ include ("include/header.php");
 include ("include/footer.php");
 include ("include/frontpage.php");
 include ("include/content.php");
+include ("include/feed.php");
+include ("include/news.php");
 
 # Load session valiables
 session_start();
@@ -26,6 +28,17 @@ if (!in_array ($userlang, array_keys($languages)))
 $layout = UserVariable ("layout", $layouts, "normal");
 $lang = UserVariable ("lang", array_keys($languages), $userlang);
 $lastvisit = UserLastVisit ();
+
+# Set the locale for the date() function
+setlocale (LC_ALL, $languages[$lang][2]);
+
+# Check for feed request
+if ($_GET["feed"] == "rss2")
+{
+    # Show feed xml and exit
+    ParseRssFeed ($lang);
+    exit;
+}
 
 # Get relative url
 $uri = $_SERVER["REDIRECT_URL"];
@@ -41,7 +54,7 @@ if (in_array ($uri, $forbidden))
 if ($uri == "")
 {
 	PrintHeader ($uri, $lang, $layout, $languages);
-	PrintFrontpage ($lang);
+	PrintFrontpage ($lang, $lastvisit);
 	PrintFooter ($lang);
 }
 else
