@@ -9,8 +9,8 @@
         items available by default, like application launchers with detachable 
         menus, a graphical pager, a tasklist, a clock, a system tray, and a 
         show/hide desktop switcher. It offers an easy way to add an item, using
-        a dialog (shown on the left) and move them between the panels. It's 
-        compatible with the numerous plugins available from the <a 
+        a dialog supporting drag and drop, and move them between different 
+        panels. It's compatible with the numerous plugins available from the <a 
         href="http://goodies.xfce.org/">Xfce Goodies Project page</a>.</p>
     </td>
   </tr>
@@ -24,9 +24,41 @@
 
 <h2>Features</h2>
 <ul>
-  <li>Good features</li>
-  <li>Doing amazing stuff</li>
-  <li>...</li>
+  <li>Multiple panels</li>
+  <li>Customizable appearance</li>
+  <ul>
+    <li>Position fixed or moveable</li>
+    <li>Normal or full size</li>
+    <li>Hide automatically</li>
+  </ul>
+  <li>Internal plugins</li>
+  <ul>
+    <li>Xfce menu</li>
+    <li>Launchers</li>
+    <li>Task list</li>
+    <li>Clock</li>
+    <li>System tray</li>
+    <li>Pager</li>
+    <li>Show desktop</li>
+    <li>Quit / Lock screen</li>
+  </ul>
+  <li>External plugins</li>
+  <ul>
+    <li>System and network monitor</li>
+    <li>Clipboard manager</li>
+    <li>Notes plugin<!-- :p --></li>
+    <li>Command line entry</li>
+    <li>Date and time</li>
+    <li>Useful plugins for a laptop:</li>
+    <ul>
+      <li>Battery monitor</li>
+      <li>Wi-Fi status</li>
+      <li>CPU frequency monitor</li>
+    </ul>
+  <li>See more at 
+    <a href="http://goodies.xfce.org/projects/panel-plugins/start" 
+       target="_blank" class="external">goodies.xfce.org</a></li>
+  </ul>
 </ul>
 
 <h2>Screenshots</h2>
