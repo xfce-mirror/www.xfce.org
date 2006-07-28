@@ -7,11 +7,10 @@
       <p>The Xfce 4 window manager. It manages the placement of application
         windows on the screen, provides beautiful window decorations, manages 
         workspaces or virtual desktops, and natively supports multihead 
-        mode. It provides its own compositing manager (a manager for the Xorg 
-        Composite extension) for true transparency and shadows, and a Window 
-        Manager Tweaks interface for advanced options. The Xfce 4 window manager
-        also includes a keyboard shorcuts editor for user specific 
-        commands.</p>
+        mode. It provides its own compositing manager (from the Xorg Composite 
+        extension) for true transparency and shadows, and a Window Manager 
+        Tweaks interface for advanced options. The Xfce 4 window manager also 
+        includes a keyboard shorcuts editor for user specific commands.</p>
     </td>
     <td valign="top" width="145">
       <p><img src="/images/projects/xfwm4/xfwm4-tiny.png" alt="xfwm4" /></p>
@@ -22,12 +21,11 @@
 <h2>Features</h2>
 <ul>
   <li>Native Multihead support for Xinerama and Twinview</li>
-  <li>Transparent Pixmap and PNG support for window decoration</li>
-  <li>Shortcut editor for window and workspace manipulations, as for user 
+  <li>Many image support for window decoration</li>
+  <li>Shortcut editor for windows and workspaces manipulations, and for user 
     specific commands</li>
-  <li>Advanced focus possibilities (follow mouse, raise on click/timeout, 
-    focus prevention, ...)</li>
-  <li>Window resistance or magnetization</li>
+  <li>Advanced focus possibilities</li>
+  <li>Window and/or desktop resistance or magnetization</li>
   <li>Inbuilt compositor for transparent windows and/or drop-shadows</li>
   <li>Mouse scroll over the desktop to change workspace</li>
 </ul>

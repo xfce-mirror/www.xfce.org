@@ -9,22 +9,25 @@
 
 <h2>Features</h2>
 <ul>
-  <li>Background</li>
-  <ul>
-    <li>Plain color and gradient colors</li>
-    <li>Image with adjustable saturation</li>
-  </ul>
-  <li>Menu</li>
-  <ul>
-    <li>Right click for default Xfce menu</li>
-    <li>Middle click for application list</li>
-    <li>Editable</li>
-  </ul>
-  <li>Icons</li>
-  <ul>
-    <li>Iconified windows</li>
-    <li>Files and desktop entries (application launchers)</li>
-  </ul>
+  <li>Background
+    <ul>
+      <li>Plain color and gradient</li>
+      <li>Image with adjustable brightness</li>
+    </ul>
+  </li>
+  <li>Menu
+    <ul>
+      <li>Right click for default Xfce menu</li>
+      <li>Middle click for application list</li>
+      <li>Editable</li>
+    </ul>
+  </li>
+  <li>Icons
+    <ul>
+      <li>Iconified windows</li>
+      <li>Files and desktop entries (application launchers)</li>
+    </ul>
+  </li>
 </ul>
 
 <h2>Screenshots</h2>

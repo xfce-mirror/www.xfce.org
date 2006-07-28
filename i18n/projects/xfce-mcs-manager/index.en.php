@@ -11,26 +11,26 @@
 
 <h2>Features</h2>
 <ul>
-  <li>Basic hardware components</li>
-  <ul>
-    <li>Display: resolution, gamma</li>
-    <li>Mouse: bahavior, cursor theme</li>
-    <li>Keyboard: typing settings, shortcut editor, accessibility</li>
-    <li>Sound: device and controls selector</li>
-  </ul>
-</ul>
-<ul>
-  <li>Xfce components</li>
-  <ul>
-    <li>Theme and Decoration</li>
-    <li>Desktop, background</li>
-    <li>File Manager</li>
-    <li>Calendar</li>
-    <li>Preferred Applications</li>
-    <li>Panel</li>
-    <li>Sessions and Startup</li>
-    <li>Splash</li>
-  </ul>
+  <li>Basic hardware components
+    <ul>
+      <li>Display</li>
+      <li>Mouse</li>
+      <li>Keyboard</li>
+      <li>Sound</li>
+    </ul>
+  </li>
+  <li>Xfce components
+    <ul>
+      <li>Theme and Decoration</li>
+      <li>Desktop, background</li>
+      <li>Panel</li>
+      <li>File Manager</li>
+      <li>Calendar</li>
+      <li>Splashscreen at startup</li>
+      <li>Sessions and Startup</li>
+      <li>Preferred Applications</li>
+    </ul>
+  </li>
 </ul>
 
 <h2>Developers</h2>

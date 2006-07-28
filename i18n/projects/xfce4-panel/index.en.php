@@ -1,68 +1,67 @@
 <h1>Panel</h1>
 
 <h2>Description</h2>
-<table cellspacing="0">
-  <tr>
-    <td>
-      <p>The Xfce 4 panel. Xfce supports multiple panels, with many options for
-        their position, appearance, transparency and behavior. There are many 
-        items available by default, like application launchers with detachable 
-        menus, a graphical pager, a tasklist, a clock, a system tray, and a 
-        show/hide desktop switcher. It offers an easy way to add an item, using
-        a dialog supporting drag and drop, and move them between different 
-        panels. It's compatible with the numerous plugins available from the <a 
-        href="http://goodies.xfce.org/">Xfce Goodies Project page</a>.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel.png" 
-              alt="xfce4-panel" /></p>
-    </td>
-  </tr>
-</table>
+<p>The Xfce 4 panel. Xfce supports multiple panels, with many options for their
+  position, appearance, transparency and behavior. There are many items 
+  available by default to full fit a panel, like application launchers with 
+  detachable menus, a graphical pager, a tasklist, a clock, a system tray, and 
+  a show/hide desktop switcher. It offers an easy way to add an item, using a 
+  dialog supporting drag and drop, and to move items between different panels. 
+  It's compatible with the numerous plugins available from the 
+  <a href="http://goodies.xfce.org/">Xfce Goodies Project page</a>.</p>
 
 <h2>Features</h2>
 <ul>
   <li>Multiple panels</li>
-  <li>Customizable appearance</li>
-  <ul>
-    <li>Position fixed or moveable</li>
-    <li>Normal or full size</li>
-    <li>Hide automatically</li>
-  </ul>
-  <li>Internal plugins</li>
-  <ul>
-    <li>Xfce menu</li>
-    <li>Launchers</li>
-    <li>Task list</li>
-    <li>Clock</li>
-    <li>System tray</li>
-    <li>Pager</li>
-    <li>Show desktop</li>
-    <li>Quit / Lock screen</li>
-  </ul>
-  <li>External plugins</li>
-  <ul>
-    <li>System and network monitor</li>
-    <li>Clipboard manager</li>
-    <li>Notes plugin<!-- :p --></li>
-    <li>Command line entry</li>
-    <li>Date and time</li>
-    <li>Useful plugins for a laptop:</li>
+  <li>Customizable appearance
     <ul>
-      <li>Battery monitor</li>
-      <li>Wi-Fi status</li>
-      <li>CPU frequency monitor</li>
+      <li>Position fixed or moveable</li>
+      <li>Normal or full size</li>
+      <li>Hide automatically</li>
     </ul>
-  <li>See more at 
-    <a href="http://goodies.xfce.org/projects/panel-plugins/start" 
-       target="_blank" class="external">goodies.xfce.org</a></li>
-  </ul>
+  </li>
+  <li>Internal plugins
+    <ul>
+      <li>Xfce menu</li>
+      <li>Launchers</li>
+      <li>Task list</li>
+      <li>Clock</li>
+      <li>System tray</li>
+      <li>Pager</li>
+      <li>Show desktop</li>
+      <li>Quit / Lock screen</li>
+    </ul>
+  </li>
+  <li>External plugins
+    <ul>
+      <li>System and network monitor</li>
+      <li>Clipboard manager</li>
+      <li>Notes plugin<!-- :p --></li>
+      <li>Command line entry</li>
+      <li>Date and time</li>
+      <li>Useful plugins for a laptop
+        <ul>
+          <li>Battery monitor</li>
+          <li>Wi-Fi status</li>
+          <li>CPU frequency monitor</li>
+        </ul>
+      </li>
+      <li>See more at 
+        <a href="http://goodies.xfce.org/projects/panel-plugins/start" 
+           target="_blank" class="external">goodies.xfce.org</a></li>
+    </ul>
+  </li>
 </ul>
 
 <h2>Screenshots</h2>
 <table cellspacing="10" width="100%">
+  <tr>
+    <td colspan="2" align="center">
+      <p><img src="/images/projects/xfce4-panel/xfce4-panel.png" 
+              alt="xfce4-panel" /><br />
+        <strong>Panel</strong></p>
+    </td>
+  </tr>
   <tr>
     <td valign="bottom" align="center">
       <p><img src="/images/projects/xfce4-panel/xfce4-panel-menu-tiny.png" 
