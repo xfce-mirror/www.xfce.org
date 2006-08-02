@@ -63,6 +63,11 @@
     <td bgcolor="#eeeeee">libxcursor, libxxf86misc, libxkbfile, libxrandr, libxxf86vm</td>
   </tr>
   <tr>
+    <td bgcolor="#eeeeee">thunar</td>
+    <td bgcolor="#eeeeee">libexo&nbsp;&gt;=&nbsp;0.3.1.4, glib2&nbsp;&gt;=&nbsp;2.6.4, gtk+-2.0&nbsp;&gt;=&nbsp;2.6.0, libpng&nbsp;&gt;=&nbsp;1.2.0, libxfce4util </td>
+    <td bgcolor="#eeeeee">dbus&nbsp;&gt;=&nbsp;0.34, gconf&nbsp;&gt;=&nbsp;2.4.0, libstartup-notification&nbsp;&gt;=&nbsp;0.4, libjpeg</td>
+  </tr>
+  <tr>
     <td>xfce4-session</td>
     <td>libx11, libsm, libxfce4util, libxfce4mcs, libxfcegui4, xfce-mcs-manager </td>
     <td>libgnome&nbsp;&gt;=&nbsp;2.4.0 </td>
@@ -106,11 +111,6 @@
     <td>terminal</td>
     <td>libexo&nbsp;&gt;=&nbsp;0.3.0, gtk+-2.0&nbsp;&gt;=&nbsp;2.6.0, vte&nbsp;&gt;=&nbsp;0.11.11 </td>
     <td>libstartup-notification&nbsp;&gt;=&nbsp;0.5, dbus&nbsp;&gt;=&nbsp;0.22 </td>
-  </tr>
-  <tr>
-    <td bgcolor="#eeeeee">thunar</td>
-    <td bgcolor="#eeeeee">libexo&nbsp;&gt;=&nbsp;0.3.1.4, glib2&nbsp;&gt;=&nbsp;2.6.4, gtk+-2.0&nbsp;&gt;=&nbsp;2.6.0, libpng&nbsp;&gt;=&nbsp;1.2.0, libxfce4util </td>
-    <td bgcolor="#eeeeee">dbus&nbsp;&gt;=&nbsp;0.34, gconf&nbsp;&gt;=&nbsp;2.4.0, libstartup-notification&nbsp;&gt;=&nbsp;0.4, libjpeg</td>
   </tr>
   <tr>
     <td>xarchiver</td>
