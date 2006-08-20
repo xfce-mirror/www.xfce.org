@@ -15,7 +15,7 @@
 		
 	</style>
 
-	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&lang=<?php echo $lang ?>" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 
 </head>
@@ -41,7 +41,7 @@
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
-						<form method="get" action="http://ww.google.com/search" name="g">
+						<form method="get" action="http://www.google.com/search" name="g">
 							<input type="text" name="q" id="q" onfocus="if(this.value==this.defaultValue ) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Search..." />
 							<input type="hidden" name="sitesearch" value="xfce.org" />
 							<input type="hidden" name="num" value="30" />
