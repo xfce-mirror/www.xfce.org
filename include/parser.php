@@ -1,19 +1,87 @@
 <?php
 
+function AddValues ($feed, $name, $array, $data)
+{
+    $max=3;
+    $i=0;
+
+    foreach ($array as $num)
+    {
+        if ($data[$num]["level"] == 4)
+        {
+            $feed[$i][$name] = $data[$num]["value"];
+            
+            $i++;
+            if ($i >= $max)
+                break;
+        }
+    }
+
+    return $feed;
+}
+
 function CreateFeed ($url, $max, $timeout=1800)
 {
     $dest_file = '/tmp/rss_'.md5($url);
-    if(!file_exists($dest_file) || filemtime($dest_file) < (time()-$timeout)) {
-        $stream  = fopen($url,'r');
-        $tempnam = tempnam('/tmp','YWS');
+    if (!file_exists ($dest_file) || filemtime ($dest_file) < (time ()-$timeout)) {
+        $stream  = fopen ($url,'r');
+        $tempnam = tempnam ('/tmp','YWS');
         
-        $handle = fopen($tempnam, "w");
-        fwrite($handle, $stream);
-        fclose($stream);
+        $handle = fopen ($tempnam, "w");
+        fwrite ($handle, $stream);
+        fclose ($stream);
         fclose ($handle);
     }
 
-    $dom = domxml_open_file ($dest_file);
+    $handle = fopen ($dest_file, "r");
+    $data = fread ($handle, filesize ($dest_file));
+    fclose ($handle);
+
+    $xml_parser = xml_parser_create();
+    xml_parser_set_option ($xml_parser, XML_OPTION_CASE_FOLDING, 0);
+    xml_parser_set_option ($xml_parser, XML_OPTION_SKIP_WHITE, 1);
+    xml_parse_into_struct ($xml_parser, $data, $vals, $index);
+    
+    xml_parser_free($xml_parser);
+
+    foreach ($index as $key=>$value)
+    {
+        switch ($key)
+        {
+            case "title":
+                $feed = AddValues ($feed, "title", $value, $vals);
+                break;
+            case "pubDate":
+                $feed = AddValues ($feed, "date", $value, $vals);
+                break;
+            case "link":
+                $feed = AddValues ($feed, "link", $value, $vals);
+                break;
+            case "dc:creator":
+                $feed = AddValues ($feed, "creator", $value, $vals);
+                break;
+        }
+    }
+
+    return $feed;
+}
+
+/**
+ * Feed Code for php 5
+ **/
+
+/*
+function CreateFeed_php5 ($url, $max, $timeout=1800)
+{
+    $dest_file = '/tmp/rss_'.md5($url);
+    if(!file_exists($dest_file) || filemtime($dest_file) < (time()-$timeout)) {
+        $stream = fopen($url,'r');
+        $tmpf = tempnam('/tmp','YWS');
+        file_put_contents($tmpf, $stream);
+        fclose($stream);
+        rename($tmpf, $dest_file);
+    }
+    $dom = DOMDocument::load($dest_file);
 
     $xpath = new DOMXPath($dom);
     $ns = array(''=>NULL);
@@ -26,7 +94,6 @@ function CreateFeed ($url, $max, $timeout=1800)
 
     $xml = simplexml_import_dom($dom);
     
-    $format = "%e %B %Y";
     $items = $xml->channel->item;
     
     $i=0;
@@ -35,9 +102,9 @@ function CreateFeed ($url, $max, $timeout=1800)
         if ($i > $max)
             break;
 
-				$feed[$i]["title"]   = (string)$val->title;
-				$feed[$i]["link"]    = (string)$val->link;
-				$feed[$i]["date"]    = CreateDate ((string)$val->pubDate, $format, true);
+                $feed[$i]["title"]   = (string)$val->title;
+                $feed[$i]["link"]    = (string)$val->link;
+                $feed[$i]["date"]    = (string)$val->pubDate;
 
         foreach($ns as $alias=>$uri)
             foreach($val->children($uri) as $k=>$v)
@@ -47,10 +114,11 @@ function CreateFeed ($url, $max, $timeout=1800)
                     break 2;
                 }
 
-				$i++;
+                $i++;
     }
 
     return $feed;
 }
+*/
 
 ?>

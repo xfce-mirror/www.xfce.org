@@ -26,10 +26,6 @@ function PrintNews ($lang, $lastvisit)
                  "<br />".
                  "<a href=\"/about/news?id=". strtotime ($item["date"]) ."\" title=\"Posted by ". $item["author"] ."\">". $title ."</a>".
                  "</li>";
-    
-    /* Break @ 5 items */
-    if ($i >= 5)
-        break;
     }
     $html .= "</ul>";
     
@@ -41,11 +37,13 @@ function PrintBlog ()
     include ("parser.php");
 
     $feed = CreateFeed ("http://blog.xfce.org/?feed=rss2", 5);
+    $format = "%e %B %Y";
+    
     $html = "<ul>";
     
     foreach ($feed as $item)
     {
-    	  $html .= "<li><span class=\"grey\">". $item["creator"] ." @ ". $item["date"] ."</span><br />";
+    	  $html .= "<li><span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />";
     	  $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
     	  $html .= "</li>";
     }
