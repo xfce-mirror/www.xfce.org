@@ -12,7 +12,9 @@ function CreateFeed ($url, $max, $timeout=1800)
         fclose($stream);
         fclose ($handle);
     }
-    $dom = DOMDocument::load($dest_file);
+
+    $dom = new DOMDocument();
+    $dom->load ($dest_file);
 
     $xpath = new DOMXPath($dom);
     $ns = array(''=>NULL);
