@@ -4,7 +4,7 @@ if ($_GET["id"])
     PrintNewsPage ("en", $_GET["id"], "No article was found with this id");
 ?>
     <p>
-        <a href="/about/news">Return to the news archive</a>
+        <a href="/about/news#<?php echo $_GET["id"]; ?>">Return to the news archive</a>
     </p>
 <?php
 }
