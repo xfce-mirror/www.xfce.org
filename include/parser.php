@@ -1,15 +1,16 @@
 <?php
 
-function CreateFeed ($url, $max)
+function CreateFeed ($url, $max, $timeout=1800)
 {
     $dest_file = '/tmp/rss_'.md5($url);
     if(!file_exists($dest_file) || filemtime($dest_file) < (time()-$timeout)) {
-        $stream = fopen($url,'r');
-        $tmpf = tempnam('/tmp','YWS');
-        // Note the direct write from the stream here
-        file_put_contents($tmpf, $stream);
+        $stream  = fopen($url,'r');
+        $tempnam = tempnam('/tmp','YWS');
+        
+        $handle = fopen($tempnam, "w");
+        fwrite($handle, $stream);
         fclose($stream);
-        rename($tmpf, $dest_file);
+        fclose ($handle);
     }
     $dom = DOMDocument::load($dest_file);
 
