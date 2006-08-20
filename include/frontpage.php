@@ -25,7 +25,7 @@ function PrintNews ($lang, $lastvisit)
         $html .= "<li>".
                  "<span class=\"grey\">". CreateDate ($item["date"], $format, true) ."</span>".
                  "<br />".
-                 "<a href=\"/about/news\">". $title ."</a>". date ("U").
+                 "<a href=\"/about/news\">". $title ." (". strtotime ($item["date"]) .")".
                  "</li>";
     
     /* Break @ 5 items */

@@ -6,9 +6,9 @@ function CreateDate ($date, $format, $locale=false)
         return $date;
 
     if ($locale)
-        return strftime ($format, $unix);
+        return strftime ($format, $unix) ." (". $unix .")";
     else
-        return date ($format, $unix);
+        return date ($format, $unix) ." (". $unix .")";
 }
 
 function UserVariable ($name, $values, $default)
