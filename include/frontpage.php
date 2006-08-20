@@ -38,9 +38,21 @@ function PrintNews ($lang, $lastvisit)
 
 function PrintBlog ()
 {
+    include ("parser.php");
 
-
-
+    $feed = CreateFeed ("http://blog.xfce.org/?feed=rss2", 5);
+    $html = "<ul>";
+    
+    foreach ($feed as $item)
+    {
+    	  $html .= "<li><span class=\"grey\">". $item["creator"] ." @ ". $item["date"] ."</span><br />";
+    	  $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
+    	  $html .= "</li>";
+    }
+    
+    $html .= "</ul>";
+    
+    return $html;
 }
 
 function PrintFrontpage ($lang, $lastvisit)
