@@ -14,18 +14,17 @@ function PrintNews ($lang, $lastvisit)
     foreach ($news as $item)
     {
         $i++;
-        $test = strtotime ($item["date"], $lastvisit);
         
         # Make title bold if message is newer than the last visit
         if ($lastvisit < strtotime ($item["date"]))
-            $title = "<strong>". $item["title"] ."</strong> ".$test;
+            $title = "<strong>". $item["title"] ."</strong>";
         else
-            $title = $item["title"] ." ".$test;
+            $title = $item["title"];
     
         $html .= "<li>".
                  "<span class=\"grey\">". CreateDate ($item["date"], $format, true) ."</span>".
                  "<br />".
-                 "<a href=\"/about/news\">". $title ." (". strtotime ($item["date"]) .")".
+                 "<a href=\"/about/news\">". $title ."</a>".
                  "</li>";
     
     /* Break @ 5 items */

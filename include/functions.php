@@ -6,9 +6,9 @@ function CreateDate ($date, $format, $locale=false)
         return $date;
 
     if ($locale)
-        return strftime ($format, $unix) ." (". $unix .")";
+        return strftime ($format, $unix);
     else
-        return date ($format, $unix) ." (". $unix .")";
+        return date ($format, $unix);
 }
 
 function UserVariable ($name, $values, $default)
@@ -50,11 +50,17 @@ function UserLastVisit ()
 		$expire = time()+(60*60*24*365);
 		
 		if ($cookie)
+		{
 			# Old user, retrieve last visit (unix)time.
 			$_SESSION["lastvisit"] = $cookie;
+			echo "From Cookie: ". $cookie;
+			}
 		else
+		{
 			# New user, no cookie, so last visit is current (unix)time.
 			$_SESSION["lastvisit"] = $now;
+			echo "New User :".$now;
+			}
 			
 		# Set new cookie with current time, for the next time he/she visits
 		setcookie ("lastvisit", $now, $expire, "/");
