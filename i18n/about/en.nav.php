@@ -13,7 +13,5 @@
 		</ul>
 	</li>
 	<li><a href="/about/press">Press</a></li>
-	<!--
 	<li><a href="/about/artwork">Artwork</a></li>
-	-->
 </ul>
