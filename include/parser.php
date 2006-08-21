@@ -20,7 +20,34 @@ function AddValues ($feed, $name, $array, $data)
     return $feed;
 }
 
-function CreateFeed ($url, $max, $timeout=1800)
+function FeedFileRead ($url, $timeout=1800)
+{
+    $temp = "/tmp/". md5 ($url);
+
+    /* Maybe we've got a cached file on the server */
+    if(!file_exists($temp))
+    {
+        echo "update/create cache";
+
+        /* Create/update cache file */
+        $data = file_get_contents($url);
+        
+        $handle = fopen($temp, 'a');
+        fwrite($handle, $data);
+        fclose($handle);
+    }
+    else
+    {
+        echo "from cache";
+
+        /* The file exists and it's not outdated */
+        $data = file_get_contents($temp);
+    }
+
+    return $data;
+}
+
+function CreateFeed ($url, $max)
 {
     /*
       $fp = fopen($url, "r" )
@@ -32,6 +59,7 @@ function CreateFeed ($url, $max, $timeout=1800)
     xml_parser_set_option ($xml_parser, XML_OPTION_CASE_FOLDING, 0);
     xml_parser_set_option ($xml_parser, XML_OPTION_SKIP_WHITE, 1);
 
+    $data = FeedFileRead ($url);
     xml_parse_into_struct ($xml_parser, $data, $vals, $index);
 
     /*while( $data = fread( $fp, 4096 ) )
