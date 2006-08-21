@@ -4,9 +4,15 @@ function ParseRssFeed ($lang)
 {
     # Load new file
     if (is_file ("i18n/news/".$lang.".news.php"))
+    {
         include ("i18n/news/".$lang.".news.php");
+        $l = $lang;
+    }
     else
+    {
         include ("i18n/news/en.news.php");
+        $l = "en";
+    }
 	
     # Feed translations
     if (is_file ("i18n/arrays/".$lang.".feed.php"))
@@ -28,7 +34,8 @@ function ParseRssFeed ($lang)
          "        <description>$discription</description>\n".
          "        <link>http://www.xfce.org/about/news</link>\n".
          "        <copyright>Olivier Fourdan 1996 - ". date ("Y") ."</copyright>\n".
-         "        <generator></generator>\n";
+         "        <language>". $l ."</language>\n".
+         "        <generator>Personal Feed Script</generator>\n";
 
     # Date format: Thu, 06 Jul 2006 20:41:00 GMT
     $format = "D, d M Y H:i:s \G\M\T";
