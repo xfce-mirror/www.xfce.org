@@ -22,25 +22,22 @@ function AddValues ($feed, $name, $array, $data)
 
 function CreateFeed ($url, $max, $timeout=1800)
 {
-    $dest_file = '/tmp/rss_'.md5($url);
-    if (!file_exists ($dest_file) || filemtime ($dest_file) < (time ()-$timeout)) {
-        $stream  = fopen ($url,'r');
-        $tempnam = tempnam ('/tmp','YWS');
-        
-        $handle = fopen ($tempnam, "w");
-        fwrite ($handle, $stream);
-        fclose ($stream);
-        fclose ($handle);
-    }
+    /*
+      $fp = fopen($url, "r" )
+              or die( "Cannot read RSS data file." ); */
 
-    $handle = fopen ($dest_file, "r");
-    $data = fread ($handle, filesize ($dest_file));
-    fclose ($handle);
+    $data = file_get_contents($url);
 
     $xml_parser = xml_parser_create();
     xml_parser_set_option ($xml_parser, XML_OPTION_CASE_FOLDING, 0);
     xml_parser_set_option ($xml_parser, XML_OPTION_SKIP_WHITE, 1);
+
     xml_parse_into_struct ($xml_parser, $data, $vals, $index);
+
+    /*while( $data = fread( $fp, 4096 ) )
+        
+print_r ($data);
+    fclose ($fp);*/
     
     xml_parser_free($xml_parser);
 
