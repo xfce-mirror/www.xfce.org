@@ -32,19 +32,25 @@ function PrintNews ($lang, $lastvisit)
     return $html;
 }
 
-function PrintBlog ()
+function PrintBlog ($lastvisit)
 {
     include ("parser.php");
 
-    $feed = CreateFeed ("http://blog.xfce.org/?feed=rss2", 5);
+    if (!$feed = CreateFeed ("http://blog.xfce.org/?feed=rss2"))
+        return "developers feed temporarily unavailable.";
+
     $format = "%e %B %Y";
-    
     $html = "<ul>";
     
     foreach ($feed as $item)
     {
     	  $html .= "<li><span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />";
-    	  $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
+    	  
+    	  if ($lastvisit < strtotime ($item["date"]))
+    	      $html .= "<strong><a href=\"". $item["link"] ."\">". $item["title"] ."</a></strong>";
+    	  else
+    	      $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
+    	  
     	  $html .= "</li>";
     }
     
@@ -56,7 +62,7 @@ function PrintBlog ()
 function PrintFrontpage ($lang, $lastvisit)
 {
     $frontpage["news"] = PrintNews ($lang, $lastvisit);
-    $frontpage["blog"] = PrintBlog ();
+    $frontpage["blog"] = PrintBlog ($lastvisit);
     
     if (is_file ("i18n/frontpage.".$lang.".php"))
         include ("i18n/frontpage.".$lang.".php");

@@ -1,8 +1,7 @@
 <?php
 
-function AddValues ($feed, $name, $array, $data)
+function AddValues ($feed, $name, $array, $data, $max=3)
 {
-    $max=3;
     $i=0;
 
     foreach ($array as $num)
@@ -22,51 +21,42 @@ function AddValues ($feed, $name, $array, $data)
 
 function FeedFileRead ($url, $timeout=1800)
 {
-    $temp = "/tmp/". md5 ($url);
+    $file = "/tmp/sitefeed_". md5 ($url);
 
-    /* Maybe we've got a cached file on the server */
-    if(!file_exists($temp))
+    /* Maybe we've got a cached file on the server?? */
+    if(!file_exists ($file) || filemtime($file) < (time() - $timeout))
     {
-        echo "update/create cache";
-
         /* Create/update cache file */
-        $data = file_get_contents($url);
-        
-        $handle = fopen($temp, 'a');
-        fwrite($handle, $data);
-        fclose($handle);
+        $data = file_get_contents ($url);
+        $temp = tempnam ('/tmp','(c) Nick');
+
+        /* Write feed to temp file */
+        $handle = fopen ($temp, 'a');
+        fwrite ($handle, $data);
+        fclose ($handle);
+
+        /* Rename temp to filename */
+        rename ($temp, $file);
     }
     else
     {
-        echo "from cache";
-
         /* The file exists and it's not outdated */
-        $data = file_get_contents($temp);
+        $data = file_get_contents($file);
     }
 
     return $data;
 }
 
-function CreateFeed ($url, $max)
+function CreateFeed ($url)
 {
-    /*
-      $fp = fopen($url, "r" )
-              or die( "Cannot read RSS data file." ); */
-
-    $data = file_get_contents($url);
-
     $xml_parser = xml_parser_create();
     xml_parser_set_option ($xml_parser, XML_OPTION_CASE_FOLDING, 0);
     xml_parser_set_option ($xml_parser, XML_OPTION_SKIP_WHITE, 1);
 
-    $data = FeedFileRead ($url);
-    xml_parse_into_struct ($xml_parser, $data, $vals, $index);
+    if (!$data = FeedFileRead ($url))
+        return FALSE;
 
-    /*while( $data = fread( $fp, 4096 ) )
-        
-print_r ($data);
-    fclose ($fp);*/
-    
+    xml_parse_into_struct ($xml_parser, $data, $vals, $index);
     xml_parser_free($xml_parser);
 
     foreach ($index as $key=>$value)
@@ -88,11 +78,14 @@ print_r ($data);
         }
     }
 
+    /* Free the large vars */
+    unset ($data, $index, $vals, $key, $value);
+
     return $feed;
 }
 
 /**
- * Feed Code for php 5
+ * Feed Code for php 5, needs some work to match the php4 version
  **/
 
 /*
