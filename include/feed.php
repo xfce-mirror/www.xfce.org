@@ -27,7 +27,8 @@ function ParseRssFeed ($lang)
          "        <title>$title</title>\n".
          "        <description>$discription</description>\n".
          "        <link>http://www.xfce.org/about/news</link>\n".
-         "        <copyright>Olivier Fourdan 1996 - ". date ("Y") ."</copyright>\n";
+         "        <copyright>Olivier Fourdan 1996 - ". date ("Y") ."</copyright>\n".
+         "        <generator></generator>\n";
 
     # Date format: Thu, 06 Jul 2006 20:41:00 GMT
     $format = "D, d M Y H:i:s \G\M\T";
@@ -38,10 +39,12 @@ function ParseRssFeed ($lang)
     {
         echo "        <item>\n".
              "            <title>". $item["title"] ."</title>\n".
-             "            <discription>". $item["content"] ."</discription>\n".
-             "            <link></link>\n".
-             "            <author>". $item["author"] ."</author>\n".
+             "            <description>". $item["content"] ."</description>\n".
+             "            <link>http://www.xfce.org/about/news?id=". strtotime ($item["date"]) ."</link>\n".
+             "            <dc:creator>". $item["author"] ."</dc:creator>\n".
              "            <pubDate>". CreateDate ($item["date"], $format) ."</pubDate>\n".
+             "            <category>Xfce News</category>\n".
+             "            <guid isPermaLink=\"false\">http://www.xfce.org/about/news?id=". strtotime ($item["date"]) ."</guid>\n".
              "        </item>\n";
 	     
 	$i++;
