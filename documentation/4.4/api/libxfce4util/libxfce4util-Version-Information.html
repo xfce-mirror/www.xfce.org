@@ -1,0 +1,200 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Version Information</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfce4util Reference Manual">
+<link rel="up" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="prev" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="next" href="libxfce4util-Internationalisation.html" title="Internationalization">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfce4util Overview">
+<link rel="chapter" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="chapter" href="libxfce4util-core.html" title="Xfce Core Application support">
+<link rel="chapter" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="chapter" href="libxfce4util-datatypes.html" title="Xfce Data types">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfce4util-fundamentals.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4util-fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4util Reference Manual</th>
+<td><a accesskey="n" href="libxfce4util-Internationalisation.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="libxfce4util-Version-Information"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Version Information</span></h2>
+<p>Version Information &#8212; Variables and functions to check the libxfce4util version</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4util/libxfce4util.h&gt;
+
+
+const gchar* <a href="libxfce4util-Version-Information.html#xfce-version-string">xfce_version_string</a>            (void);
+extern      const guint <a href="libxfce4util-Version-Information.html#libxfce4util-major-version">libxfce4util_major_version</a>;
+extern      const guint <a href="libxfce4util-Version-Information.html#libxfce4util-minor-version">libxfce4util_minor_version</a>;
+extern      const guint <a href="libxfce4util-Version-Information.html#libxfce4util-micro-version">libxfce4util_micro_version</a>;
+
+#define     <a href="libxfce4util-Version-Information.html#LIBXFCE4UTIL-MAJOR-VERSION:CAPS">LIBXFCE4UTIL_MAJOR_VERSION</a>
+#define     <a href="libxfce4util-Version-Information.html#LIBXFCE4UTIL-MINOR-VERSION:CAPS">LIBXFCE4UTIL_MINOR_VERSION</a>
+#define     <a href="libxfce4util-Version-Information.html#LIBXFCE4UTIL-MICRO-VERSION:CAPS">LIBXFCE4UTIL_MICRO_VERSION</a>
+#define     <a href="libxfce4util-Version-Information.html#LIBXFCE4UTIL-CHECK-VERSION:CAPS">LIBXFCE4UTIL_CHECK_VERSION</a>      (major,minor,micro)
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552001"></a><h2>Description</h2>
+<p>
+These macros provide a few commonly-used features.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552011"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2552153"></a><h3>
+<a name="xfce-version-string"></a>xfce_version_string ()</h3>
+<a class="indexterm" name="id2552162"></a><pre class="programlisting">const gchar* xfce_version_string            (void);</pre>
+<p>
+Queries the version string of the installed Xfce desktop environment.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the overall version information of the installed Xfce desktop.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  4.2
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552204"></a><h3>
+<a name="libxfce4util-major-version"></a>libxfce4util_major_version</h3>
+<a class="indexterm" name="id2552213"></a><pre class="programlisting">extern const guint libxfce4util_major_version;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552228"></a><h3>
+<a name="libxfce4util-minor-version"></a>libxfce4util_minor_version</h3>
+<a class="indexterm" name="id2552236"></a><pre class="programlisting">extern const guint libxfce4util_minor_version;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552251"></a><h3>
+<a name="libxfce4util-micro-version"></a>libxfce4util_micro_version</h3>
+<a class="indexterm" name="id2552260"></a><pre class="programlisting">extern const guint libxfce4util_micro_version;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552275"></a><h3>
+<a name="LIBXFCE4UTIL-MAJOR-VERSION:CAPS"></a>LIBXFCE4UTIL_MAJOR_VERSION</h3>
+<a class="indexterm" name="id2552283"></a><pre class="programlisting">#define LIBXFCE4UTIL_MAJOR_VERSION	4
+</pre>
+<p>
+The major version number of the libxfce4util.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552299"></a><h3>
+<a name="LIBXFCE4UTIL-MINOR-VERSION:CAPS"></a>LIBXFCE4UTIL_MINOR_VERSION</h3>
+<a class="indexterm" name="id2552308"></a><pre class="programlisting">#define LIBXFCE4UTIL_MINOR_VERSION	3
+</pre>
+<p>
+The minor version number of the libxfce4util.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552324"></a><h3>
+<a name="LIBXFCE4UTIL-MICRO-VERSION:CAPS"></a>LIBXFCE4UTIL_MICRO_VERSION</h3>
+<a class="indexterm" name="id2552332"></a><pre class="programlisting">#define LIBXFCE4UTIL_MICRO_VERSION	99
+</pre>
+<p>
+The micro version number of the libxfce4util.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552348"></a><h3>
+<a name="LIBXFCE4UTIL-CHECK-VERSION:CAPS"></a>LIBXFCE4UTIL_CHECK_VERSION()</h3>
+<a class="indexterm" name="id2552357"></a><pre class="programlisting">#define     LIBXFCE4UTIL_CHECK_VERSION(major,minor,micro)</pre>
+<p>
+Checks the version of the libxfce4util library. It returns TRUE if the
+libxfce4util library is the same or newer than the given version.
+</p>
+<div class="example">
+<a name="id2552371"></a><p class="title"><b>Example&#160;1.&#160;Checking the version of the libxfce4util library</b></p>
+<pre class="programlisting">
+  if (!LIBXFCE4UTIL_CHECK_VERSION (4, 1, 6))
+    g_error ("libxfce4util version 4.1.6 or above is required.");
+</pre>
+</div>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>major</code></em>&#160;:</span></td>
+<td>the major version number.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>minor</code></em>&#160;:</span></td>
+<td>the minor version number.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>micro</code></em>&#160;:</span></td>
+<td>the micro version number.
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552428"></a><h2>See Also</h2>
+<p>
+<a href="http://developer.gnome.org/doc/API/2.0/glib/glib-Standard-Macros.html" target="_top">GLib Standard Macros</a>
+</p>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfce4util-fundamentals.html"><b>&lt;&lt;&#160;Xfce Fundamentals</b></a></td>
+<td align="right"><a accesskey="n" href="libxfce4util-Internationalisation.html"><b>Internationalization&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

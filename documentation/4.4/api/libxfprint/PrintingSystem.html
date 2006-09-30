@@ -1,0 +1,465 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>PrintingSystem</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfprint Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="libxfprint-Job.html" title="Job">
+<link rel="next" href="PrinterListWindow.html" title="PrinterListWindow">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfprint-Job.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfprint Reference Manual</th>
+<td><a accesskey="n" href="PrinterListWindow.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="PrintingSystem"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">PrintingSystem</span></h2>
+<p>PrintingSystem &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfprint/libxfprint.h&gt;
+
+
+struct      <a href="PrintingSystem.html#PrintingSystem-struct">PrintingSystem</a>;
+<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a>* <a href="PrintingSystem.html#printing-system-new">printing_system_new</a>         (const gchar *path);
+GList*      <a href="PrintingSystem.html#printing-system-get-printers">printing_system_get_printers</a>    (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps);
+<a href="libxfprint-Printer.html#Printer">Printer</a>*    <a href="PrintingSystem.html#printing-system-get-default-printer">printing_system_get_default_printer</a>
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps);
+gint        <a href="PrintingSystem.html#printing-system-get-printer-state">printing_system_get_printer_state</a>
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);
+gint        <a href="PrintingSystem.html#printing-system-get-jobs-count">printing_system_get_jobs_count</a>  (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);
+gboolean    <a href="PrintingSystem.html#printing-system-remove-job">printing_system_remove_job</a>      (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer,
+                                             gint id);
+GList*      <a href="PrintingSystem.html#printing-system-get-jobs">printing_system_get_jobs</a>        (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);
+gboolean    <a href="PrintingSystem.html#printing-system-print-file">printing_system_print_file</a>      (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer,
+                                             const gchar *original_name,
+                                             const gchar *file,
+                                             gboolean remove_file);
+void        <a href="PrintingSystem.html#printing-system-customize-printer-list-window">printing_system_customize_printer_list_window</a>
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             <a href="PrinterListWindow.html" title="PrinterListWindow">PrinterListWindow</a> *win);
+void        <a href="PrintingSystem.html#printing-system-customize-printer-queue-window">printing_system_customize_printer_queue_window</a>
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             <a href="PrinterQueueWindow.html" title="PrinterQueueWindow">PrinterQueueWindow</a> *win);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2550294"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----PrintingSystem
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2550448"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="PrintingSystem.html#PrintingSystem--ps-path">ps-path</a>"              gchararray            : Read / Write / Construct Only
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2550471"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2550481"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2550486"></a><h3>
+<a name="PrintingSystem-struct"></a>struct PrintingSystem</h3>
+<a class="indexterm" name="id2550494"></a><pre class="programlisting">struct PrintingSystem;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2550508"></a><h3>
+<a name="printing-system-new"></a>printing_system_new ()</h3>
+<a class="indexterm" name="id2550585"></a><pre class="programlisting"><a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a>* printing_system_new         (const gchar *path);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2550636"></a><h3>
+<a name="printing-system-get-printers"></a>printing_system_get_printers ()</h3>
+<a class="indexterm" name="id2550645"></a><pre class="programlisting">GList*      printing_system_get_printers    (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2550696"></a><h3>
+<a name="printing-system-get-default-printer"></a>printing_system_get_default_printer ()</h3>
+<a class="indexterm" name="id2550708"></a><pre class="programlisting"><a href="libxfprint-Printer.html#Printer">Printer</a>*    printing_system_get_default_printer
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2550759"></a><h3>
+<a name="printing-system-get-printer-state"></a>printing_system_get_printer_state ()</h3>
+<a class="indexterm" name="id2550771"></a><pre class="programlisting">gint        printing_system_get_printer_state
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2550841"></a><h3>
+<a name="printing-system-get-jobs-count"></a>printing_system_get_jobs_count ()</h3>
+<a class="indexterm" name="id2550851"></a><pre class="programlisting">gint        printing_system_get_jobs_count  (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2551877"></a><h3>
+<a name="printing-system-remove-job"></a>printing_system_remove_job ()</h3>
+<a class="indexterm" name="id2551885"></a><pre class="programlisting">gboolean    printing_system_remove_job      (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer,
+                                             gint id);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2551975"></a><h3>
+<a name="printing-system-get-jobs"></a>printing_system_get_jobs ()</h3>
+<a class="indexterm" name="id2551984"></a><pre class="programlisting">GList*      printing_system_get_jobs        (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552054"></a><h3>
+<a name="printing-system-print-file"></a>printing_system_print_file ()</h3>
+<a class="indexterm" name="id2552062"></a><pre class="programlisting">gboolean    printing_system_print_file      (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             const gchar *printer,
+                                             const gchar *original_name,
+                                             const gchar *file,
+                                             gboolean remove_file);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>original_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>file</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>remove_file</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603321"></a><h3>
+<a name="printing-system-customize-printer-list-window"></a>printing_system_customize_printer_list_window ()</h3>
+<a class="indexterm" name="id2603333"></a><pre class="programlisting">void        printing_system_customize_printer_list_window
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             <a href="PrinterListWindow.html" title="PrinterListWindow">PrinterListWindow</a> *win);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>win</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2623328"></a><h3>
+<a name="printing-system-customize-printer-queue-window"></a>printing_system_customize_printer_queue_window ()</h3>
+<a class="indexterm" name="id2623339"></a><pre class="programlisting">void        printing_system_customize_printer_queue_window
+                                            (<a href="PrintingSystem.html" title="PrintingSystem">PrintingSystem</a> *ps,
+                                             <a href="PrinterQueueWindow.html" title="PrinterQueueWindow">PrinterQueueWindow</a> *win);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ps</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>win</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2623401"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2623406"></a><h3>
+<a name="PrintingSystem--ps-path"></a>The "<code class="literal">ps-path</code>" property</h3>
+<pre class="programlisting">  "ps-path"              gchararray            : Read / Write / Construct Only</pre>
+<p>set the printing system path.</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfprint-Job.html"><b>&lt;&lt;&#160;Job</b></a></td>
+<td align="right"><a accesskey="n" href="PrinterListWindow.html"><b>PrinterListWindow&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

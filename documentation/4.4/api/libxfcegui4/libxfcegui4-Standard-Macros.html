@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Standard Macros</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="prev" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="next" href="libxfcegui4-xfce-exec.html" title="xfce-exec">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfcegui4-fundamentals.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+<td><a accesskey="n" href="libxfcegui4-xfce-exec.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="libxfcegui4-Standard-Macros"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Standard Macros</span></h2>
+<p>Standard Macros &#8212; commonly-used macros.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+
+#define     <a href="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MAJOR-VERSION:CAPS">LIBXFCEGUI4_MAJOR_VERSION</a>
+#define     <a href="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MINOR-VERSION:CAPS">LIBXFCEGUI4_MINOR_VERSION</a>
+#define     <a href="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MICRO-VERSION:CAPS">LIBXFCEGUI4_MICRO_VERSION</a>
+#define     <a href="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-CHECK-VERSION:CAPS">LIBXFCEGUI4_CHECK_VERSION</a>       (major,minor,micro)
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552037"></a><h2>Description</h2>
+<p>
+These macros provide version information and a version check for the
+libxfcegui4.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552046"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2552052"></a><h3>
+<a name="LIBXFCEGUI4-MAJOR-VERSION:CAPS"></a>LIBXFCEGUI4_MAJOR_VERSION</h3>
+<a class="indexterm" name="id2552060"></a><pre class="programlisting">#define LIBXFCEGUI4_MAJOR_VERSION	4
+</pre>
+<p>
+The major version number of the libxfcegui4.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552076"></a><h3>
+<a name="LIBXFCEGUI4-MINOR-VERSION:CAPS"></a>LIBXFCEGUI4_MINOR_VERSION</h3>
+<a class="indexterm" name="id2552221"></a><pre class="programlisting">#define LIBXFCEGUI4_MINOR_VERSION	3
+</pre>
+<p>
+The minor version number of the libxfcegui4.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552237"></a><h3>
+<a name="LIBXFCEGUI4-MICRO-VERSION:CAPS"></a>LIBXFCEGUI4_MICRO_VERSION</h3>
+<a class="indexterm" name="id2552246"></a><pre class="programlisting">#define LIBXFCEGUI4_MICRO_VERSION	99
+</pre>
+<p>
+The micro version number of the libxfcegui4.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2552262"></a><h3>
+<a name="LIBXFCEGUI4-CHECK-VERSION:CAPS"></a>LIBXFCEGUI4_CHECK_VERSION()</h3>
+<a class="indexterm" name="id2552270"></a><pre class="programlisting">#define     LIBXFCEGUI4_CHECK_VERSION(major,minor,micro)</pre>
+<p>
+Checks the version of the libxfcegui4 library. It returns TRUE if the
+libxfcegui4 library is the same or newer than the given version.
+</p>
+<div class="example">
+<a name="id2552284"></a><p class="title"><b>Example&#160;1.&#160;Checking the version of the libxfcegui4 library</b></p>
+<pre class="programlisting">
+  if (!LIBXFCEGUI4_CHECK_VERSION (4, 1, 6))
+    g_error ("libxfcegui4 version 4.1.6 or above is required.");
+</pre>
+</div>
+<p>
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>major</code></em>&#160;:</span></td>
+<td>the major version number.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>minor</code></em>&#160;:</span></td>
+<td>the minor version number.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>micro</code></em>&#160;:</span></td>
+<td>the micro version number.
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2552343"></a><h2>See Also</h2>
+<p>
+<a href="http://www.xfce.org/~benny/api/libxfce4util/libxfce4util-Standard-Macros.html" target="_top">libxfce4util Standard Macros</a>
+</p>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfcegui4-fundamentals.html"><b>&lt;&lt;&#160;Xfce GUI Fundamentals</b></a></td>
+<td align="right"><a accesskey="n" href="libxfcegui4-xfce-exec.html"><b>xfce-exec&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

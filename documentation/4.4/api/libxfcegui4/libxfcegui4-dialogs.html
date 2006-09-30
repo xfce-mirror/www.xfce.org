@@ -1,0 +1,524 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Dialogs</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="prev" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="next" href="XfceAboutDialog.html" title="XfceAboutDialog">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfcegui4-core.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-core.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+<td><a accesskey="n" href="XfceAboutDialog.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="libxfcegui4-dialogs"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Dialogs</span></h2>
+<p>Dialogs &#8212; user interaction helper functions.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+
+void        <a href="libxfcegui4-dialogs.html#xfce-err">xfce_err</a>                        (const gchar *format,
+                                             ...);
+void        <a href="libxfcegui4-dialogs.html#xfce-verr">xfce_verr</a>                       (const gchar *format,
+                                             va_list ap);
+void        <a href="libxfcegui4-dialogs.html#xfce-warn">xfce_warn</a>                       (const gchar *format,
+                                             ...);
+void        <a href="libxfcegui4-dialogs.html#xfce-vwarn">xfce_vwarn</a>                      (const gchar *format,
+                                             va_list ap);
+void        <a href="libxfcegui4-dialogs.html#xfce-info">xfce_info</a>                       (const gchar *format,
+                                             ...);
+void        <a href="libxfcegui4-dialogs.html#xfce-vinfo">xfce_vinfo</a>                      (const gchar *format,
+                                             va_list ap);
+gboolean    <a href="libxfcegui4-dialogs.html#xfce-confirm">xfce_confirm</a>                    (const gchar *text,
+                                             const gchar *stock_id,
+                                             const gchar *action);
+gint        <a href="libxfcegui4-dialogs.html#xfce-message-dialog">xfce_message_dialog</a>             (GtkWindow *parent,
+                                             const gchar *title,
+                                             const gchar *icon_id,
+                                             const gchar *primary_text,
+                                             const gchar *secondary_text,
+                                             const gchar *first_button_type,
+                                             ...);
+GtkWidget*  <a href="libxfcegui4-dialogs.html#xfce-create-header">xfce_create_header</a>              (GdkPixbuf *icon,
+                                             const gchar *text);
+GtkWidget*  <a href="libxfcegui4-dialogs.html#xfce-create-header-with-image">xfce_create_header_with_image</a>   (GtkWidget *image,
+                                             const gchar *text);
+GtkWidget*  <a href="libxfcegui4-dialogs.html#xfce-create-mixed-button">xfce_create_mixed_button</a>        (const gchar *stock,
+                                             const gchar *text);
+GtkWidget*  <a href="libxfcegui4-dialogs.html#xfce-create-small-label">xfce_create_small_label</a>         (const gchar *text);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607574"></a><h2>Description</h2>
+<p>
+Provides simple user interaction functions, like error, warning and confirm
+dialogs.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607584"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2607589"></a><h3>
+<a name="xfce-err"></a>xfce_err ()</h3>
+<a class="indexterm" name="id2607597"></a><pre class="programlisting">void        xfce_err                        (const gchar *format,
+                                             ...);</pre>
+<p>
+Displays a modal error dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>...</code></em>&#160;:</span></td>
+<td> argument list.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607656"></a><h3>
+<a name="xfce-verr"></a>xfce_verr ()</h3>
+<a class="indexterm" name="id2607665"></a><pre class="programlisting">void        xfce_verr                       (const gchar *format,
+                                             va_list ap);</pre>
+<p>
+Displays a modal error dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ap</code></em>&#160;:</span></td>
+<td> variable argument list pointer.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607730"></a><h3>
+<a name="xfce-warn"></a>xfce_warn ()</h3>
+<a class="indexterm" name="id2607738"></a><pre class="programlisting">void        xfce_warn                       (const gchar *format,
+                                             ...);</pre>
+<p>
+Displays a modal warning dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>...</code></em>&#160;:</span></td>
+<td> argument list.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607797"></a><h3>
+<a name="xfce-vwarn"></a>xfce_vwarn ()</h3>
+<a class="indexterm" name="id2607805"></a><pre class="programlisting">void        xfce_vwarn                      (const gchar *format,
+                                             va_list ap);</pre>
+<p>
+Displays a modal warning dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ap</code></em>&#160;:</span></td>
+<td> variable argument list pointer.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608007"></a><h3>
+<a name="xfce-info"></a>xfce_info ()</h3>
+<a class="indexterm" name="id2608016"></a><pre class="programlisting">void        xfce_info                       (const gchar *format,
+                                             ...);</pre>
+<p>
+Displays a modal info dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>...</code></em>&#160;:</span></td>
+<td> argument list.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608074"></a><h3>
+<a name="xfce-vinfo"></a>xfce_vinfo ()</h3>
+<a class="indexterm" name="id2608083"></a><pre class="programlisting">void        xfce_vinfo                      (const gchar *format,
+                                             va_list ap);</pre>
+<p>
+Displays a modal info dialog to the user and blocks until the users
+clicks the close button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>format</code></em>&#160;:</span></td>
+<td> printf-style format string.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>ap</code></em>&#160;:</span></td>
+<td> variable argument list pointer.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608148"></a><h3>
+<a name="xfce-confirm"></a>xfce_confirm ()</h3>
+<a class="indexterm" name="id2608156"></a><pre class="programlisting">gboolean    xfce_confirm                    (const gchar *text,
+                                             const gchar *stock_id,
+                                             const gchar *action);</pre>
+<p>
+Runs a modal confirmation dialog, that has a 'cancel' and a 'confirm'
+button. The 'confirm' button text can be set by <em class="parameter"><code>action</code></em> if given.
+</p>
+<p>
+If <em class="parameter"><code>stock_id</code></em> is equal to GTK_STOCK_YES, the 'cancel' button becomes a 'no' button.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>text</code></em>&#160;:</span></td>
+<td>     a question text
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>stock_id</code></em>&#160;:</span></td>
+<td> a stock item name
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>action</code></em>&#160;:</span></td>
+<td>   if non-NULL, this text is used on the confirm button together
+           with the <em class="parameter"><code>stock</code></em> icon.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> TRUE if the user confirms, else FALSE.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608269"></a><h3>
+<a name="xfce-message-dialog"></a>xfce_message_dialog ()</h3>
+<a class="indexterm" name="id2608278"></a><pre class="programlisting">gint        xfce_message_dialog             (GtkWindow *parent,
+                                             const gchar *title,
+                                             const gchar *icon_id,
+                                             const gchar *primary_text,
+                                             const gchar *secondary_text,
+                                             const gchar *first_button_type,
+                                             ...);</pre>
+<p>
+<a href="libxfcegui4-dialogs.html#xfce-message-dialog"><code class="function">xfce_message_dialog()</code></a> creates a dialog widget as in
+<code class="function">xfce_message_dialog_new()</code>, and then runs the dialog as a modal dialog and
+returns the response id selected by the user.
+</p>
+<p>
+See <code class="function">xfce_message_dialog_new()</code> for more information.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>parent</code></em>&#160;:</span></td>
+<td> Transient parent of the dialog, or <code class="literal">NULL</code>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>title</code></em>&#160;:</span></td>
+<td> Title of the dialog, or <code class="literal">NULL</code>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon_id</code></em>&#160;:</span></td>
+<td> Gtk stock icon to show in the dialog
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>primary_text</code></em>&#160;:</span></td>
+<td> Text shown in large bold font
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>secondary_text</code></em>&#160;:</span></td>
+<td> Text shown in normal font
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>first_button_type</code></em>&#160;:</span></td>
+<td> Type of the first button, or <code class="literal">NULL</code>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>...</code></em>&#160;:</span></td>
+<td> <code class="literal">NULL</code> ended list of parameters and response ID
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> The selected response id.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608492"></a><h3>
+<a name="xfce-create-header"></a>xfce_create_header ()</h3>
+<a class="indexterm" name="id2608501"></a><pre class="programlisting">GtkWidget*  xfce_create_header              (GdkPixbuf *icon,
+                                             const gchar *text);</pre>
+<p>
+Creates a header with an optional <em class="parameter"><code>icon</code></em> (may be NULL) in larger bold
+font. Background and foreground colors are taken from Gtk+ style.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon</code></em>&#160;:</span></td>
+<td> a GdkPixbuf or NULL if no icon should be displayed in the header.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>text</code></em>&#160;:</span></td>
+<td> a text to be displayed in the header.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the container widget that contains the header widgets.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608651"></a><h3>
+<a name="xfce-create-header-with-image"></a>xfce_create_header_with_image ()</h3>
+<a class="indexterm" name="id2608661"></a><pre class="programlisting">GtkWidget*  xfce_create_header_with_image   (GtkWidget *image,
+                                             const gchar *text);</pre>
+<p>
+Creates a header with an optional <em class="parameter"><code>image</code></em> (may be NULL) in larger bold
+font. Background and foreground colors are taken from Gtk+ style.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>image</code></em>&#160;:</span></td>
+<td> a GtkImage or NULL if no image should be displayed in the header.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>text</code></em>&#160;:</span></td>
+<td> the text to be displayed in the header.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the container widget that contains the header widgets.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608743"></a><h3>
+<a name="xfce-create-mixed-button"></a>xfce_create_mixed_button ()</h3>
+<a class="indexterm" name="id2608752"></a><pre class="programlisting">GtkWidget*  xfce_create_mixed_button        (const gchar *stock,
+                                             const gchar *text);</pre>
+<p>
+Creates a button with both <em class="parameter"><code>stock</code></em> icon and <em class="parameter"><code>text</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>stock</code></em>&#160;:</span></td>
+<td> a stock item name.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>text</code></em>&#160;:</span></td>
+<td> a text to display.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly created mixed button widget.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2608837"></a><h3>
+<a name="xfce-create-small-label"></a>xfce_create_small_label ()</h3>
+<a class="indexterm" name="id2608845"></a><pre class="programlisting">GtkWidget*  xfce_create_small_label         (const gchar *text);</pre>
+<p>
+Creates a small italic label using Gtk's markup functionality.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>text</code></em>&#160;:</span></td>
+<td> label text.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly created label.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfcegui4-core.html"><b>&lt;&lt;&#160;Xfce GUI Core Reference</b></a></td>
+<td align="right"><a accesskey="n" href="XfceAboutDialog.html"><b>XfceAboutDialog&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

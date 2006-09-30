@@ -1,0 +1,241 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarxPreferencesProvider</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="up" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="prev" href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider">
+<link rel="next" href="ThunarxRenamerProvider.html" title="ThunarxRenamerProvider">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="part" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
+<link rel="part" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
+<link rel="part" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="part" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="ThunarxPropertyPageProvider.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="thunarx-providers.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar Extensions Reference Manual</th>
+<td><a accesskey="n" href="ThunarxRenamerProvider.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="ThunarxPreferencesProvider"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">ThunarxPreferencesProvider</span></h2>
+<p>ThunarxPreferencesProvider &#8212; The interface to extensions that provide preferences</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1" lang="en">
+<a name="id2625808"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunarx/thunarx.h&gt;
+
+
+            <a href="ThunarxPreferencesProvider.html#ThunarxPreferencesProviderIface">ThunarxPreferencesProviderIface</a>;
+            <a href="ThunarxPreferencesProvider.html#ThunarxPreferencesProvider-struct">ThunarxPreferencesProvider</a>;
+GList*      <a href="ThunarxPreferencesProvider.html#thunarx-preferences-provider-get-actions">thunarx_preferences_provider_get_actions</a>
+                                            (<a href="ThunarxPreferencesProvider.html" title="ThunarxPreferencesProvider">ThunarxPreferencesProvider</a> *provider,
+                                             GtkWidget *window);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2626138"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GInterface
+   +----ThunarxPreferencesProvider
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2627590"></a><h2>Prerequisites</h2>
+<p>
+ThunarxPreferencesProvider requires
+ GObject.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2627606"></a><h2>Description</h2>
+<p>
+  The ThunarxPreferencesProvider interface is implemented by extensions that
+  want to register additional actions in the preferences menu of the file
+  manager. In general this should only be done by extensions that are closely
+  tied to the file manager (for example, the <code class="literal">thunar-uca</code> is
+  such an extension, while an extension that just adds <span class="guimenuitem">Compress
+  file</span> and <span class="guimenuitem">Uncompress file</span> to the
+  context menu of compressed files should not add their own preferences to
+  the file manager menu, because it should use desktop-wide settings for
+  archive managers instead).
+</p>
+<p>
+  The <span class="type">GtkAction</span>s returned from the
+  <a href="ThunarxPreferencesProvider.html#thunarx-preferences-provider-get-actions"><code class="function">thunarx_preferences_provider_get_actions()</code></a> method must be namespaced with the
+  model to avoid collision with internal file manager actions and actions provided
+  by other extensions. For example, the preferences action provided by the
+  <code class="literal">thunar-uca</code> extension is called
+  <code class="literal">ThunarUca::manage-actions</code>.
+</p>
+<div class="example">
+<a name="id2627664"></a><p class="title"><b>Example&#160;6.&#160;Preferences provider example</b></p>
+<pre class="programlisting">
+static void hello_preferences_provider_init (ThunarxPreferencesProviderIface *iface);
+static void hello_get_actions               (ThunarxPreferencesProvider      *provider,
+                                             GtkWidget                       *window);
+
+THUNARX_DEFINE_TYPE_WITH_CODE (Hello, hello, G_TYPE_OBJECT,
+                               THUNARX_IMPLEMENT_INTERFACE (THUNARX_TYPE_PREFERENCES_PROVIDER,
+                                                            hello_preferences_provider_init));
+
+static void
+hello_preferences_provider_init (ThunarxPreferencesProviderIface *iface)
+{
+  iface-&gt;get_actions = hello_get_actions;
+}
+
+static void
+hello_activated (GtkWidget *window)
+{
+  GtkWidget *dialog;
+
+  dialog = gtk_message_dialog_new (GTK_WINDOW (window),
+                                   GTK_DIALOG_MODAL
+                                   | GTK_DIALOG_DESTROY_WITH_PARENT,
+                                   GTK_MESSAGE_INFO,
+                                   GTK_BUTTONS_OK,
+                                   "Hello World!");
+  gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_destroy (dialog);
+}
+
+static GList*
+hello_get_actions (ThunarxPreferencesProvider *provider,
+                   GtkWidget                  *window)
+{
+  GtkAction *action;
+  GClosure  *closure;
+
+  action = gtk_action_new ("Hello::say-hello", "Say hello", "Say hello", NULL);
+  closure = g_cclosure_object_new_swap (G_CALLBACK (hello_activated), G_OBJECT (window));
+  g_signal_connect_closure (G_OBJECT (action), "activate", closure, TRUE);
+
+  return g_list_prepend (NULL, action);
+}
+  </pre>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2627676"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2627682"></a><h3>
+<a name="ThunarxPreferencesProviderIface"></a>ThunarxPreferencesProviderIface</h3>
+<a class="indexterm" name="id2627690"></a><pre class="programlisting">typedef struct {
+  GList *(*get_actions) (ThunarxPreferencesProvider *provider,
+                         GtkWidget                  *window);
+} ThunarxPreferencesProviderIface;
+</pre>
+<p>
+  Interface with virtual methods implementation by extensions that
+  want to install preferences actions in the file managers menu.
+</p>
+<p>
+  Providers don't need to implement all of the virtual methods listed
+  in the interface.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="structfield"><code>get_actions</code></em>&#160;()</span></td>
+<td>See <a href="ThunarxPreferencesProvider.html#thunarx-preferences-provider-get-actions"><code class="function">thunarx_preferences_provider_get_actions()</code></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2627873"></a><h3>
+<a name="ThunarxPreferencesProvider-struct"></a>ThunarxPreferencesProvider</h3>
+<a class="indexterm" name="id2627883"></a><pre class="programlisting">typedef struct _ThunarxPreferencesProvider ThunarxPreferencesProvider;</pre>
+<p>
+  Preferences provider type.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2627897"></a><h3>
+<a name="thunarx-preferences-provider-get-actions"></a>thunarx_preferences_provider_get_actions ()</h3>
+<a class="indexterm" name="id2627909"></a><pre class="programlisting">GList*      thunarx_preferences_provider_get_actions
+                                            (<a href="ThunarxPreferencesProvider.html" title="ThunarxPreferencesProvider">ThunarxPreferencesProvider</a> *provider,
+                                             GtkWidget *window);</pre>
+<p>
+Returns the list of <span class="type">GtkAction</span>s that <em class="parameter"><code>provider</code></em> has to offer
+as preferences within <em class="parameter"><code>window</code></em>. These actions will usually be added
+to the builtin list of preferences in the "Edit" menu of the file
+manager's <em class="parameter"><code>window</code></em>.
+</p>
+<p>
+Plugin writers that implement this interface should make sure to
+choose descriptive action names and tooltips, and not to crowd the
+"Edit" menu too much. That said, think twice before implementing
+this interface, as too many preference actions will render the
+file manager useless over time!
+</p>
+<p>
+The caller is responsible to free the returned list of actions using
+something like this when no longer needed:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>provider</code></em>&#160;:</span></td>
+<td> a <a href="ThunarxPreferencesProvider.html" title="ThunarxPreferencesProvider"><span class="type">ThunarxPreferencesProvider</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> the <span class="type">GtkWindow</span> within which the actions will be used.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <span class="type">GtkAction</span>s that <em class="parameter"><code>provider</code></em> has
+              to offer as preferences within <em class="parameter"><code>window</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="ThunarxPropertyPageProvider.html"><b>&lt;&lt;&#160;ThunarxPropertyPageProvider</b></a></td>
+<td align="right"><a accesskey="n" href="ThunarxRenamerProvider.html"><b>ThunarxRenamerProvider&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

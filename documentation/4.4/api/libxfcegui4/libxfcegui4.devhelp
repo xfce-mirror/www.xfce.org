@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="libxfcegui4 Reference Manual" link="index.html" author="" name="libxfcegui4">
+  <chapters>
+    <sub name="libxfcegui4 Overview" link="reference.html"/>
+    <sub name="Xfce GUI Fundamentals" link="libxfcegui4-fundamentals.html">
+      <sub name="Standard Macros" link="libxfcegui4-Standard-Macros.html"/>
+      <sub name="xfce-exec" link="libxfcegui4-xfce-exec.html"/>
+      <sub name="Xfce Gdk extensions" link="libxfcegui4-Xfce-Gdk-extensions.html"/>
+      <sub name="Xfce Gtk+ extensions" link="libxfcegui4-Xfce-Gtk+-extensions.html"/>
+    </sub>
+    <sub name="Xfce GUI Netk Reference" link="libxfcegui4-netk.html"/>
+    <sub name="Xfce GUI Core Reference" link="libxfcegui4-core.html">
+      <sub name="Dialogs" link="libxfcegui4-dialogs.html"/>
+      <sub name="XfceAboutDialog" link="XfceAboutDialog.html"/>
+      <sub name="XfceAppMenuItem" link="XfceAppMenuItem.html"/>
+      <sub name="XfceFileChooser" link="libxfcegui4-XfceFileChooser.html"/>
+      <sub name="XfceFramebox" link="XfceFramebox.html"/>
+      <sub name="XfceHeading" link="XfceHeading.html"/>
+      <sub name="XfceIconTheme" link="XfceIconTheme.html"/>
+      <sub name="XfceTitledDialog" link="XfceTitledDialog.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <function name="LIBXFCEGUI4_MAJOR_VERSION" link="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MAJOR-VERSION:CAPS"/>
+    <function name="LIBXFCEGUI4_MINOR_VERSION" link="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MINOR-VERSION:CAPS"/>
+    <function name="LIBXFCEGUI4_MICRO_VERSION" link="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-MICRO-VERSION:CAPS"/>
+    <function name="LIBXFCEGUI4_CHECK_VERSION()" link="libxfcegui4-Standard-Macros.html#LIBXFCEGUI4-CHECK-VERSION:CAPS"/>
+    <function name="xfce_exec ()" link="libxfcegui4-xfce-exec.html#xfce-exec"/>
+    <function name="xfce_exec_with_envp ()" link="libxfcegui4-xfce-exec.html#xfce-exec-with-envp"/>
+    <function name="xfce_gdk_display_get_fullname ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-display-get-fullname"/>
+    <function name="xfce_gdk_display_locate_monitor_with_pointer ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-display-locate-monitor-with-pointer"/>
+    <function name="xfce_gdk_screen_get_fullname ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-screen-get-fullname"/>
+    <function name="xfce_gdk_spawn_on_screen ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-spawn-on-screen"/>
+    <function name="xfce_gdk_spawn_on_screen_with_pipes ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-spawn-on-screen-with-pipes"/>
+    <function name="xfce_gdk_spawn_command_line_on_screen ()" link="libxfcegui4-Xfce-Gdk-extensions.html#xfce-gdk-spawn-command-line-on-screen"/>
+    <function name="xfce_gtk_window_center_on_monitor ()" link="libxfcegui4-Xfce-Gtk+-extensions.html#xfce-gtk-window-center-on-monitor"/>
+    <function name="xfce_gtk_window_center_on_monitor_with_pointer ()" link="libxfcegui4-Xfce-Gtk+-extensions.html#xfce-gtk-window-center-on-monitor-with-pointer"/>
+    <function name="xfce_err ()" link="libxfcegui4-dialogs.html#xfce-err"/>
+    <function name="xfce_verr ()" link="libxfcegui4-dialogs.html#xfce-verr"/>
+    <function name="xfce_warn ()" link="libxfcegui4-dialogs.html#xfce-warn"/>
+    <function name="xfce_vwarn ()" link="libxfcegui4-dialogs.html#xfce-vwarn"/>
+    <function name="xfce_info ()" link="libxfcegui4-dialogs.html#xfce-info"/>
+    <function name="xfce_vinfo ()" link="libxfcegui4-dialogs.html#xfce-vinfo"/>
+    <function name="xfce_confirm ()" link="libxfcegui4-dialogs.html#xfce-confirm"/>
+    <function name="xfce_message_dialog ()" link="libxfcegui4-dialogs.html#xfce-message-dialog"/>
+    <function name="xfce_create_header ()" link="libxfcegui4-dialogs.html#xfce-create-header"/>
+    <function name="xfce_create_header_with_image ()" link="libxfcegui4-dialogs.html#xfce-create-header-with-image"/>
+    <function name="xfce_create_mixed_button ()" link="libxfcegui4-dialogs.html#xfce-create-mixed-button"/>
+    <function name="xfce_create_small_label ()" link="libxfcegui4-dialogs.html#xfce-create-small-label"/>
+    <function name="XfceAboutInfo" link="XfceAboutDialog.html#XfceAboutInfo"/>
+    <function name="XfceAboutDialog" link="XfceAboutDialog.html#XfceAboutDialog-struct"/>
+    <function name="XFCE_COPYRIGHT_TEXT()" link="XfceAboutDialog.html#XFCE-COPYRIGHT-TEXT:CAPS"/>
+    <function name="xfce_about_info_new ()" link="XfceAboutDialog.html#xfce-about-info-new"/>
+    <function name="xfce_about_info_free ()" link="XfceAboutDialog.html#xfce-about-info-free"/>
+    <function name="xfce_about_info_set_homepage ()" link="XfceAboutDialog.html#xfce-about-info-set-homepage"/>
+    <function name="xfce_about_info_add_credit ()" link="XfceAboutDialog.html#xfce-about-info-add-credit"/>
+    <function name="xfce_about_dialog_new ()" link="XfceAboutDialog.html#xfce-about-dialog-new"/>
+    <function name="The &quot;copyright&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--copyright"/>
+    <function name="The &quot;description&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--description"/>
+    <function name="The &quot;homepage&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--homepage"/>
+    <function name="The &quot;icon&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--icon"/>
+    <function name="The &quot;license&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--license"/>
+    <function name="The &quot;program&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--program"/>
+    <function name="The &quot;version&quot; property" link="XfceAboutDialog.html#XfceAboutDialog--version"/>
+    <function name="XfceAppMenuItem" link="XfceAppMenuItem.html#XfceAppMenuItem-struct"/>
+    <function name="xfce_app_menu_item_new ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new"/>
+    <function name="xfce_app_menu_item_new_with_label ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new-with-label"/>
+    <function name="xfce_app_menu_item_new_with_mnemonic ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new-with-mnemonic"/>
+    <function name="xfce_app_menu_item_new_with_command ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new-with-command"/>
+    <function name="xfce_app_menu_item_new_full ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new-full"/>
+    <function name="xfce_app_menu_item_new_from_desktop_entry ()" link="XfceAppMenuItem.html#xfce-app-menu-item-new-from-desktop-entry"/>
+    <function name="xfce_app_menu_item_set_name ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-name"/>
+    <function name="xfce_app_menu_item_set_icon_name ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-icon-name"/>
+    <function name="xfce_app_menu_item_set_command ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-command"/>
+    <function name="xfce_app_menu_item_set_needs_term ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-needs-term"/>
+    <function name="xfce_app_menu_item_set_startup_notification ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-startup-notification"/>
+    <function name="xfce_app_menu_item_set_image()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-image"/>
+    <function name="xfce_app_menu_item_get_name ()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-name"/>
+    <function name="xfce_app_menu_item_get_icon_name ()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-icon-name"/>
+    <function name="xfce_app_menu_item_get_command ()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-command"/>
+    <function name="xfce_app_menu_item_get_needs_term ()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-needs-term"/>
+    <function name="xfce_app_menu_item_get_startup_notification ()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-startup-notification"/>
+    <function name="xfce_app_menu_item_get_image()" link="XfceAppMenuItem.html#xfce-app-menu-item-get-image"/>
+    <function name="xfce_app_menu_item_set_icon_size ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-icon-size"/>
+    <function name="xfce_app_menu_item_set_icon_theme_name ()" link="XfceAppMenuItem.html#xfce-app-menu-item-set-icon-theme-name"/>
+    <function name="The &quot;command&quot; property" link="XfceAppMenuItem.html#XfceAppMenuItem--command"/>
+    <function name="The &quot;icon-name&quot; property" link="XfceAppMenuItem.html#XfceAppMenuItem--icon-name"/>
+    <function name="The &quot;needs-term&quot; property" link="XfceAppMenuItem.html#XfceAppMenuItem--needs-term"/>
+    <function name="XfceFileChooser" link="libxfcegui4-XfceFileChooser.html#XfceFileChooser"/>
+    <function name="enum XfceFileChooserAction" link="libxfcegui4-XfceFileChooser.html#XfceFileChooserAction"/>
+    <function name="PreviewUpdateFunc ()" link="libxfcegui4-XfceFileChooser.html#PreviewUpdateFunc"/>
+    <function name="xfce_file_chooser_dialog_new ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-dialog-new"/>
+    <function name="xfce_file_chooser_new ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-new"/>
+    <function name="xfce_file_chooser_set_select_multiple ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-select-multiple"/>
+    <function name="xfce_file_chooser_get_select_multiple ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-select-multiple"/>
+    <function name="xfce_file_chooser_set_current_name ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-current-name"/>
+    <function name="xfce_file_chooser_get_filename ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-filename"/>
+    <function name="xfce_file_chooser_set_filename ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-filename"/>
+    <function name="xfce_file_chooser_get_filenames ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-filenames"/>
+    <function name="xfce_file_chooser_set_current_folder ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-current-folder"/>
+    <function name="xfce_file_chooser_get_current_folder ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-current-folder"/>
+    <function name="xfce_file_chooser_set_preview_widget ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-preview-widget"/>
+    <function name="xfce_file_chooser_get_preview_widget ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-preview-widget"/>
+    <function name="xfce_file_chooser_set_preview_callback ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-preview-callback"/>
+    <function name="xfce_file_chooser_set_preview_widget_active ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-preview-widget-active"/>
+    <function name="xfce_file_chooser_get_preview_widget_active ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-preview-widget-active"/>
+    <function name="xfce_file_chooser_set_use_preview_label ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-use-preview-label"/>
+    <function name="xfce_file_chooser_set_extra_widget ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-extra-widget"/>
+    <function name="xfce_file_chooser_get_extra_widget ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-extra-widget"/>
+    <function name="xfce_file_chooser_add_filter ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-add-filter"/>
+    <function name="xfce_file_chooser_remove_filter ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-remove-filter"/>
+    <function name="xfce_file_chooser_set_filter ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-filter"/>
+    <function name="xfce_file_chooser_set_local_only ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-set-local-only"/>
+    <function name="xfce_file_chooser_get_local_only ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-get-local-only"/>
+    <function name="xfce_file_chooser_add_shortcut_folder ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-add-shortcut-folder"/>
+    <function name="xfce_file_chooser_remove_shortcut_folder ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-chooser-remove-shortcut-folder"/>
+    <function name="XfceFileFilter" link="libxfcegui4-XfceFileChooser.html#XfceFileFilter"/>
+    <function name="xfce_file_filter_new ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-filter-new"/>
+    <function name="xfce_file_filter_set_name ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-filter-set-name"/>
+    <function name="xfce_file_filter_add_mime_type ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-filter-add-mime-type"/>
+    <function name="xfce_file_filter_add_pattern ()" link="libxfcegui4-XfceFileChooser.html#xfce-file-filter-add-pattern"/>
+    <function name="XfceFramebox" link="XfceFramebox.html#XfceFramebox-struct"/>
+    <function name="xfce_framebox_new ()" link="XfceFramebox.html#xfce-framebox-new"/>
+    <function name="xfce_framebox_add ()" link="XfceFramebox.html#xfce-framebox-add"/>
+    <function name="XfceHeading" link="XfceHeading.html#XfceHeading-struct"/>
+    <function name="xfce_heading_new ()" link="XfceHeading.html#xfce-heading-new"/>
+    <function name="xfce_heading_get_icon ()" link="XfceHeading.html#xfce-heading-get-icon"/>
+    <function name="xfce_heading_set_icon ()" link="XfceHeading.html#xfce-heading-set-icon"/>
+    <function name="xfce_heading_get_icon_name ()" link="XfceHeading.html#xfce-heading-get-icon-name"/>
+    <function name="xfce_heading_set_icon_name ()" link="XfceHeading.html#xfce-heading-set-icon-name"/>
+    <function name="xfce_heading_get_subtitle ()" link="XfceHeading.html#xfce-heading-get-subtitle"/>
+    <function name="xfce_heading_set_subtitle ()" link="XfceHeading.html#xfce-heading-set-subtitle"/>
+    <function name="xfce_heading_get_title ()" link="XfceHeading.html#xfce-heading-get-title"/>
+    <function name="xfce_heading_set_title ()" link="XfceHeading.html#xfce-heading-set-title"/>
+    <function name="The &quot;icon&quot; property" link="XfceHeading.html#XfceHeading--icon"/>
+    <function name="The &quot;icon-name&quot; property" link="XfceHeading.html#XfceHeading--icon-name"/>
+    <function name="The &quot;subtitle&quot; property" link="XfceHeading.html#XfceHeading--subtitle"/>
+    <function name="The &quot;title&quot; property" link="XfceHeading.html#XfceHeading--title"/>
+    <function name="XfceIconTheme" link="XfceIconTheme.html#XfceIconTheme-struct"/>
+    <function name="enum XfceIconThemeCategory" link="XfceIconTheme.html#XfceIconThemeCategory"/>
+    <function name="xfce_icon_theme_get_for_screen ()" link="XfceIconTheme.html#xfce-icon-theme-get-for-screen"/>
+    <function name="xfce_icon_theme_lookup ()" link="XfceIconTheme.html#xfce-icon-theme-lookup"/>
+    <function name="xfce_icon_theme_lookup_list ()" link="XfceIconTheme.html#xfce-icon-theme-lookup-list"/>
+    <function name="xfce_icon_theme_lookup_category ()" link="XfceIconTheme.html#xfce-icon-theme-lookup-category"/>
+    <function name="xfce_icon_theme_load ()" link="XfceIconTheme.html#xfce-icon-theme-load"/>
+    <function name="xfce_icon_theme_load_list ()" link="XfceIconTheme.html#xfce-icon-theme-load-list"/>
+    <function name="xfce_icon_theme_load_category ()" link="XfceIconTheme.html#xfce-icon-theme-load-category"/>
+    <function name="xfce_icon_theme_get_search_path ()" link="XfceIconTheme.html#xfce-icon-theme-get-search-path"/>
+    <function name="xfce_icon_theme_set_search_path ()" link="XfceIconTheme.html#xfce-icon-theme-set-search-path"/>
+    <function name="xfce_icon_theme_prepend_search_path ()" link="XfceIconTheme.html#xfce-icon-theme-prepend-search-path"/>
+    <function name="xfce_icon_theme_append_search_path ()" link="XfceIconTheme.html#xfce-icon-theme-append-search-path"/>
+    <function name="xfce_icon_theme_register_category ()" link="XfceIconTheme.html#xfce-icon-theme-register-category"/>
+    <function name="xfce_icon_theme_unregister_category ()" link="XfceIconTheme.html#xfce-icon-theme-unregister-category"/>
+    <function name="The &quot;changed&quot; signal" link="XfceIconTheme.html#XfceIconTheme-changed"/>
+    <function name="XfceTitledDialog" link="XfceTitledDialog.html#XfceTitledDialog-struct"/>
+    <function name="xfce_titled_dialog_new ()" link="XfceTitledDialog.html#xfce-titled-dialog-new"/>
+    <function name="xfce_titled_dialog_new_with_buttons ()" link="XfceTitledDialog.html#xfce-titled-dialog-new-with-buttons"/>
+    <function name="xfce_titled_dialog_get_subtitle ()" link="XfceTitledDialog.html#xfce-titled-dialog-get-subtitle"/>
+    <function name="xfce_titled_dialog_set_subtitle ()" link="XfceTitledDialog.html#xfce-titled-dialog-set-subtitle"/>
+    <function name="The &quot;subtitle&quot; property" link="XfceTitledDialog.html#XfceTitledDialog--subtitle"/>
+  </functions>
+</book>

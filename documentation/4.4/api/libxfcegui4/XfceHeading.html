@@ -1,0 +1,455 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceHeading</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="prev" href="XfceFramebox.html" title="XfceFramebox">
+<link rel="next" href="XfceIconTheme.html" title="XfceIconTheme">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="XfceFramebox.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-core.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+<td><a accesskey="n" href="XfceIconTheme.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="XfceHeading"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">XfceHeading</span></h2>
+<p>XfceHeading &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+
+            <a href="XfceHeading.html#XfceHeading-struct">XfceHeading</a>;
+GtkWidget*  <a href="XfceHeading.html#xfce-heading-new">xfce_heading_new</a>                (void);
+GdkPixbuf*  <a href="XfceHeading.html#xfce-heading-get-icon">xfce_heading_get_icon</a>           (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);
+void        <a href="XfceHeading.html#xfce-heading-set-icon">xfce_heading_set_icon</a>           (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             GdkPixbuf *icon);
+const gchar* <a href="XfceHeading.html#xfce-heading-get-icon-name">xfce_heading_get_icon_name</a>     (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);
+void        <a href="XfceHeading.html#xfce-heading-set-icon-name">xfce_heading_set_icon_name</a>      (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *icon_name);
+const gchar* <a href="XfceHeading.html#xfce-heading-get-subtitle">xfce_heading_get_subtitle</a>      (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);
+void        <a href="XfceHeading.html#xfce-heading-set-subtitle">xfce_heading_set_subtitle</a>       (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *subtitle);
+const gchar* <a href="XfceHeading.html#xfce-heading-get-title">xfce_heading_get_title</a>         (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);
+void        <a href="XfceHeading.html#xfce-heading-set-title">xfce_heading_set_title</a>          (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *title);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2632024"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----GInitiallyUnowned
+         +----GtkObject
+               +----GtkWidget
+                     +----XfceHeading
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2632058"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceHeading implements
+ AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2632073"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="XfceHeading.html#XfceHeading--icon">icon</a>"                 GdkPixbuf             : Read / Write
+  "<a href="XfceHeading.html#XfceHeading--icon-name">icon-name</a>"            gchararray            : Read / Write
+  "<a href="XfceHeading.html#XfceHeading--subtitle">subtitle</a>"             gchararray            : Read / Write
+  "<a href="XfceHeading.html#XfceHeading--title">title</a>"                gchararray            : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2632269"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2632279"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2632284"></a><h3>
+<a name="XfceHeading-struct"></a>XfceHeading</h3>
+<a class="indexterm" name="id2632293"></a><pre class="programlisting">typedef struct _XfceHeading XfceHeading;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632308"></a><h3>
+<a name="xfce-heading-new"></a>xfce_heading_new ()</h3>
+<a class="indexterm" name="id2632316"></a><pre class="programlisting">GtkWidget*  xfce_heading_new                (void);</pre>
+<p>
+Allocates a new <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a> instance.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632370"></a><h3>
+<a name="xfce-heading-get-icon"></a>xfce_heading_get_icon ()</h3>
+<a class="indexterm" name="id2632378"></a><pre class="programlisting">GdkPixbuf*  xfce_heading_get_icon           (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);</pre>
+<p>
+Returns the <span class="type">GdkPixbuf</span> that was set as icon for
+<em class="parameter"><code>heading</code></em> or <code class="literal">NULL</code> if no icon is set. The returned
+<span class="type">GdkPixbuf</span> object is owned by <em class="parameter"><code>heading</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the icon for <em class="parameter"><code>heading</code></em>, or <code class="literal">NULL</code>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632484"></a><h3>
+<a name="xfce-heading-set-icon"></a>xfce_heading_set_icon ()</h3>
+<a class="indexterm" name="id2632492"></a><pre class="programlisting">void        xfce_heading_set_icon           (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             GdkPixbuf *icon);</pre>
+<p>
+If <em class="parameter"><code>icon</code></em> is not <code class="literal">NULL</code>, <em class="parameter"><code>heading</code></em> will display the new <em class="parameter"><code>icon</code></em>
+aside the title. Else, if <em class="parameter"><code>icon</code></em> is <code class="literal">NULL</code> no icon is displayed
+unless an icon name was set with <a href="XfceHeading.html#xfce-heading-set-icon-name"><code class="function">xfce_heading_set_icon_name()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon</code></em>&#160;:</span></td>
+<td> the new icon or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632614"></a><h3>
+<a name="xfce-heading-get-icon-name"></a>xfce_heading_get_icon_name ()</h3>
+<a class="indexterm" name="id2632622"></a><pre class="programlisting">const gchar* xfce_heading_get_icon_name     (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);</pre>
+<p>
+Returns the icon name previously set by a call to
+<a href="XfceHeading.html#xfce-heading-set-icon-name"><code class="function">xfce_heading_set_icon_name()</code></a> or <code class="literal">NULL</code> if no icon name
+is set for <em class="parameter"><code>heading</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the icon name for <em class="parameter"><code>heading</code></em>, or <code class="literal">NULL</code>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632720"></a><h3>
+<a name="xfce-heading-set-icon-name"></a>xfce_heading_set_icon_name ()</h3>
+<a class="indexterm" name="id2632728"></a><pre class="programlisting">void        xfce_heading_set_icon_name      (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *icon_name);</pre>
+<p>
+If <em class="parameter"><code>icon_name</code></em> is not <code class="literal">NULL</code> and the "icon" property is set to
+<code class="literal">NULL</code>, see <a href="XfceHeading.html#xfce-heading-set-icon"><code class="function">xfce_heading_set_icon()</code></a>, the <em class="parameter"><code>heading</code></em> will display
+the name icon identified by the <em class="parameter"><code>icon_name</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon_name</code></em>&#160;:</span></td>
+<td> the new icon name, or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2632845"></a><h3>
+<a name="xfce-heading-get-subtitle"></a>xfce_heading_get_subtitle ()</h3>
+<a class="indexterm" name="id2632854"></a><pre class="programlisting">const gchar* xfce_heading_get_subtitle      (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);</pre>
+<p>
+Returns the sub title displayed below the
+main title of the <em class="parameter"><code>heading</code></em>, or <code class="literal">NULL</code> if
+no subtitle is set.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the subtitle of <em class="parameter"><code>heading</code></em>, or <code class="literal">NULL</code>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633011"></a><h3>
+<a name="xfce-heading-set-subtitle"></a>xfce_heading_set_subtitle ()</h3>
+<a class="indexterm" name="id2633019"></a><pre class="programlisting">void        xfce_heading_set_subtitle       (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *subtitle);</pre>
+<p>
+If <em class="parameter"><code>subtitle</code></em> is not <code class="literal">NULL</code> and not the empty string, it
+will be displayed by <em class="parameter"><code>heading</code></em> below the main title.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>subtitle</code></em>&#160;:</span></td>
+<td> the new subtitle for <em class="parameter"><code>heading</code></em>, or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633190"></a><h3>
+<a name="xfce-heading-get-title"></a>xfce_heading_get_title ()</h3>
+<a class="indexterm" name="id2633198"></a><pre class="programlisting">const gchar* xfce_heading_get_title         (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading);</pre>
+<p>
+Returns the title displayed by the <em class="parameter"><code>heading</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the title displayed by the <em class="parameter"><code>heading</code></em>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633276"></a><h3>
+<a name="xfce-heading-set-title"></a>xfce_heading_set_title ()</h3>
+<a class="indexterm" name="id2633285"></a><pre class="programlisting">void        xfce_heading_set_title          (<a href="XfceHeading.html" title="XfceHeading">XfceHeading</a> *heading,
+                                             const gchar *title);</pre>
+<p>
+Sets the title displayed by the <em class="parameter"><code>heading</code></em> to the
+specified <em class="parameter"><code>title</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>heading</code></em>&#160;:</span></td>
+<td> a <a href="XfceHeading.html" title="XfceHeading"><span class="type">XfceHeading</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>title</code></em>&#160;:</span></td>
+<td> the new title for the <em class="parameter"><code>heading</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2633378"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2633383"></a><h3>
+<a name="XfceHeading--icon"></a>The "<code class="literal">icon</code>" property</h3>
+<pre class="programlisting">  "icon"                 GdkPixbuf             : Read / Write</pre>
+<p>
+The <span class="type">GdkPixbuf</span> to display as icon, or <code class="literal">NULL</code> to use the
+"icon-name" property.</p>
+<p>
+
+</p>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633429"></a><h3>
+<a name="XfceHeading--icon-name"></a>The "<code class="literal">icon-name</code>" property</h3>
+<pre class="programlisting">  "icon-name"            gchararray            : Read / Write</pre>
+<p>
+If the "icon" property value is <code class="literal">NULL</code> this is the name of
+the icon to display instead (looked up using the icon theme).
+If this property is also <code class="literal">NULL</code> or the specified icon does not
+exist in the selected icon theme, no icon will be displayed.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633478"></a><h3>
+<a name="XfceHeading--subtitle"></a>The "<code class="literal">subtitle</code>" property</h3>
+<pre class="programlisting">  "subtitle"             gchararray            : Read / Write</pre>
+<p>
+The sub title that should be displayed below the
+title. May be <code class="literal">NULL</code> or the empty string to display
+only the title.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2633521"></a><h3>
+<a name="XfceHeading--title"></a>The "<code class="literal">title</code>" property</h3>
+<pre class="programlisting">  "title"                gchararray            : Read / Write</pre>
+<p>
+The title text to display in the heading.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  4.4.0
+</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="XfceFramebox.html"><b>&lt;&lt;&#160;XfceFramebox</b></a></td>
+<td align="right"><a accesskey="n" href="XfceIconTheme.html"><b>XfceIconTheme&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>
