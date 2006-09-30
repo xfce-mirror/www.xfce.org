@@ -8,5 +8,6 @@
 	#RewriteRule ^(.+)$ /index.php/$1 [L,QSA]
 </IfModule>
 <IfModule mod_alias.c>
+	RedirectMatch documentation/4.2/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
 	RedirectMatch documentation/4.4/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
 </IfModule>
