@@ -3,7 +3,7 @@
 		<ul>
 			<li><a href="/documentation/4.4/userguide/">User Guide</a></li>
 			<li><a href="/documentation/4.4/manuals/">Manuals</a></li>
-			<li><a href="/documentation/4.4/api/">Developers (API)</a></li>
+			<li><a href="/documentation/4.4/api">Developers (API)</a></li>
 		</ul>
 	</li>
 	<li><a href="/documentation/faq/">FAQs</a>

@@ -12,7 +12,7 @@
         <li><a href="/documentation/4.4/userguide/xfce4-install">Installing Xfce 4</a></li>
         <li><a href="/documentation/4.4/userguide/xfce4-copyright">Copyright and License</a></li>
       </ul>
-      <h2><a href="/documentation/4.4/api/">Developers (API)</a></h2>
+      <h2><a href="/documentation/4.4/api">Developers (API)</a></h2>
       <ul>
         <li><a href="/documentation/4.4/api/libxfce4mcs/">libxfce4mcs</a></li>
         <li><a href="/documentation/4.4/api/libxfce4util/">libxfce4util</a></li>
@@ -21,6 +21,7 @@
         <li><a href="/documentation/4.4/api/libexo/">libexo</a></li>
         <li><a href="/documentation/4.4/api/thunar-vfs/">thunar-vfs</a></li>
         <li><a href="/documentation/4.4/api/thunarx/">thunarx</a></li>
+        <li><a href="/documentation/4.4/api/libxfprint/">libxfprint</a></li>
       </ul>
       <h2><a href="/documentation/requirements">Requirements</a></h2>
           <p>A detailed list of all Xfce dependencies.</p>
