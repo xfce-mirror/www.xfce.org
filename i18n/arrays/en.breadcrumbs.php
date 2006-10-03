@@ -10,6 +10,7 @@ $breadcrumbs = array (
     "faq"              => "FAQs",
     "userguide"        => "User Guide",
     "api"              => "Developers (API)",
+    "tour"             => "Xfce 4.4 Tour",
     
     # Common Xfce components
     "xfce4-panel"      => "Panel",
