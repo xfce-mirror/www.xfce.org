@@ -1,22 +1,12 @@
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
 <h1>Window Manager</h1>
-
-<h2>Description</h2>
-<table cellspacing="0">
-  <tr>
-    <td valign="top">
-      <p>The Xfce 4 window manager. It manages the placement of application
-        windows on the screen, provides beautiful window decorations, manages 
-        workspaces or virtual desktops, and natively supports multihead 
-        mode. It provides its own compositing manager (from the Xorg Composite 
-        extension) for true transparency and shadows, and a Window Manager 
-        Tweaks interface for advanced options. The Xfce 4 window manager also 
-        includes a keyboard shorcuts editor for user specific commands.</p>
-    </td>
-    <td valign="top" width="145">
-      <p><img src="/images/projects/xfwm4/xfwm4-tiny.png" alt="xfwm4" /></p>
-    </td>
-  </tr>
-</table>
+<p>The Xfce 4 window manager. It manages the placement of application
+  windows on the screen, provides beautiful window decorations, manages 
+  workspaces or virtual desktops, and natively supports multihead 
+  mode. It provides its own compositing manager (from the Xorg Composite 
+  extension) for true transparency and shadows, and a Window Manager 
+  Tweaks interface for advanced options. The Xfce 4 window manager also 
+  includes a keyboard shorcuts editor for user specific commands.</p>
 
 <h2>Features</h2>
 <ul>
@@ -50,9 +40,4 @@
 <ul>
   <li>Olivier Fourdan [fourdan at xfce.org]</li>
 </ul>
-
-<h2>Get and help out</h2>
-<p>You can report bugs at <a href="http://bugzilla.xfce.org/enter_bug.cgi"
-  >bugzilla.xfce.org</a>. Product <strong>Xfce</strong> and component 
-  <strong>xfwm4</strong>.</p>
 

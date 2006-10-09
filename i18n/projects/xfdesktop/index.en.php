@@ -1,6 +1,5 @@
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" /></div>
 <h1>Desktop Manager</h1>
-
-<h2>Description</h2>
 <p>The desktop background manager. This program sets the background image, 
   provides a right-click menu to launch applications and can optionnaly show 
   files (including application launchers) or iconified windows. It includes 
@@ -9,25 +8,20 @@
 
 <h2>Features</h2>
 <ul>
-  <li>Background
-    <ul>
-      <li>Plain color and gradient</li>
-      <li>Image with adjustable brightness</li>
-    </ul>
-  </li>
-  <li>Menu
-    <ul>
-      <li>Right click for default Xfce menu</li>
-      <li>Middle click for application list</li>
-      <li>Editable</li>
-    </ul>
-  </li>
-  <li>Icons
-    <ul>
-      <li>Iconified windows</li>
-      <li>Files and desktop entries (application launchers)</li>
-    </ul>
-  </li>
+  <li><strong>Background</strong><br />
+    Plain color and gradient<br />
+    Image with adjustable brightness</li>
+</ul>
+<ul>
+  <li><strong>Menu</strong><br />
+    Right click for default Xfce menu<br />
+    Middle click for application list<br />
+    Editable</li>
+</ul>
+<ul>
+  <li><strong>Icons</strong><br />
+    Iconified windows<br />
+    Files and desktop entries (application launchers)</li>
 </ul>
 
 <h2>Screenshots</h2>
@@ -62,9 +56,4 @@
 <ul>
   <li>Brian J. Tarricone [kelnos at xfce.org]</li>
 </ul>
-
-<h2>Get and help out</h2>
-<p>You can report bugs at <a href="http://bugzilla.xfce.org/enter_bug.cgi"
-  >bugzilla.xfce.org</a>. Product <strong>Xfce</strong> and component 
-  <strong>xfdesktop</strong>.</p>
 

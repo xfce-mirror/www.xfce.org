@@ -1,6 +1,6 @@
 <h1>Xfce Features</h1>
 <ul>
-  <li>Cross platform: Linux, NetBSD, FreeBSD, Solaris, Cygwin and MacOS X</li>
+  <li>Cross platform: Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin, and MacOS X</li>
   <li>Lightweight desktop environment</li>
   <li>Basic and lightweight applications</li>
   <li>Goodies for maximum features</li>

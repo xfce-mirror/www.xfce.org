@@ -1,6 +1,5 @@
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" /></div>
 <h1>Settings Manager</h1>
-
-<h2>Description</h2>
 <p>The settings manager. It provides the Multi-Channel Settings, a modular, host
   independent, network transparent and centralized configuration system. It runs
   in the background and provides global settings information to other Xfce 
@@ -39,9 +38,4 @@
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
   <li>Benedikt Meurer [benny at xfce.org]</li>
 </ul>
-
-<h2>Get and help out</h2>
-<p>You can report bugs at <a href="http://bugzilla.xfce.org/enter_bug.cgi"
-  >bugzilla.xfce.org</a>. Product <strong>Xfce</strong> and component 
-  <strong>xfce-mcs-manager</strong>.</p>
 

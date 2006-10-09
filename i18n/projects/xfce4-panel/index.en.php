@@ -1,6 +1,5 @@
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 <h1>Panel</h1>
-
-<h2>Description</h2>
 <p>The Xfce 4 panel. Xfce supports multiple panels, with many options for their
   position, appearance, transparency and behavior. There are many items 
   available by default to full fit a panel, like application launchers with 
@@ -92,10 +91,4 @@
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
 </ul>
-
-<h2>Get and help out</h2>
-<p>You can report bugs at <a href="http://bugzilla.xfce.org/enter_bug.cgi"
-  >bugzilla.xfce.org</a>. Product <strong>Xfce</strong> and component 
-  <strong>xfce4-panel</strong>.</p>
-
 
