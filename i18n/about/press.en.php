@@ -7,6 +7,16 @@
     <th width="60%" align="left"><h3>Link</h3></th>
   </tr>
   <tr>
+    <td align="left">2006-06-09</td>
+    <td align="left">LWN</td>
+    <td align="left"><a href="http://lwn.net/Articles/182966/" target="_blank">What next for the Xfce Project?</a></td>
+  </tr>
+  <tr>
+    <td align="left">2006-01-10</td>
+    <td align="left">Tuxmachines</td>
+    <td align="left"><a href="http://www.tuxmachines.org/node/6448" target="_blank">Xtra Fine Computing Environment: xfce4.4 beta 1.</a></td>
+  </tr>
+  <tr>
     <td align="left">2006-01-10</td>
     <td align="left">Blog, All about Linux </td>
     <td align="left"><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html" target="_blank">Xfce 4.2 - A light weight window manager heavy in features.</a></td>
