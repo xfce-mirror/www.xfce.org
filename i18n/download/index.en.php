@@ -47,8 +47,8 @@
   </tr>
   <tr>
     <td><img src="../../images/download/suse.png" alt="Suse" width="40" height="40" /></td>
-    <td><strong>Suse 9.3</strong><br />
-      <a href="http://www.students.oamk.fi/~olilju00/xfce4/" target="_blank">http://www.students.oamk.fi/~olilju00/xfce4/</a></td>
+    <td><strong>openSUSE (SUSE Linux)</strong><br />
+      <a href="http://en.opensuse.org/X11:xfce" target="_blank">Repositories for openSUSE (SUSE Linux)</a></td>
   </tr>
   <tr>
     <td><img src="../../images/download/mandriva.png" alt="Mandriva" width="40" height="40" /></td>
