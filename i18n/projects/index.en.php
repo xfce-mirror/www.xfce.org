@@ -1,3 +1,6 @@
+<?php
+    $top=true;
+?>
 <h1>Projects</h1>
 <p>The Xfce project contains several separated projects for each part of the desktop. Every project has it's own project page to give some more information.</p>
 
@@ -6,7 +9,7 @@
     <tr>
 	<td width="48" valign="top"><img src="../../images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></td>
 	<td width="33%" valign="top"><h3><a href="/projects/xfwm4/">Window Manager</a></h3>
-	    <p>It manages the placement of application windows on the screen, 
+	    <p>It manages the placement of application windows on the screen,
 	      provides window decorations and manages workspaces or virtual desktops.</p></td>
 	<td width="48" valign="top"><img src="../../images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfce4-panel/">Panel</a></h3>
@@ -22,7 +25,7 @@
 	    <p> The session manager controls the startup and shutdown of the Xfce Desktop Environment.</p>	</td>
     <td width="48" valign="top"><img src="../../images/projects/xfprint.png" alt="xfprint" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfprint/">Printing Helper</a></h3>
-        <p>Provides a graphical frontend for printing. Xfprint can use either 
+        <p>Provides a graphical frontend for printing. Xfprint can use either
           CUPS, BSD-LPR or a file as destination, and printers are retrieved from the printing system you choosed.</p></td>
     <td width="48" valign="top"><img src="../../images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfce-mcs-manager/">Settings Manager</a></h3>
@@ -31,7 +34,7 @@
     <tr>
 	<td width="48" valign="top"><img src="../../images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" /></td>
 	<td width="33%" valign="top"><h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
-        <p>Essential utilities and scripts. Provides an &quot;about&quot; dialog, a run dialog and several important 
+        <p>Essential utilities and scripts. Provides an &quot;about&quot; dialog, a run dialog and several important
           scripts that are used by other packages.</p></td>
 	<td width="48" valign="top"><img src="../../images/projects/library.png" alt="library" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
@@ -46,25 +49,25 @@
     <tr>
 	  <td width="48" valign="top"><img src="../../images/projects/mousepad.png" alt="mousepad" width="48" height="48" />
 	  <td width="33%" valign="top"><h3><a href="/projects/mousepad/">Mousepad</a></h3>
-	    <p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for Mousepad was to provide 
+	    <p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for Mousepad was to provide
 	      printing support, which would have been difficult for Leafpad for various reasons.</p></td>
 	<td width="48" valign="top"><img src="../../images/projects/installit.png" alt="installit" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/installit/">Installit</a></h3>
-        <p>InstallIt is the official approach of transforming the famous Xfce installer into a more generic 
+        <p>InstallIt is the official approach of transforming the famous Xfce installer into a more generic
           software management and installation tool. It is written in Python using Python-GTK.</p></td>
     <td width="48" valign="top"><img src="../../images/projects/terminal.png" alt="terminal" width="48" height="48" /> </td>
     <td width="33%" valign="top"><h3><a href="/projects/terminal/">Terminal</a></h3>
-        <p>Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce 
+        <p>Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce
           desktop environment.</p></td>
     </tr>
     <tr>
 	<td width="48" valign="top"><img src="../../images/projects/thunar.png" alt="thunar" width="48" height="48" />
 	<td width="33%" valign="top"><h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
-	    <p>Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed 
+	    <p>Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed
 	      from the ground up to be fast and easy-to-use.</p></td>
 	<td width="48" valign="top"><img src="../../images/projects/xfburn.png" alt="xfburn" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/xfburn/">Xfburn</a></h3>
-        <p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao, mkisofs) to create 
+        <p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao, mkisofs) to create
           and burn CD's and DVD's.</p></td>
     <td width="48" valign="top"><img src="../../images/projects/orage.png" alt="orage" width="48" height="48" /></td>
     <td width="33%" valign="top"><h3><a href="/projects/orage/">Orage</a></h3>
@@ -84,15 +87,15 @@
     <tr>
 	  <td width="48" valign="top"><img src="../../images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 	  <td width="33%" valign="top"><h3><a href="/projects/xfmedia/">Xfmedia</a></h3>
-	      <p>Xfmedia is a simple, easy-to-use media player based on the xine engine. The GTK+ GUI focuses on playing and 
+	      <p>Xfmedia is a simple, easy-to-use media player based on the xine engine. The GTK+ GUI focuses on playing and
 	        managing audio files, but, being based on xine, supports video as well.</p></td>
 	  <td width="48" valign="top"><img src="../../images/projects/xffm.png" alt="xffm" width="48" height="48" /></td>
       <td width="33%" valign="top"><h3><a href="/projects/xffm/">Xffm Filemanager </a></h3>
-          <p>A fast file manager, with two independent panes, integrated samba network browser and mount/umount capabilities 
+          <p>A fast file manager, with two independent panes, integrated samba network browser and mount/umount capabilities
             using fstab data. It includes an icon theme editor.</p></td>
       <td width="48" valign="top"><img src="../../images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" /></td>
       <td valign="top"><h3><a href="/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
-          <p>The Xfce developer tools provide a collection of scripts and M4 macros that are required to build the Xfce core desktop 
+          <p>The Xfce developer tools provide a collection of scripts and M4 macros that are required to build the Xfce core desktop
             components.</p></td>
     </tr>
     <tr>
@@ -111,14 +114,14 @@
     <tr>
       <td width="48" valign="top"><img src="../../images/projects/library.png" alt="libexo" width="48" height="48" /></td>
       <td width="33%" valign="top"><h3><a href="/projects/libexo/">Libexo</a></h3>
-          <p>The core Xfce libraries are targeted 
+          <p>The core Xfce libraries are targeted
             at desktop development, libexo is targeted at application developement.</p></td>
       <td width="48" valign="top"><img src="../../images/projects/library.png" alt="pyxfce" width="48" height="48" /> </td>
       <td width="33%" valign="top"><h3><a href="/projects/pyxfce/">Pyxfce</a></h3>
       <p>Pyxfce are Xfce bindings for python. You can use python to create xfce programs, after you installed pyxfce.</p></td>
       <td width="48" valign="top"><img src="../../images/projects/library.png" alt="xfc" width="48" height="48" /></td>
       <td width="33%" valign="top"><h3><a href="/projects/xfc/">Xfce Foundation Classes</a></h3>
-          <p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce applications on UNIX-like 
+          <p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce applications on UNIX-like
       operating systems such as Linux.</p></td>
     </tr>
     <tr>
