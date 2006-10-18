@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="/about">About</a></li>
+	<li><a href="/about/">About</a></li>
 	<li><a href="/about/features">Features</a></li>
 	<li><a href="/about/tour">Xfce 4.4 Tour</a>
 		<ul>
