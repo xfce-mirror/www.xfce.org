@@ -12,7 +12,7 @@
 	<div id="front-intro-about">
 		<h1>About Xfce</h1>
 		<p>Xfce is a lightweight desktop environment for various *NIX systems. Designed for productivity, it loads and executes applications fast, while conserving system resources.</p>
-		<p>Xfce 4.2 embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that together provide the full functionality of the desktop environment. They are packaged separately and you can pick and choose from the available packages to create the best personal working environment.</p>
+		<p>Xfce 4.4 embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that together provide the full functionality of the desktop environment. They are packaged separately and you can pick and choose from the available packages to create the best personal working environment.</p>
 		<p class="readmore"><a href="#" title="Learn more about Xfce...">learn more</a></p>
 	</div>
 </div>
