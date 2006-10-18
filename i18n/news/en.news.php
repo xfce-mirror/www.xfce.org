@@ -10,10 +10,16 @@ $news = array (
     ),
 */
     array (
+        'date'    => '3 sep 2006',
+        'author'  => 'Olivier Fourdan',
+        'title'   => 'Xfce 4.4 Release Candidate 1 (4.3.99.1) released',
+        'content' => 'The first release candidate of the upcoming Xfce 4.4 desktop is now available for download. This release fixes a lot of bugs that were present in the second beta release, but also introduces new features, like the trash support in Thunar and xfdesktop. Besides that, this release also includes Xarchiver 0.4.0. See the release notes for a detailed list of changes between 4.4 beta2 and 4.4 rc1. Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from this page.',
+    ),
+    array (
         'date'    => '10 aug 2006',
-        'author'  => 'Nick Schermer',
-        'title'   => 'Xfce 4.4 released',
-        'content' => 'Test message',
+        'author'  => 'Olivier Fourdan',
+        'title'   => 'Xfce 4.4 beta 2 (4.3.90.2) released',
+        'content' => 'Xfce 4.4 beta2 (4.3.90.2) is now available for download. Besides Mousepad and Thunar, this release also includes the new Xfce archive manager Xarchiver. Other than that a large number of bugs were fixed, and several core components were improved. A detailed overview of the changes between 4.4 beta1 and 4.4 beta2 is available here. Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from this page.',
     ),
     array (
         'date'    => '17 apr 2006',
