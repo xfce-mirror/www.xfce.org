@@ -14,6 +14,7 @@
 			<li><a href="/about/credits#core">Core Developers</a></li>
 			<li><a href="/about/credits#server">Server</a></li>
 			<li><a href="/about/credits#contributors">Contributors</a></li>
+			<li><a href="/about/credits#goodies">Goodies</a></li>
 			<li><a href="/about/credits#translators">Translators</a></li>
 		</ul>
 	</li>
