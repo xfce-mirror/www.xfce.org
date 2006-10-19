@@ -24,7 +24,7 @@
         <li><a href="/documentation/4.4/api/libxfprint/">libxfprint</a></li>
       </ul>
       <h2><a href="/documentation/requirements">Requirements</a></h2>
-          <p>A detailed list of all Xfce dependencies.</p>
+          <p>A detailed list of all Xfce <a href="/documentation/requirements">dependencies</a>.</p>
           <h2><a href="/documentation/archive">Archive</a></h2>
           <ul>
             <li><a href="/documentation/4.2/">4.2 documentation</a></li>
@@ -53,7 +53,7 @@
         <li><a href="/documentation/faq#development">Development</a></li>
       </ul>
       <h2><a href="/documentation/changelogs/">Changelogs</a></h2>
-    <p>All Xfce 4 changelogs, ordered by version.</p>
+    <p>All Xfce 4 <a href="/documentation/changelogs/">changelogs</a>, ordered by version.</p>
     </td>
   </tr>
 </table>
