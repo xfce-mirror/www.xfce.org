@@ -1,6 +1,6 @@
 <?php
 
-function PrintNews ($lang, $lastvisit)
+function PrintNews ($lang, $lastvisit, $max=5)
 {
     if (is_file ("i18n/news/".$lang.".news.php"))
         include ("i18n/news/".$lang.".news.php");
@@ -26,6 +26,10 @@ function PrintNews ($lang, $lastvisit)
                  "<br />".
                  "<a href=\"/about/news?id=". strtotime ($item["date"]) ."\" title=\"Posted by ". $item["author"] ."\">". $title ."</a>".
                  "</li>";
+
+        # not more then $max items on the frontpage
+        if ($i >= $max)
+            break;
     }
     $html .= "</ul>";
     
