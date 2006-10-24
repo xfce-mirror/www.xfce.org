@@ -6,6 +6,11 @@
 	<title>Xfce - <?php echo $headtitle; ?></title>
 	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
+<?php if (!$headup) { ?>
+	<meta name="description" content="Xfce Desktop Environment" />
+	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment">
+<?php } ?>
+
 	<link rel="home" href="/" />
 	<link rel="help" href="/documentation/" />
 	<?php if ($headup) { echo "<link rel=\"up\" href=\"$headup\" />"; } ?>
