@@ -7,40 +7,40 @@
 		<th align="left"><h3>Description</h3></th>
     </tr>
     <tr>
-		<td bgcolor="#eee"><a href="http://foo-projects.org/mailman/listinfo/xfce/">xfce</a></td>
-		<td bgcolor="#eee">Discussion list for users of Xfce</td>
+		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce/">xfce</a></td>
+		<td bgcolor="#eeeeee">Discussion list for users of Xfce</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-announce/">xfce-announce</a></td>
 		<td>Announcements of new versions of Xfce and related projects.</td>
     </tr>
     <tr>
-		<td bgcolor="#eee"><a href="http://foo-projects.org/mailman/listinfo/xfce-advocacy/">xfce-advocacy</a></td>
-		<td bgcolor="#eee">This mailing list is used as a point of contact for people interested in promoting Xfce.</td>
+		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-advocacy/">xfce-advocacy</a></td>
+		<td bgcolor="#eeeeee">This mailing list is used as a point of contact for people interested in promoting Xfce.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
 		<td>To coordinate the translation of Xfce into new languages.</td>
     </tr>
     <tr>
-		<td bgcolor="#eee"><a href="http://foo-projects.org/mailman/listinfo/xfce4-dev/">xfce4-dev</a></td>
-		<td bgcolor="#eee">A mailing list for developers of Xfce.</td>
+		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce4-dev/">xfce4-dev</a></td>
+		<td bgcolor="#eeeeee">A mailing list for developers of Xfce.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
 		<td>To be notified of Xfce4 SVN commits.</td>
     </tr>
     <tr>
-		<td bgcolor="#eee"><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
-		<td bgcolor="#eee">Xfce Goodies development discussion.</td>
+		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
+		<td bgcolor="#eeeeee">Xfce Goodies development discussion.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/goodies-commits/">goodies-commits</a></td>
 		<td>To be notified of goodies SVN commits.</td>
     </tr>
     <tr>
-		<td bgcolor="#eee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-		<td bgcolor="#eee">Discussion of bugs in Xfce products. You can report a bug <a href="http://bugzilla.xfce.org" target="_blank"class="external">here</a>.</td>
+		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
+		<td bgcolor="#eeeeee">Discussion of bugs in Xfce products. You can report a bug <a href="http://bugzilla.xfce.org" target="_blank"class="external">here</a>.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
