@@ -43,7 +43,7 @@
 		<td bgcolor="#eee">Discussion of bugs in Xfce products. You can report a bug <a href="http://bugzilla.xfce.org" target="_blank"class="external">here</a>.</td>
     </tr>
     <tr>
-		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">thunar-dev</a></td>
+		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
 		<td>A mailing list for development of the Thunar file manager</td>
     </tr>
 </table>
