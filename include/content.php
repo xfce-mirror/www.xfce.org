@@ -95,7 +95,7 @@ function PrintContent ($content)
 
         if ($top) # button to jump to top of page
         {
-        	print ('<a href="#"><img src="/layout/images/go-top.png" alt="Top" width="16" height="16" border="0" align="right" /></a>');
+        	print ('<a href="#"><img src="/layout/images/go-top.png" alt="Top" title="Jump to the top of the page" width="16" height="16" border="0" align="right" /></a>');
         }
 }
 
