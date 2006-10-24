@@ -6,13 +6,16 @@
 	<title>Xfce - <?php echo $headtitle; ?></title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
+	<link rel="home" href="/" />
+	<link rel="help" href="/documentation/" />
+	<link rel="up" href=<?php echo $headup; ?>" />
+
 	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
 	<?php echo $linked_css; ?>
 
 
 	<style type="text/css">
 		<?php echo $layout_css; ?>
-		
 	</style>
 
 	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />

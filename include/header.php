@@ -1,8 +1,10 @@
 <?php
 /**
  * Default page title
+ * Link up, for opera navigation
  **/
 $headtitle = "Desktop Environment";
+$headup;
 
 /**
  * This function creates the language bar, located
@@ -33,6 +35,7 @@ function CreateLanguageBar ($languages, $lang)
 function CreateBreadcrumbs ($uri, $lang)
 {
 	global $headtitle;
+	global $headup;
 
 	# Load breadcrumb correction/translation array
 	$file = "i18n/arrays/". $lang .".breadcrumbs.php";
@@ -69,6 +72,7 @@ function CreateBreadcrumbs ($uri, $lang)
 			
 			elseif ($i < count($crumbs))
 				$html .= '<a href="'. $url .'" title="'. $title .'">'. $title .'</a> &#187; ';
+				$headup = $url;
 			else
 			{
 				$html .= $title;
@@ -91,6 +95,7 @@ function CreateBreadcrumbs ($uri, $lang)
 function PrintHeader ($uri, $lang, $layout, $languages)
 {
 	global $headtitle;
+	global $headup;
 
 	# Define style css
 	if ($layout == "liquid")
