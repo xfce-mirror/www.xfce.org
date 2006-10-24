@@ -1,5 +1,10 @@
 <?php
 /**
+ * Default page title
+ **/
+$headtitle = "Desktop Environment";
+
+/**
  * This function creates the language bar, located
  * right under the header.
  **/
@@ -27,6 +32,8 @@ function CreateLanguageBar ($languages, $lang)
  **/
 function CreateBreadcrumbs ($uri, $lang)
 {
+	global $headtitle;
+
 	# Load breadcrumb correction/translation array
 	$file = "i18n/arrays/". $lang .".breadcrumbs.php";
 	$file_en = "i18n/arrays/en.breadcrumbs.php";
@@ -63,7 +70,10 @@ function CreateBreadcrumbs ($uri, $lang)
 			elseif ($i < count($crumbs))
 				$html .= '<a href="'. $url .'" title="'. $title .'">'. $title .'</a> &#187; ';
 			else
+			{
 				$html .= $title;
+				$headtitle = $title;
+			}
 		}
 
 		return $html;
@@ -80,6 +90,8 @@ function CreateBreadcrumbs ($uri, $lang)
  **/
 function PrintHeader ($uri, $lang, $layout, $languages)
 {
+	global $headtitle;
+
 	# Define style css
 	if ($layout == "liquid")
 	{

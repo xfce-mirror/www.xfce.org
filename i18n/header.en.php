@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
-	<title>Xfce - Desktop Environment</title>
+	<title>Xfce - <?php echo $headtitle; ?></title>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 
 	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
