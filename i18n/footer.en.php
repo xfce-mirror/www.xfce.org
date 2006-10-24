@@ -14,7 +14,7 @@
 				</ul>
 			</div>
 			<div id="footer-copyright">
-				<a href="mailto:fourdan@xfce.org" title="Mail Olivier Fourdan">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
+				<a href="/about/credits#lead" title="Contact Olivier Fourdan">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
 			</div>
 			<div class="clearboth"></div>
 		</div>
