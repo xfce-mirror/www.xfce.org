@@ -4,7 +4,7 @@
  * Link up, for opera navigation
  **/
 $headtitle = "Desktop Environment";
-$headup = "/";
+$headup;
 
 /**
  * This function creates the language bar, located
@@ -53,6 +53,7 @@ function CreateBreadcrumbs ($uri, $lang)
 	{
 		# Goto frontpage
 		$url = '/';
+		$headup = $url;
 		$html = '<a href="'. $url .'" title="'. $breadcrumbs["home"] .'">'. $breadcrumbs["home"] .'</a> &#187; ';
 
 		foreach ($crumbs as $name)

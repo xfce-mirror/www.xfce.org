@@ -8,7 +8,7 @@
 
 	<link rel="home" href="/" />
 	<link rel="help" href="/documentation/" />
-	<link rel="up" href="<?php echo $headup; ?>" />
+	<?php if ($headup) { echo "<link rel=\"up\" href=\"$headup\" />"; } ?>
 
 	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
 	<?php echo $linked_css; ?>
