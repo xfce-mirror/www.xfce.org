@@ -71,8 +71,10 @@ function CreateBreadcrumbs ($uri, $lang)
 				break; # Arbitary maximum
 			
 			elseif ($i < count($crumbs))
+			{
 				$html .= '<a href="'. $url .'" title="'. $title .'">'. $title .'</a> &#187; ';
 				$headup = $url;
+			}
 			else
 			{
 				$html .= $title;
