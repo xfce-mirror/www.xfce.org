@@ -1,6 +1,6 @@
 <?php
 
-function PrintNews ($lang, $lastvisit, $max=5)
+function PrintNews ($lang, $lastvisit, $max=6)
 {
     if (is_file ("i18n/news/".$lang.".news.php"))
         include ("i18n/news/".$lang.".news.php");
