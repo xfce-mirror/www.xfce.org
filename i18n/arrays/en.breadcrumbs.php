@@ -4,7 +4,6 @@
 $breadcrumbs = array (
     # Catogory names
     "home"             => "Home",
-    "development"      => "Development version",
     "lists"            => "Mailing Lists",
     "irc"              => "IRC",
     "faq"              => "FAQs",
