@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
 	<title>Xfce - <?php echo $headtitle; ?></title>
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
 	<link rel="home" href="/" />
 	<link rel="help" href="/documentation/" />
