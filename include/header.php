@@ -4,7 +4,7 @@
  * Link up, for opera navigation
  **/
 $headtitle = "Desktop Environment";
-$headup;
+$headup = "/";
 
 /**
  * This function creates the language bar, located
