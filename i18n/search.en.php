@@ -1,9 +1,9 @@
 <!-- Google Search Result Snippet Begins -->
 <div id="Searchresults" style="overflow: hidden"></div>
 <style type="text/css">
- #Searchresults iframe {
-  width: 100%;
- }
+  #Searchresults iframe {
+    width: 100%;
+  }
 </style>
 <script type="text/javascript">
   var googleSearchIframeName = "Searchresults";
