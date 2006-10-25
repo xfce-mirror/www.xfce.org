@@ -1,9 +1,10 @@
 <!-- Google Search Result Snippet Begins -->
+<div id="searchbox_008920933163277390313:rifucd7pcta"></div>
 <div id="results_008920933163277390313:rifucd7pcta"></div>
 <script type="text/javascript">
   var googleSearchIframeName = "results_008920933163277390313:rifucd7pcta";
   var googleSearchFormName = "searchbox_008920933163277390313:rifucd7pcta";
-  var googleSearchFrameWidth = 700;
+  var googleSearchFrameWidth = 600;
   var googleSearchFrameborder = 0;
   var googleSearchDomain = "google.com";
   var googleSearchPath = "/cse";
