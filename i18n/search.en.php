@@ -13,7 +13,7 @@
 <h2>Results</h2>
 <!-- Google Search Result Snippet Begins -->
 <p>
-  <div id="SearchResults" style="overflow: hidden">Please enter some search terms...</div>
+  <div id="SearchResults" style="overflow: hidden"></div>
 </p>
 <style type="text/css">
   #SearchResults iframe {
