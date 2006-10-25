@@ -10,7 +10,7 @@
   <!-- Google CSE Search Box Ends -->
 </p>
 <br />
-<h2>Results</h2>
+
 <!-- Google Search Result Snippet Begins -->
 <p>
   <div id="SearchResults" style="overflow: hidden"></div>
