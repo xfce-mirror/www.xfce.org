@@ -9,8 +9,8 @@
   </form>
   <!-- Google CSE Search Box Ends -->
 </p>
-
-<h1>Results</h1>
+<b1 />
+<h2>Results</h2>
 <!-- Google Search Result Snippet Begins -->
 <p>
   <div id="SearchResults" style="overflow: hidden">Please enter some search terms...</div>
