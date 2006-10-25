@@ -1,3 +1,4 @@
+<h1>Google Search</h1>
 <!-- Google CSE Search Box Begins -->
 <form id="SearchForm" action="/search">
   <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
