@@ -9,7 +9,7 @@
   </form>
   <!-- Google CSE Search Box Ends -->
 </p>
-<b1 />
+<br />
 <h2>Results</h2>
 <!-- Google Search Result Snippet Begins -->
 <p>
