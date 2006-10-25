@@ -4,7 +4,7 @@
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "";
   var googleSearchFrameWidth = 600;
-  var googleSearchFrameborder = 0;
+  var googleSearchFrameborder = 1;
   var googleSearchDomain = "google.com";
   var googleSearchPath = "/cse";
 </script>
