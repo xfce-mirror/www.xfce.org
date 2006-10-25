@@ -50,10 +50,10 @@
 						<h2 class="hidden">Search</h2>
 						<!-- Google CSE Search Box Begins -->
 						<form id="GoogleSearch" action="/search">
-						  <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-						  <input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
-						  <input type="submit" name="sa" class="hidden" value="Search" />
-						  <input type="hidden" name="cof" value="FORID:11" />
+							<input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
+							<input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
+							<input type="submit" name="sa" class="hidden" value="Search" />
+							<input type="hidden" name="cof" value="FORID:11" />
 						</form>
 						<!-- Google CSE Search Box Ends -->
 					</div>
