@@ -1,6 +1,7 @@
 <!-- Google Search Result Snippet Begins -->
 <div id="Searchresults" style="background-color:#f7f7f7"></div>
 <script type="text/javascript">
+  document.write (document.getElementById ("Searchresults").width);
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "";
   var googleSearchFrameWidth = 600;
