@@ -1,12 +1,14 @@
 <h1>Google Search</h1>
-<!-- Google CSE Search Box Begins -->
-<form id="SearchForm" action="/search">
-  <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-  <input name="q" size="47" class="field" id="q" type="text" />
-  <input type="submit" name="sa" value="Search" />
-  <input type="hidden" name="cof" value="FORID:11" />
-</form>
-<!-- Google CSE Search Box Ends -->
+<p>
+  <!-- Google CSE Search Box Begins -->
+  <form id="SearchForm" action="/search">
+    <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
+    <input name="q" size="47" class="field" id="q" type="text" />
+    <input type="submit" name="sa" value="Search" />
+    <input type="hidden" name="cof" value="FORID:11" />
+  </form>
+  <!-- Google CSE Search Box Ends -->
+</p>
 
 <!-- Google Search Result Snippet Begins -->
 <div id="SearchResults" style="overflow: hidden"></div>
