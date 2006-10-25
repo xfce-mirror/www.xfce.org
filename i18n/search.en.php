@@ -1,11 +1,10 @@
 <!-- Google Search Result Snippet Begins -->
-<div id="Searchresults" style="background-color:#f7f7f7"></div>
+<div id="Searchresults"></div>
 <script type="text/javascript">
-  document.write (document.getElementById ("Searchresults").width);
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "";
   var googleSearchFrameWidth = 600;
-  var googleSearchFrameborder = 1;
+  var googleSearchFrameborder = 0;
   var googleSearchDomain = "google.com";
   var googleSearchPath = "/cse";
 </script>
