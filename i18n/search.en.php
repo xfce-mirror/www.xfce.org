@@ -12,6 +12,7 @@
 <style type="text/css">
   #Searchresults iframe {
     width: 100%;
+    height: 50em;
   }
 </style>
 <script type="text/javascript">
