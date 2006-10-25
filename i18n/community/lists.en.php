@@ -50,5 +50,5 @@
 <p></p>
 <h1>Search the mailing lists</h1>
 <p>
-    You can search the mailing lists with the Google Search in the header. After you've searched you can 'refine' your search by clicking on the Mailinglists link.
+    You can search the mailing lists with the Google Search in the header. After you've searched you can 'refine' your search by clicking on the 'Mailing lists' link.
 </p>
