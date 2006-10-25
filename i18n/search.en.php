@@ -1,7 +1,7 @@
 <!-- Google CSE Search Box Begins -->
 <form id="searchbox_008920933163277390313:rifucd7pcta" action="/search">
   <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-  <input name="q" id="q" type="text" />
+  <input name="q" size="47" class="field" id="q" type="text" />
   <input type="submit" name="sa" value="Search" />
   <input type="hidden" name="cof" value="FORID:11" />
 </form>
