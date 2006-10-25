@@ -27,7 +27,6 @@
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 
 	<script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_008920933163277390313%3Arifucd7pcta"></script>
-
 </head>
 <body>
 	<div class="hidden">
@@ -51,10 +50,19 @@
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
+<!--
+						<form method="get" action="http://www.google.com/custom" name="g">
+							<input type="text" name="q" id="q"  />
+							<input type="hidden" name="domains" value="www-test.xfce.org" />
+							<input type="hidden" name="sitesearch" value="www-test.xfce.org" />
+							<input type="hidden" name="num" value="30" />
+							<input type="hidden" name="lr" value="lang_<?php echo $lang ?>" />
+							<input type="submit" name="btnG" class="hidden" id="submit" value="Search" />
+						</form>
 						<!-- Google CSE Search Box Begins -->
 						<form id="searchbox_008920933163277390313:rifucd7pcta" action="http://www-test.xfce.org/search">
 						  <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-						  <input name="q" id="q" type="text" size="40" />
+						  <input name="q" id="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
 						  <input type="submit" name="sa" class="hidden" value="Search" />
 						  <input type="hidden" name="cof" value="FORID:11" />
 						</form>
