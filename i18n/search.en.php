@@ -1,9 +1,9 @@
 <!-- Google Search Result Snippet Begins -->
-<div id="Searchresults" style="width:100%"></div>
+<div id="Searchresults" style="background-color:#f7f7f7"></div>
 <script type="text/javascript">
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "";
-  var googleSearchFrameWidth = "100%";
+  var googleSearchFrameWidth = 600;
   var googleSearchFrameborder = 0;
   var googleSearchDomain = "google.com";
   var googleSearchPath = "/cse";
