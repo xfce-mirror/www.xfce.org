@@ -13,14 +13,8 @@
 
 <!-- Google Search Result Snippet Begins -->
 <p>
-  <div id="SearchResults" style="overflow: hidden"></div>
+  <div id="SearchResults" style="overflow: hidden;"></div>
 </p>
-<style type="text/css">
-  #SearchResults iframe {
-    width: 100%;
-    height: 100em;
-  }
-</style>
 <script type="text/javascript">
   var googleSearchIframeName = "SearchResults";
   var googleSearchFormName = "SearchForm";

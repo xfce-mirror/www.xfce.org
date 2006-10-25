@@ -25,8 +25,6 @@
 
 	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
-
-	<script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_008920933163277390313%3Arifucd7pcta"></script>
 </head>
 <body>
 	<div class="hidden">
@@ -53,7 +51,7 @@
 						<!-- Google CSE Search Box Begins -->
 						<form id="GoogleSearch" action="/search">
 						  <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-						  <input name="q" id="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
+						  <input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
 						  <input type="submit" name="sa" class="hidden" value="Search" />
 						  <input type="hidden" name="cof" value="FORID:11" />
 						</form>
