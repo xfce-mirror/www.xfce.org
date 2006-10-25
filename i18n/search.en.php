@@ -18,6 +18,7 @@
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "searchbox_008920933163277390313:rifucd7pcta";
   var googleSearchFrameWidth = 550;
+  var googleSearchFrameHeight = 500;
   var googleSearchFrameborder = 0;
   var googleSearchDomain = "google.com";
   var googleSearchPath = "/cse";
