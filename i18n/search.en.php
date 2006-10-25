@@ -1,9 +1,12 @@
-<!-- Google CSE Search Box Begins -->
-<form id="searchbox_008920933163277390313:rifucd7pcta" action="http://">
-  <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-  <input name="q" type="text" size="40" />
-  <input type="submit" name="sa" value="Search" />
-  <input type="hidden" name="cof" value="FORID:9" />
-</form>
-<script type="text/javascript" src="http://google.com/coop/cse/brand?form=searchbox_008920933163277390313%3Arifucd7pcta"></script>
-<!-- Google CSE Search Box Ends -->
+<!-- Google Search Result Snippet Begins -->
+<div id="results_008920933163277390313:rifucd7pcta"></div>
+<script type="text/javascript">
+  var googleSearchIframeName = "results_008920933163277390313:rifucd7pcta";
+  var googleSearchFormName = "searchbox_008920933163277390313:rifucd7pcta";
+  var googleSearchFrameWidth = 600;
+  var googleSearchFrameborder = 0;
+  var googleSearchDomain = "google.com";
+  var googleSearchPath = "/cse";
+</script>
+<script type="text/javascript" src="http://www.google.com/afsonline/show_afs_search.js"></script>
+<!-- Google Search Result Snippet Ends -->
