@@ -1,20 +1,18 @@
 <h1>Google Search</h1>
-<p>
-  <!-- Google CSE Search Box Begins -->
-  <form id="SearchForm" action="/search">
+<form id="SearchForm" action="/search">
+  <p>
+    <!-- Google CSE Search Box Begins -->
     <input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
     <input name="q" size="47" class="field" id="q" type="text" />
     <input type="submit" name="sa" value="Search" />
     <input type="hidden" name="cof" value="FORID:11" />
-  </form>
   <!-- Google CSE Search Box Ends -->
-</p>
+  </p>
+</form>
 <br />
 
 <!-- Google Search Result Snippet Begins -->
-<p>
-  <div id="SearchResults" style="overflow: hidden;"></div>
-</p>
+<div id="SearchResults" style="overflow: hidden;"></div>
 <script type="text/javascript">
   var googleSearchIframeName = "SearchResults";
   var googleSearchFormName = "SearchForm";
