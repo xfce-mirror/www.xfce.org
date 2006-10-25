@@ -10,8 +10,9 @@
 <!-- Google Search Result Snippet Begins -->
 <div id="SearchResults" style="overflow: hidden"></div>
 <style type="text/css">
-  #Searchresults iframe {
+  #SearchResults iframe {
     width: 100%;
+    height: 30em;
   }
 </style>
 <script type="text/javascript">
