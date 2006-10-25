@@ -50,21 +50,5 @@
 <p></p>
 <h1>Search the mailing lists</h1>
 <p>
-    <form method="get" action="http://www.google.com/search">
-	<input type="text" name="q" size="47" class="field" maxlength="255" value="">
-	<select class="select" name="sitesearch">
-	    <option value="foo-projects.org/pipermail">Search all lists</option>
-	    <option value="foo-projects.org/pipermail/xfce">Xfce Users</option>
-	    <option value="foo-projects.org/pipermail/xfce4-dev">Xfce4 Development</option>
-	    <option value="foo-projects.org/pipermail/xfce-bugs">Xfce Bugs</option>
-	    <option value="foo-projects.org/pipermail/xfce-announce">Xfce Announcements</option>
-	    <option value="foo-projects.org/pipermail/xfce-advocacy">Xfce Advocacy</option>
-	    <option value="foo-projects.org/pipermail/xfce-i18n">Xfce i18n</option>
-	    <option value="foo-projects.org/pipermail/xfce4-commits">Xfce4 Commits</option>
-	    <option value="foo-projects.org/pipermail/goodies-dev">Goodies Development</option>
-	    <option value="foo-projects.org/pipermail/goodies-commits">Goodies Commits</option>
-	    <option value="foo-projects.org/pipermail/thunar-dev">Thunar Development</option>
-	</select>
-	<input type="submit" name="btnG" VALUE="Search">
-    </form>
+    You can search the mailing lists with the Google Search in the header. After you've searched you can 'refine' your search by clicking on the Mailinglists link.
 </p>
