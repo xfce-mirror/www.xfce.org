@@ -9,7 +9,7 @@
   </form>
   <!-- Google CSE Search Box Ends -->
 </p>
-
+<br />
 <!-- Google Search Result Snippet Begins -->
 <div id="SearchResults" style="overflow: hidden"></div>
 <style type="text/css">
