@@ -1,5 +1,5 @@
 <!-- Google Search Result Snippet Begins -->
-<div id="results_008920933163277390313:rifucd7pcta" style="background-color: #ff0000"></div>
+<div id="results_008920933163277390313:rifucd7pcta" id="global-contentwrap"></div>
 <script type="text/javascript">
   var googleSearchIframeName = "results_008920933163277390313:rifucd7pcta";
   var googleSearchFormName = "searchbox_008920933163277390313:rifucd7pcta";
