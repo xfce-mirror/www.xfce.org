@@ -9,9 +9,12 @@
   </form>
   <!-- Google CSE Search Box Ends -->
 </p>
-<br />
+
+<h1>Results</h1>
 <!-- Google Search Result Snippet Begins -->
-<div id="SearchResults" style="overflow: hidden"></div>
+<p>
+  <div id="SearchResults" style="overflow: hidden">Please enter some search terms...</div>
+</p>
 <style type="text/css">
   #SearchResults iframe {
     width: 100%;
