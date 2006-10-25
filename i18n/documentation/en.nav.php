@@ -1,11 +1,4 @@
 <ul>
-	<li><a href="/documentation/">4.4 Documentation</a>
-		<ul>
-			<li><a href="/documentation/4.4/userguide/">User Guide</a></li>
-			<li><a href="/documentation/4.4/manuals/">Manuals</a></li>
-			<li><a href="/documentation/4.4/api">Developers (API)</a></li>
-		</ul>
-	</li>
 	<li><a href="/documentation/faq/">FAQs</a>
 		<ul>
 			<li><a href="http://xfce.wikicities.com/wiki/Frequently_Asked_Questions" target="_blank" class="external">Wiki FAQ</a></li>
