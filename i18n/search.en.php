@@ -1,5 +1,5 @@
 <!-- Google Search Result Snippet Begins -->
-<div id="Searchresults"></div>
+<div id="Searchresults" style="width:100%"></div>
 <script type="text/javascript">
   var googleSearchIframeName = "Searchresults";
   var googleSearchFormName = "";
