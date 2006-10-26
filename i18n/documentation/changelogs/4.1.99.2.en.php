@@ -1,16 +1,7 @@
 <?php
 function bug ($id){
-	echo '<a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
+	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
 }
-
-/*
-	Replace the following characters:
-	
-	<	= &lt;
-	>	= &gt;
-	"	= &quot;
-	&	= &amp;
-*/
 ?>
 
 <h1>Xfce 4.2 RC2 Changelog:</h1>

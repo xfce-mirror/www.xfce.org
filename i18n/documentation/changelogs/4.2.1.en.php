@@ -1,16 +1,7 @@
 <?php
 function bug ($id){
-	echo '<a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'" target="_blank">#'. $id .'</a>';
+	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'" target="_blank">#'. $id .'</a>';
 }
-
-/*
-	Replace the following characters:
-	
-	<	= &lt;
-	>	= &gt;
-	"	= &quot;
-	&	= &amp;
-*/
 ?>
 
 <h1>Xfce 4.2.1 Changelog</h1>
@@ -76,11 +67,11 @@ function bug ($id){
 	<li>Don't quote paths that are already quoted.</li>
 	<li>Change smb-share icon to proper icon</li>
 	<li>Fix borked overwrite warning dialog message</li>
-	<li>Bug fixes for keyboardnavigation to close bug <?php bug ('795') ?></li>
+	<li>Bug fixes for keyboardnavigation to close <?php bug ('795') ?></li>
 	<li>Separate remove and paste button in toolbar to avoid confusing the remove confirmation dialog with the overwrite confirmation dialog</li>
 	<li>Fix translation problems in several languages, including brazilian-portuguese</li>
 	<li>Fill in some missing spanish translation strings</li>
-	<li>Fix for bug <?php bug ('524') ?> (crashing xffm by mounting cdrom and trying to open it in the other treeview before mount is complete)</li> 
+	<li>Fix for <?php bug ('524') ?> (crashing xffm by mounting cdrom and trying to open it in the other treeview before mount is complete)</li> 
 </ul>
 
 <h3>Printing Helper <em>(xfprint)</em>:</h3>
@@ -98,7 +89,7 @@ function bug ($id){
 
 <h3>Calendar and Appointments <em>(xfcalendar)</em>:</h3>
 <ul>
-	<li>Remembering of its position (bug <?php bug ('691') ?> and  <?php bug ('789') ?>)</li>
+	<li>Remembering of its position (<?php bug ('691') ?> and  <?php bug ('789') ?>)</li>
 	<li>Warning box for preventing users to loose their changes (<?php bug ('714') ?> and <?php bug ('738') ?>)</li>
 	<li>Possibility to show/hide xfcalendar in taskbar, pager and systray (<?php bug ('719') ?>)</li>
 	<li>possibility to choose to either show or hide the calendar window when xfcalendar is launched (it remembered before the status when leaving)</li>
