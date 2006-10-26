@@ -7,7 +7,7 @@ function PrintNews ($lang, $lastvisit, $max=6)
     else
         include ("i18n/news/en.news.php");
 
-    $html = "<ul>";
+    $html = "<ul>\n";
     $i = 0;
     $format = "%e %B %Y";
     
@@ -21,17 +21,16 @@ function PrintNews ($lang, $lastvisit, $max=6)
         else
             $title = $item["title"];
     
-        $html .= "<li>".
-                 "<span class=\"grey\">". CreateDate ($item["date"], $format, true) ."</span>".
-                 "<br />".
-                 "<a href=\"/about/news?id=". strtotime ($item["date"]) ."\" title=\"Posted by ". $item["author"] ."\">". $title ."</a>".
-                 "</li>";
+        $html .= "\t\t\t\t<li>\n".
+                 "\t\t\t\t\t<span class=\"grey\">". CreateDate ($item["date"], $format, true) ."</span><br />\n".
+                 "\t\t\t\t\t<a href=\"/about/news?id=". strtotime ($item["date"]) ."\" title=\"Posted by ". $item["author"] ."\">". $title ."</a>\n".
+                 "\t\t\t\t</li>\n";
 
         # not more then $max items on the frontpage
         if ($i >= $max)
             break;
     }
-    $html .= "</ul>";
+    $html .= "\t\t\t</ul>\n";
     
     return $html;
 }
@@ -41,24 +40,25 @@ function PrintBlog ($lastvisit)
     include ("parser.php");
 
     if (!$feed = CreateFeed ("http://blog.xfce.org/?feed=rss2"))
-        return "developers feed temporarily unavailable.";
+        return "Developers feed temporarily unavailable.";
 
     $format = "%e %B %Y";
-    $html = "<ul>";
+    $html = "<ul>\n";
     
     foreach ($feed as $item)
     {
-    	  $html .= "<li><span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />";
+    	  $html .= "\t\t\t\t<li>\n".
+    	           "\t\t\t\t\t<span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />\n";
     	  
     	  if ($lastvisit < strtotime ($item["date"]))
-    	      $html .= "<strong><a href=\"". $item["link"] ."\">". $item["title"] ."</a></strong>";
+    	      $html .= "\t\t\t\t\t<strong><a href=\"". $item["link"] ."\">". $item["title"] ."</a></strong>\n";
     	  else
-    	      $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
+    	      $html .= "\t\t\t\t\t<a href=\"". $item["link"] ."\">". $item["title"] ."</a>\n";
     	  
-    	  $html .= "</li>";
+    	  $html .= "\t\t\t\t</li>\n";
     }
     
-    $html .= "</ul>";
+    $html .= "\t\t\t</ul>\n";
     
     return $html;
 }

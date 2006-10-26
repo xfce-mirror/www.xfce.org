@@ -1,11 +1,11 @@
 <?php
 
-function microtime_float()
+function microtime_float ()
 {
-	list($usec, $sec) = explode(" ", microtime());
+	list ($usec, $sec) = explode(" ", microtime());
 	return ((float)$usec + (float)$sec);
 }
-$time_start = microtime_float();
+$time_start = microtime_float ();
 
 include ("include/functions.php");
 include ("include/arrays.php");
@@ -17,7 +17,7 @@ include ("include/feed.php");
 include ("include/news.php");
 
 # Load session valiables
-session_start();
+session_start ();
 
 # User language
 $userlang = substr(trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]), 0, 2);
@@ -42,7 +42,7 @@ if ($_GET["feed"] == "rss2")
 
 # Get relative url
 $uri = $_SERVER["REDIRECT_URL"];
-$uri = trim($uri, '/');
+$uri = trim ($uri, '/');
 $uri = strtolower ($uri);
 
 # Block some pages users are not allowed to see
@@ -50,7 +50,7 @@ $forbidden = array ("footer", "frontpage", "header");
 if (in_array ($uri, $forbidden))
 	$uri = "";
 
-#Create webpage
+# Create webpage
 if ($uri == "")
 {
 	PrintHeader ($uri, $lang, $layout, $languages);
@@ -65,6 +65,6 @@ else
 	PrintFooter ($lang);
 }
 
-$time_end = microtime_float();
-echo "<!-- Execution time: ". round($time_end - $time_start, 4) ." seconds -->"; 
+$time_end = microtime_float ();
+echo "<!-- Execution time: ". round ($time_end - $time_start, 4) ." second -->"; 
 ?>

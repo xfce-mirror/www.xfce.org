@@ -6,7 +6,7 @@
 	<title>Xfce - <?php echo $headtitle; ?></title>
 	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
-<?php if (!$headup) { ?>
+<?php if (!$headup) { /* show only on frontpage */ ?>
 	<meta name="description" content="Xfce Desktop Environment" />
 	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment" />
 <?php } ?>
@@ -34,6 +34,7 @@
 <?php if ($content_bool) { ?>
 		<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
 <?php } ?>
+
 		<h1>Xfce Desktop Environment</h1>
 		<h4>...and everything goes faster!</h4>
 		<hr />
@@ -73,7 +74,7 @@
 				<div id="header-white">
 					<div id="header-language">
 						<h2 class="hidden">Site Language</h2>
-						<?php echo $lang_links; ?>
+						<?php echo $lang_links; ?> 
 					</div>
 <?php if ($breadcrumbs) { ?>
 					<div id="header-breadcrumbs">
@@ -82,6 +83,7 @@
 					</div>
 <?php } ?>
 				</div>
-			</div>
+			</div><!-- header -->
 			<hr class="hidden" />
 			<div id="global-contentwrap">
+<!-- start: page content -->
