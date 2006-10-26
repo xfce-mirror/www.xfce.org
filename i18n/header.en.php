@@ -14,7 +14,7 @@
 	<link rel="home" href="/" />
 	<link rel="help" href="/documentation/" />
 <?php if ($headup) { ?>
-	<link rel=\"up\" href=\"<?php echo $headup ?>" />
+	<link rel="up" href="<?php echo $headup ?>" />
 <?php } ?>
 
 	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
