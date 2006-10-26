@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" />
@@ -13,7 +13,9 @@
 
 	<link rel="home" href="/" />
 	<link rel="help" href="/documentation/" />
-	<?php if ($headup) { echo "<link rel=\"up\" href=\"$headup\" />"; } ?>
+<?php if ($headup) { ?>
+	<link rel=\"up\" href=\"<?php echo $headup ?>" />
+<?php } ?>
 
 	<link rel="stylesheet" media="screen" href="/layout/css/layout.css" type="text/css" />
 	<?php echo $linked_css; ?>
@@ -29,9 +31,9 @@
 <body>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Skip site navigation" accesskey="1">Skip site navigation</a> (1)
-	<?php if ($content_bool) { ?>
+<?php if ($content_bool) { ?>
 		<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
-	<?php } ?>
+<?php } ?>
 		<h1>Xfce Desktop Environment</h1>
 		<h4>...and everything goes faster!</h4>
 		<hr />
@@ -48,14 +50,12 @@
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
-						<!-- Google CSE Search Box Begins -->
 						<form id="GoogleSearch" action="/search/">
 							<input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
 							<input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
 							<input type="submit" name="sa" class="hidden" value="Search" />
 							<input type="hidden" name="cof" value="FORID:11" />
 						</form>
-						<!-- Google CSE Search Box Ends -->
 					</div>
 				</div>
 				<div id="header-menu">
@@ -75,14 +75,13 @@
 						<h2 class="hidden">Site Language</h2>
 						<?php echo $lang_links; ?>
 					</div>
-					<?php if ($breadcrumbs) { ?>
+<?php if ($breadcrumbs) { ?>
 					<div id="header-breadcrumbs">
 						<h2 class="hidden">Breadcrumbs</h2>
 						<?php echo $breadcrumbs; ?>
 					</div>
-					<?php } ?>
+<?php } ?>
 				</div>
 			</div>
 			<hr class="hidden" />
 			<div id="global-contentwrap">
-<!-- end header.*.php -->

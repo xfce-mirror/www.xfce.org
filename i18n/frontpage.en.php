@@ -5,7 +5,7 @@
 				<h2><a href="/download/" title="Download Xfce 4.4">Download Xfce 4.4</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="#" title="Read the release notes">Release Notes</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.4.0" title="Read the ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.4">Tour</a></p>
 			</div>
 		</div>
 	</div>
@@ -34,19 +34,29 @@
 			<div id="front-projects-content">
 				<h2>Xfce projects</h2>
 				<ul>
-					<li><a href="#">Thunar</a><br />
+					<li>
+						<a href="/projects/thunar/">Thunar</a>
+						<br />
 						<span class="grey">Thunar is a new modern file manager for the Xfce Desktop Environment.</span>
 					</li>
-					<li><a href="#">Mousepad</a><br />
+					<li>
+						<a href="/projects/mousepad/">Mousepad</a>
+						<br />
 						<span class="grey">Mousepad is a simple, fast and easy-to-use text editor for the Xfce desktop environment, based on the Leafpad text editor.</span>
 					</li>
-					<li><a href="#">Orage</a><br />
+					<li>
+						<a href="/projects/orage/">Orage</a>
+						<br />
 						<span class="grey">Calendar for the Xfce project.</span>
 					</li>
-					<li><a href="#">Xfburn</a><br />
+					<li>
+						<a href="/projects/xfburn/">Xfburn</a>
+						<br />
 						<span class="grey">CD and DVD burning application.</span>
 					</li>
-					<li><a href="#">Xfmedia</a><br />
+					<li>
+						<a href="/projects/xfmedia/">Xfmedia</a>
+						<br />
 						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
 					</li>
 				</ul>
