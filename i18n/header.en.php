@@ -22,7 +22,7 @@
 
 
 	<style type="text/css">
-		<?php echo $layout_css; ?> 
+		<?php echo $layout_css; ?>
 	</style>
 
 	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
