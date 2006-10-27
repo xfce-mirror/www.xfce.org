@@ -46,8 +46,9 @@
 	<li><a href="#a5-1">How can I report bugs?</a></li>
 	<li><a href="#a5-2">How often are new releases made? </a></li>
 </ul>
+<br />
 <hr />
-
+<br />
 <h2>Getting started</h2>
 <dl>
 	<dt id="a1-1">What is &quot;Xfce&quot; and why should I use it?</dt>
@@ -104,52 +105,54 @@
       		instead (replace :0 with your display name if required).
       	</dd>
 	<dt id="a2-5">Is it possible to use Xfce with DM's?</dt>
-	<dd>Sure, both gdm and kdm can start Xfce. <br />
-	<p><strong>Setting up GDM</strong><br />
-	If you installed Xfce system-wide and you want to use the GNOME Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach gdm how to start the Xfce session. This is a sample desktop file, Xfce.desktop:<br />
-	<code>
-	[Desktop Entry]<br />
-	Encoding=UTF-8<br />
-	Name=Xfce 4.4 Session<br />
-	Comment=Use this session to run Xfce 4.4 as your desktop environment<br />
-	Exec=/usr/local/bin/startxfce4<br />
-	Icon=/usr/local/share/pixmaps/xfce4_xicon1.png<br />
-	Type=Application<br />
-	</code><br/>
-	It is usually enough to simply copy the example file to the Session directory used by gdm; this directory is usually located in /etc/dm/Sessions, /etc/X11/gdm/Sessions, /usr/share/xsessions, /usr/X11/share/gnome/xsessions or some other location, refer to the documentation of your system for details. You need to restart gdm after you created the file.<br />
-	</p>
-	<p>
-	<strong>Setting up KDM</strong><br />
-	If you installed Xfce system-wide and you want to use the KDE Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach kdm how to start the Xfce session. <br />
-	First you need to find where kdm searches for its .desktop files:<br />
-	<code>locate kde.desktop</code><br />
-	Common locations are /usr/share/apps/kdm/sessions or /usr/local/share/kdm/sessions. Once you found the kdm session directory, you need to create a new file Xfce.desktop with the following:<br />
-	<code>
-	[Desktop Entry]<br />
-	Encoding=UTF-8<br />
-	Type=XSession<br />
-	Exec=/usr/local/bin/startxfce4<br />
-	TryExec=/usr/local/bin/startxfce4<br />
-	Name=Xfce 4.4<br />
-	Comment=The Xfce 4.4 Desktop Environment<br />
-	</code>
-	</p>
+	<dd>Sure, both gdm and kdm can start Xfce.<br />
+		<p>
+			<strong>Setting up GDM</strong><br />
+			If you installed Xfce system-wide and you want to use the GNOME Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach gdm how to start the Xfce session. This is a sample desktop file, Xfce.desktop:<br />
+			<br />
+			<code>
+				[Desktop Entry]<br />
+				Encoding=UTF-8<br />
+				Name=Xfce 4.4 Session<br />
+				Comment=Use this session to run Xfce 4.4 as your desktop environment<br />
+				Exec=/usr/local/bin/startxfce4<br />
+				Icon=/usr/local/share/pixmaps/xfce4_xicon1.png<br />
+				Type=Application
+			</code>
+			<br/><br />
+			It is usually enough to simply copy the example file to the Session directory used by gdm; this directory is usually located in /etc/dm/Sessions, /etc/X11/gdm/Sessions, /usr/share/xsessions, /usr/X11/share/gnome/xsessions or some other location, refer to the documentation of your system for details. You need to restart gdm after you created the file.<br />
+		</p>
+		<p>
+			<strong>Setting up KDM</strong><br />
+			If you installed Xfce system-wide and you want to use the KDE Display Manager (gdm) to start your Xfce session, you will have to create a .desktop file to teach kdm how to start the Xfce session. <br />
+			First you need to find where kdm searches for its .desktop files:<br />
+			<code>locate kde.desktop</code><br />
+			Common locations are /usr/share/apps/kdm/sessions or /usr/local/share/kdm/sessions. Once you found the kdm session directory, you need to create a new file Xfce.desktop with the following:<br />
+			<br />
+			<code>
+				[Desktop Entry]<br />
+				Encoding=UTF-8<br />
+				Type=XSession<br />
+				Exec=/usr/local/bin/startxfce4<br />
+				TryExec=/usr/local/bin/startxfce4<br />
+				Name=Xfce 4.4<br />
+				Comment=The Xfce 4.4 Desktop Environment<br />
+			</code>
+		</p>
 	</dd>
 	
 	<dt id="a2-6">Is it possible to start Xfce when I login on the console?</dt>
 	<dd>There are two different ways to do this:<br />
-	<ul>
-	<li>You can just login with the command <code>startxfce4</code></li>
-	<li>You put the following in your .bash_profile/.bashrc if you want that Xfce is started automatically when you login on tty1:<br />
-	<code>
-	if [ "$(tty)" = "/dev/tty1" -o  "$(tty)" = "/dev/vc/1" ] ; then<br />
-	startxfce4<br />
-	fi<br />
-	</code>
-	</li>
-	</ul>
-	
-	
+		<ul>
+			<li>You can just login with the command <code>startxfce4</code></li>
+			<li>You put the following in your .bash_profile/.bashrc if you want that Xfce is started automatically when you login on tty1:<br />
+				<code>
+					if [ "$(tty)" = "/dev/tty1" -o  "$(tty)" = "/dev/vc/1" ] ; then<br />
+					startxfce4<br />
+					fi<br />
+				</code>
+			</li>
+		</ul>
 	</dd>
 </dl>
 
@@ -165,10 +168,12 @@
 	<dd>There are two possibilities. The first is by middle clicking on the desktop (if you have xfdesktop runnig) or you can add the window list plugin to the panel.</dd>
 	
 	<dt id="a3-4">How do I disable the taskbar in Xfce 4.2?</dt>
-	<dd>Just don't run it at startup...<br />
-  If you use the session-manager, kill the taskbar, save your session on logout, and the taskbar will be gone when you'll log back in.<br />
-  If you don't use the session manager, comment out the xftaskbar4 line in your $sysconfdir/xdg/xfce4/xinitrc or ~/.config/xfce4/xinitrc.<br />
-  If you use the session manager and want to remove the taskbar system-wide, comment out the taskbar line in the $sysconfdir/xgd/xfce4-session/xfce4-session.rc file.</dd>
+	<dd>
+		Just don't run it at startup...<br />
+		If you use the session-manager, kill the taskbar, save your session on logout, and the taskbar will be gone when you'll log back in.<br />
+		If you don't use the session manager, comment out the xftaskbar4 line in your $sysconfdir/xdg/xfce4/xinitrc or ~/.config/xfce4/xinitrc.<br />
+		If you use the session manager and want to remove the taskbar system-wide, comment out the taskbar line in the $sysconfdir/xgd/xfce4-session/xfce4-session.rc file.
+	</dd>
 	
 	<dt id="a3-5">When I start Xfce a dialog pops up saying &quot;Could not look up internet address for&quot; ...</dt>
 	<dd>&nbsp;</dd>
