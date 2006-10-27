@@ -149,16 +149,19 @@
 <h2>Usage</h2>
 <dl>
 	<dt id="3-1">How do I start Xfce.</dt>
-	<dd>&nbsp;</dd>
+	<dd>Xfce comes with a startup script: startxfce4. You can add "exec startxfce4" to your .xinitrc in your home directory and simply use "startx" or you can simply use startxfce4 if you prefer that.</dd>
 	
 	<dt id="3-2">I want to use Xfce in a corporate environment and don't let users to modify their menu.</dt>
 	<dd>Use kiosk mode (see panel and xfce4-session docs).</dd>
 	
 	<dt id="3-3">How do I display a list of all windows?</dt>
-	<dd>&nbsp;</dd>
+	<dd>There are two possibilities. The first is by middle clicking on the desktop (if you have xfdesktop runnig) or you can add the window list plugin to the panel.</dd>
 	
 	<dt id="3-4">How do I disable the taskbar in Xfce 4.2?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Just don't run it at startup...<br />
+  If you use the session-manager, kill the taskbar, save your session on logout, and the taskbar will be gone when you'll log back in.<br />
+  If you don't use the session manager, comment out the xftaskbar4 line in your $sysconfdir/xdg/xfce4/xinitrc or ~/.config/xfce4/xinitrc.<br />
+  If you use the session manager and want to remove the taskbar system-wide, comment out the taskbar line in the $sysconfdir/xgd/xfce4-session/xfce4-session.rc file.</dd>
 	
 	<dt id="3-5">When I start Xfce a dialog pops up saying &quot;Could not look up internet address for&quot; ...</dt>
 	<dd>&nbsp;</dd>
