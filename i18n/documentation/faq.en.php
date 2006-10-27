@@ -1,14 +1,15 @@
 <h1>Xfce FAQs </h1>
 
+<h3 id="starting">Getting started</h3>
 <ul>
-	<h3 id="starting">Getting started</h3>
 	<li><a href="#1-1">What is &quot;Xfce&quot; and why should I use it?</a></li>
 	<li><a href="#1-2">How is Xfce pronounced and what does it mean? </a></li>
 	<li><a href="#1-3">What does the logo symbolize?</a></li>
 	<li><a href="#1-4">On what platforms does Xfce currently run? </a></li>
 </ul>
+
+<h3 id="installation">Installation</h3>
 <ul>
-	<h3 id="installation">Installation</h3>
 	<li><a href="#2-1">How do I install Xfce? </a></li>
 	<li><a href="#2-2">What is the &quot;use startup notification&quot; option?</a></li>
 	<li><a href="#2-3">The graphical installer fails with &quot;C++ preprocessor fails sanity check&quot;</a></li>
@@ -16,8 +17,9 @@
 	<li><a href="#2-5">Is it possible to use Xfce with DM's? </a></li>
 	<li><a href="#2-6">Is it possible to start Xfce when I login on the console? </a></li>
 </ul>
+
+<h3 id="usage">Usage</h3>
 <ul>
-	<h3 id="usage">Usage</h3>
 	<li><a href="#3-1">How do I start Xfce. </a></li>
 	<li><a href="#3-2">I want to use Xfce in a corporate environment and don't let users to modify their menu.</a></li>
 	<li><a href="#3-3">How do I display a list of all windows?</a></li>
@@ -28,8 +30,9 @@
 	<li><a href="#3-8">I'm unable to shutdown or restart my computer when running Xfce. </a></li>
 	<li><a href="#3-9">The left-click to get the menu on the title bar menu button seems a little slow. How do I change that?</a></li>
 </ul>
+
+<h3 id="appearance">Visual Appearance</h3>
 <ul>
-	<h3 id="appearance">Visual Appearance</h3>
 	<li><a href="#4-1">How do I set the panel layer in Xfce 4.2 and 4.4?</a></li>
 	<li><a href="#4-2">How do I enable panel transparency and windows shadows? </a></li>
 	<li><a href="#4-3">My Xfce Desktop doesn't has any shortcut icons, why? </a></li>
@@ -37,8 +40,9 @@
 	<li><a href="#4-5">Is it possible to change the icon used by the iconbox or taskbar for a given application?</a></li>
 	<li><a href="#4-6">I've installed a plugin for the panel, but the indicators don't use different colors. What can I do?</a></li>
 </ul>
+
+<h3 id="development">Development</h3>
 <ul>
-	<h3 id="development">Development</h3>
 	<li><a href="#5-1">How can I report bugs?</a></li>
 	<li><a href="#5-2">How often are new releases made? </a></li>
 </ul>
@@ -64,39 +68,41 @@
 	<dt id="2-1">How do I install Xfce?</dt>
 	<dd>Xfce can be installed in at least three different ways.
 		<ul>
-		  <li> From source code, building the environment by yourself </li>
-		  <li> Use the package manager of your distro, it will provide you the precompiled binaries or install instructions to build from source </li>
-      <li> Use the graphical installer provided by <a href="http://www.os-cillation.com/index.php?id=31&L=5">os-cillation</a>. Follow instructions on <a href="http://www.os-works.com/documentation/xfce-installers/4.2.1/xfce-installer/">this</a> page to use the installer.</li>
+			<li> From source code, building the environment by yourself </li>
+			<li> Use the package manager of your distro, it will provide you the precompiled binaries or install instructions to build from source </li>
+			<li> Use the graphical installer provided by <a href="http://www.os-cillation.com/index.php?id=31&L=5">os-cillation</a>. Follow instructions on <a href="http://www.os-works.com/documentation/xfce-installers/4.2.1/xfce-installer/">this</a> page to use the installer.</li>
 		</ul>
 	</dd>
 	
 	<dt id="2-2">What is the &quot;use startup notification&quot; option?</dt>
 	<dd>If you select this option, the window-manager will show an hourglass while the program is loading. The startup-notification libraries have to be installed. They are probably available with your distibution. This feature is only supported by modern applications (Gtk2.x and Qt3.x based).
-		<br />
-		Please note that the API is not yet frozen, and therefore Xfce 4 is only garantied to work with the startup-notification library version &gt;= 0.5.</dd>
+	    <br />
+	    Please note that the API is not yet frozen, and therefore Xfce 4 is only garantied to work with the startup-notification library version &gt;= 0.5.
+	</dd>
 	
 	<dt id="2-3">The graphical installer fails with &quot;C++ preprocessor fails sanity check&quot;</dt>
 	<dd>This error message tells you that the configure  script was unable to verify that the C++ preprocessor is setup properly on your system. You can most probably fix this problem by installing the g++ package for your distribution.</dd>
 	
 	<dt id="2-4">The graphical installer fails with &quot;Unable to connect to Xserver&quot;</dt>
 	<dd> For some reason the installation wizard is not able to connect to an Xserver, which is required for the installer. This usually happens when you use su, and su in turn doesn't pass the DISPLAY environment variable properly. Try to use the commands:
-	<br />
-	<br />
-	  <code>
-	    $ xhost +localhost <br />
-	    $ su --preserve-environment <br />
-	    # ./xfce4-4.2.1.1-installer.bin <br />
-	  </code>
-		<br />
-	  or 
 		<br />
 		<br />
-			<code>
+		<code>
+			$ xhost +localhost <br />
+			$ su --preserve-environment <br />
+			# ./xfce4-4.2.1.1-installer.bin <br />
+		</code>
+		<br />
+		or 
+		<br />
+		<br />
+		<code>
 			$ xhost +localhost <br />
 			$ su <br />
-				# env DISPLAY=:0 ./xfce4-4.2.1.1-installer.bin <br /><br />
-			</code>
-      instead (replace :0 with your display name if required).</dd>
+			# env DISPLAY=:0 ./xfce4-4.2.1.1-installer.bin <br /><br />
+		</code>
+      		instead (replace :0 with your display name if required).
+      	</dd>
 	<dt id="2-5">Is it possible to use Xfce with DM's?</dt>
 	<dd>Sure, both gdm and kdm can start Xfce. <br />
 	<p><strong>Setting up GDM</strong><br />
