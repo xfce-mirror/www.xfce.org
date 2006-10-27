@@ -133,6 +133,7 @@
 	Name=Xfce 4.4<br />
 	Comment=The Xfce 4.4 Desktop Environment<br />
 	</code>
+	</p>
 	</dd>
 	
 	<dt id="a2-6">Is it possible to start Xfce when I login on the console?</dt>
@@ -204,6 +205,7 @@
 	
 	<dt id="a4-6">I've installed a plugin for the panel, but the indicators don't use different colors. What can I do?</dt>
 	<dd>First, try another Gtk theme, since some themes override the color. If it doesn't solve the problem, you probably have an old ~/.gtkrc-2.0 : remove it and try again.</dd>
+</dl>
 
 <h2>Development</h2>
 <dl>
@@ -212,4 +214,4 @@
 	
 	<dt id="a5-2">How often are new releases made?</dt>
 	<dd>&nbsp;</dd>
-<dl>
+</dl>
