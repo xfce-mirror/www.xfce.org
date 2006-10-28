@@ -11,6 +11,7 @@ $breadcrumbs = array (
     "api"              => "Developers (API)",
     "tour"             => "Xfce 4.4 Tour",
     "search"           => "Google Search",
+    "distros"          => "Xfce Orientated Distributions",
     
     # Common Xfce components
     "xfce4-panel"      => "Panel",

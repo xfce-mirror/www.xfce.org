@@ -13,4 +13,5 @@
 		</ul>
 	</li>
 	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugins</a></li>
+	<li><a href="/download/distros">Xfce Distributions</a></li>
 </ul>
