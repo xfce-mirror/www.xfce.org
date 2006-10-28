@@ -29,8 +29,8 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit Lunar Linux website"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
-		<td>Lunar Linux is a source-base distribution. Altough there is no native desktop environment in Lunar, it has excellent support for Xfce. Mainly because a couple of Xfce developers are also Lunar developers.<br />
-            Other noticeable point: all Xfce servers are running Lunar Linux!</td>
+		<td>Lunar Linux is a source-based distribution. Although there is no native desktop environment in Lunar, it has excellent support for Xfce, mainly because a couple of Xfce developers are also Lunar developers.<br />
+            Another noticeable point: all Xfce servers are running Lunar Linux!</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
