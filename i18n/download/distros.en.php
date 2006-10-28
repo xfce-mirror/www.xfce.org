@@ -1,5 +1,5 @@
 <h1>Xfce Orientated Distributions</h1>
-<p>Here is a list of distrubutions using Xfce as their native desktop.</p>
+<p>Here is a list of distributions using Xfce as their native desktop.</p>
 
 <h2>Xubuntu</h2>
 <table border="0" cellspacing="10" cellpadding="0">
