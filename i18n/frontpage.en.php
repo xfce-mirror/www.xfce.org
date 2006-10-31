@@ -77,12 +77,11 @@
 			</div>
 			<h2>Shortcuts</h2>
 			<ul>
-				<li><a href="/community/lists" title="Mailinglists">Mailinglists</a></li>
-				<li><a href="/about/screenshots" title="Screenshots">Screenshots</a></li>
+				<li><a href="/community/lists">Mailinglists</a></li>
+				<li><a href="/about/screenshots">Screenshots</a></li>
 				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
 				<li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" target="_blank" class="external">Report a bug</a></li>
-				<li><a href="/documentation/manuals/program" title="Xfce Application Documentation">Documentation</a></li>
-				<li><a href="http://www.xfcewiki.org" title="Xfce Wiki  (New window)" target="_blank" class="external">Xfce Wiki</a></li>
+				<li><a href="/download/distros">Xfce Distributions</a></li>
 			</ul>
 		</div>
 	</div>
