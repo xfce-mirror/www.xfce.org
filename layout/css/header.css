@@ -1,17 +1,22 @@
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ * Note: This stylesheet is also used for the Xfce Bugzilla
+ */
+
 #header {
-	background: #8EBADD url(../images/header.png) repeat-x;
+	background: #8EBADD url('/layout/images/header.png') repeat-x;
 }
 #header-logo {
 	width: 350px;
 	height: 125px;
-	background: url(../images/logo.png) no-repeat;
+	background: url('/layout/images/logo.png') no-repeat;
 	float: left;
 }
 #header-right {
 	float: right;
 	width: 200px;
 	height: 100px;
-	background: url(../images/corner.png) no-repeat 100% 0;
+	background: url('/layout/images/corner.png') no-repeat 100% 0;
 }
 #header-style {
 	text-align: right;
@@ -54,7 +59,7 @@
 #header-menu {
 	clear: both;
 	border: 1px solid #C6C6C6;
-	background: #e9e9e9 url(../images/menu.png) repeat-x;
+	background: #e9e9e9 url('/layout/images/menu.png') repeat-x;
 	padding: 0.3em 0;
 }
 #header-menu ul {
@@ -98,4 +103,15 @@
 	color: #b4b4b4;
 	margin: 0;
 	padding: 0;
+}
+
+/* internet explorer fixes */
+* html #header-menu {
+	padding: 0.1em 0 0.2em;
+}
+* html #header-menu ul li {
+	margin: 0 1.2em 0 -1.2em;
+}
+* html #header-search form {
+	padding: 30px 10px 0 0;
 }

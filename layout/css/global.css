@@ -1,78 +1,33 @@
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ * Note: This stylesheet is also used for the Xfce Bugzilla
+ */
+
+/* global */
 body {
 	margin: 10px;
 	padding: 0;
 	cursor: default;
 	color: #000;
-	background: #FFF;
-}
-
-/* Website font */
-body {
+	background: #fff;
 	font: 80% arial, verdana, sans-serif;
 }
-
 div {
 	margin: 0;
 	padding: 0;
 }
 
-/* Content style */
-#content-wrap {
-	text-align: center;
-}
-#global-page {
-	margin: auto;
-	text-align: left;
-	min-width: 740px;
-}
-#global-contentwrap {
-	clear: both;
-	padding: 10px;
+/* internet explorer fixes */
+* html body {
+	font: 80% arial, verdana, sans-serif;
 }
 
-/* Link style */
-a:link, a:visited, a:active {
+/* link styles */
+:link, :visited, :link:active, :link:active {
 	color: #154374;
 	text-decoration: underline;
 }
-a:hover {
+:link:hover, :visited:hover {
 	color: #f00;
 	text-decoration: underline;
-}
-
-/* Search box */
-input {
-	font: 100% arial, verdana, sans-serif;
-}
-
-/* Usefull classes */
-.readmore {
-	text-align: right;
-	margin: 0;
-	padding: 0;
-}
-.readmore a {
-	margin: 0;
-	padding: 0 5px 0 15px;
-	background: url(../images/next.png) no-repeat 1px 50%;
-}
-.hidden {
-	display: none;
-	height: 0;
-	width: 0;
-	overflow: hidden;
-	position: absolute;
-}
-.clearboth {
-	clear: both;
-	margin: 0;
-	padding: 0;
-}
-.grey {
-	color: #666;
-}
-.external {
-	background: url(../images/external.png) no-repeat 100% 50%;
-	padding: 0 15px 0 0;
-	margin: 0 5px 0 0;
 }

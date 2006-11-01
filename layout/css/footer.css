@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ * Note: This stylesheet is also used for the Xfce Bugzilla
+ */
+
 #footer {
 	clear: both;
 }
@@ -35,4 +40,9 @@
 }
 #footer-copyright a:hover {
 	color: #009;
+}
+
+/* internet explorer fixes */
+* html #footer-sponsors ul li img {
+	border: 1px solid #000;
 }

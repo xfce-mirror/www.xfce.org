@@ -1,4 +1,8 @@
-/* Fontpage related fonts */
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ */
+
+/* fontpage related fonts */
 h1, h2 {
 	margin: 0;
 	padding: 0;
@@ -11,7 +15,7 @@ h1, h2 {
 	font-weight: bold;
 }
 
-/* Style */
+/* style */
 #front-intro {
 	padding: 0 0 10px;
 }
@@ -81,4 +85,12 @@ h1, h2 {
 #front-projects-content li, #front-news-content li, #front-blog-content li {
 	margin: 0;
 	padding: 0.2em;
+}
+
+/* internet explorer fixes */
+* html #front-intro {
+	margin: -10px 0 0;
+}
+* html #front-projects {
+	width: 33%;
 }

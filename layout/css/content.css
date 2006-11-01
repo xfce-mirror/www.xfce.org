@@ -1,88 +1,28 @@
-/* Content related fonts */
-/* Some of this styles are copied from MediaWiki */
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ */
+ 
+@import url("fonts.css");
 
-h1, h2, h3, h4, h5 {
-    color: #154374;
-    background: none;
-    font-weight: bold;
-    margin: 0;
-    padding-top: .5em;
-    padding-bottom: .17em;
-    border-bottom: 1px solid #d4d4d4;
-}
-h1 { 
-	padding-top: 0;
-	font-size: 160%;
-}
-h2 { 
-	font-size: 140%;
-}
-h3, h4, h5, h6 {
-    border-bottom: none;
-}
-h3 { font-size: 120%; }
-h4 { font-size: 100%; }
-h5 { font-size: 80%; }
-
-h1 a:link, h1 a:hover, h1 a:active, h1 a:visited, 
-h2 a:link, h2 a:hover, h2 a:active, h2 a:visited {
-	text-decoration: none;
-}
-
-.field {
-	border: 1px solid #c6c6c6;
-	padding: 0.2em;
-	margin: 0;
-	background: #fff;
-}
-
-.select {
-	border: 1px solid #c6c6c6;
-	padding: 0.08em;
-	margin: 0;
-	background: #fff;
-}
-
-.code {
-	background-color:#eee;
-	border:1px solid #d4d4d4;
-	padding:5px;
-}
-
-/* Warning and info */
-.warning {
-	border: 1px solid #ff7f7f;
-	padding: 5px 5px 5px 40px;
-	min-height: 30px;
-	background: #ffbfbf url(../images/warning.png) no-repeat;
-}
-
-.tip {
-	border: 1px solid #d4ffd4;
-	padding: 5px 5px 5px 40px;
-	min-height: 30px;
-	background: #eeffee url(../images/tip.png) no-repeat;
-}
-
-/* Basic styles, used by the content */
+/* basic styles, used by the content */
 #content-text p {
-    margin: .4em 0 .5em 0;
-    line-height: 1.5em;
+	margin: .4em 0 .5em 0;
+	line-height: 1.5em;
 }
 
 #content-text hr, #content-menu hr {
-    height: 1px;
-    color: #d4d4d4;
-    background-color: #d4d4d4;
-    border: 0;
-    margin: .2em 0 .2em 0;
+	height: 1px;
+	color: #d4d4d4;
+	background-color: #d4d4d4;
+	border: 0;
+	margin: .2em 0 .2em 0;
 }
 
 #content-text ul {
-	list-style-image: url(../images/bullit.gif);	
+	list-style-image: url(/layout/images/bullit.gif);	
 }
 #content-text li {
-    margin-bottom: .1em;
+	margin-bottom: .1em;
 }
 dt {
 	font-weight: bold;
@@ -98,19 +38,19 @@ dd {
 	margin-bottom: .1em;
 }
 
-/* Content box (right) */
+/* content box (right) */
 #content-right {
 	float: right;
 	width: 180px;
 }
 
-/* Not available in your language */
+/* not available in your language */
 #content-lang {
 	border: 1px solid #d4d4d4;
 	width: 178px;
 	margin: 0 0 10px;
 	min-height: 50px;
-	background: #eee url(../images/locale.png) no-repeat;
+	background: #eee url(/layout/images/locale.png) no-repeat;
 }
 #content-lang p {
 	padding: 5px;
@@ -121,7 +61,7 @@ dd {
 	height: 40px;
 }
 
-/* Content navigation */
+/* content navigation */
 #content-menu {
 	border: 1px solid #d4d4d4;
 	width: 178px;
@@ -134,7 +74,7 @@ dd {
 }
 #content-menu ul li {
 	padding: 2px 2px 2px 12px;
-	background: url(../images/bullit.gif) no-repeat 0 0.5em;
+	background: url(/layout/images/bullit.gif) no-repeat 0 0.5em;
 }
 #content-menu ul ul li {
 	background: none;
@@ -145,7 +85,7 @@ dd {
 	display: block;
 }
 
-/* Sponsor box */
+/* sponsor box */
 #content-sponsor {
 	text-align: center;
 	border: 1px solid #d4d4d4;
@@ -170,18 +110,16 @@ dd {
 	text-decoration: underline;
 }
 
-/* Content div */
+/* content div */
 #content-text {
 	margin-right: 190px;
 }
 
-/* Google search */
-.tenpadding {
-  margin: 0;
-  padding: 0 10px;
-}
-
+/* google search */
 #SearchResults iframe {
 	width: 100%;
 	height: 105em;
+}
+* html #SearchResults iframe {
+	width: 550px;
 }
