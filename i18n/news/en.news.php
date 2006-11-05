@@ -10,6 +10,12 @@ $news = array (
     ),
 */
     array (
+        'date'    => '5 nov 2006',
+        'author'  => 'Olivier Fourdan',
+        'title'   => 'Xfce 4.4 Release Candidate 2 (4.3.99.2) released',
+        'content' => 'The second and hopefully last release candidate of the Xfce 4.4 desktop is now available for download. This release focuses primarily on bug fixes and optimizations. Please refer to the changelog for a list of fixes and changes. Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from this page.',
+    ),
+    array (
         'date'    => '3 sep 2006',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4 Release Candidate 1 (4.3.99.1) released',
