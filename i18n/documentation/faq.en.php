@@ -176,7 +176,8 @@
 	</dd>
 	
 	<dt id="a3-5">When I start Xfce a dialog pops up saying &quot;Could not look up internet address for&quot; ...</dt>
-	<dd>&nbsp;</dd>
+	<dd>Xfce simply wants that your hostname is in /etc/hosts. Example input: <code>127.0.0.1 localhost</code><br />
+</dd>
 	
 	<dt id="a3-6">How do I get numlock to start on login?</dt>
 	<dd>There are two possibilities to achieve this. Or you should use a display manager that turns the numlock on (eg. gdm, check the settings) or you can use a little program called numlockx <a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>adding <code>numlockx on</code> in your .xinitrc will do the job.</dd>
