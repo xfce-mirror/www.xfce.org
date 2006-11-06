@@ -183,11 +183,11 @@
 	<dd>There are two possibilities to achieve this. Or you should use a display manager that turns the numlock on (eg. gdm, check the settings) or you can use a little program called numlockx <a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>adding <code>numlockx on</code> in your .xinitrc will do the job.</dd>
 	
 	<dt id="a3-7">Is it possible to use Media keys in the Shortcut Editor?</dt>
-	<dd>Use xmodmap to assign keycodes to your Media keys to make them available for the Xfce shortcut editor<br />
-  To determine keycodes of the multimedia keys use the program <code>xev</code>. Create a .Xmodmap file in your $HOME directory containing those keycodes and assign keysyms to them. Example: <code>keycode 153 = XF86AudioNext</code>. All possible keysyms can be found in /usr/lib/X11/XKeysymDB or /usr/share/X11/XKyesymDB. To ensure that the .Xmodmap file is loaded when you start xfce add <code>/usr/bin/xmodmap /PATH/TO/.Xmodmap</code> to your .xinitrc or .xprofile file. When you start the shortcut editor the assigne keysyms should show up when you press one of your multimedia keys. Now it is possible to assign a command to them.</dd>
+	<dd>Use xmodmap to assign keycodes to your Media keys to make them available for the Xfce shortcut editor:<br />
+  To determine keycodes of the multimedia keys use the program <code>xev</code>. Create a .Xmodmap file in your $HOME directory containing those keycodes and assign keysyms to them. Example: <code>keycode 153 = XF86AudioNext</code>. All possible keysyms can be found in /usr/lib/X11/XKeysymDB or /usr/share/X11/XKyesymDB. To ensure that the .Xmodmap file is loaded when you start Xfce add <code>/usr/bin/xmodmap /PATH/TO/.Xmodmap</code> to your .xinitrc or .xprofile file. When you start the shortcut editor the assigned keysyms should show up when you press one of your multimedia keys. Now it is possible to assign a command to them.</dd>
 	
 	<dt id="a3-8">I'm unable to shutdown or restart my computer when running Xfce.</dt>
-	<dd>&nbsp;</dd>
+	<dd>You have to allow the user(s) to execute $installdir/libexec/xfsm-shutdown-helper with sudo. Please install sudo, and refer to xfce4-session and sudo documentation.</dd>
 	
 	<dt id="a3-9">The left-click to get the menu on the title bar menu button seems a little slow. How do I change that?</dt>
 	<dd>The left-button single-click menu button display speed is linked to the double click speed. If one wants the menu to appear quicker, just change the double click speed in the Xfce 4 Settings Manager Mouse properties to be faster. Or, one can right click on the title bar to get the menu displayed almost instantly without adjusting the double-click speed. The menu will display both ways.</dd>
@@ -196,7 +196,7 @@
 <h2>Visual Appearance</h2>
 <dl>
 	<dt id="a4-1">How do I set the panel layer in Xfce 4.2 and 4.4?</dt>
-	<dd>&nbsp;</dd>
+	<dd>In order to improve focus management this option was removed</dd>
 	
 	<dt id="a4-2">How do I enable panel transparency and windows shadows?</dt>
 	<dd>&nbsp;</dd>
