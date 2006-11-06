@@ -183,7 +183,8 @@
 	<dd>There are two possibilities to achieve this. Or you should use a display manager that turns the numlock on (eg. gdm, check the settings) or you can use a little program called numlockx <a href="http://ktown.kde.org/~seli/numlockx/">numlockx</a>adding <code>numlockx on</code> in your .xinitrc will do the job.</dd>
 	
 	<dt id="a3-7">Is it possible to use Media keys in the Shortcut Editor?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Use xmodmap to assign keycodes to your Media keys to make them available for the Xfce shortcut editor<br />
+  To determine keycodes of the multimedia keys use the program <code>xev</code>. Create a .Xmodmap file in your $HOME directory containing those keycodes and assign keysyms to them. Example: <code>keycode 153 = XF86AudioNext</code>. All possible keysyms can be found in /usr/lib/X11/XKeysymDB or /usr/share/X11/XKyesymDB. To ensure that the .Xmodmap file is loaded when you start xfce add <code>/usr/bin/xmodmap /PATH/TO/.Xmodmap</code> to your .xinitrc or .xprofile file. When you start the shortcut editor the assigne keysyms should show up when you press one of your multimedia keys. Now it is possible to assign a command to them.</dd>
 	
 	<dt id="a3-8">I'm unable to shutdown or restart my computer when running Xfce.</dt>
 	<dd>&nbsp;</dd>
@@ -216,8 +217,9 @@
 <h2>Development</h2>
 <dl>
 	<dt id="a5-1">How can I report bugs?</dt>
-	<dd>Your can report bugs <a href="http://bugzilla.xfce.org/" target="_blank">here</a> or ask on the<a href="/community/lists"> mailing lists</a> or <a href="http://forum.xfce.org/" target="_blank">forums</a> for help. </dd>
+	<dd>Your can report bugs <a href="http://bugzilla.xfce.org/" target="_blank">here</a> or ask on the<a href="/community/lists"> mailing lists</a> or <a href="http://forum.xfce.org/" target="_blank">forums</a> for help. If you want to report a bug pleas read <a href="http://spuriousinterrupt.org/projects/xfce4-debug">The Xfce debug guide</a> and <a href=http://gaim.sourceforge.net/gdb.php>The gaim gdb howto</a> to ensure your bugreport actually makes sense and is usefull.</dd>
 	
 	<dt id="a5-2">How often are new releases made?</dt>
-	<dd>&nbsp;</dd>
+	<dd>Whenever we feel like it is ready to be released <br/ >
+ If you are unhappy with this you can always choose to hire the whole Xfce developer crew and pay us... Then we can even tailor it to your liking...</dd>
 </dl>
