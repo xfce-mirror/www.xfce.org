@@ -30,7 +30,8 @@ $breadcrumbs = array (
     "xarchive"         => "Archive Manager",
     "xfc"              => "Xfce Foundation Classes",
     "xfce-gtk-engine"  => "GTK Theme Engine",
-    "dbh"              => "Disk Based Hashtables"
+    "dbh"              => "Disk Based Hashtables",
+    "installit"        => "InstallIt"
 );
 
 ?>
