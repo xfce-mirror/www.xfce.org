@@ -40,31 +40,35 @@
     </tr>
     <tr>
         <td width="40%">Eduard Roccatello [eduard at xfce.org]</td>
-        <td width="60%">Text Editor, Application Finder</td>
+        <td width="60%">Application Finder</td>
     </tr>
     <tr>
-        <td width="40%" bgcolor="#eeeeee">Fran&ccedil;ois Le Clainche [fleclainche at wanadoo.fr]</td>
-        <td width="60%" bgcolor="#eeeeee">Webmaster and artwork</td>
+        <td width="40%" bgcolor="#eeeeee">Erik Harrison [erikharrison gmail.com]</td>
+        <td width="60%" bgcolor="#eeeeee">Text Editor</td>
     </tr>
     <tr>
-        <td width="40%">Giuseppe Torelli [colossus at xfce.org]</td>
-        <td width="60%">Archive manager</td>
+        <td width="40%">Fran&ccedil;ois Le Clainche [fleclainche at wanadoo.fr]</td>
+        <td width="60%">Webmaster and artwork</td>
     </tr>
     <tr>
-        <td width="40%" bgcolor="#eeeeee">Jasper Huijsmans [jasper at xfce.org]</td>
-        <td width="60%" bgcolor="#eeeeee">Panel</td>
+        <td width="40%" bgcolor="#eeeeee">Giuseppe Torelli [colossus at xfce.org]</td>
+        <td width="60%" bgcolor="#eeeeee">Archive manager</td>
     </tr>
     <tr>
-        <td width="40%">Jean-Fran&ccedil;ois Wauthy [pollux at xfce.org]</td>
-        <td width="60%">Printer Manager, CD burning application</td>
+        <td width="40%">Jasper Huijsmans [jasper at xfce.org]</td>
+        <td width="60%">Panel</td>
     </tr>
     <tr>
-        <td width="40%" bgcolor="#eeeeee">Micka&euml;l Graf [korbinus at xfce.org]</td>
-        <td width="60%" bgcolor="#eeeeee">Calendar</td>
+        <td width="40%" bgcolor="#eeeeee">Jean-Fran&ccedil;ois Wauthy [pollux at xfce.org]</td>
+        <td width="60%" bgcolor="#eeeeee">Printer Manager, CD burning application</td>
     </tr>
     <tr>
-        <td width="40%">Olivier Fourdan [fourdan at xfce.org]</td>
-        <td width="60%">Window Manager</td>
+        <td width="40%">Micka&euml;l Graf [korbinus at xfce.org]</td>
+        <td width="60%">Calendar</td>
+    </tr>
+    <tr>
+        <td width="40%" bgcolor="#eeeeee">Olivier Fourdan [fourdan at xfce.org]</td>
+        <td width="60%" bgcolor="#eeeeee">Window Manager</td>
     </tr>
 </table>
 
