@@ -9,7 +9,7 @@
 <h3>Subversion</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-appfinder%2F&amp;rev=0&amp;sc=0#/xfce4-appfinder/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-appfinder/">SVN</a></p>
-<blockquote><code>svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code></blockquote>
+<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code></p>
 
 <h1>Author</h1>
 <ul>

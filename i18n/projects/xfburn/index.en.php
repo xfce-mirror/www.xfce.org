@@ -8,7 +8,7 @@
 <h3>Subversion</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfburn%2F&amp;rev=0&amp;sc=0#/xfburn/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfburn/">SVN</a></p>
-<blockquote><code>svn co http://svn.xfce.org/svn/xfce/xfburn/trunk xfburn</code></blockquote>
+<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfburn/trunk xfburn</code></p>
 
 <h2>Author</h2>
 <ul>

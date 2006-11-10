@@ -24,7 +24,7 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-mixer%2F&amp;rev=0&amp;sc=0#/xfce4-mixer/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
 </p>
-<blockquote><code>svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></blockquote>
+<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></p>
 
 <h2>Author</h2>
 <ul>
