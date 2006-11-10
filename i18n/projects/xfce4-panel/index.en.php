@@ -1,93 +1,59 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
+
 <h1>Panel</h1>
-<p>The Xfce 4 panel. Xfce supports multiple panels, with many options for their
+<p>The Xfce 4 Panel supports multiple panels, with many options for their
   position, appearance, transparency and behavior. There are many items 
   available by default to full fit a panel, like application launchers with 
-  detachable menus, a graphical pager, a tasklist, a clock, a system tray, and 
-  a show/hide desktop switcher. It offers an easy way to add an item, using a 
-  dialog supporting drag and drop, and to move items between different panels. 
-  It's compatible with the numerous plugins available from the 
+  detachable menus, a graphical pager, a tasklist, a clock, a system tray, 
+  a show/hide desktop switcher, and even more. It offers an easy way to add 
+  items using a dialog, and to move items accross different panels. It's 
+  compatible with the numerous panel plugins available from the 
   <a href="http://goodies.xfce.org/">Xfce Goodies Project page</a>.</p>
 
 <h2>Features</h2>
 <ul>
-  <li>Multiple panels</li>
-  <li>Customizable appearance
-    <ul>
-      <li>Position fixed or moveable</li>
-      <li>Normal or full size</li>
-      <li>Hide automatically</li>
-    </ul>
-  </li>
-  <li>Internal plugins
-    <ul>
-      <li>Xfce menu</li>
-      <li>Launchers</li>
-      <li>Task list</li>
-      <li>Clock</li>
-      <li>System tray</li>
-      <li>Pager</li>
-      <li>Show desktop</li>
-      <li>Quit / Lock screen</li>
-    </ul>
-  </li>
-  <li>External plugins
-    <ul>
-      <li>System and network monitor</li>
-      <li>Clipboard manager</li>
-      <li>Notes plugin<!-- :p --></li>
-      <li>Command line entry</li>
-      <li>Date and time</li>
-      <li>Useful plugins for a laptop
-        <ul>
-          <li>Battery monitor</li>
-          <li>Wi-Fi status</li>
-          <li>CPU frequency monitor</li>
-        </ul>
-      </li>
-      <li>See more at 
-        <a href="http://goodies.xfce.org/projects/panel-plugins/start" 
-           target="_blank" class="external">goodies.xfce.org</a></li>
-    </ul>
-  </li>
+  <li><strong>Multiple panels</strong> with multiple screen support.</li>
+</ul>
+<ul>
+  <li><strong>Customizable appearance</strong>:
+    position,
+    size,
+    automatically hide, and
+    transparency with Xorg Composite extension.</li>
+</ul>
+<ul>
+  <li><strong>Plugins</strong>:
+    menu, 
+    launcher, 
+    task list, 
+    clock, 
+    system tray, 
+    pager, 
+    show desktop, and
+    logout or lock screen.</li>
+</ul>
+<ul>
+  <li><strong>Advanced panel plugins</strong>: 
+    system and network monitor,
+    clipboard manager,
+    notes,
+    command line entry,
+    date and time,
+    and other useful plugins for a laptop like 
+    battery monitor,
+    Wi-Fi status,
+    or CPU frequency monitor...</li>
 </ul>
 
-<h2>Screenshots</h2>
-<table cellspacing="10" width="100%">
-  <tr>
-    <td colspan="2" align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel.png" 
-              alt="xfce4-panel" /><br />
-        <strong>Panel</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="bottom" align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel-menu-tiny.png" 
-              alt="xfce4-panel-menu"/><br />
-        <strong>Menu</strong></p>
-    </td>
-    <td valign="bottom" align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel-add-item-tiny.png" 
-              alt="xfce4-panel-add-item" /><br />
-        <strong>Add Item</strong></p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="bottom" align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel-panel-manager-tiny.png" 
-              alt="xfce4-panel-panel-manager"/><br />
-        <strong>Panel Manager</strong></p>
-    </td>
-    <td valign="bottom" align="center">
-      <p><img src="/images/projects/xfce4-panel/xfce4-panel-program-launcher-tiny.png" 
-              alt="xfce4-panel-program-launcher"/><br />
-        <strong>Program Launcher</strong></p>
-    </td>
-  </tr>
-</table>
+<h2>External Links</h2>
+<p><a href="http://goodies.xfce.org/projects/panel-plugins/start" target="_blank" class="external">Panel plugins</a> from
+  the Goodies Project page</p>
+<h3>Subversion</h3>
+<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-panel%2F&amp;rev=0&amp;sc=0#/xfce4-panel/">WebSVN</a><br />
+  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
+<blockquote><code>svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></blockquote>
 
-<h2>Developers</h2>
+<h2>Author</h2>
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
 </ul>

@@ -13,7 +13,7 @@
   <a class="external" target="_blank" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contains useful tips)</p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&path=%2Fthunar%2F&rev=0&sc=0#/thunar/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fthunar%2F&amp;rev=0&amp;sc=0#/thunar/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <blockquote><code>svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></blockquote>
 

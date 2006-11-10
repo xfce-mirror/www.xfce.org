@@ -95,7 +95,7 @@
 			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/installit/">Installit</a></h3>
+			<h3><a href="/projects/installit/">InstallIt</a></h3>
 			<p>InstallIt is the official approach of transforming the famous Xfce installer 
 			into a more generic software management and installation tool. It is written in 
 			Python using Python-GTK.</p>
@@ -169,12 +169,11 @@
 			on xine, supports video as well.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xffm.png" alt="xffm" width="48" height="48" />
+			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xffm/">Xffm Filemanager </a></h3>
-			<p>A fast file manager, with two independent panes, integrated samba network 
-			browser and mount/umount capabilities using fstab data. It includes an icon theme editor.</p>
+			<h3><a href="/projects/xarchiver/">Archive Manager</a></h3>
+			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
@@ -184,19 +183,6 @@
 			<p>The Xfce developer tools provide a collection of scripts and M4 macros that 
 			are required to build the Xfce core desktop components.</p>
 		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
-		</td>
-		<td valign="top">
-			<h3><a href="/projects/xarchiver/">Archive Manager</a></h3>
-			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
-		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
 	</tr>
 </table>
 
