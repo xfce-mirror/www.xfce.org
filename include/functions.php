@@ -102,8 +102,8 @@ function ParseBBCode ($string, $feed=false)
     if ($feed)
     {
     	# escapage the html charaters in feeds
-    	$character = array ("<",    ">",   "\"");
-    	$encoded   = array ("&lt;", "&gt;","&quot;");
+    	$character = array ("<a href=\"/","<", ">", "\"");
+    	$encoded   = array ("<a href=\"http://www.xfce.org/", "&lt;", "&gt;","&quot;");
         $string = str_replace($character, $encoded, $string);
     }
 
