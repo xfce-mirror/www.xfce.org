@@ -1,4 +1,5 @@
 <h1>Xfce in the News</h1>
+<p>Here you can find various reviews of the Xfce desktop environment.</p>
 <h2>2006</h2>
 <table width="99%">
   <tr>
