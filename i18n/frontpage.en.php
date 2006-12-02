@@ -81,6 +81,7 @@
 				<li><a href="/about/screenshots">Screenshots</a></li>
 				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
 				<li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" target="_blank" class="external">Report a bug</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  (New window)" target="_blank" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Xfce Distributions</a></li>
 			</ul>
 		</div>

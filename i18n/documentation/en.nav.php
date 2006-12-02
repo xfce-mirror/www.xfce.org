@@ -1,9 +1,5 @@
 <ul>
-	<li><a href="/documentation/faq/">FAQs</a>
-		<ul>
-			<li><a href="http://xfce.wikicities.com/wiki/Frequently_Asked_Questions" target="_blank" class="external">Wiki FAQ</a></li>
-		</ul>
-	</li>
+	<li><a href="http://wiki.xfce.org/faq" target="_blank" class="external">Xfce FAQs</a></li>
 	<li><a href="/documentation/requirements">Requirements</a></li>
 	<li><a href="/documentation/changelogs/">Changelogs</a></li>
 	<li><a href="/documentation/archive">Archive</a>
