@@ -41,7 +41,12 @@ please concider joining the <a href="../community/lists">mailing lists</a> and <
 			<h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">Development</a></h3>
 			<p>Feel free to join us developing the next major branch of Xfce, or fix bugs in existing releases.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">Everybody is able to improve and extend the content of the Xfce <a href="http://wiki.xfce.org">wiki</a>.</td>
+		<td width="48" valign="top">
+			<img src="/images/development/docs.png" alt="docs" width="48" height="48" />
+		</td>
+		<td width="33%" valign="top">
+			<h3><a href="http://wiki.xfce.org">Wiki</a></h3>
+			<p>Everybody is able to improve and extend the content of the Xfce <a href="http://wiki.xfce.org">wiki</a>.</p>
+		</td>
 	</tr>
 </table>
