@@ -20,7 +20,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-panel/">Panel</a></h3>
-			<p>The Xfce 4 panel is part of the Xfce 4 Desktop Environment and 
+			<p>The Xfce 4 panel is part of the Xfce 4 Desktop Environment and
 			features program launchers, panel menus, a clock, a desktop switcher and more.</p>
 		</td>
 		<td width="48" valign="top">
@@ -28,7 +28,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
-			<p>This program sets the background image and provides a root window menu, 
+			<p>This program sets the background image and provides a root window menu,
 			desktop icons or minimized icons and a windows list.</p>
 		</td>
 	</tr>
@@ -45,7 +45,7 @@
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Printing Helper</a></h3>
 			<p>Provides a graphical frontend for printing. Xfprint can use either
-			CUPS, BSD-LPR or a file as destination, and printers are retrieved from the 
+			CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
 			printing system you choosed.</p>
 		</td>
 		<td width="48" valign="top">
@@ -53,7 +53,7 @@
 		</td>
 		<td width="33%" valign="top">
 		<h3><a href="/projects/xfce-mcs-manager/">Settings Manager</a></h3>
-			<p>This is the Xfce configuration system and it runs on the background and 
+			<p>This is the Xfce configuration system and it runs on the background and
 			provides global settings information to other Xfce components </p>
 		</td>
 	</tr>
@@ -71,7 +71,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-			<p>The three base libraries of Xfce (libxfcegui4, libxfce4mcs and libxfce4utils) 
+			<p>The three base libraries of Xfce (libxfcegui4, libxfce4mcs and libxfce4utils)
 			are used by almost any Xfce application. </p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
@@ -87,17 +87,17 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
-			<p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for 
-			Mousepad was to provide printing support, which would have been 
+			<p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for
+			Mousepad was to provide printing support, which would have been
 			difficult for Leafpad for various reasons.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/installit/">InstallIt</a></h3>
-			<p>InstallIt is the official approach of transforming the famous Xfce installer 
-			into a more generic software management and installation tool. It is written in 
+			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
+			<p>InstallIt is the official approach of transforming the famous Xfce installer
+			into a more generic software management and installation tool. It is written in
 			Python using Python-GTK.</p>
 		</td>
 		<td width="48" valign="top">
@@ -123,7 +123,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao, 
+			<p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao,
 			mkisofs) to create and burn CD's and DVD's.</p>
 		</td>
 		<td width="48" valign="top">
@@ -147,14 +147,14 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">Volume Control</a></h3>
-			<p>A volume control for the panel. It includes a mixer dialog wich supports ALSA, 
+			<p>A volume control for the panel. It includes a mixer dialog wich supports ALSA,
 			OSS and Sun audio.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
+			<h3>Xfce4 Terminal</h3>
 			<p>Xfce4-terminal is a terminal emulator for xfce4, based on vte libs.</p>
 		</td>
 	</tr>
@@ -163,24 +163,24 @@
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfmedia/">Xfmedia</a></h3>
-			<p>Xfmedia is a simple, easy-to-use media player based on the xine engine. 
-			The GTK+ GUI focuses on playing and managing audio files, but, being based 
+			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
+			<p>Xfmedia is a simple, easy-to-use media player based on the xine engine.
+			The GTK+ GUI focuses on playing and managing audio files, but, being based
 			on xine, supports video as well.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xarchiver/">Archive Manager</a></h3>
+			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
 			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
-			<p>The Xfce developer tools provide a collection of scripts and M4 macros that 
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
+			<p>The Xfce developer tools provide a collection of scripts and M4 macros that
 			are required to build the Xfce core desktop components.</p>
 		</td>
 	</tr>
@@ -193,22 +193,22 @@
 			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/libexo/">Libexo</a></h3>
+			<h3><a href="http://www.os-cillation.de/index.php?id=29&L=5">Libexo</a></h3>
 			<p>The core Xfce libraries are targeted at desktop development, libexo is targeted at application developement.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/pyxfce/">Pyxfce</a></h3>
+			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
 			<p>Pyxfce are Xfce bindings for python. You can use python to create xfce programs, after you installed pyxfce.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfc/">Xfce Foundation Classes</a></h3>
-			<p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce 
+			<h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
+			<p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce
 			applications on UNIX-like operating systems such as Linux.</p>
 		</td>
 	</tr>
@@ -217,14 +217,14 @@
 			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-perl/">Xfce4 Perl </a></h3>
+			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
 			<p>Xfce4-perl are Xfce bindings for Perl. It also includes bindings for panel plugins. </p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/dbh/">Disk Based Hashtables</a></h3>
+			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
 			<p>DBH is a library to create Disk Based Hashtables on POSIX systems.</p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
@@ -239,15 +239,15 @@
 			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce-gtk-engine/">GTK Theme Engine</a></h3>
-			<p>A theme engine for GTK2. Not required for the desktop, but it's a nice theme 
+			<h3>GTK Theme Engine</h3>
+			<p>A theme engine for GTK2. Not required for the desktop, but it's a nice theme
 			engine so you might just as well give it a try.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce-icon/">Icon Theme</a></h3>
+			<h3>Icon Theme</h3>
 			<p>Default icon theme for Xfce 4. It includes both PNG and SVG icons</p>
 		</td>
 		<td width="48" valign="top">
