@@ -13,16 +13,16 @@ function ParseRssFeed ($lang)
         include ("i18n/news/en.news.php");
         $l = "en";
     }
-	
+
     # Feed translations
     if (is_file ("i18n/arrays/".$lang.".feed.php"))
         include ("i18n/arrays/".$lang.".feed.php");
     else
         include ("i18n/arrays/en.feed.php");
-    
+
     # Set header type
     header ('Content-type: application/xml; charset="utf-8"', true);
-    
+
     # Rss/Xml basic stuff
     echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n".
          "<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" ".
@@ -46,19 +46,19 @@ function ParseRssFeed ($lang)
     {
         echo "        <item>\n".
              "            <title>". $item["title"] ."</title>\n".
-             "            <description>". $item["content"] ."</description>\n".
+             "            <description>". ParseBBCode ($item["content"], true) ."</description>\n".
              "            <link>http://www.xfce.org/about/news?id=". strtotime ($item["date"]) ."</link>\n".
              "            <dc:creator>". $item["author"] ."</dc:creator>\n".
              "            <pubDate>". CreateDate ($item["date"], $format) ."</pubDate>\n".
              "            <category>Xfce News</category>\n".
              "            <guid isPermaLink=\"false\">http://www.xfce.org/about/news?id=". strtotime ($item["date"]) ."</guid>\n".
              "        </item>\n";
-	     
+
 	$i++;
 	if ($i >= 15)
 	    break;
     }
-    
+
     # Close
     echo "    </channel>\n".
          "</rss>";

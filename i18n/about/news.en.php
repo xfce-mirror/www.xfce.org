@@ -1,7 +1,4 @@
 <?php
-    $top=true;
-?>
-<?php
 if ($_GET["id"])
 {
     PrintNewsPage ("en", $_GET["id"], "No article was found with this id");
@@ -16,6 +13,7 @@ else
 ?>
     <h1>Xfce News Archive</h1>
 <?php
+    $top=true;
     PrintNewsPage ("en", false, "");
 }
 ?>

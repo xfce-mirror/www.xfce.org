@@ -2,15 +2,15 @@
 
 function PrintArticle ($item, $h)
 {
-	  $format = "%e %B %Y";
-	  
-	  echo "<h$h id=\"". strtotime ($item["date"]) ."\">". htmlentities ($item["title"]) ."</h$h>".
-	       "<p>".
-	       "  <span class=\"grey\"><em>[". CreateDate ($item["date"], $format, true).
-	       "  by ". $item["author"] ."]</em></span>". 
-	       "  <br />".
-         "  ". htmlentities ($item["content"]).
-         "</p>";
+      $format = "%e %B %Y";
+
+      echo "<h$h id=\"". strtotime ($item["date"]) ."\">". htmlentities ($item["title"]) ."</h$h>".
+           "<p>".
+           "  <span class=\"grey\"><em>[". CreateDate ($item["date"], $format, true).
+           "  by ". $item["author"] ."]</em></span>".
+           "  <br />".
+           "  ". ParseBBCode (htmlentities ($item["content"])).
+           "</p>";
 }
 
 function PrintNewsPage ($lang, $id, $warning)
@@ -22,20 +22,20 @@ function PrintNewsPage ($lang, $id, $warning)
 
     foreach ($news as $item)
     {
-    	  if ($id && $id == strtotime ($item["date"]))
-    	  {
-    	      PrintArticle ($item, "1");
+        if ($id && $id == strtotime ($item["date"]))
+        {
+            PrintArticle ($item, "1");
             $found = true;
-    	  }
-    	  elseif ($id == false)
-    	  {
-    	  	  PrintArticle ($item, "2");
-    	  }
+        }
+        elseif ($id == false)
+        {
+            PrintArticle ($item, "2");
+        }
     }
-    
+
     if ($id && $found == false)
     {
-    	 echo "<p>". $warning ."</p>";
+        echo "<p>". $warning ."</p>";
     }
 }
 
