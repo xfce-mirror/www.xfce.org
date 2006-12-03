@@ -7,9 +7,12 @@
  * Site languages
  **/
 $languages = array (
-	"de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
-	"en" => array ('English','UTF-8', 'en_EN'),
-	"nl" => array ('Nederlands','UTF-8', 'nl_NL'),
+	//"de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
+	"en" => array ('English', 'UTF-8', 'en_EN'),
+	//"es" => array ('Español', 'UTF-8', 'es'),
+	//"fr" => array ('Français', 'UTF-8', 'fr_FR'),
+	//"it" => array ('Italiano', 'UTF-8', 'it'),
+	"nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
 );
 
 /**
