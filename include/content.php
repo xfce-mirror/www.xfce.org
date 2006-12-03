@@ -59,7 +59,7 @@ function PrintSponsor () {
          "</p>\n";
 }
 
-function PrintContent ($content)
+function PrintContent ($content, $lang)
 {
     if (is_file ("i18n/arrays/". $lang .".content.php"))
         include ("i18n/arrays/". $lang .".content.php");
