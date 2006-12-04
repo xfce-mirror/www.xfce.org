@@ -1,10 +1,10 @@
 <?php
     $top=true;
 ?>
-<h1>Credits</h1>
+<h1>Dankwoord</h1>
 <p></p>
 
-<h2 id="lead">Project Lead</h2>
+<h2 id="lead">Project Leiding</h2>
 <table width="99%">
     <tr>
         <td>Olivier Fourdan [fourdan at xfce.org]</td>
@@ -12,11 +12,11 @@
 </table>
 
 <br />
-<h2 id="core">Core Developers</h2>
+<h2 id="core">Kern ontwikkelaars</h2>
 <table width="99%">
     <tr>
-        <th width="40%" align="left"><h3>Contributor</h3></th>
-        <th width="60%" align="left"><h3>Main Project(s)</h3></th>
+        <th width="40%" align="left"><h3>Medewerker</h3></th>
+        <th width="60%" align="left"><h3>Hoofd Project(en)</h3></th>
     </tr>
     <tr>
         <td width="40%" bgcolor="#eeeeee">Benedikt Meurer [benny at xfce.org]</td>
@@ -72,11 +72,11 @@
     </tr>
 </table>
 
-<h2 id="server">Server and website </h2>
+<h2 id="server">Server en website </h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Contributor</h3></th>
-        <th align="left"><h3>Contribution</h3></th>
+        <th align="left"><h3>Medewerker</h3></th>
+        <th align="left"><h3>Medewerking</h3></th>
     </tr>
     <tr>
         <td width="40%" bgcolor="#eeeeee">Auke Kok [sofar at foo-projects.org]</td>
@@ -93,13 +93,13 @@
 </table>
 
 <br />
-<h2 id="contributors">Contributors</h2>
+<h2 id="contributors">Medewerkers</h2>
 <table width="99%">
     <tr>
         <td colspan="2"><strong>The following people are frequent contributors of patches, ideas, bug fixes and new code:</strong></td>
     </tr>
     <tr>
-        <th colspan="2"><h3>Active Contributors</h3></th>
+        <th colspan="2"><h3>Actieve Medewerker</h3></th>
     </tr>
     <tr>
         <td width="50%" bgcolor="#eeeeee">Darren Salt [linux at youmustbejoking.demon.co.uk]</td>
@@ -110,7 +110,7 @@
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <th colspan="2"><h3>Previous Contributors</h3></th>
+        <th colspan="2"><h3>Voormalig Medewerkers</h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Bernhard Walle [Bernhard.Walle at gmx.de]</td>
@@ -146,7 +146,7 @@
 <h2 id="goodies">Goodies</h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Goodies supervision</h3></th>
+        <th align="left"><h3>Goodies supervisie</h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Jannis Pohlmann [jannis at xfce.org]</td>
@@ -154,10 +154,10 @@
 </table>
 
 <br />
-<h2 id="translators">Translators</h2>
+<h2 id="translators">Vertalers</h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Translations supervision</h3></th>
+        <th align="left"><h3>Vertaling supervisie<h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Daichi Kawahata [daichi at xfce.org]</td>
