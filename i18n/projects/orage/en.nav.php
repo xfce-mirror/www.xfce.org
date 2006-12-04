@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="/projects#core">Core Components</a>
+	<li><a href="/projects#core">Core Components</a></li>
 	<li><a href="/projects#applications">Applications</a>
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">Application Finder</a></li>
