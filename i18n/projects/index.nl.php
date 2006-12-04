@@ -1,10 +1,10 @@
 <?php
 	$top=true;
 ?>
-<h1>Projects</h1>
-<p>The Xfce project contains several separated projects for each part of the desktop. Every project has it's own project page to give some more information.</p>
+<h1>Projecten</h1>
+<p>Het Xfce project bevat enkele gescheiden projecten voor elk onderdeel van het bureaublad. Elk project heeft zijn eigen project pagina voor meer informatie.</p>
 
-<h2 id="core">Core Components</h2>
+<h2 id="core">Kern Onderdelen</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td width="48" valign="top">
