@@ -10,7 +10,6 @@ include <a href="http://thunar.xfce.org" target="_blank">Thunar</a>.</p>
 		<img src="/images/about/tour/desktop-icons-thumb.png" border="0" alt="desktop icons" />
 	</a>
 </div>
-</p>
 <p>Xfdesktop utilizes Thunar's libraries to handle application launchers and files/folders on the desktop, and it is also able to display icons for minimized windows on the desktop (a popular CDE feature), or to disable desktop icons all together.</p>
 
 <h2>Mousepad</h2>

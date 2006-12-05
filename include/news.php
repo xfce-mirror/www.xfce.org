@@ -4,7 +4,7 @@ function PrintArticle ($item, $h)
 {
       $format = "%e %B %Y";
 
-      echo "<h$h id=\"". strtotime ($item["date"]) ."\">". htmlentities ($item["title"]) ."</h$h>".
+      echo "<h$h id=\"m". strtotime ($item["date"]) ."\">". htmlentities ($item["title"]) ."</h$h>".
            "<p>".
            "  <span class=\"grey\"><em>[". CreateDate ($item["date"], $format, true).
            "  by ". $item["author"] ."]</em></span>".
