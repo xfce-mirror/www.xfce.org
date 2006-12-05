@@ -15,9 +15,7 @@
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>
 <p>Or the appropriate modules:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code></p>
-<p>
 <div class="tip">To synchronize your local copy (checkout) of the release or development tree with the one on the server you can run <code>svn update</code> instead of <code>svn checkout</code>. This will speed up the process and minimize the Xfce server transfer</div>
-</p>
 <h3>Daily development snapshots</h3>
 <p>If you don't want to test the development version of Xfce on regular bases or you have no experience with building source from SVN, you can download the daily development snapshots <a href="http://foo-projects.org/~pollux/xfce-snapshots/" target="_blank">here</a>.</p>
 <h2>Building the modules</h2>
