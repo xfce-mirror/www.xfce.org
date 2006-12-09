@@ -32,8 +32,8 @@ if ($page = $_GET["page"])
     include ("include/redirect.php");
 
     /* Send user to the new url */
-	header ("Location: http://". $_SERVER['SERVER_NAME'] ."/". $redirect[$page]);
-	exit;
+    header ("Location: http://". $_SERVER['SERVER_NAME'] ."/". $redirect[$page]);
+    exit;
 }
 
 /* Check for feed request */
