@@ -2,11 +2,11 @@
     $top=true;
     include ("version.php");
 ?>
-<h1>Download Stable version (<?php echo $version; ?>) </h1>
-<p>Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at the Xfce orientated distributions <a href="/download/distros">here</a>.</p>
+<h1>Download de stabiele versie (<?php echo $version; ?>) </h1>
+<p>De meeste distributies hebben Xfce in hun pakkettenlijst, maar wanneer je een nieuwere versie van Xfce wilt gebruiken (of je wilt Xfce gewoon zelf compilen), dan kan je hieronder de laatste pakketten downloaden. Je kan ook <a href="/download/distros">hier</a> kijken naar de Xfce georienteerde distributies.</p>
 
-<h2 id="source">Source code</h2>
-<p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
+<h2 id="source">Broncode</h2>
+<p>Alle Xfce modules zijn beschikbaar in losse archieven van de SourceForge servers of op 1 van de Xfce servers:</p>
 <ul>
   <li><a href="<?php echo $sf_net; ?>" target="_blank">SourceForge.net</a></li>
   <li><a href="/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a> | <a href="http://www.de.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">de.xfce.org</a> </li>
@@ -14,8 +14,8 @@
   <!-- <li><a href="http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/">http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/</a></li> -->
   <li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-<?php echo $version; ?>/" target="_blank">Hannelore</a></li>
 </ul>
-<h2 id="installer">Graphical installers</h2>
-<p> Xfce-Installers is a collection of packages which noticably simplify the installation process of Xfce and some extensions. Read more about the installer <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5" target="_blank">here</a>. </p>
+<h2 id="installer">Installatiepakketten</h2>
+<p>De Xfce installatiepekketten zijn een grafische installatie methode die het installeren van Xfce, en andere extensies, aanzienlijk moeten versimpelen. Je kan <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5" target="_blank">hier</a> meer lezen over deze installer.</p>
 <ul>
   <li>Xfce installer
     <ul>

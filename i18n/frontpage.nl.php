@@ -20,7 +20,7 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" alt="feed" title="Subscribe to 'Xfce News'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
+			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" alt="feed" title="Schijf je in voor de 'Xfce Nieuws' feed..." width="12" height="12" border="0" align="right" /></a>Het laatste nieuws</h2>
 			<?php
 				echo $frontpage["news"];
 			?>
@@ -75,9 +75,9 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Bezoek het Xfce blog...">bezoek blog</a>
 			</div>
-			<h2>Shortcuts</h2>
+			<h2>Snelkoppelingen</h2>
 			<ul>
-				<li><a href="/community/lists">Mailinglists</a></li>
+				<li><a href="/community/lists">Discussiegroepen</a></li>
 				<li><a href="/about/screenshots">Screenshots</a></li>
 				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
 				<li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" target="_blank" class="external">Meld een bug</a></li>
