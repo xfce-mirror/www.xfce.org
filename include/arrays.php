@@ -14,6 +14,7 @@ $languages = array (
       //"fr" => array ('Français', 'UTF-8', 'fr_FR'),
       //"it" => array ('Italiano', 'UTF-8', 'it'),
         "nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
+        "sq" => array ('Albanian', 'UTF-8', 'nl_NL'),
 );
 
 /**
