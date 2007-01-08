@@ -2,6 +2,9 @@
 
 # Translations or Style updates for the breadcrumbs
 $breadcrumbs = array (
+    # Home Page Title
+    "default_title"    => "Desktop Environment",
+    
     # Catogory names
     "home"             => "Home",
     "lists"            => "Mailing Lists",

@@ -1,10 +1,9 @@
 <?php
 /**
- * Default page title
- * Link up, for opera navigation
+ * Global accecable vars.
  **/
-$headtitle = "Desktop Environment";
 $headup;
+$headtitle;
 
 /**
  * This function creates the language bar, located
@@ -34,18 +33,20 @@ function CreateLanguageBar ($languages, $lang)
  **/
 function CreateBreadcrumbs ($uri, $lang)
 {
-    global $headtitle;
     global $headup;
+    global $headtitle;
 
     # Load breadcrumb correction/translation array
     $file = "i18n/arrays/". $lang .".breadcrumbs.php";
     $file_en = "i18n/arrays/en.breadcrumbs.php";
-    $breadcrumbs = array ("home" => "Home");
     
     if (is_file ($file))
         include ($file);
     elseif (is_file ($file_en))
         include ($file_en);
+        
+    # Default page title (Desktop Environment in /)
+    $headtitle = $breadcrumbs["default_title"];
     
     $crumbs = explode ("/", $uri);
 

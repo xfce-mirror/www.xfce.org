@@ -2,6 +2,9 @@
 
 # Translations or Style updates for the breadcrumbs
 $breadcrumbs = array (
+    # Home Page Title
+    "default_title"    => "Idazmahai Ingurunea",
+    
     # Catogory names
     "home"             => "Hasiera Orria",
     "lists"            => "Posta Zerrendak",
