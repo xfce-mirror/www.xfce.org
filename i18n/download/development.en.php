@@ -9,7 +9,7 @@
 <p>You can download the full release tree with the following command:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.4</code></p>
 <p>Or the appropriate modules:</p>
-<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_2 $modulename</code></p>
+<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_4 $modulename</code></p>
 <h3>Latest development version (4.5.x) from SVN </h3>
 <p>You can download the full release tree with the following command:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>

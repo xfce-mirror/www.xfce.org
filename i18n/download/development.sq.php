@@ -17,7 +17,7 @@
 <p>Mund të shkarkoni tërë pemën për këtë version duke dhënë urdhrin vijues:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.4</code></p>
 <p>Ose për modulet përkatës:</p>
-<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_2 $modulename</code></p>
+<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_4 $modulename</code></p>
 <h3>Versioni më i ri në zhvillim (4.5.x) from SVN </h3>
 <p>Mund të shkarkoni tërë pemën përmes urdhrit vijues:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>

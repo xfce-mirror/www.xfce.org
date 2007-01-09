@@ -16,7 +16,7 @@ da bertsio honek errorerik ez duenaren bermerik.</p>
 komando honen bidez eskuratu dezakezu:<</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.4</code></p>
 <p>Edo moduluak nahi izanez gero:</p>
-<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_2 $modulename</code></p>
+<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_4 $modulename</code></p>
 <h3>Garapen azken bertsioa (4.5.x) SVN-tik</h3>
 <p>Argitaratutako azken bertsioaren iturburu kode zuhaitz osoa komando honen bidez eskuratu dezakezu:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>
