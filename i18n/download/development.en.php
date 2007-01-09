@@ -1,16 +1,16 @@
 <h1>Xfce development source code</h1>
 <p>If you want to build Xfce from source code, you can either download the source tarballs of a released version of Xfce from our <a href="/download">download page</a>,  or try a development version, by downloading it from subversion (only  for the adventurous). Please note that installing two different  versions of Xfce (ie. stable and development) is not supported.</p>
-<h3>Latest release version (4.2.x)</h3>
+<h3>Latest release version (4.4.x)</h3>
 <p>This version contain the latest bug fixes, without any major new feature. This should be more stable than the development version (and even the last official release), but there is still no guarantee that this version is bug free.</p>
-<h3>Latest development version (4.3.x) </h3>
+<h3>Latest development version (4.5.x) </h3>
 <p>This version contain the latest development updates and bug fixes. There is no guarantee that it's fully working and bug free.</p>
 <h2>Getting the source code </h2>
-<h3>Latest release version (4.2.x) from SVN</h3>
+<h3>Latest release version (4.4.x) from SVN</h3>
 <p>You can download the full release tree with the following command:</p>
-<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.2</code></p>
+<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.4</code></p>
 <p>Or the appropriate modules:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_2 $modulename</code></p>
-<h3>Latest development version (4.3.x) from SVN </h3>
+<h3>Latest development version (4.5.x) from SVN </h3>
 <p>You can download the full release tree with the following command:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>
 <p>Or the appropriate modules:</p>

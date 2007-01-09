@@ -3,21 +3,21 @@
 dezakezu gure <a href="/download">deskarga orrialdetik</a>, edo garapenean dagoen bertsioa probatu dezakezu iturburua 
 subversion-etik deskargatuaz (abentura zaleentzat bakarrik). Kontutan izan ez dela Xfce bi bertsio desberdin batera 
 instalatzailea (garapenean eta argitaratutakoa adibidez) onartzen.</p>
-<h3>Argitaratutako azken bertsioa (4.2.x)</h3>
+<h3>Argitaratutako azken bertsioa (4.4.x)</h3>
 <p>Bertsio honek azken programa errore konponketak ditu, ezaugarri
 berririk gabe. Hau garapen bertsioa baino egonkorragoa izan beharko
 litzateke (baita azken argitaraketa ofiziala baino), hala ere hau ez
 da bertsio honek errorerik ez duenaren bermerik.</p>
-<h3>Garapen azken bertsioa (4.3.x)</h3>
+<h3>Garapen azken bertsioa (4.5.x)</h3>
 <p>Bertsio honek garapenek azken eguneraketa eta errore konponketak ditu. Ez dago bermerik guztiz funtzionatuko duenik ez errorerik ez duenik.</p>
 <h2>Iturburu kodea eskuratzen</h2>
-<h3>Argitaratutako azken bertsioa (4.2.x) SVN-tik</h3>
+<h3>Argitaratutako azken bertsioa (4.4.x) SVN-tik</h3>
 <p>Argitaratutako azken bertsioaren iturburu kode zuhaitz osoa
 komando honen bidez eskuratu dezakezu:<</p>
-<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.2</code></p>
+<p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.4</code></p>
 <p>Edo moduluak nahi izanez gero:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_2 $modulename</code></p>
-<h3>Garapen azken bertsioa (4.3.x) SVN-tik</h3>
+<h3>Garapen azken bertsioa (4.5.x) SVN-tik</h3>
 <p>Argitaratutako azken bertsioaren iturburu kode zuhaitz osoa komando honen bidez eskuratu dezakezu:</p>
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code></p>
 <p>Edo moduluak nahi izanez gero:</p>
