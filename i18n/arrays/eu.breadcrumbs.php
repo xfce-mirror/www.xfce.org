@@ -2,9 +2,6 @@
 
 # Translations or Style updates for the breadcrumbs
 $breadcrumbs = array (
-    # Home Page Title
-    "default_title"    => "Idazmahai Ingurunea",
-    
     # Catogory names
     "home"             => "Hasiera Orria",
     "lists"            => "Posta Zerrendak",
@@ -15,7 +12,15 @@ $breadcrumbs = array (
     "tour"             => "Xfce 4.4 Ikuspegia",
     "search"           => "Google Bilaketa",
     "distros"          => "Xfce Banaketak",
-    
+    "documentation"    => "Dokumentazioa",
+    "about"	       => "Honi buruz",
+    "projects"	       => "Proiektuak",
+    "download"	       => "Deskargak",
+    "community"	       => "Komunitatea",
+    "development"      => "Garapena",
+    "artwork"	       => "Artelanak",
+    "default_title"    => "Idazmahai Ingurunea",
+
     # Common Xfce components
     "xfce4-panel"      => "Panela",
     "xfwm4"            => "Leiho Kudeatzailea",
@@ -38,3 +43,4 @@ $breadcrumbs = array (
 );
 
 ?>
+
