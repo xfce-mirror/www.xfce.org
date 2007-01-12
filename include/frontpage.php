@@ -2,35 +2,43 @@
 
 function PrintNews ($lang, $lastvisit, $max=6)
 {
-    if (is_file ("i18n/news/".$lang.".news.php"))
+    /* load english news file */
+    include ("i18n/news/en.news.php");
+    
+    /* load the translation, if needed */
+    if ($lang != "en" && is_file ("i18n/news/".$lang.".news.php"))
         include ("i18n/news/".$lang.".news.php");
     else
-        include ("i18n/news/en.news.php");
+        $news_translated = array ();
 
-    $html = "<ul>\n";
+    $html = "<ul>";
     $i = 0;
-    $format = "%e %B %Y";
 
     foreach ($news as $item)
     {
         $i++;
-
-        # Make title bold if message is newer than the last visit
-        if ($lastvisit < strtotime ($item["date"]))
-            $title = "<strong>". $item["title"] ."</strong>";
+        
+        /* check if this news item (id) is translated */
+        if (array_key_exists ($item["id"], $news_translated))
+            $title = $news_translated[$item["id"]]["title"];
         else
             $title = $item["title"];
 
-        $html .= "\t\t\t\t<li>\n".
-                 "\t\t\t\t\t<span class=\"grey\">". CreateDate ($item["date"], $format, true) ."</span><br />\n".
-                 "\t\t\t\t\t<a href=\"/about/news?id=". strtotime ($item["date"]) ."\" title=\"Posted by ". $item["author"] ."\">". $title ."</a>\n".
-                 "\t\t\t\t</li>\n";
+        /* Make title bold if message is newer than the last visit */
+        if ($lastvisit < strtotime ($item["date"]))
+            $title = "<strong>". $title ."</strong>";
 
-        # not more then $max items on the frontpage
+        /* print it */
+        $html .= "<li>".
+                 "<span class=\"grey\">". CreateDate ($item["date"], $date_format, true) ."</span><br />".
+                 "<a href=\"/about/news?id=". $item["id"] ."\" title=\"". $posted_by ." ". $item["author"] ."\">". $title ."</a>".
+                 "</li>";
+
+        /* not more then $max items on the frontpage */
         if ($i >= $max)
             break;
     }
-    $html .= "\t\t\t</ul>\n";
+    $html .= "</ul>";
 
     return $html;
 }
@@ -43,22 +51,22 @@ function PrintBlog ($lastvisit)
         return "<ul><li>Developers feed temporarily unavailable.</li></ul>";
 
     $format = "%e %B %Y";
-    $html = "<ul>\n";
+    $html = "<ul>";
 
     foreach ($feed as $item)
     {
-    	  $html .= "\t\t\t\t<li>\n".
-    	           "\t\t\t\t\t<span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />\n";
+    	  $html .= "<li>".
+    	           "<span class=\"grey\">". $item["creator"] ." @ ". CreateDate ($item["date"], $format, true) ."</span><br />";
 
     	  if ($lastvisit < strtotime ($item["date"]))
-    	      $html .= "\t\t\t\t\t<strong><a href=\"". $item["link"] ."\">". $item["title"] ."</a></strong>\n";
+    	      $html .= "<strong><a href=\"". $item["link"] ."\">". $item["title"] ."</a></strong>";
     	  else
-    	      $html .= "\t\t\t\t\t<a href=\"". $item["link"] ."\">". $item["title"] ."</a>\n";
+    	      $html .= "<a href=\"". $item["link"] ."\">". $item["title"] ."</a>";
 
-    	  $html .= "\t\t\t\t</li>\n";
+    	  $html .= "</li>";
     }
 
-    $html .= "\t\t\t</ul>\n";
+    $html .= "</ul>";
 
     return $html;
 }

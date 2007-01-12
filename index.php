@@ -10,58 +10,58 @@ $time_start = microtime_float ();
 include ("include/functions.php");
 include ("include/arrays.php");
 
-/* Load session valiables */
+/* load session variables */
 session_start ();
 
-/* User language */
+/* Try to detect the user language */
 $userlang = substr(trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]), 0, 2);
 if (!in_array ($userlang, array_keys($languages)))
     $userlang = "en";
 
-/* Get saved variables */
+/* get saved variables */
 $layout = UserVariable ("layout", $layouts, "normal");
 $lang = UserVariable ("lang", array_keys($languages), $userlang);
 $lastvisit = UserLastVisit ();
 
-/* Set the locale for the date() function */
+/* set the locale for the date() function */
 setlocale (LC_ALL, $languages[$lang][2]);
 
-/* Redirects from old to new website */
+/* redirects from old to new website */
 if ($page = $_GET["page"])
 {
     include ("include/redirect.php");
 
-    /* Send user to the new url */
+    /* send user to the new url */
     header ("Location: http://". $_SERVER['SERVER_NAME'] ."/". $redirect[$page]);
     exit;
 }
 
-/* Check for feed request */
+/* check for feed request */
 if ($_GET["feed"] == "rss2")
 {
     include ("include/feed.php");
 
-    /* Show feed xml and exit */
+    /* show feed xml and exit */
     ParseRssFeed ($lang);
     exit;
 }
 
-/* Get relative url */
+/* get relative url */
 $uri = $_SERVER["REDIRECT_URL"];
 $uri = trim ($uri, '/');
 $uri = strtolower ($uri);
 
-/* Block some pages users are not allowed to see */
+/* block some pages users are not allowed to see */
 $forbidden = array ("footer", "frontpage", "header");
 if (in_array ($uri, $forbidden))
     $uri = "";
 
-/* Include needed files */
+/* include needed files */
 include ("include/header.php");
 include ("include/footer.php");
 include ("include/news.php");
 
-/* Create webpage */
+/* create webpage */
 if ($uri == "")
 {
     include ("include/frontpage.php");

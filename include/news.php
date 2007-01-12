@@ -1,41 +1,66 @@
 <?php
 
-function PrintArticle ($item, $h)
+function PrintArticle ($item, $date_format, $news_translated, $h)
 {
-      $format = "%e %B %Y";
+      if (array_key_exists ($item["id"], $news_translated))
+      {
+          $title = $news_translated[$item["id"]]["title"];
+          $content = $news_translated[$item["id"]]["content"];
+      }
+      else
+      {
+          $title = $item["title"];
+          $content = $item["content"];
+      }
 
-      echo "<h$h id=\"m". strtotime ($item["date"]) ."\">". htmlentities ($item["title"]) ."</h$h>".
+      echo "<h$h id=\"m". $item["id"] ."\">". htmlentities ($title) ."</h$h>".
            "<p>".
-           "  <span class=\"grey\"><em>[". CreateDate ($item["date"], $format, true).
-           "  by ". $item["author"] ."]</em></span>".
-           "  <br />".
-           "  ". ParseBBCode (htmlentities ($item["content"])).
+           "<span class=\"grey\"><em>[". CreateDate ($item["date"], $date_format, true).
+             "by ". $item["author"] ."]</em></span>".
+           "<br />".
+             "". ParseBBCode (htmlentities ($content)).
            "</p>";
 }
 
-function PrintNewsPage ($lang, $id, $warning)
+function PrintNewsPage ($lang, $id, $title, $return, $warning)
 {
-    if (is_file ("i18n/news/".$lang.".news.php"))
+    /* load english news file */
+    include ("i18n/news/en.news.php");
+    
+    /* load the translation, if needed */
+    if ($lang != "en" && is_file ("i18n/news/".$lang.".news.php"))
         include ("i18n/news/".$lang.".news.php");
     else
-        include ("i18n/news/en.news.php");
+        $news_translated = array ();
+        
+    if ($id == "")
+        echo "<h1>$title</h1>";
 
     foreach ($news as $item)
     {
-        if ($id && $id == strtotime ($item["date"]))
+        if ($id == $item["id"])
         {
-            PrintArticle ($item, "1");
+        	/* print the article with the given id */
+            PrintArticle ($item, $date_format, $news_translated, 1);
+            
+            echo "<p>".
+                 "<a href=\"/about/news#m". $item["id"] ."\">$return</a>".
+                 "</p>";
+            
             $found = true;
+            break;
         }
-        elseif ($id == false)
+        elseif ($id == "")
         {
-            PrintArticle ($item, "2");
+            PrintArticle ($item, $date_format, $news_translated, 2);
         }
     }
 
-    if ($id && $found == false)
+    if ($id != "" && $found == false)
     {
-        echo "<p>". $warning ."</p>";
+        echo "<h1>$title</h1>";
+        echo "<br />";
+        echo "<div class=\"warning\"><strong>". $warning .".</strong></div>";
     }
 }
 

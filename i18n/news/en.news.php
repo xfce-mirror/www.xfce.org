@@ -9,17 +9,21 @@
 
    All full http://, https://, ftp:// and email adresses are converted into link
 */
+$date_format = "%e %B %Y";
+$posted_by = "Posted by";
 
 $news = array (
 /*
     array (
+        'id'      => <previous id number + 1>
         'date'    => '<day> <month> <year>',
-        'author'  => '',
-        'title'   => '',
-        'content' => '',
+        'author'  => '<you>',
+        'title'   => '<title>',
+        'content' => '<stuff you want to say>',
     ),
 */
     array (
+        'id'      => 9,
         'date'    => '5 nov 2006',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4 Release Candidate 2 (4.3.99.2) released',
@@ -30,6 +34,7 @@ $news = array (
                      'try it, help us fixing it! Get it from [link=/download/]this page[/link].',
     ),
     array (
+        'id'      => 8,
         'date'    => '3 sep 2006',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4 Release Candidate 1 (4.3.99.1) released',
@@ -42,6 +47,7 @@ $news = array (
                      '[link=/download/]this page[/link].',
     ),
     array (
+        'id'      => 7,
         'date'    => '10 aug 2006',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4 beta 2 (4.3.90.2) released',
@@ -54,6 +60,7 @@ $news = array (
                      '[link=/download/]this page[/link].',
     ),
     array (
+        'id'      => 6,
         'date'    => '17 apr 2006',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4 beta 1 (4.3.90.1) released',
@@ -63,6 +70,7 @@ $news = array (
                      'try it, help us fixing it! Get it from this page.',
     ),
     array (
+        'id'      => 5,
         'date'    => '15 nov 2005',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.3.2 released',
@@ -70,6 +78,7 @@ $news = array (
                      'the download locations from this page, the change log for 4.2.3 remains here.',
     ),
     array (
+        'id'      => 4,
         'date'    => '08 nov 2005',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.3.1 released',
@@ -78,6 +87,7 @@ $news = array (
                      'is available here.',
     ),
     array (
+        'id'      => 3,
         'date'    => '17 may 2005',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.2 released',
@@ -85,6 +95,7 @@ $news = array (
                      'is available here.',
     ),
     array (
+        'id'      => 2,
         'date'    => '17 mar 2005',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.1.1 released',
@@ -93,6 +104,7 @@ $news = array (
                      'has been updated, and other mirrors will follow soon.',
     ),
     array (
+        'id'      => 1,
         'date'    => '16 mar 2005',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.1 released',

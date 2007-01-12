@@ -104,19 +104,18 @@ function PrintHeader ($uri, $lang, $layout, $languages)
     # Define style css
     if ($layout == "liquid")
     {
-        $layout_css = "#global-page {\n".
-                      "\t\t\twidth: 100%;\n".
-                      "\t\t}\n";
+        $layout_css = "#global-page {".
+                      "width: 100%;".
+                      "}";
     } else {
-        $layout_css = "#global-page {\n".
-                      "\t\t\tmin-width: 740px;\n".
-                      "\t\t\tmax-width: 1000px;\n".
-                      "\t\t\twidth: 100%;\n".
-                      "\t\t}\n".
-                      "\n\n".
-                      "\t\t* html #global-page {\n".
-                      "\t\t\twidth: 780px;\n".
-                      "\t\t}\n";
+        $layout_css = "#global-page {".
+                      "min-width: 740px;".
+                      "max-width: 1000px;".
+                      "width: 100%;".
+                      "}".
+                      "* html #global-page {".
+                      "width: 780px;".
+                      "}";
     }
 
     if ($uri == "")

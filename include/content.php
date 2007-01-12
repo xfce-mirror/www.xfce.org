@@ -70,18 +70,18 @@ function PrintContent ($content, $lang)
 
     if ($content["wronglang"])
     {
-        echo "\n<h2 class=\"hidden\">Warning</h2>".
-             "\t<div id=\"content-lang\">\n".
-             "\t<p><img src=\"/layout/images/spacer.gif\" alt=\"\" width=\"0\" height=\"0\" align=\"left\" />$notinlang</p>\n".
-             "</div>\n";
+        echo "<h2 class=\"hidden\">Warning</h2>".
+             "<div id=\"content-lang\">".
+             "<p><img src=\"/layout/images/spacer.gif\" alt=\"\" width=\"0\" height=\"0\" align=\"left\" />$notinlang</p>".
+             "</div>";
     }
 
     if ($content["nav"])
     {
         echo "<div id=\"content-menu\">".
-             "\t<h2 class=\"hidden\">Content Navigation</h2>\n";
+             "<h2 class=\"hidden\">Content Navigation</h2>";
         include ($content["nav"]);
-        echo "\n</div>\n";
+        echo "</div>";
 
     }
     
