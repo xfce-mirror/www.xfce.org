@@ -7,6 +7,7 @@
  * Site languages
  **/
 $languages = array (
+	"be" => array ('Belarusian','UTF-8', 'be'),
       //"de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
         "en" => array ('English', 'UTF-8', 'en_EN'),
         "eu" => array ('Basque', 'UTF-8', 'eu'),
