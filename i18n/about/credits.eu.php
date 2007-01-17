@@ -1,6 +1,3 @@
-<?php
-    $top=true;
-?>
 <h1>Kredituak</h1>
 <p></p>
 

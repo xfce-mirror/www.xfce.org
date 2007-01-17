@@ -30,11 +30,13 @@ kode irekia, xforms ingurne bateratua" />
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog-a" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body>
+	<p id="header-top"><a href="#" title="Go to the top of the page">Top</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Gune nabigazioa saltatu" accesskey="1">Gune nabigazioa saltatu</a> (1)
 <?php if ($content_bool) { ?>
 		<a href="#content-text" title="Atal nabigazioa saltatu" accesskey="2">Atal nabigazioa saltatu</a> (2)
 <?php } ?>
+	
 
 		<h1>Xfce Idazmahai Ingurunea</h1>
 		<h4>...eta dena arinago doa!</h4>

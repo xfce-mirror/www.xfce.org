@@ -1,6 +1,3 @@
-<?php
-    $top=true;
-?>
 <h1>Dankwoord</h1>
 <p></p>
 

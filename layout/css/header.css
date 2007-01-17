@@ -3,6 +3,23 @@
  * Note: This stylesheet is also used for the Xfce Bugzilla
  */
 
+#header-top {
+	bottom: -6px;
+	right: 6px;
+	width: 16px;
+	height: 16px;
+}
+body > #header-top {
+	position: fixed;
+}
+#header-top a {
+	width: 16px;
+	height: 0px;
+	padding-top: 16px;
+	overflow: hidden;
+	display: block;
+	background: url('/layout/images/go-top.png') no-repeat 0 0;
+}
 #header {
 	background: #8EBADD url('/layout/images/header.png') repeat-x;
 }

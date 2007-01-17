@@ -29,6 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Blogu i Xfce-së" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body>
+	<p id="header-top"><a href="#" title="Go to the top of the page">Top</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Anashkalo lundrim site-i" accesskey="1">Anashkalo lundrim <em>site</em>-i</a> (1)
 <?php if ($content_bool) { ?>

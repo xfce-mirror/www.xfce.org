@@ -29,6 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body>
+	<p id="header-top"><a href="#" title="Ga naar het begin van de pagina">Top</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Skip site navigation" accesskey="1">Skip site navigation</a> (1)
 <?php if ($content_bool) { ?>
