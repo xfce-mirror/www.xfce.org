@@ -29,8 +29,8 @@ kode irekia, xforms ingurne bateratua" />
 	<link rel="alternate" type="application/rss+xml" title="Xfce Berriak" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog-a" href="http://blog.xfce.org/?feed=rss2" />
 </head>
-<body>
-	<p id="header-top"><a href="#" title="Go to the top of the page">Top</a></p>
+<body id="top">
+	<p id="header-top"><a href="#top" title="Go to the top of the page">Top</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Gune nabigazioa saltatu" accesskey="1">Gune nabigazioa saltatu</a> (1)
 <?php if ($content_bool) { ?>
