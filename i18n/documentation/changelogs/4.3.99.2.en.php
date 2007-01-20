@@ -6,7 +6,7 @@ function bug ($id){
 
 <h1>Xfce 4.4 rc 2 (4.3.99.2) Changelog</h1>
 
-<h3>Widget Library (libxfcegui4)</h3>
+<h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
     <li>Plug memory leaks and reduce relocations. (<?php bug ('2377') ?>).</li>
     <li>Avoid sending spurious icon geometry updates (<?php bug ('2306') ?>).</li>
@@ -17,7 +17,7 @@ function bug ($id){
     <li>Stop blinking an urgent tasklist item after it has blinked 10 times, but leave it highlighted until the urgent hint is gone.</li>
 </ul>
 
-<h3>Extension Library (exo)</h3>
+<h3>Extension Library <em>(exo)</em>:</h3>
 <ul>
     <li>Added a <tt>--working-directory</tt>command line switch to exo-open, which primarily useful to start the TerminalEmulator's in a specific directory.</li>
     <li>Import french translations of the user manual. (<?php bug ('2478') ?>).</li>
@@ -28,14 +28,14 @@ function bug ($id){
     <li>Escape commata in URLs prior to passing the URLs to the web browser or the mail reader, as some helper applications, namely Firefox and Thunderbird, cannot handle URLs with commata. (<?php bug ('2454') ?>).</li>
 </ul>
 
-<h3>Settings Manager Plugins (xfce-mcs-plugins)</h3>
+<h3>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h3>
 <ul>
     <li>Fix ui plugin using deprecated API (<?php bug ('2500') ?>).</li>
     <li>Cancel button prevents binding of Alt+C in shortcut editor (<?php bug ('1574') ?>).</li>
     <li>Fix compilation w/out XCursor extension.</li>
 </ul>
 
-<h3>Desktop Manager (xfdesktop)</h3>
+<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
     <li>Put the window icon's right-click menu on the correct screen before showing it (<?php bug ('2351') ?>).</li>
     <li>Fix solaris compilation (<?php bug ('2258') ?>).</li>
@@ -65,7 +65,7 @@ function bug ($id){
     <li>Lots of code cleanup and simplification, fix a bunch of warnings.</li>
 </ul>
 
-<h3>Window Manager (xfwm4)</h3>
+<h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
     <li>Add new option to enable/disable borderless maximization (<?php bug ('2257') ?>).</li>
     <li>Rework keyboard shortcuts grabs, saving a lot of grabs and fixing keyboard shortcuts not working on shaded windows (<?php bug ('2291') ?>).</li>
@@ -89,7 +89,7 @@ function bug ($id){
     <li>Lot of optimizations and code cleanup.</li>
 </ul>
 
-<h3>Panel (xfce4-panel)</h3>
+<h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
     <li>New way to specify internal plugin name with just the basename (launcher -&gt; liblauncher.so) combined with X-XFCE-Module-Path entry to specifiy the location. The old way is still supported, so this change is 100% backward compatible. </li>
     <li>Add checks for empty selection.</li>
@@ -103,7 +103,7 @@ function bug ($id){
     <li>Convert to unix line endings (<?php bug ('2253') ?>).</li>
 </ul>
 
-<h3>Print Frontend (xfprint)</h3>
+<h3>Print Frontend <em>(xfprint)</em>:</h3>
 <ul>
     <li>Prevent xfprint4 from removing the printed file when the filters aren't applied.</li>
     <li>Fix incompatibility with CUPS 1.2 (<?php bug ('2107') ?>).</li>
@@ -113,13 +113,13 @@ function bug ($id){
     <li>Remove useless returns generating errors with Sun Studio compiler (<?php bug ('2282') ?>).</li>
 </ul>
 
-<h3>Menu Editor (xfce4-menueditor)</h3>
+<h3>Menu Editor <em>(xfce4-menueditor)</em>:</h3>
 <ul>
     <li>Use the icon chooser if libexo is available (<?php bug ('2220') ?>).</li>
     <li>Prevent endless loop if DnD of an element into itself (<?php bug ('2287') ?>).</li>
 </ul>
 
-<h3>Session Manager (xfce4-session)</h3>
+<h3>Session Manager <em>(xfce4-session)</em>:</h3>
 <ul>
     <li>Regenerate the Tips'n'Tricks database.</li>
     <li>Remove references to xftaskbar4 and xfce4-iconbox and rename xffm to Thunar in Tips database (<?php bug ('1332') ?>).</li>
@@ -129,7 +129,7 @@ function bug ($id){
     <li>Merge the sudo and the HAL shutdown helpers into a single shutdown helper, which tries to use HAL first, and falls back to sudo. </li>
 </ul>
 
-<h3>Terminal Emulator (Terminal)</h3>
+<h3>Terminal Emulator <em>(Terminal)</em>:</h3>
 <ul>
     <li>Don't install the symlink from Terminal to terminal on Win32 platforms (<?php bug ('2433') ?>).</li>
     <li>Fix incorrect english in usage (<?php bug ('2381') ?>).</li>
@@ -139,7 +139,7 @@ function bug ($id){
     <li>Accept drops from the Thunar path bar (<?php bug ('2284') ?>).</li>
 </ul>
 
-<h3>File Manager (Thunar)</h3>
+<h3>File Manager <em>(Thunar)</em>:</h3>
 <ul>
     <li>Add a "Trash" menu entry to the "Go" menu (<?php bug ('2486') ?>).</li>
     <li>Add a drop-down menu to the toolbar-style location bar to enable quick access to the shortcuts even if the classic file manager look'n'feel is being used (<?php bug ('2024') ?>).</li>
@@ -171,7 +171,7 @@ function bug ($id){
     <li>Fix build with latest dbus-glib (<?php bug ('2263') ?>).</li>
 </ul>
 
-<h3>Archive Manager (xarchiver)</h3>
+<h3>Archive Manager <em>(xarchiver)</em>:</h3>
 <ul>
     <li>Greatly improved speed and memory usage.</li>
     <li>Added comment support for ARJ and ZIP. The rar one is more difficult since it's compressed in the archive itself.</li>
