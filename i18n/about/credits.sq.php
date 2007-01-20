@@ -40,7 +40,7 @@
         <td width="60%">Gjetës Zbatimesh</td>
     </tr>
     <tr>
-        <td width="40%" bgcolor="#eeeeee">Erik Harrison [erikharrison gmail.com]</td>
+        <td width="40%" bgcolor="#eeeeee">Erik Harrison [erikharrison xfce.org]</td>
         <td width="60%" bgcolor="#eeeeee">Përpunues Tekstesh</td>
     </tr>
     <tr>

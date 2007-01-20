@@ -40,7 +40,7 @@
         <td width="60%">Aplikazioa Bilatzailea</td>
     </tr>
     <tr>
-        <td width="40%" bgcolor="#eeeeee">Erik Harrison [erikharrison abildua gmail.com]</td>
+        <td width="40%" bgcolor="#eeeeee">Erik Harrison [erikharrison abildua xfce.org]</td>
         <td width="60%" bgcolor="#eeeeee">Testu Editorea</td>
     </tr>
     <tr>
