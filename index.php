@@ -26,6 +26,13 @@ $lastvisit = UserLastVisit ();
 /* set the locale for the date() function */
 setlocale (LC_ALL, $languages[$lang][2]);
 
+/* redirect to download server */
+if ($location = $_GET["server"])
+{
+	header ("Location: ". $location);
+    exit;
+}
+
 /* redirects from old to new website */
 if ($page = $_GET["page"])
 {
