@@ -274,10 +274,10 @@ it is such simple).
 <p align="center"><img src="/images/about/tour/xfce44-preferences-keyboard.png" alt="Keyboard Shortcuts" /></p>
 
 <p>
-And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number
-of freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts.
-With Xfce 4.4 this limitation is history and the application shortcuts were separated from the window
-manager shortcuts.
+And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number of 
+freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts. With 
+Xfce 4.4 this limitation is history and the application shortcuts are now separated from the window manager 
+shortcuts.
 </p>
 
 
