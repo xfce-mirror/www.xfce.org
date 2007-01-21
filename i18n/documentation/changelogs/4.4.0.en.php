@@ -90,7 +90,7 @@ function bug ($id){
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
     <li>Many fixes when using the panel in a multiscreen setup</li>
-    <li>Update or add blinking for urgent windows in taslist, windowlist and iconbox.</li>
+    <li>Update or add blinking for urgent windows in tasklist, windowlist and iconbox.</li>
     <li>Move test plugin to Xfce Goodies.</li>
     <li>Several fixes for (re)sizing and positioning behavior.</li>
     <li>Lots of small fixes and polish.</li>
