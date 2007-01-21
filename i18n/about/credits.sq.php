@@ -199,7 +199,7 @@ function at(){
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Katalançe [ca]</td>
-        <td bgcolor="#eeeeee">Pau Rullan Ferragut [paurullan<?php at(); ?>bulma.net]</td>
+        <td bgcolor="#eeeeee">Pau Rul·lan Ferragut [paurullan<?php at(); ?>bulma.net]</td>
     </tr>
     <tr>
         <td>Çekisht [cs]</td>
@@ -251,7 +251,7 @@ function at(){
     </tr>
     <tr>
         <td>Frënge [fr]</td>
-        <td>Collet Etienne [xanaxlnx<?php at(); ?>gmail.com], Olivier Fourdan [fourdan<?php at(); ?>xfce.org], Stephane Roy [sroy<?php at(); ?>j2n.net]</td>
+        <td>Collet Etienne [xanaxlnx<?php at(); ?>gmail.com], Gérald Barré [g.barre<?php at(); ?>free.fr], Maximilian Schleiss [maxschleiss<?php at(); ?>bluewin.ch], Olivier Fourdan [fourdan<?php at(); ?>xfce.org], Stephane Roy [sroy<?php at(); ?>j2n.net]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Gujaratase [gu]</td>
@@ -366,7 +366,7 @@ function at(){
         <td>Huang Huan [unicon221<?php at(); ?>gmail.com], Yongtao Yang [yongtao.yang<?php at(); ?>telia.com]</td>
     </tr>
     <tr>
-        <tdbgcolor="#eeeeee">Kinezçe [zh_TW]</td>
-        <tdbgcolor="#eeeeee">Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
+        <td bgcolor="#eeeeee">Kinezçe [zh_TW]</td>
+        <td bgcolor="#eeeeee">Cosmo Chene [cosmolax<?php at(); ?>gmail.com], Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
     </tr>
 </table>

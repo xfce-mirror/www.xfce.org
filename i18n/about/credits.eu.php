@@ -199,7 +199,7 @@ function at(){
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Katalana [ca]</td>
-        <td bgcolor="#eeeeee">Pau Rullan Ferragut [paurullan<?php at(); ?>bulma.net]</td>
+        <td bgcolor="#eeeeee">Pau Rul·lan Ferragut [paurullan<?php at(); ?>bulma.net]</td>
     </tr>
     <tr>
         <td>Txekiera [cs]</td>
@@ -251,7 +251,7 @@ function at(){
     </tr>
     <tr>
         <td>Frantseza [fr]</td>
-        <td>Collet Etienne [xanaxlnx abilduagmail.com], Olivier Fourdan [fourdan<?php at(); ?>xfce.org], Stephane Roy [sroy<?php at(); ?>j2n.net]</td>
+        <td>Collet Etienne [xanaxlnx abilduagmail.com], Gérald Barré [g.barre<?php at(); ?>free.fr], Maximilian Schleiss [maxschleiss<?php at(); ?>bluewin.ch], Olivier Fourdan [fourdan<?php at(); ?>xfce.org], Stephane Roy [sroy<?php at(); ?>j2n.net]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Gujaratiera [gu]</td>
@@ -363,6 +363,6 @@ function at(){
     </tr>
     <tr>
         <td>Txinera [zh_TW]</td>
-        <td>Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
+        <td>Cosmo Chene [cosmolax<?php at(); ?>gmail.com], Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
     </tr>
 </table>
