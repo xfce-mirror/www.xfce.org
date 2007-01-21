@@ -16,7 +16,7 @@ function bug ($id){
 
 <h3>Utilities Library <em>(libxfce4util)</em>:</h3>
 <ul>
-    <li>Updated translations: Szymon KaÅ‚asz (pl)</li>
+    <li>Updated translations: Szymon Kałasz (pl)</li>
     <li>New translations: Geraint Rowlands (cy), Jovan Naumovski (mk)</li>
 </ul>
 
@@ -41,7 +41,7 @@ function bug ($id){
     <li>Detect complex mailto:-URIs properly (<?php bug ('2530') ?>).</li>
     <li>Fix compilation on amd64 (<?php bug ('2758') ?>).</li>
     <li>Fix a few memory leaks.</li>
-    <li>Updated translations: Pau Rul-lan Ferragut (ca), Michal VÃ¡rady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Piotr MaliÅ„ski and Szymon KaÅ‚asz (pl), Andrey Fedoseev (ru), Alexander Toresson (sv).</li>
+    <li>Pau Rul-lan Ferragut (ca), Michal Várady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Piotr Maliński and Szymon Kałasz (pl), Andrey Fedoseev (ru), Alexander Toresson (sv).</li>
     <li>New translations: Alexander Nyakhaychyk (be), Geraint Rowlands (cy), Pavle Jonoski (mk), Stephan Arts (nl), Amanpreet Singh Alam (pa).</li>
 </ul>
 
@@ -103,7 +103,7 @@ function bug ($id){
     <li>Improve the logout dialog (<?php bug ('2653') ?>).</li>
     <li>Fix poweroff on DragonFly BSD (<?php bug ('2567') ?>).</li>
     <li>Use Xrender to fadeout the background if cairo is available.</li>
-    <li>Updated translations: Carles MuÃ±oz Gorriz (ca), Fabian Nowak (de), Rudy Godoy (es), Maximilian Schleiss (fr), Andrey Fedoseev (ru)</li>
+    <li>Updated translations: Carles Muñoz Gorriz (ca), Fabian Nowak (de), Rudy Godoy (es), Maximilian Schleiss (fr), Andrey Fedoseev (ru)</li>
     <li>New translations: Josip Dzolonga (mk)</li>
 </ul>
 
@@ -125,7 +125,7 @@ function bug ($id){
     <li>Do not crash when you the first tab is detached and MiscAlwaysTabs is set to TRUE (<?php bug ('2686') ?>).</li>
     <li>Add support to reorder tabs with GTK+ 2.10 (<?php bug ('1974') ?>).</li>
     <li>Fix installation on case insensitive file systems (<?php bug ('2526') ?>).</li>
-    <li>Updated translations: Michal Varady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Jari Rahkonen (fi), Maximilian Schleiss (fr), Szymon KaÅ‚asz (pl), Andrey Fedoseev (ru).</li>
+    <li>Updated translations: Michal Varady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Jari Rahkonen (fi), Maximilian Schleiss (fr), Szymon Kałasz (pl), Andrey Fedoseev (ru).</li>
     <li>New translations: Alexander Nyakhaychyk (be), Amanpreet Singh Alam (pa).</li>
 </ul>
 
@@ -134,42 +134,45 @@ function bug ($id){
     <li>Add support for the new recently-used database, using the GtkRecent functionality available in GTK+ 2.10 and later.</li>
     <li>Set default response in Open/Save dialogs (<?php bug ('2249') ?>).</li>
     <li>Merge new undo system.</li>
-    <li>Updated translations: Carles MuÃ±oz Gorriz (ca), Michal VÃ¡rady (cz), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Jari Rahkonen (fi), Maximilian Schleiss (fr), ByungHyun Choi (ko), Piotr MaliÅ„ski (pl), Adriano Winter Bess (pt_BR), Andrey Fedoseev (ru), Alexander Toresson (sv)</li>
+    <li>Updated translations: Carles Muñoz Gorriz (ca), Michal Várady (cz), Benedikt Meurer (de), Stavros Giannouris (el), Piarres Beobide (eu), Jari Rahkonen (fi), Maximilian Schleiss (fr), ByungHyun Choi (ko), Piotr Maliński (pl), Adriano Winter Bess (pt_BR), Andrey Fedoseev (ru), Alexander Toresson (sv)</li>
     <li>New translations: Alexander Nyakhaychyk (be), Geraint Rowlands (cy), Tome Boshevski (mk), A S Alam (pa)</li>
 </ul>
 
 <h3>File Manager <em>(thunar)</em>:</h3>
 <ul>
-    <li>Add a &quot;Trash&quot; menu entry to the &quot;Go&quot; menu (<?php bug ('2486') ?>).</li>
-    <li>Add a drop-down menu to the toolbar-style location bar to enable quick access to the shortcuts even if the classic file manager look'n'feel is being used (<?php bug ('2024') ?>).</li>
-    <li>Add support for HAL on FreeBSD. Make HAL the preferred volume manager on FreeBSD.</li>
-    <li>Adjust the preferences dialog to match the look of the other Xfce preferences dialogs (<?php bug ('2379') ?>).</li>
-    <li>Allow to change the icon of .desktop files (<?php bug ('2150') ?>).</li>
-    <li>Allow Thunar extensions to add menu items to the Drag'n'Drop context menu. This is for example used by the thunar-archive-plugin to add an &quot;Extract Here&quot; action, which extracts a dragged archive file at the drop location.</li>
-    <li>Display the real mime type as tooltip for the &quot;Kind&quot; label in the properties dialog (<?php bug ('2369') ?>).</li>
-    <li>Keep the modification time when copying files (<?php bug ('2244') ?>).</li>
-    <li>Make sure emblems don't get too large with SVG icon themes (<?php bug ('2466') ?>).</li>
-    <li>Make sure Thunar is restarted prior to xfdesktop, so the trash support in xfdesktop works as expected even if D-Bus autoactivation is not setup properly.</li>
-    <li>Place automake options into configure.in.in instead of Makefile.am and add the tar-ustar option to fix building distributions on system where tar defaults to the deprecated V7 format (#2304).</li>
-    <li>Place cursor on the first selected file after a new file or folder was created (<?php bug ('2368') ?>).</li>
-    <li>Place focus on the main view after changing the current directory (<?php bug ('2367') ?>).</li>
-    <li>Properly clean up the path bar when a folder that is currently displayed on the path bar is deleted.</li>
-    <li>Properly validate the Name of .desktop files (<?php bug ('2227') ?>).</li>
-    <li>Update the icon mime icon lookup to try icon names from Icon Naming Spec first, and fallback to legacy GNOME icon names.</li>
-    <li>Use default dbus connection timeout (<?php bug ('2243') ?>).</li>
-    <li>Use exo-open for the default &quot;Open Terminal Here&quot; action (<?php bug ('2256') ?>).</li>
-    <li>Use the thumbnail database to load SVG icons from the icon theme, because loading SVG is quite slow and takes a lot more memory than loading and scaling PNG icons from the thumbnail database.</li>
-    <li>Fix usage of deprecated HAL policy functions (<?php bug ('2475') ?>).</li>
-    <li>Fix crash with newer GtkTreeView's if the &quot;row-has-child-toggled&quot; signal is emitted even if the child state of a node did not change (<?php bug ('2372') ?>).</li>
-    <li>Fix several race conditions that were introduced over time and prevented the &quot;new-files&quot; job handling from working properly with Gamin and automatic folder reload (<?php bug ('2199') ?>).</li>
-    <li>Fix invalid calculation of free space on OpenBSD/amd64 (<?php bug ('2383') ?>).</li>
-    <li>Fix crash due to invalid handling of file names with printf(3)-style format arguments (<?php bug ('2468') ?>).</li>
-    <li>Fix crash on systems with small per-thread stacks (<?php bug ('2269') ?>).</li>
-    <li>Fix installation on Win32 platforms (<?php bug ('2432') ?>).</li>
-    <li>Fix build with GLib 2.6.x (<?php bug ('2317') ?>).</li>
-    <li>Fix build with latest dbus-glib (<?php bug ('2263') ?>).</li>
-    <li>Updated translations: Pau Rul-lan Ferragut (ca), Michal VÃ¡rady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Jarbas Araujo, Antono Vasiljev and Sylvain Vedrenne (eo), Piarres Beobide (eu), Jari Rhkonen (fi), Maximilian Schleiss (fr), Piotr MaliÅ„ski (pl), Adriano Winter Bess (pt_BR), Andrey Fedoseev (ru), Hydonsingore Cia (zh_TW)</li>
-    <li>New translations: Sonam Pelden (dz)</li>
+    <li>Add documentation for the bulk renamer (<?php bug ('1594') ?>).</li>
+    <li>Improve the user manual (<?php bug ('1365') ?>).</li>
+    <li>Connect the various "Help" buttons (<?php bug ('1230') ?>).</li>
+    <li>Automatically add removable devices as targets to the "Send To" menu (<?php bug ('2683') ?>).</li>
+    <li>Allow to use "Eject" button on CD-ROM drives to unmount and eject the media (<?php bug ('2759') ?>).</li>
+    <li>Use Exif embedded thumbnails if available, which reduces the amount of data that must be retrieved from a camera to around 50k instead of the whole JPEG image, which can be up to several mega bytes.</li>
+    <li>Treat hotplugged drives as removable drives, so they will be displayed in the side pane.</li>
+    <li>Improve startup notification support.</li>
+    <li>Add support for trashes other than the home trash (<?php bug ('2132') ?>).</li>
+    <li>Fix crash on platforms where sizeof(GType) != sizeof(gint) (<?php bug ('2726') ?>).</li>
+    <li>Add support for thunar-volman, which gets invoked by Thunar whenever a new device is added to the HAL device tree.</li>
+    <li>Add support for memory cards and generic removable disk drives (<?php bug ('2652') ?>).</li>
+    <li>Handle blank discs and pure audio discs as well (<?php bug ('2599') ?>).</li>
+    <li>Use exo-mount to mount, eject and unmount volumes of relying on external utilities, like pmount or gnome-mount, that do not always behave properly (<?php bug ('2715') ?>).</li>
+    <li>Add ability to mount floppy drives using exo-mount (<?php bug ('2075') ?>).</li>
+    <li>Make sure GThread gets initialized first to avoid possible crashes in the GSlice allocator later.</li>
+    <li>Add ability to load custom thumbnailers from .desktop files.</li>
+    <li>Stop unused threads after ten seconds of idle time to return some more free memory to the kernel.</li>
+    <li>Improve performance when loading really large folders using a parallel lock-free algorithm.</li>
+    <li>Ellipsize long shortcut names, but make sure "File System" still fits into the side pane.</li>
+    <li>Properly initialize the translation domain for thunar-vfs (<?php bug ('2543') ?>).</li>
+    <li>Do not gather detailed statistics from non-regular files to avoid blocking Thunar forever reading from a named pipe (<?php bug ('2655') ?>).</li>
+    <li>Add keyboard shortcuts to switch between the different views (<?php bug ('2600') ?>).</li>
+    <li>Do not display "Desktop (Create Link)" action in "Send To" menu for trashed files, because symlinks cannot be created for files in the trash (<?php bug ('2539') ?>).</li>
+    <li>Fix crash when transfering a lot of files via drag'n'drop or clipboard (<?php bug ('2356') ?>).</li>
+    <li>Fix modal about dialog blocking other windows (<?php bug ('2545') ?>).</li>
+    <li>Fix build with dbus-binding-tool 0.72 and above (<?php bug ('2528') ?>).</li>
+    <li>Fix installation on case insensitive file systems (<?php bug ('2521') ?>).</li>
+    <li>Set word-wrap width depending on current zoom-level (<?php bug ('2505') ?>).</li>
+    <li>Improve the performance of the automatic path completion (<?php bug ('1681') ?>).</li>
+    <li>Properly redraw the shortcuts pane after after drag'n'drop (<?php bug ('2498') ?>).</li>
+    <li>Updated translations: Pau Rul-lan Ferragut (ca), Michal VÃ¡rady (cs), Benedikt Meurer and Fabian Nowak (de), Stavros Giannouris (el), Piarres Beobide (eu), Jari Rahkonen (fi), Maximilian Schleiss, Mike Massonnet and Niki Kovacs (fr), SzervÃ¡c Attila (hu), Roberto Pariset (it), Piotr MaliÅ„ski and Szymon KaÅ‚asz (pl), Andrey Fedoseev (ru), Alexander Toresson (sv), Kang Kang (zh_CN).</li>
+    <li>New translations: Alexander Nyakhaychyk (be), ByungHyun Choi (ko), Jovan Naumovski and Viktor Stojanovski (mk), Stephan Arts and Vincent Tunru (nl), Amanpreet Singh Alam (pa).</li>
 </ul>
 
 <h3>Printing Helper <em>(xfprint)</em>:</h3>
