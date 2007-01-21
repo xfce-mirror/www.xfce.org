@@ -7,8 +7,6 @@
   <li><a href="/documentation/4.0/userguide/xfce4-copyright">Copyright and Licenses</a></li>
 </ul>
 
-<hr>
-
 <a name="preface"></a><h2>Preface</h2>
 
 <p>

@@ -1,3 +1,4 @@
+<h1>LGPL</h1>
 <pre>
 GNU LIBRARY GENERAL PUBLIC LICENSE
 Version 2, June 1991

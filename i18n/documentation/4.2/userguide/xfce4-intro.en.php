@@ -1,5 +1,5 @@
 
-  <h2><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h2>
+  <h1><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h1>
 
   <p>Xfce is a lightweight desktop environment for unix-like
   operating systems. It aims to be fast and light on system
@@ -25,8 +25,8 @@
   "Copyright and Licences">the section called &quot;Copyright and
   Licences&quot;</a> for details).</p>
 
-  <h3><a name="xfce4-resources" id=
-  "xfce4-resources"></a>Resources</h3>
+  <h2><a name="xfce4-resources" id=
+  "xfce4-resources"></a>Resources</h2>
 
   <p>If you are looking for specific information about Xfce 4,
   chances are you can obtain it from one of the resources in this

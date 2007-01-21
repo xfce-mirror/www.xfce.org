@@ -1,6 +1,6 @@
-  <h2><a name="xfce4-use" id="xfce4-use"></a>Using Xfce4</h2>
+  <h1><a name="xfce4-use" id="xfce4-use"></a>Using Xfce4</h1>
 
-  <h3><a name="xfce4-getting-started" id="xfce4-getting-started"></a>Getting started</h3>
+  <h2><a name="xfce4-getting-started" id="xfce4-getting-started"></a>Getting started</h2>
 
   <p>Use <b><tt>startxfce4</tt></b> to start an Xfce session, which
   includes the session manager, the panel, the taskbar, the window

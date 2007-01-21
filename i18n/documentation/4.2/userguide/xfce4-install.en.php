@@ -1,6 +1,6 @@
-<h2><a name="xfce4-install" id="xfce4-install"></a>Installing Xfce4</h2>
+<h1><a name="xfce4-install" id="xfce4-install"></a>Installing Xfce4</h1>
 
-<h3><a name="id2534533" id="id2534533"></a>Binary packages</h3>
+<h2><a name="id2534533" id="id2534533"></a>Binary packages</h2>
 
 <p>The Xfce 4 project officially only releases source code for
 the desktop environment. However, binary packages may have been
@@ -13,16 +13,16 @@ packages. If you could not find binary packages for your OS, they
 may be available from your OS vendor or distributor, or you can
 install Xfce 4 from source.</p>
 
-<h3><a name="id2534968" id="id2534968"></a>Graphical
-installers</h3>
+<h2><a name="id2534968" id="id2534968"></a>Graphical
+installers</h2>
 
 <p>The easiest way to install Xfce from source is by using the
 <a href="http://xfce-installers.os-cillation.com/"
 >graphical installers</a>. Documentation and instructions
 are available.</p>
 
-<h3><a name="id2534990" id="id2534990"></a>Building from
-source</h3>
+<h2><a name="id2534990" id="id2534990"></a>Building from
+source</h2>
 
 <p>To compile Xfce manually, look at the Xfce site for <a href=
 "http://xfce.org/download">download
@@ -82,7 +82,7 @@ rpmbuild -ta module-x.y.z.tar.gz
 </tr>
 </table>
 
-<h3><a name="id2535072" id="id2535072"></a>Using CVS</h3>
+<h2><a name="id2535072" id="id2535072"></a>Using CVS</h2>
 
 <p>The latest development sources for Xfce 4 are available from
 CVS.</p>
@@ -93,8 +93,8 @@ CVS.</p>
 latest development updates from CVS. You can also use the WebCVS
 link to browse the CVS tree.</p>
 
-<h3><a name="id2596877" id="id2596877"></a>Additional
-software</h3>
+<h2><a name="id2596877" id="id2596877"></a>Additional
+software</h2>
 
 <p>The <a href="http://xfce-goodies.berlios.de"
 >Xfce Goodies</a> project collects third-party

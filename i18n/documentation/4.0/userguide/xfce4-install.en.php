@@ -1,13 +1,13 @@
 
-<h2><a name="xfce4-install" id= "xfce4-install"></a>Installing XFce4</h2>
+<h1><a name="xfce4-install" id= "xfce4-install"></a>Installing XFce4</h1>
 
-<h3><a name="id2452637" id="id2452637"></a>Components of XFce
-4</h3>
+<h2><a name="id2452637" id="id2452637"></a>Components of XFce
+4</h2>
 
 <p>The XFce 4 components are packaged separately. At the time of
 this writing the following modules are available.</p>
 
-<h4><a name="id2452647" id="id2452647"></a>Libraries</h4>
+<h3><a name="id2452647" id="id2452647"></a>Libraries</h3>
 
 <p>Unlike previous versions, XFce 4 provides a development
 platform consisting of a set of libraries that provide helper
@@ -35,7 +35,7 @@ modules.</p>
 </dd>
 </dl>
 
-<h4><a name="id2452707" id="id2452707"></a>Desktop</h4>
+<h3><a name="id2452707" id="id2452707"></a>Desktop</h3>
 
 <p>These modules provide the basic functionality of the desktop
 environment.</p>
@@ -113,7 +113,7 @@ try.</p>
 </dd>
 </dl>
 
-<h4><a name="id2454648" id="id2454648"></a>Extras</h4>
+<h3><a name="id2454648" id="id2454648"></a>Extras</h3>
 
 <p>There are a number of additional packages that are not part of
 the main desktop release that provide themes or extra
@@ -184,7 +184,7 @@ information.</p>
 
 <p>&nbsp;</p>
 
-<h3><a name="id2454790" id="id2454790"></a>Binary packages</h3>
+<h2><a name="id2454790" id="id2454790"></a>Binary packages</h2>
 
 <p>The XFce 4 project officially only releases source code for
 the desktop environment. However, binary packages may have been
@@ -205,8 +205,8 @@ XFce 4 from source.</p>
 
 <p>&nbsp;</p>
 
-<h3><a name="id2454838" id="id2454838"></a>Building from
-source</h3>
+<h2><a name="id2454838" id="id2454838"></a>Building from
+source</h2>
 
 <p>Look at the XFce site for <a href=
 "http://www.xfce.org/download" target="_top">download
@@ -268,7 +268,7 @@ rpmbuild -ta <tt>module-x.y.z.tar.gz</tt>
 
 <p>&nbsp;</p>
 
-<h3><a name="id2454938" id="id2454938"></a>Using CVS</h3>
+<h2><a name="id2454938" id="id2454938"></a>Using CVS</h2>
 
 <p>The latest development sources for XFce 4 are available from
 CVS.</p>
@@ -280,8 +280,8 @@ link to browse the CVS tree.</p>
 
 <p>&nbsp;</p>
 
-<h3><a name="id2454967" id="id2454967"></a>Additional
-software</h3>The <a href="http://xfce-goodies.berlios.de" target=
+<h2><a name="id2454967" id="id2454967"></a>Additional
+software</h2>The <a href="http://xfce-goodies.berlios.de" target=
 "_top">XFce Goodies</a> project collects third-party
 contributions for XFce 4. There are some excellent panel plugins
 available that greatly enhance the functionality of XFce 4.

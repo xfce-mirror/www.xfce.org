@@ -1,7 +1,7 @@
-<h2><a name="xfce4-use" id="xfce4-use"></a>Using XFce4</h2>
+<h1><a name="xfce4-use" id="xfce4-use"></a>Using XFce4</h1>
 
-<h3><a name="xfce4-getting-started" id=
-"xfce4-getting-started"></a>Getting started</h3>
+<h2><a name="xfce4-getting-started" id=
+"xfce4-getting-started"></a>Getting started</h2>
 
 <p>Use <b><tt>startxfce4</tt></b> to start an XFce session, which
 includes the panel, the window manager and the desktop manager.
@@ -33,8 +33,8 @@ chmod u+x ~/.xfce4/xinitrc
 
 <p>&nbsp;</p>
 
-<h3><a name="id2455094" id="id2455094"></a>The Default
-Desktop</h3>
+<h2><a name="id2455094" id="id2455094"></a>The Default
+Desktop</h2>
 
 <p>The XFce 4 Desktop Environment is not a single entity that
 provides all funtionality, but rather it tries to adhere to the
@@ -125,13 +125,13 @@ configuration from disk at startup.</p>
 </dd>
 </dl>
 
-<h3><a name="id2449672" id="id2449672"></a>Common Tasks</h3>
+<h2><a name="id2449672" id="id2449672"></a>Common Tasks</h2>
 
 <p>This section will explain how to perform several common tasks
 to quickly get you started working with XFce 4. Because that is
 what XFce 4 is designed for, to allow you to get work done.</p>
 
-<h4><a name="id2449684" id="id2449684"></a>Running programs</h4>
+<h3><a name="id2449684" id="id2449684"></a>Running programs</h3>
 
 <dl>
 <dt>XFce 4 panel</dt>
@@ -220,8 +220,8 @@ desktop menu or the settings dialog (see below).</p>
 </dd>
 </dl>
 
-<h4><a name="id2449889" id="id2449889"></a>Using the settings
-manager dialog</h4>
+<h3><a name="id2449889" id="id2449889"></a>Using the settings
+manager dialog</h3>
 
 <p>The settings manager dialog provides access to the global
 preferences of many XFce 4 applications. You can run it by
@@ -234,7 +234,7 @@ the manuals of each XFce 4 component. It may be interesting to
 have a quick look at all the dialogs to see all options that
 allow you to create the best possible working environment.</p>
 
-<h3><a name="id2449912" id="id2449912"></a>Further reading</h3>
+<h2><a name="id2449912" id="id2449912"></a>Further reading</h2>
 
 <p>This user guide has only given a very general overview of the
 XFce 4 Desktop Environment. More information is available in the

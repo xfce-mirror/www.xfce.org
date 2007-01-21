@@ -1,4 +1,4 @@
-<h2><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h2>
+<h1><a name="xfce4-intro" id="xfce4-intro"></a>Introduction</h1>
 
 <p>XFce is a lightweight desktop environment for unix-like
 operating systems. It aims to be fast and lightweight, while
@@ -30,8 +30,8 @@ GPL (see <a href="xfce4-copyright" title=
 "Copyright and Licences">the section called &ldquo;Copyright and
 Licences&rdquo;</a> for details).</p>
 
-<h3><a name="xfce4-resources" id=
-"xfce4-resources"></a>Resources</h3>
+<h2><a name="xfce4-resources" id=
+"xfce4-resources"></a>Resources</h2>
 
 <p>If you are looking for specific information about XFce 4,
 chances are you can obtain it from one of these resources:</p>
