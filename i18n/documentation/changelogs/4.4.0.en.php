@@ -87,6 +87,17 @@ function bug ($id){
     <li>Use X server time to restore focus when sent to the root window (<?php bug ('2472') ?>)</li>
 </ul>
 
+<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
+<ul>
+    <li>Fix support for applications that do pseudo-transparency (<?php bug ('2508') ?>).</li>
+    <li>Change how icon cell size is calculated to avoid weirdness at large sizes (<?php bug ('1546') ?>).</li>
+    <li>Fix icons disappearing when the icon/text size is set too large, and then not reappearing when the size is lowered again (<?php bug ('1546') ?>).</li>
+    <li>Add hidden options to disable showing any or all of the 'File System', 'Home', or 'Trash' icons.</li>
+    <li>Partially fix backdrop setting problems when unsetting Xinerama stretch mode (<?php bug ('2573') ?>).</li>
+    <li>Fix some possible (but unliklely) NULL pointer dereferences.</li>
+    <li>Update documentation.</li>
+</ul>
+
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
     <li>Many fixes when using the panel in a multiscreen setup</li>

@@ -55,6 +55,24 @@ function bug ($id){
 </ul>
 
 
+<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
+<ul>
+    <li>Fix backdrop image tearing during expose (<?php bug ('1944') ?>).</li>
+    <li>Show icon tooltips where appropriate (<?php bug ('1526') ?>).</li>
+    <li>Use thunarx extensions for the icon context menus and properties dialogs.</li>
+    <li>Fix ugly gradients in the desktop wallpaper on 16-bit displays (<?php bug ('1819') ?>).</li>
+    <li>Don't show a folder for the desktop directory itself (<?php bug ('1916') ?>).</li>
+    <li>Fix problems with markup in text labels (<?php bug ('2082') ?>).</li>
+    <li>Add 'File System', 'Home', and 'Trash' icons.</li>
+    <li>Fix compositing emblems on icons (<?php bug ('1875') ?>).</li>
+    <li>Use native Pango ellipsising support for the windowlist menu, which looks way better (<?php bug ('2127') ?>).</li>
+    <li>Allow panel plugin's menu to be opened at the pointer position (<?php bug ('2103') ?>).</li>
+    <li>Don't allow cut or delete if the file/dir isn't writeable (<?php bug ('2081') ?>).</li>
+    <li>Memory leak fixes (<?php bug ('1910') ?>).</li>
+    <li>Put the icon context menu on the proper screen (<?php bug ('2351') ?>).</li></li>
+</ul>
+
+
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
     <li>Fix/reimplement kiosk mode (<?php bug ('1993') ?>).</li>
