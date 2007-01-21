@@ -14,13 +14,16 @@ function bug ($id){
 ?>
 <h1>Xfce 4.4.0 Changelog</h1>
 
-<h3>General:</h3>
+<h3>Utilities Library <em>(libxfce4util)</em>:</h3>
+<ul>
+    <li>Updated translations: Szymon KaÅ‚asz (pl)</li>
+    <li>New translations: Geraint Rowlands (cy), Jovan Naumovski (mk)</li>
+</ul>
 
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
     <li>Fix file conflict in xfce4-panel and xfce-mcs-plugins by moving the common icon xfce-filemanager to libxfcegui4 (<?php bug ('2033') ?>).</li>
 </ul>
-
 
 <h3>Settings Manager Library <em>(libxfce4mcs)</em>:</h3>
 <ul>
@@ -75,7 +78,7 @@ function bug ($id){
     <li>Improve resize (<?php bug ('2597') ?>)</li>
     <li>Be more permissive with resizes towards struts (<?php bug ('2597') ?>, bis), optimize shape use.</li>
     <li>Fix off-by-one causing windows to be moved wrongly via keyboard (patch from Darren Salt (<?php bug ('2594') ?>)</li>
-    <li>Enter key doesn't work for "Add keybinding theme" dialog (<?php bug ('2560') ?>, patch by Brian Tarricone</li>
+    <li>Enter key doesn't work for &quot;Add keybinding theme&quot; dialog (<?php bug ('2560') ?>, patch by Brian Tarricone</li>
     <li>Use focus pending with with apps that use WM_FLAG_TAKEFOCUS protocol too (<?php bug ('2561') ?>)</li>
     <li>Hide as more windows when showing desktop (<?php bug ('2518') ?>)</li>
     <li>Don't skip windows that have the skip pager/taskbar properties when searching for windows below the pointer (<?php bug ('2550') ?>)</li>
@@ -83,8 +86,6 @@ function bug ($id){
     <li>Check for valid transient or modal when switching workspaces, to avoid missing windows to unmap (<?php bug ('2518') ?>).</li>
     <li>Use X server time to restore focus when sent to the root window (<?php bug ('2472') ?>)</li>
 </ul>
-
-<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
@@ -98,6 +99,13 @@ function bug ($id){
 </ul>
 
 <h3>Session Manager <em>(xfce4-session)</em>:</h3>
+<ul>
+    <li>Improve the logout dialog (<?php bug ('2653') ?>).</li>
+    <li>Fix poweroff on DragonFly BSD (<?php bug ('2567') ?>).</li>
+    <li>Use Xrender to fadeout the background if cairo is available.</li>
+    <li>Updated translations: Carles MuÃ±oz Gorriz (ca), Fabian Nowak (de), Rudy Godoy (es), Maximilian Schleiss (fr), Andrey Fedoseev (ru)</li>
+    <li>New translations: Josip Dzolonga (mk)</li>
+</ul>
 
 <h3>Settings Manager <em>(xfce-mcs-manager)</em>:</h3>
 <ul>
@@ -131,8 +139,47 @@ function bug ($id){
 </ul>
 
 <h3>File Manager <em>(thunar)</em>:</h3>
+<ul>
+    <li>Add a &quot;Trash&quot; menu entry to the &quot;Go&quot; menu (<?php bug ('2486') ?>).</li>
+    <li>Add a drop-down menu to the toolbar-style location bar to enable quick access to the shortcuts even if the classic file manager look'n'feel is being used (<?php bug ('2024') ?>).</li>
+    <li>Add support for HAL on FreeBSD. Make HAL the preferred volume manager on FreeBSD.</li>
+    <li>Adjust the preferences dialog to match the look of the other Xfce preferences dialogs (<?php bug ('2379') ?>).</li>
+    <li>Allow to change the icon of .desktop files (<?php bug ('2150') ?>).</li>
+    <li>Allow Thunar extensions to add menu items to the Drag'n'Drop context menu. This is for example used by the thunar-archive-plugin to add an &quot;Extract Here&quot; action, which extracts a dragged archive file at the drop location.</li>
+    <li>Display the real mime type as tooltip for the &quot;Kind&quot; label in the properties dialog (<?php bug ('2369') ?>).</li>
+    <li>Keep the modification time when copying files (<?php bug ('2244') ?>).</li>
+    <li>Make sure emblems don't get too large with SVG icon themes (<?php bug ('2466') ?>).</li>
+    <li>Make sure Thunar is restarted prior to xfdesktop, so the trash support in xfdesktop works as expected even if D-Bus autoactivation is not setup properly.</li>
+    <li>Place automake options into configure.in.in instead of Makefile.am and add the tar-ustar option to fix building distributions on system where tar defaults to the deprecated V7 format (#2304).</li>
+    <li>Place cursor on the first selected file after a new file or folder was created (<?php bug ('2368') ?>).</li>
+    <li>Place focus on the main view after changing the current directory (<?php bug ('2367') ?>).</li>
+    <li>Properly clean up the path bar when a folder that is currently displayed on the path bar is deleted.</li>
+    <li>Properly validate the Name of .desktop files (<?php bug ('2227') ?>).</li>
+    <li>Update the icon mime icon lookup to try icon names from Icon Naming Spec first, and fallback to legacy GNOME icon names.</li>
+    <li>Use default dbus connection timeout (<?php bug ('2243') ?>).</li>
+    <li>Use exo-open for the default &quot;Open Terminal Here&quot; action (<?php bug ('2256') ?>).</li>
+    <li>Use the thumbnail database to load SVG icons from the icon theme, because loading SVG is quite slow and takes a lot more memory than loading and scaling PNG icons from the thumbnail database.</li>
+    <li>Fix usage of deprecated HAL policy functions (<?php bug ('2475') ?>).</li>
+    <li>Fix crash with newer GtkTreeView's if the &quot;row-has-child-toggled&quot; signal is emitted even if the child state of a node did not change (<?php bug ('2372') ?>).</li>
+    <li>Fix several race conditions that were introduced over time and prevented the &quot;new-files&quot; job handling from working properly with Gamin and automatic folder reload (<?php bug ('2199') ?>).</li>
+    <li>Fix invalid calculation of free space on OpenBSD/amd64 (<?php bug ('2383') ?>).</li>
+    <li>Fix crash due to invalid handling of file names with printf(3)-style format arguments (<?php bug ('2468') ?>).</li>
+    <li>Fix crash on systems with small per-thread stacks (<?php bug ('2269') ?>).</li>
+    <li>Fix installation on Win32 platforms (<?php bug ('2432') ?>).</li>
+    <li>Fix build with GLib 2.6.x (<?php bug ('2317') ?>).</li>
+    <li>Fix build with latest dbus-glib (<?php bug ('2263') ?>).</li>
+    <li>Updated translations: Pau Rul-lan Ferragut (ca), Michal VÃ¡rady (cs), Benedikt Meurer (de), Stavros Giannouris (el), Jarbas Araujo, Antono Vasiljev and Sylvain Vedrenne (eo), Piarres Beobide (eu), Jari Rhkonen (fi), Maximilian Schleiss (fr), Piotr MaliÅ„ski (pl), Adriano Winter Bess (pt_BR), Andrey Fedoseev (ru), Hydonsingore Cia (zh_TW)</li>
+    <li>New translations: Sonam Pelden (dz)</li>
+</ul>
 
 <h3>Printing Helper <em>(xfprint)</em>:</h3>
+<ul>
+    <li>Prevent xfprint4 from removing the printed file when the filters aren't applied</li>
+    <li>Fix incompatibility with CUPS 1.2 (<?php bug ('2107') ?>)</li>
+    <li>Remove pointless warning messages</li>
+    <li>Use themable 'printer' icon</li>
+    <li>Add shortcuts in printer queue dialog</li>
+</ul>
 
 <h3>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h3>
 <ul>
@@ -147,16 +194,36 @@ function bug ($id){
 </ul>
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
+<ul>
+    <li>Fix menu popup on wrong screen.</li>
+    <li>Update the user guide.</li>
+    <li>Several new and updated translations.</li>
+</ul>
 
 <h3>Volume Control <em>(xfce4-mixer)</em>:</h3>
+<ul>
+    <li>Several new and updated translations.</li>
+</ul>
 
 <h3>Calendar and Appointments <em>(xfcalendar)</em>:</h3>
+<ul>
+    <li>Fix possible crash in appointment timezone selection.</li>
+    <li>Add missing revert/duplicate menu item sensitiviness settings.</li>
+    <li>Several new and updated translations.</li>
+</ul>
 
 <h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
-
-<h3>Icon Box <em>(xfce4-iconbox)</em>:</h3>
+<ul>
+    <li>Add themed icon support (<?php bug ('2651') ?>).</li>
+    <li>Fix potential crash (<?php bug ('1882') ?>).</li>
+    <li>Several new and updated translations.</li>
+</ul>
 
 <h3>Icon Theme <em>(xfce4-icon-theme)</em>:</h3>
-
-<h3>Toys <em>(xfce4-toys)</em>:</h3>
-
+<ul>
+    <li>Switched to using xfce4-dev-tools and removed autogenerated files from the CVS repository.</li>
+    <li>The index.theme was made translatable using intltool.</li>
+    <li>Major icons changes, with new colors, smaller dark borders and some 3D effects.</li>
+    <li>Several new icons, previously missing in mimetypes and stock categories.</li>
+    <li>All icons have been resized so they let a little more space around them in apps which do not take care of that by themselves, like the Gnome panel/menu/file manager.</li>
+</ul>

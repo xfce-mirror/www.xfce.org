@@ -17,7 +17,11 @@ function bug ($id){
 
 <h3>General:</h3>
 
-<h3>Libraries<em> (lib*)</em>:</h3>
+<h3>Utilities Library <em>(libxfce4util)</em>:</h3>
+
+<h3>Widget Library <em>(libxfcegui4)</em>:</h3>
+
+<h3>Settings Manager Library <em>(libxfce4mcs)</em>:</h3>
 
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 
@@ -45,9 +49,5 @@ function bug ($id){
 
 <h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
 
-<h3>Icon Box <em>(xfce4-iconbox)</em>:</h3>
-
 <h3>Icon Theme <em>(xfce4-icon-theme)</em>:</h3>
-
-<h3>Toys <em>(xfce4-toys)</em>:</h3>
 
