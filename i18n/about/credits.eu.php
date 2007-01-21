@@ -315,7 +315,7 @@ function at(){
     </tr>
     <tr>
         <td>Poloniera [pl]</td>
-        <td>Marek Piechut [mco<?php at(); ?>o2.pl], Piotr Mali&Aring;&bdquo;ski [admin<?php at(); ?>rk.edu.pl], Wit Wili&Aring;&bdquo;ski [wit.wilinski<?php at(); ?>gmail.com]</td>
+        <td>Marek Piechut [mco<?php at(); ?>o2.pl], Piotr Maliński [admin<?php at(); ?>rk.edu.pl], Szymon Kałasz [szymon_maestro<?php at(); ?>gazeta.pl], Wit Wiliński [wit.wilinski<?php at(); ?>gmail.com]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Brasilgo Portugesa [pt_BR]</td>
@@ -327,7 +327,7 @@ function at(){
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Errumeaniera [ro]</td>
-        <td bgcolor="#eeeeee">Mi&Aring;&Yuml;u Moldovan [dumol<?php at(); ?>gnome.ro]</td>
+        <td bgcolor="#eeeeee">Mişu Moldovan [dumol<?php at(); ?>gnome.ro]</td>
     </tr>
     <tr>
         <td>Errusiera [ru]</td>
@@ -347,7 +347,7 @@ function at(){
     </tr>
     <tr>
         <td>Turkiera [tr]</td>
-        <td>Er&Atilde;&sect;in Eker [erc.caldera<?php at(); ?>gmx.net]</td>
+        <td>Erçin EKER [erc.caldera<?php at(); ?>gmx.net]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Ukrainiera [uk]</td>
@@ -355,7 +355,7 @@ function at(){
     </tr>
     <tr>
         <td>Vietnamera [vi]</td>
-        <td>L&Atilde;&cent;m V&Auml;&copy;nh Ni&Atilde;&ordf;n [nienvl<?php at(); ?>yahoo.ca]</td>
+        <td>Lâm Vĩnh Niên [nienvl<?php at(); ?>yahoo.ca]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Txinera [zh_CN]</td>
