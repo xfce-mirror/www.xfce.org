@@ -13,7 +13,7 @@
 
 <h2 id="installer">Instaluesa grafikë</h2>
 <p> Xfce-Installers është një grumbull paketash që thjeshtësojnë dukshëm procesin e instalimit të Xfce-së
- dhe të disa zgjerimeve. Lexoni më tepër rreth instaluesit <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5" target="_blank">këtu</a>. </p>
+ dhe të disa zgjerimeve. Lexoni më tepër rreth instaluesit <a href="/documentation/installers/xfce/">këtu</a>. </p>
 <?php printServers("installers", $servers); ?>
 
 

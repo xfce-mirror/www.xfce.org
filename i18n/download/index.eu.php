@@ -14,8 +14,7 @@ bitartez (pakete bakar batetan <em>edo</em> ezberdinetan:</p>
 
 <h2 id="installer">Instalatzaile grafikoak</h2>
 <p> Xfce-Instalatzailea Xfce eta zenbait hedapen instalatzeko prozesua asko errazten duten pakete bilduma da. 
-Instalatzaileaz gehiago irakurri nahi izanez gero <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5" 
-target="_blank">hemen</a> egin dezakezu.</p>
+Instalatzaileaz gehiago irakurri nahi izanez gero <a href="/documentation/installers/xfce/">hemen</a> egin dezakezu.</p>
 <?php printServers("installers", $servers); ?>
 
 

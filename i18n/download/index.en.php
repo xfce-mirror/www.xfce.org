@@ -10,7 +10,7 @@
 
 
 <h2 id="installer">Graphical installers</h2>
-<p> Xfce-Installers is a collection of packages which noticably simplify the installation process of Xfce and some extensions. Read more about the installer <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5" target="_blank">here</a>. </p>
+<p> Xfce-Installers is a collection of packages which noticably simplify the installation process of Xfce and some extensions. Read more about the installer <a href="/documentation/installers/xfce/">here</a>. </p>
 <?php printServers("installers", $servers); ?>
 
 
