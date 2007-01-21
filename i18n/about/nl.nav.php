@@ -3,7 +3,7 @@
 	<li><a href="/about/features">Functies</a></li>
 	<li><a href="/about/tour">Xfce 4.4 Tour</a>
 		<ul>
-			<li><a href="http://foo-projects.org/~benny/projects/thunar/preview-0.4.0rc1.html" target="_blank" class="external">Thunar Functies</a></li>
+			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunar Functies</a></li>
 		</ul>
 	</li>
 	<li><a href="/about/news">Nieuws</a></li>

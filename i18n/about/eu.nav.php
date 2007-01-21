@@ -3,7 +3,7 @@
 	<li><a href="/about/features">Ezaugarriak</a></li>
 	<li><a href="/about/tour">Xfce 4.4 ikustaldia</a>
 		<ul>
-			<li><a href="http://foo-projects.org/~benny/projects/thunar/preview-0.4.0rc1.html" target="_blank" class="external">Thunar Ezaugarriak</a></li>
+			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunar Ezaugarriak</a></li>
 		</ul>
 	</li>
 	<li><a href="/about/news">Berriak</a></li>
