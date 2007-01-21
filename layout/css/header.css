@@ -1,0 +1,140 @@
+/*
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ * Note: This stylesheet is also used for the Xfce Bugzilla
+ */
+
+#header-top {
+	bottom: -6px;
+	right: 6px;
+	width: 16px;
+	height: 16px;
+}
+* html #header-top {
+	display: none;
+	height: 0;
+	width: 0;
+}
+body > #header-top {
+	position: fixed;
+}
+#header-top a {
+	width: 16px;
+	height: 0px;
+	padding-top: 16px;
+	overflow: hidden;
+	display: block;
+	background: url('/layout/images/go-top.png') no-repeat 0 0;
+}
+#header {
+	background: #8EBADD url('/layout/images/header.png') repeat-x;
+}
+#header-logo {
+	width: 350px;
+	height: 125px;
+	background: url('/layout/images/logo.png') no-repeat; /* logo_snow.png */
+	float: left;
+}
+#header-right {
+	float: right;
+	width: 200px;
+	height: 100px;
+	background: url('/layout/images/corner.png') no-repeat 100% 0;
+}
+#header-style {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 60px;
+}
+#header-style p {
+	margin: 0;
+	padding: 10px;
+	color: #fff;
+}
+#header-style a {
+	color: #fff;
+	text-decoration: none;
+}
+#header-style a:hover {
+	text-decoration: underline;
+}
+#header-search {
+	text-align: right;
+	height: 65px;
+	width: 200px;
+	vertical-align: bottom;
+	display: table-cell;
+}
+#header-search form {
+	margin: 0;
+	padding: 0 10px 10px 0;
+}
+#header-search input {
+	border: 1px solid #c6c6c6;
+	padding: 0.2em;
+	margin: 0;
+	background: #fff;
+	color: #000;
+	width: 150px;
+	max-height: 50px;
+}
+#header-menu {
+	clear: both;
+	border: 1px solid #C6C6C6;
+	background: #e9e9e9 url('/layout/images/menu.png') repeat-x;
+	padding: 0.3em 0;
+}
+#header-menu ul {
+	list-style: none;
+	display: inline;
+	padding: 0 0 0 1em;
+	margin: 0;
+}
+#header-menu ul li {
+	padding: 0 1em 0 1.2em;
+	display: inline;
+	border-left: 1px solid #b4b4b4;
+}
+#header-menu ul li:first-child {
+	border-left: 0;
+	padding-left: 0;
+}
+#header-menu ul li a {
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+#header-white {
+	padding: 0.2em 1em;
+	background: #fff;
+}
+#header-breadcrumbs {
+	color: #999;
+	margin-right: 25%;
+}
+#header-breadcrumbs a {
+	color: #999;
+}
+#header-breadcrumbs a:hover {
+	color: #333;
+}
+#header-language {
+	width: 25%;
+	text-align: right;
+	float: right;
+	color: #b4b4b4;
+	margin: 0;
+	padding: 0;
+}
+
+/* internet explorer fixes */
+* html #header-menu {
+	padding: 0.1em 0 0.2em;
+}
+* html #header-menu ul li {
+	margin: 0 1.2em 0 -1.2em;
+}
+* html #header-search form {
+	padding: 30px 10px 0 0;
+}

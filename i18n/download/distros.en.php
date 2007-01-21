@@ -1,0 +1,51 @@
+<h1>Xfce Orientated Distributions</h1>
+<p>Here is a list of distributions using Xfce as their native desktop.</p>
+
+<h2>Xubuntu</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu website"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
+		<td>Xubuntu is a Linux distribution based on Ubuntu. Unlike its parent, however, Xubuntu uses the light-weight Xfce desktop environment and is optimised for lower-end machines. The distribution includes only GTK+ applications where possible.</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu website">Website</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="Visit the Xubuntu page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<h2> Xfld</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xfld website"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
+		<td>Xfld - 'Xfce live demo' - is a liveCD , demonstrating the latest version of the Xfce desktop environment and providing a complete Gnu/Linux operating system (based on Ubuntu), which could be run directly from the CD.</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xubuntu website">Website</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="Visit the Xfld page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<h2>Zenwalk</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.zenwalk.org/" target="_blank" title="Visit the Zenwalk website"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
+		<td>Zenwalk is an operating system based on Slackware. The goal of Zenwalk is being slim and fast using only one application per task combined with the Xfce Desktop. Zenwalk features the latest Linux technology along with a complete programming environment and libraries to provide an ideal platform for application programmers. Zenwalk's modular approach also provides a simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. LAMP, messaging, file sharing).</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.zenwalk.org/" target="_blank" title="Visit the Zenwalk website">Website</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="Visit the Zenwalk page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<h2>Lunar Linux</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux website"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
+		<td>Lunar Linux is a source-based distribution. Although there is no native desktop environment in Lunar, it has excellent support for Xfce, mainly because a couple of Xfce developers are also Lunar developers.<br />
+            Another noticeable point: all Xfce servers are running Lunar Linux!</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux website">Website</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Visit the Lunar Linux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>

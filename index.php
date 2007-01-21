@@ -1,106 +1,92 @@
 <?php
 
-# do not assume register_globals is on: explicitly fetch parameters.
-$page = $_GET['page'];
-$lang = $_GET['lang'];
+function microtime_float ()
+{
+    list ($usec, $sec) = explode(" ", microtime());
+    return ((float)$usec + (float)$sec);
+}
+$time_start = microtime_float ();
 
-if ($page == "")
-    {
-    $page = "index";
-    $SubMenu="1";
-    $FastMenu="1";
-    }
+include ("include/functions.php");
+include ("include/arrays.php");
 
-elseif ($page == "about")
-    {
-    $SubMenu="13";
-    $FastMenu="10";
-    }
+/* load session variables */
+session_start ();
 
-elseif ($page == "index")
-    {	
-    $SubMenu="1";
-    $FastMenu="1";
-    }
+/* Try to detect the user language */
+$userlang = substr(trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]), 0, 2);
+if (!in_array ($userlang, array_keys($languages)))
+    $userlang = "en";
 
-elseif ($page == "devel_screenshots")
-    {
-    $SubMenu="6";
-    $FastMenu="0";
-    }
+/* get saved variables */
+$layout = UserVariable ("layout", $layouts, "normal");
+$lang = UserVariable ("lang", array_keys($languages), $userlang);
+$lastvisit = UserLastVisit ();
 
-elseif ($page == "developers")
-    {
-    $SubMenu="11";
-    $FastMenu="8";
-    }
+/* set the locale for the date() function */
+setlocale (LC_ALL, $languages[$lang][2]);
 
-elseif ($page == "documentation")
-    {
-    $SubMenu="9";
-    $FastMenu="6";
-    }
+/* redirect to download server */
+if ($location = $_GET["server"])
+{
+	header ("Location: ". $location);
+    exit;
+}
 
-elseif ($page == "download")
-    {
-    $SubMenu="10";
-    $FastMenu="7";
-    }
+/* redirects from old to new website */
+if ($page = $_GET["page"])
+{
+    include ("include/redirect.php");
 
-elseif ($page == "extras")
-    {
-    $SubMenu="3";
-    $FastMenu="3";
-    }
+    /* send user to the new url */
+    header ("Location: http://". $_SERVER['SERVER_NAME'] ."/". $redirect[$page]);
+    exit;
+}
 
-elseif ($page == "links")
-    {
-    $SubMenu="14";
-    $FastMenu="11";
-    }
-    
-elseif ($page == "mailinglists")
-    {
-    $SubMenu="12";
-    $FastMenu="9";
-    }
+/* check for feed request */
+if ($_GET["feed"] == "rss2")
+{
+    include ("include/feed.php");
 
-elseif ($page == "news")
-    {
-    $SubMenu="8";
-    $FastMenu="5";
-    }
+    /* show feed xml and exit */
+    ParseRssFeed ($lang);
+    exit;
+}
 
-elseif ($page == "devblog")
-    {
-    $SubMenu="15";
-    $FastMenu="0";
-    }
+/* get relative url */
+$uri = $_SERVER["REDIRECT_URL"];
+$uri = trim ($uri, '/');
+$uri = strtolower ($uri);
 
-elseif ($page == "overview")
-    {
-    $SubMenu="2";
-    $FastMenu="2";
-    }
+/* block some pages users are not allowed to see */
+$forbidden = array ("footer", "frontpage", "header");
+if (in_array ($uri, $forbidden))
+    $uri = "";
 
-elseif ($page == "screenshots")
-    {
-    $SubMenu="5";
-    $FastMenu="4";
-    }
+/* include needed files */
+include ("include/header.php");
+include ("include/footer.php");
+include ("include/news.php");
 
-elseif ($page == "users_screenshots")
-    {
-    $SubMenu="7";
-    $FastMenu="0";
-    }
+/* create webpage */
+if ($uri == "")
+{
+    include ("include/frontpage.php");
 
-elseif ($page == "xfwm4_themes")
-    {
-    $SubMenu="4";
-    $FastMenu="0";
-    }
+    PrintHeader ($uri, $lang, $layout, $languages);
+    PrintFrontpage ($lang, $lastvisit);
+    PrintFooter ($lang);
+}
+else
+{
+    include ("include/content.php");
 
-include "main.php";
+    $content = PrepareContent ($uri, $lang);
+    PrintHeader ($uri, $lang, $layout, $languages);
+    PrintContent ($content, $lang);
+    PrintFooter ($lang);
+}
 
+$time_end = microtime_float ();
+echo "<!-- Execution time: ". round ($time_end - $time_start, 4) ." second -->";
 ?>
