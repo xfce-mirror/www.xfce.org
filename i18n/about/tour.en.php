@@ -211,9 +211,9 @@ integrated composition manager.
 
 <p>
 <b>Xfprint</b>, the Xfce printing management application, saw several small improvements with
-this release. First, the <tt>a2ps</tt> converter is not mandatory anymore, but it is still
-recommended, support for <tt>CUPS</tt> 1.2 was added and it is now able to display the printer
-state with the <tt>CUPS</tt>-backend.
+this release. The <tt>a2ps</tt> converter is not mandatory anymore, whilst still
+recommended. Support for <tt>CUPS</tt> 1.2 has been added and Xfprint is now able to display 
+the printer's state using the CUPS-backend.
 </p>
 
 <p align="center"><img src="/images/about/tour/xfce44-xfprint.png" alt="Xfce Printing" /></p>
