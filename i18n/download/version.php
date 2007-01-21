@@ -1,7 +1,7 @@
 <?php
 /* the version number here */
 $version       = "4.4.0";
-$sf_release_id = "371171";
+$sf_release_id = "480300";
 
 /* list of Xfce server */
 $servers = array (
