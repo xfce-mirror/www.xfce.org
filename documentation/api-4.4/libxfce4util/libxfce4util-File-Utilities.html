@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>File Utilities</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfce4util Reference Manual">
+<link rel="up" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="prev" href="libxfce4util-Resource-Config-File-Support.html" title="Resource Config File Support">
+<link rel="next" href="libxfce4util-Miscellaneous-Utilities.html" title="Miscellaneous Utilities">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfce4util Overview">
+<link rel="chapter" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="chapter" href="libxfce4util-core.html" title="Xfce Core Application support">
+<link rel="chapter" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="chapter" href="libxfce4util-datatypes.html" title="Xfce Data types">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfce4util-Resource-Config-File-Support.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4util-utilities.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4util Reference Manual</th>
+<td><a accesskey="n" href="libxfce4util-Miscellaneous-Utilities.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="libxfce4util-File-Utilities"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">File Utilities</span></h2>
+<p>File Utilities &#8212; miscellaneous file-related utility functions.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4util/libxfce4util.h&gt;
+
+
+gboolean    <a href="libxfce4util-File-Utilities.html#xfce-mkdirhier">xfce_mkdirhier</a>                  (const gchar *whole_path,
+                                             gulong mode,
+                                             GError **error);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2622290"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2622299"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2622305"></a><h3>
+<a name="xfce-mkdirhier"></a>xfce_mkdirhier ()</h3>
+<a class="indexterm" name="id2622313"></a><pre class="programlisting">gboolean    xfce_mkdirhier                  (const gchar *whole_path,
+                                             gulong mode,
+                                             GError **error);</pre>
+<p>
+Creates the specified directory <em class="parameter"><code>whole_path</code></em>, but unlike the <code class="function">mkdir()</code>
+function from the standard C library, if any of the parent directories
+of the <em class="parameter"><code>whole_path</code></em> do not exists, they are created as well.
+</p>
+<p>
+If the directory specified by <em class="parameter"><code>whole_path</code></em> already exists, this function
+performs no operation and simply returns <code class="literal">TRUE</code>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>whole_path</code></em>&#160;:</span></td>
+<td> path to the directory to create.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mode</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> location where to store GError object to, error are returned
+              in the <code class="literal">G_FILE_ERROR</code> domain.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <code class="literal">TRUE</code> on success, else <code class="literal">FALSE</code>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.2
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2622532"></a><h2>See Also</h2>
+<p>
+<a href="http://developer.gnome.org/doc/API/2.0/glib/glib-File-Utilities.html" target="_top">GLib File Utilities</a>
+</p>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfce4util-Resource-Config-File-Support.html"><b>&lt;&lt;&#160;Resource Config File Support</b></a></td>
+<td align="right"><a accesskey="n" href="libxfce4util-Miscellaneous-Utilities.html"><b>Miscellaneous Utilities&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

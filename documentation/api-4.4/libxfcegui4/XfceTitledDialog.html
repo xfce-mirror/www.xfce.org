@@ -1,0 +1,271 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceTitledDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="prev" href="XfceIconTheme.html" title="XfceIconTheme">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="XfceIconTheme.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-core.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="XfceTitledDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">XfceTitledDialog</span></h2>
+<p>XfceTitledDialog &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+
+            <a href="XfceTitledDialog.html#XfceTitledDialog-struct">XfceTitledDialog</a>;
+GtkWidget*  <a href="XfceTitledDialog.html#xfce-titled-dialog-new">xfce_titled_dialog_new</a>          (void);
+GtkWidget*  <a href="XfceTitledDialog.html#xfce-titled-dialog-new-with-buttons">xfce_titled_dialog_new_with_buttons</a>
+                                            (const gchar *title,
+                                             GtkWindow *parent,
+                                             GtkDialogFlags flags,
+                                             const gchar *first_button_text,
+                                             ...);
+const gchar* <a href="XfceTitledDialog.html#xfce-titled-dialog-get-subtitle">xfce_titled_dialog_get_subtitle</a>
+                                            (<a href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog);
+void        <a href="XfceTitledDialog.html#xfce-titled-dialog-set-subtitle">xfce_titled_dialog_set_subtitle</a> (<a href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog,
+                                             const gchar *subtitle);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2641671"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----GInitiallyUnowned
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBin
+                                 +----GtkWindow
+                                       +----GtkDialog
+                                             +----XfceTitledDialog
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2641729"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceTitledDialog implements
+ AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2641744"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="XfceTitledDialog.html#XfceTitledDialog--subtitle">subtitle</a>"             gchararray            : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2641766"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2641776"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2641781"></a><h3>
+<a name="XfceTitledDialog-struct"></a>XfceTitledDialog</h3>
+<a class="indexterm" name="id2641789"></a><pre class="programlisting">typedef struct _XfceTitledDialog XfceTitledDialog;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2641804"></a><h3>
+<a name="xfce-titled-dialog-new"></a>xfce_titled_dialog_new ()</h3>
+<a class="indexterm" name="id2641813"></a><pre class="programlisting">GtkWidget*  xfce_titled_dialog_new          (void);</pre>
+<p>
+Allocates a new <a href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a> instance.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2641934"></a><h3>
+<a name="xfce-titled-dialog-new-with-buttons"></a>xfce_titled_dialog_new_with_buttons ()</h3>
+<a class="indexterm" name="id2641946"></a><pre class="programlisting">GtkWidget*  xfce_titled_dialog_new_with_buttons
+                                            (const gchar *title,
+                                             GtkWindow *parent,
+                                             GtkDialogFlags flags,
+                                             const gchar *first_button_text,
+                                             ...);</pre>
+<p>
+See the documentation of <code class="function">gtk_dialog_new_with_buttons()</code> for details about the
+parameters and the returned dialog.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>title</code></em>&#160;:</span></td>
+<td> title of the dialog, or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>parent</code></em>&#160;:</span></td>
+<td> transient parent window of the dialog, or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>flags</code></em>&#160;:</span></td>
+<td> from <span class="type">GtkDialogFlags</span>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>first_button_text</code></em>&#160;:</span></td>
+<td> stock ID or text to go in first, or <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>...</code></em>&#160;:</span></td>
+<td> response ID for the first button, then additional buttons, ending with <code class="literal">NULL</code>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2642189"></a><h3>
+<a name="xfce-titled-dialog-get-subtitle"></a>xfce_titled_dialog_get_subtitle ()</h3>
+<a class="indexterm" name="id2642199"></a><pre class="programlisting">const gchar* xfce_titled_dialog_get_subtitle
+                                            (<a href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog);</pre>
+<p>
+Returns the subtitle of the <em class="parameter"><code>titled_dialog</code></em>, or <code class="literal">NULL</code>
+if no subtitle is displayed in the <em class="parameter"><code>titled_dialog</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>titled_dialog</code></em>&#160;:</span></td>
+<td> a <a href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the subtitle of <em class="parameter"><code>titled_dialog</code></em>, or <code class="literal">NULL</code>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2642292"></a><h3>
+<a name="xfce-titled-dialog-set-subtitle"></a>xfce_titled_dialog_set_subtitle ()</h3>
+<a class="indexterm" name="id2642301"></a><pre class="programlisting">void        xfce_titled_dialog_set_subtitle (<a href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog,
+                                             const gchar *subtitle);</pre>
+<p>
+Sets the subtitle displayed by <em class="parameter"><code>titled_dialog</code></em> to <em class="parameter"><code>subtitle</code></em>; if
+<em class="parameter"><code>subtitle</code></em> is <code class="literal">NULL</code> no subtitle will be displayed by the <em class="parameter"><code>titled_dialog</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>titled_dialog</code></em>&#160;:</span></td>
+<td> a <a href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>subtitle</code></em>&#160;:</span></td>
+<td> the new subtitle for the <em class="parameter"><code>titled_dialog</code></em>, or <code class="literal">NULL</code>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p>Since  4.4.0
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2642416"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2642421"></a><h3>
+<a name="XfceTitledDialog--subtitle"></a>The "<code class="literal">subtitle</code>" property</h3>
+<pre class="programlisting">  "subtitle"             gchararray            : Read / Write</pre>
+<p>
+The subtitle displayed below the main dialog title.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  4.4.0
+</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="XfceIconTheme.html"><b>&lt;&lt;&#160;XfceIconTheme</b></a></td>
+<td align="right"></td>
+</tr></table>
+</body>
+</html>

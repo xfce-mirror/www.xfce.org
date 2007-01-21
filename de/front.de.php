@@ -32,7 +32,7 @@ while conserving system resources."
 
 <tr>
 <td align="center"><b><a href="index.php?page=download&lang=de#source" class="front">Quellcode</a></b><br><br></td>
-<td align="center"><b><a href="http://prdownloads.sourceforge.net/xfce/xfce4-4.2.2-installer.bin" class="front">Graphische&nbsp;Installer</a></b><br><br></td>
+<td align="center"><b><a href="http://prdownloads.sourceforge.net/xfce/xfce4-4.2.4-installer.run" class="front">Graphische&nbsp;Installer</a></b><br><br></td>
 <td align="center"><b><a href="index.php?page=download&lang=de#binaries" class="front">Binärpakete</a></b><br><br></td>
 </tr>
 

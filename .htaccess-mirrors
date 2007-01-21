@@ -87,3 +87,5 @@ Redirect 301 /zh/xfwm4_themes_zh.html http://xfce.org/index.php?page=xfwm4_theme
 Redirect 301 /blog/ http://blog.xfce.org/
 Redirect 301 /blog http://blog.xfce.org/
 
+RewriteEngine On
+RewriteRule ^(~.*)$ http://foo-projects.org/$1 [R]

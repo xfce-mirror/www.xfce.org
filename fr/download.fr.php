@@ -2,6 +2,17 @@
 
 <h2>Code source :</h2>
 
+<h3>Pré-versions de Xfce 4.4 :</h3>
+
+<p>Aidez-nous à faire de Xfce 4.4 la meilleure version possible, téléchargez-le, essayez-le, aidez-nous à l'améliorer!
+Récupérez-le depuis un des sites suivants :</p>
+
+		<ul class="submenu">
+		
+		<?php include "edit/4.4_download.php"; ?>
+		
+		</ul>
+
 <h3>Versions stables de Xfce 4 :</h3>
 
 <p>Tous les modules de Xfce 4 sont disponibles depuis notre page SourceForge, sous la forme d'une archive unique, et depuis plusieurs miroirs (sous la forme d'une archive unique <i>ou</i> de paquets séparés) :</p>

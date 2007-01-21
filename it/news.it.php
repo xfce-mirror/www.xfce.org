@@ -1,19 +1,63 @@
+<b>2007/01/15 - Xfce 4.2.4 released</b>
+
+<p>A new bug fix release of Xfce 4.2 is available. This release is supposed to be the last release for the 4.2 branch. It includes several fixes ported from the current developpment branch.<br>
+
+This release should not be confused with the upcoming Xfce 4.4 release, it's a bug fix release of the previous stable branch.
+
+Get it from <a href="index.php?page=download&lang=en">this page</a>.</p><br>
+
+
+<b>2006/11/05 - Xfce 4.4 Release Candidate 2 (4.3.99.2) released</b>
+
+<p>The second and hopefully last release candidate of the Xfce 4.4 desktop is now available for download.<br>
+
+This release focuses primarily on bug fixes and optimizations. Please refer to the <a href="http://www.xfce.org/release_notes/4.4rc2_changelog.html">changelog</a> for a list of fixes and changes.
+
+Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from <a href="index.php?page=download&lang=en">this page</a>.</p><br>
+
+
+<b>2006/09/03 - Xfce 4.4 Release Candidate 1 (4.3.99.1) released</b>
+
+<p>The first release candiate of the upcoming Xfce 4.4 desktop is now available for download.
+
+This release fixes a lot of bugs that were present in the second beta release, but also introduces new features, like the trash support
+in Thunar and xfdesktop. Besides that, this release also includes Xarchiver 0.4.0. See the <a
+href="release_notes/4.4rc1_changelog.html">release notes</a> for a detailed list of changes between 4.4 beta2 and 4.4 rc1.
+
+Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from <a href="index.php?page=download&lang=en">this page</a>.</p><br>
+
+<b>2006/07/10 - Xfce 4.4 beta 2 (4.3.90.2) released</b>
+
+<p>Xfce 4.4 beta2 (4.3.90.2) is now available for download. 
+
+Besides Mousepad and Thunar, this release also includes the new Xfce archive manager Xarchiver. Other than that a large number of bugs were fixed, and several core components were improved. A detailed overview of the changes between 4.4 beta1 and 4.4 beta2 is available <a href="release_notes/4.4beta2_changelog.txt">here</a>.
+
+
+Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from <a href="index.php?page=download&lang=en">this page</a>.</p><br>
+
+<b>2006/04/17 - Xfce 4.4 beta 1 (4.3.90.1) released</b>
+
+<p>Xfce 4.4 beta1 (4.3.90.1) is now available for download. 
+
+Xfce 4.4 features new tools such as the much anticipated "Thunar" file manager as well as several huge improvements of its core components.
+
+Please help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from <a href="index.php?page=download&lang=it">this page</a>.</p><br>
+
 <b>2005/11/15 - Xfce 4.2.3.2 released</b>
 
-<p>A "micro" release to fix a regression in the window manager settings, get it from one of the download locations from <a href="index.php?page=download&lang=it">this page</a>, the change log for 4.2.3 remains <a href="release_notes/4.2.3.1_changelog.html">here</a>.</p><br>
-
-<b>2005/11/08 - Xfce 4.2.3.1 released</b>
-
-<p>A new bug fix release of Xfce is finally available, after almost 6 months! Xfce 4.2.3.1 is available for download from the usual locations listed on <a href="index.php?page=download&lang=it">this page</a>, and a changelog is available <a href="release_notes/4.2.3.1_changelog.html">here</a>.</p><br>
-
-<b>2005/05/17 - Xfce 4.2.2 released</b>
-
-<p>Xfce 4.2.2 is available. Download locations can be found on <a href="index.php?page=download&lang=it">this page</a>, and a changelog is available <a href="release_notes/4.2.2_changelog.html">here</a>.</p><br>
+<p>A "micro" release to fix a regression in the window manager settings, get it from one of the download locations from <a href="index.php?page=download&lang=de">this page</a>, the change log for 4.2.3 remains <a href="release_notes/4.2.3.1_changelog.html">here</a>.</p><br>
 
 <!-- Never remove this mark !!! Move it (with this comment) below the news you want to appear in last position on front page -->
 <a name="stophere"></a>
 <!-- -->
 
+<b>2005/11/08 - Xfce 4.2.3.1 released</b>
+
+<p>A new bug fix release of Xfce is finally available, after almost 6 months! Xfce 4.2.3.1 is available for download from the usual locations listed on <a href="index.php?page=download&lang=de">this page</a>, and a changelog is available <a href="release_notes/4.2.3.1_changelog.html">here</a>.</p><br>
+
+<b>2005/05/17 - Xfce 4.2.2 released</b>
+
+<p>Xfce 4.2.2 is available. Download locations can be found on <a href="index.php?page=download&lang=de">this page</a>, and a changelog is available <a href="release_notes/4.2.2_changelog.html">here</a>.</p><br>
 
 <b>2005/03/17 - Xfce 4.2.1.1 released</b>
 

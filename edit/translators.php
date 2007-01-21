@@ -3,6 +3,9 @@ Ales Nyakhaychyk (nab at mail.by) [be]<br>
 Alois Nespor (Alois.Nespor at seznam.cz) [cs]<br>
 Moritz Heiber (moe at xfce.org) [de]<br>
 Dwayne Bailey (dwayne at translate.org.za) [en_GB]<br>
+Antono Vasiljev (antono.vasiljev at gmail.com) [eo]<br>
+Jarbas Araujo de Oliveira Jr (jarbasaraujojr at yahoo.com.br) [eo]<br>
+Sylvain Vedrenne (gnu_sylvain at xfce.org) [eo]<br>
 Jaime Buffery (nestu at lunar-linux.org) [es]<br>
 Edscott Wilson Garcia (edscott at imp.mx) [es_MX]<br>
 Peeter Vois (peeter.vois at proekspert.ee) [et]<br>
@@ -14,6 +17,7 @@ Juha Kautto (kautto.juha at kolumbus.fi) [fi]<br>
 Mickal Graf (korbinus at linux.se) [fr]<br>
 Olivier Fourdan (fourdan at xfce.org) [fr]<br>
 Jean-François Wauthy (pollux at xfce.org) [fr]<br>
+Leandro Regueiro (leandro.regueiro at gmail.com) [gl]<br>
 Ankit Patel (ankit at redhat.com) [gu]<br>
 Ravi Shrivastava (raviratlami at yahoo.com) [hi]<br>
 Dotan Kamber (kamberd at yahoo.com) [he]<br>

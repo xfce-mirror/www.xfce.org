@@ -1,0 +1,417 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceAboutDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="prev" href="libxfcegui4-dialogs.html" title="Dialogs">
+<link rel="next" href="XfceAppMenuItem.html" title="XfceAppMenuItem">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="libxfcegui4-dialogs.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-core.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+<td><a accesskey="n" href="XfceAppMenuItem.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="XfceAboutDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">XfceAboutDialog</span></h2>
+<p>XfceAboutDialog &#8212; display information about a project.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+
+            <a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a>;
+            <a href="XfceAboutDialog.html#XfceAboutDialog-struct">XfceAboutDialog</a>;
+#define     <a href="XfceAboutDialog.html#XFCE-COPYRIGHT-TEXT:CAPS">XFCE_COPYRIGHT_TEXT</a>             (years, owner)
+<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a>* <a href="XfceAboutDialog.html#xfce-about-info-new">xfce_about_info_new</a>          (const gchar *program,
+                                             const gchar *version,
+                                             const gchar *description,
+                                             const gchar *copyright,
+                                             const gchar *license);
+void        <a href="XfceAboutDialog.html#xfce-about-info-free">xfce_about_info_free</a>            (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info);
+void        <a href="XfceAboutDialog.html#xfce-about-info-set-homepage">xfce_about_info_set_homepage</a>    (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             const gchar *homepage);
+void        <a href="XfceAboutDialog.html#xfce-about-info-add-credit">xfce_about_info_add_credit</a>      (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             const gchar *name,
+                                             const gchar *mail,
+                                             const gchar *task);
+GtkWidget*  <a href="XfceAboutDialog.html#xfce-about-dialog-new">xfce_about_dialog_new</a>           (GtkWindow *parent,
+                                             const <a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             GdkPixbuf *icon);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2610810"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GObject
+   +----GInitiallyUnowned
+         +----GtkObject
+               +----GtkWidget
+                     +----GtkContainer
+                           +----GtkBin
+                                 +----GtkWindow
+                                       +----GtkDialog
+                                             +----XfceAboutDialog
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2610936"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceAboutDialog implements
+ AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2610951"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--copyright">copyright</a>"            gchararray            : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--description">description</a>"          gchararray            : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--homepage">homepage</a>"             gchararray            : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--icon">icon</a>"                 GdkPixbuf             : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--license">license</a>"              gchararray            : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--program">program</a>"              gchararray            : Read / Write
+  "<a href="XfceAboutDialog.html#XfceAboutDialog--version">version</a>"              gchararray            : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2611113"></a><h2>Description</h2>
+<p>
+A dialog box widget containing all of the relevant credit information.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2611123"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2611128"></a><h3>
+<a name="XfceAboutInfo"></a>XfceAboutInfo</h3>
+<a class="indexterm" name="id2611137"></a><pre class="programlisting">typedef struct _XfceAboutInfo XfceAboutInfo;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611152"></a><h3>
+<a name="XfceAboutDialog-struct"></a>XfceAboutDialog</h3>
+<a class="indexterm" name="id2611160"></a><pre class="programlisting">typedef struct _XfceAboutDialog XfceAboutDialog;</pre>
+<p>
+A dialog box widget that contains all the credit information relevant to
+a projects, and displays it in up to three notebook tabs.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611175"></a><h3>
+<a name="XFCE-COPYRIGHT-TEXT:CAPS"></a>XFCE_COPYRIGHT_TEXT()</h3>
+<a class="indexterm" name="id2611184"></a><pre class="programlisting">#define XFCE_COPYRIGHT_TEXT(years, owner) ("Copyright (c) " years "\n" owner "\nAll rights reserved.")
+</pre>
+<p>
+Generates a default copyright text from the given information.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>years</code></em>&#160;:</span></td>
+<td>year information (e.g. "2002-2004").
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>owner</code></em>&#160;:</span></td>
+<td>the copyright owner.
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611228"></a><h3>
+<a name="xfce-about-info-new"></a>xfce_about_info_new ()</h3>
+<a class="indexterm" name="id2611237"></a><pre class="programlisting"><a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a>* xfce_about_info_new          (const gchar *program,
+                                             const gchar *version,
+                                             const gchar *description,
+                                             const gchar *copyright,
+                                             const gchar *license);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>program</code></em>&#160;:</span></td>
+<td> program name (e.g. "xfce4-session")
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>version</code></em>&#160;:</span></td>
+<td> application version.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>description</code></em>&#160;:</span></td>
+<td> short descriptive text (e.g. "Xfce session manager").
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>copyright</code></em>&#160;:</span></td>
+<td> copyright text, use the <a href="XfceAboutDialog.html#XFCE-COPYRIGHT-TEXT:CAPS"><span class="type">XFCE_COPYRIGHT_TEXT</span></a> macro. This
+               parameter is optional. If set to NULL, a default copyright
+               text will be choosen.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>license</code></em>&#160;:</span></td>
+<td> optional license text, can either be the text of a license
+               or can be one of the builtin license constants, which are
+               limited to XFCE_LICENSE_BSD, XFCE_LICENSE_GPL and
+               XFCE_LICENSE_LGPL currently. If NULL, no license text will
+               be displayed.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>  the new <a href="XfceAboutDialog.html#XfceAboutInfo"><span class="type">XfceAboutInfo</span></a> object or NULL on error. The result
+               needs to be freed using <a href="XfceAboutDialog.html#xfce-about-info-free"><code class="function">xfce_about_info_free()</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611458"></a><h3>
+<a name="xfce-about-info-free"></a>xfce_about_info_free ()</h3>
+<a class="indexterm" name="id2611466"></a><pre class="programlisting">void        xfce_about_info_free            (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info);</pre>
+<p>
+Frees the <em class="parameter"><code>info</code></em> object and all resources covered by it.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="parameter"><code>info</code></em>&#160;:</span></td>
+<td> an <a href="XfceAboutDialog.html#XfceAboutInfo"><span class="type">XfceAboutInfo</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611592"></a><h3>
+<a name="xfce-about-info-set-homepage"></a>xfce_about_info_set_homepage ()</h3>
+<a class="indexterm" name="id2611601"></a><pre class="programlisting">void        xfce_about_info_set_homepage    (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             const gchar *homepage);</pre>
+<p>
+Associates a <em class="parameter"><code>homepage</code></em> with the <em class="parameter"><code>info</code></em> object.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>info</code></em>&#160;:</span></td>
+<td> an <a href="XfceAboutDialog.html#XfceAboutInfo"><span class="type">XfceAboutInfo</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>homepage</code></em>&#160;:</span></td>
+<td> the URL of the projects website, has to be a valid URL, that
+             can be loaded by a webbrowser.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611682"></a><h3>
+<a name="xfce-about-info-add-credit"></a>xfce_about_info_add_credit ()</h3>
+<a class="indexterm" name="id2611690"></a><pre class="programlisting">void        xfce_about_info_add_credit      (<a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             const gchar *name,
+                                             const gchar *mail,
+                                             const gchar *task);</pre>
+<p>
+Adds a credit to the <em class="parameter"><code>info</code></em> object.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>info</code></em>&#160;:</span></td>
+<td> an <a href="XfceAboutDialog.html#XfceAboutInfo"><span class="type">XfceAboutInfo</span></a>.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td> the full name of the person.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>mail</code></em>&#160;:</span></td>
+<td> the persons email address.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>task</code></em>&#160;:</span></td>
+<td> the persons task in the project.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611805"></a><h3>
+<a name="xfce-about-dialog-new"></a>xfce_about_dialog_new ()</h3>
+<a class="indexterm" name="id2611882"></a><pre class="programlisting">GtkWidget*  xfce_about_dialog_new           (GtkWindow *parent,
+                                             const <a href="XfceAboutDialog.html#XfceAboutInfo">XfceAboutInfo</a> *info,
+                                             GdkPixbuf *icon);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>parent</code></em>&#160;:</span></td>
+<td> parent window or NULL.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>info</code></em>&#160;:</span></td>
+<td> an <a href="XfceAboutDialog.html#XfceAboutInfo"><span class="type">XfceAboutInfo</span></a> object with the about info.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>icon</code></em>&#160;:</span></td>
+<td> an optional icon, if NULL, no icon will be displayed.
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>  the newly allocated dialog widget.
+
+<em class="parameter"><code>Deprecated</code></em>: Use xfce_about_dialog_new_with_values instead.   
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2612059"></a><h2>Properties</h2>
+<div class="refsect2" lang="en">
+<a name="id2612065"></a><h3>
+<a name="XfceAboutDialog--copyright"></a>The "<code class="literal">copyright</code>" property</h3>
+<pre class="programlisting">  "copyright"            gchararray            : Read / Write</pre>
+<p>Program Copyright.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612096"></a><h3>
+<a name="XfceAboutDialog--description"></a>The "<code class="literal">description</code>" property</h3>
+<pre class="programlisting">  "description"          gchararray            : Read / Write</pre>
+<p>Program Description.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612126"></a><h3>
+<a name="XfceAboutDialog--homepage"></a>The "<code class="literal">homepage</code>" property</h3>
+<pre class="programlisting">  "homepage"             gchararray            : Read / Write</pre>
+<p>Program Homepage.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612156"></a><h3>
+<a name="XfceAboutDialog--icon"></a>The "<code class="literal">icon</code>" property</h3>
+<pre class="programlisting">  "icon"                 GdkPixbuf             : Read / Write</pre>
+<p>icon to use, if any.</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612183"></a><h3>
+<a name="XfceAboutDialog--license"></a>The "<code class="literal">license</code>" property</h3>
+<pre class="programlisting">  "license"              gchararray            : Read / Write</pre>
+<p>Program License.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612213"></a><h3>
+<a name="XfceAboutDialog--program"></a>The "<code class="literal">program</code>" property</h3>
+<pre class="programlisting">  "program"              gchararray            : Read / Write</pre>
+<p>Program Name.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2612243"></a><h3>
+<a name="XfceAboutDialog--version"></a>The "<code class="literal">version</code>" property</h3>
+<pre class="programlisting">  "version"              gchararray            : Read / Write</pre>
+<p>Program Version.</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="libxfcegui4-dialogs.html"><b>&lt;&lt;&#160;Dialogs</b></a></td>
+<td align="right"><a accesskey="n" href="XfceAppMenuItem.html"><b>XfceAppMenuItem&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>

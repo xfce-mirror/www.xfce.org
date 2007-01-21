@@ -50,7 +50,7 @@
 <a href="http://ftp.gwdg.de/pub/linux/suse/apt/SuSE/9.3-i386/RPMS.suser-ollakka/">http://ftp.gwdg.de/pub/linux/suse/apt/SuSE/9.3-i386/RPMS.suser-ollakka/</a> (apt4rpm)<br>
 </li>
 
-<li><b>Mandriva 2005LE : </b><a href="ftp://mandrivauser.de/rpm/andyrtr/2005/RPMS/">ftp://mandrivauser.de/rpm/andyrtr/2005/RPMS/</a> (<a href="ftp://mandrivauser.de/rpm/andyrtr/readme">Readme</a>)</li>
+<li><b>Mandriva: </b><a href="ftp://mandrivauser.de/rpm/GPL/">ftp://mandrivauser.de/rpm/GPL/</a></li>
 
 <!-- <li><b>Slackware 9.1 : </b>
 
@@ -95,6 +95,6 @@
 </li>
 
 <li><b>Alpha : </b> 
-<a href="ftp://kcnetwork.net/linux-related/desktop/xfce-4/xfce-4.0.6/rpm/">ftp://kcnetwork.net/linux-related/desktop/xfce-4/xfce-4.0.6/rpm/</a> (Xfce 4.0.6 for Alpha EV56 cpu or better)</li>
+<a href="ftp://southkc.net/linux-related/desktop/xfce-4/">ftp://southkc.net/linux-related/desktop/xfce-4/</a> (Xfce 4.2.3.2 and 4.0.6 for Alpha EV56 cpu or better)</li>
 
 

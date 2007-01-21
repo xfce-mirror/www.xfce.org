@@ -29,6 +29,8 @@
 	<a href="http://sourceforge.net"><img src="http://sourceforge.net/sflogo.php?group_id=19869&amp;type=5" width="105" height="31" border="0" alt="SourceForge.net Logo" /></a>&nbsp;&nbsp;&nbsp;
 
 	<a href="http://www.lunar-linux.org/"><img src="images/poweredbylunar.png" width="120" height="32" border="0" alt="lunar powered"></a>	&nbsp;&nbsp;&nbsp;
+
+	<a href="http://www.zenwalk.org/"><img src="images/zenwalk_big.jpg" width="120" height="32" border="0" alt="Zenwalk Linux"></a>	&nbsp;&nbsp;&nbsp;
 	
 	<a href="http://www.os-cillation.com/"><img src="images/os-cillation_button.png" width="124" height="32" border="0" alt="os-cillation"></a>	&nbsp;&nbsp;&nbsp;	
 

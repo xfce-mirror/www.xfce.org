@@ -2,6 +2,16 @@
 
 <h2>源代码：</h2>
 
+<h3>Xfce 4.4 preview versions :</h3>
+
+<p>Help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from one of the following sites :</p>
+
+		<ul class="submenu">
+		
+		<?php include "edit/4.4_download.php"; ?>
+		
+		</ul>
+
 <h3>Xfce 4的正式发布版本(稳定版)：</h3>
 
 <p>所有Xfce 的模块可以通过项目在SourceForge上的储藏处得到：从以下镜像站点得到：</p>

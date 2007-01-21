@@ -1,14 +1,14 @@
-<li><a href="http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=131509&release_id=371171">http://xfce.sourceforge.net</a></li>
-<li><a href="http://www.xfce.org/archive/xfce-4.2.3.2/">http://www.xfce.org/archive/xfce-4.2.3.2/</a></li>
-<li><a href="http://www.ca-us.xfce.org/archive/xfce-4.2.3.2/">http://www.ca-us.xfce.org/archive/xfce-4.2.3.2/</a></li>
-<li><a href="http://www.p0llux.be/xfce/xfce-4.2.3.2/">http://www.p0llux.be/xfce/xfce-4.2.3.2/</a></li>
-<!-- <li><a href="http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-4.2.3.2/">http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-4.2.3.2/</a></li> -->
-<li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-4.2.3.2/">http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-4.2.3.2/</a></li>
+<li><a href="http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=131509&release_id=478753">http://xfce.sourceforge.net</a></li>
+<li><a href="http://www.xfce.org/archive/xfce-4.2.4/">http://www.xfce.org/archive/xfce-4.2.4/</a></li>
+<li><a href="http://www.ca-us.xfce.org/archive/xfce-4.2.4/">http://www.ca-us.xfce.org/archive/xfce-4.2.4/</a></li>
+<li><a href="http://www.p0llux.be/xfce/xfce-4.2.4/">http://www.p0llux.be/xfce/xfce-4.2.4/</a></li>
+<!-- <li><a href="http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-4.2.4/">http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-4.2.4/</a></li> -->
+<li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-4.2.4/">http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-4.2.4/</a></li>
 <!-- <li><a href="http://www.xfce.org/images/">http://www.xfce.org/images/</a></li>  -->
-<!-- <li><a href="http://www.grimstveit.no/mirror/xfce/xfce-4.2.3.2/">http://www.grimstveit.no/mirror/xfce/xfce-4.2.3.2/</a></li> -->
+<!-- <li><a href="http://www.grimstveit.no/mirror/xfce/xfce-4.2.4/">http://www.grimstveit.no/mirror/xfce/xfce-4.2.4/</a></li> -->
 <!-- <li>You can download the <b>graphical installer</b> provided by os-cillation from <a href="http://xfce-installers.os-cillation.com/">here</a>.</li> -->
 
-<li>You can also download the <a href="http://www.xfce.org/archive/xfce-4.2.3.2/installers/">graphical installer from here</a>.</li>
+<li>You can also download the <a href="http://www.xfce.org/archive/xfce-4.2.4/installers/">graphical installer from here</a>.</li>
 
 <!-- <li><a href="http://xfce.org/various/torrents/"><strong>BitTorrent</strong></a></li> -->
 

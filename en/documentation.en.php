@@ -89,6 +89,10 @@ svn co http://svn.xfce.org/svn/xfce/<i>$modulename</i>/trunk <i>$modulename</i><
 
 </ul>
 
+<p>Note that the above list is a more-or-less complete list of all the
+software hosted in Xfce SVN.  Most modules are optional, and some may not
+be considered "core Xfce desktop components".</p>
+
 <h4>Building the modules</h4>
 
 <p>If you have downloaded the source tarballs, unpack them.</p>
@@ -99,11 +103,11 @@ Xfce 4 libraries, which is ${prefix}/lib/pkgconfig.  For example:</p>
 
 <table width="100%"><tbody><tr><td bgcolor="E0E0E0"><tt>export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig</tt><td></tr></tbody></table><br>
 
-<p>Building the modules should be a simple matter of typing :</p>
+<p>Building the modules should be a simple matter of typing:</p>
 
 <table width="100%"><tbody><tr><td bgcolor="E0E0E0"><tt>./configure &amp;&amp; make &amp;&amp; make install</tt></td></tr></tbody></table>
 
-<p>in the top directory of each module, in the following build order :</p>
+<p>in the top directory of each module, in the following build order:</p>
 
 <ol>
 <li>xfce4-dev-tools</li>
@@ -112,6 +116,24 @@ Xfce 4 libraries, which is ${prefix}/lib/pkgconfig.  For example:</p>
 <li>libxfce4mcs</li>
 <li>xfce-mcs-manager</li>
 <li>all other modules (you have to install xfce4 panel before compiling panel plugins).<br></li>
+</ol>
+
+<p>For the SVN version (which will become 4.4.0), you may wish to build in the
+following order to get all of the new features added over the development
+cycle.</p>
+
+
+<ol>
+<li>xfce4-dev-tools</li>
+<li>libxfce4util</li>
+<li>libxfcegui4</li>
+<li>libxfce4mcs</li>
+<li>xfce-mcs-manager</li>
+<li>libexo</li>
+<li>xfce4-panel</li>
+<li>thunar</li>
+<li>xfdesktop</li>
+<li>remaining modules in any order</li>
 </ol>
 
 <p>After installing a library you should run <tt>ldconfig</tt>. It may be

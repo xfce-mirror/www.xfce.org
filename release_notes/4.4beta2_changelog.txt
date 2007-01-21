@@ -1,0 +1,201 @@
+ChangeLog for Xfce 4.4 beta2 (4.3.90.2)
+=======================================
+
+This file includes an overview of the changes that went into Xfce between
+4.4 beta1 (4.3.90.1) and 4.4 beta2 (4.3.90.2). It is separated by component,
+and may not list all changes for a certain component. Check the ChangeLog
+and NEWS files for the various components to get a complete list of changes.
+
+
+Utility Library (libxfce4util)
+------------------------------
+
+ * Fix deletion of entries from XfceRc objects.
+ * Reduce the number of PLT symbols.
+ * Translatable license texts.
+ * Plug memory leaks.
+
+
+Widget Library (libxfcegui4)
+----------------------------
+
+ * Fix bug with desktop layout on x86_64.
+ * Fix bug in system tray with some apps (e.g. krusader, bug #1836).
+ * New titled dialog widget, to use for the settings dialogs.
+
+
+Extension Library (exo)
+-----------------------
+
+ * See the release notes at http://thunar.xfce.org/news.html.
+
+
+Settings Manager (xfce-mcs-manager)
+-----------------------------------
+
+ * Restart xfce-mcs-manager instead of trying to unload/reload plugins
+   when SIGUSR1 is received, to avoid possible crashes.
+ * Use the new XfceTitledDialog.
+
+
+Settings Manager Plugins (xfce-mcs-plugins)
+-------------------------------------------
+
+ * Keyboard Accessibility (sticky keys, slow keys, bound keys and mouse keys).
+ * Fix modifiers detection in shortcut editor.
+ * Use the new XfceTitledDialog.
+
+
+Window Manager (xfwm4)
+----------------------
+
+ * Get rid of libXpm dependency by implementing an XPM loader with color
+   symbol substitution.
+ * Add support for svg, png, bmp, gif, jpg file formats for themes
+   components.
+ * Embedded compositor can be enabled/disabled on the fly from the WM tweaks
+   plugin without restarting the WM.
+ * Transparency of inactive windows configurable through the WM tweaks
+   plugin.
+ * Automatically unredirect fullscreen override windows, fixing the
+   performance penalty of using unredirected rendering.
+ * Add host name to window title when running apps from other hosts.
+ * Rework default theme, add new themes (Moheli, Daloa).
+ * Clean up modifer code in shortcut editor.
+ * Lot of optimizations, including in the embedded compositor.
+ * Lot of bug fixes.
+
+
+Window Manager Themes (xfwm4-themes)
+------------------------------------
+
+ * Adjust various themes for the latest xfwm4 version.
+
+
+Desktop Manager (xfdesktop)
+---------------------------
+
+ * Filter out KDE screensaver files from the menu (bug #1928).
+ * Add a remote launcher to popup panel menu, triggered by a shortcut.
+ * Cleaned up xfce4-menueditor: Use XfceTitledDialog, fixed DnD, use
+   GObject classes
+ * Try to automatically mount unmounted removable volumes when they are openend.
+ * Fix crashes when removable volumes don't have mount points associated with
+   them.
+ * XDirectSave target support for the desktop.
+ * Add support for dropping web links from Firefox (and other browsers) on the
+   desktop.
+ * Add user feedback when a file already exists (i.e., a "do you want to
+   overwrite?" dialog) instead of just failing silently.
+ * Tell the session manager to log out if the user tries to "close" the desktop
+   window.
+ * Transparency for the icon label text background, configurable via GTK style
+   properties.
+ * Fix menu panel plugin menu positioning when using floating panels.
+ * Many desktop icon painting performance improvements.
+ * Use exo-desktop-item-edit to create and edit launchers and links.
+ * Don't show 'eject' menu item if a removable volume is not really ejectable.
+ * Attempt to create ~/Desktop/ if it does not exist (only if the user turns
+   on file/launcher icons).
+
+
+Panel (xfce4-panel)
+-------------------
+
+ * Set NET_WM_STRUT for compatibility with former specs.
+
+
+Utilities (xfce-utils)
+----------------------
+
+ * Set XDG_DATA_DIRS in startup script for people who install
+   Xfce in a different root location from gtk+ itself.
+
+
+Print Frontend (xfprint)
+------------------------
+
+ * Use GtkIconTheme instead of deprecated XfceIconTheme
+
+
+Session Manager (xfce4-session)
+-------------------------------
+
+ * Update dialogs to use the new XfceTitledDialog.
+ * Properly handle OnlyShowIn and NotShowIn in the autostart editor.
+ * Run discard command when client terminates unexpectedly.
+ * Use the new XfceTitledDialog.
+
+
+Terminal Emulator (Terminal)
+----------------------------
+
+ * A few performance improvements.
+ * Various usability improvements.
+
+
+File Manager (Thunar)
+---------------------
+
+ * See the release notes at http://thunar.xfce.org/news.html.
+
+
+Text Editor (mousepad)
+----------------------
+
+ * Fix segfault on file save on x86_64.
+ * Fix compilation errors.
+
+
+Archive Manager (xarchiver)
+---------------------------
+
+ * First release as part of Xfce.
+ * Integration with thunar-archive-plugin.
+ * Increased speed! Xarchiver is faster than ever when opening archives.
+ * Added Drag and Drop from and to Xarchiver window by
+   using the XDS protocol.
+ * Added the (in)famous cmd-line switches; see xarchiver -? for details.
+ * Added a Stop button who cancels the current operation or you can use the
+   ESC key.
+ * Added the ability to test archives.
+ * Added an archive properties window showing useful info about the archive
+   and its content.
+ * Added two menu entries in the Action menu to select or unselect the files
+   in the treeview.
+ * Added support for ISO images (opening, extract and view only).
+ * "Row selection while you type" ability. Useful when you have thousand of
+   files inside the archive.
+ * The extract dialog now "remembers" the last used extraction path.
+ * The extract dialog automatically sets the destination directory as the
+   archive path.
+ * The enter key can be also used with the extract dialog.
+ * You can use accelerators (keyboard shortcuts) for almost the menu entries.
+ * The Del key can also be used instead of the Delete button on the toolbar.
+ * Removed the confirmation dialog when opening bzip2 and gzip compressed files.
+ * Added a confirmation dialog when deleting files from the archive.
+ * Finally fixed bug randomly causing rar and arj output badly appears.
+ * Finally fixed bug randomly causing tar.bz2 and tar.gz archives to be
+   corrupted when deleting files from them.
+ * Fixed some memory leaks but surely someone is left  :) 
+ * Fixed bug causing filenames with spaces inside the archive not being viewed.
+ * Fixed bug causing filenames with spaces in arj archives appear truncated in
+   Xarchiver window.
+ * Fixed a bug preventing the file dialog to select more than one file when
+   adding to arj archives.
+ * Fixed progress bar not appearing when adding only one big file to an archive.
+ * Fixed a bug causing Xarchiver to hang when opening empty zip archives.
+ * Fixed a bug causing Xarchiver to exit when opening a not supported archive
+   directly from the command line.
+ * Fixed a bug preventing Xarchiver to compress files with bzip2 or gzip.
+
+
+GTK+ Theme Engine (gtk-xfce-engine)
+-----------------------------------
+
+ * Change color of active window title.
+
+
+
+Enjoy!
+Xfce devel team

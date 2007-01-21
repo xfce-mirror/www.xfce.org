@@ -2,6 +2,16 @@
 
 <h2>Quellcode:</h2>
 
+<h3>Xfce 4.4 preview versions :</h3>
+
+<p>Help us making Xfce 4.4 the best Xfce release ever, download it, try it, help us fixing it! Get it from one of the following sites :</p>
+
+		<ul class="submenu">
+		
+		<?php include "edit/4.4_download.php"; ?>
+		
+		</ul>
+
 <h3>Veröffentlichte Xfce 4 Versionen:</h3>
 
 <p>Alle Xfce Module sind in einem kompletten tar-Archiv direkt bei SourceForge erh&auml;ltlich. Die Module k&ouml;nnen Sie auch komplett <i>oder</i> einzeln von einem der folgenden Mirrors herunterladen:</p>

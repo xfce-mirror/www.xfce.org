@@ -1,0 +1,185 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Printer</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
+<link rel="start" href="index.html" title="libxfprint Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="ch01.html" title="API Reference">
+<link rel="next" href="libxfprint-Job.html" title="Job">
+<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfprint Reference Manual</th>
+<td><a accesskey="n" href="libxfprint-Job.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry" lang="en">
+<a name="libxfprint-Printer"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle">Printer</span></h2>
+<p>Printer &#8212; </p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfprint/libxfprint.h&gt;
+
+
+            <a href="libxfprint-Printer.html#Printer">Printer</a>;
+void        <a href="libxfprint-Printer.html#printer-free">printer_free</a>                    (<a href="libxfprint-Printer.html#Printer">Printer</a> *printer);
+void        <a href="libxfprint-Printer.html#printers-free">printers_free</a>                   (GList *printers);
+<a href="libxfprint-Printer.html#Printer">Printer</a>*    <a href="libxfprint-Printer.html#printer-lookup-byname">printer_lookup_byname</a>           (GList *list,
+                                             const gchar *name);
+<a href="libxfprint-Printer.html#Printer">Printer</a>*    <a href="libxfprint-Printer.html#printer-lookup-byalias">printer_lookup_byalias</a>          (GList *list,
+                                             const gchar *alias);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2549428"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2549437"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2549443"></a><h3>
+<a name="Printer"></a>Printer</h3>
+<a class="indexterm" name="id2549451"></a><pre class="programlisting">typedef struct {
+  gint type;
+  gchar *name;
+  gchar *alias;
+} Printer;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2549465"></a><h3>
+<a name="printer-free"></a>printer_free ()</h3>
+<a class="indexterm" name="id2549474"></a><pre class="programlisting">void        printer_free                    (<a href="libxfprint-Printer.html#Printer">Printer</a> *printer);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="parameter"><code>printer</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2549515"></a><h3>
+<a name="printers-free"></a>printers_free ()</h3>
+<a class="indexterm" name="id2549524"></a><pre class="programlisting">void        printers_free                   (GList *printers);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td>
+<span class="term"><em class="parameter"><code>printers</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2549565"></a><h3>
+<a name="printer-lookup-byname"></a>printer_lookup_byname ()</h3>
+<a class="indexterm" name="id2549574"></a><pre class="programlisting"><a href="libxfprint-Printer.html#Printer">Printer</a>*    printer_lookup_byname           (GList *list,
+                                             const gchar *name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>list</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2549644"></a><h3>
+<a name="printer-lookup-byalias"></a>printer_lookup_byalias ()</h3>
+<a class="indexterm" name="id2549653"></a><pre class="programlisting"><a href="libxfprint-Printer.html#Printer">Printer</a>*    printer_lookup_byalias          (GList *list,
+                                             const gchar *alias);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>list</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><em class="parameter"><code>alias</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
+<td align="left"><a accesskey="p" href="ch01.html"><b>&lt;&lt;&#160;API Reference</b></a></td>
+<td align="right"><a accesskey="n" href="libxfprint-Job.html"><b>Job&#160;&gt;&gt;</b></a></td>
+</tr></table>
+</body>
+</html>
