@@ -14,9 +14,7 @@ on the desktop. Now, with Xfce 4.4.0, this feature was finally added to the desk
 manager <b>Xfdesktop</b>.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-desktop-icons.png" alt="Desktop Icons" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-desktop-icons.png" alt="Desktop Icons" /></p>
 
 <p>
 The desktop manager utilizes <b>Thunar</b>'s libraries to handle application launchers
@@ -26,9 +24,7 @@ world. Of course, you can disable the desktop icons altogether if you prefer a c
 desktop.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-desktop-settings.png" alt="Desktop Settings" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-desktop-settings.png" alt="Desktop Settings" /></p>
 
 <p>
 <b>Xfdesktop</b> also continues to provide access to the applications menu, as it did in
@@ -43,9 +39,7 @@ The desktop icon support goes hand in hand with the new file manager <a href="ht
 which replaces the previous file manager <b>Xffm</b>.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-thunar.png" alt="Thunar File Manager" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-thunar.png" alt="Thunar File Manager" /></p>
 
 <p>
 
@@ -61,9 +55,7 @@ several advanced features. For example, a so-called <i>Bulk Renamer</i> is inclu
 users to rename multiple files at once using a certain criterion.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-thunar-bulk-rename.png" alt="Thunar Bulk Rename" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-thunar-bulk-rename.png" alt="Thunar Bulk Rename" /></p>
 
 
 <h2>Removable Drives and Media<a name="removable-drives-and-media"></a></h2>
@@ -74,9 +66,7 @@ drive or plug the new drive in to the computer and an icon representing the remo
 appear on the desktop and in <b>Thunar</b>'s side pane.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-removable-volumes.png" alt="Removable Volumes" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-removable-volumes.png" alt="Removable Volumes" /></p>
 
 <p>
 Click on the icon to automatically mount the volume. Right-click the icon to unmount the drive or eject
@@ -94,9 +84,7 @@ The new text editor <b>MousePad</b> is included with this release. <b>MousePad</
 editor functionality, nothing more, nothing less.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-mousepad.png" alt="MousePad" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-mousepad.png" alt="MousePad" /></p>
 
 <p>
 
@@ -112,36 +100,28 @@ usually in less than one second, even on older systems.
 <b>Xfwm4</b> continues to be the window manager of the hearts.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfwm4-argb32.png" alt="Xfwm4 ARGB32" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfwm4-argb32.png" alt="Xfwm4 ARGB32" /></p>
 
 <p>
 This release features an enhanced compositor, supporting transparent ARGB windows, shadows,
 window frame transparency and much more.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfwm4-switcher.png" alt="Xfwm4 Switcher" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfwm4-switcher.png" alt="Xfwm4 Switcher" /></p>
 
 <p>
 <b>Xfwm4</b> also includes a brand new application switcher, as shown in the screenshot above,
 which displays all windows from the current workspace with icons and window titles.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfwm4-themes.png" alt="Xfwm4 Themes" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfwm4-themes.png" alt="Xfwm4 Themes" /></p>
 
 <p>
 Further on support for multiple image formats for window decoration themes was added, including
 <tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfwm4-tweaks.png" alt="Xfwm4 Tweaks" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfwm4-tweaks.png" alt="Xfwm4 Tweaks" /></p>
 
 <p>
 Advanced controls for the window manager were also added, allowing thorough tweaking of window
@@ -158,9 +138,7 @@ supported <i>out of the box</i> now and can easily be configured using the new <
 Manager</b> shown in the screenshot below.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-panel-manager.png" alt="Panel Manager" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-panel-manager.png" alt="Panel Manager" /></p>
 
 <p>
 
@@ -169,18 +147,14 @@ in the same process as the panel, and hence every plugin was able to crash the w
 panel. To address this issue, support for external plugins was added to the panel.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-panel-additem.png" alt="Panel Add Item Dialog" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-panel-additem.png" alt="Panel Add Item Dialog" /></p>
 
 <p>
 Developers of panel plugins can now decide whether the plugin should run as external
 process or as part of the panel process, depending on the stability of the plugin.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-panel-iconbox.png" alt="Panel Icon Box Plugin" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-panel-iconbox.png" alt="Panel Icon Box Plugin" /></p>
 
 <p>
 
@@ -204,9 +178,7 @@ The new time management application <b>Orage</b> replaces the <b>Xfcalendar</b>,
 Xfce 4.2.0. <b>Orage</b> provides several features to efficiently manage your time.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-orage.png" alt="Orage" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-orage.png" alt="Orage" /></p>
 
 <p>
 While <b>Orage</b> is very lightweight and easy to use, it supports all the important features found in
@@ -224,9 +196,7 @@ While <b>Terminal</b> was already available during the 4.2 days, it was not matu
 that time to be part of the core. With this major release, it was moved into the core.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-terminal.png" alt="Terminal" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-terminal.png" alt="Terminal" /></p>
 
 <p>
 Besides the basic features which you expect from a terminal emulator, it includes some nice
@@ -246,18 +216,14 @@ recommended, support for <tt>CUPS</tt> 1.2 was added and it is now able to displ
 state with the <tt>CUPS</tt>-backend.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfprint.png" alt="Xfce Printing" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfprint.png" alt="Xfce Printing" /></p>
 
 <p>
 <b>Xfprint</b> also integrates with <b>MousePad</b> to provide generic printing support for
 different kinds of text documents using the <tt>a2ps</tt> converter.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-xfprint-dialog.png" alt="Xfce Print Dialog" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-xfprint-dialog.png" alt="Xfce Print Dialog" /></p>
 
 <p>
 As you can see the print dialog still looks relatively similar to that of Xfce 4.2, but the internal
@@ -276,9 +242,7 @@ Specification</a> - actually Xfce was the first desktop to implement said featur
 to release. ;-)
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-autostart.png" alt="Xfce Autostart Editor" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-autostart.png" alt="Xfce Autostart Editor" /></p>
 
 <p>
 The specification consists of two parts, the <i>Autostart of Applications During Startup</i>, which is
@@ -296,9 +260,7 @@ This release introduces new options to customize the desktop to your needs. Some
 dialogs were already shown in the sections above.
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-preferences-applications.png" alt="Preferred Applications" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-preferences-applications.png" alt="Preferred Applications" /></p>
 
 <p>
 
@@ -309,9 +271,7 @@ for a certain category (GNOME users may have already noticed that GNOME adopted 
 it is such simple).
 </p>
 
-<div class="image">
-	<img src="/images/about/tour/xfce44-preferences-keyboard.png" alt="Keyboard Shortcuts" />
-</div>
+<p align="center"><img src="/images/about/tour/xfce44-preferences-keyboard.png" alt="Keyboard Shortcuts" /></p>
 
 <p>
 And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number
