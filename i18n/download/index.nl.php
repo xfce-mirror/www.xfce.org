@@ -19,7 +19,6 @@
   <tr>
     <td><img src="../../images/download/debian.png" alt="Debian" width="40" height="40" /></td>
     <td><strong>Debian Testing / Unstable</strong><br />
-      <a href="http://os-cillation.de/index.php?id=23&amp;L=5" target="_blank">os-cillation.de</a><br />
       <a href="http://pkg-xfce.alioth.debian.org/" target="_blank">Debian Xfce Group</a></td>
   </tr>
   <tr>
