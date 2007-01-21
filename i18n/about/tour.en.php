@@ -193,13 +193,13 @@ and therefore compatible with other calendar applications.
 
 <p>
 While <b>Terminal</b> was already available during the 4.2 days, it was not mature enough at
-that time to be part of the core. With this major release, it was moved into the core.
+that time to be part of the core. With this major release, it was moved into the core desktop.
 </p>
 
 <p align="center"><img src="/images/about/tour/xfce44-terminal.png" alt="Terminal" /></p>
 
 <p>
-Besides the basic features which you expect from a terminal emulator, it includes some nice
+Besides the basic features which you might expect from a terminal emulator, it includes some nice
 additional features, like multiple tabs per window, customizable toolbars and the ability
 to configure nearly every aspect of the application via <i>hidden options</i>. As can be
 seen in the screenshot above, this release also supports real transparency using <b>Xfwm4</b>'s
@@ -211,9 +211,9 @@ integrated composition manager.
 
 <p>
 <b>Xfprint</b>, the Xfce printing management application, saw several small improvements with
-this release. The <tt>a2ps</tt> converter is not mandatory anymore, whilst still
-recommended. Support for <tt>CUPS</tt> 1.2 has been added and Xfprint is now able to display 
-the printer's state using the CUPS-backend.
+this release. First, the <tt>a2ps</tt> converter is not mandatory anymore, whilst still
+recommended. Support for <tt>CUPS</tt> 1.2 was added and <b>Xfprint</b> is now able to display the printer
+state with the <tt>CUPS</tt>-backend.
 </p>
 
 <p align="center"><img src="/images/about/tour/xfce44-xfprint.png" alt="Xfce Printing" /></p>
@@ -236,7 +236,6 @@ API to access the printer configuration.
 <h2>Autostart<a name="autostart"></a></h2>
 
 <p>
-
 Xfce 4.4.0 implements the new <a href="http://freedesktop.org/wiki/Standards_2fautostart_2dspec">Autostart
 Specification</a> - actually Xfce was the first desktop to implement said feature, but the others were faster
 to release. ;-)
@@ -274,17 +273,17 @@ it is such simple).
 <p align="center"><img src="/images/about/tour/xfce44-preferences-keyboard.png" alt="Keyboard Shortcuts" /></p>
 
 <p>
-And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number of 
-freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts. With 
-Xfce 4.4 this limitation is history and the application shortcuts are now separated from the window manager 
-shortcuts.
+And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number
+of freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts.
+With Xfce 4.4 this limitation is history and the application shortcuts are now separated from the window
+manager shortcuts.
 </p>
 
 
 <h2>Feedback<a name="feedback"></a></h2>
 
 <p>
-Please post comments on this article in my <a href="http://xfce-diary.blogspot.com/">blog</a> and use
+Please post comments on this article in my <a href="http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html">blog</a> and use
 the <a href="/community/lists">xfce</a> mailinglist if you have questions about Xfce 4.4.0 or
 trouble with the installation.
 </p>
@@ -296,3 +295,6 @@ trouble with the installation.
 <li><a href="http://www.xfce.org/">Xfce website</a></li>
 <li><a href="http://thunar.xfce.org/">Thunar website</a></li>
 </ul>
+
+<h2>Credits<a name="credits"></a></h2>
+<p>Written by Benedikt Meurer, 21 Jan 2007</p>
