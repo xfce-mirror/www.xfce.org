@@ -21,6 +21,7 @@
     <td><strong>Debian Testing / Unstable</strong><br />
       <a href="http://pkg-xfce.alioth.debian.org/" target="_blank">Debian Xfce Group</a></td>
   </tr>
+  <!--
   <tr>
     <td><img src="../../images/download/fedora.png" alt="Fedora" width="40" height="40" /></td>
     <td><strong>Redhat &amp; Fedora</strong><br />
@@ -28,6 +29,7 @@
     </a><a href="http://mocha.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">xfce.org</a> | <a href="http://www.us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">us.xfce.org</a> | <a href="http://www.ca-us.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">ca-us.xfce.org</a> | <a href="http://www.de.xfce.org/archive/xfce-<?php echo $version; ?>" target="_blank">de.xfce.org</a> <br />
     <a href="http://www.p0llux.be/xfce/xfce-<?php echo $version; ?>/installers/" target="_blank">p0llux.be</a></td>
   </tr>
+  -->
   <tr>
     <td><img src="../../images/download/suse.png" alt="Suse" width="40" height="40" /></td>
     <td><strong>openSUSE (SUSE Linux)</strong><br />
