@@ -16,7 +16,7 @@ function PrintArticle ($item, $date_format, $news_translated, $h)
       echo "<h$h id=\"m". $item["id"] ."\">". htmlentities ($title) ."</h$h>".
            "<p>".
            "<span class=\"grey\"><em>[". CreateDate ($item["date"], $date_format, true).
-             "by ". $item["author"] ."]</em></span>".
+             " by ". $item["author"] ."]</em></span>".
            "<br />".
              "". ParseBBCode (htmlentities ($content)).
            "</p>";

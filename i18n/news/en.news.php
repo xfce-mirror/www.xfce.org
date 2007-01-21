@@ -24,6 +24,22 @@ $news = array (
 */
     array (
         'id'      => 10,
+        'date'    => '21 jan 2007',
+        'author'  => 'Olivier Fourdan',
+        'title'   => 'Xfce 4.4.0 released',
+        'content' => 'After more than two years of development, Xfce 4.4.0 has just been released.'.
+                     '[br]'.
+                     'Xfce 4.4 features new tools such as the much awaited Thunar file '.
+                     'manager as well as several huge improvements of its core components.'.
+                     '[br][br]'.
+                     'A visual overview of Xfce 4.4 is available here:[br]'.
+                     '[link=/about/tour]http://www.xfce.org/about/tour[/link]'.
+                     '[br][br]'.
+                     'Download Xfce 4.4 from the new Xfce website:[br]'.
+                     '[link=/download]http://www.xfce.org/download[/link]',
+    ),    
+    array (
+        'id'      => 10,
         'date'    => '15 jan 2007',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.2.4 released',
