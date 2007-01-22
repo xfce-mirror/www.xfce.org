@@ -1,0 +1,606 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+  <title>Xfwm4 theme how-to</title>
+</head>
+<body>
+<div>
+<h1>Xfwm4 theme how-to</h1>
+<p style="text-align: justify;">Xfwm4, Xfce4's native window manager
+uses a simple yet flexible
+pixmap based theme engine using images in .xpm format. Xfwm4 also uses
+a text file for other configuration options (see themerc section).
+Further to this you can also make a theme pick up gtk theme colours
+which will be covered in the gtk color pickup section of the document.<br>
+</p>
+<div style="text-align: center;"><img alt="xfwm4 window"
+ src="xfwm4-window.gif" style="width: 317px; height: 160px;"><br>
+<span style="font-style: italic;">Figure 1 - A sample window</span><br>
+</div>
+<h2>Themes locations</h2>
+<div style="text-align: justify;">In Xfwm4 version 4.0, the themes are
+searched in the following directories:<br>
+</div>
+<ul style="text-align: justify;">
+  <li>User's home dir /.themes/xfwm4/theme_name (e.g.: "<span
+ style="font-family: monospace;">/home/joe/.themes/xfwm4/b5</span>")<br>
+  </li>
+  <li>System's shared data directory /xfwm4/theme_name (e.g.: "<span
+ style="font-family: monospace;">/usr/share/xfwm4/themes/b5</span>")</li>
+</ul>
+<div style="text-align: justify;">In Xfwm version 4.2, the theme
+location is in line with the standard, searched in the following
+directories:<br>
+</div>
+<ul style="text-align: justify;">
+  <li>User's home dir /.themes/theme_name/xfwm4 (e.g.: "<span
+ style="font-family: monospace;">/home/joe/.themes/b5/xfwm4</span>")</li>
+  <li>System's shared data directory /themes/theme_name/xfwm4 (e.g.: "<span
+ style="font-family: monospace;">/usr/share/themes/b5/xfwm4</span>")</li>
+</ul>
+<h2>Titlebar decorations</h2>
+<p style="text-align: justify;">As windows can be in either
+active(focused) or inactive(unfocused)
+states for which xfwm4 use pixmaps named accordingly e.g.
+title-1-active.xpm and title-1-inactive.xpm.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">For title bar decorations, xfwm4 uses 5
+pixmaps named
+<span style="font-family: monospace;">title-1-active.xpm</span> to <span
+ style="font-family: monospace;">title-5-active.xpm</span> with
+top-left-active.xpm and
+top-right-active.xpm making up the corners on each end as per figure 1
+below.</p>
+<div style="text-align: center;"><img alt="Pixmaps of a xfwm4 window"
+ src="xfwm4-window-pixmaps.gif"
+ style="width: 499px; height: 182px;"><span style="font-style: italic;"><br>
+Figure 2 - The
+pixmaps that compose the whole window</span><br>
+</div>
+<p style="text-align: justify;">The same naming convention is true for
+unfocused windows with the
+word inactive substituted.e.g. title-1-inactive.xpm</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Title text colour and shadow options,
+alignment etc are set in the
+<span style="font-family: monospace;">themerc</span> file (detailed in
+the themerc section).</p>
+<h2>Window Sidebars and bottom</h2>
+<p style="text-align: justify;">Each side of a window is made up
+of&nbsp; two pixmaps. The pixmaps
+on the left side are named <span style="font-family: monospace;">left-active.xpm</span>
+and <span style="font-family: monospace;">bottom-left-active.xpm</span>.
+with the right side (of course) being made up of <span
+ style="font-family: monospace;">right-active.xpm</span> and
+<span style="font-family: monospace;">bottom-right.active.xpm</span>. </p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">The Window bottom grab bar is made up
+of <span style="font-family: monospace;">bottom-active.xpm</span> and
+<span style="font-family: monospace;">bottom-inactive.xpm</span>
+pixmaps which will be repeated to fit as the window
+is
+resized.</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;"><span
+ style="text-decoration: underline; font-weight: bold;">N.B</span>
+These pixmaps also make up the mouse grab handles so keep that
+in mind when deciding how many pixels wide they should be (particularly
+the bottom-left and bottom right pixmaps which make up the main resize
+handles on the windows).</p>
+<h2>Xfwm4 Buttons</h2>
+<p style="text-align: justify;">Xfwm4 can use up to six action buttons
+- stick (sticky windows),
+menu, shade, hide, maximize and close. </p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Buttons have active (focused), inactive
+(unfocused) and pressed
+states. as per figures 3 below:</p>
+<div style="text-align: center;"><img
+ alt="AbiWord Image menu-active.gif"
+ src="menu-active.gif" height="30"
+ width="26">
+&nbsp;&nbsp;&nbsp;<img alt="AbiWord Image menu-inactive.gif"
+ src="menu-inactive.gif" height="30"
+ width="26">
+&nbsp; <img alt="AbiWord Image image_2.gif"
+ src="image_2.gif" height="30" width="25"><br>
+<span style="font-style: italic;">Figure 3 - Xfwm4
+button states</span></div>
+<p style="text-align: justify;">Xfwm4 can also used "toggled"&nbsp;
+buttons to indicated whether
+buttons are toggled on or off - figure 4.</p>
+<div style="text-align: center;"><img
+ alt="AbiWord Image stick-active.gif"
+ src="stick-active.gif" height="30"
+ width="26">
+&nbsp;&nbsp;<img alt="AbiWord Image stick-inactive.gif"
+ src="stick-inactive.gif" height="30"
+ width="26">
+&nbsp;&nbsp;<img alt="AbiWord Image stick-pressed.gif"
+ src="stick-pressed.gif" height="30"
+ width="26">
+&nbsp;&nbsp;&nbsp;&nbsp;<img
+ alt="AbiWord Image stick-toggled-active.gif"
+ src="stick-toggled-active.gif" height="30"
+ width="26">
+&nbsp;&nbsp;<img alt="AbiWord Image image_3.gif"
+ src="image_3.gif" height="30" width="25">
+&nbsp; <img alt="AbiWord Image stick-toggled-pressed.gif"
+ src="stick-toggled-pressed.gif"
+ height="30" width="26"><br>
+<div style="text-align: center; font-style: italic;">Figure 4 - Stick
+buttons with extra toggled buttons</div>
+</div>
+<h2>Themerc file</h2>
+<p style="text-align: justify;">To set features such as title text
+colors, "<span style="font-family: monospace;">button_spacing</span>"
+and
+"<span style="font-family: monospace;">button_offset</span>" etc. xfwm4
+uses an text file called "<span style="font-family: monospace;">themerc</span>"
+kept in the theme
+folder that contains the pixmaps.</p>
+<h3>Button layout</h3>
+<p style="text-align: justify;">It is also possible to "fix" button
+layouts for themes that use a
+particular button layout. - though it should be mentioned that forcing
+a special button layout or a title alignment in the theme, and thus
+reducing user's options, should be avoided (unless the theme really
+requires that, such as b5 theme mentioned below)</p>
+<table
+ style="background-color: rgb(204, 204, 204); margin-left: auto; margin-right: auto; text-align: left; font-family: monospace;"
+ border="0" cellpadding="10" cellspacing="1">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"># button_layout : <br>
+#&nbsp;&nbsp;&nbsp; O = Option menu <br>
+#&nbsp;&nbsp;&nbsp; T = Stick <br>
+#&nbsp;&nbsp;&nbsp; H = hide <br>
+#&nbsp;&nbsp;&nbsp; S = shade <br>
+#&nbsp;&nbsp;&nbsp; M = maximize <br>
+#&nbsp;&nbsp;&nbsp; C = close <br>
+#&nbsp;&nbsp;&nbsp; | = title <br>
+button_layout=OTS|HMC</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div style="text-align: justify;">A working example of this is the "B5"
+theme which only uses the
+close button. i.e. the entry "<span style="font-family: monospace;">button_layout=C|</span>"
+in the themerc file.<br>
+</div>
+<h3>Title width</h3>
+<div style="text-align: justify;">Another setting that needs to be set
+from the "<span style="font-family: monospace;">themerc</span>" file is
+the "<span style="font-family: monospace;">title_full_width</span>"
+parameter. This boolean value determines how the pixmap are arranged in
+the title bar.<br>
+<br>
+When set to "<span style="font-family: monospace;">true</span>", the
+center pixmap is repeated so that it fills the entire window width :<br>
+</div>
+<br>
+<div style="text-align: center;"><img alt="full title width on"
+ src="xfwm4-title-full-width.gif"
+ style="width: 299px; height: 21px;"><br>
+</div>
+<br>
+<div style="text-align: justify;">When set to "<span
+ style="font-family: monospace;">false</span>", the center pixmap is
+repeated&nbsp; just enough so that the title fits :<br>
+</div>
+<br>
+<div style="text-align: center;"><img
+ alt="title full width set to false"
+ src="xfwm4-title-no-full-width.gif"
+ style="width: 299px; height: 21px;"><br>
+<div style="text-align: left;">
+<div style="text-align: left;"><br>
+<h3>Text shadow</h3>
+<div style="text-align: justify;">A shadow can be added to the title
+text by setting the boolean value "<span style="font-family: monospace;">title_shadow_active</span>"
+for the focused window, and "<span style="font-family: monospace;">title_shadow_inactive</span>"
+for the other unfocused windows.<br>
+</div>
+<h3>Title offset</h3>
+<div style="text-align: justify;">The title text&nbsp; position can be
+adjusted to fit the theme design by using the offset values. The
+horizontal and vertical values can be adjusted by using the following
+settings:<br>
+</div>
+<ul style="text-align: justify;">
+  <li style="font-family: monospace;">title_horizontal_offset</li>
+  <li style="font-family: monospace;">title_vertical_offset_active</li>
+  <li style="font-family: monospace;">title_vertical_offset_inactive</li>
+</ul>
+<h3>Button offset and spacing</h3>
+<div style="text-align: justify;">Simlilarily, the buttons can be
+shifted horizontally by using the "<span style="font-family: monospace;">button
+offset</span>" setting. It's worth noting that the value is relative to
+the corresponding application window border, not the frame border.<br>
+<br>
+The "<span style="font-family: monospace;">button_spacing</span>" value
+gives the number of pixels between each button.<br>
+</div>
+</div>
+</div>
+</div>
+<h2>Gtk Color pickup</h2>
+<div style="text-align: justify;">As you have no doubt noticed when
+using Xfwm4's default theme it is
+possible to make themes "pick-up" gtk theme colours. It's not just
+running the gimp and draw the buttons. Most themes use a color symbol
+table. That means the xpm file must be opened and edited by hand.<br>
+</div>
+<br>
+The color symbols are as follow :
+<table style="width: 100%;" border="1" cellpadding="1" cellspacing="1">
+  <tbody>
+    <tr>
+      <td style="font-family: monospace;">active_text_color</td>
+      <td>Text color on title for active window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_text_color <br>
+      </td>
+      <td>Text color on title for inactive window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_border_color</td>
+      <td>Very rarely used usually set to black</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_border_color</td>
+      <td>Idem</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_color_1</td>
+      <td>Background color for active title</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_hilight_1</td>
+      <td>Lighter color for active title for 3D look</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_shadow_1</td>
+      <td>Darker color for active title for 3D look</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_mid_1</td>
+      <td> Slightly darker color for active title</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_color_2</td>
+      <td>Background color for active window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_hilight_2</td>
+      <td>Lighter color for active window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_shadow_2</td>
+      <td>Darker color for active window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">active_mid_2</td>
+      <td> Slightly darker color for active window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_color_1</td>
+      <td>Background color for inactive title</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_hilight_1</td>
+      <td>Lighter color for inactive title for 3D look</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_shadow_1</td>
+      <td>Darker color for inactive title for 3D look</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_mid_1</td>
+      <td>Slightly darker color for inactive title</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_color_2</td>
+      <td>ackground color for inactive window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_hilight_2</td>
+      <td>Lighter color for inactive window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_shadow_2</td>
+      <td>Darker color for inactive window</td>
+    </tr>
+    <tr>
+      <td style="font-family: monospace;">inactive_mid_2</td>
+      <td>Slightly darker color for inactive window</td>
+    </tr>
+  </tbody>
+</table>
+<p style="text-align: justify;">The symbols get replaced by the actual
+color values at runtime so
+that
+the window borders inherits GTK theme colors automatically.<br>
+</p>
+<div style="text-align: justify;">Xpm file format used natively by
+xfwm4 is no more than a plain text
+file that can be edited with your favorite text editor.<br>
+</div>
+<div id="bodyContent">
+<h3 id="siteSub">From Wikipedia, the free encyclopedia.</h3>
+<!-- <esi:include src="userxy/message"/> cached per user, purged on new message-->
+<!-- the content area is cached with the remaining inexpensive skeleton, one version for all.
+	    The edit links and right-click section stuff can be attached from js --><!-- start content -->
+<p style="text-align: justify;">XPM (X PixMap) is an <a
+ href="http://en.wikipedia.org/wiki/ASCII" title="ASCII">ASCII</a>
+image format used by the <a
+ href="http://en.wikipedia.org/wiki/X_Window_System"
+ title="X Window System">X Window System</a>. It was created in <a
+ href="http://en.wikipedia.org/wiki/1989" title="1989">1989</a> by <a
+ href="http://en.wikipedia.org/w/wiki.phtml?title=Daniel_Dardailler&amp;action=edit"
+ class="new" title="Daniel Dardailler">Daniel Dardailler</a> and <a
+ href="http://en.wikipedia.org/w/wiki.phtml?title=Colas_Nahaboo&amp;action=edit"
+ class="new" title="Colas Nahaboo">Colas Nahaboo</a> working in <a
+ href="http://en.wikipedia.org/w/wiki.phtml?title=Inria_Laboratories&amp;action=edit"
+ class="new" title="Inria Laboratories">Inria Laboratories</a>, <a
+ href="http://en.wikipedia.org/wiki/France" title="France">France</a>,
+and was later enhanced by <a
+ href="http://en.wikipedia.org/w/wiki.phtml?title=Arnaud_Le_Hors&amp;action=edit"
+ class="new" title="Arnaud Le Hors">Arnaud Le Hors</a>. It is intended
+primarily for creating <a href="http://en.wikipedia.org/wiki/Icon"
+ title="Icon">icons</a>, and supports transparent color. It has a
+simple structure, deriving from the earlier <a
+ href="http://en.wikipedia.org/w/wiki.phtml?title=XBM&amp;action=edit"
+ class="new" title="XBM">XBM</a> syntax. It can be created and
+manipulated using any <a
+ href="http://en.wikipedia.org/wiki/Text_editor" title="Text editor">text
+editor</a> and can be included in a <a
+ href="http://en.wikipedia.org/wiki/C_programming_language"
+ title="C programming language">C</a> language file.<br>
+</p>
+<div style="text-align: justify;"></div>
+<p style="text-align: justify;">Therefore, if you open an xpm file with
+your favorite text editor,
+you'll see something like this:<br>
+</p>
+<div style="text-align: justify;"></div>
+</div>
+<br>
+<table
+ style="width: 80%; background-color: rgb(204, 204, 204); margin-left: auto; margin-right: auto; text-align: left;"
+ border="0" cellpadding="10" cellspacing="1">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><span
+ style="font-family: monospace;">/* XPM */</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">static char *
+title_2_active_xpm[] = {</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"5 21 10 1",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c None",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #000000",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF s active_hilight_2",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"@&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #D5D6D5 s active_color_2",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #4B58A2 s active_shadow_1",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #525FAB s active_color_1",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #848FD6 s active_mid_1",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"&amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #B4BAB4 s active_mid_2",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #949594 s active_shadow_2",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">"=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF s active_hilight_1",</span><br style="font-family: monospace;">
+      <span style="font-family: monospace;">".....",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"++++#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@#",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@@",</span><br
+ style="font-family: monospace;">
+      <span style="font-family: monospace;">"@@@@@"};</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div style="text-align: justify;">Not going too deep into the details
+of the XPM format, an XPM image is
+made of different sections, the values that describe the format of the
+image, the colors that compose the image, the pixels (and there is also
+the extensions, but it's safe to ignore them for now)<br>
+<br>
+A character is assigned to each color of the image (if the image has
+more colors than available charaters, then more than a single character
+can be assiged to a colors).&nbsp; If a color symbol is specified, the
+given color will be ignored and replaced by the corresponding color in
+the&nbsp; color symbol table.<br>
+<br>
+To get the gtk colors applied to your theme, you need to edit the XPM
+files and add the proper color symbols to the color definition table.<br>
+</div>
+<br>
+<table style="margin-left: auto; margin-right: auto; text-align: left;"
+ border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle;">
+      <table
+ style="background-color: rgb(204, 204, 204); text-align: left;"
+ border="0" cellpadding="10" cellspacing="1">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top;"><span
+ style="font-family: monospace;">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c None",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #000000",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"@&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #D5D6D5",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #4B58A2",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #525FAB",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #848FD6",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"&amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #B4BAB4",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #949594",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;"></span></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+      <td style="text-align: center; vertical-align: middle;">&nbsp;&nbsp;must
+be
+changed to&nbsp;&nbsp;<br>
+      </td>
+      <td style="vertical-align: middle;">
+      <table style="text-align: left;" border="0" cellpadding="10"
+ cellspacing="1">
+        <tbody>
+          <tr>
+            <td
+ style="background-color: rgb(204, 204, 204); vertical-align: top;"><span
+ style="font-family: monospace;">"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c None",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #000000",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF s active_hilight_2",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"@&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #D5D6D5 s active_color_2",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #4B58A2 s active_shadow_1",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"$&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #525FAB s active_color_1",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #848FD6 s active_mid_1",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"&amp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #B4BAB4 s active_mid_2",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #949594 s active_shadow_2",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;">"=&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+c #FFFFFF s active_hilight_1",</span><br style="font-family: monospace;">
+            <span style="font-family: monospace;"></span></td>
+          </tr>
+        </tbody>
+      </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div style="text-align: justify;">As a matter of fact, "thinking" of
+the gtk colors as early as drawing
+the theme can save a lot of time in this phase. If you use the exact
+same color across all the pixmaps, you can use the Search/Replace
+functionnality of the text editor to add the color symbols. You could
+even use a tool such as "sed" to perform mass changes in all the XPM
+files of the theme.<br>
+</div>
+<h2>Xfwm 4.2 new functionality</h2>
+<div style="text-align: justify;">As simple as it is, the color symbol
+replacement table of the XPM
+format is not powerfull enough to achive the nice color gradients seen
+in most recent themes. <br>
+<br>
+Xfwm 4.2 includes yet another functionality that gives real nice result
+while being still compatible with the previous theme format: It
+composes the final image from the XPM file and it colors
+replacement table, and another PNG file with transparency, if present.<br>
+</div>
+<br>
+<div style="text-align: center;"><img alt="xfwm 4.2 compose image"
+ src="xfwm4-compose.gif" style="width: 364px; height: 408px;"><br>
+<span style="font-style: italic;">Figure 5 - PNG transparent images get
+layered on top of the XPM image</span><br>
+</div>
+<br>
+<div style="text-align: justify;">The names of the PNG files are
+identical to the names of the
+corresponding XPM files, with the ".png" file extension (ie
+title-1-active.png, top-right-inactive.png, etc.). The PNG file is by
+no mean required, if it's
+not present, xfwm4 won't complain, but if there is a PNG image of the
+same name as the XPM image, and if that PNG has an alpha channel (ie,
+it has semi-transparent pixels) then the PNG image will be
+automatically layered on top of the XPM image to produce the final
+image.<br>
+<br>
+This technique has several advantages:<br>
+</div>
+<ul>
+  <li style="text-align: justify;">It's fairly simple from a theme
+designer point of view, most
+people are working with similar techniques when compising themes with
+tools such as <a href="http://www.gimp.org">The GIMP</a>.</li>
+  <li style="text-align: justify;">It's backward compatible with xfwm4
+from Xfce 4.0, the PNG files
+are just ignored by xfwm4 4.0.</li>
+</ul>
+<h2>Conclusion</h2>
+<div style="text-align: justify;">I hope this small "how-to" for
+creating themes for xfwm4 will help you
+design your own themes. It would be great if you could share your
+themes with others on <a href="http://www.themedepot.org">www.themedepot.org</a>
+(which is the prefered site for xfce related themes) or from <a
+ href="http://themes.freshmeat.net">themes.freshmeat.net</a>.<br>
+</div>
+<hr style="width: 100%; height: 2px;">
+<div style="text-align: justify;"><font size="-1"><span
+ style="font-weight: bold; font-style: italic;">This how-to has been
+started by Drewbian (</span><span
+ style="font-weight: bold; font-style: italic;">drewbian at tsn dot cc</span><span
+ style="font-weight: bold; font-style: italic;">) and later modifed by
+Olivier Fourdan (fourdan at xfce dot org).</span></font></div>
+</div>
+</body>
+</html>

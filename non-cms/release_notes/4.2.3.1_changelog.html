@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head><a href="http://bugzilla.xfce.org/show_bug.cgi?id=759"><a href="http://bugzilla.xfce.org/show_bug.cgi?id=">#
+  <title>Xfce 4.2.3.1 changelog</title>
+  <link href="../common/feuille.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="../favicon.ico">
+</head>
+<body style="margin: 0pt; color: rgb(21, 67, 116); font-family: arial,helvetica,sans-serif;" bgcolor="#ffffff">
+<table align="center" cellpadding="0" cellspacing="0" width="100%">
+  <tbody>
+    <tr bgcolor="#154374">
+      <td colspan="1" style="color: white; font-size: 10px;" align="right" height="25" valign="middle"> &nbsp; </td>
+    </tr>
+    <tr>
+      <td colspan="1" style="font-size: 10px;" align="center" height="75" valign="middle">
+      <h2>List of changes between Xfce 4.2.2 and 4.2.3.1</h2>
+      </td>
+    </tr>
+    <tr bgcolor="#99a9c0">
+      <td colspan="1" style="color: white; font-size: 10px;" align="right" height="25" valign="middle"> &nbsp; </td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="1" style="padding: 20px 15px; color: rgb(21, 67, 116); font-size: 12px; text-align: justify;" align="left" bgcolor="#ffffff" height="0" valign="top" width="80%"> <br>
+      <br>
+General:<br>
+      <ul class="submenu">
+        <li>New languages (in ISO 639 language code order): Afrikaans (af), Armenian (hy), Slovenian (sl).</li>
+        <li>New documentation: Hebrew (he).</li>
+        <li>Updated languages (in ISO 639 language code order): Belorussian (be), Catalan (ca), German (de), Greek (el), Esperanto (eo), Basque (eu), Finnish (fi), Hebrew (he), Hungarian (hu), Italian (it), Japanese (ja), Korean (ko), Lithuanian (lt), Dutch (nl), Polish (pl), Brazilian Portuguese (pt_BR), Romanian (ro), Swedish (sv), Traditional Chinese (zh_TW).</li>
+      </ul>
+
+appfinder:<br>
+      <ul class="submenu">
+        <li>Corrected a misspelling (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1164">#1164</a>).</li>
+      </ul>
+
+libxfcegui4:<br>
+      <ul class="submenu">
+        <li>Add gui-enum-types to make pyxfce enums work nicer.</li>
+        <li>Fix leak in xfce icon theme (opendir handle not closed sometimes, using up all available file descriptors for the process).</li>
+        <li>Make apps startup on correct workspace.</li>
+        <li>Properly run command with arguments in terminal.</li>
+        <li>Make dialog windows appears on the correct screen.</li>
+        <li>Memory leak fix.</li>
+        <li>Ellipsize text in taskbar buttons with gtk+ 2.6 and later (required for gtk+ 2.8, fixes bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1099">#1099</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1124">#1124</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1131">#1131</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1210">#1210</a>).</li>
+        <li>Fix file descriptor leak in xfceicontheme (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1082">#1082</a>).</li>
+      </ul>
+
+panel:<br>
+      <ul class="submenu">
+        <li>Remove button insensitivity after click, since it doesn't play well with newer gtk+.</li>
+      </ul>
+
+utils:<br>
+      <ul class="submenu">
+        <li>Don't crash if the MCS plugin is unable to store the settings, a warning telling whats wrong will be emitted by libxfce4util (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1033">#1033</a>).</li>
+      </ul>
+
+xfdesktop:<br>
+      <ul class="submenu">
+        <li>menueditor: allow right clicking on separators to delete them (fix <a href="http://bugzilla.xfce.org/show_bug.cgi?id=989">#989</a>).</li>
+        <li>backdrop: if the currently-active backdrop is removed from the backdrop  list, reload a new backdrop after saving the new list (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=929">#929</a>).</li>
+        <li>backdrop: fix problem where systemwide mcs_settings/desktop.xml isn't used (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1108">#1108</a>).</li>
+      </ul>
+     
+xffm:<br>
+      <ul class="submenu">
+        <li>Fix the ownership problem with smbfs mounts.</li>
+        <li>Fix a bug with the remember command remembering full path and not  file extension.</li>
+        <li>Fix visual confirmation of permissions changes on files (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1061">#1061</a>).</li>
+        <li>Fix compilation error when configured with --disable-smb (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1053">#1053</a>).</li>
+        <li>Fix for the debian smb mount problem (wasn't really debian but all linux versions).</li>
+      </ul>
+
+xfprint:<br>
+      <ul class="submenu">
+        <li>Get the cups server from the cups config (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=918">#918</a>).</li>
+        <li>Add support for CUPS instances (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1096">#1096</a>).</li>
+      </ul>
+
+xfwm4:<br>
+      <ul class="submenu">
+        <li>Fix frame corners not being properly updated in some case.</li>
+        <li>Fix startup notification properties not being applied.</li>
+        <li>Fix theme list not being updated (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1024">#1024</a>).</li>
+        <li>Don't unset the maximize flag unless the actual window size has changed (fix bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1129">#1129</a>).</li>
+        <li>Don't follow NET_CURRENT_DESKTOP event if specified value is out of range. This fixes issues with KDE systray apps (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1140">#1140</a>).</li>
+        <li>Be smarter when showing/hiding sidewalk windows, that greatly improves panel autohide feature.</li>
+        <li>Check for version 0.2 instead of 1.0 for xcomposite extension as suggested by bcowan@gentoo.org (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1177">#1177</a>).</li>
+        <li>Backport compositor fix from SVN trunk.</li>
+        <li>Check if the requested workspace is within the current limits before switching.</li>
+        <li>Make the WM more permissive with above/below states for transients, fixes issues with a few KDE apps (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=1207">#1207</a>).</li>
+      </ul>
+      </td>
+    </tr>
+    <tr bgcolor="#154374">
+      <td colspan="1" style="color: white; font-size: 10px;" align="right" height="25" valign="middle"> &nbsp; </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>
