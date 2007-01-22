@@ -54,7 +54,7 @@ if ($_GET["feed"] == "rss2")
 }
 
 /* get relative url */
-$uri = $_SERVER["REQUEST_URI"];
+$uri = $_SERVER["REDIRECT_URL"];
 $uri = trim ($uri, '/');
 $uri = strtolower ($uri);
 
