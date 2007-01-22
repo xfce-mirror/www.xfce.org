@@ -20,7 +20,7 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" alt="feed" title="S'inscrire au 'Nouvelles Xfce'..." width="12" height="12" border="0" align="right" /></a>Latest News</h2>
+			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" alt="feed" title="S'inscrire au 'Nouvelles Xfce'..." width="12" height="12" border="0" align="right" /></a>Dernière nouvelles</h2>
 			<?php
 				echo $frontpage["news"];
 			?>
@@ -32,7 +32,7 @@
 	<div id="front-projects">
 		<div id="front-borders">
 			<div id="front-projects-content">
-				<h2>Xfce projects</h2>
+				<h2>Projets Xfce</h2>
 				<ul>
 					<li>
 						<a href="/projects/thunar/">Thunar</a>
