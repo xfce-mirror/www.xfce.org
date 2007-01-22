@@ -68,7 +68,7 @@
 						<li><a href="/projects/" title="Projets">Projets</a></li>
 						<li><a href="/download/" title="Télécharger">Télécharger</a></li>
 						<li><a href="/documentation/" title="Documentation">Documentation</a></li>
-						<li><a href="/community/" title="Comunauté">Comunauté</a></li>
+						<li><a href="/community/" title="Communauté">Communauté</a></li>
 						<li><a href="/development/" title="Développement">Développement</a></li>
 					</ul>
 				</div>
