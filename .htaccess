@@ -5,7 +5,8 @@
 	RewriteRule ^(gtkmenu-shadow|release_notes|various|xfce_42_info|xfwm4-theme-howto)(.*)$ /non-cms/$1$2 [L]
 
 	RewriteCond %{REQUEST_URI} !/archive/
-	RewriteCond %{REQUEST_URI} !/documentation/
+	RewriteCond %{REQUEST_URI} !/documentation/4.[24]/api
+	RewriteCond %{REQUEST_URI] !/documentation/installers
 	RewriteCond %{REQUEST_URI} !/non-cms/
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME}index.html !-f
