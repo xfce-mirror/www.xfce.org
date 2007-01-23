@@ -186,8 +186,8 @@ function at(){
         <td bgcolor="#eeeeee">Metin Amiroff [metin<?php at(); ?>karegen.com]</td>
     </tr>
     <tr>
-        <td>Breton [be]</td>
-        <td>Ales Nyakhaychyk [nab<?php at(); ?>mail.by]</td>
+        <td>Wit-rusland [be]</td>
+        <td>Alexander Nyakhaychyk [nab<?php at(); ?>mail.by]</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Bulgarian [bg]</td>
