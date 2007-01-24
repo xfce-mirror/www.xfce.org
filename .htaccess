@@ -1,28 +1,26 @@
-<IfModule mod_rewrite.c>
-	RewriteEngine On
-	RewriteBase /
+RewriteEngine On
+RewriteBase /
 
-	# redirect homepages to foo-projects.org/~user
-	RewriteRule ^(~.*)$ http://foo-projects.org/$1 [R,L]
+# redirect to blog site
+Redirect 301 /blog/ http://blog.xfce.org/
+Redirect 301 /blog http://blog.xfce.org/
 
-	# redirect stuff from the old site not in the CMS
-	RewriteRule ^(gtkmenu-shadow|release_notes|various|xfce_42_info|xfwm4-theme-howto)(.*)$ /non-cms/$1$2 [L]
+# redirect homepages to foo-projects.org/~user
+RewriteRule ^(~.*)$ http://foo-projects.org/$1 [R,L]
 
-	RewriteCond %{REQUEST_URI} !/archive/
-	RewriteCond %{REQUEST_URI} !/documentation/4.[24]/api
-	RewriteCond %{REQUEST_URI] !/documentation/installers
-	RewriteCond %{REQUEST_URI} !/non-cms/
-	RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME}index.html !-f
+# redirect stuff from the old site not in the CMS
+RewriteRule ^(gtkmenu-shadow|release_notes|various|xfce_42_info|xfwm4-theme-howto)(.*)$ /non-cms/$1$2 [L]
 
-	RewriteRule ^(.*)$ index.php
-</IfModule>
-<IfModule mod_alias.c>
-	# API Dedirect Rules
-	RedirectMatch documentation/4.2/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
-	RedirectMatch documentation/4.4/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
+# catch CMS-generated pages to index.php
+RewriteCond %{REQUEST_URI} !/archive/
+RewriteCond %{REQUEST_URI} !/documentation/4.[24]/api
+RewriteCond %{REQUEST_URI] !/documentation/installers
+RewriteCond %{REQUEST_URI} !/non-cms/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}index.html !-f
+RewriteRule ^(.*)$ index.php
 
-	# redirect to new blog site
-	Redirect 301 /blog/ http://blog.xfce.org/
-	Redirect 301 /blog http://blog.xfce.org/
-</IfModule>
+# API Dedirect Rules
+RedirectMatch documentation/4.2/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
+RedirectMatch documentation/4.4/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
+
