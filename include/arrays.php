@@ -12,7 +12,7 @@ $languages = array (
         "eu" => array ('Basque', 'UTF-8', 'eu'),
         "fr" => array ('Français', 'UTF-8', 'fr_FR.utf8'),
 /*      "it" => array ('Italiano', 'UTF-8', 'it'), */
-        "ja" => array ('Nihon', 'UTF-8', 'ja'),
+        "ja" => array ('Nihon', 'UTF-8', 'ja_JA.utf8'),
         "nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
         "sq" => array ('Shqip', 'UTF-8', 'sq_SQ'),
 );
