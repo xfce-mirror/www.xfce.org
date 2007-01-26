@@ -30,7 +30,7 @@
 </p>
 <h3>Kampione të përditshëm zhvillimi</h3>
 <p>Nëse s'doni të provoni rregullisht versionin në zhvillim e sipër të Xfce-së ose nuk keni përvojë
- me marrjen e burimit përmes SVN-së, mund të shkarkoni kampione të përditshëm zhvillimi prej <a href="http://foo-projects.org/~pollux/xfce-snapshots/" target="_blank">këtej</a>.</p>
+ me marrjen e burimit përmes SVN-së, mund të shkarkoni kampione të përditshëm zhvillimi prej <a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">këtej</a>.</p>
 
 <h2>Formim modulesh</h2>
 <p>nëse keni shkarkuar një version burim të ngjeshur, lypset ta çpaketoni para se të vazhdoni.</p>

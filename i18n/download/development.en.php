@@ -17,7 +17,7 @@
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code></p>
 <div class="tip">To synchronize your local copy (checkout) of the release or development tree with the one on the server you can run <code>svn update</code> instead of <code>svn checkout</code>. This will speed up the process and minimize the Xfce server transfer</div>
 <h3>Daily development snapshots</h3>
-<p>If you don't want to test the development version of Xfce on regular bases or you have no experience with building source from SVN, you can download the daily development snapshots <a href="http://foo-projects.org/~pollux/xfce-snapshots/" target="_blank">here</a>.</p>
+<p>If you don't want to test the development version of Xfce on regular bases or you have no experience with building source from SVN, you can download the daily development snapshots <a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">here</a>.</p>
 <h2>Building the modules</h2>
 <p>If you have downloaded the  tarballs, you need to unpack them first before continuing.</p>
 <p>If you install into a different prefix from pkg-config, you have to set the  PKG_CONFIG_PATH variable to include the path to the *.pc files installed by the  Xfce 4 libraries, which is ${prefix}/lib/pkgconfig.  For example:</p>
