@@ -22,7 +22,7 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
-    10 => array (
+    11 => array (
         'title'   => 'Sortie de Xfce 4.4.0',
         'content' => 'Après plus de deux années de développement, Xfce 4.4.0 vient juste de sortir.'.
                      '[br]'.
