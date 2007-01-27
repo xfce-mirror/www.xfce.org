@@ -22,9 +22,7 @@ $news = array (
         'content' => '<stuff you want to say>',
     ),
 */
-    2 => array (
-        'date'    => '21 jan 2007',
-        'author'  => 'Olivier Fourdan',
+    9 => array (
         'title'   => 'Sortie de Xfce 4.4.0',
         'content' => 'Après plus de deux années de développement, Xfce 4.4.0 vient juste de sortir.'.
                      '[br]'.
@@ -36,9 +34,7 @@ $news = array (
                      'Téléchargez Xfce 4.4 à partir le la section téléchargement :[br]'.
                      '[link=/download]http://www.xfce.org/download[/link]',
     ),    
-    1 => array (
-        'date'    => '15 jan 2007',
-        'author'  => 'Olivier Fourdan',
+    8 => array (
         'title'   => 'Sortie de Xfce 4.2.4',
         'content' => 'Une nouvelle version corrigée de Xfce 4.2 est disponible. Cette version est probablement la dernière pour la famille de Xfce 4.2. elle contient plusieurs correctifs de bogues portés de la version en développement.[br]'.
                      'Cette version ne doit pas être confondue avec la prochaine sortie de la version 4.4 de Xfce, c\'est une version corrigée de la dernière version stable de la famille Xfce 4.2. Téléchargez Xfce 4.4 à partir le la section téléchargement :[br]'.
