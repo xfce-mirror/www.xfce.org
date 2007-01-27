@@ -12,7 +12,7 @@
 $date_format = "%e %B %Y";
 $posted_by = "Posté par";
 
-$news = array (
+$news_translated = array (
 /*
     array (
         'id'      => <previous id number + 1>
