@@ -23,7 +23,7 @@ $news = array (
     ),
 */
     array (
-        'id'      => 10,
+        'id'      => 2,
         'date'    => '21 jan 2007',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Sortie de Xfce 4.4.0',
@@ -38,7 +38,7 @@ $news = array (
                      '[link=/download]http://www.xfce.org/download[/link]',
     ),    
     array (
-        'id'      => 10,
+        'id'      => 1,
         'date'    => '15 jan 2007',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Sortie de Xfce 4.2.4',
