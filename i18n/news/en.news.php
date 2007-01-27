@@ -23,7 +23,7 @@ $news = array (
     ),
 */
     array (
-        'id'      => 10,
+        'id'      => 11,
         'date'    => '21 jan 2007',
         'author'  => 'Olivier Fourdan',
         'title'   => 'Xfce 4.4.0 released',
