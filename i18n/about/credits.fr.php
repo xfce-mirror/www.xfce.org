@@ -139,7 +139,7 @@ function at(){
         <td>Tobias Henle [tobias<?php at(); ?>page23.de]</td>
     </tr>
     <tr>
-        <td bgcolor="#eeeeee">Xavier Maillard [zedek<?php at(); ?>fxgsproject.org]</td>
+        <td bgcolor="#eeeeee">Xavier Maillard [zedek<?php at(); ?>gnu.org]</td>
         <td bgcolor="#eeeeee">&nbsp;</td>
     </tr>
 </table>
