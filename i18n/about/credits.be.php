@@ -1,5 +1,7 @@
 <?php
-    $top=true;
+function at(){
+  echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
+}
 ?>
 <h1>Падзякі</h1>
 <p></p>
