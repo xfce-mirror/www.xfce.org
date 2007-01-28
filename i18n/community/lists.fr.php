@@ -1,4 +1,4 @@
-<h1>Listes de distribution</h1>
+<h1>Listes de diffusion</h1>
 <p><strong>NOTE:</strong> Il est obligatoire de s'inscrire avant de pouvoir poster sur la liste. </p>
 
 <table width="99%" cellpadding="2">
