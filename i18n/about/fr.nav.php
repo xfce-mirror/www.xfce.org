@@ -11,7 +11,7 @@
 	<li><a href="/about/credits">Crédits</a>
 		<ul>
 			<li><a href="/about/credits#lead">Direction du projet</a></li>
-			<li><a href="/about/credits#core">développeurs principaux</a></li>
+			<li><a href="/about/credits#core">Développeurs principaux</a></li>
 			<li><a href="/about/credits#server">Maintenance des serveurs</a></li>
 			<li><a href="/about/credits#contributors">Contributeurs</a></li>
 			<li><a href="/about/credits#goodies">Goodies</a></li>
