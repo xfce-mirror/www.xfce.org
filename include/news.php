@@ -13,12 +13,15 @@ function PrintArticle ($item, $date_format, $news_translated, $h)
           $content = $item["content"];
       }
 
-      echo "<h$h id=\"m". $item["id"] ."\">". htmlentities ($title) ."</h$h>".
+      $title = htmlentities ($title, ENT_COMPAT, "UTF-8");
+      $content = htmlentities ($content, ENT_COMPAT, "UTF-8");
+
+      echo "<h$h id=\"m". $item["id"] ."\">". $title ."</h$h>".
            "<p>".
            "<span class=\"grey\"><em>[". CreateDate ($item["date"], $date_format, true).
              " by ". $item["author"] ."]</em></span>".
            "<br />".
-             "". ParseBBCode (htmlentities ($content)).
+             "". ParseBBCode ($content).
            "</p>";
 }
 
