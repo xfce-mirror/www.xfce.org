@@ -27,7 +27,7 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="/documentation/faq">FAQ</a></h2>
+      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
       <p>Pyetjet e bëra shpesh rreth Xfce-së mund t'i gjeni te <a href="http://wiki.xfce.org/faq" target="_blank">Xfce wiki</a>.</p>
       <h2><a href="/documentation/requirements">Sistem i Nevojshëm</a></h2>
           <p>Listë e hollësisshme për tërë <a href="/documentation/requirements">varësitëdependencies</a> e Xfce-së.</p>

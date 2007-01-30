@@ -27,7 +27,7 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="/documentation/faq">FAQs</a></h2>
+      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQs</a></h2>
       <p>You can find the Xfce frequently asked questions in the <a href="http://wiki.xfce.org/faq" target="_blank">Xfce wiki</a>.</p>
       <h2><a href="/documentation/requirements">Requirements</a></h2>
           <p>A detailed list of all Xfce <a href="/documentation/requirements">dependencies</a>.</p>
