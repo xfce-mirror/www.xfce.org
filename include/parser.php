@@ -257,6 +257,8 @@ function CreateFeed ($timeout=3600)
       /* oe, that's nice, there is still an up2date feed cache,
        * we only need to include it :-) */
       include ($file);
+
+      echo "\n\n<!-- from cache -->\n\n";
     }
 
   return $feed;
