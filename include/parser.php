@@ -25,7 +25,7 @@
  **/
 function DownloadFeed ($server="blog.xfce.org", $get="/?feed=rss2", $port=80, $timeout=5)
 {
-  $sock = fsockopen ("tcp://".$server, $port, $errno, $errstr, $timeout);
+  $sock = @fsockopen ("tcp://".$server, $port, $errno, $errstr, $timeout);
 
   if (!$sock)
     {
@@ -258,7 +258,8 @@ function CreateFeed ($timeout=3600)
        * we only need to include it :-) */
       include ($file);
 
-      echo "\n\n<!-- from cache -->\n\n";
+      /* echo some usefull info */
+      echo "<!-- Feed is loaded from cache -->\n";
     }
 
   return $feed;
