@@ -2,6 +2,18 @@
 <p>Hemen Xfce lehenetsiriko idazmahai bezala erabiltzen duten
 banaketen zerrenda bat.</p>
 
+<h2>SAM Linux Desktop</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
+		<td>SAM Linux Desktop is a self-booting live CD containing a full linux desktop OS. You don´t have to install it on your harddisk, it runs completely from your cd drive and your RAM.</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website">Website</a> | <a href="http://distrowatch.com/sam" target="_blank" title="Visit the Sam Linux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
 <h2>Xubuntu</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
@@ -19,7 +31,7 @@ website">Webgunea</a> | <a href="http://distrowatch.com/xubuntu" target="_blank"
 	</tr>
 </table>
 
-<h2> Xfld</h2>
+<h2>Xfld</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xfld website"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
