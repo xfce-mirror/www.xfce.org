@@ -1,5 +1,34 @@
-body {margin:10px 20px;padding:0;cursor:default;color:#000;background:#fff;font:80% arial,verdana,sans-serif}
-div {margin:0;padding:0}
-* html body {font:80% arial,verdana,sans-serif}
-:link,:visited,:link:active,:link:active {color:#154374;text-decoration:underline}
-:link:hover,:visited:hover {color:#f00;text-decoration:underline}
+/* $Id: global.css 671 2007-01-30 19:51:15Z nick $ */
+/* -
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ * Note: This stylesheet is also used for the Xfce Bugzilla
+ */
+
+/* global */
+body {
+  margin: 10px 20px 10px 20px;
+  padding: 0;
+  cursor: default;
+  color: #000;
+  background: #fff;
+  font: 80% arial, verdana, sans-serif;
+}
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* internet explorer fixes */
+* html body {
+  font: 80% arial, verdana, sans-serif;
+}
+
+/* link styles */
+:link, :visited, :link:active, :link:active {
+  color: #154374;
+  text-decoration: underline;
+}
+:link:hover, :visited:hover {
+  color: #f00;
+  text-decoration: underline;
+}

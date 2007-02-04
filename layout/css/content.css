@@ -1,24 +1,126 @@
-#content-text p {margin:0.5em 0 1em;line-height:1.5em}
-#content-text hr,#content-menu hr {height:1px;color:#d4d4d4;border:0;margin:.2em 0;background:#d4d4d4}
-#content-text ul {list-style-image:url(/layout/images/bullit.gif)}
-#content-text li {margin-bottom:.1em}
-dt {font-weight:bold;margin-bottom:.1em}
-dl {margin-top:.2em;margin-bottom:.5em}
-dd {line-height:1.5em;margin-left:2em;margin-bottom:.1em}
-#content-right {float:right;width:180px}
-#content-lang {border:1px solid #d4d4d4;width:178px;margin:0 0 10px;min-height:50px;background:#eee url(/layout/images/locale.png) no-repeat}
-#content-lang p {padding:5px;margin:0}
-#content-lang p img {width:48px;height:40px}
-#content-menu {border:1px solid #d4d4d4;width:178px;background:#eee}
-#content-menu ul {margin:0;padding:5px 0 10px 10px;list-style:none}
-#content-menu ul li {padding:2px 2px 2px 12px;background:url(/layout/images/bullit.gif) no-repeat 0 0.5em}
-#content-menu ul ul li {background:none;border:none;padding-left:5px}
-#content-menu ul li a {display:block}
-#content-sponsor {text-align:center;border:1px solid #d4d4d4;width:178px;margin:10px 0 0;background:#eee}
-#content-sponsor img a,#content-sponsor img {margin:0;padding:10px}
-#content-sponsor p {margin:0;padding:0 10px 10px;text-align:left}
-#content-sponsor a {color:#000;text-decoration:none}
-#content-sponsor a:hover {text-decoration:underline}
-#content-text {margin-right:190px}
-#SearchResults iframe {width:100%}
-* html #SearchResults iframe {width:550px}
+/* $Id: content.css 671 2007-01-30 19:51:15Z nick $ */
+/* -
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ */
+
+@import url("fonts.css");
+
+/* basic styles, used by the content */
+#content-text p {
+  margin: 0.5em 0 1em 0;
+  line-height: 1.5em;
+}
+
+#content-text hr, #content-menu hr {
+  height: 1px;
+  color: #d4d4d4;
+  background-color: #d4d4d4;
+  border: 0;
+  margin: .2em 0 .2em 0;
+}
+
+#content-text ul {
+  list-style-image: url(/layout/images/bullit.gif);
+}
+#content-text li {
+  margin-bottom: .1em;
+}
+dt {
+  font-weight: bold;
+  margin-bottom: .1em;
+}
+dl {
+  margin-top: .2em;
+  margin-bottom: .5em;
+}
+dd {
+  line-height: 1.5em;
+  margin-left: 2em;
+  margin-bottom: .1em;
+}
+
+/* content box (right) */
+#content-right {
+  float: right;
+  width: 180px;
+}
+
+/* not available in your language */
+#content-lang {
+  border: 1px solid #d4d4d4;
+  width: 178px;
+  margin: 0 0 10px;
+  min-height: 50px;
+  background: #eee url(/layout/images/locale.png) no-repeat;
+}
+#content-lang p {
+  padding: 5px;
+  margin: 0;
+}
+#content-lang p img {
+  width: 48px;
+  height: 40px;
+}
+
+/* content navigation */
+#content-menu {
+  border: 1px solid #d4d4d4;
+  width: 178px;
+  background: #eee;
+}
+#content-menu ul {
+  margin: 0;
+  padding: 5px 0 10px 10px;
+  list-style: none;
+}
+#content-menu ul li {
+  padding: 2px 2px 2px 12px;
+  background: url(/layout/images/bullit.gif) no-repeat 0 0.5em;
+}
+#content-menu ul ul li {
+  background: none;
+  border: none;
+  padding-left: 5px;
+}
+#content-menu ul li a {
+  display: block;
+}
+
+/* sponsor box */
+#content-sponsor {
+  text-align: center;
+  border: 1px solid #d4d4d4;
+  width: 178px;
+  margin: 10px 0 0;
+  background: #eee;
+}
+#content-sponsor img a, #content-sponsor img {
+  margin: 0;
+  padding: 10px;
+}
+#content-sponsor p {
+  margin: 0;
+  padding: 0 10px 10px;
+  text-align: left;
+}
+#content-sponsor a {
+  color: #000;
+  text-decoration: none;
+}
+#content-sponsor a:hover {
+  text-decoration: underline;
+}
+
+/* content div */
+#content-text {
+  margin-right: 190px;
+}
+
+/* google search */
+#SearchResults iframe {
+  width: 100%;
+  /*height: 105em;*/
+}
+* html #SearchResults iframe {
+  width: 550px;
+}

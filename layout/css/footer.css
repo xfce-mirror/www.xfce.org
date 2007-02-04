@@ -1,10 +1,48 @@
-#footer {clear:both}
-#footer-line {height:1px;padding:0;margin:0;background:#d4d4d4}
-#footer-sponsors {float:right;padding:10px 10px 0 0}
-#footer-sponsors ul {list-style:none;display:inline;margin:0;padding:0}
-#footer-sponsors ul li {display:inline;padding:0 0 0 5px}
-#footer-sponsors a {color:#000}
-#footer-copyright {margin:0;padding:10px 0 0 10px;color:#d4d4d4}
-#footer-copyright a {color:#d4d4d4;text-decoration:none}
-#footer-copyright a:hover {color:#009}
-* html #footer-sponsors ul li img {border:1px solid #000}
+/* $Id: footer.css 671 2007-01-30 19:51:15Z nick $ */
+/* -
+ * Copyright (c) Nick Schermer <nick@xfce.org>
+ */
+
+#footer {
+  clear: both;
+}
+#footer-line {
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  background: #d4d4d4;
+}
+#footer-sponsors {
+  float: right;
+  padding: 10px 10px 0 0;
+}
+#footer-sponsors ul {
+  list-style: none;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#footer-sponsors ul li {
+  display: inline;
+  padding: 0 0 0 5px;
+}
+#footer-sponsors a {
+  color: #000;
+}
+#footer-copyright {
+  margin: 0;
+  padding: 10px 0 0 10px;
+  color: #d4d4d4;
+}
+#footer-copyright a {
+  color: #d4d4d4;
+  text-decoration: none;
+}
+#footer-copyright a:hover {
+  color: #009;
+}
+
+/* internet explorer fixes */
+* html #footer-sponsors ul li img {
+  border: 1px solid #000;
+}
