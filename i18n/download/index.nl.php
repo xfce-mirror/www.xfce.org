@@ -10,7 +10,7 @@
 
 
 <h2 id="installer">Installatiepakketten</h2>
-<p>De Xfce installatiepekketten zijn een grafische installatie methode die het installeren van Xfce, en andere extensies, aanzienlijk moeten versimpelen. Je kan <a href="/documentation/installers/xfce/">hier</a> meer lezen over deze installer.</p>
+<p>De Xfce installatiepekketten zijn een grafische installatie methode die het installeren van Xfce, en andere extensies, aanzienlijk moeten versimpelen. Je kan <a href="/documentation/installers/xfce/index.html">hier</a> meer lezen over deze installer.</p>
 <?php printServers("installers", $servers); ?>
 
 

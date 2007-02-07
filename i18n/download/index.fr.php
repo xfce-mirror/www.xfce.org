@@ -10,7 +10,7 @@
 
 
 <h2 id="installer">Installateur graphique</h2>
-<p> Xfce-Installers est une collection de paquets mis ensemble pour simplifier grandement l'installation de Xfce et certaines extensions. Apprenez-en plus à propos de l'installateur <a href="/documentation/installers/xfce/">ici</a>. </p>
+<p> Xfce-Installers est une collection de paquets mis ensemble pour simplifier grandement l'installation de Xfce et certaines extensions. Apprenez-en plus à propos de l'installateur <a href="/documentation/installers/xfce/index.html">ici</a>. </p>
 <?php printServers("installers", $servers); ?>
 
 
