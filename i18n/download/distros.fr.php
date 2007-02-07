@@ -5,7 +5,7 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
-		<td>SAM Linux Desktop is a self-booting live CD containing a full linux desktop OS. You don´t have to install it on your harddisk, it runs completely from your cd drive and your RAM.</td>
+		<td>SAM Linux Desktop est un live-CD bootable contenant un système d'opération linux de bureau. Il n'est pas nécessaire de l'installer sur le disque dur, tout le système est fonctionnel à partir dur CD-ROM et la RAM de l'ordinateur.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
