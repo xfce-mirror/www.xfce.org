@@ -12,10 +12,10 @@
 	<div id="front-intro-about">
 		<h1>Xfceについて</h1>
 		<p>Xfceは様々な*NIXシステム用の軽快なデスクトップ環境です。
-		生産性を優先して設計されているため、システムリソースを保持しつつ、アプリケーションを素早くロードと実行をできます。</p>
-		<p>Xfce 4.4は伝統的なUNIXの考え方である、モジュラ性や再利用性を具体化しています。
+		生産性を優先して設計されているため、システムリソースを保ちながら、アプリケーションを素早くロードと実行をできます。</p>
+		<p>Xfce 4.4はモジュラ性や再利用性の伝統的なUNIXの考え方を体現して、
 		デスクトップ環境のすべての機能性を一緒に提供する沢山のコンポーネントを構成しています。
-		パッケージは分かれています。そのため、最高の個人用の環境を作るために任意で使用できるパッケージ中から選ぶことができます。</p>
+		パッケージは分かれていますので、最高の自分の環境を作るために、自分でパッケージを選ぶことができます。</p>
 		<p class="readmore"><a href="/about/" title="Xfceについて更に読む...">更に読む</a></p>
 	</div>
 </div>
@@ -83,7 +83,7 @@
 				<li><a href="/community/lists">メイリングリスト</a></li>
 				<li><a href="/about/screenshots">スクリーンショット</a></li>
 				<li><a href="http://forum.xfce.org" target="_blank" title="Xfceフォーラム（新規のウィンドウ）" class="external">Xfceフォーラム</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Report a bug（新規のウィンドウ）" target="_blank" class="external">バグを報告</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="バグを報告する（新規のウィンドウ）" target="_blank" class="external">バグを報告</a></li>
 				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  （新規のウィンドウ）" target="_blank" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Xfceディストリビューション</a></li>
 			</ul>
