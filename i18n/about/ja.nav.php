@@ -18,6 +18,6 @@
 			<li><a href="/about/credits#translators">翻訳者</a></li>
 		</ul>
 	</li>
-	<li><a href="/about/press">プレスリリース</a></li>
+	<li><a href="/about/press">広報</a></li>
 	<li><a href="/about/artwork">アートワーク</a></li>
 </ul>

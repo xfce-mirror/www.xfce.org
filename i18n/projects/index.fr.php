@@ -124,8 +124,8 @@
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-appfinder/">Application Finder xfce4-appfinder</a></h3>
-			<p>Permet de chercher, exécuter, trouver des informations à propos des applications installées sur votre système.</p>
+			<h3><a href="/projects/xfce4-appfinder/">Appfinder xfce4-appfinder</a></h3>
+			<p>Permet de chercher, exécuter et trouver des informations à propos des applications installées sur votre système.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />

@@ -39,7 +39,7 @@
 
 <p align="justify">
 
-<b>Thunar</b>はXfce用の使い勝手が良い一方で軽量なファイルマネージャを提供するために最初の一歩から書き直されましたものです。
+<b>Thunar</b>はXfce用の使い勝手が良い一方で軽量なファイルマネージャを提供するために最初の一歩から書き直されたものです。
 インターフェイスはすでにGTK+ 2.4のファイル選択UIや、<b>Nautilus</b>や<b>pcmanfm</b>のような
 すでにこの考えを採用しているファイルマネージャに似ています。</p>
 
@@ -109,8 +109,6 @@ Windowsの<b>NotePad</b>と<b>MousePad</b>は同じようなものだと考え�
 
 <p align="justify">
 ウィンドウの装飾テーマ用のイメージフォーマットが追加されました。これには<tt>PNG</tt>と<tt>GIF</tt>と<tt>SVG</tt>が含まれています。
-Further on support for multiple image formats for window decoration themes was added, including
-<tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images.
 </p>
 
 <p align="center"><img src="/images/about/tour/xfce44-xfwm4-tweaks.png" alt="Xfwm4 Tweaks" /></p>
@@ -120,7 +118,7 @@ Further on support for multiple image formats for window decoration themes was a
 </p>
 
 
-<h2>Panel<a name="panel"></a></h2>
+<h2>パネル<a name="panel"></a></h2>
 
 <p align="justify">
 
@@ -162,7 +160,7 @@ Goodies Project</a>を通して利用でき、新しいパネル用にアップ�
 </p>
 
 
-<h2>Time Management<a name="time-management"></a></h2>
+<h2>時間管理<a name="time-management"></a></h2>
 
 <p align="justify">
 新しい時間管理アプリケーション <b>Orage</b>が<b>Xfcalendar</b>(Xfce 4.2.0 で追加されたもの)を置き換えました。
@@ -246,7 +244,7 @@ Xfce 4.4.0では新しい<a href="http://freedesktop.org/wiki/Standards_2fautost
 </p>
 
 
-<h2>Settings<a name="settings"></a></h2>
+<h2>設定<a name="settings"></a></h2>
 
 <p align="justify">
 今回のリリースでは必要な環境を作るためにデスクトップをカスタマイズする新しい選択肢が追加されています。
@@ -258,7 +256,7 @@ Xfce 4.4.0では新しい<a href="http://freedesktop.org/wiki/Standards_2fautost
 
 <p align="justify">
 
-Preferredアプリケーションフレームワーク、<b>Terminal</b>のみで以前は使えたもの、はXfceにも実装されました。
+お気に入りのアプリケーションフレームワーク、<b>Terminal</b>のみで以前は使えたもの、はXfceにも実装されました。
 結果、ユーザはどのブラウザを使うのかや、Xfce アプリケーションによって使われるべきターミナルエミュレータ
 を指定したりするためにわざわざシェルプロファイルを編集する必要はありません。
 目標はできるだけ簡単にカテゴリに応じてアプリケーションを変更できるようにすることでした。(GNOMEのユーザは
@@ -293,5 +291,5 @@ Xfce4.4では、この制限は過去の話となり、アプリケーション�
 <li><a href="http://thunar.xfce.org/">Thunarウェブサイト</a></li>
 </ul>
 
-<h2>Credits<a name="credits"></a></h2>
-<p align="justify">Written by Benedikt Meurer, 21 Jan 2007</p>
+<h2>クレジット<a name="credits"></a></h2>
+<p align="justify">著者: Benedikt Meurer, 2007年一月二一日</p>

@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" /></div>
 
-<h1>Chercheur d'applications</h1>
-<p>Le chercheur d'applications pour l'environnement de bureau Xfce est un logiciel permettant de chercher à travers tout le système pour les applications installées supportant le format Desktop. Vous pouvez trouver les applications "perdues" et les ajouter au menu ou les démarrer directement depuis la liste générée.</p>
+<h1>Chercheur d'applications Appfinder</h1>
+<p>Le chercheur d'applications Appfinder pour l'environnement de bureau Xfce est un logiciel permettant de chercher à travers tout le système pour les applications installées supportant le format ".Desktop". Vous pouvez trouver les applications "perdues" et les ajouter au menu ou les démarrer directement depuis la liste générée.</p>
 
 <h2>Liens externes</h2>
 <h3>Subversion</h3>

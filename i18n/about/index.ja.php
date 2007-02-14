@@ -5,4 +5,4 @@
 また、デスクトップ環境のすべての機能を同時に提供する沢山のコンポーネントを構成しています。
 各部分は分かれてパッケージ化されているので、最高のデスクトップ環境を作るために使用できるパッケージの中から好きなものを選ぶことができます。</p>
 <p>Xfce 4の他の一つの優先順位は標準、特に<a href="http://freedesktop.org" target="_blank">freedesktop.org</a>で定義されたものに準拠することです。</p>
-<p>Xfce 4は幾つかのUNIXのプラットフォーム上にインストールできます。x86, PPC, Sparc, Alpha上のLinux, NetBSD, FreeBSD, Solaris, Cygwin, MacOS Xでコンパイルできることが知られれています。</p>
+<p>Xfce 4は幾つかのUNIXのプラットフォーム上にインストールできます。x86, PPC, Sparc, Alpha上のLinux, NetBSD, FreeBSD, Solaris, Cygwin, MacOS Xでコンパイルできることが知られています。</p>
