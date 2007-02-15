@@ -1,7 +1,7 @@
 <h1>開発</h1>
 <p>Xfceへ貢献する方法を探しているのでいらっしゃるのであれば、
 <a href="../community/lists">メイリングリスト</a>と下の項目の中の一つに関係する<a href="http://forum.xfce.org">フォーラム</a>の参加を考えてみてください。
-ple</p>
+</p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 <tr>
@@ -40,8 +40,8 @@ ple</p>
 			<img src="/images/development/devel.png" alt="dev" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">Development</a></h3>
-			<p>Xfceの次の主要ブランチの開発、現在のリリースのバグの修正をしている私たちのプロジェクトに気軽に参加してください。</p>
+			<h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">開発</a></h3>
+			<p>Xfceの次の主要ブランチの開発や現在のリリースのバグの修正をしている私たちのプロジェクトに気軽に参加してください。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/development/docs.png" alt="docs" width="48" height="48" />

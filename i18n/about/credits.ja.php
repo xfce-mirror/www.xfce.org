@@ -178,7 +178,7 @@ function at(){
         <td bgcolor="#eeeeee">Petri Jooste [petri.jooste<?php at(); ?>gmail.com]</td>
     </tr>
     <tr>
-        <td>Arabic [ar]</td>
+        <td>アラビア語 [ar]</td>
         <td>Saleh Alhathal [hathalsal<?php at(); ?>hotmail.com]</td>
     </tr>
     <tr>

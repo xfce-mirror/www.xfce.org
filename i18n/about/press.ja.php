@@ -5,7 +5,7 @@
   <tr>
     <th width="20%" align="left"><h3>日付</h3></th>
     <th width="20%" align="left"><h3>ウェブサイト</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="60%" align="left"><h3>リンク</h3></th>
   </tr>
   <tr>
     <td align="left">2006-06-09</td>
