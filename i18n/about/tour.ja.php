@@ -292,4 +292,4 @@ Xfce4.4では、この制限は過去の話となり、アプリケーション�
 </ul>
 
 <h2>クレジット<a name="credits"></a></h2>
-<p align="justify">著者: Benedikt Meurer, 2007年一月二一日</p>
+<p align="justify">著者: Benedikt Meurer, 2007年1月21日</p>

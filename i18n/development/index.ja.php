@@ -1,6 +1,6 @@
 <h1>開発</h1>
 <p>Xfceへ貢献する方法を探しているのでいらっしゃるのであれば、
-<a href="../community/lists">メイリングリスト</a>と下の項目の中の一つに関係する<a href="http://forum.xfce.org">フォーラム</a>の参加を考えてみてください。
+<a href="../community/lists">メイリングリスト</a>と下の項目の中の関係する<a href="http://forum.xfce.org">フォーラム</a>の参加を考えてみてください。
 </p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -24,7 +24,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/about/artwork">アートワーク</a></h3>
-			<p>自分のXfceの外観を作りたいですか？それなら、ステップガイド<a href="http://wiki.xfce.org/howto">howto's</a>通りにやればできます。
+			<p>あなただけのXfceの外観を作りたいですか？それなら、ステップガイド<a href="http://wiki.xfce.org/howto">howto's</a>通りにやればできます。
 			または<a href="http://www.xfce-look.org/">xfce-look</a>を斜め読みすれば、どうやって他の方々がXfceをカスタマイズしたのかを見ることができます。</p>
 		</td>
 	</tr>

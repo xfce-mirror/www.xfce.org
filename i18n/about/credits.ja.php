@@ -3,7 +3,7 @@ function at(){
   echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
 }
 ?>
-<h1>Credits</h1>
+<h1>クレジット</h1>
 <p></p>
 
 <h2 id="lead">プロジェクトリーダ</h2>
@@ -22,7 +22,7 @@ function at(){
     </tr>
     <tr>
         <td width="40%" bgcolor="#eeeeee">Benedikt Meurer [benny<?php at(); ?>xfce.org]</td>
-        <td width="60%" bgcolor="#eeeeee">Thunar, Terminal, Session Manager, Libexo</td>
+        <td width="60%" bgcolor="#eeeeee">Thunar、ターミナル、セッションマネージャ、Libexo</td>
     </tr>
     <tr>
         <td width="40%">Biju Chacko [botsie<?php at(); ?>xfce.org]</td>
@@ -112,7 +112,7 @@ function at(){
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <th colspan="2"><h3>Previous Contributors</h3></th>
+        <th colspan="2"><h3>以前に貢献した方々</h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Bernhard Walle [Bernhard.Walle<?php at(); ?>gmx.de]</td>
@@ -358,11 +358,11 @@ function at(){
         <td>Lâm Vĩnh Niên [nienvl<?php at(); ?>yahoo.ca]</td>
     </tr>
     <tr>
-        <td bgcolor="#eeeeee">中国語(中国) [zh_CN]</td>
+        <td bgcolor="#eeeeee">中国語(中国) (簡体字) [zh_CN]</td>
         <td bgcolor="#eeeeee">Huang Huan [unicon221<?php at(); ?>gmail.com], Yongtao Yang [yongtao.yang<?php at(); ?>telia.com]</td>
     </tr>
     <tr>
-        <td>中国語(台湾) [zh_TW]</td>
+        <td>中国語(台湾) (繁体字) [zh_TW]</td>
         <td>Cosmo Chene [cosmolax<?php at(); ?>gmail.com], Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
     </tr>
 </table>
