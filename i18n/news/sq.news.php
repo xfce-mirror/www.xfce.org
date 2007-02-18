@@ -19,6 +19,28 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
+    11 => array (
+        'title'   => 'Xfce 4.4.0 released',
+        'content' => 'After more than two years of development, Xfce 4.4.0 has just been released.'.
+                     '[br]'.
+                     'Xfce 4.4 features new tools such as the much awaited Thunar file '.
+                     'manager as well as several huge improvements of its core components.'.
+                     '[br][br]'.
+                     'A visual overview of Xfce 4.4 is available here:[br]'.
+                     '[link=/about/tour]http://www.xfce.org/about/tour[/link]'.
+                     '[br][br]'.
+                     'Download Xfce 4.4 from the new Xfce website:[br]'.
+                     '[link=/download]http://www.xfce.org/download[/link]',
+    ),    
+    10 => array (
+        'title'   => 'Xfce 4.2.4 released',
+        'content' => 'A new bug fix release of Xfce 4.2 is available. This release is supposed '.
+                     'to be the last release for the 4.2 branch. It includes several fixes ported '.
+                     'from the current developpment branch.[br]'.
+                     'This release should not be confused with the upcoming Xfce 4.4 release, '.
+                     'it\'s a bug fix release of the previous stable branch. Get it from '.
+                     '[link=/download/]this page[/link].',
+    ),
     9 => array (
         'title'   => 'Qarkulloi Xfce 4.4 Release Candidate 2 (4.3.99.2)',
         'content' => 'Kandidati i dytë për qarkullim dhe shpresojmë i fundit për desktopin Xfce 4.4 tani është '.
