@@ -5,7 +5,7 @@
   për ngjizjen e Mousepad-it qe krijimi i asistencës për shtypje, që për arsye të ndryshme
   do të ishte e vështirë për Leafpad-in.</p>
 
-<h2>External Links</h2>
+<h2>Lidhje të Jashtme</h2>
 <h3>Subversion</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fmousepad%2F&amp;rev=0&amp;sc=0#/mousepad/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a></p>

@@ -1,10 +1,10 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" /></div>
 
 <h1>Përgjegjës Desktopi</h1>
-<p>Përgjegjësi i desktopit rregullon pamjes për sfondin, bën të mundur një menu djathtasklikimi
-  për nisje zbatimesh dhe me raste mund edhe të shfaqë kartela (përfshi nisësa zbatimesh) ose
+<p>Përgjegjësi i desktopit rregullon pamjen për sfondin, bën të mundur një menu djathtasklikimi
+  për nisje zbatimesh dhe, me raste, mund edhe të shfaqë kartela (përfshi nisësa zbatimesh) ose
   dritare të ikonizuara. Përfshin mbulim gradientesh për ngjyrat e sfondit, 
-  mbulim ngopjeje për pamje sfondi, mbulim real për mënyrën "shumë ekrane" dhe mbulim xinerama,
+  mbulim ngopjeje për pamje sfondi, mbulim real për mënyrën "shumë ekrane" dhe mbulim për xinerama,
   si dhe ofron një përpunues menush desktopi.</p>
 
 <h2>Karakteristika</h2>
@@ -22,7 +22,7 @@
   <li><strong>Menu</strong><br />
     Klikim djathtas për menunë parazgjedhje të Xfce-së.<br />
     Klikim me të mesit për listë zbatimesh.<br />
-    E rregullueshme përmes një përpunuesi.</li>
+    Të rregullueshme përmes një përpunuesi.</li>
 </ul>
 
 <h2>Lidhje të Jashtme</h2>

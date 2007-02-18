@@ -1,7 +1,7 @@
 <h1>Sistem i nevojshëm për Xfce-në</h1>
 <p>Tërë paketat (hiq xfce4-dev-tools) varen nga të dyja, gtk+&nbsp;&gt;=&nbsp;2.6 dhe glib&nbsp;&gt;=&nbsp;2.6.4.
 Radhitja në tabelën e varësive është gjithashtu radha e këshilluar për ndërtimin e Xfce-së.<br />
-Këshillohet gjithashtu ndërtimi i tërë përbërësve të Xfce-së prej të njëjtit version të qarkulluar.</p>
+Gjithashtu, këshillohet ndërtimi i tërë përbërësve të Xfce-së prej të njëjtit version të qarkulluar.</p>
 
 <h2>Tabelë e varësive të paketave:</h2>
 <table width="100%">

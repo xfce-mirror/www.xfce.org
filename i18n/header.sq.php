@@ -28,8 +28,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Lajme nga Xfce" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Blogu i Xfce-së" href="http://blog.xfce.org/?feed=rss2" />
 </head>
-<body id="top">
-	<p id="header-top"><a href="#top" title="Go to the top of the page">Top</a></p>
+<body>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Anashkalo lundrim site-i" accesskey="1">Anashkalo lundrim <em>site</em>-i</a> (1)
 <?php if ($content_bool) { ?>
@@ -66,7 +65,7 @@
 						<li><a href="/" title="Hyrje">Hyrje</a></li>
 						<li><a href="/about/" title="Rreth">Rreth</a></li>
 						<li><a href="/projects/" title="Projekte">Projekte</a></li>
-						<li><a href="/download/" title="Shkarkoni">Shkarkoni</a></li>
+						<li><a href="/download/" title="Shkarkoni">Shkarkime</a></li>
 						<li><a href="/documentation/" title="Dokumentim">Dokumentim</a></li>
 						<li><a href="/community/" title="Bashkësi">Bashkësi</a></li>
 						<li><a href="/development/" title="Zhvillim">Zhvillim</a></li>

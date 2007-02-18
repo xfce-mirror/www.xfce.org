@@ -1,30 +1,30 @@
-<h1>Xfce 4.2 Documentation</h1>
+<h1>Dokumentacion për Xfce 4.2</h1>
 
-  <h3><a href="userguide/">User Guide</a></h3>
+  <h3><a href="userguide/">Udhërrëfyes Përdoruesi</a></h3>
   <ul>
-    <li><a href="userguide/#preface">Preface</a></li>
-    <li><a href="userguide/xfce4-intro">Introduction</a></li>
-    <li><a href="userguide/xfce4-use">Using Xfce4</a></li>
-    <li><a href="userguide/xfce4-components">Components of Xfce</a></li>
-    <li><a href="userguide/xfce4-install">Installing Xfce4</a></li>
-    <li><a href="userguide/xfce4-copyright">Copyright and License</a></li>
+    <li><a href="userguide/#preface">Parathënie</a></li>
+    <li><a href="userguide/xfce4-intro">Hyrje</a></li>
+    <li><a href="userguide/xfce4-use">Si të përdoret Xfce4</a></li>
+    <li><a href="userguide/xfce4-components">Përbërës të Xfce-së</a></li>
+    <li><a href="userguide/xfce4-install">Si të instalohet Xfce4</a></li>
+    <li><a href="userguide/xfce4-copyright">Të drejta Kopjimi dhe Licensë</a></li>
   </ul>
 
-  <h3><a href="manuals/">Application Manuals</a></h3>
+  <h3><a href="manuals/">Doracakë Zbatimesh</a></h3>
   <ul>
     <li><a href="manuals/xfce4-panel">Panel</a></li>
-    <li><a href="manuals/xfwm4">Window Manager</a></li>
-    <li><a href="manuals/xfce4-session">Session Manager</a></li>
-    <li><a href="manuals/xfdesktop">Desktop Manager</a></li>
-    <li><a href="manuals/xfce-utils">Utilities and Scripts</a></li>
-    <li><a href="manuals/xfprint">Printing Management</a></li>
-    <li><a href="manuals/xfce-mcs-manager">Settings Manager</a></li>
-    <li><a href="manuals/xfce-mcs-plugins">Settings Manager Plugins</a></li>
-    <li><a href="manuals/xffm">Filemanager</a></li>
-    <li><a href="manuals/xfce4-appfinder">Application Finder</a></li>
+    <li><a href="manuals/xfwm4">Përgjegjës Dritaresh</a></li>
+    <li><a href="manuals/xfce4-session">Përgjegjës Sesionesh</a></li>
+    <li><a href="manuals/xfdesktop">Përgjegjës Desktopi</a></li>
+    <li><a href="manuals/xfce-utils">Të dobishëm dhe Programthe</a></li>
+    <li><a href="manuals/xfprint">Administrim Shtypjesh</a></li>
+    <li><a href="manuals/xfce-mcs-manager">Përgjegjës Rregullimesh</a></li>
+    <li><a href="manuals/xfce-mcs-plugins">Shtojca Përgjegjësi Rregullimesh</a></li>
+    <li><a href="manuals/xffm">Përgjegjës Kartelash</a></li>
+    <li><a href="manuals/xfce4-appfinder">Gjetës Zbatimesh</a></li>
   </ul>
 
-  <h3><a href="api/">Developer Documentation</a></h3>
+  <h3><a href="api/">Dokumentacion Zhvilluesish</a></h3>
   <ul>
     <li><a href="api/libxfce4util/">libxfce4util</a></li>
     <li><a href="api/libxfce4mcs/">libxfce4mcs</a></li>

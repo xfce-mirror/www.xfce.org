@@ -1,5 +1,5 @@
-<h1>Lista Postimesh Xfce</h1>
-<p><strong>SHËNIM:</strong> Që të mund të postoni te këto lista, lypset të regjistrohen së pari. </p>
+<h1>Lista Postimesh për Xfce-në</h1>
+<p><strong>SHËNIM:</strong> Që të mund të postoni te këto lista, lypset të regjistroheni së pari. </p>
 
 <table width="99%" cellpadding="2">
     <tr>
@@ -44,11 +44,11 @@
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
-		<td>Listë postimesh për zhvillime të përgjegjësit të kartelave Thunar</td>
+		<td>Listë postimesh për zhvillime te përgjegjësi i kartelave Thunar</td>
     </tr>
 </table>
 <p></p>
-<h1>Kërko në listat e postimeve</h1>
+<h1>Kërkim në listat e postimeve</h1>
 <p>
-    Mund të kërkoni në listat e postimeve me Kërkim me Google në krye. Pasi keni bërë një kërkim mund ta bëni më të imët duke klikuar te lidhja 'Lista postimesh'.
+    Mund të kërkoni në listat e postimeve përmes Kërkimit me Google sipër djathtas. Pasi keni filluar një kërkim, mund ta bëni më të imët duke klikuar te lidhja 'Lista postimesh'.
 </p>

@@ -1,31 +1,19 @@
 <h1>Shpërndarje me Bazë Xfce-në</h1>
 <p>Këtu keni një listë me shpërndarje që përdorin Xfce-në si desktopin e tyre parësor.</p>
 
-<h2>SAM Linux Desktop</h2>
-<table border="0" cellspacing="10" cellpadding="0">
-	<tr>
-		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
-		<td>SAM Linux Desktop is a self-booting live CD containing a full linux desktop OS. You don´t have to install it on your harddisk, it runs completely from your cd drive and your RAM.</td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website">Website</a> | <a href="http://distrowatch.com/sam" target="_blank" title="Visit the Sam Linux page at DistroWatch">DistroWatch</a></td>
-	</tr>
-</table>
-
 <h2>Xubuntu</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xubuntu.org/" target="_blank" title="Vizitoni site-in web të Xubuntu-së"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
-		<td>Xubuntu është një shprëndarje Linux e bazuar në Ubuntu. Sidoqoftë, ndryshe nga mëma, Xubuntu përdor për desktop mjedisin e peshës së lehtë Xfce dhe është i përshtatur për makinat më pak të fuqishme. Shpërndarja përfshin vetëm zbatime GTK+ atje kuështë e mundur.</td>
+		<td>Xubuntu është një shpërndarje Linux e bazuar në Ubuntu. Sidoqoftë, ndryshe nga mëma, Xubuntu përdor për desktop mjedisin e peshës së lehtë Xfce dhe është i përshtatur për makinat më pak të fuqishme. Shpërndarja përfshin vetëm zbatime GTK+ atje ku është e mundur.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xubuntu.org/" target="_blank" title="Vizitoni site-in web të Xubuntu-së"><em>site</em>-in Web</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="Vizitoni faqen e Xubuntu-së te DistroWatch">DistroWatch</a></td>
+		<td><a href="http://www.xubuntu.org/" target="_blank" title="Vizitoni site-in web të Xubuntu-së"><em>site</em>-i Web</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="Vizitoni faqen e Xubuntu-së te DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
-<h2>Xfld</h2>
+<h2> Xfld</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xfld.org/" target="_blank" title="Vizitoni site-in web të Xfld-së"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
@@ -33,7 +21,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xfld.org/" target="_blank" title="Vizitoni site-in web të Xfld-së"><em>site</em>-in Web</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="Vizitoni faqen e Xfld-së te DistroWatch">DistroWatch</a></td>
+		<td><a href="http://www.xfld.org/" target="_blank" title="Vizitoni site-in web të Xfld-së"><em>site</em>-i Web</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="Vizitoni faqen e Xfld-së te DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -41,11 +29,11 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.zenwalk.org/" target="_blank" title="Vizitoni site-in web të Zenwalk-ut"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
-		<td>Zenwalk është një sistem operativ i bazuar në Slackware. Synimi i Zenwalk-ut është të jetë i hajthshëm dhe i shpejtë, duke përdorur vetëm një zbatim për çdo detyrë në ndërthurje me desktopin Xfce. Zenwalk përfshin teknologjitë më të fundit Linux bashkë me një mjedis të plotë programimi dhe librari, duke ofruar kështu një platformë ideale për programuesa zbatimesh. Natyra modulare e Zenwalk-ut nga ana tjetër ofron një rrugë të thjeshtë për ta shndërruar Zenwalk Linux-in në një shërbyes modern të rregulluar imtësisht (p.sh. LAMP, për mesazhe, për dhënie kartelash).</td>
+		<td>Zenwalk është një sistem operativ i bazuar në Slackware. Synimi i Zenwalk-ut është të jetë i hajthshëm dhe i shpejtë, duke përdorur, në ndërthurje me desktopin Xfce, vetëm një zbatim për çdo detyrë. Zenwalk përfshin teknologjitë më të fundit Linux, bashkë me një mjedis të plotë programimi dhe librari, duke ofruar kështu një platformë ideale për programuesa zbatimesh. Natyra modulare e Zenwalk-ut nga ana tjetër ofron një rrugë të thjeshtë për ta shndërruar Zenwalk Linux-in në një shërbyes modern të rregulluar imtësisht (p.sh. LAMP, për mesazhe, për dhënie kartelash).</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.zenwalk.org/" target="_blank" title="Vizitoni site-in web të Zenwalk-ut"><em>site</em>-in Web</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="Vizitoni faqen e Zenwalk-ut te DistroWatch">DistroWatch</a></td>
+		<td><a href="http://www.zenwalk.org/" target="_blank" title="Vizitoni site-in web të Zenwalk-ut"><em>site</em>-i Web</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="Vizitoni faqen e Zenwalk-ut te DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -54,10 +42,10 @@
 	<tr>
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Vizitoni site-in web të Lunar Linux-it"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
 		<td>Lunar Linux është një shpërndarje e bazuar në burim. Edhe pse nuk ka mjedis origjinal desktop në Lunar, ofron mbulim të shkëlqyer për Xfce-në, kryesisht ngaqë një dorë zhvilluesash të Xfce-së janë edhe zhvilluesa të Lunarit.<br />
-            Një tjetër holëlsi me rëndësi: tërë shërbyesit e Xfce-së xhirojnë në Lunar Linux!</td>
+            Një tjetër hollësi me rëndësi: tërë shërbyesit e Xfce-së xhirojnë në Lunar Linux!</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Vizitoni site-in web të Lunar Linux-it"><em>site</em>-in Web</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Vizitoni faqen e Lunar Linux-it te">DistroWatch</a></td>
+		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Vizitoni site-in web të Lunar Linux-it"><em>site</em>-i Web</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Vizitoni faqen e Lunar Linux-it te">DistroWatch</a></td>
 	</tr>
 </table>

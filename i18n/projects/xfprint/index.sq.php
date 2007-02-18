@@ -3,7 +3,7 @@
 <h1>Ndihmës Shtypjesh</h1>
 <p>Ndihmësi i Shtypjeve është një ndërfaqe grafike për shtypje, një administrues
   shtypësash, dhe administrues i radhës së shtypjeve. Nuk ju bën të mundur të formësoni
-  shtypësa por thjesht të përdorni sisteme shtypjeje të cilët janë formësuar si duhet
+  shtypësa, por thjesht të përdorni sisteme shtypjeje të cilët janë formësuar si duhet
   paraprakisht.</p>
 
 <h2>Mekanizma të mbuluar</h2>

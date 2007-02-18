@@ -1,9 +1,9 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/orage.png" alt="orage" width="48" height="48" /></div>
 
 <h1>Orage</h1>
-<p>Orage ofrn një kalendar që integrohet bukur në mjedisin desktop Xfce. Është shumë i formësueshëm dhe 
+<p>Orage ofron një kalendar që integrohet bukur në mjedisin desktop Xfce. Është shumë i formësueshëm dhe 
   mbulon sinjalizime të bazuar në data. Ju njofton për ta me një dritare flluckë ose me alarm zanor.
-  Meqë hyn te zbatimet që përdoren çdo ditë, e nis veten në prapaskenë si demon.</p>
+  Meqë hyn te zbatimet që përdoren çdo ditë, e nis veten në prapaskenë si <em>daemon</em>.</p>
 
 <h2>Lidhje të Jashtme</h2>
 <h3>Subversion</h3>

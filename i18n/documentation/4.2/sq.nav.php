@@ -1,3 +1,3 @@
 <?php
-	include "i18n/documentation/en.nav.php";
+	include "i18n/documentation/sq.nav.php";
 ?>

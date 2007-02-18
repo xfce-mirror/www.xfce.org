@@ -2,9 +2,9 @@
 
 # Translations or Style updates for the breadcrumbs
 $breadcrumbs = array (
-    "default_title"    => "Desktop Environment",
+    "default_title"    => "Mjedis Desktop",
 
-    # Catogory names
+    # Category names
     "home"             => "Hyrje",
     "lists"            => "Lista Postimesh",
     "irc"              => "IRC",
@@ -33,7 +33,7 @@ $breadcrumbs = array (
     "xfc"              => "Xfce Foundation Classes",
     "xfce-gtk-engine"  => "Mekanizëm Temash GTK",
     "dbh"              => "Tabela Hash me Bazë Diskun",
-    "installit"        => "Instaloje"
+    "installit"        => "InstallIt"
 );
 
 ?>

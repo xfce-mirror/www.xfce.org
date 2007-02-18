@@ -2,7 +2,7 @@
 
 <h1>Gjetës Zbatimesh</h1>
 <p>Ky është një gjetës zbatimesh për mjedisin Xfce. Është <em>software</em> i dobishëm që ju
- lejon të gjeni çdo zbatim në sisteme që mbulon formatin për zëra Desktopi.
+ lejon të gjeni çdo zbatim në sisteme që mbulojnë formatin për zëra Desktopi.
  Me të mund të kërkoni për <em>software</em> "të humbur", dhe të shtoni zëra në menu,
  dhe sigurisht të xhironi prej tij <em>software</em> të përzgjedhur.</p>
 

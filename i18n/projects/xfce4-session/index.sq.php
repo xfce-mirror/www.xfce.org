@@ -4,7 +4,7 @@
 <p>Përgjegjësi i sesioneve u lejon përdoruesve të ruajnë sesione
   dhe t'i rimarrin ata pas hyrjes sërish në kompjuter. Është i aftë
   të ruaj disa sesione të dallueshëm. Përmban tre mekanizma për
-  siglën e hyrjes. Dhe së fundi ju ndihmon të dilni nga sistemi,
+  siglën e hyrjes. Dhe së fundi, ju ndihmon të dilni nga sistemi,
   ta rinisni, apo ta fikni sistemin.</p>
 
 <h2>Karakteristika</h2>

@@ -2,7 +2,7 @@
 
 <h1>Të dobishëm dhe Programthe</h1>
 <p>Të dobishmit dhe programthet ofrojnë një dialog "Rreth" për Xfce 4, një nisës zbatimesh,
-  dhe disa programthe të dobishëm që gjithashtu përdoren nga përbësa të tjerë Xfce 
+  dhe disa programthe të dobishëm që gjithashtu përdoren nga përbësa të tjerë Xfce, 
   si p.sh. paneli dhe menuja e desktopit.</p>
 
 <h2>Karakteristika</h2>

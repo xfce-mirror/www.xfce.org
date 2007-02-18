@@ -2,7 +2,7 @@
 	$top=true;
 ?>
 <h1>Projekte</h1>
-<p>Projekti Xfce përmban disa projekte të ndarë për secilën pjesë të desktopit. Çdo projekt ka faqen e vet për dhënie të më tepër të dhënash.</p>
+<p>Projekti Xfce përmban disa projekte të ndarë për secilën pjesë të desktopit. Çdo projekt ka faqen e vet për dhënie të më tepër të dhënave.</p>
 
 <h2 id="core">Përbërësa Thelbësorë</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -12,8 +12,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfwm4/">Përgjegjës Dritaresh</a></h3>
-			<p>Administron vendosjen në ekran e dritareve të zbatimeve,
-			ofron zbukurime dritareje dhe administron hapësirat e punës apo desktopët virtualë.</p>
+			<p>Administron vendosjen në ekran të dritareve të zbatimeve,
+			ofron zbukurime dritaresh dhe administron hapësirat e punës apo desktopët virtualë.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-panel.png" alt="paneli xfce4" width="48" height="48" />
@@ -43,8 +43,8 @@
 		<td width="48" valign="top">
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
-		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Ndihmësi i Shtypjeve</a></h3>
-			<p>Ofron një ndërfaqe grafik për shtypjen. Xfprint mund të përdorë si përfundim
+		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Ndihmës Shtypjesh</a></h3>
+			<p>Ofron një ndërfaqe grafike për shtypjen. Xfprint mund të përdorë si përfundim
 			 shtypjeje CUPS-in, BSD-LPR-në ose një kartelë, kurse shtypësat merren prej
 			 sistemit shtypës që zgjidhni.</p>
 		</td>
@@ -52,8 +52,8 @@
 			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-		<h3><a href="/projects/xfce-mcs-manager/">Përgjegjësi i Rregullimeve</a></h3>
-			<p>Ky është sistemi i formësimit të Xfce-së që xhiron në prapaskenë dhe u
+		<h3><a href="/projects/xfce-mcs-manager/">Përgjegjës Rregullimesh</a></h3>
+			<p>Ky është sistemi i formësimit të Xfce-së, xhiron në prapaskenë dhe u
 			ofron përbërësve të tjerë të Xfce-së të dhëna rregullimesh për mbarë sistemin.</p>
 		</td>
 	</tr>
@@ -63,7 +63,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce-utils/">Të dobishme dhe Programthe </a></h3>
-		<p>Progamthe dhe të tjera gjëra të dobishme thelbësore. Sjell një dialog &quot;rreth&quot;,
+		<p>Progamthe dhe të tjera gjëra thelbësore të dobishme. Sjell një dialog &quot;rreth&quot;,
 		 një dialog xhirimi urdhrash dhe disa programthe të rëndësishëm që përdoren nga paketa të tjera.</p>
 		</td>
 		<td width="48" valign="top">
@@ -105,7 +105,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
-			<p>Terminali është një emulues terminali modern për dekstop Unix/Linux - pikësëpari për
+			<p>Terminal-i është një emulues modern terminali për dekstop Unix/Linux - pikësëpari për
 			mjedisin desktop Xfce.</p>
 		</td>
 	</tr>
@@ -115,8 +115,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Përgjegjësi i Kartelave Thunar</a></h3>
-			<p>Thunar-i është një përgjegjës i ri e modern kartelsh për Mjedisin Xfce për Dekstop.
-			 Thunar-i është hartuar duke nisur nga zeroja për të qenë i shpejtë dhe i lehtë në përdorim.</p>
+			<p>Thunar-i është një përgjegjës i ri e modern kartelash për Mjedisin Xfce për Dekstop.
+			 Thunar-i u hartua nisur nga zeroja, për të qenë i shpejtë dhe i lehtë në përdorim.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
@@ -140,14 +140,15 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">Gjetës Zbatimesh</a></h3>
-			<p>Ju lejon të kërkoni, nisni dhe gjeni të dhëna rreth zbatimeve të instaluar në sistemin tuaj.</p>
+			<p>Ju lejon të kërkoni, të gjeni të dhëna rreth zbatimeve të instaluar në sistemin tuaj dhe t'i 
+                         nisni ata.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">Kontroll Volumi</a></h3>
-			<p>Një volum kontrolli për panelin. përfshin një dialog përzierësi i cili mbulon audio ALSA,
+			<p>Një kontroll volumi për panelin. Përfshin një dialog përzierësi, i cili mbulon audio ALSA,
 			OSS dhe Sun.</p>
 		</td>
 		<td width="48" valign="top">
@@ -173,7 +174,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Përgjegjës Arkivash</a></h3>
-			<p>Xarchiver është një ndërfaqe vetëm GTK+2 për 7z, zip, rar, tar, bzip2, gzip, arj dhe rpm.</p>
+			<p>Xarchiver është një ndërfaqe, vetëm GTK+2, për mjetet 7z, zip, rar, tar, bzip2, gzip, arj dhe rpm.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
@@ -250,7 +251,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3>Temë Ikonash</h3>
-			<p>Tema parazgjedhje e ikonave për Xfce 4. Përfshin si ikona PNG ashtu edhe SVG</p>
+			<p>Tema parazgjedhje e ikonave për Xfce 4. Përfshin si ikona PNG, ashtu edhe SVG</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />

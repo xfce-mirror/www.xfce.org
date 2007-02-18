@@ -1,16 +1,16 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" /></div>
 
 <h1>Përgjegjësi i Kartelave Thunar</h1>
-<p>Thunar-i është një përgjegjës i ri e modern kartelsh për Mjedisin Xfce për Desktop.
-  Thunar-i është hartuar duke nisur nga zeroja për të qenë i shpejtë dhe i lehtë në përdorim. 
+<p>Thunar-i është një përgjegjës i ri e modern kartelash për Mjedisin Desktop Xfce.
+  Thunar-i u hartua nisur nga zeroja, për të qenë i shpejtë dhe i lehtë në përdorim. 
   Ndërfaqja e tij e përdoruesi është e qëruar dhe intuitive, dhe nuk përfshin mundësi të padobishme
-  apo mjegulluese. Thunar-i është i shpejtë dhe i përgjegjshëm me një kohë
+  apo mjegulluese. Thunar-i është i shpejtë dhe përgjigjet me një kohë
   të mirë nisjeje dhe ngarkimi drejtorie.</p>
 
 <p>Thunar-i vë në jetë standarde të ndryshëm FreeDesktop.org për integrim të harmonishëm
   me botën e sotme të desktopit për UNIX/Linux. Kjo do të thotë që nuk keni nevojë
   ta rregulloni sistemin tuaj në ndonjë mënyrë të veçantë apo të shpenzoni orë të tëra
-  duke formrsuar përgjegjësin e kartelave, përkundrazi, thjesht do të punëjo, nëse sistemi
+  duke formësuar përgjegjësin e kartelave, përkundrazi, thjesht do të punojë, nëse sistemi
   juaj përputhet me standardet FreeDesktop.org.</p>
 
 <h2>Lidhje të Jashtme</h2>

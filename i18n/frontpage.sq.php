@@ -11,7 +11,7 @@
 	</div>
 	<div id="front-intro-about">
 		<h1>Rreth Xfce-së</h1>
-		<p>Xfce-ja është një mjedis desktop i peshës së lehtë për sisteme të ndryshëms *NIX. Hartuar për produktivitet, i ngarkon dhe ekzekuton shpejt zbatimet, duke ruajtur kështu burimet e sistemit.</p>
+		<p>Xfce-ja është një mjedis desktop i peshës së lehtë për sisteme të ndryshëms *NIX. Hartuar për produktivitet, i ngarkon dhe ekzekuton shpejt zbatimet, duke kursyer kështu burimet e sistemit.</p>
 		<p>Xfce 4.4 mishëron filozofinë tradicionale UNIX të modularitetit dhe të ripërdorshmërisë. Përbëhet nga një numër përbërësish që së bashku japin punimin e plotë të mjedisit desktop. Këta janë të paketuar veçmas dhe mund të zgjidhni e merrni nga paketat e gatshme e të krijoni mjedisin vetjak më të mirë të punës.</p>
 		<p class="readmore"><a href="/about/" title="Mësoni më tepër rreth Xfce...">mësoni më tepër</a></p>
 	</div>

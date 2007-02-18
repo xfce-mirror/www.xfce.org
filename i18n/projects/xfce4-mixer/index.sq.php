@@ -5,7 +5,7 @@
   <em>software</em>-i përmban një shtojcë për kontroll volumi për Panelin Xfce dhe një zbatim më vete
    për përzierës.</p>
 
-<p>Deri sot zbatimi për kontroll volumi mbulon mekanizmat vijues:</p>
+<p>Deri sot, zbatimi për kontroll volumi mbulon mekanizmat vijues:</p>
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />

@@ -1,10 +1,10 @@
-<h1>Developers Documentation (4.2) </h1>
+<h1>Dokumentacion për Zhvilluesa (4.2) </h1>
 <h3><a href="/documentation/4.2/api/libxfce4util/">libxfce4util</a></h3>
-<p>This component is the basic utilitiy library for the Xfce Desktop Environment. Everything else is build on top of this library and the functionality provided by it.</p>
+<p>Ky përbërës është librari bazë e dobishme për Mjedisin Desktop Xfce. Gjithçka tjetër ngrihet mbi këtë librari dhe funksionet e ofruara prej saj.</p>
 
 <h3><a href="/documentation/4.2/api/libxfce4mcs/">libxfce4mcs</a></h3>
-<p>This package contains the modules used in the Xfce Multi-Channel Settings (MCS) system. The manual describes both the manager-side API - used when creating plugins for the Xfce MCS Manager - and the client-side API - used in creation of clients that access their settings using the MCS system.</p>
+<p>Kjo paketë përfshin module të përdorur në sistemin Multi-Channel Settings (MCS)të Xfce. Doracaku përshkruan si API-n për administrim - përdorur kur krijohen shtojca për Përgjegjësin MCS të Xfce-së - ashtu edhe API për klientë - përdorur kur krijohen klientë te rregullimet e të cilëve hyhet duke përdorur sistemin MCS.</p>
 
 <h3><a href="/documentation/4.2/api/libxfcegui4/">libxfcegui4</a></h3>
-<p>The basic widget library for the Xfce Desktop Environment, it contains additional widgets, that extend the basic widget set provided by Gtk+, functions to communicate with other NET compliant Xclients and various utility functions and modules.</p>
+<p>Librari bazë <em>widget</em> për Mjedisin Desktop Xfce, përmban <em>widget</em>- shtesë, që zgjerojnë grupin bazë të <em>widget</em>-eve që ofrohet nga Gtk+, funksione për ndërlidhje me të tjerë klientë X të përputhshëm me NET-in dhe funksione e module të ndryshëm të dobishmish.</p>
 

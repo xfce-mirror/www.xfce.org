@@ -6,8 +6,6 @@
 
 <h3>Xfce 4.4:</h3>
 <ul>
-	<li><a href="/documentation/changelogs/4.4.0">4.4.0</a></li>
-	<li><a href="/documentation/changelogs/4.3.99.2">4.3.99.2</a></li>
 	<li><a href="/documentation/changelogs/4.3.99.1">4.3.99.1</a></li>
 	<li><a href="/documentation/changelogs/4.3.90.2">4.3.90.2</a></li>
 </ul>

@@ -12,7 +12,7 @@
 					</ul>
 				</div>
 				<div id="footer-copyright">
-					<a href="/about/credits#lead" title="Contact Olivier Fourdan">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
+					<a href="/about/credits#lead" title="Lidhuni me Olivier Fourdan-in">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
 				</div>
 				<div class="clearboth"></div>
 			</div>

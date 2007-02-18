@@ -1,7 +1,7 @@
 <ul>
-	<li><a href="/download">Version i qëndrueshëm</a>
+	<li><a href="/download">Versioni i qëndrueshëm</a>
 		<ul>
-			<li><a href="/download/#source">Kod Burim</a></li>
+			<li><a href="/download/#source">Kodi Burim</a></li>
 			<li><a href="/download/#installer">Instalues Grafik</a></li>
 			<li><a href="/download/#binaries">Dyorë</a></li>
 		</ul>

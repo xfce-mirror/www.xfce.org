@@ -2,11 +2,11 @@
 
 <h1>Librari</h1>
 <p>Libraritë thelbësore ofrojnë funksionet e zakonshëm të mejdisit Xfce. 
- Ka tre librari që mundësojnë funksionet e ndihmës jografik, <em>widget</em>-e
- dhe funksione të volitshëm për ndërfaqe grafike përdoruesi, dhe funksione
+ Ka tre librari që mundësojnë funksione ndihmësi jografik, <em>widget</em>-e
+ dhe funksione të volitshëm për ndërfaqe grafike përdoruesi, si dhe funksione
  për administrim të rregullimeve.</p>
 
-<h1>Karalteristika</h1>
+<h1>Karateristika</h1>
 <ul>
   <li><strong>libxfce4util</strong>: të dobishme themelore.</li>
   <li><strong>libxfcegui4</strong>: <em>widget</em>-e të njësuar.</li>

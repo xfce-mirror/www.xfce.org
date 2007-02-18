@@ -15,7 +15,7 @@
   <li><strong>Panele të shumtë</strong> me mbulim të punimit në shumë ekrane.</li>
 </ul>
 <ul>
-  <li><strong>Dukje ku mund të përshtatet</strong>:
+  <li><strong>Dukje ku mund të përshtaten/strong>:
     vendi,
     madhësia,
     fshehja e vetvetishme, dhe
@@ -29,13 +29,13 @@
     orë, 
     shtyllë sistemi, 
     faques, 
-    shfaqje desktop, dhe
+    shfaqje desktopi, dhe
     dalje ose kyçje ekrani.</li>
 </ul>
 <ul>
   <li><strong>Shtojca paneli të përparuar</strong>: 
     mbikëqyrës sistemi dhe rrjeti,
-    përpgjegjës <em>clipboard</em>,
+    përgjegjës <em>clipboard</em>-i,
     shënime,
     vend rreshti urdhrash,
     datë dhe kohë,
@@ -47,7 +47,7 @@
 
 <h2>Lidhje të Jashtme</h2>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" target="_blank" class="external">Shtojca paneli</a> prej
-  faqes së Projektit Goodies Project</p>
+  faqes së projektit Goodies Project</p>
 <h3>Subversion</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-panel%2F&amp;rev=0&amp;sc=0#/xfce4-panel/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>

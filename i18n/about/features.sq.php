@@ -3,9 +3,9 @@
   <li>Ndërplatformësh: Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin, dhe MacOS X</li>
   <li>Mjedis desktop i peshës së lehtë</li>
   <li>Zbatime themelore dhe të peshës së lehtë</li>
-  <li>Goodies për maksimum karakteristikash</li>
+  <li><em>Goodies</em> për më tepër anë</li>
   <li>Shumëekranësh dhe Xinerama i vërtetë</li>
-  <li>Mënyrë kioskë për të kufizuar fomrësimin</li>
+  <li>Mënyrë kioskë për të kufizuar formësimin</li>
   <li>Përkthyer në më shumë se 40 gjuhë</li>
 </ul>
 <ul>
@@ -21,22 +21,22 @@
   </ul>
 </ul>
 
-<p>Xfce ofron një mjedis desktop të peshës së lehtë me ikona dhe tema parazgjedhje.
+<p>Xfce-ja ofron një mjedis desktop të peshës së lehtë me ikona dhe tema parazgjedhje.
   Fillimisht plotësohet me përgjegjës desktopi përmes ofrimit të ikonave, më pas
   me shumë panele për një menu parazgjedhje, zbatime të parapëlqyer dhe shtojca
-  ekstra, dhe një përgjegjës dritaresh me elementë Xorg ndërthurjeje për
-  tejdukshmëri dhe hije. Për më tepër i shkon edhe një përgjegjësi sesionesh për
-  funksione nisjesh dhe fikjesh, dhe një përgjegjës rregullimesh për përbërësa globalë
-  Xfce dhe objekte të përgjithshëm.</p>
-<p>Xfce furnizon edhe zbatime, të hartuar të jenë të peshës së lehtë për mjedis
-  desktop. këta zbatime janë: emulatori modern terminali me skeda, një kalendar me
-  bazë iCal për të shënuar ngjarje dhe takime, dhe një përzierës për të kontrolluar
-  volumet. Disa zbatime Xfce shoqërohen me panel shtojcash. Për shembull kalendari
-  sjell edhe një shtojcë për të shfaqur një datë të ndryshueshme, kurse përzierësi
-  ofrn kontroll për volumin e përgjithshëm.</p>
+  ekstra, dhe një përgjegjës dritaresh me elementë ndërthurjeje Xorg për
+  tejdukshmëri dhe hije. Për më tepër, i shkon për shtat edhe një përgjegjësi sesionesh
+  për funksione nisjesh dhe fikjesh, si dhe një përgjegjësi rregullimesh për përbërësa   
+  globalë Xfce dhe objekte të përgjithshëm.</p>
+<p>Xfce furnizon edhe zbatime për mjedis desktop, të hartuar të jenë të peshës së lehtë.  
+  Këta zbatime janë: emulator modern terminali, me skeda; një kalendar me
+  bazë iCal për të shënuar ngjarje dhe takime; dhe një përzierës për të kontrolluar
+  volumin e zërit. Disa zbatime Xfce shoqërohen me panel shtojcash. Për shembull kalendari
+  sjell edhe një shtojcë për të shfaqur data të ndryshueshme, kurse përzierësi ofron 
+  kontroll për volumin e përgjithshëm.</p>
 <p>Së fundi Xfce ofron zbatime për përdorues të thjeshtë, hartuar përherë për të qenë
   të peshës së lehtë, të cilët janë: një përpunues i thjeshtë dhe i shpejtë tekstesh
-  me karakteristika shtypjeje, një përgjegjës kartelash i lehtë për t'u përdorur,
-  një lojtës mediash të bazuar në Xine, një pjekës CD-sh dhe DVD-sh, dhe një përgjegjës
+  me funksione shtypjeje, një përgjegjës kartelash i lehtë për t'u përdorur,
+  një lojtës mediash i bazuar në Xine, një pjekës CD-sh dhe DVD-sh, dhe një përgjegjës
   arkivash që mbulon shumë formate ngjeshjesh.</p>
 
