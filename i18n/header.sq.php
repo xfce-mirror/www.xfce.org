@@ -25,10 +25,11 @@
 		<?php echo $layout_css; ?>
 	</style>
 
-	<link rel="alternate" type="application/rss+xml" title="Lajme nga Xfce" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
-	<link rel="alternate" type="application/rss+xml" title="Blogu i Xfce-së" href="http://blog.xfce.org/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 </head>
-<body>
+<body id="top">
+	<p id="header-top"><a href="#top" title="Ga naar het begin van de pagina">Top</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Anashkalo lundrim site-i" accesskey="1">Anashkalo lundrim <em>site</em>-i</a> (1)
 <?php if ($content_bool) { ?>

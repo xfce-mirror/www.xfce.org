@@ -1,6 +1,18 @@
 <h1>Shpërndarje me Bazë Xfce-në</h1>
 <p>Këtu keni një listë me shpërndarje që përdorin Xfce-në si desktopin e tyre parësor.</p>
 
+<h2>SAM Linux Desktop</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+    <tr>
+        <td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
+        <td>SAM Linux Desktop është një live CD vetënisës që përmban një OS linux desktop të plotë. Nuk ju duhet ta instaloni në harddisk, xhiron plotësisht prej pajisjes suaj cd dhe RAM-it tuaj.</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website">Website</a> | <a href="http://distrowatch.com/sam" target="_blank" title="Visit the Sam Linux page at DistroWatch">DistroWatch</a></td>
+    </tr>
+</table>
+
 <h2>Xubuntu</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
