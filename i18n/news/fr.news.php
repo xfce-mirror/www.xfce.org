@@ -15,9 +15,6 @@ $posted_by = "Posté par";
 $news_translated = array (
 /*
     array (
-        'id'      => <previous id number + 1>
-        'date'    => '<day> <month> <year>',
-        'author'  => '<you>',
         'title'   => '<title>',
         'content' => '<stuff you want to say>',
     ),
