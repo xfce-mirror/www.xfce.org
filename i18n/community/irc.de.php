@@ -1,0 +1,3 @@
+<h1>Der IRC zu Xfce</h1>
+
+<p>Wenn Sie ein Problem haben, dass sich nicht so leicht lösen lässt, können Sie Ihre Frage auch auf unserem IRC-Kanal <a href="irc://irc.freenode.net/#xfce">#xfce auf irc.freenode.net</a> stellen. Hier gibt es diverse aktive Nutzer, die ihnen weiterhelfen können. Allerdings sollten Sie zunächst in der <a href="/documentation">Dokumentation</a> nachschlagen, ob Ihr Problem dort behandelt wird.</p>
