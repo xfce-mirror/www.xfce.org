@@ -19,7 +19,7 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
-    => 11 array (
+    11 => array (
         'title'   => 'Xfce 4.4.0 released',
         'content' => 'After more than two years of development, Xfce 4.4.0 has just been released.'.
                      '[br]'.
@@ -32,7 +32,7 @@ $news_translated = array (
                      'Download Xfce 4.4 from the new Xfce website:[br]'.
                      '[link=/download]http://www.xfce.org/download[/link]',
     ),    
-    => 10 array (
+    10 => array (
         'title'   => 'Xfce 4.2.4 released',
         'content' => 'A new bug fix release of Xfce 4.2 is available. This release is supposed '.
                      'to be the last release for the 4.2 branch. It includes several fixes ported '.
