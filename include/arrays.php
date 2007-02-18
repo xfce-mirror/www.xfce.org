@@ -26,7 +26,7 @@
  */
 $languages = array (
         "be" => array ('Belarusian','UTF-8', 'be_BY.utf8'),
-/*      "de" => array ('Deutsch','UTF-8', 'de_DE.utf8'), */
+        "de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
         "en" => array ('English', 'UTF-8', 'en_EN'),
 /*      "es" => array ('Español', 'UTF-8', 'es'), */
         "eu" => array ('Basque', 'UTF-8', 'eu'),
