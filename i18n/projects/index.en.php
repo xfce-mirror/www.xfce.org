@@ -147,7 +147,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">Volume Control</a></h3>
-			<p>A volume control for the panel. It includes a mixer dialog wich supports ALSA,
+			<p>A volume control for the panel. It includes a mixer dialog which supports ALSA,
 			OSS and Sun audio.</p>
 		</td>
 		<td width="48" valign="top">

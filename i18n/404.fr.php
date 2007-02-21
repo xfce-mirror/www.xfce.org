@@ -6,10 +6,11 @@
 
 <ul>
 	<li>Si vous avez entré le lien dans la barre d'adresse, vérifiez-en l'orthographe.</li>
-	<li>Allez sur <a href="/">Xfce home page</a> et cherchez des liens vers l'information qe vous cherchez.</li>
+	<li>Allez sur la <a href="/">page d'accueil</a> et cherchez des liens vers l'information que vous cherchez.</li>
 	<li>Utilisez la barre de navigation sur la droite pour trouver ce que vous cherchez.</li>
 	<li>Cliquez sur le bouton retour pour essayer un autre lien.</li>
-	<li>Entrez un mot clef dans la barre de recherche on haut de la page pour rechercher l'information sur le site Xfce.</li>
+	<li>Entrez un mot clef dans la barre de recherche en haut de la page pour rechercher l'information sur le site Xfce.</li>
 </ul>
 
-<p>Si vous ne trouvez vraiment pas mais êtes sûr que l'information devrait être présente, envoyez un mail à <a href="mailto:webmaster@xfce.org"> et exposez votre problème.</p>
+<p>Si vous ne trouvez vraiment pas mais êtes sûr que l'information devrait être présente, envoyez un <a href="mailto:webmaster@xfce.org">mail au webmaster</a> et exposez votre problème.</p>
+

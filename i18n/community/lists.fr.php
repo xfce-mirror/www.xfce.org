@@ -1,5 +1,5 @@
 <h1>Listes de diffusion</h1>
-<p><strong>NOTE:</strong> Il est obligatoire de s'inscrire avant de pouvoir poster sur la liste. </p>
+<p><strong>NOTE:</strong> Il est obligatoire de s'inscrire avant de pouvoir poster sur les listes. </p>
 
 <table width="99%" cellpadding="2">
     <tr>
@@ -28,7 +28,7 @@
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
-		<td>Pour être notifié des ajouts au SVN Xfce4.</td>
+		<td>Pour être notifié des modifications SVN Xfce4.</td>
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
@@ -36,7 +36,7 @@
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/goodies-commits/">goodies-commits</a></td>
-		<td>Pour être notifié des ajouts au SVN Goodies.</td>
+		<td>Pour être notifié des modifications SVN Goodies.</td>
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>

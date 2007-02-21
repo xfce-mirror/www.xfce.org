@@ -1,6 +1,6 @@
 <h1>Dépendances système de Xfce</h1>
-<p>Tous les paquets, exceptés xfce4-dev-tools, dépendent de gtk+&nbsp;&gt;=&nbsp;2.6 et glib&nbsp;&gt;=&nbsp;2.6.4. L'ordre des dépendances dans le tableau ci-dessous correspond aussi à l'ordre conseillé pour la compilation de ces paquets.<br />
-Il est aussi recommandé de compiler les différents éléments Xfce de la même version de sortie.</p>
+<p>Tous les paquets, excepté xfce4-dev-tools, dépendent de gtk+&nbsp;&gt;=&nbsp;2.6 et glib&nbsp;&gt;=&nbsp;2.6.4. L'ordre des dépendances dans le tableau ci-dessous correspond aussi à l'ordre conseillé pour la compilation de ces paquets.<br />
+Il est aussi recommandé de compiler les différents éléments Xfce de même version.</p>
 
 <h2>Tableau des dépendances des paquets :</h2>
 <table width="100%">
@@ -133,7 +133,7 @@ Il est aussi recommandé de compiler les différents éléments Xfce de la même
 
 <h2>Paquets recommandés :</h2>
 <ul>
-    <li>librsvg (support des icônes extensibles)</li>
+    <li>librsvg (support des icônes vectorielles)</li>
     <li>hicolor-icon-theme (meilleur support pour les thèmes d'icônes)</li>
     <li>openssh</li>
     <li>xscreensaver (verouiller l'écran)</li>

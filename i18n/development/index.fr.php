@@ -1,5 +1,5 @@
 <h1>Développement</h1>
-<p>Si vous vous demandez comment vous pourriez aider le projet Xfce, commencez par vous inscrire sur la <a href="../community/lists">liste de distribution</a> et sur le <a href="http://forum.xfce.org">forum</a> et considérez laquelle des sections suivantes vous convient le mieux.</p>
+<p>Si vous vous demandez comment vous pourriez aider le projet Xfce, commencez par vous inscrire sur les <a href="../community/lists">listes de diffusion</a> et sur le <a href="http://forum.xfce.org">forum</a> et considérez laquelle des sections suivantes vous convient le mieux.</p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 <tr>
@@ -45,7 +45,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://wiki.xfce.org">Wiki</a></h3>
-			<p>Nous avons un <a href="http://wiki.xfce.org">wiki</a> qui est ouvert à n'importe qui Xfce, où vous pouvez collaborer entre vous à propos de discussions variées autour de Xfce.</p>
+			<p>Nous avons un <a href="http://wiki.xfce.org">wiki</a> qui est ouvert à n'importe qui où vous pouvez avoir des discussions variées autour de Xfce.</p>
 		</td>
 	</tr>
 </table>

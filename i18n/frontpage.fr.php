@@ -73,7 +73,7 @@
 				echo $frontpage["blog"];
 			?>
 			<div class="readmore">
-				<a href="http://blog.xfce.org/" title="Voir toute la page de blogs Xfce...">visiter les blogs</a>
+				<a href="http://blog.xfce.org/" title="Voir tous les billets du blog Xfce...">visiter le blog</a>
 			</div>
 			<h2>Raccourcis</h2>
 			<ul>

@@ -5,7 +5,7 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.sam-linux.org/" target="_blank" title="Visit the Sam Linux website"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
-		<td>SAM Linux Desktop est un live-CD bootable contenant un système d'opération linux de bureau. Il n'est pas nécessaire de l'installer sur le disque dur, tout le système est fonctionnel à partir dur CD-ROM et la RAM de l'ordinateur.</td>
+		<td>SAM Linux Desktop est un live-CD bootable contenant un système d'exploitation de bureau. Il n'est pas nécessaire de l'installer sur le disque dur, tout le système est fonctionnel à partir dur CD-ROM et la RAM de l'ordinateur.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
@@ -17,7 +17,7 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu website"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
-		<td>Xubuntu est une distribution linux basée sur Ubuntu. Au contraire d'Ubuntu, Xubuntu utilise le très léger environnement de bureau Xfce et est optimisé pour les machines moins puissantes. La distribution inclut avant tout des applications GTK+ autant que possible.</td>
+		<td>Xubuntu est une distribution linux basée sur Ubuntu. Au contraire d'Ubuntu, Xubuntu utilise l'environnement de bureau Xfce et est optimisé pour les machines moins puissantes. La distribution inclut avant tout des applications GTK+ autant que possible.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
@@ -53,8 +53,8 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux website"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
-		<td>Lunar Linux est une distribution basée sur des fichiers sources. Bien qu'il n'y ait pas d'environnement de bureau par défaut dans Lunar, il se trouve avoir un excellent support pour Xfce, avant tout car plusieurs développeurs Xfce sont également développeurs pour Lunar.<br />
-            Un autre point remarquable est que tous les serveurs de Xfce fonctionnent sous Lunar!</td>
+		<td>Lunar Linux est une distribution basée sur le code source. Bien qu'il n'y ait pas d'environnement de bureau par défaut dans Lunar, il se trouve avoir un excellent support pour Xfce, notamment parce que plusieurs développeurs Xfce sont également des développeurs Lunar.<br />
+            Un autre point remarquable est que tous les serveurs de Lunar fonctionnent sous Xfce !</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
