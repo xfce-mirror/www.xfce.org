@@ -15,7 +15,7 @@
   <li><strong>Panele të shumtë</strong> me mbulim të punimit në shumë ekrane.</li>
 </ul>
 <ul>
-  <li><strong>Dukje ku mund të përshtaten/strong>:
+  <li><strong>Dukje ku mund të përshtaten</strong>:
     vendi,
     madhësia,
     fshehja e vetvetishme, dhe
