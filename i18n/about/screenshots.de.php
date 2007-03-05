@@ -1,5 +1,5 @@
-<h1>Screenshots</h1>
-<p>Einige Screenshots von Xfce, nach Versionsnummer geordnet.</p>
+<h1>Bildschirmaufnahmen</h1>
+<p>Einige Bildschirmaufnahmen von Xfce, nach Versionsnummer geordnet.</p>
 
 <h2>Xfce 4.4 Beta</h2>
 <p>

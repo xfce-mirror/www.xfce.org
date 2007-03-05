@@ -2,7 +2,7 @@
 	$top=true;
 ?>
 <h1>Projekte</h1>
-<p>Das Xfce Projekt stellt mehrere eigenständige Projekte bereit, welche für verschiedene Einsatzbereiche des Desktops konzipiert wurden. Jedes dieser Projekte hat seine eigene Projektseite, welche detaillierte Informationen über diese bereitstellt.</p>
+<p>Das Xfce Projekt stellt mehrere eigenständige Projekte bereit, die für die verschiedenen Bereiche der Arbeitsoberfläche konzipiert wurden. Jedes dieser Projekte hat seine eigene Projektseite, die detaillierte Informationen über diese bereitstellt.</p>
 
 <h2 id="core">Kernkomponenten</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -19,7 +19,7 @@
 			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-panel/">Menüleiste</a></h3>
+			<h3><a href="/projects/xfce4-panel/">Xfce4-Leiste</a></h3>
 			<p>Die Xfce4-Leiste ist Teil der Xfce 4 Arbeitsumgebung und beinhaltet einige Zusatzfunktionen.
 			Darunter einen Programmstarter, Programmmenüs, eine Uhr, Arbeitsflächenwechsler und vieles mehr.</p>
 		</td>
@@ -27,10 +27,10 @@
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfdesktop/">Arbeitsflächenverwaltung</a></h3>
+			<h3><a href="/projects/xfdesktop/">Verwaltung der Arbeitsoberfläche</a></h3>
 			<p>Dieses Programm ermöglicht es, ein Hintergrundbild auf der Arbeitsoberfläche anzeigen, es stellt
-			ein Rechtsklick-Menü zur Verfügung, weiters stellt es eine Liste der geöffneten Fenster bereit und es
-			könnten bestimmte Symbole oder optional Symbole der minimierten Programme auf der Arbeitsoberfläche
+			ein Rechtsklick-Menü zur Verfügung, außerdem stellt es eine Liste der geöffneten Fenster bereit und es
+			können bestimmte Symbole oder optional Symbole der minimierten Programme auf der Arbeitsoberfläche
 			dargestellt werden.</p>
 		</td>
 	</tr>
@@ -46,7 +46,7 @@
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Druckerverwaltung</a></h3>
-			<p>Stellt eine graphische Oberfläche für die installierten Druckersysteme bzw. Drucker dar.
+			<p>Stellt eine grafische Oberfläche für die installierten Druckersysteme bzw. Drucker dar.
 			Xfprint kann CUPS, BSD-LPR oder eine Datei als Ziel benutzen. Der zu verwendende Drucker wird
 			von dem am Rechner benutzen Druckersystem ausgewählt.</p>
 		</td>
@@ -66,13 +66,13 @@
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce-utils/">Hilfsprogramme</a></h3>
 			<p>Unerlässliche Hilfsprogramme; darunter fallen z.B. der &quot;Über-Dialog&quot;, ein Dialog um
-			Programme auszuführen und weitere wichtige Scripts, welche von anderen Paketen genutzt werden.</p>
+			Programme auszuführen und weitere wichtige Scripts, die von anderen Paketen genutzt werden.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/libraries/">Xfce Bibliotheken</a></h3>
+			<h3><a href="/projects/libraries/">Xfce-Bibliotheken</a></h3>
 			<p>Die drei Hauptbibliotheken von Xfce (libxfcegui4, libxfce4mcs and libxfce4utils) werden von fast
 			jeder Xfce-Anwendung genutzt.</p>
 		</td>
@@ -91,14 +91,14 @@
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
 			<p>Mousepad ist ein auf Leafpad basierender Texteditor für Xfce. Eine wichtige
 			Anforderung für Mousepad war die Druckerunterstützung, welche mit Leafpad
-			zwecks mehreren Gründen nicht einfach zu realisieren gewesen wäre.</p>
+			aus mehreren Gründen nicht einfach zu realisieren gewesen wäre.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt ist der offizielle Ansatz, den berüchtigten Xfce Installer zu einem
+			<p>InstallIt ist der offizielle Ansatz, den berühmten Xfce Installer zu einem
 			übergreifenden Softwareverwaltungsprogramm und Installationswerkzeug umzubauen.
 			InstallIt ist in Python geschrieben und verwendet die Bibliothek Python-GTK.</p>
 		</td>
@@ -107,7 +107,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
-			<p>Ist ein modernes Terminal für eine Unix/Linux Arbeitsoberfläche - und genau auf
+			<p>Ist ein modernes Terminal für eine Unix/Linux Arbeitsoberfläche und genau auf
 			die Xfce Arbeitsumgebung abgestimmt.</p>
 		</td>
 	</tr>
@@ -116,7 +116,7 @@
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/thunar/">Thunar Dateiverwaltung</a></h3>
+			<h3><a href="/projects/thunar/">Dateimanager Thunar</a></h3>
 			<p>Thunar ist eine neue, moderne Dateiverwaltungssoftware, speziell für die Xfce Arbeitsumgebung.
 			Thunar wurde von Grund auf neu entwickelt, mit zwei Zielen: Geschwindigkeit und einfache Bedienbarkeit.</p>
 		</td>
@@ -125,7 +125,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn ist ein graphisches CD- und DVD-Brennprogramm, welches im Hintergrund auf die cdrtools (cdrecord, cdrdao,
+			<p>Xfburn ist ein grafisches CD- und DVD-Brennprogramm, das im Hintergrund auf die cdrtools (cdrecord, cdrdao,
 			mkisofs) zurückgreift.</p>
 		</td>
 		<td width="48" valign="top">
@@ -158,8 +158,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
-			<p>Xfmedia ist ein schlichter, einfach zu bedienender Medienspieler, welcher auf der
-			xine Architektur basiert. Die GTK+ Oberfläche ist zum abspielen und verwalten von
+			<p>Xfmedia ist ein schlichter, einfach zu bedienender Medienspieler, der auf der
+			Xine-Architektur basiert. Die GTK+ Oberfläche ist zum abspielen und verwalten von
 			Audiodateien ausgelegt, kann aber auch Videodateien wiedergeben.</p>
 		</td>
 	</tr>
@@ -169,15 +169,15 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Archivverwaltung</a></h3>
-			<p>Xarchiver ist eine GTK+2 Oberfläche für folgende Archivprogramme: 7z, zip, rar,
+			<p>Xarchiver ist eine GTK+2 Oberfläche für folgende Archivierungsprogramme: 7z, zip, rar,
 			tar, bzip2, gzip, arj and rpm.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Entwicklungswerkzeuge</a></h3>
-			<p>Diese stellen ein Paket von Scripts und M4 Macros zur Verfügung, welche es ermöglichen,
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce-Entwicklungswerkzeuge</a></h3>
+			<p>Diese stellen ein Paket von Scripts und M4-Macros zur Verfügung, welche es ermöglichen,
 			die Xfce Kernkomponenten ohne viel Aufwand selbst zu kompilieren.</p>
 		</td>
 	</tr>
@@ -206,8 +206,8 @@
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://xfc.xfce.org">Xfce Grundklassen</a></h3>
-			<p>Dies ist eine Menge von integrierten C++ Klassen, um Xfce Anwendungen auf
+			<h3><a href="http://xfc.xfce.org">Xfce-Grundklassen</a></h3>
+			<p>Die Xfce-Grundklassen sind ein Satz von integrierten C++ Klassen, um Xfce Anwendungen auf
 			UNIX-ähnlichen Betriebssystemen, wie z.B. Linux, zu entwickeln</p>
 		</td>
 	</tr>
@@ -216,7 +216,7 @@
 			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
+			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4-Perl</a></h3>
 			<p>Xfce4-perl sind Xfce Bindings für Perl. Außerdem sind Bindings für Menüleisten-Module
 			integriert. </p>
 		</td>
@@ -225,7 +225,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
-			<p>DBH ist eine Bibliothek um Disk Based Hashtables auf POSIX Systemen zu erstellen.</p>
+			<p>DBH ist eine Bibliothek um "Disk Based Hashtables" auf POSIX Systemen zu erstellen.</p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
 		<td width="33%" valign="top">&nbsp;</td>
@@ -239,16 +239,16 @@
 			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>GTK Themenverwaltung</h3>
-			<p>Ein Themensystem für GTK2. Beeinflusst zwar nicht die Produktivität des Systems, aber
-			man kann dadurch die Arbeitsoberfläche nach den eigenen Wünschen anpassen.</p>
+			<h3>GTK-Themenverwaltung</h3>
+			<p>Ein Themensystem für GTK2, das zwar nicht unbedingt notwendig ist, aber
+			man kann damit die Arbeitsoberfläche nach den eigenen Wünschen anpassen.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3>Symbolthemen</h3>
-			<p>Standardsymbolthema für Xfce 4. Es beinhaltet PNG und SVG Symbole.</p>
+			<p>Standardsymbolthema für Xfce 4. Es beinhaltet sowohl PNG als auch SVG Symbole.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />
