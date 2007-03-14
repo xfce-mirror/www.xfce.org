@@ -24,8 +24,8 @@
 <div id="front-container">
 	<div id="front-news">
 		<div id="front-news-content">
-			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif" 
-alt="feed" title="'Xfce Berriak'-era harpidetu..." width="12" height="12" border="0" align="right" /></a>Azken 
+			<h2><a href="/?feed=rss2&amp;lang=<?php echo $lang ?>"><img src="/layout/images/feed.gif"
+alt="feed" title="'Xfce Berriak'-era harpidetu..." width="12" height="12" border="0" align="right" /></a>Azken
 Berriak</h2>
 			<?php
 				echo $frontpage["news"];
@@ -61,7 +61,7 @@ Berriak</h2>
 						<span class="grey">CD eta DVD grabaketa aplikazioa.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia xine motorrean oinarrituriko medio erreproduzitzaile sinple eta erabilerraz bat da.</span>
 					</li>

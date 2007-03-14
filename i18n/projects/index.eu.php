@@ -2,8 +2,8 @@
 	$top=true;
 ?>
 <h1>Proiektuak</h1>
-<p>Xfce proiektuak idazmahaiaren zati bakoitzerako zenbait bereiziriko proiektu ditu. 
-Proiektu bakoitzak bere 
+<p>Xfce proiektuak idazmahaiaren zati bakoitzerako zenbait bereiziriko proiektu ditu.
+Proiektu bakoitzak bere
 proiektu orrialdea du argibide gehiago emateko.</p>
 
 <h2 id="core">Muin Osagaiak</h2>
@@ -40,14 +40,14 @@ proiektu orrialdea du argibide gehiago emateko.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-session/">Saio Kudeatzailea</a></h3>
-                        <p>Saio kudeatzaileak Xfce idazmahai Ingurunearen abiarazte eta 
+                        <p>Saio kudeatzaileak Xfce idazmahai Ingurunearen abiarazte eta
 itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Inprimatze Laguntzailea</a></h3>
-			<p>Inprimatzeko interfaze grafiko batez hornitzen du. CUPS, BSD-LPR edo fitxategi helburu 
+			<p>Inprimatzeko interfaze grafiko batez hornitzen du. CUPS, BSD-LPR edo fitxategi helburu
 			bezala kudea ditzake eta inprimagailuak hautatutako sistematik jasotzen ditu.</p>
 		</td>
 		<td width="48" valign="top">
@@ -73,7 +73,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce Liburutegiak</a></h3>
-			<p>Xfce oinarrizko liburutegi zuhaitza (libxfcegui4, libxfce4mcs eta 
+			<p>Xfce oinarrizko liburutegi zuhaitza (libxfcegui4, libxfce4mcs eta
 			libxfce4utils) Xfce aplikazioek behintzat erabilia. </p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
@@ -89,8 +89,8 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
-			<p>Mousepad Leafpad-en oianrrituriko Xfce-rentzako garaturiko oinarrizko testu 
-			editore bat da. Mousepad garatzeko arrazoi nagusia inprimatze modu bat ziurtatzearena 
+			<p>Mousepad Leafpad-en oianrrituriko Xfce-rentzako garaturiko oinarrizko testu
+			editore bat da. Mousepad garatzeko arrazoi nagusia inprimatze modu bat ziurtatzearena
 			izan zen hau ez bait zen erraza Leafpad-rekin arrazoi ezberdinak medio.</p>
 		</td>
 		<td width="48" valign="top">
@@ -98,7 +98,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt Xfce instalatzailea software kudeaketa eta instalazio lanabes orokorrago bat 
+			<p>InstallIt Xfce instalatzailea software kudeaketa eta instalazio lanabes orokorrago bat
 			sortzeko saiakera da. Python-GTK erabiliaz Pythonen idatzia dago.</p>
 		</td>
 		<td width="48" valign="top">
@@ -106,7 +106,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminala</a></h3>
-			<p>Terminala Unix/Linux idazmahaientzat terminal emualdore berria da - Xfce idazmahaia 
+			<p>Terminala Unix/Linux idazmahaientzat terminal emualdore berria da - Xfce idazmahaia
 			ingurunearentzat garatua nagusiki.</p>
 		</td>
 	</tr>
@@ -116,7 +116,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Thunar Fitxategi Kudeatzailea</a></h3>
-			<p>Thunar Xfce Idazmahai Ingurunearen fitxategi kudeatzaile modernoa da. Maila baxuenetik 
+			<p>Thunar Xfce Idazmahai Ingurunearen fitxategi kudeatzaile modernoa da. Maila baxuenetik
 			erabilerraza izan dadin garatua. </p>
 		</td>
 		<td width="48" valign="top">
@@ -124,7 +124,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn cdrtools (mkisofs, cdrdao, readcd eta cdrecord) interfaze bezala erabiliaz CD 
+			<p>Xfburn cdrtools (mkisofs, cdrdao, readcd eta cdrecord) interfaze bezala erabiliaz CD
 			grabaketa tresna bat da.</p>
 		</td>
 		<td width="48" valign="top">
@@ -141,7 +141,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">Aplikazio Bilatzailea</a></h3>
-			<p>Sistema instalaturiko aplikazioak bilatu, abiarazi eta haien informazio eskuratzeko 
+			<p>Sistema instalaturiko aplikazioak bilatu, abiarazi eta haien informazio eskuratzeko
 			gaitasuna du.</p>
 		</td>
 		<td width="48" valign="top">
@@ -164,7 +164,7 @@ itzaltzea kontrolatzen du.</p>
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
+			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 			<p>Xfmedia xine motorrean oinarritutako media erreproduzitzaile sinple eta erabilerraza da.
 			GTK+ Interfazea audio fitxategiak kudeatu eta erreproduzitzeko garatua izan da, baina
 			xine motorra erabiltzen dueneaz, bideoak ere erreproduzitu ditzake.</p>
@@ -182,7 +182,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td valign="top">
 			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Garapen Lanabesak</a></h3>
-			<p>Xfce garapen lanabesak Xfce idazmahai muin osagaiak sortzeko beharrezko diren M4 macro eta 
+			<p>Xfce garapen lanabesak Xfce idazmahai muin osagaiak sortzeko beharrezko diren M4 macro eta
 			script bilduma da..</p>
 		</td>
 	</tr>
@@ -196,7 +196,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&L=5">Libexo</a></h3>
-			<p>Xfce garapen liburutegi nagusiak idazmahai garapenerako, libexo aplikazio garapena 
+			<p>Xfce garapen liburutegi nagusiak idazmahai garapenerako, libexo aplikazio garapena
 			helbururtzat garatua izan da.</p>
 		</td>
 		<td width="48" valign="top">
@@ -204,7 +204,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>Pyxfce python-entzat Xfce loturak dira. Python erabili dezakezu Xfce programak 
+			<p>Pyxfce python-entzat Xfce loturak dira. Python erabili dezakezu Xfce programak
 			sortzeko bein pyxfce instalatu duzunean.</p>
 		</td>
 		<td width="48" valign="top">
@@ -212,7 +212,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xfc.xfce.org">Xfce Sormen klaseak</a></h3>
-			<p>Xfce Sormen Klaseak Linux bezalako UNIX-motako sistema eragileetan Xfce garatzeko C++ 
+			<p>Xfce Sormen Klaseak Linux bezalako UNIX-motako sistema eragileetan Xfce garatzeko C++
 			klaseez osaturiko bilduma bat da.</p>
 		</td>
 	</tr>
@@ -244,7 +244,7 @@ itzaltzea kontrolatzen du.</p>
 		</td>
 		<td width="33%" valign="top">
 			<h3>GTK Gai Motorra</h3>
-			<p>GTK2-rentzat gai motorra. Ez da beharrezkoa idazmahaiarentzat baina gai oso polita da 
+			<p>GTK2-rentzat gai motorra. Ez da beharrezkoa idazmahaiarentzat baina gai oso polita da
 			beraz behintzat begirada bat bota beharko zenioke.</p>
 		</td>
 		<td width="48" valign="top">

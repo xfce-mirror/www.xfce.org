@@ -55,7 +55,7 @@
 						<span class="grey">Programma voor het schrijven van CD's en DVD's.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia is een simpele multimediaspeler, gebaseerd op Xine.</span>
 					</li>

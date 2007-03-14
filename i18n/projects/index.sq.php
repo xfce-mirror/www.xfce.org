@@ -87,8 +87,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
-			<p>Mousepad është një përpunues tekstesh për Xfce-në, i bazuar në Leafpad. 
-			Arsyeja fillestare për hartimin e Mousepad-it qe krijimi i asistencës për shtypje, 
+			<p>Mousepad është një përpunues tekstesh për Xfce-në, i bazuar në Leafpad.
+			Arsyeja fillestare për hartimin e Mousepad-it qe krijimi i asistencës për shtypje,
 			që për arsye të ndryshme do të ishte e vështirë për Leafpad-in.</p>
 		</td>
 		<td width="48" valign="top">
@@ -140,7 +140,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">Gjetës Zbatimesh</a></h3>
-			<p>Ju lejon të kërkoni, të gjeni të dhëna rreth zbatimeve të instaluar në sistemin tuaj dhe t'i 
+			<p>Ju lejon të kërkoni, të gjeni të dhëna rreth zbatimeve të instaluar në sistemin tuaj dhe t'i
                          nisni ata.</p>
 		</td>
 		<td width="48" valign="top">
@@ -164,7 +164,7 @@
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
+			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 			<p>Xfmedia është luajtës mediash i thjeshtë dhe i lehtë në përdorim, i bazuar në
 			 mekanizmin xine. GUI GTK+ përqëndrohet në luajtjen dhe administrimin e kartelave
 			 audio, por, duke qenë i bazuar në xine, mbulon po ashtu edhe video.</p>
@@ -195,7 +195,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&L=5">Libexo</a></h3>
-			<p>Libraritë thelbësore të Xfce-së janë për zhvillim desktopi, libexo është për 
+			<p>Libraritë thelbësore të Xfce-së janë për zhvillim desktopi, libexo është për
 			zhvillim zbatimesh.</p>
 		</td>
 		<td width="48" valign="top">
@@ -203,7 +203,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>Pyxfce janë lidhmat Xfce për python. Mund të përdorni python për të krijuar programe xfce, 
+			<p>Pyxfce janë lidhmat Xfce për python. Mund të përdorni python për të krijuar programe xfce,
 			pasi të keni instaluar pyxfce.</p>
 		</td>
 		<td width="48" valign="top">
@@ -243,7 +243,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3>Mekanizëm Temash GTK</h3>
-			<p>Një mekanizëm temash për GTK2. Jo i domosdoshëm për desktopin, por është 
+			<p>Një mekanizëm temash për GTK2. Jo i domosdoshëm për desktopin, por është
 			një mekanizëm i bukur temash, kështu që mund ta provoni.</p>
 		</td>
 		<td width="48" valign="top">

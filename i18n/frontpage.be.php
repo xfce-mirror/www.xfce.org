@@ -55,7 +55,7 @@
 						<span class="grey">Дастасаваньне для запісу CD і DVD.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia - гэта просы ў выкарыстаньні мэдыяплэер, заснаваны на рухавіку xine.</span>
 					</li>

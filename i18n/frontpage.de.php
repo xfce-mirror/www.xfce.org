@@ -55,7 +55,7 @@
 						<span class="grey">Eine Anwendung zum brennen von CDs und DVDs.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia ist ein einfacher und leicht zu bedienender Medienspieler, der auf die Xine-Engine aufbaut.</span>
 					</li>

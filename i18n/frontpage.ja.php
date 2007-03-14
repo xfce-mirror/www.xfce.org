@@ -58,7 +58,7 @@
 						<span class="grey">CDとDVDの書き込みアプリケーション。</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmediaは簡潔で簡単に使用できるxineエンジンを使ったメディアプレイヤです。</span>
 					</li>

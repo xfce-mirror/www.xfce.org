@@ -5,6 +5,8 @@ RewriteBase /
 Redirect 301 /blog/ http://blog.xfce.org/
 Redirect 301 /blog http://blog.xfce.org/
 
+Redirect 301 /projects/xfmedia http://spuriousinterrupt.org/projects/xfmedia
+
 # redirect homepages to foo-projects.org/~user
 RewriteRule ^(~.*)$ http://foo-projects.org/$1 [R,L]
 
@@ -23,4 +25,3 @@ RewriteRule ^(.*)$ index.php
 # API Dedirect Rules
 RedirectMatch documentation/4.2/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
 RedirectMatch documentation/4.4/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
-

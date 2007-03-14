@@ -55,7 +55,7 @@
 						<span class="grey">CD and DVD burning application.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
 					</li>

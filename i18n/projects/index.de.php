@@ -157,7 +157,7 @@
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
+			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 			<p>Xfmedia ist ein schlichter, einfach zu bedienender Medienspieler, der auf der
 			Xine-Architektur basiert. Die GTK+ Oberfläche ist zum abspielen und verwalten von
 			Audiodateien ausgelegt, kann aber auch Videodateien wiedergeben.</p>

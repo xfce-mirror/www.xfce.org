@@ -55,7 +55,7 @@
 						<span class="grey">Zbatim për shkrim CD-sh dhe DVD-sh.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia është një luajtës mediash i thjeshtë e i lehtë për t'u përdorur, bazuar në mekanizmin xine.</span>
 					</li>

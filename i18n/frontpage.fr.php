@@ -55,7 +55,7 @@
 						<span class="grey">Application de gravure de CD et DVD.</span>
 					</li>
 					<li>
-						<a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a>
+						<a href="/projects/xfmedia">Xfmedia</a>
 						<br />
 						<span class="grey">Xfmedia est un lecteur multimédia simple basé sur le moteur xine.</span>
 					</li>
