@@ -36,7 +36,7 @@ $languages = array (
         "ja" => array ('Nihon', 'UTF-8', 'ja_JP.utf8'),
         "nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
         "sq" => array ('Shqip', 'UTF-8', 'sq_AL.utf8'),
-        "zh_CN" => array ('Chinese', 'UTF-8', 'zh_CN.utf8'),
+        "zh_CN" => array ('Chinese', 'UTF-8', 'zh_CN'),
 );
 
 /* Internal style names. The visible names are located in the i18n/header.xx.php file */
