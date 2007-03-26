@@ -7,7 +7,7 @@
 		</ul>
 	</li>
 	<li><a href="/about/news">Nieuws</a></li>
-	<li><a href="/about/screenshots">Screenshots</a></li>
+	<li><a href="/about/screenshots">Scherm-afdrukken</a></li>
 	<li><a href="/about/credits">Dankwoord</a>
 		<ul>
 			<li><a href="/about/credits#lead">Project Leiding</a></li>

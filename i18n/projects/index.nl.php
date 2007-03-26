@@ -11,7 +11,7 @@
 			<img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfwm4/">Window Manager</a></h3>
+			<h3><a href="/projects/xfwm4/">Venster Beheer</a></h3>
 			<p>It manages the placement of application windows on the screen,
 			provides window decorations and manages workspaces or virtual desktops.</p>
 		</td>
@@ -19,7 +19,7 @@
 			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-panel/">Panel</a></h3>
+			<h3><a href="/projects/xfce4-panel/">Paneel</a></h3>
 			<p>The Xfce 4 panel is part of the Xfce 4 Desktop Environment and
 			features program launchers, panel menus, a clock, a desktop switcher and more.</p>
 		</td>
@@ -27,7 +27,7 @@
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfdesktop/">Bureaubladbeheer</a></h3>
+			<h3><a href="/projects/xfdesktop/">Bureaublad Beheer</a></h3>
 			<p>This program sets the background image and provides a root window menu,
 			desktop icons or minimized icons and a windows list.</p>
 		</td>
@@ -37,13 +37,13 @@
 			<img src="/images/projects/xfce4-session.png" alt="xfce4-session" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-session/">Sessiebeheer</a></h3>
+			<h3><a href="/projects/xfce4-session/">Sessie Beheer</a></h3>
 			<p>The session manager controls the startup and shutdown of the Xfce Desktop Environment.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
-		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Printing Helper</a></h3>
+		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Print Ondersteuning</a></h3>
 			<p>Provides a graphical frontend for printing. Xfprint can use either
 			CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
 			printing system you choosed.</p>
@@ -52,7 +52,7 @@
 			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-		<h3><a href="/projects/xfce-mcs-manager/">Configuratiebeheer</a></h3>
+		<h3><a href="/projects/xfce-mcs-manager/">Configuratie Beheer</a></h3>
 			<p>This is the Xfce configuration system and it runs on the background and
 			provides global settings information to other Xfce components </p>
 		</td>
