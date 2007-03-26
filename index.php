@@ -32,6 +32,7 @@ include ("include/arrays.php");
 session_start ();
 
 /* Try to detect the user language */
+/* $userlang = substr(trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]), 0, 2); */
 $userlang = trim($_SERVER["HTTP_ACCEPT_LANGUAGE"]);
 if (!in_array ($userlang, array_keys($languages)))
   $userlang = "en";
