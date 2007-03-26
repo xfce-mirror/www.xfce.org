@@ -9,6 +9,11 @@
 
    All full http://, https://, ftp:// and email adresses are converted into link
 */
+
+/*
+ TO ALL TRANSLATORS: NEVER TRANSLATE THIS DOCUMENT, BUT TAKE A LOOK AT THE OTHER TRANSLATED NEWS
+ FILES!!!!!!!!!
+ */
 $date_format = "%e %B %Y";
 $posted_by = "Posted by";
 
@@ -37,7 +42,7 @@ $news = array (
                      '[br][br]'.
                      'Download Xfce 4.4 from the new Xfce website:[br]'.
                      '[link=/download]http://www.xfce.org/download[/link]',
-    ),    
+    ),
     array (
         'id'      => 10,
         'date'    => '15 jan 2007',

@@ -13,15 +13,7 @@ $date_format = "%e %B %Y";
 $posted_by = "投稿者：";
 
 $news_translated = array (
-/*
-    array (
-        'id'      => <previous id number + 1>
-        'date'    => '<day> <month> <year>',
-        'author'  => '<you>',
-        'title'   => '<title>',
-        'content' => '<stuff you want to say>',
-    ),
-*/
+
     11 => array (
         'title'   => 'Xfce 4.4.0发布',
         'content' => '经过超过两年的开发，Xfce 4.4.0刚刚发布了。'.
