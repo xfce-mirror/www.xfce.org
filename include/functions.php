@@ -17,8 +17,8 @@
  * along with this php code; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
  */
- 
- 
+
+
 function CreateDate ($date, $format, $locale=false)
 {
   if (($unix = strtotime ($date)) === false)
@@ -32,7 +32,8 @@ function CreateDate ($date, $format, $locale=false)
 
 function UserVariable ($name, $values, $default)
 {
-  $get = strtolower ($_GET[$name]);
+  /* $get = strtolower ($_GET[$name]); */
+  $get = $_GET[$name];
 
   $expire = time()+(60*60*24*365);
   if (in_array ($get, $values))
@@ -47,7 +48,8 @@ function UserVariable ($name, $values, $default)
     return $_SESSION[$name];
 
   /* Search for cookie */
-  $cookie = strtolower ($_COOKIE[$name]);
+  /* $cookie = strtolower ($_COOKIE[$name]); */
+  $cookie = $_COOKIE[$name];
 
   if (in_array ($cookie, $values))
     {
@@ -57,7 +59,7 @@ function UserVariable ($name, $values, $default)
 
   /* Default value */
   $_SESSION[$name] = $default;
-  
+
   return $default;
 }
 
