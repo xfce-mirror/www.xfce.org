@@ -41,7 +41,8 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.zenwalk.org/" target="_blank" title="Zenwalkのウェブサイトへ"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
-		<td>ZenwalkはSlackwareを元としたOSです。ZenWalkの目的はタスクごとに一緒になっているXfceのアプリケーションを使い、軽快であるものにすることです。Zenwalkはアプリケーションプログラマ向けの理想的なプラットフォームを提供するための完全なプログラム環境とライブラリとともに最新のLinuxの技術が特徴です。Zenwalkのモジュラにする考えはZenwalk Linuxを一番最適化されたサーバにするための一番簡単な方法でもあります。(たとえば、LAMP、メッセージング、ファイル共有。)</td>
+		<td>ZenwalkはSlackwareを元としたOSです。ZenWalkの目的はタスクごとに一緒になっているXfceのアプリケーションを使い、軽快であるものにすることです。Zenwalkはアプリケーションプログラマ向けの理想的なプラットフォームです。
+		それを提供するためのプログラム環境とライブラリと最新のLinuxの技術が特徴です。Zenwalkのモジュラにする考えはZenwalk Linuxを一番最適化されたサーバにするための一番簡単な方法でもあります。(たとえば、LAMP、メッセージング、ファイル共有。)</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
@@ -54,7 +55,7 @@
 	<tr>
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Lunar Linuxのウェブサイト"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
 		<td>Lunar Linuxはソースを基礎としたディストリビューションです。公式のデスクトップ環境はLunarにはありませんが、 何人かのXfceの開発者はLunarの開発者でもありますので、Xfceへの対応は抜群に良いです。<br />
-            他の注目できるところはXfceのサーバのすべてはLunar Linuxで動いています!</td>
+            他の注目できるところ：XfceのサーバのすべてはLunar Linuxで動いています!</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
