@@ -8,7 +8,7 @@
 
 <?php if (!$headup) { /* show only on frontpage */ ?>
 	<meta name="description" content="Працоўнае асяродзьдзе Xfce" />
-	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment" />
+	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment, сталец, працоўнае асяродзьдзе, кіраўнік вокнаў" />
 <?php } ?>
 
 	<link rel="home" href="/" />
@@ -29,7 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Блёг Xfce" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body id="top">
-	<p id="header-top"><a href="top" title="Go to the top of the page">Top</a></p>
+	<p id="header-top"><a href="top" title="Пераход на вяршыню старонку">У гору</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Абмінуць навігацыю сайта" accesskey="1">Абмінуць навігацыю сайта</a> (1)
 <?php if ($content_bool) { ?>
@@ -47,8 +47,8 @@
 				<div id="header-right">
 					<div id="header-style">
 						<h2 class="hidden">Шырыня старонкі</h2>
-						<p>Layout: <a href="?layout=normal" title="Статычная (Мін: 740 пкс, Макс: 1000 пкс)">Статычная</a> / 
-						<a href="?layout=liquid" title="Дынамічная (залежыць ад шырыні вакна)">Дынамічная</a></p>
+						<p>Шырыня: <a href="?layout=normal" title="Статычная (Мін: 740 пкс, Макс: 1000 пкс)">статычная</a> / 
+						<a href="?layout=liquid" title="Дынамічная (залежыць ад шырыні вакна)">дынамічная</a></p>
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Пошук</h2>
@@ -66,9 +66,9 @@
 						<li><a href="/" title="Home">Галоўная старонка</a></li>
 						<li><a href="/about/" title="About">Пра Xfce</a></li>
 						<li><a href="/projects/" title="Projects">Праекты</a></li>
-						<li><a href="/download/" title="Download">Пампаваньне</a></li>
+						<li><a href="/download/" title="Download">Выгрузкі</a></li>
 						<li><a href="/documentation/" title="Documentation">Дакумэнтацыя</a></li>
-						<li><a href="/community/" title="Community">Супольнасьць</a></li>
+						<li><a href="/community/" title="Community">Суполка</a></li>
 						<li><a href="/development/" title="Development">Распрацоўка</a></li>
 					</ul>
 				</div>
