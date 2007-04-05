@@ -4,6 +4,8 @@
 <p>Mousepad est un éditeur de texte simple basé sur Leafpad. La raison d'un econvergence de Leafpad est le support d'impression qui aurait été difficile avec Leafpad, pour plusieurs raisons.</p>
 
 <h2>Liens externes</h2>
+<p><a class="external" target="_blank" href="http://www.kolumbus.fi/~w408237/orage/">Page Web</a></p>
+
 <h3>Subversion</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fmousepad%2F&amp;rev=0&amp;sc=0#/mousepad/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a></p>
