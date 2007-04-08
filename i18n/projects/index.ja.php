@@ -19,7 +19,7 @@
 			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-panel/">Panel</a></h3>
+			<h3><a href="/projects/xfce4-panel/">パネル</a></h3>
 			<p>Xfce 4 パネルはXfce 4 デスクトップ環境の一部であり、プログラムランチャー、パネルメニュードック、デスクトップ切り替えやそのほかを特徴としています。</p>
 		</td>
 		<td width="48" valign="top">
@@ -66,7 +66,7 @@
 			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
+			<h3><a href="/projects/libraries/">Xfce ライブラリ</a></h3>
 			<p>Xfceの三つの基本となるライブラリです。(libxfcegui4, libxfce4mcs and libxfce4utils)
 			これはほとんどのXfceのアプリケーションで使われています。</p>
 		</td>
@@ -82,7 +82,7 @@
 			<img src="/images/projects/mousepad.png" alt="mousepad" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
+			<h3><a href="/projects/mousepad/">マウスパッド</a></h3>
 			<p>マウスパッドはXfce向けのLeafpadを基本としたテキストエディタです。
 			Mousepadの最初の製作動機ですが、これはLeafpadでは実装において様々な問題があるためサポートが難しい印刷のサポートを提供することでした。</p>
 		</td>
@@ -98,7 +98,7 @@
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/terminal/">Terminal</a></h3>
+			<h3><a href="/projects/terminal/">ターミナル</a></h3>
 			<p>TerminalはUnix/Linuxデスクトップ向けの目新しいターミナルエミュレータです。 - 特にXfceデスクトップ環境向けに最適化されています。</p>
 		</td>
 	</tr>
@@ -107,7 +107,7 @@
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
+			<h3><a href="/projects/thunar/">Thunar ファイルマネージャ</a></h3>
 			<p>ThunarはXfce向けの新しくて革新的なファイルマネージャです。Thunarは実行が早くて簡単に使えることを目標に設計されています。</p>
 		</td>
 		<td width="48" valign="top">
@@ -162,7 +162,7 @@ is a front</p>
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
+			<h3><a href="http://xarchiver.xfce.org">アーカイブマネージャ</a></h3>
 			<p>Xarchiver はGTK+2を使った7z, zip, rar, tar, bzip2, gzip, arj, rpmのフロントエンドです。</p>
 		</td>
 		<td width="48" valign="top">
@@ -229,7 +229,7 @@ is a front</p>
 			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>GTK Theme Engine</h3>
+			<h3>GTK テーマエンジン</h3>
 			<p>GTK2のテーマエンジン。デスクトップには必ずしも必要ありませんが、使いやすくとても良いエンジンなので、
 		是非使ってみてください。</p>
 		</td>

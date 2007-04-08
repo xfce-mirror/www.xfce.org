@@ -3,7 +3,7 @@
 <table width="99%">
   <tr>
     <td width="49%" valign="top">
-      <h2><a href="/documentation/4.4/userguide/">User Guide</a></h2>
+      <h2><a href="/documentation/4.4/userguide/">ユーザガイド</a></h2>
       <p>残念ながら、(<a href="/development/">まだ</a>)4.4向けの文書はありません。
 	問題を解決したい場合は、<a href="/documentation/4.2/">4.2 ドキュメント</a>を見るか、<a href="http://forum.xfce.org" target="_blank">Xfceフォーラム</a>か
 	 <a href="/community/lists">メイリングリスト</a>を使ってください。</p>
