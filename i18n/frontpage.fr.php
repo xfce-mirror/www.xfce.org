@@ -11,7 +11,7 @@
 	</div>
 	<div id="front-intro-about">
 		<h1>À propos de Xfce</h1>
-		<p>Xfce est un environnement de bureau léger pour divers systèmes *NIX. Conçu pour la productivité, il charge et exécute les applications rapidement, tout en conservant les ressources du système.</p>
+		<p><em>« Xfce est un environnement de bureau léger pour divers systèmes *NIX. Conçu pour la productivité, il charge et exécute les applications rapidement, tout en conservant les ressources du système. »</em> - <strong>Olivier Fourdan, creator of Xfce</strong></p>
 		<p>Xfce 4.4 adhère à la traditionnelle philosophie UNIX de modularité et réutilisation. Xfce se compose de plusieurs modules qui, une fois rassemblés, offrent toutes les fonctionnalités de l'environnement de bureau. Ces modules sont empaquetés séparément afin que vous puissiez choisir vous-même et créer un environnement de bureau personnalisé.</p>
 		<p class="readmore"><a href="/about/" title="En savoir plus à propos de Xfce...">en savoir plus</a></p>
 	</div>
