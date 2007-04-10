@@ -21,13 +21,14 @@ $news_translated = array (
 */
     12 => array (
         'title'   => 'Sortie de Xfce 4.4.1',
-        'content' => 'Xfce 4.4.1 vient de sortir. Cette version est avant tout une correction de bogues et mise à jour des traductions'.
+        'content' => 'Salut tous,[br][br]'.
+                     'Xfce 4.4.1 vient de sortir. C\'est la première sortie de maintenance de Xfce 4.4 (la version stable de Xfce) qui apporte des corrections de bogues importants et une mise à jour des traductions'.
                      '[br][br]'.
                      'Vous pouvez télécharger Xfce 4.4.1 depuis le [link=/download/]site Xfce.[/link]'.
                      '[br][br]'.
-                     'Une vue d\'ensemble des changements est disponible dans le fichier [link=/documentation/changelogs/4.4.1]changelog[/link].'.
+                     'Une vue d\'ensemble des changements est disponible dans le [link=/documentation/changelogs/4.4.1]changelog[/link].'.
                      '[br][br]'.
-                     'Amusez-vous!'.
+                     'Amusez-vous![br]'.
                      'L\'équipe de développement de Xfce.',
     ),
     11 => array (
