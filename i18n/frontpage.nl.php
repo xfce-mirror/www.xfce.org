@@ -2,16 +2,16 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Download Xfce 4.4">Download Xfce 4.4</a></h2>
+				<h2><a href="/download/" title="Download Xfce 4.4.1">Download Xfce 4.4.1</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.0" title="Lees de ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Wat is er nieuw in Xfce 4.4?">Rondleiding</a></p>
+				<p><a href="/documentation/changelogs/4.4.1" title="Lees de ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Wat is er nieuw in Xfce 4.4?">Rondleiding</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Wat is Xfce?</h1>
-		<p>Xfce is een lichtgewicht bureaublad omgeving voor unix-achtige besturings-systemen. Het is gericht op snelheid en geheugengebruik, terwijl het nog steeds visueel aantrekkelijk en gemakkelijk te gebruiken is.</p>
+		<p><em>"Xfce is een lichtgewicht bureaublad omgeving voor unix-achtige besturings-systemen. Het is gericht op snelheid en geheugengebruik, terwijl het nog steeds visueel aantrekkelijk en gemakkelijk te gebruiken is."</em> - <strong>Olivier Fourdan, bedenker van Xfce</strong></p>
 		<p>De doelstelling van Xfce is herbruikbaarheid en modulariteit. Het bestaat uit een aantal onderdelen die tezamen de volledige functionaliteit van een bureaublad omgeving bieden. De onderdelen zijn apart te installeren zodat je kunt kiezen uit de beschikbare pakketten om de beste persoonlijke werk omgeving te maken.</p>
 		<p class="readmore"><a href="/about/" title="Lees meer over Xfce...">lees verder</a></p>
 	</div>

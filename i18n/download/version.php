@@ -1,7 +1,7 @@
 <?php
 /* the version number here */
-$version       = "4.4.0";
-$sf_release_id = "480300";
+$version       = "4.4.1";
+$sf_release_id = "499907";
 
 /* list of Xfce server */
 $servers = array (
@@ -19,23 +19,23 @@ function printServers($dir, $servers)
 {
   echo '<form id="download" method="get" action="/download/">';
   echo '<select name="server">';
-  
+
   /* choose 1 random item from the servers, this will be the default in the list */
   $rand = array_rand ($servers, 1);
-  
+
   foreach ($servers as $name => $location)
   {
   	  if ($name != "SourceForge.net" && $dir != "")
   	    $location .= "$dir/";
-  	    
+
   	  if ($name == $rand)
   	    $i = "selected";
   	  else
   	    $i = "";
-  	  
+
   	  echo "<option value=\"$location\" $i>$name</option>";
   }
-  
+
   echo '</select>';
   echo '<input type="submit" name="submit" value="Download" />';
   echo '</form>';

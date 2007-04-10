@@ -26,6 +26,7 @@ function bug ($id){
 <ul>
     <li>Change 2 GPL headers to LGPL.</li>
     <li>Test for support of -Wall, -Werror and -errwarn=%all (<?php bug ('2918') ?>).</li>
+    <li>Fix aspect ratio of the pager when using viewports, required for window managers such as Beryl that use multiple viewports within one single workspace.</li>
     <li>Many translation updates.</li>
 </ul>
 
@@ -48,9 +49,10 @@ function bug ($id){
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
     <li>Fix entries in the menu.xml files that should not have been translated.</li>
+    <li>Add support for menu file as argument (<?php bug ('2876') ?>).</li>
     <li>Remove use of __FUNCTION__ as it breaks sun's compiler (<?php bug ('2924') ?>).</li>
     <li>Blurry rendering of unscaled backgrounds (<?php bug ('2939') ?>).</li>
-    <li>Unescape % characters in the uri (<?php bug ('2942') ?>).</li>
+    <li>Fix uri parsing to unescape '%##' stuff in the uri (<?php bug ('2942') ?>).</li>
     <li>Many translation updates.</li>
 </ul>
 

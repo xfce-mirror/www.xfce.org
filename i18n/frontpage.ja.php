@@ -2,10 +2,10 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Xfce 4.4をダウンロードする">Xfce 4.4をダウンロードする</a></h2>
+				<h2><a href="/download/" title="Xfce 4.4.1をダウンロードする">Xfce 4.4.1をダウンロードする</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.0" title="更新履歴を読む">更新履歴</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4の新しいところは何？">ツアー</a></p>
+				<p><a href="/documentation/changelogs/4.4.1" title="更新履歴を読む">更新履歴</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4の新しいところは何？">ツアー</a></p>
 			</div>
 		</div>
 	</div>
