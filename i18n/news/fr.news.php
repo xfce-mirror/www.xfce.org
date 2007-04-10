@@ -19,7 +19,7 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
-    => 12 array (
+    12 => array (
         'title'   => 'Sortie de Xfce 4.4.1',
         'content' => 'Xfce 4.4.1 vient de sortir. Cette version est avant tout une correction de bogues et mise à jour des traductions.'
                      '[br][br]'.
