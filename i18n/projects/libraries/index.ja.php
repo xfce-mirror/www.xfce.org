@@ -5,14 +5,14 @@
 （グラフィカルでない機能（ウィジェット）、グラフィカルユーザインターフェイス向けの機能、そして、設定マネージャ向けの
 の便利な機能。）</p>
 
-<h1>撤F</h1>
+<h1>機能</h1>
 <ul>
   <li><strong>libxfce4util</strong>: 基本ユーティリティ</li>
   <li><strong>libxfcegui4</strong>: 統合されたウィジェット</li>
   <li><strong>libxfce4mcs</strong>: Xfce コンポーネント</li>
 </ul>
 
-<h2>External Links</h2>
+<h2>外部リンク</h2>
 <h3>libxfce4util</h3>
 <p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Flibxfce4util%2F&amp;rev=0&amp;sc=0#/libxfce4util/">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/libxfce4util/">SVN</a></p>
