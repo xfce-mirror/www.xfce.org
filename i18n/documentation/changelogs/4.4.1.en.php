@@ -40,7 +40,7 @@ function bug ($id){
     <li>Raise focused window on workspace switch (<?php bug ('2960') ?>).</li>
     <li>Sort Z-order on workspace change (<?php bug ('2960') ?>).</li>
     <li>Fix the small lag before icon update at first map and when updating all frames at once.</li>
-    <li>Use timeout for frame redraw, check actual WM name changes to work around apps that falsely update their WM name property (<?php bug ('810') ?>).</li>
+    <li>Use timeout for frame redraw, check actual WM name changes to work around apps that falsely update their WM name property (<?php bug ('2810') ?>).</li>
     <li>Updated translations: Hungaria, Catalan, Italian, Polish, German, Japanese, Turkish, Ukrainian, Dutch, Chinese (simplified) and French.</li>
     <li>New translations: Albanian (Besnik Bleta), English (Jeff Bailes).</li>
 </ul>
