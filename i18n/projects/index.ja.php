@@ -5,7 +5,7 @@
 <p>Xfceプロジェクトにはいくつかのデスクトップの各部分を開発などをするプロジェクトがあります。
 各プロジェクトは詳しい情報を提供するページを用意しています。</p>
 
-<h2 id="core">中心部分 (コアコーポネント)</h2>
+<h2 id="core">中心部分 (コアコンポーネント)</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td width="48" valign="top">
@@ -115,8 +115,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn はcdrtools (cdrecord, cdrdao, mkisofs)を使ったCD作成アプリケーションのフロントエンドです。CDやDVDを作ることができます。
-is a front</p>
+			<p>Xfburn はcdrtools (cdrecord, cdrdao, mkisofs)を使ったCD作成アプリケーションのフロントエンドです。CDやDVDを作ることができます。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
