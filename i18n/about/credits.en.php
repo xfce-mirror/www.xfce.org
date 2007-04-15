@@ -331,8 +331,8 @@ function at(){
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Chinese Simplified [zh_CN]</td>
-        <td bgcolor="#eeeeee">Huang Huan [unicon221<?php at(); ?>gmail.com], Jick Nan [jick.nan<?php at(); ?>gmail.com], Wu Li [wurisky<?php at(); ?>gmail.com], Yongtao Yang [yongtao.yang<?php at(); ?>telia.com]</td>
-    </tr>
+        <td bgcolor="#eeeeee">Huang Huan [unicon221<?php at(); ?>gmail.com], Hui Ni [shuizhuyuanluo<?php at(); ?>126.com], Jick Nan [jick.nan<?php at(); ?>gmail.com], Shaodong Di [yhlfh<?php at(); ?>yahoo.com.cn], Wu Li [wurisky<?php at(); ?>gmail.com], Yongtao Yang [yongtao.yang<?php at(); ?>telia.com]</td>
+	    </tr>
     <tr>
         <td>Chinese Traditional [zh_TW]</td>
         <td>Cosmo Chene [cosmolax<?php at(); ?>gmail.com], Hydonsingore Cia [hydonsingore<?php at(); ?>mail.educities.edu.tw]</td>
