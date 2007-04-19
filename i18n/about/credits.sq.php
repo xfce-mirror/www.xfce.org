@@ -1,5 +1,7 @@
 <?php
-    $top=true;
+ function at(){
+  echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
+}
 ?>
 <h1>Kredite</h1>
 <p></p>
@@ -328,7 +330,7 @@
         <td>Phan Vĩnh Thịnh [teppi82<?php at(); ?>gmail.com]</td>
     </tr>
     <tr>
-        <td>Kinezçe [zh_CN]</td>
+        <td bgcolor="#eeeeee">Kinezçe [zh_CN]</td>
         <td bgcolor="#eeeeee">Huang Huan [unicon221<?php at(); ?>gmail.com], Hui Ni [shuizhuyuanluo<?php at(); ?>126.com], Jick Nan [jick.nan<?php at(); ?>gmail.com], Shaodong Di [yhlfh<?php at(); ?>yahoo.com.cn], Wu Li [wurisky<?php at(); ?>gmail.com], Yongtao Yang [yongtao.yang<?php at(); ?>telia.com]</td>
     </tr>
     <tr>

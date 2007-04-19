@@ -1,5 +1,7 @@
 <?php
-    $top=true;
+function at(){
+  echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
+}
 ?>
 <h1>Liste der Mitwirkenden</h1>
 <p></p>
@@ -23,8 +25,8 @@
         <td width="60%" bgcolor="#eeeeee">Thunar, Terminal, Sitzungsverwaltung, Libexo</td>
     </tr>
     <tr>
-        <td>Brian J. Tarricone [kelnos<?php at(); ?>xfce.org]</td>
-        <td>Arbeitsoberflächenverwaltung, Medienspieler</td>
+        <td width="40%">Brian J. Tarricone [kelnos<?php at(); ?>xfce.org]</td>
+        <td width="60%">Arbeitsoberflächenverwaltung, Medienspieler</td>
     </tr>
     <tr>
         <td width="40%" bgcolor="#eeeeee">Danny Milosavljevic [dannym<?php at(); ?>xfce.org]</td>
