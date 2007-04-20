@@ -79,34 +79,34 @@ $credits['translators-supervision'] = array (
     );
 
 $credits['translators'] = array (
-    array ('Arabic', 'ar',
+    array ('ar',
         array (
             array ('Arabeyes Team', 'http://wiki.arabeyes.org/Xfce')
             )
         ),
-    array ('Belarusian', 'be',
+    array ('be',
         array (
             array ('Alexander Nyakhaychyk', 'nyakhaychyk', 'gmail.com')
             )
         ),
-    array ('Catalan', 'ca',
+    array ('ca',
         array (
             array ('Carles Muñoz Gorriz', 'carlesmu', 'internautas.org'), 
             array ('Ivà Burgos', 'debian.public', 'gmail.com'), 
             array ('Pau Rul·lan Ferragut', 'paurullan', 'bulma.net')
             )
         ),
-    array ('Czech', 'cs',
+    array ('cs',
         array (
             array ('Michal Várady', 'miko.vaji', 'gmail.com')
             )
         ),
-    array ('Danish', 'da',
+    array ('da',
         array (
             array ('Niels Rasmussen', 'nielsrasmus', 'gmail.com')
             )
         ),
-    array ('German', 'de',
+    array ('de',
         array (
             array ('Benedikt Meurer', 'benny', 'xfce.org'),
             array ('Borja Schwember', 'mail', 'borja.de'),
@@ -116,50 +116,50 @@ $credits['translators'] = array (
             array ('Nico Schümann', 'nico', 'prog.nico22.de')
             )
         ),
-    array ('Dzongkha', 'dz',
+    array ('dz',
         array (
             array ('Tenzin Dendup', 'tenzin.dendup', 'gmail.com')
             )
         ),
-    array ('Greek', 'el',
+    array ('el',
         array (
             array ('Stathis Kamperis', 'ekamperi', 'auth.gr'),
             array ('Stavros Giannouris', 'stavros', 'ghellug.gr')
             )
         ),
-    array ('English', 'en_GB',
+    array ('en_GB',
         array (
             array ('Jeff Bailes', 'thepizzaking', 'gmail.com')
             )
         ),
-    array ('Esperanto', 'eo',
+    array ('eo',
         array (
             array ('Antono Vasiljev', 'antono.vasiljev', 'gmail.com'),
             array ('Jarbas Araujo', 'jarbasaraujojr', 'yahoo.com.br'),
             array ('Sylvain Vedrenne', 'gnu_sylvain', 'xfce.org')
             )
         ),
-    array ('Spanish', 'es',
+    array ('es',
         array (
             array ('Rudy Godoy', 'rudy', 'stone-head.org')
             )
         ),
-    array ('Estonian', 'et',
+    array ('et',
         array (
             array ('Peeter Vois', 'Peeter.Vois', 'mail.ee')
             )
         ),
-    array ('Basque', 'eu',
+    array ('eu',
         array (
             array ('Piarres Beobide Egaña', 'pi', 'beobide.net')
             )
         ),
-    array ('Finnish', 'fi',
+    array ('fi',
         array (
             array ('Jari Rahkonen', 'jari.rahkonen', 'pp1.inet.fi')
             )
         ),
-    array ('French', 'fr',
+    array ('fr',
         array (
             array ('Gérald Barré', 'g.barre', 'free.fr'),
             array ('Jean-François Wauthy', 'pollux', 'xfce.org'),
@@ -168,124 +168,124 @@ $credits['translators'] = array (
             array ('Olivier Fourdan', 'fourdan', 'xfce.org')
             )
         ),
-    array ('Galician', 'gl',
+    array ('gl',
         array (
             array ('Leandro Regueiro', 'leandro.regueiro', 'gmail.com')
             )
         ),
-    array ('Hebrew', 'he',
+    array ('he',
         array (
             array ('Dotan Kamber', 'kamberd', 'yahoo.com'),
             array ('Yuval Tanny', 'tanai', 'int.gov.il')
             )
         ),
-    array ('Hungarian', 'hu',
+    array ('hu',
         array (
             array ('Szervác Attila', 'sas', '321.hu')
             )
         ),
-    array ('Italian', 'it',
+    array ('it',
         array (
             array ('Fabio Riga', 'usul', 'aruba.it'),
             array ('Roberto Pariset', 'r.pariset', 'gmail.com')
             )
         ),
-    array ('Japanese', 'ja',
+    array ('ja',
         array (
             array ('Daichi Kawahata', 'daichi', 'xfce.org'),
             array ('Hirotaka Moue', 'admin', 'mail.dayomon.net')
             )
         ),
-    array ('Georgian', 'ka',
+    array ('ka',
         array (
             array ('Dimitri Gogelia', 'delphi.knight', 'gmail.com')
             )
         ),
-    array ('Korean', 'ko',
+    array ('ko',
         array (
             array ('ByungHyun Choi', 'byunghyun.choi', 'gmail.com')
             )
         ),
-    array ('Kurdish', 'ku',
+    array ('ku',
         array (
             array ('Erdal Ronahi', 'erdal.ronahi', 'gmail.com')
             )
         ),
-    array ('Lithuanian', 'lt',
+    array ('lt',
         array (
             array ('Mantas Zapolskas', 'mantazusers.sf.net')
             )
         ),
-    array ('Dutch', 'nl',
+    array ('nl',
         array (
             array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
             array ('Stephan Arts', 'stephan', 'xfce.org'),
             array ('Vincent Tunru', 'imnotb', 'gmail.com')
             )
         ),
-    array ('Punjabi', 'pa',
+    array ('pa',
         array (
             array ('Amanpreet Singh Alam', 'aalam', 'users.sf.net')
             )
         ),
-    array ('Polish', 'pl',
+    array ('pl',
         array (
             array ('Piotr Maliński', 'riklaunim', 'gmail.com'),
             array ('Szymon Kałasz', 'szymon_maestro', 'gazeta.pl')
             )
         ),
-    array ('Portuguese', 'pt_BR',
+    array ('pt_BR',
         array (
             array ('Adriano Winter Bess', 'awbess', 'gmail.com'),
             array ('Rodrigo Coacci', 'rcoacci', 'gmail.com')
             )
         ),
-    array ('Romanian', 'ro',
+    array ('ro',
         array (
             array ('Mişu Moldovan', 'dumol', 'gnome.ro')
             )
         ),
-    array ('Russian', 'ru',
+    array ('ru',
         array (
             array ('Andrey Fedoseev', 'andrey.fedoseev', 'gmail.com'),
             array ('Maxim Zenin', 'webmechanics', 'gmail.com'),
             array ('Sergey Fedoseev', 'fedoseev.sergey', 'gmail.com')
             )
         ),
-    array ('Slovak', 'sk',
+    array ('sk',
         array (
             array ('Roman Moravcik', 'roman.moravcik', 'gmail.com')
             )
         ),
-    array ('Albanian', 'sq',
+    array ('sq',
         array (
             array ('Besnik Bleta', 'besnik', 'programeshqip.org')
             )
         ),
-    array ('Swedish', 'sv',
+    array ('sv',
         array (
             array ('Alexander Toresson', 'alexander.toresson', 'gmail.com'),
             array ('Daniel Nylander', 'po', 'danielnylander.se')
             )
         ),
-    array ('Turkish', 'tr',
+    array ('tr',
         array (
             array ('Eren Türkay', 'Turkay.eren', 'gmail.com'),
             array ('Türker Sezer', 'turkersezer', 'tsdesign.info')
             )
         ),
-    array ('Ukrainian', 'uk',
+    array ('uk',
         array (
             array ('Dmitry Nikitin', 'luckas_fb', 'mail.ru'),
             array ('Maxim V. Dziumanenko', 'dziumanenko', 'gmail.com')
             )
         ),
-    array ('Vietnamese', 'vi',
+    array ('vi',
         array (
             array ('Phan Vĩnh Thịnh', 'teppi82', 'gmail.com')
             )
         ),
-    array ('Chinese Simplified', 'zh_CN',
+    array ('zh_CN',
         array (
             array ('Huang Huan', 'unicon221', 'gmail.com'), 
             array ('Hui Ni', 'shuizhuyuanluo', '126.com'), 
@@ -295,7 +295,7 @@ $credits['translators'] = array (
             array ('Yongtao Yang', 'yongtao.yangtelia.com')
             )
         ),
-    array ('Chinese Traditional', 'zh_TW',
+    array ('zh_TW',
         array (
             array ('Cosmo Chene', 'cosmolax', 'gmail.com'),
             array ('Hydonsingore Cia', 'hydonsingore', 'mail.educities.edu.tw')

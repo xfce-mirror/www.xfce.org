@@ -1,5 +1,6 @@
 <?php
 include 'include/credits.php';
+include 'i18n/about/en.credits.php';
 function at(){
   echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
 }
@@ -49,10 +50,8 @@ foreach ($credits['server-and-website'] as $v)
   $color = ($color + 1) % 2;
 ?>
     <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
-                <?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
-                <?php echo $v[3]; ?></td>
+        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
+        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['server-and-website-i18n'][$v[1]]; ?></td>
     </tr>
 <?php
 }
@@ -144,11 +143,11 @@ foreach ($credits['translators'] as $v)
   $color = ($color + 1) % 2;
 ?>
     <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1]; ?>]</td>
+        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['translators-i18n'][$v[0]]; ?> [<?php echo $v[0]; ?>]</td>
         <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
 <?php
     $count = 0;
-    foreach ($v[2] as $w)
+    foreach ($v[1] as $w)
     {
       $count++;
       $contact = (sizeof ($w) > 2) ? $w[1].$at.$w[2] : $w[1];
