@@ -1,7 +1,7 @@
 <?php
 include 'include/credits.php';
 include 'i18n/about/en.credits.php';
-@include 'i18n/about/fr.credits.php';
+@include 'i18n/about/'.$lang.'.credits.php';
 function at(){
   echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
 }
@@ -29,10 +29,8 @@ foreach ($credits['core-developers'] as $v)
   $color = ($color + 1) % 2;
 ?>
     <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
-                <?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
-                <?php echo $credits['core-developers-i18n'][$v[1]]; ?></td>
+        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
+        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['core-developers-i18n'][$v[1]]; ?></td>
     </tr>
 <?php
 }

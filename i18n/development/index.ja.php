@@ -25,7 +25,7 @@
 		<td width="33%" valign="top">
 			<h3><a href="/about/artwork">アートワーク</a></h3>
 			<p>あなただけのXfceの外観を作りたいですか？それなら、ステップガイド<a href="http://wiki.xfce.org/howto">howto's</a>通りにやればできます。
-			または<a href="http://www.xfce-look.org/">xfce-look</a>を斜め読みすれば、どうやって他の方々がXfceをカスタマイズしたのかを見ることができます。</p>
+			または<a href="http://www.xfce-look.org/">xfce-look</a>を流し読みすれば、どうやって他の方々がXfceをカスタマイズしたのかを見ることができます。</p>
 		</td>
 	</tr>
 	<tr>
