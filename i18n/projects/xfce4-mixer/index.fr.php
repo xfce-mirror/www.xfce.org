@@ -3,7 +3,7 @@
 <h1>Contrôle du volume</h1>
 <p>Le contrôle du volume, dans l'environnement de bureau Xfce, se fait via Xfce4 mixer, une application servant à régler les volumes des différentes sorties de la carte son. Ce paquet contient un greffon de contrôle du volume pour le panneau Xfce mais aussi une application de réglages des différents volumes.</p>
 
-<p>L'application de contrôle des volumes supporte les pilotes suivantes :</p>
+<p>L'application de contrôle des volumes supporte les pilotes suivants :</p>
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />
