@@ -8,7 +8,7 @@ Xfceパネルの音量調節プラグインとスタンドアロンで動くミ�
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />
-    Linux、 FreeBSD (newpcm)、 NetBSD (libossaudio)、いくつかのUnixからの派生した物でサポートされています。</li>
+    Linux、 FreeBSD (newpcm)、 NetBSD/OpenBSD (libossaudio)、いくつかのUnixからの派生した物でサポートされています。</li>
 
   <li><strong>SUN - Sun Audio</strong><br />
     Sun Solarisでサポートされています。</li>

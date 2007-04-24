@@ -8,7 +8,7 @@
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />
-    Supported on Linux, FreeBSD (newpcm), NetBSD (libossaudio) and several other Unix-derivates.</li>
+    Supported on Linux, FreeBSD (newpcm), NetBSD/OpenBSD (libossaudio) and several other Unix-derivates.</li>
 
   <li><strong>SUN - Sun Audio</strong><br />
     Supported on Sun Solaris.</li>

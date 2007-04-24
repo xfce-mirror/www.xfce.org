@@ -9,7 +9,7 @@
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />
-    Mbulim në Linux, FreeBSD (newpcm), NetBSD (libossaudio) dhe disa derivate të tjera të Unix-it.</li>
+    Mbulim në Linux, FreeBSD (newpcm), NetBSD/OpenBSD (libossaudio) dhe disa derivate të tjera të Unix-it.</li>
 
   <li><strong>SUN - Sun Audio</strong><br />
     Mbulim në Sun Solaris.</li>

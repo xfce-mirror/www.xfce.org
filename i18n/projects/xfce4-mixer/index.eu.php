@@ -8,7 +8,7 @@ bolumen kontrol plugin-a bai bereiziriko soinu nahasle bat dakartza.</p>
 
 <ul>
   <li><strong>OSS - Open Sound System</strong><br />
-    Linux, FreeBSD (newpcm), NetBSD (libossaudio) eta beste zenbait Unix-aldagaietan onartua.</li>
+    Linux, FreeBSD (newpcm), NetBSD/OpenBSD (libossaudio) eta beste zenbait Unix-aldagaietan onartua.</li>
 
   <li><strong>SUN - Sun Audio</strong><br />
     Sun Solaris-en onartua.</li>
