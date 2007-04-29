@@ -1,10 +1,10 @@
 <?php
-include 'include/credits.php';
-include 'i18n/about/en.credits.php';
-@include 'i18n/about/'.$lang.'.credits.php';
 function at(){
   echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
 }
+include 'i18n/about/en.credits.php';
+@include 'i18n/about/'.$lang.'.credits.php';
+include 'include/credits.php';
 ?>
 <h1>クレジット</h1>
 <p></p>
@@ -23,18 +23,7 @@ function at(){
         <th width="40%" align="left"><h3>貢献者</h3></th>
         <th width="60%" align="left"><h3>主要なプロジェクト</h3></th>
     </tr>
-<?php
-foreach ($credits['core-developers'] as $v)
-{
-  $color = ($color + 1) % 2;
-?>
-    <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['core-developers-i18n'][$v[1]]; ?></td>
-    </tr>
-<?php
-}
-?>
+<?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
 </table>
 
 <h2 id="server">サーバーとウェブサイト</h2>
@@ -43,18 +32,7 @@ foreach ($credits['core-developers'] as $v)
         <th align="left"><h3>貢献者</h3></th>
         <th align="left"><h3>貢献</h3></th>
     </tr>
-<?php
-foreach ($credits['server-and-website'] as $v)
-{
-  $color = ($color + 1) % 2;
-?>
-    <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-        <td width="60%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['server-and-website-i18n'][$v[1]]; ?></td>
-    </tr>
-<?php
-}
-?>
+<?php credits_server_and_website ($credits['server-and-website'], $credits['server-and-website-i18n']); ?>
 </table>
 
 <br />
@@ -67,36 +45,11 @@ foreach ($credits['server-and-website'] as $v)
         <th colspan="2"><h3>今も貢献し続けている貢献者</h3></th>
     </tr>
     <tr>
-<?php
-foreach ($credits['contributors-active'] as $v)
-{
-  $line = ($line + 1) % 2;
-  $color = ($line) ? ($color + 1) % 2 : $color;
-?>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-
-    <?php echo (!$line) ? '</tr>' : ''; ?>
-
-    <?php echo (!$line) ? '<tr>' : ''; ?>
-<?php
-}
-?>
-    <?php echo ($line) ? '<td>&nbsp;</td>' : ''; ?>
-    </tr>
+<?php credits_contributors_active ($credits['contributors-active'], $credits['contributors-active-i18n']); ?>
     <tr>
         <th colspan="2"><h3>以前に貢献した方々</h3></th>
     </tr>
-<?php
-foreach ($credits['contributors-previous'] as $v)
-{
-  $color = ($color + 1) % 2;
-?>
-    <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-    </tr>
-<?php
-}
-?>
+<?php credits_contributors_previous ($credits['contributors-previous'], $credits['contributors-previous-i18n']); ?>
 </table>
 
 <br />
@@ -116,47 +69,12 @@ foreach ($credits['contributors-previous'] as $v)
     <tr>
         <th align="left"><h3>翻訳の総管理</h3></th>
     </tr>
-<?php
-foreach ($credits['translators-supervision'] as $v)
-{
-  $color = ($color + 1) % 2;
-?>
-    <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $v[0]; ?> [<?php echo $v[1], at(), $v[2]; ?>]</td>
-    </tr>
-<?php
-}
-?>
+<?php credits_translators_supervision ($credits['translators-supervision'], $credits['translators-supervision-i18n']); ?>
 </table>
 <table width="99%">
     <tr>
         <th width="20%" align="left"><h3>Language</h3></th>
         <th width="80%" align="left"><h3>Contributor(s)</h3></th>
     </tr>
-<?php
-ob_start ();
-at ();
-$at = ob_get_clean ();
-foreach ($credits['translators'] as $v)
-{
-  $color = ($color + 1) % 2;
-?>
-    <tr>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>><?php echo $credits['translators-i18n'][$v[0]]; ?> [<?php echo $v[0]; ?>]</td>
-        <td width="40%"<?php echo ($color) ? ' bgcolor="#eeeeee"' : ''; ?>>
-<?php
-    $count = 0;
-    foreach ($v[1] as $w)
-    {
-      $count++;
-      $contact = (sizeof ($w) > 2) ? $w[1].$at.$w[2] : $w[1];
-      echo ($count > 1) ? ", " : "";
-      echo "{$w[0]} [$contact]";
-    }
-?>
-        </td>
-    </tr>
-<?php
-}
-?>
+<?php credits_translators ($credits['translators'], $credits['translators-i18n']); ?>
 </table>
