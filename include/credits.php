@@ -1,5 +1,5 @@
 <?php
-/* $Id: content.php 668 2007-01-30 15:30:11Z nick $ */
+/* $Id$ */
 /* -
  * Copyright (c) 2007 Mike Massonnet <mmassonnet@xfce.org>
  *
@@ -303,3 +303,107 @@ $credits['translators'] = array (
         )
     );
 
+/* Functions to display various credits, and therby be freed of weird scripting in
+ * the credits.$lang.php files.
+ */
+
+// Pick up the at()
+function _at ()
+{
+  ob_start ();
+  at ();
+  return ob_get_clean ();
+}
+
+#FIXME Why can't I just do the next?
+#      global $credits;
+#      var_dump($credits); // it returns NULL
+function credits_core_developers ($credits_email, $credits_i18n)
+{
+  $at = _at ();
+  foreach ($credits_email as $v)
+    {
+      $color = ($color + 1) % 2;
+      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
+      echo <<<EOF
+    <tr>
+        <td width="40%"$bgcolor>{$v[0]} [{$v[1]}$at{$v[2]}]</td>
+        <td width="60%"$bgcolor>{$credits_i18n[$v[1]]}</td>
+    </tr>
+EOF;
+    }
+}
+
+function credits_server_and_website ($credits_email, $credits_i18n)
+{
+  // Do the same as before
+  credits_core_developers ($credits_email, $credits_i18n);
+}
+
+function credits_contributors_active ($credits_email, $credits_i18n)
+{
+  $at = _at ();
+  foreach ($credits_email as $v)
+    {
+      $line = ($line + 1) % 2;
+      $color = ($line) ? ($color + 1) % 2 : $color;
+      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
+      echo <<<EOF
+        <td width="40%"$bgcolor>{$v[0]} [{$v[1]}$at{$v[2]}]</td>
+EOF;
+      echo (!$line) ? "    </tr>\n" : '';
+      echo (!$line) ? "    <tr>\n" : '';
+    }
+    echo ($line) ? "        <td>&nbsp;</td>\n" : '';
+    echo "    </tr>\n";
+}
+
+function credits_contributors_previous ($credits_email, $credits_i18n)
+{
+  $at = _at ();
+  foreach ($credits_email as $v)
+    {
+      $color = ($color + 1) % 2;
+      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
+      echo <<<EOF
+    <tr>
+        <td width="40%"$bgcolor>{$v[0]} [{$v[1]}$at{$v[2]}]</td>
+    </tr>
+EOF;
+    }
+}
+
+function credits_translators_supervision ($credits_email, $credits_i18n)
+{
+  // Do the same as before, once again
+  credits_contributors_previous ($credits_email, $credits_i18n);
+}
+
+function credits_translators ($credits_email, $credits_i18n)
+{
+  $at = _at ();
+  foreach ($credits_email as $v)
+    {
+      $color = ($color + 1) % 2;
+      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
+      echo <<<EOF
+    <tr>
+        <td width="40%"$bgcolor>{$credits_i18n[$v[0]]} [{$v[0]}]</td>
+        <td width="40%"$bgcolor>
+EOF;
+      $count = 0;
+      foreach ($v[1] as $w)
+        {
+          $count++;
+          $contact = (sizeof ($w) > 2) ? $w[1].$at.$w[2] : $w[1];
+          echo ($count > 1) ? ", " : "";
+          echo "{$w[0]} [$contact]";
+        }
+      echo <<<EOF
+        </td>
+    </tr>
+EOF;
+    }
+
+}
+?>
