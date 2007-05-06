@@ -6,4 +6,4 @@
 
 <p>Een andere prioriteit van Xfce is de navolging van standaarden, voornamelijk de standaarden die gedefinieerd zijn bij <a href="http://freedesktop.org" target="_blank">freedesktop.org</a>.</p>
 
-<p>Xfce 4 kan worden geinstalleerd op verschillende UNIX platformen. Het is bekend te compilen op Linux, NetBSD, FreeBSD, Solaris, Cygwin en MacOS X, op x86, PPC, Sparc, Alpha...</p>
+<p>Xfce 4 kan worden geinstalleerd op verschillende UNIX platformen. Het is bekend te compilen op Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin en MacOS X, op x86, PPC, Sparc, Alpha...</p>
