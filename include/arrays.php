@@ -26,13 +26,14 @@
  */
 $languages = array (
         "be" => array ('Belarusian','UTF-8', 'be_BY.utf8'),
-/*        "ca" => array ('Catalan','UTF-8', 'ca_ES.utf8'), */     
+        "pt_BR" => array ('Português do Brasil', 'UTF-8', 'pt_BR.utf8'),
+/*      "ca" => array ('Catalan','UTF-8', 'ca_ES.utf8'), */     
         "de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
         "en" => array ('English', 'UTF-8', 'en_EN'),
-/*        "es" => array ('Español', 'UTF-8', 'es'), */
+/*      "es" => array ('Español', 'UTF-8', 'es'), */
         "eu" => array ('Basque', 'UTF-8', 'eu'),
         "fr" => array ('Français', 'UTF-8', 'fr_FR.utf8'),
-/*        "it" => array ('Italiano', 'UTF-8', 'it'), */
+/*      "it" => array ('Italiano', 'UTF-8', 'it'), */
         "ja" => array ('Nihon', 'UTF-8', 'ja_JP.utf8'),
         "nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
         "sq" => array ('Shqip', 'UTF-8', 'sq_AL.utf8'),
