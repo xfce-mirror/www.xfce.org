@@ -1,4 +1,4 @@
-﻿<div id="front-intro">
+<div id="front-intro">
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
@@ -11,7 +11,7 @@
 	</div>
 	<div id="front-intro-about">
 		<h1>关于Xfce</h1>
-		<p>Xfce是一款适用于多种 *NIX 系统的轻量级桌面环境。它被设计用来提高您的效率，在节省系统资源的同时，能够快速加载和执行应用程序。</p>
+		<p><em>Xfce是一款适用于多种 *NIX 系统的轻量级桌面环境。它被设计用来提高您的效率，在节省系统资源的同时，能够快速加载和执行应用程序。</em> - <strong>Olivier Fourdan, Xfce创始人</strong></p>
 		<p>Xfce 4.4体现了传统UNIX哲学中的模块化和可复用性。它包含一系列的组件，这些组件一起提供了一个桌面环境的全部功能。所有组件都被独立打包，你可以自行选择安装各组件来构件一个属于你自己的最佳工作环境。</p>
 		<p class="readmore"><a href="/about/" title="了解更多关于Xfce的信息...">了解更多</a></p>
 	</div>
