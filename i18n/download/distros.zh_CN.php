@@ -61,3 +61,19 @@
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux website">网站</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Visit the Lunar Linux page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
+
+<h2>Kate OS</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.kateos.org/" target="_blank" title="Visit the Kate OS website"><img src="/images/download/distros/kateos.png" alt="Kate OS" border="0"/></a>
+		</td>
+		<td>
+		Kate OS is a polish GNU/Linux distribution. It is a lightweight binary distribution featuring Xfce as the default desktop environment.
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.kateos.org/" target="_blank" title="Visit the Kate OS website">Website</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="Visit the Kate OS page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+

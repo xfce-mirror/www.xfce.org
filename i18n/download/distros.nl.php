@@ -61,3 +61,18 @@ Verder draaien alle Xfce servers op Lunar Linux!</td>
 		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux website">Website</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Visit the Lunar Linux page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
+
+<h2>Kate OS</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.kateos.org/" target="_blank" title="Visit the Kate OS website"><img src="/images/download/distros/kateos.png" alt="Kate OS" border="0"/></a>
+		</td>
+		<td>
+		Kate OS is een poolse GNU/Linux distributie. Het is een lightgewicht binaire distro met Xfce als standaard bureaublad-omgeving.
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.kateos.org/" target="_blank" title="Visit the Kate OS website">Website</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="Visit the Kate OS page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
