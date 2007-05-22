@@ -8,4 +8,5 @@
 	    <li><a href="/projects/#art">Kunst en Afbeeldingen</a></li>
 		</ul>
 	</li>
+	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Xfce Goodies</a></li>
 </ul>
