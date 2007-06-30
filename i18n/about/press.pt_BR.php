@@ -1,4 +1,4 @@
-<h1>Xfce in the News</h1>
+<h1>Xfce em Notícias</h1>
 <p>Aqui você pode encontrar vários resumos do ambiente de desktop Xfce.</p>
 <h2>2006</h2>
 <table width="99%">
@@ -20,7 +20,7 @@
   <tr>
     <td align="left">2006-01-10</td>
     <td align="left">Blog, All about Linux </td>
-    <td align="left"><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html" target="_blank">Xfce 4.2 - A light weight window manager heavy in features.</a></td>
+    <td align="left"><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html" target="_blank">Xfce 4.2 - Um gerenciador de janelas leve e cheio de funções.</a></td>
   </tr>
 </table>
 <h2>2005</h2>
@@ -38,7 +38,7 @@
   <tr>
     <td align="left">2005-01-11</td>
     <td>Mad Penguin</td>
-    <td align="left"><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216" target="_blank">Xfce Installer Something To Be Proud Of</a></td>
+    <td align="left"><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216" target="_blank">Instalador Xfce Alog Para Se Ter Orgulho</a></td>
   </tr>
 </table>
 <h2>2004</h2>
@@ -61,7 +61,7 @@
   <tr>
     <td>2004-08-10</td>
     <td>Blog, Juha-Mikko</td>
-    <td><a href="http://jmz.iki.fi/blog.php/computers/xfce_42_beta_review" target="_blank">Xfce 4.2 Beta Review</a></td>
+    <td><a href="http://jmz.iki.fi/blog.php/computers/xfce_42_beta_review" target="_blank">Análise do Xfce 4.2 Beta</a></td>
   </tr>
   <tr>
     <td>2004-05-10</td>
@@ -79,7 +79,7 @@
   <tr>
     <td>2003-12-22</td>
     <td>OSNews</td>
-    <td><a href="http://osnews.com/story.php?news_id=5478" target="_blank">Xfce-4 - A Refreshingly Solid Desktop</a></td>
+    <td><a href="http://osnews.com/story.php?news_id=5478" target="_blank">Xfce-4 - Um Desktop Refrescantemente Sólido</a></td>
   </tr>
   <tr>
     <td>2003-11-01</td>

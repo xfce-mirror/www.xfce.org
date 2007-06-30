@@ -4,7 +4,7 @@
 $breadcrumbs = array (
     # Home Page Title
     "default_title"    => "Ambiente de Desktop",
-    
+
     # Catogory names
     "home"             => "Principal",
     "lists"            => "Listas de discussão",
@@ -15,7 +15,7 @@ $breadcrumbs = array (
     "tour"             => "Xfce 4.4 Tour",
     "search"           => "Pesquisar no Google",
     "distros"          => "Xfce em Distribuições",
-    
+
     # Common Xfce components
     "xfce4-panel"      => "Painel",
     "xfwm4"            => "Gerenciador de Janela",
@@ -30,7 +30,7 @@ $breadcrumbs = array (
     "xfce4-mixer"      => "Controle de Volume",
     "xfce4-terminal"   => "Emulador de Terminal do Xfce4",
     "xfce4-dev-tools"  => "Ferramentas de Desenvolvimento do Xfce",
-    "xarchive"         => "Archive Manager",
+    "xarchive"         => "Gerenciador de Pacotes",
     "xfc"              => "Classes do Xfce",
     "xfce-gtk-engine"  => "GTK Theme Engine",
     "dbh"              => "Disco Baseado em Tabelas Hash",
