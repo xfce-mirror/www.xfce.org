@@ -9,7 +9,7 @@
 <ul>
   <li><strong>libxfce4util</strong>: utilitários básicos.</li>
   <li><strong>libxfcegui4</strong>: widgets unificados.</li>
-  <li><strong>libxfce4mcs</strong>: componentes Xfce.</li>
+  <li><strong>libxfce4mcs</strong>: componentes do Xfce.</li>
 </ul>
 
 <h2>Endereços Externos</h2>

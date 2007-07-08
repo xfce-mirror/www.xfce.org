@@ -1,4 +1,4 @@
-<h1>Requerimento do Sistema para o Xfce</h1>
+<h1>Requisitos do Sistema para o Xfce</h1>
 <p>Todos os pacotes (exceto xfce4-dev-tools) dependem em ambos gtk+&nbsp;&gt;=&nbsp;2.6 e glib&nbsp;&gt;=&nbsp;2.6.4.
 A ordem na tabela de dependência é também a ordem de construção recomendada.<br />
 Também é recomendado construir todos os componentes Xfce da mesma versão de lançamento.</p>
@@ -137,5 +137,5 @@ Também é recomendado construir todos os componentes Xfce da mesma versão de l
     <li>librsvg (suporte para ícones redimensionáveis)</li>
     <li>hicolor-icon-theme (melhor suporte à temas de ícones)</li>
     <li>openssh</li>
-    <li>xscreensaver (travamento da tela)</li>
+    <li>xscreensaver (para ser utilizado como protetor de tela)</li>
 </ul>

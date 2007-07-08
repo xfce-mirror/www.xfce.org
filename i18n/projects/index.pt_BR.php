@@ -139,7 +139,7 @@
             <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
         </td>
         <td width="33%" valign="top">
-            <h3><a href="/projects/xfce4-appfinder/">Encontrador de Aplicações</a></h3>
+            <h3><a href="/projects/xfce4-appfinder/">Buscador de Aplicações</a></h3>
             <p>Permite pesquisar, lançar e encontrar informações sobre aplicações instaladas no seu sistema.</p>
         </td>
         <td width="48" valign="top">
