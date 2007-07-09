@@ -1,32 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfcePanelWindow</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
-<link rel="start" href="index.html" title="libxfce4panel Reference Manual">
-<link rel="up" href="ch01.html" title="API Reference">
-<link rel="prev" href="XfceArrowButton.html" title="XfceArrowButton">
-<link rel="next" href="XfceItembar.html" title="XfceItembar">
-<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
+<link rel="up" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="prev" href="XfceItembar.html" title="XfceItembar">
+<link rel="next" href="libxfce4panel-Convenience-Widgets.html" title="Convenience Functions">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
-<link rel="chapter" href="ch01.html" title="API Reference">
+<link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
+<link rel="chapter" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="index" href="ix02.html" title="Index of new symbols in 4.5">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
-<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
-<td><a accesskey="p" href="XfceArrowButton.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
-<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceItembar.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4panel-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
 <td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
-<th width="100%" align="center">libxfce4panel Reference Manual</th>
-<td><a accesskey="n" href="XfceItembar.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
-</tr></table>
+<th width="100%" align="center">Libxfce4panel Reference Manual</th>
+<td><a accesskey="n" href="libxfce4panel-Convenience-Widgets.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2580607" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2581316" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2581112" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2581181" class="shortcut">Implemented Interfaces</a>
+                  &#160;|&#160;
+                  <a href="#id2581204" class="shortcut">Properties</a>
+                  &#160;|&#160;
+                  <a href="#id2581257" class="shortcut">Signals</a></nobr></td></tr>
+</table>
 <div class="refentry" lang="en">
 <a name="XfcePanelWindow"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
-<h2><span class="refentrytitle">XfcePanelWindow</span></h2>
-<p>XfcePanelWindow &#8212; <p>
-A toplevel borderless window with optional move handles.
-</p></p>
+<h2>
+<a name="id2580607"></a><span class="refentrytitle">XfcePanelWindow</span>
+</h2>
+<p>XfcePanelWindow &#8212; A toplevel borderless window with optional move handles.</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
@@ -34,59 +52,52 @@ A toplevel borderless window with optional move handles.
 <h2>Synopsis</h2>
 <pre class="synopsis">
 
+#include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-            <a href="XfcePanelWindow.html#XfcePanelWindow-struct">XfcePanelWindow</a>;
-enum        <a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a>;
-void        (<a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">*XfcePanelWindowMoveFunc</a>)      (GtkWidget *widget,
-                                             gpointer data,
-                                             int *x,
-                                             int *y);
-void        (<a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">*XfcePanelWindowResizeFunc</a>)    (GtkWidget *widget,
-                                             gpointer data,
-                                             GtkAllocation *previous,
-                                             GtkAllocation *allocation,
-                                             int *x,
-                                             int *y);
-GtkWidget*  <a href="XfcePanelWindow.html#xfce-panel-window-new">xfce_panel_window_new</a>           (void);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-orientation">xfce_panel_window_set_orientation</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             GtkOrientation orientation);
-GtkOrientation <a href="XfcePanelWindow.html#xfce-panel-window-get-orientation">xfce_panel_window_get_orientation</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-handle-style">xfce_panel_window_set_handle_style</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a> handle_style);
-<a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a> <a href="XfcePanelWindow.html#xfce-panel-window-get-handle-style">xfce_panel_window_get_handle_style</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-show-border">xfce_panel_window_set_show_border</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean top_border,
-                                             gboolean bottom_border,
-                                             gboolean left_border,
-                                             gboolean right_border);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-get-show-border">xfce_panel_window_get_show_border</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean *top_border,
-                                             gboolean *bottom_border,
-                                             gboolean *left_border,
-                                             gboolean *right_border);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-resize-function">xfce_panel_window_set_resize_function</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">XfcePanelWindowResizeFunc</a> function,
-                                             gpointer data);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-move-function">xfce_panel_window_set_move_function</a>
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">XfcePanelWindowMoveFunc</a> function,
-                                             gpointer data);
-void        <a href="XfcePanelWindow.html#xfce-panel-window-set-movable">xfce_panel_window_set_movable</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean movable);
-gboolean    <a href="XfcePanelWindow.html#xfce-panel-window-get-movable">xfce_panel_window_get_movable</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
+                    <a href="XfcePanelWindow.html#XfcePanelWindow-struct">XfcePanelWindow</a>;
+void                (<a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">*XfcePanelWindowMoveFunc</a>)          (GtkWidget *widget,
+                                                         gpointer data,
+                                                         gint *x,
+                                                         gint *y);
+void                (<a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">*XfcePanelWindowResizeFunc</a>)        (GtkWidget *widget,
+                                                         gpointer data,
+                                                         GtkAllocation *previous,
+                                                         GtkAllocation *allocation,
+                                                         gint *x,
+                                                         gint *y);
+GtkWidget*          <a href="XfcePanelWindow.html#xfce-panel-window-new">xfce_panel_window_new</a>               (void);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-orientation">xfce_panel_window_set_orientation</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         GtkOrientation orientation);
+GtkOrientation      <a href="XfcePanelWindow.html#xfce-panel-window-get-orientation">xfce_panel_window_get_orientation</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-handle-style">xfce_panel_window_set_handle_style</a>  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a> handle_style);
+<a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a>     <a href="XfcePanelWindow.html#xfce-panel-window-get-handle-style">xfce_panel_window_get_handle_style</a>  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-show-border">xfce_panel_window_set_show_border</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean top_border,
+                                                         gboolean bottom_border,
+                                                         gboolean left_border,
+                                                         gboolean right_border);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-get-show-border">xfce_panel_window_get_show_border</a>   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean *top_border,
+                                                         gboolean *bottom_border,
+                                                         gboolean *left_border,
+                                                         gboolean *right_border);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-resize-function">xfce_panel_window_set_resize_function</a>
+                                                        (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">XfcePanelWindowResizeFunc</a> function,
+                                                         gpointer data);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-move-function">xfce_panel_window_set_move_function</a> (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">XfcePanelWindowMoveFunc</a> function,
+                                                         gpointer data);
+void                <a href="XfcePanelWindow.html#xfce-panel-window-set-movable">xfce_panel_window_set_movable</a>       (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean movable);
+gboolean            <a href="XfcePanelWindow.html#xfce-panel-window-get-movable">xfce_panel_window_get_movable</a>       (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604755"></a><h2>Object Hierarchy</h2>
+<a name="id2581112"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GObject
@@ -100,114 +111,55 @@ gboolean    <a href="XfcePanelWindow.html#xfce-panel-window-get-movable">xfce_pa
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604807"></a><h2>Implemented Interfaces</h2>
+<a name="id2581181"></a><h2>Implemented Interfaces</h2>
 <p>
 XfcePanelWindow implements
  AtkImplementorIface.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604822"></a><h2>Properties</h2>
+<a name="id2581204"></a><h2>Properties</h2>
 <pre class="synopsis">
 
-  "<a href="XfcePanelWindow.html#XfcePanelWindow--handle-style">handle-style</a>"         <a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a>       : Read / Write
-  "<a href="XfcePanelWindow.html#XfcePanelWindow--orientation">orientation</a>"          GtkOrientation        : Read / Write
+  "<a href="XfcePanelWindow.html#XfcePanelWindow--handle-style">handle-style</a>"             <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a>       : Read / Write
+  "<a href="XfcePanelWindow.html#XfcePanelWindow--orientation">orientation</a>"              GtkOrientation        : Read / Write
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2605196"></a><h2>Signal Prototypes</h2>
+<a name="id2581257"></a><h2>Signals</h2>
 <pre class="synopsis">
 
-"<a href="XfcePanelWindow.html#XfcePanelWindow-move">move</a>"      void        user_function      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gint x,
-                                            gint y,
-                                            gpointer user_data);
-"<a href="XfcePanelWindow.html#XfcePanelWindow-move-end">move-end</a>"  void        user_function      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gint x,
-                                            gint y,
-                                            gpointer user_data);
-"<a href="XfcePanelWindow.html#XfcePanelWindow-move-start">move-start</a>"
-            void        user_function      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gpointer user_data);
-"<a href="XfcePanelWindow.html#XfcePanelWindow-orientation-changed">orientation-changed</a>"
-            void        user_function      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            GtkOrientation orientation,
-                                            gpointer user_data);
+  "<a href="XfcePanelWindow.html#XfcePanelWindow-move">move</a>"                                           : Run Last
+  "<a href="XfcePanelWindow.html#XfcePanelWindow-move-end">move-end</a>"                                       : Run Last
+  "<a href="XfcePanelWindow.html#XfcePanelWindow-move-start">move-start</a>"                                     : Run Last
+  "<a href="XfcePanelWindow.html#XfcePanelWindow-orientation-changed">orientation-changed</a>"                            : Run First
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2605331"></a><h2>Description</h2>
+<a name="id2581316"></a><h2>Description</h2>
 <p>
 A widget derived from <span class="type">GtkWindow</span> that implements a toplevel window for panels.
 It optionally can have one or two move handles.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2605347"></a><h2>Details</h2>
+<a name="id2581340"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2605352"></a><h3>
+<a name="id2581350"></a><h3>
 <a name="XfcePanelWindow-struct"></a>XfcePanelWindow</h3>
-<a class="indexterm" name="id2605361"></a><pre class="programlisting">typedef struct _XfcePanelWindow XfcePanelWindow;</pre>
+<a class="indexterm" name="id2581364"></a><pre class="programlisting">typedef struct _XfcePanelWindow XfcePanelWindow;</pre>
 <p>
-The <a href="XfcePanelWindow.html#XfcePanelWindow-struct"><span class="type">XfcePanelWindow-struct</span></a> struct contains private data only, and
+The <a href="XfcePanelWindow.html#XfcePanelWindow-struct"><span class="type">XfcePanelWindow</span></a> struct contains private data only, and
 should be accessed using the functions below.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2605382"></a><h3>
-<a name="XfceHandleStyle"></a>enum XfceHandleStyle</h3>
-<a class="indexterm" name="id2605390"></a><pre class="programlisting">typedef enum /*&lt;enum,prefix=XFCE_HANDLE_STYLE &gt;*/
-{
-    XFCE_HANDLE_STYLE_NONE,
-    XFCE_HANDLE_STYLE_BOTH,
-    XFCE_HANDLE_STYLE_START,
-    XFCE_HANDLE_STYLE_END
-}
-XfceHandleStyle;
-</pre>
-<p>
-Style of the handles on an <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>.</p>
-<p>
-
-</p>
-<div class="variablelist"><table border="0">
-<col align="left" valign="top">
-<tbody>
-<tr>
-<td>
-<span class="term"><code class="literal">XFCE_HANDLE_STYLE_NONE</code></span></td>
-<td> No handles.
-</td>
-</tr>
-<tr>
-<td>
-<span class="term"><code class="literal">XFCE_HANDLE_STYLE_BOTH</code></span></td>
-<td> Two handles, one on each side.
-</td>
-</tr>
-<tr>
-<td>
-<span class="term"><code class="literal">XFCE_HANDLE_STYLE_START</code></span></td>
-<td> One handle at the start.
-</td>
-</tr>
-<tr>
-<td>
-<span class="term"><code class="literal">XFCE_HANDLE_STYLE_END</code></span></td>
-<td> One handle at the end.
-</td>
-</tr>
-</tbody>
-</table></div>
-</div>
-<hr>
-<div class="refsect2" lang="en">
-<a name="id2605475"></a><h3>
+<a name="id2581390"></a><h3>
 <a name="XfcePanelWindowMoveFunc"></a>XfcePanelWindowMoveFunc ()</h3>
-<a class="indexterm" name="id2605483"></a><pre class="programlisting">void        (*XfcePanelWindowMoveFunc)      (GtkWidget *widget,
-                                             gpointer data,
-                                             int *x,
-                                             int *y);</pre>
+<a class="indexterm" name="id2581402"></a><pre class="programlisting">void                (*XfcePanelWindowMoveFunc)          (GtkWidget *widget,
+                                                         gpointer data,
+                                                         gint *x,
+                                                         gint *y);</pre>
 <p>
 Callback function that can be used to restrict manual movement of the
 <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>. The function should modify <em class="parameter"><code>x</code></em> and <em class="parameter"><code>y</code></em> to set the new
@@ -219,26 +171,22 @@ position.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
 <td> The <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> widget
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
 <td> user data supplied with the function
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
 <td> location of the new x coordinate
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
 <td> location of the new y coordinate
 </td>
 </tr>
@@ -247,17 +195,17 @@ position.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2624590"></a><h3>
+<a name="id2581547"></a><h3>
 <a name="XfcePanelWindowResizeFunc"></a>XfcePanelWindowResizeFunc ()</h3>
-<a class="indexterm" name="id2624599"></a><pre class="programlisting">void        (*XfcePanelWindowResizeFunc)    (GtkWidget *widget,
-                                             gpointer data,
-                                             GtkAllocation *previous,
-                                             GtkAllocation *allocation,
-                                             int *x,
-                                             int *y);</pre>
+<a class="indexterm" name="id2581561"></a><pre class="programlisting">void                (*XfcePanelWindowResizeFunc)        (GtkWidget *widget,
+                                                         gpointer data,
+                                                         GtkAllocation *previous,
+                                                         GtkAllocation *allocation,
+                                                         gint *x,
+                                                         gint *y);</pre>
 <p>
 Callback function that can be used to adjust the position of the
-<a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> when its size changes. The function should modify <em class="parameter"><code>x</code></em> 
+<a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> when its size changes. The function should modify <em class="parameter"><code>x</code></em>
 and <em class="parameter"><code>y</code></em> to set the new position.</p>
 <p>
 
@@ -266,38 +214,32 @@ and <em class="parameter"><code>y</code></em> to set the new position.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
 <td> The <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> widget
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
 <td> user data supplied with the function
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>previous</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>previous</code></em>&#160;:</span></td>
 <td> Old <span class="type">GtkAllocation</span>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>allocation</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>allocation</code></em>&#160;:</span></td>
 <td> New <span class="type">GtkAllocation</span>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
 <td> location of the new x coordinate
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
 <td> location of the new y coordinate
 </td>
 </tr>
@@ -306,9 +248,9 @@ and <em class="parameter"><code>y</code></em> to set the new position.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2624780"></a><h3>
+<a name="id2581766"></a><h3>
 <a name="xfce-panel-window-new"></a>xfce_panel_window_new ()</h3>
-<a class="indexterm" name="id2624789"></a><pre class="programlisting">GtkWidget*  xfce_panel_window_new           (void);</pre>
+<a class="indexterm" name="id2581779"></a><pre class="programlisting">GtkWidget*          xfce_panel_window_new               (void);</pre>
 <p>
 Create new panel window.</p>
 <p>
@@ -317,8 +259,7 @@ Create new panel window.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
 <td> New <span class="type">GtkWidget</span>
 </td>
 </tr></tbody>
@@ -326,11 +267,10 @@ Create new panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2624832"></a><h3>
+<a name="id2581827"></a><h3>
 <a name="xfce-panel-window-set-orientation"></a>xfce_panel_window_set_orientation ()</h3>
-<a class="indexterm" name="id2624843"></a><pre class="programlisting">void        xfce_panel_window_set_orientation
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             GtkOrientation orientation);</pre>
+<a class="indexterm" name="id2581841"></a><pre class="programlisting">void                xfce_panel_window_set_orientation   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         GtkOrientation orientation);</pre>
 <p>
 Set orientation for panel window.</p>
 <p>
@@ -340,14 +280,12 @@ Set orientation for panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
 <td> new <span class="type">GtkOrientation</span>
 </td>
 </tr>
@@ -356,10 +294,9 @@ Set orientation for panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654344"></a><h3>
+<a name="id2581929"></a><h3>
 <a name="xfce-panel-window-get-orientation"></a>xfce_panel_window_get_orientation ()</h3>
-<a class="indexterm" name="id2654356"></a><pre class="programlisting">GtkOrientation xfce_panel_window_get_orientation
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
+<a class="indexterm" name="id2581943"></a><pre class="programlisting">GtkOrientation      xfce_panel_window_get_orientation   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
 <p>
 Get orientation of panel window.</p>
 <p>
@@ -369,14 +306,12 @@ Get orientation of panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
 <td> <span class="type">GtkOrientation</span> of <em class="parameter"><code>window</code></em>
 </td>
 </tr>
@@ -385,11 +320,10 @@ Get orientation of panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654429"></a><h3>
+<a name="id2582026"></a><h3>
 <a name="xfce-panel-window-set-handle-style"></a>xfce_panel_window_set_handle_style ()</h3>
-<a class="indexterm" name="id2654441"></a><pre class="programlisting">void        xfce_panel_window_set_handle_style
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a> handle_style);</pre>
+<a class="indexterm" name="id2582040"></a><pre class="programlisting">void                xfce_panel_window_set_handle_style  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a> handle_style);</pre>
 <p>
 Set handle style for panel window.</p>
 <p>
@@ -399,15 +333,13 @@ Set handle style for panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>handle_style</code></em>&#160;:</span></td>
-<td> new <a href="XfcePanelWindow.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a>
+<td><span class="term"><em class="parameter"><code>handle_style</code></em>&#160;:</span></td>
+<td> new <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a>
 </td>
 </tr>
 </tbody>
@@ -415,10 +347,9 @@ Set handle style for panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654519"></a><h3>
+<a name="id2582128"></a><h3>
 <a name="xfce-panel-window-get-handle-style"></a>xfce_panel_window_get_handle_style ()</h3>
-<a class="indexterm" name="id2654531"></a><pre class="programlisting"><a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a> xfce_panel_window_get_handle_style
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
+<a class="indexterm" name="id2582143"></a><pre class="programlisting"><a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a>     xfce_panel_window_get_handle_style  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
 <p>
 Get handle style of panel window.</p>
 <p>
@@ -428,15 +359,13 @@ Get handle style of panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> <a href="XfcePanelWindow.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a> of <em class="parameter"><code>window</code></em>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a> of <em class="parameter"><code>window</code></em>
 </td>
 </tr>
 </tbody>
@@ -444,14 +373,13 @@ Get handle style of panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654604"></a><h3>
+<a name="id2582226"></a><h3>
 <a name="xfce-panel-window-set-show-border"></a>xfce_panel_window_set_show_border ()</h3>
-<a class="indexterm" name="id2654616"></a><pre class="programlisting">void        xfce_panel_window_set_show_border
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean top_border,
-                                             gboolean bottom_border,
-                                             gboolean left_border,
-                                             gboolean right_border);</pre>
+<a class="indexterm" name="id2582240"></a><pre class="programlisting">void                xfce_panel_window_set_show_border   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean top_border,
+                                                         gboolean bottom_border,
+                                                         gboolean left_border,
+                                                         gboolean right_border);</pre>
 <p>
 Set border visibility for the panel window.</p>
 <p>
@@ -461,32 +389,27 @@ Set border visibility for the panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>top_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>top_border</code></em>&#160;:</span></td>
 <td> show top border
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>bottom_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>bottom_border</code></em>&#160;:</span></td>
 <td> show bottom border
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>left_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>left_border</code></em>&#160;:</span></td>
 <td> show left border
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>right_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>right_border</code></em>&#160;:</span></td>
 <td> show right border
 </td>
 </tr>
@@ -495,14 +418,13 @@ Set border visibility for the panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654745"></a><h3>
+<a name="id2582386"></a><h3>
 <a name="xfce-panel-window-get-show-border"></a>xfce_panel_window_get_show_border ()</h3>
-<a class="indexterm" name="id2654757"></a><pre class="programlisting">void        xfce_panel_window_get_show_border
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean *top_border,
-                                             gboolean *bottom_border,
-                                             gboolean *left_border,
-                                             gboolean *right_border);</pre>
+<a class="indexterm" name="id2582400"></a><pre class="programlisting">void                xfce_panel_window_get_show_border   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean *top_border,
+                                                         gboolean *bottom_border,
+                                                         gboolean *left_border,
+                                                         gboolean *right_border);</pre>
 <p>
 Get visibility of panel window borders.</p>
 <p>
@@ -512,32 +434,27 @@ Get visibility of panel window borders.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>top_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>top_border</code></em>&#160;:</span></td>
 <td> location for top border or <code class="literal">NULL</code>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>bottom_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>bottom_border</code></em>&#160;:</span></td>
 <td> location for bottom border or <code class="literal">NULL</code>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>left_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>left_border</code></em>&#160;:</span></td>
 <td> location for left border or <code class="literal">NULL</code>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>right_border</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>right_border</code></em>&#160;:</span></td>
 <td> location for right border or <code class="literal">NULL</code>
 </td>
 </tr>
@@ -546,12 +463,12 @@ Get visibility of panel window borders.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2654976"></a><h3>
+<a name="id2582587"></a><h3>
 <a name="xfce-panel-window-set-resize-function"></a>xfce_panel_window_set_resize_function ()</h3>
-<a class="indexterm" name="id2654987"></a><pre class="programlisting">void        xfce_panel_window_set_resize_function
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">XfcePanelWindowResizeFunc</a> function,
-                                             gpointer data);</pre>
+<a class="indexterm" name="id2582602"></a><pre class="programlisting">void                xfce_panel_window_set_resize_function
+                                                        (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc">XfcePanelWindowResizeFunc</a> function,
+                                                         gpointer data);</pre>
 <p>
 Set a function to modify resize behaviour of the panel window.</p>
 <p>
@@ -561,20 +478,17 @@ Set a function to modify resize behaviour of the panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>function</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>function</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html#XfcePanelWindowResizeFunc"><span class="type">XfcePanelWindowResizeFunc</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
 <td> user data
 </td>
 </tr>
@@ -583,12 +497,11 @@ Set a function to modify resize behaviour of the panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655084"></a><h3>
+<a name="id2582714"></a><h3>
 <a name="xfce-panel-window-set-move-function"></a>xfce_panel_window_set_move_function ()</h3>
-<a class="indexterm" name="id2655096"></a><pre class="programlisting">void        xfce_panel_window_set_move_function
-                                            (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             <a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">XfcePanelWindowMoveFunc</a> function,
-                                             gpointer data);</pre>
+<a class="indexterm" name="id2582729"></a><pre class="programlisting">void                xfce_panel_window_set_move_function (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         <a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc">XfcePanelWindowMoveFunc</a> function,
+                                                         gpointer data);</pre>
 <p>
 Set a function to modify move behaviour of the panel window.</p>
 <p>
@@ -598,20 +511,17 @@ Set a function to modify move behaviour of the panel window.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>function</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>function</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html#XfcePanelWindowMoveFunc"><span class="type">XfcePanelWindowMoveFunc</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>data</code></em>&#160;:</span></td>
 <td> user data
 </td>
 </tr>
@@ -620,10 +530,10 @@ Set a function to modify move behaviour of the panel window.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655193"></a><h3>
+<a name="id2582840"></a><h3>
 <a name="xfce-panel-window-set-movable"></a>xfce_panel_window_set_movable ()</h3>
-<a class="indexterm" name="id2655203"></a><pre class="programlisting">void        xfce_panel_window_set_movable   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                             gboolean movable);</pre>
+<a class="indexterm" name="id2582853"></a><pre class="programlisting">void                xfce_panel_window_set_movable       (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                         gboolean movable);</pre>
 <p>
 Set if the panel window can be moved by the user.</p>
 <p>
@@ -633,14 +543,12 @@ Set if the panel window can be moved by the user.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>movable</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>movable</code></em>&#160;:</span></td>
 <td> <code class="literal">TRUE</code> or <code class="literal">FALSE</code>.
 </td>
 </tr>
@@ -649,9 +557,9 @@ Set if the panel window can be moved by the user.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655285"></a><h3>
+<a name="id2582954"></a><h3>
 <a name="xfce-panel-window-get-movable"></a>xfce_panel_window_get_movable ()</h3>
-<a class="indexterm" name="id2655294"></a><pre class="programlisting">gboolean    xfce_panel_window_get_movable   (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
+<a class="indexterm" name="id2582967"></a><pre class="programlisting">gboolean            xfce_panel_window_get_movable       (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window);</pre>
 <p>
 Check if the panel window can be moved by the user.
 By default this is <code class="literal">TRUE</code>.</p>
@@ -662,14 +570,12 @@ By default this is <code class="literal">TRUE</code>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
 <td> <code class="literal">TRUE</code> if the user is allowed to move <em class="parameter"><code>window</code></em>, <code class="literal">FALSE</code> if not.
 </td>
 </tr>
@@ -678,13 +584,13 @@ By default this is <code class="literal">TRUE</code>.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2655379"></a><h2>Properties</h2>
+<a name="id2583074"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2655384"></a><h3>
+<a name="id2583085"></a><h3>
 <a name="XfcePanelWindow--handle-style"></a>The "<code class="literal">handle-style</code>" property</h3>
-<pre class="programlisting">  "handle-style"         <a href="XfcePanelWindow.html#XfceHandleStyle">XfceHandleStyle</a>       : Read / Write</pre>
+<a class="indexterm" name="id2583102"></a><pre class="programlisting">  "handle-style"             <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle">XfceHandleStyle</a>       : Read / Write</pre>
 <p>
-The <a href="XfcePanelWindow.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a> to use when drawing handles.</p>
+The <a href="libxfce4panel-Standard-Enumerations.html#XfceHandleStyle"><span class="type">XfceHandleStyle</span></a> to use when drawing handles.</p>
 <p>
 
 </p>
@@ -692,9 +598,9 @@ The <a href="XfcePanelWindow.html#XfceHandleStyle"><span class="type">XfceHandle
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655425"></a><h3>
+<a name="id2583141"></a><h3>
 <a name="XfcePanelWindow--orientation"></a>The "<code class="literal">orientation</code>" property</h3>
-<pre class="programlisting">  "orientation"          GtkOrientation        : Read / Write</pre>
+<a class="indexterm" name="id2583158"></a><pre class="programlisting">  "orientation"              GtkOrientation        : Read / Write</pre>
 <p>
 The orientation of the window. This the determines the way the handles
 are drawn.</p>
@@ -705,14 +611,14 @@ are drawn.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2655460"></a><h2>Signals</h2>
+<a name="id2583191"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2655465"></a><h3>
+<a name="id2583201"></a><h3>
 <a name="XfcePanelWindow-move"></a>The "move" signal</h3>
-<pre class="programlisting">void        user_function                  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gint x,
-                                            gint y,
-                                            gpointer user_data);</pre>
+<a class="indexterm" name="id2583211"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                        gint             x,
+                                                        gint             y,
+                                                        gpointer         user_data)      : Run Last</pre>
 <p>
 Emitted when the user moves the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> to a new position with
 coordinates (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>).</p>
@@ -723,26 +629,22 @@ coordinates (<em class="parameter"><code>x</code></em>, <em class="parameter"><c
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> which emitted the signal
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
 <td> x coordinate of the new position
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
 <td> y coordinate of the new position
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -750,12 +652,12 @@ coordinates (<em class="parameter"><code>x</code></em>, <em class="parameter"><c
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655597"></a><h3>
+<a name="id2583355"></a><h3>
 <a name="XfcePanelWindow-move-end"></a>The "move-end" signal</h3>
-<pre class="programlisting">void        user_function                  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gint x,
-                                            gint y,
-                                            gpointer user_data);</pre>
+<a class="indexterm" name="id2583366"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                        gint             x,
+                                                        gint             y,
+                                                        gpointer         user_data)      : Run Last</pre>
 <p>
 Emitted when the user stops dragging the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>. The latest
 position has coordinates (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>).</p>
@@ -766,26 +668,22 @@ position has coordinates (<em class="parameter"><code>x</code></em>, <em class="
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> which emitted the signal
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>x</code></em>&#160;:</span></td>
 <td> x coordinate of the new positions
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>y</code></em>&#160;:</span></td>
 <td> y coordinate of the new position
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -793,10 +691,10 @@ position has coordinates (<em class="parameter"><code>x</code></em>, <em class="
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655798"></a><h3>
+<a name="id2583510"></a><h3>
 <a name="XfcePanelWindow-move-start"></a>The "move-start" signal</h3>
-<pre class="programlisting">void        user_function                  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            gpointer user_data);</pre>
+<a class="indexterm" name="id2583520"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                        gpointer         user_data)      : Run Last</pre>
 <p>
 Emitted when the user starts to drag the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a>.</p>
 <p>
@@ -806,14 +704,12 @@ Emitted when the user starts to drag the <a href="XfcePanelWindow.html" title="X
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> which emitted the signal
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -821,11 +717,11 @@ Emitted when the user starts to drag the <a href="XfcePanelWindow.html" title="X
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2655878"></a><h3>
+<a name="id2583609"></a><h3>
 <a name="XfcePanelWindow-orientation-changed"></a>The "orientation-changed" signal</h3>
-<pre class="programlisting">void        user_function                  (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
-                                            GtkOrientation orientation,
-                                            gpointer user_data);</pre>
+<a class="indexterm" name="id2583620"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelWindow.html" title="XfcePanelWindow">XfcePanelWindow</a> *window,
+                                                        GtkOrientation   orientation,
+                                                        gpointer         user_data)        : Run First</pre>
 <p>
 Emitted when the orientation of the <a href="XfcePanelWindow.html" title="XfcePanelWindow"><span class="type">XfcePanelWindow</span></a> changes.</p>
 <p>
@@ -835,20 +731,17 @@ Emitted when the orientation of the <a href="XfcePanelWindow.html" title="XfcePa
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
 <td> the object which emitted the signal
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
 <td> the new <span class="type">GtkOrientation</span> of the window
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -856,9 +749,5 @@ Emitted when the orientation of the <a href="XfcePanelWindow.html" title="XfcePa
 </div>
 </div>
 </div>
-<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
-<td align="left"><a accesskey="p" href="XfceArrowButton.html"><b>&lt;&lt;&#160;XfceArrowButton</b></a></td>
-<td align="right"><a accesskey="n" href="XfceItembar.html"><b>XfceItembar&#160;&gt;&gt;</b></a></td>
-</tr></table>
 </body>
 </html>

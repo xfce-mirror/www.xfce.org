@@ -19,12 +19,23 @@
 {
   vertical-align: top;
 }
-table.navigation 
+/* this is needed so that the local anchors are displayed below the naviagtion */
+div.refnamediv a[name], div.refsect1 a[name]
+{
+  position: relative;
+  top: -4.5em;
+}
+table.navigation#top
 {
   background: #ffeeee;
   border: solid 1px #ffaaaa;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2em;
+  z-index: 1;
 }
 .navigation a 
 {
@@ -37,6 +48,18 @@ table.navigation
 .navigation .title 
 {
   font-size: 200%;
+}
+td.shortcuts
+{
+  color: #770000;
+  font-size: 80%;
+}
+
+div.refentry, div.chapter, div.part, div.book, div.index, div.glossary, div.sect1, div.appendix, div.preface
+{
+  position: relative;
+  top: 3em;
+  z-index: 0;
 }
 div.refnamediv 
 {
@@ -63,4 +86,27 @@ a:hover
 {
   text-decoration: underline;
   color: #FF0000;
+}
+
+div.table table
+{
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-style: solid;
+  border-color: #777777;
+  border-width: 1px;
+}
+
+div.table table td, div.table table th
+{
+  border-style: solid;
+  border-color: #777777;
+  border-width: 1px;
+  padding: 3px;
+  vertical-align: top;
+}
+
+div.table table th
+{
+  background-color: #eeeeee;
 }

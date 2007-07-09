@@ -1,32 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfceHVBox</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
-<link rel="start" href="index.html" title="libxfce4panel Reference Manual">
-<link rel="up" href="ch01.html" title="API Reference">
-<link rel="prev" href="XfceItembar.html" title="XfceItembar">
-<link rel="next" href="libxfce4panel-Standard-Enumerations.html" title="Standard Enumerations">
-<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
+<link rel="up" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="prev" href="XfceArrowButton.html" title="XfceArrowButton">
+<link rel="next" href="XfceItembar.html" title="XfceItembar">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
-<link rel="chapter" href="ch01.html" title="API Reference">
+<link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
+<link rel="chapter" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="index" href="ix02.html" title="Index of new symbols in 4.5">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
-<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
-<td><a accesskey="p" href="XfceItembar.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
-<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceArrowButton.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4panel-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
 <td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
-<th width="100%" align="center">libxfce4panel Reference Manual</th>
-<td><a accesskey="n" href="libxfce4panel-Standard-Enumerations.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
-</tr></table>
+<th width="100%" align="center">Libxfce4panel Reference Manual</th>
+<td><a accesskey="n" href="XfceItembar.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2572655" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2572832" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2572747" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2572809" class="shortcut">Implemented Interfaces</a></nobr></td></tr>
+</table>
 <div class="refentry" lang="en">
 <a name="XfceHVBox"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
-<h2><span class="refentrytitle">XfceHVBox</span></h2>
-<p>XfceHVBox &#8212; <p>
-Container widget with configurable orienation.
-</p></p>
+<h2>
+<a name="id2572655"></a><span class="refentrytitle">XfceHVBox</span>
+</h2>
+<p>XfceHVBox &#8212; Container widget with configurable orienation.</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
@@ -34,19 +48,20 @@ Container widget with configurable orienation.
 <h2>Synopsis</h2>
 <pre class="synopsis">
 
+#include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-            <a href="XfceHVBox.html#XfceHVBox-struct">XfceHVBox</a>;
-GtkWidget*  <a href="XfceHVBox.html#xfce-hvbox-new">xfce_hvbox_new</a>                  (GtkOrientation orientation,
-                                             gboolean homogeneous,
-                                             int spacing);
-void        <a href="XfceHVBox.html#xfce-hvbox-set-orientation">xfce_hvbox_set_orientation</a>      (<a href="XfceHVBox.html" title="XfceHVBox">XfceHVBox</a> *hvbox,
-                                             GtkOrientation orientation);
+                    <a href="XfceHVBox.html#XfceHVBox-struct">XfceHVBox</a>;
+GtkWidget*          <a href="XfceHVBox.html#xfce-hvbox-new">xfce_hvbox_new</a>                      (GtkOrientation orientation,
+                                                         gboolean homogeneous,
+                                                         gint spacing);
+void                <a href="XfceHVBox.html#xfce-hvbox-set-orientation">xfce_hvbox_set_orientation</a>          (<a href="XfceHVBox.html" title="XfceHVBox">XfceHVBox</a> *hvbox,
+                                                         GtkOrientation orientation);
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2606933"></a><h2>Object Hierarchy</h2>
+<a name="id2572747"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GObject
@@ -59,35 +74,36 @@ void        <a href="XfceHVBox.html#xfce-hvbox-set-orientation">xfce_hvbox_set_o
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2606979"></a><h2>Implemented Interfaces</h2>
+<a name="id2572809"></a><h2>Implemented Interfaces</h2>
 <p>
 XfceHVBox implements
  AtkImplementorIface.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2606994"></a><h2>Description</h2>
+<a name="id2572832"></a><h2>Description</h2>
 <p>
 <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> is a <span class="type">GtkBox</span> widget that allows the user to change its orientation.
 It is in fact a combination of <span class="type">GtkHBox</span> and <span class="type">GtkVBox</span>.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2607029"></a><h2>Details</h2>
+<a name="id2572880"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2607034"></a><h3>
+<a name="id2572891"></a><h3>
 <a name="XfceHVBox-struct"></a>XfceHVBox</h3>
-<a class="indexterm" name="id2607043"></a><pre class="programlisting">typedef struct _XfceHVBox XfceHVBox;</pre>
+<a class="indexterm" name="id2572904"></a><pre class="programlisting">typedef struct _XfceHVBox XfceHVBox;</pre>
 <p>
-
+The <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> struct contains private data only, and
+should be accessed using the functions below.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2607058"></a><h3>
+<a name="id2572928"></a><h3>
 <a name="xfce-hvbox-new"></a>xfce_hvbox_new ()</h3>
-<a class="indexterm" name="id2607066"></a><pre class="programlisting">GtkWidget*  xfce_hvbox_new                  (GtkOrientation orientation,
-                                             gboolean homogeneous,
-                                             int spacing);</pre>
+<a class="indexterm" name="id2572941"></a><pre class="programlisting">GtkWidget*          xfce_hvbox_new                      (GtkOrientation orientation,
+                                                         gboolean homogeneous,
+                                                         gint spacing);</pre>
 <p>
 Creates a new <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> container widget.</p>
 <p>
@@ -97,26 +113,22 @@ Creates a new <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">Xfce
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
-<td>
+<td><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
+<td> Orientation of the <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>homogeneous</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>homogeneous</code></em>&#160;:</span></td>
 <td> whether all children should be allocated the same size
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>spacing</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>spacing</code></em>&#160;:</span></td>
 <td> spacing between <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> children
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
 <td> the newly allocated <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> container widget.
 </td>
 </tr>
@@ -125,10 +137,12 @@ Creates a new <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">Xfce
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2607589"></a><h3>
+<a name="id2573078"></a><h3>
 <a name="xfce-hvbox-set-orientation"></a>xfce_hvbox_set_orientation ()</h3>
-<a class="indexterm" name="id2607597"></a><pre class="programlisting">void        xfce_hvbox_set_orientation      (<a href="XfceHVBox.html" title="XfceHVBox">XfceHVBox</a> *hvbox,
-                                             GtkOrientation orientation);</pre>
+<a class="indexterm" name="id2573092"></a><pre class="programlisting">void                xfce_hvbox_set_orientation          (<a href="XfceHVBox.html" title="XfceHVBox">XfceHVBox</a> *hvbox,
+                                                         GtkOrientation orientation);</pre>
+<p>
+Set the new orientation of the <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a> container widget.</p>
 <p>
 
 </p>
@@ -136,17 +150,13 @@ Creates a new <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">Xfce
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>hvbox</code></em>&#160;:</span></td>
-<td>
+<td><span class="term"><em class="parameter"><code>hvbox</code></em>&#160;:</span></td>
+<td> <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a>
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
-<td>
-
-
+<td><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
+<td> the new orientation of the <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">XfceHVBox</span></a>
 </td>
 </tr>
 </tbody>
@@ -154,9 +164,5 @@ Creates a new <a href="XfceHVBox.html" title="XfceHVBox"><span class="type">Xfce
 </div>
 </div>
 </div>
-<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
-<td align="left"><a accesskey="p" href="XfceItembar.html"><b>&lt;&lt;&#160;XfceItembar</b></a></td>
-<td align="right"><a accesskey="n" href="libxfce4panel-Standard-Enumerations.html"><b>Standard Enumerations&#160;&gt;&gt;</b></a></td>
-</tr></table>
 </body>
 </html>

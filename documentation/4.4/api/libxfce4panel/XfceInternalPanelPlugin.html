@@ -1,32 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfceInternalPanelPlugin</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.69.1">
-<link rel="start" href="index.html" title="libxfce4panel Reference Manual">
-<link rel="up" href="ch01.html" title="API Reference">
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
+<link rel="up" href="libxfce4panel-panel.html" title="Panel Plugins">
 <link rel="prev" href="XfceExternalPanelPlugin.html" title="XfceExternalPanelPlugin">
-<link rel="next" href="libxfce4panel-Convenience-Functions.html" title="Convenience Functions">
-<meta name="generator" content="GTK-Doc V1.4 (XML mode)">
+<link rel="next" href="libxfce4panel-widgets.html" title="Widgets">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
-<link rel="chapter" href="ch01.html" title="API Reference">
+<link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
+<link rel="chapter" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="index" href="ix02.html" title="Index of new symbols in 4.5">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
-<table class="navigation" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
 <td><a accesskey="p" href="XfceExternalPanelPlugin.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
-<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="u" href="libxfce4panel-panel.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
 <td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
-<th width="100%" align="center">libxfce4panel Reference Manual</th>
-<td><a accesskey="n" href="libxfce4panel-Convenience-Functions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
-</tr></table>
+<th width="100%" align="center">Libxfce4panel Reference Manual</th>
+<td><a accesskey="n" href="libxfce4panel-widgets.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2568749" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2570083" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2568836" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2570044" class="shortcut">Implemented Interfaces</a></nobr></td></tr>
+</table>
 <div class="refentry" lang="en">
 <a name="XfceInternalPanelPlugin"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
-<h2><span class="refentrytitle">XfceInternalPanelPlugin</span></h2>
-<p>XfceInternalPanelPlugin &#8212; <p>
-Internal panel plugin.
-</p></p>
+<h2>
+<a name="id2568749"></a><span class="refentrytitle">XfceInternalPanelPlugin</span>
+</h2>
+<p>XfceInternalPanelPlugin &#8212; Internal panel plugin.</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
@@ -34,20 +48,21 @@ Internal panel plugin.
 <h2>Synopsis</h2>
 <pre class="synopsis">
 
+#include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-            <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct">XfceInternalPanelPlugin</a>;
-GtkWidget*  <a href="XfceInternalPanelPlugin.html#xfce-internal-panel-plugin-new">xfce_internal_panel_plugin_new</a>  (const char *name,
-                                             const char *id,
-                                             const char *display_name,
-                                             int size,
-                                             <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
-                                             <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);
+                    <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct">XfceInternalPanelPlugin</a>;
+GtkWidget*          <a href="XfceInternalPanelPlugin.html#xfce-internal-panel-plugin-new">xfce_internal_panel_plugin_new</a>      (const gchar *name,
+                                                         const gchar *id,
+                                                         const gchar *display_name,
+                                                         gint size,
+                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
+                                                         <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2601699"></a><h2>Object Hierarchy</h2>
+<a name="id2568836"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GObject
@@ -61,43 +76,43 @@ GtkWidget*  <a href="XfceInternalPanelPlugin.html#xfce-internal-panel-plugin-new
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2601750"></a><h2>Implemented Interfaces</h2>
+<a name="id2570044"></a><h2>Implemented Interfaces</h2>
 <p>
 XfceInternalPanelPlugin implements
  AtkImplementorIface,  <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> and  XfcePanelItem.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2601777"></a><h2>Description</h2>
+<a name="id2570083"></a><h2>Description</h2>
 <p>
 Implements the <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin interface</a>
 for internal plugins (loadable modules).
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2601793"></a><h2>Details</h2>
+<a name="id2570106"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2601798"></a><h3>
+<a name="id2570116"></a><h3>
 <a name="XfceInternalPanelPlugin-struct"></a>XfceInternalPanelPlugin</h3>
-<a class="indexterm" name="id2601806"></a><pre class="programlisting">typedef struct _XfceInternalPanelPlugin XfceInternalPanelPlugin;</pre>
+<a class="indexterm" name="id2570130"></a><pre class="programlisting">typedef struct _XfceInternalPanelPlugin XfceInternalPanelPlugin;</pre>
 <p>
-The <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct"><span class="type">XfceInternalPanelPlugin-struct</span></a> struct contains private data only, and
-should be accessed using the functions for the 
+The <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct"><span class="type">XfceInternalPanelPlugin</span></a> struct contains private data only, and
+should be accessed using the functions for the
 <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin Interface</a>.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2601832"></a><h3>
+<a name="id2570164"></a><h3>
 <a name="xfce-internal-panel-plugin-new"></a>xfce_internal_panel_plugin_new ()</h3>
-<a class="indexterm" name="id2601842"></a><pre class="programlisting">GtkWidget*  xfce_internal_panel_plugin_new  (const char *name,
-                                             const char *id,
-                                             const char *display_name,
-                                             int size,
-                                             <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
-                                             <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);</pre>
+<a class="indexterm" name="id2570177"></a><pre class="programlisting">GtkWidget*          xfce_internal_panel_plugin_new      (const gchar *name,
+                                                         const gchar *id,
+                                                         const gchar *display_name,
+                                                         gint size,
+                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
+                                                         <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);</pre>
 <p>
-Creates a new internal plugin. This function should not be used directly,
-but only throught the <a href="libxfce4panel-Writing-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a> macro.</p>
+Creates a new ginternal plugin. This function should not be used directly,
+but only throught the <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a> macro.</p>
 <p>
 
 </p>
@@ -105,45 +120,38 @@ but only throught the <a href="libxfce4panel-Writing-Plugins.html#XFCE-PANEL-PLU
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
 <td> plugin name
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
 <td> unique identifier string
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>display_name</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>display_name</code></em>&#160;:</span></td>
 <td> translated plugin name
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></td>
 <td> panel size
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></td>
 <td> panel screen position
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><em class="parameter"><code>construct</code></em>&#160;:</span></td>
+<td><span class="term"><em class="parameter"><code>construct</code></em>&#160;:</span></td>
 <td> <a href="XfcePanelPlugin.html#XfcePanelPluginFunc"><span class="type">XfcePanelPluginFunc</span></a> that will be called to construct the
                 plugin widgets.
 </td>
 </tr>
 <tr>
-<td>
-<span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
 <td> Newly created panel plugin widget.
 </td>
 </tr>
@@ -152,9 +160,5 @@ but only throught the <a href="libxfce4panel-Writing-Plugins.html#XFCE-PANEL-PLU
 </div>
 </div>
 </div>
-<table class="navigation" width="100%" summary="Navigation footer" cellpadding="2" cellspacing="0"><tr valign="middle">
-<td align="left"><a accesskey="p" href="XfceExternalPanelPlugin.html"><b>&lt;&lt;&#160;XfceExternalPanelPlugin</b></a></td>
-<td align="right"><a accesskey="n" href="libxfce4panel-Convenience-Functions.html"><b>Convenience Functions&#160;&gt;&gt;</b></a></td>
-</tr></table>
 </body>
 </html>
