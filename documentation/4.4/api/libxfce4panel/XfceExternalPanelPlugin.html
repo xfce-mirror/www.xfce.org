@@ -52,8 +52,14 @@
 
 
                     <a href="XfceExternalPanelPlugin.html#XfceExternalPanelPlugin-struct">XfceExternalPanelPlugin</a>;
-GtkWidget*          <a href="XfceExternalPanelPlugin.html#xfce-external-panel-plugin-new">xfce_external_panel_plugin_new</a>      (gint argc,
-                                                         gchar **argv,
+<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          <a href="XfceExternalPanelPlugin.html#xfce-external-panel-plugin-new">xfce_external_panel_plugin_new</a>      (<a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a> argc,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> **argv,
                                                          <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);
 
 </pre>
@@ -62,14 +68,30 @@ GtkWidget*          <a href="XfceExternalPanelPlugin.html#xfce-external-panel-pl
 <a name="id2569057"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
-  GObject
-   +----GInitiallyUnowned
-         +----GtkObject
-               +----GtkWidget
-                     +----GtkContainer
-                           +----GtkBin
-                                 +----GtkWindow
-                                       +----GtkPlug
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="../gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="../gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="../gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="../gtk/GtkWindow.html"
+>GtkWindow</a>
+                                       +----<a
+href="../gtk/GtkPlug.html"
+>GtkPlug</a>
                                              +----XfceExternalPanelPlugin
 </pre>
 </div>
@@ -102,8 +124,14 @@ should be accessed using the functions for the
 <div class="refsect2" lang="en">
 <a name="id2569249"></a><h3>
 <a name="xfce-external-panel-plugin-new"></a>xfce_external_panel_plugin_new ()</h3>
-<a class="indexterm" name="id2569262"></a><pre class="programlisting">GtkWidget*          xfce_external_panel_plugin_new      (gint argc,
-                                                         gchar **argv,
+<a class="indexterm" name="id2569262"></a><pre class="programlisting"><a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          xfce_external_panel_plugin_new      (<a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a> argc,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> **argv,
                                                          <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);</pre>
 <p>
 Creates a new external plugin. This function should not be used directly
