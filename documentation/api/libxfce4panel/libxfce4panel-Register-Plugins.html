@@ -25,16 +25,16 @@
 <th width="100%" align="center">Libxfce4panel Reference Manual</th>
 <td><a accesskey="n" href="XfcePanelPlugin.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2558938" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2559330" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2559001" class="shortcut">Description</a></nobr></td></tr>
+                  <a href="#id2559393" class="shortcut">Description</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="libxfce4panel-Register-Plugins"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2558938"></a><span class="refentrytitle">Register Plugins</span>
+<a name="id2559330"></a><span class="refentrytitle">Register Plugins</span>
 </h2>
 <p>Register Plugins &#8212; Macros to register a plugin with the Xfce Panel</p>
 </td>
@@ -55,7 +55,7 @@
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2559001"></a><h2>Description</h2>
+<a name="id2559393"></a><h2>Description</h2>
 <p>
 Each plugin needs a macro to register with the panel. Since a plugin
 can be internal or external, you have to choose the appropriate macro
@@ -63,11 +63,11 @@ from the 4 below.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2559018"></a><h2>Details</h2>
+<a name="id2559410"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2559029"></a><h3>
+<a name="id2559420"></a><h3>
 <a name="XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL:CAPS"></a>XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL()</h3>
-<a class="indexterm" name="id2559042"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL(construct)</pre>
+<a class="indexterm" name="id2559434"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL(construct)</pre>
 <p>
 Registers and initializes the plugin. This is the only thing that is
 required to create a panel plugin.
@@ -88,9 +88,9 @@ See also: <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin in
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559101"></a><h3>
+<a name="id2559493"></a><h3>
 <a name="XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"></a>XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</h3>
-<a class="indexterm" name="id2559115"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_INTERNAL(construct)</pre>
+<a class="indexterm" name="id2559507"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_INTERNAL(construct)</pre>
 <p>
 Registers and initializes the plugin. This is the only thing that is
 required to create a panel plugin.
@@ -116,9 +116,9 @@ See also: <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin in
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559190"></a><h3>
+<a name="id2559582"></a><h3>
 <a name="XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-FULL:CAPS"></a>XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL()</h3>
-<a class="indexterm" name="id2559206"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL(construct,init,check)</pre>
+<a class="indexterm" name="id2559598"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL(construct,init,check)</pre>
 <p>
 Registers and initializes the plugin. This is the only thing that is
 required to create a panel plugin.
@@ -171,9 +171,9 @@ See also: <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin in
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559360"></a><h3>
+<a name="id2559751"></a><h3>
 <a name="XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-WITH-CHECK:CAPS"></a>XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_WITH_CHECK()</h3>
-<a class="indexterm" name="id2559374"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_WITH_CHECK(construct,check)</pre>
+<a class="indexterm" name="id2559766"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_WITH_CHECK(construct,check)</pre>
 <p>
 Registers and initializes the plugin. This is the only thing that is
 required to create a panel plugin. The <em class="parameter"><code>check</code></em> functions is run before
@@ -205,9 +205,9 @@ See also: <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin in
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559463"></a><h3>
+<a name="id2559855"></a><h3>
 <a name="XFCE-PANEL-PLUGIN-REGISTER-INTERNAL-WITH-CHECK:CAPS"></a>XFCE_PANEL_PLUGIN_REGISTER_INTERNAL_WITH_CHECK()</h3>
-<a class="indexterm" name="id2559477"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_INTERNAL_WITH_CHECK(construct,check)</pre>
+<a class="indexterm" name="id2559869"></a><pre class="programlisting">#define             XFCE_PANEL_PLUGIN_REGISTER_INTERNAL_WITH_CHECK(construct,check)</pre>
 <p>
 Registers and initializes the plugin. This is the only thing that is
 required to create a panel plugin. The <em class="parameter"><code>check</code></em> function is run before

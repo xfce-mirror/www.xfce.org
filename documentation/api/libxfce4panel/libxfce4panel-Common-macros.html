@@ -74,7 +74,11 @@ when possible.
 <a name="panel-slice-alloc"></a>panel_slice_alloc()</h3>
 <a class="indexterm" name="id2510716"></a><pre class="programlisting">#define             panel_slice_alloc(block_size)</pre>
 <p>
-Use g_slice_alloc is available, fallback to g_malloc.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-alloc"
+><span class="type">g_slice_alloc</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-malloc"
+><span class="type">g_malloc</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -89,11 +93,15 @@ Use g_slice_alloc is available, fallback to g_malloc.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2510746"></a><h3>
+<a name="id2555062"></a><h3>
 <a name="panel-slice-alloc0"></a>panel_slice_alloc0()</h3>
-<a class="indexterm" name="id2555062"></a><pre class="programlisting">#define             panel_slice_alloc0(block_size)</pre>
+<a class="indexterm" name="id2555074"></a><pre class="programlisting">#define             panel_slice_alloc0(block_size)</pre>
 <p>
-Use g_slice_alloc0 is available, fallback to g_malloc0.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-alloc0"
+><span class="type">g_slice_alloc0</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-malloc0"
+><span class="type">g_malloc0</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -108,11 +116,15 @@ Use g_slice_alloc0 is available, fallback to g_malloc0.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555096"></a><h3>
+<a name="id2555130"></a><h3>
 <a name="panel-slice-free"></a>panel_slice_free()</h3>
-<a class="indexterm" name="id2555108"></a><pre class="programlisting">#define             panel_slice_free(type, ptr)</pre>
+<a class="indexterm" name="id2555142"></a><pre class="programlisting">#define             panel_slice_free(type, ptr)</pre>
 <p>
-Use g_slice_free is available, fallback to g_free.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-free"
+><span class="type">g_slice_free</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-free"
+><span class="type">g_free</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -134,11 +146,15 @@ Use g_slice_free is available, fallback to g_free.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555158"></a><h3>
+<a name="id2555210"></a><h3>
 <a name="panel-slice-free1"></a>panel_slice_free1()</h3>
-<a class="indexterm" name="id2555171"></a><pre class="programlisting">#define             panel_slice_free1(block_size, mem_block)</pre>
+<a class="indexterm" name="id2555223"></a><pre class="programlisting">#define             panel_slice_free1(block_size, mem_block)</pre>
 <p>
-Use g_slice_free1 is available, fallback to g_free.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-free1"
+><span class="type">g_slice_free1</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-free"
+><span class="type">g_free</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -160,11 +176,15 @@ Use g_slice_free1 is available, fallback to g_free.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555220"></a><h3>
+<a name="id2555290"></a><h3>
 <a name="panel-slice-new"></a>panel_slice_new()</h3>
-<a class="indexterm" name="id2555233"></a><pre class="programlisting">#define             panel_slice_new(type)</pre>
+<a class="indexterm" name="id2555302"></a><pre class="programlisting">#define             panel_slice_new(type)</pre>
 <p>
-Use g_slice_new is available, fallback to g_new.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-new"
+><span class="type">g_slice_new</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-new"
+><span class="type">g_new</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -179,11 +199,15 @@ Use g_slice_new is available, fallback to g_new.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555267"></a><h3>
+<a name="id2555354"></a><h3>
 <a name="panel-slice-new0"></a>panel_slice_new0()</h3>
-<a class="indexterm" name="id2555280"></a><pre class="programlisting">#define             panel_slice_new0(type)</pre>
+<a class="indexterm" name="id2555367"></a><pre class="programlisting">#define             panel_slice_new0(type)</pre>
 <p>
-Use g_slice_new0 is available, fallback to g_new0.
+Use <a
+href="../glib/glib-Memory-Slices.html#g-slice-new0"
+><span class="type">g_slice_new0</span></a> when available, fallback to <a
+href="../glib/glib-Memory-Allocation.html#g-new0"
+><span class="type">g_new0</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
@@ -198,38 +222,64 @@ Use g_slice_new0 is available, fallback to g_new0.
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555314"></a><h3>
+<a name="id2555419"></a><h3>
 <a name="PANEL-PARAM-READABLE:CAPS"></a>PANEL_PARAM_READABLE</h3>
-<a class="indexterm" name="id2555327"></a><pre class="programlisting">#define             PANEL_PARAM_READABLE</pre>
+<a class="indexterm" name="id2555432"></a><pre class="programlisting">#define             PANEL_PARAM_READABLE</pre>
 <p>
-Alias for G_PARAM_READABLE | G_PARAM_STATIC_NAME | G_PARAM_STATIC_NICK | G_PARAM_STATIC_BLURB
+Alias for <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-READABLE:CAPS"
+><span class="type">G_PARAM_READABLE</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NAME:CAPS"
+><span class="type">G_PARAM_STATIC_NAME</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NICK:CAPS"
+><span class="type">G_PARAM_STATIC_NICK</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-BLURB:CAPS"
+><span class="type">G_PARAM_STATIC_BLURB</span></a>
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555344"></a><h3>
+<a name="id2555484"></a><h3>
 <a name="PANEL-PARAM-READWRITE:CAPS"></a>PANEL_PARAM_READWRITE</h3>
-<a class="indexterm" name="id2555356"></a><pre class="programlisting">#define             PANEL_PARAM_READWRITE</pre>
+<a class="indexterm" name="id2555496"></a><pre class="programlisting">#define             PANEL_PARAM_READWRITE</pre>
 <p>
-Alias for G_PARAM_WRITABLE | G_PARAM_STATIC_NAME | G_PARAM_STATIC_NICK | G_PARAM_STATIC_BLURB
+Alias for <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-WRITABLE:CAPS"
+><span class="type">G_PARAM_WRITABLE</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NAME:CAPS"
+><span class="type">G_PARAM_STATIC_NAME</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NICK:CAPS"
+><span class="type">G_PARAM_STATIC_NICK</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-BLURB:CAPS"
+><span class="type">G_PARAM_STATIC_BLURB</span></a>
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555374"></a><h3>
+<a name="id2555546"></a><h3>
 <a name="PANEL-PARAM-WRITABLE:CAPS"></a>PANEL_PARAM_WRITABLE</h3>
-<a class="indexterm" name="id2555386"></a><pre class="programlisting">#define             PANEL_PARAM_WRITABLE</pre>
+<a class="indexterm" name="id2555559"></a><pre class="programlisting">#define             PANEL_PARAM_WRITABLE</pre>
 <p>
-Alias for G_PARAM_READWRITE | G_PARAM_STATIC_NAME | G_PARAM_STATIC_NICK | G_PARAM_STATIC_BLURB
+Alias for <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-READWRITE:CAPS"
+><span class="type">G_PARAM_READWRITE</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NAME:CAPS"
+><span class="type">G_PARAM_STATIC_NAME</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-NICK:CAPS"
+><span class="type">G_PARAM_STATIC_NICK</span></a> | <a
+href="../gobject/gobject-GParamSpec.html#G-PARAM-STATIC-BLURB:CAPS"
+><span class="type">G_PARAM_STATIC_BLURB</span></a>
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555404"></a><h3>
+<a name="id2555610"></a><h3>
 <a name="I-:CAPS"></a>I_()</h3>
-<a class="indexterm" name="id2555416"></a><pre class="programlisting">#define             I_(string)</pre>
+<a class="indexterm" name="id2555622"></a><pre class="programlisting">#define             I_(string)</pre>
 <p>
-canonical representation for <em class="parameter"><code>string</code></em>. This can be use in functions like g_object_get_data.
+Canonical representation for <em class="parameter"><code>string</code></em>. This can be use in functions like <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-get-data"
+><span class="type">g_object_get_data</span></a>.
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
