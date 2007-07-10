@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Getting Started</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="up" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="prev" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="next" href="thunarx-writing-extensions-advanced-topics.html" title="Advanced topics">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="part" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
+<link rel="part" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
+<link rel="part" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="part" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="thunarx-writing-extensions.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="thunarx-writing-extensions.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar Extensions Reference Manual</th>
+<td><a accesskey="n" href="thunarx-writing-extensions-advanced-topics.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="sect1" lang="en">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="thunarx-writing-extensions-getting-started"></a>Getting Started</h2></div></div></div>
+<p>
+        Providers are <a href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>s loaded from shared libraries
+        installed in <code class="filename">$libdir/thunarx-1/</code>. The shared libraries are linked against the
+        <code class="systemitem">thunarx-1</code> library.
+      </p>
+<p>
+        The extensions must provide three public functions, <code class="function">thunar_extension_initialize()</code>,
+        <code class="function">thunar_extension_shutdown()</code> and <code class="function">thunar_extension_list_types()</code>.
+      </p>
+<p>
+        <code class="function">thunar_extension_initialize()</code> is passed a <a href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>
+        object, and is responsible to register all GTypes required by the extension. <code class="function">thunar_extension_shutdown()</code> should
+        perform any extension-specific shutdown required prior to unloading the extension. <code class="function">thunar_extension_list_types()</code>
+        returns an array of GTypes that represent the types of the providers exported by the extension. Thunar will instantiate
+        objects of those types when needed.
+      </p>
+<div class="example">
+<a name="id2510274"></a><p class="title"><b>Example&#160;1.&#160;Basic Structure of an extension</b></p>
+<div class="example-contents"><pre class="programlisting">
+#include &lt;gmodule.h&gt;
+#include &lt;thunarx/thunarx.h&gt;
+
+static GType type_list[1];
+
+static void
+foo_extension_register_type (ThunarxProviderPlugin *plugin)
+{
+  static const GTypeInfo info =
+  {
+    sizeof (FooExtensionClass),
+    NULL,
+    NULL,
+    (GClassInitFunc) foo_extension_class_init,
+    NULL,
+    NULL,
+    sizeof (FooExtension),
+    0,
+    (GInstanceInitFunc) foo_extension_init,
+    NULL,
+  };
+
+  type_list[0] = thunarx_provider_plugin_register_type (plugin,
+                                                        G_TYPE_OBJECT,
+                                                        "FooExtension",
+                                                        &amp;info, 0);
+
+  /* implement the desired provider interfaces */
+}
+
+static GType
+foo_extension_get_type (void)
+{
+  return type_list[0];
+}
+
+G_MODULE_EXPORT void
+thunar_extension_initialize (ThunarxProviderPlugin *plugin)
+{
+  const gchar *mismatch;
+
+  /* verify the versions */
+  mismatch = thunarx_check_version (THUNARX_MAJOR_VERSION,
+                                    THUNARX_MINOR_VERSION,
+                                    THUNARX_MICRO_VERSION);
+  if (G_UNLIKELY (mismatch != NULL))
+    {
+      g_warning ("Version mismatch: %s", mismatch);
+      return;
+    }
+
+  foo_extension_register_type (plugin);
+}
+
+G_MODULE_EXPORT void
+thunar_extension_shutdown (void)
+{
+  /* any extension-specific shutdown */
+}
+
+G_MODULE_EXPORT void
+thunar_extension_list_types (const GType **types,
+                             gint         *n_types)
+{
+  *types = type_list;
+  *n_types = G_N_ELEMENTS (type_list);
+}</pre></div>
+</div>
+<br class="example-break"><p>
+        You should check the <span class="application">TexOpenTerminal</span> extension, which is included in the Thunar
+        distribution in the <code class="filename">examples/tex-open-terminal</code> directory, for a more
+        complete example of how to write a Thunar extension.
+      </p>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-compiling-thunar-extensions"></a>Compiling Thunar Extensions</h3></div></div></div>
+<p>
+          To compile a Thunar extension, you need to tell the compiler where to find the
+          <code class="systemitem">thunarx</code> header files and library. This
+          is done with the <code class="literal">pkg-config</code> utility.
+        </p>
+<p>
+          The following interactive shell session demonstrates how <code class="literal">pkg-config</code>
+          is used (the actual output on your system will be different):
+          </p>
+<pre class="screen">
+$ pkg-config --cflags thunarx-1
+-DXTHREADS -DXUSE_MTSAFE_API -I/opt/local/include/thunarx-1 -I/usr/local/include/atk-1.0 \
+-I/usr/local/include/glib-2.0 -I/usr/local/lib/glib-2.0/include -I/usr/X11R6/include/gtk-2.0 \
+-I/usr/X11R6/lib/gtk-2.0/include -I/usr/X11R6/include -I/usr/X11R6/include/pango-1.0 \
+-I/usr/local/include/freetype2 -I/usr/local/include
+$ pkg-config --libs thunarx-1
+-Wl,--rpath -Wl,/usr/local/lib -L/usr/local/lib -L/usr/X11R6/lib -L/opt/local/lib -lthunarx-1</pre>
+<p>
+        </p>
+<p>
+          The easiest way to compile an extension is to use the <span class="emphasis"><em>backticks</em></span>
+          feature of the shell. If you enclose a command in backticks (<span class="emphasis"><em>not single
+          quotes</em></span>), then its output will be substituted into the command line before
+          execution. So to compile an extension, you would type the following:
+          </p>
+<pre class="screen">
+$ gcc -shared -fPIC -DPIC `pkg-config --cflags --libs thunarx-1` foo.c -o foo.so</pre>
+<p>
+        </p>
+</div>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-installing-thunar-extensions"></a>Installing Thunar Extensions</h3></div></div></div>
+<p>
+          To determine the directory where extensions must be installed on your local system,
+          you can use the following command (as mentioned above, the output will be different
+          on your system):
+          </p>
+<pre class="screen">
+$ pkg-config --variable=extensionsdir thunarx-1
+/opt/local/lib/thunarx-1</pre>
+<p>
+        </p>
+<p>
+          For example, to install the extension <code class="filename">foo.so</code> on your system,
+          you would type the following:
+          </p>
+<pre class="screen">
+$ install -d `pkg-config --variable=extensionsdir thunarx-1`
+$ install -c -m 0755 foo.so `pkg-config --variable=extensionsdir thunarx-1`/foo.so</pre>
+<p>
+        </p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>libsqueeze</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="libSqueeze Reference Manual">
+<link rel="up" href="libsqueeze.html" title="Part&#160;I.&#160;General">
+<link rel="prev" href="libsqueeze.html" title="Part&#160;I.&#160;General">
+<link rel="next" href="archiving.html" title="Part&#160;II.&#160;Archiving">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="libsqueeze.html" title="Part&#160;I.&#160;General">
+<link rel="part" href="archiving.html" title="Part&#160;II.&#160;Archiving">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libsqueeze.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libsqueeze.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libSqueeze Reference Manual</th>
+<td><a accesskey="n" href="archiving.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2546088" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2513278" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libsqueeze-libsqueeze"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2546088"></a><span class="refentrytitle">libsqueeze</span>
+</h2>
+<p>libsqueeze</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+
+
+void                <a href="libsqueeze-libsqueeze.html#lsq-init">lsq_init</a>                            ();
+void                <a href="libsqueeze-libsqueeze.html#lsq-shutdown">lsq_shutdown</a>                        ();
+<a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                <a href="libsqueeze-libsqueeze.html#lsq-new-archive">lsq_new_archive</a>                     (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> overwrite,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *mime,
+                                                         <a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> **lp_archive);
+<a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                <a href="libsqueeze-libsqueeze.html#lsq-open-archive">lsq_open_archive</a>                    (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         <a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> **lp_archive);
+void                <a href="libsqueeze-libsqueeze.html#lsq-close-archive">lsq_close_archive</a>                   (<a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> *archive);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2513278"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2513292"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2513303"></a><h3>
+<a name="lsq-init"></a>lsq_init ()</h3>
+<a class="indexterm" name="id2555038"></a><pre class="programlisting">void                lsq_init                            ();</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2555059"></a><h3>
+<a name="lsq-shutdown"></a>lsq_shutdown ()</h3>
+<a class="indexterm" name="id2555072"></a><pre class="programlisting">void                lsq_shutdown                        ();</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2555093"></a><h3>
+<a name="lsq-new-archive"></a>lsq_new_archive ()</h3>
+<a class="indexterm" name="id2555105"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                lsq_new_archive                     (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> overwrite,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *mime,
+                                                         <a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> **lp_archive);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>overwrite</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>mime</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>lp_archive</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2555232"></a><h3>
+<a name="lsq-open-archive"></a>lsq_open_archive ()</h3>
+<a class="indexterm" name="id2555243"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                lsq_open_archive                    (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         <a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> **lp_archive);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>lp_archive</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2555321"></a><h3>
+<a name="lsq-close-archive"></a>lsq_close_archive ()</h3>
+<a class="indexterm" name="id2555333"></a><pre class="programlisting">void                lsq_close_archive                   (<a href="libsqueeze-LSQArchive.html#LSQArchive">LSQArchive</a> *archive);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="parameter"><code>archive</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceMenuStandardRules</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="up" href="rules.html" title="Include and Exclude Rules">
+<link rel="prev" href="XfceMenuRules.html" title="XfceMenuRules">
+<link rel="next" href="XfceMenuOrRules.html" title="XfceMenuOrRules">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="menus.html" title="Part&#160;III.&#160;Menus">
+<link rel="part" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
+<link rel="part" href="internals.html" title="Part&#160;V.&#160;Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceMenuRules.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="rules.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4menu Reference Manual</th>
+<td><a accesskey="n" href="XfceMenuOrRules.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2583286" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2583468" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2583365" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2583412" class="shortcut">Implemented Interfaces</a>
+                  &#160;|&#160;
+                  <a href="#id2583434" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="XfceMenuStandardRules"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2583286"></a><span class="refentrytitle">XfceMenuStandardRules</span>
+</h2>
+<p>XfceMenuStandardRules</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4menu/libxfce4menu.h&gt;
+
+
+                    <a href="XfceMenuStandardRules.html#XfceMenuStandardRules-struct">XfceMenuStandardRules</a>;
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="XfceMenuStandardRules.html#xfce-menu-standard-rules-get-include">xfce_menu_standard_rules_get_include</a>
+                                                        (<a href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a> *rules);
+void                <a href="XfceMenuStandardRules.html#xfce-menu-standard-rules-set-include">xfce_menu_standard_rules_set_include</a>
+                                                        (<a href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a> *rules,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> include);
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583365"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----XfceMenuStandardRules
+         +----<a href="XfceMenuOrRules.html" title="XfceMenuOrRules">XfceMenuOrRules</a>
+         +----<a href="XfceMenuAndRules.html" title="XfceMenuAndRules">XfceMenuAndRules</a>
+         +----<a href="XfceMenuNotRules.html" title="XfceMenuNotRules">XfceMenuNotRules</a>
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583412"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceMenuStandardRules implements
+ <a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583434"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="XfceMenuStandardRules.html#XfceMenuStandardRules--include">include</a>"                  <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583468"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583482"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2583492"></a><h3>
+<a name="XfceMenuStandardRules-struct"></a>XfceMenuStandardRules</h3>
+<a class="indexterm" name="id2583507"></a><pre class="programlisting">typedef struct _XfceMenuStandardRules XfceMenuStandardRules;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2583523"></a><h3>
+<a name="xfce-menu-standard-rules-get-include"></a>xfce_menu_standard_rules_get_include ()</h3>
+<a class="indexterm" name="id2583537"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_standard_rules_get_include
+                                                        (<a href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a> *rules);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2583595"></a><h3>
+<a name="xfce-menu-standard-rules-set-include"></a>xfce_menu_standard_rules_set_include ()</h3>
+<a class="indexterm" name="id2583609"></a><pre class="programlisting">void                xfce_menu_standard_rules_set_include
+                                                        (<a href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a> *rules,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> include);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>include</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583679"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2583690"></a><h3>
+<a name="XfceMenuStandardRules--include"></a>The "<code class="literal">include</code>" property</h3>
+<a class="indexterm" name="id2583706"></a><pre class="programlisting">  "include"                  <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+Whether this rule set shall be treated as an include or exclude element.</p>
+<p>
+
+</p>
+<p>Default value: TRUE</p>
+</div>
+</div>
+</div>
+</body>
+</html>

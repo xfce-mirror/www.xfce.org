@@ -1,0 +1,1145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsPath</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="prev" href="thunar-vfs-Basic-Types.html" title="Basic Types">
+<link rel="next" href="thunar-vfs-ThunarVfsInfo.html" title="ThunarVfsInfo">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="jobs.html" title="Part&#160;III.&#160;Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="thunar-vfs-Basic-Types.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="thunar-vfs-ThunarVfsInfo.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2557883" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2558584" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="thunar-vfs-ThunarVfsPath"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2557883"></a><span class="refentrytitle">ThunarVfsPath</span>
+</h2>
+<p>ThunarVfsPath</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+enum                <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPathScheme">ThunarVfsPathScheme</a>;
+                    <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>;
+#define             <a href="thunar-vfs-ThunarVfsPath.html#THUNAR-VFS-TYPE-PATH:CAPS">THUNAR_VFS_TYPE_PATH</a>
+#define             <a href="thunar-vfs-ThunarVfsPath.html#THUNAR-VFS-TYPE-PATH-LIST:CAPS">THUNAR_VFS_TYPE_PATH_LIST</a>
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-new">thunar_vfs_path_new</a>                 (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *identifier,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-get-for-home">thunar_vfs_path_get_for_home</a>        (void);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-get-for-root">thunar_vfs_path_get_for_root</a>        (void);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-ref">thunar_vfs_path_ref</a>                 (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+void                <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-unref">thunar_vfs_path_unref</a>               (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-hash">thunar_vfs_path_hash</a>                (<a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-equal">thunar_vfs_path_equal</a>               (<a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr_a,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr_b);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-is-ancestor">thunar_vfs_path_is_ancestor</a>         (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *ancestor);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-is-home">thunar_vfs_path_is_home</a>             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-is-root">thunar_vfs_path_is_root</a>             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-relative">thunar_vfs_path_relative</a>            (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *parent,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-get-name">thunar_vfs_path_get_name</a>            (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-get-parent">thunar_vfs_path_get_parent</a>          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPathScheme">ThunarVfsPathScheme</a> <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-get-scheme">thunar_vfs_path_get_scheme</a>          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-dup-string">thunar_vfs_path_dup_string</a>          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a>              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-to-string">thunar_vfs_path_to_string</a>           (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gsize"
+>gsize</a> bufsize,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-dup-uri">thunar_vfs_path_dup_uri</a>             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a>              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-to-uri">thunar_vfs_path_to_uri</a>              (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gsize"
+>gsize</a> bufsize,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-from-string">thunar_vfs_path_list_from_string</a>    (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *uri_string,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-to-string">thunar_vfs_path_list_to_string</a>      (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-append">thunar_vfs_path_list_append</a>         (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list,
+                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-prepend">thunar_vfs_path_list_prepend</a>        (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list,
+                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-copy">thunar_vfs_path_list_copy</a>           (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);
+void                <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-free">thunar_vfs_path_list_free</a>           (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2558584"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2558599"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2558609"></a><h3>
+<a name="ThunarVfsPathScheme"></a>enum ThunarVfsPathScheme</h3>
+<a class="indexterm" name="id2558624"></a><pre class="programlisting">typedef enum /*&lt; skip &gt;*/
+{
+  THUNAR_VFS_PATH_SCHEME_FILE   = 0x00000000,
+  THUNAR_VFS_PATH_SCHEME_TRASH  = 0x40000000,
+  THUNAR_VFS_PATH_SCHEME_MASK   = 0x40000000,
+} ThunarVfsPathScheme;
+</pre>
+<p>
+The scheme, or the type, of resource a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> refers to.
+This currently includes local files which are accessible via
+standard Unix paths, and trashed files, which are accessible
+via trash:-URIs.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-PATH-SCHEME-FILE:CAPS"></a><code class="literal">THUNAR_VFS_PATH_SCHEME_FILE</code></span></td>
+<td> path to local files.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-PATH-SCHEME-TRASH:CAPS"></a><code class="literal">THUNAR_VFS_PATH_SCHEME_TRASH</code></span></td>
+<td> path to files in the trash can.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-PATH-SCHEME-MASK:CAPS"></a><code class="literal">THUNAR_VFS_PATH_SCHEME_MASK</code></span></td>
+<td> bit mask for path scheme, an
+                                implementation detail, should
+                                not be used outside ThunarVFS.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2558742"></a><h3>
+<a name="ThunarVfsPath"></a>ThunarVfsPath</h3>
+<a class="indexterm" name="id2558755"></a><pre class="programlisting">typedef struct {
+} ThunarVfsPath;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2558770"></a><h3>
+<a name="THUNAR-VFS-TYPE-PATH:CAPS"></a>THUNAR_VFS_TYPE_PATH</h3>
+<a class="indexterm" name="id2558783"></a><pre class="programlisting">#define THUNAR_VFS_TYPE_PATH (thunar_vfs_path_get_type ())
+</pre>
+<p>
+</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2558802"></a><h3>
+<a name="THUNAR-VFS-TYPE-PATH-LIST:CAPS"></a>THUNAR_VFS_TYPE_PATH_LIST</h3>
+<a class="indexterm" name="id2558818"></a><pre class="programlisting">#define THUNAR_VFS_TYPE_PATH_LIST (thunar_vfs_path_list_get_type ())
+</pre>
+<p>
+</p>
+<p>
+
+</p>
+<p class="since">Since  0.3.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2558844"></a><h3>
+<a name="thunar-vfs-path-new"></a>thunar_vfs_path_new ()</h3>
+<a class="indexterm" name="id2558858"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_new                 (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *identifier,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Returns a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that represents the given
+<em class="parameter"><code>identifier</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> on error. In the latter case
+<em class="parameter"><code>error</code></em> will be set to point to an <a
+href="../glib/glib-Error-Reporting.html#GError"
+><span class="type">GError</span></a> describing
+the problem.
+</p>
+<p>
+The caller is responsible to free the returned
+object using <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-unref"><code class="function">thunar_vfs_path_unref()</code></a> when no
+longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>identifier</code></em>&#160;:</span></td>
+<td> an URI identifier or an absolute path.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> for <em class="parameter"><code>identifier</code></em>
+              or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> on error.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559036"></a><h3>
+<a name="thunar-vfs-path-get-for-home"></a>thunar_vfs_path_get_for_home ()</h3>
+<a class="indexterm" name="id2559049"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_get_for_home        (void);</pre>
+<p>
+Returns the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that represents
+the current users home directory.
+</p>
+<p>
+The caller is responsible to free the
+returned object using <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-unref"><code class="function">thunar_vfs_path_unref()</code></a>
+when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> for the 
+              current users home directory.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559123"></a><h3>
+<a name="thunar-vfs-path-get-for-root"></a>thunar_vfs_path_get_for_root ()</h3>
+<a class="indexterm" name="id2559136"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_get_for_root        (void);</pre>
+<p>
+Returns the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that represents the
+file systems root folder.
+</p>
+<p>
+The caller is responsible to free the returned
+object using <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-unref"><code class="function">thunar_vfs_path_unref()</code></a> when no
+longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> for the file
+              systems root directory.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559210"></a><h3>
+<a name="thunar-vfs-path-ref"></a>thunar_vfs_path_ref ()</h3>
+<a class="indexterm" name="id2559224"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_ref                 (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Increments the reference count on <em class="parameter"><code>path</code></em>
+and returns a reference to <em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> a reference to <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559310"></a><h3>
+<a name="thunar-vfs-path-unref"></a>thunar_vfs_path_unref ()</h3>
+<a class="indexterm" name="id2559323"></a><pre class="programlisting">void                thunar_vfs_path_unref               (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Decreases the reference count on <em class="parameter"><code>path</code></em> and
+frees the resources allocated for <em class="parameter"><code>path</code></em>
+once the reference count drops to zero.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559393"></a><h3>
+<a name="thunar-vfs-path-hash"></a>thunar_vfs_path_hash ()</h3>
+<a class="indexterm" name="id2559406"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               thunar_vfs_path_hash                (<a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr);</pre>
+<p>
+Generates a hash value for the given <em class="parameter"><code>path_ptr</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_ptr</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the hash value for <em class="parameter"><code>path_ptr</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559487"></a><h3>
+<a name="thunar-vfs-path-equal"></a>thunar_vfs_path_equal ()</h3>
+<a class="indexterm" name="id2559500"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_path_equal               (<a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr_a,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gconstpointer"
+>gconstpointer</a> path_ptr_b);</pre>
+<p>
+Checks whether <em class="parameter"><code>path_ptr_a</code></em> and <em class="parameter"><code>path_ptr_b</code></em> refer
+to the same local path.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_ptr_a</code></em>&#160;:</span></td>
+<td> first <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_ptr_b</code></em>&#160;:</span></td>
+<td> second <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>path_ptr_a</code></em> and <em class="parameter"><code>path_ptr_b</code></em>
+              are equal.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559635"></a><h3>
+<a name="thunar-vfs-path-is-ancestor"></a>thunar_vfs_path_is_ancestor ()</h3>
+<a class="indexterm" name="id2559648"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_path_is_ancestor         (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *ancestor);</pre>
+<p>
+Determines whether <em class="parameter"><code>path</code></em> is somewhere below <em class="parameter"><code>ancestor</code></em>,
+possible with intermediate folders.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>ancestor</code></em>&#160;:</span></td>
+<td> another <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>ancestor</code></em> contains <em class="parameter"><code>path</code></em> as a
+              child, grandchild, great grandchild, etc.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559783"></a><h3>
+<a name="thunar-vfs-path-is-home"></a>thunar_vfs_path_is_home ()</h3>
+<a class="indexterm" name="id2559796"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_path_is_home             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Checks whether <em class="parameter"><code>path</code></em> refers to the users home
+directory.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>path</code></em> refers to the users
+              home directory.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559888"></a><h3>
+<a name="thunar-vfs-path-is-root"></a>thunar_vfs_path_is_root ()</h3>
+<a class="indexterm" name="id2559901"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_path_is_root             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Checks whether path refers to the root directory.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>path</code></em> refers to the root
+              directory.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2559987"></a><h3>
+<a name="thunar-vfs-path-relative"></a>thunar_vfs_path_relative ()</h3>
+<a class="indexterm" name="id2560000"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_relative            (<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *parent,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+Returns a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> for the file <em class="parameter"><code>name</code></em> relative to
+<em class="parameter"><code>parent</code></em>. <em class="parameter"><code>name</code></em> must be a valid filename in the local file
+system encoding and it may not contain any slashes.
+</p>
+<p>
+The caller is responsible to free the returned object
+using <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-unref"><code class="function">thunar_vfs_path_unref()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>parent</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td> a valid filename in the local file system encoding.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the path to <em class="parameter"><code>name</code></em> relative to <em class="parameter"><code>parent</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560147"></a><h3>
+<a name="thunar-vfs-path-get-name"></a>thunar_vfs_path_get_name ()</h3>
+<a class="indexterm" name="id2560161"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        thunar_vfs_path_get_name            (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Returns the base name of the <em class="parameter"><code>path</code></em> in the local
+file system encoding.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the base name of <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560243"></a><h3>
+<a name="thunar-vfs-path-get-parent"></a>thunar_vfs_path_get_parent ()</h3>
+<a class="indexterm" name="id2560257"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_path_get_parent          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Returns the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that refers to the parent
+directory of <em class="parameter"><code>path</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if <em class="parameter"><code>path</code></em> refers to the
+root file system node.
+</p>
+<p>
+No additional reference is taken on the parent, so
+you'll need to call <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-ref"><code class="function">thunar_vfs_path_ref()</code></a> yourself
+if you need to keep a reference.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the parent of <em class="parameter"><code>path</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560389"></a><h3>
+<a name="thunar-vfs-path-get-scheme"></a>thunar_vfs_path_get_scheme ()</h3>
+<a class="indexterm" name="id2560405"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPathScheme">ThunarVfsPathScheme</a> thunar_vfs_path_get_scheme          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Returns the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPathScheme"><span class="type">ThunarVfsPathScheme</span></a> of the specified
+<em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the scheme of the <em class="parameter"><code>path</code></em>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560501"></a><h3>
+<a name="thunar-vfs-path-dup-string"></a>thunar_vfs_path_dup_string ()</h3>
+<a class="indexterm" name="id2560514"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_path_dup_string          (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Like <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-to-string"><code class="function">thunar_vfs_path_to_string()</code></a>, this function transform
+the <em class="parameter"><code>path</code></em> to its string representation, but unlike
+<a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-to-string"><code class="function">thunar_vfs_path_to_string()</code></a>, this function automatically
+allocates the required amount of memory from the heap.
+The returned string must be freed by the caller when
+no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the string representation of <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560620"></a><h3>
+<a name="thunar-vfs-path-to-string"></a>thunar_vfs_path_to_string ()</h3>
+<a class="indexterm" name="id2560633"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a>              thunar_vfs_path_to_string           (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gsize"
+>gsize</a> bufsize,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Stores the <em class="parameter"><code>path</code></em> into the string pointed to by <em class="parameter"><code>buffer</code></em>,
+so it can be used for system path operations. Returns
+the number of bytes stored to <em class="parameter"><code>buffer</code></em> or a negative
+value if <em class="parameter"><code>bufsize</code></em> is too small to store the whole <em class="parameter"><code>path</code></em>.
+In the latter case <em class="parameter"><code>error</code></em> will be set to point to an
+error describing the problem.
+</p>
+<p>
+If <em class="parameter"><code>buffer</code></em> is allocated on the stack, it is suggested
+to use <span class="type">THUNAR_VFS_PATH_MAXSTRLEN</span> for the buffer size
+in most cases. The stack should never be used in recursive
+functions; use <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-dup-string"><code class="function">thunar_vfs_path_dup_string()</code></a> instead there.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>buffer</code></em>&#160;:</span></td>
+<td> the buffer to store the path string to.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>bufsize</code></em>&#160;:</span></td>
+<td> the size of <em class="parameter"><code>buffer</code></em> in bytes.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the number of bytes (including the null
+              byte) stored to <em class="parameter"><code>buffer</code></em> or a negative
+              value if <em class="parameter"><code>buffer</code></em> cannot hold the whole
+              <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560876"></a><h3>
+<a name="thunar-vfs-path-dup-uri"></a>thunar_vfs_path_dup_uri ()</h3>
+<a class="indexterm" name="id2560888"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_path_dup_uri             (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Similar to <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-to-uri"><code class="function">thunar_vfs_path_to_uri()</code></a>, but automatically
+allocates memory on the heap instead of using a user
+supplied buffer for the URI.
+</p>
+<p>
+The caller is responsible to free the returned string
+using <a
+href="../glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the escaped URI for <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2560992"></a><h3>
+<a name="thunar-vfs-path-to-uri"></a>thunar_vfs_path_to_uri ()</h3>
+<a class="indexterm" name="id2561005"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a>              thunar_vfs_path_to_uri              (const <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gsize"
+>gsize</a> bufsize,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Escapes <em class="parameter"><code>path</code></em> according to the rules of the file URI
+specification and stores the escaped URI to <em class="parameter"><code>buffer</code></em>.
+Returns the number of bytes stored to <em class="parameter"><code>buffer</code></em> or a
+negative value if <em class="parameter"><code>bufsize</code></em> is too small to store the
+escaped URI. In the latter case <em class="parameter"><code>error</code></em> will be set to
+point to an <a
+href="../glib/glib-Error-Reporting.html#GError"
+><span class="type">GError</span></a> describing the problem.
+</p>
+<p>
+When using the stack for <em class="parameter"><code>buffer</code></em>, it is suggested to
+use <span class="type">THUNAR_VFS_PATH_MAXURILEN</span> for the buffer size in
+most cases. The stack should never be used in recursive
+functions; use <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-dup-uri"><code class="function">thunar_vfs_path_dup_uri()</code></a> instead there.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>buffer</code></em>&#160;:</span></td>
+<td> the buffer to store the URI string to.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>bufsize</code></em>&#160;:</span></td>
+<td> the size of <em class="parameter"><code>buffer</code></em> in bytes.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the number of bytes (including the null
+              byte) stored to <em class="parameter"><code>buffer</code></em> or a negative
+              value if <em class="parameter"><code>buffer</code></em> cannot hold the URI.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561243"></a><h3>
+<a name="thunar-vfs-path-list-from-string"></a>thunar_vfs_path_list_from_string ()</h3>
+<a class="indexterm" name="id2561256"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunar_vfs_path_list_from_string    (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *uri_string,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Splits an URI list conforming to the text/uri-list
+mime type defined in RFC 2483 into individual URIs,
+discarding any comments and whitespace.
+</p>
+<p>
+If all URIs were successfully parsed into <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>
+objects, the list of parsed URIs will be returned, and
+you'll need to call <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-free"><code class="function">thunar_vfs_path_list_free()</code></a> to
+release the list resources. Else if the parsing fails
+at some point, <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> will be returned and <em class="parameter"><code>error</code></em> will
+be set to describe the cause.
+</p>
+<p>
+Note, that if <em class="parameter"><code>string</code></em> contains no URIs, this function
+will also return <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, but <em class="parameter"><code>error</code></em> won't be set. So
+take care when checking for an error condition!</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>uri_string</code></em>&#160;:</span></td>
+<td> a string representation of an URI list.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>'s or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561431"></a><h3>
+<a name="thunar-vfs-path-list-to-string"></a>thunar_vfs_path_list_to_string ()</h3>
+<a class="indexterm" name="id2561444"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_path_list_to_string      (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);</pre>
+<p>
+Free the returned value using <a
+href="../glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when you
+are done with it.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the string representation of <em class="parameter"><code>path_list</code></em> conforming to the
+              text/uri-list mime type defined in RFC 2483.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561533"></a><h3>
+<a name="thunar-vfs-path-list-append"></a>thunar_vfs_path_list_append ()</h3>
+<a class="indexterm" name="id2561546"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunar_vfs_path_list_append         (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list,
+                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Appends <em class="parameter"><code>path</code></em> to the <em class="parameter"><code>path_list</code></em> while taking
+an additional reference for <em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> pointer to the extended <em class="parameter"><code>path_list</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561670"></a><h3>
+<a name="thunar-vfs-path-list-prepend"></a>thunar_vfs_path_list_prepend ()</h3>
+<a class="indexterm" name="id2561683"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunar_vfs_path_list_prepend        (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list,
+                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<p>
+Similar to <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-append"><code class="function">thunar_vfs_path_list_append()</code></a>, but
+prepends the <em class="parameter"><code>path</code></em> to the <em class="parameter"><code>path_list</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td> a <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> pointer to the extended <em class="parameter"><code>path_list</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561813"></a><h3>
+<a name="thunar-vfs-path-list-copy"></a>thunar_vfs_path_list_copy ()</h3>
+<a class="indexterm" name="id2561826"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunar_vfs_path_list_copy           (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);</pre>
+<p>
+Takes a deep copy of <em class="parameter"><code>path_list</code></em> and returns the
+result. The caller is responsible to free the
+returned list using <a href="thunar-vfs-ThunarVfsPath.html#thunar-vfs-path-list-free"><code class="function">thunar_vfs_path_list_free()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> a deep copy of <em class="parameter"><code>path_list</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2561920"></a><h3>
+<a name="thunar-vfs-path-list-free"></a>thunar_vfs_path_list_free ()</h3>
+<a class="indexterm" name="id2561934"></a><pre class="programlisting">void                thunar_vfs_path_list_free           (<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *path_list);</pre>
+<p>
+Frees the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s in <em class="parameter"><code>path_list</code></em> and
+the <em class="parameter"><code>path_list</code></em> itself.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
+<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

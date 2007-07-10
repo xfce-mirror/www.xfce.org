@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsUserManager</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="prev" href="ThunarVfsGroup.html" title="ThunarVfsGroup">
+<link rel="next" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="jobs.html" title="Part&#160;III.&#160;Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ThunarVfsGroup.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="users-and-groups-handling.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="volume-handling.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2607002" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2607157" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2607132" class="shortcut">Object Hierarchy</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ThunarVfsUserManager"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2607002"></a><span class="refentrytitle">ThunarVfsUserManager</span>
+</h2>
+<p>ThunarVfsUserManager</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+                    <a href="ThunarVfsUserManager.html#ThunarVfsUserManager-struct">ThunarVfsUserManager</a>;
+<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a>* <a href="ThunarVfsUserManager.html#thunar-vfs-user-manager-get-default">thunar_vfs_user_manager_get_default</a>
+                                                        (void);
+<a href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     <a href="ThunarVfsUserManager.html#thunar-vfs-user-manager-get-group-by-id">thunar_vfs_user_manager_get_group_by_id</a>
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager,
+                                                         <a href="thunar-vfs-Basic-Types.html#ThunarVfsGroupId">ThunarVfsGroupId</a> id);
+<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a>*      <a href="ThunarVfsUserManager.html#thunar-vfs-user-manager-get-user-by-id">thunar_vfs_user_manager_get_user_by_id</a>
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager,
+                                                         <a href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a> id);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="ThunarVfsUserManager.html#thunar-vfs-user-manager-get-all-groups">thunar_vfs_user_manager_get_all_groups</a>
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607132"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----ThunarVfsUserManager
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607157"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607171"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2607181"></a><h3>
+<a name="ThunarVfsUserManager-struct"></a>ThunarVfsUserManager</h3>
+<a class="indexterm" name="id2607195"></a><pre class="programlisting">typedef struct _ThunarVfsUserManager ThunarVfsUserManager;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607211"></a><h3>
+<a name="thunar-vfs-user-manager-get-default"></a>thunar_vfs_user_manager_get_default ()</h3>
+<a class="indexterm" name="id2607225"></a><pre class="programlisting"><a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a>* thunar_vfs_user_manager_get_default
+                                                        (void);</pre>
+<p>
+Returns the default <a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager"><span class="type">ThunarVfsUserManager</span></a> instance, which is shared
+by all modules using the user module. Call <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"
+><code class="function">g_object_unref()</code></a> on the
+returned object when you are done with it.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the default <a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager"><span class="type">ThunarVfsUserManager</span></a> instance.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607296"></a><h3>
+<a name="thunar-vfs-user-manager-get-group-by-id"></a>thunar_vfs_user_manager_get_group_by_id ()</h3>
+<a class="indexterm" name="id2607309"></a><pre class="programlisting"><a href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     thunar_vfs_user_manager_get_group_by_id
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager,
+                                                         <a href="thunar-vfs-Basic-Types.html#ThunarVfsGroupId">ThunarVfsGroupId</a> id);</pre>
+<p>
+Looks up the <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a> corresponding to <em class="parameter"><code>id</code></em> in <em class="parameter"><code>manager</code></em>. Returns
+<a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if <em class="parameter"><code>manager</code></em> is unable to determine the <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a> for <em class="parameter"><code>id</code></em>,
+else a pointer to the corresponding <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>. The caller is
+responsible for freeing the returned object using <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"
+><code class="function">g_object_unref()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager"><span class="type">ThunarVfsUserManager</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
+<td> the group id.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a> corresponding to <em class="parameter"><code>id</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607498"></a><h3>
+<a name="thunar-vfs-user-manager-get-user-by-id"></a>thunar_vfs_user_manager_get_user_by_id ()</h3>
+<a class="indexterm" name="id2607512"></a><pre class="programlisting"><a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a>*      thunar_vfs_user_manager_get_user_by_id
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager,
+                                                         <a href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a> id);</pre>
+<p>
+Looks up the <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a> corresponding to <em class="parameter"><code>id</code></em> in <em class="parameter"><code>manager</code></em>. Returns
+<a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if <em class="parameter"><code>manager</code></em> is unable to determine the <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a> for <em class="parameter"><code>id</code></em>,
+else a pointer to the corresponding <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>. The caller is
+responsible for freeing the returned object using <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"
+><code class="function">g_object_unref()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager"><span class="type">ThunarVfsUserManager</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
+<td> the user id.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a> corresponding to <em class="parameter"><code>id</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607700"></a><h3>
+<a name="thunar-vfs-user-manager-get-all-groups"></a>thunar_vfs_user_manager_get_all_groups ()</h3>
+<a class="indexterm" name="id2607714"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunar_vfs_user_manager_get_all_groups
+                                                        (<a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">ThunarVfsUserManager</a> *manager);</pre>
+<p>
+Returns the list of all <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>s in the system
+that are known to the <em class="parameter"><code>manager</code></em>.
+</p>
+<p>
+The caller is responsible to free the returned list using:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsUserManager.html" title="ThunarVfsUserManager"><span class="type">ThunarVfsUserManager</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of all groups known to the <em class="parameter"><code>manager</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

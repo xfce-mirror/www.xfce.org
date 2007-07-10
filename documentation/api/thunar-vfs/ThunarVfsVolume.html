@@ -1,0 +1,932 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarVfsVolume</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="prev" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="next" href="ThunarVfsVolumeManager.html" title="ThunarVfsVolumeManager">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="jobs.html" title="Part&#160;III.&#160;Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="volume-handling.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="volume-handling.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="ThunarVfsVolumeManager.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2608696" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2609155" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2609070" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2609095" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ThunarVfsVolume"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2608696"></a><span class="refentrytitle">ThunarVfsVolume</span>
+</h2>
+<p>ThunarVfsVolume</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+
+enum                <a href="ThunarVfsVolume.html#ThunarVfsVolumeKind">ThunarVfsVolumeKind</a>;
+enum                <a href="ThunarVfsVolume.html#ThunarVfsVolumeStatus">ThunarVfsVolumeStatus</a>;
+                    <a href="ThunarVfsVolume.html#ThunarVfsVolume-struct">ThunarVfsVolume</a>;
+<a href="ThunarVfsVolume.html#ThunarVfsVolumeKind">ThunarVfsVolumeKind</a> <a href="ThunarVfsVolume.html#thunar-vfs-volume-get-kind">thunar_vfs_volume_get_kind</a>          (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="ThunarVfsVolume.html#thunar-vfs-volume-get-name">thunar_vfs_volume_get_name</a>          (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a href="ThunarVfsVolume.html#ThunarVfsVolumeStatus">ThunarVfsVolumeStatus</a> <a href="ThunarVfsVolume.html#thunar-vfs-volume-get-status">thunar_vfs_volume_get_status</a>      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      <a href="ThunarVfsVolume.html#thunar-vfs-volume-get-mount-point">thunar_vfs_volume_get_mount_point</a>   (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-is-mounted">thunar_vfs_volume_is_mounted</a>        (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-is-present">thunar_vfs_volume_is_present</a>        (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-is-ejectable">thunar_vfs_volume_is_ejectable</a>      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-is-removable">thunar_vfs_volume_is_removable</a>      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="ThunarVfsVolume.html#thunar-vfs-volume-lookup-icon-name">thunar_vfs_volume_lookup_icon_name</a>  (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkIconTheme.html"
+>GtkIconTheme</a> *icon_theme);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-eject">thunar_vfs_volume_eject</a>             (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-mount">thunar_vfs_volume_mount</a>             (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ThunarVfsVolume.html#thunar-vfs-volume-unmount">thunar_vfs_volume_unmount</a>           (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2609070"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----ThunarVfsVolume
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2609095"></a><h2>Signals</h2>
+<pre class="synopsis">
+
+  "<a href="ThunarVfsVolume.html#ThunarVfsVolume-changed">changed</a>"                                        : Run Last
+  "<a href="ThunarVfsVolume.html#ThunarVfsVolume-mounted">mounted</a>"                                        : Run Last
+  "<a href="ThunarVfsVolume.html#ThunarVfsVolume-pre-unmount">pre-unmount</a>"                                    : Run Last
+  "<a href="ThunarVfsVolume.html#ThunarVfsVolume-unmounted">unmounted</a>"                                      : Run Last
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2609155"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2609169"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2609180"></a><h3>
+<a name="ThunarVfsVolumeKind"></a>enum ThunarVfsVolumeKind</h3>
+<a class="indexterm" name="id2609192"></a><pre class="programlisting">typedef enum
+{
+  THUNAR_VFS_VOLUME_KIND_UNKNOWN,
+  THUNAR_VFS_VOLUME_KIND_CDROM,
+  THUNAR_VFS_VOLUME_KIND_CDR,
+  THUNAR_VFS_VOLUME_KIND_CDRW,
+  THUNAR_VFS_VOLUME_KIND_DVDROM,
+  THUNAR_VFS_VOLUME_KIND_DVDRAM,
+  THUNAR_VFS_VOLUME_KIND_DVDR,
+  THUNAR_VFS_VOLUME_KIND_DVDRW,
+  THUNAR_VFS_VOLUME_KIND_DVDPLUSR,
+  THUNAR_VFS_VOLUME_KIND_DVDPLUSRW,
+  THUNAR_VFS_VOLUME_KIND_FLOPPY,
+  THUNAR_VFS_VOLUME_KIND_HARDDISK,
+  THUNAR_VFS_VOLUME_KIND_USBSTICK,
+  THUNAR_VFS_VOLUME_KIND_AUDIO_PLAYER,
+  THUNAR_VFS_VOLUME_KIND_AUDIO_CD,
+  THUNAR_VFS_VOLUME_KIND_MEMORY_CARD,
+  THUNAR_VFS_VOLUME_KIND_REMOVABLE_DISK,
+} ThunarVfsVolumeKind;
+</pre>
+<p>
+Describes the type of a VFS volume.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-UNKNOWN:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_UNKNOWN</code></span></td>
+<td> Unknown volume.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-CDROM:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_CDROM</code></span></td>
+<td> CD-ROMs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-CDR:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_CDR</code></span></td>
+<td> CD-Rs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-CDRW:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_CDRW</code></span></td>
+<td> CD-RWs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDROM:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDROM</code></span></td>
+<td> DVD-ROMs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDRAM:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDRAM</code></span></td>
+<td> DVD-RAMs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDR:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDR</code></span></td>
+<td> DVD-Rs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDRW:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDRW</code></span></td>
+<td> DVD-RWs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDPLUSR:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDPLUSR</code></span></td>
+<td> DVD+Rs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-DVDPLUSRW:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_DVDPLUSRW</code></span></td>
+<td> DVD+RWs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-FLOPPY:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_FLOPPY</code></span></td>
+<td> Floppy drives.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-HARDDISK:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_HARDDISK</code></span></td>
+<td> Hard disk drives.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-USBSTICK:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_USBSTICK</code></span></td>
+<td> USB sticks.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-AUDIO-PLAYER:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_AUDIO_PLAYER</code></span></td>
+<td> Portable audio players (i.e. iPod).
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-AUDIO-CD:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_AUDIO_CD</code></span></td>
+<td> Audio CDs.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-MEMORY-CARD:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_MEMORY_CARD</code></span></td>
+<td> Memory cards.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-KIND-REMOVABLE-DISK:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_KIND_REMOVABLE_DISK</code></span></td>
+<td> Other removable disks.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2609619"></a><h3>
+<a name="ThunarVfsVolumeStatus"></a>enum ThunarVfsVolumeStatus</h3>
+<a class="indexterm" name="id2609632"></a><pre class="programlisting">typedef enum /*&lt; flags &gt;*/
+{
+  THUNAR_VFS_VOLUME_STATUS_MOUNTED = 1 &lt;&lt; 0,
+  THUNAR_VFS_VOLUME_STATUS_PRESENT = 1 &lt;&lt; 1,
+} ThunarVfsVolumeStatus;
+</pre>
+<p>
+Describes the current status of a VFS volume.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-STATUS-MOUNTED:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_STATUS_MOUNTED</code></span></td>
+<td> Whether or not the media is currently mounted.
+</td>
+</tr>
+<tr>
+<td><span class="term"><a name="THUNAR-VFS-VOLUME-STATUS-PRESENT:CAPS"></a><code class="literal">THUNAR_VFS_VOLUME_STATUS_PRESENT</code></span></td>
+<td> Whether or not a medium is present.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2609705"></a><h3>
+<a name="ThunarVfsVolume-struct"></a>ThunarVfsVolume</h3>
+<a class="indexterm" name="id2609719"></a><pre class="programlisting">typedef struct _ThunarVfsVolume ThunarVfsVolume;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2609735"></a><h3>
+<a name="thunar-vfs-volume-get-kind"></a>thunar_vfs_volume_get_kind ()</h3>
+<a class="indexterm" name="id2609748"></a><pre class="programlisting"><a href="ThunarVfsVolume.html#ThunarVfsVolumeKind">ThunarVfsVolumeKind</a> thunar_vfs_volume_get_kind          (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Returns the kind of drive/device representd by <em class="parameter"><code>volume</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the kind of <em class="parameter"><code>volume</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2609828"></a><h3>
+<a name="thunar-vfs-volume-get-name"></a>thunar_vfs_volume_get_name ()</h3>
+<a class="indexterm" name="id2609842"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        thunar_vfs_volume_get_name          (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Returns the name of the <em class="parameter"><code>volume</code></em>. This is usually the
+name of the device or the label of the medium, if a
+medium is present.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the name of <em class="parameter"><code>volume</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2609926"></a><h3>
+<a name="thunar-vfs-volume-get-status"></a>thunar_vfs_volume_get_status ()</h3>
+<a class="indexterm" name="id2609939"></a><pre class="programlisting"><a href="ThunarVfsVolume.html#ThunarVfsVolumeStatus">ThunarVfsVolumeStatus</a> thunar_vfs_volume_get_status      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines the current status of the <em class="parameter"><code>volume</code></em>, e.g. whether
+or not the <em class="parameter"><code>volume</code></em> is currently mounted, or whether a
+medium is present.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the status for <em class="parameter"><code>volume</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610028"></a><h3>
+<a name="thunar-vfs-volume-get-mount-point"></a>thunar_vfs_volume_get_mount_point ()</h3>
+<a class="indexterm" name="id2610042"></a><pre class="programlisting"><a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a>*      thunar_vfs_volume_get_mount_point   (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines the current mount point for <em class="parameter"><code>volume</code></em>. If <em class="parameter"><code>volume</code></em>
+is mounted this will be the location at which it is currently
+mounted. Else it will be the location where <em class="parameter"><code>volume</code></em> is most
+probably being mounted. Note that this location may change
+during a call to <a href="ThunarVfsVolume.html#thunar-vfs-volume-mount"><code class="function">thunar_vfs_volume_mount()</code></a>, so be sure to
+check the mount point after the call to <a href="ThunarVfsVolume.html#thunar-vfs-volume-mount"><code class="function">thunar_vfs_volume_mount()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the path which identifies the path where
+              the volume will be mounted (or is already
+              mounted).
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610157"></a><h3>
+<a name="thunar-vfs-volume-is-mounted"></a>thunar_vfs_volume_is_mounted ()</h3>
+<a class="indexterm" name="id2610170"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_is_mounted        (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines whether <em class="parameter"><code>volume</code></em> is currently mounted into the
+filesystem hierarchy.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>volume</code></em> is mounted, else <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610272"></a><h3>
+<a name="thunar-vfs-volume-is-present"></a>thunar_vfs_volume_is_present ()</h3>
+<a class="indexterm" name="id2610286"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_is_present        (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines whether a medium is currently inserted for
+<em class="parameter"><code>volume</code></em>, e.g. for a CD-ROM drive, this will be <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>
+only if a disc is present in the slot.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>volume</code></em> is present, else <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610399"></a><h3>
+<a name="thunar-vfs-volume-is-ejectable"></a>thunar_vfs_volume_is_ejectable ()</h3>
+<a class="indexterm" name="id2610412"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_is_ejectable      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines whether the current user is allowed to eject the medium
+for <em class="parameter"><code>volume</code></em>. This method should return <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> only if a medium is
+present and the <em class="parameter"><code>volume</code></em> is removable. Still, there's no warranty
+that a call to <a href="ThunarVfsVolume.html#thunar-vfs-volume-eject"><code class="function">thunar_vfs_volume_eject()</code></a> will succeed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> whether the medium for <em class="parameter"><code>volume</code></em> can be ejected.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610524"></a><h3>
+<a name="thunar-vfs-volume-is-removable"></a>thunar_vfs_volume_is_removable ()</h3>
+<a class="indexterm" name="id2610537"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_is_removable      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume);</pre>
+<p>
+Determines whether <em class="parameter"><code>volume</code></em> is a removable device, for example
+a CD-ROM, an USB stick or a floppy drive.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>volume</code></em> is a removable device, else <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610640"></a><h3>
+<a name="thunar-vfs-volume-lookup-icon-name"></a>thunar_vfs_volume_lookup_icon_name ()</h3>
+<a class="indexterm" name="id2610654"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        thunar_vfs_volume_lookup_icon_name  (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkIconTheme.html"
+>GtkIconTheme</a> *icon_theme);</pre>
+<p>
+Tries to find a suitable icon for <em class="parameter"><code>volume</code></em> in the given <em class="parameter"><code>icon_theme</code></em> and
+returns its name. If no suitable icon is found in <em class="parameter"><code>icon_theme</code></em>, then
+a fallback icon name will be returned. This way you can always count
+on this method to return a valid string.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>icon_theme</code></em>&#160;:</span></td>
+<td> a <a
+href="../gtk/GtkIconTheme.html"
+><span class="type">GtkIconTheme</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the icon name.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2610775"></a><h3>
+<a name="thunar-vfs-volume-eject"></a>thunar_vfs_volume_eject ()</h3>
+<a class="indexterm" name="id2610789"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_eject             (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Tries to eject the medium present for <em class="parameter"><code>volume</code></em> (or atleast to
+unmount the <em class="parameter"><code>volume</code></em>).
+</p>
+<p>
+If ejecting <em class="parameter"><code>volume</code></em> requires some complex user interaction
+(basicly everything else than displaying an error dialog), it
+should popup a modal dialog on <em class="parameter"><code>window</code></em> (or on the default
+<a
+href="../gdk/GdkScreen.html"
+><span class="type">GdkScreen</span></a> if <em class="parameter"><code>window</code></em> is <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>). But be aware, that if an
+implementation of <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> performs user interaction
+during a call to this method, it must implement this method
+in a reentrant fashion!</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> a <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the medium for <em class="parameter"><code>volume</code></em> was successfully
+              ejected (or atleast the <em class="parameter"><code>volume</code></em> was unmounted
+              successfully), else <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611029"></a><h3>
+<a name="thunar-vfs-volume-mount"></a>thunar_vfs_volume_mount ()</h3>
+<a class="indexterm" name="id2611043"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_mount             (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Tries to mount <em class="parameter"><code>volume</code></em>. Will return <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if either <em class="parameter"><code>volume</code></em>
+was already mounted previously to this method invokation or
+<em class="parameter"><code>volume</code></em> was successfully mounted now.
+</p>
+<p>
+If mounting <em class="parameter"><code>volume</code></em> requires some complex user interaction
+(basicly everything else than displaying an error dialog), it
+should popup a modal dialog on <em class="parameter"><code>window</code></em> (or on the default
+<a
+href="../gdk/GdkScreen.html"
+><span class="type">GdkScreen</span></a> if <em class="parameter"><code>window</code></em> is <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>). But be aware, that if an
+implementation of <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> performs user interaction
+during a call to this method, it must implement this method
+in a reentrant fashion!</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> a <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the medium for <em class="parameter"><code>volume</code></em> was successfully
+              mounted or was already mounted previously, else
+              <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611293"></a><h3>
+<a name="thunar-vfs-volume-unmount"></a>thunar_vfs_volume_unmount ()</h3>
+<a class="indexterm" name="id2611307"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            thunar_vfs_volume_unmount           (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Tries to unmount <em class="parameter"><code>volume</code></em>. Will return <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if either <em class="parameter"><code>volume</code></em>
+was already unmounted previously to this method invokation or
+<em class="parameter"><code>volume</code></em> was successfully unmounted now.
+</p>
+<p>
+If unmounting <em class="parameter"><code>volume</code></em> requires some complex user interaction
+(basicly everything else than displaying an error dialog), it
+should popup a modal dialog on <em class="parameter"><code>window</code></em> (or on the default
+<a
+href="../gdk/GdkScreen.html"
+><span class="type">GdkScreen</span></a> if <em class="parameter"><code>window</code></em> is <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>). But be aware, that if an
+implementation of <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> performs user interaction
+during a call to this method, it must implement this method
+in a reentrant fashion!</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> a <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> a <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td> return location for errors or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the medium for <em class="parameter"><code>volume</code></em> was successfully
+              unmounted or wasn't mounted previously, else
+              <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2611558"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2611569"></a><h3>
+<a name="ThunarVfsVolume-changed"></a>The "changed" signal</h3>
+<a class="indexterm" name="id2611580"></a><pre class="programlisting">void                user_function                      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                        <a
+href="../glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>         user_data)      : Run Last</pre>
+<p>
+Emitted whenever the state of <em class="parameter"><code>volume</code></em> changed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> the <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611666"></a><h3>
+<a name="ThunarVfsVolume-mounted"></a>The "mounted" signal</h3>
+<a class="indexterm" name="id2611677"></a><pre class="programlisting">void                user_function                      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                        <a
+href="../glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>         user_data)      : Run Last</pre>
+<p>
+Emitted by <em class="parameter"><code>volume</code></em> after a successfull mount
+operation.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> the <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611763"></a><h3>
+<a name="ThunarVfsVolume-pre-unmount"></a>The "pre-unmount" signal</h3>
+<a class="indexterm" name="id2611774"></a><pre class="programlisting">void                user_function                      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                        <a
+href="../glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>         user_data)      : Run Last</pre>
+<p>
+Emitted by <em class="parameter"><code>volume</code></em> right before an attempt
+is made to unmount the <em class="parameter"><code>volume</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> the <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2611868"></a><h3>
+<a name="ThunarVfsVolume-unmounted"></a>The "unmounted" signal</h3>
+<a class="indexterm" name="id2611878"></a><pre class="programlisting">void                user_function                      (<a href="ThunarVfsVolume.html" title="ThunarVfsVolume">ThunarVfsVolume</a> *volume,
+                                                        <a
+href="../glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>         user_data)      : Run Last</pre>
+<p>
+Emitted by <em class="parameter"><code>volume</code></em> right after the <em class="parameter"><code>volume</code></em>
+was successfully unmounted.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>volume</code></em>&#160;:</span></td>
+<td> the <a href="ThunarVfsVolume.html" title="ThunarVfsVolume"><span class="type">ThunarVfsVolume</span></a> instance.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

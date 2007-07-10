@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Thunar-VFS Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="next" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="jobs.html" title="Part&#160;III.&#160;Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part&#160;VII.&#160;Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" lang="en">
+<div class="titlepage">
+<div>
+<div><table class="navigation" id="top" width="100%" cellpadding="2" cellspacing="0"><tr><th valign="middle"><p class="title">Thunar-VFS Reference Manual</p></th></tr></table></div>
+<div><div class="authorgroup"><div class="author">
+<h3 class="author">
+<span class="firstname">Benedikt</span> <span class="surname">Meurer</span>
+</h3>
+<div class="affiliation">
+<div class="address"><p><code class="email">&lt;<a href="mailto:benny@xfce.org">benny@xfce.org</a>&gt;</code></p></div>
+<span class="orgname">os-cillation<br></span> <span class="orgdiv">System development<br></span><span class="jobtitle">Software developer<br></span>
+</div>
+</div></div></div>
+<div><p class="releaseinfo">Version 0.8.0
+</p></div>
+<div><p class="copyright">Copyright &#169; 2005, 2006 Benedikt Meurer</p></div>
+<div><div class="legalnotice">
+<a name="legalnotice"></a><p>
+        Permission is granted to copy, distribute and/or modify this document
+        under the terms of the GNU Free Documentation License, Version 1.1 or
+        any later version published by the Free Software Foundation; with no
+        Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+        Texts. The complete license text is available from the <a href="http://www.gnu.org/" target="_top">Free Software Foundation</a>.
+      </p>
+</div></div>
+<div><p class="pubdate">January 2007</p></div>
+</div>
+<hr>
+</div>
+<div class="toc"><dl>
+<dt><span class="part"><a href="introduction.html">I. Introduction</a></span></dt>
+<dt><span class="part"><a href="fundamentals.html">II. Fundamentals</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-Initialization-and-Shutdown.html">Initialization and Shutdown</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-Basic-Types.html">Basic Types</a></span><span class="refpurpose"> &#8212; Standard Thunar-VFS types, defined for ease-of-use and portability.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-ThunarVfsPath.html">ThunarVfsPath</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-ThunarVfsInfo.html">ThunarVfsInfo</a></span><span class="refpurpose"> &#8212; Stores information about files.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-Utility-Functions.html">Utility Functions</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="jobs.html">III. Jobs</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsJob.html">ThunarVfsJob</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-Jobs.html">Jobs</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="filesystem-monitoring.html">IV. Filesystem Monitoring</a></span></dt>
+<dd><dl><dt>
+<span class="refentrytitle"><a href="ThunarVfsMonitor.html">ThunarVfsMonitor</a></span><span class="refpurpose"> &#8212; Portable file system monitoring class.</span>
+</dt></dl></dd>
+<dt><span class="part"><a href="mime-types.html">V. MIME Types</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="thunar-vfs-ThunarVfsMimeInfo.html">ThunarVfsMimeInfo</a></span><span class="refpurpose"> &#8212; Represents a MIME type in the system.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsMimeDatabase.html">ThunarVfsMimeDatabase</a></span><span class="refpurpose"> &#8212; Provides access to the MIME database.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsMimeHandler.html">ThunarVfsMimeHandler</a></span><span class="refpurpose"> &#8212; Abstract base class for <a href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> and <a href="ThunarVfsMimeAction.html" title="ThunarVfsMimeAction"><span class="type">ThunarVfsMimeAction</span></a>.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsMimeApplication.html">ThunarVfsMimeApplication</a></span><span class="refpurpose"> &#8212; Registered Applications for MIME types.</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsMimeAction.html">ThunarVfsMimeAction</a></span><span class="refpurpose"> &#8212; Registered desktop actions for <a href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a>s.</span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="users-and-groups-handling.html">VI. Users and Groups Handling</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsUser.html">ThunarVfsUser</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsGroup.html">ThunarVfsGroup</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsUserManager.html">ThunarVfsUserManager</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="volume-handling.html">VII. Volume Handling</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsVolume.html">ThunarVfsVolume</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarVfsVolumeManager.html">ThunarVfsVolumeManager</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="index"><a href="ix01.html">Index</a></span></dt>
+</dl></div>
+</div></body>
+</html>

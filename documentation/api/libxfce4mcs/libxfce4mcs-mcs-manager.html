@@ -1,0 +1,861 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>mcs-manager</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="libxfce4mcs Reference Manual">
+<link rel="up" href="ch01.html" title="libxfce4mcs Core Reference">
+<link rel="prev" href="libxfce4mcs-mcs-common.html" title="mcs-common">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="libxfce4mcs Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libxfce4mcs-mcs-common.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4mcs Reference Manual</th>
+<td>&#160;</td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2582915" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2583762" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4mcs-mcs-manager"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2582915"></a><span class="refentrytitle">mcs-manager</span>
+</h2>
+<p>mcs-manager</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+
+
+                    <a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a>;
+void                (<a href="libxfce4mcs-mcs-manager.html#McsTerminateFunc">*McsTerminateFunc</a>)                 (void *cb_data);
+void                (<a href="libxfce4mcs-mcs-manager.html#McsShowRequestFunc">*McsShowRequestFunc</a>)               (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         void *cb_data);
+<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a>*         <a href="libxfce4mcs-mcs-manager.html#mcs-manager-new">mcs_manager_new</a>                     (<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> std_mcs,
+                                                         Display *display,
+                                                         int screen,
+                                                         <a href="libxfce4mcs-mcs-manager.html#McsTerminateFunc">McsTerminateFunc</a> terminate,
+                                                         <a href="libxfce4mcs-mcs-manager.html#McsShowRequestFunc">McsShowRequestFunc</a> show,
+                                                         void *cb_data);
+void                <a href="libxfce4mcs-mcs-manager.html#mcs-manager-destroy">mcs_manager_destroy</a>                 (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);
+Window              <a href="libxfce4mcs-mcs-manager.html#mcs-manager-get-std-window">mcs_manager_get_std_window</a>          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);
+Window              <a href="libxfce4mcs-mcs-manager.html#mcs-manager-get-mcs-window">mcs_manager_get_mcs_window</a>          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="libxfce4mcs-mcs-manager.html#mcs-manager-process-event">mcs_manager_process_event</a>           (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         XEvent *xev);
+<a href="libxfce4mcs-mcs-common.html#McsChannel">McsChannel</a>*         <a href="libxfce4mcs-mcs-manager.html#mcs-manager-add-channel">mcs_manager_add_channel</a>             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+void                <a href="libxfce4mcs-mcs-manager.html#mcs-manager-delete-channel">mcs_manager_delete_channel</a>          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-set-setting">mcs_manager_set_setting</a>             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         <a href="libxfce4mcs-mcs-common.html#McsSetting">McsSetting</a> *setting,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-delete-setting">mcs_manager_delete_setting</a>          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-set-int">mcs_manager_set_int</a>                 (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         int value);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-set-string">mcs_manager_set_string</a>              (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-set-color">mcs_manager_set_color</a>               (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         <a href="libxfce4mcs-mcs-common.html#McsColor">McsColor</a> *value);
+<a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           <a href="libxfce4mcs-mcs-manager.html#mcs-manager-notify">mcs_manager_notify</a>                  (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsList">McsList</a>*            <a href="libxfce4mcs-mcs-manager.html#mcs-manager-list-lookup">mcs_manager_list_lookup</a>             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsSetting">McsSetting</a>*         <a href="libxfce4mcs-mcs-manager.html#mcs-manager-setting-lookup">mcs_manager_setting_lookup</a>          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a href="libxfce4mcs-mcs-common.html#McsChannel">McsChannel</a>*         <a href="libxfce4mcs-mcs-manager.html#mcs-manager-add-channel-from-file">mcs_manager_add_channel_from_file</a>   (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="libxfce4mcs-mcs-manager.html#mcs-manager-save-channel-to-file">mcs_manager_save_channel_to_file</a>    (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583762"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583778"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2583789"></a><h3>
+<a name="McsManager"></a>McsManager</h3>
+<a class="indexterm" name="id2563916"></a><pre class="programlisting">typedef struct _McsManager McsManager;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2563931"></a><h3>
+<a name="McsTerminateFunc"></a>McsTerminateFunc ()</h3>
+<a class="indexterm" name="id2563943"></a><pre class="programlisting">void                (*McsTerminateFunc)                 (void *cb_data);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="parameter"><code>cb_data</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2563990"></a><h3>
+<a name="McsShowRequestFunc"></a>McsShowRequestFunc ()</h3>
+<a class="indexterm" name="id2564002"></a><pre class="programlisting">void                (*McsShowRequestFunc)               (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *path,
+                                                         void *cb_data);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>cb_data</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564069"></a><h3>
+<a name="mcs-manager-new"></a>mcs_manager_new ()</h3>
+<a class="indexterm" name="id2564081"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a>*         mcs_manager_new                     (<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> std_mcs,
+                                                         Display *display,
+                                                         int screen,
+                                                         <a href="libxfce4mcs-mcs-manager.html#McsTerminateFunc">McsTerminateFunc</a> terminate,
+                                                         <a href="libxfce4mcs-mcs-manager.html#McsShowRequestFunc">McsShowRequestFunc</a> show,
+                                                         void *cb_data);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>std_mcs</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>display</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>terminate</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>show</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>cb_data</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602332"></a><h3>
+<a name="mcs-manager-destroy"></a>mcs_manager_destroy ()</h3>
+<a class="indexterm" name="id2602342"></a><pre class="programlisting">void                mcs_manager_destroy                 (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602383"></a><h3>
+<a name="mcs-manager-get-std-window"></a>mcs_manager_get_std_window ()</h3>
+<a class="indexterm" name="id2602393"></a><pre class="programlisting">Window              mcs_manager_get_std_window          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602446"></a><h3>
+<a name="mcs-manager-get-mcs-window"></a>mcs_manager_get_mcs_window ()</h3>
+<a class="indexterm" name="id2602458"></a><pre class="programlisting">Window              mcs_manager_get_mcs_window          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602514"></a><h3>
+<a name="mcs-manager-process-event"></a>mcs_manager_process_event ()</h3>
+<a class="indexterm" name="id2602526"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            mcs_manager_process_event           (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         XEvent *xev);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>xev</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602604"></a><h3>
+<a name="mcs-manager-add-channel"></a>mcs_manager_add_channel ()</h3>
+<a class="indexterm" name="id2602615"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsChannel">McsChannel</a>*         mcs_manager_add_channel             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602693"></a><h3>
+<a name="mcs-manager-delete-channel"></a>mcs_manager_delete_channel ()</h3>
+<a class="indexterm" name="id2602705"></a><pre class="programlisting">void                mcs_manager_delete_channel          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602748"></a><h3>
+<a name="mcs-manager-set-setting"></a>mcs_manager_set_setting ()</h3>
+<a class="indexterm" name="id2602759"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_set_setting             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         <a href="libxfce4mcs-mcs-common.html#McsSetting">McsSetting</a> *setting,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>setting</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602847"></a><h3>
+<a name="mcs-manager-delete-setting"></a>mcs_manager_delete_setting ()</h3>
+<a class="indexterm" name="id2602858"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_delete_setting          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2602946"></a><h3>
+<a name="mcs-manager-set-int"></a>mcs_manager_set_int ()</h3>
+<a class="indexterm" name="id2602957"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_set_int                 (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         int value);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603065"></a><h3>
+<a name="mcs-manager-set-string"></a>mcs_manager_set_string ()</h3>
+<a class="indexterm" name="id2603075"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_set_string              (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603183"></a><h3>
+<a name="mcs-manager-set-color"></a>mcs_manager_set_color ()</h3>
+<a class="indexterm" name="id2603194"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_set_color               (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         <a href="libxfce4mcs-mcs-common.html#McsColor">McsColor</a> *value);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603301"></a><h3>
+<a name="mcs-manager-notify"></a>mcs_manager_notify ()</h3>
+<a class="indexterm" name="id2603312"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsResult">McsResult</a>           mcs_manager_notify                  (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603381"></a><h3>
+<a name="mcs-manager-list-lookup"></a>mcs_manager_list_lookup ()</h3>
+<a class="indexterm" name="id2603392"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsList">McsList</a>*            mcs_manager_list_lookup             (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603461"></a><h3>
+<a name="mcs-manager-setting-lookup"></a>mcs_manager_setting_lookup ()</h3>
+<a class="indexterm" name="id2603472"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsSetting">McsSetting</a>*         mcs_manager_setting_lookup          (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603560"></a><h3>
+<a name="mcs-manager-add-channel-from-file"></a>mcs_manager_add_channel_from_file ()</h3>
+<a class="indexterm" name="id2603573"></a><pre class="programlisting"><a href="libxfce4mcs-mcs-common.html#McsChannel">McsChannel</a>*         mcs_manager_add_channel_from_file   (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2603662"></a><h3>
+<a name="mcs-manager-save-channel-to-file"></a>mcs_manager_save_channel_to_file ()</h3>
+<a class="indexterm" name="id2603674"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            mcs_manager_save_channel_to_file    (<a href="libxfce4mcs-mcs-manager.html#McsManager">McsManager</a> *manager,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>manager</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>channel_name</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,590 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceMenuDirectory</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="up" href="menus.html" title="Part&#160;III.&#160;Menus">
+<link rel="prev" href="XfceMenu.html" title="XfceMenu">
+<link rel="next" href="XfceMenuItem.html" title="XfceMenuItem">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="menus.html" title="Part&#160;III.&#160;Menus">
+<link rel="part" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
+<link rel="part" href="internals.html" title="Part&#160;V.&#160;Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceMenu.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="menus.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4menu Reference Manual</th>
+<td><a accesskey="n" href="XfceMenuItem.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2563441" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2563928" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2563801" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2563826" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="XfceMenuDirectory"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2563441"></a><span class="refentrytitle">XfceMenuDirectory</span>
+</h2>
+<p>XfceMenuDirectory</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4menu/libxfce4menu.h&gt;
+
+
+                    <a href="XfceMenuDirectory.html#XfceMenuDirectoryPrivate">XfceMenuDirectoryPrivate</a>;
+                    <a href="XfceMenuDirectory.html#XfceMenuDirectoryClass">XfceMenuDirectoryClass</a>;
+                    <a href="XfceMenuDirectory.html#XfceMenuDirectory-struct">XfceMenuDirectory</a>;
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="XfceMenuDirectory.html#xfce-menu-directory-get-filename">xfce_menu_directory_get_filename</a>    (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+void                <a href="XfceMenuDirectory.html#xfce-menu-directory-set-filename">xfce_menu_directory_set_filename</a>    (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="XfceMenuDirectory.html#xfce-menu-directory-get-name">xfce_menu_directory_get_name</a>        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+void                <a href="XfceMenuDirectory.html#xfce-menu-directory-set-name">xfce_menu_directory_set_name</a>        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="XfceMenuDirectory.html#xfce-menu-directory-get-comment">xfce_menu_directory_get_comment</a>     (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+void                <a href="XfceMenuDirectory.html#xfce-menu-directory-set-comment">xfce_menu_directory_set_comment</a>     (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *comment);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a href="XfceMenuDirectory.html#xfce-menu-directory-get-icon">xfce_menu_directory_get_icon</a>        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+void                <a href="XfceMenuDirectory.html#xfce-menu-directory-set-icon">xfce_menu_directory_set_icon</a>        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *icon);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="XfceMenuDirectory.html#xfce-menu-directory-get-no-display">xfce_menu_directory_get_no_display</a>  (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+void                <a href="XfceMenuDirectory.html#xfce-menu-directory-set-no-display">xfce_menu_directory_set_no_display</a>  (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> no_display);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="XfceMenuDirectory.html#xfce-menu-directory-get-hidden">xfce_menu_directory_get_hidden</a>      (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="XfceMenuDirectory.html#xfce-menu-directory-show-in-environment">xfce_menu_directory_show_in_environment</a>
+                                                        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2563801"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----XfceMenuDirectory
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2563826"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="XfceMenuDirectory.html#XfceMenuDirectory--comment">comment</a>"                  <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write
+  "<a href="XfceMenuDirectory.html#XfceMenuDirectory--filename">filename</a>"                 <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write
+  "<a href="XfceMenuDirectory.html#XfceMenuDirectory--icon">icon</a>"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write
+  "<a href="XfceMenuDirectory.html#XfceMenuDirectory--name">name</a>"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write
+  "<a href="XfceMenuDirectory.html#XfceMenuDirectory--no-display">no-display</a>"               <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2563928"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2563942"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2563952"></a><h3>
+<a name="XfceMenuDirectoryPrivate"></a>XfceMenuDirectoryPrivate</h3>
+<a class="indexterm" name="id2563965"></a><pre class="programlisting">typedef struct _XfceMenuDirectoryPrivate XfceMenuDirectoryPrivate;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2563981"></a><h3>
+<a name="XfceMenuDirectoryClass"></a>XfceMenuDirectoryClass</h3>
+<a class="indexterm" name="id2563994"></a><pre class="programlisting">typedef struct _XfceMenuDirectoryClass XfceMenuDirectoryClass;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564010"></a><h3>
+<a name="XfceMenuDirectory-struct"></a>XfceMenuDirectory</h3>
+<a class="indexterm" name="id2564023"></a><pre class="programlisting">typedef struct _XfceMenuDirectory XfceMenuDirectory;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564038"></a><h3>
+<a name="xfce-menu-directory-get-filename"></a>xfce_menu_directory_get_filename ()</h3>
+<a class="indexterm" name="id2564051"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_directory_get_filename    (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564109"></a><h3>
+<a name="xfce-menu-directory-set-filename"></a>xfce_menu_directory_set_filename ()</h3>
+<a class="indexterm" name="id2564123"></a><pre class="programlisting">void                xfce_menu_directory_set_filename    (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564191"></a><h3>
+<a name="xfce-menu-directory-get-name"></a>xfce_menu_directory_get_name ()</h3>
+<a class="indexterm" name="id2564204"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_directory_get_name        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564262"></a><h3>
+<a name="xfce-menu-directory-set-name"></a>xfce_menu_directory_set_name ()</h3>
+<a class="indexterm" name="id2564276"></a><pre class="programlisting">void                xfce_menu_directory_set_name        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564344"></a><h3>
+<a name="xfce-menu-directory-get-comment"></a>xfce_menu_directory_get_comment ()</h3>
+<a class="indexterm" name="id2564357"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_directory_get_comment     (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564416"></a><h3>
+<a name="xfce-menu-directory-set-comment"></a>xfce_menu_directory_set_comment ()</h3>
+<a class="indexterm" name="id2564429"></a><pre class="programlisting">void                xfce_menu_directory_set_comment     (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *comment);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>comment</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564497"></a><h3>
+<a name="xfce-menu-directory-get-icon"></a>xfce_menu_directory_get_icon ()</h3>
+<a class="indexterm" name="id2564510"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_directory_get_icon        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564569"></a><h3>
+<a name="xfce-menu-directory-set-icon"></a>xfce_menu_directory_set_icon ()</h3>
+<a class="indexterm" name="id2564582"></a><pre class="programlisting">void                xfce_menu_directory_set_icon        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *icon);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>icon</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564650"></a><h3>
+<a name="xfce-menu-directory-get-no-display"></a>xfce_menu_directory_get_no_display ()</h3>
+<a class="indexterm" name="id2564665"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_directory_get_no_display  (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564721"></a><h3>
+<a name="xfce-menu-directory-set-no-display"></a>xfce_menu_directory_set_no_display ()</h3>
+<a class="indexterm" name="id2564735"></a><pre class="programlisting">void                xfce_menu_directory_set_no_display  (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> no_display);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>no_display</code></em>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564803"></a><h3>
+<a name="xfce-menu-directory-get-hidden"></a>xfce_menu_directory_get_hidden ()</h3>
+<a class="indexterm" name="id2564816"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_directory_get_hidden      (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2564873"></a><h3>
+<a name="xfce-menu-directory-show-in-environment"></a>xfce_menu_directory_show_in_environment ()</h3>
+<a class="indexterm" name="id2564887"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_directory_show_in_environment
+                                                        (<a href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>directory</code></em>&#160;:</span></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2564946"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2564957"></a><h3>
+<a name="XfceMenuDirectory--comment"></a>The "<code class="literal">comment</code>" property</h3>
+<a class="indexterm" name="id2564973"></a><pre class="programlisting">  "comment"                  <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write</pre>
+<p>
+Directory description (comment).</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2565002"></a><h3>
+<a name="XfceMenuDirectory--filename"></a>The "<code class="literal">filename</code>" property</h3>
+<a class="indexterm" name="id2565018"></a><pre class="programlisting">  "filename"                 <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write</pre>
+<p>
+The filename of an <a href="XfceMenuDirectory.html" title="XfceMenuDirectory"><code class="literal">XfceMenuDirectory</code></a> object. Whenever this is redefined, the
+directory entry is parsed again.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2565060"></a><h3>
+<a name="XfceMenuDirectory--icon"></a>The "<code class="literal">icon</code>" property</h3>
+<a class="indexterm" name="id2565076"></a><pre class="programlisting">  "icon"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write</pre>
+<p>
+Icon associated with this directory.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2565107"></a><h3>
+<a name="XfceMenuDirectory--name"></a>The "<code class="literal">name</code>" property</h3>
+<a class="indexterm" name="id2565123"></a><pre class="programlisting">  "name"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write</pre>
+<p>
+Name of the directory.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2565153"></a><h3>
+<a name="XfceMenuDirectory--no-display"></a>The "<code class="literal">no-display</code>" property</h3>
+<a class="indexterm" name="id2565169"></a><pre class="programlisting">  "no-display"               <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+Whether this menu item is hidden in menus.</p>
+<p>
+
+</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+</div>
+</body>
+</html>

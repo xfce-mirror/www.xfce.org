@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarxMenuProvider</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="up" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="prev" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="next" href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="part" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
+<link rel="part" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
+<link rel="part" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="part" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="thunarx-providers.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="thunarx-providers.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar Extensions Reference Manual</th>
+<td><a accesskey="n" href="ThunarxPropertyPageProvider.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2577164" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2577380" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2577333" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2577358" class="shortcut">Prerequisites</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ThunarxMenuProvider"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2577164"></a><span class="refentrytitle">ThunarxMenuProvider</span>
+</h2>
+<p>ThunarxMenuProvider &#8212; The interface to extensions that provide additional menu items</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1" lang="en">
+<a name="id2576553"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunarx/thunarx.h&gt;
+
+
+                    <a href="ThunarxMenuProvider.html#ThunarxMenuProviderIface">ThunarxMenuProviderIface</a>;
+                    <a href="ThunarxMenuProvider.html#ThunarxMenuProvider-struct">ThunarxMenuProvider</a>;
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-file-actions">thunarx_menu_provider_get_file_actions</a>
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *files);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-folder-actions">thunarx_menu_provider_get_folder_actions</a>
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *folder);
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-dnd-actions">thunarx_menu_provider_get_dnd_actions</a>
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *folder,
+                                                         <a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *files);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2577333"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GInterface
+   +----ThunarxMenuProvider
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2577358"></a><h2>Prerequisites</h2>
+<p>
+ThunarxMenuProvider requires
+ <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2577380"></a><h2>Description</h2>
+<p>
+  The <span class="interface">ThunarxMenuProvider</span> interface is implemented by
+  extensions which provide additional menu items that should be displayed in
+  the file or folder context menus for certain types of files.
+</p>
+<p>
+  Extensions that implement this interface should do its best to respond as
+  fast as possible to method invokations by the file manager. That said, when
+  the file manager calls the <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-file-actions"><code class="function">thunarx_menu_provider_get_file_actions()</code></a> or the
+  <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-folder-actions"><code class="function">thunarx_menu_provider_get_folder_actions()</code></a> method, the implementation in the
+  extension should use only the <a href="ThunarxFileInfo.html#thunarx-file-info-has-mime-type"><code class="function">thunarx_file_info_has_mime_type()</code></a> and
+  <a href="ThunarxFileInfo.html#thunarx-file-info-is-directory"><code class="function">thunarx_file_info_is_directory()</code></a> methods to determine the actions that should
+  be added to the file manager's context menu. Don't perform any complicated I/O
+  to determine the action list, as that would block the whole file manager process.
+</p>
+<p>
+  The <a
+href="../gtk/GtkAction.html"
+>GtkAction</a>s returned from the
+  <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-file-actions"><code class="function">thunarx_menu_provider_get_file_actions()</code></a> and <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-folder-actions"><code class="function">thunarx_menu_provider_get_folder_actions()</code></a>
+  methods must be namespaced with the module to avoid collision with internal file manager
+  actions and actions provided by other extensions. For example, the menu action provided
+  by the <code class="systemitem">ThunarOpenTerminal</code> extension should be
+  called <code class="literal">ThunarOpenTerminal::open-terminal</code>.
+</p>
+<div class="example">
+<a name="id2577512"></a><p class="title"><b>Example&#160;5.&#160;Menu provider example</b></p>
+<div class="example-contents">
+<pre class="programlisting">
+static void   hello_menu_provider_init (ThunarxMenuProviderIface *iface);
+static GList *hello_get_file_actions   (ThunarxMenuProvider      *provider,
+                                        GtkWidget                *window,
+                                        GList                    *files);
+
+THUNARX_DEFINE_TYPE_WITH_CODE (Hello, hello, G_TYPE_OBJECT,
+                               THUNARX_IMPLEMENT_INTERFACE (THUNARX_TYPE_MENU_PROVIDER,
+                                                            hello_menu_provider_init));
+
+static void
+hello_menu_provider_init (ThunarxMenuProviderIface *iface)
+{
+  iface-&gt;get_file_actions = hello_get_file_actions;
+}
+
+static void
+hello_activated (GtkWidget *window)
+{
+  GtkWidget *dialog;
+
+  dialog = gtk_message_dialog_new (GTK_WINDOW (window),
+                                   GTK_DIALOG_MODAL
+                                   | GTK_DIALOG_DESTROY_WITH_PARENT,
+                                   GTK_MESSAGE_INFO,
+                                   GTK_BUTTONS_OK,
+                                   "Hello World!");
+  gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_destroy (dialog);
+}
+
+static GList*
+hello_get_file_actions (ThunarxMenuProvider *provider,
+                        GtkWidget           *window,
+                        GList               *files)
+{
+  GtkAction *action;
+  GClosure  *closure;
+
+  action = gtk_action_new ("Hello::say-hello", "Say hello", "Say hello", NULL);
+  closure = g_cclosure_object_new_swap (G_CALLBACK (hello_activated), G_OBJECT (window));
+  g_signal_connect_closure (G_OBJECT (action), "activate", closure, TRUE);
+
+  return g_list_append (NULL, action);
+}</pre>
+<p>
+    The above example will add an item <span class="guimenu"><span class="guimenuitem">Say hello</span></span>
+    to the file context menus as shown in the picture below:
+  </p>
+<p>
+    <img src="say-hello.png">
+  </p>
+</div>
+</div>
+<br class="example-break">
+</div>
+<div class="refsect1" lang="en">
+<a name="id2577577"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2577587"></a><h3>
+<a name="ThunarxMenuProviderIface"></a>ThunarxMenuProviderIface</h3>
+<a class="indexterm" name="id2577601"></a><pre class="programlisting">typedef struct {
+  GList *(*get_file_actions)    (ThunarxMenuProvider *provider,
+                                 GtkWidget           *window,
+                                 GList               *files);
+
+  GList *(*get_folder_actions)  (ThunarxMenuProvider *provider,
+                                 GtkWidget           *window,
+                                 ThunarxFileInfo     *folder);
+
+  GList *(*get_dnd_actions)     (ThunarxMenuProvider *provider,
+                                 GtkWidget           *window,
+                                 ThunarxFileInfo     *folder,
+                                 GList               *files);
+} ThunarxMenuProviderIface;
+</pre>
+<p>
+  Interface with virtual methods implemented by extensions that provide
+  additional menu items for the file manager's context menus.
+</p>
+<p>
+  Providers don't need to implement all of the virtual methods listed in
+  the interface.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="structfield"><code>get_file_actions</code></em>&#160;()</span></td>
+<td>See <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-file-actions"><code class="function">thunarx_menu_provider_get_file_actions()</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="structfield"><code>get_folder_actions</code></em>&#160;()</span></td>
+<td>See <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-folder-actions"><code class="function">thunarx_menu_provider_get_folder_actions()</code></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="structfield"><code>get_dnd_actions</code></em>&#160;()</span></td>
+<td>See <a href="ThunarxMenuProvider.html#thunarx-menu-provider-get-dnd-actions"><code class="function">thunarx_menu_provider_get_dnd_actions()</code></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2577714"></a><h3>
+<a name="ThunarxMenuProvider-struct"></a>ThunarxMenuProvider</h3>
+<a class="indexterm" name="id2577728"></a><pre class="programlisting">typedef struct _ThunarxMenuProvider ThunarxMenuProvider;</pre>
+<p>
+  Menu provider type.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2577743"></a><h3>
+<a name="thunarx-menu-provider-get-file-actions"></a>thunarx_menu_provider_get_file_actions ()</h3>
+<a class="indexterm" name="id2577757"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunarx_menu_provider_get_file_actions
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *files);</pre>
+<p>
+Returns the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer for
+<em class="parameter"><code>files</code></em>.
+</p>
+<p>
+As a special note, this method automatically takes a reference on the
+<em class="parameter"><code>provider</code></em> for every <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a> object returned from the real implementation
+of this method in <em class="parameter"><code>provider</code></em>. This is to make sure that the extension stays
+in memory for atleast the time that the actions are used. If the extension
+wants to stay in memory for a longer time, it'll need to take care of this
+itself (e.g. by taking an additional reference on the <em class="parameter"><code>provider</code></em> itself,
+that's released at a later time).
+</p>
+<p>
+The caller is responsible to free the returned list of actions using
+something like this when no longer needed:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>provider</code></em>&#160;:</span></td>
+<td> a <a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider"><span class="type">ThunarxMenuProvider</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> the <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> within which the actions will be used.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>files</code></em>&#160;:</span></td>
+<td> the list of <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s to which the actions will be applied.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer
+              for <em class="parameter"><code>files</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2577980"></a><h3>
+<a name="thunarx-menu-provider-get-folder-actions"></a>thunarx_menu_provider_get_folder_actions ()</h3>
+<a class="indexterm" name="id2577995"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunarx_menu_provider_get_folder_actions
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *folder);</pre>
+<p>
+Returns the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer for
+<em class="parameter"><code>folder</code></em>.
+</p>
+<p>
+As a special note, this method automatically takes a reference on the
+<em class="parameter"><code>provider</code></em> for every <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a> object returned from the real implementation
+of this method in <em class="parameter"><code>provider</code></em>. This is to make sure that the extension stays
+in memory for atleast the time that the actions are used. If the extension
+wants to stay in memory for a longer time, it'll need to take care of this
+itself (e.g. by taking an additional reference on the <em class="parameter"><code>provider</code></em> itself,
+that's released at a later time).
+</p>
+<p>
+The caller is responsible to free the returned list of actions using
+something like this when no longer needed:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>provider</code></em>&#160;:</span></td>
+<td> a <a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider"><span class="type">ThunarxMenuProvider</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> the <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> within which the actions will be used.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>folder</code></em>&#160;:</span></td>
+<td> the folder to which the actions should will be applied.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer
+              for <em class="parameter"><code>folder</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2578209"></a><h3>
+<a name="thunarx-menu-provider-get-dnd-actions"></a>thunarx_menu_provider_get_dnd_actions ()</h3>
+<a class="indexterm" name="id2578225"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunarx_menu_provider_get_dnd_actions
+                                                        (<a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider">ThunarxMenuProvider</a> *provider,
+                                                         <a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a> *window,
+                                                         <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *folder,
+                                                         <a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *files);</pre>
+<p>
+Returns the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer for
+dropping the <em class="parameter"><code>files</code></em> into the <em class="parameter"><code>folder</code></em>. For example, the thunar-archive-plugin
+provides <span class="guilabel">Extract Here</span> actions when dropping archive
+files into a folder that is writable by the user.
+</p>
+<p>
+As a special note, this method automatically takes a reference on the
+<em class="parameter"><code>provider</code></em> for every <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a> object returned from the real implementation
+of this method in <em class="parameter"><code>provider</code></em>. This is to make sure that the extension stays
+in memory for atleast the time that the actions are used. If the extension
+wants to stay in memory for a longer time, it'll need to take care of this
+itself (e.g. by taking an additional reference on the <em class="parameter"><code>provider</code></em> itself,
+that's released at a later time).
+</p>
+<p>
+The caller is responsible to free the returned list of actions using
+something like this when no longer needed:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>provider</code></em>&#160;:</span></td>
+<td> a <a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider"><span class="type">ThunarxMenuProvider</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>window</code></em>&#160;:</span></td>
+<td> the <a
+href="../gtk/GtkWindow.html"
+><span class="type">GtkWindow</span></a> within which the actions will be used.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>folder</code></em>&#160;:</span></td>
+<td> the folder into which the <em class="parameter"><code>files</code></em> are being dropped
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>files</code></em>&#160;:</span></td>
+<td> the list of <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s for the files that are 
+            being dropped to <em class="parameter"><code>folder</code></em> in <em class="parameter"><code>window</code></em>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s that <em class="parameter"><code>provider</code></em> has to offer
+              for dropping <em class="parameter"><code>files</code></em> to <em class="parameter"><code>folder</code></em>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.4.1
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2578517"></a><h2>See Also</h2>
+<p>
+  The description of the <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a>
+  interface.
+</p>
+</div>
+</div>
+</body>
+</html>

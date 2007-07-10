@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ThunarxRenamerProvider</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="up" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="prev" href="ThunarxPreferencesProvider.html" title="ThunarxPreferencesProvider">
+<link rel="next" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="part" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
+<link rel="part" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
+<link rel="part" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="part" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ThunarxPreferencesProvider.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="thunarx-providers.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar Extensions Reference Manual</th>
+<td><a accesskey="n" href="thunarx-using-extensions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2581770" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2582471" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2582425" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2582449" class="shortcut">Prerequisites</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ThunarxRenamerProvider"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2581770"></a><span class="refentrytitle">ThunarxRenamerProvider</span>
+</h2>
+<p>ThunarxRenamerProvider &#8212; The interface to extensions that provide additional bulk renamers</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunarx/thunarx.h&gt;
+
+
+                    <a href="ThunarxRenamerProvider.html#ThunarxRenamerProvider-struct">ThunarxRenamerProvider</a>;
+                    <a href="ThunarxRenamerProvider.html#ThunarxRenamerProviderIface">ThunarxRenamerProviderIface</a>;
+<a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a href="ThunarxRenamerProvider.html#thunarx-renamer-provider-get-renamers">thunarx_renamer_provider_get_renamers</a>
+                                                        (<a href="ThunarxRenamerProvider.html" title="ThunarxRenamerProvider">ThunarxRenamerProvider</a> *provider);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2582425"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GInterface
+   +----ThunarxRenamerProvider
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2582449"></a><h2>Prerequisites</h2>
+<p>
+ThunarxRenamerProvider requires
+ <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2582471"></a><h2>Description</h2>
+<p>
+  The <span class="interface">ThunarxRenamerProvider</span> interface is implemented by
+  extensions which provide additional bulk renamers that should be used by the
+  bulk rename dialog in Thunar.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2582495"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2582505"></a><h3>
+<a name="ThunarxRenamerProvider-struct"></a>ThunarxRenamerProvider</h3>
+<a class="indexterm" name="id2582519"></a><pre class="programlisting">typedef struct _ThunarxRenamerProvider ThunarxRenamerProvider;</pre>
+<p>
+  Bulk renamer provider type.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2582535"></a><h3>
+<a name="ThunarxRenamerProviderIface"></a>ThunarxRenamerProviderIface</h3>
+<a class="indexterm" name="id2582548"></a><pre class="programlisting">typedef struct {
+  GList *(*get_renamers) (ThunarxRenamerProvider *provider);
+} ThunarxRenamerProviderIface;
+</pre>
+<p>
+  Interface with virtual methods implemented by extensions that provide
+  additional bulk renamers for the integrated bulk renamer in Thunar.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><em class="structfield"><code>get_renamers</code></em>&#160;()</span></td>
+<td>see <a href="ThunarxRenamerProvider.html#thunarx-renamer-provider-get-renamers"><code class="function">thunarx_renamer_provider_get_renamers()</code></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2582597"></a><h3>
+<a name="thunarx-renamer-provider-get-renamers"></a>thunarx_renamer_provider_get_renamers ()</h3>
+<a class="indexterm" name="id2582611"></a><pre class="programlisting"><a
+href="../glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              thunarx_renamer_provider_get_renamers
+                                                        (<a href="ThunarxRenamerProvider.html" title="ThunarxRenamerProvider">ThunarxRenamerProvider</a> *provider);</pre>
+<p>
+Returns the list of <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>s provided by the
+specified <em class="parameter"><code>provider</code></em>.
+</p>
+<p>
+The real implementation of this method MUST return the <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>s
+with floating references (the default for <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-new"
+><code class="function">g_object_new()</code></a> on <a
+href="../gtk/GtkWidget.html"
+><span class="type">GtkWidget</span></a>
+derived types).
+</p>
+<p>
+The returned <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>s will be reffed and sinked automatically
+by this function.
+</p>
+<p>
+As a special note, this method automatically takes a reference on the
+<em class="parameter"><code>provider</code></em> for every <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a> returned from the real implementation
+of this method in <em class="parameter"><code>provider</code></em>. This is to make sure that the extension stays
+in memory for atleast the time that the renamers are used. If the extension
+wants to stay in memory for a longer time, it'll need to take care of this
+itself (e.g. by taking an additional reference on the <em class="parameter"><code>provider</code></em> itself,
+that's released at a later time).
+</p>
+<p>
+The caller is responsible to free the returned list of renamers using
+something like this when no longer needed:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, (GFunc) g_object_unref, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>provider</code></em>&#160;:</span></td>
+<td> a <a href="ThunarxRenamerProvider.html" title="ThunarxRenamerProvider"><span class="type">ThunarxRenamerProvider</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the list of <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>s provided by the
+              specified <em class="parameter"><code>provider</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2582812"></a><h2>See Also</h2>
+<p>
+  The description of the abstract base class
+  <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>.
+</p>
+</div>
+</div>
+</body>
+</html>

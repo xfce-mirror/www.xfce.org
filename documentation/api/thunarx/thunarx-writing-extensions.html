@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Part&#160;II.&#160;Writing Extensions</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="up" href="index.html" title="Thunar Extensions Reference Manual">
+<link rel="prev" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="next" href="thunarx-writing-extensions-getting-started.html" title="Getting Started">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
+<link rel="part" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
+<link rel="part" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
+<link rel="part" href="thunarx-providers.html" title="Part&#160;V.&#160;Providers">
+<link rel="part" href="thunarx-using-extensions.html" title="Part&#160;VI.&#160;Using Thunar extensions in applications">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2"><tr valign="middle">
+<td><a accesskey="p" href="thunarx-overview.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td>&#160;</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar Extensions Reference Manual</th>
+<td><a accesskey="n" href="thunarx-writing-extensions-getting-started.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="part" lang="en">
+<div class="titlepage"><div><div><h1 class="title">
+<a name="thunarx-writing-extensions"></a>Part&#160;II.&#160;Writing Extensions</h1></div></div></div>
+<p>
+      This section explains the basic steps required to write an extension for the <a href="http://thunar.xfce.org" target="_top">Thunar File Manager</a> using the C language interface. It is
+      just a short introduction and not meant to provide extensive details about the internal workings
+      of the file manager.
+    </p>
+<div class="sect1" lang="en">
+<div class="titlepage"><div><div><h2 class="title" style="clear: both">
+<a name="thunarx-writing-extensions-basic-concepts"></a>Basic Concepts</h2></div></div></div>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-extensions-and-providers"></a>Extensions and Providers</h3></div></div></div>
+<p>
+          <span class="emphasis"><em>Thunar Extensions</em></span> are shared libraries that extend the basic functionality
+          provided by the Thunar File Manager. An extension exports one or more <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a>s, called <span class="emphasis"><em>providers</em></span>, to Thunar.
+        </p>
+<p>
+          Providers implement one or more of the <span class="type">GInterface</span>s included with
+          the <code class="systemitem">thunarx</code> library. The currently exported interfaces
+          include the <a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider"><span class="type">ThunarxMenuProvider</span></a> for adding context menu
+          items to the file views, the <a href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider"><span class="type">ThunarxPropertyPageProvider</span></a> for adding pages to the
+          file properties dialog, the <a href="ThunarxPreferencesProvider.html" title="ThunarxPreferencesProvider"><span class="type">ThunarxPreferencesProvider</span></a> for adding actions to the
+          preferences section of the main menu, and the <a href="ThunarxRenamerProvider.html" title="ThunarxRenamerProvider"><span class="type">ThunarxRenamerProvider</span></a> for adding renamers to the bulk
+          rename dialog.
+        </p>
+</div>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-thunarxfileinfo"></a>ThunarxFileInfo</h3></div></div></div>
+<p>
+          Thunar passes file references to the provider using <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>
+          objects. The <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> interface provides access to the file
+          information that Thunar has already read - mime type, URI, name, etc. Extensions should use the data from
+          the <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> rather than reading it themselves, to
+          prevent excessive I/O.
+        </p>
+<p>
+          There is exactly one <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> per file, and it is kept around
+          for as long as Thunar is interested in the file. Extensions can use this information to manage lifecycles of
+          its own data - e.g. when the <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> goes away, it is safe
+          for the extension to forget any private data for that file.
+        </p>
+</div>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-names"></a>Names</h3></div></div></div>
+<p>
+          Most objects created by the extensions need names, e.g. the <a
+href="../gtk/GtkAction.html"
+><span class="type">GtkAction</span></a>s
+          returned from the <a href="ThunarxMenuProvider.html" title="ThunarxMenuProvider"><span class="type">ThunarxMenuProvider</span></a>s. These names must be
+          namespaced with the name of the extension. For example the main action returned from the
+          <span class="application">TexOpenTerminal</span> extension (which can be found in the <code class="filename">examples/tex-open-terminal</code> subdirectory of the Thunar distribution) should be called
+          <code class="literal">TexOpenTerminal::open-terminal</code>. The namespace must be global among the providers exported by
+          a certain extension.
+        </p>
+</div>
+<div class="sect2" lang="en">
+<div class="titlepage"><div><div><h3 class="title">
+<a name="thunarx-writing-extensions-types"></a>Types</h3></div></div></div>
+<p>
+          Thunar extensions are loaded as <a
+href="../gobject/GTypeModule.html"
+><span class="type">GTypeModule</span></a>s. This means that all GTypes
+          created by the extension must be registered with the <a
+href="../gobject/GTypeModule.html"
+><span class="type">GTypeModule</span></a>, using
+          <a href="ThunarxProviderPlugin.html#thunarx-provider-plugin-register-type"><code class="function">thunarx_provider_plugin_register_type()</code></a>
+          function (or one of the convenience macros like <a href="ThunarxProviderPlugin.html#THUNARX-DEFINE-TYPE:CAPS"><code class="function">THUNARX_DEFINE_TYPE()</code></a>)
+          rather than <code class="function">g_type_register_static()</code>. All types
+          exported by an extension must be registered in
+          <code class="function">thunar_extension_initialize()</code>.
+        </p>
+</div>
+</div>
+</div>
+</body>
+</html>
