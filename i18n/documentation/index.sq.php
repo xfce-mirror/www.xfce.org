@@ -20,7 +20,6 @@
         <li><a href="/documentation/api/exo/">exo</a> (<a href="/documentation/api/exo-docs.tar.gz">tarball</a>)</li>
         <li><a href="/documentation/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/api/thunar-vfs-docs.tar.gz">tarball</a>)</li>
         <li><a href="/documentation/api/thunarx/">thunarx</a> (<a href="/documentation/api/thunarx-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfprint/">libxfprint</a> (<a href="/documentation/api/libxfprint-docs.tar.gz">tarball</a>)</li>
       </ul>
           <h2><a href="/documentation/archive">Arkivë</a></h2>
           <ul>
