@@ -34,9 +34,9 @@ function CreateLanguageBar ($languages, $lang)
       $i++;
 
       if ($short == $lang)
-        $links .= '<a href="?lang='. $short .'" title="'. $long[0] .'"><strong>'. $short .'</strong></a>';
+        $links .= '<a href="?lang='. $short .'" title="'. $long[0] .'"><strong>'. strtolower ($short) .'</strong></a>';
       else
-        $links .= '<a href="?lang='. $short .'" title="'. $long[0] .'">'. $short .'</a>';
+        $links .= '<a href="?lang='. $short .'" title="'. $long[0] .'">'. strtolower ($short) .'</a>';
 
       if ($i < count ($languages))
         $links .= ' | ';
