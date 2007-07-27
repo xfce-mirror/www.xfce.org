@@ -10,7 +10,7 @@ $servers = array (
   "BE - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
   "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version/",
   /*"DE - Hannelore"      => "http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-$version/",*/
-  "US - us.xfce.org"    => "http://www.us.xfce.org/archive/xfce-$version/",
+  /*"US - us.xfce.org"    => "http://www.us.xfce.org/archive/xfce-$version/",*/
   "US - ca-us.xfce.org" => "http://www.ca-us.xfce.org/archive/xfce-$version/",
 );
 
