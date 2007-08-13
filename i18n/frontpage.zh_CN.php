@@ -5,7 +5,7 @@
 				<h2><a href="/download/" title="下载Xfce 4.4.1">下载Xfce 4.4.1</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.1" title="阅读ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4中有何新东西">漫游</a></p>
+				<p><a href="/documentation/changelogs/4.4.1" title="阅读更新日志">更新日志</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4中有何新东西">漫游</a></p>
 			</div>
 		</div>
 	</div>

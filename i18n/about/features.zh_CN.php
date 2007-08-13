@@ -2,8 +2,8 @@
 <ul>
   <li>跨平台：Linux、NetBSD、FreeBSD、OpenBSD、Solaris、Cygwin、以及MacOS X</li>
   <li>轻量级桌面环境</li>
-  <li>基本的轻量级的应用程序</li>
-  <li>最高特性的Goodies</li>
+  <li>基本的、轻量级的应用程序</li>
+  <li>能帮你获得最佳特性的Goodies</li>
   <li>多显示以及Xinerama模式支持</li>
   <li>Kiosk模式限制配置</li>
   <li>被翻译成40多种语言</li>

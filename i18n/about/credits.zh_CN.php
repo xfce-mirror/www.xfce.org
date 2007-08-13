@@ -6,7 +6,7 @@ include 'i18n/about/en.credits.php';
 @include 'i18n/about/'.$lang.'.credits.php';
 include 'include/credits.php';
 ?>
-<h1>Credits</h1>
+<h1>致谢名单</h1>
 <p></p>
 
 <h2 id="lead">项目领导</h2>

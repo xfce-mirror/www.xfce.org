@@ -22,7 +22,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/about/artwork">美工</a></h3>
-			<p>想要创造您自己的Xfce外观？您可以跟着我们的逐步的示例<a href="http://wiki.xfce.org/howto">howto's</a>。或者您可以光浏览一下<a href="http://www.xfce-look.org/">xfce-look</a>来看看别人是如何自定义他们的Xfce的。</p>
+			<p>想要创造您自己的Xfce外观？您可以跟着我们的<a href="http://wiki.xfce.org/howto">howto's</a>实例一步一步来作。或者您可以浏览一下<a href="http://www.xfce-look.org/">xfce-look</a>来看看别人是如何自定义他们的Xfce的。</p>
 		</td>
 	</tr>
 	<tr>
@@ -38,14 +38,14 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">开发</a></h3>
-			<p>无需拘束地加入我们来开发下一个Xfce主要分支，或者在现有版本中修复错误bug。</p>
+			<p>无需拘束地加入我们来开发下一个Xfce主要分支，或者在现有版本中修复bug。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/development/docs.png" alt="docs" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://wiki.xfce.org">Wiki</a></h3>
-			<p>每个人都可以改善并扩充Xfce<a href="http://wiki.xfce.org">wiki</a>的目录。</p>
+			<p>每个人都可以改善并扩充Xfce <a href="http://wiki.xfce.org">wiki</a>的内容。</p>
 		</td>
 	</tr>
 </table>

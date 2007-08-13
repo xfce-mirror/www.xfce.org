@@ -26,11 +26,11 @@
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
       <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQs</a></h2>
-      <p>你可以在<a href="http://wiki.xfce.org/faq" target="_blank">Xfce wiki</a>上找到Xfce常见问题解答。</p>
-      <h2><a href="/documentation/requirements">Requirements</a></h2>
+      <p>你可以在<a href="http://wiki.xfce.org/faq.zh_cn" target="_blank">Xfce wiki</a>上找到Xfce常见问题解答。</p>
+      <h2><a href="/documentation/requirements">系统要求</a></h2>
           <p>一份详细的Xfce <a href="/documentation/requirements">依赖关系</a>。</p>
-      <h2><a href="/documentation/changelogs/">Changelogs</a></h2>
-    <p>所有Xfce 4 <a href="/documentation/changelogs/">changelogs</a>，按照版本排序。</p>
+      <h2><a href="/documentation/changelogs/">更新日志</a></h2>
+    <p>所有Xfce 4的<a href="/documentation/changelogs/">更新日志</a>，按照版本排序。</p>
     </td>
   </tr>
 </table>

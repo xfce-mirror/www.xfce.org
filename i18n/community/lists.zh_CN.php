@@ -1,5 +1,5 @@
 <h1>Xfce邮件列表</h1>
-<p><strong>注释：</strong>为了邮寄这些列表，您必须先订阅它们。</p>
+<p><strong>注意：</strong>要向这些列表发信，您必须先订阅它们。</p>
 
 <table width="99%" cellpadding="2">
     <tr>
@@ -16,7 +16,7 @@
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-advocacy/">xfce-advocacy</a></td>
-		<td bgcolor="#eeeeee">此邮件列表用于热衷于推广 Xfce 的用户的联系地点。</td>
+		<td bgcolor="#eeeeee">此邮件列表用于那些热衷于推广 Xfce 的用户的联络点。</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
@@ -40,7 +40,7 @@
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-		<td bgcolor="#eeeeee">Xfce产品中的错误讨论。您可以<a href="http://bugzilla.xfce.org" target="_blank"class="external">在此</a>汇报错误bug。</td>
+		<td bgcolor="#eeeeee">Xfce产品中的错误讨论。您可以<a href="http://bugzilla.xfce.org" target="_blank"class="external">在此</a>汇报bug。</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>

@@ -8,7 +8,7 @@
 	</li>
 	<li><a href="/about/news">新闻</a></li>
 	<li><a href="/about/screenshots">屏幕截图</a></li>
-	<li><a href="/about/credits">Credits</a>
+	<li><a href="/about/credits">致谢名单</a>
 		<ul>
 			<li><a href="/about/credits#lead">项目领导</a></li>
 			<li><a href="/about/credits#core">核心开发者</a></li>
@@ -19,5 +19,5 @@
 		</ul>
 	</li>
 	<li><a href="/about/press">出版物</a></li>
-	<li><a href="/about/artwork">艺术</a></li>
+	<li><a href="/about/artwork">美工</a></li>
 </ul>

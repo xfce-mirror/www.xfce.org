@@ -86,7 +86,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt是将着名的Xfce安装程序转换成通用软件管理安装工具的官方实现。它使用Python语言编写，用Python-GTK做界面。</p>
+			<p>InstallIt是将著名的Xfce安装程序转换成通用软件管理安装工具的官方实现。它使用Python语言编写，用Python-GTK做界面。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
@@ -124,14 +124,14 @@
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
+			<h3><a href="/projects/xfce4-appfinder/">应用程序查找器</a></h3>
 			<p>允许你搜索、运行以及查找系统上已安装应用程序的信息。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Volume Control</a></h3>
+			<h3><a href="/projects/xfce4-mixer/">音量控制器</a></h3>
 			<p>一个面板上的音量控制器，包含一个支持ALSA、OSS和Sun audio的混音对话框。</p>
 		</td>
 		<td width="48" valign="top">
@@ -212,7 +212,7 @@
 	</tr>
 </table>
 
-<h2 id="art">Art and Graphics</h2>
+<h2 id="art">图形与美工</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
