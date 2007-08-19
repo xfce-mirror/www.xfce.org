@@ -76,3 +76,20 @@
 		<td><a href="http://www.kateos.org/" target="_blank" title="Visit the Kate OS website">Website</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="Visit the Kate OS page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
+
+<h2>Kwort Linux</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.kwort.org/" target="_blank" title="Visit the Kwort Linux website"><img src="/images/download/distros/kwortlinux.png" alt="Kwort Linux" border="0"/></a>
+		</td>
+		<td>
+        Kwort is a modern, fast and easy to use Linux distribution that
+        combines Xfce and some other useful tools to a powerful desktop.  Kwort
+        is based on Slackware, so it's robust, clean and easy to extend.
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.kwort.org/" target="_blank" title="Visit the Kwort Linux website">Website</a> | <a href="http://distrowatch.com/kwort" target="_blank" title="Visit the Kwort Linux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
