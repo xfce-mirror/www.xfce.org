@@ -48,6 +48,7 @@ $credits['translators-i18n'] = array (
     'pa' => 'Punjabi',
     'pl' => 'Polonês',
     'pt_BR' => 'Português do Brasil',
+    'pt_PT' => 'Português do Europa',
     'ro' => 'Romeno',
     'ru' => 'Russo',
     'sk' => 'Eslovaco',
