@@ -26,7 +26,6 @@
  */
 $languages = array (
         "be" => array ('Belarusian','UTF-8', 'be_BY.utf8'),
-        "pt_BR" => array ('Português do Brasil', 'UTF-8', 'pt_BR.utf8'),
 /*      "ca" => array ('Catalan','UTF-8', 'ca_ES.utf8'), */     
         "de" => array ('Deutsch','UTF-8', 'de_DE.utf8'),
         "en" => array ('English', 'UTF-8', 'en_EN'),
@@ -36,6 +35,8 @@ $languages = array (
 /*      "it" => array ('Italiano', 'UTF-8', 'it'), */
         "ja" => array ('Nihon', 'UTF-8', 'ja_JP.utf8'),
         "nl" => array ('Nederlands', 'UTF-8', 'nl_NL'),
+        "pt_BR" => array ('Português do Brasil', 'UTF-8', 'pt_BR.utf8'),
+        "pt_PT" => array ('Português', 'UTF-8', 'pt_PT.utf8'),
         "sq" => array ('Shqip', 'UTF-8', 'sq_AL.utf8'),
         "zh_CN" => array ('Chinese', 'UTF-8', 'zh_CN'),
 );
