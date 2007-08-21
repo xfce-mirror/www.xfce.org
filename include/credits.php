@@ -236,9 +236,14 @@ $credits['translators'] = array (
         ),
     array ('pt_BR',
         array (
-	    array ('Fernando Maróstica', 'fmarostica', 'fmarostica.org'),
+            array ('Fernando Maróstica', 'fmarostica', 'fmarostica.org'),
             array ('Adriano Winter Bess', 'awbess', 'gmail.com'),
             array ('Rodrigo Coacci', 'rcoacci', 'gmail.com')
+            )
+        ),
+    array ('pt_PT',
+        array (
+            array ('Nuno Miguel', 'nunis', 'netcabo.pt'),
             )
         ),
     array ('ro',
