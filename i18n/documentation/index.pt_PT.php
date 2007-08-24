@@ -30,7 +30,7 @@
       <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
       <p>Pode encontrar as perguntas mais frequentes no <a href="http://wiki.xfce.org/faq" target="_blank">wiki Xfce</a>.</p>
       <h2><a href="/documentation/requirements">Requisitos</a></h2>
-          <p>Uma lista detalhada de todos as<a href="/documentation/requirements">dependências</a> do Xfce.</p>
+          <p>Uma lista detalhada de todas as <a href="/documentation/requirements">dependências</a> do Xfce.</p>
       <h2><a href="/documentation/changelogs/">Registos de Mudanças</a></h2>
     <p>Todos os <a href="/documentation/changelogs/">registos de mudanças do Xfce</a>, ordenadas por versão.</p>
     </td>

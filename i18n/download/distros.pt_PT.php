@@ -17,7 +17,7 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu website"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
-		<td>Xubuntu é uma distribuição Linux baseada no Ubuntu. Ao contrário do pai, Xubuntu usa o ambiente de desktop leve Xfce e é optimizado para máquina de poucos recursos. A distribuição inclui apenas aplicações GTK+ quando possível.</td>
+		<td>Xubuntu é uma distribuição Linux baseada no Ubuntu. Ao contrário do pai, Xubuntu usa o ambiente de desktop leve Xfce e é optimizado para máquinas de poucos recursos. A distribuição inclui apenas aplicações GTK+ quando possível.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
@@ -29,7 +29,7 @@
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xfld website"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
-		<td>Xfld - 'Xfce live demo' - é um liveCD , demonstrando a última versão do ambiente desktop Xfce e inclui um completo sistema operativo Gnu/Linux (baseado no Ubuntu), que pode corer directamente do CD.</td>
+		<td>Xfld - 'Xfce live demo' - é um liveCD , demonstrando a última versão do ambiente desktop Xfce e inclui um completo sistema operativo Gnu/Linux (baseado no Ubuntu), que pode correr directamente do CD.</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>

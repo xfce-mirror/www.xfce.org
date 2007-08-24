@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" /></div>
 
 <h1>Gestor de Arquivos</h1>
-<p>O Gestor de Arquivos é apenas frontend GTK+2 para diversas ferramentas como 7zip, bzip2, gzip, rar, zip, e 
+<p>O Gestor de Arquivos é apenas um frontend GTK+2 para diversas ferramentas como 7zip, bzip2, gzip, rar, zip, e 
   mais. Ajuda a descomprimir rapidamente um arquivo, ou preparar e criar novos arquivos.</p>
 
 <h2>Links Externos</h2>

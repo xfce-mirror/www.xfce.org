@@ -71,7 +71,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-			<p>As três bibliotecas base do Xfce (libxfcegui4, libxfce4mcs and libxfce4utils)
+			<p>As três bibliotecas base do Xfce (libxfcegui4, libxfce4mcs e libxfce4utils)
 			são usadas pela maioria das aplicações Xfce. </p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>

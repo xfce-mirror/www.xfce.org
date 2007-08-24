@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" /></div>
 
 <h1>Assistente de Impressão</h1>
-<p>O assistente de impressão é frontend gráfico para imprimir, um gestor 
+<p>O assistente de impressão é um frontend gráfico para imprimir, um gestor 
   de impressora e gestão de lista de trabalho. Não permite configurar impressoras, 
   mas apenas usar o sistema de impressão que foi configurado devidamente.</p>
 

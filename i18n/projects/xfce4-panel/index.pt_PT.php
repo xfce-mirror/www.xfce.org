@@ -6,13 +6,13 @@
   disponíveis por padrão para preencher um painel, como lançadores de aplicação com 
   menus destacáveis, um pager gráfico, uma lista de tarefas, um relógio, uma bandeja de sistema, 
   um alternador de desktop mostra/oculta e ainda mais. Oferece uma maneira fácil de adicionar 
-  itens usando um diálogo e mover itens para diferentes panéis. É 
-  compatível com os numerosos plugins de painel disponíveis em 
-  <a href="http://goodies.xfce.org/">Xfce Goodies Project page</a>.</p>
+  itens usando um diálogo e mover itens para diferentes painéis. É 
+  compatível com os numerosos plugins de painel disponíveis na 
+  <a href="http://goodies.xfce.org/">página Xfce Goodies Project</a>.</p>
 
 <h2>Características</h2>
 <ul>
-  <li><strong>Múltiplos panéis</strong> com suporte múltiplo a ecrã.</li>
+  <li><strong>Múltiplos painéis</strong> com suporte múltiplo a ecrã.</li>
 </ul>
 <ul>
   <li><strong>Aparência Personalizada</strong>:
@@ -53,7 +53,7 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
 
-<h2>Author</h2>
+<h2>Autor</h2>
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
 </ul>

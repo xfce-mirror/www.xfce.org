@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" /></div>
 
-<h1>Utilidades e Scripts</h1>
-<p>As utilidades e scripts oferecem um diálogo acerca para o Xfce 4, um lançador de
+<h1>Utilitários e Scripts</h1>
+<p>Os utilitários e scripts oferecem um diálogo acerca para o Xfce 4, um lançador de
   aplicação e diversos scripts úteis que são usados por outros components Xfce
   como o painel e o menu de desktop.</p>
 

@@ -32,7 +32,7 @@ nas versões anteriores do Xfce.
 </p>
 
 
-<h2>gestor de Ficheiros<a name="file-manager"></a></h2>
+<h2>Gestor de Ficheiros<a name="file-manager"></a></h2>
 
 <p align="justify">
 O suporte a ícones na área de trabalho trabalha em conjunto com o novo gestor de ficheiros <a href="http://thunar.xfce.org/">Thunar</a>

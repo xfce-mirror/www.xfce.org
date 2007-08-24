@@ -1,9 +1,9 @@
 <h1>Requisito de Sistema para o Xfce</h1>
-<p>Todos os pacotes (excepto xfce4-dev-tools) dependem ambos de gtk+&nbsp;&gt;=&nbsp;2.6 e glib&nbsp;&gt;=&nbsp;2.6.4.
-A ordem na tabela de dependência é também a ordem de construção recomendada.<br />
+<p>Todos os pacotes (excepto xfce4-dev-tools) dependem de gtk+&nbsp;&gt;=&nbsp;2.6 e glib&nbsp;&gt;=&nbsp;2.6.4.
+A ordem na tabela de dependências é também a ordem de construção recomendada.<br />
 Também é recomendado construir todos os componentes Xfce da mesma versão de lançamento.</p>
 
-<h2>Tabela de dependência de pacotes:</h2>
+<h2>Tabela de dependências de pacotes:</h2>
 <table width="100%">
   <tr>
     <th width="20%" align="left"><h3>Pacote</h3></th>

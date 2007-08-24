@@ -28,7 +28,7 @@
     </tr>
     <tr>
         <td><a href="http://foo-projects.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
-        <td>Para ser notificado sobre cometimentos do SVN do Xfce4.</td>
+        <td>Para ser notificado sobre os commits do SVN do Xfce4.</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
@@ -40,7 +40,7 @@
     </tr>
     <tr>
         <td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-        <td bgcolor="#eeeeee">Discussão de erros nos produtos Xfce. Você pode reportar um erro <a href="http://bugzilla.xfce.org" target="_blank"class="external">aqui</a>.</td>
+        <td bgcolor="#eeeeee">Discussão de erros nos produtos Xfce. Pode reportar um erro <a href="http://bugzilla.xfce.org" target="_blank"class="external">aqui</a>.</td>
     </tr>
     <tr>
         <td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>

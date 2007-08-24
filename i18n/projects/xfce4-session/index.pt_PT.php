@@ -3,7 +3,7 @@
 <h1>Gestor de Sessão</h1>
 <p>O Gestor de sessão permite ao utilizador gravar a sessão e restaurar depois do
   login. É capaz de gravar várias sessões. Vem com
-  três motore de splash para ecrã. E finalmente ajuda-o a sair, reiniciar e
+  três motores de splash para ecrã. E finalmente ajuda-o a sair, reiniciar e
   desligar o sistema.</p>
 
 <h2>Características</h2>
