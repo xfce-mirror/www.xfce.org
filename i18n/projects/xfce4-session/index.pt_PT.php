@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-session.png" alt="xfprint" width="48" height="48" /></div>
 
 <h1>Gestor de Sessão</h1>
-<p>O Gestor de sessão permite ao utilizador gravar a sessão e restaurar depois do
+<p>O Gestor de sessão permite ao utilizador gravar as sessões e restaurá-las depois do
   login. É capaz de gravar várias sessões. Vem com
   três motores de splash para ecrã. E finalmente ajuda-o a sair, reiniciar e
   desligar o sistema.</p>

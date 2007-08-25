@@ -1,17 +1,20 @@
 <ul>
 	<li><a href="/projects#core">Componentes Base</a>
+	<li><a href="/projects#applications">Aplicações</a>
 		<ul>
-		    <li><a href="/projects/xfdesktop">Gestor de Desktop</a></li>
-		    <li><a href="/projects/xfce4-panel">Painel</a></li>
-		    <li><a href="/projects/xfprint">Assistente de Impressão</a></li>
-		    <li><a href="/projects/xfce4-session">Gestor de Sessão</a></li>
-		    <li><a href="/projects/xfce-mcs-manager">Gestor de Definições</a></li>
-		    <li><a href="/projects/xfce-utils">Utilitários e Scripts</a></li>
-		    <li><a href="/projects/xfwm4">Gestor de Janela</a></li>
-		    <li><a href="/projects/libraries">Xfce Libraries</a></li>
-		</ul>
+          <li><a href="/projects/xfce4-appfinder">Application Finder</a></li>
+          <li><a href="/projects/xarchiver">Gestor de Pacotes</a></li>
+		    <li><a href="/projects/installit">InstallIt</a></li>
+		    <li><a href="/projects/mousepad">Mousepad</a></li>
+		    <li><a href="/projects/orage">Orage</a></li>
+		    <li><a href="/projects/terminal">Terminal</a></li>
+		    <li><a href="/projects/thunar">Gestor de Ficheiros Thunar</a></li>
+		    <li><a href="/projects/xfce4-mixer">Controle de Volume</a></li>
+		    <li><a href="/projects/xfburn">Xfburn</a></li>
+		    <li><a href="/projects/xfce4-dev-tools">Ferramentas de Desenvolvimento Xfce</a></li>
+		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
+			</ul>
 	</li>
-	<li><a href="/projects#applications">Aplicações</a></li>
 	<li><a href="/projects#framework">Framework</a></li>
-	<li><a href="/projects#art">Arte e Grafismo</a></li>
+	<li><a href="/projects#art">Arte e Gráficos</a></li>
 </ul>

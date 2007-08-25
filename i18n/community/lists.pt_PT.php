@@ -20,7 +20,7 @@
     </tr>
     <tr>
         <td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
-        <td>Para cordenar a tradução do Xfce em outros idiomas.</td>
+        <td>Para coordenar a tradução do Xfce em outros idiomas.</td>
     </tr>
     <tr>
         <td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce4-dev/">xfce4-dev</a></td>

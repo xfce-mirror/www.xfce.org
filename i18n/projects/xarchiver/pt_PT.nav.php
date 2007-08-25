@@ -16,5 +16,5 @@
 		</ul>
 	</li>
 	<li><a href="/projects#framework">Framework</a></li>
-	<li><a href="/projects#art">Arte e Grafismo</a></li>
+	<li><a href="/projects#art">Arte e Gráficos</a></li>
 </ul>

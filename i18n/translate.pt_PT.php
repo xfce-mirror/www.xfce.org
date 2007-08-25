@@ -8,7 +8,7 @@ necessariamente não falam a língua inglesa.</p>
 Para obter esta disponibilidade, nós necessitamos da sua ajuda para nos auxiliar
 no processo de tradução das diferentes páginas web dentro dos novos idiomas.</p>
 
-<p>O <a href="http://i18n.xfce.org/" title="i18n">sub-projeto i18n</a> do Xfce
+<p>O <a href="http://i18n.xfce.org/" title="i18n">sub-projecto i18n</a> do Xfce
 é o local correcto para ajudar com as traduções. O projecto i18n procura abranger 
 a traducão de todos os componentes - incluindo este website, programas e a 
 documentação do Xfce.</p>

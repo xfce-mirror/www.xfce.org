@@ -37,7 +37,7 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce-mcs-manager/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-mcs-manager/trunk xfce-mcs-manager</code></p>
 
-<h2>Autors</h2>
+<h2>Autores</h2>
 <ul>
   <li>Olivier Fourdan [fourdan at xfce.org]</li>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>

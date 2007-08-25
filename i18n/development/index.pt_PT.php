@@ -1,6 +1,6 @@
 <h1>Desenvolvimento</h1>
 <p>Se procura uma maneira de contribuir para o Xfce,
-por favor, considere a adesão à <a href="../community/lists">listas de e-mail</a> e <a href="http://forum.xfce.org">fórum</a> a respeito de um destes itens.</p>
+por favor, considere a adesão às <a href="../community/lists">listas de e-mail</a> e ao<a href="http://forum.xfce.org">fórum</a> a respeito de um destes itens.</p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 <tr>
@@ -23,7 +23,7 @@ por favor, considere a adesão à <a href="../community/lists">listas de e-mail<
         </td>
         <td width="33%" valign="top">
             <h3><a href="/about/artwork">Trabalho de Arte</a></h3>
-            <p>Deseja criar a sua prórpia aparência do Xfce? Pode, seguindo o nosso exemplo passo-a-passo <a href="http://wiki.xfce.org/howto">Como Fazer</a>. Ou pode apenas verificar no <a href="http://www.xfce-look.org/">xfce-look</a> para ver como outras pessoas personalizaram o Xfce.</p>
+            <p>Deseja criar a sua própria aparência do Xfce? Pode, seguindo o nosso exemplo passo-a-passo <a href="http://wiki.xfce.org/howto">Como Fazer</a>. Ou pode apenas verificar no <a href="http://www.xfce-look.org/">xfce-look</a> para ver como outras pessoas personalizaram o Xfce.</p>
         </td>
     </tr>
     <tr>

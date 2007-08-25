@@ -13,9 +13,9 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfcalendar/trunk orage</code></p>
 
-<h2>Autors</h2>
+<h2>Autores</h2>
 <ul>
-  <li>Project creator &amp; former maintainer: Mickael Graf [korbinus xfce.org]</li>
-  <li>Maintainer: Juha Kautto [juha at xfce.org]</li>
+  <li>Criador de Projecto &amp; mantenedor anterior: Mickael Graf [korbinus xfce.org]</li>
+  <li>Mantenedor: Juha Kautto [juha at xfce.org]</li>
 </ul>
 

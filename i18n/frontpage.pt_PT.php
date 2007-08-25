@@ -32,7 +32,7 @@
     <div id="front-projects">
         <div id="front-borders">
             <div id="front-projects-content">
-                <h2>Projetos do Xfce</h2>
+                <h2>Projectos do Xfce</h2>
                 <ul>
                     <li>
                         <a href="/projects/thunar/">Thunar</a>

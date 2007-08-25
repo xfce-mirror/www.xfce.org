@@ -71,8 +71,8 @@ aparecer na área de trabalho e no painel lateral do <b>Thunar</b>.
 <p align="justify">
 Clique num ícone para montar o volume automaticamente. Um clique direito no ícone desmonta o volume ou ejecta
 o disco da drive. De qualquer maneira, note que esta função requer o<a
-href="http://freedesktop.org/wiki/Software_2fhal">HAL</a> e está disponível apenas para o Linux 2.6.x
-e FreeBSD 6.x e posteriores quando este documento foi escrito (Há suporte limitado dispositivos amovíveis no FreeBSD
+href="http://freedesktop.org/wiki/Software_2fhal"> HAL</a> e está disponível apenas para o Linux 2.6.x
+e FreeBSD 6.x e posteriores quando este documento foi escrito (Há suporte limitado a dispositivos amovíveis no FreeBSD
 4.x e 5.x que não necessita do HAL).
 </p>
 
@@ -143,7 +143,7 @@ de Painéis</b> exibido na captura de ecrã abaixo.
 <p align="justify">
 
 Um dos maiores problemas nas versões anteriores do Xfce era que todos os plugins tinham que correr
-no mesmo processo que o painel, e assim qualquer plugin podia travar todo o
+no mesmo processo que o painel, e assim qualquer plugin podia bloquear todo o
 painel. Para solucionar este problema, o suporte a plugins externos foi adicionado ao painel.
 </p>
 
@@ -191,14 +191,14 @@ e por isso é compatível com outras aplicações de calendário.
 <h2>Emulador de Terminal<a name="terminal-emulator"></a></h2>
 
 <p align="justify">
-Mesmo que o <b>Terminal</b> já estava disponível durante a versão 4.2, ele não estava maduro o suficiente
+Mesmo estando o <b>Terminal</b> disponível desde a versão 4.2, ele não estava maduro o suficiente
 na época para ser parte do núcleo. Com esta nova versão, ele foi movido para o núcleo do desktop.
 </p>
 
 <p align="center"><img src="/images/about/tour/xfce44-terminal.png" alt="Terminal" /></p>
 
 <p align="justify">
-Além das funcionalidades básicas que você espera de um emulador de terminal, ele inclui algumas boas
+Além das funcionalidades básicas que espera de um emulador de terminal, ele inclui algumas boas
 funções adicionais, como múltiplos separadores por janela, barras de ferramentas personalizáveis e a habilidade
 de configurar quase qualquer aspecto da aplicação via <i>opções ocultas</i>. Como pode
 ver na captura de ecrã acima, esta versão também suporta transparência real usando o

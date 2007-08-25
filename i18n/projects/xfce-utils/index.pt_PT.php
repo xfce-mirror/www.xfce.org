@@ -18,7 +18,7 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce-utils/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-utils/trunk xfce-utils</code></p>
 
-<h2>Autors</h2>
+<h2>Autores</h2>
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
   <li>Olivier Fourdan [fourdan at xfce.org]</li>
