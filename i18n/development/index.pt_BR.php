@@ -23,7 +23,7 @@ por favor, considere a adesão à <a href="../community/lists">listas de e-mail<
         </td>
         <td width="33%" valign="top">
             <h3><a href="/about/artwork">Trabalho de Arte</a></h3>
-            <p>Deseja criar a sua prórpia aparência do Xfce? Você pode, seguindo nosso exemplo passo-a-passo <a href="http://wiki.xfce.org/howto">Como Fazer</a>. Ou você pode apenas dar uma olhada no <a href="http://www.xfce-look.org/">xfce-look</a> para ver como outras pessoas personalizaram o Xfce.</p>
+            <p>Deseja criar a sua própria aparência do Xfce? Você pode, seguindo nosso exemplo passo-a-passo <a href="http://wiki.xfce.org/howto">Como Fazer</a>. Ou você pode apenas dar uma olhada no <a href="http://www.xfce-look.org/">xfce-look</a> para ver como outras pessoas personalizaram o Xfce.</p>
         </td>
     </tr>
     <tr>
