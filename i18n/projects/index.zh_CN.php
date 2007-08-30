@@ -158,11 +158,11 @@
 			<p>Xarchiver是一个只有GTK+2前端的归档管理器，支持格式有：7z、zip、rar、tar、bzip2、gzip、arj以及rpm。</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce开发工具</a></h3>
-			<p>Xfce开发工具提供了一系列创建Xfce核心桌面组件所需的脚本和M4宏。</p>
+			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
+			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
 </table>
@@ -207,8 +207,13 @@
 			<h3><a href="http://dbh.sourceforge.net">基于磁盘的哈希表(Disk Based Hashtables)</a></h3>
 			<p>DBH是一个用来在POSIX系统上创建基于磁盘的哈希表的库。</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce开发工具</a></h3>
+			<p>Xfce开发工具提供了一系列创建Xfce核心桌面组件所需的脚本和M4宏。</p>
+		</td>
 	</tr>
 </table>
 

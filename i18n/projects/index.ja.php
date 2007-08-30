@@ -165,12 +165,11 @@
 			<p>Xarchiver はGTK+2を使った7z, zip, rar, tar, bzip2, gzip, arj, rpmのフロントエンドです。</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce 開発ツール</a></h3>
-			<p>Xfce開発ツールはスクリプトのコレクションとM4マクロを提供しています。Xfceのコアのデスクトップコンポーネントのビルドには
-			これにより提供されるものが必ず必要になります。</p>
+			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
+			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
 </table>
@@ -216,8 +215,14 @@
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
 			<p>DBHはPOSIXシステム上でDisk Based Hashtablesをつくるためのライブラリです。</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce 開発ツール</a></h3>
+			<p>Xfce開発ツールはスクリプトのコレクションとM4マクロを提供しています。Xfceのコアのデスクトップコンポーネントのビルドには
+			これにより提供されるものが必ず必要になります。</p>
+		</td>
 	</tr>
 </table>
 

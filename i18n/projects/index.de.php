@@ -173,12 +173,11 @@
 			tar, bzip2, gzip, arj and rpm.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce-Entwicklungswerkzeuge</a></h3>
-			<p>Diese stellen ein Paket von Scripts und M4-Macros zur Verfügung, welche es ermöglichen,
-			die Xfce Kernkomponenten ohne viel Aufwand selbst zu kompilieren.</p>
+			<h3><a href="/projects/ristretto">Bildbetrachter</a></h3>
+			<p>Ristretto ist ein leichter Bildbetrachter.</p>
 		</td>
 	</tr>
 </table>
@@ -227,8 +226,14 @@
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
 			<p>DBH ist eine Bibliothek um "Disk Based Hashtables" auf POSIX Systemen zu erstellen.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce-Entwicklungswerkzeuge</a></h3>
+			<p>Diese stellen ein Paket von Scripts und M4-Macros zur Verfügung, welche es ermöglichen,
+			die Xfce Kernkomponenten ohne viel Aufwand selbst zu kompilieren.</p>
+		</td>
 	</tr>
 </table>
 

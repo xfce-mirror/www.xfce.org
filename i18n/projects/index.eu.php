@@ -178,12 +178,11 @@ itzaltzea kontrolatzen du.</p>
 			<p>Xarchiver 7z, zip, rar, tar, bzip2, gzip, arj eta rpm paketeak kudeatzeko interfazea da.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Garapen Lanabesak</a></h3>
-			<p>Xfce garapen lanabesak Xfce idazmahai muin osagaiak sortzeko beharrezko diren M4 macro eta
-			script bilduma da..</p>
+			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
+			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
 </table>
@@ -231,8 +230,14 @@ itzaltzea kontrolatzen du.</p>
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
 			<p>DBH POSIX sistemetan Diskotan Oinarritutako Egiaztaketak sortzeko liburutegi bat da.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Garapen Lanabesak</a></h3>
+			<p>Xfce garapen lanabesak Xfce idazmahai muin osagaiak sortzeko beharrezko diren M4 macro eta
+			script bilduma da..</p>
+		</td>
 	</tr>
 </table>
 

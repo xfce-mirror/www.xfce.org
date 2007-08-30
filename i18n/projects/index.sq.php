@@ -177,12 +177,11 @@
 			<p>Xarchiver është një ndërfaqe, vetëm GTK+2, për mjetet 7z, zip, rar, tar, bzip2, gzip, arj dhe rpm.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Mjete Zhvillimi Xfce</a></h3>
-			<p>Mjetet për zhvilluesa Xfce ofrojnë një grumbull programthesh dhe makrosh M4 që lypsen
-			për formimin e përbërësve thelbësorë të desktopit Xfce.</p>
+			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
+			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
 </table>
@@ -230,8 +229,14 @@
 			<h3><a href="http://dbh.sourceforge.net">Tabela Hash me Bazë Disku</a></h3>
 			<p>DBH është një librari për krijim Tabela Hash me Bazë Disku në sisteme POSIX.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Mjete Zhvillimi Xfce</a></h3>
+			<p>Mjetet për zhvilluesa Xfce ofrojnë një grumbull programthesh dhe makrosh M4 që lypsen
+			për formimin e përbërësve thelbësorë të desktopit Xfce.</p>
+		</td>
 	</tr>
 </table>
 

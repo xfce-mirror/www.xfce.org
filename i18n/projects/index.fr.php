@@ -158,11 +158,11 @@
 			<p>Xarchiver est une interface graphique GTK+2 pour les applications de conmpression 7z, zip, rar, tar, bzip2, gzip, arj et rpm.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Outils de développement Xfce</a></h3>
-			<p>Les outils de développement Xfce fournissent une collection de scripts et macros M4 nécessaires à la compilation des éléments de base du bureau Xfce.</p>
+			<h3><a href="/projects/ristretto">Visualiseur d'Images</a></h3>
+			<p>Ristretto est un visualiseur d'images léger.</p>
 		</td>
 	</tr>
 </table>
@@ -207,8 +207,13 @@
 			<h3><a href="http://dbh.sourceforge.net">Tables de hachage sur disque</a></h3>
 			<p>DBH est une bibliothèque pour créer des "Disk Based Hashtables" sur des systèmes POSIX.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Outils de développement Xfce</a></h3>
+			<p>Les outils de développement Xfce fournissent une collection de scripts et macros M4 nécessaires à la compilation des éléments de base du bureau Xfce.</p>
+		</td>
 	</tr>
 </table>
 
