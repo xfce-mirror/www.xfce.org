@@ -5,7 +5,7 @@
 <p>Muitas distribuições usam o Xfce. Mas se quiser uma versão nova ou quiser construir o Xfce de raíz, pode encontrar aqui os pacotes. Também pode visitar as distribuições orientadas ao Xfce<a href="/download/distros"> aqui</a>.</p>
 
 <h2 id="source">Código fonte</h2>
-<p>Todos os módulos Xfce estão disponíveis num único tarball no nosso repositório SourceForge, e em vários mirrors (num único tarball <em>ou</em> tarballs separados):</p>
+<p>Todos os módulos Xfce estão disponíveis num único arquivo no nosso repositório SourceForge, e em vários mirrors (num único arquivo <em>ou</em> arquivos separados):</p>
 <?php printServers("", $servers); ?>
 
 

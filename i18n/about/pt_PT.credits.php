@@ -2,8 +2,8 @@
 $credits['core-developers-i18n'] = array (
     'benny' => 'Gestor de Ficheiros (thunar), Emulador de Terminal (xfterm4), Gestor de Sessão (xfce4-session), libexo',
     'kelnos' => 'Gestor de Desktop (xfdesktop), Reprodutor Multimédia (xfmedia)',
-    'dannym' => 'Controle de Volume (xfce4-mixer)',
-    'eduard' => 'Buscador de Aplicações (xfce4-appfinder)',
+    'dannym' => 'Controlo de Volume (xfce4-mixer)',
+    'eduard' => 'Localizador de Aplicações (xfce4-appfinder)',
     'erikharrison ' => 'Editor de Texto (mousepad)',
     'fleclainche' => 'Imagens e Webmaster',
     'colossus' => 'Gestor de Compressão de Ficheiros (xarchiver)',

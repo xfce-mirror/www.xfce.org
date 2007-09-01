@@ -1,6 +1,6 @@
 <h1>Desenvolvimento</h1>
 <p>Se procura uma maneira de contribuir para o Xfce,
-por favor, considere a adesão às <a href="../community/lists">listas de e-mail</a> e ao<a href="http://forum.xfce.org">fórum</a> a respeito de um destes itens.</p>
+por favor, considere a adesão às <a href="../community/lists">listas de e-mail</a> e ao <a href="http://forum.xfce.org">fórum</a> a respeito de um destes itens.</p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 <tr>
@@ -39,7 +39,7 @@ por favor, considere a adesão às <a href="../community/lists">listas de e-mail
         </td>
         <td width="33%" valign="top">
             <h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">Desenvolvimento</a></h3>
-            <p>Sinta-se livre para juntar-se a nós, desenvolvendo a próxima grande versão do Xfce, ou corrigir erros em versões existentes.</p>
+            <p>Sinta-se à vontade para juntar-se à equipa, desenvolvendo a próxima grande versão do Xfce, ou corrigir erros em versões existentes.</p>
         </td>
         <td width="48" valign="top">
             <img src="/images/development/docs.png" alt="docs" width="48" height="48" />

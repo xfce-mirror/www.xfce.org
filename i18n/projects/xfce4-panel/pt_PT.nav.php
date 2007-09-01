@@ -8,7 +8,7 @@
 		    <li><a href="/projects/xfce-mcs-manager">Gestor de Definições</a></li>
 		    <li><a href="/projects/xfce-utils">Utilitários e Scripts</a></li>
 		    <li><a href="/projects/xfwm4">Gestor de Janela</a></li>
-		    <li><a href="/projects/libraries">Xfce Libraries</a></li>
+		    <li><a href="/projects/libraries">Bibliotecas Xfce</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">Aplicações</a></li>

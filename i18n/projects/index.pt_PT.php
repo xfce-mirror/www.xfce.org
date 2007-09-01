@@ -53,8 +53,8 @@
 		</td>
 		<td width="33%" valign="top">
 		<h3><a href="/projects/xfce-mcs-manager/">Gestor de Definições</a></h3>
-			<p>Este é o sistema de configuração do Xfce e corre em segundo plano e oferece
-				definições globais para outros componentes do Xfce</p>
+			<p>Este é o sistema de configuração do Xfce que corre em segundo plano e oferece
+				definições globais para outros componentes do Xfce.</p>
 		</td>
 	</tr>
 	<tr>
@@ -62,15 +62,15 @@
 			<img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce-utils/">Utilidades e Scripts </a></h3>
-		<p>Utilidades e scripts essenciais. Oferece um diálogo &quot;acerca&quot;, um diálogo de execução e diversos importantes
+			<h3><a href="/projects/xfce-utils/">Utilitários e Scripts </a></h3>
+		<p>Utilitários e scripts essenciais. Oferece um diálogo &quot;acerca&quot;, um diálogo de execução e diversos importantes
 		  scripts que são usados por outros pacotes.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
+			<h3><a href="/projects/libraries/">Bibliotecas Xfce</a></h3>
 			<p>As três bibliotecas base do Xfce (libxfcegui4, libxfce4mcs e libxfce4utils)
 			são usadas pela maioria das aplicações Xfce. </p>
 		</td>
@@ -165,7 +165,7 @@
 			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 			<p>Xfmedia é um simples leitor de multimédia, fácil de usar basedo no motor xine.
 			A GUI GTK+ foca na leitura e gestão de ficheiros áudio, mas, apesar de baseado
-			no xine, suporta vídeo também.</p>
+			no xine,  também suporta vídeo.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
@@ -178,8 +178,8 @@
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
-			<p>Ristretto is a lightweight image viewer.</p>
+			<h3><a href="/projects/ristretto"> Visualizador de Imagem</a></h3>
+			<p>Ristretto é um visualizador de imagem leve.</p>
 		</td>
 	</tr>
 </table>
@@ -226,12 +226,11 @@
 			<p>DBH é uma biblioteca para criar Disk Based Hashtables em sistemas POSIX.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/xfce4-dev-tools.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
-			<p>As ferramentas de desenvolvimento Xfce oferecem uma colecção de scripts e macros M4 que
-			são requeridas para construir a base dos componentes do desktop Xfce.</p>
+			<h3><a href="/projects/xfce4-dev-tools">Xfce Development Tools</a></h3>
+			<p>As ferramentas de desenvolvimento Xfce oferecem uma colecção de scripts e macros M4 que são requeridas para construir a base dos componentes do desktop Xfce.</p>
 		</td>
 	</tr>
 </table>

@@ -8,10 +8,10 @@
 		    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminal</a></li>
-		    <li><a href="/projects/thunar">Thunar Filemanager</a></li>
-		    <li><a href="/projects/xfce4-mixer">Volume Control</a></li>
+		    <li><a href="/projects/thunar">Gestor de Ficheiros Thunar</a></li>
+		    <li><a href="/projects/xfce4-mixer">Controlo de Volume</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
-		    <li><a href="/projects/xfce4-dev-tools">Xfce Development Tools</a></li>
+		    <li><a href="/projects/xfce4-dev-tools">Ferramentas de Desenvolvimento Xfce</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
 		</ul>
 	</li>

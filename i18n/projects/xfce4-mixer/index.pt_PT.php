@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" /></div>
 
-<h1>Volume Control</h1>
+<h1>Controlo de Volume</h1>
 <p>Este é o xfce4-mixer, uma aplicação de controlo de volume para o Ambiente de Desktop Xfce. Este pacote de software contém 
    um plugin para controlo de volume para o Xfce Panel e uma aplicação mixer standalone.</p>
 

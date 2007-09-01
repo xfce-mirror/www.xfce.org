@@ -6,10 +6,10 @@
 			<li><a href="/download/#binaries">Binários</a></li>
 		</ul>
 	</li>
-	<li><a href="/download/development">Versão Desenvolvimento</a>
+	<li><a href="/download/development">Versão em Desenvolvimento</a>
 		<ul>
 			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Explorar SVN</a></li>
-			<li><a href="http://www.foo-projects.org/~elangelo/xfce-snapshots/" target="_blank" class="external">Snapshots Diários</a></li>
+			<li><a href="http://www.foo-projects.org/~elangelo/xfce-snapshots/" target="_blank" class="external">Imagens Diárias</a></li>
 		</ul>
 	</li>
 	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugins</a></li>

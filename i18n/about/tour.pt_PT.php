@@ -124,7 +124,7 @@ imagens <tt>PNG</tt>, <tt>GIF</tt> e <tt>SVG</tt>.
 <p align="center"><img src="/images/about/tour/xfce44-xfwm4-tweaks.png" alt="Xfwm4 Tweaks" /></p>
 
 <p align="justify">
-Controles avançados para o gestor de janelas também foi adicionado, permitindo ajustes completos
+Controlos avançados para o gestor de janelas também foi adicionado, permitindo ajustes completos
 do comportamento das janelas.
 </p>
 

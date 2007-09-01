@@ -11,7 +11,7 @@ procura foi removida, renomeada ou encontra-se temporariamente indisponível.</p
 	<li>Abra a <a href="/">página principal do Xfce</a> e encontre os links para as informações que deseja.</li>
 	<li>Utilize a barra de navegação localizada à direita para encontrar o link que procura.</li>
 	<li>Clique no botão voltar do navegador para tentar encontrar outro link.</li>
-	<li>Digite um termo no formulário de busca abaixo para procurar por informações no website do Xfce.</li>
+	<li>Digite um termo no formulário de busca acima para procurar por informações no website do Xfce.</li>
 </ul>
 
 <p>Caso seja necessário, também poderá recorrer ao <a href="mailto:webmaster@xfce.org">webmaster</a>
