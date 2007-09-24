@@ -156,7 +156,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3>Terminal Xfce4</h3>
-			<p>Terminali i Xfce4-s është një emulues terminali për Xfce4-n, basuar në vte libs.</p>
+			<!-- fuzzy <p>Terminali i Xfce4-s është një emulues terminali për Xfce4-n, basuar në vte libs.</p> -->
+			<p>A lightweight terminal emulator for Xfce 4.</p>
 		</td>
 	</tr>
 	<tr>

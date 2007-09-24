@@ -155,8 +155,9 @@ itzaltzea kontrolatzen du.</p>
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>Xfce4 Terminala</h3>
-			<p>Xfce4-terminal xfce4-aren terminal emuladorea da, vte liburutegietan oinarritua.</p>
+			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a>a</h3>
+			<!-- fuzzy <p>Xfce4-terminal xfce4-aren terminal emuladorea da, vte liburutegietan oinarritua.</p> -->
+			<p>A lightweight terminal emulator for Xfce 4.</p>
 		</td>
 	</tr>
 	<tr>

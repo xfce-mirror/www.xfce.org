@@ -138,8 +138,8 @@
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>Xfce4 Terminal</h3>
-			<p>Xfce4-terminal est un émulateur de terminal pour Xfce 4 basé sur les bibliothèques vte.</p>
+			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
+			<p>Un émulateur de terminal léger pour Xfce 4.</p>
 		</td>
 	</tr>
 	<tr>

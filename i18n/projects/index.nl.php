@@ -154,8 +154,9 @@
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>Xfce4 Terminal</h3>
-			<p>Xfce4-terminal is een terminal emulator voor xfce4, gebaseerd op de vte bibliotheken</p>
+			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
+			<!-- fuzzy <p>Xfce4-terminal is een terminal emulator voor xfce4, gebaseerd op de vte bibliotheken</p> -->
+			<p>A lightweight terminal emulator for Xfce 4.</p>
 		</td>
 	</tr>
 	<tr>

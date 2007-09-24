@@ -154,6 +154,15 @@
 			ALSA, OSS und Sun Audio unterstützt.</p>
 		</td>
 		<td width="48" valign="top">
+			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
+		</td>
+		<td width="33%" valign="top">
+			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
+			<p>Ein leichter Terminalemulator für Xfce 4.</p>
+		</td>
+	</tr>
+	<tr>
+		<td width="48" valign="top">
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
@@ -162,8 +171,6 @@
 			Xine-Architektur basiert. Die GTK+ Oberfläche ist zum abspielen und verwalten von
 			Audiodateien ausgelegt, kann aber auch Videodateien wiedergeben.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
