@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="/projects#core">Éléments de base</a>
+	<li><a href="/projects#core">Principaux Composants</a>
 		<ul>
 		    <li><a href="/projects/xfdesktop">Gestionnaire de bureau</a></li>
 		    <li><a href="/projects/xfce4-panel">Panneau</a></li>
@@ -12,6 +12,6 @@
 		</ul>
 	</li>
 	<li><a href="/projects#applications">Applications</a></li>
-	<li><a href="/projects#framework">Structure</a></li>
-	<li><a href="/projects#art">Art et graphiques</a></li>
+	<li><a href="/projects#framework">Framework</a></li>
+	<li><a href="/projects#art">Art et Graphiques</a></li>
 </ul>

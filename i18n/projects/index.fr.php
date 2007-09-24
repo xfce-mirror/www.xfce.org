@@ -4,7 +4,7 @@
 <h1>Projets</h1>
 <p>Le projet Xfce est divisé en plusieurs parties qui forment le bureau d'environnement une fois rassemblés. Chaque projet a sa propre page pour donner plus d'informations.</p>
 
-<h2 id="core">Composants</h2>
+<h2 id="core">Principaux Composants</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
 	<tr>
 		<td width="48" valign="top">
@@ -217,7 +217,7 @@
 	</tr>
 </table>
 
-<h2 id="art">Art et graphiques</h2>
+<h2 id="art">Art et Graphiques</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">

@@ -12,6 +12,7 @@
 		    <li><a href="/projects/xfce4-mixer">Volume Control</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
 		    <li><a href="/projects/xfce4-dev-tools">Xfce Development Tools</a></li>
+		    <li><a href="/projects/xfce4-terminal">Xfce4 Terminal</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
 		</ul>
 	</li>

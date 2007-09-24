@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" /></div>
 
 <h1>Xfce4 Terminal</h1>
-<p>Xfce4 Terminal is a lightweight terminal emulator for Xfce 4 </p>
+<p>Xfce4 Terminal is a lightweight terminal emulator for Xfce 4.</p>
 
 <h2>External Links</h2>
 <h3>Subversion</h3>
