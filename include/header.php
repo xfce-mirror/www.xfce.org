@@ -26,6 +26,7 @@ $headtitle;
  * This function creates the language bar, located
  * right under the header.
  **/
+/*
 function CreateLanguageBar ($languages, $lang)
 {
   $links = "";
@@ -41,6 +42,29 @@ function CreateLanguageBar ($languages, $lang)
       if ($i < count ($languages))
         $links .= ' | ';
     }
+
+  return $links;
+}
+*/
+
+function CreateLanguageBar ($languages, $lang)
+{
+  $links = '<form id="LanguageForm" action="" method="GET">';
+  $links .= '<select name="lang" onchange="document.LanguageForm.submit()">';
+
+  foreach($languages as $short => $long)
+    {
+      $links .= '<option value="'. $short .'"';
+
+      if ($short == $lang)
+        $links .= ' selected';
+
+      $links .= '>'. $long[0] .'</option>';
+    }
+
+  $links .= '</select>';
+  $links .= '<input type="submit" class="hidden" value="&gt;" />';
+  $links .= '</form>';
 
   return $links;
 }
