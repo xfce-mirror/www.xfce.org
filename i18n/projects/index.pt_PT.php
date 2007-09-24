@@ -178,7 +178,7 @@
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto"> Visualizador de Imagem</a></h3>
+			<h3><a href="http://goodies.xfce.org/projects/applications/ristretto"> Visualizador de Imagem</a></h3>
 			<p>Ristretto é um visualizador de imagem leve.</p>
 		</td>
 	</tr>

@@ -180,7 +180,7 @@
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
+			<h3><a href="http://goodies.xfce.org/projects/applications/ristretto">Image Viewer</a></h3>
 			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
