@@ -1,18 +1,6 @@
 <h1>Xfce Orientated Distributions</h1>
 <p>Here is a list of distributions using Xfce as their native desktop.</p>
 
-<h2>PureOSlight</h2>
-<table border="0" cellspacing="10" cellpadding="0">
-	<tr>
-		<td><a href="http://pureos.org/" target="_blank" title="Visit the PureOSlight website"><img src="/images/download/distros/pureoslight.png" alt="Sam Linux" border="0"/></a></td>
-		<td>PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking users. It's built with Linux-live scripts from Tomas Matejicek (Slax).</td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td><a href="http://www.pureos.org/" target="_blank" title="Visit the PureOSlight website">Website</a></a></td>
-	</tr>
-</table>
-
 <h2>SAM Linux Desktop</h2>
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
@@ -103,5 +91,30 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://www.kwort.org/" target="_blank" title="Visit the Kwort Linux website">Website</a> | <a href="http://distrowatch.com/kwort" target="_blank" title="Visit the Kwort Linux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<h2>PureOSlight</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://pureos.org/" target="_blank" title="Visit the PureOSlight website"><img src="/images/download/distros/pureoslight.png" alt="PureOSlight" border="0"/></a></td>
+		<td>PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking users. It's built with Linux-live scripts from Tomas Matejicek (Slax).</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.pureos.org/" target="_blank" title="Visit the PureOSlight website">Website</a></a></td>
+	</tr>
+</table>
+
+<h2>FreeSBIE</h2>
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td><a href="http://www.freesbie.org/" target="_blank" title="Visit the FreeSBIE website"><img src="/images/download/distros/freesbie.png" alt="FreeSBIE" border="0"/></a>
+		</td>
+		<td>FreeSBIE is a LiveCD based on the FreeBSD Operating system.</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.freesbie.org/" target="_blank" title="Visit the FreeSBIE website">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visit the FreeSBIE page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
