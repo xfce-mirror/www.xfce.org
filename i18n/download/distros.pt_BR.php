@@ -82,15 +82,15 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://pureos.org/" target="_blank" title="Visit the PureOSlight website"><img src="/images/download/distros/pureoslight.png" alt="PureOSlight" border="0"/></a></td>
+		<td valign="top"><a href="http://pureos.org/" target="_blank" title="Visite o website do PureOSlight"><img src="/images/download/distros/pureoslight.png" alt="PureOSlight" border="0"/></a></td>
 		<td>
 			<h2>PureOSlight</h2>
-			<p>PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking users. It's built with Linux-live scripts from Tomas Matejicek (Slax).</p>
+			<p>PureOSlight é um LiveCD baseado no Debian (testing) para usuários que falam francês. Ele é construído com scripts Linux-live de Tomas Matejicek (Slax).</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.pureos.org/" target="_blank" title="Visit the PureOSlight website">Website</a></a></td>
+		<td><a href="http://www.pureos.org/" target="_blank" title="Visite o website do PureOSlight">Website</a></a></td>
 	</tr>
 </table>
 
@@ -167,12 +167,12 @@
 		</td>
 		<td>
 			<h2>FreeSBIE</h2>
-			<p>FreeSBIE is a LiveCD based on the FreeBSD Operating system.</p>
+			<p>FreeSBIE é um LiveCD que é baseado no sistema operacional FreeBSD.</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.freesbie.org/" target="_blank" title="Visit the FreeSBIE website">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visit the FreeSBIE page at DistroWatch">DistroWatch</a></td>
+		<td><a href="http://www.freesbie.org/" target="_blank" title="Visite o website do FreeSBIE">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visite a página do FreeSBIE em DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
