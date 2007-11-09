@@ -17,7 +17,7 @@
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code></p>
 <div class="tip">Um ihre lokale Kopie (checkout) mit dem jeweiligen Entwicklungszweig auf dem Server abzugleichen, können Sie <code>svn update</code> anstelle von <code>svn checkout</code> verwenden. Das beschleunigt den Vorgang und entlastet den Xfce-Server.</div>
 <h3>Tagesaktuelle Schnappschüsse der Entwicklung</h3>
-<p>Wenn Sie nicht vorhaben, die Entwicklerversion von Xfce regelmäßig zu testen, bzw. keine Erfahrung mit dem Kompilieren aus SVN-Quellen haben, dann können Sie tägliche `Schnappschüsse´ der Entwicklerarbeit <a href="http://foo-projects.org/~pollux/xfce-snapshots/" target="_blank">hier</a> herunterladen.</p>
+<p>Wenn Sie nicht vorhaben, die Entwicklerversion von Xfce regelmäßig zu testen, bzw. keine Erfahrung mit dem Kompilieren aus SVN-Quellen haben, dann können Sie tägliche `Schnappschüsse´ der Entwicklerarbeit <a href="http://mocha.xfce.org/downloads/svn-snapshots/">hier</a> herunterladen.</p>
 <h2>Kompilieren der Module</h2>
 <p>Wenn Sie die Tar-Archive heruntergeladen haben, müssen Sie sie zunächst entpacken.</p>
 <p>Wenn Sie mit einem anderen `prefix´ für pkg-config installieren, müssen Sie für die Variable PKG_CONFIG_PATH den Pfad zu den *.pc-Dateien angeben, die von den Xfce4-Bibliotheken installiert werden, also ${prefix}/lib/pkgconfig. Zum Beispiel:</p>
