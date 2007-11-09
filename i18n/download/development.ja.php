@@ -20,7 +20,7 @@
 これをすることによりプロセスの速度が上がり、Xfceサーバの転送が最大化します。</div>
 <h3>毎日更新される開発スナップショット</h3>
 <p>定期的にXfceの開発版をテストしたくないか、SVNからのソースビルドの経験がないのなら、
-毎日更新される開発スナップショットを<a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">ここ</a>からダウンロードできます。</p>
+毎日更新される開発スナップショットを<a href="http://mocha.xfce.org/downloads/svn-snapshots/">ここ</a>からダウンロードできます。</p>
 <h2>モジュールをビルドする</h2>
 <p>Tarボールをダウンロードしたら、最初に解凍してください。</p>
 <p>pkg-configにあるprefixとは違った場所にインストールしたいのであれば、パスを含んだPKG_CONFIG変数をXfce 4ライブラリによりインストールされた *.pc ファイル(これは${prefix}/lib/pkgconfigのことです。)へ通す必要があります。たとえば：</p>

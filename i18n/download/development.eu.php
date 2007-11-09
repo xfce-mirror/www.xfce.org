@@ -32,7 +32,7 @@ eta Xfce zerbitzari transferentzia murriztuko du</div>
 <p>Ez baduzu Xfce garapen bertsioa base erregular batzuetan
 oinarriturik egin edo svn-ko iturburuarekin konpilazioetan
 esperientziarik ez baduzu eguneko garapen bertsio<a
-href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">hemen</a> deskargatu dezakezu..</p>
+href="http://mocha.xfce.org/downloads/svn-snapshots/">hemen</a> deskargatu dezakezu..</p>
 <h2>Moduluak eraikitzen</h2>
 <p>Pakete bat deskargatu baduzu irauli egin behar duzu aurrera jarraitu aurretik.</p>
 <p>Pkg-konfig ez den aurrizki bide batetan instalatu nahi izanez gero PKG_CONFIG_PATH  

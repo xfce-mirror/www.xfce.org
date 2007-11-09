@@ -45,7 +45,7 @@ otimizará o processo de transferência com o servidor do Xfce</div>
 ou você não possui experiência com a compilação de códigos através da utilização do SVN, então
 você pode efetuar o download de pacotes que são disponibilizados diariamente contendo
 a última atualização da versão em desenvolvimento. Os pacotes podem ser encontrados 
-<a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">aqui</a>.</p>
+<a href="http://mocha.xfce.org/downloads/svn-snapshots/">aqui</a>.</p>
 
 <h2>Construindo os módulos</h2>
 

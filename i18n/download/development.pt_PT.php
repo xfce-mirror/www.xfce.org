@@ -18,7 +18,7 @@ Por favor, note que instalar duas versões diferentes do Xfce (ie. estável e de
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code></p>
 <div class="tip">Para sincronizar a sua cópia local (checkout) da árvore de lançamento ou desenvolvimento com a do servidor pode correr <code>svn update</code> em vez de <code>svn checkout</code>. Isto irá acelerar o processo e minimizar a transferência do servidor Xfce</div>
 <h3>Imagens desenvolvidas diariamente</h3>
-<p>Se não quiser testar a versão de desenvolvimento do Xfce ou não tem experiência em compilar a partir do SVN, pode fazer o download das imagens diárias de desenvolvimento  <a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">aqui</a>.</p>
+<p>Se não quiser testar a versão de desenvolvimento do Xfce ou não tem experiência em compilar a partir do SVN, pode fazer o download das imagens diárias de desenvolvimento  <a href="http://mocha.xfce.org/downloads/svn-snapshots/">aqui</a>.</p>
 <h2>Construir os módulos</h2>
 <p>Se fez o download dos arquivos, precisa de descompactar antes de continuar.</p>
 <p>Se instalar com um prefix diferente do pkg-config, tem de mudar a variável PKG_CONFIG_PATH para incluir o caminho para os ficheiros *.pc instalados pelas bibliotecas Xfce 4, que é ${prefix}/lib/pkgconfig.  Por exemplo:</p>

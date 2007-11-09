@@ -17,7 +17,7 @@
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code></p>
 <div class="tip">为了将您的发布或者开发目录的本地副本(checkout)与服务器上的副本同步，您可以运行<code>svn update</code>而不是<code>svn checkout</code>。这样将会加速进程并使Xfce服务器的传输大小最小。</div>
 <h3>每日开发快照</h3>
-<p>如果您不想要定期测试Xfce的开发版本，或者您对从SVN编译源代码没有经验，您可以<a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">在此</a>下载每日开发快照。</p>
+<p>如果您不想要定期测试Xfce的开发版本，或者您对从SVN编译源代码没有经验，您可以<a href="http://mocha.xfce.org/downloads/svn-snapshots/">在此</a>下载每日开发快照。</p>
 <h2>编译模块</h2>
 <p>如果您下载了源代码tarballs包，在继续之前，您需要先解压缩它们。</p>
 <p>如果您将其安装进一个与pkg-config不同的prefix，您得设定PKG_CONFIG_PATH变量以包含由Xfce 4库所安装的*.pc文件的路径，路径是${prefix}/lib/pkgconfig。例如：</p>

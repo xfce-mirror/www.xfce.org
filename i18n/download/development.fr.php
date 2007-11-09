@@ -17,7 +17,7 @@
 <p><code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $nomdumodule</code></p>
 <div class="tip">Pour synchroniser votre copie locale (checkout) de l'arbre de développement avec celui du serveur, vous pouvez utiliser la commande <code>svn update</code> à la place de la commande <code>svn checkout</code>. Ceci rendra l'opération plus rapide et diminuera les transferts avec le serveur Xfce</div>
 <h3>Images journalières du développement</h3>
-<p>Si vous ne voulez pas tester la version de développement de Xfce tous les jours ou si vous ne savez pas trop comment compiler depuis les sources SVN, vous pouvez toujours télécharger des images journalières du développement <a href="http://foo-projects.org/~elangelo/xfce-snapshots/" target="_blank">ici</a>.</p>
+<p>Si vous ne voulez pas tester la version de développement de Xfce tous les jours ou si vous ne savez pas trop comment compiler depuis les sources SVN, vous pouvez toujours télécharger des images journalières du développement <a href="http://mocha.xfce.org/downloads/svn-snapshots/">ici</a>.</p>
 <h2>Compiler les modules</h2>
 <p>Si vous avez téléchargé les archives, vous devez les extraire d'abord.</p>
 <p>Si vous installez dans un prefix différent que celui de pkg-config, vous devez définir la variable PKG_CONFIG_PATH avec ${prefix}/lib/pkgconfig pour inclure le chemin jusqu'aux fichiers *.pc que les librairies Xfce 4 ont installé. Par exemple :</p>
