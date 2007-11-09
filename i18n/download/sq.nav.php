@@ -9,7 +9,7 @@
 	<li><a href="/download/development">Versione në zhvillim</a>
 		<ul>
 			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Shfletoni SVN-në</a></li>
-			<li><a href="http://www.foo-projects.org/~elangelo/xfce-snapshots/" target="_blank" class="external">Kampione të Përditshëm</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Kampione të Përditshëm</a></li>
 		</ul>
 	</li>
 	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Shtojca Paneli</a></li>

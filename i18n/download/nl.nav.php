@@ -9,7 +9,7 @@
 	<li><a href="/download/development">Ontwikkelings versie</a>
 		<ul>
 			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Bekijk SVN</a></li>
-			<li><a href="http://www.foo-projects.org/~elangelo/xfce-snapshots/" target="_blank" class="external">Dagelijkse snapshots</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Dagelijkse snapshots</a></li>
 		</ul>
 	</li>
 	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugins</a></li>

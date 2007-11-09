@@ -9,7 +9,7 @@
 	<li><a href="/download/development">Versão em desenvolvimento</a>
 		<ul>
 			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Navegar no SVN</a></li>
-			<li><a href="http://www.foo-projects.org/~elangelo/xfce-snapshots/" target="_blank" class="external">Pacotes de diário</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Pacotes de diário</a></li>
 		</ul>
 	</li>
 	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Plugins para o painel</a></li>
