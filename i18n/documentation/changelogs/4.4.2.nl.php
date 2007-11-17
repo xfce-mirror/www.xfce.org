@@ -134,18 +134,18 @@ function bug ($id){
     <li>Nieuwe vertalingen: Terje Uriansrud (nb_NO), RPrieditis (lv).</li>
 </ul>
 
-<h3>Text Editor <em>(mousepad)</em>:</h3>
+<h3>Textverwerker <em>(mousepad)</em>:</h3>
 <ul>
-    <li>Test for support of -Wall, -Werror and -errwarn=%all (<?php bug ('2921') ?>).</li>
-    <li>Remove trailing parens on AC_INIT version info to work around bug
-        in intltool 0.35.x and 0.36.x.</li>
-    <li>Updated translations: Maximilian Schleiss (fr), Szymon Kałasz (pl),
+    <li>Test voor ondersteuning van -Wall, -Werror en -errwarn=%all (<?php bug ('2921') ?>).</li>
+    <li>Haakjes van AC_INIT versie informatie verwijderd om rond een bug te
+        werken in intltool 0.35.x en 0.36.x.</li>
+    <li>Bijgewerkte vertalingen: Maximilian Schleiss (fr), Szymon Kałasz (pl),
         Pau Rul-lan Ferragut (ca), Stavros Giannouris (el), ByungHyun Choi (ko),
         Piarres Beobide (eu), Maxim Dziumanenko (uk), Stephan Arts (nl),
         Nico Schümann (de), Jeff Bailes (en_GB), Daichi Kawahata (ja),
         Fabio Riga (it), Dimitri Gogelia (ka), Pablo Vieira (pt_BR),
         Og Maciel (pt_BR).</li>
-    <li>New translations: Besnik Bleta (sq), Terje Uriansrud (nb_NO),
+    <li>Nieuwe vertalingen: Besnik Bleta (sq), Terje Uriansrud (nb_NO),
         Nuno Miguel (pt_PT), Tegegne Tefera (am), Manatsawin (th),
         RPrieditis (lv).</li>
 </ul>
@@ -198,7 +198,7 @@ function bug ($id){
     <li>Nieuwe vertalingen: Tegegne Tefera (am), RPrieditis (lv).</li>
 </ul>
 
-<h3>Calendar and Appointments <em>(xfcalendar)</em>:</h3>
+<h3>Calender and Afspraken <em>(xfcalendar)</em>:</h3>
 <ul>
     <li>Recurrence not recurring at the limit date. Missing fix: convert
         time back to UTC when reading. Caused day to be incremented for
@@ -218,10 +218,10 @@ function bug ($id){
 
 <h3>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h3>
 <ul>
-    <li>Don't include the iconrc file in gtkrc.</li>
+    <li>Voeg geen iconrc bestand toe aan gtkrc.</li>
 </ul>
 
-<h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
+<h3>Programma zoeker<em>(xfce4-appfinder)</em>:</h3>
 <ul>
     <li>Haakjes van AC_INIT versie informatie verwijderd om rond een bug te
         werken in intltool 0.35.x en 0.36.x.</li>
