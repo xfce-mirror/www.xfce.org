@@ -30,7 +30,7 @@ function bug ($id){
     <li>Free list returned by gtk_container_get_children().</li>
     <li>Remove trailing parens on AC_INIT version info to work around bug
         in intltool 0.35.x and 0.36.x.</li>
-    <li>Allocate a copy of passed cliend id, program name and working directory
+    <li>Allocate copy of passed cliend id, program name and working directory
         in session management, in case the application frees the data.</li>
     <li>Properly deal with %-starting 'field codes' in commands from .desktop files.</li>
     <li>Updated translations: Maximilian Schleiss (nl), Dimitri Gogelia (ka),
@@ -104,7 +104,7 @@ function bug ($id){
 
 <h3>Settings Manager <em>(xfce-mcs-manager)</em>:</h3>
 <ul>
-    <li>Remove the half-second signal-check timeout in favor of of a signal-check
+    <li>Remove the half-second signal-check timeout in favor of a signal-check
         pipe that's watched by the glib main loop. Helps reduce CPU wakeups that
         hurt laptop battery performance.</li>
     <li>Updated translations: Terje Uriansrud (nb_NO), European Portuguese (pt_PT),
@@ -170,7 +170,7 @@ function bug ($id){
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
 <ul>
-    <li>Put back a default DPI value as Xorg (<?php bug ('3164') ?>, <?php bug ('3158') ?>).</li>
+    <li>Put back a default DPI value for Xorg (<?php bug ('3164') ?>, <?php bug ('3158') ?>).</li>
     <li>Use gnome-screensaver if xscreensaver is not available (<?php bug ('3131') ?>).</li>
     <li>Fix typo on XDG_DATA_DIRS path definition (<?php bug ('2967') ?>).</li>
     <li>Updated credits in the about dialog.</li>
