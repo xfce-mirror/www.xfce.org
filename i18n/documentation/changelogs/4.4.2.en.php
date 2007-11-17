@@ -65,6 +65,16 @@ function bug ($id){
         descriptors (<?php bug ('3065') ?>).</li>
     <li>Always use button 0 in gtk_menu_popup() as GTK+ 2.11+ expects the
         same button to be pressed or it doesn't activate the entry (<?php bug ('3359') ?>).</li>
+    <li>Fix menu sometimes not popping up when using the keyboard shortcut,
+        again.  Timeout waiting for grab is now 0.25s (<?php bug('441') ?>).</li>
+    <li>Fix desktop settings only getting applied to the first screen in
+        non-Xinerama dualhead setups (<?php bug('3467') ?>).</li>
+    <li>Fix spurious drag when double-clicking a volume icon that fails to
+        mount (<?php bug('3426') ?>).
+    <li>Clean out stale entries in file icon position file
+        (<?php bug('3267') ?>).</li>
+    <li>Some minor memory leak fixes (some still remain, likely).</li>
+    <li>Fix --disable-menu-editor configure option.</li>
 </ul>
 
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
