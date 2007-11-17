@@ -32,7 +32,7 @@ function bug ($id){
         in intltool 0.35.x and 0.36.x.</li>
     <li>Allocate a copy of passed cliend id, program name and working directory
         in session management, in case the application frees the data.</li>
-    <li>Properly deal with %-starting 'field codes' in commands from .desktop files</li>
+    <li>Properly deal with %-starting 'field codes' in commands from .desktop files.</li>
     <li>Updated translations: Maximilian Schleiss (nl), Dimitri Gogelia (ka),
         Pablo Vieira and Jose Vitor Lopes e Silva (pt_BR).</li>
     <li>New translations: Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT),
@@ -42,20 +42,20 @@ function bug ($id){
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
     <li>Be more relax with transients, allow transients to be sticky independently
-        of their parent window (<?php bug ('3296') ?>)</li>
-    <li>Fix xfwm4 hanging with gtk+-2.11.x (<?php bug ('3346') ?>)</li>
-    <li>Plug a leak in mouse button grab when changing theme</li>
+        of their parent window (<?php bug ('3296') ?>).</li>
+    <li>Fix xfwm4 hanging with gtk+-2.11.x (<?php bug ('3346') ?>).</li>
+    <li>Plug a leak in mouse button grab when changing theme.</li>
     <li>Fix dialogs and modals without parents not being automatically
-        centered like before (<?php bug ('3278') ?>)</li>
-    <li>Fix modifier mask not working with all keymaps (<?php bug ('3194') ?>)</li>
+        centered like before (<?php bug ('3278') ?>).</li>
+    <li>Fix modifier mask not working with all keymaps (<?php bug ('3194') ?>).</li>
     <li>Fix wrong count of key shortcuts causing switch to last workspace
-        on modifier key press if no window is focused (<?php bug ('3191') ?>)</li>
-    <li>Fix spec file missing from the tar ball causing 'make dist' to fail</li>
+        on modifier key press if no window is focused (<?php bug ('3191') ?>).</li>
+    <li>Fix spec file missing from the tar ball causing 'make dist' to fail.</li>
     <li>Fix strict bound checking causing wrong window to be focused in focus
-        follow mouse (<?php bug ('2781') ?>)</li>
+        follow mouse (<?php bug ('2781') ?>).</li>
     <li>Transients for group shouldn't apply to other transients, or it breaks
         stacking for some apps, noticeably mozilla "save as" dialog...</li>
-    <li>Fix typo breaking compilation on systems without XShape 1.1 support</li>
+    <li>Fix typo breaking compilation on systems without XShape 1.1 support.</li>
 </ul>
 
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
@@ -70,8 +70,8 @@ function bug ($id){
     <li>Fix desktop settings only getting applied to the first screen in
         non-Xinerama dualhead setups (<?php bug('3467') ?>).</li>
     <li>Fix spurious drag when double-clicking a volume icon that fails to
-        mount (<?php bug('3426') ?>).
-    <li>Clean out stale entries in file icon position file
+        mount (<?php bug('3426') ?>).</li>
+    <li>Clean out stale entries in icon position file
         (<?php bug('3267') ?>).</li>
     <li>Some minor memory leak fixes (some still remain, likely).</li>
     <li>Fix --disable-menu-editor configure option.</li>
@@ -170,8 +170,8 @@ function bug ($id){
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
 <ul>
-    <li>Put back a default DPI value as Xorg (<?php bug ('3164') ?>, <?php bug ('3158') ?>)</li>
-    <li>Use gnome-screensaver if xscreensaver is not available (<?php bug ('3131') ?>)</li>
+    <li>Put back a default DPI value as Xorg (<?php bug ('3164') ?>, <?php bug ('3158') ?>).</li>
+    <li>Use gnome-screensaver if xscreensaver is not available (<?php bug ('3131') ?>).</li>
     <li>Fix typo on XDG_DATA_DIRS path definition (<?php bug ('2967') ?>).</li>
     <li>Updated credits in the about dialog.</li>
     <li>Updated translations: Fabio Riga (it), Nuno Miguel (pt_PT),
@@ -182,7 +182,7 @@ function bug ($id){
 
 <h3>Volume Control <em>(xfce4-mixer)</em>:</h3>
 <ul>
-    <li>Fix parallel build of xfce4-mixer (<?php bug ('2892') ?>)</li>
+    <li>Fix parallel build of xfce4-mixer (<?php bug ('2892') ?>).</li>
     <li>Updated translations: Stephan Arts (nl), Fabio Riga (it),
         Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT), Dimitri Gogelia (ka),
         Luiz Armesto (pt_BR).</li>
