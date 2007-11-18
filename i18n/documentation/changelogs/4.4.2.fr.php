@@ -48,8 +48,8 @@ function bug ($id){
       transitoires à être coller sur tous les bureaux indépendamments de leur
       fenêtre parent (<?php bug ('3296') ?>).</li>
     <li>Correction d'un blocage dû à gtk+-2.11.x (<?php bug ('3346') ?>).</li>
-    <li>Fixation d'une fuite dans la prise en compte d'un bouton de la souris
-      lors d'un changement de thème.</li>
+    <li>Fixation d'une fuite causée par la prise en compte d'un bouton de la
+      souris lors d'un changement de thème.</li>
     <li>Correction des dialogues et modales sans parents qui n'étaient plus
       centrés comme auparavent (<?php bug ('3278') ?>).</li>
     <li>Correction du masque de modification ne fonctionnant pas sur tous les
@@ -57,10 +57,10 @@ function bug ($id){
     <li>Correction d'un mauvais dénombrage des raccourcis clavier causant un
       saut vers le dernier espace de travail lors de l'appuie d'une touche de
       modification si aucune fenêtre n'a le focus (<?php bug ('3191') ?>).</li>
-    <li>Correction du fichier spec manquant à l'archive tarball causant un
+    <li>Ajout du fichier spec manquant à l'archive tarball causant un
       échec à « make dist ».</li>
     <li>Correction d'une vérification de bord strict causant un focus sur une
-      mauvaise fenêtre avec le mode « la focalisation sur la souris »
+      mauvaise fenêtre avec le mode « la focalisation suit la souris »
       (<?php bug ('2781') ?>).</li>
     <li>Le passage du mode transitoire sur un groupe ne doit pas affecter
       d'autres fenêtres transitoires, ou l'ordre de la pile risque d'être
@@ -81,13 +81,14 @@ function bug ($id){
     <li>Correction de l'appel du menu par raccourci clavier échouant parfois, à
       nouveau.  La temporisation est à présent de 0,25s (<?php bug('441') ?>).</li>
     <li>Correction des paramètres du bureau appliqués uniquement au premier
-      écran dans un mode dual-head sans Xinerama ((<?php bug('3467') ?>).</li>
+      écran dans un mode dual-head sans Xinerama (<?php bug('3467') ?>).</li>
     <li>Correction d'un mauvais « glisser/déposer » lors d'un double clique sur
       un volume qui ne se monte pas (<?php bug('3426') ?>).</li>
     <li>Nettoyage des entrées obsolètes dans le fichier des positions des
       icônes (<?php bug('3267') ?>).</li>
     <li>Corrections mineures de fuites (certaines sont encore présentes, très probablement).</li>
-    <li>Correction de l'option --disable-menu-editor du script configure.</li>
+    <li>Correction de l'option --disable-menu-editor dans le script
+      configure.</li>
 </ul>
 
 <h3>Panneaux <em>(xfce4-panel)</em>:</h3>
@@ -194,10 +195,10 @@ function bug ($id){
 
 <h3>Utilitaires et scripts <em>(xfce-utils)</em>:</h3>
 <ul>
-    <li>Ajout d'un DPI par défaut pour Xorg à nouveau (<?php bug ('3164') ?>,
-      <?php bug ('3158') ?>)</li>
+    <li>Ajout d'un DPI par défaut pour Xorg, à nouveau (<?php bug ('3164') ?>,
+      <?php bug ('3158') ?>).</li>
     <li>Utilise gnome-screensaver si xscreensaver n'est pas disponible (<?php
-      bug ('3131') ?>)</li>
+      bug ('3131') ?>).</li>
     <li>Correction d'une typo dans la définition des chemins XDG_DATA_DIRS
       (<?php bug ('2967') ?>).</li>
     <li>Mise à jour des crédits dans le dialogue « À propos ».</li>
