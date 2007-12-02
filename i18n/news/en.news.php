@@ -28,6 +28,22 @@ $news = array (
     ),
 */
     array (
+        'id'      => 13,
+        'date'    => '2 dec 2007',
+        'author'  => 'Brian Tarricone',
+        'title'   => 'Xfce 4.4.2 released',
+        'content' => 'Hi all,'.
+                     '[br][br]'.
+                     'Sorry for the delay, but Xfce 4.4.2 is now available.  It's the second maintenance release in the 4.4 stable series, focusing on fixing bugs and updating translations.'.
+                     '[br][br]'.
+                     'Downloads are available from the [link=/download/]Xfce website[/link].'.
+                     '[br][br]'.
+                     'An overview of changes is available [link=/documentation/changelogs/4.4.2]in the changelog[/link].'.
+                     '[br][br]'.
+                     'Enjoy,[br]'.
+                     'The Xfce development team',
+    ),
+    array (
         'id'      => 12,
         'date'    => '10 apr 2007',
         'author'  => 'Olivier Fourdan',

@@ -17,6 +17,8 @@ function bug ($id){
 
 <h3>Utilities Library <em>(libxfce4util)</em>:</h3>
 <ul>
+    <li>Fix applications sometimes starting on the wrong screen in multihead
+        setups (<?php bug('3667'); ?>).</li>
     <li>Fix possible buffer overflow (reported by Vegard Nosum on the ml).</li>
     <li>Remove trailing parens on AC_INIT version info to work around bug in intltool 0.35.x and 0.36.x.</li>
     <li>Updated translations: Maximilian Schleiss (nl), Dimitri Gogelia (ka),
@@ -38,6 +40,14 @@ function bug ($id){
     <li>New translations: Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT),
         Tegegne Tefera (am), Manatsawin (th), RPrieditis (lv).</li>
 </ul>
+
+<h3>Application extension library (libexo):</h3>
+
+<blockquote><p>
+Please see
+<a href="http://thunar.xfce.org/news.html#2007-12-02">the Thunar website</a>
+for a list of changes.
+</p></blockquote>
 
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
@@ -205,6 +215,14 @@ function bug ($id){
     <li>New translations: RPrieditis (lv).</li>
 </li>
 </ul>
+
+<h3>File manager (Thunar):</h3>
+
+<blockquote><p>
+Please see
+<a href="http://thunar.xfce.org/news.html#2007-12-02">the Thunar website</a>
+for a list of changes.
+</p></blockquote>
 
 <h3>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h3>
 <ul>
