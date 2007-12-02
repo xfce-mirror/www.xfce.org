@@ -2,7 +2,7 @@
     include ("version.php");
 ?>
 <h1>Download Stable version (<?php echo $version; ?>) </h1>
-<p>Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at the Xfce orientated distributions <a href="/download/distros">here</a>.</p>
+<p>Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at a list of Xfce-oriented distributions <a href="/download/distros">here</a>.</p>
 
 <h2 id="source">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
