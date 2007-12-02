@@ -29,6 +29,8 @@ function bug ($id){
 
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
+    <li>Fix application windows sometimes opening on the wrong screen in
+        multihead setups (<?php bug('3667'); ?>).</li>
     <li>Free list returned by gtk_container_get_children().</li>
     <li>Remove trailing parens on AC_INIT version info to work around bug
         in intltool 0.35.x and 0.36.x.</li>
