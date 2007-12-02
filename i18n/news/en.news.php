@@ -34,7 +34,7 @@ $news = array (
         'title'   => 'Xfce 4.4.2 released',
         'content' => 'Hi all,'.
                      '[br][br]'.
-                     'Sorry for the delay, but Xfce 4.4.2 is now available.  It's the second maintenance release in the 4.4 stable series, focusing on fixing bugs and updating translations.'.
+                     "Sorry for the delay, but Xfce 4.4.2 is now available.  It's the second maintenance release in the 4.4 stable series, focusing on fixing bugs and updating translations.".
                      '[br][br]'.
                      'Downloads are available from the [link=/download/]Xfce website[/link].'.
                      '[br][br]'.
