@@ -7,8 +7,8 @@ $sf_release_id = "558731";
 $servers = array (
   "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=187881&release_id=$sf_release_id",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version/",
-//  "BE - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
   "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version/",
+  "FR - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
   /*"DE - Hannelore"      => "http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-$version/",*/
   /*"US - us.xfce.org"    => "http://www.us.xfce.org/archive/xfce-$version/",*/
   "US - ca-us.xfce.org" => "http://www.ca-us.xfce.org/archive/xfce-$version/",
