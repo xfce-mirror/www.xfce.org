@@ -33,7 +33,7 @@ banaketen zerrenda bat.</p>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu 
+		<td><a href="http://www.xubuntu.org/" target="_blank" title="Visit the Xubuntu
 website">Webgunea</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="Visit the Xubuntu page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
@@ -104,7 +104,7 @@ website">Webgunea</a> | <a href="http://distrowatch.com/xubuntu" target="_blank"
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.zenwalk.org/" target="_blank" title="Visit the Zenwalk 
+		<td><a href="http://www.zenwalk.org/" target="_blank" title="Visit the Zenwalk
 website">Webgunea</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="Visit the Zenwalk page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
@@ -123,8 +123,8 @@ website">Webgunea</a> | <a href="http://distrowatch.com/zenwalk" target="_blank"
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux 
-webgunea">Webgunea</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Visit the Lunar Linux page 
+		<td><a href="http://www.lunar-linux.org/" target="_blank" title="Visit the Lunar Linux
+webgunea">Webgunea</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="Visit the Lunar Linux page
 at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
@@ -142,8 +142,8 @@ at DistroWatch">DistroWatch</a></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xubuntu website">Webgunea</a> 
-| 
+		<td><a href="http://www.xfld.org/" target="_blank" title="Visit the Xubuntu website">Webgunea</a>
+|
 <a href="http://distrowatch.com/xfld" target="_blank" title="Visit the Xfld page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
@@ -160,6 +160,21 @@ at DistroWatch">DistroWatch</a></td>
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://www.freesbie.org/" target="_blank" title="Visit the FreeSBIE website">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visit the FreeSBIE page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
+		</td>
+		<td>
+			<h2>Myah OS</h2>
+			<p>Myah OS is a performance desktop operating system. Made for home use with a focus on Internet, Office, and multimedia.  Myah OS has been optimized for i686 processors for fast performance. Myah OS is an original Linux distro, compiled from build scripts written by Jeremiah Cheatham.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" target="_blank" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 

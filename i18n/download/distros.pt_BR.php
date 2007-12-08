@@ -36,7 +36,7 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td>
-			<a href="http://www.xubuntu.org/" target="_blank" title="Visite o website do Xubuntu">Website</a> | 
+			<a href="http://www.xubuntu.org/" target="_blank" title="Visite o website do Xubuntu">Website</a> |
 			<a href="http://distrowatch.com/xubuntu" target="_blank" title="Visite a página do Xubuntu em DistroWatch">DistroWatch</a>
                 </td>
 	</tr>
@@ -74,7 +74,7 @@
 	<tr>
                 <td>&nbsp;</td>
                 <td>
-			<a href="http://www.kateos.org/" target="_blank" title="Visite o website do Kate OS">Website</a> | 
+			<a href="http://www.kateos.org/" target="_blank" title="Visite o website do Kate OS">Website</a> |
 			<a href="http://distrowatch.com/kateos" target="_blank" title="Visite a página do Kate OS em DistroWatch">DistroWatch</a>
                 </td>
         </tr>
@@ -114,7 +114,7 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td>
-			<a href="http://www.zenwalk.org/" target="_blank" title="Visite o website do Zenwalk">Website</a> | 
+			<a href="http://www.zenwalk.org/" target="_blank" title="Visite o website do Zenwalk">Website</a> |
 			<a href="http://distrowatch.com/zenwalk" target="_blank" title="Visite a página do Zenwalk em DistroWatch">DistroWatch</a>
                 </td>
 	</tr>
@@ -127,15 +127,15 @@
 		<td>
 			<h2>Lunar Linux</h2>
 			<p>Lunar Linux é uma distribuição baseada em código-fonte. Apesar de não existir um ambiente de desktop padrão
-                        no Lunar, ele possui um excelente suporte ao Xfce, principalmente porque alguns desenvolvedores do Xfce 
-			também são desenvolvedores do Lunar. 
+                        no Lunar, ele possui um excelente suporte ao Xfce, principalmente porque alguns desenvolvedores do Xfce
+			também são desenvolvedores do Lunar.
 			Outro ponto considerável: todos os servidores do projeto Xfce utilizam Lunar Linux!</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
 		<td>
-			<a href="http://www.lunar-linux.org/" target="_blank" title="Visite o website do Lunar Linux">Website</a> | 
+			<a href="http://www.lunar-linux.org/" target="_blank" title="Visite o website do Lunar Linux">Website</a> |
 			<a href="http://distrowatch.com/lunar" target="_blank" title="Visite a página do Lunar Linux em DistroWatch">DistroWatch</a>
                 </td>
 	</tr>
@@ -155,7 +155,7 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td>
-			<a href="http://www.xfld.org/" target="_blank" title="Visite o website do Xfld">Website</a> | 
+			<a href="http://www.xfld.org/" target="_blank" title="Visite o website do Xfld">Website</a> |
 			<a href="http://distrowatch.com/xfld" target="_blank" title="Visite a página do Xfld em DistroWatch">DistroWatch</a>
                 </td>
 	</tr>
@@ -173,6 +173,21 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://www.freesbie.org/" target="_blank" title="Visite o website do FreeSBIE">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visite a página do FreeSBIE em DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
+		</td>
+		<td>
+			<h2>Myah OS</h2>
+			<p>Myah OS is a performance desktop operating system. Made for home use with a focus on Internet, Office, and multimedia.  Myah OS has been optimized for i686 processors for fast performance. Myah OS is an original Linux distro, compiled from build scripts written by Jeremiah Cheatham.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" target="_blank" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 

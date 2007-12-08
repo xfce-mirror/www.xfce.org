@@ -85,8 +85,8 @@
 		<td valign="top"><a href="http://www.zenwalk.org/" target="_blank" title="Besuchen Sie die Zenwalk-Website"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
 		<td>
 			<h2>Zenwalk</h2>
-			<p>Zenwalk ist ein Betriebssystem, das auf Slackware basiert. Ziel von Zenwalk ist es, schlank und schnell zu bleiben, indem es nur eine Anwendung pro Aufgabe zur Verfügung stellt und die Xfce-Arbeitsumgebung verwendet. 
-			Zenwalk ist mit der neuesten Linux-Technologie ausgestattet und bietet zusätzlich eine vollständige Programmierumgebung mit allen notwendigen Bibliotheken und wird damit zur perfekten Plattform für Anwendungsprogrammierer. 
+			<p>Zenwalk ist ein Betriebssystem, das auf Slackware basiert. Ziel von Zenwalk ist es, schlank und schnell zu bleiben, indem es nur eine Anwendung pro Aufgabe zur Verfügung stellt und die Xfce-Arbeitsumgebung verwendet.
+			Zenwalk ist mit der neuesten Linux-Technologie ausgestattet und bietet zusätzlich eine vollständige Programmierumgebung mit allen notwendigen Bibliotheken und wird damit zur perfekten Plattform für Anwendungsprogrammierer.
 			Zenwalks modularer Ansatz macht es außerdem noch besonders einfach Zenwalk-Linux in einen sauber aufgesetzten modernen Server zu verwandeln (z.B.: LAMP, Messaging, File-Sharing).</p>
 		</td>
 	</tr>
@@ -136,6 +136,21 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://www.freesbie.org/" target="_blank" title="Visit the FreeSBIE website">Website</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="Visit the FreeSBIE page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
+		</td>
+		<td>
+			<h2>Myah OS</h2>
+			<p>Myah OS is a performance desktop operating system. Made for home use with a focus on Internet, Office, and multimedia.  Myah OS has been optimized for i686 processors for fast performance. Myah OS is an original Linux distro, compiled from build scripts written by Jeremiah Cheatham.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" target="_blank" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 

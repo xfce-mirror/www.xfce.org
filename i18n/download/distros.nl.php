@@ -139,6 +139,21 @@
 	</tr>
 </table>
 
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
+		</td>
+		<td>
+			<h2>Myah OS</h2>
+			<p>Myah OS is a performance desktop operating system. Made for home use with a focus on Internet, Office, and multimedia.  Myah OS has been optimized for i686 processors for fast performance. Myah OS is an original Linux distro, compiled from build scripts written by Jeremiah Cheatham.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://myah.org/" target="_blank" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" target="_blank" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
 </td>
 </tr>
 </table>
