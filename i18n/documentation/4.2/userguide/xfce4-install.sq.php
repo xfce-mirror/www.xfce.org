@@ -1,35 +1,23 @@
-<h2><a name="xfce4-install" id="xfce4-install"></a>Installing Xfce4</h2>
+<h2><a name="xfce4-install" id="xfce4-install"></a>Instalimi i Xfce4-s</h2>
 
-<h3><a name="id2534533" id="id2534533"></a>Binary packages</h3>
+<h3><a name="id2534533" id="id2534533"></a>Paketa dyore</h3>
 
-<p>The Xfce 4 project officially only releases source code for
-the desktop environment. However, binary packages may have been
-contributed by other people for your OS or distribution.</p>
+<p>Projekti Xfce 4, zyrtarisht, qarkullon vetëm kodin burim për mjedisin e desktopit. Sidoqoftë, për OS-in tuaj ose shpërndarjen tuaj, mund të ofrohen paketa dyore nga persona të tjerë.</p>
 
-<p>Look at the Xfce site for <a href=
-"http://xfce.org/download">download
-locations</a> and additional information about available binary
-packages. If you could not find binary packages for your OS, they
-may be available from your OS vendor or distributor, or you can
-install Xfce 4 from source.</p>
+<p>Kontrolloni te site-i Xfce për <a href=
+"http://xfce.org/download">vende shkarkimesh</a> dhe të dhëna shtesë rreth paketash dyore të passhme. Nëse nuk arrini të gjeni paketë dyore për OS-in tuaj, mund të gjeni të tilla prej shitësit të OS-it tuaj ose atij që ka qarkulluar shpërndarjen tuaj, ose mund të instaloni Xfce 4 prej burimit.</p>
 
-<h3><a name="id2534968" id="id2534968"></a>Graphical
-installers</h3>
+<h3><a name="id2534968" id="id2534968"></a>Instaluesa grafikë</h3>
 
-<p>The easiest way to install Xfce from source is by using the
-<a href="http://xfce-installers.os-cillation.com/"
->graphical installers</a>. Documentation and instructions
-are available.</p>
+<p>Rruga më e lehtë për instalimin e Xfce-së prej burimi është përmes përdorimit të <a href="http://xfce-installers.os-cillation.com/"
+>instaluesave grafikë</a>. Ka dokumentim dhe udhëzime për këtë.</p>
 
-<h3><a name="id2534990" id="id2534990"></a>Building from
-source</h3>
+<h3><a name="id2534990" id="id2534990"></a>Montim prej burimi</h3>
 
-<p>To compile Xfce manually, look at the Xfce site for <a href=
-"http://xfce.org/download">download
-locations</a>.</p>
+<p>Për hartimin e Xfce-së dorazi, shihni te site-i i Xfce-së për <a href=
+"http://xfce.org/download">vende shkarkimesh</a>.</p>
 
-<p>Building the packages should be a simple matter of unpacking
-the tarballs and, from the top source directory, typing:</p>
+<p>Montimi i paketave është thjesht çështje çpaketimi i "tarball"-eve dhe shtypjes, që nga brenda drejtorisë së epërme të burimit, të urdhrit:</p>
 
 <table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
@@ -41,23 +29,15 @@ the tarballs and, from the top source directory, typing:</p>
 </tr>
 </table>
 
-<p>Some package will have extra configure options available. You
-can find them by typing <b>./configure <tt>--help</tt></b>.</p>
+<p>Disa prej paketave kanë për të pasur mundësi shtesë formësimi. Këto mund t'i shihni duke shtypur <b>./configure <tt>--help</tt></b>.</p>
 
-<p>Xfce 4 depends on pkg-config, GTK+ &gt;= 2.2, libxml2 and, for
-xffm, on libdbh, which is available from <a href=
-"http://sf.net/projects/libdbh">SourceForge</a>. If
-you installed these from a binary package, make sure you have the
-corresponding <tt>-dev</tt> packages installed as well.</p>
+<p>Xfce 4 varet nga pkg-config, GTK+ &gt;= 2.2, libxml2 dhe, për të pasur
+xffm, nga libdbh, që mund të kihet prej <a href=
+"http://sf.net/projects/libdbh">SourceForge</a>. Nëse këto i keni instaluar prej paketash dyore, sigurohuni që keni të instaluara edhe paketat <tt>-dev</tt> përkatëse.</p>
 
-<p>Optionally you can install librsvg &gt;= 2.2, for SVG icon
-support, and libstartup-notification, to have a busy cursor when
-loading applications that support this standard.</p>
+<p>Përndryshe, mund të instalonit librsvg &gt;= 2.2, për mbulim ikonash SVG, dhe libstartup-notification, për të pasur kursor të zënë gjatë ngarkimit të zbatimeve që e mbulojnë këtë standard.</p>
 
-<p>If you install into a different prefix from pkg-config, you
-have to set the PKG_CONFIG_PATH variable to include the path to
-the *.pc files installed by the Xfce 4 libraries, which is
-${prefix}/lib/pkgconfig. For example:</p>
+<p>Nëse instalimin e bëni në një tjetër parashtesë nga ai i pkg-config-ut, lypset të caktoni ndryshoren PKG_CONFIG_PATH të tillë që të përfshijë shtegun për te kartelat *.pc të instaluara nga libraritë e Xfce 4-s, i cili është ${prefix}/lib/pkgconfig. Për shembull:</p>
 
 <table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
@@ -69,8 +49,7 @@ export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 </tr>
 </table>
 
-<p>All source tarballs also contain a so called spec file that
-allows you to build your own rpm's:</p>
+<p>Tërë kartelat burim "tarball" përmbajnë gjithashtu edhe një kartelë të ashtuquajtur "spec" e cila ju lejon të montoni rpm-në tuaj:</p>
 
 <table border="0" bgcolor="#eeeeee" width="100%">
 <tr>
@@ -82,31 +61,22 @@ rpmbuild -ta module-x.y.z.tar.gz
 </tr>
 </table>
 
-<h3><a name="id2535072" id="id2535072"></a>Using CVS</h3>
+<h3><a name="id2535072" id="id2535072"></a>Përdorimi i CVS-së</h3>
 
-<p>The latest development sources for Xfce 4 are available from
-CVS.</p>
+<p>Burimi për zhvillimet më të fundit të Xfce 4-s mund të kihen prej CVS-je.</p>
 
-<p>Look <a href=
+<p>Shihni <a href=
 "http://xfce.org/documentation/"
->here</a> for information on how to obtain the
-latest development updates from CVS. You can also use the WebCVS
-link to browse the CVS tree.</p>
+>këtu</a> për të dhëna se si të kihen prej CVS-je përditësimet më të fundit te zhvillimi. Për shfletim të pemës CVS mund të përdorni edhe lidhjen WebCVS.</p>
 
-<h3><a name="id2596877" id="id2596877"></a>Additional
-software</h3>
+<h3><a name="id2596877" id="id2596877"></a>Software shtesë</h3>
 
-<p>The <a href="http://xfce-goodies.berlios.de"
->Xfce Goodies</a> project collects third-party
-contributions for Xfce 4. There are some excellent panel plugins
-available that greatly enhance the functionality of Xfce 4.</p>
+<p>Projekti <a href="http://xfce-goodies.berlios.de"
+>Xfce Goodies</a> përmbledh kontribute prej palësh të treta te Xfce 4. Prej atje mund të kihen disa shtojca të shkëlqyera që zgjerojnë goxha punimin e Xfce 4-s.</p>
 
 <p><a href="http://spuriousinterrupt.org/projects/xfmedia/"
->Xfmedia</a> is a lightweight media player for Xfce,
-based on the xine engine. It is the perfect media player for the
-perfect desktop environment.</p>
+>Xfmedia</a> është një lojtës mediash i peshës së lehtë për Xfce-në,
+me mekanizmin xine për bazë. Lojtësi i përkryer media për mjedisin e përkryer desktop.</p>
 
 <p><a href="http://terminal.os-cillation.com/"
->Terminal</a> is an advanced, but easy to use terminal
-emulator for the Xfce Desktop Environment. It contains all
-feature you would expect from a modern terminal emulator.</p>
+>Terminal</a> është një emulues terminali i përparuar, por i lehtë për tu përdorur, për Mjedisin Xfce për Desktop. Përmban tërë karakteristikat që do të prisnit të ketë një emulues modern terminali.</p>

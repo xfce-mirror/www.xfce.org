@@ -1,242 +1,151 @@
-  <h2><a name="xfce4-use" id="xfce4-use"></a>Using Xfce4</h2>
+  <h2><a name="xfce4-use" id="xfce4-use"></a>Si të përdoret Xfce4</h2>
 
-  <h3><a name="xfce4-getting-started" id="xfce4-getting-started"></a>Getting started</h3>
+  <h3><a name="xfce4-getting-started" id="xfce4-getting-started"></a>Si t'ia fillojmë</h3>
 
-  <p>Use <b><tt>startxfce4</tt></b> to start an Xfce session, which
-  includes the session manager, the panel, the taskbar, the window
-  manager and the desktop manager. All programs (or symbolic links
-  to programs) in <tt>~/Desktop/Autostart/</tt> will be run on
-  startup (note that this directory does not exist by default and
-  you may have to create it).</p>
+  <p>Përdorni <b><tt>startxfce4</tt></b> që të nisni një sesion Xfce, në të cilin përfshihen përgjegjësi i sesioneve, paneli, shtylla e veprimeve, përgjegjësi i dritareve dhe përgjegjësi i desktopit. Tërë programet (ose lidhjet simbolike te programe) te <tt>~/Desktop/Vetënisje/</tt> do të xhirohen gjatë nisjes (mbani parasysh që kjo drejtori, si parazgjedhje, nuk ekziston dhe mund t'ju duhet ta krijoni).</p>
 
-  <p>By default the Xfce session manager manages the startup of
-  applications. It allows you to save your session when you quit
-  Xfce, so that the next time you log in, the same applications
-  will be started for you automatically.</p>
+  <p>Si parazgjedhje, përgjegjësi i sesioneve Xfce administron nisjen e zbatimeve. Ju bën të mundur të ruani sesionin tuaj kur dilni prej Xfce-së, kështu që herës tjetër që hyni, të njëjtat zbatime do të nisen vetvetiu për ju.</p>
 
-  <p>To customize the behaviour of <b><tt>startxfce4</tt></b>, copy
-  the file <tt>${sysconfdir}/xdg/xfce4/xinitrc</tt> to your
-  personal <tt>~/.config/xfce4/</tt> directory and edit that file.
-  Depending on your installation method the location of the system
-  <tt>xinitrc</tt> file may be different. If you install from
-  source, <tt>${sysconfdir}</tt> defaults to
-  <tt>/usr/local/etc/</tt>. For binary packages it is often set to
-  <tt>/etc/</tt>, <tt>/etc/X11</tt>, <tt>/usr/pkg/etc</tt> or
-  <tt>/usr/X11R6/etc</tt>; you can use your package manager to find
-  out.</p>
+  <p>Për të përshtatur sjelljen e <b><tt>startxfce4</tt></b>, kopjoni kartelën <tt>${sysconfdir}/xdg/xfce4/xinitrc</tt> te drejtoria juaj vetjake <tt>~/.config/xfce4/</tt> dhe përpunojeni.
+  Në varësi të metodës suaj të instalimit, vendi i kartelës <tt>xinitrc</tt> të sistemit mund të jetë i ndryshëm. Nëse instaloni prej burimi, <tt>${sysconfdir}</tt> do ta gjeni, si parazgjedhje, te <tt>/usr/local/etc/</tt>. Për instalime me anë paketash dyore, caktohen
+  <tt>/etc/</tt>, <tt>/etc/X11</tt>, <tt>/usr/pkg/etc</tt> ose
+  <tt>/usr/X11R6/etc</tt>; mund të përdorni përgjegjësin tuaj të paketave për ta marrë vesh se ku konkretisht.</p>
 
   
 
-  <h3><a name="id2533342" id="id2533342"></a>The Default
-  Desktop</h3>
+  <h3><a name="id2533342" id="id2533342"></a>Desktopi Parazgjedhje</h3>
 
-  <p>The Xfce 4 Desktop Environment is not a single entity that
-  provides all funtionality, but rather it tries to adhere to the
-  old UNIX tradition of small tools that do one job and do it best.
-  A default Xfce 4 desktop with no programs running is shown in
-  <a href="xfce4-use#default-session-fig" title=
-  "Figure 1. Default Xfce 4 session">Figure 1, &quot;Default Xfce 4
-  session&quot;</a>.</p>
+  <p>Mjedisi Xfce 4 për Desktop nuk është një njësi e vetme që furnizon tërë funksionet, ai përpiqet më mirë të vazhdojë traditën e vjetër UNIX të mjeteve të vockla që bëjnë një punë dhe që e bëjnë në mënyrën më të mirë të mundshme.
+  Te <a href="xfce4-use#default-session-fig" title=
+  "Figurë 1. Sesion Xfce 4 parazgjedhje">Figura 1 tregohet një desktop Xfce 4 si hapet në parazgjedhje, pa programe në xhirim e sipër, &quot;Sesion Xfce 4 parazgjedhje&quot;</a>.</p>
   <a name="default-session-fig" id=
   "default-session-fig"></a>
 
-  <p><b>Figure 1. Default Xfce 4 session</b></p><img src=
+  <p><b>Figura 1. Sesion Xfce 4 parazgjedhje</b></p><img src=
   "/images/documentation/4.2/default-session.png" alt=
-  "Shows default Xfce session, with background manager, panel and taskbar. " />
+  "Tregon një sesion parazgjedhje të Xfce-së, me përgjegjës sfondi, panel dhe shtyllë aktesh. " />
 
-  <p>When you run <b><tt>startxfce4</tt></b> for the first time,
-  several applications are started by the Xfce session manager:</p>
+  <p>Kur xhironi <b><tt>startxfce4</tt></b> për herë të parë,
+  nga përgjegjësi Xfce i sesionit niset disa zbatime:</p>
 
   <dl>
-    <dt>Taskbar</dt>
+    <dt>Shtylla e veprimeve</dt>
 
     <dd>
-      <p>At the top of the screen you will see the taskbar. It
-      shows the applications running on the current workspace. You
-      can focus the application by clicking on the button in the
-      taskbar. Clicking again will hide the application. If you use
-      the right mouse button, a menu will appear, allowing you to
-      perform several actions on the application window.</p>
+      <p>Në krye të ekranit do të shihni një shtyllë veprimesh. Ajo ju tregon zbatimet që po xhirojnë në hapësirën e dhënë të punës. Mund të fokusoni zbatimin duke klikuar te butoni i shtyllës së veprimeve. Klikimi sërish do ta fshehë zbatimin. Nëse përdorni butonin r djathtë të miut, ka për tu shfaqur një menu, e cila ju lejon të kryeni disa veprime te dritarja e zbatimit.</p>
 
-      <p>The taskbar can optionally contain a graphical pager
-      showing a miniature view of all your workspaces and a
-      notification area or system tray.</p>
+      <p>Shtylla e veprimeve mund të përmbajë, në qoftë e nevojshme, një faqosës grafik i cili tregon një pamje në miniaturë të tërë hapësirave tuaja të punës dhe një zonë njoftimi ose shtyllë sistemi.</p>
     </dd>
 
-    <dt>Panel</dt>
+    <dt>Paneli</dt>
 
     <dd>
-      <p>At the bottom of the screen is the Xfce4 panel. It allows
-      you to run applications and also contains a graphical pager,
-      a clock and a mail checker. Some items have an associated
-      panel menu that gives access to more applications. Panel
-      menus are opened by pressing the small arrow buttons next to
-      the panel item.</p>
+      <p>Në fund të ekrani gjendet paneli Xfce4. Ju lejon të xhironi zbatime dhe përmban gjithashtu një faqosës grafik, një sahat dhe një njoftues poste. Disa prej objekteve kanë një menu paneli të tyren që lejon futjen te më tepër zbatime. Menutë e panelit hapen duke shtypur butonat e vegjël shigjetë ngjitur me objektin e panelit.</p>
 
-      <p>Changing the content of the panel and the properties of
-      the items is done by using the right mouse button. Both the
-      panel items and the panel move handles have a right-click
-      mouse menu from where you can chage the panel configuration.
-      For more information look at the <a href="../manuals/xfce4-panel">panel manual</a>.</p>
+      <p>Ndryshimi i përmbajtjes së panelit dhe vetive të objekteve bëhet duke përdorur butonin e djathtë të miut. Qoftë objektet e panelit, qoftë dorezat për lëvizjen e panelit kanë menu të djathtasklikueshme prej nga ku mund të ndryshoni formësimin e panelit.
+      Për më tepër të dhëna shihni te <a href="../manuals/xfce4-panel">doracaku i paneleve</a>.</p>
     </dd>
 
-    <dt>Desktop Manager</dt>
+    <dt>Përgjegjësi i Desktopit</dt>
 
     <dd>
-      <p>The desktop manager provides the desktop background image
-      and two menus when you click on the desktop background.</p>
+      <p>Përgjegjësi i desktopit furnizon pamjen e sfondit të desktop dhe dy menu kur klikoni mbi sfondin e desktopit.</p>
 
-      <p>The right mouse button opens a menu that allows you to
-      start applications. Look at the <a href="../manuals/xfdesktop">manual</a> to find out how to change the menu
-      contents.</p>
+      <p>Butoni i djathtë i miut hap një menu që ju lejon të nisni zbatime. Hidhini një sy <a href="../manuals/xfdesktop">doracakut</a> për të marrë vesh se si të ndryshohet lënda e menusë.</p>
 
-      <p>The middle mouse button (or Shift + left click) opens a
-      list of all applications that are currently running. You can
-      activate an application by clicking on its menu entry.</p>
+      <p>Butoni i mesit i miut (ose Shift + klikim me të majtin) hap një listë të tërë zbatimeve që po xhirojnë në atë çast. Mund ta aktivizoni një zbatim duke klikuar mbi zërin e tij te menuja.</p>
     </dd>
 
-    <dt>Window Manager</dt>
+    <dt>Përgjegjësi i Dritareve</dt>
 
     <dd>
-      <p>The window manager is responsible for placing the windows
-      on the screen and provides the window borders and
-      decorations. It allows you to move windows around by draggin
-      the titlebar and provides title bar buttons, for example to
-      close, minimize or maximize a window. Look at the <a href=
-      "../manuals/xfwm4">manual</a> for a full explanation
-      of the window manager.</p>
+      <p>Përgjegjësi i dritareve mban përgjegjësi për vendosjen e dritareve në ekran dhe furnzion anët dhe zbukurimet e dritareve. Ju lejon të lëvizni dritaret përreth duke tërhequr shtyllën e titullit të tyre dhe furnizon edhe butonat për shtyllën e titullit, për shembull për mbyllje, minimizim ose maksimizim të një dritareje. Shihni <a href=
+      "../manuals/xfwm4">doracakun</a> për një shpjegim të plotë të përgjegjësit të dritareve.</p>
     </dd>
 
-    <dt>Settings Manager</dt>
+    <dt>Përgjegjësi i Rregullimeve</dt>
 
     <dd>
-      <p>The settings manager runs in the background and makes sure
-      that all Xfce 4 applications update their settings when the
-      user changes something in the settings manager dialog (see
-      following section) and takes care of reading the
-      configuration from disk at startup. Look at the <a href=
-      "../manuals/xfce-mcs-manager">Settings Manager</a>
-      and <a href="../manuals/xfce-mcs-plugins">Settings
-      Plugins</a> manuals for a full explanation of the settings
-      manager.</p>
+      <p>Përgjegjësi i rregullimeve xhiron në prapaskenë dhe bën të mundur përditësimin e rregullimeve për tërë zbatimet Xfce 4 kur përdoruesi ndryshon diçka përmes dialogut të përgjegjësit të rregullimeve (shihni
+ndarjen vijuese) dhe kujdeset për leximin te disku të formësimit gjatë nisjesh. Për një shpjegim të plotë të përgjegjësit të rregullimeve i hidhni një sy doracakëve <a href=
+      "../manuals/xfce-mcs-manager">Përgjegjës Rregullimesh</a>
+      dhe <a href="../manuals/xfce-mcs-plugins">Shtojca Rregullimesh</a>.</p>
     </dd>
   </dl>
 
-  <h3><a name="id2533998" id="id2533998"></a>Common Tasks</h3>
+  <h3><a name="id2533998" id="id2533998"></a>Veprime të Zakonshme</h3>
 
-  <p>This section will explain how to perform several common tasks
-  to quickly get you started working with Xfce 4. Because that is
-  what Xfce 4 is designed for, to allow you to get work done.</p>
+  <p>Kjo ndarje do t'ju shpjegojë si të kryhen disa veprime të zakonshme që t'ia filloni pa humbur kohë me Xfce 4. Ngaqë Xfce 4 për këtë punë është hartuar, t'ju lejojë të mbaroni punë.</p>
 
-  <h4><a name="id2534007" id="id2534007"></a>Running programs</h4>
+  <h4><a name="id2534007" id="id2534007"></a>Xhirimi i një programi</h4>
 
   <dl>
-    <dt>Xfce 4 panel</dt>
+    <dt>Paneli Xfce 4</dt>
 
     <dd>
-      <p>The panel is designed to allow quick access to the most
-      frequently used applications by putting them on the main
-      panel. Less often used applications can be put in a panel
-      menu.</p>
+      <p>Paneli është hartuar të lejojë hyrje të shpejtë te zbatimet e përdorura më shpesh duke i vendosur ata te paneli kryesor. Zbatimet e përdorura jo aq shpesh mund të vendosen në një menu paneli.</p>
     </dd>
 
-    <dt>Desktop menu</dt>
+    <dt>Menu desktopi</dt>
 
     <dd>
-      <p>Another method for starting applications is from the
-      desktop mouse menu. Read the <a href="../manuals/xfdesktop">Desktop Manager manual</a> for information on how to
-      change the menu contents.</p>
+      <p>Një tjetër metodë për nisje zbatimesh është nisja e tyre prej menuje desktopi me miun. Lexoni <a href="../manuals/xfdesktop">doracakun e Përgjegjësit të Desktopit</a> për të dhëna rreth se si të ndryshohet lënda e menuve.</p>
     </dd>
 
-    <dt>Run dialog</dt>
+    <dt>Dialog xhirimesh</dt>
 
     <dd>
-      <p>If you know the name of a program and it is not on the
-      panel or in the desktop menu you can use the run dialog. To
-      open the dialog type <b>Alt+F2</b> or choose the <b>Run
-      program...</b> option from the desktop menu.</p>
+      <p>Nëse e dini emrin e një programi dhe ai nuk gjendet te menuja e desktopit, mund të përdorni dialogun e xhirimeve. Për të hapur dialogun shtypni <b>Alt+F2</b> ose zgjidhni prej menusë së desktopit <b>Xhironi program...</b>.</p>
 
-      <p>The dialog will remeber the 10 last commands that were
-      executed successfully.</p>
+      <p>Dialogut do të mbajë mend 10 urdhrat e fundit që u përmbushën me sukses.</p>
     </dd>
   </dl>
 
-  <h4><a name="id2534077" id="id2534077"></a>Managing windows and
-  workspaces</h4>
+  <h4><a name="id2534077" id="id2534077"></a>Administrim dritaresh dhe hapësirash pune</h4>
 
   <dl>
-    <dt>Basic window operations</dt>
+    <dt>Veprime bazë me dritaret</dt>
 
     <dd>
-      <p>You can move windows around the screen by dragging their
-      title bar. A window can be closed, hidden, maximized, shaded
-      and made sticky &#8212; this means it will show up on all
-      workspaces &#8212; by using the title bar buttons.</p>
+      <p>Mund të lëvizni dritaret përreth ekranit duke i tërhequr për shtylle titulli. Duke përdorur butona shtylle titujsh, dritaret mund të mbyllen, fshihen, maksimizohen, hijezohen dhe të bëhen të ngjitshme &#8212; kjo do të thotë që do të jetë e dukshme në tërë hapësirat e punës &#8212;.</p>
 
-      <p>Right clicking on the title bar will open a menu that
-      gives access to all window operations.</p>
+      <p>Djathtasklikimi mbi shtyllën e titullit do të hapë një menu që lejon hyrje te të veprimet mbi dritare.</p>
 
-      <p>Shading a window, which means collapsing it to only show
-      the title bar, can also be accomplished by using the mouse
-      wheel over the title bar. Mouse wheel up is shade, mouse
-      wheel down is unshade.</p>
+      <p>Hijezimi i një dritareje, që do të thotë tkurrje për të lënë të dukshme vetëm shtyllën e titullit, mund të bëhet gjithashtu edhe duke përdorur rrotëzën e miut përmbi shtyllë titulli. Rrotullimi sipër jep hijezim, për poshtë jep çhijezim.</p>
 
-      <p>If you want maximized windows to not cover the entire
-      screen you can set workspace margins from the settings
-      manager dialog (see below).</p>
+      <p>Nëse doni që dritaret e maksimizuara të mos mbulojnë tërë ekranin mund të rregulloni mënjanat e hapësirës së punë te dialogu për përgjegjësin e rregullimeve (shini më poshtë).</p>
     </dd>
 
-    <dt>Application management</dt>
+    <dt>Administrim zbatimesh</dt>
 
     <dd>
-      <p>To find out what applications are currently running you
-      can look at the taskbar. Clicking on a button in the taskbar
-      will focus the associated application. Clicking again will
-      hide it.</p>
+      <p>Për të mësuar se cilat zbatime po xhirojnë në një çast të dhënë mund të kontrolloni te shtylla e veprimeve. Klikimi mbi një buton te shtylla e veprimeve do të kalojë fokusin te zbatimi i klikuar. Klikimi edhe një herë do ta fshehë.</p>
 
-      <p>When you click with the middle mouse button on the desktop
-      background a list of windows is shown, ordered by workspace.
-      You can activate the application or change workspaces by
-      choosing the appropriate menu entry.</p>
+      <p>Kur klikoni mbi sfondin e desktopit me butonin e mesit të miut, do të shfaqet një listë dritaresh, të radhitura duke u bazuar te hapësirat e punës. Mund të aktivizoni zbatimin ose të ndryshoni hapësira pune duke zgjedhur pjesën përkatëse të menusë.</p>
 
-      <p>The <b><tt>xfce4-iconbox</tt></b> application can also be
-      used to keep track of running applications.</p>
+      <p>Edhe zbatimi <b><tt>xfce4-iconbox</tt></b> mund të përdoret për të pasur një sy te xhirimi i zbatimeve.</p>
     </dd>
 
-    <dt>Workspaces</dt>
+    <dt>Hapësira pune</dt>
 
     <dd>
-      <p>You can change workspaces by clicking on them in the
-      graphical pager, either on the taskbar or on the panel.
-      Pressing <b>Ctrl+Alt+LeftArrow</b> or
-      <b>Ctrl+Alt+RightArrow</b> will cycle through the workspaces.
-      Using the mousewheel over the pager or the desktop background
-      has the same effect.</p>
+      <p>Hapësirën e punës mund ta ndryshoni duke klikuar mbi të te faqosësi grafik, ose te shtylla e veprimeve, ose te paneli.
+      Shtypja e <b>Ctrl+Alt+ShigjetaMajtas</b> ose
+      <b>Ctrl+Alt+ShigjetaDjathtas</b> do t'ju kalojë nga një hapësirë pune në tjetrën. 
+      Të njëjtin efekt ka edhe përdorimi i rrotëzës së miut mbi faqosësin ose sfondin e desktopit.</p>
 
-      <p>To add or remove workspaces you can use the middle click
-      desktop menu or the settings dialog (see below).</p>
+      <p>Për shtim ose heqje hapësirash pune mund të përdorni klikimin me të mesit mbi menu desktopi ose dialogun e rregullimeve (shihni më poshtë).</p>
     </dd>
   </dl>
 
-  <h4><a name="id2534162" id="id2534162"></a>Using the settings
-  manager dialog</h4>
+  <h4><a name="id2534162" id="id2534162"></a>Si të përdoret dialogu i përgjegjësit të rregullimeve</h4>
 
-  <p>The settings manager dialog provides access to the global
-  preferences of many Xfce 4 applications. You can run it by
-  pressing its laucher on the panel, from the desktop mouse menu or
-  by running <b><tt>xfce-setting-show</tt></b>.</p>
+  <p>Dialogu i përgjegjësit të rregullimeve mundëson hyrjen te parapëlqimet e përgjithshme për shumë zbatime Xfce 4. Mund ta xhironi duke shtypur nisësin e tij te paneli, ose prej menusë së miut për desktopin ose duke xhiruar <b><tt>xfce-setting-show</tt></b>.</p>
 
-  <p>Dialogs to change many aspects of the Xfce 4 desktop
-  environment are available. See the separate manuals of the Xfce 4
-  components for more information. It may be interesting to have a
-  quick look at all the dialogs to find out what options are
-  available that allow you to create the best possible working
-  environment.</p>
+  <p>Ka dialogje për ndryshim të mjaft anëve të mjedisit Xfce 4 për desktop. Për më tepër të dhëna, shihni doracakët përkatës për përbërësit Xfce 4 tek e tek. Mund të jetë me interes tu hidhni një sy shpejt e shpejt tërë dialogjeve për të parë se çfarë mundësish ka të passhme, të cilat ju lejojnë të krijoni mjedisin e punës më të mirë të mundshëm.</p>
 
-  <h3><a name="id2534182" id="id2534182"></a>Further reading</h3>
+  <h3><a name="id2534182" id="id2534182"></a>Lexime të mëtejshme</h3>
 
-  <p>This user guide has only given a very general overview of the
-  Xfce 4 Desktop Environment. More information is available in the
-  <a href="../manuals/">manuals</a> of the separate
-  components of Xfce 4.</p>
+  <p>Ky udhërrëfyes përdoruesi dha vetëm një përmbledhje të përgjithshme
+  të Mjedisit Xfce 4 për Desktop. Mund të gjeni më tepër të dhëna te <a href="../manuals/">doracakët</a> e përbërësve të veçantë të Xfce 4.</p>
   <hr />

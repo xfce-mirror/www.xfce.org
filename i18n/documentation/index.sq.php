@@ -24,7 +24,7 @@
           <h2><a href="/documentation/archive">Arkivë</a></h2>
           <ul>
             <li><a href="/documentation/4.2/">Dokumentacion për 4.2</a></li>
-            <li><a href="/documentation/4.0/">Dokumentacio për 4.0</a></li>
+            <li><a href="/documentation/4.0/">Dokumentacion për 4.0</a></li>
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">

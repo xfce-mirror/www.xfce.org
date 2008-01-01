@@ -11,7 +11,7 @@ përfshijë <a href="http://thunar.xfce.org" target="_blank">Thunar-in</a>.</p>
 	</a>
 </div>
 </p>
-<p>Xfdesktop-i përdor libraritë e Thunar-it për t'u marrë me nisësat e zbatimeve si dhe kartela/dosje në desktop, dhe po ashtu është në gjendje të shfaqë ikona për dritare të zvogëluara në desktop (karakteristikë e njohur e CDE-së), ose për të çaktivizuar njëherësh ikona desktopi.</p>
+<p>Xfdesktop-i përdor libraritë e Thunar-it për tu marrë me nisësat e zbatimeve si dhe kartela/dosje në desktop, dhe po ashtu është në gjendje të shfaqë ikona për dritare të zvogëluara në desktop (karakteristikë e njohur e CDE-së), ose për të çaktivizuar njëherësh ikona desktopi.</p>
 
 <h2>Mousepad</h2>
 <p>Mousepad, përpunues tekstesh i thjeshtë dhe i lehtë, përfshirë si pjesë e Xfce 4.4. Mousepad-i niset shumë shpejt dhe ofron tërë veprimet themelore për përpunime tekstesh, çka e bën përpunuesin parazgjedhje të përkryer për Xfce.</p>
@@ -42,7 +42,7 @@ përfshijë <a href="http://thunar.xfce.org" target="_blank">Thunar-in</a>.</p>
 		<img src="/images/about/tour/panel-launcher-thumb.png" border="0" alt="nisës panel" />
 	</a>
 </div>
-<p>Shumica e shtojcavepër panelin, të passhme prej <a href="http://goodies.xfce.org" target="_blank">projektit Xfce Goodies</a>, u përditësuan për t'u përshtatur me panelin e ri, shtojca <code>xfce4-xfapplet-plugin</code> u lejon përdoruesve të shtojnë te paneli Xfce zbatimthe paneli GNOME.</p>
+<p>Shumica e shtojcave për panelin, të passhme prej <a href="http://goodies.xfce.org" target="_blank">projektit Xfce Goodies</a>, u përditësuan për t'u përshtatur me panelin e ri, shtojca <code>xfce4-xfapplet-plugin</code> u lejon përdoruesve të shtojnë te paneli Xfce zbatimthe paneli GNOME.</p>
 
 <h2>Zbatime të Parapëlqyer</h2>
 <p>Në Xfce u importua një kuadër i ri zbatimesh të parapëlqyer, kështu që përdoruesve nuk ju duhet më të përpunojnë profile shelli për të përcaktuar cili shfletues dhe terminal do të duhej përdorur nga zbatimet Xfce.</p>

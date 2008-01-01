@@ -1,138 +1,110 @@
 
-  <h2><a name="xfce4-components" id= "xfce4-components"></a>Components of Xfce 4</h2>
+  <h2><a name="xfce4-components" id= "xfce4-components"></a>Përbërësit e Xfce 4</h2>
 
-  <p>The Xfce 4 components are packaged separately. This section
-  contains a list of the available modules with a short
-  description.</p>
+  <p>Përbërësit e Xfce 4 paketohen veç e veç. Kjo ndarje përmban një listë të moduleve të mundshëm bashkë me një përshkrim të shkurtër.</p>
 
   <dl>
     <dt>libxfce4util</dt>
 
     <dd>
-      <p>Library with non-graphical helper functions.</p>
+      <p>Librari me funksione ndihmësi jo-grafik.</p>
     </dd>
 
     <dt>libxfcegui4</dt>
 
     <dd>
-      <p>Widget library and X Window System interaction.</p>
+      <p>Librari Widget dhe ndërveprim me Sistemin X të Dritareve.</p>
     </dd>
 
     <dt>libxfce4mcs</dt>
 
     <dd>
-      <p>Settings management library used by most Xfce 4
-      modules.</p>
+      <p>Librari administrimi rregullimesh e përdorur nga shumicë e moduleve Xfce 4.</p>
     </dd>
 
     <dt>xfce-mcs-manager</dt>
 
     <dd>
-      <p>Settings manager. Runs in the background and provides
-      global settings information to other Xfce components. There
-      is a main control panel to access the configuration dialogs
-      of Xfce components.</p>
+      <p>Përgjegjësi i rregullimeve. Xhiron në prapaskenë dhe furnizon për përbësa të tjerë Xfce të dhëna mbi rregullime globale. Ka një panel kryesor kontrolli për të hyrë te dialogjet e formësimit të përbërësave Xfce.</p>
     </dd>
 
     <dt>xfce-mcs-plugins</dt>
 
     <dd>
-      <p>Settings manager plugins. These plugins provide settings
-      dialogs for general items that are not part of a package,
-      e.g. user interface settings (Gtk+ theme, icon theme, font
-      settings), mouse settings, keyboard settings and display
-      settings.</p>
+      <p>Shtojca përgjegjësi rregullimesh. këto shtojca furnizojnë dialogjet e rregullimeve për objekte të përgjithshme që nuk janë pjesë e një pakete, p.sh. rregullime ndërfaqeje përdoruesi (temë Gtk+, temë ikonash, rregullime gërmash), rregullime për miun, rregullime tastiere dhe ekrani.</p>
     </dd>
 
     <dt>xfce4-session</dt>
 
     <dd>
-      <p>Session manager. The session manager controls the startup
-      and shutdown of the Xfce Desktop Environment. On logout it
-      can save the state of running applications (if the
-      application supports it) and restore them properly again the
-      next time you log in.</p>
+      <p>Përgjegjës sesionesh. Përgjegjësi i sesioneve kontrollon nisjen dhe ndaljen e Mjedisit Xfce për Desktop. Ai mund të ruajë gjendjen e zbatimeve në xhirim e sipër ndërkohë që dilet (po qe kjo mbulohet nga zbatimi) dhe ta rikthejë atë sërish si duhet herës tjetër që hyni në sesion.</p>
     </dd>
 
     <dt>xfwm4</dt>
 
     <dd>
-      <p>The Xfce 4 window mananger. Manages the placement of
-      application windows on the screen, provides window
-      decorations and manages workspaces.</p>
+      <p>Përgjegjësi Xfce 4 i dritareve. Adminsitron vendosjen në ekran të dritareve të zbatimeve, ofrn zbukurime dritaresh dhe administron hapësira pune.</p>
     </dd>
 
     <dt>xfce4-panel</dt>
 
     <dd>
-      <p>The Xfce 4 panel. Provides program lauchers, a workspace
-      switcher, a clock, menus and more.</p>
+      <p>Panel Xfce 4. Furnizon nisësa programesh, një këmbyes hapësirash pune, një sahat, menura dhe të tjera.</p>
     </dd>
 
     <dt>xfdesktop</dt>
 
     <dd>
-      <p>Desktop background manager. This program sets the
-      background image and/or color, and provides a root window
-      menu, a menu panel plugin and a menu editor.</p>
+      <p>Përgjegjësi i sfondit të desktopit. Ky program cakton pamjen dhe/ose ngjyrat për pamje sfondi, dhe ofron një menu rrënjë për dritaret, shtojcë paneli menuje dhe një përpunues menush.</p>
     </dd>
 
     <dt>xfce-utils</dt>
 
     <dd>
-      <p>Essential utilities and scripts. Provides a taskbar, the
-      Xfce 4 about dialog, a run dialog, the startxfce4 script and
-      several other important scripts. Also contains this user
-      guide.</p>
+      <p>Të dobishme dhe programthe thelbësorë. Furnizon një shtyllë veprimesh, dialogun rreth Xfce 4, një dialog xhirimesh, programthin startxfce4 dhe disa programthe të tjerë të rëndësishëm. Përmban gjithashtu edhe një udhërrëfyes përdoruesi.</p>
     </dd>
 
     <dt>xffm</dt>
 
     <dd>
-      <p>A fast file manager, with double pane and integrated samba
-      network browser.</p>
+      <p>Një përgjegjës i shpejtë kartelash, me kuadrat dysh dhe shfletues të integruar për rrjete samba.</p>
     </dd>
 
     <dt>xfprint</dt>
 
     <dd>
-      <p>Printing support. Provides a graphical frontend for
-      printing. Includes <b><tt>xfprint4</tt></b> and
+      <p>Asistencë shtypjesh. Furnizon një ndërfaqe grafike për shtypjet. Përfshin <b><tt>xfprint4</tt></b> dhe
       <b><tt>xfprint-manager</tt></b>.</p>
     </dd>
 
     <dt>xfce4-appfinder</dt>
 
     <dd>
-      <p>An application finder, which allows you to search, launch
-      and find information about applications installed on your
-      system.</p>
+      <p>Një gjetës zbatimesh, i cili ju bën të mundur të kërkoni, të gjeni të dhëna dhe të nisni zbatime të instaluar në sistemin tuaj.</p>
     </dd>
 
     <dt>xfcalendar</dt>
 
     <dd>
-      <p>Simple calendar application with reminders.</p>
+      <p>Zbatim kalendar i thjeshtë me kujtuesa.</p>
     </dd>
 
     <dt>gtk-xfce-engine-2</dt>
 
     <dd>
-      <p>Theme engine for GTK2. Not required for the desktop, but
-      it's a nice theme engine so you might just as well give it a
-      try.</p>
+      <p>Mekanizëm temash për GTK2. Jo i domosdoshëm për desktopin në vetvete, por është një mekanizëm i letshëm temash e mund të doni thjesht të bënit një provë me të.</p>
     </dd>
 
     <dt>xfce4-icon-theme</dt>
 
     <dd>
-      <p>Default icon theme for Xfce 4, called <em>Rodent</em>.</p>
+      <p>Temë parazgjedhje ikonash për Xfce 4, e quajtur <em>Brejtësi</em>.</p>
     </dd>
 
     <dt>xfwm4-themes</dt>
 
     <dd>
-      <p>Window decoration themes for xfwm4.</p>
+      <p>Tema zbukurimesh dritaresh.</p>
     </dd>
   </dl>
 

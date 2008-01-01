@@ -261,51 +261,46 @@
   menutë. Ka saktësisht dy menu me të cilatduhet të merreni: kryesorja
   dhe ajo ato që shfaqen si fllucka. Meqë ky është një përgjegjës
   kartelash i harmonishëm me tastierat, për të parë se çfarë shkurtoresh
-  janë të passhme, duhet t'u hidhni një sy menuve. Gjithashtu tërë butonat
+  janë të passhme, duhet tu hidhni një sy menuve. Gjithashtu tërë butonat
   në panele dhe anështylla kanë elementet e tyre përgjegjës te menutë.</p>
 
-  <h3><a name="main-menu"></a>The main menu</h3><a name=
+  <h3><a name="main-menu"></a>Menuja kryesore</h3><a name=
   "main-menu-fig"></a>
 
-  <p><b>Figure 2. </b></p><img src="/images/documentation/4.2/main_menu.png" alt=
+  <p><b>Figurë 2. </b></p><img src="/images/documentation/4.2/main_menu.png" alt=
   "Menuja kryesore. " />
 
-  <p>In the figure is the main menu. This can be called by right or
-  left clicking on the main menu bar, or by pressing function key
-  F10.</p>
+  <p>Figura tregon menunë kryesore. Mund të bëhet e pranishme duke klikuar me të majtën ose me të djathtën te shtylla e menusë kryesore, ose duke shtypur tastin F10.</p>
 
-  <p>The main menu consists of four submenus:</p>
+  <p>Menuja kryesore përbëhet nga 4 nënmenu:</p>
 
   <ul type="disc">
-    <li><em>Tools</em></li>
+    <li><em>Mjete</em></li>
 
-    <li><em>Open</em></li>
+    <li><em>Hap</em></li>
 
-    <li><em>Go</em></li>
+    <li><em>Shko</em></li>
 
-    <li><em>Options</em></li>
+    <li><em>Mundësi</em></li>
   </ul>
 
-  <p>The <em>Go</em> menu may be greyed out if there is ambiguity
-  as to which window pane the functions should apply to. If you
-  have anything selected, or only have one window pane visible,
-  there is no ambiguity. Check it out ;-)</p><a name=
+  <p>Menusë <em>Shko</em> mund t'i ndryshohet ngjyra në gri nëse nuk vendoset dot se mbi cilën kuti dritareje duhen zbatuar funksionet. Në pastë diçka të përzgjedhur, ose nëse ka të dukshme vetëm kuti dritareje, nuk ka mëdyshje. Provojeni ;-)</p><a name=
   "tools-menu-fig"></a>
 
-  <p><b>Figure 3. The tools menu</b></p><img src=
-  "/images/documentation/4.2/tools_menu.png" alt="The tools menu. " />
+  <p><b>Figurë 3. Menuja mjete</b></p><img src=
+  "/images/documentation/4.2/tools_menu.png" alt="Menuja mjete. " />
 
-  <p>The <em>tools</em> menu can be displayed from the main menu or
-  by using F3, and has the following entries:</p>
+  <p>Menuja <em>mjete</em> mund të shfaqet prej menusë kryesore ose
+  duke përdorur F3, dhe përmban zërat vijues:</p>
 
   <ul type="disc">
     <li>
-      <em>Terminal</em>: Opens a terminal in the currently selected
-      directory. The terminal which is opened is determined in
-      order of preference:
+      <em>Terminal</em>: Hap një terminal te drejtoria
+          e përzgjedhur në atë kohë. Cili terminal hapet, përcaktohet nga  
+          kjo radhë përparësie:
 
       <ul type="circle">
-        <li>TERMCMD set from <b><tt>xfce-setting-show</tt></b></li>
+        <li>TERMCMD i caktuar nga <b><tt>xfce-setting-show</tt></b></li>
 
         <li><b><tt>xfce4-terminal</tt></b></li>
 
@@ -313,612 +308,414 @@
       </ul>
     </li>
 
-    <li><em>Find</em>: Opens a find dialog window. Results are
-    displayed in a find results branch of the filemanager.</li>
+    <li><em>Gjej</em>: Hap një dritare dialogu gjetjesh. Përfundimet
+    shfaqen në një degë gjetjeje përfundimesh të përgjegjësit të 
+    kartelave.</li>
 
-    <li><em>Differences</em>: Opens a difference window between two
-    selected files. If no files are selected, you can drag and drop
-    them in later.</li>
+    <li><em>Dallime</em>: Hap një dritare dallimesh ndërmjet dy kartelash të përzgjedhura. Nëse nuk ka përzgjedhje kartelash, mund t'i merrni e t'ia kaloni dritares më vonë.</li>
 
-    <li><em>Printer configuration</em>: opens a dialog to configure
-    your printers.</li>
+    <li><em>Formësim shtypësi</em>: hap një dialog për të formësuar shtypësat tuaj.</li>
 
-    <li><em>List pasteboard</em>: outputs the content of the
-    current pasteboard to the diagnostics window.</li>
+    <li><em>Shfaq të papastrën</em>: hedh përmbajtjen e të papastrës në atë kohë te një dritare diagnostikimesh.</li>
 
-    <li><em>Clear pasteboard</em>: Clears the contents of the
-    current pasteboard (the filesystem is untouched by this
-    operation).</li>
+    <li><em>Pastro të papastrën</em>: Pastron përmbajtjen e të papastrës në atë kohë (sistemi i kartelave nuk preket nga ky veprim).</li>
   </ul><a name="open-menu-fig"></a>
 
-  <p><b>Figure 4. The open menu</b></p><img src=
-  "/images/documentation/4.2/open_menu.png" alt="The open menu. " />
+  <p><b>Figurë 4. Menuja Hap</b></p><img src=
+  "/images/documentation/4.2/open_menu.png" alt="Menuja Hap. " />
 
-  <p>The <em>open</em> menu can be displayed from the main menu or
-  by using F4, and has the following entries:</p>
+  <p>Menuja <em>Hap</em> mund të shfaqet prej menusë kryesore ose duke përdorur F4, dhe përmban zërat vijues:</p>
 
   <ul type="disc">
-    <li><em>Run</em>: Queries for a program to be run.</li>
+    <li><em>Xhiro</em>: Kërkon rreth një programi që duhet xhiruar.</li>
 
-    <li><em>xftree4</em>: Queries for a directory path and opens a
-    new filemanager window there. Equivalent to executing
-    <b><tt>xftree4 directory_path</tt></b> from a command line.
-    Absolute path or relative path (to homedir) is acceptable.</li>
+    <li><em>xftree4</em>: Kërkon rreth një shtegu drejtorie dhe hap atje një dritare të re përgjegjësi kartelash. I barazvlefshëm me përmbushjen e
+    <b><tt>xftree4 directory_path</tt></b> prej një rreshti urdhrash.
+    Pranohen shtigje absolutë ose relativë (ndaj drejtorisë vatër).</li>
 
-    <li><em>xfsamba4</em>: Equivalent to executing
-    <b><tt>xfsamba4</tt></b> from a command line.</li>
+    <li><em>xfsamba4</em>: I barazvlefshëm me përmbushjen e
+    <b><tt>xfsamba4</tt></b> prej një rreshti urdhrash.</li>
 
-    <li><em>xffstab</em>: Equivalent to executing
-    <b><tt>xffstab4</tt></b> from a command line.</li>
+    <li><em>xffstab</em>: I barazvlefshëm me përmbushjen e
+    <b><tt>xffstab4</tt></b> prej një rreshti urdhrash.</li>
 
-    <li><em>xfbook</em>: Queries for a bookmarks file and opens the
-    filemanager there. Equivalent to executing <b><tt>xfbook4
-    bookname</tt></b> from a command line.</li>
+    <li><em>xfbook</em>: Kërkon për një kartelë faqerojtësish dhe hap atje përgjegjësin e kartelave.  barazvlefshëm me përmbushjen e <b><tt>xfbook4
+    bookname</tt></b> prej një rreshti urdhrash.</li>
 
-    <li><em>xftrash4</em>: Equivalent to executing
-    <b><tt>xftrash4</tt></b> from a command line.</li>
+    <li><em>xftrash4</em>: I barazvlefshëm me përmbushjen e
+    <b><tt>xftrash4</tt></b> prej një rreshti urdhrash.</li>
 
-    <li><em>xfrecent</em>: Equivalent to executing
-    <b><tt>xfrecent4</tt></b> from a command line.</li>
+    <li><em>xfrecent</em>: I barazvlefshëm me përmbushjen e
+    <b><tt>xfrecent4</tt></b> prej një rreshti urdhrash.</li>
 
-    <li><em>xffrequent</em>: Equivalent to executing
-    <b><tt>xffrequent4</tt></b> from a command line.</li>
+    <li><em>xffrequent</em>: I barazvlefshëm me përmbushjen e
+    <b><tt>xffrequent4</tt></b> prej një rreshti urdhrash.</li>
   </ul><a name="go-menu-fig"></a>
 
-  <p><b>Figure 5. The go menu</b></p><img src="/images/documentation/4.2/go_menu.png"
-  alt="The go menu. " />
+  <p><b>Figurë 5. Menuja Shko </b></p><img src="/images/documentation/4.2/go_menu.png"
+  alt="Menuja Shko. " />
 
-  <p>The <em>go</em> menu can be displayed from the main menu or by
-  using F5, has the following entries:</p>
+  <p>Menuja <em>shko</em> mund të shfaqet prej menusë kryesore ose duke përdorur F5, e përmban këto zëra:</p>
 
   <ul type="disc">
-    <li><em>Go to</em>: Opens a query where you can specify where
-    you want to go to. Paths preceeded by double slash (//) are
-    interpreted as remote SMB servers.</li>
+    <li><em>Shko te</em>: Hap një kërkesë ku mund të tregoni ku dëshironi të shkoni. Shtigje të paraprirë nga dy pjerrëse (//) interpretohen si shërbyesa SMB të largët.</li>
 
-    <li><em>Home</em>: Go to your home directory, or to XFFM_HOME
-    if defined with the xfce-mcs-manager.</li>
+    <li><em>Hyrje</em>: Shkoni te drejtoria juaj hyrëse, ose te XFFM_HOME
+    në qoftë e përcaktuar me xfce-mcs-manager.</li>
 
-    <li><em>Back</em>: Goes to the previous location.</li>
+    <li><em>Prapa</em>: Shkon te vendi i mëparshëm.</li>
 
-    <li><em>Forward</em>: Goes forward (after a go-back, of
-    course).</li>
+    <li><em>Përpara</em>: Shkon përpar (pas një shko-prapa, sigurisht).</li>
 
-    <li><em>Up</em>: Goes up in the directory file structure.</li>
+    <li><em>Sipër</em>: Shkon një shkallë më sipër në strukturën e drejtorisë së kartelave.</li>
   </ul><a name="options-menu-fig"></a>
 
-  <p><b>Figure 6. The options menu</b></p><img src=
-  "/images/documentation/4.2/options_menu.png" alt="The options menu. " />
+  <p><b>Figurë 6. Menuja Mundësi</b></p><img src=
+  "/images/documentation/4.2/options_menu.png" alt="Memuja mundësi. " />
 
-  <p>The <em>options</em> menu can be displayed from the main menu
-  or by using F6, has the following entries:</p>
+  <p>Menuja <em>mundësi</em> mund të shfaqet prej menusë kryesore ose duke përdorur F6, e përmban këto zëra:</p>
 
   <ul type="disc">
-    <li><em>Preferences</em>: opens the preferences submenu.</li>
+    <li><em>Parapëlqime</em>: hap nënmenunë e parapëlqimeve.</li>
 
-    <li><em>Edit themes</em>: runs the <b><tt>xfmime-edit</tt></b>
-    program which allows you to customize the icon settings.</li>
+    <li><em>Përpunoni tema</em>: xhiron programin <b><tt>xfmime-edit</tt></b> i cili ju lejon të përshtasni rregullimet për ikonat.</li>
 
-    <li><em>Set frequency threshold</em>: allows you to change the
-    frequency threshold from its default value of 13 hits.</li>
+    <li><em>Caktoni prag shpeshtie</em>: ju lejon të ndryshoni pragun e shpeshtisë ndryshe nga vlera e tij parazgjedhje prej 13 goditjesh.</li>
 
-    <li><em>Set recent threshold</em>: allows you to change the
-    recent threshold from its default value of 3 days.</li>
+    <li><em>Caktoni prag më të fundmesh</em>: ju lejon të ndryshoni pragun për më të fundmet ndryshe nga vlera e tij parazgjedhje prej 3 ditësh.</li>
 
-    <li><em>Enlarge icons</em>: enlarges icons.</li>
+    <li><em>Znadhoni ikona</em>: zmadhon ikonat.</li>
 
-    <li><em>Shrink icons</em>: shrinks icons.</li>
+    <li><em>Rrudh ikonat</em>: rrudh ikonat.</li>
 
-    <li><em>xfce-setting-show</em>: Launches the
-    <b><tt>xfce-setting-show</tt></b> program which allows you to
-    move the mcs manager settings.</li>
+    <li><em>xfce-setting-show</em>: Nis programin
+    <b><tt>xfce-setting-show</tt></b> i cili ju lejon të lëvizni rregullimet për përgjegjësin mcs.</li>
   </ul><a name="preferences-menu-fig"></a>
 
-  <p><b>Figure 7. The preferences menu</b></p><img src=
-  "/images/documentation/4.2/preferences_menu.png" alt="The preferences menu. " />
+  <p><b>Figurë 7. Menuja e parapëlqimeve</b></p><img src=
+  "/images/documentation/4.2/preferences_menu.png" alt="Menuja e parapëlqimeve. " />
 
-  <p>The <em>preferences</em> submenu can be displayed from the
-  main menu or by using F7, and has the following checkboxes:</p>
+  <p>Nënmenuja e <em>parapëlqimeve</em> mund të shfaqet prej menusë kryesore ose duke përdorur F7, dhe përmban kutizat vijuese:</p>
 
   <ul type="disc">
-    <li><em>Autoscroll</em>: This makes the treeview scroll
-    automatically when you open a folder.</li>
+    <li><em>Vetërrëshqitje</em>: Kjo e bën pamjen në trajtë peme të rrëshqasë vetiu kur hapni një dosje.</li>
 
-    <li><em>Text headers</em>: This option is no longer
-    available.</li>
+    <li><em>Tituj tekst</em>: Kjo mundësi nuk është më e passhme.</li>
 
-    <li><em>Copy on drag</em>: If this is checked, the default
-    drag-n-drop action will be to copy, if unchecked, the default
-    is to move.</li>
+    <li><em>Kopjo gjatë tërheqjesh</em>: Po qe kjo e zgjedhur, veprimi parazgjedhje për merr-dhe-vër do të jetë kopjimi, po e latë pa shenjë, parazgjedhja do të jetë lëvizje.</li>
 
-    <li><em>Show hidden</em>: Controls whether hidden files are
-    shown or not.</li>
+    <li><em>Shfaq të fshehurat</em>: Kontrollon shfaqjen ose jo të kartelave të fshehura.</li>
 
-    <li><em>Image auto-previews</em>: Controls whether previews of
-    graphic files are automatically generated on opening
-    folders.</li>
+    <li><em>Vetëparaparje pamjesh</em>: Kontrollon në prodhohen a jo vetvetiu, gjatë hapjes së dosjeve, paraparje për kartelat grafike.</li>
 
-    <li><em>Monitor enabled</em>: Whether changes in the filesystem
-    should be monitored to do automatic updates.</li>
+    <li><em>Mbikëqyrësi veprues</em>: Në duhen mbikëqyrur a jo ndryshimet në sistemin e kartelave, për të bërë përditësime të vetvetishme.</li>
 
-    <li><em>Default GTK mouse selection</em>: Whether to use the
-    default GTK treeview selection, or the custom mouse selection
-    introduced in 4.0.x.</li>
+    <li><em>Përzgjedhje me mi parazgjedhje GTK</em>: Të përdoret përzgjedhja parazgjedhje GTK në trajtë peme, apo përzgjedhja vetjake për miun e prurë për herë të parë me 4.0.x.</li>
 
-    <li><em>Resize fonts to match icons</em>: Whether font sizes
-    should be scaled up or down when icon size changes.</li>
+    <li><em>Ripërmaso gërmat në përputhje me ikonat</em>: Në duhen ripërmasuar a jo gërmat kur ndryshon madhësia e ikonave.</li>
 
-    <li><em>Disable autotrash collection</em>: By default, trash is
-    automatically collected in the trash branch. If you prefer to
-    manually collect trash, turn this off.</li>
+    <li><em>Çaktivizo vetëgrumbullim hedhurinash</em>: Si parazgjedhje, hedhurinat grumbullohen vetvetiu te dega hedhurina. Nëse parapëlqeni t'i grumbulloni dorazi, bëjeni ndryshimin këtu.</li>
 
-    <li><em>Disable text colors</em>: Use plain black and white for
-    listings instead of funky colors.</li>
+    <li><em>Çaktivizoni ngjyra teksti</em>: Përdorni bardhezi për lista në vend të ngjyrave lozonjare.</li>
 
-    <li><em>Disable cell editing</em>: Disallow renaming,
-    user/group changes, or mode modifications by direct inline
-    editing.</li>
+    <li><em>Çaktivizoni përpunime kutizash</em>: Çaktivizoni rimeërtime,
+    ndryshime përdoruesi/grupi, ose modifikime mënyre përmes përpunimi të drejtpërdrejtë "inline".</li>
 
-    <li><em>Invisible wastebaskets</em>: If you do not like to see
-    whether trash exists for directory when you open the folder,
-    check this item.</li>
+    <li><em>Kosha të padukshëm hedhurinash</em>: Nëse nuk doni të shihni në ka a jo hedhurina për drejtorinë kur hapni këtë dosje, i vini shenjë kësaj.</li>
 
-    <li><em>rcp before scp</em>: When a xffm receives a drop from
-    another xffm window on the same display, but running on a
-    different host, should the files be copied by rcp or scp? In
-    secure cluster configurations this should be rcp, but otherwise
-    scp.</li>
+    <li><em>rcp përpara scp</em>: Kur një xffm-je i mbërrin një hedhje nga një tjetër dritare xffm në po atë shfaqje, por që xhiron në një tjetër strehë, kartelat do të duheshin kopjuar nga rcp apo scp? Në formësime të sigurt klusterash kjo do të ishte mirë të qe rcp, përndryshe scp.</li>
 
-    <li><em>Verbose diagnostics</em>: If this is checked, the
-    amount of processing information which appears in the
-    diagnostics window will be enhanced.</li>
+    <li><em>Diagnostikim fjalaman</em>: Nëse e shenjoni, do të rritet sasia e të dhënave të përpunuara që shfaqet te dritarja e diagnostikimeve.</li>
   </ul>
 
-  <h3><a name="xffm-popupmenus"></a>The popup menus</h3>
+  <h3><a name="xffm-popupmenus"></a>Menutë fllucka</h3>
 
-  <p>The popup menu is dynamically configured, depending on what is
-  selected when the popup appears. In the following paragraphs we
-  shall examine the most common scenarios. The popup menu can be
-  shown by right clicking with the mouse or pressing F9</p><a name=
+  <p>Menutë fllucka formësohen në mënyrë dinamike, varet se çfarë është përzgjedhur në çastin që shfaqet fllucka. Në paragrafët vijues do të marrim në shqyrtim skenarët më të zakonshëm. Menuja flluckë mund të shfaqet duke djathtasklikuar me miun ose duke shtypur F9</p><a name=
   "book-menu-fig"></a>
 
-  <p><b>Figure 8. The book popup menu</b></p><img src=
-  "/images/documentation/4.2/book_popup.png" alt="The menu. " />
+  <p><b>Figurë 8. Menuja flluckë për libra</b></p><img src=
+  "/images/documentation/4.2/book_popup.png" alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  also open a named book, open the default book, list all named
-  books, create a new book, and save the current book with a new
-  name.</p><a name="frequent-menu-fig"></a>
+  <p>Përveç veprimeve normale, prej kësaj menuje flluckë mund të hapni gjithashtu një libër me emër të dhënë, të hapni librin parazgjedhje, të radhisni të librat e emërtuar, të krijoni një libër të ri, dhe të ruani librin e çastit me një emër të ri.</p><a name="frequent-menu-fig"></a>
 
-  <p><b>Figure 9. The frequent popup menu</b></p><img src=
-  "/images/documentation/4.2/frequent_popup.png" alt="The menu. " />
+  <p><b>Figurë 9. Menuja flluckë për më të shpeshtën</b></p><img src=
+  "/images/documentation/4.2/frequent_popup.png" alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  reset the frequency threshold from the default value of 13
-  hits.</p><a name="recent-menu-fig"></a>
+  <p>Përveç veprimeve normale, nga kjo menu flluckë mund të ricaktoni prag shpeshtie tjetër nga vlera parazgjedhje 13 goditje.</p><a name="recent-menu-fig"></a>
 
-  <p><b>Figure 10. The recent popup menu</b></p><img src=
-  "/images/documentation/4.2/recent_popup.png" alt="The menu. " />
+  <p><b>Figurë 10. Menuja flluckë për më të fundmet</b></p><img src=
+  "/images/documentation/4.2/recent_popup.png" alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  reset the recent threshold from the default value of 3
-  days.</p><a name="fstab-mount-fig"></a>
+  <p>Përveç veprimeve normale, prej kësaj menuje flluckë mund të ricaktoni pragun për më të fundmet tjetër nga vlera parazgjedhje 3.</p><a name="fstab-mount-fig"></a>
 
-  <p><b>Figure 11. The fstab popup menu
-  (mount/unmount)</b></p><img src="/images/documentation/4.2/fstab_popup_mount.png"
-  alt="The menu. " />
+  <p><b>Figurë 11. Menuja flluckë për fstab (monto/çmonto)</b></p><img src="/images/documentation/4.2/fstab_popup_mount.png"
+  alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  either mount or unmount volumes which are listed in the fstab
-  file information (they may be SMB shares, NFS volumes or local
-  filesystems).</p><a name="trash-menu-fig"></a>
+  <p>Përveç veprimeve normale, prej kësaj menuje flluckë mund të montoni ose çmontoni vëllime që tregohen te kartela e të dhënave fstab (këta mund të jenë pjesë SMB, vëllime NFS ose sisteme vendorë kartelash).</p><a name="trash-menu-fig"></a>
 
-  <p><b>Figure 12. The trash popup menu</b></p><img src=
-  "/images/documentation/4.2/trash_popup.png" alt="The menu. " />
+  <p><b>Figurë 12. Menuja flluckë për hedhurinat</b></p><img src=
+  "/images/documentation/4.2/trash_popup.png" alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  permanently delete all the collected trash from the filesystem.
-  You can also clear the contents of the trash, in which case you
-  would have to collect trash from the directory popup to make it
-  appear again.</p><a name="directory-menu-fig"></a>
+  <p>Përveç veprimeve normale, prej kësaj menuje flluckë mund të fshini përgjithnjë tërë hedhurinat e mbledhura prej sistemit të kartelave.
+  Mund të pastroni po ashtu përmbajtjen e koshit të hedhurinave, e në këtë rast do t'ju duhej të grumbullonit hedhurinat prej flluckës për drejtorinë për ta bërë të duket sërish.</p><a name="directory-menu-fig"></a>
 
-  <p><b>Figure 13. The directory popup menu</b></p><img src=
-  "/images/documentation/4.2/directory_popup.png" alt="The menu. " />
+  <p><b>Figurë 13. Menuja flluckë për drejtoritë</b></p><img src=
+  "/images/documentation/4.2/directory_popup.png" alt="Menuja. " />
 
-  <p>Aside from the normal operations, from this popup menu you can
-  create gzipped or bzipped tarballs. You can also create iso
-  filesystem files to directly burn CD-RW volumes.</p><a name=
+  <p>Përveç veprimeve normale, prej kësaj menuje flluckë mund të krijoni 
+  "tarball"-e .gzip ose .bzip. Mund të krijoni gjithashtu kartela sistemi kartelash iso për të shkruajtur drejtpërsëdrejti vëllime CD-RW.</p><a name=
   "directory-menu-unmount-fig"></a>
 
-  <p><b>Figure 14. The directory popup menu
-  (unmount)</b></p><img src="/images/documentation/4.2/directory_popup_unmount.png"
-  alt="The menu. " />
+  <p><b>Figurë 14. Menuja flluckë për drejtoritë
+  (çmontim)</b></p><img src="/images/documentation/4.2/directory_popup_unmount.png"
+  alt="Menuja. " />
 
-  <p>In the case where a directory is also listed in the fstab file
-  as a mount point, you can mount/unmount volumes from this
-  popup.</p><a name="file-popup-fig"></a>
+  <p>Në rastin kur një drejtori tregohet gjithashtu si pikë montimi te kartela fstab, mund të montoni/çmontoni vëllime prej kësaj fllucke.</p><a name="file-popup-fig"></a>
 
-  <p><b>Figure 15. The file popup menu</b></p><img src=
-  "/images/documentation/4.2/file_popup.png" alt="The menu. " />
+  <p><b>Figurë 15. Menuja flluckë për kartela</b></p><img src=
+  "/images/documentation/4.2/file_popup.png" alt="Menuja. " />
 
-  <p>The file popup has all the operations normally performed on
-  files. Depending on the mimetype of the selected file, you may
-  get several options with which to open the file. These options
-  are constructed from the system wide mimetype applications, the
-  user mimetype applications (constructed by clicking
-  <em>remember</em> when the <em>open with</em> function is used),
-  and the last application used to open the file (whether
-  <em>remember</em> was checked or not). Thus in the above figure
-  you can observe that the TeX file selected has several option
-  with which to open it with.</p>
+  <p>Fllucka për kartelat përmban tërë veprimet që kryhen zakonisht mbi kartela. Në varësi të tipit MIME të kartelës së përzgjedhur, mund të kini disa mundësi të ndryshme veprimesh përmes të cilave të hapni një kartelë. Këto mundësi krijohen mbi bazën e tipeve MIME të vlefshëm në shkallë sistemi, tipe MIME zbatimesh përdoruesi (krijuar duke klikuar
+  <em>mbaje mend</em> kur përdoret funksioni <em>hape me</em>),
+  dhe të zbatimit të fundit të përdorur për hapjen e kartelës (pavarësisht nëse është përzgjedhur a jo <em>mbaje mend</em>). Kështu në figurën më sipër mund të shihni që kartela TeX e përzgjedhur ka disa mundësi me anë të të cilave mund të hapet.</p>
 
-  <p>Further file operations are included in the file submenu,
-  described below and which may be quickly accessed with
-  F8.</p><a name="file-submenu-fig"></a>
+  <p>Veprime të mëtejshëm mbi kartelat përfshihen te nënmenuja e kartelave,
+  e përshkruar më poshtë dhe tek e cila mund të hyhet shpejt përmes F8.</p><a name="file-submenu-fig"></a>
 
-  <p><b>Figure 16. The file popup submenu</b></p><img src=
-  "/images/documentation/4.2/file_subpopup.png" alt="The menu. " />
+  <p><b>Figurë 16. Nënmenuja flluckë për kartelat</b></p><img src=
+  "/images/documentation/4.2/file_subpopup.png" alt="Menuja. " />
 
-  <p>The file submenu which may be quickly accessed with F8,
-  contains the basic operations normally done to the
-  filesystem:</p>
+  <p>Te nënmenuja për kartelat mund të hyhet shpejt përmes F8,
+  e përmban veprimet bazë të kryera normalisht mbi sistemin e kartelave:</p>
 
   <ul type="disc">
-    <li><em>Properties</em>: Modify the file's user/group or mode
-    information (also may be done by inline editing of the
-    fields).</li>
+    <li><em>Veti</em>: Ndryshoni file's përdorues/grup të kartelës ose të dhëna mënyre (çka mund të bëhet po ashtu edhe përmes përpunimi të fushave nga brenda).</li>
 
-    <li><em>New file</em>: Creates a new file in the selected
-    directory.</li>
+    <li><em>Kartelë e re</em>: Krijon një kartelë të re te drejtoria e përzgjedhur.</li>
 
-    <li><em>New directory</em>: Creates a new directory within the
-    selected directory.</li>
+    <li><em>Drejtori e re</em>: Krijon një drejtori të re brenda drejtorisë së përzgjedhur.</li>
 
-    <li><em>Print</em>: Prints the selected file using
+    <li><em>Shtyp</em>: Shtyp kartelën e përzgjedhur duke përdorur
     <b><tt>xfprint4</tt></b></li>
 
-    <li><em>Duplicate</em>: Creates a duplicate of the selected
-    file or directory.</li>
+    <li><em>Dyfishoje</em>: Krijon një kopje të kartelës apo drejtorisë së përzgjedhur.</li>
 
-    <li><em>Symlink</em>: Creates a symlink of the selected
-    directory or file (also available by ctl-shift dragging or
-    paste-linking the pasteboard).</li>
+    <li><em>Simlidhje</em>: Krijon një simlidhje të drejtorisë ose kartelës së përzgjedhur (e passhme gjithashtu përmes tërheqjeje duke pasur ndërkohë të shtypur ctl-shift ose përmes ngjitje-lidhjeje nga e papastra).</li>
 
-    <li><em>Touch</em>: Touch the file or directory.</li>
+    <li><em>Prek</em>: Prek kartelën ose drejtorinë.</li>
 
-    <li><em>Rename</em>: Rename the file or directory (also
-    available via inline editing.</li>
+    <li><em>Riemërto</em>: Riemërto kartelën ose drejtorinë (e mundshme gjithashtu edhe me përpunim nga brenda.</li>
 
-    <li><em>Scramble</em>: Password scrambles the file. If the
-    filemanager is compiled with the --enable-scrambledir option,
-    then this item will not be greyed out for directories and the
-    whole directory can be recursively scrambled with the same
-    password.</li>
+    <li><em>Përziej</em>: Përzieje kartelën dhe mbroje me fjalëkalim. Nëse përgjegjësi i kartelave përpilohet me mundësinë --enable-scrambledir,
+atëherë ky objekt nuk do të jetë në ngjyrë hiri kur bëhet fjalë për drejtoritë, dhe e tërë drejtoria mund të përziehet e ngatërrohet qëllimisht për ta mbrojtur me të njëjtin fjalëkalim.</li>
 
-    <li><em>Unscramble</em>: Unscrambles the file. The mimetype
-    extension for scrambled files is .cyt, so that this option is
-    grayed out if the selected file is not of the scrambled type.
-    If recursive scambling of directories is enabled at compile
-    time, this option will also be active for directories.</li>
+    <li><em>Çpërziej</em>: Çpërziej kartelën. Zgjatimi për tipin MIME të kartelave të përziera është .cyt, prandaj kjo mundësi është e zbehur nëse kartela e përzgjedhur nuk është e tipit të përzier. Nëse gjatë përpilimit ka qenë aktivizuar përzierja e drejtorive, kjo mundësi do të jetë vepruese edhe për drejtoritë.</li>
   </ul><a name="netfile-menu-fig"></a>
 
-  <p><b>Figure 17. The netfile popup menu</b></p><img src=
-  "/images/documentation/4.2/netfile_popup.png" alt="The menu. " />
+  <p><b>Figurë 17. Menuja flluckë për netfile</b></p><img src=
+  "/images/documentation/4.2/netfile_popup.png" alt="Menuja. " />
 
-  <p>The popup for SMB network files is similar to the one for
-  local files, but does not contain the file submenu.</p><a name=
+  <p>Fllucka për kartela SMB rrjeti është e ngjashme me atë për kartela vendore, por nuk përmban nënmenu kartelash.</p><a name=
   "columns-menu-fig"></a>
 
-  <p><b>Figure 18. The columns popup menu</b></p><img src=
-  "/images/documentation/4.2/column_titles_popup.png" alt="The menu. " />
+  <p><b>Figurë 18. Menuja flluckë për shtyllat</b></p><img src=
+  "/images/documentation/4.2/column_titles_popup.png" alt="Menuja. " />
 
-  <p>If you right click over the titles of the columns, you get the
-  <em>columns popup</em>. With this popup you can toggle which
-  columns you wish to be visible or not. By default configuration,
-  the right pane has all optional columns visible, and the left
-  column has none of the optional columns visible.</p><a name=
+  <p>nëse djathtasklikoni mbi titull shtyllash, ju del <em>fllucka e shtyllave</em>. Me këtë flluckë mund të bëni të dukshme ose jo shtyllat që doni. Sipas formësimit parazgjedhje, kuadrati djathtas ka tërë shtyllat e mundshme të dukshme, dhe shtylla majtas nuk ka të dukshme asnjë nga të mundshmet.</p><a name=
   "icon-title-smartbutton-fig"></a>
 
-  <p><b>Figure 19. The icon title smart button</b></p><img src=
-  "/images/documentation/4.2/icon_title_smartbutton.png" alt="The menu. " />
+  <p><b>Figurë 19. Butoni i mençur për titull ikone</b></p><img src=
+  "/images/documentation/4.2/icon_title_smartbutton.png" alt="Menuja. " />
 
-  <p>This is the popup for the icon column title. By keeping
-  pressed you make a popup of buttons appear. Release on any button
-  determines which one gets the click. These buttons are used to
-  toggle main branches on and off. If you want to see the fstab
-  branch, click on the fstab symbol. If you want to hide the local
-  branch, click on the local branch symbol.</p><a name=
+  <p>Kjo është fllucka për titullin e shtyllës së ikonave. Duke e mbajtur të shtypur ju del një flluckë butonash. Përzgjedhja e cilitdo buton përcakton cili fiton klikimin. Këta butona përdoren për të kaluar degët kryesore "on" dhe "off". Nëse doni të shihni degën fstab, klikoni mbi simbolin fstab. Nëse doni të fshini degën vendore, klikoni simbolin e degës vendore.</p><a name=
   "sort-popup-fig"></a>
 
-  <p><b>Figure 20. The sort popup submenu</b></p><img src=
-  "/images/documentation/4.2/sort_subpopup.png" alt="The menu. " />
+  <p><b>Figurë 20. Nënmenuja flluckë për renditje</b></p><img src=
+  "/images/documentation/4.2/sort_subpopup.png" alt="Menuja. " />
 
-  <p>The sort submenu allows you to toggle the set sorting method
-  for the treeview. The <em>unsorted</em> method implies a sorting
-  by name and subsorted by filetype. You may also toggle the
-  sorting method by clicking on the column titles. The purpose of
-  this menu is to make a sort method toggle available from the
-  keyboard.</p>
+  <p>Nënmenuja e renditjeve ju lejon të këmbeni metodën e renditjeve për parjen në trajtë peme. Metoda për <em>mosrenditje</em> nënkupton një radhitje sipas emrash dhe lloji kartelash. Mund të këmbeni metodën e renditjes duke klikuar te titujt e shtyllave. Qëllimi i kësaj menuje është të bëjë të mundur që nga tastiera një metodë për këmbim mënyre renditjeje.</p>
 
   
 
-  <h2><a name="Toolbar"></a>The toolbars</h2>
+  <h2><a name="Toolbar"></a>Panelet</h2>
 
-  <h3><a name="standard_toolbar"></a>The standard
-  toolbar</h3><a name="toolbar-fig"></a>
+  <h3><a name="standard_toolbar"></a>Paneli standard</h3><a name="toolbar-fig"></a>
 
-  <p><b>Figure 21. </b></p><img src="/images/documentation/4.2/toolbar.png" alt=
-  "The toolbar. " />
+  <p><b>Figurëe 21. </b></p><img src="/images/documentation/4.2/toolbar.png" alt=
+  "Paneli. " />
 
-  <p>The standard toolbar is a shortcut to many menu functions. By
-  right clicking on any button with a down arrow, you can appear or
-  dissappear the corresponding side bar. You can also bring up a
-  popup with the sidebar elements by pressing with the button and
-  not releasing. You then release on the popup element you desire
-  to click. The last clicked element of the group becomes the top
-  button visible in the toolbar.</p>
+  <p>Paneli standard është një shkurtore për te mjaft funksione menuje. Duke djathtasklikuar mbi cilindo buton me një shigjetë poshtë, mund të shfaqni ose zhdukni anështyllën përkatëse. Duke e shtypur dhe mbajtur të shtypur butonin, mund të nxirrni gjithashtu një flluckë me elementet e anështyllës. Mandej e lëshoni pasi të keni gjedhur elementin që dëshironi të klikohet. Elementi i klikuar i fundit prej grupi do të shndërrohet në butonin e epërm të dukshëm në panel.</p>
 
-  <h3><a name="menu_toolbar"></a>The menu toolbar</h3>
+  <h3><a name="menu_toolbar"></a>Paneli i menusë</h3>
 
-  <p>The menu toolbar consists of the following
-  elements:</p><a name="filter-fig"></a>
+  <p>Paneli i menusë përbëhet nga elementët vijues:</p><a name="filter-fig"></a>
 
-  <p><b>Figure 22. The filter box</b></p><img src=
-  "/images/documentation/4.2/filter_box.png" alt="The menu. " />
+  <p><b>Figurë 22. Kutia e filtrave</b></p><img src=
+  "/images/documentation/4.2/filter_box.png" alt="Menuja. " />
 
-  <p>This allows you to filter the contents of a directory before
-  being inserted into the treeview. Regular expressions such as
-  that shown in the figure are also acceptable (besides classic
-  filters like <em>*.c</em>). After changing the filter string,
-  refresh the view. If the treeview is hidden, nothing is
-  filtered.</p><a name="hide-show-buttons-fig"></a>
+  <p>Kjo ju lejon të filtroni përmbajtjen e një drejtorie përpara se të hyjë te pamja në trajtë peme. Pranohen po ashtu edhe shprehjet e rregullta si ajo e treguar në figurë (tej filtrave klasikë si <em>*.c</em>). Pas një ndryshimi vargu filtrash, rifreskoni pamjen. Nëse pamja në trajtë peme është e fshehur, nuk filtrohe gjë.</p><a name="hide-show-buttons-fig"></a>
 
-  <p><b>Figure 23. The hide/show buttons</b></p><img src=
-  "/images/documentation/4.2/hide_show_buttons.png" alt="The menu. " />
+  <p><b>Figurë 23. Butona fshih/shfaq</b></p><img src=
+  "/images/documentation/4.2/hide_show_buttons.png" alt="Menuja. " />
 
-  <p>In the menu toolbar, you have buttons for showing only the
-  right treeview (also with F12), the left treeview (also with
-  F11), viewing both treeviews (either F11 or F12 twice), and
-  hiding and showing the filter box and the standard toolbar. (If
-  you compiled with --enable-panel, you will have a second toolbar
-  reflectiong your xfce4-panel configuration, complete with hide
-  and unhide buttons, replacing the applications root branch from
-  <b><tt>xffm-4.0).</tt></b></p>
+  <p>Te paneli i menusë, keni butona për shfaqjen vetëm të pamjes në trajtë peme të anës së djathtë (edhe me F12), të pamjes në trajtë peme të anës së majtë (edhe me F11), parjen e të dyjaves (ose me F11 dy herë, ose me F12 prapë dy herë), dhe fshehjen dhe shfaqjen e kutisë së filtrave dhe të panelit standard. (Nëse e përpiluat me --enable-panel, do të keni një panel të dytë që pasqyron formësimin tuaj për xfce4-panel, të plotë me butona fshehje dhe shfaqje, i cili zëvendëson degën rrënjë për zbatime nga <b><tt>xffm-4.0).</tt></b></p>
 
-  <h3><a name="Sidebars"></a>The sidebars</h3>
+  <h3><a name="Sidebars"></a>Anështyllat</h3>
 
-  <p>There are several sidebars available in the default
-  configuration.</p><a name="file-submenu-sidebar-fig"></a>
+  <p>Sipas formësimit parazgjedhje ka disa anështylla të passhme.</p><a name="file-submenu-sidebar-fig"></a>
 
-  <p><b>Figure 24. The file submenu sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_filesubmenu.png" alt="The menu. " />
+  <p><b>Figurë 24. Anështylla për nënmenu kartelash</b></p><img src=
+  "/images/documentation/4.2/sidebar_filesubmenu.png" alt="Menuja. " />
 
-  <p>See &quot;<a href="#file-submenu-fig">File
-  submenu</a>&quot; for an explanation of the available options. Exactly
-  one item must be selected from the treeview for this sidebar to
-  be active.</p><a name="go-sidebar-fig"></a>
+  <p>Shihni &quot;<a href="#file-submenu-fig">Nënmenu kartelash</a>&quot; për nëj shpjegim të mundësive të mundshme. Duhet përzgjedhur saktësisht një objekt prej pamjes në trajtë peme që kjo anështyllë të jetë vepruese.</p><a name="go-sidebar-fig"></a>
 
-  <p><b>Figure 25. The go sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_go.png" alt="The menu. " />
+  <p><b>Figurë 25. Anështylla për Shko</b></p><img src=
+  "/images/documentation/4.2/sidebar_go.png" alt="Menuja. " />
 
-  <p>See &quot;<a href="#go-menu-fig">go menu</a>&quot; for an
-  explanation of the available options.</p><a name=
+  <p>Shihni &quot;<a href="#go-menu-fig">menunë për Shko</a>&quot; për një shpjegim rreth mundësive të mundshme.</p><a name=
   "multiple-select-sidebar-fig"></a>
 
-  <p><b>Figure 26. The multiple_select sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_multiple_select.png" alt="The menu. " />
+  <p><b>Figurë 26. Anështylla për përzgjedhje të shumëfishtë</b></p><img src=
+  "/images/documentation/4.2/sidebar_multiple_select.png" alt="Menuja. " />
 
-  <p>You can create a new file or directory or open the properties
-  dialog from here. At least one item must be selected from the
-  treeview for this to be active. See &quot;<a href="#file-submenu-fig"
- >File submenu</a>&quot; for an explanation of the
-  available options.</p><a name="open-sidebar-fig"></a>
+  <p>Prej këtej mund të krijoni një kartelë apo drejtori të re, ose të hapni dialogun e vetive. Duhet përzgjedhur e pakta një objekt prej pamjes në trajtë peme, që kjo të jetë vepruese. Shihni &quot;<a href="#file-submenu-fig"
+ >Nënmenu kartelash</a>&quot; për një shpjegim të mundësive të passhme.</p><a name="open-sidebar-fig"></a>
 
-  <p><b>Figure 27. The open sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_open.png" alt="The menu. " />
+  <p><b>Figurë 27. Anështylla për hapjet</b></p><img src=
+  "/images/documentation/4.2/sidebar_open.png" alt="Menuja. " />
 
-  <p>See &quot;<a href="#open-menu-fig">open menu</a>&quot; for
-  an explanation of the available options.</p><a name=
+  <p>Shihni &quot;<a href="#open-menu-fig">menunë hap</a>&quot; për një shpjegim të mundësive të passhme.</p><a name=
   "options-sidebar-fig"></a>
 
-  <p><b>Figure 28. The options sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_options.png" alt="The menu. " />
+  <p><b>Figurë 28. Anështylla e mundësive</b></p><img src=
+  "/images/documentation/4.2/sidebar_options.png" alt="Menuja. " />
 
-  <p>See &quot;<a href="#options-menu-fig">options
-  menu</a>&quot; for an explanation of the available
-  options.</p><a name="paste-sidebar-fig"></a>
+  <p>Shihni &quot;<a href="#options-menu-fig">menu mundësish</a>&quot; për një shpjegim të mundësive të passhme.</p><a name="paste-sidebar-fig"></a>
 
-  <p><b>Figure 29. The paste sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_paste.png" alt="The menu. " />
+  <p><b>Figurë 29. Anështyllë ngjitjesh</b></p><img src=
+  "/images/documentation/4.2/sidebar_paste.png" alt="Menuja. " />
 
-  <p>You can paste the contents of the pasteboard, or paste-link
-  the contents of the pasteboard. The paste-link function creates
-  symlinks of the files referenced in the pasteboard.</p><a name=
+  <p>Mund të ngjisni përmbajtjen e të papastrës, ose të lidhngjisni përmbajtjen e të papastrës. Funksioni i lidhngjitjes krijon simlidhje të kartelave që përmbahen te e papastra.</p><a name=
   "tools-sidebar-fig"></a>
 
-  <p><b>Figure 30. The tools sidebar</b></p><img src=
-  "/images/documentation/4.2/sidebar_tools.png" alt="The menu. " />
+  <p><b>Figure 30. Anështylla e mjeteve</b></p><img src=
+  "/images/documentation/4.2/sidebar_tools.png" alt="Menuja. " />
 
-  <p>See &quot;<a href="#tools-menu-fig">tools menu</a>&quot;
-  for an explanation of the available options.</p>
+  <p>Shihni &quot;<a href="#tools-menu-fig">menunë e mjeteve</a>&quot;
+  për një shpjegim të mundësive të passhme.</p>
 
   
 
-  <h2><a name="xffm-settings"></a>The
-  xfce-mcs-manager</h2><a name="mcs-plugin-fig"></a>
+  <h2><a name="xffm-settings"></a>Xfce-mcs-manager</h2><a name="mcs-plugin-fig"></a>
 
-  <p><b>Figure 31. The mcs plugin</b></p><img src=
-  "/images/documentation/4.2/mcs-plugin.png" alt="The menu. " />
+  <p><b>Figurë 31. Shtojca mcs</b></p><img src=
+  "/images/documentation/4.2/mcs-plugin.png" alt="Menuja. " />
 
-  <p>Certain functions perform better if configured with the mcs
-  manager plugin.</p>
+  <p>Disa funksione përmbushen më mirë po qe se formësohen me shtojcën për përgjegjësin mcs.</p>
 
-  <p>On deleting a file, the confirmation dialog will default to
-  one of three buttons: cancel, wastebasket or unlink. Choose
-  whatever you prefer here.</p>
+  <p>Gjatë fshirjes së një kartele, dialogu i ripohimi do të shfaqë, si parazgjedhje, një nga tre butonat: anulo, kosh hedhurinash ose zgjidhe. Zgjidhni kë t'ju pëlqejë.</p>
 
-  <p>If you don't want any output at all to the diagnostics window,
-  check the <em>Disable diagnostics</em> option</p>
+  <p>Po qe se s'doni ndonjë përfundim te dritarja e diagnostikimeve,
+  i vini shenjë mundësisë <em>Çaktivio diagnistikimet</em></p>
 
-  <p>If want to hold the output of xterms or xfce4-terminals opened
-  by the filemanager, check the <em>Hold xterms</em> option</p>
+  <p>Në doni të mbani përfundimin prej xterms apo xfce4-terminals hapur prej përgjegjësit të kartelave, i vini shenjë mundësisë <em>Mbaj xterms</em></p>
 
-  <p>If want to take full advantage of the the mount/unmount
-  functions provided by the filemanager, it is best you install
-  <b><tt>sudo</tt></b> and have it properly configured to allow
-  mount/unmount. If <b><tt>sudo</tt></b> requires a password, the
-  filemanager will prompt you accordingly. Check the <em>Mount with
-  sudo</em> option for this.</p>
+  <p>Në doni të përfitoni plotësisht nga funksionet monto/çmonto që ofrn përgjegjëi i kartelave, rruga më e mirë është të instaloni <b><tt>sudo</tt></b> dhe ta formësoni si duhet, në mënyrë që të lejojë montime/çmontime. Nëse <b><tt>sudo</tt></b> lyp fjalëkalim, përgjegjësi i kartelave do t'ua kërkojë kur të jetë nevoja. I vini shenjë mundësisë <em>Montoje me sudo</em> që të bëhet kjo.</p>
 
-  <p>The last part of the mcs plugin allows you to set environment
-  variables on the fly:</p>
+  <p>Pjesa e fundit e shtojcës mcs ju lejon të përcaktoni fluturimthi ndryshore mjedisi:</p>
 
   <ul type="disc">
-    <li><em>TERMCMD</em>: The command used for opening
-    terminals.</li>
+    <li><em>TERMCMD</em>: Urdhri i përdorur për hapje terminalesh.</li>
 
-    <li><em>LANG</em>: The environment variable LANG passed on by
-    the filemanager to the applications it opens. You only need to
-    change this if you want this variable to be different from that
-    which is used for the filemanager.</li>
+    <li><em>LANG</em>: Ndryshorja LANG e mjedisit që përgjegjësi i kartelave u kalon zbatimeve të hapur prej tij. Lypset ta ndërroni këtë vetëm nëse dëshironi që kjo ndryshore të jetë tjetër nga ajo e përdorur prej përgjegjësit të kartelave.</li>
 
-    <li><em>XFFM_HOME</em>: The path that the filemanager goes to
-    when the <em>Go home</em> function is selected.</li>
+    <li><em>XFFM_HOME</em>: Shtegu që ndjek përgjegjësi i kartelave kur përzgjidhet funksioni <em>Shko në hyrje</em>.</li>
 
-    <li><em>SMB_USER</em>: The default username%password used for
-    SMB network queries.</li>
+    <li><em>SMB_USER</em>: Username%password parazgjedhje i përdorur për kërkesa rrjeti SMB.</li>
 
-    <li><em>SMB_CODESET</em>: Code set used to interpret non-ascii
-    characters on remote SMB servers.</li>
+    <li><em>SMB_CODESET</em>:Kodim gërmash i përdorur për interpretim shenjash jo-ascii në shërbyesa SMB të largët.</li>
 
-    <li><em>XFFM_STATUS_LINE_LENGTH</em>: Defines the maximum
-    length of the strings which appear in the status line. This
-    option is provided to avoid the width of the filemanager window
-    to grow beyond the user's choice.</li>
+    <li><em>XFFM_STATUS_LINE_LENGTH</em>: Përcakton gjatësinë më të madhe për vargjet që duken te rresht gjendjeje. Kjo mundësi sillet për të shmangur rritjen e gjerësisë së dritares për përgjegjës kartelash tej zgjedhjes së përdoruesit.</li>
 
-    <li><em>XFFM_MAX_PREVIEW_SIZE</em>: This environment variable
-    defines the maximum size for image preview (by default set at
-    256 KB). Note that some previews may not be generated if they
-    are too thin or too wide. To view these, install image-magick
-    and use double click to view these these files.</li>
+    <li><em>XFFM_MAX_PREVIEW_SIZE</em>: Kjo ndryshore mjedisi përcakton madhësinë më të madhe për paraparje pamjesh (vendosur, si parazgjedhje, në masën 256 KB). Mbani shënim që disa paraparje mund të mos prodhohen dot nëse janë shumë të ngushta, ose shumë të gjera. Për të parë këto, instaloni image-magick dhe përdorni dyklikim për parjen e këtyre kartelave.</li>
   </ul>
 
   
 
-  <h2><a name="diagnostics"></a>The diagnostics
-  window</h2><a name="diagnostics-window-fig"></a>
+  <h2><a name="diagnostics"></a>Dritarja e diagnostikimeve</h2><a name="diagnostics-window-fig"></a>
 
-  <p><b>Figure 32. The diagnostics window</b></p><img src=
-  "/images/documentation/4.2/diagnostics_window.png" alt="The menu. " />
+  <p><b>Figurë 32. Dritarja e diagnostikimeve</b></p><img src=
+  "/images/documentation/4.2/diagnostics_window.png" alt="Menuja. " />
 
-  <p>This is the window where output from commands performed by the
-  filemanager is displayed. If you wish to increase the verbosity,
-  use the <em>verbose</em> <a href="#preferences-menu-fig"
-  >preference</a>, and if you want to disable the output
-  altogether, use the <a href="#mcs-plugin-fig">mcs
-  plugin</a>.</p>
+  <p>Kjo është dritarja ku shfaqet përfundimi i urdhrave të përmbushur nga përgjegjësi i kartelave. Në e daçi më tepër fjalamane, përdorni <a href="#preferences-menu-fig"
+  >parapëlqimin</a> <em>fjalamane</em>, dhe nëse doni ta çaktivizoni fund e krye, përdorni <a href="#mcs-plugin-fig">shtojcën mcs</a>.</p>
 
   
 
   <h2><a name="FAQ"></a>FAQ</h2>
 
-  <h3><a name="FAQ1"></a>Is there an icon view?</h3>
+  <h3><a name="FAQ1"></a>A ka parje në trajtë ikonash?</h3>
 
-  <p>This will probably appear in version 4.4</p>
+  <p>Ka gjasa që kjo të vijë me versionin 4.4</p>
 
-  <h3><a name="FAQ2"></a>How can I customize the icons?</h3>
+  <h3><a name="FAQ2"></a>Si mund të përshtas ikonat?</h3>
 
-  <p>Use the <b><tt>xfmime-edit</tt></b> program (in options menu).
-  This program works with drag and drop or inline editing. Upon
-  saving, you will create the necessary mime.xml file in
-  $HOME/.themes directory. You can also invoke
-  <b><tt>xfmime-edit</tt></b> from a terminal command line. The
-  iconset used will be that selected from xfce-setting-show (user
-  interface).</p>
+  <p>Përdorni programin <b><tt>xfmime-edit</tt></b> (prej menusë së mundësive).
+  Ky program funksionon me përpunime të trajtës merr-dhe-vër ose nga brenda. Gjatë ruajtjes, do të krijoni kartelën e nevojshme mime.xml te drejtoria $HOME/.themes. Mund ta thërrisni <b><tt>xfmime-edit</tt></b> prej një terminali rreshti urdhrash. Grupi i ikonave i përdorur do të jetë ai i përzgjedhur te xfce-setting-show (ndërfaqja e përdoruesit).</p>
 
-  <h3><a name="FAQ3"></a>Can I use the find utility without GUI
-  input/output?</h3>
+  <h3><a name="FAQ3"></a>A mund ta përdor gjetjen pa futje/përfundim GUI?</h3>
 
-  <p>Yes. From command line execute <b><tt>fgr</tt></b>.</p>
+  <p>Po. Ekzekutoni <b><tt>fgr</tt></b> prej rreshti urdhrash.</p>
 
-  <h3><a name="FAQ4"></a>Can I execute the differences window from
-  other filemanagers?</h3>
+  <h3><a name="FAQ4"></a>Mund të përmbush dritare ndryshimesh prej përgjegjësish të tjerë kartelash?</h3>
 
-  <p>Sure. Just open the selected files with xfdiff4.</p>
+  <p>Sigurisht. Thjesht hapni kartelat e përzgjedhura me xfdiff4.</p>
 
-  <h3><a name="FAQ5"></a>Can I scramble/unscramble from the command
-  line?</h3>
+  <h3><a name="FAQ5"></a>A mund të bëj përzierje/çpërzierje prej rreshti urdhrash?</h3>
 
-  <p>Yes. Just use the <b><tt>scramble</tt></b> program from a
-  terminal. This program will act recursively on directories.</p>
+  <p>Po. Thjesht përdorni programin <b><tt>scramble</tt></b> prej një terminali. Ky program do të veprojë në mënyrë gjithëpërfshirëse në drejtoritë.</p>
 
-  <h3><a name="FAQ6"></a>What happens to Xfsamba with SMB servers
-  on remote subnets?</h3>
+  <h3><a name="FAQ6"></a>Ç'ndodh te Xfsamba me shërbyesa SMB në nënrrjete të largët?</h3>
 
-  <p>If you want to see servers on a remote subnet (beyond a
-  router), then you <em>must</em> have a domain master on each
-  subnet. You can define your local host to be a domain master with
-  the samba configuration file.</p>
+  <p>Në daçi të shihni shërbyesa në një nënrrjet të largët (përtej një rrugëzuesi), atëherë <em>duhet</em> të keni një "domain master" në secilin nënrrjet. Te kartela e formësimit të sambas, mund ta përcaktoni strehën vendore tuaj të jetë një "domain master".</p>
 
-  <h3><a name="FAQ7"></a>What can Xfsamba do if there is no domain
-  master on the remote subnet?</h3>
+  <h3><a name="FAQ7"></a>Ç'mund të bëjë Xfsamba nëse nuk ka "domain
+  master" te nënrrjeti i largët?</h3>
 
-  <p>If there is no domain master on the remote subnet, you can
-  still connect to a server if you know its BIOS name. Just use the
-  <em>go to</em> function and preceed the server name with a double
-  slash, i.e., <em>//server</em>. In order for this to work, both
-  your local machine and the remote server <em>must</em> be
-  configured to use the same WINS server.</p>
+  <p>Nëse nuk ka "domain master" te nënrrjeti i largët, prapë mund të
+lidheni te një shërbyes po qe se njihni emrin e tij BIOS. Thjesht përdorni funksionin <em>shko tek</em> dhe paraprijini emrit të shërbyesit me një dyshe pjerrësesh, d.m.th., <em>//shërbyes</em>. Që të funksionojë kjo, si makina juaj vendore, ashtu edhe shërbyesi i largët <em>duhen</em> formësuar të përdorin të njëjtin shërbyes WINS.</p>
 
-  <h3><a name="FAQ8"></a>What's the Xfsamba problem with non-ascii
-  characters?</h3>
+  <h3><a name="FAQ8"></a>Ç'problem ka Xfsamba me shenjat jo-ascii?</h3>
 
-  <p>The character set which is used by the remote server is
-  determined by the remote server. And this varies according to the
-  operating system. The result: a mess. Xfsamba tries its best to
-  guess what's right and you can help by defining the SMB_CODESET
-  with the <a href="#xffm-settings">MCS manager</a>.
-  YMMV. If you have problems with transferring files with non-ascii
-  embedded characters, use the popup menu to mount the remote share
-  as a local file system.</p>
+  <p>Kodimi i gërmave që përdoret nga shërbyesi i largët përcaktohet po nga ky vetë. Dhe kjo varet nga sistemi operativ. Përfundimi: rrëmujë hesapi. Xfsamba bën sa mundet të hamendësojë se ç'është e saktë dhe ju mund të ndihmoni përmes përcaktimit të SMB_CODESET me ndihmën e <a href="#xffm-settings">përgjegjësit MCS</a>.
+  Përfundimi varet. Në paçi probleme me shpërngulje kartelash me shenja jo-ascii të trupëzuara në to, përdorni menunë flluckë që të montoni ndarjen e largët si sistem vendor kartelash.</p>
 
-  <h3><a name="FAQ9"></a>How can I make the sidebar go away?</h3>
+  <h3><a name="FAQ9"></a>Si mund ta bëj një anështyllë të hiqet qafe?</h3>
 
-  <p>Click on it with button 3.</p>
+  <p>Klikoni mbi të me butonin 3.</p>
 
-  <h3><a name="FAQ10"></a>How can I make the sidebar come
-  back?</h3>
+  <h3><a name="FAQ10"></a>Si mund ta kthej prapë anështyllën?</h3>
 
-  <p>Click with button 3 on any toolbar that has a dropdown
-  arrow.</p>
+  <p>Klikoni me butonin 3 mbi cilëndo anështyllë që ka një shigjetë për hapmbyll.</p>
 
-  <h3><a name="FAQ11"></a>What do the F-keys do?</h3>
+  <h3><a name="FAQ11"></a>Çfarë bëjnë tastet F-diçka?</h3>
 
-  <p>Press on F1 to find out.</p>
+  <p>Shtypni F1 që ta merrni vesh.</p>
 
-  <h3><a name="FAQ12"></a>Why does the xftree file monitor refuse
-  to watch out for changes on some directories?</h3>
+  <h3><a name="FAQ12"></a>Përse nuk pranon mbikëqyrësi xftree i kartelave të shohë për ndryshime në disa drejtori?</h3>
 
-  <p>If a directory takes longer than a certain amount of time to
-  reload (non-configurable option), then xftree will not reload
-  automatically when changes are detected. Use the reload button,
-  or CTRL-Z, to refresh.</p>
+  <p>Nëse ringarkimi i një drejtorie zgjat më tepër se njëfarë kohe (mundësi e paformësueshme), xftree-ja nuk do ta ringarkojë vetvetiu kur zbulon ndryshime. Për rifreskim, përdorni butonin ringarko ose CTRL-Z.</p>
 
-  <h3><a name="FAQ13"></a>How do I burn a CDRW?</h3>
+  <h3><a name="FAQ13"></a>Si mund të shkruaj një CDRW?</h3>
 
-  <p>Select the directory. Then with the popup menu, select
-  <em>Create isofs</em>. Choose an output directory and wait until
-  completion. Then select the newly created isofs file and bring up
-  the popup menu. Select <em>cdrecord</em> (or <em>burncd</em> on
-  systems which use this program instead). Wait for burn to
-  finish.</p>
+  <p>Përzgjidhni drejtorinë. Mandej, me menunë flluckë, përzgjidhni
+  <em>Krijo isofs</em>. Zgjidhni një drejtori për përfundimin dhe prisni deri sa të plotësohet. Mandej përzgjidheni kartelën isofs të krijuar rishtazi dhe shfaqni menunë fluckë. Përzgjidhni <em>cdrecord</em> (ose <em>burncd</em> në sisteme që përdorin këtë program). Prisni të mbarohet.</p>
 
-  <h3><a name="FAQ14"></a>What's the command used for burning a
-  CDRW?</h3>
+  <h3><a name="FAQ14"></a>Cili është urdhri i përdorur për shkrim të një
+  CDRW-je?</h3>
 
-  <p>Depending on whether <b><tt>sudo</tt></b> and
-  <b><tt>cdrecord</tt></b> or <b><tt>burncd</tt></b> is installed,
-  you will have the following commands to burn a CDRW:</p>
+  <p>Në varësi se çfarë është instaluar, <b><tt>sudo</tt></b> dhe
+  <b><tt>cdrecord</tt></b> apo <b><tt>burncd</tt></b>, do t'ju të ndiqni urdhrat vijues që të shkruani një CDRW:</p>
 
   <ul type="disc">
     <li><b><tt>burncd -f /dev/acd0 -s max data %s
@@ -934,59 +731,35 @@
     %s</tt></b></li>
   </ul>
 
-  <p>You should be able to select the isofs file and use the
-  <em>open with</em> function to use your own custom command if
-  these defaults are not appropriate.</p>
+  <p>Do të duhej të ishit në gjendje të përzgjidhnit kartelën isofs dhe të përdorni funksionin <em>hape me</em> që të mund të përdorni urdhrin tuaj vetjak nëse këto parazgjedhje nuk ju mbarojnë punë.</p>
 
-  <h3><a name="FAQ15"></a>What criteria is used for
-  autocompletion?</h3>
+  <h3><a name="FAQ15"></a>Çfarë kriteri përdoret për vetëplotësim?</h3>
 
-  <p>Last used string has top score. Otherwise the autocompletion
-  strings are sorted with the most frequently used entries at the
-  top.</p>
+  <p>Vargu i përdorur së fundmi ka përparësinë më të madhe. Përndryshe vargjet për vetëplotësime radhitem me zërat më të përdorur në krye.</p>
 
-  <h3><a name="FAQ16"></a>How do I register a new application for a
-  specific mimetype?</h3>
+  <h3><a name="FAQ16"></a>Si e regjistroj një zbatim të ri për një tip MIME të dhënë?</h3>
 
-  <p>Use the popup menu and select the <em>open with</em> function.
-  Write in the string to be used to open the program. You can use
-  &quot;%s&quot; to place the selected file path in a place other than the
-  end. Check the <em>Remember</em> box. If the command fails to
-  execute, nothing will be registered.</p>
+  <p>Përdorni menunë flluckë dhe përzgjidhni funksionin <em>hape me</em>.
+  Shkruani aty vargun që do përdoret për të hapur programin. Mund të përdornit &quot;%s&quot; për të vendosur shtegun e kartelës së përzgjedhur në një vend tjetër nga ai në fund. I vini shenjë kutizës <em>Mbaje mend</em>. Nëse dështon përmbushja e urdhrit, nuk ka për tu regjistruar gjë.</p>
 
-  <h3><a name="FAQ17"></a>What's the &quot;hold&quot; checkbutton on execute
-  good for?</h3>
+  <h3><a name="FAQ17"></a>Përse hyn në punë butoni &quot;mbaje&quot; gjatë ekzekutimesh?</h3>
 
-  <p>Say you want to execute a terminal command with output to
-  STDOUT, like <b><tt>ls /tmp</tt></b>. In order to keep the
-  terminal window open so you can see what was output, use the hold
-  command. Once the output is no longer needed, you must manually
-  destroy the terminal window. If the <em>Hold xterms</em> is
-  selected in the <a href="#xffm-settings">MCS
-  manager</a>, then all xterms are <em>held</em> and the checkbox
-  will be grayed out.</p>
+  <p>Le ta zëmë se doni të përmbushni një urdhër terminali me përfundim dhënë te STDOUT, të themi <b><tt>ls /tmp</tt></b>. Për mbajtjen hapur të dritares së terminalit që të mund të shihni përfundimin, përdorni urdhrin mbaj. Pasi të mos ju hyjë në punë më përfundimi, duhet ta shkatërroni dorazi dritaren e terminalit. Nëse është përzgjedhur <em>Hold xterms</em> te <a href="#xffm-settings">përgjegjësi MCS</a>, atëherë tërë xterms-et <em>mbahen</em> dhe kutia për shenjë do të jetë në ngjyrë gri.</p>
 
-  <h3><a name="FAQ18"></a>How can you scroll down quickly with the
-  keyboard?</h3>
+  <h3><a name="FAQ18"></a>Si mund të rrëshqas shpejt poshtë me tastierën?</h3>
 
-  <p>Typing any letter will scroll you down to the first row
-  starting with that letter (at current selected level). If you
-  want to scroll backwards, use SHIFT-letter. There is no
-  distinguishing between lower and upper case.</p>
+  <p>Shtypja e cilësdo gërmë do t'ju rrëshqasë poshtë te rreshti i parë që fillon me atë gërmë (në nivelin e përzgjedhur në atë çast). Në daçi të rrëshqisni në kah të kundërt, përdorni SHIFT-gërmë. Nuk ka dallim midis të mëdhajash dhe të voglash.</p>
 
-  <h3><a name="FAQ19"></a>How can you double click with the
-  keyboard?</h3>
+  <h3><a name="FAQ19"></a>Si bëhet dyklikimi me tastierën?</h3>
 
-  <p>Press <em>return</em> (and in some cases,
-  <em>right-arrow</em>).</p>
+  <p>Shtypni <em>return</em> (e në disa raste,
+  <em>shigjetën djathtas</em>).</p>
 
-  <h3><a name="FAQ20"></a>How can you switch between right and left
-  window panes using the keyboard?</h3>
+  <h3><a name="FAQ20"></a>Si mund të hidhem nëpër kuadratet majtas e djathtas të dritareve duke përdorur tastierën?</h3>
 
-  <p>Press <em>tab</em>.</p>
+  <p>Shtypni <em>tab</em>.</p>
 
-  <h3><a name="FAQ21"></a>How can you close a branch using the
-  keyboard?</h3>
+  <h3><a name="FAQ21"></a>Si mund të mbyllet një degë duke përdorur tastierën?</h3>
 
-  <p>Press <em>left-arrow</em>.</p>
+  <p>Shtypni <em>shigjetën majtas</em>.</p>
 

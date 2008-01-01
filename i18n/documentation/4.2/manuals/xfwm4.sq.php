@@ -1,876 +1,678 @@
 
-  <h1><a name="xfwm4"></a>Xfce 4 Window Manager</h1>
+  <h1><a name="xfwm4"></a>Përgjegjësi Xfce 4 i dritareve</h1>
 
   <p><strong>Fran&ccedil;ois Le Clainche</strong> &lt;fleclainche@wanadoo.fr&gt;</p>
 
-  <h3>This manual describes xfwm4 version 4.2.0</h3>
+  <h3>Ky doracak përshkruan versionin 4.2.0 të xfwm4-s</h3>
 
   <p>
-  Copyright &copy; 2004 Fran&ccedil;ois Le Clainche<br />
-  Copyright &copy; 2004 Jasper Huijsmans
+  Të drejta kopjimi &copy; 2004 Fran&ccedil;ois Le Clainche<br />
+  Të drejta kopjimi &copy; 2004 Jasper Huijsmans
   </p>
   <hr />
 
   <p><b>Tabela e Përmbajtjes</b></p>
 
   <dl>
-    <dt><a href="#wm-intro">Introduction</a></dt>
+    <dt><a href="#wm-intro">Hyrje</a></dt>
 
-    <dt><a href="#wm-using">Using <b><tt>xfwm4</tt></b></a></dt>
+    <dt><a href="#wm-using">Si të përdoret <b><tt>xfwm4</tt></b></a></dt>
 
     <dd>
       <dl>
-        <dt><a href="#wm-windows">Manage windows</a></dt>
+        <dt><a href="#wm-windows">Administroni dritare</a></dt>
       </dl>
     </dd>
 
-    <dt><a href="#wm-settings">Customizing
+    <dt><a href="#wm-settings">Si të përshtatet
     <b><tt>xfwm4</tt></b></a></dt>
 
     <dd>
       <dl>
-        <dt><a href="#wm-style">Decoration style</a></dt>
+        <dt><a href="#wm-style">Stil zbukurimesh</a></dt>
 
-        <dt><a href="#keyboard_shortcuts">Keyboard
-        shortcuts</a></dt>
+        <dt><a href="#keyboard_shortcuts">Shkurtore tastiere</a></dt>
 
-        <dt><a href="#focus">Focus preferences</a></dt>
+        <dt><a href="#focus">Parapëlqime fokusi</a></dt>
 
-        <dt><a href="#wm_advanced">Advanced settings</a></dt>
+        <dt><a href="#wm_advanced">Rregullime të mëtejshme</a></dt>
 
-        <dt><a href="#hidden_options">Hidden options</a></dt>
+        <dt><a href="#hidden_options">Mundësi të fshehura</a></dt>
       </dl>
     </dd>
 
-    <dt><a href="#workspaces">Managing workspaces</a></dt>
+    <dt><a href="#workspaces">Administrimi i hapësirave të punës</a></dt>
 
     <dd>
       <dl>
-        <dt><a href="#id2597233">Workspaces settings</a></dt>
+        <dt><a href="#id2597233">Rregullime për hapësira pune</a></dt>
 
-        <dt><a href="#workspace-margins">Workspaces
-        margins</a></dt>
+        <dt><a href="#workspace-margins">Mënjana hapësirash pune</a></dt>
       </dl>
     </dd>
 
-    <dt><a href="#wm-copyright">About
+    <dt><a href="#wm-copyright">Rreth
     <b><tt>xfwm4</tt></b></a></dt>
   </dl>
 
   
 
-  <h2><a name="wm-intro"></a>Introduction</h2>
+  <h2><a name="wm-intro"></a>Hyrje</h2>
 
-  <p>The Xfce 4 Window Manager is part of the <a href=
-  "http://www.xfce.org">Xfce Desktop Environment</a>.
-  The actual command to run is <b><tt>xfwm4</tt></b>. To run it in
-  the background use <b><tt>xfwm4</tt> --daemon</b>. The window
-  manager is responsible for the placement of windows on the
-  screen, provides the window decorations and allows you for
-  instance to move, resize or close them.</p>
+  <p>Përgjegjësi Xfce 4 i Dritareve është pjesë e <a href=
+  "http://www.xfce.org">Mjedisit Xfce për Desktop</a>.
+  Urdhri i njëmendtë për xhirimin është <b><tt>xfwm4</tt></b>. Për ta zhiruar në prapaskenë përdorni <b><tt>xfwm4</tt> --daemon</b>. Përgjegjësi i  dritareve është përgjegjës për vendosjen e dritareve në ekran, për furnizimin e zbukurimeve të ekranit dhe ju lejon mes të tjerash t'i lëvizni, t'i ripërmasoni ose t'i mbyllni ato.</p>
 
-  <p><b><tt>xfwm4</tt></b> adheres strongly to the standards
-  defined on <a href="http://www.freedesktop.org"
-  >freedesktop.org</a>. Consequently, special features such
-  as making windows borderless, or providing an icon for the
-  application must now be implemented in the application; you can
-  no longer use the window manager to force different behaviour.
-  One of the great features of <b><tt>xfwm4</tt></b> is its
-  themeability. The window decorations (borders, title bar and
-  window buttons) can be configured by using window manager
-  themes.</p>
+  <p><b><tt>xfwm4</tt></b> respekton fort standardet e përkufizuara te <a href="http://www.freedesktop.org"
+  >freedesktop.org</a>. Për pasojë, anë speciale si kthimi i dritareve në të paana, ose furnizimi i një ikone për zbatimin tani duhet të sendërtohen te zbatimi; nuk mund të përdorni më përgjegjësin e dritareve për të detyruar sjellje tjetër. Një nga karakteristikat më të pëlqyeshme të  <b><tt>xfwm4</tt></b> është temshmëria. Zbulurimet e dritareve (anët, shtylla e titullit dhe butonat e dritareve) mund të fomrësohen duke përdorur tema përgjegjësi dritaresh.</p>
 
-  <p><b><tt>xfwm4</tt></b> offers multihead support, for both
-  xinerama and real multiscreen modes, useful when you have more
-  than one monitor connected to your computer.</p>
+  <p><b><tt>xfwm4</tt></b> ofron mbulim për shumë krye, për të dy mënyrat,
+  xinerama dhe shumëekranësh të njëmendtë, i dobishëm kur keni të lidhur te kompjuteri juaj më shumë se një monitor.</p>
 
-  <p><b><tt>xfwm4</tt></b> can be run stand-alone, but if you use
-  it this way, you will need the <a href="xfce-mcs-manager"
- >Xfce 4 Settings Manager</a> if you want GUI
-  settings management. Tasks other than managing windows, like
-  setting a background image or launching programs, need to be
-  performed by other programs.</p>
+  <p><b><tt>xfwm4</tt></b> mund të xhirohet më vete, por në e përdorshi në këtë farë feje, do të keni nevojë për <a href="xfce-mcs-manager"
+ >Përgjegjësin Xfce 4 të Rregullimeve</a> nëse dëshironi administrim GUI të rregullimeve. Veprime të tjera ndryshe nga administrimi i dritareve, si p.sh. caktim pamjeje sfondi apo nisje programesh, lypset të bëhen nga të tjera programe.</p>
 
-  <p><b><tt>xfwm4</tt></b> includes its own compositing manager,
-  which takes advantage of the new <a href=
-  "http://freedesktop.org/Software/xorg">X.org</a>'s
-  server extensions. The compositor is like a WM on its own, it
-  manages a stack of all windows, monitor all kinds on X event and
-  reacts accordingly. Having the compositing manager embedded in
-  the window manager also helps keeping the various visual effects
-  in sync with window events. If you want to use the compositor,
-  you have to build <b><tt>xfwm4</tt></b> using the
-  --enable-compositor configure option. In any case, you can
-  disable the compositor on <b><tt>xfwm4</tt></b> startup using the
-  '--compositor=off' argument.</p>
+  <p><b><tt>xfwm4</tt></b> përfshin përgjegjësin e vet për hartime,
+  i cili shfrytëzon më së miri zgjerimet <a href=
+  "http://freedesktop.org/Software/xorg">X.org</a> për shërbyesa. Hartuesi është si një WM më vete, administron një kapicë të tërë dritareve, mbikëqyr tërë llojet e akteve X dhe kundërvepron si duhet. Pasja e përgjegjësit të hartimeve të trupëzuar te përgjegjësi i dritareve i ndih gjithashtu mbajtjes së efekteve të ndryshme pamore të njëkohësuar me ngjarje dritaresh. Nëse doni të përdorni hartuesin, duhet të formoni <b><tt>xfwm4</tt></b> duke përdorur mundësinë e formësimit --enable-compositor. Sido që të jetë, mund ta çaktivizoni hartuesin gjatë nisjes së <b><tt>xfwm4</tt></b> duke përdorur argumentin '--compositor=off'.</p>
 
   
 
-  <h2><a name="wm-using"></a>Using
+  <h2><a name="wm-using"></a>Si të përdoret
   <b><tt>xfwm4</tt></b></h2>
 
-  <h3><a name="wm-windows"></a>Manage windows</h3>
+  <h3><a name="wm-windows"></a>Administroni dritare</h3>
 
-  <p>The window manager provides borders, a title bar and window
-  buttons to application windows. The look is defined by the window
-  manager theme.</p>
+  <p>Përgjegjësi i dritareve furnizon dritaret e zbatimeve me anë, shtylla titulli dhe butona dritareje. Pamja përcaktohet nga tema e përgjegjësit të dritares.</p>
 
-  <p>In the default theme <b><tt>xfwm4</tt></b> shows six buttons
-  and a title on regular application windows. The six buttons
-  perform these basic functions:</p><a name="titlebar-fig"></a>
+  <p>Te tema parazgjedhje <b><tt>xfwm4</tt></b> tregon gjashtë butona dhe një titull, në dritare të rregullta zbatimesh. Gjashtë butonat kryejnë këta funksione bazë:</p><a name="titlebar-fig"></a>
 
-  <p><b>Figure 1. <tt>xfwm4</tt> title bar buttons</b></p><img src=
+  <p><b>Figurë 1. <tt>xfwm4</tt> butona shtylle titulli</b></p><img src=
   "/images/documentation/4.2/titlebar.png" alt=
-  "xfwm4 title bar buttons and functions" />
+  "butona shtylle titulli dhe funksione xfwm4" />
 
-  <p>You can open the window menu with a left-click on the menu
-  button on the title bar, or with a right-click on the window
-  title area itself.</p>
+  <p>Menunë e dritares mund ta hapni duke klikuar me të majtin mbi një buton menuje te shtylla e titullit, ose duke klikuar me të djathtin mbi vetë zonën e titullit të dritares.</p>
 
-  <p>If you use <b><tt>xftaskbar4</tt></b>, you can open an action
-  menu with a right-click on one of the taskbar entries; it
-  includes several items among those available in the window
-  menu.</p>
+  <p>Në rast se po përdorni <b><tt>xftaskbar4</tt></b>, mund të hapni një menu veprimi duke klikuar me të djathtin mbi një nga zërat e shtyllës së veprimeve; përfshin disa objekte nga ata që janë të passhëm te menuja e dritares.</p>
 
   
 
   <dl>
-    <dt>Give focus to a window</dt>
+    <dt>Dhënie fokusi një dritareje</dt>
 
     <dd>
-      <p>You need to give the focus to a window if you want it to
-      receive keyboard and mouse input. Window decorations colors
-      will change, following the focus. To obtain more details
-      about focus options, please refer to the <a href="#focus"
-     >corresponding section</a> below.</p>
+      <p>Lypset t'i jepni fokus një dritareje nëse doni që të pranohen futje nga tastiera apo miu. Në varësi të fokusit do të ndryshojnë edhe ngjyrat e zbukurimit të dritares. Për më tepër të dhëna rreth mundësive të fokusit, ju lutem shihni <a href="#focus"
+     >ndarjen përkatëse</a> më poshtë.</p>
 
-      <p>A keyboard shortcut allows to switch the focus from a
-      window to others : Hold Alt and then you can press Tab
-      repeatedly untill you get to the window you want to focus. If
-      you use it, you will see a small popup showing the
-      application name, its icon and the window title. Also
-      <b><tt>xfwm4</tt></b> will highlight the outline of the
-      window that will receive the focus.</p>
+      <p>Ka një shkurtore tastiere që ju lejon të kaloni fokusin nga një dritare në të tjera : Mbani të shtypur tastin Alt e mandej mund të shtypni  Tab një numër herësh për ta pasur fokusin te dritarja që ju intereson. Nëse e përdorni, do të shihni një flluckë të vockël që tregon emrin e zbatimit, ikonën e tij dhe titullin e dritares. Gjithashtu <b><tt>xfwm4</tt></b> do të theksojë përvijimin e dritares që do të bëhet zonjë e fokusit.</p>
 
-      <p>NOTE: the use of a keyboard shortcut in an application
-      needs the application window to have the focus :)</p>
+      <p>SHËNIM: përdorimi i një shkurtoreje tastiere brenda një zbatimi lyp që fokusin ta ketë dritarja e atij zbatimi :)</p>
     </dd>
 
-    <dt>Maximize / unmaximize windows</dt>
+    <dt>Maksimizoni / çmaksimizoni dritaret</dt>
 
     <dd>
-      <p>If you maximize a window, it will expand on your display
-      and use all avaible space (as it is defined by <a href=
-      "xfdesktop#xfdesktop-workspace">workspace
-      settings</a>). Moreover, you can maximize a window only
-      vertically or horizontally.</p>
+      <p>Nëse maksimizoni një dritare, ajo do të zgjerohet brenda ekranit tuaj duke përdorur tërë hapësirën e passhme (siç përcaktohet nga <a href=
+      "xfdesktop#xfdesktop-workspace">rregullimet për hapësirën e punës</a>). Për më tepër, mund ta maksimizoni një dritare edhe vetëm vertikalisht ose horizontalisht.</p>
 
-      <p>To maximize a window, perform one of those actions:</p>
+      <p>Për maksimizimin e një dritareje, kryeni këto veprime:</p>
 
       <ul type="disc">
-        <li>click the maximize button of the title bar</li>
+        <li>klikoni butonin e maksimizimeve te shtylla e titullit</li>
 
-        <li>open the window menu from the title bar and choose the
-        &quot;maximize&quot; item</li>
+        <li>hapni menunë dritare prej shtyllës së titullit dhe zgjihni objektin &quot;maksimizo&quot;</li>
 
-        <li>use Alt + F5 keyboard shortcut</li>
+        <li>përdorni shkurtoren e tastierës Alt + F5</li>
       </ul>
 
-      <p>You can make any window appear in fullscreen mode (it will
-      then use all the size of your screen without showing the
-      window borders) by using the customizable Alt + F11 keyboard
-      shortcut.</p>
+      <p>Mund të bëni të mundur shfaqjen e secilës dritare në mënyrën tërë ekrani (do të përdorë kështu tërë madhësinë e ekranit pa shfaqur anë dritareje) duke përdorur shkurtoren e tastierës Alt + F11, e cila edhe kjo vetë mund të përshtatet.</p>
 
-      <p>To maximize a window vertically :</p>
+      <p>Për ta maksimizuar një dritare vertikalisht :</p>
 
       <ul type="disc">
-        <li>middle-click the maximize button of the title bar</li>
+        <li>klikoni me butonin e mesit të miut mbi butonin e maksimizimeve te shtylla e titullit</li>
 
-        <li>use Alt + F6 keyboard shortcut</li>
+        <li>përdorni shkurtoren e tastierës Alt + F6</li>
       </ul>
 
-      <p>To maximize a window horizontally :</p>
+      <p>Për ta maksimizuar një dritare horizontalisht :</p>
 
       <ul type="disc">
-        <li>right-click the maximize button of the title bar</li>
+        <li>djathtasklikoni mbi butonin e maksimizimeve te shtylla e titullit</li>
 
-        <li>use Alt + F7 keyboard shortcut</li>
+        <li>përdorni shkurtoren e tastierës Alt + F7</li>
       </ul>
 
-      <p>When a window has been maximized in a way or another, it
-      can be restored to its previous size doing one of these
-      actions :</p>
+      <p>Kur një dritare maksimizohet, me njërën mënyrë a tjetrën, ajo mund të rikthehet te madhësia e vet e mëparshme duke kryer një nga këta veprime :</p>
 
       <ul type="disc">
-        <li>click the unmaximize button of the title bar</li>
+        <li>klikoni mbi butonin e çmaksimizimeve te shtylla e titullit</li>
 
-        <li>use the same keyboard shortcut once again</li>
+        <li>përdorni edhe një herë të njëjtën shkurtore tastiere</li>
 
-        <li>choose the &quot;Unmaximize&quot; item in the window menu</li>
+        <li>zgjidhni objektin &quot;Çmaksimizo&quot; prej menusë së dritares</li>
       </ul>
 
       
     </dd>
 
-    <dt>Resize windows</dt>
+    <dt>Ripërmasim dritaresh</dt>
 
     <dd>
-      <p>Although certain special windows can not be resized, you
-      are able to resize most of them to fit your needs.</p>
+      <p>Edhe pse disa dritare të caktuara speciale nuk mund të ripërmasohen, jeni në gjendje të ripërmasoni shumicën e tyre në përputhje me nevojat tuaja.</p>
 
       <ul type="disc">
-        <li>you can use the edges and corners of the window frame
-        to modify its size, dragging them with the mouse</li>
+        <li>mund të përdorni skajet dhe cepat e kornizës së dritares për të ndryshuar madhësinë e saj, duke i tërhequr ato me miun</li>
 
-        <li>you can use the Alt + right click shortcut while you
-        hold the mouse pointer anywhere over the window frame; it
-        will act as if you were dragging the bottom-right corner of
-        the window</li>
+        <li>mund të përdorni shkurtoren Alt + klimim me të djathtin ndërkohë që e mbani shigjetën e miut kudo qoftë mbi kornizën e dritares; do të veprohet njësoj si të tërhiqnit cepin e poshtëm të djathtë të dritares</li>
 
-        <li>you can use practical keyboard shortcuts : Shift + Alt
-        + (up, down, right or left) Arrow</li>
+        <li>mund të përdorni shkurtore praktike tastiere : Shift + Alt
+        + Shigjetë (sipër, poshtë, majtas ose djathtas)</li>
       </ul>
 
       
     </dd>
 
-    <dt>Hide / unhide windows</dt>
+    <dt>Fshih / zbulo dritare</dt>
 
     <dd>
-      <p>You can hide a window performing one of these actions
+      <p>Një dritare mund ta fshihni duke kryer një nga këto veprime
       :</p>
 
       <ul type="disc">
-        <li>click the hide button of the title bar</li>
+        <li>klikoni mbi butonin e fshehjes te shtylla e titullit</li>
 
-        <li>open the window menu from the title bar and choose the
-        &quot;Hide&quot; item</li>
+        <li>hapni menunë e dritares prej shtyllës së titullit dhe zgjidhni objektin &quot;Fshih&quot;</li>
 
-        <li>use Alt + F8 keyboard shortcut</li>
+        <li>përdorni shkurtoren e tastierës Alt + F8</li>
       </ul>
 
-      <p>Alternatively, you can hide all windows of current
-      workspace, excepted the one you are using, in only one action
-      : click the menu button of the title bar and choose &quot;Hide all
-      others&quot;.</p>
+      <p>Ose ndryshe, mund të fshihni tërë dritaret e hapësirës së punës ku ndodheni, hiq atë ku po punoni, vetëm me një veprim: klikoni butonin e menusë së shtyllës së titullit dhe zgjidhni &quot;Fshih tërë të tjerat&quot;.</p>
 
-      <p>To &quot;unhide&quot; a window, you will have to select its name or
-      its icon in one of those Xfce 4 components :</p>
+      <p>Për &quot;ta nxjerrë nga fshehja&quot; një dritare, duhet të përzgjidhni emrin ose ikonën e saj në një nga këta përbërësa të Xfce 4 :</p>
 
       <ul type="disc">
         <li><b><tt>xftaskbar4</tt></b></li>
 
-        <li>the list of windows, accessible with a middle-click on
-        the desktop background. This list shows all opened windows,
-        classified by workspaces. Windows that are currently hidden
-        are marked between [ ].</li>
+        <li>lista e dritareve, ku mund të hyhet me klikim me  butonin e mesit mbi sfondin e desktopit. Kjo listë tregon tërë dritaret e hapura, klasifikuar sipas hapësirave të punës. Dritaret që në atë çast janë të fshehura tregohen mes [ ].</li>
 
-        <li>the <b><tt>xfce4-iconbox</tt></b></li>
+        <li><b><tt>xfce4-iconbox</tt></b></li>
       </ul>
 
       
     </dd>
 
-    <dt>Shade / unshade windows</dt>
+    <dt>Hijezo / hiqu hije dritareve</dt>
 
     <dd>
-      <p>If you &quot;shade&quot; a window, it will be reduced to the size of
-      its title bar. The same repeated action makes a window to
-      shade/unshade :</p>
+      <p>Po qe se &quot;e vini në hije&quot; një dritare, do të zvogëlohet madhësia e shtyllës së titullit për të. I njëjti veprim i përsëritur ja këmben gjendjen dritares në hije/johije :</p>
 
       <ul type="disc">
-        <li>click the shade/unshade button of the title bar</li>
+        <li>klikoni butonin hijezo/çhijezo të shtyllës së titullit</li>
 
-        <li>open the window menu from the title bar and choose
-        &quot;Shade&quot; or &quot;Unshade&quot; item</li>
+        <li>hapni menunë dritare prej shtyllës së titullit dhe zgjidhni
+        objektin &quot;Hijezo&quot; ose &quot;Çhijezo&quot;</li>
 
-        <li>use the mouse scrollwheel while you hold the pointer
-        over the title bar</li>
+        <li>përdorni rrotëzën e miut ndërkohë që e mbani shigjetën e tij përmbi shtyllën e titullit</li>
 
-        <li>use the Alt + F9 keyboard shortcut</li>
+        <li>përdorni shkurtoren e tastierës Alt + F9</li>
       </ul>
 
       
     </dd>
 
-    <dt>Stick / unstick windows</dt>
+    <dt>Ngjisni / shqisni dritaret</dt>
 
     <dd>
-      <p>If you &quot;stick&quot; a window, it will be visible at the same
-      place on all your workspaces. The same repeated action make a
-      window to stick/unstick :</p>
+      <p>Nëse e &quot;ngjisni &quot; një dritare, do të jetë e dukshme te i njëjti vend në tërë hapësirat e punës. Përsëritja e të njëjtit veprim nga ata më poshtë e ngjit/shqit një dritare :</p>
 
       <ul type="disc">
-        <li>click the stick/unstick button of the title bar</li>
+        <li>klikoni butonin ngjit/shqit të shtyllës së titullit</li>
 
-        <li>open the window menu button from the title bar and
-        choose &quot;Stick&quot; or &quot;Unstick&quot; item</li>
+        <li>hapni butonin e menusë së dritares prej shtylle titulli dhe zgjidhni objektin &quot;Ngjit&quot; ose &quot;Shqit&quot;</li>
 
-        <li>use the Alt + F10 keyboard shortcut</li>
+        <li>përdorni shkurtore tastiere Alt + F10</li>
       </ul>
 
       
     </dd>
 
-    <dt>Raise / lower windows</dt>
+    <dt>Ulni / ngrini dritare</dt>
 
     <dd>
-      <p>The &quot;raise window&quot; function makes a window frame appear
-      above all the other frames. To raise a window, you can :</p>
+      <p>Funksioni i &quot;ngritjes së një dritareje&quot; e bën kornizën e një dritareje të duket përmbi tërë kornizat e tjera. Për ta ngritur një dritare, mund të :</p>
 
       <ul type="disc">
-        <li>left click on its titlebar</li>
+        <li>klikoni me të djathtën mbi shtyllën e saj të titullit</li>
 
-        <li>give the focus to the window, if the corresponding
-        option is selected in the <a href="xfwm4#wm-focus"
-       >Keyboard and focus preferences
-        dialog</a></li>
+        <li>kalojini dritares fokusin, nëse mundësia përkatëse është e përzgjedhur te <a href="xfwm4#wm-focus"
+       >Dialogu i parapëlqimeve për tastierën dhe fokusin</a></li>
 
-        <li>left click anywhere on its frame, if the corresponding
-        option is selected in the <a href="xfwm4#wm-focus"
-       >Keyboard and focus preferences
-        dialog</a></li>
+        <li>klikoni me butonin e majtë të miut kudo qoftë mbi kornizën e saj, nëse mundësia përkatëse është e përzgjedhur te <a href="xfwm4#wm-focus"
+       >Dialogu i parapëlqimeve për tastierën dhe fokusin</a></li>
 
-        <li>click on its label in the taskbar or the iconbox</li>
+        <li>klikoni etiketën e saj te shtylla e veprimeve ose te kutiza e ikonave</li>
 
-        <li>use the Shift + Alt + Page_Up keyboard shortcut (if the
-        window is already focused)</li>
+        <li>përdorni shkurtore tastiere Shift + Alt + Page_Up (nëse dritarja ka tashmë fokusin)</li>
       </ul>
 
-      <p>You can make a window frame to always stay above all other
-      windows by opening the window menu and selecting the &quot;always
-      on top&quot; item.</p>
+      <p>Duke hapur menunë e dritareve dhe përzgjedhur objektin &quot;përherë sipër&quot;, mund ta bëni një kornizë dritareje të qëndrojë përherë sipër tërë dritareve të tjera.</p>
 
-      <p>The &quot;lower&quot; function sends a window frame below all other
-      frames. To &quot;lower&quot; a window, you can :</p>
+      <p>Funksioni i &quot;uljes së një dritareje&quot; e dërgon kornizën e një dritareje nën tërë kornizat e tjera. Për &quot;ta ulur&quot; një dritare, mund të :</p>
 
       <ul type="disc">
-        <li>middle-click on its title bar</li>
+        <li>klikoni me butonin e mesit të miut mbi shtyllën e saj të titullit</li>
 
-        <li>use the Shift + Alt + Page_Down keyboard shortcut (if
-        the window is focused)</li>
+        <li>përdorni shkurtore tastiere Shift + Alt + Page_Down (nëse dritarja ka tashmë fokusin)</li>
       </ul>
 
       
     </dd>
 
-    <dt>Move windows</dt>
+    <dt>Lëvizni dritare</dt>
 
     <dd>
-      <p>There are several ways to move windows :</p>
+      <p>Ka disa rrugë për të lëvizur dritaret :</p>
 
       <ul type="disc">
-        <li>left or right click on the title bar of the window and
-        drag it</li>
+        <li>djathtasklikoni ose majtasklikoni mbi shtyllën e titullit të dritares dhe tërhiqeni atë</li>
 
-        <li>use Alt + left click while the pointer is anywhere over
-        the window frame and move the mouse</li>
+        <li>përdorni Alt + klikim majtas ndërkohë që shigjeta e miut gjendet kudo qoftë përmbi kornizën e dritares dhe lëvizni miun</li>
 
-        <li>use Control + Alt + Shift + (up, down, left or right)
-        Arrow keyboard shortcut</li>
+        <li>përdorni shkurtore tastiere Control + Alt + Shift + Shigjetë(sipër, poshtë, majtas ose djathtas)</li>
       </ul>
 
       
     </dd>
 
-    <dt>Move a window to another workspace</dt>
+    <dt>Kalojeni një dritare te një tjetër hapësirë pune</dt>
 
     <dd>
-      <p>You can send a window to another workspace by performing
-      one of these actions :</p>
+      <p>Një dritare mund ta dërgoni te një tjetër hapësirë duke kryer një prej këtyre veprimeve :</p>
 
       <ul type="disc">
-        <li>stick the window, move to another workspace, then
-        unstick the window.</li>
+        <li>ngjiteni dritare, kaloni te një tjetër hapësirë pune, dhe mandej shqiteni dritaren.</li>
 
-        <li>use the window menu and choose one of the &quot;Send to&quot;
-        submenu items.</li>
+        <li>përdorni menunë e dritares dhe zgjidhni një nga objektet e nënmenusë &quot;Dërgoje te&quot;.</li>
 
-        <li>left or right click on the title bar of the window,
-        drag it to the screen edge : the pointer will then go to
-        the next workspace, still holding the window. Corresponding
-        option needs to be selected in the <a href=
-        "xfwm4#wm_misc">Window Manager
-        Preferences dialog</a>.</li>
+        <li>majtasklikoni ose djathtasklikoni mbi shtyllë titulli të dritares, tërhiqeni te skaji i ekranit : shigjeta e miut do të shkojë kështu te hapësira tjetër e punës, ende duke mbajtur dritaren. Lypset të jetë përzgjedhur mundësia përkatëse te <a href=
+        "xfwm4#wm_misc">dialogu i Parapëlqimeve për Përgjegjësin e Dritareve</a>.</li>
 
-        <li>use keyboard shortcuts :
+        <li>përdorni shkurtore tastiere :
 
           <ul type="circle">
-            <li>Alt + Control + End will move a window to the next
-            workspace</li>
+            <li>Alt + Control + End do ta kalojë një dritare te hapësira pasuese e punës</li>
 
-            <li>Alt + Control + Home will move a window to the
-            previous workspace</li>
+            <li>Alt + Control + Home do ta kalojë një dritare te hapësira e mëparshme e punës</li>
 
-            <li>Alt + Control + Keypad-Number will move the current
-            window to corresponding workspace</li>
+            <li>Alt + Control + Keypad-Number do ta kalojë dritaren e çastit te hapësira përkatëse e punës</li>
           </ul>
         </li>
 
-        <li>use the <a href="xfce4-panel#switcher-item"
-       >graphical pager</a> by clicking on the
-        representation of the window, and move it to the desired
-        workspace.</li>
+        <li>përdorni <a href="xfce4-panel#switcher-item"
+       >faquesin grafik</a> duke klikuar mbi përfaqësuesin e dritares, dhe kalojeni te hapësira e dëshiruar e punës.</li>
       </ul>
 
       
     </dd>
 
-    <dt>Close a window</dt>
+    <dt>Mbyllja e një dritareje</dt>
 
     <dd>
-      <p>To close a window :</p>
+      <p>për mbylljen e një dritareje :</p>
 
       <ul type="disc">
-        <li>click the close button of the title bar</li>
+        <li>klikoni butonin e mbylljes te shtylla e titullit</li>
 
-        <li>Open the window menu from the title bar and choose the
-        &quot;Close&quot; item</li>
+        <li>Hapni menunë e dritares prej shtylle titulli dhe zgjidhni objektin &quot;Mbyll&quot;</li>
 
-        <li>or use Alt + F4 keyboard shortcut</li>
+        <li>or përdorni shkurtore tastiere Alt + F4</li>
       </ul>
     </dd>
   </dl>
 
   
 
-  <h2><a name="wm-settings"></a>Customizing
+  <h2><a name="wm-settings"></a>Si të përshtatet
   <b><tt>xfwm4</tt></b></h2>
 
-  <p>To open the Window Manager preferences dialog, click the
-  button labelled &quot;Window Manager&quot; in the <a href=
-  "xfce-mcs-manager#manager-dialog">Xfce 4
-  Settings manager</a>. The dialog shows four tabs : Style,
-  Keyboard, Focus, Advanced. All modifications will have an
-  immediate effect on the behaviour of the selected module.</p>
+  <p>Për hapjen e dialogut të parapëlqimeve për Përgjegjësin e Dritareve, klikoni butonin me emrin &quot;Përgjegjësi i Dritareve&quot; te <a href=
+  "xfce-mcs-manager#manager-dialog">përgjegjësi i Rregullimeve për Xfce 4</a>. Dialogu ju paraqet katër skeda : Stil,
+  Tastierë, Fokus, Të mëtejshme. Tërë ndryshimet do të hyjnë menjëherë në lojë mbi sjelljen e modulit të përzgjedhur.</p>
 
-  <h3><a name="wm-style"></a>Decoration style</h3><a name=
+  <h3><a name="wm-style"></a>Stil zbukurimi</h3><a name=
   "wm_decoration_style-fig"></a>
 
-  <p><b>Figure 2. Decoration style preferences</b></p><img src=
-  "/images/documentation/4.2/decoration_style.png" alt="The decoration style tab" />
+  <p><b>Figurë 2. Parapëlqime stili zbukurimi</b></p><img src=
+  "/images/documentation/4.2/decoration_style.png" alt="Skeda e stilit të zbukurimeve" />
 
   <dl>
-    <dt>Window style</dt>
+    <dt>Stil dritareje</dt>
 
     <dd>
-      <p>The list on the left side of the dialog shows all avaible
-      window decorations. The xfwm 4 module offers the choice
-      between 4 different themes, but there are more than 60
-      supplementary themes avaible in xfwm4-themes extra
-      package.</p>
+      <p>Lista në anën e djathtë të dialogut tregon tërë zbukurimet e mundshme për dritaret. Moduli xfwm 4 ofron mundësinë e zgjedhjes së njërë nga 4 temat e ndryshme, por ka më shumë se 60 tema shtesë që mund të kihen me paketën shtesë xfwm4-themes.</p>
     </dd>
 
-    <dt>Title font</dt>
+    <dt>Gërma titulli</dt>
 
     <dd>
-      <p>The &quot;Font select&quot; button shows the family font currently
-      in use for the window title appearance. Click this button if
-      you want to change it, and a &quot;Font selection&quot; dialog will
-      appear. It works like the font selection dialog of the
-      <a href="xfce-mcs-plugins#id2811474">user
-      interface settings manager plugin</a>.</p>
+      <p>Butoni &quot;Përzgjedhje gërmash&quot; tregon familjen e gërmave në përdorim atë çast për titullin e dritares. Klikoni këtë buton nëse doni ta ndryshoni atë, dhe do të shfaqet dialogu &quot;Përzgjedhje gërmash&quot;. Funksionon si dialogu i përzgjedhjes së gërmave te <a href="xfce-mcs-plugins#id2811474">shtojca e përgjegjësit të rregullimeve të ndërfaqes</a>.</p>
     </dd>
 
-    <dt>Title alignment</dt>
+    <dt>Vendosje e titullit</dt>
 
     <dd>
-      <p>Whatever the buttons layout is, you can choose the
-      alignment of the title inside the title bar, selecting one of
-      those simple options : align it to the left, center or
-      right.</p>
+      <p>Cilado qoftë skema për butonat, mund të vendosni për drejtimin e titullit brenda shtyllës së titullit, duke përzgjedhur një nga këto mundësi të thjeshta : vëre majtas, në qendër ose djathtas.</p>
     </dd>
 
-    <dt>Button layout</dt>
+    <dt>Skemë butonash</dt>
 
     <dd>
-      <p>The button layout configuration uses an easy drag and drop
-      tool. Click and drag the buttons to change the layout. Drop a
-      button in the &quot;Hidden&quot; area to remove a button from the
-      titlebar. All modifications will have an immediate effect on
-      the title bar buttons position.</p>
+      <p>Formësimi i skemës së butonave përdor një mjet të lehtë të llojit merr-dhe-vër. Klikoni dhe tërhiqni butona që të ndryshoni skemën. Hidhni një buton te zona &quot;e Fshehur&quot; për ta hequr atë buton nga shtylla e titullit. Tërë ndryshimet do të hyjnë menjëherë në lojë lidhur me vendosjen e butonave të shtyllës së titullit.</p>
     </dd>
   </dl>
 
-  <h3><a name="keyboard_shortcuts"></a>Keyboard
-  shortcuts</h3><a name="keyboard_shortcuts-fig"></a>
+  <h3><a name="keyboard_shortcuts"></a>Shkurtore tastiere</h3><a name="keyboard_shortcuts-fig"></a>
 
-  <p><b>Figure 3. Keyboard shortcuts preferences</b></p><img src=
-  "/images/documentation/4.2/keyboard_shortcuts.png" alt="The keyboard shortcuts tab" />
+  <p><b>Figurë 3. Parapëlqime shkurtoresh tastiere</b></p><img src=
+  "/images/documentation/4.2/keyboard_shortcuts.png" alt="Skeda e shkurtoreve të tastierës" />
 
   <dl>
-    <dt>Keyboard Shortcuts</dt>
+    <dt>Shkurtore Tastiere</dt>
 
     <dd>
-      <p>The list on the left side of the dialog shows all avaible
-      shortcuts themes, using the name of directories that contain
-      a keythemerc file.</p>
+      <p>Lista në anën e majtë të dialogut tregon tërë temat e passhme për shkurtore, duke përdorur emrin e drejtorive që përmbajnë një kartelë keythemerc.</p>
 
-      <p>By default, there's only one theme :
+      <p>Si parazgjedhje, ka vetëm një temë :
       $(datadir)/themes/Default/xfwm4/keythemerc</p>
 
-      <p>In the default configuration the following keybindings are
-      defined:</p>
+      <p>Te formësimi parazgjedhje janë përcaktuar ndërthurjet vijuese të tastave:</p>
 
       <ul type="disc">
-        <li>close window : Alt + F4</li>
+        <li>mbyll dritare : Alt + F4</li>
 
-        <li>Maximize window : Alt + F5</li>
+        <li>Maksimizo dritare : Alt + F5</li>
 
-        <li>Maximize vertically : Alt + F6</li>
+        <li>Maksimizo vertikalisht : Alt + F6</li>
 
-        <li>Maximize horizontally : Alt + F7</li>
+        <li>Maksimizo horizontalisht : Alt + F7</li>
 
-        <li>Hide window : Alt + F8</li>
+        <li>Fshih dritare : Alt + F8</li>
 
-        <li>Shade window : Alt + F9</li>
+        <li>Hijezo dritare : Alt + F9</li>
 
-        <li>Stick window : Alt + F10</li>
+        <li>Ngjit dritare : Alt + F10</li>
 
-        <li>Cycle windows focus : Alt + Tab</li>
+        <li>Ciklo fokus dritareje : Alt + Tab</li>
 
-        <li>Move window : Control + Shift + Alt + Arrow (up, down,
-        left, or right)</li>
+        <li>Lëviz dritare : Control + Shift + Alt + Shigjetë (sipër, poshtë,
+        majtas, ose djathtas)</li>
 
-        <li>Resize window : Shift + Alt + Arrow (up, down, left, or
-        right)</li>
+        <li>Ripërmasoni dritare : Shift + Alt + Shigjetë (sipër, poshtë,
+        majtas, ose djathtas)</li>
 
-        <li>Raise window : Shift + Alt + Page_Up</li>
+        <li>Ngri dritare : Shift + Alt + Page_Up</li>
 
-        <li>Lower window : Shift + Alt + Page_Down</li>
+        <li>Ul dritare : Shift + Alt + Page_Down</li>
 
-        <li>Toggle fullscreen : Alt + F11</li>
+        <li>Këmbe gjendje "tërë ekrani" : Alt + F11</li>
 
-        <li>Next workspace : Control + Alt + Arrow right arrow</li>
+        <li>Hapësira pasuese e punës : Control + Alt + Shigjeta djathtas</li>
 
-        <li>Previous workspace : Control + Alt + Arrow left</li>
+        <li>Hapësira e mëparshme e punës : Control + Alt + Shigjeta majtas</li>
 
-        <li>Add a workspace : Alt + Insert</li>
+        <li>Shto një hapësirë pune : Alt + Insert</li>
 
-        <li>Delete a workspace : Alt + Delete</li>
+        <li>Fshi një hapësirë pune : Alt + Delete</li>
 
-        <li>Go to workspace number N (1-9) : Control + F(N)</li>
+        <li>Shko te hapësira e punës numër N (1-9) : Control + F(N)</li>
 
-        <li>Move the window to previous|next workspace : Alt +
+        <li>Kaloje dritaren te hapësira e mëparshme|pasuese e punës : Alt +
         Control + Home|End</li>
 
-        <li>Move a window to workspace number N (1-9) : Alt +
-        Control + keypad key number N</li>
+        <li>Kaloje dritaren te hapësira e punës numë N (1-9) : Alt +
+        Control + tast shifre N te pjesa e tastierës për numrat</li>
 
-        <li>Start xfhelp4 : Alt + F1</li>
+        <li>Nis xfhelp4 : Alt + F1</li>
 
-        <li>Start xfrun4 : Alt + F2</li>
+        <li>Nis xfrun4 : Alt + F2</li>
 
-        <li>Lock the screen : Alt + Control + Delete</li>
+        <li>Kyç ekranin : Alt + Control + Delete</li>
       </ul>
 
-      <p>There are two lists on the right side of the dialog. The
-      &quot;Windows shortcuts&quot; list shows the keyboard shortcuts which
-      are used to drive the window manager. The &quot;Command shortcuts&quot;
-      list shows the keyboard shortcuts which are aimed at
-      launching applications. To modify one of the shortcuts, you
-      have to double-click on it in the list, using the left button
-      of your mouse, and compose your new shortcut when the
-      &quot;Compose shortcut&quot; popup window appears.</p><a name=
+      <p>Ka dy lista në anën e djathtë të dialogut. Lista
+      &quot;Shkurtore dritaresh&quot; tregon shkurtore tastiere që përdoren për drejtimin e përgjegjësit të dritareve. Lista &quot;Shkurtore urdhërash&quot;
+      shfaq shkurtore tastiere që kanë të bëjnë me nisje zbatimesh. Për ndryshimin e shkurtoreve, duhet të dyklikoni mbi të te lista, duke përdorur butonin e majtë të miut, dhe të hartoni shkurtoren tuaj të re sapo të shfaqet dritarja flluckë &quot;Hartoni shkurtore&quot;.</p><a name=
       "compose_shortcut-fig"></a>
 
-      <p><b>Figure 4. The compose shortcut popup</b></p><img src=
+      <p><b>Figurë 4. Fllucka për hartim shkurtoreje</b></p><img src=
       "/images/documentation/4.2/compose_shortcut.png" alt=
-      "The compose shortcut popup" />
+      "Fllucka për hartim shkurtoreje" />
 
-      <p>If you want to create a new theme, create a directory like
-      this one, for instance :
-      $HOME/.themes/Custom/xfwm4/keythemerc, then select it in the
-      list of available themes.</p>
+      <p>Nëse doni të krijoni një temë të re, krijoni një drejtori të re të ngjashme me këtë, për shembull :
+      $HOME/.themes/Custom/xfwm4/keythemerc, mandej përzgjidheni te lista e temave të mundshme.</p>
 
-      <p>If you do not know the names of your keyboard modifier
-      keys, you can launch the &quot;xev&quot; application from a terminal
-      and test them.</p>
+      <p>Nëse nuk i njihni emrat e tasteve të ndryshuesit të tastierës suaj, mund të nisni prej një terminali zbatimin &quot;xev&quot; dhe t'i provoni tastet.</p>
     </dd>
   </dl>
 
-  <h3><a name="focus"></a>Focus preferences</h3><a name=
+  <h3><a name="focus"></a>Parapëlqime për fokusin</h3><a name=
   "focus-fig"></a>
 
-  <p><b>Figure 5. Focus preferences</b></p><img src=
-  "/images/documentation/4.2/focus.png" alt="The Focus tab" />
+  <p><b>Figurë 5. Parapëlqime për fokusin</b></p><img src=
+  "/images/documentation/4.2/focus.png" alt="Skeda për fokusin" />
 
   <dl>
-    <dt>Focus model</dt>
+    <dt>Model fokusi</dt>
 
     <dd>
-      <p>A focused window receives the keyboard and mouse input.
-      You have the choice between two focus models :</p>
+      <p>Dritarja që zotëron fokusin, merr futjet prej tastiere apo miu.
+      Keni dy modele zgjedhjeje për fokusin :</p>
 
       <ul type="disc">
-        <li>Click to focus : select this option if you want a
-        window to receive the focus only when you click anywhere on
-        its frame.</li>
+        <li>Klikim për fokus : përzgjidhni këtë mundësi nëse doni që një dritare të marrë fokusin vetëm kur klikohet mbi çfarëdo pjese të kornizës së saj.</li>
 
-        <li>Focus follow mouse : select this option if you want a
-        window to receive the focus as soon as the mouse pointer is
-        over its frame.</li>
+        <li>Fokusi ndjek miun : përzgjidhni këtë mundësi nëse doni që një dritare të marrë fokusin sapo shigjeta e miut gjendet mbi kornizën e saj.</li>
       </ul>
 
       
     </dd>
 
-    <dt>New window focus</dt>
+    <dt>Fokus për dritare të re</dt>
 
     <dd>
-      <p>Selecting this option will automatically give the focus to
-      newly created windows, without the need to click or move the
-      mouse pointer.</p>
+      <p>Përzgjedhja e kësaj mundësie ja kalon vetvetiu fokusin dritareve të krijuara rishtazi, pa patur nevojë të klikohet apo të lëvizet shigjeta e miut.</p>
     </dd>
 
-    <dt>Raise on focus</dt>
+    <dt>Me fokusin, ngrije</dt>
 
     <dd>
-      <p>If this option is selected, the frame of a newly focused
-      window will automatically appear over all other frames, after
-      an amount of time that you can adjust with the &quot;delay&quot;
-      slider.</p>
+      <p>Nëse është përzgjedhur kjo mundësi, korniza e dritares së re të sapofokusuar do të shfaqet vetvetiu përsipër tërë kornizave të tjera, pas një kohe të dhënë që ju e rregulloni me rrëshqitësin e &quot;vonesës&quot;.</p>
     </dd>
 
-    <dt>Raise on click</dt>
+    <dt>Me klikimin, ngrije</dt>
 
     <dd>
-      <p>Choose this option if you want a window to pass over the
-      others when you click anywhere on its frame. If this option
-      is not selected, you will have to click somewhere on its
-      decorations (title bar, borders or corners) to raise it.</p>
+      <p>Zgjidheni këtë mundësi nëse dëshironi që një dritare të ngrihet mbi shoqet kur klikoni kudo mbi kornizën e saj. Nëse nuk përzgjidhet kjo mundësi, do t'ju duhet të klikoni diku mbi zbukurimin e saj (shtyllë titulli, anë ose cepa) për ta ngritur.</p>
     </dd>
   </dl>
 
-  <h3><a name="wm_advanced"></a>Advanced settings</h3><a name=
+  <h3><a name="wm_advanced"></a>Rregullime të mëtejshme</h3><a name=
   "misc_wm_prefs-fig"></a>
 
-  <p><b>Figure 6. Advanced preferences</b></p><img src=
-  "/images/documentation/4.2/misc_wm_prefs.png" alt="Advanced tab" />
+  <p><b>Figurë 6. Rregullime të mëtejshme</b></p><img src=
+  "/images/documentation/4.2/misc_wm_prefs.png" alt="Skeda për të  mëtejshmet" />
 
   <dl>
-    <dt>Windows snapping</dt>
+    <dt>Përlarje dritaresh</dt>
 
     <dd>
-      <p>You can choose the windows borders to be attracted by the
-      borders of other windows, or by the screen edges, when they
-      are moved. The distance from which this effect will be
-      applied can be specified with the &quot;Distance&quot; slider.</p>
+      <p>Mund të zgjidhni që anët e dritareve të tërhiqen (përlahen) nga anët e dritareve të tjera, ose nga skajet e ekranit, kur lëvizen. Largësia përbrenda së cilës do të punojë kjo gjë mund të përcaktohet me rrëshqitësin e &quot;Largësisë&quot;.</p>
     </dd>
 
-    <dt>Wrap workspaces</dt>
+    <dt>Mbështill hapësira pune</dt>
 
     <dd>
-      <p>Select the first option if you want to switch to the next
-      workspace when the mouse pointer reaches the screen edges.
-      Select the second one if you want the same behaviour while
-      dragging a window. You can specify the screen edges
-      resistance using the corresponding slider.</p>
+      <p>Përzgjidhni mundësinë e parë nëse doni të kalohet te hapësira pasuese e punës kur shigjeta e miut mbërrin në skajet e ekranit.
+      Përzgjidhni mundësinë e dytë nëse dëshironi të njëjtën sjellje kur tërhiqni një dritare. Kundërshtimin e kësaj nga ana e skajeve të ekranit mund ta përcaktoni duke përdorur rrëshqitësin përkatës.</p>
     </dd>
 
-    <dt>Opaque move and resize</dt>
+    <dt>Lëvizje dhe ripërmasim për Të marrta</dt>
 
     <dd>
-      <p>Two options allow you to choose if the content of a window
-      will appear or not, when you move or resize it (not
-      displaying the content will save some system resources).</p>
+      <p>Këto dy mundësitë ju lejojnë të zgjidhni nëse lënda e një dritareje do të duket apo jo, kur e lëvizni apo ripërmasoni atë (mosshfaqja e lëndës do të kursejë ca burime sistemi).</p>
     </dd>
 
-    <dt>Double click action</dt>
+    <dt>Veprim dyklikimi</dt>
 
     <dd>
-      <p>Select what must be the behaviour of the window manager
-      when you double-click on the title bar of a window : shade
-      window, hide window, maximize window or none.</p>
+      <p>Përzgjidhni cila duhet të jetë sjellja e përgjegjësit të dritares kur dyklikoni mbi shtyllën e titullit të një dritareje : hijezim dritareje, fshehje dritareje, maksimizim dritareje ose asgjë.</p>
     </dd>
   </dl>
 
-  <h3><a name="hidden_options"></a>Hidden options</h3>
+  <h3><a name="hidden_options"></a>Mundësi të fshehura</h3>
 
-  <p>Some hidden options allow you to customize
-  <b><tt>xfwm4</tt></b> behaviour. They have to be added by hand to
-  your HOME/.config/xfce4/xfwm4/xfwm4rc file. You may have to
-  create this file.</p>
+  <p>Disa mundësi të fshehura ju lejojnë të përshtasni sjelljen e  <b><tt>xfwm4</tt></b>. Këto duhe shtuar dorazi te kartela juaj HYRJE/.config/xfce4/xfwm4/xfwm4rc. Mund edhe t'ju duhet ta krijoni këtë kartelë.</p>
 
   <dl>
     <dt>cycle_minimum=false</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file if you want apps that
-      do not appear in the taskbar to be included when you switch
-      the focus using the Alt+Tab shortcut.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc nëse doni që zbatimet që s'duken te shtyllë veprimesh të përfshihen kur ndërroni fokus përmes shkurtores Alt+Tab.</p>
     </dd>
 
     <dt>cycle_hidden=false</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file if you want to exclude
-      hidden windows from the list presented when using the Alt+Tab
-      shortcut.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc nëse doni të përjashtoni dritaret e fshehura prej listës së paraqitur kur përdoret shkurtorja Alt+Tab.</p>
     </dd>
 
     <dt>easy_click=false</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file if you want to disable
-      the ability to move and resize windows using the Alt button +
-      mouse click shortcut.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc nëse doni të çaktivizohet mundësia për lëvizje apo ripërmasim dritaresh përmes përdorimit të shkurtores tast Alt + klikim miu.</p>
     </dd>
 
     <dt>focus_hint=false</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file to instruct xfwm4 to
-      ignore the focus hint provided by the applications.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc që ta udhëzoni xfwm4 të shpërfillë këshilla fokusi të furnizuara nga zbatimet.</p>
     </dd>
 
     <dt>prevent_focus_stealing=true</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file to prevent windows from
-      stealing focus.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc që të parandaloni vjedhjen e fokusit nga dritare.</p>
     </dd>
 
     <dt>raise_with_any_button=false</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file if you want to raise a
-      window only when clicked with the left mouse button.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc nëse doni që të ngrihet një dritare vetëm kur klikohet mbi të me butonin e majtë të miut.</p>
     </dd>
 
     <dt>move_opacity=100</dt>
 
     <dd>
-      <p>Set the window opacity while being moved. Opacity is an
-      integer value between 0 and 100; 100 being opaque, 0 totally
-      invisible.</p>
+      <p>Caktoni marrtësi dritareje ndërkohë që kjo lëvizet. Marrtësia është një vlerë e plotë ndërmjet 0 dhe 100; 100 do të thotë e marrtë, 0 tërësisht e padukshme.</p>
 
-      <p>That option has no effect if the compositing manager is
-      not enabled.</p>
+      <p>Kjo mundësi nuk ka pasojë nëse përgjegjësi i hartimeve nuk është veprues.</p>
     </dd>
 
     <dt>resize_opacity=100</dt>
 
     <dd>
-      <p>Set the window opacity while being resized. Opacity is an
-      integer value between 0 and 100; 100 being opaque, 0 totally
-      invisible.</p>
+      <p>Cakton marrtësinë e dritares për kohën që kjo ripërmasohet. Marrtësia është një vlerë e plotë ndërmjet 0 dhe 100; 100 do të thotë e marrtë, 0 tërësisht e padukshme.</p>
 
-      <p>That option has no effect if the compositing manager is
-      not enabled.</p>
+      <p>Kjo mundësi nuk ka pasojë nëse përgjegjësi i hartimeve nuk është veprues.</p>
     </dd>
 
     <dt>toggle_workspaces=true</dt>
 
     <dd>
-      <p>Add this line to your xfwm4rc file if you want the
-      Control+F(N) keyboard shortcut to remember the previous
-      workspace.</p>
+      <p>Shtojeni këtë rresht te kartela juaj xfwm4rc nëse doni që shkurtorja e tastierës Control+F(N) të mbajë mend hapësirën e mëparshme të punës.</p>
     </dd>
 
     <dt>wrap_layout=true</dt>
 
     <dd>
-      <p>wrap workspaces depending on the actual desktop
-      layout.</p>
+      <p>mbështjell hapësirat e punës në varësi të skemës aktuale të desktopit.</p>
     </dd>
 
     <dt>wrap_cycle=true</dt>
 
     <dd>
-      <p>wrap workspaces when the first or last workspace is
-      reached.</p>
+      <p>mbështjell hapësirat e punës kur mbërrihet te hapësira e parë ose e fundit e punës.</p>
     </dd>
   </dl>
 
   
 
-  <h2><a name="workspaces"></a>Managing
-  workspaces</h2>
+  <h2><a name="workspaces"></a>Administrim hapësirash pune</h2>
 
-  <p><b><tt>xfwm4</tt></b> also manages workspaces. There is a
-  special settings dialog to change the workspace properties. You
-  can start it by choosing <em>Workspaces and Margins</em> from the
-  the <a href="xfce-mcs-manager#manager-dialog"
-  >settings manager dialog</a>. The dialog contains two tab
-  folders where you can change workspace settings and desktop
-  margins.</p>
+  <p><b><tt>xfwm4</tt></b> lejon gjithashtu administrim hapësirash pune. Ka një dialog të veçantë rregullimesh për ndryshimin e vetive të hapësirave të punës. Mund ta hapni duke zgjedhur <em>Hapësira pune dhe Mënjana</em> prej <a href="xfce-mcs-manager#manager-dialog"
+  >dialogut për përgjegjësin e rregullimeve</a>. Dialogu përmban dy skeda  prej nga mund të ndryshoni rregullimet për hapësira pune dhe mënjana desktopi.</p>
 
-  <h3><a name="id2597233"></a>Workspaces settings</h3><a name=
+  <h3><a name="id2597233"></a>Rregullime hapësirash pune</h3><a name=
   "xfwm-workspace-fig"></a>
 
-  <p><b>Figure 7. Workspace Settings</b></p><img src=
+  <p><b>Figurë 7. Rregullime hapësirash pune</b></p><img src=
   "/images/documentation/4.2/xfwm_workspaces.png" alt=
-  "Shows workspace settings tab folder. " />
+  "Shfaq skeda rregullimesh hapësirash pune. " />
 
   <dl>
-    <dt>Workspaces</dt>
+    <dt>Hapësira pune</dt>
 
     <dd>
-      <p>This option allows you too choose the number of workspaces
-      you want to use (between 1 and 32).</p>
+      <p>Kjo mundësi ju lejon të zgjidhni numrin e hapësirave të punës që dëshironi të përdorni (nga 1 deri 32).</p>
     </dd>
 
-    <dt>Worspace names</dt>
+    <dt>Emra hapësirash pune</dt>
 
     <dd>
-      <p>This field shows the list of avaible workspaces. If you
-      want to edit the name of one of them, click its number and a
-      fill the entry of the dialog that will then appear. When it's
-      done, click the &quot;Apply&quot; button, or just press the Enter key,
-      to return to the list.</p>
+      <p>Kjo fushë tregon listën e hapësirave të mundshme të punës. Nëse dëshironi të përpunoni emrin e njërës prej tyre, klikoni numrin e saj dhe plotësoni zërin e dialogut që do të shfaqet pas klikimit. Kur të mbaroni, klikoni butonin &quot;Zbato&quot;, ose thjesht shtypni tastin Enter, për tu kthyer te lista.</p>
     </dd>
   </dl>
 
-  <h3><a name="workspace-margins"></a>Workspaces
-  margins</h3><a name="workspace_margins-fig"></a>
+  <h3><a name="workspace-margins"></a>Mënjana hapësirash pune</h3><a name="workspace_margins-fig"></a>
 
-  <p><b>Figure 8. The workspace margins dialog</b></p><img src=
+  <p><b>Figurë 8. Dialog mënjanash hapësirash pune</b></p><img src=
   "/images/documentation/4.2/workspace_margins.png" alt=
-  "The workspace margins tab folder" />
+  "Skedë mënjanash hapësire pune" />
 
-  <p>To open the Workspace Margins dialog, click the button
-  labelled &quot;Workspaces and Margins&quot; in the <a href=
-  "xfce-mcs-manager#manager-dialog">settings
-  manager dialog</a> and choose the tab labelled &quot;Margins&quot;.</p>
+  <p>Për hapjen e dialogut të Mënjanave të hapësirave të punës, klikoni butonin me emrin &quot;Hapësira pune dhe Mënjana&quot; te <a href=
+  "xfce-mcs-manager#manager-dialog">dialogu i përgjegjësit të rregullimeve</a> dhe zgjidhni skedën me emrin &quot;Mënjana&quot;.</p>
 
-  <p>Margins are areas on the edges of the screen that maximized
-  windows won't cover. You can adjust the size, in pixels, of all
-  margins (left, right, top and bottom). Use this feature, for
-  example, if you do not want maximized windows to overlap panel or
-  iconbox frames.</p>
+  <p>Mënjanat janë zona në skajet e ekranit të cilat nuk do të mbulohen nga dritarja e maksimizuar. Mund të rregulloni madhësinë, në piksel, të tërë mënjanave (majatas, djathtas, sipër dhe poshtë). Përdoreni këtë karakteristikë, për shembull, nëse nuk doni që dritaret e maksimizuara të tejkalojnë korniza paneli apo kutije ikonash.</p>
 
   
 
-  <h2><a name="wm-copyright"></a>About
+  <h2><a name="wm-copyright"></a>Rreth
   <b><tt>xfwm4</tt></b></h2>
 
-  <p><b><tt>xfwm4</tt></b> was written Olivier Fourdan
+  <p><b><tt>xfwm4</tt></b> u shkruajt nga Olivier Fourdan
   (<tt>&lt;<a href=
-  "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). To find
-  more information, please visit the <a href="http://www.xfce.org"
- >Xfce web site</a>.</p>
+  "mailto:fourdan@xfce.org">fourdan@xfce.org</a>&gt;</tt>). Për më tepër të dhëna, ju lutem vizitoni <a href="http://www.xfce.org"
+ >site-in web të Xfce-së</a>.</p>
 
-  <p>To report a bug or make a suggestion regarding this
-  application or this manual, use the bug tracking system at
-  <a href="http://bugzilla.xfce.org/"
+  <p>Për të raportuar një të metë apo për të dhënë një këshillë në
+  lidhje me këtë zbatim apo këtë doracak, përdorni sistemin e ndjekjes
+  së <em>bug</em>-eve te <a href="http://bugzilla.xfce.org/"
   >http://bugzilla.xfce.org/</a>.</p>
 
-  <p>If you have questions about the use or installation of this
-  package, please ask on the <a href=
+  <p>Nëse keni pyetje rreth instalimit të kësaj pakete, ju lutem
+  pyesni te lista e postimeve <a href=
   "http://lunar-linux.org/mailman/listinfo/xfce"
-  >xfce</a> mailing list. Development discussion takes place
-  on the <a href=
+  >xfce</a>. Diskutimet rreth zhvillimit bëhen te lista 
+  e postimeve <a href=
   "http://lunar-linux.org/mailman/listinfo/xfce4-dev"
-  >xfce4-dev</a> mailing list.</p>
+  >xfce4-dev</a>.</p>
 
-  <p>This program is distributed under the terms of the GNU General
-  Public License as published by the Free Software Foundation;
-  either version 2 of the License, or (at your option) any later
-  version.</p>
+  <p>Ky program shpërndahet sipas kushteve të Licensës Publike të
+  Përgjithshme GNU, ashtu si botohet nga Free Software Foundation; ose
+  versioni 2 i Licensës, ose (në dëshirën tuaj) cilido version i  
+  mëvonshëm.</p>
 
-  <p>You should have received a copy of the GNU General Public
-  License along with this program; if not, write to the Free
-  Software Foundation, Inc., 59 Temple Place - Suite 330, Boston,
-  MA 02111-1307, USA.</p>
-
+  <p>Duhej të kishit marrë një kopje të Licensës Publike të Përgjithshme GNU
+  bashkë me këtë; nëse jo, shkruajini Free Software Foundation, Inc., 59   
+  Temple Place - Suite 330, Boston, MA 02111-1307, USA.</p>
