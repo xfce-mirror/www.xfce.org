@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>ThunarxPropertyPage</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="up" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
 <link rel="prev" href="ThunarxFileInfo.html" title="ThunarxFileInfo">
 <link rel="next" href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
 <link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
@@ -27,29 +27,29 @@
 <th width="100%" align="center">Thunar Extensions Reference Manual</th>
 <td><a accesskey="n" href="ThunarxProviderPlugin.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2562873" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2582074" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2563204" class="shortcut">Description</a>
+                  <a href="#id2582414" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2563063" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2582265" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2563128" class="shortcut">Implemented Interfaces</a>
+                  <a href="#id2582330" class="shortcut">Implemented Interfaces</a>
                   &#160;|&#160;
-                  <a href="#id2563152" class="shortcut">Properties</a></nobr></td></tr>
+                  <a href="#id2582362" class="shortcut">Properties</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="ThunarxPropertyPage"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2562873"></a><span class="refentrytitle">ThunarxPropertyPage</span>
+<a name="id2582074"></a><span class="refentrytitle">ThunarxPropertyPage</span>
 </h2>
 <p>ThunarxPropertyPage &#8212; The base class for pages added to the properties dialog</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
 <div class="refsect1" lang="en">
-<a name="id2562261"></a><h2>Stability Level</h2>
+<a name="id2581463"></a><h2>Stability Level</h2>
 Stable, unless otherwise indicated
 </div>
 <div class="refsynopsisdiv">
@@ -59,31 +59,31 @@ Stable, unless otherwise indicated
 #include &lt;thunarx/thunarx.h&gt;
 
 
-                    <a href="ThunarxPropertyPage.html#ThunarxPropertyPage-struct">ThunarxPropertyPage</a>;
+                    <a class="link" href="ThunarxPropertyPage.html#ThunarxPropertyPage-struct">ThunarxPropertyPage</a>;
 <a
 href="../gtk/GtkWidget.html"
->GtkWidget</a>*          <a href="ThunarxPropertyPage.html#thunarx-property-page-new">thunarx_property_page_new</a>           (const <a
+>GtkWidget</a>*          <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-new">thunarx_property_page_new</a>           (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *label);
 <a
 href="../gtk/GtkWidget.html"
->GtkWidget</a>*          <a href="ThunarxPropertyPage.html#thunarx-property-page-new-with-label-widget">thunarx_property_page_new_with_label_widget</a>
+>GtkWidget</a>*          <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-new-with-label-widget">thunarx_property_page_new_with_label_widget</a>
                                                         (<a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *label_widget);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarxPropertyPage.html#thunarx-property-page-get-label">thunarx_property_page_get_label</a>     (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);
-void                <a href="ThunarxPropertyPage.html#thunarx-property-page-set-label">thunarx_property_page_set_label</a>     (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
+>gchar</a>*        <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-get-label">thunarx_property_page_get_label</a>     (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);
+void                <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-set-label">thunarx_property_page_set_label</a>     (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *label);
 <a
 href="../gtk/GtkWidget.html"
->GtkWidget</a>*          <a href="ThunarxPropertyPage.html#thunarx-property-page-get-label-widget">thunarx_property_page_get_label_widget</a>
-                                                        (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);
-void                <a href="ThunarxPropertyPage.html#thunarx-property-page-set-label-widget">thunarx_property_page_set_label_widget</a>
-                                                        (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
+>GtkWidget</a>*          <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-get-label-widget">thunarx_property_page_get_label_widget</a>
+                                                        (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);
+void                <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-set-label-widget">thunarx_property_page_set_label_widget</a>
+                                                        (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *label_widget);
@@ -92,7 +92,7 @@ href="../gtk/GtkWidget.html"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563063"></a><h2>Object Hierarchy</h2>
+<a name="id2582265"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
@@ -117,41 +117,43 @@ href="../gtk/GtkBin.html"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563128"></a><h2>Implemented Interfaces</h2>
+<a name="id2582330"></a><h2>Implemented Interfaces</h2>
 <p>
 ThunarxPropertyPage implements
- AtkImplementorIface.</p>
+ AtkImplementorIface and  <a
+href="../gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563152"></a><h2>Properties</h2>
+<a name="id2582362"></a><h2>Properties</h2>
 <pre class="synopsis">
 
-  "<a href="ThunarxPropertyPage.html#ThunarxPropertyPage--label">label</a>"                    <a
+  "<a class="link" href="ThunarxPropertyPage.html#ThunarxPropertyPage--label">label</a>"                    <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write
-  "<a href="ThunarxPropertyPage.html#ThunarxPropertyPage--label-widget">label-widget</a>"             <a
+  "<a class="link" href="ThunarxPropertyPage.html#ThunarxPropertyPage--label-widget">label-widget</a>"             <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>             : Read / Write
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563204"></a><h2>Description</h2>
+<a name="id2582414"></a><h2>Description</h2>
 <p>
   The class for pages that can be added to Thunar's file properties dialog
-  by extensions implementing the <a href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider"><span class="type">ThunarxPropertyPageProvider</span></a> interface. The
-  pages returned by extensions from <a href="ThunarxPropertyPageProvider.html#thunarx-property-page-provider-get-pages"><code class="function">thunarx_property_page_provider_get_pages()</code></a>
+  by extensions implementing the <a class="link" href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider"><span class="type">ThunarxPropertyPageProvider</span></a> interface. The
+  pages returned by extensions from <a class="link" href="ThunarxPropertyPageProvider.html#thunarx-property-page-provider-get-pages"><code class="function">thunarx_property_page_provider_get_pages()</code></a>
   method are instances of this class or a derived class. Note that extensions
-  do not need to subclass <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>, but may also instantiate it
+  do not need to subclass <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>, but may also instantiate it
   directly and add widgets to it, but I strongly suggest to create a subclass
   as it usually leads to better modularization and thereby better maintainability
   in the code.
 </p>
 <p>
-  To pick up the <span class="type">TagPage</span> example from the <a href="ThunarxPropertyPageProvider.html#thunarx-property-page-provider-get-pages"><code class="function">thunarx_property_page_provider_get_pages()</code></a>
-  description again, you'd create a new class <span class="type">TagPage</span>, that inherits <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>
-  (using the <a href="ThunarxProviderPlugin.html#THUNARX-DEFINE-TYPE:CAPS"><span class="type">THUNARX_DEFINE_TYPE</span></a> macro), which provides several user interface elements
+  To pick up the <span class="type">TagPage</span> example from the <a class="link" href="ThunarxPropertyPageProvider.html#thunarx-property-page-provider-get-pages"><code class="function">thunarx_property_page_provider_get_pages()</code></a>
+  description again, you'd create a new class <span class="type">TagPage</span>, that inherits <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>
+  (using the <a class="link" href="ThunarxProviderPlugin.html#THUNARX-DEFINE-TYPE:CAPS"><span class="type">THUNARX_DEFINE_TYPE</span></a> macro), which provides several user interface elements
   in the property, and defines atleast one property named <code class="literal">"file"</code>, which
-  is the <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> whose tags are displayed in the property page. For example, the
+  is the <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> whose tags are displayed in the property page. For example, the
   <code class="filename">tag-page.h</code> header file would look like this (this is really just
   an example of the suggested way to implement property pages, you may of course choose
   a different way):
@@ -244,7 +246,7 @@ tag_page_class_init (TagPageClass *klass)
   /**
    * TagPage:file:
    *
-   * The <a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> displayed by this TagPage.
+   * The <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> displayed by this TagPage.
    **/
   g_object_class_install_property (gobject_class,
                                    PROP_FILE,
@@ -371,35 +373,35 @@ tag_page_set_file (TagPage         *tag_page,
   while the above solution is a little longer than a less structured solution, it yields great flexbility
   and maintainability. For example the <span class="type">TagPage</span> class described above, once filled with user interface
   elements, may be used for a standalone MP3-Tag editor out of the box (i.e. as an action returned from
-  the <a href="ThunarxRenamer.html#thunarx-renamer-get-actions"><code class="function">thunarx_renamer_get_actions()</code></a> method).
+  the <a class="link" href="ThunarxRenamer.html#thunarx-renamer-get-actions"><code class="function">thunarx_renamer_get_actions()</code></a> method).
 </p>
 <p>
   What is important to remember is that you should connect to the <code class="literal">"changed"</code> signal
-  of the <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s you are displaying, and update the user interface whenever the file
+  of the <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s you are displaying, and update the user interface whenever the file
   changes.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563570"></a><h2>Details</h2>
+<a name="id2582780"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2563580"></a><h3>
+<a name="id2582790"></a><h3>
 <a name="ThunarxPropertyPage-struct"></a>ThunarxPropertyPage</h3>
-<a class="indexterm" name="id2563593"></a><pre class="programlisting">typedef struct _ThunarxPropertyPage ThunarxPropertyPage;</pre>
+<a class="indexterm" name="id2582803"></a><pre class="programlisting">typedef struct _ThunarxPropertyPage ThunarxPropertyPage;</pre>
 <p>
   Base instance type for property pages.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563610"></a><h3>
+<a name="id2582819"></a><h3>
 <a name="thunarx-property-page-new"></a>thunarx_property_page_new ()</h3>
-<a class="indexterm" name="id2563623"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2582833"></a><pre class="programlisting"><a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>*          thunarx_property_page_new           (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *label);</pre>
 <p>
-Allocates a new <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget and sets its label to the
+Allocates a new <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget and sets its label to the
 specified <em class="parameter"><code>label</code></em>. If <em class="parameter"><code>label</code></em> is <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>, the label is omitted.</p>
@@ -410,13 +412,13 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>label</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>label</code></em>&#160;:</span></p></td>
 <td> the text to use as the label of the page.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the newly allocated <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the newly allocated <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>
               widget.
 </td>
 </tr>
@@ -425,16 +427,16 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563724"></a><h3>
+<a name="id2582934"></a><h3>
 <a name="thunarx-property-page-new-with-label-widget"></a>thunarx_property_page_new_with_label_widget ()</h3>
-<a class="indexterm" name="id2563739"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2582949"></a><pre class="programlisting"><a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>*          thunarx_property_page_new_with_label_widget
                                                         (<a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *label_widget);</pre>
 <p>
-Allocates a new <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget and sets its label to
+Allocates a new <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget and sets its label to
 the specified <em class="parameter"><code>label_widget</code></em>.</p>
 <p>
 
@@ -443,15 +445,15 @@ the specified <em class="parameter"><code>label_widget</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>label_widget</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>label_widget</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gtk/GtkWidget.html"
 ><span class="type">GtkWidget</span></a>, which should be used as label.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the newly allocated <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the newly allocated <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a> widget.
 </td>
 </tr>
 </tbody>
@@ -459,11 +461,11 @@ href="../gtk/GtkWidget.html"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563832"></a><h3>
+<a name="id2583042"></a><h3>
 <a name="thunarx-property-page-get-label"></a>thunarx_property_page_get_label ()</h3>
-<a class="indexterm" name="id2563845"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2583055"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        thunarx_property_page_get_label     (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);</pre>
+>gchar</a>*        thunarx_property_page_get_label     (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);</pre>
 <p>
 If the <em class="parameter"><code>property_page</code></em>'s label widget is a <a
 href="../gtk/GtkLabel.html"
@@ -473,7 +475,7 @@ href="../gtk/GtkLabel.html"
 ><span class="type">GtkLabel</span></a> for the
 label widget if a non-<a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
-><code class="literal">NULL</code></a> argument was passed to <a href="ThunarxPropertyPage.html#thunarx-property-page-new"><code class="function">thunarx_property_page_new()</code></a>).</p>
+><code class="literal">NULL</code></a> argument was passed to <a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-new"><code class="function">thunarx_property_page_new()</code></a>).</p>
 <p>
 
 </p>
@@ -481,12 +483,12 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
+<td><p><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the text in the label or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> if there was no label widget or
@@ -501,9 +503,9 @@ href="../gtk/GtkLabel.html"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563994"></a><h3>
+<a name="id2583204"></a><h3>
 <a name="thunarx-property-page-set-label"></a>thunarx_property_page_set_label ()</h3>
-<a class="indexterm" name="id2564008"></a><pre class="programlisting">void                thunarx_property_page_set_label     (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
+<a class="indexterm" name="id2583218"></a><pre class="programlisting">void                thunarx_property_page_set_label     (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *label);</pre>
@@ -519,12 +521,12 @@ removed.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
+<td><p><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>label</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>label</code></em>&#160;:</span></p></td>
 <td> the text to use as the label of the page.
 </td>
 </tr>
@@ -533,15 +535,15 @@ removed.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564106"></a><h3>
+<a name="id2583316"></a><h3>
 <a name="thunarx-property-page-get-label-widget"></a>thunarx_property_page_get_label_widget ()</h3>
-<a class="indexterm" name="id2564120"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2583330"></a><pre class="programlisting"><a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>*          thunarx_property_page_get_label_widget
-                                                        (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);</pre>
+                                                        (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page);</pre>
 <p>
 Returns the label widget for the <em class="parameter"><code>property_page</code></em>. See
-<a href="ThunarxPropertyPage.html#thunarx-property-page-set-label-widget"><code class="function">thunarx_property_page_set_label_widget()</code></a>.</p>
+<a class="link" href="ThunarxPropertyPage.html#thunarx-property-page-set-label-widget"><code class="function">thunarx_property_page_set_label_widget()</code></a>.</p>
 <p>
 
 </p>
@@ -549,12 +551,12 @@ Returns the label widget for the <em class="parameter"><code>property_page</code
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
+<td><p><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the label widget or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> if there is none.
@@ -565,10 +567,10 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564219"></a><h3>
+<a name="id2583429"></a><h3>
 <a name="thunarx-property-page-set-label-widget"></a>thunarx_property_page_set_label_widget ()</h3>
-<a class="indexterm" name="id2564232"></a><pre class="programlisting">void                thunarx_property_page_set_label_widget
-                                                        (<a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
+<a class="indexterm" name="id2583442"></a><pre class="programlisting">void                thunarx_property_page_set_label_widget
+                                                        (<a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">ThunarxPropertyPage</a> *property_page,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *label_widget);</pre>
@@ -582,12 +584,12 @@ that will appear in the notebook header for the <em class="parameter"><code>prop
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
+<td><p><span class="term"><em class="parameter"><code>property_page</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>label_widget</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>label_widget</code></em>&#160;:</span></p></td>
 <td> the new label widget.
 </td>
 </tr>
@@ -596,11 +598,11 @@ that will appear in the notebook header for the <em class="parameter"><code>prop
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2564329"></a><h2>Property Details</h2>
+<a name="id2583539"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2564339"></a><h3>
-<a name="ThunarxPropertyPage--label"></a>The "<code class="literal">label</code>" property</h3>
-<a class="indexterm" name="id2564355"></a><pre class="programlisting">  "label"                    <a
+<a name="id2583549"></a><h3>
+<a name="ThunarxPropertyPage--label"></a>The <code class="literal">"label"</code> property</h3>
+<a class="indexterm" name="id2583565"></a><pre class="programlisting">  "label"                    <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write</pre>
 <p>Text of the page's label.</p>
@@ -608,19 +610,24 @@ href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564383"></a><h3>
-<a name="ThunarxPropertyPage--label-widget"></a>The "<code class="literal">label-widget</code>" property</h3>
-<a class="indexterm" name="id2564399"></a><pre class="programlisting">  "label-widget"             <a
+<a name="id2583592"></a><h3>
+<a name="ThunarxPropertyPage--label-widget"></a>The <code class="literal">"label-widget"</code> property</h3>
+<a class="indexterm" name="id2583609"></a><pre class="programlisting">  "label-widget"             <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>             : Read / Write</pre>
 <p>A widget to display in place of the usual page label.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2564424"></a><h2>See Also</h2>
+<a name="id2583633"></a><h2>See Also</h2>
 <p>
-  The description of the <a href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider"><span class="type">ThunarxPropertyPageProvider</span></a> interface.
+  The description of the <a class="link" href="ThunarxPropertyPageProvider.html" title="ThunarxPropertyPageProvider"><span class="type">ThunarxPropertyPageProvider</span></a> interface.
 </p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2583653"></a><div class="refsect2" lang="en"><a name="id2583654"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2583655"></a></div>
 </div>
 </div>
 </body>

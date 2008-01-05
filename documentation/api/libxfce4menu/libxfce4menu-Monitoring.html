@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Monitoring</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="libxfce4menu Reference Manual">
 <link rel="up" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
 <link rel="prev" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
 <link rel="next" href="internals.html" title="Part&#160;V.&#160;Internals">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -30,16 +30,16 @@
 <th width="100%" align="center">libxfce4menu Reference Manual</th>
 <td><a accesskey="n" href="internals.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2574268" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2593844" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2574321" class="shortcut">Description</a></nobr></td></tr>
+                  <a href="#id2593897" class="shortcut">Description</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="libxfce4menu-Monitoring"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2574268"></a><span class="refentrytitle">Monitoring</span>
+<a name="id2593844"></a><span class="refentrytitle">Monitoring</span>
 </h2>
 <p>Monitoring</p>
 </td>
@@ -52,25 +52,25 @@
 #include &lt;libxfce4menu/libxfce4menu.h&gt;
 
 
-                    <a href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a>;
-void                <a href="libxfce4menu-Monitoring.html#xfce-menu-monitor-set-vtable">xfce_menu_monitor_set_vtable</a>        (<a href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
+                    <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a>;
+void                <a class="link" href="libxfce4menu-Monitoring.html#xfce-menu-monitor-set-vtable">xfce_menu_monitor_set_vtable</a>        (<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2574321"></a><h2>Description</h2>
+<a name="id2593897"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2574336"></a><h2>Details</h2>
+<a name="id2593911"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2574346"></a><h3>
+<a name="id2593922"></a><h3>
 <a name="XfceMenuMonitorVTable"></a>XfceMenuMonitorVTable</h3>
-<a class="indexterm" name="id2574359"></a><pre class="programlisting">typedef struct {
+<a class="indexterm" name="id2594904"></a><pre class="programlisting">typedef struct {
   gpointer (*monitor_file)      (XfceMenu    *menu,
                                  const gchar *filename,
                                  gpointer     user_data);
@@ -100,16 +100,22 @@ monitoring capabilities.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2575367"></a><h3>
+<a name="id2594942"></a><h3>
 <a name="xfce-menu-monitor-set-vtable"></a>xfce_menu_monitor_set_vtable ()</h3>
-<a class="indexterm" name="id2575381"></a><pre class="programlisting">void                xfce_menu_monitor_set_vtable        (<a href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
+<a class="indexterm" name="id2594955"></a><pre class="programlisting">void                xfce_menu_monitor_set_vtable        (<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);</pre>
 <p>
 Sets the functions to be called when monitoring a file or directory
-becomes necessary. See <a href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> for more detailled
-information.</p>
+becomes necessary. See <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> for more detailled
+information. Be careful with redefining the <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> 
+(e.g. don't redefine it while there are any <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>'s around).
+</p>
+<p>
+In order to change the user data, just pass the same 
+<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> as you did before. Pass NULL to clear the
+vtable (e.g. if you want to disable monitoring support).</p>
 <p>
 
 </p>
@@ -117,18 +123,23 @@ information.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>vtable</code></em>&#160;:</span></td>
-<td> a <a href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a>
+<td><p><span class="term"><em class="parameter"><code>vtable</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td> custom pointer to be passed to the vtable functions.
 </td>
 </tr>
 </tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2595082"></a><div class="refsect2" lang="en"><a name="id2595083"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2595084"></a></div>
 </div>
 </div>
 </body>

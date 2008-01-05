@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>ThunarVfsUser</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
 <link rel="up" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
 <link rel="prev" href="users-and-groups-handling.html" title="Part&#160;VI.&#160;Users and Groups Handling">
 <link rel="next" href="ThunarVfsGroup.html" title="ThunarVfsGroup">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -28,18 +28,18 @@
 <th width="100%" align="center">Thunar-VFS Reference Manual</th>
 <td><a accesskey="n" href="ThunarVfsGroup.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2603698" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2623567" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2604489" class="shortcut">Description</a>
+                  <a href="#id2624361" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2604464" class="shortcut">Object Hierarchy</a></nobr></td></tr>
+                  <a href="#id2624337" class="shortcut">Object Hierarchy</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="ThunarVfsUser"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2603698"></a><span class="refentrytitle">ThunarVfsUser</span>
+<a name="id2623567"></a><span class="refentrytitle">ThunarVfsUser</span>
 </h2>
 <p>ThunarVfsUser</p>
 </td>
@@ -52,27 +52,27 @@
 #include &lt;thunar-vfs/thunar-vfs.h&gt;
 
 
-                    <a href="ThunarVfsUser.html#ThunarVfsUser-struct">ThunarVfsUser</a>;
+                    <a class="link" href="ThunarVfsUser.html#ThunarVfsUser-struct">ThunarVfsUser</a>;
 <a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
->GList</a>*              <a href="ThunarVfsUser.html#thunar-vfs-user-get-groups">thunar_vfs_user_get_groups</a>          (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
-<a href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     <a href="ThunarVfsUser.html#thunar-vfs-user-get-primary-group">thunar_vfs_user_get_primary_group</a>   (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
-<a href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a>     <a href="ThunarVfsUser.html#thunar-vfs-user-get-id">thunar_vfs_user_get_id</a>              (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+>GList</a>*              <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-get-groups">thunar_vfs_user_get_groups</a>          (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+<a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-get-primary-group">thunar_vfs_user_get_primary_group</a>   (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+<a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a>     <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-get-id">thunar_vfs_user_get_id</a>              (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarVfsUser.html#thunar-vfs-user-get-name">thunar_vfs_user_get_name</a>            (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+>gchar</a>*        <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-get-name">thunar_vfs_user_get_name</a>            (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarVfsUser.html#thunar-vfs-user-get-real-name">thunar_vfs_user_get_real_name</a>       (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+>gchar</a>*        <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-get-real-name">thunar_vfs_user_get_real_name</a>       (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="ThunarVfsUser.html#thunar-vfs-user-is-me">thunar_vfs_user_is_me</a>               (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
+>gboolean</a>            <a class="link" href="ThunarVfsUser.html#thunar-vfs-user-is-me">thunar_vfs_user_is_me</a>               (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);
 
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604464"></a><h2>Object Hierarchy</h2>
+<a name="id2624337"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
@@ -82,31 +82,31 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604489"></a><h2>Description</h2>
+<a name="id2624361"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2604503"></a><h2>Details</h2>
+<a name="id2624376"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2604514"></a><h3>
+<a name="id2624386"></a><h3>
 <a name="ThunarVfsUser-struct"></a>ThunarVfsUser</h3>
-<a class="indexterm" name="id2604527"></a><pre class="programlisting">typedef struct _ThunarVfsUser ThunarVfsUser;</pre>
+<a class="indexterm" name="id2624400"></a><pre class="programlisting">typedef struct _ThunarVfsUser ThunarVfsUser;</pre>
 <p>
 
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2604543"></a><h3>
+<a name="id2624415"></a><h3>
 <a name="thunar-vfs-user-get-groups"></a>thunar_vfs_user_get_groups ()</h3>
-<a class="indexterm" name="id2604556"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2624429"></a><pre class="programlisting"><a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
->GList</a>*              thunar_vfs_user_get_groups          (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+>GList</a>*              thunar_vfs_user_get_groups          (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
-Returns all <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>s that <em class="parameter"><code>user</code></em>
-belongs to. The returned list and the <a href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>s
+Returns all <a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>s that <em class="parameter"><code>user</code></em>
+belongs to. The returned list and the <a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>s
 contained within the list are owned by <em class="parameter"><code>user</code></em> and must not be
 freed or altered by the caller.
 </p>
@@ -120,12 +120,12 @@ also be contained in the returned list.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the groups that <em class="parameter"><code>user</code></em> belongs to.
 </td>
 </tr>
@@ -134,9 +134,9 @@ also be contained in the returned list.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2604675"></a><h3>
+<a name="id2624547"></a><h3>
 <a name="thunar-vfs-user-get-primary-group"></a>thunar_vfs_user_get_primary_group ()</h3>
-<a class="indexterm" name="id2604689"></a><pre class="programlisting"><a href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     thunar_vfs_user_get_primary_group   (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+<a class="indexterm" name="id2624562"></a><pre class="programlisting"><a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a>*     thunar_vfs_user_get_primary_group   (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
 Returns the primary group of <em class="parameter"><code>user</code></em> or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -155,12 +155,12 @@ href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the primary group of <em class="parameter"><code>user</code></em> or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>.
@@ -171,9 +171,9 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2604811"></a><h3>
+<a name="id2624685"></a><h3>
 <a name="thunar-vfs-user-get-id"></a>thunar_vfs_user_get_id ()</h3>
-<a class="indexterm" name="id2604824"></a><pre class="programlisting"><a href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a>     thunar_vfs_user_get_id              (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+<a class="indexterm" name="id2624698"></a><pre class="programlisting"><a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsUserId">ThunarVfsUserId</a>     thunar_vfs_user_get_id              (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
 Returns the unique id of <em class="parameter"><code>user</code></em>.</p>
 <p>
@@ -183,12 +183,12 @@ Returns the unique id of <em class="parameter"><code>user</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the unique id of <em class="parameter"><code>user</code></em>.
 </td>
 </tr>
@@ -197,11 +197,11 @@ Returns the unique id of <em class="parameter"><code>user</code></em>.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2604904"></a><h3>
+<a name="id2624778"></a><h3>
 <a name="thunar-vfs-user-get-name"></a>thunar_vfs_user_get_name ()</h3>
-<a class="indexterm" name="id2604917"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2624791"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        thunar_vfs_user_get_name            (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+>gchar</a>*        thunar_vfs_user_get_name            (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
 Returns the name of <em class="parameter"><code>user</code></em>. If the system is
 unable to determine the account name of <em class="parameter"><code>user</code></em>,
@@ -213,12 +213,12 @@ it'll return the user id as string.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the name of <em class="parameter"><code>user</code></em>.
 </td>
 </tr>
@@ -227,11 +227,11 @@ it'll return the user id as string.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2605007"></a><h3>
+<a name="id2624880"></a><h3>
 <a name="thunar-vfs-user-get-real-name"></a>thunar_vfs_user_get_real_name ()</h3>
-<a class="indexterm" name="id2605020"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2624894"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        thunar_vfs_user_get_real_name       (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+>gchar</a>*        thunar_vfs_user_get_real_name       (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
 Returns the real name of <em class="parameter"><code>user</code></em> or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -245,12 +245,12 @@ system.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the real name for <em class="parameter"><code>user</code></em> or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>.
@@ -261,11 +261,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2605129"></a><h3>
+<a name="id2625003"></a><h3>
 <a name="thunar-vfs-user-is-me"></a>thunar_vfs_user_is_me ()</h3>
-<a class="indexterm" name="id2605143"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2625016"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            thunar_vfs_user_is_me               (<a href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
+>gboolean</a>            thunar_vfs_user_is_me               (<a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser">ThunarVfsUser</a> *user);</pre>
 <p>
 Checks whether the owner of the current process is
 described by <em class="parameter"><code>user</code></em>.</p>
@@ -276,12 +276,12 @@ described by <em class="parameter"><code>user</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
+<td><p><span class="term"><em class="parameter"><code>user</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsUser.html" title="ThunarVfsUser"><span class="type">ThunarVfsUser</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if <em class="parameter"><code>user</code></em> is the owner of the current
@@ -293,6 +293,11 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2625119"></a><div class="refsect2" lang="en"><a name="id2625120"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2625122"></a></div>
 </div>
 </div>
 </body>

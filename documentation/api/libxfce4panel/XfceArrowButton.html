@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfceArrowButton</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
 <link rel="up" href="libxfce4panel-widgets.html" title="Widgets">
 <link rel="prev" href="libxfce4panel-widgets.html" title="Widgets">
 <link rel="next" href="XfceHVBox.html" title="XfceHVBox">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
 <link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
@@ -25,24 +25,24 @@
 <th width="100%" align="center">Libxfce4panel Reference Manual</th>
 <td><a accesskey="n" href="XfceHVBox.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2570352" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2589769" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2571585" class="shortcut">Description</a>
+                  <a href="#id2591021" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2571421" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2590850" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2571500" class="shortcut">Implemented Interfaces</a>
+                  <a href="#id2590929" class="shortcut">Implemented Interfaces</a>
                   &#160;|&#160;
-                  <a href="#id2571523" class="shortcut">Properties</a>
+                  <a href="#id2590959" class="shortcut">Properties</a>
                   &#160;|&#160;
-                  <a href="#id2571557" class="shortcut">Signals</a></nobr></td></tr>
+                  <a href="#id2590993" class="shortcut">Signals</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="XfceArrowButton"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2570352"></a><span class="refentrytitle">XfceArrowButton</span>
+<a name="id2589769"></a><span class="refentrytitle">XfceArrowButton</span>
 </h2>
 <p>XfceArrowButton &#8212; Toggle button with arrow.</p>
 </td>
@@ -55,24 +55,24 @@
 #include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-                    <a href="XfceArrowButton.html#XfceArrowButton-struct">XfceArrowButton</a>;
+                    <a class="link" href="XfceArrowButton.html#XfceArrowButton-struct">XfceArrowButton</a>;
 <a
 href="../gtk/GtkWidget.html"
->GtkWidget</a>*          <a href="XfceArrowButton.html#xfce-arrow-button-new">xfce_arrow_button_new</a>               (<a
+>GtkWidget</a>*          <a class="link" href="XfceArrowButton.html#xfce-arrow-button-new">xfce_arrow_button_new</a>               (<a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a> type);
-void                <a href="XfceArrowButton.html#xfce-arrow-button-set-arrow-type">xfce_arrow_button_set_arrow_type</a>    (<a href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
+void                <a class="link" href="XfceArrowButton.html#xfce-arrow-button-set-arrow-type">xfce_arrow_button_set_arrow_type</a>    (<a class="link" href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
                                                          <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a> type);
 <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
->GtkArrowType</a>        <a href="XfceArrowButton.html#xfce-arrow-button-get-arrow-type">xfce_arrow_button_get_arrow_type</a>    (<a href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button);
+>GtkArrowType</a>        <a class="link" href="XfceArrowButton.html#xfce-arrow-button-get-arrow-type">xfce_arrow_button_get_arrow_type</a>    (<a class="link" href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button);
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571421"></a><h2>Object Hierarchy</h2>
+<a name="id2590850"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
@@ -103,56 +103,58 @@ href="../gtk/GtkToggleButton.html"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571500"></a><h2>Implemented Interfaces</h2>
+<a name="id2590929"></a><h2>Implemented Interfaces</h2>
 <p>
 XfceArrowButton implements
- AtkImplementorIface.</p>
+ AtkImplementorIface and  <a
+href="../gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571523"></a><h2>Properties</h2>
+<a name="id2590959"></a><h2>Properties</h2>
 <pre class="synopsis">
 
-  "<a href="XfceArrowButton.html#XfceArrowButton--arrow-type">arrow-type</a>"               <a
+  "<a class="link" href="XfceArrowButton.html#XfceArrowButton--arrow-type">arrow-type</a>"               <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a>          : Read / Write
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571557"></a><h2>Signals</h2>
+<a name="id2590993"></a><h2>Signals</h2>
 <pre class="synopsis">
 
-  "<a href="XfceArrowButton.html#XfceArrowButton-arrow-type-changed">arrow-type-changed</a>"                             : Run First
+  "<a class="link" href="XfceArrowButton.html#XfceArrowButton-arrow-type-changed">arrow-type-changed</a>"                             : Run First
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571585"></a><h2>Description</h2>
+<a name="id2591021"></a><h2>Description</h2>
 <p>
 Toggle button with arrow. The arrow direction will be inverted when the button
 is toggled.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571601"></a><h2>Details</h2>
+<a name="id2591037"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2571611"></a><h3>
+<a name="id2591047"></a><h3>
 <a name="XfceArrowButton-struct"></a>XfceArrowButton</h3>
-<a class="indexterm" name="id2571625"></a><pre class="programlisting">typedef struct _XfceArrowButton XfceArrowButton;</pre>
+<a class="indexterm" name="id2591061"></a><pre class="programlisting">typedef struct _XfceArrowButton XfceArrowButton;</pre>
 <p>
-The <a href="XfceArrowButton.html#XfceArrowButton-struct"><span class="type">XfceArrowButton</span></a> struct contains private data only, and
+The <a class="link" href="XfceArrowButton.html#XfceArrowButton-struct"><span class="type">XfceArrowButton</span></a> struct contains private data only, and
 should be accessed using the functions below.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571651"></a><h3>
+<a name="id2591087"></a><h3>
 <a name="xfce-arrow-button-new"></a>xfce_arrow_button_new ()</h3>
-<a class="indexterm" name="id2571664"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2591100"></a><pre class="programlisting"><a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>*          xfce_arrow_button_new               (<a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a> type);</pre>
 <p>
-Creates a new <a href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a> widget.</p>
+Creates a new <a class="link" href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a> widget.</p>
 <p>
 
 </p>
@@ -160,15 +162,15 @@ Creates a new <a href="XfceArrowButton.html" title="XfceArrowButton"><span class
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></p></td>
 <td> <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 ><span class="type">GtkArrowType</span></a> for the arrow button
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> The newly created <a href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a> widget.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> The newly created <a class="link" href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a> widget.
 </td>
 </tr>
 </tbody>
@@ -176,9 +178,9 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571750"></a><h3>
+<a name="id2591186"></a><h3>
 <a name="xfce-arrow-button-set-arrow-type"></a>xfce_arrow_button_set_arrow_type ()</h3>
-<a class="indexterm" name="id2571762"></a><pre class="programlisting">void                xfce_arrow_button_set_arrow_type    (<a href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
+<a class="indexterm" name="id2591198"></a><pre class="programlisting">void                xfce_arrow_button_set_arrow_type    (<a class="link" href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
                                                          <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a> type);</pre>
@@ -191,12 +193,12 @@ Sets the arrow type for <em class="parameter"><code>button</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></td>
-<td> a <a href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a>
+<td><p><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></p></td>
 <td> a valid  <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 ><span class="type">GtkArrowType</span></a>
@@ -207,11 +209,11 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571857"></a><h3>
+<a name="id2591293"></a><h3>
 <a name="xfce-arrow-button-get-arrow-type"></a>xfce_arrow_button_get_arrow_type ()</h3>
-<a class="indexterm" name="id2571870"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2591307"></a><pre class="programlisting"><a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
->GtkArrowType</a>        xfce_arrow_button_get_arrow_type    (<a href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button);</pre>
+>GtkArrowType</a>        xfce_arrow_button_get_arrow_type    (<a class="link" href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button);</pre>
 <p>
 Returns the value of the ::arrow-type property.</p>
 <p>
@@ -221,12 +223,12 @@ Returns the value of the ::arrow-type property.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></td>
-<td> a <a href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a>
+<td><p><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfceArrowButton.html" title="XfceArrowButton"><span class="type">XfceArrowButton</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 ><span class="type">GtkArrowType</span></a> of <em class="parameter"><code>button</code></em>.
@@ -237,11 +239,11 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2571955"></a><h2>Property Details</h2>
+<a name="id2591392"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2571966"></a><h3>
-<a name="XfceArrowButton--arrow-type"></a>The "<code class="literal">arrow-type</code>" property</h3>
-<a class="indexterm" name="id2571982"></a><pre class="programlisting">  "arrow-type"               <a
+<a name="id2591402"></a><h3>
+<a name="XfceArrowButton--arrow-type"></a>The <code class="literal">"arrow-type"</code> property</h3>
+<a class="indexterm" name="id2591418"></a><pre class="programlisting">  "arrow-type"               <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a>          : Read / Write</pre>
 <p>
@@ -254,11 +256,11 @@ of the popup menu.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2572014"></a><h2>Signal Details</h2>
+<a name="id2591450"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2572025"></a><h3>
-<a name="XfceArrowButton-arrow-type-changed"></a>The "arrow-type-changed" signal</h3>
-<a class="indexterm" name="id2572036"></a><pre class="programlisting">void                user_function                      (<a href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
+<a name="id2591461"></a><h3>
+<a name="XfceArrowButton-arrow-type-changed"></a>The <code class="literal">"arrow-type-changed"</code> signal</h3>
+<a class="indexterm" name="id2591478"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfceArrowButton.html" title="XfceArrowButton">XfceArrowButton</a> *button,
                                                         <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 >GtkArrowType</a>     type,
@@ -275,19 +277,19 @@ This value also determines the direction of the popup menu.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>button</code></em>&#160;:</span></p></td>
 <td> the object which emitted the signal
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></p></td>
 <td> the new <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 ><span class="type">GtkArrowType</span></a> of the button
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -295,12 +297,17 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkArrowType"
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2572142"></a><h2>See Also</h2>
+<a name="id2591584"></a><h2>See Also</h2>
 <p>
 <a
 href="../gtk/GtkToggleButton.html"
 ><span class="type">GtkToggleButton</span></a>
 </p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2591602"></a><div class="refsect2" lang="en"><a name="id2591603"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2591604"></a></div>
 </div>
 </div>
 </body>

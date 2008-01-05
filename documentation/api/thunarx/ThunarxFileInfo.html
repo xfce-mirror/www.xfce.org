@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>ThunarxFileInfo</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="up" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
 <link rel="prev" href="thunarx-abstraction-layer.html" title="Part&#160;IV.&#160;Abstraction Layer">
 <link rel="next" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
 <link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
@@ -27,29 +27,29 @@
 <th width="100%" align="center">Thunar Extensions Reference Manual</th>
 <td><a accesskey="n" href="ThunarxPropertyPage.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2557644" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2576813" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2558067" class="shortcut">Description</a>
+                  <a href="#id2577237" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2557982" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2577152" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2558007" class="shortcut">Prerequisites</a>
+                  <a href="#id2577177" class="shortcut">Prerequisites</a>
                   &#160;|&#160;
-                  <a href="#id2558029" class="shortcut">Signals</a></nobr></td></tr>
+                  <a href="#id2577199" class="shortcut">Signals</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="ThunarxFileInfo"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2557644"></a><span class="refentrytitle">ThunarxFileInfo</span>
+<a name="id2576813"></a><span class="refentrytitle">ThunarxFileInfo</span>
 </h2>
 <p>ThunarxFileInfo &#8212; Abstraction of a file handled within the file manager</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
 <div class="refsect1" lang="en">
-<a name="id2557033"></a><h2>Stability Level</h2>
+<a name="id2576202"></a><h2>Stability Level</h2>
 Stable, unless otherwise indicated
 </div>
 <div class="refsynopsisdiv">
@@ -59,44 +59,44 @@ Stable, unless otherwise indicated
 #include &lt;thunarx/thunarx.h&gt;
 
 
-                    <a href="ThunarxFileInfo.html#ThunarxFileInfoIface">ThunarxFileInfoIface</a>;
-                    <a href="ThunarxFileInfo.html#ThunarxFileInfo-struct">ThunarxFileInfo</a>;
+                    <a class="link" href="ThunarxFileInfo.html#ThunarxFileInfoIface">ThunarxFileInfoIface</a>;
+                    <a class="link" href="ThunarxFileInfo.html#ThunarxFileInfo-struct">ThunarxFileInfo</a>;
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-get-name">thunarx_file_info_get_name</a>          (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gchar</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-name">thunarx_file_info_get_name</a>          (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-get-uri">thunarx_file_info_get_uri</a>           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gchar</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-uri">thunarx_file_info_get_uri</a>           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-get-parent-uri">thunarx_file_info_get_parent_uri</a>    (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gchar</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-parent-uri">thunarx_file_info_get_parent_uri</a>    (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-get-uri-scheme">thunarx_file_info_get_uri_scheme</a>    (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gchar</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-uri-scheme">thunarx_file_info_get_uri_scheme</a>    (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type">thunarx_file_info_get_mime_type</a>     (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gchar</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type">thunarx_file_info_get_mime_type</a>     (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="ThunarxFileInfo.html#thunarx-file-info-has-mime-type">thunarx_file_info_has_mime_type</a>     (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
+>gboolean</a>            <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-has-mime-type">thunarx_file_info_has_mime_type</a>     (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *mime_type);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="ThunarxFileInfo.html#thunarx-file-info-is-directory">thunarx_file_info_is_directory</a>      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+>gboolean</a>            <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-is-directory">thunarx_file_info_is_directory</a>      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
 <a
 href="../thunar-vfs/thunar-vfs-ThunarVfsInfo.html#ThunarVfsInfo"
->ThunarVfsInfo</a>*      <a href="ThunarxFileInfo.html#thunarx-file-info-get-vfs-info">thunarx_file_info_get_vfs_info</a>      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
-void                <a href="ThunarxFileInfo.html#thunarx-file-info-changed">thunarx_file_info_changed</a>           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
-void                <a href="ThunarxFileInfo.html#thunarx-file-info-renamed">thunarx_file_info_renamed</a>           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
-#define             <a href="ThunarxFileInfo.html#THUNARX-TYPE-FILE-INFO-LIST:CAPS">THUNARX_TYPE_FILE_INFO_LIST</a>
+>ThunarVfsInfo</a>*      <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-vfs-info">thunarx_file_info_get_vfs_info</a>      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+void                <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-changed">thunarx_file_info_changed</a>           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+void                <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-renamed">thunarx_file_info_renamed</a>           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);
+#define             <a class="link" href="ThunarxFileInfo.html#THUNARX-TYPE-FILE-INFO-LIST:CAPS">THUNARX_TYPE_FILE_INFO_LIST</a>
 <a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
->GList</a>*              <a href="ThunarxFileInfo.html#thunarx-file-info-list-copy">thunarx_file_info_list_copy</a>         (<a
+>GList</a>*              <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-list-copy">thunarx_file_info_list_copy</a>         (<a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
 >GList</a> *file_infos);
-void                <a href="ThunarxFileInfo.html#thunarx-file-info-list-free">thunarx_file_info_list_free</a>         (<a
+void                <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-list-free">thunarx_file_info_list_free</a>         (<a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
 >GList</a> *file_infos);
 
@@ -104,7 +104,7 @@ href="../glib/glib-Doubly-Linked-Lists.html#GList"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2557982"></a><h2>Object Hierarchy</h2>
+<a name="id2577152"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GInterface
@@ -112,7 +112,7 @@ href="../glib/glib-Doubly-Linked-Lists.html#GList"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2558007"></a><h2>Prerequisites</h2>
+<a name="id2577177"></a><h2>Prerequisites</h2>
 <p>
 ThunarxFileInfo requires
  <a
@@ -120,26 +120,26 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 >GObject</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2558029"></a><h2>Signals</h2>
+<a name="id2577199"></a><h2>Signals</h2>
 <pre class="synopsis">
 
-  "<a href="ThunarxFileInfo.html#ThunarxFileInfo-changed">changed</a>"                                        : Run First
-  "<a href="ThunarxFileInfo.html#ThunarxFileInfo-renamed">renamed</a>"                                        : Run First
+  "<a class="link" href="ThunarxFileInfo.html#ThunarxFileInfo-changed">changed</a>"                                        : Run First
+  "<a class="link" href="ThunarxFileInfo.html#ThunarxFileInfo-renamed">renamed</a>"                                        : Run First
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2558067"></a><h2>Description</h2>
+<a name="id2577237"></a><h2>Description</h2>
 <p>
   The <span class="interface">ThunarxFileInfo</span> interface provides extensions with
   a way to access information about a file handled within the file manager.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2558090"></a><h2>Details</h2>
+<a name="id2577260"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2558100"></a><h3>
+<a name="id2577270"></a><h3>
 <a name="ThunarxFileInfoIface"></a>ThunarxFileInfoIface</h3>
-<a class="indexterm" name="id2558112"></a><pre class="programlisting">typedef struct {
+<a class="indexterm" name="id2577282"></a><pre class="programlisting">typedef struct {
   /* virtual methods */
   gchar         *(*get_name)        (ThunarxFileInfo *file_info);
 
@@ -169,53 +169,53 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_name</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-name"><code class="function">thunarx_file_info_get_name()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_name</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-name"><code class="function">thunarx_file_info_get_name()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_uri</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-uri"><code class="function">thunarx_file_info_get_uri()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_uri</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-uri"><code class="function">thunarx_file_info_get_uri()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_parent_uri</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-parent-uri"><code class="function">thunarx_file_info_get_parent_uri()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_parent_uri</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-parent-uri"><code class="function">thunarx_file_info_get_parent_uri()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_uri_scheme</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-uri-scheme"><code class="function">thunarx_file_info_get_uri_scheme()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_uri_scheme</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-uri-scheme"><code class="function">thunarx_file_info_get_uri_scheme()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_mime_type</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type"><code class="function">thunarx_file_info_get_mime_type()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_mime_type</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type"><code class="function">thunarx_file_info_get_mime_type()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>has_mime_type</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-has-mime-type"><code class="function">thunarx_file_info_has_mime_type()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>has_mime_type</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-has-mime-type"><code class="function">thunarx_file_info_has_mime_type()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>is_directory</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-is-directory"><code class="function">thunarx_file_info_is_directory()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>is_directory</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-is-directory"><code class="function">thunarx_file_info_is_directory()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>get_vfs_info</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-get-vfs-info"><code class="function">thunarx_file_info_get_vfs_info()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>get_vfs_info</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-vfs-info"><code class="function">thunarx_file_info_get_vfs_info()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>changed</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-changed"><code class="function">thunarx_file_info_changed()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>changed</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-changed"><code class="function">thunarx_file_info_changed()</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="structfield"><code>renamed</code></em>&#160;()</span></td>
-<td>See <a href="ThunarxFileInfo.html#thunarx-file-info-renamed"><code class="function">thunarx_file_info_renamed()</code></a>.
+<td><p><span class="term"><em class="structfield"><code>renamed</code></em>&#160;()</span></p></td>
+<td>See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-renamed"><code class="function">thunarx_file_info_renamed()</code></a>.
 
 </td>
 </tr>
@@ -224,9 +224,9 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558393"></a><h3>
+<a name="id2577563"></a><h3>
 <a name="ThunarxFileInfo-struct"></a>ThunarxFileInfo</h3>
-<a class="indexterm" name="id2558407"></a><pre class="programlisting">typedef struct _ThunarxFileInfo ThunarxFileInfo;</pre>
+<a class="indexterm" name="id2577576"></a><pre class="programlisting">typedef struct _ThunarxFileInfo ThunarxFileInfo;</pre>
 <p>
 	File info type, which is mapped to the real file info implementation
 	within the file manager.
@@ -234,11 +234,11 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558424"></a><h3>
+<a name="id2577594"></a><h3>
 <a name="thunarx-file-info-get-name"></a>thunarx_file_info_get_name ()</h3>
-<a class="indexterm" name="id2558437"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2577607"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              thunarx_file_info_get_name          (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gchar</a>*              thunarx_file_info_get_name          (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the real name of the file represented
 by <em class="parameter"><code>file_info</code></em> in the local file system encoding.
@@ -261,12 +261,12 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the real name of the file represented
               by <em class="parameter"><code>file_info</code></em>.
 </td>
@@ -276,11 +276,11 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558549"></a><h3>
+<a name="id2577718"></a><h3>
 <a name="thunarx-file-info-get-uri"></a>thunarx_file_info_get_uri ()</h3>
-<a class="indexterm" name="id2558562"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2577732"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              thunarx_file_info_get_uri           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gchar</a>*              thunarx_file_info_get_uri           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the escaped, fully qualified URI
 of the file object represented by <em class="parameter"><code>file_info</code></em>.
@@ -301,12 +301,12 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the fully qualified URI of <em class="parameter"><code>file_info</code></em>.
 </td>
 </tr>
@@ -315,11 +315,11 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558671"></a><h3>
+<a name="id2577841"></a><h3>
 <a name="thunarx-file-info-get-parent-uri"></a>thunarx_file_info_get_parent_uri ()</h3>
-<a class="indexterm" name="id2558684"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2577854"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              thunarx_file_info_get_parent_uri    (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gchar</a>*              thunarx_file_info_get_parent_uri    (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the URI to the parent file of
 <em class="parameter"><code>file_info</code></em> or <a
@@ -343,12 +343,12 @@ longer needed.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the parent URI for <em class="parameter"><code>file_info</code></em>
               or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -360,11 +360,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558816"></a><h3>
+<a name="id2577985"></a><h3>
 <a name="thunarx-file-info-get-uri-scheme"></a>thunarx_file_info_get_uri_scheme ()</h3>
-<a class="indexterm" name="id2558829"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2577999"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              thunarx_file_info_get_uri_scheme    (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gchar</a>*              thunarx_file_info_get_uri_scheme    (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the URI scheme of the file represented
 by <em class="parameter"><code>file_info</code></em>. E.g. if <em class="parameter"><code>file_info</code></em> refers to the
@@ -383,12 +383,12 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the URI scheme for <em class="parameter"><code>file_info</code></em>.
 </td>
 </tr>
@@ -397,11 +397,11 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2558932"></a><h3>
+<a name="id2578102"></a><h3>
 <a name="thunarx-file-info-get-mime-type"></a>thunarx_file_info_get_mime_type ()</h3>
-<a class="indexterm" name="id2558946"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2578115"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              thunarx_file_info_get_mime_type     (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gchar</a>*              thunarx_file_info_get_mime_type     (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the MIME-type of the file represented by
 <em class="parameter"><code>file_info</code></em> or <a
@@ -421,12 +421,12 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the MIME-type for <em class="parameter"><code>file_info</code></em> or
               <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -438,11 +438,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559069"></a><h3>
+<a name="id2578239"></a><h3>
 <a name="thunarx-file-info-has-mime-type"></a>thunarx_file_info_has_mime_type ()</h3>
-<a class="indexterm" name="id2559082"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2578252"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            thunarx_file_info_has_mime_type     (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
+>gboolean</a>            thunarx_file_info_has_mime_type     (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *mime_type);</pre>
@@ -455,10 +455,10 @@ of <em class="parameter"><code>mime_type</code></em>.
 This is the preferred way for most extensions to check
 whether they support a given file or not, and you should
 consider using this method rather than
-<a href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type"><code class="function">thunarx_file_info_get_mime_type()</code></a>. A simple example would
+<a class="link" href="ThunarxFileInfo.html#thunarx-file-info-get-mime-type"><code class="function">thunarx_file_info_get_mime_type()</code></a>. A simple example would
 be a menu extension that performs a certain action on
 text files. In this case you want to check whether a given
-<a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> refers to any kind of text file, not only
+<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a> refers to any kind of text file, not only
 to "text/plain" (e.g. this also includes "text/xml" and
 "application/x-desktop").
 </p>
@@ -473,17 +473,17 @@ so don't call it too often.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_type</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>mime_type</code></em>&#160;:</span></p></td>
 <td> a MIME-type (e.g. "text/plain").
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if <em class="parameter"><code>mime_type</code></em> is valid for <em class="parameter"><code>file_info</code></em>,
@@ -497,11 +497,11 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559278"></a><h3>
+<a name="id2578447"></a><h3>
 <a name="thunarx-file-info-is-directory"></a>thunarx_file_info_is_directory ()</h3>
-<a class="indexterm" name="id2559291"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2578461"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            thunarx_file_info_is_directory      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>gboolean</a>            thunarx_file_info_is_directory      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Checks whether <em class="parameter"><code>file_info</code></em> refers to a directory.</p>
 <p>
@@ -511,12 +511,12 @@ Checks whether <em class="parameter"><code>file_info</code></em> refers to a dir
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if <em class="parameter"><code>file_info</code></em> is a directory.
@@ -527,11 +527,11 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559382"></a><h3>
+<a name="id2578552"></a><h3>
 <a name="thunarx-file-info-get-vfs-info"></a>thunarx_file_info_get_vfs_info ()</h3>
-<a class="indexterm" name="id2559396"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2578566"></a><pre class="programlisting"><a
 href="../thunar-vfs/thunar-vfs-ThunarVfsInfo.html#ThunarVfsInfo"
->ThunarVfsInfo</a>*      thunarx_file_info_get_vfs_info      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+>ThunarVfsInfo</a>*      thunarx_file_info_get_vfs_info      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Returns the <a
 href="../thunar-vfs/thunar-vfs-ThunarVfsInfo.html#ThunarVfsInfo"
@@ -559,12 +559,12 @@ add <code class="code">`pkg-config --cflags thunar-vfs-1`</code> to your
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the <a
 href="../thunar-vfs/thunar-vfs-ThunarVfsInfo.html#ThunarVfsInfo"
 ><span class="type">ThunarVfsInfo</span></a> object associated with <em class="parameter"><code>file_info</code></em>,
@@ -578,9 +578,9 @@ href="../thunar-vfs/thunar-vfs-ThunarVfsInfo.html#thunar-vfs-info-unref"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559564"></a><h3>
+<a name="id2578734"></a><h3>
 <a name="thunarx-file-info-changed"></a>thunarx_file_info_changed ()</h3>
-<a class="indexterm" name="id2559578"></a><pre class="programlisting">void                thunarx_file_info_changed           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+<a class="indexterm" name="id2578747"></a><pre class="programlisting">void                thunarx_file_info_changed           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Emits the ::changed signal on <em class="parameter"><code>file_info</code></em>. This method should not
 be invoked by Thunar plugins, instead the file manager itself
@@ -592,17 +592,17 @@ change on <em class="parameter"><code>file_info</code></em>.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559650"></a><h3>
+<a name="id2578820"></a><h3>
 <a name="thunarx-file-info-renamed"></a>thunarx_file_info_renamed ()</h3>
-<a class="indexterm" name="id2559664"></a><pre class="programlisting">void                thunarx_file_info_renamed           (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
+<a class="indexterm" name="id2578833"></a><pre class="programlisting">void                thunarx_file_info_renamed           (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info);</pre>
 <p>
 Emits the ::renamed signal on <em class="parameter"><code>file_info</code></em>. This method should
 not be invoked by Thunar plugins, instead the file manager
@@ -618,32 +618,32 @@ after the file manager renamed a file.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559742"></a><h3>
+<a name="id2578911"></a><h3>
 <a name="THUNARX-TYPE-FILE-INFO-LIST:CAPS"></a>THUNARX_TYPE_FILE_INFO_LIST</h3>
-<a class="indexterm" name="id2559755"></a><pre class="programlisting">#define THUNARX_TYPE_FILE_INFO_LIST (thunarx_file_info_list_get_type ())
+<a class="indexterm" name="id2578925"></a><pre class="programlisting">#define THUNARX_TYPE_FILE_INFO_LIST (thunarx_file_info_list_get_type ())
 </pre>
 <p>
   The <a
 href="../gobject/gobject-Type-Information.html#GType"
 ><span class="type">GType</span></a> for a boxed type holding a <a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
-><span class="type">GList</span></a> of <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
-  See <a href="ThunarxFileInfo.html#thunarx-file-info-list-copy"><code class="function">thunarx_file_info_list_copy()</code></a> and <a href="ThunarxFileInfo.html#thunarx-file-info-list-free"><code class="function">thunarx_file_info_list_free()</code></a>.
+><span class="type">GList</span></a> of <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
+  See <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-list-copy"><code class="function">thunarx_file_info_list_copy()</code></a> and <a class="link" href="ThunarxFileInfo.html#thunarx-file-info-list-free"><code class="function">thunarx_file_info_list_free()</code></a>.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559821"></a><h3>
+<a name="id2578990"></a><h3>
 <a name="thunarx-file-info-list-copy"></a>thunarx_file_info_list_copy ()</h3>
-<a class="indexterm" name="id2559834"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2579003"></a><pre class="programlisting"><a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
 >GList</a>*              thunarx_file_info_list_copy         (<a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
@@ -658,14 +658,14 @@ new list.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_infos</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>file_infos</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
-><span class="type">GList</span></a> of <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
+><span class="type">GList</span></a> of <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> a copy of <em class="parameter"><code>file_infos</code></em>.
 </td>
 </tr>
@@ -674,36 +674,36 @@ href="../glib/glib-Doubly-Linked-Lists.html#GList"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2559923"></a><h3>
+<a name="id2579093"></a><h3>
 <a name="thunarx-file-info-list-free"></a>thunarx_file_info_list_free ()</h3>
-<a class="indexterm" name="id2559937"></a><pre class="programlisting">void                thunarx_file_info_list_free         (<a
+<a class="indexterm" name="id2579107"></a><pre class="programlisting">void                thunarx_file_info_list_free         (<a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
 >GList</a> *file_infos);</pre>
 <p>
 Frees the resources allocated for the <em class="parameter"><code>file_infos</code></em>
 list and decreases the reference count on the
-<a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s contained within.</p>
+<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s contained within.</p>
 <p>
 
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>file_infos</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>file_infos</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../glib/glib-Doubly-Linked-Lists.html#GList"
-><span class="type">GList</span></a> of <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
+><span class="type">GList</span></a> of <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>s.
 </td>
 </tr></tbody>
 </table></div>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2560022"></a><h2>Signal Details</h2>
+<a name="id2579192"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2560032"></a><h3>
-<a name="ThunarxFileInfo-changed"></a>The "changed" signal</h3>
-<a class="indexterm" name="id2560043"></a><pre class="programlisting">void                user_function                      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
+<a name="id2579202"></a><h3>
+<a name="ThunarxFileInfo-changed"></a>The <code class="literal">"changed"</code> signal</h3>
+<a class="indexterm" name="id2579218"></a><pre class="programlisting">void                user_function                      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run First</pre>
@@ -713,7 +713,7 @@ Emitted whenever the system notices a change to <em class="parameter"><code>file
 <p>
 Thunar plugins should use this signal to stay informed about
 changes to a <em class="parameter"><code>file_info</code></em> for which they currently display
-information (i.e. in a <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>), and update
+information (i.e. in a <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>), and update
 it's user interface whenever a change is noticed on <em class="parameter"><code>file_info</code></em>.</p>
 <p>
 
@@ -722,12 +722,12 @@ it's user interface whenever a change is noticed on <em class="parameter"><code>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -735,9 +735,9 @@ it's user interface whenever a change is noticed on <em class="parameter"><code>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2560156"></a><h3>
-<a name="ThunarxFileInfo-renamed"></a>The "renamed" signal</h3>
-<a class="indexterm" name="id2560166"></a><pre class="programlisting">void                user_function                      (<a href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
+<a name="id2579332"></a><h3>
+<a name="ThunarxFileInfo-renamed"></a>The <code class="literal">"renamed"</code> signal</h3>
+<a class="indexterm" name="id2579347"></a><pre class="programlisting">void                user_function                      (<a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo">ThunarxFileInfo</a> *file_info,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run First</pre>
@@ -756,17 +756,22 @@ the corresponding file was renamed.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></td>
-<td> a <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>
+<td><p><span class="term"><em class="parameter"><code>file_info</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2579451"></a><div class="refsect2" lang="en"><a name="id2579452"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2579453"></a></div>
 </div>
 </div>
 </body>

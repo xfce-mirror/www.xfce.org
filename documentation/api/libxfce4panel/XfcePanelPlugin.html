@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfcePanelPlugin</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
 <link rel="up" href="libxfce4panel-panel.html" title="Panel Plugins">
 <link rel="prev" href="libxfce4panel-Register-Plugins.html" title="Register Plugins">
 <link rel="next" href="XfceExternalPanelPlugin.html" title="XfceExternalPanelPlugin">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
 <link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
@@ -25,26 +25,26 @@
 <th width="100%" align="center">Libxfce4panel Reference Manual</th>
 <td><a accesskey="n" href="XfceExternalPanelPlugin.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2560690" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2579864" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2561608" class="shortcut">Description</a>
+                  <a href="#id2580760" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2561289" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2580464" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2561314" class="shortcut">Prerequisites</a>
+                  <a href="#id2580489" class="shortcut">Prerequisites</a>
                   &#160;|&#160;
-                  <a href="#id2561360" class="shortcut">Known Implementations</a>
+                  <a href="#id2580512" class="shortcut">Known Implementations</a>
                   &#160;|&#160;
-                  <a href="#id2561392" class="shortcut">Properties</a>
+                  <a href="#id2580545" class="shortcut">Properties</a>
                   &#160;|&#160;
-                  <a href="#id2561512" class="shortcut">Signals</a></nobr></td></tr>
+                  <a href="#id2580664" class="shortcut">Signals</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="XfcePanelPlugin"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2560690"></a><span class="refentrytitle">XfcePanelPlugin</span>
+<a name="id2579864"></a><span class="refentrytitle">XfcePanelPlugin</span>
 </h2>
 <p>XfcePanelPlugin &#8212; Panel plugin interface.</p>
 </td>
@@ -57,72 +57,72 @@
 #include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-                    <a href="XfcePanelPlugin.html#XfcePanelPlugin-struct">XfcePanelPlugin</a>;
-void                (<a href="XfcePanelPlugin.html#XfcePanelPluginFunc">*XfcePanelPluginFunc</a>)              (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+                    <a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-struct">XfcePanelPlugin</a>;
+void                (<a class="link" href="XfcePanelPlugin.html#XfcePanelPluginFunc">*XfcePanelPluginFunc</a>)              (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            (<a href="XfcePanelPlugin.html#XfcePanelPluginCheck">*XfcePanelPluginCheck</a>)             (<a
+>gboolean</a>            (<a class="link" href="XfcePanelPlugin.html#XfcePanelPluginCheck">*XfcePanelPluginCheck</a>)             (<a
 href="../gdk/GdkScreen.html"
 >GdkScreen</a> *screen);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            (<a href="XfcePanelPlugin.html#XfcePanelPluginPreInit">*XfcePanelPluginPreInit</a>)           (int argc,
+>gboolean</a>            (<a class="link" href="XfcePanelPlugin.html#XfcePanelPluginPreInit">*XfcePanelPluginPreInit</a>)           (int argc,
                                                          char **argv);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-name">xfce_panel_plugin_get_name</a>          (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+>gchar</a>*              <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-name">xfce_panel_plugin_get_name</a>          (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-id">xfce_panel_plugin_get_id</a>            (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+>gchar</a>*              <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-id">xfce_panel_plugin_get_id</a>            (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-display-name">xfce_panel_plugin_get_display_name</a>  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+>gchar</a>*              <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-display-name">xfce_panel_plugin_get_display_name</a>  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../glib/glib-Basic-Types.html#gint"
->gint</a>                <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-size">xfce_panel_plugin_get_size</a>          (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-<a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>  <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-screen-position">xfce_panel_plugin_get_screen_position</a>
-                                                        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-set-expand">xfce_panel_plugin_set_expand</a>        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+>gint</a>                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-size">xfce_panel_plugin_get_size</a>          (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+<a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>  <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-screen-position">xfce_panel_plugin_get_screen_position</a>
+                                                        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-set-expand">xfce_panel_plugin_set_expand</a>        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> expand);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-expand">xfce_panel_plugin_get_expand</a>        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+>gboolean</a>            <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-expand">xfce_panel_plugin_get_expand</a>        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
->GtkOrientation</a>      <a href="XfcePanelPlugin.html#xfce-panel-plugin-get-orientation">xfce_panel_plugin_get_orientation</a>   (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-add-action-widget">xfce_panel_plugin_add_action_widget</a> (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+>GtkOrientation</a>      <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-get-orientation">xfce_panel_plugin_get_orientation</a>   (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-add-action-widget">xfce_panel_plugin_add_action_widget</a> (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *widget);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-insert-item">xfce_panel_plugin_menu_insert_item</a>  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-menu-insert-item">xfce_panel_plugin_menu_insert_item</a>  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkMenuItem.html"
 >GtkMenuItem</a> *item);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about">xfce_panel_plugin_menu_show_about</a>   (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure">xfce_panel_plugin_menu_show_configure</a>
-                                                        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-block-menu">xfce_panel_plugin_block_menu</a>        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-unblock-menu">xfce_panel_plugin_unblock_menu</a>      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-register-menu">xfce_panel_plugin_register_menu</a>     (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about">xfce_panel_plugin_menu_show_about</a>   (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure">xfce_panel_plugin_menu_show_configure</a>
+                                                        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-block-menu">xfce_panel_plugin_block_menu</a>        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-unblock-menu">xfce_panel_plugin_unblock_menu</a>      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-register-menu">xfce_panel_plugin_register_menu</a>     (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkMenu.html"
 >GtkMenu</a> *menu);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file">xfce_panel_plugin_lookup_rc_file</a>    (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
+>gchar</a>*              <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file">xfce_panel_plugin_lookup_rc_file</a>    (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              <a href="XfcePanelPlugin.html#xfce-panel-plugin-save-location">xfce_panel_plugin_save_location</a>     (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+>gchar</a>*              <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-save-location">xfce_panel_plugin_save_location</a>     (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> create);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-focus-widget">xfce_panel_plugin_focus_widget</a>      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-focus-widget">xfce_panel_plugin_focus_widget</a>      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *widget);
-void                <a href="XfcePanelPlugin.html#xfce-panel-plugin-set-panel-hidden">xfce_panel_plugin_set_panel_hidden</a>  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+void                <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-set-panel-hidden">xfce_panel_plugin_set_panel_hidden</a>  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> hidden);
@@ -130,7 +130,7 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561289"></a><h2>Object Hierarchy</h2>
+<a name="id2580464"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GInterface
@@ -138,62 +138,56 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561314"></a><h2>Prerequisites</h2>
+<a name="id2580489"></a><h2>Prerequisites</h2>
 <p>
 XfcePanelPlugin requires
  <a
-href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
->GInitiallyUnowned</a>,  <a
-href="../gtk/GtkObject.html"
->GtkObject</a>,  <a
-href="../gtk/GtkWidget.html"
->GtkWidget</a> and  <a
 href="../gtk/GtkContainer.html"
 >GtkContainer</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561360"></a><h2>Known Implementations</h2>
+<a name="id2580512"></a><h2>Known Implementations</h2>
 <p>
 XfcePanelPlugin is implemented by
- <a href="XfceExternalPanelPlugin.html" title="XfceExternalPanelPlugin">XfceExternalPanelPlugin</a> and  <a href="XfceInternalPanelPlugin.html" title="XfceInternalPanelPlugin">XfceInternalPanelPlugin</a>.</p>
+ <a class="link" href="XfceExternalPanelPlugin.html" title="XfceExternalPanelPlugin">XfceExternalPanelPlugin</a> and  <a class="link" href="XfceInternalPanelPlugin.html" title="XfceInternalPanelPlugin">XfceInternalPanelPlugin</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561392"></a><h2>Properties</h2>
+<a name="id2580545"></a><h2>Properties</h2>
 <pre class="synopsis">
 
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--display-name">display-name</a>"             <a
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--display-name">display-name</a>"             <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--expand">expand</a>"                   <a
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--expand">expand</a>"                   <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a>              : Read / Write
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--id">id</a>"                       <a
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--id">id</a>"                       <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--name">name</a>"                     <a
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--name">name</a>"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--screen-position">screen-position</a>"          <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>    : Read
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin--size">size</a>"                     <a
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--screen-position">screen-position</a>"          <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>    : Read
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin--size">size</a>"                     <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a>                  : Read
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561512"></a><h2>Signals</h2>
+<a name="id2580664"></a><h2>Signals</h2>
 <pre class="synopsis">
 
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-about">about</a>"                                          : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-configure-plugin">configure-plugin</a>"                               : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-free-data">free-data</a>"                                      : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-orientation-changed">orientation-changed</a>"                            : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-save">save</a>"                                           : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-screen-position-changed">screen-position-changed</a>"                        : Run Last / No Recursion / No Hooks
-  "<a href="XfcePanelPlugin.html#XfcePanelPlugin-size-changed">size-changed</a>"                                   : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-about">about</a>"                                          : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-configure-plugin">configure-plugin</a>"                               : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-free-data">free-data</a>"                                      : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-orientation-changed">orientation-changed</a>"                            : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-save">save</a>"                                           : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-screen-position-changed">screen-position-changed</a>"                        : Run Last / No Recursion / No Hooks
+  "<a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-size-changed">size-changed</a>"                                   : Run Last / No Recursion / No Hooks
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561608"></a><h2>Description</h2>
+<a name="id2580760"></a><h2>Description</h2>
 <p>
 The interface implemented by both internal and external plugins. Plugin
 writers may use the functions described below to interact with the plugin
@@ -201,45 +195,45 @@ widget.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2561625"></a><h2>Details</h2>
+<a name="id2580777"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2561635"></a><h3>
+<a name="id2580787"></a><h3>
 <a name="XfcePanelPlugin-struct"></a>XfcePanelPlugin</h3>
-<a class="indexterm" name="id2561648"></a><pre class="programlisting">typedef struct _XfcePanelPlugin XfcePanelPlugin;</pre>
+<a class="indexterm" name="id2580800"></a><pre class="programlisting">typedef struct _XfcePanelPlugin XfcePanelPlugin;</pre>
 <p>
-The <a href="XfcePanelPlugin.html#XfcePanelPlugin-struct"><span class="type">XfcePanelPlugin</span></a> is a purely virtual object to describe an instance
+The <a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-struct"><span class="type">XfcePanelPlugin</span></a> is a purely virtual object to describe an instance
 of a widget implementing the panel plugin interface.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2561674"></a><h3>
+<a name="id2580827"></a><h3>
 <a name="XfcePanelPluginFunc"></a>XfcePanelPluginFunc ()</h3>
-<a class="indexterm" name="id2561687"></a><pre class="programlisting">void                (*XfcePanelPluginFunc)              (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2580839"></a><pre class="programlisting">void                (*XfcePanelPluginFunc)              (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Callback function to create the plugin contents. It should be given as
 the argument to the registration macros.
 </p>
 <p>
-See also: <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL()</code></a> and
-          <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a></p>
+See also: <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL()</code></a> and
+          <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a></p>
 <p>
 
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> The <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> The <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2561772"></a><h3>
+<a name="id2580924"></a><h3>
 <a name="XfcePanelPluginCheck"></a>XfcePanelPluginCheck ()</h3>
-<a class="indexterm" name="id2561785"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2580937"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a>            (*XfcePanelPluginCheck)             (<a
 href="../gdk/GdkScreen.html"
@@ -257,23 +251,23 @@ can be given as argument to one of the registration macros.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></p></td>
 <td> the <a
 href="../gdk/GdkScreen.html"
 ><span class="type">GdkScreen</span></a> the panel is running on
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if the plugin can be started, <a
 href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 ><code class="literal">FALSE</code></a> otherwise.
 
-See also: <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-WITH-CHECK:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_WITH_CHECK()</code></a>,
-          <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL-WITH-CHECK:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL_WITH_CHECK()</code></a> and
-          <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-FULL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL()</code></a>
+See also: <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-WITH-CHECK:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_WITH_CHECK()</code></a>,
+          <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL-WITH-CHECK:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL_WITH_CHECK()</code></a> and
+          <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-FULL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL()</code></a>
 </td>
 </tr>
 </tbody>
@@ -281,9 +275,9 @@ See also: <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTE
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2561923"></a><h3>
+<a name="id2581076"></a><h3>
 <a name="XfcePanelPluginPreInit"></a>XfcePanelPluginPreInit ()</h3>
-<a class="indexterm" name="id2561938"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581091"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a>            (*XfcePanelPluginPreInit)           (int argc,
                                                          char **argv);</pre>
@@ -308,24 +302,24 @@ href="../glib/glib-Threads.html#g-thread-init"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>argc</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>argc</code></em>&#160;:</span></p></td>
 <td> number of arguments to the plugin
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>argv</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>argv</code></em>&#160;:</span></p></td>
 <td> argument array
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> on success, <a
 href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 ><code class="literal">FALSE</code></a> otherwise.
 
-See also: <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-FULL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL()</code></a>
+See also: <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-EXTERNAL-FULL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL_FULL()</code></a>
 </td>
 </tr>
 </tbody>
@@ -335,11 +329,11 @@ See also: <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTE
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562099"></a><h3>
+<a name="id2581251"></a><h3>
 <a name="xfce-panel-plugin-get-name"></a>xfce_panel_plugin_get_name ()</h3>
-<a class="indexterm" name="id2562113"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581265"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              xfce_panel_plugin_get_name          (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gchar</a>*              xfce_panel_plugin_get_name          (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 The plugin name identifies a plugin type and therefore must be unique.</p>
 <p>
@@ -349,12 +343,12 @@ The plugin name identifies a plugin type and therefore must be unique.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the plugin name.
 </td>
 </tr>
@@ -363,11 +357,11 @@ The plugin name identifies a plugin type and therefore must be unique.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562183"></a><h3>
+<a name="id2581335"></a><h3>
 <a name="xfce-panel-plugin-get-id"></a>xfce_panel_plugin_get_id ()</h3>
-<a class="indexterm" name="id2562195"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581348"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              xfce_panel_plugin_get_id            (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gchar</a>*              xfce_panel_plugin_get_id            (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 The plugin id is a unique identifier string that is given to every instance
 of a panel plugin. The returned string must be free using <a
@@ -380,12 +374,12 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the plugin id.
 </td>
 </tr>
@@ -394,11 +388,11 @@ href="../glib/glib-Memory-Allocation.html#g-free"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562276"></a><h3>
+<a name="id2581428"></a><h3>
 <a name="xfce-panel-plugin-get-display-name"></a>xfce_panel_plugin_get_display_name ()</h3>
-<a class="indexterm" name="id2562290"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581442"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              xfce_panel_plugin_get_display_name  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gchar</a>*              xfce_panel_plugin_get_display_name  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 The display name is the (translated) plugin name that can be used in a user
 interface, e.g. a dialog or a menu.</p>
@@ -409,12 +403,12 @@ interface, e.g. a dialog or a menu.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the display name of <em class="parameter"><code>plugin</code></em>.
 </td>
 </tr>
@@ -423,11 +417,11 @@ interface, e.g. a dialog or a menu.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562366"></a><h3>
+<a name="id2581518"></a><h3>
 <a name="xfce-panel-plugin-get-size"></a>xfce_panel_plugin_get_size ()</h3>
-<a class="indexterm" name="id2562380"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581532"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gint"
->gint</a>                xfce_panel_plugin_get_size          (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gint</a>                xfce_panel_plugin_get_size          (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 The size of the panel that the plugin is part of.</p>
 <p>
@@ -437,12 +431,12 @@ The size of the panel that the plugin is part of.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the current panel size.
 </td>
 </tr>
@@ -451,12 +445,12 @@ The size of the panel that the plugin is part of.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562449"></a><h3>
+<a name="id2581601"></a><h3>
 <a name="xfce-panel-plugin-get-screen-position"></a>xfce_panel_plugin_get_screen_position ()</h3>
-<a class="indexterm" name="id2562463"></a><pre class="programlisting"><a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>  xfce_panel_plugin_get_screen_position
-                                                        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2581615"></a><pre class="programlisting"><a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>  xfce_panel_plugin_get_screen_position
+                                                        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
-The <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel that the plugin is part of.</p>
+The <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel that the plugin is part of.</p>
 <p>
 
 </p>
@@ -464,13 +458,13 @@ The <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span 
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the current <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the current <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel.
 </td>
 </tr>
 </tbody>
@@ -478,9 +472,9 @@ The <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span 
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562550"></a><h3>
+<a name="id2581703"></a><h3>
 <a name="xfce-panel-plugin-set-expand"></a>xfce_panel_plugin_set_expand ()</h3>
-<a class="indexterm" name="id2562564"></a><pre class="programlisting">void                xfce_panel_plugin_set_expand        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2581716"></a><pre class="programlisting">void                xfce_panel_plugin_set_expand        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> expand);</pre>
@@ -493,12 +487,12 @@ Sets whether to expand the plugin when the width of the panel increases.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>expand</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>expand</code></em>&#160;:</span></p></td>
 <td> whether to expand the plugin
 </td>
 </tr>
@@ -507,11 +501,11 @@ Sets whether to expand the plugin when the width of the panel increases.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562646"></a><h3>
+<a name="id2581798"></a><h3>
 <a name="xfce-panel-plugin-get-expand"></a>xfce_panel_plugin_get_expand ()</h3>
-<a class="indexterm" name="id2562659"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581811"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_panel_plugin_get_expand        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gboolean</a>            xfce_panel_plugin_get_expand        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Return if this plugin will expand when the panel width increases.</p>
 <p>
@@ -521,12 +515,12 @@ Return if this plugin will expand when the panel width increases.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> when it will expand.
@@ -537,11 +531,11 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562739"></a><h3>
+<a name="id2581891"></a><h3>
 <a name="xfce-panel-plugin-get-orientation"></a>xfce_panel_plugin_get_orientation ()</h3>
-<a class="indexterm" name="id2562753"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2581905"></a><pre class="programlisting"><a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
->GtkOrientation</a>      xfce_panel_plugin_get_orientation   (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>GtkOrientation</a>      xfce_panel_plugin_get_orientation   (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Return the <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
@@ -553,12 +547,12 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the current <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 ><span class="type">GtkOrientation</span></a> of the panel.
@@ -569,9 +563,9 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562839"></a><h3>
+<a name="id2581991"></a><h3>
 <a name="xfce-panel-plugin-add-action-widget"></a>xfce_panel_plugin_add_action_widget ()</h3>
-<a class="indexterm" name="id2562853"></a><pre class="programlisting">void                xfce_panel_plugin_add_action_widget (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2582005"></a><pre class="programlisting">void                xfce_panel_plugin_add_action_widget (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *widget);</pre>
@@ -587,12 +581,12 @@ remove it.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gtk/GtkWidget.html"
 ><span class="type">GtkWidget</span></a> that receives mouse events
@@ -603,9 +597,9 @@ href="../gtk/GtkWidget.html"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2562944"></a><h3>
+<a name="id2582096"></a><h3>
 <a name="xfce-panel-plugin-menu-insert-item"></a>xfce_panel_plugin_menu_insert_item ()</h3>
-<a class="indexterm" name="id2562958"></a><pre class="programlisting">void                xfce_panel_plugin_menu_insert_item  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2582110"></a><pre class="programlisting">void                xfce_panel_plugin_menu_insert_item  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkMenuItem.html"
 >GtkMenuItem</a> *item);</pre>
@@ -618,12 +612,12 @@ Insert custom menu item.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>item</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>item</code></em>&#160;:</span></p></td>
 <td> the menu item to add
 </td>
 </tr>
@@ -632,9 +626,9 @@ Insert custom menu item.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563038"></a><h3>
+<a name="id2582190"></a><h3>
 <a name="xfce-panel-plugin-menu-show-about"></a>xfce_panel_plugin_menu_show_about ()</h3>
-<a class="indexterm" name="id2563052"></a><pre class="programlisting">void                xfce_panel_plugin_menu_show_about   (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2582204"></a><pre class="programlisting">void                xfce_panel_plugin_menu_show_about   (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Show the 'About' item in the menu. Clicking on the menu item will emit
 the "about" signal.</p>
@@ -644,18 +638,18 @@ the "about" signal.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563111"></a><h3>
+<a name="id2582263"></a><h3>
 <a name="xfce-panel-plugin-menu-show-configure"></a>xfce_panel_plugin_menu_show_configure ()</h3>
-<a class="indexterm" name="id2563124"></a><pre class="programlisting">void                xfce_panel_plugin_menu_show_configure
-                                                        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2582277"></a><pre class="programlisting">void                xfce_panel_plugin_menu_show_configure
+                                                        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Show the 'Configure' item in the menu. Clicking on the menu item will emit
 the "configure-plugin" signal.</p>
@@ -665,68 +659,80 @@ the "configure-plugin" signal.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563186"></a><h3>
+<a name="id2582338"></a><h3>
 <a name="xfce-panel-plugin-block-menu"></a>xfce_panel_plugin_block_menu ()</h3>
-<a class="indexterm" name="id2563199"></a><pre class="programlisting">void                xfce_panel_plugin_block_menu        (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2582351"></a><pre class="programlisting">void                xfce_panel_plugin_block_menu        (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Temporarily block the menu from being shown. This can be used by plugin
 writers when the configuration dialog is active.
 </p>
 <p>
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-unblock-menu"><code class="function">xfce_panel_plugin_unblock_menu()</code></a></p>
+See also: <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-unblock-menu"><code class="function">xfce_panel_plugin_unblock_menu()</code></a></p>
 <p>
 
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563273"></a><h3>
+<a name="id2582425"></a><h3>
 <a name="xfce-panel-plugin-unblock-menu"></a>xfce_panel_plugin_unblock_menu ()</h3>
-<a class="indexterm" name="id2563286"></a><pre class="programlisting">void                xfce_panel_plugin_unblock_menu      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+<a class="indexterm" name="id2582438"></a><pre class="programlisting">void                xfce_panel_plugin_unblock_menu      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Don't block the menu from being shown.
 </p>
 <p>
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-block-menu"><code class="function">xfce_panel_plugin_block_menu()</code></a></p>
+See also: <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-block-menu"><code class="function">xfce_panel_plugin_block_menu()</code></a></p>
 <p>
 
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr></tbody>
 </table></div>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563358"></a><h3>
+<a name="id2582510"></a><h3>
 <a name="xfce-panel-plugin-register-menu"></a>xfce_panel_plugin_register_menu ()</h3>
-<a class="indexterm" name="id2563372"></a><pre class="programlisting">void                xfce_panel_plugin_register_menu     (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2582524"></a><pre class="programlisting">void                xfce_panel_plugin_register_menu     (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkMenu.html"
 >GtkMenu</a> *menu);</pre>
 <p>
 Register an open menu. This will make sure the panel will properly handle
-its autohide behaviour.</p>
+its autohide behaviour. You have to call this function every time the menu
+is opened (e.g. using <code class="function">gtk_popup_menu()</code>).
+</p>
+<p>
+If you want to open the menu aligned to the side of the panel (and the
+plugin), you should use <code class="function">xfce_panel_plugin_position_menu()</code> as
+<a
+href="../gtk/GtkMenu.html#GtkMenuPositionFunc"
+><span class="type">GtkMenuPositionFunc</span></a>. This callback function will take care of calling
+<a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-register-menu"><code class="function">xfce_panel_plugin_register_menu()</code></a> as well.
+</p>
+<p>
+See also: <code class="function">xfce_panel_plugin_position_menu()</code>.</p>
 <p>
 
 </p>
@@ -734,12 +740,12 @@ its autohide behaviour.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>menu</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gtk/GtkMenu.html"
 ><span class="type">GtkMenu</span></a> that will be opened
@@ -750,16 +756,21 @@ href="../gtk/GtkMenu.html"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563461"></a><h3>
+<a name="id2582680"></a><h3>
 <a name="xfce-panel-plugin-lookup-rc-file"></a>xfce_panel_plugin_lookup_rc_file ()</h3>
-<a class="indexterm" name="id2563474"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2582694"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              xfce_panel_plugin_lookup_rc_file    (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
+>gchar</a>*              xfce_panel_plugin_lookup_rc_file    (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin);</pre>
 <p>
 Looks up unique filename associated with <em class="parameter"><code>plugin</code></em> in standard configuration
-locations. Uses <a
+locations. Only use this function when you want the read location of the
+configuration file, since the path might point to a not writable file (for
+example the default- or kiosk-configuration).
+</p>
+<p>
+See also: <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-save-location"><code class="function">xfce_panel_plugin_save_location()</code></a> and #<a
 href="../libxfce4util/libxfce4util-Resource-lookup-functions.html#xfce-resource-lookup"
-><code class="function">xfce_resource_lookup()</code></a> ginternally.</p>
+><code class="function">xfce_resource_lookup()</code></a></p>
 <p>
 
 </p>
@@ -767,20 +778,18 @@ href="../libxfce4util/libxfce4util-Resource-lookup-functions.html#xfce-resource-
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> path to configuration file or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> if none was found.  The
          returned string must be freed using <a
 href="../glib/glib-Memory-Allocation.html#g-free"
 ><code class="function">g_free()</code></a>.
-
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-save-location"><code class="function">xfce_panel_plugin_save_location()</code></a>
 </td>
 </tr>
 </tbody>
@@ -788,19 +797,23 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-save-location"><code c
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563596"></a><h3>
+<a name="id2582821"></a><h3>
 <a name="xfce-panel-plugin-save-location"></a>xfce_panel_plugin_save_location ()</h3>
-<a class="indexterm" name="id2563609"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2582834"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*              xfce_panel_plugin_save_location     (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+>gchar</a>*              xfce_panel_plugin_save_location     (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> create);</pre>
 <p>
-Unique file location that can be used to store configuration information.
-Uses <a
+Returns the path that can be used to store configuration information. Don't use
+this function when you want to read the configuration file, then use
+<a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file"><span class="type">xfce_panel_plugin_lookup_rc_file</span></a>.
+</p>
+<p>
+See also <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file"><code class="function">xfce_panel_plugin_lookup_rc_file()</code></a> and #<a
 href="../libxfce4util/libxfce4util-Resource-lookup-functions.html#xfce-resource-save-location"
-><code class="function">xfce_resource_save_location()</code></a> ginternally.</p>
+><code class="function">xfce_resource_save_location()</code></a>.</p>
 <p>
 
 </p>
@@ -808,25 +821,23 @@ href="../libxfce4util/libxfce4util-Resource-lookup-functions.html#xfce-resource-
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>create</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>create</code></em>&#160;:</span></p></td>
 <td> whether the file should be created
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> path to configuration file or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> is the file could not be
          created. The returned string must be freed using <a
 href="../glib/glib-Memory-Allocation.html#g-free"
 ><code class="function">g_free()</code></a>.
-
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file"><code class="function">xfce_panel_plugin_lookup_rc_file()</code></a>
 </td>
 </tr>
 </tbody>
@@ -834,9 +845,9 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-lookup-rc-file"><code 
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563748"></a><h3>
+<a name="id2582985"></a><h3>
 <a name="xfce-panel-plugin-focus-widget"></a>xfce_panel_plugin_focus_widget ()</h3>
-<a class="indexterm" name="id2563760"></a><pre class="programlisting">void                xfce_panel_plugin_focus_widget      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2582998"></a><pre class="programlisting">void                xfce_panel_plugin_focus_widget      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a> *widget);</pre>
@@ -850,12 +861,12 @@ set the focus to the requested widget.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>widget</code></em>&#160;:</span></p></td>
 <td> widget to focus
 </td>
 </tr>
@@ -864,9 +875,9 @@ set the focus to the requested widget.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2563848"></a><h3>
+<a name="id2583085"></a><h3>
 <a name="xfce-panel-plugin-set-panel-hidden"></a>xfce_panel_plugin_set_panel_hidden ()</h3>
-<a class="indexterm" name="id2563862"></a><pre class="programlisting">void                xfce_panel_plugin_set_panel_hidden  (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a class="indexterm" name="id2583099"></a><pre class="programlisting">void                xfce_panel_plugin_set_panel_hidden  (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> hidden);</pre>
@@ -880,12 +891,12 @@ enabled.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>hidden</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>hidden</code></em>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 ><code class="literal">FALSE</code></a> to unhide, <a
@@ -898,11 +909,11 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2563964"></a><h2>Property Details</h2>
+<a name="id2583201"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2563975"></a><h3>
-<a name="XfcePanelPlugin--display-name"></a>The "<code class="literal">display-name</code>" property</h3>
-<a class="indexterm" name="id2563991"></a><pre class="programlisting">  "display-name"             <a
+<a name="id2583212"></a><h3>
+<a name="XfcePanelPlugin--display-name"></a>The <code class="literal">"display-name"</code> property</h3>
+<a class="indexterm" name="id2583228"></a><pre class="programlisting">  "display-name"             <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read</pre>
 <p>
@@ -915,9 +926,9 @@ the user, e.g. in dialogs or menus.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564022"></a><h3>
-<a name="XfcePanelPlugin--expand"></a>The "<code class="literal">expand</code>" property</h3>
-<a class="indexterm" name="id2564038"></a><pre class="programlisting">  "expand"                   <a
+<a name="id2583259"></a><h3>
+<a name="XfcePanelPlugin--expand"></a>The <code class="literal">"expand"</code> property</h3>
+<a class="indexterm" name="id2583276"></a><pre class="programlisting">  "expand"                   <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a>              : Read / Write</pre>
 <p>
@@ -929,13 +940,13 @@ Whether to expand the plugin when the panel width increases.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564070"></a><h3>
-<a name="XfcePanelPlugin--id"></a>The "<code class="literal">id</code>" property</h3>
-<a class="indexterm" name="id2564085"></a><pre class="programlisting">  "id"                       <a
+<a name="id2583307"></a><h3>
+<a name="XfcePanelPlugin--id"></a>The <code class="literal">"id"</code> property</h3>
+<a class="indexterm" name="id2583322"></a><pre class="programlisting">  "id"                       <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read</pre>
 <p>
-Unique identifier string created for every <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> instance.</p>
+Unique identifier string created for every <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> instance.</p>
 <p>
 
 </p>
@@ -943,9 +954,9 @@ Unique identifier string created for every <a href="XfcePanelPlugin.html" title=
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564124"></a><h3>
-<a name="XfcePanelPlugin--name"></a>The "<code class="literal">name</code>" property</h3>
-<a class="indexterm" name="id2564140"></a><pre class="programlisting">  "name"                     <a
+<a name="id2583361"></a><h3>
+<a name="XfcePanelPlugin--name"></a>The <code class="literal">"name"</code> property</h3>
+<a class="indexterm" name="id2583377"></a><pre class="programlisting">  "name"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read</pre>
 <p>
@@ -958,11 +969,11 @@ therefore has to be unique.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564172"></a><h3>
-<a name="XfcePanelPlugin--screen-position"></a>The "<code class="literal">screen-position</code>" property</h3>
-<a class="indexterm" name="id2564189"></a><pre class="programlisting">  "screen-position"          <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>    : Read</pre>
+<a name="id2583409"></a><h3>
+<a name="XfcePanelPlugin--screen-position"></a>The <code class="literal">"screen-position"</code> property</h3>
+<a class="indexterm" name="id2583426"></a><pre class="programlisting">  "screen-position"          <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a>    : Read</pre>
 <p>
-The current <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel.</p>
+The current <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel.</p>
 <p>
 
 </p>
@@ -970,9 +981,9 @@ The current <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564227"></a><h3>
-<a name="XfcePanelPlugin--size"></a>The "<code class="literal">size</code>" property</h3>
-<a class="indexterm" name="id2564243"></a><pre class="programlisting">  "size"                     <a
+<a name="id2583464"></a><h3>
+<a name="XfcePanelPlugin--size"></a>The <code class="literal">"size"</code> property</h3>
+<a class="indexterm" name="id2583480"></a><pre class="programlisting">  "size"                     <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a>                  : Read</pre>
 <p>
@@ -985,11 +996,11 @@ The current panel size.</p>
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2564278"></a><h2>Signal Details</h2>
+<a name="id2583515"></a><h2>Signal Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2564289"></a><h3>
-<a name="XfcePanelPlugin-about"></a>The "about" signal</h3>
-<a class="indexterm" name="id2564299"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a name="id2583526"></a><h3>
+<a name="XfcePanelPlugin-about"></a>The <code class="literal">"about"</code> signal</h3>
+<a class="indexterm" name="id2583541"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run Last / No Recursion / No Hooks</pre>
@@ -999,7 +1010,7 @@ should connect to this signal to show information about their
 plugin (and its authors).
 </p>
 <p>
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about"><code class="function">xfce_panel_plugin_menu_show_about()</code></a></p>
+See also: <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about"><code class="function">xfce_panel_plugin_menu_show_about()</code></a></p>
 <p>
 
 </p>
@@ -1007,12 +1018,12 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about"><code
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1020,9 +1031,9 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-about"><code
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564396"></a><h3>
-<a name="XfcePanelPlugin-configure-plugin"></a>The "configure-plugin" signal</h3>
-<a class="indexterm" name="id2564407"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a name="id2583639"></a><h3>
+<a name="XfcePanelPlugin-configure-plugin"></a>The <code class="literal">"configure-plugin"</code> signal</h3>
+<a class="indexterm" name="id2583655"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run Last / No Recursion / No Hooks</pre>
@@ -1031,7 +1042,7 @@ Emitted when the 'Configure' menu item is clicked. Plugin writers
 should connect to this signal to show a settings dialog.
 </p>
 <p>
-See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure"><code class="function">xfce_panel_plugin_menu_show_configure()</code></a></p>
+See also: <a class="link" href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure"><code class="function">xfce_panel_plugin_menu_show_configure()</code></a></p>
 <p>
 
 </p>
@@ -1039,12 +1050,12 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure"><
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1052,9 +1063,9 @@ See also: <a href="XfcePanelPlugin.html#xfce-panel-plugin-menu-show-configure"><
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564504"></a><h3>
-<a name="XfcePanelPlugin-free-data"></a>The "free-data" signal</h3>
-<a class="indexterm" name="id2564514"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a name="id2583751"></a><h3>
+<a name="XfcePanelPlugin-free-data"></a>The <code class="literal">"free-data"</code> signal</h3>
+<a class="indexterm" name="id2583767"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run Last / No Recursion / No Hooks</pre>
@@ -1063,7 +1074,7 @@ Emitted when the panel is closing. Plugin writers should connect to
 this signal to free any allocated resources.
 </p>
 <p>
-See also: <a href="XfcePanelPlugin.html#XfcePanelPlugin-save"><span class="type">XfcePanelPlugin::save</span></a></p>
+See also: <a class="link" href="XfcePanelPlugin.html#XfcePanelPlugin-save"><span class="type">"save"</span></a></p>
 <p>
 
 </p>
@@ -1071,12 +1082,12 @@ See also: <a href="XfcePanelPlugin.html#XfcePanelPlugin-save"><span class="type"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1084,9 +1095,9 @@ See also: <a href="XfcePanelPlugin.html#XfcePanelPlugin-save"><span class="type"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564607"></a><h3>
-<a name="XfcePanelPlugin-orientation-changed"></a>The "orientation-changed" signal</h3>
-<a class="indexterm" name="id2564618"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a name="id2583861"></a><h3>
+<a name="XfcePanelPlugin-orientation-changed"></a>The <code class="literal">"orientation-changed"</code> signal</h3>
+<a class="indexterm" name="id2583877"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 >GtkOrientation</a>   orientation,
@@ -1102,19 +1113,19 @@ Emitted when the panel orientation changes.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>orientation</code></em>&#160;:</span></p></td>
 <td> new <a
 href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 ><span class="type">GtkOrientation</span></a> of the panel
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1122,9 +1133,9 @@ href="../gtk/gtk-Standard-Enumerations.html#GtkOrientation"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564731"></a><h3>
-<a name="XfcePanelPlugin-save"></a>The "save" signal</h3>
-<a class="indexterm" name="id2564741"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+<a name="id2583990"></a><h3>
+<a name="XfcePanelPlugin-save"></a>The <code class="literal">"save"</code> signal</h3>
+<a class="indexterm" name="id2584005"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>         user_data)      : Run Last / No Recursion / No Hooks</pre>
@@ -1142,12 +1153,12 @@ See also: <code class="function">xfce_panel_plugin_get_rc_file()</code></p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1155,10 +1166,10 @@ See also: <code class="function">xfce_panel_plugin_get_rc_file()</code></p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564838"></a><h3>
-<a name="XfcePanelPlugin-screen-position-changed"></a>The "screen-position-changed" signal</h3>
-<a class="indexterm" name="id2564850"></a><pre class="programlisting">void                user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a>   *plugin,
-                                                        <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
+<a name="id2584102"></a><h3>
+<a name="XfcePanelPlugin-screen-position-changed"></a>The <code class="literal">"screen-position-changed"</code> signal</h3>
+<a class="indexterm" name="id2584120"></a><pre class="programlisting">void                user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a>   *plugin,
+                                                        <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
                                                         <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a>           user_data)      : Run Last / No Recursion / No Hooks</pre>
@@ -1172,17 +1183,17 @@ more interested in the "orientation-changed" signal.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></td>
-<td> new <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel
+<td><p><span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></p></td>
+<td> new <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition"><span class="type">XfceScreenPosition</span></a> of the panel
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 </tbody>
@@ -1190,11 +1201,11 @@ more interested in the "orientation-changed" signal.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2564962"></a><h3>
-<a name="XfcePanelPlugin-size-changed"></a>The "size-changed" signal</h3>
-<a class="indexterm" name="id2564973"></a><pre class="programlisting"><a
+<a name="id2584232"></a><h3>
+<a name="XfcePanelPlugin-size-changed"></a>The <code class="literal">"size-changed"</code> signal</h3>
+<a class="indexterm" name="id2584249"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            user_function                      (<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
+>gboolean</a>            user_function                      (<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> *plugin,
                                                         <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a>             size,
@@ -1210,21 +1221,21 @@ Emitted when the panel size changes.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></td>
-<td> a <a href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
+<td><p><span class="term"><em class="parameter"><code>plugin</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin"><span class="type">XfcePanelPlugin</span></a> widget
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></p></td>
 <td> new panel size
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td>user data set when the signal handler was connected.</td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> when handled, <a
@@ -1237,10 +1248,15 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2565109"></a><h2>See Also</h2>
+<a name="id2584384"></a><h2>See Also</h2>
 <p>
-<a href="libxfce4panel-Register-Plugins.html" title="Register Plugins">Register Plugins</a>
+<a class="link" href="libxfce4panel-Register-Plugins.html" title="Register Plugins">Register Plugins</a>
 </p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2584403"></a><div class="refsect2" lang="en"><a name="id2584404"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2584405"></a></div>
 </div>
 </div>
 </body>

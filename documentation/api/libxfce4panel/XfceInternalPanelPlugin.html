@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfceInternalPanelPlugin</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
 <link rel="up" href="libxfce4panel-panel.html" title="Panel Plugins">
 <link rel="prev" href="XfceExternalPanelPlugin.html" title="XfceExternalPanelPlugin">
 <link rel="next" href="libxfce4panel-widgets.html" title="Widgets">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
 <link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
@@ -25,20 +25,20 @@
 <th width="100%" align="center">Libxfce4panel Reference Manual</th>
 <td><a accesskey="n" href="libxfce4panel-widgets.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2569142" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2588535" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2570476" class="shortcut">Description</a>
+                  <a href="#id2589890" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2569228" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2589775" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2570437" class="shortcut">Implemented Interfaces</a></nobr></td></tr>
+                  <a href="#id2589844" class="shortcut">Implemented Interfaces</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="XfceInternalPanelPlugin"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2569142"></a><span class="refentrytitle">XfceInternalPanelPlugin</span>
+<a name="id2588535"></a><span class="refentrytitle">XfceInternalPanelPlugin</span>
 </h2>
 <p>XfceInternalPanelPlugin &#8212; Internal panel plugin.</p>
 </td>
@@ -51,10 +51,10 @@
 #include &lt;libxfce4panel/libxfce4panel.h&gt;
 
 
-                    <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct">XfceInternalPanelPlugin</a>;
+                    <a class="link" href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct">XfceInternalPanelPlugin</a>;
 <a
 href="../gtk/GtkWidget.html"
->GtkWidget</a>*          <a href="XfceInternalPanelPlugin.html#xfce-internal-panel-plugin-new">xfce_internal_panel_plugin_new</a>      (const <a
+>GtkWidget</a>*          <a class="link" href="XfceInternalPanelPlugin.html#xfce-internal-panel-plugin-new">xfce_internal_panel_plugin_new</a>      (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *name,
                                                          const <a
@@ -66,13 +66,13 @@ href="../glib/glib-Basic-Types.html#gchar"
                                                          <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a> size,
-                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
-                                                         <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);
+                                                         <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
+                                                         <a class="link" href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2569228"></a><h2>Object Hierarchy</h2>
+<a name="id2589775"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
@@ -100,35 +100,37 @@ href="../gtk/GtkEventBox.html"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2570437"></a><h2>Implemented Interfaces</h2>
+<a name="id2589844"></a><h2>Implemented Interfaces</h2>
 <p>
 XfceInternalPanelPlugin implements
- AtkImplementorIface,  <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> and  XfcePanelItem.</p>
+ AtkImplementorIface,  <a
+href="../gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>,  <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin</a> and  XfcePanelItem.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2570476"></a><h2>Description</h2>
+<a name="id2589890"></a><h2>Description</h2>
 <p>
-Implements the <a href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin interface</a>
+Implements the <a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">Panel Plugin interface</a>
 for internal plugins (loadable modules).
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2570499"></a><h2>Details</h2>
+<a name="id2589913"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2570509"></a><h3>
+<a name="id2589923"></a><h3>
 <a name="XfceInternalPanelPlugin-struct"></a>XfceInternalPanelPlugin</h3>
-<a class="indexterm" name="id2570523"></a><pre class="programlisting">typedef struct _XfceInternalPanelPlugin XfceInternalPanelPlugin;</pre>
+<a class="indexterm" name="id2589937"></a><pre class="programlisting">typedef struct _XfceInternalPanelPlugin XfceInternalPanelPlugin;</pre>
 <p>
-The <a href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct"><span class="type">XfceInternalPanelPlugin</span></a> struct contains private data only, and
+The <a class="link" href="XfceInternalPanelPlugin.html#XfceInternalPanelPlugin-struct"><span class="type">XfceInternalPanelPlugin</span></a> struct contains private data only, and
 should be accessed using the functions for the
-<a href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin Interface</a>.
+<a class="link" href="XfcePanelPlugin.html" title="XfcePanelPlugin">XfcePanelPlugin Interface</a>.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570557"></a><h3>
+<a name="id2589971"></a><h3>
 <a name="xfce-internal-panel-plugin-new"></a>xfce_internal_panel_plugin_new ()</h3>
-<a class="indexterm" name="id2570570"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2589984"></a><pre class="programlisting"><a
 href="../gtk/GtkWidget.html"
 >GtkWidget</a>*          xfce_internal_panel_plugin_new      (const <a
 href="../glib/glib-Basic-Types.html#gchar"
@@ -142,11 +144,11 @@ href="../glib/glib-Basic-Types.html#gchar"
                                                          <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a> size,
-                                                         <a href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
-                                                         <a href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);</pre>
+                                                         <a class="link" href="libxfce4panel-Standard-Enumerations.html#XfceScreenPosition">XfceScreenPosition</a> position,
+                                                         <a class="link" href="XfcePanelPlugin.html#XfcePanelPluginFunc">XfcePanelPluginFunc</a> construct);</pre>
 <p>
 Creates a new ginternal plugin. This function should not be used directly,
-but only throught the <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a> macro.</p>
+but only throught the <a class="link" href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PLUGIN-REGISTER-INTERNAL:CAPS"><code class="function">XFCE_PANEL_PLUGIN_REGISTER_INTERNAL()</code></a> macro.</p>
 <p>
 
 </p>
@@ -154,44 +156,49 @@ but only throught the <a href="libxfce4panel-Register-Plugins.html#XFCE-PANEL-PL
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>name</code></em>&#160;:</span></p></td>
 <td> plugin name
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>id</code></em>&#160;:</span></p></td>
 <td> unique identifier string
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>display_name</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>display_name</code></em>&#160;:</span></p></td>
 <td> translated plugin name
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>size</code></em>&#160;:</span></p></td>
 <td> panel size
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>position</code></em>&#160;:</span></p></td>
 <td> panel screen position
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>construct</code></em>&#160;:</span></td>
-<td> <a href="XfcePanelPlugin.html#XfcePanelPluginFunc"><span class="type">XfcePanelPluginFunc</span></a> that will be called to construct the
+<td><p><span class="term"><em class="parameter"><code>construct</code></em>&#160;:</span></p></td>
+<td> <a class="link" href="XfcePanelPlugin.html#XfcePanelPluginFunc"><span class="type">XfcePanelPluginFunc</span></a> that will be called to construct the
                 plugin widgets.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> Newly created panel plugin widget.
 </td>
 </tr>
 </tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2590178"></a><div class="refsect2" lang="en"><a name="id2590179"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2590180"></a></div>
 </div>
 </div>
 </body>

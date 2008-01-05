@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Resource Config File Support</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="libxfce4util Reference Manual">
 <link rel="up" href="libxfce4util-utilities.html" title="Xfce Utilities">
 <link rel="prev" href="libxfce4util-Resource-lookup-functions.html" title="Resource lookup functions">
 <link rel="next" href="libxfce4util-File-Utilities.html" title="File Utilities">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="chapter" href="reference.html" title="libxfce4util Overview">
 <link rel="chapter" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
@@ -25,16 +25,16 @@
 <th width="100%" align="center">libxfce4util Reference Manual</th>
 <td><a accesskey="n" href="libxfce4util-File-Utilities.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2567915" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2587120" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2568718" class="shortcut">Description</a></nobr></td></tr>
+                  <a href="#id2587922" class="shortcut">Description</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="libxfce4util-Resource-Config-File-Support"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2567915"></a><span class="refentrytitle">Resource Config File Support</span>
+<a name="id2587120"></a><span class="refentrytitle">Resource Config File Support</span>
 </h2>
 <p>Resource Config File Support &#8212; functions for reading and writing resource config files.</p>
 </td>
@@ -47,41 +47,41 @@
 #include &lt;libxfce4util/libxfce4util.h&gt;
 
 
-                    <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>;
-<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-simple-open">xfce_rc_simple_open</a>                 (const <a
+                    <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>;
+<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-simple-open">xfce_rc_simple_open</a>                 (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *filename,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> readonly);
-<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-config-open">xfce_rc_config_open</a>                 (<a href="libxfce4util-Resource-lookup-functions.html#XfceResourceType">XfceResourceType</a> type,
+<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-config-open">xfce_rc_config_open</a>                 (<a class="link" href="libxfce4util-Resource-lookup-functions.html#XfceResourceType">XfceResourceType</a> type,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *resource,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> readonly);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-close">xfce_rc_close</a>                       (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-flush">xfce_rc_flush</a>                       (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-close">xfce_rc_close</a>                       (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-flush">xfce_rc_flush</a>                       (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-dirty">xfce_rc_is_dirty</a>                    (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+>gboolean</a>            <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-dirty">xfce_rc_is_dirty</a>                    (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-readonly">xfce_rc_is_readonly</a>                 (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+>gboolean</a>            <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-is-readonly">xfce_rc_is_readonly</a>                 (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-locale">xfce_rc_get_locale</a>                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+>gchar</a>*        <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-locale">xfce_rc_get_locale</a>                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-groups">xfce_rc_get_groups</a>                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+>gchar</a>**             <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-groups">xfce_rc_get_groups</a>                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-entries">xfce_rc_get_entries</a>                 (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>**             <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-entries">xfce_rc_get_entries</a>                 (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-group">xfce_rc_delete_group</a>                (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-group">xfce_rc_delete_group</a>                (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group,
@@ -90,18 +90,18 @@ href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> global);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-group">xfce_rc_get_group</a>                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
+>gchar</a>*        <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-group">xfce_rc_get_group</a>                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-group">xfce_rc_has_group</a>                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-group">xfce_rc_has_group</a>                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-set-group">xfce_rc_set_group</a>                   (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-set-group">xfce_rc_set_group</a>                   (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-entry">xfce_rc_delete_entry</a>                (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-entry">xfce_rc_delete_entry</a>                (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -110,13 +110,13 @@ href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> global);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-entry">xfce_rc_has_entry</a>                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-has-entry">xfce_rc_has_entry</a>                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry">xfce_rc_read_entry</a>                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>*        <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry">xfce_rc_read_entry</a>                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -125,7 +125,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *fallback);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry-untranslated">xfce_rc_read_entry_untranslated</a>     (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>*        <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry-untranslated">xfce_rc_read_entry_untranslated</a>     (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -134,7 +134,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *fallback);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-bool-entry">xfce_rc_read_bool_entry</a>             (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-bool-entry">xfce_rc_read_bool_entry</a>             (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -143,7 +143,7 @@ href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> fallback);
 <a
 href="../glib/glib-Basic-Types.html#gint"
->gint</a>                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-int-entry">xfce_rc_read_int_entry</a>              (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gint</a>                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-int-entry">xfce_rc_read_int_entry</a>              (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -152,35 +152,35 @@ href="../glib/glib-Basic-Types.html#gint"
 >gint</a> fallback);
 <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-list-entry">xfce_rc_read_list_entry</a>             (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>**             <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-list-entry">xfce_rc_read_list_entry</a>             (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *delimiter);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry">xfce_rc_write_entry</a>                 (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry">xfce_rc_write_entry</a>                 (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *value);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-bool-entry">xfce_rc_write_bool_entry</a>            (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-bool-entry">xfce_rc_write_bool_entry</a>            (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
                                                          <a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> value);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-int-entry">xfce_rc_write_int_entry</a>             (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-int-entry">xfce_rc_write_int_entry</a>             (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
                                                          <a
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a> value);
-void                <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-list-entry">xfce_rc_write_list_entry</a>            (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+void                <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-list-entry">xfce_rc_write_list_entry</a>            (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -193,7 +193,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2568718"></a><h2>Description</h2>
+<a name="id2587922"></a><h2>Description</h2>
 <p>
 Provides support for parsing INI-style resource config files like used by for
 example KDE and some Xfce components (like xfwm4, who uses rc files for the
@@ -202,26 +202,26 @@ themes).
 <p>
 The parser itself is optimized for high-performance using memory and string chunks
 to reduce the time spent looking for heap memory (a nice side effect of this is the
-reduced heap corruption). But due to this fact, an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object might consume quite
-a lot of memory after some time of usage. Therefore you should close an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object
+reduced heap corruption). But due to this fact, an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object might consume quite
+a lot of memory after some time of usage. Therefore you should close an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object
 as soon as possible after loading configuration data from the object.
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2568761"></a><h2>Details</h2>
+<a name="id2587965"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2568771"></a><h3>
+<a name="id2587975"></a><h3>
 <a name="XfceRc"></a>XfceRc</h3>
-<a class="indexterm" name="id2568783"></a><pre class="programlisting">typedef struct _XfceRc XfceRc;</pre>
+<a class="indexterm" name="id2587987"></a><pre class="programlisting">typedef struct _XfceRc XfceRc;</pre>
 <p>
 Opaque struct that encapsulates the resource config data.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2568800"></a><h3>
+<a name="id2588004"></a><h3>
 <a name="xfce-rc-simple-open"></a>xfce_rc_simple_open ()</h3>
-<a class="indexterm" name="id2568815"></a><pre class="programlisting"><a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             xfce_rc_simple_open                 (const <a
+<a class="indexterm" name="id2588019"></a><pre class="programlisting"><a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             xfce_rc_simple_open                 (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *filename,
                                                          <a
@@ -237,7 +237,7 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 entries and entries that match the current locale will be loaded. Also if
 you pass <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
-><code class="literal">TRUE</code></a> for <em class="parameter"><code>readonly</code></em>, <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-simple-open"><span class="type">xfce_rc_simple_open</span></a> will fail if <em class="parameter"><code>filename</code></em>
+><code class="literal">TRUE</code></a> for <em class="parameter"><code>readonly</code></em>, <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-simple-open"><span class="type">xfce_rc_simple_open</span></a> will fail if <em class="parameter"><code>filename</code></em>
 does not reference a regular file.
 </p>
 <p>
@@ -253,18 +253,18 @@ only the default group and no entries.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></p></td>
 <td> name of the filename to open.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>readonly</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>readonly</code></em>&#160;:</span></p></td>
 <td> whether to open <em class="parameter"><code>filename</code></em> readonly.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the newly created <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object, or <a
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the newly created <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object, or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> on error.
 
@@ -277,9 +277,9 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569016"></a><h3>
+<a name="id2588220"></a><h3>
 <a name="xfce-rc-config-open"></a>xfce_rc_config_open ()</h3>
-<a class="indexterm" name="id2569031"></a><pre class="programlisting"><a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             xfce_rc_config_open                 (<a href="libxfce4util-Resource-lookup-functions.html#XfceResourceType">XfceResourceType</a> type,
+<a class="indexterm" name="id2588236"></a><pre class="programlisting"><a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a>*             xfce_rc_config_open                 (<a class="link" href="libxfce4util-Resource-lookup-functions.html#XfceResourceType">XfceResourceType</a> type,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *resource,
@@ -295,22 +295,22 @@ href="../glib/glib-Basic-Types.html#gboolean"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>type</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>resource</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>resource</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>readonly</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>readonly</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td>
 
 </td>
@@ -322,9 +322,9 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569140"></a><h3>
+<a name="id2588344"></a><h3>
 <a name="xfce-rc-close"></a>xfce_rc_close ()</h3>
-<a class="indexterm" name="id2569154"></a><pre class="programlisting">void                xfce_rc_close                       (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+<a class="indexterm" name="id2588359"></a><pre class="programlisting">void                xfce_rc_close                       (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Destructs <em class="parameter"><code>rc</code></em>.
 </p>
@@ -337,8 +337,8 @@ will be flushed to permanent storage first.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr></tbody>
 </table></div>
@@ -347,9 +347,9 @@ will be flushed to permanent storage first.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569235"></a><h3>
+<a name="id2588440"></a><h3>
 <a name="xfce-rc-flush"></a>xfce_rc_flush ()</h3>
-<a class="indexterm" name="id2569251"></a><pre class="programlisting">void                xfce_rc_flush                       (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+<a class="indexterm" name="id2588455"></a><pre class="programlisting">void                xfce_rc_flush                       (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Flushes all changes that currently reside only in memory back to permanent
 storage. Dirty configuration entries are written in the most specific file
@@ -360,8 +360,8 @@ available.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr></tbody>
 </table></div>
@@ -370,11 +370,11 @@ available.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569317"></a><h3>
+<a name="id2588522"></a><h3>
 <a name="xfce-rc-is-dirty"></a>xfce_rc_is_dirty ()</h3>
-<a class="indexterm" name="id2569332"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2588537"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_rc_is_dirty                    (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+>gboolean</a>            xfce_rc_is_dirty                    (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Checks whether <em class="parameter"><code>rc</code></em> has any dirty (modified) entries.</p>
 <p>
@@ -384,12 +384,12 @@ Checks whether <em class="parameter"><code>rc</code></em> has any dirty (modifie
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if <em class="parameter"><code>rc</code></em> has any dirty (modified) entries.
@@ -403,11 +403,11 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569429"></a><h3>
+<a name="id2588634"></a><h3>
 <a name="xfce-rc-is-readonly"></a>xfce_rc_is_readonly ()</h3>
-<a class="indexterm" name="id2569444"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2588649"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_rc_is_readonly                 (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+>gboolean</a>            xfce_rc_is_readonly                 (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Returns the read-only status of <em class="parameter"><code>rc</code></em>.</p>
 <p>
@@ -417,12 +417,12 @@ Returns the read-only status of <em class="parameter"><code>rc</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the read-only status.
 
 </td>
@@ -434,11 +434,11 @@ Returns the read-only status of <em class="parameter"><code>rc</code></em>.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569525"></a><h3>
+<a name="id2588730"></a><h3>
 <a name="xfce-rc-get-locale"></a>xfce_rc_get_locale ()</h3>
-<a class="indexterm" name="id2569540"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2588745"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        xfce_rc_get_locale                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+>gchar</a>*        xfce_rc_get_locale                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Returns current locale used by <em class="parameter"><code>rc</code></em> to lookup translated entries.</p>
 <p>
@@ -448,12 +448,12 @@ Returns current locale used by <em class="parameter"><code>rc</code></em> to loo
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> a string representing the current locale.
 
 </td>
@@ -465,11 +465,11 @@ Returns current locale used by <em class="parameter"><code>rc</code></em> to loo
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569623"></a><h3>
+<a name="id2588828"></a><h3>
 <a name="xfce-rc-get-groups"></a>xfce_rc_get_groups ()</h3>
-<a class="indexterm" name="id2569638"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2588843"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             xfce_rc_get_groups                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+>gchar</a>**             xfce_rc_get_groups                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Returns the names of all known groups in <em class="parameter"><code>rc</code></em>.
 </p>
@@ -486,12 +486,12 @@ default group is known to always exist.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> a NULL-terminated string array will the names of all groups in
               <em class="parameter"><code>rc</code></em>. Should be freed using <a
 href="../glib/glib-String-Utility-Functions.html#g-strfreev"
@@ -506,11 +506,11 @@ href="../glib/glib-String-Utility-Functions.html#g-strfreev"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569753"></a><h3>
+<a name="id2588958"></a><h3>
 <a name="xfce-rc-get-entries"></a>xfce_rc_get_entries ()</h3>
-<a class="indexterm" name="id2569768"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2588973"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             xfce_rc_get_entries                 (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>**             xfce_rc_get_entries                 (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);</pre>
@@ -520,7 +520,7 @@ Returns the names of all entries in <em class="parameter"><code>group</code></em
 <p>
 <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
-><code class="literal">NULL</code></a> is a valid input value for <em class="parameter"><code>group</code></em>. <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-entries"><span class="type">xfce_rc_get_entries</span></a> will
+><code class="literal">NULL</code></a> is a valid input value for <em class="parameter"><code>group</code></em>. <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-get-entries"><span class="type">xfce_rc_get_entries</span></a> will
 then return all entries in the so called "NULL group". Though this
 "NULL group" should only be used for backward compatibility with old
 applications. You should not use it in newly written code.</p>
@@ -531,17 +531,17 @@ applications. You should not use it in newly written code.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></p></td>
 <td> the name of the group to get entries from.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> a NULL-terminated string array with all entries in <em class="parameter"><code>group</code></em>. Has to
               be freed using <a
 href="../glib/glib-String-Utility-Functions.html#g-strfreev"
@@ -560,9 +560,9 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2569944"></a><h3>
+<a name="id2589149"></a><h3>
 <a name="xfce-rc-delete-group"></a>xfce_rc_delete_group ()</h3>
-<a class="indexterm" name="id2569960"></a><pre class="programlisting">void                xfce_rc_delete_group                (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2589164"></a><pre class="programlisting">void                xfce_rc_delete_group                (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group,
@@ -578,11 +578,11 @@ If <em class="parameter"><code>rc</code></em> is a complex config object and <em
 all entries. If <em class="parameter"><code>global</code></em> is <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a>, the entry will be marked as deleted globally,
-therefore all calls to <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> and related functions will return
+therefore all calls to <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> and related functions will return
 the fallback values. If <em class="parameter"><code>global</code></em> is <a
 href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 ><code class="literal">FALSE</code></a>, the <em class="parameter"><code>group</code></em> will be deleted in the
-per-user config file, and further calls to <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> will most
+per-user config file, and further calls to <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> will most
 probably return the system-wide config entries.</p>
 <p>
 
@@ -591,17 +591,17 @@ probably return the system-wide config entries.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></p></td>
 <td> name of the group to delete.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>global</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>global</code></em>&#160;:</span></p></td>
 <td> whether to delete the group globally.
 </td>
 </tr>
@@ -612,11 +612,11 @@ probably return the system-wide config entries.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570169"></a><h3>
+<a name="id2589374"></a><h3>
 <a name="xfce-rc-get-group"></a>xfce_rc_get_group ()</h3>
-<a class="indexterm" name="id2570185"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2589389"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        xfce_rc_get_group                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
+>gchar</a>*        xfce_rc_get_group                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc);</pre>
 <p>
 Returns the name of the group in which we are searching for keys and
 from which we are retrieving entries. If the currently active group is
@@ -630,12 +630,12 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the name of the current group.
 
 </td>
@@ -647,11 +647,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570274"></a><h3>
+<a name="id2589479"></a><h3>
 <a name="xfce-rc-has-group"></a>xfce_rc_has_group ()</h3>
-<a class="indexterm" name="id2570289"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2589494"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_rc_has_group                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            xfce_rc_has_group                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);</pre>
@@ -666,17 +666,17 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></p></td>
 <td> the group to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if the <em class="parameter"><code>group</code></em> exists.
@@ -690,15 +690,15 @@ href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570418"></a><h3>
+<a name="id2589623"></a><h3>
 <a name="xfce-rc-set-group"></a>xfce_rc_set_group ()</h3>
-<a class="indexterm" name="id2570433"></a><pre class="programlisting">void                xfce_rc_set_group                   (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2589638"></a><pre class="programlisting">void                xfce_rc_set_group                   (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *group);</pre>
 <p>
 Specifies the group in which keys will be read and written. Subsequent calls
-to <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> and <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a> will be applied only in the
+to <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-read-entry"><span class="type">xfce_rc_read_entry</span></a> and <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a> will be applied only in the
 active group.
 </p>
 <p>
@@ -711,12 +711,12 @@ you. But note, that empty groups will not be synced to permanent storage.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>group</code></em>&#160;:</span></p></td>
 <td> the name of the new group or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> to to switch back to the default group.
@@ -729,9 +729,9 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570560"></a><h3>
+<a name="id2589765"></a><h3>
 <a name="xfce-rc-delete-entry"></a>xfce_rc_delete_entry ()</h3>
-<a class="indexterm" name="id2570575"></a><pre class="programlisting">void                xfce_rc_delete_entry                (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2589780"></a><pre class="programlisting">void                xfce_rc_delete_entry                (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -739,7 +739,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> global);</pre>
 <p>
-Similar to <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-group"><span class="type">xfce_rc_delete_group</span></a>, but works on an entry in the current
+Similar to <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-delete-group"><span class="type">xfce_rc_delete_group</span></a>, but works on an entry in the current
 group.</p>
 <p>
 
@@ -748,17 +748,17 @@ group.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to delete.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>global</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>global</code></em>&#160;:</span></p></td>
 <td> whether to delete <em class="parameter"><code>key</code></em> globally.
 </td>
 </tr>
@@ -769,11 +769,11 @@ group.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570698"></a><h3>
+<a name="id2589903"></a><h3>
 <a name="xfce-rc-has-entry"></a>xfce_rc_has_entry ()</h3>
-<a class="indexterm" name="id2570714"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2589918"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_rc_has_entry                   (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            xfce_rc_has_entry                   (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key);</pre>
@@ -786,17 +786,17 @@ Checks whether the <em class="parameter"><code>key</code></em> has an entry in t
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if the <em class="parameter"><code>key</code></em> is available, else <a
@@ -812,11 +812,11 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2570842"></a><h3>
+<a name="id2590047"></a><h3>
 <a name="xfce-rc-read-entry"></a>xfce_rc_read_entry ()</h3>
-<a class="indexterm" name="id2570857"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2590062"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        xfce_rc_read_entry                  (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>*        xfce_rc_read_entry                  (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -832,22 +832,22 @@ Reads the value of an entry specified by <em class="parameter"><code>key</code><
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></p></td>
 <td> a default value returned if the <em class="parameter"><code>key</code></em> was not found.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the value for this <em class="parameter"><code>key</code></em>, or <em class="parameter"><code>fallback</code></em> if <em class="parameter"><code>key</code></em> was not found.
 
 </td>
@@ -859,11 +859,11 @@ Reads the value of an entry specified by <em class="parameter"><code>key</code><
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571007"></a><h3>
+<a name="id2590212"></a><h3>
 <a name="xfce-rc-read-entry-untranslated"></a>xfce_rc_read_entry_untranslated ()</h3>
-<a class="indexterm" name="id2571023"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2590227"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        xfce_rc_read_entry_untranslated     (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>*        xfce_rc_read_entry_untranslated     (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -880,22 +880,22 @@ untranslated entry is returned. You normally do not need this.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></p></td>
 <td> a default value returned if the <em class="parameter"><code>key</code></em> was not found.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the untranslated value for this <em class="parameter"><code>key</code></em>, or <em class="parameter"><code>fallback</code></em> if <em class="parameter"><code>key</code></em> was not
               found.
 
@@ -908,11 +908,11 @@ untranslated entry is returned. You normally do not need this.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571175"></a><h3>
+<a name="id2590379"></a><h3>
 <a name="xfce-rc-read-bool-entry"></a>xfce_rc_read_bool_entry ()</h3>
-<a class="indexterm" name="id2571190"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2590394"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_rc_read_bool_entry             (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gboolean</a>            xfce_rc_read_bool_entry             (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -930,22 +930,22 @@ everything else is false.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></p></td>
 <td> a default value returned if the <em class="parameter"><code>key</code></em> was not found.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the value for this <em class="parameter"><code>key</code></em>.
 
 </td>
@@ -957,11 +957,11 @@ everything else is false.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571328"></a><h3>
+<a name="id2590533"></a><h3>
 <a name="xfce-rc-read-int-entry"></a>xfce_rc_read_int_entry ()</h3>
-<a class="indexterm" name="id2571343"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2590548"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gint"
->gint</a>                xfce_rc_read_int_entry              (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gint</a>                xfce_rc_read_int_entry              (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -978,22 +978,22 @@ and interprets it as an integer value.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>fallback</code></em>&#160;:</span></p></td>
 <td> a default value returned if the <em class="parameter"><code>key</code></em> was not found.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the value for this <em class="parameter"><code>key</code></em>.
 
 </td>
@@ -1005,11 +1005,11 @@ and interprets it as an integer value.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571481"></a><h3>
+<a name="id2590685"></a><h3>
 <a name="xfce-rc-read-list-entry"></a>xfce_rc_read_list_entry ()</h3>
-<a class="indexterm" name="id2571496"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2590700"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>**             xfce_rc_read_list_entry             (const <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+>gchar</a>**             xfce_rc_read_list_entry             (const <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -1028,24 +1028,24 @@ href="../glib/glib-String-Utility-Functions.html#g-strfreev"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to search for.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>delimiter</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>delimiter</code></em>&#160;:</span></p></td>
 <td> a string which specifies the places at which to split the string.
              The delimiter is not included in any of the resulting strings.
              If NULL, "," is used.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the list or NULL if the entry does not exist.
 
 </td>
@@ -1057,9 +1057,9 @@ href="../glib/glib-String-Utility-Functions.html#g-strfreev"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571630"></a><h3>
+<a name="id2590835"></a><h3>
 <a name="xfce-rc-write-entry"></a>xfce_rc_write_entry ()</h3>
-<a class="indexterm" name="id2571646"></a><pre class="programlisting">void                xfce_rc_write_entry                 (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2590851"></a><pre class="programlisting">void                xfce_rc_write_entry                 (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -1069,11 +1069,11 @@ href="../glib/glib-Basic-Types.html#gchar"
 <p>
 Writes a <em class="parameter"><code>key</code></em>/<em class="parameter"><code>value</code></em> pair. This has no effect if the resource config
 was opened readonly, else the value will be written to permanent storage
-on the next call to <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-flush"><span class="type">xfce_rc_flush</span></a> or when <em class="parameter"><code>rc</code></em> is destroyed using
-<a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-close"><span class="type">xfce_rc_close</span></a>.
+on the next call to <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-flush"><span class="type">xfce_rc_flush</span></a> or when <em class="parameter"><code>rc</code></em> is destroyed using
+<a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-close"><span class="type">xfce_rc_close</span></a>.
 </p>
 <p>
-If <em class="parameter"><code>rc</code></em> was opened using <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-config-open"><span class="type">xfce_rc_config_open</span></a>, the value will be
+If <em class="parameter"><code>rc</code></em> was opened using <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-config-open"><span class="type">xfce_rc_config_open</span></a>, the value will be
 written to the most specific config file.</p>
 <p>
 
@@ -1082,17 +1082,17 @@ written to the most specific config file.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to write.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></p></td>
 <td> the value to write.
 </td>
 </tr>
@@ -1103,9 +1103,9 @@ written to the most specific config file.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571808"></a><h3>
+<a name="id2591013"></a><h3>
 <a name="xfce-rc-write-bool-entry"></a>xfce_rc_write_bool_entry ()</h3>
-<a class="indexterm" name="id2571824"></a><pre class="programlisting">void                xfce_rc_write_bool_entry            (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2591029"></a><pre class="programlisting">void                xfce_rc_write_bool_entry            (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -1113,7 +1113,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a> value);</pre>
 <p>
-Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores a boolean <em class="parameter"><code>value</code></em>.</p>
+Wrapper for <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores a boolean <em class="parameter"><code>value</code></em>.</p>
 <p>
 
 </p>
@@ -1121,17 +1121,17 @@ Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-writ
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to write.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></p></td>
 <td> the value to write.
 </td>
 </tr>
@@ -1142,9 +1142,9 @@ Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-writ
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2571946"></a><h3>
+<a name="id2591151"></a><h3>
 <a name="xfce-rc-write-int-entry"></a>xfce_rc_write_int_entry ()</h3>
-<a class="indexterm" name="id2571962"></a><pre class="programlisting">void                xfce_rc_write_int_entry             (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2591167"></a><pre class="programlisting">void                xfce_rc_write_int_entry             (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -1152,7 +1152,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 href="../glib/glib-Basic-Types.html#gint"
 >gint</a> value);</pre>
 <p>
-Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores an integer <em class="parameter"><code>value</code></em>.</p>
+Wrapper for <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores an integer <em class="parameter"><code>value</code></em>.</p>
 <p>
 
 </p>
@@ -1160,17 +1160,17 @@ Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-writ
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to write.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></p></td>
 <td> the value to write.
 </td>
 </tr>
@@ -1181,9 +1181,9 @@ Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-writ
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2572084"></a><h3>
+<a name="id2591289"></a><h3>
 <a name="xfce-rc-write-list-entry"></a>xfce_rc_write_list_entry ()</h3>
-<a class="indexterm" name="id2572099"></a><pre class="programlisting">void                xfce_rc_write_list_entry            (<a href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
+<a class="indexterm" name="id2591304"></a><pre class="programlisting">void                xfce_rc_write_list_entry            (<a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc">XfceRc</a> *rc,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *key,
@@ -1194,7 +1194,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *separator);</pre>
 <p>
-Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores a string list <em class="parameter"><code>value</code></em>.</p>
+Wrapper for <a class="link" href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-write-entry"><span class="type">xfce_rc_write_entry</span></a>, that stores a string list <em class="parameter"><code>value</code></em>.</p>
 <p>
 
 </p>
@@ -1202,24 +1202,24 @@ Wrapper for <a href="libxfce4util-Resource-Config-File-Support.html#xfce-rc-writ
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></td>
-<td> an <a href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
+<td><p><span class="term"><em class="parameter"><code>rc</code></em>&#160;:</span></p></td>
+<td> an <a class="link" href="libxfce4util-Resource-Config-File-Support.html#XfceRc"><span class="type">XfceRc</span></a> object.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>key</code></em>&#160;:</span></p></td>
 <td> the key to write.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>value</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> terminated list of strings to store in the entry specified by key.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>separator</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>separator</code></em>&#160;:</span></p></td>
 <td> the list separator. Defaults to "," if <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>.
@@ -1230,6 +1230,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <p class="since">Since  4.2
 </p>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2591471"></a><div class="refsect2" lang="en"><a name="id2591472"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2591473"></a></div>
 </div>
 </div>
 </body>

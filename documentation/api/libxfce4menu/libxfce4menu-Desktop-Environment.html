@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Desktop Environment</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="libxfce4menu Reference Manual">
 <link rel="up" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
 <link rel="prev" href="libxfce4menu-Initialization-and-Shutdown.html" title="Initialization and Shutdown">
 <link rel="next" href="libxfce4menu-Version-Information.html" title="Version Information">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -30,16 +30,16 @@
 <th width="100%" align="center">libxfce4menu Reference Manual</th>
 <td><a accesskey="n" href="libxfce4menu-Version-Information.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2511399" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2530064" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2555454" class="shortcut">Description</a></nobr></td></tr>
+                  <a href="#id2574603" class="shortcut">Description</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="libxfce4menu-Desktop-Environment"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2511399"></a><span class="refentrytitle">Desktop Environment</span>
+<a name="id2530064"></a><span class="refentrytitle">Desktop Environment</span>
 </h2>
 <p>Desktop Environment</p>
 </td>
@@ -52,26 +52,26 @@
 #include &lt;libxfce4menu/libxfce4menu.h&gt;
 
 
-void                <a href="libxfce4menu-Desktop-Environment.html#xfce-menu-set-environment">xfce_menu_set_environment</a>           (const <a
+void                <a class="link" href="libxfce4menu-Desktop-Environment.html#xfce-menu-set-environment">xfce_menu_set_environment</a>           (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *env);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="libxfce4menu-Desktop-Environment.html#xfce-menu-get-environment">xfce_menu_get_environment</a>           (void);
+>gchar</a>*        <a class="link" href="libxfce4menu-Desktop-Environment.html#xfce-menu-get-environment">xfce_menu_get_environment</a>           (void);
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2555454"></a><h2>Description</h2>
+<a name="id2574603"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2555469"></a><h2>Details</h2>
+<a name="id2574618"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2555479"></a><h3>
+<a name="id2574628"></a><h3>
 <a name="xfce-menu-set-environment"></a>xfce_menu_set_environment ()</h3>
-<a class="indexterm" name="id2555492"></a><pre class="programlisting">void                xfce_menu_set_environment           (const <a
+<a class="indexterm" name="id2574641"></a><pre class="programlisting">void                xfce_menu_set_environment           (const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *env);</pre>
 <p>
@@ -86,7 +86,7 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>env</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>env</code></em>&#160;:</span></p></td>
 <td> Name of the desktop environment for which menus will
        be generated (e.g. XFCE, KDE, GNOME or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -97,9 +97,9 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2555566"></a><h3>
+<a name="id2574714"></a><h3>
 <a name="xfce-menu-get-environment"></a>xfce_menu_get_environment ()</h3>
-<a class="indexterm" name="id2555579"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2574728"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a>*        xfce_menu_get_environment           (void);</pre>
 <p>
@@ -110,7 +110,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> Name of the desktop environment (e.g. XFCE, KDE, GNOME) 
 which is used or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -119,6 +119,11 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </tr></tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2574780"></a><div class="refsect2" lang="en"><a name="id2574781"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2574782"></a></div>
 </div>
 </div>
 </body>

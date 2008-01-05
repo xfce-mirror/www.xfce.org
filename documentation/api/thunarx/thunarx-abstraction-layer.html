@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Part&#160;IV.&#160;Abstraction Layer</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="up" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="prev" href="thunarx-Variables-and-functions-to-check-the-library-version.html" title="Version information">
 <link rel="next" href="ThunarxFileInfo.html" title="ThunarxFileInfo">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
 <link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
@@ -29,6 +29,23 @@
 <div class="part" lang="en">
 <div class="titlepage"><div><div><h1 class="title">
 <a name="thunarx-abstraction-layer"></a>Part&#160;IV.&#160;Abstraction Layer</h1></div></div></div>
+<div class="toc">
+<p><b>Table of Contents</b></p>
+<dl>
+<dt>
+<span class="refentrytitle"><a href="ThunarxFileInfo.html">ThunarxFileInfo</a></span><span class="refpurpose"> &#8212; Abstraction of a file handled within the file manager</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarxPropertyPage.html">ThunarxPropertyPage</a></span><span class="refpurpose"> &#8212; The base class for pages added to the properties dialog</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarxProviderPlugin.html">ThunarxProviderPlugin</a></span><span class="refpurpose"> &#8212; The interface to the plugin type registration</span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="ThunarxRenamer.html">ThunarxRenamer</a></span><span class="refpurpose"> &#8212; The abstract base class for bulk renamers</span>
+</dt>
+</dl>
+</div>
 <p>
       In order to hide the internals of the file manager from the extensions, the <code class="systemitem">thunarx</code> library provides an abstraction layer, which includes
       interfaces accessible to the extension, that are implemented by the file manager at runtime.
@@ -37,13 +54,13 @@
       <img src="abstraction.png">
     </p>
 <p>
-      Currently the abstraction layer consists of the interface <a href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>, which provides
+      Currently the abstraction layer consists of the interface <a class="link" href="ThunarxFileInfo.html" title="ThunarxFileInfo"><span class="type">ThunarxFileInfo</span></a>, which provides
       extensions with a way to access information about a file handled within
-      the file manager, the class <a href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>, which
+      the file manager, the class <a class="link" href="ThunarxPropertyPage.html" title="ThunarxPropertyPage"><span class="type">ThunarxPropertyPage</span></a>, which
       is the base class for widgets that can be added to the properties dialog by
-      extensions, the interface <a href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>, which
+      extensions, the interface <a class="link" href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>, which
       hides the details of dynamic type registration from the extensions, and the
-      class <a href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>, which
+      class <a class="link" href="ThunarxRenamer.html" title="ThunarxRenamer"><span class="type">ThunarxRenamer</span></a>, which
       is the abstract base class for renamers that can be used in the bulk rename
       dialog provided by Thunar to rename multiple files at once.
     </p>

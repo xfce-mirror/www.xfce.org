@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>XfceMenuRules</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="libxfce4menu Reference Manual">
 <link rel="up" href="rules.html" title="Include and Exclude Rules">
 <link rel="prev" href="rules.html" title="Include and Exclude Rules">
 <link rel="next" href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -30,22 +30,22 @@
 <th width="100%" align="center">libxfce4menu Reference Manual</th>
 <td><a accesskey="n" href="XfceMenuStandardRules.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2581704" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2601373" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2581974" class="shortcut">Description</a>
+                  <a href="#id2601646" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2581879" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2601551" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2581903" class="shortcut">Prerequisites</a>
+                  <a href="#id2601576" class="shortcut">Prerequisites</a>
                   &#160;|&#160;
-                  <a href="#id2581925" class="shortcut">Known Implementations</a></nobr></td></tr>
+                  <a href="#id2601598" class="shortcut">Known Implementations</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="XfceMenuRules"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2581704"></a><span class="refentrytitle">XfceMenuRules</span>
+<a name="id2601373"></a><span class="refentrytitle">XfceMenuRules</span>
 </h2>
 <p>XfceMenuRules</p>
 </td>
@@ -58,20 +58,20 @@
 #include &lt;libxfce4menu/libxfce4menu.h&gt;
 
 
-                    <a href="XfceMenuRules.html#XfceMenuRules-struct">XfceMenuRules</a>;
-                    <a href="XfceMenuRules.html#XfceMenuRulesIface">XfceMenuRulesIface</a>;
+                    <a class="link" href="XfceMenuRules.html#XfceMenuRules-struct">XfceMenuRules</a>;
+                    <a class="link" href="XfceMenuRules.html#XfceMenuRulesIface">XfceMenuRulesIface</a>;
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="XfceMenuRules.html#xfce-menu-rules-match">xfce_menu_rules_match</a>               (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
-                                                         <a href="XfceMenuItem.html" title="XfceMenuItem">XfceMenuItem</a> *item);
-void                <a href="XfceMenuRules.html#xfce-menu-rules-add-all">xfce_menu_rules_add_all</a>             (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules);
-void                <a href="XfceMenuRules.html#xfce-menu-rules-add-rules">xfce_menu_rules_add_rules</a>           (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
-                                                         <a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *additional_rules);
-void                <a href="XfceMenuRules.html#xfce-menu-rules-add-filename">xfce_menu_rules_add_filename</a>        (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+>gboolean</a>            <a class="link" href="XfceMenuRules.html#xfce-menu-rules-match">xfce_menu_rules_match</a>               (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+                                                         <a class="link" href="XfceMenuItem.html" title="XfceMenuItem">XfceMenuItem</a> *item);
+void                <a class="link" href="XfceMenuRules.html#xfce-menu-rules-add-all">xfce_menu_rules_add_all</a>             (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules);
+void                <a class="link" href="XfceMenuRules.html#xfce-menu-rules-add-rules">xfce_menu_rules_add_rules</a>           (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+                                                         <a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *additional_rules);
+void                <a class="link" href="XfceMenuRules.html#xfce-menu-rules-add-filename">xfce_menu_rules_add_filename</a>        (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *filename);
-void                <a href="XfceMenuRules.html#xfce-menu-rules-add-category">xfce_menu_rules_add_category</a>        (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+void                <a class="link" href="XfceMenuRules.html#xfce-menu-rules-add-category">xfce_menu_rules_add_category</a>        (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *category);
@@ -79,7 +79,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2581879"></a><h2>Object Hierarchy</h2>
+<a name="id2601551"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   GInterface
@@ -87,7 +87,7 @@ href="../glib/glib-Basic-Types.html#gchar"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2581903"></a><h2>Prerequisites</h2>
+<a name="id2601576"></a><h2>Prerequisites</h2>
 <p>
 XfceMenuRules requires
  <a
@@ -95,32 +95,32 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 >GObject</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2581925"></a><h2>Known Implementations</h2>
+<a name="id2601598"></a><h2>Known Implementations</h2>
 <p>
 XfceMenuRules is implemented by
- <a href="XfceMenuAndRules.html" title="XfceMenuAndRules">XfceMenuAndRules</a>,  <a href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a>,  <a href="XfceMenuOrRules.html" title="XfceMenuOrRules">XfceMenuOrRules</a> and  <a href="XfceMenuNotRules.html" title="XfceMenuNotRules">XfceMenuNotRules</a>.</p>
+ <a class="link" href="XfceMenuAndRules.html" title="XfceMenuAndRules">XfceMenuAndRules</a>,  <a class="link" href="XfceMenuStandardRules.html" title="XfceMenuStandardRules">XfceMenuStandardRules</a>,  <a class="link" href="XfceMenuOrRules.html" title="XfceMenuOrRules">XfceMenuOrRules</a> and  <a class="link" href="XfceMenuNotRules.html" title="XfceMenuNotRules">XfceMenuNotRules</a>.</p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2581974"></a><h2>Description</h2>
+<a name="id2601646"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2581988"></a><h2>Details</h2>
+<a name="id2601661"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2581998"></a><h3>
+<a name="id2601671"></a><h3>
 <a name="XfceMenuRules-struct"></a>XfceMenuRules</h3>
-<a class="indexterm" name="id2582012"></a><pre class="programlisting">typedef struct _XfceMenuRules XfceMenuRules;</pre>
+<a class="indexterm" name="id2601685"></a><pre class="programlisting">typedef struct _XfceMenuRules XfceMenuRules;</pre>
 <p>
 
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582028"></a><h3>
+<a name="id2601700"></a><h3>
 <a name="XfceMenuRulesIface"></a>XfceMenuRulesIface</h3>
-<a class="indexterm" name="id2582040"></a><pre class="programlisting">typedef struct {
+<a class="indexterm" name="id2601712"></a><pre class="programlisting">typedef struct {
   GTypeInterface __parent__;
 
   /* Virtual methods */
@@ -141,12 +141,12 @@ XfceMenuRules is implemented by
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582075"></a><h3>
+<a name="id2601748"></a><h3>
 <a name="xfce-menu-rules-match"></a>xfce_menu_rules_match ()</h3>
-<a class="indexterm" name="id2582089"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2601761"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            xfce_menu_rules_match               (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
-                                                         <a href="XfceMenuItem.html" title="XfceMenuItem">XfceMenuItem</a> *item);</pre>
+>gboolean</a>            xfce_menu_rules_match               (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+                                                         <a class="link" href="XfceMenuItem.html" title="XfceMenuItem">XfceMenuItem</a> *item);</pre>
 <p>
 
 </p>
@@ -154,17 +154,17 @@ href="../glib/glib-Basic-Types.html#gboolean"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>item</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>item</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td>
 
 
@@ -175,16 +175,16 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582167"></a><h3>
+<a name="id2601839"></a><h3>
 <a name="xfce-menu-rules-add-all"></a>xfce_menu_rules_add_all ()</h3>
-<a class="indexterm" name="id2582180"></a><pre class="programlisting">void                xfce_menu_rules_add_all             (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules);</pre>
+<a class="indexterm" name="id2601852"></a><pre class="programlisting">void                xfce_menu_rules_add_all             (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules);</pre>
 <p>
 
 </p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></p></td>
 <td>
 
 
@@ -194,10 +194,10 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582226"></a><h3>
+<a name="id2601899"></a><h3>
 <a name="xfce-menu-rules-add-rules"></a>xfce_menu_rules_add_rules ()</h3>
-<a class="indexterm" name="id2582240"></a><pre class="programlisting">void                xfce_menu_rules_add_rules           (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
-                                                         <a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *additional_rules);</pre>
+<a class="indexterm" name="id2601912"></a><pre class="programlisting">void                xfce_menu_rules_add_rules           (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+                                                         <a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *additional_rules);</pre>
 <p>
 
 </p>
@@ -205,12 +205,12 @@ href="../glib/glib-Basic-Types.html#gboolean"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>additional_rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>additional_rules</code></em>&#160;:</span></p></td>
 <td>
 
 
@@ -221,9 +221,9 @@ href="../glib/glib-Basic-Types.html#gboolean"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582308"></a><h3>
+<a name="id2601981"></a><h3>
 <a name="xfce-menu-rules-add-filename"></a>xfce_menu_rules_add_filename ()</h3>
-<a class="indexterm" name="id2582322"></a><pre class="programlisting">void                xfce_menu_rules_add_filename        (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+<a class="indexterm" name="id2601994"></a><pre class="programlisting">void                xfce_menu_rules_add_filename        (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *filename);</pre>
@@ -234,12 +234,12 @@ href="../glib/glib-Basic-Types.html#gchar"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em>&#160;:</span></p></td>
 <td>
 
 
@@ -250,9 +250,9 @@ href="../glib/glib-Basic-Types.html#gchar"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2582390"></a><h3>
+<a name="id2602063"></a><h3>
 <a name="xfce-menu-rules-add-category"></a>xfce_menu_rules_add_category ()</h3>
-<a class="indexterm" name="id2582404"></a><pre class="programlisting">void                xfce_menu_rules_add_category        (<a href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
+<a class="indexterm" name="id2602076"></a><pre class="programlisting">void                xfce_menu_rules_add_category        (<a class="link" href="XfceMenuRules.html" title="XfceMenuRules">XfceMenuRules</a> *rules,
                                                          const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a> *category);</pre>
@@ -263,12 +263,12 @@ href="../glib/glib-Basic-Types.html#gchar"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>rules</code></em>&#160;:</span></p></td>
 <td>
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>category</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>category</code></em>&#160;:</span></p></td>
 <td>
 
 
@@ -277,6 +277,11 @@ href="../glib/glib-Basic-Types.html#gchar"
 </tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2602145"></a><div class="refsect2" lang="en"><a name="id2602146"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2602148"></a></div>
 </div>
 </div>
 </body>

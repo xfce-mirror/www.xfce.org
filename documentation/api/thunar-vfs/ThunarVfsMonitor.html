@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>ThunarVfsMonitor</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
 <link rel="up" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
 <link rel="prev" href="filesystem-monitoring.html" title="Part&#160;IV.&#160;Filesystem Monitoring">
 <link rel="next" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -28,18 +28,18 @@
 <th width="100%" align="center">Thunar-VFS Reference Manual</th>
 <td><a accesskey="n" href="mime-types.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2584685" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2604506" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2585028" class="shortcut">Description</a>
+                  <a href="#id2604849" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2585003" class="shortcut">Object Hierarchy</a></nobr></td></tr>
+                  <a href="#id2604825" class="shortcut">Object Hierarchy</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="ThunarVfsMonitor"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2584685"></a><span class="refentrytitle">ThunarVfsMonitor</span>
+<a name="id2604506"></a><span class="refentrytitle">ThunarVfsMonitor</span>
 </h2>
 <p>ThunarVfsMonitor &#8212; Portable file system monitoring class.</p>
 </td>
@@ -52,43 +52,43 @@
 #include &lt;thunar-vfs/thunar-vfs.h&gt;
 
 
-                    <a href="ThunarVfsMonitor.html#ThunarVfsMonitor-struct">ThunarVfsMonitor</a>;
-enum                <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a>;
-                    <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>;
-void                (<a href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">*ThunarVfsMonitorCallback</a>)         (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *handle_path,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *event_path,
+                    <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitor-struct">ThunarVfsMonitor</a>;
+enum                <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a>;
+                    <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>;
+void                (<a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">*ThunarVfsMonitorCallback</a>)         (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *handle_path,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *event_path,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);
-<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a>*   <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-get-default">thunar_vfs_monitor_get_default</a>      (void);
-<a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-add-directory">thunar_vfs_monitor_add_directory</a>
-                                                        (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
+<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a>*   <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-get-default">thunar_vfs_monitor_get_default</a>      (void);
+<a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-add-directory">thunar_vfs_monitor_add_directory</a>
+                                                        (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);
-<a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-add-file">thunar_vfs_monitor_add_file</a>     (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
+<a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-add-file">thunar_vfs_monitor_add_file</a>     (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);
-void                <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove">thunar_vfs_monitor_remove</a>           (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle);
-void                <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-feed">thunar_vfs_monitor_feed</a>             (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
-void                <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-wait">thunar_vfs_monitor_wait</a>             (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor);
+void                <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove">thunar_vfs_monitor_remove</a>           (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle);
+void                <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-feed">thunar_vfs_monitor_feed</a>             (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);
+void                <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-wait">thunar_vfs_monitor_wait</a>             (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor);
 
 
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2585003"></a><h2>Object Hierarchy</h2>
+<a name="id2604825"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
@@ -98,27 +98,27 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2585028"></a><h2>Description</h2>
+<a name="id2604849"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2585042"></a><h2>Details</h2>
+<a name="id2604864"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2585052"></a><h3>
+<a name="id2604874"></a><h3>
 <a name="ThunarVfsMonitor-struct"></a>ThunarVfsMonitor</h3>
-<a class="indexterm" name="id2585066"></a><pre class="programlisting">typedef struct _ThunarVfsMonitor ThunarVfsMonitor;</pre>
+<a class="indexterm" name="id2604888"></a><pre class="programlisting">typedef struct _ThunarVfsMonitor ThunarVfsMonitor;</pre>
 <p>
-  The <a href="ThunarVfsMonitor.html#ThunarVfsMonitor-struct"><span class="type">ThunarVfsMonitor</span></a> contains private data only, and should
+  The <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitor-struct"><span class="type">ThunarVfsMonitor</span></a> contains private data only, and should
   be accessed using the functions below.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585092"></a><h3>
+<a name="id2604914"></a><h3>
 <a name="ThunarVfsMonitorEvent"></a>enum ThunarVfsMonitorEvent</h3>
-<a class="indexterm" name="id2585105"></a><pre class="programlisting">typedef enum
+<a class="indexterm" name="id2604926"></a><pre class="programlisting">typedef enum
 {
   THUNAR_VFS_MONITOR_EVENT_CHANGED,
   THUNAR_VFS_MONITOR_EVENT_CREATED,
@@ -126,7 +126,7 @@ href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 } ThunarVfsMonitorEvent;
 </pre>
 <p>
-Describes an event that occurred on a <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>.</p>
+Describes an event that occurred on a <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>.</p>
 <p>
 
 </p>
@@ -134,17 +134,17 @@ Describes an event that occurred on a <a href="ThunarVfsMonitor.html#ThunarVfsMo
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-CHANGED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_CHANGED</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-CHANGED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_CHANGED</code></span></p></td>
 <td> a file or directory was changed.
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-CREATED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_CREATED</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-CREATED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_CREATED</code></span></p></td>
 <td> a file or directory was created.
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-DELETED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_DELETED</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MONITOR-EVENT-DELETED:CAPS"></a><code class="literal">THUNAR_VFS_MONITOR_EVENT_DELETED</code></span></p></td>
 <td> a file or directory was deleted.
 </td>
 </tr>
@@ -153,31 +153,31 @@ Describes an event that occurred on a <a href="ThunarVfsMonitor.html#ThunarVfsMo
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585210"></a><h3>
+<a name="id2605032"></a><h3>
 <a name="ThunarVfsMonitorHandle"></a>ThunarVfsMonitorHandle</h3>
-<a class="indexterm" name="id2585223"></a><pre class="programlisting">typedef struct _ThunarVfsMonitorHandle ThunarVfsMonitorHandle;</pre>
+<a class="indexterm" name="id2605044"></a><pre class="programlisting">typedef struct _ThunarVfsMonitorHandle ThunarVfsMonitorHandle;</pre>
 <p>
 A handle on a file system entity, which is currently watched
-by a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.</p>
+by a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.</p>
 <p>
 
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585251"></a><h3>
+<a name="id2605073"></a><h3>
 <a name="ThunarVfsMonitorCallback"></a>ThunarVfsMonitorCallback ()</h3>
-<a class="indexterm" name="id2585265"></a><pre class="programlisting">void                (*ThunarVfsMonitorCallback)         (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *handle_path,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *event_path,
+<a class="indexterm" name="id2605086"></a><pre class="programlisting">void                (*ThunarVfsMonitorCallback)         (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *handle_path,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *event_path,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);</pre>
 <p>
-The prototype for callback functions that will be called by a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>
-whenever one of its associated <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>s notice a
+The prototype for callback functions that will be called by a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>
+whenever one of its associated <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>s notice a
 change.</p>
 <p>
 
@@ -186,32 +186,32 @@ change.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>handle</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>.
+<td><p><span class="term"><em class="parameter"><code>handle</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>event</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>event</code></em>&#160;:</span></p></td>
 <td> the event that occurred.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>handle_path</code></em>&#160;:</span></td>
-<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that was specified when registering the <em class="parameter"><code>handle</code></em>.
+<td><p><span class="term"><em class="parameter"><code>handle_path</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> that was specified when registering the <em class="parameter"><code>handle</code></em>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>event_path</code></em>&#160;:</span></td>
-<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> on which the <em class="parameter"><code>event</code></em> occurred.
+<td><p><span class="term"><em class="parameter"><code>event_path</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> on which the <em class="parameter"><code>event</code></em> occurred.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td> the user data that was specified when registering the <em class="parameter"><code>handle</code></em> with the <em class="parameter"><code>monitor</code></em>.
 </td>
 </tr>
@@ -220,11 +220,11 @@ change.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585503"></a><h3>
+<a name="id2605325"></a><h3>
 <a name="thunar-vfs-monitor-get-default"></a>thunar_vfs_monitor_get_default ()</h3>
-<a class="indexterm" name="id2585517"></a><pre class="programlisting"><a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a>*   thunar_vfs_monitor_get_default      (void);</pre>
+<a class="indexterm" name="id2605339"></a><pre class="programlisting"><a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a>*   thunar_vfs_monitor_get_default      (void);</pre>
 <p>
-Returns the shared <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a> instance. The caller
+Returns the shared <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a> instance. The caller
 is responsible to call <a
 href="../gobject/gobject-The-Base-Object-Type.html#g-object-unref"
 ><code class="function">g_object_unref()</code></a> on the returned
@@ -235,8 +235,8 @@ object when no longer needed.</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> a reference to the shared <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> a reference to the shared <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>
               instance.
 </td>
 </tr></tbody>
@@ -244,12 +244,12 @@ object when no longer needed.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585587"></a><h3>
+<a name="id2605408"></a><h3>
 <a name="thunar-vfs-monitor-add-directory"></a>thunar_vfs_monitor_add_directory ()</h3>
-<a class="indexterm" name="id2585600"></a><pre class="programlisting"><a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* thunar_vfs_monitor_add_directory
-                                                        (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
+<a class="indexterm" name="id2605422"></a><pre class="programlisting"><a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* thunar_vfs_monitor_add_directory
+                                                        (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);</pre>
@@ -259,8 +259,8 @@ Registers <em class="parameter"><code>path</code></em> as directory for <em clas
 <em class="parameter"><code>path</code></em> refers or any of the files within the directory.
 </p>
 <p>
-The returned <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> can be used to remove
-the <em class="parameter"><code>path</code></em> from <em class="parameter"><code>monitor</code></em> using <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove"><code class="function">thunar_vfs_monitor_remove()</code></a>.</p>
+The returned <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> can be used to remove
+the <em class="parameter"><code>path</code></em> from <em class="parameter"><code>monitor</code></em> using <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove"><code class="function">thunar_vfs_monitor_remove()</code></a>.</p>
 <p>
 
 </p>
@@ -268,28 +268,28 @@ the <em class="parameter"><code>path</code></em> from <em class="parameter"><cod
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
-<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> of the directory that should be watched.
+<td><p><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> of the directory that should be watched.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>callback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em>&#160;:</span></p></td>
 <td> the callback function to invoke.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td> additional data to pass to <em class="parameter"><code>callback</code></em>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for the new watch.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for the new watch.
 </td>
 </tr>
 </tbody>
@@ -297,11 +297,11 @@ the <em class="parameter"><code>path</code></em> from <em class="parameter"><cod
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2585828"></a><h3>
+<a name="id2605650"></a><h3>
 <a name="thunar-vfs-monitor-add-file"></a>thunar_vfs_monitor_add_file ()</h3>
-<a class="indexterm" name="id2585842"></a><pre class="programlisting"><a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* thunar_vfs_monitor_add_file     (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
+<a class="indexterm" name="id2605664"></a><pre class="programlisting"><a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a>* thunar_vfs_monitor_add_file     (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorCallback">ThunarVfsMonitorCallback</a> callback,
                                                          <a
 href="../glib/glib-Basic-Types.html#gpointer"
 >gpointer</a> user_data);</pre>
@@ -311,8 +311,8 @@ Registers <em class="parameter"><code>path</code></em> as file with <em class="p
 <em class="parameter"><code>path</code></em> refers.
 </p>
 <p>
-The returned <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> can be used to remove
-the <em class="parameter"><code>path</code></em> from <em class="parameter"><code>monitor</code></em> using <a href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove"><code class="function">thunar_vfs_monitor_remove()</code></a>.</p>
+The returned <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> can be used to remove
+the <em class="parameter"><code>path</code></em> from <em class="parameter"><code>monitor</code></em> using <a class="link" href="ThunarVfsMonitor.html#thunar-vfs-monitor-remove"><code class="function">thunar_vfs_monitor_remove()</code></a>.</p>
 <p>
 
 </p>
@@ -320,28 +320,28 @@ the <em class="parameter"><code>path</code></em> from <em class="parameter"><cod
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
-<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> of the file that should be watched.
+<td><p><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> of the file that should be watched.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>callback</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>callback</code></em>&#160;:</span></p></td>
 <td> the callback function to invoke.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em>&#160;:</span></p></td>
 <td> additional data to pass to <em class="parameter"><code>callback</code></em>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for the new watch.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for the new watch.
 </td>
 </tr>
 </tbody>
@@ -349,10 +349,10 @@ the <em class="parameter"><code>path</code></em> from <em class="parameter"><cod
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2586068"></a><h3>
+<a name="id2605889"></a><h3>
 <a name="thunar-vfs-monitor-remove"></a>thunar_vfs_monitor_remove ()</h3>
-<a class="indexterm" name="id2586081"></a><pre class="programlisting">void                thunar_vfs_monitor_remove           (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle);</pre>
+<a class="indexterm" name="id2605903"></a><pre class="programlisting">void                thunar_vfs_monitor_remove           (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle">ThunarVfsMonitorHandle</a> *handle);</pre>
 <p>
 Removes <em class="parameter"><code>handle</code></em> from <em class="parameter"><code>monitor</code></em>.</p>
 <p>
@@ -362,13 +362,13 @@ Removes <em class="parameter"><code>handle</code></em> from <em class="parameter
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>handle</code></em>&#160;:</span></td>
-<td> a valid <a href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for <em class="parameter"><code>monitor</code></em>.
+<td><p><span class="term"><em class="parameter"><code>handle</code></em>&#160;:</span></p></td>
+<td> a valid <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorHandle"><span class="type">ThunarVfsMonitorHandle</span></a> for <em class="parameter"><code>monitor</code></em>.
 </td>
 </tr>
 </tbody>
@@ -376,11 +376,11 @@ Removes <em class="parameter"><code>handle</code></em> from <em class="parameter
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2586188"></a><h3>
+<a name="id2606009"></a><h3>
 <a name="thunar-vfs-monitor-feed"></a>thunar_vfs_monitor_feed ()</h3>
-<a class="indexterm" name="id2586200"></a><pre class="programlisting">void                thunar_vfs_monitor_feed             (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
-                                                         <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
-                                                         <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
+<a class="indexterm" name="id2606022"></a><pre class="programlisting">void                thunar_vfs_monitor_feed             (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor,
+                                                         <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent">ThunarVfsMonitorEvent</a> event,
+                                                         <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath">ThunarVfsPath</a> *path);</pre>
 <p>
 Explicitly injects the given <em class="parameter"><code>event</code></em> into <em class="parameter"><code>monitor</code></em>s event
 processing logic.</p>
@@ -391,18 +391,18 @@ processing logic.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>event</code></em>&#160;:</span></td>
-<td> the <a href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent"><span class="type">ThunarVfsMonitorEvent</span></a> that should be emulated.
+<td><p><span class="term"><em class="parameter"><code>event</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="ThunarVfsMonitor.html#ThunarVfsMonitorEvent"><span class="type">ThunarVfsMonitorEvent</span></a> that should be emulated.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></td>
-<td> the <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> on which <em class="parameter"><code>event</code></em> took place.
+<td><p><span class="term"><em class="parameter"><code>path</code></em>&#160;:</span></p></td>
+<td> the <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> on which <em class="parameter"><code>event</code></em> took place.
 </td>
 </tr>
 </tbody>
@@ -410,9 +410,9 @@ processing logic.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2586341"></a><h3>
+<a name="id2606163"></a><h3>
 <a name="thunar-vfs-monitor-wait"></a>thunar_vfs_monitor_wait ()</h3>
-<a class="indexterm" name="id2586354"></a><pre class="programlisting">void                thunar_vfs_monitor_wait             (<a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor);</pre>
+<a class="indexterm" name="id2606176"></a><pre class="programlisting">void                thunar_vfs_monitor_wait             (<a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor">ThunarVfsMonitor</a> *monitor);</pre>
 <p>
 Suspends the execution of the current thread until the
 <em class="parameter"><code>monitor</code></em> has processed all currently pending events. The
@@ -427,12 +427,17 @@ or you'll lock up your application!!</p>
 <div class="variablelist"><table border="0">
 <col align="left" valign="top">
 <tbody><tr>
-<td><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
+<td><p><span class="term"><em class="parameter"><code>monitor</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMonitor.html" title="ThunarVfsMonitor"><span class="type">ThunarVfsMonitor</span></a>.
 </td>
 </tr></tbody>
 </table></div>
 </div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2606254"></a><div class="refsect2" lang="en"><a name="id2606255"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2606256"></a></div>
 </div>
 </div>
 </body>

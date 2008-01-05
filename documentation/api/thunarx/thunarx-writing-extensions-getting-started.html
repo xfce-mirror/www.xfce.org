@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Getting Started</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="up" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
 <link rel="prev" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
 <link rel="next" href="thunarx-writing-extensions-advanced-topics.html" title="Advanced topics">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
 <link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
@@ -30,7 +30,7 @@
 <div class="titlepage"><div><div><h2 class="title" style="clear: both">
 <a name="thunarx-writing-extensions-getting-started"></a>Getting Started</h2></div></div></div>
 <p>
-        Providers are <a href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>s loaded from shared libraries
+        Providers are <a class="link" href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>s loaded from shared libraries
         installed in <code class="filename">$libdir/thunarx-1/</code>. The shared libraries are linked against the
         <code class="systemitem">thunarx-1</code> library.
       </p>
@@ -39,14 +39,14 @@
         <code class="function">thunar_extension_shutdown()</code> and <code class="function">thunar_extension_list_types()</code>.
       </p>
 <p>
-        <code class="function">thunar_extension_initialize()</code> is passed a <a href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>
+        <code class="function">thunar_extension_initialize()</code> is passed a <a class="link" href="ThunarxProviderPlugin.html" title="ThunarxProviderPlugin"><span class="type">ThunarxProviderPlugin</span></a>
         object, and is responsible to register all GTypes required by the extension. <code class="function">thunar_extension_shutdown()</code> should
         perform any extension-specific shutdown required prior to unloading the extension. <code class="function">thunar_extension_list_types()</code>
         returns an array of GTypes that represent the types of the providers exported by the extension. Thunar will instantiate
         objects of those types when needed.
       </p>
 <div class="example">
-<a name="id2510274"></a><p class="title"><b>Example&#160;1.&#160;Basic Structure of an extension</b></p>
+<a name="id2530564"></a><p class="title"><b>Example&#160;1.&#160;Basic Structure of an extension</b></p>
 <div class="example-contents"><pre class="programlisting">
 #include &lt;gmodule.h&gt;
 #include &lt;thunarx/thunarx.h&gt;

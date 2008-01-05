@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Advanced topics</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar Extensions Reference Manual">
 <link rel="up" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
 <link rel="prev" href="thunarx-writing-extensions-getting-started.html" title="Getting Started">
 <link rel="next" href="thunarx-fundamentals.html" title="Part&#160;III.&#160;Fundamentals">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="thunarx-overview.html" title="Part&#160;I.&#160;Overview">
 <link rel="part" href="thunarx-writing-extensions.html" title="Part&#160;II.&#160;Writing Extensions">
@@ -47,11 +47,11 @@
         </p>
 <p>
           Such extensions must set the <code class="literal">resident</code> property of the provider plugin in its
-          <code class="function">thunar_extension_initialize()</code> function to <code class="literal">TRUE</code>, using the <a href="ThunarxProviderPlugin.html#thunarx-provider-plugin-set-resident"><code class="function">thunarx_provider_plugin_set_resident()</code></a>
+          <code class="function">thunar_extension_initialize()</code> function to <code class="literal">TRUE</code>, using the <a class="link" href="ThunarxProviderPlugin.html#thunarx-provider-plugin-set-resident"><code class="function">thunarx_provider_plugin_set_resident()</code></a>
           method.
         </p>
 <div class="example">
-<a name="id2555145"></a><p class="title"><b>Example&#160;2.&#160;Making an extension memory resident</b></p>
+<a name="id2574306"></a><p class="title"><b>Example&#160;2.&#160;Making an extension memory resident</b></p>
 <div class="example-contents"><pre class="programlisting">
 G_MODULE_EXPORT void
 thunar_extension_initialize (ThunarxProviderPlugin *plugin)

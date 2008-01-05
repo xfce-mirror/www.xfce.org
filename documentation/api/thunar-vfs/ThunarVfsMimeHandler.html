@@ -3,12 +3,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>ThunarVfsMimeHandler</title>
-<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
 <link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
 <link rel="up" href="mime-types.html" title="Part&#160;V.&#160;MIME Types">
 <link rel="prev" href="ThunarVfsMimeDatabase.html" title="ThunarVfsMimeDatabase">
 <link rel="next" href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication">
-<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
 <link rel="stylesheet" href="style.css" type="text/css">
 <link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
 <link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
@@ -28,22 +28,22 @@
 <th width="100%" align="center">Thunar-VFS Reference Manual</th>
 <td><a accesskey="n" href="ThunarVfsMimeApplication.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
 </tr>
-<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2596810" class="shortcut">Top</a>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2616658" class="shortcut">Top</a>
                   &#160;|&#160;
-                  <a href="#id2597201" class="shortcut">Description</a>
+                  <a href="#id2617049" class="shortcut">Description</a>
                   &#160;|&#160;
-                  <a href="#id2597071" class="shortcut">Object Hierarchy</a>
+                  <a href="#id2616919" class="shortcut">Object Hierarchy</a>
                   &#160;|&#160;
-                  <a href="#id2597111" class="shortcut">Properties</a></nobr></td></tr>
+                  <a href="#id2616959" class="shortcut">Properties</a></nobr></td></tr>
 </table>
 <div class="refentry" lang="en">
 <a name="ThunarVfsMimeHandler"></a><div class="titlepage"></div>
 <div class="refnamediv"><table width="100%"><tr>
 <td valign="top">
 <h2>
-<a name="id2596810"></a><span class="refentrytitle">ThunarVfsMimeHandler</span>
+<a name="id2616658"></a><span class="refentrytitle">ThunarVfsMimeHandler</span>
 </h2>
-<p>ThunarVfsMimeHandler &#8212; Abstract base class for <a href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> and <a href="ThunarVfsMimeAction.html" title="ThunarVfsMimeAction"><span class="type">ThunarVfsMimeAction</span></a>.</p>
+<p>ThunarVfsMimeHandler &#8212; Abstract base class for <a class="link" href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication"><span class="type">ThunarVfsMimeApplication</span></a> and <a class="link" href="ThunarVfsMimeAction.html" title="ThunarVfsMimeAction"><span class="type">ThunarVfsMimeAction</span></a>.</p>
 </td>
 <td valign="top" align="right"></td>
 </tr></table></div>
@@ -54,19 +54,19 @@
 #include &lt;thunar-vfs/thunar-vfs.h&gt;
 
 
-enum                <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>;
-                    <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler-struct">ThunarVfsMimeHandler</a>;
+enum                <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>;
+                    <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler-struct">ThunarVfsMimeHandler</a>;
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-command">thunar_vfs_mime_handler_get_command</a> (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
-<a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a> <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-flags">thunar_vfs_mime_handler_get_flags</a>
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
+>gchar</a>*        <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-command">thunar_vfs_mime_handler_get_command</a> (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
+<a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a> <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-flags">thunar_vfs_mime_handler_get_flags</a>
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-name">thunar_vfs_mime_handler_get_name</a>    (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
+>gchar</a>*        <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-get-name">thunar_vfs_mime_handler_get_name</a>    (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec">thunar_vfs_mime_handler_exec</a>        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+>gboolean</a>            <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec">thunar_vfs_mime_handler_exec</a>        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gdk/GdkScreen.html"
 >GdkScreen</a> *screen,
@@ -78,8 +78,8 @@ href="../glib/glib-Error-Reporting.html#GError"
 >GError</a> **error);
 <a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec-with-env">thunar_vfs_mime_handler_exec_with_env</a>
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+>gboolean</a>            <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec-with-env">thunar_vfs_mime_handler_exec_with_env</a>
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gdk/GdkScreen.html"
 >GdkScreen</a> *screen,
@@ -94,8 +94,8 @@ href="../glib/glib-Error-Reporting.html#GError"
 >GError</a> **error);
 const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-lookup-icon-name">thunar_vfs_mime_handler_lookup_icon_name</a>
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+>gchar</a>*        <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-lookup-icon-name">thunar_vfs_mime_handler_lookup_icon_name</a>
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gtk/GtkIconTheme.html"
 >GtkIconTheme</a> *icon_theme);
@@ -104,45 +104,45 @@ href="../gtk/GtkIconTheme.html"
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2597071"></a><h2>Object Hierarchy</h2>
+<a name="id2616919"></a><h2>Object Hierarchy</h2>
 <pre class="synopsis">
 
   <a
 href="../gobject/gobject-The-Base-Object-Type.html#GObject"
 >GObject</a>
    +----ThunarVfsMimeHandler
-         +----<a href="ThunarVfsMimeAction.html" title="ThunarVfsMimeAction">ThunarVfsMimeAction</a>
-         +----<a href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>
+         +----<a class="link" href="ThunarVfsMimeAction.html" title="ThunarVfsMimeAction">ThunarVfsMimeAction</a>
+         +----<a class="link" href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2597111"></a><h2>Properties</h2>
+<a name="id2616959"></a><h2>Properties</h2>
 <pre class="synopsis">
 
-  "<a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--command">command</a>"                  <a
+  "<a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--command">command</a>"                  <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only
-  "<a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--flags">flags</a>"                    <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>  : Read / Write / Construct Only
-  "<a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--icon">icon</a>"                     <a
+  "<a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--flags">flags</a>"                    <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>  : Read / Write / Construct Only
+  "<a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--icon">icon</a>"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only
-  "<a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--name">name</a>"                     <a
+  "<a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler--name">name</a>"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only
 </pre>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2597201"></a><h2>Description</h2>
+<a name="id2617049"></a><h2>Description</h2>
 <p>
 
 </p>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2597215"></a><h2>Details</h2>
+<a name="id2617064"></a><h2>Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2597226"></a><h3>
+<a name="id2617074"></a><h3>
 <a name="ThunarVfsMimeHandlerFlags"></a>enum ThunarVfsMimeHandlerFlags</h3>
-<a class="indexterm" name="id2597238"></a><pre class="programlisting">typedef enum /*&lt; flags &gt;*/
+<a class="indexterm" name="id2617086"></a><pre class="programlisting">typedef enum /*&lt; flags &gt;*/
 {
   THUNAR_VFS_MIME_HANDLER_HIDDEN                  = (1 &lt;&lt; 0L),
   THUNAR_VFS_MIME_HANDLER_REQUIRES_TERMINAL       = (1 &lt;&lt; 1L),
@@ -152,7 +152,7 @@ href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 } ThunarVfsMimeHandlerFlags;
 </pre>
 <p>
-Various flags associated with a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
+Various flags associated with a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
 <p>
 
 </p>
@@ -160,27 +160,27 @@ Various flags associated with a <a href="ThunarVfsMimeHandler.html" title="Thuna
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-HIDDEN:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_HIDDEN</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-HIDDEN:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_HIDDEN</code></span></p></td>
 <td> the handler should not be displayed in the menu system.
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-REQUIRES-TERMINAL:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_REQUIRES_TERMINAL</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-REQUIRES-TERMINAL:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_REQUIRES_TERMINAL</code></span></p></td>
 <td> the handler must be run in a terminal.
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-STARTUP-NOTIFY:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_STARTUP_NOTIFY</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-STARTUP-NOTIFY:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_STARTUP_NOTIFY</code></span></p></td>
 <td> the handler supports startup notification.
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-MULTI:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_MULTI</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-MULTI:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_MULTI</code></span></p></td>
 <td> the handler supports opening multiple documents at once (<code class="literal">F</code> or <code class="literal">U</code>).
 </td>
 </tr>
 <tr>
-<td><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-URIS:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_URIS</code></span></td>
+<td><p><span class="term"><a name="THUNAR-VFS-MIME-HANDLER-SUPPORTS-URIS:CAPS"></a><code class="literal">THUNAR_VFS_MIME_HANDLER_SUPPORTS_URIS</code></span></p></td>
 <td> the handler supports opening URIs (<code class="literal">u</code> or <code class="literal">U</code>).
 </td>
 </tr>
@@ -189,21 +189,21 @@ Various flags associated with a <a href="ThunarVfsMimeHandler.html" title="Thuna
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2597440"></a><h3>
+<a name="id2617288"></a><h3>
 <a name="ThunarVfsMimeHandler-struct"></a>ThunarVfsMimeHandler</h3>
-<a class="indexterm" name="id2597453"></a><pre class="programlisting">typedef struct _ThunarVfsMimeHandler ThunarVfsMimeHandler;</pre>
+<a class="indexterm" name="id2617301"></a><pre class="programlisting">typedef struct _ThunarVfsMimeHandler ThunarVfsMimeHandler;</pre>
 <p>
-  The <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler-struct"><span class="type">ThunarVfsMimeHandler</span></a> contains private data only, and should
+  The <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandler-struct"><span class="type">ThunarVfsMimeHandler</span></a> contains private data only, and should
   be accessed using the functions below.
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2597479"></a><h3>
+<a name="id2617327"></a><h3>
 <a name="thunar-vfs-mime-handler-get-command"></a>thunar_vfs_mime_handler_get_command ()</h3>
-<a class="indexterm" name="id2597494"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2617342"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        thunar_vfs_mime_handler_get_command (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
+>gchar</a>*        thunar_vfs_mime_handler_get_command (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
 <p>
 Returns the command associated with <em class="parameter"><code>mime_handler</code></em>.</p>
 <p>
@@ -213,12 +213,12 @@ Returns the command associated with <em class="parameter"><code>mime_handler</co
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the command associated with <em class="parameter"><code>mime_handler</code></em>.
 </td>
 </tr>
@@ -227,12 +227,12 @@ Returns the command associated with <em class="parameter"><code>mime_handler</co
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2597577"></a><h3>
+<a name="id2617425"></a><h3>
 <a name="thunar-vfs-mime-handler-get-flags"></a>thunar_vfs_mime_handler_get_flags ()</h3>
-<a class="indexterm" name="id2597591"></a><pre class="programlisting"><a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a> thunar_vfs_mime_handler_get_flags
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
+<a class="indexterm" name="id2617439"></a><pre class="programlisting"><a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a> thunar_vfs_mime_handler_get_flags
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
 <p>
-Returns the <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for <em class="parameter"><code>mime_handler</code></em>.</p>
+Returns the <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for <em class="parameter"><code>mime_handler</code></em>.</p>
 <p>
 
 </p>
@@ -240,13 +240,13 @@ Returns the <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span 
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
-<td> the <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for <em class="parameter"><code>mime_handler</code></em>.
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> the <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for <em class="parameter"><code>mime_handler</code></em>.
 </td>
 </tr>
 </tbody>
@@ -254,11 +254,11 @@ Returns the <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span 
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2597691"></a><h3>
+<a name="id2617539"></a><h3>
 <a name="thunar-vfs-mime-handler-get-name"></a>thunar_vfs_mime_handler_get_name ()</h3>
-<a class="indexterm" name="id2597704"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2617552"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
->gchar</a>*        thunar_vfs_mime_handler_get_name    (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
+>gchar</a>*        thunar_vfs_mime_handler_get_name    (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler);</pre>
 <p>
 Returns the name of <em class="parameter"><code>mime_handler</code></em>.</p>
 <p>
@@ -268,12 +268,12 @@ Returns the name of <em class="parameter"><code>mime_handler</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the name of <em class="parameter"><code>mime_handler</code></em>.
 </td>
 </tr>
@@ -282,11 +282,11 @@ Returns the name of <em class="parameter"><code>mime_handler</code></em>.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2597787"></a><h3>
+<a name="id2617636"></a><h3>
 <a name="thunar-vfs-mime-handler-exec"></a>thunar_vfs_mime_handler_exec ()</h3>
-<a class="indexterm" name="id2597801"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2617649"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
->gboolean</a>            thunar_vfs_mime_handler_exec        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+>gboolean</a>            thunar_vfs_mime_handler_exec        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gdk/GdkScreen.html"
 >GdkScreen</a> *screen,
@@ -297,7 +297,7 @@ href="../glib/glib-Doubly-Linked-Lists.html#GList"
 href="../glib/glib-Error-Reporting.html#GError"
 >GError</a> **error);</pre>
 <p>
-Wrapper to <a href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec-with-env"><code class="function">thunar_vfs_mime_handler_exec_with_env()</code></a>, which
+Wrapper to <a class="link" href="ThunarVfsMimeHandler.html#thunar-vfs-mime-handler-exec-with-env"><code class="function">thunar_vfs_mime_handler_exec_with_env()</code></a>, which
 simply passes a <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> pointer for the environment variables.</p>
@@ -308,12 +308,12 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gdk/GdkScreen.html"
 ><span class="type">GdkScreen</span></a> or <a
@@ -322,19 +322,19 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
-<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
+<td><p><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></p></td>
+<td> a list of <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></p></td>
 <td> return location for errors or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if the execution succeed, else <a
@@ -347,12 +347,12 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2598017"></a><h3>
+<a name="id2617866"></a><h3>
 <a name="thunar-vfs-mime-handler-exec-with-env"></a>thunar_vfs_mime_handler_exec_with_env ()</h3>
-<a class="indexterm" name="id2598031"></a><pre class="programlisting"><a
+<a class="indexterm" name="id2617879"></a><pre class="programlisting"><a
 href="../glib/glib-Basic-Types.html#gboolean"
 >gboolean</a>            thunar_vfs_mime_handler_exec_with_env
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gdk/GdkScreen.html"
 >GdkScreen</a> *screen,
@@ -367,9 +367,9 @@ href="../glib/glib-Error-Reporting.html#GError"
 >GError</a> **error);</pre>
 <p>
 Executes <em class="parameter"><code>mime_handler</code></em> on <em class="parameter"><code>screen</code></em> using the given <em class="parameter"><code>path_list</code></em>. If
-<em class="parameter"><code>path_list</code></em> contains more than one <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> and <em class="parameter"><code>mime_handler</code></em>
+<em class="parameter"><code>path_list</code></em> contains more than one <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a> and <em class="parameter"><code>mime_handler</code></em>
 doesn't support opening multiple documents at once, one
-instance of <em class="parameter"><code>mime_handler</code></em> will be spawned for every <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>
+instance of <em class="parameter"><code>mime_handler</code></em> will be spawned for every <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>
 given in <em class="parameter"><code>path_list</code></em>.</p>
 <p>
 
@@ -378,12 +378,12 @@ given in <em class="parameter"><code>path_list</code></em>.</p>
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>screen</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gdk/GdkScreen.html"
 ><span class="type">GdkScreen</span></a> or <a
@@ -392,26 +392,26 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></td>
-<td> a list of <a href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
+<td><p><span class="term"><em class="parameter"><code>path_list</code></em>&#160;:</span></p></td>
+<td> a list of <a class="link" href="thunar-vfs-ThunarVfsPath.html#ThunarVfsPath"><span class="type">ThunarVfsPath</span></a>s to open.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>envp</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>envp</code></em>&#160;:</span></p></td>
 <td> child's environment or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> to inherit parent's.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>error</code></em>&#160;:</span></p></td>
 <td> return location for errors or <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> <a
 href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
 ><code class="literal">TRUE</code></a> if the execution succeed, else <a
@@ -424,12 +424,12 @@ href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2598319"></a><h3>
+<a name="id2618167"></a><h3>
 <a name="thunar-vfs-mime-handler-lookup-icon-name"></a>thunar_vfs_mime_handler_lookup_icon_name ()</h3>
-<a class="indexterm" name="id2598333"></a><pre class="programlisting">const <a
+<a class="indexterm" name="id2618181"></a><pre class="programlisting">const <a
 href="../glib/glib-Basic-Types.html#gchar"
 >gchar</a>*        thunar_vfs_mime_handler_lookup_icon_name
-                                                        (const <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
+                                                        (const <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler">ThunarVfsMimeHandler</a> *mime_handler,
                                                          <a
 href="../gtk/GtkIconTheme.html"
 >GtkIconTheme</a> *icon_theme);</pre>
@@ -453,19 +453,19 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 <col align="left" valign="top">
 <tbody>
 <tr>
-<td><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></td>
-<td> a <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
+<td><p><span class="term"><em class="parameter"><code>mime_handler</code></em>&#160;:</span></p></td>
+<td> a <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><em class="parameter"><code>icon_theme</code></em>&#160;:</span></td>
+<td><p><span class="term"><em class="parameter"><code>icon_theme</code></em>&#160;:</span></p></td>
 <td> a <a
 href="../gtk/GtkIconTheme.html"
 ><span class="type">GtkIconTheme</span></a>.
 </td>
 </tr>
 <tr>
-<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
 <td> the icon name for <em class="parameter"><code>mime_handler</code></em> or
               <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
@@ -477,15 +477,15 @@ href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2598502"></a><h2>Property Details</h2>
+<a name="id2618351"></a><h2>Property Details</h2>
 <div class="refsect2" lang="en">
-<a name="id2598513"></a><h3>
-<a name="ThunarVfsMimeHandler--command"></a>The "<code class="literal">command</code>" property</h3>
-<a class="indexterm" name="id2598529"></a><pre class="programlisting">  "command"                  <a
+<a name="id2618361"></a><h3>
+<a name="ThunarVfsMimeHandler--command"></a>The <code class="literal">"command"</code> property</h3>
+<a class="indexterm" name="id2618378"></a><pre class="programlisting">  "command"                  <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only</pre>
 <p>
-The command line for this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
+The command line for this <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
 <p>
 
 </p>
@@ -493,24 +493,24 @@ The command line for this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMi
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2598568"></a><h3>
-<a name="ThunarVfsMimeHandler--flags"></a>The "<code class="literal">flags</code>" property</h3>
-<a class="indexterm" name="id2598584"></a><pre class="programlisting">  "flags"                    <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>  : Read / Write / Construct Only</pre>
+<a name="id2618416"></a><h3>
+<a name="ThunarVfsMimeHandler--flags"></a>The <code class="literal">"flags"</code> property</h3>
+<a class="indexterm" name="id2618432"></a><pre class="programlisting">  "flags"                    <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags">ThunarVfsMimeHandlerFlags</a>  : Read / Write / Construct Only</pre>
 <p>
-The <a href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
+The <a class="link" href="ThunarVfsMimeHandler.html#ThunarVfsMimeHandlerFlags"><span class="type">ThunarVfsMimeHandlerFlags</span></a> for this <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
 <p>
 
 </p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2598628"></a><h3>
-<a name="ThunarVfsMimeHandler--icon"></a>The "<code class="literal">icon</code>" property</h3>
-<a class="indexterm" name="id2598645"></a><pre class="programlisting">  "icon"                     <a
+<a name="id2618476"></a><h3>
+<a name="ThunarVfsMimeHandler--icon"></a>The <code class="literal">"icon"</code> property</h3>
+<a class="indexterm" name="id2618493"></a><pre class="programlisting">  "icon"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only</pre>
 <p>
-The icon of this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>, which can be either
+The icon of this <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>, which can be either
 <a
 href="../glib/glib-Standard-Macros.html#NULL:CAPS"
 ><code class="literal">NULL</code></a> in which case no icon is known, an absolute path to
@@ -522,13 +522,13 @@ an icon file, or a named icon.</p>
 </div>
 <hr>
 <div class="refsect2" lang="en">
-<a name="id2598696"></a><h3>
-<a name="ThunarVfsMimeHandler--name"></a>The "<code class="literal">name</code>" property</h3>
-<a class="indexterm" name="id2598712"></a><pre class="programlisting">  "name"                     <a
+<a name="id2618544"></a><h3>
+<a name="ThunarVfsMimeHandler--name"></a>The <code class="literal">"name"</code> property</h3>
+<a class="indexterm" name="id2618559"></a><pre class="programlisting">  "name"                     <a
 href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
 >gchararray</a>            : Read / Write / Construct Only</pre>
 <p>
-The name of this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
+The name of this <a class="link" href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler"><span class="type">ThunarVfsMimeHandler</span></a>.</p>
 <p>
 
 </p>
@@ -536,11 +536,16 @@ The name of this <a href="ThunarVfsMimeHandler.html" title="ThunarVfsMimeHandler
 </div>
 </div>
 <div class="refsect1" lang="en">
-<a name="id2598752"></a><h2>See Also</h2>
+<a name="id2618599"></a><h2>See Also</h2>
 <p>
-  <a href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>
+  <a class="link" href="ThunarVfsMimeApplication.html" title="ThunarVfsMimeApplication">ThunarVfsMimeApplication</a>
   and ThunarVfsMimeAction
 </p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2618623"></a><div class="refsect2" lang="en"><a name="id2618624"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2618626"></a></div>
 </div>
 </div>
 </body>
