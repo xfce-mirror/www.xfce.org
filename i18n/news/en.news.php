@@ -32,7 +32,7 @@ $news = array (
         'date'    => '4 mar 2008',
         'author'  => 'Brian Tarricone',
         'title'   => 'Google Summer of Code 2008',
-        'content' => "While we haven't been aceepted into the program yet, we're applying to participate in the 2008 [url=http://code.google.com/soc/]Google Summer of Code[/url] as a mentoring organization.  Please see [url=http://wiki.xfce.org/gsoc-2008-ideas]our wiki page[/url] for more information, and add your name to the students list if you'd like to work on one of the projects.  Feel free to add to the project ideas list as well.",
+        'content' => "While we haven't been accepted into the program yet, we're applying to participate in the 2008 [url=http://code.google.com/soc/]Google Summer of Code[/url] as a mentoring organization.  Please see [url=http://wiki.xfce.org/gsoc-2008-ideas]our wiki page[/url] for more information, and add your name to the students list if you'd like to work on one of the projects.  Feel free to add to the project ideas list as well.",
     ),
     array (
         'id'      => 13,
