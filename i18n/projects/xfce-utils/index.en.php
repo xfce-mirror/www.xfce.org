@@ -15,7 +15,7 @@
 
 <h2>External Links</h2>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce-utils%2F&amp;rev=0&amp;sc=0#/xfce-utils/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce-utils/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce-utils/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-utils/trunk xfce-utils</code></p>
 

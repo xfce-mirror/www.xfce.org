@@ -8,7 +8,7 @@ prestatu eta sortzean.
 <h2>Kanpo Loturak</h2>
 <p><a class="external" target="_blank" href="http://xarchiver.xfce.org/">Webgunea</a></p>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxarchiver%2F&amp;rev=0&amp;sc=0#/xarchiver/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xarchiver/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xarchiver/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xarchiver/trunk xarchiver</code></p>
 

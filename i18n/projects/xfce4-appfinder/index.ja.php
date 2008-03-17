@@ -8,7 +8,7 @@
 
 <h2>外部リンク</h2>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-appfinder%2F&amp;rev=0&amp;sc=0#/xfce4-appfinder/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-appfinder/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-appfinder/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code></p>
 

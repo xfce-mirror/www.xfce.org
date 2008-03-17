@@ -50,7 +50,7 @@
 <h2>Externe Links</h2>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" target="_blank" class="external">Paneel plugins</a> van de Goodies Project pagina</p>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-panel%2F&amp;rev=0&amp;sc=0#/xfce4-panel/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
 

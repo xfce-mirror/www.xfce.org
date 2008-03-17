@@ -22,7 +22,7 @@
 <p>Ky zbatim qarkullon si pjesë e Mjedisit Desktop Xfce.</p>
 <h3>Subversion</h3>
 <p>
-  <a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Fxfce4-mixer%2F&amp;rev=0&amp;sc=0#/xfce4-mixer/">WebSVN</a><br />
+  <a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
 </p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></p>

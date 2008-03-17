@@ -14,17 +14,17 @@
 
 <h2>External Links</h2>
 <h3>libxfce4util</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Flibxfce4util%2F&amp;rev=0&amp;sc=0#/libxfce4util/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/libxfce4util/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/libxfce4util/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfce4util/trunk libxfce4util</code></p>
 
 <h3>libxfcegui4</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Flibxfcegui4%2F&amp;rev=0&amp;sc=0#/libxfcegui4/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/libxfcegui4/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/libxfcegui4/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfcegui4/trunk libxfcegui4</code></p>
 
 <h3>libxfce4mcs</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/listing.php?repname=xfce4&amp;path=%2Flibxfce4mcs%2F&amp;rev=0&amp;sc=0#/libxfce4mcs/">WebSVN</a><br />
+<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/libxfce4mcs/trunk">WebSVN</a><br />
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/libxfce4mcs/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfce4mcs/trunk libxfce4mcs</code></p>
 
