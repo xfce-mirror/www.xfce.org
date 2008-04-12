@@ -1,8 +1,8 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" /></div>
 
 <h1>打印助手</h1>
-<p>打印助手是printing的图形前端，是一个打印管理器和一个打印队列管理器。
-  你无法通过它来设置打印机，你只能使用已经预先配置好的打印系统。</p>
+<p>打印助手是 printing 的图形前端，是一个打印管理器和一个打印队列管理器。
+  您无法通过它来设置打印机，您只能使用已经预先配置好的打印系统。</p>
 
 <h2>支持后端</h2>
 <ul>

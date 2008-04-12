@@ -5,6 +5,6 @@
 		</div>
 	</p>
 	<p class="grey">
-		如果您使用了AdBlock (Plus)，您将无法看到搜索结果，您可能需要开启AdBlock插件中的Google AdSence。
+		如果您使用了 AdBlock (Plus)，您将无法看到搜索结果，您可能需要开启 AdBlock 插件中的 Google AdSence。
 	</p>
 </div>

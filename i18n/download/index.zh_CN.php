@@ -2,15 +2,15 @@
     include ("version.php");
 ?>
 <h1>下载稳定版本 (<?php echo $version; ?>) </h1>
-<p>大多数发行版带有Xfce。但如果您想要更新的版本或者您想要从头开始编译Xfce，您可以从下方找到这些软件包。您也可以<a href="/download/distros">在此</a>看一看以Xfce做为默认桌面的发行版。</p>
+<p>大多数发行版带有 Xfce。但如果您想要更新的版本或者您想要从头开始编译 Xfce，您可以从下方找到这些软件包。您也可以<a href="/download/distros">在此</a>看一看以 Xfce 做为默认桌面的发行版。</p>
 
 <h2 id="source">源代码</h2>
-<p>所有Xfce模块都可以从我们的SourceForge仓库和一些镜像站点中以单个源代码tarball包的形式得到，（在单独一个源代码tarball<em>或者</em>分开的源代码tarball包中）：</p>
+<p>所有 Xfce 模块都可以从我们的 SourceForge 仓库和一些镜像站点中以单个源代码压缩包的形式得到，(在单独一个源代码压缩包<em>或者</em>分开的源代码压缩包中)：</p>
 <?php printServers("", $servers); ?>
 
 
 <h2 id="installer">图形安装程序</h2>
-<p>Xfce-Installers是软件包的一个总集，它能明显地使Xfce和一些扩展的安装进程简单化的。<a href="/documentation/installers/xfce/index.html">在此</a>阅读更多关于安装工具的信息。</p>
+<p>Xfce-Installers 是软件包的一个总集，它能明显地使 Xfce 和一些扩展的安装进程简单化的。<a href="/documentation/installers/xfce/index.html">在此</a>阅读更多关于安装工具的信息。</p>
 <?php printServers("installers", $servers); ?>
 
 
@@ -33,7 +33,7 @@
   <tr>
     <td><img src="../../images/download/suse.png" alt="Suse" width="40" height="40" /></td>
     <td><strong>openSUSE (SUSE Linux)</strong><br />
-      <a href="http://en.opensuse.org/X11:xfce" target="_blank">Repositories for openSUSE (SUSE Linux)</a></td>
+      <a href="http://en.opensuse.org/X11:xfce" target="_blank">openSUSE (SUSE Linux) 软件仓库</a></td>
   </tr>
   <tr>
     <td><img src="../../images/download/mandriva.png" alt="Mandriva" width="40" height="40" /></td>

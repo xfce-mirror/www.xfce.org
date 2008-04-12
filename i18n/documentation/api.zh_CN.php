@@ -1,5 +1,5 @@
-<h1>Xfce API文档</h1>
-<p>以下是Xfce 4.4的各种库的API文档。这些文档是与GTK+参考手册相互参照的，你可以在<a href="http://gtk.org/api/">这里</a>找到GTK的手册。</p>
+<h1>Xfce API 文档</h1>
+<p>以下是 Xfce 4.4 的各种库的 API 文档。这些文档是与 GTK+ 参考手册相互参照的，您可以在<a href="http://gtk.org/api/">这里</a>找到 GTK+ 的手册。</p>
 
 <ul>
     <li><a href="/documentation/api/libxfce4mcs/">libxfce4mcs</a> (<a href="/documentation/api/libxfce4mcs-docs.tar.gz">tarball</a>)</li>

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function at(){
   echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
 }
@@ -39,7 +39,7 @@ include 'include/credits.php';
 <h2 id="contributors">贡献者</h2>
 <table width="99%">
     <tr>
-        <td colspan="2"><strong>以下各位经常贡献补丁、想法、bug fixes以及新代码：</strong></td>
+        <td colspan="2"><strong>以下各位经常贡献补丁、想法、bug 修复以及新代码：</strong></td>
     </tr>
     <tr>
         <th colspan="2"><h3>活动贡献者</h3></th>
@@ -55,7 +55,7 @@ include 'include/credits.php';
 <h2 id="goodies">Goodies</h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Goodies监督</h3></th>
+        <th align="left"><h3>Goodies 监督</h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Jannis Pohlmann [jannis<?php at(); ?>xfce.org]</td>

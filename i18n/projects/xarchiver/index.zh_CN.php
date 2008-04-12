@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" /></div>
 
 <h1>归档管理器</h1>
-<p>它是许多工具的轻量级图形前端，包括7zip、bzip2、gzip、rar、zip等等，它只要求GTK+环境。它能助你快速解压或创建压缩文件。</p>
+<p>它是许多工具的轻量级图形前端，包括 7zip、bzip2、gzip、rar、zip 等等，它只要求 GTK+ 环境。它能助您快速解压或创建压缩文件。</p>
 
 <h2>外部链接</h2>
 <p><a class="external" target="_blank" href="http://xarchiver.xfce.org/">主页</a></p>

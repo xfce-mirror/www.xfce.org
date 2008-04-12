@@ -11,10 +11,10 @@ $breadcrumbs = array (
     "irc"              => "IRC",
     "faq"              => "FAQs",
     "userguide"        => "用户指南",
-    "api"              => "开发者(API)",
-    "tour"             => "Xfce 4.4概览",
-    "search"           => "Google搜索",
-    "distros"          => "以Xfce做为默认桌面的发行版",
+    "api"              => "开发者 (API)",
+    "tour"             => "Xfce 4.4 概览",
+    "search"           => "Google 搜索",
+    "distros"          => "以 Xfce 做为默认桌面的发行版",
     
     # Common Xfce components
     "xfce4-panel"      => "面板",
@@ -28,13 +28,13 @@ $breadcrumbs = array (
     "xffm"             => "文件管理器",
     "xfce4-appfinder"  => "程序查找器",
     "xfce4-mixer"      => "音量控制",
-    "xfce4-terminal"   => "Xfce4终端",
-    "xfce4-dev-tools"  => "Xfce开发工具",
+    "xfce4-terminal"   => "Xfce4 终端",
+    "xfce4-dev-tools"  => "Xfce 开发工具",
     "xarchive"         => "归档管理器",
     "xfc"              => "Xfce Foundation Classes",
-    "xfce-gtk-engine"  => "GTK主题引擎",
-    "dbh"              => "Disk Based Hashtables",
-    "installit"        => "InstallIt"
+    "xfce-gtk-engine"  => "GTK 主题引擎",
+    "dbh"              => "基于磁盘的哈希表",
+    "installit"        => "安装它"
 );
 
 ?>

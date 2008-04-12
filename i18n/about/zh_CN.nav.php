@@ -1,9 +1,9 @@
-﻿<ul>
+<ul>
 	<li><a href="/about/">关于</a></li>
 	<li><a href="/about/features">特性</a></li>
-	<li><a href="/about/tour">Xfce 4.4漫游</a>
+	<li><a href="/about/tour">Xfce 4.4 漫游</a>
 		<ul>
-			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunar特性</a></li>
+			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunar 特性</a></li>
 		</ul>
 	</li>
 	<li><a href="/about/news">新闻</a></li>

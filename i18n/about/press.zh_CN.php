@@ -1,11 +1,11 @@
-﻿<h1>新闻中的Xfce</h1>
-<p>在这你可以找到很多有关Xfce桌面环境的评论。</p>
+<h1>新闻中的 Xfce</h1>
+<p>在这您可以找到很多有关 Xfce 桌面环境的评论。</p>
 <h2>2006</h2>
 <table width="99%">
   <tr>
-    <th width="20%" align="left"><h3>Date</h3></th>
-    <th width="20%" align="left"><h3>Website</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="20%" align="left"><h3>日期</h3></th>
+    <th width="20%" align="left"><h3>网站</h3></th>
+    <th width="60%" align="left"><h3>链接</h3></th>
   </tr>
   <tr>
     <td align="left">2006-06-09</td>
@@ -26,9 +26,9 @@
 <h2>2005</h2>
 <table width="99%">
   <tr>
-    <th width="20%" align="left"><h3>Date</h3></th>
-    <th width="20%" align="left"><h3>Website</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="20%" align="left"><h3>日期</h3></th>
+    <th width="20%" align="left"><h3>网站</h3></th>
+    <th width="60%" align="left"><h3>链接</h3></th>
   </tr>
   <tr>
     <td align="left">2005-10-01</td>
@@ -44,9 +44,9 @@
 <h2>2004</h2>
 <table width="99%">
   <tr>
-    <th width="20%" align="left"><h3>Date</h3></th>
-    <th width="20%" align="left"><h3>Website</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="20%" align="left"><h3>日期</h3></th>
+    <th width="20%" align="left"><h3>网站</h3></th>
+    <th width="60%" align="left"><h3>链接</h3></th>
   </tr>
   <tr>
     <td>2004-11-24</td>
@@ -72,9 +72,9 @@
 <h2>2003</h2>
 <table width="99%">
   <tr>
-    <th width="20%" align="left"><h3>Date</h3></th>
-    <th width="20%" align="left"><h3>Website</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="20%" align="left"><h3>日期</h3></th>
+    <th width="20%" align="left"><h3>网站</h3></th>
+    <th width="60%" align="left"><h3>链接</h3></th>
   </tr>
   <tr>
     <td>2003-12-22</td>
@@ -90,9 +90,9 @@
 <h2>2002</h2>
 <table width="99%">
   <tr>
-    <th width="20%" align="left"><h3>Date</h3></th>
-    <th width="20%" align="left"><h3>Website</h3></th>
-    <th width="60%" align="left"><h3>Link</h3></th>
+    <th width="20%" align="left"><h3>日期</h3></th>
+    <th width="20%" align="left"><h3>网站</h3></th>
+    <th width="60%" align="left"><h3>链接</h3></th>
   </tr>
   <tr>
     <td>2002-02-07</td>

@@ -1,8 +1,8 @@
-﻿<?php
+<?php
 	$top=true;
 ?>
 <h1>项目</h1>
-<p>Xfce项目包含许多用于桌面不同部分独立项目。每个项目都有其自己的页面来提供更多信息。</p>
+<p>Xfce 项目包含许多用于桌面不同部分独立项目。每个项目都有其自己的页面来提供更多信息。</p>
 
 <h2 id="core">核心组件</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -19,7 +19,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-panel/">面板</a></h3>
-			<p>Xfce 4面板是Xfce 4桌面环境的一部分，用于放置程序启动器、菜单、时钟、桌面切换器以及其他。</p>
+			<p>Xfce 4 面板是 Xfce 4 桌面环境的一部分，用于放置程序启动器、菜单、时钟、桌面切换器以及其他。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
@@ -35,20 +35,20 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-session/">会话管理器</a></h3>
-			<p>会话管理器控制Xfce桌面环境开关机。</p>
+			<p>会话管理器控制 Xfce 桌面环境开关机。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">打印助手</a></h3>
-			<p>提供打印图形前端。Xfprint可以使用CUPS、BSD-LPR或一个文件作为目的文件，打印机会从你所选的打印系统中重新找回。</p>
+			<p>提供打印图形前端。Xfprint 可以使用 CUPS、BSD-LPR 或一个文件作为目的文件，打印机会从您所选的打印系统中重新找回。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 		<h3><a href="/projects/xfce-mcs-manager/">设置管理器</a></h3>
-			<p>这是Xfce的配置系统，它在后台运行，为其他Xfce组件提供全局设置信息。</p>
+			<p>这是 Xfce 的配置系统，它在后台运行，为其他 Xfce 组件提供全局设置信息。</p>
 		</td>
 	</tr>
 	<tr>
@@ -64,7 +64,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce库</a></h3>
-			<p>Xfce有三个基本的库(libxfcegui4, libxfce4mcs and libxfce4utils)，这三个库几乎被所有Xfce程序用到。</p>
+			<p>Xfce 有三个基本的库 (libxfcegui4, libxfce4mcs and libxfce4utils)，这三个库几乎被所有 Xfce 程序用到。</p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
 		<td width="33%" valign="top">&nbsp;</td>
@@ -79,21 +79,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
-			<p>Mousepad是用于Xfce的文本编辑器，它基于Leafpad。最初创建它的动机是想提供在Leafpad上难以实现的打印支持。</p>
+			<p>Mousepad 是用于 Xfce 的文本编辑器，它基于 Leafpad。最初创建它的动机是想提供在 Leafpad 上难以实现的打印支持。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt是将著名的Xfce安装程序转换成通用软件管理安装工具的官方实现。它使用Python语言编写，用Python-GTK做界面。</p>
+			<p>InstallIt 是将著名的 Xfce 安装程序转换成通用软件管理安装工具的官方实现。它使用 Python 语言编写，用 Python-GTK 做界面。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
-			<p>Terminal是用于Unix/Linux桌面的现代终端模拟器 - 主要用于Xfce桌面环境。</p>
+			<p>Terminal 是用于 Unix/Linux 桌面的现代终端模拟器 - 主要用于 Xfce 桌面环境。</p>
 		</td>
 	</tr>
 	<tr>
@@ -101,15 +101,15 @@
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/thunar/">Thunar文件管理器 </a></h3>
-			<p>Thunar是用于Xfce桌面环境的新的现代的文件管理器。Thunar被重新设计成快速而易用。</p>
+			<h3><a href="/projects/thunar/">Thunar 文件管理器 </a></h3>
+			<p>Thunar 是用于 Xfce 桌面环境的新的现代的文件管理器。Thunar 被重新设计成快速而易用。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn是一个使用cdrtools (cdrecord、cdrdao、mkisofs)来烧制CD和DVD的前端烧录程序。</p>
+			<p>Xfburn 是一个使用 cdrtools (cdrecord、cdrdao、mkisofs) 来烧制 CD 和 DVD 的前端烧录程序。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
@@ -125,22 +125,22 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">应用程序查找器</a></h3>
-			<p>允许你搜索、运行以及查找系统上已安装应用程序的信息。</p>
+			<p>允许您搜索、运行以及查找系统上已安装应用程序的信息。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">音量控制器</a></h3>
-			<p>一个面板上的音量控制器，包含一个支持ALSA、OSS和Sun audio的混音对话框。</p>
+			<p>一个面板上的音量控制器，包含一个支持 ALSA、OSS 和 Sun audio 的混音对话框。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
-			<!-- fuzzy <p>Xfce4-terminal是用于xfce4终端模拟器，基于vte libs。</p> -->
-			<p>A lightweight terminal emulator for Xfce 4.</p>
+			<p>用于 Xfce 4 的一个轻量级终端模拟器。</p>
+			<!-- origin <p>A lightweight terminal emulator for Xfce 4.</p> -->
 		</td>
 	</tr>
 	<tr>
@@ -149,26 +149,26 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
-			<p>Xfmedia是一个简单易用的媒体播放器，基于xine引擎。GTK+ GUI旨在播放与管理音频文件，但是，由于它是基于xine的，所以同样支持视频文件。</p>
+			<p>Xfmedia 是一个简单易用的媒体播放器，基于 xine 引擎。GTK+ GUI 旨在播放与管理音频文件，但是，由于它是基于 xine 的，所以同样支持视频文件。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">归档管理器</a></h3>
-			<p>Xarchiver是一个只有GTK+2前端的归档管理器，支持格式有：7z、zip、rar、tar、bzip2、gzip、arj以及rpm。</p>
+			<p>Xarchiver 是一个只有 GTK+2 前端的归档管理器，支持格式有：7z、zip、rar、tar、bzip2、gzip、arj 以及 rpm。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
-			<p>Ristretto is a lightweight image viewer.</p>
+			<h3><a href="/projects/ristretto">图像查看器</a></h3>
+			<p>Ristretto 是一个轻巧的图像查看器。</p>
 		</td>
 	</tr>
 </table>
 
-<h2 id="framework">Framework</h2>
+<h2 id="framework">构架</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
@@ -176,21 +176,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>核心Xfce库的目标在于桌面开发，libexo的目标在于应用程序开发。</p>
+			<p>核心 Xfce 库的目标在于桌面开发，libexo 的目标在于应用程序开发。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>Pyxfce是python的Xfce绑定。安装pyxfce后，你可以使用python创建xfce程序。</p>
+			<p>Pyxfce 是 python 的 Xfce 绑定。安装 pyxfce 后，您可以使用 python 创建 xfce 程序。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://xfc.xfce.org">Xfce基础类</a></h3>
-			<p>Xfce基础类是一套综合C++类，用来在类UNIX操作系统上例如Linux上开发Xfce应用程序。</p>
+			<h3><a href="http://xfc.xfce.org">Xfce 基础类</a></h3>
+			<p>Xfce 基础类是一套综合 C++ 类，用来在类 UNIX 操作系统上例如 Linux 上开发 Xfce 应用程序。</p>
 		</td>
 	</tr>
 	<tr>
@@ -199,21 +199,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
-			<p>Xfce4-perl是Perl的Xfce绑定。它同样包含面板插件的绑定。</p>
+			<p>Xfce4-perl 是 Perl 的 Xfce 绑定。它同样包含面板插件的绑定。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://dbh.sourceforge.net">基于磁盘的哈希表(Disk Based Hashtables)</a></h3>
-			<p>DBH是一个用来在POSIX系统上创建基于磁盘的哈希表的库。</p>
+			<h3><a href="http://dbh.sourceforge.net">基于磁盘的哈希表 (Disk Based Hashtables)</a></h3>
+			<p>DBH 是一个用来在 POSIX 系统上创建基于磁盘的哈希表的库。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce开发工具</a></h3>
-			<p>Xfce开发工具提供了一系列创建Xfce核心桌面组件所需的脚本和M4宏。</p>
+			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce 开发工具</a></h3>
+			<p>Xfce 开发工具提供了一系列创建 Xfce 核心桌面组件所需的脚本和 M4 宏。</p>
 		</td>
 	</tr>
 </table>
@@ -225,15 +225,15 @@
 			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>GTK主题引擎</h3>
-			<p>GTK2的一个主题引擎。不是必须的，但它是个好东西，所以你不妨试试。</p>
+			<h3>GTK 主题引擎</h3>
+			<p>GTK2 的一个主题引擎。不是必须的，但它是个好东西，所以您不妨试试。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3>图标主题</h3>
-			<p>Xfce 4的默认图标主题。包括PNG和SVG图标</p>
+			<p>Xfce 4 的默认图标主题。包括 PNG 和 SVG 图标</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />

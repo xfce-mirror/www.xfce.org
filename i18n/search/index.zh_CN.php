@@ -1,4 +1,4 @@
-<h1>Google搜索</h1>
+<h1>Google 搜索</h1>
 <form id="SearchForm" action="/search/">
   <p>
     <!-- Google CSE Search Box Begins -->

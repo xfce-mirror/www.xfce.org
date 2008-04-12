@@ -1,4 +1,4 @@
-﻿<!-- end: page content -->
+<!-- end: page content -->
 					<div class="clearboth"></div>
 				</div><!-- global-contentwrap --> 
 			<div id="footer">
@@ -12,7 +12,7 @@
 					</ul>
 				</div>
 				<div id="footer-copyright">
-					<a href="/about/credits#lead" title="Contact Olivier Fourdan">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
+					<a href="/about/credits#lead" title="联系 Olivier Fourdan">&copy; Olivier Fourdan 1996 - <?php echo date ("Y"); ?></a>
 				</div>
 				<div class="clearboth"></div>
 			</div>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,8 +7,8 @@
 	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
 <?php if (!$headup) { /* show only on frontpage */ ?>
-	<meta name="description" content="Xfce Desktop Environment" />
-	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment" />
+	<meta name="description" content="Xfce 桌面环境" />
+	<meta name="keywords" content="桌面环境, 窗口管理器, 桌面, 速度, 轻量级, gtk+, 开源, xforms common environment" />
 <?php } ?>
 
 	<link rel="home" href="/" />
@@ -25,8 +25,8 @@
 		<?php echo $layout_css; ?>
 	</style>
 
-	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
-	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce 新闻" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
+	<link rel="alternate" type="application/rss+xml" title="Xfce 博客" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body id="top">
 	<p id="header-top"><a href="#top" title="回到页面顶端">顶端</a></p>
@@ -36,7 +36,7 @@
 		<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
 <?php } ?>
 
-		<h1>Xfce桌面环境</h1>
+		<h1>Xfce 桌面环境</h1>
 		<h4>...一切都快起来了！</h4>
 		<hr />
 	</div>
@@ -54,7 +54,7 @@
 						<h2 class="hidden">搜索</h2>
 						<form id="GoogleSearch" action="/search/">
 							<input type="hidden" name="cx" value="008920933163277390313:rifucd7pcta" />
-							<input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google Search..." />
+							<input name="q" type="text" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" value="Google 搜索..." />
 							<input type="submit" name="sa" class="hidden" value="Search" />
 							<input type="hidden" name="cof" value="FORID:11" />
 						</form>
@@ -79,7 +79,7 @@
 					</div>
 <?php if ($breadcrumbs) { ?>
 					<div id="header-breadcrumbs">
-						<h2 class="hidden">Breadcrumbs</h2>
+						<h2 class="hidden">位置</h2>
 						<?php echo $breadcrumbs; ?>
 					</div>
 <?php } ?>

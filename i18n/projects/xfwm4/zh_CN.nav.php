@@ -8,10 +8,10 @@
 		    <li><a href="/projects/xfce-mcs-manager">设置管理器</a></li>
 		    <li><a href="/projects/xfce-utils">实用工具与脚本</a></li>
 		    <li><a href="/projects/xfwm4">窗口管理器</a></li>
-		    <li><a href="/projects/libraries">Xfce库</a></li>
+		    <li><a href="/projects/libraries">Xfce 库</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">应用程序</a></li>
-	<li><a href="/projects#framework">Framework</a></li>
+	<li><a href="/projects#framework">构架</a></li>
 	<li><a href="/projects#art">图形与美工</a></li>
 </ul>

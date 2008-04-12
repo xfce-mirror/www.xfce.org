@@ -1,12 +1,12 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/library.png" alt="libraries" width="48" height="48" /></div>
 
 <h1>库</h1>
-<p>核心库为Xfce环境提供基本函数。这些函数用来实现非图形帮助、窗口部件、图形用户界面的一些方便的功能以及设置管理功能。</p>
+<p>核心库为 Xfce 环境提供基本函数。这些函数用来实现非图形帮助、窗口部件、图形用户界面的一些方便的功能以及设置管理功能。</p>
 <h1>特性</h1>
 <ul>
   <li><strong>libxfce4util</strong>: 基本工具。</li>
   <li><strong>libxfcegui4</strong>: 统一的窗口部件。</li>
-  <li><strong>libxfce4mcs</strong>: Xfce组件。</li>
+  <li><strong>libxfce4mcs</strong>: Xfce 组件。</li>
 </ul>
 
 <h2>外部链接</h2>

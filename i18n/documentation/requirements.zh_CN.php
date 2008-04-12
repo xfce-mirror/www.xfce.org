@@ -1,5 +1,5 @@
-﻿<h1>Xfce系统要求</h1>
-<p>所有软件包(除了xfce4-dev-tools)依赖gtk+&nbsp;&gt;=&nbsp;2.6以及glib&nbsp;&gt;=&nbsp;2.6.4。依赖关系表的顺序也是推荐的安装顺序。<br />
+<h1>Xfce 系统要求</h1>
+<p>所有软件包 (除了 xfce4-dev-tools) 依赖 gtk+&nbsp;&gt;=&nbsp;2.6 以及 glib&nbsp;&gt;=&nbsp;2.6.4。依赖关系表的顺序也是推荐的安装顺序。<br />
 同样推荐安装的组件均取自相同版本。</p>
 
 <h2>软件包依赖表：</h2>

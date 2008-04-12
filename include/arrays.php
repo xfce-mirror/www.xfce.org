@@ -38,7 +38,7 @@ $languages = array (
         "pt_BR" => array ('Português do Brasil', 'UTF-8', 'pt_BR.utf8'),
         "pt_PT" => array ('Português', 'UTF-8', 'pt_PT.utf8'),
         "sq" => array ('Shqip', 'UTF-8', 'sq_AL.utf8'),
-        "zh_CN" => array ('Chinese', 'UTF-8', 'zh_CN'),
+        "zh_CN" => array ('简体中文', 'UTF-8', 'zh_CN'),
 );
 
 /* Internal style names. The visible names are located in the i18n/header.xx.php file */
