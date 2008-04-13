@@ -109,7 +109,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn est une interface graphique utilisant les applications cdrtools (cdrecord, cdrdao, mkisofs) permettant de graver des CDs et DVDs.</p>
+			<p>Xfburn est un simple outil de gravure basé sur les bibliothèques <a href="http://libburnia-project.org/">libburnia</a> pour créer et graver des CDs et DVDs.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
