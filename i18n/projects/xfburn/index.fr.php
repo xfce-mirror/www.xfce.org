@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" /></div>
 
 <h1>Xfburn</h1>
-<p>Xfburn est un outil de gravure de CDs servant d'interface graphique aux programmes mkisofs, cdrdao, readcd et cdrecord. Il permet d'effacer un CD-RW, copier des CDs, graver et créer des images ISO et créer des CDs datas personnalisés.</p>
+<p>Xfburn est un simple outil de gravure basé sur les bibliothèques <a href="http://libburnia-project.org/">libburnia</a> pour créer et graver des CDs et DVDs.</p>
 
 <h2>Liens externes</h2>
 <h3>Subversion</h3>
