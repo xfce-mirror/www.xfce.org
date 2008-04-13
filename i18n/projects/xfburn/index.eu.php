@@ -12,6 +12,8 @@ garbitu, CD-ak kopiatu, grabatu, iso irudiak sortu eta sorpen pertsonalizatuak g
 
 <h2>Garatzailea</h2>
 <ul>
-  <li>Jean-François Wauthy [pollux abildua xfce.org]</li>
+  <li>David Mohr [david at mcbf.net]</li>
+  <li>Mario Đanić [mario.danic at gmail.com]</li>
+  <li>Jean-François Wauthy [pollux at xfce.org]</li>
 </ul>
 

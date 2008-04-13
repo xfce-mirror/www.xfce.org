@@ -12,6 +12,8 @@ CD-RW, të kopjojë CD, të shkruajë dhe krijojë pamje iso, dhe të shkruajë 
 
 <h2>Autor</h2>
 <ul>
+  <li>David Mohr [david at mcbf.net]</li>
+  <li>Mario Đanić [mario.danic at gmail.com]</li>
   <li>Jean-François Wauthy [pollux at xfce.org]</li>
 </ul>
 

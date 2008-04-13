@@ -13,6 +13,8 @@ CD-RWを初期化したり、CDをコピーしたり、新しいisoイメージ�
 
 <h2>作者</h2>
 <ul>
-  <li>Jean-Francois Wauthy [pollux at xfce.org]</li>
+  <li>David Mohr [david at mcbf.net]</li>
+  <li>Mario Đanić [mario.danic at gmail.com]</li>
+  <li>Jean-François Wauthy [pollux at xfce.org]</li>
 </ul>
 
