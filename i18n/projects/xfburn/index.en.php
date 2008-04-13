@@ -1,7 +1,7 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" /></div>
 
 <h1>Xfburn</h1>
-<p>Xfburn is a simple CD burning tool based on <a href="http://libburnia-project.org/">libburnia</a> librairies. It can blank
+<p>Xfburn is a simple CD burning tool based on <a href="http://libburnia-project.org/">libburnia</a> libraries. It can blank
   CD-RW, copy CDs, burn and create iso images, and burn personal composition of data.</p>
 
 <h2>External Links</h2>
