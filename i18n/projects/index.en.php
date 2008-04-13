@@ -123,8 +123,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn is a frontend burning application that uses cdrtools (cdrecord, cdrdao,
-			mkisofs) to create and burn CD's and DVD's.</p>
+			<p>Xfburn is a frontend burning application based on libburnia librairies to create and burn CD's and DVD's.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
