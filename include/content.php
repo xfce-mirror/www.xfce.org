@@ -123,7 +123,7 @@ function PrintContent ($content, $lang)
     
   /* print the sponsor div */
   print ('<div id="content-sponsor">');
-  PrintSponsor ();
+  // PrintSponsor ();
   print ('</div>');
   
   /* close the content-right div */
