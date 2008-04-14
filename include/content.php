@@ -122,9 +122,9 @@ function PrintContent ($content, $lang)
     }
     
   /* print the sponsor div */
-  print ('<div id="content-sponsor">');
+  // print ('<div id="content-sponsor">');
   // PrintSponsor ();
-  print ('</div>');
+  // print ('</div>');
   
   /* close the content-right div */
   print ('</div>'); 
