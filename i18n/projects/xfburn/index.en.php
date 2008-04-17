@@ -10,7 +10,7 @@
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/goodies/xfburn/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/goodies/xfburn/trunk xfburn</code></p>
 
-<h2>Author</h2>
+<h2>Authors</h2>
 <ul>
   <li>David Mohr [david at mcbf.net]</li>
   <li>Mario Đanić [mario.danic at gmail.com]</li>
