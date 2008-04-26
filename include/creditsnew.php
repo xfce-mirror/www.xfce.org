@@ -343,21 +343,17 @@ function credits_server_and_website ($credits_email, $credits_i18n)
 
 function credits_contributors_active ($credits_email, $credits_i18n)
 {
-  $line = 1;
   $i = 0;
   
   echo "<tr>";
   
   foreach ($credits_email as $v)
     {
-      if ($i++ %2)
-        $line++;
-        
-      $bgcolor = $line % 2 ? " bgcolor=\"#eeeeee\"" : "";
+      $bgcolor = $i % 2 ? " bgcolor=\"#eeeeee\"" : "";
       
       echo "<td width=\"50%\"$bgcolor>". credits_user ($v) ."</td>";
       
-      if ($i % 2 == 0)
+      if ($i++ % 2 == 0)
         echo "</tr><tr>";
     }
     
