@@ -308,11 +308,16 @@ $credits['translators'] = array (
         )
     );
 
-
+function at ()
+{
+  echo "<img src=\"/layout/images/mail.png\" alt=\"\" width=\"10\" height=\"10\" hspace=\"2\" border=\"0\" />";
+}
 
 function credits_user ($var)
 {
-  echo $var[0] ." [". $var[1] ."<img src=\"/layout/images/mail.png\" alt=\"\" width=\"10\" height=\"10\" hspace=\"2\" border=\"0\" />". $var[2] ."]";    
+  echo $var[0] ." [". $var[1];
+  at();
+  echo $var[2] ."]";    
 }
 
 function credits_core_developers ($credits_email, $credits_i18n)
