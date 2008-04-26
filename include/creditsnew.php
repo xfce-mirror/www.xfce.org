@@ -343,7 +343,7 @@ function credits_server_and_website ($credits_email, $credits_i18n)
 
 function credits_contributors_active ($credits_email, $credits_i18n)
 {
-  $i = 0;
+  $i = 1;
   
   echo "<tr>";
   
