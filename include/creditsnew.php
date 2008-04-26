@@ -308,16 +308,16 @@ $credits['translators'] = array (
         )
     );
 
+$mail = "<img src=\"/layout/images/mail.png\" alt=\"\" width=\"10\" height=\"10\" hspace=\"2\" border=\"0\" />";
+
 function at ()
 {
-  echo "<img src=\"/layout/images/mail.png\" alt=\"\" width=\"10\" height=\"10\" hspace=\"2\" border=\"0\" />";
+  echo $mail;
 }
 
 function credits_user ($var)
 {
-  echo $var[0] ." [". $var[1];
-  at();
-  echo $var[2] ."]";    
+  return $var[0] ." [". $var[1] . $mail . $var[2] ."]";    
 }
 
 function credits_core_developers ($credits_email, $credits_i18n)
@@ -329,7 +329,7 @@ function credits_core_developers ($credits_email, $credits_i18n)
       $bgcolor = $line++ % 2 ? " bgcolor=\"#eeeeee\"" : "";
       
       echo "<tr>".
-             "<td width=\"40%\"$bgcolor>". credits_user ($v) ."$line</td>".
+             "<td width=\"40%\"$bgcolor>". credits_user ($v) ."</td>".
              "<td width=\"60%\"$bgcolor>". $credits_i18n[$v[1]] ."</td>".
            "</tr>";
     }
