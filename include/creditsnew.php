@@ -349,12 +349,13 @@ function credits_contributors_active ($credits_email, $credits_i18n)
   
   foreach ($credits_email as $v)
     {
-      $bgcolor = $i % 2 ? " bgcolor=\"#eeeeee\"" : "";
-      
       echo "<td width=\"50%\"$bgcolor>". credits_user ($v) ."</td>";
       
       if ($i++ % 2 == 0)
-        echo "</tr><tr>";
+        {
+          echo "</tr><tr>";
+          $bgcolor = $i % 4 ? " bgcolor=\"#eeeeee\"" : "";
+        }
     }
     
     if ($i % 2)
