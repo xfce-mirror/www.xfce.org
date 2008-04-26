@@ -354,7 +354,7 @@ function credits_contributors_active ($credits_email, $credits_i18n)
       if ($i++ % 2 == 0)
         {
           echo "</tr><tr>";
-          $bgcolor = $i % 4 ? " bgcolor=\"#eeeeee\"" : "";
+          $bgcolor = $i % 4 == 0 ? " bgcolor=\"#eeeeee\"" : "";
         }
     }
     
