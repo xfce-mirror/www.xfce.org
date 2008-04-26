@@ -327,7 +327,7 @@ function credits_core_developers ($credits_email, $credits_i18n)
   foreach ($credits_email as $v)
     {
       $bgcolor = ($line % 2 == 0) ? " bgcolor=\"#eeeeee\"" : "";
-      $line++;
+      $line = $line + 1;
       
       echo "<tr>".
              "<td width=\"40%\"$bgcolor>". credits_user ($v) ."</td>".
