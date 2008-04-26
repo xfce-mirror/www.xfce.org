@@ -369,17 +369,7 @@ function credits_contributors_active ($credits_email, $credits_i18n)
 
 function credits_contributors_previous ($credits_email, $credits_i18n)
 {
-  $at = _at ();
-  foreach ($credits_email as $v)
-    {
-      $color = ($color + 1) % 2;
-      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
-      echo <<<EOF
-    <tr>
-        <td width="40%"$bgcolor>{$v[0]} [{$v[1]}$at{$v[2]}]</td>
-    </tr>
-EOF;
-    }
+  credits_contributors_active ($credits_email, $credits_i18n);
 }
 
 function credits_translators_supervision ($credits_email, $credits_i18n)
