@@ -75,21 +75,6 @@ function PrepareContent ($uri, $lang)
 
 
 /**
- * Print sponsor banner
- **/
-function PrintSponsor () {
-
-  echo "<h2 class=\"hidden\">Sponsor</h2>\n".
-       "<a href=\"http://www.2x.com/\" target=\"_blank\"><img src=\"/layout/friends/2x_large.jpg\" width=\"160\" height=\"50\" alt=\"2X\" border=\"0\" /></a>\n".
-       "<p>Check out the 2X range:<br />\n".
-              "&#8226; <a href=\"http://www.2x.com/thinclientserver/\" target=\"_blank\">2X ThinClientServer</a><br />\n",
-              "&#8226; <a href=\"http://www.2x.com/loadbalancer/\" target=\"_blank\">2X LoadBalancer</a><br />\n".
-              "&#8226; <a href=\"http://www.2x.com/applicationserver/\" target=\"_blank\">2X ApplicationServer</a>\n".
-       "</p>\n";
-}
-
-
-/**
  * This function will echo all the content pages
  */
 function PrintContent ($content, $lang)
@@ -121,11 +106,6 @@ function PrintContent ($content, $lang)
       echo "</div>";
     }
     
-  /* print the sponsor div */
-  // print ('<div id="content-sponsor">');
-  // PrintSponsor ();
-  // print ('</div>');
-  
   /* close the content-right div */
   print ('</div>'); 
   
