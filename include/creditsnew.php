@@ -357,7 +357,7 @@ function credits_contributors_active ($credits_email, $credits_i18n)
       
       echo "<td width=\"50%\"$bgcolor>". credits_user ($v) ."</td>";
       
-      if ($i % 2)
+      if ($i % 2 == 0)
         echo "</tr><tr>";
     }
     
