@@ -343,20 +343,28 @@ function credits_server_and_website ($credits_email, $credits_i18n)
 
 function credits_contributors_active ($credits_email, $credits_i18n)
 {
-  $at = _at ();
+  $line = 1;
+  $i = 0;
+  
+  echo "<tr>";
+  
   foreach ($credits_email as $v)
     {
-      $line = ($line + 1) % 2;
-      $color = ($line) ? ($color + 1) % 2 : $color;
-      $bgcolor = ($color) ? ' bgcolor="#eeeeee"' : '';
-      echo <<<EOF
-        <td width="40%"$bgcolor>{$v[0]} [{$v[1]}$at{$v[2]}]</td>
-EOF;
-      echo (!$line) ? "    </tr>\n" : '';
-      echo (!$line) ? "    <tr>\n" : '';
+      if ($i++ %2)
+        $line++;
+        
+      $bgcolor = $line % 2 ? " bgcolor=\"#eeeeee\"" : "";
+      
+      echo "<td width=\"50%\"$bgcolor>". credits_user ($v) ."</td>";
+      
+      if ($i % 2)
+        echo "</tr><tr>";
     }
-    echo ($line) ? "        <td>&nbsp;</td>\n" : '';
-    echo "    </tr>\n";
+    
+    if ($i % 2)
+      echo "<td>&nbsp;</td>";
+      
+    echo "</tr>";
 }
 
 function credits_contributors_previous ($credits_email, $credits_i18n)
