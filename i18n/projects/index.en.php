@@ -182,6 +182,15 @@
 			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 	</tr>
+	<tr>
+		<td width="48" valign="top">
+			<img src="/images/projects/midori.png" alt="midori" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></h3>
+			<p>Midori is a lightweight web browser.</p>
+		</td>
+	</tr>
 </table>
 
 <h2 id="framework">Framework</h2>
