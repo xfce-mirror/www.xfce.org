@@ -11,8 +11,6 @@ under <b>heavy</b> development.</p>
   <a class="external" target="_blank" href="http://svn.xfce.org/svn/goodies/xfburn/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/goodies/xfburn/trunk xfburn</code></p>
 
-<p><a class="external" target="_blank" href="http://goodies.xfce.org/projects/applications/xfburn">More on Xfburn</a></p>
-
 <h2>Authors</h2>
 <ul>
   <li>David Mohr [david at mcbf.net]</li>
