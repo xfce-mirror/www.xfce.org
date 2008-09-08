@@ -1,4 +1,4 @@
-<h1>Tour Visual Xfce 4.4.0</h1>
+<h1>Tur Visual Keliling Xfce 4.4.0</h1>
 <p align="justify">
 Saat ini, versi 4.4.0 Lingkungan Destop Xfce yang telah lama dinanti akhirnya tersedia. 
 Saya akan coba menyoroti beberapa fitur baru yang telah ditambahkan sejak rilis
@@ -69,7 +69,7 @@ akan tampak di destop dan di panel sisi <b>Thunar</b>.
 <p align="center"><img src="/images/about/tour/xfce44-removable-volumes.png" alt="Volume Dapat Dilepas" /></p>
 
 <p align="justify">
-Klik pada ikon akan secara otomatis memount volume. Klik kanan pada ikon untuk umount penggerak atau keluarkan 
+Klik pada ikon akan secara otomatis memount volume. Klik kanan pada ikon untuk lepas mount penggerak atau keluarkan 
 media dari penggerak. Perlu dicatat bahwa fitur ini membutuhkan <a
 href="http://freedesktop.org/wiki/Software_2fhal">HAL</a> dan oleh karenanya hanya tersedia bagi Linux 2.6.x
 dan FreeBSD 6.x atau versi di atasnya pada waktu penulisan ini (ada dukungan terbatas untuk media dapat dilepas 

@@ -192,7 +192,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>Pustaka inti Xfce mempunyai target pada pengembangan destop, libexo ditargetkan pada pengembangan aplikasi.</p>
+			<p>Pustaka inti Xfce mempunyai target pada pengembangan destop, libexo ditargetkan untuk pengembangan aplikasi.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
@@ -223,7 +223,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://dbh.sourceforge.net">Tabel Hash Berbasis Cakram</a></h3>
-			<p>DBH adalah pustaka untuk membuat Disk Based Hashtables pada sistem POSIX.</p>
+			<p>DBH adalah pustaka untuk membuat Tabel Hash Berbasis Cakram (Disk Based Hashtables) pada sistem POSIX.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />

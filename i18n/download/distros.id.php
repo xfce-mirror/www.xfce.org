@@ -128,7 +128,7 @@
 		</td>
 		<td>
 			<h2>FreeSBIE</h2>
-			<p>FreeSBIE is a live-CD berbasis sistem operasi FreeBSD.</p>
+			<p>FreeSBIE adalah live-CD berbasis sistem operasi FreeBSD.</p>
 		</td>
 	</tr>
 	<tr>

@@ -5,7 +5,7 @@
 				<h2><a href="/download/" title="Unduh Xfce 4.4.2">Unduh Xfce 4.4.2</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.2" title="Baca berkas ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.4.2" title="Baca berkas Catatan Perubahan">Catatan Peruban</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.4">Tur Keliling</a></p>
 			</div>
 		</div>
 	</div>

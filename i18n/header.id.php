@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
 <?php if (!$headup) { /* show only on frontpage */ ?>
-	<meta name="description" content="Xfce Desktop Environment," />
+	<meta name="description" content="Xfce Desktop Environment" />
 	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment" />
 <?php } ?>
 
@@ -29,7 +29,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body id="top">
-	<p id="header-top"><a href="#top" title="Pergi ke atas halaman">Top</a></p>
+	<p id="header-top"><a href="#top" title="Pergi ke atas halaman">Atas</a></p>
 	<div class="hidden">
 		<a href="#global-contentwrap" title="Lewati navigasi situs" accesskey="1">Lewati navigasi situs</a> (1)
 <?php if ($content_bool) { ?>
@@ -81,7 +81,7 @@
 					<div id="header-breadcrumbs">
 						<h2 class="hidden">Breadcrumbs</h2>
 						<?php echo $breadcrumbs; ?>
-					</div>
+					</div> 
 <?php } ?>
 				</div>
 			</div><!-- header -->

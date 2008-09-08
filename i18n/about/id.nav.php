@@ -1,7 +1,7 @@
 <ul>
 	<li><a href="/about/">Tentang</a></li>
 	<li><a href="/about/features">Fitur</a></li>
-	<li><a href="/about/tour">Tour Xfce 4.4</a>
+	<li><a href="/about/tour">Tur Keliling Xfce 4.4</a>
 		<ul>
 			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Fitur Thunar</a></li>
 		</ul>

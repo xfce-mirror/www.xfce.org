@@ -1,4 +1,4 @@
-<h1>Google Search</h1>
+<h1>Telusuri Google</h1>
 <form id="SearchForm" action="/search/">
   <p>
     <!-- Google CSE Search Box Begins -->

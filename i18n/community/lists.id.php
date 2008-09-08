@@ -1,5 +1,5 @@
 <h1>Milis Xfce</h1>
-<p><strong>CATATAN:</strong> Sebelum anda dapat memposting ke milis ini, anda harus mendaftar terlebih dahulu. </p>
+<p><strong>CATATAN:</strong> Sebelum anda dapat mengirim surat ke milis ini, anda harus mendaftar terlebih dahulu. </p>
 
 <table width="99%" cellpadding="2">
     <tr>

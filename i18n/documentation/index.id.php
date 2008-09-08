@@ -29,8 +29,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
-      <p>Anda dapat menemukan pertanyaan yang sering diajukan di <a href="http://wiki.xfce.org/faq" target="_blank">wiki Xfce</a>.</p>
+      <h2><a href="http://wiki.xfce.org/faq" target="_blank">PAD</a></h2>
+      <p>Anda dapat menemukan pertanyaan yang acapkali diajukan di <a href="http://wiki.xfce.org/faq" target="_blank">wiki Xfce</a>.</p>
       <h2><a href="/documentation/requirements">Persyaratan</a></h2>
           <p>Senarai lengkap tentang semua <a href="/documentation/requirements">persyaratan</a> Xfce.</p>
       <h2><a href="/documentation/changelogs/">Perubahan Log</a></h2>

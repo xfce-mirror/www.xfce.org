@@ -6,7 +6,7 @@
 $notinlang = 'Halaman ini tidak tersedia dalam <a href="/translate" title="Gabung proyek '.
              'i18n Xfce untuk membantu penerjemahan situs web ini.">bahasa</a> anda.';
 	     
-$warning = 'Warning';
+$warning = 'Peringatan';
 
-$contentnav = 'Content Navigation';
+$contentnav = 'Navigasi Isi';
 ?>

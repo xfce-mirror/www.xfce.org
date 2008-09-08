@@ -9,10 +9,10 @@ $breadcrumbs = array (
     "home"             => "Pangkal",
     "lists"            => "Milis",
     "irc"              => "IRC",
-    "faq"              => "FAQ",
+    "faq"              => "PAD",
     "userguide"        => "Panduan Pengguna",
     "api"              => "Pengembang (API)",
-    "tour"             => "Tour Xfce 4.4",
+    "tour"             => "Tur Keliling Xfce 4.4",
     "search"           => "Telusur Google",
     "distros"          => "Distribusi Beriorientasi Xfce",
     
