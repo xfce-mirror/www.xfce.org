@@ -201,4 +201,15 @@ This document is a stub, it should not yet be translated because no release has 
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
 <ul>
+    <li>Use gnome-screensaver if xscreensaver is not available (Bug #3131)</li>
+    <li>Fix syntax error in startxfce script (Bug #3089).</li>
+    <li>Fix insecure use of temporary file in startup script.</li>
+    <li>Put /usr/local/share first (Bug #2967).</li>
+    <li>Fix an issue with the syntax in startxfce4 script (Bug #2967).</li>
+    <li>Use real GtkComboBoxEntry instead of separate GtkEntry/Button for
+        xfrun4 dialog (bug 3820).<li>
+    <li>Remove Xft.dpi fallback setting since xfsettingsd handles this now.</li>
+    <li>Update xinitrc to run xfsettingsd instead of xfce-mcs-manager (only
+        used when the user has disabled the session manager).</li>
+    <li>Add MCS -> Xfconf settings migration script.</li>
 </ul>
