@@ -182,6 +182,10 @@ This document is a stub, it should not yet be translated because no release has 
     <li>Add Kurdish translation</li>
 </ul>
 
+<h3>Volume Manager <em>(thunar-volman)</em>:</h3>
+<ul>
+</ul>
+
 
 <h3>Mixer <em>(xfce4-mixer)</em>:</h3>
 <ul>
@@ -212,4 +216,13 @@ This document is a stub, it should not yet be translated because no release has 
     <li>Update xinitrc to run xfsettingsd instead of xfce-mcs-manager (only
         used when the user has disabled the session manager).</li>
     <li>Add MCS -> Xfconf settings migration script.</li>
+</ul>
+
+<h3>Application Finder<em>(xfce4-appfinder)</em>:</h3>
+<ul>
+    <li>Rewrite based on libxfce4menu.</li>
+    <li>Translations: Amharic, Arabic, Basque, Brazilian Portuguese, British English, 
+        Czech, Catalan, Finnish, French, Galician, German, Hungarian, Indonesian, 
+        Korean, Latvian, Polish, Portuguese, Sinhala, Slovak, Slovene, Turkish, 
+        Ukrainian.</li>
 </ul>
