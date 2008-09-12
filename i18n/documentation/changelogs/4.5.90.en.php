@@ -121,13 +121,13 @@ This document is a stub, it should not yet be translated because no release has 
         handle and old-style dotted handle. Initial patch by Landry Breuil. (Jasper)</li>
     <li>Complete rewrite of the clock plugin. (Nick)</li>
     <li>Rewrite of the system tray plugin. This should fix the icon size problems
-        (<?php bug(3213); bug(3176); bug(962); bug(3478); echo "and"; bug(3417)?>), add option to hide icons in the
+        (<?php bug(3213); echo ", "; bug(3176); echo ", "; bug(962); echo ", "; bug(3478); echo " and "; bug(3417)?>), add option to hide icons in the
         tray, sort icons by application name and support multiple lines based on the
         panel size. The tray manager code is now integrated in the plugin, so it
         can be removed from libxfcegui4. (Nick)</li>
     <li>Fix area that is off-limits to other windows (_NET_WM_STRUT hints) for a
         Xinerama setup with differently sized monitors (<?php bug(3097)?>). (Jasper)</li>
-    <li>Completely rewritten launcher (<?php bug(2336); bug(2365); bug(1323); bug(2262); echo "and"; bug(1225)?>)</li>
+    <li>Completely rewritten launcher (<?php bug(2336); echo ", "; bug(2365); echo ", "; bug(1323); echo ", "; bug(2262); echo " and "; bug(1225)?>)</li>
     <li>Various improvements in libxfce4panel (memory leaks, G_GNUC_INTERNAL,
         GSList, visibility support, canonical strings and fixed pedantic warnings).</li>
     <li>Libxfce4panel does no longer depend on libxfcegui4. This might cause
