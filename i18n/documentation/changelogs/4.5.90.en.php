@@ -5,14 +5,42 @@ function bug ($id){
 ?>
 
 <h1>Xfce 4.6 ALPHA (4.5.90) Changelog</h1>
-<h2>This document is a stub, it should not yet be translated because no release has been made yet</h2>
+This document is a stub, it should not yet be translated because no release has been made yet.
+
+<h3>Development tools <em>(xfce4-dev-tools)</em>:</h3>
+<ul>
+    <li>Add intltool-merge.in patch to xdt-autogen.in to fix merging translations
+        to .desktop keys that have dashes in them.</li>
+</ul>
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
+    <li>Do not use GMemChunk for XfceRc due to memory leaks (Bug #2427).</li>
+    <li>Fix buglet when deleting XfceRc groups.</li>
+    <li>Fix invalid g_slice_free1() in XfceRc (Bug #2854).</li>
+    <li>Add support for function names in debug messages on Solaris (Bug #3090).</li>
+    <li>New util functions for setting up POSIX signal handling using pipe(), 
+        GIOChannel and the glib main loop.</li>
+    <li>Strip trailing slashes to avoid directories appearing multiple times in
+        resource lookup functions.</li>
+    <li>Updated translations: Maximilian Schleiss (fr), Besnik Bleta (sq), 
+        Mohamed Magdy (ar), Jeff Bailes (en_GB), Nuno Miguel (pt_PT), Daichi 
+        Kawahata (ja), Terje Uriansrud (nb_NO), Tegegne Tefera (am), Rihards 
+        Priedītis (lv), Muhammad Ali Makki (ur), Rashan Anushka (si), Leandro 
+        Regueiro (gl), Khaled Hosny (ar), Peter Vois (et), </li>
 </ul>
 
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
+    <li>Fix XfceAppMenuItem's lazy icon loading so menus don't overlap after
+        the icons load (bug 3081).</li>
+    <li>Add gladeui and libglade support so Xfce widgets can be added to an
+        interface using the Glade Interface Designer, and can be accessed using
+        libglade.</li>
+    <li>Fix menu crash if NULL icon file name.</li>
+    <li>Deprecate XfceClock and XfceSystemTray.</li>
+    <li>Deprecate all libnetk objects and functionality (library users should
+        migrate to libwnck).</li>
 </ul>
 
 <h3>Extension Library <em>(exo)</em>:</h3>
@@ -78,6 +106,19 @@ function bug ($id){
         XfdesktopIconView.  This is mostly user-invisible, but does decrease
         code size and memory usage ever so slightly, and removes a possible
         source of bugs.</li>
+    <li>Remove all old MCS settings manager code and start using Xfconf,
+        Xfce's new configuration system.</li>
+    <li>New redesigned settings dialog, with hopefully some better usability.</li>
+    <li>Move hidden options for showing special icons on the desktop into
+        the settings dialog GUI.</li>
+    <li>Add a color saturation adjustment to the backdrop image settings.</li>
+    <li>Add "transparent" color style for the backdrop; if you already have
+        another application drawing the backdrop, you can disable xfdesktop's
+        image drawing and color drawing and "see through" to the window
+        beneath it while still having desktop icons and the desktop menu
+        available.  Requires ARGB windows (bug 4061).</li>
+    <li>Fix font size used to draw desktop icons when the size isn't an
+        integer point size (bug 4295).</li>
 </ul>
 
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
@@ -106,6 +147,14 @@ function bug ($id){
 
 <h3>Session Manager <em>(xfce4-session)</em>:</h3>
 <ul>
+    <li>Modified settings-dialogs to work with the new settings-manager</li>
+    <li>Fix compile-issues with -Wall -Werror in mice theme-engine and settings-dialogs</li>
+    <li>Let xfce4-session start xfsettingsd automatically</li>
+    <li>Remove dependency on deprecated NETK</li>
+    <li>Translations: am, ar, az, be, bn_IN, ca, cs, da, de, dz, el, 
+        en_GB, eo, es_MX, es, et, eu, fa, fi, fr, gl, gu, he, hi, hu, 
+        id, it, ja, ka, ko, lt, lv, mk, mr, ms, nb_NO, nl, pa, pl, 
+        pt_BR, pt_PT, ro, ru, si, sk, sq, sv, ta, tr, uk, ur, vi, zh_CN, zh_TW</li>
 </ul>
 
 <h3>Settings Manager <em>(xfce4-settings)</em>:</h3>
@@ -153,8 +202,3 @@ function bug ($id){
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
 <ul>
 </ul>
-
-<h3>Window Manager Themes <em>(xfwm4-themes)</em>:</h3>
-<ul>
-</ul>
-
