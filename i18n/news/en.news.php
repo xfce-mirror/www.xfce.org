@@ -49,8 +49,8 @@ $news = array (
                      "the alpha release can be found at ".
                      "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url][br]".  
                      "There is also a page which contains general information about the".
-                     "components of Xfce 4.6 and changes that are supposed to go into 4.6:[br]".
-                     "[url=http://wiki.xfce.org/general_info_46]http://wiki.xfce.org/general_info_46[/url]".
+                     "components of Xfce 4.6 and changes that are supposed to go into 4.6:[br][br]".
+                     "[url=http://wiki.xfce.org/general_info_46]http://wiki.xfce.org/general_info_46[/url][br][br]".
                      "As this is a development-release, we do not claim it is perfect. ".
                      "[url=http://wiki.xfce.org/known_issues_46]Here[/url]".
                      " is a list of issues we have already identified.[br][br]".
