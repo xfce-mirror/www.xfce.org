@@ -41,19 +41,19 @@ $news = array (
                      "environment. The previous release was 4.4 with the last bugfix release".
                      "being 4.4.2 released in December 2007.".
                      "[br][br]".
-                     "The release schedule for Xfce 4.6 is available to the public on".
+                     "The release schedule for Xfce 4.6 is available to the public on ".
                      "[url=http://wiki.xfce.org/milestones_to_46]the wiki[/url].".
                      "[br][br][br]".  
                      "Xfce 4.6 comes with a lot of new components, some of them replacing old".
                      "code and some of them being completely new. A preliminary ChangeLog for".
-                     "the alpha release can be found at[br]".
-                     "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url]".  
+                     "the alpha release can be found at ".
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url][br]".  
                      "There is also a page which contains general information about the".
                      "components of Xfce 4.6 and changes that are supposed to go into 4.6:[br]".
-                     "[url]http://wiki.xfce.org/general_info_46[/url]".
-                     "As this is a development-release, we do not claim it is perfect.".
+                     "[url=http://wiki.xfce.org/general_info_46]http://wiki.xfce.org/general_info_46[/url]".
+                     "As this is a development-release, we do not claim it is perfect. ".
                      "[url=http://wiki.xfce.org/known_issues_46]Here[/url]".
-                     " is a list of issues we have already identified:[br]".
+                     " is a list of issues we have already identified.[br][br]".
                      "Getting excited? You can download xfce 4.6 alpha from ".  
                      "[link=download/#unstable]here[/link].".  
                      "[br][br]".
