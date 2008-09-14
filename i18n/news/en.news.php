@@ -42,23 +42,23 @@ $news = array (
                      "being 4.4.2 released in December 2007.".
                      "[br][br]".
                      "The release schedule for Xfce 4.6 is available to the public on".
-                     "[url]http://wiki.xfce.org/milestones_to_46[/url].".
+                     "[url=http://wiki.xfce.org/milestones_to_46]the wiki[/url].".
                      "[br][br][br]".  
                      "Xfce 4.6 comes with a lot of new components, some of them replacing old".
                      "code and some of them being completely new. A preliminary ChangeLog for".
                      "the alpha release can be found at[br]".
-                     "[url]http://www.xfce.org/documentation/changelogs/4.5.90[/url]".  
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url]".  
                      "There is also a page which contains general information about the".
                      "components of Xfce 4.6 and changes that are supposed to go into 4.6:[br]".
                      "[url]http://wiki.xfce.org/general_info_46[/url]".
                      "As this is a development-release, we do not claim it is perfect.".
-                     "Here is a list of issues we have already identified:[br]".
-                     "[url]http://wiki.xfce.org/known_issues_46[/url]".
+                     "[url=http://wiki.xfce.org/known_issues_46]Here[/url]".
+                     " is a list of issues we have already identified:[br]".
                      "Getting excited? You can download xfce 4.6 alpha from ".  
                      "[link=download/#unstable]here[/link].".  
                      "[br][br]".
                      "We hope you have a lot of fun trying out this new Xfce.".
-                     "If you find any issues, don't hesitate to check out [url]http://bugzilla.xfce.org/[/url]".
+                     "If you find any issues, don't hesitate to check out [url=http://bugzilla.xfce.org/]bugtracking system[/url]".
                      "and look for the bug, or submit a new report if your issues are not already mentioned.".
                      "[br][br]".
                      "Kind regards,[br]".
