@@ -21,8 +21,10 @@ $servers = array (
 $servers_unstable = array(
 //  "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=187881&release_id=$sf_release_id_unstable",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version_unstable/",
+//  "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version/",
+//  "FR - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
 //  "US - us.xfce.org"    => "http://www.us.xfce.org/archive/xfce-$version_unstable/",
-//  "US - ca-us.xfce.org" => "http://www.ca-us.xfce.org/archive/xfce-$version_unstable/",
+  "US - ca-us.xfce.org" => "http://www.ca-us.xfce.org/archive/xfce-$version_unstable/",
 );
 
 /* combobox */
