@@ -1,6 +1,7 @@
 <?php
     include ("version.php");
 ?>
+<a name="stable"></a>
 <h1>Télécharger la version stable (<?php echo $version; ?>) </h1>
 <p>La plupart des distributions contiennent Xfce. Mais si vous voulez une version plus récente ou si vous désirez compiler Xfce vous même, vous trouverez les paquets ci-dessous. Vous pouvez aussi voir les distributions qui fournissent un environnement de bureau Xfce par défaut <a href="/download/distros">ici</a>.</p>
 
@@ -47,3 +48,23 @@
       <a href="http://www.blastwave.org" target="_blank">http://www.blastwave.org</a></td>
   </tr>
 </table>
+
+<?php if(isset($version_unstable)) { ?>
+
+<a name="unstable"></a>
+<h1>Download Unstable version (<?php echo $version_unstable; ?>) </h1>
+<p>
+Below you can find download locations for the latest development/unstable
+release of Xfce.  Note that this software almost certainly contains bugs,
+many of which might affect your desire to use it in a production
+environment.  You should back up all configuration files before installing
+and using these releases.  If you're uncertain about downloading this
+release, you should probably use the <a href="#stable">stable version</a>
+above.
+</p>
+
+<h2 id="source-unstable">Source code</h2>
+<p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
+<?php printServers("", $servers_unstable); ?>
+
+<?php } /* isset($version_unstable) */ ?>
