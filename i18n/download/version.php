@@ -1,15 +1,17 @@
 <?php
 /* the version number here */
 $version       = "4.4.2";
+$sf_package_id = "187881";  /* corresponds to xfce-4.4 package */
 $sf_release_id = "558731";
 
 /* uncomment these 2 to have an unstable release appear */
 //$version_unstable = "4.5.90";
-//$sf_release_id_unstable = "626165";
+$sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */
+$sf_release_id_unstable = "626165";
 
 /* list of Xfce server */
 $servers = array (
-  "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=187881&release_id=$sf_release_id",
+  "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=$sf_package_id&release_id=$sf_release_id",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version/",
   "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version/",
   "FR - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
@@ -19,7 +21,7 @@ $servers = array (
 );
 
 $servers_unstable = array(
-  "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=187881&release_id=$sf_release_id_unstable",
+  "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=$sf_package_id_unstable&release_id=$sf_release_id_unstable",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version_unstable/",
   "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version_unstable/",
 //  "FR - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version_unstable/",
