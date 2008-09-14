@@ -39,7 +39,7 @@ $news = array (
                      "[br][br]".
                      "Xfce 4.6 is going to be the next major release of the Xfce desktop".
                      "environment. The previous release was 4.4 with the last bugfix release".
-                     "being 4.4.2 released in December 2007."
+                     "being 4.4.2 released in December 2007.".
                      "[br][br]".
                      "The release schedule for Xfce 4.6 is available to the public on".
                      "[url]http://wiki.xfce.org/milestones_to_46[/url].".
