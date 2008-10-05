@@ -32,20 +32,25 @@
   </tr>
   -->
   <tr>
-    <td><img src="../../images/download/suse.png" alt="Suse" width="40" height="40" /></td>
-    <td><strong>openSUSE (SUSE Linux)</strong><br />
-      <a href="http://en.opensuse.org/X11:xfce" target="_blank">Repositories for openSUSE (SUSE Linux)</a></td>
-  </tr>
-  <tr>
     <td><img src="../../images/download/mandriva.png" alt="Mandriva" width="40" height="40" /></td>
     <td><strong>Mandriva &amp; Mandrake</strong><br />
       <a href="ftp://mandrivauser.de/rpm/GPL/" target="_blank">ftp://mandrivauser.de/rpm/GPL/</a><br />
       <a href="http://www.eslrahc.com/" target="_blank">http://www.eslrahc.com/</a></td>
   </tr>
   <tr>
+    <td><img src="../../images/download/suse.png" alt="Suse" width="40" height="40" /></td>
+    <td><strong>openSUSE (SUSE Linux)</strong><br />
+      <a href="http://en.opensuse.org/X11:xfce" target="_blank">Repositories for openSUSE (SUSE Linux)</a></td>
+  </tr>
+  <tr>
     <td><img src="../../images/download/solaris.png" alt="Solaris" width="40" height="40" /></td>
     <td><strong>Solaris SPARC/x86/AMD</strong><br />
       <a href="http://www.blastwave.org" target="_blank">http://www.blastwave.org</a></td>
+  </tr>
+  <tr>
+    <td><img src="../../images/download/xubuntu.png" alt="Xubuntu" width="40" height="40" /></td>
+    <td><strong>Xubuntu</strong><br />
+      <a href="http://www.xubuntu.org" target="_blank">http://www.xubuntu.org</a></td>
   </tr>
 </table>
 
