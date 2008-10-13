@@ -30,7 +30,7 @@ $news = array (
     array (
         'id'      => 15,
         'date'    => '14 sep 2008',
-        'author'  => 'Stephan Arts, Jannis Pohlman and Brian Tarricone',
+        'author'  => 'Stephan Arts, Jannis Pohlmann and Brian Tarricone',
         'title'   => 'Xfce 4.6 ALPHA (\'Pinkie\') released',
         'content' => "Hello everybody,".
                      "[br][br]".
