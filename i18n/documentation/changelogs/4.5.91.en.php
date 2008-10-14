@@ -9,14 +9,21 @@ This document is a stub
 
 <h3>Development tools <em>(xfce4-dev-tools)</em>:</h3>
 <ul>
+    <li>Don't try to patch intltool-merge.in for intltool 0.40.x: 0.40.4+ has
+        a fix for the bug, and 0.40.x earlier than that aren't patchable as they
+        run systemwide versions of the scripts.</li>
 </ul>
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
+    <li>Fix typo in i18n code (check for '/' in lang doesnt make sense)</li>
+    <li>Updated translations: Og Maciel (pt_BR), Abel Martín (es)</li>
 </ul>
 
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
+    <li>Fix compile failure on Darwin due to the 'environ' variable not
+        being available (bug 4432).</li>
 </ul>
 
 <h3>Extension Library <em>(exo)</em>:</h3>
@@ -74,7 +81,7 @@ This document is a stub
     <li>Translations: cs, da, de, el, en_GB, es, fi, fr, gl, id, ja, lv, pl, pt_BR, pt_PT, sq, uk, ur.</li>
 </ul>
 
-<h3>Calendar app <em>(orage)</em>:</h3>
+<h3>Calendar <em>(orage)</em>:</h3>
 <ul>
     <li>Man page created for orage and globaltime</li>
     <li>Globaltime added.</li>
