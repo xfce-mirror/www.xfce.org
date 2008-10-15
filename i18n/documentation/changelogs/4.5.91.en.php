@@ -46,18 +46,18 @@ function bug ($id){
     <li>Add support for NET_WM_PING protocol.</li>
     <li>Add support for NET_WM_PID to be able to kill apps (when not responding to NET_WM_PING).</li>
     <li>Make shadow opacity configurable (<?php bug(4447) ?>).</li>
-    <li>Make wireframe while cycling user configurable (Bug #4443).</li>
-    <li>Rework visual depth selection of the frame window (Bug #4452).</li>
-    <li>Add new user option to set/unset repeat blinking of urgent windows (Bug #4440).</li>
-    <li>Add margins configuration in workspace settings (Bug #4438).</li>
-    <li>Loosen the rule that prevents an application from iconifying itself when skip_taskbar is set (Bug #4434).</li>
-    <li>Fix NET_WM_STATE claiming maximization vertical and horizontal even if only horizontal of vertical is actually set (Bug #3969).</li>
+    <li>Make wireframe while cycling user configurable (<?php bug(4443) ?>).</li>
+    <li>Rework visual depth selection of the frame window (<?php bug(4452) ?>).</li>
+    <li>Add new user option to set/unset repeat blinking of urgent windows (<?php bug(4440) ?>).</li>
+    <li>Add margins configuration in workspace settings (<?php bug(4438) ?>).</li>
+    <li>Loosen the rule that prevents an application from iconifying itself when skip_taskbar is set (<?php bug(4434) ?>).</li>
+    <li>Fix NET_WM_STATE claiming maximization vertical and horizontal even if only horizontal of vertical is actually set (<?php bug(3969) ?>).</li>
     <li>Add an option to set default window placement w/out smart placement missing from the wmtweaks GUI.</li>
     <li>Allow any modifier to be used for easy move, including disabling the functionality entirely.</li>
     <li>Add embedding support to all xfwm4 settings dialogs.</li>
-    <li>Sort theme alphabetically (Bug #4318).</li>
+    <li>Sort theme alphabetically (<?php bug(4318) ?>).</li>
     <li>Implement workspace name changing.</li>
-    <li>Do not allocate window extents if the window is not visible (Bug #4363).</li>
+    <li>Do not allocate window extents if the window is not visible (<?php bug(4363) ?>).</li>
     <li>Improve centering of windows with Xinerama.</li>
     <li>Lot of settings dialogs fixes and enhancements</li>
     <li>Update Basque, German, Korean and Slovene translations</li>
