@@ -28,6 +28,42 @@ $news = array (
     ),
 */
     array (
+        'id'      => 16,
+        'date'    => '15 okt 2008',
+        'author'  => 'Stephan Arts',
+        'title'   => 'Xfce 4.6 BETA-1 (\'Fuzzy\') released',
+        'content' => "Hello everybody,".
+                     "[br][br]".
+                     "We are one month since the release of Xfce 4.6 ALPHA. And now it's time to ".
+                     "release the first BETA, codename 'Fuzzy'.".
+                     "[br][br]".
+                     "A [b]lot[/b] of bugs have been fixed in this release, a few highlights:".
+                     "[br]".
+                     "- Xfwm4 can now detect if a program is unresponsive. It will show a dialog to let the user kill it.[br]".
+                     "- Xfce4-session will start up significantly faster by using parallel startup.[br]".
+                     "- It is possible to configure the keyboard-layout.[br]".
+                     "- Toggling event-sounds with libcanberra + gtk 2.14 is now possible (meaning: you can turn them off).".
+                     "[br][br]".
+                     "And lets not forget the translations, thanks to them Xfce 4.6.0 will be available to a lot of people ".
+                     "in their native language. ".
+                     "[br][br]".
+                     "Ofcourse, this is still a beta. This means that not everything is working perfectly now.[br]".
+                     "A list of known issues can be found [url=http://wiki.xfce.org/releng/4.6/known-issues]here[/url].".
+                     "[br][br]".
+                     "A complete list of changes can be found at ".
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.91]this location[/url][br]".  
+                     "[br][br]".
+                     "Getting excited? You can download Xfce 4.6 BETA-1 from ".  
+                     "[link=download/#unstable]here[/link].".  
+                     "[br][br]".
+                     "We hope you have a lot of fun trying out this new Xfce.".
+                     "If you find any issues, don't hesitate to check out our [url=http://bugzilla.xfce.org/]bug tracking system[/url] ".
+                     "and look for the bug, or submit a new report if your issues are not already mentioned.".
+                     "[br][br]".
+                     "Kind regards,[br]".
+                     "The Xfce development team",
+    ),
+    array (
         'id'      => 15,
         'date'    => '14 sep 2008',
         'author'  => 'Stephan Arts, Jannis Pohlmann and Brian Tarricone',
