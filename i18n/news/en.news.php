@@ -29,7 +29,7 @@ $news = array (
 */
     array (
         'id'      => 16,
-        'date'    => '15 okt 2008',
+        'date'    => '15 oct 2008',
         'author'  => 'Stephan Arts',
         'title'   => 'Xfce 4.6 BETA-1 (\'Fuzzy\') released',
         'content' => "Hello everybody,".
