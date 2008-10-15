@@ -15,7 +15,7 @@ function bug ($id){
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
-    <li>Fix typo in i18n code (check for '/' in lang doesnt make sense)</li>
+    <li>Fix typo in i18n code (check for '/' in lang doesn't make sense)</li>
     <li>Updated translations: Og Maciel (pt_BR), Abel Martín (es)</li>
 </ul>
 
@@ -126,13 +126,13 @@ function bug ($id){
     on the X-XfcePluggable and X-XfceHelpFile desktop file keys).</li>
     <li>Add embedding support to the accessibility, appearance, mouse and
     keyboard settings dialogs.</li>
-    <li>Don't use g_hash_table_get_keys() which requires GLib 2.14 (bug 
-    #4377).</li>
+    <li>Don't use g_hash_table_get_keys() which requires GLib 2.14
+    (<?php bug(4377) ?>).</li>
     <li>Move xfsettingsd from xfconf into xfce4-settings.</li>
     <li>Rework the way keyboard shortcuts are organized. Support default
     shortcuts using /default and /custom base properties.</li>
-    <li>Add optional UI options to enable/disable sounds in Canberra (bug
-    #4367).</li>
+    <li>Add optional UI options to enable/disable sounds in Canberra
+    (<?php bug(4367) ?>).</li>
     <li>Add GUI for selecting/changing the keyboard layout.</li>
     <li>Translation updates: Dutch, Finnish, German.</li>
 </ul>
