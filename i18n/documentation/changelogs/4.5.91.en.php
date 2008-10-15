@@ -5,7 +5,6 @@ function bug ($id){
 ?>
 
 <h1>Xfce 4.6 BETA 1 (4.5.91) Changelog</h1>
-This document is a stub
 
 <h3>Development tools <em>(xfce4-dev-tools)</em>:</h3>
 <ul>
