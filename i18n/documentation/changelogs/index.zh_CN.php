@@ -2,6 +2,11 @@
 <p>
 	以下是各个版本的更新日志，请选择阅读。
 </p>
+<h3>Xfce 4.6:</h3>
+<ul>
+	<li><a href="/documentation/changelogs/4.5.91">4.5.91</a></li>
+	<li><a href="/documentation/changelogs/4.5.90">4.5.90</a></li>
+</ul>
 
 <h3>Xfce 4.4:</h3>
 <ul>

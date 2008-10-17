@@ -2,6 +2,11 @@
 <p>
 	Os changelogs do Xfce são específicos da versão. Por favor, seleccione a versão da lista abaixo para ler o changelog.
 </p>
+<h3>Xfce 4.6:</h3>
+<ul>
+	<li><a href="/documentation/changelogs/4.5.91">4.5.91</a></li>
+	<li><a href="/documentation/changelogs/4.5.90">4.5.90</a></li>
+</ul>
 
 <h3>Xfce 4.4:</h3>
 <ul>

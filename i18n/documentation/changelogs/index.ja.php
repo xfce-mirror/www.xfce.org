@@ -2,6 +2,11 @@
 <p>
 	更新履歴はバージョンごとになっています。下のリストから確認したいバージョンを選びクリックしてください。
 </p>
+<h3>Xfce 4.6:</h3>
+<ul>
+	<li><a href="/documentation/changelogs/4.5.91">4.5.91</a></li>
+	<li><a href="/documentation/changelogs/4.5.90">4.5.90</a></li>
+</ul>
 
 <h3>Xfce 4.4:</h3>
 <ul>
