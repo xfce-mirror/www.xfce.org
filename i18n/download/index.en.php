@@ -1,5 +1,5 @@
 <?php
-    include ("version.php");
+    include_once ("version.php");
 ?>
 <a name="stable"></a>
 <h1>Download Stable version (<?php echo $version; ?>) </h1>
