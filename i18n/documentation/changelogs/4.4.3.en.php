@@ -15,20 +15,20 @@ function bug ($id){
 ?>
 <h1>Xfce 4.4.3 Changelog</h1>
 
-<h3>Panel <em>(xfce4-panel'); ?>)</em>:</h3>
+<h3>Panel <em>(xfce4-panel)</em>:</h3>
 <ul>
 <li>Quite a bit code changed in the dnd code. Mostly to fix a segfault in FreeBSD-amd64, but more problems were discovered and a lot of code was simplified.</li>
 <li>Don't respond the uri drags, we don't use it and it only causes problems like hiding the panel when a file was dragged over the panel (<?php bug('3815'); ?>).</li>
 <li>Fix crash with xrandr 1.2 (<?php bug('3620'); ?>)</li>
 </ul>
 
-<h3>Desktop Manager <em>(xfdesktop'); ?>)</em>:</h3>
+<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
 <li>Make menu panel plugin honor CustomizeDesktopMenu kiosk setting (<?php bug('1026'); ?>).</li>
-<li>Fix incorrect initial desktop font size when setting custom font size if a custom font was never set before (Bug 3957'); ?>).</li>
+<li>Fix incorrect initial desktop font size when setting custom font size if a custom font was never set before (<?php bug('3957'); ?>).</li>
 </ul>
 
-<h3>Window Manager <em>(xfwm4'); ?>)</em>:</h3>
+<h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
 <li>Fix automaximize on move</li>
 <li>Remove trailing \0 in UTF-8 strings, that causes libwnck to rightfully complain that NET_WM_NAME contains invalid UTF-8</li>
@@ -47,27 +47,27 @@ function bug ($id){
 <li>Add a "--replace" command line option to replace ICCCM2 compliant window  managers (<?php bug('3731'); ?>)</li>
 </ul>
 
-<h3>Widget Library <em>(libxfcegui4'); ?>)</em>:</h3>
+<h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
 <li>Fix format-string vulnerability in dialog code</li>
 </ul>
 
-<h3>Terminal emulator <em>(Terminal'); ?>)</em>:</h3>
+<h3>Terminal emulator <em>(Terminal)</em>:</h3>
 <ul>
 <li>Update to latest trunk translations.</li>
 </ul>
 
-<h3>File manager <em>(Thunar'); ?>)</em>:</h3>
+<h3>File manager <em>(Thunar)</em>:</h3>
 <ul>
 <li>Update to latest trunk translations.</li>
 </ul>
 
-<h3>Text editor <em>(mousepad'); ?>)</em>:</h3>
+<h3>Text editor <em>(mousepad)</em>:</h3>
 <ul>
 <li>Sort recent items by most recently used.</li>
 </ul>
 
-<h3>Utilities <em>(xfce-utils'); ?>)</em>:</h3>
+<h3>Utilities <em>(xfce-utils)</em>:</h3>
 <ul>
 <li>Fix missing translated chars (<?php bug('3543'); ?>)</li>
 </ul>
