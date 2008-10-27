@@ -2,10 +2,10 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Выгрузіць Xfce 4.4.2">Выгрузіць Xfce 4.4.2</a></h2>
+				<h2><a href="/download/" title="Выгрузіць Xfce 4.4.3">Выгрузіць Xfce 4.4.3</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.2" title="Глядзець зьмены ў ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Што новага ў Xfce 4.4">Вандроўка</a></p>
+				<p><a href="/documentation/changelogs/4.4.3" title="Глядзець зьмены ў ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Што новага ў Xfce 4.4">Вандроўка</a></p>
 			</div>
 		</div>
 	</div>

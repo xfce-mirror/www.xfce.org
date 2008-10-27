@@ -2,10 +2,10 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Download Xfce 4.4.2">Download Xfce 4.4.2</a></h2>
+				<h2><a href="/download/" title="Download Xfce 4.4.3">Download Xfce 4.4.3</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.2" title="Read the ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.4.3" title="Read the ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.4">Tour</a></p>
 			</div>
 		</div>
 	</div>

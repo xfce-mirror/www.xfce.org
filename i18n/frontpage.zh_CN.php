@@ -2,10 +2,10 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="下载 Xfce 4.4.2">下载 Xfce 4.4.2</a></h2>
+				<h2><a href="/download/" title="下载 Xfce 4.4.3">下载 Xfce 4.4.3</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.2" title="阅读更新日志">更新日志</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4 中有何新东西">漫游</a></p>
+				<p><a href="/documentation/changelogs/4.4.3" title="阅读更新日志">更新日志</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4 中有何新东西">漫游</a></p>
 			</div>
 		</div>
 	</div>
