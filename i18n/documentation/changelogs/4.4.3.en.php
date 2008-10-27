@@ -32,7 +32,7 @@ function bug ($id){
 <ul>
 <li>Fix automaximize on move</li>
 <li>Remove trailing \0 in UTF-8 strings, that causes libwnck to rightfully complain that NET_WM_NAME contains invalid UTF-8</li>
-<li>Exit on SelectionClear event so that xfwm4 exits even with WM who do not send a ClientMEssage event such as Openbox (<?php bug('2374'); ?>)</li>
+<li>Exit on SelectionClear event so that xfwm4 exits even with WM who do not send a ClientMessage event such as Openbox (<?php bug('2374'); ?>)</li>
 <li>Backport overlay and compositor support from trunk (<?php bug('3849'); ?>)</li>
 <li>Filter out grab/ungrab events so we don't end up redrawing the frame twice</li>
 <li>Set monitor when positionning menu (<?php bug('4162'); ?>)</li>
