@@ -42,7 +42,8 @@ $news = array (
                      "[br]".
                      "Check out the [link=/download#stable]downloads page[/link] for ".
                      "your closest mirror.",
-
+    ),
+    array(
         'id'      => 16,
         'date'    => '15 oct 2008',
         'author'  => 'Stephan Arts',
