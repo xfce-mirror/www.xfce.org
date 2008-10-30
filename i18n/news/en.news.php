@@ -28,6 +28,21 @@ $news = array (
     ),
 */
     array (
+        'id'      => 17,
+        'date'    => '30 oct 2008',
+        'author'  => 'Brian Tarricone',
+        'title'   => 'Xfce 4.4.3 released',
+        'content' => "Just because we're gearing up to release 4.6.0, it doesn't mean ".
+                     "we've forgotten the 4.4 branch.  A bunch of bug fixes had ".
+                     "accumulated since 4.4.2, so we have a new release for you.[br]".
+                     "[br]".
+                     "As usual, the stable branch only contains bug fixes, and no new ".
+                     "features.  The list of changes from 4.4.2 is not yet available, ".
+                     "but should hopefully be posted before too long.[br]".
+                     "[br]".
+                     "Check out the [link=/download#stable]downloads page[/link] for ".
+                     "your closest mirror.",
+
         'id'      => 16,
         'date'    => '15 oct 2008',
         'author'  => 'Stephan Arts',

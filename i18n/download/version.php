@@ -2,14 +2,14 @@
 /* the version number here */
 $version       = "4.4.3";
 $sf_package_id = "187881";  /* corresponds to xfce-4.4 package */
-$sf_release_id = "558731";
+$sf_release_id = "636299";
 
 /* uncomment these to have an unstable release appear */
 $version_unstable = "4.5.91";
 $sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */
-$sf_release_id_unstable = "626165";
+$sf_release_id_unstable = "636901";
 
-/* list of Xfce server */
+/* list of Xfce mirrors */
 $servers = array (
   "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&package_id=$sf_package_id&release_id=$sf_release_id",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version/",
