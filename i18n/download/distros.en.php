@@ -1,4 +1,4 @@
-<h1>Xfce Orientated Distributions</h1>
+<h1>Xfce-Based Distributions</h1>
 <p>Here is a list of distributions using Xfce as their native desktop.</p>
 
 <table border="0" cellspacing="10" cellpadding="0">
