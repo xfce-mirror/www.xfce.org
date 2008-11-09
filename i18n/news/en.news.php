@@ -37,8 +37,8 @@ $news = array (
                      "accumulated since 4.4.2, so we have a new release for you.[br]".
                      "[br]".
                      "As usual, the stable branch only contains bug fixes, and no new ".
-                     "features.  The list of changes from 4.4.2 is not yet available, ".
-                     "but should hopefully be posted before too long.[br]".
+                     "features.  The list of changes from 4.4.2 is available ".
+                     "[link=/documentation/changelogs/4.4.3]here[/link].[br]".
                      "[br]".
                      "Check out the [link=/download#stable]downloads page[/link] for ".
                      "your closest mirror.",
