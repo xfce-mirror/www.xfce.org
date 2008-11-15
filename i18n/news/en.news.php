@@ -31,7 +31,7 @@ $news = array (
         'id'      => 18,
         'date'    => "15 nov 2008",
         'author'  => "Stephan Arts",
-        'title'   => "Xfce 4.6 Beta 2 released",
+        'title'   => "Xfce 4.6 Beta 2 (Hopper) released",
         'content' => "The second Beta was delayed for 2 weeks, but it was worth it.[br]".
                      "every feature we made a freeze-exception for has made it into this release.[br]".
                      "This means a lot of bugs have been fixed this time aswell:".
