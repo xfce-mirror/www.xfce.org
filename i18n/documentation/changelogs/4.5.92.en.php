@@ -55,7 +55,7 @@ function bug ($id){
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
     <li>Display 'Audio' and 'Video' categories in the multimedia submenu.</li>
-    <li>Fix multiple image selection in settings dialog file chooser (<? php bug(4522) ?>).</li>
+    <li>Fix multiple image selection in settings dialog file chooser (<?php bug(4522) ?>).</li>
 </ul>
 
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
