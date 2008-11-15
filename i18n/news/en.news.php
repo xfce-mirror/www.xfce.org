@@ -44,7 +44,7 @@ $news = array (
                      "A complete list of changes can be found at ".
                      "[url=http://www.xfce.org/documentation/changelogs/4.5.92]this location[/url].[br]".  
                      "Once again, the translators have done a great job on translating Xfce in their native language.[br]".
-                     "We will probably see Xfce 4.6 be translated in more languages then ever before thanks to their effords.".
+                     "We will probably see Xfce 4.6 be translated in more languages then ever before thanks to their hard work.".
                      "[br][br]".
                      "Getting excited? You can download Xfce 4.6 BETA-2 from ".  
                      "[link=download/#unstable]here[/link].".  
