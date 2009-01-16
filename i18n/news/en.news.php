@@ -28,6 +28,34 @@ $news = array (
     ),
 */
     array (
+        'id'      => 19,
+        'date'    => "14 jan 2009",
+        'author'  => "Stephan Arts",
+        'title'   => "Xfce 4.6 Beta 3 (Tuco-Tuco) released",
+        'content' => "".
+                     "I am pleased to announce the release of Xfce 4.6 BETA-3.".
+                     "[br][br]".
+                     "Just like with the previous BETA, this release comes with a lot of ".
+                     "bugfixes but is not expected to be 100% stable. This is why we want to ".
+                     "encourage you to test this release to it's limits and tell us what ".
+                     "breaks.".
+                     "[br][br]".
+                     "Ofcourse, as this is a development release, we do not advise anyone to ".
+                     "use this on a production environment just yet.".
+                     "[br][br]".
+                     "With this release, we enter a string-freeze period until the release ".
+                     "of 4.6.0 final. This will give the translators a few weeks time to ".
+                     "update their translations.".
+                     "[br][br]".
+                     "You can find a complete list of changes at ".
+                     "[link=/documentation/changelogs/4.5.93]this location[/link]. And you ".
+                     "can download this release from [link=/download#unstable]here[/link].".
+                     "[br][br]".
+                     "Have fun,[br]".
+                     "The Xfce Development Team"
+                     "",
+    ),
+    array (
         'id'      => 18,
         'date'    => "15 nov 2008",
         'author'  => "Stephan Arts",
