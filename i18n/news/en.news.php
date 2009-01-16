@@ -52,7 +52,7 @@ $news = array (
                      "can download this release from [link=/download#unstable]here[/link].".
                      "[br][br]".
                      "Have fun,[br]".
-                     "The Xfce Development Team"
+                     "The Xfce Development Team".
                      "",
     ),
     array (
