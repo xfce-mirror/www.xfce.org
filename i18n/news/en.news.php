@@ -38,9 +38,9 @@ $news = array (
                      "If no serious bugs are found, this is going to be the state of the final release (plus ".
                      "translation updates). ".
                      "This Release Candidate is the first 4.6 release that comes with graphical installers for ".
-                     "the main components and one for the goodies.".
+                     "the main components and goodies.".
                      "[br][br]".
-                     "The release comes with several fixes for critical bugs and crashes found in Beta 3.".
+                     "The release comes with several fixes for critical bugs and crashes found in Beta 3. ".
                      "Unfortunately, there were a few occasions where we had to break the string-freeze in ".
                      "order to improve error reporting (sorry to the translators). ".
                      "[br][br]".
@@ -63,7 +63,7 @@ $news = array (
                      "- Taskmanager (0.4.1)[br]".
                      "- Dictionary (0.5.2)[br]".
                      "- Notification Daemon (0.1.0)[br]".
-                     "- Ristretto (0.0.21)[br]".
+                     "- Ristretto (0.0.21)".
                      "[br][br]".
                      "You can download the source code of the individual main components, ".
                      "a fat tarball containing all of them and the installers ".
