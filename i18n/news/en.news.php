@@ -41,7 +41,7 @@ $news = array (
                      "the main components and one for the goodies.".
                      "[br][br]".
                      "The release comes with several fixes for critical bugs and crashes found in Beta 3.".
-                     "Unfortunately, there were a few occasions where we had to break the string-freeze in "
+                     "Unfortunately, there were a few occasions where we had to break the string-freeze in ".
                      "order to improve error reporting (sorry to the translators). ".
                      "[br][br]".
                      "The goodies installer comes with the following goodies:[br]".
