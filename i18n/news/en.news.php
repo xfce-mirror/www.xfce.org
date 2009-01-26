@@ -31,21 +31,20 @@ $news = array (
         'id'      => 20,
         'date'    => "26 jan 2009",
         'author'  => "Stephan Arts",
-        'title'   => "Xfce 4.6 RC 1(Capybara) released",
+        'title'   => "Xfce 4.6 Release Candidate 1 (Capybara) released",
         'content' => "Hello everybody,".
                      "[br][br]".
-                     "Shortly after BETA-3, I am pleased to announce the (first) Release Candidate for Xfce 4.6.".
-                     "If no serious bugs are found, this is going to be the final release. ".
-                     "(plus the updates to the translations)".
-                     "RC-1 is the first 4.6 release that comes with installers.".
-                     "One for the main-packages and one for the goodies.".
+                     "Shortly after Beta 3, we are pleased to announce the first Release Candidate for Xfce 4.6. ".
+                     "If no serious bugs are found, this is going to be the state of the final release (plus ".
+                     "translation updates). ".
+                     "This Release Candidate is the first 4.6 release that comes with graphical installers for ".
+                     "the main components and one for the goodies.".
                      "[br][br]".
-                     "This release comes with several fixes for crashes found in BETA-3.".
-                     "Unfortunately, there are a few occasions where we had to break ".
-                     "the string-freeze (sorry to the translators). ".
-                     "There where a few bugs with missing strings required for error-reporting.".
+                     "The release comes with several fixes for critical bugs and crashes found in Beta 3.".
+                     "Unfortunately, there were a few occasions where we had to break the string-freeze in "
+                     "order to improve error reporting (sorry to the translators). ".
                      "[br][br]".
-                     "The goodies-installer comes with the following goodies:[br]".
+                     "The goodies installer comes with the following goodies:[br]".
                      "- Verve Plugin (0.3.6)[br]".
                      "- Disk Performance Plugin (2.2.0)[br]".
                      "- Keyboard Layout Switcher (0.5.2)[br]".
@@ -66,14 +65,13 @@ $news = array (
                      "- Notification Daemon (0.1.0)[br]".
                      "- Ristretto (0.0.21)[br]".
                      "[br][br]".
-                     "You can download the source-code of the main modules, ".
-                     "a fat-tarball and the installers from ".
-                     "[link=/download#unstable]here[/link]. And you can see a list ".
-                     "of changes on ".
-                     "[link=/documentation/changelogs/4.5.99.1]this location[/link]. ".
+                     "You can download the source code of the individual main components, ".
+                     "a fat tarball containing all of them and the installers ".
+                     "[link=/download#unstable]here[/link]. A list of changes can be found on ".
+                     "[link=/documentation/changelogs/4.5.99.1]this page[/link]. ".
                      "[br][br]".
-                     "Regards,".
-                     "Xfce development team".
+                     "Regards,[br]".
+                     "The Xfce development team".
                      "",
     ),
     array (
