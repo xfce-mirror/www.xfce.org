@@ -28,6 +28,55 @@ $news = array (
     ),
 */
     array (
+        'id'      => 20,
+        'date'    => "26 jan 2009",
+        'author'  => "Stephan Arts",
+        'title'   => "Xfce 4.6 RC 1(Capybara) released",
+        'content' => "Hello everybody,".
+                     "[br][br]".
+                     "Shortly after BETA-3, I am pleased to announce the (first) Release Candidate for Xfce 4.6.".
+                     "If no serious bugs are found, this is going to be the final release. ".
+                     "(plus the updates to the translations)".
+                     "RC-1 is the first 4.6 release that comes with installers.".
+                     "One for the main-packages and one for the goodies.".
+                     "[br][br]".
+                     "This release comes with several fixes for crashes found in BETA-3.".
+                     "Unfortunately, there are a few occasions where we had to break ".
+                     "the string-freeze (sorry to the translators). ".
+                     "There where a few bugs with missing strings required for error-reporting.".
+                     "[br][br]".
+                     "The goodies-installer comes with the following goodies:[br]".
+                     "- Verve Plugin (0.3.6)[br]".
+                     "- Disk Performance Plugin (2.2.0)[br]".
+                     "- Keyboard Layout Switcher (0.5.2)[br]".
+                     "- Timer Plugin (0.6.1)[br]".
+                     "- Date and Time Plugin with Calendar (0.6.1)[br]".
+                     "- Places Plugin (1.1.0)[br]".
+                     "- Mount devices (0.5.5)[br]".
+                     "- Mail Watch Plugin (1.1.0)[br]".
+                     "- Notes Plugin (1.6.3)[br]".
+                     "- Free Space Checker Plugin (0.4.2)[br]".
+                     "- MusicPD Client Plugin (0.3.3)[br]".
+                     "- Wavelan Plugin (0.5.4)[br]".
+                     "- V4l Radio Plugin (0.3.1)[br]".
+                     "- Screenshooter (1.5.0)[br]".
+                     "- Xfburn (0.4.0)[br]".
+                     "- Taskmanager (0.4.1)[br]".
+                     "- Dictionary (0.5.2)[br]".
+                     "- Notification Daemon (0.1.0)[br]".
+                     "- Ristretto (0.0.21)[br]".
+                     "[br][br]".
+                     "You can download the source-code of the main modules, ".
+                     "a fat-tarball and the installers from ".
+                     "[link=/download#unstable]here[/link]. And you can see a list ".
+                     "of changes on ".
+                     "[link=/documentation/changelogs/4.5.99.1]this location[/link]. ".
+                     "[br][br]".
+                     "Regards,".
+                     "Xfce development team".
+                     "",
+    ),
+    array (
         'id'      => 19,
         'date'    => "14 jan 2009",
         'author'  => "Stephan Arts",

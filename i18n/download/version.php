@@ -5,7 +5,7 @@ $sf_package_id = "187881";  /* corresponds to xfce-4.4 package */
 $sf_release_id = "636299";
 
 /* uncomment these to have an unstable release appear */
-$version_unstable = "4.5.93";
+$version_unstable = "4.5.99.1";
 $sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */ 
 $sf_release_id_unstable = "640705";
 
