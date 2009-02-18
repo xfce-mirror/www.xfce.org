@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Shkarkoni Xfce 4.4.3">Shkarkoni Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="Shkarkoni Xfce 4.6.0">Shkarkoni Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="Lexoni Regjistrin e Ndryshimeve">Regjistër Ndryshimesh</a><span class="grey"> | </span><a href="/about/tour" title="Ç'ka të re në Xfce 4.4">Tur</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="Lexoni Regjistrin e Ndryshimeve">Regjistër Ndryshimesh</a><span class="grey"> | </span><a href="/about/tour" title="Ç'ka të re në Xfce 4.6">Tur</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Rreth Xfce-së</h1>
 		<p>Xfce-ja është një mjedis desktop i peshës së lehtë për sisteme të ndryshëms *NIX. Hartuar për produktivitet, i ngarkon dhe ekzekuton shpejt zbatimet, duke kursyer kështu burimet e sistemit.</p>
-		<p>Xfce 4.4 mishëron filozofinë tradicionale UNIX të modularitetit dhe të ripërdorshmërisë. Përbëhet nga një numër përbërësish që së bashku japin punimin e plotë të mjedisit desktop. Këta janë të paketuar veçmas dhe mund të zgjidhni e merrni nga paketat e gatshme e të krijoni mjedisin vetjak më të mirë të punës.</p>
+		<p>Xfce 4.6 mishëron filozofinë tradicionale UNIX të modularitetit dhe të ripërdorshmërisë. Përbëhet nga një numër përbërësish që së bashku japin punimin e plotë të mjedisit desktop. Këta janë të paketuar veçmas dhe mund të zgjidhni e merrni nga paketat e gatshme e të krijoni mjedisin vetjak më të mirë të punës.</p>
 		<p class="readmore"><a href="/about/" title="Mësoni më tepër rreth Xfce...">mësoni më tepër</a></p>
 	</div>
 </div>

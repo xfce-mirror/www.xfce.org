@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Xfce 4.4.3 Deskargatu">Xfce 4.4.3 Deskargatu</a></h2>
+				<h2><a href="/download/" title="Xfce 4.6.0 Deskargatu">Xfce 4.6.0 Deskargatu</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="Aldaketa erregistroa irakurri">Aldaketa erregistroak</a><span class="grey"> | </span><a href="/about/tour" title="Zein berrikuntza daude Xfce 4.4-ean">Ikustaldia</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="Aldaketa erregistroa irakurri">Aldaketa erregistroak</a><span class="grey"> | </span><a href="/about/tour" title="Zein berrikuntza daude Xfce 4.6-ean">Ikustaldia</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Xfce-ri buruz</h1>
 		<p>Xfce zenbait *NIX sistemetarako idazmahai ingurune arin bat da. Produktibitatean pentsatuz garatua, aplikazioak azkar irekitzen ditu sistema errekurtsoak mantenduaz.</p>
-		<p>Xfce 4.4-ak modularitate eta berrerabilpen UNIX filosofia
+		<p>Xfce 4.6-ak modularitate eta berrerabilpen UNIX filosofia
                 tradizionala erabiltzen du. Berau elkarrekin idazmahai ingurune
                 funtzionalitate guztiak dituzten elementuez osaturik dago. Pakete
                 ezberdinetan banatzen dira beharren arabera paketeak aukeratuaz

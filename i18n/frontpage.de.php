@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Xfce 4.4.3 herunterladen">Download von Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="Xfce 4.6.0 herunterladen">Download von Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="ChangeLog lesen">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Was ist neu an Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="ChangeLog lesen">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Was ist neu an Xfce 4.6">Tour</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Über Xfce</h1>
 		<p>Xfce ist eine schlanke grafische Arbeitsumgebung für verschiedene *NIX-Systeme. Da sie auf Produktivität optimiert ist, kann sie Anwendungen schnell laden und ausführen und dennoch Systemressourcen schonen.</p>
-		<p>Xfce 4.4 verkörpert die traditionelle UNIX-Philosophie der Modularität und Wiederverwendbarkeit. Es besteht aus einer Vielzahl von Komponenten, die zusammen für die volle Funktionalität der Arbeitsumgebung sorgen. Diese Komponenten stehen als  frei wählbare Einzelpakete zur Verfügung, aus denen Sie die für Sie ideale, persönliche Arbeitsumgebung erschaffen.</p>
+		<p>Xfce 4.6 verkörpert die traditionelle UNIX-Philosophie der Modularität und Wiederverwendbarkeit. Es besteht aus einer Vielzahl von Komponenten, die zusammen für die volle Funktionalität der Arbeitsumgebung sorgen. Diese Komponenten stehen als  frei wählbare Einzelpakete zur Verfügung, aus denen Sie die für Sie ideale, persönliche Arbeitsumgebung erschaffen.</p>
 		<p class="readmore"><a href="/about/" title="Erfahren Sie mehr über Xfce...">Mehr erfahren</a></p>
 	</div>
 </div>

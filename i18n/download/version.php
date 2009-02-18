@@ -1,13 +1,13 @@
 <?php
 /* the version number here */
-$version       = "4.4.3";
-$sf_package_id = "187881";  /* corresponds to xfce-4.4 package */
-$sf_release_id = "636299";
+$version       = "4.6.0";
+$sf_package_id = "291314";  /* corresponds to xfce-4.6 package */
+$sf_release_id = "640705";
 
 /* uncomment these to have an unstable release appear */
-$version_unstable = "4.5.99.1";
-$sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */ 
-$sf_release_id_unstable = "640705";
+//$version_unstable = "4.5.99.1";
+//$sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */ 
+//$sf_release_id_unstable = "640705";
 
 /* list of Xfce mirrors */
 $servers = array (

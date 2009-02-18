@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="下载 Xfce 4.4.3">下载 Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="下载 Xfce 4.6.0">下载 Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="阅读更新日志">更新日志</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4 中有何新东西">漫游</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="阅读更新日志">更新日志</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.6 中有何新东西">漫游</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>关于 Xfce</h1>
 		<p><em>Xfce 是一款适用于多种 *NIX 系统的轻量级桌面环境。它被设计用来提高您的效率，在节省系统资源的同时，能够快速加载和执行应用程序。</em> - <strong>Olivier Fourdan, Xfce 创始人</strong></p>
-		<p>Xfce 4.4 体现了传统 UNIX 哲学中的模块化和可复用性。它包含一系列的组件，这些组件一起提供了一个桌面环境的全部功能。所有组件都被独立打包，您可以自行选择安装各组件来构件一个属于您自己的最佳工作环境。</p>
+		<p>Xfce 4.6 体现了传统 UNIX 哲学中的模块化和可复用性。它包含一系列的组件，这些组件一起提供了一个桌面环境的全部功能。所有组件都被独立打包，您可以自行选择安装各组件来构件一个属于您自己的最佳工作环境。</p>
 		<p class="readmore"><a href="/about/" title="了解更多关于 Xfce 的信息...">了解更多</a></p>
 	</div>
 </div>

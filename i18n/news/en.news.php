@@ -27,6 +27,15 @@ $news = array (
         'content' => '<stuff you want to say>',
     ),
 */
+
+    array (
+        'id'      => 21,
+        'date'    => "xx Feb 2009",
+        'author'  => "Stephan Arts",
+        'title'   => "Xfce 4.6 Final Released",
+        'content' => "".
+                     "",
+    ),
     array (
         'id'      => 20,
         'date'    => "26 jan 2009",

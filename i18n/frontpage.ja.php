@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Xfce 4.4.3をダウンロードする">Xfce 4.4.3をダウンロードする</a></h2>
+				<h2><a href="/download/" title="Xfce 4.6.0をダウンロードする">Xfce 4.6.0をダウンロードする</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="更新履歴を読む">更新履歴</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.4の新しいところは何？">ツアー</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="更新履歴を読む">更新履歴</a><span class="grey"> | </span><a href="/about/tour" title="Xfce 4.6の新しいところは何？">ツアー</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Xfceについて</h1>
 		<p><em>「Xfce は様々な*NIXシステム用の軽快なデスクトップ環境です。生産性を優先して設計されているため、古い保守的なシステムでも、アプリケーションのロードと実行をすばやくできます。」</em> - <strong>Olivier Fourdan, Xfce創始者</strong></p>
-		<p>Xfce 4.4はモジュラ性や再利用性の伝統的なUNIXの考え方を重要視していて、
+		<p>Xfce 4.6はモジュラ性や再利用性の伝統的なUNIXの考え方を重要視していて、
 		デスクトップ環境のすべての機能性を一緒に提供する沢山のコンポーネントを構成しています。
 		パッケージは分かれていますので、最高の自分の環境を作るために、自分で必要だと思うパッケージだけを選ぶことができます。</p>
 		<p class="readmore"><a href="/about/" title="Xfceについて更に読む...">更に読む</a></p>

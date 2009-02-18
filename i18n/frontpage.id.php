@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Unduh Xfce 4.4.3">Unduh Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="Unduh Xfce 4.6.0">Unduh Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="Baca berkas Catatan Perubahan">Catatan Peruban</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.4">Tur Keliling</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="Baca berkas Catatan Perubahan">Catatan Peruban</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.6">Tur Keliling</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>Tentang Xfce</h1>
 		<p><em>"Xfce adalah lingkungan destop ringan untuk berbagai sistem *NIX. Didesain untuk produktivitas, Xfce memuat dan mengeksekusi aplikasi secara cepat, sementara tetap menjaga sumber daya sistem."</em> - <strong>Olivier Fourdan, pembuat Xfce</strong></p>
-		<p>Xfce 4.4 mengikuti filosofi tradisional UNIX tentang modularitas dan kemudahan penggunaan. Xfce 4.4 berisi sejumlah komponen yang bersama-sama menyediakan fungsionalitas penuh lingkungan destop. Komponen ini dipaketkan secara terpisah dan anda dapat memilih paket yang tersedia untuk membuat lingkungan kerja personal terbaik.</p>
+		<p>Xfce 4.6 mengikuti filosofi tradisional UNIX tentang modularitas dan kemudahan penggunaan. Xfce 4.6 berisi sejumlah komponen yang bersama-sama menyediakan fungsionalitas penuh lingkungan destop. Komponen ini dipaketkan secara terpisah dan anda dapat memilih paket yang tersedia untuk membuat lingkungan kerja personal terbaik.</p>
 		<p class="readmore"><a href="/about/" title="Pelajari lebih jauh tentang Xfce...">pelajari lebih jauh</a></p>
 	</div>
 </div>

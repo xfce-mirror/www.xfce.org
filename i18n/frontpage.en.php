@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Download Xfce 4.4.3">Download Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="Download Xfce 4.6.0">Download Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="Read the ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="Read the ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.6">Tour</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>About Xfce</h1>
 		<p><em>"Xfce is a lightweight desktop environment for various *NIX systems. Designed for productivity, it loads and executes applications fast, while conserving system resources."</em> - <strong>Olivier Fourdan, creator of Xfce</strong></p>
-		<p>Xfce 4.4 embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that together provide the full functionality of the desktop environment. They are packaged separately and you can pick and choose from the available packages to create the best personal working environment.</p>
+		<p>Xfce 4.6 embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that together provide the full functionality of the desktop environment. They are packaged separately and you can pick and choose from the available packages to create the best personal working environment.</p>
 		<p class="readmore"><a href="/about/" title="Learn more about Xfce...">learn more</a></p>
 	</div>
 </div>

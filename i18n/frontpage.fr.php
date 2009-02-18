@@ -2,17 +2,17 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Télécharger Xfce 4.4.3">Télécharger Xfce 4.4.3</a></h2>
+				<h2><a href="/download/" title="Télécharger Xfce 4.6.0">Télécharger Xfce 4.6.0</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.4.3" title="Lire le fichier ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Quelles sont les nouveautés dans Xfce 4.4">Tour</a></p>
+				<p><a href="/documentation/changelogs/4.6.0" title="Lire le fichier ChangeLog">ChangeLogs</a><span class="grey"> | </span><a href="/about/tour" title="Quelles sont les nouveautés dans Xfce 4.6">Tour</a></p>
 			</div>
 		</div>
 	</div>
 	<div id="front-intro-about">
 		<h1>À propos de Xfce</h1>
 		<p><em>« Xfce est un environnement de bureau léger pour divers systèmes *NIX. Conçu pour la productivité, il charge et exécute les applications rapidement, tout en conservant les ressources du système. »</em> - <strong>Olivier Fourdan, creator of Xfce</strong></p>
-		<p>Xfce 4.4 adhère à la traditionnelle philosophie UNIX de modularité et réutilisation. Xfce se compose de plusieurs modules qui, une fois rassemblés, offrent toutes les fonctionnalités de l'environnement de bureau. Ces modules sont empaquetés séparément afin que vous puissiez choisir vous-même et créer un environnement de bureau personnalisé.</p>
+		<p>Xfce 4.6 adhère à la traditionnelle philosophie UNIX de modularité et réutilisation. Xfce se compose de plusieurs modules qui, une fois rassemblés, offrent toutes les fonctionnalités de l'environnement de bureau. Ces modules sont empaquetés séparément afin que vous puissiez choisir vous-même et créer un environnement de bureau personnalisé.</p>
 		<p class="readmore"><a href="/about/" title="En savoir plus à propos de Xfce...">en savoir plus</a></p>
 	</div>
 </div>

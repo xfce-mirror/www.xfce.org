@@ -25,7 +25,7 @@ $credits['project-lead'] = array (
 
 $credits['core-developers'] = array (
     array ('Benedikt Meurer', 'benny', 'xfce.org', 'Thunar, Terminal, Session Manager, Libexo',),
-    array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Media Player',),
+    array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf',),
     array ('Danny Milosavljevic', 'dannym', 'xfce.org', 'Volume Control',),
     array ('Eduard Roccatello', 'eduard', 'xfce.org', 'Application Finder',),
     array ('Erik Harrison', 'erikharrison ', 'xfce.org', 'Text Editor',),
@@ -35,6 +35,9 @@ $credits['core-developers'] = array (
     array ('Jean-François Wauthy', 'pollux', 'xfce.org', 'Printer Manager, CD burning application',),
     array ('Mickaël Graf', 'korbinus', 'xfce.org', 'Calendar',),
     array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager')
+    array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, libxfce4menu'),
+    array ('Nick Schermer', 'nick', 'xfce.org', 'Panel'),
+    array ('Stephan Arts', 'stephan', 'xfce.org', '')
     );
 
 $credits['server-and-website'] = array (
@@ -45,9 +48,6 @@ $credits['server-and-website'] = array (
 
 $credits['contributors-active'] = array (
     array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
-    array ('Jannis Pohlmann', 'jannis', 'xfce.org'),
-    array ('Nick Schermer', 'nick', 'xfce.org'),
-    array ('Stephan Arts', 'stephan', 'xfce.org')
     );
 
 $credits['contributors-previous'] = array (
