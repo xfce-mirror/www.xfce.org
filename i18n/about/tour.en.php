@@ -5,6 +5,21 @@ available. We will try to highlight some of the new features which have been add
 the last stable release.
 </p>
 
+<h2>Improved desktop experience <a name="xfdesktop"></a></h2>
+
+<p align="justify">Since desktop icons have been introduced in Xfce 4.4, people have expressed
+the need to allow the selection of multiple icons (rubber banding). With Xfce 4.6, the
+<b>Xfdesktop</b> manager finally implements this feature: you can select multiple icons, move
+them, remove them...</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png" alt="Multiple icons selection" /></p>
+
+<p align="justify">Xfce 4.6 also features a brand new desktop menu which allows you to manipulate files
+as with the <b>Thunar</b> filemanager contextual menu, but also to open applications, exit your session or
+access to the help.</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfdesktop-menu.png" alt="New desktop menu" /></p>
+
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
 <p align="justify">
@@ -59,8 +74,6 @@ The <b>Accessibility settings</b> dialog allows you to set the accessibility rel
 <p align="center"><img src="/images/about/tour/4.6/xfce4-mouse-settings.png" alt="Mouse settings dialog" /></p>
 
 <p align="justify">The <b>Mouse settings</b> dialog allows you to configure the different mouses plugged to your computer : button order, acceleration, double clic speed, mouse theme...</p>
-
-
 
 
 <h2>Feedback<a name="feedback"></a></h2>
