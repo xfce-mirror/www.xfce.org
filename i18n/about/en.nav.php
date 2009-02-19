@@ -1,7 +1,7 @@
 <ul>
 	<li><a href="/about/">About</a></li>
 	<li><a href="/about/features">Features</a></li>
-	<li><a href="/about/tour">Xfce 4.4 Tour</a>
+	<li><a href="/about/tour">Xfce 4.6 Tour</a>
 		<ul>
 			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunar Features</a></li>
 		</ul>
