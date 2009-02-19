@@ -54,7 +54,7 @@ $news = array (
                      "does not respond, and kindly asks the user if he wants to terminate the application.[br]".
                      "[br]".
                      "These are just a few highlights, for a complete list of changes, you can take a look ".
-                     "[link=/documentation/changelogs/4.6.0]here[link]. ".
+                     "[link=/documentation/changelogs/4.6.0]here[/link]. ".
                      "Check out the [link=/download#stable]downloads page[/link] for ".
                      "your closest mirror.",
                      "",
