@@ -30,10 +30,33 @@ $news = array (
 
     array (
         'id'      => 21,
-        'date'    => "xx Feb 2009",
+        'date'    => "01 Jan 1970",
         'author'  => "Stephan Arts",
         'title'   => "Xfce 4.6 Final Released",
-        'content' => "".
+        'content' => "It has been a while since the world has seen a new major version of Xfce. ".
+                     "But after a little more then 2 years of development, Xfce 4.6 is finally a reality.[br]".
+                     "[br]".
+                     "Many of the changes in this release happened under the ".
+                     "hood, changes like:[br]".
+                     "- A new settings manager, the old mcs-manager has been ".
+                     "replaced by a combination of the D-BUS based xfconf + xfce4-settings[br]".
+                     "- A new menu implementation, based on the freedesktop.org menu spec.[br]".
+                     "- A new XSETTINGS daemon, supporting many more XSETTINGS then the mcs-manager ".
+                     "did in previous versions of Xfce, including the key required to disable event-sounds from Gtk+ >= 2.14[br]".
+                     "[br]".
+                     "And many changes that where more visible to the user:[br]".
+                     "- A new mixer, based on gstreamer it now supports more ".
+                     "audion back-ends, and is easier to maintain in future ".
+                     "releases.[br]".
+                     "- Rubberbanding selection on the desktop, it is now possible to select icons on the desktop by dragging a ".
+                     "box around them, just like in the file-manager.[br]".
+                     "- NET_WM_PING support in the window-manager, the window-manager will now notify the user if an application ".
+                     "does not respond, and kindly asks the user if he wants to terminate the application.[br]".
+                     "[br]".
+                     "These are just a few highlights, for a complete list of changes, you can take a look ".
+                     "[link=/documentation/changelogs/4.6.0]herelink]. ".
+                     "Check out the [link=/download#stable]downloads page[/link] for ".
+                     "your closest mirror.",
                      "",
     ),
     array (
