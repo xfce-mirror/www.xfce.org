@@ -37,7 +37,8 @@ $news = array (
                      "[br][br]".
                      "Xfce 4.6 features a new configuration backend, a new settings manager, ".
                      "a brand new session manager and sound mixer as well as several huge ".
-                     "improvements of its core components. A list of all the changes can be found on ".
+                     "improvements of its core components. A list of all the changes since the ".
+                     "last release candidate can be found on ".
                      "[link=/documentation/changelogs/4.6.0]this page[/link]. ".
                      "[br][br]".
                      "A visual overview of Xfce 4.6 is available here:[br]".
