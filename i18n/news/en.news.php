@@ -296,7 +296,7 @@ $news = array (
                      'manager as well as several huge improvements of its core components.'.
                      '[br][br]'.
                      'A visual overview of Xfce 4.4 is available here:[br]'.
-                     '[link=/about/tour]http://www.xfce.org/about/tour[/link]'.
+                     '[link=/about/tour]http://www.xfce.org/about/tour4.4/tour[/link]'.
                      '[br][br]'.
                      'Download Xfce 4.4 from the new Xfce website:[br]'.
                      '[link=/download]http://www.xfce.org/download[/link]',

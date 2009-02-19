@@ -1,7 +1,7 @@
-<h1>A Visual Tour of Xfce 4.6.0</h1>
+<h1>A Visual Tour of Xfce 4.4.0</h1>
 <p align="justify">
 As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment is finally
-available. We will try to highlight some of the new features which have been added since
+available. I will try to highlight some of the new features which have been added since
 the last stable release.
 </p>
 
