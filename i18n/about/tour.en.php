@@ -15,11 +15,19 @@ automatically migrated to the new system.
 
 <p align="justify">
 This new configuration comes with an improved user interface, <b>Xfce Settings Manager</b>,
-which allows you to set your desktop in an easier way.
+which allows you to set your desktop in an easier way : the dialogs accessible by double
+clicking on the icons have been designed to be more compact and to be more intuitive.
 </p>
 
-<p>Put a screenshot of the main window here.</p>
+<p align="center"><img src="/images/about/tour/4.6/xfce4-settings-manager.png" alt="Xfce4 Settings Manager" /></p>
 
+<h3>Accessibility settings <a name="accessibility"></a></h3>
+
+<p align="center"><img src="/images/about/tour/4.6/xfce4-accessibility-settings.png" alt="Accessibility settings dialog" /></p>
+
+<p align="center">
+
+</p>
 
 
 
