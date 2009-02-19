@@ -34,7 +34,7 @@ $news = array (
         'author'  => "The Xfce Development Team",
         'title'   => "Xfce 4.6 Final Released",
         'content' => "After more than two years of development, Xfce 4.6.0 has just been released.".
-                     "[br]".
+                     "[br][br]".
                      "Xfce 4.6 features a new configuration backend, a new settings manager, ".
                      "a brand new session manager and sound mixer as well as several huge ".
                      "improvements of its core components.".
