@@ -1,9 +1,28 @@
 <h1>A Visual Tour of Xfce 4.6.0</h1>
 <p align="justify">
-As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment is finally
+As of today, the long awaited version 4.6.0 of the Xfce Desktop Environment is finally
 available. We will try to highlight some of the new features which have been added since
 the last stable release.
 </p>
+
+<h2>New configuration backend and frontend<a name="configuration-backend"></a></h2>
+
+<p align="justify">
+Xfce 4.6 uses a brand new configuration stack based on <b>Xfconf</b>, a new D-BUS based
+configuration backend, which replaces the old MCS system. Your preferences should be
+automatically migrated to the new system.
+</p>
+
+<p align="justify">
+This new configuration comes with an improved user interface, <b>Xfce Settings Manager</b>,
+which allows you to set your desktop in an easier way.
+</p>
+
+<p>Put a screenshot of the main window here.</p>
+
+
+
+
 
 
 <h2>Desktop Icons<a name="desktop-icons"></a></h2>
