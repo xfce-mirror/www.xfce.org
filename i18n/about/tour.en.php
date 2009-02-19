@@ -26,20 +26,20 @@ clicking on the icons have been designed to be more compact and to be more intui
 <p align="center"><img src="/images/about/tour/4.6/xfce4-accessibility-settings.png" alt="Accessibility settings dialog" /></p>
 
 <p align="center">
-This dialog allows you to set the accessibility related mouse and keyboard options, such key repeating, sticky keys or mouse emulation.
+The <b>Accessibility settings</b> dialog allows you to set the accessibility related mouse and keyboard options, such key repeating, sticky keys or mouse emulation.
 </p>
 
 <h3>Appearance settings <a name="appearance"></a></h3>
 
 <p align="center"><img src="/images/about/tour/4.6/xfce4-appearance-settings.png" alt="Appearance settings dialog" /></p>
 
-<p align="center">This dialog allows you to set the widgets style, the icon theme, font, toolbar and menu options.</p>
+<p align="center">The <b>Appearance settings</b> dialog allows you to set the widgets style, the icon theme, font, toolbar and menu options.</p>
 
 <h3>Display settings <a name="display"></a></h3>
 
 <p align="center"><img src="/images/about/tour/4.6/xfce4-display-settings.png" alt="Display settings dialog" /></p>
 
-<p align="center">This dialog allows you to set the resolution, the refresh rate and the rotation for each screen that is plugged in.</p>
+<p align="center">The <b>Display settings</b> dialog allows you to set the resolution, the refresh rate and the rotation for each screen that is plugged in.</p>
 
 
 
