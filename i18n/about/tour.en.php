@@ -80,15 +80,16 @@ you to terminate them.</p>
 
 <p align="justify">
 There have been a bunch of bug fixes, performance improvements in <b>Thunar</b>. It can also
-use the mouse forward and backward buttons -if available- to navigate and a plugin allowing
+use the mouse forward and backward buttons - if available - to navigate and a plugin allowing
 you to set an image as wallpaper has been added.
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/thunar-wallpaper-plugin.png" alt="Set an image in a Thunar folder as wallpaper" /></p>
 
-<p align="justify"><b>Thunar</b> now follows the XDG user directories specification which
-allows you to have themed and localised user folders to store your music, documents,
-videos, templates...
+<p align="justify"><b>Thunar</b> now follows the
+<a href="http://freedesktop.org/wiki/Software/xdg-user-dirs">XDG user directories</a>
+specification which allows you to have themed and localised user folders to store your
+music, documents, videos, templates...
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/thunar-xdg-user-dirs.png" alt="Thunar menu for user directories" /></p>
