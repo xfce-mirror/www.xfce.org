@@ -6,7 +6,7 @@
   <li>Goodies for maximum features</li>
   <li>Real multiscreen and Xinerama</li>
   <li>Kiosk mode to restrict the configuration</li>
-  <li>Translated in more than 40 languages</li>
+  <li>Translated into more than 40 languages</li>
 </ul>
 <ul>
   <li><a href="http://www.freedesktop.org/" target="_blank" class="external">Freedesktop</a> specifications compliance
@@ -20,21 +20,24 @@
   </ul></li>
 </ul>
 
-<p>Xfce provides a lightweight desktop environment with default icons and
-  themes. First it is completed with a desktop manager providing icons, next
-  with multiple panels for a default menu, preferred applications and extra
-  plugins, and a window manager with Xorg's composite feature for transparencies
-  and shadows. Moreover it suits a session manager for startup and shutdown
-  functionalities, and a settings manager for global Xfce components and general
-  items.</p>
-<p>Xfce provides common applications, designed to be lightweight too for the
-  desktop environment. These applications are: a modern terminal emulator with
-  tabs, an iCal based calendar to notice events and appointments, and a mixer
-  to control the volumes. Some Xfce applications comes with a panel plugin. For
-  example the calendar provides a plugin to show a customizable date, and the
-  mixer provides a control on the master volume.</p>
-<p>Finally Xfce provides end-user applications, always designed lightweight,
-  which are: a simple and fast text editor with printing feature, an easy-to-use
-  file-manager, a media player based on Xine, a CD's and DVD's burner, and an
-  archive manager supporting multiple compression formats.</p>
+<p>
+Xfce provides a lightweight desktop environment with a desktop manager drawing a wallpaper
+and allowing you to have icons on your desktop, a panel with numerous plugins, a standard compliant
+window manager with the composite feature, a settings manager to customise your desktop environment
+a modern and easy to use file manager and a session manager which allows you to save our
+session, autostart applications, shutdown, reboot, suspend or hibernate your computer.
+</p>
 
+<p>
+Xfce provides common applications, designed for the best user experience. Among those
+applications are: a text editor, a sound mixer which supports multiple sound cards, an application finder
+to launch your applications in an easy way, an image viewer, a modern terminal emulator,
+an iCal based calendar to manage events and appointments and a CD and DVD burning application.
+</p>
+
+<p>
+Many additionnal features are also provided by the
+<a href="http://goodies.xfce.org">Goodies project</a>: a Web browser, plugins for the
+panel and the file manager, standalone applications such as a dictionnary, a tasks manager,
+a power manager, a screenshooter, a notification daemon...
+</p>
