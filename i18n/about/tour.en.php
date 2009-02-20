@@ -1,4 +1,5 @@
 <h1>A Visual Tour of Xfce 4.6.0</h1>
+
 <p align="justify">
 The long awaited 4.6.0 version of the Xfce Desktop Environment is finally
 available. We will try to highlight some of the new features which have been added since
@@ -78,9 +79,13 @@ you to terminate them.</p>
 
 <h2>File manager <a name="file-manager"></a></h2>
 
-Todo: bug fixes, mouse forward and backward buttons, performance improvements, wallpaper plugin.
+<p align="justify">
+There have been a bunch of bug fixes, performance improvements in <b>Thunar</b>. It can also
+use the mouse forward and backward buttons -if available- to navigate and a plugin allowing
+you to set an image as wallpaper has been added.
+</p>
 
-Screenshot: wallpaper plugin.
+<p align="center"><img src="/images/about/tour/4.6/thunar-wallpaper.png" alt="Set an image in a Thunar folder as wallpaper, missing screenshot." /></p>
 
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
@@ -157,4 +162,4 @@ to update the list on the fly.
 </ul>
 
 <h2>Credits<a name="credits"></a></h2>
-<p align="justify">Written by Benedikt Meurer, 21 Jan 2007</p>
+<p align="justify">Written by Jérôme Guelfucci, February 2009</p>
