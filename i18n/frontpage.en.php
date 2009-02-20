@@ -55,9 +55,9 @@
 						<span class="grey">CD and DVD burning application.</span>
 					</li>
 					<li>
-						<a href="/projects/xfmedia">Xfmedia</a>
+						<a href="/projects/ristretto">Ristretto</a>
 						<br />
-						<span class="grey">Xfmedia is a simple, easy-to-use media player based on the xine engine.</span>
+						<span class="grey">Ristretto is a lightweight image viewer.</span>
 					</li>
 				</ul>
 				<div class="readmore">
