@@ -24,12 +24,12 @@ $credits['project-lead'] = array (
     );
 
 $credits['core-developers'] = array (
-    array ('Benedikt Meurer', 'benny', 'xfce.org', 'Thunar, Terminal, Session Manager, Libexo',),
-    array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf',),
-    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager',),
-    array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, libxfce4menu, application finder',),
-    array ('Nick Schermer', 'nick', 'xfce.org', 'Panel, settings manager',),
-    array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings manager',)
+    array ('Benedikt Meurer', 'benny', 'xfce.org', 'Thunar, Terminal, Session Manager, Libexo'),
+    array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf'),
+    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager'),
+    array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, libxfce4menu, application finder'),
+    array ('Nick Schermer', 'nick', 'xfce.org', 'Panel, settings manager'),
+    array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings manager')
     );
 
 $credits['server-and-website'] = array (
@@ -39,18 +39,20 @@ $credits['server-and-website'] = array (
     );
 
 $credits['contributors-active'] = array (
-    array ('Giuseppe Torelli', 'colossus', 'xfce.org', 'Archive manager',),
-    array ('Jasper Huijsmans', 'jasper', 'xfce.org', 'Panel',),
-    array ('Mickaël Graf', 'korbinus', 'xfce.org', 'Calendar',),
-    array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
-    array ('Danny Milosavljevic', 'dannym', 'xfce.org', 'Volume Control',),
-    array ('Eduard Roccatello', 'eduard', 'xfce.org', 'Application Finder',),
-    array ('Erik Harrison', 'erikharrison ', 'xfce.org', 'Text Editor',),
-    array ('François Le Clainche', 'fleclainche', 'wanadoo.fr', 'Webmaster and artwork',),
-    array ('Jean-François Wauthy', 'pollux', 'xfce.org', 'Printer Manager, CD burning application',)
+    array ('Giuseppe Torelli', 'colossus', 'xfce.org'),
+    array ('Yves-Alexis Perez', 'corsac', 'debian.org>'),
+    array ('Enrico Tröger', 'enrico.troeger', 'uvena.de>'),
+    array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
+    array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
+    array ('Jean-François Wauthy', 'pollux', 'xfce.org')
     );
 
 $credits['contributors-previous'] = array (
+    array ('Mickaël Graf', 'korbinus', 'xfce.org'),
+    array ('Eduard Roccatello', 'eduard', 'xfce.org'),
+    array ('Erik Harrison', 'erikharrison ', 'xfce.org'),
+    array ('François Le Clainche', 'fleclainche', 'wanadoo.fr'),
+    array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
     array ('Bernhard Walle', 'Bernhard.Walle', 'gmx.de'),
     array ('Biju Chacko', 'botsie', 'xfce.org'),
     array ('Craig Betts', 'craig.betts', 'dfrc.nasa.gov'),
