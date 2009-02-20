@@ -22,7 +22,7 @@ It is also recommended to build all Xfce components from the same release versio
 </ol>
 
 <h2>Package dependencies table:</h2>
-<table width="100%">
+<table width="100%" cellpadding="3">
   <tr>
     <th width="20%" align="left"><h3>Package</h3></th>
     <th width="40%" align="left"><h3>Dependency(-ies)</h3></th>
