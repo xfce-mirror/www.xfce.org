@@ -162,4 +162,4 @@ to update the list on the fly.
 </ul>
 
 <h2>Credits<a name="credits"></a></h2>
-<p align="justify">Written by Jérôme Guelfucci, February 2009</p>
+<p align="justify">Written by Jérôme Guelfucci, screenshots by Jannis Pohlmann, February 2009</p>
