@@ -78,7 +78,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-			<p>The two base libraries of Xfce (libxfce4util and libxfcegui4)
+			<p>The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
 			are used by almost any Xfce application. </p>
 		</td>
 		<td width="48" valign="top">
