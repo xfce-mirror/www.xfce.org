@@ -1,24 +1,53 @@
 <h1>A Visual Tour of Xfce 4.6.0</h1>
 <p align="justify">
-The long awaited version 4.6.0 of the Xfce Desktop Environment is finally
+The long awaited 4.6.0 version of the Xfce Desktop Environment is finally
 available. We will try to highlight some of the new features which have been added since
 the last stable release.
 </p>
 
-<h2>Improved desktop experience <a name="xfdesktop"></a></h2>
+<h2>Improved desktop experience with Xfdesktop<a name="xfdesktop"></a></h2>
 
 <p align="justify">Since desktop icons have been introduced in Xfce 4.4, people have expressed
-the need to allow the selection of multiple icons (rubber banding). With Xfce 4.6, the
+the need to allow the selection of multiple icons (rubber banding). With <b>Xfce 4.6</b>, the
 <b>Xfdesktop</b> manager finally implements this feature: you can select multiple icons, move
 them, remove them...</p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png" alt="Multiple icons selection" /></p>
 
-<p align="justify">Xfce 4.6 also features a brand new desktop menu which allows you to manipulate files
+<p align="justify"><b>Xfce 4.6</b> also features a brand new desktop menu which allows you to manipulate files
 as with the <b>Thunar</b> filemanager contextual menu, but also to open applications, exit your session or
 access to the help.</p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfdesktop-menu.png" alt="New desktop menu" /></p>
+
+<h2>Panel <a name="panel"></a></h2>
+
+<p align="justify">A lot of long standing bugs have been fixed in <b>Xfce4 Panel</b>,
+particularly for multiple screen setups, but this new release also brings an improved set
+of panel plugins.
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfce4-panel-clock.png" alt="New binary clock" /></p>
+
+<p align="justify">
+The clock plugin has been rewritten to consume less ressources and to fix some display bugs,
+but there is also a new clock mode for the geek in you: binary clock !
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfce4-panel-notification-area.png" alt="Notification area settings dialog, missing screenshot" /></p>
+
+<p align="justify">The new notification area plugin allows you to hide the notification icons
+you do not want to be displayed to keep your notification area clean and readable.</p>
+
+<h2>New sound mixer <a name="sound-mixer"></a></h2>
+
+<p align="justify"><b>Xfce4 Mixer</b> has been rewritten from scratch to use
+<a href="http://www.gstreamer.net/">Gstreamer</a> which support multiple sound systems, the
+user interface is more polished, you can manage several sound cards and a panel plugin allows
+you to set the system sound quickly using the mouse scroll wheel.
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfce4-mixer.png.png" alt="New sound mixer" /></p>
 
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
