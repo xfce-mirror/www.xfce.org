@@ -2,7 +2,11 @@
 	$top=true;
 ?>
 <h1>Projects</h1>
-<p>The Xfce project contains several separated projects for each part of the desktop. Every project has it's own project page to give some more information.</p>
+
+<p>
+The Xfce project contains several separated projects for each part of the desktop.
+Every project has it's own project page to provide additionnal information.
+</p>
 
 <h2 id="core">Core Components</h2>
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -44,17 +48,20 @@
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Printing Helper</a></h3>
-			<p>Provides a graphical frontend for printing. Xfprint can use either
+			<p>
+      Provides a graphical frontend for printing. Xfprint can use either
 			CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
-			printing system you choosed.</p>
+			printing system you choosed.
+      </p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
+			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-		<h3><a href="/projects/xfce-mcs-manager/">Settings Manager</a></h3>
-			<p>This is the Xfce configuration system and it runs on the background and
-			provides global settings information to other Xfce components </p>
+		<h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
+			<p>
+      It allows you to configure every detail of your desktop environment.
+      </p>
 		</td>
 	</tr>
 	<tr>
@@ -71,7 +78,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-			<p>The three base libraries of Xfce (libxfcegui4, libxfce4mcs and libxfce4utils)
+			<p>The two base libraries of Xfce (libxfce4util and libxfcegui4)
 			are used by almost any Xfce application. </p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
