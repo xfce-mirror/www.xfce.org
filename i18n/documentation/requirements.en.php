@@ -2,7 +2,7 @@
 
 <p>
 All packages (except xfce4-dev-tools) depend on both gtk+&nbsp;&gt;=&nbsp;2.10
-and glib&nbsp;&gt;=&nbsp;2.14.
+and glib&nbsp;&gt;=&nbsp;2.12.
 </p>
 
 <p>
@@ -38,32 +38,32 @@ It is also recommended to build all Xfce components from the same release versio
     <td>glib, gobject </td>
     <td>&nbsp;</td>
   </tr>
-   <tr>
+   <tr bgcolor="#eeeeee">
     <td>xfconf</td>
     <td>libxfce4util, dbus, dbus-glib, gtk+ </td>
     <td>&nbsp;</td>
   </tr>
-  <tr bgcolor="#eeeeee">
+  <tr>
     <td>libxfcegui4</td>
     <td>libxfce4util, gtk+, libglade</td>
     <td>libstartup-notification, libgladeui, xfconf</td>
   </tr>
-    <tr bgcolor="#eeeeee">
+  <tr bgcolor="#eeeeee">
     <td>libxfce4menu</td>
     <td>libxfce4util, gtk+</td>
     <td>&nbsp;</td>
   </tr>
-  <tr bgcolor="#eeeeee">
+  <tr>
     <td>libexo</td>
     <td>libxfce4util, gtk+, p5-uri </td>
     <td>&nbsp;</td>
   </tr>
-  <tr>
+  <tr bgcolor="#eeeeee">
     <td>xfce4-panel</td>
     <td>libxfce4util, libxfcegui4, libexo, cairo, libwnck</td>
     <td>libstartup-notification</td>
   </tr>
-  <tr bgcolor="#eeeeee">
+  <tr>
     <td>thunar</td>
     <td>libxfce4util, libexo, libpng, gtk+</td>
     <td>libexif, dbus, gconf, libstartup-notification, freetype, libjpeg, gamin/fam, hal-storage, libxfce4panel, xfconf</td>
@@ -88,7 +88,7 @@ It is also recommended to build all Xfce components from the same release versio
     <td>libxfce4util, libxfcegui4, libxfconf, libwnck, libglade</td>
     <td>dbus-glib, thunar-vfs, libexo, thunarx, libxfce4menu, libxfce4panel</td>
   </tr>
-    <tr bgcolor="#eeeeee">
+  <tr bgcolor="#eeeeee">
     <td>xfce4-appfinder</td>
     <td>libxfce4util, libxfce4menu, gtk+ </td>
     <td>&nbsp;</td>
@@ -128,7 +128,7 @@ It is also recommended to build all Xfce components from the same release versio
     <td>perl, libxfce4mcs, libxfcegui4</td>
     <td>ical, db&nbsp;&gt;=&nbsp;4.0</td>
   </tr>
-  <tr>
+  <tr bgcolor="#eeeeee">
     <td>xfmedia</td>
     <td>libx11, libsm, libxfce4util, libxfcegui4, libxine&nbsp;&gt;=&nbsp;1.0.0</td>
     <td>libexo&nbsp;&gt;=&nbsp;0.2.0, libstartup-notification, dbus&nbsp;&gt;=&nbsp;0.22, taglib </td>
