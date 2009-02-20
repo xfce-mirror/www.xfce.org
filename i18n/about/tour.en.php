@@ -30,13 +30,13 @@ of panel plugins.
 <p align="center"><img src="/images/about/tour/4.6/xfce4-panel-clock.png" alt="New binary clock" /></p>
 
 <p align="justify">
-The clock plugin has been rewritten to consume less ressources and to fix some display bugs,
+The <b>clock plugin</b> has been rewritten to consume less ressources and to fix some display bugs,
 but there is also a new clock mode for the geek in you: binary clock !
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfce4-panel-notification-area.png" alt="Notification area settings dialog, missing screenshot" /></p>
 
-<p align="justify">The new notification area plugin allows you to hide the notification icons
+<p align="justify">The new <b>notification area plugin</b> allows you to hide the notification icons
 you do not want to be displayed to keep your notification area clean and readable.</p>
 
 <h2>New sound mixer <a name="sound-mixer"></a></h2>
