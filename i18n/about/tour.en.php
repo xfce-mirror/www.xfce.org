@@ -55,6 +55,8 @@ you to set the system sound quickly using the mouse scroll wheel.
 <p align="justify">
 <b>Xfce 4.6</b> comes with an enhanced session manager: your session should be started faster
 and the setting dialog has been reworked to ease the management of session aware applications.
+Moreover, the session manager will now restart session applications which crashed automatically so
+that you are not left without desktop, panel, window manager, etc, if a crash occurs.
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfce4-session-settings.png" alt="Session settings dialog" /></p>
