@@ -32,13 +32,10 @@ of panel plugins.
 
 <p align="justify">
 The <b>clock plugin</b> has been rewritten to consume less ressources and to fix some display bugs,
-but there is also a new clock mode for the geek in you: binary clock !
+but there is also a new clock mode for the geek in you: binary clock ! The new
+<b>notification area plugin</b> allows you to hide the notification icons
+you do not want to be displayed to keep your notification area clean and readable.
 </p>
-
-<p align="center"><img src="/images/about/tour/4.6/xfce4-panel-notification-area.png" alt="Notification area settings dialog, missing screenshot" /></p>
-
-<p align="justify">The new <b>notification area plugin</b> allows you to hide the notification icons
-you do not want to be displayed to keep your notification area clean and readable.</p>
 
 <h2>New sound mixer <a name="sound-mixer"></a></h2>
 
@@ -87,7 +84,19 @@ use the mouse forward and backward buttons -if available- to navigate and a plug
 you to set an image as wallpaper has been added.
 </p>
 
-<p align="center"><img src="/images/about/tour/4.6/thunar-wallpaper.png" alt="Set an image in a Thunar folder as wallpaper, missing screenshot." /></p>
+<p align="center"><img src="/images/about/tour/4.6/thunar-wallpaper-plugin.png" alt="Set an image in a Thunar folder as wallpaper" /></p>
+
+<p align="justify"><b>Thunar</b> now follows the XDG user directories specification which
+allows you to have themed and localised user folders to store your music, documents,
+videos, templates...
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/thunar-xdg-user-dirs.png" alt="Thunar menu for user directories" /></p>
+
+<p align="justify"><b>Thunar</b> will also display a translucent icon for drives or volumes
+that are not mounted, so that you can distinguish them from the mounted ones.</p>
+
+<p align="center"><img src="/images/about/tour/4.6/thunar-mounting.png" alt="Translucent icons for unmounted drives and volumes" /></p>
 
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
