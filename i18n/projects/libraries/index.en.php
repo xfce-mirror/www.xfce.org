@@ -3,7 +3,7 @@
 <h1>Libraries</h1>
 
 <p>
-The core librairies provide common functionnalities to the Xfce environment. There are three libraries which provides
+The core librairies provide common functionnalities to the Xfce environment. There are two libraries which provide
 non-graphical helper functions, widgets and convenience functions for graphical user interfaces, and functions for 
 settings management.
 </p>

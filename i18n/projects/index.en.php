@@ -81,8 +81,15 @@ Every project has it's own project page to provide additionnal information.
 			<p>The two base libraries of Xfce (libxfce4util and libxfcegui4)
 			are used by almost any Xfce application. </p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+      <img src="/images/projects/library.png" alt="xfconf" width="48" height="48" />
+    </td>
+		<td width="33%" valign="top">
+      <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+      <p>
+        Simple client-server configuration storage and query system.
+      </p>
+    </td>
 	</tr>
 </table>
 
