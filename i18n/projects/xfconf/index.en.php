@@ -10,7 +10,7 @@ Xfconf is a simple client-server configuration storage and query system.
 
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfconf/trunk/">ViewVc</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfconf/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfconf/trunk libxfce4util</code></p>
+<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfconf/trunk xfconf</code></p>
 
 <h2>Authors</h2>
 <ul>
