@@ -59,7 +59,7 @@ that you are not left without desktop, panel, window manager, etc, if a crash oc
 <p align="center"><img src="/images/about/tour/4.6/xfce4-session-settings.png" alt="Session settings dialog" /></p>
 
 <p align="justify">
-It also brings a long wanted feature: <b>suspend</b> and <b>hibernate</b> support. The logout
+It also brings a long wanted feature: out of the box <b>suspend</b> and <b>hibernate</b> support. The logout
 dialog now has two additionnal buttons to suspend your computer or hibernate it.
 </p>
 
@@ -103,7 +103,7 @@ that are not mounted, so that you can distinguish them from the mounted ones.</p
 
 <p align="justify">
 Xfce 4.6 features a new settings interface, <b>Xfce Settings Manager</b>,
-which allows you to set your desktop in an easier way : the dialogs accessible by double
+which allows you to set your desktop in an easier way : the dialogs accessible by single
 clicking on the icons have been designed to be more compact, to be more intuitive so that
 you can customize your desktop quickly and in a more intuitive way.
 </p>
