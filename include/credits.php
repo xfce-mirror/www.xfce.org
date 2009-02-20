@@ -40,9 +40,11 @@ $credits['server-and-website'] = array (
 
 $credits['contributors-active'] = array (
     array ('Giuseppe Torelli', 'colossus', 'xfce.org'),
-    array ('Yves-Alexis Perez', 'corsac', 'debian.org>'),
-    array ('Enrico Tröger', 'enrico.troeger', 'uvena.de>'),
+    array ('Yves-Alexis Perez', 'corsac', 'debian.org'),
+    array ('Enrico Tröger', 'enrico.troeger', 'uvena.de'),
     array ('Mike Massonet', 'mmassonnet' ,'gmail.com'),
+    array ('Landry Breuil', 'landry', 'openbsd.org>'),
+    array ('David Mohr', 'squisher', 'xfce.org>'),
     array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
     array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
     array ('Jean-François Wauthy', 'pollux', 'xfce.org')
