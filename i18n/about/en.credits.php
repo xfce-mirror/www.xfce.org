@@ -1,16 +1,11 @@
 <?php
 $credits['core-developers-i18n'] = array (
     'benny' => 'Thunar, Terminal, Session Manager, Libexo',
-    'kelnos' => 'Desktop Manager, Media Player',
-    'dannym' => 'Volume Control',
-    'eduard' => 'Application Finder',
-    'erikharrison ' => 'Text Editor',
-    'fleclainche' => 'Webmaster and artwork',
-    'colossus' => 'Archive manager',
-    'jasper' => 'Panel',
-    'pollux' => 'Printer Manager, CD burning application',
-    'korbinus' => 'Calendar',
-    'fourdan' => 'Window Manager'
+    'kelnos' => 'Desktop Manager, Xfconf',
+    'fourdan' => 'Window Manager',
+    'jannis' => 'Mixer, libxfce4menu, application finder',
+    'nick' => 'Panel, settings manager',
+    'sarts' => 'Settings manager, Xfconf'
     );
 
 $credits['server-and-website-i18n'] = array (
