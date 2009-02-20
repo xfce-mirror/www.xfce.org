@@ -5,7 +5,7 @@ $credits['core-developers-i18n'] = array (
     'fourdan' => 'Window Manager',
     'jannis' => 'Mixer, libxfce4menu, application finder',
     'nick' => 'Panel, settings manager',
-    'sarts' => 'Settings manager, Xfconf'
+    'stephan' => 'Settings manager, Xfconf'
     );
 
 $credits['server-and-website-i18n'] = array (
