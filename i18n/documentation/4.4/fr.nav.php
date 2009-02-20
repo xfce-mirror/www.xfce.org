@@ -1,6 +1,6 @@
 <ul>
 	<li><a href="http://wiki.xfce.org/faq" target="_blank" class="external">FAQs Xfce</a></li>
-	<li><a href="/documentation/requirements">Dépendances</a></li>
+	<li><a href="/documentation/4.4/equirements">Dépendances</a></li>
 	<li><a href="/documentation/changelogs/">Changelogs</a></li>
 	<li><a href="/documentation/archive">Archives</a>
 	  <ul>

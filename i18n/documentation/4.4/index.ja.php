@@ -10,16 +10,16 @@
 
       <h2><a href="/documentation/api">開発者 (API)</a></h2>
       <ul>
-        <li><a href="/documentation/api/libxfce4mcs/">libxfce4mcs</a> (<a href="/documentation/api/libxfce4mcs-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/api/libxfce4util-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/api/libxfcegui4-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/api/libxfce4menu-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/api/libxfce4panel-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libsqueeze/">libsqueeze</a> (<a href="/documentation/api/libsqueeze-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/exo/">exo</a> (<a href="/documentation/api/exo-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/api/thunar-vfs-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/thunarx/">thunarx</a> (<a href="/documentation/api/thunarx-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfprint/">libxfprint</a> (<a href="/documentation/api/libxfprint-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfce4mcs/">libxfce4mcs</a> (<a href="/documentation/4.4/api/libxfce4mcs-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/4.4/api/libxfce4util-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/4.4/apilibxfcegui4-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/4.4/api/libxfce4menu-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/4.4/api/libxfce4panel-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libsqueeze/">libsqueeze</a> (<a href="/documentation/4.4/api/libsqueeze-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/exo/">exo</a> (<a href="/documentation/4.4/api/exo-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/4.4/api/thunar-vfs-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/thunarx/">thunarx</a> (<a href="/documentation/4.4/api/thunarx-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.4/api/libxfprint/">libxfprint</a> (<a href="/documentation/4.4/api/libxfprint-docs.tar.gz">tarball</a>)</li>
       </ul>
           <h2><a href="/documentation/archive">アーカイブ</a></h2>
           <ul>
@@ -30,8 +30,8 @@
     <td width="49%" valign="top">
       <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
       <p>Xfceの良く聞かれる質問を<a href="http://wiki.xfce.org/faq" target="_blank">Xfce wiki</a>で見ることができます。(ただし英語。)</p>
-      <h2><a href="/documentation/requirements">必要になるもの</a></h2>
-          <p>すべてのXfceの<a href="/documentation/requirements">依存性</a>の詳しいリストです。</p>
+      <h2><a href="/documentation/4.4/requirements">必要になるもの</a></h2>
+          <p>すべてのXfceの<a href="/documentation/4.4/requirements">依存性</a>の詳しいリストです。</p>
       <h2><a href="/documentation/changelogs/">更新履歴</a></h2>
     <p>すべての Xfce 4の <a href="/documentation/changelogs/">更新履歴</a>です。 バージョン別に並べられています。</p>
     </td>

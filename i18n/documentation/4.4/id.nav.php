@@ -1,6 +1,6 @@
 <ul>
 	<li><a href="http://wiki.xfce.org/faq" target="_blank" class="external">PAD Xfce</a></li>
-	<li><a href="/documentation/requirements">Persyaratan</a></li>
+	<li><a href="/documentation/4.4/requirements">Persyaratan</a></li>
 	<li><a href="/documentation/changelogs/">Perubahan Log</a></li>
 	<li><a href="/documentation/archive">Arsip</a>
 	  <ul>
