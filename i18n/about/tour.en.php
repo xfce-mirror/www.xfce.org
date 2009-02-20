@@ -47,7 +47,7 @@ user interface is more polished, you can manage several sound cards and a panel 
 you to set the system sound quickly using the mouse scroll wheel.
 </p>
 
-<p align="center"><img src="/images/about/tour/4.6/xfce4-mixer.png.png" alt="New sound mixer" /></p>
+<p align="center"><img src="/images/about/tour/4.6/xfce4-mixer.png" alt="New sound mixer" /></p>
 
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
