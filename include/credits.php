@@ -26,18 +26,10 @@ $credits['project-lead'] = array (
 $credits['core-developers'] = array (
     array ('Benedikt Meurer', 'benny', 'xfce.org', 'Thunar, Terminal, Session Manager, Libexo',),
     array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf',),
-    array ('Danny Milosavljevic', 'dannym', 'xfce.org', 'Volume Control',),
-    array ('Eduard Roccatello', 'eduard', 'xfce.org', 'Application Finder',),
-    array ('Erik Harrison', 'erikharrison ', 'xfce.org', 'Text Editor',),
-    array ('François Le Clainche', 'fleclainche', 'wanadoo.fr', 'Webmaster and artwork',),
-    array ('Giuseppe Torelli', 'colossus', 'xfce.org', 'Archive manager',),
-    array ('Jasper Huijsmans', 'jasper', 'xfce.org', 'Panel',),
-    array ('Jean-François Wauthy', 'pollux', 'xfce.org', 'Printer Manager, CD burning application',),
-    array ('Mickaël Graf', 'korbinus', 'xfce.org', 'Calendar',),
-    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager')
-    array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, libxfce4menu'),
-    array ('Nick Schermer', 'nick', 'xfce.org', 'Panel'),
-    array ('Stephan Arts', 'stephan', 'xfce.org', '')
+    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager'),
+    array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, libxfce4menu, application finder'),
+    array ('Nick Schermer', 'nick', 'xfce.org', 'Panel, settings manager'),
+    array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings manager')
     );
 
 $credits['server-and-website'] = array (
@@ -47,7 +39,15 @@ $credits['server-and-website'] = array (
     );
 
 $credits['contributors-active'] = array (
+    array ('Giuseppe Torelli', 'colossus', 'xfce.org', 'Archive manager',),
+    array ('Jasper Huijsmans', 'jasper', 'xfce.org', 'Panel',),
+    array ('Mickaël Graf', 'korbinus', 'xfce.org', 'Calendar',),
     array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
+    array ('Danny Milosavljevic', 'dannym', 'xfce.org', 'Volume Control',),
+    array ('Eduard Roccatello', 'eduard', 'xfce.org', 'Application Finder',),
+    array ('Erik Harrison', 'erikharrison ', 'xfce.org', 'Text Editor',),
+    array ('François Le Clainche', 'fleclainche', 'wanadoo.fr', 'Webmaster and artwork',),
+    array ('Jean-François Wauthy', 'pollux', 'xfce.org', 'Printer Manager, CD burning application',)
     );
 
 $credits['contributors-previous'] = array (
