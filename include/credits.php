@@ -42,6 +42,7 @@ $credits['contributors-active'] = array (
     array ('Giuseppe Torelli', 'colossus', 'xfce.org'),
     array ('Yves-Alexis Perez', 'corsac', 'debian.org>'),
     array ('Enrico Tröger', 'enrico.troeger', 'uvena.de>'),
+    array ('Mike Massonet', 'mmassonnet' ,'gmail.com'),
     array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
     array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
     array ('Jean-François Wauthy', 'pollux', 'xfce.org')
@@ -51,6 +52,8 @@ $credits['contributors-previous'] = array (
     array ('Mickaël Graf', 'korbinus', 'xfce.org'),
     array ('Eduard Roccatello', 'eduard', 'xfce.org'),
     array ('Erik Harrison', 'erikharrison ', 'xfce.org'),
+    array ('Daichi Kawahata', 'daichi', 'xfce.org'),
+    array ('Pau Rul·lan Ferragut', 'paurullan', 'bulma.net'),
     array ('François Le Clainche', 'fleclainche', 'wanadoo.fr'),
     array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
     array ('Bernhard Walle', 'Bernhard.Walle', 'gmx.de'),
@@ -75,9 +78,8 @@ $credits['goodies'] = array (
     );
 
 $credits['translators-supervision'] = array (
-    array ('Daichi Kawahata', 'daichi', 'xfce.org'),
-    array ('Maximilian Schleiss', 'maxschleiss', 'solnet.ch'),
-    array ('Pau Rul·lan Ferragut', 'paurullan', 'bulma.net')
+    array ('Mike Massonet', 'mmassonnet' ,'gmail.com'),
+    array ('Maximilian Schleiss', 'maximilian', 'xfce.org')
     );
 
 $credits['translators'] = array (
