@@ -18,7 +18,7 @@ include 'include/credits.php';
 
 <br />
 <h2 id="core">Core Developers</h2>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <th width="40%" align="left"><h3>Contributor</h3></th>
         <th width="60%" align="left"><h3>Main Project(s)</h3></th>
@@ -27,7 +27,7 @@ include 'include/credits.php';
 </table>
 
 <h2 id="server">Server and website </h2>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <th align="left"><h3>Contributor</h3></th>
         <th align="left"><h3>Contribution</h3></th>
@@ -37,7 +37,7 @@ include 'include/credits.php';
 
 <br />
 <h2 id="contributors">Contributors</h2>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <td colspan="2"><strong>The following people are frequent contributors of patches, ideas, bug fixes and new code:</strong></td>
     </tr>
@@ -54,7 +54,7 @@ include 'include/credits.php';
 
 <br />
 <h2 id="goodies">Goodies</h2>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <th align="left"><h3>Goodies supervision</h3></th>
     </tr>
@@ -65,13 +65,13 @@ include 'include/credits.php';
 
 <br />
 <h2 id="translators">Translators</h2>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <th align="left"><h3>Translations supervision</h3></th>
     </tr>
 <?php credits_translators_supervision ($credits['translators-supervision'], $credits['translators-supervision-i18n']); ?>
 </table>
-<table width="99%">
+<table cellpadding="3" width="99%">
     <tr>
         <th width="20%" align="left"><h3>Language</h3></th>
         <th width="80%" align="left"><h3>Contributor(s)</h3></th>

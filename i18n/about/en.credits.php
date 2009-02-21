@@ -33,6 +33,7 @@ $credits['translators-i18n'] = array (
     'gl' => 'Galician',
     'he' => 'Hebrew',
     'hu' => 'Hungarian',
+    'id' => 'Indonesian',
     'it' => 'Italian',
     'ja' => 'Japanese',
     'ka' => 'Georgian',
