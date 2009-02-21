@@ -220,7 +220,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
-      <p>Perl bindings for Xfce. If you'rea old-fashioned or just don like C and Python, you can 
+      <p>Perl bindings for Xfce. If you are old-fashioned or just don like C and Python, you can 
       use Perl to write Xfce applications. </p>
 		</td>
 		<td width="48" valign="top">
