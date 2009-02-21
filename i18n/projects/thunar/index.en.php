@@ -2,6 +2,8 @@
 
 <h1>Thunar File Manager</h1>
 
+<p class="center"><img src="/images/projects/screenshots/thunar.png" alt="Thunar" /></p>
+
 <p>
 Thunar is a new modern file manager for the Xfce Desktop Environment. It has been designed from the ground up to be 
 fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless 

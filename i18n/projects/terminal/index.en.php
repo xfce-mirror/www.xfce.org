@@ -2,6 +2,8 @@
 
 <h1>Terminal</h1>
 
+<p class="center"><img src="/images/projects/screenshots/terminal.png" alt="Terminal" /></p>
+
 <p>
 Terminal is a modern, lightweight, and low memory cost terminal emulator with tabs and multiple windows for the Xfce 
 desktop environment. It offers full-customization for the key bindings, the aspect, the colors, and more.

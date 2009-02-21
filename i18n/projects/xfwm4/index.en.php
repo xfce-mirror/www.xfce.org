@@ -2,6 +2,8 @@
 
 <h1>Window Manager</h1>
 
+<p class="center"><img src="/images/projects/screenshots/xfwm4.png" alt="Window Manager" /></p>
+
 <p>
 The Xfce window manager manages the placement of application
 windows on the screen, provides beautiful window decorations, manages 

@@ -2,6 +2,8 @@
 
 <h1>Panel</h1>
 
+<p class="center"><img src="/images/projects/screenshots/xfce4-panel.png" alt="Panel" /></p>
+
 <p>
 The Xfce Panel supports multiple panels, with many options for their
 position, appearance, transparency and behavior. There are many items 

@@ -2,6 +2,8 @@
 
 <h1>Settings Manager</h1>
 
+<p class="center"><img src="/images/projects/screenshots/xfce4-settings-manager.png" alt="Settings Manager" /></p>
+
 <p>
 The settings manager allows you to customize your desktop environment in an easy and
 intuitive way. You can set some hardware components such as mouse, keyboard or display; but

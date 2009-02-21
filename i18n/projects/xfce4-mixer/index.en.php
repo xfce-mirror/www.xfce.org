@@ -1,6 +1,8 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" /></div>
 
-<h1>Volume Control</h1>
+<h1>Mixer</h1>
+
+<p class="center"><img src="/images/projects/screenshots/xfce4-mixer.png" alt="Mixer" /></p>
 
 <p>
 The Mixer is a volume control application for the Xfce Desktop Environment. It provides

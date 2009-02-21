@@ -2,6 +2,8 @@
 
 <h1>Application Finder</h1>
 
+<p class="center"><img src="/images/projects/screenshots/xfce4-appfinder.png" alt="Application Finder" /></p>
+
 <p>
 This is an application finder for the Xfce Desktop Environment. It is a useful program that helps you applications
 on the system, launch them and drag them to panel launcher dialogs. It provides easy keyboard navigation and can
