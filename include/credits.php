@@ -20,7 +20,7 @@
 
 
 $credits['project-lead'] = array (
-    array ('Olivier Fourdan', 'olivier', 'xfce.org')
+    array ('Olivier Fourdan', 'fourdan', 'xfce.org')
     );
 
 $credits['core-developers'] = array (
