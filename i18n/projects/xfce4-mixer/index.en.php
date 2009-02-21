@@ -18,7 +18,7 @@ It supports all audio systems supported by the <a href="http://www.gstreamer.net
 <h3>Subversion</h3>
 
 <p>
-  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewCV</a><br />
+  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewVC</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
 </p>
 
