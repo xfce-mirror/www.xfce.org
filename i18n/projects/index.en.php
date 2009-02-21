@@ -146,13 +146,6 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 	</tr>
 	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
-			<p>A modern sound mixer and based on GStreamer.</p>
-		</td>
     <td width="48" valign="top">
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
@@ -168,6 +161,13 @@ Every project has it's own project page to provide additionnal information.
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
 			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
+		</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
+		</td>
+		<td width="33%" valign="top">
+			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
+			<p>A modern sound mixer and based on GStreamer.</p>
 		</td>
 	</tr>
 	<tr>
