@@ -187,8 +187,6 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
 			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/midori.png" alt="midori" width="48" height="48" />
 		</td>
