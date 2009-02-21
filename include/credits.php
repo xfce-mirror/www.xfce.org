@@ -109,7 +109,13 @@ $credits['translators'] = array (
         ),
     array ('da',
         array (
-            array ('Niels Rasmussen', 'nielsrasmus', 'gmail.com')
+            array ('Niels Rasmussen', 'nielsrasmus', 'gmail.com'),
+            array ('Per Kongstad', 'p_kongstad', 'op.pl'),
+            array ('Lars Nielsen', 'lars', 'mit-web.dk'),
+            array ('Søren Waaben Hansen', 'soren', 'minorflaw.dk'),
+            array ('Morten Juhl-Johansen Zölde-Fejér', 'morten', 'technographer.net'),
+            array ('Lars Jensen', 'lars', 'jink.dk'),
+            array ('Claus Futtrup', 'cfuttrup', 'gmail.com')
             )
         ),
     array ('de',
@@ -130,7 +136,8 @@ $credits['translators'] = array (
     array ('el',
         array (
             array ('Stathis Kamperis', 'ekamperi', 'auth.gr'),
-            array ('Stavros Giannouris', 'stavros', 'ghellug.gr')
+            array ('Stavros Giannouris', 'stavrosg', 'hellug.gr'),
+            array ('Evaggelos Balaskas', 'ebalaskas', 'ebalaskas.gr')
             )
         ),
     array ('en_GB',
@@ -147,7 +154,8 @@ $credits['translators'] = array (
         ),
     array ('es',
         array (
-            array ('Rudy Godoy', 'rudy', 'stone-head.org')
+            array ('Rudy Godoy', 'rudy', 'stone-head.org'),
+            array ('Abel Martín', 'abel.martin.ruiz', 'gmail.com')
             )
         ),
     array ('et',
@@ -176,7 +184,8 @@ $credits['translators'] = array (
         ),
     array ('gl',
         array (
-            array ('Leandro Regueiro', 'leandro.regueiro', 'gmail.com')
+            array ('Leandro Regueiro', 'leandro.regueiro', 'gmail.com'),
+            array ('Protecto Trasno', 'http://trasno.net/xfce:inicio')
             )
         ),
     array ('he',
@@ -190,6 +199,11 @@ $credits['translators'] = array (
             array ('Szervác Attila', 'sas', '321.hu')
             )
         ),
+    array ('id',
+        array (
+            array ('Andhika Padmawan', 'andhika.padmawan', 'gmail.com')
+            )
+        ),
     array ('it',
         array (
             array ('Fabio Riga', 'usul', 'aruba.it'),
@@ -199,7 +213,9 @@ $credits['translators'] = array (
     array ('ja',
         array (
             array ('Daichi Kawahata', 'daichi', 'xfce.org'),
-            array ('Hirotaka Moue', 'admin', 'mail.dayomon.net')
+            array ('Hirotaka Moue', 'admin', 'mail.dayomon.net'),
+            array ('Masato Hashimoto', 'cabezon.hashimito', 'gmail.com'),
+            array ('Nobuhiro Iwamatsu', 'iwamatsu', 'nigauri.org')
             )
         ),
     array ('ka',
@@ -219,7 +235,12 @@ $credits['translators'] = array (
         ),
     array ('lt',
         array (
-            array ('Mantas Zapolskas', 'mantazusers.sf.net')
+            array ('Mantas Zapolskas', 'mantaz', 'users.sf.net')
+            )
+        ),
+    array ('nb_NO',
+        array (
+            array ('Terje Uriansrud', 'ter', 'operamail.com')
             )
         ),
     array ('nl',
@@ -242,9 +263,11 @@ $credits['translators'] = array (
         ),
     array ('pt_BR',
         array (
-            array ('Fernando Maróstica', 'fmarostica', 'fmarostica.org'),
             array ('Adriano Winter Bess', 'awbess', 'gmail.com'),
-            array ('Rodrigo Coacci', 'rcoacci', 'gmail.com')
+            array ('Rodrigo Coacci', 'rcoacci', 'gmail.com'),
+            array ('Og Maciel', 'ogmaciel', 'gnome.org'),
+            array ('Fábio Nogueira', 'deb-user-ba', 'ubuntu.com'),
+            array ('Vladimir Melo', 'vladimirmelo.psi', 'gmail.com')            
             )
         ),
     array ('pt_PT',
@@ -262,6 +285,11 @@ $credits['translators'] = array (
             array ('Andrey Fedoseev', 'andrey.fedoseev', 'gmail.com'),
             array ('Maxim Zenin', 'webmechanics', 'gmail.com'),
             array ('Sergey Fedoseev', 'fedoseev.sergey', 'gmail.com')
+            )
+        ),
+    array ('si',
+        array (
+            array ('Rashan Anushka', 'rashan.uoc', 'gmail.com')
             )
         ),
     array ('sk',
@@ -283,7 +311,8 @@ $credits['translators'] = array (
     array ('tr',
         array (
             array ('Eren Türkay', 'Turkay.eren', 'gmail.com'),
-            array ('Türker Sezer', 'turkersezer', 'tsdesign.info')
+            array ('Türker Sezer', 'turkersezer', 'tsdesign.info'),
+            array ('Cem Üna', 'admincemunal', 'gmail.com')
             )
         ),
     array ('uk',
@@ -304,7 +333,7 @@ $credits['translators'] = array (
             array ('Jick Nan', 'jick.nan', 'gmail.com'), 
             array ('Shaodong Di', 'yhlfh', 'yahoo.com.cn'), 
             array ('Wu Li', 'wurisky', 'gmail.com'), 
-            array ('Yongtao Yang', 'yongtao.yangtelia.com')
+            array ('Yongtao Yang', 'yongtao', 'yangtelia.com')
             )
         ),
     array ('zh_TW',
