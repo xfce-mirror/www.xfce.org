@@ -1,4 +1,4 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/library.png" alt="libraries" width="48" height="48" /></div>
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/library.png" alt="xfconf" width="48" height="48" /></div>
 
 <h1>Libraries</h1>
 
