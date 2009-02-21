@@ -2,7 +2,7 @@
 
 <h1>Mousepad</h1>
 
-<p class="image"><img src="/images/projects/screenshots/mousepad.png" alt="Mousepad" /></p>
+<p class="center"><img src="/images/projects/screenshots/mousepad.png" alt="Mousepad" /></p>
 
 <p>
 Mousepad is a simple text editor for Xfce based on Leafpad. The initial
