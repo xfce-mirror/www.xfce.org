@@ -24,8 +24,8 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-panel/">Panel</a></h3>
-			<p>The Xfce 4 panel is part of the Xfce 4 Desktop Environment and
-			features program launchers, panel menus, a clock, a desktop switcher and more.</p>
+      <p>The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
+      menus, a clock, a desktop switcher and more.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
@@ -70,8 +70,8 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
-		<p>Essential utilities and scripts. Provides an &quot;about&quot; dialog, a run dialog and several important
-		  scripts that are used by other packages.</p>
+    <p>Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
+    launching applications and several important scripts that are used by other packages.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
@@ -106,15 +106,6 @@ Every project has it's own project page to provide additionnal information.
 			difficult for Leafpad for various reasons.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt is the official approach of transforming the famous Xfce installer
-			into a more generic software management and installation tool. It is written in
-			Python using Python-GTK.</p>
-		</td>
-		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
@@ -122,8 +113,6 @@ Every project has it's own project page to provide additionnal information.
 			<p>Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce
 			desktop environment.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
@@ -132,6 +121,8 @@ Every project has it's own project page to provide additionnal information.
 			<p>Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed
 			from the ground up to be fast and easy-to-use.</p>
 		</td>
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
 		</td>
@@ -146,8 +137,6 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="/projects/orage/">Orage</a></h3>
 			<p>A simple calendar application with reminders.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
@@ -155,12 +144,14 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
 			<p>Allows you to search, launch and find information about applications installed on your system.</p>
 		</td>
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Volume Mixer</a></h3>
-			<p>A modern sound mixer based on GStreamer.</p>
+			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
+			<p>A modern sound mixer and based on GStreamer.</p>
 		</td>
     <td width="48" valign="top">
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
@@ -171,8 +162,6 @@ Every project has it's own project page to provide additionnal information.
 			The GTK+ GUI focuses on playing and managing audio files, but, being based
 			on xine, supports video as well.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
@@ -180,6 +169,8 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
 			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
 		</td>
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
@@ -211,8 +202,8 @@ Every project has it's own project page to provide additionnal information.
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>Pyxfce are Xfce bindings for python. You can use python to create xfce programs, after you installed pyxfce.</p>
+			<h3><a href="http://pyxfce.xfce.org">Python Bindings</a></h3>
+			<p>Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
@@ -228,8 +219,9 @@ Every project has it's own project page to provide additionnal information.
 			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
-			<p>Xfce4-perl are Xfce bindings for Perl. It also includes bindings for panel plugins. </p>
+			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
+      <p>Perl bindings for Xfce. If you'rea old-fashioned or just don like C and Python, you can 
+      use Perl to write Xfce applications. </p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
@@ -256,8 +248,8 @@ Every project has it's own project page to provide additionnal information.
 			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3>GTK Theme Engine</h3>
-			<p>A theme engine for GTK2. Not required for the desktop, but it's a nice theme
+			<h3>GTK+ Theme Engine</h3>
+			<p>A theme engine for GTK+. Not required for the desktop, but it's a nice theme
 			engine so you might just as well give it a try.</p>
 		</td>
 		<td width="48" valign="top">
@@ -265,7 +257,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3>Icon Theme</h3>
-			<p>Default icon theme for Xfce 4. It includes both PNG and SVG icons</p>
+			<p>Default icon theme for Xfce. It includes both PNG and SVG icons</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />
