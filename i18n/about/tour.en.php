@@ -78,26 +78,26 @@ you to terminate them.</p>
 <p align="center"><img src="/images/about/tour/4.6/xfwm4-net-ping.png" alt="Dialog to terminate busy applications" /></p>
 
 <p align="justify">
-There is also a new actions menu with additionnal items to quickly move and resize windows,
+There is also a new <b>actions menu</b> with additionnal items to quickly move and resize windows,
 to put them above or below other windows, or to fullscreen them.
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfwm4-new-menu.png" alt="New actions menu" /></p>
 
 <p align="justify">
-A new "fill" operation has been implemented, it expands a given window to the available
+A new <b>fill</b> operation has been implemented, it expands a given window to the available
 space without overlapping other adjacent windows.
 </p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfwm4-fill-operation.png" alt="Fill operation" /></p>
 
-<p align="justify">The compositor has been optimized to reduce window flickering during
+<p align="justify">The <b>compositor</b> has been optimized to reduce window flickering during
 resize operations.</p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfwm4-resize.png" alt="Flicker free resizing" /></p>
 
 <p align="justify">
-Moreover, some tweakable options have been added: for example you can now disable the blinking
+Moreover, some <b>tweakable options</b> have been added: for example you can now disable the blinking
 of windows when they receive an urgency hint.
 </p>
 
