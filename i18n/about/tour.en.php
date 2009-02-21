@@ -67,7 +67,8 @@ dialog now has two additionnal buttons to suspend your computer or hibernate it.
 
 <h2>Window manager <a name="window-manager"></a></h2>
 
-<p align="justify">As usual, <b>Xfwm4</b> has matured a lot during this release cycle:
+<p align="justify">
+As usual, <b>Xfwm4</b> has matured a lot during this release cycle:
 many bugs have been fixed, multidisplay support and performances have been
 improved and some nice features have also been implemented.</p>
 
@@ -75,6 +76,32 @@ improved and some nice features have also been implemented.</p>
 you to terminate them.</p>
 
 <p align="center"><img src="/images/about/tour/4.6/xfwm4-net-ping.png" alt="Dialog to terminate busy applications" /></p>
+
+<p align="justify">
+There is also a new actions menu with additionnal items to quickly move and resize windows,
+to put them above or below other windows, or to fullscreen them.
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfwm4-new-menu.png" alt="New actions menu" /></p>
+
+<p align="justify">
+A new "fill" operation has been implemented, it expands a given window to the available
+space without overlapping other adjacent windows.
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfwm4-fill-operation.png" alt="Fill operation" /></p>
+
+<p align="justify">The compositor has been optimized to reduce window flickering during
+resize operations.</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfwm4-resize.png" alt="Flicker free resizing" /></p>
+
+<p align="justify">
+Moreover, some tweakable options have been added: for example you can now disable the blinking
+of windows when they receive an urgency hint.
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/xfwm4-new-tweaks.png" alt="New tweakable options" /></p>
 
 <h2>File manager <a name="file-manager"></a></h2>
 
