@@ -33,6 +33,7 @@ function bug ($id){
     <li>Add hint about no invariant sections to COPYING.</li>
     <li>Fix crash when reading invalid menu files (<?php bug ('4879') ?>).</li>
     <li>Monitor the directories of .menu files and all directory dirs. Otherwise the menu is not regenerated when they are altered.</li>
+    <li>Fix a massive memory leak. (<?php bug ('3812') ?>).</li>
     <li>Updated translations: German, Indonesian, Polish, English (GB), Turkish, Ukrainian, Finnish.</li>
 </ul>
 
@@ -86,6 +87,7 @@ function bug ($id){
     <li>Make embedded settings dialogs optional (and disabled by default). They can be turned on using --enable-pluggable-dialogs.</li>
     <li>Remove bold markup from the shortcut reset dialog text (<?php bug ('4785') ?>).</li>
     <li>Applied Gtk/IMModule created patch by Akira Tagoh (<?php bug ('4961') ?>).</li>
+    <li>Fix the DPI settings issue.</li>
     <li>Updated translations: Danish, Swedish, Japanese, Norwegian, Simplified Chinese, Turkish, Catalan, Ukrainian, Czech.</li>
 </ul>
 
@@ -93,6 +95,7 @@ function bug ($id){
 <ul>
     <li>Fix a segfault of xfconfd at startup on amd64 (<?php bug ('4881') ?>).</li>
     <li>Code cleanup in g_critical assertion.</li>
+    <li>Fix xfconf-query usage with UTF-8 file names (<?php bug ('4622') ?>).</li>
     <li>Updated translations: Danish, French, Indonesian, Norwegian, Simplified Chinese, Swedish, Brazilian Portuguese, Spanish, Turkish, Basque, Czech.</li>
 </ul>
 
