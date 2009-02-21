@@ -31,6 +31,6 @@ from the Goodies Project page.</p>
 <h2>Author</h2>
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
-  <li>Nick Schermer [ nick at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
 </ul>
 

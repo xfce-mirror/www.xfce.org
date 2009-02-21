@@ -3,9 +3,9 @@
 <h1>Application Finder</h1>
 
 <p>
-This is an application finder for the Xfce environment. It is an useful software that permits you to find every
-application in the system supporting Desktop entry format. You can search for "lost" software with it, and add
-entries to the menu, and obviously run the selected software from it.
+This is an application finder for the Xfce Desktop Environment. It is a useful program that helps you applications
+on the system, launch them and drag them to panel launcher dialogs. It provides easy keyboard navigation and can
+serve as a replacement for xfrun4.
 </p>
 
 <h2>External Links</h2>
@@ -21,7 +21,7 @@ entries to the menu, and obviously run the selected software from it.
 
 <h1>Author</h1>
 <ul>
-  <li>Eduard Roccatello [eduard at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Jasper Huijsmans [jasper at xfce.org]</li>
 </ul>
 

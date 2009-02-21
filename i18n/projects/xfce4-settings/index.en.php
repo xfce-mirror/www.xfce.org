@@ -22,10 +22,10 @@ sessions...
 
 <h2>Authors</h2>
 <ul>
-  <li>Stephan Arts [stephan at xfce.org]</li>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
   <li>Nick Schermer [nick at xfce.org]</li>
-  <li>Brian Tarricone [kelnos at xfce.org]</li>
   <li>Olivier Fourdan [olivier at xfce.org]</li>
+  <li>Stephan Arts [stephan at xfce.org]</li>
 </ul>
 

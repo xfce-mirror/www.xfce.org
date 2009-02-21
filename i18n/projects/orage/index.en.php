@@ -3,9 +3,9 @@
 <h1>Orage</h1>
 
 <p>
-Orage provides a calendar which integrates nicely into the Xfce desktop environment. It is highly configurable and
-supports alerts based on dates. It warns you with popup or audio alarm. As it is an application kind-of every day use
-it launches itself in the background as a daemon.
+Orage provides a calendar which integrates nicely into the Xfce Desktop Environment. It is highly configurable and
+supports alerts based on dates. It warns you with popup or audio alarm. As it is an application for every day use
+it launches itself in the background as a daemon and can be accessed using the Orage Clock plugin for the panel.
 </p>
 
 <h2>External Links</h2>
@@ -23,7 +23,7 @@ it launches itself in the background as a daemon.
 
 <h2>Authors</h2>
 <ul>
-  <li>Project creator &amp; former maintainer: Mickael Graf [korbinus xfce.org]</li>
+  <li>Project creator and former maintainer: Mickael Graf [korbinus xfce.org]</li>
   <li>Maintainer: Juha Kautto [juha at xfce.org]</li>
 </ul>
 

@@ -3,12 +3,12 @@
 <h1>Volume Control</h1>
 
 <p>
-Xfce4 Mixer is a volume control application for the Xfce Desktop Environment. It provides
+The Mixer is a volume control application for the Xfce Desktop Environment. It provides
 both a volume control plugin for the Xfce Panel and a standalone mixer application.
 </p>
 
 <p>
-It supports all backends supported by the <a href="http://www.gstreamer.net/">GStreamer</a> project.
+It supports all audio systems supported by the <a href="http://www.gstreamer.net/">GStreamer</a> project.
 </p>
 
 <h2>External Links</h2>

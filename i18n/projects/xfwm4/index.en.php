@@ -25,6 +25,6 @@ windows manipulations, and provides a dialog for advanced tweaks.
 
 <h2>Author</h2>
 <ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
+  <li>Olivier Fourdan [olivier at xfce.org]</li>
 </ul>
 

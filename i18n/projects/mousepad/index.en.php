@@ -23,5 +23,6 @@ difficult for Leafpad for various reasons.
 <h1>Author</h1>
 <ul>
   <li>Erik Harrison [erikharrison at gmail.com]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
 </ul>
 

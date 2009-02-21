@@ -15,6 +15,6 @@ Xfconf is a simple client-server configuration storage and query system.
 <h2>Authors</h2>
 <ul>
   <li>Brian J. Tarricone [kelnos at xfce.org]</li>
-  <li>Stephan Arts [sarts@xfce.org]</li>
+  <li>Stephan Arts [sarts at xfce.org]</li>
 </ul>
 

@@ -20,16 +20,16 @@
 
 
 $credits['project-lead'] = array (
-    array ('Olivier Fourdan', 'fourdan', 'xfce.org')
+    array ('Olivier Fourdan', 'olivier', 'xfce.org')
     );
 
 $credits['core-developers'] = array (
     array ('Benedikt Meurer', 'benny', 'xfce.org', 'Thunar, Terminal, Session Manager, Libexo'),
     array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf, Session Manager'),
-    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager'),
+    array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager, Settings Manager'),
     array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, Menu Library, Application Finder, Settings Manager, Thunar'),
     array ('Nick Schermer', 'nick', 'xfce.org', 'Panel, Settings Manager, Thunar'),
-    array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings manager, Xfconf')
+    array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings Manager, Xfconf')
     );
 
 $credits['server-and-website'] = array (

@@ -34,5 +34,6 @@ instead, it will just work if your system complies with the FreeDesktop.org stan
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
 </ul>
 
