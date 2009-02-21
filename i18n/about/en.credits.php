@@ -1,10 +1,10 @@
 <?php
 $credits['core-developers-i18n'] = array (
     'benny' => 'Thunar, Terminal, Session Manager, Libexo',
-    'kelnos' => 'Desktop Manager, Xfconf',
-    'fourdan' => 'Window Manager',
-    'jannis' => 'Mixer, libxfce4menu, application finder',
-    'nick' => 'Panel, settings manager',
+    'kelnos' => 'Desktop Manager, Xfconf, Session Manager',
+    'fourdan' => 'Window Manager, Settings Manager',
+    'jannis' => 'Mixer, Menu Library, Application Finder, Settings Manager, Thunar',
+    'nick' => 'Panel, Settings Manager, Thunar',
     'stephan' => 'Settings manager, Xfconf'
     );
 
