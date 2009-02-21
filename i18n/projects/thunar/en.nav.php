@@ -12,8 +12,10 @@
 		    <li><a href="/projects/xfce4-mixer">Volume Control</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
 		    <li><a href="/projects/xfce4-dev-tools">Xfce Development Tools</a></li>
-		    <li><a href="/projects/xfce4-terminal">Xfce4 Terminal</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
+        <li><a href="http://xarchiver.xfce.org/">Archive Manager</a></li>
+        <li><a href="/projects/ristretto">Ristretto</a></li>
+        <li><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#framework">Framework</a></li>

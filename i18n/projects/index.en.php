@@ -159,20 +159,10 @@ Every project has it's own project page to provide additionnal information.
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Volume Control</a></h3>
-			<p>A volume control for the panel. It includes a mixer dialog which supports ALSA,
-			OSS and Sun audio.</p>
+			<h3><a href="/projects/xfce4-mixer/">Volume Mixer</a></h3>
+			<p>A modern sound mixer based on GStreamer.</p>
 		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
-			<p>A lightweight terminal emulator for Xfce 4.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
+    <td width="48" valign="top">
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
@@ -181,6 +171,8 @@ Every project has it's own project page to provide additionnal information.
 			The GTK+ GUI focuses on playing and managing audio files, but, being based
 			on xine, supports video as well.</p>
 		</td>
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>

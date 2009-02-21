@@ -1,46 +1,31 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" /></div>
 
 <h1>Settings Manager</h1>
-<p>The settings manager provides the MCS (Multi-Channel Settings), a modular, 
-  host independent, network transparent and centralized configuration system. 
-  It runs in the background and provides global settings information to other 
-  Xfce components. There is a main control panel to access the configuration 
-  dialogs of all the components. The MCS plugins provide settings dialogs for 
-  general items that are not part of a package, e.g. GTK, mouse, fonts, 
-  keyboard, and display settings.</p>
 
-<h2>Features</h2>
-<ul>
-  <li><strong>Hardware components</strong>:
-    Display,
-    Mouse,
-    Keyboard, and
-    Sound.
-  </li>
-</ul>
-<ul>
-  <li><strong>Xfce components</strong>:
-      Theme and Decoration,
-      Desktop, 
-      Panel,
-      File Manager,
-      Calendar,
-      Splashscreen,
-      Sessions and Startup, and
-      Preferred Applications.
-  </li>
-</ul>
+<p>
+The settings manager allows you to customize your desktop environment in an easy and
+intuitive way. You can set some hardware components such as mouse, keyboard or display; but
+also theme your windows, widgets and icons, set your preferred applications, manage your
+sessions...
+</p>
 
 <h2>External Links</h2>
+
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce-mcs-manager/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce-mcs-manager/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-mcs-manager/trunk xfce-mcs-manager</code></p>
+
+<p>
+<a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-settings/trunk">ViewVC</a><br />
+<a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-settings/">SVN</a>
+</p>
+
+<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-settings/trunk xfce4-settings</code></p>
 
 <h2>Authors</h2>
 <ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-  <li>Benedikt Meurer [benny at xfce.org]</li>
+  <li>Stephan Arts [stephan at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
+  <li>Olivier Fourdan [olivier at xfce.org]</li>
 </ul>
 
