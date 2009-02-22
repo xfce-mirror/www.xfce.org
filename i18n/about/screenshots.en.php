@@ -1,6 +1,11 @@
 <h1>Screenshots</h1>
 <p>Some screenshots of Xfce, ordered by version. </p>
 
+<h2>Xfce 4.6</h2>
+<p>
+<a href="/images/about/screenshots/4.6-1.png"><img src="/images/about/screenshots/4.6-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+</p>
+
 <h2>Xfce 4.4</h2>
 <p>
 <a href="/images/about/screenshots/4.4-1.png"><img src="/images/about/screenshots/4.4-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
