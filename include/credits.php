@@ -43,8 +43,8 @@ $credits['contributors-active'] = array (
     array ('Yves-Alexis Perez', 'corsac', 'debian.org'),
     array ('Enrico Tröger', 'enrico.troeger', 'uvena.de'),
     array ('Mike Massonet', 'mmassonnet' ,'gmail.com'),
-    array ('Landry Breuil', 'landry', 'openbsd.org>'),
-    array ('David Mohr', 'squisher', 'xfce.org>'),
+    array ('Landry Breuil', 'landry', 'openbsd.org'),
+    array ('David Mohr', 'squisher', 'xfce.org'),
     array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
     array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
     array ('Jean-François Wauthy', 'pollux', 'xfce.org')
@@ -177,7 +177,7 @@ $credits['translators'] = array (
         array (
             array ('Gérald Barré', 'g.barre', 'free.fr'),
             array ('Jean-François Wauthy', 'pollux', 'xfce.org'),
-            array ('Maximilian Schleiss', 'maxschleiss', 'solnet.ch'),
+            array ('Maximilian Schleiss', 'maximilian', 'xfce.org'),
             array ('Mike Massonnet', 'mmassonnet', 'gmail.com'),
             array ('Olivier Fourdan', 'fourdan', 'xfce.org')
             )
