@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="http://wiki.xfce.org/faq" target="_blank" class="external">Xfce-FAQ</a></li>
+	<li><a href="http://wiki.xfce.org/faq" class="external">Xfce-FAQ</a></li>
 	<li><a href="/documentation/requirements">Systemvoraussetzungen</a></li>
 	<li><a href="/documentation/changelogs/">Changelogs</a></li>
 	<li><a href="/documentation/archive">Archiv</a>

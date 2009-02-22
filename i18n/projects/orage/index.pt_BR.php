@@ -6,11 +6,11 @@
   ele se carrega sozinho no background como um daemon.</p>
 
 <h2>Endereços Externos</h2>
-<p><a class="external" target="_blank" href="http://www.kolumbus.fi/~w408237/orage/">Website</a></p>
+<p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Website</a></p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfcalendar/trunk orage</code></p>
 
 <h2>Autors</h2>

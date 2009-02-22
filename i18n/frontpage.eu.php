@@ -85,9 +85,9 @@ Berriak</h2>
 			<ul>
 				<li><a href="/community/lists">Posta Zerrendak</a></li>
 				<li><a href="/about/screenshots">Argazkiak</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce foroa (Leiho berria)" class="external">Xfce Foroa</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Errore baten berri eman (Leiho berria)" target="_blank" class="external">Errore baten berri eman</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce Wiki-a (Leiho berria)" target="_blank" class="external">Xfce Wiki-a</a></li>
+				<li><a href="http://forum.xfce.org" title="Xfce foroa (Leiho berria)" class="external">Xfce Foroa</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Errore baten berri eman (Leiho berria)" class="external">Errore baten berri eman</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce Wiki-a (Leiho berria)" class="external">Xfce Wiki-a</a></li>
 				<li><a href="/download/distros">Xfce Banaketak</a></li>
 			</ul>
 		</div>

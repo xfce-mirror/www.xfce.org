@@ -6,11 +6,11 @@
   Meqë hyn te zbatimet që përdoren çdo ditë, e nis veten në prapaskenë si <em>daemon</em>.</p>
 
 <h2>Lidhje të Jashtme</h2>
-<p><a class="external" target="_blank" href="http://www.kolumbus.fi/~w408237/orage/">Faqe Hyrëse</a></p>
+<p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Faqe Hyrëse</a></p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfcalendar/trungu për orage</code></p>
 
 <h2>Autorë</h2>

@@ -6,7 +6,7 @@
       <h2><a href="/documentation/4.4/userguide/">Guia do Usuário</a></h2>
       <p>Nós sentimos muito, mas não há documentação para a versão 4.4 (<a href="/development/">ainda</a>). Você pode
          pesquisar a <a href="/documentation/4.2/">documentação 4.2</a>, visite o
-         <a href="http://forum.xfce.org" target="_blank">fórum Xfce</a> ou use a
+         <a href="http://forum.xfce.org">fórum Xfce</a> ou use a
          <a href="/community/lists">lista de e-mail</a> para solucionar o seu problema.</p>
 
       <h2><a href="/documentation/api">Desenvolvedores (API)</a></h2>
@@ -29,8 +29,8 @@
     </ul></td>
     <td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
-      <p>Você pode encontrar as perguntas mais frequêntes no <a href="http://wiki.xfce.org/faq" target="_blank">wiki Xfce</a>.</p>
+      <h2><a href="http://wiki.xfce.org/faq">FAQ</a></h2>
+      <p>Você pode encontrar as perguntas mais frequêntes no <a href="http://wiki.xfce.org/faq">wiki Xfce</a>.</p>
       <h2><a href="/documentation/4.4/requirements">Requerimentos</a></h2>
           <p>Uma lista detalhada de todos as<a href="/documentation/4.4/requirements">dependências</a> do Xfce.</p>
       <h2><a href="/documentation/changelogs/">Registros de Mudanças</a></h2>

@@ -43,10 +43,10 @@
 </ul>
 
 <h2>外部リンク</h2>
-<p>Goodies Project page上の<a href="http://goodies.xfce.org/projects/panel-plugins/start" target="_blank" class="external">パネルプラグイン</a></p>
+<p>Goodies Project page上の<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">パネルプラグイン</a></p>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
 
 <h2>作者</h2>

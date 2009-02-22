@@ -6,7 +6,7 @@
       <h2><a href="/documentation/4.4/userguide/">Panduan Pengguna</a></h2>
       <p>Kami mohon maaf, tapi belum ada dokumentasi untuk versi 4.4 (<a href="/development/">saat ini</a>). Anda dapat
          menelusuri <a href="/documentation/4.2/">dokumentasi 4.2</a>, mengunjungi
-         <a href="http://forum.xfce.org" target="_blank">forum Xfce</a> atau menggunakan
+         <a href="http://forum.xfce.org">forum Xfce</a> atau menggunakan
          <a href="/community/lists">milis</a> untuk mengatasi masalah anda.</p>
 
       <h2><a href="/documentation/api">Pengembang (API)</a></h2>
@@ -29,8 +29,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq" target="_blank">PAD</a></h2>
-      <p>Anda dapat menemukan pertanyaan yang acapkali diajukan di <a href="http://wiki.xfce.org/faq" target="_blank">wiki Xfce</a>.</p>
+      <h2><a href="http://wiki.xfce.org/faq">PAD</a></h2>
+      <p>Anda dapat menemukan pertanyaan yang acapkali diajukan di <a href="http://wiki.xfce.org/faq">wiki Xfce</a>.</p>
       <h2><a href="/documentation/4.4/requirements">Persyaratan</a></h2>
           <p>Senarai lengkap tentang semua <a href="/documentation/4.4/requirements">persyaratan</a> Xfce.</p>
       <h2><a href="/documentation/changelogs/">Perubahan Log</a></h2>

@@ -13,8 +13,8 @@ osagaiek erabiltzen dituzten script-ak idazmahai menuko eta paneleko menuak adib
 
 <h2>Kanpo Loturak</h2>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce-utils/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce-utils/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce-utils/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce-utils/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-utils/trunk xfce-utils</code></p>
 
 <h2>Garatzaileak</h2>

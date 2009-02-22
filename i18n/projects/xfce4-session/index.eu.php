@@ -16,8 +16,8 @@ dator eta azkenik saioa itxi, sistema itzaile edo berrabiarazten lagunduko zaitu
 
 <h2>Kanpo Loturak</h2>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-session/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-session/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-session/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-session/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-session/trunk xfce4-session</code></p>
 
 <h2>Garatzailea</h2>

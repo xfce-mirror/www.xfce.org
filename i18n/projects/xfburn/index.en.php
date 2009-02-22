@@ -18,7 +18,7 @@ compositions of data to either CD or DVD. It Is currently under <b>heavy</b> dev
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/goodies/xfburn/trunk">ViewVC</a><br />
-<a class="external" target="_blank" href="http://svn.xfce.org/svn/goodies/xfburn/">SVN</a>
+<a class="external" href="http://svn.xfce.org/svn/goodies/xfburn/">SVN</a>
 </p>
 
 <p><code class="code">svn co http://svn.xfce.org/svn/goodies/xfburn/trunk xfburn</code></p>

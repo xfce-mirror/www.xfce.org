@@ -21,8 +21,8 @@ Xfceパネルの音量調節プラグインとスタンドアロンで動くミ�
 <p>このアプリケーションはXfceデスクトップ環境の一部として提供されています。</p>
 <h3>Subversion</h3>
 <p>
-  <a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
+  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
 </p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></p>
 

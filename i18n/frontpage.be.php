@@ -79,9 +79,9 @@
 			<ul>
 				<li><a href="/community/lists">Паштовыя сьпісы</a></li>
 				<li><a href="/about/screenshots">Здымкі экранаў</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Форум Xfce (у асобным акне)" class="external">Форум Xfce</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Паведаміць пра памылку (у асобным акне)" target="_blank" class="external">Паведаміць пра памылку</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce Wiki (у асобным акне)" target="_blank" class="external">Xfce Wiki</a></li>
+				<li><a href="http://forum.xfce.org" title="Форум Xfce (у асобным акне)" class="external">Форум Xfce</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Паведаміць пра памылку (у асобным акне)" class="external">Паведаміць пра памылку</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce Wiki (у асобным акне)" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Дыстыбутывы Xfce</a></li>
 			</ul>
 		</div>

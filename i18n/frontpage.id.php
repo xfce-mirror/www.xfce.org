@@ -79,9 +79,9 @@
 			<ul>
 				<li><a href="/community/lists">Milis</a></li>
 				<li><a href="/about/screenshots">Gambar Layar</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Forum Xfce  (Jendela baru)" class="external">Forum Xfce</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Laporkan kutu  (Jendela baru)" target="_blank" class="external">Laporkan kutu</a></li>
-				<li><a href="http://wiki.xfce.org" title="Wiki Xfce  (Jendela baru)" target="_blank" class="external">Wiki Xfce</a></li>
+				<li><a href="http://forum.xfce.org" title="Forum Xfce  (Jendela baru)" class="external">Forum Xfce</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Laporkan kutu  (Jendela baru)" class="external">Laporkan kutu</a></li>
+				<li><a href="http://wiki.xfce.org" title="Wiki Xfce  (Jendela baru)" class="external">Wiki Xfce</a></li>
 				<li><a href="/download/distros">Distribusi Xfce</a></li>
 			</ul>
 		</div>

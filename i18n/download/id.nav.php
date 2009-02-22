@@ -8,10 +8,10 @@
 	</li>
 	<li><a href="/download/development">Versi pengembangan</a>
 		<ul>
-			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Ramban SVN</a></li>
-			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Tarball Harian</a></li>
+			<li><a href="http://svn.xfce.org/" class="external">Ramban SVN</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">Tarball Harian</a></li>
 		</ul>
 	</li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Plugin Panel</a></li>
+	<li><a href="http://goodies.xfce.org" class="external">Plugin Panel</a></li>
 	<li><a href="/download/distros">Distribusi Xfce</a></li>
 </ul>

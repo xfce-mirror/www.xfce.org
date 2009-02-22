@@ -4,11 +4,11 @@
 <p>Orage fournit un calendrier qui s'intègre parfaitement bien à l'environnement de bureau Xfce. Il est très configurable et supporte des alarmes pour certaines dates. Il avertit l'utilisateur par le biais de fenêtres à l'écran ou alarmes audio. Comme c'est une application au jour le jour, il se lance en tâche de fond à chaque démrrage de Xfce.</p>
 
 <h2>Liens externes</h2>
-<p><a class="external" target="_blank" href="http://www.kolumbus.fi/~w408237/orage/">Page Web</a></p>
+<p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Page Web</a></p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfcalendar/trunk orage</code></p>
 
 <h2>Auteurs</h2>

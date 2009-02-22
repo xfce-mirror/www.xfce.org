@@ -7,7 +7,7 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.sam-linux.org/" target="_blank" title="访问 Sam Linux 网站"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
+		<td valign="top"><a href="http://www.sam-linux.org/" title="访问 Sam Linux 网站"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
 		<td>
 			<h2>SAM Linux Desktop</h2>
 			<p>SAM Linux Desktop 是一种可自身引导的，包含一个完整 linux 桌面系统的 live CD。您不必将其安装到您的硬盘上，它完全是在您的 cd 驱动器和您的内存上运行的。</p>
@@ -15,13 +15,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.sam-linux.org/" target="_blank" title="访问 Sam Linux 网站">网站</a> | <a href="http://distrowatch.com/sam" target="_blank" title="访问 Sam Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.sam-linux.org/" title="访问 Sam Linux 网站">网站</a> | <a href="http://distrowatch.com/sam" target="_blank" title="访问 Sam Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.xubuntu.org/" target="_blank" title="访问 Xubuntu 网站"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
+		<td valign="top"><a href="http://www.xubuntu.org/" title="访问 Xubuntu 网站"><img src="/images/download/distros/xubuntu.png" alt="Xubuntu" border="0"/></a></td>
 		<td>
 			<h2>Xubuntu</h2>
 			<p>Xubuntu 是一种基于 Ubuntu 的 Linux 发行版。然而，不像其祖宗那样，Xubuntu 使用轻量级的 Xfce 桌面环境并且是为低端机器所完善定制的。此发行版仅仅包含了必须的 GTK+ 应用程序。</p>
@@ -29,13 +29,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xubuntu.org/" target="_blank" title="访问 Xubuntu 网站">网站</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="访问 Xubuntu 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.xubuntu.org/" title="访问 Xubuntu 网站">网站</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="访问 Xubuntu 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.kwort.org/" target="_blank" title="访问 Kwort Linux 网站"><img src="/images/download/distros/kwortlinux.png" alt="Kwort Linux" border="0"/></a>
+		<td valign="top"><a href="http://www.kwort.org/" title="访问 Kwort Linux 网站"><img src="/images/download/distros/kwortlinux.png" alt="Kwort Linux" border="0"/></a>
 		</td>
 		<td>
 			<h2>Kwort Linux</h2>
@@ -44,13 +44,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.kwort.org/" target="_blank" title="访问 Kwort Linux 网站">网站</a> | <a href="http://distrowatch.com/kwort" target="_blank" title="访问 Kwort Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.kwort.org/" title="访问 Kwort Linux 网站">网站</a> | <a href="http://distrowatch.com/kwort" target="_blank" title="访问 Kwort Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.kateos.org/" target="_blank" title="访问 Kate OS 网站"><img src="/images/download/distros/kateos.png" alt="Kate OS" border="0"/></a>
+		<td valign="top"><a href="http://www.kateos.org/" title="访问 Kate OS 网站"><img src="/images/download/distros/kateos.png" alt="Kate OS" border="0"/></a>
 		</td>
 		<td>
 			<h2>Kate OS</h2>
@@ -59,13 +59,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.kateos.org/" target="_blank" title="访问 Kate OS 网站">网站</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="访问 Kate OS 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.kateos.org/" title="访问 Kate OS 网站">网站</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="访问 Kate OS 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://pureos.org/" target="_blank" title="访问 PureOSlight 网站"><img src="/images/download/distros/pureoslight.png" alt="PureOSlight" border="0"/></a></td>
+		<td valign="top"><a href="http://pureos.org/" title="访问 PureOSlight 网站"><img src="/images/download/distros/pureoslight.png" alt="PureOSlight" border="0"/></a></td>
 		<td>
 			<h2>PureOSlight</h2>
 			<p>PureOSlight 是一款为法语用户准备的基于 Debian (testing) 的 liveCD。它使用 Tomas Matejicek (Slax) 的 Linux-live 脚本构建。</p>
@@ -73,7 +73,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.pureos.org/" target="_blank" title="访问 PureOSlight 网站">网站</a></a></td>
+		<td><a href="http://www.pureos.org/" title="访问 PureOSlight 网站">网站</a></a></td>
 	</tr>
 </table>
 
@@ -82,7 +82,7 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.zenwalk.org/" target="_blank" title="访问 Zenwalk 网站"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
+		<td valign="top"><a href="http://www.zenwalk.org/" title="访问 Zenwalk 网站"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
 		<td>
 			<h2>Zenwalk</h2>
 			<p>Zenwalk 是一种基于 Slackware 的操作系统。Zenwalk 的主旨是通过与 Xfce 桌面组合而每次任务只使用一个程序来使其变得小巧和快速。Zenwalk 以最新的 Linux 技术以及完整的编程环境和库来为程序编程者提供一个理想的平台为特性。Zenwalk 的模块化接口也提供了一种简单的方法来转换 Zenwalk Linux 为一个调谐良好的现代服务器，例如 LAMP、通讯、文件共享。</p>
@@ -90,13 +90,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.zenwalk.org/" target="_blank" title="访问 Zenwalk 网站">网站</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="访问 Zenwalk 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.zenwalk.org/" title="访问 Zenwalk 网站">网站</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="访问 Zenwalk 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.lunar-linux.org/" target="_blank" title="访问 Lunar Linux 网站"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
+		<td valign="top"><a href="http://www.lunar-linux.org/" title="访问 Lunar Linux 网站"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
 		<td>
 			<h2>Lunar Linux</h2>
 			<p>Lunar Linux 是一种基于源代码的发行版。虽然在 Lunar 中没有默认的桌面环境，但是它有着对 Xfce 的出色的支持，主要是因为一些 Xfce 开发者同样也是 Lunar 的开发者。 另一个值得注意的是：所有的 Xfce 服务器运行的都是 Lunar Linux！</p>
@@ -104,13 +104,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.lunar-linux.org/" target="_blank" title="访问 Lunar Linux 网站">网站</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="访问 Lunar Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.lunar-linux.org/" title="访问 Lunar Linux 网站">网站</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="访问 Lunar Linux 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.xfld.org/" target="_blank" title="访问 Xfld 网站"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
+		<td valign="top"><a href="http://www.xfld.org/" title="访问 Xfld 网站"><img src="/images/download/distros/xfld.png" alt="Xfld" border="0"/></a></td>
 		<td>
 			<h2>Xfld</h2>
 			<p>Xfld - 'Xfce live demo' - 是一种 liveCD，演示最新版的 Xfce 桌面环境并提供了一个完整的 GNU/Linux 操作系统 (基于Ubuntu)，它能够直接从 CD 上运行。</p>
@@ -118,13 +118,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xfld.org/" target="_blank" title="访问 Xubuntu 网站">网站</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="访问 Xfld 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.xfld.org/" title="访问 Xubuntu 网站">网站</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="访问 Xfld 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.freesbie.org/" target="_blank" title="访问 FreeSBIE 网站"><img src="/images/download/distros/freesbie.png" alt="FreeSBIE" border="0"/></a>
+		<td valign="top"><a href="http://www.freesbie.org/" title="访问 FreeSBIE 网站"><img src="/images/download/distros/freesbie.png" alt="FreeSBIE" border="0"/></a>
 		</td>
 		<td>
 			<h2>FreeSBIE</h2>
@@ -133,13 +133,13 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.freesbie.org/" target="_blank" title="访问 FreeSBIE 网站">网站</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="访问 FreeSBIE 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://www.freesbie.org/" title="访问 FreeSBIE 网站">网站</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="访问 FreeSBIE 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://myah.org/" target="_blank" title="访问 Myah OS 网站"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
+		<td valign="top"><a href="http://myah.org/" title="访问 Myah OS 网站"><img src="/images/download/distros/myahos.png" alt="Myah OS" border="0"/></a>
 		</td>
 		<td>
 			<h2>Myah OS</h2>
@@ -148,7 +148,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://myah.org/" target="_blank" title="访问 Myah OS 网站">网站</a> | <a href="http://distrowatch.com/myah" target="_blank" title="访问 Myah OS 在 DistroWatch 上的页面">DistroWatch</a></td>
+		<td><a href="http://myah.org/" title="访问 Myah OS 网站">网站</a> | <a href="http://distrowatch.com/myah" target="_blank" title="访问 Myah OS 在 DistroWatch 上的页面">DistroWatch</a></td>
 	</tr>
 </table>
 

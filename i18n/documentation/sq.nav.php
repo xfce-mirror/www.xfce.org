@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="http://wiki.xfce.org/faq" target="_blank" class="external">FAQ për Xfce-në</a></li>
+	<li><a href="http://wiki.xfce.org/faq" class="external">FAQ për Xfce-në</a></li>
 	<li><a href="/documentation/requirements">Sistem i Nevojshëm</a></li>
 	<li><a href="/documentation/changelogs/">Regjistër Ndryshimesh</a></li>
 	<li><a href="/documentation/archive">Arkivë</a>

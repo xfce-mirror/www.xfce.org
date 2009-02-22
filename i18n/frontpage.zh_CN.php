@@ -79,9 +79,9 @@
 			<ul>
 				<li><a href="/community/lists">邮件列表</a></li>
 				<li><a href="/about/screenshots">屏幕截图</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce 论坛 (新窗口)" class="external">Xfce 论坛</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="报告 bug (新窗口)" target="_blank" class="external">报告 bug</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce 维基 (新窗口)" target="_blank" class="external">Xfce 维基</a></li>
+				<li><a href="http://forum.xfce.org" title="Xfce 论坛 (新窗口)" class="external">Xfce 论坛</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="报告 bug (新窗口)" class="external">报告 bug</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce 维基 (新窗口)" class="external">Xfce 维基</a></li>
 				<li><a href="/download/distros">Xfce 发行版</a></li>
 			</ul>
 		</div>

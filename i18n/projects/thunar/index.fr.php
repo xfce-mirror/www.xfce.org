@@ -5,12 +5,12 @@
 <p>Thunar implémente plusiers standards de FreeDesktop.org pour s'intégrer au monde du bureau UNIX/Linux de nos jours. Ce qui signifie que vous n'aurez pas besoins de passer des heures à configurer votre gestionnaire de fichiers, au contraire, il fonctionnera d'office si votre système est conforme au standards de FreeDesktop.org.</p>
 
 <h2>Liens externes</h2>
-<p><a class="external" target="_blank" href="http://thunar.xfce.org/">Page Web</a><br />
-  <a class="external" target="_blank" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contient des astuces utiles)</p>
+<p><a class="external" href="http://thunar.xfce.org/">Page Web</a><br />
+  <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contient des astuces utiles)</p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>
 
 <h2>Auteur</h2>

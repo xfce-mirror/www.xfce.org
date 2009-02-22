@@ -5,10 +5,10 @@
   të tjera. Ju ndihmon të çngjeshni shpejt një arkiv, ose të përgatisni dhe krijoni arkiva të rinj.</p>
 
 <h2>Lidhje të Jashtme</h2>
-<p><a class="external" target="_blank" href="http://xarchiver.xfce.org/">Faqe Hyrëse</a></p>
+<p><a class="external" href="http://xarchiver.xfce.org/">Faqe Hyrëse</a></p>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xarchiver/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xarchiver/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xarchiver/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xarchiver/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xarchiver/trungu për </code></p>
 
 <h2>Autor</h2>

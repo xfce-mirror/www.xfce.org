@@ -36,7 +36,7 @@ panel and the file manager, standalone applications such as a <b>dictionnary</b>
   <li>Translated into more than 40 languages</li>
 </ul>
 <ul>
-  <li><a href="http://www.freedesktop.org/" target="_blank" class="external">Freedesktop</a> specifications compliance
+  <li><a href="http://www.freedesktop.org/" class="external">Freedesktop</a> specifications compliance
   <ul>
     <li>Extended Window Manager hints</li>
     <li>Desktop Menus</li>

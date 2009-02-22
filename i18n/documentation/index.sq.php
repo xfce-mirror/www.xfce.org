@@ -6,7 +6,7 @@
       <h2><a href="/documentation/4.4/userguide/">Udhërrëfyes për Përdoruesa</a></h2>
       <p>Na ndjeni por (<a href="/development/">ende</a>) nuk ka dokumentacion për 4.4. Mund
          të kërkoni në <a href="/documentation/4.2/">dokumentacionin e 4.2-it</a>, të vizitoni
-         <a href="http://forum.xfce.org" target="_blank">forumin Xfce</a> ose të shfrytëzoni
+         <a href="http://forum.xfce.org">forumin Xfce</a> ose të shfrytëzoni
          <a href="/community/lists">listat e postimeve</a> për të zgjidhur problemin tuaj.</p>
 
       <h2><a href="/documentation/api">Zhvilluesa (API)</a></h2>
@@ -29,7 +29,7 @@
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
       <h2><a href="/documentation/faq">FAQ</a></h2>
-      <p>Pyetjet e bëra shpesh rreth Xfce-së mund t'i gjeni te <a href="http://wiki.xfce.org/faq" target="_blank">Xfce wiki</a>.</p>
+      <p>Pyetjet e bëra shpesh rreth Xfce-së mund t'i gjeni te <a href="http://wiki.xfce.org/faq">Xfce wiki</a>.</p>
       <h2><a href="/documentation/requirements">Sistem i Nevojshëm</a></h2>
           <p>Listë e hollësishme për tërë <a href="/documentation/requirements">varësitë</a> e Xfce-së.</p>
       <h2><a href="/documentation/changelogs/">Regjistër ndryshimesh</a></h2>

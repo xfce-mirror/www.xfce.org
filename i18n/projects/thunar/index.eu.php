@@ -10,12 +10,12 @@ Honen esanahaia zure sistema ez duzula modu berezian konfiguratzen denbora bota 
 estanadarrak betetzeko konpilatu izan bada da.</p>
 
 <h2>Kanpo Loturak</h2>
-<p><a class="external" target="_blank" href="http://thunar.xfce.org/">Homepage</a><br />
-  <a class="external" target="_blank" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contains useful tips)</p>
+<p><a class="external" href="http://thunar.xfce.org/">Homepage</a><br />
+  <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contains useful tips)</p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>
 
 <h2>Garatzailea</h2>

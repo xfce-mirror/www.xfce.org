@@ -5,7 +5,7 @@
     <td width="49%" valign="top">
       <h2><a href="/documentation/4.4/userguide/">Anwenderhandbuch</a></h2>
       <p>Leider gibt es zu Xfce 4.4 (<a href="/development/">noch</a>) keine Dokumentation. Sie können entweder in der <a href="/documentation/4.2/">Dokumentation zu 4.2</a> nachschlagen, das
-         <a href="http://forum.xfce.org" target="_blank">Xfce-Forum</a> aufsuchen oder sich an die
+         <a href="http://forum.xfce.org">Xfce-Forum</a> aufsuchen oder sich an die
          <a href="/community/lists">Mailing-Listen</a> wenden, um ihr Problem zu lösen.</p>
 
       <h2><a href="/documentation/api">Entwickler (API)</a></h2>
@@ -28,8 +28,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ</a></h2>
-      <p>Im <a href="http://wiki.xfce.org/faq" target="_blank">Xfce-Wiki</a> finden Sie Antworten auf Fragen die häufiger auftreten.</p>
+      <h2><a href="http://wiki.xfce.org/faq">FAQ</a></h2>
+      <p>Im <a href="http://wiki.xfce.org/faq">Xfce-Wiki</a> finden Sie Antworten auf Fragen die häufiger auftreten.</p>
       <h2><a href="/documentation/requirements">Systemvoraussetzungen</a></h2>
           <p>Eine ausführliche Liste von <a href="/documentation/requirements">Abhängigkeiten</a>, die zu erfüllen sind um Xfce zu kompilieren.</p>
       <h2><a href="/documentation/changelogs/">Changelogs</a></h2>

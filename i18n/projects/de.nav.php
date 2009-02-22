@@ -7,5 +7,5 @@
 		    <li><a href="/projects/#art">Kunst und Grafik</a></li>
 		</ul>
 	</li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Xfce Goodies</a></li>
+	<li><a href="http://goodies.xfce.org" class="external">Xfce Goodies</a></li>
 </ul>

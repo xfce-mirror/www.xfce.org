@@ -6,8 +6,8 @@
 				<div id="footer-sponsors">
 					<h2 class="hidden">Logo-ak</h2>
 					<ul>
-						<li><a href="http://www.os-cillation.com/" title="os-cillation" target="_blank"><img src="/layout/friends/os-cillation.jpg" alt="os-cillation" border="1" /></a></li>
-						<li><a href="http://sourceforge.net/" title="SourceForge.net" target="_blank"><img src="/layout/friends/sf.jpg" alt="SourceForge.net" border="1" /></a></li>
+						<li><a href="http://www.os-cillation.com/" title="os-cillation"><img src="/layout/friends/os-cillation.jpg" alt="os-cillation" border="1" /></a></li>
+						<li><a href="http://sourceforge.net/" title="SourceForge.net"><img src="/layout/friends/sf.jpg" alt="SourceForge.net" border="1" /></a></li>
 					</ul>
 				</div>
 				<div id="footer-copyright">

@@ -79,9 +79,9 @@
 			<ul>
 				<li><a href="/community/lists">Lista postimesh</a></li>
 				<li><a href="/about/screenshots">Pamje</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Forumi Xfce (Dritare e re)" class="external">Forum Xfce</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Raportoni një të metë  (Dritare e re)" target="_blank" class="external">Njoftoni një kandërr</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  (Dritare e re)" target="_blank" class="external">Xfce Wiki</a></li>
+				<li><a href="http://forum.xfce.org" title="Forumi Xfce (Dritare e re)" class="external">Forum Xfce</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Raportoni një të metë  (Dritare e re)" class="external">Njoftoni një kandërr</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  (Dritare e re)" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Shpërndarje Xfce</a></li>
 			</ul>
 		</div>

@@ -4,7 +4,7 @@
   <tr>
     <td width="49%" valign="top">
       <h2><a href="/documentation/4.4/userguide/">用户指南</a></h2>
-      <p>非常抱歉，我们(<a href="/development/">暂时</a>)还没有 4.4 的文档。您可以搜索 <a href="/documentation/4.2/">4.2 文档</a>，访问 <a href="http://forum.xfce.org" target="_blank">Xfce 论坛</a>或者使用<a href="/community/lists">邮件列表</a>来解决您的问题。</p>
+      <p>非常抱歉，我们(<a href="/development/">暂时</a>)还没有 4.4 的文档。您可以搜索 <a href="/documentation/4.2/">4.2 文档</a>，访问 <a href="http://forum.xfce.org">Xfce 论坛</a>或者使用<a href="/community/lists">邮件列表</a>来解决您的问题。</p>
 
       <h2><a href="/documentation/api">开发者 (API)</a></h2>
       <ul>
@@ -26,8 +26,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/zh-cn/faq" target="_blank">FAQs</a></h2>
-      <p>您可以在 <a href="http://wiki.xfce.org/zh-cn/faq" target="_blank">Xfce 维基</a>上找到 Xfce 常见问题解答。</p>
+      <h2><a href="http://wiki.xfce.org/zh-cn/faq">FAQs</a></h2>
+      <p>您可以在 <a href="http://wiki.xfce.org/zh-cn/faq">Xfce 维基</a>上找到 Xfce 常见问题解答。</p>
       <h2><a href="/documentation/4.4/requirements">系统要求</a></h2>
           <p>一份详细的 Xfce <a href="/documentation/4.4/requirements">依赖关系</a>。</p>
       <h2><a href="/documentation/changelogs/">更新日志</a></h2>

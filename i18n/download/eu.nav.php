@@ -8,10 +8,10 @@
 	</li>
 	<li><a href="/download/development">Garapen bertsioa</a>
 		<ul>
-			<li><a href="http://svn.xfce.org/" target="_blank" class="external">SVN-a arakatu</a></li>
-			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Eguneko Paketeak</a></li>
+			<li><a href="http://svn.xfce.org/" class="external">SVN-a arakatu</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">Eguneko Paketeak</a></li>
 		</ul>
 	</li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugin-ak</a></li>
+	<li><a href="http://goodies.xfce.org" class="external">Panel Plugin-ak</a></li>
 	<li><a href="/download/distros">Xfce Banaketak</a></li>
 </ul>

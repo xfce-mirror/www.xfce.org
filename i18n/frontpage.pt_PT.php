@@ -79,9 +79,9 @@
             <ul>
                 <li><a href="/community/lists">Listas de discussão</a></li>
                 <li><a href="/about/screenshots">Capturas de Ecrã</a></li>
-                <li><a href="http://forum.xfce.org" target="_blank" title="Fórum do Xfce (Nova Janela)" class="external">Fórum do Xfce</a></li>
-                <li><a href="http://bugzilla.xfce.org" title="Reportar uma falha (Nova Janela)" target="_blank" class="external">Relatar uma falha</a></li>
-                <li><a href="http://wiki.xfce.org" title="Wiki do Xfce (Nova Janela)" target="_blank" class="external">Wiki do Xfce</a></li>
+                <li><a href="http://forum.xfce.org" title="Fórum do Xfce (Nova Janela)" class="external">Fórum do Xfce</a></li>
+                <li><a href="http://bugzilla.xfce.org" title="Reportar uma falha (Nova Janela)" class="external">Relatar uma falha</a></li>
+                <li><a href="http://wiki.xfce.org" title="Wiki do Xfce (Nova Janela)" class="external">Wiki do Xfce</a></li>
                 <li><a href="/download/distros" title="Distribuições que utilizam o Xfce">Xfce em Distribuições</a></li>
             </ul>
         </div>

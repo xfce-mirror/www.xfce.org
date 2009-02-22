@@ -46,11 +46,11 @@
 </ul>
 
 <h2>Links Externos</h2>
-<p><a href="http://goodies.xfce.org/projects/panel-plugins/start" target="_blank" class="external">Panel plugins</a> from
+<p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Panel plugins</a> from
   the Goodies Project page</p>
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
 
 <h2>Autor</h2>

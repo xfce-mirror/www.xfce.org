@@ -8,10 +8,10 @@
 	</li>
 	<li><a href="/download/development">Entwicklerversion</a>
 		<ul>
-			<li><a href="http://svn.xfce.org/" target="_blank" class="external">SVN durchsuchen</a></li>
-			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Tagesaktueller Stand der Entwicklung</a></li>
+			<li><a href="http://svn.xfce.org/" class="external">SVN durchsuchen</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">Tagesaktueller Stand der Entwicklung</a></li>
 		</ul>
 	</li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Plugins für die Xfce-Leiste</a></li>
+	<li><a href="http://goodies.xfce.org" class="external">Plugins für die Xfce-Leiste</a></li>
 	<li><a href="/download/distros">Xfce-Distributionen</a></li>
 </ul>

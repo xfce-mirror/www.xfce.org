@@ -12,10 +12,10 @@
     <?php } ?>
 	<li><a href="/download/development">Development version</a>
 		<ul>
-			<li><a href="http://svn.xfce.org/" target="_blank" class="external">Browse SVN</a></li>
-			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" target="_blank" class="external">Daily Snapshots</a></li>
+			<li><a href="http://svn.xfce.org/" class="external">Browse SVN</a></li>
+			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">Daily Snapshots</a></li>
 		</ul>
 	</li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external">Panel Plugins</a></li>
+	<li><a href="http://goodies.xfce.org" class="external">Panel Plugins</a></li>
 	<li><a href="/download/distros">Xfce Distributions</a></li>
 </ul>

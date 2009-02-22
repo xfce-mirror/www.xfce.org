@@ -1,6 +1,6 @@
 <?php
 function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'" target="_blank">#'. $id .'</a>';
+	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
 }
 ?>
 
@@ -14,7 +14,7 @@ function bug ($id){
 	<li>Improved support for Cygwin.</li>
 	<li>Support for partial struts in xfwm4, xftaskbar4 and xfce4-panel.</li>
 	<li>Freedesktop specifications compliance for menu and icons themes.</li>
-	<li>New file locations based on the Freedesktop.org <a href="http://freedesktop.org/wiki/Standards/basedir-spec" target="_blank">XDG Basedir Specification</a> (all Xfce settings are now stored under the <tt>~/.config/xfce4/</tt> directory).</li>
+	<li>New file locations based on the Freedesktop.org <a href="http://freedesktop.org/wiki/Standards/basedir-spec">XDG Basedir Specification</a> (all Xfce settings are now stored under the <tt>~/.config/xfce4/</tt> directory).</li>
 	<li>New and updated translations.</li>
 	<li>Support for <i>kiosk mode</i>, in which the allowed user actions can be restricted in xfce4-session, xfce4-panel, and xfdesktop (see included doc/README.Kiosk files).</li>
 </ul>
@@ -65,7 +65,7 @@ function bug ($id){
 	<li>Mail checker now supports mbox, Maildir and POP3.</li>
 	<li>Support for dragging applications from xfce4-appfinder to a launcher properties dialog.</li>
 	<li>Transparency when the X Composite extension is enabled and the window manager supports it.</li>
-	<li>Backward compatibility with the Xfce Goodies plugins available from <a href="http://xfce-goodies.berlios.de/" target="_blank">http://xfce-goodies.berlios.de/</a>.</li>
+	<li>Backward compatibility with the Xfce Goodies plugins available from <a href="http://xfce-goodies.berlios.de/">http://xfce-goodies.berlios.de/</a>.</li>
 </ul>
 
 <h3>New Session Manager <em>(xfce4-session)</em>:</h3>

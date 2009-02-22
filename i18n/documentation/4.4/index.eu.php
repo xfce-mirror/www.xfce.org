@@ -6,7 +6,7 @@
       <h2><a href="/documentation/4.4/userguide/">Erabiltzaile Gida</a></h2>
       <p>Barkatu baina (<a href="/development/">oraindik</a>) ez dago 4.4-ari buruzko dokumentaziorik.
 	 <a href="/documentation/4.2/">4.2 documentazioan</a> bilatu,
-	 <a href="http://forum.xfce.org" target="_blank">Xfce foroa</a> bisitatu edo
+	 <a href="http://forum.xfce.org">Xfce foroa</a> bisitatu edo
 	 <a href="/community/lists">eposta zerrendak</a> erabili ditzakezu zure arazoa konpontzen saiatzeko.</p>
 
       <h2><a href="/documentation/api">Garatzaileak (API)</a></h2>
@@ -29,8 +29,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq" target="_blank">FAQ-ak</a></h2>
-      <p>Xfce-ri buruz sarri egindako galderak <a href="http://wiki.xfce.org/faq target="_blank">Xfce wiki</a>-an
+      <h2><a href="http://wiki.xfce.org/faq">FAQ-ak</a></h2>
+      <p>Xfce-ri buruz sarri egindako galderak <a href="http://wiki.xfce.org/faq>Xfce wiki</a>-an
 	 aurkitu ditzakezu.</p>
       <h2><a href="/documentation/4.4/requirements">Beharrak</a></h2>
           <p>Xfce <a href="/documentation/4.4/requirements">dependentzia</a> guztien xehetasunak.</p>

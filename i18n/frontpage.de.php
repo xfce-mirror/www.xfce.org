@@ -79,9 +79,9 @@
 			<ul>
 				<li><a href="/community/lists">Mailing-Listen</a></li>
 				<li><a href="/about/screenshots">Bildschirmaufnahmen</a></li>
-				<li><a href="http://forum.xfce.org" target="_blank" title="Xfce-Forum (Neues Fenster)" class="external">Xfce-Forum</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Einen Fehler melden  (Neues Fenster)" target="_blank" class="external">Einen Fehler melden</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce-Wiki  (Neues Fenster)" target="_blank" class="external">Xfce-Wiki</a></li>
+				<li><a href="http://forum.xfce.org" title="Xfce-Forum (Neues Fenster)" class="external">Xfce-Forum</a></li>
+				<li><a href="http://bugzilla.xfce.org" title="Einen Fehler melden  (Neues Fenster)" class="external">Einen Fehler melden</a></li>
+				<li><a href="http://wiki.xfce.org" title="Xfce-Wiki  (Neues Fenster)" class="external">Xfce-Wiki</a></li>
 				<li><a href="/download/distros">Xfce-Distributionen</a></li>
 			</ul>
 		</div>

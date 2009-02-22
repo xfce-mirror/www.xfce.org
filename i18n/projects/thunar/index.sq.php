@@ -14,12 +14,12 @@
   juaj përputhet me standardet FreeDesktop.org.</p>
 
 <h2>Lidhje të Jashtme</h2>
-<p><a class="external" target="_blank" href="http://thunar.xfce.org/">Faqe Hyrëse</a><br />
-  <a class="external" target="_blank" href="http://thunar.xfce.org/pwiki/">Wiki</a> (përmban ndihmëza të dobishme)</p>
+<p><a class="external" href="http://thunar.xfce.org/">Faqe Hyrëse</a><br />
+  <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (përmban ndihmëza të dobishme)</p>
 
 <h3>Subversion</h3>
-<p><a class="external" target="_blank" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
-  <a class="external" target="_blank" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
+<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trungu për thunar-in</code></p>
 
 <h2>Autor</h2>

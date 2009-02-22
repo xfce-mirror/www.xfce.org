@@ -1,6 +1,6 @@
 <?php
 function bug ($id){
-	echo 'Bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'" target="_blank">#'. $id .'</a>';
+	echo 'Bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
 }
 
 /*
