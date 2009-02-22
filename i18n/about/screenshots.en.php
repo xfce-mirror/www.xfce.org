@@ -8,6 +8,7 @@
 <a href="/images/about/screenshots/4.6-3.png"><img src="/images/about/screenshots/4.6-3-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
 <a href="/images/about/screenshots/4.6-4.png"><img src="/images/about/screenshots/4.6-4-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
 <a href="/images/about/screenshots/4.6-5.png"><img src="/images/about/screenshots/4.6-5-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+<a href="/images/about/screenshots/4.6-6.png"><img src="/images/about/screenshots/4.6-6-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
 </p>
 
 <h2>Xfce 4.4</h2>
