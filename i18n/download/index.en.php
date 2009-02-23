@@ -2,20 +2,36 @@
     include_once ("version.php");
 ?>
 <a name="stable"></a>
+
 <h1>Download Stable version (<?php echo $version; ?>) </h1>
-<p>Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at a list of Xfce-oriented distributions <a href="/download/distros">here</a>.</p>
+
+<p>
+Most distributions ship with Xfce. But if you want a newer version or you want to build
+Xfce from scratch, you can find the packages below. You can also take a look at a list
+of Xfce-oriented distributions <a href="/download/distros">here</a>.
+</p>
 
 <h2 id="source">Source code</h2>
-<p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
+
+<p>
+All Xfce modules are available in one single tarball from our SourceForge  repository,
+and from several mirrors (in one single tarball <em>or</em> separate  tarballs):
+</p>
+
 <?php printServers("", $servers); ?>
 
-
 <h2 id="installer">Graphical installers</h2>
-<p> Xfce-Installers is a collection of packages which noticably simplify the installation process of Xfce and some extensions. Read more about the installer <a href="/documentation/installers/xfce/index.html">here</a>. </p>
+
+<p>
+Xfce-Installers is a collection of packages which noticably simplify the installation
+process of Xfce and some extensions. Read more about the installer
+<a href="/documentation/installers/xfce/index.html">here</a>.
+</p>
+
 <?php printServers("installers", $servers); ?>
 
-
 <h2 id="binaries">Binaries</h2>
+
 <table cellspacing="5">
   <tr>
     <td><img src="../../images/download/debian.png" alt="Debian" width="40" height="40" /></td>
@@ -57,7 +73,9 @@
 <?php if(isset($version_unstable)) { ?>
 
 <a name="unstable"></a>
+
 <h1>Download Unstable version (<?php echo $version_unstable; ?>) </h1>
+
 <p>
 Below you can find download locations for the latest development/unstable
 release of Xfce.  Note that this software almost certainly contains bugs,
@@ -69,7 +87,12 @@ above.
 </p>
 
 <h2 id="source-unstable">Source code</h2>
-<p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
+
+<p>
+All Xfce modules are available in one single tarball from our SourceForge repository,
+and from several mirrors (in one single tarball <em>or</em> separate tarballs):
+</p>
+
 <?php printServers("", $servers_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>
