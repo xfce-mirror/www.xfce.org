@@ -32,7 +32,7 @@ $servers_unstable = array(
 /* combobox */
 function printServers($dir, $servers)
 {
-  echo '<form id="download" method="get" action="/download/">';
+  echo '<form class="download" method="get" action="/download/">';
   echo '<select name="server">';
 
   /* choose 1 random item from the servers, this will be the default in the list */
