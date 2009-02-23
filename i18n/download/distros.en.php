@@ -74,7 +74,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.pureos.org/" title="Visit the PureOSlight website">Website</a></a></td>
+		<td><a href="http://www.pureos.org/" title="Visit the PureOSlight website">Website</a></td>
 	</tr>
 </table>
 
