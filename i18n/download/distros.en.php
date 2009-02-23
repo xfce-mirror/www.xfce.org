@@ -106,11 +106,33 @@
          a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, PATA
          and USB Drive).
       </p>
+      
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://www.dreamlinux.com.br/" title="Visit the Dreamlinux web page">Website</a> | <a href="http://distrowatch.com/dreamlinux" title="Visit the Dreamlinux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://www.mythbuntu.org/" title="Visit the Mythbuntu website"><img src="/images/download/distros/mythbuntu.png" alt="Mythbuntu" border="0"/></a>
+		</td>
+		<td>
+			<h2>Mythbuntu</h2>
+      
+			<p>
+        Mythbuntu is an community supported add-on for Ubuntu focused upon setting up
+        a standalone MythTV based PVR system. It can be used to prepare a standalone
+        system or for integration with an existing MythTV network.
+      </p>
+      
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.mythbuntu.org/" title="Visit the Mythbuntu web page">Website</a> | <a href="http://distrowatch.com/mythbuntu" title="Visit the Mythbuntu page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -186,6 +208,27 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://myah.org/" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://wolvix.org/" title="Visit the Wolvix GNU/Linux website"><img src="/images/download/distros/wolvix.png" alt="Wolvix GNU/Linux" border="0"/></a>
+		</td>
+		<td>
+			<h2>Wolvix GNU/Linux</h2>
+			<p>
+        Wolvix is a desktop oriented GNU/Linux distribution based on Slackware. It
+        features the Xfce desktop environment and a comprehensive selection of
+        development, graphics, multimedia, network and office applications.
+        It's mainly targeted at home users and strives to provide a balance between
+        everyday computing tasks, creativity, work and enjoyment.
+      </p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://wolvix.org/" title="Visit the Wolvix GNU/Linux website">Website</a> | <a href="http://distrowatch.com/wolvix" title="Visit the Wolvix GNU/Linux page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
