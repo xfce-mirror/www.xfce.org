@@ -57,7 +57,7 @@ function CreateLanguageBar ($languages, $lang)
       $links .= '<option value="'. $short .'"';
 
       if ($short == $lang)
-        $links .= ' selected';
+        $links .= ' selected="selected"';
 
       $links .= '>'. $long[0] .'</option>';
     }
