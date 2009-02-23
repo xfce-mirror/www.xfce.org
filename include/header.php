@@ -50,7 +50,7 @@ function CreateLanguageBar ($languages, $lang)
 function CreateLanguageBar ($languages, $lang)
 {
   $links = '<form id="LanguageForm" action="" method="get">';
-  $links .= '<select name="lang" onChange="document.getElementById(\'LanguageForm\').submit();return true;">';
+  $links .= '<select name="lang" onchange="document.getElementById(\'LanguageForm\').submit();return true;">';
 
   foreach($languages as $short => $long)
     {
