@@ -80,7 +80,7 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://spins.fedoraproject.org/" title="Visit the Fedora Xfce Spin website"><img src="/images/download/fedora.png" alt="Fedora Xfce Spin" border="0"/></a>
+		<td valign="top"><a href="http://spins.fedoraproject.org/" title="Visit the Fedora Xfce Spin website"><img src="/images/download/distros/fedora.png" alt="Fedora Xfce Spin" border="0"/></a>
 		</td>
 		<td>
 			<h2>Fedora Xfce Spin</h2>
