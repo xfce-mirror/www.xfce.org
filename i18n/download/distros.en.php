@@ -78,6 +78,42 @@
 	</tr>
 </table>
 
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://spins.fedoraproject.org/" title="Visit the Fedora Xfce Spin website"><img src="/images/download/fedora.png" alt="Fedora Xfce Spin" border="0"/></a>
+		</td>
+		<td>
+			<h2>Fedora Xfce Spin</h2>
+			<p>Fedora Xfce Spin is a bootable Fedora Live CD image available for x86 and x86_64 architecture.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://fedoraproject.org/wiki/SIGs/Xfce/XfceLive" title="Visit the Fedora Xfce Spin wiki page">Website</a> | <a href="http://distrowatch.com/fedora" title="Visit the Fedora page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://www.dreamlinux.com.br/" title="Visit the Dreamlinux website"><img src="/images/download/distros/dreamlinux.png" alt="Dreamlinux" border="0"/></a>
+		</td>
+		<td>
+			<h2>Dreamlinux</h2>
+      
+			<p>
+        Dreamlinux is a modern and modular GNU/Linux system that can be run directly
+         a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, PATA
+         and USB Drive).
+      </p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.dreamlinux.com.br/" title="Visit the Dreamlinux web page">Website</a> | <a href="http://distrowatch.com/dreamlinux" title="Visit the Dreamlinux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
 </td>
 <td valign="top">
 
@@ -150,21 +186,6 @@
 	<tr>
 		<td>&nbsp;</td>
 		<td><a href="http://myah.org/" title="Visit the Myah OS website">Website</a> | <a href="http://distrowatch.com/myah" title="Visit the Myah OS page at DistroWatch">DistroWatch</a></td>
-	</tr>
-</table>
-
-<table border="0" cellspacing="10" cellpadding="0">
-	<tr>
-		<td valign="top"><a href="http://spins.fedoraproject.org/" title="Visit the Fedora Xfce Spin website"><img src="/images/download/fedora.png" alt="Fedora Xfce Spin" border="0"/></a>
-		</td>
-		<td>
-			<h2>Fedora Xfce Spin</h2>
-			<p>Fedora Xfce Spin is a bootable Fedora Live CD image available for x86 and x86_64 architecture.</p>
-		</td>
-	</tr>
-	<tr>
-		<td>&nbsp;</td>
-		<td><a href="http://fedoraproject.org/wiki/SIGs/Xfce/XfceLive" title="Visit the Fedora Xfce Spin wiki page">Website</a> | <a href="http://distrowatch.com/fedora" title="Visit the Fedora page at DistroWatch">DistroWatch</a></td>
 	</tr>
 </table>
 
