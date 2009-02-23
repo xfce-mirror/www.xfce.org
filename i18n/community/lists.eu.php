@@ -40,7 +40,7 @@
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-		<td bgcolor="#eeeeee">Xfce produktuen erroreei buruzko eztabaida. Errore baten berri eman dezakezu <a href="http://bugzilla.xfce.org" target="_blank"class="external">hemen</a>.</td>
+		<td bgcolor="#eeeeee">Xfce produktuen erroreei buruzko eztabaida. Errore baten berri eman dezakezu <a href="http://bugzilla.xfce.org" target="_blank" class="external">hemen</a>.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>

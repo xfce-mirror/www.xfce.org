@@ -40,7 +40,7 @@
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-		<td bgcolor="#eeeeee">Diskusi seputar kutu di produk Xfce. Anda dapat melaporkan kutu di <a href="http://bugzilla.xfce.org" target="_blank"class="external">sini</a>.</td>
+		<td bgcolor="#eeeeee">Diskusi seputar kutu di produk Xfce. Anda dapat melaporkan kutu di <a href="http://bugzilla.xfce.org" target="_blank" class="external">sini</a>.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
