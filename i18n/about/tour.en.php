@@ -129,7 +129,7 @@ that are not mounted, so that you can distinguish them from the mounted ones.
 <p class="image"><img src="/images/about/tour/4.6/thunar-mounting.png" alt="Translucent icons for unmounted drives and volumes" /></p>
 
 <p align="justify">
-And last but not least, <b>Thunar</b> now supports encrypted devices !
+And last but not least, <b>Thunar</b> now supports encrypted devices!
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/thunar-encrypted.png" alt="Thunar support for encrypted devices" /></p>
