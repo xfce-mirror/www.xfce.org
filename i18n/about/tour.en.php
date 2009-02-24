@@ -121,10 +121,18 @@ music, documents, videos, templates...
 
 <p align="center"><img src="/images/about/tour/4.6/thunar-xdg-user-dirs.png" alt="Thunar menu for user directories" /></p>
 
-<p align="justify"><b>Thunar</b> will also display a translucent icon for drives or volumes
-that are not mounted, so that you can distinguish them from the mounted ones.</p>
+<p align="justify">
+<b>Thunar</b> will also display a translucent icon for drives or volumes
+that are not mounted, so that you can distinguish them from the mounted ones.
+</p>
 
 <p align="center"><img src="/images/about/tour/4.6/thunar-mounting.png" alt="Translucent icons for unmounted drives and volumes" /></p>
+
+<p align="justify">
+And last but not least, <b>Thunar</b> now supports encrypted devices !
+</p>
+
+<p align="center"><img src="/images/about/tour/4.6/thunar-encrypted.png" alt="Thunar support for encrypted devices" /></p>
 
 <h2>New configuration dialogs <a name="configuration-dialogs"></a></h2>
 
