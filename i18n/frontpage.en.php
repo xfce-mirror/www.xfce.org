@@ -147,17 +147,22 @@
 				<a href="http://blog.xfce.org/" title="View the entire Xfce blog...">visit blog</a>
         
 			</div>
+
+    </div>
       
-			<h2>Shortcuts</h2>
+		<div id="front-shortcuts">
+
+      <h2>Shortcuts</h2>
       
-			<ul>
-				<li><a href="/community/lists">Mailinglists</a></li>
-				<li><a href="/about/screenshots">Screenshots</a></li>
-				<li><a href="http://forum.xfce.org" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
-				<li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" class="external">Report a bug</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  (New window)" class="external">Xfce Wiki</a></li>
-				<li><a href="/download/distros">Xfce Distributions</a></li>
-			</ul>
+      <ul>
+        <li><a href="/community/lists">Mailinglists</a></li>
+        <li><a href="/about/screenshots">Screenshots</a></li>
+        <li><a href="http://forum.xfce.org" title="Xfce Forum (New window)" class="external">Xfce Forum</a></li>
+        <li><a href="http://bugzilla.xfce.org" title="Report a bug  (New window)" class="external">Report a bug</a></li>
+        <li><a href="http://wiki.xfce.org" title="Xfce Wiki  (New window)" class="external">Xfce Wiki</a></li>
+        <li><a href="/download/distros">Xfce Distributions</a></li>
+      </ul>
+    
 		</div>
     
 	</div>

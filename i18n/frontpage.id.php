@@ -75,6 +75,7 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Tampilkan seluruh blog Xfce...">kunjungi blog</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>Jalan Pintas</h2>
 			<ul>
 				<li><a href="/community/lists">Milis</a></li>
@@ -84,6 +85,7 @@
 				<li><a href="http://wiki.xfce.org" title="Wiki Xfce  (Jendela baru)" class="external">Wiki Xfce</a></li>
 				<li><a href="/download/distros">Distribusi Xfce</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>

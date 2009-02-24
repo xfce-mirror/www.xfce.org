@@ -75,6 +75,7 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Schauen Sie sich den gesamten Xfce-Blog an...">Zum Blog</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>Direktlinks</h2>
 			<ul>
 				<li><a href="/community/lists">Mailing-Listen</a></li>
@@ -84,6 +85,7 @@
 				<li><a href="http://wiki.xfce.org" title="Xfce-Wiki  (Neues Fenster)" class="external">Xfce-Wiki</a></li>
 				<li><a href="/download/distros">Xfce-Distributionen</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>

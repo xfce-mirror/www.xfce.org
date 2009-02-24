@@ -75,6 +75,7 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Shihni tërë blogun e Xfce-së...">vizitoni blogun</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>Shkurtore</h2>
 			<ul>
 				<li><a href="/community/lists">Lista postimesh</a></li>
@@ -84,6 +85,7 @@
 				<li><a href="http://wiki.xfce.org" title="Xfce Wiki  (Dritare e re)" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Shpërndarje Xfce</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>

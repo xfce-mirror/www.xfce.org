@@ -75,6 +75,7 @@
             <div class="readmore">
                 <a href="http://blog.xfce.org/" title="Visualizar o blog inteiro do Xfce...">visitar o blog</a>
             </div>
+            <div id="front-shortcuts">
             <h2>Atalhos</h2>
             <ul>
                 <li><a href="/community/lists">Listas de discussão</a></li>
@@ -84,6 +85,7 @@
                 <li><a href="http://wiki.xfce.org" title="Wiki do Xfce (Nova Janela)" class="external">Wiki do Xfce</a></li>
                 <li><a href="/download/distros" title="Distribuições que utilizam o Xfce">Xfce em Distribuições</a></li>
             </ul>
+            </div>
         </div>
     </div>
 </div>

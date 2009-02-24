@@ -75,6 +75,7 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="查看完整 Xfce 博客...">访问博客</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>快速链接</h2>
 			<ul>
 				<li><a href="/community/lists">邮件列表</a></li>
@@ -84,6 +85,7 @@
 				<li><a href="http://wiki.xfce.org" title="Xfce 维基 (新窗口)" class="external">Xfce 维基</a></li>
 				<li><a href="/download/distros">Xfce 发行版</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>

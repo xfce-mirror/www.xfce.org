@@ -81,6 +81,7 @@ Berriak</h2>
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Xfce blog-a ikusi...">bloga bisitatu</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>Loturak</h2>
 			<ul>
 				<li><a href="/community/lists">Posta Zerrendak</a></li>
@@ -90,6 +91,7 @@ Berriak</h2>
 				<li><a href="http://wiki.xfce.org" title="Xfce Wiki-a (Leiho berria)" class="external">Xfce Wiki-a</a></li>
 				<li><a href="/download/distros">Xfce Banaketak</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>

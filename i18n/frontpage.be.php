@@ -75,6 +75,7 @@
 			<div class="readmore">
 				<a href="http://blog.xfce.org/" title="Глядзець блёг Xfce...">наведаць блёг</a>
 			</div>
+      <div id="front-shortcuts">
 			<h2>Спасылкі</h2>
 			<ul>
 				<li><a href="/community/lists">Паштовыя сьпісы</a></li>
@@ -84,6 +85,7 @@
 				<li><a href="http://wiki.xfce.org" title="Xfce Wiki (у асобным акне)" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Дыстыбутывы Xfce</a></li>
 			</ul>
+      </div>
 		</div>
 	</div>
 </div>
