@@ -20,7 +20,7 @@
 
 
 $credits['project-lead'] = array (
-    array ('Olivier Fourdan', 'olivier', 'xfce.org')
+    array ('Olivier Fourdan', 'fourdan', 'xfce.org')
     );
 
 $credits['core-developers'] = array (
@@ -39,14 +39,12 @@ $credits['server-and-website'] = array (
     );
 
 $credits['contributors-active'] = array (
-    array ('Giuseppe Torelli', 'colossus', 'xfce.org'),
     array ('Yves-Alexis Perez', 'corsac', 'debian.org'),
     array ('Enrico Tröger', 'enrico.troeger', 'uvena.de'),
     array ('Mike Massonet', 'mmassonnet' ,'gmail.com'),
     array ('Landry Breuil', 'landry', 'openbsd.org'),
     array ('David Mohr', 'squisher', 'xfce.org'),
     array ('Jasper Huijsmans', 'jasper', 'xfce.org'),
-    array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
     array ('Jean-François Wauthy', 'pollux', 'xfce.org')
     );
 
@@ -55,6 +53,7 @@ $credits['contributors-previous'] = array (
     array ('Eduard Roccatello', 'eduard', 'xfce.org'),
     array ('Erik Harrison', 'erikharrison ', 'xfce.org'),
     array ('Daichi Kawahata', 'daichi', 'xfce.org'),
+    array ('Danny Milosavljevic', 'dannym', 'xfce.org'),
     array ('Pau Rul·lan Ferragut', 'paurullan', 'bulma.net'),
     array ('François Le Clainche', 'fleclainche', 'wanadoo.fr'),
     array ('Darren Salt', 'linux', 'youmustbejoking.demon.co.uk'),
@@ -122,10 +121,12 @@ $credits['translators'] = array (
         array (
             array ('Benedikt Meurer', 'benny', 'xfce.org'),
             array ('Borja Schwember', 'mail', 'borja.de'),
+            array ('Christian Dywan', 'christian', 'twotoasts.de'),
             array ('Enrico tröger', 'enrico.troeger', 'uvena.de'),
             array ('Fabian Nowak', 'timystery', 'arcor.de'),
             array ('Moritz Heiber', 'moe', 'xfce.org'),
-            array ('Nico Schümann', 'nico', 'prog.nico22.de')
+            array ('Nico Schümann', 'nico', 'prog.nico22.de'),
+            array ('Simon Schneider', 'simon', 'schneiderimtal.de'),
             )
         ),
     array ('dz',

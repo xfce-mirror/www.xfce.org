@@ -12,7 +12,7 @@ include 'include/credits.php';
 <h2 id="lead">Project Lead</h2>
 <table width="99%">
     <tr>
-        <td>Olivier Fourdan [olivier<?php at(); ?>xfce.org]</td>
+        <td>Olivier Fourdan [fourdan<?php at(); ?>xfce.org]</td>
     </tr>
 </table>
 
