@@ -33,6 +33,6 @@ components such as the panel and the desktop menu.
   <li>Brian Tarricone [kelnos at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
-  <li>Olivier Fourdan [olivier at xfce.org]</li>
+  <li>Olivier Fourdan [fourdan at xfce.org]</li>
 </ul>
 

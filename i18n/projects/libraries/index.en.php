@@ -50,6 +50,6 @@ settings management. Libxfce4menu provides an implementation of the Freedesktop 
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
   <li>Brian J. Tarricone [kelnos at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
-  <li>Olivier Fourdan [olivier at xfce.org]</li>
+  <li>Olivier Fourdan [fourdan at xfce.org]</li>
 </ul>
 
