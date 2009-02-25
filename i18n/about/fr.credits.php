@@ -1,16 +1,12 @@
 <?php
 $credits['core-developers-i18n'] = array (
     'benny' => 'Thunar, Terminal, Gestionnaire de session, Libexo',
-    'kelnos' => 'Gestionnaire de bureau, Xfmedia',
-    'dannym' => 'Contrôle du volume Control',
-    'eduard' => 'Appfinder',
-    'erikharrison ' => 'Mousepad',
-    'fleclainche' => 'Webmaster et graphiques',
-    'colossus' => 'Gestionnaire d\'archives',
-    'jasper' => 'Panneau',
-    'pollux' => 'Gestionnaire d\'imprimante, Logiciel de gravure',
-    'korbinus' => 'Calendrier',
-    'fourdan' => 'Gestionnaire de fenêtres'
+    'kelnos' => 'Gestionnaire de bureau, Xfconf, gestionnaire de session',
+    'fourdan' => 'Gestionnaire de fenêtres, gestionnaire de préférences',
+    'jannis' => 'Controleur de volume, bibliothèque pour les menus, application finder,
+                 gestionnaire de préférences, Thunar',
+    'nick' => 'Tableau de bord, gestionnaire de préférences, Thunar',
+    'stephan' => 'Gestionnaire de préférences, Xfconf'
     );
 
 $credits['server-and-website-i18n'] = array (
@@ -38,12 +34,14 @@ $credits['translators-i18n'] = array (
     'gl' => 'Galician',
     'he' => 'Hébreu',
     'hu' => 'Hongrois',
+    'id' => 'Indonésien',
     'it' => 'Italien',
     'ja' => 'Japonais',
     'ka' => 'Georgian',
     'ko' => 'Coréen',
     'ku' => 'Kurde',
     'lt' => 'Lituanien',
+    'nb_NO' => 'Norvégien',
     'nl' => 'Néerlandais',
     'pa' => 'Punjabi',
     'pl' => 'Polonais',
@@ -51,6 +49,7 @@ $credits['translators-i18n'] = array (
     'pt_PT' => 'Portugais Européen',
     'ro' => 'Roumain',
     'ru' => 'Russe',
+    'si' => 'Sinhalasais',
     'sk' => 'Slovaque',
     'sq' => 'Albanian',
     'sv' => 'Suédois',
