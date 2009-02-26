@@ -1,27 +1,26 @@
 <h1>Xfce Features</h1>
 
 <p>
-<b>Xfce</b> provides a lightweight desktop environment with a <b>desktop manager</b> drawing a wallpaper
-and allowing you to have icons on your desktop, a <b>panel</b> with numerous plugins, a standard compliant
-<b>window manager</b> with a compositing manager, a <b>settings manager</b> to customize your desktop environment,
-a modern and easy to use <b>file manager</b> and a <b>session manager</b> which allows you to
+<b>Xfce</b> provides a lightweight desktop environment with a desktop manager drawing a wallpaper
+and allowing you to have icons on your desktop, a panel with numerous plugins, a standard compliant
+window manager with a compositing manager, a settings manager to customize your desktop environment,
+a modern and easy to use file manager and a session manager which allows you to
 save the current session, autostart applications, shutdown, reboot, suspend or hibernate your computer.
 </p>
 
 <p>
 <b>Xfce</b> also provides common applications, designed for the best user experience. Among those
-applications are: a <b>text editor</b>, a <b>sound mixer</b> which supports multiple sound cards,
-an <b>application finder</b> to launch your applications in an easy way, an <b>image viewer</b>,
-a modern <b>terminal emulator</b>, an iCal based <b>calendar</b> to manage events and
-appointments and a CD and DVD <b>burning application</b>.
+applications are: a text editor, a sound mixer which supports multiple sound cards,
+an application finder to launch your applications in an easy way, an <b>image viewer</b>,
+a modern terminal emulator, an iCal based calendar to manage events and
+appointments and a CD and DVD burning application.
 </p>
 
 <p>
 Many additionnal features are also provided by the
-<a href="http://goodies.xfce.org">Goodies project</a>: a <b>Web browser</b>, plugins for the
-panel and the file manager, standalone applications such as a <b>dictionnary</b>, a
-<b>tasks manager</b>, a <b>power manager</b>, a <b>screenshooter</b>, a
-<b>notification daemon</b>...
+<a href="http://goodies.xfce.org">Goodies project</a>: a Web browser, plugins for the
+panel and the file manager, standalone applications such as a dictionnary, a
+tasks manager, a power manager, a screenshooter, a notification daemon...
 </p>
 
 <h2>Additionnal information</h2>
