@@ -9,17 +9,17 @@
          <a href="http://forum.xfce.org">Xfce forum</a> or use the
          <a href="/community/lists">mailing lists</a> to solve your problem.</p>
 
-      <h2><a href="/documentation/api">Developers (API)</a></h2>
+      <h2><a href="/documentation/4.6/api">Developers (API)</a></h2>
       <ul>
-        <li><a href="/documentation/api/xfconf/">xfconf</a> (<a href="/documentation/api/xfconf-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/api/libxfce4util-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/api/libxfcegui4-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/api/libxfce4menu-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/api/libxfce4panel-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/exo/">exo</a> (<a href="/documentation/api/exo-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/api/thunar-vfs-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/thunarx/">thunarx</a> (<a href="/documentation/api/thunarx-docs.tar.gz">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfprint/">libxfprint</a> (<a href="/documentation/api/libxfprint-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/xfconf/">xfconf</a> (<a href="/documentation/4.6/api/xfconf-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/4.6/api/libxfce4util-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/4.6/api/libxfcegui4-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/4.6/api/libxfce4menu-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/4.6/api/libxfce4panel-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/exo/">exo</a> (<a href="/documentation/4.6/api/exo-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/4.6/api/thunar-vfs-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/thunarx/">thunarx</a> (<a href="/documentation/4.6/api/thunarx-docs.tar.gz">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfprint/">libxfprint</a> (<a href="/documentation/4.6/api/libxfprint-docs.tar.gz">tarball</a>)</li>
       </ul>
           <h2><a href="/documentation/archive">Archive</a></h2>
           <ul>
