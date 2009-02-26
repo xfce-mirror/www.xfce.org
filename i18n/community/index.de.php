@@ -1,3 +1,0 @@
-<h1>Xfce-Nutzergemeinschaft</h1>
-<p>Falls Sie nicht in der Lage waren ein Problem mittels der auf dieser Website zur Verfügung gestellten Dokumentation zu lösen, dann sind die verschiedenen Xfce-Nutzergemeinschaften gute Orte, um um Hilfe zu bitten oder auch Ihre Gedanken mit anderen zu Teilen.<br />
-Treten Sie einer der <a href="/community/lists">Mailing-Listen</a> bei, suchen Sie im <a href="http://wiki.xfce.org/" target="_blank">Xfce-Wiki</a>, besuchen Sie das <a href="http://forum.xfce.org/" target="_blank">Forum</a> oder beteiligen Sie sich an entsprechenden Gesprächen im <a href="/community/irc">IRC-Kanal</a>, um mit anderen Nutzern zusammenzuarbeiten.</p>
