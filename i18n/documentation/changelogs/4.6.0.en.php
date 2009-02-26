@@ -8,7 +8,7 @@ function bug ($id){
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
-    <li>Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, French and Turkish.</li>
+    <li>Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, French, Polish, Indonesian, English (GB), Norwegian, Simplified Chinese and Turkish.</li>
     <li>Add missing C++ wrappers in header files (patch by Jens Luedicke). </li>
 </ul>
 
@@ -25,7 +25,7 @@ function bug ($id){
 
 <h3>Extension Library <em>(exo)</em>:</h3>
 <ul>
-    <li>Updated translations: French, Turkish, English (GB), Polish.</li>
+    <li>Updated translations: French, Turkish, English (GB), Polish, Romanian, Greek and Spanish.</li>
 </ul>
 
 <h3>Menu Library <em>(libxfce4menu)</em>:</h3>
@@ -59,6 +59,7 @@ function bug ($id){
     <li>Fix menu plugin crash when selecting custom menu file (<?php bug ('4879') ?>).</li>
     <li>Do not mark Gtk stock identifiers as translatable. Patch from Stefan Stuhr (<?php bug ('4721') ?>).</li>
     <li>Update Desktop files to contain icon-naming-spec compliant icon names and use 'exo-open' to start the Web browser and terminal emulator.</li>
+    <li>Only regenerate the monitor on file changes we care about (<?php bug ('4979') ?>).</li>
     <li>Updated translations: Danish, Turkish, German, Polish, Simplified Chinese, English (GB), Japanese, French.</li>
 </ul>
 
@@ -68,6 +69,7 @@ function bug ($id){
     <li>Fix dragging to the submenu items of a launcher (<?php bug ('4026') ?>).</li>
     <li>Send the event time with startup notification instead of zero, so that focus stealing works properly.</li>
     <li>Set the foreground color of the lcd clock (<?php bug ('4923') ?>).</li>
+    <li>Don't escape the command when dropping a Desktop file in the	launcher dialog (<?php bug ('4818') ?>).</li>
     <li>Updated translations: Turkish, French, Indonesian, Norwegian, Polish, Simplified Chinese, English (GB), Catalan, Ukrainian.</li>
 </ul>
 
@@ -77,7 +79,7 @@ function bug ($id){
     <li>Fix the sudo shutdown helper for systems without HAL (<?php bug ('4849') ?>).</li>
     <li>Avoid a spurious error dialog when using the sudo shutdown helper to shut down the system (<?php bug ('4849') ?>).</li>
     <li>Fix crash in autostart editor when adding a new application (<?php bug ('4934') ?>).</li>
-    <li>Updated translations: Turkish, Indonesian, Polish, Basque, Ukrainian.</li>
+    <li>Updated translations: Turkish, Indonesian, Greek, Hungarian, Brazilian, Russian, Polish, Basque, Ukrainian.</li>
 </ul>
 
 <h3>Settings Manager <em>(xfce4-settings)</em>:</h3>
@@ -86,8 +88,13 @@ function bug ($id){
     <li>When stealing a shortcut from another shortcuts provider, clear the shortcut of that provider first.</li>
     <li>Make embedded settings dialogs optional (and disabled by default). They can be turned on using --enable-pluggable-dialogs.</li>
     <li>Remove bold markup from the shortcut reset dialog text (<?php bug ('4785') ?>).</li>
-    <li>Applied Gtk/IMModule created patch by Akira Tagoh (<?php bug ('4961') ?>).</li>
-    <li>Fix the DPI settings issue.</li>
+    <li>Don't mark GTK+ stock labels as translatable.</li>
+    <li>Add Gtk/IMModule XSETTINGS key (<?php bug ('4961') ?>).</li>
+    <li>Fix DPI calculation when DPI settings are set to '-1', (eg default) since we
+        can not depend on pango, cairo or fontconfig to do the right thing. </li>
+    <li>Fix typing error in the ToolbarStyle default XSETTINGS registry value.</li>
+    <li>Do not fill the xsettings channel from the settings-dialog, xfsettingsd takes
+        care of this. </li>
     <li>Updated translations: Danish, Swedish, Japanese, Norwegian, Simplified Chinese, Turkish, Catalan, Ukrainian, Czech.</li>
 </ul>
 
@@ -95,7 +102,8 @@ function bug ($id){
 <ul>
     <li>Fix a segfault of xfconfd at startup on amd64 (<?php bug ('4881') ?>).</li>
     <li>Code cleanup in g_critical assertion.</li>
-    <li>Fix xfconf-query usage with UTF-8 file names (<?php bug ('4622') ?>).</li>
+    <li>Remove unimplemented --import and --export functions from xfconf-query.</li>
+    <li>Fix encoding bug with xfconf-query input (<?php bug ('4622') ?>).</li>
     <li>Updated translations: Danish, French, Indonesian, Norwegian, Simplified Chinese, Swedish, Brazilian Portuguese, Spanish, Turkish, Basque, Czech.</li>
 </ul>
 
@@ -122,6 +130,7 @@ function bug ($id){
     <li>Fix sysconfdir and datadir not being expanded properly in xinitrc (<?php bug ('4924') ?>).</li>
     <li>Export GTK_PATH variable in xinitrc so that GTK+ has a chance to find the Xfce theme engine even in a custom prefix (<?php bug ('4925') ?>).</li>
     <li>Fix typo in the Copyright entry patch by Enrico Troeger (<?php bug ('3993') ?>).</li>
+    <li>Ensure that xfrun dialog text is selected when the dialog is reshown via the dbus interface (<?php bug ('2836') ?>).</li>
     <li>Updated translations: German, Japanese, Polish, Turkish.</li>
 </ul>
 
