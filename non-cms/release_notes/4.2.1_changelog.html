@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+  <title>Xfce 4.2.1 changelog</title>
+  <link href="../common/feuille.css" rel="stylesheet" type="text/css">
+ <link rel="shortcut icon" href="../favicon.ico">
+</head>
+
+<body bgcolor="#ffffff" style="color: #154374; font-family: arial, helvetica, sans-serif; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0;">
+
+<table cellpadding="0" cellspacing="0" align="center" width="100%">
+
+<tr bgcolor="#154374">
+  <td height="25" colspan="1" align="right" valign="middle" style="color: white; font-size: 10; ">
+		&nbsp;
+  </td>
+</tr>
+
+<tr>
+	<td height="75" colspan="1" align="center" valign="middle" style="#154374: white; font-size: 10; ">
+		<h2>List of changes between Xfce 4.2 and 4.2.1</h2>
+	</td>
+</tr>
+
+<tr bgcolor="#99a9c0">
+	<td height="25" colspan="1" align="right" valign="middle" style="color: white; font-size: 10; ">
+		&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td width="80%" height="0" colspan="0" rowspan="0" align="left" valign="top" bgcolor="#ffffff" style="color: #154374; font-size: 12; padding-bottom: 20; padding-left: 15; padding-right: 15; padding-top: 20; text-align: justify; ">
+
+
+
+      <br /><br />General:<br /><ul class="submenu">   
+      <li>Don't use <tt>G_INLINE_FUNC</tt> in the source code, which fixes several weird build errors.</li> 
+     
+      
+      </ul>
+      
+gtk-xfce-engine:<br />
+      <ul class="submenu">
+      <li>Add new dark theme "Xfce-dusk" contributed by James Golden</li>
+      <li>Improve default theme, enhance contrasts.</li>
+      <li>Rework progress bar drawing.</li>
+      </ul>
+      
+      
+      
+      libxfce4util:<br />
+      <ul class="submenu">   
+      <li>Fix a problem with NFS mounted home directories in Solaris (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=724">#724</a>)<br /> </li> </ul>  
+     
+      xfce4-session:<br /><ul class="submenu">   <li>Fix RedHat shutdown code (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=703">#703</a>)</li> </ul> 
+      
+      xfdesktop:<br /><ul class="submenu">   <li>fix handling of quoted commands in the desktop menu (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=776">#776</a>)</li>   <li>fix handling of .desktop files with no Categories list (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=776">#776</a>)</li>   <li>add "edit menu" button to panel plugin prefs (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=554">#554</a>), and ability to  change the button tooltip (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=764">#764</a>)</li>   <li>fix broken panel plugin behavior when trying to track the default desktop menu. there's a new option to either follow the default menu, or use a static menu file (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=778">#778</a>)</li>   <li>fix bug where xfdesktop would crash if the windowlist was opened, then a window was destroyed, and then that window was selected from the list (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=672">#672</a>)</li>   <li>fix "unique" attribute of system menu inclusion</li> </ul> 
+      
+      xffm:<br /><ul class="submenu">   <li>     ensure posix.1-1996 compatibility (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=695">#695</a>)</li>   <li>     fix for crash on opening fstab on solaris (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=726">#726</a>)</li><li>avoid a showstopper gtk-2.4 bug (scaling gdkpixbufs from svg images).<br />This is bugzilla <a href="http://bugzilla.xfce.org/show_bug.cgi?id=751">#751</a> report. Not all gtk showstopper bugs from svg<br />can be avoided. In particular with office/mobile_phone_01.svg. This<br />file will also crash rox</li>   <li>allow relative paths for icon resolution (xfce4-modules)</li>   <li>validate utf error messages (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=737">#737</a>)</li>   <li>don't quote paths that are already quoted.</li>   <li>change smb-share icon to proper icon</li>   <li>fix borked overwrite warning dialog message</li>   <li>bug fixes for keyboardnavigation to close bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=795">#795</a></li>   <li>separate remove and paste button in toolbar to avoid confusing the<br />remove confirmation dialog with the overwrite confirmation dialog</li>   <li>fix translation problems in several languages, including<br />brazilian-portuguese</li>   <li>fill in some missing spanish translation strings</li>   <li>fix for bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=524">#524</a> (crashing xffm by mounting cdrom and trying to open it<br />in the other treeview before mount is complete)</li> 
+      
+        </ul>xfcalendar:<br /><ul class="submenu">   <li>remembering of its position (bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id=691">#691</a> and  <a href="http://bugzilla.xfce.org/show_bug.cgi?id=789">#789</a>)</li>   <li>warning box for preventing users to loose their changes (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=714">#714</a> and <a href="http://bugzilla.xfce.org/show_bug.cgi?id=738">#738</a>)</li>   <li>possibility to show/hide xfcalendar in taskbar, pager and systray (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=719">#719</a>)</li>   <li>possibility to choose to either show or hide the calendar window when xfcalendar is launched (it remembered before the status when leaving)</li> </ul>
+        
+         xfce4-panel:<br /><ul class="submenu">   <li>Save configuration file only on exit</li>   <li>Fix double click on inactive item in dialog (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=739">#739</a>)</li>   <li>64bit fix   </li>   <li>Clock applet tweak (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=716">#716</a>, hopefully)</li> </ul>
+        
+         xfprint:<br /><ul class="submenu">   <li>     remove FILE backend and add a print-to-file entry in the printing dialog   </li>   <li>     multiple bugfixes (<a href="http://bugzilla.xfce.org/show_bug.cgi?id=816">#816</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=817">#817</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=818">#818</a>, <a href="http://bugzilla.xfce.org/show_bug.cgi?id=820">#820</a>) in the BSD-LPR backend (thanks to Jason Keltz for pointing them out)   </li>    </ul>
+         
+xfwm4:<br>
+
+<ul class="submenu">
+
+<li>Speed improvement with GLX applications</li>
+<li>Fix Alt-Tab not focusing a window alone on a desktop (#700)</li>
+<li>Kbd shortcuts don't work when caps lock is enabled (689)</li>
+<li>Window not showing when compositor is enabled (#694)</li>
+<li>Documentation on command line option to enable/disable xfwm4 compositor (#611)</li>
+<li>Improve caching of frame elements</li>
+<li>Fix default theme for dark gtk themes (such as Xfce-dusk)</li>
+<li>Various focusing issues fixed</li>
+<li>Optimizations of move/resize operations (#761)</li>
+<li>Auto maximize windows larger that screen size.</li>
+<li>Be more tolerant with apps manipulating frameless windows.</li>
+<li>Focus window on top of stack on workspace switch if no other window is eligible for focus.</li>
+<li>Fix uninitialized default layer for fullscreen legacy apps.</li>
+<li>Updated translations : he, ja, pt_br, zh_CN, fi, lt, ko</li>
+</ul>
+         
+         </p>
+
+    
+	</td>
+</tr>
+
+<tr bgcolor="#154374">
+	<td height="25" colspan="1" align="right" valign="middle" style="color: white; font-size: 10; ">
+		&nbsp;
+  </td>
+</tr>
+
+</table>
+
+</body>
+</html>

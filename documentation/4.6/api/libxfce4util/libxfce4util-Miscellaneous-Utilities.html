@@ -1,0 +1,599 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Miscellaneous Utilities</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4util Reference Manual">
+<link rel="up" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="prev" href="libxfce4util-File-Utilities.html" title="File Utilities">
+<link rel="next" href="libxfce4util-Unicode-Support-Functions.html" title="Unicode Manipulation">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfce4util Overview">
+<link rel="chapter" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="chapter" href="libxfce4util-core.html" title="Xfce Core Application support">
+<link rel="chapter" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="chapter" href="libxfce4util-datatypes.html" title="Xfce Data types">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libxfce4util-File-Utilities.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4util-utilities.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4util Reference Manual</th>
+<td><a accesskey="n" href="libxfce4util-Unicode-Support-Functions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libxfce4util-Miscellaneous-Utilities.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libxfce4util-Miscellaneous-Utilities.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4util-Miscellaneous-Utilities"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libxfce4util-Miscellaneous-Utilities.top_of_page"></a>Miscellaneous Utilities</span></h2>
+<p>Miscellaneous Utilities — Miscellaneous utility functions</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libxfce4util-Miscellaneous-Utilities.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4util/libxfce4util.h&gt;
+
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homedir" title="xfce_get_homedir ()">xfce_get_homedir</a>                    (void);
+#define             <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homefile" title="xfce_get_homefile()">xfce_get_homefile</a>                   (...)
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homefile-r" title="xfce_get_homefile_r ()">xfce_get_homefile_r</a>                 (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         size_t length,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *format,
+                                                         ...);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userdir" title="xfce_get_userdir ()">xfce_get_userdir</a>                    (void);
+#define             <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userfile" title="xfce_get_userfile()">xfce_get_userfile</a>                   (...)
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-userfile-r" title="xfce_get_userfile_r ()">xfce_get_userfile_r</a>                 (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         size_t length,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *format,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-strjoin" title="xfce_strjoin ()">xfce_strjoin</a>                        (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *separator,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **strings,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> count);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-gethostname" title="xfce_gethostname ()">xfce_gethostname</a>                    (void);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-putenv" title="xfce_putenv ()">xfce_putenv</a>                         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *string);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-setenv" title="xfce_setenv ()">xfce_setenv</a>                         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> overwrite);
+void                <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-unsetenv" title="xfce_unsetenv ()">xfce_unsetenv</a>                       (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-expand-variables" title="xfce_expand_variables ()">xfce_expand_variables</a>               (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *command,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **envp);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4util-Miscellaneous-Utilities.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4util-Miscellaneous-Utilities.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="xfce-get-homedir"></a><h3>xfce_get_homedir ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_get_homedir                    (void);</pre>
+<p>
+Similar to <code class="function">g_get_homedir()</code> in functionality but will never return NULL.
+While <code class="function">g_get_homedir()</code> may return NULL under certain circumstances, this
+function is garantied to never ever return NULL, but always return a
+valid character pointer with the absolute path to the user's home directory.
+</p>
+<p>
+The returned string is owned by libxfce4util and must not be freed by
+the caller.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the path to the current user's home directory.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-get-homefile"></a><h3>xfce_get_homefile()</h3>
+<pre class="programlisting">#define             xfce_get_homefile(...)</pre>
+<p>
+Returns the path to a file in the user's home directory by taking a
+NULL terminated list of strings and appending them to the absolute
+path of the current user's home directory.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>the absolute path to the specified file in the current user's
+          home directory. The caller is responsible for freeing the
+	  returned string using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-get-homefile-r"></a><h3>xfce_get_homefile_r ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_get_homefile_r                 (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         size_t length,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *format,
+                                                         ...);</pre>
+<p>
+Similar in functionality to <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-get-homefile" title="xfce_get_homefile()"><span class="type">xfce_get_homefile</span></a>, but uses a user
+defined <em class="parameter"><code>buffer</code></em> instead of allocating a new buffer.
+</p>
+<p>
+xfce_get_homefile_r uses safe string operations, that says, it garanties
+that the resulting string is always zero terminated, as long as the
+<em class="parameter"><code>length</code></em> is greater than zero.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>buffer</code></em> :</span></p></td>
+<td> pointer to a user provided destination buffer.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td> size of <em class="parameter"><code>buffer</code></em> in bytes.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td> printf style format string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> the arguments to substitute in the output.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> pointer to <em class="parameter"><code>buffer</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-get-userdir"></a><h3>xfce_get_userdir ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_get_userdir                    (void);</pre>
+<p>
+Safe way to retrieve the path to the user's ".xfce4" directory. The path
+to the current user's ".xfce4" directory is either taken from the
+environment variable XFCE4HOME if defined, or if unset, is gained by
+concatenating the path to the user's home directory and the ".xfce4".
+That says, it will, by default, return the path "$HOME/.xfce4", where
+$HOME is replaced with the absolute path to the user's home directory.
+</p>
+<p>
+The returned string is managed by libxfce4util and must not be freed by
+the caller.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the path to the current user's ".xfce4" directory.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-get-userfile"></a><h3>xfce_get_userfile()</h3>
+<pre class="programlisting">#define             xfce_get_userfile(...)</pre>
+<p>
+Returns the absolute path to a file within the user's ".xfce4" directory,
+formed by a NULL terminated list of path components.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>the absolute path to the specified file in the user's ".xfce4"
+          directory. The caller is responsible for freeing the returned
+	  string using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-get-userfile-r"></a><h3>xfce_get_userfile_r ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_get_userfile_r                 (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         size_t length,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *format,
+                                                         ...);</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>buffer</code></em> :</span></p></td>
+<td> user provided destination buffer.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>length</code></em> :</span></p></td>
+<td> size of <em class="parameter"><code>buffer</code></em> in bytes.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>format</code></em> :</span></p></td>
+<td> printf style format string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> arguments to substitute in the output.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> pointer to <em class="parameter"><code>buffer</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-strjoin"></a><h3>xfce_strjoin ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_strjoin                        (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *separator,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **strings,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> count);</pre>
+<p>
+Joins the <em class="parameter"><code>count</code></em> character strings pointed to by <em class="parameter"><code>strings</code></em> using <em class="parameter"><code>separator</code></em>
+to a single string.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>separator</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>strings</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>count</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the joined string. The string has to be freed by the caller
+              using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-gethostname"></a><h3>xfce_gethostname ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_gethostname                    (void);</pre>
+<p>
+Portable way to query the hostname of the node running the process. This
+function does not ever return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, but always returns a string containing
+the current node's hostname.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the current node's hostname. The string has to be freed
+              by the caller using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-putenv"></a><h3>xfce_putenv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                xfce_putenv                         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *string);</pre>
+<p>
+Portable replacement for the Unix <code class="function">putenv()</code> library function. <em class="parameter"><code>string</code></em> has
+to have the form "name=value". Calling <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-putenv" title="xfce_putenv ()"><code class="function">xfce_putenv()</code></a> this way is equal to
+calling xfce_setenv("name", "value", <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>).</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>string</code></em> :</span></p></td>
+<td> Character string in the form "name=value".
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> 0 if the operation was successful; otherwise the global
+              variable errno is set to indicate the error and a value
+              of -1 is returned.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.2
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-setenv"></a><h3>xfce_setenv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                xfce_setenv                         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> overwrite);</pre>
+<p>
+If the variable <em class="parameter"><code>name</code></em> does not exists in the list of environment variables,
+it is inserted with its value being set to <em class="parameter"><code>value</code></em>. If the variable does
+exist, then its value is only changed to <em class="parameter"><code>value</code></em> if <em class="parameter"><code>overwrite</code></em> is TRUE.
+</p>
+<p>
+On plattforms that provide a working native <code class="function">setenv()</code> library call, this
+functions is used, on all other plattforms <code class="function">setenv()</code> is emulated using
+<a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-putenv" title="xfce_putenv ()"><code class="function">xfce_putenv()</code></a>. That says, <a class="link" href="libxfce4util-Miscellaneous-Utilities.html#xfce-setenv" title="xfce_setenv ()"><code class="function">xfce_setenv()</code></a> is not subject to the limitations
+that apply to some <code class="function">setenv()</code> implementations and seem also to apply to
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Miscellaneous-Utility-Functions.html#g-setenv"
+><code class="function">g_setenv()</code></a> in Glib 2.4.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td> the name of the environment variable to set, must not contain '='.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> the value to set the variable to.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>overwrite</code></em> :</span></p></td>
+<td> whether to change the variable if it already exists.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> 0 if the operation was successful; otherwise the global
+              variable errno is set to indicate the error and a value
+              of -1 is returned.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.2
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-unsetenv"></a><h3>xfce_unsetenv ()</h3>
+<pre class="programlisting">void                xfce_unsetenv                       (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+Deletes all instances of the variables <em class="parameter"><code>name</code></em> from the list of environment
+variables in the current process.
+</p>
+<p>
+Note that on some systems, the memory used for the variable and its value
+can't be reclaimed. Furthermore, this function can't be guaranteed to
+operate in a threadsafe way.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td> the name of the environment variable to unset, must not contain '='.
+</td>
+</tr></tbody>
+</table></div>
+<p class="since">Since  4.2
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-expand-variables"></a><h3>xfce_expand_variables ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_expand_variables               (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *command,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **envp);</pre>
+<p>
+Expands shell like environment variables and tilde (~/ and ~user/ are both supported)
+in <em class="parameter"><code>command</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>command</code></em> :</span></p></td>
+<td> Input string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>envp</code></em> :</span></p></td>
+<td> Addition environment variables to take into account. These
+           variables have higher priority than the ones in the process's
+           environment.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> on error, else the string, which should be freed using
+              <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.2
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ExoWrapTable</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-widgets.html" title="Part&#160;III.&#160;Additional widgets">
+<link rel="prev" href="ExoTreeView.html" title="ExoTreeView">
+<link rel="next" href="exo-cell-renderers.html" title="Part&#160;IV.&#160;Additional cell renderers">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="exo-toolbars.html" title="Part&#160;II.&#160;Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part&#160;III.&#160;Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part&#160;IV.&#160;Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part&#160;V.&#160;Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part&#160;VI.&#160;Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part&#160;VII.&#160;Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part&#160;VIII.&#160;Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ExoTreeView.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="exo-cell-renderers.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2613098" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2613452" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2613306" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2613360" class="shortcut">Implemented Interfaces</a>
+                  &#160;|&#160;
+                  <a href="#id2613383" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoWrapTable"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2613098"></a><span class="refentrytitle">ExoWrapTable</span>
+</h2>
+<p>ExoWrapTable &#8212; A container widget with automatic child layouting</p>
+</td>
+<td valign="top" align="right"><img src="exo-wrap-table.png"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+
+                    <a href="ExoWrapTable.html#ExoWrapTable-struct">ExoWrapTable</a>;
+<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          <a href="ExoWrapTable.html#exo-wrap-table-new">exo_wrap_table_new</a>                  (<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> homogeneous);
+<a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               <a href="ExoWrapTable.html#exo-wrap-table-get-col-spacing">exo_wrap_table_get_col_spacing</a>      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);
+void                <a href="ExoWrapTable.html#exo-wrap-table-set-col-spacing">exo_wrap_table_set_col_spacing</a>      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a> col_spacing);
+<a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               <a href="ExoWrapTable.html#exo-wrap-table-get-row-spacing">exo_wrap_table_get_row_spacing</a>      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);
+void                <a href="ExoWrapTable.html#exo-wrap-table-set-row-spacing">exo_wrap_table_set_row_spacing</a>      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a> row_spacing);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a href="ExoWrapTable.html#exo-wrap-table-get-homogeneous">exo_wrap_table_get_homogeneous</a>      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);
+void                <a href="ExoWrapTable.html#exo-wrap-table-set-homogeneous">exo_wrap_table_set_homogeneous</a>      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> homogeneous);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2613306"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="../gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="../gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----ExoWrapTable
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2613360"></a><h2>Implemented Interfaces</h2>
+<p>
+ExoWrapTable implements
+ AtkImplementorIface.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2613383"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="ExoWrapTable.html#ExoWrapTable--col-spacing">col-spacing</a>"              <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write
+  "<a href="ExoWrapTable.html#ExoWrapTable--homogeneous">homogeneous</a>"              <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a href="ExoWrapTable.html#ExoWrapTable--row-spacing">row-spacing</a>"              <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2613452"></a><h2>Description</h2>
+<p>
+  The <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a> class layouts its children automatically
+  according to the available width allocated to the container
+  class.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2613477"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2613487"></a><h3>
+<a name="ExoWrapTable-struct"></a>ExoWrapTable</h3>
+<a class="indexterm" name="id2613499"></a><pre class="programlisting">typedef struct _ExoWrapTable ExoWrapTable;</pre>
+<p>
+  The <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a> struct contains only private fields
+  and should not be directly accessed.
+</p>
+<p class="since">Since 0.3.1
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2613531"></a><h3>
+<a name="exo-wrap-table-new"></a>exo_wrap_table_new ()</h3>
+<a class="indexterm" name="id2613547"></a><pre class="programlisting"><a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_wrap_table_new                  (<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> homogeneous);</pre>
+<p>
+Allocates a new <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>homogeneous</code></em>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if all children are to be given equal space allotments.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2613641"></a><h3>
+<a name="exo-wrap-table-get-col-spacing"></a>exo_wrap_table_get_col_spacing ()</h3>
+<a class="indexterm" name="id2613657"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               exo_wrap_table_get_col_spacing      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);</pre>
+<p>
+Returns the amount of space between consecutive
+columns in <em class="parameter"><code>table</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the amount of space between
+              consecutive columns.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2613741"></a><h3>
+<a name="exo-wrap-table-set-col-spacing"></a>exo_wrap_table_set_col_spacing ()</h3>
+<a class="indexterm" name="id2613757"></a><pre class="programlisting">void                exo_wrap_table_set_col_spacing      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a> col_spacing);</pre>
+<p>
+Sets the amount of space between consecutive
+columns in <em class="parameter"><code>table</code></em> to <em class="parameter"><code>col_spacing</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>col_spacing</code></em>&#160;:</span></td>
+<td> the new column spacing.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2613857"></a><h3>
+<a name="exo-wrap-table-get-row-spacing"></a>exo_wrap_table_get_row_spacing ()</h3>
+<a class="indexterm" name="id2613872"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>               exo_wrap_table_get_row_spacing      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);</pre>
+<p>
+Returns the amount of space between consecutive
+rows in <em class="parameter"><code>table</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the amount of space between
+              consecutive rows in <em class="parameter"><code>table</code></em>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2613962"></a><h3>
+<a name="exo-wrap-table-set-row-spacing"></a>exo_wrap_table_set_row_spacing ()</h3>
+<a class="indexterm" name="id2613977"></a><pre class="programlisting">void                exo_wrap_table_set_row_spacing      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a> row_spacing);</pre>
+<p>
+Sets the amount of spacing between consecutive
+rows in <em class="parameter"><code>table</code></em> to <em class="parameter"><code>row_spacing</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>row_spacing</code></em>&#160;:</span></td>
+<td> the new row spacing.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2614077"></a><h3>
+<a name="exo-wrap-table-get-homogeneous"></a>exo_wrap_table_get_homogeneous ()</h3>
+<a class="indexterm" name="id2614093"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_wrap_table_get_homogeneous      (const <a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table);</pre>
+<p>
+Returns whether the table cells are all constrained
+to the same width and height.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the cells are all constrained
+              to the same size.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2614181"></a><h3>
+<a name="exo-wrap-table-set-homogeneous"></a>exo_wrap_table_set_homogeneous ()</h3>
+<a class="indexterm" name="id2614197"></a><pre class="programlisting">void                exo_wrap_table_set_homogeneous      (<a href="ExoWrapTable.html" title="ExoWrapTable">ExoWrapTable</a> *table,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> homogeneous);</pre>
+<p>
+Changes the homogenous property of <em class="parameter"><code>table</code></em> cells, ie. whether all cells
+are an equal size or not.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><span class="term"><em class="parameter"><code>table</code></em>&#160;:</span></td>
+<td> an <a href="ExoWrapTable.html" title="ExoWrapTable"><span class="type">ExoWrapTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><span class="term"><em class="parameter"><code>homogeneous</code></em>&#160;:</span></td>
+<td> Set to <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> to ensure all <em class="parameter"><code>table</code></em> cells are the same size.
+               Set to <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if this is not your desired behaviour.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2614320"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2614331"></a><h3>
+<a name="ExoWrapTable--col-spacing"></a>The "<code class="literal">col-spacing</code>" property</h3>
+<a class="indexterm" name="id2614348"></a><pre class="programlisting">  "col-spacing"              <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write</pre>
+<p>The amount of space between two consecutive columns.</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2614375"></a><h3>
+<a name="ExoWrapTable--homogeneous"></a>The "<code class="literal">homogeneous</code>" property</h3>
+<a class="indexterm" name="id2614391"></a><pre class="programlisting">  "homogeneous"              <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>Whether the children should be all the same size.</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2614418"></a><h3>
+<a name="ExoWrapTable--row-spacing"></a>The "<code class="literal">row-spacing</code>" property</h3>
+<a class="indexterm" name="id2614435"></a><pre class="programlisting">  "row-spacing"              <a
+href="../glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write</pre>
+<p>The amount of space between two consecutive rows.</p>
+<p>Default value: 0</p>
+</div>
+</div>
+</div>
+</body>
+</html>

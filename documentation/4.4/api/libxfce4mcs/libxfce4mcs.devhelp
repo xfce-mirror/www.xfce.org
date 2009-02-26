@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="libxfce4mcs Reference Manual" link="index.html" author="" name="libxfce4mcs">
+  <chapters>
+    <sub name="libxfce4mcs Core Reference" link="ch01.html">
+      <sub name="mcs-client" link="libxfce4mcs-mcs-client.html"/>
+      <sub name="mcs-common" link="libxfce4mcs-mcs-common.html"/>
+      <sub name="mcs-manager" link="libxfce4mcs-mcs-manager.html"/>
+    </sub>
+  </chapters>
+  <functions>
+    <function name="McsClient" link="libxfce4mcs-mcs-client.html#McsClient"/>
+    <function name="enum McsAction" link="libxfce4mcs-mcs-client.html#McsAction"/>
+    <function name="McsNotifyFunc ()" link="libxfce4mcs-mcs-client.html#McsNotifyFunc"/>
+    <function name="McsWatchFunc ()" link="libxfce4mcs-mcs-client.html#McsWatchFunc"/>
+    <function name="mcs_client_new ()" link="libxfce4mcs-mcs-client.html#mcs-client-new"/>
+    <function name="mcs_client_destroy ()" link="libxfce4mcs-mcs-client.html#mcs-client-destroy"/>
+    <function name="mcs_client_process_event ()" link="libxfce4mcs-mcs-client.html#mcs-client-process-event"/>
+    <function name="mcs_client_add_channel ()" link="libxfce4mcs-mcs-client.html#mcs-client-add-channel"/>
+    <function name="mcs_client_delete_channel ()" link="libxfce4mcs-mcs-client.html#mcs-client-delete-channel"/>
+    <function name="mcs_client_get_setting ()" link="libxfce4mcs-mcs-client.html#mcs-client-get-setting"/>
+    <function name="mcs_client_show ()" link="libxfce4mcs-mcs-client.html#mcs-client-show"/>
+    <function name="mcs_client_check_manager ()" link="libxfce4mcs-mcs-client.html#mcs-client-check-manager"/>
+    <function name="McsBuffer" link="libxfce4mcs-mcs-common.html#McsBuffer"/>
+    <function name="McsColor" link="libxfce4mcs-mcs-common.html#McsColor"/>
+    <function name="McsList" link="libxfce4mcs-mcs-common.html#McsList"/>
+    <function name="McsChannel" link="libxfce4mcs-mcs-common.html#McsChannel"/>
+    <function name="McsChannelList" link="libxfce4mcs-mcs-common.html#McsChannelList"/>
+    <function name="McsSetting" link="libxfce4mcs-mcs-common.html#McsSetting"/>
+    <function name="enum McsType" link="libxfce4mcs-mcs-common.html#McsType"/>
+    <function name="enum McsResult" link="libxfce4mcs-mcs-common.html#McsResult"/>
+    <function name="enum McsManagerCheck" link="libxfce4mcs-mcs-common.html#McsManagerCheck"/>
+    <function name="mcs_manager_check_running ()" link="libxfce4mcs-mcs-common.html#mcs-manager-check-running"/>
+    <function name="mcs_setting_copy ()" link="libxfce4mcs-mcs-common.html#mcs-setting-copy"/>
+    <function name="mcs_setting_free ()" link="libxfce4mcs-mcs-common.html#mcs-setting-free"/>
+    <function name="mcs_setting_equal ()" link="libxfce4mcs-mcs-common.html#mcs-setting-equal"/>
+    <function name="mcs_list_free ()" link="libxfce4mcs-mcs-common.html#mcs-list-free"/>
+    <function name="mcs_list_copy ()" link="libxfce4mcs-mcs-common.html#mcs-list-copy"/>
+    <function name="mcs_list_insert ()" link="libxfce4mcs-mcs-common.html#mcs-list-insert"/>
+    <function name="mcs_list_lookup ()" link="libxfce4mcs-mcs-common.html#mcs-list-lookup"/>
+    <function name="mcs_list_delete ()" link="libxfce4mcs-mcs-common.html#mcs-list-delete"/>
+    <function name="mcs_byte_order ()" link="libxfce4mcs-mcs-common.html#mcs-byte-order"/>
+    <function name="MCS_PAD()" link="libxfce4mcs-mcs-common.html#MCS-PAD:CAPS"/>
+    <function name="McsManager" link="libxfce4mcs-mcs-manager.html#McsManager"/>
+    <function name="McsTerminateFunc ()" link="libxfce4mcs-mcs-manager.html#McsTerminateFunc"/>
+    <function name="McsShowRequestFunc ()" link="libxfce4mcs-mcs-manager.html#McsShowRequestFunc"/>
+    <function name="mcs_manager_new ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-new"/>
+    <function name="mcs_manager_destroy ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-destroy"/>
+    <function name="mcs_manager_get_std_window ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-get-std-window"/>
+    <function name="mcs_manager_get_mcs_window ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-get-mcs-window"/>
+    <function name="mcs_manager_process_event ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-process-event"/>
+    <function name="mcs_manager_add_channel ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-add-channel"/>
+    <function name="mcs_manager_delete_channel ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-delete-channel"/>
+    <function name="mcs_manager_set_setting ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-set-setting"/>
+    <function name="mcs_manager_delete_setting ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-delete-setting"/>
+    <function name="mcs_manager_set_int ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-set-int"/>
+    <function name="mcs_manager_set_string ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-set-string"/>
+    <function name="mcs_manager_set_color ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-set-color"/>
+    <function name="mcs_manager_notify ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-notify"/>
+    <function name="mcs_manager_list_lookup ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-list-lookup"/>
+    <function name="mcs_manager_setting_lookup ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-setting-lookup"/>
+    <function name="mcs_manager_add_channel_from_file ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-add-channel-from-file"/>
+    <function name="mcs_manager_save_channel_to_file ()" link="libxfce4mcs-mcs-manager.html#mcs-manager-save-channel-to-file"/>
+  </functions>
+</book>

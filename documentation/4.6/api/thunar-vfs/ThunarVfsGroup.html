@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ThunarVfsGroup</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="users-and-groups-handling.html" title="Part VI. Users and Groups Handling">
+<link rel="prev" href="ThunarVfsUser.html" title="ThunarVfsUser">
+<link rel="next" href="ThunarVfsUserManager.html" title="ThunarVfsUserManager">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part I. Introduction">
+<link rel="part" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="part" href="jobs.html" title="Part III. Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part IV. Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part V. MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part VI. Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part VII. Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ThunarVfsUser.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="users-and-groups-handling.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="ThunarVfsUserManager.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#ThunarVfsGroup.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#ThunarVfsGroup.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#ThunarVfsGroup.object-hierarchy" class="shortcut">Object Hierarchy</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ThunarVfsGroup"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ThunarVfsGroup.top_of_page"></a>ThunarVfsGroup</span></h2>
+<p>ThunarVfsGroup</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="ThunarVfsGroup.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+                    <a class="link" href="ThunarVfsGroup.html#ThunarVfsGroup-struct" title="ThunarVfsGroup">ThunarVfsGroup</a>;
+<a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsGroupId" title="ThunarVfsGroupId">ThunarVfsGroupId</a>    <a class="link" href="ThunarVfsGroup.html#thunar-vfs-group-get-id" title="thunar_vfs_group_get_id ()">thunar_vfs_group_get_id</a>             (<a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a> *group);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="ThunarVfsGroup.html#thunar-vfs-group-get-name" title="thunar_vfs_group_get_name ()">thunar_vfs_group_get_name</a>           (<a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a> *group);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ThunarVfsGroup.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----ThunarVfsGroup
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ThunarVfsGroup.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ThunarVfsGroup.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="ThunarVfsGroup-struct"></a><h3>ThunarVfsGroup</h3>
+<pre class="programlisting">typedef struct _ThunarVfsGroup ThunarVfsGroup;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="thunar-vfs-group-get-id"></a><h3>thunar_vfs_group_get_id ()</h3>
+<pre class="programlisting"><a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsGroupId" title="ThunarVfsGroupId">ThunarVfsGroupId</a>    thunar_vfs_group_get_id             (<a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a> *group);</pre>
+<p>
+Returns the unique id of the given <em class="parameter"><code>group</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>group</code></em> :</span></p></td>
+<td> a <a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the unique id of <em class="parameter"><code>group</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="thunar-vfs-group-get-name"></a><h3>thunar_vfs_group_get_name ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        thunar_vfs_group_get_name           (<a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup">ThunarVfsGroup</a> *group);</pre>
+<p>
+Returns the name of the <em class="parameter"><code>group</code></em>. If the system is
+unable to determine the name of <em class="parameter"><code>group</code></em>, it'll
+return the group id as string.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>group</code></em> :</span></p></td>
+<td> a <a class="link" href="ThunarVfsGroup.html" title="ThunarVfsGroup"><span class="type">ThunarVfsGroup</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the name of <em class="parameter"><code>group</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

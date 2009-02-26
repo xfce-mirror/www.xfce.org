@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Monitoring</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="up" href="utilities.html" title="Part IV. Utilities">
+<link rel="prev" href="utilities.html" title="Part IV. Utilities">
+<link rel="next" href="internals.html" title="Part V. Internals">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part I. Introduction">
+<link rel="part" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="part" href="menus.html" title="Part III. Menus">
+<link rel="part" href="utilities.html" title="Part IV. Utilities">
+<link rel="part" href="internals.html" title="Part V. Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="utilities.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="utilities.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4menu Reference Manual</th>
+<td><a accesskey="n" href="internals.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libxfce4menu-Monitoring.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libxfce4menu-Monitoring.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4menu-Monitoring"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libxfce4menu-Monitoring.top_of_page"></a>Monitoring</span></h2>
+<p>Monitoring</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libxfce4menu-Monitoring.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4menu/libxfce4menu.h&gt;
+
+                    <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable">XfceMenuMonitorVTable</a>;
+void                <a class="link" href="libxfce4menu-Monitoring.html#xfce-menu-monitor-set-vtable" title="xfce_menu_monitor_set_vtable ()">xfce_menu_monitor_set_vtable</a>        (<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4menu-Monitoring.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4menu-Monitoring.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfceMenuMonitorVTable"></a><h3>XfceMenuMonitorVTable</h3>
+<pre class="programlisting">typedef struct {
+  gpointer (*monitor_file)      (XfceMenu    *menu,
+                                 const gchar *filename,
+                                 gpointer     user_data);
+
+  gpointer (*monitor_directory) (XfceMenu    *menu,
+                                 const gchar *filename,
+                                 gpointer     user_data);
+
+  void     (*remove_monitor)    (XfceMenu    *menu,
+                                 gpointer     monitor_handle);
+} XfceMenuMonitorVTable;
+</pre>
+<p>
+This structure can be used by clients of the libxfce4menu API to 
+register functions which will be called whenever monitoring a
+certain file or directory becomes necessary. This way libxfce4menu
+only has to manage the monitor handles and leaves the monitoring
+implementations to the client.
+</p>
+<p>
+This mechanism was invented because the two main API clients, 
+Thunar and xfdesktop are already linked to ThunarVFS which has
+monitoring capabilities.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-monitor-set-vtable"></a><h3>xfce_menu_monitor_set_vtable ()</h3>
+<pre class="programlisting">void                xfce_menu_monitor_set_vtable        (<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable">XfceMenuMonitorVTable</a> *vtable,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+Sets the functions to be called when monitoring a file or directory
+becomes necessary. See <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> for more detailled
+information. Be careful with redefining the <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> 
+(e.g. don't redefine it while there are any <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>'s around).
+</p>
+<p>
+In order to change the user data, just pass the same 
+<a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a> as you did before. Pass NULL to clear the
+vtable (e.g. if you want to disable monitoring support).</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>vtable</code></em> :</span></p></td>
+<td> a <a class="link" href="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable" title="XfceMenuMonitorVTable"><span class="type">XfceMenuMonitorVTable</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> custom pointer to be passed to the vtable functions.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

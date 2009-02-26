@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>XfceMenuElement</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="up" href="menus.html" title="Part&#160;III.&#160;Menus">
+<link rel="prev" href="XfceMenuSeparator.html" title="XfceMenuSeparator">
+<link rel="next" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part&#160;I.&#160;Introduction">
+<link rel="part" href="fundamentals.html" title="Part&#160;II.&#160;Fundamentals">
+<link rel="part" href="menus.html" title="Part&#160;III.&#160;Menus">
+<link rel="part" href="utilities.html" title="Part&#160;IV.&#160;Utilities">
+<link rel="part" href="internals.html" title="Part&#160;V.&#160;Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceMenuSeparator.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="menus.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4menu Reference Manual</th>
+<td><a accesskey="n" href="utilities.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2593943" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2594102" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2594018" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2594044" class="shortcut">Prerequisites</a>
+                  &#160;|&#160;
+                  <a href="#id2594066" class="shortcut">Known Implementations</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="XfceMenuElement"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2593943"></a><span class="refentrytitle">XfceMenuElement</span>
+</h2>
+<p>XfceMenuElement</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4menu/libxfce4menu.h&gt;
+
+
+                    <a class="link" href="XfceMenuElement.html#XfceMenuElement-struct">XfceMenuElement</a>;
+                    <a class="link" href="XfceMenuElement.html#XfceMenuElementIface">XfceMenuElementIface</a>;
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="XfceMenuElement.html#xfce-menu-element-get-name">xfce_menu_element_get_name</a>          (<a class="link" href="XfceMenuElement.html" title="XfceMenuElement">XfceMenuElement</a> *element);
+const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="XfceMenuElement.html#xfce-menu-element-get-icon-name">xfce_menu_element_get_icon_name</a>     (<a class="link" href="XfceMenuElement.html" title="XfceMenuElement">XfceMenuElement</a> *element);
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594018"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  GInterface
+   +----XfceMenuElement
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594044"></a><h2>Prerequisites</h2>
+<p>
+XfceMenuElement requires
+ <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594066"></a><h2>Known Implementations</h2>
+<p>
+XfceMenuElement is implemented by
+ <a class="link" href="XfceMenuSeparator.html" title="XfceMenuSeparator">XfceMenuSeparator</a>,  <a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> and  <a class="link" href="XfceMenuItem.html" title="XfceMenuItem">XfceMenuItem</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594102"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594116"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2594127"></a><h3>
+<a name="XfceMenuElement-struct"></a>XfceMenuElement</h3>
+<a class="indexterm" name="id2594140"></a><pre class="programlisting">typedef struct _XfceMenuElement XfceMenuElement;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2594156"></a><h3>
+<a name="XfceMenuElementIface"></a>XfceMenuElementIface</h3>
+<a class="indexterm" name="id2594168"></a><pre class="programlisting">typedef struct {
+  GTypeInterface __parent__;
+
+  /* Virtual methods */
+  const gchar *(*get_name)      (XfceMenuElement *element);
+  const gchar *(*get_icon_name) (XfceMenuElement *element);
+} XfceMenuElementIface;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2594187"></a><h3>
+<a name="xfce-menu-element-get-name"></a>xfce_menu_element_get_name ()</h3>
+<a class="indexterm" name="id2594200"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_element_get_name          (<a class="link" href="XfceMenuElement.html" title="XfceMenuElement">XfceMenuElement</a> *element);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>element</code></em>&#160;:</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2594258"></a><h3>
+<a name="xfce-menu-element-get-icon-name"></a>xfce_menu_element_get_icon_name ()</h3>
+<a class="indexterm" name="id2594271"></a><pre class="programlisting">const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_element_get_icon_name     (<a class="link" href="XfceMenuElement.html" title="XfceMenuElement">XfceMenuElement</a> *element);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>element</code></em>&#160;:</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2594330"></a><div class="refsect2" lang="en"><a name="id2594331"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2594332"></a></div>
+</div>
+</div>
+</body>
+</html>

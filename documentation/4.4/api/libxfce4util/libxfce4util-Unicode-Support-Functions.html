@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unicode Manipulation</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4util Reference Manual">
+<link rel="up" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="prev" href="libxfce4util-Miscellaneous-Utilities.html" title="Miscellaneous Utilities">
+<link rel="next" href="libxfce4util-datatypes.html" title="Xfce Data types">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfce4util Overview">
+<link rel="chapter" href="libxfce4util-fundamentals.html" title="Xfce Fundamentals">
+<link rel="chapter" href="libxfce4util-core.html" title="Xfce Core Application support">
+<link rel="chapter" href="libxfce4util-utilities.html" title="Xfce Utilities">
+<link rel="chapter" href="libxfce4util-datatypes.html" title="Xfce Data types">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libxfce4util-Miscellaneous-Utilities.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4util-utilities.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4util Reference Manual</th>
+<td><a accesskey="n" href="libxfce4util-datatypes.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2599958" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2600042" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4util-Unicode-Support-Functions"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2599958"></a><span class="refentrytitle">Unicode Manipulation</span>
+</h2>
+<p>Unicode Manipulation &#8212; functions operating on Unicode characters and UTF-8 strings.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4util/libxfce4util.h&gt;
+
+
+<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Unicode-Support-Functions.html#xfce-utf8-remove-controls">xfce_utf8_remove_controls</a>           (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *str,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a> max_len,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *end);
+<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="libxfce4util-Unicode-Support-Functions.html#xfce-utf8-strndup">xfce_utf8_strndup</a>                   (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *src,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a> max_len);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2600042"></a><h2>Description</h2>
+<p>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2600057"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2600067"></a><h3>
+<a name="xfce-utf8-remove-controls"></a>xfce_utf8_remove_controls ()</h3>
+<a class="indexterm" name="id2600083"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_utf8_remove_controls           (<a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *str,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a> max_len,
+                                                         const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *end);</pre>
+<p>
+Removes all control characters from <em class="parameter"><code>str</code></em> up to <em class="parameter"><code>end</code></em> or up to
+<em class="parameter"><code>max_len</code></em> characters (note that characters does not mean bytes with
+UTF-8), where both <em class="parameter"><code>str</code></em> and <em class="parameter"><code>max_len</code></em> may not be given.
+</p>
+<p>
+Control characters are replaced in <em class="parameter"><code>str</code></em> by whitespaces, no new string
+will be allocated. The operation is done in-place.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>str</code></em>&#160;:</span></p></td>
+<td> target string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>max_len</code></em>&#160;:</span></p></td>
+<td> max characters to check or -1 for no character limit.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>end</code></em>&#160;:</span></p></td>
+<td> pointer to the endpoint in <em class="parameter"><code>str</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for no endpoint.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> pointer to <em class="parameter"><code>str</code></em> or <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> on error.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.2
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2600268"></a><h3>
+<a name="xfce-utf8-strndup"></a>xfce_utf8_strndup ()</h3>
+<a class="indexterm" name="id2600283"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfce_utf8_strndup                   (const <a
+href="../glib/glib-Basic-Types.html#gchar"
+>gchar</a> *src,
+                                                         <a
+href="../glib/glib-Basic-Types.html#gssize"
+>gssize</a> max_len);</pre>
+<p>
+Duplicates the <em class="parameter"><code>src</code></em> string up to <em class="parameter"><code>max_len</code></em> characters 
+(note that characters does not mean bytes with UTF-8).
+</p>
+<p>
+The caller is responsible to free the returned string
+using <a
+href="../glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>src</code></em>&#160;:</span></p></td>
+<td> target string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>max_len</code></em>&#160;:</span></p></td>
+<td> max characters to duplicate or -1 for no character limit.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> pointer to the newly allocated string.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.3
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2600402"></a><h2>See Also</h2>
+<p>
+<a class="ulink" href="http://developer.gnome.org/doc/API/2.0/glib/glib-Unicode-Manipulation.html" target="_top">Glib Unicode Manipulation</a>
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2600419"></a><div class="refsect2" lang="en"><a name="id2600420"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2600421"></a></div>
+</div>
+</div>
+</body>
+</html>

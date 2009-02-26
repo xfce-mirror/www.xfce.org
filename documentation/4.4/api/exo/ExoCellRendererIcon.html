@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>ExoCellRendererIcon</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.72.0">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-cell-renderers.html" title="Part&#160;IV.&#160;Additional cell renderers">
+<link rel="prev" href="ExoCellRendererEllipsizedText.html" title="ExoCellRendererEllipsizedText">
+<link rel="next" href="exo-extensions.html" title="Part&#160;V.&#160;Extensions to existing frameworks">
+<meta name="generator" content="GTK-Doc V1.8 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part&#160;I.&#160;Overview">
+<link rel="part" href="exo-toolbars.html" title="Part&#160;II.&#160;Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part&#160;III.&#160;Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part&#160;IV.&#160;Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part&#160;V.&#160;Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part&#160;VI.&#160;Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part&#160;VII.&#160;Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part&#160;VIII.&#160;Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ExoCellRendererEllipsizedText.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-cell-renderers.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="exo-extensions.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2615753" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2617101" class="shortcut">Description</a>
+                  &#160;|&#160;
+                  <a href="#id2615718" class="shortcut">Object Hierarchy</a>
+                  &#160;|&#160;
+                  <a href="#id2617029" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoCellRendererIcon"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2615753"></a><span class="refentrytitle">ExoCellRendererIcon</span>
+</h2>
+<p>ExoCellRendererIcon &#8212; Renders an icon in a cell</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+
+                    <a href="ExoCellRendererIcon.html#ExoCellRendererIcon-struct">ExoCellRendererIcon</a>;
+<a
+href="../gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a>*    <a href="ExoCellRendererIcon.html#exo-cell-renderer-icon-new">exo_cell_renderer_icon_new</a>          (void);
+
+
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2615718"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+
+  <a
+href="../gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="../gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="../gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="../gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a>
+                     +----ExoCellRendererIcon
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2617029"></a><h2>Properties</h2>
+<pre class="synopsis">
+
+  "<a href="ExoCellRendererIcon.html#ExoCellRendererIcon--follow-state">follow-state</a>"             <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write / Construct
+  "<a href="ExoCellRendererIcon.html#ExoCellRendererIcon--icon">icon</a>"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write
+  "<a href="ExoCellRendererIcon.html#ExoCellRendererIcon--size">size</a>"                     <a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write / Construct
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2617101"></a><h2>Description</h2>
+<p>
+  An <a href="ExoCellRendererIcon.html" title="ExoCellRendererIcon"><span class="type">ExoCellRendererIcon</span></a> can be used to render an icon in a cell. It allows to render either a named icon,
+  which is looked up using the <a
+href="../gtk/GtkIconTheme.html"
+><span class="type">GtkIconTheme</span></a>, or an image file loaded from the file system. The icon name
+  or absolute path to the image file is set via the <a href="ExoCellRendererIcon.html#ExoCellRendererIcon--icon">icon</a>
+  property.
+</p>
+<p>
+  To support the <a href="ExoIconView.html" title="ExoIconView">ExoIconView</a> (and <a
+href="../gtk/GtkIconView.html"
+>GtkIconView</a>),
+  <a href="ExoCellRendererIcon.html" title="ExoCellRendererIcon"><span class="type">ExoCellRendererIcon</span></a> supports rendering icons based on the state of the view if the <a href="ExoCellRendererIcon.html#ExoCellRendererIcon--follow-state">follow-state</a> property is set.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2617180"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2617190"></a><h3>
+<a name="ExoCellRendererIcon-struct"></a>ExoCellRendererIcon</h3>
+<a class="indexterm" name="id2617203"></a><pre class="programlisting">typedef struct _ExoCellRendererIcon ExoCellRendererIcon;</pre>
+<p>
+  The <span class="structname">ExoCellRendererIcon</span> struct contains only private fields and should not be directly accessed.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2617224"></a><h3>
+<a name="exo-cell-renderer-icon-new"></a>exo_cell_renderer_icon_new ()</h3>
+<a class="indexterm" name="id2617239"></a><pre class="programlisting"><a
+href="../gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a>*    exo_cell_renderer_icon_new          (void);</pre>
+<p>
+Creates a new <a href="ExoCellRendererIcon.html" title="ExoCellRendererIcon"><span class="type">ExoCellRendererIcon</span></a>. Adjust rendering parameters using object properties,
+which can be set globally via <a
+href="../gobject/gobject-The-Base-Object-Type.html#g-object-set"
+><code class="function">g_object_set()</code></a>. Also, with <a
+href="../gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a> and
+<a
+href="../gtk/GtkTreeViewColumn.html"
+><span class="type">GtkTreeViewColumn</span></a>, you can bind a property to a value in a <a
+href="../gtk/GtkTreeModel.html"
+><span class="type">GtkTreeModel</span></a>. For example
+you can bind the <a href="ExoCellRendererIcon.html#ExoCellRendererIcon--icon">icon</a> property on the
+cell renderer to an icon name in the model, thus rendering a different icon in each row
+of the <a
+href="../gtk/GtkTreeView.html"
+><span class="type">GtkTreeView</span></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></td>
+<td> the newly allocated <a href="ExoCellRendererIcon.html" title="ExoCellRendererIcon"><span class="type">ExoCellRendererIcon</span></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p class="since">Since  0.3.1.9
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2617358"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2617369"></a><h3>
+<a name="ExoCellRendererIcon--follow-state"></a>The "<code class="literal">follow-state</code>" property</h3>
+<a class="indexterm" name="id2617386"></a><pre class="programlisting">  "follow-state"             <a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write / Construct</pre>
+<p>
+Specifies whether the icon renderer should render icon based on the
+selection state of the items. This is necessary for <a href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>,
+which doesn't draw any item state indicators itself.</p>
+<p>
+
+</p>
+<p>Default value: TRUE</p>
+<p>Since  0.3.1.9
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2617432"></a><h3>
+<a name="ExoCellRendererIcon--icon"></a>The "<code class="literal">icon</code>" property</h3>
+<a class="indexterm" name="id2617448"></a><pre class="programlisting">  "icon"                     <a
+href="../gobject/gobject-Standard-Parameter-and-Value-Types.html#gchararray"
+>gchararray</a>            : Read / Write</pre>
+<p>
+The name of the themed icon to render or an absolute path to an image file
+to render. May also be <a
+href="../glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> in which case no icon will be rendered for the
+cell.
+</p>
+<p>
+Image files are loaded via the thumbnail database, creating a thumbnail
+as necessary. The thumbnail database is also used to load scalable icons
+in the icon theme, because loading scalable icons is quite expensive
+these days.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  0.3.1.9
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2617503"></a><h3>
+<a name="ExoCellRendererIcon--size"></a>The "<code class="literal">size</code>" property</h3>
+<a class="indexterm" name="id2617520"></a><pre class="programlisting">  "size"                     <a
+href="../glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write / Construct</pre>
+<p>
+The size in pixel at which to render the icon. This is also the fixed
+size that the renderer will request no matter if the actual icons are
+smaller than this size.
+</p>
+<p>
+This improves the performance of the layouting in the icon and tree
+view, because during the layouting phase no icons will need to be
+loaded, but the icons will only be loaded when they need to be rendered,
+i.e. the view scrolls to the cell.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 48</p>
+<p>Since  0.3.1.9
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2617571"></a><h2>See Also</h2>
+<p>
+  <a href="ExoIconView.html" title="ExoIconView">ExoIconView</a>
+</p>
+</div>
+</div>
+</body>
+</html>

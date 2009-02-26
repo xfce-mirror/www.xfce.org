@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Convenience Functions</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
+<link rel="up" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="prev" href="XfcePanelWindow.html" title="XfcePanelWindow">
+<link rel="next" href="ix01.html" title="Index">
+<meta name="generator" content="GTK-Doc V1.9 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
+<link rel="chapter" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="index" href="ix02.html" title="Index of new symbols in 4.5">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfcePanelWindow.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4panel-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Libxfce4panel Reference Manual</th>
+<td><a accesskey="n" href="ix01.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#id2606782" class="shortcut">Top</a>
+                  &#160;|&#160;
+                  <a href="#id2606844" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4panel-Convenience-Widgets"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2>
+<a name="id2606782"></a><span class="refentrytitle">Convenience Functions</span>
+</h2>
+<p>Convenience Functions &#8212; Special purpose widgets and utilities.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4panel/libxfce4panel.h&gt;
+
+
+<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="libxfce4panel-Convenience-Widgets.html#xfce-create-panel-button">xfce_create_panel_button</a>            (void);
+<a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="libxfce4panel-Convenience-Widgets.html#xfce-create-panel-toggle-button">xfce_create_panel_toggle_button</a>     (void);
+<a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="libxfce4panel-Convenience-Widgets.html#xfce-allow-panel-customization">xfce_allow_panel_customization</a>      (void);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2606844"></a><h2>Description</h2>
+This section describes a number of functions that were created to help
+developers of Xfce Panel plugins.
+</div>
+<div class="refsect1" lang="en">
+<a name="id2606857"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="id2606867"></a><h3>
+<a name="xfce-create-panel-button"></a>xfce_create_panel_button ()</h3>
+<a class="indexterm" name="id2606880"></a><pre class="programlisting"><a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          xfce_create_panel_button            (void);</pre>
+<p>
+Create regular <a
+href="../gtk/GtkButton.html"
+><span class="type">GtkButton</span></a> with a few properties set to be useful in the
+Xfce panel: Flat (<code class="literal">GTK_RELIEF_NONE</code>), no focus on click and minimal padding.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> newly created <a
+href="../gtk/GtkButton.html"
+><span class="type">GtkButton</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2606950"></a><h3>
+<a name="xfce-create-panel-toggle-button"></a>xfce_create_panel_toggle_button ()</h3>
+<a class="indexterm" name="id2606963"></a><pre class="programlisting"><a
+href="../gtk/GtkWidget.html"
+>GtkWidget</a>*          xfce_create_panel_toggle_button     (void);</pre>
+<p>
+Create regular <a
+href="../gtk/GtkToggleButton.html"
+><span class="type">GtkToggleButton</span></a> with a few properties set to be useful in
+Xfce panel: Flat (<code class="literal">GTK_RELIEF_NONE</code>), no focus on click and minimal padding.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> newly created <a
+href="../gtk/GtkToggleButton.html"
+><span class="type">GtkToggleButton</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="id2607033"></a><h3>
+<a name="xfce-allow-panel-customization"></a>xfce_allow_panel_customization ()</h3>
+<a class="indexterm" name="id2607046"></a><pre class="programlisting"><a
+href="../glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_allow_panel_customization      (void);</pre>
+<p>
+Check if the user is allowed to customize the panel. Uses the kiosk mode
+implementation from libxfce4util.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span>&#160;:</span></p></td>
+<td> <a
+href="../glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the user is allowed to customize the panel, <a
+href="../glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>
+         otherwise.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="id2607110"></a><div class="refsect2" lang="en"><a name="id2607111"></a></div>
+<hr>
+<div class="refsect2" lang="en"><a name="id2607112"></a></div>
+</div>
+</div>
+</body>
+</html>

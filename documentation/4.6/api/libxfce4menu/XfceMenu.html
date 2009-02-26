@@ -1,0 +1,958 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XfceMenu</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="up" href="menus.html" title="Part III. Menus">
+<link rel="prev" href="menus.html" title="Part III. Menus">
+<link rel="next" href="XfceMenuDirectory.html" title="XfceMenuDirectory">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part I. Introduction">
+<link rel="part" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="part" href="menus.html" title="Part III. Menus">
+<link rel="part" href="utilities.html" title="Part IV. Utilities">
+<link rel="part" href="internals.html" title="Part V. Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="menus.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="menus.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfce4menu Reference Manual</th>
+<td><a accesskey="n" href="XfceMenuDirectory.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#XfceMenu.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#XfceMenu.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#XfceMenu.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#XfceMenu.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#XfceMenu.properties" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="XfceMenu"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="XfceMenu.top_of_page"></a>XfceMenu</span></h2>
+<p>XfceMenu</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="XfceMenu.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4menu/libxfce4menu.h&gt;
+
+                    <a class="link" href="XfceMenu.html#XfceMenuPrivate" title="XfceMenuPrivate">XfceMenuPrivate</a>;
+                    <a class="link" href="XfceMenu.html#XfceMenuClass" title="XfceMenuClass">XfceMenuClass</a>;
+                    <a class="link" href="XfceMenu.html#XfceMenu-struct" title="XfceMenu">XfceMenu</a>;
+<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           <a class="link" href="XfceMenu.html#xfce-menu-get-root" title="xfce_menu_get_root ()">xfce_menu_get_root</a>                  (<a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           <a class="link" href="XfceMenu.html#xfce-menu-new" title="xfce_menu_new ()">xfce_menu_new</a>                       (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="XfceMenu.html#xfce-menu-get-filename" title="xfce_menu_get_filename ()">xfce_menu_get_filename</a>              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-set-filename" title="xfce_menu_set_filename ()">xfce_menu_set_filename</a>              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="XfceMenu.html#xfce-menu-get-name" title="xfce_menu_get_name ()">xfce_menu_get_name</a>                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-set-name" title="xfce_menu_set_name ()">xfce_menu_set_name</a>                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+<a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a>*  <a class="link" href="XfceMenu.html#xfce-menu-get-directory" title="xfce_menu_get_directory ()">xfce_menu_get_directory</a>             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-set-directory" title="xfce_menu_set_directory ()">xfce_menu_set_directory</a>             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-directory-dirs" title="xfce_menu_get_directory_dirs ()">xfce_menu_get_directory_dirs</a>        (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-legacy-dirs" title="xfce_menu_get_legacy_dirs ()">xfce_menu_get_legacy_dirs</a>           (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-app-dirs" title="xfce_menu_get_app_dirs ()">xfce_menu_get_app_dirs</a>              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="XfceMenu.html#xfce-menu-get-only-unallocated" title="xfce_menu_get_only_unallocated ()">xfce_menu_get_only_unallocated</a>      (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-set-only-unallocated" title="xfce_menu_set_only_unallocated ()">xfce_menu_set_only_unallocated</a>      (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> only_unallocated);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="XfceMenu.html#xfce-menu-get-deleted" title="xfce_menu_get_deleted ()">xfce_menu_get_deleted</a>               (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-set-deleted" title="xfce_menu_set_deleted ()">xfce_menu_set_deleted</a>               (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> deleted);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-menus" title="xfce_menu_get_menus ()">xfce_menu_get_menus</a>                 (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+void                <a class="link" href="XfceMenu.html#xfce-menu-add-menu" title="xfce_menu_add_menu ()">xfce_menu_add_menu</a>                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *submenu);
+<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           <a class="link" href="XfceMenu.html#xfce-menu-get-menu-with-name" title="xfce_menu_get_menu_with_name ()">xfce_menu_get_menu_with_name</a>        (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           <a class="link" href="XfceMenu.html#xfce-menu-get-parent" title="xfce_menu_get_parent ()">xfce_menu_get_parent</a>                (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a class="link" href="XfceMenuItemPool.html" title="XfceMenuItemPool">XfceMenuItemPool</a>*   <a class="link" href="XfceMenu.html#xfce-menu-get-item-pool" title="xfce_menu_get_item_pool ()">xfce_menu_get_item_pool</a>             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-items" title="xfce_menu_get_items ()">xfce_menu_get_items</a>                 (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="XfceMenu.html#xfce-menu-has-layout" title="xfce_menu_has_layout ()">xfce_menu_has_layout</a>                (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             <a class="link" href="XfceMenu.html#xfce-menu-get-layout-elements" title="xfce_menu_get_layout_elements ()">xfce_menu_get_layout_elements</a>       (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----XfceMenu
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceMenu implements
+ <a class="link" href="XfceMenuElement.html" title="XfceMenuElement">XfceMenuElement</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="XfceMenu.html#XfceMenu--deleted" title='The "deleted" property'>deleted</a>"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="XfceMenu.html#XfceMenu--directory" title='The "directory" property'>directory</a>"                <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a>*    : Read / Write
+  "<a class="link" href="XfceMenu.html#XfceMenu--filename" title='The "filename" property'>filename</a>"                 <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write
+  "<a class="link" href="XfceMenu.html#XfceMenu--name" title='The "name" property'>name</a>"                     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write
+  "<a class="link" href="XfceMenu.html#XfceMenu--only-unallocated" title='The "only-unallocated" property'>only-unallocated</a>"         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.description"></a><h2>Description</h2>
+<p>
+XfceMenu is the most important part of libxfce4menu. In almost all use 
+cases the first thing to be created is an XfceMenu based on a filename.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfceMenuPrivate"></a><h3>XfceMenuPrivate</h3>
+<pre class="programlisting">typedef struct _XfceMenuPrivate XfceMenuPrivate;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenuClass"></a><h3>XfceMenuClass</h3>
+<pre class="programlisting">typedef struct _XfceMenuClass XfceMenuClass;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenu-struct"></a><h3>XfceMenu</h3>
+<pre class="programlisting">typedef struct _XfceMenu XfceMenu;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-root"></a><h3>xfce_menu_get_root ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           xfce_menu_get_root                  (<a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Loads the system's root menu. This may take some time as it involves
+parsing and merging a lot of files. So if you call this function from a GUI
+program it should be done in a way that won't block the user interface (e.g.
+by using a worker thread).
+The returned pointer needs to be released using
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_object_unref (menu);
+</pre></div>
+<p>
+when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> Return location for errors or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The system root menu. The menu has to be released when no 
+              longer needed.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-new"></a><h3>xfce_menu_new ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           xfce_menu_new                       (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Parses a file and returns the menu structure found in this file. This
+may involve parsing and merging of a lot of other files. So if you call this
+function from a GUI program it should be done in a way that won't block the
+user interface (e.g. by using a worker thread).
+The returned pointer needs to be released using
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_object_unref (menu);
+</pre></div>
+<p>
+when it is not used anymore.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em> :</span></p></td>
+<td> filename containing the menu structure you want to load.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> return location for errors or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Menu structure found in <em class="parameter"><code>filename</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-filename"></a><h3>xfce_menu_get_filename ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_get_filename              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Returns the filename from which <em class="parameter"><code>menu</code></em> was loaded.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> filename from which <em class="parameter"><code>menu</code></em> was loaded.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-set-filename"></a><h3>xfce_menu_set_filename ()</h3>
+<pre class="programlisting">void                xfce_menu_set_filename              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);</pre>
+<p>
+Sets the menu filename. It should not be necessary to call this
+function anywhere - it's only of internal use.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em> :</span></p></td>
+<td> new filename of the menu.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-name"></a><h3>xfce_menu_get_name ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_menu_get_name                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Returns the name of <em class="parameter"><code>menu</code></em>. In most cases this will be the 
+contents of the &lt;Menu&gt; element. It may be useful for providing
+a display name for the menu if it does not have a menu
+directory.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> name of <em class="parameter"><code>menu</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-set-name"></a><h3>xfce_menu_set_name ()</h3>
+<pre class="programlisting">void                xfce_menu_set_name                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+Sets the name of <em class="parameter"><code>menu</code></em>. This might come in handy if you want
+to replace certain menu names with your own names. However, in
+most cases this function won't be useful.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td> new name of the menu.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-directory"></a><h3>xfce_menu_get_directory ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a>*  xfce_menu_get_directory             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Returns the <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory"><span class="type">XfceMenuDirectory</span></a> of <em class="parameter"><code>menu</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>. The menu
+directory may contain a lot of useful information about 
+the menu, like display name, desktop environments it should
+show up in etc.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory"><span class="type">XfceMenuDirectory</span></a> of <em class="parameter"><code>menu</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-set-directory"></a><h3>xfce_menu_set_directory ()</h3>
+<pre class="programlisting">void                xfce_menu_set_directory             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a> *directory);</pre>
+<p>
+Replaces the <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory"><span class="type">XfceMenuDirectory</span></a> of <em class="parameter"><code>menu</code></em> with <em class="parameter"><code>directory</code></em>. This
+may be useful if <em class="parameter"><code>menu</code></em> has no directory or if you want to 
+define your own directory for menus. Usually, there's no need
+to call this function.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>directory</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory"><span class="type">XfceMenuDirectory</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-directory-dirs"></a><h3>xfce_menu_get_directory_dirs ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_directory_dirs        (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Returns a list with all directory dirs of <em class="parameter"><code>menu</code></em>. Collects directory 
+dirs from <em class="parameter"><code>menu</code></em> up to the root menu so that the root menu directory 
+dirs come first.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> List with all relevant directory dirs of <em class="parameter"><code>menu</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-legacy-dirs"></a><h3>xfce_menu_get_legacy_dirs ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_legacy_dirs           (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-app-dirs"></a><h3>xfce_menu_get_app_dirs ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_app_dirs              (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-only-unallocated"></a><h3>xfce_menu_get_only_unallocated ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_get_only_unallocated      (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Returns whether <em class="parameter"><code>menu</code></em> only contains <a class="link" href="XfceMenuItem.html" title="XfceMenuItem"><span class="type">XfceMenuItem</span></a>s which
+are not already included in other menus.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> Whether the menu contains only items not used already
+              included in other menus.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-set-only-unallocated"></a><h3>xfce_menu_set_only_unallocated ()</h3>
+<pre class="programlisting">void                xfce_menu_set_only_unallocated      (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> only_unallocated);</pre>
+<p>
+Since all items are resolved directly after parsing the
+menu file, this won't be useful other than internally.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>only_unallocated</code></em> :</span></p></td>
+<td> Whether to include only unused 
+                    <a class="link" href="XfceMenuItem.html" title="XfceMenuItem"><span class="type">XfceMenuItem</span></a>s
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-deleted"></a><h3>xfce_menu_get_deleted ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_get_deleted               (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-set-deleted"></a><h3>xfce_menu_set_deleted ()</h3>
+<pre class="programlisting">void                xfce_menu_set_deleted               (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> deleted);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>deleted</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-menus"></a><h3>xfce_menu_get_menus ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_menus                 (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-add-menu"></a><h3>xfce_menu_add_menu ()</h3>
+<pre class="programlisting">void                xfce_menu_add_menu                  (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         <a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *submenu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>submenu</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-menu-with-name"></a><h3>xfce_menu_get_menu_with_name ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           xfce_menu_get_menu_with_name        (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-parent"></a><h3>xfce_menu_get_parent ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a>*           xfce_menu_get_parent                (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-item-pool"></a><h3>xfce_menu_get_item_pool ()</h3>
+<pre class="programlisting"><a class="link" href="XfceMenuItemPool.html" title="XfceMenuItemPool">XfceMenuItemPool</a>*   xfce_menu_get_item_pool             (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-items"></a><h3>xfce_menu_get_items ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_items                 (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+Convenience wrapper around <a class="link" href="XfceMenu.html#xfce-menu-get-item-pool" title="xfce_menu_get_item_pool ()"><code class="function">xfce_menu_get_item_pool()</code></a>, which simply returns the
+<a class="link" href="XfceMenuItem.html" title="XfceMenuItem"><span class="type">XfceMenuItem</span></a>s contained within the associated item pool as singly linked
+list.
+</p>
+<p>
+The caller is responsible to free the returned list using
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_slist_free (list);
+</pre></div>
+<p>
+when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceMenu.html" title="XfceMenu"><span class="type">XfceMenu</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the list of <a class="link" href="XfceMenuItem.html" title="XfceMenuItem"><span class="type">XfceMenuItem</span></a>s within this menu.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-has-layout"></a><h3>xfce_menu_has_layout ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfce_menu_has_layout                (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-menu-get-layout-elements"></a><h3>xfce_menu_get_layout_elements ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Singly-Linked-Lists.html#GSList"
+>GSList</a>*             xfce_menu_get_layout_elements       (<a class="link" href="XfceMenu.html" title="XfceMenu">XfceMenu</a> *menu);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>menu</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceMenu.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfceMenu--deleted"></a><h3>The <code class="literal">"deleted"</code> property</h3>
+<pre class="programlisting">  "deleted"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+Whether this menu should be ignored.</p>
+<p>
+
+</p>
+<p>Default value: FALSE</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenu--directory"></a><h3>The <code class="literal">"directory"</code> property</h3>
+<pre class="programlisting">  "directory"                <a class="link" href="XfceMenuDirectory.html" title="XfceMenuDirectory">XfceMenuDirectory</a>*    : Read / Write</pre>
+<p>
+The directory entry associated with this menu.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenu--filename"></a><h3>The <code class="literal">"filename"</code> property</h3>
+<pre class="programlisting">  "filename"                 <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write</pre>
+<p>
+The filename of an <a class="link" href="XfceMenu.html" title="XfceMenu"><code class="literal">XfceMenu</code></a> object. Whenever this is redefined, the
+menu is reloaded.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenu--name"></a><h3>The <code class="literal">"name"</code> property</h3>
+<pre class="programlisting">  "name"                     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write</pre>
+<p>
+The name of the menu.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfceMenu--only-unallocated"></a><h3>The <code class="literal">"only-unallocated"</code> property</h3>
+<pre class="programlisting">  "only-unallocated"         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+Whether this menu should only contain desktop entries not used by other
+menus.</p>
+<p>
+
+</p>
+<p>Default value: FALSE</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

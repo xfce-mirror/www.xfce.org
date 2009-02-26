@@ -1,0 +1,830 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XfconfBackend</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Xfconf Reference Manual">
+<link rel="up" href="ch02.html" title="Xfconf Daemon">
+<link rel="prev" href="ch02.html" title="Xfconf Daemon">
+<link rel="next" href="ch03.html" title="Xfconf Client Library">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="Xfconf Core Functionality">
+<link rel="chapter" href="ch02.html" title="Xfconf Daemon">
+<link rel="chapter" href="ch03.html" title="Xfconf Client Library">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ch02.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Xfconf Reference Manual</th>
+<td><a accesskey="n" href="ch03.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#xfconf-xfconf-backend.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#xfconf-xfconf-backend.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#xfconf-xfconf-backend.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#xfconf-xfconf-backend.prerequisites" class="shortcut">Prerequisites</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="xfconf-xfconf-backend"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="xfconf-xfconf-backend.top_of_page"></a>XfconfBackend</span></h2>
+<p>XfconfBackend — Interface for configuration store backends</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="xfconf-xfconf-backend.synopsis"></a><h2>Synopsis</h2>
+<a name="XfconfBackend"></a><pre class="synopsis">
+                    <a class="link" href="xfconf-xfconf-backend.html#XfconfBackendInterface" title="XfconfBackendInterface">XfconfBackendInterface</a>;
+                    <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend-struct" title="XfconfBackend">XfconfBackend</a>;
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-initialize" title="xfconf_backend_initialize ()">xfconf_backend_initialize</a>           (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-set" title="xfconf_backend_set ()">xfconf_backend_set</a>                  (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-get" title="xfconf_backend_get ()">xfconf_backend_get</a>                  (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-get-all" title="xfconf_backend_get_all ()">xfconf_backend_get_all</a>              (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+>GHashTable</a> *properties,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-exists" title="xfconf_backend_exists ()">xfconf_backend_exists</a>               (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> *exists,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-reset" title="xfconf_backend_reset ()">xfconf_backend_reset</a>                (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> recursive,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-flush" title="xfconf_backend_flush ()">xfconf_backend_flush</a>                (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+void                <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-register-property-changed-func" title="xfconf_backend_register_property_changed_func ()">xfconf_backend_register_property_changed_func</a>
+                                                        (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         XfconfPropertyChangedFunc func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-backend.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  GInterface
+   +----XfconfBackend
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-backend.prerequisites"></a><h2>Prerequisites</h2>
+<p>
+XfconfBackend requires
+ <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-backend.description"></a><h2>Description</h2>
+<p>
+XfconfBackend is an abstract interface that allows the Xfconf Daemon
+to use different backends for storing configuration data.  These backends
+can be flat text or binary files, a database, or just about anything
+one could think of to store data.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-backend.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfconfBackendInterface"></a><h3>XfconfBackendInterface</h3>
+<pre class="programlisting">typedef struct {
+    GTypeInterface parent;
+    
+    gboolean (*initialize)(XfconfBackend *backend,
+                           GError **error);
+    
+    gboolean (*set)(XfconfBackend *backend,
+                    const gchar *channel,
+                    const gchar *property,
+                    const GValue *value,
+                    GError **error);
+    
+    gboolean (*get)(XfconfBackend *backend,
+                    const gchar *channel,
+                    const gchar *property,
+                    GValue *value,
+                    GError **error);
+    
+    gboolean (*get_all)(XfconfBackend *backend,
+                        const gchar *channel,
+                        const gchar *property_base,
+                        GHashTable *properties,
+                        GError **error);
+    
+    gboolean (*exists)(XfconfBackend *backend,
+                       const gchar *channel,
+                       const gchar *property,
+                       gboolean *exists,
+                       GError **error);
+    
+    gboolean (*reset)(XfconfBackend *backend,
+                      const gchar *channel,
+                      const gchar *property,
+                      gboolean recursive,
+                      GError **error);
+
+    gboolean (*list_channels)(XfconfBackend *backend,
+                              GSList **channels,
+                              GError **error);
+
+    gboolean (*is_property_locked)(XfconfBackend *backend,
+                                   const gchar *channel,
+                                   const gchar *property,
+                                   gboolean *locked,
+                                   GError **error);
+    
+    gboolean (*flush)(XfconfBackend *backend,
+                      GError **error);
+
+    void (*register_property_changed_func)(XfconfBackend *backend,
+                                           XfconfPropertyChangedFunc func,
+                                           gpointer user_data);
+    
+    /*&lt; reserved for future expansion &gt;*/
+    void (*_xb_reserved0)();
+    void (*_xb_reserved1)();
+    void (*_xb_reserved2)();
+    void (*_xb_reserved3)();
+} XfconfBackendInterface;
+</pre>
+<p>
+An interface for implementing pluggable configuration store backends
+into the Xfconf Daemon.
+</p>
+<p>
+See the <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a> function documentation for a description of what
+each virtual function in <a class="link" href="xfconf-xfconf-backend.html#XfconfBackendInterface" title="XfconfBackendInterface"><span class="type">XfconfBackendInterface</span></a> should do.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GTypeInterface"
+>GTypeInterface</a> <em class="structfield"><code>parent</code></em>;</span></p></td>
+<td>GObject interface parent.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>initialize</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-initialize" title="xfconf_backend_initialize ()"><code class="function">xfconf_backend_initialize()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>set</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-set" title="xfconf_backend_set ()"><code class="function">xfconf_backend_set()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>get</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-get" title="xfconf_backend_get ()"><code class="function">xfconf_backend_get()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>get_all</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-get-all" title="xfconf_backend_get_all ()"><code class="function">xfconf_backend_get_all()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>exists</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-exists" title="xfconf_backend_exists ()"><code class="function">xfconf_backend_exists()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>reset</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-reset" title="xfconf_backend_reset ()"><code class="function">xfconf_backend_reset()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>list_channels</code></em> ()</span></p></td>
+<td>See <code class="function">xfconf_backend_list_channels()</code>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>is_property_locked</code></em> ()</span></p></td>
+<td>See <code class="function">xfconf_backend_is_property_locked()</code>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>flush</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-flush" title="xfconf_backend_flush ()"><code class="function">xfconf_backend_flush()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>register_property_changed_func</code></em> ()</span></p></td>
+<td>See <a class="link" href="xfconf-xfconf-backend.html#xfconf-backend-register-property-changed-func" title="xfconf_backend_register_property_changed_func ()"><code class="function">xfconf_backend_register_property_changed_func()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>_xb_reserved0</code></em> ()</span></p></td>
+<td>Reserved for future expansion.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>_xb_reserved1</code></em> ()</span></p></td>
+<td>Reserved for future expansion.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>_xb_reserved2</code></em> ()</span></p></td>
+<td>Reserved for future expansion.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="structfield"><code>_xb_reserved3</code></em> ()</span></p></td>
+<td>Reserved for future expansion.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfconfBackend-struct"></a><h3>XfconfBackend</h3>
+<pre class="programlisting">typedef struct _XfconfBackend XfconfBackend;</pre>
+<p>
+An instance of a class implementing a <a class="link" href="xfconf-xfconf-backend.html#XfconfBackendInterface" title="XfconfBackendInterface"><span class="type">XfconfBackendInterface</span></a>.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-initialize"></a><h3>xfconf_backend_initialize ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_initialize           (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Does any pre-initialization that the backend needs to function.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if initialization
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-set"></a><h3>xfconf_backend_set ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_set                  (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Sets the variant <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> A value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-get"></a><h3>xfconf_backend_get ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_get                  (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Gets the value of <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> and stores it in <em class="parameter"><code>value</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+><span class="type">GValue</span></a> return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-get-all"></a><h3>xfconf_backend_get_all ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_get_all              (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+>GHashTable</a> *properties,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Gets multiple properties and values on <em class="parameter"><code>channel</code></em> and stores them in
+<em class="parameter"><code>properties</code></em>, which is already initialized to hold <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+><span class="type">gchar</span></a>* keys and
+<a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+><span class="type">GValue</span></a>* values.  The <em class="parameter"><code>property_base</code></em> parameter can be
+used to limit the retrieval to a sub-tree of the property tree.
+</p>
+<p>
+A value of the empty string ("") or forward slash ("/") for
+<em class="parameter"><code>property_base</code></em> indicates the entire channel.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_base</code></em> :</span></p></td>
+<td> The base of properties to return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>properties</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+><span class="type">GHashTable</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-exists"></a><h3>xfconf_backend_exists ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_exists               (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> *exists,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Checks to see if <em class="parameter"><code>property</code></em> exists on <em class="parameter"><code>channel</code></em>, and stores <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> or
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> in <em class="parameter"><code>exists</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>exists</code></em> :</span></p></td>
+<td> A boolean return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-reset"></a><h3>xfconf_backend_reset ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_reset                (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> recursive,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Resets the property identified by <em class="parameter"><code>property</code></em> from <em class="parameter"><code>channel</code></em>.
+If <em class="parameter"><code>recursive</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, all sub-properties of <em class="parameter"><code>property</code></em> will be
+reset as well.  If the empty string ("") or a forward slash ("/")
+is specified for <em class="parameter"><code>property</code></em>, the entire channel will be reset.
+</p>
+<p>
+If none of the properties specified are locked or have root-owned
+system-wide defaults set, this effectively removes the properties
+from the configuration store entirely.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>recursive</code></em> :</span></p></td>
+<td> Whether or not the reset is recursive.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-flush"></a><h3>xfconf_backend_flush ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_backend_flush                (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+For backends that support persistent storage, ensures that all
+configuration data stored in memory is saved to persistent storage.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> An error return.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The backend should return <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the operation
+              was successful, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.  On <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>,
+              <em class="parameter"><code>error</code></em> should be set to a description of the failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-backend-register-property-changed-func"></a><h3>xfconf_backend_register_property_changed_func ()</h3>
+<pre class="programlisting">void                xfconf_backend_register_property_changed_func
+                                                        (<a class="link" href="xfconf-xfconf-backend.html#XfconfBackend">XfconfBackend</a> *backend,
+                                                         XfconfPropertyChangedFunc func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+Registers a function to be called when a property changes.  The
+backend implementation should keep a pointer to <em class="parameter"><code>func</code></em> and <em class="parameter"><code>user_data</code></em>
+and call <em class="parameter"><code>func</code></em> when a property in the configuration store changes.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>backend</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-backend.html#XfconfBackend"><span class="type">XfconfBackend</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>func</code></em> :</span></p></td>
+<td> A function of type <span class="type">XfconfPropertyChangeFunc</span>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> Arbitrary caller-supplied data.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XfceTitledDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfcegui4 Reference Manual">
+<link rel="up" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+<link rel="prev" href="XfceIconTheme.html" title="XfceIconTheme">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="reference.html" title="libxfcegui4 Overview">
+<link rel="chapter" href="libxfcegui4-fundamentals.html" title="Xfce GUI Fundamentals">
+<link rel="chapter" href="libxfcegui4-netk.html" title="Xfce GUI Netk Reference">
+<link rel="chapter" href="libxfcegui4-core.html" title="Xfce GUI Core Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="XfceIconTheme.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfcegui4-core.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfcegui4 Reference Manual</th>
+<td> </td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#XfceTitledDialog.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#XfceTitledDialog.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#XfceTitledDialog.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#XfceTitledDialog.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#XfceTitledDialog.properties" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="XfceTitledDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="XfceTitledDialog.top_of_page"></a>XfceTitledDialog</span></h2>
+<p>XfceTitledDialog</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="XfceTitledDialog.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfcegui4/libxfcegui4.h&gt;
+
+                    <a class="link" href="XfceTitledDialog.html#XfceTitledDialog-struct" title="XfceTitledDialog">XfceTitledDialog</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="XfceTitledDialog.html#xfce-titled-dialog-new" title="xfce_titled_dialog_new ()">xfce_titled_dialog_new</a>              (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="XfceTitledDialog.html#xfce-titled-dialog-new-with-buttons" title="xfce_titled_dialog_new_with_buttons ()">xfce_titled_dialog_new_with_buttons</a> (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *title,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a> *parent,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html#GtkDialogFlags"
+>GtkDialogFlags</a> flags,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *first_button_text,
+                                                         ...);
+const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        <a class="link" href="XfceTitledDialog.html#xfce-titled-dialog-get-subtitle" title="xfce_titled_dialog_get_subtitle ()">xfce_titled_dialog_get_subtitle</a>     (<a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog);
+void                <a class="link" href="XfceTitledDialog.html#xfce-titled-dialog-set-subtitle" title="xfce_titled_dialog_set_subtitle ()">xfce_titled_dialog_set_subtitle</a>     (<a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *subtitle);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a>
+                                       +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html"
+>GtkDialog</a>
+                                             +----XfceTitledDialog
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+XfceTitledDialog implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="XfceTitledDialog.html#XfceTitledDialog--subtitle" title='The "subtitle" property'>subtitle</a>"                 <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfceTitledDialog-struct"></a><h3>XfceTitledDialog</h3>
+<pre class="programlisting">typedef struct _XfceTitledDialog XfceTitledDialog;</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-titled-dialog-new"></a><h3>xfce_titled_dialog_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          xfce_titled_dialog_new              (void);</pre>
+<p>
+Allocates a new <a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a> instance.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the newly allocated <a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+
+</td>
+</tr></tbody>
+</table></div>
+<p class="since">Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-titled-dialog-new-with-buttons"></a><h3>xfce_titled_dialog_new_with_buttons ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          xfce_titled_dialog_new_with_buttons (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *title,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a> *parent,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html#GtkDialogFlags"
+>GtkDialogFlags</a> flags,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *first_button_text,
+                                                         ...);</pre>
+<p>
+See the documentation of <a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html#gtk-dialog-new-with-buttons"
+><code class="function">gtk_dialog_new_with_buttons()</code></a> for details about the
+parameters and the returned dialog.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>title</code></em> :</span></p></td>
+<td> title of the dialog, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>parent</code></em> :</span></p></td>
+<td> transient parent window of the dialog, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>flags</code></em> :</span></p></td>
+<td> from <a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html#GtkDialogFlags"
+><span class="type">GtkDialogFlags</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_button_text</code></em> :</span></p></td>
+<td> stock ID or text to go in first, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> response ID for the first button, then additional buttons, ending with <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the newly allocated <a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-titled-dialog-get-subtitle"></a><h3>xfce_titled_dialog_get_subtitle ()</h3>
+<pre class="programlisting">const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*        xfce_titled_dialog_get_subtitle     (<a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog);</pre>
+<p>
+Returns the subtitle of the <em class="parameter"><code>titled_dialog</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+if no subtitle is displayed in the <em class="parameter"><code>titled_dialog</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>titled_dialog</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the subtitle of <em class="parameter"><code>titled_dialog</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.4.0
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfce-titled-dialog-set-subtitle"></a><h3>xfce_titled_dialog_set_subtitle ()</h3>
+<pre class="programlisting">void                xfce_titled_dialog_set_subtitle     (<a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog">XfceTitledDialog</a> *titled_dialog,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *subtitle);</pre>
+<p>
+Sets the subtitle displayed by <em class="parameter"><code>titled_dialog</code></em> to <em class="parameter"><code>subtitle</code></em>; if
+<em class="parameter"><code>subtitle</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> no subtitle will be displayed by the <em class="parameter"><code>titled_dialog</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>titled_dialog</code></em> :</span></p></td>
+<td> a <a class="link" href="XfceTitledDialog.html" title="XfceTitledDialog"><span class="type">XfceTitledDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>subtitle</code></em> :</span></p></td>
+<td> the new subtitle for the <em class="parameter"><code>titled_dialog</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.4.0
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="XfceTitledDialog.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfceTitledDialog--subtitle"></a><h3>The <code class="literal">"subtitle"</code> property</h3>
+<pre class="programlisting">  "subtitle"                 <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write</pre>
+<p>
+The subtitle displayed below the main dialog title.</p>
+<p>
+
+</p>
+<p>Default value: NULL</p>
+<p>Since  4.4.0
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

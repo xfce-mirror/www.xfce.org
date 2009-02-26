@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "">
+<book xmlns="http://www.devhelp.net/book" title="libxfce4menu Reference Manual" link="index.html" author="Jannis Pohlmann" name="libxfce4menu">
+  <chapters>
+    <sub name="Introduction" link="introduction.html"/>
+    <sub name="Fundamentals" link="fundamentals.html">
+      <sub name="Initialization and Shutdown" link="libxfce4menu-Initialization-and-Shutdown.html"/>
+      <sub name="Desktop Environment" link="libxfce4menu-Desktop-Environment.html"/>
+      <sub name="Version Information" link="libxfce4menu-Version-Information.html"/>
+    </sub>
+    <sub name="Menus" link="menus.html">
+      <sub name="XfceMenu" link="XfceMenu.html"/>
+      <sub name="XfceMenuDirectory" link="XfceMenuDirectory.html"/>
+      <sub name="XfceMenuItem" link="XfceMenuItem.html"/>
+      <sub name="XfceMenuSeparator" link="XfceMenuSeparator.html"/>
+      <sub name="XfceMenuElement" link="XfceMenuElement.html"/>
+    </sub>
+    <sub name="Utilities" link="utilities.html">
+      <sub name="Monitoring" link="libxfce4menu-Monitoring.html"/>
+    </sub>
+    <sub name="Internals" link="internals.html">
+      <sub name="Layout" link="layout.html">
+        <sub name="XfceMenuLayout" link="XfceMenuLayout.html"/>
+      </sub>
+      <sub name="Menu Items" link="items.html">
+        <sub name="XfceMenuItemPool" link="XfceMenuItemPool.html"/>
+        <sub name="XfceMenuItemCache" link="XfceMenuItemCache.html"/>
+      </sub>
+      <sub name="Include and Exclude Rules" link="rules.html">
+        <sub name="XfceMenuRules" link="XfceMenuRules.html"/>
+        <sub name="XfceMenuStandardRules" link="XfceMenuStandardRules.html"/>
+        <sub name="XfceMenuOrRules" link="XfceMenuOrRules.html"/>
+        <sub name="XfceMenuAndRules" link="XfceMenuAndRules.html"/>
+        <sub name="XfceMenuNotRules" link="XfceMenuNotRules.html"/>
+      </sub>
+      <sub name="Move Instructions" link="move.html">
+        <sub name="XfceMenuMove" link="libxfce4menu-XfceMenuMove.html"/>
+      </sub>
+    </sub>
+    <sub name="Index" link="ix01.html"/>
+  </chapters>
+  <functions>
+    <function name="xfce_menu_init ()" link="libxfce4menu-Initialization-and-Shutdown.html#xfce-menu-init"/>
+    <function name="xfce_menu_shutdown ()" link="libxfce4menu-Initialization-and-Shutdown.html#xfce-menu-shutdown"/>
+    <function name="" link="libxfce4menu-Initialization-and-Shutdown.html#id2574274"/>
+    <function name="" link="libxfce4menu-Initialization-and-Shutdown.html#id2574276"/>
+    <function name="xfce_menu_set_environment ()" link="libxfce4menu-Desktop-Environment.html#xfce-menu-set-environment"/>
+    <function name="xfce_menu_get_environment ()" link="libxfce4menu-Desktop-Environment.html#xfce-menu-get-environment"/>
+    <function name="" link="libxfce4menu-Desktop-Environment.html#id2574781"/>
+    <function name="" link="libxfce4menu-Desktop-Environment.html#id2574782"/>
+    <function name="LIBXFCE4MENU_MAJOR_VERSION" link="libxfce4menu-Version-Information.html#LIBXFCE4MENU-MAJOR-VERSION:CAPS"/>
+    <function name="LIBXFCE4MENU_MINOR_VERSION" link="libxfce4menu-Version-Information.html#LIBXFCE4MENU-MINOR-VERSION:CAPS"/>
+    <function name="LIBXFCE4MENU_MICRO_VERSION" link="libxfce4menu-Version-Information.html#LIBXFCE4MENU-MICRO-VERSION:CAPS"/>
+    <function name="LIBXFCE4MENU_CHECK_VERSION()" link="libxfce4menu-Version-Information.html#LIBXFCE4MENU-CHECK-VERSION:CAPS"/>
+    <function name="libxfce4menu_major_version" link="libxfce4menu-Version-Information.html#libxfce4menu-major-version"/>
+    <function name="libxfce4menu_minor_version" link="libxfce4menu-Version-Information.html#libxfce4menu-minor-version"/>
+    <function name="libxfce4menu_micro_version" link="libxfce4menu-Version-Information.html#libxfce4menu-micro-version"/>
+    <function name="libxfce4menu_check_version ()" link="libxfce4menu-Version-Information.html#libxfce4menu-check-version"/>
+    <function name="" link="libxfce4menu-Version-Information.html#id2575600"/>
+    <function name="" link="libxfce4menu-Version-Information.html#id2575601"/>
+    <function name="XfceMenuPrivate" link="XfceMenu.html#XfceMenuPrivate"/>
+    <function name="XfceMenuClass" link="XfceMenu.html#XfceMenuClass"/>
+    <function name="XfceMenu" link="XfceMenu.html#XfceMenu-struct"/>
+    <function name="xfce_menu_get_root ()" link="XfceMenu.html#xfce-menu-get-root"/>
+    <function name="xfce_menu_new ()" link="XfceMenu.html#xfce-menu-new"/>
+    <function name="xfce_menu_get_filename ()" link="XfceMenu.html#xfce-menu-get-filename"/>
+    <function name="xfce_menu_set_filename ()" link="XfceMenu.html#xfce-menu-set-filename"/>
+    <function name="xfce_menu_get_name ()" link="XfceMenu.html#xfce-menu-get-name"/>
+    <function name="xfce_menu_set_name ()" link="XfceMenu.html#xfce-menu-set-name"/>
+    <function name="xfce_menu_get_directory ()" link="XfceMenu.html#xfce-menu-get-directory"/>
+    <function name="xfce_menu_set_directory ()" link="XfceMenu.html#xfce-menu-set-directory"/>
+    <function name="xfce_menu_get_directory_dirs ()" link="XfceMenu.html#xfce-menu-get-directory-dirs"/>
+    <function name="xfce_menu_get_legacy_dirs ()" link="XfceMenu.html#xfce-menu-get-legacy-dirs"/>
+    <function name="xfce_menu_get_app_dirs ()" link="XfceMenu.html#xfce-menu-get-app-dirs"/>
+    <function name="xfce_menu_get_only_unallocated ()" link="XfceMenu.html#xfce-menu-get-only-unallocated"/>
+    <function name="xfce_menu_set_only_unallocated ()" link="XfceMenu.html#xfce-menu-set-only-unallocated"/>
+    <function name="xfce_menu_get_deleted ()" link="XfceMenu.html#xfce-menu-get-deleted"/>
+    <function name="xfce_menu_set_deleted ()" link="XfceMenu.html#xfce-menu-set-deleted"/>
+    <function name="xfce_menu_get_menus ()" link="XfceMenu.html#xfce-menu-get-menus"/>
+    <function name="xfce_menu_add_menu ()" link="XfceMenu.html#xfce-menu-add-menu"/>
+    <function name="xfce_menu_get_menu_with_name ()" link="XfceMenu.html#xfce-menu-get-menu-with-name"/>
+    <function name="xfce_menu_get_parent ()" link="XfceMenu.html#xfce-menu-get-parent"/>
+    <function name="xfce_menu_get_item_pool ()" link="XfceMenu.html#xfce-menu-get-item-pool"/>
+    <function name="xfce_menu_get_items ()" link="XfceMenu.html#xfce-menu-get-items"/>
+    <function name="xfce_menu_has_layout ()" link="XfceMenu.html#xfce-menu-has-layout"/>
+    <function name="xfce_menu_get_layout_elements ()" link="XfceMenu.html#xfce-menu-get-layout-elements"/>
+    <function name="The &quot;deleted&quot; property" link="XfceMenu.html#XfceMenu--deleted"/>
+    <function name="The &quot;directory&quot; property" link="XfceMenu.html#XfceMenu--directory"/>
+    <function name="The &quot;filename&quot; property" link="XfceMenu.html#XfceMenu--filename"/>
+    <function name="The &quot;name&quot; property" link="XfceMenu.html#XfceMenu--name"/>
+    <function name="The &quot;only-unallocated&quot; property" link="XfceMenu.html#XfceMenu--only-unallocated"/>
+    <function name="" link="XfceMenu.html#id2579433"/>
+    <function name="" link="XfceMenu.html#id2579434"/>
+    <function name="XfceMenuDirectoryPrivate" link="XfceMenuDirectory.html#XfceMenuDirectoryPrivate"/>
+    <function name="XfceMenuDirectoryClass" link="XfceMenuDirectory.html#XfceMenuDirectoryClass"/>
+    <function name="XfceMenuDirectory" link="XfceMenuDirectory.html#XfceMenuDirectory-struct"/>
+    <function name="xfce_menu_directory_get_filename ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-filename"/>
+    <function name="xfce_menu_directory_set_filename ()" link="XfceMenuDirectory.html#xfce-menu-directory-set-filename"/>
+    <function name="xfce_menu_directory_get_name ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-name"/>
+    <function name="xfce_menu_directory_set_name ()" link="XfceMenuDirectory.html#xfce-menu-directory-set-name"/>
+    <function name="xfce_menu_directory_get_comment ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-comment"/>
+    <function name="xfce_menu_directory_set_comment ()" link="XfceMenuDirectory.html#xfce-menu-directory-set-comment"/>
+    <function name="xfce_menu_directory_get_icon ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-icon"/>
+    <function name="xfce_menu_directory_set_icon ()" link="XfceMenuDirectory.html#xfce-menu-directory-set-icon"/>
+    <function name="xfce_menu_directory_get_no_display ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-no-display"/>
+    <function name="xfce_menu_directory_set_no_display ()" link="XfceMenuDirectory.html#xfce-menu-directory-set-no-display"/>
+    <function name="xfce_menu_directory_get_hidden ()" link="XfceMenuDirectory.html#xfce-menu-directory-get-hidden"/>
+    <function name="xfce_menu_directory_show_in_environment ()" link="XfceMenuDirectory.html#xfce-menu-directory-show-in-environment"/>
+    <function name="The &quot;comment&quot; property" link="XfceMenuDirectory.html#XfceMenuDirectory--comment"/>
+    <function name="The &quot;filename&quot; property" link="XfceMenuDirectory.html#XfceMenuDirectory--filename"/>
+    <function name="The &quot;icon&quot; property" link="XfceMenuDirectory.html#XfceMenuDirectory--icon"/>
+    <function name="The &quot;name&quot; property" link="XfceMenuDirectory.html#XfceMenuDirectory--name"/>
+    <function name="The &quot;no-display&quot; property" link="XfceMenuDirectory.html#XfceMenuDirectory--no-display"/>
+    <function name="" link="XfceMenuDirectory.html#id2584375"/>
+    <function name="" link="XfceMenuDirectory.html#id2584376"/>
+    <function name="XfceMenuItemPrivate" link="XfceMenuItem.html#XfceMenuItemPrivate"/>
+    <function name="XfceMenuItemClass" link="XfceMenuItem.html#XfceMenuItemClass"/>
+    <function name="XfceMenuItem" link="XfceMenuItem.html#XfceMenuItem-struct"/>
+    <function name="xfce_menu_item_new ()" link="XfceMenuItem.html#xfce-menu-item-new"/>
+    <function name="xfce_menu_item_get_desktop_id ()" link="XfceMenuItem.html#xfce-menu-item-get-desktop-id"/>
+    <function name="xfce_menu_item_set_desktop_id ()" link="XfceMenuItem.html#xfce-menu-item-set-desktop-id"/>
+    <function name="xfce_menu_item_get_filename ()" link="XfceMenuItem.html#xfce-menu-item-get-filename"/>
+    <function name="xfce_menu_item_set_filename ()" link="XfceMenuItem.html#xfce-menu-item-set-filename"/>
+    <function name="xfce_menu_item_get_command ()" link="XfceMenuItem.html#xfce-menu-item-get-command"/>
+    <function name="xfce_menu_item_set_command ()" link="XfceMenuItem.html#xfce-menu-item-set-command"/>
+    <function name="xfce_menu_item_get_try_exec ()" link="XfceMenuItem.html#xfce-menu-item-get-try-exec"/>
+    <function name="xfce_menu_item_set_try_exec ()" link="XfceMenuItem.html#xfce-menu-item-set-try-exec"/>
+    <function name="xfce_menu_item_get_name ()" link="XfceMenuItem.html#xfce-menu-item-get-name"/>
+    <function name="xfce_menu_item_set_name ()" link="XfceMenuItem.html#xfce-menu-item-set-name"/>
+    <function name="xfce_menu_item_get_icon_name ()" link="XfceMenuItem.html#xfce-menu-item-get-icon-name"/>
+    <function name="xfce_menu_item_set_icon_name ()" link="XfceMenuItem.html#xfce-menu-item-set-icon-name"/>
+    <function name="xfce_menu_item_requires_terminal ()" link="XfceMenuItem.html#xfce-menu-item-requires-terminal"/>
+    <function name="xfce_menu_item_set_requires_terminal ()" link="XfceMenuItem.html#xfce-menu-item-set-requires-terminal"/>
+    <function name="xfce_menu_item_get_no_display ()" link="XfceMenuItem.html#xfce-menu-item-get-no-display"/>
+    <function name="xfce_menu_item_set_no_display ()" link="XfceMenuItem.html#xfce-menu-item-set-no-display"/>
+    <function name="xfce_menu_item_supports_startup_notification ()" link="XfceMenuItem.html#xfce-menu-item-supports-startup-notification"/>
+    <function name="xfce_menu_item_set_supports_startup_notification ()" link="XfceMenuItem.html#xfce-menu-item-set-supports-startup-notification"/>
+    <function name="xfce_menu_item_get_categories ()" link="XfceMenuItem.html#xfce-menu-item-get-categories"/>
+    <function name="xfce_menu_item_set_categories ()" link="XfceMenuItem.html#xfce-menu-item-set-categories"/>
+    <function name="xfce_menu_item_show_in_environment ()" link="XfceMenuItem.html#xfce-menu-item-show-in-environment"/>
+    <function name="xfce_menu_item_ref ()" link="XfceMenuItem.html#xfce-menu-item-ref"/>
+    <function name="xfce_menu_item_unref ()" link="XfceMenuItem.html#xfce-menu-item-unref"/>
+    <function name="xfce_menu_item_get_allocated ()" link="XfceMenuItem.html#xfce-menu-item-get-allocated"/>
+    <function name="xfce_menu_item_increment_allocated ()" link="XfceMenuItem.html#xfce-menu-item-increment-allocated"/>
+    <function name="xfce_menu_item_decrement_allocated ()" link="XfceMenuItem.html#xfce-menu-item-decrement-allocated"/>
+    <function name="The &quot;command&quot; property" link="XfceMenuItem.html#XfceMenuItem--command"/>
+    <function name="The &quot;comment&quot; property" link="XfceMenuItem.html#XfceMenuItem--comment"/>
+    <function name="The &quot;desktop-id&quot; property" link="XfceMenuItem.html#XfceMenuItem--desktop-id"/>
+    <function name="The &quot;filename&quot; property" link="XfceMenuItem.html#XfceMenuItem--filename"/>
+    <function name="The &quot;generic-name&quot; property" link="XfceMenuItem.html#XfceMenuItem--generic-name"/>
+    <function name="The &quot;icon-name&quot; property" link="XfceMenuItem.html#XfceMenuItem--icon-name"/>
+    <function name="The &quot;name&quot; property" link="XfceMenuItem.html#XfceMenuItem--name"/>
+    <function name="The &quot;no-display&quot; property" link="XfceMenuItem.html#XfceMenuItem--no-display"/>
+    <function name="The &quot;path&quot; property" link="XfceMenuItem.html#XfceMenuItem--path"/>
+    <function name="The &quot;requires-terminal&quot; property" link="XfceMenuItem.html#XfceMenuItem--requires-terminal"/>
+    <function name="The &quot;supports-startup-notification&quot; property" link="XfceMenuItem.html#XfceMenuItem--supports-startup-notification"/>
+    <function name="The &quot;try-exec&quot; property" link="XfceMenuItem.html#XfceMenuItem--try-exec"/>
+    <function name="" link="XfceMenuItem.html#id2589823"/>
+    <function name="" link="XfceMenuItem.html#id2589824"/>
+    <function name="XfceMenuSeparatorClass" link="XfceMenuSeparator.html#XfceMenuSeparatorClass"/>
+    <function name="XfceMenuSeparator" link="XfceMenuSeparator.html#XfceMenuSeparator-struct"/>
+    <function name="xfce_menu_separator_get_default ()" link="XfceMenuSeparator.html#xfce-menu-separator-get-default"/>
+    <function name="" link="XfceMenuSeparator.html#id2593625"/>
+    <function name="" link="XfceMenuSeparator.html#id2593626"/>
+    <function name="XfceMenuElement" link="XfceMenuElement.html#XfceMenuElement-struct"/>
+    <function name="XfceMenuElementIface" link="XfceMenuElement.html#XfceMenuElementIface"/>
+    <function name="xfce_menu_element_get_name ()" link="XfceMenuElement.html#xfce-menu-element-get-name"/>
+    <function name="xfce_menu_element_get_icon_name ()" link="XfceMenuElement.html#xfce-menu-element-get-icon-name"/>
+    <function name="" link="XfceMenuElement.html#id2594331"/>
+    <function name="" link="XfceMenuElement.html#id2594332"/>
+    <function name="XfceMenuMonitorVTable" link="libxfce4menu-Monitoring.html#XfceMenuMonitorVTable"/>
+    <function name="xfce_menu_monitor_set_vtable ()" link="libxfce4menu-Monitoring.html#xfce-menu-monitor-set-vtable"/>
+    <function name="" link="libxfce4menu-Monitoring.html#id2595083"/>
+    <function name="" link="libxfce4menu-Monitoring.html#id2595084"/>
+    <function name="enum XfceMenuLayoutMergeType" link="XfceMenuLayout.html#XfceMenuLayoutMergeType"/>
+    <function name="enum XfceMenuLayoutNodeType" link="XfceMenuLayout.html#XfceMenuLayoutNodeType"/>
+    <function name="XfceMenuLayoutNode" link="XfceMenuLayout.html#XfceMenuLayoutNode"/>
+    <function name="XfceMenuLayoutPrivate" link="XfceMenuLayout.html#XfceMenuLayoutPrivate"/>
+    <function name="XfceMenuLayoutClass" link="XfceMenuLayout.html#XfceMenuLayoutClass"/>
+    <function name="XfceMenuLayout" link="XfceMenuLayout.html#XfceMenuLayout-struct"/>
+    <function name="xfce_menu_layout_new ()" link="XfceMenuLayout.html#xfce-menu-layout-new"/>
+    <function name="xfce_menu_layout_add_filename ()" link="XfceMenuLayout.html#xfce-menu-layout-add-filename"/>
+    <function name="xfce_menu_layout_add_menuname ()" link="XfceMenuLayout.html#xfce-menu-layout-add-menuname"/>
+    <function name="xfce_menu_layout_add_separator ()" link="XfceMenuLayout.html#xfce-menu-layout-add-separator"/>
+    <function name="xfce_menu_layout_add_merge ()" link="XfceMenuLayout.html#xfce-menu-layout-add-merge"/>
+    <function name="xfce_menu_layout_get_nodes ()" link="XfceMenuLayout.html#xfce-menu-layout-get-nodes"/>
+    <function name="xfce_menu_layout_get_filename_used ()" link="XfceMenuLayout.html#xfce-menu-layout-get-filename-used"/>
+    <function name="xfce_menu_layout_get_menuname_used ()" link="XfceMenuLayout.html#xfce-menu-layout-get-menuname-used"/>
+    <function name="xfce_menu_layout_node_get_type ()" link="XfceMenuLayout.html#xfce-menu-layout-node-get-type"/>
+    <function name="xfce_menu_layout_node_get_filename ()" link="XfceMenuLayout.html#xfce-menu-layout-node-get-filename"/>
+    <function name="xfce_menu_layout_node_get_menuname ()" link="XfceMenuLayout.html#xfce-menu-layout-node-get-menuname"/>
+    <function name="xfce_menu_layout_node_get_merge_type ()" link="XfceMenuLayout.html#xfce-menu-layout-node-get-merge-type"/>
+    <function name="" link="XfceMenuLayout.html#id2596959"/>
+    <function name="" link="XfceMenuLayout.html#id2596960"/>
+    <function name="XfceMenuItemPoolPrivate" link="XfceMenuItemPool.html#XfceMenuItemPoolPrivate"/>
+    <function name="XfceMenuItemPoolClass" link="XfceMenuItemPool.html#XfceMenuItemPoolClass"/>
+    <function name="XfceMenuItemPool" link="XfceMenuItemPool.html#XfceMenuItemPool-struct"/>
+    <function name="xfce_menu_item_pool_new ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-new"/>
+    <function name="xfce_menu_item_pool_insert ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-insert"/>
+    <function name="xfce_menu_item_pool_lookup ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-lookup"/>
+    <function name="xfce_menu_item_pool_foreach ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-foreach"/>
+    <function name="xfce_menu_item_pool_apply_exclude_rule ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-apply-exclude-rule"/>
+    <function name="xfce_menu_item_pool_get_empty ()" link="XfceMenuItemPool.html#xfce-menu-item-pool-get-empty"/>
+    <function name="" link="XfceMenuItemPool.html#id2599328"/>
+    <function name="" link="XfceMenuItemPool.html#id2599329"/>
+    <function name="XfceMenuItemCachePrivate" link="XfceMenuItemCache.html#XfceMenuItemCachePrivate"/>
+    <function name="XfceMenuItemCacheClass" link="XfceMenuItemCache.html#XfceMenuItemCacheClass"/>
+    <function name="XfceMenuItemCache" link="XfceMenuItemCache.html#XfceMenuItemCache-struct"/>
+    <function name="xfce_menu_item_cache_get_default ()" link="XfceMenuItemCache.html#xfce-menu-item-cache-get-default"/>
+    <function name="xfce_menu_item_cache_lookup ()" link="XfceMenuItemCache.html#xfce-menu-item-cache-lookup"/>
+    <function name="xfce_menu_item_cache_foreach ()" link="XfceMenuItemCache.html#xfce-menu-item-cache-foreach"/>
+    <function name="" link="XfceMenuItemCache.html#id2600752"/>
+    <function name="" link="XfceMenuItemCache.html#id2600753"/>
+    <function name="XfceMenuRules" link="XfceMenuRules.html#XfceMenuRules-struct"/>
+    <function name="XfceMenuRulesIface" link="XfceMenuRules.html#XfceMenuRulesIface"/>
+    <function name="xfce_menu_rules_match ()" link="XfceMenuRules.html#xfce-menu-rules-match"/>
+    <function name="xfce_menu_rules_add_all ()" link="XfceMenuRules.html#xfce-menu-rules-add-all"/>
+    <function name="xfce_menu_rules_add_rules ()" link="XfceMenuRules.html#xfce-menu-rules-add-rules"/>
+    <function name="xfce_menu_rules_add_filename ()" link="XfceMenuRules.html#xfce-menu-rules-add-filename"/>
+    <function name="xfce_menu_rules_add_category ()" link="XfceMenuRules.html#xfce-menu-rules-add-category"/>
+    <function name="" link="XfceMenuRules.html#id2602146"/>
+    <function name="" link="XfceMenuRules.html#id2602148"/>
+    <function name="XfceMenuStandardRules" link="XfceMenuStandardRules.html#XfceMenuStandardRules-struct"/>
+    <function name="xfce_menu_standard_rules_get_include ()" link="XfceMenuStandardRules.html#xfce-menu-standard-rules-get-include"/>
+    <function name="xfce_menu_standard_rules_set_include ()" link="XfceMenuStandardRules.html#xfce-menu-standard-rules-set-include"/>
+    <function name="The &quot;include&quot; property" link="XfceMenuStandardRules.html#XfceMenuStandardRules--include"/>
+    <function name="" link="XfceMenuStandardRules.html#id2603419"/>
+    <function name="" link="XfceMenuStandardRules.html#id2603420"/>
+    <function name="XfceMenuOrRules" link="XfceMenuOrRules.html#XfceMenuOrRules-struct"/>
+    <function name="XfceMenuOrRulesClass" link="XfceMenuOrRules.html#XfceMenuOrRulesClass"/>
+    <function name="xfce_menu_or_rules_new ()" link="XfceMenuOrRules.html#xfce-menu-or-rules-new"/>
+    <function name="" link="XfceMenuOrRules.html#id2604183"/>
+    <function name="" link="XfceMenuOrRules.html#id2604184"/>
+    <function name="XfceMenuAndRules" link="XfceMenuAndRules.html#XfceMenuAndRules-struct"/>
+    <function name="XfceMenuAndRulesClass" link="XfceMenuAndRules.html#XfceMenuAndRulesClass"/>
+    <function name="xfce_menu_and_rules_new ()" link="XfceMenuAndRules.html#xfce-menu-and-rules-new"/>
+    <function name="" link="XfceMenuAndRules.html#id2604741"/>
+    <function name="" link="XfceMenuAndRules.html#id2604742"/>
+    <function name="XfceMenuNotRules" link="XfceMenuNotRules.html#XfceMenuNotRules-struct"/>
+    <function name="XfceMenuNotRulesClass" link="XfceMenuNotRules.html#XfceMenuNotRulesClass"/>
+    <function name="xfce_menu_not_rules_new ()" link="XfceMenuNotRules.html#xfce-menu-not-rules-new"/>
+    <function name="" link="XfceMenuNotRules.html#id2605298"/>
+    <function name="" link="XfceMenuNotRules.html#id2605299"/>
+    <function name="XfceMenuMoveClass" link="libxfce4menu-XfceMenuMove.html#XfceMenuMoveClass"/>
+    <function name="XfceMenuMove" link="libxfce4menu-XfceMenuMove.html#XfceMenuMove"/>
+    <function name="xfce_menu_move_new ()" link="libxfce4menu-XfceMenuMove.html#xfce-menu-move-new"/>
+    <function name="xfce_menu_move_get_old ()" link="libxfce4menu-XfceMenuMove.html#xfce-menu-move-get-old"/>
+    <function name="xfce_menu_move_set_old ()" link="libxfce4menu-XfceMenuMove.html#xfce-menu-move-set-old"/>
+    <function name="xfce_menu_move_get_new ()" link="libxfce4menu-XfceMenuMove.html#xfce-menu-move-get-new"/>
+    <function name="xfce_menu_move_set_new ()" link="libxfce4menu-XfceMenuMove.html#xfce-menu-move-set-new"/>
+    <function name="" link="libxfce4menu-XfceMenuMove.html#id2606222"/>
+    <function name="" link="libxfce4menu-XfceMenuMove.html#id2606223"/>
+  </functions>
+</book>

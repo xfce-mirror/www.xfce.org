@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>libxfce4menu Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfce4menu Reference Manual">
+<link rel="next" href="introduction.html" title="Part I. Introduction">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part I. Introduction">
+<link rel="part" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="part" href="menus.html" title="Part III. Menus">
+<link rel="part" href="utilities.html" title="Part IV. Utilities">
+<link rel="part" href="internals.html" title="Part V. Internals">
+<link rel="chapter" href="layout.html" title="Layout">
+<link rel="chapter" href="items.html" title="Menu Items">
+<link rel="chapter" href="rules.html" title="Include and Exclude Rules">
+<link rel="chapter" href="move.html" title="Move Instructions">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<div class="book" lang="en">
+<div class="titlepage">
+<div>
+<div><table class="navigation" id="top" width="100%" cellpadding="2" cellspacing="0"><tr><th valign="middle"><p class="title">libxfce4menu Reference Manual</p></th></tr></table></div>
+<div><div class="authorgroup"><div class="author">
+<h3 class="author">
+<span class="firstname">Jannis</span> <span class="surname">Pohlmann</span>
+</h3>
+<div class="affiliation"><div class="address"><p><code class="email">&lt;<a class="email" href="mailto:jannis@xfce.org">jannis@xfce.org</a>&gt;</code></p></div></div>
+</div></div></div>
+<div><p class="copyright">Copyright © 2006, 2007 Jannis Pohlmann</p></div>
+<div><div class="legalnotice">
+<a name="legalnotice"></a><p>
+        Permission is granted to copy, distribute and/or modify this document
+        under the terms of the GNU Free Documentation License, Version 1.1 or
+        any later version published by the Free Software Foundation; with no
+        Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+        Texts. The complete license text is available from the <a class="ulink" href="http://www.gnu.org/" target="_top">Free Software Foundation</a>.
+      </p>
+</div></div>
+<div><p class="pubdate">March 2007</p></div>
+</div>
+<hr>
+</div>
+<div class="toc"><dl>
+<dt><span class="part"><a href="introduction.html">I. Introduction</a></span></dt>
+<dt><span class="part"><a href="fundamentals.html">II. Fundamentals</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="libxfce4menu-Initialization-and-Shutdown.html">Initialization and Shutdown</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="libxfce4menu-Desktop-Environment.html">Desktop Environment</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="libxfce4menu-Version-Information.html">Version Information</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="menus.html">III. Menus</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="XfceMenu.html">XfceMenu</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuDirectory.html">XfceMenuDirectory</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuItem.html">XfceMenuItem</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuSeparator.html">XfceMenuSeparator</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuElement.html">XfceMenuElement</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="part"><a href="utilities.html">IV. Utilities</a></span></dt>
+<dd><dl><dt>
+<span class="refentrytitle"><a href="libxfce4menu-Monitoring.html">Monitoring</a></span><span class="refpurpose"></span>
+</dt></dl></dd>
+<dt><span class="part"><a href="internals.html">V. Internals</a></span></dt>
+<dd><dl>
+<dt><span class="chapter"><a href="layout.html">Layout</a></span></dt>
+<dd><dl><dt>
+<span class="refentrytitle"><a href="XfceMenuLayout.html">XfceMenuLayout</a></span><span class="refpurpose"></span>
+</dt></dl></dd>
+<dt><span class="chapter"><a href="items.html">Menu Items</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuItemPool.html">XfceMenuItemPool</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuItemCache.html">XfceMenuItemCache</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="rules.html">Include and Exclude Rules</a></span></dt>
+<dd><dl>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuRules.html">XfceMenuRules</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuStandardRules.html">XfceMenuStandardRules</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuOrRules.html">XfceMenuOrRules</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuAndRules.html">XfceMenuAndRules</a></span><span class="refpurpose"></span>
+</dt>
+<dt>
+<span class="refentrytitle"><a href="XfceMenuNotRules.html">XfceMenuNotRules</a></span><span class="refpurpose"></span>
+</dt>
+</dl></dd>
+<dt><span class="chapter"><a href="move.html">Move Instructions</a></span></dt>
+<dd><dl><dt>
+<span class="refentrytitle"><a href="libxfce4menu-XfceMenuMove.html">XfceMenuMove</a></span><span class="refpurpose"></span>
+</dt></dl></dd>
+</dl></dd>
+<dt><span class="index"><a href="ix01.html">Index</a></span></dt>
+</dl></div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

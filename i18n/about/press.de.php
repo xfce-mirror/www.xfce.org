@@ -1,0 +1,103 @@
+<h1>Xfce in der Presse</h1>
+<p>Hier finden Sie diverse Rezensionen zur Xfce-Desktop-Umgebung.</p>
+<h2>2006</h2>
+<table width="99%">
+  <tr>
+    <th width="20%" align="left"><h3>Datum</h3></th>
+    <th width="20%" align="left"><h3>Website</h3></th>
+    <th width="60%" align="left"><h3>Link</h3></th>
+  </tr>
+  <tr>
+    <td align="left">09.06.2006</td>
+    <td align="left">LWN</td>
+    <td align="left"><a href="http://lwn.net/Articles/182966/" target="_blank">What next for the Xfce Project?</a></td>
+  </tr>
+  <tr>
+    <td align="left">10.01.2006</td>
+    <td align="left">Tuxmachines</td>
+    <td align="left"><a href="http://www.tuxmachines.org/node/6448" target="_blank">Xtra Fine Computing Environment: xfce4.4 beta 1.</a></td>
+  </tr>
+  <tr>
+    <td align="left">10.01.2006</td>
+    <td align="left">Blog, All about Linux </td>
+    <td align="left"><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html" target="_blank">Xfce 4.2 - A light weight window manager heavy in features.</a></td>
+  </tr>
+</table>
+<h2>2005</h2>
+<table width="99%">
+  <tr>
+    <th width="20%" align="left"><h3>Datum</h3></th>
+    <th width="20%" align="left"><h3>Website</h3></th>
+    <th width="60%" align="left"><h3>Link</h3></th>
+  </tr>
+  <tr>
+    <td align="left">01.10.2005</td>
+    <td>Linux Magazine </td>
+    <td align="left"><a href="http://www.linux-magazine.com/issue/57/Xfce_42_Review.pdf" target="_blank">Installing and exploring Xfce 4.2</a></td>
+  </tr>
+  <tr>
+    <td align="left">11.01.2005</td>
+    <td>Mad Penguin</td>
+    <td align="left"><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216" target="_blank">Xfce Installer Something To Be Proud Of</a></td>
+  </tr>
+</table>
+<h2>2004</h2>
+<table width="99%">
+  <tr>
+    <th width="20%" align="left"><h3>Datum</h3></th>
+    <th width="20%" align="left"><h3>Website</h3></th>
+    <th width="60%" align="left"><h3>Link</h3></th>
+  </tr>
+  <tr>
+    <td>24.11.2004</td>
+    <td>OSNews</td>
+    <td><a href="http://osnews.com/story.php?news_id=8975" target="_blank">Xfce 4.2 - the Future is Now!</a></td>
+  </tr>
+  <tr>
+    <td>27.09.2004</td>
+    <td>Mad Penguin</td>
+    <td><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216" target="_blank">Linux-based HP Thin Client With Xfce 4</a></td>
+  </tr>
+  <tr>
+    <td>10.08.2004</td>
+    <td>Blog, Juha-Mikko</td>
+    <td><a href="http://jmz.iki.fi/blog.php/computers/xfce_42_beta_review" target="_blank">Xfce 4.2 Beta Review</a></td>
+  </tr>
+  <tr>
+    <td>10.05.2004</td>
+    <td>OSNews</td>
+    <td><a href="http://osnews.com/story.php?news_id=7002" target="_blank">Giving Xfce4 a Spin</a></td>
+  </tr>
+</table>
+<h2>2003</h2>
+<table width="99%">
+  <tr>
+    <th width="20%" align="left"><h3>Datum</h3></th>
+    <th width="20%" align="left"><h3>Website</h3></th>
+    <th width="60%" align="left"><h3>Link</h3></th>
+  </tr>
+  <tr>
+    <td>22.12.2003</td>
+    <td>OSNews</td>
+    <td><a href="http://osnews.com/story.php?news_id=5478" target="_blank">Xfce-4 - A Refreshingly Solid Desktop</a></td>
+  </tr>
+  <tr>
+    <td>01.11.2003</td>
+    <td>Unix Review </td>
+    <td><a href="http://www.unixreview.com/documents/s=1832/ur0311d/" target="_blank">Powertweak Linux and XFce Desktop Environment</a></td>
+  </tr>
+</table>
+<h2>2002</h2>
+<table width="99%">
+  <tr>
+    <th width="20%" align="left"><h3>Datum</h3></th>
+    <th width="20%" align="left"><h3>Website</h3></th>
+    <th width="60%" align="left"><h3>Link</h3></th>
+  </tr>
+  <tr>
+    <td>07.02.2002</td>
+    <td>NewsForge</td>
+    <td><a href="http://www.newsforge.com/article.pl?sid=02/02/06/2138220" target="_blank">Xfce: Not just another desktop environment for *nix</a></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
