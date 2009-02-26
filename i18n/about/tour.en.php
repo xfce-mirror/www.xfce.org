@@ -207,7 +207,7 @@ you to set per screen settings: wallpaper, brightness, desktop menu, displayed i
 <b>Xfce 4.6</b> also comes with a brand new application finder which features a cleaner user
 interface. It is also easier to use it with the keyboard and it monitors installed applications
 to update the list on the fly. It also allows to create panel launchers quickly by dragging
-an application icon to the panel.
+an application icon to the launcher creation window.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-appfinder.png" alt="New application finder" /></p>

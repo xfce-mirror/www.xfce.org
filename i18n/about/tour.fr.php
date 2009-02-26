@@ -228,7 +228,7 @@ permet de régler les préférences par écran : fond d'écran, luminosité, men
 agréable d'utilisation. L'utilisation au clavier est simplifiée et la liste des applications
 installées est mise à jour automatiquement lors des installations ou désinstallations
 d'applciations. Il permet aussi de créer des lanceurs pour le tableau de bord facilement, en
-faisant glisser l'icône d'une application sur le tableau de bord.
+faisant glisser l'icône d'une application sur la fenêtre de création des lanceurs.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-appfinder.png" alt="Nouvel  'application finder'" /></p>
