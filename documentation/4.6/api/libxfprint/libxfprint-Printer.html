@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Printer</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="libxfprint Reference Manual">
+<link rel="up" href="ch01.html" title="API Reference">
+<link rel="prev" href="ch01.html" title="API Reference">
+<link rel="next" href="libxfprint-Job.html" title="Job">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="API Reference">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ch01.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">libxfprint Reference Manual</th>
+<td><a accesskey="n" href="libxfprint-Job.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libxfprint-Printer.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libxfprint-Printer.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfprint-Printer"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libxfprint-Printer.top_of_page"></a>Printer</span></h2>
+<p>Printer</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libxfprint-Printer.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfprint/libxfprint.h&gt;
+
+                    <a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a>;
+void                <a class="link" href="libxfprint-Printer.html#printer-free" title="printer_free ()">printer_free</a>                        (<a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a> *printer);
+void                <a class="link" href="libxfprint-Printer.html#printers-free" title="printers_free ()">printers_free</a>                       (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *printers);
+<a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a>*            <a class="link" href="libxfprint-Printer.html#printer-lookup-byname" title="printer_lookup_byname ()">printer_lookup_byname</a>               (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *list,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);
+<a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a>*            <a class="link" href="libxfprint-Printer.html#printer-lookup-byalias" title="printer_lookup_byalias ()">printer_lookup_byalias</a>              (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *list,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *alias);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfprint-Printer.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfprint-Printer.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="Printer"></a><h3>Printer</h3>
+<pre class="programlisting">typedef struct {
+  gint type;
+  gchar *name;
+  gchar *alias;
+} Printer;
+</pre>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="printer-free"></a><h3>printer_free ()</h3>
+<pre class="programlisting">void                printer_free                        (<a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a> *printer);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>printer</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="printers-free"></a><h3>printers_free ()</h3>
+<pre class="programlisting">void                printers_free                       (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *printers);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>printers</code></em> :</span></p></td>
+<td>
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="printer-lookup-byname"></a><h3>printer_lookup_byname ()</h3>
+<pre class="programlisting"><a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a>*            printer_lookup_byname               (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *list,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *name);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>name</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="printer-lookup-byalias"></a><h3>printer_lookup_byalias ()</h3>
+<pre class="programlisting"><a class="link" href="libxfprint-Printer.html#Printer" title="Printer">Printer</a>*            printer_lookup_byalias              (<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a> *list,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *alias);</pre>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>list</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>alias</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

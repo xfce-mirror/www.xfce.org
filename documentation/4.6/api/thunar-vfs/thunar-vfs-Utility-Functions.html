@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Utility Functions</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Thunar-VFS Reference Manual">
+<link rel="up" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="prev" href="thunar-vfs-ThunarVfsInfo.html" title="ThunarVfsInfo">
+<link rel="next" href="jobs.html" title="Part III. Jobs">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="introduction.html" title="Part I. Introduction">
+<link rel="part" href="fundamentals.html" title="Part II. Fundamentals">
+<link rel="part" href="jobs.html" title="Part III. Jobs">
+<link rel="part" href="filesystem-monitoring.html" title="Part IV. Filesystem Monitoring">
+<link rel="part" href="mime-types.html" title="Part V. MIME Types">
+<link rel="part" href="users-and-groups-handling.html" title="Part VI. Users and Groups Handling">
+<link rel="part" href="volume-handling.html" title="Part VII. Volume Handling">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="thunar-vfs-ThunarVfsInfo.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Thunar-VFS Reference Manual</th>
+<td><a accesskey="n" href="jobs.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#thunar-vfs-Utility-Functions.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#thunar-vfs-Utility-Functions.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="thunar-vfs-Utility-Functions"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="thunar-vfs-Utility-Functions.top_of_page"></a>Utility Functions</span></h2>
+<p>Utility Functions</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="thunar-vfs-Utility-Functions.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;thunar-vfs/thunar-vfs.h&gt;
+
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="thunar-vfs-Utility-Functions.html#thunar-vfs-canonicalize-filename" title="thunar_vfs_canonicalize_filename ()">thunar_vfs_canonicalize_filename</a>    (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="thunar-vfs-Utility-Functions.html#thunar-vfs-expand-filename" title="thunar_vfs_expand_filename ()">thunar_vfs_expand_filename</a>          (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="thunar-vfs-Utility-Functions.html#thunar-vfs-humanize-size" title="thunar_vfs_humanize_size ()">thunar_vfs_humanize_size</a>            (<a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsFileSize" title="ThunarVfsFileSize">ThunarVfsFileSize</a> size,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> buflen);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="thunar-vfs-Utility-Functions.description"></a><h2>Description</h2>
+<p>
+
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="thunar-vfs-Utility-Functions.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="thunar-vfs-canonicalize-filename"></a><h3>thunar_vfs_canonicalize_filename ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_canonicalize_filename    (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename);</pre>
+<p>
+Canonicalizes <em class="parameter"><code>filename</code></em> and returns a new path. The new path
+differs from <em class="parameter"><code>filename</code></em> in:
+</p>
+<p>
+</p>
+<table class="simplelist" border="0" summary="Simple list">
+<tr><td>Multiple `/'s are collapsed to a single `/'.</td></tr>
+<tr><td>Leading `./'s and trailing `/.'s are removed.</td></tr>
+<tr><td>Non-leading `../'s and trailing `..'s are handled by removing portions of the path.</td></tr>
+</table>
+<p>
+</p>
+<p>
+The caller is responsible to free the returned string using
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em> :</span></p></td>
+<td> a local filename.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the canonicalized path for <em class="parameter"><code>filename</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="thunar-vfs-expand-filename"></a><h3>thunar_vfs_expand_filename ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_expand_filename          (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *filename,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Error-Reporting.html#GError"
+>GError</a> **error);</pre>
+<p>
+Takes a user-typed <em class="parameter"><code>filename</code></em> and expands a tilde at the
+beginning of the <em class="parameter"><code>filename</code></em>.
+</p>
+<p>
+The caller is responsible to free the returned string using
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>filename</code></em> :</span></p></td>
+<td> a local filename.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>error</code></em> :</span></p></td>
+<td> return location for errors or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the expanded <em class="parameter"><code>filename</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> on error.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="thunar-vfs-humanize-size"></a><h3>thunar_vfs_humanize_size ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              thunar_vfs_humanize_size            (<a class="link" href="thunar-vfs-Basic-Types.html#ThunarVfsFileSize" title="ThunarVfsFileSize">ThunarVfsFileSize</a> size,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *buffer,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gsize"
+>gsize</a> buflen);</pre>
+<p>
+The caller is responsible to free the returned string using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a>
+if you pass <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>buffer</code></em>. Else the returned string will be a
+pointer to <em class="parameter"><code>buffer</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>size</code></em> :</span></p></td>
+<td> size in bytes.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>buffer</code></em> :</span></p></td>
+<td> destination buffer or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> to dynamically allocate a buffer.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>buflen</code></em> :</span></p></td>
+<td> length of <em class="parameter"><code>buffer</code></em> in bytes.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a string containing a human readable description of <em class="parameter"><code>size</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

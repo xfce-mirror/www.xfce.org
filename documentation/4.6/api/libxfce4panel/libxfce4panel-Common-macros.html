@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Common macros</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Libxfce4panel Reference Manual">
+<link rel="up" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="prev" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="next" href="libxfce4panel-Standard-Enumerations.html" title="Standard Enumerations">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="libxfce4panel-fundamentals.html" title="Fundamentals">
+<link rel="chapter" href="libxfce4panel-panel.html" title="Panel Plugins">
+<link rel="chapter" href="libxfce4panel-widgets.html" title="Widgets">
+<link rel="index" href="ix01.html" title="Index">
+<link rel="index" href="ix02.html" title="Index of new symbols in 4.5">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="libxfce4panel-fundamentals.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="libxfce4panel-fundamentals.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Libxfce4panel Reference Manual</th>
+<td><a accesskey="n" href="libxfce4panel-Standard-Enumerations.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#libxfce4panel-Common-macros.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#libxfce4panel-Common-macros.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="libxfce4panel-Common-macros"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="libxfce4panel-Common-macros.top_of_page"></a>Common macros</span></h2>
+<p>Common macros — Macros to work glib version independent.</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="libxfce4panel-Common-macros.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;libxfce4panel/libxfce4panel.h&gt;
+
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-alloc" title="panel_slice_alloc()">panel_slice_alloc</a>                   (block_size)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-alloc0" title="panel_slice_alloc0()">panel_slice_alloc0</a>                  (block_size)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-free" title="panel_slice_free()">panel_slice_free</a>                    (type, ptr)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-free1" title="panel_slice_free1()">panel_slice_free1</a>                   (block_size, mem_block)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-new" title="panel_slice_new()">panel_slice_new</a>                     (type)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#panel-slice-new0" title="panel_slice_new0()">panel_slice_new0</a>                    (type)
+#define             <a class="link" href="libxfce4panel-Common-macros.html#PANEL-PARAM-READABLE:CAPS" title="PANEL_PARAM_READABLE">PANEL_PARAM_READABLE</a>
+#define             <a class="link" href="libxfce4panel-Common-macros.html#PANEL-PARAM-READWRITE:CAPS" title="PANEL_PARAM_READWRITE">PANEL_PARAM_READWRITE</a>
+#define             <a class="link" href="libxfce4panel-Common-macros.html#PANEL-PARAM-WRITABLE:CAPS" title="PANEL_PARAM_WRITABLE">PANEL_PARAM_WRITABLE</a>
+#define             <a class="link" href="libxfce4panel-Common-macros.html#I-:CAPS" title="I_()">I_</a>                                  (string)
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4panel-Common-macros.description"></a><h2>Description</h2>
+<p>
+Macros for plugin writers to use new features in Glib 2.8 and 2.10 without
+breaking old versions of Glib. It is recommended to use those macros
+when possible.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="libxfce4panel-Common-macros.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="panel-slice-alloc"></a><h3>panel_slice_alloc()</h3>
+<pre class="programlisting">#define             panel_slice_alloc(block_size)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-alloc"
+><span class="type">g_slice_alloc</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-malloc"
+><span class="type">g_malloc</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>block_size</code></em> :</span></p></td>
+<td>the number of bytes to allocate
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="panel-slice-alloc0"></a><h3>panel_slice_alloc0()</h3>
+<pre class="programlisting">#define             panel_slice_alloc0(block_size)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-alloc0"
+><span class="type">g_slice_alloc0</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-malloc0"
+><span class="type">g_malloc0</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>block_size</code></em> :</span></p></td>
+<td>the number of bytes to allocate
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="panel-slice-free"></a><h3>panel_slice_free()</h3>
+<pre class="programlisting">#define             panel_slice_free(type, ptr)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-free"
+><span class="type">g_slice_free</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><span class="type">g_free</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>the type to allocate, typically a structure name
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ptr</code></em> :</span></p></td>
+<td>a pointer to the block to free
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="panel-slice-free1"></a><h3>panel_slice_free1()</h3>
+<pre class="programlisting">#define             panel_slice_free1(block_size, mem_block)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-free1"
+><span class="type">g_slice_free1</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><span class="type">g_free</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>block_size</code></em> :</span></p></td>
+<td>the number of bytes to allocate
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>mem_block</code></em> :</span></p></td>
+<td>a pointer to the block to free
+
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="panel-slice-new"></a><h3>panel_slice_new()</h3>
+<pre class="programlisting">#define             panel_slice_new(type)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-new"
+><span class="type">g_slice_new</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-new"
+><span class="type">g_new</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>	the type to allocate, typically a structure name
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="panel-slice-new0"></a><h3>panel_slice_new0()</h3>
+<pre class="programlisting">#define             panel_slice_new0(type)</pre>
+<p>
+Use <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Slices.html#g-slice-new0"
+><span class="type">g_slice_new0</span></a> when available, fallback to <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-new0"
+><span class="type">g_new0</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>type</code></em> :</span></p></td>
+<td>	the type to allocate, typically a structure name
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="PANEL-PARAM-READABLE:CAPS"></a><h3>PANEL_PARAM_READABLE</h3>
+<pre class="programlisting">#define             PANEL_PARAM_READABLE</pre>
+<p>
+Alias for <span class="type">G_PARAM_READABLE</span> | <span class="type">G_PARAM_STATIC_NAME</span> | <span class="type">G_PARAM_STATIC_NICK</span> | <span class="type">G_PARAM_STATIC_BLURB</span>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="PANEL-PARAM-READWRITE:CAPS"></a><h3>PANEL_PARAM_READWRITE</h3>
+<pre class="programlisting">#define             PANEL_PARAM_READWRITE</pre>
+<p>
+Alias for <span class="type">G_PARAM_WRITABLE</span> | <span class="type">G_PARAM_STATIC_NAME</span> | <span class="type">G_PARAM_STATIC_NICK</span> | <span class="type">G_PARAM_STATIC_BLURB</span>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="PANEL-PARAM-WRITABLE:CAPS"></a><h3>PANEL_PARAM_WRITABLE</h3>
+<pre class="programlisting">#define             PANEL_PARAM_WRITABLE</pre>
+<p>
+Alias for <a
+href="/usr/share/gtk-doc/html/gobject/gobject-GParamSpec.html#G-PARAM-READWRITE:CAPS"
+><span class="type">G_PARAM_READWRITE</span></a> | <span class="type">G_PARAM_STATIC_NAME</span> | <span class="type">G_PARAM_STATIC_NICK</span> | <span class="type">G_PARAM_STATIC_BLURB</span>
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="I-:CAPS"></a><h3>I_()</h3>
+<pre class="programlisting">#define             I_(string)</pre>
+<p>
+Canonical representation for <em class="parameter"><code>string</code></em>. This can be use in functions like <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#g-object-get-data"
+><span class="type">g_object_get_data</span></a>.
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>string</code></em> :</span></p></td>
+<td>a string
+
+
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>
