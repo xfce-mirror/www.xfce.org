@@ -28,6 +28,7 @@ $credits['core-developers'] = array (
     array ('Brian J. Tarricone', 'kelnos', 'xfce.org', 'Desktop Manager, Xfconf, Session Manager'),
     array ('Olivier Fourdan', 'fourdan', 'xfce.org', 'Window Manager, Settings Manager'),
     array ('Jannis Pohlmann', 'jannis', 'xfce.org', 'Mixer, Menu Library, Application Finder, Settings Manager, Thunar'),
+    array ('Juha Kautto', 'juha', 'xfce.org', 'Calendar'),
     array ('Nick Schermer', 'nick', 'xfce.org', 'Panel, Settings Manager, Thunar'),
     array ('Stephan Arts', 'stephan', 'xfce.org', 'Settings Manager, Xfconf')
     );

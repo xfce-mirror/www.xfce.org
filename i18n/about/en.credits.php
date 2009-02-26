@@ -4,6 +4,7 @@ $credits['core-developers-i18n'] = array (
     'kelnos' => 'Desktop Manager, Xfconf, Session Manager',
     'fourdan' => 'Window Manager, Settings Manager',
     'jannis' => 'Mixer, Menu Library, Application Finder, Settings Manager, Thunar',
+    'juha' => 'Calendar',
     'nick' => 'Panel, Settings Manager, Thunar',
     'stephan' => 'Settings manager, Xfconf'
     );
