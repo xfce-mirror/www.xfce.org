@@ -1,4 +1,4 @@
-<h1>Un aperçu de Xfce 4.6.0</h1>
+<h1>Tour de Xfce 4.6.0</h1>
 
 <p>
 La version 4.6.0 de l'environnement de bureau Xfce est enfin là ! Nous allons essayer
