@@ -1,0 +1,2482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>XfconfChannel</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Xfconf Reference Manual">
+<link rel="up" href="ch03.html" title="Xfconf Client Library">
+<link rel="prev" href="xfconf-xfconf.html" title="Xfconf Library Core">
+<link rel="next" href="xfconf-xfconf-binding.html" title="Xfconf-GObject Binding">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="Xfconf Core Functionality">
+<link rel="chapter" href="ch02.html" title="Xfconf Daemon">
+<link rel="chapter" href="ch03.html" title="Xfconf Client Library">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="xfconf-xfconf.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch03.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Xfconf Reference Manual</th>
+<td><a accesskey="n" href="xfconf-xfconf-binding.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#xfconf-xfconf-channel.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#xfconf-xfconf-channel.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#xfconf-xfconf-channel.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#xfconf-xfconf-channel.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#xfconf-xfconf-channel.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="xfconf-xfconf-channel"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="xfconf-xfconf-channel.top_of_page"></a>XfconfChannel</span></h2>
+<p>XfconfChannel — An application-defined domain for storing configuration settings</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="xfconf-xfconf-channel.synopsis"></a><h2>Synopsis</h2>
+<a name="XfconfChannel"></a><pre class="synopsis">
+                    <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel-struct" title="XfconfChannel">XfconfChannel</a>;
+<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get" title="xfconf_channel_get ()">xfconf_channel_get</a>                  (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-new" title="xfconf_channel_new ()">xfconf_channel_new</a>                  (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);
+<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-new-with-property-base" title="xfconf_channel_new_with_property_base ()">xfconf_channel_new_with_property_base</a>
+                                                        (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-has-property" title="xfconf_channel_has_property ()">xfconf_channel_has_property</a>         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-is-property-locked" title="xfconf_channel_is_property_locked ()">xfconf_channel_is_property_locked</a>   (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);
+void                <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-reset-property" title="xfconf_channel_reset_property ()">xfconf_channel_reset_property</a>       (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> recursive);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+>GHashTable</a>*         <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-properties" title="xfconf_channel_get_properties ()">xfconf_channel_get_properties</a>       (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-string" title="xfconf_channel_get_string ()">xfconf_channel_get_string</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>**             <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-string-list" title="xfconf_channel_get_string_list ()">xfconf_channel_get_string_list</a>      (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a>              <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-int" title="xfconf_channel_get_int ()">xfconf_channel_get_int</a>              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a> default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a>             <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-uint" title="xfconf_channel_get_uint ()">xfconf_channel_get_uint</a>             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a> default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a>             <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-uint64" title="xfconf_channel_get_uint64 ()">xfconf_channel_get_uint64</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a> default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a>             <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-double" title="xfconf_channel_get_double ()">xfconf_channel_get_double</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a> default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-bool" title="xfconf_channel_get_bool ()">xfconf_channel_get_bool</a>             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> default_value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-string" title="xfconf_channel_set_string ()">xfconf_channel_set_string</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-string-list" title="xfconf_channel_set_string_list ()">xfconf_channel_set_string_list</a>      (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> * const *values);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-int" title="xfconf_channel_set_int ()">xfconf_channel_set_int</a>              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a> value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-uint" title="xfconf_channel_set_uint ()">xfconf_channel_set_uint</a>             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a> value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-uint64" title="xfconf_channel_set_uint64 ()">xfconf_channel_set_uint64</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a> value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-double" title="xfconf_channel_set_double ()">xfconf_channel_set_double</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a> value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-bool" title="xfconf_channel_set_bool ()">xfconf_channel_set_bool</a>             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-property" title="xfconf_channel_get_property ()">xfconf_channel_get_property</a>         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-property" title="xfconf_channel_set_property ()">xfconf_channel_set_property</a>         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-array" title="xfconf_channel_get_array ()">xfconf_channel_get_array</a>            (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-array-valist" title="xfconf_channel_get_array_valist ()">xfconf_channel_get_array_valist</a>     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         va_list var_args);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+>GPtrArray</a>*          <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-arrayv" title="xfconf_channel_get_arrayv ()">xfconf_channel_get_arrayv</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-array" title="xfconf_channel_set_array ()">xfconf_channel_set_array</a>            (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-array-valist" title="xfconf_channel_set_array_valist ()">xfconf_channel_set_array_valist</a>     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         va_list var_args);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-arrayv" title="xfconf_channel_set_arrayv ()">xfconf_channel_set_arrayv</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+>GPtrArray</a> *values);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-named-struct" title="xfconf_channel_get_named_struct ()">xfconf_channel_get_named_struct</a>     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *struct_name,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-named-struct" title="xfconf_channel_set_named_struct ()">xfconf_channel_set_named_struct</a>     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *struct_name,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-struct" title="xfconf_channel_get_struct ()">xfconf_channel_get_struct</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-struct-valist" title="xfconf_channel_get_struct_valist ()">xfconf_channel_get_struct_valist</a>    (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         va_list var_args);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-structv" title="xfconf_channel_get_structv ()">xfconf_channel_get_structv</a>          (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> n_members,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> *member_types);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-struct" title="xfconf_channel_set_struct ()">xfconf_channel_set_struct</a>           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-struct-valist" title="xfconf_channel_set_struct_valist ()">xfconf_channel_set_struct_valist</a>    (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         va_list var_args);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-structv" title="xfconf_channel_set_structv ()">xfconf_channel_set_structv</a>          (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> n_members,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> *member_types);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----XfconfChannel
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel--channel-name" title='The "channel-name" property'>channel-name</a>"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write / Construct Only
+  "<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel--property-base" title='The "property-base" property'>property-base</a>"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write / Construct Only
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel-property-changed" title='The "property-changed" signal'>property-changed</a>"                               : Run Last / Has Details
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.description"></a><h2>Description</h2>
+<p>
+An XfconfChannel is a representation of a restricted domain or
+namespace that an application can define to store configuration
+settings.  This is to ensure that different applications do not store
+configuration keys with the same names.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfconfChannel-struct"></a><h3>XfconfChannel</h3>
+<pre class="programlisting">typedef struct _XfconfChannel XfconfChannel;</pre>
+<p>
+An opaque structure that holds state about a channel.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get"></a><h3>xfconf_channel_get ()</h3>
+<pre class="programlisting"><a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      xfconf_channel_get                  (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+Either creates a new channel, or fetches a singleton object for
+<em class="parameter"><code>channel_name</code></em>.  This function always returns a valid object; no
+checking is done to see if the channel exists or has a valid name.
+</p>
+<p>
+The reference count of the returned channel is owned by libxfconf.
+</p>
+<p>
+In the future, <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a> may do client-side read caching;
+users of this function will of course benefit from caching done
+on behalf of any caller of the function, unlike callers of
+<a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-new" title="xfconf_channel_new ()"><code class="function">xfconf_channel_new()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel_name</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a> singleton.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.5.91
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-new"></a><h3>xfconf_channel_new ()</h3>
+<pre class="programlisting"><a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      xfconf_channel_new                  (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name);</pre>
+<p>
+Creates a new channel using <em class="parameter"><code>name</code></em> as the channel's identifier.
+This function always returns a valid object; no checking is done
+to see if the channel exists or has a valid name.
+</p>
+<p>
+Note: use of this function is not recommended, in favor of
+<a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get" title="xfconf_channel_get ()"><code class="function">xfconf_channel_get()</code></a>, which returns a singleton object and
+saves a little memory.  However, <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-new" title="xfconf_channel_new ()"><code class="function">xfconf_channel_new()</code></a> can be
+useful in some cases where you want to tie an <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>'s
+lifetime (and thus the lifetime of connected signals and bound
+<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> properties) to the lifetime of another object.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel_name</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A new <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.  Release with <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#g-object-unref"
+><code class="function">g_object_unref()</code></a>
+         when no longer needed.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-new-with-property-base"></a><h3>xfconf_channel_new_with_property_base ()</h3>
+<pre class="programlisting"><a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a>*      xfconf_channel_new_with_property_base
+                                                        (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *channel_name,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base);</pre>
+<p>
+Creates a new channel using <em class="parameter"><code>name</code></em> as the channel's identifier,
+restricting the accessible properties to be rooted at
+<em class="parameter"><code>property_base</code></em>.  This function always returns a valid object;
+no checking is done to see if the channel exists or has a valid
+name.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel_name</code></em> :</span></p></td>
+<td> A channel name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_base</code></em> :</span></p></td>
+<td> A property root name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A new <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.  Release with <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#g-object-unref"
+><code class="function">g_object_unref()</code></a>
+         when no longer needed.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.5.92
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-has-property"></a><h3>xfconf_channel_has_property ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_has_property         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);</pre>
+<p>
+Checks to see if <em class="parameter"><code>property</code></em> exists on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>property</code></em> exists, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-is-property-locked"></a><h3>xfconf_channel_is_property_locked ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_is_property_locked   (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);</pre>
+<p>
+Queries whether or not <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> is locked by system
+policy.  If the property is locked, calls to
+<a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-property" title="xfconf_channel_set_property ()"><code class="function">xfconf_channel_set_property()</code></a> (or any of the "set" family of functions)
+or <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-reset-property" title="xfconf_channel_reset_property ()"><code class="function">xfconf_channel_reset_property()</code></a> will fail.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property is locked, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.5.91
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-reset-property"></a><h3>xfconf_channel_reset_property ()</h3>
+<pre class="programlisting">void                xfconf_channel_reset_property       (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> recursive);</pre>
+<p>
+Resets properties starting at (and including) <em class="parameter"><code>property_base</code></em>.
+If <em class="parameter"><code>recursive</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, will also reset all properties that are
+under <em class="parameter"><code>property_base</code></em> in the property hierarchy.
+</p>
+<p>
+A bit of an explanation as to what this function actually does:
+Since Xfconf backends are expected to support setting defaults
+via what you might call "optional schema," you can't really
+"remove" properties.  Since the client library can't know if a
+channel provides default values (or even if the backend supports
+it!), at best it can only reset properties to their default values.
+</p>
+<p>
+The <em class="parameter"><code>property_base</code></em> parameter can be <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> or the empty string (""),
+in which case the channel root ("/") will be assumed.  Of course,
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> must be passed for <em class="parameter"><code>recursive</code></em> in this case.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_base</code></em> :</span></p></td>
+<td> A property tree root or property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>recursive</code></em> :</span></p></td>
+<td> Whether to reset properties recursively.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  4.5.91
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-properties"></a><h3>xfconf_channel_get_properties ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+>GHashTable</a>*         xfconf_channel_get_properties       (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property_base);</pre>
+<p>
+Retrieves multiple properties from <em class="parameter"><code>channel</code></em> and stores
+them in a <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+><span class="type">GHashTable</span></a> in which the keys correspond to
+the string (gchar *) property names, and the values
+correspond to variant (GValue *) values.  The keys and
+values are owned by the hash table and should be copied
+if needed.  The value of the property specified by
+<em class="parameter"><code>property_base</code></em> (if it exists) and all sub-properties are
+retrieved.  To retrieve all properties in the channel,
+specify "/" or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>property_base</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property_base</code></em> :</span></p></td>
+<td> The base property name of properties to retrieve.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly-allocated <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#GHashTable"
+><span class="type">GHashTable</span></a>, which should be freed with
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Hash-Tables.html#g-hash-table-destroy"
+><code class="function">g_hash_table_destroy()</code></a> when no longer needed.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-string"></a><h3>xfconf_channel_get_string ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              xfconf_channel_get_string           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *default_value);</pre>
+<p>
+Retrieves the string value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly-allocated string which should be freed with <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a>
+         when no longer needed.  If <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         a <a
+href="/usr/share/gtk-doc/html/glib/glib-String-Utility-Functions.html#g-strdup"
+><code class="function">g_strdup()</code></a>ed copy of <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-string-list"></a><h3>xfconf_channel_get_string_list ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>**             xfconf_channel_get_string_list      (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);</pre>
+<p>
+Retrieves the string list value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly-allocated string list which should be freed with
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-String-Utility-Functions.html#g-strfreev"
+><code class="function">g_strfreev()</code></a> when no longer needed.  If <em class="parameter"><code>property</code></em> is not in
+         <em class="parameter"><code>channel</code></em>, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-int"></a><h3>xfconf_channel_get_int ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a>              xfconf_channel_get_int              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a> default_value);</pre>
+<p>
+Retrieves the int value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The int value, or, if <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-uint"></a><h3>xfconf_channel_get_uint ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a>             xfconf_channel_get_uint             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a> default_value);</pre>
+<p>
+Retrieves the unsigned int value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The uint value, or, if <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-uint64"></a><h3>xfconf_channel_get_uint64 ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a>             xfconf_channel_get_uint64           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a> default_value);</pre>
+<p>
+Retrieves the 64-bit int value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The uint64 value, or, if <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-double"></a><h3>xfconf_channel_get_double ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a>             xfconf_channel_get_double           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a> default_value);</pre>
+<p>
+Retrieves the double value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The double value, or, if <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-bool"></a><h3>xfconf_channel_get_bool ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_bool             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> default_value);</pre>
+<p>
+Retrieves the boolean value associated with <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>default_value</code></em> :</span></p></td>
+<td> A fallback value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The boolean value, or, if <em class="parameter"><code>property</code></em> is not in <em class="parameter"><code>channel</code></em>,
+         <em class="parameter"><code>default_value</code></em> is returned.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-string"></a><h3>xfconf_channel_set_string ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_string           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-string-list"></a><h3>xfconf_channel_set_string_list ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_string_list      (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> * const *values);</pre>
+<p>
+Sets <em class="parameter"><code>values</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>values</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-int"></a><h3>xfconf_channel_set_int ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_int              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint32"
+>gint32</a> value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-uint"></a><h3>xfconf_channel_set_uint ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_uint             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint32"
+>guint32</a> value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-uint64"></a><h3>xfconf_channel_set_uint64 ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_uint64           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint64"
+>guint64</a> value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-double"></a><h3>xfconf_channel_set_double ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_double           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gdouble"
+>gdouble</a> value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-bool"></a><h3>xfconf_channel_set_bool ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_bool             (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> value);</pre>
+<p>
+Sets <em class="parameter"><code>value</code></em> for <em class="parameter"><code>property</code></em> on <em class="parameter"><code>channel</code></em> in the configuration store.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The value to set.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if an error occured.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-property"></a><h3>xfconf_channel_get_property ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_property         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value);</pre>
+<p>
+Gets a property on <em class="parameter"><code>channel</code></em> and stores it in <em class="parameter"><code>value</code></em>.  The caller is
+responsible for calling <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#g-value-unset"
+><code class="function">g_value_unset()</code></a> when finished with <em class="parameter"><code>value</code></em>.
+</p>
+<p>
+This function can be called with an initialized or uninitialized
+<em class="parameter"><code>value</code></em>.  If <em class="parameter"><code>value</code></em> is initialized to a particular type, libxfconf
+will attempt to convert the value returned from the configuration
+store to that type if they don't match.  If the value type returned
+from the configuration store is an array type, each element of the
+array will be converted to the type of <em class="parameter"><code>value</code></em>.  If <em class="parameter"><code>value</code></em> is
+uninitialized, the value in the configuration store will be returned
+in its native type.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+><span class="type">GValue</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-property"></a><h3>xfconf_channel_set_property ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_property         (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a> *value);</pre>
+<p>
+Sets the value stored in <em class="parameter"><code>value</code></em>  to a property on <em class="parameter"><code>channel</code></em>.
+</p>
+<p>
+Note: The configuration store backend almost certainly supports
+only a restricted set of value types.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+><span class="type">GValue</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-array"></a><h3>xfconf_channel_get_array ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_array            (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         ...);</pre>
+<p>
+Gets an array property on <em class="parameter"><code>channel</code></em>.  The <em class="parameter"><code>first_value_type</code></em>
+argument specifies the type of the first value in the variable
+argument list.  The variable argument list should alternate between
+pointers to locations to store the values, and the GType of the
+next value.  The argument list should be terminated with
+G_TYPE_INVALID.
+</p>
+<p>
+Note: The configuration store backend almost certainly supports
+only a restricted set of value types.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_value_type</code></em> :</span></p></td>
+<td> The type of the first argument in the array.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> A variable argument list of types and values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-array-valist"></a><h3>xfconf_channel_get_array_valist ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_array_valist     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         va_list var_args);</pre>
+<p>
+Gets an array property on <em class="parameter"><code>channel</code></em>.  See <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-array" title="xfconf_channel_get_array ()"><code class="function">xfconf_channel_get_array()</code></a>
+for details.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_value_type</code></em> :</span></p></td>
+<td> The type of the first argument in the array.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>var_args</code></em> :</span></p></td>
+<td> A variable argument list of types and values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-arrayv"></a><h3>xfconf_channel_get_arrayv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+>GPtrArray</a>*          xfconf_channel_get_arrayv           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property);</pre>
+<p>
+Gets an array property on <em class="parameter"><code>channel</code></em> and returns it as
+a <a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+><span class="type">GPtrArray</span></a>, which can be freed with <a class="link" href="xfconf-xfconf.html#xfconf-array-free" title="xfconf_array_free ()"><code class="function">xfconf_array_free()</code></a>
+when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly-allocated <a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+><span class="type">GPtrArray</span></a> on success, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+         on failure.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-array"></a><h3>xfconf_channel_set_array ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_array            (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         ...);</pre>
+<p>
+Sets an array property on <em class="parameter"><code>channel</code></em>.  The <em class="parameter"><code>first_value_type</code></em>
+argument specifies the type of the first value in the variable
+argument list.  Note that all values specified MUST be pointers
+to variables holding the correct value, and may not be, e.g.,
+numeric constants.  The argument list should be terminated with
+G_TYPE_INVALID.
+</p>
+<p>
+Note: The configuration store backend almost certainly supports
+only a restricted set of value types.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_value_type</code></em> :</span></p></td>
+<td> The type of the first argument in the array.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> A variable argument list of types and values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-array-valist"></a><h3>xfconf_channel_set_array_valist ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_array_valist     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_value_type,
+                                                         va_list var_args);</pre>
+<p>
+Sets an array property on <em class="parameter"><code>channel</code></em>.  See <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-array" title="xfconf_channel_set_array ()"><code class="function">xfconf_channel_set_array()</code></a>
+for details.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_value_type</code></em> :</span></p></td>
+<td> The type of the first argument in the array.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>var_args</code></em> :</span></p></td>
+<td> A variable argument list of types and values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-arrayv"></a><h3>xfconf_channel_set_arrayv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_arrayv           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+>GPtrArray</a> *values);</pre>
+<p>
+Sets an array property on <em class="parameter"><code>channel</code></em>, using the values in the
+provided <em class="parameter"><code>values</code></em> array.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A property string.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>values</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/glib/glib-Pointer-Arrays.html#GPtrArray"
+><span class="type">GPtrArray</span></a> of <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+><span class="type">GValue</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-named-struct"></a><h3>xfconf_channel_get_named_struct ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_named_struct     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *struct_name,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct);</pre>
+<p>
+Gets a property from <em class="parameter"><code>channel</code></em> and fills in <em class="parameter"><code>value_struct</code></em> using
+the retrieved values.  The <em class="parameter"><code>struct_name</code></em> parameter is the same
+name that must have been used to register the struct's layout
+with <a class="link" href="xfconf-xfconf.html#xfconf-named-struct-register" title="xfconf_named_struct_register ()"><code class="function">xfconf_named_struct_register()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>struct_name</code></em> :</span></p></td>
+<td> A string struct name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-named-struct"></a><h3>xfconf_channel_set_named_struct ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_named_struct     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *struct_name,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct);</pre>
+<p>
+Sets a property on <em class="parameter"><code>channel</code></em> using the members of <em class="parameter"><code>value_struct</code></em>
+as the array of values.  The <em class="parameter"><code>struct_name</code></em> parameter is the same
+name that must have been used to register the struct's layout
+with <a class="link" href="xfconf-xfconf.html#xfconf-named-struct-register" title="xfconf_named_struct_register ()"><code class="function">xfconf_named_struct_register()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>struct_name</code></em> :</span></p></td>
+<td> A string struct name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-struct"></a><h3>xfconf_channel_get_struct ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_struct           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         ...);</pre>
+<p>
+Gets a property on <em class="parameter"><code>channel</code></em> and stores it as members of the
+<em class="parameter"><code>value_struct</code></em> struct.  The <em class="parameter"><code>first_member_type</code></em> argument
+specifies the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a> of the first member of the struct.  The
+variable argument list specifies the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s of the
+rest of the struct members, and should be terminated with
+G_TYPE_INVALID.
+</p>
+<p>
+Note: This function takes your compiler's and platform's
+struct member alignment rules into account when storing values
+in <em class="parameter"><code>value_struct</code></em>.  Therefore, it cannot be used with structs that
+are declared as "packed" in such a way that the alignment rules
+are ignored by the compiler.
+</p>
+<p>
+Note: Struct members can only be non-pointer types such as int,
+boolean, double, etc.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct in which to store values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_member_type</code></em> :</span></p></td>
+<td> The GType of the first member of <em class="parameter"><code>value_struct</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> A variable argument list of <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-struct-valist"></a><h3>xfconf_channel_get_struct_valist ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_struct_valist    (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         va_list var_args);</pre>
+<p>
+Gets a property on <em class="parameter"><code>channel</code></em> and stores it as members of the
+<em class="parameter"><code>value_struct</code></em> struct.  See <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-get-struct" title="xfconf_channel_get_struct ()"><code class="function">xfconf_channel_get_struct()</code></a> for details.
+</p>
+<p>
+Note: Struct members can only be non-pointer types such as int,
+boolean, double, etc.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct in which to store values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_member_type</code></em> :</span></p></td>
+<td> The GType of the first member of <em class="parameter"><code>value_struct</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>var_args</code></em> :</span></p></td>
+<td> A variable argument list of <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-get-structv"></a><h3>xfconf_channel_get_structv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_get_structv          (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> n_members,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> *member_types);</pre>
+<p>
+Gets a property on <em class="parameter"><code>channel</code></em> and stores it as members of the
+<em class="parameter"><code>value_struct</code></em> struct.  The <em class="parameter"><code>member_types</code></em> array should hold
+a <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a> for each member of the struct.
+</p>
+<p>
+Note: Struct members can only be non-pointer types such as int,
+boolean, double, etc.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct in which to store values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>n_members</code></em> :</span></p></td>
+<td> The number of data members in the struct.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>member_types</code></em> :</span></p></td>
+<td> An array of <em class="parameter"><code>n_members</code></em> <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was retrieved successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-struct"></a><h3>xfconf_channel_set_struct ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_struct           (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         ...);</pre>
+<p>
+Sets a property on <em class="parameter"><code>channel</code></em> using the members of <em class="parameter"><code>value_struct</code></em>
+as a value array.  The <em class="parameter"><code>first_member_type</code></em> argument specifies
+the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a> of the first member of the struct.  The variable
+argument list specifies the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s of the rest of the
+struct members, and should be terminated with G_TYPE_INVALID.
+</p>
+<p>
+Note: This function takes your compiler's and platform's
+struct member alignment rules into account when taking values
+in <em class="parameter"><code>value_struct</code></em>.  Therefore, it cannot be used with structs that
+are declared as "packed" such that the alignment rules are ignored
+by the compiler.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct from which to take values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_member_type</code></em> :</span></p></td>
+<td> The GType of the first member of <em class="parameter"><code>value_struct</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> A variable argument list of <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-struct-valist"></a><h3>xfconf_channel_set_struct_valist ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_struct_valist    (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> first_member_type,
+                                                         va_list var_args);</pre>
+<p>
+Sets a property on <em class="parameter"><code>channel</code></em> using the members of <em class="parameter"><code>value_struct</code></em>
+as a value array.  See <a class="link" href="xfconf-xfconf-channel.html#xfconf-channel-set-struct" title="xfconf_channel_set_struct ()"><code class="function">xfconf_channel_set_struct()</code></a> for details.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct from which to take values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_member_type</code></em> :</span></p></td>
+<td> The GType of the first member of <em class="parameter"><code>value_struct</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>var_args</code></em> :</span></p></td>
+<td> A variable argument list of <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-channel-set-structv"></a><h3>xfconf_channel_set_structv ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            xfconf_channel_set_structv          (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *property,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> value_struct,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> n_members,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> *member_types);</pre>
+<p>
+Sets a property on <em class="parameter"><code>channel</code></em> using the members of <em class="parameter"><code>value_struct</code></em>
+as a value array.  The <em class="parameter"><code>member_types</code></em> array should hold a <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>
+for each member of the struct.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> A string property name.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value_struct</code></em> :</span></p></td>
+<td> A pointer to a struct from which to take values.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>n_members</code></em> :</span></p></td>
+<td> The number of data members in the struct.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>member_types</code></em> :</span></p></td>
+<td> An array of <em class="parameter"><code>n_members</code></em> <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+><span class="type">GType</span></a>s.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the property was set successfully,
+         <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> oherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfconfChannel--channel-name"></a><h3>The <code class="literal">"channel-name"</code> property</h3>
+<pre class="programlisting">  "channel-name"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write / Construct Only</pre>
+<p>The name of the channel.</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="XfconfChannel--property-base"></a><h3>The <code class="literal">"property-base"</code> property</h3>
+<pre class="programlisting">  "property-base"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*                : Read / Write / Construct Only</pre>
+<p>Base property path.</p>
+<p>Default value: NULL</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-channel.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="XfconfChannel-property-changed"></a><h3>The <code class="literal">"property-changed"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>         *property,
+                                                        <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Generic-values.html#GValue"
+>GValue</a>        *value,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>       user_data)      : Run Last / Has Details</pre>
+<p>
+Emitted whenever a property on <em class="parameter"><code>channel</code></em> has changed.  If
+the change was caused by the removal of <em class="parameter"><code>property</code></em>, <em class="parameter"><code>value</code></em>
+will be unset; you should test this with
+</p>
+<div class="informalexample"><pre class="programlisting">
+G_VALUE_TYPE(value) == G_TYPE_INVALID
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> The <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a> emitting the signal.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>property</code></em> :</span></p></td>
+<td> The property that changed.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>value</code></em> :</span></p></td>
+<td> The new value.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

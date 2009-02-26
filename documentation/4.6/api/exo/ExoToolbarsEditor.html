@@ -1,0 +1,429 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ExoToolbarsEditor</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="prev" href="ExoToolbarsModel.html" title="ExoToolbarsModel">
+<link rel="next" href="ExoToolbarsEditorDialog.html" title="ExoToolbarsEditorDialog">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part I. Overview">
+<link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part IV. Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part V. Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part VI. Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part VII. Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part VIII. Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ExoToolbarsModel.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-toolbars.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="ExoToolbarsEditorDialog.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#ExoToolbarsEditor.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#ExoToolbarsEditor.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#ExoToolbarsEditor.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#ExoToolbarsEditor.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#ExoToolbarsEditor.properties" class="shortcut">Properties</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoToolbarsEditor"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ExoToolbarsEditor.top_of_page"></a>ExoToolbarsEditor</span></h2>
+<p>ExoToolbarsEditor — Widget to edit toolbars</p>
+</td>
+<td valign="top" align="right"><img src="exo-toolbars-editor.png"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="ExoToolbarsEditor.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+                    <a class="link" href="ExoToolbarsEditor.html#ExoToolbarsEditor-struct" title="ExoToolbarsEditor">ExoToolbarsEditor</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-new" title="exo_toolbars_editor_new ()">exo_toolbars_editor_new</a>             (<a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-new-with-model" title="exo_toolbars_editor_new_with_model ()">exo_toolbars_editor_new_with_model</a>  (<a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager,
+                                                         <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a> *model);
+<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a>*   <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-get-model" title="exo_toolbars_editor_get_model ()">exo_toolbars_editor_get_model</a>       (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor);
+void                <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-set-model" title="exo_toolbars_editor_set_model ()">exo_toolbars_editor_set_model</a>       (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor,
+                                                         <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a> *model);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a>*       <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-get-ui-manager" title="exo_toolbars_editor_get_ui_manager ()">exo_toolbars_editor_get_ui_manager</a>  (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor);
+void                <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-set-ui-manager" title="exo_toolbars_editor_set_ui_manager ()">exo_toolbars_editor_set_ui_manager</a>  (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBox.html"
+>GtkBox</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkVBox.html"
+>GtkVBox</a>
+                                       +----ExoToolbarsEditor
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+ExoToolbarsEditor implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoToolbarsEditor.html#ExoToolbarsEditor--model" title='The "model" property'>model</a>"                    <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a>*     : Read / Write
+  "<a class="link" href="ExoToolbarsEditor.html#ExoToolbarsEditor--ui-manager" title='The "ui-manager" property'>ui-manager</a>"               <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a>*         : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.description"></a><h2>Description</h2>
+<p>
+  <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a> is a widget that allows the user to edit toolbars
+  used within your application by simply dragging and dropping toolbar
+  items between the editor widget and the toolbar widgets.
+</p>
+<p>
+  Most applications should simply use the <a class="link" href="ExoToolbarsEditorDialog.html" title="ExoToolbarsEditorDialog"><span class="type">ExoToolbarsEditorDialog</span></a>
+  class, which includes an <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a> as main widget.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoToolbarsEditor-struct"></a><h3>ExoToolbarsEditor</h3>
+<pre class="programlisting">typedef struct _ExoToolbarsEditor ExoToolbarsEditor;</pre>
+<p>
+  The <span class="structname">ExoToolbarsEditor</span> struct contains only private fields and should not be directly accessed.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-new"></a><h3>exo_toolbars_editor_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_toolbars_editor_new             (<a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager);</pre>
+<p>
+Creates a new <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a> that will
+be associated with <em class="parameter"><code>ui_manager</code></em>. <em class="parameter"><code>ui_manager</code></em> must
+be a valid <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a>, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> is not allowed
+at this point.
+</p>
+<p>
+The newly created <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a> will not
+be usable until you associate an <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>
+with it, using the function <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-set-model" title="exo_toolbars_editor_set_model ()"><code class="function">exo_toolbars_editor_set_model()</code></a>.
+You should probably use <a class="link" href="ExoToolbarsEditor.html#exo-toolbars-editor-new-with-model" title="exo_toolbars_editor_new_with_model ()"><code class="function">exo_toolbars_editor_new_with_model()</code></a>
+instead.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ui_manager</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A new <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-new-with-model"></a><h3>exo_toolbars_editor_new_with_model ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_toolbars_editor_new_with_model  (<a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager,
+                                                         <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a> *model);</pre>
+<p>
+Creates a new <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a> that will be
+associated with <em class="parameter"><code>model</code></em> and <em class="parameter"><code>ui_manager</code></em>. You
+must supply a valid <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> and a valid
+<a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> here or the function will
+fail.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ui_manager</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>model</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A new <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-get-model"></a><h3>exo_toolbars_editor_get_model ()</h3>
+<pre class="programlisting"><a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a>*   exo_toolbars_editor_get_model       (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor);</pre>
+<p>
+Returns the <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> currently associated
+with <em class="parameter"><code>editor</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if no <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> is
+currently associated with <em class="parameter"><code>editor</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>editor</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-set-model"></a><h3>exo_toolbars_editor_set_model ()</h3>
+<pre class="programlisting">void                exo_toolbars_editor_set_model       (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor,
+                                                         <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a> *model);</pre>
+<p>
+Sets the model to edit by this <em class="parameter"><code>editor</code></em>. If you specify
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>model</code></em>, the editor widget will be disabled.
+Else the editor widget will load the toolbars from
+<em class="parameter"><code>model</code></em> and reinitialize its user interface according
+to <em class="parameter"><code>model</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>editor</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>model</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-get-ui-manager"></a><h3>exo_toolbars_editor_get_ui_manager ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a>*       exo_toolbars_editor_get_ui_manager  (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor);</pre>
+<p>
+Returns the <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> associated with
+<em class="parameter"><code>editor</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if no user interface
+manager is associated with <em class="parameter"><code>editor</code></em> currently.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>editor</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-toolbars-editor-set-ui-manager"></a><h3>exo_toolbars_editor_set_ui_manager ()</h3>
+<pre class="programlisting">void                exo_toolbars_editor_set_ui_manager  (<a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor">ExoToolbarsEditor</a> *editor,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a> *ui_manager);</pre>
+<p>
+Sets the <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> to use by this <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>. If you
+specify <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>ui_manager</code></em>, the editor widget will be disabled.
+Else the editor will load the available actions from <em class="parameter"><code>ui_manager</code></em>
+and reinitialize the user interface.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>editor</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoToolbarsEditor.html" title="ExoToolbarsEditor"><span class="type">ExoToolbarsEditor</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ui_manager</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoToolbarsEditor.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoToolbarsEditor--model"></a><h3>The <code class="literal">"model"</code> property</h3>
+<pre class="programlisting">  "model"                    <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel">ExoToolbarsModel</a>*     : Read / Write</pre>
+<p>
+The <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> that should be edited from within this
+toolbars editor. If you set this property to <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, the editor
+widget will be disabled, else the editor widget will load the
+toolbars from the given <a class="link" href="ExoToolbarsModel.html" title="ExoToolbarsModel"><span class="type">ExoToolbarsModel</span></a> and initialize its
+user interface according to the model.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoToolbarsEditor--ui-manager"></a><h3>The <code class="literal">"ui-manager"</code> property</h3>
+<pre class="programlisting">  "ui-manager"               <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+>GtkUIManager</a>*         : Read / Write</pre>
+<p>
+The <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a> used by this editor. If this property is
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, the editor widget will be disabled, else if you specify
+a valid <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a>, the editor widget will load the available
+actions from the given user interface manager and initialize
+its user interface according to the specified <a
+href="/usr/share/gtk-doc/html/gtk/GtkUIManager.html"
+><span class="type">GtkUIManager</span></a>.
+</p>
+<p>
+The given <em class="parameter"><code>ui</code></em>-manager needs to support all actions that were
+specified for the model, used by the editor, with the
+<a class="link" href="ExoToolbarsModel.html#exo-toolbars-model-set-actions" title="exo_toolbars_model_set_actions ()"><code class="function">exo_toolbars_model_set_actions()</code></a> method.</p>
+<p>
+
+</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

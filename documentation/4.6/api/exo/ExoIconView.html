@@ -1,0 +1,3978 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ExoIconView</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="prev" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog">
+<link rel="next" href="ExoTreeView.html" title="ExoTreeView">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part I. Overview">
+<link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part IV. Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part V. Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part VI. Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part VII. Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part VIII. Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ExoIconChooserDialog.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="ExoTreeView.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#ExoIconView.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#ExoIconView.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#ExoIconView.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#ExoIconView.implemented-interfaces" class="shortcut">Implemented Interfaces</a>
+                   | 
+                  <a href="#ExoIconView.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#ExoIconView.style-properties" class="shortcut">Style Properties</a>
+                   | 
+                  <a href="#ExoIconView.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoIconView"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ExoIconView.top_of_page"></a>ExoIconView</span></h2>
+<p>ExoIconView — A widget which displays a list of icons in a grid</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="ExoIconView.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+                    <a class="link" href="ExoIconView.html#ExoIconView-struct" title="ExoIconView">ExoIconView</a>;
+enum                <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a>;
+enum                <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="ExoIconView.html#exo-icon-view-new" title="exo_icon_view_new ()">exo_icon_view_new</a>                   (void);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="ExoIconView.html#exo-icon-view-new-with-model" title="exo_icon_view_new_with_model ()">exo_icon_view_new_with_model</a>        (<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a>*       <a class="link" href="ExoIconView.html#exo-icon-view-get-model" title="exo_icon_view_get_model ()">exo_icon_view_get_model</a>             (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-model" title="exo_icon_view_set_model ()">exo_icon_view_set_model</a>             (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-text-column" title="exo_icon_view_get_text_column ()">exo_icon_view_get_text_column</a>       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-text-column" title="exo_icon_view_set_text_column ()">exo_icon_view_set_text_column</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-markup-column" title="exo_icon_view_get_markup_column ()">exo_icon_view_get_markup_column</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-markup-column" title="exo_icon_view_set_markup_column ()">exo_icon_view_set_markup_column</a>     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-pixbuf-column" title="exo_icon_view_get_pixbuf_column ()">exo_icon_view_get_pixbuf_column</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-pixbuf-column" title="exo_icon_view_set_pixbuf_column ()">exo_icon_view_set_pixbuf_column</a>     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);
+<a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a>      <a class="link" href="ExoIconView.html#exo-icon-view-get-orientation" title="exo_icon_view_get_orientation ()">exo_icon_view_get_orientation</a>       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-orientation" title="exo_icon_view_set_orientation ()">exo_icon_view_set_orientation</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a> orientation);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-columns" title="exo_icon_view_get_columns ()">exo_icon_view_get_columns</a>           (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-columns" title="exo_icon_view_set_columns ()">exo_icon_view_set_columns</a>           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> columns);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-item-width" title="exo_icon_view_get_item_width ()">exo_icon_view_get_item_width</a>        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-item-width" title="exo_icon_view_set_item_width ()">exo_icon_view_set_item_width</a>        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> item_width);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-spacing" title="exo_icon_view_get_spacing ()">exo_icon_view_get_spacing</a>           (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-spacing" title="exo_icon_view_set_spacing ()">exo_icon_view_set_spacing</a>           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> spacing);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-row-spacing" title="exo_icon_view_get_row_spacing ()">exo_icon_view_get_row_spacing</a>       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-row-spacing" title="exo_icon_view_set_row_spacing ()">exo_icon_view_set_row_spacing</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> row_spacing);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-column-spacing" title="exo_icon_view_get_column_spacing ()">exo_icon_view_get_column_spacing</a>    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-column-spacing" title="exo_icon_view_set_column_spacing ()">exo_icon_view_set_column_spacing</a>    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column_spacing);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-margin" title="exo_icon_view_get_margin ()">exo_icon_view_get_margin</a>            (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-margin" title="exo_icon_view_set_margin ()">exo_icon_view_set_margin</a>            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> margin);
+<a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a>    <a class="link" href="ExoIconView.html#exo-icon-view-get-selection-mode" title="exo_icon_view_get_selection_mode ()">exo_icon_view_get_selection_mode</a>    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-selection-mode" title="exo_icon_view_set_selection_mode ()">exo_icon_view_set_selection_mode</a>    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a> mode);
+<a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a> <a class="link" href="ExoIconView.html#exo-icon-view-get-layout-mode" title="exo_icon_view_get_layout_mode ()">exo_icon_view_get_layout_mode</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-layout-mode" title="exo_icon_view_set_layout_mode ()">exo_icon_view_set_layout_mode</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a> layout_mode);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-single-click" title="exo_icon_view_get_single_click ()">exo_icon_view_get_single_click</a>      (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-single-click" title="exo_icon_view_set_single_click ()">exo_icon_view_set_single_click</a>      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> single_click);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>               <a class="link" href="ExoIconView.html#exo-icon-view-get-single-click-timeout" title="exo_icon_view_get_single_click_timeout ()">exo_icon_view_get_single_click_timeout</a>
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-single-click-timeout" title="exo_icon_view_set_single_click_timeout ()">exo_icon_view_set_single_click_timeout</a>
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> single_click_timeout);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-widget-to-icon-coords" title="exo_icon_view_widget_to_icon_coords ()">exo_icon_view_widget_to_icon_coords</a> (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> wx,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> wy,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *ix,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *iy);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-icon-to-widget-coords" title="exo_icon_view_icon_to_widget_coords ()">exo_icon_view_icon_to_widget_coords</a> (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> ix,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> iy,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *wx,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *wy);
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a>*        <a class="link" href="ExoIconView.html#exo-icon-view-get-path-at-pos" title="exo_icon_view_get_path_at_pos ()">exo_icon_view_get_path_at_pos</a>       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> y);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-item-at-pos" title="exo_icon_view_get_item_at_pos ()">exo_icon_view_get_item_at_pos</a>       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> y,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> **cell);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-visible-range" title="exo_icon_view_get_visible_range ()">exo_icon_view_get_visible_range</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **start_path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **end_path);
+void                (<a class="link" href="ExoIconView.html#ExoIconViewForeachFunc" title="ExoIconViewForeachFunc ()">*ExoIconViewForeachFunc</a>)           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-selected-foreach" title="exo_icon_view_selected_foreach ()">exo_icon_view_selected_foreach</a>      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewForeachFunc" title="ExoIconViewForeachFunc ()">ExoIconViewForeachFunc</a> func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> data);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-select-path" title="exo_icon_view_select_path ()">exo_icon_view_select_path</a>           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-unselect-path" title="exo_icon_view_unselect_path ()">exo_icon_view_unselect_path</a>         (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-path-is-selected" title="exo_icon_view_path_is_selected ()">exo_icon_view_path_is_selected</a>      (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              <a class="link" href="ExoIconView.html#exo-icon-view-get-selected-items" title="exo_icon_view_get_selected_items ()">exo_icon_view_get_selected_items</a>    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-select-all" title="exo_icon_view_select_all ()">exo_icon_view_select_all</a>            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-unselect-all" title="exo_icon_view_unselect_all ()">exo_icon_view_unselect_all</a>          (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-item-activated" title="exo_icon_view_item_activated ()">exo_icon_view_item_activated</a>        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-cursor" title="exo_icon_view_get_cursor ()">exo_icon_view_get_cursor</a>            (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> **cell);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-cursor" title="exo_icon_view_set_cursor ()">exo_icon_view_set_cursor</a>            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> *cell,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> start_editing);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-scroll-to-path" title="exo_icon_view_scroll_to_path ()">exo_icon_view_scroll_to_path</a>        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> use_align,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gfloat"
+>gfloat</a> row_align,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gfloat"
+>gfloat</a> col_align);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-enable-model-drag-source" title="exo_icon_view_enable_model_drag_source ()">exo_icon_view_enable_model_drag_source</a>
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkModifierType"
+>GdkModifierType</a> start_button_mask,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Selections.html#GtkTargetEntry"
+>GtkTargetEntry</a> *targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> n_targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Drag-and-Drop.html#GdkDragAction"
+>GdkDragAction</a> actions);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-enable-model-drag-dest" title="exo_icon_view_enable_model_drag_dest ()">exo_icon_view_enable_model_drag_dest</a>
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Selections.html#GtkTargetEntry"
+>GtkTargetEntry</a> *targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> n_targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Drag-and-Drop.html#GdkDragAction"
+>GdkDragAction</a> actions);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-unset-model-drag-source" title="exo_icon_view_unset_model_drag_source ()">exo_icon_view_unset_model_drag_source</a>
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-unset-model-drag-dest" title="exo_icon_view_unset_model_drag_dest ()">exo_icon_view_unset_model_drag_dest</a> (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-reorderable" title="exo_icon_view_set_reorderable ()">exo_icon_view_set_reorderable</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> reorderable);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-reorderable" title="exo_icon_view_get_reorderable ()">exo_icon_view_get_reorderable</a>       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-drag-dest-item" title="exo_icon_view_set_drag_dest_item ()">exo_icon_view_set_drag_dest_item</a>    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> pos);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-get-drag-dest-item" title="exo_icon_view_get_drag_dest_item ()">exo_icon_view_get_drag_dest_item</a>    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> *pos);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-dest-item-at-pos" title="exo_icon_view_get_dest_item_at_pos ()">exo_icon_view_get_dest_item_at_pos</a>  (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> drag_x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> drag_y,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> *pos);
+<a
+href="/usr/share/gtk-doc/html/gdk/gdk-Bitmaps-and-Pixmaps.html#GdkPixmap"
+>GdkPixmap</a>*          <a class="link" href="ExoIconView.html#exo-icon-view-create-drag-icon" title="exo_icon_view_create_drag_icon ()">exo_icon_view_create_drag_icon</a>      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            (<a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()">*ExoIconViewSearchEqualFunc</a>)       (<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *key,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreeIter"
+>GtkTreeIter</a> *iter,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_data);
+void                (<a class="link" href="ExoIconView.html#ExoIconViewSearchPositionFunc" title="ExoIconViewSearchPositionFunc ()">*ExoIconViewSearchPositionFunc</a>)    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a> *search_dialog,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconView.html#exo-icon-view-get-enable-search" title="exo_icon_view_get_enable_search ()">exo_icon_view_get_enable_search</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-enable-search" title="exo_icon_view_set_enable_search ()">exo_icon_view_set_enable_search</a>     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> enable_search);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                <a class="link" href="ExoIconView.html#exo-icon-view-get-search-column" title="exo_icon_view_get_search_column ()">exo_icon_view_get_search_column</a>     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-search-column" title="exo_icon_view_set_search_column ()">exo_icon_view_set_search_column</a>     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> search_column);
+<a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()">ExoIconViewSearchEqualFunc</a> <a class="link" href="ExoIconView.html#exo-icon-view-get-search-equal-func" title="exo_icon_view_get_search_equal_func ()">exo_icon_view_get_search_equal_func</a>
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-search-equal-func" title="exo_icon_view_set_search_equal_func ()">exo_icon_view_set_search_equal_func</a> (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()">ExoIconViewSearchEqualFunc</a> search_equal_func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_equal_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Datasets.html#GDestroyNotify"
+>GDestroyNotify</a> search_equal_destroy);
+<a class="link" href="ExoIconView.html#ExoIconViewSearchPositionFunc" title="ExoIconViewSearchPositionFunc ()">ExoIconViewSearchPositionFunc</a> <a class="link" href="ExoIconView.html#exo-icon-view-get-search-position-func" title="exo_icon_view_get_search_position_func ()">exo_icon_view_get_search_position_func</a>
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);
+void                <a class="link" href="ExoIconView.html#exo-icon-view-set-search-position-func" title="exo_icon_view_set_search_position_func ()">exo_icon_view_set_search_position_func</a>
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewSearchPositionFunc" title="ExoIconViewSearchPositionFunc ()">ExoIconViewSearchPositionFunc</a> search_position_func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_position_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Datasets.html#GDestroyNotify"
+>GDestroyNotify</a> search_position_destroy);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----ExoIconView
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+ExoIconView implements
+ AtkImplementorIface,  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a> and  <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+>GtkCellLayout</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoIconView.html#ExoIconView--column-spacing" title='The "column-spacing" property'>column-spacing</a>"           <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--columns" title='The "columns" property'>columns</a>"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--enable-search" title='The "enable-search" property'>enable-search</a>"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--item-width" title='The "item-width" property'>item-width</a>"               <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--layout-mode" title='The "layout-mode" property'>layout-mode</a>"              <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a>  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--margin" title='The "margin" property'>margin</a>"                   <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--markup-column" title='The "markup-column" property'>markup-column</a>"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--model" title='The "model" property'>model</a>"                    <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a>*         : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--orientation" title='The "orientation" property'>orientation</a>"              <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a>        : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--pixbuf-column" title='The "pixbuf-column" property'>pixbuf-column</a>"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--reorderable" title='The "reorderable" property'>reorderable</a>"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--row-spacing" title='The "row-spacing" property'>row-spacing</a>"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--search-column" title='The "search-column" property'>search-column</a>"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--selection-mode" title='The "selection-mode" property'>selection-mode</a>"           <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a>      : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--single-click" title='The "single-click" property'>single-click</a>"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--single-click-timeout" title='The "single-click-timeout" property'>single-click-timeout</a>"     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--spacing" title='The "spacing" property'>spacing</a>"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+  "<a class="link" href="ExoIconView.html#ExoIconView--text-column" title='The "text-column" property'>text-column</a>"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.style-properties"></a><h2>Style Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoIconView.html#ExoIconView--selection-box-alpha" title='The "selection-box-alpha" style property'>selection-box-alpha</a>"      <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a>                : Read
+  "<a class="link" href="ExoIconView.html#ExoIconView--selection-box-color" title='The "selection-box-color" style property'>selection-box-color</a>"      <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Colormaps-and-Colors.html#GdkColor"
+>GdkColor</a>*             : Read
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoIconView.html#ExoIconView-activate-cursor-item" title='The "activate-cursor-item" signal'>activate-cursor-item</a>"                           : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-item-activated" title='The "item-activated" signal'>item-activated</a>"                                 : Run Last
+  "<a class="link" href="ExoIconView.html#ExoIconView-move-cursor" title='The "move-cursor" signal'>move-cursor</a>"                                    : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-select-all" title='The "select-all" signal'>select-all</a>"                                     : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-select-cursor-item" title='The "select-cursor-item" signal'>select-cursor-item</a>"                             : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-selection-changed" title='The "selection-changed" signal'>selection-changed</a>"                              : Run First
+  "<a class="link" href="ExoIconView.html#ExoIconView-set-scroll-adjustments" title='The "set-scroll-adjustments" signal'>set-scroll-adjustments</a>"                         : Run Last
+  "<a class="link" href="ExoIconView.html#ExoIconView-start-interactive-search" title='The "start-interactive-search" signal'>start-interactive-search</a>"                       : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-toggle-cursor-item" title='The "toggle-cursor-item" signal'>toggle-cursor-item</a>"                             : Run Last / Action
+  "<a class="link" href="ExoIconView.html#ExoIconView-unselect-all" title='The "unselect-all" signal'>unselect-all</a>"                                   : Run Last / Action
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.description"></a><h2>Description</h2>
+<p>
+  <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> provides an alternative view on a list model.
+  It displays the model as a grid of icons with labels. Like
+  <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeView.html"
+><span class="type">GtkTreeView</span></a>, it allows to select one or multiple items 
+  (depending on the selection mode, see <a class="link" href="ExoIconView.html#exo-icon-view-set-selection-mode" title="exo_icon_view_set_selection_mode ()"><code class="function">exo_icon_view_set_selection_mode()</code></a>).
+  In addition to selection with the arrow keys, <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> supports
+  rubberband selection, which is controlled by dragging the pointer.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-struct"></a><h3>ExoIconView</h3>
+<pre class="programlisting">typedef struct _ExoIconView ExoIconView;</pre>
+<p>
+  The <span class="structname">ExoIconView</span> struct contains only
+  private fields and should not be directly accessed.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconViewDropPosition"></a><h3>enum ExoIconViewDropPosition</h3>
+<pre class="programlisting">typedef enum
+{
+  EXO_ICON_VIEW_NO_DROP,
+  EXO_ICON_VIEW_DROP_INTO,
+  EXO_ICON_VIEW_DROP_LEFT,
+  EXO_ICON_VIEW_DROP_RIGHT,
+  EXO_ICON_VIEW_DROP_ABOVE,
+  EXO_ICON_VIEW_DROP_BELOW
+} ExoIconViewDropPosition;
+</pre>
+<p>
+Specifies whether to display the drop indicator,
+i.e. where to drop into the icon view.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-NO-DROP:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_NO_DROP</code></span></p></td>
+<td> no drop indicator.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-DROP-INTO:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_DROP_INTO</code></span></p></td>
+<td> drop indicator on an item.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-DROP-LEFT:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_DROP_LEFT</code></span></p></td>
+<td> drop indicator on the left of an item.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-DROP-RIGHT:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_DROP_RIGHT</code></span></p></td>
+<td> drop indicator on the right of an item.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-DROP-ABOVE:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_DROP_ABOVE</code></span></p></td>
+<td> drop indicator above an item.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-DROP-BELOW:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_DROP_BELOW</code></span></p></td>
+<td> drop indicator below an item.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconViewLayoutMode"></a><h3>enum ExoIconViewLayoutMode</h3>
+<pre class="programlisting">typedef enum
+{
+  EXO_ICON_VIEW_LAYOUT_ROWS,
+  EXO_ICON_VIEW_LAYOUT_COLS
+} ExoIconViewLayoutMode;
+</pre>
+<p>
+Specifies the layouting mode of an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>. <em class="parameter"><code>EXO_ICON_VIEW_LAYOUT_ROWS</code></em>
+is the default, which lays out items vertically in rows from top to bottom.
+<em class="parameter"><code>EXO_ICON_VIEW_LAYOUT_COLS</code></em> lays out items horizontally in columns from left
+to right.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-LAYOUT-ROWS:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_LAYOUT_ROWS</code></span></p></td>
+<td> layout items in rows.
+</td>
+</tr>
+<tr>
+<td><p><a name="EXO-ICON-VIEW-LAYOUT-COLS:CAPS"></a><span class="term"><code class="literal">EXO_ICON_VIEW_LAYOUT_COLS</code></span></p></td>
+<td> layout items in columns.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-new"></a><h3>exo_icon_view_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_icon_view_new                   (void);</pre>
+<p>
+Creates a new <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly created <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-new-with-model"></a><h3>exo_icon_view_new_with_model ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_icon_view_new_with_model        (<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model);</pre>
+<p>
+Creates a new <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget with the model <em class="parameter"><code>model</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>model</code></em> :</span></p></td>
+<td> The model.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly created <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> widget.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-model"></a><h3>exo_icon_view_get_model ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a>*       exo_icon_view_get_model             (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the model the <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a> is based on. Returns <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if the
+model is unset.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+><span class="type">GtkTreeModel</span></a>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if none is currently being used.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-model"></a><h3>exo_icon_view_set_model ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_model             (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model);</pre>
+<p>
+Sets the model for a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.  
+If the <em class="parameter"><code>icon_view</code></em> already has a model set, it will remove 
+it before setting the new model.  If <em class="parameter"><code>model</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, then
+it will unset the old model.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>model</code></em> :</span></p></td>
+<td> The model.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-text-column"></a><h3>exo_icon_view_get_text_column ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_text_column       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_get_text_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Returns the column with text for <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the text column, or -1 if it's unset.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-text-column"></a><h3>exo_icon_view_set_text_column ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_text_column       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_set_text_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Sets the column with text for <em class="parameter"><code>icon_view</code></em> to be <em class="parameter"><code>column</code></em>. The text
+column must be of type <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#G-TYPE-STRING:CAPS"
+><span class="type">G_TYPE_STRING</span></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>column</code></em> :</span></p></td>
+<td> A column in the currently used model.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-markup-column"></a><h3>exo_icon_view_get_markup_column ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_markup_column     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_get_markup_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Returns the column with markup text for <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the markup column, or -1 if it's unset.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-markup-column"></a><h3>exo_icon_view_set_markup_column ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_markup_column     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_set_markup_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Sets the column with markup information for <em class="parameter"><code>icon_view</code></em> to be
+<em class="parameter"><code>column</code></em>. The markup column must be of type <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#G-TYPE-STRING:CAPS"
+><span class="type">G_TYPE_STRING</span></a>.
+If the markup column is set to something, it overrides
+the text column set by <a class="link" href="ExoIconView.html#exo-icon-view-set-text-column" title="exo_icon_view_set_text_column ()"><code class="function">exo_icon_view_set_text_column()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>column</code></em> :</span></p></td>
+<td> A column in the currently used model.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-pixbuf-column"></a><h3>exo_icon_view_get_pixbuf_column ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_pixbuf_column     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_get_pixbuf_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Returns the column with pixbufs for <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the pixbuf column, or -1 if it's unset.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-pixbuf-column"></a><h3>exo_icon_view_set_pixbuf_column ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_pixbuf_column     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column);</pre>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<h3 class="title">Warning</h3>
+<p><code class="literal">exo_icon_view_set_pixbuf_column</code> is deprecated and should not be used in newly-written code. Use the more powerful <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a>s instead, as <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+            now implements <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellLayout.html"
+><span class="type">GtkCellLayout</span></a>.</p>
+</div>
+<p>
+Sets the column with pixbufs for <em class="parameter"><code>icon_view</code></em> to be <em class="parameter"><code>column</code></em>. The pixbuf
+column must be of type <span class="type">GDK_TYPE_PIXBUF</span></p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>column</code></em> :</span></p></td>
+<td> A column in the currently used model.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-orientation"></a><h3>exo_icon_view_get_orientation ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a>      exo_icon_view_get_orientation       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::orientation property which determines 
+whether the labels are drawn beside the icons instead of below.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the relative position of texts and icons 
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-orientation"></a><h3>exo_icon_view_set_orientation ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_orientation       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a> orientation);</pre>
+<p>
+Sets the ::orientation property which determines whether the labels 
+are drawn beside the icons instead of below.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>orientation</code></em> :</span></p></td>
+<td> the relative position of texts and icons 
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-columns"></a><h3>exo_icon_view_get_columns ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_columns           (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::columns property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the number of columns, or -1
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-columns"></a><h3>exo_icon_view_set_columns ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_columns           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> columns);</pre>
+<p>
+Sets the ::columns property which determines in how
+many columns the icons are arranged. If <em class="parameter"><code>columns</code></em> is
+-1, the number of columns will be chosen automatically 
+to fill the available area.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>columns</code></em> :</span></p></td>
+<td> the number of columns
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-item-width"></a><h3>exo_icon_view_get_item_width ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_item_width        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::item-width property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the width of a single item, or -1
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-item-width"></a><h3>exo_icon_view_set_item_width ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_item_width        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> item_width);</pre>
+<p>
+Sets the ::item-width property which specifies the width 
+to use for each item. If it is set to -1, the icon view will 
+automatically determine a suitable item size.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>item_width</code></em> :</span></p></td>
+<td> the width for each item
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-spacing"></a><h3>exo_icon_view_get_spacing ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_spacing           (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::spacing property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the space between cells 
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-spacing"></a><h3>exo_icon_view_set_spacing ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_spacing           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> spacing);</pre>
+<p>
+Sets the ::spacing property which specifies the space 
+which is inserted between the cells (i.e. the icon and 
+the text) of an item.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>spacing</code></em> :</span></p></td>
+<td> the spacing
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-row-spacing"></a><h3>exo_icon_view_get_row_spacing ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_row_spacing       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::row-spacing property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the space between rows
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-row-spacing"></a><h3>exo_icon_view_set_row_spacing ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_row_spacing       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> row_spacing);</pre>
+<p>
+Sets the ::row-spacing property which specifies the space 
+which is inserted between the rows of the icon view.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>row_spacing</code></em> :</span></p></td>
+<td> the row spacing
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-column-spacing"></a><h3>exo_icon_view_get_column_spacing ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_column_spacing    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::column-spacing property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the space between columns
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-column-spacing"></a><h3>exo_icon_view_set_column_spacing ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_column_spacing    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column_spacing);</pre>
+<p>
+Sets the ::column-spacing property which specifies the space 
+which is inserted between the columns of the icon view.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>column_spacing</code></em> :</span></p></td>
+<td> the column spacing
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-margin"></a><h3>exo_icon_view_get_margin ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_margin            (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the value of the ::margin property.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the space at the borders 
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-margin"></a><h3>exo_icon_view_set_margin ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_margin            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> margin);</pre>
+<p>
+Sets the ::margin property which specifies the space 
+which is inserted at the top, bottom, left and right 
+of the icon view.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>margin</code></em> :</span></p></td>
+<td> the margin
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-selection-mode"></a><h3>exo_icon_view_get_selection_mode ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a>    exo_icon_view_get_selection_mode    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Gets the selection mode of the <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the current selection mode
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-selection-mode"></a><h3>exo_icon_view_set_selection_mode ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_selection_mode    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a> mode);</pre>
+<p>
+Sets the selection mode of the <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>mode</code></em> :</span></p></td>
+<td> The selection mode
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-layout-mode"></a><h3>exo_icon_view_get_layout_mode ()</h3>
+<pre class="programlisting"><a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a> exo_icon_view_get_layout_mode     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode"><span class="type">ExoIconViewLayoutMode</span></a> used to layout the
+items in the <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the layout mode of <em class="parameter"><code>icon_view</code></em>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-layout-mode"></a><h3>exo_icon_view_set_layout_mode ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_layout_mode       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a> layout_mode);</pre>
+<p>
+Sets the layout mode of <em class="parameter"><code>icon_view</code></em> to <em class="parameter"><code>layout_mode</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>layout_mode</code></em> :</span></p></td>
+<td> the new <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode"><span class="type">ExoIconViewLayoutMode</span></a> for <em class="parameter"><code>icon_view</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-single-click"></a><h3>exo_icon_view_get_single_click ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_single_click      (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>icon_view</code></em> is currently in single click mode,
+else <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> will be returned.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> whether <em class="parameter"><code>icon_view</code></em> is currently in single click mode.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-single-click"></a><h3>exo_icon_view_set_single_click ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_single_click      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> single_click);</pre>
+<p>
+If <em class="parameter"><code>single_click</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, <em class="parameter"><code>icon_view</code></em> will be in single click mode
+afterwards, else <em class="parameter"><code>icon_view</code></em> will be in double click mode.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>single_click</code></em> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> for single click, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> for double click mode.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-single-click-timeout"></a><h3>exo_icon_view_get_single_click_timeout ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>               exo_icon_view_get_single_click_timeout
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the amount of time in milliseconds after which the
+item under the mouse cursor will be selected automatically
+in single click mode. A value of <code class="literal">0</code> means that the behavior
+is disabled and the user must alter the selection manually.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the single click autoselect timeout or <code class="literal">0</code> if
+              the behavior is disabled.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-single-click-timeout"></a><h3>exo_icon_view_set_single_click_timeout ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_single_click_timeout
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a> single_click_timeout);</pre>
+<p>
+If <em class="parameter"><code>single_click_timeout</code></em> is a value greater than zero, it specifies
+the amount of time in milliseconds after which the item under the
+mouse cursor will be selected automatically in single click mode.
+A value of <code class="literal">0</code> for <em class="parameter"><code>single_click_timeout</code></em> disables the autoselection
+for <em class="parameter"><code>icon_view</code></em>.
+</p>
+<p>
+This setting does not have any effect unless the <em class="parameter"><code>icon_view</code></em> is in
+single-click mode, see <a class="link" href="ExoIconView.html#exo-icon-view-set-single-click" title="exo_icon_view_set_single_click ()"><code class="function">exo_icon_view_set_single_click()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>single_click_timeout</code></em> :</span></p></td>
+<td> the new timeout or <code class="literal">0</code> to disable.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-widget-to-icon-coords"></a><h3>exo_icon_view_widget_to_icon_coords ()</h3>
+<pre class="programlisting">void                exo_icon_view_widget_to_icon_coords (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> wx,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> wy,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *ix,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *iy);</pre>
+<p>
+Converts widget coordinates to coordinates for the icon window
+(the full scrollable area of the icon view).</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wx</code></em> :</span></p></td>
+<td> widget x coordinate.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wy</code></em> :</span></p></td>
+<td> widget y coordinate.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ix</code></em> :</span></p></td>
+<td> return location for icon x coordinate or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>iy</code></em> :</span></p></td>
+<td> return location for icon y coordinate or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-icon-to-widget-coords"></a><h3>exo_icon_view_icon_to_widget_coords ()</h3>
+<pre class="programlisting">void                exo_icon_view_icon_to_widget_coords (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> ix,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> iy,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *wx,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *wy);</pre>
+<p>
+Converts icon view coordinates (coordinates in full scrollable
+area of the icon view) to widget coordinates.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>ix</code></em> :</span></p></td>
+<td> icon x coordinate.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>iy</code></em> :</span></p></td>
+<td> icon y coordinate.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wx</code></em> :</span></p></td>
+<td> return location for widget x coordinate or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>wy</code></em> :</span></p></td>
+<td> return location for widget y coordinate or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-path-at-pos"></a><h3>exo_icon_view_get_path_at_pos ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a>*        exo_icon_view_get_path_at_pos       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> y);</pre>
+<p>
+Finds the path at the point (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>), relative to widget coordinates.
+See <a class="link" href="ExoIconView.html#exo-icon-view-get-item-at-pos" title="exo_icon_view_get_item_at_pos ()"><code class="function">exo_icon_view_get_item_at_pos()</code></a>, if you are also interested in
+the cell at the specified position.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>x</code></em> :</span></p></td>
+<td> The x position to be identified
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>y</code></em> :</span></p></td>
+<td> The y position to be identified
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> corresponding to the icon or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+              if no icon exists at that position.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-item-at-pos"></a><h3>exo_icon_view_get_item_at_pos ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_item_at_pos       (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> y,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> **cell);</pre>
+<p>
+Finds the path at the point (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>), relative to widget coordinates.
+In contrast to <a class="link" href="ExoIconView.html#exo-icon-view-get-path-at-pos" title="exo_icon_view_get_path_at_pos ()"><code class="function">exo_icon_view_get_path_at_pos()</code></a>, this function also 
+obtains the cell at the specified position. The returned path should
+be freed with <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#gtk-tree-path-free"
+><code class="function">gtk_tree_path_free()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>x</code></em> :</span></p></td>
+<td> The x position to be identified
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>y</code></em> :</span></p></td>
+<td> The y position to be identified
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> Return location for the path, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>cell</code></em> :</span></p></td>
+<td> Return location for the renderer responsible for the cell
+  at (<em class="parameter"><code>x</code></em>, <em class="parameter"><code>y</code></em>), or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if an item exists at the specified position
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-visible-range"></a><h3>exo_icon_view_get_visible_range ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_visible_range     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **start_path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **end_path);</pre>
+<p>
+Sets <em class="parameter"><code>start_path</code></em> and <em class="parameter"><code>end_path</code></em> to be the first and last visible path. 
+Note that there may be invisible paths in between.
+</p>
+<p>
+Both paths should be freed with <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#gtk-tree-path-free"
+><code class="function">gtk_tree_path_free()</code></a> after use.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>start_path</code></em> :</span></p></td>
+<td> Return location for start of region, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>end_path</code></em> :</span></p></td>
+<td> Return location for end of region, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, if valid paths were placed in <em class="parameter"><code>start_path</code></em> and <em class="parameter"><code>end_path</code></em>
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconViewForeachFunc"></a><h3>ExoIconViewForeachFunc ()</h3>
+<pre class="programlisting">void                (*ExoIconViewForeachFunc)           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+Callback function prototype, invoked for every selected path in the
+<em class="parameter"><code>icon_view</code></em>. See <a class="link" href="ExoIconView.html#exo-icon-view-selected-foreach" title="exo_icon_view_selected_foreach ()"><code class="function">exo_icon_view_selected_foreach()</code></a> for details.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> the current path.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> the user data supplied to <a class="link" href="ExoIconView.html#exo-icon-view-selected-foreach" title="exo_icon_view_selected_foreach ()"><code class="function">exo_icon_view_selected_foreach()</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-selected-foreach"></a><h3>exo_icon_view_selected_foreach ()</h3>
+<pre class="programlisting">void                exo_icon_view_selected_foreach      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewForeachFunc" title="ExoIconViewForeachFunc ()">ExoIconViewForeachFunc</a> func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> data);</pre>
+<p>
+Calls a function for each selected icon. Note that the model or
+selection cannot be modified from within this function.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>func</code></em> :</span></p></td>
+<td> The funcion to call for each selected icon.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>data</code></em> :</span></p></td>
+<td> User data to pass to the function.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-select-path"></a><h3>exo_icon_view_select_path ()</h3>
+<pre class="programlisting">void                exo_icon_view_select_path           (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);</pre>
+<p>
+Selects the row at <em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> The <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> to be selected.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-unselect-path"></a><h3>exo_icon_view_unselect_path ()</h3>
+<pre class="programlisting">void                exo_icon_view_unselect_path         (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);</pre>
+<p>
+Unselects the row at <em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> The <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> to be unselected.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-path-is-selected"></a><h3>exo_icon_view_path_is_selected ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_path_is_selected      (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);</pre>
+<p>
+Returns <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the icon pointed to by <em class="parameter"><code>path</code></em> is currently
+selected. If <em class="parameter"><code>icon</code></em> does not point to a valid location, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> is returned.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> to check selection on.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if <em class="parameter"><code>path</code></em> is selected.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-selected-items"></a><h3>exo_icon_view_get_selected_items ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+>GList</a>*              exo_icon_view_get_selected_items    (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Creates a list of paths of all selected items. Additionally, if you are
+planning on modifying the model after calling this function, you may
+want to convert the returned list into a list of <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreeRowReference"
+><span class="type">GtkTreeRowReference</span></a>s.
+To do this, you can use <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#gtk-tree-row-reference-new"
+><code class="function">gtk_tree_row_reference_new()</code></a>.
+</p>
+<p>
+To free the return value, use:
+</p>
+<div class="informalexample"><pre class="programlisting">
+g_list_foreach (list, gtk_tree_path_free, NULL);
+g_list_free (list);
+</pre></div>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/glib/glib-Doubly-Linked-Lists.html#GList"
+><span class="type">GList</span></a> containing a <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> for each selected row.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-select-all"></a><h3>exo_icon_view_select_all ()</h3>
+<pre class="programlisting">void                exo_icon_view_select_all            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Selects all the icons. <em class="parameter"><code>icon_view</code></em> must has its selection mode set
+to <span class="type">GTK_SELECTION_MULTIPLE</span>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-unselect-all"></a><h3>exo_icon_view_unselect_all ()</h3>
+<pre class="programlisting">void                exo_icon_view_unselect_all          (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Unselects all the icons.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-item-activated"></a><h3>exo_icon_view_item_activated ()</h3>
+<pre class="programlisting">void                exo_icon_view_item_activated        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);</pre>
+<p>
+Activates the item determined by <em class="parameter"><code>path</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> the <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> to be activated
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-cursor"></a><h3>exo_icon_view_get_cursor ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_cursor            (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> **cell);</pre>
+<p>
+Fills in <em class="parameter"><code>path</code></em> and <em class="parameter"><code>cell</code></em> with the current cursor path and cell. 
+If the cursor isn't currently set, then *<em class="parameter"><code>path</code></em> will be <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.  
+If no cell currently has focus, then *<em class="parameter"><code>cell</code></em> will be <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</p>
+<p>
+The returned <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> must be freed with <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#gtk-tree-path-free"
+><code class="function">gtk_tree_path_free()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> Return location for the current cursor path, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>cell</code></em> :</span></p></td>
+<td> Return location the current focus cell, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the cursor is set.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-cursor"></a><h3>exo_icon_view_set_cursor ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_cursor            (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+>GtkCellRenderer</a> *cell,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> start_editing);</pre>
+<p>
+Sets the current keyboard focus to be at <em class="parameter"><code>path</code></em>, and selects it.  This is
+useful when you want to focus the user's attention on a particular item.  
+If <em class="parameter"><code>cell</code></em> is not <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>, then focus is given to the cell specified by 
+it. Additionally, if <em class="parameter"><code>start_editing</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, then editing should be 
+started in the specified cell.  
+</p>
+<p>
+This function is often followed by <code class="literal">gtk_widget_grab_focus 
+(icon_view)</code> in order to give keyboard focus to the widget.  
+Please note that editing can only happen when the widget is realized.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> a <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>cell</code></em> :</span></p></td>
+<td> a <a
+href="/usr/share/gtk-doc/html/gtk/GtkCellRenderer.html"
+><span class="type">GtkCellRenderer</span></a> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>start_editing</code></em> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the specified cell should start being edited.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-scroll-to-path"></a><h3>exo_icon_view_scroll_to_path ()</h3>
+<pre class="programlisting">void                exo_icon_view_scroll_to_path        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> use_align,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gfloat"
+>gfloat</a> row_align,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gfloat"
+>gfloat</a> col_align);</pre>
+<p>
+Moves the alignments of <em class="parameter"><code>icon_view</code></em> to the position specified by <em class="parameter"><code>path</code></em>.  
+<em class="parameter"><code>row_align</code></em> determines where the row is placed, and <em class="parameter"><code>col_align</code></em> determines where 
+<em class="parameter"><code>column</code></em> is placed.  Both are expected to be between 0.0 and 1.0. 
+0.0 means left/top alignment, 1.0 means right/bottom alignment, 0.5 means center.
+</p>
+<p>
+If <em class="parameter"><code>use_align</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>, then the alignment arguments are ignored, and the
+tree does the minimum amount of work to scroll the item onto the screen.
+This means that the item will be scrolled to the edge closest to its current
+position.  If the item is currently visible on the screen, nothing is done.
+</p>
+<p>
+This function only works if the model is set, and <em class="parameter"><code>path</code></em> is a valid row on the
+model.  If the model changes before the <em class="parameter"><code>tree_view</code></em> is realized, the centered
+path will be modified to reflect this change.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> The path of the item to move to.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>use_align</code></em> :</span></p></td>
+<td> whether to use alignment arguments, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>row_align</code></em> :</span></p></td>
+<td> The vertical alignment of the item specified by <em class="parameter"><code>path</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>col_align</code></em> :</span></p></td>
+<td> The horizontal alignment of the item specified by <em class="parameter"><code>column</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-enable-model-drag-source"></a><h3>exo_icon_view_enable_model_drag_source ()</h3>
+<pre class="programlisting">void                exo_icon_view_enable_model_drag_source
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkModifierType"
+>GdkModifierType</a> start_button_mask,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Selections.html#GtkTargetEntry"
+>GtkTargetEntry</a> *targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> n_targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Drag-and-Drop.html#GdkDragAction"
+>GdkDragAction</a> actions);</pre>
+<p>
+Turns <em class="parameter"><code>icon_view</code></em> into a drag source for automatic DND.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <span class="type">GtkIconTreeView</span>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>start_button_mask</code></em> :</span></p></td>
+<td> Mask of allowed buttons to start drag
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>targets</code></em> :</span></p></td>
+<td> the table of targets that the drag will support
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>n_targets</code></em> :</span></p></td>
+<td> the number of items in <em class="parameter"><code>targets</code></em>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>actions</code></em> :</span></p></td>
+<td> the bitmask of possible actions for a drag from this widget
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-enable-model-drag-dest"></a><h3>exo_icon_view_enable_model_drag_dest ()</h3>
+<pre class="programlisting">void                exo_icon_view_enable_model_drag_dest
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         const <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Selections.html#GtkTargetEntry"
+>GtkTargetEntry</a> *targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> n_targets,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Drag-and-Drop.html#GdkDragAction"
+>GdkDragAction</a> actions);</pre>
+<p>
+Turns <em class="parameter"><code>icon_view</code></em> into a drop destination for automatic DND.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>targets</code></em> :</span></p></td>
+<td> the table of targets that the drag will support
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>n_targets</code></em> :</span></p></td>
+<td> the number of items in <em class="parameter"><code>targets</code></em>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>actions</code></em> :</span></p></td>
+<td> the bitmask of possible actions for a drag from this widget
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-unset-model-drag-source"></a><h3>exo_icon_view_unset_model_drag_source ()</h3>
+<pre class="programlisting">void                exo_icon_view_unset_model_drag_source
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Undoes the effect of #<a class="link" href="ExoIconView.html#exo-icon-view-enable-model-drag-source" title="exo_icon_view_enable_model_drag_source ()"><code class="function">exo_icon_view_enable_model_drag_source()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr></tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-unset-model-drag-dest"></a><h3>exo_icon_view_unset_model_drag_dest ()</h3>
+<pre class="programlisting">void                exo_icon_view_unset_model_drag_dest (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Undoes the effect of #<a class="link" href="ExoIconView.html#exo-icon-view-enable-model-drag-dest" title="exo_icon_view_enable_model_drag_dest ()"><code class="function">exo_icon_view_enable_model_drag_dest()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr></tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-reorderable"></a><h3>exo_icon_view_set_reorderable ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_reorderable       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> reorderable);</pre>
+<p>
+This function is a convenience function to allow you to reorder models that
+support the <a
+href="/usr/share/gtk-doc/html/gtk/gtk-GtkTreeView-drag-and-drop.html#GtkTreeDragSourceIface"
+><span class="type">GtkTreeDragSourceIface</span></a> and the <a
+href="/usr/share/gtk-doc/html/gtk/gtk-GtkTreeView-drag-and-drop.html#GtkTreeDragDestIface"
+><span class="type">GtkTreeDragDestIface</span></a>.  Both
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeStore.html"
+><span class="type">GtkTreeStore</span></a> and <a
+href="/usr/share/gtk-doc/html/gtk/GtkListStore.html"
+><span class="type">GtkListStore</span></a> support these.  If <em class="parameter"><code>reorderable</code></em> is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, then
+the user can reorder the model by dragging and dropping rows.  The
+developer can listen to these changes by connecting to the model's
+::row-inserted and ::row-deleted signals.
+</p>
+<p>
+This function does not give you any degree of control over the order -- any
+reordering is allowed.  If more control is needed, you should probably
+handle drag and drop manually.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> A <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>reorderable</code></em> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a>, if the list of items can be reordered.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-reorderable"></a><h3>exo_icon_view_get_reorderable ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_reorderable       (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Retrieves whether the user can reorder the list via drag-and-drop. 
+See <a class="link" href="ExoIconView.html#exo-icon-view-set-reorderable" title="exo_icon_view_set_reorderable ()"><code class="function">exo_icon_view_set_reorderable()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the list can be reordered.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-drag-dest-item"></a><h3>exo_icon_view_set_drag_dest_item ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_drag_dest_item    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> pos);</pre>
+<p>
+Sets the item that is highlighted for feedback.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> The path of the item to highlight, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pos</code></em> :</span></p></td>
+<td> Specifies whether to drop, relative to the item
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-drag-dest-item"></a><h3>exo_icon_view_get_drag_dest_item ()</h3>
+<pre class="programlisting">void                exo_icon_view_get_drag_dest_item    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> *pos);</pre>
+<p>
+Gets information about the item that is highlighted for feedback.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> Return location for the path of the highlighted item, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pos</code></em> :</span></p></td>
+<td> Return location for the drop position, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-dest-item-at-pos"></a><h3>exo_icon_view_get_dest_item_at_pos ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_dest_item_at_pos  (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> drag_x,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> drag_y,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> **path,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewDropPosition" title="enum ExoIconViewDropPosition">ExoIconViewDropPosition</a> *pos);</pre>
+<p>
+Determines the destination item for a given position.
+</p>
+<p>
+Both <em class="parameter"><code>drag_x</code></em> and <em class="parameter"><code>drag_y</code></em> are given in icon window coordinates. Use
+#<a class="link" href="ExoIconView.html#exo-icon-view-widget-to-icon-coords" title="exo_icon_view_widget_to_icon_coords ()"><code class="function">exo_icon_view_widget_to_icon_coords()</code></a> if you need to translate
+widget coordinates first.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drag_x</code></em> :</span></p></td>
+<td> the position to determine the destination item for
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>drag_y</code></em> :</span></p></td>
+<td> the position to determine the destination item for
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> Return location for the path of the highlighted item, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>pos</code></em> :</span></p></td>
+<td> Return location for the drop position, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> whether there is an item at the given position.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-create-drag-icon"></a><h3>exo_icon_view_create_drag_icon ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gdk/gdk-Bitmaps-and-Pixmaps.html#GdkPixmap"
+>GdkPixmap</a>*          exo_icon_view_create_drag_icon      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path);</pre>
+<p>
+Creates a <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Bitmaps-and-Pixmaps.html#GdkPixmap"
+><span class="type">GdkPixmap</span></a> representation of the item at <em class="parameter"><code>path</code></em>.  
+This image is used for a drag icon.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td> a <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+><span class="type">GtkTreePath</span></a> in <em class="parameter"><code>icon_view</code></em>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a newly-allocated pixmap of the drag icon.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconViewSearchEqualFunc"></a><h3>ExoIconViewSearchEqualFunc ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            (*ExoIconViewSearchEqualFunc)       (<a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a> *model,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> column,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *key,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreeIter"
+>GtkTreeIter</a> *iter,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_data);</pre>
+<p>
+A function used for checking whether a row in <em class="parameter"><code>model</code></em> matches a search key string
+entered by the user. Note the return value is reversed from what you would normally
+expect, though it has some similarity to <code class="function">strcmp()</code> returning 0 for equal strings.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>model</code></em> :</span></p></td>
+<td> the <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+><span class="type">GtkTreeModel</span></a> being searched.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>column</code></em> :</span></p></td>
+<td> the search column set by <a class="link" href="ExoIconView.html#exo-icon-view-set-search-column" title="exo_icon_view_set_search_column ()"><code class="function">exo_icon_view_set_search_column()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>key</code></em> :</span></p></td>
+<td> the key string to compare with.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>iter</code></em> :</span></p></td>
+<td> the <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreeIter"
+><span class="type">GtkTreeIter</span></a> of the current item.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_data</code></em> :</span></p></td>
+<td> user data from <a class="link" href="ExoIconView.html#exo-icon-view-set-search-equal-func" title="exo_icon_view_set_search_equal_func ()"><code class="function">exo_icon_view_set_search_equal_func()</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> if the row matches, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> otherwise.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconViewSearchPositionFunc"></a><h3>ExoIconViewSearchPositionFunc ()</h3>
+<pre class="programlisting">void                (*ExoIconViewSearchPositionFunc)    (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a> *search_dialog,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> user_data);</pre>
+<p>
+A function used to place the <em class="parameter"><code>search_dialog</code></em> for the <em class="parameter"><code>icon_view</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_dialog</code></em> :</span></p></td>
+<td> the search dialog window to place.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td> user data from <a class="link" href="ExoIconView.html#exo-icon-view-set-search-position-func" title="exo_icon_view_set_search_position_func ()"><code class="function">exo_icon_view_set_search_position_func()</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-enable-search"></a><h3>exo_icon_view_get_enable_search ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_view_get_enable_search     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns whether or not the <em class="parameter"><code>icon_view</code></em> allows to start
+interactive searching by typing in text.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> whether or not to let the user search
+              interactively.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-enable-search"></a><h3>exo_icon_view_set_enable_search ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_enable_search     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a> enable_search);</pre>
+<p>
+If <em class="parameter"><code>enable_search</code></em> is set, then the user can type in text to search through
+the <em class="parameter"><code>icon_view</code></em> interactively (this is sometimes called "typeahead find").
+</p>
+<p>
+Note that even if this is <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>, the user can still initiate a search
+using the "start-interactive-search" key binding.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>enable_search</code></em> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the user can search interactively.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-search-column"></a><h3>exo_icon_view_get_search_column ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                exo_icon_view_get_search_column     (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the column searched on by the interactive search code.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the column the interactive search code searches in.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-search-column"></a><h3>exo_icon_view_set_search_column ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_search_column     (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> search_column);</pre>
+<p>
+Sets <em class="parameter"><code>search_column</code></em> as the column where the interactive search code should search in.
+</p>
+<p>
+If the search column is set, user can use the "start-interactive-search" key
+binding to bring up search popup. The "enable-search" property controls
+whether simply typing text will also start an interactive search.
+</p>
+<p>
+Note that <em class="parameter"><code>search_column</code></em> refers to a column of the model.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_column</code></em> :</span></p></td>
+<td> the column of the model to search in, or -1 to disable searching.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-search-equal-func"></a><h3>exo_icon_view_get_search_equal_func ()</h3>
+<pre class="programlisting"><a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()">ExoIconViewSearchEqualFunc</a> exo_icon_view_get_search_equal_func
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the compare function currently in use.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the currently used compare function for the search code.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-search-equal-func"></a><h3>exo_icon_view_set_search_equal_func ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_search_equal_func (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()">ExoIconViewSearchEqualFunc</a> search_equal_func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_equal_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Datasets.html#GDestroyNotify"
+>GDestroyNotify</a> search_equal_destroy);</pre>
+<p>
+Sets the compare function for the interactive search capabilities;
+note that some like <code class="function">strcmp()</code> returning 0 for equality
+<a class="link" href="ExoIconView.html#ExoIconViewSearchEqualFunc" title="ExoIconViewSearchEqualFunc ()"><span class="type">ExoIconViewSearchEqualFunc</span></a> returns <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> on matches.
+</p>
+<p>
+Specifying <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>search_equal_func</code></em> will reset <em class="parameter"><code>icon_view</code></em> to use the default
+search equal function.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_equal_func</code></em> :</span></p></td>
+<td> the compare function to use during the search, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_equal_data</code></em> :</span></p></td>
+<td> user data to pass to <em class="parameter"><code>search_equal_func</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_equal_destroy</code></em> :</span></p></td>
+<td> destroy notifier for <em class="parameter"><code>search_equal_data</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-get-search-position-func"></a><h3>exo_icon_view_get_search_position_func ()</h3>
+<pre class="programlisting"><a class="link" href="ExoIconView.html#ExoIconViewSearchPositionFunc" title="ExoIconViewSearchPositionFunc ()">ExoIconViewSearchPositionFunc</a> exo_icon_view_get_search_position_func
+                                                        (const <a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view);</pre>
+<p>
+Returns the search dialog positioning function currently in use.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the currently used function for positioning the search dialog.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-view-set-search-position-func"></a><h3>exo_icon_view_set_search_position_func ()</h3>
+<pre class="programlisting">void                exo_icon_view_set_search_position_func
+                                                        (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                         <a class="link" href="ExoIconView.html#ExoIconViewSearchPositionFunc" title="ExoIconViewSearchPositionFunc ()">ExoIconViewSearchPositionFunc</a> search_position_func,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> search_position_data,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Datasets.html#GDestroyNotify"
+>GDestroyNotify</a> search_position_destroy);</pre>
+<p>
+Sets the function to use when positioning the seach dialog.
+</p>
+<p>
+Specifying <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> for <em class="parameter"><code>search_position_func</code></em> will reset <em class="parameter"><code>icon_view</code></em> to use the default
+search position function.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_position_func</code></em> :</span></p></td>
+<td> the function to use to position the search dialog, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_position_data</code></em> :</span></p></td>
+<td> user data to pass to <em class="parameter"><code>search_position_func</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>search_position_destroy</code></em> :</span></p></td>
+<td> destroy notifier for <em class="parameter"><code>search_position_data</code></em>, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.3
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--column-spacing"></a><h3>The <code class="literal">"column-spacing"</code> property</h3>
+<pre class="programlisting">  "column-spacing"           <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The column-spacing property specifies the space which is inserted between
+the columns of the icon view.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 6</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--columns"></a><h3>The <code class="literal">"columns"</code> property</h3>
+<pre class="programlisting">  "columns"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The columns property contains the number of the columns in which the
+items should be displayed. If it is -1, the number of columns will
+be chosen automatically to fill the available area.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--enable-search"></a><h3>The <code class="literal">"enable-search"</code> property</h3>
+<pre class="programlisting">  "enable-search"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+View allows user to search through columns interactively.</p>
+<p>
+
+</p>
+<p>Default value: TRUE</p>
+<p>Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--item-width"></a><h3>The <code class="literal">"item-width"</code> property</h3>
+<pre class="programlisting">  "item-width"               <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The item-width property specifies the width to use for each item. 
+If it is set to -1, the icon view will automatically determine a 
+suitable item size.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--layout-mode"></a><h3>The <code class="literal">"layout-mode"</code> property</h3>
+<pre class="programlisting">  "layout-mode"              <a class="link" href="ExoIconView.html#ExoIconViewLayoutMode" title="enum ExoIconViewLayoutMode">ExoIconViewLayoutMode</a>  : Read / Write</pre>
+<p>
+The layout-mode property specifies the way items are layed out in
+the <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>. This can be either <a class="link" href="ExoIconView.html#EXO-ICON-VIEW-LAYOUT-ROWS:CAPS"><code class="literal">EXO_ICON_VIEW_LAYOUT_ROWS</code></a>,
+which is the default, where items are layed out horizontally in
+rows from top to bottom, or <a class="link" href="ExoIconView.html#EXO-ICON-VIEW-LAYOUT-COLS:CAPS"><code class="literal">EXO_ICON_VIEW_LAYOUT_COLS</code></a>, where items
+are layed out vertically in columns from left to right.</p>
+<p>
+
+</p>
+<p>Default value: EXO_ICON_VIEW_LAYOUT_ROWS</p>
+<p>Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--margin"></a><h3>The <code class="literal">"margin"</code> property</h3>
+<pre class="programlisting">  "margin"                   <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The margin property specifies the space which is inserted 
+at the edges of the icon view.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 6</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--markup-column"></a><h3>The <code class="literal">"markup-column"</code> property</h3>
+<pre class="programlisting">  "markup-column"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The markup-column property contains the number of the model column
+containing markup information to be displayed. The markup column must be 
+of type <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#G-TYPE-STRING:CAPS"
+><span class="type">G_TYPE_STRING</span></a>. If this property and the text-column property 
+are both set to column numbers, it overrides the text column.
+If both are set to -1, no texts are displayed.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--model"></a><h3>The <code class="literal">"model"</code> property</h3>
+<pre class="programlisting">  "model"                    <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+>GtkTreeModel</a>*         : Read / Write</pre>
+<p>
+The model property contains the <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html"
+><span class="type">GtkTreeModel</span></a>, which should be
+display by this icon view. Setting this property to <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> turns
+off the display of anything.</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--orientation"></a><h3>The <code class="literal">"orientation"</code> property</h3>
+<pre class="programlisting">  "orientation"              <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkOrientation"
+>GtkOrientation</a>        : Read / Write</pre>
+<p>
+The orientation property specifies how the cells (i.e. the icon and 
+the text) of the item are positioned relative to each other.</p>
+<p>
+
+</p>
+<p>Default value: GTK_ORIENTATION_VERTICAL</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--pixbuf-column"></a><h3>The <code class="literal">"pixbuf-column"</code> property</h3>
+<pre class="programlisting">  "pixbuf-column"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The ::pixbuf-column property contains the number of the model column
+containing the pixbufs which are displayed. The pixbuf column must be 
+of type <span class="type">GDK_TYPE_PIXBUF</span>. Setting this property to -1 turns off the
+display of pixbufs.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--reorderable"></a><h3>The <code class="literal">"reorderable"</code> property</h3>
+<pre class="programlisting">  "reorderable"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+The reorderable property specifies if the items can be reordered
+by Drag and Drop.</p>
+<p>
+
+</p>
+<p>Default value: FALSE</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--row-spacing"></a><h3>The <code class="literal">"row-spacing"</code> property</h3>
+<pre class="programlisting">  "row-spacing"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The row-spacing property specifies the space which is inserted between
+the rows of the icon view.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 6</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--search-column"></a><h3>The <code class="literal">"search-column"</code> property</h3>
+<pre class="programlisting">  "search-column"            <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+Model column to search through when searching through code.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+<p>Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--selection-mode"></a><h3>The <code class="literal">"selection-mode"</code> property</h3>
+<pre class="programlisting">  "selection-mode"           <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkSelectionMode"
+>GtkSelectionMode</a>      : Read / Write</pre>
+<p>
+The selection-mode property specifies the selection mode of
+icon view. If the mode is <span class="type">GTK_SELECTION_MULTIPLE</span>, rubberband selection
+is enabled, for the other modes, only keyboard selection is possible.</p>
+<p>
+
+</p>
+<p>Default value: GTK_SELECTION_SINGLE</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--single-click"></a><h3>The <code class="literal">"single-click"</code> property</h3>
+<pre class="programlisting">  "single-click"             <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>              : Read / Write</pre>
+<p>
+Determines whether items can be activated by single or double clicks.</p>
+<p>
+
+</p>
+<p>Default value: FALSE</p>
+<p>Since  0.3.1.3
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--single-click-timeout"></a><h3>The <code class="literal">"single-click-timeout"</code> property</h3>
+<pre class="programlisting">  "single-click-timeout"     <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guint"
+>guint</a>                 : Read / Write</pre>
+<p>
+The amount of time in milliseconds after which a prelited item (an item
+which is hovered by the mouse cursor) will be selected automatically in
+single click mode. A value of <code class="literal">0</code> disables the automatic selection.</p>
+<p>
+
+</p>
+<p>Default value: 0</p>
+<p>Since  0.3.1.5
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--spacing"></a><h3>The <code class="literal">"spacing"</code> property</h3>
+<pre class="programlisting">  "spacing"                  <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The spacing property specifies the space which is inserted between
+the cells (i.e. the icon and the text) of an item.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 0</p>
+<p>Since  0.3.1
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--text-column"></a><h3>The <code class="literal">"text-column"</code> property</h3>
+<pre class="programlisting">  "text-column"              <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>                  : Read / Write</pre>
+<p>
+The text-column property contains the number of the model column
+containing the texts which are displayed. The text column must be 
+of type <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#G-TYPE-STRING:CAPS"
+><span class="type">G_TYPE_STRING</span></a>. If this property and the markup-column 
+property are both set to -1, no texts are displayed.</p>
+<p>
+
+</p>
+<p>Allowed values: &gt;= -1</p>
+<p>Default value: -1</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.style-property-details"></a><h2>Style Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--selection-box-alpha"></a><h3>The <code class="literal">"selection-box-alpha"</code> style property</h3>
+<pre class="programlisting">  "selection-box-alpha"      <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#guchar"
+>guchar</a>                : Read</pre>
+<p>Opacity of the selection box.</p>
+<p>Default value: 64</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView--selection-box-color"></a><h3>The <code class="literal">"selection-box-color"</code> style property</h3>
+<pre class="programlisting">  "selection-box-color"      <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Colormaps-and-Colors.html#GdkColor"
+>GdkColor</a>*             : Read</pre>
+<p>Color of the selection box.</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconView.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-activate-cursor-item"></a><h3>The <code class="literal">"activate-cursor-item"</code> signal</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-item-activated"></a><h3>The <code class="literal">"item-activated"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/gtk/GtkTreeModel.html#GtkTreePath"
+>GtkTreePath</a> *path,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>path</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-move-cursor"></a><h3>The <code class="literal">"move-cursor"</code> signal</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a>    *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/gtk/gtk-Standard-Enumerations.html#GtkMovementStep"
+>GtkMovementStep</a> step,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a>            count,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>        user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>step</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>count</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-select-all"></a><h3>The <code class="literal">"select-all"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-select-cursor-item"></a><h3>The <code class="literal">"select-cursor-item"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-selection-changed"></a><h3>The <code class="literal">"selection-changed"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run First</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-set-scroll-adjustments"></a><h3>The <code class="literal">"set-scroll-adjustments"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a>   *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/gtk/GtkAdjustment.html"
+>GtkAdjustment</a> *hadjustment,
+                                                        <a
+href="/usr/share/gtk-doc/html/gtk/GtkAdjustment.html"
+>GtkAdjustment</a> *vadjustment,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>       user_data)        : Run Last</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>hadjustment</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>vadjustment</code></em> :</span></p></td>
+<td>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-start-interactive-search"></a><h3>The <code class="literal">"start-interactive-search"</code> signal</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *iconb_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)       : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>iconb_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-toggle-cursor-item"></a><h3>The <code class="literal">"toggle-cursor-item"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoIconView-unselect-all"></a><h3>The <code class="literal">"unselect-all"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoIconView.html" title="ExoIconView">ExoIconView</a> *icon_view,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>     user_data)      : Run Last / Action</pre>
+<p>
+</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_view</code></em> :</span></p></td>
+<td> a <a class="link" href="ExoIconView.html" title="ExoIconView"><span class="type">ExoIconView</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

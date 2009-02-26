@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ExoXsessionClient</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-miscelleanous.html" title="Part VI. Miscelleanous">
+<link rel="prev" href="exo-HAL-Support-Functions.html" title="HAL Support Functions">
+<link rel="next" href="exo-tools.html" title="Part VII. Tools">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part I. Overview">
+<link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part IV. Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part V. Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part VI. Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part VII. Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part VIII. Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="exo-HAL-Support-Functions.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-miscelleanous.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="exo-tools.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#ExoXsessionClient.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#ExoXsessionClient.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#ExoXsessionClient.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#ExoXsessionClient.properties" class="shortcut">Properties</a>
+                   | 
+                  <a href="#ExoXsessionClient.signals" class="shortcut">Signals</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoXsessionClient"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ExoXsessionClient.top_of_page"></a>ExoXsessionClient</span></h2>
+<p>ExoXsessionClient — Lightweight session management support</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="ExoXsessionClient.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+                    <a class="link" href="ExoXsessionClient.html#ExoXsessionClient-struct" title="ExoXsessionClient">ExoXsessionClient</a>;
+<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a>*  <a class="link" href="ExoXsessionClient.html#exo-xsession-client-new-with-group" title="exo_xsession_client_new_with_group ()">exo_xsession_client_new_with_group</a>  (<a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a> *leader);
+<a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a>*          <a class="link" href="ExoXsessionClient.html#exo-xsession-client-get-group" title="exo_xsession_client_get_group ()">exo_xsession_client_get_group</a>       (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client);
+void                <a class="link" href="ExoXsessionClient.html#exo-xsession-client-set-group" title="exo_xsession_client_set_group ()">exo_xsession_client_set_group</a>       (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a> *leader);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoXsessionClient.html#exo-xsession-client-get-restart-command" title="exo_xsession_client_get_restart_command ()">exo_xsession_client_get_restart_command</a>
+                                                        (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> ***argv,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *argc);
+void                <a class="link" href="ExoXsessionClient.html#exo-xsession-client-set-restart-command" title="exo_xsession_client_set_restart_command ()">exo_xsession_client_set_restart_command</a>
+                                                        (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **argv,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> argc);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----ExoXsessionClient
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.properties"></a><h2>Properties</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoXsessionClient.html#ExoXsessionClient--group" title='The "group" property'>group</a>"                    <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a>*            : Read / Write
+  "<a class="link" href="ExoXsessionClient.html#ExoXsessionClient--restart-command" title='The "restart-command" property'>restart-command</a>"          <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html#GStrv"
+>GStrv</a>*                : Read / Write
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.signals"></a><h2>Signals</h2>
+<pre class="synopsis">
+  "<a class="link" href="ExoXsessionClient.html#ExoXsessionClient-save-yourself" title='The "save-yourself" signal'>save-yourself</a>"                                  : Run First
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.description"></a><h2>Description</h2>
+<p>
+This module provides application developers with lightweight
+session management functions, based on the X11R5 session management
+protocol. The X11R5 session management protocol is very limited in
+its functionality and flexibility compared to the newer X11R6
+session management protocol (XSMP), but - on the other hand - offers several
+advantages for applications that do not need the complicated features
+of the XSMP. Most importantly, the setup is much easier and
+faster than with XSMP, because no special actions must be taken.
+</p>
+<p>
+So, in case your application is simple in its session management
+requirements, e.g. it only needs to tell the session manager
+its restart command, you may want to use the <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>
+instead of a full featured XSMP client.
+</p>
+<p>
+Lets say, for example, you are developing a text editor, which
+should provide basic session management support, limited to
+proper restarting all editor windows that where left open
+when you logged off the X session. In case the user was editing
+a file when logging off, the same file should be opened in the
+window on next startup.
+</p>
+<div class="example">
+<a name="id2988657"></a><p class="title"><b>Example 4. Texteditor with <span class="structname">ExoXsessionClient</span></b></p>
+<div class="example-contents"><pre class="programlisting">
+static gchar *open_file_name = NULL;
+
+static void
+save_yourself (ExoXsessionClient *client)
+{
+  gchar *argv[2];
+
+  if (open_file_name != NULL)
+    {
+      argv[0] = "myeditor";
+      argv[1] = open_file_name;
+
+      exo_xsession_client_set_restart_command (client, argv, 2);
+    }
+  else
+    {
+      argv[0] = "myeditor";
+
+      exo_xsession_client_set_restart_command (client, argv, 1);
+    }
+}
+
+/* ... */
+
+int
+main (int argc, char **argv)
+{
+  ExoXsessionClient *client;
+  GdkDisplay        *display;
+  GdkWindow         *leader;
+  GtkWidget         *window;
+
+  gtk_init (&amp;argc, &amp;argv);
+
+  if (argc &gt; 1)
+    open_file_name = argv[1];
+
+  /* create the main window */
+  window = create_window ();
+
+  /* setup the session client */
+  display = gtk_widget_get_display (window);
+  leader = gdk_display_get_default_group (display);
+  client = exo_xsession_client_new_with_group (leader);
+  g_signal_connect (G_OBJECT (client), "save-yourself",
+                    G_CALLBACK (save_yourself), NULL);
+
+  /* ... */
+}
+</pre></div>
+</div>
+<br class="example-break"><p>
+This example demonstrates the basic handling of <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>. It is
+oversimplified, but we hope you get the point. The rule of thumb is, use
+<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a> if you can store all session data in the restart command,
+else use a full-featured XSMP client.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoXsessionClient-struct"></a><h3>ExoXsessionClient</h3>
+<pre class="programlisting">typedef struct _ExoXsessionClient ExoXsessionClient;</pre>
+<p>
+  The <span class="structname">ExoXsessionClient</span> struct contains only private fields and should not be directly accessed.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-xsession-client-new-with-group"></a><h3>exo_xsession_client_new_with_group ()</h3>
+<pre class="programlisting"><a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a>*  exo_xsession_client_new_with_group  (<a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a> *leader);</pre>
+<p>
+Creates a new <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a> and associates it
+with the group, which is lead by <em class="parameter"><code>leader</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>leader</code></em> :</span></p></td>
+<td> The client leader window of the group.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> A newly allocated <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-xsession-client-get-group"></a><h3>exo_xsession_client_get_group ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a>*          exo_xsession_client_get_group       (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client);</pre>
+<p>
+Returns the client leader window of the group with which
+the <em class="parameter"><code>client</code></em> is associated or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if <em class="parameter"><code>client</code></em> is not
+associated with any group.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>client</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> The client leader window of the group
+              with which <em class="parameter"><code>client</code></em> is associated or
+              <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-xsession-client-set-group"></a><h3>exo_xsession_client_set_group ()</h3>
+<pre class="programlisting">void                exo_xsession_client_set_group       (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a> *leader);</pre>
+<p>
+Sets the group according to the specified <em class="parameter"><code>leader</code></em>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>client</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>leader</code></em> :</span></p></td>
+<td> The client leader window of a group or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-xsession-client-get-restart-command"></a><h3>exo_xsession_client_get_restart_command ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_xsession_client_get_restart_command
+                                                        (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> ***argv,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> *argc);</pre>
+<p>
+Retrieves the restart command previously set on <em class="parameter"><code>client</code></em>. The
+result is stored in <em class="parameter"><code>argv</code></em> and should be freed using 
+<a
+href="/usr/share/gtk-doc/html/glib/glib-String-Utility-Functions.html#g-strfreev"
+><code class="function">g_strfreev()</code></a> when no longer needed.
+</p>
+<p>
+See <a class="link" href="ExoXsessionClient.html#exo-xsession-client-set-restart-command" title="exo_xsession_client_set_restart_command ()"><code class="function">exo_xsession_client_set_restart_command()</code></a> for further
+explanation.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>client</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>argv</code></em> :</span></p></td>
+<td> Pointer to the location where the
+           pointer to the argument vector should
+           be stored to.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>argc</code></em> :</span></p></td>
+<td> Pointer to the location where the
+           number of arguments should be stored
+           to or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> on success, else <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-xsession-client-set-restart-command"></a><h3>exo_xsession_client_set_restart_command ()</h3>
+<pre class="programlisting">void                exo_xsession_client_set_restart_command
+                                                        (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> **argv,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gint"
+>gint</a> argc);</pre>
+<p>
+Sets the <code class="literal">WM_COMMAND</code> property on the client leader window,
+which instructs the session manager (or session-enabled window
+manager) how to restart the application on next login.
+</p>
+<p>
+This function can only be used if <em class="parameter"><code>client</code></em> is associated with
+a client leader window.
+</p>
+<p>
+If <em class="parameter"><code>argc</code></em> is specify as -1, the argument vector <em class="parameter"><code>argv</code></em> is expected
+to be <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>-terminated and <em class="parameter"><code>argc</code></em> will be automatically
+calculated from <em class="parameter"><code>argv</code></em>.
+</p>
+<p>
+Please take note, that <a
+href="/usr/share/gtk-doc/html/gtk/gtk-General.html#gtk-init"
+><code class="function">gtk_init()</code></a> automatically sets the
+<code class="literal">WM_COMMAND</code> property on all client leader windows that are
+implicitly created by Gtk+. So, you may only need to call
+this function in response to the ::save-yourself signal.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>client</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>argv</code></em> :</span></p></td>
+<td> The argument vector.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>argc</code></em> :</span></p></td>
+<td> The number of arguments in <em class="parameter"><code>argv</code></em> or -1.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.property-details"></a><h2>Property Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoXsessionClient--group"></a><h3>The <code class="literal">"group"</code> property</h3>
+<pre class="programlisting">  "group"                    <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Windows.html#GdkWindow"
+>GdkWindow</a>*            : Read / Write</pre>
+<p>
+</p>
+<p>
+
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="ExoXsessionClient--restart-command"></a><h3>The <code class="literal">"restart-command"</code> property</h3>
+<pre class="programlisting">  "restart-command"          <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Boxed-Types.html#GStrv"
+>GStrv</a>*                : Read / Write</pre>
+<p>
+</p>
+<p>
+
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoXsessionClient.signal-details"></a><h2>Signal Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoXsessionClient-save-yourself"></a><h3>The <code class="literal">"save-yourself"</code> signal</h3>
+<pre class="programlisting">void                user_function                      (<a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient">ExoXsessionClient</a> *client,
+                                                        <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a>           user_data)      : Run First</pre>
+<p>
+This signal is emitted when <em class="parameter"><code>client</code></em> receives a <code class="literal">WM_SAVE_YOURSELF</code>
+message from the session manager or the window manager on the 
+specified client leader window.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>client</code></em> :</span></p></td>
+<td> An <a class="link" href="ExoXsessionClient.html" title="ExoXsessionClient"><span class="type">ExoXsessionClient</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user_data</code></em> :</span></p></td>
+<td>user data set when the signal handler was connected.</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

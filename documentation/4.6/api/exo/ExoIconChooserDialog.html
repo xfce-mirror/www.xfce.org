@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>ExoIconChooserDialog</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="exo Reference Manual">
+<link rel="up" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="prev" href="ExoIconBar.html" title="ExoIconBar">
+<link rel="next" href="ExoIconView.html" title="ExoIconView">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="part" href="exo-overview.html" title="Part I. Overview">
+<link rel="part" href="exo-toolbars.html" title="Part II. Editable Toolbars">
+<link rel="part" href="exo-widgets.html" title="Part III. Additional widgets">
+<link rel="part" href="exo-cell-renderers.html" title="Part IV. Additional cell renderers">
+<link rel="part" href="exo-extensions.html" title="Part V. Extensions to existing frameworks">
+<link rel="part" href="exo-miscelleanous.html" title="Part VI. Miscelleanous">
+<link rel="part" href="exo-tools.html" title="Part VII. Tools">
+<link rel="part" href="exo-deprecated-widgets.html" title="Part VIII. Deprecated widgets">
+<link rel="chapter" href="ch01.html" title="Visual Index">
+<link rel="index" href="ix01.html" title="Index">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="ExoIconBar.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="exo-widgets.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">exo Reference Manual</th>
+<td><a accesskey="n" href="ExoIconView.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#ExoIconChooserDialog.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#ExoIconChooserDialog.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#ExoIconChooserDialog.object-hierarchy" class="shortcut">Object Hierarchy</a>
+                   | 
+                  <a href="#ExoIconChooserDialog.implemented-interfaces" class="shortcut">Implemented Interfaces</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="ExoIconChooserDialog"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="ExoIconChooserDialog.top_of_page"></a>ExoIconChooserDialog</span></h2>
+<p>ExoIconChooserDialog — Dialog to select icons</p>
+</td>
+<td valign="top" align="right"><img src="exo-icon-chooser-dialog.png"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="ExoIconChooserDialog.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+
+#include &lt;exo/exo.h&gt;
+
+                    <a class="link" href="ExoIconChooserDialog.html#ExoIconChooserDialog-struct" title="ExoIconChooserDialog">ExoIconChooserDialog</a>;
+<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          <a class="link" href="ExoIconChooserDialog.html#exo-icon-chooser-dialog-new" title="exo_icon_chooser_dialog_new ()">exo_icon_chooser_dialog_new</a>         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *title,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a> *parent,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *first_button_text,
+                                                         ...);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              <a class="link" href="ExoIconChooserDialog.html#exo-icon-chooser-dialog-get-icon" title="exo_icon_chooser_dialog_get_icon ()">exo_icon_chooser_dialog_get_icon</a>    (<a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog">ExoIconChooserDialog</a> *icon_chooser_dialog);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            <a class="link" href="ExoIconChooserDialog.html#exo-icon-chooser-dialog-set-icon" title="exo_icon_chooser_dialog_set_icon ()">exo_icon_chooser_dialog_set_icon</a>    (<a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog">ExoIconChooserDialog</a> *icon_chooser_dialog,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *icon);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconChooserDialog.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+>GObject</a>
+   +----<a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GInitiallyUnowned"
+>GInitiallyUnowned</a>
+         +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkObject.html"
+>GtkObject</a>
+               +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>
+                     +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkContainer.html"
+>GtkContainer</a>
+                           +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkBin.html"
+>GtkBin</a>
+                                 +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a>
+                                       +----<a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html"
+>GtkDialog</a>
+                                             +----ExoIconChooserDialog
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconChooserDialog.implemented-interfaces"></a><h2>Implemented Interfaces</h2>
+<p>
+ExoIconChooserDialog implements
+ AtkImplementorIface and  <a
+href="/usr/share/gtk-doc/html/gtk/gtk-gtkbuildable.html#GtkBuildable"
+>GtkBuildable</a>.</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconChooserDialog.description"></a><h2>Description</h2>
+<p>
+  The <a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog"><span class="type">ExoIconChooserDialog</span></a> class provides an easy to use dialog to ask the user to select either a named icon from the
+  selected icon theme, or an image file from the local file system.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconChooserDialog.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="ExoIconChooserDialog-struct"></a><h3>ExoIconChooserDialog</h3>
+<pre class="programlisting">typedef struct _ExoIconChooserDialog ExoIconChooserDialog;</pre>
+<p>
+  The <span class="structname">ExoIconChooserDialog</span> struct contains only private fields and should not be directly accessed.
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-chooser-dialog-new"></a><h3>exo_icon_chooser_dialog_new ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/gtk/GtkWidget.html"
+>GtkWidget</a>*          exo_icon_chooser_dialog_new         (const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *title,
+                                                         <a
+href="/usr/share/gtk-doc/html/gtk/GtkWindow.html"
+>GtkWindow</a> *parent,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *first_button_text,
+                                                         ...);</pre>
+<p>
+Creates a new <a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog"><span class="type">ExoIconChooserDialog</span></a>. This function is analogous to <a
+href="/usr/share/gtk-doc/html/gtk/GtkDialog.html#gtk-dialog-new-with-buttons"
+><code class="function">gtk_dialog_new_with_buttons()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>title</code></em> :</span></p></td>
+<td> title of the dialog, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>parent</code></em> :</span></p></td>
+<td> transient parent of the dialog, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>first_button_text</code></em> :</span></p></td>
+<td> stock-id or text to go in the first button, or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>...</code></em> :</span></p></td>
+<td> response-id for the first button, then additional (button, id) pairs,
+                     ending with <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> a new <a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog"><span class="type">ExoIconChooserDialog</span></a>.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.9
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-chooser-dialog-get-icon"></a><h3>exo_icon_chooser_dialog_get_icon ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a>*              exo_icon_chooser_dialog_get_icon    (<a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog">ExoIconChooserDialog</a> *icon_chooser_dialog);</pre>
+<p>
+Returns the currently selected icon for the <em class="parameter"><code>icon_chooser_dialog</code></em>. The selected icon can be either
+a named icon (from the active icon theme) or the absolute path to an image file in the file system.
+You can distinguish between those two icon types using the <a
+href="/usr/share/gtk-doc/html/glib/glib-Miscellaneous-Utility-Functions.html#g-path-is-absolute"
+><code class="function">g_path_is_absolute()</code></a> function. If no
+icon is currently selected, <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> will be returned.
+</p>
+<p>
+The caller is responsible to free the returned string using <a
+href="/usr/share/gtk-doc/html/glib/glib-Memory-Allocation.html#g-free"
+><code class="function">g_free()</code></a> when no longer needed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_chooser_dialog</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog"><span class="type">ExoIconChooserDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> the currently selected icon for <em class="parameter"><code>icon_chooser_dialog</code></em> or <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#NULL:CAPS"
+><code class="literal">NULL</code></a> if no icon is selected.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.9
+</p>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="exo-icon-chooser-dialog-set-icon"></a><h3>exo_icon_chooser_dialog_set_icon ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gboolean"
+>gboolean</a>            exo_icon_chooser_dialog_set_icon    (<a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog">ExoIconChooserDialog</a> *icon_chooser_dialog,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *icon);</pre>
+<p>
+Preselects the specified <em class="parameter"><code>icon</code></em> in the <em class="parameter"><code>icon_chooser_dialog</code></em>, and returns <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the
+<em class="parameter"><code>icon</code></em> was successfully selected.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon_chooser_dialog</code></em> :</span></p></td>
+<td> an <a class="link" href="ExoIconChooserDialog.html" title="ExoIconChooserDialog"><span class="type">ExoIconChooserDialog</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>icon</code></em> :</span></p></td>
+<td> the themed icon or the absolute path to an image file to select.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#TRUE:CAPS"
+><code class="literal">TRUE</code></a> if the <em class="parameter"><code>icon</code></em> was successfully preselected in the <em class="parameter"><code>icon_chooser_dialog</code></em>,
+              <a
+href="/usr/share/gtk-doc/html/glib/glib-Standard-Macros.html#FALSE:CAPS"
+><code class="literal">FALSE</code></a> otherwise.
+
+</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since  0.3.1.9
+</p>
+</div>
+</div>
+<div class="refsect1" lang="en">
+<a name="ExoIconChooserDialog.see-also"></a><h2>See Also</h2>
+<p>
+  <a class="ulink" href="" target="_top">GtkIconTheme</a>
+</p>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>

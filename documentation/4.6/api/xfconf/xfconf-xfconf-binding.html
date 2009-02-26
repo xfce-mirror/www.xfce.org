@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Xfconf-GObject Binding</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.73.2">
+<link rel="start" href="index.html" title="Xfconf Reference Manual">
+<link rel="up" href="ch03.html" title="Xfconf Client Library">
+<link rel="prev" href="xfconf-xfconf-channel.html" title="XfconfChannel">
+<meta name="generator" content="GTK-Doc V1.10 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="chapter" href="ch01.html" title="Xfconf Core Functionality">
+<link rel="chapter" href="ch02.html" title="Xfconf Daemon">
+<link rel="chapter" href="ch03.html" title="Xfconf Client Library">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="xfconf-xfconf-channel.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch03.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Xfconf Reference Manual</th>
+<td> </td>
+</tr>
+<tr><td colspan="5" class="shortcuts"><nobr><a href="#xfconf-xfconf-binding.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#xfconf-xfconf-binding.description" class="shortcut">Description</a></nobr></td></tr>
+</table>
+<div class="refentry" lang="en">
+<a name="xfconf-xfconf-binding"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="xfconf-xfconf-binding.top_of_page"></a>Xfconf-GObject Binding</span></h2>
+<p>Xfconf-GObject Binding — Functions to bind Xfconf properties to GObject properties</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsynopsisdiv">
+<a name="xfconf-xfconf-binding.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a>              <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-bind" title="xfconf_g_property_bind ()">xfconf_g_property_bind</a>              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> xfconf_property_type,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);
+<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a>              <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-bind-gdkcolor" title="xfconf_g_property_bind_gdkcolor ()">xfconf_g_property_bind_gdkcolor</a>     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);
+void                <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-unbind" title="xfconf_g_property_unbind ()">xfconf_g_property_unbind</a>            (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a> id);
+void                <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-unbind-by-property" title="xfconf_g_property_unbind_by_property ()">xfconf_g_property_unbind_by_property</a>
+                                                        (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);
+void                <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-unbind-all" title="xfconf_g_property_unbind_all ()">xfconf_g_property_unbind_all</a>        (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> channel_or_object);
+</pre>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-binding.description"></a><h2>Description</h2>
+<p>
+Often it may be useful to bind an Xfconf property to a GObject property.
+Settings dialogs often display the current value of an Xfconf property,
+and a user may edit the value to change the value in the Xfconf store.
+If the Xfconf property changes outside the settings dialog, the user will
+usually want to see the settings dialog automatically update to reflect
+the new value.
+
+With a single line of code, Xfconf's binding functionality can automate
+all this.
+</p>
+</div>
+<div class="refsect1" lang="en">
+<a name="xfconf-xfconf-binding.details"></a><h2>Details</h2>
+<div class="refsect2" lang="en">
+<a name="xfconf-g-property-bind"></a><h3>xfconf_g_property_bind ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a>              xfconf_g_property_bind              (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/gobject/gobject-Type-Information.html#GType"
+>GType</a> xfconf_property_type,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);</pre>
+<p>
+Binds an Xfconf property to a <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> property.  If the property
+is changed via either the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> or Xfconf, the corresponding
+property will also be updated.
+</p>
+<p>
+Note that <em class="parameter"><code>xfconf_property_type</code></em> is required since <em class="parameter"><code>xfconf_property</code></em>
+may or may not already exist in the Xfconf store.  The type of
+<em class="parameter"><code>object_property</code></em> will be determined automatically.  If the two
+types do not match, a conversion will be attempted.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>xfconf_property</code></em> :</span></p></td>
+<td> A property on <em class="parameter"><code>channel</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>xfconf_property_type</code></em> :</span></p></td>
+<td> The type of <em class="parameter"><code>xfconf_property</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object_property</code></em> :</span></p></td>
+<td> A valid property on <em class="parameter"><code>object</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> an ID number that can be used to later remove the
+         binding.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-g-property-bind-gdkcolor"></a><h3>xfconf_g_property_bind_gdkcolor ()</h3>
+<pre class="programlisting"><a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a>              xfconf_g_property_bind_gdkcolor     (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);</pre>
+<p>
+Binds an Xfconf property to a <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> property of type
+GDK_TYPE_COLOR (aka a <a
+href="/usr/share/gtk-doc/html/gdk/gdk-Colormaps-and-Colors.html#GdkColor"
+><span class="type">GdkColor</span></a> struct).  If the property
+is changed via either the <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> or Xfconf, the corresponding
+property will also be updated.
+</p>
+<p>
+This is a special-case binding; the GdkColor struct is not
+ideal as-is for binding to a property, so it is stored in the
+Xfconf store as four 16-bit unsigned ints (red, green, blue, alpha).
+Since GdkColor (currently) only supports RGB and not RGBA,
+the last value will always be set to 0xFFFF.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>xfconf_property</code></em> :</span></p></td>
+<td> A property on <em class="parameter"><code>channel</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object_property</code></em> :</span></p></td>
+<td> A valid property on <em class="parameter"><code>object</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td> an ID number that can be used to later remove the
+         binding.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-g-property-unbind"></a><h3>xfconf_g_property_unbind ()</h3>
+<pre class="programlisting">void                xfconf_g_property_unbind            (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gulong"
+>gulong</a> id);</pre>
+<p>
+Removes an Xfconf/GObject property binding based on the binding
+ID number.  See <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-bind" title="xfconf_g_property_bind ()"><code class="function">xfconf_g_property_bind()</code></a>.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>id</code></em> :</span></p></td>
+<td> A binding ID number.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-g-property-unbind-by-property"></a><h3>xfconf_g_property_unbind_by_property ()</h3>
+<pre class="programlisting">void                xfconf_g_property_unbind_by_property
+                                                        (<a class="link" href="xfconf-xfconf-channel.html#XfconfChannel">XfconfChannel</a> *channel,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *xfconf_property,
+                                                         <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> object,
+                                                         const <a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gchar"
+>gchar</a> *object_property);</pre>
+<p>
+Causes an Xfconf channel previously bound to a <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> property
+(see <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-bind" title="xfconf_g_property_bind ()"><code class="function">xfconf_g_property_bind()</code></a>) to no longer be bound.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>channel</code></em> :</span></p></td>
+<td> An <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>xfconf_property</code></em> :</span></p></td>
+<td> A bound property on <em class="parameter"><code>channel</code></em>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a>.
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>object_property</code></em> :</span></p></td>
+<td> A bound property on <em class="parameter"><code>object</code></em>.
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2" lang="en">
+<a name="xfconf-g-property-unbind-all"></a><h3>xfconf_g_property_unbind_all ()</h3>
+<pre class="programlisting">void                xfconf_g_property_unbind_all        (<a
+href="/usr/share/gtk-doc/html/glib/glib-Basic-Types.html#gpointer"
+>gpointer</a> channel_or_object);</pre>
+<p>
+Unbinds all Xfconf channel bindings (see <a class="link" href="xfconf-xfconf-binding.html#xfconf-g-property-bind" title="xfconf_g_property_bind ()"><code class="function">xfconf_g_property_bind()</code></a>)
+to <em class="parameter"><code>object</code></em>.  If <em class="parameter"><code>object</code></em> is an <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>, it will unbind all
+xfconf properties on that channel.  If <em class="parameter"><code>object</code></em> is a regular <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a>
+with properties bound to a channel, all those bindings will be
+removed.</p>
+<p>
+
+</p>
+<div class="variablelist"><table border="0">
+<col align="left" valign="top">
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>channel_or_object</code></em> :</span></p></td>
+<td> A <a
+href="/usr/share/gtk-doc/html/gobject/gobject-The-Base-Object-Type.html#GObject"
+><span class="type">GObject</span></a> or <a class="link" href="xfconf-xfconf-channel.html#XfconfChannel"><span class="type">XfconfChannel</span></a>.
+</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.10</div>
+</body>
+</html>
