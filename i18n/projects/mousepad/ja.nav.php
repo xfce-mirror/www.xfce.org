@@ -11,7 +11,7 @@
 		    <li><a href="/projects/thunar">Thunarファイルマネージャ</a></li>
 		    <li><a href="/projects/xfce4-mixer">音量調節</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
-		    <li><a href="/projects/xfce4-dev-tools">Xfce 開発ツール</a></li>
+		    <li><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce 開発ツール</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
 		</ul>
 	</li>

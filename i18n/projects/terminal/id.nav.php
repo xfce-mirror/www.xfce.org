@@ -11,7 +11,7 @@
 		    <li><a href="/projects/thunar">Manajer Berkas Thunar</a></li>
 		    <li><a href="/projects/xfce4-mixer">Kendali Volume</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
-		    <li><a href="/projects/xfce4-dev-tools">Alat Pengembangan Xfce</a></li>
+		    <li><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Alat Pengembangan Xfce</a></li>
 		    <li><a href="/projects/xfce4-terminal">Terminal Xfce4</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
 		</ul>

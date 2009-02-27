@@ -11,7 +11,7 @@
 		    <li><a href="/projects/thunar">Përgjegjësi i kartelave Thunar</a></li>
 		    <li><a href="/projects/xfce4-mixer">Kontroll Volumi</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
-		    <li><a href="/projects/xfce4-dev-tools">Mjete Zhvillimi Xfce</a></li>
+		    <li><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Mjete Zhvillimi Xfce</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
 		</ul>
 	</li>

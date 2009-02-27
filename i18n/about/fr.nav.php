@@ -1,7 +1,7 @@
 <ul>
 	<li><a href="/about/">À propos</a></li>
 	<li><a href="/about/features">Caractéristiques</a></li>
-	<li><a href="/about/tour">Tour de Xfce 4.4</a>
+	<li><a href="/about/tour">Tour de Xfce 4.6</a>
 		<ul>
 			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Caractéristiques de Thunar</a></li>
 		</ul>
