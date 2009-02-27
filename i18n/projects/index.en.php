@@ -10,7 +10,7 @@ Every project has it's own project page to provide additionnal information.
 
 
 
-<div id="core-components">
+<div class="projects">
 
   <h2>Core Components</h2>
 
@@ -182,7 +182,7 @@ Every project has it's own project page to provide additionnal information.
 
 <div class="clearboth"></div>
 
-<div id="applications">
+<div class="projects">
 
   <h2>Applications</h2>
 
@@ -385,80 +385,164 @@ Every project has it's own project page to provide additionnal information.
 
 <div class="clearboth"></div>
 
-<h2 id="framework">Framework</h2>
-<table width="99%" border="0" cellpadding="0" cellspacing="10">
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>The core Xfce libraries are targeted at desktop development, libexo is targeted at application developement.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="pyxfce" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://pyxfce.xfce.org">Python Bindings</a></h3>
-			<p>Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfc" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
-			<p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce
-			applications on UNIX-like operating systems such as Linux.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfce4-perl" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
-      <p>Perl bindings for Xfce. If you are old-fashioned or just don like C and Python, you can 
-      use Perl to write Xfce applications. </p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="dbh" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
-			<p>DBH is a library to create Disk Based Hashtables on POSIX systems.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" />
-		</td>
-		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
-			<p>The Xfce developer tools provide a collection of scripts and M4 macros that
-			are required to build the Xfce core desktop components.</p>
-		</td>
-	</tr>
-</table>
+<div class="projects">
 
-<h2 id="art">Art and Graphics</h2>
-<table width="99%" border="0" cellpadding="0" cellspacing="10">
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" />
-		</td>
-		<td width="33%" valign="top">
-			<h3>GTK+ Theme Engine</h3>
-			<p>A theme engine for GTK+. Not required for the desktop, but it's a nice theme
-			engine so you might just as well give it a try.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" />
-		</td>
-		<td width="33%" valign="top">
-			<h3>Icon Theme</h3>
-			<p>Default icon theme for Xfce. It includes both PNG and SVG icons</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/layout/images/spacer.gif" alt="spacer" />
-		</td>
-		<td width="33%" valign="top">&nbsp;</td>
-	</tr>
-</table>
+  <h2>Framework</h2>
+
+  <div class="column1">
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
+        
+        <p>
+          <img src="/images/projects/library.png" alt="libexo" />
+          
+          The core Xfce libraries are targeted at desktop development, libexo is targeted
+          at application developement.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">
+
+			  <h3><a href="http://pyxfce.xfce.org">Python Bindings</a></h3>
+      
+			  <p>
+          <img src="/images/projects/library.png" alt="pyxfce" />
+          
+          Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">  
+
+			  <h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
+        
+			  <p>
+          <img src="/images/projects/library.png" alt="xfc" />
+
+          The Xfce Foundation Classes are a set of integrated C++ classes for
+          developing Xfce applications on UNIX-like operating systems such as Linux.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="column2">
+
+    <div class="component">
+
+      <div class="component-content">
+      
+  		  <h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
+        
+        <p>
+          <img src="/images/projects/library.png" alt="xfce4-perl" />
+
+          Perl bindings for Xfce. If you are old-fashioned or just don like C and Python,
+          you can use Perl to write Xfce applications.
+        </p>
+        
+      </div>
+      
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
+
+        <p>
+          <img src="/images/projects/library.png" alt="dbh" />
+          DBH is a library to create Disk Based Hashtables on POSIX systems.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">
+
+			  <h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
+        
+			  <p>
+          <img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" />
+
+          The Xfce developer tools provide a collection of scripts and M4 macros that
+			    are required to build the Xfce core desktop components.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clearboth"></div>
+
+<div class="projects">
+
+  <h2>Art and Graphics</h2>
+
+  <div class="column1">
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <h3>GTK+ Theme Engine</h3>
+        
+        <p>
+          <img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" />
+
+          A theme engine for GTK+. Not required for the desktop, but it's a nice theme
+          engine so you might just as well give it a try.
+        </p>
+
+      </div>
+      
+    </div>
+
+  </div>
+
+  <div class="column2">
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <h3>Icon Theme</h3>
+        
+        <p>
+          <img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" />
+
+          Default icon theme for Xfce. It includes both PNG and SVG icons.
+        </p>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
