@@ -8,180 +8,182 @@ The Xfce project contains several separated projects for each part of the deskto
 Every project has it's own project page to provide additionnal information.
 </p>
 
-<h2 id="core">Core Components</h2>
+
 
 <div id="core-components">
 
-    <div class="column1">
+  <h2>Core Components</h2>
 
-      <div class="component">
+  <div class="column1">
 
-        <div class="component-content">
+    <div class="component">
 
-          <img src="/images/projects/xfwm4.png" alt="xfwm4" />
+      <div class="component-content">
 
-          <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
-          
-          <p>
-            It manages the placement of application windows on the screen,
-            provides window decorations and manages workspaces or virtual desktops.
-          </p>
-          
-        </div> 
+        <img src="/images/projects/xfwm4.png" alt="xfwm4" />
+
+        <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
         
-      </div>
-
-      <div class="component">
-
-        <div class="component-content">
-
-          <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
-
-          <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
-          
-          <p>
-            The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
-            menus, a clock, a desktop switcher and more.
-          </p>
-
-        </div>
+        <p>
+          It manages the placement of application windows on the screen,
+          provides window decorations and manages workspaces or virtual desktops.
+        </p>
         
-      </div>
-
-      <div class="component">
+      </div> 
       
-        <div class="component-content">
-
-          <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
-
-          <h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
-          
-          <p>
-            This application sets the background image with optionnal desktop icons. It
-            also provides a window menu and an applications menu.
-          </p>
-
-        </div>
-        
-      </div>
-
-      <div class="component">
-
-        <div class="component-content">
-
-          <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
-
-          <h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
-
-          <p>
-            The session manager controls the startup and shutdown of the Xfce Desktop Environment.
-            It also allows you to save your sessions.
-          </p>
-
-        </div>
-
-      </div>
-
-      <div class="component">
-
-        <div class="component-content">
-
-          <img src="/images/projects/xfprint.png" alt="xfprint" />
-
-          <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
-
-          <p>
-            Provides a graphical frontend for printing. Xfprint can use either
-            CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
-            printing system you choosed.
-          </p>
-
-        </div>
-
-      </div>
-
     </div>
 
-    <div class="column2">
+    <div class="component">
 
-      <div class="component">
-      
-        <div class="component-content">
+      <div class="component-content">
 
-          <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
+        <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
+
+        <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
         
-          <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
-          
-          <p>
-            It allows you to configure every detail of your desktop environment: mouse,
-            keyboard, accessibility options, appearance, preferred applications...
-          </p>
-
-        </div>
-        
-      </div>
-
-      <div class="component">
-      
-        <div class="component-content">
-
-          <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
-
-          <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
-          
-          <p>
-            Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
-            launching applications and several important scripts that are used by other packages.
-          </p>
-
-        </div>
+        <p>
+          The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
+          menus, a clock, a desktop switcher and more.
+        </p>
 
       </div>
-
-      <div class="component">
       
-        <div class="component-content">
-
-          <img src="/images/projects/library.png" alt="library" />
-        
-          <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-          
-          <p>
-            The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
-            are used by almost any Xfce application: they provide essential functions and
-            widgets.
-          </p>
-
-        </div>
-        
-      </div>
-
-      <div class="component">
-      
-        <div class="component-content">
-
-          <img src="/images/projects/library.png" alt="xfconf" />
-        
-          <h3><a href="/projects/xfconf/">Xfconf</a></h3>
-          
-          <p>
-            Simple client-server configuration storage and query system used in most Xfce
-            applications.
-          </p>
-
-        </div>
-        
-      </div>
-
     </div>
+
+    <div class="component">
     
+      <div class="component-content">
+
+        <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
+
+        <h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
+        
+        <p>
+          This application sets the background image with optionnal desktop icons. It
+          also provides a window menu and an applications menu.
+        </p>
+
+      </div>
+      
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
+
+        <h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
+
+        <p>
+          The session manager controls the startup and shutdown of the Xfce Desktop Environment.
+          It also allows you to save your sessions.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+
+      <div class="component-content">
+
+        <img src="/images/projects/xfprint.png" alt="xfprint" />
+
+        <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
+
+        <p>
+          Provides a graphical frontend for printing. Xfprint can use either
+          CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
+          printing system you choosed.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="column2">
+
+    <div class="component">
+    
+      <div class="component-content">
+
+        <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
+      
+        <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
+        
+        <p>
+          It allows you to configure every detail of your desktop environment: mouse,
+          keyboard, accessibility options, appearance, preferred applications...
+        </p>
+
+      </div>
+      
+    </div>
+
+    <div class="component">
+    
+      <div class="component-content">
+
+        <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
+
+        <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
+        
+        <p>
+          Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
+          launching applications and several important scripts that are used by other packages.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+    
+      <div class="component-content">
+
+        <img src="/images/projects/library.png" alt="library" />
+      
+        <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
+        
+        <p>
+          The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
+          are used by almost any Xfce application: they provide essential functions and
+          widgets.
+        </p>
+
+      </div>
+      
+    </div>
+
+    <div class="component">
+    
+      <div class="component-content">
+
+        <img src="/images/projects/library.png" alt="xfconf" />
+      
+        <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+        
+        <p>
+          Simple client-server configuration storage and query system used in most Xfce
+          applications.
+        </p>
+
+      </div>
+      
+    </div>
+
+  </div>
+  
 </div>
 
 <div class="clearboth"></div>
 
 <div id="applications">
 
-  <h2 id="applications">Applications</h2>
+  <h2>Applications</h2>
 
   <div class="column1">
 
