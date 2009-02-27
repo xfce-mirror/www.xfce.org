@@ -20,11 +20,11 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component-content">
 
-        <img src="/images/projects/xfwm4.png" alt="xfwm4" />
-
         <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
         
         <p>
+          <img src="/images/projects/xfwm4.png" alt="xfwm4" />
+
           It manages the placement of application windows on the screen,
           provides window decorations and manages workspaces or virtual desktops.
         </p>
@@ -37,11 +37,11 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component-content">
 
-        <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
-
         <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
         
         <p>
+          <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
+
           The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
           menus, a clock, a desktop switcher and more.
         </p>
@@ -51,14 +51,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-    
-      <div class="component-content">
 
-        <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
+      <div class="component-content">
 
         <h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
         
         <p>
+          <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
+
           This application sets the background image with optionnal desktop icons. It
           also provides a window menu and an applications menu.
         </p>
@@ -71,11 +71,11 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component-content">
 
-        <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
-
         <h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
 
         <p>
+          <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
+
           The session manager controls the startup and shutdown of the Xfce Desktop Environment.
           It also allows you to save your sessions.
         </p>
@@ -88,11 +88,12 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component-content">
 
-        <img src="/images/projects/xfprint.png" alt="xfprint" />
-
         <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
 
         <p>
+          <img src="/images/projects/xfprint.png" alt="xfprint" />
+
+
           Provides a graphical frontend for printing. Xfprint can use either
           CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
           printing system you choosed.
@@ -107,14 +108,14 @@ Every project has it's own project page to provide additionnal information.
   <div class="column2">
 
     <div class="component">
-    
+   
       <div class="component-content">
 
-        <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
-      
         <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
         
         <p>
+          <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
+
           It allows you to configure every detail of your desktop environment: mouse,
           keyboard, accessibility options, appearance, preferred applications...
         </p>
@@ -124,14 +125,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-    
-      <div class="component-content">
 
-        <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
+      <div class="component-content">
 
         <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
         
         <p>
+          <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
+
           Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
           launching applications and several important scripts that are used by other packages.
         </p>
@@ -141,14 +142,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-    
-      <div class="component-content">
 
-        <img src="/images/projects/library.png" alt="library" />
-      
+      <div class="component-content">
+     
         <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
         
         <p>
+          <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />   
+
           The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
           are used by almost any Xfce application: they provide essential functions and
           widgets.
@@ -159,14 +160,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-    
+
       <div class="component-content">
 
-        <img src="/images/projects/library.png" alt="xfconf" />
-      
         <h3><a href="/projects/xfconf/">Xfconf</a></h3>
         
         <p>
+          <img src="/images/projects/library.png" alt="xfconf" />
+
           Simple client-server configuration storage and query system used in most Xfce
           applications.
         </p>
@@ -188,14 +189,14 @@ Every project has it's own project page to provide additionnal information.
   <div class="column1">
 
     <div class="component">
-      
+
       <div class="component-content">
         
-        <img src="/images/projects/mousepad.png" alt="mousepad" />
-
         <h3><a href="/projects/mousepad/">Mousepad</a></h3>
 
         <p>
+          <img src="/images/projects/mousepad.png" alt="mousepad" />
+
           Mousepad is a text editor for Xfce based on Leafpad. The initial reason for
           Mousepad was to provide printing support, which would have been
           difficult for Leafpad for various reasons.
@@ -206,14 +207,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-      
+
       <div class="component-content">
       
-			  <img src="/images/projects/terminal.png" alt="terminal" />
-
 			  <h3><a href="/projects/terminal/">Terminal</a></h3>
         
 			  <p>
+          <img src="/images/projects/terminal.png" alt="terminal" />
+
           Terminal is a modern terminal emulator for the Xfce desktop environment. It
           supports tabs and fully customizable.
         </p>
@@ -223,14 +224,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-      
+
       <div class="component-content">
 
-        <img src="/images/projects/thunar.png" alt="thunar" />
-
-			  <h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
+  		  <h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
 
         <p>
+          <img src="/images/projects/thunar.png" alt="thunar" />
+
           Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar
           has been designed from the ground up to be fast and easy to use.
         </p>
@@ -240,14 +241,14 @@ Every project has it's own project page to provide additionnal information.
     </div>
 
     <div class="component">
-      
-      <div class="component-content">
 
-			  <img src="/images/projects/xfburn.png" alt="xfburn" />
+      <div class="component-content">
 
 			  <h3><a href="/projects/xfburn/">Xfburn</a></h3>
 
         <p>
+          <img src="/images/projects/xfburn.png" alt="xfburn" />
+
           Xfburn is a frontend burning application based on
           <a href="http://libburnia-project.org/">libburnia</a> libraries to create and
           burn CD's and DVD's.
@@ -277,11 +278,11 @@ Every project has it's own project page to provide additionnal information.
       
       <div class="component-content">
       
-			  <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
-
 			  <h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
         
 			  <p>
+          <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
+
           Allows you to search, launch and find information about applications installed
           on your system.
         </p>
@@ -298,11 +299,11 @@ Every project has it's own project page to provide additionnal information.
       
       <div class="component-content">
 
-			  <img src="/images/projects/xfmedia.png" alt="xfmedia" />
-
 			  <h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 
         <p>
+          <img src="/images/projects/xfmedia.png" alt="xfmedia" />
+
           Xfmedia is a simple, easy-to-use media player based on the Xine engine. Its
           clean interface allows you to play audio and video files.
 			  </p>
@@ -315,11 +316,11 @@ Every project has it's own project page to provide additionnal information.
       
       <div class="component-content">
 
-			  <img src="/images/projects/xarchiver.png" alt="xarchiver" />
-
 			  <h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
         
 			  <p>
+          <img src="/images/projects/xarchiver.png" alt="xarchiver" />
+
           Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip,
           arj and rpm.
         </p>
@@ -331,12 +332,12 @@ Every project has it's own project page to provide additionnal information.
     <div class="component">
       
       <div class="component-content">
-      
-			  <img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
 
-			  <h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
+        <h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
 
         <p>
+          <img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
+
           A modern sound mixer based on GStreamer which supports multiple sound cards.
         </p>
 
@@ -348,11 +349,11 @@ Every project has it's own project page to provide additionnal information.
       
       <div class="component-content">
 
-			  <img src="/images/projects/ristretto.png" alt="ristretto" />
-
 			  <h3><a href="/projects/ristretto">Image Viewer</a></h3>
         
 			  <p>
+          <img src="/images/projects/ristretto.png" alt="ristretto" />
+
           Ristretto is a lightweight image viewer.
         </p>
 
@@ -364,11 +365,11 @@ Every project has it's own project page to provide additionnal information.
       
       <div class="component-content">
       
-			  <img src="/images/projects/midori.png" alt="midori" />
-
   			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></h3>
 
         <p>
+          <img src="/images/projects/midori.png" alt="midori" />
+
           Midori is a lightweight and fast Web browser based on Webkit.
         </p>
 
