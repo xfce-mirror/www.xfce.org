@@ -148,7 +148,7 @@ Every project has it's own project page to provide additionnal information.
         <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
         
         <p>
-          <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />   
+          <img src="/images/projects/library.png" alt="library" />   
 
           The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
           are used by almost any Xfce application: they provide essential functions and
