@@ -259,9 +259,9 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
       
-      <div class="component-content">
+      <img src="/images/projects/orage.png" alt="orage" />
 
-        <img src="/images/projects/orage.png" alt="orage" />
+      <div class="component-content">
 
         <h3><a href="/projects/orage/">Orage</a></h3>
         
