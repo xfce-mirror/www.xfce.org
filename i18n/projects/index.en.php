@@ -9,89 +9,125 @@ Every project has it's own project page to provide additionnal information.
 </p>
 
 <h2 id="core">Core Components</h2>
-<table width="99%" border="0" cellspacing="10" cellpadding="0">
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfwm4/">Window Manager</a></h3>
-			<p>It manages the placement of application windows on the screen,
-			provides window decorations and manages workspaces or virtual desktops.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-panel/">Panel</a></h3>
-      <p>The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
-      menus, a clock, a desktop switcher and more.</p>
-		</td>
-		<td width="48" valign="top">
+
+<div id="core-components">
+
+    <div class="component">
+
+      <img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
+
+      <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
+      
+      <p>
+        It manages the placement of application windows on the screen,
+        provides window decorations and manages workspaces or virtual desktops.
+      </p>
+      
+    </div>
+
+    <div class="component">
+
+      <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
+
+      <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
+      
+      <p>
+        The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
+        menus, a clock, a desktop switcher and more.
+      </p>
+      
+    </div>
+
+    <div class="component">
+		
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
+
+
 			<h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
-			<p>This program sets the background image and provides a root window menu,
-			desktop icons or minimized icons and a windows list.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-session.png" alt="xfce4-session" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
+      
+			<p>
+        This program sets the background image and provides a root window menu,
+			 desktop icons or minimized icons and a windows list.
+      </p>
+      
+    </div>
+
+    <div class="component">
+
+      <img src="/images/projects/xfce4-session.png" alt="xfce4-session" width="48" height="48" />
+
 			<h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
-			<p>The session manager controls the startup and shutdown of the Xfce Desktop Environment.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">Printing Helper</a></h3>
-			<p>
-      Provides a graphical frontend for printing. Xfprint can use either
-			CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
-			printing system you choosed.
+
+      <p>
+        The session manager controls the startup and shutdown of the Xfce Desktop Environment.
       </p>
-		</td>
-		<td width="48" valign="top">
+
+    </div>
+
+    <div class="component">
+
+    	<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
+
+      <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
+
+    	<p>
+        Provides a graphical frontend for printing. Xfprint can use either
+			  CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
+			  printing system you choosed.
+      </p>
+
+    </div>
+
+    <div class="component">
+    
 			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-		<h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
+      
+		  <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
+      
 			<p>
-      It allows you to configure every detail of your desktop environment.
+        It allows you to configure every detail of your desktop environment.
       </p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
+      
+    </div>
+
+    <div class="component">
+    
 			<img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
-    <p>Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
-    launching applications and several important scripts that are used by other packages.</p>
-		</td>
-		<td width="48" valign="top">
+
+      <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
+      
+      <p>
+        Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
+        launching applications and several important scripts that are used by other packages.
+      </p>
+
+    </div>
+
+    <div class="component">
+    
 			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
+      
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-			<p>The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
-			are used by almost any Xfce application. </p>
-		</td>
-		<td width="48" valign="top">
+      
+			<p>
+        The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
+			  are used by almost any Xfce application.
+      </p>
+      
+    </div>
+
+    <div class="component">
+    
       <img src="/images/projects/library.png" alt="xfconf" width="48" height="48" />
-    </td>
-		<td width="33%" valign="top">
+      
       <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+      
       <p>
         Simple client-server configuration storage and query system.
       </p>
-    </td>
-	</tr>
-</table>
+    </div>
+    
+</div>
 
 <h2 id="applications">Applications</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
