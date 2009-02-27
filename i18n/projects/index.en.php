@@ -14,7 +14,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
 
-      <img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
+      <img src="/images/projects/xfwm4.png" alt="xfwm4" />
 
       <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
       
@@ -27,7 +27,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
 
-      <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
+      <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
 
       <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
       
@@ -40,7 +40,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
 		
-			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
+			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
 
 
 			<h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
@@ -54,7 +54,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
 
-      <img src="/images/projects/xfce4-session.png" alt="xfce4-session" width="48" height="48" />
+      <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
 
 			<h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
 
@@ -66,7 +66,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
 
-    	<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
+    	<img src="/images/projects/xfprint.png" alt="xfprint" />
 
       <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
 
@@ -80,7 +80,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
     
-			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" width="48" height="48" />
+			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
       
 		  <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
       
@@ -92,7 +92,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
     
-			<img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" />
+			<img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
 
       <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
       
@@ -105,7 +105,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
     
-			<img src="/images/projects/library.png" alt="library" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="library" />
       
 			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
       
@@ -118,7 +118,7 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
     
-      <img src="/images/projects/library.png" alt="xfconf" width="48" height="48" />
+      <img src="/images/projects/library.png" alt="xfconf" />
       
       <h3><a href="/projects/xfconf/">Xfconf</a></h3>
       
@@ -129,11 +129,13 @@ Every project has it's own project page to provide additionnal information.
     
 </div>
 
+<div class="clearboth"></div>
+
 <h2 id="applications">Applications</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/mousepad.png" alt="mousepad" width="48" height="48" />
+			<img src="/images/projects/mousepad.png" alt="mousepad" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
@@ -142,7 +144,7 @@ Every project has it's own project page to provide additionnal information.
 			difficult for Leafpad for various reasons.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
+			<img src="/images/projects/terminal.png" alt="terminal" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
@@ -150,7 +152,7 @@ Every project has it's own project page to provide additionnal information.
 			desktop environment.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
+			<img src="/images/projects/thunar.png" alt="thunar" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
@@ -160,21 +162,21 @@ Every project has it's own project page to provide additionnal information.
 	</tr>
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
+			<img src="/images/projects/xfburn.png" alt="xfburn" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
 			<p>Xfburn is a frontend burning application based on <a href="http://libburnia-project.org/">libburnia</a> libraries to create and burn CD's and DVD's.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
+			<img src="/images/projects/orage.png" alt="orage" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/orage/">Orage</a></h3>
 			<p>A simple calendar application with reminders.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
+			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
@@ -183,7 +185,7 @@ Every project has it's own project page to provide additionnal information.
 	</tr>
 	<tr>
     <td width="48" valign="top">
-			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
+			<img src="/images/projects/xfmedia.png" alt="xfmedia" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
@@ -192,14 +194,14 @@ Every project has it's own project page to provide additionnal information.
 			on xine, supports video as well.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
+			<img src="/images/projects/xarchiver.png" alt="xarchiver" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
 			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
+			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
@@ -208,14 +210,14 @@ Every project has it's own project page to provide additionnal information.
 	</tr>
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
+			<img src="/images/projects/ristretto.png" alt="ristretto" />
 		</td>
 		<td valign="top">
 			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
 			<p>Ristretto is a lightweight image viewer.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/midori.png" alt="midori" width="48" height="48" />
+			<img src="/images/projects/midori.png" alt="midori" />
 		</td>
 		<td valign="top">
 			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></h3>
@@ -228,21 +230,21 @@ Every project has it's own project page to provide additionnal information.
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="libexo" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
 			<p>The core Xfce libraries are targeted at desktop development, libexo is targeted at application developement.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="pyxfce" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://pyxfce.xfce.org">Python Bindings</a></h3>
 			<p>Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="xfc" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
@@ -252,7 +254,7 @@ Every project has it's own project page to provide additionnal information.
 	</tr>
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="xfce4-perl" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
@@ -260,14 +262,14 @@ Every project has it's own project page to provide additionnal information.
       use Perl to write Xfce applications. </p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="dbh" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
 			<p>DBH is a library to create Disk Based Hashtables on POSIX systems.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
+			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" />
 		</td>
 		<td valign="top">
 			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
@@ -281,7 +283,7 @@ Every project has it's own project page to provide additionnal information.
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" width="48" height="48" />
+			<img src="/images/projects/xfce-gtk-engine.png" alt="xfce-gtk-engine" />
 		</td>
 		<td width="33%" valign="top">
 			<h3>GTK+ Theme Engine</h3>
@@ -289,14 +291,14 @@ Every project has it's own project page to provide additionnal information.
 			engine so you might just as well give it a try.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" width="48" height="48" />
+			<img src="/images/projects/xfce4-icon-theme.png" alt="xfce4-icon-theme" />
 		</td>
 		<td width="33%" valign="top">
 			<h3>Icon Theme</h3>
 			<p>Default icon theme for Xfce. It includes both PNG and SVG icons</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />
+			<img src="/layout/images/spacer.gif" alt="spacer" />
 		</td>
 		<td width="33%" valign="top">&nbsp;</td>
 	</tr>
