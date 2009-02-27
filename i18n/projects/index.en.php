@@ -16,12 +16,16 @@ Every project has it's own project page to provide additionnal information.
 
       <img src="/images/projects/xfwm4.png" alt="xfwm4" />
 
-      <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
-      
-      <p>
-        It manages the placement of application windows on the screen,
-        provides window decorations and manages workspaces or virtual desktops.
-      </p>
+      <div class="component-content">
+
+        <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
+        
+        <p>
+          It manages the placement of application windows on the screen,
+          provides window decorations and manages workspaces or virtual desktops.
+        </p>
+        
+      </div> 
       
     </div>
 
@@ -29,12 +33,16 @@ Every project has it's own project page to provide additionnal information.
 
       <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
 
-      <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
-      
-      <p>
-        The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
-        menus, a clock, a desktop switcher and more.
-      </p>
+      <div class="component-content">
+
+        <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
+        
+        <p>
+          The Panel is part of the Xfce Desktop Environment and features program launchers, panel 
+          menus, a clock, a desktop switcher and more.
+        </p>
+
+      </div>
       
     </div>
 
@@ -42,13 +50,16 @@ Every project has it's own project page to provide additionnal information.
 		
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
 
+      <div class="component-content">
 
-			<h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
-      
-			<p>
-        This program sets the background image and provides a root window menu,
-			 desktop icons or minimized icons and a windows list.
-      </p>
+        <h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
+        
+        <p>
+          This program sets the background image and provides a root window menu,
+          desktop icons or minimized icons and a windows list.
+        </p>
+
+      </div>
       
     </div>
 
@@ -56,11 +67,15 @@ Every project has it's own project page to provide additionnal information.
 
       <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
 
-			<h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
+      <div class="component-content">
 
-      <p>
-        The session manager controls the startup and shutdown of the Xfce Desktop Environment.
-      </p>
+        <h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
+
+        <p>
+          The session manager controls the startup and shutdown of the Xfce Desktop Environment.
+        </p>
+
+      </div>
 
     </div>
 
@@ -68,25 +83,33 @@ Every project has it's own project page to provide additionnal information.
 
     	<img src="/images/projects/xfprint.png" alt="xfprint" />
 
-      <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
+      <div class="component-content">
 
-    	<p>
-        Provides a graphical frontend for printing. Xfprint can use either
-			  CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
-			  printing system you choosed.
-      </p>
+        <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
+
+        <p>
+          Provides a graphical frontend for printing. Xfprint can use either
+          CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
+          printing system you choosed.
+        </p>
+
+      </div>
 
     </div>
 
     <div class="component">
     
 			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
+
+      <div class="component-content">
       
-		  <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
-      
-			<p>
-        It allows you to configure every detail of your desktop environment.
-      </p>
+        <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
+        
+        <p>
+          It allows you to configure every detail of your desktop environment.
+        </p>
+
+      </div>
       
     </div>
 
@@ -94,37 +117,50 @@ Every project has it's own project page to provide additionnal information.
     
 			<img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
 
-      <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
-      
-      <p>
-        Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
-        launching applications and several important scripts that are used by other packages.
-      </p>
+      <div class="component-content">
+
+        <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
+        
+        <p>
+          Essential utilities and scripts. Provides a credits and license dialog, a dialog for 
+          launching applications and several important scripts that are used by other packages.
+        </p>
+
+      </div>
 
     </div>
 
     <div class="component">
     
 			<img src="/images/projects/library.png" alt="library" />
+
+      <div class="component-content">
       
-			<h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
-      
-			<p>
-        The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
-			  are used by almost any Xfce application.
-      </p>
+        <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
+        
+        <p>
+          The three base libraries of Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
+          are used by almost any Xfce application.
+        </p>
+
+      </div>
       
     </div>
 
     <div class="component">
     
       <img src="/images/projects/library.png" alt="xfconf" />
+
+      <div class="component-content">
       
-      <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+        <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+        
+        <p>
+          Simple client-server configuration storage and query system.
+        </p>
+
+      </div>
       
-      <p>
-        Simple client-server configuration storage and query system.
-      </p>
     </div>
     
 </div>
