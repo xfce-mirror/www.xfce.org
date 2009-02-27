@@ -86,7 +86,7 @@
   text-align:center;
 }
 
-.component img {
+.component-content img {
   position: absolute;
   margin-top: 15px;
   width: 48px;
@@ -94,7 +94,8 @@
 }
 
 .component-content {
-  margin-left: 70px;
+  padding-left: 70px;
+  position: relative;
 }
 
 #core-components .column1 {
@@ -104,17 +105,7 @@
 }
 
 #core-components .column2 {
-  position: relative;
+  position: absolute;
   width: 50%;
   margin: 0 0 0 50%;
 }
-
-#core-components .column1 p {
-  width: 60%;
-}
-
-#core-components .column2 p {
-  width: 70%;
-}
-
-

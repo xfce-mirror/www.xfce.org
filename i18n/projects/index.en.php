@@ -16,9 +16,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
 
-        <img src="/images/projects/xfwm4.png" alt="xfwm4" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfwm4.png" alt="xfwm4" />
 
           <h3><a href="/projects/xfwm4/">Window Manager</a></h3>
           
@@ -33,9 +33,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
 
-        <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" />
 
           <h3><a href="/projects/xfce4-panel/">Panel</a></h3>
           
@@ -50,9 +50,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
       
-        <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfdesktop.png" alt="xfdesktop" />
 
           <h3><a href="/projects/xfdesktop/">Desktop Manager</a></h3>
           
@@ -67,9 +67,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
 
-        <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfce4-session.png" alt="xfce4-session" />
 
           <h3><a href="/projects/xfce4-session/">Session Manager</a></h3>
 
@@ -84,9 +84,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
 
-        <img src="/images/projects/xfprint.png" alt="xfprint" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfprint.png" alt="xfprint" />
 
           <h3><a href="/projects/xfprint/">Printing Helper</a></h3>
 
@@ -106,9 +106,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
       
-        <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" />
         
           <h3><a href="/projects/xfce4-settings/">Settings Manager</a></h3>
           
@@ -123,9 +123,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
       
-        <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
-
         <div class="component-content">
+
+          <img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" />
 
           <h3><a href="/projects/xfce-utils/">Utilities and Scripts </a></h3>
           
@@ -140,9 +140,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
       
-        <img src="/images/projects/library.png" alt="library" />
-
         <div class="component-content">
+
+          <img src="/images/projects/library.png" alt="library" />
         
           <h3><a href="/projects/libraries/">Xfce Libraries</a></h3>
           
@@ -158,9 +158,9 @@ Every project has it's own project page to provide additionnal information.
 
       <div class="component">
       
-        <img src="/images/projects/library.png" alt="xfconf" />
-
         <div class="component-content">
+
+          <img src="/images/projects/library.png" alt="xfconf" />
         
           <h3><a href="/projects/xfconf/">Xfconf</a></h3>
           
