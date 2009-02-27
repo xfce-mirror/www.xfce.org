@@ -179,100 +179,204 @@ Every project has it's own project page to provide additionnal information.
 
 <div class="clearboth"></div>
 
-<h2 id="applications">Applications</h2>
-<table width="99%" border="0" cellpadding="0" cellspacing="10">
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/mousepad.png" alt="mousepad" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
-			<p>Mousepad is a text editor for Xfce based on Leafpad. The initial reason for
-			Mousepad was to provide printing support, which would have been
-			difficult for Leafpad for various reasons.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/terminal.png" alt="terminal" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/terminal/">Terminal</a></h3>
-			<p>Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce
-			desktop environment.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/thunar.png" alt="thunar" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
-			<p>Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed
-			from the ground up to be fast and easy-to-use.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfburn.png" alt="xfburn" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn is a frontend burning application based on <a href="http://libburnia-project.org/">libburnia</a> libraries to create and burn CD's and DVD's.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/orage.png" alt="orage" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/orage/">Orage</a></h3>
-			<p>A simple calendar application with reminders.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
-			<p>Allows you to search, launch and find information about applications installed on your system.</p>
-		</td>
-	</tr>
-	<tr>
-    <td width="48" valign="top">
-			<img src="/images/projects/xfmedia.png" alt="xfmedia" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
-			<p>Xfmedia is a simple, easy-to-use media player based on the xine engine.
-			The GTK+ GUI focuses on playing and managing audio files, but, being based
-			on xine, supports video as well.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xarchiver.png" alt="xarchiver" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
-			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
-			<p>A modern sound mixer and based on GStreamer.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/ristretto.png" alt="ristretto" />
-		</td>
-		<td valign="top">
-			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
-			<p>Ristretto is a lightweight image viewer.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/midori.png" alt="midori" />
-		</td>
-		<td valign="top">
-			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></h3>
-			<p>Midori is a lightweight web browser.</p>
-		</td>
-	</tr>
-</table>
+<div id="applications">
+
+  <h2 id="applications">Applications</h2>
+
+  <div class="column1">
+
+    <div class="component">
+      
+      <div class="component-content">
+        
+        <img src="/images/projects/mousepad.png" alt="mousepad" />
+
+        <h3><a href="/projects/mousepad/">Mousepad</a></h3>
+
+        <p>
+          Mousepad is a text editor for Xfce based on Leafpad. The initial reason for
+          Mousepad was to provide printing support, which would have been
+          difficult for Leafpad for various reasons.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+      
+			  <img src="/images/projects/terminal.png" alt="terminal" />
+
+			  <h3><a href="/projects/terminal/">Terminal</a></h3>
+        
+			  <p>
+          Terminal is a modern terminal emulator for the Xfce desktop environment. It
+          supports tabs and fully customizable.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+
+        <img src="/images/projects/thunar.png" alt="thunar" />
+
+			  <h3><a href="/projects/thunar/">Thunar Filemanager </a></h3>
+
+        <p>
+          Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar
+          has been designed from the ground up to be fast and easy to use.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+
+			  <img src="/images/projects/xfburn.png" alt="xfburn" />
+
+			  <h3><a href="/projects/xfburn/">Xfburn</a></h3>
+
+        <p>
+          Xfburn is a frontend burning application based on
+          <a href="http://libburnia-project.org/">libburnia</a> libraries to create and
+          burn CD's and DVD's.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+
+        <img src="/images/projects/orage.png" alt="orage" />
+
+        <h3><a href="/projects/orage/">Orage</a></h3>
+        
+        <p>
+          A simple iCal based calendar application with reminders.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+      
+			  <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
+
+			  <h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
+        
+			  <p>
+          Allows you to search, launch and find information about applications installed
+          on your system.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="column2">
+
+    <div class="component">
+      
+      <div class="component-content">
+
+			  <img src="/images/projects/xfmedia.png" alt="xfmedia" />
+
+			  <h3><a href="/projects/xfmedia">Xfmedia</a></h3>
+
+        <p>
+          Xfmedia is a simple, easy-to-use media player based on the Xine engine. Its
+          clean interface allows you to play audio and video files.
+			  </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+
+			  <img src="/images/projects/xarchiver.png" alt="xarchiver" />
+
+			  <h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
+        
+			  <p>
+          Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip,
+          arj and rpm.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+      
+			  <img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
+
+			  <h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
+
+        <p>
+          A modern sound mixer based on GStreamer which supports multiple sound cards.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+
+			  <img src="/images/projects/ristretto.png" alt="ristretto" />
+
+			  <h3><a href="/projects/ristretto">Image Viewer</a></h3>
+        
+			  <p>
+          Ristretto is a lightweight image viewer.
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="component">
+      
+      <div class="component-content">
+      
+			  <img src="/images/projects/midori.png" alt="midori" />
+
+  			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Web Browser</a></h3>
+
+        <p>
+          Midori is a lightweight and fast Web browser based on Webkit.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 
 <h2 id="framework">Framework</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
