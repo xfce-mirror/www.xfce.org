@@ -259,13 +259,13 @@ Every project has it's own project page to provide additionnal information.
 
     <div class="component">
       
-      <img src="/images/projects/orage.png" alt="orage" />
-
       <div class="component-content">
 
         <h3><a href="/projects/orage/">Orage</a></h3>
         
         <p>
+          <img src="/images/projects/orage.png" alt="orage" />
+
           A simple iCal based calendar application with reminders.
         </p>
 
