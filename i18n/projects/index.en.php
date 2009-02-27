@@ -380,6 +380,8 @@ Every project has it's own project page to provide additionnal information.
 
 </div>
 
+<div class="clearboth"></div>
+
 <h2 id="framework">Framework</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
