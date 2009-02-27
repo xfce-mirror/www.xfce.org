@@ -354,7 +354,8 @@ Every project has it's own project page to provide additionnal information.
 			  <p>
           <img src="/images/projects/ristretto.png" alt="ristretto" />
 
-          Ristretto is a lightweight image viewer.
+          Ristretto is a fast and lightweight picture viewer for the Xfce desktop
+          environment. Its thumbnail bar allows you to browse your picture in an easy way. 
         </p>
 
       </div>
@@ -370,7 +371,8 @@ Every project has it's own project page to provide additionnal information.
         <p>
           <img src="/images/projects/midori.png" alt="midori" />
 
-          Midori is a lightweight and fast Web browser based on Webkit.
+          Midori is a lightweight and fast Web browser based on Webkit. Its interface is
+          highly configurable and some plugins are available.
         </p>
 
       </div>
