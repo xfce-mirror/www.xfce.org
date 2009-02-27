@@ -12,7 +12,7 @@ $breadcrumbs = array (
     "faq"              => "FAQs",
     "userguide"        => "Guide de l'utilisateur",
     "api"              => "Développeurs (API)",
-    "tour"             => "Tour deXfce 4.4",
+    "tour"             => "Tour de Xfce 4.6",
     "search"           => "Recherche Google",
     "distros"          => "Distributions orientées Xfce",
     
