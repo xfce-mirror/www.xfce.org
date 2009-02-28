@@ -251,7 +251,7 @@ Every project has it's own project page to provide additionnal information.
 
           Xfburn is a frontend burning application based on
           <a href="http://libburnia-project.org/">libburnia</a> libraries to create and
-          burn CD's and DVD's.
+          burn CD's and DVD's. It can be used to create audio CDs.
         </p>
 
       </div>
@@ -285,7 +285,7 @@ Every project has it's own project page to provide additionnal information.
           <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" />
 
           Allows you to search, launch and find information about applications installed
-          on your system.
+          on your system. It can be used to create panel launchers.
         </p>
 
       </div>
@@ -322,8 +322,8 @@ Every project has it's own project page to provide additionnal information.
 			  <p>
           <img src="/images/projects/xarchiver.png" alt="xarchiver" />
 
-          Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip,
-          arj and rpm.
+          Xarchiver is an archive manager supporting the following archive types:
+          7z, zip, rar, tar, bzip2, gzip, arj and rpm.
         </p>
 
       </div>
@@ -340,6 +340,7 @@ Every project has it's own project page to provide additionnal information.
           <img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" />
 
           A modern sound mixer based on GStreamer which supports multiple sound cards.
+          A panel plugin allows you to set the volume quickly.
         </p>
 
       </div>
