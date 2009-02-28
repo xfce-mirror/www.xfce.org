@@ -215,8 +215,8 @@ Every project has it's own project page to provide additionnal information.
 			  <p>
           <img src="/images/projects/terminal.png" alt="terminal" />
 
-          Terminal is a modern terminal emulator for the Xfce desktop environment. It
-          supports tabs and fully customizable.
+          Terminal is a modern, lightweight, and low memory cost terminal emulator with
+          tabs and multiple windows for the Xfce desktop environment.
         </p>
 
       </div>
@@ -419,7 +419,8 @@ Every project has it's own project page to provide additionnal information.
 			  <p>
           <img src="/images/projects/library.png" alt="pyxfce" />
           
-          Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.
+          Python bindings for Xfce. They allow you to create programs using the Xfce
+          libraries more easily.
         </p>
 
       </div>
@@ -462,21 +463,6 @@ Every project has it's own project page to provide additionnal information.
         
       </div>
       
-    </div>
-
-    <div class="component">
-
-      <div class="component-content">
-
-        <h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
-
-        <p>
-          <img src="/images/projects/library.png" alt="dbh" />
-          DBH is a library to create Disk Based Hashtables on POSIX systems.
-        </p>
-
-      </div>
-
     </div>
 
     <div class="component">
