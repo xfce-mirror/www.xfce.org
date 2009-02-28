@@ -96,7 +96,7 @@ Every project has it's own project page to provide additionnal information.
 
           Provides a graphical frontend for printing. Xfprint can use either
           CUPS, BSD-LPR or a file as destination, and printers are retrieved from the
-          printing system you choosed.
+          printing system you chose.
         </p>
 
       </div>
