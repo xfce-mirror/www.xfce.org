@@ -23,7 +23,7 @@
  * This function downloads the website
  * feed and returns the downloaded data.
  **/
-function DownloadFeed ($server="blog.xfce.org", $get="/?feed=rss2", $port=80, $timeout=5)
+function DownloadFeed ($server="blog.xfce.org", $get="/feed/", $port=80, $timeout=5)
 {
   $sock = @fsockopen ("tcp://".$server, $port, $errno, $errstr, $timeout);
 
