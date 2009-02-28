@@ -267,7 +267,8 @@ Every project has it's own project page to provide additionnal information.
         <p>
           <img src="/images/projects/orage.png" alt="orage" />
 
-          A simple iCal based calendar application with reminders.
+          Orage provides a calendar which integrates nicely into the Xfce Desktop
+          Environment. It is highly configurable and supports alerts based on dates.
         </p>
 
       </div>
