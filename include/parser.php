@@ -23,7 +23,7 @@
  * This function downloads the website
  * feed and returns the downloaded data.
  **/
-function DownloadFeed ($server="blog.xfce.org", $get="/?feed=rss2", $port=80, $timeout=5)
+function DownloadFeed ($server="blog.xfce.org", $get="/feed/", $port=80, $timeout=5)
 {
   $sock = @fsockopen ("tcp://".$server, $port, $errno, $errstr, $timeout);
 
@@ -228,7 +228,8 @@ function CreateFeed ($timeout=3600)
 {
   $file = "/tmp/xfce_org_feed_cache.php";
 
-  if(!file_exists ($file) || filemtime ($file) < (time() - $timeout))
+  //if(!file_exists ($file) || filemtime ($file) < (time() - $timeout))
+  if (TRUE)
     {
       /* get the feed data */
       $data = DownloadFeed ();
