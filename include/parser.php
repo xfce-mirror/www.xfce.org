@@ -228,8 +228,7 @@ function CreateFeed ($timeout=3600)
 {
   $file = "/tmp/xfce_org_feed_cache.php";
 
-  //if(!file_exists ($file) || filemtime ($file) < (time() - $timeout))
-  if (TRUE)
+  if(!file_exists ($file) || filemtime ($file) < (time() - $timeout))
     {
       /* get the feed data */
       $data = DownloadFeed ();
