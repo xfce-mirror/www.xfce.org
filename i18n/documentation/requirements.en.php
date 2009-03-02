@@ -90,7 +90,7 @@ It is also recommended to build all Xfce components from the same release versio
   </tr>
   <tr bgcolor="#eeeeee">
     <td>xfce4-appfinder</td>
-    <td>libxfce4util, libxfce4menu, gtk+ </td>
+    <td>libxfce4util, libxfce4menu, , thunar-vfs, gtk+ </td>
     <td>&nbsp;</td>
   </tr>
   <tr>
