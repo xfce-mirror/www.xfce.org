@@ -2,7 +2,7 @@
 	$top=true;
 ?>
 <h1>プロジェクト</h1>
-<p>Xfceプロジェクトにはいくつかのデスクトップの各部分を開発などをするプロジェクトがあります。
+<p>Xfce プロジェクトには、デスクトップの各部を担当するいくつかのプロジェクトがあります。
 各プロジェクトは詳しい情報を提供するページを用意しています。</p>
 
 <h2 id="core">中心部分 (コアコンポーネント)</h2>
@@ -13,21 +13,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfwm4/">ウィンドウマネージャ</a></h3>
-			<p>これは画面上のアプリケーションウィンドウの場所を管理し、ウィンドウの装飾とワークスペースやバーチャルデスクトップを管理します。</p>
+			<p>ウィンドウマネージャは画面上でのアプリケーションウィンドウの配置を管理し、ウィンドウの装飾とワークスペースや仮想デスクトップを管理します。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-panel/">パネル</a></h3>
-			<p>Xfce 4 パネルはXfce 4 デスクトップ環境の一部であり、プログラムランチャー、パネルメニュードック、デスクトップ切り替えやそのほかを特徴としています。</p>
+			<p>Xfce 4 パネルは Xfce 4 デスクトップ環境の一部であり、プログラムランチャ、パネルメニュー、時計、デスクトップ切り替えその他を特徴としています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfdesktop/">デスクトップマネージャ</a></h3>
-			<p>このプログラムは壁紙を設定したり、ルートウィンドウメニュー、デスクトップアイコンや最小化されたアイコンとウィンドウリストを提供します。</p>
+			<p>デスクトップマネージャは背景画像を設定し、ルートウィンドウメニュー、デスクトップアイコン、および最小化されたアイコンとウィンドウリストを提供します。</p>
 		</td>
 	</tr>
 	<tr>
@@ -36,21 +36,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-session/">セッションマネージャ</a></h3>
-			<p>セッションマネージャはスタートアップとXfceデスクトップ環境の終了を制御します。</p>
+			<p>セッションマネージャは Xfce デスクトップ環境の起動と終了を制御します。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top"><h3><a href="/projects/xfprint/">プリントマネージャ</a></h3>
-			<p>これは印刷用のグラフィカルなフロントエンドです。Xprintは出力先としてCUPS、BSD-LPRまたはファイルとして指定することができます。
-			 プリンタの認識は選択した印刷システムが取得したものを利用します。</p>
+			<p>プリントマネージャは印刷用のグラフィカルなフロントエンドです。Xprint は出力先として CUPS、BSD-LPR、またはファイルを指定することができます。
+			 プリンタ印刷システムが取得したものから選択します。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 		<h3><a href="/projects/xfce-mcs-manager/">設定マネージャ</a></h3>
-			<p>これはXfce設定システムです。バックグランドで動き、全体設定の情報を他のXfceコンポネントに渡します。</p>
+			<p>これはXfce設定システムです。バックグランドで動き、全体設定の情報を他の Xfce コンポーネントに渡します。</p>
 		</td>
 	</tr>
 	<tr>
@@ -67,8 +67,8 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Xfce ライブラリ</a></h3>
-			<p>Xfceの三つの基本となるライブラリです。(libxfcegui4, libxfce4mcs and libxfce4utils)
-			これはほとんどのXfceのアプリケーションで使われています。</p>
+			<p>Xfce の三つの基本となるライブラリです (libxfcegui4, libxfce4mcs and libxfce4utils)。
+			これはほとんどの Xfce のアプリケーションで使われています。</p>
 		</td>
 		<td width="48" valign="top">&nbsp;</td>
 		<td width="33%" valign="top">&nbsp;</td>
@@ -83,15 +83,15 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/mousepad/">マウスパッド</a></h3>
-			<p>マウスパッドはXfce向けのLeafpadを基本としたテキストエディタです。
-			Mousepadの最初の製作動機ですが、これはLeafpadでは実装において様々な問題があるためサポートが難しい印刷のサポートを提供することでした。</p>
+			<p>マウスパッドは Xfce 向けの Leafpad をベースとしたテキストエディタです。
+			マウスパッドは、Leafpad では様々な理由で実装が困難だった印刷機能を提供しています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt は公式のXfceインストーラです。総合的なソフトウェアの管理やインストール用のツールが含まれています。Python-GTKを使って、言語としてはPythonで書かれています。
+			<p>InstallIt は公式の Xfce インストーラです。総合的なソフトウェアの管理やインストール用のツールが含まれています。Python で書かれ、Python-GTK を使用しています。
 			</p>
 		</td>
 		<td width="48" valign="top">
@@ -99,7 +99,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">ターミナル</a></h3>
-			<p>TerminalはUnix/Linuxデスクトップ向けの目新しいターミナルエミュレータです。 - 特にXfceデスクトップ環境向けに最適化されています。</p>
+			<p>Terminal は Unix/Linux デスクトップ向けの目新しいターミナルエミュレータです。 - 特に Xfce デスクトップ環境向けに最適化されています。</p>
 		</td>
 	</tr>
 	<tr>
@@ -108,21 +108,21 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Thunar ファイルマネージャ</a></h3>
-			<p>ThunarはXfce向けの新しくて革新的なファイルマネージャです。Thunarは実行が早くて簡単に使えることを目標に設計されています。</p>
+			<p>Thunar は Xfce 向けの今風なファイルマネージャです。Thunar は軽快で簡単に使えることを目標に設計されています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
-			<p>Xfburn はcdrtools (cdrecord, cdrdao, mkisofs)を使ったCD作成アプリケーションのフロントエンドです。CDやDVDを作ることができます。</p>
+			<p>Xfburn は CD や DVD を作成する <a href="http://libburnia-project.org/">libburnia</a> ライブラリベースのフロントエンドアプリケーションです。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/orage/">Orage</a></h3>
-			<p>簡潔な通知機能付きカレンダーアプリケーション。</p>
+			<p>Orage は簡易な通知機能付きのカレンダアプリケーションです。</p>
 		</td>
 	</tr>
 	<tr>
@@ -130,23 +130,22 @@
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-appfinder/">アプリファインダ</a></h3>
-			<p>これは検索、実行、システムにインストールされたアプリケーション情報の検索を提供します。</p>
+			<h3><a href="/projects/xfce4-appfinder/">アプリケーションファインダ</a></h3>
+			<p>アプリケーションファインダでは、システムにインストールされたアプリケーションの検索、実行、および情報の確認が行えます。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">音量調節</a></h3>
-			<p>パネル用の音量調整アプリ。ALSAとOSSとSun audioのミキサーダイアログが含まれています。</p>
+			<h3><a href="/projects/xfce4-mixer/">ミキサー</a></h3>
+			<p>ミキサーはパネル用の音量調整プラグインです。ALSA、OSS、および Sun audio をサポートしたミキサーダイアログが含まれています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
-			<!-- fuzzy <p>Xfce4-terminal はvteライブラリを使ったXfce用のターミナルエミュレータです。</p> -->
-			<p>A lightweight terminal emulator for Xfce 4.</p>
+			<p>Xfce4-terminal は Xfce 4 用の軽量ターミナルエミュレータです。</p>
 		</td>
 	</tr>
 	<tr>
@@ -155,22 +154,31 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfmedia/">Xfmedia</a></h3>
-			<p>Xfmediaは簡潔で簡単に利用できるxineエンジンを使ったメディアプレイヤです。
-			GTK+ GUIは再生とオーディオファイルの管理に重点を置いていますが、xineを使っているため、映像も同じくサポートしています。</p>
+			<p>Xfmedia はシンプルで簡単に利用できる xine エンジンを使ったメディアプレイヤです。
+			GTK+ GUI は再生とオーディオファイルの管理に重点を置いていますが、xine を使用しているため、映像も同様にサポートしています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">アーカイブマネージャ</a></h3>
-			<p>Xarchiver はGTK+2を使った7z, zip, rar, tar, bzip2, gzip, arj, rpmのフロントエンドです。</p>
+			<p>Xarchiver は GTK+2 を使用した 7z、zip、rar、tar、bzip2、gzip、arj、および rpm のフロントエンドです。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto">Image Viewer</a></h3>
-			<p>Ristretto is a lightweight image viewer.</p>
+			<h3><a href="/projects/ristretto">画像ビューア</a></h3>
+			<p>Ristretto は軽量な画像ビューアです。</p>
+		</td>
+	</tr>
+		<tr>
+		<td width="48" valign="top">
+			<img src="/images/projects/midori.png" alt="midori" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">ウェブブラウザ</a></h3>
+			<p>Midori は軽量なウェブブラウザです。</p>
 		</td>
 	</tr>
 </table>
@@ -183,22 +191,22 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>Xfceのコアのライブラリはデスクトップ環境を焦点に置かれています。一方、libexoはアプリケーションの管理に重点がおかれています</p>
+			<p>Xfce のコアライブラリはデスクトップ環境を焦点に置いています。一方、libexo はアプリケーションの管理に重点を置いています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>PyxfceはXfceのpythonラッパーです。pyxfceをインストールすれば、Pythonを使ってXfceのプログラムをつくることができます。</p>
+			<p>Pyxfce は Xfce の python ラッパーです。pyxfce をインストールすれば、Python を使って Xfce のプログラムをつくることができます。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
-			<p>The Xfce Foundation ClassesはXfceアプリケーションをUNIX-likeなOS(たとえば、Linux)上で開発するときに必要になる、
-			結合されたC++ クラスです。</p>
+			<p>The Xfce Foundation Classes は Xfce アプリケーションを UNIX-like な OS (たとえば Linux) 上で開発するときに必要になる、
+			結合された C++ クラスです。</p>
 		</td>
 	</tr>
 	<tr>
@@ -207,22 +215,22 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
-			<p>Xfce4-perlはXfce用のPerlラッパーです。これにはパネルプラグイン用のラッパーも含まれています。</p>
+			<p>Xfce4-perl は Xfce 用の Perl ラッパーです。これにはパネルプラグイン用のラッパーも含まれています。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
-			<p>DBHはPOSIXシステム上でDisk Based Hashtablesをつくるためのライブラリです。</p>
+			<p>DBH は POSIX システム上で Disk Based Hashtables をつくるためのライブラリです。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
 		</td>
 		<td valign="top">
 			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce 開発ツール</a></h3>
-			<p>Xfce開発ツールはスクリプトのコレクションとM4マクロを提供しています。Xfceのコアのデスクトップコンポーネントのビルドには
-			これにより提供されるものが必ず必要になります。</p>
+			<p>Xfce 開発ツールはスクリプトのコレクションと M4 マクロを提供しています。Xfce のコアデスクトップコンポーネントのビルドには
+			これが提供するものが必要になります。</p>
 		</td>
 	</tr>
 </table>
@@ -235,7 +243,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3>GTK テーマエンジン</h3>
-			<p>GTK2のテーマエンジン。デスクトップには必ずしも必要ありませんが、使いやすくとても良いエンジンなので、
+			<p>GTK2 のテーマエンジンです。デスクトップには必ずしも必要ありませんが、使いやすくとても良いエンジンなので
 		是非使ってみてください。</p>
 		</td>
 		<td width="48" valign="top">
@@ -243,7 +251,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3>アイコンテーマ</h3>
-			<p>Xfce 4 のデフォルトのアイコンテーマです。PNGとSVGアイコンの両方を含んでいます。</p>
+			<p>Xfce 4 のデフォルトのアイコンテーマです。PNG と SVG アイコンの両方を含んでいます。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />

@@ -26,7 +26,7 @@ include 'include/credits.php';
 <?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
 </table>
 
-<h2 id="server">サーバーとウェブサイト</h2>
+<h2 id="server">サーバとウェブサイト</h2>
 <table width="99%">
     <tr>
         <th align="left"><h3>貢献者</h3></th>
@@ -39,7 +39,7 @@ include 'include/credits.php';
 <h2 id="contributors">貢献者</h2>
 <table width="99%">
     <tr>
-        <td colspan="2"><strong>以下の人々は、パッチ、考え、バグ修正や新しいコードをよく投げてくれる貢献者たちです。：</strong></td>
+        <td colspan="2"><strong>以下の人々は、パッチ、考え、バグ修正や新しいコードをよく投げてくれる貢献者たちです:</strong></td>
     </tr>
     <tr>
         <th colspan="2"><h3>今も貢献し続けている貢献者</h3></th>
@@ -56,7 +56,7 @@ include 'include/credits.php';
 <h2 id="goodies">Goodies</h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Goodiesの総管理</h3></th>
+        <th align="left"><h3>Goodies の総管理</h3></th>
     </tr>
     <tr>
         <td bgcolor="#eeeeee">Jannis Pohlmann [jannis<?php at(); ?>xfce.org]</td>
@@ -73,8 +73,8 @@ include 'include/credits.php';
 </table>
 <table width="99%">
     <tr>
-        <th width="20%" align="left"><h3>Language</h3></th>
-        <th width="80%" align="left"><h3>Contributor(s)</h3></th>
+        <th width="20%" align="left"><h3>言語</h3></th>
+        <th width="80%" align="left"><h3>貢献者</h3></th>
     </tr>
 <?php credits_translators ($credits['translators'], $credits['translators-i18n']); ?>
 </table>

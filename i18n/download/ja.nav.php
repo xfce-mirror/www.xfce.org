@@ -8,7 +8,7 @@
 	</li>
 	<li><a href="/download/development">開発版</a>
 		<ul>
-			<li><a href="http://svn.xfce.org/" class="external">SVNを覗く</a></li>
+			<li><a href="http://svn.xfce.org/" class="external">SVN を覗く</a></li>
 			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">毎日更新されるスナップショット</a></li>
 		</ul>
 	</li>

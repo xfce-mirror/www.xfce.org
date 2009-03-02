@@ -1,7 +1,7 @@
 <ul>
 	<li><a href="/about/">詳細</a></li>
 	<li><a href="/about/features">特徴</a></li>
-	<li><a href="/about/tour">Xfce 4.4ツアー</a>
+	<li><a href="/about/tour">Xfce 4.6ツアー</a>
 		<ul>
 			<li><a href="http://foo-projects.org/~benny/projects/thunar/" target="_blank" class="external">Thunarの特徴</a></li>
 		</ul>

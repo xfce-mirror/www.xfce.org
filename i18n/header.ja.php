@@ -67,7 +67,7 @@
 						<li><a href="/about/" title="詳細">詳細</a></li>
 						<li><a href="/projects/" title="製品">製品情報</a></li>
 						<li><a href="/download/" title="ダウンロード">ダウンロード</a></li>
-						<li><a href="/documentation/" title="説明書">説明書</a></li>
+						<li><a href="/documentation/" title="ドキュメント">ドキュメント</a></li>
 						<li><a href="/community/" title="コミュニティ">コミュニティ</a></li>
 						<li><a href="/development/" title="開発">開発</a></li>
 					</ul>

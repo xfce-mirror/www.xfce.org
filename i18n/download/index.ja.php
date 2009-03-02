@@ -2,21 +2,30 @@
     include ("version.php");
 ?>
 <a name="stable"></a>
+
 <h1>安定版のダウンロード(<?php echo $version; ?>) </h1>
-<p>ほとんどのディストリビューションはXfceを一緒にして出荷していますが、より新しいバージョンが欲しいときや、自分で一からビルドしたいときは
-以下でパッケージを見つけることができます。また、Xfceに特化したディストリビューションを<a href="/download/distros">ここ</a>で
-見ることができます。</p>
+
+<p>
+ほとんどのディストリビューションは Xfce を提供していますが、より新しいバージョンが欲しいときや、自分で一からビルドしたいときは
+以下からパッケージを入手できます。また、Xfce に特化したディストリビューションを<a href="/download/distros">ここ</a>で
+見つけることができます。
+</p>
 
 <h2 id="source">ソースコード</h2>
-<p>すべてのXfceモジュールは一つのSourceForgeレポジトリからのtarボール一つで、またはいくつかのミラーから(一つのtarボールから<em>または</em>いくつかに別れたtarボール)で利用できます。：</p>
+
+<p>
+すべての Xfce モジュールは私たちの SourceForge レポジトリからの一つの tar ボールで、またはいくつかのミラーから (一つ、<em>または</em>いくつかに別れた tar ボール) で入手できます:
+</p>
+
 <?php printServers("", $servers); ?>
 
-
 <h2 id="installer">グラフィカルインストーラ</h2>
-<p> Xfce-InstallerはXfceといくつかのエクステンションのインストールの手順をすぐにわかるくらい簡潔にするパッケージのコレクションです。
-インストーラについての詳細は<a href="/documentation/installers/xfce/index.html">ここ</a>を読んでください。</p>
-<?php printServers("installers", $servers); ?>
 
+<p>
+Xfce-Installer は、Xfce といくつかのエクステンションをインストールするとてもシンプルなパッケージのコレクションです。
+インストーラについての詳細は<a href="/documentation/installers/xfce/index.html">ここ</a>を読んでください。</p>
+
+<?php printServers("installers", $servers); ?>
 
 <h2 id="binaries">バイナリ</h2>
 <table cellspacing="5">
@@ -50,24 +59,33 @@
     <td><strong>Solaris SPARC/x86/AMD</strong><br />
       <a href="http://www.blastwave.org">http://www.blastwave.org</a></td>
   </tr>
+  <tr>
+    <td><img src="../../images/download/xubuntu.png" alt="Xubuntu" width="40" height="40" /></td>
+    <td><strong>Xubuntu</strong><br />
+      <a href="http://www.xubuntu.org">http://www.xubuntu.org</a></td>
+  </tr>
 </table>
 
 <?php if(isset($version_unstable)) { ?>
 
 <a name="unstable"></a>
-<h1>Download Unstable version (<?php echo $version_unstable; ?>) </h1>
+
+<h1>開発版のダウンロード (<?php echo $version_unstable; ?>)</h1>
+
 <p>
-Below you can find download locations for the latest development/unstable
-release of Xfce.  Note that this software almost certainly contains bugs,
-many of which might affect your desire to use it in a production
-environment.  You should back up all configuration files before installing
-and using these releases.  If you're uncertain about downloading this
-release, you should probably use the <a href="#stable">stable version</a>
-above.
+以下の場所から最新の開発/不安定版の Xfce をダウンロードできます。
+このソフトウェアは、ほとんどの場合間違いなくバグを含んでおり、その多くは
+あなたがこれを使いたい環境に影響を及ぼすかもしれないことに注意してください。
+これらの版をインストールおよび使用する前にすべての設定ファイルのバックアップを取ってください。
+もしあなたがこの版のダウンロードにためらいを感じるのでしたら、上の<a href="#stable">安定版</a>を使用してください。
 </p>
 
-<h2 id="source-unstable">Source code</h2>
-<p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
+<h2 id="source-unstable">ソースコード</h2>
+
+<p>
+すべての Xfce モジュールは私たちの SourceForge リポジトリから一つの tar ボールで、またはいくつかのミラーから (一つ、<em>または</em>いくつかに別れた tar ボール) で入手できます:
+</p>
+
 <?php printServers("", $servers_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

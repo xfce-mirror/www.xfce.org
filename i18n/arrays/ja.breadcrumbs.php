@@ -7,14 +7,14 @@ $breadcrumbs = array (
     
     # Catogory names
     "home"             => "ホーム",
-    "lists"            => "メイリングリスト",
+    "lists"            => "メーリングリスト",
     "irc"              => "IRC",
     "faq"              => "FAQ",
     "userguide"        => "ユーザガイド",
     "api"              => "開発者 (API)",
-    "tour"             => "Xfce 4.4 ツアー",
-    "search"           => "Google検索",
-    "distros"          => "Xfce Orientated Distributions",
+    "tour"             => "Xfce 4.6 ツアー",
+    "search"           => "Google 検索",
+    "distros"          => "Xfce に特化したディストリビューション",
     
     # Common Xfce components
     "xfce4-panel"      => "パネル",
@@ -26,13 +26,13 @@ $breadcrumbs = array (
     "xfce-mcs-manager" => "設定マネージャ",
     "xfce-mcs-plugins" => "設定マネージャのプラグイン",
     "xffm"             => "ファイルマネージャ",
-    "xfce4-appfinder"  => "アプリファインダ",
+    "xfce4-appfinder"  => "アプリケーションファインダ",
     "xfce4-mixer"      => "音量コントロール",
     "xfce4-terminal"   => "Xfce4 ターミナル",
     "xfce4-dev-tools"  => "Xfce 開発ツール",
     "xarchive"         => "アーカイブマネージャ",
     "xfc"              => "Xfce Foundation Classes",
-    "xfce-gtk-engine"  => "GTKテーマエンジン",
+    "xfce-gtk-engine"  => "GTK テーマエンジン",
     "dbh"              => "Disk Based Hashtables",
     "installit"        => "InstallIt"
 );

@@ -1,39 +1,40 @@
-<h1>文書類</h1>
-<p>このページにはXfceのユーザ向けと開発者向けの両方の文書があります。</p>
+<h1>ドキュメント</h1>
+<p>このページにはユーザおよび開発者双方向けの Xfce ドキュメントのほとんどがあります。</p>
 <table width="99%">
   <tr>
     <td width="49%" valign="top">
       <h2><a href="/documentation/4.4/userguide/">ユーザガイド</a></h2>
-      <p>残念ながら、(<a href="/development/">まだ</a>)4.4向けの文書はありません。
-	問題を解決したい場合は、<a href="/documentation/4.2/">4.2 ドキュメント</a>を見るか、<a href="http://forum.xfce.org">Xfceフォーラム</a>か
-	 <a href="/community/lists">メイリングリスト</a>を使ってください。</p>
+      <p>残念ながら、(<a href="/development/">まだ</a>) 4.6 のドキュメントはありません。
+         問題の解決には、<a href="/documentation/4.2/">4.2 のドキュメント</a>を見るか、
+	 <a href="http://forum.xfce.org">Xfce フォーラム</a>で尋ねるか、
+         あるいは<a href="/community/lists">メーリングリスト</a>を使用してください。</p>
 
-      <h2><a href="/documentation/api">開発者 (API)</a></h2>
+      <h2><a href="/documentation/4.6/api">開発者 (API)</a></h2>
       <ul>
-        <li><a href="/documentation/api/libxfce4mcs/">libxfce4mcs</a> (<a href="/documentation/api/libxfce4mcs-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/api/libxfce4util-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/api/libxfcegui4-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/api/libxfce4menu-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/api/libxfce4panel-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libsqueeze/">libsqueeze</a> (<a href="/documentation/api/libsqueeze-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/exo/">exo</a> (<a href="/documentation/api/exo-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/api/thunar-vfs-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/thunarx/">thunarx</a> (<a href="/documentation/api/thunarx-docs.tar.bz2">tarball</a>)</li>
-        <li><a href="/documentation/api/libxfprint/">libxfprint</a> (<a href="/documentation/api/libxfprint-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/xfconf/">xfconf</a> (<a href="/documentation/4.6/api/xfconf-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4util/">libxfce4util</a> (<a href="/documentation/4.6/api/libxfce4util-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfcegui4/">libxfcegui4</a> (<a href="/documentation/4.6/api/libxfcegui4-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4menu/">libxfce4menu</a> (<a href="/documentation/4.6/api/libxfce4menu-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfce4panel/">libxfce4panel</a> (<a href="/documentation/4.6/api/libxfce4panel-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/exo/">exo</a> (<a href="/documentation/4.6/api/exo-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/thunar-vfs/">thunar-vfs</a> (<a href="/documentation/4.6/api/thunar-vfs-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/thunarx/">thunarx</a> (<a href="/documentation/4.6/api/thunarx-docs.tar.bz2">tarball</a>)</li>
+        <li><a href="/documentation/4.6/api/libxfprint/">libxfprint</a> (<a href="/documentation/4.6/api/libxfprint-docs.tar.bz2">tarball</a>)</li>
       </ul>
           <h2><a href="/documentation/archive">アーカイブ</a></h2>
           <ul>
+            <li><a href="/documentation/4.4/">4.4 ドキュメント</a></li>
             <li><a href="/documentation/4.2/">4.2 ドキュメント</a></li>
-            <li><a href="/documentation/4.0/">4.0 ドキュメント  </a></li>
+            <li><a href="/documentation/4.0/">4.0 ドキュメント</a></li>
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
       <h2><a href="http://wiki.xfce.org/faq">FAQ</a></h2>
-      <p>Xfceの良く聞かれる質問を<a href="http://wiki.xfce.org/faq">Xfce wiki</a>で見ることができます。(ただし英語。)</p>
+      <p>Xfce でよく聞かれる質問を <a href="http://wiki.xfce.org/faq">Xfce wiki</a> (英語)で見ることができます。</p>
       <h2><a href="/documentation/requirements">必要になるもの</a></h2>
-          <p>すべてのXfceの<a href="/documentation/requirements">依存性</a>の詳しいリストです。</p>
-      <h2><a href="/documentation/changelogs/">更新履歴</a></h2>
-    <p>すべての Xfce 4の <a href="/documentation/changelogs/">更新履歴</a>です。 バージョン別に並べられています。</p>
+          <p>Xfce のすべての<a href="/documentation/requirements">依存関係</a>の詳細です。</p>
+      <h2><a href="/documentation/changelogs/">変更履歴</a></h2>
+    <p>Xfce 4 のすべての<a href="/documentation/changelogs/">更新履歴</a>です。バージョン順に並べられています。</p>
     </td>
   </tr>
 </table>
