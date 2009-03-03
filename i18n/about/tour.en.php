@@ -11,7 +11,7 @@ added since the last stable release.
 <p>Since desktop icons have been introduced in Xfce 4.4, people have expressed
 the need to allow the selection of multiple icons (rubber banding). With 
 <b>Xfce 4.6</b>, the <b>Xfdesktop</b> manager finally implements this feature: 
-you can select multiple icons, move them, remove them, etcetera...</p>
+you can select multiple icons, remove them, etcetera...</p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png"
   alt="Multiple icons selection" /></p>

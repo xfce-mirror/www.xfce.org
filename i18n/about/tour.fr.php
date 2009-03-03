@@ -11,7 +11,7 @@ de vous présenter quelques unes des nouveautés de cette nouvelle version.
 Depuis que Xfce 4.4 a apporté le support des icônes sur le bureau, de nombreuses personnes
 souhaitaient pouvoir sélectionner plusieurs icônes en même temps. Avec <b>Xfce 4.6</b>,
  c'est maintenant possible : <b>Xfdesktop</b> permet de sélectionner plusieurs icônes en
- même temps, de les déplacer, de les supprimer...
+ même temps, de les supprimer...
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png" alt="Sélection de plusieurs icônes" /></p>
