@@ -49,18 +49,19 @@ Ihnen, Hinweiszeichen, die sie nicht sehen m&ouml;chten, auszublenden und so
 das Feld aufger&auml;umt und &uuml;bersichtlich zu halten.
 </p>
 
-<h2>Neuer Tonmischer<a name="sound-mixer"></a></h2>
+<h2>Neue Laust&auml;rkeregelung<a name="sound-mixer"></a></h2>
 
 <p>
-Der <b>Tonmischer</b> wurde v&ouml;llig neu geschrieben und verwendet jetzt 
-<a href="http://www.gstreamer.net/">Gstreamer</a>, das die Verwendung von 
-mehreren Soundsystemen erlaubt. Die Bedienoberfl&auml;che wurde aufpoliert, 
-Sie k&ouml;nnen mehrere Soundkarten verwalten und eine Erweiterung f&uuml;r die 
-Leiste erlaubt Ihnen, die Systemlautst&auml;rke mit dem Mausrad einzustellen.
+Die <b>Lautst&auml;rkeregelung</b> wurde v&ouml;llig neu geschrieben und 
+verwendet jetzt <a href="http://www.gstreamer.net/">Gstreamer</a>, das die 
+Verwendung von mehreren Soundsystemen erlaubt. Die Bedienoberfl&auml;che wurde 
+aufpoliert, Sie k&ouml;nnen mehrere Soundkarten verwalten und eine Erweiterung 
+f&uuml;r die Leiste erlaubt Ihnen, die Systemlautst&auml;rke mit dem Mausrad 
+einzustellen.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-mixer.png" 
-alt="Neuer Tonmischer" /></p>
+alt="Neue Lautst&auml;rkeregelung" /></p>
 
 <h2>Verbesserte Sitzungsverwaltung<a name="session-manager"></a></h2>
 
@@ -75,11 +76,11 @@ Fensterverwaltung, etc. vorfinden werden, falls diese abst&uuml;rzen.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-session-settings.png" 
-alt="Einstellungsidalog der Sitzungsverwaltung" /></p>
+alt="Einstellungsdialog der Sitzungsverwaltung" /></p>
 
 <p>
 Sie enth&auml;lt auch eine Funktion, die lange auf der Wunschliste stand: Von
-Haus aus kann man nun den Computer neu Starten oder Herunterfahren. Und ohne 
+Haus aus kann man nun den Computer neu starten oder herunterfahren. Und ohne 
 Zusatzprogramme ist es jetzt m&ouml;glich, Ihren Computer in den 
 <b>Bereitschaftsmodus</b> oder <b>Ruhezustand</b> zu versetzen. Der 
 Abmeldedialog wurde mit zwei entsprechenden Schaltfl&auml;chen ausgestattet.
@@ -130,13 +131,13 @@ alt="flackerfreies Vergr&ouml;&szlig;ern" /></p>
 <p>
 Au&szlig;erdem wurden einige <b>Einstellungsm&ouml;glichkeiten</b> 
 hinzugef&uuml;gt: Sie k&ouml;nnen z.B. abstellen, dass Fenster blinken, wenn 
-diese ein dringendes Signal erhalten.
+diese ein Dringlichkeitssignal  erhalten.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-tweaks.png" 
 alt="neue Einstellungsm&ouml;glichkeiten" /></p>
 
-<h2>Dateiverwalter<a name="file-manager"></a></h2>
+<h2>Dateimanager<a name="file-manager"></a></h2>
 
 <p>
 Es gibt eine Reihe von Verbesserungen und Effizienssteigerungen in 
@@ -181,7 +182,7 @@ alt="Unterst&uuml;tzung f&uuml;r verschl&uuml;sselte Ger&auml;te in Thunar" /></
 
 <p>
 Xfce 4.6 enth&auml;lt eine neue Einstellungsoberfl&auml;che, den <b>Xfce 
-Einstellungsverwalter</b>, der Ihnen erm&ouml;glicht, Ihre 
+Einstellungsmanager</b>, der Ihnen erm&ouml;glicht, Ihre 
 Arbeitsoberfl&auml;che einfacher einzurichten: Die Dialoge, die Sie durch einen 
 einfachen Klick auf die Schaltfl&auml;chen erreichen k&ouml;nnen, wurden 
 &uuml;berarbeitet. Sie sind jetzt kompakter und stehen Ihnen schneller und 
@@ -189,7 +190,7 @@ intuitiver bei der Einrichtung Ihrer Arbeitsoberfl&auml;che zur Seite.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-settings-manager.png" 
-alt="Xfce4 Einstellungsverwalter" /></p>
+alt="Xfce4 Einstellungsmanager" /></p>
 
 <h3>Barrierefreiheitseinstellungen<a name="accessibility"></a></h3>
 <p class="image"><img src="/images/about/tour/4.6/xfce4-accessibility-settings.png" 
@@ -208,15 +209,15 @@ alt="Darstellungseinstellungsdialog" /></p>
 
 <p>
 Der Dialog &raquo;<b>Darstellungseinstellungen</b>&laquo; erlaubt Ihnen, den 
-Stil f&uuml;r die Widgets, das verwendete Symbolthema, Schrifteinstellungen, 
+Stil f&uuml;r die Bedienelemente, das verwendete Symbolthema, Schrifteinstellungen, 
 Werkzeugleisten und Men&uuml;optionen einzurichten. 
 </p>
 
-<h3>Anzeigeneinstellungen<a name="display"></a></h3>
+<h3>Anzeige<a name="display"></a></h3>
 <p class="image"><img src="/images/about/tour/4.6/xfce4-display-settings.png" 
-alt="Anzeigeneinstellungsdialog" /></p>
+alt="Anzeigendialog" /></p>
 
-<p>Der Dialog &raquo;<b>Anzeigeneinstellungen</b>&laquo; erlaubt Ihnen, die 
+<p>Der Dialog &raquo;<b>Anzeigene</b>&laquo; erlaubt Ihnen, die 
 Bildschirmaufl&ouml;sung, die Wiederholungsrate und die Rotation f&uuml;r jeden 
 angeschlossenen Bildschirm einzustellen.
 
@@ -273,7 +274,7 @@ Anwendungssymbol in das Fenster zum Erstellen von Startern ziehen.
 <p class="image"><img src="/images/about/tour/4.6/xfce4-appfinder.png" 
 alt="Neuer Anwendungsfinder" /></p>
 
-<h2>Links<a name="links"></a></h2>
+<h2>Verweise<a name="links"></a></h2>
 
 <ul>
 <li><a href="http://www.xfce.org/">Die Webseite von Xfce</a></li>
