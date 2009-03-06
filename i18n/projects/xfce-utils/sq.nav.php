@@ -5,7 +5,7 @@
 		    <li><a href="/projects/xfce4-panel">Panel</a></li>
 		    <li><a href="/projects/xfprint">Ndihmës Shtypjeje</a></li>
 		    <li><a href="/projects/xfce4-session">Përgjegjës Sesionesh</a></li>
-		    <li><a href="/projects/xfce-mcs-manager">Përgjegjës Rregullimesh</a></li>
+		    <li><a href="/projects/xfce4-settings">Përgjegjës Rregullimesh</a></li>
 		    <li><a href="/projects/xfce-utils">Të dobishme dhe Programthe</a></li>
 		    <li><a href="/projects/xfwm4">Përgjegjës Dritaresh</a></li>
 		    <li><a href="/projects/libraries">Librari Xfce</a></li>

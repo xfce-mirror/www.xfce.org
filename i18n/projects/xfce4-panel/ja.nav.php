@@ -5,7 +5,7 @@
 		    <li><a href="/projects/xfce4-panel">パネル</a></li>
 		    <li><a href="/projects/xfprint">プリントマネージャ</a></li>
 		    <li><a href="/projects/xfce4-session">セッションマネージャ</a></li>
-		    <li><a href="/projects/xfce-mcs-manager">設定マネージャ</a></li>
+		    <li><a href="/projects/xfce4-settings">設定マネージャ</a></li>
 		    <li><a href="/projects/xfce-utils">ユーティリティ</a></li>
 		    <li><a href="/projects/xfwm4">ウィンドウマネージャ</a></li>
 		    <li><a href="/projects/libraries">Xfce ライブラリ</a></li>

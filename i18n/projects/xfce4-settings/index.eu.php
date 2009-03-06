@@ -1,4 +1,4 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" /></div>
+<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-settings.png" alt="xfce-mcs-manager" width="48" height="48" /></div>
 
 <h1>Ezarpen Kudeatzailear</h1>
 <p>Ezapren kudeatzaileak MCS (Multi-Channel Settings/Kanal anitzeko Ezarpenak) dakar,

@@ -2,17 +2,22 @@
 	$top=true;
 ?>
 <h1>Projets</h1>
-<p>Le projet Xfce est divisé en plusieurs parties qui forment le bureau d'environnement une fois rassemblés. Chaque projet a sa propre page pour donner plus d'informations.</p>
+
+<p>
+Le projet Xfce est constitué de plusieurs projets, un pour chacune des parties de
+l'environnement du bureau. Chaque projet a sa propre page pour fournir plus d'informations.
+</p>
 
 <h2 id="core">Principaux Composants</h2>
-<table width="99%" border="0" cellspacing="10" cellpadding="0">
+
+<table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfwm4/">Gestionnaire de fenêtres</a></h3>
-			<p>Gère le placement des fenêtres des applications à l'écran, fournit les décorations des fenêtres et gère les espaces de travail des bureaux virtuels.</p>
+			<p>Ajoute des décorations aux fenêtres, gère le placement des fenêtres des applications à l'écran et les espaces de travail des bureaux virtuels.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" />
@@ -44,11 +49,11 @@
 			<p>Fournit une interface graphique pour imprimer. Xfprint utilise des imprimantes prédéfinies et fonctionne avec CUPS, BSD-LPR, ou un fichier de destination.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/xfce-mcs-manager.png" alt="xfce-mcs-manager" width="48" height="48" />
+			<img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-		<h3><a href="/projects/xfce-mcs-manager/">Gestionnaire de paramètres</a></h3>
-			<p>Le système de configuration de Xfce, il fonctionne en tâche de fond et fournit des informations globales sur les paramètres des composants de Xfce.</p>
+		<h3><a href="/projects/xfce4-settings/">Gestionnaire de préférences</a></h3>
+			<p>Il permet de configurer et de personnaliser l'environnement de bureau.</p>
 		</td>
 	</tr>
 	<tr>
@@ -66,14 +71,23 @@
 			<h3><a href="/projects/libraries/">Bibliothèques Xfce</a></h3>
 			<p>Les trois bibliothèques de bases de Xfce (libxfcegui4, libxfce4mcs et libxfce4utils) sont utilisées par presque toutes les applications Xfce.</p>
 		</td>
-		<td width="48" valign="top">&nbsp;</td>
-		<td width="33%" valign="top">&nbsp;</td>
+		<td width="48" valign="top">
+      <img src="/images/projects/library.png" alt="xfconf" width="48" height="48" />
+    </td>
+		<td width="33%" valign="top">
+      <h3><a href="/projects/xfconf/">Xfconf</a></h3>
+      <p>
+        Xfconf permet de stocker les préférences des applications qui l'utilisent et d'y
+        accéder facilement.
+      </p>
+    </td>
 	</tr>
 </table>
 
 <h2 id="applications">Applications</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
+  
 		<td width="48" valign="top">
 			<img src="/images/projects/mousepad.png" alt="mousepad" width="48" height="48" />
 		</td>
@@ -81,13 +95,7 @@
 			<h3><a href="/projects/mousepad/">Mousepad</a></h3>
 			<p>Mousepad est un éditeur de texte pour Xfce basé sur Leafpad. La raison du fork de leafpad est l'ajout du support d'imprimante Xfce, qui aurait été difficile avec Leafpad.</p>
 		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt est l'approche officiel à transformer le fameux installateur Xfce en un gestionnaire d'application et d'installation plus générique. Il est écrit en Python/GTK.</p>
-		</td>
+    
 		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
 		</td>
@@ -95,15 +103,18 @@
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
 			<p>Terminal est un émulateur de terminal moderne pour les bureaux Unix/Linux - plus particulièrement l'environnement de bureau Xfce.</p>
 		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
+    
+    <td width="48" valign="top">
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Gestionnaire de fichier Thunar</a></h3>
 			<p>Thunar est un nouveau gestionnaire de fichier moderne pour l'environnement de bureau Xfce. Thunar a été conçu dès le départ pour être rapide et simple d'utilisation.</p>
 		</td>
+	</tr>
+
+  <tr>
+		
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
 		</td>
@@ -111,58 +122,66 @@
 			<h3><a href="/projects/xfburn/">Xfburn</a></h3>
 			<p>Xfburn est un simple outil de gravure basé sur les bibliothèques <a href="http://libburnia-project.org/">libburnia</a> pour créer et graver des CDs et DVDs.</p>
 		</td>
+    
 		<td width="48" valign="top">
 			<img src="/images/projects/orage.png" alt="orage" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/orage/">Orage</a></h3>
-			<p>Un simple calendrier avec gestion des rendez-vous.</p>
+			<p>Un calendrier simple qui permet de gérer ses rendez-vous et d'avoir des rappels.</p>
 		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
+
+    <td width="48" valign="top">
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-appfinder/">Liste des applications</a></h3>
-			<p>Permet de chercher, exécuter et trouver des informations à propos des applications installées sur votre système.</p>
+			<p>Permet de rechercher, de lancer et de trouver les applications installées sur votre système.</p>
 		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Contrôleur de volume</a></h3>
-			<p>Un contrôleur du volume pour le panneau. Il inclut une fenêtre de réglages supportant ALSA, OSS et Sun audio.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
-			<p>Un émulateur de terminal léger pour Xfce 4.</p>
-		</td>
+    
 	</tr>
-	<tr>
-		<td width="48" valign="top">
+
+  <tr>
+
+    <td width="48" valign="top">
 			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
-			<p>Xfmedia est un lecteur multimédia simple et facile à utiliser basé sur le moteur xine. L'interface GTK+ met l'accent sur la lecture de fichiers audio et comme il est basé sur xine il supporte la vidéo de même.</p>
+			<p>Xfmedia est un lecteur multimédia simple et facile à utiliser basé sur le moteur Xine. L'interface GTK+ met l'accent sur la lecture de fichiers audio et comme il est basé sur xine il supporte la vidéo de même.</p>
 		</td>
-		<td width="48" valign="top">
+
+    <td width="48" valign="top">
 			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Gestionnaire d'archive</a></h3>
 			<p>Xarchiver est une interface graphique GTK+2 pour les applications de conmpression 7z, zip, rar, tar, bzip2, gzip, arj et rpm.</p>
 		</td>
+
+    <td width="48" valign="top">
+			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
+		</td>
+		<td width="33%" valign="top">
+			<h3><a href="/projects/xfce4-mixer/">Contrôleur de volume</a></h3>
+			<p>Permet de régler le volume du système, basé sur Gstreamer.</p>
+		</td>
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
 			<h3><a href="/projects/ristretto">Visualiseur d'Images</a></h3>
 			<p>Ristretto est un visualiseur d'images léger.</p>
+		</td>
+
+    <td width="48" valign="top">
+			<img src="/images/projects/midori.png" alt="midori" width="48" height="48" />
+		</td>
+		<td valign="top">
+			<h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Navigateur Internet</a></h3>
+			<p>Midori est un navigateur Internet très léger et très rapide.</p>
 		</td>
 	</tr>
 </table>

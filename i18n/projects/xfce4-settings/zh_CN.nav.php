@@ -5,7 +5,7 @@
 		    <li><a href="/projects/xfce4-panel">面板</a></li>
 		    <li><a href="/projects/xfprint">打印助手</a></li>
 		    <li><a href="/projects/xfce4-session">会话管理器</a></li>
-		    <li><a href="/projects/xfce-mcs-manager">设置管理器</a></li>
+		    <li><a href="/projects/xfce4-settings">设置管理器</a></li>
 		    <li><a href="/projects/xfce-utils">实用工具与脚本</a></li>
 		    <li><a href="/projects/xfwm4">窗口管理器</a></li>
 		    <li><a href="/projects/libraries">Xfce 库</a></li>

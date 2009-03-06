@@ -9,7 +9,7 @@ Every project has it's own project page to provide additionnal information.
 </p>
 
 <h2 id="core">Core Components</h2>
-<table width="99%" border="0" cellspacing="10" cellpadding="0">
+<table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" />
@@ -167,7 +167,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
-			<p>A modern sound mixer and based on GStreamer.</p>
+			<p>A modern sound mixer based on GStreamer.</p>
 		</td>
 	</tr>
 	<tr>

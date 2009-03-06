@@ -5,7 +5,7 @@
 		    <li><a href="/projects/xfce4-panel">Panela</a></li>
 		    <li><a href="/projects/xfprint">Inprimatze Laguntzailea</a></li>
 		    <li><a href="/projects/xfce4-session">Saio Kudeatzailea</a></li>
-		    <li><a href="/projects/xfce-mcs-manager">Ezarpen Kudeatzailea</a></li>
+		    <li><a href="/projects/xfce4-settings">Ezarpen Kudeatzailea</a></li>
 		    <li><a href="/projects/xfce-utils">lanabes eta Script-ak</a></li>
 		    <li><a href="/projects/xfwm4">Leiho Kudeatzailea</a></li>
 		    <li><a href="/projects/libraries">Xfce Liburutegiak</a></li>

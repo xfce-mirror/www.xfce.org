@@ -5,7 +5,7 @@
             <li><a href="/projects/xfce4-panel">Painel</a></li>
             <li><a href="/projects/xfprint">Auxiliar de Impressão</a></li>
             <li><a href="/projects/xfce4-session">Gerenciador de Sessão</a></li>
-            <li><a href="/projects/xfce-mcs-manager">Gerenciador de Configurações</a></li>
+            <li><a href="/projects/xfce4-settings">Gerenciador de Configurações</a></li>
             <li><a href="/projects/xfce-utils">Utilitários e Scripts</a></li>
             <li><a href="/projects/xfwm4">Gerenciador de Janelas</a></li>
             <li><a href="/projects/libraries">Bibliotecas Xfce</a></li>
