@@ -4,7 +4,6 @@
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">アプリファインダー</a></li>
 		    <li><a href="/projects/xarchiver">アーカイブマネージャ</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
 		    <li><a href="/projects/mousepad">マウスパッド</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">ターミナル</a></li>

@@ -9,6 +9,7 @@
 		    <li><a href="/projects/xfce-utils">ユーティリティ</a></li>
 		    <li><a href="/projects/xfwm4">ウィンドウマネージャ</a></li>
 		    <li><a href="/projects/libraries">Xfce ライブラリ</a></li>
+        <li><a href="/projects/xfconf">Xfconf</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">アプリケーション</a></li>

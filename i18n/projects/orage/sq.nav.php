@@ -4,7 +4,6 @@
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">Gjetës Zbatimesh</a></li>
 		    <li><a href="/projects/xarchiver">Përgjegjës Arkivash</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
 		    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminal</a></li>

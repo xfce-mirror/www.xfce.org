@@ -9,6 +9,7 @@
 		    <li><a href="/projects/xfce-utils">Hilfsprogramme</a></li>
 		    <li><a href="/projects/xfwm4">Fensterverwaltung</a></li>
 		    <li><a href="/projects/libraries">Xfce-Bibliotheken</a></li>
+        <li><a href="/projects/xfconf">Xfconf</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">Anwendungen</a></li>

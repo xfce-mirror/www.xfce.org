@@ -4,8 +4,7 @@
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">应用程序查找器</a></li>
 		    <li><a href="/projects/xarchiver">归档管理器</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
-		    <li><a href="/projects/mousepad">Mousepad</a></li>
+  	    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminal</a></li>
 		    <li><a href="/projects/thunar">Thunar 文件管理器</a></li>

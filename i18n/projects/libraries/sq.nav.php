@@ -9,6 +9,7 @@
 		    <li><a href="/projects/xfce-utils">Të dobishëm dhe Programthe</a></li>
 		    <li><a href="/projects/xfwm4">Përgjegjës Dritaresh</a></li>
 		    <li><a href="/projects/libraries">Librari Xfce</a></li>
+        <li><a href="/projects/xfconf">Xfconf</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">Zbatime</a></li>

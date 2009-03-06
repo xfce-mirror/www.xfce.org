@@ -4,7 +4,6 @@
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">Aplikazio Bilatzailea</a></li>
 		    <li><a href="/projects/xarchiver">Pakete Kudeatzailea</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
 		    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminala</a></li>

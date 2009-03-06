@@ -9,6 +9,7 @@
 		    <li><a href="/projects/xfce-utils">实用工具与脚本</a></li>
 		    <li><a href="/projects/xfwm4">窗口管理器</a></li>
 		    <li><a href="/projects/libraries">Xfce 库</a></li>
+        <li><a href="/projects/xfconf">Xfconf</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#applications">应用程序</a></li>

@@ -4,8 +4,7 @@
 		<ul>
 		    <li><a href="/projects/xfce4-appfinder">Pencari Aplikasi</a></li>
 		    <li><a href="/projects/xarchiver">Manajer Arsip</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
-		    <li><a href="/projects/mousepad">Mousepad</a></li>
+  	    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminal</a></li>
 		    <li><a href="/projects/thunar">Manajer Berkas Thunar</a></li>
