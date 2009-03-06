@@ -11,7 +11,7 @@ añadidas desde la última versión estable.
 <p>Desde que se introdujeron los iconos de escritorio en Xfce 4.4, hay personas que han expresado
 la necesidad de poder seleccionar varios iconos (área de selección). En
 <b>Xfce 4.6</b>, el gestor <b>Xfdesktop</b> por fin implementa esta funcionalidad:
-puede seleccionar varios iconos, moverlos, borrarlos, etc...</p>
+puede seleccionar varios iconos, borrarlos, etc...</p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png"
   alt="Selección múltiple de iconos" /></p>

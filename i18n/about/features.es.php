@@ -1,8 +1,8 @@
 <h1>Características de Xfce</h1>
 
 <p>
-Xfce proporciona un entorno ligero con un gestor de escritorio con un fondo de pantalla
-que le permite tener iconos y un panel con numerosos complementos; un gestor de ventanas
+Xfce proporciona un entorno ligero de escritorio con un fondo de pantalla
+con iconos y un panel con numerosos complementos; un gestor de ventanas
 acorde con los estándares con un gestor de composición, un gestor de configuración para personalizar su escritorio,
 un administrador de archivos moderno y fácil de usar; y un gestor de sesión que le permite
 guardar la sesión actual, iniciar aplicaciones automáticamente y apagar, reiniciar, suspender o hibernar su ordenador.

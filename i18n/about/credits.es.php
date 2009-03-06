@@ -21,7 +21,7 @@ include 'include/credits.php';
 <table cellpadding="3" width="99%">
     <tr>
         <th width="40%" align="left"><h3>Colaborador</h3></th>
-        <th width="60%" align="left"><h3>Proyecto(s) principales</h3></th>
+        <th width="60%" align="left"><h3>Proyectos principales</h3></th>
     </tr>
 <?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
 </table>
@@ -64,7 +64,7 @@ include 'include/credits.php';
 </table>
 
 <br />
-<h2 id="translators">Translators</h2>
+<h2 id="translators">Traductores</h2>
 <table cellpadding="3" width="99%">
     <tr>
         <th align="left"><h3>Supervisión de traducciones</h3></th>

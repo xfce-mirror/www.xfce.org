@@ -13,7 +13,7 @@
       <div class="notes">
       
 				<p>
-          <a href="/documentation/changelogs/4.6.0" title="Leer los changelogs">Changelogs</a>
+          <a href="/documentation/changelogs/4.6.0" title="Leer los registros de cambios">Registros de cambios</a>
           <span class="grey"> | </span><a href="/about/tour" title="Novedades en Xfce 4.6">Presentación</a>
         </p>
         
@@ -153,7 +153,7 @@
       
 		<div id="front-shortcuts">
 
-      <h2>Shortcuts</h2>
+      <h2>Enlaces</h2>
       
       <ul>
         <li><a href="/community/lists">Listas de correo</a></li>

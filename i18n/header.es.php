@@ -46,8 +46,8 @@
 				<div id="header-logo"></div>
 				<div id="header-right">
 					<div id="header-style">
-						<h2 class="hidden">Distribución del sitio</h2>
-						<p>Distribución: <a href="?layout=normal" title="Normal layout (Min: 740px, Máx: 1000px)">Normal</a> / 
+						<h2 class="hidden">Apariencia del sitio</h2>
+						<p>Apariencia: <a href="?layout=normal" title="Distribución normal (Min: 740px, Máx: 1000px)">Normal</a> / 
 						<a href="?layout=liquid" title="Distribución fluida (100% del ancho)">Líquida</a></p>
 					</div>
 					<div id="header-search">
