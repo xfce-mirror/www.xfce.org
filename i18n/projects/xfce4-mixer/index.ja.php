@@ -1,33 +1,31 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" /></div>
 
-<h1>音量調節</h1>
-<p>xfce-4ミキサ（Xfceデスクトップ環境用の音量調節アプリケーション）です。このソフトウェアパッケージには
-Xfceパネルの音量調節プラグインとスタンドアロンで動くミキサーが含まれています。</p>
+<h1>ミキサー</h1>
 
-<p>現在のところ、音量調節アプリケーションは以下のバックエンドをサポートしています。：</p>
+<p class="center"><img src="/images/projects/screenshots/xfce4-mixer.png" alt="Mixer" /></p>
 
-<ul>
-  <li><strong>OSS - Open Sound System</strong><br />
-    Linux、 FreeBSD (newpcm)、 NetBSD/OpenBSD (libossaudio)、いくつかのUnixからの派生した物でサポートされています。</li>
+<p>
+ミキサーは Xfce デスクトップ環境用の音量調節アプリケーションです。
+Xfce パネルプラグインと単体のミキサーアプリケーションを提供しています。
+</p>
 
-  <li><strong>SUN - Sun Audio</strong><br />
-    Sun Solarisでサポートされています。</li>
- 
-  <li><strong>ALSA - Advanced Linux Sound Architecture</strong><br />
-   Linux (2.4以上)でサポートされています。</li>
-</ul>
+<p>
+<a href="http://www.gstreamer.net/">GStreamer</a> プロジェクトがサポートする全てのオーディオシステムをサポートします。
+</p>
 
 <h2>外部リンク</h2>
-<p>このアプリケーションはXfceデスクトップ環境の一部として提供されています。</p>
+
 <h3>Subversion</h3>
+
 <p>
-  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
+  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewVC</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
 </p>
+
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></p>
 
 <h2>作者</h2>
 <ul>
-  <li>Danny Milosavljevic [dannym at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
 </ul>
 

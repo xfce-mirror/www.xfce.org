@@ -88,7 +88,7 @@
 				<li><a href="/about/screenshots">スクリーンショット</a></li>
 				<li><a href="http://forum.xfce.org" target="_blank" title="Xfceフォーラム (新規ウィンドウ)" class="external">Xfceフォーラム</a></li>
 				<li><a href="http://bugzilla.xfce.org" title="バグを報告する (新規ウィンドウ)" target="_blank" class="external">バグを報告</a></li>
-				<li><a href="http://wiki.xfce.org" title="Xfce Wiki (新規のウィンドウ)" target="_blank" class="external">Xfce Wiki</a></li>
+				<li><a href="http://wiki.xfce.org/ja/" title="Xfce Wiki (新規ウィンドウ)" target="_blank" class="external">Xfce Wiki</a></li>
 				<li><a href="/download/distros">Xfce ディストリビューション</a></li>
 			</ul>
       </div>

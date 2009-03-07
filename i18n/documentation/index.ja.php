@@ -5,9 +5,7 @@
     <td width="49%" valign="top">
       <h2><a href="/documentation/4.4/userguide/">ユーザガイド</a></h2>
       <p>残念ながら、(<a href="/development/">まだ</a>) 4.6 のドキュメントはありません。
-         問題の解決には、<a href="/documentation/4.2/">4.2 のドキュメント</a>を見るか、
-	 <a href="http://forum.xfce.org">Xfce フォーラム</a>で尋ねるか、
-         あるいは<a href="/community/lists">メーリングリスト</a>を使用してください。</p>
+         問題の解決には、<a href="/documentation/4.2/">4.2 のドキュメント</a>を見るか、<a href="http://forum.xfce.org">Xfce フォーラム</a>で尋ねるか、あるいは<a href="/community/lists">メーリングリスト</a>を使用してください。</p>
 
       <h2><a href="/documentation/4.6/api">開発者 (API)</a></h2>
       <ul>
@@ -29,8 +27,8 @@
     </ul></td>
 	<td width="2%">&nbsp;</td>
     <td width="49%" valign="top">
-      <h2><a href="http://wiki.xfce.org/faq">FAQ</a></h2>
-      <p>Xfce でよく聞かれる質問を <a href="http://wiki.xfce.org/faq">Xfce wiki</a> (英語)で見ることができます。</p>
+      <h2><a href="http://wiki.xfce.org/ja/faq">FAQ</a></h2>
+      <p>Xfce でよく聞かれる質問を <a href="http://wiki.xfce.org/ja/faq">Xfce wiki</a> で見ることができます。</p>
       <h2><a href="/documentation/requirements">必要になるもの</a></h2>
           <p>Xfce のすべての<a href="/documentation/requirements">依存関係</a>の詳細です。</p>
       <h2><a href="/documentation/changelogs/">変更履歴</a></h2>

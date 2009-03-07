@@ -1,5 +1,5 @@
 <ul>
-	<li><a href="http://wiki.xfce.org/faq" class="external">Xfce FAQs</a></li>
+	<li><a href="http://wiki.xfce.org/ja/faq" class="external">Xfce FAQs</a></li>
 	<li><a href="/documentation/requirements">必要になるもの</a></li>
 	<li><a href="/documentation/changelogs/">変更履歴</a></li>
 	<li><a href="/documentation/archive">アーカイブ</a>

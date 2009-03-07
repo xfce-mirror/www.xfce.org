@@ -1,6 +1,5 @@
 <h1>開発</h1>
-<p>Xfce へ貢献する方法を探しているのでいるのであれば、
-<a href="../community/lists">メーリングリスト</a>と下の項目の中の関係する<a href="http://forum.xfce.org">フォーラム</a>の参加を考えてみてください。
+<p>Xfce へ貢献する手段をお探しであれば、<a href="../community/lists">メーリングリスト</a>と下の項目の中の関係する<a href="http://forum.xfce.org">フォーラム</a>の参加を検討してみてください。
 </p>
 
 <table width="99%" border="0" cellspacing="10" cellpadding="0">
@@ -16,7 +15,7 @@
 			<img src="/images/development/docs.png" alt="docs" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/documentation/">文書類</a></h3>
+			<h3><a href="/documentation/">ドキュメント</a></h3>
 			<p>私たちは常に Xfce についての新しい文書を歓迎しています。</p>
 		</td>
 		<td width="48" valign="top">
@@ -25,7 +24,7 @@
 		<td width="33%" valign="top">
 			<h3><a href="/about/artwork">アートワーク</a></h3>
 			<p>あなただけの Xfce の外観を作りたいですか? それなら、ステップガイド <a href="http://wiki.xfce.org/howto">howto's</a> 通りにやればできます。
-			または <a href="http://www.xfce-look.org/">xfce-look</a> を流し読みすれば、どうやって他の方々が Xfce をカスタマイズしたのかを見ることができます。</p>
+			また、<a href="http://www.xfce-look.org/">xfce-look</a> を流し読みすれば、他の方々がどのように Xfce をカスタマイズしたのかを見ることができます。</p>
 		</td>
 	</tr>
 	<tr>
@@ -40,15 +39,15 @@
 			<img src="/images/development/devel.png" alt="dev" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">開発</a></h3>
+			<h3><a href="http://foo-projects.org/mailman/listinfo/xfce4-dev">開発</a></h3>
 			<p>Xfce の次の主要ブランチの開発や現在のリリースのバグの修正をしている私たちのプロジェクトに気軽に参加してください。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/development/docs.png" alt="docs" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://wiki.xfce.org">Wiki</a></h3>
-			<p>だれでも内容を新たに書き加えたりすることができる Xfce <a href="http://wiki.xfce.org">wiki</a> の目次です。</p>
+			<h3><a href="http://wiki.xfce.org/ja/">Wiki</a></h3>
+			<p>だれでも Xfce <a href="http://wiki.xfce.org/ja/">wiki</a> の内容を新たに書き加えたりすることができます。</p>
 		</td>
 	</tr>
 </table>

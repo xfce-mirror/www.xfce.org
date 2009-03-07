@@ -65,7 +65,7 @@
 					<ul>
 						<li><a href="/" title="ホーム">ホーム</a></li>
 						<li><a href="/about/" title="詳細">詳細</a></li>
-						<li><a href="/projects/" title="製品">製品情報</a></li>
+						<li><a href="/projects/" title="プロジェクト">プロジェクト</a></li>
 						<li><a href="/download/" title="ダウンロード">ダウンロード</a></li>
 						<li><a href="/documentation/" title="ドキュメント">ドキュメント</a></li>
 						<li><a href="/community/" title="コミュニティ">コミュニティ</a></li>

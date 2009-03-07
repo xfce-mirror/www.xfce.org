@@ -1,7 +1,7 @@
-<h1>Xfceに必要になるもののリスト</h1>
+<h1>Xfce に必要になるもののリスト</h1>
 
 <p>
-すべてのパッケージ (xfce4-dev-tools は除く) は gtk+&nbsp;&gt;=&nbsp;2.10 および glib&nbsp;&gt;=&nbsp;2.12 に依存しています。
+すべてのパッケージ (xfce4-dev-tools は除く) は gtk+&nbsp;2.10 以降および glib&nbsp;2.12 以降に依存しています。
 </p>
 
 <p>
@@ -134,7 +134,7 @@
   </tr>
 </table>
 
-<p>ビルド時の依存関係は<a href="/images/documentation/xfce-bdeps.svg">SVG ファイル</a>でもご覧いただけます。</p>
+<p>ビルド時の依存関係は <a href="/images/documentation/xfce-bdeps.svg">SVGファイル</a>でもご覧いただけます。</p>
 
 <h2>推奨パッケージ:</h2>
 <ul>

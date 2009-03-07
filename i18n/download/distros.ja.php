@@ -1,4 +1,5 @@
 <h1>Xfce に特化したディストリビューション</h1>
+
 <p>ここでは標準のデスクトップとして Xfce を採用しているディストリビューションを紹介します。</p>
 
 <table border="0" cellspacing="10" cellpadding="0">
@@ -7,15 +8,15 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.sam-linux.org/" title="SAM Linux のウェブサイトへ"><img src="/images/download/distros/sam.png" alt="Sam Linux" border="0"/></a></td>
-		<td>
-			<h2>SAM Linux デスクトップ</h2>
-			<p>SAM Linux Desktop は完全な Linux デスクトップ を含んだブート可能な LiveCD OSです。ハードディスクにインストールする必要はなく、完全に CD ドライブや RAM から実行できます。 </p>
-		</td>
+		<td valign="top"><a href="http://www.sam-linux.org/" title="SAM Linux のウェブサイトへ"><img src="/images/download/distros/sam.png" alt="SAM Linux" border="0"/></a></td>
+        <td>
+            <h2>SAM Linux Desktop</h2>
+		    <p>SAM Linux Desktop は完全な Linux デスクトップ を含んだブート可能な LiveCD OSです。ハードディスクにインストールする必要はなく、完全に CD ドライブや RAM から実行できます。 </p>
+        </td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.sam-linux.org/" title="SAM Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/sam" target="_blank" title="DistroWatch の SAM Linux のページへ">DistroWatch</a></td>
+		<td><a href="http://www.sam-linux.org/" title="SAM Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/sam" title="DistroWatch の SAM Linux のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -29,7 +30,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xubuntu.org/" title="Xubuntu のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/xubuntu" target="_blank" title="DistroWatch の Xubuntu のページへ">DistroWatch</a></td>
+		<td><a href="http://www.xubuntu.org/" title="Xubuntu のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/xubuntu" title="DistroWatch の Xubuntu のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -39,13 +40,12 @@
 		</td>
 		<td>
 			<h2>Kwort Linux</h2>
-			<p>Kwort は、パワフルなデスクトップにするために Xfce といくつかの役立つツールを組み合わせて使用した、モダンで、高速、かつ使いやすい Linux ディストリビューションです。
-			Kwort は Slackware をベースとしており、堅牢で、無駄がなく、拡張が容易です。</p>
+			<p>Kwort は、パワフルなデスクトップにするために Xfce といくつかの役立つツールを組み合わせて使用した、モダンで、高速、かつ使いやすい Linux ディストリビューションです。Kwort は Slackware をベースとしており、堅牢で、無駄がなく、拡張が容易です。</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.kwort.org/" title="Kwort Linux のウェブサイトへ">Website</a> | <a href="http://distrowatch.com/kwort" target="_blank" title="DistroWatch の Kwort Linux のページへ">DistroWatch</a></td>
+		<td><a href="http://www.kwort.org/" title="Kwort Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/kwort" title="DistroWatch の Kwort Linux のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -60,7 +60,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.kateos.org/" title="Kate OS のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/kateos" target="_blank" title="DistroWatch の Kate OS のページへ">DistroWatch</a></td>
+		<td><a href="http://www.kateos.org/" title="Kate OS のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/kateos" title="DistroWatch の Kate OS のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -74,7 +74,61 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.pureos.org/" title="PureOSlight のウェブサイトへ">ウェブサイト</a></a></td>
+		<td><a href="http://www.pureos.org/" title="PureOSlight のウェブサイトへ">ウェブサイト</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://spins.fedoraproject.org/" title="Fedora Xfce Spin のウェブサイトへ"><img src="/images/download/distros/fedora.png" alt="Fedora Xfce Spin" border="0"/></a>
+		</td>
+		<td>
+			<h2>Fedora Xfce Spin</h2>
+			<p>Fedora Xfce Spin は x86 および x86_64 で利用可能な Fedora Live CD イメージです。</p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://fedoraproject.org/wiki/SIGs/Xfce/XfceLive" title="Fedora Xfce Spin のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/fedora" title="DistroWatch の Fedora page のページへ">DistroWatch</a></td>
+	</tr>
+</table>
+
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://www.dreamlinux.com.br/" title="Dreamlinux のウェブサイトへ"><img src="/images/download/distros/dreamlinux.png" alt="Dreamlinux" border="0"/></a>
+		</td>
+		<td>
+			<h2>Dreamlinux</h2>
+      
+			<p>
+	Dreamlinux は CD/DVD/USB スティックから直接起動できる最新のモジュール式 GNU/Linux で、HDD (IDE、SCSI、SATA、PATA、および USB ドライブ) にインストールも可能です。
+      </p>
+      
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.dreamlinux.com.br/" title="Dreamlinux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/dreamlinux" title="DistroWatch の Dreamlinux のページへ">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://www.mythbuntu.org/" title="Mythbuntu のウェブサイトへ"><img src="/images/download/distros/mythbuntu.png" alt="Mythbuntu" border="0"/></a>
+		</td>
+		<td>
+			<h2>Mythbuntu</h2>
+      
+			<p>
+	Mythbuntu は MythTV ベースのスタンドアロン PVR システムを Ubuntu 上でセットアップするためのコミュニティサポートアドオンです。スタンドアロンシステムの用意、または既存の MythTV ネットワークと統合するために使用できます。
+      </p>
+      
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.mythbuntu.org/" title="Mythbuntu のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/mythbuntu" title="DistroWatch の Mythbuntu のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -86,12 +140,12 @@
 		<td valign="top"><a href="http://www.zenwalk.org/" title="Zenwalk のウェブサイトへ"><img src="/images/download/distros/zenwalk.png" alt="Zenwalk" border="0"/></a></td>
 		<td>
 			<h2>Zenwalk</h2>
-			<p>Zenwalk は Slackware ベースの OS です。ZenWalk は Xfce デスクトップで一つのタスクに一つのアプリケーションを用い、スリムかつ軽快なものにすることを目的としています。Zenwalk はアプリケーションプログラマ向けの理想的なプラットフォームであり、完全なプログラミング環境とライブラリとともに最新の Linux の技術を提供していることが特徴です。Zenwalk のモジュール方式のアプローチは Zenwalk Linux をきめ細かく最適化されたサーバにするための簡単な方法も提供します (たとえば、LAMP、メッセージング、ファイル共有など)。</p>
+			<p>Zenwalk は Slackware ベースのオペレーティングシステムです。デスクトップに Xfce を使用し、一つのタスクに一つのアプリケーションを用い、スリムかつ軽快なものにすることを目的としています。Zenwalk はアプリケーションプログラマ向けの理想的なプラットフォームであり、完全なプログラミング環境とライブラリとともに最新の Linux の技術を提供していることが特徴です。Zenwalk のモジュール方式のアプローチは、Zenwalk Linux をきめ細かく最適化されたサーバにするための簡単な方法も提供します (たとえば、LAMP、メッセージング、ファイル共有など)。</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.zenwalk.org/" title="Zenwalk のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/zenwalk" target="_blank" title="DistroWatch の Zenwalk のページへ">DistroWatch</a></td>
+		<td><a href="http://www.zenwalk.org/" title="Zenwalk のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/zenwalk" title="DistroWatch の Zenwalk のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -100,12 +154,12 @@
 		<td valign="top"><a href="http://www.lunar-linux.org/" title="Lunar Linux のウェブサイトへ"><img src="/images/download/distros/lunar.png" alt="Lunar Linux" border="0"/></a></td>
 		<td>
 			<h2>Lunar Linux</h2>
-			<p>Lunar Linux はソースベースのディストリビューションです。公式のデスクトップ環境はありませんが、何人かの Xfce 開発者は Lunar の開発者でもありますので、Xfce への対応は抜群に良いです。他の注目できるところ: Xfce のサーバのすべては Lunar Linux で動いています!</p>
+			<p>Lunar Linux はソースベースのディストリビューションです。公式のデスクトップ環境はありませんが、何人かの Xfce 開発者は Lunar の開発者でもありますので、Xfce への対応は抜群に良いです。他に注目できるところ: Xfce のサーバのすべては Lunar Linux で動いています!</p>
 		</td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.lunar-linux.org/" title="Lunar Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/lunar" target="_blank" title="DistroWatch の Lunar Linux のページへ">DistroWatch</a></td>
+		<td><a href="http://www.lunar-linux.org/" title="Lunar Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/lunar" title="DistroWatch の Lunar Linux のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -119,7 +173,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.xfld.org/" title="Xfld のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/xfld" target="_blank" title="DistroWatch の Xfld のページへ">DistroWatch</a></td>
+		<td><a href="http://www.xfld.org/" title="Xfld のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/xfld" title="DistroWatch の Xfld のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -134,7 +188,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.freesbie.org/" title="FreeSBIE のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/freesbie" target="_blank" title="DistroWatch の FreeSBIE のページへ">DistroWatch</a></td>
+		<td><a href="http://www.freesbie.org/" title="FreeSBIE のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/freesbie" title="DistroWatch の FreeSBIE のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
@@ -149,10 +203,28 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://myah.org/" title="Myah OS のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/myah" target="_blank" title="DistroWatch の Myah OS のページへ">DistroWatch</a></td>
+		<td><a href="http://myah.org/" title="Myah OS のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/myah" title="DistroWatch の Myah OS のページへ">DistroWatch</a></td>
+	</tr>
+</table>
+
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://wolvix.org/" title="Wolvix GNU/Linux のウェブサイトへ"><img src="/images/download/distros/wolvix.png" alt="Wolvix GNU/Linux" border="0"/></a>
+		</td>
+		<td>
+			<h2>Wolvix GNU/Linux</h2>
+			<p>
+        Wolvix は Slackware ベースのデスクトップ指向 GNU/Linux ディストリビューションです。Xfce デスクトップ環境と、開発、グラフィックス、マルチメディア、ネットワーク、およびオフィスアプリケーションにおよぶ総合的なセレクションを特徴としています。主にホームユーズをターゲットとし、毎日のコンピュータ作業、創造的作業、および娯楽のバランスがとれるよう努力しています。
+      </p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://wolvix.org/" title="Wolvix GNU/Linux のウェブサイトへ">ウェブサイト</a> | <a href="http://distrowatch.com/wolvix" title="DistroWatch の Wolvix GNU/Linux のページへ">DistroWatch</a></td>
 	</tr>
 </table>
 
 </td>
 </tr>
 </table>
+
