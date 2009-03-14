@@ -247,8 +247,8 @@ a la ventana de creación de lanzadores.
 <h2>Enlaces<a name="links"></a></h2>
 
 <ul>
-  <li><a href="http://www.xfce.org/">Sitio web de Xfce</a></li>
-  <li><a href="http://thunar.xfce.org/">Sitio web de Thunar</a></li>
+  <li><a href="http://www.xfce.org/">Web de Xfce</a></li>
+  <li><a href="http://thunar.xfce.org/">Web de Thunar</a></li>
 </ul>
 
 <h2>Créditos<a name="credits"></a></h2>

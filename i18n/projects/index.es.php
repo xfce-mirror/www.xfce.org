@@ -77,7 +77,7 @@ Cada proyecto tiene su propia página para proporcionar información adicional.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Bibliotecas de Xfce</a></h3>
-			<p>Las tres bibliotecas base de Xfce (libxfce4util, libxfcegui4 and libxfce4menu)
+			<p>Las tres bibliotecas base de Xfce (libxfce4util, libxfcegui4 y libxfce4menu)
 			son usadas por casi todas las aplicaciones de Xfce. </p>
 		</td>
 		<td width="48" valign="top">
@@ -159,7 +159,7 @@ Cada proyecto tiene su propia página para proporcionar información adicional.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://xarchiver.xfce.org">Administrador de archivos comprimidos</a></h3>
-			<p>Xarchiver es una interfaz GTK+2 para archivos 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
+			<p>Xarchiver es una interfaz GTK+2 para archivos 7z, zip, rar, tar, bzip2, gzip, arj y rpm.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
@@ -218,9 +218,9 @@ Cada proyecto tiene su propia página para proporcionar información adicional.
 			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
-      <p>Perl bindings for Xfce. If you are old-fashioned or just don like C and Python, you can 
-      use Perl to write Xfce applications. </p>
+			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Bindings de Perl</a></h3>
+      <p>Bindings de Perl para Xfce. Si pertenece a la vieja escuela o no le gustan C y Python, puede
+      usar Perl para programar aplicaciones para Xfce.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
@@ -240,7 +240,7 @@ Cada proyecto tiene su propia página para proporcionar información adicional.
 	</tr>
 </table>
 
-<h2 id="art">Art and Graphics</h2>
+<h2 id="art">Arte y gráficos</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">

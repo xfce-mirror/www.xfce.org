@@ -36,9 +36,9 @@
     </p>
 		<p>
       Xfce 4.6 personifica la filosofía tradicional de UNIX sobre modularidad y reusabilidad.
-      Está formado por un número de componentes que juntos proporcionan funcionalidad total
-      para un entorno de escritorio. Éstos están empaquetados separadamente y puede coger y
-      elegir entre los paquetes disponibles para crear el mejor entorno personal de trabajo.
+      Está formado por un extenso conjunto de componentes, los cuales unidos proporcionan funcionalidad total
+      para el escritorio. Éstos se encuentran disponibles de manera independiente y puede 
+      elegir entre todos los paquetes existentes para crear el entorno de trabajo que mejor se adapte a sus necesidades.
 
     </p>
     

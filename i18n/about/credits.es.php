@@ -26,7 +26,7 @@ include 'include/credits.php';
 <?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
 </table>
 
-<h2 id="server">Servidor y sitio web </h2>
+<h2 id="server">Servidor y web </h2>
 <table cellpadding="3" width="99%">
     <tr>
         <th align="left"><h3>Colaborador</h3></th>

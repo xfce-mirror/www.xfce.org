@@ -4,7 +4,7 @@
 <table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Fecha</h3></th>
-    <th width="20%" align="left"><h3>Sitio web</h3></th>
+    <th width="20%" align="left"><h3>Web</h3></th>
     <th width="60%" align="left"><h3>Enlace</h3></th>
   </tr>
   <tr>
@@ -27,7 +27,7 @@
 <table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Fecha</h3></th>
-    <th width="20%" align="left"><h3>Sitio web</h3></th>
+    <th width="20%" align="left"><h3>Web</h3></th>
     <th width="60%" align="left"><h3>Enlace</h3></th>
   </tr>
   <tr>
@@ -45,7 +45,7 @@
 <table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Fecha</h3></th>
-    <th width="20%" align="left"><h3>Sitio web</h3></th>
+    <th width="20%" align="left"><h3>Web</h3></th>
     <th width="60%" align="left"><h3>Enlace</h3></th>
   </tr>
   <tr>
@@ -73,7 +73,7 @@
 <table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Fecha</h3></th>
-    <th width="20%" align="left"><h3>Sitio web</h3></th>
+    <th width="20%" align="left"><h3>Web</h3></th>
     <th width="60%" align="left"><h3>Enlace</h3></th>
   </tr>
   <tr>
@@ -91,7 +91,7 @@
 <table width="99%">
   <tr>
     <th width="20%" align="left"><h3>Fecha</h3></th>
-    <th width="20%" align="left"><h3>Sitio web</h3></th>
+    <th width="20%" align="left"><h3>Web</h3></th>
     <th width="60%" align="left"><h3>Enlace</h3></th>
   </tr>
   <tr>
