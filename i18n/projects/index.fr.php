@@ -108,7 +108,7 @@ l'environnement du bureau. Chaque projet a sa propre page pour fournir plus d'in
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/thunar/">Gestionnaire de fichier Thunar</a></h3>
+			<h3><a href="/projects/thunar/">Gestionnaire de fichiers Thunar</a></h3>
 			<p>Thunar est un nouveau gestionnaire de fichier moderne pour l'environnement de bureau Xfce. Thunar a été conçu dès le départ pour être rapide et simple d'utilisation.</p>
 		</td>
 	</tr>
@@ -172,7 +172,7 @@ l'environnement du bureau. Chaque projet a sa propre page pour fournir plus d'in
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
 		<td valign="top">
-			<h3><a href="/projects/ristretto">Visualiseur d'Images</a></h3>
+			<h3><a href="/projects/ristretto">Visualiseur d'images</a></h3>
 			<p>Ristretto est un visualiseur d'images léger.</p>
 		</td>
 

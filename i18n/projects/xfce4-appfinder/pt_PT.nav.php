@@ -2,9 +2,8 @@
 	<li><a href="/projects#core">Componentes Base</a>
 	<li><a href="/projects#applications">Aplicações</a>
 		<ul>
-          <li><a href="/projects/xfce4-appfinder">Application Finder</a></li>
-          <li><a href="/projects/xarchiver">Gestor de Pacotes</a></li>
-		    <li><a href="/projects/installit">InstallIt</a></li>
+        <li><a href="/projects/xfce4-appfinder">Application Finder</a></li>
+        <li><a href="/projects/xarchiver">Gestor de Pacotes</a></li>
 		    <li><a href="/projects/mousepad">Mousepad</a></li>
 		    <li><a href="/projects/orage">Orage</a></li>
 		    <li><a href="/projects/terminal">Terminal</a></li>

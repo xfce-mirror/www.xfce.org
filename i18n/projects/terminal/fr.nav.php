@@ -10,9 +10,9 @@
 		    <li><a href="/projects/thunar">Gestionnaire de fichiers Thunar</a></li>
 		    <li><a href="/projects/xfce4-mixer">Contrôle du volume</a></li>
 		    <li><a href="/projects/xfburn">Xfburn</a></li>
-		    <li><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Outils de développements Xfce</a></li>
-		    <li><a href="/projects/xfce4-terminal">Xfce4 Terminal</a></li>
 		    <li><a href="/projects/xfmedia">Xfmedia</a></li>
+        <li><a href="/projects/ristretto">Ristretto</a></li>
+        <li><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html">Navigateur Internet</a></li>
 		</ul>
 	</li>
 	<li><a href="/projects#framework">Framework</a></li>
