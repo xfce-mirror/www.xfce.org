@@ -4,7 +4,7 @@ function bug ($id){
 }
 ?>
 
-<h1>Xfce 4.6 ALPHA (4.5.90) Changelog</h1>
+<h2>Xfce 4.6 ALPHA (4.5.90) Changelog</h2>
 
 <h3>Development tools <em>(xfce4-dev-tools)</em>:</h3>
 <ul>

@@ -4,7 +4,7 @@ function bug ($id){
 }
 ?>
 
-<h1>Xfce 4.6 RC 1 (4.5.99.1) Changelog</h1>
+<h2>Xfce 4.6 RC 1 (4.5.99.1) Changelog</h2>
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
