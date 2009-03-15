@@ -1,4 +1,5 @@
 <h1>Xfce API documentation</h1>
+
 <p>The following API docs cover the libraries in Xfce 4.6. The documents are cross-referenced with the
 GTK+ reference manuals, which you can find <a href="http://gtk.org/api/">here</a>.</p>
 
