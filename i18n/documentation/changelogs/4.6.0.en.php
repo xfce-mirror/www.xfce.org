@@ -8,15 +8,15 @@ function bug ($id){
 
 <br />
 <br />
-<a href="documentation/changelogs/4.5.90">Changes introduced for the Alpha</a>
+<a href="/documentation/changelogs/4.5.90">Changes introduced for the Alpha</a>
 <br />
-<a href="documentation/changelogs/4.5.91">Changes introduced for the first Beta</a>
+<a href="/documentation/changelogs/4.5.91">Changes introduced for the first Beta</a>
 <br />
-<a href="documentation/changelogs/4.5.92">Changes introduced for the second Beta</a>
+<a href="/documentation/changelogs/4.5.92">Changes introduced for the second Beta</a>
 <br />
-<a href="documentation/changelogs/4.5.93">Changes introduced for the third Beta</a>
+<a href="/documentation/changelogs/4.5.93">Changes introduced for the third Beta</a>
 <br/>
-<a href="documentation/changelogs/4.5.99.1">Changes introduced for the first Release Candidate</a>
+<a href="/documentation/changelogs/4.5.99.1">Changes introduced for the first Release Candidate</a>
 <br />
 <br />
 
