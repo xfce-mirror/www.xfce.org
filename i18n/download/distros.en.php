@@ -136,6 +136,27 @@
 	</tr>
 </table>
 
+<table border="0" cellspacing="10" cellpadding="0">
+	<tr>
+		<td valign="top"><a href="http://www.vectorlinux.com/" title="Visit the VectorLinux website"><img src="/images/download/distros/vector.png" alt="VectorLinux" border="0"/></a>
+		</td>
+		<td>
+			<h2>VectorLinux</h2>
+			<p>
+        Speed, performance, stability -- these are attributes that set VectorLinux
+        apart in the crowded field of Linux distributions. The creators of VectorLinux
+        had a single credo: keep it simple, keep it small and let the end user decide
+        what their operating system is going to be. What has evolved from this concept
+        is perhaps the best little Linux operating system available anywhere. 
+      </p>
+		</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td><a href="http://www.vectorlinux.com/" title="Visit the VectorLinux website">Website</a> | <a href="http://distrowatch.com/vectorlinux" title="Visit the VectorLinux page at DistroWatch">DistroWatch</a></td>
+	</tr>
+</table>
+
 </td>
 <td valign="top">
 
