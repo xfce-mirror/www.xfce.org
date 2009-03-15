@@ -4,14 +4,14 @@
 
 <p>
 コアライブラリは Xfce デスクトップ環境の共通機能群を提供しています。
-非グラフィカルヘルパ機能、ウィジェットおよびグラフィカルユーザインターフェイス用の便利な機能、そして設定管理用の機能を提供する 2 つのライブラリがあり、Libxfce4menu は Freedesktop メニュー仕様の実装を提供します。
+非グラフィカルヘルパ機能、ウィジェットおよびグラフィカルユーザインターフェイス用の便利な機能、そして設定管理用の機能を提供する 2 つのライブラリがあり、Libxfce4menu は FreeDesktop メニュー仕様の実装を提供します。
 </p>
 
 <h1>機能</h1>
 <ul>
   <li><strong>libxfce4util</strong>: 基本ユーティリティ</li>
   <li><strong>libxfcegui4</strong>: ウィジェットの一元管理</li>
-  <li><strong>libxfce4menu</strong>: freedesktop メニューの実装</li>
+  <li><strong>libxfce4menu</strong>: FreeDesktop メニューの実装</li>
 </ul>
 
 <h2>外部リンク</h2>
