@@ -8,7 +8,7 @@
 
 <?php if (!$headup) { /* show only on frontpage */ ?>
 	<meta name="description" content="Xfce Desktop Environment, Ambiente de Desktop Xfce" />
-	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment, gerenciador de janelas, ambiente de desktop, rápido, veloz, leve" />
+	<meta name="keywords" content="desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment, gestor de janelas, ambiente de desktop, rápido, veloz, leve" />
 <?php } ?>
 
 	<link rel="home" href="/" />
@@ -46,7 +46,7 @@
 				<div id="header-logo"></div>
 				<div id="header-right">
 					<div id="header-style">
-						<h2 class="hidden">Layout do Website</h2>
+						<h2 class="hidden">Disposição do Website</h2>
 						<p>Disposição: <a href="?layout=normal" title="Disposição Normal (Min: 740px, Max: 1000px)">Normal</a> / 
 						<a href="?layout=liquid" title="Disposição Líquida (100% Width)">Líquida</a></p>
 					</div>

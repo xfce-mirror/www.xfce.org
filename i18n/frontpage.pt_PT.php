@@ -68,7 +68,7 @@
     </div>
     <div id="front-blog">
         <div id="front-blog-content">
-            <h2><a href="http://blog.xfce.org/?feed=rss2"><img src="/layout/images/feed.gif" alt="feed" title="Inscreva-se no 'Blog do Xfce'..." width="12" height="12" border="0" align="right" /></a>Blog dos Desenvolvedores</h2>
+            <h2><a href="http://blog.xfce.org/?feed=rss2"><img src="/layout/images/feed.gif" alt="feed" title="Inscreva-se no 'Blog do Xfce'..." width="12" height="12" border="0" align="right" /></a>Blog dos Autores</h2>
             <?php
                 echo $frontpage["blog"];
             ?>
@@ -83,7 +83,7 @@
                 <li><a href="http://forum.xfce.org" title="Fórum do Xfce (Nova Janela)" class="external">Fórum do Xfce</a></li>
                 <li><a href="http://bugzilla.xfce.org" title="Reportar uma falha (Nova Janela)" class="external">Relatar uma falha</a></li>
                 <li><a href="http://wiki.xfce.org" title="Wiki do Xfce (Nova Janela)" class="external">Wiki do Xfce</a></li>
-                <li><a href="/download/distros" title="Distribuições que utilizam o Xfce">Xfce em Distribuições</a></li>
+                <li><a href="/download/distros" title="Distribuições que utilizam o Xfce">Distribuições com Xfce</a></li>
             </ul>
             </div>
         </div>

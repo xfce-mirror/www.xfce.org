@@ -1,28 +1,27 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-session.png" alt="xfprint" width="48" height="48" /></div>
 
 <h1>Gestor de Sessão</h1>
-<p>O Gestor de sessão permite ao utilizador gravar as sessões e restaurá-las depois do
-  login. É capaz de gravar várias sessões. Vem com
-  três motores de splash para ecrã. E finalmente ajuda-o a sair, reiniciar e
-  desligar o sistema.</p>
 
-<h2>Características</h2>
-<ul>
-  <li>Múltiplos monitores.</li>
-  <li>Múltiplas sessões.</li>
-  <li>Gestão de aplicações remotas.</li>
-  <li>Splash screen.</li>
-  <li>Log out, reiniciar e encerramento.</li>
-</ul>
+<p>
+O Gestor de sessão permite ao utilizador gravar as sessões e restaurá-las depois do
+login. É capaz de gravar várias sessões. Também oferece uma maneira fácil de terminar sessão,
+reiniciar, desligar, hibernar ou suspender o seu computador.
+ </p>
 
-<h2>Links Externos</h2>
+<h2>Ligações Externas</h2>
+
 <h3>Subversion</h3>
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-session/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-session/">SVN</a></p>
+
+<p>
+<a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-session/trunk">ViewVC</a><br />
+<a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-session/">SVN</a>
+</p>
+
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-session/trunk xfce4-session</code></p>
 
 <h2>Autor</h2>
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
 </ul>
 
