@@ -3,7 +3,7 @@
 <h1>Xfconf</h1>
 
 <p>
-Xfconf é um simples cliente-servidor de armazenamento da configuração.
+Xfconf é um simples sistema cliente-servidor de armazenamento e consulta da configuração.
 </p>
 
 <h2>External Links</h2>

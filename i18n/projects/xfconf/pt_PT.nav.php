@@ -7,7 +7,7 @@
 		    <li><a href="/projects/xfce4-session">Gestor de Sessão</a></li>
 		    <li><a href="/projects/xfce4-settings">Gestor de Definições</a></li>
 		    <li><a href="/projects/xfce-utils">Utilitários e Scripts</a></li>
-		    <li><a href="/projects/xfwm4">Gestor de Janela</a></li>
+		    <li><a href="/projects/xfwm4">Gestor de Janelas</a></li>
 		    <li><a href="/projects/libraries">Bibliotecas Xfce</a></li>
 		<li><a href="/projects/xfconf">Xfconf</a></li>
 		</ul>

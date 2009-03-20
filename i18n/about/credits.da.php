@@ -1,3 +1,11 @@
+<?php
+function at(){
+  echo '<img src="/layout/images/mail.png" alt="" width="10" height="10" hspace="2" border="0" />';
+}
+include 'i18n/about/en.credits.php';
+@include 'i18n/about/'.$lang.'.credits.php';
+include 'include/credits.php';
+?>
 <h1>Bidragydere</h1>
 <p></p>
 

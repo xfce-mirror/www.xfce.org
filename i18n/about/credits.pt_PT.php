@@ -17,7 +17,7 @@ include 'include/credits.php';
 </table>
 
 <br />
-<h2 id="core">Principais desenvolvedores (Core)</h2>
+<h2 id="core">Principais programadores</h2>
 <table width="99%">
     <tr>
         <th width="40%" align="left"><h3>Contribuidores</h3></th>
@@ -39,7 +39,7 @@ include 'include/credits.php';
 <h2 id="contributors">Contribuidores</h2>
 <table width="99%">
     <tr>
-        <td colspan="2"><strong>As seguintes pessoas contribuem frequentemente com patches, ideias, reparos e novos códigos:</strong></td>
+        <td colspan="2"><strong>As seguintes pessoas contribuem frequentemente com patches, ideias, reparações e novos códigos:</strong></td>
     </tr>
     <tr>
         <th colspan="2"><h3>Contribuidores Activos</h3></th>
