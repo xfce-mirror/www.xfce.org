@@ -7,7 +7,7 @@
 	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
 <?php if (!$headup) { /* show only on frontpage */ ?>
-	<meta name="description" content="Xfce Desktop Environment, Skrivebordsmiljøet Xfce" />
+	<meta name="description" content="Skrivebordsmiljøet Xfce" />
 	<meta name="keywords" content="skrivebordsmiljø, vindueshåndtering, skrivebord, hastighed, letvægtig, gtk+, open source, xforms common environment" />
 <?php } ?>
 
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<div id="header-menu">
-						<h2 class="hidden">Sidenavigering</h2>
+					<h2 class="hidden">Sidenavigering</h2>
 					<ul>
 						<li><a href="/" title="Hjem">Hjem</a></li>
 						<li><a href="/about/" title="Om">Om</a></li>

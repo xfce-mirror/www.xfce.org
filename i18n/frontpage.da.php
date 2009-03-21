@@ -6,7 +6,7 @@
     
 			<div class="link">
       
-					<h2><a href="/download/" title="Hent Xfce 4.6.0">Hent Xfce 4.6.0</a></h2>
+				<h2><a href="/download/" title="Hent Xfce 4.6.0">Hent Xfce 4.6.0</a></h2>
         
 			</div>
 
@@ -58,8 +58,7 @@
     
 			<h2>
         <a href="/?feed=rss2&amp;lang=<?php echo $lang ?>">
-	<img src="/layout/images/feed.gif" alt="feed" title="Tilmeld dig til 'Nyheder om Xfce'..." width="12" height="12" border="0" align="right" /></a>Seneste nyheder
-      </h2>
+	<img src="/layout/images/feed.gif" alt="feed" title="Tilmeld dig til 'Nyheder om Xfce'..." width="12" height="12" border="0" align="right" /></a>Seneste nyheder</h2>
 
       <?php
 				echo $frontpage["news"];
@@ -96,9 +95,7 @@
 						<a href="/projects/mousepad/">Mousepad</a>
 						<br />
 						<span class="grey">
-              Mousepad is a simple, fast and easy-to-use text editor for
-              the Xfce desktop environment, based on the Leafpad text editor.
-	      Mousepad er en enkel, hurtig, samt brugervenlig tekstbehandler til 
+              Mousepad er en enkel, hurtig, samt brugervenlig tekstbehandler til 
 	      skrivebordsmiljøet Xfce, den er baseret på tekstbehandleren Leafpad. 
             </span>
 					</li>
