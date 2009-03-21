@@ -28,6 +28,7 @@
 	<link rel="alternate" type="application/rss+xml" title="Nyheder om Xfce" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Blog om Xfce" href="http://blog.xfce.org/?feed=rss2" />
 </head>
+<?php } ?>
 <body id="top">
 	<p id="header-top"><a href="#top" title="Gå til toppen af siden">Top</a></p>
 	<div class="hidden">

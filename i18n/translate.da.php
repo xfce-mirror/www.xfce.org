@@ -3,7 +3,6 @@
 <p>Netstedet for Xfce er designet til nemt at blive oversat til flere forskellige 
 sprog, så indholdet også kan tilgås af ikke-engelsktalende brugere
 på en nem måde</p>
-#Jeg har fejlmeldt den engelske streng, synes at det sidste "and" er placeret lidt mærkeligt.
 
 <p>Vores mål er at gøre netstedet for Xfce tilgængeligt i så mange forskellige sprog
 som muligt. For at opnå dette, har vi brug for din hjælp til at oversætte de 

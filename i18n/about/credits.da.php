@@ -9,12 +9,6 @@ include 'include/credits.php';
 <h1>Bidragydere</h1>
 <p></p>
 
-<h2 id="lead">Project Lead</h2>
-<table width="99%">
-    <tr>
-        <td>Olivier Fourdan [fourdan<?php at(); ?>xfce.org]</td>
-    </tr>
-</table>
 <h2 id="lead">Projektleder</h2>
 <table width="99%">
     <tr>
@@ -22,14 +16,6 @@ include 'include/credits.php';
     </tr>
 </table>
 
-<h2 id="server">Server and website </h2>
-<table cellpadding="3" width="99%">
-    <tr>
-        <th align="left"><h3>Contributor</h3></th>
-        <th align="left"><h3>Contribution</h3></th>
-    </tr>
-<?php credits_server_and_website ($credits['server-and-website'], $credits['server-and-website-i18n']); ?>
-</table>
 <h2 id="server">Server og hjemmeside </h2>
 <table cellpadding="3" width="99%">
     <tr>

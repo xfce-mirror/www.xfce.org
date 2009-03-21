@@ -10,7 +10,8 @@ den sidste stabile udgivelse.
 
 <p>Siden introduktionen af skrivebordsikoner i Xfce 4.4, har brugerne udtrykt behovet
 for at kunne markere flere ikoner (rubber banding). Med <b>Xfce 4.6</b>,
-<b>Xfdesktop</b>håndteringen implementerer endelig denne funktion: Du kan markere flere ikoner, fjerne dem etc.</p>
+<b>Xfdesktop</b>håndteringen implementerer endelig denne funktion: Du kan markere flere ikoner,
+flytte dem, fjerne dem...</p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png" alt="Markering af flere ikoner" /></p>
 
@@ -54,7 +55,7 @@ til panelet tillader dig at indstille systemlyden hurtigt ved at rulle musens hj
 <p>
 <b>Xfce 4.6</b> kommer med en udvidet sessionshåndtering: din session skulle starte hurtigere
 og indstillingsvinduet er blevet omarbejdet for at lette håndteringen af sessionsprogrammerne.
-Hertil kommer, at sessionshåndteringen nu vil genstarte sessionsprogrammer som brød ned automatisk,
+Hertil kommer, at sessionshåndteringen nu vil genstarte sessionsprogrammer som brød ned automatisk
 så du ikke bliver uden skrivebord, panel, vindueshåndtering, etc., hvis et nedbrud opstår.
 </p>
 
@@ -67,7 +68,7 @@ logud har nu to ekstra knapper for at bringe din computer i hvile- eller dvaleti
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-session-logout.png" alt="Vindue til sessionslogud" /></p>
 
-<h2>Vindueshåndtering <a name="Window Manager"></a></h2>
+<h2>Window manager <a name="Vindueshåndtering"></a></h2>
 
 <p>
 Som sædvanligt er <b>Xfwm4</b> modnet meget gennem denne udgivelserunde:
@@ -96,7 +97,7 @@ plads uden at overlappe andre tilstødende vinduer.
 <p><b>Sammensætteren</b> er blevet optimeret til af formindske vinduesrystelse ved
 ændring af størrelse.</p>
 
-<p class="image"><img src="/images/about/tour/4.6/xfwm4-resize.png" alt="Rystefri ved vinduestørrelsesændring" /></p>
+<p class="image"><img src="/images/about/tour/4.6/xfwm4-resize.png" alt="Ryste fri ved vinduestørrelsesændring" /></p>
 
 <p>
 Ydermere, nogle <b>indstillinger til finjustering (tweak)</b> er blevet tilføjet: Som eksempel kan du nu
@@ -105,7 +106,7 @@ slå blinkende vinduer fra, når de modtager et vigtigt tips.
 
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-tweaks.png" alt="Nye indstillinger til finjustering (tweak)" /></p>
 
-<h2>Filhåndtering <a name="File manager"></a></h2>
+<h2>File manager <a name="Filhåndtering"></a></h2>
 
 <p>
 Der et blevet rettet en hel række af fejl, forbedret ydelse i <b>Thunar</b>. Den kan også
@@ -124,7 +125,7 @@ musik, dokumenter, videoer, skabeloner...
 <p class="image"><img src="/images/about/tour/4.6/thunar-xdg-user-dirs.png" alt="Thunar-menu til brugerkataloger" /></p>
 
 <p>
-<b>Thunar</b> vil også vise et halvgennemsigtigt ikon for drevene og arkiver,
+<b>Thunar</b> vil også vise et halvgennemsigtigt ikon for drevene og arkiver
 som ikke er monteret, så du kan skelne dem fra de monterede.
 </p>
 
@@ -182,7 +183,7 @@ tastaturindstillingerne såsom tastgentagelse, tastaturgenveje og dit tastaturla
 <p class="image"><img src="/images/about/tour/4.6/xfce4-keyboard-settings-shortcuts.png" alt="Vinduet til tastaturindstillinger, genvejefaneblad" /></p>
 
 <p>
-Du kan nu indstille genveje på en simpel måde, og genveje som konflikter
+Du kan nu indstille genveje på en simpel måde og genveje som konflikter
 genkendes automatisk.
 </p>
 

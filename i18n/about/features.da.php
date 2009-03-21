@@ -20,3 +20,4 @@ Derudover er mange yderligere funktioner tilbudt af
 til panelet og filhåndteringen, alene stående programmer såsom en ordbog, en
 opgavehåndtering, en strømstyring, et program til at tage skærmbilleder, en påmindelsestjeneste...
 </p>
+
