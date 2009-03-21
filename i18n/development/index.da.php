@@ -8,7 +8,7 @@ så overvej at tilmelde dig <a href="../community/lists">e-postlisterne</a> og <
 			<img src="/images/development/i18n.png" alt="i18n" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			h3><a href="http://i18n.xfce.org">Oversættelser</a></h3>
+			<h3><a href="http://i18n.xfce.org">Oversættelser</a></h3>
 			<p>Xfce er oversat til mange forskellige sprog, hvis dit sprog mangler så hjælp os venligst med at oversætte Xfce.</p>
 		</td>
 		<td width="48" valign="top">

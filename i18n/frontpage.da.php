@@ -42,7 +42,7 @@
     </p>
     
 		<p class="readmore">
-      <a href="/about/" title="Læs mere om Xfce...">lær mere</a>
+      <a href="/about/" title="Lær mere om Xfce...">lær mere</a>
     </p>
     
 	</div>
@@ -58,7 +58,8 @@
     
 			<h2>
         <a href="/?feed=rss2&amp;lang=<?php echo $lang ?>">
-	<img src="/layout/images/feed.gif" alt="feed" title="Tilmeld dig til 'Nyheder om Xfce'..." width="12" height="12" border="0" align="right" /></a>Seneste nyheder</h2>
+	      <img src="/layout/images/feed.gif" alt="feed" title="Tilmeld dig til 'Nyheder om Xfce'..." width="12" height="12" border="0" align="right" /></a>Seneste nyheder
+      </h2>
 
       <?php
 				echo $frontpage["news"];
@@ -87,8 +88,8 @@
 						<a href="/projects/thunar/">Thunar</a>
 						<br />
 						<span class="grey">
-	      Thunar er en ny og moderne filhåndtering til skrivebordsmiljøet
-	      Xfce.
+	            Thunar er en ny og moderne filhåndtering til skrivebordsmiljøet
+	            Xfce.
             </span>
 					</li>
 					<li>
@@ -96,7 +97,7 @@
 						<br />
 						<span class="grey">
               Mousepad er en enkel, hurtig, samt brugervenlig tekstbehandler til 
-	      skrivebordsmiljøet Xfce, den er baseret på tekstbehandleren Leafpad. 
+	            skrivebordsmiljøet Xfce, den er baseret på tekstbehandleren Leafpad. 
             </span>
 					</li>
 					<li>
