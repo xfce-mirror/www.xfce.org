@@ -12,7 +12,7 @@
     <li><a href="/download#unstable">Ustabil udgivelse</a></li>
     <?php } ?>
 	<li><a href="/download/development">Udviklingsversion</a>
-		<ul>>
+		<ul>
 			<li><a href="http://svn.xfce.org/" class="external">Gennemse SVN</a></li>
 			<li><a href="http://mocha.xfce.org/downloads/svn-snapshots/" class="external">Dagligt øjebliksbillede</a></li>
 		</ul>

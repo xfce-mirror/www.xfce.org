@@ -16,10 +16,20 @@ include 'include/credits.php';
     </tr>
 </table>
 
-<h2 id="server">Server og hjemmeside </h2>
+<br />
+<h2 id="core">Hovedudviklere</h2>
 <table cellpadding="3" width="99%">
     <tr>
-        <th align="left"><h3>Bidragyder</h3></th>
+        <th width="40%" align="left"><h3>Bidragyder</h3></th>
+        <th width="60%" align="left"><h3>Hovedprojekt(er)</h3></th>
+    </tr>
+<?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
+</table>
+
+<h2 id="server">Server og netsted </h2>
+<table cellpadding="3" width="99%">
+    <tr>
+        <th align="left"><h3>Contributor</h3></th>
         <th align="left"><h3>Bidragydelse</h3></th>
     </tr>
 <?php credits_server_and_website ($credits['server-and-website'], $credits['server-and-website-i18n']); ?>
@@ -57,7 +67,7 @@ include 'include/credits.php';
 <h2 id="translators">Oversættere</h2>
 <table cellpadding="3" width="99%">
     <tr>
-        <th align="left"><h3>Ledelse af oversættelser</h3></th>
+        <th align="left"><h3Ledelse af oversættelser</h3></th>
     </tr>
 <?php credits_translators_supervision ($credits['translators-supervision'], $credits['translators-supervision-i18n']); ?>
 </table>

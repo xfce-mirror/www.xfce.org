@@ -42,7 +42,11 @@
     </p>
     
 		<p class="readmore">
+<<<<<<< .mine
+      <a href="/about/" title="Læs mere om Xfce...">læs mere</a>
+=======
       <a href="/about/" title="Lær mere om Xfce...">lær mere</a>
+>>>>>>> .r1250
     </p>
     
 	</div>

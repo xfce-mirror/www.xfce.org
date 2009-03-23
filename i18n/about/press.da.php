@@ -10,7 +10,6 @@
   <tr>
     <td align="left">9. juni 2006</td>
     <td align="left">LWN</td>
-#jeg går ud fra at det er en navn
     <td align="left"><a href="http://lwn.net/Articles/182966/">Hvad er det næste skridt for projektet Xfce?</a></td>
   </tr>
   <tr>
