@@ -36,7 +36,8 @@
 
 <table border="0" cellspacing="10" cellpadding="0">
 	<tr>
-		<td valign="top"><a href="http://www.kwort.org/" title="Besøg netstedet for Kwort Linux"><img src="/images/download/distros/kwortlinux.png" alt="Kwort Linux" border="0"/></a>
+		<td valign="top"><a href="http://www.kwort.org/" title="Besøg netstedet for Kwort Linux"><img src="/images/download/distros/kwortlinux.png"
+		alt="Kwort Linux" border="0"/></a>
 		</td>
 		<td>
 			<h2>Kwort Linux</h2>
@@ -46,7 +47,7 @@
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><a href="http://www.kwort.org/" title="Besøg netstedet for Kwort Linux">Netsted</a> | <a href="http://distrowatch.com/kwort" title="Besøg Kwort Linux-siden på DistroWatch</a></td>
+		<td><a href="http://www.kwort.org/" title="Besøg netstedet for Kwort Linux">Netsted</a> | <a href="http://distrowatch.com/kwort" title="Besøg Kwort Linux-siden på DistroWatch"></a></td>
 	</tr>
 </table>
 

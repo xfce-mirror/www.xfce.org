@@ -10,14 +10,14 @@ den sidste stabile udgivelse.
 
 <p>Siden introduktionen af skrivebordsikoner i Xfce 4.4, har brugerne udtrykt behovet
 for at kunne markere flere ikoner (rubber banding). Med <b>Xfce 4.6</b>,
-<b>Xfdesktop</b>håndteringen implementerer endelig denne funktion: Du kan markere flere ikoner,
+<b>Xfdesktop</b>-håndteringen implementerer endelig denne funktion: Du kan markere flere ikoner,
 flytte dem, fjerne dem...</p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png" alt="Markering af flere ikoner" /></p>
 
 <p>
 <b>Xfce 4.6</b> introducerer også en helt ny skrivebordsmenu, som tillader dig at manipulere
-filer som med <b>Thunar</b>filhåndteringens kontekstmenu, men kan også åbne programmer, afslutte din session
+filer som med <b>Thunar</b>-filhåndteringens kontekstmenu, men kan også åbne programmer, afslutte din session
 eller tilgå hjælpen.
 </p>
 
@@ -26,7 +26,7 @@ eller tilgå hjælpen.
 <h2>Panel <a name="panel"></a></h2>
 
 <p>Mange fejl, kendt gennem længere tid, er blevet rettet i <b>Xfce4 Panel</b>,
-Specielt for opsætninger med flerskærme, men denne nye udgivelse bringer også forbedrede sæt
+Specielt for opsætninger med flere skærme, men denne nye udgivelse bringer også forbedrede sæt
 af udvidelsesmoduler til panelet.
 </p>
 
@@ -68,7 +68,7 @@ logud har nu to ekstra knapper for at bringe din computer i hvile- eller dvaleti
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-session-logout.png" alt="Vindue til sessionslogud" /></p>
 
-<h2>Window manager <a name="Vindueshåndtering"></a></h2>
+<h2>Vindueshåndtering <a name="Vindueshåndtering"></a></h2>
 
 <p>
 Som sædvanligt er <b>Xfwm4</b> modnet meget gennem denne udgivelserunde:
@@ -88,7 +88,7 @@ til at have dem i front eller bag andre vinduer, eller til at have dem i fuldsk�
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-menu.png" alt="Ny handlingsmenu" /></p>
 
 <p>
-En ny <b>fyld</b>handling er blevet tilføjet, den udvider et givet vindue til den tilrådige
+En ny <b>fyld</b>-handling er blevet tilføjet, den udvider et givet vindue til den tilrådige
 plads uden at overlappe andre tilstødende vinduer.
 </p>
 
@@ -106,7 +106,7 @@ slå blinkende vinduer fra, når de modtager et vigtigt tips.
 
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-tweaks.png" alt="Nye indstillinger til finjustering (tweak)" /></p>
 
-<h2>File manager <a name="Filhåndtering"></a></h2>
+<h2>Filhåndtering <a name="Filhåndtering"></a></h2>
 
 <p>
 Der et blevet rettet en hel række af fejl, forbedret ydelse i <b>Thunar</b>. Den kan også
@@ -222,6 +222,6 @@ til oprettelsesvinduet for starter.
 <li><a href="http://thunar.xfce.org/">Hjemmeside til Thunar</a></li>
 </ul>
 
-<h2>Credits<a name="bidragydere"></a></h2>
+<h2>Bidragydere<a name="bidragydere"></a></h2>
 
 <p>Skrevet af Jérôme Guelfucci, skærmbilleder af Jannis Pohlmann, februar 2009</p>
