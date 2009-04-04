@@ -220,7 +220,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
-      <p>Perl bindings for Xfce. If you are old-fashioned or just don like C and Python, you can 
+      <p>Perl bindings for Xfce. If you are old-fashioned or just don't like C and Python, you can 
       use Perl to write Xfce applications. </p>
 		</td>
 		<td width="48" valign="top">
@@ -257,7 +257,7 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 		<td width="33%" valign="top">
 			<h3>Icon Theme</h3>
-			<p>Default icon theme for Xfce. It includes both PNG and SVG icons</p>
+			<p>Default icon theme for Xfce. It includes both PNG and SVG icons.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/layout/images/spacer.gif" alt="spacer" width="48" height="48" />
