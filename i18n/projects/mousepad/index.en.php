@@ -22,7 +22,7 @@ difficult for Leafpad for various reasons.
 <code class="code">svn co http://svn.xfce.org/svn/xfce/mousepad/trunk mousepad</code>
 </p>
 
-<h1>Author</h1>
+<h1>Authors</h1>
 <ul>
   <li>Erik Harrison [erikharrison at gmail.com]</li>
   <li>Nick Schermer [nick at xfce.org]</li>
