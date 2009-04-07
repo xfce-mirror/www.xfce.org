@@ -32,7 +32,7 @@ instead, it will just work if your system complies with the FreeDesktop.org stan
 
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>
 
-<h2>Author</h2>
+<h2>Authors</h2>
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
   <li>Jannis Pohlmann [jannis at xfce.org]</li>
