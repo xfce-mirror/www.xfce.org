@@ -8,10 +8,10 @@ desde a última versão estável.
 
 <h2>Experiência melhorada com Xfdesktop<a name="xfdesktop"></a></h2>
 
-<p>Desde que se introduziram os ícones de desktop no Xfce 4.4, algumas pessoas 
-tinham expressado a necessidade de poder seleccionar vários ícones (área de 
-seleccão). No <b>Xfce 4.6</b>, o gestor <b>Xfdesktop</b> por fim implementa 
-esta funcionalidade: pode seleccionar vários ícones, apagá-los, etc...</p>
+<p>Desde que se introduziram os ícones de área de trabalho no Xfce 4.4, algumas 
+pessoas expressaram a necessidade de poder seleccionar vários ícones. 
+No <b>Xfce 4.6</b>, o gestor <b>Xfdesktop</b> por fim implementa esta 
+funcionalidade: pode seleccionar vários ícones, apagá-los, etc...</p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfdesktop-rubberbanding.png"
   alt="Seleccão múltipla de ícones" /></p>
@@ -28,7 +28,7 @@ mas também abrir aplicações, sair da sua sessão ou aceder à documentação 
 <h2>Painel <a name="panel"></a></h2>
 
 <p>Muitas falhas existentes desde há muito no <b>painel do Xfce</b>, foram 
-corrigidas, particularmente para configuração de ecrãs múltiplos, esta nova 
+corrigidas, particularmente a configuração de ecrãs múltiplos, esta nova 
 versão também traz um conjunto melhorado de plugins para o painel.
 </p>
 
@@ -40,7 +40,7 @@ O <b>plugin de relógio</b> foi reescrito para consumir menos recursos de
 sistema e para corrigir algumas falhas de visualização, também há um novo 
 modo de relógio para o geek que há em si: o relógio binário! O novo <b>plugin 
 de área de notificação</b> pemite-lhe ocultar ícones de notificação 
-seleccionados para manter limpa e legível a área de notificação.
+seleccionados para manter a sua área de notificação limpa e legível.
 </p>
 
 <h2>Novo misturador de som <a name="sound-mixer"></a></h2>
@@ -84,7 +84,7 @@ oferecem a posibilidade de suspender ou hibernar o seu computador.
 <p>
 Como de costume, <b>Xfwm4</b> amadureceu um pouco durante este ciclo de 
 lançamento: foram corrigidas muitas falhas, foi adicionado suporte para 
-vários ecrãs e a performace foi melhorada</p>
+vários ecrãs e a performace foi melhorada.</p>
 
 <p>Além de outras novas funcionalidades, <b>Xfwm4</b> é agora capaz de 
 detectar janelas que não respondem e oferece a posibilidade de terminá-las.</p>
@@ -94,7 +94,7 @@ detectar janelas que não respondem e oferece a posibilidade de terminá-las.</p
 
 <p>
 Também há um novo <b>menu de acções</b> que permite-lhe mover e redimensionar
-janelas rapidamente, coloca-las à frente ou atrás de outras janelas ou ecrã completo.
+janelas rapidamente, colocá-las à frente ou atrás de outras janelas ou ecrã completo.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-menu.png" 
@@ -128,7 +128,7 @@ papel de parede através do menu de contexto.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/thunar-wallpaper-plugin.png" 
-  alt="Estabelecer uma imagem como fundo com o Thunar" /></p>
+  alt="Definir uma imagem como fundo com o Thunar" /></p>
 
 <p><b>Thunar</b> segue agora as especificações de
 <a href="http://freedesktop.org/wiki/Software/xdg-user-dirs">
@@ -138,7 +138,7 @@ para armazenar a sua música, documentos, vídeos, modelos, etc...
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/thunar-xdg-user-dirs.png" 
-  alt="menu de Thunar para o directório de utilizador" /></p>
+  alt="menu do Thunar para o directório de utilizador" /></p>
 
 <p>
 <b>Thunar</b> mostra agora ícones translúcidos para unidades ou volumes que
@@ -174,8 +174,8 @@ de trabalho rapidamente e de forma mais intuitiva.
 
 <p>
 O diálogo de <b>configuração de acessibilidade</b> permite-lhe configurar as opções 
-de acessibilidade relacionadas com o rato e o teclado, tal como as teclas aderentes, 
-a repetição de teclas ou a emulação do rato.
+de acessibilidade relacionadas com o rato e o teclado, tal como as teclas fixas, 
+teclas saltantes ou a emulação do rato.
 </p>
 
 <h3>configuração de aparência <a name="appearance"></a></h3>
@@ -218,7 +218,7 @@ detectado automaticamente.
   alt="Diálogo de configuração do rato" /></p>
 
 <p>
-O diálogo de <b>configuração do rato</b> permite configurar os diferentes ratos
+O diálogo de <b>configuração do rato</b> permite-lhe configurar os diferentes ratos
 conectados no seu computador: ordem de botões, aceleração, velocidade de duplo 
 clique, tema do cursor do rato, etc...
 </p>
@@ -231,16 +231,16 @@ clique, tema do cursor do rato, etc...
 <p>
 O diálogo de <b>configuração do ambiente de trabalho</b> é agora muito mais 
 compacto. Permite-lhe configurar opções independentes em cada ecrã: fundo, brilho, 
-menu de desktop, ícones mostrados, etc...</p>
+menu de ambiente de trabalho, ícones a apresentar, etc...</p>
 
 <h2>Novo localizar aplicações <a name="appfinder"></a></h2>
 
 <p>
 <b>Xfce 4.6</b> também vem com um "localizador de aplicações" totalmente novo com
 uma interface de utilizador mais arrumada. Também é mais fácil de usar com o teclado 
-e monitoriza as aplicações instaladas para actualizar a lista "on the fly". Também 
-permite-lhe criar lançadores de painel rapidamente arrastrando um ícone de aplicação 
-para o diálogo de criação de lançadores.
+e monitoriza as aplicações instaladas para actualizar a lista "on the fly". 
+Permite-lhe também criar lançadores de painel rapidamente arrastrando um ícone 
+de aplicação para o diálogo de criação de lançadores.
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfce4-appfinder.png" 

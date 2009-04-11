@@ -9,7 +9,7 @@ Terminal é um moderno, leve, e um emulador de baixo consumo de memória com sep
 para o ambiente Xfce. Oferece total personalização para atalhos de teclado, aspecto, cores, e mais.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <p><a class="external" href="http://www.os-cillation.com/index.php?id=42&amp;L=5">Homepage</a></p>
 

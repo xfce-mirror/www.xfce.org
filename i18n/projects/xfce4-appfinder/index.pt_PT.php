@@ -10,7 +10,7 @@ aplicação no sistema, lançá-las e arrastá-las para os diálogos de lançado
 com o teclado e pode servir como substituto para o xfrun4.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

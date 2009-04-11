@@ -14,7 +14,7 @@ de atalhos de teclado para comando de utilizador específicos e manipulação
 de janelas básica, oferece um diálogo para ajustes avançados.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

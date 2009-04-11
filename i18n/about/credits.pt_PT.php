@@ -20,7 +20,7 @@ include 'include/credits.php';
 <h2 id="core">Principais programadores</h2>
 <table width="99%">
     <tr>
-        <th width="40%" align="left"><h3>Contribuidores</h3></th>
+        <th width="40%" align="left"><h3>Colaboradores</h3></th>
         <th width="60%" align="left"><h3>Principais Projectos</h3></th>
     </tr>
 <?php credits_core_developers ($credits['core-developers'], $credits['core-developers-i18n']); ?>
@@ -29,25 +29,25 @@ include 'include/credits.php';
 <h2 id="server">Servidor e website </h2>
 <table width="99%">
     <tr>
-        <th align="left"><h3>Contribuidores</h3></th>
+        <th align="left"><h3>Colaboradores</h3></th>
         <th align="left"><h3>Contribuições</h3></th>
     </tr>
 <?php credits_server_and_website ($credits['server-and-website'], $credits['server-and-website-i18n']); ?>
 </table>
 
 <br />
-<h2 id="contributors">Contribuidores</h2>
+<h2 id="contributors">Colaboradores</h2>
 <table width="99%">
     <tr>
         <td colspan="2"><strong>As seguintes pessoas contribuem frequentemente com patches, ideias, reparações e novos códigos:</strong></td>
     </tr>
     <tr>
-        <th colspan="2"><h3>Contribuidores Activos</h3></th>
+        <th colspan="2"><h3>Colaboradores Activos</h3></th>
     </tr>
     <tr>
 <?php credits_contributors_active ($credits['contributors-active'], $credits['contributors-active-i18n']); ?>
     <tr>
-        <th colspan="2"><h3>Contribuidores Inactivos</h3></th>
+        <th colspan="2"><h3>Colaboradores Inactivos</h3></th>
     </tr>
 <?php credits_contributors_previous ($credits['contributors-previous'], $credits['contributors-previous-i18n']); ?>
 </table>
@@ -74,7 +74,7 @@ include 'include/credits.php';
 <table width="99%">
     <tr>
         <th width="20%" align="left"><h3>Idiomas</h3></th>
-        <th width="80%" align="left"><h3>Contribuidores</h3></th>
+        <th width="80%" align="left"><h3>Colaboradores</h3></th>
     </tr>
 <?php credits_translators ($credits['translators'], $credits['translators-i18n']); ?>
 </table>

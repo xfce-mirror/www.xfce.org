@@ -6,7 +6,7 @@
 Xfconf é um simples sistema cliente-servidor de armazenamento e consulta da configuração.
 </p>
 
-<h2>External Links</h2>
+<h2>Ligações externas</h2>
 
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfconf/trunk/">ViewVc</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfconf/">SVN</a></p>

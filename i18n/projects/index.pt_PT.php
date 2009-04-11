@@ -70,7 +70,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/libraries/">Bibliotecas Xfce</a></h3>
-			<p>As três bibliotecas base do Xfce (libxfcegui4, libxfce4mcs e libxfce4utils)
+			<p>As três bibliotecas base do Xfce (libxfce4util, libxfcegui4 e libxfce4menu)
 			são usadas pela maioria das aplicações Xfce. </p>
 		</td>
 		<td width="48" valign="top">
@@ -96,30 +96,21 @@
 			<p>Mousepad é um editor de texto para o  Xfce baseado no Leafpad. A razão inicial para o Mousepad foi o suporte a impressão, que teria sido difícil para o Leafpad por várias razões.</p>
 		</td>
 		<td width="48" valign="top">
-			<img src="/images/projects/installit.png" alt="installit" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://installit.xfce.org">InstallIt</a></h3>
-			<p>InstallIt é a alternativa oficial de transformar o famoso Xfce installer
-			num software genérico de gestão e ferramenta de instalação. É escrito em
-			Python usando Python-GTK.</p>
-		</td>
-		<td width="48" valign="top">
 			<img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/terminal/">Terminal</a></h3>
 			<p>Terminal é um moderno emulador de terminal para o desktop Unix/Linux principalmente para o ambiente desktop Xfce.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/thunar/">Gestor de Ficheiros Thunar </a></h3>
 			<p>Thunar é um novo gestor de ficheiros moderno para o Ambiente Desktop Xfce. Thunar foi feito de raiz para ser rápido e fácil de usar.</p>
-		</td>
+		</td>				
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" />
 		</td>
@@ -134,34 +125,18 @@
 			<h3><a href="/projects/orage/">Orage</a></h3>
 			<p>Uma simples aplicação de calendário com lembretes.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-appfinder/">Application Finder</a></h3>
+			<h3><a href="/projects/xfce4-appfinder/">Localizar Aplicações</a></h3>
 			<p>Permite procurar, lançar e encontrar informação sobre aplicações instaladas no sistema.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-mixer/">Controlo de Volume</a></h3>
-			<p>Um controlo de volume para o painel. Inclui um diálogo de misturador que suporta ALSA, OSS e Sun audio.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/terminal.png" alt="xfce4-terminal" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfce4-terminal/">Xfce4 Terminal</a></h3>
-			<p>Um leve emulador de terminal para o Xfce 4.</p>
 		</td>
 	</tr>
 	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
-		</td>
+	<td width="48" valign="top">
+		    <img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
+	    </td>
 		<td width="33%" valign="top">
 			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
 			<p>Xfmedia é um simples leitor de multimédia, fácil de usar basedo no motor xine. A GUI GTK+ foca na leitura e gestão de ficheiros áudio, mas apesar de baseado	no xine, também suporta vídeo.</p>
@@ -173,6 +148,15 @@
 			<h3><a href="http://xarchiver.xfce.org">Gestor de Arquivos</a></h3>
 			<p>Xarchiver é apenas um frontend GTK+2 para 7z, zip, rar, tar, bzip2, gzip, arj e rpm.</p>
 		</td>
+		<td width="48" valign="top">
+			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />	
+		</td>	
+		<td width="33%" valign="top">
+			<h3><a href="/projects/xfce4-mixer/">Misturador</a></h3>
+			<p>Um moderno misturador de som baseado no GStreamer.</p>
+		</td>		
+	</tr>
+	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
@@ -204,8 +188,8 @@
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://pyxfce.xfce.org">Pyxfce</a></h3>
-			<p>Pyxfce são ligações Xfce para python. Pode usar python para criar  programas xfce, depois de instalado o pyxfce.</p>
+			<h3><a href="http://pyxfce.xfce.org">Associações Python</a></h3>
+			<p>Associações Python para Xfce. Permitem-lhe criar programas usando as bibliotecas Xfce mais facilmente.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
@@ -221,7 +205,7 @@
 		</td>
 		<td width="33%" valign="top">
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Xfce4 Perl</a></h3>
-			<p>Xfce4-perl são ligações Xfce para Perl. Também inclui ligações para plugins do painel. </p>
+			<p>Associações Perl para Xfce. Se é do estilo antigo ou simplesmente não gosta de C e de Python, pode usar Perl para escrever aplicações Xfce. </p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
@@ -235,7 +219,7 @@
 		</td>
 		<td valign="top">
 			<h3><a href="/projects/xfce4-dev-tools">Ferramentas de Desenvolvimento Xfce</a></h3>
-			<p>As ferramentas de desenvolvimento Xfce oferecem uma colecção de scripts e macros M4 que são necessárias para construir a base dos componentes do desktop Xfce.</p>
+			<p>As ferramentas de desenvolvimento Xfce oferecem uma colecção de scripts e macros M4 que são necessárias para construir os componentes base do ambiente de trabalho Xfce.</p>
 		</td>
 	</tr>
 </table>

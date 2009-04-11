@@ -8,14 +8,14 @@ funções de assistência não gráficas, widgets e funções convenientes para 
 Libxfce4menu oferece uma implementação da especificação de menu da Freedesktop.
 </p>
 
-<h1>Features</h1>
+<h1>Funcionalidades</h1>
 <ul>
   <li><strong>libxfce4util</strong>: utilidades básicas.</li>
   <li><strong>libxfcegui4</strong>: widgets unificados.</li>
-  <li><strong>libxfce4menu</strong>: implementação de menu freedesktop</li>
+  <li><strong>libxfce4menu</strong>: implementação freedesktop de menu</li>
 </ul>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>libxfce4util</h3>
 

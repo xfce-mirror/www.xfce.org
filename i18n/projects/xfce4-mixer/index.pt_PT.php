@@ -13,7 +13,7 @@ o painel Xfce e também uma aplicação de misturador standalone.
 Suporta todos os sistemas áudio suportados pelo projecto <a href="http://www.gstreamer.net/">GStreamer</a>.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

@@ -11,14 +11,14 @@ $breadcrumbs = array (
     "irc"              => "IRC",
     "faq"              => "FAQs",
     "userguide"        => "Guia do Utilizador",
-    "api"              => "Desenvolvedores (API)",
-    "tour"             => "Xfce 4.4 Tour",
+    "api"              => "Programadores (API)",
+    "tour"             => "Tour Xfce 4.6",
     "search"           => "Pesquisar no Google",
     "distros"          => "Xfce em Distribuições",
 
     # Common Xfce components
     "xfce4-panel"      => "Painel",
-    "xfwm4"            => "Gestor de Janela",
+    "xfwm4"            => "Gestor de Janelas",
     "xfdesktop"        => "Gestor de Desktop",
     "xfce4-session"    => "Gestor de Sessão",
     "xfce-utils"       => "Utilitários e Scripts",
@@ -33,7 +33,7 @@ $breadcrumbs = array (
     "xarchive"         => "Gestor de Pacotes",
     "xfc"              => "Classes do Xfce",
     "xfce-gtk-engine"  => "GTK Theme Engine",
-    "dbh"              => "Disco Baseado em Tabelas Hash",
+    "dbh"              => "Tabelas hash baseadas em disco",
     "installit"        => "InstallIt"
 );
 

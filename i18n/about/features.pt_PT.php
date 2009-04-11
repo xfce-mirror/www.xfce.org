@@ -10,5 +10,5 @@ Xfce também oferece aplicações comuns, desenhadas para a melhor experiência 
 
 <p>
 Muitas outras funcionalidades adicionais são oferecidas pelo
-<a href="http://goodies.xfce.org">projecto Goodies</a>: um navegador web, plugins para o painel e o gestor de ficheiros, aplicações independentes tais como: um dicionário, um gestor de tareas, um gestor de energia, captura de ecrã, serviço de notificação...
+<a href="http://goodies.xfce.org">projecto Goodies</a>: um navegador web, plugins para o painel e o gestor de ficheiros, aplicações independentes tais como: um dicionário, um gestor de tarefas, um gestor de energia, captura de ecrã, serviço de notificação...
 </p>

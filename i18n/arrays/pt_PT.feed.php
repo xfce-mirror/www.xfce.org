@@ -4,6 +4,6 @@
  **/
  
 $title       = "Notícias sobre o Xfce";
-$discription = "Nóticias sobre o Projecto Xfce";
+$discription = "Notícias sobre o Projecto Xfce";
 
 ?>

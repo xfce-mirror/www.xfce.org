@@ -15,5 +15,5 @@
 		</ul>
 	</li>
 	<li><a href="/about/press">Imprensa</a></li>
-	<li><a href="/about/artwork">Artwork</a></li>
+	<li><a href="/about/artwork">Arte</a></li>
 </ul>

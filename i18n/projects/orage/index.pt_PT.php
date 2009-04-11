@@ -8,7 +8,7 @@ alertas baseados em datas. Dá aviso com popup ou alarme áudio. Como é uma apl
 é lançada como daemon em segundo plano e pode ser acedido usando o plugin de relógio Orage para o painel.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Homepage</a></p>
 

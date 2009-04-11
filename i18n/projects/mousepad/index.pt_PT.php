@@ -10,7 +10,7 @@ para o Mousepad era oferecer suporte a impressão, que era difícil para o
 Leafpad por várias razões.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 <p>

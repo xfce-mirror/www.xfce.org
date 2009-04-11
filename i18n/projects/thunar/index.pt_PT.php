@@ -16,7 +16,7 @@ Significa que não precisa de configurar o sistema de forma especial ou de perde
 simplesmente funciona se o seu sistema cumpre os padrões do FreeDesktop.org.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <p>
 <a class="external" href="http://thunar.xfce.org/">Homepage</a><br />

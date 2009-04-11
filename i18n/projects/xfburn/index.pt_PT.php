@@ -10,9 +10,9 @@ Pode apagar CD-RWs, queimar e criar imagens iso, como composição pessoal de da
 Actualmente em <b>sério</b> desenvolvimento.
 </p>
 
-<p><a class="external" href="http://goodies.xfce.org/projects/applications/xfburn"><b>More on Xfburn</b></a></p>
+<p><a class="external" href="http://goodies.xfce.org/projects/applications/xfburn"><b>Mais sobre o Xfburn</b></a></p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

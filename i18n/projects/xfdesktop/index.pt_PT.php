@@ -10,7 +10,7 @@ mostrar ficheiros (incluindo lançadores de aplicações) ou colocar janelas com
 cor de fundo, suporte a saturação para a imagem de fundo, múltiplos ecrãs e suporte xinerama.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

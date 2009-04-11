@@ -8,18 +8,17 @@
 O Painel Xfce 4 suporta múltiplos painéis, com muitas opções para a
 posição, aparência, transparência e comportamento. Existem muitos itens 
 disponíveis por omissão para personalizar os seus painéis, como lançadores de aplicação com 
-menus destacáveis, um paginador gráfico, uma lista de tarefas, um relógio, uma bandeja de sistema, 
-um alternador de desktop mostra/oculta e ainda mais. Oferece uma maneira fácil de adicionar 
-itens usando um diálogo e mover itens para diferentes painéis. É 
+menus destacáveis, um paginador gráfico, uma lista de tarefas, um relógio, uma bandeja 
+de sistema, um alternador de desktop mostra/oculta e ainda mais. Oferece uma maneira fácil de adicionar itens usando um diálogo e mover itens para diferentes painéis. É 
 compatível com os numerosos plugins de painel disponíveis no projecto
 <a href="http://goodies.xfce.org/">Xfce Goodies Project</a>.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <p>
-<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Panel plugins</a>
-from the Goodies Project page.</p>
+<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Plugins para o painel</a>
+na página Goodies Project.</p>
 
 <h3>Subversion</h3>
 

@@ -8,7 +8,7 @@ de impressora e gestão de lista de trabalhos. Não permite configurar impressor
 mas apenas usar o sistema de impressão que foi configurado devidamente.
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

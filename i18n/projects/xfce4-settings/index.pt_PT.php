@@ -11,7 +11,7 @@ também temas para janelas, widgets e ícones, definir as suas aplicações pref
 sessões...
 </p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 

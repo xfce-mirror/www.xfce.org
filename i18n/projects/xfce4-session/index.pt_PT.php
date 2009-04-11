@@ -4,11 +4,11 @@
 
 <p>
 O Gestor de sessão permite ao utilizador gravar as sessões e restaurá-las depois do
-login. É capaz de gravar várias sessões. Também oferece uma maneira fácil de terminar sessão,
-reiniciar, desligar, hibernar ou suspender o seu computador.
- </p>
+login. É capaz de gravar várias sessões. Também oferece uma maneira fácil de 
+terminar sessão, reiniciar, desligar, hibernar ou suspender o seu computador.
+</p>
 
-<h2>Ligações Externas</h2>
+<h2>Ligações externas</h2>
 
 <h3>Subversion</h3>
 
@@ -19,7 +19,7 @@ reiniciar, desligar, hibernar ou suspender o seu computador.
 
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-session/trunk xfce4-session</code></p>
 
-<h2>Autor</h2>
+<h2>Autores</h2>
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
   <li>Brian Tarricone [kelnos at xfce.org]</li>
