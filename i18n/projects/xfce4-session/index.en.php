@@ -19,7 +19,7 @@ to log out, reboot, shutdown, hibernate or suspend your computer.
 
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-session/trunk xfce4-session</code></p>
 
-<h2>Author</h2>
+<h2>Authors</h2>
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
   <li>Brian Tarricone [kelnos at xfce.org]</li>

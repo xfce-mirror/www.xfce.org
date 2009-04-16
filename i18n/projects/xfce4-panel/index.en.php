@@ -30,7 +30,7 @@ from the Goodies Project page.</p>
 
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
 
-<h2>Author</h2>
+<h2>Authors</h2>
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
   <li>Nick Schermer [nick at xfce.org]</li>
