@@ -100,6 +100,7 @@ $credits['translators'] = array (
             array ('Carles Muñoz Gorriz', 'carlesmu', 'internautas.org'), 
             array ('Ivà Burgos', 'debian.public', 'gmail.com'), 
             array ('Pau Rul·lan Ferragut', 'paurullan', 'bulma.net')
+            array ('Harald Servat', 'redcrash', 'gmail.com')
             )
         ),
     array ('cs',
