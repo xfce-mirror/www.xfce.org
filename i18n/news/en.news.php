@@ -42,7 +42,7 @@ $news = array (
                      "past few weeks.".
                      "[br][br]".
                      "For a full list of changes, look ".
-                     "[link=/documentation/changelogs/4.6.0]here[/link]. ".
+                     "[link=/documentation/changelogs/4.6.1]here[/link]. ".
                      "[br][br]".
                      "Also, thanks to all the translators, several ".
                      "translations have been improved and completed since the ".
