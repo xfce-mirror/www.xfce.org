@@ -85,13 +85,8 @@
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-new-menu.png" 
   alt="New actions menu" /></p>
 
-<p>新しく<b>「ウィンドウをいっぱいに拡げる」</b><sup><a href="#ja-xfwm4-sorry">*</a></sup> 操作が実装されました。
+<p>新しく<b>「ウィンドウをいっぱいに拡げる」</b>操作が実装されました。
 これはウィンドウを他のウィンドウと重ならない範囲で画面いっぱいに拡げます。
-</p>
-
-<p> <a name="ja-xfwm4-sorry"></a>
-<i><small><sup>*</sup>申し訳ありません、4.6.0 日本語表示では、誤った日本語名称になっています。
-次のリリースでは修正される予定です。</small></i>
 </p>
 
 <p class="image"><img src="/images/about/tour/4.6/xfwm4-fill-operation.png" 

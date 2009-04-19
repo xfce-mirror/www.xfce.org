@@ -8,7 +8,7 @@
 The Xfce window manager manages the placement of application
 windows on the screen, provides beautiful window decorations, manages 
 workspaces or virtual desktops, and natively supports multiscreen 
-mode. It provides its own compositing manager (from the Xorg Composite 
+mode. It provides its own compositing manager (from the X.Org Composite 
 extension) for true transparency and shadows. The Xfce window manager 
 includes a keyboard shorcuts editor for user specific commands and basic
 windows manipulations, and provides a dialog for advanced tweaks.

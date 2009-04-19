@@ -12,7 +12,7 @@ settings management. Libxfce4menu provides an implementation of the Freedesktop 
 <ul>
   <li><strong>libxfce4util</strong>: basic utilities.</li>
   <li><strong>libxfcegui4</strong>: unified widgets.</li>
-  <li><strong>libxfce4menu</strong>: freedesktop menu implementation</li>
+  <li><strong>libxfce4menu</strong>: freedesktop.org menu implementation</li>
 </ul>
 
 <h2>External Links</h2>
