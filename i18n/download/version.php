@@ -1,6 +1,6 @@
 <?php
 /* the version number here */
-$version       = "4.6.0";
+$version       = "4.6.1";
 $sf_package_id = "291314";  /* corresponds to xfce-4.6 package */
 $sf_release_id = "664582";
 

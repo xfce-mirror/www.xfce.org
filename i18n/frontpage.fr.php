@@ -6,13 +6,13 @@
     
 			<div class="link">
       
-        <h2><a href="/download/" title="Télécharger Xfce 4.6.0">Télécharger Xfce 4.6.0</a></h2>
+        <h2><a href="/download/" title="Télécharger Xfce 4.6.1">Télécharger Xfce 4.6.1</a></h2>
 			</div>
       
 			<div class="notes">
       
 				<p>
-          <a href="/documentation/changelogs/4.6.0" title="Lire le fichier ChangeLog">ChangeLogs</a>
+          <a href="/documentation/changelogs/4.6.1" title="Lire le fichier ChangeLog">ChangeLogs</a>
           <span class="grey"> | </span>
           <a href="/about/tour" title="Quelles sont les nouveautés dans Xfce 4.6">Tour</a>
         </p>

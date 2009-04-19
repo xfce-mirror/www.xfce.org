@@ -29,6 +29,33 @@ $news = array (
 */
 
     array (
+        'id'      => 22,
+        'date'    => "19 Apr 2009",
+        'author'  => "The Xfce Development Team",
+        'title'   => "Xfce 4.6.1 Released",
+        'content' => "The first bugfix-release of xfce 4.6 has been released.".
+                     "[br][br]".
+                     "Thanks to all the people who have been using xfce 4.6 ".
+                     "and took the time and effort to submit bugreports for ".
+                     "stuff that wasn't quite working the way it is supposed ".
+                     "to. We have been able to fix several issues during the "
+                     "past few weeks.".
+                     "[br][br]".
+                     "For a full list of changes, look ".
+                     "[link=/documentation/changelogs/4.6.0]here[/link]. ".
+                     "[br][br]".
+                     "Also, thanks to all the translators, several ".
+                     "translations have been improved and completed since the "
+                     "release of 4.6.0.".
+                     "[br][br]".
+                     "Kudos to all of you and have fun with this new version,".
+                     "it can be found at: ".
+                     "[link=/download]http://www.xfce.org/download[/link]".
+                     "[br][br]".
+                     "Regards,[br]".
+                     "The Xfce development team.".
+    ),
+    array (
         'id'      => 21,
         'date'    => "27 Feb 2009",
         'author'  => "The Xfce Development Team",
