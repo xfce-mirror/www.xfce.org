@@ -2,7 +2,7 @@
 /* the version number here */
 $version       = "4.6.1";
 $sf_package_id = "291314";  /* corresponds to xfce-4.6 package */
-$sf_release_id = "664582";
+$sf_release_id = "678213";
 
 /* uncomment these to have an unstable release appear */
 //$version_unstable = "4.5.99.1";
