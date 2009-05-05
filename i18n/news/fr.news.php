@@ -19,10 +19,7 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
-    array (
-        'id'      => 22,
-        'date'    => "19 Avril 2009",
-        'author'  => "L'équipe de développement de Xfce",
+    22 => array (
         'title'   => "Xfce 4.6.1 est sorit",
         'content' => "La première mise à jour de maintenance de Xfce 4.6 est sortie.".
                      "[br][br]".
@@ -45,10 +42,9 @@ $news_translated = array (
                      "Sincèrement,[br]".
                      "L'équipe de développement de Xfce."
     ),
-    array (
-        'id'      => 21,
-        'date'    => "27 Février 2009",
-        'author'  => "L'équipe de développement de Xfce",
+
+    21 =>array (
+
         'title'   => "La version finale de Xfce 4.6 est sortie",
         'content' => "Après plus de deux ans de développement, Xfce 4.6.0 vient de sortir.".
                      "[br][br]".
