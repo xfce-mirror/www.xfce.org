@@ -29,7 +29,7 @@ $news_translated = array (
                      "Merci à toutes les personnes qui utilisent Xfce 4.6 et qui ".
                      "ont pris la peine de nous signaler ce qui ne fonctionnait pas ".
                      "correctement. Nous avons réussi à régler plusieurs problèmes ".
-                     "au cours des dernières semaines."
+                     "au cours des dernières semaines.".
                      "[br][br]".
                      "Pour la liste complète des changements, rendez-vous ".
                      "[link=/documentation/changelogs/4.6.1]ici[/link]. ".
