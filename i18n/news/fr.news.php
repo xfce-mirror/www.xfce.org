@@ -20,7 +20,7 @@ $news_translated = array (
     ),
 */
     22 => array (
-        'title'   => "Xfce 4.6.1 est sorit",
+        'title'   => "Xfce 4.6.1 est sorti",
         'content' => "La première mise à jour de maintenance de Xfce 4.6 est sortie.".
                      "[br][br]".
                      "Merci à toutes les personnes qui utilisent Xfce 4.6 et qui ".
