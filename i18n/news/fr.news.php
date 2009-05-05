@@ -19,9 +19,61 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
+    array (
+        'id'      => 22,
+        'date'    => "19 Avril 2009",
+        'author'  => "L'équipe de développement de Xfce",
+        'title'   => "Xfce 4.6.1 est sorit",
+        'content' => "La première mise à jour de maintenance de Xfce 4.6 est sortie.".
+                     "[br][br]".
+                     "Merci à toutes les personnes qui utilisent Xfce 4.6 et qui ".
+                     "ont pris la peine de nous signaler ce qui ne fonctionnait pas ".
+                     "correctement. Nous avons réussi à régler plusieurs problèmes ".
+                     "au cours des dernières semaines."
+                     "[br][br]".
+                     "Pour la liste complète des changements, rendez-vous ".
+                     "[link=/documentation/changelogs/4.6.1]ici[/link]. ".
+                     "[br][br]".
+                     "Merci aussi aux tradcuteurs, grâce à qui plusieurs ".
+                     "traductions ont été améliorées ou terminées depuis la sortie ".
+                     "de Xfce 4.6.0".
+                     "[br][br]".
+                     "Merci à tous, et appreciez cette nouvelle version que vous ".
+                     "pouvez trouver sur ".
+                     "[link=/download]http://www.xfce.org/download[/link]".
+                     "[br][br]".
+                     "Sincèrement,[br]".
+                     "L'équipe de développement de Xfce."
+    ),
+    array (
+        'id'      => 21,
+        'date'    => "27 Février 2009",
+        'author'  => "L'équipe de développement de Xfce",
+        'title'   => "La version finale de Xfce 4.6 est sortie",
+        'content' => "Après plus de deux ans de développement, Xfce 4.6.0 vient de sortir.".
+                     "[br][br]".
+                     "Xfce 4.6 vient avec un nouveau système et une nouvelle interface ".
+                     "de configuration, un nouveau mixer de son et de nombreuses ".
+                     "améliorations dans le système de sessions et dans les autres ".
+                     "composants de Xfce. Une liste de tous les changements depuis la ".
+                     "dernière Release Candidate se trouve à ".
+                     "[link=/documentation/changelogs/4.6.0]cette page[/link]. ".
+                     "[br][br]".
+                     "Un tour visuel de Xfce 4.6 est disponible ici : [br]".
+                     "[link=/about/tour]http://www.xfce.org/about/tour[/link]".
+                     "[br][br]".
+                     "Vous pouvez télécharger Xfce 4.6 à partir de la section ".
+                     "Téléchargement du site Internet de Xfce : [br]".
+                     "[link=/download]http://www.xfce.org/download[/link]".
+                     "[br][br]".
+                     "Sincèrement,[br]".
+                     "L'équipe de développement de Xfce.".
+                     "",
+    ),
+
     12 => array (
         'title'   => 'Sortie de Xfce 4.4.1',
-        'content' => 'Salut tous,[br][br]'.
+        'content' => 'Salut à tous,[br][br]'.
                      'Xfce 4.4.1 vient de sortir. C\'est la première sortie de maintenance de Xfce 4.4 (la version stable de Xfce) qui apporte des corrections de bogues importants et une mise à jour des traductions.'.
                      '[br][br]'.
                      'Vous pouvez télécharger Xfce 4.4.1 depuis le [link=/download/]site Xfce.[/link]'.

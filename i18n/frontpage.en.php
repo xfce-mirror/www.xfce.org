@@ -14,7 +14,7 @@
       
 				<p>
           <a href="/documentation/changelogs/4.6.1" title="Read the ChangeLog">ChangeLogs</a>
-          <span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.6">Tour</a>
+          <span class="grey"> | </span><a href="/about/tour" title="What's new in Xfce 4.6?">Tour</a>
         </p>
         
 			</div>

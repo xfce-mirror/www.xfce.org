@@ -14,7 +14,7 @@
 				<p>
           <a href="/documentation/changelogs/4.6.1" title="Lire le fichier ChangeLog">ChangeLogs</a>
           <span class="grey"> | </span>
-          <a href="/about/tour" title="Quelles sont les nouveautés dans Xfce 4.6">Tour</a>
+          <a href="/about/tour" title="Quelles sont les nouveautés dans Xfce 4.6?">Tour</a>
         </p>
         
 			</div>
@@ -29,17 +29,17 @@
     
 		<p>
       <em>« Xfce est un environnement de bureau léger pour divers systèmes *NIX.
-      Conçu pour la productivité, il charge et exécute les applications rapidement,
-      tout en conservant les ressources du système. »
+      Conçu pour la productivité, il lance les applications rapidement,
+      tout en préservant les ressources du système. »
       </em> - <strong>Olivier Fourdan, créateur de Xfce</strong>
     </p>
     
 		<p>
       Xfce 4.6 adhère à la traditionnelle philosophie UNIX de modularité et
-      de réutilisation. Xfce se compose de plusieurs modules qui, une fois rassemblés,
-      offrent toutes les fonctionnalités de l'environnement de bureau. Ces modules sont
-      empaquetés séparément afin que vous puissiez choisir vous-même et créer un
-      environnement de bureau personnalisé.
+      de réutilisation. Xfce est composé de plusieurs modules qui, une fois rassemblés,
+      offrent toutes les fonctionnalités que l'on peut attendre d'un environnement de bureau.
+      Ces modules sont fournis séparément afin que vous puissiez utiliser ceux que
+      vous souhaitez et personnaliser votre environnement de bureau.
     </p>
     
 		<p class="readmore">
@@ -71,7 +71,7 @@
       
 			<div class="readmore">
       
-				<a href="/about/news" title="Lire toutes les nouvelles de Xfce...">suite</a>
+				<a href="/about/news" title="Lire toutes les nouvelles sur Xfce...">suite</a>
         
 			</div>
       
