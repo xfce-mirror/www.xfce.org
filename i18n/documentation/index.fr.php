@@ -1,8 +1,8 @@
 <h1>Documentation</h1>
 
 <p>
-Cette page contient la plupart des documentations Xfce existantes pour l'utilisateur
-et le développeur.
+Cette page contient la plupart des documentations Xfce existantes pour les utilisateurs
+et les développeurs.
 </p>
 
 <table width="99%">
@@ -15,8 +15,8 @@ et le développeur.
       
       <p>
         Nous sommes désolés mais il n'existe pas (<a href="/development/">encore</a>) de
-        documentation pour la version 4.4 de Xfce. Vous pouvez chercher dans la
-        <a href="/documentation/4.2/">documentation 4.2</a>, visiter le
+        documentation pour la version 4.6 de Xfce. Vous pouvez chercher dans la
+        <a href="/documentation/4.2/">documentation de Xfce 4.2</a>, visiter le
         <a href="http://forum.xfce.org">forum Xfce</a> ou utiliser les
         <a href="/community/lists">listes de diffusion</a> pour essayer de résoudre votre
         problème.

@@ -125,7 +125,7 @@ It is also recommended to build all Xfce components from the same release versio
   </tr>
   <tr>
     <td>xfcalendar</td>
-    <td>perl, libxfce4mcs, libxfcegui4</td>
+    <td>perl, libxfcegui4</td>
     <td>ical, db&nbsp;&gt;=&nbsp;4.0</td>
   </tr>
   <tr bgcolor="#eeeeee">
