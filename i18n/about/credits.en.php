@@ -44,7 +44,6 @@ include 'include/credits.php';
     <tr>
         <th colspan="2"><h3>Active Contributors</h3></th>
     </tr>
-    <tr>
 <?php credits_contributors_active ($credits['contributors-active'], $credits['contributors-active-i18n']); ?>
     <tr>
         <th colspan="2"><h3>Previous Contributors</h3></th>
