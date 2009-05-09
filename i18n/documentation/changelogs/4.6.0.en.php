@@ -22,7 +22,7 @@ function bug ($id){
 
 <h3>Utility Library <em>(libxfce4util)</em>:</h3>
 <ul>
-    <li>Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, French, Polish, Indonesian, English (GB), Norwegian, Simplified Chinese and Turkish.</li>
+    <li>Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, Polish, Indonesian, English (GB), Norwegian, Simplified Chinese and Turkish.</li>
     <li>Add missing C++ wrappers in header files (patch by Jens Luedicke). </li>
 </ul>
 
