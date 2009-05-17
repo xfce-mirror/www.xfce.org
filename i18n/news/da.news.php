@@ -45,8 +45,7 @@ $news_translated = array (
                      "[link=/download]http://www.xfce.org/download[/link]".
                      "[br][br]".
                      "Hilsen,[br]".
-                     "Udviklingsholdet bag Xfce.".
-                     "",
+                     "Udviklingsholdet bag Xfce."
         ),
    21 => array (
         'title'   => "Xfce 4.6 Endelig version er udgivet",
@@ -65,8 +64,7 @@ $news_translated = array (
                      "[link=/download]http://www.xfce.org/download[/link]".
                      "[br][br]".
                      "Hilsen,[br]".
-                     "Udviklingsholdet bag Xfce.".
-                     "",
+                     "Udviklingsholdet bag Xfce."
     ),
   20 => array (
         'title'   => "Xfce 4.6 Udgivelseskandidat 1 (Capybara) er udgivet",
