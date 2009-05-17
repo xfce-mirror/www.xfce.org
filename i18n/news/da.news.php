@@ -23,10 +23,7 @@ $news_translated = array (
         'content' => '<stuff you want to say>',
     ),
 */
-  array (
-        'id'      => 22,
-        'date'    => "19. apr 2009.",
-        'author'  => "Udviklingsholdet bag Xfce",
+  22 => array (
         'title'   => "Xfce 4.6.1 er udgivet",
         'content' => "Den første fejlrettelsesudgivelse til xfce 4.6 er nu udgivet.".
                      "[br][br]".
@@ -51,10 +48,7 @@ $news_translated = array (
                      "Udviklingsholdet bag Xfce.".
                      "",
         ),
-    array (
-        'id'      => 21,
-        'date'    => "27. feb 2009",
-        'author'  => "Udviklingsholdet bag Xfce",
+   21 => array (
         'title'   => "Xfce 4.6 Endelig version er udgivet",
         'content' => "Efter mere end to års udvikling, er Xfce 4.6.0 netop blevet udgivet".
                      "[br][br]".
@@ -74,10 +68,7 @@ $news_translated = array (
                      "Udviklingsholdet bag Xfce.".
                      "",
     ),
-  array (
-        'id'      => 20,
-        'date'    => "26. jan 2009",
-        'author'  => "Stephan Arts",
+  20 => array (
         'title'   => "Xfce 4.6 Udgivelseskandidat 1 (Capybara) er udgivet",
         'content' => "Hej allesammen,".
                      "[br][br]".
@@ -121,10 +112,7 @@ $news_translated = array (
                      "Udviklingsholdet bag Xfce".
                      "",
     ),
-    array (
-        'id'      => 19,
-        'date'    => "14. jan 2009",
-        'author'  => "Stephan Arts",
+   19 => array (
         'title'   => "Xfce 4.6 Beta 3 (Tuco-Tuco) er udgivet",
         'content' => "".
                      "Det er mig en fornøjelse at annoncere udgivelsen af Xfce 4.6 beta-3.".
@@ -149,10 +137,7 @@ $news_translated = array (
                      "udviklingsholdet bag Xfce".
                      "",
     ),
-    array (
-        'id'      => 18,
-        'date'    => "15. nov 2008",
-        'author'  => "Stephan Arts",
+  18 => array (
         'title'   => "Xfce 4.6 Beta 2 (Hopper) er udgivet",
         'content' => "Den anden beta var forsinket med 2 uger, men det var dét værd.[br]".
                      "Alle de funktioner vi lavede undtagelser for, ifbm. frysningen, er kommet med i denne udgivelse.[br]".
@@ -178,10 +163,7 @@ $news_translated = array (
                      "Udviklingsholdet bag Xfce",
                      "",
     ),
-    array (
-        'id'      => 17,
-        'date'    => '30. okt 2008',
-        'author'  => 'Brian Tarricone',
+  17 => array (
         'title'   => 'Xfce 4.4.3 er udgivet',
         'content' => "Bare fordi vi er ved gøre klar til at udgive Xfce. 4.6.0, betyder det ikke, ".
                      "at vi har glemt 4.4-udgaven. En ordentlig stak fejlrettelser ".
@@ -194,10 +176,7 @@ $news_translated = array (
                      "Besøg [link=/download#stable]hentningssiden[/link] til ".
                      "dit nærmeste spejl.",
     ),
-    array(
-        'id'      => 16,
-        'date'    => '15. okt 2008',
-        'author'  => 'Stephan Arts',
+  16 => array(
         'title'   => 'Xfce 4.6 BETA-1 (\'Fuzzy\') er udgivet',
         'content' => "Hej allesammen,".
                      "[br][br]".
@@ -207,7 +186,7 @@ $news_translated = array (
                      "[b]Mange[/b] fejl er blevet rettet i denne udgivelse; et par højdepunkter:".
                      "[br]".
                      "- Xfwm4 kan nu opdage om et program ikke længere svarer. Den viser en dialog, der giver brugeren mulighed for at dræbe den.[br]".
-		     "for at lede efter fejlen, eller indsende en ny rapport hvis dine fejl ikke allerede er nævnt.".
+		                 "for at lede efter fejlen, eller indsende en ny rapport hvis dine fejl ikke allerede er nævnt.".
                      "- Xfce4-session starter markant hurtigere op, ved at starte programmer op parallelt, hvor det er muligt.[br]".
                      "- Det er nu muligt at konfigurere tastaturlayoutet.[br]".
                      "- Indstilling af lydbegivenheder med libcanberra + gtk 2.14 er nu mulig (hvilket betyder, at du kan slukke for dem).".
@@ -232,10 +211,7 @@ $news_translated = array (
                      "Venlige hilsner,[br]".
                      "Udviklingsholdet bag Xfce",
     ),
-    array (
-        'id'      => 15,
-        'date'    => '14. sep 2008',
-        'author'  => 'Stephan Arts, Jannis Pohlmann og Brian Tarricone',
+  15 => array (
         'title'   => 'Xfce 4.6 alpha (\'Pinkie\') er udgivet',
         'content' => "Hej allesammen,".
                      "[br][br]".
@@ -269,17 +245,11 @@ $news_translated = array (
                      "Venlige hilsner,[br]".
                      "Udviklingsholdet bag Xfce",
     ),
-        array (
-        'id'      => 14,
-        'date'    => '4. mar 2008',
-        'author'  => 'Brian Tarricone',
+     14 => array (
         'title'   => 'Google Summer of Code 2008',
         'content' => "Selvom om vi endnu ikke er accepteret i ordningen, har vi søgt om at blive optaget i [url=http://code.google.com/soc/]Google Summer of Code[/url] 2008 som en mentororganisation. Se venligst [url=http://wiki.xfce.org/gsoc-2008-ideas]vores wikiside[/url] for mere information, og tilføj dit navn på en af elevlisterne hvis du vil arbejde på en af projekterne. Du er også velkommen til at tilføje ideer til listen over projektideer.",
     ),
-    array (
-        'id'      => 13,
-        'date'    => '2. dec 2007',
-        'author'  => 'Brian Tarricone',
+  13 => array (
         'title'   => 'Xfce 4.4.2 er udgivet',
         'content' => 'Hi all,'.
                      '[br][br]'.
@@ -292,10 +262,7 @@ $news_translated = array (
                      'Nyd den!,[br]'.
                      'udviklingsholdet bag Xfce',
     ),
-    array (
-        'id'      => 12,
-        'date'    => '10. apr 2007',
-        'author'  => 'Olivier Fourdan',
+  12 => array (
         'title'   => 'Xfce 4.4.1 er udgivet',
         'content' => 'Hej allesammen,'.
                      '[br][br]'.
@@ -310,10 +277,7 @@ $news_translated = array (
                      'Nyd den![br]'.
                      'Udviklingsholdet bag Xfce.',
     ),
-    array (
-        'id'      => 11,
-        'date'    => '21. jan 2007',
-        'author'  => 'Olivier Fourdan',
+   11 => array (
         'title'   => 'Xfce 4.4.0 er udgivet',
         'content' => 'Efter mere end to års udvikling, er Xfce 4.4.0 netop udgivet.'.
                      '[br]'.
@@ -326,10 +290,7 @@ $news_translated = array (
                      'Hent Xfce 4.4 fra det nye netsted for Xfce:[br]'.
                      '[link=/download]http://www.xfce.org/download[/link]',
     ),
-    array (
-        'id'      => 10,
-        'date'    => '15. jan 2007',
-        'author'  => 'Olivier Fourdan',
+  10 => array (
         'title'   => 'Xfce 4.2.4 er udgivet',
         'content' => 'En ny fejlrettelsesudgivelse af Xfce 4.2 er tilgængelig. Denne udgivelse vil '.
                      'være den sidste udgave af 4.2-udgaven. Den indeholder flere rettelser der er eksporteret '.
@@ -338,10 +299,7 @@ $news_translated = array (
                      'dette er en fejlrettelsesudgivelse til den tidligere stabile udgave. Få den fra '.
                      '[link=/download/]denne side[/link].',
     ),
-    array (
-        'id'      => 9,
-        'date'    => '5. nov 2006',
-        'author'  => 'Olivier Fourdan',
+   9 => array (
         'title'   => 'Xfce 4.4 udgivelseskandidat 2 (4.3.99.2) er udgivet',
         'content' => 'Den anden, og forhåbentlig sidste, udgivelseskandidat til Xfce 4.4-skrivebordet er nu '.
                      'tilgængelig til hentning.[br] Denne udgivelse fokuserer primært på rejlrettelser og optimeringer. '.
@@ -349,10 +307,7 @@ $news_translated = array (
                      'rettelser og ændringer. Hjælp os med at gøre Xfce 4.4, den bedste Xfce-udgivelse nogensinde, hent den, '.
                      'prøv den, hjælp os med at fejlrette den! Få den på [link=/download/]denne side[/link].',
     ),
-    array (
-        'id'      => 8,
-        'date'    => '3. sep 2006',
-        'author'  => 'Olivier Fourdan',
+   8 => array (
         'title'   => 'Xfce 4.4 udgivelseskandidat 1 (4.3.99.1) er udgivet',
         'content' => 'Den første udgivelseskandidat af det kommende Xfce 4.4-skrivebord er nu tilgængelig til hentning. '.
                      'Den udgivelse retter en masse fejl, der var til stede i den anden betaudgivelse, men '.
@@ -362,10 +317,7 @@ $news_translated = array (
 		     'Xfce-udgivelse nogensinde, hent den, '.
                      'prøv den, hjælp os med at fejlrette den! Få den på [link=/download/]denne side[/link].',
     ),
-    array (
-        'id'      => 7,
-        'date'    => '10. aug 2006',
-        'author'  => 'Olivier Fourdan',
+   7 => array (
         'title'   => 'Xfce 4.4 beta 2 (4.3.90.2) er udgivet',
         'content' => 'Xfce 4.4 beta-2 (4.3.90.2) er nu tilgængelig til hentning. Foruden Mousepad og Thunar, '.
                      'indeholder denne udgivelse også den nye arkivhåndtering til Xfce. Derudover er en '.
@@ -375,10 +327,7 @@ $news_translated = array (
 		     'Xfce-udgivelse nogensinde, hent den, '.
                      'prøv den, hjælp os med at fejlrette den! Få den på [link=/download/]denne side[/link].',
     ),
-    array (
-        'id'      => 6,
-        'date'    => '17. apr 2006',
-        'author'  => 'Olivier Fourdan',
+   6 => array (
         'title'   => 'Xfce 4.4 beta-1 (4.3.90.1) er udgivet',
         'content' => 'Xfce 4.4 beta-1 (4.3.90.1) er nu tilgængelig til hentning. Xfce 4.4 indeholder nye værktøjer '.
                      'så som den længe ventede Thunar-filhåndtering, såvel som mange store forbedringer af dets'.
@@ -386,44 +335,29 @@ $news_translated = array (
 		     'Xfce-udgivelse nogensinde, hent den, '.
                      'prøv den, hjælp os med at fejlrette den! Få den på denne side.',
     ),
-    array (
-        'id'      => 5,
-        'date'    => '15. nov 2005',
-        'author'  => 'Olivier Fourdan',
+   5 => array (
         'title'   => 'Xfce 4.2.3.2 er udgivet',
         'content' => 'En mikroudgivelse for at rette et tilbagefald i indstillingerne til vindueshåndteringen, få den fra et af'.
                      'hentningstederne på denne side, ændringsloggen til 4.2.3 forbliver her.',
     ),
-    array (
-        'id'      => 4,
-        'date'    => '08. nov 2005',
-        'author'  => 'Olivier Fourdan',
+   4 => array (
         'title'   => 'Xfce 4.2.3.1 er udgivet',
         'content' => 'En ny fejlrettelsesudgave til Xfce er endelig tilgængelig, efter næsten 6 måneder! Xfce 4.2.3.1 '.
                      'er tilgængelig til hentning fra de sædvanlige steder, vist på denne side, og en ændringslog er  '.
                      'tilgængelig her.',
     ),
-    array (
-        'id'      => 3,
-        'date'    => '17. maj 2005',
-        'author'  => 'Olivier Fourdan',
+   3 => array (
         'title'   => 'Xfce 4.2.2 er udgivet',
         'content' => 'Xfce 4.2.2 er tilgængelig. Hentning kan findes på denne side, og en ændringslog '.
                      'er tilgængelig her.',
     ),
-    array (
-        'id'      => 2,
-        'date'    => '17. mar 2005',
-        'author'  => 'Olivier Fourdan',
+   2 => array (
         'title'   => 'Xfce 4.2.1.1 er udgivet',
         'content' => 'Xfce 4.2.1.1 er udgiver hurtigt efter 4.2.1. Den inkluderer en rettelelse til en fejl '.
                      'hvor et panel glemmer dens indstilling efter at sessionen er gemt i 4.2.1. Sourceforge-serveren '.
                      'er opdateret, og de andre vil følge trop snarest.',
     ),
-    array (
-        'id'      => 1,
-        'date'    => '16. mar 2005',
-        'author'  => 'Olivier Fourdan',
+   1 => array (
         'title'   => 'Xfce 4.2.1 er udgivet',
         'content' => 'Xfce 4.2.1 er tilgængelig. Dette er en fejlrettelsesudgivelse. Hentning kan findes på denne side, og en ændringslog '.
                      'er tilgængelig her.',
