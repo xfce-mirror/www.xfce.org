@@ -44,7 +44,6 @@ $news_translated = array (
     ),
 
     21 => array (
-
         'title'   => "La version finale de Xfce 4.6 est sortie",
         'content' => "Après plus de deux ans de développement, Xfce 4.6.0 vient de sortir.".
                      "[br][br]".
