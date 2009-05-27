@@ -20,6 +20,7 @@ en diversos miralls (en un sol paquet <em>o</em> en paquets separats).
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Instal·ladors gràfics</h2>
 
 <p>
@@ -29,6 +30,7 @@ aquest tipus d'instal·ladors <a href="/documentation/installers/xfce/index.html
 </p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Binaris</h2>
 

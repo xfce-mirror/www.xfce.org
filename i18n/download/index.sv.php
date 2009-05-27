@@ -20,6 +20,7 @@ och från flera spegelservrar (i ett enda tararkiv <em>eller</em> separata tarar
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Grafiska installerare</h2>
 
 <p>
@@ -29,6 +30,7 @@ för Xfce och vissa utökningar. Läs mer om installeraren
 </p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Binärfiler</h2>
 

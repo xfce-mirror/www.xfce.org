@@ -19,6 +19,7 @@ y en varios mirrors (como un único <em>o</em> varios archivos comprimidos):
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Instaladores gráficos</h2>
 
 <p>
@@ -28,6 +29,7 @@ de instalación de Xfce y de algunas extensiones. Lea más sobre el instalador
 </p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Binarios</h2>
 

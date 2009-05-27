@@ -12,12 +12,12 @@ begirada bota diezaiekezu <a href="/download/distros">hemen</a>.</p>
 bitartez (pakete bakar batetan <em>edo</em> ezberdinetan:</p>
 <?php printServers("", $servers); ?>
 
-
+<!--
 <h2 id="installer">Instalatzaile grafikoak</h2>
 <p> Xfce-Instalatzailea Xfce eta zenbait hedapen instalatzeko prozesua asko errazten duten pakete bilduma da. 
 Instalatzaileaz gehiago irakurri nahi izanez gero <a href="/documentation/installers/xfce/index.html">hemen</a> egin dezakezu.</p>
 <?php printServers("installers", $servers); ?>
-
+-->
 
 <h2 id="binaries">Bitarrak</h2>
 <table cellspacing="5">

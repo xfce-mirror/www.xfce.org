@@ -11,10 +11,12 @@
 <p>Tërë modulet Xfce janë të passhëm prej depozitës sonë në SourceForge, brenda një arkive të vetme të ngjeshur, dhe prej disa pasqyrash (në një arkivë të vetme <em>ose</em> si arkiva të ndara veçmas):</p>
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Instaluesa grafikë</h2>
 <p> Xfce-Installers është një grumbull paketash që thjeshtësojnë dukshëm procesin e instalimit të Xfce-së
  dhe të disa zgjerimeve. Lexoni më tepër rreth instaluesit <a href="/documentation/installers/xfce/index.html">këtu</a>. </p>
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Dyorë</h2>
 <table cellspacing="5">

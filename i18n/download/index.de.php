@@ -15,6 +15,8 @@
   <!-- <li><a href="http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/">http://public.fh-wolfenbuettel.de/~luedickj/xfce4/xfce-<?php echo $version; ?>/</a></li> -->
   <li><a href="http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-<?php echo $version; ?>/">Hannelore</a></li>
 </ul>
+
+<!--
 <h2 id="installer">Graphische Installationsassistenten</h2>
 <p>Die Xfce-Installationsassistenten sind eine Sammlung von Paketen, die den Installationsprozess von Xfce und einigen Xfce-Erweiterungen spürbar erleichtern. <a href="http://www.os-cillation.com/index.php?id=31&amp;L=5">Hier</a> erfahren Sie mehr über den Xfce-Installationsassistenten.</p>
 <ul>
@@ -30,6 +32,7 @@
   <li><a href="http://www.os-cillation.com/index.php?id=33&amp;L=5">Xfce-Goodies-Installationsassistent</a></li>
   <li><a href="http://www.os-cillation.com/index.php?id=34&amp;L=5">Terminal-Installationsassistent</a></li>
 </ul>
+-->
 <h2 id="binaries">Binärdateien</h2>
 <table cellspacing="5">
   <tr>

@@ -9,11 +9,11 @@
 <p>Alle Xfce modules zijn beschikbaar in losse archieven van de SourceForge servers of op 1 van de Xfce servers:</p>
 <?php printServers("", $servers); ?>
 
-
+<!--
 <h2 id="installer">Installatiepakketten</h2>
 <p>De Xfce installatiepekketten zijn een grafische installatie methode die het installeren van Xfce, en andere extensies, aanzienlijk moeten versimpelen. Je kan <a href="/documentation/installers/xfce/index.html">hier</a> meer lezen over deze installer.</p>
 <?php printServers("installers", $servers); ?>
-
+-->
 
 <h2 id="binaries">Binaries</h2>
 <table cellspacing="5">

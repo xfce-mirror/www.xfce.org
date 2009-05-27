@@ -9,11 +9,11 @@
 <p>Tous les modules Xfce sont disponibles dans un fichier archive depuis notre dépôt SourceForge et différents autres mirroirs (dans une unique archive <em>ou</em> dans plusieurs fichiers séparés) :</p>
 <?php printServers("", $servers); ?>
 
-
+<!--
 <h2 id="installer">Installeur graphique</h2>
 <p> Xfce-Installers est une collection de paquets mis ensemble pour simplifier grandement l'installation de Xfce et certaines extensions. Apprenez-en plus à propos de l'installateur <a href="/documentation/installers/xfce/index.html">ici</a>. </p>
 <?php printServers("installers", $servers); ?>
-
+-->
 
 <h2 id="binaries">Paquets</h2>
 <table cellspacing="5">

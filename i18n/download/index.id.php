@@ -9,11 +9,11 @@
 <p>Semua modul Xfce tersedia dalam tarball tunggal dari gudang SourceForge kami, serta dari beberapa cermin (dalam tarball tunggal <em>atau</em> beberapa tarball):</p>
 <?php printServers("", $servers); ?>
 
-
+<!--
 <h2 id="installer">Penginstal grafik</h2>
 <p> Xfce-Installers adalah kumpulan paket yang akan menyederhanakan proses instalasi Xfce dan beberapa ekstensi. Baca lebih lanjut tentang penginstal di <a href="/documentation/installers/xfce/index.html">sini</a>. </p>
 <?php printServers("installers", $servers); ?>
-
+-->
 
 <h2 id="binaries">Biner</h2>
 <table cellspacing="5">

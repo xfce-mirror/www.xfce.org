@@ -9,11 +9,11 @@
 <p>所有 Xfce 模块都可以从我们的 SourceForge 仓库和一些镜像站点中以单个源代码压缩包的形式得到，(在单独一个源代码压缩包<em>或者</em>分开的源代码压缩包中)：</p>
 <?php printServers("", $servers); ?>
 
-
+<!--
 <h2 id="installer">图形安装程序</h2>
 <p>Xfce-Installers 是软件包的一个总集，它能明显地使 Xfce 和一些扩展的安装进程简单化的。<a href="/documentation/installers/xfce/index.html">在此</a>阅读更多关于安装工具的信息。</p>
 <?php printServers("installers", $servers); ?>
-
+-->
 
 <h2 id="binaries">二进制包</h2>
 <table cellspacing="5">

@@ -20,6 +20,7 @@ og fra adskillige spejle (i et enkelt tar-arkiv <em>eller</em> separate  tar-ark
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Grafiske installatører</h2>
 
 <p>
@@ -29,6 +30,7 @@ af Xfce og nogle udvidelser betydelig nemmere. Læs mere om installatørerne
 </p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Binære</h2>
 

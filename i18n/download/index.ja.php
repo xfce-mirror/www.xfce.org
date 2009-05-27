@@ -18,6 +18,7 @@
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">グラフィカルインストーラ</h2>
 
 <p>
@@ -25,6 +26,7 @@ Xfce-Installer は、Xfce といくつかのエクステンションをインス
 インストーラについての詳細は<a href="/documentation/installers/xfce/index.html">ここ</a>を読んでください。</p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">バイナリ</h2>
 <table cellspacing="5">
