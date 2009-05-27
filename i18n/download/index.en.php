@@ -20,6 +20,7 @@ and from several mirrors (in one single tarball <em>or</em> separate  tarballs):
 
 <?php printServers("", $servers); ?>
 
+<!--
 <h2 id="installer">Graphical installers</h2>
 
 <p>
@@ -29,6 +30,7 @@ process of Xfce and some extensions. Read more about the installer
 </p>
 
 <?php printServers("installers", $servers); ?>
+-->
 
 <h2 id="binaries">Binaries</h2>
 
