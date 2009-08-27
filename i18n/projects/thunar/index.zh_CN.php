@@ -8,7 +8,7 @@
 <p><a class="external" href="http://thunar.xfce.org/">主页</a><br />
    <a class="external" href="http://thunar.xfce.org/pwiki/">维基</a> (包含一些很有用的小贴士)</p>
 
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>

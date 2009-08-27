@@ -24,7 +24,7 @@
 
 <h2>Endereços Externos</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>

@@ -14,7 +14,7 @@ Actualmente em <b>sério</b> desenvolvimento.
 
 <h2>Ligações externas</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/goodies/xfburn/trunk">ViewVC</a><br />

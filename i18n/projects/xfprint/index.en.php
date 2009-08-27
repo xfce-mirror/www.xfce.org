@@ -10,7 +10,7 @@ but only use printing systems that have already been configured properly.
 
 <h2>External Links</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfprint/trunk">ViewVC</a><br />

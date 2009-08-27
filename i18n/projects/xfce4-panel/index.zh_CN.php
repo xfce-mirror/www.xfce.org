@@ -43,7 +43,7 @@
 
 <h2>外部链接</h2>
 <p>Goodies 项目上的<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">面板插件</a></p>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>

@@ -20,7 +20,7 @@ compatível com os numerosos plugins de painel disponíveis no projecto
 <a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Plugins para o painel</a>
 na página Goodies Project.</p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-panel/trunk">ViewVC</a><br />

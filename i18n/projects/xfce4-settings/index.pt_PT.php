@@ -13,7 +13,7 @@ sessões...
 
 <h2>Ligações externas</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-settings/trunk">ViewVC</a><br />

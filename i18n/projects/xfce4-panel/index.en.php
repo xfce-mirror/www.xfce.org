@@ -21,7 +21,7 @@ compatible with the numerous panel plugins available from the
 <a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Panel plugins</a>
 from the Goodies Project page.</p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-panel/trunk">ViewVC</a><br />

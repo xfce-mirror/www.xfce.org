@@ -21,7 +21,7 @@ projektet <a href="http://goodies.xfce.org/">Xfce Goodies</a>
 <a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Paneludvidelser</a>
 fra projektsiden om Goodies.</p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-panel/trunk">ViewVC</a><br />

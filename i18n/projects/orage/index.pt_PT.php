@@ -12,7 +12,7 @@ alertas baseados em datas. Dá aviso com popup ou alarme áudio. Como é uma apl
 
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Homepage</a></p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfcalendar/trunk">ViewVC</a><br />

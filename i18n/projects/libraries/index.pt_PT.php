@@ -20,29 +20,26 @@ Libxfce4menu oferece uma implementação da especificação de menu da Freedeskt
 <h3>libxfce4util</h3>
 
 <p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/libxfce4util/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/libxfce4util/">SVN</a>
+<a class="external" href="http://git.xfce.org/xfce/libxfce4util/">CGit</a>
 </p>
 
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfce4util/trunk libxfce4util</code></p>
+<p><code class="code">git clone http://git.xfce.org/git/xfce/libxfce4util</code></p>
 
 <h3>libxfcegui4</h3>
 
 <p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/libxfcegui4/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/libxfcegui4/">SVN</a>
+<a class="external" href="http://git.xfce.org/xfce/libxfcegui4/">CGit</a>
 </p>
 
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfcegui4/trunk libxfcegui4</code></p>
+<p><code class="code">git clone http://git.xfce.org/git/xfce/libxfcegui4</code></p>
 
 <h3>libxfce4menu</h3>
 
 <p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/libxfce4menu/">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/libxfce4menu/">SVN</a>
+<a class="external" href="http://git.xfce.org/xfce/libxfce4menu/">CGit</a>
 </p>
 
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/libxfce4menu/trunk libxfce4menu</code></p>
+<p><code class="code">git clone http://git.xfce.org/git/xfce/libxfce4menu</code></p>
 
 <h2>Autores</h2>
 <ul>

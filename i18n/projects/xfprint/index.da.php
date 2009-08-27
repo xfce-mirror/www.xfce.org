@@ -10,7 +10,7 @@ printere, men bruger kun printersystemer der allerede er korrekt konfigureret.
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfprint/trunk">ViewVC</a><br />

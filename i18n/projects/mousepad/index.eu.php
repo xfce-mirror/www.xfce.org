@@ -8,7 +8,7 @@ Leafpad-rekin arrazoi ezberdinak medio.
 </p>
 
 <h2>Kanpo Loturak</h2>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/mousepad/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/mousepad/trunk mousepad</code></p>

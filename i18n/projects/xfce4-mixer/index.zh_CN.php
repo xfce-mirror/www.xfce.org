@@ -18,7 +18,7 @@
 
 <h2>外部链接</h2>
 <p>此程序作为 Xfce 桌面环境的一部分提供。</p>
-<h3>Git sources</h3>
+
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>

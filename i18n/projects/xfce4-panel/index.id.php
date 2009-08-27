@@ -49,7 +49,7 @@
 <h2>Taut Eksternal</h2>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Plugin panel</a> dari
   halaman Proyek Goodies</p>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>

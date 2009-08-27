@@ -23,7 +23,7 @@
 </ul>
 
 <h2>外部链接</h2>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfdesktop/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfdesktop/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfdesktop/trunk xfdesktop</code></p>

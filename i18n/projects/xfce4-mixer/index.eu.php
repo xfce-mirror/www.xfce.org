@@ -19,7 +19,7 @@ bolumen kontrol plugin-a bai bereiziriko soinu nahasle bat dakartza.</p>
 
 <h2>Kanpo Loturak</h2>
 <p>Aplikazio hau Xfce Idazmahai Ingurunearen osagai bat bezala banatzen da.</p>
-<h3>Git sources</h3>
+
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>

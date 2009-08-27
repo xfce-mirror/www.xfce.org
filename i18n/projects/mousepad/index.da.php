@@ -12,7 +12,7 @@ svært under Leafpad, af forskellige årsager.
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Git sources</h3>
+
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/mousepad/trunk">ViewVC</a><br />
 <a class="external" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a>

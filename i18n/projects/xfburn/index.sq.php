@@ -5,7 +5,7 @@
 CD-RW, të kopjojë CD, të shkruajë dhe krijojë pamje iso, dhe të shkruajë hartim të dhënash vetjake.</p>
 
 <h2>Lidhje të Jashtme</h2>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce-goodies/browse/xfburn/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/goodies/xfburn/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/goodies/xfburn/trungu për xfburn</code></p>

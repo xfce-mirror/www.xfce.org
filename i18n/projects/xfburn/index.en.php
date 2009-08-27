@@ -14,7 +14,7 @@ compositions of data to either CD or DVD. It is currently under <b>heavy</b> dev
 
 <h2>External Links</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/goodies/xfburn/trunk">ViewVC</a><br />

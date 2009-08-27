@@ -16,7 +16,7 @@ vinduesmanipulationer, og tilbyder en dialog for avancerede tilpasninger.
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Git sources</h3> 
+ 
 
 <p>
 <a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>

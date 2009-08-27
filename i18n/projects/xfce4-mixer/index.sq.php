@@ -20,7 +20,7 @@
 
 <h2>Lidhje të Jashtme</h2>
 <p>Ky zbatim qarkullon si pjesë e Mjedisit Desktop Xfce.</p>
-<h3>Git sources</h3>
+
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>

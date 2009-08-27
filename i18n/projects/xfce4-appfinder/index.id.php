@@ -4,7 +4,7 @@
 <p>Ini merupakan pencari aplikasi untuk lingkungan Xfce. Pencari aplikasi adalah peranti lunak yang sangat berguna yang mengizinkan anda untuk mencari setiap aplikasi di sistem yang mendukung format entri ".Desktop". Anda dapat mencari peranti lunak yang "hilang" dengannya, dan menambahkannya ke menu, serta tentu saja anda dapat menjalankan peranti lunak terpilih dari sana.</p>
 
 <h2>Taut Eksternal</h2>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-appfinder/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-appfinder/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code></p>

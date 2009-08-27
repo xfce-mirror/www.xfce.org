@@ -12,7 +12,7 @@ Orage は、Xfce デスクトップ環境とよく統合されたカレンダを
 
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Homepage</a></p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfcalendar/trunk">ViewVC</a><br />

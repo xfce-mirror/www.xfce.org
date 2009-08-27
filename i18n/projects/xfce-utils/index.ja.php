@@ -16,7 +16,7 @@
 
 <h2>外部リンク</h2>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce-utils/trunk">ViewVC</a><br />

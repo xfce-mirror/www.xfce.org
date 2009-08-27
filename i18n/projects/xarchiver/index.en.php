@@ -11,7 +11,7 @@ more. It helps you to quickly decompress an archive, or to prepare and create ne
 
 <p><a class="external" href="http://xarchiver.xfce.org/">Homepage</a></p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xarchiver/trunk">ViewVC</a><br />

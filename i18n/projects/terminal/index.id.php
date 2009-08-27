@@ -7,7 +7,7 @@
 
 <h2>Taut Eksternal</h2>
 <p><a class="external" href="http://www.os-cillation.com/index.php?id=42&amp;L=5">Laman</a></p>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/terminal/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/terminal/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/terminal/trunk terminal</code></p>

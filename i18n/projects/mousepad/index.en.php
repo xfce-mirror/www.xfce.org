@@ -12,7 +12,7 @@ difficult for Leafpad for various reasons.
 
 <h2>External Links</h2>
 
-<h3>Git sources</h3>
+
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/mousepad/trunk">ViewVC</a><br />
 <a class="external" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a>

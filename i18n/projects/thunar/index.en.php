@@ -23,7 +23,7 @@ instead, it will just work if your system complies with the FreeDesktop.org stan
 <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contains useful tips)
 </p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/thunar/trunk">ViewVC</a><br />

@@ -16,7 +16,7 @@
 </ul>
 
 <h2>Taut Eksternal</h2>
-<h3>Git sources</h3>
+
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-session/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-session/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-session/trunk xfce4-session</code></p>

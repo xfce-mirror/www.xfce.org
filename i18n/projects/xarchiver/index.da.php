@@ -11,7 +11,7 @@ flere. Den hjælper dig hurtigt med at udpakke et arkiv eller forberede og opret
 
 <p><a class="external" href="http://xarchiver.xfce.org/">Hjemmeside</a></p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xarchiver/trunk">ViewVC</a><br />

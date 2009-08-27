@@ -19,7 +19,7 @@
 
 <h2>Taut Eksternal</h2>
 <p>Aplikasi ini merupakan bagian dari Lingkungan Destop Xfce.</p>
-<h3>Git sources</h3>
+
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>

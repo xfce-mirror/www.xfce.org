@@ -12,7 +12,7 @@ Terminal er en moderne og letvægtig terminalemulator til skrivebordsmiljøet Xf
 
 <p><a class="external" href="http://www.os-cillation.com/index.php?id=42&amp;L=5">Hjemmeside</a></p>
 
-<h3>Git sources</h3>
+
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/terminal/trunk">ViewVC</a><br />
