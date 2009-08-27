@@ -14,7 +14,7 @@ CD-RW の初期化、ISO イメージの作成と焼き込み、個人用デー�
 
 <h2>外部リンク</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/goodies/xfburn/trunk">ViewVC</a><br />

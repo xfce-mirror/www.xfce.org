@@ -12,7 +12,7 @@ saturation support for background image, real multiscreen and xinerama support.
 
 <h2>External Links</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfdesktop/trunk">ViewVC</a><br />

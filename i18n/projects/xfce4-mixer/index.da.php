@@ -15,7 +15,7 @@ Den understøtter alle de lydsystemer, der er understøttet af projektet <a href
 
 <h2>Eksterne Henvisninger</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewVC</a><br />

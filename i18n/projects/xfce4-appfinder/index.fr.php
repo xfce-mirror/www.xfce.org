@@ -4,7 +4,7 @@
 <p>Le chercheur d'applications Appfinder pour l'environnement de bureau Xfce est un logiciel permettant de chercher à travers tout le système pour les applications installées supportant le format ".Desktop". Vous pouvez trouver les applications "perdues" et les ajouter au menu ou les démarrer directement depuis la liste générée.</p>
 
 <h2>Liens externes</h2>
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-appfinder/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-appfinder/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code></p>

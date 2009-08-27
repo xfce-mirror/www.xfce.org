@@ -4,7 +4,7 @@
 <p>Mousepad est un éditeur de texte simple basé sur Leafpad. La raison d'un econvergence de Leafpad est le support d'impression qui aurait été difficile avec Leafpad, pour plusieurs raisons.</p>
 
 <h2>Liens externes</h2>
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/mousepad/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/mousepad/trunk mousepad</code></p>

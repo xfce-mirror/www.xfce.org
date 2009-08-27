@@ -15,7 +15,7 @@ Xfce パネルプラグインと単体のミキサーアプリケーションを
 
 <h2>外部リンク</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewVC</a><br />

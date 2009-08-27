@@ -13,7 +13,7 @@
 <p><a class="external" href="http://thunar.xfce.org/">Laman</a><br />
   <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (berisi tips berguna)</p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>

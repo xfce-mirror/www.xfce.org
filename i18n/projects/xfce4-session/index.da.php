@@ -10,7 +10,7 @@ også nem måde at logge ud, genstarte, sætte din computer dvale eller i hvilet
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-session/trunk">ViewVC</a><br />

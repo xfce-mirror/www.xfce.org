@@ -12,7 +12,7 @@ indlæser den sig selv i baggrunden som en tjeneste og kan tilgås ved at tilfø
 
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Hjemmeside</a></p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfcalendar/trunk">ViewVC</a><br />

@@ -12,7 +12,7 @@ fungere som erstatning for xfrun4.
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-appfinder/trunk">ViewVC</a><br />

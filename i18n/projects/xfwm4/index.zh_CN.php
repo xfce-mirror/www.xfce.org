@@ -16,10 +16,14 @@
 </ul>
 
 <h2>外部链接</h2>
-<h3>Subversion</h3>
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfwm4/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfwm4/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfwm4/trunk xfwm4</code></p>
+
+<h3>Git sources</h3>
+
+<p>
+<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
+</p>
+
+<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
 
 <h2>作者</h2>
 <ul>

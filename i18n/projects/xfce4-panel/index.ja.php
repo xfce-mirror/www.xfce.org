@@ -17,7 +17,7 @@ Xfce パネルは複数パネルをサポートし、これらの位置、外観
 Goodies プロジェクトの<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">パネルプラグイン</a>のページ
 </p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-panel/trunk">ViewVC</a><br />

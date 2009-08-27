@@ -16,14 +16,13 @@ de janelas básica, oferece um diálogo para ajustes avançados.
 
 <h2>Ligações externas</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfwm4/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/xfwm4/">SVN</a>
+<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
 </p>
 
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfwm4/trunk xfwm4</code></p>
+<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
 
 <h2>Autor</h2>
 <ul>

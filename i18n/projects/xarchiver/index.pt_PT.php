@@ -11,7 +11,7 @@ Ajuda a descomprimir rapidamente um arquivo, ou preparar e criar novos arquivos.
 
 <p><a class="external" href="http://xarchiver.xfce.org/">Homepage</a></p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xarchiver/trunk">ViewVC</a><br />

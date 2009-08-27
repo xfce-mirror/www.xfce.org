@@ -14,7 +14,7 @@ dataprojekter til enten en cd eller dvd. Det er i øjeblikket under <b>kraftig</
 
 <h2>Eksterne henvisninger</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/goodies/xfburn/trunk">ViewVC</a><br />

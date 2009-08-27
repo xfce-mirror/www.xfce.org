@@ -15,7 +15,7 @@ Suporta todos os sistemas áudio suportados pelo projecto <a href="http://www.gs
 
 <h2>Ligações externas</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
   <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-mixer/trunk">ViewVC</a><br />

@@ -13,7 +13,7 @@ para o ambiente Xfce. Oferece total personalização para atalhos de teclado, as
 
 <p><a class="external" href="http://www.os-cillation.com/index.php?id=42&amp;L=5">Homepage</a></p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/terminal/trunk">ViewVC</a><br />

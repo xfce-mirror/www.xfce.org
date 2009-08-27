@@ -10,7 +10,7 @@ to log out, reboot, shutdown, hibernate or suspend your computer.
 
 <h2>External Links</h2>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-session/trunk">ViewVC</a><br />

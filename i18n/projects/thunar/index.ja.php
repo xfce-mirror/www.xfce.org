@@ -23,7 +23,7 @@ Thunar は FreeDesktop.org 標準に準拠し実装されています。これ�
 <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (役に立つ Tips があります)
 </p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/thunar/trunk">ViewVC</a><br />

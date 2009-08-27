@@ -40,7 +40,7 @@
 
 <h2>Liens externes</h2>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Greffons de panneau</a> de la page des projets des Goodies</p>
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 <p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
   <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
 <p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>

@@ -12,7 +12,7 @@ it launches itself in the background as a daemon and can be accessed using the O
 
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Homepage</a></p>
 
-<h3>Subversion</h3>
+<h3>Git sources</h3>
 
 <p>
 <a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfcalendar/trunk">ViewVC</a><br />
