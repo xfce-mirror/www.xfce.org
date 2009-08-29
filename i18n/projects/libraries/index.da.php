@@ -17,7 +17,7 @@ til indstillingshåndteringen. Libxfce4menu tilbyder en implementering af Freede
 
 <h2>Eksterne henvisninger</h2>
 
-<?php include("git.adress.php"); ?>
+<?php include("git.address.php"); ?>
 
 <h2>Forfattere</h2>
 <ul>
