@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
 
-<h1>Vindueshåndteringen</h1>
+<h2>Vindueshåndteringen</h2>
 
 <p class="center"><img src="/images/projects/screenshots/xfwm4.png" alt="Vindueshåndteringen" /></p>
 
@@ -14,18 +14,10 @@ en tastaturgenvejsredigering for brugertilpassede kommandoer og basale
 vinduesmanipulationer, og tilbyder en dialog for avancerede tilpasninger.
 </p>
 
-<h2>Eksterne henvisninger</h2>
+<h3>Eksterne henvisninger</h3>
 
- 
+<?php include("git.address.php"); ?>
 
-<p>
-<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
-</p>
+<h3>Forfatter</h3>
 
-<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
-
-<h2>Forfatter</h2>
-<ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-</ul>
-
+<?php include("authors.php"); ?>

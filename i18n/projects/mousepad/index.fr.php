@@ -1,16 +1,13 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/mousepad.png" alt="mousepad" width="48" height="48" /></div>
 
-<h1>Mousepad</h1>
+<h2>Mousepad</h2>
 <p>Mousepad est un éditeur de texte simple basé sur Leafpad. La raison d'un econvergence de Leafpad est le support d'impression qui aurait été difficile avec Leafpad, pour plusieurs raisons.</p>
 
-<h2>Liens externes</h2>
+<h3>Liens externes</h3>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/mousepad/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/mousepad/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/mousepad/trunk mousepad</code></p>
+<?php include("git.address.php"); ?>
 
-<h1>Auteur</h1>
-<ul>
-  <li>Erik Harrison [erikharrison at gmail.com]</li>
-</ul>
+<h3>Auteur</h3>
+
+<?php include("authors.php"); ?>
 

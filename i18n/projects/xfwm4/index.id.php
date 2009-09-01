@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
 
-<h1>Manajer Jendela</h1>
+<h2>Manajer Jendela</h2>
 <p>Manajer jendela Xfce 4 mengatur penempatan jendela aplikasi di layar,
   menyediakan dekorasi jendela yang cantik, mengatur ruang kerja 
   atau destop virtual, dan mendukung mode multi layar secara asli.
@@ -10,7 +10,7 @@
   dan manipulasi jendela dasar, serta menyediakan pula dialog untuk
   tweak tingkat mahir.</p>
 
-<h2>Fitur</h2>
+<h3>Fitur</h3>
 <ul>
   <li>Dukungan Multihead asli untuk Xinerama dan Twinview.</li>
   <li>Banyak dukungan gambar untuk dekorasi jendela (xpm, png, svg, bmp, jpg, 
@@ -23,18 +23,10 @@
   <li>Gulung tetikus melewati destop untuk berpindah ruang kerja.</li>
 </ul>
 
-<h2>Taut Eksternal</h2>
+<h3>Taut Eksternal</h3>
 
+<?php include("git.address.php"); ?>
 
+<h3>Penulis</h3>
 
-<p>
-<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
-</p>
-
-<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
-
-<h2>Penulis</h2>
-<ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-</ul>
-
+<?php include("authors.php"); ?>

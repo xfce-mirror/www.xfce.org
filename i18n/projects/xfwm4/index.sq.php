@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
 
-<h1>Përgjegjës Dritaresh</h1>
+<h2>Përgjegjës Dritaresh</h2>
 <p>Përgjegjësi Xfce 4 i dritareve administron vendosjen e dritareve të zbatimeve
   në ekran, bën të mundur zbukurimet e hijshme të dritareve, administron hapësira pune
   apo desktopë virtualë, dhe mbulon së brendshmi mënyrën ¨shumë ekrane¨. Bie
@@ -9,7 +9,7 @@
   urdhrash specifikë të një përdoruesi dhe përdorim fillestar të dritareve,
   si dhe ofron edhe një dialog për rregullime të mëtejshme.</p>
 
-<h2>Karakteristika</h2>
+<h3>Karakteristika</h3>
 <ul>
   <li>Asistencë të vetën Multihead për Xinerama dhe Twinview.</li>
   <li>Mbulim për shumë lloje pamjesh për zbukurime dritareje (xpm, png, svg, bmp, jpg, 
@@ -22,18 +22,10 @@
   <li>Kapërcim me miun, nëpër desktop, për ndryshimin e hapësirës së punës.</li>
 </ul>
 
-<h2>Lidhje të Jashtme</h2>
+<h3>Lidhje të Jashtme</h3>
 
+<?php include("git.address.php"); ?>
 
+<h3>Autor</h3>
 
-<p>
-<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
-</p>
-
-<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
-
-<h2>Autor</h2>
-<ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-</ul>
-
+<?php include("authors.php"); ?>

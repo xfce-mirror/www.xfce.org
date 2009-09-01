@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
 
-<h1>Window Manager</h1>
+<h2>Window Manager</h2>
 
 <p class="center"><img src="/images/projects/screenshots/xfwm4.png" alt="Window Manager" /></p>
 
@@ -14,18 +14,10 @@
   windows manipulations and provides a preferences dialog for advanced tweaks.
 </p>
 
-<h2>External Links</h2>
+<h3>External Links</h3>
 
+<?php include("git.address.php"); ?>
 
+<h3>Author</h3>
 
-<p>
-<a class="external" href="http://git.xfce.org/xfce/xfwm4/">CGit</a>
-</p>
-
-<p><code class="code">git clone http://git.xfce.org/git/xfce/xfwm4</code></p>
-
-<h2>Author</h2>
-<ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-</ul>
-
+<?php include("authors.php"); ?>
