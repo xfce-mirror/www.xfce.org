@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" /></div>
 
-<h1>Gestor de Desktop</h1>
+<h2>Gestor de Desktop</h2>
 
 <p class="center"><img src="/images/projects/screenshots/xfdesktop.png" alt="Desktop Manager" /></p>
 
@@ -10,19 +10,11 @@ mostrar ficheiros (incluindo lançadores de aplicações) ou colocar janelas com
 cor de fundo, suporte a saturação para a imagem de fundo, múltiplos ecrãs e suporte xinerama.
 </p>
 
-<h2>Ligações externas</h2>
+<h3>Ligações externas</h3>
 
+<?php include("git.address.php"); ?>
 
+<h3>Autor</h3>
 
-<p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfdesktop/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/xfdesktop/">SVN</a>
-</p>
-
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfdesktop/trunk xfdesktop</code></p>
-
-<h2>Autor</h2>
-<ul>
-  <li>Brian J. Tarricone [kelnos at xfce.org]</li>
-</ul>
+<?php include("authors.php"); ?>
 
