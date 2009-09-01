@@ -1,9 +1,9 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-settings.png" alt="xfce-mcs-manager" width="48" height="48" /></div>
 
-<h1>设置管理器</h1>
+<h2>设置管理器</h2>
 <p>设置管理器提供一个 MCS (Multi-Channel Settings|多频道设置)、模块化的、不依赖于宿主机的、网络透明的集中设置系统。它在后台运行，为其他 Xfce 组件提供全局设置信息。它通过一个主设置面板来访问所有的组件设置对话框。其中的 MCS 插件为其他不是软件包组成部分的常用项目提供了设置对话框，例如 GTK、鼠标、字体、键盘和显示设置。</p>
 
-<h2>特性</h2>
+<h3>特性</h3>
 <ul>
   <li><strong>硬件组件</strong>:
     显示、
@@ -25,16 +25,11 @@
   </li>
 </ul>
 
-<h2>外部链接</h2>
+<h3>外部链接</h3>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce-mcs-manager/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce-mcs-manager/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce-mcs-manager/trunk xfce-mcs-manager</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>作者</h2>
-<ul>
-  <li>Olivier Fourdan [fourdan at xfce.org]</li>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-  <li>Benedikt Meurer [benny at xfce.org]</li>
-</ul>
+<h3>作者</h3>
+
+<?php include("authors.php"); ?>
 
