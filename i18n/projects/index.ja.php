@@ -184,7 +184,7 @@ Xfce プロジェクトには、デスクトップの各部を担当するいく
 			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
+			<h3><a href="/projects/exo/">Exo</a></h3>
 			<p>Xfce のコアライブラリはデスクトップの開発に焦点を置いています。
 			一方、exo はアプリケーションの開発に重点を置いています。</p>
 		</td>

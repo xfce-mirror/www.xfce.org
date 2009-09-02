@@ -228,7 +228,7 @@ addicional.
 			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
+			<h3><a href="/projects/exo/">Exo</a></h3>
 			<p>
 			Mentre que les les biblioteques dels components centrals de Xfce estan enfocades
 			al desenvolupament de l'escriptori, la biblioteca exo està dirigida al

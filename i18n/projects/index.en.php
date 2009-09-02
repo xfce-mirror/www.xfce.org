@@ -195,7 +195,7 @@ Every project has it's own project page to provide additionnal information.
 			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
+			<h3><a href="/projects/exo/">Exo</a></h3>
 			<p>The core Xfce libraries are targeted at desktop development, exo is targeted at application developement.</p>
 		</td>
 		<td width="48" valign="top">
