@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" /></div>
 
-<h1>Kendali Volume</h1>
+<h2>Kendali Volume</h2>
 <p>Ini adalah xfce4-mixer, sebuah aplikasi pengendali volume untuk Lingkungan Destop Xfce. Paket peranti lunak ini 
   berisi plugin kendali volume untuk Panel Xfce serta aplikasi mixer yang berdiri sendiri.</p>
 
@@ -17,17 +17,11 @@
     Didukung oleh sistem Linux yang lebih baru (2.4 dan versi di atasnya).</li>
 </ul>
 
-<h2>Taut Eksternal</h2>
-<p>Aplikasi ini merupakan bagian dari Lingkungan Destop Xfce.</p>
+<h3>Taut Eksternal</h3>
 
-<p>
-  <a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-mixer/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-mixer/">SVN</a>
-</p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-mixer/trunk/ xfce4-mixer</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Penulis</h2>
-<ul>
-  <li>Danny Milosavljevic [dannym at xfce.org]</li>
-</ul>
+<h3>Penulis</h3>
+
+<?php include("authors.php"); ?>
 

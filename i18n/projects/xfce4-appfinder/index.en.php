@@ -2,7 +2,7 @@
   <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 </div>
 
-<h1>Application Finder</h1>
+<h2>Application Finder</h2>
 
 <p class="center">
   <img src="/images/projects/screenshots/xfce4-appfinder.png" alt="Application Finder" />
@@ -14,22 +14,11 @@
   keyboard navigation and can be used as a replacement for xfrun4.
 </p>
 
-<h2>External Links</h2>
+<h3>External Links</h3>
 
+<?php include("git.address.php"); ?>
 
+<h3>Authors</h3>
 
-<p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/xfce4-appfinder/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-appfinder/">SVN</a>
-</p>
-
-<p>
-  <code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-appfinder/trunk xfce4-appfinder</code>
-</p>
-
-<h1>Authors</h1>
-<ul>
-  <li>Jannis Pohlmann [jannis at xfce.org]</li>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<?php include("authors.php"); ?>
 

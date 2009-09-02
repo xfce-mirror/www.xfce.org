@@ -1,12 +1,12 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>面板</h1>
+<h2>面板</h2>
 <p>Xfce 4 面板程序支持多面板，可设置各面板的位置、外观、透明以及行为。
   默认有许多项目用于填充面板，像程序启动器、工作区切换器、任务条、时钟以及系统托盘等等。
   通过对话框，您可以方便地向面板添加项目以及在各面板间移动项目。
   您可以从 <a href="http://goodies.xfce.org/">Xfce Goodies 项目</a>获取更多的面板插件，它们与面板能够很好地相处。</p>
 
-<h2>特性</h2>
+<h3>特性</h3>
 <ul>
   <li><strong>多面板</strong>、多屏幕支持。</li>
 </ul>
@@ -41,15 +41,12 @@
     或 CPU 频率监视器等等。</li>
 </ul>
 
-<h2>外部链接</h2>
+<h3>外部链接</h3>
 <p>Goodies 项目上的<a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">面板插件</a></p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>作者</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<h3>作者</h3>
+
+<?php include("authors.php"); ?>
 

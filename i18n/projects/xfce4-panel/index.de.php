@@ -1,9 +1,9 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>Xfce4-Leiste</h1>
+<h2>Xfce4-Leiste</h2>
 <p>Die Xfce4-Leiste bietet die Möglichkeit eine oder mehrere Leisten auf dem Bildschirm darzustellen, die mit verschiedenen standardmäßig verfügbaren Objekten bestückt werden können, wie etwa Programmstarter mit ausklappbaren Menüs, Arbeitsflächenwechsler, eine Fensterliste, eine Uhr, eine Systemleiste, ein 'Arbeitsfläche anzeigen'-Knopf und vieles mehr. Dabei kann die Leiste beliebig in Position, Erscheinungsbild, Transparenz und Verhalten verändert werden. Über einen Dialog können Objekte problemlos hinzugefügt oder auf andere Leisten verschoben werden. Die Leiste ist mit vielen Plugins aus dem <a href="http://goodies.xfce.org/">Xfce-Goodies-Projekt</a> kompatibel.</p>
 
-<h2>Merkmale</h2>
+<h3>Merkmale</h3>
 <ul>
   <li><strong>Verwendung mehrerer Leisten</strong> mit Unterstützung mehrerer Bildschirme</li>
 </ul>
@@ -30,15 +30,12 @@
     und weitere, vor allem für Notebooks nützliche Plugins, wie etwa Ladestatus der Batterie, WLAN-Status, Kontrollmonitor für die CPU-Frequenz...</li>
 </ul>
 
-<h2>Externe Links</h2>
+<h3>Externe Links</h3>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Plugins</a> aus dem Xfce-Goodies-Projekt</p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Autor</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<h3>Autor</h3>
+
+<?php include("authors.php"); ?>
 

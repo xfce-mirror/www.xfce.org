@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>Panel</h1>
+<h2>Panel</h2>
 <p>Paneli Xfce 4 mbulon panele të shumëfishtë, mjaft mundësi për vendin e 
   tyre, dukjen, tejdukshmërinë dhe sjelljen. Ka të passhëm, si parazgjedhje,
   plot objekte për ta mbushur ding një panel, si nisësa zbatimesh me menu
@@ -10,7 +10,7 @@
   të ndryshëm. Është i përputhshëm me shtojca të shumta panelesh të cilat mund të kihen prej
   <a href="http://goodies.xfce.org/">faqes së Projektit Xfce Goodies</a>.</p>
 
-<h2>Karakteristika</h2>
+<h3>Karakteristika</h3>
 <ul>
   <li><strong>Panele të shumtë</strong> me mbulim të punimit në shumë ekrane.</li>
 </ul>
@@ -45,16 +45,13 @@
     apo mbikëqyrës frekuence CPU-je...</li>
 </ul>
 
-<h2>Lidhje të Jashtme</h2>
+<h3>Lidhje të Jashtme</h3>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Shtojca paneli</a> prej
   faqes së projektit Goodies Project</p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trungu për xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Autor</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<h3>Autor</h3>
+
+<?php include("authors.php"); ?>
 

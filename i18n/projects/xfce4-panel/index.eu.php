@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>Panela</h1>
+<h2>Panela</h2>
 <p>Xfce 4 Panelak panel anitzen erbailpena onartzen du, bereb bereiziriko
 kokaleku, itxura, gardentasun eta portamodelarekin. Panela betetzeko elementu
 anitz daude eskuragrri menu-ak onartzen dituzten aplikazio abiarazleak, 
@@ -10,7 +10,7 @@ modu erraz bat du elkarrizketa leiho batenbitartez baita elementuak
 panelen artean mugitzeko gaitasuna ere. <a href="http://goodies.xfce.org/">Xfce Goodie
  Proiektu orrialdeko</a> hedapen multzoarekin bateragarri da.</p>
 
-<h2>Ezaugarriak</h2>
+<h3>Ezaugarriak</h3>
 <ul>
   <li><strong>Panel anitz</strong> pantaila anitz onarpenarekin.</li>
 </ul>
@@ -45,16 +45,13 @@ panelen artean mugitzeko gaitasuna ere. <a href="http://goodies.xfce.org/">Xfce 
     edo CPU maiztasun monitorea...</li>
 </ul>
 
-<h2>Kanpo Loturak</h2>
+<h3>Kanpo Loturak</h3>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Panel 
 plugin-ak</a> Goodies Proiektu orrialdetik</p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Garatzailea</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper abildua xfce.org]</li>
-</ul>
+<h3>Garatzailea</h3>
+
+<?php include("authors.php"); ?>
 

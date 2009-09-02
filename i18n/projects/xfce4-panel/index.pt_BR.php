@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>Painel</h1>
+<h2>Painel</h2>
 <p>O painel do Xfce versão 4 oferece suporte a múltiplos painéis, com diversas opções de
 posicionamento, aparência, transparência e comportamento. Fornece diversos itens
 por padrão, como lançadores de aplicação com menus destacáveis, páginador gráfico,
@@ -11,7 +11,7 @@ de adicionar itens e também permite que o itens possam ser movidos para painéi
 É compatível com os numerosos plugins para o painel disponível na
 <a href="http://goodies.xfce.org/">página do projeto Goodies do Xfce</a>.</p>
 
-<h2>Características</h2>
+<h3>Características</h3>
 <ul>
   <li><strong>Múltiplos painéis</strong> com suporte a diversas telas.</li>
 </ul>
@@ -44,15 +44,13 @@ de adicionar itens e também permite que o itens possam ser movidos para painéi
     ou ainda monitorar a frequência da CPU...</li>
 </ul>
 
-<h2>Links Externos</h2>
+<h3>Links Externos</h3>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">
 Plugins para o painel</a> na página do projeto Goodies</p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Autor</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<h3>Autor</h3>
+
+<?php include("authors.php"); ?>
+

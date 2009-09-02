@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-panel.png" alt="xfce4-panel" width="48" height="48" /></div>
 
-<h1>Paneel</h1>
+<h2>Paneel</h2>
 <p>Het Xfce 4 Paneel ondersteund meerdere panelen, met veel opties met
   betrekking tot hun positie, uiterlijk, transparantie en gedrag. Er zijn
   veel standaard plugins aanwezig die kunnen worden gebruikt met het
@@ -12,7 +12,7 @@
   beschikbaar op de
   <a href="http://goodies.xfce.org/">Xfce Goodies Project pagina</a>.</p>
 
-<h2>Features</h2>
+<h3>Features</h3>
 <ul>
   <li><strong>Meerdere panelen</strong> met ondersteuning voor meerdere schermen.</li>
 </ul>
@@ -47,15 +47,12 @@
     of CPU frequentie monitor...</li>
 </ul>
 
-<h2>Externe Links</h2>
+<h3>Externe Links</h3>
 <p><a href="http://goodies.xfce.org/projects/panel-plugins/start" class="external">Paneel plugins</a> van de Goodies Project pagina</p>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfce4-panel/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfce4-panel/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfce4-panel/trunk xfce4-panel</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Auteur</h2>
-<ul>
-  <li>Jasper Huijsmans [jasper at xfce.org]</li>
-</ul>
+<h3>Auteur</h3>
+
+<?php include("authors.php"); ?>
 
