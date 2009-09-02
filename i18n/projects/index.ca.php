@@ -225,13 +225,13 @@ addicional.
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
+			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
 			<p>
 			Mentre que les les biblioteques dels components centrals de Xfce estan enfocades
-			al desenvolupament de l'escriptori, la biblioteca libexo està dirigida al
+			al desenvolupament de l'escriptori, la biblioteca exo està dirigida al
 			desenvolupament d'aplicacions.
 			</p>
 		</td>

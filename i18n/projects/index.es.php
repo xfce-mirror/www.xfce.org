@@ -191,11 +191,11 @@ Cada proyecto tiene su propia página para proporcionar información adicional.
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>Las bibliotecas principales de Xfce están enfocadas al desarrollo del escritorio, libexo está orientada al desarrollo de aplicaciones.</p>
+			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
+			<p>Las bibliotecas principales de Xfce están enfocadas al desarrollo del escritorio, exo está orientada al desarrollo de aplicaciones.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />

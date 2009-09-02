@@ -191,11 +191,11 @@
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&L=5">Libexo</a></h3>
-			<p>Libraritë thelbësore të Xfce-së janë për zhvillim desktopi, libexo është për
+			<h3><a href="http://www.os-cillation.de/index.php?id=29&L=5">Exo</a></h3>
+			<p>Libraritë thelbësore të Xfce-së janë për zhvillim desktopi, exo është për
 			zhvillim zbatimesh.</p>
 		</td>
 		<td width="48" valign="top">

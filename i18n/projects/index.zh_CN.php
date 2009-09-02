@@ -172,11 +172,11 @@
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
 		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="libexo" width="48" height="48" />
+			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
 		</td>
 		<td width="33%" valign="top">
-			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Libexo</a></h3>
-			<p>核心 Xfce 库的目标在于桌面开发，libexo 的目标在于应用程序开发。</p>
+			<h3><a href="http://www.os-cillation.de/index.php?id=29&amp;L=5">Exo</a></h3>
+			<p>核心 Xfce 库的目标在于桌面开发，exo 的目标在于应用程序开发。</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
