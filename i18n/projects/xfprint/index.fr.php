@@ -1,9 +1,9 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfprint.png" alt="xfprint" width="48" height="48" /></div>
 
-<h1>Gestionnaire d'impression</h1>
+<h2>Gestionnaire d'impression</h2>
 <p>Le gestionnaire d'impression est une interface graphique pour l'impression, la gestion des imprimantes et de leur files d'impressions. Xfprint ne permet de configurer l'imprimante mais l'utilisation des systèmes d'impression installés et configurés.</p>
 
-<h2>Systèmes supportés</h2>
+<h3>Systèmes supportés</h3>
 <ul>
   <li><strong>CUPS</strong></li>
 </ul>
@@ -14,14 +14,11 @@
   <li><strong>Fichier (PostScript)</strong></li>
 </ul>
 
-<h2>Liens externes</h2>
+<h3>Liens externes</h3>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfprint/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfprint/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfprint/trunk xfprint</code></p>
+<?php include("git.address.php"); ?>
 
-<h2>Auteur</h2>
-<ul>
-  <li>Jean François Wauthy [pollux at xfce.org]</li>
-</ul>
+<h3>Auteur</h3>
+
+<?php include("authors.php"); ?>
 

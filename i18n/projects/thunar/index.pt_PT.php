@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" /></div>
 
-<h1>Gestor de Ficheiros Thunar</h1>
+<h2>Gestor de Ficheiros Thunar</h2>
 
 <p class="center"><img src="/images/projects/screenshots/thunar.png" alt="Thunar" /></p>
 
@@ -16,26 +16,16 @@ Significa que não precisa de configurar o sistema de forma especial ou de perde
 simplesmente funciona se o seu sistema cumpre os padrões do FreeDesktop.org.
 </p>
 
-<h2>Ligações externas</h2>
+<h3>Ligações externas</h3>
 
 <p>
 <a class="external" href="http://thunar.xfce.org/">Homepage</a><br />
 <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contém dicas úteis)
 </p>
 
+<?php include("git.address.php"); ?>
 
+<h3>Autor</h3>
 
-<p>
-<a class="external" href="http://svn.xfce.org/index.cgi/xfce/thunar/trunk">ViewVC</a><br />
-<a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a>
-</p>
-
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trunk thunar</code></p>
-
-<h2>Autor</h2>
-<ul>
-  <li>Benedikt Meurer [benny at xfce.org]</li>
-  <li>Jannis Pohlmann [jannis at xfce.org]</li>
-  <li>Nick Schermer [nick at xfce.org]</li>
-</ul>
+<?php include("authors.php"); ?>
 

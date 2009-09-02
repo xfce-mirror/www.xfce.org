@@ -1,19 +1,14 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/orage.png" alt="orage" width="48" height="48" /></div>
 
-<h1>Orage</h1>
+<h2>Orage</h2>
 <p>Orage fournit un calendrier qui s'intègre parfaitement bien à l'environnement de bureau Xfce. Il est très configurable et supporte des alarmes pour certaines dates. Il avertit l'utilisateur par le biais de fenêtres à l'écran ou alarmes audio. Comme c'est une application au jour le jour, il se lance en tâche de fond à chaque démrrage de Xfce.</p>
 
-<h2>Liens externes</h2>
+<h3>Liens externes</h3>
 <p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Page Web</a></p>
 
+<?php include("git.address.php"); ?>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/xfcalendar/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/xfcalendar/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/xfcalendar/trunk orage</code></p>
+<h3>Auteurs</h3>
 
-<h2>Auteurs</h2>
-<ul>
-  <li>Créateur du projet &amp; ancien développeur : Mickael Graf [korbinus xfce.org]</li>
-  <li>Développeur actuel : Juha Kautto [juha at xfce.org]</li>
-</ul>
+<?php include("authors.php"); ?>
 

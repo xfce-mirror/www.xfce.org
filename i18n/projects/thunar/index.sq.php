@@ -1,6 +1,6 @@
 <div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" /></div>
 
-<h1>Përgjegjësi i Kartelave Thunar</h1>
+<h2>Përgjegjësi i Kartelave Thunar</h2>
 <p>Thunar-i është një përgjegjës i ri e modern kartelash për Mjedisin Desktop Xfce.
   Thunar-i u hartua nisur nga zeroja, për të qenë i shpejtë dhe i lehtë në përdorim. 
   Ndërfaqja e tij e përdoruesi është e qëruar dhe intuitive, dhe nuk përfshin mundësi të padobishme
@@ -13,17 +13,13 @@
   duke formësuar përgjegjësin e kartelave, përkundrazi, thjesht do të punojë, nëse sistemi
   juaj përputhet me standardet FreeDesktop.org.</p>
 
-<h2>Lidhje të Jashtme</h2>
+<h3>Lidhje të Jashtme</h3>
 <p><a class="external" href="http://thunar.xfce.org/">Faqe Hyrëse</a><br />
   <a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (përmban ndihmëza të dobishme)</p>
 
+<?php include("git.address.php"); ?>
 
-<p><a class="external" href="http://svn.xfce.org/index.cgi/xfce/browse/thunar/trunk">WebSVN</a><br />
-  <a class="external" href="http://svn.xfce.org/svn/xfce/thunar/">SVN</a></p>
-<p><code class="code">svn co http://svn.xfce.org/svn/xfce/thunar/trungu për thunar-in</code></p>
+<h3>Autor</h3>
 
-<h2>Autor</h2>
-<ul>
-  <li>Benedikt Meurer [benny at xfce.org]</li>
-</ul>
+<?php include("authors.php"); ?>
 
