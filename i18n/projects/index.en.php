@@ -146,22 +146,6 @@ Every project has it's own project page to provide additionnal information.
 		</td>
 	</tr>
 	<tr>
-    <td width="48" valign="top">
-			<img src="/images/projects/xfmedia.png" alt="xfmedia" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/xfmedia">Xfmedia</a></h3>
-			<p>Xfmedia is a simple, easy-to-use media player based on the xine engine.
-			The GTK+ GUI focuses on playing and managing audio files, but, being based
-			on xine, supports video as well.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xarchiver.png" alt="xarchiver" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://xarchiver.xfce.org">Archive Manager</a></h3>
-			<p>Xarchiver is a GTK+2 only frontend to 7z, zip, rar, tar, bzip2, gzip, arj and rpm.</p>
-		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-mixer.png" alt="xfce4-mixer" width="48" height="48" />
 		</td>
@@ -169,8 +153,6 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="/projects/xfce4-mixer/">Mixer</a></h3>
 			<p>A modern sound mixer based on GStreamer.</p>
 		</td>
-	</tr>
-	<tr>
 		<td width="48" valign="top">
 			<img src="/images/projects/ristretto.png" alt="ristretto" width="48" height="48" />
 		</td>
@@ -222,13 +204,6 @@ Every project has it's own project page to provide additionnal information.
 			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
       <p>Perl bindings for Xfce. If you are old-fashioned or just don't like C and Python, you can 
       use Perl to write Xfce applications. </p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="dbh" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://dbh.sourceforge.net">Disk Based Hashtables</a></h3>
-			<p>DBH is a library to create Disk Based Hashtables on POSIX systems.</p>
 		</td>
 		<td width="48" valign="top">
 			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
