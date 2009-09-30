@@ -55,3 +55,33 @@ We need volounteers for the <a href="/about/artwork">Xfce Artwork</a>. Design ne
 step-by-step example <a href="http://wiki.xfce.org/howto">howto's</a>. Or you can just take a look at 
 <a href="http://www.xfce-look.org/">Xfce Look</a> to see how others have customized their Xfce desktop.
 </p>
+
+<h3 class="dev" style="background-image: url(/images/projects/library.png);">The Xfce framework</h3>
+
+<p>
+Xfce provides a framework to develop applications which integrate efficiently in the Xfce desktop environment. This
+framework also eases the development of applications by providing common and useful functions which are not present
+in the Glib/Gtk stack.
+</p>
+
+<p>
+The <a href="http://foo-projects.org/%7Ebenny/projects/xfce4-dev-tools/">Xfce developer tools</a>
+provide a collection of scripts and M4 macros that are required to build the Xfce core desktop components.
+</p>
+
+<p>
+The <a href="/projects/libraries/">three base libraries of Xfce</a> (libxfce4util, libxfcegui4 and libxfce4menu) are used by almost 
+any Xfce application. They provide convenience functions, customized widgets as the titled dialogs or
+implementations of specifications.
+</p>
+
+<p>
+While the core Xfce libraries are targeted at desktop development, <a href="/projects/exo/">exo</a> is targeted at application developement. It
+provides custom widgets, a job framework and a lot of useful functions for developing applications.
+</p>
+
+<p>
+Moreover, we have <a href="http://pyxfce.xfce.org/">Python</a>, 
+<a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl</a> and 
+<a href="http://xfc.xfce.org/">C++</a> bindings for those libraries.
+</p>
