@@ -170,52 +170,6 @@ Every project has it's own project page to provide additionnal information.
 	</tr>
 </table>
 
-<h2 id="framework">Framework</h2>
-<table width="99%" border="0" cellpadding="0" cellspacing="10">
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="exo" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="/projects/exo/">Exo</a></h3>
-			<p>The core Xfce libraries are targeted at desktop development, exo is targeted at application developement.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="pyxfce" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://pyxfce.xfce.org">Python Bindings</a></h3>
-			<p>Python bindings for Xfce. They allow you to create programs using the Xfce libraries more easily.</p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfc" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://xfc.xfce.org">Xfce Foundation Classes</a></h3>
-			<p>The Xfce Foundation Classes is a set of integrated C++ classes for developing Xfce
-			applications on UNIX-like operating systems such as Linux.</p>
-		</td>
-	</tr>
-	<tr>
-		<td width="48" valign="top">
-			<img src="/images/projects/library.png" alt="xfce4-perl" width="48" height="48" />
-		</td>
-		<td width="33%" valign="top">
-			<h3><a href="http://spuriousinterrupt.org/projects/xfce4-perl">Perl Bindings</a></h3>
-      <p>Perl bindings for Xfce. If you are old-fashioned or just don't like C and Python, you can 
-      use Perl to write Xfce applications. </p>
-		</td>
-		<td width="48" valign="top">
-			<img src="/images/projects/xfce4-dev-tools.png" alt="xfce4-dev-tools" width="48" height="48" />
-		</td>
-		<td valign="top">
-			<h3><a href="http://foo-projects.org/~benny/projects/xfce4-dev-tools/">Xfce Development Tools</a></h3>
-			<p>The Xfce developer tools provide a collection of scripts and M4 macros that
-			are required to build the Xfce core desktop components.</p>
-		</td>
-	</tr>
-</table>
-
 <h2 id="art">Art and Graphics</h2>
 <table width="99%" border="0" cellpadding="0" cellspacing="10">
 	<tr>
