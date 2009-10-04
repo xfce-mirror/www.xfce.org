@@ -1,9 +1,9 @@
 <h2>Development</h2>
 
 <p>
-Xfce welcomes any kind of contribution. We need every skills, not 
-only coders: translations, documentation or artwork are also very
- important and need your help!
+Xfce is only made possible with the help of volunteers with all kinds 
+of skills and talent: coding is of course one of the main ways of helping, but
+translators, documentators or designers are also welcome!
 </p>
 
 <h3 class="dev" style="background-image: url(/images/development/devel.png);">Contribute to the development of the Xfce core</h3>
