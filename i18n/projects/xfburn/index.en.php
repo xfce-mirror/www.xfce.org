@@ -5,9 +5,11 @@
 <p class="center"><img src="/images/projects/screenshots/xfburn.png" alt="Xfburn" /></p>
 
 <p>
-Xfburn is a simple CD/DVD burning tool based on <a href="http://libburnia-project.org/">libburnia</a>
-libraries. It can blank CD-RWs, burn and create iso images, as well as burn personal
-compositions of data to either CD or DVD. It is currently under <b>heavy</b> development.
+Xfburn is a simple CD/DVD burning tool based on 
+<a class="external" href="http://www.libburnia-project.org/">libburnia</a>
+libraries. It can blank CD/DVD(-RW)s, burn and create ISO images, audio CDs, as 
+well as burn personal compositions of data to either CD or DVD. It is
+stable, and under ongoing development. 
 </p>
 
 <h3>External Links</h3>
