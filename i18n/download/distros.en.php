@@ -106,6 +106,17 @@
   by Jeremiah Cheatham.
 </p>
 
+<h3 class="dev" style="background-image: url(/images/download/distros/salix.png);">
+<a href="http://www.salixos.org/">Salix OS</a>
+</h3>
+
+<p>
+ Salix is a Linux distribution based on Slackware that is simple, fast and easy to use. Salix is
+ also fully backwards compatible with Slackware, so Slackware users can benefit from Salix 
+ repositories, which they can use as an "extra" quality source of software for their favorite 
+ distribution. Like a bonsai, Salix is small, light and the product of infinite care. 
+</p>
+
 <h2>Xfce Live-CD distributions</h2>
 
 <h3 class="dev" style="background-image: url(/images/download/distros/sam.png);">
