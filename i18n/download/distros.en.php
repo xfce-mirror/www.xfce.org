@@ -128,6 +128,39 @@
 
 <h2>General distributions with a good Xfce support</h2>
 
+<h3 class="dev" style="background-image: url(/images/download/debian.png);">
+<a href="http://www.debian.org/">Debian</a>
+</h3>
+ 
+<p>
+  Debian is one of the most famous binary distributions, used as a base by many other distributions.
+  It's know for its stability, its performances and the wide choice of available applications. The 
+  <a href=http://pkg-xfce.alioth.debian.org/">Debian Xfce group</a> takes care of integrating Xfce
+  into Debian to provide a nice user experience.
+</p>
+
+<h3 class="dev" style="background-image: url(/images/download/mandriva.png);">
+<a href="http://www.mandriva.com/">Mandriva</a>
+</h3>
+ 
+<p>
+  Mandriva Linux is an operating system for your computer. Easy to try. Easy to install. Easy to use.
+  Xfce is of course available, simple to install and configure.
+</p>
+
+<h3 class="dev" style="background-image: url(/images/download/distros/gentoo.png);">
+<a href="http://www.gentoo.org/">Gentoo</a>
+</h3>
+ 
+<p>
+  Gentoo is a special flavor of Linux that can be automatically optimized and customized 
+  for just about any application or need. Extreme performance, configurability and a 
+  top-notch user and developer community are all hallmarks of the Gentoo experience. 
+  Gentoo ships the latest Xfce releases and allow you to integrate them in a very
+  performant environment.
+</p>
+
+
 <h3 class="dev" style="background-image: url(/images/download/distros/lunar.png);">
 <a href="http://www.lunar-linux.org/">Lunar Linux</a>
 </h3>
