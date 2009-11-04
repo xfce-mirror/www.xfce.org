@@ -180,7 +180,7 @@
 </p>
 
 <h3 class="dev" style="background-image: url(/images/download/distros/openbsd.png);">
-<a href="http://www.lunar-linux.org/">OpenBSD</a>
+<a href="http://www.openbsd.org/">OpenBSD</a>
 </h3>
  
 <p>
