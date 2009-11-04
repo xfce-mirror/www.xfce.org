@@ -1,8 +1,5 @@
 <h2>Distributions based on Xfce</h2>
 
-<p>Here is a list of distributions using Xfce as their native desktop.</p>
-
-
 <h3 class="dev" style="background-image: url(/images/download/distros/fedora.png);">
 <a href="http://fedoraproject.org/wiki/SIGs/Xfce/XfceLive">Fedora Xfce Spin</a>
 </h3>
@@ -180,5 +177,16 @@
   Lunar Linux is a source-based distribution. Although there is no native desktop environment 
   in Lunar, it has excellent support for Xfce, mainly because a couple of Xfce developers are 
   also Lunar developers. Another noticeable point: all Xfce servers are running Lunar Linux!
+</p>
+
+<h3 class="dev" style="background-image: url(/images/download/distros/openbsd.png);">
+<a href="http://www.lunar-linux.org/">OpenBSD</a>
+</h3>
+ 
+<p>
+  The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like operating system. Our 
+  efforts emphasize portability, standardization, correctness, proactive security and integrated 
+  cryptography. OpenBSD supports binary emulation of most programs from SVR4 (Solaris), FreeBSD, Linux, 
+  BSD/OS, SunOS and HP-UX.
 </p>
 
