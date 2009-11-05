@@ -156,6 +156,36 @@
   Xfce is of course available, simple to install and configure.
 </p>
 
+<h3 class="dev" style="background-image: url(/images/download/suse.png);">
+<a href=http://www.opensuse.org/en/"">OpenSUSE</a>
+</h3>
+
+<p>
+  OpenSUSE is a free and Linux-based operating system for your PC, Laptop or Server. You can surf the 
+  web, manage your e-mails and photos, do office work, play videos or music and have a lot of fun!
+</p> 
+
+<h3 class="dev" style="background-image: url(/images/download/distros/archlinux.png);">
+<a href="http://www.archlinux.org/">Arch Linux</a>
+</h3>
+
+<p>
+ Arch Linux is a simple, agile and lightweight GNU/Linux distribution, and UNIX-like operating system.
+ Arch Linux requires a certain level of intimate knowledge of its configuration and of UNIX-like system 
+ methodology.
+</p>
+
+<h3 class="dev" style="background-image: url(/images/download/distros/slackware.png);">
+<a href="http://www.slackware.com/">Slackware</a>
+</h3>
+ 
+<p>
+ The Official Release of Slackware Linux is an advanced Linux operating system, designed with the 
+ twin goals of ease of use and stability as top priorities. Including the latest popular software 
+ while retaining a sense of tradition, providing simplicity and ease of use alongside 
+ flexibility and power, Slackware brings the best of all worlds to the table. 
+</p>
+
 <h3 class="dev" style="background-image: url(/images/download/distros/gentoo.png);">
 <a href="http://www.gentoo.org/">Gentoo</a>
 </h3>
