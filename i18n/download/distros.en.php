@@ -143,7 +143,7 @@
 <p>
   Debian is one of the most famous binary distributions, used as a base by many other distributions.
   It's know for its stability, its performances and the wide choice of available applications. The 
-  <a href=http://pkg-xfce.alioth.debian.org/">Debian Xfce group</a> takes care of integrating Xfce
+  <a href="http://pkg-xfce.alioth.debian.org/">Debian Xfce group</a> takes care of integrating Xfce
   into Debian to provide a nice user experience.
 </p>
 
@@ -157,7 +157,7 @@
 </p>
 
 <h3 class="dev" style="background-image: url(/images/download/suse.png);">
-<a href=http://www.opensuse.org/en/"">OpenSUSE</a>
+<a href="http://www.opensuse.org/en/">OpenSUSE</a>
 </h3>
 
 <p>
