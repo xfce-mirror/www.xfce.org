@@ -74,15 +74,6 @@
   everyday computing tasks, creativity, work and enjoyment.
 </p>
 
-<h3 class="dev" style="background-image: url(/images/download/distros/kwortlinux.png);">
-<a href="http://www.kwort.org/">Kwort Linux</a>
-</h3>
-
-<p>
-  Kwort is a modern, fast and easy to use Linux distribution that combines Xfce and some other 
-  useful tools to a powerful desktop. Kwort is based on Slackware, so it's robust, clean and easy to extend.
-</p>
-
 <h3 class="dev" style="background-image: url(/images/download/distros/kateos.png);">
 <a href="http://www.kateos.org/">Kate OS</a>
 </h3>
@@ -90,17 +81,6 @@
 <p>
   Kate OS is a polish GNU/Linux distribution. It is a lightweight binary distribution featuring Xfce
   as the default desktop environment.
-</p>
-
-<h3 class="dev" style="background-image: url(/images/download/distros/myahos.png);">
-<a href="http://myah.org/">Myah OS</a>
-</h3>
-
-<p>
-  Myah OS is a performance desktop operating system. Made for home use with a focus on 
-  Internet, Office, and multimedia.  Myah OS has been optimized for i686 processors for
-  fast performance. Myah OS is an original Linux distro, compiled from build scripts written
-  by Jeremiah Cheatham.
 </p>
 
 <h3 class="dev" style="background-image: url(/images/download/distros/salix.png);">
