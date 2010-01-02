@@ -24,49 +24,44 @@ guarantee that it's fully working and bug free.
 
 <h2>Getting the source code </h2>
 
-<h3>Latest release version (4.6.x) from SVN</h3>
-
-<p>You can download the full release tree with the following command:</p>
-
 <p>
-<code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/4.6</code>
+To get a list of available modules and components, you can
+<a href="http://git.xfce.org/" class="external">browse the GIT repositories</a>.
 </p>
 
-<p>Or the appropriate modules:</p>
+<h3>Latest release version (4.6.x) from the GIT repositories</h3>
+
+<p>You can download the desired modules with the following command:</p>
 
 <p>
-<code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/branches/xfce_4_6 $modulename</code>
+<code class="code">git clone -b xfce-4.6 git://git.xfce.org/category/$modulename</code>
 </p>
 
-<h3>Latest development version (4.7.x) from SVN </h3>
+<p>For example:</p>
 
 <p>
-You can download the full release tree with the following command:
+<code class="code">git clone -b xfce-4.6 git://git.xfce.org/xfce/xfce4-panel</code>
 </p>
 
+<h3>Latest development version (4.7.x) from the GIT repositories </h3>
+
+<p>You can download the desired modules with the following command:</p>
+
 <p>
-<code class="code">svn checkout http://svn.xfce.org/svn/xfce/modules/trunk</code>
+<code class="code">git clone git://git.xfce.org/category/$modulename</code>
 </p>
 
-<p>Or the appropriate modules:</p>
+<p>For example:</p>
 
 <p>
-<code class="code">svn checkout http://svn.xfce.org/svn/xfce/$modulename/trunk $modulename</code>
+<code class="code">git clone git://git.xfce.org/xfce/xfce4-panel</code>
 </p>
 
 <div class="tip">To synchronize your local copy (checkout) of the release or development
-tree with the one on the server you can run <code>svn update</code> instead of
-<code>svn checkout</code>. This will speed up the process and minimize the
+tree with the one on the server you can run <code>git pull</code> instead of
+<code>git clone</code>. This will speed up the process and minimize the
 Xfce server transfer.
 </div>
-
-<h3>Daily development snapshots</h3>
-
-<p>
-If you don't want to test the development version of Xfce on a regular basis or you
-have no experience with building source from SVN, you can download the daily development
-snapshots <a href="http://mocha.xfce.org/downloads/svn-snapshots/">here</a>.
-</p>
 
 <h2>Building the modules</h2>
 
@@ -90,6 +85,6 @@ Xfce libraries, which is ${prefix}/lib/pkgconfig.  For example:
 <code class="code">./configure --prefix=/usr/local &amp;&amp; make &amp;&amp; make install</code>
 </p>
 
-<p>To build the svn modules (you need the xfce4-dev-tools package) run this command: </p>
+<p>To build the Xfce modules from GIT (you need the xfce4-dev-tools package) run this command: </p>
 
 <p><code class="code">./autogen.sh --prefix=/usr/local &amp;&amp; make &amp;&amp; make install</code></p>

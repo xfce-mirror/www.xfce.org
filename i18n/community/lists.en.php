@@ -34,15 +34,11 @@
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
-		<td bgcolor="#eeeeee">To be notified of Xfce4 SVN commits.</td>
+		<td bgcolor="#eeeeee">To be notified of Xfce4 GIT commits (including goodies and other modules).</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
 		<td>Xfce Goodies development discussion.</td>
-    </tr>
-    <tr>
-		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/goodies-commits/">goodies-commits</a></td>
-		<td bgcolor="#eeeeee">To be notified of goodies SVN commits.</td>
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
