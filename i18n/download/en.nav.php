@@ -3,7 +3,6 @@
 	<li><a href="/download#stable">Stable release</a>
 		<ul>
 			<li><a href="/download#source">Source Code</a></li>
-			<li><a href="/download#installer">Graphical installer</a></li>
 			<li><a href="/download#binaries">Binaries</a></li>
 		</ul>
 	</li>
