@@ -88,3 +88,6 @@ Xfce libraries, which is ${prefix}/lib/pkgconfig.  For example:
 <p>To build the Xfce modules from GIT (you need the xfce4-dev-tools package) run this command: </p>
 
 <p><code class="code">./autogen.sh --prefix=/usr/local &amp;&amp; make &amp;&amp; make install</code></p>
+
+<p>The <a href="/documentation/requirements">requirements</a> page lists all the required dependencies and
+the build order of the modules.</p>
