@@ -1,7 +1,7 @@
 <h2>Distributions based on Xfce</h2>
 
 <h3 class="dev" style="background-image: url(/images/download/distros/fedora.png);">
-<a href=http://spins.fedoraproject.org/xfce/"">Fedora Xfce Spin</a>
+<a href="http://spins.fedoraproject.org/xfce/">Fedora Xfce Spin</a>
 </h3>
 
 <p>
