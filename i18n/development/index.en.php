@@ -37,8 +37,8 @@ is there for you if you have any questions.
 
 <p>
 Xfce is translated into dozens of languages. Translations are currently managed using
-<a href="http://wiki.xfce.org/translations/transifex">Transifex</a>,
-and the <a href="http://i18n.xfce.org/">i18n wiki</a> contains instructions on how to contribute.
+<a href="https://translations.xfce.org/">Transifex</a>,
+and the <a href="https://translations.xfce.org/help/">help page</a> contains instructions on how to contribute.
 If you have any questions, the
 <a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">Xfce i18n mailing list</a>
 is there for you!
