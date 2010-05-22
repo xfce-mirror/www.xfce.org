@@ -2,10 +2,10 @@
 	<div id="front-right">
 		<div id="front-download">
 			<div class="link">
-				<h2><a href="/download/" title="Unduh Xfce 4.6.1">Unduh Xfce 4.6.1</a></h2>
+				<h2><a href="/download/" title="Unduh Xfce 4.6.2">Unduh Xfce 4.6.2</a></h2>
 			</div>
 			<div class="notes">
-				<p><a href="/documentation/changelogs/4.6.1" title="Baca berkas Catatan Perubahan">Catatan Peruban</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.6">Tur Keliling</a></p>
+				<p><a href="/documentation/changelogs/4.6.2" title="Baca berkas Catatan Perubahan">Catatan Peruban</a><span class="grey"> | </span><a href="/about/tour" title="Apa yang baru di Xfce 4.6">Tur Keliling</a></p>
 			</div>
 		</div>
 	</div>

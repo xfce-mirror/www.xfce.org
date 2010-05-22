@@ -5,6 +5,9 @@
 </p>
 <h3>Xfce 4.6:</h3>
 <ul>
+	<li><a href="/documentation/changelogs/4.6.2">4.6.2</a></li>
+	<li><a href="/documentation/changelogs/4.6.1">4.6.1</a></li>
+	<li><a href="/documentation/changelogs/4.6.0">4.6.0</a></li>
 	<li><a href="/documentation/changelogs/4.5.99.1">4.5.99.1</a></li>
 	<li><a href="/documentation/changelogs/4.5.93">4.5.93</a></li>
 	<li><a href="/documentation/changelogs/4.5.92">4.5.92</a></li>

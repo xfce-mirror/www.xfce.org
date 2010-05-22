@@ -6,14 +6,14 @@
     
 			<div class="link">
       
-				<h2><a href="/download/" title="Descarregar Xfce 4.6.1">Descarregar Xfce 4.6.1</a></h2>
+				<h2><a href="/download/" title="Descarregar Xfce 4.6.2">Descarregar Xfce 4.6.2</a></h2>
         
 			</div>
 
       <div class="notes">
       
 				<p>
-          <a href="/documentation/changelogs/4.6.1" title="Veure el registre de canvis">Registre de canvis</a>
+          <a href="/documentation/changelogs/4.6.2" title="Veure el registre de canvis">Registre de canvis</a>
           <span class="grey"> | </span><a href="/about/tour" title="Novetats a Xfce 4.6">Presentació</a>
         </p>
         
