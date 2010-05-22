@@ -53,7 +53,7 @@ function bug ($id){
     <li>Compute screen size based on each monitor size and layout and avoid using reported size (<?php bug ('5795')?>).</li>
     <li>Reloading settings on keys-changed signal is a huge overhead and complete nonsense (<?php bug ('5964')?>).</li>
     <li>Recent Xorg drivers disable the output when the lid is closed, leaving no active monitor, in that case simply ignore the event to avoid messing with windows' positions (<?php bug ('6209')?>).</li>
-    <li>Add linkage to libm when compositor is used (<?php bug ('6231).</li>
+    <li>Add linkage to libm when compositor is used (<?php bug ('6231')?>).</li>
     <li>Check for invalid type for GValue to avoid a crash (<?php bug ('6195')?>).</li>
     <li>Allow only regular windows to be placed either above or below.</li>
     <li>Translation updates (cs, el, es, gl, it, pl, pt, sv, tr, uk, lv, ur, ur_PK, ro, ru, nl, ug).</li>
