@@ -30,7 +30,7 @@ $news = array (
 
     array (
         'id'      => 23,
-        'date'    => "23 may 2020",
+        'date'    => "23 may 2010",
         'author'  => "The Xfce Development Team",
         'title'   => "Xfce 4.6.2 Released",
         'content' => "The second bugfix-release of xfce 4.6 has been released.".
