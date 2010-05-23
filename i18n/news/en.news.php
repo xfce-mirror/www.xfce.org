@@ -35,8 +35,8 @@ $news = array (
         'title'   => "Xfce 4.6.2 Released",
         'content' => "The second bugfix-release of xfce 4.6 has been released.".
                      "[br][br]".
-                     "This release features a lot of updated translations and "
-                     "fixes some bugs or regressions with new GTK+ versions." 
+                     "This release features a lot of updated translations and ".
+                     "fixes some bugs or regressions with new GTK+ versions." .
                      "[br][br]".
                      "For a full list of changes, look ".
                      "[link=/documentation/changelogs/4.6.2]here[/link]. ".
