@@ -14,7 +14,7 @@ $servers = array (
   "SourceForge.net"     => "http://sourceforge.net/project/showfiles.php?group_id=19869&amp;package_id=$sf_package_id&amp;release_id=$sf_release_id",
   "BE - www.xfce.org"   => "http://mocha.xfce.org/archive/xfce-$version/",
 //  "DE - de.xfce.org"    => "http://www.de.xfce.org/archive/xfce-$version/",
-  "FR - p0llux.be"      => "http://www.p0llux.be/xfce/xfce-$version/",
+  "FR - p0llux.be"      => "http://www.p0llux.be/xfce/archive/xfce/$version",
 //  "DE - Hannelore"      => "http://hannelore.f1.fhtw-berlin.de/mirrors/xfce4/xfce-$version/",
   "US - tx-us.xfce.org"    => "http://www.tx-us.xfce.org/archive/xfce-$version/",
   "US - ca-us.xfce.org" => "http://www.ca-us.xfce.org/archive/xfce-$version/",
