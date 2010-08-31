@@ -42,6 +42,7 @@
 
 <h3 class="dev" style="background-image: url(/images/download/distros/elementos.png);">
 <a href="http://www.elementmypc.com">Element OS</a>
+</h3>
 
 <p>
   Element OS is a free open source operating system for home theater
