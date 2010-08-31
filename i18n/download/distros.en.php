@@ -39,6 +39,20 @@
   a standalone MythTV based PVR system. It can be used to prepare a standalon
   system or for integration with an existing MythTV network.
 </p>
+
+<h3 class="dev" style="background-image: url(/images/download/distros/elementos.png);">
+<a href="http://www.elementmypc.com">Element OS</a>
+
+<p>
+  Element OS is a free open source operating system for home theater
+  PCs, media center computers, and set-top boxes. Featuring an
+  innovative "across the room" Xfce-based interface which is designed to
+  be connected to your HDTV for a digital media and internet experience
+  from within the comforts of your own living room or lounge. Element
+  comes loaded with the software needed to stream all forms of Web
+  content and manage your own multimedia library and downloads.
+</p>
+
  
 <h3 class="dev" style="background-image: url(/images/download/distros/dreamlinux.png);">
 <a href="http://www.dreamlinux.com.br/">Dreamlinux</a>
