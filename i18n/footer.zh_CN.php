@@ -8,7 +8,7 @@
 					<ul>
 						<li><a href="http://www.os-cillation.com/" title="os-cillation"><img src="/layout/friends/os-cillation.jpg" alt="os-cillation" border="1" /></a></li>
 						<li><a href="http://sourceforge.net/" title="SourceForge.net"><img src="/layout/friends/sf.jpg" alt="SourceForge.net" border="1" /></a></li>
-            <li><a href="http://www.elementmypc.com" title="Element OS"><img src="/layout/friends/elementmypc.com" alt="Element OS" border="1" /></a></li>
+            <li><a href="http://www.elementmypc.com" title="Element OS"><img src="/layout/friends/elementmypc.png" alt="Element OS" border="1" /></a></li>
 					</ul>
 				</div>
 				<div id="footer-copyright">
