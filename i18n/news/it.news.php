@@ -46,7 +46,8 @@ $news = array (
                      "[br][br]".
                      "Si ringraziano tutti coloro che hanno fornito un contributo alla traduzione.".
                      "[br][br]".
-                     "Il gruppo di traduzione in Italiano di Xfce."
+                     "Il gruppo di traduzione in Italiano di Xfce.",
+    ),
     array (
         'id'      => 3,
         'date'    => "23 Maggio 2010",
@@ -64,7 +65,7 @@ $news = array (
                      "La nuova versione può essere scaricata da qui: ".
                      "[link=/download]http://www.xfce.org/download[/link]".
                      "[br][br]".
-                     "Il team di sviluppo di Xfce."
+                     "Il team di sviluppo di Xfce.",
     ),
     array (
         'id'      => 2,
@@ -88,7 +89,7 @@ $news = array (
                      "La nuova versione può essere scaricata da qui: ".
                      "[link=/download]http://www.xfce.org/download[/link]".
                      "[br][br]".
-                     "Il team di sviluppo di Xfce."
+                     "Il team di sviluppo di Xfce.",
     ),
     array (
         'id'      => 1,
@@ -109,7 +110,7 @@ $news = array (
                      "Xfce 4.6 può essere scaricato dalla sezione Download del sito di Xfce:[br]".
                      "[link=/download]http://www.xfce.org/download[/link]".
                      "[br][br]".
-                     "Il team di sviluppo di Xfce."
-                     "",
+                     "Il team di sviluppo di Xfce.",
+    ),
 );
 ?>
