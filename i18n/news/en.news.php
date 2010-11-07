@@ -61,12 +61,12 @@ $news = array (
                      "release!".
                      "[br][br]".
                      "A complete list of all changes since the latest stable release is available ".
-                     "[link=http://mocha.xfce.org/documentation/changelogs/4.8pre1]here[/link].".
+                     "[link=/documentation/changelogs/4.8pre1]here[/link].".
                      "[br][br]".
                      "Below you will find download information for Xfce4.8pre1. Please give our mirrors a few ".
                      "hours to synchronize. We hope you will enjoy this release, feel encouraged to blog and ".
                      "tweet about it! Feedback is welcome in all forms. Bugs can be reported in our ".
-                     "[link=http://bugzilla.xfce.org]bug tracker[/link] as usual. We need your help to make ".
+                     "bug tracker as usual. We need your help to make ".
                      "Xfce 4.8 our best release ever!".
                      "[br][br]".
                      "Kind regards and thanks to everyone who has contributed to this release,".
