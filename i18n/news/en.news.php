@@ -69,6 +69,21 @@ $news = array (
                      "bug tracker as usual. We need your help to make ".
                      "Xfce 4.8 our best release ever!".
                      "[br][br]".
+                     "Release tarballs can be retrieved from the following mirrors (please note that it may take".
+                     " a few hours for the mirrors to catch up):".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre1/src]archive.xfce.org[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre1/src]tx-us.xfce.org[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre1/src]p0llux.be[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre1/src]ca-us.xfce.org[/url][br]".
+                     "[br][br]".
+                     "A tarball including all individual releases can be downloaded here:".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre1/fat_tarballs]archive.xfce.org[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre1/fat_tarballs]tx-us.xfce.org[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre1/fat_tarballs]p0llux.be[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre1/fat_tarballs]ca-us.xfce.org[/url][br]".
+                     "[br][br]".
                      "Kind regards and thanks to everyone who has contributed to this release,".
                      "[br]".
                      "The Xfce development team."
