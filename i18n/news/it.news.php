@@ -17,7 +17,7 @@
 $date_format = "%e %B %Y";
 $posted_by = "Inserita da";
 
-$news = array (
+$news_translated = array (
 /*
     array (
         'id'      => <numero dell'elemento precedente + 1>
