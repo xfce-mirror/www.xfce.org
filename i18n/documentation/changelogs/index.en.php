@@ -2,6 +2,13 @@
 <p>
 	The Xfce changelogs are version specific. Please select your version from the list below to read the changelog.
 </p>
+
+<h3>Xfce 4.8:</h3>
+
+<ul>
+  <li><a href="/documentation/changelogs/4.8pre1/">4.8pre1</li>
+</ul>
+
 <h3>Xfce 4.6:</h3>
 <ul>
 	<li><a href="/documentation/changelogs/4.6.2">4.6.2</a></li>
