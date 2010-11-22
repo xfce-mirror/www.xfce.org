@@ -40,6 +40,8 @@
       of the desktop environment. They are packaged separately and you can pick and
       choose from the available packages to create the best personal working environment.
     </p>
+
+    <p>Test</p>
     
 		<p class="readmore">
       <a href="/about/" title="Learn more about Xfce...">learn more</a>
