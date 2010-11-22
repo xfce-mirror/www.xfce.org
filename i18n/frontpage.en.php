@@ -41,8 +41,6 @@
       choose from the available packages to create the best personal working environment.
     </p>
 
-    <p>Test</p>
-    
 		<p class="readmore">
       <a href="/about/" title="Learn more about Xfce...">learn more</a>
     </p>
