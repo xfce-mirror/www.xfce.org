@@ -2,7 +2,7 @@
   <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
 </div>
 
-<h2>Application Finder</h2>
+<h2>Ricercatore di applicazioni</h2>
 
 <p class="center">
   <img src="/images/projects/screenshots/xfce4-appfinder.png" alt="Ricercatore di applicazioni" />

@@ -6,7 +6,7 @@
 		    <li><a href="/projects/xfprint">Assistente di stampa</a></li>
 		    <li><a href="/projects/xfce4-session">Gestore della sessione</a></li>
 		    <li><a href="/projects/xfce4-settings">Gestore delle impostazioni</a></li>
-		    <li><a href="/projects/xfce-utils">Utilit‡ e script</a></li>
+		    <li><a href="/projects/xfce-utils">Utilit√† e script</a></li>
 		    <li><a href="/projects/xfwm4">Gestore delle finestre</a></li>
 		    <li><a href="/projects/libraries">Librerie di Xfce</a></li>
         <li><a href="/projects/xfconf">Xfconf</a></li>

@@ -19,6 +19,6 @@
 </p>
 
 <p>
-  Xfce può essere installato su varie piattaforme UNIX. E' compilabile su Linux,
+  Xfce può essere installato su varie piattaforme UNIX. È compilabile su Linux,
   NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin e MacOS X, su x86, PPC, Sparc, Alpha ecc...
 </p>

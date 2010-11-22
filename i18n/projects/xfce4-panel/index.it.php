@@ -2,7 +2,7 @@
 
 <h2>Pannello</h2>
 
-<p class="center"><img src="/images/projects/screenshots/xfce4-panel.png" alt="Panel" /></p>
+<p class="center"><img src="/images/projects/screenshots/xfce4-panel.png" alt="Pannello" /></p>
 
 <p>
 Il pannello di Xfce supporta più pannelli, permettendo di impostare diverse opzioni

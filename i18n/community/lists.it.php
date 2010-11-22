@@ -1,4 +1,4 @@
-<h1>Mailing list di Xfce</h1>
+<h1>Liste di discussione di Xfce</h1>
 
 <p>
   <strong>NB:</strong> per poter partecipare attivamente a queste liste, occorre prima iscriversi.
@@ -42,7 +42,7 @@
     </tr>
     <tr>
 		<td><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
-		<td>Discussioni relative ai problemi presenti nei prodotti di Xfce. E' possibile segnalare un problema <a href="http://bugzilla.xfce.org" target="_blank" class="external">qui</a>.</td>
+		<td>Discussioni relative ai problemi presenti nei prodotti di Xfce. È possibile segnalare un problema <a href="http://bugzilla.xfce.org" target="_blank" class="external">qui</a>.</td>
     </tr>
     <tr>
 		<td bgcolor="#eeeeee"><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
@@ -53,6 +53,6 @@
 <h1>Ricerca nelle liste di discussione</h1>
 
 <p>
-  E' possibile cercare nelle liste di discussione utilizzando il campo "Google Search" nell'intestazione. Dopo aver effettuato la ricerca, si possono filtrare i risultati
-  utilizzando il collegamento "Mailing list".
+  È possibile cercare nelle liste di discussione utilizzando il campo "Google Search" nell'intestazione. Dopo aver effettuato la ricerca, si possono filtrare i risultati
+  utilizzando il collegamento "Liste di discussione".
 </p>

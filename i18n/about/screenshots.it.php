@@ -1,4 +1,4 @@
-<h1>Screenshot</h1>
+<h1>Immagini</h1>
 <p>Alcune immagini di Xfce, ordinate per versione. </p>
 
 <h2>Xfce 4.6</h2>

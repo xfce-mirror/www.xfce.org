@@ -1,23 +1,23 @@
 <h2>Sviluppo</h2>
 
 <p>
-Xfce Ë reso possibile grazie all'aiuto di volontari con qualsiasi tipo di
-capacit‡ e talento. La programmazione Ë solo uno dei tanti modi di contribuire &ndash;
+Xfce √® reso possibile grazie all'aiuto di volontari con qualsiasi tipo di
+capacit√† e talento. La programmazione √® solo uno dei tanti modi di contribuire &ndash;
 traduttori, scrittori di documentazione e designer sono anch'essi i benvenuti!
-Questa pagina descrive alcune delle aree in cui Ë possibile contribuire.
+Questa pagina descrive alcune delle aree in cui √® possibile contribuire.
 </p>
 
 <h3 class="dev" style="background-image: url(/images/development/devel.png);">Nucleo di Xfce</h3>
 
 <p>
-Chiunque Ë libero di contribuire allo sviluppo della prossima versione di Xfce o di
+Chiunque √® libero di contribuire allo sviluppo della prossima versione di Xfce o di
 correggere i bug presenti nelle versioni esistenti.
 <a href="http://bugzilla.xfce.org">Bugzilla</a> e la <a href="http://wiki.xfce.org/releng/4.8/schedule">roadmap</a>
-sono ottime fonti di idee per conoscere ciÚ che ha bisogno di lavoro.
+sono ottime fonti di idee per conoscere ci√≤ che ha bisogno di lavoro.
 </p>
 
 <p>
-Se si Ë interessati alle novit‡ o a maggiori dettagli relativi allo sviluppo in corso, Ë possibile
+Se si √® interessati alle novit√† o a maggiori dettagli relativi allo sviluppo in corso, √® possibile
 sottoscrivere la <a href="http://foo-projects.org/mailman/listinfo/xfce4-dev">lista di discussione degli sviluppatori</a>.
 Il <a href="http://wiki.xfce.org/">wiki</a> contiene inoltre molte utili informazioni.
 </p>
@@ -25,20 +25,20 @@ Il <a href="http://wiki.xfce.org/">wiki</a> contiene inoltre molte utili informa
 <h3 class="dev" style="background-image: url(/images/development/goodies.png);">Goodies</h3>
 
 <p>
-Il progetto <a href="http://goodies.xfce.org">Xfce goodies</a> Ë composto da progetti indipendenti relativi
-all'ambiente grafico Xfce. Anche se non fanno parte del rilascio ufficiale, essi completano e migliorano l'ambiente Xfce.
+Il progetto <a href="http://goodies.xfce.org">Xfce goodies</a> √® composto da progetti indipendenti relativi
+all'ambiente grafico Xfce. Anche se non fanno parte del rilascio ufficiale, essi lo completano e lo migliorano.
 Per contribuire a uno di questi progetti contattare direttamente il mantenitore, oppure avviare un proprio progetto.
-» possibile rivolgersi alla <a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">lista di discussione dei Goodies</a>
+√à possibile rivolgersi alla <a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">lista di discussione dei Goodies</a>
 per qualsiasi domanda.
 </p>
 
 <h3 class="dev" style="background-image: url(/images/development/i18n.png);">Traduzioni</h3>
 
 <p>
-Xfce Ë tradotto in dozzine di lingue. Le traduzioni sono attualmente gestite avvalendosi di
+Xfce √® tradotto in dozzine di lingue. Le traduzioni sono attualmente gestite avvalendosi di
 <a href="https://translations.xfce.org/">Transifex</a>,
 e la <a href="https://translations.xfce.org/help/">pagina di aiuto</a> contiene istruzioni su come contribuire.
-Per qualsiasi domanda Ë a disposizione la
+Per qualsiasi domanda √® a disposizione la
 <a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">lista di discussione Xfce i18n</a>.
 </p>
 
@@ -50,7 +50,7 @@ Per contribuire alla nuova documentazione, contattare la
 <a href="http://foo-projects.org/mailman/listinfo/xfce4-dev">lista di discussione degli sviluppatori</a>.
 </p>
 
-<h3 class="dev" style="background-image: url(/images/development/artwork.png);">Artwork (grafica)</h3>
+<h3 class="dev" style="background-image: url(/images/development/artwork.png);">Grafica (artwork)</h3>
 
 <p>
 Il progetto <a href="/about/artwork">Artwork di Xfce</a> ha bisogno di volontari! Per creare nuove icone,
@@ -62,8 +62,8 @@ Xfce andare su <a href="http://www.xfce-look.org/">Xfce Look</a>.
 <h3 class="dev" style="background-image: url(/images/projects/library.png);">Infrastruttura di Xfce</h3>
 
 <p>
-Xfce fornisce un'infrastruttura per lo sviluppo di applicazioni che possano integrarsi in maniera ottimale nell'ambiente Xfce.
-Questa infrastruttura fornisce anche delle funzionalit‡ utili e comuni non presenti in GLib/GTK che rendono pi˘ semplice lo
+Xfce fornisce un'infrastruttura per sviluppare applicazioni che possano integrarsi in maniera ottimale nell'ambiente Xfce.
+Questa infrastruttura fornisce anche delle funzionalit√† utili e comuni non presenti in GLib/GTK che rendono pi√π semplice lo
 sviluppo delle applicazioni.
 </p>
 
@@ -79,8 +79,8 @@ di Xfce. Tra le altre cose, forniscono delle utili funzioni e dei widget di visu
 
 <p>
 Mentre le librerie del nucleo di Xfce sono pensate per lo sviluppo del desktop, <a href="/projects/exo/">exo</a>
-Ë progettato per lo sviluppo delle applicazioni: fornisce dei widget personalizzati, una infrastruttura di lavoro e tutta una serie di
-utili funzionalit‡ per lo sviluppo delle applicazioni.
+√® progettato per lo sviluppo delle applicazioni: fornisce dei widget personalizzati, una infrastruttura di lavoro e tutta una serie di
+utili funzionalit√† per lo sviluppo delle applicazioni.
 </p>
 
 <p>

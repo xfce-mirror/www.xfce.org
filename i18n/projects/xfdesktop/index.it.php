@@ -2,7 +2,7 @@
 
 <h2>Gestore della Scrivania</h2>
 
-<p class="center"><img src="/images/projects/screenshots/xfdesktop.png" alt="Desktop Manager" /></p>
+<p class="center"><img src="/images/projects/screenshots/xfdesktop.png" alt="Gestore della Scrivania" /></p>
 
 <p>
 Il gestore della Scrivania imposta l'immagine di sfondo, fornisce un menu apribile con il tasto destro del mouse per lanciare

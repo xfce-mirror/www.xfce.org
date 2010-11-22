@@ -25,15 +25,15 @@
 		<?php echo $layout_css; ?>
 	</style>
 
-	<link rel="alternate" type="application/rss+xml" title="Xfce News" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
-	<link rel="alternate" type="application/rss+xml" title="Xfce Blog" href="http://blog.xfce.org/?feed=rss2" />
+	<link rel="alternate" type="application/rss+xml" title="Notizie su Xfce" href="/?feed=rss2&amp;lang=<?php echo $lang ?>" />
+	<link rel="alternate" type="application/rss+xml" title="Blog di Xfce" href="http://blog.xfce.org/?feed=rss2" />
 </head>
 <body id="top">
-	<p id="header-top"><a href="#top" title="Go to the top of the page">Top</a></p>
+	<p id="header-top"><a href="#top" title="Torna all'inizio della pagina">Su</a></p>
 	<div class="hidden">
-		<a href="#global-contentwrap" title="Skip site navigation" accesskey="1">Skip site navigation</a> (1)
+		<a href="#global-contentwrap" title="Salta la navigazione del sito" accesskey="1">Skip site navigation</a> (1)
 <?php if ($content_bool) { ?>
-		<a href="#content-text" title="Skip section navigation" accesskey="2">Skip section navigation</a> (2)
+		<a href="#content-text" title="Salta la navigazione della sezione" accesskey="2">Skip section navigation</a> (2)
 <?php } ?>
 
 		<h1>Xfce Desktop Environment</h1>
@@ -47,8 +47,8 @@
 				<div id="header-right">
 					<div id="header-style">
 						<h2 class="hidden">Website Layout</h2>
-						<p>Layout: <a href="?layout=normal" title="Normal layout (Min: 740px, Max: 1000px)">Normale</a> / 
-						<a href="?layout=liquid" title="Fluid Layout (100% Width)">Liquido</a></p>
+						<p>Layout: <a href="?layout=normal" title="Layout normale (Min: 740px, Max: 1000px)">Normale</a> / 
+						<a href="?layout=liquid" title="Layout fluido (larghezza 100%)">Liquido</a></p>
 					</div>
 					<div id="header-search">
 						<h2 class="hidden">Search</h2>
@@ -64,12 +64,12 @@
 					<h2 class="hidden">Site navigation</h2>
 					<ul>
 						<li><a href="/" title="Home">Home</a></li>
-						<li><a href="/about/" title="About">Informazioni</a></li>
-						<li><a href="/projects/" title="Projects">Progetti</a></li>
+						<li><a href="/about/" title="Informazioni">Informazioni</a></li>
+						<li><a href="/projects/" title="Progetti">Progetti</a></li>
 						<li><a href="/download/" title="Download">Download</a></li>
-						<li><a href="/documentation/" title="Documentation">Documentazione</a></li>
-						<li><a href="/community/" title="Community">Comunità</a></li>
-						<li><a href="/development/" title="Development">Sviluppo</a></li>
+						<li><a href="/documentation/" title="Documentazione">Documentazione</a></li>
+						<li><a href="/community/" title="Comunità">Comunità</a></li>
+						<li><a href="/development/" title="Sviluppo">Sviluppo</a></li>
 					</ul>
 				</div>
 				<div id="header-white">

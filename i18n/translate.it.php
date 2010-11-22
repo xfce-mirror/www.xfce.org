@@ -14,5 +14,5 @@ pagine e nella loro revisione.
 <p>
 Il <a href="http://i18n.xfce.org/" title="i18n">progetto Xfce i18n</a>
 gestisce le traduzioni del sito, della documentazione e delle applicazioni che costituiscono
-l'ambiente desktop Xfce.
+l'ambiente grafico Xfce.
 </p>

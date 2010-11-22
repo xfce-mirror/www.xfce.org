@@ -14,5 +14,5 @@ rimossa, rinominata o temporaneamente non disponibile.</p>
 	<li>inserire un termine nel campo di ricerca qui sopra per cercare delle informazioni nel sito di Xfce.</li>
 </ul>
 
-<p> E' possibile <a href="mailto:webmaster@xfce.org">chiedere al webmaster</a> assistenza per la 
+<p>È possibile <a href="mailto:webmaster@xfce.org">chiedere al webmaster</a> assistenza per la 
 propria ricerca, o segnalare il problema nel caso lo si ritenga necessario.</p>
