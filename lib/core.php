@@ -2,7 +2,7 @@
 
 include ('streams.php');
 include ('gettext.php');
-include ('locale/locales.php');
+include ('locales.php');
 
 /* load session variables */
 session_start ();
