@@ -1,0 +1,53 @@
+
+body {
+	margin: 0;
+        padding: 0;
+}
+
+#xfce-header {
+        border-bottom: 5px #09c solid;
+        background: #000;
+}
+#xfce-header h1 {
+        color: #fff;
+        line-height: 50px;
+        margin: 0 0 0 15px;
+        float: left;
+}
+#xfce-header ul {     
+	float: right ;
+	list-style: none;
+        margin: 0;
+        padding: 0 15px 0 0;
+        background: #000;
+}
+#xfce-header ul li {
+	float: left;
+        font-weight: bold;
+        line-height: 50px;
+}
+#xfce-header a {
+	color: #fff;
+        text-decoration: none;
+        display: block;
+        float: right;
+        padding: 0 15px 0 15px;
+}
+#xfce-header ul li a:hover {
+	color: #09c;
+}
+#xfce-header .active {
+        color: #09c;
+}
+#xfce-header-clear {
+	clear: both;
+}
+
+
+table th {
+        text-align: left;
+}
+
+table tr:nth-child(even) {
+        background: #ccc;
+}
