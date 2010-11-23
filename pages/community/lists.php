@@ -4,10 +4,10 @@
   <?php E_('<strong>NOTE:</strong> In order to post to these lists, you must first subscribe.') ?>
 </p>
 
-<table cellpadding="2">
+<table>
   <tr>
-    <th align="left"><?php E_('List') ?></th>
-    <th align="left"><?php E_('Description') ?></th>
+    <th><?php E_('List') ?></th>
+    <th><?php E_('Description') ?></th>
   </tr>
   <tr>
     <td><a href="http://foo-projects.org/mailman/listinfo/xfce/">xfce</a></td>

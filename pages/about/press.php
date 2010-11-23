@@ -3,34 +3,34 @@
 
 <table>
   <tr>
-    <th width="20%" align="left"><h3><?php E_('Date') ?></h3></th>
-    <th width="20%" align="left"><h3><?php E_('Website') ?></h3></th>
-    <th width="60%" align="left"><h3><?php E_('Link') ?></h3></th>
+    <th><?php E_('Date') ?></th>
+    <th><?php E_('Website') ?></th>
+    <th><?php E_('Link') ?></th>
   </tr>
   <tr>
-    <td align="left">2006-06-09</td>
-    <td align="left">LWN</td>
-    <td align="left"><a href="http://lwn.net/Articles/182966/">What next for the Xfce Project?</a></td>
+    <td>2006-06-09</td>
+    <td>LWN</td>
+    <td><a href="http://lwn.net/Articles/182966/">What next for the Xfce Project?</a></td>
   </tr>
   <tr>
-    <td align="left">2006-01-10</td>
-    <td align="left">Tuxmachines</td>
-    <td align="left"><a href="http://www.tuxmachines.org/node/6448">Xtra Fine Computing Environment: xfce4.4 beta 1.</a></td>
+    <td>2006-01-10</td>
+    <td>Tuxmachines</td>
+    <td><a href="http://www.tuxmachines.org/node/6448">Xtra Fine Computing Environment: xfce4.4 beta 1.</a></td>
   </tr>
   <tr>
-    <td align="left">2006-01-10</td>
-    <td align="left">Blog, All about Linux </td>
-    <td align="left"><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html">Xfce 4.2 - A light weight window manager heavy in features.</a></td>
+    <td>2006-01-10</td>
+    <td>Blog, All about Linux </td>
+    <td><a href="http://linuxhelp.blogspot.com/2006/01/xfce-42-light-weight-window-manager.html">Xfce 4.2 - A light weight window manager heavy in features.</a></td>
   </tr>
   <tr>
-    <td align="left">2005-10-01</td>
+    <td>2005-10-01</td>
     <td>Linux Magazine </td>
-    <td align="left"><a href="http://www.linux-magazine.com/issue/57/Xfce_42_Review.pdf">Installing and exploring Xfce 4.2</a></td>
+    <td><a href="http://www.linux-magazine.com/issue/57/Xfce_42_Review.pdf">Installing and exploring Xfce 4.2</a></td>
   </tr>
   <tr>
-    <td align="left">2005-01-11</td>
+    <td>2005-01-11</td>
     <td>Mad Penguin</td>
-    <td align="left"><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216">Xfce Installer Something To Be Proud Of</a></td>
+    <td><a href="http://www.madpenguin.org/cms/?m=show&amp;id=3216">Xfce Installer Something To Be Proud Of</a></td>
   </tr>
   <tr>
     <td>2004-11-24</td>

@@ -19,11 +19,11 @@
 </ol>
 
 <h2><?php E_('Package dependencies') ?></h2>
-<table cellpadding="2">
+<table>
   <tr>
-    <th width="20%"><?php E_('Package') ?></th>
-    <th width="40%"><?php E_('Dependency(-ies)') ?></th>
-    <th width="40%"><?php E_('Optional Dependency(-ies)') ?></th>
+    <th><?php E_('Package') ?></th>
+    <th><?php E_('Dependency(-ies)') ?></th>
+    <th><?php E_('Optional Dependency(-ies)') ?></th>
   </tr>
   <tr>
     <td>xfce4-dev-tools</td>
