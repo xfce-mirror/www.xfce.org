@@ -17,7 +17,7 @@
         <div>
                 <h1>Xfce</h1>
                 <ul>
-                        <li><a href="http://test.xfce.org" title="Go to the homepage" class="active">Home</a></li>
+                        <li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
                         <li><a href="http://docs.xfce.org" title="Official documentation">Docs</a></li>
                         <li><a href="http://wiki.xfce.org" title="Community documentation">Wiki</a></li>
                         <li><a href="http://forum.xfce.org" title="Community forums">Forum</a></li>

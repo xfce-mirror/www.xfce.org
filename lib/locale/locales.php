@@ -7,10 +7,8 @@
 
 /* known languages in this directory */
 $languages = array (
-	'nl' => 'Nederlands',
-	'da' => 'Deens',
-	'pt' => 'Purtugees',
-	'pt_br' => 'Portugees (Braziliaans)' );
+	'en' => 'English',
+	'nl' => 'Nederlands' );
 	
 /* used in header and language detection functions */
 $language_codes = array_keys ($languages);
