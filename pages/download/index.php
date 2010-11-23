@@ -20,7 +20,7 @@ function print_servers($path)
 
 <h1><?php E_('Download') ?></h1>
 
-<h2 id="stable"><?php printf (R_('Stable release %s'), $full_stable_version) ?></h1>
+<h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h1>
 <p>
   <?php E_('Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at a list of Xfce-oriented distributions <a href="/download/distros">here</a>.') ?>
 </p>
@@ -30,17 +30,17 @@ function print_servers($path)
 </p>
 
 <ul>
-<?php print_servers ('xfce/'.$full_stable_version) ?>
+<?php print_servers ('xfce/'.$stable_version) ?>
 </ul>
 
-<?php if ($devel_version) { ?>
-<h2 id="unstable"><?php printf (R_('Preview release %s'), $full_devel_version) ?></h2>
+<?php if ($preview_visible) { ?>
+<h2 id="unstable"><?php printf (R_('Preview release %s'), $preview_version) ?></h2>
 <p>
   <?php E_('Below you can find download locations for the latest development/unstable release of Xfce. Note that this software almost certainly contains bugs, many of which might affect your desire to use it in a production environment. You should back up all configuration files before installing and using these releases. If you\'re uncertain about downloading this release, you should probably use the <a href="#stable">stable release</a> above.') ?>
 </p>
 
 <ul>
-<?php print_servers ('xfce/'.$full_devel_version) ?>
+<?php print_servers ('xfce/'.$preview_version) ?>
 </ul>
 <?php } ?>
 

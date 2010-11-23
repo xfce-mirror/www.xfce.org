@@ -1,16 +1,15 @@
 <?php
+  /**
+   * Always check the version number in the download page, all the mirror
+   * links should open a folder in teh archive
+   **/
+
   /* latest stable release version */
-  $major_stable_version = 4;
-  $manor_stable_version = 6;
-  $micro_stable_version = 2;
-  $full_stable_version = $major_stable_version.'.'.$manor_stable_version.'.'.$micro_stable_version;
+  $stable_version = '4.6.2';
+  $stable_date = '2010-05-23';
 
-  /* version of the master branch in core */
-  $major_devel_version = 4;
-  $manor_devel_version = 8;
-  $micro_devel_version = 'pre1';
-  $full_devel_version = $major_devel_version.'.'.$manor_devel_version.$micro_devel_version;
-
-  /* set to true if there is a devel release, newer then the stable release */
-  $devel_version = TRUE;
+  /* latest development version */
+  $preview_version = '4.8pre1';
+  $preview_date = '2010-07-11';
+  $preview_visible = TRUE /* set to true if preview is *newer* then stable */
 ?>
