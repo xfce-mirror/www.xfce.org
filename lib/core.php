@@ -31,6 +31,10 @@ function lookup_page($uri)
 {
 	$root = 'pages/';
 
+	/* don't allow ../nav uris */
+	if (basename ($uri) == 'nav')
+		$uri = 'foo';
+
 	if (empty ($uri))
 		return $root.'frontpage.php';
 

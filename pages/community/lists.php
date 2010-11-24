@@ -1,4 +1,6 @@
-<h1><?php E_('Mailing Lists') ?></h1>
+<?php $head['title'] = R_('Mailing Lists') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_('<strong>NOTE:</strong> In order to post to these lists, you must first subscribe.') ?>

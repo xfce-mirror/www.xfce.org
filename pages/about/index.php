@@ -1,4 +1,6 @@
-<h1><?php E_('About') ?></h1>
+<?php $head['title'] = R_('About') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_('Xfce is a lightweight desktop environment for unix-like operating systems. It aims to be fast and lightweight, while still being visually appealing and user friendly.') ?>

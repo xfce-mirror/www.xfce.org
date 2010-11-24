@@ -1,5 +1,9 @@
-<h1><?php E_('Screenshots') ?></h1>
-<p><?php E_('Some screenshots of Xfce, ordered by version.') ?></p>
+<?php $head['title'] = R_('Screenshots') ?>
+
+<h1><?php echo $head['title'] ?></h1>
+<p>
+  <?php E_('Some screenshots of Xfce, ordered by version.') ?>
+</p>
 
 <h2><?php E_('Xfce 4.6') ?></h2>
 <p>

@@ -1,4 +1,6 @@
-<h1><?php E_('Features') ?></h1>
+<?php $head['title'] = R_('Features') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_('Xfce provides a lightweight desktop environment with a desktop manager drawing a wallpaper and allowing you to have icons on your desktop, a panel with numerous plugins, a standard compliant window manager with a compositing manager, a settings manager to customize your desktop environment, a modern and easy to use file manager and a session manager which allows you to save the current session, autostart applications, shutdown, reboot, suspend or hibernate your computer.') ?>

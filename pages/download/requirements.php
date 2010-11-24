@@ -1,4 +1,6 @@
-<h1><?php E_('System requirements') ?></h1>
+<?php $head['title'] = R_('System requirements') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 <p>
   <?php printf (R_('All packages (except xfce4-dev-tools) depend on both gtk+ %s and glib %s.'), '&gt;= 2.10', '&gt;= 2.12') ?>
 </p>

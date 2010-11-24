@@ -1,4 +1,6 @@
-<h1><?php E_('Distributions') ?></h1>
+<?php $head['title'] = R_('Distributions') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <h2><?php E_('Distributions based on Xfce') ?></h2>
 

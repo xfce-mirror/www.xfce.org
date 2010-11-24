@@ -1,5 +1,7 @@
 <?php
 
+$head['title'] = R_('Download');
+
 include ('pages/versions.php');
 
 $servers = array (
@@ -18,7 +20,7 @@ function print_servers($path)
 
 ?>
 
-<h1><?php E_('Download') ?></h1>
+<h1><?php echo $head['title'] ?></h1>
 
 <h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h1>
 <p>
@@ -44,7 +46,7 @@ function print_servers($path)
 </ul>
 <?php } ?>
 
-<h2><?php E_('Individual releases') ?></h2>
+<h2 id="individual"><?php E_('Individual releases') ?></h2>
 <p>
   <?php E_('Each package in Xfce can make idividual releases, also the core packages, to make development or stable releases. You can follow the announcements of the releases on the <a href="/community/lists">Xfce user mailing list</a>, watch the <a href="http://releases.xfce.org/feeds/project/">release feeds</a> or follow the Xfce <a href="http://identi.ca/xfce">ident.ca channel</a>.') ?>
 </p>

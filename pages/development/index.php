@@ -1,4 +1,6 @@
-<h1><?php E_('Development') ?></h1>
+<?php $head['title'] = R_('Development') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 <p>
   <?php E_('Xfce is made possible thanks to the help of volunteers with all kinds of skills and talents. Coding is just one way to help &ndash; translators, documenters, and designers are also welcome! This page outlines some of the areas where you could help out.') ?>
 </p>

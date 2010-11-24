@@ -1,5 +1,9 @@
-<h1><?php E_('Press') ?></h1>
-<p><?php E_('Here you can find various reviews of the Xfce desktop environment.') ?></p>
+<?php $head['title'] = R_('Press') ?>
+
+<h1><?php echo $head['title'] ?></h1>
+<p>
+  <?php E_('Here you can find various reviews of the Xfce desktop environment.') ?>
+</p>
 
 <table>
   <tr>

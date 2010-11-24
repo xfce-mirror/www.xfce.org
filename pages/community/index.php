@@ -1,4 +1,6 @@
-<h1><?php E_('Community') ?></h1>
+<?php $head['title'] = R_('Community') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_('If you were not able to solve your problem by using the documentation on this website, the Xfce communities are a good place to get help or to share your ideas.') ?>
