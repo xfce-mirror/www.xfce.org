@@ -7,43 +7,100 @@ body {
 	color: -moz-FieldText; */
 }
 
-#xfce-header {
-        border-bottom: 5px #09c solid;
-        background: #000;
+#page-header {
+        /*border-bottom: 5px #0C6AD4 solid;*/
+        background: #333;
 }
-#xfce-header h1 {
+#page-header h1 {
         color: #fff;
         line-height: 50px;
         margin: 0 0 0 15px;
         float: left;
+	text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 3px;
 }
-#xfce-header ul {     
+#page-header ul {     
 	float: right ;
 	list-style: none;
         margin: 0;
         padding: 0 15px 0 0;
-        background: #000;
+        background: #333;
 }
-#xfce-header ul li {
+#page-header ul li {
 	float: left;
         font-weight: bold;
         line-height: 50px;
 }
-#xfce-header a {
+#page-header a {
 	color: #fff;
         text-decoration: none;
         display: block;
         float: right;
         padding: 0 15px 0 15px;
 }
-#xfce-header ul li a:hover {
-	color: #09c;
+#page-header ul li a:hover {
+	color: #0C6AD4;
 }
-#xfce-header .active {
-        color: #09c;
+#page-header .active {
+        color: #0C6AD4;
 }
-#xfce-header-clear {
-	clear: both;
+
+
+#page-wrap {
+	margin: auto;
+	padding: 1em 0 1em 0;
+	text-align: left;
+	min-width: 650px; 
+	max-width: 1280px;
+}
+
+#page-contents {
+	margin-right: 180px;
+}
+
+#menu-main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	
+}
+#menu-main ul li {
+	border-left: 1px solid #e0e0e0;
+	float: left;
+	padding: 0 1em 0 1em;
+	margin: 0;
+	font-weight: bold;
+}
+#menu-main ul li:first-child {
+	border-left: 0;
+	padding-left: 0;
+}
+#menu-main ul li a {
+	color: #666;
+	text-decoration: none;
+	
+}
+#menu-main ul li a:hover {
+	color: #0C6AD4;
+}
+
+#menu-sub {
+	float: right;
+	width: 170px;
+	margin-top: 2em;
+	background: #eee;
+	border: 1px solid #e0e0e0;
+	padding: 0.6em 0;
+}
+#menu-sub ul {
+
+	line-height: 1.6em;
+	list-style: none;
+	margin: 0;
+	padding: 0 0.8em;
+}
+#menu-sub ul li {
+	background: transparent url('img/bullit.gif') 0 0.6em no-repeat;
+	padding-left: 10px;
 }
 
 
@@ -53,4 +110,35 @@ table th {
 
 table tr:nth-child(even) {
         background: #ccc;
+}
+
+#page-contents h1, #page-contents h2, #page-contents h3, #page-contents h4 {
+	color: #505050;
+	border-bottom: 1px solid #e0e0e0;
+	font-weight: normal;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0 0 0;
+}
+
+#page-contents h1
+{
+	font-size: 180%;
+}
+#page-contents h2
+{
+	font-size: 170%;
+}
+#page-contents h3
+{
+	border-bottom: none;
+	font-size: 160%;
+}
+#page-contents h4
+{
+	border-bottom: none;
+	font-size: 150%;
+}
+
+.clearboth {
+	clear: both;
 }

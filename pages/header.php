@@ -28,7 +28,7 @@ else
 
 <body id="top">
 
-<div id="xfce-header">
+<div id="page-header">
 	<div>
 		<h1>Xfce</h1>
 		<ul>
@@ -41,11 +41,12 @@ else
 			<li><a href="http://translations.xfce.org" title="Help translating the Xfce project">Translate</a></li>
 		</ul>
 	</div>
-	<div id="xfce-header-clear"></div>
+	<div class="clearboth"></div>
 </div>
 
-<div id="pagewrap">
-	<div>
+<div id="page-wrap">
+	<div id="menu-main">
+		<div>
 		<ul>
 			<li><a href="/">Home</a></li>
 			<li><a href="/about/">About</a></li>
@@ -54,4 +55,20 @@ else
 			<li><a href="/projects/">Projects</a></li>
 			<li><a href="/development/">Development</a></li>
 		</ul>
+		</div>
+		<div class="clearboth"></div>
 	</div>
+
+<?php
+	if (isset($toc['filename']))
+	{
+?>
+	<div id="menu-sub">
+		<div>
+			<?php include ($toc['filename']) ?>
+		</div>
+	</div>
+<?php
+	}
+?>
+	<div id="page-contents">

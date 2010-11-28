@@ -24,13 +24,13 @@ ob_start ();
 include ($content_file);
 $contents = ob_get_clean ();
 
-/* load the page header */
-include ('pages/header.php');
-
 /* load the category navigation if there is one */
 $navigation_file = dirname ($content_file) . '/nav.php';
 if (is_file ($navigation_file))
-        include ($navigation_file);
+        $toc['filename'] = $navigation_file;
+
+/* load the page header */
+include ('pages/header.php');
 
 /* write the contents */
 echo $contents;
@@ -39,6 +39,6 @@ echo $contents;
 include ('pages/footer.php');
 
 $timer_end = microtime_float ();
-echo "Execution time: ". round ($timer_end - $timer_start, 4) ." second";
+echo "<!-- Execution time: ". round ($timer_end - $timer_start, 4) ." second -->";
 
 ?>
