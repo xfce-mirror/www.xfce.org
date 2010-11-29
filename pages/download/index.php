@@ -22,7 +22,7 @@ function print_servers($path)
 
 <h1><?php echo $head['title'] ?></h1>
 
-<h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h1>
+<h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h2>
 <p>
   <?php E_('Most distributions ship with Xfce. But if you want a newer version or you want to build Xfce from scratch, you can find the packages below. You can also take a look at a list of Xfce-oriented distributions <a href="/download/distros">here</a>.') ?>
 </p>

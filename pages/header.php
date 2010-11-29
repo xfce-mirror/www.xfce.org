@@ -31,6 +31,7 @@ else
 <div id="page-header">
 	<div>
 		<h1>Xfce</h1>
+		<h5 class="hidden">Sub domains</h5>
 		<ul>
 			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
 			<li><a href="http://docs.xfce.org" title="Official documentation">Docs</a></li>
@@ -47,15 +48,33 @@ else
 <div id="page-wrap">
 	<div id="menu-main">
 		<div>
-		<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about/">About</a></li>
-			<li><a href="/download/">Download</a></li>
-			<li><a href="/community/">Community</a></li>
-			<li><a href="/projects/">Projects</a></li>
-			<li><a href="/development/">Development</a></li>
-		</ul>
+			<h5 class="hidden"><?php E_('Categories') ?></h5>
+			<ul>
+				<li><a href="/"><?php E_('Home') ?></a></li>
+				<li><a href="/about/"><?php E_('About') ?></a></li>
+				<li><a href="/download/"><?php E_('Download') ?></a></li>
+				<li><a href="/community/"><?php E_('Community') ?></a></li>
+				<li><a href="/projects/"><?php E_('Projects') ?></a></li>
+				<li><a href="/development/"><?php E_('Development') ?></a></li>
+			</ul>
 		</div>
+		<form id="languageform" action="" method="get">
+			<select name="lang" onchange="document.getElementById('languageform').submit(); return true;" title="<?php E_('Change language') ?>">
+<?php
+				foreach ($languages as $code => $name)
+				{
+					/* select active language */
+					if ($code == $lang || (empty ($lang) && $code == 'en'))
+						$selected = ' selected="selected"';
+					else
+						$selected = '';
+
+					echo "\t\t\t\t<option value=\"$code\"$selected>$name</option>\n";
+				}
+?>
+			</select>
+			<button type="submit" class="hidden"><?php E_('Change language') ?></button>
+		</form>
 		<div class="clearboth"></div>
 	</div>
 
@@ -64,9 +83,8 @@ else
 	{
 ?>
 	<div id="menu-sub">
-		<div>
-			<?php include ($toc['filename']) ?>
-		</div>
+		<h5><?php E_('Category Pages') ?></h5>
+		<?php include ($toc['filename']) ?>
 	</div>
 <?php
 	}
