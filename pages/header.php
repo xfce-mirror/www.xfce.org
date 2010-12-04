@@ -30,7 +30,7 @@ else
 
 <div id="page-header">
 	<div>
-		<h1>Xfce</h1>
+		<h1 class="hidden">Xfce</h1>
 		<h5 class="hidden">Sub domains</h5>
 		<ul>
 			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
