@@ -42,6 +42,10 @@ function bug ($id){
 <ul>
   <li>Make .desktop entries installed by Thunar validate against desktop-file-utils 0.16 (<?php bug('6655') ?>). Patch by Samuli Suominen.</li>
   <li>Fix missing instruction to load the sendto model (<?php bug('6762') ?>).</li>
+  <li>Fix the sample D-Bus client for the org.xfce.FileManager interface.</li>
+  <li>Fix home folder being displayed as "Desktop" if $HOME is set to /home/username/Desktop.</li>
+  <li>Fix outdated Thunar D-Bus API usage in the trash panel applet.</li>
+  <li>Create user dirs instead of showing an error if they don't exist.</li>
   <li>Allow scrolling in the 'Open With' combo box of the file properties dialog (<?php bug('3055') ?>).</li>
   <li>Expand filenames starting with './' based on the current working directory instead of home (<?php bug('3451') ?>).</li>
   <li>Print an error if thunar-settings fails to contact the file manager service (<?php bug('6547') ?>).</li>
