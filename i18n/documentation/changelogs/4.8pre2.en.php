@@ -42,13 +42,24 @@ function bug ($id){
 <ul>
   <li>Make .desktop entries installed by Thunar validate against desktop-file-utils 0.16 (<?php bug('6655') ?>). Patch by Samuli Suominen.</li>
   <li>Fix missing instruction to load the sendto model (<?php bug('6762') ?>).</li>
+  <li>Fix the sample D-Bus client for the org.xfce.FileManager interface.</li>
+  <li>Fix home folder being displayed as "Desktop" if $HOME is set to /home/username/Desktop.</li>
+  <li>Fix outdated Thunar D-Bus API usage in the trash panel applet.</li>
+  <li>Create user dirs instead of showing an error if they don't exist.</li>
   <li>Allow scrolling in the 'Open With' combo box of the file properties dialog (<?php bug('3055') ?>).</li>
   <li>Expand filenames starting with './' based on the current working directory instead of home (<?php bug('3451') ?>).</li>
   <li>Print an error if thunar-settings fails to contact the file manager service (<?php bug('6547') ?>).</li>
   <li>Permanently delete files if at least one of them cannot be trashed (<?php bug('6748') ?>).</li>
   <li>Fix a typo in configure.in.in (<?php bug('6724') ?>).</li>
+  <li>Include panel macro header (<?php bug('6680') ?>).</li>
   <li>Use GTK_STOCK_FILE as the fallback icon for files (<?php bug('6662') ?>).</li>
+  <li>Fix compiler warnings about shadowed variables.</li>
   <li>Use Name field as display name of desktop entries (<?php bug('6860') ?>).</li>
+  <li>Fix a memory leak in thunar_transfer_job_execute().</li>
+  <li>Fix a segmentation fault when reloading files.</li>
+  <li>Avoid GIO 2.20 function calls.</li>
+  <li>Properly avoid launching the file manager recursively by checking the GAppInfo id/name.</li>
+  <li>Translation updates: Hungarian, German, Slovak, Portuguese (Brazilian), Chinese (China), Greek, Catalan (Valencian), Italian, Basque, Spanish (Castilian), Kazakh, Portuguese, Hebrew, Galician, Indonesian, Chinese (Taiwan), Japanese, Finish.</li>
 </ul>
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
@@ -58,13 +69,8 @@ function bug ($id){
   <li>Hookup the help button in xfce4-about.</li>
   <li>Fix typo in xfce4-about --help.</li>
   <li>Fix some wrong capitalizations of Xfce.</li>
+  <li>Set XDG_MENU_PREFIX to "xfce-" and export it (bug #5980).</li>
   <li>Translation updates (id, zh_TW, kk, it, fi, gl, da, ca, pt, uk, eu, sk, de, hu).</li>
-</ul>
-
-<h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
-
-<ul>
-
 </ul>
 
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
@@ -95,13 +101,17 @@ function bug ($id){
   <li>Add window DND to the pager in tasklist.</li>
   <li>Make viewports work in the tasklist (<?php bug('6898') ?> and <?php bug('6665') ?>).</li>
   <li>Support viewports in button pager.</li>
+  <li>Always use applications menu for default menu.</li>
+  <li>Fix Exec key in desktop file handler (<?php bug('6912') ?>).</li>
+  <li>Fix if statement in xfce_tasklist_button_visible().</li>
+  <li>Depend on garcon 0.1.4.</li>
   <li>Translation updates (be, ca, da, de, eu, fi, gl, hu, id, it, ja, kk, nl, pt, sk, ta, uk, zh_CN, zh_TW).</li>
 </ul>
 
 <h3>Session Manager <em>(xfce4-session)</em>:</h3>
 
 <ul>
-<li>Do not try "unix-session" authorization with PolicyKit as this seems to be either broken or not implemented in PolicyKit (<?php bug('6817') ?>). This fixes suspend/hibernate in xfce4-session-logout.</li>
+  <li>Do not try "unix-session" authorization with PolicyKit as this seems to be either broken or not implemented in PolicyKit (<?php bug('6817') ?>). This fixes suspend/hibernate in xfce4-session-logout.</li>
   <li>Fix possibly shadowed variables.</li>
   <li>Fix compilation on FreeBSD with polkit (<?php bug('6870') ?>).</li>
   <li>Restore splash screen functionality (<?php bug('6831') ?>).</li>
@@ -118,13 +128,14 @@ function bug ($id){
   <li>Fix compiler warnings.</li>
   <li>Drop Xfce from the settings manager .desktop name.</li>
   <li>Fix free of invalid memory (<?php bug('6909') ?>).</li>
+  <li>Add checks for API change in libnotify 0.7.0.</li>
   <li>Translations updates (hu, zh_CN, he, pt, gl).</li>
 </ul>
 
 <h3>Configuration Manager <em>(xfconf)</em>:</h3>
 
 <ul>
-<li>Don't enable options with --disable-$option (<?php bug('6820') ?>).</li>
+  <li>Don't enable options with --disable-$option (<?php bug('6820') ?>).</li>
   <li>Use G_GSIZE_FORMAT in the DBG message.</li>
   <li>Add doc module to fixxref options (<?php bug('6304') ?>).</li>
   <li>Link the gtkdoc scanner to GObject and Glib (<?php bug('6407') ?>).</li>
@@ -146,10 +157,29 @@ function bug ($id){
   <li>Delay notification initialization until we show one.</li>
   <li>Set the correct session priority.</li>
   <li>Do not call gtk_widget_show() on menus (<?php bug('6198') ?>).</li>
+  <li>Add checks for an API change in libnotify 0.7.0 (bug #6915).</li>
+  <li>Avoid GTK+ 2.18 and GIO 2.20 function calls (or at least guard them so that xfdesktop still builds with older versions).</li>
+  <li>Let garcon choose the default applications menu file using XDG_MENU_PREFIX. Drop the UserMenu kiosk option as the panel sort of allows to bypass it anyway.</li>
   <li>Translation updates: gl, ca, de, it, kk, fi, sk, pt, uk, el, zh_TW, da, id, eu, hu, lt.</li>
 </ul>
 
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
+
+<ul>
+  <li>Fix break with latest API changes in libxfce4ui.</li>
+  <li>Fix corrupted button layouts by obtaining the button IDs correctly (<?php bug('6824') ?>).</li>
+  <li>Bump the GTK+ dependency to 2.14 which is the minimum version required for Xfce 4.8.</li>
+  <li>Properly implement session handling (<?php bug('6330') ?>).</li>
+  <li>Make the settings dialog smaller so it fits on netbooks screens.</li>
+  <li>Depend on libxfce4ui 4.7.5 for crucial fix in the save-state-extended signal.</li>
+  <li>Panel won't focus entries in focus follow mode (<?php bug('6649') ?>).</li>
+  <li>Adjusted sizes when a maximized window is undecorated (<?php bug('6543') ?>).</li>
+  <li>Unshade windows when given focus with Alt-Tab (<?php bug('5931') ?>).</li>
+  <li>Fix hang when closing a submenu (<?php bug('6562') ?>).</li>
+  <li>New theme for 4.8.</li>
+  <li>Focus-follows-mouse activate/raise should not do focus (<?php bug('4679') ?>).</li>
+  <li>Translation updates (zh_TW, ug, it, gl, ja, sv, pt, pt_BR, da, de, kk, hu, zh_CN).</li>
+</ul>
 
 
 
