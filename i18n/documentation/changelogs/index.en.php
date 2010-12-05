@@ -7,6 +7,7 @@
 
 <ul>
   <li><a href="/documentation/changelogs/4.8pre1/">4.8pre1</li>
+  <li><a href="/documentation/changelogs/4.8pre2/">4.8pre2</li>
 </ul>
 
 <h3>Xfce 4.6:</h3>
