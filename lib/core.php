@@ -99,10 +99,12 @@ function lookup_key ($key, $valid_values, $default = null)
 
 function lookup_user_language ($valid_values, $default = 'en')
 {
-	$accept = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+	if (!isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
+		return $default;
+
+	$accept = strtolower ($_SERVER['HTTP_ACCEPT_LANGUAGE']);
 	if (empty ($accept))
 		return $default;
-	$accept = strtolower ($accept);
 
 	foreach (explode (',', $accept) as $lang)
 	{
