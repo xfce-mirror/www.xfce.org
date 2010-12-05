@@ -13,7 +13,8 @@
 	<li><a href="/download/development"><?php E_('Development') ?></a></li>
 </ul>
 
+<h5><?php E_('External Links') ?></h5>
 <ul>
-	<li><a href="http://git.xfce.org/" class="external"><?php E_('Browse GIT repositories') ?></a></li>
-	<li><a href="http://goodies.xfce.org" class="external"><?php E_('Panel Plugins') ?></a></li>
+	<li><a href="http://git.xfce.org/" target="_blank" class="external"><?php E_('Browse GIT repositories') ?></a></li>
+	<li><a href="http://goodies.xfce.org" target="_blank" class="external"><?php E_('Panel Plugins') ?></a></li>
 </ul>

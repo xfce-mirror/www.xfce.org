@@ -9,13 +9,16 @@ session_start ();
 
 /* shared translation reader, loaded at buttom of this file */
 $gettext_reader = null;
+$lang = null;
 
 /* return translated string */
 function R_($text)
 {
-	global $gettext_reader;
+	global $gettext_reader, $lang;
 	if ($gettext_reader)
 		return $gettext_reader->translate($text);
+	elseif ($lang == 'foo')
+		return '###';
 	else
 		return $text;
 }
@@ -115,6 +118,11 @@ function lookup_user_language ($valid_values, $default = 'en')
 	}
 
 	return $default;
+}
+
+function mungify_mail ($email)
+{
+	return '<span class="mungify">'. strrev ($email) .'</span>';
 }
 
 /* if no language if found, lookup the accepted browser languages */

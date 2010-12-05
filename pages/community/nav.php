@@ -4,6 +4,7 @@
 	<li><a href="/community/irc"><?php E_('IRC') ?></a></li>
 </ul>
 
+<h5><?php E_('External Links') ?></h5>
 <ul>
 	<li><a href="http://forum.xfce.org" target="_blank" class="external"><?php E_('Forum') ?></a></li>
 	<li><a href="http://blog.xfce.org" target="_blank" class="external"><?php E_('Blog') ?></a></li>

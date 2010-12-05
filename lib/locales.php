@@ -8,7 +8,8 @@
 /* known languages in this directory */
 $languages = array (
 	'en' => 'English',
-	'nl' => 'Nederlands' );
+	'nl' => 'Nederlands',
+	'foo' => '###');
 	
 /* used in header and language detection functions */
 $language_codes = array_keys ($languages);
