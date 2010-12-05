@@ -29,6 +29,52 @@ $news = array (
 */
 
     array (
+        'id'      => 25,
+        'date'    => "5 dec 2010",
+        'author'  => "The Xfce development team",
+        'title'   => "Xfce 4.8pre2 Released",
+        'content' => "We are pleased to announce the second preview release of Xfce 4.8. This release marks ".
+                     "the beginning of the string freeze. From today on until the final release, strings may ".
+                     "no longer be changed in the master branch of Xfce core components. This will help translators ".
+                     "to prepare their translations for the final release scheduled on January 16th, 2011.".
+                     "[br][br]".
+                     "For this release we focused on fixing bugs in all Xfce components.  We managed to close ".
+                     "a great number of them thanks to all the persons who reported them and tested proposed fixes".
+                     " quickly.".
+                     "[br]][br]".
+                     "A few minor panel features were added despite feature freeze. We also managed to work on two ".
+                     "long time requests: proper support for editing the application menu with menu editors (Alacarte ".
+                     "being the one that we tested) and integration with the Compiz viewport. Of course, this release ".
+                     "also features a lot of new and improved translations thanks to the amazing work of our translation ".
+                     "teams.".
+                     "[br][br]".
+                     "A list of all changes is available [link=/documentation/changelogs/4.8pre2]here[/link].".
+                     "[br][br]".
+                     "Release tarballs can be retrieved from the following mirrors (please note that it may take a few ".
+                     "hours for the mirrors to catch up):".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre2/src]archive.xfce.org[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre2/src]tx-us.xfce.org[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre2/src]p0llux.be[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre2/src]ca-us.xfce.org[/url][br]".
+                     "[br][br]".
+                     "A tarball including all individual releases can be downloaded here:".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre2/fat_tarballs]archive.xfce.org[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre2/fat_tarballs]tx-us.xfce.org[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre2/fat_tarballs]p0llux.be[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre2/fat_tarballs]ca-us.xfce.org[/url][br]".
+                     "[br][br]".
+                     "We hope you will enjoy this release. Please give us feedback by sharing your thoughts, ".
+                     "blogging, [url=http://www.twitter.com/]tweeting[/url], [url=http://www.identi.ca/]denting[/url], ".
+                     "or by [url=http://bugzilla.xfce.org/]filing bug reports[/url]. With your help, 4.8 will be the ".
+                     "best release ever (at least until 4.10)!".
+                     "[br][br]".
+                     "Kind regards and thanks to everyone who has contributed to this release,".
+                     "[br]".
+                     "The Xfce development team"
+    ),
+    array (
         'id'      => 24,
         'date'    => "7 nov 2010",
         'author'  => "The Xfce development team",
@@ -248,12 +294,12 @@ $news = array (
                      "[br][br]".
                      "This are just a few changes everybody is likely to notice.[br]".
                      "A complete list of changes can be found at ".
-                     "[url=http://www.xfce.org/documentation/changelogs/4.5.92]this location[/url].[br]".  
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.92]this location[/url].[br]".
                      "Once again, the translators have done a great job on translating Xfce in their native language.[br]".
                      "We will probably see Xfce 4.6 be translated in more languages then ever before thanks to their hard work.".
                      "[br][br]".
-                     "Getting excited? You can download Xfce 4.6 BETA-2 from ".  
-                     "[link=download/#unstable]here[/link].".  
+                     "Getting excited? You can download Xfce 4.6 BETA-2 from ".
+                     "[link=download/#unstable]here[/link].".
                      "We hope you have a lot of fun trying out this new Xfce.".
                      "If you find any issues, don't hesitate to check out our [url=http://bugzilla.xfce.org/]bug tracking system[/url] ".
                      "and look for the bug, or submit a new report if your issues are not already mentioned.".
@@ -302,10 +348,10 @@ $news = array (
                      "A list of known issues can be found [url=http://wiki.xfce.org/releng/4.6/known-issues]here[/url].".
                      "[br][br]".
                      "A complete list of changes can be found at ".
-                     "[url=http://www.xfce.org/documentation/changelogs/4.5.91]this location[/url].[br]".  
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.91]this location[/url].[br]".
                      "[br][br]".
-                     "Getting excited? You can download Xfce 4.6 BETA-1 from ".  
-                     "[link=download/#unstable]here[/link].".  
+                     "Getting excited? You can download Xfce 4.6 BETA-1 from ".
+                     "[link=download/#unstable]here[/link].".
                      "[br][br]".
                      "We hope you have a lot of fun trying out this new Xfce.".
                      "If you find any issues, don't hesitate to check out our [url=http://bugzilla.xfce.org/]bug tracking system[/url] ".
@@ -330,19 +376,19 @@ $news = array (
                      "[br][br]".
                      "The release schedule for Xfce 4.6 is available to the public on ".
                      "[url=http://wiki.xfce.org/milestones_to_46]the wiki[/url].".
-                     "[br][br][br]".  
+                     "[br][br][br]".
                      "Xfce 4.6 comes with a lot of new components, some of them replacing old ".
                      "code and some of them being completely new. A preliminary ChangeLog for ".
                      "the alpha release can be found at ".
-                     "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url][br]".  
+                     "[url=http://www.xfce.org/documentation/changelogs/4.5.90]this location[/url][br]".
                      "There is also a page which contains general information about the ".
                      "components of Xfce 4.6 and changes that are supposed to go into 4.6:[br][br]".
                      "[url=http://wiki.xfce.org/general_info_46]http://wiki.xfce.org/general_info_46[/url][br][br]".
                      "As this is a development-release, we do not claim it is perfect. ".
                      "[url=http://wiki.xfce.org/known_issues_46]Here[/url] ".
                      "is a list of issues we have already identified.[br][br]".
-                     "Getting excited? You can download xfce 4.6 alpha from ".  
-                     "[link=download/#unstable]here[/link].".  
+                     "Getting excited? You can download xfce 4.6 alpha from ".
+                     "[link=download/#unstable]here[/link].".
                      "[br][br]".
                      "We hope you have a lot of fun trying out this new Xfce.".
                      "If you find any issues, don't hesitate to check out [url=http://bugzilla.xfce.org/]bug tracking system[/url] ".
