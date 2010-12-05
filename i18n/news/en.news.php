@@ -41,7 +41,7 @@ $news = array (
                      "For this release we focused on fixing bugs in all Xfce components.  We managed to close ".
                      "a great number of them thanks to all the persons who reported them and tested proposed fixes".
                      " quickly.".
-                     "[br]][br]".
+                     "[br][br]".
                      "A few minor panel features were added despite feature freeze. We also managed to work on two ".
                      "long time requests: proper support for editing the application menu with menu editors (Alacarte ".
                      "being the one that we tested) and integration with the Compiz viewport. Of course, this release ".
