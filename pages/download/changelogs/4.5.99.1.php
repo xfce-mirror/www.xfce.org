@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h2>Xfce 4.6 RC 1 (4.5.99.1) Changelog</h2>
 
@@ -32,13 +28,13 @@ function bug ($id){
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
     <li>Fix a crash when removing a monitor with xrandr 1.2.</li>
-    <li>Command line option "--daemon" would have no effect when xfwm4 connects to the session manager (Bug #4839).</li>
-    <li>Fix settings not being set at startup (Bug #4845).</li>
+    <li>Command line option "--daemon" would have no effect when xfwm4 connects to the session manager (bug #4839).</li>
+    <li>Fix settings not being set at startup (bug #4845).</li>
     <li>Flatten default theme.</li>
     <li>Add support for NET_WM_FULLSCREEN_MONITORS.</li>
-    <li>Fix dragging button layout when the dialog is embedded in the settings dialog (Bug #4524).</li>
+    <li>Fix dragging button layout when the dialog is embedded in the settings dialog (bug #4524).</li>
     <li>Make title alignment and button layout insensitive when not supported by the theme selected.</li>
-    <li>Use gtk_selection_data_get_data() only if available (Bug #4855).</li>
+    <li>Use gtk_selection_data_get_data() only if available (bug #4855).</li>
 </ul>
 
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>

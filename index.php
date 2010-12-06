@@ -4,8 +4,8 @@ error_reporting(E_ALL | E_STRICT);
 
 function microtime_float ()
 {
-  list ($usec, $sec) = explode(" ", microtime());
-  return ((float)$usec + (float)$sec);
+        list ($usec, $sec) = explode(" ", microtime());
+        return ((float)$usec + (float)$sec);
 }
 
 $timer_start = microtime_float ();
@@ -31,6 +31,14 @@ if (is_file ($navigation_file))
 
 /* load the page header */
 include ('pages/header.php');
+
+/* maybe we need to do something with the content first */
+if (str_has_prefix ($uri, 'download/changelogs/'))
+{
+        /* replace #???? with bug tracker links */
+        $bugurl = '<a href="http://bugzilla.xfce.org/show_bug.cgi?id=$1">#$1</a>';
+        $contents = preg_replace ('/#(\d+)/', $bugurl, $contents);
+}
 
 /* write the contents */
 echo $contents;

@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h2>Xfce 4.6 BETA 3 (4.5.93) Changelog</h2>
 
@@ -57,19 +53,19 @@ function bug ($id){
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
   <li>Work around a problem affecting the use of the "Super" key as modifier for
-  moving windows (Bug #4632).</li>
+  moving windows (bug #4632).</li>
   <li>Fix smart placement not working for windows with height or width larger than
   actual screen size (Bug# 3126).</li>
-  <li>Remove maximization if a client updates its size max size hint (Bug #4706).</li>
-  <li>String review by Josh Saddler <nightmorph@gentoo.org> (Bug #4703).</li>
-  <li>Fix fill horizontally and vertically not working as expected (Bug #4712).</li>
+  <li>Remove maximization if a client updates its size max size hint (bug #4706).</li>
+  <li>String review by Josh Saddler <nightmorph@gentoo.org> (bug #4703).</li>
+  <li>Fix fill horizontally and vertically not working as expected (bug #4712).</li>
   <li>Prevent "fill" from expanding beyond physical monitor.</li>
-  <li>Do not mark gtk+ stock labels as translatable (Bug #4722).</li>
+  <li>Do not mark gtk+ stock labels as translatable (bug #4722).</li>
   <li>Change default shadow radius and position.</li>
-  <li>Fix some controls not being localized (Bug #4740).</li>
-  <li>Remove markup not supported by xfce_message_dialog() (Bug #4786).</li>
+  <li>Fix some controls not being localized (bug #4740).</li>
+  <li>Remove markup not supported by xfce_message_dialog() (bug #4786).</li>
   <li>Avoid placing unfocused windows on top of the current focused window when not
-  focusing new windows (Bug #4795).</li>
+  focusing new windows (bug #4795).</li>
 </ul>
 
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
@@ -206,7 +202,7 @@ function bug ($id){
 
 <h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
 <ul>
-  <li>Assume "All" category if the current category string is empty (Bug #4613).</li>
+  <li>Assume "All" category if the current category string is empty (bug #4613).</li>
   <li>Review strings.</li>
   <li>Translation updates: be (Alexander Nyakhaychyk), ca (Carles Muños Gorriz),
   cs (Michal Varady), da (Lars Nielsen), de (Fabian Nowak, Jannis Pohlmann),

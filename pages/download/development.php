@@ -20,8 +20,7 @@
 
 <h2><?php E_('Getting the source code') ?></h2>
 <p>
-<?php E_('To get a list of available modules and components, you can
-<a href="http://git.xfce.org/" class="external">browse the GIT repositories</a>.') ?>
+<?php E_('To get a list of available modules and components, you can <a href="http://git.xfce.org/" class="external">browse the GIT repositories</a>.') ?>
 </p>
 
 <h3><?php printf (R_('Latest release version (%s) from the GIT repositories'), $stable_version) ?></h3>

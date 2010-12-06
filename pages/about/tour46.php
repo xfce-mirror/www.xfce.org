@@ -71,9 +71,7 @@
   <?php E_('As usual, <b>Xfwm4</b> has matured quite a bit during this release cycle: many bugs have been fixed, support for multiple displays has been added, and overall performance has been improved.') ?>
 </p>
 
-<p><?php E_('In addition to some other new features, <b>Xfwm4</b> is now able to 
-detect windows that do not respond and offer to terminate them.
-') ?>
+<p><?php E_('In addition to some other new features, <b>Xfwm4</b> is now able to detect windows that do not respond and offer to terminate them.') ?>
 </p>
 
 <p class="image">
@@ -182,8 +180,7 @@ detect windows that do not respond and offer to terminate them.
 </p>
 
 <p>
-  <?php E_('The <b>Display settings</b> dialog allows you to set the resolution, 
-refresh rate, and the rotation for each screen that is connected.') ?>
+  <?php E_('The <b>Display settings</b> dialog allows you to set the resolution, refresh rate, and the rotation for each screen that is connected.') ?>
 </p>
 
 <h3><?php E_('Keyboard settings') ?></h3>

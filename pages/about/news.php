@@ -25,8 +25,6 @@
   <?php E_('Kind regards and thanks to everyone who has contributed to this release,<br />The Xfce development team.') ?>
 </p>
 
-
-
 <h2 id="2009-00-00"><?php E_('Xfce 4.2.1.1 released') ?></h2>
 <p>
   <?php E_('Xfce 4.2.1.1 has been released quickly after 4.2.1. It includes a fix for a bad bug where panel loses its configuration when saving the session in 4.2.1. The Sourceforge server has been updated, and other mirrors will follow soon.') ?>

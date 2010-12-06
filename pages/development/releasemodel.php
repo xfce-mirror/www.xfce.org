@@ -1,4 +1,13 @@
-<?php $head['title'] = R_('Release Model') ?>
+<?php 
+
+$head['title'] = R_('Release Model');
+
+$toc['anchors'] = array (
+        'core' => R_('The Xfce Core Desktop'),
+        'cycle' => R_('The Release Cycle'),
+        );
+
+?>
 
 <h1><?php echo $head['title'] ?></h1>
 
@@ -20,7 +29,7 @@
   <?php E_('This document intends to answer these questions and aims at defining a policy that we can refer to when planning releases.') ?>
 </p>
 
-<h1><?php E_('The Xfce Core Desktop') ?></h1>
+<h1 id="core"><?php E_('The Xfce Core Desktop') ?></h1>
 
 <h2><?php E_('Core Components') ?></h2>
 
@@ -53,7 +62,7 @@
   <li><?php E_('garcon') ?></li>
 </ul>
 
-<h1><?php E_('The Release Cycle') ?></h1>
+<h1 id="cycle"><?php E_('The Release Cycle') ?></h1>
 
 <p>
   <?php E_('The release cycle involves a short planning phase, a development phase with development releases and a release phase, eventually leading to a new stable release of the entire Xfce core desktop. In parallel to these phases, a maintenance process of the current stable release will continue. During this phase, bugfix releases and security fixes will be released for the stable version of Xfce.') ?>

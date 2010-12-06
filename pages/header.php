@@ -51,11 +51,11 @@ else
 			<h5 class="hidden"><?php E_('Categories') ?></h5>
 			<ul>
 				<li><a href="/"><?php E_('Home') ?></a></li>
-				<li><a href="/about/"><?php E_('About') ?></a></li>
-				<li><a href="/download/"><?php E_('Download') ?></a></li>
-				<li><a href="/community/"><?php E_('Community') ?></a></li>
-				<li><a href="/projects/"><?php E_('Projects') ?></a></li>
-				<li><a href="/development/"><?php E_('Development') ?></a></li>
+				<li><a href="/about"><?php E_('About') ?></a></li>
+				<li><a href="/download"><?php E_('Download') ?></a></li>
+				<li><a href="/community"><?php E_('Community') ?></a></li>
+				<li><a href="/projects"><?php E_('Projects') ?></a></li>
+				<li><a href="/development"><?php E_('Development') ?></a></li>
 			</ul>
 		</div>
 		<form id="languageform" action="" method="get">
@@ -81,12 +81,41 @@ else
 <?php
 	if (isset($toc['filename']))
 	{
-?>
-	<div id="menu-sub">
-		<h5><?php E_('Category Pages') ?></h5>
-		<?php include ($toc['filename']) ?>
-	</div>
-<?php
+		include ($toc['filename']);
+	
+		echo '<div id="menu-sub">';
+		
+		if (isset($toc['menu']))
+		{
+			echo '<h5>'.R_('Category Pages').'</h5>';
+			echo '<ul>';
+			foreach ($toc['menu'] as $link => $name)
+			{
+				echo '<li><a href="/'.$link.'">'.$name.'</a>';
+				
+				if (isset ($toc['anchors']) && strcmp ($uri, $link) == 0)
+				{
+					echo '<ul>';
+					foreach ($toc['anchors'] as $id => $name)
+						echo '<li><a href="#'.$id.'">'.$name.'</a></li>';
+					echo '</ul>';
+				}
+				
+				echo '</li>';
+			}
+			echo '</ul>';
+		}
+		
+		if (isset($toc['external']))
+		{
+			echo '<h5>'.R_('External Links').'</h5>';
+			echo '<ul>';
+			foreach ($toc['external'] as $link => $name)
+				echo '<li><a href="'.$link.'" target="_blank" class="external">'.$name.'</a></li>';
+			echo '</ul>';
+		}
+		
+		echo '</div>';
 	}
 ?>
 	<div id="page-contents">

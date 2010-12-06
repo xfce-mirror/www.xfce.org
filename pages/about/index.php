@@ -22,7 +22,7 @@
 <h2><?php E_('Features') ?></h2>
 
 <p>
-  <?php E_('The Xfce desktop contains number of core components for the minimum tasks you\'d expect from a desktop environement:') ?>
+  <?php E_('Xfce contains a number of core components for the minimum tasks you\'d expect from a desktop environement:') ?>
   
   <dt><?php E_('Window Manager') ?></dt>
   <dd><?php E_('Manages the placement of windows on the screen, provides window decorations and manages workspaces or virtual desktops.') ?></dd>

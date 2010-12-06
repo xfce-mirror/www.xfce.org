@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h1>Xfce 4.2 RC3 Changelog:</h1>
 
@@ -20,8 +16,8 @@ function bug ($id){
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
 	<li>Updated default theme</li>
-	<li>KDE system tray support fixed (<?php bug ('577'); ?>, <?php bug ('596'); ?> and <?php bug ('597'); ?>)</li>
-	<li>Improvements and fixes to the compositing manager (<?php bug ('552'); ?>)</li>
+	<li>KDE system tray support fixed (bug #577, bug #596 and bug #597)</li>
+	<li>Improvements and fixes to the compositing manager (bug #552)</li>
 	<li>Fixes for gtk+-2.6 in setting plugin</li>
 	<li>Various fixes</li>
 </ul>

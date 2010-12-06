@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h2>Xfce 4.6 BETA 1 (4.5.91) Changelog</h2>
 
@@ -22,12 +18,12 @@ function bug ($id){
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
     <li>Fix compile failure on Darwin due to the 'environ' variable not
-        being available (<?php bug(4432) ?>).</li>
+        being available (bug #4432) ?>).</li>
 </ul>
 
 <h3>Extension Library <em>(exo)</em>:</h3>
 <ul>
-    <li>Add midori helper (<?php bug(4446) ?>)</li>
+    <li>Add midori helper (bug #4446) ?>)</li>
     <li>Updated translations: Carles Muñoz Gorriz (ca), Fabian Nowak (de),
   Stavros Giannouris (el), Abel Martín (es), Kristjan Siimson (et),
   Leandro Regueiro (gl), Andhika Padmawan (id), Nobuhiro Iwamatsu (ja),
@@ -45,19 +41,19 @@ function bug ($id){
 <ul>
     <li>Add support for NET_WM_PING protocol.</li>
     <li>Add support for NET_WM_PID to be able to kill apps (when not responding to NET_WM_PING).</li>
-    <li>Make shadow opacity configurable (<?php bug(4447) ?>).</li>
-    <li>Make wireframe while cycling user configurable (<?php bug(4443) ?>).</li>
-    <li>Rework visual depth selection of the frame window (<?php bug(4452) ?>).</li>
-    <li>Add new user option to set/unset repeat blinking of urgent windows (<?php bug(4440) ?>).</li>
-    <li>Add margins configuration in workspace settings (<?php bug(4438) ?>).</li>
-    <li>Loosen the rule that prevents an application from iconifying itself when skip_taskbar is set (<?php bug(4434) ?>).</li>
-    <li>Fix NET_WM_STATE claiming maximization vertical and horizontal even if only horizontal of vertical is actually set (<?php bug(3969) ?>).</li>
+    <li>Make shadow opacity configurable (bug #4447) ?>).</li>
+    <li>Make wireframe while cycling user configurable (bug #4443) ?>).</li>
+    <li>Rework visual depth selection of the frame window (bug #4452) ?>).</li>
+    <li>Add new user option to set/unset repeat blinking of urgent windows (bug #4440) ?>).</li>
+    <li>Add margins configuration in workspace settings (bug #4438) ?>).</li>
+    <li>Loosen the rule that prevents an application from iconifying itself when skip_taskbar is set (bug #4434) ?>).</li>
+    <li>Fix NET_WM_STATE claiming maximization vertical and horizontal even if only horizontal of vertical is actually set (bug #3969) ?>).</li>
     <li>Add an option to set default window placement w/out smart placement missing from the wmtweaks GUI.</li>
     <li>Allow any modifier to be used for easy move, including disabling the functionality entirely.</li>
     <li>Add embedding support to all xfwm4 settings dialogs.</li>
-    <li>Sort theme alphabetically (<?php bug(4318) ?>).</li>
+    <li>Sort theme alphabetically (bug #4318) ?>).</li>
     <li>Implement workspace name changing.</li>
-    <li>Do not allocate window extents if the window is not visible (<?php bug(4363) ?>).</li>
+    <li>Do not allocate window extents if the window is not visible (bug #4363) ?>).</li>
     <li>Improve centering of windows with Xinerama.</li>
     <li>Lot of settings dialogs fixes and enhancements</li>
     <li>Update Basque, German, Korean and Slovene translations</li>
@@ -68,18 +64,18 @@ function bug ($id){
     <li>Bring back the "show icons in menu" preferences for the desktop
     menu and window list menu.</li>
     <li>Add support for XDG user dirs for the Desktop and Templates
-    directories.  Patch from Andrea Santilli <yawara@quipo.it> (<?php bug(4365) ?>).</li>
+    directories.  Patch from Andrea Santilli <yawara@quipo.it> (bug #4365) ?>).</li>
     <li>Fix xfdesktop/xfce menu crashing when installing new applications that
-    install .desktop files and icons (<?php bug(3615) ?>).</li>
+    install .desktop files and icons (bug #3615) ?>).</li>
     <li>Fix occasional "double menu" after menu/icon files change on disk
-    (<?php bug(4342) ?>).</li>
-    <li>Implement "rubber banding" for the desktop icon view (<?php bug(3245) ?>).</li>
+    (bug #4342) ?>).</li>
+    <li>Implement "rubber banding" for the desktop icon view (bug #3245) ?>).</li>
     <li>Honor the Hidden=, OnlyShowIn=, and NeverShowIn= keys in .desktop
-    files in the desktop folder (<?php bug(4022) ?>).</li>
+    files in the desktop folder (bug #4022) ?>).</li>
     <li>Fix window menu popping up even after last window icon was
     de-selected when using minimized app icons.</li>
     <li>Display 'Eject' in the context menu for removable drives that
-    support eject, not just optical discs (<?php bug(3738) ?>).</li>
+    support eject, not just optical discs (bug #3738) ?>).</li>
     <li>Fix memory leak (not freeing result of gtk_container_get_children()
     in the desktop menu code).</li>
     <li>Fix memory/X window leak (not destroying menu in panel plugin after
@@ -89,12 +85,12 @@ function bug ($id){
     since we don't have a menu editor anymore.</li>
     <li>Add cell-spacing, cell-padding, and cell-text-width-proportion
     stlye properties to XfdesktopIconView to control spacing/sizing of
-    the icon grid (<?php bug(2886) ?>).  Patch from Giacomo Lozito.</li>
+    the icon grid (bug #2886) ?>).  Patch from Giacomo Lozito.</li>
     <li>Add the ellipsize-icon-labels style property  to control whether
-    or not unselected icons get their labels truncated (<?php bug(2886) ?>).
+    or not unselected icons get their labels truncated (bug #2886) ?>).
     Patch from Daniel Gibson.</li>
     <li>Add style properties to enable painting a text shadow 'under' 
-    the desktop icon text labels (<?php bug(4412) ?>).  Patch from Andrea Santilli.</li>
+    the desktop icon text labels (bug #4412) ?>).  Patch from Andrea Santilli.</li>
     <li>Add backdrop image preview to settings dialog.</li>
     <li>Make settings dialog pluggable into the Xfce Settings Manager.</li>
     <li>Make the Help button in the settings dialog do something.</li>
@@ -107,16 +103,16 @@ function bug ($id){
 
 <h3>Session Manager <em>(xfce4-session)</em>:</h3>
 <ul>
-    <li>Start up session in parallel to greatly shorten startup time (<?php bug(4312) ?>).</li>
+    <li>Start up session in parallel to greatly shorten startup time (bug #4312) ?>).</li>
     <li>Add a D-Bus interface for some limited amount of remote control.</li>
     <li>Implement support for the ShutdownCommand SM property when a
         client has RestartAnyway set as its restart style hint.</li>
     <li>Implement support for the RestartNever restart style hint.</li>
     <li>sync() disks early in the shutdown process if on Linux and
-        ioprio_set() is available (<?php bug(4313) ?>).  Otherwise sync() right before
-        quit as before (<?php bug(4313) ?>).</li>
+        ioprio_set() is available (bug #4313) ?>).  Otherwise sync() right before
+        quit as before (bug #4313) ?>).</li>
     <li>Check for a running gnome-keyring instance before launching
-        a new one (<?php bug(3007) ?>).</li>
+        a new one (bug #3007) ?>).</li>
 </ul>
 
 <h3>Settings Manager <em>(xfce4-settings)</em>:</h3>
@@ -127,12 +123,12 @@ function bug ($id){
     <li>Add embedding support to the accessibility, appearance, mouse and
     keyboard settings dialogs.</li>
     <li>Don't use g_hash_table_get_keys() which requires GLib 2.14
-    (<?php bug(4377) ?>).</li>
+    (bug #4377) ?>).</li>
     <li>Move xfsettingsd from xfconf into xfce4-settings.</li>
     <li>Rework the way keyboard shortcuts are organized. Support default
     shortcuts using /default and /custom base properties.</li>
     <li>Add optional UI options to enable/disable sounds in Canberra
-    (<?php bug(4367) ?>).</li>
+    (bug #4367) ?>).</li>
     <li>Add GUI for selecting/changing the keyboard layout.</li>
     <li>Translation updates: Dutch, Finnish, German.</li>
 </ul>
@@ -186,7 +182,7 @@ function bug ($id){
     <li>Improve panel plugin icons, add another icon for volume between 0% 
         and 15%.</li>
     <li>Panel plugin now refreshes properly after using the plugin properties
-        dialog (fixes <?php bug(4370) ?>).</li>
+        dialog (fixes bug #4370) ?>).</li>
     <li>Improve .desktop file: add the mixer to the "Audio" and "X-XFCE"
         categories, and add StartupNotify=true and Terminal=false.</li>
     <li>Add DEBUG define to make the DBG macro work.</li>

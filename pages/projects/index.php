@@ -3,6 +3,10 @@
 $head['title'] = R_('Projects');
 $head['stylesheet'] = array ('/style/projects.css');
 
+$toc['anchors'] = array (
+        'core' => R_('Core Components'),
+        'applications' => R_('Applications'));
+
 ?>
 <h1><?php echo $head['title'] ?></h1>
 <p>

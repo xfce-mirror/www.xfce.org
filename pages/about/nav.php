@@ -1,13 +1,11 @@
-<ul>
-	<li><a href="/about/"><?php E_('About') ?></a></li>
-	<li><a href="/about/tour"><?php E_('Tour') ?></a>
-		<ul>
-			<li><a href="/about/tour46"><?php E_('Xfce 4.6 Tour') ?></a></li>
-		</ul>
-	</li>
-	<li><a href="/about/news"><?php E_('News') ?></a></li>
-	<li><a href="/about/screenshots"><?php E_('Screenshots') ?></a></li>
-	<li><a href="/about/credits"><?php E_('Credits') ?></a></li>
-	<li><a href="/about/press"><?php E_('Press') ?></a></li>
-	<li><a href="/about/artwork"><?php E_('Artwork') ?></a></li>
-</ul>
+<?php
+
+$toc['menu'] = array (
+	'about' => R_('About'),
+	'about/tour' => R_('Tour'),
+	'about/news' => R_('News'),
+	'about/screenshots' => R_('Screenshots'),
+	'about/credits' => R_('Credits'),
+	'about/press' => R_('Press'),
+	'about/artwork' => R_('Artwork'));
+?>

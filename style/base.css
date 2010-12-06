@@ -91,21 +91,26 @@ body {
 }
 #menu-sub ul {
 	list-style: none;
+	list-style-image: url('img/bullit.gif');
 	margin: 0;
-	padding: 0 0;
+	padding: 0;
+	font-weight: bold;
+	margin-left: 10px;
 }
-#menu-sub ul li {
-	background: transparent url('img/bullit.gif') 0 0.6em no-repeat;
-	padding-left: 10px;
-}
-#menu-sub ul li li {
-	background: none;
+#menu-sub ul li ul {
+	list-style-image: none;
+	font-weight: normal;
 }
 #menu-sub a {
 	display: block;
+	color: #666;
+}
+#menu-sub a:hover {
+	color: #06c;
 }
 #menu-sub h5 {
 	margin-top: 10px;
+	font-size: 140%;
 }
 
 table th {

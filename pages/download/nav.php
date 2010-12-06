@@ -1,20 +1,15 @@
-<?php include ('pages/versions.php'); ?>
+<?php
 
-<ul>
-	<li><a href="/download"><?php E_('Download') ?></a>
-		<ul>
-			<li><a href="/download#stable"><?php E_('Stable release') ?></a></li>
-<?php if($preview_visible) { ?>
-			<li><a href="/download#unstable"><?php E_('Preview release') ?></a></li>
-<?php } ?>
-			<li><a href="/download/#individual"><?php E_('Individual releases') ?></a></li>
-		</ul>
-	</li>
-	<li><a href="/download/development"><?php E_('Development') ?></a></li>
-</ul>
+include ('pages/versions.php'); 
 
-<h5><?php E_('External Links') ?></h5>
-<ul>
-	<li><a href="http://git.xfce.org/" target="_blank" class="external"><?php E_('Browse GIT repositories') ?></a></li>
-	<li><a href="http://goodies.xfce.org" target="_blank" class="external"><?php E_('Panel Plugins') ?></a></li>
-</ul>
+$toc['menu'] = array (
+	'download' => R_('Download'),
+	'download/development' => R_('Development'),
+	'download/changelogs' => R_('Changelogs'),
+	'download/distros' => R_('Distributions'));
+
+$toc['external'] = array (
+	'http://git.xfce.org/' => R_('Browse GIT repositories'),
+	'http://goodies.xfce.org' => R_('Panel Plugins'));
+
+?>

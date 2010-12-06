@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h1>Xfce 4.2.2 Changelog</h1>
 
@@ -14,16 +10,16 @@ function bug ($id){
 
 <h3>Libraries<em> (lib*)</em>:</h3>
 <ul>
-	<li>Libxfcegui4: Check <code>~/.local/share/pixmaps/</code> as a fallback (<?php bug ('731') ?>).</li>
+	<li>Libxfcegui4: Check <code>~/.local/share/pixmaps/</code> as a fallback (bug #731).</li>
 </ul>
 
 <h3>Window Manager <em>(xfwm4)</em>:</h3>
 <ul>
 	<li>Fix mouse buttons being left ungrabbed when focus was transfered to an unmanaged window.</li>
-	<li>Document hidden option &quot;workspace_scroll&quot; (<?php bug ('948') ?>).</li>
-	<li>Various focus issues (<?php bug ('759') ?>, <?php bug ('869') ?>, <?php bug ('899') ?>, <?php bug ('905') ?>, <?php bug ('924') ?>, <?php bug ('931') ?>).</li>
-	<li>Fix pixmap depth not being properly set (<?php bug ('895') ?>).</li>
-	<li>Refresh frame when &quot;skip taskbar&quot; state changes (<?php bug ('898') ?>).</li>
+	<li>Document hidden option &quot;workspace_scroll&quot; (bug #948).</li>
+	<li>Various focus issues (bug #759, bug #869, bug #899, bug #905, bug #924, bug #931).</li>
+	<li>Fix pixmap depth not being properly set (bug #895).</li>
+	<li>Refresh frame when &quot;skip taskbar&quot; state changes (bug #898).</li>
 	<li>Allow seemless windows to be hidden from kbd shortcuts.</li>
 	<li>Code cleanup.</li>
 </ul>
@@ -31,7 +27,7 @@ function bug ($id){
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
 	<li>Fix translation problems with menu panel plugin.</li>
-	<li>Fix bug where binding 'xfdesktop -menu' only works sporadically (<?php bug ('441') ?>).</li>
+	<li>Fix bug where binding 'xfdesktop -menu' only works sporadically (bug #441).</li>
 	<li>Fix unresolved symbol problem with menu module.</li>
 </ul>
 
@@ -42,24 +38,24 @@ function bug ($id){
 
 <h3>File Manager <em>(xffm)</em>:</h3>
 <ul>
-	<li>Fix property dialog crahsing on FreeBSD (<?php bug ('945') ?>).</li>
-	<li>Fix library version info not set on the properties module (<?php bug ('882') ?>, <?php bug ('249') ?>).</li>
-	<li>Fix fstab parsing (<?php bug ('524') ?>).</li>
-	<li>Fix compilation issues with ansi compiler and gcc4 (<?php bug ('862') ?>).</li>
+	<li>Fix property dialog crahsing on FreeBSD (bug #945).</li>
+	<li>Fix library version info not set on the properties module (bug #882, bug #249).</li>
+	<li>Fix fstab parsing (bug #524).</li>
+	<li>Fix compilation issues with ansi compiler and gcc4 (bug #862).</li>
 </ul>
 
 <h3>Printing Helper <em>(xfprint)</em>:</h3>
 <ul>
 	<li>Make bsdlpr plugin compile.</li>
 	<li>Change CUPS detection code.</li>
-	<li>Set correct ld flags (<?php bug ('871') ?>).</li>
-	<li>Add support for printcap aliases (<?php bug ('821') ?>).</li>
+	<li>Set correct ld flags (bug #871).</li>
+	<li>Add support for printcap aliases (bug #821).</li>
 	<li>Fix MCS plugin.</li>
 </ul>
 
 <h3>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h3>
 <ul>
-	<li>Fix various colors issues with ExoIconBar, prelight colors for treeview, Adobe&reg; Acrobat<small><sup>tm</sup></small> 7, progress bar, combo box, gtk scales (<?php bug ('848') ?>).</li>
+	<li>Fix various colors issues with ExoIconBar, prelight colors for treeview, Adobe&reg; Acrobat<small><sup>tm</sup></small> 7, progress bar, combo box, gtk scales (bug #848).</li>
 </ul>
 
 <h3>Utilities <em>(xfce-utils)</em>:</h3>
@@ -74,6 +70,6 @@ function bug ($id){
 
 <h3>Calendar and Appointments <em>(xfcalendar)</em>:</h3>
 <ul>
-	<li>Fix compiling with --enable-debug=full (<?php bug ('843') ?>).</li>
+	<li>Fix compiling with --enable-debug=full (bug #843).</li>
 	<li>Remove C99 variable declaration and C++ comments.</li>
 </ul>

@@ -1,8 +1,4 @@
-<?php
-function bug ($id){
-	echo 'bug <a href="http://bugzilla.xfce.org/show_bug.cgi?id='. $id .'">#'. $id .'</a>';
-}
-?>
+
 
 <h1>Xfce 4.4 beta 2 (4.3.90.2) Changelog</h1>
 
@@ -17,7 +13,7 @@ function bug ($id){
 <h3>Widget Library <em>(libxfcegui4)</em>:</h3>
 <ul>
     <li>Fix bug with desktop layout on x86_64.</li>
-    <li>Fix bug in system tray with some apps (e.g. krusader, <?php bug ('1836'); ?>).</li>
+    <li>Fix bug in system tray with some apps (e.g. krusader, bug #1836).</li>
     <li>New titled dialog widget, to use for the settings dialogs.</li>
 </ul>
 
@@ -47,7 +43,7 @@ function bug ($id){
 
 <h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
 <ul>
-    <li>Filter out KDE screensaver files from the menu (<?php bug ('1928'); ?>).</li>
+    <li>Filter out KDE screensaver files from the menu (bug #1928).</li>
     <li>Add a remote launcher to popup panel menu, triggered by a shortcut.</li>
     <li>Cleaned up xfce4-menueditor: Use XfceTitledDialog, fixed DnD, use GObject classes.</li>
     <li>Try to automatically mount unmounted removable volumes when they are openend.</li>

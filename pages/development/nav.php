@@ -1,12 +1,13 @@
-<ul>
-	<li><a href="/development/"><?php E_('Development') ?></a></li>
-	<li><a href="/development/translate"><?php E_('Translate') ?></a></li>
-	<li><a href="/development/releasemodel"><?php E_('Release Model') ?></a></li>
-</ul>
+<?php
 
-<h5><?php E_('External Links') ?></h5>
-<ul>
-	<li><a href="http://bugzilla.xfce.org" target="_blank" class="external"><?php E_('Report a bug') ?></a></li>
-	<li><a href="http://translations.xfce.org" target="_blank" class="external"><?php E_('Translations') ?></a></li>
-	<li><a href="http://buildbot.xfce.org" target="_blank" class="external"><?php E_('Buildbot') ?></a></li>
-</ul>
+$toc['menu'] = array (
+	'development' => R_('Development'),
+	'development/translate' => R_('Translate'),
+	'development/releasemodel' => R_('Release Model'));
+
+$toc['external'] = array (
+	'http://bugzilla.xfce.org' => R_('Report a bug'),
+	'http://translations.xfce.org' => R_('Translations'),
+	'http://buildbot.xfce.org' => R_('Buildbot'));
+
+?>
