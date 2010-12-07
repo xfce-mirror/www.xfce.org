@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: http://bugzilla.xfce.org\n"
-"POT-Creation-Date: 2010-12-06 17:34+0100\n"
+"POT-Creation-Date: 2010-12-07 21:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,43 +16,6 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: header.php:51
-msgid "Categories"
-msgstr ""
-
-#: header.php:53
-msgid "Home"
-msgstr ""
-
-#: header.php:54 about/nav.php:2 about/index.php:1
-msgid "About"
-msgstr ""
-
-#: header.php:55 download/nav.php:4 download/index.php:3
-msgid "Download"
-msgstr ""
-
-#: header.php:56 community/nav.php:2 community/index.php:1
-msgid "Community"
-msgstr ""
-
-#: header.php:57 projects/nav.php:2 projects/index.php:3
-msgid "Projects"
-msgstr ""
-
-#: header.php:58 download/nav.php:13 development/nav.php:2
-#: development/index.php:1
-msgid "Development"
-msgstr ""
-
-#: header.php:62 header.php:76
-msgid "Change language"
-msgstr ""
-
-#: header.php:86
-msgid "Category Pages"
-msgstr ""
 
 #: 404.php:1
 msgid "Page not found"
@@ -109,49 +72,144 @@ msgid ""
 "is needed."
 msgstr ""
 
-#: about/credits.php:3 about/tour46.php:241 about/nav.php:10
+#: about/tour.php:1 about/nav.php:5
+msgid "Tour"
+msgstr ""
+
+#: about/nav.php:4 about/index.php:1 header.php:54
+msgid "About"
+msgstr ""
+
+#: about/nav.php:6 about/news.php:1
+msgid "News"
+msgstr ""
+
+#: about/nav.php:7 about/screenshots.php:1
+msgid "Screenshots"
+msgstr ""
+
+#: about/nav.php:8 about/tour46.php:241 about/credits.php:3
 msgid "Credits"
 msgstr ""
 
-#: about/credits.php:23
+#: about/nav.php:9 about/press.php:1
+msgid "Press"
+msgstr ""
+
+#: about/nav.php:10 about/artwork.php:1 development/index.php:49
+msgid "Artwork"
+msgstr ""
+
+#: about/index.php:7
 msgid ""
-"A large number of people contributed to the Xfce project. Although more "
-"people contributed to the project then the ones list below, we'd like to say:"
+"Xfce is a lightweight desktop environment for unix-like operating systems. "
+"It aims to be fast and low on system resources, while still being visually "
+"appealing and user friendly."
 msgstr ""
 
-#: about/credits.php:25
-msgid "Thanks to all who helped making this software available!"
+#: about/index.php:11
+msgid ""
+"Xfce embodies the traditional UNIX philosophy of modularity and re-"
+"usability. It consists of a number of components that provide the full "
+"functionality one can expect of a modern desktop environment. They are "
+"packaged separately and you can pick among the available packages to create "
+"the optimal personal working environment."
 msgstr ""
 
-#: about/credits.php:28
-msgid "Core developers"
+#: about/index.php:15
+msgid ""
+"Another priority of Xfce is adhereance to standards, specifically those "
+"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
 msgstr ""
 
-#: about/credits.php:39
-msgid "Active contributors"
+#: about/index.php:19
+msgid ""
+"Xfce can be installed on several UNIX platforms. It is known to compile on "
+"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
+"Sparc, Alpha..."
 msgstr ""
 
-#: about/credits.php:54
-msgid "Servers maintained by"
+#: about/index.php:22
+msgid "Features"
 msgstr ""
 
-#: about/credits.php:65
-msgid "Goodies supervision"
+#: about/index.php:25
+msgid ""
+"Xfce contains a number of core components for the minimum tasks you'd expect "
+"from a desktop environement:"
 msgstr ""
 
-#: about/credits.php:71
-msgid "Translations supervision"
+#: about/index.php:27 projects/index.php:20
+msgid "Window Manager"
 msgstr ""
 
-#: about/credits.php:78
-msgid "Translators"
+#: about/index.php:28
+msgid ""
+"Manages the placement of windows on the screen, provides window decorations "
+"and manages workspaces or virtual desktops."
 msgstr ""
 
-#: about/credits.php:80
-msgid "Previous contributors"
+#: about/index.php:30 projects/index.php:38
+msgid "Desktop Manager"
 msgstr ""
 
-#: about/tour46.php:1 about/nav.php:5
+#: about/index.php:31
+msgid ""
+"Sets the background image and provides a root window menu, desktop icons or "
+"minimized icons and a windows list."
+msgstr ""
+
+#: about/index.php:33 about/tour46.php:26 projects/index.php:27
+msgid "Panel"
+msgstr ""
+
+#: about/index.php:34
+msgid ""
+"Switch between opened windows, launch applications, switch workspaces and "
+"menu plugins to browse applications or directories."
+msgstr ""
+
+#: about/index.php:36 projects/index.php:45
+msgid "Session Manager"
+msgstr ""
+
+#: about/index.php:37
+msgid ""
+"Controls the login and power management of the desktop and allows you to "
+"store multiple login sessions."
+msgstr ""
+
+#: about/index.php:39
+msgid "File Manager"
+msgstr ""
+
+#: about/index.php:40
+msgid ""
+"Provides the basic file management features and unique utilities like the "
+"bulk renamer."
+msgstr ""
+
+#: about/index.php:42
+msgid "Setting Manager"
+msgstr ""
+
+#: about/index.php:43
+msgid ""
+"Tools to control the various settings of the desktop like keyboard "
+"shortcuts, appearance, display settings etcertera."
+msgstr ""
+
+#: about/index.php:47
+msgid ""
+"Beside the basic set of modules, Xfce also provides numerious additional "
+"applications and plugins so you can extend your desktop the way you like, "
+"for example a terminal emulator, text editor, sound mixer, application "
+"finder, image viewer, iCal based calendar and a CD and DVD burning "
+"application. You can read more about the modules of Xfce in the <a href=\"/"
+"projects\">projects</a> page."
+msgstr ""
+
+#: about/tour46.php:1
 msgid "Xfce 4.6 Tour"
 msgstr ""
 
@@ -188,10 +246,6 @@ msgstr ""
 
 #: about/tour46.php:24
 msgid "New desktop menu"
-msgstr ""
-
-#: about/tour46.php:26 about/index.php:33 projects/index.php:23
-msgid "Panel"
 msgstr ""
 
 #: about/tour46.php:29
@@ -507,233 +561,6 @@ msgstr ""
 msgid "Screenshots by Jannis Pohlmann"
 msgstr ""
 
-#: about/artwork.php:1 about/nav.php:12 development/index.php:49
-msgid "Artwork"
-msgstr ""
-
-#: about/artwork.php:5
-msgid ""
-"You can download the Xfce artwork tarball <a href=\"/downloads/xfce_artwork."
-"tar.bz2\">here</a>. It contains some high-quality logos and banners."
-msgstr ""
-
-#: about/news.php:1 about/nav.php:8
-msgid "News"
-msgstr ""
-
-#: about/news.php:7
-msgid "Xfce 4.8pre1 Released"
-msgstr ""
-
-#: about/news.php:10 about/news-arrays.php:8
-msgid ""
-"The Xfce development team is proud to announce the first preview release for "
-"Xfce 4.8. Together with this preview release, the Xfce project announces the "
-"feature freeze for the final 4.8 release which is set to be pushed out to "
-"the world on January 16th, 2011."
-msgstr ""
-
-#: about/news.php:13 about/news-arrays.php:9
-msgid ""
-"This release incorporates major changes to the core of the Xfce desktop "
-"environment and hopefully succeeds in fulfilling a number of long time "
-"requests. Among the most notable updates is that we have ported the entire "
-"Xfce core (Thunar, xfdesktop and thunar-volman in particular) from ThunarVFS "
-"to GIO, bringing remote filesystems to the Xfce desktop. The panel has been "
-"rewritten from scratch and provides better launcher management and improved "
-"multi-head support. The list of new panel features is too long to mention in "
-"its entirety here. Thanks to the new menu library garcon (formerly known as "
-"libxfce4menu, but rewritten once again) we now support menu editing via a "
-"third-party menu editor such as Alacarte (we do not ship our own yet). Our "
-"core libraries have been streamlined a bit, a good examplle being the newly "
-"introduced libxfce4ui library which is meant to replace libxfcegui4."
-msgstr ""
-
-#: about/news.php:16 about/news-arrays.php:10
-msgid ""
-"Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
-"that, despite suffering from the small size of the development team from "
-"time to time, the core of the desktop environment has been aligned with "
-"today's desktop technologies such as GIO, ConsoleKit, PolicyKit, udev and "
-"many more. A lot of old cruft like has been stripped from the core as well, "
-"as has happened with HAL and ThunarVFS (which is still around for "
-"compatibility reasons)."
-msgstr ""
-
-#: about/news.php:19 about/news-arrays.php:11
-msgid ""
-"Thanks to the awesome Transifex translation platform, our language teams "
-"have been able to update their translations at an incredible pace. Please "
-"include them when praising this release!"
-msgstr ""
-
-#: about/news.php:22 about/news-arrays.php:12
-msgid ""
-"A complete list of all changes since the latest stable release is available "
-"<a href=\"/documentation/changelogs/4.8pre1\">here</a>."
-msgstr ""
-
-#: about/news.php:25 about/news-arrays.php:32
-msgid ""
-"Kind regards and thanks to everyone who has contributed to this release,<br /"
-">The Xfce development team."
-msgstr ""
-
-#: about/news.php:30
-msgid "Xfce 4.2.1.1 released"
-msgstr ""
-
-#: about/news.php:32
-msgid ""
-"Xfce 4.2.1.1 has been released quickly after 4.2.1. It includes a fix for a "
-"bad bug where panel loses its configuration when saving the session in "
-"4.2.1. The Sourceforge server has been updated, and other mirrors will "
-"follow soon."
-msgstr ""
-
-#: about/news.php:35
-msgid "Xfce 4.2.1 released"
-msgstr ""
-
-#: about/news.php:37
-msgid ""
-"Xfce 4.2.1 is available. This is a maintenance release. Download locations "
-"can be found on this page, and a changelog is available here."
-msgstr ""
-
-#: about/nav.php:3 about/tour.php:1
-msgid "Tour"
-msgstr ""
-
-#: about/nav.php:9 about/screenshots.php:1
-msgid "Screenshots"
-msgstr ""
-
-#: about/nav.php:11 about/press.php:1
-msgid "Press"
-msgstr ""
-
-#: about/press.php:5
-msgid "Here you can find various reviews of the Xfce desktop environment."
-msgstr ""
-
-#: about/press.php:10
-msgid "Date"
-msgstr ""
-
-#: about/press.php:11
-msgid "Website"
-msgstr ""
-
-#: about/press.php:12
-msgid "Link"
-msgstr ""
-
-#: about/index.php:7
-msgid ""
-"Xfce is a lightweight desktop environment for unix-like operating systems. "
-"It aims to be fast and low on system resources, while still being visually "
-"appealing and user friendly."
-msgstr ""
-
-#: about/index.php:11
-msgid ""
-"Xfce embodies the traditional UNIX philosophy of modularity and re-"
-"usability. It consists of a number of components that provide the full "
-"functionality one can expect of a modern desktop environment. They are "
-"packaged separately and you can pick among the available packages to create "
-"the optimal personal working environment."
-msgstr ""
-
-#: about/index.php:15
-msgid ""
-"Another priority of Xfce is adhereance to standards, specifically those "
-"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr ""
-
-#: about/index.php:19
-msgid ""
-"Xfce can be installed on several UNIX platforms. It is known to compile on "
-"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
-"Sparc, Alpha..."
-msgstr ""
-
-#: about/index.php:22
-msgid "Features"
-msgstr ""
-
-#: about/index.php:25
-msgid ""
-"Xfce contains a number of core components for the minimum tasks you'd expect "
-"from a desktop environement:"
-msgstr ""
-
-#: about/index.php:27 projects/index.php:16
-msgid "Window Manager"
-msgstr ""
-
-#: about/index.php:28
-msgid ""
-"Manages the placement of windows on the screen, provides window decorations "
-"and manages workspaces or virtual desktops."
-msgstr ""
-
-#: about/index.php:30 projects/index.php:34
-msgid "Desktop Manager"
-msgstr ""
-
-#: about/index.php:31
-msgid ""
-"Sets the background image and provides a root window menu, desktop icons or "
-"minimized icons and a windows list."
-msgstr ""
-
-#: about/index.php:34
-msgid ""
-"Switch between opened windows, launch applications, switch workspaces and "
-"menu plugins to browse applications or directories."
-msgstr ""
-
-#: about/index.php:36 projects/index.php:41
-msgid "Session Manager"
-msgstr ""
-
-#: about/index.php:37
-msgid ""
-"Controls the login and power management of the desktop and allows you to "
-"store multiple login sessions."
-msgstr ""
-
-#: about/index.php:39
-msgid "File Manager"
-msgstr ""
-
-#: about/index.php:40
-msgid ""
-"Provides the basic file management features and unique utilities like the "
-"bulk renamer."
-msgstr ""
-
-#: about/index.php:42
-msgid "Setting Manager"
-msgstr ""
-
-#: about/index.php:43
-msgid ""
-"Tools to control the various settings of the desktop like keyboard "
-"shortcuts, appearance, display settings etcertera."
-msgstr ""
-
-#: about/index.php:47
-msgid ""
-"Beside the basic set of modules, Xfce also provides numerious additional "
-"applications and plugins so you can extend your desktop the way you like, "
-"for example a terminal emulator, text editor, sound mixer, application "
-"finder, image viewer, iCal based calendar and a CD and DVD burning "
-"application. You can read more about the modules of Xfce in the <a href=\"/"
-"projects\">projects</a> page."
-msgstr ""
-
 #: about/screenshots.php:5
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr ""
@@ -754,723 +581,277 @@ msgstr ""
 msgid "Xfce 4.0"
 msgstr ""
 
-#: projects/nav.php:4 projects/index.php:12 development/releasemodel.php:25
-msgid "Core Components"
+#: about/news.php:7
+msgid "Xfce 4.8pre1 Released"
 msgstr ""
 
-#: projects/nav.php:5 projects/index.php:104
-msgid "Applications"
-msgstr ""
-
-#: projects/nav.php:6
-msgid "Framework"
-msgstr ""
-
-#: projects/nav.php:7
-msgid "Art and Graphics"
-msgstr ""
-
-#: projects/nav.php:12 community/nav.php:7 download/nav.php:16
-#: development/nav.php:7
-msgid "External Links"
-msgstr ""
-
-#: projects/nav.php:14
-msgid "Xfce Goodies"
-msgstr ""
-
-#: projects/index.php:9
+#: about/news.php:10
 msgid ""
-"The Xfce project contains several separated projects for each part of the "
-"desktop. Every project has it's own project page to provide additionnal "
-"information."
+"The Xfce development team is proud to announce the first preview release for "
+"Xfce 4.8. Together with this preview release, the Xfce project announces the "
+"feature freeze for the final 4.8 release which is set to be pushed out to "
+"the world on January 16th, 2011."
 msgstr ""
 
-#: projects/index.php:18
+#: about/news.php:13
 msgid ""
-"It manages the placement of application windows on the screen, provides "
-"window decorations and manages workspaces or virtual desktops."
+"This release incorporates major changes to the core of the Xfce desktop "
+"environment and hopefully succeeds in fulfilling a number of long time "
+"requests. Among the most notable updates is that we have ported the entire "
+"Xfce core (Thunar, xfdesktop and thunar-volman in particular) from ThunarVFS "
+"to GIO, bringing remote filesystems to the Xfce desktop. The panel has been "
+"rewritten from scratch and provides better launcher management and improved "
+"multi-head support. The list of new panel features is too long to mention in "
+"its entirety here. Thanks to the new menu library garcon (formerly known as "
+"libxfce4menu, but rewritten once again) we now support menu editing via a "
+"third-party menu editor such as Alacarte (we do not ship our own yet). Our "
+"core libraries have been streamlined a bit, a good examplle being the newly "
+"introduced libxfce4ui library which is meant to replace libxfcegui4."
 msgstr ""
 
-#: projects/index.php:25
+#: about/news.php:16
 msgid ""
-"The Panel is part of the Xfce Desktop Environment and features program "
-"launchers, panel menus, a clock, a desktop switcher and more."
+"Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
+"that, despite suffering from the small size of the development team from "
+"time to time, the core of the desktop environment has been aligned with "
+"today's desktop technologies such as GIO, ConsoleKit, PolicyKit, udev and "
+"many more. A lot of old cruft like has been stripped from the core as well, "
+"as has happened with HAL and ThunarVFS (which is still around for "
+"compatibility reasons)."
 msgstr ""
 
-#: projects/index.php:36
+#: about/news.php:19
 msgid ""
-"This program sets the background image and provides a root window menu, "
-"desktop icons or minimized icons and a windows list."
+"Thanks to the awesome Transifex translation platform, our language teams "
+"have been able to update their translations at an incredible pace. Please "
+"include them when praising this release!"
 msgstr ""
 
-#: projects/index.php:43
+#: about/news.php:22
 msgid ""
-"The session manager controls the startup and shutdown of the Xfce Desktop "
-"Environment."
+"A complete list of all changes since the latest stable release is available "
+"<a href=\"/documentation/changelogs/4.8pre1\">here</a>."
 msgstr ""
 
-#: projects/index.php:52
-msgid "Settings Manager"
-msgstr ""
-
-#: projects/index.php:54
-msgid "It allows you to configure every detail of your desktop environment."
-msgstr ""
-
-#: projects/index.php:59
-msgid "Utilities and Scripts"
-msgstr ""
-
-#: projects/index.php:61
+#: about/news.php:25
 msgid ""
-"Essential utilities and scripts. Provides a credits and license dialog, a "
-"dialog for launching applications and several important scripts that are "
-"used by other packages."
+"Kind regards and thanks to everyone who has contributed to this release,<br /"
+">The Xfce development team."
 msgstr ""
 
-#: projects/index.php:70
-msgid "Xfce Libraries"
+#: about/news.php:28
+msgid "Xfce 4.2.1.1 released"
 msgstr ""
 
-#: projects/index.php:72
+#: about/news.php:30
 msgid ""
-"The three base libraries of Xfce (libxfce4util and libxfce4ui) are used by "
-"almost any Xfce application."
+"Xfce 4.2.1.1 has been released quickly after 4.2.1. It includes a fix for a "
+"bad bug where panel loses its configuration when saving the session in "
+"4.2.1. The Sourceforge server has been updated, and other mirrors will "
+"follow soon."
 msgstr ""
 
-#: projects/index.php:77
-msgid "Xfconf"
+#: about/news.php:33
+msgid "Xfce 4.2.1 released"
 msgstr ""
 
-#: projects/index.php:79
-msgid "Simple client-server configuration storage and query system."
-msgstr ""
-
-#: projects/index.php:88
-msgid "Thunar Filemanager"
-msgstr ""
-
-#: projects/index.php:90
+#: about/news.php:35
 msgid ""
-"Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar "
-"has been designed from the ground up to be fast and easy-to-use."
+"Xfce 4.2.1 is available. This is a maintenance release. Download locations "
+"can be found on this page, and a changelog is available here."
 msgstr ""
 
-#: projects/index.php:95
-msgid "Application Finder"
-msgstr ""
-
-#: projects/index.php:97
+#: about/artwork.php:5
 msgid ""
-"Allows you to search, launch and find information about applications "
-"installed on your system."
+"You can download the Xfce artwork tarball <a href=\"/downloads/xfce_artwork."
+"tar.bz2\">here</a>. It contains some high-quality logos and banners."
 msgstr ""
 
-#: projects/index.php:108
-msgid "Mousepad"
+#: about/press.php:5
+msgid "Here you can find various reviews of the Xfce desktop environment."
 msgstr ""
 
-#: projects/index.php:110
+#: about/press.php:10
+msgid "Date"
+msgstr ""
+
+#: about/press.php:11
+msgid "Website"
+msgstr ""
+
+#: about/press.php:12
+msgid "Link"
+msgstr ""
+
+#: about/credits.php:23
 msgid ""
-"Mousepad is a text editor for Xfce based on Leafpad. The initial reason for "
-"Mousepad was to provide printing support, which would have been difficult "
-"for Leafpad for various reasons."
+"A large number of people contributed to the Xfce project. Although more "
+"people contributed to the project then the ones list below, we'd like to say:"
 msgstr ""
 
-#: projects/index.php:115
-msgid "Terminal"
+#: about/credits.php:25
+msgid "Thanks to all who helped making this software available!"
 msgstr ""
 
-#: projects/index.php:117
-msgid ""
-"Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly "
-"for the Xfce desktop environment."
+#: about/credits.php:28
+msgid "Core developers"
 msgstr ""
 
-#: projects/index.php:126
-msgid "Xfburn"
+#: about/credits.php:39
+msgid "Active contributors"
 msgstr ""
 
-#: projects/index.php:128
-msgid ""
-"Xfburn is a frontend burning application based on <a href=\"http://libburnia-"
-"project.org/\">libburnia</a> libraries to create and burn CD's and DVD's."
+#: about/credits.php:54
+msgid "Servers maintained by"
 msgstr ""
 
-#: projects/index.php:133
-msgid "Orage"
+#: about/credits.php:65
+msgid "Goodies supervision"
 msgstr ""
 
-#: projects/index.php:135
-msgid "A simple calendar application with reminders."
+#: about/credits.php:71
+msgid "Translations supervision"
 msgstr ""
 
-#: projects/index.php:144
-msgid "Mixer"
+#: about/credits.php:78
+msgid "Translators"
 msgstr ""
 
-#: projects/index.php:146
-msgid "A modern sound mixer based on GStreamer."
+#: about/credits.php:80
+msgid "Previous contributors"
 msgstr ""
 
-#: projects/index.php:151
-msgid "Image Viewer"
+#: development/nav.php:4 development/index.php:1 download/nav.php:7
+#: header.php:58
+msgid "Development"
 msgstr ""
 
-#: projects/index.php:153
-msgid "Ristretto is a lightweight image viewer.<"
-msgstr ""
-
-#: projects/index.php:162
-msgid "Web Browser"
-msgstr ""
-
-#: projects/index.php:164
-msgid "Midori is a lightweight web browser."
-msgstr ""
-
-#: community/nav.php:3 community/lists.php:1
-msgid "Mailing Lists"
-msgstr ""
-
-#: community/nav.php:4 community/irc.php:1
-msgid "IRC"
-msgstr ""
-
-#: community/nav.php:9
-msgid "Forum"
-msgstr ""
-
-#: community/nav.php:10
-msgid "Blog"
-msgstr ""
-
-#: community/nav.php:11
-msgid "Wiki"
-msgstr ""
-
-#: community/nav.php:12
-msgid "Bug tracker"
-msgstr ""
-
-#: community/index.php:6
-msgid ""
-"If you were not able to solve your problem by using the documentation on "
-"this website, the Xfce communities are a good place to get help or to share "
-"your ideas."
-msgstr ""
-
-#: community/index.php:10
-msgid ""
-"Subscribe to one of the <a href=\"/community/lists\">mailing lists</a>, "
-"search the Xfce <a href=\"http://wiki.xfce.org/\" target=\"_blank\">wiki</"
-"a>, visit the <a href=\"http://forum.xfce.org/\" target=\"_blank\">forum</a> "
-"or join the Xfce <a href=\"/community/irc\">IRC channel</a> to collaborate  "
-"with other Xfce users."
-msgstr ""
-
-#: community/lists.php:6
-msgid ""
-"<strong>NOTE:</strong> In order to post to these lists, you must first "
-"subscribe."
-msgstr ""
-
-#: community/lists.php:11
-msgid "List"
-msgstr ""
-
-#: community/lists.php:12
-msgid "Description"
-msgstr ""
-
-#: community/lists.php:16
-msgid "Discussion list for users of Xfce."
-msgstr ""
-
-#: community/lists.php:20
-msgid "Announcements of new versions of Xfce and related projects."
-msgstr ""
-
-#: community/lists.php:24
-msgid ""
-"This mailing list is used as a point of contact for people interested in "
-"promoting Xfce."
-msgstr ""
-
-#: community/lists.php:28
-msgid ""
-"To coordinate the translation of Xfce into new languages. See also the <a "
-"href=\"/development/translations\">translations</a> page."
-msgstr ""
-
-#: community/lists.php:32
-msgid "To coordinate the German translation of Xfce."
-msgstr ""
-
-#: community/lists.php:35
-msgid "A mailing list for developers of Xfce."
-msgstr ""
-
-#: community/lists.php:39
-msgid "To be notified of Xfce commits (including goodies and other modules)."
-msgstr ""
-
-#: community/lists.php:43
-msgid "Xfce Goodies development discussion."
-msgstr ""
-
-#: community/lists.php:47
-msgid ""
-"E-mail address for general Xfce bugs. Bugs should be reported and discussed "
-"in the <a href=\"http://bugzilla.xfce.org\" target=\"_blank\" class="
-"\"external\">bug tracker</a>."
-msgstr ""
-
-#: community/lists.php:51
-msgid "A mailing list for development of the Thunar file manager."
-msgstr ""
-
-#: community/lists.php:55
-msgid "Search the mailing lists"
-msgstr ""
-
-#: community/lists.php:64
-msgid "No results found in mailing lists"
-msgstr ""
-
-#: community/irc.php:5
-msgid ""
-"If you have a problem that you cannot resolve, you might want to try asking "
-"a question in our IRC channel <a href=\"irc://irc.freenode.net/#xfce\">#xfce "
-"on irc.freenode.net</a>. The channel has several active users. It is "
-"recommended that you consult the <a href=\"/documentation\">documentation</"
-"a> about your problem before asking your question."
-msgstr ""
-
-#: download/development.php:1
-msgid "Development source code"
-msgstr ""
-
-#: download/development.php:8
-msgid ""
-"If you want to build Xfce from source code, you can either download the "
-"sourcetarballs of a released version of Xfce from our <a href=\"/download"
-"\">download page</a>, or try a development version, by downloading it from "
-"GIT (only for the adventurous). Please note that installing two different "
-"versions of Xfce (ie. stable and development) is not supported."
-msgstr ""
-
-#: download/development.php:11
-#, php-format
-msgid "Latest release version (%s)"
-msgstr ""
-
-#: download/development.php:13
-msgid ""
-"This version contain the latest bug fixes, without any major new feature. "
-"This should be more stable than the development version (and even than the "
-"last official release), but there is still no guarantee that this version is "
-"bug free."
-msgstr ""
-
-#: download/development.php:16
-#, php-format
-msgid "Latest development version (%s)"
-msgstr ""
-
-#: download/development.php:18
-msgid ""
-"This version contain the latest development updates and bug fixes. There is "
-"no guarantee that it's fully working and bug free."
-msgstr ""
-
-#: download/development.php:21
-msgid "Getting the source code"
-msgstr ""
-
-#: download/development.php:23
-msgid ""
-"To get a list of available modules and components, you can <a href=\"http://"
-"git.xfce.org/\" class=\"external\">browse the GIT repositories</a>."
-msgstr ""
-
-#: download/development.php:26
-#, php-format
-msgid "Latest release version (%s) from the GIT repositories"
-msgstr ""
-
-#: download/development.php:28 download/development.php:41
-msgid "You can download the desired modules with the following command:"
-msgstr ""
-
-#: download/development.php:34 download/development.php:47
-msgid "For example:"
-msgstr ""
-
-#: download/development.php:39
-#, php-format
-msgid "Latest development version (%s) from the GIT repositories"
-msgstr ""
-
-#: download/development.php:53
-msgid ""
-"To synchronize your local copy (checkout) of the release or development tree "
-"with the one on the server you can run <code>git pull</code> instead of "
-"<code>git clone</code>. This will speed up the process and minimize the Xfce "
-"server transfer."
-msgstr ""
-
-#: download/development.php:56
-msgid "Building the modules"
-msgstr ""
-
-#: download/development.php:59
-msgid ""
-"If you have downloaded the tarballs, you need to unpack them before going on."
-msgstr ""
-
-#: download/development.php:63
-msgid ""
-"If you install into a different prefix from pkg-config, you have to set the "
-"PKG_CONFIG_PATH variable to include the path to the *.pc files installed by "
-"the Xfce libraries, which is ${prefix}/lib/pkgconfig. For example:"
-msgstr ""
-
-#: download/development.php:70
-msgid "To build the modules from the tarballs just run:"
-msgstr ""
-
-#: download/development.php:76
-msgid ""
-"To build the Xfce modules from GIT (you need the xfce4-dev-tools package) "
-"run this command:"
-msgstr ""
-
-#: download/development.php:80
-msgid ""
-"The <a href=\"/documentation/requirements\">requirements</a> page lists all "
-"the required dependencies and the build order of the modules."
-msgstr ""
-
-#: download/nav.php:6
-msgid "Stable release"
-msgstr ""
-
-#: download/nav.php:8
-msgid "Preview release"
-msgstr ""
-
-#: download/nav.php:10 download/index.php:49
-msgid "Individual releases"
-msgstr ""
-
-#: download/nav.php:18
-msgid "Browse GIT repositories"
-msgstr ""
-
-#: download/nav.php:19
-msgid "Panel Plugins"
-msgstr ""
-
-#: download/index.php:8
-msgid "Europe/Belgium"
-msgstr ""
-
-#: download/index.php:9
-msgid "Europe/France"
-msgstr ""
-
-#: download/index.php:10
-msgid "United States/Texas"
-msgstr ""
-
-#: download/index.php:11
-msgid "United States/California"
-msgstr ""
-
-#: download/index.php:25
-#, php-format
-msgid "Stable release %s"
-msgstr ""
-
-#: download/index.php:27
-msgid ""
-"Most distributions ship with Xfce. But if you want a newer version or you "
-"want to build Xfce from scratch, you can find the packages below. You can "
-"also take a look at a list of Xfce-oriented distributions <a href=\"/"
-"download/distros\">here</a>."
-msgstr ""
-
-#: download/index.php:31
-msgid ""
-"All Xfce modules are available in one single tarball from several mirrors "
-"(in one single tarball <em>or</em> separate  tarballs):"
-msgstr ""
-
-#: download/index.php:39
-#, php-format
-msgid "Preview release %s"
-msgstr ""
-
-#: download/index.php:41
-msgid ""
-"Below you can find download locations for the latest development/unstable "
-"release of Xfce. Note that this software almost certainly contains bugs, "
-"many of which might affect your desire to use it in a production "
-"environment. You should back up all configuration files before installing "
-"and using these releases. If you're uncertain about downloading this "
-"release, you should probably use the <a href=\"#stable\">stable release</a> "
-"above."
-msgstr ""
-
-#: download/index.php:51
-msgid ""
-"Each package in Xfce can make idividual releases, also the core packages, to "
-"make development or stable releases. You can follow the announcements of the "
-"releases on the <a href=\"/community/lists\">Xfce user mailing list</a>, "
-"watch the <a href=\"http://releases.xfce.org/feeds/project/\">release feeds</"
-"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">ident.ca channel</a>."
-msgstr ""
-
-#: download/requirements.php:1
-msgid "System requirements"
-msgstr ""
-
-#: download/requirements.php:5
-#, php-format
-msgid ""
-"All packages (except xfce4-dev-tools) depend on both gtk+ %s and glib %s."
-msgstr ""
-
-#: download/requirements.php:9
-msgid ""
-"It is also recommended to build all Xfce components from the same release "
-"version."
-msgstr ""
-
-#: download/requirements.php:12
-msgid "Build order"
-msgstr ""
-
-#: download/requirements.php:23
-msgid "Package dependencies"
-msgstr ""
-
-#: download/requirements.php:26
-msgid "Package"
-msgstr ""
-
-#: download/requirements.php:27
-msgid "Dependency(-ies)"
-msgstr ""
-
-#: download/requirements.php:28
-msgid "Optional Dependency(-ies)"
-msgstr ""
-
-#: download/requirements.php:137
-msgid ""
-"The build dependencies tree is also available as a <a href=\"/images/"
-"documentation/xfce-bdeps.svg\">SVG file</a>."
-msgstr ""
-
-#: download/requirements.php:139
-msgid "Recommended packages"
-msgstr ""
-
-#: download/requirements.php:141
-msgid "support for scalable icons"
-msgstr ""
-
-#: download/requirements.php:142
-msgid "better support for icon themes"
-msgstr ""
-
-#: download/requirements.php:144
-msgid "locking the screen"
-msgstr ""
-
-#: download/distros.php:1
-msgid "Distributions"
-msgstr ""
-
-#: download/distros.php:5
-msgid "Distributions based on Xfce"
-msgstr ""
-
-#: download/distros.php:9
-msgid ""
-"The Fedora Xfce Spin is live cd which is also installable that showcases the "
-"Xfce Desktop Environment featuring a mix of high productivity centric "
-"applications."
-msgstr ""
-
-#: download/distros.php:14
-msgid ""
-"Xubuntu is a Linux distribution based on Ubuntu. Unlike its parent Xubuntu "
-"uses the light-weight Xfce desktop environment. The distribution includes "
-"only GTK+ applications where possible."
-msgstr ""
-
-#: download/distros.php:19
-msgid ""
-"Zenwalk is an operating system based on Slackware. The goal of Zenwalk is "
-"being slim and fast using only one application per task combined with the "
-"Xfce Desktop. Zenwalk features the latest Linux technology along with a "
-"complete programming environment and libraries to provide an ideal platform "
-"for application programmers. Zenwalk's modular approach also provides a "
-"simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. "
-"LAMP, messaging, file sharing)."
-msgstr ""
-
-#: download/distros.php:24
-msgid ""
-"Mythbuntu is an community supported add-on for Ubuntu focused upon setting "
-"up a standalone MythTV based PVR system. It can be used to prepare a "
-"standalon system or for integration with an existing MythTV network."
-msgstr ""
-
-#: download/distros.php:29
-msgid ""
-"Element OS is a free open source operating system for home theater PCs, "
-"media center computers, and set-top boxes. Featuring an innovative \"across "
-"the room\" Xfce-based interface which is designed to be connected to your "
-"HDTV for a digital media and internet experience from within the comforts of "
-"your own living room or lounge. Element comes loaded with the software "
-"needed to stream all forms of Web content and manage your own multimedia "
-"library and downloads."
-msgstr ""
-
-#: download/distros.php:35
-msgid ""
-"Dreamlinux is a modern and modular GNU/Linux system that can be run directly "
-"a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, "
-"PATA and USB Drive)."
-msgstr ""
-
-#: download/distros.php:40
-msgid ""
-"Speed, performance, stability -- these are attributes that set VectorLinux "
-"apart in the crowded field of Linux distributions. The creators of "
-"VectorLinux had a single credo: keep it simple, keep it small and let the "
-"end user decide what their operating system is going to be. What has evolved "
-"from this concept is perhaps the best little Linux operating system "
-"available anywhere."
-msgstr ""
-
-#: download/distros.php:45
-msgid ""
-"Wolvix is a desktop oriented GNU/Linux distribution based on Slackware. It "
-"features the Xfce desktop environment and a comprehensive selection of "
-"development, graphics, multimedia, network and office applications. It's "
-"mainly targeted at home users and strives to provide a balance between "
-"everyday computing tasks, creativity, work and enjoyment."
-msgstr ""
-
-#: download/distros.php:50
-msgid ""
-"Kate OS is a polish GNU/Linux distribution. It is a lightweight binary "
-"distribution featuring Xfce as the default desktop environment."
-msgstr ""
-
-#: download/distros.php:55
-msgid ""
-"Salix is a Linux distribution based on Slackware that is simple, fast and "
-"easy to use. Salix is also fully backwards compatible with Slackware, so "
-"Slackware users can benefit from Salix repositories, which they can use as "
-"an \"extra\" quality source of software for their favorite distribution. "
-"Like a bonsai, Salix is small, light and the product of infinite care."
-msgstr ""
-
-#: download/distros.php:58
-msgid "Xfce Live-CD distributions"
-msgstr ""
-
-#: download/distros.php:62
-msgid ""
-"SAM Linux Desktop is a self-booting live CD containing a full linux desktop "
-"OS. You don't have to install it on your harddisk, it runs completely from "
-"your cd drive and your RAM."
-msgstr ""
-
-#: download/distros.php:67
-msgid ""
-"PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking "
-"users. It's built with Linux-live scripts from Tomas Matejicek (Slax)."
-msgstr ""
-
-#: download/distros.php:70
-msgid "General distributions with a good Xfce support"
-msgstr ""
-
-#: download/distros.php:74
-msgid ""
-"Debian is one of the most famous binary distributions, used as a base by "
-"many other distributions. It's know for its stability, its performances and "
-"the wide choice of available applications. The <a href=\"http://pkg-xfce."
-"alioth.debian.org/\">Debian Xfce group</a> takes care of integrating Xfce "
-"into Debian to provide a nice user experience."
-msgstr ""
-
-#: download/distros.php:79
-msgid ""
-"Mandriva Linux is an operating system for your computer. Easy to try. Easy "
-"to install. Easy to use. Xfce is of course available, simple to install and "
-"configure."
-msgstr ""
-
-#: download/distros.php:84
-msgid ""
-"OpenSUSE is a free and Linux-based operating system for your PC, Laptop or "
-"Server. You can surf the web, manage your e-mails and photos, do office "
-"work, play videos or music and have a lot of fun!"
-msgstr ""
-
-#: download/distros.php:89
-msgid ""
-"Arch Linux is a simple, agile and lightweight GNU/Linux distribution, and "
-"UNIX-like operating system. Arch Linux requires a certain level of intimate "
-"knowledge of its configuration and of UNIX-like system methodology."
-msgstr ""
-
-#: download/distros.php:94
-msgid ""
-"The Official Release of Slackware Linux is an advanced Linux operating "
-"system, designed with the twin goals of ease of use and stability as top "
-"priorities. Including the latest popular software while retaining a sense of "
-"tradition, providing simplicity and ease of use alongside flexibility and "
-"power, Slackware brings the best of all worlds to the table."
-msgstr ""
-
-#: download/distros.php:99
-msgid ""
-"Gentoo is a special flavor of Linux that can be automatically optimized and "
-"customized for just about any application or need. Extreme performance, "
-"configurability and a top-notch user and developer community are all "
-"hallmarks of the Gentoo experience. Gentoo ships the latest Xfce releases "
-"and allow you to integrate them in a very performant environment."
-msgstr ""
-
-#: download/distros.php:104
-msgid ""
-"Lunar Linux is a source-based distribution. Although there is no native "
-"desktop environment in Lunar, it has excellent support for Xfce, mainly "
-"because a couple of Xfce developers are also Lunar developers. Another "
-"noticeable point: all Xfce servers are running Lunar Linux!"
-msgstr ""
-
-#: download/distros.php:109
-msgid ""
-"The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like "
-"operating system. Our efforts emphasize portability, standardization, "
-"correctness, proactive security and integrated cryptography. OpenBSD "
-"supports binary emulation of most programs from SVR4 (Solaris), FreeBSD, "
-"Linux, BSD/OS, SunOS and HP-UX."
-msgstr ""
-
-#: development/translate.php:1 development/nav.php:3
+#: development/nav.php:5 development/translate.php:1
 msgid "Translate"
+msgstr ""
+
+#: development/nav.php:6 development/releasemodel.php:3
+msgid "Release Model"
+msgstr ""
+
+#: development/nav.php:9
+msgid "Report a bug"
+msgstr ""
+
+#: development/nav.php:10 development/index.php:16
+msgid "Translations"
+msgstr ""
+
+#: development/nav.php:11
+msgid "Buildbot"
+msgstr ""
+
+#: development/index.php:5
+msgid ""
+"Xfce is made possible thanks to the help of volunteers with all kinds of "
+"skills and talents. Coding is just one way to help &ndash; translators, "
+"documenters, and designers are also welcome! This page outlines some of the "
+"areas where you could help out."
+msgstr ""
+
+#: development/index.php:8
+msgid "Xfce core"
+msgstr ""
+
+#: development/index.php:10
+#, php-format
+msgid ""
+"Feel free to join us in developing the next release of Xfce or in helping "
+"fix bugs in existing releases. <a href=\"http://bugzilla.xfce.org"
+"\">Bugzilla</a> and the <a href=\"%s\">roadmap</a> are good sources of ideas "
+"on what needs some love."
+msgstr ""
+
+#: development/index.php:14
+msgid ""
+"If you are interested in more details or news about current development "
+"efforts, subscribe to the <a href=\"http://foo-projects.org/mailman/listinfo/"
+"xfce4-dev\">development mailing list</a>. The <a href=\"http://wiki.xfce.org/"
+"\">wiki</a> also contains a lot of useful information."
+msgstr ""
+
+#: development/index.php:18
+msgid ""
+"Xfce is translated into dozens of languages. Translations are currently "
+"managed using <a href=\"https://translations.xfce.org/\">Transifex</a>. The "
+"<a href=\"https://translations.xfce.org/help/\">help page</a> contains "
+"instructions on how to contribute. If you have any questions, the <a href="
+"\"http://foo-projects.org/mailman/listinfo/xfce-i18n/\">Xfce i18n mailing "
+"list</a> is there for you!"
+msgstr ""
+
+#: development/index.php:21
+msgid "Documentation"
+msgstr ""
+
+#: development/index.php:23
+msgid ""
+"As you may have noticed, the <a href=\"http://docs.xfce.org>\">Xfce "
+"documentation</a> needs some love! If you want to join the new documentation "
+"effort, please contact us using the <a href=\"http://foo-projects.org/"
+"mailman/listinfo/xfce4-dev\">development mailing list</a>."
+msgstr ""
+
+#: development/index.php:26
+msgid "Goodies"
+msgstr ""
+
+#: development/index.php:28
+msgid ""
+"The <a href=\"http://goodies.xfce.org\">Xfce goodies</a> are independent "
+"projects related to the Xfce desktop. Though they are not part of the "
+"official release, they complement and enhance the overall desktop, and they "
+"also need your help! If you want to contribute to one of these, contact that "
+"project's maintainer, or you could start your own pet project. The <a href="
+"\"http://foo-projects.org/mailman/listinfo/goodies-dev/\">Goodies "
+"development mailing list</a>is there for you if you have any questions."
+msgstr ""
+
+#: development/index.php:32
+msgid "Xfce framework"
+msgstr ""
+
+#: development/index.php:34
+msgid ""
+"Xfce provides a framework for developing applications that integrate well in "
+"the Xfce desktop environment. This framework also provides common and useful "
+"functionality not present in the GLib/GTK stack, further easing application "
+"development."
+msgstr ""
+
+#: development/index.php:38
+msgid ""
+"The <a href=\"http://foo-projects.org/%7Ebenny/projects/xfce4-dev-tools/"
+"\">Xfce developer tools</a> provide a collection of scripts and M4 macros "
+"that are required to build the Xfce core desktop components."
+msgstr ""
+
+#: development/index.php:42
+msgid ""
+"The <a href=\"/projects/libraries/\">base libraries of Xfce</a> are used by "
+"almost every Xfce application. Among other things, they provide convenience "
+"functions and specialized display widgets."
+msgstr ""
+
+#: development/index.php:46
+msgid ""
+"Xfce also includes <a href=\"http://pyxfce.xfce.org/\">Python</a>, <a href="
+"\"http://spuriousinterrupt.org/projects/xfce4-perl\">Perl</a>, and <a href="
+"\"http://xfc.xfce.org/\">C++</a> bindings to its libraries."
+msgstr ""
+
+#: development/index.php:51
+msgid ""
+"The <a href=\"/about/artwork\">Xfce Artwork</a> project needs volunteers! "
+"Design new icons, wallpapers, or window manager themes by following our step-"
+"by-step example <a href=\"http://wiki.xfce.org/howto\">howto's</a>. Or see "
+"how others have customized their Xfce desktops on <a href=\"http://www.xfce-"
+"look.org/\">Xfce Look</a>."
 msgstr ""
 
 #: development/translate.php:6
@@ -1659,259 +1040,139 @@ msgid ""
 "update the translations online."
 msgstr ""
 
-#: development/nav.php:4 development/releasemodel.php:1
-msgid "Release Model"
+#: development/releasemodel.php:6 development/releasemodel.php:32
+msgid "The Xfce Core Desktop"
 msgstr ""
 
-#: development/nav.php:9
-msgid "Report a bug"
+#: development/releasemodel.php:7 development/releasemodel.php:65
+msgid "The Release Cycle"
 msgstr ""
 
-#: development/nav.php:10 development/index.php:16
-msgid "Translations"
-msgstr ""
-
-#: development/nav.php:11
-msgid "Buildbot"
-msgstr ""
-
-#: development/index.php:5
-msgid ""
-"Xfce is made possible thanks to the help of volunteers with all kinds of "
-"skills and talents. Coding is just one way to help &ndash; translators, "
-"documenters, and designers are also welcome! This page outlines some of the "
-"areas where you could help out."
-msgstr ""
-
-#: development/index.php:8
-msgid "Xfce core"
-msgstr ""
-
-#: development/index.php:10
-#, php-format
-msgid ""
-"Feel free to join us in developing the next release of Xfce or in helping "
-"fix bugs in existing releases. <a href=\"http://bugzilla.xfce.org"
-"\">Bugzilla</a> and the <a href=\"%s\">roadmap</a> are good sources of ideas "
-"on what needs some love."
-msgstr ""
-
-#: development/index.php:14
-msgid ""
-"If you are interested in more details or news about current development "
-"efforts, subscribe to the <a href=\"http://foo-projects.org/mailman/listinfo/"
-"xfce4-dev\">development mailing list</a>. The <a href=\"http://wiki.xfce.org/"
-"\">wiki</a> also contains a lot of useful information."
-msgstr ""
-
-#: development/index.php:18
-msgid ""
-"Xfce is translated into dozens of languages. Translations are currently "
-"managed using <a href=\"https://translations.xfce.org/\">Transifex</a>. The "
-"<a href=\"https://translations.xfce.org/help/\">help page</a> contains "
-"instructions on how to contribute. If you have any questions, the <a href="
-"\"http://foo-projects.org/mailman/listinfo/xfce-i18n/\">Xfce i18n mailing "
-"list</a> is there for you!"
-msgstr ""
-
-#: development/index.php:21
-msgid "Documentation"
-msgstr ""
-
-#: development/index.php:23
-msgid ""
-"As you may have noticed, the <a href=\"http://docs.xfce.org>\">Xfce "
-"documentation</a> needs some love! If you want to join the new documentation "
-"effort, please contact us using the <a href=\"http://foo-projects.org/"
-"mailman/listinfo/xfce4-dev\">development mailing list</a>."
-msgstr ""
-
-#: development/index.php:26
-msgid "Goodies"
-msgstr ""
-
-#: development/index.php:28
-msgid ""
-"The <a href=\"http://goodies.xfce.org\">Xfce goodies</a> are independent "
-"projects related to the Xfce desktop. Though they are not part of the "
-"official release, they complement and enhance the overall desktop, and they "
-"also need your help! If you want to contribute to one of these, contact that "
-"project's maintainer, or you could start your own pet project. The <a href="
-"\"http://foo-projects.org/mailman/listinfo/goodies-dev/\">Goodies "
-"development mailing list</a>is there for you if you have any questions."
-msgstr ""
-
-#: development/index.php:32
-msgid "Xfce framework"
-msgstr ""
-
-#: development/index.php:34
-msgid ""
-"Xfce provides a framework for developing applications that integrate well in "
-"the Xfce desktop environment. This framework also provides common and useful "
-"functionality not present in the GLib/GTK stack, further easing application "
-"development."
-msgstr ""
-
-#: development/index.php:38
-msgid ""
-"The <a href=\"http://foo-projects.org/%7Ebenny/projects/xfce4-dev-tools/"
-"\">Xfce developer tools</a> provide a collection of scripts and M4 macros "
-"that are required to build the Xfce core desktop components."
-msgstr ""
-
-#: development/index.php:42
-msgid ""
-"The <a href=\"/projects/libraries/\">base libraries of Xfce</a> are used by "
-"almost every Xfce application. Among other things, they provide convenience "
-"functions and specialized display widgets."
-msgstr ""
-
-#: development/index.php:46
-msgid ""
-"Xfce also includes <a href=\"http://pyxfce.xfce.org/\">Python</a>, <a href="
-"\"http://spuriousinterrupt.org/projects/xfce4-perl\">Perl</a>, and <a href="
-"\"http://xfc.xfce.org/\">C++</a> bindings to its libraries."
-msgstr ""
-
-#: development/index.php:51
-msgid ""
-"The <a href=\"/about/artwork\">Xfce Artwork</a> project needs volunteers! "
-"Design new icons, wallpapers, or window manager themes by following our step-"
-"by-step example <a href=\"http://wiki.xfce.org/howto\">howto's</a>. Or see "
-"how others have customized their Xfce desktops on <a href=\"http://www.xfce-"
-"look.org/\">Xfce Look</a>."
-msgstr ""
-
-#: development/releasemodel.php:6
+#: development/releasemodel.php:15
 msgid ""
 "In the past the same questions and discussions have come up over and over "
 "again whenever a new release was in sight, like:"
 msgstr ""
 
-#: development/releasemodel.php:10
+#: development/releasemodel.php:19
 msgid "What are the core components of Xfce?"
 msgstr ""
 
-#: development/releasemodel.php:11
+#: development/releasemodel.php:20
 msgid ""
 "How often do we want to release and in what fashion (time-based, feature-"
 "based)?"
 msgstr ""
 
-#: development/releasemodel.php:12
+#: development/releasemodel.php:21
 msgid "Who's in charge of the release process?"
 msgstr ""
 
-#: development/releasemodel.php:13
+#: development/releasemodel.php:22
 msgid "What dependency versions do we depend on?"
 msgstr ""
 
-#: development/releasemodel.php:14
+#: development/releasemodel.php:23
 msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
 msgstr ""
 
-#: development/releasemodel.php:15
+#: development/releasemodel.php:24
 msgid "How many pre-releases should we do and how do we call them?"
 msgstr ""
 
-#: development/releasemodel.php:16
+#: development/releasemodel.php:25
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
 msgstr ""
 
-#: development/releasemodel.php:20
+#: development/releasemodel.php:29
 msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
 msgstr ""
 
-#: development/releasemodel.php:23
-msgid "The Xfce Core Desktop"
-msgstr ""
-
-#: development/releasemodel.php:28
-msgid "exo"
-msgstr ""
-
-#: development/releasemodel.php:29
-msgid "gtk-xfce-engine"
-msgstr ""
-
-#: development/releasemodel.php:30
-msgid "libxfce4ui"
-msgstr ""
-
-#: development/releasemodel.php:31
-msgid "libxfce4util"
-msgstr ""
-
-#: development/releasemodel.php:32
-msgid "thunar-vfs"
-msgstr ""
-
-#: development/releasemodel.php:33
-msgid "thunar"
-msgstr ""
-
-#: development/releasemodel.php:34
-msgid "xfce-utils"
-msgstr ""
-
-#: development/releasemodel.php:35
-msgid "xfce4-appfinder"
-msgstr ""
-
-#: development/releasemodel.php:36
-msgid "xfce4-panel"
+#: development/releasemodel.php:34 projects/index.php:7 projects/index.php:16
+msgid "Core Components"
 msgstr ""
 
 #: development/releasemodel.php:37
-msgid "xfce4-session"
+msgid "exo"
 msgstr ""
 
 #: development/releasemodel.php:38
-msgid "xfce4-settings"
+msgid "gtk-xfce-engine"
 msgstr ""
 
 #: development/releasemodel.php:39
-msgid "xfconf"
+msgid "libxfce4ui"
 msgstr ""
 
 #: development/releasemodel.php:40
-msgid "xfdesktop"
+msgid "libxfce4util"
 msgstr ""
 
 #: development/releasemodel.php:41
-msgid "xfwm4"
+msgid "thunar-vfs"
+msgstr ""
+
+#: development/releasemodel.php:42
+msgid "thunar"
+msgstr ""
+
+#: development/releasemodel.php:43
+msgid "xfce-utils"
+msgstr ""
+
+#: development/releasemodel.php:44
+msgid "xfce4-appfinder"
 msgstr ""
 
 #: development/releasemodel.php:45
+msgid "xfce4-panel"
+msgstr ""
+
+#: development/releasemodel.php:46
+msgid "xfce4-session"
+msgstr ""
+
+#: development/releasemodel.php:47
+msgid "xfce4-settings"
+msgstr ""
+
+#: development/releasemodel.php:48
+msgid "xfconf"
+msgstr ""
+
+#: development/releasemodel.php:49
+msgid "xfdesktop"
+msgstr ""
+
+#: development/releasemodel.php:50
+msgid "xfwm4"
+msgstr ""
+
+#: development/releasemodel.php:54
 msgid ""
 "All core components of the Xfce desktop must adhere to the release policy "
 "defined in this document."
 msgstr ""
 
-#: development/releasemodel.php:48
+#: development/releasemodel.php:57
 msgid "Essential Dependencies"
 msgstr ""
 
-#: development/releasemodel.php:51
+#: development/releasemodel.php:60
 msgid "GTK+"
 msgstr ""
 
-#: development/releasemodel.php:52
+#: development/releasemodel.php:61
 msgid "GLib"
 msgstr ""
 
-#: development/releasemodel.php:53
+#: development/releasemodel.php:62
 msgid "garcon"
 msgstr ""
 
-#: development/releasemodel.php:56
-msgid "The Release Cycle"
-msgstr ""
-
-#: development/releasemodel.php:59
+#: development/releasemodel.php:68
 msgid ""
 "The release cycle involves a short planning phase, a development phase with "
 "development releases and a release phase, eventually leading to a new stable "
@@ -1921,22 +1182,22 @@ msgid ""
 "version of Xfce."
 msgstr ""
 
-#: development/releasemodel.php:63
+#: development/releasemodel.php:72
 msgid ""
 "Below you can see a graphical timeline of an example release cycle and "
 "maintenance process for Xfce 4.8 with three components: Thunar, exo and "
 "xfwm4."
 msgstr ""
 
-#: development/releasemodel.php:68
+#: development/releasemodel.php:77
 msgid "Example Release Cycle"
 msgstr ""
 
-#: development/releasemodel.php:72
+#: development/releasemodel.php:81
 msgid "Planning Phase (2(+2) Weeks)"
 msgstr ""
 
-#: development/releasemodel.php:75
+#: development/releasemodel.php:84
 msgid ""
 "This phase marks the beginning of the release cycle and is used to decide "
 "which dependencies to use and also to appoint the release team for the cycle "
@@ -1944,11 +1205,11 @@ msgid ""
 "weeks)."
 msgstr ""
 
-#: development/releasemodel.php:78
+#: development/releasemodel.php:87
 msgid "Appointing the Release Team"
 msgstr ""
 
-#: development/releasemodel.php:81
+#: development/releasemodel.php:90
 msgid ""
 "At the beginning of the planning phase there is a (formal or informal) "
 "voting for the release team. The release team supervises development and "
@@ -1958,11 +1219,11 @@ msgid ""
 "Release Team section of this document."
 msgstr ""
 
-#: development/releasemodel.php:84
+#: development/releasemodel.php:93
 msgid "Release Team"
 msgstr ""
 
-#: development/releasemodel.php:87
+#: development/releasemodel.php:96
 msgid ""
 "The release team consists of at least two people: one release manager who "
 "can be assisted by others to actually perform the release (tagging, creation "
@@ -1972,133 +1233,133 @@ msgid ""
 "below."
 msgstr ""
 
-#: development/releasemodel.php:91
+#: development/releasemodel.php:100
 msgid "These are the release team roles and their responsibilities:"
 msgstr ""
 
-#: development/releasemodel.php:94
+#: development/releasemodel.php:103
 msgid "Release Manager"
 msgstr ""
 
-#: development/releasemodel.php:97
+#: development/releasemodel.php:106
 msgid "Organization of the release cycle"
 msgstr ""
 
-#: development/releasemodel.php:98
+#: development/releasemodel.php:107
 msgid ""
 "Announce deadlines to developers and translators (repeatedly and early "
 "enough)"
 msgstr ""
 
-#: development/releasemodel.php:99
+#: development/releasemodel.php:108
 msgid "Overseeing of maintainance and development releases"
 msgstr ""
 
-#: development/releasemodel.php:100
+#: development/releasemodel.php:109
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
 msgstr ""
 
-#: development/releasemodel.php:101
+#: development/releasemodel.php:110
 msgid "Generate tarballs from tags (possibly automated)"
 msgstr ""
 
-#: development/releasemodel.php:102
+#: development/releasemodel.php:111
 msgid "Write release notes"
 msgstr ""
 
-#: development/releasemodel.php:103
+#: development/releasemodel.php:112
 msgid "Write release announcements"
 msgstr ""
 
-#: development/releasemodel.php:104
+#: development/releasemodel.php:113
 msgid "Create Bugzilla tags"
 msgstr ""
 
-#: development/releasemodel.php:105
+#: development/releasemodel.php:114
 msgid "Approve fixes of blocker bugs during code freeze"
 msgstr ""
 
-#: development/releasemodel.php:108
+#: development/releasemodel.php:117
 msgid "Release Assistant(s)"
 msgstr ""
 
-#: development/releasemodel.php:111
+#: development/releasemodel.php:120
 msgid "Update the website(s)"
 msgstr ""
 
-#: development/releasemodel.php:112
+#: development/releasemodel.php:121
 msgid "Help the release manager with his tasks"
 msgstr ""
 
-#: development/releasemodel.php:115
+#: development/releasemodel.php:124
 msgid "QA Official"
 msgstr ""
 
-#: development/releasemodel.php:118
+#: development/releasemodel.php:127
 msgid "Have an eye on libtool versions of maintanance and development releases"
 msgstr ""
 
-#: development/releasemodel.php:119
+#: development/releasemodel.php:128
 msgid "Remind maintainers about missing NEWS updates"
 msgstr ""
 
-#: development/releasemodel.php:120
+#: development/releasemodel.php:129
 msgid "Double-check the generated tarballs"
 msgstr ""
 
-#: development/releasemodel.php:121
+#: development/releasemodel.php:130
 msgid "Proof-read release announcements"
 msgstr ""
 
-#: development/releasemodel.php:124
+#: development/releasemodel.php:133
 msgid "Individual Maintainers"
 msgstr ""
 
-#: development/releasemodel.php:127
+#: development/releasemodel.php:136
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
 msgstr ""
 
-#: development/releasemodel.php:128
+#: development/releasemodel.php:137
 msgid "Generate tarballs for their maintainance and development releases"
 msgstr ""
 
-#: development/releasemodel.php:129
+#: development/releasemodel.php:138
 msgid "Write ChangeLogs and update NEWS files"
 msgstr ""
 
-#: development/releasemodel.php:130
+#: development/releasemodel.php:139
 msgid "Write component-specific release announcements"
 msgstr ""
 
-#: development/releasemodel.php:131
+#: development/releasemodel.php:140
 msgid "Create Bugzilla tags for their releases"
 msgstr ""
 
-#: development/releasemodel.php:132
+#: development/releasemodel.php:141
 msgid "Make sure API documentation is up to date"
 msgstr ""
 
-#: development/releasemodel.php:135
+#: development/releasemodel.php:144
 msgid "Dependency Freeze"
 msgstr ""
 
-#: development/releasemodel.php:138
+#: development/releasemodel.php:147
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
 msgstr ""
 
-#: development/releasemodel.php:142
+#: development/releasemodel.php:151
 msgid "List the features he wants to implement in the release cycle"
 msgstr ""
 
-#: development/releasemodel.php:143
+#: development/releasemodel.php:152
 msgid "Investigate which dependencies are implied by that"
 msgstr ""
 
-#: development/releasemodel.php:147
+#: development/releasemodel.php:156
 msgid ""
 "At the end of this, a decision is made on which dependencies the next stable "
 "release of the Xfce core desktop will depend. In particular this includes "
@@ -2106,53 +1367,53 @@ msgid ""
 "core desktop."
 msgstr ""
 
-#: development/releasemodel.php:151
+#: development/releasemodel.php:160
 msgid ""
 "Maintainers who were not available during the first 2 weeks of the planning "
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
 msgstr ""
 
-#: development/releasemodel.php:155
+#: development/releasemodel.php:164
 msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
 msgstr ""
 
-#: development/releasemodel.php:158
+#: development/releasemodel.php:167
 msgid "Informing the Community"
 msgstr ""
 
-#: development/releasemodel.php:161
+#: development/releasemodel.php:170
 msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
 msgstr ""
 
-#: development/releasemodel.php:164
+#: development/releasemodel.php:173
 msgid "Development Phase (5 Months)"
 msgstr ""
 
-#: development/releasemodel.php:167
+#: development/releasemodel.php:176
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
 msgstr ""
 
-#: development/releasemodel.php:170
+#: development/releasemodel.php:179
 msgid "Development Releases"
 msgstr ""
 
-#: development/releasemodel.php:173
+#: development/releasemodel.php:182
 msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
 
-#: development/releasemodel.php:177
+#: development/releasemodel.php:186
 msgid ""
 "Maintainers are encouraged to do development releases for new features they "
 "want to make available to others. Frequent development releases can act as a "
@@ -2162,7 +1423,7 @@ msgid ""
 "libtool versions must be updated properly with every development release."
 msgstr ""
 
-#: development/releasemodel.php:181
+#: development/releasemodel.php:190
 msgid ""
 "Care has to be taken of the master branch of each component. The master "
 "branch should always remain in a release-ready state. New features should be "
@@ -2172,7 +1433,7 @@ msgid ""
 "entire Xfce core desktop."
 msgstr ""
 
-#: development/releasemodel.php:185
+#: development/releasemodel.php:194
 msgid ""
 "New features breaking APIs or other core components should be communicated. "
 "Maintainers are suggested to prepare other components for these features in "
@@ -2180,41 +1441,41 @@ msgid ""
 "release. That way the other components retain their release-ready state."
 msgstr ""
 
-#: development/releasemodel.php:189
+#: development/releasemodel.php:198
 msgid "This is how the basic development workflow looks like:"
 msgstr ""
 
-#: development/releasemodel.php:194
+#: development/releasemodel.php:203
 msgid "Development Workflow"
 msgstr ""
 
-#: development/releasemodel.php:198
+#: development/releasemodel.php:207
 msgid "Release Phase (10+ Weeks)"
 msgstr ""
 
-#: development/releasemodel.php:201
+#: development/releasemodel.php:210
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
 msgstr ""
 
-#: development/releasemodel.php:205
+#: development/releasemodel.php:214
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
 msgstr ""
 
-#: development/releasemodel.php:206
+#: development/releasemodel.php:215
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
 msgstr ""
 
-#: development/releasemodel.php:207
+#: development/releasemodel.php:216
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
 msgstr ""
 
-#: development/releasemodel.php:208
+#: development/releasemodel.php:217
 msgid "Xfce X.Y     (after 10+ weeks)"
 msgstr ""
 
-#: development/releasemodel.php:212
+#: development/releasemodel.php:221
 msgid ""
 "where Y has to be an even number. Each of these releases has to include the "
 "latest development releases of all components (or stable, if there were no "
@@ -2224,7 +1485,7 @@ msgid ""
 "version 4.7.17 and Thunar could have 1.1.9."
 msgstr ""
 
-#: development/releasemodel.php:216
+#: development/releasemodel.php:225
 msgid ""
 "This means that maintainers don't necessarily have to release new versions "
 "of their components along with one of the pre-releases. The release team "
@@ -2232,54 +1493,54 @@ msgid ""
 "component for pre-releases and the final release."
 msgstr ""
 
-#: development/releasemodel.php:220
+#: development/releasemodel.php:229
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
 msgstr ""
 
-#: development/releasemodel.php:223
+#: development/releasemodel.php:232
 msgid "Freezing before Releases"
 msgstr ""
 
-#: development/releasemodel.php:226
+#: development/releasemodel.php:235
 msgid "There are different freeze types before releases."
 msgstr ""
 
-#: development/releasemodel.php:229
+#: development/releasemodel.php:238
 msgid "Feature Freeze"
 msgstr ""
 
-#: development/releasemodel.php:232
+#: development/releasemodel.php:241
 msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from "
 "there on only translations and bugfixes are allowed to go into the master "
 "branch."
 msgstr ""
 
-#: development/releasemodel.php:235
+#: development/releasemodel.php:244
 msgid "String/UI Freeze"
 msgstr ""
 
-#: development/releasemodel.php:238
+#: development/releasemodel.php:247
 msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes "
 "for the user interface which may not be changed after this point."
 msgstr ""
 
-#: development/releasemodel.php:241
+#: development/releasemodel.php:250
 msgid "Code Freeze"
 msgstr ""
 
-#: development/releasemodel.php:244
+#: development/releasemodel.php:253
 msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
 
-#: development/releasemodel.php:248
+#: development/releasemodel.php:257
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze which means from "
 "there on no code changes are allowed, unless they are signed off by the "
@@ -2287,33 +1548,33 @@ msgid ""
 "critical bugs. Translations are still allowed to go in."
 msgstr ""
 
-#: development/releasemodel.php:251
+#: development/releasemodel.php:260
 msgid "Code Freeze Phase (2+ weeks)"
 msgstr ""
 
-#: development/releasemodel.php:254
+#: development/releasemodel.php:263
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
 msgstr ""
 
-#: development/releasemodel.php:258
+#: development/releasemodel.php:267
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
 msgstr ""
 
-#: development/releasemodel.php:263
+#: development/releasemodel.php:272
 msgid "Tagging and Branching for Releases"
 msgstr ""
 
-#: development/releasemodel.php:267
+#: development/releasemodel.php:276
 msgid "Bugfixes/Changes"
 msgstr ""
 
-#: development/releasemodel.php:270
+#: development/releasemodel.php:279
 msgid ""
 "If a core component requires fixes or changes during code freeze, the "
 "maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
@@ -2322,75 +1583,75 @@ msgid ""
 "fixes for blocking bugs."
 msgstr ""
 
-#: development/releasemodel.php:274
+#: development/releasemodel.php:283
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
 "after the final release. Only bugfixes are allowed in this branch."
 msgstr ""
 
-#: development/releasemodel.php:277
+#: development/releasemodel.php:286
 msgid "Code Freeze Exceptions"
 msgstr ""
 
-#: development/releasemodel.php:279
+#: development/releasemodel.php:288
 msgid "Blocking Bugs"
 msgstr ""
 
-#: development/releasemodel.php:282
+#: development/releasemodel.php:291
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
 msgstr ""
 
-#: development/releasemodel.php:286
+#: development/releasemodel.php:295
 msgid "it crashes a core application"
 msgstr ""
 
-#: development/releasemodel.php:287
+#: development/releasemodel.php:296
 msgid "it causes data loss"
 msgstr ""
 
-#: development/releasemodel.php:288
+#: development/releasemodel.php:297
 msgid "it causes an ever-growing memory leak"
 msgstr ""
 
-#: development/releasemodel.php:289
+#: development/releasemodel.php:298
 msgid "it locks the entire desktop GUI"
 msgstr ""
 
-#: development/releasemodel.php:293
+#: development/releasemodel.php:302
 msgid "A bug may not delay a release if it meets the following criteria:"
 msgstr ""
 
-#: development/releasemodel.php:297
+#: development/releasemodel.php:306
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
 msgstr ""
 
-#: development/releasemodel.php:301
+#: development/releasemodel.php:310
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
 msgstr ""
 
-#: development/releasemodel.php:304
+#: development/releasemodel.php:313
 msgid "Release-Critical Changes"
 msgstr ""
 
-#: development/releasemodel.php:307
+#: development/releasemodel.php:316
 msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
 msgstr ""
 
-#: development/releasemodel.php:310
+#: development/releasemodel.php:319
 msgid "Releasing"
 msgstr ""
 
-#: development/releasemodel.php:313
+#: development/releasemodel.php:322
 msgid ""
 "For the final release (Xfce X.Y), all core components are tagged (twice, "
 "once with their own version and once with xfce-X.Y.0) and branched for the "
@@ -2399,11 +1660,11 @@ msgid ""
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
 msgstr ""
 
-#: development/releasemodel.php:316
+#: development/releasemodel.php:325
 msgid "Maintenance Process"
 msgstr ""
 
-#: development/releasemodel.php:319
+#: development/releasemodel.php:328
 msgid ""
 "After the release of a final version, bugfixes and translation updates will "
 "be committed to a stable component-specific branch (like thunar-1.2 or "
@@ -2411,11 +1672,11 @@ msgid ""
 "to be synchronized."
 msgstr ""
 
-#: development/releasemodel.php:322
+#: development/releasemodel.php:331
 msgid "Maintenance Releases"
 msgstr ""
 
-#: development/releasemodel.php:325
+#: development/releasemodel.php:334
 msgid ""
 "There may be no API/ABI changes in maintenance releases compared to the "
 "corresponding final release of the Xfce core desktop. They also must follow "
@@ -2424,6 +1685,757 @@ msgid ""
 "releases."
 msgstr ""
 
-#: development/releasemodel.php:329
+#: development/releasemodel.php:338
 msgid "Authors"
+msgstr ""
+
+#: community/nav.php:4 community/index.php:3 header.php:56
+msgid "Community"
+msgstr ""
+
+#: community/nav.php:7
+msgid "Forum"
+msgstr ""
+
+#: community/nav.php:8
+msgid "Blog"
+msgstr ""
+
+#: community/nav.php:9
+msgid "Wiki"
+msgstr ""
+
+#: community/nav.php:10
+msgid "Bug tracker"
+msgstr ""
+
+#: community/index.php:6 community/index.php:19
+msgid "IRC"
+msgstr ""
+
+#: community/index.php:7 community/index.php:25
+msgid "Mailing lists"
+msgstr ""
+
+#: community/index.php:8 community/index.php:112
+msgid "Forums"
+msgstr ""
+
+#: community/index.php:9 community/index.php:118
+msgid "Identi.ca Xfce group"
+msgstr ""
+
+#: community/index.php:16
+msgid ""
+"Whether it be to solve a problem or to contribute in any way, the Xfce "
+"communities are a good place to get help or to share your ideas. You might "
+"also want to have a look at the communities of the different distributions "
+"which provide Xfce."
+msgstr ""
+
+#: community/index.php:22
+msgid ""
+"If you have a problem that you cannot resolve, you might want to try asking "
+"a question in our IRC channel <a href=\"irc://irc.freenode.net/#xfce\">#xfce "
+"on irc.freenode.net</a>. The channel has several active users. It is "
+"recommended that you consult the <a href=\"http://docs.xfce.org/\" class="
+"\"external\">documentation</a> about your problem before asking your "
+"question."
+msgstr ""
+
+#: community/index.php:28
+msgid ""
+"<strong>NOTE:</strong> In order to post to these lists, you must first "
+"subscribe."
+msgstr ""
+
+#: community/index.php:33
+msgid "List"
+msgstr ""
+
+#: community/index.php:34
+msgid "Description"
+msgstr ""
+
+#: community/index.php:38
+msgid "Discussion list for users of Xfce."
+msgstr ""
+
+#: community/index.php:42
+msgid "Announcements of new versions of Xfce and related projects."
+msgstr ""
+
+#: community/index.php:46
+msgid ""
+"This mailing list is used as a point of contact for people interested in "
+"promoting Xfce."
+msgstr ""
+
+#: community/index.php:50
+msgid ""
+"To coordinate the translation of Xfce into new languages. See also the <a "
+"href=\"/development/translations\">translations</a> page."
+msgstr ""
+
+#: community/index.php:54
+msgid "To coordinate the German translation of Xfce."
+msgstr ""
+
+#: community/index.php:57
+msgid "A mailing list for developers of Xfce."
+msgstr ""
+
+#: community/index.php:61
+msgid "To be notified of Xfce commits (including goodies and other modules)."
+msgstr ""
+
+#: community/index.php:65
+msgid "Xfce Goodies development discussion."
+msgstr ""
+
+#: community/index.php:69
+msgid ""
+"E-mail address for general Xfce bugs. Bugs should be reported and discussed "
+"in the <a href=\"http://bugzilla.xfce.org\" class=\"external\">bug tracker</"
+"a>."
+msgstr ""
+
+#: community/index.php:73
+msgid "A mailing list for development of the Thunar file manager."
+msgstr ""
+
+#: community/index.php:77
+msgid "Search the mailing lists"
+msgstr ""
+
+#: community/index.php:86
+msgid "No results found in mailing lists"
+msgstr ""
+
+#: community/index.php:115
+msgid ""
+"For users who prefer forums, the <a href=\"http://forum.xfce.org/\" class="
+"\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
+"able to help you, but please do not use it for bug reports."
+msgstr ""
+
+#: community/index.php:121
+msgid ""
+"<a href=\"http://identi.ca/group/xfce\" class=\"external\">The Identi.ca "
+"Xfce group</a> will allow you to get in touch with many Xfce users and to "
+"get the latest Xfce news."
+msgstr ""
+
+#: download/development.php:1
+msgid "Development source code"
+msgstr ""
+
+#: download/development.php:8
+msgid ""
+"If you want to build Xfce from source code, you can either download the "
+"sourcetarballs of a released version of Xfce from our <a href=\"/download"
+"\">download page</a>, or try a development version, by downloading it from "
+"GIT (only for the adventurous). Please note that installing two different "
+"versions of Xfce (ie. stable and development) is not supported."
+msgstr ""
+
+#: download/development.php:11
+#, php-format
+msgid "Latest release version (%s)"
+msgstr ""
+
+#: download/development.php:13
+msgid ""
+"This version contain the latest bug fixes, without any major new feature. "
+"This should be more stable than the development version (and even than the "
+"last official release), but there is still no guarantee that this version is "
+"bug free."
+msgstr ""
+
+#: download/development.php:16
+#, php-format
+msgid "Latest development version (%s)"
+msgstr ""
+
+#: download/development.php:18
+msgid ""
+"This version contain the latest development updates and bug fixes. There is "
+"no guarantee that it's fully working and bug free."
+msgstr ""
+
+#: download/development.php:21
+msgid "Getting the source code"
+msgstr ""
+
+#: download/development.php:23
+msgid ""
+"To get a list of available modules and components, you can <a href=\"http://"
+"git.xfce.org/\" class=\"external\">browse the GIT repositories</a>."
+msgstr ""
+
+#: download/development.php:26
+#, php-format
+msgid "Latest release version (%s) from the GIT repositories"
+msgstr ""
+
+#: download/development.php:28 download/development.php:41
+msgid "You can download the desired modules with the following command:"
+msgstr ""
+
+#: download/development.php:34 download/development.php:47
+msgid "For example:"
+msgstr ""
+
+#: download/development.php:39
+#, php-format
+msgid "Latest development version (%s) from the GIT repositories"
+msgstr ""
+
+#: download/development.php:53
+msgid ""
+"To synchronize your local copy (checkout) of the release or development tree "
+"with the one on the server you can run <code>git pull</code> instead of "
+"<code>git clone</code>. This will speed up the process and minimize the Xfce "
+"server transfer."
+msgstr ""
+
+#: download/development.php:56
+msgid "Building the modules"
+msgstr ""
+
+#: download/development.php:59
+msgid ""
+"If you have downloaded the tarballs, you need to unpack them before going on."
+msgstr ""
+
+#: download/development.php:63
+msgid ""
+"If you install into a different prefix from pkg-config, you have to set the "
+"PKG_CONFIG_PATH variable to include the path to the *.pc files installed by "
+"the Xfce libraries, which is ${prefix}/lib/pkgconfig. For example:"
+msgstr ""
+
+#: download/development.php:70
+msgid "To build the modules from the tarballs just run:"
+msgstr ""
+
+#: download/development.php:76
+msgid ""
+"To build the Xfce modules from GIT (you need the xfce4-dev-tools package) "
+"run this command:"
+msgstr ""
+
+#: download/development.php:80
+msgid ""
+"The <a href=\"/documentation/requirements\">requirements</a> page lists all "
+"the required dependencies and the build order of the modules."
+msgstr ""
+
+#: download/nav.php:6 download/index.php:5 header.php:55
+msgid "Download"
+msgstr ""
+
+#: download/nav.php:8 download/changelogs/index.php:3
+msgid "Changelogs"
+msgstr ""
+
+#: download/nav.php:9 download/distros.php:1
+msgid "Distributions"
+msgstr ""
+
+#: download/nav.php:12
+msgid "Browse GIT repositories"
+msgstr ""
+
+#: download/nav.php:13
+msgid "Panel Plugins"
+msgstr ""
+
+#: download/index.php:8
+msgid "Stable release"
+msgstr ""
+
+#: download/index.php:9 download/index.php:47
+msgid "Individual releases"
+msgstr ""
+
+#: download/index.php:12
+msgid "Preview release"
+msgstr ""
+
+#: download/index.php:16
+msgid "Europe/Belgium"
+msgstr ""
+
+#: download/index.php:17
+msgid "Europe/France"
+msgstr ""
+
+#: download/index.php:18
+msgid "United States/Texas"
+msgstr ""
+
+#: download/index.php:19
+msgid "United States/California"
+msgstr ""
+
+#: download/index.php:34
+msgid ""
+"Most distributions ship with Xfce in their own packaging format, but if you "
+"want a newer version or you want to build Xfce from scratch, you can find "
+"the packages below. You can also take a look at the list of <a href=\"/"
+"download/distros\">Xfce-oriented distributions</a>."
+msgstr ""
+
+#: download/index.php:37
+#, php-format
+msgid "Stable release %s"
+msgstr ""
+
+#: download/index.php:40
+#, php-format
+msgid ""
+"Xfce %s is the most recent version of the Xfce desktop environment. You can "
+"find the changes in this release <a href=\"/download/changelogs/%s\">here</"
+"a>."
+msgstr ""
+
+#: download/index.php:49
+msgid ""
+"Each package in Xfce can make idividual stable or development releases, "
+"including the core packages (as discribed in the <a href=\"/development/"
+"releasemodel\">release model</a>). You can follow the announcements of the "
+"releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, "
+"watch the <a href=\"http://releases.xfce.org/feeds/project/\">release feeds</"
+"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">ident.ca channel</a>."
+msgstr ""
+
+#: download/index.php:57
+#, php-format
+msgid "Preview release %s"
+msgstr ""
+
+#: download/index.php:59
+#, php-format
+msgid ""
+"Xfce %s is the latest development release of the Xfce desktop environment. "
+"This release should not be used in a production environments. If you are "
+"uncertain about downloading this release, you should probably use the <a "
+"href=\"#stable\">stable release</a> above. You can find the changes in this "
+"release <a href=\"/download/changelogs/%s\">here</a>."
+msgstr ""
+
+#: download/requirements.php:1
+msgid "System requirements"
+msgstr ""
+
+#: download/requirements.php:5
+#, php-format
+msgid ""
+"All packages (except xfce4-dev-tools) depend on both gtk+ %s and glib %s."
+msgstr ""
+
+#: download/requirements.php:9
+msgid ""
+"It is also recommended to build all Xfce components from the same release "
+"version."
+msgstr ""
+
+#: download/requirements.php:12
+msgid "Build order"
+msgstr ""
+
+#: download/requirements.php:23
+msgid "Package dependencies"
+msgstr ""
+
+#: download/requirements.php:26
+msgid "Package"
+msgstr ""
+
+#: download/requirements.php:27
+msgid "Dependency(-ies)"
+msgstr ""
+
+#: download/requirements.php:28
+msgid "Optional Dependency(-ies)"
+msgstr ""
+
+#: download/requirements.php:137
+msgid ""
+"The build dependencies tree is also available as a <a href=\"/images/"
+"documentation/xfce-bdeps.svg\">SVG file</a>."
+msgstr ""
+
+#: download/requirements.php:139
+msgid "Recommended packages"
+msgstr ""
+
+#: download/requirements.php:141
+msgid "support for scalable icons"
+msgstr ""
+
+#: download/requirements.php:142
+msgid "better support for icon themes"
+msgstr ""
+
+#: download/requirements.php:144
+msgid "locking the screen"
+msgstr ""
+
+#: download/distros.php:5
+msgid "Distributions based on Xfce"
+msgstr ""
+
+#: download/distros.php:9
+msgid ""
+"The Fedora Xfce Spin is live cd which is also installable that showcases the "
+"Xfce Desktop Environment featuring a mix of high productivity centric "
+"applications."
+msgstr ""
+
+#: download/distros.php:14
+msgid ""
+"Xubuntu is a Linux distribution based on Ubuntu. Unlike its parent Xubuntu "
+"uses the light-weight Xfce desktop environment. The distribution includes "
+"only GTK+ applications where possible."
+msgstr ""
+
+#: download/distros.php:19
+msgid ""
+"Zenwalk is an operating system based on Slackware. The goal of Zenwalk is "
+"being slim and fast using only one application per task combined with the "
+"Xfce Desktop. Zenwalk features the latest Linux technology along with a "
+"complete programming environment and libraries to provide an ideal platform "
+"for application programmers. Zenwalk's modular approach also provides a "
+"simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. "
+"LAMP, messaging, file sharing)."
+msgstr ""
+
+#: download/distros.php:24
+msgid ""
+"Mythbuntu is an community supported add-on for Ubuntu focused upon setting "
+"up a standalone MythTV based PVR system. It can be used to prepare a "
+"standalon system or for integration with an existing MythTV network."
+msgstr ""
+
+#: download/distros.php:29
+msgid ""
+"Element OS is a free open source operating system for home theater PCs, "
+"media center computers, and set-top boxes. Featuring an innovative \"across "
+"the room\" Xfce-based interface which is designed to be connected to your "
+"HDTV for a digital media and internet experience from within the comforts of "
+"your own living room or lounge. Element comes loaded with the software "
+"needed to stream all forms of Web content and manage your own multimedia "
+"library and downloads."
+msgstr ""
+
+#: download/distros.php:35
+msgid ""
+"Dreamlinux is a modern and modular GNU/Linux system that can be run directly "
+"a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, "
+"PATA and USB Drive)."
+msgstr ""
+
+#: download/distros.php:40
+msgid ""
+"Speed, performance, stability -- these are attributes that set VectorLinux "
+"apart in the crowded field of Linux distributions. The creators of "
+"VectorLinux had a single credo: keep it simple, keep it small and let the "
+"end user decide what their operating system is going to be. What has evolved "
+"from this concept is perhaps the best little Linux operating system "
+"available anywhere."
+msgstr ""
+
+#: download/distros.php:45
+msgid ""
+"Wolvix is a desktop oriented GNU/Linux distribution based on Slackware. It "
+"features the Xfce desktop environment and a comprehensive selection of "
+"development, graphics, multimedia, network and office applications. It's "
+"mainly targeted at home users and strives to provide a balance between "
+"everyday computing tasks, creativity, work and enjoyment."
+msgstr ""
+
+#: download/distros.php:50
+msgid ""
+"Kate OS is a polish GNU/Linux distribution. It is a lightweight binary "
+"distribution featuring Xfce as the default desktop environment."
+msgstr ""
+
+#: download/distros.php:55
+msgid ""
+"Salix is a Linux distribution based on Slackware that is simple, fast and "
+"easy to use. Salix is also fully backwards compatible with Slackware, so "
+"Slackware users can benefit from Salix repositories, which they can use as "
+"an \"extra\" quality source of software for their favorite distribution. "
+"Like a bonsai, Salix is small, light and the product of infinite care."
+msgstr ""
+
+#: download/distros.php:58
+msgid "Xfce Live-CD distributions"
+msgstr ""
+
+#: download/distros.php:62
+msgid ""
+"SAM Linux Desktop is a self-booting live CD containing a full linux desktop "
+"OS. You don't have to install it on your harddisk, it runs completely from "
+"your cd drive and your RAM."
+msgstr ""
+
+#: download/distros.php:67
+msgid ""
+"PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking "
+"users. It's built with Linux-live scripts from Tomas Matejicek (Slax)."
+msgstr ""
+
+#: download/distros.php:70
+msgid "General distributions with a good Xfce support"
+msgstr ""
+
+#: download/distros.php:74
+msgid ""
+"Debian is one of the most famous binary distributions, used as a base by "
+"many other distributions. It's know for its stability, its performances and "
+"the wide choice of available applications. The <a href=\"http://pkg-xfce."
+"alioth.debian.org/\">Debian Xfce group</a> takes care of integrating Xfce "
+"into Debian to provide a nice user experience."
+msgstr ""
+
+#: download/distros.php:79
+msgid ""
+"Mandriva Linux is an operating system for your computer. Easy to try. Easy "
+"to install. Easy to use. Xfce is of course available, simple to install and "
+"configure."
+msgstr ""
+
+#: download/distros.php:84
+msgid ""
+"OpenSUSE is a free and Linux-based operating system for your PC, Laptop or "
+"Server. You can surf the web, manage your e-mails and photos, do office "
+"work, play videos or music and have a lot of fun!"
+msgstr ""
+
+#: download/distros.php:89
+msgid ""
+"Arch Linux is a simple, agile and lightweight GNU/Linux distribution, and "
+"UNIX-like operating system. Arch Linux requires a certain level of intimate "
+"knowledge of its configuration and of UNIX-like system methodology."
+msgstr ""
+
+#: download/distros.php:94
+msgid ""
+"The Official Release of Slackware Linux is an advanced Linux operating "
+"system, designed with the twin goals of ease of use and stability as top "
+"priorities. Including the latest popular software while retaining a sense of "
+"tradition, providing simplicity and ease of use alongside flexibility and "
+"power, Slackware brings the best of all worlds to the table."
+msgstr ""
+
+#: download/distros.php:99
+msgid ""
+"Gentoo is a special flavor of Linux that can be automatically optimized and "
+"customized for just about any application or need. Extreme performance, "
+"configurability and a top-notch user and developer community are all "
+"hallmarks of the Gentoo experience. Gentoo ships the latest Xfce releases "
+"and allow you to integrate them in a very performant environment."
+msgstr ""
+
+#: download/distros.php:104
+msgid ""
+"Lunar Linux is a source-based distribution. Although there is no native "
+"desktop environment in Lunar, it has excellent support for Xfce, mainly "
+"because a couple of Xfce developers are also Lunar developers. Another "
+"noticeable point: all Xfce servers are running Lunar Linux!"
+msgstr ""
+
+#: download/distros.php:109
+msgid ""
+"The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like "
+"operating system. Our efforts emphasize portability, standardization, "
+"correctness, proactive security and integrated cryptography. OpenBSD "
+"supports binary emulation of most programs from SVR4 (Solaris), FreeBSD, "
+"Linux, BSD/OS, SunOS and HP-UX."
+msgstr ""
+
+#: projects/nav.php:4 projects/index.php:3 header.php:57
+msgid "Projects"
+msgstr ""
+
+#: projects/nav.php:7
+msgid "Xfce Goodies"
+msgstr ""
+
+#: projects/index.php:8 projects/index.php:108
+msgid "Applications"
+msgstr ""
+
+#: projects/index.php:13
+msgid ""
+"The Xfce project contains several separated projects for each part of the "
+"desktop. Every project has it's own project page to provide additionnal "
+"information."
+msgstr ""
+
+#: projects/index.php:22
+msgid ""
+"It manages the placement of application windows on the screen, provides "
+"window decorations and manages workspaces or virtual desktops."
+msgstr ""
+
+#: projects/index.php:29
+msgid ""
+"The Panel is part of the Xfce Desktop Environment and features program "
+"launchers, panel menus, a clock, a desktop switcher and more."
+msgstr ""
+
+#: projects/index.php:40
+msgid ""
+"This program sets the background image and provides a root window menu, "
+"desktop icons or minimized icons and a windows list."
+msgstr ""
+
+#: projects/index.php:47
+msgid ""
+"The session manager controls the startup and shutdown of the Xfce Desktop "
+"Environment."
+msgstr ""
+
+#: projects/index.php:56
+msgid "Settings Manager"
+msgstr ""
+
+#: projects/index.php:58
+msgid "It allows you to configure every detail of your desktop environment."
+msgstr ""
+
+#: projects/index.php:63
+msgid "Utilities and Scripts"
+msgstr ""
+
+#: projects/index.php:65
+msgid ""
+"Essential utilities and scripts. Provides a credits and license dialog, a "
+"dialog for launching applications and several important scripts that are "
+"used by other packages."
+msgstr ""
+
+#: projects/index.php:74
+msgid "Xfce Libraries"
+msgstr ""
+
+#: projects/index.php:76
+msgid ""
+"The three base libraries of Xfce (libxfce4util and libxfce4ui) are used by "
+"almost any Xfce application."
+msgstr ""
+
+#: projects/index.php:81
+msgid "Xfconf"
+msgstr ""
+
+#: projects/index.php:83
+msgid "Simple client-server configuration storage and query system."
+msgstr ""
+
+#: projects/index.php:92
+msgid "Thunar Filemanager"
+msgstr ""
+
+#: projects/index.php:94
+msgid ""
+"Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar "
+"has been designed from the ground up to be fast and easy-to-use."
+msgstr ""
+
+#: projects/index.php:99
+msgid "Application Finder"
+msgstr ""
+
+#: projects/index.php:101
+msgid ""
+"Allows you to search, launch and find information about applications "
+"installed on your system."
+msgstr ""
+
+#: projects/index.php:112
+msgid "Mousepad"
+msgstr ""
+
+#: projects/index.php:114
+msgid ""
+"Mousepad is a text editor for Xfce based on Leafpad. The initial reason for "
+"Mousepad was to provide printing support, which would have been difficult "
+"for Leafpad for various reasons."
+msgstr ""
+
+#: projects/index.php:119
+msgid "Terminal"
+msgstr ""
+
+#: projects/index.php:121
+msgid ""
+"Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly "
+"for the Xfce desktop environment."
+msgstr ""
+
+#: projects/index.php:130
+msgid "Xfburn"
+msgstr ""
+
+#: projects/index.php:132
+msgid ""
+"Xfburn is a frontend burning application based on <a href=\"http://libburnia-"
+"project.org/\">libburnia</a> libraries to create and burn CD's and DVD's."
+msgstr ""
+
+#: projects/index.php:137
+msgid "Orage"
+msgstr ""
+
+#: projects/index.php:139
+msgid "A simple calendar application with reminders."
+msgstr ""
+
+#: projects/index.php:148
+msgid "Mixer"
+msgstr ""
+
+#: projects/index.php:150
+msgid "A modern sound mixer based on GStreamer."
+msgstr ""
+
+#: projects/index.php:155
+msgid "Image Viewer"
+msgstr ""
+
+#: projects/index.php:157
+msgid "Ristretto is a lightweight image viewer.<"
+msgstr ""
+
+#: projects/index.php:166
+msgid "Web Browser"
+msgstr ""
+
+#: projects/index.php:168
+msgid "Midori is a lightweight web browser."
+msgstr ""
+
+#: header.php:51
+msgid "Categories"
+msgstr ""
+
+#: header.php:53
+msgid "Home"
+msgstr ""
+
+#: header.php:62 header.php:76
+msgid "Change language"
+msgstr ""
+
+#: header.php:90
+msgid "Category Pages"
+msgstr ""
+
+#: header.php:111
+msgid "External Links"
 msgstr ""
