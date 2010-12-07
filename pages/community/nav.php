@@ -1,9 +1,7 @@
 <?php
 
 $toc['menu'] = array (
-	'community' => R_('Community'),
-	'community/lists' => R_('Mailing Lists'),
-	'community/irc' => R_('IRC'));
+	'community' => R_('Community'));
 
 $toc['external'] = array (
 	'http://forum.xfce.org' => R_('Forum'),
