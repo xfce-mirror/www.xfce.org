@@ -26,7 +26,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/xfce4-panel"><?php E_('Panel') ?></a></h3>
     <p style="background-image: url('/images/projects/xfce4-panel.png')">
-      <?php E_('The Panel is part of the Xfce Desktop Environment and features program launchers, panel menus, a clock, a desktop switcher and more.') ?>
+      <?php E_('The panel is a bar which allows you to have at all times program launchers, panel menus, a clock, a desktop switcher and more.') ?>
     </p>
   </div>
 
@@ -44,7 +44,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/xfce4-session"><?php E_('Session Manager') ?></a></h3>
     <p style="background-image: url('/images/projects/xfce4-session.png')">
-      <?php E_('The session manager controls the startup and shutdown of the Xfce Desktop Environment.') ?>
+      <?php E_('The session manager controls all aspects of the startup and the shutdown of the user session.') ?>
     </p>
   </div>
 
@@ -73,7 +73,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/libxfce4"><?php E_('Xfce Libraries') ?></a></h3>
     <p style="background-image: url('/images/projects/library.png')">
-      <?php E_('The three base libraries of Xfce (libxfce4util and libxfce4ui) are used by almost any Xfce application.') ?>
+      <?php E_('They provide additional functions and widgets which ease the development of applications.') ?>
     </p>
   </div>
 
@@ -91,7 +91,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/thunar"><?php E_('Thunar Filemanager') ?></a></h3>
     <p style="background-image: url('/images/projects/thunar.png')">
-      <?php E_('Thunar is a new modern file manager for the Xfce Desktop Environment. Thunar has been designed from the ground up to be fast and easy-to-use.') ?>
+      <?php E_('Thunar is a new modern file manager designed from the ground up to be fast and easy-to-use.') ?>
     </p>
   </div>
 
@@ -109,16 +109,16 @@ $toc['anchors'] = array (
 
 <div class="group">
   <div class="module">
-    <h3><a href="/projects/mousepad"><?php E_('Mousepad') ?></a></h3>
-    <p style="background-image: url('/images/projects/mousepad.png')">
-      <?php E_('Mousepad is a text editor for Xfce based on Leafpad. The initial reason for Mousepad was to provide printing support, which would have been difficult for Leafpad for various reasons.') ?>
+    <h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html"><?php E_('Web Browser') ?></a></h3>
+    <p style="background-image: url('/images/projects/midori.png')">
+      <?php E_('Midori is a lightweight Web browser.') ?>
     </p>
   </div>
 
   <div class="module">
     <h3><a href="/projects/terminal"><?php E_('Terminal') ?></a></h3>
     <p style="background-image: url('/images/projects/terminal.png')">
-      <?php E_('Terminal is a modern terminal emulator for the Unix/Linux desktop - primarly for the Xfce desktop environment.') ?>
+      <?php E_('Terminal is a modern terminal emulator featuring tabs and transparent backgrounds.') ?>
     </p>
   </div>
 
@@ -129,7 +129,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/xfburn"><?php E_('Xfburn') ?></a></h3>
     <p style="background-image: url('/images/projects/xfburn.png')">
-      <?php E_('Xfburn is a frontend burning application based on <a href="http://libburnia-project.org/">libburnia</a> libraries to create and burn CD\'s and DVD\'s.') ?>
+      <?php E_('Xfburn is an application to create and burn CD\'s and DVD\'s.') ?>
     </p>
   </div>
 
@@ -147,25 +147,14 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/xfce4-mixer"><?php E_('Mixer') ?></a></h3>
     <p style="background-image: url('/images/projects/xfce4-mixer.png')">
-      <?php E_('A modern sound mixer based on GStreamer.') ?>
+      <?php E_('Allows you to change the volume of the different audio tracks.') ?>
     </p>
   </div>
 
   <div class="module">
     <h3><a href="/projects/ristretto"><?php E_('Image Viewer') ?></a></h3>
     <p style="background-image: url('/images/projects/ristretto.png')">
-      <?php E_('Ristretto is a lightweight image viewer.<') ?>
-    </p>
-  </div>
-
-  <div class="clearboth"></div>
-</div>
-
-<div class="group">
-  <div class="module">
-    <h3><a href="http://www.twotoasts.de/index.php?/pages/midori_summary.html"><?php E_('Web Browser') ?></a></h3>
-    <p style="background-image: url('/images/projects/midori.png')">
-      <?php E_('Midori is a lightweight web browser.') ?>
+      <?php E_('Ristretto is a lightweight image viewer.') ?>
     </p>
   </div>
 
