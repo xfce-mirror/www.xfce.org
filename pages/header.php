@@ -11,7 +11,7 @@ else
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title><?php echo $title ?></title>
-	<link rel="shortcut icon" href="/favicon.png" type="image/png" />
+	<link rel="shortcut icon" href="/style//favicon.png" type="image/png" />
 	<link rel="stylesheet" media="screen" href="/style/base.css" type="text/css" />
 <?php
         if (isset ($head['stylesheet']) && is_array ($head['stylesheet']))
