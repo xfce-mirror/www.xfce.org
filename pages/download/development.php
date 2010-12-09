@@ -77,4 +77,4 @@
 
 <p><code>./autogen.sh --prefix=/usr/local &amp;&amp; make &amp;&amp; make install</code></p>
 
-<p><?php E_('The <a href="/documentation/requirements">requirements</a> page lists all the required dependencies and the build order of the modules.') ?></p>
+<p><?php E_('The <a href="/download/requirements">requirements</a> page lists all the required dependencies and the build order of the modules.') ?></p>
