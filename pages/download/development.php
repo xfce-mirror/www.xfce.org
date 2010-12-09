@@ -5,17 +5,17 @@
 
 <h1><?php echo $head['title'] ?></h1>
 <p>
-  <?php E_('If you want to build Xfce from source code, you can either download the sourcetarballs of a released version of Xfce from our <a href="/download">download page</a>, or try a development version, by downloading it from GIT (only for the adventurous). Please note that installing two different versions of Xfce (ie. stable and development) is not supported.') ?>
+  <?php E_('If you want to build Xfce from source code, you can either download the source tarballs of a released version of Xfce from our <a href="/download">download page</a>, or try a development version, by downloading it from GIT (only for the adventurous). Please note that installing two different versions of Xfce (ie. stable and development) is not supported.') ?>
 </p>
 
-<h3><?php printf (R_('Latest release version (%s)'), $stable_version) ?></h3>
+<h3><?php printf (R_('Latest released version (%s)'), $stable_version) ?></h3>
 <p>
-  <?php E_('This version contain the latest bug fixes, without any major new feature. This should be more stable than the development version (and even than the last official release), but there is still no guarantee that this version is bug free.') ?>
+  <?php E_('This version contains the latest bug fixes, without any major new feature. This should be more stable than the development version (and even than the last official release), but there is still no guarantee that this version is bug free.') ?>
 </p>
 
 <h3><?php printf (R_('Latest development version (%s)'), $preview_version) ?></h3>
 <p>
-  <?php E_('This version contain the latest development updates and bug fixes. There is no guarantee that it\'s fully working and bug free.') ?>
+  <?php E_('This version contains the latest development updates and bug fixes. There is no guarantee that it\'s fully working and bug free.') ?>
 </p>
 
 <h2><?php E_('Getting the source code') ?></h2>
@@ -23,7 +23,7 @@
 <?php E_('To get a list of available modules and components, you can <a href="http://git.xfce.org/" class="external">browse the GIT repositories</a>.') ?>
 </p>
 
-<h3><?php printf (R_('Latest release version (%s) from the GIT repositories'), $stable_version) ?></h3>
+<h3><?php printf (R_('Latest released version (%s) from the GIT repositories'), $stable_version) ?></h3>
 
 <p><?php E_('You can download the desired modules with the following command:') ?></p>
 
