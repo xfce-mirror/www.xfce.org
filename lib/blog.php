@@ -29,7 +29,7 @@
               $item = $itemame[$i];
               $i--;
 
-              if(count($values[$i])>1)
+              if(isset ($values[$i]) && count($values[$i])>1)
                 {
                   $values[$i][$item][] = $feed;
                 }
@@ -40,7 +40,8 @@
             }
           else
             {
-              $values[$i][$value['tag']] = $value['value'];
+              if (isset ($value['value']))
+                $values[$i][$value['tag']] = $value['value'];
             }
         }
         return $values[0];

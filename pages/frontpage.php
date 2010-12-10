@@ -43,7 +43,7 @@
         break;
 
       echo ("<p class=\"info\">" . $item['DC:CREATOR'] . " @ " . substr ($item['PUBDATE'], 5, 11) . "</p>\n");
-      echo ("<p class=\"title\"><a href=\"{$item['LINK']}\" class=\"external\">{$item['TITLE']}{$link}</a></p>\n");
+      echo ("<p class=\"title\"><a href=\"{$item['LINK']}\" class=\"external\">{$item['TITLE']}</a></p>\n");
 
       $i++;
     }
