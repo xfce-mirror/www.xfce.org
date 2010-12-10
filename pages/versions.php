@@ -1,7 +1,7 @@
 <?php
   /**
    * Always check the version number in the download page, all the mirror
-   * links should open a folder in teh archive
+   * links should open a folder in the archive
    **/
 
   /* latest stable release version */
