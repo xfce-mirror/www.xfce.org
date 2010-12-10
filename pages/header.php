@@ -82,9 +82,9 @@ else
 	if (isset($toc['filename']))
 	{
 		include ($toc['filename']);
-	
+
 		echo '<div id="menu-sub">';
-		
+
 		if (isset($toc['menu']))
 		{
 			echo '<h5>'.R_('Category Pages').'</h5>';
@@ -92,7 +92,7 @@ else
 			foreach ($toc['menu'] as $link => $name)
 			{
 				echo '<li><a href="/'.$link.'">'.$name.'</a>';
-				
+
 				if (isset ($toc['anchors']) && strcmp ($uri, $link) == 0)
 				{
 					echo '<ul>';
@@ -100,21 +100,21 @@ else
 						echo '<li><a href="#'.$id.'">'.$name.'</a></li>';
 					echo '</ul>';
 				}
-				
+
 				echo '</li>';
 			}
 			echo '</ul>';
 		}
-		
+
 		if (isset($toc['external']))
 		{
 			echo '<h5>'.R_('External Links').'</h5>';
 			echo '<ul>';
 			foreach ($toc['external'] as $link => $name)
-				echo '<li><a href="'.$link.'" target="_blank" class="external">'.$name.'</a></li>';
+				echo '<li><a href="'.$link.'" class="external">'.$name.'</a></li>';
 			echo '</ul>';
 		}
-		
+
 		echo '</div>';
 	}
 ?>
