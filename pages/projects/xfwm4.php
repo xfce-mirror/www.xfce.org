@@ -1,23 +1,35 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfwm4.png" alt="xfwm4" width="48" height="48" /></div>
+<h1>Xfwm4</h1>
 
-<h2>Window Manager</h2>
+<h2>What is Xfwm4?</h2>
+
+<p>
+  <?php E_("Xfwm4 is the Xfce window manager. It manages the placement of application windows on the screen, provides beautiful window decorations, manages workspaces or virtual desktops and natively supports multiscreen mode. ") ?>
+</p>
+
+<p>
+  <?php E_("It provides its own compositing manager (from the X.Org Composite extension) for true transparency and shadows. Xfwm4 also includes a keyboard shorcuts editor for basic windows manipulations and provides a preferences dialog for advanced tweaks.") ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/xfwm4.png" alt="Window Manager" /></p>
 
-<p>
-  The Xfce window manager manages the placement of application
-  windows on the screen, provides beautiful window decorations, manages 
-  workspaces or virtual desktops and natively supports multiscreen 
-  mode. It provides its own compositing manager (from the X.Org Composite 
-  extension) for true transparency and shadows. The Xfce window manager 
-  also includes a keyboard shorcuts editor for user specific commands and basic
-  windows manipulations and provides a preferences dialog for advanced tweaks.
-</p>
+<h2>Authors</h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>Olivier Fourdan [fourdan at xfce.org]</li>
+</ul>
 
-<?php include("git.address.php"); ?>
+<h2>Uselful links</h2>
 
-<h3>Author</h3>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/xfwm4/" class="external"><?php E_("Download the source tarballs of Xfwm4 releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfwm4/" class="external"><?php E_("Xfwm4 source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfwm4" class="external"><?php E_("Bugs reported against Xfwm4") ?></a>
+  </li>
+</ul>
 
-<?php include("authors.php"); ?>
+
