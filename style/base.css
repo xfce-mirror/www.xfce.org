@@ -1,41 +1,40 @@
 
 body {
 	margin: 0;
-  padding: 0;
+        padding: 0;
 	line-height: 1.7em;
-	font-family: Arial;
-	font-size: 90%;
+	font: 68.75%/1.4545em Verdana, Helvetica, Arial, sans-serif;
 }
 
 #page-header {
-  /*border-bottom: 2px #69f solid;*/
-  background: #333 url('img/logosmall.png') no-repeat 6px 55%;
+        /*border-bottom: 2px #69f solid;*/
+        background: #333 url('img/logosmall.png') no-repeat 6px 55%;
 	padding-left: 120px;
 }
-#page-header ul {
+#page-header ul {     
 	float: right ;
 	list-style: none;
-  margin: 0;
-  padding: 0 15px 0 0;
-  background: #333;
+        margin: 0;
+        padding: 0 15px 0 0;
+        background: #333;
 }
 #page-header ul li {
 	float: left;
-  font-weight: bold;
-  line-height: 50px;
+        font-weight: bold;
+        line-height: 50px;
 }
 #page-header a {
 	color: #fff;
-  text-decoration: none;
-  display: block;
-  float: right;
-  padding: 0 15px 0 15px;
+        text-decoration: none;
+        display: block;
+        float: right;
+        padding: 0 15px 0 15px;
 }
 #page-header ul li a:hover {
 	color: #69f;
 }
 #page-header .active {
-  color: #69f;
+        color: #69f;
 }
 
 
@@ -44,7 +43,7 @@ body {
 	padding: 1em;
 	text-align: left;
 
-	min-width: 600px;
+	min-width: 600px; 
 	max-width: 1100px;
 }
 
@@ -113,11 +112,11 @@ body {
 }
 
 table th {
-  text-align: left;
+        text-align: left;
 }
 
 table tr:nth-child(even) {
-  background: #ccc;
+        background: #ccc;
 }
 table td {
 	padding: 0.2em;
@@ -173,8 +172,4 @@ a:hover {
 .mungify {
 	unicode-bidi: bidi-override;
 	direction: rtl;
-}
-
-p {
-  text-align: justify;
 }
