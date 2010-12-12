@@ -32,6 +32,7 @@ else
 	<div>
 		<h1 class="hidden">Xfce</h1>
 		<h5 class="hidden">Sub domains</h5>
+		&nbsp;
 		<ul>
 			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
 			<li><a href="http://docs.xfce.org" title="Official documentation">Docs</a></li>
@@ -40,6 +41,7 @@ else
 			<li><a href="http://bugzilla.xfce.org" title="Report and track bugs">Bugs</a></li>
 			<li><a href="http://blog.xfce.org" title="Visit the blog">Blog</a></li>
 			<li><a href="http://translations.xfce.org" title="Help translating the Xfce project">Translate</a></li>
+			<li><a href="http://git.xfce.org" title="Project repositories">GIT</a></li>
 		</ul>
 	</div>
 	<div class="clearboth"></div>
