@@ -89,7 +89,7 @@ $toc['anchors'] = array (
 
 <div class="group">
   <div class="module">
-    <h3><a href="/projects/thunar"><?php E_('Thunar Filemanager') ?></a></h3>
+    <h3><a href="/projects/thunar"><?php E_('Thunar File Manager') ?></a></h3>
     <p style="background-image: url('/images/projects/thunar.png')">
       <?php E_('Thunar is a new modern file manager designed from the ground up to be fast and easy-to-use.') ?>
     </p>
