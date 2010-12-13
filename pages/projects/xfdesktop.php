@@ -1,20 +1,29 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfdesktop.png" alt="xfdesktop" width="48" height="48" /></div>
+<h1>Xfdesktop Desktop Manager</h1>
 
-<h2>Desktop Manager</h2>
+<p>
+  <?php E_("The desktop manager sets the background image, provides a right-click menu to launch applications and can optionally show files (including application launchers) or iconified windows. It includes gradient support for background color, saturation support for background image, real multiscreen and xinerama support.") ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/xfdesktop.png" alt="Desktop Manager" /></p>
 
-<p>
-The desktop manager sets the background image, provides a right-click menu to launch applications and can optionally 
-show files (including application launchers) or iconified windows. It includes gradient support for background color, 
-saturation support for background image, real multiscreen and xinerama support.
-</p>
+<h2>Author</h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+</ul>
 
-<?php include("git.address.php"); ?>
+<h2>Useful Links</h2>
 
-<h3>Author</h3>
-
-<?php include("authors.php"); ?>
-
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/xfdesktop/" class="external"><?php E_("Download the source tarballs of Xfdesktop releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfdesktop/" class="external"><?php E_("Xfdesktop source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfdesktop" class="external"><?php E_("Bugs reported against Xfdesktop") ?></a>
+  </li>
+</ul>
