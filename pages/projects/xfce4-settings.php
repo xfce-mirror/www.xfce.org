@@ -1,21 +1,34 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-settings.png" alt="xfce4-settings" width="48" height="48" /></div>
+<h1>Settings Manager</h1>
 
-<h2>Settings Manager</h2>
+
+<p>
+  <?php E_("The settings manager allows you to customize your desktop environment in an easy and intuitive way. You can set some hardware components such as mouse, keyboard or display; but also theme your windows, widgets and icons, set your preferred applications, manage your sessions...") ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/xfce4-settings-manager.png" alt="Settings Manager" /></p>
 
-<p>
-The settings manager allows you to customize your desktop environment in an easy and
-intuitive way. You can set some hardware components such as mouse, keyboard or display; but
-also theme your windows, widgets and icons, set your preferred applications, manage your
-sessions...
-</p>
+<h2>Authors</h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+  <li>Olivier Fourdan [fourdan at xfce.org]</li>
+  <li>Stephan Arts [stephan at xfce.org]</li>
+  <li>Jérôme Guelfucci [jeromeg at xfce.org]</li>
+</ul>
 
-<?php include("git.address.php"); ?>
+<h2>Useful Links</h2>
 
-<h3>Authors</h3>
-
-<?php include("authors.php"); ?>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/xfce4-settings/" class="external"><?php E_("Download the source tarballs of Xfce4 Settings releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfce4-settings/" class="external"><?php E_("Xfce4 Settings source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce4-Settings" class="external"><?php E_("Bugs reported against Xfce4 Settings") ?></a>
+  </li>
+</ul>
 
