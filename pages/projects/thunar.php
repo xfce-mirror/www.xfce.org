@@ -1,31 +1,40 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/thunar.png" alt="thunar" width="48" height="48" /></div>
+<h1>Thunar File Manager</h1>
 
-<h2>Thunar File Manager</h2>
+<p>
+  <?php E_("Thunar is a new modern file manager for the Xfce Desktop Environment. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options. Thunar is fast and responsive with a good start up time and directory load time.") ?>
+</p>
+
+<p>
+  <?php E_("Thunar implements the various FreeDesktop.org standards to integrate nicely into todays UNIX/Linux desktop world. That means that you don’t need to setup your system in a special way or spend hours configuring the file manager, instead, it will just work if your system complies with the FreeDesktop.org standards.") ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/thunar.png" alt="Thunar" /></p>
 
-<p>
-Thunar is a new modern file manager for the Xfce Desktop Environment. It has been designed from the ground up to be 
-fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless 
-options. Thunar is fast and responsive with a good start up time and directory load time.
-</p>
+<h2>Authors</h2>
 
-<p>
-Thunar implements the various FreeDesktop.org standards to integrate nicely into todays UNIX/Linux desktop world. 
-That means that you don’t need to setup your system in a special way or spend hours configuring the file manager, 
-instead, it will just work if your system complies with the FreeDesktop.org standards.
-</p>
+<ul>
+  <li>Benedikt Meurer [benny at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+</ul>
 
-<h3>External Links</h3>
+<h2>Useful links</h2>
 
-<p>
-<a class="external" href="http://thunar.xfce.org/">Homepage</a><br />
-<a class="external" href="http://thunar.xfce.org/pwiki/">Wiki</a> (contains useful tips)
-</p>
-
-<?php include("git.address.php"); ?>
-
-<h3>Authors</h3>
-
-<?php include("authors.php"); ?>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/thunar/" class="external"><?php E_("Download the source tarballs of Thunar releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/thunar/" class="external"><?php E_("Thunar source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Thunar" class="external"><?php E_("Bugs reported against Thunar") ?></a>
+  </li>
+  <li>
+    <a href="http://thunar.xfce.org/" class="external"><?php E_("Homepage") ?></a>
+  </li>
+  <li>
+    <a href="http://thunar.xfce.org/pwiki/" class="external"><?php E_("Wiki") ?></a>
+  </li>
+</ul>
 
