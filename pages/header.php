@@ -28,10 +28,10 @@ else
 
 <body id="top">
 
-<div id="page-header">
+<div id="xfce-header">
 	<div>
-		<h1 class="hidden">Xfce</h1>
-		<h5 class="hidden">Sub domains</h5>
+		<h1 id="xfce-header-title">Xfce</h1>
+		<h5 id="xfce-header-subtitle">Sub domains</h5>
 		&nbsp;
 		<ul>
 			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
@@ -44,7 +44,7 @@ else
 			<li><a href="http://git.xfce.org" title="Project repositories">GIT</a></li>
 		</ul>
 	</div>
-	<div class="clearboth"></div>
+	<div  id="xfce-header-clear"></div>
 </div>
 
 <div id="page-wrap">
