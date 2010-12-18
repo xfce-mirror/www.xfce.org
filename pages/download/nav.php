@@ -4,7 +4,7 @@ include ('pages/versions.php');
 
 $toc['menu'] = array (
 	'download' => R_('Download'),
-	'download/development' => R_('Development'),
+	'download/building' => R_('Building'),
 	'download/changelogs' => R_('Changelogs'),
 	'download/distros' => R_('Distributions'));
 

@@ -1,6 +1,7 @@
 <?php
 
 error_reporting(E_ALL | E_STRICT);
+date_default_timezone_set ('UTC');
 
 function microtime_float ()
 {
@@ -44,6 +45,7 @@ if (str_has_prefix ($uri, 'download/changelogs/'))
 echo $contents;
 
 /* end with the footer */
+$footer['mtime'] = date ('Y/m/d G:i', filemtime ($content_file));
 include ('pages/footer.php');
 
 $timer_end = microtime_float ();
