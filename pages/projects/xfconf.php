@@ -1,16 +1,27 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/library.png" alt="xfconf" width="48" height="48" /></div>
-
-<h2>Xfconf</h2>
+<h1><?php E_("What is Xfconf?") ?></h2>
 
 <p>
-Xfconf is a simple client-server configuration storage and query system.
+  <?php E_("Xfconf is a simple client-server configuration storage and query system.") ?>
 </p>
 
-<h3>External Links</h3>
+<h2><?php E_("Authors") ?></h2>
 
-<?php include("git.address.php"); ?>
+<ul>
+  <li>Brian J. Tarricone [kelnos at xfce.org]</li>
+  <li>Stephan Arts [sarts at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+</ul>
 
-<h3>Authors</h3>
+<h2><?php E_("Useful links") ?></h2>
 
-<?php include("authors.php"); ?>
-
+<ul>
+ <li>
+    <a href="http://archive.xfce.org/src/xfce/xfconf/" class="external"><?php E_("Download the source tarballs of Xfconf releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfconf/" class="external"><?php E_("Xfconf source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfconf" class="external"><?php E_("Bugs reported against Xfconf") ?></a>
+  </li>
+</ul>
