@@ -40,7 +40,7 @@
 </ul>
 
 <h3>Widget Library <em>(libxfce4ui)</em>:</h3>
-<p>Initial  version of the library. The intention of this new library is a cleanup  of the old libxfcegui4 library to remove the deprecated code and get rid  of netk (since 4.6 we use libwnck for that).<p>
+<p>Initial  version of the library. The intention of this new library is a cleanup  of the old libxfcegui4 library to remove the deprecated code and get rid  of netk (since 4.6 we use libwnck for that).</p>
 <ul>
   <li>New session management client.</li>
   <li>Improved code for spawing applications.</li>
