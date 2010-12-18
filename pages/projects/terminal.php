@@ -1,21 +1,29 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/terminal.png" alt="terminal" width="48" height="48" /></div>
+<h1><?php E_("What is Terminal?") ?></h1>
 
-<h2>Terminal</h2>
+<p>
+  <?php E_("Terminal is a modern, lightweight, and low memory cost terminal emulator with tabs and multiple windows for the Xfce desktop environment. It offers full-customization for the key bindings, the aspect, the colors, and more.") ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/terminal.png" alt="Terminal" /></p>
 
-<p>
-Terminal is a modern, lightweight, and low memory cost terminal emulator with tabs and multiple windows for the Xfce 
-desktop environment. It offers full-customization for the key bindings, the aspect, the colors, and more.
-</p>
+<h2><?php E_("Authors") ?></h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>Benedikt Meurer [benny at xfce.org]</li>
+  <li>Nick Schermer [nick at xfce.org]</li>
+</ul>
 
-<p><a class="external" href="http://goodies.xfce.org/projects/applications/terminal">Homepage</a></p>
+<h2><?php E_("Useful links") ?></h2>
 
-<?php include("git.address.php"); ?>
-
-<h3>Author</h3>
-
-<?php include("authors.php"); ?>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/apps/terminal/" class="external"><?php E_("Download the source tarballs of Terminal releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/apps/terminal/" class="external"><?php E_("Terminal source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Terminal" class="external"><?php E_("Bugs reported against Terminal") ?></a>
+  </li>
+</ul>
 
