@@ -1,6 +1,4 @@
-<h1>Xfwm4</h1>
-
-<h2>What is Xfwm4?</h2>
+<h1><?php E_("What is Xfwm4?") ?></h1>
 
 <p>
   <?php E_("Xfwm4 is the Xfce window manager. It manages the placement of application windows on the screen, provides beautiful window decorations, manages workspaces or virtual desktops and natively supports multiscreen mode. ") ?>
@@ -12,13 +10,13 @@
 
 <p class="center"><img src="/images/projects/screenshots/xfwm4.png" alt="Window Manager" /></p>
 
-<h2>Authors</h2>
+<h2><?php E_("Authors") ?></h2>
 
 <ul>
   <li>Olivier Fourdan [fourdan at xfce.org]</li>
 </ul>
 
-<h2>Uselful links</h2>
+<h2><?php E_("Uselful links") ?></h2>
 
 <ul>
   <li>

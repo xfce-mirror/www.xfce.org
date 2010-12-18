@@ -1,17 +1,17 @@
-<h1>Session Manager</h1>
+<h1><?php E_("What is the Session Manager?" ?></h1>
 
 <p>
   <?php E_("The session manager allows the user to save sessions and restore them after login. It is capable of saving several different sessions. It also provides an easy way to log out, reboot, shutdown, hibernate or suspend your computer.") ?>
 </p>
 
-<h2>Authors</h2>
+<h2><?php E_("Authors") ?></h2>
 
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
   <li>Brian Tarricone [kelnos at xfce.org]</li>
 </ul>
 
-<h2>Useful links</h2>
+<h2><?php E_("Useful links") ?></h2>
 
 <ul>
   <li>

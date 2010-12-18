@@ -1,5 +1,4 @@
-<h1>Settings Manager</h1>
-
+<h1><?php E_("What is the Settings Manager?") ?></h1>
 
 <p>
   <?php E_("The settings manager allows you to customize your desktop environment in an easy and intuitive way. You can set some hardware components such as mouse, keyboard or display; but also theme your windows, widgets and icons, set your preferred applications, manage your sessions...") ?>
@@ -18,7 +17,7 @@
   <li>Jérôme Guelfucci [jeromeg at xfce.org]</li>
 </ul>
 
-<h2>Useful Links</h2>
+<h2>Useful links</h2>
 
 <ul>
   <li>

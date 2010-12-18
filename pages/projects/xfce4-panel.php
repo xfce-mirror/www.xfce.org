@@ -1,6 +1,4 @@
-<h1>Xfce4 Panel</h1>
-
-<h2>What is the Xfce4 panel?</h2>
+<h1><?php E_("What is the Xfce4 panel?") ?></h1>
 
 <p>
   <?php E_("A panel is a bar which can hold many items such as application launchers, windows lists, clock, notification area, applications menu...") ?>
@@ -16,14 +14,14 @@
 
 <p class="center"><img src="/images/projects/screenshots/xfce4-panel.png" alt="Panel" /></p>
 
-<h2>Authors</h2>
+<h2><?php E_("Authors") ?></h2>
 
 <ul>
   <li>Jasper Huijsmans [jasper at xfce.org]</li>
   <li>Nick Schermer [nick at xfce.org]</li>
 </ul>
 
-<h2>Useful links</h2>
+<h2><?php E_("Useful links") ?></h2>
 
 <ul>
   <li>

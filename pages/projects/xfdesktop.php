@@ -1,4 +1,4 @@
-<h1>Xfdesktop Desktop Manager</h1>
+<h1><?php E_("What is the Xfdesktop Desktop Manager?") ?></h1>
 
 <p>
   <?php E_("The desktop manager sets the background image, provides a right-click menu to launch applications and can optionally show files (including application launchers) or iconified windows. It includes gradient support for background color, saturation support for background image, real multiscreen and xinerama support.") ?>
@@ -6,7 +6,7 @@
 
 <p class="center"><img src="/images/projects/screenshots/xfdesktop.png" alt="Desktop Manager" /></p>
 
-<h2>Author</h2>
+<h2><?php E_("Author") ?></h2>
 
 <ul>
   <li>Brian Tarricone [kelnos at xfce.org]</li>
@@ -14,7 +14,7 @@
   <li>Nick Schermer [nick at xfce.org]</li>
 </ul>
 
-<h2>Useful Links</h2>
+<h2><?php E_("Useful links") ?></h2>
 
 <ul>
   <li>
