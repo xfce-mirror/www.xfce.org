@@ -1,20 +1,29 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/orage.png" alt="orage" width="48" height="48" /></div>
-
-<h2>Orage</h2>
+<h1><?php E_("What is Orage?") ?></h1>
 
 <p>
-Orage provides a calendar which integrates nicely into the Xfce Desktop Environment. It is highly configurable and
-supports alerts based on dates. It warns you with popup or audio alarm. As it is an application for every day use
-it launches itself in the background as a daemon and can be accessed using the Orage Clock plugin for the panel.
+  <?php E_("Orage provides a calendar which integrates nicely into the Xfce Desktop Environment. It is highly configurable and supports alerts based on dates. It warns you with popup or audio alarm. As it is an application for every day use, it launches itself in the background as a daemon and can be accessed using the Orage Clock plugin for the panel.") ?>
 </p>
 
-<h3>External Links</h3>
+<h2><?php E_("Authors") ?></h2>
 
-<p><a class="external" href="http://www.kolumbus.fi/~w408237/orage/">Homepage</a></p>
+<ul>
+  <li>Juha Kautto [juha at xfce.org]</li>
+  <li>Mickael Graf [korbinus xfce.org]</li>
+</ul>
 
-<?php include("git.address.php"); ?>
+<h2><?php E_("Useful links") ?></h2>
 
-<h3>Authors</h3>
-
-<?php include("authors.php"); ?>
-
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/apps/orage/" class="external"><?php E_("Download the source tarballs of Orage releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/apps/orage/" class="external"><?php E_("Orage source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Orage" class="external"><?php E_("Bugs reported against Orage") ?></a>
+  </li>
+  <li>
+    <a href="http://www.kolumbus.fi/~w408237/orage/" class="external">Homepage</a>
+  </li>
+</ul>
