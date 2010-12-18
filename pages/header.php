@@ -56,8 +56,8 @@ else
 				<li><a href="/about"><?php E_('About') ?></a></li>
 				<li><a href="/download"><?php E_('Download') ?></a></li>
 				<li><a href="/community"><?php E_('Community') ?></a></li>
+				<li><a href="/getinvolved"><?php E_('Get Involved') ?></a></li>
 				<li><a href="/projects"><?php E_('Projects') ?></a></li>
-				<li><a href="/development"><?php E_('Development') ?></a></li>
 			</ul>
 		</div>
 		<form id="languageform" action="" method="get">

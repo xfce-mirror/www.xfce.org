@@ -1,6 +1,6 @@
 <?php
 
-$head['title'] = R_('Translate');
+$head['title'] = R_('Translation');
 
 $toc['anchors'] = array (
         'started' => R_('Getting Started'),

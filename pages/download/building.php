@@ -53,7 +53,7 @@ $toc['anchors'] = array (
 
   <li><a href="http://archive.xfce.org/src/xfce/" class="external"><?php E_('Individual releases') ?></a>
     <p>
-      <?php E_('Each package in Xfce is allowed to make development and stable releases at any time, see the <a href="/development/releasemodel">release model</a> documentation for more information.') ?>
+      <?php E_('Each package in Xfce is allowed to make development and stable releases at any time, see the <a href="/about/releasemodel">release model</a> documentation for more information.') ?>
     </p>
   </li>
 </ul>
@@ -243,7 +243,7 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <?php E_('To build from GIT you need need to install the xfce4-dev-tools package first, all other packages should be installed with this command:') ?>
+  <?php E_('To build from GIT you need to install the xfce4-dev-tools package first, all other packages should be installed with this command:') ?>
 </p>
 
 <p>

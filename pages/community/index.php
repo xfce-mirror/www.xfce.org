@@ -47,7 +47,7 @@ $toc['anchors'] = array (
   </tr>
   <tr>
     <td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
-    <td><?php E_('To coordinate the translation of Xfce into new languages. See also the <a href="/development/translations">translations</a> page.') ?></td>
+    <td><?php E_('To coordinate the translation of Xfce into new languages. See also the <a href="/getinvolved/translate">translations</a> page.') ?></td>
   </tr>
   <tr>
     <td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n-de">xfce-i18n-de</a></td>

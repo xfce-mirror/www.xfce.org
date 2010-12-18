@@ -72,8 +72,8 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <a href="/images/development/releasemodel/example-release-cycle.svg">
-    <img src="/images/development/releasemodel/example-release-cycle.png" title="<?php E_('Example Release Cycle') ?>" alt="" />
+  <a href="/images/about/releasemodel/example-release-cycle.svg">
+    <img src="/images/about/releasemodel/example-release-cycle.png" title="<?php E_('Example Release Cycle') ?>" alt="" />
   </a>
 </p>
 
@@ -198,8 +198,8 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <a href="/images/development/releasemodel/feature-branching.svg">
-    <img src="/images/development/releasemodel/feature-branching.png" title="<?php E_('Development Workflow') ?>" alt="" />
+  <a href="/images/about/releasemodel/feature-branching.svg">
+    <img src="/images/about/releasemodel/feature-branching.png" title="<?php E_('Development Workflow') ?>" alt="" />
   </a>
 </p>
 
@@ -267,8 +267,8 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <a href="/images/development/releasemodel/code-freeze-branching.svg">
-    <img src="/images/development/releasemodel/code-freeze-branching.png" title="<?php E_('Tagging and Branching for Releases') ?>" alt="" />
+  <a href="/images/about/releasemodel/code-freeze-branching.svg">
+    <img src="/images/about/releasemodel/code-freeze-branching.png" title="<?php E_('Tagging and Branching for Releases') ?>" alt="" />
   </a>
 </p>
 
