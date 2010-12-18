@@ -2,6 +2,15 @@
 
 $head['title'] = R_('Credits');
 
+$toc['anchors'] = array (
+        'core' => R_('Core developers'),
+        'active' => R_('Active contributors'),
+        'servers' => R_('Servers maintained by'),
+        'goodies' => R_('Goodies supervision'),
+        'translation' => R_('Translations supervision'),
+        'translators' => R_('Translators'),
+        'previous' => R_('Previous contributors'));
+
 define ('ATSIGN', '@');
 
 function print_credits($people)
@@ -25,7 +34,7 @@ function print_credits($people)
   <b><?php E_('Thanks to all who helped making this software available!') ?></b>
 </p>
 
-<h2><?php E_('Core developers')?></h2>
+<h2 id="core"><?php E_('Core developers')?></h2>
 <?php
         print_credits (array (
                 'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
@@ -36,7 +45,7 @@ function print_credits($people)
                 'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org'));
 ?>
 
-<h2><?php E_('Active contributors')?></h2>
+<h2 id="active"><?php E_('Active contributors')?></h2>
 <?php
         print_credits (array (
                 'Ali Abdallah' => 'aliov'.ATSIGN.'xfce.org',
@@ -51,7 +60,7 @@ function print_credits($people)
                 'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
 ?>
 
-<h2><?php E_('Servers maintained by')?></h2>
+<h2 id="servers"><?php E_('Servers maintained by')?></h2>
 <?php
         print_credits (array (
                 'Auke Kok' => 'sofar'.ATSIGN.'foo-projects.org',
@@ -62,22 +71,22 @@ function print_credits($people)
                 'Samuel Verstraete' => 'elangelo'.ATSIGN.'xfce.org'));
 ?>
 
-<h2><?php E_('Goodies supervision')?></h2>
+<h2 id="goodies"><?php E_('Goodies supervision')?></h2>
 <?php
         print_credits (array (
                 'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org'));
 ?>
 
-<h2><?php E_('Translations supervision')?></h2>
+<h2 id="translation"><?php E_('Translations supervision')?></h2>
 <?php
         print_credits (array (
                 'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce.org',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com'));
 ?>
 
-<h2><?php E_('Translators')?></h2>
+<h2 id="translators"><?php E_('Translators')?></h2>
 
-<h2><?php E_('Previous contributors')?></h2>
+<h2 id="previous"><?php E_('Previous contributors')?></h2>
 <?php
         print_credits (array (
                 'Bernhard Walle' => 'bernhard.walle'.ATSIGN.'gmx.de',
