@@ -4,8 +4,7 @@ $head['title'] = R_('Release Model');
 
 $toc['anchors'] = array (
         'core' => R_('The Xfce Core Desktop'),
-        'cycle' => R_('The Release Cycle'),
-        );
+        'cycle' => R_('The Release Cycle'));
 
 ?>
 
@@ -74,7 +73,7 @@ $toc['anchors'] = array (
 
 <p>
   <a href="/images/development/releasemodel/example-release-cycle.svg">
-    <img src="/images/development/releasemodel/example-release-cycle.png" title="<?php E_('Example Release Cycle') ?>" />
+    <img src="/images/development/releasemodel/example-release-cycle.png" title="<?php E_('Example Release Cycle') ?>" alt="" />
   </a>
 </p>
 
@@ -200,7 +199,7 @@ $toc['anchors'] = array (
 
 <p>
   <a href="/images/development/releasemodel/feature-branching.svg">
-    <img src="/images/development/releasemodel/feature-branching.png" title="<?php E_('Development Workflow') ?>" />
+    <img src="/images/development/releasemodel/feature-branching.png" title="<?php E_('Development Workflow') ?>" alt="" />
   </a>
 </p>
 
@@ -269,7 +268,7 @@ $toc['anchors'] = array (
 
 <p>
   <a href="/images/development/releasemodel/code-freeze-branching.svg">
-    <img src="/images/development/releasemodel/code-freeze-branching.png" title="<?php E_('Tagging and Branching for Releases') ?>" />
+    <img src="/images/development/releasemodel/code-freeze-branching.png" title="<?php E_('Tagging and Branching for Releases') ?>" alt="" />
   </a>
 </p>
 
@@ -339,6 +338,6 @@ $toc['anchors'] = array (
 </p>
 
 <ul>
-  <li>Jannis Pohlmann &lt;<?php echo mungify_mail('jannis@xfce.org') ?>&gt;
-  <li>Stephan Arts &lt;<?php echo mungify_mail('stephan@xfce.org') ?>&gt;
+  <li>Jannis Pohlmann &lt;<?php echo mungify_mail('jannis@xfce.org') ?></li>
+  <li>Stephan Arts &lt;<?php echo mungify_mail('stephan@xfce.org') ?></li>
 </ul>

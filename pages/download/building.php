@@ -38,24 +38,25 @@ $toc['anchors'] = array (
 <h3><?php E_('Released packages') ?></h3>
 <p>
   <?php E_('Xfce packages have two types of releases. Click the links to open the the download locations.') ?>
-  <ul>
-    <li><a href="http://archive.xfce.org/xfce/" class="external"><?php E_('Collection releases of the core modules') ?></a>
-      <p>
-        <?php E_('From time to time a new collection release if Xfce is made. A collection release consists of a number of individual tarballs and a fat-tarball that contains all the individual tarballs.') ?>
-      </p>
-      
-      <p>
-        <?php E_('The collection releases always contain the correct versions to build the other packages in the release. If you want the latest version of each package, you can start with a collection release and then look for individual bug fix releases, explained in the item below.') ?>
-      </p>
-    </li>
-    
-    <li><a href="http://archive.xfce.org/src/xfce/" class="external"><?php E_('Individual releases') ?></a>
-      <p>
-        <?php E_('Each package in Xfce is allowed to make development and stable releases at any time, see the <a href="/development/releasemodel">release model</a> documentation for more information.') ?>
-      </p>
-    </li>
-  </ul>
 </p>
+
+<ul>
+  <li><a href="http://archive.xfce.org/xfce/" class="external"><?php E_('Collection releases of the core modules') ?></a>
+    <p>
+      <?php E_('From time to time a new collection release if Xfce is made. A collection release consists of a number of individual tarballs and a fat-tarball that contains all the individual tarballs.') ?>
+    </p>
+
+    <p>
+      <?php E_('The collection releases always contain the correct versions to build the other packages in the release. If you want the latest version of each package, you can start with a collection release and then look for individual bug fix releases, explained in the item below.') ?>
+    </p>
+  </li>
+
+  <li><a href="http://archive.xfce.org/src/xfce/" class="external"><?php E_('Individual releases') ?></a>
+    <p>
+      <?php E_('Each package in Xfce is allowed to make development and stable releases at any time, see the <a href="/development/releasemodel">release model</a> documentation for more information.') ?>
+    </p>
+  </li>
+</ul>
 
 <h3><?php E_('From the code repository') ?></h3>
 <p>
@@ -91,34 +92,36 @@ $toc['anchors'] = array (
 <h3><?php E_('Build requirements')?></h3>
 <p>
   <?php E_('Before you can start compiling, you need a couple of packages that are required to compile Xfce. Use your distributions package manager to install those packages. Additional packages are required too for some modules, but we\'ll get to that later.') ?>
-  
-  <ul>
-    <li><a href="http://en.wikipedia.org/wiki/GNU_toolchain" class="external"><?php E_('A working GNU toolchain')?></a></li>
-    <li><?php E_('Gtk+ and Glib headers, in some distributions called the <em>-devel</em> packages')?>
-      <ul>
-        <li><?php E_('Xfce 4.8 requires Gtk+ 2.14 and Glib 2.20')?></li>
-        <li><?php E_('Xfce 4.6 requires Gtk+ 2.10 and Glib 2.12')?></li>
-      </ul>
-    </li>
-    <li>pkgconfig</li>
-    <li><?php E_('Coffee') ?></li>
-  </ul>
 </p>
+
+<ul>
+  <li><a href="http://en.wikipedia.org/wiki/GNU_toolchain" class="external"><?php E_('A working GNU toolchain')?></a></li>
+  <li><?php E_('Gtk+ and Glib headers, in some distributions called the <em>-devel</em> packages')?>
+    <ul>
+      <li><?php E_('Xfce 4.8 requires Gtk+ 2.14 and Glib 2.20')?></li>
+      <li><?php E_('Xfce 4.6 requires Gtk+ 2.10 and Glib 2.12')?></li>
+    </ul>
+  </li>
+  <li>pkgconfig</li>
+  <li><?php E_('Coffee') ?></li>
+</ul>
+
 
 <h3><?php E_('Xfce\'s dependency chain') ?></h3>
 <p>
   <?php E_('The Xfce packages need to be build in a specific order. If you don\'t follow this compile options might not be available or the configure stage will abort because of missing dependencies.') ?>
-  
-  <ul>
-    <li>xfce4-dev-tools (<?php E_('only required if you build from GIT') ?>)</li>
-    <li>libxfce4util</li>
-    <li>xfconf</li>
-    <li>libxfce4ui (<?php E_('new in 4.8') ?>), libxfcegui4 (<?php E_('deprecated since 4.8') ?>), libxfce4menu (<?php E_('deprecated since 4.8') ?>), garcon (<?php E_('new in 4.8') ?>) &amp; exo</li>
-    <li>xfce4-panel</li>
-    <li>thunar</li>
-    <li>xfce4-settings, xfce4-session, xfdesktop, xfwm4, xfce-utils, xfce4-appfinder, ...</li>
-  </ul>
 </p>
+
+<ul>
+  <li>xfce4-dev-tools (<?php E_('only required if you build from GIT') ?>)</li>
+  <li>libxfce4util</li>
+  <li>xfconf</li>
+  <li>libxfce4ui (<?php E_('new in 4.8') ?>), libxfcegui4 (<?php E_('deprecated since 4.8') ?>), libxfce4menu (<?php E_('deprecated since 4.8') ?>), garcon (<?php E_('new in 4.8') ?>) &amp; exo</li>
+  <li>xfce4-panel</li>
+  <li>thunar</li>
+  <li>xfce4-settings, xfce4-session, xfdesktop, xfwm4, xfce-utils, xfce4-appfinder, ...</li>
+</ul>
+
 
 <h3><?php E_('Package specific dependencies') ?></h3>
 <p>
@@ -127,9 +130,9 @@ $toc['anchors'] = array (
 
 <table>
   <tr>
-    <th>Package</td>
-    <th>Dependency(-ies)</td>
-    <th>Optional Dependency(-ies)</td>
+    <th>Package</th>
+    <th>Dependency(-ies)</th>
+    <th>Optional Dependency(-ies)</th>
   </tr>
     <tr>
     <td>xfce4-dev-tools</td>
@@ -202,7 +205,7 @@ $toc['anchors'] = array (
     <td>dbus-glib</td>
   </tr>
   <tr>
-    <td nowrap>gtk-xfce-engine-2</td>
+    <td nowrap="nowrap">gtk-xfce-engine-2</td>
     <td>gtk+</td>
     <td>&nbsp;</td>
   </tr>
