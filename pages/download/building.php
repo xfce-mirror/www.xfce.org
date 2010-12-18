@@ -222,7 +222,7 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <code>export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig:$PKG_CONFIG_PATH</code>
+  <code>export PKG_CONFIG_PATH=&quot;${PREFIX}/lib/pkgconfig:$PKG_CONFIG_PATH&quot;</code>
 </p>
 
 <p>
@@ -230,7 +230,7 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <code>export CFLAGS=-O2 -pipe</code>
+  <code>export CFLAGS=&quot;-O2 -pipe&quot;</code>
 </p>
 
 <h3><?php E_('Compiling and installing') ?></h3>
