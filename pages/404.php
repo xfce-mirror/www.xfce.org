@@ -1,4 +1,6 @@
-<h1><?php E_('Page not found') ?></h1>
+<?php $head['title'] = R_('Page not found'); ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <h3><?php E_('We\'re sorry, the page or file you requested was not found on this server.') ?></h3>
 <p>
