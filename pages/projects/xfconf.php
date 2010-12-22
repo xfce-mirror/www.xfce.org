@@ -1,4 +1,4 @@
-<h1><?php E_("What is Xfconf?") ?></h2>
+<h1><?php E_("What is Xfconf?") ?></h1>
 
 <p>
   <?php E_("Xfconf is a simple client-server configuration storage and query system.") ?>
