@@ -1,26 +1,32 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfce4-utils.png" alt="xfce4-utils" width="48" height="48" /></div>
-
-<h2>Utilities and Scripts</h2>
+<h1><?php E_("What are the utilities and scripts?") ?></h1>
 
 <p>
-The Utilities and Scripts provides an about dialog for Xfce 4, an application
-launcher, and several useful scripts that are also used by other Xfce 
-components such as the panel and the desktop menu.
+  <?php E_("The Utilities and Scripts provides an about dialog for Xfce 4, an application launcher and several useful scripts that are also used by other Xfce components such as the panel and the desktop menu.") ?>
 </p>
 
-<h3>Features</h3>
+<h2><?php E_("Authors") ?></h2>
 
 <ul>
-  <li>About dialog.</li>
-  <li>Application launcher.</li>
-  <li>Scripts: to init an X session, to lock the screen, and to open the local documentation.</li>
+  <li>Benedikt Meurer [benny at xfce.org]</li>
+  <li>Brian Tarricone [kelnos at xfce.org]</li>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+  <li>Jasper Huijsmans [jasper at xfce.org]</li>
+  <li>Olivier Fourdan [fourdan at xfce.org]</li>
 </ul>
 
-<h3>External Links</h3>
+<h2><?php E_("Useful links") ?></h2>
 
-<?php include("git.address.php"); ?>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/xfce-utils/" class="external"><?php E_("Download the source tarballs of Xfce Utils releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfce-utils/" class="external"><?php E_("Xfce utils source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce-utils" class="external"><?php E_("Bugs reported against Xfce Utils") ?></a>
+  </li>
+</ul>
 
-<h3>Authors</h3>
 
-<?php include("authors.php"); ?>
 
