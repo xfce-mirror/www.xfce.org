@@ -62,7 +62,7 @@ $toc['anchors'] = array (
   <div class="module">
     <h3><a href="/projects/xfce-utils"><?php E_('Utilities and Scripts') ?></a></h3>
     <p style="background-image: url('/images/projects/xfce-utils.png')">
-      <?php E_('Essential utilities and scripts. Provides a credits and license dialog, a dialog for launching applications and several important scripts that are used by other packages.') ?>
+      <?php E_('Essential utilities and scripts. Provides a credits and license dialog, a dialog for launching applications and several important scripts.') ?>
     </p>
   </div>
 
