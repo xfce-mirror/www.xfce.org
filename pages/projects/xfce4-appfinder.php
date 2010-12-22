@@ -1,24 +1,32 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;">
-  <img src="/images/projects/xfce4-appfinder.png" alt="xfce4-appfinder" width="48" height="48" />
-</div>
+<h1><?php E_("What is the Application Finder?") ?></h1>
 
-<h2>Application Finder</h2>
+
+<p>
+  <?php E_("This is an application finder for the Xfce Desktop Environment. It is a useful program that allows you to find applications on the system and launch them. It provides easy keyboard navigation and can be used as a replacement for xfrun4.") ?>
+</p>
 
 <p class="center">
   <img src="/images/projects/screenshots/xfce4-appfinder.png" alt="Application Finder" />
 </p>
 
-<p>
-  This is an application finder for the Xfce Desktop Environment. It is a useful program
-  that allows you to find applications on the system and launch them. It provides easy
-  keyboard navigation and can be used as a replacement for xfrun4.
-</p>
+<h2><?php E_("Authors") ?></h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>Jannis Pohlmann [jannis at xfce.org]</li>
+</ul>
 
-<?php include("git.address.php"); ?>
+<h2><?php E_("Useful links") ?></h2>
 
-<h3>Authors</h3>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org/src/xfce/xfce4-appfinder/" class="external"><?php E_("Download the source tarballs of Xfce4 Appfinder releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/xfce/xfce4-appfinder/" class="external"><?php E_("Xfce4 Appfinder source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce4-Appfinder" class="external"><?php E_("Bugs reported against Xfce4 Appfinder") ?></a>
+  </li>
+</ul>
 
-<?php include("authors.php"); ?>
 
