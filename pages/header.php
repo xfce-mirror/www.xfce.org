@@ -110,7 +110,7 @@ else
 
 		if (isset($toc['external']))
 		{
-			echo '<h5>'.R_('Related Pages').'</h5>';
+			echo '<h5>'.R_('Related Sites').'</h5>';
 			echo '<ul>';
 			foreach ($toc['external'] as $link => $name)
 				echo '<li><a href="'.$link.'" class="external">'.$name.'</a></li>';
