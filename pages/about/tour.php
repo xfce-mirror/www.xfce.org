@@ -2,7 +2,7 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-<p><?php E_('This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the <a href="/download/changelogs/">changelogs</a>.') ?></p>
+<p><?php E_('This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the <a href="/download/changelogs/">changelogs</a>. The tour for Xfce 4.6 can be found <a href="/about/tour46">here</a>.') ?></p>
 
 <h2><?php E_("Thunar file browser") ?></h2>
 
@@ -33,6 +33,10 @@
   <h3><?php E_("Drag and drop to create launchers") ?></h3>
 
     <p><?php E_("You can now drag and drop menu entries from the panel applications menu to the panel to create panel and desktop launchers. This feature should please the huge number of people who had been requesting it for ages.") ?></p>
+
+  <!-- iconbox and tasklist merged in new 'window buttons' plugin -->
+
+  <!-- much improved positioning: show panel only on a single output, snap to screen edges and don't move floating panels -->
 
   <h3><?php E_("New fuzzy clock") ?></h3>
 
