@@ -1,24 +1,35 @@
-<div style="float:right; margin:0 0 0.5em 0.5em;"><img src="/images/projects/xfburn.png" alt="xfburn" width="48" height="48" /></div>
+<?php $head['title'] = R_('What is Xfburn?') ?>
 
-<h2>Xfburn</h2>
+<h1><?php echo $head['title'] ?></h1>
+
+<p>
+  <?php E_('Xfburn is a simple CD/DVD burning tool based on <a class="external" href="http://www.libburnia-project.org/">libburnia</a> libraries. It can blank CD/DVD(-RW)s, burn and create ISO images, audio CDs, as well as burn personal compositions of data to either CD or DVD.') ?>
+</p>
 
 <p class="center"><img src="/images/projects/screenshots/xfburn.png" alt="Xfburn" /></p>
 
-<p>
-Xfburn is a simple CD/DVD burning tool based on 
-<a class="external" href="http://www.libburnia-project.org/">libburnia</a>
-libraries. It can blank CD/DVD(-RW)s, burn and create ISO images, audio CDs, as 
-well as burn personal compositions of data to either CD or DVD. It is
-stable, and under ongoing development. 
-</p>
+<h2><?php E_("Authors") ?></h2>
 
-<h3>External Links</h3>
+<ul>
+  <li>David Mohr [squisher at xfce.org]</li>
+</ul>
 
-<p><a class="external" href="http://goodies.xfce.org/projects/applications/xfburn"><b>More on Xfburn</b></a></p>
+<h2><?php E_("Useful links") ?></h2>
 
-<?php include("git.address.php"); ?>
+<ul>
+  <li>
+    <a href="http://goodies.xfce.org/projects/applications/xfburn" class="external"><?php E_("More on Xfburn") ?></a>
+  </li>
+  <li>
+    <a href="http://archive.xfce.org/src/apps/xfburn/" class="external"><?php E_("Download the source tarballs of Xfburn releases") ?></a>
+  </li>
+  <li>
+    <a href="http://git.xfce.org/apps/xfburn/" class="external"><?php E_("Xfburn source code on git.xfce.org") ?></a>
+  </li>
+  <li>
+    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Xfburn" class="external"><?php E_("Bugs reported against Xfburn") ?></a>
+  </li>
+</ul>
 
-<h3>Authors</h3>
 
-<?php include("authors.php"); ?>
 
