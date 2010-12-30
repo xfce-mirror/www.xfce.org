@@ -1,5 +1,6 @@
-<h1><?php E_("What is the Application Finder?") ?></h1>
+<?php $head['title'] = R_('What is the Application Finder?') ?>
 
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("This is an application finder for the Xfce Desktop Environment. It is a useful program that allows you to find applications on the system and launch them. It provides easy keyboard navigation and can be used as a replacement for xfrun4.") ?>

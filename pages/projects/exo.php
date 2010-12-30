@@ -1,4 +1,6 @@
-<h1><?php E_("What is Exo?") ?></h1>
+<?php $head['title'] = R_('What is Exo?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("Exo is an application library for the Xfce desktop environment.") ?>

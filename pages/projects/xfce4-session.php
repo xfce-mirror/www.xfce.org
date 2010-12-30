@@ -1,4 +1,6 @@
-<h1><?php E_("What is the Session Manager?") ?></h1>
+<?php $head['title'] = R_('What is the Session Manager?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("The session manager allows the user to save sessions and restore them after login. It is capable of saving several different sessions. It also provides an easy way to log out, reboot, shutdown, hibernate or suspend your computer.") ?>

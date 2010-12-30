@@ -1,4 +1,6 @@
-<h1><?php E_("What is the Xfdesktop Desktop Manager?") ?></h1>
+<?php $head['title'] = R_('What is Xfdesktop?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("The desktop manager sets the background image, provides a right-click menu to launch applications and can optionally show files (including application launchers) or iconified windows. It includes gradient support for background color, saturation support for background image, real multiscreen and xinerama support.") ?>

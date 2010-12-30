@@ -1,4 +1,6 @@
-<h1><?php E_("What is the Xfce4 panel?") ?></h1>
+<?php $head['title'] = R_('What is the Xfce panel?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("A panel is a bar which can hold many items such as application launchers, windows lists, clock, notification area, applications menu...") ?>

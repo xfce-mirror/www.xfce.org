@@ -1,4 +1,6 @@
-<h1><?php E_("What are the utilities and scripts?") ?></h1>
+<?php $head['title'] = R_('What are the utilities and scripts?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("The Utilities and Scripts provides an about dialog for Xfce 4, an application launcher and several useful scripts that are also used by other Xfce components such as the panel and the desktop menu.") ?>

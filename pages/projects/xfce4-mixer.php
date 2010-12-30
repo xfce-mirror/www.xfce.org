@@ -1,4 +1,6 @@
-<h1><?php E_("What is the mixer?") ?></h1>
+<?php $head['title'] = R_('What is the mixer?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("The Mixer is a volume control application for the Xfce Desktop Environment. It provides both a volume control plugin for the Xfce Panel and a standalone mixer application.") ?>

@@ -1,4 +1,6 @@
-<h1><?php E_("What is Xfconf?") ?></h1>
+<?php $head['title'] = R_('What is Xfconf?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("Xfconf is a simple client-server configuration storage and query system.") ?>

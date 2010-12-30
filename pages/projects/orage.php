@@ -1,4 +1,6 @@
-<h1><?php E_("What is Orage?") ?></h1>
+<?php $head['title'] = R_('What is Orage?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("Orage provides a calendar which integrates nicely into the Xfce Desktop Environment. It is highly configurable and supports alerts based on dates. It warns you with popup or audio alarm. As it is an application for every day use, it launches itself in the background as a daemon and can be accessed using the Orage Clock plugin for the panel.") ?>

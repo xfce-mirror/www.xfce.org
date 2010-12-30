@@ -1,4 +1,6 @@
-<h1><?php E_("What is the Thunar File Manager?") ?></h1>
+<?php $head['title'] = R_('What is the Thunar File Manager?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("Thunar is a new modern file manager for the Xfce Desktop Environment. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options. Thunar is fast and responsive with a good start up time and directory load time.") ?>

@@ -1,4 +1,6 @@
-<h1><?php E_("What are libxfce4util and libxfce4ui?") ?></h1>
+<?php $head['title'] = R_('What are libxfce4util and libxfce4ui?') ?>
+
+<h1><?php echo $head['title'] ?></h1>
 
 <p>
   <?php E_("The core libraries provide common functionalities to the Xfce environment. They are two libraries which provide non-graphical helper functions, widgets, convenience functions for graphical user interfaces  and functions for settings management.") ?>
