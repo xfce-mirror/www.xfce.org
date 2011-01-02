@@ -27,6 +27,49 @@ $news = array (
         'content' => '<stuff you want to say>',
     ),
 */
+  array (
+        'id'      => 26,
+        'date'    => "2 jan 2011",
+        'author'  => "The Xfce development team",
+        'title'   => "Xfce 4.8pre3 Released",
+        'content' => "Today we are pleased to announce the third and hopefully final preview release of Xfce 4.8 which is set to be pushed out to the public on January 16th, 2011. Compared to Xfce 4.8pre2 this release mostly features translation updates and bug fixes. ".
+                     "[br][br]".
+                     "With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no surprise that for most components only a few issues were tackled. ".
+                     "[br][br]".
+                     "Among other things we updated the default keyboard shortcuts to include monitor keys. The status icon of the file manager's progress dialog is now properly hidden when the dialog is destroyed. It's wallpaper plugin is now capable of handling filenames with spaces. The environment variables of commands launched from the Xfce run dialog were not set properly, so we fixed that so that commands launched from the dialog always inherit the environment of the Xfce session. ".
+                     "[br][br]".
+                     "We also made the --reboot and --halt parameters of xfce4-session-logout work again which previously simply logged out the active user. In order to avoid a race condition at session startup and in order to speed things up a little more we no longer use xrdb to update xft and cursor settings and instead, update the related XSETTINGS properties ourselves. ".
+                     "[br][br]".
+                     "In the window manager xfwm4, we aligned the time period required for a double click with that of normal applications. Via the hidden option [i]/general/mousewheel_rollup[/i] one can now disable windows being rolled up via the mouse wheel. The window manager now also properly handles resolution changes in fullscreen windows like those appearing in games. Xfwm4's application switcher now only appears once in cloned mode. ".
+                     "[br][br]".
+                     "This may sound like a few useful fixes but it's nothing compared to the amount of work that went into the new Xfce panel once again. Around 20+ known bugs and regressions were fixed. Here is a short excerpt of the complete changelog: Translation domains were fixed for external plugins, plugins can be reordered with DND again, double-clicking items in the item editor shows their preferences, dragging items to the item editor dialog removes them from the panel again, tasklist windows can now be filtered by monitor. Another issue that appeared recently and has now been fixed is the icon sizing in the notification area, also known as the systray.".
+                     "[br][br]".
+                     "Xfce 4.8pre3 also features a lot of translation updates, as can be seen in [url=http://xfce.org/documentation/changelogs/4.8pre3]the complete changelog[/url].".
+                     "[br][br]".
+                     "Since we're following the Xfce [url=http://wiki.xfce.org/releng/release-model]release model[/url] for 4.8, we'd normally announce code freeze and the creation of early lifecycle support branches today. We decided against this because there are not enough people active to take care of all this at the moment. So we will continue fixing bugs in master branches as we did between 4.8pre2 and 4.8pre3. ".
+                     "[br][br]".
+                     "Release tarballs are available from the following mirrors (please give them a few hours to synchronize):".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre3/src]http://archive.xfce.org/xfce/4.8pre3/src[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre3/src]http://www.tx-us.xfce.org/archive/xfce/4.8pre3/src[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre3/src]http://www.p0llux.be/xfce/xfce/4.8pre3/src[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre3/src]http://www.ca-us.xfce.org/archive/xfce/4.8pre3/src[/url][br]".
+                     "[br][br]".
+                     "A tarball including all individual releases can be downloaded from here:".
+                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre3/fat_tarballs]http://archive.xfce.org/xfce/4.8pre3/fat_tarballs[/url]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs]http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs[/url]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url]".
+                     "[br][br]".
+                     "We're hoping that you will enjoy today's release. Thanks a lot to everyone contributing this time around! We're pretty sure 4.8 is gonna rock. ".
+                     "[br][br]".
+                     "Kind regards,".
+                     "[br]".
+                     "The Xfce development team".
+                     "[br][br]".
+                     "P.S.: Happy new year everyone!"
+    ),
 
     array (
         'id'      => 25,
