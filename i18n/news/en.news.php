@@ -54,14 +54,14 @@ $news = array (
                      "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre3/src]http://www.tx-us.xfce.org/archive/xfce/4.8pre3/src[/url][br]".
                      "[url=http://www.p0llux.be/xfce/xfce/4.8pre3/src]http://www.p0llux.be/xfce/xfce/4.8pre3/src[/url][br]".
                      "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre3/src]http://www.ca-us.xfce.org/archive/xfce/4.8pre3/src[/url][br]".
-                     "[br][br]".
+                     "[br]".
                      "A tarball including all individual releases can be downloaded from here:".
                      "[br][br]".
-                     "[url=http://archive.xfce.org/xfce/4.8pre3/fat_tarballs]http://archive.xfce.org/xfce/4.8pre3/fat_tarballs[/url]".
-                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url]".
-                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs]http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs[/url]".
-                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url]".
-                     "[br][br]".
+                     "[url=http://archive.xfce.org/xfce/4.8pre3/fat_tarballs]http://archive.xfce.org/xfce/4.8pre3/fat_tarballs[/url][br]".
+                     "[url=http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.tx-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url][br]".
+                     "[url=http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs]http://www.p0llux.be/xfce/xfce/4.8pre3/fat_tarballs[/url][br]".
+                     "[url=http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs]http://www.ca-us.xfce.org/archive/xfce/4.8pre3/fat_tarballs[/url][br]".
+                     "[br]".
                      "We're hoping that you will enjoy today's release. Thanks a lot to everyone contributing this time around! We're pretty sure 4.8 is gonna rock. ".
                      "[br][br]".
                      "Kind regards,".
