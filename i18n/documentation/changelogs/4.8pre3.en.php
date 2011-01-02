@@ -51,6 +51,12 @@ function bug ($id){
 <li>Translation updates (he, de, zh_TW, sk, ru, pt, cs, ja, en_GB, sv, id, ug).</li>
 </ul>
 
+<h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
+
+<ul>
+<li>Translation updates (pt, ja, he, lt, zh_CN, pt_BR, sk, cs, en_GB, nb, hr, pl, ar).</li>
+</ul>
+
 <h3>Panel <em>(xfce4-panel)</em>:</h3>
 
 <ul>
