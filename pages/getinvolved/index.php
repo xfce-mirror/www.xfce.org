@@ -26,15 +26,15 @@
 
 <h2><a href="/getinvolved/promotion"><?php E_('Promotion') ?></a></h2>
 <p>
-  <?php E_('') ?>
+
 </p>
 
 <h2><a href="/getinvolved/testing"><?php E_('Testing') ?></a></h2>
 <p>
-  <?php E_('') ?>
+
 </p>
 
 <h2><a href="/getinvolved/bugreporting"><?php E_('Bug Reporting') ?></a></h2>
 <p>
-  <?php E_('') ?>
+
 </p>
