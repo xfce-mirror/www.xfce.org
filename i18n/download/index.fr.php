@@ -7,7 +7,7 @@
 
 <h2 id="source">Code source</h2>
 <p>Tous les modules Xfce sont disponibles dans un fichier archive depuis notre dépôt SourceForge et différents autres mirroirs (dans une unique archive <em>ou</em> dans plusieurs fichiers séparés) :</p>
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Installeur graphique</h2>
@@ -65,6 +65,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

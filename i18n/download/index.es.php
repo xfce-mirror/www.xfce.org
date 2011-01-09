@@ -17,7 +17,7 @@ Todos los módulos de Xfce están disponibles como un único archivo comprimido 
 y en varios mirrors (como un único <em>o</em> varios archivos comprimidos):
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Instaladores gráficos</h2>
@@ -94,6 +94,6 @@ Todos los módulos de Xfce están disponibles como un único archivo comprimido 
 y en varios mirrors (como un único <em>o</em> varios archivos comprimidos):
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

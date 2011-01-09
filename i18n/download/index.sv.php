@@ -18,7 +18,7 @@ Alla Xfce-moduler finns tillgängliga i ett enda tararkiv från vårt SourceForg
 och från flera spegelservrar (i ett enda tararkiv <em>eller</em> separata tararkiv):
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Grafiska installerare</h2>
@@ -95,6 +95,6 @@ Alla Xfce-moduler finns tillgängliga i ett enda tararkiv från vårt SourceForg
 och från flera spegelservrar (i ett enda tararkiv <em>eller</em> separata tararkiv):
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

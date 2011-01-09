@@ -7,7 +7,7 @@
 
 <h2 id="source">Broncode</h2>
 <p>Alle Xfce modules zijn beschikbaar in losse archieven van de SourceForge servers of op 1 van de Xfce servers:</p>
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Installatiepakketten</h2>
@@ -65,6 +65,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

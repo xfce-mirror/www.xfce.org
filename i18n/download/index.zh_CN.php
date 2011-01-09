@@ -7,7 +7,7 @@
 
 <h2 id="source">源代码</h2>
 <p>所有 Xfce 模块都可以从我们的 SourceForge 仓库和一些镜像站点中以单个源代码压缩包的形式得到，(在单独一个源代码压缩包<em>或者</em>分开的源代码压缩包中)：</p>
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">图形安装程序</h2>
@@ -65,6 +65,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

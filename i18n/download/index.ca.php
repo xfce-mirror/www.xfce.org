@@ -18,7 +18,7 @@ Tots els mòduls de Xfce estan disponibles en un sol paquet del nostre repositor
 en diversos miralls (en un sol paquet <em>o</em> en paquets separats).
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Instal·ladors gràfics</h2>
@@ -95,6 +95,6 @@ Tots els mòduls de Xfce estan disponibles en un sol paquet del nostre repositor
 en diversos miralls (en un sol paquet <em>o</em> en paquets separats).
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

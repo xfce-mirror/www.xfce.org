@@ -5,7 +5,7 @@ $sf_package_id = "291314";  /* corresponds to xfce-4.6 package */
 $sf_release_id = "678213";
 
 /* uncomment these to have an unstable release appear */
-//$version_unstable = "4.5.99.1";
+$version_unstable = "4.8pre3";
 //$sf_package_id_unstable = "291314";  /* corresponds to xfce-4.6 package */ 
 //$sf_release_id_unstable = "640705";
 
@@ -32,10 +32,11 @@ $servers_unstable = array(
 /* combobox */
 function printServers($dir, $servers)
 {
+  return;
+
   echo '<form class="download" method="get" action="/download/">';
   echo '<select name="server">';
 
-  /* choose 1 random item from the servers, this will be the default in the list */
   $rand = array_rand ($servers, 1);
 
   foreach ($servers as $name => $location)
@@ -54,5 +55,10 @@ function printServers($dir, $servers)
   echo '</select>';
   echo '<input type="submit" name="submit" value="Download" />';
   echo '</form>';
+}
+
+function printMirror($version)
+{
+  echo "http://archive.xfce.org/xfce/$version/";
 }
 ?>

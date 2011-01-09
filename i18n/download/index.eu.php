@@ -10,7 +10,7 @@ begirada bota diezaiekezu <a href="/download/distros">hemen</a>.</p>
 <h2 id="source">Iturburu kodea</h2>
 <p>Xfce modulu guztiak gure SourceForge errepositorioan pakete bakar batetan daude eskuragarri, baita ispilu anitzen 
 bitartez (pakete bakar batetan <em>edo</em> ezberdinetan:</p>
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Instalatzaile grafikoak</h2>
@@ -69,6 +69,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

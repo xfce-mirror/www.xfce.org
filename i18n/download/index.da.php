@@ -18,7 +18,7 @@ Alle Xfce-moduler er tilgængelige i et enkelt tar-arkiv, fra vores SourceForge-
 og fra adskillige spejle (i et enkelt tar-arkiv <em>eller</em> separate  tar-arkiver):
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Grafiske installatører</h2>
@@ -95,6 +95,6 @@ Alle Xfce-moduler er tilgængelige i et enkelt tar-arkiv, fra vores SourceForge-
 og fra adskillige spejle (i et enkelt tar-arkiv <em>eller</em> separate tar-arkiver):
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

@@ -20,7 +20,7 @@ Tutti i moduli di Xfce sono disponibili in un unico archivio dal deposito Source
 da altri mirror (in un unico archivio <em>o</em> in archivi separati):
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Installatori grafici</h2>
@@ -97,6 +97,6 @@ Tutti i moduli di Xfce sono disponibili in un unico archivio dal deposito Source
 da altri mirror (in un unico archivio <em>o</em> in archivi separati):
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

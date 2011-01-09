@@ -9,7 +9,7 @@
 
 <h2 id="source">Kod burim</h2>
 <p>Tërë modulet Xfce janë të passhëm prej depozitës sonë në SourceForge, brenda një arkive të vetme të ngjeshur, dhe prej disa pasqyrash (në një arkivë të vetme <em>ose</em> si arkiva të ndara veçmas):</p>
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Instaluesa grafikë</h2>
@@ -69,6 +69,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

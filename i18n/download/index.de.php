@@ -9,7 +9,7 @@
 <h2 id="source">Quellcode</h2>
 <p>Alle Module stehen als komplettes Tar-Archiv  in unseren Paketquellen bei SourceForge  zur Verfügung, oder auch auf diversen Spiegelseiten (als ein Tar-Archiv <em>oder</em> als mehrere Einzelarchive):</p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Graphische Installationsassistenten</h2>
@@ -84,6 +84,6 @@ above.
 
 <h2 id="source-unstable">Source code</h2>
 <p>All Xfce modules are available in one single tarball from our SourceForge  repository, and from several mirrors (in one single tarball <em>or</em> separate  tarballs):</p>
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

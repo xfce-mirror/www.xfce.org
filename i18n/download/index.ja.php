@@ -16,7 +16,7 @@
 すべての Xfce モジュールは私たちの SourceForge リポジトリからの一つの tar ボールで、またはいくつかのミラーから (一つ、<em>または</em>いくつかに分けられた tar ボールで) 入手できます:
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">グラフィカルインストーラ</h2>
@@ -86,6 +86,6 @@ Xfce-Installer は、Xfce といくつかのエクステンションをインス
 すべての Xfce モジュールは私たちの SourceForge リポジトリから一つの tar ボールで、またはいくつかのミラーから (一つ、<em>または</em>いくつかに別れた tar ボール) で入手できます:
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>

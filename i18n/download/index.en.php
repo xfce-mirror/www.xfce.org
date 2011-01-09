@@ -18,7 +18,7 @@ All Xfce modules are available in one single tarball from our SourceForge  repos
 and from several mirrors (in one single tarball <em>or</em> separate  tarballs):
 </p>
 
-<?php printServers("", $servers); ?>
+<?php printMirror($version); ?>
 
 <!--
 <h2 id="installer">Graphical installers</h2>
@@ -95,6 +95,6 @@ All Xfce modules are available in one single tarball from our SourceForge reposi
 and from several mirrors (in one single tarball <em>or</em> separate tarballs):
 </p>
 
-<?php printServers("", $servers_unstable); ?>
+<?php printMirror($version_unstable); ?>
 
 <?php } /* isset($version_unstable) */ ?>
