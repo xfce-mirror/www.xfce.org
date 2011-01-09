@@ -59,6 +59,9 @@ function printServers($dir, $servers)
 
 function printMirror($version)
 {
-  echo "<a href=\"http://archive.xfce.org/xfce/$version/\">http://archive.xfce.org/xfce/$version</a>";
+  foreach (array ("", ".se", ".be", ".be2") as $mirror)
+  {
+      echo "<a href=\"http://archive$mirror.xfce.org/xfce/$version/\">http://archive$mirror.xfce.org/xfce/$version</a><br />";
+  }
 }
 ?>
