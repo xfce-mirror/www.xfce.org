@@ -24,17 +24,16 @@
   <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world.') ?>
 </p>
 
-<h2><a href="/getinvolved/promotion"><?php E_('Promotion') ?></a></h2>
+<h2><?php E_('Promotion') ?></h2>
 <p>
-
+  <?php E_('If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Identi.ca or Twitter account you can also help by reposting any <a href="http://identi.ca/xfce">announcements</a> we make to help us reach a larger audience.') ?>
 </p>
 
-<h2><a href="/getinvolved/testing"><?php E_('Testing') ?></a></h2>
+<h2><?php E_('Bug Reporting and testing') ?></h2>
 <p>
-
+  <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="http://bugzilla.xfce.org" class="external">bug tracker</a>.') ?>
 </p>
 
-<h2><a href="/getinvolved/bugreporting"><?php E_('Bug Reporting') ?></a></h2>
 <p>
-
+  <?php E_('Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and then submitting a patch file.') ?>
 </p>

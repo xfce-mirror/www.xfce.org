@@ -12,18 +12,36 @@ if($preview_visible) {
         $toc['anchors'] += array ('unstable' => R_('Preview release'));
 }
 
-$servers = array (
-  array ('mocha.xfce.org', R_('Europe/Belgium'), 'http://mocha.xfce.org/archive/%s'),
-  array ('p0llux.be', R_('Europe/France'), 'http://www.p0llux.be/xfce/archive/%s'),
-  array ('tx-us.xfce.org', R_('United States/Texas'), 'http://www.tx-us.xfce.org/archive/%s'),
-  array ('ca-us.xfce.org', R_('United States/California'), 'http://www.ca-us.xfce.org/archive/%s')
+$mirrors = array (
+  'archive.be.xfce.org' => R_('Europe/Belgium'),
+  'archive.be2.xfce.org' => R_('Europe/Belgium'),
+  'archive.se.xfce.org' => R_('Europe/Sweden'),
+  //'archive.ca-us.xfce.org' => R_('United States/California'),
+  //'archive.in-us.xfce.org' => R_('United States/Indiana'),
+  //'archive.tx-us.xfce.org' => R_('United States/Texas'),
 );
 
-function print_servers($path)
+function print_mirrors($path)
 {
-  global $servers;
-  foreach ($servers as $s)
-    echo '  <li><a href="'.sprintf($s[2], $path).'">'.$s[0].' ('.$s[1].')</a></li>'."\n";
+  global $mirrors;
+
+  echo '  <ul>'."\n";
+
+  if (isset($_GET['mirror']) && $_GET['mirror'] == $path)
+  {
+    foreach ($mirrors as $m => $l)
+    {
+      $url = 'http://'.$m.'/'. $path;
+      echo '    <li><a href="'.$url.'">'.$m.'</a> ('.$l.')</li>'."\n";
+    }
+  }
+  else
+  {
+    echo '    <li><a href="http://archive.xfce.org/'.$path.'">archive.xfce.org</a> '.
+         '<a href=/download/?mirror='.$path.'>(', R_('mirror list') .'</a>)'."</li>\n";
+  }
+
+  echo '  </ul>'."\n";
 }
 
 ?>
@@ -40,18 +58,14 @@ function print_servers($path)
   <?php printf (R_('Xfce %s is the most recent version of the Xfce desktop environment. You can find the changes in this release <a href="/download/changelogs/%s">here</a>.'), $stable_version, $stable_version) ?>
 </p>
 
-<ul>
-  <?php print_servers ('xfce/'.$stable_version) ?>
-</ul>
+<?php print_mirrors ('xfce/'.$stable_version) ?>
 
 <h2 id="individual"><?php E_('Individual releases') ?></h2>
 <p>
   <?php E_('Each package in Xfce can make idividual stable or development releases, including the core packages (as discribed in the <a href="/about/releasemodel">release model</a>). You can follow the announcements of the releases on the <a href="/community/lists">Xfce users mailing list</a>, watch the <a href="http://releases.xfce.org/feeds/project/">release feeds</a> or follow the Xfce <a href="http://identi.ca/xfce">identi.ca channel</a>.') ?>
 </p>
 
-<ul>
-  <?php print_servers ('src') ?>
-</ul>
+<?php print_mirrors ('src') ?>
 
 <?php if ($preview_visible) { ?>
 <h2 id="unstable"><?php printf (R_('Preview release %s'), $preview_version) ?></h2>
@@ -59,7 +73,6 @@ function print_servers($path)
   <?php printf (R_('Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href="#stable">stable release</a> above. You can find the changes in this release <a href="/download/changelogs/%s">here</a>.'), $preview_version, $preview_version) ?>
 </p>
 
-<ul>
-  <?php print_servers ('xfce/'.$preview_version) ?>
-</ul>
+<?php print_mirrors ('xfce/'.$preview_version) ?>
+
 <?php } ?>
