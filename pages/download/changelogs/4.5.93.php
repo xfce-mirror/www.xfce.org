@@ -1,19 +1,19 @@
 
 
-<h2>Xfce 4.6 BETA 3 (4.5.93) Changelog</h2>
+<h1>Xfce 4.6 BETA 3 (4.5.93) Changelog</h1>
 
-<h3>Development tools <em>(xfce4-dev-tools)</em>:</h3>
+<h2>Development tools <em>(xfce4-dev-tools)</em>:</h2>
 <ul>
   <li>Remove unreliable and not really needed intltool auto-patch.</li>
 </ul>
 
-<h3>Utility Library <em>(libxfce4util)</em>:</h3>
+<h2>Utility Library <em>(libxfce4util)</em>:</h2>
 <ul>
   <li>Updated translations: Og Maciel (pt_BR), Abel Martin (es),
   Maxamilian Schleiss (fr), Daniel Nylander (sv), Masato Hashimoto (jp)</li>
 </ul>
 
-<h3>Widget Library <em>(libxfcegui4)</em>:</h3>
+<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
 <ul>
   <li>Review strings and fix markup issues in libxfce4kbd-private.</li>
   <li>Improve the layout of XfceShortcutDialog.</li>
@@ -22,7 +22,7 @@
   <li>Update translations (be, cz, da, es, fi, fr, gl, hu, ja, nb_NO, sq, sv, tr, uk, zh_CN).</li>
 </ul>
 
-<h3>Extension Library <em>(exo)</em>:</h3>
+<h2>Extension Library <em>(exo)</em>:</h2>
 <ul>
   <li>Don't setup bindings for <Shift>n and <Shift>p in ExoIconView so that
   type-ahead search works as expected (bug #4633).</li>
@@ -40,7 +40,7 @@
   Nylander), tr (Eren Turkay).</li>
 </ul>
 
-<h3>Menu Library <em>(libxfce4menu)</em>:</h3>
+<h2>Menu Library <em>(libxfce4menu)</em>:</h2>
 <ul>
   <li>Add weak pointers to the XfceMenuItemCache and XfceMenuSeparator objects
   so you can run xfce_menu_init() and xfce_menu_shutdown() multiple times.</li>
@@ -50,7 +50,7 @@
   <li>Updated translations: cs, es, eu, fi, hu, ja, pt_BR, sq, sv.</li>
 </ul>
 
-<h3>Window Manager <em>(xfwm4)</em>:</h3>
+<h2>Window Manager <em>(xfwm4)</em>:</h2>
 <ul>
   <li>Work around a problem affecting the use of the "Super" key as modifier for
   moving windows (bug #4632).</li>
@@ -68,12 +68,12 @@
   focusing new windows (bug #4795).</li>
 </ul>
 
-<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
+<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
 <ul>
    <li>Avoid an infinite loop if all files in a backdrop list are invalid.</li>
 </ul>
 
-<h3>Panel <em>(xfce4-panel)</em>:</h3>
+<h2>Panel <em>(xfce4-panel)</em>:</h2>
 <ul>
   <li>Cache tooltip icons. Since gtk queries it a lot, resulting in too many
   open()'s for loading the pixbuf (bug #4614).</li>
@@ -93,7 +93,7 @@
   <li>Rename Pager to Workspace Switcher and Systray to Notification Area.</li>
 </ul>
 
-<h3>Session Manager <em>(xfce4-session)</em>:</h3>
+<h2>Session Manager <em>(xfce4-session)</em>:</h2>
 <ul>
   <li>Don't let autostart get run twice when using the failsafe session (bug 4486).</li>
   <li>Display username in logout dialog (bug 3083).</li>
@@ -105,7 +105,7 @@
   <li>Translation updates: ca, cs, de, es, eu, fi, fr, hu, id, ja, nb_BO, pt_BR, sq, sv, uk, tr.</li>
 </ul>
 
-<h3>Settings Manager <em>(xfce4-settings)</em>:</h3>
+<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
 <ul>
   <li>Allow the settings manager window to be minimized (bug #4596).</li>
   <li>Fix xfce4-settings-helper not setting workspace count.</li>
@@ -129,7 +129,7 @@
   Norwegian Bokmal, Spanish, Swedish, Turkish, Ukrainian.</li>
 </ul>
 
-<h3>Configuration Manager <em>(xfconf)</em>:</h3>
+<h2>Configuration Manager <em>(xfconf)</em>:</h2>
 <ul>
   <li>Install xfconfd to $(libexecdir) instead of $(bindir).</li>
   <li>Fix perl bindings link order on Cygwin (bug 4735).</li>
@@ -141,7 +141,7 @@
     Eren Turkay (tr)</li>
 </ul>
 
-<h3>File Manager <em>(thunar)</em>:</h3>
+<h2>File Manager <em>(thunar)</em>:</h2>
 <ul>
   <li>Fix crash in the tree side pane when hidden files are toggled (bug #2502).</li>
   <li>Always show an error dialog if one of the files passed via the command
@@ -183,7 +183,7 @@
   Ukrainian translations.</li>
 </ul>
 
-<h3>Mixer <em>(xfce4-mixer)</em>:</h3>
+<h2>Mixer <em>(xfce4-mixer)</em>:</h2>
 <ul>
   <li>Change plugin volume step size from 1% to 5%.</li>
   <li>Use "multimedia-volume-control" icon as the default window icon
@@ -195,12 +195,12 @@
   Iwamatsu), sv (Daniel Nylander), uk (Dmitry Nikitin)</li>
 </ul>
 
-<h3>Utilities <em>(xfce-utils)</em>:</h3>
+<h2>Utilities <em>(xfce-utils)</em>:</h2>
 <ul>
   <li>Add --xfce-version option to print the Xfce release version (bug 3754).</li>
 </ul>
 
-<h3>Application Finder <em>(xfce4-appfinder)</em>:</h3>
+<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
 <ul>
   <li>Assume "All" category if the current category string is empty (bug #4613).</li>
   <li>Review strings.</li>

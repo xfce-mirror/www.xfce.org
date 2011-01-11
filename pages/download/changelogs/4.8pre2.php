@@ -1,6 +1,6 @@
-<h2>Xfce 4.8pre2 Changelog</h2>
+<h1>Xfce 4.8pre2 Changelog</h1>
 
-<h3>Extension Library <em>(exo)</em>:</h3>
+<h2>Extension Library <em>(exo)</em>:</h2>
 
 <ul>
   <li>Fix opening of URIs with spaces in claws-mail and sylpheed.</li>
@@ -14,7 +14,7 @@
   <li>Translation updates (ug, gl, zh_TW, ru, sk, ja, el, sv, es, eu, hu, pt, kk, it, ja, he, uk, ca, da, id).</li>
 </ul>
 
-<h3>Widget Library <em>(libxfce4ui)</em>:</h3>
+<h2>Widget Library <em>(libxfce4ui)</em>:</h2>
 
 <ul>
   <li>Also request an interact for save-state-extended.</li>
@@ -23,7 +23,7 @@
   <li>Translation updates (pt).</li>
 </ul>
 
-<h3>Utility Library <em>(libxfce4util)</em>:</h3>
+<h2>Utility Library <em>(libxfce4util)</em>:</h2>
 
 <ul>
   <li>Fix wrong capitalization of Xfce.</li>
@@ -31,7 +31,7 @@
   <li>Translation updates (pt).</li>
 </ul>
 
-<h3>File Manager <em>(thunar)</em>:</h3>
+<h2>File Manager <em>(thunar)</em>:</h2>
 
 <ul>
   <li>Make .desktop entries installed by Thunar validate against desktop-file-utils 0.16 (bug #6655). Patch by Samuli Suominen.</li>
@@ -56,7 +56,7 @@
   <li>Translation updates: Hungarian, German, Slovak, Portuguese (Brazilian), Chinese (China), Greek, Catalan (Valencian), Italian, Basque, Spanish (Castilian), Kazakh, Portuguese, Hebrew, Galician, Indonesian, Chinese (Taiwan), Japanese, Finish.</li>
 </ul>
 
-<h3>Utilities <em>(xfce-utils)</em>:</h3>
+<h2>Utilities <em>(xfce-utils)</em>:</h2>
 
 <ul>
   <li>Return support for vendor information.</li>
@@ -67,7 +67,7 @@
   <li>Translation updates (id, zh_TW, kk, it, fi, gl, da, ca, pt, uk, eu, sk, de, hu).</li>
 </ul>
 
-<h3>Panel <em>(xfce4-panel)</em>:</h3>
+<h2>Panel <em>(xfce4-panel)</em>:</h2>
 
 <ul>
   <li>Don't destroy the about dialog.</li>
@@ -102,7 +102,7 @@
   <li>Translation updates (be, ca, da, de, eu, fi, gl, hu, id, it, ja, kk, nl, pt, sk, ta, uk, zh_CN, zh_TW).</li>
 </ul>
 
-<h3>Session Manager <em>(xfce4-session)</em>:</h3>
+<h2>Session Manager <em>(xfce4-session)</em>:</h2>
 
 <ul>
   <li>Do not try "unix-session" authorization with PolicyKit as this seems to be either broken or not implemented in PolicyKit (bug #6817). This fixes suspend/hibernate in xfce4-session-logout.</li>
@@ -113,7 +113,7 @@
   <li>Translation updates (de, pt_BR, zh_CN, el, uk, it, id, ja, kk, pt).</li>
 </ul>
 
-<h3>Settings Manager <em>(xfce4-settings)</em>:</h3>
+<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
 
 <ul>
   <li>Use xfconf_channel_get instead of xfconf_channel_new.</li>
@@ -126,7 +126,7 @@
   <li>Translations updates (hu, zh_CN, he, pt, gl).</li>
 </ul>
 
-<h3>Configuration Manager <em>(xfconf)</em>:</h3>
+<h2>Configuration Manager <em>(xfconf)</em>:</h2>
 
 <ul>
   <li>Don't enable options with --disable-$option (bug #6820).</li>
@@ -138,7 +138,7 @@
   <li>Updated translations: kk, bn, uk, si, it, sk, fr, id, zh_TW, de, pt, ug.</li>
 </ul>
 
-<h3>Desktop Manager <em>(xfdesktop)</em>:</h3>
+<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
 
 <ul>
   <li>Fix a crash caused by accessing the wrong variable when adding items to the right-click menu.</li>
@@ -157,7 +157,7 @@
   <li>Translation updates: gl, ca, de, it, kk, fi, sk, pt, uk, el, zh_TW, da, id, eu, hu, lt.</li>
 </ul>
 
-<h3>Window Manager <em>(xfwm4)</em>:</h3>
+<h2>Window Manager <em>(xfwm4)</em>:</h2>
 
 <ul>
   <li>Fix break with latest API changes in libxfce4ui.</li>
