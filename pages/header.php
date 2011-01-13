@@ -36,6 +36,7 @@ else
 		<ul>
 			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
 			<li><a href="http://docs.xfce.org" title="Official documentation">Docs</a></li>
+			<li><a href="http://archive.xfce.org" title="Download location of tarballs">Archive</a></li>
 			<li><a href="http://wiki.xfce.org" title="Community documentation">Wiki</a></li>
 			<li><a href="http://forum.xfce.org" title="Community forums">Forum</a></li>
 			<li><a href="http://bugzilla.xfce.org" title="Report and track bugs">Bugs</a></li>
