@@ -19,6 +19,13 @@ $uri = trim (strtolower ($uri_a[0]), '/');
 /* lookup to page from the uri */
 $content_file = lookup_page ($uri);
 
+/* news feed handling */
+if ($uri == 'feed')
+{
+  include ($content_file);
+  exit;
+}
+
 /* load the page content in a buffer (we don't need it yet,
  * but we do need some variables for the header) */
 ob_start ();
