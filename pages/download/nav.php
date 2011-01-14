@@ -10,6 +10,6 @@ $toc['menu'] = array (
 
 $toc['external'] = array (
 	'http://git.xfce.org/' => R_('Browse GIT repositories'),
-	'http://goodies.xfce.org' => R_('Panel Plugins'));
+	'http://goodies.xfce.org' => R_('Xfce goodies'));
 
 ?>

@@ -29,6 +29,10 @@ rsort ($versions);
 
 <h1><?php echo $head['title'] ?></h1>
 
+<p>
+  <?php E_('Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. ') ?>
+</p>
+
 <?php
 
 $printed = 0;
