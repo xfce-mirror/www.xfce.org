@@ -17,8 +17,6 @@ function R_($text)
 	global $gettext_reader, $lang;
 	if ($gettext_reader)
 		return $gettext_reader->translate($text);
-	elseif ($lang == 'foo')
-		return '###';
 	else
 		return $text;
 }

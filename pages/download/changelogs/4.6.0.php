@@ -2,19 +2,13 @@
 
 <h1>Xfce 4.6 Changelog</h1>
 
-<br />
-<br />
-<a href="/documentation/changelogs/4.5.90">Changes introduced for the Alpha</a>
-<br />
-<a href="/documentation/changelogs/4.5.91">Changes introduced for the first Beta</a>
-<br />
-<a href="/documentation/changelogs/4.5.92">Changes introduced for the second Beta</a>
-<br />
-<a href="/documentation/changelogs/4.5.93">Changes introduced for the third Beta</a>
-<br/>
-<a href="/documentation/changelogs/4.5.99.1">Changes introduced for the first Release Candidate</a>
-<br />
-<br />
+<ul>
+  <li><a href="/download/changelogs/4.5.90">Changes introduced for the Alpha</a></li>
+  <li><a href="/download/changelogs/4.5.91">Changes introduced for the first Beta</a></li>
+  <li><a href="/download/changelogs/4.5.92">Changes introduced for the second Beta</a></li>
+  <li><a href="/download/changelogs/4.5.93">Changes introduced for the third Beta</a></li>
+  <li><a href="/download/changelogs/4.5.99.1">Changes introduced for the first Release Candidate</a></li>
+</ul>
 
 <h2>Utility Library <em>(libxfce4util)</em>:</h2>
 <ul>

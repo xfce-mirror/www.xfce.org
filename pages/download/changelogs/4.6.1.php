@@ -2,11 +2,9 @@
 
 <h1>Xfce 4.6.1 Changelog</h1>
 
-<br />
-<br />
-<a href="/documentation/changelogs/4.6.0">Changes introduced for Final release</a>
-<br />
-<br />
+<ul>
+  <li><a href="/download/changelogs/4.6.0">Changes introduced for Final release</a></li>
+</ul>
 
 <h2>Utility Library <em>(libxfce4util)</em>:</h2>
 <ul>

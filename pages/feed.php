@@ -1,11 +1,12 @@
 <?php
 
+/* if you want to update news: update the news-array.php file */
 include ('pages/news-array.php');
 
-function escape_content($str)
+function fixup ($str)
 {
-  $search = array ('<a href="/','<', '>', '"');
-  $replace = array ('<a href="http://www.xfce.org/', '&lt;', '&gt;','&quot;');
+  $search = array ('<a href="/');
+  $replace = array ('<a href="http://www.xfce.org/');
 
   return str_replace ($search, $replace, $str);
 }
@@ -22,33 +23,40 @@ echo '<?xml version="1.0" encoding="UTF-8"?>'.
      '<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" '.
      'xmlns:wfw="http://wellformedweb.org/CommentAPI/" '.
      'xmlns:dc="http://purl.org/dc/elements/1.1/" '.
+     'xmlns:atom="http://www.w3.org/2005/Atom" '.
      'version="2.0">'.
      '<channel>'.
        '<title>'.R_('Xfce News').'</title>'.
        '<description>'.R_('Xfce release announcements').'</description>'.
        '<link>http://www.xfce.org/about/news</link>'.
        '<copyright>Olivier Fourdan 1996 - '. date ('Y') .'</copyright>'.
-       '<language>". $lang ."</language>'.
-       '<generator>Xfce feed spawner</generator>';
+       '<language>'.$lang.'</language>'.
+       '<generator>Xfce feed spawner</generator>'.
+       '<atom:link href="http://www.xfce.org/feed?lang='.$lang.'" rel="self" type="application/rss+xml" />';
 
 foreach ($news as $item)
 {
     $stamp = strtotime ($item['date']);
+    
+    if (isset ($item['version']) && !empty ($item['version']))
+      $title = sprintf (R_('Xfce %s released'), $item['version']);
+    else
+      $title = $item['title'];
 
     echo '<item>'.
            '<title>'.$item['title'].'</title>'.
-           '<description>'. escape_content ($item['content'][0]) .'</description>'.
+           '<description><![CDATA['. fixup ($item['paragraph'][0]) .']]></description>'.
            '<content:encoded><![CDATA[';
 
-    foreach ($item['content'] as $p)
-            echo '<p>'.$p.'</p>';
+    foreach ($item['paragraph'] as $p)
+            echo '<p>'.fixup ($p).'</p>';
 
     echo   ']]></content:encoded>'.
-           '<link>http://www.xfce.org/about/news/?id='.$stamp.'</link>'.
+           '<link>http://www.xfce.org/about/news/?post='.$stamp.'</link>'.
            '<dc:creator>'. $item['author'] .'</dc:creator>'.
            '<pubDate>'. date ($format, $stamp) .'</pubDate>'.
            '<category>Xfce News</category>'.
-           '<guid isPermaLink="false">http://www.xfce.org/about/news/?id='.$stamp.'</guid>'.
+           '<guid isPermaLink="false">http://www.xfce.org/about/news/?post='.$stamp.'</guid>'.
          '</item>';
 
     if ($item_limit-- < 0)

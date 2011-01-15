@@ -64,6 +64,9 @@ else
 				<li><a href="/projects"><?php E_('Projects') ?></a></li>
 			</ul>
 		</div>
+<?php
+	if (count ($languages) > 1) {
+?>
 		<form id="languageform" action="" method="get">
 			<select name="lang" onchange="document.getElementById('languageform').submit(); return true;" title="<?php E_('Change language') ?>">
 <?php
@@ -81,6 +84,7 @@ else
 			</select>
 			<button type="submit" class="hidden"><?php E_('Change language') ?></button>
 		</form>
+<?php } ?>
 		<div class="clearboth"></div>
 	</div>
 
