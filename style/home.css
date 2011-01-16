@@ -1,4 +1,59 @@
 
-#footer {
+#page-contents, #footer {
 	margin-right: 0;
+}
+
+#intro {
+	background: #eee;
+	border: 1px solid #ccc;
+	margin: 2em auto;
+	width: 850px;
+}
+
+#intro-wrap {
+	float: right;
+	width: 380px;
+	margin: 10px;
+	background: #eee;
+}
+
+#intro-logo {
+	background: url('img/logointro.png') no-repeat;
+	width: 380px;
+	height: 65px;
+}
+
+#slideshow {
+	height: 300px;
+	margin-right: 400px;
+	width: 450px;
+}
+
+#slides {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+
+#tinybox {
+	position: absolute;
+	display: none;
+	padding: 0;
+	border: 10px solid #000;
+	z-index: 2000;
+}
+
+#tinymask {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	background: #000;
+	z-index: 1500;
+}
+
+#tinycontent {
+	background: #fff;
 }

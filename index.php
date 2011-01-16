@@ -52,7 +52,7 @@ if (str_has_prefix ($uri, 'download/changelogs/'))
 echo $contents;
 
 /* end with the footer */
-$footer['mtime'] = date ('Y/m/d G:i', filemtime ($content_file));
+$footer['mtime'] = date ('Y/m/d', filemtime ($content_file));
 include ('pages/footer.php');
 
 $timer_end = microtime_float ();
