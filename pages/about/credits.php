@@ -1,4 +1,9 @@
-<?php 
+<?php
+
+define ('ATSIGN', '@');
+define ('DOTSIGN', '.');
+
+include ('lib/translators.php');
 
 $head['title'] = R_('Credits');
 
@@ -11,18 +16,37 @@ $toc['anchors'] = array (
         'translators' => R_('Translators'),
         'previous' => R_('Previous contributors'));
 
-define ('ATSIGN', '@');
-
 function print_credits($people)
 {
         $last = end ($people);
         foreach ($people as $person => $mail)
         {
                 echo $person.' &lt;'.mungify_mail($mail).'&gt;';
-                
+
                 if ($mail != $last)
                         echo "<br />\n";
         }
+}
+
+function print_translator_credits()
+{
+  global $translators;
+
+  foreach ($translators as $language => $people)
+  {
+    echo "<h3>$language</h3>\n<blockquote>";
+
+    $last = end ($people);
+    foreach ($people as $person => $mail)
+    {
+      echo $person.' &lt;'.mungify_mail($mail).'&gt;';
+
+      if ($mail != $last)
+        echo ', ';
+    }
+
+    echo "</blockquote>\n";
+  }
 }
 ?>
 
@@ -85,6 +109,7 @@ function print_credits($people)
 ?>
 
 <h2 id="translators"><?php E_('Translators')?></h2>
+<?php   print_translator_credits(); ?>
 
 <h2 id="previous"><?php E_('Previous contributors')?></h2>
 <?php
