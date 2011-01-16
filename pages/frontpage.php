@@ -27,12 +27,25 @@ $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 
 </div>
 <div id="slideshow">
-  <ul id="slides">
+  <ul id="no-show-slides">
     <li><img src="images/frontpage/intro-1-small.jpg" id="intro1" alt="" /></li>
     <li><img src="images/frontpage/intro-2-small.jpg" id="intro2" alt="" /></li>
     <li><img src="images/frontpage/intro-3-small.jpg" id="intro3" alt="" /></li>
     <li><img src="images/frontpage/intro-4-small.jpg" id="intro4" alt="" /></li>
   </ul>
+
+  <script type="text/javascript">
+    // <![CDATA[
+      document.getElementById('no-show-slides').id = 'slides';
+    // ]]>
+  </script>
+
+  <noscript>
+    <ul id="slides">
+      <?php  $i = rand(1,4) ?>
+      <li><img src=<?php echo("\"images/frontpage/intro-" . $i . "-small.jpg\" id=\"intro" . $i . "\" alt=\"\"") ?> /></li>
+    </ul>
+  </noscript>
 </div>
 <div class="clearboth"></div>
 </div>
