@@ -1,31 +1,44 @@
 <?php $head['title'] = R_('Screenshots') ?>
 
+<?php
+function print_shots ($group, $count, $format = 'png')
+{
+  for ($i = 1; $i <= $count; $i++)
+  {
+    echo "<a href=\"/images/about/screenshots/$group-$i.$format\">".
+           "<img src=\"/images/about/screenshots/$group-$i-small.$format\" alt=\"\" width=\"200\" ".
+           "height=\"150\" hspace=\"2\" vspace=\"2\" border=\"0\" />".
+         "</a>";
+  }
+}
+?>
+
 <h1><?php echo $head['title'] ?></h1>
 <p>
   <?php E_('Some screenshots of Xfce, ordered by version.') ?>
 </p>
 
-<h2><?php E_('Xfce 4.8') ?></h2>
+<h2>Xfce 4.8</h2>
 <p>
-  <a href="/images/about/screenshots/4.8-1.png"><img src="/images/about/screenshots/4.8-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.8-2.png"><img src="/images/about/screenshots/4.8-2-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+  <?php print_shots ('4.8', 3); ?>
 </p>
 
-<h2><?php E_('Xfce 4.6') ?></h2>
+<h2>Xfce 4.6</h2>
 <p>
-  <a href="/images/about/screenshots/4.6-1.png"><img src="/images/about/screenshots/4.6-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-2.png"><img src="/images/about/screenshots/4.6-2-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-3.png"><img src="/images/about/screenshots/4.6-3-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-4.png"><img src="/images/about/screenshots/4.6-4-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-5.png"><img src="/images/about/screenshots/4.6-5-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-6.png"><img src="/images/about/screenshots/4.6-6-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.6-7.png"><img src="/images/about/screenshots/4.6-7-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+  <?php print_shots ('4.6', 7); ?>
 </p>
 
-<h2><?php E_('Xfce 4.4') ?></h2>
+<h2>Xfce 4.4</h2>
 <p>
-<a href="/images/about/screenshots/4.4-1.png"><img src="/images/about/screenshots/4.4-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.4-2.png"><img src="/images/about/screenshots/4.4-2-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.4-3.png"><img src="/images/about/screenshots/4.4-3-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.4-4.png"><img src="/images/about/screenshots/4.4-4-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.4-6.png"><img src="/images/about/screenshots/4.4-6-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.4-8.png"><img src="/images/about/screenshots/4.4-8-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+  <?php print_shots ('4.4', 6); ?>
 </p>
 
-<h2><?php E_('Xfce 4.2') ?></h2>
+<h2>Xfce 4.2</h2>
 <p>
-<a href="/images/about/screenshots/4.2-1.jpg"><img src="/images/about/screenshots/4.2-1-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.2-2.jpg"><img src="/images/about/screenshots/4.2-2-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.2-3.jpg"><img src="/images/about/screenshots/4.2-3-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.2-4.jpg"><img src="/images/about/screenshots/4.2-4-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.2-5.jpg"><img src="/images/about/screenshots/4.2-5-small.jpg" alt="" width="200" height="160" hspace="2" vspace="2" border="0" /></a>
+  <?php print_shots ('4.2', 5, 'jpg'); ?>
 </p>
 
-<h2><?php E_('Xfce 4.0') ?></h2>
+<h2>Xfce 4.0</h2>
 <p>
-  <a href="/images/about/screenshots/4.0-1.png"><img src="/images/about/screenshots/4.0-1-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a><a href="/images/about/screenshots/4.0-2.png"><img src="/images/about/screenshots/4.0-2-small.png" alt="" width="200" height="150" hspace="2" vspace="2" border="0" /></a>
+  <?php print_shots ('4.0', 2); ?>
 </p>
