@@ -10,6 +10,8 @@
 
     <p><?php E_("Thunar now has optional support for GVFS which will allow you to browse remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers...") ?></p>
 
+    <p class="image"><img src="/images/about/tour/4.8/thunar-remote.png" alt="<?php E_("Thunar browsing a remote share") ?>" /></p>
+
   <h3><?php E_("New file operations progress dialog") ?></h3>
 
     <p><?php E_("When several file operations (copy or move) are being handled in parallel, Thunar now shows a single progress dialog which displays all the relevant information.") ?></p>
@@ -34,6 +36,8 @@
 
     <p><?php E_("The panel is now able to draw transparent panel backgrounds with non transparent items. Your panel items will remain readable and you will enjoy a nice panel look.") ?></p>
 
+    <p class="image"><img src="/images/about/tour/4.8/panel-transparent.png" alt="<?php E_("Transparent panel background") ?>" /></p>
+
   <h3><?php E_("New item editor") ?></h3>
 
     <p><?php E_("The panel now features an item editor which allows to modify, move, add and remove items qucikly. This is particularly useful for items which are hard to right click and gives you an easy way to change your panel layout from a single place.") ?></p>
@@ -51,6 +55,8 @@
   <h3><?php E_("New fuzzy clock") ?></h3>
 
     <p><?php E_("An Xfce release without a new clock mode would not be a true Xfce release. Let us introduce you the 'fuzzy' clock mode!") ?></p>
+
+    <p class="image"><img src="/images/about/tour/4.8/panel-fuzzy-clock.png" alt="<?php E_("New fuzzy clock mode") ?>" /></p>
 
   <h3><?php E_("New directory menu plugin") ?></h3>
 
