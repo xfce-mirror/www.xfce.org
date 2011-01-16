@@ -13,7 +13,7 @@ var slideshow=new TINY.fader.fade('slideshow',
   id:'slides',
   auto:5,
   visible:true,
-  position:0,
+  position:Math.floor(Math.random()*4),
   resume:true
 });
 
