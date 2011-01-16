@@ -52,7 +52,7 @@ foreach ($news as $item)
 
   echo '</div>';
 
-  $toc['anchors'] += array ('post-'. $stamp => $item['title']);
+  //$toc['anchors'] += array ('post-'. $stamp => $item['title']);
   $has_items = true;
 }
 
