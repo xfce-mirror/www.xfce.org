@@ -1,6 +1,6 @@
 
 
-<h1>Xfce 4.6 Changelog</h1>
+<h1>Xfce 4.6.0 Changelog</h1>
 
 <ul>
   <li><a href="/download/changelogs/4.5.90">Changes introduced for the Alpha</a></li>
