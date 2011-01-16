@@ -1,31 +1,22 @@
 RewriteEngine On
 RewriteBase /
 
-# redirect to blog site
-Redirect 301 /blog/ http://blog.xfce.org/
+# permanent redirects to new locations
 Redirect 301 /blog http://blog.xfce.org/
-
 Redirect 301 /projects/ristretto http://goodies.xfce.org/projects/applications/ristretto
 Redirect 301 /projects/xfmedia http://spuriousinterrupt.org/projects/xfmedia
+Redirect 301 /documentation/changelogs http://www.xfce.org/download/changelogs
+Redirect 301 /documentation/requirements http://www.xfce.org/download/building
+Redirect 301 /documentation http://docs.xfce.org
+Redirect 301 /community/irc http://www.xfce.org/community
+Redirect 301 /community/lists http://www.xfce.org/community
+Redirect 301 /development http://www.xfce.org/getinvolved
+Redirect 301 /archive http://archive.xfce.org
 
 # redirect homepages to foo-projects.org/~user
-RewriteCond %{HTTP_HOST} !mocha.xfce.org
-RewriteCond %{HTTP_HOST} !mocha.foo-projects.org
 RewriteRule ^(~.*)$ http://foo-projects.org/$1 [R,L]
 
-# redirect stuff from the old site not in the CMS
-RewriteRule ^(gtkmenu-shadow|release_notes|various|xfce_42_info|xfwm4-theme-howto)(.*)$ /non-cms/$1$2 [L]
-
 # catch CMS-generated pages to index.php
-RewriteCond %{REQUEST_URI} !/archive/
-RewriteCond %{REQUEST_URI} !/documentation/4.[24]/api
-RewriteCond %{REQUEST_URI] !/documentation/installers
-RewriteCond %{REQUEST_URI} !/non-cms/
-RewriteCond %{REQUEST_URI} !/downloads/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}/index.html !-f
 RewriteRule ^(.*)$ index.php
-
-# API Dedirect Rules
-RedirectMatch documentation/4.2/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
-RedirectMatch documentation/api/(atk|gdk-pixbuf|gobject|gdk|glib|gtk|pango)/(.*)$ http://developer.gnome.org/doc/API/2.0/$1/$2
