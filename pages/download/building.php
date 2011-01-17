@@ -144,15 +144,15 @@ $toc['anchors'] = array (
     <td>glib</td>
     <td>&nbsp;</td>
   </tr>
-  <tr>
-    <td>libxfce4ui</td>
-    <td>libxfce4util, gtk+</td>
-    <td>xfconf, libstartup-notification, libgladeui</td>
-  </tr>
    <tr>
     <td>xfconf</td>
     <td>libxfce4util, dbus-glib</td>
     <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>libxfce4ui</td>
+    <td>libxfce4util, gtk+, xfconf</td>
+    <td>libstartup-notification, libgladeui</td>
   </tr>
   <tr>
     <td>libxfcegui4</td>
