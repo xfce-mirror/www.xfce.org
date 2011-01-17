@@ -109,7 +109,7 @@ $toc['anchors'] = array (
 
 <h3><?php E_('Xfce\'s dependency chain') ?></h3>
 <p>
-  <?php E_('The Xfce packages need to be build in a specific order. If you don\'t follow this compile options might not be available or the configure stage will abort because of missing dependencies.') ?>
+  <?php E_('The Xfce packages need to be built in a specific order. If you don\'t follow this, compile options might not be available or the configure stage will abort because of missing dependencies.') ?>
 </p>
 
 <ul>
