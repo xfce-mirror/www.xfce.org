@@ -19,7 +19,7 @@ $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 </p>
 
 <ul>
-  <li><a href="/download"><?php printf (R_('Download the lastest %s release'), $stable_version) ?></a></li>
+  <li><a href="/download"><?php printf (R_('Download the latest %s release'), $stable_version) ?></a></li>
   <li><a href="/download/changelogs/4.8.0"><?php printf (R_('Release notes for %s'), $stable_version) ?></a></li>
   <li><a href="/about/tour"><?php E_('Visual tour of Xfce 4.8') ?></a></li>
   <li><a href="/about/screenshots"><?php E_('Screenshots') ?></a></li>
