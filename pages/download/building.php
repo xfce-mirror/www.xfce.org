@@ -186,7 +186,7 @@ $toc['anchors'] = array (
   </tr>
   <tr>
     <td>xfwm4</td>
-    <td>libxfce4util, libxfcegui4, libxfconf, dbus-glib, libwnck</td>
+    <td>libxfce4util, libxfce4ui, libxfconf, dbus-glib, libwnck</td>
     <td>libstartup-notification</td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@ $toc['anchors'] = array (
 </table>
 
 <h2 id="building"><?php E_('Building') ?></h2>
-<h3><?php E_('Insallation location and variables')?></h3>
+<h3><?php E_('Installation location and variables')?></h3>
 <p>
   <?php E_('Now it is finally time to start compiling the Xfce desktop. Last remaining thing is to choose an installation location. Possible examples are <em>/usr</em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide installation or <em>$HOME/local</em> if you want to install in your home directory (whatever you choose, never put spaces in the name). We will referrer to this location as <em>${PREFIX}</em> in the code examples below!') ?>
 </p>
