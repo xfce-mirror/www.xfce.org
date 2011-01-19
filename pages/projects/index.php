@@ -78,7 +78,7 @@ $toc['anchors'] = array (
   </div>
 
   <div class="module">
-    <h3><a href="/projects/xfconf"><?php E_('Xfconf') ?></a></h3>
+    <h3><a href="/projects/xfconf">Xfconf</a></h3>
     <p style="background-image: url('/images/projects/library.png')">
       <?php E_('Simple client-server configuration storage and query system.') ?>
     </p>

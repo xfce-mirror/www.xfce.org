@@ -33,20 +33,20 @@ $toc['anchors'] = array (
 <h2><?php E_('Core Components') ?></h2>
 
 <ul>
-  <li><?php E_('exo') ?></li>
-  <li><?php E_('gtk-xfce-engine') ?></li>
-  <li><?php E_('libxfce4ui') ?></li>
-  <li><?php E_('libxfce4util') ?></li>
-  <li><?php E_('thunar-vfs') ?></li>
-  <li><?php E_('thunar') ?></li>
-  <li><?php E_('xfce-utils') ?></li>
-  <li><?php E_('xfce4-appfinder') ?></li>
-  <li><?php E_('xfce4-panel') ?></li>
-  <li><?php E_('xfce4-session') ?></li>
-  <li><?php E_('xfce4-settings') ?></li>
-  <li><?php E_('xfconf') ?></li>
-  <li><?php E_('xfdesktop') ?></li>
-  <li><?php E_('xfwm4') ?></li>
+  <li>exo</li>
+  <li>gtk-xfce-engine</li>
+  <li>libxfce4ui</li>
+  <li>libxfce4util</li>
+  <li>thunar-vfs</li>
+  <li>thunar</li>
+  <li>xfce-utils</li>
+  <li>xfce4-appfinder</li>
+  <li>xfce4-panel</li>
+  <li>xfce4-session</li>
+  <li>xfce4-settings</li>
+  <li>xfconf</li>
+  <li>xfdesktop</li>
+  <li>xfwm4</li>
 </ul>
 
 <p>
@@ -56,9 +56,9 @@ $toc['anchors'] = array (
 <h2><?php E_('Essential Dependencies') ?></h2>
 
 <ul>
-  <li><?php E_('GTK+') ?></li>
-  <li><?php E_('GLib') ?></li>
-  <li><?php E_('garcon') ?></li>
+  <li>GTK+</li>
+  <li>GLib</li>
+  <li>garcon</li>
 </ul>
 
 <h1 id="cycle"><?php E_('The Release Cycle') ?></h1>

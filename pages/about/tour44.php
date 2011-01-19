@@ -25,7 +25,7 @@
 </p>
 
 
-<h2><?php E_('File Manager</a>') ?></h2>
+<h2><?php E_('File Manager') ?></h2>
 
 <p>
   <?php E_('The desktop icon support goes hand in hand with the new file manager <a href="http://thunar.xfce.org/">Thunar</a> which replaces the previous file manager <b>Xffm</b>.') ?>
@@ -65,11 +65,10 @@
 <p class="image"><img src="/images/about/tour/4.4/mousepad.png" alt="MousePad" /></p>
 
 <p>
-  <?php E_('
-You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on Windows. It starts up very fast, usually in less than one second, even on older systems.') ?>
+  <?php E_('You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on Windows. It starts up very fast, usually in less than one second, even on older systems.') ?>
 </p>
 
-<h2><?php E_('Window Manager<a name="window-manager"></a>') ?></h2>
+<h2><?php E_('Window Manager') ?></h2>
 
 <p>
   <?php E_('<b>Xfwm4</b> continues to be the window manager of the hearts.') ?>
@@ -109,8 +108,7 @@ You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on Windows.
 <p class="image"><img src="/images/about/tour/4.4/panel-manager.png" alt="Panel Manager" /></p>
 
 <p>
-  <?php E_('
-One of the major problems in previous Xfce releases was that every plugin had to be run in the same process as the panel, and hence every plugin was able to crash the whole panel. To address this issue, support for external plugins was added to the panel.') ?>
+  <?php E_('One of the major problems in previous Xfce releases was that every plugin had to be run in the same process as the panel, and hence every plugin was able to crash the whole panel. To address this issue, support for external plugins was added to the panel.') ?>
 </p>
 
 <p class="image"><img src="/images/about/tour/4.4/panel-additem.png" alt="Panel Add Item Dialog" /></p>
@@ -122,8 +120,7 @@ One of the major problems in previous Xfce releases was that every plugin had to
 <p class="image"><img src="/images/about/tour/4.4/panel-iconbox.png" alt="Panel Icon Box Plugin" /></p>
 
 <p>
-  <?php E_('
-Since there is now support for multiple panels, the separate <b>Xftaskbar4</b> and <b>Xfce4-iconbox</b> utilities are no longer required. Instead, both the taskbar and the iconbox are available as panel plugins now.') ?>
+  <?php E_('Since there is now support for multiple panels, the separate <b>Xftaskbar4</b> and <b>Xfce4-iconbox</b> utilities are no longer required. Instead, both the taskbar and the iconbox are available as panel plugins now.') ?>
 </p>
 
 <p>
@@ -153,12 +150,11 @@ Since there is now support for multiple panels, the separate <b>Xftaskbar4</b> a
 <p class="image"><img src="/images/about/tour/4.4/terminal.png" alt="Terminal" /></p>
 
 <p>
-  <?php E_('Besides the basic features which you might expect from a terminal emulator, it includes some nice additional features, like multiple tabs per window, customizable toolbars and the ability to configure nearly every aspect of the application via <i>hidden options</i>. As can be seen in the screenshot above, this release also supports real transparency using <b>Xfwm4</b>\'s
-integrated composition manager.') ?>
+  <?php E_('Besides the basic features which you might expect from a terminal emulator, it includes some nice additional features, like multiple tabs per window, customizable toolbars and the ability to configure nearly every aspect of the application via <i>hidden options</i>. As can be seen in the screenshot above, this release also supports real transparency using <b>Xfwm4</b>\'s integrated composition manager.') ?>
 </p>
 
 
-<h2><?php E_('Printing<a name="printing"></a>') ?></h2>
+<h2><?php E_('Printing') ?></h2>
 
 <p>
   <?php E_('<b>Xfprint</b>, the Xfce printing management application, saw several small improvements with this release. First, the <tt>a2ps</tt> converter is not mandatory anymore, whilst still recommended. Support for <tt>CUPS</tt> 1.2 was added and <b>Xfprint</b> is now able to display the printer state with the <tt>CUPS</tt>-backend.') ?>
