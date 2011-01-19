@@ -18,7 +18,8 @@ do
   
   # Merge po file with latest pot file
   res=0
-  msgmerge -N -q --lang $lang -o $tmpfile $f $pofiles/www.pot &> /dev/null && res=1
+  # TODO: add "--lang $lang" again when earlgrey runs squeeze
+  msgmerge -N -q -o $tmpfile $f $pofiles/www.pot &> /dev/null && res=1
   if test $res -eq 0; then
     echo "msgmerge failed for $file"
     continue
