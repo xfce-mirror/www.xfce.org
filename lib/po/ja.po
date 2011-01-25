@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: http://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-01-22 16:07+0100\n"
-"PO-Revision-Date: 2011-01-23 01:57+0900\n"
+"PO-Revision-Date: 2011-01-25 16:16+0900\n"
 "Last-Translator: Masato HASHIMOTO <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1041,53 +1041,61 @@ msgstr ""
 
 #: about/releasemodel.php:6 about/releasemodel.php:31
 msgid "The Xfce Core Desktop"
-msgstr ""
+msgstr "Xfce コアデスクトップ"
 
 #: about/releasemodel.php:7 about/releasemodel.php:64
 msgid "The Release Cycle"
-msgstr ""
+msgstr "リリースサイクル"
 
 #: about/releasemodel.php:14
 msgid ""
 "In the past the same questions and discussions have come up over and over "
 "again whenever a new release was in sight, like:"
 msgstr ""
+"過去、新しいリリースが発表されるたびに、いつも以下のような事柄が繰り返し尋ね"
+"られ、議論されてきました:"
 
 #: about/releasemodel.php:18
 msgid "What are the core components of Xfce?"
-msgstr ""
+msgstr "Xfce コアコンポーネントとは何か?"
 
 #: about/releasemodel.php:19
 msgid ""
 "How often do we want to release and in what fashion (time-based, feature-"
 "based)?"
 msgstr ""
+"どのくらいの間隔で、どういうやり方でリリースするのか (時間ベース、機能ベー"
+"ス)?"
 
 #: about/releasemodel.php:20
 msgid "Who's in charge of the release process?"
-msgstr ""
+msgstr "誰がリリースプロセスを担当しているのか?"
 
 #: about/releasemodel.php:21
 msgid "What dependency versions do we depend on?"
-msgstr ""
+msgstr "依存関係のバージョンは何か?"
 
 #: about/releasemodel.php:22
 msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
 msgstr ""
+"フィーチャーフリーズ、ストリングフリーズ、コードフリーズ、その他そのたぐいの"
+"ものはいつなのか?"
 
 #: about/releasemodel.php:23
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr ""
+msgstr "プレリリースは何度行うのか、そしてそれらをなんと呼ぶべきか?"
 
 #: about/releasemodel.php:24
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr ""
+msgstr "Git における SVN リビジョンバージョニングの代替は何を使用するのか?"
 
 #: about/releasemodel.php:28
 msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
 msgstr ""
+"この文書はこれらの問いに対する回答となることを意図し、リリースを計画するとき"
+"に基準となる方針を定めることを目指しています。"
 
 #: about/releasemodel.php:33 projects/index.php:7 projects/index.php:16
 msgid "Core Components"
@@ -1098,10 +1106,12 @@ msgid ""
 "All core components of the Xfce desktop must adhere to the release policy "
 "defined in this document."
 msgstr ""
+"Xfce デスクトップのすべてのコアコンポーネントは、この文書で定められたリリース"
+"方針を遵守しなければならない。"
 
 #: about/releasemodel.php:56
 msgid "Essential Dependencies"
-msgstr ""
+msgstr "必須の依存関係"
 
 #: about/releasemodel.php:67
 msgid ""
@@ -1112,6 +1122,11 @@ msgid ""
 "phase, bugfix releases and security fixes will be released for the stable "
 "version of Xfce."
 msgstr ""
+"リリースサイクルは、短期計画フェイズ、開発版リリースを伴う開発フェイズ、およ"
+"びリリースフェイズからなり、最終的に Xfce コアデスクトップの新規安定版リリー"
+"スに至る。これらに並行して、現在の安定版リリースのメンテナンスも継続する。ま"
+"た、この期間中にXfce の安定版バージョンにおけるバグフィックスやセキュリティ"
+"フィックスのリリースも必要に応じて行わる。"
 
 #: about/releasemodel.php:71
 msgid ""
@@ -1119,14 +1134,16 @@ msgid ""
 "maintenance process for Xfce 4.8 with three components: Thunar, exo and "
 "xfwm4."
 msgstr ""
+"以下に Xfce 4.8 の 3 つのコンポーネント (Thunar、exo、xfwm4) のリリースサイク"
+"ルおよびメンテナンスプロセスのスケジュールの例図を示す。"
 
 #: about/releasemodel.php:76
 msgid "Example Release Cycle"
-msgstr ""
+msgstr "リリースサイクルの例"
 
 #: about/releasemodel.php:80
 msgid "Planning Phase (2(+2) Weeks)"
-msgstr ""
+msgstr "計画フェイズ (2(+2) 週間)"
 
 #: about/releasemodel.php:83
 msgid ""
@@ -1135,10 +1152,13 @@ msgid ""
 "(first 2 weeks). It eventually leads to the dependency freeze (after 4 "
 "weeks)."
 msgstr ""
+"このフェイズでは、リリースサイクルの開始、使用する依存関係の決定、およびこの"
+"サイクルのリリースチームの指名を行う (最初の 2 週間)。その後に依存関係のフ"
+"リーズが行われる (後の 4 週間)。"
 
 #: about/releasemodel.php:86
 msgid "Appointing the Release Team"
-msgstr ""
+msgstr "リリースチームの指名"
 
 #: about/releasemodel.php:89
 msgid ""
@@ -1149,10 +1169,14 @@ msgid ""
 "at the very end of the cycle. This is explained in more detail in the "
 "Release Team section of this document."
 msgstr ""
+"計画フェイズの初めに、リリースチームの投票を公式または非公式に行う。リリース"
+"チームは開発を監督し、そのリリースサイクルの間リリースのメンテナンスを行う。"
+"その主な目的は、リリースフェイズの最後の最後に Xfce コアデスクトップリリース"
+"をダブルチェックしリリースを実施することである。"
 
 #: about/releasemodel.php:92
 msgid "Release Team"
-msgstr ""
+msgstr "リリースチーム"
 
 #: about/releasemodel.php:95
 msgid ""
@@ -1163,132 +1187,137 @@ msgid ""
 "release notes are up to date and so on). This is defined in more detail "
 "below."
 msgstr ""
+"リリースチームは少なくとも 2 人以上で構成される。一人はリリースマネージャで、"
+"周囲の協力を得ながら実際にリリースを実施 (タグ付け、tarball の作成、リリース"
+"ノートおよびアナウンスの執筆) する。もう一人は品質保証を担当し、すべてのコン"
+"ポーネントのコンパイルが正しく行えるか、タグ付けの場所は正しいか、リリース"
+"ノートが最新かどうか、などをチェックする。それら詳細を以下に示す。"
 
 #: about/releasemodel.php:99
 msgid "These are the release team roles and their responsibilities:"
-msgstr ""
+msgstr "リリースチームの役割と責務を以下に示す:"
 
 #: about/releasemodel.php:102
 msgid "Release Manager"
-msgstr ""
+msgstr "リリースマネージャ"
 
 #: about/releasemodel.php:105
 msgid "Organization of the release cycle"
-msgstr ""
+msgstr "リリースサイクルの編成"
 
 #: about/releasemodel.php:106
 msgid ""
 "Announce deadlines to developers and translators (repeatedly and early "
 "enough)"
-msgstr ""
+msgstr "最終期限の開発者および翻訳者への通知 (繰り返し、そして十分に早く)"
 
 #: about/releasemodel.php:107
 msgid "Overseeing of maintainance and development releases"
-msgstr ""
+msgstr "開発とメンテナンスの監督"
 
 #: about/releasemodel.php:108
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr ""
+msgstr "Xfce-X.Ypre1、Xfce-X.Y.pre2、Xfce-X.Y.pre3、および Xfce-X.Y のタグ付け"
 
 #: about/releasemodel.php:109
 msgid "Generate tarballs from tags (possibly automated)"
-msgstr ""
+msgstr "タグから tarball の作成 (おそらく自動処理)"
 
 #: about/releasemodel.php:110
 msgid "Write release notes"
-msgstr ""
+msgstr "リリースノートの執筆"
 
 #: about/releasemodel.php:111
 msgid "Write release announcements"
-msgstr ""
+msgstr "リリースアナウンスの執筆"
 
 #: about/releasemodel.php:112
 msgid "Create Bugzilla tags"
-msgstr ""
+msgstr "Bugzilla タグの作成"
 
 #: about/releasemodel.php:113
 msgid "Approve fixes of blocker bugs during code freeze"
-msgstr ""
+msgstr "コードフリーズ中のブロッカーバグの修正の承認"
 
 #: about/releasemodel.php:116
 msgid "Release Assistant(s)"
-msgstr ""
+msgstr "リリースアシスタント"
 
 #: about/releasemodel.php:119
 msgid "Update the website(s)"
-msgstr ""
+msgstr "ウェブサイトの更新"
 
 #: about/releasemodel.php:120
 msgid "Help the release manager with his tasks"
-msgstr ""
+msgstr "リリースマネージャの支援"
 
 #: about/releasemodel.php:123
 msgid "QA Official"
-msgstr ""
+msgstr "QA 担当"
 
 #: about/releasemodel.php:126
 msgid "Have an eye on libtool versions of maintanance and development releases"
-msgstr ""
+msgstr "libtool のバージョンおよび開発版リリースの監視"
 
 #: about/releasemodel.php:127
 msgid "Remind maintainers about missing NEWS updates"
-msgstr ""
+msgstr "メンテナへの NEWS 更新の督促"
 
 #: about/releasemodel.php:128
 msgid "Double-check the generated tarballs"
-msgstr ""
+msgstr "作成された tarball のダブルチェック"
 
 #: about/releasemodel.php:129
 msgid "Proof-read release announcements"
-msgstr ""
+msgstr "リリースアナウンスの校正"
 
 #: about/releasemodel.php:132
 msgid "Individual Maintainers"
-msgstr ""
+msgstr "個々のメンテナ"
 
 #: about/releasemodel.php:135
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
-msgstr ""
+msgstr "メンテナンス用および開発用コンポーネント個別タグの作成"
 
 #: about/releasemodel.php:136
 msgid "Generate tarballs for their maintainance and development releases"
-msgstr ""
+msgstr "メンテナンスおよび開発版リリース用 tarball の作成"
 
 #: about/releasemodel.php:137
 msgid "Write ChangeLogs and update NEWS files"
-msgstr ""
+msgstr "ChangeLog および NEWS ファイルの執筆"
 
 #: about/releasemodel.php:138
 msgid "Write component-specific release announcements"
-msgstr ""
+msgstr "コンポーネント個別リリースのアナウンス"
 
 #: about/releasemodel.php:139
 msgid "Create Bugzilla tags for their releases"
-msgstr ""
+msgstr "各リリース用 Bugzilla タグの作成"
 
 #: about/releasemodel.php:140
 msgid "Make sure API documentation is up to date"
-msgstr ""
+msgstr "API ドキュメント更新の確認"
 
 #: about/releasemodel.php:143
 msgid "Dependency Freeze"
-msgstr ""
+msgstr "依存関係フリーズ"
 
 #: about/releasemodel.php:146
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
-msgstr ""
+msgstr "開発フェイズの最初の 2 週間の間に各メンテナは以下を要求される:"
 
 #: about/releasemodel.php:150
 msgid "List the features he wants to implement in the release cycle"
-msgstr ""
+msgstr "このリリースサイクルで実装したい機能のリスト"
 
 #: about/releasemodel.php:151
 msgid "Investigate which dependencies are implied by that"
-msgstr ""
+msgstr "そのための依存関係の調査"
 
 #: about/releasemodel.php:155
 msgid ""
@@ -1297,6 +1326,9 @@ msgid ""
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
 msgstr ""
+"この最後に、次の Xfce コアデスクトップ安定版リリースの依存関係が決定される。"
+"特に、Xfce コアデスクトップに必須のすべての依存関係の最小バージョンも含まれ"
+"る。"
 
 #: about/releasemodel.php:159
 msgid ""
@@ -1304,6 +1336,8 @@ msgid ""
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
 msgstr ""
+"計画フェイズの最初の 2 週間に作業できなかったメンテナは、その後の 2 週間に依"
+"存関係の変更を要請する機会が与えられる。"
 
 #: about/releasemodel.php:163
 msgid ""
@@ -1311,10 +1345,13 @@ msgid ""
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
 msgstr ""
+"これら4週間の最後にすべてのコンポーネントの依存関係は凍結され、以降、依存する"
+"パッケージおよびそのバージョンは変更できない。ただし、任意の依存関係の追加は"
+"認められる。"
 
 #: about/releasemodel.php:166
 msgid "Informing the Community"
-msgstr ""
+msgstr "コミュニティへの通知"
 
 #: about/releasemodel.php:169
 msgid ""
@@ -1322,20 +1359,25 @@ msgid ""
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
 msgstr ""
+"計画フェイズの最後の最後に、すべての Xfce コアコンポーネントにおける新しい機"
+"能と依存関係の計画をメーリングリスト xfce4-dev@xfce.org および xfce@xfce.org "
+"へ投稿する。"
 
 #: about/releasemodel.php:172
 msgid "Development Phase (5 Months)"
-msgstr ""
+msgstr "開発フェイズ (5 ヶ月)"
 
 #: about/releasemodel.php:175
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
 msgstr ""
+"開発フェイズの間、各メンテナは各自で担当コンポーネントのメンテナンスおよび開"
+"発版リリースを行える。"
 
 #: about/releasemodel.php:178
 msgid "Development Releases"
-msgstr ""
+msgstr "開発版リリース"
 
 #: about/releasemodel.php:181
 msgid ""
@@ -1343,6 +1385,9 @@ msgid ""
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
+"開発版リリーズは通常次の安定版リリースのための機能プレビューとして提供する。"
+"それらのバージョンナンバーのフォーマットは X.Y.Z 表記でなければならず、Y は奇"
+"数でなければならない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
 
 #: about/releasemodel.php:185
 msgid ""
@@ -1353,6 +1398,12 @@ msgid ""
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
 msgstr ""
+"メンテナは新しい機能が一般に利用できるよう開発版リリースを公開することが奨励"
+"される。数多くの開発版リリースは、過去に行っていた SVN リビジョンバージョニン"
+"グの置換えとなることができる。コンポーネント A がコンポーネント B の新機能に"
+"依存する場合、A を公開するには、A が依存する機能を提供する B の開発版リリース"
+"が公開されていなければならないことになる。この作業のため、libtool のバージョ"
+"ンは各開発版リリースごとに正しく更新されなければならない。"
 
 #: about/releasemodel.php:189
 msgid ""
@@ -1363,6 +1414,11 @@ msgid ""
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
 msgstr ""
+"各コンポーネントの master ブランチには注意を払わなければならない。master ブラ"
+"ンチは常にリリース準備ができている状態でなければならない。新機能の開発はその"
+"準備ができる (コンパイルできる、その機能の master ブランチへのマージ後もコン"
+"ポーネントが動作する、など) まで、そして Xfce コアデスクトップ全体の最終リ"
+"リース遅延のリスクを低減するために、開発用ブランチで行うべきである。"
 
 #: about/releasemodel.php:193
 msgid ""
@@ -1371,40 +1427,45 @@ msgid ""
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
 msgstr ""
+"既存の API や他のコンポーネントに影響を与える新機能は事前に調整しなければなら"
+"ない。メンテナはその機能を新しい開発版リリースにマージする前に、その機能のた"
+"めの関係コンポーネント別のブランチに用意するよう提案される。このように、他の"
+"コンポーネントはリリース準備状態を維持する。"
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "以下は、基本的な開発作業の流れです:"
 
 #: about/releasemodel.php:202
 msgid "Development Workflow"
-msgstr ""
+msgstr "開発作業の流れ"
 
 #: about/releasemodel.php:206
 msgid "Release Phase (10+ Weeks)"
-msgstr ""
+msgstr "リリースフェイズ (10 週以上)"
 
 #: about/releasemodel.php:209
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
 msgstr ""
+"リリーズフェイズの間、3 つのプレリリースと 1 つの最終リリースが公開される:"
 
 #: about/releasemodel.php:213
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr ""
+msgstr "Xfce X.Ypre1 (0 週間後、フィーチャーフリーズ)"
 
 #: about/releasemodel.php:214
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr ""
+msgstr "Xfce X.Ypre2 (4 週間後、ストリングフリーズ)"
 
 #: about/releasemodel.php:215
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr ""
+msgstr "Xfce X.Ypre3 (8 週間後、コードフリーズ)"
 
 #: about/releasemodel.php:216
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr ""
+msgstr "Xfce X.Y     (第 10 週以降)"
 
 #: about/releasemodel.php:220
 msgid ""
@@ -1415,6 +1476,10 @@ msgid ""
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
 msgstr ""
+"Y は偶数となる。これら各リリースに含まれるすべてのコアコンポーネントは、最新"
+"の開発版あるいは安定版リリースでなければならない。これらコンポーネントのバー"
+"ジョンナンバーは上記命名方式と一致しない場合がある。例えば、Xfce 4.8.0pre2 な"
+"ら、xfwm4 はバージョン 4.7.17 であったり、Thuhar は 1.1.9 になったりする。"
 
 #: about/releasemodel.php:224
 msgid ""
@@ -1423,24 +1488,30 @@ msgid ""
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
 msgstr ""
+"これは、メンテナはプレリリースに合わせて担当コンポーネントの新バージョンを公"
+"開する必要はないことを意味する。リリースチームは、プレリリースおよび最終リ"
+"リースに際し、各コンポーネントの提供可能な最新の開発版あるいは安定版リリース"
+"を使用する。"
 
 #: about/releasemodel.php:228
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
 msgstr ""
+"このフェイズの最後に、Xfce コアデスクトップの新しい安定版リリースとともに新し"
+"いリリースサイクルの開始をマークする。"
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "リリース前のフリーズ"
 
 #: about/releasemodel.php:234
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "リリース前に、様々なタイプのフリーズが行われる。"
 
 #: about/releasemodel.php:237
 msgid "Feature Freeze"
-msgstr ""
+msgstr "フィーチャーフリーズ"
 
 #: about/releasemodel.php:240
 msgid ""
@@ -1448,10 +1519,12 @@ msgid ""
 "there on only translations and bugfixes are allowed to go into the master "
 "branch."
 msgstr ""
+"Xfce X.Ypre1 では、すべてのコアコンポーネントはフィーチャーフリーズに入る。こ"
+"れ以降、master ブランチに対しては、翻訳の更新とバグの修正のみが許可される。"
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "ストリング/UI フリーズ"
 
 #: about/releasemodel.php:246
 msgid ""
@@ -1459,10 +1532,13 @@ msgid ""
 "from there on no strings which affect translations may be changed. Same goes "
 "for the user interface which may not be changed after this point."
 msgstr ""
+"Xfce X.Ypre2 では、すべてのコンポーネントはストリング/UI フリーズに入る。これ"
+"以降、翻訳に影響を与える文字列の変更は行えない。同様にユーザインターフェイス"
+"もこれ以降変更は行われない。"
 
 #: about/releasemodel.php:249
 msgid "Code Freeze"
-msgstr ""
+msgstr "コードフリーズ"
 
 #: about/releasemodel.php:252
 msgid ""
@@ -1470,6 +1546,8 @@ msgid ""
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
+"各プレリリース直前の 2 間はコードフリーズとなる。この期間中、リリースマネー"
+"ジャに承認された場合を除き、コミットは送られない。"
 
 #: about/releasemodel.php:256
 msgid ""
@@ -1478,10 +1556,14 @@ msgid ""
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
 msgstr ""
+"Xfce X.Ypre3 では、すべてのコンポーネントはコードフリーズに入る。これ以降、リ"
+"リースマネージャに承認された場合を除き、コードの変更は許されない。それは通常"
+"ブロッキングあるいはリリースクリティカルバグの修正に限られる。翻訳の更新は引"
+"き続き許可される。"
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "コードフリーズフェイズ (2週間以上)"
 
 #: about/releasemodel.php:262
 msgid ""
@@ -1489,6 +1571,8 @@ msgid ""
 "illustrated in the following figure and is explained in more detail in this "
 "section."
 msgstr ""
+"Xfce X.Ypre3 では、すべてのコンポーネントはコードフリーズに入る。このフェイズ"
+"の詳細について説明する。"
 
 #: about/releasemodel.php:266
 msgid ""
@@ -1496,14 +1580,16 @@ msgid ""
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
 msgstr ""
+"コードフリーズおよび例外はコミットフックによってサポートされる。更新フックは"
+"リリースマネージャの承認がない限り、あらゆる変更を許可しない。"
 
 #: about/releasemodel.php:271
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "タグ付けとブランチの作成"
 
 #: about/releasemodel.php:275
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "バグ修正/変更"
 
 #: about/releasemodel.php:278
 msgid ""
@@ -1513,6 +1599,10 @@ msgid ""
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
 msgstr ""
+"コードフリーズ中にコアコンポーネントの修正あるいは変更が必要になった場合、メ"
+"ンテナは ELS (//NAME OPEN FOR DISCUSSION//) と呼ばれるブランチを新しく作成"
+"し、そこに修正をコミットする。リリースクリティカルな変更あるいはブロッキング"
+"バクの修正がある場合は、コードフリーズ例外のセクションを参照。"
 
 #: about/releasemodel.php:282
 msgid ""
@@ -1520,56 +1610,65 @@ msgid ""
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
 "after the final release. Only bugfixes are allowed in this branch."
 msgstr ""
+"ELS ブランチは短期間のみ存在し、最終リリース後に master およびコンポーネント"
+"の安定版ブランチ (例: xfwm4-4.8 や thunar-1.2) にマージされる。"
 
 #: about/releasemodel.php:285
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "コードフリーズ例外"
 
 #: about/releasemodel.php:287
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "ブロッキングバグ"
 
 #: about/releasemodel.php:290
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
 msgstr ""
+"以下の問題を含むバグが存在する場合、ブロッカーとして最終リリースを延期する場"
+"合がある:"
 
 #: about/releasemodel.php:294
 msgid "it crashes a core application"
-msgstr ""
+msgstr "コアアプリケーションがクラッシュする"
 
 #: about/releasemodel.php:295
 msgid "it causes data loss"
-msgstr ""
+msgstr "データ損失が発生する"
 
 #: about/releasemodel.php:296
 msgid "it causes an ever-growing memory leak"
-msgstr ""
+msgstr "メモリリークが増え続ける"
 
 #: about/releasemodel.php:297
 msgid "it locks the entire desktop GUI"
-msgstr ""
+msgstr "デスクトップ GUI 全体をロックする"
 
 #: about/releasemodel.php:301
 msgid "A bug may not delay a release if it meets the following criteria:"
 msgstr ""
+"以下の基準を満たす場合は、そのバグによるリリース延期を行わない場合がある:"
 
 #: about/releasemodel.php:305
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
 msgstr ""
+"バグの発生するハードウェアあるいはアーキテクチャが特殊な場合、および/または、"
+"そのバグが開発者側で再現できない場合"
 
 #: about/releasemodel.php:309
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
 msgstr ""
+"これらのバグに対する修正は、コードフリーズ期間中であっても、リリースマネー"
+"ジャの承認があった場合のみ適用が許される。"
 
 #: about/releasemodel.php:312
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "リリースクリティカルな変更"
 
 #: about/releasemodel.php:315
 msgid ""
@@ -1577,10 +1676,12 @@ msgid ""
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
 msgstr ""
+"リリースの品質に関して大きな懸念が生じる可能性のある変更については、リリース"
+"マネージャの承認があった場合のみ適用が許される。"
 
 #: about/releasemodel.php:318
 msgid "Releasing"
-msgstr ""
+msgstr "リリース"
 
 #: about/releasemodel.php:321
 msgid ""
@@ -1590,10 +1691,15 @@ msgid ""
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
 msgstr ""
+"最終リリース (Xfce X.Y) では、すべてのコアコンポーネントはメンテナンスサイク"
+"ルのためにタグ付け (自身のバージョンと Xfce-X.Y.0 の二つ) およびブランチ作成 "
+"(例: thunar-1.2 や xfwm4-4.8 など) が行われる。この後、ELS ブランチは master "
+"(次のバージョンのための開発ブランチ) および、thunar-1.2 や xfwm4-4.8 などのブ"
+"ランチにマージされる。"
 
 #: about/releasemodel.php:324
 msgid "Maintenance Process"
-msgstr ""
+msgstr "メンテナンスプロセス"
 
 #: about/releasemodel.php:327
 msgid ""
@@ -1602,10 +1708,13 @@ msgid ""
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
 msgstr ""
+"最終バージョンのリリース後、バグ修正および翻訳の更新があればコンポーネントご"
+"との安定版ブランチ (thunar-1.2 や xfwm4-4.8 など) にコミットされる。コンポー"
+"ネント個別のメンテナンスリリースは同期をとる必要はない。"
 
 #: about/releasemodel.php:330
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "メンテナンスリリース"
 
 #: about/releasemodel.php:333
 msgid ""
@@ -1615,6 +1724,10 @@ msgid ""
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
 msgstr ""
+"メンテナンスリリースでは、対応する Xfce コアデスクトップの最終リリースと比較"
+"して API/ABI の変更はない場合がある。また、バージョン表記は X.Y.Z 形式に、Yは"
+"偶数でなければならない (例: xfwm4-4.8.4、thunar-1.2.4 など)。これらのリリース"
+"では新しい機能や文字列の追加は行われない場合がある。"
 
 #: about/releasemodel.php:337 projects/xfce-utils.php:9 projects/exo.php:9
 #: projects/libxfce4.php:16 projects/xfce4-mixer.php:15
