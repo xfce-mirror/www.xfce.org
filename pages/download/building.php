@@ -60,11 +60,11 @@ $toc['anchors'] = array (
 
 <h3><?php E_('From the code repository') ?></h3>
 <p>
-  <?php E_('For the latest code you need to make local copies of the GIT repositories, this is the place where developers submit their code. It you decide to use GIT, try to use the same branch for all the packages to avoid dependency version problems.') ?>
+  <?php E_('For the latest code you need to make local copies of the GIT repositories, this is the place where developers submit their code. If you decide to use GIT, try to use the same branch for all the packages to avoid dependency version problems.') ?>
 </p>
 
 <p>
-  <?php E_('You first need to make clones of each GIT repository, like the command below, where <em>$category</em> is for example <em>xfce</em> and <em>$module</em> <em>xfce4-panel</em>. If you click on a module in the online <a href="http://git.xfce.org/xfce" class="external">repository list</a> the clone uri is shown at the buttom of the page.') ?>
+  <?php E_('You first need to make clones of each GIT repository, like the command below, where <em>$category</em> is for example <em>xfce</em> and <em>$module</em> <em>xfce4-panel</em>. If you click on a module in the online <a href="http://git.xfce.org/xfce" class="external">repository list</a> the clone uri is shown at the bottom of the page.') ?>
 </p>
 
 <p>
@@ -125,7 +125,7 @@ $toc['anchors'] = array (
 
 <h3><?php E_('Package specific dependencies') ?></h3>
 <p>
-  <?php E_('Some core packages in Xfce have addition or optional dependencies, all are listed in the table below for the latest stable version. We only show the top package as dependency (so xfce4-panel also requires gtk+, but libxfce4ui already depends on that). Note that some of the package names may vary between distributions.') ?>
+  <?php E_('Some core packages in Xfce have additional or optional dependencies, all are listed in the table below for the latest stable version. We only show the top package as dependency (so xfce4-panel also requires gtk+, but libxfce4ui already depends on that). Note that some of the package names may vary between distributions.') ?>
 </p>
 
 <table>
@@ -214,7 +214,7 @@ $toc['anchors'] = array (
 <h2 id="building"><?php E_('Building') ?></h2>
 <h3><?php E_('Installation location and variables')?></h3>
 <p>
-  <?php E_('Now it is finally time to start compiling the Xfce desktop. Last remaining thing is to choose an installation location. Possible examples are <em>/usr</em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide installation or <em>$HOME/local</em> if you want to install in your home directory (whatever you choose, never put spaces in the name). We will referrer to this location as <em>${PREFIX}</em> in the code examples below!') ?>
+  <?php E_('Now it is finally time to start compiling the Xfce desktop. Last remaining thing is to choose an installation location. Possible examples are <em>/usr</em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide installation or <em>$HOME/local</em> if you want to install in your home directory (whatever you choose, never put spaces in the name). We will refer to this location as <em>${PREFIX}</em> in the code examples below!') ?>
 </p>
 
 <p>

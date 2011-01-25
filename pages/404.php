@@ -13,9 +13,7 @@
 <ul>
 	<li><?php E_('If you typed the page address in the Address bar, make sure that it is spelled correctly.') ?></li>
 	<li><?php E_('Open the <a href="/">Xfce home page</a> and look for links to the information you want.') ?></li>
-	<li><?php E_('Use the navigation bar on the right to find the link you are looking for.') ?></li>
 	<li><?php E_('Click the Back button to try another link.') ?></li>
-	<li><?php E_('Enter a term in the search form above to look for information on the Xfce website.') ?></li>
 </ul>
 
 <p>
