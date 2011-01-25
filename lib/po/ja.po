@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: http://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-01-22 16:07+0100\n"
-"PO-Revision-Date: 2011-01-25 16:16+0900\n"
+"PO-Revision-Date: 2011-01-25 17:48+0900\n"
 "Last-Translator: Masato HASHIMOTO <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1095,7 +1095,7 @@ msgid ""
 "policy that we can refer to when planning releases."
 msgstr ""
 "この文書はこれらの問いに対する回答となることを意図し、リリースを計画するとき"
-"に基準となる方針を定めることを目指しています。"
+"の基準となる方針を定めることを目指しています。"
 
 #: about/releasemodel.php:33 projects/index.php:7 projects/index.php:16
 msgid "Core Components"
@@ -1125,8 +1125,8 @@ msgstr ""
 "リリースサイクルは、短期計画フェイズ、開発版リリースを伴う開発フェイズ、およ"
 "びリリースフェイズからなり、最終的に Xfce コアデスクトップの新規安定版リリー"
 "スに至る。これらに並行して、現在の安定版リリースのメンテナンスも継続する。ま"
-"た、この期間中にXfce の安定版バージョンにおけるバグフィックスやセキュリティ"
-"フィックスのリリースも必要に応じて行わる。"
+"た、この期間中にXfce の安定版バージョンにおけるバグ修正やセキュリティ修正のリ"
+"リースも必要に応じて行わる。"
 
 #: about/releasemodel.php:71
 msgid ""
@@ -1345,9 +1345,9 @@ msgid ""
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
 msgstr ""
-"これら4週間の最後にすべてのコンポーネントの依存関係は凍結され、以降、依存する"
-"パッケージおよびそのバージョンは変更できない。ただし、任意の依存関係の追加は"
-"認められる。"
+"これら 4 週間の最後にすべてのコンポーネントの依存関係は凍結され、以降、依存す"
+"るパッケージおよびそのバージョンは変更できない。ただし、任意の依存関係の追加"
+"は認められる。"
 
 #: about/releasemodel.php:166
 msgid "Informing the Community"
@@ -1386,8 +1386,8 @@ msgid ""
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
 "開発版リリーズは通常次の安定版リリースのための機能プレビューとして提供する。"
-"それらのバージョンナンバーのフォーマットは X.Y.Z 表記でなければならず、Y は奇"
-"数でなければならない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
+"それらのバージョンナンバーは X.Y.Z 表記でなければならず、Y は奇数でなければな"
+"らない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
 
 #: about/releasemodel.php:185
 msgid ""
@@ -1434,7 +1434,7 @@ msgstr ""
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
-msgstr "以下は、基本的な開発作業の流れです:"
+msgstr "基本的な開発作業の流れを以下に示す:"
 
 #: about/releasemodel.php:202
 msgid "Development Workflow"
@@ -1520,7 +1520,7 @@ msgid ""
 "branch."
 msgstr ""
 "Xfce X.Ypre1 では、すべてのコアコンポーネントはフィーチャーフリーズに入る。こ"
-"れ以降、master ブランチに対しては、翻訳の更新とバグの修正のみが許可される。"
+"れ以降、master ブランチに対しては、翻訳の更新とバグの修正のみが許される。"
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
@@ -1546,7 +1546,7 @@ msgid ""
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
-"各プレリリース直前の 2 間はコードフリーズとなる。この期間中、リリースマネー"
+"各プレリリース直前の 2 日間はコードフリーズとなる。この期間中、リリースマネー"
 "ジャに承認された場合を除き、コミットは送られない。"
 
 #: about/releasemodel.php:256
@@ -1559,11 +1559,11 @@ msgstr ""
 "Xfce X.Ypre3 では、すべてのコンポーネントはコードフリーズに入る。これ以降、リ"
 "リースマネージャに承認された場合を除き、コードの変更は許されない。それは通常"
 "ブロッキングあるいはリリースクリティカルバグの修正に限られる。翻訳の更新は引"
-"き続き許可される。"
+"き続き許される。"
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr "コードフリーズフェイズ (2週間以上)"
+msgstr "コードフリーズフェイズ (2 週間以上)"
 
 #: about/releasemodel.php:262
 msgid ""
@@ -1602,7 +1602,7 @@ msgstr ""
 "コードフリーズ中にコアコンポーネントの修正あるいは変更が必要になった場合、メ"
 "ンテナは ELS (//NAME OPEN FOR DISCUSSION//) と呼ばれるブランチを新しく作成"
 "し、そこに修正をコミットする。リリースクリティカルな変更あるいはブロッキング"
-"バクの修正がある場合は、コードフリーズ例外のセクションを参照。"
+"バクの修正がある場合はコードフリーズ例外のセクションを参照のこと。"
 
 #: about/releasemodel.php:282
 msgid ""
