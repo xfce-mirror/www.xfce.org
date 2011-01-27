@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: http://bugzilla.xfce.org\n"
-"POT-Creation-Date: 2011-01-22 16:07+0100\n"
-"PO-Revision-Date: 2011-01-25 17:48+0900\n"
+"POT-Creation-Date: 2011-01-25 18:50+0100\n"
+"PO-Revision-Date: 2011-01-27 17:13+0900\n"
 "Last-Translator: Masato HASHIMOTO <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -16,6 +16,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: header.php:6
+msgid "Xfce Desktop Environment"
+msgstr "Xfce デスクトップ環境"
+
+#: header.php:57
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: header.php:59
+msgid "Home"
+msgstr "Home"
+
+#: header.php:60 about/nav.php:4 about/index.php:1
+msgid "About"
+msgstr "Xfce について"
+
+#: header.php:61 download/nav.php:6 download/index.php:5
+msgid "Download"
+msgstr "ダウンロード"
+
+#: header.php:62 community/nav.php:4 community/index.php:3
+msgid "Community"
+msgstr "コミュニティ"
+
+#: header.php:63 getinvolved/nav.php:4 getinvolved/index.php:1
+msgid "Get Involved"
+msgstr "参加する"
+
+#: header.php:64 projects/nav.php:4 projects/index.php:3
+msgid "Projects"
+msgstr "プロジェクト"
+
+#: header.php:71 header.php:85
+msgid "Change language"
+msgstr "言語の変更"
+
+#: header.php:100
+msgid "Category Pages"
+msgstr "カテゴリページ"
+
+#: header.php:121
+msgid "Related Sites"
+msgstr "関連サイト"
 
 #: 404.php:1
 msgid "Page not found"
@@ -35,8 +79,8 @@ msgid ""
 "the page you were looking for was removed, renamed or temporary unavailable."
 msgstr ""
 "あなたがこのページへジャンプするリンクをクリックしたか、検索エンジンまたは"
-"ブックマークからこのページに来たのであれば、そのページは削除されたか、名前が"
-"変更されたか、あるいは一時的に利用できなくなっています。"
+"ブックマークからそのページに来ようとしたのであれば、そのページは削除された"
+"か、名前が変更されたか、あるいは一時的に利用できなくなっています。"
 
 #: 404.php:10
 msgid ""
@@ -62,25 +106,10 @@ msgstr ""
 "探しください。"
 
 #: 404.php:16
-msgid ""
-"Use the navigation bar on the right to find the link you are looking for."
-msgstr ""
-"あなたがお探しのリンクを見つけるために、右のナビゲーションバーを利用してくだ"
-"さい。"
-
-#: 404.php:17
 msgid "Click the Back button to try another link."
 msgstr "「戻る」ボタンをクリックして他のリンクを試してみてください。"
 
-#: 404.php:18
-msgid ""
-"Enter a term in the search form above to look for information on the Xfce "
-"website."
-msgstr ""
-"上の検索フォームにお探しの言葉を入力し、Xfce ウェブサイト上の情報を検索してく"
-"ださい。"
-
-#: 404.php:22
+#: 404.php:20
 msgid ""
 "You can always <a href=\"mailto:webmaster@xfce.org\">ask the webmaster</a> "
 "to assist you with your search, or report the problem in case you think this "
@@ -90,486 +119,63 @@ msgstr ""
 "href=\"mailto:webmaster@xfce.org\">ウェブ管理者に問い合わせることができます。"
 "</a>"
 
-#: about/tour.php:1 about/nav.php:5
-msgid "Tour"
-msgstr "ツアー"
+#: feed.php:29
+msgid "Xfce News"
+msgstr "Xfce ニュース"
 
-#: about/tour.php:5
-msgid ""
-"This tour will introduce you to all the new major visual features in Xfce "
-"4.8. This is only the visual part of what has been done; for a full list of "
-"changes, see the <a href=\"/download/changelogs/\">changelogs</a>. The tours "
-"of <a href=\"/about/tour46\">Xfce 4.6</a> and <a href=\"/about/tour44\">Xfce "
-"4.4</a> are also still available."
+#: feed.php:30
+msgid "Xfce release announcements"
+msgstr "Xfce リリースのお知らせ"
+
+#: feed.php:42 about/news.php:31 frontpage.php:61
+#, php-format
+msgid "Xfce %s released"
 msgstr ""
-"このツアーでは、Xfce 4.8 の主な新機能について紹介します。ここでは目に見える部"
-"分のみについて説明していますが、すべての変更点については <a href=\"/download/"
-"changelogs/\">changelogs</a> をご覧ください。<a href=\"/about/tour46\">Xfce "
-"4.6</a> および <a href=\"/about/tour44\">Xfce 4.4</a> のツアーも引き続き閲覧"
-"できます。"
 
-#: about/tour.php:7
-msgid "Thunar file browser"
-msgstr "Thunar ファイルブラウザ"
-
-#: about/tour.php:9
-msgid "Remote shares browsing"
-msgstr "リモート共有のブラウズ"
-
-#: about/tour.php:11
-msgid ""
-"Thunar now has optional support for GVFS which will allow you to browse "
-"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
-msgstr ""
-"Thunar は GVFS をオプションでサポートし、Thunar 上から、FTP、Windows 共有、"
-"WebDav、あるいは SSH サーバなどのリモート共有をブラウズできるようになりまし"
-"た。"
-
-#: about/tour.php:13
-msgid "Thunar browsing a remote share"
-msgstr "Thunar でリモート共有をブラウズ"
-
-#: about/tour.php:15
-msgid "New file operations progress dialog"
-msgstr "新しいファイル操作進捗ダイアログ"
-
-#: about/tour.php:17
-msgid ""
-"When several file operations (copy or move) are being handled in parallel, "
-"Thunar now shows a single progress dialog which displays all the relevant "
-"information."
-msgstr ""
-"複数のファイルに対する操作 (コピーや移動) が並列で処理されたとき、Thunar は関"
-"連する情報すべてをひとつのダイアログで表示するようになりました。"
-
-#: about/tour.php:19
-msgid "Progress dialog"
-msgstr "進捗ダイアログ"
-
-#: about/tour.php:21
-msgid "Eject button for removable devices"
-msgstr "リムーバブルデバイスの取り出しボタン"
-
-#: about/tour.php:23
-msgid ""
-"It is is now possible to eject removable devices by clicking the eject "
-"button near each removable device label in the side pane."
-msgstr ""
-"サイドペインの各リムーバブルデバイスラベルのそばにある取り出しボタンをクリッ"
-"クすることより、そのデバイスを取り出すことができるようになりました。"
-
-#: about/tour.php:25
-msgid "Eject button"
-msgstr "取り出しボタン"
-
-#: about/tour.php:27
-msgid "Xfce panel"
-msgstr "Xfce パネル"
-
-#: about/tour.php:29
-msgid ""
-"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
-"changes."
-msgstr ""
-"Xfce パネルは、4.8 で全面的に書き直されました。主な変更点は以下のとおりです。"
-
-#: about/tour.php:31
-msgid "Improved positioning and size handling"
-msgstr "ポジショニングやサイズ変更の改善"
-
-#: about/tour.php:33
-msgid ""
-"The panel has much better support for positing panels on the screen. It can "
-"be dragged and snapped to screen borders; floating positions are only "
-"remembered when moving a panel and the length of the panel can be adjusted "
-"as a percentage of the monitor size."
-msgstr ""
-"パネルの画面上でのポジショニングが改善されました。ドラッグおよび画面端へのス"
-"ナップができるようになり、フローティング配置はパネルを移動しているときのみ記"
-"憶され、パネルの長さはモニタサイズに対するパーセンテージで調整できるようにな"
-"りました。"
-
-#: about/tour.php:35
-msgid "Transparent backgrounds"
-msgstr "透明な背景"
-
-#: about/tour.php:37
-msgid ""
-"The panel is now able to draw transparent panel backgrounds with non "
-"transparent items. Your panel items will remain readable and you will enjoy "
-"a nice panel look."
-msgstr ""
-"パネルの背景を、アイテムは不透明なままに背景を透明にできるようになりました。"
-"パネルアイテムは透明になりませんので利用に支障はありません。ナイスなパネルの"
-"見た目を楽しんでください。"
-
-#: about/tour.php:39
-msgid "Transparent panel background"
-msgstr "透明なパネルの背景"
-
-#: about/tour.php:41
-msgid "New item editor"
-msgstr "新しいアイテムエディタ"
-
-#: about/tour.php:43
-msgid ""
-"The panel now features an item editor which allows to modify, move, add and "
-"remove items qucikly. This is particularly useful for items which are hard "
-"to right click and gives you an easy way to change your panel layout from a "
-"single place."
-msgstr ""
-"新機能のアイテムエディタでは、アイテムの編集、移動、追加、および削除が素早く"
-"行えます。これは特に右クリックのやりにくいアイテムに対して便利であり、そして"
-"パネルのレイアウト変更を一括で行えます。"
-
-#: about/tour.php:45
-msgid "Panel item editor"
-msgstr "パネルアイテムエディタ"
-
-#: about/tour.php:47
-msgid "Drag and drop to create launchers"
-msgstr "ドラッグアンドドロップでランチャ作成"
-
-#: about/tour.php:49
-msgid ""
-"You can now drag and drop menu entries from the panel applications menu, "
-"application finder or Thunar to the panel to create launchers. This feature "
-"should please the huge number of people who had been requesting it for ages. "
-"The launcher also has an integrated application finder to add new items."
-msgstr ""
-"パネルアプリケーションメニュー、アプリケーションファインダ、あるいは Thunar "
-"からパネルへのメニューエントリのドラッグアンドドロップで、ランチャの作成がで"
-"きるようになりました。長い間この機能を待ち望んでいた多くの方々に喜んでいただ"
-"けると思います。また、新しいアイテムを追加するために統合されたアプリケーショ"
-"ンファインダも具備しています。"
-
-#: about/tour.php:51
-msgid "Window buttons plugin"
-msgstr "ウィンドウボタンプラグイン"
-
-#: about/tour.php:53
-msgid ""
-"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
-"buttons. It implements different sorting modes, improved handling in "
-"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
-"a button."
-msgstr ""
-"アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されま"
-"した。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボ"
-"タン上にマウスポインタがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠"
-"を描画できるようになりました。"
-
-#: about/tour.php:55
-msgid "New fuzzy clock"
-msgstr "新しいファジー時計"
-
-#: about/tour.php:57
-msgid ""
-"An Xfce release without a new clock mode would not be a true Xfce release. "
-"Let us introduce you the 'fuzzy' clock mode!"
-msgstr ""
-"新しい時計モードのない Xfce リリースは本当の Xfce リリースとは言えません。そ"
-"して今回の新しい時計モードは、'ファジー' です!"
-
-#: about/tour.php:59
-msgid "New fuzzy clock mode"
-msgstr "新しいファジー時計モード"
-
-#: about/tour.php:61
-msgid "New directory menu plugin"
-msgstr "新しいディレクトリメニュープラグイン"
-
-#: about/tour.php:63
-msgid ""
-"The directory menu plugin provides a menu reproducing the arborescence of a "
-"particular folder. This allows you to open a terminal or a file manager in a "
-"sub-folder in a very fast and efficient way."
-msgstr ""
-"ディレクトリメニュープラグインは、特定のフォルダをツリー上に再現したメニュー"
-"を提供します。これでサブフォルダの中を速やかかつ効果的にターミナルやファイル"
-"マネージャで開くことができます。"
-
-#: about/tour.php:65
-msgid "Directory menu plugin"
-msgstr "ディレクトリメニュープラグイン"
-
-#: about/tour.php:67
-msgid "Applications menu edition"
-msgstr "アプリケーションメニューの編集"
-
-#: about/tour.php:69
-msgid ""
-"You can now edit the applications menu using any Freedesktop compliant menu "
-"editor, Alacarte being the one we used to test."
-msgstr ""
-"freedesktop.org に準拠したメニューエディタでアプリケーションメニューが編集で"
-"きるようになりました。わたしたちは Alacarte を使ってテストしています。"
-
-#: about/tour.php:71
-msgid "Xfce settings dialogs"
-msgstr "Xfce 設定ダイアログ"
-
-#: about/tour.php:73
-msgid "Improved multihead setup configuration"
-msgstr "マルチヘッド構成設定の改善"
-
-#: about/tour.php:75
-msgid ""
-"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
-"driver. Unfortunately, this means it will not work with Nvidia proprietary "
-"drivers."
-msgstr ""
-"RandR 1.2 互換のドライバに対応したマルチヘッド構成の設定が行えるようになりま"
-"した。残念ながら、これは NVIDIA プロプライエタリドライバでは動作しないことを"
-"意味します。"
-
-#: about/tour.php:77
-msgid ""
-"You can enable and disable plugged screens, set their resolution, refresh "
-"rate, rotation and reflection, clone screens or extend desktops."
-msgstr ""
-"接続されたモニタの有効化および無効化、それらの解像度、リフレッシュレート、回"
-"転、反転、クローン表示あるいは拡張デスクトップの設定が行えます。"
-
-#: about/tour.php:79
-msgid "Timed confirmation"
-msgstr "時間内確認"
-
-#: about/tour.php:81
-msgid ""
-"Any change made with the settings dialog will have to be confirmed within "
-"ten seconds or they will be reverted. This prevents broken video drivers "
-"from leaving your computer unusable."
-msgstr ""
-"設定ダイアログで行われたあらゆる変更は、10 秒以内に確認するか、取り消されなけ"
-"ればなりません。これはビデオドライバの破壊を回避します。"
-
-#: about/tour.php:83
-msgid "Timed confirmation for display settings changes"
-msgstr "ディスプレイ設定の変更の確認"
-
-#: about/tour.php:85
-msgid "Quick setup dialog"
-msgstr "クイックセットアップダイアログ"
-
-#: about/tour.php:87
-msgid ""
-"The quick setup dialog allows you to configure a dual screen setup in a "
-"second. Plug the second screen, press the display key or Windows + p and "
-"select the wanted layout. Done!"
-msgstr ""
-"クイックセットアップダイアログで、複数画面のセットアップがすぐに行なえます。"
-"追加ディスプレイを接続し、ディスプレイキーあるいは Windows + p を押し、レイア"
-"ウトを選択して完了です!"
-
-#: about/tour.php:89
-msgid "Settings edition in the Xfce Settings Editor"
-msgstr "Xfce 設定エディタでの設定の変更"
-
-#: about/tour.php:91
-msgid ""
-"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
-"Xfconf settings viewer. You can now modify, delete, add and reset settings "
-"through its interface. It also monitors changes to update its view."
-msgstr ""
-"Xfce 設定エディタは、その名にふさわしいものになり、もう単純な Xfconf 設定"
-"ビューアではありません。エディタ上で、設定の変更、削除、追加、あるいはリセッ"
-"トが行えます。また、その表示の更新のため、変更を監視します。"
-
-#: about/tour.php:93
-msgid "Editing Xfconf properties with the Settings Editor"
-msgstr "設定エディタを使った Xfconf プロパティの編集"
-
-#: about/tour.php:95
-msgid "Improved keyboard layout selection"
-msgstr "キーボードレイアウト選択の改善"
-
-#: about/tour.php:97
-msgid ""
-"The layout selection dialog received a lot of love: it no longer displays "
-"cryptic language/variants codes but uses localized languages/variants names. "
-"Layout edition was also made easier by prefilling the dialogs with the "
-"current values."
-msgstr ""
-"レイアウト選択ダイアログにはたくさんの愛情が注がれました。もう難解な言語/バリ"
-"アントコードをお見せすることはありません。そのかわりローカライズされた言語/バ"
-"リアントを使用します。レイアウトの変更は現在の値が初期値となってダイアログに"
-"表示され、設定しやすくなっています。"
-
-#: about/tour.php:99
-msgid "Layouts and variants list"
-msgstr "レイアウトとバリアントリスト"
-
-#: about/nav.php:4 about/index.php:1 header.php:60
-msgid "About"
-msgstr "Xfce について"
-
-#: about/nav.php:6 about/news.php:6
-msgid "News"
-msgstr "ニュース"
-
-#: about/nav.php:7 about/screenshots.php:1 frontpage.php:25
-msgid "Screenshots"
-msgstr "スクリーンショット"
-
-#: about/nav.php:8 about/tour46.php:240 about/tour44.php:222
-#: about/credits.php:8
+#: about/credits.php:8 about/tour46.php:240 about/nav.php:8
+#: about/tour44.php:222
 msgid "Credits"
 msgstr "クレジット"
 
-#: about/nav.php:9 about/press.php:1
-msgid "Press"
-msgstr "プレス"
+#: about/credits.php:11 about/credits.php:61
+msgid "Core developers"
+msgstr "中心開発者"
 
-#: about/nav.php:10 about/releasemodel.php:3
-msgid "Release Model"
-msgstr "リリースモデル"
+#: about/credits.php:12 about/credits.php:72
+msgid "Active contributors"
+msgstr "現在の協力者"
 
-#: about/nav.php:11 about/artwork.php:1
-msgid "Artwork"
-msgstr "アートワーク"
+#: about/credits.php:13 about/credits.php:87
+msgid "Servers maintained by"
+msgstr "サーバの管理"
 
-#: about/index.php:7
+#: about/credits.php:14 about/credits.php:98
+msgid "Goodies supervision"
+msgstr "Goodies の監修"
+
+#: about/credits.php:15 about/credits.php:104
+msgid "Translations supervision"
+msgstr "翻訳の監修"
+
+#: about/credits.php:16 about/credits.php:111
+msgid "Translators"
+msgstr "翻訳者"
+
+#: about/credits.php:17 about/credits.php:114
+msgid "Previous contributors"
+msgstr "以前の協力者"
+
+#: about/credits.php:56
 msgid ""
-"Xfce is a lightweight desktop environment for unix-like operating systems. "
-"It aims to be fast and low on system resources, while still being visually "
-"appealing and user friendly."
+"A large number of people contributed to the Xfce project. Although more "
+"people contributed to the project then the ones list below, we'd like to say:"
 msgstr ""
-"Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境です。"
-"視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としています。"
+"多くの方々がこの Xfce プロジェクトに貢献してくださいました。以下のリストやそ"
+"の他多くの貢献者の方々申し上げます:"
 
-#: about/index.php:11
-msgid ""
-"Xfce embodies the traditional UNIX philosophy of modularity and re-"
-"usability. It consists of a number of components that provide the full "
-"functionality one can expect of a modern desktop environment. They are "
-"packaged separately and you can pick among the available packages to create "
-"the optimal personal working environment."
-msgstr ""
-"Xfce はモジュール性と再利用性といった伝統的な UNIX の考え方を体現しています。"
-"また、デスクトップ環境のすべての機能を提供する多くのコンポーネントで構成され"
-"ています。各部分は分かれてパッケージ化されているので、使用できるパッケージの"
-"中から好きなものだけを選んで、あなたにとっての最高の作業環境を作ることができ"
-"ます。"
-
-#: about/index.php:15
-msgid ""
-"Another priority of Xfce is adhereance to standards, specifically those "
-"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr ""
-"Xfce は他に、標準、特に<a href=\"http://freedesktop.org\" target=\"_blank"
-"\">freedesktop.org</a>で定義されたものに準拠することを重視しています。"
-
-#: about/index.php:19
-msgid ""
-"Xfce can be installed on several UNIX platforms. It is known to compile on "
-"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
-"Sparc, Alpha..."
-msgstr ""
-"Xfce 4 はいくつかの UNIX および UNIX-like プラットフォーム、すなわち x86、"
-"PPC、Sparc、Alpha などのハードウェア上での Linux、NetBSD、FreeBSD、OpenBSD、"
-"Solaris、Cygwin、あるいは MacOS X などにインストールできます。"
-
-#: about/index.php:22 projects/libxfce4.php:9
-msgid "Features"
-msgstr "機能"
-
-#: about/index.php:25
-msgid ""
-"Xfce contains a number of core components for the minimum tasks you'd expect "
-"from a desktop environement:"
-msgstr ""
-"Xfce はデスクトップ環境に求められる最小限の機能を提供する、たくさんのコンポー"
-"ネントからなっています。"
-
-#: about/index.php:27 about/tour44.php:71 projects/index.php:20
-msgid "Window Manager"
-msgstr "ウィンドウマネージャ"
-
-#: about/index.php:28
-msgid ""
-"Manages the placement of windows on the screen, provides window decorations "
-"and manages workspaces or virtual desktops."
-msgstr ""
-"画面上のウィンドウの配置を管理し、ウィンドウ枠を表示し、ワークスペースおよび"
-"仮想デスクトップを管理します。"
-
-#: about/index.php:30 projects/index.php:38
-msgid "Desktop Manager"
-msgstr "デスクトップマネージャ"
-
-#: about/index.php:31
-msgid ""
-"Sets the background image and provides a root window menu, desktop icons or "
-"minimized icons and a windows list."
-msgstr ""
-"背景画像を設定し、ルートウィンドウメニュー、デスクトップアイコンや最小化アイ"
-"コン、およびウィンドウリストを提供します。"
-
-#: about/index.php:33 about/tour46.php:25 about/tour44.php:102
-#: projects/index.php:27
-msgid "Panel"
-msgstr "パネル"
-
-#: about/index.php:34
-msgid ""
-"Switch between opened windows, launch applications, switch workspaces and "
-"menu plugins to browse applications or directories."
-msgstr ""
-"開いているウィンドウを切り替え、アプリケーションを起動し、ワークスペースを切"
-"り替え、アプリケーションやディレクトリを開くメニュープラグインを提供します。"
-
-#: about/index.php:36 projects/index.php:45
-msgid "Session Manager"
-msgstr "セッションマネージャ"
-
-#: about/index.php:37
-msgid ""
-"Controls the login and power management of the desktop and allows you to "
-"store multiple login sessions."
-msgstr ""
-"ログインおよびデスクトップの電源管理を制御し、複数セッションを保存することが"
-"できます。"
-
-#: about/index.php:39 about/tour44.php:28
-msgid "File Manager"
-msgstr "ファイルマネージャ"
-
-#: about/index.php:40
-msgid ""
-"Provides the basic file management features and unique utilities like the "
-"bulk renamer."
-msgstr ""
-"基本的なファイル管理機能を提供し、バルクリネームのようなユニークな機能を持っ"
-"ています。"
-
-#: about/index.php:42
-msgid "Setting Manager"
-msgstr "設定マネージャ"
-
-#: about/index.php:43
-msgid ""
-"Tools to control the various settings of the desktop like keyboard "
-"shortcuts, appearance, display settings etcertera."
-msgstr ""
-"キーボードショートカット、外観、ディスプレイ設定などのデスクトップの設定を制"
-"御するツールです。"
-
-#: about/index.php:47
-msgid ""
-"Beside the basic set of modules, Xfce also provides numerous additional "
-"applications and plugins so you can extend your desktop the way you like, "
-"for example a terminal emulator, text editor, sound mixer, application "
-"finder, image viewer, iCal based calendar and a CD and DVD burning "
-"application. You can read more about the modules of Xfce in the <a href=\"/"
-"projects\">projects</a> page."
-msgstr ""
-"モジュールの基本セットの他、Xfce は数々のアプリケーションやプラグインも提供し"
-"ており、あなたの望みのままに拡張できます。例えば、ターミナルエミュレータ、テ"
-"キストエディタ、サウンドミキサー、アプリケーションファインダ、画像ビューア、"
-"iCal ベースのカレンダ、および CD・DVD 作成アプリケーションなどがあります。"
-"Xfce のモジュールについてのより詳しい情報については、<a href=\"/projects\">プ"
-"ロジェクト</a>ページをご覧ください。"
+#: about/credits.php:58
+msgid "Thanks to all who helped making this software available!"
+msgstr "このソフトウェアを利用できるよう協力していただいた皆様に感謝します!"
 
 #: about/tour46.php:1
 msgid "Xfce 4.6 tour"
@@ -620,6 +226,11 @@ msgstr ""
 #: about/tour46.php:23
 msgid "New desktop menu"
 msgstr "新しいデスクトップメニュー"
+
+#: about/tour46.php:25 about/index.php:33 about/tour44.php:102
+#: projects/index.php:27
+msgid "Panel"
+msgstr "パネル"
 
 #: about/tour46.php:28
 msgid ""
@@ -1013,22 +624,9 @@ msgstr "Written by Jérôme Guelfucci (February 2009)"
 msgid "Screenshots by Jannis Pohlmann"
 msgstr "Screenshots by Jannis Pohlmann"
 
-#: about/screenshots.php:18
-msgid "Some screenshots of Xfce, ordered by version."
-msgstr "バージョン別の Xfce スクリーンショットです。"
-
-#: about/news.php:31 feed.php:42 frontpage.php:61
-#, php-format
-msgid "Xfce %s released"
-msgstr ""
-
-#: about/news.php:49
-msgid "Changes in this release"
-msgstr "このリリースでの変更点"
-
-#: about/news.php:61
-msgid "No news articles found."
-msgstr "新しい記事は見つかりませんでした。"
+#: about/artwork.php:1 about/nav.php:11
+msgid "Artwork"
+msgstr "アートワーク"
 
 #: about/artwork.php:5
 msgid ""
@@ -1038,6 +636,497 @@ msgstr ""
 "<a href=\"/downloads/xfce_artwork.tar.bz2\">ここ</a>から Xfce アートワークの "
 "tarボールをダウンロードできます。この中には幾つかの高品質なロゴとバナーがあり"
 "ます。"
+
+#: about/news.php:6 about/nav.php:6
+msgid "News"
+msgstr "ニュース"
+
+#: about/news.php:49
+msgid "Changes in this release"
+msgstr "このリリースでの変更点"
+
+#: about/news.php:61
+msgid "No news articles found."
+msgstr "新しい記事は見つかりませんでした。"
+
+#: about/nav.php:5 about/tour.php:1
+msgid "Tour"
+msgstr "ツアー"
+
+#: about/nav.php:7 about/screenshots.php:1 frontpage.php:25
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#: about/nav.php:9 about/press.php:1
+msgid "Press"
+msgstr "プレス"
+
+#: about/nav.php:10 about/releasemodel.php:3
+msgid "Release Model"
+msgstr "リリースモデル"
+
+#: about/press.php:5
+msgid "Here you can find various reviews of the Xfce desktop environment."
+msgstr "ここで Xfce のいろいろな批評を見つけることができます。(英文)"
+
+#: about/press.php:10
+msgid "Date"
+msgstr "日付"
+
+#: about/press.php:11
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: about/press.php:12
+msgid "Link"
+msgstr "リンク"
+
+#: about/index.php:7 frontpage.php:18
+msgid ""
+"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
+"It aims to be fast and low on system resources, while still being visually "
+"appealing and user friendly."
+msgstr ""
+"Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境です。"
+"視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としています。"
+
+#: about/index.php:11
+msgid ""
+"Xfce embodies the traditional UNIX philosophy of modularity and re-"
+"usability. It consists of a number of components that provide the full "
+"functionality one can expect of a modern desktop environment. They are "
+"packaged separately and you can pick among the available packages to create "
+"the optimal personal working environment."
+msgstr ""
+"Xfce はモジュール性と再利用性といった伝統的な UNIX の考え方を体現しています。"
+"また、デスクトップ環境のすべての機能を提供する多くのコンポーネントで構成され"
+"ています。各部分は分かれてパッケージ化されているので、使用できるパッケージの"
+"中から好きなものだけを選んで、あなたにとっての最高の作業環境を作ることができ"
+"ます。"
+
+#: about/index.php:15
+msgid ""
+"Another priority of Xfce is adhereance to standards, specifically those "
+"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
+msgstr ""
+"Xfce は他に、標準、特に<a href=\"http://freedesktop.org\" target=\"_blank"
+"\">freedesktop.org</a>で定義されたものに準拠することを重視しています。"
+
+#: about/index.php:19
+msgid ""
+"Xfce can be installed on several UNIX platforms. It is known to compile on "
+"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
+"Sparc, Alpha..."
+msgstr ""
+"Xfce 4 はいくつかの UNIX および UNIX-like プラットフォーム、すなわち x86、"
+"PPC、Sparc、Alpha などのハードウェア上での Linux、NetBSD、FreeBSD、OpenBSD、"
+"Solaris、Cygwin、あるいは MacOS X などにインストールできます。"
+
+#: about/index.php:22 projects/libxfce4.php:9
+msgid "Features"
+msgstr "機能"
+
+#: about/index.php:25
+msgid ""
+"Xfce contains a number of core components for the minimum tasks you'd expect "
+"from a desktop environement:"
+msgstr ""
+"Xfce はデスクトップ環境に求められる最小限の機能を提供する、たくさんのコンポー"
+"ネントからなっています。"
+
+#: about/index.php:27 about/tour44.php:71 projects/index.php:20
+msgid "Window Manager"
+msgstr "ウィンドウマネージャ"
+
+#: about/index.php:28
+msgid ""
+"Manages the placement of windows on the screen, provides window decorations "
+"and manages workspaces or virtual desktops."
+msgstr ""
+"画面上のウィンドウの配置を管理し、ウィンドウ枠を表示し、ワークスペースおよび"
+"仮想デスクトップを管理します。"
+
+#: about/index.php:30 projects/index.php:38
+msgid "Desktop Manager"
+msgstr "デスクトップマネージャ"
+
+#: about/index.php:31
+msgid ""
+"Sets the background image and provides a root window menu, desktop icons or "
+"minimized icons and a windows list."
+msgstr ""
+"背景画像を設定し、ルートウィンドウメニュー、デスクトップアイコンや最小化アイ"
+"コン、およびウィンドウリストを提供します。"
+
+#: about/index.php:34
+msgid ""
+"Switch between opened windows, launch applications, switch workspaces and "
+"menu plugins to browse applications or directories."
+msgstr ""
+"開いているウィンドウを切り替え、アプリケーションを起動し、ワークスペースを切"
+"り替え、アプリケーションやディレクトリを開くメニュープラグインを提供します。"
+
+#: about/index.php:36 projects/index.php:45
+msgid "Session Manager"
+msgstr "セッションマネージャ"
+
+#: about/index.php:37
+msgid ""
+"Controls the login and power management of the desktop and allows you to "
+"store multiple login sessions."
+msgstr ""
+"ログインおよびデスクトップの電源管理を制御し、複数セッションを保存することが"
+"できます。"
+
+#: about/index.php:39 about/tour44.php:28
+msgid "File Manager"
+msgstr "ファイルマネージャ"
+
+#: about/index.php:40
+msgid ""
+"Provides the basic file management features and unique utilities like the "
+"bulk renamer."
+msgstr ""
+"基本的なファイル管理機能を提供し、バルクリネームのようなユニークな機能を持っ"
+"ています。"
+
+#: about/index.php:42
+msgid "Setting Manager"
+msgstr "設定マネージャ"
+
+#: about/index.php:43
+msgid ""
+"Tools to control the various settings of the desktop like keyboard "
+"shortcuts, appearance, display settings etcertera."
+msgstr ""
+"キーボードショートカット、外観、ディスプレイ設定などのデスクトップの設定を制"
+"御するツールです。"
+
+#: about/index.php:47
+msgid ""
+"Beside the basic set of modules, Xfce also provides numerous additional "
+"applications and plugins so you can extend your desktop the way you like, "
+"for example a terminal emulator, text editor, sound mixer, application "
+"finder, image viewer, iCal based calendar and a CD and DVD burning "
+"application. You can read more about the modules of Xfce in the <a href=\"/"
+"projects\">projects</a> page."
+msgstr ""
+"モジュールの基本セットの他、Xfce は数々のアプリケーションやプラグインも提供し"
+"ており、あなたの望みのままに拡張できます。例えば、ターミナルエミュレータ、テ"
+"キストエディタ、サウンドミキサー、アプリケーションファインダ、画像ビューア、"
+"iCal ベースのカレンダ、および CD・DVD 作成アプリケーションなどがあります。"
+"Xfce のモジュールについてのより詳しい情報については、<a href=\"/projects\">プ"
+"ロジェクト</a>ページをご覧ください。"
+
+#: about/screenshots.php:18
+msgid "Some screenshots of Xfce, ordered by version."
+msgstr "バージョン別の Xfce スクリーンショットです。"
+
+#: about/tour.php:5
+msgid ""
+"This tour will introduce you to all the new major visual features in Xfce "
+"4.8. This is only the visual part of what has been done; for a full list of "
+"changes, see the <a href=\"/download/changelogs/\">changelogs</a>. The tours "
+"of <a href=\"/about/tour46\">Xfce 4.6</a> and <a href=\"/about/tour44\">Xfce "
+"4.4</a> are also still available."
+msgstr ""
+"このツアーでは、Xfce 4.8 の主な新機能について紹介します。ここでは目に見える部"
+"分のみについて説明していますが、すべての変更点については <a href=\"/download/"
+"changelogs/\">changelogs</a> をご覧ください。<a href=\"/about/tour46\">Xfce "
+"4.6</a> および <a href=\"/about/tour44\">Xfce 4.4</a> のツアーも引き続き閲覧"
+"できます。"
+
+#: about/tour.php:7
+msgid "Thunar file browser"
+msgstr "Thunar ファイルブラウザ"
+
+#: about/tour.php:9
+msgid "Remote shares browsing"
+msgstr "リモート共有のブラウズ"
+
+#: about/tour.php:11
+msgid ""
+"Thunar now has optional support for GVFS which will allow you to browse "
+"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
+msgstr ""
+"Thunar は GVFS をオプションでサポートし、Thunar 上から、FTP、Windows 共有、"
+"WebDav、あるいは SSH サーバなどのリモート共有をブラウズできるようになりまし"
+"た。"
+
+#: about/tour.php:13
+msgid "Thunar browsing a remote share"
+msgstr "Thunar でリモート共有をブラウズ"
+
+#: about/tour.php:15
+msgid "New file operations progress dialog"
+msgstr "新しいファイル操作進捗ダイアログ"
+
+#: about/tour.php:17
+msgid ""
+"When several file operations (copy or move) are being handled in parallel, "
+"Thunar now shows a single progress dialog which displays all the relevant "
+"information."
+msgstr ""
+"複数のファイルに対する操作 (コピーや移動) が並列で処理されたとき、Thunar は関"
+"連する情報すべてをひとつのダイアログで表示するようになりました。"
+
+#: about/tour.php:19
+msgid "Progress dialog"
+msgstr "進捗ダイアログ"
+
+#: about/tour.php:21
+msgid "Eject button for removable devices"
+msgstr "リムーバブルデバイスの取り出しボタン"
+
+#: about/tour.php:23
+msgid ""
+"It is is now possible to eject removable devices by clicking the eject "
+"button near each removable device label in the side pane."
+msgstr ""
+"サイドペインの各リムーバブルデバイスラベルのそばにある取り出しボタンをクリッ"
+"クすることより、そのデバイスを取り出すことができるようになりました。"
+
+#: about/tour.php:25
+msgid "Eject button"
+msgstr "取り出しボタン"
+
+#: about/tour.php:27
+msgid "Xfce panel"
+msgstr "Xfce パネル"
+
+#: about/tour.php:29
+msgid ""
+"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
+"changes."
+msgstr ""
+"Xfce パネルは、4.8 で全面的に書き直されました。主な変更点は以下のとおりです。"
+
+#: about/tour.php:31
+msgid "Improved positioning and size handling"
+msgstr "ポジショニングやサイズ変更の改善"
+
+#: about/tour.php:33
+msgid ""
+"The panel has much better support for positing panels on the screen. It can "
+"be dragged and snapped to screen borders; floating positions are only "
+"remembered when moving a panel and the length of the panel can be adjusted "
+"as a percentage of the monitor size."
+msgstr ""
+"パネルの画面上でのポジショニングが改善されました。ドラッグおよび画面端へのス"
+"ナップができるようになり、フローティング配置はパネルを移動しているときのみ記"
+"憶され、パネルの長さはモニタサイズに対するパーセンテージで調整できるようにな"
+"りました。"
+
+#: about/tour.php:35
+msgid "Transparent backgrounds"
+msgstr "透明な背景"
+
+#: about/tour.php:37
+msgid ""
+"The panel is now able to draw transparent panel backgrounds with non "
+"transparent items. Your panel items will remain readable and you will enjoy "
+"a nice panel look."
+msgstr ""
+"パネルの背景を、アイテムは不透明なままに背景を透明にできるようになりました。"
+"パネルアイテムは透明になりませんので利用に支障はありません。ナイスなパネルの"
+"見た目を楽しんでください。"
+
+#: about/tour.php:39
+msgid "Transparent panel background"
+msgstr "透明なパネルの背景"
+
+#: about/tour.php:41
+msgid "New item editor"
+msgstr "新しいアイテムエディタ"
+
+#: about/tour.php:43
+msgid ""
+"The panel now features an item editor which allows to modify, move, add and "
+"remove items qucikly. This is particularly useful for items which are hard "
+"to right click and gives you an easy way to change your panel layout from a "
+"single place."
+msgstr ""
+"新機能のアイテムエディタでは、アイテムの編集、移動、追加、および削除が素早く"
+"行えます。これは特に右クリックのやりにくいアイテムに対して便利であり、そして"
+"パネルのレイアウト変更を一括で行えます。"
+
+#: about/tour.php:45
+msgid "Panel item editor"
+msgstr "パネルアイテムエディタ"
+
+#: about/tour.php:47
+msgid "Drag and drop to create launchers"
+msgstr "ドラッグアンドドロップでランチャ作成"
+
+#: about/tour.php:49
+msgid ""
+"You can now drag and drop menu entries from the panel applications menu, "
+"application finder or Thunar to the panel to create launchers. This feature "
+"should please the huge number of people who had been requesting it for ages. "
+"The launcher also has an integrated application finder to add new items."
+msgstr ""
+"パネルアプリケーションメニュー、アプリケーションファインダ、あるいは Thunar "
+"からパネルへのメニューエントリのドラッグアンドドロップで、ランチャの作成がで"
+"きるようになりました。長い間この機能を待ち望んでいた多くの方々に喜んでいただ"
+"けると思います。また、新しいアイテムを追加するために統合されたアプリケーショ"
+"ンファインダも具備しています。"
+
+#: about/tour.php:51
+msgid "Window buttons plugin"
+msgstr "ウィンドウボタンプラグイン"
+
+#: about/tour.php:53
+msgid ""
+"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
+"buttons. It implements different sorting modes, improved handling in "
+"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
+"a button."
+msgstr ""
+"アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されま"
+"した。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボ"
+"タン上にマウスポインタがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠"
+"を描画できるようになりました。"
+
+#: about/tour.php:55
+msgid "New fuzzy clock"
+msgstr "新しいファジー時計"
+
+#: about/tour.php:57
+msgid ""
+"An Xfce release without a new clock mode would not be a true Xfce release. "
+"Let us introduce you the 'fuzzy' clock mode!"
+msgstr ""
+"新しい時計モードのない Xfce リリースは本当の Xfce リリースとは言えません。そ"
+"して今回の新しい時計モードは、'ファジー' です!"
+
+#: about/tour.php:59
+msgid "New fuzzy clock mode"
+msgstr "新しいファジー時計モード"
+
+#: about/tour.php:61
+msgid "New directory menu plugin"
+msgstr "新しいディレクトリメニュープラグイン"
+
+#: about/tour.php:63
+msgid ""
+"The directory menu plugin provides a menu reproducing the arborescence of a "
+"particular folder. This allows you to open a terminal or a file manager in a "
+"sub-folder in a very fast and efficient way."
+msgstr ""
+"ディレクトリメニュープラグインは、特定のフォルダをツリー上に再現したメニュー"
+"を提供します。これでサブフォルダの中を速やかかつ効果的にターミナルやファイル"
+"マネージャで開くことができます。"
+
+#: about/tour.php:65
+msgid "Directory menu plugin"
+msgstr "ディレクトリメニュープラグイン"
+
+#: about/tour.php:67
+msgid "Applications menu edition"
+msgstr "アプリケーションメニューの編集"
+
+#: about/tour.php:69
+msgid ""
+"You can now edit the applications menu using any Freedesktop compliant menu "
+"editor, Alacarte being the one we used to test."
+msgstr ""
+"freedesktop.org に準拠したメニューエディタでアプリケーションメニューが編集で"
+"きるようになりました。わたしたちは Alacarte を使ってテストしています。"
+
+#: about/tour.php:71
+msgid "Xfce settings dialogs"
+msgstr "Xfce 設定ダイアログ"
+
+#: about/tour.php:73
+msgid "Improved multihead setup configuration"
+msgstr "マルチヘッド構成設定の改善"
+
+#: about/tour.php:75
+msgid ""
+"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
+"driver. Unfortunately, this means it will not work with Nvidia proprietary "
+"drivers."
+msgstr ""
+"RandR 1.2 互換のドライバに対応したマルチヘッド構成の設定が行えるようになりま"
+"した。残念ながら、これは NVIDIA プロプライエタリドライバでは動作しないことを"
+"意味します。"
+
+#: about/tour.php:77
+msgid ""
+"You can enable and disable plugged screens, set their resolution, refresh "
+"rate, rotation and reflection, clone screens or extend desktops."
+msgstr ""
+"接続されたモニタの有効化および無効化、それらの解像度、リフレッシュレート、回"
+"転、反転、クローン表示あるいは拡張デスクトップの設定が行えます。"
+
+#: about/tour.php:79
+msgid "Timed confirmation"
+msgstr "時間内確認"
+
+#: about/tour.php:81
+msgid ""
+"Any change made with the settings dialog will have to be confirmed within "
+"ten seconds or they will be reverted. This prevents broken video drivers "
+"from leaving your computer unusable."
+msgstr ""
+"設定ダイアログで行われたあらゆる変更は、10 秒以内に確認するか、取り消されなけ"
+"ればなりません。これはビデオドライバの破壊を回避します。"
+
+#: about/tour.php:83
+msgid "Timed confirmation for display settings changes"
+msgstr "ディスプレイ設定の変更の確認"
+
+#: about/tour.php:85
+msgid "Quick setup dialog"
+msgstr "クイックセットアップダイアログ"
+
+#: about/tour.php:87
+msgid ""
+"The quick setup dialog allows you to configure a dual screen setup in a "
+"second. Plug the second screen, press the display key or Windows + p and "
+"select the wanted layout. Done!"
+msgstr ""
+"クイックセットアップダイアログで、複数画面のセットアップがすぐに行なえます。"
+"追加ディスプレイを接続し、ディスプレイキーあるいは Windows + p を押し、レイア"
+"ウトを選択して完了です!"
+
+#: about/tour.php:89
+msgid "Settings edition in the Xfce Settings Editor"
+msgstr "Xfce 設定エディタでの設定の変更"
+
+#: about/tour.php:91
+msgid ""
+"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
+"Xfconf settings viewer. You can now modify, delete, add and reset settings "
+"through its interface. It also monitors changes to update its view."
+msgstr ""
+"Xfce 設定エディタは、その名にふさわしいものになり、もう単純な Xfconf 設定"
+"ビューアではありません。エディタ上で、設定の変更、削除、追加、あるいはリセッ"
+"トが行えます。また、その表示の更新のため、変更を監視します。"
+
+#: about/tour.php:93
+msgid "Editing Xfconf properties with the Settings Editor"
+msgstr "設定エディタを使った Xfconf プロパティの編集"
+
+#: about/tour.php:95
+msgid "Improved keyboard layout selection"
+msgstr "キーボードレイアウト選択の改善"
+
+#: about/tour.php:97
+msgid ""
+"The layout selection dialog received a lot of love: it no longer displays "
+"cryptic language/variants codes but uses localized languages/variants names. "
+"Layout edition was also made easier by prefilling the dialogs with the "
+"current values."
+msgstr ""
+"レイアウト選択ダイアログにはたくさんの愛情が注がれました。もう難解な言語/バリ"
+"アントコードをお見せすることはありません。そのかわりローカライズされた言語/バ"
+"リアントを使用します。レイアウトの変更は現在の値が初期値となってダイアログに"
+"表示され、設定しやすくなっています。"
+
+#: about/tour.php:99
+msgid "Layouts and variants list"
+msgstr "レイアウトとバリアントリスト"
 
 #: about/releasemodel.php:6 about/releasemodel.php:31
 msgid "The Xfce Core Desktop"
@@ -1126,7 +1215,7 @@ msgstr ""
 "びリリースフェイズからなり、最終的に Xfce コアデスクトップの新規安定版リリー"
 "スに至る。これらに並行して、現在の安定版リリースのメンテナンスも継続する。ま"
 "た、この期間中にXfce の安定版バージョンにおけるバグ修正やセキュリティ修正のリ"
-"リースも必要に応じて行わる。"
+"リースも必要に応じて行われる。"
 
 #: about/releasemodel.php:71
 msgid ""
@@ -1195,7 +1284,7 @@ msgstr ""
 
 #: about/releasemodel.php:99
 msgid "These are the release team roles and their responsibilities:"
-msgstr "リリースチームの役割と責務を以下に示す:"
+msgstr "リリースチームの役割と責務は以下の通り:"
 
 #: about/releasemodel.php:102
 msgid "Release Manager"
@@ -1386,8 +1475,8 @@ msgid ""
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
 "開発版リリーズは通常次の安定版リリースのための機能プレビューとして提供する。"
-"それらのバージョンナンバーは X.Y.Z 表記でなければならず、Y は奇数でなければな"
-"らない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
+"それらのバージョンナンバーの表記は X.Y.Z 形式でなければならず、Y は奇数でなけ"
+"ればならない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
 
 #: about/releasemodel.php:185
 msgid ""
@@ -1725,16 +1814,15 @@ msgid ""
 "releases."
 msgstr ""
 "メンテナンスリリースでは、対応する Xfce コアデスクトップの最終リリースと比較"
-"して API/ABI の変更はない場合がある。また、バージョン表記は X.Y.Z 形式に、Yは"
-"偶数でなければならない (例: xfwm4-4.8.4、thunar-1.2.4 など)。これらのリリース"
-"では新しい機能や文字列の追加は行われない場合がある。"
+"して API/ABI の変更はない場合がある。また、バージョン表記は X.Y.Z 形式で、Y "
+"は偶数でなければならない (例: xfwm4-4.8.4、thunar-1.2.4 など)。これらのリリー"
+"スでは新しい機能や文字列の追加は行われない場合がある。"
 
-#: about/releasemodel.php:337 projects/xfce-utils.php:9 projects/exo.php:9
-#: projects/libxfce4.php:16 projects/xfce4-mixer.php:15
-#: projects/xfce4-session.php:9 projects/xfconf.php:9 projects/thunar.php:15
-#: projects/xfwm4.php:15 projects/terminal.php:11 projects/orage.php:9
-#: projects/xfce4-panel.php:19 projects/xfce4-appfinder.php:13
-#: projects/xfburn.php:11
+#: about/releasemodel.php:337 projects/exo.php:9 projects/orage.php:9
+#: projects/xfce4-appfinder.php:13 projects/xfce4-session.php:9
+#: projects/xfburn.php:11 projects/xfce4-mixer.php:15 projects/thunar.php:15
+#: projects/terminal.php:11 projects/xfce-utils.php:9 projects/libxfce4.php:16
+#: projects/xfwm4.php:15 projects/xfce4-panel.php:19 projects/xfconf.php:9
 msgid "Authors"
 msgstr "作者"
 
@@ -2170,1070 +2258,6 @@ msgstr ""
 "Xfce 4.4.0に関しての質問がある場合やインストール中に問題が起こった場合は、ぜ"
 "ひ<a href=\"/community/lists\">xfce</a>のメーリングリストを使ってください。"
 
-#: about/press.php:5
-msgid "Here you can find various reviews of the Xfce desktop environment."
-msgstr "ここで Xfce のいろいろな批評を見つけることができます。(英文)"
-
-#: about/press.php:10
-msgid "Date"
-msgstr "日付"
-
-#: about/press.php:11
-msgid "Website"
-msgstr "ウェブサイト"
-
-#: about/press.php:12
-msgid "Link"
-msgstr "リンク"
-
-#: about/credits.php:11 about/credits.php:61
-msgid "Core developers"
-msgstr "中心開発者"
-
-#: about/credits.php:12 about/credits.php:72
-msgid "Active contributors"
-msgstr "現在の協力者"
-
-#: about/credits.php:13 about/credits.php:87
-msgid "Servers maintained by"
-msgstr "サーバの管理"
-
-#: about/credits.php:14 about/credits.php:98
-msgid "Goodies supervision"
-msgstr "Goodies の監修"
-
-#: about/credits.php:15 about/credits.php:104
-msgid "Translations supervision"
-msgstr "翻訳の監修"
-
-#: about/credits.php:16 about/credits.php:111
-msgid "Translators"
-msgstr "翻訳者"
-
-#: about/credits.php:17 about/credits.php:114
-msgid "Previous contributors"
-msgstr "以前の協力者"
-
-#: about/credits.php:56
-msgid ""
-"A large number of people contributed to the Xfce project. Although more "
-"people contributed to the project then the ones list below, we'd like to say:"
-msgstr ""
-"多くの方々がこの Xfce プロジェクトに貢献してくださいました。以下のリストやそ"
-"の他多くの貢献者の方々申し上げます:"
-
-#: about/credits.php:58
-msgid "Thanks to all who helped making this software available!"
-msgstr "このソフトウェアを利用できるよう協力していただいた皆様に感謝します!"
-
-#: community/nav.php:4 community/index.php:3 header.php:62
-msgid "Community"
-msgstr "コミュニティ"
-
-#: community/nav.php:7
-msgid "Forum"
-msgstr "フォーラム"
-
-#: community/nav.php:8
-msgid "Blog"
-msgstr "ブログ"
-
-#: community/nav.php:9 projects/thunar.php:39
-msgid "Wiki"
-msgstr "Wiki"
-
-#: community/nav.php:10
-msgid "Bug tracker"
-msgstr "バグトラッカー"
-
-#: community/index.php:6 community/index.php:19
-msgid "IRC"
-msgstr "IRC"
-
-#: community/index.php:7 community/index.php:25
-msgid "Mailing lists"
-msgstr "メーリングリスト"
-
-#: community/index.php:8 community/index.php:112
-msgid "Forums"
-msgstr "フォーラム"
-
-#: community/index.php:9 community/index.php:118
-msgid "Identi.ca Xfce group"
-msgstr "Identi.ca Xfce group"
-
-#: community/index.php:16
-msgid ""
-"Whether it be to solve a problem or to contribute in any way, the Xfce "
-"communities are a good place to get help or to share your ideas. You might "
-"also want to have a look at the communities of the different distributions "
-"which provide Xfce."
-msgstr ""
-"Xfce コミュニティは、問題の解決や何らかの方法で貢献したい時などに、協力を仰い"
-"だりアイデアを共有しあうのに適した場所です。他に、Xfce を提供する様々なディス"
-"トリビューションのコミュニティにも目を通したほうが良いかもしれません。"
-
-#: community/index.php:22
-msgid ""
-"If you have a problem that you cannot resolve, you might want to try asking "
-"a question in our IRC channel <a href=\"irc://irc.freenode.net/#xfce\">#xfce "
-"on irc.freenode.net</a>. The channel has several active users. It is "
-"recommended that you consult the <a href=\"http://docs.xfce.org/\" class="
-"\"external\">documentation</a> about your problem before asking your "
-"question."
-msgstr ""
-"解決できない問題があるときは、IRC チャンネル <a href=\"irc://irc.freenode."
-"net/#xfce\">irc.freenode.net上の#xfce</a> で問題を尋ねるといいでしょう (ただ"
-"し英語です)。チャンネルには何人かのアクティブユーザがいます。問題を尋ねる前"
-"に <a href=\"/documentation\">ドキュメント</a> を見ることをおすすめします。"
-
-#: community/index.php:28
-msgid ""
-"<strong>NOTE:</strong> In order to post to these lists, you must first "
-"subscribe."
-msgstr ""
-"<strong>注意：</strong> リストに投稿するにはそのリストを購読しなければなりま"
-"せん。"
-
-#: community/index.php:33
-msgid "List"
-msgstr "リスト"
-
-#: community/index.php:34
-msgid "Description"
-msgstr "説明"
-
-#: community/index.php:38
-msgid "Discussion list for users of Xfce."
-msgstr "Xfce のユーザ同士が議論するためのリストです。"
-
-#: community/index.php:42
-msgid "Announcements of new versions of Xfce and related projects."
-msgstr ""
-"Xfce の新バーションとそれに関係したプロジェクトのアナウンスが投稿されます。"
-
-#: community/index.php:46
-msgid ""
-"This mailing list is used as a point of contact for people interested in "
-"promoting Xfce."
-msgstr ""
-"このメーリングリストは Xfce の広報に興味がある人が連絡する場所として使うため"
-"のものです。"
-
-#: community/index.php:50
-msgid ""
-"To coordinate the translation of Xfce into new languages. See also the <a "
-"href=\"/getinvolved/translate\">translations</a> page."
-msgstr ""
-"Xfce の様々な言語への翻訳に関する調整を行うところです。<a href=\"/"
-"getinvolved/translate\">翻訳</a>ページもご覧ください。"
-
-#: community/index.php:54
-msgid "To coordinate the German translation of Xfce."
-msgstr " Xfce のドイツ語翻訳に関する調整を行うところです。"
-
-#: community/index.php:57
-msgid "A mailing list for developers of Xfce."
-msgstr "Xfce の開発者用のメーリングリストです。"
-
-#: community/index.php:61
-msgid "To be notified of Xfce commits (including goodies and other modules)."
-msgstr ""
-"Xfce のコミット (Goodies や他のモジュールも含みます) を知らせるリストです。"
-
-#: community/index.php:65
-msgid "Xfce Goodies development discussion."
-msgstr "Xfce Goodies の開発について議論をするところです。"
-
-#: community/index.php:69
-msgid ""
-"E-mail address for general Xfce bugs. Bugs should be reported and discussed "
-"in the <a href=\"http://bugzilla.xfce.org\" class=\"external\">bug tracker</"
-"a>."
-msgstr ""
-"Xfce のバグ全般に関する通知が行われます。バグの報告や議論は<a href=\"http://"
-"bugzilla.xfce.org\" target=\"_blank\" class=\"external\">バグトラッカー</a>で"
-"行なってください。"
-
-#: community/index.php:73
-msgid "A mailing list for development of the Thunar file manager."
-msgstr "Thunar ファイルマネージャの開発用のメーリングリストです。"
-
-#: community/index.php:77
-msgid "Search the mailing lists"
-msgstr "メーリングリスト内の検索"
-
-#: community/index.php:86
-msgid "No results found in mailing lists"
-msgstr "メーリングリストの中からは見つかりませんでした。"
-
-#: community/index.php:115
-msgid ""
-"For users who prefer forums, the <a href=\"http://forum.xfce.org/\" class="
-"\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
-"able to help you, but please do not use it for bug reports."
-msgstr ""
-"フォーラムがお好みならば、<a href=\"http://forum.xfce.org/\" class=\"external"
-"\">Xfce フォーラム</a>を利用してください。アクティブメンバーがあなたを助けて"
-"くれるでしょう。ただし、バグの報告はここへはしないでください。"
-
-#: community/index.php:121
-msgid ""
-"<a href=\"http://identi.ca/group/xfce\" class=\"external\">The Identi.ca "
-"Xfce group</a> will allow you to get in touch with many Xfce users and to "
-"get the latest Xfce news."
-msgstr ""
-"<a href=\"http://identi.ca/group/xfce\" class=\"external\">Identi.ca Xfce "
-"group</a> では、多くのXfceユーザとふれあい、最新のXfceに関するニュースを得る"
-"ことができるでしょう。"
-
-#: download/building.php:3 download/building.php:9 download/building.php:214
-#: download/nav.php:7
-msgid "Building"
-msgstr "ビルド"
-
-#: download/building.php:6 download/building.php:20
-msgid "Version"
-msgstr "バージョン"
-
-#: download/building.php:7 download/building.php:29
-msgid "Source"
-msgstr "ソース"
-
-#: download/building.php:8 download/building.php:90
-msgid "Dependencies"
-msgstr "依存関係"
-
-#: download/building.php:10 download/building.php:257
-msgid "Help"
-msgstr "ヘルプ"
-
-#: download/building.php:17
-msgid ""
-"To compile a complete Xfce desktop from source requires some information "
-"about the dependency chain and the various configure options available in "
-"each module. This page will describe this in detail, so you can compile your "
-"own Xfce desktop; both system wide as well as in your $HOME directory."
-msgstr ""
-"完全な Xfce デスクトップをソースからコンパイルするにはいくつかの依存関係情報"
-"が必要であり、また各モジュールには様々なビルドオプションがあります。このペー"
-"ジではそれらの詳細について説明しています。"
-
-#: download/building.php:22
-msgid ""
-"First you need to decide which version of Xfce you want to compile. Version "
-"numbers are mostly build like this: 1.2.3 => major.minor.micro. If the minor "
-"version is an even number, it is a stable release, odd number are "
-"development snapshots. The micro number increases each release. Also keep "
-"the major.minor version the same for the core components (some packages "
-"don't follow those numbers) else you will most likely get dependency version "
-"problems during compiling."
-msgstr ""
-"まず、どのバージョンの Xfce をコンパイルするのか決めてください。バージョン番"
-"号はほとんどの場合、「1.2.3」のように表され、「メジャー.マイナー.マイクロ」を"
-"意味します。マイナーバージョンが奇数の場合、それは開発版のスナップショットで"
-"す。マイクロバージョンはリリースのたびに大きくなります。コアコンポーネントは"
-"同じメジャーおよびマイナーバージョンで統一してください (一部のパッケージに例"
-"外があります)。統一されていないと、コンパイル時に依存関係のバージョンの問題に"
-"遭遇するかもしれません。"
-
-#: download/building.php:26
-msgid ""
-"The latest releases available can be found on the <a href=\"/download"
-"\">download page</a>. You can also build from the source repositories if you "
-"have enough experience, more about that below."
-msgstr ""
-"最新のリリースは<a href=\"/download\">ダウンロードページ</a>から入手できま"
-"す。また、十分な経験のある方向けにソースリポジトリからビルドすることもでき、"
-"その手順を以下に説明しています。"
-
-#: download/building.php:31
-msgid ""
-"If you've decided which version you want to compile, there are a couple of "
-"ways to download the source code. You can choose to build official released "
-"packages or clone the source repositories. Choosing the released packages is "
-"recommended here; the source repositories could be broken and are not "
-"suitable for production environments, but on the other hand always contains "
-"the latest features, bug fixes and translations."
-msgstr ""
-"ソースコードの入手は、公式リリースパッケージをダウンロードする方法と、ソース"
-"リポジトリから clone する方法の 2 つがあります。特に理由がない限り、リリース"
-"パッケージを使用することをおすすめします。ソースリポジトリは破壊されているか"
-"もしれず、実稼働環境に適合しないかもしれません。しかし一方で、常に最新の、機"
-"能、バグの修正、あるいは翻訳が適用されています。"
-
-#: download/building.php:35
-msgid ""
-"If your not sure what to choose: easiest is to start with the latest stable "
-"fat-tarball of a collection release."
-msgstr ""
-"どちらを選ぶか迷っているのであれば、最新の安定版コレクションリリースの fat-"
-"tarball で始めるのが最も簡単なやり方です。"
-
-#: download/building.php:38
-msgid "Released packages"
-msgstr "リリースパッケージ"
-
-#: download/building.php:40
-msgid ""
-"Xfce packages have two types of releases. Click the links to open the the "
-"download locations."
-msgstr ""
-"Xfce パッケージのリリースには2つのタイプがあります。リンクをクリックするとダ"
-"ウンロードページを開きます。"
-
-#: download/building.php:44
-msgid "Collection releases of the core modules"
-msgstr "コアモジュールのコレクションリリース"
-
-#: download/building.php:46
-msgid ""
-"From time to time a new collection release if Xfce is made. A collection "
-"release consists of a number of individual tarballs and a fat-tarball that "
-"contains all the individual tarballs."
-msgstr ""
-"コレクションリリースは多くのパッケージの tarball からなる fat-tarball であ"
-"り、すべてのパッケージの tarball が含まれています。"
-
-#: download/building.php:50
-msgid ""
-"The collection releases always contain the correct versions to build the "
-"other packages in the release. If you want the latest version of each "
-"package, you can start with a collection release and then look for "
-"individual bug fix releases, explained in the item below."
-msgstr ""
-"コレクションリリースには常にリリース内でお互いのパッケージが正常にビルドおよ"
-"び動作できるバージョンが含まれています。各パッケージごとの最新リリースが欲し"
-"い場合は、まずコレクションリリースで始めて、以下の節で説明されている個別のリ"
-"リースを探してください。"
-
-#: download/building.php:54 download/index.php:9 download/index.php:33
-msgid "Individual releases"
-msgstr "個別のリリース"
-
-#: download/building.php:56
-msgid ""
-"Each package in Xfce is allowed to make development and stable releases at "
-"any time, see the <a href=\"/about/releasemodel\">release model</a> "
-"documentation for more information."
-msgstr ""
-"Xfce の各パッケージは、常に発展しており、そして安定版リリースを用意していま"
-"す。詳しくは<a href=\"/about/releasemodel\">リリースモデル</a>をご覧くださ"
-"い。"
-
-#: download/building.php:61
-msgid "From the code repository"
-msgstr "コードリポジトリから"
-
-#: download/building.php:63
-msgid ""
-"For the latest code you need to make local copies of the GIT repositories, "
-"this is the place where developers submit their code. It you decide to use "
-"GIT, try to use the same branch for all the packages to avoid dependency "
-"version problems."
-msgstr ""
-"最新のコードを使用したい場合は GIT リポジトリのローカルコピーを作成してくださ"
-"い。これは開発者が各コードを格納する場所です。GIT を使用する場合は、依存関係"
-"の問題を回避するため、すべてのパッケージは同じブランチのものを使用してくださ"
-"い。"
-
-#: download/building.php:67
-msgid ""
-"You first need to make clones of each GIT repository, like the command "
-"below, where <em>$category</em> is for example <em>xfce</em> and <em>"
-"$module</em> <em>xfce4-panel</em>. If you click on a module in the online <a "
-"href=\"http://git.xfce.org/xfce\" class=\"external\">repository list</a> the "
-"clone uri is shown at the buttom of the page."
-msgstr ""
-"まず最初に、以下のコマンドのようにして各 GIT リポジトリのクローンを作成しま"
-"す。<em>$category</em> は例えば <em>xfce</em> などであり、<em>$module</em> "
-"は <em>xfce4-panel</em> などになります。オンライン<a href=\"http://git.xfce."
-"org/xfce\" class=\"external\">リポジトリリスト</a>のモジュール名をクリックし"
-"て開くページの下にクローンする URI が表示されています。"
-
-#: download/building.php:75
-msgid ""
-"After the repository is cloned you need to choose which branch you want to "
-"compile. By default the <em>master</em> branch is selected, but there are "
-"also branches for stable releases like <em>xfce-4.6</em>. The stable "
-"branches contain the latest bug fixes without any major new feature, the "
-"<em>master</em> branch is the development version for the next release of "
-"Xfce. Both should not be used in a production environment."
-msgstr ""
-"リポジトリのクローンを作成したら、コンパイルするブランチを決定します。デフォ"
-"ルトでは <em>master</em> ブランチが選択されていますが、<em>xfce-4.6</em> のよ"
-"うに安定版リリースのブランチも用意されています。安定版ブランチは最新のバグ修"
-"正のみが適用されており、新機能の追加などは行われませんが、<em>master</em> ブ"
-"ランチは次の Xfce リリースへ向けての開発バージョンです。どちらも実稼働環境で"
-"使用すべきではありません。"
-
-#: download/building.php:79
-msgid ""
-"To switch to another branch (<em>git branch -a</em> lists all available "
-"branches) run the following command inside the cloned directory to switch "
-"to, for example, the <em>xfce-4.6</em> branch:"
-msgstr ""
-"他のブランチへの切り替えるには、クローンしたディレクトリ内で次のコマンドを切"
-"り替え先のブランチを指定して実行します。全ブランチの一覧は <em>git branch -"
-"a</em> で表示されます。例えば <em>xfce-4.6</em> ブランチへ切り替えるには:"
-
-#: download/building.php:87
-msgid ""
-"After this you can update your local copy of the repository with <em>git "
-"pull</em> and switch to another branch with <em>git checkout $branchname</"
-"em>. Read the <a href=\"http://git-scm.com/documentation\" class=\"external"
-"\">GIT manuals</a> for more information about using GIT."
-msgstr ""
-"以降は、リポジトリのローカルコピーの更新は <em>git pull</em> で、ブランチの切"
-"り替えは <em>git checkout $branchname</em> で行います。GIT についてのより詳し"
-"い情報は <a href=\"http://git-scm.com/documentation\" class=\"external\">GIT "
-"マニュアル</a>を参照してください。"
-
-#: download/building.php:92
-msgid "Build requirements"
-msgstr "ビルド要件"
-
-#: download/building.php:94
-msgid ""
-"Before you can start compiling, you need a couple of packages that are "
-"required to compile Xfce. Use your distributions package manager to install "
-"those packages. Additional packages are required too for some modules, but "
-"we'll get to that later."
-msgstr ""
-"Xfce をビルドするには、2、3のパッケージが必要です。使用しているディストリ"
-"ビューションのパッケージ管理でそれらをインストールしてください。いくつかのモ"
-"ジュールでは追加パッケージが必要なものもありますが、あとでインストールしま"
-"す。"
-
-#: download/building.php:98
-msgid "A working GNU toolchain"
-msgstr "GNU ツールチェーン"
-
-#: download/building.php:99
-msgid ""
-"Gtk+ and Glib headers, in some distributions called the <em>-devel</em> "
-"packages"
-msgstr ""
-"Gtk+ および Glib ヘッダ。一部のディストリビューションでは <em>-devel</em> "
-"パッケージと呼ばれています。"
-
-#: download/building.php:101
-msgid "Xfce 4.8 requires Gtk+ 2.14 and Glib 2.20"
-msgstr "Xfce 4.8 は Gtk+ 2.14 および Glib 2.20 以降が必要です。"
-
-#: download/building.php:102
-msgid "Xfce 4.6 requires Gtk+ 2.10 and Glib 2.12"
-msgstr "Xfce 4.6 は Gtk+ 2.10 および Glib 2.12 以降が必要です。"
-
-#: download/building.php:106
-msgid "Coffee"
-msgstr "コーヒー"
-
-#: download/building.php:110
-msgid "Xfce's dependency chain"
-msgstr "Xfce の依存関係"
-
-#: download/building.php:112
-msgid ""
-"The Xfce packages need to be built in a specific order. If you don't follow "
-"this, compile options might not be available or the configure stage will "
-"abort because of missing dependencies."
-msgstr ""
-"Xfce パッケージは決められた順番でビルドしなければなりません。順番を無視する"
-"と、コンパイルオプションが使用できなかったり、依存関係の未解決によって "
-"configure ステージが中断します。"
-
-#: download/building.php:116
-msgid "only required if you build from GIT"
-msgstr "GIT からビルドする場合のみ必要"
-
-#: download/building.php:119
-msgid "new in 4.8"
-msgstr "4.8 から"
-
-#: download/building.php:119
-msgid "deprecated since 4.8"
-msgstr "4.8 で廃止"
-
-#: download/building.php:126
-msgid "Package specific dependencies"
-msgstr "パッケージ固有の依存関係"
-
-#: download/building.php:128
-msgid ""
-"Some core packages in Xfce have addition or optional dependencies, all are "
-"listed in the table below for the latest stable version. We only show the "
-"top package as dependency (so xfce4-panel also requires gtk+, but libxfce4ui "
-"already depends on that). Note that some of the package names may vary "
-"between distributions."
-msgstr ""
-"Xfce のいくつかのコアパッケージには追加または任意の (必須でない) 依存関係があ"
-"ります。以下に最新の安定バージョンにおける一覧を示します。これらは依存関係の"
-"先頭にあるもののみ表示しています (xfce4-panel も gtk+ に依存しますが、"
-"libxfce4ui がすでに依存しているので省略されています)。一部のパッケージ名は"
-"ディストリビューション間で異なっているかもしれないことに留意してください。"
-
-#: download/building.php:215
-msgid "Installation location and variables"
-msgstr "インストール場所および環境変数"
-
-#: download/building.php:217
-msgid ""
-"Now it is finally time to start compiling the Xfce desktop. Last remaining "
-"thing is to choose an installation location. Possible examples are <em>/usr</"
-"em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide "
-"installation or <em>$HOME/local</em> if you want to install in your home "
-"directory (whatever you choose, never put spaces in the name). We will "
-"referrer to this location as <em>${PREFIX}</em> in the code examples below!"
-msgstr ""
-"これで Xfce デスクトップのコンパイルに必要なものが揃いました。残るはインス"
-"トール場所の決定です。現実的な例として、システム全体へのインストールの場合は "
-"<em>/usr</em>、<em>/usr/local</em>、あるいは <em>/opt/xfce4</em> になります。"
-"あなたのユーザのみで使用し、home ディレクトリ配下にインストールする場合は "
-"<em>$HOME/local</em> などになるでしょう (どこにするにしろ、名前にスペースが含"
-"まれてはなりません)。以下の例の <em>${PREFIX}</em> にこの場所を指定してくださ"
-"い。"
-
-#: download/building.php:221
-msgid ""
-"You need to make sure the <em>PKG_CONFIG_PATH</em> variable include the path "
-"to the *.pc files installed by the Xfce libraries:"
-msgstr ""
-"環境変数 <em>PKG_CONFIG_PATH</em> に Xfce ライブラリによってインストールされ"
-"る *.pc ファイルのパスが含まれていることを確認してください:"
-
-#: download/building.php:229
-msgid ""
-"You can also set some optimization flags for the compiler. This may speed up "
-"Xfce, but can also make debugging impossible on some systems. Even worse, "
-"this can also cause gcc to generate broken code, so be carefull with this. "
-"The line below should be safe for most system."
-msgstr ""
-"コンパイラ用に最適化フラグも指定できます。これは Xfce の速度を向上させます"
-"が、一部のシステムではデバッグができなくなります。さらには、このせいで gcc が"
-"破壊されたコードを生成する場合もあるため、その使用には注意してください。以下"
-"はほとんどのシステムで安全な設定です。"
-
-#: download/building.php:236
-msgid "Compiling and installing"
-msgstr "コンパイルとインストール"
-
-#: download/building.php:238
-msgid ""
-"Next step is compiling the various packages following the dependency chain "
-"above. If you have downloaded the tarballs, you need to unpack them before "
-"going on. Inside each package directory you should run the following command:"
-msgstr ""
-"次に、上記の依存関係に従って様々なパッケージをコンパイルします。tarball をダ"
-"ウンロードしていた場合は、それを展開しておいてください。各パッケージのディレ"
-"クトリ内で以下のコマンドを実行します:"
-
-#: download/building.php:246
-msgid ""
-"To build from GIT you need to install the xfce4-dev-tools package first, all "
-"other packages should be installed with this command:"
-msgstr ""
-"GIT からビルドする場合ははじめに xfce4-dev-tools をインストールしておく必要が"
-"あります。その他すべてのパッケージは以下のコマンドでインストールされます:"
-
-#: download/building.php:254
-msgid ""
-"Specific configure options for each package can be shown with <em>./"
-"configure --help</em>. Note that most packages benefit if you pass the "
-"configure option <em>--disable-debug</em>, however if you want to provide "
-"backtraces or test new code, no <em>CFLAGS</em>, no binary stripping and "
-"<em>--enable-debug=full</em> are recommended."
-msgstr ""
-"各パッケージのビルドオプションは <em>./configure --help</em> で表示されます。"
-"ほとんどのパッケージは <em>--disable-debug</em> を指定する方がよいのですが、"
-"backtraceの採取や新しいコードのテストを行う場合は <em>CFLAGS</em> を指定せ"
-"ず、バイナリをストリップせず、<em>--enable-debug=full</em> を指定することを推"
-"奨します。"
-
-#: download/building.php:259
-msgid ""
-"Hopefully everything went fine after reading this guide. If you still have "
-"problems or questions you can ask on the <a href=\"/community#mail\">Xfce "
-"users mailing list</a>, the <a href=\"http://forum.xfce.org\" class="
-"\"external\">forum</a> or ask distribution related questions on their forums "
-"and mailing lists."
-msgstr ""
-"このガイドにしたがって作業すればすべてうまくいくと思います。もしなにか解決し"
-"ない問題や疑問があれば、<a href=\"/community#mail\">Xfce users mailing list</"
-"a>、<a href=\"http://forum.xfce.org\" class=\"external\">フォーラム</a>、ある"
-"いはディストリビューション関連のフォーラムやメーリングリストで尋ねてみてくだ"
-"さい。"
-
-#: download/building.php:263
-msgid "Have fun building Xfce!"
-msgstr "お疲れ様です!"
-
-#: download/nav.php:6 download/index.php:5 header.php:61
-msgid "Download"
-msgstr "ダウンロード"
-
-#: download/nav.php:8 download/changelogs/index.php:3
-msgid "Changelogs"
-msgstr "更新履歴"
-
-#: download/nav.php:9 download/distros.php:1
-msgid "Distributions"
-msgstr "ディストリビューション"
-
-#: download/nav.php:12
-msgid "Browse GIT repositories"
-msgstr "GIT リポジトリを見る"
-
-#: download/nav.php:13
-msgid "Xfce goodies"
-msgstr "Xfce goodies"
-
-#: download/index.php:8
-msgid "Stable release"
-msgstr "安定版リリース"
-
-#: download/index.php:12
-msgid "Preview release"
-msgstr "プレビューリリース"
-
-#: download/index.php:20
-msgid ""
-"Most distributions ship with Xfce in their own packaging format, but if you "
-"want a newer version or you want to build Xfce from scratch, you can find "
-"the packages below. Instructions how to compile Xfce can be found <a href=\"/"
-"download/building\">here</a>. You can also take a look at the list of <a "
-"href=\"/download/distros\">Xfce-oriented distributions</a>."
-msgstr ""
-"ほとんどのディストリビューションはそれぞれのパッケージ形式で Xfce を提供して"
-"いますが、より新しいバージョンを使いたい、あるいは Xfce を自分で一からビルド"
-"したい場合は、以下のパッケージを使用できます。コンパイル手順の説明は<a href="
-"\"download/building\">こちら</a>です。また、Xfce に特化したディストリビュー"
-"ションのリストは<a href=\"/download/distros\">こちら</a>にあります。"
-
-#: download/index.php:23
-#, php-format
-msgid "Stable release %s"
-msgstr "安定版リリース %s"
-
-#: download/index.php:26
-#, php-format
-msgid ""
-"Xfce %s is the most recent version of the Xfce desktop environment. You can "
-"find the changes in this release <a href=\"/download/changelogs/%s\">here</"
-"a>."
-msgstr ""
-"Xfce %s は Xfce デスクトップ環境の最新バージョンです。このリリースでの変更内"
-"容は<a href=\"/download/changelogs/%s\">こちら</a>をご覧ください。"
-
-#: download/index.php:35
-msgid ""
-"Each package in Xfce can make individual stable or development releases, "
-"including the core packages (as described in the <a href=\"/about/"
-"releasemodel\">release model</a>). You can follow the announcements of the "
-"releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, "
-"watch the <a href=\"http://archive.xfce.org/feeds/project/\">release feeds</"
-"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
-"a>."
-msgstr ""
-"Xfce のコアパッケージを含む各パッケージはそれぞれの安定版または開発版リリース"
-"を個別に作成できます (<a href=\"/about/releasemodel\">リリースモデル</a>を参"
-"照してください)。リリースのお知らせは <a href=\"/community/lists\">Xfce "
-"users mailing list</a>、<a href=\"http://archive.xfce.org/feeds/project/"
-"\">release feeds</a>、あるいは Xfce <a href=\"http://identi.ca/xfce\">identi."
-"ca channel</a> で行われます。"
-
-#: download/index.php:43
-#, php-format
-msgid "Preview release %s"
-msgstr "プレビューリリース %s"
-
-#: download/index.php:45
-#, php-format
-msgid ""
-"Xfce %s is the latest development release of the Xfce desktop environment. "
-"This release should not be used in a production environments. If you are "
-"uncertain about downloading this release, you should probably use the <a "
-"href=\"#stable\">stable release</a> above. You can find the changes in this "
-"release <a href=\"/download/changelogs/%s\">here</a>."
-msgstr ""
-"Xfce %s は Xfce デスクトップ環境の最新の開発版リリースです。これを実稼働環境"
-"で使用すべきではありません。もしこのリリースをダウンロードすることに不安を覚"
-"えるのであれば、上の<a href=\"#stable\">安定版リリース</a>を使用してくださ"
-"い。このリリースでの変更内容は<a href=\"/download/changelogs/%s\">こちら</a>"
-"をご覧ください。"
-
-#: download/requirements.php:1
-msgid "System requirements"
-msgstr "システム要件"
-
-#: download/requirements.php:5
-#, php-format
-msgid ""
-"All packages (except xfce4-dev-tools) depend on both gtk+ %s and glib %s."
-msgstr ""
-"すべてのパッケージ (xfce4-dev-tools は除く) は gtk+ %s および glib %s に依存"
-"します。"
-
-#: download/requirements.php:9
-msgid ""
-"It is also recommended to build all Xfce components from the same release "
-"version."
-msgstr ""
-"また、すべての Xfce コンポーネントは同じリリースからビルドすることを推奨しま"
-"す。"
-
-#: download/requirements.php:12
-msgid "Build order"
-msgstr "ビルド順"
-
-#: download/requirements.php:24
-msgid "Package dependencies"
-msgstr "パッケージの依存関係"
-
-#: download/requirements.php:27
-msgid "Package"
-msgstr "パッケージ"
-
-#: download/requirements.php:28
-msgid "Dependency(-ies)"
-msgstr "必須の依存関係"
-
-#: download/requirements.php:29
-msgid "Optional Dependency(-ies)"
-msgstr "任意の依存関係"
-
-#: download/requirements.php:113
-msgid ""
-"The build dependencies tree is also available as a <a href=\"/images/"
-"documentation/xfce-bdeps.svg\">SVG file</a>."
-msgstr ""
-"ビルドの依存関係ツリーは <a href=\"/images/documentation/xfce-bdeps.svg"
-"\">SVG ファイル</a>でもご覧いただけます。"
-
-#: download/requirements.php:115
-msgid "Recommended packages"
-msgstr "推奨パッケージ"
-
-#: download/requirements.php:117
-msgid "support for scalable icons"
-msgstr "スケーラブルアイコンのサポート"
-
-#: download/requirements.php:118
-msgid "better support for icon themes"
-msgstr "アイコンテーマのよりよいサポート"
-
-#: download/requirements.php:120
-msgid "locking the screen"
-msgstr "スクリーンのロック"
-
-#: download/changelogs/index.php:33
-msgid ""
-"Xfce release notes are specific to each version. Select your version from "
-"the list below to see the changes in the release. "
-msgstr ""
-"Xfce リリースノートは各バージョンごとに用意されています。以下のリストから、リ"
-"リースごとの変更点を確認できます。"
-
-#: download/distros.php:5
-msgid "Distributions based on Xfce"
-msgstr "Xfce ベースのディストリビューション"
-
-#: download/distros.php:9
-msgid ""
-"The Fedora Xfce Spin is live cd which is also installable that showcases the "
-"Xfce Desktop Environment featuring a mix of high productivity centric "
-"applications."
-msgstr ""
-"Fedora Xfce Spin は、生産性の高いアプリケーションを中心に盛り込んだ、Xfce デ"
-"スクトップ環境を紹介するインストール可能な LiveCD です。"
-
-#: download/distros.php:14
-msgid ""
-"Xubuntu is a Linux distribution based on Ubuntu. Unlike its parent Xubuntu "
-"uses the light-weight Xfce desktop environment. The distribution includes "
-"only GTK+ applications where possible."
-msgstr ""
-"Xubuntu は Ubuntu ベースの Linux ディストリビューションです。Ubuntu とな異な"
-"り軽量な Xfce デスクトップ環境を採用しています。このディストリビューションで"
-"は可能な限り Gtk+ アプリケーションのみを同梱しています。"
-
-#: download/distros.php:19
-msgid ""
-"Zenwalk is an operating system based on Slackware. The goal of Zenwalk is "
-"being slim and fast using only one application per task combined with the "
-"Xfce Desktop. Zenwalk features the latest Linux technology along with a "
-"complete programming environment and libraries to provide an ideal platform "
-"for application programmers. Zenwalk's modular approach also provides a "
-"simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. "
-"LAMP, messaging, file sharing)."
-msgstr ""
-"Zenwalk は Slackware ベースのオペレーティングシステムです。一つのタスクに一つ"
-"のアプリケーションを用い、スリムかつ軽快なものにすることを目的としています。"
-"Zenwalk はアプリケーションプログラマ向けの理想的なプラットフォームであり、完"
-"全なプログラミング環境とライブラリとともに最新の Linux の技術を提供しているこ"
-"とが特徴です。Zenwalk のモジュール方式のアプローチは、Zenwalk Linux をきめ細"
-"かく最適化されたサーバにするための簡単な方法も提供します (たとえば、LAMP、"
-"メッセージング、ファイル共有など)。"
-
-#: download/distros.php:24
-msgid ""
-"Mythbuntu is an community supported add-on for Ubuntu focused upon setting "
-"up a standalone MythTV based PVR system. It can be used to prepare a "
-"standalon system or for integration with an existing MythTV network."
-msgstr ""
-"Mythbuntu は MythTV ベースのスタンドアロン PVR システムを Ubuntu 上でセット"
-"アップするためのコミュニティサポートアドオンです。スタンドアロンシステムの用"
-"意、または既存の MythTV ネットワークと統合するために使用できます。"
-
-#: download/distros.php:29
-msgid ""
-"Element OS is a free open source operating system for home theater PCs, "
-"media center computers, and set-top boxes. Featuring an innovative \"across "
-"the room\" Xfce-based interface which is designed to be connected to your "
-"HDTV for a digital media and internet experience from within the comforts of "
-"your own living room or lounge. Element comes loaded with the software "
-"needed to stream all forms of Web content and manage your own multimedia "
-"library and downloads."
-msgstr ""
-"Element OS は、ホームシアターPC、メディアセンターコンピュータ、およびセット"
-"トップボックス用のフリーでオープンソースのオペレーティングシステムです。革新"
-"的な「部屋の向こうの」Xfce ベースのインターフェイスを特徴とし、HDTV に接続し"
-"て、リビングルームやラウンジでくつろぎながら、デジタルメディアやインターネッ"
-"トエクスペリエンスを楽しむために設計されています。Element OS には、すべての形"
-"式のウェブコンテンツのストリームや、マルチメディアライブラリやダウンロードの"
-"管理に必要なソフトウェアが積み込まれています。"
-
-#: download/distros.php:35
-msgid ""
-"Dreamlinux is a modern and modular GNU/Linux system that can be run directly "
-"a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, "
-"PATA and USB Drive)."
-msgstr ""
-"Dreamlinux は CD/DVD/USB スティックから直接起動できる最新のモジュール式 GNU/"
-"Linux で、HDD (IDE、SCSI、SATA、PATA、および USB ドライブ) にインストールも可"
-"能です。"
-
-#: download/distros.php:40
-msgid ""
-"Speed, performance, stability -- these are attributes that set VectorLinux "
-"apart in the crowded field of Linux distributions. The creators of "
-"VectorLinux had a single credo: keep it simple, keep it small and let the "
-"end user decide what their operating system is going to be. What has evolved "
-"from this concept is perhaps the best little Linux operating system "
-"available anywhere."
-msgstr ""
-"スピード、パフォーマンス、安定性 ―― それは VectorLinux をごちゃごちゃとした "
-"Linux ディストリビューション界の中から際立たせる特徴です。VectorLinux の創設"
-"者にはひとつの信条がありました。シンプルで、小さく、エンドユーザにそのオペ"
-"レーティングシステムをどうするかを決めさせるということです。このコンセプトが"
-"進化し、おそらくどこでも使える最高に小さい Linux ディストリビューションになり"
-"ました。"
-
-#: download/distros.php:45
-msgid ""
-"Wolvix is a desktop oriented GNU/Linux distribution based on Slackware. It "
-"features the Xfce desktop environment and a comprehensive selection of "
-"development, graphics, multimedia, network and office applications. It's "
-"mainly targeted at home users and strives to provide a balance between "
-"everyday computing tasks, creativity, work and enjoyment."
-msgstr ""
-"Wolvix は Slackware ベースのデスクトップ指向 GNU/Linux ディストリビューション"
-"です。Xfce デスクトップ環境と、開発、グラフィックス、マルチメディア、ネット"
-"ワーク、およびオフィスアプリケーションにおよぶ総合的なセレクションを特徴とし"
-"ています。主にホームユーズをターゲットとし、毎日のコンピュータ作業、創造的作"
-"業、および娯楽のバランスがとれるよう努力しています。"
-
-#: download/distros.php:50
-msgid ""
-"Kate OS is a polish GNU/Linux distribution. It is a lightweight binary "
-"distribution featuring Xfce as the default desktop environment."
-msgstr ""
-"Kate OS は洗練された GNU/Linux ディストリビューションです。デフォルトのデスク"
-"トップ環境に Xfce を採用した軽量なバイナリディストリビューションです。"
-
-#: download/distros.php:55
-msgid ""
-"Salix is a Linux distribution based on Slackware that is simple, fast and "
-"easy to use. Salix is also fully backwards compatible with Slackware, so "
-"Slackware users can benefit from Salix repositories, which they can use as "
-"an \"extra\" quality source of software for their favorite distribution. "
-"Like a bonsai, Salix is small, light and the product of infinite care."
-msgstr ""
-"Salix は シンプルで、高速で、使いやすい Slackware ベースの Linux ディストリ"
-"ビューションです。"
-
-#: download/distros.php:58
-msgid "Xfce Live-CD distributions"
-msgstr "Xfce Live-CD ディストリビューション"
-
-#: download/distros.php:62
-msgid ""
-"SAM Linux Desktop is a self-booting live CD containing a full linux desktop "
-"OS. You don't have to install it on your harddisk, it runs completely from "
-"your cd drive and your RAM."
-msgstr ""
-"SAM Linux Desktop は完全な Linux デスクトップ を含んだブート可能な LiveCD OS "
-"です。ハードディスクにインストールする必要はなく、完全に CD ドライブや RAM か"
-"ら実行できます。"
-
-#: download/distros.php:67
-msgid ""
-"PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking "
-"users. It's built with Linux-live scripts from Tomas Matejicek (Slax)."
-msgstr ""
-"PureOSlight は Debian (testing) ベースのフランス語話者向け LiveCD です。"
-"Tomas Matejicek (Slax) による  Linux-live scripts でビルドされています。"
-
-#: download/distros.php:70
-msgid "General distributions with a good Xfce support"
-msgstr "Xfce をサポートする総合ディストリビューション"
-
-#: download/distros.php:74
-msgid ""
-"Debian is one of the most famous binary distributions, used as a base by "
-"many other distributions. It's know for its stability, its performances and "
-"the wide choice of available applications. The <a href=\"http://pkg-xfce."
-"alioth.debian.org/\">Debian Xfce group</a> takes care of integrating Xfce "
-"into Debian to provide a nice user experience."
-msgstr ""
-"Debian は最も有名なバイナリディストリビューションの一つで、他の多くのディスト"
-"リビューションのベースとなっています。安定性、パフォーマンス、および利用でき"
-"るアプリケーションの幅広さで知られています。<a href=\"http://pkg-xfce.alioth."
-"debian.org/\">Debian Xfce group</a> は優れたユーザエクスペリエンスを提供する"
-"ために Xfce の Debian への統合を担当しています。"
-
-#: download/distros.php:79
-msgid ""
-"Mandriva Linux is an operating system for your computer. Easy to try. Easy "
-"to install. Easy to use. Xfce is of course available, simple to install and "
-"configure."
-msgstr ""
-"Mandriva Linux は試しやすく、インストールしやすく、使いやすいオペレーティング"
-"システムです。Xfce ももちろん利用でき、簡単にインストールと設定を行えます。"
-
-#: download/distros.php:84
-msgid ""
-"OpenSUSE is a free and Linux-based operating system for your PC, Laptop or "
-"Server. You can surf the web, manage your e-mails and photos, do office "
-"work, play videos or music and have a lot of fun!"
-msgstr ""
-"OpenSUSE はフリーで Linux ベースの PC あるいはサーバ用オペレーティングシステ"
-"ムです。ウェブサーフィン、Eメールや写真の管理、オフィスワーク、あるいはビデオ"
-"や音楽の再生など楽しみがたくさんあります!"
-
-#: download/distros.php:89
-msgid ""
-"Arch Linux is a simple, agile and lightweight GNU/Linux distribution, and "
-"UNIX-like operating system. Arch Linux requires a certain level of intimate "
-"knowledge of its configuration and of UNIX-like system methodology."
-msgstr ""
-"Arch Linux は、シンプル、軽快、そして軽量の GNU/Linux ディストリビューション"
-"です。Arch Linux は設定や UNIX-like システムの流儀に関するある程度の知識が必"
-"要とされます。"
-
-#: download/distros.php:94
-msgid ""
-"The Official Release of Slackware Linux is an advanced Linux operating "
-"system, designed with the twin goals of ease of use and stability as top "
-"priorities. Including the latest popular software while retaining a sense of "
-"tradition, providing simplicity and ease of use alongside flexibility and "
-"power, Slackware brings the best of all worlds to the table."
-msgstr ""
-"Slackware Linux の公式リリースは進化した Linux ディストリビューションで、使い"
-"やすさと安定性を最優先事項に設計されています。伝統を重んじ、シンプルで使いや"
-"すい一方で柔軟でパワフルな、最新の人気あるソフトウェアを含んでおり、テーブル"
-"の上にすべての世界をもたらします。"
-
-#: download/distros.php:99
-msgid ""
-"Gentoo is a special flavor of Linux that can be automatically optimized and "
-"customized for just about any application or need. Extreme performance, "
-"configurability and a top-notch user and developer community are all "
-"hallmarks of the Gentoo experience. Gentoo ships the latest Xfce releases "
-"and allow you to integrate them in a very performant environment."
-msgstr ""
-"Gentoo は Linux の特別なフレーバーで、アプリケーションや必要性に応じて自動的"
-"に最適化およびカスタマイズが行えます。最高のパフォーマンス、構成設定性、およ"
-"び一流のユーザと開発者のコミュニティが Gentoo エクスペリエンスの特質です。"
-"Gentoo は最新の Xfce リリースを提供し、非常に高性能な環境に統合できます。"
-
-#: download/distros.php:104
-msgid ""
-"Lunar Linux is a source-based distribution. Although there is no native "
-"desktop environment in Lunar, it has excellent support for Xfce, mainly "
-"because a couple of Xfce developers are also Lunar developers. Another "
-"noticeable point: all Xfce servers are running Lunar Linux!"
-msgstr ""
-"Lunar Linux はソースベースのディストリビューションです。公式のデスクトップ環"
-"境はありませんが、何人かの Xfce 開発者は Lunar の開発者でもありますので、"
-"Xfce への対応は抜群に良いです。他に注目できるところ: Xfce のサーバのすべては "
-"Lunar Linux で動いています!"
-
-#: download/distros.php:109
-msgid ""
-"The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like "
-"operating system. Our efforts emphasize portability, standardization, "
-"correctness, proactive security and integrated cryptography. OpenBSD "
-"supports binary emulation of most programs from SVR4 (Solaris), FreeBSD, "
-"Linux, BSD/OS, SunOS and HP-UX."
-msgstr ""
-"OpenBSD プロジェクトは、フリーでマルチプラットフォームな 4.4BSD ベースの "
-"UNIX-like オペレーティングシステムです。ポータビリティ、標準化、正確性、積極"
-"的なセキュリティ、および統合された暗号化へ尽力しています。OpenBSD は SVR4 "
-"(Solaris)、FreeBSD、Linux、BSD/OS、SunOS、および HP-UX のほとんどのプログラム"
-"のバイナリエミュレーションをサポートしています。"
-
-#: footer.php:5
-#, php-format
-msgid ""
-"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
-"was last modified on %s."
-msgstr ""
-"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. このページ"
-"の最終更新日: %s"
-
-#: feed.php:29
-msgid "Xfce News"
-msgstr "Xfce ニュース"
-
-#: feed.php:30
-msgid "Xfce release announcements"
-msgstr "Xfce リリースのお知らせ"
-
-#: projects/xfce-utils.php:1
-msgid "What are the utilities and scripts?"
-msgstr "ユーティリティとスクリプトとは"
-
-#: projects/xfce-utils.php:6
-msgid ""
-"The Utilities and Scripts provides an about dialog for Xfce 4, an "
-"application launcher and several useful scripts that are also used by other "
-"Xfce components such as the panel and the desktop menu."
-msgstr ""
-"ユーティリティとスクリプトは、Xfce 4 のアバウトダイアログ、アプリケーションラ"
-"ンチャ、およびパネルやデスクトップメニューといった他の Xfce コンポーネントで"
-"も使用されるいくつかの役に立つスクリプトを提供します。"
-
-#: projects/xfce-utils.php:19 projects/exo.php:17 projects/libxfce4.php:26
-#: projects/xfce4-mixer.php:21 projects/xfdesktop.php:19
-#: projects/xfce4-session.php:16 projects/xfconf.php:17 projects/thunar.php:23
-#: projects/terminal.php:18 projects/orage.php:16 projects/xfce4-panel.php:26
-#: projects/xfce4-appfinder.php:19 projects/xfburn.php:17
-msgid "Useful links"
-msgstr "関連リンク"
-
-#: projects/xfce-utils.php:23
-msgid "Download the source tarballs of Xfce Utils releases"
-msgstr "Xfce Utils リリースのソース tarball をダウンロード"
-
-#: projects/xfce-utils.php:26
-msgid "Xfce utils source code on git.xfce.org"
-msgstr "Xfce Utils のソースコード (git.xfce.org)"
-
-#: projects/xfce-utils.php:29
-msgid "Bugs reported against Xfce Utils"
-msgstr "Xfce Utils のバグを報告"
-
 #: projects/exo.php:1
 msgid "What is Exo?"
 msgstr "Exo とは"
@@ -3241,6 +2265,15 @@ msgstr "Exo とは"
 #: projects/exo.php:6
 msgid "Exo is an application library for the Xfce desktop environment."
 msgstr "Exo は Xfce デスクトップ環境用アプリケーションライブラリです。"
+
+#: projects/exo.php:17 projects/orage.php:16 projects/xfce4-appfinder.php:19
+#: projects/xfce4-session.php:16 projects/xfburn.php:17
+#: projects/xfce4-mixer.php:21 projects/thunar.php:23 projects/terminal.php:18
+#: projects/xfce-utils.php:19 projects/libxfce4.php:26
+#: projects/xfce4-panel.php:26 projects/xfdesktop.php:19
+#: projects/xfconf.php:17
+msgid "Useful links"
+msgstr "関連リンク"
 
 #: projects/exo.php:21
 msgid "Download the source tarballs of Exo releases"
@@ -3254,60 +2287,124 @@ msgstr "Exo のソースコード (git.xfce.org)"
 msgid "Bugs reported against Exo"
 msgstr "Exo のバグを報告"
 
-#: projects/nav.php:4 projects/index.php:3 header.php:64
-msgid "Projects"
-msgstr "プロジェクト"
+#: projects/orage.php:1
+msgid "What is Orage?"
+msgstr "Orage とは"
+
+#: projects/orage.php:6
+msgid ""
+"Orage provides a calendar which integrates nicely into the Xfce Desktop "
+"Environment. It is highly configurable and supports alerts based on dates. "
+"It warns you with popup or audio alarm. As it is an application for every "
+"day use, it launches itself in the background as a daemon and can be "
+"accessed using the Orage Clock plugin for the panel."
+msgstr ""
+"Orage は、Xfce デスクトップ環境とよく統合されたカレンダを提供します。高度に設"
+"定可能であり、日付ベースのアラート機能を備え、ポップアップまたはオーディオア"
+"ラームによってあなたにお知らせします。毎日使うアプリケーションなので、デーモ"
+"ンとしてバックグラウンドで起動でき、パネル用の Orage クロックプラグインを使用"
+"してアクセスできます。"
+
+#: projects/orage.php:20
+msgid "Download the source tarballs of Orage releases"
+msgstr "Orage リリースのソース tarball をダウンロード"
+
+#: projects/orage.php:23
+msgid "Orage source code on git.xfce.org"
+msgstr "Orage のソースコード (git.xfce.org)"
+
+#: projects/orage.php:26
+msgid "Bugs reported against Orage"
+msgstr "Orage のバグを報告"
+
+#: projects/xfce4-appfinder.php:1
+msgid "What is the Application Finder?"
+msgstr "アプリケーションファインダとは"
+
+#: projects/xfce4-appfinder.php:6
+msgid ""
+"This is an application finder for the Xfce Desktop Environment. It is a "
+"useful program that allows you to find applications on the system and launch "
+"them. It provides easy keyboard navigation and can be used as a replacement "
+"for xfrun4."
+msgstr ""
+"Xfce デスクトップ環境用のアプリケーションファインダです。システムにインストー"
+"ルされているアプリケーションの検索および起動を行える便利なプログラムです。簡"
+"単なキーナビゲーションを提供し、xfrun4 の代替となります。"
+
+#: projects/xfce4-appfinder.php:23
+msgid "Download the source tarballs of Xfce4 Appfinder releases"
+msgstr "Xfce4 Appfinder のソース tarball をダウンロード"
+
+#: projects/xfce4-appfinder.php:26
+msgid "Xfce4 Appfinder source code on git.xfce.org"
+msgstr "Xfce4 Appfinder のソースコード (git.xfce.org)"
+
+#: projects/xfce4-appfinder.php:29
+msgid "Bugs reported against Xfce4 Appfinder"
+msgstr "Xfce4 Appfinder のバグを報告"
+
+#: projects/xfce4-session.php:1
+msgid "What is the Session Manager?"
+msgstr "セッションマネージャとは"
+
+#: projects/xfce4-session.php:6
+msgid ""
+"The session manager allows the user to save sessions and restore them after "
+"login. It is capable of saving several different sessions. It also provides "
+"an easy way to log out, reboot, shutdown, hibernate or suspend your computer."
+msgstr ""
+"セッションマネージャは、セッションの保存およびログイン時の復元を可能にしま"
+"す。いくつかの異なるセッションの保存も行えます。また、ログアウトや、コン"
+"ピュータの再起動、シャットダウン、ハイバネート、およびサスペンドを簡単に行う"
+"ことができます。"
+
+#: projects/xfce4-session.php:20
+msgid "Download the source tarballs of Xfce4 Session releases"
+msgstr "Xfce4 Session リリースのソース tarball をダウンロード"
+
+#: projects/xfce4-session.php:23
+msgid "Xfce4 Session source code on git.xfce.org"
+msgstr "Xfce4 Session のソースコード (git.xfce.org)"
+
+#: projects/xfce4-session.php:26
+msgid "Bugs reported against Xfce4 Session"
+msgstr "Xfce4 Session のバグを報告"
+
+#: projects/xfburn.php:1
+msgid "What is Xfburn?"
+msgstr "Xfburn とは"
+
+#: projects/xfburn.php:6
+msgid ""
+"Xfburn is a simple CD/DVD burning tool based on <a class=\"external\" href="
+"\"http://www.libburnia-project.org/\">libburnia</a> libraries. It can blank "
+"CD/DVD(-RW)s, burn and create ISO images, audio CDs, as well as burn "
+"personal compositions of data to either CD or DVD."
+msgstr ""
+"Xfburn は <a href=\"http://libburnia-project.org/\">libburnia</a> ライブラリ"
+"ベースのシンプルな CD/DVD 作成ツールです。CD/DVD(-RW) の初期化、ISO イメージ"
+"の作成、音楽 CD や個人用データを格納した CD/DVD の作成などができます。"
+
+#: projects/xfburn.php:21
+msgid "More on Xfburn"
+msgstr "Xfburn についてもっと詳しく"
+
+#: projects/xfburn.php:24
+msgid "Download the source tarballs of Xfburn releases"
+msgstr "Xfburn リリースのソース tarball をダウンロード"
+
+#: projects/xfburn.php:27
+msgid "Xfburn source code on git.xfce.org"
+msgstr "Xfburn のソースコード (git.xfce.org)"
+
+#: projects/xfburn.php:30
+msgid "Bugs reported against Xfburn"
+msgstr "Xfburn のバグを報告"
 
 #: projects/nav.php:7
 msgid "Xfce Goodies"
 msgstr "Xfce Goodies"
-
-#: projects/libxfce4.php:1
-msgid "What are libxfce4util and libxfce4ui?"
-msgstr "libxfce4util と libxfce4ui とは"
-
-#: projects/libxfce4.php:6
-msgid ""
-"The core libraries provide common functionalities to the Xfce environment. "
-"They are two libraries which provide non-graphical helper functions, "
-"widgets, convenience functions for graphical user interfaces  and functions "
-"for settings management."
-msgstr ""
-"コアライブラリは Xfce デスクトップ環境の共通機能群を提供しています。非グラ"
-"フィカルヘルパ機能、ウィジェットやグラフィカルユーザインターフェイス用の便利"
-"な機能、そして設定管理用の機能を提供する 2 つのライブラリがあります。"
-
-#: projects/libxfce4.php:12
-msgid ": basic utilities."
-msgstr ": 基本ユーティリティ"
-
-#: projects/libxfce4.php:13
-msgid ": unified widgets and session management."
-msgstr ": 統合されたウィジェットおよびセッション管理"
-
-#: projects/libxfce4.php:32
-msgid "Download the source tarballs of Libxfce4util releases"
-msgstr "Libxfce4util リリースのソース tarball をダウンロード"
-
-#: projects/libxfce4.php:35
-msgid "Libxfce4util source code on git.xfce.org"
-msgstr "Libxfce4util のソースコード (git.xfce.org)"
-
-#: projects/libxfce4.php:38
-msgid "Bugs reported against Libxfce4util"
-msgstr "Libxfce4util のバグを報告"
-
-#: projects/libxfce4.php:46
-msgid "Download the source tarballs of Libxfce4ui releases"
-msgstr "Libxfce4ui リリースのソース tarball をダウンロード"
-
-#: projects/libxfce4.php:49
-msgid "Libxfce4ui source code on git.xfce.org"
-msgstr "Libxfce4ui のソースコード (git.xfce.org)"
-
-#: projects/libxfce4.php:52
-msgid "Bugs reported against Libxfce4ui"
-msgstr "Libxfce4ui のバグを報告"
 
 #: projects/xfce4-mixer.php:1
 msgid "What is the mixer?"
@@ -3341,40 +2438,6 @@ msgstr "Xfce4 Mixer のソースコード (git.xfce.org)"
 #: projects/xfce4-mixer.php:31
 msgid "Bugs reported against Xfce4 Mixer"
 msgstr "Xfce4 Mixer のバグを報告"
-
-#: projects/xfdesktop.php:1
-msgid "What is Xfdesktop?"
-msgstr "Xfdesktop とは"
-
-#: projects/xfdesktop.php:6
-msgid ""
-"The desktop manager sets the background image, provides a right-click menu "
-"to launch applications and can optionally show files (including application "
-"launchers) or iconified windows. It includes gradient support for background "
-"color, saturation support for background image, real multiscreen and "
-"xinerama support."
-msgstr ""
-"デスクトップマネージャは、背景画像の設定、アプリケーションを起動できる右ク"
-"リックメニューの提供、および任意のファイル (アプリケーションランチャを含む) "
-"やアイコン化されたウィンドウの表示を行います。また、背景色のグラデーション、"
-"背景画像の彩度設定、本当のマルチスクリーンおよび Xinerama をサポートしていま"
-"す。"
-
-#: projects/xfdesktop.php:11
-msgid "Author"
-msgstr "作者"
-
-#: projects/xfdesktop.php:23
-msgid "Download the source tarballs of Xfdesktop releases"
-msgstr "Xfdesktop リリースのソース tarball をダウンロード"
-
-#: projects/xfdesktop.php:26
-msgid "Xfdesktop source code on git.xfce.org"
-msgstr "Xfdesktop のソースコード (git.xfce.org)"
-
-#: projects/xfdesktop.php:29
-msgid "Bugs reported against Xfdesktop"
-msgstr "Xfdesktop のバグを報告"
 
 #: projects/index.php:8 projects/index.php:108
 msgid "Applications"
@@ -3530,84 +2593,6 @@ msgstr "画像ビューア"
 msgid "Ristretto is a lightweight image viewer."
 msgstr "Ristretto は軽量の画像ビューアです。"
 
-#: projects/xfce4-settings.php:1
-msgid "What is the Settings Manager?"
-msgstr "設定マネージャとは"
-
-#: projects/xfce4-settings.php:6
-msgid ""
-"The settings manager allows you to customize your desktop environment in an "
-"easy and intuitive way. You can set some hardware components such as mouse, "
-"keyboard or display; but also theme your windows, widgets and icons, set "
-"your preferred applications, manage your sessions..."
-msgstr ""
-"設定マネージャでは、デスクトップ環境を簡単かつ直感的にカスタマイズできます。"
-"マウスや、キーボード、ディスプレイといったハードウェアコンポーネントだけでな"
-"く、ウィンドウ、ウィジェットおよびアイコンのテーマ、お気に入りのアプリケー"
-"ションの設定、セッション管理などの設定が行えます。"
-
-#: projects/xfce4-settings.php:26
-msgid "Download the source tarballs of Xfce4 Settings releases"
-msgstr "Xfce4 Settings リリースのソース tarball をダウンロード"
-
-#: projects/xfce4-settings.php:29
-msgid "Xfce4 Settings source code on git.xfce.org"
-msgstr "Xfce4 Settings のソースコード (git.xfce.org)"
-
-#: projects/xfce4-settings.php:32
-msgid "Bugs reported against Xfce4 Settings"
-msgstr "Xfce4 Settings のバグを報告"
-
-#: projects/xfce4-session.php:1
-msgid "What is the Session Manager?"
-msgstr "セッションマネージャとは"
-
-#: projects/xfce4-session.php:6
-msgid ""
-"The session manager allows the user to save sessions and restore them after "
-"login. It is capable of saving several different sessions. It also provides "
-"an easy way to log out, reboot, shutdown, hibernate or suspend your computer."
-msgstr ""
-"セッションマネージャは、セッションの保存およびログイン時の復元を可能にしま"
-"す。いくつかの異なるセッションの保存も行えます。また、ログアウトや、コン"
-"ピュータの再起動、シャットダウン、ハイバネート、およびサスペンドを簡単に行う"
-"ことができます。"
-
-#: projects/xfce4-session.php:20
-msgid "Download the source tarballs of Xfce4 Session releases"
-msgstr "Xfce4 Session リリースのソース tarball をダウンロード"
-
-#: projects/xfce4-session.php:23
-msgid "Xfce4 Session source code on git.xfce.org"
-msgstr "Xfce4 Session のソースコード (git.xfce.org)"
-
-#: projects/xfce4-session.php:26
-msgid "Bugs reported against Xfce4 Session"
-msgstr "Xfce4 Session のバグを報告"
-
-#: projects/xfconf.php:1
-msgid "What is Xfconf?"
-msgstr "Xfconf とは"
-
-#: projects/xfconf.php:6
-msgid ""
-"Xfconf is a simple client-server configuration storage and query system."
-msgstr ""
-"Xfconf は、シンプルなクライアント―サーバ型設定格納および問い合わせシステムで"
-"す。"
-
-#: projects/xfconf.php:21
-msgid "Download the source tarballs of Xfconf releases"
-msgstr "Xfconf リリースのソース tarball をダウンロード"
-
-#: projects/xfconf.php:24
-msgid "Xfconf source code on git.xfce.org"
-msgstr "Xfconf のソースコード (git.xfce.org)"
-
-#: projects/xfconf.php:27
-msgid "Bugs reported against Xfconf"
-msgstr "Xfconf のバグを報告"
-
 #: projects/thunar.php:1
 msgid "What is the Thunar File Manager?"
 msgstr "Thunar ファイルマネージャとは"
@@ -3655,6 +2640,109 @@ msgstr "Thunar のバグを報告"
 msgid "Homepage"
 msgstr "ホームページ"
 
+#: projects/thunar.php:39 community/nav.php:9
+msgid "Wiki"
+msgstr "Wiki"
+
+#: projects/terminal.php:1
+msgid "What is Terminal?"
+msgstr "Terminal とは"
+
+#: projects/terminal.php:6
+msgid ""
+"Terminal is a modern, lightweight, and low memory cost terminal emulator "
+"with tabs and multiple windows for the Xfce desktop environment. It offers "
+"full-customization for the key bindings, the aspect, the colors, and more."
+msgstr ""
+"Terminal は、Xfce デスクトップ環境用の、モダンで、軽量かつメモリ消費の少ない"
+"ターミナルエミュレータで、タブおよび複数ウィンドウをサポートしています。キー"
+"バインド、外観、配色などフルカスタマイズできます。"
+
+#: projects/terminal.php:22
+msgid "Download the source tarballs of Terminal releases"
+msgstr "Terminal リリースのソース tarball をダウンロード"
+
+#: projects/terminal.php:25
+msgid "Terminal source code on git.xfce.org"
+msgstr "Terminal のソースコード (git.xfce.org)"
+
+#: projects/terminal.php:28
+msgid "Bugs reported against Terminal"
+msgstr "Terminal のバグを報告"
+
+#: projects/xfce-utils.php:1
+msgid "What are the utilities and scripts?"
+msgstr "ユーティリティとスクリプトとは"
+
+#: projects/xfce-utils.php:6
+msgid ""
+"The Utilities and Scripts provides an about dialog for Xfce 4, an "
+"application launcher and several useful scripts that are also used by other "
+"Xfce components such as the panel and the desktop menu."
+msgstr ""
+"ユーティリティとスクリプトは、Xfce 4 のアバウトダイアログ、アプリケーションラ"
+"ンチャ、およびパネルやデスクトップメニューといった他の Xfce コンポーネントで"
+"も使用されるいくつかの役に立つスクリプトを提供します。"
+
+#: projects/xfce-utils.php:23
+msgid "Download the source tarballs of Xfce Utils releases"
+msgstr "Xfce Utils リリースのソース tarball をダウンロード"
+
+#: projects/xfce-utils.php:26
+msgid "Xfce utils source code on git.xfce.org"
+msgstr "Xfce Utils のソースコード (git.xfce.org)"
+
+#: projects/xfce-utils.php:29
+msgid "Bugs reported against Xfce Utils"
+msgstr "Xfce Utils のバグを報告"
+
+#: projects/libxfce4.php:1
+msgid "What are libxfce4util and libxfce4ui?"
+msgstr "libxfce4util と libxfce4ui とは"
+
+#: projects/libxfce4.php:6
+msgid ""
+"The core libraries provide common functionalities to the Xfce environment. "
+"They are two libraries which provide non-graphical helper functions, "
+"widgets, convenience functions for graphical user interfaces  and functions "
+"for settings management."
+msgstr ""
+"コアライブラリは Xfce デスクトップ環境の共通機能群を提供しています。非グラ"
+"フィカルヘルパ機能、ウィジェットやグラフィカルユーザインターフェイス用の便利"
+"な機能、そして設定管理用の機能を提供する 2 つのライブラリがあります。"
+
+#: projects/libxfce4.php:12
+msgid ": basic utilities."
+msgstr ": 基本ユーティリティ"
+
+#: projects/libxfce4.php:13
+msgid ": unified widgets and session management."
+msgstr ": 統合されたウィジェットおよびセッション管理"
+
+#: projects/libxfce4.php:32
+msgid "Download the source tarballs of Libxfce4util releases"
+msgstr "Libxfce4util リリースのソース tarball をダウンロード"
+
+#: projects/libxfce4.php:35
+msgid "Libxfce4util source code on git.xfce.org"
+msgstr "Libxfce4util のソースコード (git.xfce.org)"
+
+#: projects/libxfce4.php:38
+msgid "Bugs reported against Libxfce4util"
+msgstr "Libxfce4util のバグを報告"
+
+#: projects/libxfce4.php:46
+msgid "Download the source tarballs of Libxfce4ui releases"
+msgstr "Libxfce4ui リリースのソース tarball をダウンロード"
+
+#: projects/libxfce4.php:49
+msgid "Libxfce4ui source code on git.xfce.org"
+msgstr "Libxfce4ui のソースコード (git.xfce.org)"
+
+#: projects/libxfce4.php:52
+msgid "Bugs reported against Libxfce4ui"
+msgstr "Libxfce4ui のバグを報告"
+
 #: projects/xfwm4.php:1
 msgid "What is Xfwm4?"
 msgstr "Xfwm4 とは"
@@ -3695,62 +2783,6 @@ msgstr "Xfwm4 のソースコード (git.xfce.org)"
 #: projects/xfwm4.php:31
 msgid "Bugs reported against Xfwm4"
 msgstr "Xfwn4 のバグを報告"
-
-#: projects/terminal.php:1
-msgid "What is Terminal?"
-msgstr "Terminal とは"
-
-#: projects/terminal.php:6
-msgid ""
-"Terminal is a modern, lightweight, and low memory cost terminal emulator "
-"with tabs and multiple windows for the Xfce desktop environment. It offers "
-"full-customization for the key bindings, the aspect, the colors, and more."
-msgstr ""
-"Terminal は、Xfce デスクトップ環境用の、モダンで、軽量かつメモリ消費の少ない"
-"ターミナルエミュレータで、タブおよび複数ウィンドウをサポートしています。キー"
-"バインド、外観、配色などフルカスタマイズできます。"
-
-#: projects/terminal.php:22
-msgid "Download the source tarballs of Terminal releases"
-msgstr "Terminal リリースのソース tarball をダウンロード"
-
-#: projects/terminal.php:25
-msgid "Terminal source code on git.xfce.org"
-msgstr "Terminal のソースコード (git.xfce.org)"
-
-#: projects/terminal.php:28
-msgid "Bugs reported against Terminal"
-msgstr "Terminal のバグを報告"
-
-#: projects/orage.php:1
-msgid "What is Orage?"
-msgstr "Orage とは"
-
-#: projects/orage.php:6
-msgid ""
-"Orage provides a calendar which integrates nicely into the Xfce Desktop "
-"Environment. It is highly configurable and supports alerts based on dates. "
-"It warns you with popup or audio alarm. As it is an application for every "
-"day use, it launches itself in the background as a daemon and can be "
-"accessed using the Orage Clock plugin for the panel."
-msgstr ""
-"Orage は、Xfce デスクトップ環境とよく統合されたカレンダを提供します。高度に設"
-"定可能であり、日付ベースのアラート機能を備え、ポップアップまたはオーディオア"
-"ラームによってあなたにお知らせします。毎日使うアプリケーションなので、デーモ"
-"ンとしてバックグラウンドで起動でき、パネル用の Orage クロックプラグインを使用"
-"してアクセスできます。"
-
-#: projects/orage.php:20
-msgid "Download the source tarballs of Orage releases"
-msgstr "Orage リリースのソース tarball をダウンロード"
-
-#: projects/orage.php:23
-msgid "Orage source code on git.xfce.org"
-msgstr "Orage のソースコード (git.xfce.org)"
-
-#: projects/orage.php:26
-msgid "Bugs reported against Orage"
-msgstr "Orage のバグを報告"
 
 #: projects/xfce4-panel.php:1
 msgid "What is the Xfce panel?"
@@ -3799,424 +2831,90 @@ msgstr "Xfce4 Panel のソースコード (git.xfce.org)"
 msgid "Bugs reported against Xfce4 Panel"
 msgstr "Xfce4 Panel のバグを報告"
 
-#: projects/xfce4-appfinder.php:1
-msgid "What is the Application Finder?"
-msgstr "アプリケーションファインダとは"
+#: projects/xfce4-settings.php:1
+msgid "What is the Settings Manager?"
+msgstr "設定マネージャとは"
 
-#: projects/xfce4-appfinder.php:6
+#: projects/xfce4-settings.php:6
 msgid ""
-"This is an application finder for the Xfce Desktop Environment. It is a "
-"useful program that allows you to find applications on the system and launch "
-"them. It provides easy keyboard navigation and can be used as a replacement "
-"for xfrun4."
+"The settings manager allows you to customize your desktop environment in an "
+"easy and intuitive way. You can set some hardware components such as mouse, "
+"keyboard or display; but also theme your windows, widgets and icons, set "
+"your preferred applications, manage your sessions..."
 msgstr ""
-"Xfce デスクトップ環境用のアプリケーションファインダです。システムにインストー"
-"ルされているアプリケーションの検索および起動を行える便利なプログラムです。簡"
-"単なキーナビゲーションを提供し、xfrun4 の代替となります。"
+"設定マネージャでは、デスクトップ環境を簡単かつ直感的にカスタマイズできます。"
+"マウスや、キーボード、ディスプレイといったハードウェアコンポーネントだけでな"
+"く、ウィンドウ、ウィジェットおよびアイコンのテーマ、お気に入りのアプリケー"
+"ションの設定、セッション管理などの設定が行えます。"
 
-#: projects/xfce4-appfinder.php:23
-msgid "Download the source tarballs of Xfce4 Appfinder releases"
-msgstr "Xfce4 Appfinder のソース tarball をダウンロード"
+#: projects/xfce4-settings.php:26
+msgid "Download the source tarballs of Xfce4 Settings releases"
+msgstr "Xfce4 Settings リリースのソース tarball をダウンロード"
 
-#: projects/xfce4-appfinder.php:26
-msgid "Xfce4 Appfinder source code on git.xfce.org"
-msgstr "Xfce4 Appfinder のソースコード (git.xfce.org)"
+#: projects/xfce4-settings.php:29
+msgid "Xfce4 Settings source code on git.xfce.org"
+msgstr "Xfce4 Settings のソースコード (git.xfce.org)"
 
-#: projects/xfce4-appfinder.php:29
-msgid "Bugs reported against Xfce4 Appfinder"
-msgstr "Xfce4 Appfinder のバグを報告"
+#: projects/xfce4-settings.php:32
+msgid "Bugs reported against Xfce4 Settings"
+msgstr "Xfce4 Settings のバグを報告"
 
-#: projects/xfburn.php:1
-msgid "What is Xfburn?"
-msgstr "Xfburn とは"
+#: projects/xfdesktop.php:1
+msgid "What is Xfdesktop?"
+msgstr "Xfdesktop とは"
 
-#: projects/xfburn.php:6
+#: projects/xfdesktop.php:6
 msgid ""
-"Xfburn is a simple CD/DVD burning tool based on <a class=\"external\" href="
-"\"http://www.libburnia-project.org/\">libburnia</a> libraries. It can blank "
-"CD/DVD(-RW)s, burn and create ISO images, audio CDs, as well as burn "
-"personal compositions of data to either CD or DVD."
+"The desktop manager sets the background image, provides a right-click menu "
+"to launch applications and can optionally show files (including application "
+"launchers) or iconified windows. It includes gradient support for background "
+"color, saturation support for background image, real multiscreen and "
+"xinerama support."
 msgstr ""
-"Xfburn は <a href=\"http://libburnia-project.org/\">libburnia</a> ライブラリ"
-"ベースのシンプルな CD/DVD 作成ツールです。CD/DVD(-RW) の初期化、ISO イメージ"
-"の作成、音楽 CD や個人用データを格納した CD/DVD の作成などができます。"
+"デスクトップマネージャは、背景画像の設定、アプリケーションを起動できる右ク"
+"リックメニューの提供、および任意のファイル (アプリケーションランチャを含む) "
+"やアイコン化されたウィンドウの表示を行います。また、背景色のグラデーション、"
+"背景画像の彩度設定、本当のマルチスクリーンおよび Xinerama をサポートしていま"
+"す。"
 
-#: projects/xfburn.php:21
-msgid "More on Xfburn"
-msgstr "Xfburn についてもっと詳しく"
+#: projects/xfdesktop.php:11
+msgid "Author"
+msgstr "作者"
 
-#: projects/xfburn.php:24
-msgid "Download the source tarballs of Xfburn releases"
-msgstr "Xfburn リリースのソース tarball をダウンロード"
+#: projects/xfdesktop.php:23
+msgid "Download the source tarballs of Xfdesktop releases"
+msgstr "Xfdesktop リリースのソース tarball をダウンロード"
 
-#: projects/xfburn.php:27
-msgid "Xfburn source code on git.xfce.org"
-msgstr "Xfburn のソースコード (git.xfce.org)"
+#: projects/xfdesktop.php:26
+msgid "Xfdesktop source code on git.xfce.org"
+msgstr "Xfdesktop のソースコード (git.xfce.org)"
 
-#: projects/xfburn.php:30
-msgid "Bugs reported against Xfburn"
-msgstr "Xfburn のバグを報告"
+#: projects/xfdesktop.php:29
+msgid "Bugs reported against Xfdesktop"
+msgstr "Xfdesktop のバグを報告"
 
-#: news-array.php:10
-msgid "Xfce 4.8 released"
-msgstr ""
+#: projects/xfconf.php:1
+msgid "What is Xfconf?"
+msgstr "Xfconf とは"
 
-#: news-array.php:15
+#: projects/xfconf.php:6
 msgid ""
-"Today, after almost two years of work, we have the special pleasure of "
-"announcing the much awaited release of Xfce 4.8, the new stable version that "
-"supersedes Xfce 4.6."
+"Xfconf is a simple client-server configuration storage and query system."
 msgstr ""
+"Xfconf は、シンプルなクライアント―サーバ型設定格納および問い合わせシステムで"
+"す。"
 
-#: news-array.php:16
-msgid ""
-"We hope that everyone will enjoy this release as much as we do. Sadly, this "
-"will not be the case as the folks using any of the BSD systems will notice a "
-"sudden loss of features. We think that this announcement is a good "
-"opportunity to express our disagreement with the recent \"Linux-only\" "
-"developments in the open source ecosystem, especially with regards to the "
-"utilities we need in desktop environments."
-msgstr ""
+#: projects/xfconf.php:21
+msgid "Download the source tarballs of Xfconf releases"
+msgstr "Xfconf リリースのソース tarball をダウンロード"
 
-#: news-array.php:17
-msgid ""
-"Xfce 4.8 is our attempt to update the Xfce code base to all the new desktop "
-"frameworks that were introduced in the past few years. We hope that our "
-"efforts to drop pieces like ThunarVFS and HAL with GIO, udev, ConsoleKit and "
-"PolicyKit will help bringing the Xfce desktop to modern distributions."
-msgstr ""
+#: projects/xfconf.php:24
+msgid "Xfconf source code on git.xfce.org"
+msgstr "Xfconf のソースコード (git.xfce.org)"
 
-#: news-array.php:18
-msgid ""
-"With Xfce 4.8 our users will be able to browse remote shares using a variety "
-"of protocols (SFTP, SMB, FTP and many more). The window clutter has been "
-"reduced by merging all file progress dialogs into a single one."
-msgstr ""
-
-#: news-array.php:19
-msgid ""
-"Our panel application has been rewritten, thereby improving positioning, "
-"transparency, item and launcher management. It also introduces a new menu "
-"plugin to view directories. Its plugin framework remains compatible with 4.6 "
-"plugins."
-msgstr ""
-
-#: news-array.php:20
-msgid ""
-"We also improved our settings dialogs. The display configuration dialog now "
-"supports RandR 1.2, detects screens automatically and allows our users to "
-"pick their favorite resolution, refresh rate, rotation. Screens can be "
-"configured to either work in clone mode or be placed next to each other. "
-"Keyboard selection has become easier and more user-friendly. Also, the "
-"manual settings editor has been updated be more functional."
-msgstr ""
-
-#: news-array.php:21
-msgid ""
-"Aside from the features implemented in Xfce, the 4.8 development cycle "
-"brought us a bunch of other goodies. For the first time we had a serious "
-"release strategy formed after the \"Xfce Release and Development Model\" "
-"developed at the Ubuntu Desktop Summit in May 2009. A new web application "
-"made release management a lot easier. We worked hard on improving the "
-"situation of Xfce translators which led us to setting up our own Transifex "
-"server. Something else you will hopefully notice is that our server and "
-"mirroring infrastructure has been improved so that our servers hopefully "
-"will not suddenly surrender shortly after this release announcement."
-msgstr ""
-
-#: news-array.php:22
-msgid ""
-"There is a lot more to discover and we hope a lot of you will give Xfce 4.8 "
-"a try! There is a brief tour online on"
-msgstr ""
-
-#: news-array.php:23
-msgid ""
-"<a href=\"http://xfce.org/\">http://xfce.org/</a> and <a href=\"http://xfce."
-"org/about/tour\">http://xfce.org/about/tour</a>"
-msgstr ""
-
-#: news-array.php:24
-msgid ""
-"A summary of the changes since the 4.8pre3 preview release is available on "
-"the following URL (it also includes links to the changes introduced in all "
-"preview releases):"
-msgstr ""
-
-#: news-array.php:25
-msgid ""
-"<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
-"download/changelogs/4.8.0</a>"
-msgstr ""
-
-#: news-array.php:26
-msgid ""
-"The release can be downloaded either as individual releases or as a fat "
-"tarball including all these individual versions:"
-msgstr ""
-
-#: news-array.php:27
-msgid ""
-"<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
-"xfce/4.8/</a>"
-msgstr ""
-
-#: news-array.php:28
-msgid ""
-"2011 has just begun and we are already planning for the future. The 4.10 "
-"schedule will be worked on soon and hopefully, we will be able to turn Xfce "
-"into a non-profit organization at this year's FOSDEM, so stay tuned!"
-msgstr ""
-
-#: news-array.php:29
-msgid ""
-"But until then we hope you will enjoy today's release and join us in "
-"celebrating. Thanks go out to all our contributors, bug reporters as well as "
-"the awesome efforts of our translators and packagers. "
-msgstr ""
-
-#: news-array.php:30
-msgid "Best regards,<br />The Xfce development team"
-msgstr ""
-
-#: news-array.php:38
-msgid ""
-"Today we are pleased to announce the third and hopefully final preview "
-"release of Xfce 4.8 which is set to be pushed out to the public on January "
-"16th, 2011. Compared to Xfce 4.8pre2 this release mostly features "
-"translation updates and bug fixes."
-msgstr ""
-
-#: news-array.php:39
-msgid ""
-"With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no "
-"surprise that for most components only a few issues were tackled."
-msgstr ""
-
-#: news-array.php:40
-msgid ""
-"Among other things we updated the default keyboard shortcuts to include "
-"monitor keys. The status icon of the file manager's progress dialog is now "
-"properly hidden when the dialog is destroyed. It's wallpaper plugin is now "
-"capable of handling filenames with spaces. The environment variables of "
-"commands launched from the Xfce run dialog were not set properly, so we "
-"fixed that so that commands launched from the dialog always inherit the "
-"environment of the Xfce session."
-msgstr ""
-
-#: news-array.php:41
-msgid ""
-"We also made the --reboot and --halt parameters of xfce4-session-logout work "
-"again which previously simply logged out the active user. In order to avoid "
-"a race condition at session startup and in order to speed things up a little "
-"more we no longer use xrdb to update xft and cursor settings and instead, "
-"update the related XSETTINGS properties ourselves."
-msgstr ""
-
-#: news-array.php:42
-msgid ""
-"In the window manager xfwm4, we aligned the time period required for a "
-"double click with that of normal applications. Via the hidden option /"
-"general/mousewheel_rollup one can now disable windows being rolled up via "
-"the mouse wheel. The window manager now also properly handles resolution "
-"changes in fullscreen windows like those appearing in games. Xfwm4's "
-"application switcher now only appears once in cloned mode."
-msgstr ""
-
-#: news-array.php:43
-msgid ""
-"This may sound like a few useful fixes but it's nothing compared to the "
-"amount of work that went into the new Xfce panel once again. Around 20+ "
-"known bugs and regressions were fixed. Here is a short excerpt of the "
-"complete changelog: Translation domains were fixed for external plugins, "
-"plugins can be reordered with DND again, double-clicking items in the item "
-"editor shows their preferences, dragging items to the item editor dialog "
-"removes them from the panel again, tasklist windows can now be filtered by "
-"monitor. Another issue that appeared recently and has now been fixed is the "
-"icon sizing in the notification area, also known as the systray."
-msgstr ""
-
-#: news-array.php:44
-msgid ""
-"Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
-"the complete changelog."
-msgstr ""
-
-#: news-array.php:45
-msgid ""
-"Since we're following the Xfce <a href=\"/about/releasemodel\">release "
-"model</a> for 4.8, we'd normally announce code freeze and the creation of "
-"early lifecycle support branches today. We decided against this because "
-"there are not enough people active to take care of all this at the moment. "
-"So we will continue fixing bugs in master branches as we did between 4.8pre2 "
-"and 4.8pre3."
-msgstr ""
-
-#: news-array.php:52
-msgid ""
-"We are pleased to announce the second preview release of Xfce 4.8. This "
-"release marks the beginning of the string freeze. From today on until the "
-"final release, strings may no longer be changed in the master branch of Xfce "
-"core components. This will help translators to prepare their translations "
-"for the final release scheduled on January 16th, 2011."
-msgstr ""
-
-#: news-array.php:53
-msgid ""
-"For this release we focused on fixing bugs in all Xfce components. We "
-"managed to close a great number of them thanks to all the persons who "
-"reported them and tested proposed fixes quickly."
-msgstr ""
-
-#: news-array.php:54
-msgid ""
-"A few minor panel features were added despite feature freeze. We also "
-"managed to work on two long time requests: proper support for editing the "
-"application menu with menu editors (Alacarte being the one that we tested) "
-"and integration with the Compiz viewport. Of course, this release also "
-"features a lot of new and improved translations thanks to the amazing work "
-"of our translation teams."
-msgstr ""
-
-#: news-array.php:61
-msgid ""
-"The Xfce development team is proud to announce the first preview release for "
-"Xfce 4.8. Together with this preview release, the Xfce project announces the "
-"feature freeze for the final 4.8 release which is set to be pushed out to "
-"the world on January 16th, 2011."
-msgstr ""
-
-#: news-array.php:62
-msgid ""
-"This release incorporates major changes to the core of the Xfce desktop "
-"environment and hopefully succeeds in fulfilling a number of long time "
-"requests. Among the most notable updates is that we have ported the entire "
-"Xfce core (Thunar, xfdesktop and thunar-volman in particular) from ThunarVFS "
-"to GIO, bringing remote filesystems to the Xfce desktop. The panel has been "
-"rewritten from scratch and provides better launcher management and improved "
-"multi-head support. The list of new panel features is too long to mention in "
-"its entirety here. Thanks to the new menu library garcon (formerly known as "
-"libxfce4menu, but rewritten once again) we now support menu editing via a "
-"third-party menu editor such as Alacarte (we do not ship our own yet). Our "
-"core libraries have been streamlined a bit, a good example being the newly "
-"introduced libxfce4ui library which is meant to replace libxfcegui4."
-msgstr ""
-
-#: news-array.php:63
-msgid ""
-"Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
-"that, despite suffering from the small size of the development team from "
-"time to time, the core of the desktop environment has been aligned with "
-"today's desktop technologies such as GIO, ConsoleKit, PolicyKit, udev and "
-"many more. A lot of old cruft like has been stripped from the core as well, "
-"as has happened with HAL and ThunarVFS (which is still around for "
-"compatibility reasons)."
-msgstr ""
-
-#: news-array.php:64
-msgid ""
-"Thanks to the awesome Transifex translation platform, our language teams "
-"have been able to update their translations at an incredible pace. Please "
-"include them when praising this release!"
-msgstr ""
-
-#: news-array.php:71
-msgid "The second bugfix-release of xfce 4.6 has been released."
-msgstr ""
-
-#: news-array.php:72
-msgid ""
-"This release features a lot of updated translations and fixes some bugs or "
-"regressions with new GTK+ versions."
-msgstr ""
-
-#: news-array.php:79
-msgid "The first bugfix-release of xfce 4.6 has been released."
-msgstr ""
-
-#: news-array.php:80
-msgid ""
-"Thanks to all the people who have been using xfce 4.6 and took the time and "
-"effort to submit bugreports for stuff that wasn't quite working the way it "
-"is supposed to. We have been able to fix several issues during the past few "
-"weeks."
-msgstr ""
-
-#: news-array.php:81
-msgid ""
-"thanks to all the translators, several translations have been improved and "
-"completed since the release of 4.6.0."
-msgstr ""
-
-#: news-array.php:88
-msgid ""
-"After more than two years of development, Xfce 4.6.0 has just been released."
-msgstr ""
-
-#: news-array.php:89
-msgid ""
-"Xfce 4.6 features a new configuration backend, a new settings manager, a "
-"brand new sound mixer, and several huge improvements to the session manager "
-"and the rest of Xfce's core components. A list of all the changes since the "
-"last release candidate can be found on this page."
-msgstr ""
-
-#: news-array.php:90
-msgid ""
-"A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</"
-"a>."
-msgstr ""
-
-#: header.php:6
-msgid "Xfce Desktop Environment"
-msgstr "Xfce デスクトップ環境"
-
-#: header.php:57
-msgid "Categories"
-msgstr "カテゴリ"
-
-#: header.php:59
-msgid "Home"
-msgstr "Home"
-
-#: header.php:63 getinvolved/nav.php:4 getinvolved/index.php:1
-msgid "Get Involved"
-msgstr "参加する"
-
-#: header.php:71 header.php:85
-msgid "Change language"
-msgstr "言語の変更"
-
-#: header.php:100
-msgid "Category Pages"
-msgstr "カテゴリページ"
-
-#: header.php:121
-msgid "Related Sites"
-msgstr "関連サイト"
-
-#: frontpage.php:18
-msgid ""
-"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
-"It aims to be fast and low on system resources, while still being visually "
-"appealing and user friendly."
-msgstr ""
-"Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境です。"
-"視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としています。"
-
-#: frontpage.php:22
-#, php-format
-msgid "Download the latest %s release"
-msgstr "最新リリース %s をダウンロード"
-
-#: frontpage.php:23
-#, php-format
-msgid "Release notes for %s"
-msgstr "%s リリースノート"
-
-#: frontpage.php:24
-msgid "Visual tour of Xfce 4.8"
-msgstr "Xfce 4.8 ビジュアルツアー"
+#: projects/xfconf.php:27
+msgid "Bugs reported against Xfconf"
+msgstr "Xfconf のバグを報告"
 
 #: getinvolved/nav.php:6 getinvolved/index.php:17
 #: getinvolved/translation.php:3
@@ -4504,3 +3202,1303 @@ msgid ""
 "Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to "
 "update the translations online."
 msgstr ""
+
+#: frontpage.php:22
+#, php-format
+msgid "Download the latest %s release"
+msgstr "最新リリース %s をダウンロード"
+
+#: frontpage.php:23
+#, php-format
+msgid "Release notes for %s"
+msgstr "%s リリースノート"
+
+#: frontpage.php:24
+msgid "Visual tour of Xfce 4.8"
+msgstr "Xfce 4.8 ビジュアルツアー"
+
+#: footer.php:5
+#, php-format
+msgid ""
+"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
+"was last modified on %s."
+msgstr ""
+"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. このページ"
+"の最終更新日: %s"
+
+#: community/nav.php:7
+msgid "Forum"
+msgstr "フォーラム"
+
+#: community/nav.php:8
+msgid "Blog"
+msgstr "ブログ"
+
+#: community/nav.php:10
+msgid "Bug tracker"
+msgstr "バグトラッカー"
+
+#: community/index.php:6 community/index.php:19
+msgid "IRC"
+msgstr "IRC"
+
+#: community/index.php:7 community/index.php:25
+msgid "Mailing lists"
+msgstr "メーリングリスト"
+
+#: community/index.php:8 community/index.php:112
+msgid "Forums"
+msgstr "フォーラム"
+
+#: community/index.php:9 community/index.php:118
+msgid "Identi.ca Xfce group"
+msgstr "Identi.ca Xfce group"
+
+#: community/index.php:16
+msgid ""
+"Whether it be to solve a problem or to contribute in any way, the Xfce "
+"communities are a good place to get help or to share your ideas. You might "
+"also want to have a look at the communities of the different distributions "
+"which provide Xfce."
+msgstr ""
+"Xfce コミュニティは、問題の解決や何らかの方法で貢献したい時などに、協力を仰い"
+"だりアイデアを共有しあうのに適した場所です。他に、Xfce を提供する様々なディス"
+"トリビューションのコミュニティにも目を通したほうが良いかもしれません。"
+
+#: community/index.php:22
+msgid ""
+"If you have a problem that you cannot resolve, you might want to try asking "
+"a question in our IRC channel <a href=\"irc://irc.freenode.net/#xfce\">#xfce "
+"on irc.freenode.net</a>. The channel has several active users. It is "
+"recommended that you consult the <a href=\"http://docs.xfce.org/\" class="
+"\"external\">documentation</a> about your problem before asking your "
+"question."
+msgstr ""
+"解決できない問題があるときは、IRC チャンネル <a href=\"irc://irc.freenode."
+"net/#xfce\">irc.freenode.net上の#xfce</a> で問題を尋ねるといいでしょう (ただ"
+"し英語です)。チャンネルには何人かのアクティブユーザがいます。問題を尋ねる前"
+"に <a href=\"/documentation\">ドキュメント</a> を見ることをおすすめします。"
+
+#: community/index.php:28
+msgid ""
+"<strong>NOTE:</strong> In order to post to these lists, you must first "
+"subscribe."
+msgstr ""
+"<strong>注意：</strong> リストに投稿するにはそのリストを購読しなければなりま"
+"せん。"
+
+#: community/index.php:33
+msgid "List"
+msgstr "リスト"
+
+#: community/index.php:34
+msgid "Description"
+msgstr "説明"
+
+#: community/index.php:38
+msgid "Discussion list for users of Xfce."
+msgstr "Xfce のユーザ同士が議論するためのリストです。"
+
+#: community/index.php:42
+msgid "Announcements of new versions of Xfce and related projects."
+msgstr ""
+"Xfce の新バーションとそれに関係したプロジェクトのアナウンスが投稿されます。"
+
+#: community/index.php:46
+msgid ""
+"This mailing list is used as a point of contact for people interested in "
+"promoting Xfce."
+msgstr ""
+"このメーリングリストは Xfce の広報に興味がある人が連絡する場所として使うため"
+"のものです。"
+
+#: community/index.php:50
+msgid ""
+"To coordinate the translation of Xfce into new languages. See also the <a "
+"href=\"/getinvolved/translate\">translations</a> page."
+msgstr ""
+"Xfce の様々な言語への翻訳に関する調整を行うところです。<a href=\"/"
+"getinvolved/translate\">翻訳</a>ページもご覧ください。"
+
+#: community/index.php:54
+msgid "To coordinate the German translation of Xfce."
+msgstr " Xfce のドイツ語翻訳に関する調整を行うところです。"
+
+#: community/index.php:57
+msgid "A mailing list for developers of Xfce."
+msgstr "Xfce の開発者用のメーリングリストです。"
+
+#: community/index.php:61
+msgid "To be notified of Xfce commits (including goodies and other modules)."
+msgstr ""
+"Xfce のコミット (Goodies や他のモジュールも含みます) を知らせるリストです。"
+
+#: community/index.php:65
+msgid "Xfce Goodies development discussion."
+msgstr "Xfce Goodies の開発について議論をするところです。"
+
+#: community/index.php:69
+msgid ""
+"E-mail address for general Xfce bugs. Bugs should be reported and discussed "
+"in the <a href=\"http://bugzilla.xfce.org\" class=\"external\">bug tracker</"
+"a>."
+msgstr ""
+"Xfce のバグ全般に関する通知が行われます。バグの報告や議論は<a href=\"http://"
+"bugzilla.xfce.org\" target=\"_blank\" class=\"external\">バグトラッカー</a>で"
+"行なってください。"
+
+#: community/index.php:73
+msgid "A mailing list for development of the Thunar file manager."
+msgstr "Thunar ファイルマネージャの開発用のメーリングリストです。"
+
+#: community/index.php:77
+msgid "Search the mailing lists"
+msgstr "メーリングリスト内の検索"
+
+#: community/index.php:86
+msgid "No results found in mailing lists"
+msgstr "メーリングリストの中からは見つかりませんでした。"
+
+#: community/index.php:115
+msgid ""
+"For users who prefer forums, the <a href=\"http://forum.xfce.org/\" class="
+"\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
+"able to help you, but please do not use it for bug reports."
+msgstr ""
+"フォーラムがお好みならば、<a href=\"http://forum.xfce.org/\" class=\"external"
+"\">Xfce フォーラム</a>を利用してください。アクティブメンバーがあなたを助けて"
+"くれるでしょう。ただし、バグの報告はここへはしないでください。"
+
+#: community/index.php:121
+msgid ""
+"<a href=\"http://identi.ca/group/xfce\" class=\"external\">The Identi.ca "
+"Xfce group</a> will allow you to get in touch with many Xfce users and to "
+"get the latest Xfce news."
+msgstr ""
+"<a href=\"http://identi.ca/group/xfce\" class=\"external\">Identi.ca Xfce "
+"group</a> では、多くのXfceユーザとふれあい、最新のXfceに関するニュースを得る"
+"ことができるでしょう。"
+
+#: download/nav.php:7 download/building.php:3 download/building.php:9
+#: download/building.php:214
+msgid "Building"
+msgstr "ビルド"
+
+#: download/nav.php:8 download/changelogs/index.php:3
+msgid "Changelogs"
+msgstr "更新履歴"
+
+#: download/nav.php:9 download/distros.php:1
+msgid "Distributions"
+msgstr "ディストリビューション"
+
+#: download/nav.php:12
+msgid "Browse GIT repositories"
+msgstr "GIT リポジトリを見る"
+
+#: download/nav.php:13
+msgid "Xfce goodies"
+msgstr "Xfce goodies"
+
+#: download/building.php:6 download/building.php:20
+msgid "Version"
+msgstr "バージョン"
+
+#: download/building.php:7 download/building.php:29
+msgid "Source"
+msgstr "ソース"
+
+#: download/building.php:8 download/building.php:90
+msgid "Dependencies"
+msgstr "依存関係"
+
+#: download/building.php:10 download/building.php:257
+msgid "Help"
+msgstr "ヘルプ"
+
+#: download/building.php:17
+msgid ""
+"To compile a complete Xfce desktop from source requires some information "
+"about the dependency chain and the various configure options available in "
+"each module. This page will describe this in detail, so you can compile your "
+"own Xfce desktop; both system wide as well as in your $HOME directory."
+msgstr ""
+"完全な Xfce デスクトップをソースからコンパイルするにはいくつかの依存関係情報"
+"が必要であり、また各モジュールには様々なビルドオプションがあります。このペー"
+"ジではそれらの詳細について説明しています。"
+
+#: download/building.php:22
+msgid ""
+"First you need to decide which version of Xfce you want to compile. Version "
+"numbers are mostly build like this: 1.2.3 => major.minor.micro. If the minor "
+"version is an even number, it is a stable release, odd number are "
+"development snapshots. The micro number increases each release. Also keep "
+"the major.minor version the same for the core components (some packages "
+"don't follow those numbers) else you will most likely get dependency version "
+"problems during compiling."
+msgstr ""
+"まず、どのバージョンの Xfce をコンパイルするのか決めてください。バージョン番"
+"号はほとんどの場合、「1.2.3」のように表され、「メジャー.マイナー.マイクロ」を"
+"意味します。マイナーバージョンが奇数の場合、それは開発版のスナップショットで"
+"す。マイクロバージョンはリリースのたびに大きくなります。コアコンポーネントは"
+"同じメジャーおよびマイナーバージョンで統一してください (一部のパッケージに例"
+"外があります)。統一されていないと、コンパイル時に依存関係のバージョンの問題に"
+"遭遇するかもしれません。"
+
+#: download/building.php:26
+msgid ""
+"The latest releases available can be found on the <a href=\"/download"
+"\">download page</a>. You can also build from the source repositories if you "
+"have enough experience, more about that below."
+msgstr ""
+"最新のリリースは<a href=\"/download\">ダウンロードページ</a>から入手できま"
+"す。また、十分な経験のある方向けにソースリポジトリからビルドすることもでき、"
+"その手順を以下に説明しています。"
+
+#: download/building.php:31
+msgid ""
+"If you've decided which version you want to compile, there are a couple of "
+"ways to download the source code. You can choose to build official released "
+"packages or clone the source repositories. Choosing the released packages is "
+"recommended here; the source repositories could be broken and are not "
+"suitable for production environments, but on the other hand always contains "
+"the latest features, bug fixes and translations."
+msgstr ""
+"ソースコードの入手は、公式リリースパッケージをダウンロードする方法と、ソース"
+"リポジトリから clone する方法の 2 つがあります。特に理由がない限り、リリース"
+"パッケージを使用することをおすすめします。ソースリポジトリは破壊されているか"
+"もしれず、実稼働環境に適合しないかもしれません。しかし一方で、常に最新の、機"
+"能、バグの修正、あるいは翻訳が適用されています。"
+
+#: download/building.php:35
+msgid ""
+"If your not sure what to choose: easiest is to start with the latest stable "
+"fat-tarball of a collection release."
+msgstr ""
+"どちらを選ぶか迷っているのであれば、最新の安定版コレクションリリースの fat-"
+"tarball で始めるのが最も簡単なやり方です。"
+
+#: download/building.php:38
+msgid "Released packages"
+msgstr "リリースパッケージ"
+
+#: download/building.php:40
+msgid ""
+"Xfce packages have two types of releases. Click the links to open the the "
+"download locations."
+msgstr ""
+"Xfce パッケージのリリースには2つのタイプがあります。リンクをクリックするとダ"
+"ウンロードページを開きます。"
+
+#: download/building.php:44
+msgid "Collection releases of the core modules"
+msgstr "コアモジュールのコレクションリリース"
+
+#: download/building.php:46
+msgid ""
+"From time to time a new collection release if Xfce is made. A collection "
+"release consists of a number of individual tarballs and a fat-tarball that "
+"contains all the individual tarballs."
+msgstr ""
+"コレクションリリースは多くのパッケージの tarball からなる fat-tarball であ"
+"り、すべてのパッケージの tarball が含まれています。"
+
+#: download/building.php:50
+msgid ""
+"The collection releases always contain the correct versions to build the "
+"other packages in the release. If you want the latest version of each "
+"package, you can start with a collection release and then look for "
+"individual bug fix releases, explained in the item below."
+msgstr ""
+"コレクションリリースには常にリリース内でお互いのパッケージが正常にビルドおよ"
+"び動作できるバージョンが含まれています。各パッケージごとの最新リリースが欲し"
+"い場合は、まずコレクションリリースで始めて、以下の節で説明されている個別のリ"
+"リースを探してください。"
+
+#: download/building.php:54 download/index.php:9 download/index.php:33
+msgid "Individual releases"
+msgstr "個別のリリース"
+
+#: download/building.php:56
+msgid ""
+"Each package in Xfce is allowed to make development and stable releases at "
+"any time, see the <a href=\"/about/releasemodel\">release model</a> "
+"documentation for more information."
+msgstr ""
+"Xfce の各パッケージは、常に発展しており、そして安定版リリースを用意していま"
+"す。詳しくは<a href=\"/about/releasemodel\">リリースモデル</a>をご覧くださ"
+"い。"
+
+#: download/building.php:61
+msgid "From the code repository"
+msgstr "コードリポジトリから"
+
+#: download/building.php:63
+msgid ""
+"For the latest code you need to make local copies of the GIT repositories, "
+"this is the place where developers submit their code. If you decide to use "
+"GIT, try to use the same branch for all the packages to avoid dependency "
+"version problems."
+msgstr ""
+"最新のコードを使用したい場合は GIT リポジトリのローカルコピーを作成してくださ"
+"い。これは開発者が各コードを格納する場所です。GIT を使用する場合は、依存関係"
+"の問題を回避するため、すべてのパッケージは同じブランチのものを使用してくださ"
+"い。"
+
+#: download/building.php:67
+msgid ""
+"You first need to make clones of each GIT repository, like the command "
+"below, where <em>$category</em> is for example <em>xfce</em> and <em>"
+"$module</em> <em>xfce4-panel</em>. If you click on a module in the online <a "
+"href=\"http://git.xfce.org/xfce\" class=\"external\">repository list</a> the "
+"clone uri is shown at the bottom of the page."
+msgstr ""
+"まず最初に、以下のコマンドのようにして各 GIT リポジトリのクローンを作成しま"
+"す。<em>$category</em> は例えば <em>xfce</em> などであり、<em>$module</em> "
+"は <em>xfce4-panel</em> などになります。オンライン<a href=\"http://git.xfce."
+"org/xfce\" class=\"external\">リポジトリリスト</a>のモジュール名をクリックし"
+"て開くページの下にクローンする URI が表示されています。"
+
+#: download/building.php:75
+msgid ""
+"After the repository is cloned you need to choose which branch you want to "
+"compile. By default the <em>master</em> branch is selected, but there are "
+"also branches for stable releases like <em>xfce-4.6</em>. The stable "
+"branches contain the latest bug fixes without any major new feature, the "
+"<em>master</em> branch is the development version for the next release of "
+"Xfce. Both should not be used in a production environment."
+msgstr ""
+"リポジトリのクローンを作成したら、コンパイルするブランチを決定します。デフォ"
+"ルトでは <em>master</em> ブランチが選択されていますが、<em>xfce-4.6</em> のよ"
+"うに安定版リリースのブランチも用意されています。安定版ブランチは最新のバグ修"
+"正のみが適用されており、新機能の追加などは行われませんが、<em>master</em> ブ"
+"ランチは次の Xfce リリースへ向けての開発バージョンです。どちらも実稼働環境で"
+"使用すべきではありません。"
+
+#: download/building.php:79
+msgid ""
+"To switch to another branch (<em>git branch -a</em> lists all available "
+"branches) run the following command inside the cloned directory to switch "
+"to, for example, the <em>xfce-4.6</em> branch:"
+msgstr ""
+"他のブランチへの切り替えるには、クローンしたディレクトリ内で次のコマンドを切"
+"り替え先のブランチを指定して実行します。全ブランチの一覧は <em>git branch -"
+"a</em> で表示されます。例えば <em>xfce-4.6</em> ブランチへ切り替えるには:"
+
+#: download/building.php:87
+msgid ""
+"After this you can update your local copy of the repository with <em>git "
+"pull</em> and switch to another branch with <em>git checkout $branchname</"
+"em>. Read the <a href=\"http://git-scm.com/documentation\" class=\"external"
+"\">GIT manuals</a> for more information about using GIT."
+msgstr ""
+"以降は、リポジトリのローカルコピーの更新は <em>git pull</em> で、ブランチの切"
+"り替えは <em>git checkout $branchname</em> で行います。GIT についてのより詳し"
+"い情報は <a href=\"http://git-scm.com/documentation\" class=\"external\">GIT "
+"マニュアル</a>を参照してください。"
+
+#: download/building.php:92
+msgid "Build requirements"
+msgstr "ビルド要件"
+
+#: download/building.php:94
+msgid ""
+"Before you can start compiling, you need a couple of packages that are "
+"required to compile Xfce. Use your distributions package manager to install "
+"those packages. Additional packages are required too for some modules, but "
+"we'll get to that later."
+msgstr ""
+"Xfce をビルドするには、2、3のパッケージが必要です。使用しているディストリ"
+"ビューションのパッケージ管理でそれらをインストールしてください。いくつかのモ"
+"ジュールでは追加パッケージが必要なものもありますが、あとでインストールしま"
+"す。"
+
+#: download/building.php:98
+msgid "A working GNU toolchain"
+msgstr "GNU ツールチェーン"
+
+#: download/building.php:99
+msgid ""
+"Gtk+ and Glib headers, in some distributions called the <em>-devel</em> "
+"packages"
+msgstr ""
+"Gtk+ および Glib ヘッダ。一部のディストリビューションでは <em>-devel</em> "
+"パッケージと呼ばれています。"
+
+#: download/building.php:101
+msgid "Xfce 4.8 requires Gtk+ 2.14 and Glib 2.20"
+msgstr "Xfce 4.8 は Gtk+ 2.14 および Glib 2.20 以降が必要です。"
+
+#: download/building.php:102
+msgid "Xfce 4.6 requires Gtk+ 2.10 and Glib 2.12"
+msgstr "Xfce 4.6 は Gtk+ 2.10 および Glib 2.12 以降が必要です。"
+
+#: download/building.php:106
+msgid "Coffee"
+msgstr "コーヒー"
+
+#: download/building.php:110
+msgid "Xfce's dependency chain"
+msgstr "Xfce の依存関係"
+
+#: download/building.php:112
+msgid ""
+"The Xfce packages need to be built in a specific order. If you don't follow "
+"this, compile options might not be available or the configure stage will "
+"abort because of missing dependencies."
+msgstr ""
+"Xfce パッケージは決められた順番でビルドしなければなりません。順番を無視する"
+"と、コンパイルオプションが使用できなかったり、依存関係の未解決によって "
+"configure ステージが中断します。"
+
+#: download/building.php:116
+msgid "only required if you build from GIT"
+msgstr "GIT からビルドする場合のみ必要"
+
+#: download/building.php:119
+msgid "new in 4.8"
+msgstr "4.8 から"
+
+#: download/building.php:119
+msgid "deprecated since 4.8"
+msgstr "4.8 で廃止"
+
+#: download/building.php:126
+msgid "Package specific dependencies"
+msgstr "パッケージ固有の依存関係"
+
+#: download/building.php:128
+msgid ""
+"Some core packages in Xfce have additional or optional dependencies, all are "
+"listed in the table below for the latest stable version. We only show the "
+"top package as dependency (so xfce4-panel also requires gtk+, but libxfce4ui "
+"already depends on that). Note that some of the package names may vary "
+"between distributions."
+msgstr ""
+"Xfce のいくつかのコアパッケージには追加または任意の (必須でない) 依存関係があ"
+"ります。以下に最新の安定バージョンにおける一覧を示します。これらは依存関係の"
+"先頭にあるもののみ表示しています (xfce4-panel も gtk+ に依存しますが、"
+"libxfce4ui がすでに依存しているので省略されています)。一部のパッケージ名は"
+"ディストリビューション間で異なっているかもしれないことに留意してください。"
+
+#: download/building.php:215
+msgid "Installation location and variables"
+msgstr "インストール場所および環境変数"
+
+#: download/building.php:217
+msgid ""
+"Now it is finally time to start compiling the Xfce desktop. Last remaining "
+"thing is to choose an installation location. Possible examples are <em>/usr</"
+"em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide "
+"installation or <em>$HOME/local</em> if you want to install in your home "
+"directory (whatever you choose, never put spaces in the name). We will refer "
+"to this location as <em>${PREFIX}</em> in the code examples below!"
+msgstr ""
+"これで Xfce デスクトップのコンパイルに必要なものが揃いました。残るはインス"
+"トール場所の決定です。現実的な例として、システム全体へのインストールの場合は "
+"<em>/usr</em>、<em>/usr/local</em>、あるいは <em>/opt/xfce4</em> になります。"
+"あなたのユーザのみで使用し、home ディレクトリ配下にインストールする場合は "
+"<em>$HOME/local</em> などになるでしょう (どこにするにしろ、名前にスペースが含"
+"まれてはなりません)。以下の例の <em>${PREFIX}</em> にこの場所を指定してくださ"
+"い。"
+
+#: download/building.php:221
+msgid ""
+"You need to make sure the <em>PKG_CONFIG_PATH</em> variable include the path "
+"to the *.pc files installed by the Xfce libraries:"
+msgstr ""
+"環境変数 <em>PKG_CONFIG_PATH</em> に Xfce ライブラリによってインストールされ"
+"る *.pc ファイルのパスが含まれていることを確認してください:"
+
+#: download/building.php:229
+msgid ""
+"You can also set some optimization flags for the compiler. This may speed up "
+"Xfce, but can also make debugging impossible on some systems. Even worse, "
+"this can also cause gcc to generate broken code, so be carefull with this. "
+"The line below should be safe for most system."
+msgstr ""
+"コンパイラ用に最適化フラグも指定できます。これは Xfce の速度を向上させます"
+"が、一部のシステムではデバッグができなくなります。さらには、このせいで gcc が"
+"破壊されたコードを生成する場合もあるため、その使用には注意してください。以下"
+"はほとんどのシステムで安全な設定です。"
+
+#: download/building.php:236
+msgid "Compiling and installing"
+msgstr "コンパイルとインストール"
+
+#: download/building.php:238
+msgid ""
+"Next step is compiling the various packages following the dependency chain "
+"above. If you have downloaded the tarballs, you need to unpack them before "
+"going on. Inside each package directory you should run the following command:"
+msgstr ""
+"次に、上記の依存関係に従って様々なパッケージをコンパイルします。tarball をダ"
+"ウンロードしていた場合は、それを展開しておいてください。各パッケージのディレ"
+"クトリ内で以下のコマンドを実行します:"
+
+#: download/building.php:246
+msgid ""
+"To build from GIT you need to install the xfce4-dev-tools package first, all "
+"other packages should be installed with this command:"
+msgstr ""
+"GIT からビルドする場合ははじめに xfce4-dev-tools をインストールしておく必要が"
+"あります。その他すべてのパッケージは以下のコマンドでインストールされます:"
+
+#: download/building.php:254
+msgid ""
+"Specific configure options for each package can be shown with <em>./"
+"configure --help</em>. Note that most packages benefit if you pass the "
+"configure option <em>--disable-debug</em>, however if you want to provide "
+"backtraces or test new code, no <em>CFLAGS</em>, no binary stripping and "
+"<em>--enable-debug=full</em> are recommended."
+msgstr ""
+"各パッケージのビルドオプションは <em>./configure --help</em> で表示されます。"
+"ほとんどのパッケージは <em>--disable-debug</em> を指定する方がよいのですが、"
+"backtraceの採取や新しいコードのテストを行う場合は <em>CFLAGS</em> を指定せ"
+"ず、バイナリをストリップせず、<em>--enable-debug=full</em> を指定することを推"
+"奨します。"
+
+#: download/building.php:259
+msgid ""
+"Hopefully everything went fine after reading this guide. If you still have "
+"problems or questions you can ask on the <a href=\"/community#mail\">Xfce "
+"users mailing list</a>, the <a href=\"http://forum.xfce.org\" class="
+"\"external\">forum</a> or ask distribution related questions on their forums "
+"and mailing lists."
+msgstr ""
+"このガイドにしたがって作業すればすべてうまくいくと思います。もしなにか解決し"
+"ない問題や疑問があれば、<a href=\"/community#mail\">Xfce users mailing list</"
+"a>、<a href=\"http://forum.xfce.org\" class=\"external\">フォーラム</a>、ある"
+"いはディストリビューション関連のフォーラムやメーリングリストで尋ねてみてくだ"
+"さい。"
+
+#: download/building.php:263
+msgid "Have fun building Xfce!"
+msgstr "お疲れ様です!"
+
+#: download/index.php:8
+msgid "Stable release"
+msgstr "安定版リリース"
+
+#: download/index.php:12
+msgid "Preview release"
+msgstr "プレビューリリース"
+
+#: download/index.php:20
+msgid ""
+"Most distributions ship with Xfce in their own packaging format, but if you "
+"want a newer version or you want to build Xfce from scratch, you can find "
+"the packages below. Instructions how to compile Xfce can be found <a href=\"/"
+"download/building\">here</a>. You can also take a look at the list of <a "
+"href=\"/download/distros\">Xfce-oriented distributions</a>."
+msgstr ""
+"ほとんどのディストリビューションはそれぞれのパッケージ形式で Xfce を提供して"
+"いますが、より新しいバージョンを使いたい、あるいは Xfce を自分で一からビルド"
+"したい場合は、以下のパッケージを使用できます。コンパイル手順の説明は<a href="
+"\"download/building\">こちら</a>です。また、Xfce に特化したディストリビュー"
+"ションのリストは<a href=\"/download/distros\">こちら</a>にあります。"
+
+#: download/index.php:23
+#, php-format
+msgid "Stable release %s"
+msgstr "安定版リリース %s"
+
+#: download/index.php:26
+#, php-format
+msgid ""
+"Xfce %s is the most recent version of the Xfce desktop environment. You can "
+"find the changes in this release <a href=\"/download/changelogs/%s\">here</"
+"a>."
+msgstr ""
+"Xfce %s は Xfce デスクトップ環境の最新バージョンです。このリリースでの変更内"
+"容は<a href=\"/download/changelogs/%s\">こちら</a>をご覧ください。"
+
+#: download/index.php:35
+msgid ""
+"Each package in Xfce can make individual stable or development releases, "
+"including the core packages (as described in the <a href=\"/about/"
+"releasemodel\">release model</a>). You can follow the announcements of the "
+"releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, "
+"watch the <a href=\"http://archive.xfce.org/feeds/project/\">release feeds</"
+"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
+"a>."
+msgstr ""
+"Xfce のコアパッケージを含む各パッケージはそれぞれの安定版または開発版リリース"
+"を個別に作成できます (<a href=\"/about/releasemodel\">リリースモデル</a>を参"
+"照してください)。リリースのお知らせは <a href=\"/community/lists\">Xfce "
+"users mailing list</a>、<a href=\"http://archive.xfce.org/feeds/project/"
+"\">release feeds</a>、あるいは Xfce <a href=\"http://identi.ca/xfce\">identi."
+"ca channel</a> で行われます。"
+
+#: download/index.php:43
+#, php-format
+msgid "Preview release %s"
+msgstr "プレビューリリース %s"
+
+#: download/index.php:45
+#, php-format
+msgid ""
+"Xfce %s is the latest development release of the Xfce desktop environment. "
+"This release should not be used in a production environments. If you are "
+"uncertain about downloading this release, you should probably use the <a "
+"href=\"#stable\">stable release</a> above. You can find the changes in this "
+"release <a href=\"/download/changelogs/%s\">here</a>."
+msgstr ""
+"Xfce %s は Xfce デスクトップ環境の最新の開発版リリースです。これを実稼働環境"
+"で使用すべきではありません。もしこのリリースをダウンロードすることに不安を覚"
+"えるのであれば、上の<a href=\"#stable\">安定版リリース</a>を使用してくださ"
+"い。このリリースでの変更内容は<a href=\"/download/changelogs/%s\">こちら</a>"
+"をご覧ください。"
+
+#: download/requirements.php:1
+msgid "System requirements"
+msgstr "システム要件"
+
+#: download/requirements.php:5
+#, php-format
+msgid ""
+"All packages (except xfce4-dev-tools) depend on both gtk+ %s and glib %s."
+msgstr ""
+"すべてのパッケージ (xfce4-dev-tools は除く) は gtk+ %s および glib %s に依存"
+"します。"
+
+#: download/requirements.php:9
+msgid ""
+"It is also recommended to build all Xfce components from the same release "
+"version."
+msgstr ""
+"また、すべての Xfce コンポーネントは同じリリースからビルドすることを推奨しま"
+"す。"
+
+#: download/requirements.php:12
+msgid "Build order"
+msgstr "ビルド順"
+
+#: download/requirements.php:24
+msgid "Package dependencies"
+msgstr "パッケージの依存関係"
+
+#: download/requirements.php:27
+msgid "Package"
+msgstr "パッケージ"
+
+#: download/requirements.php:28
+msgid "Dependency(-ies)"
+msgstr "必須の依存関係"
+
+#: download/requirements.php:29
+msgid "Optional Dependency(-ies)"
+msgstr "任意の依存関係"
+
+#: download/requirements.php:113
+msgid ""
+"The build dependencies tree is also available as a <a href=\"/images/"
+"documentation/xfce-bdeps.svg\">SVG file</a>."
+msgstr ""
+"ビルドの依存関係ツリーは <a href=\"/images/documentation/xfce-bdeps.svg"
+"\">SVG ファイル</a>でもご覧いただけます。"
+
+#: download/requirements.php:115
+msgid "Recommended packages"
+msgstr "推奨パッケージ"
+
+#: download/requirements.php:117
+msgid "support for scalable icons"
+msgstr "スケーラブルアイコンのサポート"
+
+#: download/requirements.php:118
+msgid "better support for icon themes"
+msgstr "アイコンテーマのよりよいサポート"
+
+#: download/requirements.php:120
+msgid "locking the screen"
+msgstr "スクリーンのロック"
+
+#: download/distros.php:5
+msgid "Distributions based on Xfce"
+msgstr "Xfce ベースのディストリビューション"
+
+#: download/distros.php:9
+msgid ""
+"The Fedora Xfce Spin is live cd which is also installable that showcases the "
+"Xfce Desktop Environment featuring a mix of high productivity centric "
+"applications."
+msgstr ""
+"Fedora Xfce Spin は、生産性の高いアプリケーションを中心に盛り込んだ、Xfce デ"
+"スクトップ環境を紹介するインストール可能な LiveCD です。"
+
+#: download/distros.php:14
+msgid ""
+"Xubuntu is a Linux distribution based on Ubuntu. Unlike its parent Xubuntu "
+"uses the light-weight Xfce desktop environment. The distribution includes "
+"only GTK+ applications where possible."
+msgstr ""
+"Xubuntu は Ubuntu ベースの Linux ディストリビューションです。Ubuntu とな異な"
+"り軽量な Xfce デスクトップ環境を採用しています。このディストリビューションで"
+"は可能な限り Gtk+ アプリケーションのみを同梱しています。"
+
+#: download/distros.php:19
+msgid ""
+"Zenwalk is an operating system based on Slackware. The goal of Zenwalk is "
+"being slim and fast using only one application per task combined with the "
+"Xfce Desktop. Zenwalk features the latest Linux technology along with a "
+"complete programming environment and libraries to provide an ideal platform "
+"for application programmers. Zenwalk's modular approach also provides a "
+"simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. "
+"LAMP, messaging, file sharing)."
+msgstr ""
+"Zenwalk は Slackware ベースのオペレーティングシステムです。一つのタスクに一つ"
+"のアプリケーションを用い、スリムかつ軽快なものにすることを目的としています。"
+"Zenwalk はアプリケーションプログラマ向けの理想的なプラットフォームであり、完"
+"全なプログラミング環境とライブラリとともに最新の Linux の技術を提供しているこ"
+"とが特徴です。Zenwalk のモジュール方式のアプローチは、Zenwalk Linux をきめ細"
+"かく最適化されたサーバにするための簡単な方法も提供します (たとえば、LAMP、"
+"メッセージング、ファイル共有など)。"
+
+#: download/distros.php:24
+msgid ""
+"Mythbuntu is an community supported add-on for Ubuntu focused upon setting "
+"up a standalone MythTV based PVR system. It can be used to prepare a "
+"standalon system or for integration with an existing MythTV network."
+msgstr ""
+"Mythbuntu は MythTV ベースのスタンドアロン PVR システムを Ubuntu 上でセット"
+"アップするためのコミュニティサポートアドオンです。スタンドアロンシステムの用"
+"意、または既存の MythTV ネットワークと統合するために使用できます。"
+
+#: download/distros.php:29
+msgid ""
+"Element OS is a free open source operating system for home theater PCs, "
+"media center computers, and set-top boxes. Featuring an innovative \"across "
+"the room\" Xfce-based interface which is designed to be connected to your "
+"HDTV for a digital media and internet experience from within the comforts of "
+"your own living room or lounge. Element comes loaded with the software "
+"needed to stream all forms of Web content and manage your own multimedia "
+"library and downloads."
+msgstr ""
+"Element OS は、ホームシアターPC、メディアセンターコンピュータ、およびセット"
+"トップボックス用のフリーでオープンソースのオペレーティングシステムです。革新"
+"的な「部屋の向こうの」Xfce ベースのインターフェイスを特徴とし、HDTV に接続し"
+"て、リビングルームやラウンジでくつろぎながら、デジタルメディアやインターネッ"
+"トエクスペリエンスを楽しむために設計されています。Element OS には、すべての形"
+"式のウェブコンテンツのストリームや、マルチメディアライブラリやダウンロードの"
+"管理に必要なソフトウェアが積み込まれています。"
+
+#: download/distros.php:35
+msgid ""
+"Dreamlinux is a modern and modular GNU/Linux system that can be run directly "
+"a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, "
+"PATA and USB Drive)."
+msgstr ""
+"Dreamlinux は CD/DVD/USB スティックから直接起動できる最新のモジュール式 GNU/"
+"Linux で、HDD (IDE、SCSI、SATA、PATA、および USB ドライブ) にインストールも可"
+"能です。"
+
+#: download/distros.php:40
+msgid ""
+"Speed, performance, stability -- these are attributes that set VectorLinux "
+"apart in the crowded field of Linux distributions. The creators of "
+"VectorLinux had a single credo: keep it simple, keep it small and let the "
+"end user decide what their operating system is going to be. What has evolved "
+"from this concept is perhaps the best little Linux operating system "
+"available anywhere."
+msgstr ""
+"スピード、パフォーマンス、安定性 ―― それは VectorLinux をごちゃごちゃとした "
+"Linux ディストリビューション界の中から際立たせる特徴です。VectorLinux の創設"
+"者にはひとつの信条がありました。シンプルで、小さく、エンドユーザにそのオペ"
+"レーティングシステムをどうするかを決めさせるということです。このコンセプトが"
+"進化し、おそらくどこでも使える最高に小さい Linux ディストリビューションになり"
+"ました。"
+
+#: download/distros.php:45
+msgid ""
+"Wolvix is a desktop oriented GNU/Linux distribution based on Slackware. It "
+"features the Xfce desktop environment and a comprehensive selection of "
+"development, graphics, multimedia, network and office applications. It's "
+"mainly targeted at home users and strives to provide a balance between "
+"everyday computing tasks, creativity, work and enjoyment."
+msgstr ""
+"Wolvix は Slackware ベースのデスクトップ指向 GNU/Linux ディストリビューション"
+"です。Xfce デスクトップ環境と、開発、グラフィックス、マルチメディア、ネット"
+"ワーク、およびオフィスアプリケーションにおよぶ総合的なセレクションを特徴とし"
+"ています。主にホームユーズをターゲットとし、毎日のコンピュータ作業、創造的作"
+"業、および娯楽のバランスがとれるよう努力しています。"
+
+#: download/distros.php:50
+msgid ""
+"Kate OS is a polish GNU/Linux distribution. It is a lightweight binary "
+"distribution featuring Xfce as the default desktop environment."
+msgstr ""
+"Kate OS は洗練された GNU/Linux ディストリビューションです。デフォルトのデスク"
+"トップ環境に Xfce を採用した軽量なバイナリディストリビューションです。"
+
+#: download/distros.php:55
+msgid ""
+"Salix is a Linux distribution based on Slackware that is simple, fast and "
+"easy to use. Salix is also fully backwards compatible with Slackware, so "
+"Slackware users can benefit from Salix repositories, which they can use as "
+"an \"extra\" quality source of software for their favorite distribution. "
+"Like a bonsai, Salix is small, light and the product of infinite care."
+msgstr ""
+"Salix は シンプルで、高速で、使いやすい Slackware ベースの Linux ディストリ"
+"ビューションです。"
+
+#: download/distros.php:58
+msgid "Xfce Live-CD distributions"
+msgstr "Xfce Live-CD ディストリビューション"
+
+#: download/distros.php:62
+msgid ""
+"SAM Linux Desktop is a self-booting live CD containing a full linux desktop "
+"OS. You don't have to install it on your harddisk, it runs completely from "
+"your cd drive and your RAM."
+msgstr ""
+"SAM Linux Desktop は完全な Linux デスクトップ を含んだブート可能な LiveCD OS "
+"です。ハードディスクにインストールする必要はなく、完全に CD ドライブや RAM か"
+"ら実行できます。"
+
+#: download/distros.php:67
+msgid ""
+"PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking "
+"users. It's built with Linux-live scripts from Tomas Matejicek (Slax)."
+msgstr ""
+"PureOSlight は Debian (testing) ベースのフランス語話者向け LiveCD です。"
+"Tomas Matejicek (Slax) による  Linux-live scripts でビルドされています。"
+
+#: download/distros.php:70
+msgid "General distributions with a good Xfce support"
+msgstr "Xfce をサポートする総合ディストリビューション"
+
+#: download/distros.php:74
+msgid ""
+"Debian is one of the most famous binary distributions, used as a base by "
+"many other distributions. It's know for its stability, its performances and "
+"the wide choice of available applications. The <a href=\"http://pkg-xfce."
+"alioth.debian.org/\">Debian Xfce group</a> takes care of integrating Xfce "
+"into Debian to provide a nice user experience."
+msgstr ""
+"Debian は最も有名なバイナリディストリビューションの一つで、他の多くのディスト"
+"リビューションのベースとなっています。安定性、パフォーマンス、および利用でき"
+"るアプリケーションの幅広さで知られています。<a href=\"http://pkg-xfce.alioth."
+"debian.org/\">Debian Xfce group</a> は優れたユーザエクスペリエンスを提供する"
+"ために Xfce の Debian への統合を担当しています。"
+
+#: download/distros.php:79
+msgid ""
+"Mandriva Linux is an operating system for your computer. Easy to try. Easy "
+"to install. Easy to use. Xfce is of course available, simple to install and "
+"configure."
+msgstr ""
+"Mandriva Linux は試しやすく、インストールしやすく、使いやすいオペレーティング"
+"システムです。Xfce ももちろん利用でき、簡単にインストールと設定を行えます。"
+
+#: download/distros.php:84
+msgid ""
+"OpenSUSE is a free and Linux-based operating system for your PC, Laptop or "
+"Server. You can surf the web, manage your e-mails and photos, do office "
+"work, play videos or music and have a lot of fun!"
+msgstr ""
+"OpenSUSE はフリーで Linux ベースの PC あるいはサーバ用オペレーティングシステ"
+"ムです。ウェブサーフィン、Eメールや写真の管理、オフィスワーク、あるいはビデオ"
+"や音楽の再生など楽しみがたくさんあります!"
+
+#: download/distros.php:89
+msgid ""
+"Arch Linux is a simple, agile and lightweight GNU/Linux distribution, and "
+"UNIX-like operating system. Arch Linux requires a certain level of intimate "
+"knowledge of its configuration and of UNIX-like system methodology."
+msgstr ""
+"Arch Linux は、シンプル、軽快、そして軽量の GNU/Linux ディストリビューション"
+"です。Arch Linux は設定や UNIX-like システムの流儀に関するある程度の知識が必"
+"要とされます。"
+
+#: download/distros.php:94
+msgid ""
+"The Official Release of Slackware Linux is an advanced Linux operating "
+"system, designed with the twin goals of ease of use and stability as top "
+"priorities. Including the latest popular software while retaining a sense of "
+"tradition, providing simplicity and ease of use alongside flexibility and "
+"power, Slackware brings the best of all worlds to the table."
+msgstr ""
+"Slackware Linux の公式リリースは進化した Linux ディストリビューションで、使い"
+"やすさと安定性を最優先事項に設計されています。伝統を重んじ、シンプルで使いや"
+"すい一方で柔軟でパワフルな、最新の人気あるソフトウェアを含んでおり、テーブル"
+"の上にすべての世界をもたらします。"
+
+#: download/distros.php:99
+msgid ""
+"Gentoo is a special flavor of Linux that can be automatically optimized and "
+"customized for just about any application or need. Extreme performance, "
+"configurability and a top-notch user and developer community are all "
+"hallmarks of the Gentoo experience. Gentoo ships the latest Xfce releases "
+"and allow you to integrate them in a very performant environment."
+msgstr ""
+"Gentoo は Linux の特別なフレーバーで、アプリケーションや必要性に応じて自動的"
+"に最適化およびカスタマイズが行えます。最高のパフォーマンス、構成設定性、およ"
+"び一流のユーザと開発者のコミュニティが Gentoo エクスペリエンスの特質です。"
+"Gentoo は最新の Xfce リリースを提供し、非常に高性能な環境に統合できます。"
+
+#: download/distros.php:104
+msgid ""
+"Lunar Linux is a source-based distribution. Although there is no native "
+"desktop environment in Lunar, it has excellent support for Xfce, mainly "
+"because a couple of Xfce developers are also Lunar developers. Another "
+"noticeable point: all Xfce servers are running Lunar Linux!"
+msgstr ""
+"Lunar Linux はソースベースのディストリビューションです。公式のデスクトップ環"
+"境はありませんが、何人かの Xfce 開発者は Lunar の開発者でもありますので、"
+"Xfce への対応は抜群に良いです。他に注目できるところ: Xfce のサーバのすべては "
+"Lunar Linux で動いています!"
+
+#: download/distros.php:109
+msgid ""
+"The OpenBSD project produces a FREE, multi-platform 4.4BSD-based UNIX-like "
+"operating system. Our efforts emphasize portability, standardization, "
+"correctness, proactive security and integrated cryptography. OpenBSD "
+"supports binary emulation of most programs from SVR4 (Solaris), FreeBSD, "
+"Linux, BSD/OS, SunOS and HP-UX."
+msgstr ""
+"OpenBSD プロジェクトは、フリーでマルチプラットフォームな 4.4BSD ベースの "
+"UNIX-like オペレーティングシステムです。ポータビリティ、標準化、正確性、積極"
+"的なセキュリティ、および統合された暗号化へ尽力しています。OpenBSD は SVR4 "
+"(Solaris)、FreeBSD、Linux、BSD/OS、SunOS、および HP-UX のほとんどのプログラム"
+"のバイナリエミュレーションをサポートしています。"
+
+#: download/changelogs/index.php:33
+msgid ""
+"Xfce release notes are specific to each version. Select your version from "
+"the list below to see the changes in the release. "
+msgstr ""
+"Xfce リリースノートは各バージョンごとに用意されています。以下のリストから、リ"
+"リースごとの変更点を確認できます。"
+
+#: news-array.php:10
+msgid "Xfce 4.8 released"
+msgstr ""
+
+#: news-array.php:15
+msgid ""
+"Today, after almost two years of work, we have the special pleasure of "
+"announcing the much awaited release of Xfce 4.8, the new stable version that "
+"supersedes Xfce 4.6."
+msgstr ""
+
+#: news-array.php:16
+msgid ""
+"We hope that everyone will enjoy this release as much as we do. Sadly, this "
+"will not be the case as the folks using any of the BSD systems will notice a "
+"sudden loss of features. We think that this announcement is a good "
+"opportunity to express our disagreement with the recent \"Linux-only\" "
+"developments in the open source ecosystem, especially with regards to the "
+"utilities we need in desktop environments."
+msgstr ""
+
+#: news-array.php:17
+msgid ""
+"Xfce 4.8 is our attempt to update the Xfce code base to all the new desktop "
+"frameworks that were introduced in the past few years. We hope that our "
+"efforts to drop pieces like ThunarVFS and HAL with GIO, udev, ConsoleKit and "
+"PolicyKit will help bringing the Xfce desktop to modern distributions."
+msgstr ""
+
+#: news-array.php:18
+msgid ""
+"With Xfce 4.8 our users will be able to browse remote shares using a variety "
+"of protocols (SFTP, SMB, FTP and many more). The window clutter has been "
+"reduced by merging all file progress dialogs into a single one."
+msgstr ""
+
+#: news-array.php:19
+msgid ""
+"Our panel application has been rewritten, thereby improving positioning, "
+"transparency, item and launcher management. It also introduces a new menu "
+"plugin to view directories. Its plugin framework remains compatible with 4.6 "
+"plugins."
+msgstr ""
+
+#: news-array.php:20
+msgid ""
+"We also improved our settings dialogs. The display configuration dialog now "
+"supports RandR 1.2, detects screens automatically and allows our users to "
+"pick their favorite resolution, refresh rate, rotation. Screens can be "
+"configured to either work in clone mode or be placed next to each other. "
+"Keyboard selection has become easier and more user-friendly. Also, the "
+"manual settings editor has been updated to be more functional."
+msgstr ""
+
+#: news-array.php:21
+msgid ""
+"Aside from the features implemented in Xfce, the 4.8 development cycle "
+"brought us a bunch of other goodies. For the first time we had a serious "
+"release strategy formed after the \"Xfce Release and Development Model\" "
+"developed at the Ubuntu Desktop Summit in May 2009. A new web application "
+"made release management a lot easier. We worked hard on improving the "
+"situation of Xfce translators which led us to setting up our own Transifex "
+"server. Something else you will hopefully notice is that our server and "
+"mirroring infrastructure has been improved so that our servers hopefully "
+"will not suddenly surrender shortly after this release announcement."
+msgstr ""
+
+#: news-array.php:22
+msgid ""
+"There is a lot more to discover and we hope a lot of you will give Xfce 4.8 "
+"a try! There is a brief tour online on"
+msgstr ""
+
+#: news-array.php:23
+msgid ""
+"<a href=\"http://xfce.org/\">http://xfce.org/</a> and <a href=\"http://xfce."
+"org/about/tour\">http://xfce.org/about/tour</a>"
+msgstr ""
+
+#: news-array.php:24
+msgid ""
+"A summary of the changes since the 4.8pre3 preview release is available on "
+"the following URL (it also includes links to the changes introduced in all "
+"preview releases):"
+msgstr ""
+
+#: news-array.php:25
+msgid ""
+"<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
+"download/changelogs/4.8.0</a>"
+msgstr ""
+
+#: news-array.php:26
+msgid ""
+"The release can be downloaded either as individual releases or as a fat "
+"tarball including all these individual versions:"
+msgstr ""
+
+#: news-array.php:27
+msgid ""
+"<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
+"xfce/4.8/</a>"
+msgstr ""
+
+#: news-array.php:28
+msgid ""
+"2011 has just begun and we are already planning for the future. The 4.10 "
+"schedule will be worked on soon and hopefully, we will be able to turn Xfce "
+"into a non-profit organization at this year's FOSDEM, so stay tuned!"
+msgstr ""
+
+#: news-array.php:29
+msgid ""
+"But until then we hope you will enjoy today's release and join us in "
+"celebrating. Thanks go out to all our contributors, bug reporters as well as "
+"the awesome efforts of our translators and packagers. "
+msgstr ""
+
+#: news-array.php:30
+msgid "Best regards,<br />The Xfce development team"
+msgstr ""
+
+#: news-array.php:38
+msgid ""
+"Today we are pleased to announce the third and hopefully final preview "
+"release of Xfce 4.8 which is set to be pushed out to the public on January "
+"16th, 2011. Compared to Xfce 4.8pre2 this release mostly features "
+"translation updates and bug fixes."
+msgstr ""
+
+#: news-array.php:39
+msgid ""
+"With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no "
+"surprise that for most components only a few issues were tackled."
+msgstr ""
+
+#: news-array.php:40
+msgid ""
+"Among other things we updated the default keyboard shortcuts to include "
+"monitor keys. The status icon of the file manager's progress dialog is now "
+"properly hidden when the dialog is destroyed. It's wallpaper plugin is now "
+"capable of handling filenames with spaces. The environment variables of "
+"commands launched from the Xfce run dialog were not set properly, so we "
+"fixed that so that commands launched from the dialog always inherit the "
+"environment of the Xfce session."
+msgstr ""
+
+#: news-array.php:41
+msgid ""
+"We also made the --reboot and --halt parameters of xfce4-session-logout work "
+"again which previously simply logged out the active user. In order to avoid "
+"a race condition at session startup and in order to speed things up a little "
+"more we no longer use xrdb to update xft and cursor settings and instead, "
+"update the related XSETTINGS properties ourselves."
+msgstr ""
+
+#: news-array.php:42
+msgid ""
+"In the window manager xfwm4, we aligned the time period required for a "
+"double click with that of normal applications. Via the hidden option /"
+"general/mousewheel_rollup one can now disable windows being rolled up via "
+"the mouse wheel. The window manager now also properly handles resolution "
+"changes in fullscreen windows like those appearing in games. Xfwm4's "
+"application switcher now only appears once in cloned mode."
+msgstr ""
+
+#: news-array.php:43
+msgid ""
+"This may sound like a few useful fixes but it's nothing compared to the "
+"amount of work that went into the new Xfce panel once again. Around 20+ "
+"known bugs and regressions were fixed. Here is a short excerpt of the "
+"complete changelog: Translation domains were fixed for external plugins, "
+"plugins can be reordered with DND again, double-clicking items in the item "
+"editor shows their preferences, dragging items to the item editor dialog "
+"removes them from the panel again, tasklist windows can now be filtered by "
+"monitor. Another issue that appeared recently and has now been fixed is the "
+"icon sizing in the notification area, also known as the systray."
+msgstr ""
+
+#: news-array.php:44
+msgid ""
+"Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
+"the complete changelog."
+msgstr ""
+
+#: news-array.php:45
+msgid ""
+"Since we're following the Xfce <a href=\"/about/releasemodel\">release "
+"model</a> for 4.8, we'd normally announce code freeze and the creation of "
+"early lifecycle support branches today. We decided against this because "
+"there are not enough people active to take care of all this at the moment. "
+"So we will continue fixing bugs in master branches as we did between 4.8pre2 "
+"and 4.8pre3."
+msgstr ""
+
+#: news-array.php:52
+msgid ""
+"We are pleased to announce the second preview release of Xfce 4.8. This "
+"release marks the beginning of the string freeze. From today on until the "
+"final release, strings may no longer be changed in the master branch of Xfce "
+"core components. This will help translators to prepare their translations "
+"for the final release scheduled on January 16th, 2011."
+msgstr ""
+
+#: news-array.php:53
+msgid ""
+"For this release we focused on fixing bugs in all Xfce components. We "
+"managed to close a great number of them thanks to all the persons who "
+"reported them and tested proposed fixes quickly."
+msgstr ""
+
+#: news-array.php:54
+msgid ""
+"A few minor panel features were added despite feature freeze. We also "
+"managed to work on two long time requests: proper support for editing the "
+"application menu with menu editors (Alacarte being the one that we tested) "
+"and integration with the Compiz viewport. Of course, this release also "
+"features a lot of new and improved translations thanks to the amazing work "
+"of our translation teams."
+msgstr ""
+
+#: news-array.php:61
+msgid ""
+"The Xfce development team is proud to announce the first preview release for "
+"Xfce 4.8. Together with this preview release, the Xfce project announces the "
+"feature freeze for the final 4.8 release which is set to be pushed out to "
+"the world on January 16th, 2011."
+msgstr ""
+
+#: news-array.php:62
+msgid ""
+"This release incorporates major changes to the core of the Xfce desktop "
+"environment and hopefully succeeds in fulfilling a number of long time "
+"requests. Among the most notable updates is that we have ported the entire "
+"Xfce core (Thunar, xfdesktop and thunar-volman in particular) from ThunarVFS "
+"to GIO, bringing remote filesystems to the Xfce desktop. The panel has been "
+"rewritten from scratch and provides better launcher management and improved "
+"multi-head support. The list of new panel features is too long to mention in "
+"its entirety here. Thanks to the new menu library garcon (formerly known as "
+"libxfce4menu, but rewritten once again) we now support menu editing via a "
+"third-party menu editor such as Alacarte (we do not ship our own yet). Our "
+"core libraries have been streamlined a bit, a good example being the newly "
+"introduced libxfce4ui library which is meant to replace libxfcegui4."
+msgstr ""
+
+#: news-array.php:63
+msgid ""
+"Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
+"that, despite suffering from the small size of the development team from "
+"time to time, the core of the desktop environment has been aligned with "
+"today's desktop technologies such as GIO, ConsoleKit, PolicyKit, udev and "
+"many more. A lot of old cruft like has been stripped from the core as well, "
+"as has happened with HAL and ThunarVFS (which is still around for "
+"compatibility reasons)."
+msgstr ""
+
+#: news-array.php:64
+msgid ""
+"Thanks to the awesome Transifex translation platform, our language teams "
+"have been able to update their translations at an incredible pace. Please "
+"include them when praising this release!"
+msgstr ""
+
+#: news-array.php:71
+msgid "The second bugfix-release of xfce 4.6 has been released."
+msgstr ""
+
+#: news-array.php:72
+msgid ""
+"This release features a lot of updated translations and fixes some bugs or "
+"regressions with new GTK+ versions."
+msgstr ""
+
+#: news-array.php:79
+msgid "The first bugfix-release of xfce 4.6 has been released."
+msgstr ""
+
+#: news-array.php:80
+msgid ""
+"Thanks to all the people who have been using xfce 4.6 and took the time and "
+"effort to submit bugreports for stuff that wasn't quite working the way it "
+"is supposed to. We have been able to fix several issues during the past few "
+"weeks."
+msgstr ""
+
+#: news-array.php:81
+msgid ""
+"thanks to all the translators, several translations have been improved and "
+"completed since the release of 4.6.0."
+msgstr ""
+
+#: news-array.php:88
+msgid ""
+"After more than two years of development, Xfce 4.6.0 has just been released."
+msgstr ""
+
+#: news-array.php:89
+msgid ""
+"Xfce 4.6 features a new configuration backend, a new settings manager, a "
+"brand new sound mixer, and several huge improvements to the session manager "
+"and the rest of Xfce's core components. A list of all the changes since the "
+"last release candidate can be found on this page."
+msgstr ""
+
+#: news-array.php:90
+msgid ""
+"A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</"
+"a>."
+msgstr ""
+
+#~ msgid ""
+#~ "Use the navigation bar on the right to find the link you are looking for."
+#~ msgstr ""
+#~ "あなたがお探しのリンクを見つけるために、右のナビゲーションバーを利用してく"
+#~ "ださい。"
+
+#~ msgid ""
+#~ "Enter a term in the search form above to look for information on the Xfce "
+#~ "website."
+#~ msgstr ""
+#~ "上の検索フォームにお探しの言葉を入力し、Xfce ウェブサイト上の情報を検索し"
+#~ "てください。"
+
+#~ msgid ""
+#~ "Xfce is a lightweight desktop environment for unix-like operating "
+#~ "systems. It aims to be fast and low on system resources, while still "
+#~ "being visually appealing and user friendly."
+#~ msgstr ""
+#~ "Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境で"
+#~ "す。視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としてい"
+#~ "ます。"
