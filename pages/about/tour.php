@@ -16,7 +16,7 @@
 
     <p><?php E_("When several file operations (copy or move) are being handled in parallel, Thunar now shows a single progress dialog which displays all the relevant information.") ?></p>
 
-    <p class="image"><img src="/images/about/tour/4.8/thunar-progess.png" alt="<?php E_("Progress dialog") ?>" /></p>
+    <p class="image"><img src="/images/about/tour/4.8/thunar-progress.png" alt="<?php E_("Progress dialog") ?>" /></p>
 
   <h3><?php E_("Eject button for removable devices") ?></h3>
 
