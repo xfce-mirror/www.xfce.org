@@ -76,6 +76,8 @@
 
     <p><?php E_("You can enable and disable plugged screens, set their resolution, refresh rate, rotation and reflection, clone screens or extend desktops.") ?></p>
 
+    <p class="image"><img src="/images/about/tour/4.8/display-settings.png" alt="<?php E_("New display settings dialog") ?>" /></p>
+
     <h4><?php E_("Timed confirmation") ?></h4>
 
       <p><?php E_("Any change made with the settings dialog will have to be confirmed within ten seconds or they will be reverted. This prevents broken video drivers from leaving your computer unusable.") ?></p>
@@ -85,6 +87,8 @@
     <h4><?php E_("Quick setup dialog") ?></h4>
 
       <p><?php E_("The quick setup dialog allows you to configure a dual screen setup in a second. Plug the second screen, press the display key or Windows + p and select the wanted layout. Done!") ?></p>
+
+      <p class="image"><img src="/images/about/tour/4.8/minimal-display-settings.png" alt="<?php E_("Quick multihead setup") ?>" /></p>
 
   <h3><?php E_("Settings edition in the Xfce Settings Editor") ?></h3>
 
