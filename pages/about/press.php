@@ -5,6 +5,68 @@
   <?php E_('Here you can find various reviews of the Xfce desktop environment.') ?>
 </p>
 
+<h2>Xfce 4.8</h2>
+
+<table>
+  <tr>
+    <th><?php E_('Date') ?></th>
+    <th><?php E_('Website') ?></th>
+    <th><?php E_('Link') ?></th>
+  </tr>
+  <tr>
+    <td>2011-01-19</td>
+    <td>Datamation</td>
+    <td><a href="http://itmanagement.earthweb.com/osrc/article.php/3921221/Forget-GNOME-and-KDE-Xfce-48-Runs-Simpler-and-Faster.htm">Forget GNOME and KDE, Xfce 4.8 Runs Simpler and Faster</a></td>
+  </tr>
+  <tr>
+    <td>2011-01-17</td>
+    <td>OSNews</td>
+    <td><a href="http://www.osnews.com/story/24276/Xfce_4_8_Released">Xfce 4.8 released</a></td>
+  </tr>
+  <tr>
+    <td>2011-01-17</td>
+    <td>OStatic</td>
+    <td><a href="http://ostatic.com/blog/loss-of-installer-dampens-xfce-4-8-release">Loss of Installer Dampens Xfce 4.8 Release</a></td>
+  </tr>
+  <tr>
+    <td>2010-12-22</td>
+    <td>LWN</td>
+    <td><a href="http://lwn.net/Articles/420519/">A first look at Xfce 4.8</a></td>
+  </tr>
+</table>
+
+<h2>Xfce 4.6</h2>
+
+<table>
+  <tr>
+    <th><?php E_('Date') ?></th>
+    <th><?php E_('Website') ?></th>
+    <th><?php E_('Link') ?></th>
+  </tr>
+  <tr>
+    <td>2009-03-03</td>
+    <td>Ars Technica</td>
+    <td><a href="http://arstechnica.com/open-source/news/2009/03/hands-on-xfce-46-has-nice-new-features-no-fat.ars">Hands-on: fat-free Xfce 4.6 has nice new features</a></td>
+  </tr>
+  <tr>
+    <td>2009-03-01</td>
+    <td>Xubuntu Blog</td>
+    <td><a href="http://xubuntublog.wordpress.com/2009/03/01/xfce-making-great-strides-with-version-46/">Xfce making great strides with version 4.6</a></td>
+  </tr>
+  <tr>
+    <td>2009-02-27</td>
+    <td>Tectonic</td>
+    <td><a href="http://www.tectonic.co.za/2009/02/two-years-on-and-xfce-46-breaks-cover/">Two years on and Xfce 4.6 breaks cover</a></td>
+  </tr>
+  <tr>
+    <td>2009-02-27</td>
+    <td>OS News</td>
+    <td><a href="http://www.osnews.com/story/21054/Xfce_4_6_0_Impresses_with_Slew_of_New_Features">Xfce 4.6 impresses with slew of new features</a></td>
+  </tr>
+</table>
+
+<h2>Xfce 4.4</h2>
+
 <table>
   <tr>
     <th><?php E_('Date') ?></th>
@@ -20,6 +82,16 @@
     <td>2006-01-10</td>
     <td>Tuxmachines</td>
     <td><a href="http://www.tuxmachines.org/node/6448">Xtra Fine Computing Environment: xfce4.4 beta 1.</a></td>
+  </tr>
+</table>
+
+<h2>Xfce 4.2</h2>
+
+<table>
+  <tr>
+    <th><?php E_('Date') ?></th>
+    <th><?php E_('Website') ?></th>
+    <th><?php E_('Link') ?></th>
   </tr>
   <tr>
     <td>2006-01-10</td>
