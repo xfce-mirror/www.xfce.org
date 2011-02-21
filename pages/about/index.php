@@ -40,7 +40,7 @@
   <dd><?php E_('Provides the basic file management features and unique utilities like the bulk renamer.') ?></dd>
 
   <dt><?php E_('Setting Manager') ?></dt>
-  <dd><?php E_('Tools to control the various settings of the desktop like keyboard shortcuts, appearance, display settings etcertera.') ?></dd>
+  <dd><?php E_('Tools to control the various settings of the desktop like keyboard shortcuts, appearance, display settings etcetera.') ?></dd>
 </p>
 
 <p>
