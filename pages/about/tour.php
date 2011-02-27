@@ -40,7 +40,7 @@
 
   <h3><?php E_("New item editor") ?></h3>
 
-    <p><?php E_("The panel now features an item editor which allows to modify, move, add and remove items qucikly. This is particularly useful for items which are hard to right click and gives you an easy way to change your panel layout from a single place.") ?></p>
+    <p><?php E_("The panel now features an item editor which allows to modify, move, add and remove items quickly. This is particularly useful for items which are hard to right click and gives you an easy way to change your panel layout from a single place.") ?></p>
 
     <p class="image"><img src="/images/about/tour/4.8/panel-editor.png" alt="<?php E_("Panel item editor") ?>" /></p>
 
