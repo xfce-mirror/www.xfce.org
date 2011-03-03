@@ -72,6 +72,10 @@ $toc['anchors'] = array (
     <td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
     <td><?php E_('A mailing list for development of the Thunar file manager.') ?></td>
   </tr>
+  <tr>
+    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-foundation">xfce-foundation</a></td>
+    <td><?php E_('A mailing list for information and questions about the Xfce foundation.') ?></td>
+  </tr>
 </table>
 
 <h3><?php E_('Search the mailing lists') ?></h3>
