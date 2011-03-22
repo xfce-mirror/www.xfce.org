@@ -45,10 +45,10 @@ foreach ($news as $item)
 
     echo '<item>'.
            '<title>'.$item['title'].'</title>'.
-           '<description><![CDATA['. fixup ($item['paragraph'][0]) .']]></description>'.
+           '<description><![CDATA['. fixup ($item['paragraphs'][0]) .']]></description>'.
            '<content:encoded><![CDATA[';
 
-    foreach ($item['paragraph'] as $p)
+    foreach ($item['paragraphs'] as $p)
             echo '<p>'.fixup ($p).'</p>';
 
     echo   ']]></content:encoded>'.
