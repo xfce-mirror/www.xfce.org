@@ -12,12 +12,14 @@ else
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title><?php echo $title ?></title>
 	<link rel="shortcut icon" href="/style/favicon.png" type="image/png" />
-	<link rel="stylesheet" media="screen" href="/style/base.css" type="text/css" />
+	<link rel="stylesheet" media="screen" href="/style/bundle.php" type="text/css" />
 <?php
+        /*
+        add filename to the array in bundle.php instead
         if (isset ($head['stylesheet']) && is_array ($head['stylesheet']))
                 foreach ($head['stylesheet'] as $sheet)
                         echo "\t<link rel=\"stylesheet\" media=\"screen\" href=\"$sheet\" type=\"text/css\" />\n";
-
+        */
         if (isset ($head['description']))
                 echo "\t<meta name=\"description\" content=\"".$head['description']."\" />\n";
 
