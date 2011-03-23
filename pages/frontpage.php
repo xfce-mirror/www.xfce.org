@@ -28,10 +28,10 @@ $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 </div>
 <div id="slideshow">
   <ul id="no-show-slides">
-    <li><img src="images/frontpage/intro-1-small.jpg" id="intro1" alt="" /></li>
-    <li><img src="images/frontpage/intro-2-small.jpg" id="intro2" alt="" /></li>
-    <li><img src="images/frontpage/intro-3-small.jpg" id="intro3" alt="" /></li>
-    <li><img src="images/frontpage/intro-4-small.jpg" id="intro4" alt="" /></li>
+    <li><img src="images/frontpage/intro-1-small.jpg" id="intro1" alt="" width="450" height="300" /></li>
+    <li><img src="images/frontpage/intro-2-small.jpg" id="intro2" alt="" width="450" height="300" /></li>
+    <li><img src="images/frontpage/intro-3-small.jpg" id="intro3" alt="" width="450" height="300" /></li>
+    <li><img src="images/frontpage/intro-4-small.jpg" id="intro4" alt="" width="450" height="300" /></li>
   </ul>
 
   <script type="text/javascript">
