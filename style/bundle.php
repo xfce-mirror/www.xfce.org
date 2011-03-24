@@ -3,38 +3,68 @@
 /* this file loads all the css required for the Xfce website
  * and bundles it in a single file. The css files are split
  * to make them both readable and some files are fetched for
- * other domains too (header.css). */
+ * other domains too (header.css). APC is used to cache the
+ * generated content to speed things up. */
 
-$dateformat = 'D, d M Y H:i:s';
-$expireoffset = 3600 * 24 * 7;
-$files = array ('header.css',
-                'base.css',
-                'home.css',
-                'news.css',
-                'projects.css');
+function write_header ($mtime)
+{
+  $dateformat = 'D, d M Y H:i:s';
+  $expireoffset = 3600 * 24 * 7;
 
+  header ('Content-type: text/css');
+  header ('Cache-Control: max-age='. $expireoffset .', public');
+  header ('Expires: '. gmdate ($dateformat, time() + $expireoffset) .' GMT');
+  header ('Last-Modified: '. gmdate ($dateformat, $mtime ) .' GMT');
+}
+
+/* try to load the cached minified css */
+$have_apc = false;
+if (function_exists ('apc_fetch'))
+  {
+    $buf = @apc_fetch ('wxo_css');
+    if ($buf != false)
+      {
+        $mtime = @apc_fetch ('wxo_css_mtime');
+        write_header ($mtime);
+        echo $buf;
+
+        exit;
+      }
+
+    $have_apc = true;
+  }
+
+/* init */
 $buf = '';
 $mtime = 0;
+
+/* load contents */
+$files = array ('header.css', 'base.css', 'home.css', 'news.css', 'projects.css');
 foreach ($files as $file)
-  $buf .= file_get_contents ($file);
-  $fmtime = filemtime ($file);
-  if ($fmtime > $mtime)
-    $mtime = $fmtime;
+  {
+    $buf .= file_get_contents ($file);
 
-/* remove comments */
-$buf = preg_replace('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $buf);
+    $fmtime = filemtime ($file);
+    if ($fmtime > $mtime)
+      $mtime = $fmtime;
+  }
 
-/* compress lines */
-$buf = str_replace(array (': ', ' {', ', '), array (':', '{', ','), $buf);
+/* minify the css */
+$buf = preg_replace ('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $buf); /* strip comments */
+$buf = str_replace (array (': ', ' {', ', '), array (':', '{', ','), $buf); /* compress code */
+$buf = str_replace (array ("\r\n", "\r", "\n", "\t", '  '), '', $buf); /* strip lines and spaces */
 
-/* remove whitespaces */
-$buf = str_replace (array ("\r\n", "\r", "\n", "\t", '  '), '', $buf);
-
-header('Content-type: text/css');
-header('Cache-Control: max-age='. $expireoffset .', public');
-header('Expires: '. gmdate ($dateformat, time() + $expireoffset) .' GMT');
-header('Last-Modified: '. gmdate ($dateformat, $mtime ) .' GMT');
-
+/* output */
+write_header ($mtime);
 echo $buf;
+
+/* store minified data content */
+if ($have_apc)
+  {
+    $ttl = 60 * 5;
+
+    @apc_store ('wxo_css', $buf, $ttl);
+    @apc_store ('wxo_css_mtime', $mtime, $ttl);
+  }
 
 ?>
