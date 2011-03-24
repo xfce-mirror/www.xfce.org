@@ -37,6 +37,10 @@ $navigation_file = dirname ($content_file) . '/nav.php';
 if (is_file ($navigation_file))
         $toc['filename'] = $navigation_file;
 
+/* unique class name for the page content */
+$page_class = str_replace (array ('pages/', '/'), array ('', '_'),
+                           basename ($content_file, '.php'));
+
 /* load the page header */
 include ('pages/header.php');
 

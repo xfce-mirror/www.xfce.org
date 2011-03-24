@@ -130,4 +130,4 @@ else
 		echo '</div>';
 	}
 ?>
-	<div id="page-contents">
+	<div id="page-contents" class="page_contents file_<?php echo $page_class ?>">
