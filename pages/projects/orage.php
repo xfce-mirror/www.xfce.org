@@ -23,7 +23,7 @@
     <a href="http://git.xfce.org/apps/orage/" class="external"><?php E_("Orage source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Orage" class="external"><?php E_("Bugs reported against Orage") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Orage" class="external"><?php E_("Bugs reported against Orage") ?></a>
   </li>
   <li>
     <a href="http://www.kolumbus.fi/~w408237/orage/" class="external">Homepage</a>

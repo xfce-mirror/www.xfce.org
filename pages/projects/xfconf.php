@@ -24,6 +24,6 @@
     <a href="http://git.xfce.org/xfce/xfconf/" class="external"><?php E_("Xfconf source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfconf" class="external"><?php E_("Bugs reported against Xfconf") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfconf" class="external"><?php E_("Bugs reported against Xfconf") ?></a>
   </li>
 </ul>

@@ -35,7 +35,7 @@
       <a href="http://git.xfce.org/xfce/libxfce4util/" class="external"><?php E_("Libxfce4util source code on git.xfce.org") ?></a>
     </li>
     <li>
-      <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Libxfce4util" class="external"><?php E_("Bugs reported against Libxfce4util") ?></a>
+      <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Libxfce4util" class="external"><?php E_("Bugs reported against Libxfce4util") ?></a>
     </li>
   </ul>
 
@@ -49,7 +49,7 @@
       <a href="http://git.xfce.org/xfce/libxfce4ui/" class="external"><?php E_("Libxfce4ui source code on git.xfce.org") ?></a>
     </li>
     <li>
-      <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Libxfce4ui" class="external"><?php E_("Bugs reported against Libxfce4ui") ?></a>
+      <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Libxfce4ui" class="external"><?php E_("Bugs reported against Libxfce4ui") ?></a>
     </li>
   </ul>
 

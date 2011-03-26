@@ -48,7 +48,7 @@ include ('pages/header.php');
 if (str_has_prefix ($uri, 'download/changelogs/'))
 {
         /* replace #???? with bug tracker links */
-        $bugurl = '<a href="http://bugzilla.xfce.org/show_bug.cgi?id=$1">#$1</a>';
+        $bugurl = '<a href="https://bugzilla.xfce.org/show_bug.cgi?id=$1">#$1</a>';
         $contents = preg_replace ('/#(\d+)/', $bugurl, $contents);
 }
 

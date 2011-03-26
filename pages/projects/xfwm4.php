@@ -28,7 +28,7 @@
     <a href="http://git.xfce.org/xfce/xfwm4/" class="external"><?php E_("Xfwm4 source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfwm4" class="external"><?php E_("Bugs reported against Xfwm4") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfwm4" class="external"><?php E_("Bugs reported against Xfwm4") ?></a>
   </li>
 </ul>
 

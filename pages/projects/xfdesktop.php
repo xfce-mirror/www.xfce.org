@@ -26,6 +26,6 @@
     <a href="http://git.xfce.org/xfce/xfdesktop/" class="external"><?php E_("Xfdesktop source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfdesktop" class="external"><?php E_("Bugs reported against Xfdesktop") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfdesktop" class="external"><?php E_("Bugs reported against Xfdesktop") ?></a>
   </li>
 </ul>

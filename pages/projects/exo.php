@@ -24,7 +24,7 @@
     <a href="http://git.xfce.org/xfce/exo/" class="external"><?php E_("Exo source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Exo" class="external"><?php E_("Bugs reported against Exo") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Exo" class="external"><?php E_("Bugs reported against Exo") ?></a>
   </li>
 </ul>
 

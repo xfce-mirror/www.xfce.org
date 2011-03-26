@@ -31,7 +31,7 @@
 
 <h2><?php E_('Bug Reporting and testing') ?></h2>
 <p>
-  <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="http://bugzilla.xfce.org" class="external">bug tracker</a>.') ?>
+  <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="https://bugzilla.xfce.org" class="external">bug tracker</a>.') ?>
 </p>
 
 <p>

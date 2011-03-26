@@ -30,7 +30,7 @@
     <a href="http://git.xfce.org/xfce/thunar/" class="external"><?php E_("Thunar source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Thunar" class="external"><?php E_("Bugs reported against Thunar") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Thunar" class="external"><?php E_("Bugs reported against Thunar") ?></a>
   </li>
   <li>
     <a href="http://thunar.xfce.org/" class="external"><?php E_("Homepage") ?></a>

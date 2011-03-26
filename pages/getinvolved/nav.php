@@ -10,8 +10,8 @@ $toc['menu'] = array (
 	'getinvolved/bugreporting' => R_('Bug Reporting')*/);
 
 $toc['external'] = array (
-	'http://bugzilla.xfce.org' => R_('Report a bug'),
-	'http://translations.xfce.org' => R_('Translations'),
+	'https://bugzilla.xfce.org' => R_('Report a bug'),
+	'https://translations.xfce.org' => R_('Translations'),
 	'http://buildbot.xfce.org' => R_('Buildbot'));
 
 ?>

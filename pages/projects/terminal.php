@@ -25,7 +25,7 @@
     <a href="http://git.xfce.org/apps/terminal/" class="external"><?php E_("Terminal source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Terminal" class="external"><?php E_("Bugs reported against Terminal") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Terminal" class="external"><?php E_("Bugs reported against Terminal") ?></a>
   </li>
 </ul>
 

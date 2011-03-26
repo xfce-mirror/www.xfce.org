@@ -26,7 +26,7 @@
     <a href="http://git.xfce.org/xfce/xfce4-appfinder/" class="external"><?php E_("Xfce4 Appfinder source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce4-Appfinder" class="external"><?php E_("Bugs reported against Xfce4 Appfinder") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce4-Appfinder" class="external"><?php E_("Bugs reported against Xfce4 Appfinder") ?></a>
   </li>
 </ul>
 

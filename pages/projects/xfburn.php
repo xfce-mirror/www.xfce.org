@@ -27,7 +27,7 @@
     <a href="http://git.xfce.org/apps/xfburn/" class="external"><?php E_("Xfburn source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Xfburn" class="external"><?php E_("Bugs reported against Xfburn") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Apps;query_format=advanced;product=Xfburn" class="external"><?php E_("Bugs reported against Xfburn") ?></a>
   </li>
 </ul>
 

@@ -26,7 +26,7 @@
     <a href="http://git.xfce.org/xfce/xfce-utils/" class="external"><?php E_("Xfce utils source code on git.xfce.org") ?></a>
   </li>
   <li>
-    <a href="http://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce-utils" class="external"><?php E_("Bugs reported against Xfce Utils") ?></a>
+    <a href="https://bugzilla.xfce.org/buglist.cgi?resolution=---;classification=Xfce;query_format=advanced;product=Xfce-utils" class="external"><?php E_("Bugs reported against Xfce Utils") ?></a>
   </li>
 </ul>
 
