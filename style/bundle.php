@@ -61,7 +61,7 @@ echo $buf;
 /* store minified data content */
 if ($have_apc)
   {
-    $ttl = 60 * 5;
+    $ttl = 3600; /* 1 hour */
 
     @apc_store ('wxo_css', $buf, $ttl);
     @apc_store ('wxo_css_mtime', $mtime, $ttl);
