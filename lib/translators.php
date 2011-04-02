@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-03-27 00:00:12";
+$translators_stamp = "2011-04-03 00:00:11";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -53,6 +53,7 @@ $translators = array (
     'Johannes Lips' => 'johannes'.DOTSIGN.'lips'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Hubert Hesse' => 'hub'.ATSIGN.'hubertscorner'.DOTSIGN.'de',
     'Paul Seyfert' => 'pseyfert'.ATSIGN.'mathphys'.DOTSIGN.'fsk'.DOTSIGN.'uni-heidelberg'.DOTSIGN.'de',
+    'Knuth Gurkasch' => 'knuth'.ATSIGN.'sinn3r'.DOTSIGN.'org',
     'Fabian Nowak' => 'timystery'.ATSIGN.'arcor'.DOTSIGN.'de',
   ),
   'Greek [el]' => array (
@@ -241,12 +242,18 @@ $translators = array (
     'Gökmen Görgen' => 'gkmngrgn'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Avatar' => 'coskuno_99'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Ertuğrul HAZAR' => 'ertugrulhazar'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Hafzullah' => 'hafzullah'.DOTSIGN.'is'.ATSIGN.'windowslive'.DOTSIGN.'com',
     'Murat PINAR' => 'wargasm'.ATSIGN.'archlinux'.DOTSIGN.'us',
     'Akın Ömeroğlu' => 'akin'.ATSIGN.'pardus'.DOTSIGN.'org'.DOTSIGN.'tr',
     'alpertekinalp' => 'alper'.DOTSIGN.'tekinalp'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Aydan Taşdemir' => 'aydantasdemir'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ayhan YALÇINSOY' => 'ayhanyalcinsoy'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Erçin EKER' => 'ercineker'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Eren Türkay' => 'erenturkay'.ATSIGN.'xfce'.DOTSIGN.'org',
+    'Gökhan Kılınç' => 'kilincgokhan'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Ilker DAGLI' => 'ilker'.ATSIGN.'ilkerdagli'.DOTSIGN.'info',
     'kozdincer' => 'kaanozdincer'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'marici' => 'cadthecoder'.ATSIGN.'gmail'.DOTSIGN.'com',
     'martinamca' => 'martinamca'.ATSIGN.'gmail'.DOTSIGN.'com',
     'mesutcank' => 'mesutcank'.ATSIGN.'gmail'.DOTSIGN.'com',
     'necdetyucel' => 'necdetyucel'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -254,8 +261,10 @@ $translators = array (
     'Ozan Türkyılmaz' => 'ozan'.DOTSIGN.'turkyilmaz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Özgür Kuru' => 'ozgur'.ATSIGN.'ozgurkuru'.DOTSIGN.'net',
     'Samed Beyribey' => 'beyribey'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Senol Korkmaz' => 'mail'.ATSIGN.'senolkorkmaz'.DOTSIGN.'info',
     'Server Acim' => 'serveracim'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Utku Aydın' => 'utkuaydin'.ATSIGN.'archlinux'.DOTSIGN.'org'.DOTSIGN.'tr',
+    'vlyalcin' => 'naklovnak'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Uyghur [ug]' => array (
     'Gheyret Kenji' => 'gheyret'.ATSIGN.'yahoo'.DOTSIGN.'com',
