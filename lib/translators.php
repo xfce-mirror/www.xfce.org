@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-04-03 00:00:11";
+$translators_stamp = "2011-04-10 00:00:08";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -124,6 +124,7 @@ $translators = array (
     'Cristian Cozzolino' => 'cristiancozzolino'.ATSIGN.'libero'.DOTSIGN.'it',
     'maluc' => 'incjsp'.ATSIGN.'yahoo'.DOTSIGN.'it',
     'Riccardo Magini' => 'rcrmgn'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Sergio Spinatelli' => 'eseasonsapp'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Japanese [ja]' => array (
     'Masato Hashimoto' => 'hashimo'.ATSIGN.'xfce'.DOTSIGN.'org',
@@ -186,7 +187,7 @@ $translators = array (
     'Sergiu Mihai' => 'sergiu'.DOTSIGN.'mihai'.ATSIGN.'devlibre'.DOTSIGN.'net',
   ),
   'Russian [ru]' => array (
-    'Dmitrij Smirnov' => 'arch'.ATSIGN.'cnc-parts'.DOTSIGN.'info',
+    'Dmitrij Smirnov' => 'other'.ATSIGN.'igus'.DOTSIGN.'lv',
     '0leg' => 's'.ATSIGN.'0leg'.DOTSIGN.'me',
     'Alexander Yashkin' => 'alex'.DOTSIGN.'aspirine'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Claque' => 'cpt-alatriste'.ATSIGN.'ya'.DOTSIGN.'ru',
@@ -201,6 +202,7 @@ $translators = array (
     'Andres Kovtunos' => 'kovtunos'.ATSIGN.'yandex'.DOTSIGN.'ru',
     'Dmitriy Kudryashov' => 'overmailed'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergey Abramkin' => 'sergey'.ATSIGN.'abramk'.DOTSIGN.'in',
+    'Victor Homyakov' => 'homyakov'.ATSIGN.'isida'.DOTSIGN.'by',
   ),
   'Sinhala [si]' => array (
     'Danishka Navin' => 'danishka'.ATSIGN.'gmail'.DOTSIGN.'com',
