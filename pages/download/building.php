@@ -251,7 +251,7 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <?php E_('Specific configure options for each package can be shown with <em>./configure --help</em>. Note that most packages benefit if you pass the configure option <em>--disable-debug</em>, however if you want to provide backtraces or test new code, no <em>CFLAGS</em>, no binary stripping and <em>--enable-debug=full</em> are recommended.') ?>
+  <?php E_('Specific configure options for each package can be shown with <em>./configure --help</em>. Note that most packages benefit if you pass the configure option <em>--disable-debug</em>, however if you want to provide backtraces or test new code, no <em>CFLAGS</em>, no binary stripping and <em>--enable-debug=full</em> are recommended. Please note that <em>--disable-debug</em> is not available for xfce4-dev-tools. ') ?>
 </p>
 
 <h2 id="help"><?php E_('Help') ?></h2>
