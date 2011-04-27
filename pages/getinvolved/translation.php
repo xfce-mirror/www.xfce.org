@@ -60,6 +60,23 @@ $toc['anchors'] = array (
   <?php E_('Other than getting in touch with current translators, you can use a private page to share progress on translations. The defacto place is on <a href="http://wiki.xfce.org/translations/">wiki.xfce.org</a>, but you can also use alternative possibilities like the <a href="http://groups.google.com/support/">Google Groups</a>.') ?>
 </p>
 
+<h2 id="coordinator"><?php E_('Team Coordinator') ?></h2>
+<p>
+  <?php E_('Transifex allows you to manage a team with a list of translators and coordinators. Usually you will find one coordinator per team who is allowed to perform the following tasks:') ?>
+</p>
+<ul>
+  <li><?php E_('Accept or deny new translators in the team') ?></li>
+  <li><?php E_('Accept or deny a translation review') ?></li>
+</ul>
+
+<p>
+  <?php E_('The coordinator should not accept new translators without having a little history of their involvement in other projects. If it is unsure if a new member has deep knowledge of translations or not, it is possible to check the new Transifex account and start a short discussion per email. At this point the coordinator can either accept the new member who will be allowed to commit changes directly in our repositories, otherwise the coordinator can ask the new member to submit the work for review. This process is important whenever the translations have to use a standard vocabulary for instance.') ?>
+</p>
+
+<p>
+  <?php E_('A good practive for the coordinator is to check the translations before a new release, that consists into compiling each Xfce component with the latest translations and making sure everything is in good shape.') ?>
+</p>
+
 <h2 id="transifex"><?php E_('Transifex Usage') ?></h2>
 
 <h3><?php E_('Statistics') ?></h3>
