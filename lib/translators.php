@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-04-24 00:00:08";
+$translators_stamp = "2011-05-01 00:00:10";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -223,6 +223,7 @@ $translators = array (
   ),
   'Slovak [sk]' => array (
     'Robert Hartl' => 'hartl'.DOTSIGN.'robert'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Peter Bubelíny' => 'p'.DOTSIGN.'bubeliny'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Michal Löffler' => 'lofflermichalloffler'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Slovenian [sl]' => array (
@@ -297,10 +298,11 @@ $translators = array (
   ),
   'Chinese (China) [zh_CN]' => array (
     'Qianqian Fang' => 'fangqq'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Chipong Luo' => 'chipong_l'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Ganghua Leng' => 'hiweed'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Hunt Xu' => 'mhuntxu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ivy Lee' => 'ivyleexyg'.ATSIGN.'gmail'.DOTSIGN.'com',
-    '微 尘' => 'yjwork'.DOTSIGN.'xfce'.ATSIGN.'gmail'.DOTSIGN.'com',
+    '玉堂 白鹤' => 'yjwork'.DOTSIGN.'xfce'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Chinese (Taiwan) [zh_TW]' => array (
     'Cheng-Chia Tseng' => 'pswo10680'.ATSIGN.'gmail'.DOTSIGN.'com',
