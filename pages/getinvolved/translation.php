@@ -5,6 +5,7 @@ $head['title'] = R_('Translation');
 $toc['anchors'] = array (
         'started' => R_('Getting Started'),
         'teamwork' => R_('Team Work'),
+        'coordinator' => R_('Team Coordinator'),
         'transifex' => R_('Transifex Usage'));
 
 ?>
@@ -74,7 +75,7 @@ $toc['anchors'] = array (
 </p>
 
 <p>
-  <?php E_('A good practive for the coordinator is to check the translations before a new release, that consists into compiling each Xfce component with the latest translations and making sure everything is in good shape.') ?>
+  <?php E_('A good practice for the coordinator is to check the translations before a new release, that consists into compiling each Xfce component with the latest translations and making sure everything is in good shape.') ?>
 </p>
 
 <h2 id="transifex"><?php E_('Transifex Usage') ?></h2>
