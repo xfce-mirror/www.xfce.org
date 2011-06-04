@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-05-29 00:00:10";
+$translators_stamp = "2011-06-05 00:00:07";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -72,6 +72,9 @@ $translators = array (
   ),
   'English (United Kingdom) [en_GB]' => array (
     'Jeff Bailes' => 'thepizzaking'.ATSIGN.'gmail'.DOTSIGN.'com',
+  ),
+  'Esperanto [eo]' => array (
+    'Michael Moroni' => 'michael'.DOTSIGN.'moroni'.ATSIGN.'mailoo'.DOTSIGN.'org',
   ),
   'Spanish (Castilian) [es]' => array (
     'Abel Martín' => 'abel'.DOTSIGN.'martin'.DOTSIGN.'ruiz'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -188,6 +191,7 @@ $translators = array (
   ),
   'Portuguese (Brazilian) [pt_BR]' => array (
     'Henrique P'.DOTSIGN.' Machado' => 'zehrique'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Jonas agx' => 'jonas'.DOTSIGN.'agx'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Joelso Andrade' => 'kosmofilo'.ATSIGN.'ymail'.DOTSIGN.'com',
     'Michel Boaventura' => 'michel'.DOTSIGN.'boaventura'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sérgio Cipolla' => 'secipolla'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -205,6 +209,7 @@ $translators = array (
     '0leg' => 's'.ATSIGN.'0leg'.DOTSIGN.'me',
     'Alexander Yashkin' => 'alex'.DOTSIGN.'aspirine'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Claque' => 'cpt-alatriste'.ATSIGN.'ya'.DOTSIGN.'ru',
+    'Sergey Davidoff' => 'shnatsel'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Styopa Semenukha' => 'semenukha'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Aleksandr Ponomarenko' => 'davian818'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ivan Nikolaev' => 'voidexp'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -212,12 +217,14 @@ $translators = array (
     'Alexandr Boltris' => 'ua2fgb'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Artem Zolochevskiy' => 'artem'.DOTSIGN.'zolochevskiy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Evgeniy Kosov' => 'eugene'.ATSIGN.'kosov'.DOTSIGN.'net',
+    'gnulinux' => 'nazarov-1990'.ATSIGN.'bk'.DOTSIGN.'ru',
     'Vlad Vasilev' => 'lortwer'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Alexander Matveyev' => 'a'.DOTSIGN.'s'.DOTSIGN.'matveyev'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Denis Koryavov' => 'dkoryavov'.ATSIGN.'yandex'.DOTSIGN.'ru',
     'Andres Kovtunos' => 'kovtunos'.ATSIGN.'yandex'.DOTSIGN.'ru',
     'Dmitriy Kudryashov' => 'overmailed'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergey Abramkin' => 'sergey'.ATSIGN.'abramk'.DOTSIGN.'in',
+    'Leonid Eremin' => 'pan'.DOTSIGN.'sandurlay'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ton' => 'tonawuda'.ATSIGN.'inbox'.DOTSIGN.'ru',
     'Victor Homyakov' => 'homyakov'.ATSIGN.'isida'.DOTSIGN.'by',
   ),
