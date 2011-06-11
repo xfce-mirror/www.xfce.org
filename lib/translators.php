@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-06-05 00:00:07";
+$translators_stamp = "2011-06-12 00:00:09";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -50,6 +50,7 @@ $translators = array (
   ),
   'German [de]' => array (
     'Christoph Wickert' => 'christoph'.DOTSIGN.'wickert'.ATSIGN.'googlemail'.DOTSIGN.'com',
+    'Uwe Krause' => 'derhorst'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mark Trompell' => 'mark'.ATSIGN.'foresightlinux'.DOTSIGN.'org',
     'Matthias Mailänder' => 'matthias'.ATSIGN.'mailaender'.DOTSIGN.'name',
     'Michael Spahn' => 'any0n3'.ATSIGN.'fedoraproject'.DOTSIGN.'org',
@@ -152,6 +153,7 @@ $translators = array (
   ),
   'Korean [ko]' => array (
     'Boram Kim' => 'boramism'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'ByungHyun Choi' => 'byunghyun'.DOTSIGN.'choi'.ATSIGN.'live'.DOTSIGN.'com',
     'Sung Jin Gang' => 'ujuc'.ATSIGN.'ujuc'.DOTSIGN.'kr',
   ),
   'Lithuanian [lt]' => array (
