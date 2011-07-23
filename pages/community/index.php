@@ -34,46 +34,46 @@ $toc['anchors'] = array (
     <th><?php E_('Description') ?></th>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce/">xfce</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce/">xfce</a></td>
     <td><?php E_('Discussion list for users of Xfce.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-announce/">xfce-announce</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-announce/">xfce-announce</a></td>
     <td><?php E_('Announcements of new versions of Xfce and related projects.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-advocacy/">xfce-advocacy</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-advocacy/">xfce-advocacy</a></td>
     <td><?php E_('This mailing list is used as a point of contact for people interested in promoting Xfce.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-i18n/">xfce-i18n</a></td>
     <td><?php E_('To coordinate the translation of Xfce into new languages. See also the <a href="/getinvolved/translate">translations</a> page.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-i18n-de">xfce-i18n-de</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-i18n-de">xfce-i18n-de</a></td>
     <td><?php E_('To coordinate the German translation of Xfce.') ?></td>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce4-dev/">xfce4-dev</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce4-dev/">xfce4-dev</a></td>
     <td><?php E_('A mailing list for developers of Xfce.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce4-commits/">xfce4-commits</a></td>
     <td><?php E_('To be notified of Xfce commits (including goodies and other modules).') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/goodies-dev/">goodies-dev</a></td>
     <td><?php E_('Xfce Goodies development discussion.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-bugs/">xfce-bugs</a></td>
     <td><?php E_('E-mail address for general Xfce bugs. Bugs should be reported and discussed in the <a href="https://bugzilla.xfce.org" class="external">bug tracker</a>.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/thunar-dev/">thunar-dev</a></td>
     <td><?php E_('A mailing list for development of the Thunar file manager.') ?></td>
   </tr>
   <tr>
-    <td><a href="http://foo-projects.org/mailman/listinfo/xfce-foundation">xfce-foundation</a></td>
+    <td><a href="https://mail.xfce.org/mailman/listinfo/xfce-foundation">xfce-foundation</a></td>
     <td><?php E_('A mailing list for information and questions about the Xfce foundation.') ?></td>
   </tr>
 </table>
