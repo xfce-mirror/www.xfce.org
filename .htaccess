@@ -7,7 +7,7 @@ Redirect 301 /projects/ristretto http://goodies.xfce.org/projects/applications/r
 Redirect 301 /projects/xfmedia http://spuriousinterrupt.org/projects/xfmedia
 Redirect 301 /documentation/changelogs http://www.xfce.org/download/changelogs
 Redirect 301 /documentation/requirements http://www.xfce.org/download/building
-Redirect 301 /documentation http://docs.xfce.org
+RedirectMatch 301 ^/documentation(.*)$ http://docs.xfce.org/
 Redirect 301 /community/irc http://www.xfce.org/community
 Redirect 301 /community/lists http://www.xfce.org/community
 Redirect 301 /development http://www.xfce.org/getinvolved
