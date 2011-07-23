@@ -6,7 +6,7 @@
   <?php E_("Exo is an application library for the Xfce desktop environment.") ?>
 </p>
 
-<h2><?php E_("Authors" ?></h2>
+<h2><?php E_("Authors") ?></h2>
 
 <ul>
   <li>Benedikt Meurer [benny at xfce.org]</li>
