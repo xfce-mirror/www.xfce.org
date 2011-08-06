@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-07-31 00:00:10";
+$translators_stamp = "2011-08-07 00:00:09";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -25,7 +25,6 @@ $translators = array (
   ),
   'Bulgarian [bg]' => array (
     'Valentin Tunev' => 'hdbuster'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Hristo Bozhkov' => 'biernywidz'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Bengali [bn]' => array (
     'Jamil Ahmed' => 'itsjamil'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -36,6 +35,7 @@ $translators = array (
   ),
   'Catalan (Valencian) [ca]' => array (
     'Carles Muñoz Gorriz' => 'carlesmu'.ATSIGN.'internautas'.DOTSIGN.'org',
+    'Paul Garden' => 'kiari62'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Harald Servat' => 'redcrash'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Czech [cs]' => array (
@@ -115,6 +115,7 @@ $translators = array (
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'fr',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Durand-Favreau Arnaud' => 'biginoz'.ATSIGN.'free'.DOTSIGN.'fr',
+    'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Louis M' => 'm_louis30'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'magicrhesus' => 'magicrhesus'.ATSIGN.'ouranos'.DOTSIGN.'be',
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
@@ -230,6 +231,7 @@ $translators = array (
     'Mișu Moldovan' => 'dumol'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Andrei Popescu' => 'andreimpopescu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergiu Mihai' => 'sergiu'.DOTSIGN.'mihai'.ATSIGN.'devlibre'.DOTSIGN.'net',
+    'Mihai C'.DOTSIGN.'' => 'mihai'.ATSIGN.'m1x'.DOTSIGN.'ro',
   ),
   'Russian [ru]' => array (
     'Dmitrij Smirnov' => 'other'.ATSIGN.'igus'.DOTSIGN.'lv',
