@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-08-14 00:00:14";
+$translators_stamp = "2011-08-21 00:00:06";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -184,6 +184,7 @@ $translators = array (
     'Rihards Prieditis' => 'rprieditis'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Malay [ms]' => array (
+    'megavarnan' => 'mega_rhujung'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Mohd'.DOTSIGN.' Nadzrin Sapari' => 'terjemah'.DOTSIGN.'puretech'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Norwegian Bokmal [nb]' => array (
@@ -253,6 +254,7 @@ $translators = array (
     'Andres Kovtunos' => 'kovtunos'.ATSIGN.'yandex'.DOTSIGN.'ru',
     'Avgustine McDonald' => 'crispsandchees'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Dmitriy Kudryashov' => 'overmailed'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Sergiu Mihai' => 'sergiu'.DOTSIGN.'mihai'.ATSIGN.'devlibre'.DOTSIGN.'net',
     'Sergey Abramkin' => 'sergey'.ATSIGN.'abramk'.DOTSIGN.'in',
     'Leonid Eremin' => 'pan'.DOTSIGN.'sandurlay'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ton' => 'tonawuda'.ATSIGN.'inbox'.DOTSIGN.'ru',
@@ -301,6 +303,7 @@ $translators = array (
     'kim Svensson' => 'ks6g10'.ATSIGN.'soton'.DOTSIGN.'ac'.DOTSIGN.'uk',
   ),
   'Tamil [ta]' => array (
+    'megavarnan' => 'mega_rhujung'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Mohan R' => 'mohan43u'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Telugu [te]' => array (
