@@ -905,7 +905,7 @@ msgstr "अनुरक्षक जिन नई सुविधाओं क�
 
 #: about/releasemodel.php:189
 msgid "Care has to be taken of the master branch of each component. The master branch should always remain in a release-ready state. New features should be developed in branches until they are ready (as in: compiling and the component will remain functional even after merging the feature(s) into the master branch), to lower the risk of delaying the final release of the entire Xfce core desktop."
-msgstr ""
+msgstr "मुख्य शाखा के प्रत्येक घटक का ध्यान रखा जाता है। मास्टर शाखा हमेशा रिलीज के लिए तैयार स्थिति में रहना चाहिए। नई सुविधाएँ को शाखाओं में विकसित किया जाना चाहिए जब तक वे तैयार ना हो (जैसे की: संकलन और घटक की सुविधा (ओं) का मुख्य शाखा में विलय के बाद भी क्रियाशील रहेगी), इससे पूरे Xfce कोर डेस्कटॉप के अंतिम रिलीज में देरी का खतरा कम हो जाता हैं।"
 
 #: about/releasemodel.php:193
 msgid "New features breaking APIs or other core components should be communicated. Maintainers are suggested to prepare other components for these features in a separate branch before including the features in a new development release. That way the other components retain their release-ready state."
@@ -913,35 +913,36 @@ msgstr ""
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "बुनियादी विकास कार्यप्रवाह इस तरह दिखता है:"
 
 #: about/releasemodel.php:202
+#, fuzzy
 msgid "Development Workflow"
-msgstr ""
+msgstr "विकास कार्यप्रवाह"
 
 #: about/releasemodel.php:206
 msgid "Release Phase (10+ Weeks)"
-msgstr ""
+msgstr "रिलीज चरण (१०+ सप्ताह)"
 
 #: about/releasemodel.php:209
 msgid "During the release phase, there will be three pre-releases and one final release:"
-msgstr ""
+msgstr "रिलीज चरण के दौरान, तीन पूर्व पूर्व-रिलीज और एक अंतिम रिलीज किया जाएगा:"
 
 #: about/releasemodel.php:213
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr ""
+msgstr "Xfce X.Ypre1 (0 सप्ताह के बाद, सुविधा फ्रीज),"
 
 #: about/releasemodel.php:214
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr ""
+msgstr "Xfce X.Ypre2 (४ सप्ताह के बाद, स्ट्रिंग फ्रीज) और"
 
 #: about/releasemodel.php:215
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr ""
+msgstr "Xfce X.Ypre3 (८ सप्ताह के बाद, कोड फ्रीज)"
 
 #: about/releasemodel.php:216
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr ""
+msgstr "Xfce XY (१०+ सप्ताह के बाद)"
 
 #: about/releasemodel.php:220
 msgid "where Y has to be an even number. Each of these releases has to include the latest development releases of all components (or stable, if there were no development releases since the last stable release) of the Xfce core desktop. The version numbers of these components may (even have to) differ from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the version 4.7.17 and Thunar could have 1.1.9."
@@ -957,15 +958,15 @@ msgstr ""
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "रिलीज के पहले स्थिरता प्रदान करना"
 
 #: about/releasemodel.php:234
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "रिलीज से पहले विभिन्न फ्रीज प्रकार हैं."
 
 #: about/releasemodel.php:237
 msgid "Feature Freeze"
-msgstr ""
+msgstr "फ़ीचर फ्रीज (स्थिरता)"
 
 #: about/releasemodel.php:240
 msgid "With Xfce X.Ypre1, all core components enter feature freeze which means from there on only translations and bugfixes are allowed to go into the master branch."
@@ -973,7 +974,7 @@ msgstr ""
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "स्ट्रिंग / यूआई फ्रीज (स्थिरता)"
 
 #: about/releasemodel.php:246
 msgid "With Xfce X.Ypre2, all core components enter string/UI freeze which means from there on no strings which affect translations may be changed. Same goes for the user interface which may not be changed after this point."
@@ -981,7 +982,7 @@ msgstr ""
 
 #: about/releasemodel.php:249
 msgid "Code Freeze"
-msgstr ""
+msgstr "कोड फ्रीज (स्थिरता)"
 
 #: about/releasemodel.php:252
 msgid "There is a short 2-days code freeze before every pre-release. During this period of time, no commits may be sent unless they are signed off by the release manager."
@@ -993,7 +994,7 @@ msgstr ""
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "कोड स्थिरता चरण (२+ सप्ताह)"
 
 #: about/releasemodel.php:262
 msgid "With Xfce X.Ypre3, all core components enter code freeze. This phase is illustrated in the following figure and is explained in more detail in this section."
