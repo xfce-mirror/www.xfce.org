@@ -909,7 +909,7 @@ msgstr "मुख्य शाखा के प्रत्येक घटक �
 
 #: about/releasemodel.php:193
 msgid "New features breaking APIs or other core components should be communicated. Maintainers are suggested to prepare other components for these features in a separate branch before including the features in a new development release. That way the other components retain their release-ready state."
-msgstr ""
+msgstr "नई सुविधाँ, टुटे हुए एपीआई या अन्य मुख्य घटकों की सूचना प्रदान की जानी चाहिए। नए विकास-रिलीज में सुविधाओं को सम्मिलित करने से पहले निर्वाहक को इन सुविधाओं को एक अलग शाखा में तैयार करने का सुझाव दिया जाता हैं। इस तरह के अन्य घटक अपनी रिलीज के लिए तैयार स्थिति बरकरार रखते है।"
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
@@ -945,15 +945,15 @@ msgstr "Xfce XY (१०+ सप्ताह के बाद)"
 
 #: about/releasemodel.php:220
 msgid "where Y has to be an even number. Each of these releases has to include the latest development releases of all components (or stable, if there were no development releases since the last stable release) of the Xfce core desktop. The version numbers of these components may (even have to) differ from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the version 4.7.17 and Thunar could have 1.1.9."
-msgstr ""
+msgstr "जहां वाई को एक द्वि-भाजिए अंक होना चाहिए। ऐसी प्रत्येक Xfce कोर डेस्कटॉप रिलीज को सभी घटकों की नवीनतम विकास-रिलीज (या स्थिर, अगर पिछली स्थिर रिलीज के बाद से कोई विकास विज्ञप्ति नही आई हो) को शामिल करना होता है। इन घटकों की संस्करण संख्या (यहां तक कि) नामकरण उपर्युक्त योजना से अलग हो सकते हैं उदाहरण के लिए Xfce 4.8.0pre2, xfwm4 के लिए 4.7.17 संस्करण है और थूनर के लिए 1.1.9 हो सकता है।"
 
 #: about/releasemodel.php:224
 msgid "This means that maintainers don't necessarily have to release new versions of their components along with one of the pre-releases. The release team always picks the latest available development or stable release of each component for pre-releases and the final release."
-msgstr ""
+msgstr "इसका मतलब यह है कि निर्वाहक के लिए जरूरी नही है की पूर्व रिलीज के साथ अपने घटकों के नए संस्करणों को रिलीज करें। रिलीज टीम पूर्व रिलीज और अंतिम रिलीज के लिए हमेशा प्रत्येक घटक के उपलब्ध नवीनतम विकास या स्थिर रिलीज का चुनाव करता है।"
 
 #: about/releasemodel.php:228
 msgid "The end of this phase marks a new stable release of the Xfce core desktop and therewith the start of a new release cycle."
-msgstr ""
+msgstr "Xfce कोर डेस्कटॉप का नए स्थिर रिलीज इस चरण के अंत को चिह्नित करता है तथा उससे साथ एक नए रिलीज चक्र को शुरू करते हैं।"
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
@@ -969,7 +969,7 @@ msgstr "फ़ीचर फ्रीज (स्थिरता)"
 
 #: about/releasemodel.php:240
 msgid "With Xfce X.Ypre1, all core components enter feature freeze which means from there on only translations and bugfixes are allowed to go into the master branch."
-msgstr ""
+msgstr "Xfce X.Ypre1 के साथ, सभी मुख्य घटकों की सुविधाएँ स्थिर (फ्रीज) करदी जाती हैं जिसका मतलब है की केवल अनुवाद और bugfixes को ही मुख्य शाखा में जाने की अनुमति हैं।"
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
@@ -977,7 +977,7 @@ msgstr "स्ट्रिंग / यूआई फ्रीज (स्थिर
 
 #: about/releasemodel.php:246
 msgid "With Xfce X.Ypre2, all core components enter string/UI freeze which means from there on no strings which affect translations may be changed. Same goes for the user interface which may not be changed after this point."
-msgstr ""
+msgstr "Xfce X.Ypre2 के साथ, सभी मुख्य घटकों के स्ट्रिंग/ यूआई स्थिर कर दिए जातेंं हैं जिसका अर्थ है वहाँ से कोई स्ट्रिंग जो अनुवाद को प्रभावित कर सकती है को बदला नहीं जा सकता है। इसके बाद उपयोगकर्ता इंटरफ़ेस को (यूआई) भी समान तौर पर बदला नहीं जा सकता है।"
 
 #: about/releasemodel.php:249
 msgid "Code Freeze"
@@ -985,11 +985,11 @@ msgstr "कोड फ्रीज (स्थिरता)"
 
 #: about/releasemodel.php:252
 msgid "There is a short 2-days code freeze before every pre-release. During this period of time, no commits may be sent unless they are signed off by the release manager."
-msgstr ""
+msgstr "हर पूर्व रिलीज से पहले एक छोटी २ दिन की सूत्र स्थिरता प्रदान की जाती है। इस अवधि के  दौरान कोई प्रतिबद्ध सिर्फ तभी भेजा जा सकता है जब वह प्रबंधक द्वारा जारी किया गया हो।"
 
 #: about/releasemodel.php:256
 msgid "With Xfce X.Ypre3, all core components enter code freeze which means from there on no code changes are allowed, unless they are signed off by the release manager. These should usually only be fixes to blocking or release-critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "Xfce X.Ypre3 के साथ, सभी मुख्य घटक सूत्र स्थिर स्थिति में पहुँचते है जिसका अर्थ है इसके बादसे सूत्र में किसी प्रकार के परिवर्तन की अनुमति नहीं है, जब तक के वह प्रबंधक द्वारा जारी ना किए गए हो। यह आम तौर पर केवल अवरुद्ध या रिलीज के महत्वपूर्ण बग ठीक करने मे प्रयुक्त होने चाहिए। अनुवाद को अभी भी जोड़े जाने की अनुमति हैं।"
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
@@ -997,71 +997,71 @@ msgstr "कोड स्थिरता चरण (२+ सप्ताह)"
 
 #: about/releasemodel.php:262
 msgid "With Xfce X.Ypre3, all core components enter code freeze. This phase is illustrated in the following figure and is explained in more detail in this section."
-msgstr ""
+msgstr "Xfce X.Ypre3 के साथ, सभी मुख्य घटक के सूत्र स्थिर कर दिए जाते है। इस चरण को सचित्र निम्न चित्र के साथ इस अनुभाग में अधिक विस्तार में समझाया गया है।"
 
 #: about/releasemodel.php:266
 msgid "The code freeze and its exceptions are supported by commit hooks. There is an update hook which doesn't allow any changes to master unless they are signed off by the release manager. "
-msgstr ""
+msgstr "सूत्र स्थिरता और इसके अपवाद प्रतिबद्ध हुक द्वारा समर्थित हैं। एक अद्यतन हुक मास्टर में किसी भी प्रकार के परिवर्तन करने की अनुमति नहीं देता जब तक वे प्रबंधक द्वारा जारी ना किए गए हो।"
 
 #: about/releasemodel.php:271
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "उपनामकरण और रीलिज के लिए शाखाओं का निर्माण"
 
 #: about/releasemodel.php:275
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "Bugfixes या परिवर्तन"
 
 #: about/releasemodel.php:278
 msgid "If a core component requires fixes or changes during code freeze, the maintainer is required to create a new branch called ELS (//NAME OPEN FOR DISCUSSION//) to which he or she then commits the fixes. Refer to the section Code Freeze Exceptions if these are release-critical changes or fixes for blocking bugs."
-msgstr ""
+msgstr "यदि एक मुख्य घटक स्थिरता या सूत्र स्थिरता के दौरान परिवर्तन की आवश्यकता हो, अनुरक्षक को एक एल्स नाम से नई शाखा  (//जिसका नाम चर्चा के लिए खुला हैं// ) बनानी होती है जिसके द्वारा वह बाद में किसी भी प्रकार की कमी के निवार्ण को आगे भेज सकता हैं। अगर यह रिलिज के लिए महत्वपूर्ण परिवर्तन या अवरुद्ध कमियों के निवार्ण हैं तो सूत्र स्थिरता अपवाद अनुभाग देखें।"
 
 #: about/releasemodel.php:282
 msgid "The ELS branch only lives for a short period of time. It is merged into master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) after the final release. Only bugfixes are allowed in this branch."
-msgstr ""
+msgstr "एल्स शाखा केवल अल्प-अवधि के लिए रहता है। यह मास्टर में और घटक के अंतिम रिलीज के बाद स्थिर शाखा (जैसे xfwm4 4.8 या थूनर 1.2) में विलय कर दिया है। केवल bugfixes को इस शाखा में अनुमति दी जाती है।"
 
 #: about/releasemodel.php:285
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "सूत्र स्थिरता अपवाद"
 
 #: about/releasemodel.php:287
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "अवरुद्ध कमियाँ"
 
 #: about/releasemodel.php:290
 msgid "Certain bugs may delay the final release if they are considered blockers. This is the case under any of the following circumstances:"
-msgstr ""
+msgstr "कुछ कमियाँ अंतिम रिलीज में देरी ला सकती है अगर इनको अवरोधक माना जाता है। यह निम्नलिखित परिस्थितियों में से किसी के अधीन मामला है:"
 
 #: about/releasemodel.php:294
 msgid "it crashes a core application"
-msgstr ""
+msgstr "यह एक कोर अनुप्रयोग को स्मापत कर देता हैं"
 
 #: about/releasemodel.php:295
 msgid "it causes data loss"
-msgstr ""
+msgstr "यह डेटा हानि का कारण बनता है"
 
 #: about/releasemodel.php:296
 msgid "it causes an ever-growing memory leak"
-msgstr ""
+msgstr "यह हमेशा बढ़ती स्मृति रिसाव का कारण बनता है"
 
 #: about/releasemodel.php:297
 msgid "it locks the entire desktop GUI"
-msgstr ""
+msgstr "यह पूरे डेस्कटॉप जीयूआई को बंद कर देता है"
 
 #: about/releasemodel.php:301
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "एक कमी एक रिलीज में देरी नहीं कर सकती अगर यह निम्नलिखित मानदंडों को पूरा करती है:"
 
 #: about/releasemodel.php:305
 msgid "the hardware or architecture on which the bug occurs is exotic and/or there's no way for developers to reproduce the bug"
-msgstr ""
+msgstr "हार्डवेयर या वास्तुकला जिस पर कमी उत्पन होती है वह असाधारण है और/या उस कमी को पुन: पेश करने के लिए विकासक के पास कोई रास्ता नहीं है।"
 
 #: about/releasemodel.php:309
 msgid "Fixes for these bugs are allowed to be applied during code freeze if, and only if they are signed off by the release manager."
-msgstr ""
+msgstr "इन कमियों के निवार्ण सूत्र स्थिरता के दौरान प्रयुक्त किए जा सकते है, परंतु सिर्फ तब जब वे प्रबंधक द्वारा जारी किए गए हो।"
 
 #: about/releasemodel.php:312
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "रिलिज के लिए महत्वपूर्ण परिवर्तन"
 
 #: about/releasemodel.php:315
 msgid "Some changes may be of big concern with regards to the quality of the release. They are allowed to go in if, and only if they are signed off by the release manager."
