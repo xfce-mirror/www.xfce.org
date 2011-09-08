@@ -36,7 +36,7 @@ function lookup_page($uri)
 	if (basename ($uri) == 'nav')
 		$uri = 'foo';
 
-	if (empty ($uri))
+	if (empty ($uri) || $uri == 'index.php')
 		return $root.'frontpage.php';
 
 	if (is_dir ($root.$uri))
