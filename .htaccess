@@ -13,6 +13,9 @@ Redirect 301 /community/lists http://www.xfce.org/community
 Redirect 301 /development http://www.xfce.org/getinvolved
 Redirect 301 /archive http://archive.xfce.org
 
+# for correcting the version number style
+Redirect 301 /download/changelogs/4.8 http://www.xfce.org/download/changelogs/4.8.0
+
 # redirect homepages to mocha.xfce.org/~user
 RewriteRule ^(~.*)$ http://mocha.xfce.org/$1 [R,L]
 
