@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-09-18 00:00:10";
+$translators_stamp = "2011-09-25 00:00:08";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -375,6 +375,8 @@ $translators = array (
   ),
   'Chinese (Taiwan) [zh_TW]' => array (
     'Cheng-Chia Tseng' => 'pswo10680'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Chia-Han Lee' => 'gloomysaga'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'fanasin' => 'pswo10680'.ATSIGN.'hotmail'.DOTSIGN.'com',
   ),
 );
 ?>
