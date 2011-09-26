@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
-"POT-Creation-Date: 2011-04-24 17:31+0200\n"
+"POT-Creation-Date: 2011-09-26 18:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,50 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: header.php:6
+msgid "Xfce Desktop Environment"
+msgstr ""
+
+#: header.php:59
+msgid "Categories"
+msgstr ""
+
+#: header.php:61
+msgid "Home"
+msgstr ""
+
+#: header.php:62 about/nav.php:4 about/index.php:1
+msgid "About"
+msgstr ""
+
+#: header.php:63 download/nav.php:6 download/index.php:5
+msgid "Download"
+msgstr ""
+
+#: header.php:64 community/nav.php:4 community/index.php:3
+msgid "Community"
+msgstr ""
+
+#: header.php:65 getinvolved/nav.php:4 getinvolved/index.php:1
+msgid "Get Involved"
+msgstr ""
+
+#: header.php:66 projects/nav.php:4 projects/index.php:3
+msgid "Projects"
+msgstr ""
+
+#: header.php:73 header.php:87
+msgid "Change language"
+msgstr ""
+
+#: header.php:102
+msgid "Category Pages"
+msgstr ""
+
+#: header.php:123
+msgid "Related Sites"
+msgstr ""
 
 #: 404.php:1
 msgid "Page not found"
@@ -61,405 +105,60 @@ msgid ""
 "is needed."
 msgstr ""
 
-#: about/tour.php:1 about/nav.php:5
-msgid "Tour"
+#: feed.php:29
+msgid "Xfce News"
 msgstr ""
 
-#: about/tour.php:5
-msgid ""
-"This tour will introduce you to all the new major visual features in Xfce "
-"4.8. This is only the visual part of what has been done; for a full list of "
-"changes, see the <a href=\"/download/changelogs/\">changelogs</a>. The tours "
-"of <a href=\"/about/tour46\">Xfce 4.6</a> and <a href=\"/about/tour44\">Xfce "
-"4.4</a> are also still available."
+#: feed.php:30
+msgid "Xfce release announcements"
 msgstr ""
 
-#: about/tour.php:7
-msgid "Thunar file browser"
+#: feed.php:42 about/news.php:31 frontpage.php:61
+#, php-format
+msgid "Xfce %s released"
 msgstr ""
 
-#: about/tour.php:9
-msgid "Remote shares browsing"
-msgstr ""
-
-#: about/tour.php:11
-msgid ""
-"Thunar now has optional support for GVFS which will allow you to browse "
-"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
-msgstr ""
-
-#: about/tour.php:13
-msgid "Thunar browsing a remote share"
-msgstr ""
-
-#: about/tour.php:15
-msgid "New file operations progress dialog"
-msgstr ""
-
-#: about/tour.php:17
-msgid ""
-"When several file operations (copy or move) are being handled in parallel, "
-"Thunar now shows a single progress dialog which displays all the relevant "
-"information."
-msgstr ""
-
-#: about/tour.php:19
-msgid "Progress dialog"
-msgstr ""
-
-#: about/tour.php:21
-msgid "Eject button for removable devices"
-msgstr ""
-
-#: about/tour.php:23
-msgid ""
-"It is is now possible to eject removable devices by clicking the eject "
-"button near each removable device label in the side pane."
-msgstr ""
-
-#: about/tour.php:25
-msgid "Eject button"
-msgstr ""
-
-#: about/tour.php:27
-msgid "Xfce panel"
-msgstr ""
-
-#: about/tour.php:29
-msgid ""
-"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
-"changes."
-msgstr ""
-
-#: about/tour.php:31
-msgid "Improved positioning and size handling"
-msgstr ""
-
-#: about/tour.php:33
-msgid ""
-"The panel has much better support for positing panels on the screen. It can "
-"be dragged and snapped to screen borders; floating positions are only "
-"remembered when moving a panel and the length of the panel can be adjusted "
-"as a percentage of the monitor size."
-msgstr ""
-
-#: about/tour.php:35
-msgid "Transparent backgrounds"
-msgstr ""
-
-#: about/tour.php:37
-msgid ""
-"The panel is now able to draw transparent panel backgrounds with non "
-"transparent items. Your panel items will remain readable and you will enjoy "
-"a nice panel look."
-msgstr ""
-
-#: about/tour.php:39
-msgid "Transparent panel background"
-msgstr ""
-
-#: about/tour.php:41
-msgid "New item editor"
-msgstr ""
-
-#: about/tour.php:43
-msgid ""
-"The panel now features an item editor which allows to modify, move, add and "
-"remove items quickly. This is particularly useful for items which are hard "
-"to right click and gives you an easy way to change your panel layout from a "
-"single place."
-msgstr ""
-
-#: about/tour.php:45
-msgid "Panel item editor"
-msgstr ""
-
-#: about/tour.php:47
-msgid "Drag and drop to create launchers"
-msgstr ""
-
-#: about/tour.php:49
-msgid ""
-"You can now drag and drop menu entries from the panel applications menu, "
-"application finder or Thunar to the panel to create launchers. This feature "
-"should please the huge number of people who had been requesting it for ages. "
-"The launcher also has an integrated application finder to add new items."
-msgstr ""
-
-#: about/tour.php:51
-msgid "Window buttons plugin"
-msgstr ""
-
-#: about/tour.php:53
-msgid ""
-"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
-"buttons. It implements different sorting modes, improved handling in "
-"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
-"a button."
-msgstr ""
-
-#: about/tour.php:55
-msgid "New fuzzy clock"
-msgstr ""
-
-#: about/tour.php:57
-msgid ""
-"An Xfce release without a new clock mode would not be a true Xfce release. "
-"Let us introduce you the 'fuzzy' clock mode!"
-msgstr ""
-
-#: about/tour.php:59
-msgid "New fuzzy clock mode"
-msgstr ""
-
-#: about/tour.php:61
-msgid "New directory menu plugin"
-msgstr ""
-
-#: about/tour.php:63
-msgid ""
-"The directory menu plugin provides a menu reproducing the arborescence of a "
-"particular folder. This allows you to open a terminal or a file manager in a "
-"sub-folder in a very fast and efficient way."
-msgstr ""
-
-#: about/tour.php:65
-msgid "Directory menu plugin"
-msgstr ""
-
-#: about/tour.php:67
-msgid "Applications menu edition"
-msgstr ""
-
-#: about/tour.php:69
-msgid ""
-"You can now edit the applications menu using any Freedesktop compliant menu "
-"editor, Alacarte being the one we used to test."
-msgstr ""
-
-#: about/tour.php:71
-msgid "Xfce settings dialogs"
-msgstr ""
-
-#: about/tour.php:73
-msgid "Improved multihead setup configuration"
-msgstr ""
-
-#: about/tour.php:75
-msgid ""
-"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
-"driver. Unfortunately, this means it will not work with Nvidia proprietary "
-"drivers."
-msgstr ""
-
-#: about/tour.php:77
-msgid ""
-"You can enable and disable plugged screens, set their resolution, refresh "
-"rate, rotation and reflection, clone screens or extend desktops."
-msgstr ""
-
-#: about/tour.php:79
-msgid "New display settings dialog"
-msgstr ""
-
-#: about/tour.php:81
-msgid "Timed confirmation"
-msgstr ""
-
-#: about/tour.php:83
-msgid ""
-"Any change made with the settings dialog will have to be confirmed within "
-"ten seconds or they will be reverted. This prevents broken video drivers "
-"from leaving your computer unusable."
-msgstr ""
-
-#: about/tour.php:85
-msgid "Timed confirmation for display settings changes"
-msgstr ""
-
-#: about/tour.php:87
-msgid "Quick setup dialog"
-msgstr ""
-
-#: about/tour.php:89
-msgid ""
-"The quick setup dialog allows you to configure a dual screen setup in a "
-"second. Plug the second screen, press the display key or Windows + p and "
-"select the wanted layout. Done!"
-msgstr ""
-
-#: about/tour.php:91
-msgid "Quick multihead setup"
-msgstr ""
-
-#: about/tour.php:93
-msgid "Settings edition in the Xfce Settings Editor"
-msgstr ""
-
-#: about/tour.php:95
-msgid ""
-"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
-"Xfconf settings viewer. You can now modify, delete, add and reset settings "
-"through its interface. It also monitors changes to update its view."
-msgstr ""
-
-#: about/tour.php:97
-msgid "Editing Xfconf properties with the Settings Editor"
-msgstr ""
-
-#: about/tour.php:99
-msgid "Improved keyboard layout selection"
-msgstr ""
-
-#: about/tour.php:101
-msgid ""
-"The layout selection dialog received a lot of love: it no longer displays "
-"cryptic language/variants codes but uses localized languages/variants names. "
-"Layout edition was also made easier by prefilling the dialogs with the "
-"current values."
-msgstr ""
-
-#: about/tour.php:103
-msgid "Layouts and variants list"
-msgstr ""
-
-#: about/nav.php:4 about/index.php:1 header.php:62
-msgid "About"
-msgstr ""
-
-#: about/nav.php:6 about/news.php:6
-msgid "News"
-msgstr ""
-
-#: about/nav.php:7 about/screenshots.php:1 frontpage.php:25
-msgid "Screenshots"
-msgstr ""
-
-#: about/nav.php:8 about/tour46.php:240 about/tour44.php:222
-#: about/credits.php:8
+#: about/credits.php:8 about/tour46.php:240 about/nav.php:8
+#: about/tour44.php:222
 msgid "Credits"
 msgstr ""
 
-#: about/nav.php:9 about/press.php:1
-msgid "Press"
+#: about/credits.php:11 about/credits.php:61
+msgid "Core developers"
 msgstr ""
 
-#: about/nav.php:10 about/releasemodel.php:3
-msgid "Release Model"
+#: about/credits.php:12 about/credits.php:72
+msgid "Active contributors"
 msgstr ""
 
-#: about/nav.php:11 about/artwork.php:1
-msgid "Artwork"
+#: about/credits.php:13 about/credits.php:87
+msgid "Servers maintained by"
 msgstr ""
 
-#: about/index.php:7 frontpage.php:18
+#: about/credits.php:14 about/credits.php:98
+msgid "Goodies supervision"
+msgstr ""
+
+#: about/credits.php:15 about/credits.php:104
+msgid "Translations supervision"
+msgstr ""
+
+#: about/credits.php:16 about/credits.php:111
+msgid "Translators"
+msgstr ""
+
+#: about/credits.php:17 about/credits.php:114
+msgid "Previous contributors"
+msgstr ""
+
+#: about/credits.php:56
 msgid ""
-"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
-"It aims to be fast and low on system resources, while still being visually "
-"appealing and user friendly."
+"A large number of people contributed to the Xfce project. Although more "
+"people contributed to the project then the ones list below, we'd like to say:"
 msgstr ""
 
-#: about/index.php:11
-msgid ""
-"Xfce embodies the traditional UNIX philosophy of modularity and re-"
-"usability. It consists of a number of components that provide the full "
-"functionality one can expect of a modern desktop environment. They are "
-"packaged separately and you can pick among the available packages to create "
-"the optimal personal working environment."
-msgstr ""
-
-#: about/index.php:15
-msgid ""
-"Another priority of Xfce is adhereance to standards, specifically those "
-"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr ""
-
-#: about/index.php:19
-msgid ""
-"Xfce can be installed on several UNIX platforms. It is known to compile on "
-"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
-"Sparc, Alpha..."
-msgstr ""
-
-#: about/index.php:22 projects/libxfce4.php:9
-msgid "Features"
-msgstr ""
-
-#: about/index.php:25
-msgid ""
-"Xfce contains a number of core components for the minimum tasks you'd expect "
-"from a desktop environement:"
-msgstr ""
-
-#: about/index.php:27 about/tour44.php:71 projects/index.php:20
-msgid "Window Manager"
-msgstr ""
-
-#: about/index.php:28
-msgid ""
-"Manages the placement of windows on the screen, provides window decorations "
-"and manages workspaces or virtual desktops."
-msgstr ""
-
-#: about/index.php:30 projects/index.php:38
-msgid "Desktop Manager"
-msgstr ""
-
-#: about/index.php:31
-msgid ""
-"Sets the background image and provides a root window menu, desktop icons or "
-"minimized icons and a windows list."
-msgstr ""
-
-#: about/index.php:33 about/tour46.php:25 about/tour44.php:102
-#: projects/index.php:27
-msgid "Panel"
-msgstr ""
-
-#: about/index.php:34
-msgid ""
-"Switch between opened windows, launch applications, switch workspaces and "
-"menu plugins to browse applications or directories."
-msgstr ""
-
-#: about/index.php:36 projects/index.php:45
-msgid "Session Manager"
-msgstr ""
-
-#: about/index.php:37
-msgid ""
-"Controls the login and power management of the desktop and allows you to "
-"store multiple login sessions."
-msgstr ""
-
-#: about/index.php:39 about/tour44.php:28
-msgid "File Manager"
-msgstr ""
-
-#: about/index.php:40
-msgid ""
-"Provides the basic file management features and unique utilities like the "
-"bulk renamer."
-msgstr ""
-
-#: about/index.php:42
-msgid "Setting Manager"
-msgstr ""
-
-#: about/index.php:43
-msgid ""
-"Tools to control the various settings of the desktop like keyboard "
-"shortcuts, appearance, display settings etcetera."
-msgstr ""
-
-#: about/index.php:47
-msgid ""
-"Beside the basic set of modules, Xfce also provides numerous additional "
-"applications and plugins so you can extend your desktop the way you like, "
-"for example a terminal emulator, text editor, sound mixer, application "
-"finder, image viewer, iCal based calendar and a CD and DVD burning "
-"application. You can read more about the modules of Xfce in the <a href=\"/"
-"projects\">projects</a> page."
+#: about/credits.php:58
+msgid "Thanks to all who helped making this software available!"
 msgstr ""
 
 #: about/tour46.php:1
@@ -499,6 +198,11 @@ msgstr ""
 
 #: about/tour46.php:23
 msgid "New desktop menu"
+msgstr ""
+
+#: about/tour46.php:25 about/index.php:33 about/tour44.php:102
+#: projects/index.php:27
+msgid "Panel"
 msgstr ""
 
 #: about/tour46.php:28
@@ -818,13 +522,18 @@ msgstr ""
 msgid "Screenshots by Jannis Pohlmann"
 msgstr ""
 
-#: about/screenshots.php:18
-msgid "Some screenshots of Xfce, ordered by version."
+#: about/artwork.php:1 about/nav.php:11
+msgid "Artwork"
 msgstr ""
 
-#: about/news.php:31 feed.php:42 frontpage.php:61
-#, php-format
-msgid "Xfce %s released"
+#: about/artwork.php:5
+msgid ""
+"You can download the Xfce artwork tarball <a href=\"/downloads/xfce_artwork."
+"tar.bz2\">here</a>. It contains some high-quality logos and banners."
+msgstr ""
+
+#: about/news.php:6 about/nav.php:6
+msgid "News"
 msgstr ""
 
 #: about/news.php:49
@@ -835,10 +544,403 @@ msgstr ""
 msgid "No news articles found."
 msgstr ""
 
-#: about/artwork.php:5
+#: about/nav.php:5 about/tour.php:1
+msgid "Tour"
+msgstr ""
+
+#: about/nav.php:7 about/screenshots.php:1 frontpage.php:25
+msgid "Screenshots"
+msgstr ""
+
+#: about/nav.php:9 about/press.php:1
+msgid "Press"
+msgstr ""
+
+#: about/nav.php:10 about/releasemodel.php:3
+msgid "Release Model"
+msgstr ""
+
+#: about/press.php:5
+msgid "Here you can find various reviews of the Xfce desktop environment."
+msgstr ""
+
+#: about/press.php:12 about/press.php:42 about/press.php:72 about/press.php:92
+msgid "Date"
+msgstr ""
+
+#: about/press.php:13 about/press.php:43 about/press.php:73 about/press.php:93
+msgid "Website"
+msgstr ""
+
+#: about/press.php:14 about/press.php:44 about/press.php:74 about/press.php:94
+msgid "Link"
+msgstr ""
+
+#: about/index.php:7 frontpage.php:18
 msgid ""
-"You can download the Xfce artwork tarball <a href=\"/downloads/xfce_artwork."
-"tar.bz2\">here</a>. It contains some high-quality logos and banners."
+"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
+"It aims to be fast and low on system resources, while still being visually "
+"appealing and user friendly."
+msgstr ""
+
+#: about/index.php:11
+msgid ""
+"Xfce embodies the traditional UNIX philosophy of modularity and re-"
+"usability. It consists of a number of components that provide the full "
+"functionality one can expect of a modern desktop environment. They are "
+"packaged separately and you can pick among the available packages to create "
+"the optimal personal working environment."
+msgstr ""
+
+#: about/index.php:15
+msgid ""
+"Another priority of Xfce is adhereance to standards, specifically those "
+"defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
+msgstr ""
+
+#: about/index.php:19
+msgid ""
+"Xfce can be installed on several UNIX platforms. It is known to compile on "
+"Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
+"Sparc, Alpha..."
+msgstr ""
+
+#: about/index.php:22 projects/libxfce4.php:9
+msgid "Features"
+msgstr ""
+
+#: about/index.php:25
+msgid ""
+"Xfce contains a number of core components for the minimum tasks you'd expect "
+"from a desktop environement:"
+msgstr ""
+
+#: about/index.php:27 about/tour44.php:71 projects/index.php:20
+msgid "Window Manager"
+msgstr ""
+
+#: about/index.php:28
+msgid ""
+"Manages the placement of windows on the screen, provides window decorations "
+"and manages workspaces or virtual desktops."
+msgstr ""
+
+#: about/index.php:30 projects/index.php:38
+msgid "Desktop Manager"
+msgstr ""
+
+#: about/index.php:31
+msgid ""
+"Sets the background image and provides a root window menu, desktop icons or "
+"minimized icons and a windows list."
+msgstr ""
+
+#: about/index.php:34
+msgid ""
+"Switch between opened windows, launch applications, switch workspaces and "
+"menu plugins to browse applications or directories."
+msgstr ""
+
+#: about/index.php:36 projects/index.php:45
+msgid "Session Manager"
+msgstr ""
+
+#: about/index.php:37
+msgid ""
+"Controls the login and power management of the desktop and allows you to "
+"store multiple login sessions."
+msgstr ""
+
+#: about/index.php:39 about/tour44.php:28
+msgid "File Manager"
+msgstr ""
+
+#: about/index.php:40
+msgid ""
+"Provides the basic file management features and unique utilities like the "
+"bulk renamer."
+msgstr ""
+
+#: about/index.php:42
+msgid "Setting Manager"
+msgstr ""
+
+#: about/index.php:43
+msgid ""
+"Tools to control the various settings of the desktop like keyboard "
+"shortcuts, appearance, display settings etcetera."
+msgstr ""
+
+#: about/index.php:47
+msgid ""
+"Beside the basic set of modules, Xfce also provides numerous additional "
+"applications and plugins so you can extend your desktop the way you like, "
+"for example a terminal emulator, text editor, sound mixer, application "
+"finder, image viewer, iCal based calendar and a CD and DVD burning "
+"application. You can read more about the modules of Xfce in the <a href=\"/"
+"projects\">projects</a> page."
+msgstr ""
+
+#: about/screenshots.php:18
+msgid "Some screenshots of Xfce, ordered by version."
+msgstr ""
+
+#: about/tour.php:5
+msgid ""
+"This tour will introduce you to all the new major visual features in Xfce "
+"4.8. This is only the visual part of what has been done; for a full list of "
+"changes, see the <a href=\"/download/changelogs/\">changelogs</a>. The tours "
+"of <a href=\"/about/tour46\">Xfce 4.6</a> and <a href=\"/about/tour44\">Xfce "
+"4.4</a> are also still available."
+msgstr ""
+
+#: about/tour.php:7
+msgid "Thunar file browser"
+msgstr ""
+
+#: about/tour.php:9
+msgid "Remote shares browsing"
+msgstr ""
+
+#: about/tour.php:11
+msgid ""
+"Thunar now has optional support for GVFS which will allow you to browse "
+"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
+msgstr ""
+
+#: about/tour.php:13
+msgid "Thunar browsing a remote share"
+msgstr ""
+
+#: about/tour.php:15
+msgid "New file operations progress dialog"
+msgstr ""
+
+#: about/tour.php:17
+msgid ""
+"When several file operations (copy or move) are being handled in parallel, "
+"Thunar now shows a single progress dialog which displays all the relevant "
+"information."
+msgstr ""
+
+#: about/tour.php:19
+msgid "Progress dialog"
+msgstr ""
+
+#: about/tour.php:21
+msgid "Eject button for removable devices"
+msgstr ""
+
+#: about/tour.php:23
+msgid ""
+"It is is now possible to eject removable devices by clicking the eject "
+"button near each removable device label in the side pane."
+msgstr ""
+
+#: about/tour.php:25
+msgid "Eject button"
+msgstr ""
+
+#: about/tour.php:27
+msgid "Xfce panel"
+msgstr ""
+
+#: about/tour.php:29
+msgid ""
+"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
+"changes."
+msgstr ""
+
+#: about/tour.php:31
+msgid "Improved positioning and size handling"
+msgstr ""
+
+#: about/tour.php:33
+msgid ""
+"The panel has much better support for positing panels on the screen. It can "
+"be dragged and snapped to screen borders; floating positions are only "
+"remembered when moving a panel and the length of the panel can be adjusted "
+"as a percentage of the monitor size."
+msgstr ""
+
+#: about/tour.php:35
+msgid "Transparent backgrounds"
+msgstr ""
+
+#: about/tour.php:37
+msgid ""
+"The panel is now able to draw transparent panel backgrounds with non "
+"transparent items. Your panel items will remain readable and you will enjoy "
+"a nice panel look."
+msgstr ""
+
+#: about/tour.php:39
+msgid "Transparent panel background"
+msgstr ""
+
+#: about/tour.php:41
+msgid "New item editor"
+msgstr ""
+
+#: about/tour.php:43
+msgid ""
+"The panel now features an item editor which allows to modify, move, add and "
+"remove items quickly. This is particularly useful for items which are hard "
+"to right click and gives you an easy way to change your panel layout from a "
+"single place."
+msgstr ""
+
+#: about/tour.php:45
+msgid "Panel item editor"
+msgstr ""
+
+#: about/tour.php:47
+msgid "Drag and drop to create launchers"
+msgstr ""
+
+#: about/tour.php:49
+msgid ""
+"You can now drag and drop menu entries from the panel applications menu, "
+"application finder or Thunar to the panel to create launchers. This feature "
+"should please the huge number of people who had been requesting it for ages. "
+"The launcher also has an integrated application finder to add new items."
+msgstr ""
+
+#: about/tour.php:51
+msgid "Window buttons plugin"
+msgstr ""
+
+#: about/tour.php:53
+msgid ""
+"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
+"buttons. It implements different sorting modes, improved handling in "
+"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
+"a button."
+msgstr ""
+
+#: about/tour.php:55
+msgid "New fuzzy clock"
+msgstr ""
+
+#: about/tour.php:57
+msgid ""
+"An Xfce release without a new clock mode would not be a true Xfce release. "
+"Let us introduce you the 'fuzzy' clock mode!"
+msgstr ""
+
+#: about/tour.php:59
+msgid "New fuzzy clock mode"
+msgstr ""
+
+#: about/tour.php:61
+msgid "New directory menu plugin"
+msgstr ""
+
+#: about/tour.php:63
+msgid ""
+"The directory menu plugin provides a menu reproducing the arborescence of a "
+"particular folder. This allows you to open a terminal or a file manager in a "
+"sub-folder in a very fast and efficient way."
+msgstr ""
+
+#: about/tour.php:65
+msgid "Directory menu plugin"
+msgstr ""
+
+#: about/tour.php:67
+msgid "Applications menu edition"
+msgstr ""
+
+#: about/tour.php:69
+msgid ""
+"You can now edit the applications menu using any Freedesktop compliant menu "
+"editor, Alacarte being the one we used to test."
+msgstr ""
+
+#: about/tour.php:71
+msgid "Xfce settings dialogs"
+msgstr ""
+
+#: about/tour.php:73
+msgid "Improved multihead setup configuration"
+msgstr ""
+
+#: about/tour.php:75
+msgid ""
+"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
+"driver. Unfortunately, this means it will not work with Nvidia proprietary "
+"drivers."
+msgstr ""
+
+#: about/tour.php:77
+msgid ""
+"You can enable and disable plugged screens, set their resolution, refresh "
+"rate, rotation and reflection, clone screens or extend desktops."
+msgstr ""
+
+#: about/tour.php:79
+msgid "New display settings dialog"
+msgstr ""
+
+#: about/tour.php:81
+msgid "Timed confirmation"
+msgstr ""
+
+#: about/tour.php:83
+msgid ""
+"Any change made with the settings dialog will have to be confirmed within "
+"ten seconds or they will be reverted. This prevents broken video drivers "
+"from leaving your computer unusable."
+msgstr ""
+
+#: about/tour.php:85
+msgid "Timed confirmation for display settings changes"
+msgstr ""
+
+#: about/tour.php:87
+msgid "Quick setup dialog"
+msgstr ""
+
+#: about/tour.php:89
+msgid ""
+"The quick setup dialog allows you to configure a dual screen setup in a "
+"second. Plug the second screen, press the display key or Windows + p and "
+"select the wanted layout. Done!"
+msgstr ""
+
+#: about/tour.php:91
+msgid "Quick multihead setup"
+msgstr ""
+
+#: about/tour.php:93
+msgid "Settings edition in the Xfce Settings Editor"
+msgstr ""
+
+#: about/tour.php:95
+msgid ""
+"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
+"Xfconf settings viewer. You can now modify, delete, add and reset settings "
+"through its interface. It also monitors changes to update its view."
+msgstr ""
+
+#: about/tour.php:97
+msgid "Editing Xfconf properties with the Settings Editor"
+msgstr ""
+
+#: about/tour.php:99
+msgid "Improved keyboard layout selection"
+msgstr ""
+
+#: about/tour.php:101
+msgid ""
+"The layout selection dialog received a lot of love: it no longer displays "
+"cryptic language/variants codes but uses localized languages/variants names. "
+"Layout edition was also made easier by prefilling the dialogs with the "
+"current values."
+msgstr ""
+
+#: about/tour.php:103
+msgid "Layouts and variants list"
 msgstr ""
 
 #: about/releasemodel.php:6 about/releasemodel.php:31
@@ -1418,12 +1520,11 @@ msgid ""
 "releases."
 msgstr ""
 
-#: about/releasemodel.php:337 projects/xfce-utils.php:9 projects/exo.php:9
-#: projects/libxfce4.php:16 projects/xfce4-mixer.php:15
-#: projects/xfce4-session.php:9 projects/xfconf.php:9 projects/thunar.php:15
-#: projects/xfwm4.php:15 projects/terminal.php:11 projects/orage.php:9
-#: projects/xfce4-panel.php:19 projects/xfce4-appfinder.php:13
-#: projects/xfburn.php:11
+#: about/releasemodel.php:337 projects/exo.php:9 projects/orage.php:9
+#: projects/xfce4-appfinder.php:13 projects/xfce4-session.php:9
+#: projects/xfburn.php:11 projects/xfce4-mixer.php:15 projects/thunar.php:15
+#: projects/terminal.php:11 projects/xfce-utils.php:9 projects/libxfce4.php:16
+#: projects/xfwm4.php:15 projects/xfce4-panel.php:19 projects/xfconf.php:9
 msgid "Authors"
 msgstr ""
 
@@ -1730,62 +1831,931 @@ msgid ""
 "Xfce 4.4.0 or trouble with the installation."
 msgstr ""
 
-#: about/press.php:5
-msgid "Here you can find various reviews of the Xfce desktop environment."
+#: projects/exo.php:1
+msgid "What is Exo?"
 msgstr ""
 
-#: about/press.php:12 about/press.php:42 about/press.php:72 about/press.php:92
-msgid "Date"
+#: projects/exo.php:6
+msgid "Exo is an application library for the Xfce desktop environment."
 msgstr ""
 
-#: about/press.php:13 about/press.php:43 about/press.php:73 about/press.php:93
-msgid "Website"
+#: projects/exo.php:17 projects/orage.php:16 projects/xfce4-appfinder.php:19
+#: projects/xfce4-session.php:16 projects/xfburn.php:17
+#: projects/xfce4-mixer.php:21 projects/thunar.php:23 projects/terminal.php:18
+#: projects/xfce-utils.php:19 projects/libxfce4.php:26
+#: projects/xfce4-panel.php:26 projects/xfdesktop.php:19
+#: projects/xfconf.php:17
+msgid "Useful links"
 msgstr ""
 
-#: about/press.php:14 about/press.php:44 about/press.php:74 about/press.php:94
-msgid "Link"
+#: projects/exo.php:21
+msgid "Download the source tarballs of Exo releases"
 msgstr ""
 
-#: about/credits.php:11 about/credits.php:61
-msgid "Core developers"
+#: projects/exo.php:24
+msgid "Exo source code on git.xfce.org"
 msgstr ""
 
-#: about/credits.php:12 about/credits.php:72
-msgid "Active contributors"
+#: projects/exo.php:27
+msgid "Bugs reported against Exo"
 msgstr ""
 
-#: about/credits.php:13 about/credits.php:87
-msgid "Servers maintained by"
+#: projects/orage.php:1
+msgid "What is Orage?"
 msgstr ""
 
-#: about/credits.php:14 about/credits.php:98
-msgid "Goodies supervision"
-msgstr ""
-
-#: about/credits.php:15 about/credits.php:104
-msgid "Translations supervision"
-msgstr ""
-
-#: about/credits.php:16 about/credits.php:111
-msgid "Translators"
-msgstr ""
-
-#: about/credits.php:17 about/credits.php:114
-msgid "Previous contributors"
-msgstr ""
-
-#: about/credits.php:56
+#: projects/orage.php:6
 msgid ""
-"A large number of people contributed to the Xfce project. Although more "
-"people contributed to the project then the ones list below, we'd like to say:"
+"Orage provides a calendar which integrates nicely into the Xfce Desktop "
+"Environment. It is highly configurable and supports alerts based on dates. "
+"It warns you with popup or audio alarm. As it is an application for every "
+"day use, it launches itself in the background as a daemon and can be "
+"accessed using the Orage Clock plugin for the panel."
 msgstr ""
 
-#: about/credits.php:58
-msgid "Thanks to all who helped making this software available!"
+#: projects/orage.php:20
+msgid "Download the source tarballs of Orage releases"
 msgstr ""
 
-#: community/nav.php:4 community/index.php:3 header.php:64
-msgid "Community"
+#: projects/orage.php:23
+msgid "Orage source code on git.xfce.org"
+msgstr ""
+
+#: projects/orage.php:26
+msgid "Bugs reported against Orage"
+msgstr ""
+
+#: projects/xfce4-appfinder.php:1
+msgid "What is the Application Finder?"
+msgstr ""
+
+#: projects/xfce4-appfinder.php:6
+msgid ""
+"This is an application finder for the Xfce Desktop Environment. It is a "
+"useful program that allows you to find applications on the system and launch "
+"them. It provides easy keyboard navigation and can be used as a replacement "
+"for xfrun4."
+msgstr ""
+
+#: projects/xfce4-appfinder.php:23
+msgid "Download the source tarballs of Xfce4 Appfinder releases"
+msgstr ""
+
+#: projects/xfce4-appfinder.php:26
+msgid "Xfce4 Appfinder source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce4-appfinder.php:29
+msgid "Bugs reported against Xfce4 Appfinder"
+msgstr ""
+
+#: projects/xfce4-session.php:1
+msgid "What is the Session Manager?"
+msgstr ""
+
+#: projects/xfce4-session.php:6
+msgid ""
+"The session manager allows the user to save sessions and restore them after "
+"login. It is capable of saving several different sessions. It also provides "
+"an easy way to log out, reboot, shutdown, hibernate or suspend your computer."
+msgstr ""
+
+#: projects/xfce4-session.php:20
+msgid "Download the source tarballs of Xfce4 Session releases"
+msgstr ""
+
+#: projects/xfce4-session.php:23
+msgid "Xfce4 Session source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce4-session.php:26
+msgid "Bugs reported against Xfce4 Session"
+msgstr ""
+
+#: projects/xfburn.php:1
+msgid "What is Xfburn?"
+msgstr ""
+
+#: projects/xfburn.php:6
+msgid ""
+"Xfburn is a simple CD/DVD burning tool based on <a class=\"external\" href="
+"\"http://www.libburnia-project.org/\">libburnia</a> libraries. It can blank "
+"CD/DVD(-RW)s, burn and create ISO images, audio CDs, as well as burn "
+"personal compositions of data to either CD or DVD."
+msgstr ""
+
+#: projects/xfburn.php:21
+msgid "More on Xfburn"
+msgstr ""
+
+#: projects/xfburn.php:24
+msgid "Download the source tarballs of Xfburn releases"
+msgstr ""
+
+#: projects/xfburn.php:27
+msgid "Xfburn source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfburn.php:30
+msgid "Bugs reported against Xfburn"
+msgstr ""
+
+#: projects/nav.php:7
+msgid "Xfce Goodies"
+msgstr ""
+
+#: projects/xfce4-mixer.php:1
+msgid "What is the mixer?"
+msgstr ""
+
+#: projects/xfce4-mixer.php:6
+msgid ""
+"The Mixer is a volume control application for the Xfce Desktop Environment. "
+"It provides both a volume control plugin for the Xfce Panel and a standalone "
+"mixer application."
+msgstr ""
+
+#: projects/xfce4-mixer.php:10
+msgid ""
+"It supports all audio systems supported by the <a href=\"http://www."
+"gstreamer.net/\">GStreamer</a> project."
+msgstr ""
+
+#: projects/xfce4-mixer.php:25
+msgid "Download the source tarballs of Xfce4 Mixer releases"
+msgstr ""
+
+#: projects/xfce4-mixer.php:28
+msgid "Xfce4 Mixer source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce4-mixer.php:31
+msgid "Bugs reported against Xfce4 Mixer"
+msgstr ""
+
+#: projects/index.php:8 projects/index.php:108
+msgid "Applications"
+msgstr ""
+
+#: projects/index.php:13
+msgid ""
+"The Xfce project contains several separated projects for each part of the "
+"desktop. Every project has it's own project page to provide additionnal "
+"information."
+msgstr ""
+
+#: projects/index.php:22
+msgid ""
+"It manages the placement of application windows on the screen, provides "
+"window decorations and manages workspaces or virtual desktops."
+msgstr ""
+
+#: projects/index.php:29
+msgid ""
+"The panel is a bar which allows you to have at all times program launchers, "
+"panel menus, a clock, a desktop switcher and more."
+msgstr ""
+
+#: projects/index.php:40
+msgid ""
+"This program sets the background image and provides a root window menu, "
+"desktop icons or minimized icons and a windows list."
+msgstr ""
+
+#: projects/index.php:47
+msgid ""
+"The session manager controls all aspects of the startup and the shutdown of "
+"the user session."
+msgstr ""
+
+#: projects/index.php:56
+msgid "Settings Manager"
+msgstr ""
+
+#: projects/index.php:58
+msgid "It allows you to configure every detail of your desktop environment."
+msgstr ""
+
+#: projects/index.php:63
+msgid "Utilities and Scripts"
+msgstr ""
+
+#: projects/index.php:65
+msgid ""
+"Essential utilities and scripts. Provides a credits and license dialog, a "
+"dialog for launching applications and several important scripts."
+msgstr ""
+
+#: projects/index.php:74
+msgid "Xfce Libraries"
+msgstr ""
+
+#: projects/index.php:76
+msgid ""
+"They provide additional functions and widgets which ease the development of "
+"applications."
+msgstr ""
+
+#: projects/index.php:83
+msgid "Simple client-server configuration storage and query system."
+msgstr ""
+
+#: projects/index.php:92
+msgid "Thunar File Manager"
+msgstr ""
+
+#: projects/index.php:94
+msgid ""
+"Thunar is a new modern file manager designed from the ground up to be fast "
+"and easy-to-use."
+msgstr ""
+
+#: projects/index.php:99
+msgid "Application Finder"
+msgstr ""
+
+#: projects/index.php:101
+msgid ""
+"Allows you to search, launch and find information about applications "
+"installed on your system."
+msgstr ""
+
+#: projects/index.php:112
+msgid "Web Browser"
+msgstr ""
+
+#: projects/index.php:114
+msgid "Midori is a lightweight Web browser."
+msgstr ""
+
+#: projects/index.php:119
+msgid "Terminal"
+msgstr ""
+
+#: projects/index.php:121
+msgid ""
+"Terminal is a modern terminal emulator featuring tabs and transparent "
+"backgrounds."
+msgstr ""
+
+#: projects/index.php:130
+msgid "Xfburn"
+msgstr ""
+
+#: projects/index.php:132
+msgid "Xfburn is an application to create and burn CD's and DVD's."
+msgstr ""
+
+#: projects/index.php:137
+msgid "Orage"
+msgstr ""
+
+#: projects/index.php:139
+msgid "A simple calendar application with reminders."
+msgstr ""
+
+#: projects/index.php:148
+msgid "Mixer"
+msgstr ""
+
+#: projects/index.php:150
+msgid "Allows you to change the volume of the different audio tracks."
+msgstr ""
+
+#: projects/index.php:155
+msgid "Image Viewer"
+msgstr ""
+
+#: projects/index.php:157
+msgid "Ristretto is a lightweight image viewer."
+msgstr ""
+
+#: projects/thunar.php:1
+msgid "What is the Thunar File Manager?"
+msgstr ""
+
+#: projects/thunar.php:6
+msgid ""
+"Thunar is a new modern file manager for the Xfce Desktop Environment. It has "
+"been designed from the ground up to be fast and easy-to-use. Its user "
+"interface is clean and intuitive, and does not include any confusing or "
+"useless options. Thunar is fast and responsive with a good start up time and "
+"directory load time."
+msgstr ""
+
+#: projects/thunar.php:10
+msgid ""
+"Thunar implements the various FreeDesktop.org standards to integrate nicely "
+"into todays UNIX/Linux desktop world. That means that you don’t need to "
+"setup your system in a special way or spend hours configuring the file "
+"manager, instead, it will just work if your system complies with the "
+"FreeDesktop.org standards."
+msgstr ""
+
+#: projects/thunar.php:27
+msgid "Download the source tarballs of Thunar releases"
+msgstr ""
+
+#: projects/thunar.php:30
+msgid "Thunar source code on git.xfce.org"
+msgstr ""
+
+#: projects/thunar.php:33
+msgid "Bugs reported against Thunar"
+msgstr ""
+
+#: projects/thunar.php:36
+msgid "Homepage"
+msgstr ""
+
+#: projects/thunar.php:39 community/nav.php:9
+msgid "Wiki"
+msgstr ""
+
+#: projects/terminal.php:1
+msgid "What is Terminal?"
+msgstr ""
+
+#: projects/terminal.php:6
+msgid ""
+"Terminal is a modern, lightweight, and low memory cost terminal emulator "
+"with tabs and multiple windows for the Xfce desktop environment. It offers "
+"full-customization for the key bindings, the aspect, the colors, and more."
+msgstr ""
+
+#: projects/terminal.php:22
+msgid "Download the source tarballs of Terminal releases"
+msgstr ""
+
+#: projects/terminal.php:25
+msgid "Terminal source code on git.xfce.org"
+msgstr ""
+
+#: projects/terminal.php:28
+msgid "Bugs reported against Terminal"
+msgstr ""
+
+#: projects/xfce-utils.php:1
+msgid "What are the utilities and scripts?"
+msgstr ""
+
+#: projects/xfce-utils.php:6
+msgid ""
+"The Utilities and Scripts provides an about dialog for Xfce 4, an "
+"application launcher and several useful scripts that are also used by other "
+"Xfce components such as the panel and the desktop menu."
+msgstr ""
+
+#: projects/xfce-utils.php:23
+msgid "Download the source tarballs of Xfce Utils releases"
+msgstr ""
+
+#: projects/xfce-utils.php:26
+msgid "Xfce utils source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce-utils.php:29
+msgid "Bugs reported against Xfce Utils"
+msgstr ""
+
+#: projects/libxfce4.php:1
+msgid "What are libxfce4util and libxfce4ui?"
+msgstr ""
+
+#: projects/libxfce4.php:6
+msgid ""
+"The core libraries provide common functionalities to the Xfce environment. "
+"They are two libraries which provide non-graphical helper functions, "
+"widgets, convenience functions for graphical user interfaces  and functions "
+"for settings management."
+msgstr ""
+
+#: projects/libxfce4.php:12
+msgid ": basic utilities."
+msgstr ""
+
+#: projects/libxfce4.php:13
+msgid ": unified widgets and session management."
+msgstr ""
+
+#: projects/libxfce4.php:32
+msgid "Download the source tarballs of Libxfce4util releases"
+msgstr ""
+
+#: projects/libxfce4.php:35
+msgid "Libxfce4util source code on git.xfce.org"
+msgstr ""
+
+#: projects/libxfce4.php:38
+msgid "Bugs reported against Libxfce4util"
+msgstr ""
+
+#: projects/libxfce4.php:46
+msgid "Download the source tarballs of Libxfce4ui releases"
+msgstr ""
+
+#: projects/libxfce4.php:49
+msgid "Libxfce4ui source code on git.xfce.org"
+msgstr ""
+
+#: projects/libxfce4.php:52
+msgid "Bugs reported against Libxfce4ui"
+msgstr ""
+
+#: projects/xfwm4.php:1
+msgid "What is Xfwm4?"
+msgstr ""
+
+#: projects/xfwm4.php:6
+msgid ""
+"Xfwm4 is the Xfce window manager. It manages the placement of application "
+"windows on the screen, provides beautiful window decorations, manages "
+"workspaces or virtual desktops and natively supports multiscreen mode. "
+msgstr ""
+
+#: projects/xfwm4.php:10
+msgid ""
+"It provides its own compositing manager (from the X.Org Composite extension) "
+"for true transparency and shadows. Xfwm4 also includes a keyboard shorcuts "
+"editor for basic windows manipulations and provides a preferences dialog for "
+"advanced tweaks."
+msgstr ""
+
+#: projects/xfwm4.php:21
+msgid "Uselful links"
+msgstr ""
+
+#: projects/xfwm4.php:25
+msgid "Download the source tarballs of Xfwm4 releases"
+msgstr ""
+
+#: projects/xfwm4.php:28
+msgid "Xfwm4 source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfwm4.php:31
+msgid "Bugs reported against Xfwm4"
+msgstr ""
+
+#: projects/xfce4-panel.php:1
+msgid "What is the Xfce panel?"
+msgstr ""
+
+#: projects/xfce4-panel.php:6
+msgid ""
+"A panel is a bar which can hold many items such as application launchers, "
+"windows lists, clock, notification area, applications menu..."
+msgstr ""
+
+#: projects/xfce4-panel.php:10
+msgid ""
+"The Xfce panel can manage any number of panels and allows you to customize "
+"them by adding/removing items, choosing their position and size, setting "
+"background images or transparency levels..."
+msgstr ""
+
+#: projects/xfce4-panel.php:14
+msgid ""
+"The Xfce Panel comes with a great number of plugins but you can also install "
+"a lot of third party plugins. most of them are available through the Xfce "
+"Goodies project."
+msgstr ""
+
+#: projects/xfce4-panel.php:30
+msgid "Panel plugins from the Goodies Project page"
+msgstr ""
+
+#: projects/xfce4-panel.php:33
+msgid "Download the source tarballs of Xfce4 Panel releases"
+msgstr ""
+
+#: projects/xfce4-panel.php:36
+msgid "Xfce4 Panel source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce4-panel.php:39
+msgid "Bugs reported against Xfce4 Panel"
+msgstr ""
+
+#: projects/xfce4-settings.php:1
+msgid "What is the Settings Manager?"
+msgstr ""
+
+#: projects/xfce4-settings.php:6
+msgid ""
+"The settings manager allows you to customize your desktop environment in an "
+"easy and intuitive way. You can set some hardware components such as mouse, "
+"keyboard or display; but also theme your windows, widgets and icons, set "
+"your preferred applications, manage your sessions..."
+msgstr ""
+
+#: projects/xfce4-settings.php:26
+msgid "Download the source tarballs of Xfce4 Settings releases"
+msgstr ""
+
+#: projects/xfce4-settings.php:29
+msgid "Xfce4 Settings source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfce4-settings.php:32
+msgid "Bugs reported against Xfce4 Settings"
+msgstr ""
+
+#: projects/xfdesktop.php:1
+msgid "What is Xfdesktop?"
+msgstr ""
+
+#: projects/xfdesktop.php:6
+msgid ""
+"The desktop manager sets the background image, provides a right-click menu "
+"to launch applications and can optionally show files (including application "
+"launchers) or iconified windows. It includes gradient support for background "
+"color, saturation support for background image, real multiscreen and "
+"xinerama support."
+msgstr ""
+
+#: projects/xfdesktop.php:11
+msgid "Author"
+msgstr ""
+
+#: projects/xfdesktop.php:23
+msgid "Download the source tarballs of Xfdesktop releases"
+msgstr ""
+
+#: projects/xfdesktop.php:26
+msgid "Xfdesktop source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfdesktop.php:29
+msgid "Bugs reported against Xfdesktop"
+msgstr ""
+
+#: projects/xfconf.php:1
+msgid "What is Xfconf?"
+msgstr ""
+
+#: projects/xfconf.php:6
+msgid ""
+"Xfconf is a simple client-server configuration storage and query system."
+msgstr ""
+
+#: projects/xfconf.php:21
+msgid "Download the source tarballs of Xfconf releases"
+msgstr ""
+
+#: projects/xfconf.php:24
+msgid "Xfconf source code on git.xfce.org"
+msgstr ""
+
+#: projects/xfconf.php:27
+msgid "Bugs reported against Xfconf"
+msgstr ""
+
+#: getinvolved/nav.php:6 getinvolved/index.php:17
+#: getinvolved/translation.php:3
+msgid "Translation"
+msgstr ""
+
+#: getinvolved/nav.php:13
+msgid "Report a bug"
+msgstr ""
+
+#: getinvolved/nav.php:14
+msgid "Translations"
+msgstr ""
+
+#: getinvolved/nav.php:15
+msgid "Buildbot"
+msgstr ""
+
+#: getinvolved/index.php:5
+msgid ""
+"Welcome to the Xfce community. By joining our team, you will be part of an "
+"international effort by hundreds of people working to deliver a stunning "
+"Free Software computing experience. You will meet new friends, learn new "
+"skills and make a difference to millions of users while working with people "
+"from all around the globe. There are many different ways you can become part "
+"of this, just read on and pick an area which interests you or seems "
+"challenging."
+msgstr ""
+
+#: getinvolved/index.php:9
+msgid ""
+"Possible tasks include testing, bug reporting; writing code, developing "
+"artwork, documentation or translations; or spreading the word and helping "
+"out with promotion and marketing both on line and at tradeshows and "
+"conferences."
+msgstr ""
+
+#: getinvolved/index.php:12
+msgid "Documentation"
+msgstr ""
+
+#: getinvolved/index.php:14
+msgid ""
+"There's lots of people using and testing Xfce. By providing useful and up-to-"
+"date documentation, you will make a big impact on helping people understand "
+"how to make the most of the Xfce Desktop Environement."
+msgstr ""
+
+#: getinvolved/index.php:19
+msgid ""
+"Are you fluent in multiple languages? By contributing your translations of "
+"text to the Xfce Desktop Environement, you will help Xfce be a better part "
+"of the global market and more accessible to the millions of potential users "
+"out there."
+msgstr ""
+
+#: getinvolved/index.php:22
+msgid "Development"
+msgstr ""
+
+#: getinvolved/index.php:24
+msgid ""
+"By becoming a developer, you can make a big difference while enjoying a "
+"challenging and fun experience. You'll learn to be a better coder, you will "
+"get to implement new features and defeat daunting bugs, creating a stunning "
+"product, all the while collaborating with people from all around the world."
+msgstr ""
+
+#: getinvolved/index.php:27
+msgid "Promotion"
+msgstr ""
+
+#: getinvolved/index.php:29
+msgid ""
+"If you own a blog or website you can greatly help by spreading the word and "
+"encouraging new users to give Xfce a try. If you have a Identi.ca or Twitter "
+"account you can also help by reposting any <a href=\"http://identi.ca/xfce"
+"\">announcements</a> we make to help us reach a larger audience."
+msgstr ""
+
+#: getinvolved/index.php:32
+msgid "Bug Reporting and testing"
+msgstr ""
+
+#: getinvolved/index.php:34
+msgid ""
+"One of the most useful tasks that we rely on the community for is testing "
+"and reporting of bugs. Since Xfce runs on various platform and in a lot of "
+"different setups, testing all changes in every possible situation is an "
+"impossible task. As such we kindly ask users to assist in testing, and "
+"reporting all bugs they may find, using our <a href=\"https://bugzilla.xfce."
+"org\" class=\"external\">bug tracker</a>."
+msgstr ""
+
+#: getinvolved/index.php:38
+msgid ""
+"Once a bug has been found, the cause of the bug needs to be tracked down, "
+"and then (obviously) fixed. If you want to get involved in the actual "
+"development process of Xfce a great way to start is by solving bugs and then "
+"submitting a patch file."
+msgstr ""
+
+#: getinvolved/translation.php:6 getinvolved/translation.php:23
+msgid "Getting Started"
+msgstr ""
+
+#: getinvolved/translation.php:7 getinvolved/translation.php:46
+msgid "Team Work"
+msgstr ""
+
+#: getinvolved/translation.php:8 getinvolved/translation.php:64
+msgid "Team Coordinator"
+msgstr ""
+
+#: getinvolved/translation.php:9 getinvolved/translation.php:81
+msgid "Transifex Usage"
+msgstr ""
+
+#: getinvolved/translation.php:16
+msgid ""
+"Xfce uses the <a href=\"http://transifex.org\">Transifex</a> translation "
+"platform as a portal for translators. This allows translators to translate "
+"on-line, submit new <em>po</em>-files, watch translations and view "
+"statistics. All translation updates are directly submitted in the <a href="
+"\"http://git.xfce.org\">Xfce GIT repositories</a>, so they are directly "
+"available for the rest of the world."
+msgstr ""
+
+#: getinvolved/translation.php:20
+msgid ""
+"Because we'd like to translate Xfce in as much languages as possible, we are "
+"always looking for new translation contributors. If you're interested in "
+"this, read the <em>getting started</em> section below."
+msgstr ""
+
+#: getinvolved/translation.php:26
+msgid ""
+"Before you can contribute translations, you have to go through the steps "
+"below. Note that <em>ALL</em> these steps are required:"
+msgstr ""
+
+#: getinvolved/translation.php:30
+msgid ""
+"First go to the <a href=\"https://translations.xfce.org/accounts/register/"
+"\">registration page</a> and create a new profile. After you've pressed the "
+"<em>Register</em>-button, you will receive an email to confirm your account, "
+"before you can login."
+msgstr ""
+
+#: getinvolved/translation.php:31
+msgid ""
+"After you've logged in, go to your <a href=\"https://translations.xfce.org/"
+"accounts/profile/edit/personal/\">profile page</a> and set your <em>First "
+"name</em>, <em>Surname</em> and <em>Native Language</em>. Your complete name "
+"is <em>required</em> for submitting translations and will be used in the GIT "
+"logs, so take this seriously!"
+msgstr ""
+
+#: getinvolved/translation.php:32
+msgid ""
+"Join the <a href=\"http://foo-projects.org/mailman/listinfo/xfce-i18n\">Xfce "
+"translation mailing list</a>. This is where the translation communication is "
+"coordinated, so it is nice to introduce yourself here. On this list "
+"developer will also announce when releases are planned, translations system "
+"changes or anything else you should know as a translators."
+msgstr ""
+
+#: getinvolved/translation.php:33
+msgid ""
+"Go to the <a href=\"https://translations.xfce.org/projects/p/xfce/teams/"
+"\">Xfce translation teams</a> and request access to a team or request a new "
+"language if it doesn't exist yet. One of the developers or translation "
+"coordinators will approve (or decline) your request. All other product in "
+"this Transifex installation outsource the permissions of the Xfce product, "
+"so your rights in this product will apply all over <a href=\"https://"
+"translations.xfce.org\">translations.xfce.org</a>."
+msgstr ""
+
+#: getinvolved/translation.php:34
+msgid ""
+"Now wait patently. If it takes too long, leave a message on the translation "
+"mailing list."
+msgstr ""
+
+#: getinvolved/translation.php:39
+msgid ""
+"Once this has all happened, you should have permission to submit and update "
+"translations in your language. You can find more information about this "
+"below. Don't forget to keep in touch with the other translators in your "
+"language (you can find them in the translation groups) to coordinate the "
+"translation work!"
+msgstr ""
+
+#: getinvolved/translation.php:43
+msgid ""
+"If you think anything went wrong, ideas? Don't hesitate and send an email to "
+"the Xfce translation mailing list, we're always there to help you!"
+msgstr ""
+
+#: getinvolved/translation.php:49
+msgid ""
+"Keep in touch with the current translator(s). Is your language already "
+"translated or being translated by someone else, then you should try to work "
+"together with the current translator(s) of that language, and split up the "
+"work so you are reducing the workload and increasing the quality of the "
+"translation. Many translators are happy to share the work or even appreciate "
+"people discussing translations."
+msgstr ""
+
+#: getinvolved/translation.php:53
+msgid ""
+"The header of the PO files contain the field &quot;Last-Translator&quot; As "
+"example here is the French translation of xfce4-panel: <a href=\"http://git."
+"xfce.org/xfce/xfce4-panel/plain/po/fr.po\">fr.po</a>."
+msgstr ""
+
+#: getinvolved/translation.php:57
+msgid ""
+"You can send an email to the i18n mailing-list as well with a copy (CC) to "
+"the current translator if you did find out his email. Let know your "
+"intention and wait for an answer from the current translator(s). If you "
+"don't get a response in the upcoming weeks (2~3 weeks) you can consider "
+"translating the different projects."
+msgstr ""
+
+#: getinvolved/translation.php:61
+msgid ""
+"Other than getting in touch with current translators, you can use a private "
+"page to share progress on translations. The defacto place is on <a href="
+"\"http://wiki.xfce.org/translations/\">wiki.xfce.org</a>, but you can also "
+"use alternative possibilities like the <a href=\"http://groups.google.com/"
+"support/\">Google Groups</a>."
+msgstr ""
+
+#: getinvolved/translation.php:66
+msgid ""
+"Transifex allows you to manage a team with a list of translators and "
+"coordinators. Usually you will find one coordinator per team who is allowed "
+"to perform the following tasks:"
+msgstr ""
+
+#: getinvolved/translation.php:69
+msgid "Accept or deny new translators in the team"
+msgstr ""
+
+#: getinvolved/translation.php:70
+msgid "Accept or deny a translation review"
+msgstr ""
+
+#: getinvolved/translation.php:74
+msgid ""
+"The coordinator should not accept new translators without having a little "
+"history of their involvement in other projects. If it is unsure if a new "
+"member has deep knowledge of translations or not, it is possible to check "
+"the new Transifex account and start a short discussion per email. At this "
+"point the coordinator can either accept the new member who will be allowed "
+"to commit changes directly in our repositories, otherwise the coordinator "
+"can ask the new member to submit the work for review. This process is "
+"important whenever the translations have to use a standard vocabulary for "
+"instance."
+msgstr ""
+
+#: getinvolved/translation.php:78
+msgid ""
+"A good practice for the coordinator is to check the translations before a "
+"new release, that consists into compiling each Xfce component with the "
+"latest translations and making sure everything is in good shape."
+msgstr ""
+
+#: getinvolved/translation.php:83
+msgid "Statistics"
+msgstr ""
+
+#: getinvolved/translation.php:85
+msgid ""
+"Transifex provides statistics per language and per project. The <a href="
+"\"https://translations.xfce.org/projects/p/xfce/\">Xfce collection project</"
+"a> view is the most interesting as it lets you know if the core projects are "
+"fully translated. An overview of the language stats in Xfce core master are "
+"<a href=\"https://translations.xfce.org/projects/p/xfce/r/master/\">here</"
+"a>.  It is also possible to get to such a page by going to the <a href="
+"\"https://translations.xfce.org/languages/\">language page</a> first and "
+"picking up your language than a collection. The collection &quot;Xfce&quot; "
+"has several components for the different stable versions (<em>xfce-4.4</em>, "
+"<em>xfce-4.6</em>, etc) and one for the development branch (<em>master</"
+"em>). The other collections, for example Applications, have usually only "
+"development components as they aren't part of any official Xfce releases."
+msgstr ""
+
+#: getinvolved/translation.php:88
+msgid "Downloading Translations"
+msgstr ""
+
+#: getinvolved/translation.php:91
+msgid ""
+"You can visualize and download PO files from existing translations. For that "
+"just go to a project page or select a collection from the languages page, "
+"than click one of the small buttons at the right of the statistics. If there "
+"is no current translation you can download the source file (the PO template) "
+"available on each project page. Also when you are on a collection view you "
+"have at the bottom of the statistics table a download section with ZIP files."
+msgstr ""
+
+#: getinvolved/translation.php:94
+msgid "Uploading Translations"
+msgstr ""
+
+#: getinvolved/translation.php:97
+msgid ""
+"When you are identified on Transifex and have the upload rights it is very "
+"simple to upload new translations. Go to a project and choose the component "
+"that corresponds to a stable version or to the development branch &mdash; "
+"you can pass through the collection page to find a project &mdash; then "
+"click on the small <em>Upload</em> button besides the visualize/download/"
+"lock/edit buttons at the right of your language or the <em>Add a new "
+"translation</em> button at the bottom of the page if it doesn't exist yet. "
+"Fill in the form and click the <em>Send</em> button."
+msgstr ""
+
+#: getinvolved/translation.php:101
+msgid ""
+"It is a good idea to click the <em>Lock</em> button when doing a translation "
+"while there is more than one active translator for your current language. "
+"Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to "
+"update the translations online."
+msgstr ""
+
+#: frontpage.php:22
+#, php-format
+msgid "Download the latest %s release"
+msgstr ""
+
+#: frontpage.php:23
+#, php-format
+msgid "Release notes for %s"
+msgstr ""
+
+#: frontpage.php:24
+msgid "Visual tour of Xfce 4.8"
+msgstr ""
+
+#: footer.php:4
+#, php-format
+msgid ""
+"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
+"was last modified on %s."
 msgstr ""
 
 #: community/nav.php:7
@@ -1794,10 +2764,6 @@ msgstr ""
 
 #: community/nav.php:8
 msgid "Blog"
-msgstr ""
-
-#: community/nav.php:9 projects/thunar.php:39
-msgid "Wiki"
 msgstr ""
 
 #: community/nav.php:10
@@ -1925,9 +2891,25 @@ msgid ""
 "get the latest Xfce news."
 msgstr ""
 
-#: download/building.php:3 download/building.php:9 download/building.php:214
-#: download/nav.php:7
+#: download/nav.php:7 download/building.php:3 download/building.php:9
+#: download/building.php:214
 msgid "Building"
+msgstr ""
+
+#: download/nav.php:8 download/changelogs/index.php:3
+msgid "Changelogs"
+msgstr ""
+
+#: download/nav.php:9 download/distros.php:1
+msgid "Distributions"
+msgstr ""
+
+#: download/nav.php:12
+msgid "Browse GIT repositories"
+msgstr ""
+
+#: download/nav.php:13
+msgid "Xfce goodies"
 msgstr ""
 
 #: download/building.php:6 download/building.php:20
@@ -2212,26 +3194,6 @@ msgstr ""
 msgid "Have fun building Xfce!"
 msgstr ""
 
-#: download/nav.php:6 download/index.php:5 header.php:63
-msgid "Download"
-msgstr ""
-
-#: download/nav.php:8 download/changelogs/index.php:3
-msgid "Changelogs"
-msgstr ""
-
-#: download/nav.php:9 download/distros.php:1
-msgid "Distributions"
-msgstr ""
-
-#: download/nav.php:12
-msgid "Browse GIT repositories"
-msgstr ""
-
-#: download/nav.php:13
-msgid "Xfce goodies"
-msgstr ""
-
 #: download/index.php:8
 msgid "Stable release"
 msgstr ""
@@ -2344,12 +3306,6 @@ msgstr ""
 
 #: download/requirements.php:120
 msgid "locking the screen"
-msgstr ""
-
-#: download/changelogs/index.php:33
-msgid ""
-"Xfce release notes are specific to each version. Select your version from "
-"the list below to see the changes in the release. "
 msgstr ""
 
 #: download/distros.php:5
@@ -2526,598 +3482,10 @@ msgid ""
 "Linux, BSD/OS, SunOS and HP-UX."
 msgstr ""
 
-#: footer.php:4
-#, php-format
+#: download/changelogs/index.php:33
 msgid ""
-"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
-"was last modified on %s."
-msgstr ""
-
-#: feed.php:29
-msgid "Xfce News"
-msgstr ""
-
-#: feed.php:30
-msgid "Xfce release announcements"
-msgstr ""
-
-#: projects/xfce-utils.php:1
-msgid "What are the utilities and scripts?"
-msgstr ""
-
-#: projects/xfce-utils.php:6
-msgid ""
-"The Utilities and Scripts provides an about dialog for Xfce 4, an "
-"application launcher and several useful scripts that are also used by other "
-"Xfce components such as the panel and the desktop menu."
-msgstr ""
-
-#: projects/xfce-utils.php:19 projects/exo.php:17 projects/libxfce4.php:26
-#: projects/xfce4-mixer.php:21 projects/xfdesktop.php:19
-#: projects/xfce4-session.php:16 projects/xfconf.php:17 projects/thunar.php:23
-#: projects/terminal.php:18 projects/orage.php:16 projects/xfce4-panel.php:26
-#: projects/xfce4-appfinder.php:19 projects/xfburn.php:17
-msgid "Useful links"
-msgstr ""
-
-#: projects/xfce-utils.php:23
-msgid "Download the source tarballs of Xfce Utils releases"
-msgstr ""
-
-#: projects/xfce-utils.php:26
-msgid "Xfce utils source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce-utils.php:29
-msgid "Bugs reported against Xfce Utils"
-msgstr ""
-
-#: projects/exo.php:1
-msgid "What is Exo?"
-msgstr ""
-
-#: projects/exo.php:6
-msgid "Exo is an application library for the Xfce desktop environment."
-msgstr ""
-
-#: projects/exo.php:21
-msgid "Download the source tarballs of Exo releases"
-msgstr ""
-
-#: projects/exo.php:24
-msgid "Exo source code on git.xfce.org"
-msgstr ""
-
-#: projects/exo.php:27
-msgid "Bugs reported against Exo"
-msgstr ""
-
-#: projects/nav.php:4 projects/index.php:3 header.php:66
-msgid "Projects"
-msgstr ""
-
-#: projects/nav.php:7
-msgid "Xfce Goodies"
-msgstr ""
-
-#: projects/libxfce4.php:1
-msgid "What are libxfce4util and libxfce4ui?"
-msgstr ""
-
-#: projects/libxfce4.php:6
-msgid ""
-"The core libraries provide common functionalities to the Xfce environment. "
-"They are two libraries which provide non-graphical helper functions, "
-"widgets, convenience functions for graphical user interfaces  and functions "
-"for settings management."
-msgstr ""
-
-#: projects/libxfce4.php:12
-msgid ": basic utilities."
-msgstr ""
-
-#: projects/libxfce4.php:13
-msgid ": unified widgets and session management."
-msgstr ""
-
-#: projects/libxfce4.php:32
-msgid "Download the source tarballs of Libxfce4util releases"
-msgstr ""
-
-#: projects/libxfce4.php:35
-msgid "Libxfce4util source code on git.xfce.org"
-msgstr ""
-
-#: projects/libxfce4.php:38
-msgid "Bugs reported against Libxfce4util"
-msgstr ""
-
-#: projects/libxfce4.php:46
-msgid "Download the source tarballs of Libxfce4ui releases"
-msgstr ""
-
-#: projects/libxfce4.php:49
-msgid "Libxfce4ui source code on git.xfce.org"
-msgstr ""
-
-#: projects/libxfce4.php:52
-msgid "Bugs reported against Libxfce4ui"
-msgstr ""
-
-#: projects/xfce4-mixer.php:1
-msgid "What is the mixer?"
-msgstr ""
-
-#: projects/xfce4-mixer.php:6
-msgid ""
-"The Mixer is a volume control application for the Xfce Desktop Environment. "
-"It provides both a volume control plugin for the Xfce Panel and a standalone "
-"mixer application."
-msgstr ""
-
-#: projects/xfce4-mixer.php:10
-msgid ""
-"It supports all audio systems supported by the <a href=\"http://www."
-"gstreamer.net/\">GStreamer</a> project."
-msgstr ""
-
-#: projects/xfce4-mixer.php:25
-msgid "Download the source tarballs of Xfce4 Mixer releases"
-msgstr ""
-
-#: projects/xfce4-mixer.php:28
-msgid "Xfce4 Mixer source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce4-mixer.php:31
-msgid "Bugs reported against Xfce4 Mixer"
-msgstr ""
-
-#: projects/xfdesktop.php:1
-msgid "What is Xfdesktop?"
-msgstr ""
-
-#: projects/xfdesktop.php:6
-msgid ""
-"The desktop manager sets the background image, provides a right-click menu "
-"to launch applications and can optionally show files (including application "
-"launchers) or iconified windows. It includes gradient support for background "
-"color, saturation support for background image, real multiscreen and "
-"xinerama support."
-msgstr ""
-
-#: projects/xfdesktop.php:11
-msgid "Author"
-msgstr ""
-
-#: projects/xfdesktop.php:23
-msgid "Download the source tarballs of Xfdesktop releases"
-msgstr ""
-
-#: projects/xfdesktop.php:26
-msgid "Xfdesktop source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfdesktop.php:29
-msgid "Bugs reported against Xfdesktop"
-msgstr ""
-
-#: projects/index.php:8 projects/index.php:108
-msgid "Applications"
-msgstr ""
-
-#: projects/index.php:13
-msgid ""
-"The Xfce project contains several separated projects for each part of the "
-"desktop. Every project has it's own project page to provide additionnal "
-"information."
-msgstr ""
-
-#: projects/index.php:22
-msgid ""
-"It manages the placement of application windows on the screen, provides "
-"window decorations and manages workspaces or virtual desktops."
-msgstr ""
-
-#: projects/index.php:29
-msgid ""
-"The panel is a bar which allows you to have at all times program launchers, "
-"panel menus, a clock, a desktop switcher and more."
-msgstr ""
-
-#: projects/index.php:40
-msgid ""
-"This program sets the background image and provides a root window menu, "
-"desktop icons or minimized icons and a windows list."
-msgstr ""
-
-#: projects/index.php:47
-msgid ""
-"The session manager controls all aspects of the startup and the shutdown of "
-"the user session."
-msgstr ""
-
-#: projects/index.php:56
-msgid "Settings Manager"
-msgstr ""
-
-#: projects/index.php:58
-msgid "It allows you to configure every detail of your desktop environment."
-msgstr ""
-
-#: projects/index.php:63
-msgid "Utilities and Scripts"
-msgstr ""
-
-#: projects/index.php:65
-msgid ""
-"Essential utilities and scripts. Provides a credits and license dialog, a "
-"dialog for launching applications and several important scripts."
-msgstr ""
-
-#: projects/index.php:74
-msgid "Xfce Libraries"
-msgstr ""
-
-#: projects/index.php:76
-msgid ""
-"They provide additional functions and widgets which ease the development of "
-"applications."
-msgstr ""
-
-#: projects/index.php:83
-msgid "Simple client-server configuration storage and query system."
-msgstr ""
-
-#: projects/index.php:92
-msgid "Thunar File Manager"
-msgstr ""
-
-#: projects/index.php:94
-msgid ""
-"Thunar is a new modern file manager designed from the ground up to be fast "
-"and easy-to-use."
-msgstr ""
-
-#: projects/index.php:99
-msgid "Application Finder"
-msgstr ""
-
-#: projects/index.php:101
-msgid ""
-"Allows you to search, launch and find information about applications "
-"installed on your system."
-msgstr ""
-
-#: projects/index.php:112
-msgid "Web Browser"
-msgstr ""
-
-#: projects/index.php:114
-msgid "Midori is a lightweight Web browser."
-msgstr ""
-
-#: projects/index.php:119
-msgid "Terminal"
-msgstr ""
-
-#: projects/index.php:121
-msgid ""
-"Terminal is a modern terminal emulator featuring tabs and transparent "
-"backgrounds."
-msgstr ""
-
-#: projects/index.php:130
-msgid "Xfburn"
-msgstr ""
-
-#: projects/index.php:132
-msgid "Xfburn is an application to create and burn CD's and DVD's."
-msgstr ""
-
-#: projects/index.php:137
-msgid "Orage"
-msgstr ""
-
-#: projects/index.php:139
-msgid "A simple calendar application with reminders."
-msgstr ""
-
-#: projects/index.php:148
-msgid "Mixer"
-msgstr ""
-
-#: projects/index.php:150
-msgid "Allows you to change the volume of the different audio tracks."
-msgstr ""
-
-#: projects/index.php:155
-msgid "Image Viewer"
-msgstr ""
-
-#: projects/index.php:157
-msgid "Ristretto is a lightweight image viewer."
-msgstr ""
-
-#: projects/xfce4-settings.php:1
-msgid "What is the Settings Manager?"
-msgstr ""
-
-#: projects/xfce4-settings.php:6
-msgid ""
-"The settings manager allows you to customize your desktop environment in an "
-"easy and intuitive way. You can set some hardware components such as mouse, "
-"keyboard or display; but also theme your windows, widgets and icons, set "
-"your preferred applications, manage your sessions..."
-msgstr ""
-
-#: projects/xfce4-settings.php:26
-msgid "Download the source tarballs of Xfce4 Settings releases"
-msgstr ""
-
-#: projects/xfce4-settings.php:29
-msgid "Xfce4 Settings source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce4-settings.php:32
-msgid "Bugs reported against Xfce4 Settings"
-msgstr ""
-
-#: projects/xfce4-session.php:1
-msgid "What is the Session Manager?"
-msgstr ""
-
-#: projects/xfce4-session.php:6
-msgid ""
-"The session manager allows the user to save sessions and restore them after "
-"login. It is capable of saving several different sessions. It also provides "
-"an easy way to log out, reboot, shutdown, hibernate or suspend your computer."
-msgstr ""
-
-#: projects/xfce4-session.php:20
-msgid "Download the source tarballs of Xfce4 Session releases"
-msgstr ""
-
-#: projects/xfce4-session.php:23
-msgid "Xfce4 Session source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce4-session.php:26
-msgid "Bugs reported against Xfce4 Session"
-msgstr ""
-
-#: projects/xfconf.php:1
-msgid "What is Xfconf?"
-msgstr ""
-
-#: projects/xfconf.php:6
-msgid ""
-"Xfconf is a simple client-server configuration storage and query system."
-msgstr ""
-
-#: projects/xfconf.php:21
-msgid "Download the source tarballs of Xfconf releases"
-msgstr ""
-
-#: projects/xfconf.php:24
-msgid "Xfconf source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfconf.php:27
-msgid "Bugs reported against Xfconf"
-msgstr ""
-
-#: projects/thunar.php:1
-msgid "What is the Thunar File Manager?"
-msgstr ""
-
-#: projects/thunar.php:6
-msgid ""
-"Thunar is a new modern file manager for the Xfce Desktop Environment. It has "
-"been designed from the ground up to be fast and easy-to-use. Its user "
-"interface is clean and intuitive, and does not include any confusing or "
-"useless options. Thunar is fast and responsive with a good start up time and "
-"directory load time."
-msgstr ""
-
-#: projects/thunar.php:10
-msgid ""
-"Thunar implements the various FreeDesktop.org standards to integrate nicely "
-"into todays UNIX/Linux desktop world. That means that you don’t need to "
-"setup your system in a special way or spend hours configuring the file "
-"manager, instead, it will just work if your system complies with the "
-"FreeDesktop.org standards."
-msgstr ""
-
-#: projects/thunar.php:27
-msgid "Download the source tarballs of Thunar releases"
-msgstr ""
-
-#: projects/thunar.php:30
-msgid "Thunar source code on git.xfce.org"
-msgstr ""
-
-#: projects/thunar.php:33
-msgid "Bugs reported against Thunar"
-msgstr ""
-
-#: projects/thunar.php:36
-msgid "Homepage"
-msgstr ""
-
-#: projects/xfwm4.php:1
-msgid "What is Xfwm4?"
-msgstr ""
-
-#: projects/xfwm4.php:6
-msgid ""
-"Xfwm4 is the Xfce window manager. It manages the placement of application "
-"windows on the screen, provides beautiful window decorations, manages "
-"workspaces or virtual desktops and natively supports multiscreen mode. "
-msgstr ""
-
-#: projects/xfwm4.php:10
-msgid ""
-"It provides its own compositing manager (from the X.Org Composite extension) "
-"for true transparency and shadows. Xfwm4 also includes a keyboard shorcuts "
-"editor for basic windows manipulations and provides a preferences dialog for "
-"advanced tweaks."
-msgstr ""
-
-#: projects/xfwm4.php:21
-msgid "Uselful links"
-msgstr ""
-
-#: projects/xfwm4.php:25
-msgid "Download the source tarballs of Xfwm4 releases"
-msgstr ""
-
-#: projects/xfwm4.php:28
-msgid "Xfwm4 source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfwm4.php:31
-msgid "Bugs reported against Xfwm4"
-msgstr ""
-
-#: projects/terminal.php:1
-msgid "What is Terminal?"
-msgstr ""
-
-#: projects/terminal.php:6
-msgid ""
-"Terminal is a modern, lightweight, and low memory cost terminal emulator "
-"with tabs and multiple windows for the Xfce desktop environment. It offers "
-"full-customization for the key bindings, the aspect, the colors, and more."
-msgstr ""
-
-#: projects/terminal.php:22
-msgid "Download the source tarballs of Terminal releases"
-msgstr ""
-
-#: projects/terminal.php:25
-msgid "Terminal source code on git.xfce.org"
-msgstr ""
-
-#: projects/terminal.php:28
-msgid "Bugs reported against Terminal"
-msgstr ""
-
-#: projects/orage.php:1
-msgid "What is Orage?"
-msgstr ""
-
-#: projects/orage.php:6
-msgid ""
-"Orage provides a calendar which integrates nicely into the Xfce Desktop "
-"Environment. It is highly configurable and supports alerts based on dates. "
-"It warns you with popup or audio alarm. As it is an application for every "
-"day use, it launches itself in the background as a daemon and can be "
-"accessed using the Orage Clock plugin for the panel."
-msgstr ""
-
-#: projects/orage.php:20
-msgid "Download the source tarballs of Orage releases"
-msgstr ""
-
-#: projects/orage.php:23
-msgid "Orage source code on git.xfce.org"
-msgstr ""
-
-#: projects/orage.php:26
-msgid "Bugs reported against Orage"
-msgstr ""
-
-#: projects/xfce4-panel.php:1
-msgid "What is the Xfce panel?"
-msgstr ""
-
-#: projects/xfce4-panel.php:6
-msgid ""
-"A panel is a bar which can hold many items such as application launchers, "
-"windows lists, clock, notification area, applications menu..."
-msgstr ""
-
-#: projects/xfce4-panel.php:10
-msgid ""
-"The Xfce panel can manage any number of panels and allows you to customize "
-"them by adding/removing items, choosing their position and size, setting "
-"background images or transparency levels..."
-msgstr ""
-
-#: projects/xfce4-panel.php:14
-msgid ""
-"The Xfce Panel comes with a great number of plugins but you can also install "
-"a lot of third party plugins. most of them are available through the Xfce "
-"Goodies project."
-msgstr ""
-
-#: projects/xfce4-panel.php:30
-msgid "Panel plugins from the Goodies Project page"
-msgstr ""
-
-#: projects/xfce4-panel.php:33
-msgid "Download the source tarballs of Xfce4 Panel releases"
-msgstr ""
-
-#: projects/xfce4-panel.php:36
-msgid "Xfce4 Panel source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce4-panel.php:39
-msgid "Bugs reported against Xfce4 Panel"
-msgstr ""
-
-#: projects/xfce4-appfinder.php:1
-msgid "What is the Application Finder?"
-msgstr ""
-
-#: projects/xfce4-appfinder.php:6
-msgid ""
-"This is an application finder for the Xfce Desktop Environment. It is a "
-"useful program that allows you to find applications on the system and launch "
-"them. It provides easy keyboard navigation and can be used as a replacement "
-"for xfrun4."
-msgstr ""
-
-#: projects/xfce4-appfinder.php:23
-msgid "Download the source tarballs of Xfce4 Appfinder releases"
-msgstr ""
-
-#: projects/xfce4-appfinder.php:26
-msgid "Xfce4 Appfinder source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfce4-appfinder.php:29
-msgid "Bugs reported against Xfce4 Appfinder"
-msgstr ""
-
-#: projects/xfburn.php:1
-msgid "What is Xfburn?"
-msgstr ""
-
-#: projects/xfburn.php:6
-msgid ""
-"Xfburn is a simple CD/DVD burning tool based on <a class=\"external\" href="
-"\"http://www.libburnia-project.org/\">libburnia</a> libraries. It can blank "
-"CD/DVD(-RW)s, burn and create ISO images, audio CDs, as well as burn "
-"personal compositions of data to either CD or DVD."
-msgstr ""
-
-#: projects/xfburn.php:21
-msgid "More on Xfburn"
-msgstr ""
-
-#: projects/xfburn.php:24
-msgid "Download the source tarballs of Xfburn releases"
-msgstr ""
-
-#: projects/xfburn.php:27
-msgid "Xfburn source code on git.xfce.org"
-msgstr ""
-
-#: projects/xfburn.php:30
-msgid "Bugs reported against Xfburn"
+"Xfce release notes are specific to each version. Select your version from "
+"the list below to see the changes in the release. "
 msgstr ""
 
 #: news-array.php:10
@@ -3428,333 +3796,4 @@ msgstr ""
 msgid ""
 "A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</"
 "a>."
-msgstr ""
-
-#: header.php:6
-msgid "Xfce Desktop Environment"
-msgstr ""
-
-#: header.php:59
-msgid "Categories"
-msgstr ""
-
-#: header.php:61
-msgid "Home"
-msgstr ""
-
-#: header.php:65 getinvolved/nav.php:4 getinvolved/index.php:1
-msgid "Get Involved"
-msgstr ""
-
-#: header.php:73 header.php:87
-msgid "Change language"
-msgstr ""
-
-#: header.php:102
-msgid "Category Pages"
-msgstr ""
-
-#: header.php:123
-msgid "Related Sites"
-msgstr ""
-
-#: frontpage.php:22
-#, php-format
-msgid "Download the latest %s release"
-msgstr ""
-
-#: frontpage.php:23
-#, php-format
-msgid "Release notes for %s"
-msgstr ""
-
-#: frontpage.php:24
-msgid "Visual tour of Xfce 4.8"
-msgstr ""
-
-#: getinvolved/nav.php:6 getinvolved/index.php:17
-#: getinvolved/translation.php:3
-msgid "Translation"
-msgstr ""
-
-#: getinvolved/nav.php:13
-msgid "Report a bug"
-msgstr ""
-
-#: getinvolved/nav.php:14
-msgid "Translations"
-msgstr ""
-
-#: getinvolved/nav.php:15
-msgid "Buildbot"
-msgstr ""
-
-#: getinvolved/index.php:5
-msgid ""
-"Welcome to the Xfce community. By joining our team, you will be part of an "
-"international effort by hundreds of people working to deliver a stunning "
-"Free Software computing experience. You will meet new friends, learn new "
-"skills and make a difference to millions of users while working with people "
-"from all around the globe. There are many different ways you can become part "
-"of this, just read on and pick an area which interests you or seems "
-"challenging."
-msgstr ""
-
-#: getinvolved/index.php:9
-msgid ""
-"Possible tasks include testing, bug reporting; writing code, developing "
-"artwork, documentation or translations; or spreading the word and helping "
-"out with promotion and marketing both on line and at tradeshows and "
-"conferences."
-msgstr ""
-
-#: getinvolved/index.php:12
-msgid "Documentation"
-msgstr ""
-
-#: getinvolved/index.php:14
-msgid ""
-"There's lots of people using and testing Xfce. By providing useful and up-to-"
-"date documentation, you will make a big impact on helping people understand "
-"how to make the most of the Xfce Desktop Environement."
-msgstr ""
-
-#: getinvolved/index.php:19
-msgid ""
-"Are you fluent in multiple languages? By contributing your translations of "
-"text to the Xfce Desktop Environement, you will help Xfce be a better part "
-"of the global market and more accessible to the millions of potential users "
-"out there."
-msgstr ""
-
-#: getinvolved/index.php:22
-msgid "Development"
-msgstr ""
-
-#: getinvolved/index.php:24
-msgid ""
-"By becoming a developer, you can make a big difference while enjoying a "
-"challenging and fun experience. You'll learn to be a better coder, you will "
-"get to implement new features and defeat daunting bugs, creating a stunning "
-"product, all the while collaborating with people from all around the world."
-msgstr ""
-
-#: getinvolved/index.php:27
-msgid "Promotion"
-msgstr ""
-
-#: getinvolved/index.php:29
-msgid ""
-"If you own a blog or website you can greatly help by spreading the word and "
-"encouraging new users to give Xfce a try. If you have a Identi.ca or Twitter "
-"account you can also help by reposting any <a href=\"http://identi.ca/xfce"
-"\">announcements</a> we make to help us reach a larger audience."
-msgstr ""
-
-#: getinvolved/index.php:32
-msgid "Bug Reporting and testing"
-msgstr ""
-
-#: getinvolved/index.php:34
-msgid ""
-"One of the most useful tasks that we rely on the community for is testing "
-"and reporting of bugs. Since Xfce runs on various platform and in a lot of "
-"different setups, testing all changes in every possible situation is an "
-"impossible task. As such we kindly ask users to assist in testing, and "
-"reporting all bugs they may find, using our <a href=\"https://bugzilla.xfce."
-"org\" class=\"external\">bug tracker</a>."
-msgstr ""
-
-#: getinvolved/index.php:38
-msgid ""
-"Once a bug has been found, the cause of the bug needs to be tracked down, "
-"and then (obviously) fixed. If you want to get involved in the actual "
-"development process of Xfce a great way to start is by solving bugs and then "
-"submitting a patch file."
-msgstr ""
-
-#: getinvolved/translation.php:6 getinvolved/translation.php:22
-msgid "Getting Started"
-msgstr ""
-
-#: getinvolved/translation.php:7 getinvolved/translation.php:45
-msgid "Team Work"
-msgstr ""
-
-#: getinvolved/translation.php:8 getinvolved/translation.php:63
-msgid "Transifex Usage"
-msgstr ""
-
-#: getinvolved/translation.php:15
-msgid ""
-"Xfce uses the <a href=\"http://transifex.org\">Transifex</a> translation "
-"platform as a portal for translators. This allows translators to translate "
-"on-line, submit new <em>po</em>-files, watch translations and view "
-"statistics. All translation updates are directly submitted in the <a href="
-"\"http://git.xfce.org\">Xfce GIT repositories</a>, so they are directly "
-"available for the rest of the world."
-msgstr ""
-
-#: getinvolved/translation.php:19
-msgid ""
-"Because we'd like to translate Xfce in as much languages as possible, we are "
-"always looking for new translation contributors. If you're interested in "
-"this, read the <em>getting started</em> section below."
-msgstr ""
-
-#: getinvolved/translation.php:25
-msgid ""
-"Before you can contribute translations, you have to go through the steps "
-"below. Note that <em>ALL</em> these steps are required:"
-msgstr ""
-
-#: getinvolved/translation.php:29
-msgid ""
-"First go to the <a href=\"https://translations.xfce.org/accounts/register/"
-"\">registration page</a> and create a new profile. After you've pressed the "
-"<em>Register</em>-button, you will receive an email to confirm your account, "
-"before you can login."
-msgstr ""
-
-#: getinvolved/translation.php:30
-msgid ""
-"After you've logged in, go to your <a href=\"https://translations.xfce.org/"
-"accounts/profile/edit/personal/\">profile page</a> and set your <em>First "
-"name</em>, <em>Surname</em> and <em>Native Language</em>. Your complete name "
-"is <em>required</em> for submitting translations and will be used in the GIT "
-"logs, so take this seriously!"
-msgstr ""
-
-#: getinvolved/translation.php:31
-msgid ""
-"Join the <a href=\"http://foo-projects.org/mailman/listinfo/xfce-i18n\">Xfce "
-"translation mailing list</a>. This is where the translation communication is "
-"coordinated, so it is nice to introduce yourself here. On this list "
-"developer will also announce when releases are planned, translations system "
-"changes or anything else you should know as a translators."
-msgstr ""
-
-#: getinvolved/translation.php:32
-msgid ""
-"Go to the <a href=\"https://translations.xfce.org/projects/p/xfce/teams/"
-"\">Xfce translation teams</a> and request access to a team or request a new "
-"language if it doesn't exist yet. One of the developers or translation "
-"coordinators will approve (or decline) your request. All other product in "
-"this Transifex installation outsource the permissions of the Xfce product, "
-"so your rights in this product will apply all over <a href=\"https://"
-"translations.xfce.org\">translations.xfce.org</a>."
-msgstr ""
-
-#: getinvolved/translation.php:33
-msgid ""
-"Now wait patently. If it takes too long, leave a message on the translation "
-"mailing list."
-msgstr ""
-
-#: getinvolved/translation.php:38
-msgid ""
-"Once this has all happened, you should have permission to submit and update "
-"translations in your language. You can find more information about this "
-"below. Don't forget to keep in touch with the other translators in your "
-"language (you can find them in the translation groups) to coordinate the "
-"translation work!"
-msgstr ""
-
-#: getinvolved/translation.php:42
-msgid ""
-"If you think anything went wrong, ideas? Don't hesitate and send an email to "
-"the Xfce translation mailing list, we're always there to help you!"
-msgstr ""
-
-#: getinvolved/translation.php:48
-msgid ""
-"Keep in touch with the current translator(s). Is your language already "
-"translated or being translated by someone else, then you should try to work "
-"together with the current translator(s) of that language, and split up the "
-"work so you are reducing the workload and increasing the quality of the "
-"translation. Many translators are happy to share the work or even appreciate "
-"people discussing translations."
-msgstr ""
-
-#: getinvolved/translation.php:52
-msgid ""
-"The header of the PO files contain the field &quot;Last-Translator&quot; As "
-"example here is the French translation of xfce4-panel: <a href=\"http://git."
-"xfce.org/xfce/xfce4-panel/plain/po/fr.po\">fr.po</a>."
-msgstr ""
-
-#: getinvolved/translation.php:56
-msgid ""
-"You can send an email to the i18n mailing-list as well with a copy (CC) to "
-"the current translator if you did find out his email. Let know your "
-"intention and wait for an answer from the current translator(s). If you "
-"don't get a response in the upcoming weeks (2~3 weeks) you can consider "
-"translating the different projects."
-msgstr ""
-
-#: getinvolved/translation.php:60
-msgid ""
-"Other than getting in touch with current translators, you can use a private "
-"page to share progress on translations. The defacto place is on <a href="
-"\"http://wiki.xfce.org/translations/\">wiki.xfce.org</a>, but you can also "
-"use alternative possibilities like the <a href=\"http://groups.google.com/"
-"support/\">Google Groups</a>."
-msgstr ""
-
-#: getinvolved/translation.php:65
-msgid "Statistics"
-msgstr ""
-
-#: getinvolved/translation.php:67
-msgid ""
-"Transifex provides statistics per language and per project. The <a href="
-"\"https://translations.xfce.org/projects/p/xfce/\">Xfce collection project</"
-"a> view is the most interesting as it lets you know if the core projects are "
-"fully translated. An overview of the language stats in Xfce core master are "
-"<a href=\"https://translations.xfce.org/projects/p/xfce/r/master/\">here</"
-"a>.  It is also possible to get to such a page by going to the <a href="
-"\"https://translations.xfce.org/languages/\">language page</a> first and "
-"picking up your language than a collection. The collection &quot;Xfce&quot; "
-"has several components for the different stable versions (<em>xfce-4.4</em>, "
-"<em>xfce-4.6</em>, etc) and one for the development branch (<em>master</"
-"em>). The other collections, for example Applications, have usually only "
-"development components as they aren't part of any official Xfce releases."
-msgstr ""
-
-#: getinvolved/translation.php:70
-msgid "Downloading Translations"
-msgstr ""
-
-#: getinvolved/translation.php:73
-msgid ""
-"You can visualize and download PO files from existing translations. For that "
-"just go to a project page or select a collection from the languages page, "
-"than click one of the small buttons at the right of the statistics. If there "
-"is no current translation you can download the source file (the PO template) "
-"available on each project page. Also when you are on a collection view you "
-"have at the bottom of the statistics table a download section with ZIP files."
-msgstr ""
-
-#: getinvolved/translation.php:76
-msgid "Uploading Translations"
-msgstr ""
-
-#: getinvolved/translation.php:79
-msgid ""
-"When you are identified on Transifex and have the upload rights it is very "
-"simple to upload new translations. Go to a project and choose the component "
-"that corresponds to a stable version or to the development branch &mdash; "
-"you can pass through the collection page to find a project &mdash; then "
-"click on the small <em>Upload</em> button besides the visualize/download/"
-"lock/edit buttons at the right of your language or the <em>Add a new "
-"translation</em> button at the bottom of the page if it doesn't exist yet. "
-"Fill in the form and click the <em>Send</em> button."
-msgstr ""
-
-#: getinvolved/translation.php:83
-msgid ""
-"It is a good idea to click the <em>Lock</em> button when doing a translation "
-"while there is more than one active translator for your current language. "
-"Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to "
-"update the translations online."
 msgstr ""
