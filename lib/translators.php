@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-10-02 00:00:17";
+$translators_stamp = "2011-10-09 00:00:15";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -91,6 +91,7 @@ $translators = array (
     'Javier Sánchez Reinosa' => 'donoban'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ignacio Velasco' => 'elega'.ATSIGN.'elega'.DOTSIGN.'com'.DOTSIGN.'ar',
     'Esteban Vidal González' => 'esteban70x7'.ATSIGN.'yahoo'.DOTSIGN.'es',
+    'José Ángel Alonso' => 'landseerstreet'.ATSIGN.'yahoo'.DOTSIGN.'it',
     'vtamara' => 'vtamara'.ATSIGN.'pasosdeJesus'.DOTSIGN.'org',
     'Gonzalo Lagos' => 'xalo'.DOTSIGN.'em'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
@@ -108,13 +109,14 @@ $translators = array (
   ),
   'Finnish [fi]' => array (
     'Jari Rahkonen' => 'jari'.DOTSIGN.'rahkonen'.ATSIGN.'pp1'.DOTSIGN.'inet'.DOTSIGN.'fi',
+    'Jarno Liimatainen' => 'jarliim'.ATSIGN.'iki'.DOTSIGN.'fi',
   ),
   'French [fr]' => array (
     'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Durand-Favreau Arnaud' => 'biginoz'.ATSIGN.'free'.DOTSIGN.'fr',
     'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Louis M' => 'm_louis30'.ATSIGN.'yahoo'.DOTSIGN.'com',
-    'magicrhesus' => 'magicrhesus'.ATSIGN.'ouranos'.DOTSIGN.'be',
+    'Xavier Devlamynck' => 'magicrhesus'.ATSIGN.'ouranos'.DOTSIGN.'be',
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
     'marc doutreloux' => 'mdoutreloux'.ATSIGN.'yahoo'.DOTSIGN.'fr',
     'Pardaigle' => 'worldmania'.ATSIGN.'free'.DOTSIGN.'fr',
@@ -245,6 +247,7 @@ $translators = array (
     'Alexander Yashkin' => 'alex'.DOTSIGN.'aspirine'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Artem Zolochevskiy' => 'artem'.DOTSIGN.'zolochevskiy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Claque' => 'cpt-alatriste'.ATSIGN.'ya'.DOTSIGN.'ru',
+    'dkorzhevin' => 'dkorzhevin'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Evgeniy Kosov' => 'eugene'.ATSIGN.'kosov'.DOTSIGN.'net',
     'gnulinux' => 'nazarov-1990'.ATSIGN.'bk'.DOTSIGN.'ru',
     'Vlad Vasilev' => 'lortwer'.ATSIGN.'gmail'.DOTSIGN.'com',
