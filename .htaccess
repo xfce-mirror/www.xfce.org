@@ -17,7 +17,7 @@ Redirect 301 /archive http://archive.xfce.org
 Redirect 301 /download/changelogs/4.8 http://www.xfce.org/download/changelogs/4.8.0
 
 # redirect homepages to mocha.xfce.org/~user
-RewriteRule ^(~.*)$ http://mocha.xfce.org/$1 [R,L]
+RewriteRule ^(~.*)$ http://users.xfce.org/$1 [R,L]
 
 # catch CMS-generated pages to index.php
 RewriteCond %{REQUEST_FILENAME} !-f
