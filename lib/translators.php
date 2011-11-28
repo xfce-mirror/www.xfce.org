@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-11-20 00:00:18";
+$translators_stamp = "2011-11-28 17:24:50";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -38,6 +38,8 @@ $translators = array (
   'Catalan (Valencian) [ca]' => array (
     'Carles Muñoz Gorriz' => 'carlesmu'.ATSIGN.'internautas'.DOTSIGN.'org',
     'Paul Garden' => 'kiari62'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Jordi Clariana' => 'jordiclariana'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Roger Pueyo Centelles' => 'xfce'.ATSIGN.'rogerpueyo'.DOTSIGN.'com',
     'Harald Servat' => 'redcrash'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Czech [cs]' => array (
@@ -205,7 +207,7 @@ $translators = array (
     'Terje Uriansrud' => 'terje'.ATSIGN.'uriansrud'.DOTSIGN.'net',
   ),
   'Dutch (Flemish) [nl]' => array (
-    'nick' => 'nick'.ATSIGN.'xfce'.DOTSIGN.'org',
+    'Nick Schermer' => 'nick'.ATSIGN.'xfce'.DOTSIGN.'org',
     'padv' => 'pascal'.DOTSIGN.'devuyst'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Pjotr Anon' => 'pliniusminor'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Robin Jacobs' => 'broederjacobs'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -221,9 +223,10 @@ $translators = array (
   'Polish [pl]' => array (
     'Piotr Sokół' => 'psokol'.ATSIGN.'jabster'.DOTSIGN.'pl',
     'Paweł Drożański' => 'pawdro'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'elder' => 'elderlinx'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Kamil Polczak' => 'elderlinx'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ireneusz Gierlach' => 'irek'.DOTSIGN.'gierlach'.ATSIGN.'gmail'.DOTSIGN.'com',
     'jacek2v' => 'jacek2v'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Jakub Waśko' => 'javazlaz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Michał Olber' => 'michal'.DOTSIGN.'olber'.ATSIGN.'osworld'.DOTSIGN.'pl',
     'Jeremy Nicolas' => 'jerekpl'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Tomasz Chudyk' => 'chudyk'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -236,6 +239,7 @@ $translators = array (
   ),
   'Portuguese (Brazilian) [pt_BR]' => array (
     'Henrique P'.DOTSIGN.' Machado' => 'zehrique'.ATSIGN.'xfce'.DOTSIGN.'org',
+    'André Luiz Dias de Miranda' => 'andreldm1989'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mateus Rodrigues Costa' => 'charles'.DOTSIGN.'costar'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Douglas Sales' => 'doug'.DOTSIGN.'sales23'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Frederico Schardong' => 'frede'.DOTSIGN.'sch'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -320,7 +324,6 @@ $translators = array (
   ),
   'Serbian (Latin) [sr@latin]' => array (
     'mpopovic' => 'gpopac'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Uros Lukic' => 'uroslukic'.ATSIGN.'hotmail'.DOTSIGN.'com',
   ),
   'Swedish [sv]' => array (
     'Daniel Nylander' => 'po'.ATSIGN.'danielnylander'.DOTSIGN.'se',
@@ -346,6 +349,7 @@ $translators = array (
     'Avatar' => 'coskuno_99'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Aydan Taşdemir' => 'aydantasdemir'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ayhan YALÇINSOY' => 'ayhanyalcinsoy'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Caner Gural' => 'cgural'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Erçin EKER' => 'ercineker'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Eren Türkay' => 'erenturkay'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Ertuğrul HAZAR' => 'ertugrulhazar'.ATSIGN.'gmail'.DOTSIGN.'com',
