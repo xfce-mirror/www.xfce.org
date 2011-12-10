@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-12-04 00:00:08";
+$translators_stamp = "2011-12-11 00:00:12";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -38,6 +38,7 @@ $translators = array (
   'Catalan (Valencian) [ca]' => array (
     'Carles Muñoz Gorriz' => 'carlesmu'.ATSIGN.'internautas'.DOTSIGN.'org',
     'Paul Garden' => 'kiari62'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Jordi Deu-Pons' => 'jordi'.ATSIGN.'jordeu'.DOTSIGN.'net',
     'Jordi Clariana' => 'jordiclariana'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Roger Pueyo Centelles' => 'xfce'.ATSIGN.'rogerpueyo'.DOTSIGN.'com',
     'Harald Servat' => 'redcrash'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -249,7 +250,6 @@ $translators = array (
     'Henrique P'.DOTSIGN.' Machado' => 'zehrique'.ATSIGN.'xfce'.DOTSIGN.'org',
     'André Luiz Dias de Miranda' => 'andreldm1989'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mateus Rodrigues Costa' => 'charles'.DOTSIGN.'costar'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Douglas Sales' => 'doug'.DOTSIGN.'sales23'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Frederico Schardong' => 'frede'.DOTSIGN.'sch'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Job Borges' => 'jobdiogenes'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jonas agx' => 'jonas'.DOTSIGN.'agx'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -347,6 +347,7 @@ $translators = array (
     'Praveen Illa' => 'mail2ipn'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Tagalog [tl]' => array (
+    'Charles Casuga' => 'charlescasuga'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Manuel Oliva' => 'oliva'.DOTSIGN.'manuel'.ATSIGN.'ymail'.DOTSIGN.'com',
   ),
   'Turkish [tr]' => array (
@@ -416,7 +417,9 @@ $translators = array (
   ),
   'Chinese (Taiwan) [zh_TW]' => array (
     'Cheng-Chia Tseng' => 'pswo10680'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'ethan42411' => 'jrpropo10282003'.ATSIGN.'yahoo'.DOTSIGN.'com'.DOTSIGN.'tw',
     'fanasin' => 'pswo10680'.ATSIGN.'hotmail'.DOTSIGN.'com',
+    'Ruei-Yuan Lu' => 'RueiYuan'.DOTSIGN.'Lu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Chia-Han Lee' => 'gloomysaga'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
 );
