@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2011-12-25 00:00:12";
+$translators_stamp = "2012-01-01 00:00:11";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -26,6 +26,7 @@ $translators = array (
   ),
   'Bulgarian [bg]' => array (
     'Valentin Tunev' => 'hdbuster'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Milen Milev' => 'fanfolet'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Bengali [bn]' => array (
     'Jamil Ahmed' => 'itsjamil'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -38,6 +39,7 @@ $translators = array (
   'Catalan (Valencian) [ca]' => array (
     'Carles Muñoz Gorriz' => 'carlesmu'.ATSIGN.'internautas'.DOTSIGN.'org',
     'Paul Garden' => 'kiari62'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Joan Montané' => 'joan'.ATSIGN.'montane'.DOTSIGN.'cat',
     'Jordi Deu-Pons' => 'jordi'.ATSIGN.'jordeu'.DOTSIGN.'net',
     'Jordi Clariana' => 'jordiclariana'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Roger Pueyo Centelles' => 'xfce'.ATSIGN.'rogerpueyo'.DOTSIGN.'com',
@@ -59,6 +61,7 @@ $translators = array (
     'Andreas Kamzol' => 'andreas'.DOTSIGN.'kamzol'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Christoph Mende' => 'angelos'.ATSIGN.'gentoo'.DOTSIGN.'org',
     'Michael Spahn' => 'any0n3'.ATSIGN.'fedoraproject'.DOTSIGN.'org',
+    'Chris Leick' => 'c'.DOTSIGN.'leick'.ATSIGN.'vollbio'.DOTSIGN.'de',
     'Christian Weiske' => 'cweiske'.ATSIGN.'cweiske'.DOTSIGN.'de',
     'Uwe Krause' => 'derhorst'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jakob Kramer' => 'jakob'.DOTSIGN.'kramer'.ATSIGN.'gmx'.DOTSIGN.'de',
@@ -67,6 +70,7 @@ $translators = array (
     'Mark Trompell' => 'mark'.ATSIGN.'foresightlinux'.DOTSIGN.'org',
     'Matthias Mailänder' => 'matthias'.ATSIGN.'mailaender'.DOTSIGN.'name',
     'Michael Schmitt' => 'user'.DOTSIGN.'of'.DOTSIGN.'xfce'.ATSIGN.'googlemail'.DOTSIGN.'com',
+    'Thomas Schütz' => 'xfce'.ATSIGN.'thschuetz'.DOTSIGN.'de',
     'Niklas Reinmuth' => 'Niklas'.DOTSIGN.'Reinmuth'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Paul Seyfert' => 'pseyfert'.ATSIGN.'mathphys'.DOTSIGN.'fsk'.DOTSIGN.'uni-heidelberg'.DOTSIGN.'de',
     'Knuth Gurkasch' => 'knuth'.ATSIGN.'sinn3r'.DOTSIGN.'org',
@@ -420,7 +424,6 @@ $translators = array (
     'Hao Cui' => 'cuihao'.DOTSIGN.'leo'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Qianqian Fang' => 'fangqq'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ganghua Leng' => 'hiweed'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'xsoul' => '',
   ),
   'Chinese (Taiwan) [zh_TW]' => array (
     'Cheng-Chia Tseng' => 'pswo10680'.ATSIGN.'gmail'.DOTSIGN.'com',
