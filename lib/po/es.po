@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-09-26 18:33+0200\n"
-"PO-Revision-Date: 2012-01-10 14:07+0100\n"
+"PO-Revision-Date: 2012-01-12 20:17+0100\n"
 "Last-Translator: Daniel Durante <danieldurante@ymail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -1104,9 +1104,8 @@ msgid "where Y has to be an even number. Each of these releases has to include t
 msgstr "donde Y tiene que ser un número par. Cada una de estas entregas  tiene que incluir las últimas versiones de desarrollo de todos los componentes ( o las estables sino hay versiones de desarrollo desde la última estable) del núcleo del escritorio Xfce. El número de versión de estos componentes puede diferir del esquema anterior. Por ejemplo, para Xfce 4.8.0pre2, xfwm4 puede tener la versión 4.7.17 y Thunar puede tener la 1.1.9."
 
 #: about/releasemodel.php:224
-#, fuzzy
 msgid "This means that maintainers don't necessarily have to release new versions of their components along with one of the pre-releases. The release team always picks the latest available development or stable release of each component for pre-releases and the final release."
-msgstr "Esto significa que los mantenedores no necesariamente tienen que lanzar nuevas versiones de sus componentes, junto con uno de los lanzamientos anteriores. El equipo de publicación siempre recoge los últimos avances disponibles o versión estable de cada componente de pre-prensa y la liberación final."
+msgstr "Esto significa que los mantenedores no necesariamente tienen que lanzar nuevas versiones de sus componentes a lo largo de uno de sus prelanzamientos. El equipo de publicación siempre recoge los últimos avances disponibles de cada componente para la versión estable, las versiones previas y la final."
 
 #: about/releasemodel.php:228
 msgid "The end of this phase marks a new stable release of the Xfce core desktop and therewith the start of a new release cycle."
@@ -1172,14 +1171,12 @@ msgid "Bugfixes/Changes"
 msgstr "Correción de errores/Cambios"
 
 #: about/releasemodel.php:278
-#, fuzzy
 msgid "If a core component requires fixes or changes during code freeze, the maintainer is required to create a new branch called ELS (//NAME OPEN FOR DISCUSSION//) to which he or she then commits the fixes. Refer to the section Code Freeze Exceptions if these are release-critical changes or fixes for blocking bugs."
-msgstr "Si un componente básico requiere correcciones o cambios durante la congelación del código, el responsable está obligado a crear una nueva rama llamada ELS (/ / NOMBRE abierto para el debate / /) a la que él o ella se compromete a la fija. Las excepciones se refieren a la congelación de la sección del Código, si se trata de release-critical cambios o correcciones de errores de bloqueo."
+msgstr "Si un componente básico requiere correcciones o cambios durante la suspensión  del código, el responsable está obligado a crear una nueva rama llamada ELS (/ / NOMBRE abierto para el debate / /) a la que él o ella enviaran las correcciones. Consulte la sección si hay algunos cambios críticos o correcciones para los errores."
 
 #: about/releasemodel.php:282
-#, fuzzy
 msgid "The ELS branch only lives for a short period of time. It is merged into master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) after the final release. Only bugfixes are allowed in this branch."
-msgstr "La rama ELS sólo vive por un corto período de tiempo. Que se combina con maestría y en la rama estable del componente (por ejemplo, xfwm4-4.8 o thunar 1,2) después de la liberación final. Sólo se permiten correcciones en esta rama."
+msgstr "La rama ELS sólo está activa por un corto período de tiempo. Esta se combina con la master y en los componentes de la rama estable  (por ejemplo, xfwm4-4.8 o thunar 1,2) después de la liberación final. Sólo se permiten correcciones en esta rama."
 
 #: about/releasemodel.php:285
 msgid "Code Freeze Exceptions"
@@ -1234,18 +1231,16 @@ msgid "Releasing"
 msgstr "Publicando"
 
 #: about/releasemodel.php:321
-#, fuzzy
 msgid "For the final release (Xfce X.Y), all core components are tagged (twice, once with their own version and once with xfce-X.Y.0) and branched for the maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS branch is merged into master (where the development for the next release takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "Para la versión final (Xfce XY), todos los componentes principales están marcados (dos veces, una con su propia versión y una vez con xfce-XY0) y ramificada para el ciclo de mantenimiento (por ejemplo, como thunar-1.2 o xfwm4 4.8). Después de eso, la rama de ELS se combina con maestría (en el desarrollo de la próxima versión se lleva a cabo) y en, por ejemplo thunar-1.2 o 4.8 xfwm4."
+msgstr "Para la versión final (Xfce X.Y), todos los componentes principales están marcados (dos veces: una con su propia versión y otra con xfce-X.Y.0) y ramificados  para el ciclo de mantenimiento (por ejemplo, como thunar-1.2 o xfwm4 4.8). Después, la rama ELS se combina con la master (donde el desarrollo de la próxima versión se lleva a cabo),  en el ejemplo thunar-1.2 o 4.8 xfwm4."
 
 #: about/releasemodel.php:324
 msgid "Maintenance Process"
 msgstr "Proceso de Mantenimiento"
 
 #: about/releasemodel.php:327
-#, fuzzy
 msgid "After the release of a final version, bugfixes and translation updates will be committed to a stable component-specific branch (like thunar-1.2 or xfwm4-4.8). Maintenance releases of individual components are not required to be synchronized."
-msgstr "Después del lanzamiento de una versión final, correcciones y actualizaciones de traducción se ha comprometido a una cuadra de componentes específicos de la rama (como thunar-1.2 o xfwm4 4.8). Versiones de mantenimiento de los componentes individuales no están obligados a estar sincronizados."
+msgstr "Después del lanzamiento de una versión final, las correcciones de fallos y actualizaciones de la traducción se situan en una rama de componentes específicos estables  (como thunar-1.2 o xfwm4 4.8). No se requiere la sincrinización de componentes individuales."
 
 #: about/releasemodel.php:330
 msgid "Maintenance Releases"
@@ -2913,9 +2908,8 @@ msgid "The first bugfix-release of xfce 4.6 has been released."
 msgstr "La primera publicación de correción de errores de xfce 4.6 ha sido liberada."
 
 #: news-array.php:80
-#, fuzzy
 msgid "Thanks to all the people who have been using xfce 4.6 and took the time and effort to submit bugreports for stuff that wasn't quite working the way it is supposed to. We have been able to fix several issues during the past few weeks."
-msgstr "Xfce 4.6 ofrece un motor de nueva configuración, un administrador de la nueva configuración, un mezclador de sonido de marca nueva, y varios grandes mejoras en el gestor de sesiones y el resto de los componentes principales de Xfce. Una lista de todos los cambios desde la última versión candidata se pueden encontrar en esta página."
+msgstr "Gracias a todos los que han hecho uso de xfce 4.6 y se han tomado el tiempo y esfuerzo para enviar informes de fallos al equipo de desarrollo. Hemos sido capaces de corregir varios problemas durante las pasadas semanas."
 
 #: news-array.php:81
 msgid "thanks to all the translators, several translations have been improved and completed since the release of 4.6.0."
@@ -2926,9 +2920,8 @@ msgid "After more than two years of development, Xfce 4.6.0 has just been releas
 msgstr "Después de más de dos años de desarrollo, Xfce 4.6.0 ha sido publicada."
 
 #: news-array.php:89
-#, fuzzy
 msgid "Xfce 4.6 features a new configuration backend, a new settings manager, a brand new sound mixer, and several huge improvements to the session manager and the rest of Xfce's core components. A list of all the changes since the last release candidate can be found on this page."
-msgstr "Xfce 4.6 ofrece un motor de nueva configuración, un administrador de la nueva configuración, un mezclador de sonido de marca nueva, y varios grandes mejoras en el gestor de sesiones y el resto de los componentes principales de Xfce. Una lista de todos los cambios desde la última versión candidata se pueden encontrar en esta página."
+msgstr "Xfce 4.6 ofrece un nuevo sistema de configuración, un nuevo administrador de, un mezclador de sonido, y grandes mejoras en el gestor de sesiones y el resto de los componentes principales de Xfce. En esta página puede encontrarse una lista de todos los cambios desde la última versión candidata."
 
 #: news-array.php:90
 msgid "A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</a>."
