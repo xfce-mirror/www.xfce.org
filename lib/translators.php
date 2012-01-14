@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-01-08 00:00:13";
+$translators_stamp = "2012-01-15 00:00:14";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -177,7 +177,7 @@ $translators = array (
   ),
   'Indonesian [id]' => array (
     'Andhika Padmawan' => 'andhika'.DOTSIGN.'padmawan'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Ardjuna' => 'ard_h_r'.ATSIGN.'yahoo'.DOTSIGN.'com',
+    'Ardjuna' => 'asyura'.DOTSIGN.'x'.ATSIGN.'gmail'.DOTSIGN.'com',
     'zaenal1234' => 'zaenal1234'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Icelandic [is]' => array (
@@ -237,6 +237,7 @@ $translators = array (
   ),
   'Norwegian Nynorsk [nn]' => array (
     'Eivind Ødegård' => 'gingermig'.ATSIGN.'yahoo'.DOTSIGN.'no',
+    'Kevin Brubeck Unhammer' => 'p'.DOTSIGN.'ixiemotion'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Eskild Hustvedt' => 'user'.ATSIGN.'zerodogg'.DOTSIGN.'org',
   ),
   'Panjabi (Punjabi) [pa]' => array (
@@ -261,7 +262,7 @@ $translators = array (
   ),
   'Portuguese (Brazilian) [pt_BR]' => array (
     'Henrique P'.DOTSIGN.' Machado' => 'zehrique'.ATSIGN.'xfce'.DOTSIGN.'org',
-    'André Luiz Dias de Miranda' => 'andreldm1989'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'André Miranda' => 'andreldm1989'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mateus Rodrigues Costa' => 'charles'.DOTSIGN.'costar'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Frederico Schardong' => 'frede'.DOTSIGN.'sch'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Job Borges' => 'jobdiogenes'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -369,6 +370,7 @@ $translators = array (
     'gokmen' => 'gokmen'.ATSIGN.'alageek'.DOTSIGN.'com',
     'necdetyucel' => 'necdetyucel'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Akın Ömeroğlu' => 'akin'.ATSIGN.'pardus'.DOTSIGN.'org'.DOTSIGN.'tr',
+    'Ramazan Gürbüz' => 'ramazangurbuz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Avatar' => 'coskuno_99'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Aydan Taşdemir' => 'aydantasdemir'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ayhan YALÇINSOY' => 'ayhanyalcinsoy'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -408,7 +410,7 @@ $translators = array (
     'Dmitry Nikitin' => 'luckas_fb'.ATSIGN.'mail'.DOTSIGN.'ru',
     'Yarema aka Knedlyk' => 'yupadmin'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Maxim Dziumanenko' => 'dziumanenko'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'olexandrN' => 'olexn'.ATSIGN.'ukr'.DOTSIGN.'net',
+    'Olexandr Nesterenko' => 'olexn'.ATSIGN.'ukr'.DOTSIGN.'net',
     'Oleksandr Natalenko' => 'pfactum'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Andriy Matkovsky' => 'sidius'.DOTSIGN.'ua'.ATSIGN.'gmail'.DOTSIGN.'com',
     'tarabopm' => 'tarabopm'.ATSIGN.'gmail'.DOTSIGN.'com',
