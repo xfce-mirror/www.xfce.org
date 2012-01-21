@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-01-15 00:00:14";
+$translators_stamp = "2012-01-22 00:21:19";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -138,6 +138,7 @@ $translators = array (
     'Xavier Devlamynck' => 'magicrhesus'.ATSIGN.'ouranos'.DOTSIGN.'be',
     'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Durand-Favreau Arnaud' => 'biginoz'.ATSIGN.'free'.DOTSIGN.'fr',
+    'Benoit THIBAUD' => 'frombenny'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mario Gervais' => 'gervais'.DOTSIGN.'mario'.ATSIGN.'ymail'.DOTSIGN.'com',
     'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Jean-Philippe Fleury' => 'contact'.ATSIGN.'jpfleury'.DOTSIGN.'net',
@@ -392,7 +393,6 @@ $translators = array (
     'Ozan Türkyılmaz' => 'ozan'.DOTSIGN.'turkyilmaz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Özgür Kuru' => 'ozgur'.ATSIGN.'ozgurkuru'.DOTSIGN.'net',
     'Murat PINAR' => 'wargasm'.ATSIGN.'archlinux'.DOTSIGN.'us',
-    'Samed Beyribey' => 'beyribey'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Senol Korkmaz' => 'mail'.ATSIGN.'senolkorkmaz'.DOTSIGN.'info',
     'Server Acim' => 'serveracim'.ATSIGN.'gmail'.DOTSIGN.'com',
     'skocadogan' => 'skocadogan'.ATSIGN.'gmail'.DOTSIGN.'com',
