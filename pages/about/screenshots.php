@@ -20,7 +20,7 @@ function print_shots ($group, $count, $format = 'png')
 
 <h2>Xfce 4.8</h2>
 <p>
-  <?php print_shots ('4.8', 3); ?>
+  <?php print_shots ('4.8', 4); ?>
 </p>
 
 <h2>Xfce 4.6</h2>
