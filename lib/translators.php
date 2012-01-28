@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-01-22 00:21:19";
+$translators_stamp = "2012-01-29 00:21:13";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -73,6 +73,7 @@ $translators = array (
     'Thomas Schütz' => 'xfce'.ATSIGN.'thschuetz'.DOTSIGN.'de',
     'Niklas Reinmuth' => 'Niklas'.DOTSIGN.'Reinmuth'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Paul Seyfert' => 'pseyfert'.ATSIGN.'mathphys'.DOTSIGN.'fsk'.DOTSIGN.'uni-heidelberg'.DOTSIGN.'de',
+    'Roland Kübert' => 'roland'.ATSIGN.'upic'.DOTSIGN.'de',
     'Knuth Gurkasch' => 'knuth'.ATSIGN.'sinn3r'.DOTSIGN.'org',
     'Fabian Nowak' => 'timystery'.ATSIGN.'arcor'.DOTSIGN.'de',
     'Detlef Riekenberg' => 'wine'.DOTSIGN.'dev'.ATSIGN.'web'.DOTSIGN.'de',
