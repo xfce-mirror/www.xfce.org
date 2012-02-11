@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-02-05 00:21:11";
+$translators_stamp = "2012-02-12 00:21:14";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -102,7 +102,6 @@ $translators = array (
   ),
   'Spanish (Castilian) [es]' => array (
     'Andres Sanchez' => 'afsanchez93'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Daniel Durante' => 'danieldurante'.ATSIGN.'ymail'.DOTSIGN.'com',
   ),
   'Spanish (Argentinian) [es_AR]' => array (
     'Diego Augusto Molina' => 'diegoaugustomolina'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -249,7 +248,7 @@ $translators = array (
     'Tomasz Chudyk' => 'chudyk'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Portuguese [pt]' => array (
-    'Nuno Miguel' => 'nunis'.ATSIGN.'netcabo'.DOTSIGN.'pt',
+    'Nuno Miguel' => 'nunomgue'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Bruno Ramos' => 'brunoramos'.DOTSIGN.'lu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Joel Patrão' => 'joel'.DOTSIGN.'patrao'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio Marques' => 'smarquespt'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -419,7 +418,7 @@ $translators = array (
     'funnysorcerer' => 'sin'.DOTSIGN.'trunganh'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Chinese (China) [zh_CN]' => array (
-    'Chipong Luo' => 'chipong_l'.ATSIGN.'yahoo'.DOTSIGN.'com',
+    'Chipong Luo' => 'chipong'.DOTSIGN.'luo'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Hunt Xu' => 'mhuntxu'.ATSIGN.'gmail'.DOTSIGN.'com',
     '玉堂 白鹤' => 'yjwork'.DOTSIGN.'xfce'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Hao Cui' => 'cuihao'.DOTSIGN.'leo'.ATSIGN.'gmail'.DOTSIGN.'com',
