@@ -1,38 +1,40 @@
 /* this file is used in various xfce subdomains! */
 
 #xfce-header {
-	/*border-bottom: 2px #69f solid;*/
-	background: #333 url('img/logosmall.png') no-repeat 6px 55%;
-	padding-left: 120px;
-	min-height: 45px;
+	background: #333 url('img/logosmall.png') no-repeat 3px 50%;
+	padding-left: 75px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+
+	font-family: 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
 }
 #xfce-header ul {
-	float: right;
 	list-style: none;
-	margin: 0;
-	padding: 0 10px 0 0;
-	background: #333;
+	float: right;
+	margin: 5px;
+	padding: 0;
+	line-height: 25px;
 }
 #xfce-header ul li {
 	float: left;
-	font-weight: bold;
-	margin: 0;
 }
 #xfce-header a {
-	color: #fff;
+	color: #999;
 	text-decoration: none;
 	display: block;
-	float: right;
-	padding: 0 10px 0 10px;
-	line-height: 4em;
-	border: 0;
+	padding: 0 8px 0 8px;
+
+	transition: color 0.2s linear;
+	-moz-transition: color 0.2s linear;
+	-webkit-transition: color 0.2s linear;
+	-o-transition: color 0.2s linear;
 }
 #xfce-header ul li a:hover {
-	color: #69f;
+	color: #fff;
+	text-decoration: underline;
 }
 #xfce-header .active {
-	color: #69f;
+	color: #fff;
 }
 #xfce-header-clear {
 	clear: both;

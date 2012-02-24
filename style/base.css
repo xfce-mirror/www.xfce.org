@@ -1,21 +1,31 @@
 body {
 	margin: 0;
         padding: 0;
-	font: 80% Verdana, Arial, Helvetica, sans-serif;
+	font-family: 80% 'Helvetica Neue Light', HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	line-height: 1.7em;
+	background-color: #eee;
 }
 
 #page-wrap {
 	margin: auto;
-	padding: 1em;
 	text-align: left;
+	margin-bottom: 3em;
 
 	min-width: 850px;
-	max-width: 1100px;
+	max-width: 1000px;
 }
 
 .page_contents {
 	margin-right: 205px;
+	background: #fff;
+	padding: 1.2em;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+}
+
+#menu-main {
+	padding: 6px 0;
 }
 
 #menu-main ul {
@@ -48,11 +58,13 @@ body {
 #menu-sub {
 	float: right;
 	width: 170px;
-	margin-top: 2em;
-	background: #eee;
+	background: #fff;
 	border: 1px solid #ccc;
 	padding: 10px;
 	padding-top: 0;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
 }
 #menu-sub ul {
 	list-style: none;
@@ -85,7 +97,6 @@ body {
 #footer {
 	color: #999;
 	font-size: small;
-	margin-bottom: 5em;
 }
 
 #footer hr {

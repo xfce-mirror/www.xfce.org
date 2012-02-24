@@ -9,7 +9,7 @@
   <?php E_('Possible tasks include testing, bug reporting; writing code, developing artwork, documentation or translations; or spreading the word and helping out with promotion and marketing both on line and at tradeshows and conferences.') ?>
 </p>
 
-<h2><?php E_('Documentation') ?></h2>
+<h2><a href="http://docs.xfce.org/wiki/documentation"><?php E_('Documentation') ?></a></h2>
 <p>
   <?php E_('There\'s lots of people using and testing Xfce. By providing useful and up-to-date documentation, you will make a big impact on helping people understand how to make the most of the Xfce Desktop Environement.') ?>
 </p>
