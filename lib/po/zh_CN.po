@@ -17,6 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: header.php:6
 msgid "Xfce Desktop Environment"
@@ -107,7 +108,7 @@ msgid ""
 "to assist you with your search, or report the problem in case you think this "
 "is needed."
 msgstr ""
-"您总能 <a href=\"mailto:webmaster@xfce.org\">问问网络管理员</a> 助您搜索，"
+"您总能 <a href=\"mailto:webmaster@xfce.org\">询问网络管理员</a> 助您搜索，"
 "或在您认为需要时报告此问题。"
 
 #: feed.php:29
@@ -694,8 +695,8 @@ msgid ""
 "Switch between opened windows, launch applications, switch workspaces and "
 "menu plugins to browse applications or directories."
 msgstr ""
-"在打开的窗口间切换、启动应用程序、切换工作区和菜单插件去浏览"
-"应用程序或目录。"
+"在打开的窗口间切换、启动应用程序，通过切换工作区和菜单插件去"
+"浏览应用程序或目录。"
 
 #: about/index.php:36 projects/index.php:45
 msgid "Session Manager"
@@ -727,7 +728,7 @@ msgid ""
 "Tools to control the various settings of the desktop like keyboard "
 "shortcuts, appearance, display settings etcetera."
 msgstr ""
-"用来控制众多像键盘快捷键、外观、显示设置等的桌面设置的工具。"
+"用来控制众多像键盘快捷键、外观、显示设置等的桌面设置工具。"
 
 #: about/index.php:47
 msgid ""
@@ -738,10 +739,10 @@ msgid ""
 "application. You can read more about the modules of Xfce in the <a href=\"/"
 "projects\">projects</a> page."
 msgstr ""
-"除了这些基本模块集之外，Xfce 还附带大量应用程序和插件，"
-"这样您就可以将桌面扩展为您喜欢的样式，比如终端模拟器、基于 "
-"iCal 的日历、CD 和 DVD 刻录应用程序。您可以在 <a href=\"/projects\">项目</a> "
-"页面阅读更多有关 Xfce 模块的内容。"
+"除了这些基本模块集之外，Xfce 还附带大量应用程序和插件，比如终端"
+"模拟器、基于 iCal 的日历、CD 和 DVD 刻录应用程序，这样您就可以"
+"将桌面扩展为您喜欢的样式。您可以在 <a href=\"/projects\">项目</a> 页面阅读"
+"更多有关 Xfce 模块的内容。"
 
 #: about/screenshots.php:18
 msgid "Some screenshots of Xfce, ordered by version."
@@ -822,7 +823,7 @@ msgid ""
 "The Xfce panel has been totally rewritten in 4.8, here are the most visible "
 "changes."
 msgstr ""
-"在 4.8 中 Xfce 面板已经完全重写，这些是用户可见的最主要变化。"
+"Xfce 面板在 4.8 中已经完全重写，这些是用户可见的最主要变化。"
 
 #: about/tour.php:31
 msgid "Improved positioning and size handling"
@@ -973,7 +974,7 @@ msgid ""
 "You can enable and disable plugged screens, set their resolution, refresh "
 "rate, rotation and reflection, clone screens or extend desktops."
 msgstr ""
-"您可以启用和禁用接入的屏幕、设置它们的分辨率、刷新率和反射度、"
+"您可以启用和禁用已接入的屏幕、设置它们的分辨率、刷新率和反射度、"
 "克隆屏幕或扩展桌面。"
 
 #: about/tour.php:79
@@ -990,7 +991,7 @@ msgid ""
 "ten seconds or they will be reverted. This prevents broken video drivers "
 "from leaving your computer unusable."
 msgstr ""
-"任何用设置对话框进行的更改必须在十秒内确认，否则会重置设置。"
+"任何用设置对话框进行的更改必须在十秒内确认，否则会重置这些设置。"
 "这会阻止由于损坏视频驱动而让您的计算机不能用。"
 
 #: about/tour.php:85
@@ -3008,7 +3009,7 @@ msgstr ""
 
 #: download/nav.php:8 download/changelogs/index.php:3
 msgid "Changelogs"
-msgstr "变更日志"
+msgstr "更改日志"
 
 #: download/nav.php:9 download/distros.php:1
 msgid "Distributions"
@@ -3020,7 +3021,7 @@ msgstr "浏览 GIT 仓库"
 
 #: download/nav.php:13
 msgid "Xfce goodies"
-msgstr "Xfce goodies"
+msgstr "Xfce 珍品"
 
 #: download/building.php:6 download/building.php:20
 msgid "Version"
@@ -3325,6 +3326,10 @@ msgid ""
 "download/building\">here</a>. You can also take a look at the list of <a "
 "href=\"/download/distros\">Xfce-oriented distributions</a>."
 msgstr ""
+"多数发行版以其自己的软件包格式发送 Xfce，但如果您要新版本或"
+"要从头编译 Xfce，您可以在下面找到所需软件包。如何编译 Xfce "
+"的介绍在 <a href=\"/download/building\">这里</a>。您还可以看看列表 "
+"<a href=\"/download/distros\">发行版中的 Xfce</a>。"
 
 #: download/index.php:23
 #, php-format
@@ -3338,6 +3343,8 @@ msgid ""
 "find the changes in this release <a href=\"/download/changelogs/%s\">here</"
 "a>."
 msgstr ""
+"Xfce %s 是最新版的 Xfce 桌面环境。您可以在 <a href=\"/download/"
+"changelogs/%s\">这里</a> 找到此发布的更新日志。"
 
 #: download/index.php:35
 msgid ""
@@ -3349,6 +3356,11 @@ msgid ""
 "a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
 "a>."
 msgstr ""
+"Xfce 中的每个软件包都发布稳定版或开发版，包括核心软件包(在 <a href=\"/about/"
+"releasemodel\">发行模式</a>)。您可以注意 <a href=\"/community/lists\">"
+"Xfce 用户邮件列表</a> 中的发布公告、或留意 <a href=\"http://archive.xfce.org/"
+"feeds/project/\">发行订阅</a> 或注意 Xfce <a href=\"http://identi.ca/xfce\">"
+"identi.ca 频道</a>。"
 
 #: download/index.php:43
 #, php-format
@@ -3433,6 +3445,8 @@ msgid ""
 "Xfce Desktop Environment featuring a mix of high productivity centric "
 "applications."
 msgstr ""
+"Fedora Xfce Spin 是可安装的自运行 CD，它的特色是展示了"
+"一个高度成品化的主要应用程序集。"
 
 #: download/distros.php:14
 msgid ""
@@ -3454,6 +3468,12 @@ msgid ""
 "simple way to convert Zenwalk Linux into a finely-tuned modern server (e.g. "
 "LAMP, messaging, file sharing)."
 msgstr ""
+"Zenwalk 是基于 Slackware 的操作系统。Zenwalk 的目标是"
+"轻巧快速，结合 Xfce 桌面，一个应用程序完成一项任务。Zenwalk "
+"着重于最新的 Linux 技术和完整的编程环境和库文件，为程序员提供"
+"一个理想的应用程序编写平台。Zenwalk 的模块化方式也提供了一个将 "
+"Zenwalk Linux 转换为良好调节的现代服务器(比如 LAMP、邮件、"
+"文件共享)的简单方法。"
 
 #: download/distros.php:24
 msgid ""
@@ -3461,6 +3481,9 @@ msgid ""
 "up a standalone MythTV based PVR system. It can be used to prepare a "
 "standalon system or for integration with an existing MythTV network."
 msgstr ""
+"Mythbuntu 是社区支持的 Ubuntu 插件，聚焦于建立一个独立的基于 "
+"PVR 系统的 MythTV。使用它可以准备一个独立系统或与已有的 MythTV "
+"网络集成。"
 
 #: download/distros.php:29
 msgid ""
@@ -3472,6 +3495,11 @@ msgid ""
 "needed to stream all forms of Web content and manage your own multimedia "
 "library and downloads."
 msgstr ""
+"Element OS 是一个针对家庭影院个人电脑、多媒体中心计算机"
+"和机顶盒的开源操作系统。着重于一个革新的基于 Xfce 的界面，"
+"此 “穿堂而过” 的设计可以与您的 HDTV 连接，这样您就可以在"
+"客厅或休息室里卧室享受数字媒体和网络体验。Element 带有传送"
+"所有形式的网络内容和管理您自己的多媒体库和下载媒体所需的软件，"
 
 #: download/distros.php:35
 msgid ""
@@ -3479,6 +3507,9 @@ msgid ""
 "a CD/DVD/USBStick and optionally be installed to a HDD (IDE, SCSI, SATA, "
 "PATA and USB Drive)."
 msgstr ""
+"Dreamlinux 是现代化的模块化的 GNU/Linux 系统，它可以"
+"直接从 CD/DVD/USB 运行，也可以安装到硬盘(IDE、SCSI、"
+"SATA、PATA 和 USB 驱动器)上。"
 
 #: download/distros.php:40
 msgid ""
@@ -3489,6 +3520,10 @@ msgid ""
 "from this concept is perhaps the best little Linux operating system "
 "available anywhere."
 msgstr ""
+"快速、性能、稳定－这些是 VectorLinux 与 Linux 发行版的其它"
+"喧嚣领域分开的特点。VectorLinux 的创建者只有一个信条：让它简单、"
+"让它小巧、让其终端用户决定他们的操作系统是什么样子。与此理念相伴的"
+"是它可能是您所能找到的最好的小型 Linux 操作系统。"
 
 #: download/distros.php:45
 msgid ""
@@ -3498,12 +3533,18 @@ msgid ""
 "mainly targeted at home users and strives to provide a balance between "
 "everyday computing tasks, creativity, work and enjoyment."
 msgstr ""
+"Wolvix 基于 Slackware 的桌面方向的 GNU/Linux 发行版。"
+"它着重于 Xfce 桌面环境并综合选择了开发、图形、多媒体、网络"
+"和办公应用程序。其主要对象是家庭用户并努力在日常计算机任务、"
+"创作、工作和娱乐间求取平衡。"
 
 #: download/distros.php:50
 msgid ""
 "Kate OS is a polish GNU/Linux distribution. It is a lightweight binary "
 "distribution featuring Xfce as the default desktop environment."
 msgstr ""
+"Kate OS 是优化了的 GNU/Linux 发行版。它是一个轻量级的二进制"
+"发行版，用 Xfce 作为默认桌面环境。"
 
 #: download/distros.php:55
 msgid ""
@@ -3513,10 +3554,15 @@ msgid ""
 "an \"extra\" quality source of software for their favorite distribution. "
 "Like a bonsai, Salix is small, light and the product of infinite care."
 msgstr ""
+"Salix 是基于 Slackware 的简单、快速和易用的 Linux 发行版。"
+"Salix 还向后与 Slackware 完全兼容，所以 Slackware 用户"
+"可以从 Salix 软件库受益，这样他们就有了一个 “额外” 质量的"
+"软件源码用于他们喜欢的发行版。Salix 小、轻，像盆景一样受到"
+"无限关爱。"
 
 #: download/distros.php:58
 msgid "Xfce Live-CD distributions"
-msgstr "Xfce Live-CD 发行版"
+msgstr "Xfce 自运行发行版"
 
 #: download/distros.php:62
 msgid ""
@@ -3524,16 +3570,21 @@ msgid ""
 "OS. You don't have to install it on your harddisk, it runs completely from "
 "your cd drive and your RAM."
 msgstr ""
+"SAM Linux 桌面是一个包含完整桌面操作系统的自启动运行光盘。"
+"您无需将其安装在您的硬盘上，它可以完全从您的光驱和内存运行。"
 
 #: download/distros.php:67
 msgid ""
 "PureOSlight is a Debian-based liveCD (Debian testing) for french-speaking "
 "users. It's built with Linux-live scripts from Tomas Matejicek (Slax)."
 msgstr ""
+"PureOSlight 是针对法语用户的基于 Debian 的自运行光盘(Debian "
+"测试版)。它用 Tomas Matejicek (Slax) 编写的 Linux-live "
+"脚本编译。"
 
 #: download/distros.php:70
 msgid "General distributions with a good Xfce support"
-msgstr ""
+msgstr "对 Xfce 支持良好的通用发行版"
 
 #: download/distros.php:74
 msgid ""
@@ -3543,6 +3594,10 @@ msgid ""
 "alioth.debian.org/\">Debian Xfce group</a> takes care of integrating Xfce "
 "into Debian to provide a nice user experience."
 msgstr ""
+"Debian 是最著名的二进制发行版之一，是其它很多发行版的基础。"
+"其稳定性、性能和可以广泛选择的应用程序是众所周知的。<a href=\"http://pkg-xfce."
+"alioth.debian.org/\">Debian Xfce group</a> 负责将 Xfce 与 Debian 整合从而提供"
+"更好的用户体验。"
 
 #: download/distros.php:79
 msgid ""
@@ -3550,6 +3605,8 @@ msgid ""
 "to install. Easy to use. Xfce is of course available, simple to install and "
 "configure."
 msgstr ""
+"Mandriva Linux 是一个计算机操作系统。易于尝试、易于安装、"
+"易于使用。Xfce 当然适用且易于安装和配置。"
 
 #: download/distros.php:84
 msgid ""
@@ -3557,6 +3614,9 @@ msgid ""
 "Server. You can surf the web, manage your e-mails and photos, do office "
 "work, play videos or music and have a lot of fun!"
 msgstr ""
+"OpenSUSE 是针对个人电脑、笔记本或服务器的基于 Linux 的自由"
+"操作系统。您可以网上冲浪、处理您的电子邮件和照片、办公、播放"
+"视频或音乐，玩得痛快！"
 
 #: download/distros.php:89
 msgid ""
@@ -3631,8 +3691,8 @@ msgstr ""
 "我们希望每个人都和我们一样喜欢此版本。遗憾的是，对使用某一 "
 "BSD 系统的大伙儿来说情况就不是这样了，他们会觉察到功能的"
 "突然缺失。最近在开源生态系统中、特别对于在桌面环境中我们需要"
-"的实用工具、有 “仅对 Linux 开发” 的指责，我们认为此公告是表"
-"明我们反对此指责的好机会。"
+"的实用工具、有 “仅对 Linux 开发” 的指责，我们认为此公告是"
+"表明我们反对此指责的好机会。"
 
 #: news-array.php:17
 msgid ""
