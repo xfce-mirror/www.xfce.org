@@ -27,6 +27,7 @@ $toc['anchors'] = array (
 </p>
 
 <h2 id="irc"><?php E_('IRC') ?></h2>
+<p>
     <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our IRC channel <a href="irc://irc.freenode.net/#xfce">#xfce on irc.freenode.net</a>. The channel has several active users. It is recommended that you consult the <a href="http://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
 </p>
 
