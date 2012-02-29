@@ -54,7 +54,7 @@ if($preview_visible) {
 
 <h2 id="distros"><?php E_('Distributions') ?></h2>
 <p>
-  <?php E_('A lot of different distributions provide Xfce packages. Popular examples using Xfce as main desktop are <a href="http://www.xubuntu.org/">Xubuntu</a>, the <a href="http://spins.fedoraproject.org/xfce/">Fedora Xfce Spin</a> and <a href="http://www.zenwalk.org/">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well.') ?>
+  <?php E_('A lot of different distributions provide Xfce packages. Popular examples build around Xfce are <a href="http://www.xubuntu.org/">Xubuntu</a>, the <a href="http://spins.fedoraproject.org/xfce/">Fedora Xfce Spin</a> and <a href="http://www.zenwalk.org/">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well.') ?>
 </p>
 <p>
   <?php printf (R_('You can fine a more complete list at <a href="http://distrowatch.com/search.php?pkg=xfdesktop&pkgver=%s">DistroWatch.com</a>.'), $stable_version) ?>
