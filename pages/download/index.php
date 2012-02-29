@@ -7,7 +7,8 @@ $head['title'] = R_('Download');
 $toc['anchors'] = array (
         'stable' => R_('Stable release'),
         'individual' => R_('Individual releases'),
-        'distros' => R_('Distributions'));
+        'distros' => R_('Distributions'),
+        'artwork' => R_('Artwork'));
 
 if($preview_visible) {
         $toc['anchors'] += array ('unstable' => R_('Preview release'));
@@ -58,4 +59,9 @@ if($preview_visible) {
 </p>
 <p>
   <?php printf (R_('You can fine a more complete list at <a href="http://distrowatch.com/search.php?pkg=xfdesktop&pkgver=%s">DistroWatch.com</a>.'), $stable_version) ?>
+</p>
+
+<h2 id="artwork"><?php E_('Artwork') ?></h2>
+<p>
+  <?php E_('You can download the Xfce artwork tarball <a href="/downloads/xfce_artwork.tar.bz2">here</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license.') ?>
 </p>
