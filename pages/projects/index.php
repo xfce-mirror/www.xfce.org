@@ -60,9 +60,9 @@ $toc['anchors'] = array (
   </div>
 
   <div class="module">
-    <h3><a href="/projects/xfce-utils"><?php E_('Utilities and Scripts') ?></a></h3>
-    <p style="background-image: url('/images/projects/xfce-utils.png')">
-      <?php E_('Essential utilities and scripts. Provides a credits and license dialog, a dialog for launching applications and several important scripts.') ?>
+    <h3><a href="/projects/xfce4-appfinder"><?php E_('Application Finder') ?></a></h3>
+    <p style="background-image: url('/images/projects/xfce4-appfinder.png')">
+      <?php E_('Allows you to search, launch and find information about applications installed on your system.') ?>
     </p>
   </div>
 
@@ -92,13 +92,6 @@ $toc['anchors'] = array (
     <h3><a href="/projects/thunar"><?php E_('Thunar File Manager') ?></a></h3>
     <p style="background-image: url('/images/projects/thunar.png')">
       <?php E_('Thunar is a new modern file manager designed from the ground up to be fast and easy-to-use.') ?>
-    </p>
-  </div>
-
-  <div class="module">
-    <h3><a href="/projects/xfce4-appfinder"><?php E_('Application Finder') ?></a></h3>
-    <p style="background-image: url('/images/projects/xfce4-appfinder.png')">
-      <?php E_('Allows you to search, launch and find information about applications installed on your system.') ?>
     </p>
   </div>
 
