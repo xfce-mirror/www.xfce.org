@@ -17,7 +17,7 @@ if($preview_visible) {
 <h1><?php echo $head['title'] ?></h1>
 
 <p>
-  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href="/download/building">here</a>. You can also take a look at the list of <a href="/download/distros">Xfce-oriented distributions</a>.') ?>
+  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href="http://docs.xfce.org/xfce/building" class="external">here</a>. You can also take a look at the list of <a href="/download/distros">Xfce-oriented distributions</a>.') ?>
 </p>
 
 <h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h2>
