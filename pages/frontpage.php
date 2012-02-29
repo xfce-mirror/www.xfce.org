@@ -43,7 +43,7 @@ $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
   <noscript>
     <ul id="slides">
       <?php  $i = rand(1,4) ?>
-      <li><img src=<?php echo("\"images/frontpage/intro-" . $i . "-small.jpg\" id=\"intro" . $i . "\" alt=\"\"") ?> /></li>
+      <li><img src=<?php echo("\"images/frontpage/intro-" . $i . "-small.jpg\" id=\"intro" . $i . "-noscript\" alt=\"\"") ?> /></li>
     </ul>
   </noscript>
 </div>
