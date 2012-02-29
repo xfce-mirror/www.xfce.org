@@ -6,7 +6,8 @@ $head['title'] = R_('Download');
 
 $toc['anchors'] = array (
         'stable' => R_('Stable release'),
-        'individual' => R_('Individual releases'));
+        'individual' => R_('Individual releases'),
+        'distros' => R_('Distributions'));
 
 if($preview_visible) {
         $toc['anchors'] += array ('unstable' => R_('Preview release'));
@@ -17,7 +18,7 @@ if($preview_visible) {
 <h1><?php echo $head['title'] ?></h1>
 
 <p>
-  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href="http://docs.xfce.org/xfce/building" class="external">here</a>. You can also take a look at the list of <a href="/download/distros">Xfce-oriented distributions</a>.') ?>
+  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href="http://docs.xfce.org/xfce/building" class="external">here</a>.') ?>
 </p>
 
 <h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h2>
@@ -50,3 +51,11 @@ if($preview_visible) {
 </ul>
 
 <?php } ?>
+
+<h2 id="distros"><?php E_('Distributions') ?></h2>
+<p>
+  <?php E_('A lot of different distributions provide Xfce packages. Popular examples using Xfce as main desktop are <a href="http://www.xubuntu.org/">Xubuntu</a>, the <a href="http://spins.fedoraproject.org/xfce/">Fedora Xfce Spin</a> and <a href="http://www.zenwalk.org/">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well.') ?>
+</p>
+<p>
+  <?php printf (R_('You can fine a more complete list at <a href="http://distrowatch.com/search.php?pkg=xfdesktop&pkgver=%s">DistroWatch.com</a>.'), $stable_version) ?>
+</p>

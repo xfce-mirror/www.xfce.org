@@ -4,8 +4,7 @@ include ('pages/versions.php');
 
 $toc['menu'] = array (
 	'download' => R_('Download'),
-	'download/changelogs' => R_('Changelogs'),
-	'download/distros' => R_('Distributions'));
+	'download/changelogs' => R_('Changelogs'));
 
 $toc['external'] = array (
 	'http://docs.xfce.org/xfce/building' => R_('Building Xfce'),
