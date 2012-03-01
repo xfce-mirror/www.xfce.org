@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-09-26 18:33+0200\n"
-"PO-Revision-Date: 2012-02-24 22:14+0100\n"
+"PO-Revision-Date: 2012-02-29 20:15+0100\n"
 "Last-Translator: Daniel Durante <danieldurante@ymail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "Traductores"
 #: about/credits.php:17
 #: about/credits.php:114
 msgid "Previous contributors"
-msgstr "Contribuidores antigüos"
+msgstr "Contribuidores anteriores"
 
 #: about/credits.php:56
 msgid "A large number of people contributed to the Xfce project. Although more people contributed to the project then the ones list below, we'd like to say:"
@@ -1308,9 +1308,8 @@ msgid "Removable Drives and Media"
 msgstr "Unidades extraíbles y medios"
 
 #: about/tour44.php:49
-#, fuzzy
 msgid "Xfce 4.4.0 provides easy access to data on removable drives and media. Just insert the media into the drive or plug the new drive in to the computer and an icon representing the removable volume will appear on the desktop and in <b>Thunar</b>'s side pane."
-msgstr "Xfce 4.4.0 proporciona un fácil acceso a los datos en unidades extraíbles y los medios de comunicación. Sólo tiene que insertar los medios de comunicación en la unidad o el enchufe de la nueva unidad en el equipo y un icono que representa el volumen extraíble aparecerá en el escritorio y en el panel lateral <b>Thunar</b> 's."
+msgstr "Xfce 4.4.0 proporciona un acceso fácil a unidades externas. Sólo tiene que insertar el cable de conexión de la nueva unidad en el equipo y un icono, que representa el volumen extraíble, aparecerá en el escritorio y en el panel lateral de<b>Thunar</b>."
 
 #: about/tour44.php:55
 #, fuzzy
@@ -2374,9 +2373,8 @@ msgid "From the code repository"
 msgstr "Desde el repositorio de código"
 
 #: download/building.php:63
-#, fuzzy
 msgid "For the latest code you need to make local copies of the GIT repositories, this is the place where developers submit their code. If you decide to use GIT, try to use the same branch for all the packages to avoid dependency version problems."
-msgstr "Para la última versión del código que necesita para hacer copias locales de los repositorios GIT, este es el lugar donde los desarrolladores de enviar el código. Si usted decide usar GIT, trate de usar la misma rama para todos los paquetes para evitar problemas de dependencia de versión."
+msgstr "Para tener la última versión del código necesita hacer copia local de los repositorios GIT; este es el lugar de almacén de código para los desarrolladores. Si usa GIT, trate de usar la misma rama para todos los paquetes, así evitará problemas de dependencia en la versión."
 
 #: download/building.php:67
 #, fuzzy
@@ -2384,9 +2382,8 @@ msgid "You first need to make clones of each GIT repository, like the command be
 msgstr "Primero tiene que hacer clones de cada repositorio GIT, al igual que el siguiente comando, donde <em>$ categoría</em> es para <em>xfce</em> ejemplo y <em>$ módulo xfce4-panel.</em> Si hace clic en un módulo en la línea <a href=\"http://git.xfce.org/xfce\" class=\"external\">de lista de repositorios</a> la uri clon se muestra en la parte inferior de la página."
 
 #: download/building.php:75
-#, fuzzy
 msgid "After the repository is cloned you need to choose which branch you want to compile. By default the <em>master</em> branch is selected, but there are also branches for stable releases like <em>xfce-4.6</em>. The stable branches contain the latest bug fixes without any major new feature, the <em>master</em> branch is the development version for the next release of Xfce. Both should not be used in a production environment."
-msgstr "Después de que el depósito se clona tiene que elegir la rama que desee compilar. Por defecto, la rama <em>principal</em> se ha seleccionado, pero también hay ramas para versiones estables como <em>xfce-4.6.</em> Las ramas estables contienen las últimas correcciones de errores, sin gran novedad, la rama <em>principal</em> es la versión de desarrollo para la próxima versión de Xfce. Tanto no se debe utilizar en un entorno de producción."
+msgstr "Después de clonar el repositorio debe elegir qué rama compilar. Por defecto, se encuentra seleccionada la rama <em>master</em>, pero puede seleccionar otras  publicaciones estables, como <em>xfce-4.6</em>. Las ramas estables sólo contienen las últimas correcciones de errores, sin ninguna otra funcionalidad añadida. La rama <em>master</em> es la versión de desarrollo para el próximo lanzamiento de Xfce, por lo que no debe ser usada para un entorno de producción."
 
 #: download/building.php:79
 #, fuzzy
@@ -2431,9 +2428,8 @@ msgid "Xfce's dependency chain"
 msgstr "Cadena de dependencias de Xfce"
 
 #: download/building.php:112
-#, fuzzy
 msgid "The Xfce packages need to be built in a specific order. If you don't follow this, compile options might not be available or the configure stage will abort because of missing dependencies."
-msgstr "Los paquetes de Xfce necesidad de que se construirá en un orden específico. Si usted no cumple con esto, las opciones de compilación puede no estar disponible o la fase de configuración se abortan debido a dependencias que faltan."
+msgstr "Los paquetes de Xfce necesitan crearse en un determinado orden. Si no se sigue este, las opciones de compilación pueden no funcionar bien, o fallar  el paso donde se usa .configure debido a dependencias que falten."
 
 #: download/building.php:116
 msgid "only required if you build from GIT"
@@ -2452,9 +2448,8 @@ msgid "Package specific dependencies"
 msgstr "Dependencias especificas del paquete"
 
 #: download/building.php:128
-#, fuzzy
 msgid "Some core packages in Xfce have additional or optional dependencies, all are listed in the table below for the latest stable version. We only show the top package as dependency (so xfce4-panel also requires gtk+, but libxfce4ui already depends on that). Note that some of the package names may vary between distributions."
-msgstr "Algunos paquetes principales de Xfce tener dependencias adicionales u opcionales, todos se muestran en la tabla siguiente para la última versión estable. Sólo se muestran los mejores paquetes de dependencia (de modo xfce4-panel también requiere GTK +, pero libxfce4ui ya depende de eso). Tenga en cuenta que algunos de los nombres de los paquetes puede variar entre distribuciones."
+msgstr "Algunos paquetes del núcleo de Xfce tienen dependencias adicionales u opcionales; todos los de la última versión estable se muestran en la siguiente tabla. Sólo se muestran las dependencias principales (por jemplo: xfce4-panel requiere GTK +, pero libxfce4ui ya depende de GTK +). Tenga en cuenta que algunos de los nombres de los paquetes puede variar entre distribuciones."
 
 #: download/building.php:215
 msgid "Installation location and variables"
@@ -2508,9 +2503,8 @@ msgid "Preview release"
 msgstr "Publicación anterior"
 
 #: download/index.php:20
-#, fuzzy
 msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href=\"/download/building\">here</a>. You can also take a look at the list of <a href=\"/download/distros\">Xfce-oriented distributions</a>."
-msgstr "La mayoría de las distribuciones vienen con Xfce en su formato propio embalaje, pero si quieres una versión más reciente o si desea construir Xfce desde el principio, usted puede encontrar los siguientes paquetes. Instrucciones de cómo compilar Xfce se puede encontrar <a href=\"/download/building\">aquí</a> . También puedes echar un vistazo a la lista de <a href=\"/download/distros\">distribución orientada a Xfce</a> ."
+msgstr "La mayoría de las distribuciones vienen con Xfce en su propio formato de empaquetado, pero, si quiere una versión más reciente, o si desea construir Xfce desde cero, puede encontrar aquí los paquetes necesarios. Puede encontrar instrucciones sobre cómo compilar Xfce <a href=\"/download/building\">aquí</a> . También puede echar un vistazo a la lista de <a href=\"/download/distros\">distribución sobre Xfce</a>."
 
 #: download/index.php:23
 #, php-format
@@ -2608,9 +2602,8 @@ msgid "Zenwalk is an operating system based on Slackware. The goal of Zenwalk is
 msgstr "Zenwalk es un sistema operativo basado en Slackware. El objetivo de Zenwalk es ser delgado y rápido con sólo una aplicación por tarea combinada con el escritorio Xfce. Zenwalk cuenta con la última tecnología Linux, junto con un completo entorno de desarrollo y las bibliotecas para proporcionar una plataforma ideal para los programadores de aplicaciones. Enfoque modular Zenwalk también proporciona una forma sencilla de convertir Zenwalk Linux en un servidor moderno afinada (LAMP, por ejemplo, mensajería, intercambio de archivos)."
 
 #: download/distros.php:24
-#, fuzzy
 msgid "Mythbuntu is an community supported add-on for Ubuntu focused upon setting up a standalone MythTV based PVR system. It can be used to prepare a standalon system or for integration with an existing MythTV network."
-msgstr "Mythbuntu es una comunidad de apoyo complementario para Ubuntu enfocado en el establecimiento de un sistema autónomo basado en MythTV PVR. Puede ser utilizado para preparar un sistema standalon o para la integración con una red existente de MythTV."
+msgstr "Mythbuntu es una comunidad relacionada con Ubuntu y enfocada en la creación de un sistema propio basado en MythTV PVR. Puede ser utilizado para preparar un sistema independiente o para la integración en una red MythTV."
 
 #: download/distros.php:29
 #, fuzzy
