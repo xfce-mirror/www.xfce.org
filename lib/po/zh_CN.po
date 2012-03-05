@@ -658,7 +658,7 @@ msgid ""
 msgstr ""
 "发行团队至少包括两个人：一个可由其他人协助的真正执行发布(标记、创建 tarball、"
 "撰写发行日志和文档)的发行管理员，另一个人检测质量(检查所有组件的编译、标记是否"
-"恰当、发行日志是否最新等等)。在下面有详细的定义。"
+"恰当，发行日志是否最新等等)。在下面有详细的定义。"
 
 #: about/releasemodel.php:99
 msgid "These are the release team roles and their responsibilities:"
@@ -704,7 +704,7 @@ msgstr "创建 Bugzilla 标记"
 
 #: about/releasemodel.php:113
 msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "代码冻结过程中批准修复受阻缺陷的补丁"
+msgstr "代码冻结过程中批准修复阻断缺陷"
 
 #: about/releasemodel.php:116
 msgid "Release Assistant(s)"
@@ -932,6 +932,10 @@ msgid ""
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
 msgstr ""
+"Y 必须是偶数。每个这样的版本必须包括 Xfce 核心桌面所有组件的最新开发版(或稳"
+"定版，如果在最新的稳定版之后没有开发版)。这些组件的版本号应(甚至必须)与上述的"
+"命名方案不同。比如对于 Xfce 4.8.0pre2，xfwm4 可能是 4.7.17 版，thunar "
+"可能是 1.1.9。"
 
 #: about/releasemodel.php:224
 msgid ""
@@ -940,24 +944,26 @@ msgid ""
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
 msgstr ""
+"这意味着维护者不一定非要与某个预览版一道发布其组件的新版本，发行团队挑选各组件"
+"可用的最新开发版或稳定版作为预览版和最终版。"
 
 #: about/releasemodel.php:228
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr ""
+msgstr "此阶段的结束标志着 Xfce 核心桌面新稳定版的发布，新发行周期的开始。"
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "发布前的冻结"
 
 #: about/releasemodel.php:234
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "发布前有不同的冻结类型。"
 
 #: about/releasemodel.php:237
 msgid "Feature Freeze"
-msgstr ""
+msgstr "功能冻结"
 
 #: about/releasemodel.php:240
 msgid ""
@@ -965,10 +971,12 @@ msgid ""
 "there on only translations and bugfixes are allowed to go into the master "
 "branch."
 msgstr ""
+"自 Xfce X.Ypre1，所有核心组件进入功能冻结，这意味着从此时起只允许译文和缺陷"
+"修复进入主分支。"
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "字符串/用户界面冻结"
 
 #: about/releasemodel.php:246
 msgid ""
@@ -976,10 +984,12 @@ msgid ""
 "from there on no strings which affect translations may be changed. Same goes "
 "for the user interface which may not be changed after this point."
 msgstr ""
+"自 Xfce X.Ypre2，所有核心组件进入字符串/用户界面冻结，这意味着从此时起不会"
+"有影响译文的字符串更改。此后，同样不会有影响用户界面的更改。"
 
 #: about/releasemodel.php:249
 msgid "Code Freeze"
-msgstr ""
+msgstr "代码冻结"
 
 #: about/releasemodel.php:252
 msgid ""
@@ -987,6 +997,8 @@ msgid ""
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
+"每个预览版之前有两天的短暂代码冻结。此段时间内，除非由发行管理员签名，否则"
+"不能提交。"
 
 #: about/releasemodel.php:256
 msgid ""
@@ -995,10 +1007,13 @@ msgid ""
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
 msgstr ""
+"自 Xfce X.Ypre3，所有核心组件进入代码冻结，这意味着从此时起不允许有代码"
+"更改，除非由发行管理员签名。通常，这些应该只用在修复阻断缺陷或致命缺陷上。"
+"仍然允许译文进入。"
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "代码冻结阶段(2+ 星期)"
 
 #: about/releasemodel.php:262
 msgid ""
@@ -1006,6 +1021,8 @@ msgid ""
 "illustrated in the following figure and is explained in more detail in this "
 "section."
 msgstr ""
+"自 Xfce X.Ypre3，所有核心组件进入代码冻结。此节中的以下图表更加详细地"
+"解释了此阶段。"
 
 #: about/releasemodel.php:266
 msgid ""
@@ -1013,6 +1030,8 @@ msgid ""
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
 msgstr ""
+"代码冻结及其例外由提交套钩去做。有一更新套钩，除非由发行管理员签名，否则"
+"它不允许对主分支作任何更改。"
 
 #: about/releasemodel.php:271
 msgid "Tagging and Branching for Releases"
@@ -1044,7 +1063,7 @@ msgstr ""
 
 #: about/releasemodel.php:287
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "阻断缺陷"
 
 #: about/releasemodel.php:290
 msgid ""
