@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-09-26 18:33+0200\n"
-"PO-Revision-Date: 2012-02-29 20:15+0100\n"
+"PO-Revision-Date: 2012-03-05 21:34+0100\n"
 "Last-Translator: Daniel Durante <danieldurante@ymail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
@@ -2330,9 +2330,8 @@ msgid "The latest releases available can be found on the <a href=\"/download\">d
 msgstr "Las últimas publicaciones disponibles se pueden encontrar en la <a href=\"/download\">página de descarga</a> . También se pueden construir desde los repositorios de código fuente si tiene suficiente experiencia, más sobre esto adelante."
 
 #: download/building.php:31
-#, fuzzy
 msgid "If you've decided which version you want to compile, there are a couple of ways to download the source code. You can choose to build official released packages or clone the source repositories. Choosing the released packages is recommended here; the source repositories could be broken and are not suitable for production environments, but on the other hand always contains the latest features, bug fixes and translations."
-msgstr "Si usted ha decidido que la versión que desea compilar, hay un par de maneras de descargar el código fuente. Usted puede elegir para construir paquetes oficiales de libertad o la clonación de los repositorios de código fuente. Selección de los paquetes liberados se recomienda aquí, los repositorios de origen podría ser roto y no son adecuados para entornos de producción, pero por otro lado siempre contiene las últimas características, correcciones de errores y traducciones."
+msgstr "Si  ha decidido qué versión desea compilar, hay dos formas de descargar el código fuente. Puede elegir entre construir los paquetes oficiales de la versión o clonar los repositorios del código fuente. Se recomienda que escoja la primera opción ya que los repositorios de código fuente podrían tener algún problema y no ser adecuados para entornos de producción, pero por otro lado, siempre contienen las últimas implementaciones, correcciones de errores y traducciones."
 
 #: download/building.php:35
 msgid "If your not sure what to choose: easiest is to start with the latest stable fat-tarball of a collection release."
@@ -2386,14 +2385,12 @@ msgid "After the repository is cloned you need to choose which branch you want t
 msgstr "Después de clonar el repositorio debe elegir qué rama compilar. Por defecto, se encuentra seleccionada la rama <em>master</em>, pero puede seleccionar otras  publicaciones estables, como <em>xfce-4.6</em>. Las ramas estables sólo contienen las últimas correcciones de errores, sin ninguna otra funcionalidad añadida. La rama <em>master</em> es la versión de desarrollo para el próximo lanzamiento de Xfce, por lo que no debe ser usada para un entorno de producción."
 
 #: download/building.php:79
-#, fuzzy
 msgid "To switch to another branch (<em>git branch -a</em> lists all available branches) run the following command inside the cloned directory to switch to, for example, the <em>xfce-4.6</em> branch:"
-msgstr "Para cambiar a otra rama <em>(git branch-una</em> lista de todas las ramas disponibles) ejecutar el siguiente comando dentro del directorio de clonado para cambiar a, por ejemplo, el <em>xfce-4.6</em> rama:"
+msgstr "Para cambiar a otra rama (<em>git branch-una</em> lista todas las ramas disponibles) ejecutar el siguiente comando dentro del directorio clonado, por ejemplo la rama <em>xfce-4.6</em>:"
 
 #: download/building.php:87
-#, fuzzy
 msgid "After this you can update your local copy of the repository with <em>git pull</em> and switch to another branch with <em>git checkout $branchname</em>. Read the <a href=\"http://git-scm.com/documentation\" class=\"external\">GIT manuals</a> for more information about using GIT."
-msgstr "Después de esto usted puede actualizar su copia local del repositorio con <em>git pull</em> y cambiar a otra rama con <em>git checkout $ branchname.</em> Lea el <a href=\"http://git-scm.com/documentation\" class=\"external\">manual GIT</a> para obtener más información sobre el uso de GIT."
+msgstr "Después puede actualizar su copia local del repositorio con <em>git pull</em> y cambiar a otra rama con <em>git checkout $ branchname.</em> Lea el <a href=\"http://git-scm.com/documentation\" class=\"external\">manual GIT</a> para obtener más información sobre el uso de GIT."
 
 #: download/building.php:92
 msgid "Build requirements"
@@ -2456,9 +2453,8 @@ msgid "Installation location and variables"
 msgstr "ubicación de la instalación y variables"
 
 #: download/building.php:217
-#, fuzzy
 msgid "Now it is finally time to start compiling the Xfce desktop. Last remaining thing is to choose an installation location. Possible examples are <em>/usr</em>, <em>/usr/local</em> and <em>/opt/xfce4</em> for a system-wide installation or <em>$HOME/local</em> if you want to install in your home directory (whatever you choose, never put spaces in the name). We will refer to this location as <em>${PREFIX}</em> in the code examples below!"
-msgstr "Ahora es llegado el momento de comenzar a compilar el escritorio Xfce. Lo restante último es elegir una ubicación de instalación. Entre los posibles ejemplos son <em>/ usr, / usr / local</em> y <em>/ opt/xfce4</em> para una instalación de sistema o <em>$ HOME / local</em> si desea instalar en su directorio personal (lo que elijas, nunca ponga espacios en el nombre). Nos referiremos a este lugar como <em>$ {PREFIX}</em> en los ejemplos de código de abajo!"
+msgstr "Ahora, por fin llega  el momento de comenzar a compilar el escritorio Xfce. Lo último que queda es elegir la ubicación de la instalación. Algunas posibilidades son <em>/ usr, / usr / local</em> y <em>/ opt/xfce4</em> para una instalación de sistema o <em>$ HOME / local</em> si desea instalarlo en su directorio personal (en cualquier caso, nunca ponga espacios en el nombre). En los ejemplos que siguen se emplea la siguiente ubicación<em>$ {PREFIX}</em>."
 
 #: download/building.php:221
 msgid "You need to make sure the <em>PKG_CONFIG_PATH</em> variable include the path to the *.pc files installed by the Xfce libraries:"
@@ -2486,9 +2482,8 @@ msgid "Specific configure options for each package can be shown with <em>./confi
 msgstr "<em>.</em> Configurar las opciones específicas para cada paquete se puede mostrar con <em>/ configure - help.</em> Tenga en cuenta que la mayoría de los paquetes de beneficios si se pasa la opción de configure <em>- disable-debug,</em> sin embargo, si desea proporcionar trazas o el código de prueba de nuevo, no <em>CFLAGS,</em> sin pelar y binario <em>- enable-debug = full</em> se recomienda. Tenga en cuenta que <em>- disable-debug</em> no está disponible para xfce4-dev-tools."
 
 #: download/building.php:259
-#, fuzzy
 msgid "Hopefully everything went fine after reading this guide. If you still have problems or questions you can ask on the <a href=\"/community#mail\">Xfce users mailing list</a>, the <a href=\"http://forum.xfce.org\" class=\"external\">forum</a> or ask distribution related questions on their forums and mailing lists."
-msgstr "Esperemos que todo ha ido bien después de leer esta guía. Si todavía tiene problemas o preguntas que puede hacer en la <a href=\"/community#mail\">lista de correo de usuarios Xfce</a> , el <a href=\"http://forum.xfce.org\" class=\"external\">foro</a> o hacer preguntas relacionadas con la distribución en sus foros y listas de correo."
+msgstr "Esperemos que todo haya ido bien después de leer esta guía. Si todavía tiene problemas o preguntas,  puede formularlas en la <a href=\"/community#mail\">lista de correo de usuarios Xfce</a> , el <a href=\"http://forum.xfce.org\" class=\"external\">foro</a> o hacer preguntas relacionadas con la distribución en sus foros y listas de correo."
 
 #: download/building.php:263
 msgid "Have fun building Xfce!"
@@ -2527,9 +2522,9 @@ msgid "Preview release %s"
 msgstr "Publicación anterior %s"
 
 #: download/index.php:45
-#, fuzzy, php-format
+#, php-format
 msgid "Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href=\"#stable\">stable release</a> above. You can find the changes in this release <a href=\"/download/changelogs/%s\">here</a>."
-msgstr "Xfce% s es la última versión de desarrollo del entorno de escritorio Xfce. Este comunicado no debe ser utilizado en entornos de producción. Si no está seguro sobre la descarga de esta versión, probablemente tendrá que usar la <a href=\"#stable\">versión estable</a> anterior. Usted puede encontrar los cambios de esta versión <a href=\"/download/changelogs/%s\">aquí</a> ."
+msgstr "Xfce % s es la última versión del entorno de escritorio Xfce y no debería ser utilizado en entornos de producción. Si no está seguro sobre si descargar esta versión, use la <a href=\"#stable\">versión estable</a> anterior. Puede encontrar <a href=\"/download/changelogs/%s\">aquí</a> los cambios en esta versión."
 
 #: download/requirements.php:1
 msgid "System requirements"
@@ -2670,9 +2665,8 @@ msgid "The Official Release of Slackware Linux is an advanced Linux operating sy
 msgstr "El lanzamiento oficial de Slackware Linux es un avanzado sistema operativo Linux, diseñado con el doble objetivo de facilitar el uso y la estabilidad de sus máximas prioridades. Incluyendo la última versión del software popular, mientras que conserva la tradición, proporcionando simplicidad y facilidad de uso junto con la flexibilidad y el poder, Slackware trae lo mejor de los mundos a la mesa."
 
 #: download/distros.php:99
-#, fuzzy
 msgid "Gentoo is a special flavor of Linux that can be automatically optimized and customized for just about any application or need. Extreme performance, configurability and a top-notch user and developer community are all hallmarks of the Gentoo experience. Gentoo ships the latest Xfce releases and allow you to integrate them in a very performant environment."
-msgstr "Gentoo es un sabor especial de Linux que puede ser optimizado y personalizado automáticamente para cualquier aplicación o necesidad. Excelente rendimiento, capacidad de configuración y un usuario de primera categoría y la comunidad de desarrolladores son característicos de la experiencia Gentoo. Gentoo barcos las últimas versiones de Xfce y le permiten su integración en un ambiente de buen calidad."
+msgstr "Gentoo es un sabor especial de Linux que puede ser optimizado y personalizado automáticamente para cualquier aplicación o necesidad. Excelente rendimiento, capacidad de configuración y una comunidad de  usuarios y desarrolladores de primera categoría son característicos de Gentoo. Gentoo incluye las últimas versiones de Xfce y le permiten su integración en un entorno con buen rendimiento."
 
 #: download/distros.php:104
 #, fuzzy
