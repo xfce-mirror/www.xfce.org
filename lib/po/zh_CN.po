@@ -564,11 +564,11 @@ msgstr "诸如功能冻结、字符串冻结、代码冻结在什么时候？"
 
 #: about/releasemodel.php:23
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr "我们要做多少个预发行，如何称呼它们？"
+msgstr "我们要做多少个预览版，如何称呼它们？"
 
 #: about/releasemodel.php:24
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "我们使用什么代替以 Git 版本命名的 SVN 修订？"
+msgstr "我们使用 Git 代替 SVN 修订版本的什么东西？"
 
 #: about/releasemodel.php:28
 msgid ""
@@ -740,7 +740,7 @@ msgstr "校正发行公告"
 
 #: about/releasemodel.php:132
 msgid "Individual Maintainers"
-msgstr "单独的维护者"
+msgstr "独立维护者"
 
 #: about/releasemodel.php:135
 msgid ""
@@ -793,8 +793,8 @@ msgid ""
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
 msgstr ""
-"结束时，会决定下一个 Xfce 核心桌面稳定版会有哪些依赖。特别是所有 Xfce 核心桌面"
-"基本依赖所需的最低版本。"
+"结束时，会决定下一个 Xfce 核心桌面稳定版会有哪些依赖。特别是所有 Xfce "
+"核心桌面基本依赖所需的最低版本。"
 
 #: about/releasemodel.php:159
 msgid ""
@@ -802,7 +802,8 @@ msgid ""
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
 msgstr ""
-"在计划阶段的最初 2 个星期内没到位的维护者有机会在之后的 2 个星期内提请依赖更改。"
+"在计划阶段的最初 2 个星期内没到位的维护者有机会在之后的 2 个星期内"
+"提请依赖更改。"
 
 #: about/releasemodel.php:163
 msgid ""
@@ -810,8 +811,8 @@ msgid ""
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
 msgstr ""
-"这 4 星期结束时，所有组件进入依赖冻结，意味着不能更改其依赖(和它们的版本)了。"
-"仍然允许添加可选依赖。"
+"这 4 个星期结束时，所有组件进入依赖冻结，意味着不能更改其依赖(和它"
+"们的版本)了。但仍然允许添加可选依赖。"
 
 #: about/releasemodel.php:166
 msgid "Informing the Community"
@@ -823,8 +824,8 @@ msgid ""
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
 msgstr ""
-"就在计划阶段结束时，带有所有计划好的 Xfce 核心桌面组件的功能和依赖的邮件"
-"会发送至 xfce4-dev@xfce.org 和 xfce@xfce.org 邮件列表。"
+"就在计划阶段结束时，带有所有计划好的 Xfce 核心桌面组件的功能和依赖的"
+"邮件会发送至 xfce4-dev@xfce.org 和 xfce@xfce.org 邮件列表。"
 
 #: about/releasemodel.php:172
 msgid "Development Phase (5 Months)"
@@ -847,6 +848,8 @@ msgid ""
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
+"开发版通常给出下一个稳定版功能的预览。它们必须依照 X.Y.Z 的版本格式，"
+"Y 是奇数(比如 xfwm4-4.7.3 或 thunar-1.3.10)。"
 
 #: about/releasemodel.php:185
 msgid ""
@@ -857,6 +860,10 @@ msgid ""
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
 msgstr ""
+"鼓励维护者发布预览新功能的开发版，他们要给其他人实现这些新功能。频繁的开发"
+"版可以取代我们过去所用的 SVN 修订版本。如果组件 A 依赖组件 B 中的一个新"
+"功能，A 只能在包含此新功能的组件 B 发布后才能发布。要做到这些，libtool "
+"必须恰当地更新每个开发版。"
 
 #: about/releasemodel.php:189
 msgid ""
@@ -867,6 +874,9 @@ msgid ""
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
 msgstr ""
+"必须注意每个组件的主分支。主分支应该总是保持在待发布状态。为了降低耽误整个 "
+"Xfce 核心桌面最终发布的风险，新功能在直到准备好(如在：即使合并入主分支后"
+"编译和组件仍能工作)时才应该在各分支中开发。"
 
 #: about/releasemodel.php:193
 msgid ""
@@ -875,40 +885,43 @@ msgid ""
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
 msgstr ""
+"应该交流破坏 API 或其它核心组件的新功能。建议维护者在包含这些功能的新开发版"
+"发布之前，在一个单独的分支中为这些功能准备其它组件。那样其它组件就可以保持其"
+"待发布状态了。"
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "这就是基本开发流程看起来的样子："
 
 #: about/releasemodel.php:202
 msgid "Development Workflow"
-msgstr ""
+msgstr "开发流程"
 
 #: about/releasemodel.php:206
 msgid "Release Phase (10+ Weeks)"
-msgstr ""
+msgstr "发行阶段(10+ 星期)"
 
 #: about/releasemodel.php:209
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
-msgstr ""
+msgstr "发行阶段中，会有三个预览版和一个最终版："
 
 #: about/releasemodel.php:213
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr ""
+msgstr "Xfce X.Ypre1(0 星期后，功能冻结)，"
 
 #: about/releasemodel.php:214
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr ""
+msgstr "Xfce X.Ypre2(4 星期后，字符串冻结)和"
 
 #: about/releasemodel.php:215
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr ""
+msgstr "Xfce X.Ypre3 (8 星期后，代码冻结)"
 
 #: about/releasemodel.php:216
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr ""
+msgstr "Xfce X.Y(10+ 星期后)"
 
 #: about/releasemodel.php:220
 msgid ""
@@ -1542,7 +1555,7 @@ msgid ""
 "available. We will try to highlight some of the new features which have been "
 "added since the last stable release."
 msgstr ""
-"期待已久的 Xfce 桌面环境 4.6.0 版终于发布了。我们将试着突出某些从上个稳定版发"
+"期盼已久的 Xfce 桌面环境 4.6.0 版终于发布了。我们将试着突出某些从上个稳定版发"
 "布以来添加的新功能。"
 
 #: about/tour46.php:9
@@ -1584,7 +1597,7 @@ msgid ""
 "particularly for multiple screen setups, but this new release also brings an "
 "improved set of panel plugins."
 msgstr ""
-"许多长期摆在那的缺陷已经在 <b>Xfce4 Panel</b> 中修复了，特别是对于多屏设置，"
+"许多长期摆在那的缺陷已经在 <b>Xfce 4 面板</b> 中修复了，特别是对于多屏设置，"
 "但此新版本也带来了一个改进了的面板插件设置。"
 
 #: about/tour46.php:32
@@ -3317,6 +3330,6 @@ msgstr ""
 #~ "SVR4 (Solaris), FreeBSD, Linux, BSD/OS, SunOS and HP-UX."
 #~ msgstr ""
 #~ "OpenBSD 项目出产一个自由的、多平台的基于 4.4 BSD 的类 UNIX 操作系统。我们"
-#~ "努力的重点是可移植性、标准化、正确性、主动式防御和预集成的加密技术。"
+#~ "努力的重点是可移植性、标准化、正确性、主动式防御和预集成的密码技术。"
 #~ "OpenBSD 支持大多数 SVR4(Solaris)、FreeBSD、Linux、BSD/OS、SunOS 和 HP-UX "
 #~ "程序的二进制模拟。"
