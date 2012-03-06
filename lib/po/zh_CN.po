@@ -776,7 +776,7 @@ msgstr "依赖冻结"
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
-msgstr "计划阶段的头 2 个星期过程中要求每个维护者"
+msgstr "计划阶段的头 2 个星期中要求每个维护者"
 
 #: about/releasemodel.php:150
 msgid "List the features he wants to implement in the release cycle"
@@ -917,7 +917,7 @@ msgstr "Xfce X.Ypre2(4 星期后，字符串冻结)和"
 
 #: about/releasemodel.php:215
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (8 星期后，代码冻结)"
+msgstr "Xfce X.Ypre3(8 星期后，代码冻结)"
 
 #: about/releasemodel.php:216
 msgid "Xfce X.Y     (after 10+ weeks)"
@@ -951,7 +951,7 @@ msgstr ""
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr "此阶段的结束标志着 Xfce 核心桌面新稳定版的发布，新发行周期的开始。"
+msgstr "此阶段的结束标志着 Xfce 核心桌面新稳定版的发布，新发行周期旋即开始。"
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
@@ -1035,11 +1035,11 @@ msgstr ""
 
 #: about/releasemodel.php:271
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "为发布作标记和分支"
 
 #: about/releasemodel.php:275
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "缺陷修复/更改"
 
 #: about/releasemodel.php:278
 msgid ""
@@ -1049,6 +1049,9 @@ msgid ""
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
 msgstr ""
+"如果一个核心组件在代码冻结过程中需要修复或更改，维护者需要创建一个新的称为 "
+"ELS(//公开征集命名//)的分支让他或她去提交修复。如果有致命缺陷更改或阻断"
+"缺陷修复，参照此节的代码冻结例外。"
 
 #: about/releasemodel.php:282
 msgid ""
@@ -1056,10 +1059,12 @@ msgid ""
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
 "after the final release. Only bugfixes are allowed in this branch."
 msgstr ""
+"ELS 分支只在短时间内存在。在最终版发布后它会合并入主分支和组件的稳定版分支"
+"(比如 xfwm4-4.8 或 thunar-1.2)。只允许缺陷修复进入此分支。"
 
 #: about/releasemodel.php:285
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "代码冻结例外"
 
 #: about/releasemodel.php:287
 msgid "Blocking Bugs"
@@ -1069,43 +1074,43 @@ msgstr "阻断缺陷"
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
-msgstr ""
+msgstr "如果被认为是阻断缺陷，那么这些特定缺陷会耽误最终发布。如下任一情况即为此情形："
 
 #: about/releasemodel.php:294
 msgid "it crashes a core application"
-msgstr ""
+msgstr "它摧毁某一核心组件"
 
 #: about/releasemodel.php:295
 msgid "it causes data loss"
-msgstr ""
+msgstr "它引起数据丢失"
 
 #: about/releasemodel.php:296
 msgid "it causes an ever-growing memory leak"
-msgstr ""
+msgstr "它引起日益增长的内存泄漏"
 
 #: about/releasemodel.php:297
 msgid "it locks the entire desktop GUI"
-msgstr ""
+msgstr "它锁住了整个桌面图形界面"
 
 #: about/releasemodel.php:301
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "如果符合以下标准则一个缺陷不应耽误发布："
 
 #: about/releasemodel.php:305
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
-msgstr ""
+msgstr "缺陷出现的硬件或架构奇异和/或开发者无法再现此缺陷"
 
 #: about/releasemodel.php:309
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
-msgstr ""
+msgstr "当且仅当在发行管理员签名后，才允许在代码冻结过程中应用这些缺陷的修复。"
 
 #: about/releasemodel.php:312
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "致命缺陷更改"
 
 #: about/releasemodel.php:315
 msgid ""
@@ -1113,10 +1118,11 @@ msgid ""
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
 msgstr ""
+"一些更改会极大地影响版本的质量。当且仅当在发行管理员签名后，才允许它们进入。"
 
 #: about/releasemodel.php:318
 msgid "Releasing"
-msgstr ""
+msgstr "发布"
 
 #: about/releasemodel.php:321
 msgid ""
@@ -2325,7 +2331,7 @@ msgid ""
 "supersedes Xfce 4.6."
 msgstr ""
 "今天，近乎两年的工作后，我们特别高兴地宣布众所期盼的、新的取代 Xfce 4.6 "
-"的、稳定版 Xfce 4.8发布了。"
+"的、稳定版 Xfce 4.8 发布了。"
 
 #: news-array.php:16
 msgid ""
