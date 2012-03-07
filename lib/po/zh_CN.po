@@ -1132,10 +1132,13 @@ msgid ""
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
 msgstr ""
+"对于最终发布(Xfce X.Y)，会标记所有所有核心组件(两次，一次以其自己的版本一次"
+"以 xfce-X.Y.0)，且会分支维护周期(比如 thunar-1.2 或 xfwm4-4.8)。其后，"
+"ELS 合并入主分支(下一个版本开发的地方)并进入 thunar-1.2 或 xfwm4-4.8。"
 
 #: about/releasemodel.php:324
 msgid "Maintenance Process"
-msgstr ""
+msgstr "维护阶段"
 
 #: about/releasemodel.php:327
 msgid ""
@@ -1144,10 +1147,12 @@ msgid ""
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
 msgstr ""
+"最终版本发布后，缺陷修复和译文更新会提交到特定组件的稳定分支中(如 thunar-1.2 "
+"和 xfwm4-4.8)。单独组件的维护版不要求同步。"
 
 #: about/releasemodel.php:330
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "维护版"
 
 #: about/releasemodel.php:333
 msgid ""
@@ -1157,6 +1162,9 @@ msgid ""
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
 msgstr ""
+"不会更改与 Xfce 核心桌面相对应的维护版 API/ABI。它们必须按照 X.Y.Z 版本格式，"
+"Y 是偶数(比如 xfwm4-4.8.4 或 thunar-1.2.4)。不会在这些版本中加入新功能或"
+"新字符串。"
 
 #: about/releasemodel.php:337
 msgid "Authors"
