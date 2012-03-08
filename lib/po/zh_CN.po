@@ -2358,10 +2358,13 @@ msgid ""
 "href=\"/community/lists\">xfce</a> mailinglist if you have questions about "
 "Xfce 4.4.0 or trouble with the installation."
 msgstr ""
+"请在我的 <a href=\"http://xfce-diary.blogspot.com/2007/01/visual-tour-of"
+"-xfce-440.html\">博客</a> 中评论此文章，在您有 Xfce 4.4.0 相关的问题或"
+"有安装方面的麻烦，请使用 <a href=\"/community/lists\">xfce</a> 邮件列表。"
 
 #: about/press.php:5
 msgid "Here you can find various reviews of the Xfce desktop environment."
-msgstr ""
+msgstr "您可以在此找到对 Xfce 桌面环境的各种评论。"
 
 #: about/press.php:12 about/press.php:42 about/press.php:72 about/press.php:92
 msgid "Date"
@@ -2393,7 +2396,7 @@ msgstr "珍品管理"
 
 #: about/credits.php:15 about/credits.php:104
 msgid "Translations supervision"
-msgstr "翻译管理"
+msgstr "译文管理"
 
 #: about/credits.php:16 about/credits.php:111
 msgid "Translators"
@@ -2413,7 +2416,7 @@ msgstr ""
 
 #: about/credits.php:58
 msgid "Thanks to all who helped making this software available!"
-msgstr "感谢所有帮助此软件发布的人们！"
+msgstr "<b>感谢所有帮助此软件发布的人们！</b>"
 
 #: feed.php:29
 msgid "Xfce News"
@@ -2610,6 +2613,10 @@ msgid ""
 "fixed that so that commands launched from the dialog always inherit the "
 "environment of the Xfce session."
 msgstr ""
+"除此之外我们更新了默认的键盘快捷键，包括监视键。现在，文件管理器进度对话框的状态"
+"图标在对话框损坏时可恰当地隐藏。现在，其壁纸插件能够处理文件名中的空格。从 Xfce "
+"运行对话框中所启动命令的环境变量没能恰当设置，我们修复了此缺陷，这样从对话框中启动"
+"的命令会一直沿用 Xfce 会话的变量。"
 
 #: news-array.php:41
 msgid ""
@@ -2619,6 +2626,9 @@ msgid ""
 "more we no longer use xrdb to update xft and cursor settings and instead, "
 "update the related XSETTINGS properties ourselves."
 msgstr ""
+"我们还使 xfce4-session-logout 的参数 --reboot 和 --halt 再次运行，"
+"而此前仅仅是注销当前用户。为了避免会话启动时的紊乱状况，为了使事情更快一点，"
+"我们不再使用 xrdb 更新 xft 和光标设置，而是更新了 XSETTINGS 相关的属性。"
 
 #: news-array.php:42
 msgid ""
@@ -2629,6 +2639,10 @@ msgid ""
 "changes in fullscreen windows like those appearing in games. Xfwm4's "
 "application switcher now only appears once in cloned mode."
 msgstr ""
+"在 Xfwm4 窗口管理器中，我们为一般应用程序安排了一段双击所需的时间段。由隐藏"
+"选项 /general/mousewheel_rollup 用户现在可以禁用由鼠标滚轮折叠窗口。窗口"
+"管理器现在还可恰当地处理全屏窗口的分辨率更改，如那些在游戏中出现。Xfwm4 的"
+"应用出现切换器仅在克隆模式中出现。"
 
 #: news-array.php:43
 msgid ""
@@ -2642,12 +2656,17 @@ msgid ""
 "monitor. Another issue that appeared recently and has now been fixed is the "
 "icon sizing in the notification area, also known as the systray."
 msgstr ""
+"这听起来好像是有一点用的修复，但与再次进入新的 Xfce 面板大量工作相比是微不足道"
+"的。修复了大约 20+ 已知缺陷和退步。此处的是完整的更改日志摘录：修复了外部插件的"
+"翻译区、插件再次用 DND 重新排序、在项目编辑器上双击项目显示其属性、拖动项目进入"
+"项目编辑器对话框将其从面板上再次移除、任务列表窗口现在可以用监视器过滤。另一个"
+"近期出现并在现在已经得到修复的问题是在通知区域中，也就是在系统托盘中的图标大小，"
 
 #: news-array.php:44
 msgid ""
 "Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
 "the complete changelog."
-msgstr ""
+msgstr "Xfce 4.8pre3 还做了大量译文更新，同样可以在完整的更新日志中看到。"
 
 #: news-array.php:45
 msgid ""
@@ -2658,6 +2677,10 @@ msgid ""
 "So we will continue fixing bugs in master branches as we did between 4.8pre2 "
 "and 4.8pre3."
 msgstr ""
+"既然对于 4.8 我们遵循 Xfce 的 <a href=\"/about/releasemodel\">发行模式</a>，"
+"我们应该在今天如期宣布代码冻结和早期生命期支持分支的创建。我们再次这样决定的原因"
+"是目前没有足够多活跃的人来照管它。所以我们会像在 4.8pre2 和 4.8pre3 中间所做"
+"的那样继续修复主分支中的缺陷。"
 
 #: news-array.php:52
 msgid ""
@@ -2677,6 +2700,8 @@ msgid ""
 "managed to close a great number of them thanks to all the persons who "
 "reported them and tested proposed fixes quickly."
 msgstr ""
+"此版本我们着重于修复所有 Xfce 组件的缺陷。我们努力关闭了极多的缺陷，感谢所有"
+"报告它们和快速测试建议修复的人们。"
 
 #: news-array.php:54
 msgid ""
@@ -2687,6 +2712,9 @@ msgid ""
 "features a lot of new and improved translations thanks to the amazing work "
 "of our translation teams."
 msgstr ""
+"尽管功能已冻结，我们还是添加了少数小的面板功能。我们还努力实现两个长时间的提请："
+"用菜单编辑器(Alacarte 是我们测试的)编辑应用程序菜单的恰当支持和集成 Compiz "
+"视口。当然，此版本还提供了大量新的和改进了的译文，感谢翻译团队令人惊异的工作。"
 
 #: news-array.php:61
 msgid ""
@@ -2695,6 +2723,8 @@ msgid ""
 "feature freeze for the final 4.8 release which is set to be pushed out to "
 "the world on January 16th, 2011."
 msgstr ""
+"Xfce 开发团队自豪地宣布 Xfce 4.8 的第一个预览版发布。与此预览版一道，Xfce "
+"项目宣布 4.8 最终版的功能冻结，它定在 2011 年 1 月 16 日推向世界。"
 
 #: news-array.php:62
 msgid ""
