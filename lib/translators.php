@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-03-04 00:21:14";
+$translators_stamp = "2012-03-11 00:21:15";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -19,6 +19,7 @@ $translators = array (
     'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Yassine Bouhadi' => 'yassine'.DOTSIGN.'skiloo'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ybanafa' => 'ybanafa'.ATSIGN.'alasersystems'.DOTSIGN.'com',
+    'yusuf' => 'ys9889'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Asturian [ast]' => array (
     'Iñigo Varela' => 'malditoastur'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -107,6 +108,8 @@ $translators = array (
   'Spanish (Castilian) [es]' => array (
     'Andres Sanchez' => 'afsanchez93'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Daniel Durante' => 'danieldurante'.ATSIGN.'ymail'.DOTSIGN.'com',
+    'Octavio Bernal Quiroz' => 'octavio'.DOTSIGN.'bernal'.DOTSIGN.'q'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Sergio García' => 'oigres200'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Spanish (Argentinian) [es_AR]' => array (
     'Diego Augusto Molina' => 'diegoaugustomolina'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -214,6 +217,9 @@ $translators = array (
     'ByungHyun Choi' => 'byunghyun'.DOTSIGN.'choi'.ATSIGN.'live'.DOTSIGN.'com',
     'Sung Jin Gang' => 'ujuc'.ATSIGN.'ujuc'.DOTSIGN.'kr',
   ),
+  'Kirgyz [ky]' => array (
+    'Chingis Jumaliev' => 'chingis091'.ATSIGN.'gmail'.DOTSIGN.'com',
+  ),
   'Lithuanian [lt]' => array (
     'Ričardas Vasiulis' => 'ricardas'.DOTSIGN.'v'.ATSIGN.'inbox'.DOTSIGN.'lt',
     'Algimantas Margevičius' => 'gymka'.ATSIGN.'mail'.DOTSIGN.'ru',
@@ -228,7 +234,7 @@ $translators = array (
   'Norwegian Bokmal [nb]' => array (
     'takoi' => 'thomas'.DOTSIGN.'amland'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Terje Uriansrud' => 'terje'.ATSIGN.'uriansrud'.DOTSIGN.'net',
-    'Kevin Brubeck Unhammer' => 'p'.DOTSIGN.'ixiemotion'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Kevin Brubeck Unhammer' => 'javkalas'.ATSIGN.'mm'.DOTSIGN.'st',
   ),
   'Dutch (Flemish) [nl]' => array (
     'Nick Schermer' => 'nick'.ATSIGN.'xfce'.DOTSIGN.'org',
@@ -240,7 +246,7 @@ $translators = array (
   ),
   'Norwegian Nynorsk [nn]' => array (
     'Eivind Ødegård' => 'gingermig'.ATSIGN.'yahoo'.DOTSIGN.'no',
-    'Kevin Brubeck Unhammer' => 'p'.DOTSIGN.'ixiemotion'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Kevin Brubeck Unhammer' => 'javkalas'.ATSIGN.'mm'.DOTSIGN.'st',
     'Eskild Hustvedt' => 'user'.ATSIGN.'zerodogg'.DOTSIGN.'org',
   ),
   'Panjabi (Punjabi) [pa]' => array (
