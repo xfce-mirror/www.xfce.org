@@ -3091,7 +3091,7 @@ msgid ""
 "example here is the French translation of xfce4-panel: <a href=\"http://git."
 "xfce.org/xfce/xfce4-panel/plain/po/fr.po\">fr.po</a>."
 msgstr ""
-"PO 文件的上面包含 &quot;Last-Translator&quot 区域；比如这儿以法语 "
+"PO 文件的上面包含 “Last-Translator” 区域；比如这儿以法语 "
 "xfce4-panel 译文为例：<a href=\"http://git.xfce.org/xfce/xfce4-panel/"
 "plain/po/fr.po\">fr.po</a>。"
 
@@ -3148,6 +3148,11 @@ msgid ""
 "important whenever the translations have to use a standard vocabulary for "
 "instance."
 msgstr ""
+"如果对提请者参与其它项目的历史所知甚少，协调员不应该接受新的翻译者。如果不确定"
+"新成员是否有深厚的翻译知识，检查此 Transifex 新帐户的邮箱并在每封邮件中开始"
+"一个简短的讨论是可能的。此时，协调员要么接受此新成员，让其可以向代码库直接提交"
+"更改；要么要求此新成员提交译文以供审阅。此过程是重要的，比如无论翻译者在何时必"
+"须使用标准词典。"
 
 #: getinvolved/translation.php:78
 msgid ""
@@ -3155,6 +3160,8 @@ msgid ""
 "new release, that consists into compiling each Xfce component with the "
 "latest translations and making sure everything is in good shape."
 msgstr ""
+"协调员的好习惯是在新版本发布之前检查译文，使包含在每一个 Xfce 组件新版本中的"
+"译文都是最新的，并确保译文处于最佳状态。"
 
 #: getinvolved/translation.php:83
 msgid "Statistics"
@@ -3175,10 +3182,19 @@ msgid ""
 "em>). The other collections, for example Applications, have usually only "
 "development components as they aren't part of any official Xfce releases."
 msgstr ""
+"Transifex 为每种语言每个项目提供状态统计。查看 <a href=\"https://translations."
+"xfce.org/projects/p/xfce/\">Xfce 程序集项目</a> 是最有趣的，它让您知道核心组件"
+"是否已经全部翻译完了。Xfce 核心主分支的语言状态概览在 <a href=\"https://"
+"translations.xfce.org/projects/p/xfce/r/master/\">这里</a>。还可能通过"
+"先进入 <a href=\"https://translations.xfce.org/languages/\">"
+"语言页面</a> 并挑选您的语言而不是程序集得到这个页面。“Xfce” 程序集有若干不同"
+"的稳定版部分(<em>xfce-4.4</em>、<em>xfce-4.6</em>等)和一个开发版分支"
+"(<em>主分支</em>)。其它程序集，例如应用程序，通常仅有开发版部分，因为它们"
+"不是任何 Xfce 官方发布的部分。"
 
 #: getinvolved/translation.php:88
 msgid "Downloading Translations"
-msgstr "下载翻译"
+msgstr "下载译文"
 
 #: getinvolved/translation.php:91
 msgid ""
@@ -3189,10 +3205,14 @@ msgid ""
 "available on each project page. Also when you are on a collection view you "
 "have at the bottom of the statistics table a download section with ZIP files."
 msgstr ""
+"您可以看见并从已有的译文中下载 PO 文件。仅需进入项目页面或从语言页面中选择一个"
+"程序集，然后点击状态统计右边的一个小按钮即可做到。如果当前还没有译文，您可以从"
+"各个项目页面中下载此源码文件(PO 模板)。在您在查看程序集时，您也可以看到在底部"
+"有一个包含状态统计 ZIP 文件的下载区。"
 
 #: getinvolved/translation.php:94
 msgid "Uploading Translations"
-msgstr "上传翻译"
+msgstr "上传译文"
 
 #: getinvolved/translation.php:97
 msgid ""
@@ -3205,6 +3225,11 @@ msgid ""
 "translation</em> button at the bottom of the page if it doesn't exist yet. "
 "Fill in the form and click the <em>Send</em> button."
 msgstr ""
+"如果您在 Transifex 上已通过鉴定，您就有上传权限，上传新译文是非常简单的。"
+"进入一个项目并选择组件的相应稳定版或开发版分支－您可以经过程序集页面找到"
+"项目－然后点击您语言右边查看/下载/锁定/编辑旁边的 <em>上传</em> 小按钮，"
+"或在其还未存在时点击页面底部的 <em>添加新译文</em> 按钮。填好表格后点击 "
+"<em>发送</em> 按钮。"
 
 #: getinvolved/translation.php:101
 msgid ""
@@ -3213,38 +3238,41 @@ msgid ""
 "Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to "
 "update the translations online."
 msgstr ""
+"如果您的当前语言中有不止一位活跃的翻译者，您在翻译时点击 <em>锁定</em> 按钮"
+"是一个好主意。除了 <em>上传</em> 形式，您可以点击 <em>编辑</em> 按钮去在线"
+"更新译文。"
 
 #: community/nav.php:7
 msgid "Forum"
-msgstr ""
+msgstr "论坛"
 
 #: community/nav.php:8
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #: community/nav.php:9
 msgid "Wiki"
-msgstr ""
+msgstr "百科"
 
 #: community/nav.php:10
 msgid "Bug tracker"
-msgstr ""
+msgstr "缺陷追踪系统"
 
 #: community/index.php:6 community/index.php:19
 msgid "Mailing lists"
-msgstr ""
+msgstr "邮件列表"
 
 #: community/index.php:7 community/index.php:29
 msgid "IRC"
-msgstr ""
+msgstr "IRC"
 
 #: community/index.php:8 community/index.php:33
 msgid "Forums"
-msgstr ""
+msgstr "论坛"
 
 #: community/index.php:9 community/index.php:39
 msgid "Social Networks"
-msgstr ""
+msgstr "社交网络"
 
 #: community/index.php:16
 msgid ""
@@ -3253,6 +3281,8 @@ msgid ""
 "also want to have a look at the communities of the different distributions "
 "which provide Xfce."
 msgstr ""
+"无论是解决问题还是以何种方式作贡献，Xfce 社区都是获取帮助或分享您的观点的"
+"好地方。您应该也想看看提供 Xfce 的不同发行版的社区。"
 
 #: community/index.php:22
 msgid ""
@@ -3261,12 +3291,15 @@ msgid ""
 "xfce.org\">mail.xfce.org</a>. There is also a user-specific list where you "
 "can ask questions and freely discuss about the desktop."
 msgstr ""
+"几乎所有的开发和合作都是在 Xfce 邮件列表上进行的。所有列表的摘要都在"
+"<a href=\"https://mail.xfce.org\">mail.xfce.org</a> 上。还有一个"
+"针对用户列表，您可以在上面询问和自由地讨论桌面相关的问题。"
 
 #: community/index.php:26
 msgid ""
 "<strong>NOTE:</strong> In order to post to these lists, you must first "
 "subscribe."
-msgstr ""
+msgstr "<strong>注意：</strong> 要在这些列表上发文，您必须先注册。"
 
 #: community/index.php:30
 msgid ""
@@ -3277,6 +3310,10 @@ msgid ""
 "\"external\">documentation</a> about your problem before asking your "
 "question."
 msgstr ""
+"如果您有不能解决的问题，您应该想去尝试在我们的 IRC 频道 <a href=\"irc://irc."
+"freenode.net/#xfce\">#irc.freenode.net 上的 xfce</a> 上问问题。"
+"此频道有若干活跃用户。推荐您在问问题之前先查阅 <a href=\"http://docs.xfce."
+"org/\" class=\"external\">文档</a>。"
 
 #: community/index.php:36
 msgid ""
@@ -3284,6 +3321,9 @@ msgid ""
 "\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
 "able to help you, but please do not use it for bug reports."
 msgstr ""
+"对于偏爱论坛的用户来说，<a href=\"http://forum.xfce.org/\" class="
+"\"external\">Xfce 论坛</a> 是个好去处。活跃的贡献者也能够帮助您，但"
+"请不要将其用作缺陷报告。"
 
 #: community/index.php:42
 msgid ""
@@ -3292,6 +3332,9 @@ msgid ""
 "announcements. It is no surprice tho that most social networks like "
 "Facebook, Twitter and Google+ have Xfce places and pages."
 msgstr ""
+"Identi.ca <a href=\"http://identi.ca/xfce\" class=\"external\">Xfce "
+"频道</a> 是我们自动发布所有发行公告的地方。大多数社交网络中有 Xfce 的位置"
+"和页面是不足为怪的，如 Facebook、Twitter 和 Google+。"
 
 #~ msgid ""
 #~ "The Fedora Xfce Spin is live cd which is also installable that showcases "
