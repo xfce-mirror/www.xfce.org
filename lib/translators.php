@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-03-11 00:21:15";
+$translators_stamp = "2012-03-18 00:21:16";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -14,7 +14,7 @@ $translators = array (
   'Arabic [ar]' => array (
     'كريم أولاد الشلحة' => 'herr'.DOTSIGN.'linux88'.ATSIGN.'gmail'.DOTSIGN.'com',
     'abdilra7eem' => 'abdilra7eem'.ATSIGN.'yahoo'.DOTSIGN.'com',
-    'Amine' => 'amine'.ATSIGN.'linuxac'.DOTSIGN.'org',
+    'Amine' => 'amine'.ATSIGN.'ardebian'.DOTSIGN.'org',
     'Hasen il Judy' => 'hasan'.DOTSIGN.'aljudy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Yassine Bouhadi' => 'yassine'.DOTSIGN.'skiloo'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -149,7 +149,7 @@ $translators = array (
     'douart patrick' => 'patrick'.DOTSIGN.'2'.ATSIGN.'laposte'.DOTSIGN.'net',
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'fr',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'silverslimer' => 'andre'.DOTSIGN.'matuch'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Rémi Corti' => 'remi'.DOTSIGN.'corti'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Galician [gl]' => array (
     'mbouzada' => 'mbouzada'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -180,6 +180,7 @@ $translators = array (
   'Indonesian [id]' => array (
     'Andhika Padmawan' => 'andhika'.DOTSIGN.'padmawan'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ardjuna' => 'asyura'.DOTSIGN.'x'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'rizaldi martaputra' => 'rizaldi'.DOTSIGN.'m'.ATSIGN.'gmail'.DOTSIGN.'com',
     'zaenal1234' => 'zaenal1234'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Icelandic [is]' => array (
@@ -274,9 +275,11 @@ $translators = array (
     'André Miranda' => 'andreldm1989'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mateus Rodrigues Costa' => 'charles'.DOTSIGN.'costar'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Frederico Schardong' => 'frede'.DOTSIGN.'sch'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Jeferson Corrêa' => 'jeferson'.DOTSIGN.'correa91'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Job Borges' => 'jobdiogenes'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jonas agx' => 'jonas'.DOTSIGN.'agx'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Joelso Andrade' => 'kosmofilo'.ATSIGN.'ymail'.DOTSIGN.'com',
+    'Lucas Campos' => 'Rmk236'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Michel Boaventura' => 'michel'.DOTSIGN.'boaventura'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Rafael Neri' => 'rafepel'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Filipe Rosset' => 'rosset'.DOTSIGN.'filipe'.ATSIGN.'gmail'.DOTSIGN.'com',
