@@ -30,7 +30,7 @@
 
   <h3><?php E_("Improved positioning and size handling") ?></h3>
 
-    <p><?php E_("The panel has much better support for positing panels on the screen. It can be dragged and snapped to screen borders; floating positions are only remembered when moving a panel and the length of the panel can be adjusted as a percentage of the monitor size.") ?></p>
+    <p><?php E_("The panel has much better support for positioning panels on the screen. It can be dragged and snapped to screen borders; floating positions are only remembered when moving a panel and the length of the panel can be adjusted as a percentage of the monitor size.") ?></p>
 
   <h3><?php E_("Transparent backgrounds") ?></h3>
 
