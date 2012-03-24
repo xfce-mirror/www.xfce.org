@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-03-18 00:21:16";
+$translators_stamp = "2012-03-25 00:21:19";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -17,6 +17,7 @@ $translators = array (
     'Amine' => 'amine'.ATSIGN.'ardebian'.DOTSIGN.'org',
     'Hasen il Judy' => 'hasan'.DOTSIGN.'aljudy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'os_' => 'syriatalks'.ATSIGN.'hotmail'.DOTSIGN.'com',
     'Yassine Bouhadi' => 'yassine'.DOTSIGN.'skiloo'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ybanafa' => 'ybanafa'.ATSIGN.'alasersystems'.DOTSIGN.'com',
     'yusuf' => 'ys9889'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -72,6 +73,7 @@ $translators = array (
     'Johannes Lips' => 'johannes'.DOTSIGN.'lips'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Harald Judt' => 'h'.DOTSIGN.'judt'.ATSIGN.'gmx'.DOTSIGN.'at',
     'Hubert Hesse' => 'hub'.ATSIGN.'hubertscorner'.DOTSIGN.'de',
+    'Raphael Groner' => 'raphgro'.ATSIGN.'web'.DOTSIGN.'de',
     'Mario Blättermann' => 'mario'.DOTSIGN.'blaettermann'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mark Trompell' => 'mark'.ATSIGN.'foresightlinux'.DOTSIGN.'org',
     'Matthias Mailänder' => 'matthias'.ATSIGN.'mailaender'.DOTSIGN.'name',
@@ -268,6 +270,7 @@ $translators = array (
     'Nuno Miguel' => 'nunomgue'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Bruno Ramos' => 'brunoramos'.DOTSIGN.'lu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Joel Patrão' => 'joel'.DOTSIGN.'patrao'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Bruno Martins' => 'bruno'.ATSIGN.'member'.DOTSIGN.'fsf'.DOTSIGN.'org',
     'Sergio Marques' => 'smarquespt'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Portuguese (Brazilian) [pt_BR]' => array (
@@ -305,7 +308,7 @@ $translators = array (
     'Alexander Yashkin' => 'alex'.DOTSIGN.'aspirine'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Artem Zolochevskiy' => 'artem'.DOTSIGN.'zolochevskiy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'brdassign' => 'dmitriy'.DOTSIGN.'borodiy'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Claque' => 'cpt-alatriste'.ATSIGN.'ya'.DOTSIGN.'ru',
+    'Sergey Shlyapugin' => 'shlyapugin'.ATSIGN.'gmail'.DOTSIGN.'com',
     'dkorzhevin' => 'dkorzhevin'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Evgeniy Kosov' => 'eugene'.ATSIGN.'kosov'.DOTSIGN.'net',
     'gnulinux' => 'nazarov-1990'.ATSIGN.'bk'.DOTSIGN.'ru',
