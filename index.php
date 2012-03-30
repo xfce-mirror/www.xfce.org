@@ -16,6 +16,14 @@ include ('lib/core.php');
 $uri_a = explode('?', $_SERVER['REQUEST_URI']);
 $uri = trim (strtolower ($uri_a[0]), '/');
 
+/* compatibility with old website */
+if (isset ($_GET['feed']) && $_GET['feed'] == 'rss2')
+{
+  header ('HTTP/1.1 301 Moved Permanently');
+  header ('Location: http://www.xfce.org/feed');
+  exit;
+}
+
 /* lookup to page from the uri */
 $content_file = lookup_page ($uri);
 
