@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-03-25 00:21:19";
+$translators_stamp = "2012-04-01 00:21:17";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -78,7 +78,6 @@ $translators = array (
     'Mark Trompell' => 'mark'.ATSIGN.'foresightlinux'.DOTSIGN.'org',
     'Matthias Mailänder' => 'matthias'.ATSIGN.'mailaender'.DOTSIGN.'name',
     'Michael Schmitt' => 'user'.DOTSIGN.'of'.DOTSIGN.'xfce'.ATSIGN.'googlemail'.DOTSIGN.'com',
-    'Thomas Schütz' => 'xfce'.ATSIGN.'thschuetz'.DOTSIGN.'de',
     'Niklas Reinmuth' => 'Niklas'.DOTSIGN.'Reinmuth'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Paul Seyfert' => 'pseyfert'.ATSIGN.'mathphys'.DOTSIGN.'fsk'.DOTSIGN.'uni-heidelberg'.DOTSIGN.'de',
     'Roland Kübert' => 'roland'.ATSIGN.'upic'.DOTSIGN.'de',
@@ -143,6 +142,7 @@ $translators = array (
     'Mario Gervais' => 'gervais'.DOTSIGN.'mario'.ATSIGN.'ymail'.DOTSIGN.'com',
     'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Jean-Philippe Fleury' => 'contact'.ATSIGN.'jpfleury'.DOTSIGN.'net',
+    'Yanice lei00' => 'cherrak'.ATSIGN.'lavabit'.DOTSIGN.'com',
     'Jourdain Cyril' => 'cyril'.DOTSIGN.'jd'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Louis M' => 'm_louis30'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
@@ -150,6 +150,7 @@ $translators = array (
     'Pardaigle' => 'worldmania'.ATSIGN.'free'.DOTSIGN.'fr',
     'douart patrick' => 'patrick'.DOTSIGN.'2'.ATSIGN.'laposte'.DOTSIGN.'net',
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'fr',
+    'Saïd Bouras' => 'said'.DOTSIGN.'bouras'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Rémi Corti' => 'remi'.DOTSIGN.'corti'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
@@ -225,7 +226,7 @@ $translators = array (
   ),
   'Lithuanian [lt]' => array (
     'Ričardas Vasiulis' => 'ricardas'.DOTSIGN.'v'.ATSIGN.'inbox'.DOTSIGN.'lt',
-    'Algimantas Margevičius' => 'gymka'.ATSIGN.'mail'.DOTSIGN.'ru',
+    'Algimantas Margevičius' => 'margevicius'.DOTSIGN.'algimantas'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Latvian [lv]' => array (
     'Rihards Prieditis' => 'rprieditis'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -293,12 +294,8 @@ $translators = array (
   ),
   'Romanian [ro]' => array (
     'Mișu Moldovan' => 'dumol'.ATSIGN.'xfce'.DOTSIGN.'org',
-    'Andrei Popescu' => 'andreimpopescu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Igor Stirbu' => 'igor'.DOTSIGN.'stirbu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ionut Ovejanu' => 'ovejanu'.ATSIGN.'yahoo'.DOTSIGN.'com',
-    'Sergiu Mihai' => 'sergiu'.DOTSIGN.'mihai'.ATSIGN.'devlibre'.DOTSIGN.'net',
-    'razvan86' => 'florinrazvan1986'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Mihai Coman' => 'mihai'.ATSIGN.'m1x'.DOTSIGN.'ro',
   ),
   'Russian [ru]' => array (
     'Dmitrij Smirnov' => 'other'.ATSIGN.'igus'.DOTSIGN.'lv',
@@ -370,7 +367,7 @@ $translators = array (
     'Daniel Nylander' => 'po'.ATSIGN.'danielnylander'.DOTSIGN.'se',
     'Alexander Nordlund' => 'deep'.DOTSIGN.'alexander'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Emil Karlsson' => 'Emil_1989'.ATSIGN.'hotmail'.DOTSIGN.'com',
-    'kim Svensson' => 'ks6g10'.ATSIGN.'soton'.DOTSIGN.'ac'.DOTSIGN.'uk',
+    'kim Svensson' => 'ks'.ATSIGN.'linux'.DOTSIGN.'com',
   ),
   'Tamil [ta]' => array (
     'megavarnan' => 'mega_rhujung'.ATSIGN.'yahoo'.DOTSIGN.'com',
