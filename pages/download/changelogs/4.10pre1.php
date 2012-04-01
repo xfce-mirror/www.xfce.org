@@ -370,8 +370,8 @@
   <li>Optimize transients for group evaluation while withdrawing windows.</li>
   <li>Increase timeout for other WM to exit with "--replace",</li>
   <li>Rework focus and fullscreen windows to make xfwm4 simpler and more predictable.</li>
-  <li>Get rid or of old GNOME 1.x protocol.</li>
-  <li>Get rif of legacy fullscreen emulation.</li>
+  <li>Get rid of old GNOME 1.x protocol.</li>
+  <li>Get rid of legacy fullscreen emulation.</li>
 </ul>
 
 <h2>Theme Engine <em>(gtk-xfce-engine)</em>:</h2>
