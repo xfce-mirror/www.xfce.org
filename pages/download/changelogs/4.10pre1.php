@@ -4,6 +4,19 @@
 
 <p>Translation updates are not shown in the lists below.</p>
 
+<h2>Dependency Changes:</h2>
+<ul>
+  <li>GTK+ dependency &gt;= 2.24 and GLib &gt;= 2.24.</li>
+  <li>Libxfce4util soname changed.</li>
+  <li>Garcon has a new libxfce4util dependency.</li>
+  <li>Exo has a new libxfce4ui dependency.</li>
+  <li>Libxfce4util only depends on glib (was gobject).</li>
+  <li>Xfce-utils is not needed anymore. Functionality has been moved in xfce4-session, libxfce4ui, xfce4-appfinder or is removed.</li>
+  <li>Xfce4-session does not (optionally) depend on xfce4-panel anymore. The plugin has been integrated with the actions xfce4-panel plugin.</li>
+  <li>Xfce4-session does not check for consolekit, hal, upower and polkit. It has soft dependencies on consolekit and upower (communication over DBus).</li>
+  <li>Xfce4-session does not optionally depend on gconf anymore.</li>
+</ul>
+
 <h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
 <ul></li>
   <li>Add support for LT_PREREQ (bug #6920).</li>
