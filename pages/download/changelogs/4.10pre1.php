@@ -6,7 +6,7 @@
 
 <h2>Dependency Changes:</h2>
 <ul>
-  <li>GTK+ dependency &gt;= 2.24 and GLib &gt;= 2.24.</li>
+  <li>GTK+ dependency &gt;= 2.20 and GLib &gt;= 2.24.</li>
   <li>Libxfce4util soname changed.</li>
   <li>Garcon has a new libxfce4util dependency.</li>
   <li>Exo has a new libxfce4ui dependency.</li>
