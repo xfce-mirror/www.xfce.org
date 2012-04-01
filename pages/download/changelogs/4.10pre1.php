@@ -14,7 +14,7 @@
   <li>Xfce-utils is not needed anymore. Functionality has been moved in xfce4-session, libxfce4ui, xfce4-appfinder or is removed.</li>
   <li>Xfce4-session does not (optionally) depend on xfce4-panel anymore. The plugin has been integrated with the actions xfce4-panel plugin.</li>
   <li>Xfce4-session does not check for consolekit, hal, upower and polkit. It has soft dependencies on consolekit and upower (communication over DBus).</li>
-  <li>Xfce4-session does not optionally depend on gconf anymore.</li>
+  <li>Xfce4-session does not (optionally) depend on gconf anymore.</li>
 </ul>
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
