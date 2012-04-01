@@ -17,8 +17,6 @@ $news = array (
 			R_('Another big change for users is the removal of user documentation of the packages and introduction of <a href="http://docs.xfce.org">docs.xfce.org</a>. The reason for this change is the limited contribution of documentation since Xfce 4.8, so we hope the wiki will attract more contributors. The help buttons in the interface still work, but you\'ll be asked to open the documentation website in your web browser.'),
 			R_('Furthermore we dropped xfce-utils. Its content has either been removed or moved to other Xfce packages. All other dependency changes are listed in the 4.10pre1 ChangeLog. The Xfce core also gained a couple of new components because we think they are critical for a minimal desktop: xfce4-power-manager (power management), tumbler (thumbnail generation for Thunar and other components), garcon (menu library, was already a dependency in 4.8), thunar-volman (volume manager for Thunar).'),
 			R_('Of course translations also improved a lot, thanks to the amazing work of our translation teams.'),
-			R_('A list of all changes is available on:'),
-			R_('  <a href="/download/changelogs/4.10pre1">http://xfce.org/download/changelogs/4.10pre1</a>'),
 			R_('We hope you will enjoy this release. Please give us feedback by sharing your thoughts, blogging, tweeting, denting or by filing bug reports. With your help, 4.10 will be the best release ever (at least until 4.12)!'),
 			R_('Kind regards and thanks to everyone who has contributed to this release,<br />The Xfce development team'))
 		),
