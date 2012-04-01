@@ -3,6 +3,7 @@
 $head['title'] = R_('Changelogs');
 
 $toc['anchors'] = array (
+        '4.10' => 'Xfce 4.10',
         '4.8' => 'Xfce 4.8',
         '4.6' => 'Xfce 4.6',
         '4.4' => 'Xfce 4.4',
