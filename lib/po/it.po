@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
-"POT-Creation-Date: 2012-02-29 16:37+0100\n"
+"POT-Creation-Date: 2012-04-01 15:35+0200\n"
 "PO-Revision-Date: 2011-04-24 19:51+0100\n"
 "Last-Translator: Cristian Marchi <cri.penta@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -448,14 +448,22 @@ msgid ""
 "<a href=\"http://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a> and <a "
 "href=\"http://www.zenwalk.org/\">Zenwalk</a>, but there is a good chance "
 "your favorite distro provides packages as well."
-msgstr "Molte distribuzioni forniscono i pacchetti di Xfce. I principali esempi di distribuzioni basate su Xfce sono <a href=\"http://www.xubuntu.org/\">Xubuntu</a>, la <a href=\"http://spins.fedoraproject.org/xfce/\">spin Xfce di Fedora</a> e <a href=\"http://www.zenwalk.org/\">Zenwalk</a>, ma è molto probabile che la propria distribuzione preferita ne fornisca i pacchetti."
+msgstr ""
+"Molte distribuzioni forniscono i pacchetti di Xfce. I principali esempi di "
+"distribuzioni basate su Xfce sono <a href=\"http://www.xubuntu.org/"
+"\">Xubuntu</a>, la <a href=\"http://spins.fedoraproject.org/xfce/\">spin "
+"Xfce di Fedora</a> e <a href=\"http://www.zenwalk.org/\">Zenwalk</a>, ma è "
+"molto probabile che la propria distribuzione preferita ne fornisca i "
+"pacchetti."
 
 #: download/index.php:61
 #, php-format
 msgid ""
 "You can fine a more complete list at <a href=\"http://distrowatch.com/search."
+"php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
+msgstr ""
+"Un elenco completo è disponibile su <a href=\"http://distrowatch.com/search."
 "php?pkg=xfdesktop&pkgver=%s\">DistroWatch.com</a>."
-msgstr "Un elenco completo è disponibile su <a href=\"http://distrowatch.com/search.php?pkg=xfdesktop&pkgver=%s\">DistroWatch.com</a>."
 
 #: download/index.php:66
 msgid ""
@@ -467,7 +475,7 @@ msgstr ""
 "downloads/xfce_artwork.tar.bz2\">qui</a>. Contiene loghi e striscioni in "
 "alta qualità."
 
-#: download/changelogs/index.php:33
+#: download/changelogs/index.php:34
 msgid ""
 "Xfce release notes are specific to each version. Select your version from "
 "the list below to see the changes in the release. "
@@ -1396,8 +1404,8 @@ msgstr "Posizionamento e gestione delle dimensioni migliorati"
 
 #: about/tour.php:33
 msgid ""
-"The panel has much better support for positing panels on the screen. It can "
-"be dragged and snapped to screen borders; floating positions are only "
+"The panel has much better support for positioning panels on the screen. It "
+"can be dragged and snapped to screen borders; floating positions are only "
 "remembered when moving a panel and the length of the panel can be adjusted "
 "as a percentage of the monitor size."
 msgstr ""
@@ -2732,10 +2740,88 @@ msgid "Xfce release announcements"
 msgstr "Annunci di rilascio di Xfce"
 
 #: news-array.php:10
+msgid "Xfce 4.10pre1 released"
+msgstr "Rilasciato Xfce 4.10pre1"
+
+#: news-array.php:15
+msgid ""
+"The Xfce development team is proud to announce the first preview release for "
+"Xfce 4.10. Together with this preview release, the Xfce project announces "
+"the feature freeze for the final 4.10 release which is set to be pushed out "
+"to the world on April 28th, 2012."
+msgstr ""
+"Il gruppo di sviluppo di Xfce è lieto di annunciare il primo rilascio di "
+"anteprima di Xfce 4.8. In concomitanza con questo rilascio, il progetto Xfce "
+"annuncia anche il congelamento delle funzionalità per il rilascio finale 4.8 "
+"che è previsto per il 16 gennaio 2011."
+
+#: news-array.php:16
+msgid ""
+"This release incorporates major changes to the core of the Xfce desktop "
+"environment and hopefully succeeds in fulfilling a number of long time "
+"requests. Among the most notable updates is the new application finder that "
+"merges the functionality of the old appfinder and xfrun4. The Panel also has "
+"a new vertical mode [aka Deskbar] for better space usage on wide-screen "
+"monitors and a new actions plugin. On the settings side the settings helper "
+"is integrated in xfsettingsd, saving 1 running process. There is also a "
+"reworked settings dialog with categories and pluggable dialogs enabled by "
+"default. Basic Synaptics and Wacom settings in the Mouse settings and a new "
+"MIME-Type editor. Thunar gained a more polished layout to reduce space usage "
+"and more responsive interaction with the thumbnail generator. Because we "
+"have not decided on how to merge the desktop functionality into Thunar yet, "
+"Xfdesktop has instead received various improvements, including single-click "
+"support, desktop icon thumbnails and better pasting of files. The Session "
+"Manager has improved power management code, tips have been removed and "
+"cleanup sessions from the interface. Last but not least, the Window Manager "
+"now has support for tiling windows and arrow key navigation in the task "
+"switcher."
+msgstr ""
+
+#: news-array.php:17
+msgid ""
+"Another big change for users is the removal of user documentation of the "
+"packages and introduction of <a href=\"http://docs.xfce.org\">docs.xfce.org</"
+"a>. The reason for this change is the limited contribution of documentation "
+"since Xfce 4.8, so we hope the wiki will attract more contributors. The help "
+"buttons in the interface still work, but you'll be asked to open the "
+"documentation website in your web browser."
+msgstr ""
+
+#: news-array.php:18
+msgid ""
+"Furthermore we dropped xfce-utils. Its content has either been removed or "
+"moved to other Xfce packages. All other dependency changes are listed in the "
+"4.10pre1 ChangeLog. The Xfce core also gained a couple of new components "
+"because we think they are critical for a minimal desktop: xfce4-power-"
+"manager (power management), tumbler (thumbnail generation for Thunar and "
+"other components), garcon (menu library, was already a dependency in 4.8), "
+"thunar-volman (volume manager for Thunar)."
+msgstr ""
+
+#: news-array.php:19
+msgid ""
+"Of course translations also improved a lot, thanks to the amazing work of "
+"our translation teams."
+msgstr "Anche le traduzioni sono sensibilmente migliorate, grazie all'incredibile lavoro svolto dai nostri gruppi di traduzione."
+
+#: news-array.php:20
+msgid ""
+"We hope you will enjoy this release. Please give us feedback by sharing your "
+"thoughts, blogging, tweeting, denting or by filing bug reports. With your "
+"help, 4.10 will be the best release ever (at least until 4.12)!"
+msgstr "Speriamo che questo rilascio sia gradito. Partecipate a questo evento lasciando un commento, bloggando, twittando o segnalando un problema. Con il vostro aiuto, la 4.10 sarà la miglior versione di sempre (fino alla 4.12!)."
+
+#: news-array.php:21
+msgid ""
+"Kind regards and thanks to everyone who has contributed to this release,<br /"
+">The Xfce development team"
+msgstr "Grazie a tutti quelli che hanno contribuito a questo rilascio,<br />Il team di sviluppo di Xfce"
+
+#: news-array.php:23
 msgid "Xfce 4.8 released"
 msgstr "Rilasciato Xfce 4.8"
 
-#: news-array.php:15
+#: news-array.php:28
 msgid ""
 "Today, after almost two years of work, we have the special pleasure of "
 "announcing the much awaited release of Xfce 4.8, the new stable version that "
@@ -2745,7 +2831,7 @@ msgstr ""
 "annunciare l'atteso rilascio di Xfce 4.8, la nuova versione stabile che "
 "sostituisce Xfce 4.6."
 
-#: news-array.php:16
+#: news-array.php:29
 msgid ""
 "We hope that everyone will enjoy this release as much as we do. Sadly, this "
 "will not be the case as the folks using any of the BSD systems will notice a "
@@ -2761,7 +2847,7 @@ msgstr ""
 "prendendo piede nell'ambiente del codice aperto, in particolar modo per "
 "quanto riguarda le utilità necessarie negli ambienti desktop."
 
-#: news-array.php:17
+#: news-array.php:30
 msgid ""
 "Xfce 4.8 is our attempt to update the Xfce code base to all the new desktop "
 "frameworks that were introduced in the past few years. We hope that our "
@@ -2774,7 +2860,7 @@ msgstr ""
 "con GIO, udev, ConsoleKit e PolicyKit contribuiscano alla diffusione di Xfce "
 "nelle distribuzioni moderne."
 
-#: news-array.php:18
+#: news-array.php:31
 msgid ""
 "With Xfce 4.8 our users will be able to browse remote shares using a variety "
 "of protocols (SFTP, SMB, FTP and many more). The window clutter has been "
@@ -2785,7 +2871,7 @@ msgstr ""
 "Le moltitudine di finestre è stata ridotta unendo tutti le finestre di "
 "avanzamento delle operazioni sui file in una singola."
 
-#: news-array.php:19
+#: news-array.php:32
 msgid ""
 "Our panel application has been rewritten, thereby improving positioning, "
 "transparency, item and launcher management. It also introduces a new menu "
@@ -2798,7 +2884,7 @@ msgstr ""
 "cartelle. L'infrastruttura dei plugin rimane compatibile con i plugin della "
 "versione 4.6."
 
-#: news-array.php:20
+#: news-array.php:33
 msgid ""
 "We also improved our settings dialogs. The display configuration dialog now "
 "supports RandR 1.2, detects screens automatically and allows our users to "
@@ -2816,7 +2902,7 @@ msgstr ""
 "tastiera è più semplice e intuitiva. Infine, l'editor delle impostazioni "
 "manuale è stato aggiornato per essere più funzionale."
 
-#: news-array.php:21
+#: news-array.php:34
 msgid ""
 "Aside from the features implemented in Xfce, the 4.8 development cycle "
 "brought us a bunch of other goodies. For the first time we had a serious "
@@ -2839,7 +2925,7 @@ msgstr ""
 "della nostra infrastruttura di server e di mirroring in modo da non restare "
 "bloccati subito dopo l'annuncio del rilascio."
 
-#: news-array.php:22
+#: news-array.php:35
 msgid ""
 "There is a lot more to discover and we hope a lot of you will give Xfce 4.8 "
 "a try! There is a brief tour online on"
@@ -2847,7 +2933,7 @@ msgstr ""
 "C'è molto altro da scoprire e speriamo che molti di voi provino Xfce 4.8. È "
 "disponibile un breve tour online su"
 
-#: news-array.php:23
+#: news-array.php:36
 msgid ""
 "<a href=\"http://xfce.org/\">http://xfce.org/</a> and <a href=\"http://xfce."
 "org/about/tour\">http://xfce.org/about/tour</a>"
@@ -2855,7 +2941,7 @@ msgstr ""
 "<a href=\"http://xfce.org/\">http://xfce.org/</a> e <a href=\"http://xfce."
 "org/about/tour\">http://xfce.org/about/tour</a>"
 
-#: news-array.php:24
+#: news-array.php:37
 msgid ""
 "A summary of the changes since the 4.8pre3 preview release is available on "
 "the following URL (it also includes links to the changes introduced in all "
@@ -2865,7 +2951,7 @@ msgstr ""
 "disponibile al seguente indirizzo (comprende anche i cambiamenti introdotti "
 "in tutti i rilasci precedenti):"
 
-#: news-array.php:25
+#: news-array.php:38
 msgid ""
 "<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
 "download/changelogs/4.8.0</a>"
@@ -2873,7 +2959,7 @@ msgstr ""
 "<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
 "download/changelogs/4.8.0</a>"
 
-#: news-array.php:26
+#: news-array.php:39
 msgid ""
 "The release can be downloaded either as individual releases or as a fat "
 "tarball including all these individual versions:"
@@ -2881,7 +2967,7 @@ msgstr ""
 "Il rilascio può essere scaricato sia come rilasci individuali o come "
 "un'unica tarball che contiene le seguenti versioni individuali:"
 
-#: news-array.php:27
+#: news-array.php:40
 msgid ""
 "<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
 "xfce/4.8/</a>"
@@ -2889,7 +2975,7 @@ msgstr ""
 "<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
 "xfce/4.8/</a>"
 
-#: news-array.php:28
+#: news-array.php:41
 msgid ""
 "2011 has just begun and we are already planning for the future. The 4.10 "
 "schedule will be worked on soon and hopefully, we will be able to turn Xfce "
@@ -2899,7 +2985,7 @@ msgstr ""
 "la 4.10 verrà steso molto presto e probabilmente saremo in grado di "
 "trasformare Xfce in una organizzazione non-profit al FOSDEM di quest'anno!"
 
-#: news-array.php:29
+#: news-array.php:42
 msgid ""
 "But until then we hope you will enjoy today's release and join us in "
 "celebrating. Thanks go out to all our contributors, bug reporters as well as "
@@ -2909,11 +2995,11 @@ msgstr ""
 "rilascio e che vi uniate a noi nei festeggiamenti. Grazie a tutti coloro che "
 "hanno contribuito, segnalando bug, traducendo o pacchettizzando."
 
-#: news-array.php:30
+#: news-array.php:43
 msgid "Best regards,<br />The Xfce development team"
 msgstr "I migliori saluti, <br />Il gruppo di sviluppo di Xfce"
 
-#: news-array.php:38
+#: news-array.php:50
 msgid ""
 "Today we are pleased to announce the third and hopefully final preview "
 "release of Xfce 4.8 which is set to be pushed out to the public on January "
@@ -2926,7 +3012,7 @@ msgstr ""
 "rilascio porta con sè principalmente degli aggiornamenti alle traduzioni e "
 "delle correzioni di bug."
 
-#: news-array.php:39
+#: news-array.php:51
 msgid ""
 "With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no "
 "surprise that for most components only a few issues were tackled."
@@ -2935,7 +3021,7 @@ msgstr ""
 "stupire il fatto che per la maggior parte dei componenti sono stati corretti "
 "solo piccoli problemi."
 
-#: news-array.php:40
+#: news-array.php:52
 msgid ""
 "Among other things we updated the default keyboard shortcuts to include "
 "monitor keys. The status icon of the file manager's progress dialog is now "
@@ -2955,7 +3041,7 @@ msgstr ""
 "comandi avviati da questa finestra ereditino sempre l'ambiente della "
 "sessione di Xfce."
 
-#: news-array.php:41
+#: news-array.php:53
 msgid ""
 "We also made the --reboot and --halt parameters of xfce4-session-logout work "
 "again which previously simply logged out the active user. In order to avoid "
@@ -2969,7 +3055,7 @@ msgstr ""
 "e le impostazioni del cursore; le proprietà relative a XSETTINGS vengono "
 "invece aggiornate da sole."
 
-#: news-array.php:42
+#: news-array.php:54
 msgid ""
 "In the window manager xfwm4, we aligned the time period required for a "
 "double click with that of normal applications. Via the hidden option /"
@@ -2987,7 +3073,7 @@ msgstr ""
 "selettore di applicazioni di xfwm4 appare ore solamente nella modalità di "
 "clonazione."
 
-#: news-array.php:43
+#: news-array.php:55
 msgid ""
 "This may sound like a few useful fixes but it's nothing compared to the "
 "amount of work that went into the new Xfce panel once again. Around 20+ "
@@ -3011,7 +3097,7 @@ msgstr ""
 "recentemente ma che è stato ora corretto riguarda il dimensionamento delle "
 "icone nell'area di notifica o vassoio di sistema."
 
-#: news-array.php:44
+#: news-array.php:56
 msgid ""
 "Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
 "the complete changelog."
@@ -3019,7 +3105,7 @@ msgstr ""
 "Xfce 4.8pre3 porta con sè molti aggiornamenti delle traduzioni, come è "
 "possibile vedere nell'elenco delle modifiche."
 
-#: news-array.php:45
+#: news-array.php:57
 msgid ""
 "Since we're following the Xfce <a href=\"/about/releasemodel\">release "
 "model</a> for 4.8, we'd normally announce code freeze and the creation of "
@@ -3036,7 +3122,7 @@ msgstr ""
 "quindi a correggere bug nei rami \"master\" come abbiamo fatto per 4.8pre2 e "
 "4.8pre3."
 
-#: news-array.php:52
+#: news-array.php:64
 msgid ""
 "We are pleased to announce the second preview release of Xfce 4.8. This "
 "release marks the beginning of the string freeze. From today on until the "
@@ -3052,7 +3138,7 @@ msgstr ""
 "preparare le loro traduzioni in tempo per il rilascio finale fissato per il "
 "16 gennaio 2011."
 
-#: news-array.php:53
+#: news-array.php:65
 msgid ""
 "For this release we focused on fixing bugs in all Xfce components. We "
 "managed to close a great number of them thanks to all the persons who "
@@ -3063,7 +3149,7 @@ msgstr ""
 "anche alle persone che li hanno segnalati e hanno provato le correzioni in "
 "tempi brevi."
 
-#: news-array.php:54
+#: news-array.php:66
 msgid ""
 "A few minor panel features were added despite feature freeze. We also "
 "managed to work on two long time requests: proper support for editing the "
@@ -3080,7 +3166,7 @@ msgstr ""
 "con sè anche una serie di nuove traduzioni e di miglioramenti a quelle "
 "esistenyi, grazie allo splendido lavoro dei gruppi di traduzioni."
 
-#: news-array.php:61
+#: news-array.php:73
 msgid ""
 "The Xfce development team is proud to announce the first preview release for "
 "Xfce 4.8. Together with this preview release, the Xfce project announces the "
@@ -3092,7 +3178,7 @@ msgstr ""
 "annuncia anche il congelamento delle funzionalità per il rilascio finale 4.8 "
 "che è previsto per il 16 gennaio 2011."
 
-#: news-array.php:62
+#: news-array.php:74
 msgid ""
 "This release incorporates major changes to the core of the Xfce desktop "
 "environment and hopefully succeeds in fulfilling a number of long time "
@@ -3121,7 +3207,7 @@ msgstr ""
 "uno predefinito).  Le librerie principali sono stati rifinite: ad esempio è "
 "stata introdotta la libreria libxfce4ui che sostituirà libxfcegui4."
 
-#: news-array.php:63
+#: news-array.php:75
 msgid ""
 "Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
 "that, despite suffering from the small size of the development team from "
@@ -3138,7 +3224,7 @@ msgstr ""
 "ripulito come è anche accaduto a HAL e ThunarVFS (che è ancora presente per "
 "motivi di compatibilità)"
 
-#: news-array.php:64
+#: news-array.php:76
 msgid ""
 "Thanks to the awesome Transifex translation platform, our language teams "
 "have been able to update their translations at an incredible pace. Please "
@@ -3148,11 +3234,11 @@ msgstr ""
 "di traduzione sono stati in grado di aggiornare le traduzioni con un ritmo "
 "notevole. Anche loro si meritno i ringraziamenti."
 
-#: news-array.php:71
+#: news-array.php:83
 msgid "The second bugfix-release of xfce 4.6 has been released."
 msgstr "È stato rilasciato il secondo aggiornamento di xfce 4.6."
 
-#: news-array.php:72
+#: news-array.php:84
 msgid ""
 "This release features a lot of updated translations and fixes some bugs or "
 "regressions with new GTK+ versions."
@@ -3160,11 +3246,11 @@ msgstr ""
 "Questo rilascio comprende molti aggiornamenti alle traduzioni e corregge "
 "alcuni bug o regressioni con le nuove versioni di GTK+."
 
-#: news-array.php:79
+#: news-array.php:91
 msgid "The first bugfix-release of xfce 4.6 has been released."
 msgstr "È stato rilasciato il primo aggiornamento di xfce 4.6."
 
-#: news-array.php:80
+#: news-array.php:92
 msgid ""
 "Thanks to all the people who have been using xfce 4.6 and took the time and "
 "effort to submit bugreports for stuff that wasn't quite working the way it "
@@ -3175,7 +3261,7 @@ msgstr ""
 "impegnati a segnalare i bug. Siamo stati in grado di correggere diversi "
 "problemi nelle ultime settimane."
 
-#: news-array.php:81
+#: news-array.php:93
 msgid ""
 "thanks to all the translators, several translations have been improved and "
 "completed since the release of 4.6.0."
@@ -3183,12 +3269,12 @@ msgstr ""
 "grazie ai traduttori, diverse traduzioni sono state migliorate e completate "
 "dal rilascio 4.6.0."
 
-#: news-array.php:88
+#: news-array.php:100
 msgid ""
 "After more than two years of development, Xfce 4.6.0 has just been released."
 msgstr "Dopo più di due anni di sviluppo, Xfce 4.6.0 è stata rilasciata"
 
-#: news-array.php:89
+#: news-array.php:101
 msgid ""
 "Xfce 4.6 features a new configuration backend, a new settings manager, a "
 "brand new sound mixer, and several huge improvements to the session manager "
@@ -3201,7 +3287,7 @@ msgstr ""
 "elenco dei cambiamenti dall'ultima release candidate è raggiungibile a "
 "questa pagina"
 
-#: news-array.php:90
+#: news-array.php:102
 msgid ""
 "A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</"
 "a>."
@@ -3709,11 +3795,11 @@ msgstr "Liste di discussione"
 msgid "IRC"
 msgstr "IRC"
 
-#: community/index.php:8 community/index.php:33
+#: community/index.php:8 community/index.php:34
 msgid "Forums"
 msgstr "Forum"
 
-#: community/index.php:9 community/index.php:39
+#: community/index.php:9 community/index.php:40
 msgid "Social Networks"
 msgstr "Social Network"
 
@@ -3735,7 +3821,12 @@ msgid ""
 "mailing lists. A summary of all lists is available at <a href=\"https://mail."
 "xfce.org\">mail.xfce.org</a>. There is also a user-specific list where you "
 "can ask questions and freely discuss about the desktop."
-msgstr "La maggior parte del lavoro di sviluppo e di coordinamento avviene sulle liste di discussione di Xfce. Un elenco di tutte le liste è disponibile su <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. È anche disponibile una lista dedicata agli utenti dove è possibile fare domande e discutere liberamente sull'ambiente grafico."
+msgstr ""
+"La maggior parte del lavoro di sviluppo e di coordinamento avviene sulle "
+"liste di discussione di Xfce. Un elenco di tutte le liste è disponibile su "
+"<a href=\"https://mail.xfce.org\">mail.xfce.org</a>. È anche disponibile una "
+"lista dedicata agli utenti dove è possibile fare domande e discutere "
+"liberamente sull'ambiente grafico."
 
 #: community/index.php:26
 msgid ""
@@ -3745,7 +3836,7 @@ msgstr ""
 "<strong>NOTA:</strong> Per poetr partecipare a queste liste di discussione, "
 "occorre prima iscriversi."
 
-#: community/index.php:30
+#: community/index.php:31
 msgid ""
 "If you have a problem that you cannot resolve, you might want to try asking "
 "a question in our IRC channel <a href=\"irc://irc.freenode.net/#xfce\">#xfce "
@@ -3760,7 +3851,7 @@ msgstr ""
 "Comunque, prima di fare domande, è sempre bene consultare la <a href="
 "\"http://docs.xfce.org/\" class=\"external\">documentazione</a>."
 
-#: community/index.php:36
+#: community/index.php:37
 msgid ""
 "For users who prefer forums, the <a href=\"http://forum.xfce.org/\" class="
 "\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
@@ -3771,13 +3862,17 @@ msgstr ""
 "attivi saranno in grado di rispondervi. Si richiede solamente di non "
 "utilizzare il forum per segnalare i bug."
 
-#: community/index.php:42
+#: community/index.php:43
 msgid ""
 "The Identi.ca <a href=\"http://identi.ca/xfce\" class=\"external\">Xfce "
 "channel</a> is a place where we automatically post all release "
 "announcements. It is no surprice tho that most social networks like "
 "Facebook, Twitter and Google+ have Xfce places and pages."
-msgstr "Sul <a href=\"http://identi.ca/xfce\" class=\"external\">canale Xfce</a> di Identi.ca vengono automaticamente pubblicati gli annunci dei nuovi rilasci. Naturalemnte Xfce non manca sui principali Social Networks come facebook, twitter e Google+"
+msgstr ""
+"Sul <a href=\"http://identi.ca/xfce\" class=\"external\">canale Xfce</a> di "
+"Identi.ca vengono automaticamente pubblicati gli annunci dei nuovi rilasci. "
+"Naturalemnte Xfce non manca sui principali Social Networks come facebook, "
+"twitter e Google+"
 
 #~ msgid "What is Exo?"
 #~ msgstr "Cos'è Exo?"
