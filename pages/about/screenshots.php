@@ -6,7 +6,7 @@ function print_shots ($group, $count, $format = 'png')
   for ($i = 1; $i <= $count; $i++)
   {
     echo "<a href=\"http://cdn.xfce.org/about/screenshots/$group-$i.$format\">".
-           "<img src=\"/images/about/screenshots/$group-$i-small.$format\" alt=\"\" width=\"200\" ".
+           "<img src=\"/images/about/screenshots/$group-$i-small.jpg\" alt=\"$group-$i\" width=\"200\" ".
            "height=\"150\" hspace=\"2\" vspace=\"2\" border=\"0\" />".
          "</a>";
   }
