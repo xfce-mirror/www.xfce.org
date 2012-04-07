@@ -6,7 +6,8 @@ $languages = array (
 	'es' => 'Spanish (Castilian)',
 	'it' => 'Italian',
 	'ja' => 'Japanese',
-	'sk' => 'Slovak');
+	'sk' => 'Slovak',
+	'zh_CN' => 'Chinese (China)');
 
 /* used in header and language detection functions */
 $language_codes = array_keys ($languages);
