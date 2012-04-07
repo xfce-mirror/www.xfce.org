@@ -18,14 +18,14 @@ var slideshow=new TINY.fader.fade('slideshow',
 });
 
 /* slide click events */
-var content1 = '<img src="/images/frontpage/intro-1.png" width="900" height="600" alt="" />';
+var content1 = '<img src="http://cdn.xfce.org/frontpage/intro-1.png" width="900" height="600" alt="" />';
 T$('intro1').onclick = function(){TINY.box.show(content1,0,900,600,0)}
 
-var content2 = '<img src="/images/frontpage/intro-2.png" width="900" height="600" alt="" />';
+var content2 = '<img src="http://cdn.xfce.org/frontpage/intro-2.png" width="900" height="600" alt="" />';
 T$('intro2').onclick = function(){TINY.box.show(content2,0,900,600,0)}
 
-var content3 = '<img src="/images/frontpage/intro-3.png" width="900" height="600" alt="" />';
+var content3 = '<img src="http://cdn.xfce.org/frontpage/intro-3.png" width="900" height="600" alt="" />';
 T$('intro3').onclick = function(){TINY.box.show(content3,0,900,600,0)}
 
-var content4 = '<img src="/images/frontpage/intro-4.png" width="900" height="600" alt="" />';
+var content4 = '<img src="http://cdn.xfce.org/frontpage/intro-4.png" width="900" height="600" alt="" />';
 T$('intro4').onclick = function(){TINY.box.show(content4,0,900,600,0)}
