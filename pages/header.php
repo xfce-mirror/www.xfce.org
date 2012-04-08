@@ -47,7 +47,7 @@ else
 	<div  id="xfce-header-clear"></div>
 </div>
 
-<div id="page-wrap">
+<div class="page-wrap">
 	<div id="menu-main">
 		<div>
 			<h5 class="hidden"><?php E_('Categories') ?></h5>
@@ -60,9 +60,6 @@ else
 				<li><a href="/projects"><?php E_('Projects') ?></a></li>
 			</ul>
 		</div>
-<?php
-	if (count ($languages) > 1) {
-?>
 		<form id="languageform" action="" method="get">
 			<select name="lang" onchange="document.getElementById('languageform').submit(); return true;" title="<?php E_('Change language') ?>">
 <?php
@@ -80,7 +77,6 @@ else
 			</select>
 			<button type="submit" class="hidden"><?php E_('Change language') ?></button>
 		</form>
-<?php } ?>
 		<div class="clearboth"></div>
 	</div>
 
@@ -123,5 +119,11 @@ else
 
 		echo '</div>';
 	}
+	
+	if (!isset ($head['pagediv']) || $head['pagediv'] == true)
+	{
 ?>
-	<div id="page-contents" class="page_contents file_<?php echo $page_class ?>">
+	<div class="page_contents file_<?php echo $page_class ?>">
+<?php
+	}
+?>
