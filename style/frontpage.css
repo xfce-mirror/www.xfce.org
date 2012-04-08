@@ -10,10 +10,9 @@
 	padding: 0;
 }
 #slide {
-	float: inline-block; 
 	position: relative;
-	overflow: hidden; 
-	width: 800px; 
+	overflow: hidden;
+	width: 800px;
 	height: 400px;
 	background: #000;
 	cursor: default;
@@ -22,16 +21,16 @@
 	border: 12px #bcbcbc solid;
 }
 #slide ul {
-	position: absolute; 
-	list-style: none; 
-	top: 0; 
+	position: absolute;
+	list-style: none;
+	top: 0;
 	left: 0;
 	margin: 0;
 	padding: 0;
 }
 #slide li {
-	float: left; 
-	width: 800px; 
+	float: left;
+	width: 800px;
 	height: 400px;
 }
 #slide li p {
@@ -44,7 +43,10 @@
 	background:#333;
 	color:#fff;
 	border: 0;
+
 	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
 }
 #slide li p {
 	background:rgba(0, 0, 0, 0.8)
@@ -53,20 +55,23 @@
 	background: #fff;
 }
 #slidenav {
-	list-style:none; 
+	list-style:none;
 	margin:0;
 	padding:0;
 	line-height: 0;
 }
 #slidenav li {
 	border: 1px solid #bcbcbc;
-	border-radius: 50%;
 	width: 12px;
 	height: 12px;
 	display: inline-block;
-	cursor:pointer; 
+	cursor:pointer;
 	margin: 12px 6px;
 	background: #dcdcdc;
+
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 
 	transition: background 0.2s linear;
 	-moz-transition: background 0.2s linear;
