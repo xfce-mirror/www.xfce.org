@@ -11,5 +11,5 @@
   /* latest development version */
   $preview_version = '4.10pre1';
   $preview_date = '2012-04-01';
-  $preview_visible = faqlse /* set to true if preview is *newer* then stable */
+  $preview_visible = false /* set to true if preview is *newer* then stable */
 ?>
