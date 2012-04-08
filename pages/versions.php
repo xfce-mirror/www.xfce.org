@@ -5,11 +5,11 @@
    **/
 
   /* latest stable release version */
-  $stable_version = '4.8';
-  $stable_date = '2011-01-16';
+  $stable_version = '4.10';
+  $stable_date = '2012-04-28';
 
   /* latest development version */
   $preview_version = '4.10pre1';
   $preview_date = '2012-04-01';
-  $preview_visible = true /* set to true if preview is *newer* then stable */
+  $preview_visible = faqlse /* set to true if preview is *newer* then stable */
 ?>

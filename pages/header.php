@@ -14,20 +14,14 @@ else
 	<link rel="shortcut icon" href="/style/favicon.png" type="image/png" />
 	<link rel="stylesheet" media="screen" href="/style/bundle.php" type="text/css" />
 <?php
-        /*
-        add filename to the array in bundle.php instead
-        if (isset ($head['stylesheet']) && is_array ($head['stylesheet']))
-                foreach ($head['stylesheet'] as $sheet)
-                        echo "\t<link rel=\"stylesheet\" media=\"screen\" href=\"$sheet\" type=\"text/css\" />\n";
-        */
         if (isset ($head['description']))
                 echo "\t<meta name=\"description\" content=\"".$head['description']."\" />\n";
-
         if (isset ($head['keywords']))
                 echo "\t<meta name=\"keywords\" content=\"".$head['keywords']."\" />\n";
-
         if (isset ($head['feed']))
                 echo "\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"".$head['feed']."\" />\n";
+        if (isset ($head['javascript']))
+                echo "\t<script type=\"text/javascript\" src=\"".$head['javascript']."\"></script>\n";
 ?>
 </head>
 
