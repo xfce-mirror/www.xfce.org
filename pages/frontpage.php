@@ -7,10 +7,11 @@ $head['description'] = 'Xfce Desktop Environment';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 $head['javascript'] = '/style/tinyslider.js';
+$head['pagediv'] = false;
 ?>
 
-<div id="slides">
-  <div id="slider">
+<div id="slidewrap" class="page_contents">
+  <div id="slide">
     <ul>
       <li>
         <img src="/images/frontpage/slider-desktop.jpg" width="800" height="400" alt="Xfce Desktop" />
@@ -38,29 +39,32 @@ $head['javascript'] = '/style/tinyslider.js';
       </li>
     </ul>
   </div>
-  <ul id="pagination">
-    <li onclick="slideshow.pos(0)"></li>
-    <li onclick="slideshow.pos(1)"></li>
-    <li onclick="slideshow.pos(2)"></li>
-    <li onclick="slideshow.pos(3)"></li>
-    <li onclick="slideshow.pos(4)"></li>
-    <li onclick="slideshow.pos(5)"></li>
-  </ul>
-  <div class="clearboth"></div>
+  <div id="slidenavwrap">
+    <ul id="slidenav">
+      <li onclick="slideshow.pos(0)"></li>
+      <li onclick="slideshow.pos(1)"></li>
+      <li onclick="slideshow.pos(2)"></li>
+      <li onclick="slideshow.pos(3)"></li>
+      <li onclick="slideshow.pos(4)"></li>
+      <li onclick="slideshow.pos(5)"></li>
+    </ul>
+  </div>
 </div>
 
 <script type="text/javascript">
 var slideshow=new TINY.slider.slide('slideshow',{
-  id:'slider',
+  id:'slide',
   auto:10,
   vertical:false,
-  navid:'pagination',
+  navid:'slidenav',
   activeclass:'current',
   position:0,
   rewind:false,
   elastic:false
 });
 </script>
+
+<div class="page_contents file_frontpage">
 
 <h2><?php E_('Latest News') ?></h2>
 <?php
