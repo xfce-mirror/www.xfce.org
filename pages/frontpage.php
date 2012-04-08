@@ -5,54 +5,64 @@ include ('pages/versions.php');
 
 $head['description'] = 'Xfce Desktop Environment';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
-$head['stylesheet'] = array ('/style/home.css');
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
+$head['javascript'] = '/style/tinyslider.js';
 ?>
 
-<div id="intro">
-
-<div id="intro-wrap">
-<div id="intro-logo"><h1 class="hidden">Xfce Desktop Environment 4.8</h1></div>
-
-<p>
-  <?php E_('Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.') ?>
-</p>
-
-<ul>
-  <li><a href="/download"><?php printf (R_('Download the latest %s release'), $stable_version) ?></a></li>
-  <li><a href="/download/changelogs/4.8.0"><?php printf (R_('Release notes for %s'), $stable_version) ?></a></li>
-  <li><a href="/about/tour"><?php E_('Visual tour of Xfce 4.8') ?></a></li>
-  <li><a href="/about/screenshots"><?php E_('Screenshots') ?></a></li>
-</ul>
-
-</div>
-<div id="slideshow">
-  <ul id="no-show-slides">
-    <li><img src="http://cdn.xfce.org/frontpage/intro-1-small.jpg" id="intro1" alt="" width="450" height="300" /></li>
-    <li><img src="http://cdn.xfce.org/frontpage/intro-2-small.jpg" id="intro2" alt="" width="450" height="300" /></li>
-    <li><img src="http://cdn.xfce.org/frontpage/intro-3-small.jpg" id="intro3" alt="" width="450" height="300" /></li>
-    <li><img src="http://cdn.xfce.org/frontpage/intro-4-small.jpg" id="intro4" alt="" width="450" height="300" /></li>
-  </ul>
-
-  <script type="text/javascript">
-    // <![CDATA[
-      document.getElementById('no-show-slides').id = 'slides';
-    // ]]>
-  </script>
-
-  <noscript>
-    <ul id="slides">
-      <?php  $i = rand(1,4) ?>
-      <li><img src=<?php echo("\"images/frontpage/intro-" . $i . "-small.jpg\" id=\"intro" . $i . "-noscript\" alt=\"\"") ?> /></li>
+<div id="slides">
+  <div id="slider">
+    <ul>
+      <li>
+        <img src="/images/frontpage/slider-desktop.jpg" width="800" height="400" alt="Xfce Desktop" />
+        <p><?php E_('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue.') ?></p>
+      </li>
+      <li>
+        <img src="/images/frontpage/slider-thunar.jpg" width="800" height="400" alt="File Manager" />
+        <p><?php E_('Thunar is the file manager for the Xfce Desktop Environment. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?></p>
+      </li>
+      <li>
+        <img src="/images/frontpage/slider-settings.jpg" width="800" height="400" alt="Settings" />
+        <p><?php E_('The Xfce Desktop Environement provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?></p>
+      </li>
+      <li>
+        <img src="/images/frontpage/slider-xfwm4.jpg" width="800" height="400" alt="Window Manager" />
+        <p><?php E_('The Xfce Window Manager is the core of the desktop. It can be adjusted in a lot of ways to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?></p>
+      </li>
+      <li>
+        <img src="/images/frontpage/slider-panel.jpg" width="800" height="400" alt="Panel" />
+        <p><?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need it. It has three different display modes, transparency and a dozen different plugins.') ?></p>
+      </li>
+      <li>
+        <img src="/images/frontpage/slider-apps.jpg" width="800" height="400" alt="Applications" />
+        <p><?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?></p>
+      </li>
     </ul>
-  </noscript>
-</div>
-<div class="clearboth"></div>
+  </div>
+  <ul id="pagination">
+    <li onclick="slideshow.pos(0)"></li>
+    <li onclick="slideshow.pos(1)"></li>
+    <li onclick="slideshow.pos(2)"></li>
+    <li onclick="slideshow.pos(3)"></li>
+    <li onclick="slideshow.pos(4)"></li>
+    <li onclick="slideshow.pos(5)"></li>
+  </ul>
+  <div class="clearboth"></div>
 </div>
 
-<script type="text/javascript" src="/style/tiny.packed.js"></script>
+<script type="text/javascript">
+var slideshow=new TINY.slider.slide('slideshow',{
+  id:'slider',
+  auto:10,
+  vertical:false,
+  navid:'pagination',
+  activeclass:'current',
+  position:0,
+  rewind:false,
+  elastic:false
+});
+</script>
 
-<h2>Latest News</h2>
+<h2><?php E_('Latest News') ?></h2>
 <?php
   $count = 3;
   foreach ($news as $item)

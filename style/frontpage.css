@@ -1,0 +1,70 @@
+.file_frontpage {
+	margin-right: 0;
+}
+
+#slides {
+	width: 800px;
+	margin: auto;
+	height: 400px;
+	position: relative;
+	
+	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+#slider {
+	float: left; 
+	position: relative; 
+	overflow: auto; 
+	width: 800px; 
+	height: 400px;
+	background: #000;
+	cursor: default;
+	overflow: hidden;
+}
+#slider ul {
+	position: absolute; 
+	list-style: none; 
+	top: 0; 
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+#slider li {
+	float: left; 
+	width: 800px; 
+	height: 400px;
+}
+#slider li p {
+	padding:6px;
+	margin:6px;
+	position:absolute;
+	bottom:0;
+	width:450px;
+	background:#333;
+	color:#fff;
+	border: 0;
+	border-radius: 6px;
+}
+#slider li p {
+	background:rgba(0, 0, 0, 0.8)
+}
+#pagination {
+	position:absolute;
+	top:8px;
+	right:0;
+	list-style:none; 
+	margin:0;
+	padding:0;
+}
+#pagination li {
+	float:left; 
+	cursor:pointer; 
+	height:8px; 
+	width:8px; 
+	margin:0 8px 0 0; 
+	border:2px solid #fff;
+}
+#pagination li:hover, #pagination li.current  {
+	background:#fff;
+}

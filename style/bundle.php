@@ -39,7 +39,7 @@ $buf = '';
 $mtime = 0;
 
 /* load contents */
-$files = array ('header.css', 'base.css', 'home.css', 'news.css', 'projects.css');
+$files = array ('header.css', 'base.css', 'frontpage.css', 'news.css', 'projects.css');
 foreach ($files as $file)
   {
     $buf .= file_get_contents ($file);
