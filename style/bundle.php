@@ -21,10 +21,10 @@ function write_header ($mtime)
 $have_apc = false;
 if (function_exists ('apc_fetch'))
   {
-    $buf = @apc_fetch ('wxo_css');
+    $buf = @apc_fetch ('wxo410_css');
     if ($buf != false)
       {
-        $mtime = @apc_fetch ('wxo_css_mtime');
+        $mtime = @apc_fetch ('wxo410_css_mtime');
         write_header ($mtime);
         echo $buf;
 
@@ -63,8 +63,8 @@ if ($have_apc)
   {
     $ttl = 3600; /* 1 hour */
 
-    @apc_store ('wxo_css', $buf, $ttl);
-    @apc_store ('wxo_css_mtime', $mtime, $ttl);
+    @apc_store ('wxo410_css', $buf, $ttl);
+    @apc_store ('wxo410_css_mtime', $mtime, $ttl);
   }
 
 ?>
