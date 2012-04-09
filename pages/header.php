@@ -14,14 +14,12 @@ else
 	<link rel="shortcut icon" href="/style/favicon.png" type="image/png" />
 	<link rel="stylesheet" media="screen" href="/style/bundle.php" type="text/css" />
 <?php
-        if (isset ($head['description']))
-                echo "\t<meta name=\"description\" content=\"".$head['description']."\" />\n";
-        if (isset ($head['keywords']))
-                echo "\t<meta name=\"keywords\" content=\"".$head['keywords']."\" />\n";
-        if (isset ($head['feed']))
-                echo "\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"".$head['feed']."\" />\n";
-        if (isset ($head['javascript']))
-                echo "\t<script type=\"text/javascript\" src=\"".$head['javascript']."\"></script>\n";
+	if (isset ($head['description']))
+		echo "\t<meta name=\"description\" content=\"".$head['description']."\" />\n";
+	if (isset ($head['keywords']))
+		echo "\t<meta name=\"keywords\" content=\"".$head['keywords']."\" />\n";
+	if (isset ($head['feed']))
+		echo "\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"".$head['feed']."\" />\n";
 ?>
 </head>
 
@@ -119,7 +117,7 @@ else
 
 		echo '</div>';
 	}
-	
+
 	if (!isset ($head['pagediv']) || $head['pagediv'] == true)
 	{
 ?>
