@@ -51,7 +51,9 @@ $head['pagediv'] = false;
 </div>
 
 <script type="text/javascript">
-<?php include ('style/tinyslider.js'); ?>;
+//<![CDATA[
+<?php include ('style/tinyslider.js'); ?>
+//]]>
 
 var slideshow=new TINY.slider.slide('slideshow',{
 	id:'slide',
