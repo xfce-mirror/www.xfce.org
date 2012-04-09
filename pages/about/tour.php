@@ -68,7 +68,7 @@
 
     <p><?php E_("You can now edit the applications menu using any Freedesktop compliant menu editor, Alacarte being the one we used to test.") ?></p>
 
-<h2><?php E_("Xfce settings dialogs") ?></h3>
+<h2><?php E_("Xfce settings dialogs") ?></h2>
 
   <h3><?php E_("Improved multihead setup configuration") ?></h3>
 
