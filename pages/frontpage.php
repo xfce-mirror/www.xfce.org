@@ -15,7 +15,7 @@ $head['pagediv'] = false;
     <ul>
       <li>
         <img src="/images/frontpage/slider-desktop.jpg" width="800" height="400" alt="Xfce Desktop" />
-        <p><?php E_('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue.') ?></p>
+        <p><?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?></p>
       </li>
       <li>
         <img src="/images/frontpage/slider-thunar.jpg" width="800" height="400" alt="File Manager" />
@@ -27,11 +27,11 @@ $head['pagediv'] = false;
       </li>
       <li>
         <img src="/images/frontpage/slider-xfwm4.jpg" width="800" height="400" alt="Window Manager" />
-        <p><?php E_('The Xfce Window Manager is the core of the desktop. It can be adjusted in a lot of ways to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?></p>
+        <p><?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?></p>
       </li>
       <li>
         <img src="/images/frontpage/slider-panel.jpg" width="800" height="400" alt="Panel" />
-        <p><?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need it. It has three different display modes, transparency and a dozen different plugins.') ?></p>
+        <p><?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?></p>
       </li>
       <li>
         <img src="/images/frontpage/slider-apps.jpg" width="800" height="400" alt="Applications" />
@@ -65,22 +65,54 @@ var slideshow=new TINY.slider.slide('slideshow',{
 </script>
 
 <div class="page_contents file_frontpage">
+        
+<div class="column">
+  <div class="lcolumn">
+    <h2><?php E_('Xfce Desktop Environment') ?></h2>
+    <p><?php E_('Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.') ?></p>
+    
+    <ul>
+      <li><a href="/download"><?php printf (R_('Download the latest %s release'), $stable_version) ?></a></li>
+      <li><a href="/download/changelogs/4.8.0"><?php printf (R_('Release notes for %s'), $stable_version) ?></a></li>
+      <li><a href="/about/tour"><?php E_('Visual tour of Xfce 4.8') ?></a></li>
+      <li><a href="/about/screenshots"><?php E_('Screenshots') ?></a></li>
+    </ul>
+  </div>
+</div>
 
-<h2><?php E_('Latest News') ?></h2>
-<?php
-  $count = 3;
-  foreach ($news as $item)
-  {
-    if (isset ($item['version']) && !empty ($item['version']))
-      $title = sprintf (R_('Xfce %s released'), $item['version']);
-    else
-      $title = $item['title'];
+<div class="column">
+  <div class="rcolumn">
+    <h2><?php E_('Latest News') ?></h2>
+    <?php
+      $count = 2;
+      foreach ($news as $item)
+      {
+        if (isset ($item['version']) && !empty ($item['version']))
+          $title = sprintf (R_('Xfce %s released'), $item['version']);
+        else
+          $title = $item['title'];
+    
+        $link = '/about/news/?post='.strtotime ($item['date']);
+        
+        echo '<h3>'.$title.'</h3>';
+    
+        $stamp = strtotime ($item['date']);
+        echo '<div class="post-date"><span class="post-month">'. date ('M', $stamp).
+           '</span> <span class="post-day">'. date ('d', $stamp).
+           '<br />'.date ('Y', $stamp).'</span></div>';
+        
+        echo '<div class="post-wrap">';
+        echo '<p>'.$item['paragraphs'][0];
+        
+        echo ' <a href="'.$link.'">';
+        E_('Learn More &rarr;');
+        echo '</a></p></div>';
+    
+        if (--$count <= 0)
+          break;
+      }
+    ?>
+  </div>
+</div>
 
-    echo '<h3><a href="/about/news/?post='.strtotime ($item['date']).'">'.$title.'</a></h3>';
-
-    echo '<p>'.$item['paragraphs'][0].'</p>';
-
-    if (--$count <= 0)
-      break;
-  }
-?>
+<div class="clearboth"></div>
