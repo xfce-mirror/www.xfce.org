@@ -3,10 +3,12 @@
 <?php
 function print_shots ($group, $count, $format = 'png')
 {
+  global $static_media;
+
   for ($i = 1; $i <= $count; $i++)
   {
-    echo "<a href=\"http://cdn.xfce.org/about/screenshots/$group-$i.$format\">".
-           "<img src=\"/images/about/screenshots/$group-$i-small.jpg\" alt=\"$group-$i\" width=\"200\" ".
+    echo "<a href=\"$static_media/about/screenshots/$group-$i.$format\">".
+           "<img src=\"$static_media/about/screenshots/$group-$i-small.jpg\" alt=\"$group-$i\" width=\"200\" ".
            "height=\"150\" hspace=\"2\" vspace=\"2\" border=\"0\" />".
          "</a>";
   }

@@ -17,6 +17,21 @@ function write_header ($mtime)
   header ('Last-Modified: '. gmdate ($dateformat, $mtime ) .' GMT');
 }
 
+function base64data ($matches)
+{
+  $file = $matches[1] .'.png';
+  $size = filesize ($file);
+  if ($size > 0)
+  {
+    $imgbinary = fread (fopen ($file, "r"), $size);
+    $base64 = base64_encode ($imgbinary);
+    
+    return "url('data:image/png;base64,$base64')";
+  }
+
+  return $matches[0];
+}
+
 /* try to load the cached minified css */
 $have_apc = false;
 if (function_exists ('apc_fetch'))
@@ -53,6 +68,9 @@ foreach ($files as $file)
 $buf = preg_replace ('!/\*[^*]*\*+([^/][^*]*\*+)*/!', '', $buf); /* strip comments */
 $buf = str_replace (array (': ', ' {', ', '), array (':', '{', ','), $buf); /* compress code */
 $buf = str_replace (array ("\r\n", "\r", "\n", "\t", '  '), '', $buf); /* strip lines and spaces */
+
+/* embed images in css */
+$buf = preg_replace_callback ('!url\(\'([a-z/]*?).png\'\)!', 'base64data', $buf);
 
 /* output */
 write_header ($mtime);

@@ -63,5 +63,6 @@ if($preview_visible) {
 
 <h2 id="artwork"><?php E_('Artwork') ?></h2>
 <p>
-  <?php E_('You can download the Xfce artwork tarball <a href="/downloads/xfce_artwork.tar.bz2">here</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license.') ?>
+  <?php printf (R_('You can download the Xfce artwork tarball <a href="%s">here</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license.'),
+                $static_media .'/downloads/xfce_artwork.tar.bz2') ?>
 </p>
