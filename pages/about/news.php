@@ -7,7 +7,7 @@ $head['title'] = R_('News');
 $head['stylesheet'] = array ('/style/news.css');
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 
-$toc['anchors'] = array ();
+//$toc['anchors'] = array ();
 
 echo '<h1>'.$head['title'].'</h1>';
 
