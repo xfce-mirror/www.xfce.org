@@ -32,6 +32,7 @@ body {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	line-height: 2em;
 }
 #menu-main ul li {
 	border-left: 1px solid #ccc;
@@ -50,6 +51,7 @@ body {
 }
 #menu-main ul li a:hover {
 	color: #06c;
+	text-decoration: underline;
 }
 #menu-main select {
 	float: right;
@@ -90,25 +92,18 @@ body {
 	font-size: 140%;
 }
 
-#page-contents p {
+.page_contents p {
 	text-align: justify;
 }
 
 #footer {
 	color: #999;
 	font-size: small;
+	text-align: center;
 }
 
 #footer hr {
-	margin: 2em 0 0.5em 0;
-	height: 1px;
-	background: #ccc;
-	border: 0;
-}
-
-#footer p {
-	margin: 0;
-	padding: 0;
+	display: none;
 }
 
 #footer a {
@@ -166,6 +161,7 @@ a {
 
 a:hover {
 	color: #f00;
+	text-decoration: underline;
 }
 
 code {
@@ -179,6 +175,24 @@ code {
 
 blockquote {
 	margin: 0 1em;
+}
+
+div.column {
+	float: left;
+	width: 50%;
+}
+div.lcolumn {
+	margin-right: 12px;
+}
+div.rcolumn {
+	margin-left: 12px;
+}
+
+div.column p.colicon {
+	margin: 0 10px 10px 0;
+	padding-left: 58px;
+	background: no-repeat 0% 0%;
+	min-height: 48px;
 }
 
 .clearboth {

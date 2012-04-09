@@ -2,6 +2,14 @@
 	margin-right: 0;
 }
 
+.file_frontpage h2, .file_frontpage h3 {
+	padding-top: 0;
+}
+
+.file_frontpage .post-wrap p {
+	margin-top: 0;
+}
+
 #slidewrap {
 	text-align: center;
 	margin: auto;
@@ -14,11 +22,10 @@
 	overflow: hidden;
 	width: 800px;
 	height: 400px;
-	background: #000;
+	background: #bcbcbc;
 	cursor: default;
 	overflow: hidden;
 	margin: auto;
-	border: 12px #bcbcbc solid;
 }
 #slide ul {
 	position: absolute;
@@ -40,7 +47,7 @@
 	position:absolute;
 	bottom:0;
 	width:450px;
-	background:#333;
+	background:#333; /* override by rgba below */
 	color:#fff;
 	border: 0;
 
