@@ -18,11 +18,11 @@ $head['pagediv'] = false;
 		</li>
 		<li>
 			<img src="<?php echo $static_media; ?>/frontpage/slider-thunar.jpg" width="800" height="400" alt="File Manager" />
-			<p><?php E_('Thunar is the file manager for the Xfce Desktop Environment. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?></p>
+			<p><?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?></p>
 		</li>
 		<li>
 			<img src="<?php echo $static_media; ?>/frontpage/slider-settings.jpg" width="800" height="400" alt="Settings" />
-			<p><?php E_('The Xfce Desktop Environement provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?></p>
+			<p><?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?></p>
 		</li>
 		<li>
 			<img src="<?php echo $static_media; ?>/frontpage/slider-xfwm4.jpg" width="800" height="400" alt="Window Manager" />
