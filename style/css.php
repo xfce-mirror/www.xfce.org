@@ -19,14 +19,14 @@ function write_header ($mtime)
 
 function base64data ($matches)
 {
-  $file = $matches[1] .'.png';
+  $file = $matches[1] .'.'. $matches[2];
   $size = filesize ($file);
   if ($size > 0)
   {
     $imgbinary = fread (fopen ($file, "r"), $size);
     $base64 = base64_encode ($imgbinary);
     
-    return "url('data:image/png;base64,$base64')";
+    return "url('data:image/".$matches[2].";base64,$base64')";
   }
 
   return $matches[0];
@@ -70,7 +70,7 @@ $buf = str_replace (array (': ', ' {', ', '), array (':', '{', ','), $buf); /* c
 $buf = str_replace (array ("\r\n", "\r", "\n", "\t", '  '), '', $buf); /* strip lines and spaces */
 
 /* embed images in css */
-$buf = preg_replace_callback ('!url\(\'([a-z/]*?).png\'\)!', 'base64data', $buf);
+$buf = preg_replace_callback ('!url\(\'([a-z/]*?).(png|gif)\'\)!', 'base64data', $buf);
 
 /* output */
 write_header ($mtime);
