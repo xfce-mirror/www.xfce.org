@@ -18,7 +18,7 @@
 </ul>
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
-<ul></li>
+<ul>
   <li>Add support for LT_PREREQ (bug #6920).</li>
   <li>Remove spec file and rpm build target.</li>
   <li>Do not create a gzip tarball.</li>
@@ -30,11 +30,11 @@
   <li>Skip -Wredundant-decls on OpenBSD.</li>
   <li>Disable --as-needed on OpenBSD (bug #7546).</li>
   <li>Use pkg-config macro for detection (bug #7787).</li>
-  <li>Port exo-csource to xdt-csource (bug #6449).
+  <li>Port exo-csource to xdt-csource (bug #6449).</li>
 </ul>
 
 <h2>Utility Library <em>(libxfce4util)</em>:</h2>
-<ul></li>
+<ul>
   <li>Make licenses static. You can only use xfce_get_license_text(...).</li>
   <li>Remove unused .h files.</li>
   <li>Remove xfce_strip_context(), use g_strip_context().</li>
@@ -52,7 +52,7 @@
 </ul>
 
 <h2>Widget Library <em>(libxfce4ui)</em>:</h2>
-<ul></li>
+<ul>
   <li>Open docs.xfce.org when Help in xfce4-about is clicked.</li>
   <li>Cache header icons and avoid large icons in XfceTitledDialog.</li>
   <li>Restore glade directory information in .pc file.</li>
@@ -70,7 +70,7 @@
 </ul>
 
 <h2>Extension Library <em>(exo)</em>:</h2>
-<ul></li>
+<ul>
   <li>Drop gtk 2.24 api (bug #8461).</li>
   <li>Bump libxfce4ui dependency for help function.</li>
   <li>Send exo-open startup-id to child instead of using it (bug #7093).</li>
@@ -92,7 +92,7 @@
 </ul>
 
 <h2>File Manager <em>(thunar)</em>:</h2>
-<ul></li>
+<ul>
   <li>Fix crash when trying to thumbnail a file with unknown content type.</li>
   <li>Fix properties dialog crash with files with unknown content type.</li>
   <li>Fix crash when hovering a CD drive with a special icon (bug #7309).</li>
@@ -143,7 +143,7 @@
 </ul>
 
 <h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
-<ul></li>
+<ul>
   <li>Add Help button to preferences dialog.</li>
   <li>Make sure the header icon does not shrink (bug #8489).</li>
   <li>Set single line label for icon sizes is small (bug #8490).</li>
@@ -177,7 +177,7 @@
 </ul>
 
 <h2>Panel <em>(xfce4-panel)</em>:</h2>
-<ul></li>
+<ul>
   <li>Panel: Don't destroy window when focussed and Alt+F4 is pressed (bug #7378).</li>
   <li>Panel: Use new help function to redirect to docs.xfce.org.</li>
   <li>Docs: Remove mallard documentation.</li>
@@ -241,7 +241,7 @@
 </ul>
 
 <h2>Session Manager <em>(xfce4-session)</em>:</h2>
-<ul></li>
+<ul>
   <li>Add accelerators to logout dialog buttons (bug #6982).</li>
   <li>Add support for starting assistive technologies.</li>
   <li>Remove optional dependency for gconf.</li>
@@ -272,7 +272,7 @@
 </ul>
 
 <h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
-<ul></li>
+<ul>
   <li>Xfsettingsd: Don't set large dpi in xrdb (bug #8415).</li>
   <li>Include xscreensaver in the manager dialog.</li>
   <li>Complete theme installation script.</li>
@@ -304,7 +304,7 @@
 </ul>
 
 <h2>Configuration Manager <em>(xfconf)</em>:</h2>
-<ul></li>
+<ul>
   <li>Use sh as interpreter in tests.</li>
   <li>Add hook to skip the xfconf tests.</li>
   <li>Make the abicheck work on Solaris and PPC64 (bug #7416).</li>
@@ -321,7 +321,7 @@
 </ul>
 
 <h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
-<ul></li>
+<ul>
   <li>Fix menu without desktop icons.</li>
   <li>Enable pseudo-transparent backgrounds again.</li>
   <li>Prevent multiple instances of xfdesktop from running (bug #8488).</li>
@@ -349,7 +349,7 @@
 </ul>
 
 <h2>Window Manager <em>(xfwm4)</em>:</h2>
-<ul></li>
+<ul>
   <li>Add tiling feature (bug #6648).</li>
   <li>Navigate with arrows in task switcher (bug #4752).</li>
   <li>Show dialogs in settings category.</li>
@@ -375,7 +375,7 @@
 </ul>
 
 <h2>Theme Engine <em>(gtk-xfce-engine)</em>:</h2>
-<ul></li>
+<ul>
   <li>Improved menu theming</li>
   <li>Theme gtk-tooltip (bug #8494).</li>
   <li>Scale radio and check boxes (bug #8456).</li>
