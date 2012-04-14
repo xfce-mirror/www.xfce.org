@@ -47,6 +47,7 @@ $head['pagediv'] = false;
 		<li onclick="slideshow.pos(4)"></li>
 		<li onclick="slideshow.pos(5)"></li>
 	</ul>
+	<div class="clearboth"></div>
 </div>
 </div>
 
