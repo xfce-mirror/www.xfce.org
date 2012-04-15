@@ -13,7 +13,6 @@ $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 	<ul>
 		<li>
 			<img src="<?php echo $static_media; ?>/frontpage/slider-desktop.jpg" width="800" height="400" alt="Xfce Desktop" />
-			<p><?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?></p>
 		</li>
 		<li>
 			<img src="<?php echo $static_media; ?>/frontpage/slider-thunar.jpg" width="800" height="400" alt="File Manager" />
