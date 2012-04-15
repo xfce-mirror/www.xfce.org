@@ -7,11 +7,9 @@ $head['title'] = R_('News');
 $head['stylesheet'] = array ('/style/news.css');
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 
-//$toc['anchors'] = array ();
-
 echo '<h1>'.$head['title'].'</h1>';
 
-echo '<span class="rss"><a href="'.$head['feed'].'">Subscribe to articles using RSS Feed</a></span>';
+echo '<span class="rss"><a href="'.$head['feed'].'">'.R_('Subscribe to RSS feed').'</a></span>';
 
 if (isset ($_GET['post']))
   $only_stamp = (int) $_GET['post'];
@@ -20,13 +18,18 @@ else
 
 $has_items = false;
 
+$counter = 0;
+
 foreach ($news as $item)
 {
   $stamp = strtotime ($item['date']);
 
   if ($only_stamp > 0 && $only_stamp != $stamp)
     continue;
-    
+
+  $link = '/about/news/?post='.$stamp;
+  $counter++;
+
   if (!empty ($item['version']))
       $title = sprintf (R_('Xfce %s released'), $item['version']);
     else
@@ -39,20 +42,31 @@ foreach ($news as $item)
        '<br />'.date ('Y', $stamp).'</span></div>';
 
   echo '<div class="post-wrap">';
-  foreach ($item['paragraphs'] as $p)
-    echo '<p>'.$p.'</p>'."\n";
-
-  if (!empty ($item['version']))
-  {
-    echo '<ul>';
-      echo '<li>Download: <a href="http://archive.xfce.org/xfce/'.$item['version'].'/">http://archive.xfce.org/xfce/'.$item['version'].'/</a></li>';
-      echo '<li><a href="/download/changelogs/'.$item['version'].'/">'.R_('Changes in this release').'</a></li>';
-    echo '</ul>';
-  }
+  
+  if ($counter < 2)
+    {
+      foreach ($item['paragraphs'] as $p)
+        echo '<p>'.$p.'</p>'."\n";
+      
+      if (!empty ($item['version']))
+      {
+        echo '<ul>';
+          echo '<li><a href="http://archive.xfce.org/xfce/'.$item['version'].'/">'.R_('Download').' <span>&ndash; http://archive.xfce.org/xfce/'.$item['version'].'/</span></a></li>';
+          echo '<li><a href="/download/changelogs/'.$item['version'].'/">'.R_('Changes in this release').'</a></li>';
+          echo '<li><a href="'.$link.'">'.R_('Permalink').'</a></li>';
+        echo '</ul>';
+      }
+    }
+  else
+    {
+      echo '<p>'.$item['paragraphs'][0];
+      echo ' <a href="'.$link.'">';
+      E_('Learn More &rarr;');
+      echo '</a></p>';
+    }
 
   echo '</div>';
 
-  //$toc['anchors'] += array ('post-'. $stamp => $item['title']);
   $has_items = true;
 }
 

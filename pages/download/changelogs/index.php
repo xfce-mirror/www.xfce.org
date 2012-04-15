@@ -2,7 +2,7 @@
 
 $head['title'] = R_('Changelogs');
 
-$toc['anchors'] = array (
+$major_versions = array (
         '4.10' => 'Xfce 4.10',
         '4.8' => 'Xfce 4.8',
         '4.6' => 'Xfce 4.6',
@@ -38,7 +38,7 @@ rsort ($versions);
 
 $printed = 0;
 
-foreach ($toc['anchors'] as $id => $name)
+foreach ($major_versions as $id => $name)
 {
 	echo '<h2 id="'.$id.'">'.$name.'</h2>';
 	echo '<ul>';

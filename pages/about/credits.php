@@ -7,15 +7,6 @@ include ('lib/translators.php');
 
 $head['title'] = R_('Credits');
 
-$toc['anchors'] = array (
-        'core' => R_('Core developers'),
-        'active' => R_('Active contributors'),
-        'servers' => R_('Servers maintained by'),
-        'goodies' => R_('Goodies supervision'),
-        'translation' => R_('Translations supervision'),
-        'translators' => R_('Translators'),
-        'previous' => R_('Previous contributors'));
-
 function print_credits($people)
 {
         $last = end ($people);
@@ -34,7 +25,7 @@ function print_translator_credits()
 
   foreach ($translators as $language => $people)
   {
-    echo "<h3>$language</h3>\n<blockquote>";
+    echo "<dt>$language</dt>\n<dd>";
 
     $last = end ($people);
     foreach ($people as $person => $mail)
@@ -45,7 +36,7 @@ function print_translator_credits()
         echo ', ';
     }
 
-    echo "</blockquote>\n";
+    echo "</dd>\n";
   }
 }
 ?>
@@ -109,7 +100,9 @@ function print_translator_credits()
 ?>
 
 <h2 id="translators"><?php E_('Translators')?></h2>
+<dl>
 <?php   print_translator_credits(); ?>
+</dl>
 
 <h2 id="previous"><?php E_('Previous contributors')?></h2>
 <?php

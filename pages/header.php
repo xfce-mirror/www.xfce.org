@@ -45,8 +45,8 @@ else
 	<div  id="xfce-header-clear"></div>
 </div>
 
-<div class="page-wrap">
-	<div id="menu-main">
+<div id="main">
+	<div id="mainnav">
 		<div>
 			<h5 class="hidden"><?php E_('Categories') ?></h5>
 			<ul>
@@ -78,50 +78,14 @@ else
 		<div class="clearboth"></div>
 	</div>
 
+	<div id="content">
 <?php
 	if (isset($toc['filename']))
 	{
+		echo '<div id="sidebar">';
 		include ($toc['filename']);
-
-		echo '<div id="menu-sub">';
-
-		if (isset($toc['menu']))
-		{
-			echo '<h5>'.R_('Category Pages').'</h5>';
-			echo '<ul>';
-			foreach ($toc['menu'] as $link => $name)
-			{
-				echo '<li><a href="/'.$link.'">'.$name.'</a>';
-
-				if (isset ($toc['anchors']) && strcmp ($uri, $link) == 0)
-				{
-					echo '<ul>';
-					foreach ($toc['anchors'] as $id => $name)
-						echo '<li><a href="#'.$id.'">'.$name.'</a></li>';
-					echo '</ul>';
-				}
-
-				echo '</li>';
-			}
-			echo '</ul>';
-		}
-
-		if (isset($toc['external']))
-		{
-			echo '<h5>'.R_('Related Sites').'</h5>';
-			echo '<ul>';
-			foreach ($toc['external'] as $link => $name)
-				echo '<li><a href="'.$link.'" class="external">'.$name.'</a></li>';
-			echo '</ul>';
-		}
-
 		echo '</div>';
 	}
+?>
 
-	if (!isset ($head['pagediv']) || $head['pagediv'] == true)
-	{
-?>
-	<div class="page_contents file_<?php echo $page_class ?>">
-<?php
-	}
-?>
+	<div id="article" class="file_<?php echo $page_class ?>">

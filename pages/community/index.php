@@ -2,12 +2,6 @@
 
 $head['title'] = R_('Community');
 
-$toc['anchors'] = array (
-        'mail' => R_('Mailing lists'),
-        'irc' => R_('IRC'),
-        'forum' => R_('Forums'),
-        'social' => R_('Social Networks'));
-
 ?>
 
 <h1><?php echo $head['title'] ?></h1>

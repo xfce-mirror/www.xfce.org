@@ -2,10 +2,6 @@
 
 $head['title'] = R_('Release Model');
 
-$toc['anchors'] = array (
-        'core' => R_('The Xfce Core Desktop'),
-        'cycle' => R_('The Release Cycle'));
-
 ?>
 
 <h1><?php echo $head['title'] ?></h1>
