@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-04-14 18:28+0300\n"
-"PO-Revision-Date: 2012-04-15 09:51+0300\n"
+"PO-Revision-Date: 2012-04-15 13:12+0300\n"
 "Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
 "Language-Team: Lietuvių <>\n"
 "Language: \n"
@@ -26,7 +26,7 @@ msgid ""
 "was last modified on %s."
 msgstr ""
 "Autorinės teisės %s <a href=\"/about/credits\">Xfce kūrėjų komanda</a>. Šis "
-"puslapis paskutinį kart keistas %s."
+"puslapis paskutinį kartą keistas %s."
 
 #: feed.php:29
 msgid "Xfce News"
@@ -196,7 +196,7 @@ msgid ""
 "\"external\">documentation</a> about your problem before asking your "
 "question."
 msgstr ""
-"Jei turite bėdą kuriso negalite išspręsti, galite pabandyti užduoti klausimą "
+"Jei turite bėdą kurios negalite išspręsti, galite pabandyti užduoti klausimą "
 "mūsų IRC kanale <a href=\"irc://irc.freenode.net/#xfce\">#xfce irc.freenode."
 "net</a>. Kanalas turi kelis aktyvius naudotojus. Prieš užduodant klausimą "
 "rekomenduojame peržiūrėti <a href=\"http://docs.xfce.org/\" class=\"external"
@@ -1041,6 +1041,8 @@ msgid ""
 "<a href=\"http://xfce.org/\">http://xfce.org/</a> and <a href=\"http://xfce."
 "org/about/tour\">http://xfce.org/about/tour</a>"
 msgstr ""
+"<a href=\"http://xfce.org/\">http://xfce.org/</a> ir <a href=\"http://xfce."
+"org/about/tour\">http://xfce.org/about/tour</a>"
 
 #: news-array.php:37
 msgid ""
@@ -1054,18 +1056,24 @@ msgid ""
 "<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
 "download/changelogs/4.8.0</a>"
 msgstr ""
+"<a href=\"http://xfce.org/download/changelogs/4.8.0\">http://xfce.org/"
+"download/changelogs/4.8.0</a>"
 
 #: news-array.php:39
 msgid ""
 "The release can be downloaded either as individual releases or as a fat "
 "tarball including all these individual versions:"
 msgstr ""
+"Leidimas gali būti parsiųstas kaip individualūs leidimai arba kaip storas "
+"tarball įskaitant visas šias individualias versijas:"
 
 #: news-array.php:40
 msgid ""
 "<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
 "xfce/4.8/</a>"
 msgstr ""
+"<a href=\"http://archive.xfce.org/xfce/4.8/\">http://archive.xfce.org/"
+"xfce/4.8/</a>"
 
 #: news-array.php:41
 msgid ""
@@ -1083,7 +1091,7 @@ msgstr ""
 
 #: news-array.php:43
 msgid "Best regards,<br />The Xfce development team"
-msgstr ""
+msgstr "Nuoširdūs linkėjimai, <br />Xfec kūrėjų komanda"
 
 #: about/releasemodel.php:3 about/nav.php:10
 msgid "Release Model"
@@ -1406,20 +1414,25 @@ msgid ""
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
 msgstr ""
+"Planavimo fazės pabaigoje, laiškas su visomis planuojamomis galimybėmis ir "
+"priklausomybėmis nusiunčiamas į xfce4-dev@xfce.org ir xfce@xfce.org pašto "
+"konferencijas."
 
 #: about/releasemodel.php:172
 msgid "Development Phase (5 Months)"
-msgstr ""
+msgstr "Kūrimo fazė (5 mėnesiai)"
 
 #: about/releasemodel.php:175
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
 msgstr ""
+"Kūrimo fazėje kiekvienas prižiūrėtojas gali kurti priežiūros ir kūrimo "
+"leidimus neatsižvelgiant į likusią Xfce."
 
 #: about/releasemodel.php:178
 msgid "Development Releases"
-msgstr ""
+msgstr "Kūrimo leidimai"
 
 #: about/releasemodel.php:181
 msgid ""
@@ -1427,6 +1440,9 @@ msgid ""
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
+"Kūrimo leidimai paprastai suteikia naujų galimybių(kurios bus kitame "
+"stabiliame leidime) peržiūrą. Jie turi atitikti tokį versijų formatą X.Y.Z, "
+"Y yra nelyginis skaičius (pvz. xfwm4-4.7.3 ar thunar-1.3.10)."
 
 #: about/releasemodel.php:185
 msgid ""
@@ -1437,6 +1453,11 @@ msgid ""
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
 msgstr ""
+"Prižiūrėtojai skatinami daryti kūrimo leidimus naujoms galimybėms. Dažni "
+"kūrimo ciklai gali būti pakaita SVN leidimų versijoms, kurias turėjome "
+"anksčiau. Jie komponentas A priklauso nuo naujos galimybės komponente B, A "
+"gali būti išleistas jei yra B kūrimo leidimas. Tam kad tai veiktų, libtool "
+"versijos turi būti tinkamai atnaujinamos su kiekvienu kūrimo leidimu."
 
 #: about/releasemodel.php:189
 msgid ""
@@ -1447,6 +1468,11 @@ msgid ""
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
 msgstr ""
+"Daugiausia dėmesio turi būti skiriama kiekvieno komponento „master“ šakoms. "
+"„Master“ šaka visada turi būti paruošta išleidimui. Naujos galimybės turi "
+"būti kuriamos šakose, tol kol jos paruoštos(tai yra kompiliavimas ir "
+"komponentas liks funkcionalūs net ir įliejus galimybes į „master“ šaką), tai "
+"daroma norint apsidrausti nuo galutinio išleidimo vėlavimo."
 
 #: about/releasemodel.php:193
 msgid ""
@@ -1455,40 +1481,47 @@ msgid ""
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
 msgstr ""
+"Apie naujas galimybės gadinančias API ar kitus komponentus turi būti "
+"pranešta. Prižiūrėtojams patariama paruošti kitus komponentus šioms "
+"galimybėms atskirose šakose, prieš įtraukiant naujas galimybes į naują "
+"kūrimo leidimą. Taip kiti komponentai išlaikys savo „paruošta leidimui“ "
+"būseną."
 
 #: about/releasemodel.php:197
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "Štai kaip veikia pagrindinis kūrimo procesas:"
 
 #: about/releasemodel.php:202
 msgid "Development Workflow"
-msgstr ""
+msgstr "Kūrimo procesas"
 
 #: about/releasemodel.php:206
 msgid "Release Phase (10+ Weeks)"
-msgstr ""
+msgstr "Išleidimo fazė (10+ savaičių)"
 
 #: about/releasemodel.php:209
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
 msgstr ""
+"Per išleidimo fazę, bus trys išankstiniai leidimai ir tada paskutinis "
+"leidimas:"
 
 #: about/releasemodel.php:213
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr ""
+msgstr "Xfce X.Ypre1 (po  0  savaičių, galimybių užšaldymas),"
 
 #: about/releasemodel.php:214
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr ""
+msgstr "Xfce X.Ypre2 (po  4  savaičių, vertimo užšaldymas) ir"
 
 #: about/releasemodel.php:215
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr ""
+msgstr "Xfce X.Ypre3 (po  8  savaičių, kodo užšaldymas)"
 
 #: about/releasemodel.php:216
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr ""
+msgstr "Xfce X.Y     (po 10+ savaičių)"
 
 #: about/releasemodel.php:220
 msgid ""
@@ -1499,6 +1532,12 @@ msgid ""
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
 msgstr ""
+"kur Y turi būti lyginis numeris. Kiekvienas iš šių leidimų turi turėti "
+"paskutines visų komponentų kūrimo versijas(arba stabilias, jei po stabilaus "
+"leidimo neišleista nei viena kūrimo versija). Šių komponentų versijų "
+"numeriai gali(netgi privalo) skirtis nuo pavadinimo schemos, esančios "
+"aukščiau. pvz. Xfce 4.8.0pre2, xfwm4 gali turėti versiją 4.7.17 ir Thunar "
+"gali turėti 1.1.9."
 
 #: about/releasemodel.php:224
 msgid ""
@@ -1507,24 +1546,29 @@ msgid ""
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
 msgstr ""
+"Tai reiškia jog prižiūrėtojai neprivalo išleisti naujos savo komponento "
+"versijos su kiekvienu „pre“ leidimu. Leidimo komanda visada paima naujausią "
+"prieinamą kūrimo ar stabilų leidimą."
 
 #: about/releasemodel.php:228
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
 msgstr ""
+"Šios fazės pabaiga reiškia naują stabilų Xfce leidimą ir naujo išleidimo "
+"ciklo pradžią."
 
 #: about/releasemodel.php:231
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "Užšaldymas prieš leidimus"
 
 #: about/releasemodel.php:234
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "Yra keli užšaldymo tipai."
 
 #: about/releasemodel.php:237
 msgid "Feature Freeze"
-msgstr ""
+msgstr "Galimybių užšaldymas"
 
 #: about/releasemodel.php:240
 msgid ""
@@ -1532,10 +1576,12 @@ msgid ""
 "there on only translations and bugfixes are allowed to go into the master "
 "branch."
 msgstr ""
+"Su Xfce X.Ypre1 visi branduolio komponentai patenka į galimybių užšaldymą, "
+"tai reiškia jog nuo šiol bus tik atnaujinami vertimai ir taisomos klaidos."
 
 #: about/releasemodel.php:243
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "Vertimo/UI užšaldymas"
 
 #: about/releasemodel.php:246
 msgid ""
@@ -1543,10 +1589,14 @@ msgid ""
 "from there on no strings which affect translations may be changed. Same goes "
 "for the user interface which may not be changed after this point."
 msgstr ""
+"Su Xfce X.Ypre2 visi branduolio komponentai patenka į vertimo/UI užšaldymo "
+"stadiją, tai reiškia jog nuo šiol negali būti keičiamos eilutės kurios "
+"paveiktų vertimą. Tas pats galioja naudotojo sąsajai, kurios nuo šiol "
+"negalima keisti."
 
 #: about/releasemodel.php:249
 msgid "Code Freeze"
-msgstr ""
+msgstr "Kodo užšaldymas"
 
 #: about/releasemodel.php:252
 msgid ""
@@ -1554,6 +1604,9 @@ msgid ""
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
+"Tai trumpas 2 dienų kodo užšaldymas, prieš kiekvieną „pre“ leidimą. Per šį "
+"laikotarpį, negali būti siunčiami jokie patobulinimai, nebent juos leido "
+"leidimo prižiūrėtojas."
 
 #: about/releasemodel.php:256
 msgid ""
@@ -1562,10 +1615,14 @@ msgid ""
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
 msgstr ""
+"Su Xfce X.Ypre3, visi branduolio komponentai patenka į kodo užšaldymą, tai "
+"reiškia jog nuo šiol kodas negali būti keičiamas, nebent tai leido leidimo "
+"prižiūrėtojas. Paprastai tai turėtų būti tik pataisymai. Vertimai vis dar "
+"leidžiami."
 
 #: about/releasemodel.php:259
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "Kodo užšaldymo fazė (2+ savaitės)"
 
 #: about/releasemodel.php:262
 msgid ""
@@ -1573,6 +1630,8 @@ msgid ""
 "illustrated in the following figure and is explained in more detail in this "
 "section."
 msgstr ""
+"Su Xfce X.Ypre3 visi branduolio komponentai patenka į kodo užšaldymo fazę. "
+"Ši fazė iliustruota sekančiame paveikslėlyje ir paaiškinta šiame skyriuje."
 
 #: about/releasemodel.php:266
 msgid ""
@@ -1580,14 +1639,17 @@ msgid ""
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
 msgstr ""
+"Kodo užšaldymas ir jo išimtys yra palaikomos siuntimo „hooks“. Yra "
+"atnaujinimo „hook“ kuris neleidžia jokių keitimų „master“ šakoje nebent juos "
+"leido leidimo prižiūrėtojas."
 
 #: about/releasemodel.php:271
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "Leidimų žymėjimas ir šakų kūrimas"
 
 #: about/releasemodel.php:275
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "Klaidų taisymas/Pakeitimai"
 
 #: about/releasemodel.php:278
 msgid ""
@@ -1597,6 +1659,10 @@ msgid ""
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
 msgstr ""
+"Jei branduolio komponentui reikia pataisymų ar keitimų, kodo užšaldymo "
+"fazėje, prižiūrėtojas turi sukurti naują šaką pavadintą ELS(//PAVADINIMAS "
+"ATVIRAS DISKUSIJOMS//) į kurį jis ar ji siunčia reikiamus pataisymus. "
+"Remiantis kodo užšaldymo išimčių sekcija šie keitimai turi būti būtini."
 
 #: about/releasemodel.php:282
 msgid ""
@@ -1604,56 +1670,66 @@ msgid ""
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
 "after the final release. Only bugfixes are allowed in this branch."
 msgstr ""
+"ELS šaka gyvena trumpą laiko tarpą. Ji sujungiama su „master“ ir su "
+"komponento stabiliomis šakomis (pvz. xfwm4-4.8 ar thunar-1.2) iškart po "
+"paskutinio leidimo. Šioje šakoje leidžiami tik klaidų pataisymai."
 
 #: about/releasemodel.php:285
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "Kodo užšaldymo išimtys"
 
 #: about/releasemodel.php:287
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "Blokuojančios klaidos"
 
 #: about/releasemodel.php:290
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
 msgstr ""
+"Dėl kai kurių klaidų xfce išleidimas gali vėluoti, tokios klaidos laikomos "
+"blokuojančiomis. Tokiomis klaidomis laikomi klaidos kurios atitinka tokius "
+"kriterijus:"
 
 #: about/releasemodel.php:294
 msgid "it crashes a core application"
-msgstr ""
+msgstr "dėl jos lūžta branduolio programa"
 
 #: about/releasemodel.php:295
 msgid "it causes data loss"
-msgstr ""
+msgstr "dėl jos prarandami duomenys"
 
 #: about/releasemodel.php:296
 msgid "it causes an ever-growing memory leak"
-msgstr ""
+msgstr "ji sukelia atminties nutekėjimą"
 
 #: about/releasemodel.php:297
 msgid "it locks the entire desktop GUI"
-msgstr ""
+msgstr "ji užrakina visą darbastalio GUI"
 
 #: about/releasemodel.php:301
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "Klaida negali pavėlinti leidimo jei ji atitinka šiuos kriterijus:"
 
 #: about/releasemodel.php:305
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
 msgstr ""
+"aparatinė įranga ar architektūra kurioje ši klaida įvyksta yra egzotinė ar/"
+"ir kūrėjai negali jos atkurti"
 
 #: about/releasemodel.php:309
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
 msgstr ""
+"Pataisymus šiai klaidai galima pritaikyti kodo užšaldymo fazėje tik tada jei "
+"tai patvirtino leidimo prižiūrėtojas."
 
 #: about/releasemodel.php:312
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "Leidimo-kritiniai keitimas"
 
 #: about/releasemodel.php:315
 msgid ""
@@ -1661,10 +1737,12 @@ msgid ""
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
 msgstr ""
+"Kai kurie keitimai gali kelti abejones kokybės atžvilgiu. Jie leidžiami jei "
+"juos palaimino leidimo prižiūrėtojas."
 
 #: about/releasemodel.php:318
 msgid "Releasing"
-msgstr ""
+msgstr "Išleidimas"
 
 #: about/releasemodel.php:321
 msgid ""
@@ -1674,10 +1752,15 @@ msgid ""
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
 msgstr ""
+"Paskutiniam leidimui (Xfce X.Y) visi branduolio komponentai yra pažymėti "
+"(dukart, vieną kartą su jų versija ir kitą su xfce-X.Y.0) ir patalpinti į "
+"prižiūrėjimo šaką (pvz. thunar-1.2 ar xfwm4-4.8). Po to ELS šaka yra "
+"sujungiama su „master“ šaka (kurioje bus kuriama nauja versija) ir į pvz. "
+"thunar-1.2 ar xfwm4-4.8."
 
 #: about/releasemodel.php:324
 msgid "Maintenance Process"
-msgstr ""
+msgstr "Prižiūrėjimo procesas"
 
 #: about/releasemodel.php:327
 msgid ""
@@ -1686,10 +1769,13 @@ msgid ""
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
 msgstr ""
+"Kai paskutinė versija išleista, klaidų pataisymai ir vertimų atnaujinimai "
+"bus nusiųsti į stabilią to komponento šaką (pvz. thunar-1.2 ar xfwm4-4.8). "
+"Individualių komponentų priežiūros leidimų sinchronizuoti nereikia."
 
 #: about/releasemodel.php:330
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "Priežiūros leidimas"
 
 #: about/releasemodel.php:333
 msgid ""
@@ -1699,10 +1785,14 @@ msgid ""
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
 msgstr ""
+"Priežiūros leidime negali būti API/ABI keitimų lyginant su paskutine "
+"versija. Jie taipogi turi naudoti formatą X.Y.Z, kur Y yra lyginis skaičius "
+"(pvz. xfwm4-4.8 ar thunar-1.2.4). Šiuose leidimuose neturi būti naujų "
+"eilučių ar galimybių."
 
 #: about/releasemodel.php:337
 msgid "Authors"
-msgstr ""
+msgstr "Autoriai"
 
 #: about/news.php:6 about/nav.php:6
 msgid "News"
@@ -1710,11 +1800,11 @@ msgstr "Naujienos"
 
 #: about/news.php:49
 msgid "Changes in this release"
-msgstr ""
+msgstr "Pakeitimai šiame leidime"
 
 #: about/news.php:61
 msgid "No news articles found."
-msgstr ""
+msgstr "Nėra naujų straipsnių."
 
 #: about/credits.php:8 about/nav.php:8
 msgid "Credits"
@@ -1871,7 +1961,7 @@ msgstr ""
 
 #: about/tour.php:35
 msgid "Transparent backgrounds"
-msgstr ""
+msgstr "Permatomi fonai"
 
 #: about/tour.php:37
 msgid ""
@@ -1879,14 +1969,17 @@ msgid ""
 "transparent items. Your panel items will remain readable and you will enjoy "
 "a nice panel look."
 msgstr ""
+"Skydelis nuo šiol gali piešti permatomą skydelio foną, su nepermatomais "
+"elementais. Jūsų skydelio elementai liks perskaitomi ir jums patiks nauja "
+"skydelio išvaizda."
 
 #: about/tour.php:39
 msgid "Transparent panel background"
-msgstr ""
+msgstr "Permatomas skydelio fonas"
 
 #: about/tour.php:41
 msgid "New item editor"
-msgstr ""
+msgstr "Naujas elementų redaktorius"
 
 #: about/tour.php:43
 msgid ""
@@ -1895,14 +1988,18 @@ msgid ""
 "to right click and gives you an easy way to change your panel layout from a "
 "single place."
 msgstr ""
+"Nuo šiol skydelis turi galimybę redaguoti elementus, kuri leis greitai "
+"keisti, perkelti, pridėti ar pašalinti elementus. Tai ypač naudinga "
+"elementams kuriuos sunku paspausti dešiniu mygtuku, taipogi tai leis jums "
+"lengvai keisti skydelio išdėstymą iš vienos vietos."
 
 #: about/tour.php:45
 msgid "Panel item editor"
-msgstr ""
+msgstr "Skydelio elementų redaktorius"
 
 #: about/tour.php:47
 msgid "Drag and drop to create launchers"
-msgstr ""
+msgstr "Norėdami sukurti leistuką atvilkite ir numeskite"
 
 #: about/tour.php:49
 msgid ""
@@ -1911,10 +2008,14 @@ msgid ""
 "should please the huge number of people who had been requesting it for ages. "
 "The launcher also has an integrated application finder to add new items."
 msgstr ""
+"Galite atvilkti ir numesti meniu įrašus tiesiai iš skydelio programų meniu, "
+"programų ieškyklės ar Thunar ir sukurti leistukus. Ši galimybė turėtų "
+"pradžiuginti daug žmonių kurie to prašė jau senai. Leistukas taipogi turi "
+"įmontuotą programų ieškyklę."
 
 #: about/tour.php:51
 msgid "Window buttons plugin"
-msgstr ""
+msgstr "Lango mygtukų įskiepis"
 
 #: about/tour.php:53
 msgid ""
@@ -1923,24 +2024,30 @@ msgid ""
 "vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
 "a button."
 msgstr ""
+"„Iconbox“ ir „tasklist“ įskiepiai nuo šiol sujungti į vieną įskiepį, kuris "
+"vadinasi „langų mygtukai“. Jame yra skirtingi rikiavimo būdai, patobulintas "
+"vertikalių skydelių palaikymas ir užvedus pelę jis gali piešti panašias "
+"formas kaip ir Xfwm4 Alt+Tab."
 
 #: about/tour.php:55
 msgid "New fuzzy clock"
-msgstr ""
+msgstr "Naujas neaiškus laikrodis"
 
 #: about/tour.php:57
 msgid ""
 "An Xfce release without a new clock mode would not be a true Xfce release. "
 "Let us introduce you the 'fuzzy' clock mode!"
 msgstr ""
+"Xfce leidimas be naujo laikrodžio režimo, nebūtų xfce leidimas. Leiskite "
+"pristatyti „neaiškų“ laikrodžio režimą!"
 
 #: about/tour.php:59
 msgid "New fuzzy clock mode"
-msgstr ""
+msgstr "Naujas neaiškus laikrodžio režimas"
 
 #: about/tour.php:61
 msgid "New directory menu plugin"
-msgstr ""
+msgstr "Naujas aplanko įskiepio meniu įskiepis"
 
 #: about/tour.php:63
 msgid ""
@@ -1948,28 +2055,33 @@ msgid ""
 "particular folder. This allows you to open a terminal or a file manager in a "
 "sub-folder in a very fast and efficient way."
 msgstr ""
+"Aplanko meniu įskiepis suteikia meniu atvaizduojantį konkretų aplanką. Tai "
+"leidžia greitai ir efektyviai atverti terminalą ar failų tvarkyklę "
+"poaplankyje."
 
 #: about/tour.php:65
 msgid "Directory menu plugin"
-msgstr ""
+msgstr "Aplanko meniu įskiepis"
 
 #: about/tour.php:67
 msgid "Applications menu edition"
-msgstr ""
+msgstr "Programų meniu redagavimas"
 
 #: about/tour.php:69
 msgid ""
 "You can now edit the applications menu using any Freedesktop compliant menu "
 "editor, Alacarte being the one we used to test."
 msgstr ""
+"Nuo šiol galite keisti programų meniu naudodami meniu redaktorių suderinamą "
+"su Freedesktop, Alacarte buvo tas su kuriuo buvo bandoma."
 
 #: about/tour.php:71
 msgid "Xfce settings dialogs"
-msgstr ""
+msgstr "Xfce nustatymų dialogai"
 
 #: about/tour.php:73
 msgid "Improved multihead setup configuration"
-msgstr ""
+msgstr "Patobulinta diegimo konfigūracija"
 
 #: about/tour.php:75
 msgid ""
@@ -1977,20 +2089,25 @@ msgid ""
 "driver. Unfortunately, this means it will not work with Nvidia proprietary "
 "drivers."
 msgstr ""
+"Xfce dabar gali susidoroti su „multihead“ sąrankomis bet kokiai tvarkyklei "
+"suderinamai su randr 1.2. Deja tai reiškia jog neveiks Nvidia uždaros "
+"tvarkyklės."
 
 #: about/tour.php:77
 msgid ""
 "You can enable and disable plugged screens, set their resolution, refresh "
 "rate, rotation and reflection, clone screens or extend desktops."
 msgstr ""
+"Galite įjungti ir išjungti prijungtus ekranus, nustatyti jų rezoliuciją, "
+"atnaujinimo dažnį, pasukimą ir atspindį, klonuoti ir praplėsti ekranus."
 
 #: about/tour.php:79
 msgid "New display settings dialog"
-msgstr ""
+msgstr "Naujas ekranų nustatymų dialogas"
 
 #: about/tour.php:81
 msgid "Timed confirmation"
-msgstr ""
+msgstr "Patvirtinimas per laiką"
 
 #: about/tour.php:83
 msgid ""
@@ -1998,14 +2115,17 @@ msgid ""
 "ten seconds or they will be reverted. This prevents broken video drivers "
 "from leaving your computer unusable."
 msgstr ""
+"Visi pakeitimai, padaryti nustatymų dialoge, turės būti patvirtinti per "
+"dešimt sekundžių arba jie bus atšaukti. Tai apsaugos nuo blogų video "
+"tvarkyklių, kurios padaro kompiuterį nebenaudojamu."
 
 #: about/tour.php:85
 msgid "Timed confirmation for display settings changes"
-msgstr ""
+msgstr "Patvirtinamas per laiką ekrano nustatymams"
 
 #: about/tour.php:87
 msgid "Quick setup dialog"
-msgstr ""
+msgstr "Greito nustatymo dialogas"
 
 #: about/tour.php:89
 msgid ""
@@ -2013,14 +2133,17 @@ msgid ""
 "second. Plug the second screen, press the display key or Windows + p and "
 "select the wanted layout. Done!"
 msgstr ""
+"Greito nustatymo dialogas leidžia jums konfigūruoti dviejų ekranų sąranką "
+"per sekundę. Prijunkite antrą ekraną, paspauskite rodymo mygtuką ar Windows "
+"+ p ir pasirinkite norimą išdėstymą. Atlikta!"
 
 #: about/tour.php:91
 msgid "Quick multihead setup"
-msgstr ""
+msgstr "Greitas „multihead“ nustatymas"
 
 #: about/tour.php:93
 msgid "Settings edition in the Xfce Settings Editor"
-msgstr ""
+msgstr "Nustatymų keitimas Xfce nustatymų redaktoriuje"
 
 #: about/tour.php:95
 msgid ""
@@ -2028,10 +2151,14 @@ msgid ""
 "Xfconf settings viewer. You can now modify, delete, add and reset settings "
 "through its interface. It also monitors changes to update its view."
 msgstr ""
+"Xfce nustatymų redaktorius nuo šiol turi savo vardą, daugiau tai ne tiesiog "
+"Xfce nustatymų žiūryklė. Dabar galite keisti, trinti, pridėti ir atstatyti "
+"nustatymus per naudotojo sąsają. Jis taipogi stebi savo keitimus, kad galėtų "
+"pakeisti rodiny."
 
 #: about/tour.php:97
 msgid "Editing Xfconf properties with the Settings Editor"
-msgstr ""
+msgstr "Nustatymų redagavimas su Nustatymų redaktoriumi"
 
 #: about/tour.php:99
 msgid "Improved keyboard layout selection"
