@@ -2,12 +2,6 @@
 
 $head['title'] = R_('Translation');
 
-$toc['anchors'] = array (
-        'started' => R_('Getting Started'),
-        'teamwork' => R_('Team Work'),
-        'coordinator' => R_('Team Coordinator'),
-        'transifex' => R_('Transifex Usage'));
-
 ?>
 
 <h1><?php echo $head['title'] ?></h1>

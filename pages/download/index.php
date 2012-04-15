@@ -4,16 +4,6 @@ include ('pages/versions.php');
 
 $head['title'] = R_('Download');
 
-$toc['anchors'] = array (
-        'stable' => R_('Stable release'),
-        'individual' => R_('Individual releases'),
-        'distros' => R_('Distributions'),
-        'artwork' => R_('Artwork'));
-
-if($preview_visible) {
-        $toc['anchors'] += array ('unstable' => R_('Preview release'));
-}
-
 ?>
 
 <h1><?php echo $head['title'] ?></h1>

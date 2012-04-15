@@ -13,14 +13,14 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfdesktop-rubberbanding.png" title="<?php E_('Multiple icons selection') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfdesktop-rubberbanding.png" title="<?php E_('Multiple icons selection') ?>" alt="" />
 </p>
 
 <p>
   <?php E_('<b>Xfce 4.6</b> features a brand new desktop menu which allows you to manipulate files as with the <b>Thunar</b> filemanager contextual menu, but also to open applications, exit your session, or access the help documentation.') ?>
 </p>
 
-<p class="image"><img src="http://cdn.xfce.org/about/tour/4.6/xfdesktop-menu.png" title="<?php E_('New desktop menu') ?>" alt="" /></p>
+<p class="image"><img src="<?php echo $static_media ?>/about/tour/4.6/xfdesktop-menu.png" title="<?php E_('New desktop menu') ?>" alt="" /></p>
 
 <h2><?php E_('Panel') ?></h2>
 
@@ -29,7 +29,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-panel-clock.png" title="<?php E_('New binary clock') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-panel-clock.png" title="<?php E_('New binary clock') ?>" alt="" />
 </p>
 
 <p>
@@ -43,7 +43,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-mixer.png" title="<?php E_('New sound mixer') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-mixer.png" title="<?php E_('New sound mixer') ?>" alt="" />
 </p>
 
 <h2><?php E_('Improved session manager') ?></h2>
@@ -53,7 +53,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-session-settings.png" title="<?php E_('Session settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-session-settings.png" title="<?php E_('Session settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -61,7 +61,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-session-logout.png" title="<?php E_('Session logout dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-session-logout.png" title="<?php E_('Session logout dialog') ?>" alt="" />
 </p>
 
 <h2><?php E_('Window manager') ?></h2>
@@ -74,7 +74,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfwm4-net-ping.png" title="<?php E_('Dialog to terminate busy applications') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfwm4-net-ping.png" title="<?php E_('Dialog to terminate busy applications') ?>" alt="" />
 </p>
 
 <p>
@@ -82,7 +82,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfwm4-new-menu.png" title="<?php E_('New actions menu') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfwm4-new-menu.png" title="<?php E_('New actions menu') ?>" alt="" />
 </p>
 
 <p>
@@ -90,7 +90,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfwm4-fill-operation.png" title="<?php E_('Fill operation') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfwm4-fill-operation.png" title="<?php E_('Fill operation') ?>" alt="" />
 </p>
 
 <p>
@@ -98,7 +98,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfwm4-resize.png" title="<?php E_('Flicker free resizing') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfwm4-resize.png" title="<?php E_('Flicker free resizing') ?>" alt="" />
 </p>
 
 <p>
@@ -106,7 +106,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfwm4-new-tweaks.png" title="<?php E_('New tweakable options') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfwm4-new-tweaks.png" title="<?php E_('New tweakable options') ?>" alt="" />
 </p>
 
 <h2><?php E_('File manager') ?></h2>
@@ -116,7 +116,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/thunar-wallpaper-plugin.png" title="Set an image in a Thunar folder as wallpaper" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-wallpaper-plugin.png" title="Set an image in a Thunar folder as wallpaper" alt="" />
 </p>
 
 <p>
@@ -124,7 +124,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/thunar-xdg-user-dirs.png" title="<?php E_('Thunar menu for user directories') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-xdg-user-dirs.png" title="<?php E_('Thunar menu for user directories') ?>" alt="" />
 </p>
 
 <p>
@@ -132,7 +132,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/thunar-mounting.png" title="<?php E_('Translucent icons for unmounted drives and volumes') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-mounting.png" title="<?php E_('Translucent icons for unmounted drives and volumes') ?>" alt="" />
 </p>
 
 <p>
@@ -140,7 +140,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/thunar-encrypted.png" title="<?php E_('Thunar support for encrypted devices') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-encrypted.png" title="<?php E_('Thunar support for encrypted devices') ?>" alt="" />
 </p>
 
 <h2><?php E_('New configuration dialogs') ?></h2>
@@ -150,13 +150,13 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-settings-manager.png" title="<?php E_('Xfce4 Settings Manager') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-settings-manager.png" title="<?php E_('Xfce4 Settings Manager') ?>" alt="" />
 </p>
 
 <h3><?php E_('Accessibility settings') ?></h3>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-accessibility-settings.png" title="<?php E_('Accessibility settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-accessibility-settings.png" title="<?php E_('Accessibility settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -166,7 +166,7 @@
 <h3><?php E_('Appearance settings') ?></h3>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-appearance-settings.png" title="<?php E_('Appearance settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-appearance-settings.png" title="<?php E_('Appearance settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -175,7 +175,7 @@
 
 <h3><?php E_('Display settings') ?></h3>
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-display-settings.png" title="<?php E_('Display settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-display-settings.png" title="<?php E_('Display settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -185,7 +185,7 @@
 <h3><?php E_('Keyboard settings') ?></h3>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-layout.png" title="<?php E_('Keyboard settings dialog, layout tab') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-keyboard-settings-layout.png" title="<?php E_('Keyboard settings dialog, layout tab') ?>" alt="" />
 </p>
 
 <p>
@@ -193,7 +193,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-shortcuts.png" title="<?php E_('Keyboard settings dialog, shortcuts tab') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-keyboard-settings-shortcuts.png" title="<?php E_('Keyboard settings dialog, shortcuts tab') ?>" alt="" />
 </p>
 
 <p>
@@ -203,7 +203,7 @@
 <h3><?php E_('Mouse settings') ?></h3>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-mouse-settings.png" title="<?php E_('Mouse settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-mouse-settings.png" title="<?php E_('Mouse settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -213,7 +213,7 @@
 <h3><?php E_('Desktop settings') ?></h3>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfdesktop-settings.png" title="<?php E_('Desktop settings dialog') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfdesktop-settings.png" title="<?php E_('Desktop settings dialog') ?>" alt="" />
 </p>
 
 <p>
@@ -227,7 +227,7 @@
 </p>
 
 <p class="image">
-  <img src="http://cdn.xfce.org/about/tour/4.6/xfce4-appfinder.png" title="<?php E_('New application finder') ?>" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/xfce4-appfinder.png" title="<?php E_('New application finder') ?>" alt="" />
 </p>
 
 <h2><?php E_('Links') ?></h2>

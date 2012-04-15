@@ -6,10 +6,9 @@ include ('pages/versions.php');
 $head['description'] = 'Xfce Desktop Environment';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
-$head['pagediv'] = false;
 ?>
 
-<div id="slidewrap" class="page_contents">
+<div id="slidewrap">
 <div id="slide">
 	<ul>
 		<li>
@@ -68,23 +67,40 @@ var slideshow=new TINY.slider.slide('slideshow',{
 });
 </script>
 
-<div class="page_contents file_frontpage">
+<div class="frontpage_cols">
 
 <div class="column">
 	<div class="lcolumn">
 		<h2><?php E_('Xfce Desktop Environment') ?></h2>
 		<p><?php E_('Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.') ?></p>
 		<ul>
-			<li><a href="/download"><?php printf (R_('Download the latest %s release'), $stable_version) ?></a></li>
-			<li><a href="/download/changelogs/4.8.0"><?php printf (R_('Release notes for %s'), $stable_version) ?></a></li>
-			<li><a href="/about/tour"><?php E_('Visual tour of Xfce 4.8') ?></a></li>
-			<li><a href="/about/screenshots"><?php E_('Screenshots') ?></a></li>
+			<li>
+				<a href="/download"><?php E_('Download') ?> 
+					<span>&ndash; <?php E_('get the source tarballs') ?></span>
+				</a>
+			</li>
+			<li>
+				<a href="/download/changelogs/4.10"><?php E_('ChangeLog') ?>
+					<span>&ndash; <?php printf (R_('release notes for Xfce %s'), $stable_version) ?></span>
+				</a>
+			</li>
+			<li>
+				<a href="/about/tour"><?php printf (R_('%s Tour'), $stable_version) ?>
+					<span>&ndash; <?php E_('visual tour about new features in the lastest releases') ?></span>
+				</a>
+			</li>
+			<li>
+				<a href="/about/screenshots"><?php E_('Screenshots') ?>
+					<span>&ndash; <?php E_('examples of Xfce desktops ordered by version') ?></span>
+				</a>
+			</li>
 		</ul>
 	</div>
 </div>
 
 <div class="column">
 	<div class="rcolumn">
+		<span class="rss"><a href="http://www.xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
 		<h2><?php E_('Latest News') ?></h2>
 		<?php
 			$count = 2;
@@ -119,3 +135,5 @@ var slideshow=new TINY.slider.slide('slideshow',{
 </div>
 
 <div class="clearboth"></div>
+
+</div>

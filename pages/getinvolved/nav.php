@@ -1,17 +1,31 @@
-<?php
+<h2><?php E_('Related Pages') ?></h2>
+<ul>
+	<li>
+		<a href="/getinvolved"><?php E_('Get Involved') ?></a>
+	</li>
+	<li>
+		<a href="/getinvolved/translation"><?php E_('Translation') ?>
+			<span>&ndash; <?php E_('information about translating Xfce') ?></span>
+		</a>
+	</li>
+</ul>
 
-$toc['menu'] = array (
-	'getinvolved' => R_('Get Involved'),
-	/*'getinvolved/documentation' => R_('Documentation'),*/
-	'getinvolved/translation' => R_('Translation'),
-	/*'getinvolved/development' => R_('Development'),
-	'getinvolved/promotion' => R_('Promotion'),
-	'getinvolved/testing' => R_('Testing'),
-	'getinvolved/bugreporting' => R_('Bug Reporting')*/);
 
-$toc['external'] = array (
-	'https://bugzilla.xfce.org' => R_('Report a bug'),
-	'https://translations.xfce.org' => R_('Translations'),
-	'http://buildbot.xfce.org' => R_('Buildbot'));
-
-?>
+<h2><?php E_('Related Sites') ?></h2>
+<ul>
+	<li>
+		<a href="https://bugzilla.xfce.org"><?php E_('Bug Tracker') ?>
+			<span>&ndash; <?php E_('report problems, patches or ideas to help making Xfce better') ?></span>
+		</a>
+	</li>
+	<li>
+		<a href="https://translations.xfce.org"><?php E_('Transifex') ?>
+			<span>&ndash; <?php E_('the Xfce translation portal') ?></span>
+		</a>
+	</li>
+	<li>
+		<a href="http://buildbot.xfce.org"><?php E_('Buildbot') ?>
+			<span>&ndash; <?php E_('view the buildslaves activity') ?></span>
+		</a>
+	</li>
+</ul>
