@@ -15,6 +15,10 @@ $lang = null;
 function R_($text)
 {
 	global $gettext_reader, $lang;
+
+	if (isset ($_GET['testpo']))
+		return str_repeat ("x ", strlen ($text) / 2);
+
 	if ($gettext_reader)
 		return $gettext_reader->translate($text);
 	else
@@ -124,13 +128,6 @@ function lookup_user_language ($valid_values, $default = 'en')
 function mungify_mail ($email)
 {
 	return '<span class="mungify">'. strrev ($email) .'</span>';
-}
-
-function str_has_prefix ($str, $prefix)
-{
-        if (($result = strpos ($str, $prefix)) === false)
-                return false;
-        return ($result == 0 ? true : false);
 }
 
 /* if no language if found, lookup the accepted browser languages */

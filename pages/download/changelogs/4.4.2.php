@@ -32,7 +32,7 @@
 
 <blockquote><p>
 Please see
-<a href="http://thunar.xfce.org/news.html#2007-12-02">the Thunar website</a>
+<a href="http://thunar.xfce.org/news.html">the Thunar website</a>
 for a list of changes.
 </p></blockquote>
 
@@ -200,14 +200,13 @@ for a list of changes.
         Tegegne Tefera (am), Dimitri Gogelia (ka), Vincent Tunru (nl),
         Pablo Vieira (pt_PT), Fábio Nogueira (pt_PT).</li>
   <li>New translations: RPrieditis (lv).</li>
-</li>
 </ul>
 
 <h2>File manager (Thunar):</h2>
 
 <blockquote><p>
 Please see
-<a href="http://thunar.xfce.org/news.html#2007-12-02">the Thunar website</a>
+<a href="http://thunar.xfce.org/news.html">the Thunar website</a>
 for a list of changes.
 </p></blockquote>
 

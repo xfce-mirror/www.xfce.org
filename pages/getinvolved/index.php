@@ -11,13 +11,13 @@
 
 <h2><?php E_('Documentation') ?></h2>
 <p>
-  <?php E_('There\'s lots of people using and testing Xfce. By providing useful and up-to-date documentation, you will make a big impact on helping people understand how to make the most of the Xfce Desktop Environement.') ?>
+  <?php E_('There\'s lots of people using and testing Xfce. By providing useful and up-to-date documentation, you will make a big impact on helping people understand how to make the most of the Xfce Desktop Environment.') ?>
   <a href="http://docs.xfce.org/wiki/documentation"><?php E_('Learn More &rarr;') ?></a>
 </p>
 
 <h2><?php E_('Translation') ?></h2>
 <p>
-  <?php E_('Are you fluent in multiple languages? By contributing your translations of text to the Xfce Desktop Environement, you will help Xfce be a better part of the global market and more accessible to the millions of potential users out there.') ?>
+  <?php E_('Are you fluent in multiple languages? By contributing your translations of text to the Xfce Desktop Environment, you will help Xfce be a better part of the global market and more accessible to the millions of potential users out there.') ?>
   <a href="/getinvolved/translation"><?php E_('Learn More &rarr;') ?></a>
 </p>
 

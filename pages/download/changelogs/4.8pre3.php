@@ -32,7 +32,7 @@
 <h2>File Manager <em>(thunar)</em>:</h2>
 
 <ul>
-  <li>Fix unused variable warning when building with GLib < 2.20.</li>
+  <li>Fix unused variable warning when building with GLib &lt; 2.20.</li>
   <li>Fix file operation status icon not disappearing by hiding the icon prior to destroying it (bug #6891). Patch by Xavier D.</li>
   <li>Fix Gtk 2.16 function.</li>
   <li>Fix twp plugin for images with a quote in file name (bug #5056).</li>

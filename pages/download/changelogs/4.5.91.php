@@ -64,7 +64,7 @@
   <li>Bring back the "show icons in menu" preferences for the desktop
     menu and window list menu.</li>
   <li>Add support for XDG user dirs for the Desktop and Templates
-    directories.  Patch from Andrea Santilli <yawara@quipo.it> (bug #4365) ?>).</li>
+    directories.  Patch from Andrea Santilli (bug #4365) ?>).</li>
   <li>Fix xfdesktop/xfce menu crashing when installing new applications that
     install .desktop files and icons (bug #3615) ?>).</li>
   <li>Fix occasional "double menu" after menu/icon files change on disk
@@ -211,64 +211,27 @@
 <ul>
   <li>Man page created for orage and globaltime</li>
   <li>Globaltime added.</li>
-    <ul>
-      <li>shows several clocks from different timezones</li>
-      <li>can be raised and hidden by clicking middle mouse
-            button on orage clock panel plugin</li>
-      <li>has timetune feature, which makes it easy to see what
-            the time is in other clocks on certain time</li>
-    </ul>
   <li>All visible dates are now in country native format (strftime (%x))</li>
   <li>All parameters now visible in preferences</li>
-    <ul>
-      <li>restructured parameter screens</li>
-    </ul>
   <li>New appointment types: TODO and JOURNAL</li>
-    <ul>
-      <li>TODO can be used to remember things that needs to done</li>
-      <li>JOURNALs are for notes and things to remember</li>
-    </ul>
   <li>Possible to rename Orage calendar files</li>
-  <li>External files can be used</li>
-    <ul>
-      <li>it is possible to add files from other sources
-            and Orage keeps track on those.</li>
-    </ul>
+  <li>External files can be used it is possible to add files from other sources
+      and Orage keeps track on those.</li>
   <li>Export and import appointments.</li>
   <li>Text search in event list</li>
   <li>Orage is now dependent on local libical.</li>
-    <ul>
-      <li>standard libical cannot be used due to several fixes
-            done to Orage's private copy</li>
-    </ul>
   <li>Daylist view</li>
-    <ul>
-      <li>possible to see calendar in day view format in addition 
-            to the old list view.</li>
-    </ul>
-  <li>New alarms.</li>
+  <li>New alarms.
     <ul>
       <li>libnotify alarms</li>
       <li>script type alarms</li>
-    </ul>
+    </ul></li>
   <li>Possibility to set alarm based on end time also</li>
   <li>Possible to define default alarm</li>
   <li>Persistent alarms</li>
-    <ul>
-      <li>persistent alarms are raised after Orage is started
-            even if your computer or Orage has been turned off when the 
-            alarm happened.</li>
-    </ul>
   <li>Orage and orageclock now only wake up when needed.</li>
-    <ul>
-      <li>saves battery in laptops when timer wakes up only when
-            needed instead of regularly every second.</li>
-    </ul>
   <li>Main calendar now has list of events and todos.</li>
   <li>Better compatibility with evolution ical files</li>
-  <li>Categories added</li>
-    <ul>
-      <li>also possible to give colour to certain category
+  <li>Categories added also possible to give colour to certain category
             and then colour is shown in even list view</li>
-    </ul>
 </ul>

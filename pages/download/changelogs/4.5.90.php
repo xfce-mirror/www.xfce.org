@@ -81,7 +81,7 @@
   <li>Add support for 'zoomed' backdrop mode: fill the screen with the
         backdrop edge-to-edge by scaling and/or cropping as necessary.
         This doesn't mess with the aspect ratio and is pretty nifty.  Patch
-        is from <trondsg@gmail.com> (bug #3138).</li>
+        is from (bug #3138).</li>
   <li>Stop using our forked libnetk from libxfcegui4, and use the much
         better supported original libwnck.  Patch is from Nick Schermer
         (bug #3487).</li>
@@ -184,7 +184,7 @@
   <li>Put /usr/local/share first (bug #2967).</li>
   <li>Fix an issue with the syntax in startxfce4 script (bug #2967).</li>
   <li>Use real GtkComboBoxEntry instead of separate GtkEntry/Button for
-        xfrun4 dialog (bug #3820).<li>
+        xfrun4 dialog (bug #3820).</li>
   <li>Remove Xft.dpi fallback setting since xfsettingsd handles this now.</li>
   <li>Update xinitrc to run xfsettingsd instead of xfce-mcs-manager (only
         used when the user has disabled the session manager).</li>

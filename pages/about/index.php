@@ -22,7 +22,7 @@
 <h2><?php E_('Features') ?></h2>
 
 <p>
-  <?php E_('Xfce contains a number of core components for the minimum tasks you\'d expect from a desktop environement:') ?>
+  <?php E_('Xfce contains a number of core components for the minimum tasks you\'d expect from a desktop environment:') ?>
 </p>
 
 <dl>

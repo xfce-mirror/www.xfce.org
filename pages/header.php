@@ -13,6 +13,7 @@ else
 	<title><?php echo $title ?></title>
 	<link rel="shortcut icon" href="/style/favicon.png" type="image/png" />
 	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
+	<meta name="content-language" content="<?php echo $lang ?>" />
 <?php
 	if (isset ($head['description']))
 		echo "\t<meta name=\"description\" content=\"".$head['description']."\" />\n";

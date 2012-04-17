@@ -60,7 +60,7 @@
   <li>Fix broken translations in applications using libxfce4util (bug #5842).</li>
   <li>Performance optimizations.</li>
   <li>Improve xfce_expand_variables to expand ~ in more cases (bug #6742).</li>
-  <li>Deprecate XfceDesktopEntry.</lI>
+  <li>Deprecate XfceDesktopEntry.</li>
   <li>Updated translations.</li>
 </ul>
 
@@ -152,7 +152,7 @@
   <li>Port to libxfce4ui and GIO.</li>
   <li>Rework the tooltip string code a little.</li>
   <li>Don't watch category changes in xfconf (bug #6043).</li>
-  <li>Launch items with startup notification.<li>
+  <li>Launch items with startup notification.</li>
   <li>Implement monitoring by reloading all contents on menu change events.</li>
   <li>Updated translations.</li>
 </ul>
@@ -169,23 +169,21 @@
   <li>Item (plugin) editor in the preferences dialog, so you can  easily add, move, delete and edit plugins that are sometimes hard to  reach.</li>
   <li>Using Xfconf for storing the panel settings. Panels also  watches the Xfconf channel for changes, except for adding and removing  panels.</li>
   <li>New code for monitor/screen positioning. This should work a lot better with randr.</li>
-  <li>DND of desktop-files on the panel to create new launchers.</Ii>
+  <li>DND of desktop-files on the panel to create new launchers.</li>
   <li>Possibility to add new plugins from the command line, including startup arguments.</li>
   <li>External plugins are automatically restarted if they have not  crashed in the last 60 seconds. If they crash more then once in this  time window, the user is asked what to do (restart or  remove).</li>
-  <li>Gtk style properties for popup/popdown delay (bug #5707).
+  <li>Gtk style properties for popup/popdown delay (bug #5707).</li>
   <li>Hidden option to disable struts for windows on a screen edge,  so the space is used by the window manager for other  windows.</li>
   <li>Plugin API should still be the same, however the ABI changed  so you need to recompile plugins against this version of the  panel.</li>
   <li>New way to run plugins compiled as modules externally.  Whether a plugin runs internal or external is controlled by a boolean in  the desktop-file of the plugin. This does not affect the 'old' external  plugins that are compiled as binaries, it is however recommended to  port plugins to this new framework (only Makefile and macro change)  since it is more flexible.</li>
   <li>Communication between the panel and wrapper (that embeds  plugins to run external) is handled through D-Bus.</li>
   <li>New way to build plugins as GObjects with XfcePanelPlugin as  parent type. This gives all advantages of GObject like type  checking.</li>
-  <li>New settings dialog for the actions plugin  that allows one or two actions in the plugin
-  in each order you want.</li>
+  <li>New settings dialog for the actions plugin  that allows one or two actions in the plugin in each order you want.</li>
   <li>New application menu plugin.</li>
   <li>New fuzzy clock mode and improved vertical orientation for the clock plugin.</li>
   <li>New directory menu plugin: menu that provides a directory  tree in a menu. It allows to quickly open a Terminal or File Manager for  some directory.</li>
   <li>Support to create a launcher from the command line with a number of desktop files as argument.</li>
-  <li>New dialogs to configure launchers, with an application finder like interface to add new 
-  applications and using the Exo item editor for modifying launchers.</li>
+  <li>New dialogs to configure launchers, with an application finder like interface to add new  applications and using the Exo item editor for modifying launchers.</li>
   <li>Button to quickly access the Xfwm4 workspace settings in the pager plugin preferences.</li>
   <li>Support for transparent tray icons (requires at least Gtk 2.16).</li>
   <li>Option to only show icons in the Windows Button plugin. This drops the Icon Box plugin.</li>
@@ -278,7 +276,7 @@
   <li>Don't use consolekit when it's not enabled.</li>
   <li>Remove consolekit session creation in xfce4-session.</li>
   <li>Use cairo to draw the fadeout.</li>
-  <li>Remove obsolete gtk_tooltip_* calls and other < gtk 2.14 code.</li>
+  <li>Remove obsolete gtk_tooltip_* calls and other &lt; gtk 2.14 code.</li>
   <li>Fix the check for legacy sm.</li>
   <li>Fix configure build options.</li>
   <li>Print build config after running configure.</li>
@@ -376,8 +374,8 @@
   <li>Add new keyboard shortcut to switch between windows of the same application.</li>
   <li>Add new keyboard shortcut to switch between windows of different applications only.</li>
   <li>Port to libxfce4ui + GtkBuilder and drop libxfcegui4 dependency.</li>
-  <li>Display an application switcher window per physical monitor (bug #5229).
-  <li>Fix opacity for newly mapped window not focused by default (bug #5706).
+  <li>Display an application switcher window per physical monitor (bug #5229).</li>
+  <li>Fix opacity for newly mapped window not focused by default (bug #5706).</li>
   <li>Add new option "cycle_apps_only" to switch between regular  toplevels only (avoiding dialogs - This option coupled with the new  shortcut allows for faster window selection through  keyboard).</li>
   <li>Implement prelinminary support for snap on resize.</li>
   <li>Implement a workaround to avoid loosing key release events.</li>

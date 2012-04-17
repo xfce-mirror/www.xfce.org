@@ -3,7 +3,7 @@
 include ('pages/news-array.php');
 include ('pages/versions.php');
 
-$head['description'] = 'Xfce Desktop Environment';
+$head['description'] = 'Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
 $head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
 ?>

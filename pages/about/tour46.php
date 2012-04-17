@@ -116,7 +116,7 @@
 </p>
 
 <p class="image">
-  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-wallpaper-plugin.png" title="Set an image in a Thunar folder as wallpaper" alt="" />
+  <img src="<?php echo $static_media ?>/about/tour/4.6/thunar-wallpaper-plugin.png" title="<?php E_('Set an image in a Thunar folder as wallpaper') ?>" alt="" />
 </p>
 
 <p>

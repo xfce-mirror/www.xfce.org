@@ -3,11 +3,11 @@
 $head['title'] = R_('Changelogs');
 
 $major_versions = array (
-        '4.10' => 'Xfce 4.10',
-        '4.8' => 'Xfce 4.8',
-        '4.6' => 'Xfce 4.6',
-        '4.4' => 'Xfce 4.4',
-        '4.2' => 'Xfce 4.2');
+        '/^4\.10(\.|pre)/' => R_('Xfce 4.10'),
+        '/^4\.8(\.|pre)/' => R_('Xfce 4.8'),
+        '/^4\.[56]\./' => R_('Xfce 4.6'),
+        '/^4\.[34]\./' => R_('Xfce 4.4'),
+        '/^4\.[12]\./' => R_('Xfce 4.2'));
 
 $path = 'pages/download/changelogs/';
 $versions = array ();
@@ -38,15 +38,14 @@ rsort ($versions);
 
 $printed = 0;
 
-foreach ($major_versions as $id => $name)
+foreach ($major_versions as $pattern => $name)
 {
-	echo '<h2 id="'.$id.'">'.$name.'</h2>';
+	echo '<h2>'.$name.'</h2>';
 	echo '<ul>';
 
-	$oddid = sprintf ('%0.1f', floatval ($id) - 0.1);
 	foreach ($versions as $version)
 	{
-		if (str_has_prefix ($version, $id) || str_has_prefix ($version, $oddid))
+		if (preg_match ($pattern, $version))
 		{
 			echo '<li><a href="/download/changelogs/'.$version.'">'.$version.'</a></li>';
 			$printed++;
@@ -57,5 +56,5 @@ foreach ($major_versions as $id => $name)
 }
 
 if ($printed != count ($versions))
-	echo 'Warning, not all changelog versions were printed!'
+	echo '<p>Warning, not all changelog versions were printed!</p>';
 ?>

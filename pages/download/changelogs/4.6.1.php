@@ -32,7 +32,7 @@
 <h2>Window Manager <em>(xfwm4)</em>:</h2>
 <ul>
   <li>Reduce repaint timeout in the compositor (bug #5080)</li>
-  <li>Fix applications getting focused when focus on map is unset even without focus stealing prevention enabled (bug #5044)
+  <li>Fix applications getting focused when focus on map is unset even without focus stealing prevention enabled (bug #5044)</li>
   <li>Reduce minimum timeout for focus delay in focus follow mouse (100ms was way too much)</li>
   <li>Fix raise delay settings in xfwm4 dialog being totally ignored</li>
   <li>Avoid unecessary warnings about timestamps at startup</li>
@@ -90,7 +90,6 @@
   <li>Updated translations: pl, es, it, gl, pl, pt, uk</li>
 </ul>
 
-<!------------------------------------>
 <h2>File Manager <em>(thunar)</em>:</h2>
 <ul>
   <li>Put quotes around filenames in thunar-wallpaper-plugin (bug #5056)</li>
@@ -99,7 +98,7 @@
 
 <h2>Mixer <em>(xfce4-mixer)</em>:</h2>
 <ul>
-  <li>Make <Control>q and <Control>s trigger the corresponding actions.</li>
+  <li>Make &lt;Control&gt;q and &lt;Control&gt;s trigger the corresponding actions.</li>
   <li>Minor cosmetic fixes (row spacing of 6px in tables).</li>
   <li>Add missing AudioVideo category which is obligatory if you use the Audio category (bug #4933).</li>
   <li>Display mute/record state properly on startup (bug #5002). </li>

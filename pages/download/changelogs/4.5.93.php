@@ -24,7 +24,7 @@
 
 <h2>Extension Library <em>(exo)</em>:</h2>
 <ul>
-  <li>Don't setup bindings for <Shift>n and <Shift>p in ExoIconView so that
+  <li>Don't setup bindings for &lt;Shift&gt;n and &lt;Shift&gt;p in ExoIconView so that
   type-ahead search works as expected (bug #4633).</li>
   <li>Remove GenericName and "Xfce 4" prefix from
   exo-preferred-applications.desktop.</li>
@@ -57,7 +57,7 @@
   <li>Fix smart placement not working for windows with height or width larger than
   actual screen size (Bug# 3126).</li>
   <li>Remove maximization if a client updates its size max size hint (bug #4706).</li>
-  <li>String review by Josh Saddler <nightmorph@gentoo.org> (bug #4703).</li>
+  <li>String review by Josh Saddler (bug #4703).</li>
   <li>Fix fill horizontally and vertically not working as expected (bug #4712).</li>
   <li>Prevent "fill" from expanding beyond physical monitor.</li>
   <li>Do not mark gtk+ stock labels as translatable (bug #4722).</li>

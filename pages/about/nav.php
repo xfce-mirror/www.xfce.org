@@ -11,9 +11,9 @@
 		</a>
 		
 		<ul>
-			<li><a href="/about/tour48">4.8 Tour</a></li>
-			<li><a href="/about/tour46">4.6 Tour</a></li>
-			<li><a href="/about/tour44">4.4 Tour</a></li>
+			<li><a href="/about/tour48"><?php E_('4.8 Tour') ?></a></li>
+			<li><a href="/about/tour46"><?php E_('4.6 Tour') ?></a></li>
+			<li><a href="/about/tour44"><?php E_('4.4 Tour') ?></a></li>
 		</ul>
 	</li>
 	<li>

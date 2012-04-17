@@ -33,9 +33,8 @@ $head['title'] = R_('Release Model');
   <li>gtk-xfce-engine</li>
   <li>libxfce4ui</li>
   <li>libxfce4util</li>
-  <li>thunar-vfs</li>
   <li>thunar</li>
-  <li>xfce-utils</li>
+  <li>thunar-volman</li>
   <li>xfce4-appfinder</li>
   <li>xfce4-panel</li>
   <li>xfce4-session</li>
@@ -43,6 +42,9 @@ $head['title'] = R_('Release Model');
   <li>xfconf</li>
   <li>xfdesktop</li>
   <li>xfwm4</li>
+  <li>garcon</li>
+  <li>tumbler</li>
+  <li>xfce4-power-manager</li>
 </ul>
 
 <p>
@@ -54,7 +56,6 @@ $head['title'] = R_('Release Model');
 <ul>
   <li>GTK+</li>
   <li>GLib</li>
-  <li>garcon</li>
 </ul>
 
 <h1 id="cycle"><?php E_('The Release Cycle') ?></h1>

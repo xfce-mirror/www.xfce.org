@@ -2,7 +2,7 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-<p><?php E_("This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>. The tours of <a href=\"/about/tour46\">Xfce 4.6</a> and <a href=\"/about/tour44\">Xfce 4.4</a> are also still available.") ?></p>
+<p><?php E_("This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
 <h2><?php E_("Thunar file browser") ?></h2>
 

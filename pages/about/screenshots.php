@@ -20,27 +20,27 @@ function print_shots ($group, $count, $format = 'png')
   <?php E_('Some screenshots of Xfce, ordered by version.') ?>
 </p>
 
-<h2>Xfce 4.8</h2>
+<h2><?php E_('Xfce 4.8') ?></h2>
 <p>
   <?php print_shots ('4.8', 4); ?>
 </p>
 
-<h2>Xfce 4.6</h2>
+<h2><?php E_('Xfce 4.6') ?></h2>
 <p>
   <?php print_shots ('4.6', 7); ?>
 </p>
 
-<h2>Xfce 4.4</h2>
+<h2><?php E_('Xfce 4.4') ?></h2>
 <p>
   <?php print_shots ('4.4', 6); ?>
 </p>
 
-<h2>Xfce 4.2</h2>
+<h2><?php E_('Xfce 4.2') ?></h2>
 <p>
   <?php print_shots ('4.2', 5, 'jpg'); ?>
 </p>
 
-<h2>Xfce 4.0</h2>
+<h2><?php E_('Xfce 4.0') ?></h2>
 <p>
   <?php print_shots ('4.0', 2); ?>
 </p>

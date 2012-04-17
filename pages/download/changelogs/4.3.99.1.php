@@ -20,7 +20,7 @@
 
 <h2>Extension Library <em>(exo)</em>:</h2>
 <ul>
-  <li>See the release notes at <a href="http://thunar.xfce.org/news.html#2006-09-03">http://thunar.xfce.org/news.html</a>.</li>
+  <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
 
@@ -65,7 +65,7 @@
   <li>Allow panel plugin's menu to be opened at the pointer position (bug #2103).</li>
   <li>Don't allow cut or delete if the file/dir isn't writeable (bug #2081).</li>
   <li>Memory leak fixes (bug #1910).</li>
-  <li>Put the icon context menu on the proper screen (bug #2351).</li></li>
+  <li>Put the icon context menu on the proper screen (bug #2351).</li>
 </ul>
 
 
@@ -105,7 +105,7 @@
 
 <h2>Terminal Emulator <em>(Terminal)</em>:</h2>
 <ul>
-  <li>Parse <tt>file:</tt>-URIs dropped to a Terminal window properly and format them so they can be used in shell commands directly (bug #2076<).</li>
+  <li>Parse <tt>file:</tt>-URIs dropped to a Terminal window properly and format them so they can be used in shell commands directly (bug #2076).</li>
   <li>Use the thumbnail preview support for the background image selection
 that was added with exo 0.3.1.10rc1 (bug #2069).</li>
   <li>Add <tt>'~'</tt> to the default word chars.</li>
@@ -114,7 +114,7 @@ that was added with exo 0.3.1.10rc1 (bug #2069).</li>
 
 <h2>File Manager <em>(Thunar)</em>:</h2>
 <ul>
-  <li>See the release notes at <a href="http://thunar.xfce.org/news.html#2006-09-03">http://thunar.xfce.org/news.html</a>.</li>
+  <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
 

@@ -215,10 +215,10 @@
 <h2><?php E_('Links') ?></h2>
 
 <ul>
-  <li><a href="http://www.xfce.org/">Xfce website</a></li>
-  <li><a href="http://thunar.xfce.org/">Thunar website</a></li>
+  <li><a href="http://www.xfce.org/"><?php E_('Xfce website') ?></a></li>
+  <li><a href="http://thunar.xfce.org/"><?php E_('Thunar website') ?></a></li>
 </ul>
 
 <h2><?php E_('Credits') ?></h2>
 
-<p>Written by Benedikt Meurer, 21 Jan 2007</p>
+<p><?php E_('Written by Benedikt Meurer, 21 Jan 2007') ?></p>
