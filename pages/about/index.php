@@ -37,7 +37,10 @@
   
   <dt><?php E_('Session Manager') ?></dt>
   <dd><?php E_('Controls the login and power management of the desktop and allows you to store multiple login sessions.') ?></dd>
-  
+
+  <dt><?php E_('Application Finder') ?></dt>
+  <dd><?php E_('Shows the applications installed on your system in categories, so you can quickly find and launch them.') ?></dd>
+
   <dt><?php E_('File Manager') ?></dt>
   <dd><?php E_('Provides the basic file management features and unique utilities like the bulk renamer.') ?></dd>
   
