@@ -80,7 +80,7 @@ var slideshow=new TINY.slider.slide('slideshow',{
 			</li>
 			<li>
 				<a href="/about/tour"><?php printf (R_('%s Tour'), $stable_version) ?>
-					<span>&ndash; <?php E_('visual tour about new features in the lastest releases') ?></span>
+					<span>&ndash; <?php E_('visual tour about new features in the latest releases') ?></span>
 				</a>
 			</li>
 			<li>

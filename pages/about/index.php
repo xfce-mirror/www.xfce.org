@@ -12,7 +12,7 @@
 </p>
 
 <p>
-  <?php E_('Another priority of Xfce is adhereance to standards, specifically those defined at <a href="http://freedesktop.org">freedesktop.org</a>.') ?>
+  <?php E_('Another priority of Xfce is adherence to standards, specifically those defined at <a href="http://freedesktop.org">freedesktop.org</a>.') ?>
 </p>
 
 <p>

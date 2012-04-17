@@ -34,5 +34,5 @@ $head['title'] = R_('Community');
 <h2 id="social"><?php E_('Social Networks') ?></h2>
 
 <p>
-  <?php E_('The Identi.ca <a href="http://identi.ca/xfce" class="external">Xfce channel</a> is a place where we automatically post all release announcements. It is no surprice tho that most social networks like Facebook, Twitter and Google+ have Xfce places and pages.') ?>
+  <?php E_('The Identi.ca <a href="http://identi.ca/xfce" class="external">Xfce channel</a> is a place where we automatically post all release announcements. It is no surprise tho that most social networks like Facebook, Twitter and Google+ have Xfce places and pages.') ?>
 </p>

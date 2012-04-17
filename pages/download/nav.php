@@ -20,7 +20,7 @@
 	</li>
 	<li>
 		<a href="http://docs.xfce.org/xfce/building"><?php E_('Building') ?>
-			<span>&ndash; <?php E_('documentation on building Xfce from sourc') ?></span>
+			<span>&ndash; <?php E_('documentation on building Xfce from source') ?></span>
 		</a>
 	</li>
 	<li>
