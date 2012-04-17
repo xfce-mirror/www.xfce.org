@@ -1,11 +1,5 @@
 <h1>Xfce 4.8.0 Changelog</h1>
 
-<ul>
-  <li><a href="/download/changelogs/4.8pre1">Changes introduced in 4.8pre1.</a></li>
-  <li><a href="/download/changelogs/4.8pre2">Changes introduced in 4.8pre2.</a></li>
-  <li><a href="/download/changelogs/4.8pre3">Changes introduced in 4.8pre3.</a></li>
-</ul>
-
 <h2>Extension Library <em>(exo)</em>:</h2>
 <ul>
   <li>Add main category to exo-open desktop files.</li>
