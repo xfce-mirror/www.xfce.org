@@ -115,11 +115,9 @@ var slideshow=new TINY.slider.slide('slideshow',{
 					 '<br />'.date ('Y', $stamp).'</span></div>';
 
 				echo '<div class="post-wrap">';
-				echo '<p>'.$item['paragraphs'][0];
-
-				echo ' <a href="'.$link.'">';
-				E_('Learn More &rarr;');
-				echo '</a></p></div>';
+				echo '<p>'.$item['paragraphs'][0] .' ';
+				learnmore ($link);
+				echo '</p></div>';
 
 				if (--$count <= 0)
 					break;

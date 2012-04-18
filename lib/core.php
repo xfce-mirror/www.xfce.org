@@ -31,6 +31,14 @@ function E_($text)
 	echo R_($text);
 }
 
+/* Link */
+function learnmore ($link)
+{
+	/* to keep this string translatable, there is a dummy
+	 * "Learn more" in the pages.projects/index.php page */
+	echo '<a href="'.$link.'">'. R_('Learn&nbsp;More&nbsp;&rarr;') .'</a>';
+}
+
 /* lookup the coresponding page for an uri */
 function lookup_page($uri)
 {

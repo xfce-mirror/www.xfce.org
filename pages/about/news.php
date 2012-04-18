@@ -59,10 +59,9 @@ foreach ($news as $item)
     }
   else
     {
-      echo '<p>'.$item['paragraphs'][0];
-      echo ' <a href="'.$link.'">';
-      E_('Learn More &rarr;');
-      echo '</a></p>';
+      echo '<p>'.$item['paragraphs'][0] .' ';
+      learnmore ($link);
+      echo '</p>';
     }
 
   echo '</div>';
