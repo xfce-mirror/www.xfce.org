@@ -7,6 +7,7 @@ $languages = array (
 	'it' => 'Italian',
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
+	'lt' => 'Lithuanian',
 	'sk' => 'Slovak',
 	'zh_CN' => 'Chinese (China)');
 
