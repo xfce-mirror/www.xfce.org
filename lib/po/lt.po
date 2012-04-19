@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-04-18 18:36+0200\n"
-"PO-Revision-Date: 2012-04-19 07:45+0300\n"
+"PO-Revision-Date: 2012-04-19 09:33+0300\n"
 "Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
 "Language-Team: Lietuvių <>\n"
 "Language: \n"
@@ -232,7 +232,7 @@ msgstr "Apie"
 #: header.php:57 frontpage.php:72 download/nav.php:4 download/index.php:5
 #: about/news.php:54
 msgid "Download"
-msgstr "Atsiuntimai"
+msgstr "Atsisiųsti"
 
 #: header.php:58 community/index.php:3
 msgid "Community"
@@ -587,11 +587,11 @@ msgstr "vizualus turas, parodantis naujas, naujos versijos, galimybes"
 
 #: about/nav.php:14
 msgid "4.8 Tour"
-msgstr "4.08 Turas"
+msgstr "4.8 Turas"
 
 #: about/nav.php:15
 msgid "4.6 Tour"
-msgstr "4.06 Turas"
+msgstr "4.6 Turas"
 
 #: about/nav.php:16
 msgid "4.4 Tour"
@@ -2531,6 +2531,9 @@ msgid ""
 "file operations in Thunar and tiling improvements in Xfwm4. Everything else "
 "is bug fixes and a _lot_ of translation updates."
 msgstr ""
+"Šiame leidime yra naujų funkcijų, tokių kaip pagerintas failų operacijų "
+"atsakomumas, Thunar programoje ir dėstymo patobulinimai Xfwm4. Visa kita tai "
+"yra tik klaidų pataisymai ir daug vertimų atnaujinimų."
 
 #: news-array.php:17
 msgid ""
@@ -2538,12 +2541,18 @@ msgid ""
 "thoughts, blogging, tweeting or by filing bug reports! With your help, 4.10 "
 "will be the best release ever (at least until 4.12)!"
 msgstr ""
+"Tikimės jog jums patiks šis naujas leidimas. Parašykite mums apie savo "
+"įspūdžius, parašykite savo mintis tinklaraštyje, twiteryje ar užpildydami "
+"pranešimą apie klaidas! Su jūsų pagalba, 4.10 bus geriausias leidimas iš "
+"visų (bent jau iki 4.12)!"
 
 #: news-array.php:18 news-array.php:31
 msgid ""
 "Kind regards and thanks to everyone who has contributed to this release,<br /"
 ">The Xfce development team"
 msgstr ""
+"Linkėjimai ir padėka visiems kurie prisidėjo prie šio leidimo, <br />Xfce "
+"kūrėjų komanda"
 
 #: news-array.php:20
 msgid "Xfce 4.10pre1 released"
@@ -2582,6 +2591,23 @@ msgid ""
 "now has support for tiling windows and arrow key navigation in the task "
 "switcher."
 msgstr ""
+"Šiame leidime yra didelių pokyčių Xfce branduolio elementams, tikimės jog "
+"jie patenkins visus prašymus. Tarp labiausiai matomų atnaujinimų yra nauja "
+"programų ieškyklė, kuri sujungia senos „appfinder“ ir „xfrun4“ "
+"funkcionalumą. Skydelis turi naują vertikalų režimą [aka Deskbar], kuris "
+"geriau išnaudoja vietą, plačiaekraniuose monitoriuose. Taipogi atsirado "
+"naujas veiksmų įskiepis. Nustatymų pusėje, nustatymų pagelbiklis yra "
+"integruotas į xsettingsd, taip sutaupomas vienas aktyvus procesas. Taipogi "
+"perdarytas nustatymų langas su kategorijomis ir pagal nutylėjimą įjungtais "
+"prijungiamais dialogais. Pelės nustatymuose, nauji Synaptics ir Wacom "
+"nustatymai, taipogi pridėtas naujas MIME-Tipų redaktorius. Thunar įgavo "
+"labiau išbaigtą išdėstymą, kuriame sumažintas vietos naudojimas ir "
+"padidintas atsakomumas su miniatiūrų kūrėju. Mes dar nenusprendėme kaip "
+"integruoti darbastalio funkcionalumą į Thunar, todėl Xfdesktop gavo įvairių "
+"patobulinimų, įskaitant vieno paspaudimo palaikymą. Iš sąsajos buvo "
+"pašalinti patarimai ir sesijų valymas. Paskutinis, bet ne prasčiausias, "
+"langų tvarkyklė nuo šiol turi langų išdėtymą(tiling) ir užduočių "
+"perjungiklyje naršymą krypčių klavišais."
 
 #: news-array.php:27
 msgid ""
@@ -2592,6 +2618,11 @@ msgid ""
 "buttons in the interface still work, but you'll be asked to open the "
 "documentation website in your web browser."
 msgstr ""
+"Kitas dideli pokytis yra naudotojų dokumentacijos paketų pašalinimas ir <a "
+"href=\"http://docs.xfce.org\">docs.xfce.org</a> pristatymas. To priežastis "
+"buvo ribotas dokumentacijos pridėjimas, tikimės jog wiki pritrauks daugiau "
+"autorių. Pagalbos mygtukai vis dar veikia , bet jūsų bus paprašyta atverti "
+"dokumentacijos puslapį internete."
 
 #: news-array.php:28
 msgid ""
@@ -2603,12 +2634,20 @@ msgid ""
 "other components), garcon (menu library, was already a dependency in 4.8), "
 "thunar-volman (volume manager for Thunar)."
 msgstr ""
+"Mes atsikratėme xfce-utils. Jo turinys buvo pašalintas arba perkeltas į "
+"kitus Xfce paketus. Visos kitos priklausomybės yra išvardintos 4.10pre1 "
+"keitimų žurnale. Xfce branduolys gavo kelis naujus komponentus, nes mes "
+"manome jog jie yra būtini minimaliam darbastaliui: xfce4-power-manager "
+"(energijos tvarkyklė), tumbler (miniatiūrų generatorius, skirtas Thunar ir "
+"kitiems komponentams), garcon (meniu biblioteka, jau 4.8 versijoje buvo "
+"priklausomybė), thunar-volman (Thunar tomų tvarkyklė)."
 
 #: news-array.php:29
 msgid ""
 "Of course translations also improved a lot, thanks to the amazing work of "
 "our translation teams."
 msgstr ""
+"Taipogi vertimai smarkiai pagerinti, už tai dėkojame mūsų vertėjų komandoms."
 
 #: news-array.php:30
 msgid ""
@@ -2616,6 +2655,10 @@ msgid ""
 "thoughts, blogging, tweeting, denting or by filing bug reports. With your "
 "help, 4.10 will be the best release ever (at least until 4.12)!"
 msgstr ""
+"Tikimės jog jums patiks šis naujas leidimas. Parašykite mums apie savo "
+"įspūdžius, parašykite savo mintis tinklaraštyje, twiteryje ar užpildydami "
+"pranešimą apie klaidas! Su jūsų pagalba, 4.10 bus geriausias leidimas iš "
+"visų (bent jau iki 4.12)!"
 
 #: news-array.php:33
 msgid "Xfce 4.8 released"
