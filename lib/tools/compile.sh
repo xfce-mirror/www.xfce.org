@@ -15,7 +15,7 @@ for f in $(find $pofiles -name "*.po")
 do
   file=$(basename $f)
   lang=${file%.po}
-  
+
   # Merge po file with latest pot file
   res=0
   # TODO: add "--lang $lang" again when earlgrey runs squeeze
@@ -24,14 +24,20 @@ do
     echo "msgmerge failed for $file"
     continue
   fi
-  
+
   # Check the file
   res=0
-  msgfmt -c -o /dev/null $tmpfile &> /dev/null && res=1
+  msgfmt -c -o /dev/null $tmpfile &> $tmpfile.log && res=1
   if test $res -eq 0; then
     echo "$file is not valid"
+    cat $tmpfile.log
+    echo
+    echo
+    rm -f $tmpfile.log
     continue
   fi
+
+  rm $tmpfile.log
 
   # Compile catalog
   path=$localedir/$lang/LC_MESSAGES
