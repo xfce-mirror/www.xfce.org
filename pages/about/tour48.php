@@ -4,7 +4,7 @@
 
 <p><?php E_("This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
-<h2><?php E_("Thunar file browser") ?></h2>
+<h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
 
   <h3><?php E_("Remote shares browsing") ?></h3>
 
@@ -24,7 +24,7 @@
 
     <p class="image"><img src="<?php echo $static_media ?>/about/tour/4.8/thunar-eject.png" alt="<?php E_("Eject button") ?>" /></p>
 
-<h2><?php E_("Xfce panel") ?></h2>
+<h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
 
   <p><?php E_("The Xfce panel has been totally rewritten in 4.8, here are the most visible changes.") ?></p>
 
@@ -68,7 +68,7 @@
 
     <p><?php E_("You can now edit the applications menu using any Freedesktop compliant menu editor, Alacarte being the one we used to test.") ?></p>
 
-<h2><?php E_("Xfce settings dialogs") ?></h2>
+<h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
 
   <h3><?php E_("Improved multihead setup configuration") ?></h3>
 
