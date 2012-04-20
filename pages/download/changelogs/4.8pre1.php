@@ -2,7 +2,7 @@
 
 <h1>Xfce 4.8pre1 Changelog</h1>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <p>The  API version of exo has been changed from 0.3 to 1, to make it easier to  bump minor and major version numbers in future releases. To compile  against this version of exo, you have to change exo-0.3 to exo-1 in your  configure file. This backwards-incompatible change has also been used  to remove deprecated APIs or APIs that are now provided by Gtk 2.14 or  Glib 2.18.</p>
 <p>Removed or incompatibly changed classes/enums/functions:</p>
 <ul>
@@ -39,7 +39,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Widget Library <em>(libxfce4ui)</em>:</h2>
+<h2>Widget Library <em>(libxfce4ui)</em></h2>
 <p>Initial  version of the library. The intention of this new library is a cleanup  of the old libxfcegui4 library to remove the deprecated code and get rid  of netk (since 4.6 we use libwnck for that).</p>
 <ul>
   <li>New session management client.</li>
@@ -55,7 +55,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Fix broken translations in applications using libxfce4util (bug #5842).</li>
   <li>Performance optimizations.</li>
@@ -64,7 +64,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Replace ThunarVFS with GIO. All functionality previously based on ThunarVFS is now implemented on top of GIO and GVfs. This means that remote filesystems can be accessed via SFTP, FTP, SMB etc. For this as well as the trash feature GVfs is required. Thunar does not depend on it because GVfs is a set of GIO extensions and there is no guarantee for those to be available at runtime if they are installed at buildtime. This is left for distributions to set up properly.</li>
   <li>Thumbnails are now generated using the thumbnail management D-Bus specification. One implementation of this specification is Tumbler which is released independently.</li>
@@ -108,7 +108,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Fix gpg/ssh-agent startup for users with pam_ssh installed.</li>
   <li>$dbuslaunch var isn't used anymore (bug #5863).</li>
@@ -143,7 +143,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Remove deprecated encoding key from desktop file.</li>
   <li>Rename "Execute" button to "Launch".</li>
@@ -157,7 +157,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Almost a complete rewite of the code. Everything is now  written in GObjects. This makes each individual part easier to  understand. All plugins are ported to GObject-based plugins and use  Xfconf for storing their information (apart from desktop-files of  launcher).</li>
   <li>Interfaces are all created by GtkBuilder.</li>
@@ -246,7 +246,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Query HAL to be sure suspend and hibernate are supported.  If not, don't even show the buttons (bug #4952).</li>
   <li>Allow xfce4-tips to work when 'fortune' is not installed (bug #2871).</li>
@@ -284,7 +284,7 @@
   <li>Translation updates.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Add clipboard manager to xfce4-settings-helper (bug #4333).</li>
   <li>Port to libxfce4ui.</li>
@@ -329,7 +329,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Add prefetching and caching support to XfconfChannel. Should speed things up a bit on app startup, and avoid blocking waiting on DBus in other cases.</li>
   <li>New simpler (internal) handling of property bindings.</li>
@@ -345,7 +345,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Port xfdesktop to GIO and drop the dependency on thunar-vfs.</li>
   <li>Make heavy use of new Thunar D-Bus methods in order to re-use  Thunar's dialogs and file operation algorithms.</li>
@@ -366,7 +366,7 @@
   <li>Updated translations.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Fix window positioning problem when output it removed (bug #6209).</li>
   <li>Do not clear the show desktop flag upon activation of already visible windows.</li>

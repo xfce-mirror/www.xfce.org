@@ -1,13 +1,13 @@
 <h1>Xfce 4.4.1 Changelog</h1>
 
-<h2>Utilities Library <em>(libxfce4util)</em>:</h2>
+<h2>Utilities Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Fix invalid g_slice_free1() in XfceRc code (bug #2854).</li>
   <li>Fix bug when deleting groups.</li>
   <li>Do not use GMemChunk for XfceRc module as that leaks all of its memory starting with GLib 2.10 (bug #2427).</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Change 2 GPL headers to LGPL.</li>
   <li>Test for support of -Wall, -Werror and -errwarn=%all (bug #2918).</li>
@@ -15,7 +15,7 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Treat dialogs and utility windows as transients for group (bug #3102).</li>
   <li>Add support for shape input with XShape extension 1.1 (bug #3092).</li>
@@ -31,7 +31,7 @@
   <li>New translations: Albanian (Besnik Bleta), English (Jeff Bailes).</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix entries in the menu.xml files that should not have been translated.</li>
   <li>Add support for menu file as argument (bug #2876).</li>
@@ -41,7 +41,7 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Completely hide the right-click menu when kiosk mode is enabled (bug #2984).</li>
   <li>Show the system tray border in the default layout and increase the top panel size to 30px, so users can actually see the system tray.</li>
@@ -53,13 +53,13 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>Test for support of -Wall, -Werror and -errwarn=%all. (bug #2918).</li>
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h2>
+<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em></h2>
 <ul>
   <li>Test for support of -Wall, -Werror and -errwarn=%all. (bug #2919).</li>
   <li>Add default shortcuts for volume control using aumix.</li>
@@ -67,22 +67,22 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Text Editor <em>(mousepad)</em>:</h2>
+<h2>Text Editor <em>(mousepad)</em></h2>
 <ul>
   <li>Test for support of -Wall, -Werror and -errwarn=%all. (bug #2921).</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add script for generating commit messages from ChangeLogs on the fly (xdt-commit).</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Update the AUTHORS file.</li>
   <li>Fix syntax error in startxfce script (bug #3089).</li>
@@ -92,14 +92,14 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Volume Control <em>(xfce4-mixer)</em>:</h2>
+<h2>Volume Control <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Follow the HIG specifications on the buttons.</li>
   <li>Add test_vc to Makefile.am.</li>
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Calendar and Appointments <em>(xfcalendar)</em>:</h2>
+<h2>Calendar and Appointments <em>(xfcalendar)</em></h2>
 <ul>
   <li>Bug when adding All day event from iCal. All day events were handled wrongly in Orage (bug #3058).</li>
   <li>Recurring events need to happen on ending date also (bug #2937).</li>
@@ -108,7 +108,7 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Many translation updates.</li>
 </ul>

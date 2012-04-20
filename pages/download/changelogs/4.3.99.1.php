@@ -2,7 +2,7 @@
 
 <h1>Xfce 4.4 rc 1 (4.3.99.1) Changelog</h1>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Enable compilation with compilers other than gcc (bug #1851).</li>
   <li>Updated translations: Fabian Nowak (de).</li>
@@ -10,7 +10,7 @@
 </ul>
 
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Use the slice allocator where appropriate and <tt>g_type_class_add_private()</tt> (bug #2087).</li>
   <li>Add delay for switching workspace when dragging something over the pager (bug #838).</li>
@@ -18,20 +18,20 @@
 </ul>
 
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
 
-<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h2>
+<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em></h2>
 <ul>
   <li>Use <tt>GtkComboBox</tt> instead of <tt>GtkOptionMenu</tt> in the user interface settings (bug #2134).</li>
   <li>Subpixel rendering options are now independent of the hinting options (bug #665).</li>
 </ul>
 
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Implement borderless full maximization (bug #1750).</li>
   <li>Rework maximization switches (bug #2047).</li>
@@ -51,7 +51,7 @@
 </ul>
 
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix backdrop image tearing during expose (bug #1944).</li>
   <li>Show icon tooltips where appropriate (bug #1526).</li>
@@ -69,7 +69,7 @@
 </ul>
 
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Fix/reimplement kiosk mode (bug #1993).</li>
   <li>Fix linking with -Wl,--as-needed (bug #1977).</li>
@@ -87,14 +87,14 @@
 </ul>
 
 
-<h2>Print Frontend <em>(xfprint)</em>:</h2>
+<h2>Print Frontend <em>(xfprint)</em></h2>
 <ul>
   <li>Prevent xfprint4 from removing the printed file when the filters aren't applied.</li>
   <li>Fix incompatibility with CUPS 1.2 (bug #2107).</li>
 </ul>
 
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Add support for HAL to shutdown/reboot the computer. Must be enabled explicitly using <tt>--with-shutdown-style=hal</tt> to configure (bug #2046).</li>
   <li>Do not try to save the <tt>xfce4-tips</tt> as part of the session (bug #1089).</li>
@@ -103,7 +103,7 @@
 </ul>
 
 
-<h2>Terminal Emulator <em>(Terminal)</em>:</h2>
+<h2>Terminal Emulator <em>(Terminal)</em></h2>
 <ul>
   <li>Parse <tt>file:</tt>-URIs dropped to a Terminal window properly and format them so they can be used in shell commands directly (bug #2076).</li>
   <li>Use the thumbnail preview support for the background image selection
@@ -112,13 +112,13 @@ that was added with exo 0.3.1.10rc1 (bug #2069).</li>
 </ul>
 
 
-<h2>File Manager <em>(Thunar)</em>:</h2>
+<h2>File Manager <em>(Thunar)</em></h2>
 <ul>
   <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
 
-<h2>Calendar <em>(orage)</em>:</h2>
+<h2>Calendar <em>(orage)</em></h2>
 <ul>
   <li>Fixed jumping effect on panel plugin by adding possibility to define plugin size (bug #2101).</li>
   <li>Fixed slow month update (bug #2080).</li>
@@ -136,7 +136,7 @@ that was added with exo 0.3.1.10rc1 (bug #2069).</li>
 </ul>
 
 
-<h2>Archive Manager <em>(xarchiver)</em>:</h2>
+<h2>Archive Manager <em>(xarchiver)</em></h2>
 <ul>
   <li>Added symbolic link column in <tt>tar/tar.bz2/tar.gz</tt> and RPM archives.</li>
   <li>Ability to extract files inside RPM archives without the directory they are contained in.</li>

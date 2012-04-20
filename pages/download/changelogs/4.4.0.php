@@ -1,22 +1,22 @@
 <h1>Xfce 4.4.0 Changelog</h1>
 
-<h2>Utilities Library <em>(libxfce4util)</em>:</h2>
+<h2>Utilities Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Updated translations: Szymon Kałasz (pl)</li>
   <li>New translations: Geraint Rowlands (cy), Jovan Naumovski (mk)</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix file conflict in xfce4-panel and xfce-mcs-plugins by moving the common icon xfce-filemanager to libxfcegui4 (bug #2033).</li>
 </ul>
 
-<h2>Settings Manager Library <em>(libxfce4mcs)</em>:</h2>
+<h2>Settings Manager Library <em>(libxfce4mcs)</em></h2>
 <ul>
   <li>Fix crashing g_ascii_strup() on 64bit platforms (bug #2563).</li>
 </ul>
 
-<h2>Extensions Library <em>(exo)</em>:</h2>
+<h2>Extensions Library <em>(exo)</em></h2>
 <ul>
   <li>Further clean up the ExoIconView code and add several small optimization.</li>
   <li>Import exo-mount utility to drop the dependency on other mount utilities, like pmount and gnome-mount, that don't work reliably, and were often the cause of trouble when mounting in Thunar.</li>
@@ -31,7 +31,7 @@
   <li>New translations: Alexander Nyakhaychyk (be), Geraint Rowlands (cy), Pavle Jonoski (mk), Stephan Arts (nl), Amanpreet Singh Alam (pa).</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Use screen from xevent instead of client for keypress (bug #2749)</li>
   <li>Raise/focus when using alt+left-click for resize for consistency with move</li>
@@ -73,7 +73,7 @@
   <li>Use X server time to restore focus when sent to the root window (bug #2472)</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix support for applications that do pseudo-transparency (bug #2508).</li>
   <li>Change how icon cell size is calculated to avoid weirdness at large sizes (bug #1546).</li>
@@ -84,7 +84,7 @@
   <li>Update documentation.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Many fixes when using the panel in a multiscreen setup</li>
   <li>Update or add blinking for urgent windows in tasklist, windowlist and iconbox.</li>
@@ -95,7 +95,7 @@
   <li>Many translation updates.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Improve the logout dialog (bug #2653).</li>
   <li>Fix poweroff on DragonFly BSD (bug #2567).</li>
@@ -104,19 +104,19 @@
   <li>New translations: Josip Dzolonga (mk)</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>Open the settings dialog on the monitor with the pointer.</li>
 </ul>
 
-<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h2>
+<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em></h2>
 <ul>
   <li>Use GtkFrame instead of XfceFrame in the UI plugin.</li>
   <li>Fix g_ascii_strup() and g_ascii_strdown() with length -1 on FC6/amd64 (bug #2563).</li>
   <li>Fix compilation without XKB.</li>
 </ul>
 
-<h2>Terminal Emulator <em>(terminal)</em>:</h2>
+<h2>Terminal Emulator <em>(terminal)</em></h2>
 <ul>
   <li>Add support for real transparency with GTK+ 2.10 and a composition manager (bug #2671).</li>
   <li>Do not crash when you the first tab is detached and MiscAlwaysTabs is set to TRUE (bug #2686).</li>
@@ -126,7 +126,7 @@
   <li>New translations: Alexander Nyakhaychyk (be), Amanpreet Singh Alam (pa).</li>
 </ul>
 
-<h2>Text Editor <em>(mousepad)</em>:</h2>
+<h2>Text Editor <em>(mousepad)</em></h2>
 <ul>
   <li>Add support for the new recently-used database, using the GtkRecent functionality available in GTK+ 2.10 and later.</li>
   <li>Set default response in Open/Save dialogs (bug #2249).</li>
@@ -135,7 +135,7 @@
   <li>New translations: Alexander Nyakhaychyk (be), Geraint Rowlands (cy), Tome Boshevski (mk), A S Alam (pa)</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Add documentation for the bulk renamer (bug #1594).</li>
   <li>Improve the user manual (bug #1365).</li>
@@ -172,7 +172,7 @@
   <li>New translations: Alexander Nyakhaychyk (be), ByungHyun Choi (ko), Jovan Naumovski and Viktor Stojanovski (mk), Stephan Arts and Vincent Tunru (nl), Amanpreet Singh Alam (pa).</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Prevent xfprint4 from removing the printed file when the filters aren't applied</li>
   <li>Fix incompatibility with CUPS 1.2 (bug #2107)</li>
@@ -181,45 +181,45 @@
   <li>Add shortcuts in printer queue dialog</li>
 </ul>
 
-<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h2>
+<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em></h2>
 <ul>
   <li>Several improvements to the default theme.</li>
   <li>Change the engine so that scrollbars show the trough border.</li>
 </ul>
 
-<h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add support for the latest GNU autotools (bug #2755).</li>
   <li>Make sure xgettext uses UTF-8 encoding for source files.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Fix menu popup on wrong screen.</li>
   <li>Update the user guide.</li>
   <li>Several new and updated translations.</li>
 </ul>
 
-<h2>Volume Control <em>(xfce4-mixer)</em>:</h2>
+<h2>Volume Control <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Several new and updated translations.</li>
 </ul>
 
-<h2>Calendar and Appointments <em>(xfcalendar)</em>:</h2>
+<h2>Calendar and Appointments <em>(xfcalendar)</em></h2>
 <ul>
   <li>Fix possible crash in appointment timezone selection.</li>
   <li>Add missing revert/duplicate menu item sensitiviness settings.</li>
   <li>Several new and updated translations.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Add themed icon support (bug #2651).</li>
   <li>Fix potential crash (bug #1882).</li>
   <li>Several new and updated translations.</li>
 </ul>
 
-<h2>Icon Theme <em>(xfce4-icon-theme)</em>:</h2>
+<h2>Icon Theme <em>(xfce4-icon-theme)</em></h2>
 <ul>
   <li>Switched to using xfce4-dev-tools and removed autogenerated files from the CVS repository.</li>
   <li>The index.theme was made translatable using intltool.</li>

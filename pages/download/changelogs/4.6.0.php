@@ -1,12 +1,12 @@
 <h1>Xfce 4.6.0 Changelog</h1>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Updated translations: Finnish, Brazilian Portuguese, Catalan, French, Ukrainian, Polish, Indonesian, English (GB), Norwegian, Simplified Chinese and Turkish.</li>
   <li>Add missing C++ wrappers in header files (patch by Jens Luedicke). </li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix translations of libxfce4kbd-private not being used (bug #4784).</li>
   <li>Fix library ageing (bug #4864).</li>
@@ -17,12 +17,12 @@
   <li>Updated translations: Finnish, Catalan, French, Ukrainian, Turkish, English (GB), Spanish, German, Indonesian, Japanese, Norwegian Bokmal, Polish, Simplified Chinese, Hungarian.</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Updated translations: French, Turkish, English (GB), Polish, Romanian, Greek and Spanish.</li>
 </ul>
 
-<h2>Menu Library <em>(libxfce4menu)</em>:</h2>
+<h2>Menu Library <em>(libxfce4menu)</em></h2>
 <ul>
   <li>Add hint about no invariant sections to COPYING.</li>
   <li>Fix crash when reading invalid menu files (bug #4879).</li>
@@ -31,7 +31,7 @@
   <li>Updated translations: German, Indonesian, Polish, English (GB), Turkish, Ukrainian, Finnish.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Fix possible monitor cache size inconsistency when the screen size changes.</li>
   <li>Fix fill function not working with multiscreen.</li>
@@ -48,7 +48,7 @@
   <li>Updated translations: Polish, Swedish, Brazilian Portuguese, English (GB), Spanish, Czech, Turkish.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix menu plugin crash when selecting custom menu file (bug #4879).</li>
   <li>Do not mark Gtk stock identifiers as translatable. Patch from Stefan Stuhr (bug #4721).</li>
@@ -57,7 +57,7 @@
   <li>Updated translations: Danish, Turkish, German, Polish, Simplified Chinese, English (GB), Japanese, French.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Block the panel autohide if the widget is grabbed (bug #4597).</li>
   <li>Fix dragging to the submenu items of a launcher (bug #4026).</li>
@@ -67,7 +67,7 @@
   <li>Updated translations: Turkish, French, Indonesian, Norwegian, Polish, Simplified Chinese, English (GB), Catalan, Ukrainian.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Respect the ICEAUTHORITY environment variable (bug #4369).</li>
   <li>Fix the sudo shutdown helper for systems without HAL (bug #4849).</li>
@@ -76,7 +76,7 @@
   <li>Updated translations: Turkish, Indonesian, Greek, Hungarian, Brazilian, Russian, Polish, Basque, Ukrainian.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Make the Xrandr dependency optional. If Xrandr is disabled, the display plugin will not be compiled at all (bug #4836).</li>
   <li>When stealing a shortcut from another shortcuts provider, clear the shortcut of that provider first.</li>
@@ -92,7 +92,7 @@
   <li>Updated translations: Danish, Swedish, Japanese, Norwegian, Simplified Chinese, Turkish, Catalan, Ukrainian, Czech.</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Fix a segfault of xfconfd at startup on amd64 (bug #4881).</li>
   <li>Code cleanup in g_critical assertion.</li>
@@ -101,7 +101,7 @@
   <li>Updated translations: Danish, French, Indonesian, Norwegian, Simplified Chinese, Swedish, Brazilian Portuguese, Spanish, Turkish, Basque, Czech.</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Fix crash when entering the same hidden directory twice in the location entry (bug #4847).</li>
   <li>Pass the current event time to startup notification, so focus stealing works properly.</li>
@@ -110,7 +110,7 @@
   <li>Updated translations: Danish, Turkish, French, Polish, English (GB).</li>
 </ul>
 
-<h2>Mixer <em>(xfce4-mixer)</em>:</h2>
+<h2>Mixer <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Add missing AudioVideo category which is obligatory if you use the Audio category (bug #4933).</li>
   <li>Fix toggling capture (bug #4777).</li>
@@ -119,7 +119,7 @@
   <li>Updated translations: Swedish, German, Indonesian, Norwegian, Polish, Spanish, Turkish, Ukrainian.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Fix sysconfdir and datadir not being expanded properly in xinitrc (bug #4924).</li>
   <li>Export GTK_PATH variable in xinitrc so that GTK+ has a chance to find the Xfce theme engine even in a custom prefix (bug #4925).</li>
@@ -128,7 +128,7 @@
   <li>Updated translations: German, Japanese, Polish, Turkish.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Try to load items from xfce-applications.menu before trying applications.menu in order to provide the same items as Xfdesktop does (reported by Mark Trompell).</li>
   <li>Updated translations: Indonesian, Polish, English (GB), Turkish, Ukrainian.</li>

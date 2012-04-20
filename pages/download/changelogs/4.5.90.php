@@ -2,13 +2,13 @@
 
 <h1>Xfce 4.6 ALPHA (4.5.90) Changelog</h1>
 
-<h2>Development tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add intltool-merge.in patch to xdt-autogen.in to fix merging translations
         to .desktop keys that have dashes in them.</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Do not use GMemChunk for XfceRc due to memory leaks (bug #2427).</li>
   <li>Fix buglet when deleting XfceRc groups.</li>
@@ -20,7 +20,7 @@
         resource lookup functions.</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix XfceAppMenuItem's lazy icon loading so menus don't overlap after
         the icons load (bug #3081).</li>
@@ -33,19 +33,19 @@
         migrate to libwnck).</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Include preferred apps dialog in the new settings manager.</li>
   <li>Add support for mounting and unmounting encrypted volumes. (bug #3349)</li>
   <li>Don't strip text between nodes with --strip-content, this will make stripping work on glade files.</li>
 </ul>
 
-<h2>Menu Library <em>(libxfce4menu)</em>:</h2>
+<h2>Menu Library <em>(libxfce4menu)</em></h2>
 <ul>
   <li>Initial release as part of Xfce.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Add button prelight in window frames (bug #3219)</li>
   <li>Add resize from top of window</li>
@@ -62,7 +62,7 @@
   <li>Use timeout for frame redraw, check actual WM name changes to work around apps that falsely update their WM name property (bug #2810).</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Redo how the menu system works so menus can be embedded in other
         menus.  This makes it possible for the right-click context menu
@@ -108,7 +108,7 @@
         integer point size (bug #4295).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Fix window manager hints reporting width 1 pixel too wide (bug #3402).  (Jasper)</li>
   <li>Make itembar not care about expanded items when panel is not full width.  (Jasper)</li>
@@ -132,7 +132,7 @@
   <li>Some new Tango icons.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Modified settings-dialogs to work with the new settings-manager</li>
   <li>Fix compile-issues with -Wall -Werror in mice theme-engine and settings-dialogs</li>
@@ -140,28 +140,28 @@
   <li>Remove dependency on deprecated NETK</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Initial release as part of Xfce.</li>
   <li>Replaces the front-end of the xfce-mcs-manager that came
         with previous versions of xfce.</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Initial release as part of Xfce.</li>
   <li>Replaces the back-end of the xfce-mcs-manager that came
         with previous versions of xfce.</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Fix .desktop file to launch thunar-settings dialog with 
         xfce4-settings-manager</li>
 </ul>
 
 
-<h2>Mixer <em>(xfce4-mixer)</em>:</h2>
+<h2>Mixer <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Complete rewrite based on GStreamer 0.10.</li>
   <li>Supports all sound systems supported by GStreamer (ALSA, OSS, PulseAudio and many more).</li>
@@ -169,14 +169,14 @@
   <li>New panel plugin especially designed for easy use with the mouse scroll wheel.</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Convert the settings to use xfconf instead of mcs</li>
   <li>Make the settings-dialogs stand-alone apps instead of mcs-plugins</li>
   <li>Fix segfault when there is no default printer selected in backend (bug #3816)</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Use gnome-screensaver if xscreensaver is not available (bug #3131)</li>
   <li>Fix syntax error in startxfce script (bug #3089).</li>
@@ -191,7 +191,7 @@
   <li>Add MCS to Xfconf settings migration script.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Rewrite based on libxfce4menu.</li>
 </ul>

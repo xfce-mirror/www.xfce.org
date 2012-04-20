@@ -2,19 +2,19 @@
 
 <h1>Xfce 4.6 BETA 2 (4.5.92) Changelog</h1>
 
-<h2>Development tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add support for git (and git-svn) to the xdt-commit script (bug #4491) ?>).</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Increment library version to avoid having a 4.6 library version older then the one in 4.4.</li>
   <li>Place G_GNUC_INTERNAL before function declaration for Sun Studio compatibility (bug #4580) ?>).</li>
   <li>Updated translations: Jari Rahkonen (fi), Abel Martin (es)</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>add libxfce4kbd for keyboard-shortcut support</li>
   <li>Fix format-string vulnerabilities in 'message_dialog' and 'xfce_confirm'</li>
@@ -22,17 +22,17 @@
   <li>Update translations (de, es, pt_BR, eu, ku, cs, id, fi, sq, nb_NO)</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Make Preferred Applications dialog pluggable into the new settings manager.</li>
 </ul>
 
-<h2>Menu Library <em>(libxfce4menu)</em>:</h2>
+<h2>Menu Library <em>(libxfce4menu)</em></h2>
 <ul>
   <li>Updated translations: ca, da, ku, nb_NO, sq, tr.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Add support for restart style SmRestartImmediately.</li>
   <li>Add support for NET_MOVERESIZE_WINDOW.</li>
@@ -48,13 +48,13 @@
   <li>Add key shortcut for reverse cycling (bug #2778) ?>)</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Display 'Audio' and 'Video' categories in the multimedia submenu.</li>
   <li>Fix multiple image selection in settings dialog file chooser (bug #4522) ?>).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Remove signal disconnect left after the patch of bug #4474.</li>
   <li>Fix xrandr problem so it's possible to change the panel's monitor after a monitor has been removed (bug #3620) ?>).</li>
@@ -67,7 +67,7 @@
   <li>Update the tooltip of the clock when it is visible.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Hook up Help button in settings dialog.</li>
   <li>Implement support for the RestartImmediately restart style hint.</li>
@@ -87,7 +87,7 @@
         interaction is requested during a phase 2 save-yourself (bug #4284) ?>).</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Add an option to disable keyboard settings.</li>
   <li>Default to "Rodent" icon theme instead of "hicolor" (bug #4545)</li>
@@ -101,7 +101,7 @@
         ensure multiple copies of the helper aren't running (bug #4577) ?>).</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Add xfconf_channel_new_with_property_base() to restrict a channel to a subset of the property tree.</li>
   <li>Add a dbus message filter to xfconfd that catches dbus daemon disconnect signals and flushes channels before xfconfd gets killed (bug #4487) ?>).</li>
@@ -113,7 +113,7 @@
   <li>Fix build on Cygwin and other platforms that actually care about library link order (bug #4559) ?>).</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Fix build on MacOS X (bug #4433).</li>
   <li>Don't create Thunar -> thunar symlink on case-insensitive
@@ -122,7 +122,7 @@
         xfdesktop >= 4.5.90</li>
 </ul>
 
-<h2>Mixer <em>(xfce4-mixer)</em>:</h2>
+<h2>Mixer <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Use xfconf_channel_reset_property() instead xfconf_channel_remove_property().</li>
   <li>Rename stock icons and install them as application icons to $(pkgdatadir)/icons/hicolor. Remove stock code.</li>
@@ -134,14 +134,14 @@
         Csécsey Károly (hu). Andhika Padmawan (id), Terje Uriansrud (nb_NO) Gökmen Görgen (tr).</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Migrate xfce4-session splash settings to xfconf.</li>
   <li>Be sure $XDG_CONFIG_HOME/autostart exists when creating .desktop file to disable xfconf migration script.</li>
   <li>Migrate xfwm4 keyboard shortcuts to new xfconf format.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Fix runtime warnings and toplevel menu items always being displayed on top of every category.</li>
   <li>Translation updates: Carles Munõz Gorriz (ca), Abel Martín (es), Maximilian Schleiss (fr), Andhika Padmawan (id), Terje Uriansrud (nb_NO)</li>

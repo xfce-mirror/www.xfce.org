@@ -4,7 +4,7 @@
 
 <p>Translation updates are not shown in the lists below.</p>
 
-<h2>Dependency Changes:</h2>
+<h2>Dependency Changes</h2>
 <ul>
   <li>GTK+ dependency &gt;= 2.20 and GLib &gt;= 2.24.</li>
   <li>Libxfce4util soname changed.</li>
@@ -17,7 +17,7 @@
   <li>Xfce4-session does not (optionally) depend on gconf anymore.</li>
 </ul>
 
-<h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add support for LT_PREREQ (bug #6920).</li>
   <li>Remove spec file and rpm build target.</li>
@@ -33,7 +33,7 @@
   <li>Port exo-csource to xdt-csource (bug #6449).</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Make licenses static. You can only use xfce_get_license_text(...).</li>
   <li>Remove unused .h files.</li>
@@ -51,7 +51,7 @@
   <li>Bump verinfo to 6:0:0.</li>
 </ul>
 
-<h2>Widget Library <em>(libxfce4ui)</em>:</h2>
+<h2>Widget Library <em>(libxfce4ui)</em></h2>
 <ul>
   <li>Open docs.xfce.org when Help in xfce4-about is clicked.</li>
   <li>Cache header icons and avoid large icons in XfceTitledDialog.</li>
@@ -69,7 +69,7 @@
   <li>Add xfce_dialog_show_help function.</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Drop gtk 2.24 api (bug #8461).</li>
   <li>Bump libxfce4ui dependency for help function.</li>
@@ -91,7 +91,7 @@
   <li>Support hexadecimal xid and center exo-desktop-item-edit on parent.</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Fix crash when trying to thumbnail a file with unknown content type.</li>
   <li>Fix properties dialog crash with files with unknown content type.</li>
@@ -142,7 +142,7 @@
   <li>Update the thumbnail cache when files are deleted permanently.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Add Help button to preferences dialog.</li>
   <li>Make sure the header icon does not shrink (bug #8489).</li>
@@ -176,7 +176,7 @@
   <li>Rewrite of the the application finder to merge the functionality of the appfinder as we know it in 4.8 and xfrun4 (start with --collapsed).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Panel: Don't destroy window when focussed and Alt+F4 is pressed (bug #7378).</li>
   <li>Panel: Use new help function to redirect to docs.xfce.org.</li>
@@ -240,7 +240,7 @@
   <li>Docs: Update to latest version.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Add accelerators to logout dialog buttons (bug #6982).</li>
   <li>Add support for starting assistive technologies.</li>
@@ -271,7 +271,7 @@
   <li>Drop gpg-agent and ssh-agent handling.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Xfsettingsd: Don't set large dpi in xrdb (bug #8415).</li>
   <li>Include xscreensaver in the manager dialog.</li>
@@ -303,7 +303,7 @@
   <li>Improved debugging with XFSETTINGSD_DEBUG=1.</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Use sh as interpreter in tests.</li>
   <li>Add hook to skip the xfconf tests.</li>
@@ -320,7 +320,7 @@
   <li>Drop usage of the G_CONST_RETURN macro.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix menu without desktop icons.</li>
   <li>Enable pseudo-transparent backgrounds again.</li>
@@ -348,7 +348,7 @@
   <li>Comments in .desktop files are displayed in the tooltip (bug #8509).</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Add tiling feature (bug #6648).</li>
   <li>Navigate with arrows in task switcher (bug #4752).</li>
@@ -374,7 +374,7 @@
   <li>Get rid of legacy fullscreen emulation.</li>
 </ul>
 
-<h2>Theme Engine <em>(gtk-xfce-engine)</em>:</h2>
+<h2>Theme Engine <em>(gtk-xfce-engine)</em></h2>
 <ul>
   <li>Improved menu theming</li>
   <li>Theme gtk-tooltip (bug #8494).</li>

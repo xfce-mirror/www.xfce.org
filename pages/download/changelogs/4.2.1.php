@@ -2,17 +2,17 @@
 
 <h1>Xfce 4.2.1 Changelog</h1>
 
-<h2>General:</h2>
+<h2>General</h2>
 <ul>   
   <li>Don't use <tt>G_INLINE_FUNC</tt> in the source code, which fixes several weird build errors.</li> 
 </ul>
 
-<h2>Libraries<em> (lib*)</em>:</h2>
+<h2>Libraries<em> (lib*)</em></h2>
 <ul>   
   <li>Libxfce4util: Fix a problem with NFS mounted home directories in Solaris (bug #724)</li>
 </ul> 
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Speed improvement with GLX applications</li>
   <li>Fix Alt-Tab not focusing a window alone on a desktop (bug #700)</li>
@@ -30,7 +30,7 @@
   <li>Updated translations : he, ja, pt_br, zh_CN, fi, lt, ko</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix handling of quoted commands in the desktop menu (bug #776)</li>
   <li>Fix handling of .desktop files with no Categories list (bug #776)</li>
@@ -40,7 +40,7 @@
   <li>Fix &quot;unique&quot; attribute of system menu inclusion</li>
 </ul> 
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Save configuration file only on exit</li>
   <li>Fix double click on inactive item in dialog (bug #739)</li>
@@ -48,12 +48,12 @@
   <li>Clock applet tweak (bug #716, hopefully)</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>Fix RedHat shutdown code (bug #703)</li>
 </ul>
 
-<h2>File Manager <em>(xffm)</em>:</h2>
+<h2>File Manager <em>(xffm)</em></h2>
 <ul>
   <li>Ensure posix.1-1996 compatibility (bug #695)</li>
   <li>Fix for crash on opening fstab on solaris (bug #726)</li>
@@ -70,20 +70,20 @@
   <li>Fix for bug #524 (crashing xffm by mounting cdrom and trying to open it in the other treeview before mount is complete)</li> 
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Remove FILE backend and add a print-to-file entry in the printing dialog</li>
   <li>Multiple bugfixes (bug #816, bug #817, bug #818, bug #820) in the BSD-LPR backend (thanks to Jason Keltz for pointing them out)</li>
 </ul>
 
-<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h2>
+<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em></h2>
 <ul>
   <li>Add new dark theme &quot;Xfce-dusk&quot; contributed by James Golden</li>
   <li>Improve default theme, enhance contrasts.</li>
   <li>Rework progress bar drawing.</li>
 </ul>
 
-<h2>Calendar and Appointments <em>(xfcalendar)</em>:</h2>
+<h2>Calendar and Appointments <em>(xfcalendar)</em></h2>
 <ul>
   <li>Remembering of its position (bug #691 and  bug #789)</li>
   <li>Warning box for preventing users to loose their changes (bug #714 and bug #738)</li>

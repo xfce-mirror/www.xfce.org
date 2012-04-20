@@ -1,6 +1,6 @@
 <h1>Xfce 4.4.2 Changelog</h1>
 
-<h2>Utilities Library <em>(libxfce4util)</em>:</h2>
+<h2>Utilities Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Fix applications sometimes starting on the wrong screen in multihead
         setups (bug #3667).</li>
@@ -12,7 +12,7 @@
         Manatsawin (th), Tegegne Tefera (am), RPrieditis (lv).</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix application windows sometimes opening on the wrong screen in
         multihead setups (bug #3667).</li>
@@ -28,7 +28,7 @@
         Tegegne Tefera (am), Manatsawin (th), RPrieditis (lv).</li>
 </ul>
 
-<h2>Application extension library (libexo):</h2>
+<h2>Application extension library (libexo)</h2>
 
 <blockquote><p>
 Please see
@@ -36,7 +36,7 @@ Please see
 for a list of changes.
 </p></blockquote>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Be more relax with transients, allow transients to be sticky independently
         of their parent window (bug #3296).</li>
@@ -55,7 +55,7 @@ for a list of changes.
   <li>Fix typo breaking compilation on systems without XShape 1.1 support.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fixed the Italian xfdesktop menu causing a crash.</li>
   <li>Fix missing xfce_rc_close() causing memleak and too many open file
@@ -74,7 +74,7 @@ for a list of changes.
   <li>Fix --disable-menu-editor configure option.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Fix window manager hints reporting width 1 pixel too wide (bug #3402).</li>
   <li>Improve MCS plugin code.</li>
@@ -99,7 +99,7 @@ for a list of changes.
   <li>New translations: Tegegne Tefera (am), RPrieditis (lv).</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>Remove the half-second signal-check timeout in favor of a signal-check
         pipe that's watched by the glib main loop. Helps reduce CPU wakeups that
@@ -110,7 +110,7 @@ for a list of changes.
   <li>New translations: Tegegne Tefera (am), RPrieditis (lv).</li>
 </ul>
 
-<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h2>
+<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em></h2>
 <ul>
   <li>Make the theme list expand for more natural resize (bug #3659).</li>
   <li>Font DPI is now configurable in the User Interface Settings (bug #3164).</li>
@@ -125,7 +125,7 @@ for a list of changes.
   <li>New translations: Terje Uriansrud (nb_NO), RPrieditis (lv).</li>
 </ul>
 
-<h2>Text Editor <em>(mousepad)</em>:</h2>
+<h2>Text Editor <em>(mousepad)</em></h2>
 <ul>
   <li>Test for support of -Wall, -Werror and -errwarn=%all (bug #2921).</li>
   <li>Remove trailing parens on AC_INIT version info to work around bug
@@ -141,7 +141,7 @@ for a list of changes.
         RPrieditis (lv).</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Updated translations: Pau Rul-lan Ferragut (ca), Fabio Riga (it),
         Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT), Tegegne Tefera (am),
@@ -149,7 +149,7 @@ for a list of changes.
   <li>New translations: RPrieditis (lv).</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Updated translations: Stephan Arts (nl), Fabio Riga (it),
         Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT), Tegegne Tefera (am),
@@ -157,7 +157,7 @@ for a list of changes.
   <li>New translations: Denizo Priskorn (eo), RPrieditis (lv).</li>
 </ul>
 
-<h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Add script (xdt-commit) for generating commit messages from ChangeLogs
         on the fly.</li>
@@ -165,7 +165,7 @@ for a list of changes.
         in intltool 0.35.x and 0.36.x.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Put back a default DPI value for Xorg (bug #3164, bug #3158).</li>
   <li>Use gnome-screensaver if xscreensaver is not available (bug #3131).</li>
@@ -177,7 +177,7 @@ for a list of changes.
         RPrieditis (lv).</li>
 </ul>
 
-<h2>Volume Control <em>(xfce4-mixer)</em>:</h2>
+<h2>Volume Control <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Fix parallel build of xfce4-mixer (bug #2892).</li>
   <li>Updated translations: Stephan Arts (nl), Fabio Riga (it),
@@ -186,7 +186,7 @@ for a list of changes.
   <li>New translations: Tegegne Tefera (am), RPrieditis (lv).</li>
 </ul>
 
-<h2>Calendar and Appointments <em>(xfcalendar)</em>:</h2>
+<h2>Calendar and Appointments <em>(xfcalendar)</em></h2>
 <ul>
   <li>Recurrence not recurring at the limit date. Missing fix: convert
         time back to UTC when reading. Caused day to be incremented for
@@ -202,7 +202,7 @@ for a list of changes.
   <li>New translations: RPrieditis (lv).</li>
 </ul>
 
-<h2>File manager (Thunar):</h2>
+<h2>File manager (Thunar)</h2>
 
 <blockquote><p>
 Please see
@@ -210,12 +210,12 @@ Please see
 for a list of changes.
 </p></blockquote>
 
-<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h2>
+<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em></h2>
 <ul>
   <li>Don't include the iconrc file in gtkrc.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Remove trailing parens on AC_INIT version info to work around bug
         in intltool 0.35.x and 0.36.x.</li>

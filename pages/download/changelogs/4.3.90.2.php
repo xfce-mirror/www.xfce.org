@@ -2,7 +2,7 @@
 
 <h1>Xfce 4.4 beta 2 (4.3.90.2) Changelog</h1>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Fix deletion of entries from XfceRc objects.</li>
   <li>Reduce the number of PLT symbols.</li>
@@ -10,19 +10,19 @@
   <li>Plug memory leaks.</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix bug with desktop layout on x86_64.</li>
   <li>Fix bug in system tray with some apps (e.g. krusader, bug #1836).</li>
   <li>New titled dialog widget, to use for the settings dialogs.</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Get rid of libXpm dependency by implementing an XPM loader with color symbol substitution.</li>
   <li>Add support for svg, png, bmp, gif, jpg file formats for themes components.</li>
@@ -36,12 +36,12 @@
   <li>Lot of bug fixes.</li>
 </ul>
 
-<h2>Window Manager Themes <em>(xfwm4-themes)</em>:</h2>
+<h2>Window Manager Themes <em>(xfwm4-themes)</em></h2>
 <ul>
   <li>Adjust various themes for the latest xfwm4 version.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Filter out KDE screensaver files from the menu (bug #1928).</li>
   <li>Add a remote launcher to popup panel menu, triggered by a shortcut.</li>
@@ -60,12 +60,12 @@
   <li>Attempt to create ~/Desktop/ if it does not exist (only if the user turns on file/launcher icons).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Set NET_WM_STRUT for compatibility with former specs.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Update dialogs to use the new XfceTitledDialog.</li>
   <li>Properly handle OnlyShowIn and NotShowIn in the autostart editor.</li>
@@ -73,52 +73,52 @@
   <li>Use the new XfceTitledDialog.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>Restart xfce-mcs-manager instead of trying to unload/reload plugins when SIGUSR1 is received, to avoid possible crashes.</li>
   <li>Use the new XfceTitledDialog.</li>
 </ul>
 
-<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em>:</h2>
+<h2>Settings Manager Plugins <em>(xfce-mcs-plugins)</em></h2>
 <ul>
   <li>Keyboard Accessibility (sticky keys, slow keys, bound keys and mouse keys).</li>
   <li>Fix modifiers detection in shortcut editor.</li>
   <li>Use the new XfceTitledDialog.</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>See the release notes at <a href="http://thunar.xfce.org/news.html">http://thunar.xfce.org/news.html</a>.</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Use GtkIconTheme instead of deprecated XfceIconTheme</li>
 </ul>
 
-<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h2>
+<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em></h2>
 <ul>
   <li>Change color of active window title.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Set XDG_DATA_DIRS in startup script for people who install Xfce in a different root location from gtk+ itself.</li>
 </ul>
 
-<h2>Terminal Emulator <em>(terminal)</em>:</h2>
+<h2>Terminal Emulator <em>(terminal)</em></h2>
 <ul>
   <li>A few performance improvements.</li>
   <li>Various usability improvements.</li>
 </ul>
 
-<h2>Text Editor <em>(mousepad)</em>:</h2>
+<h2>Text Editor <em>(mousepad)</em></h2>
 <ul>
   <li>Fix segfault on file save on x86_64.</li>
   <li>Fix compilation errors.</li>
 </ul>
 
-<h2>Archive Manager <em>(xarchiver)</em>:</h2>
+<h2>Archive Manager <em>(xarchiver)</em></h2>
 <ul>
   <li>First release as part of Xfce.</li>
   <li>Integration with thunar-archive-plugin.</li>

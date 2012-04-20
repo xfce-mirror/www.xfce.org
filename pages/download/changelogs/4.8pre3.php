@@ -1,6 +1,6 @@
 <h1>Xfce 4.8pre3 Changelog</h1>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 
 <ul>
   <li>Set application name for Thunar loop detection.</li>
@@ -9,7 +9,7 @@
   <li>Translation updates (zh_CN, pt_BR, de, hu, pt, de, cs, en_GB, nb, sv, ar).</li>
 </ul>
 
-<h2>Widget Library <em>(libxfce4ui)</em>:</h2>
+<h2>Widget Library <em>(libxfce4ui)</em></h2>
 
 <ul>
   <li>Fix ABI check in ppc (bug #7005).</li>
@@ -17,14 +17,14 @@
   <li>Translation updates (pt, he, cs, en_BG, nb, ar).</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 
 <ul>
   <li>Fix ABI check on ppc (bug #7004).</li>
   <li>Translation updates (en_BG).</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 
 <ul>
   <li>Fix unused variable warning when building with GLib &lt; 2.20.</li>
@@ -35,7 +35,7 @@
   <li>Translation updates (zh_TW, de, cs, fi, uk, pt, ru, nb, ja, de, en_GB, sv, id, hr, ar).</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 
 <ul>
   <li>Send the xfrun4 caller environ over dbus (bug #6927).</li>
@@ -45,13 +45,13 @@
   <li>Translation updates (he, de, zh_TW, sk, ru, pt, cs, ja, en_GB, sv, id, ug).</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 
 <ul>
   <li>Translation updates (pt, ja, he, lt, zh_CN, pt_BR, sk, cs, en_GB, nb, hr, pl, ar).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 
 <ul>
   <li>Bind panel translation domain for external plugins (bug #6932).</li>
@@ -108,7 +108,7 @@
   <li>Translation updates (ca, cs, da, de, en_GB, fi, gl, he, hr, hu, id, it, ja, kk, nb, pl, pt, pt_BR ru, sk, sv, uk, zh_TW).</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 
 <ul>
   <li>Fix missing include.</li>
@@ -117,7 +117,7 @@
   <li>Translation updates (nb, cs, en_GB, sv, hr, pt).</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 
 <ul>
   <li>Remove duplicated terminal entry in xfce4-settings-helper autostart desktop file (bug #6919).</li>
@@ -129,20 +129,20 @@
   <li>Translations updates (de, cs, el, en_GB, nb, sv).</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 
 <ul>
   <li>Updated translations: he, nb, en_GB, pt, ar.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 
 <ul>
   <li>Work around Gtk 2.16 function (bug #6883).</li>
   <li>Translation updates: sk, ru, cs, en_GB, lt, sv, nb, ar, pt).</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 
 <ul>
   <li>Fix bug #6651 Shape Mask Changes not Immediately Recognized by Xfwm4.</li>

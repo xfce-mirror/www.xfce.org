@@ -2,7 +2,7 @@
 
 <h1>Xfce 4.2.0 Changelog</h1>
 
-<h2>General:</h2>
+<h2>General</h2>
 <ul>
   <li>Minimum required GTK version is 2.2 (2.4 is recommended).</li>
   <li>Overall usability improvements</li>
@@ -33,7 +33,7 @@
   <li>Application's icon and name shown in the <i>Alt+Tab</i> dialog.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Gradient support for background color.</li>
   <li>Brightness adjustment for the backdrop.</li>
@@ -48,7 +48,7 @@
   <li>Kiosk mode support.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>New look with smaller move handles and new default icons.</li>
   <li>Uses global icon theme setting (in user interface dialog).</li>
@@ -64,7 +64,7 @@
   <li>Backward compatibility with the Xfce Goodies plugins available from <a href="http://xfce-goodies.berlios.de/">http://xfce-goodies.berlios.de/</a>.</li>
 </ul>
 
-<h2>New Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>New Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>New module in 4.2: manage applications on Xfce startup.</li>
   <li>Themeable splash screen engines.</li>
@@ -76,7 +76,7 @@
   <li>Kiosk mode support.</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce-mcs-manager)</em>:</h2>
+<h2>Settings Manager <em>(xfce-mcs-manager)</em></h2>
 <ul>
   <li>New dialog layout: buttons have a label below icon and are arranged in multiple columns.</li>
   <li>Font rendering setup dialog.</li>
@@ -86,7 +86,7 @@
   <li>Customizable icons.</li>
 </ul>
 
-<h2>File Manager <em>(xffm)</em>:</h2>
+<h2>File Manager <em>(xffm)</em></h2>
 <ul>
   <li>Two independent panes (eliminated confusing behaviour from 4.0.x).</li>
   <li>Completely reworked toolbars and menus.</li>
@@ -111,19 +111,19 @@
   <li>Files opened directly with associated mimetype application if invoked with &quot;xffm filename&quot; (path to filename can be absolute, relative or relative to homedir).</li> 
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Completely rewritten to use a pluggable printing backend system.</li>
   <li>Use either CUPS, BSD-LPR, or a file as the print destination; printers are retrieved from the chosen printing system (no need to add printers to the list manually).</li>
 </ul>
 
-<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em>:</h2>
+<h2>GTK theme engine <em>(gtk-xfce-engine-2)</em></h2>
 <ul>
   <li>Completely new default theme.</li>
   <li>Improved drawing of control elements to enhance usability.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Configurable taskbar width and height.</li>
   <li>Taskbar has <i>always group tasks</i> option.</li> 
@@ -137,36 +137,36 @@
   <li>Small changes to startup script and xfhelp4 script.</li>
 </ul>
 
-<h2>Volume Control <em>(xfce4-mixer)</em>:</h2>
+<h2>Volume Control <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Complete rewrite of the mixer with settings manager dialog.</li>
   <li>Mixer profiles.</li> 
   <li>Support for ALSA, OSS and Sun audio.</li>
 </ul>
 
-<h2>Calendar and Appointments <em>(xfcalendar)</em>:</h2>
+<h2>Calendar and Appointments <em>(xfcalendar)</em></h2>
 <ul>
   <li>First day of the week option removed (managed through the <i>locale</i> settings in gtk 2.4 and above).</li>
 </ul>
 
-<h2>New Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>New Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>New module in Xfce 4.2: find (and run) applications.</li>
   <li>Alternative interface to the application menu.</li>
 </ul>
 
-<h2>Icon Box <em>(xfce4-iconbox)</em>:</h2>
+<h2>Icon Box <em>(xfce4-iconbox)</em></h2>
 <ul>
   <li>Make iconbox a dock type window (always on top), like the panel.</li>
   <li>Make the iconbox transparency configurable when using the X Composite extension.</li>
 </ul>
 
-<h2>Icon Theme <em>(xfce4-icon-theme)</em>:</h2>
+<h2>Icon Theme <em>(xfce4-icon-theme)</em></h2>
 <ul>
   <li>New module in Xfce 4.2: Freedesktop.org icon theme with special icons for Xfce; it includes both PNG and SVG icons.</li>
 </ul>
 
-<h2>Toys <em>(xfce4-toys)</em>:</h2>
+<h2>Toys <em>(xfce4-toys)</em></h2>
 <ul>
   <li>Updated tips.</li>
 </ul>

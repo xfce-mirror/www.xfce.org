@@ -1,19 +1,19 @@
 <h1>Xfce 4.4.3 Changelog</h1>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Quite a bit code changed in the dnd code. Mostly to fix a segfault in FreeBSD-amd64, but more problems were discovered and a lot of code was simplified.</li>
   <li>Don't respond the uri drags, we don't use it and it only causes problems like hiding the panel when a file was dragged over the panel (bug #3815).</li>
   <li>Fix crash with xrandr 1.2 (bug #3620)</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Make menu panel plugin honor CustomizeDesktopMenu kiosk setting (bug #1026).</li>
   <li>Fix incorrect initial desktop font size when setting custom font size if a custom font was never set before (bug #3957).</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Fix automaximize on move</li>
   <li>Remove trailing \0 in UTF-8 strings, that causes libwnck to rightfully complain that NET_WM_NAME contains invalid UTF-8</li>
@@ -32,32 +32,32 @@
   <li>Add a "--replace" command line option to replace ICCCM2 compliant window  managers (bug #3731)</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix format-string vulnerability in dialog code</li>
 </ul>
 
-<h2>Terminal emulator <em>(Terminal)</em>:</h2>
+<h2>Terminal emulator <em>(Terminal)</em></h2>
 <ul>
   <li>Update to latest trunk translations.</li>
 </ul>
 
-<h2>File manager <em>(Thunar)</em>:</h2>
+<h2>File manager <em>(Thunar)</em></h2>
 <ul>
   <li>Update to latest trunk translations.</li>
 </ul>
 
-<h2>Text editor <em>(mousepad)</em>:</h2>
+<h2>Text editor <em>(mousepad)</em></h2>
 <ul>
   <li>Sort recent items by most recently used.</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Fix missing translated chars (bug #3543)</li>
 </ul>
 
-<h2>Updated translations:</h2>
+<h2>Updated translations</h2>
 <ul>
   <li>Basque</li>
   <li>Brazilian Portuguese</li>

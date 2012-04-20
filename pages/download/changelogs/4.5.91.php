@@ -2,26 +2,26 @@
 
 <h1>Xfce 4.6 BETA 1 (4.5.91) Changelog</h1>
 
-<h2>Development tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Don't try to patch intltool-merge.in for intltool 0.40.x: 0.40.4+ has
         a fix for the bug, and 0.40.x earlier than that aren't patchable as they
         run systemwide versions of the scripts.</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Fix typo in i18n code (check for '/' in lang doesn't make sense)</li>
   <li>Updated translations: Og Maciel (pt_BR), Abel Martín (es)</li>
 </ul>
 
-<h2>Widget Library <em>(libxfcegui4)</em>:</h2>
+<h2>Widget Library <em>(libxfcegui4)</em></h2>
 <ul>
   <li>Fix compile failure on Darwin due to the 'environ' variable not
         being available (bug #4432) ?>).</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Add midori helper (bug #4446) ?>)</li>
   <li>Updated translations: Carles Muñoz Gorriz (ca), Fabian Nowak (de),
@@ -32,12 +32,12 @@
   Chao Sye (zh_CN)</li>
 </ul>
 
-<h2>Menu Library <em>(libxfce4menu)</em>:</h2>
+<h2>Menu Library <em>(libxfce4menu)</em></h2>
 <ul>
   <li>Translations: cs, da, de, el, en_GB, es, fi, fr, gl, id, ja, lv, pl, pt_BR, pt_PT, sq, uk, ur.</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Add support for NET_WM_PING protocol.</li>
   <li>Add support for NET_WM_PID to be able to kill apps (when not responding to NET_WM_PING).</li>
@@ -59,7 +59,7 @@
   <li>Update Basque, German, Korean and Slovene translations</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Bring back the "show icons in menu" preferences for the desktop
     menu and window list menu.</li>
@@ -96,12 +96,12 @@
   <li>Make the Help button in the settings dialog do something.</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>  
   <li>Remove MCS plugin, MCS is deprecated.</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Start up session in parallel to greatly shorten startup time (bug #4312) ?>).</li>
   <li>Add a D-Bus interface for some limited amount of remote control.</li>
@@ -115,7 +115,7 @@
         a new one (bug #3007) ?>).</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Add workspace name handling to xfce4-settings-helper.</li>
   <li>Add support for embedding dialogs into xfce4-settings-manager (based
@@ -133,7 +133,7 @@
   <li>Translation updates: Dutch, Finnish, German.</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Remove xfsettingsd (moved to xfce4-settings package).  This removes
         xfconf's gtk+ dependency entirely.</li>
@@ -168,13 +168,13 @@
         requested (if any).</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Update  Basque, French and Spanish translations</li>
 </ul>
 
 
-<h2>Mixer <em>(xfce4-mixer)</em>:</h2>
+<h2>Mixer <em>(xfce4-mixer)</em></h2>
 <ul>
   <li>Remove XfceMixerCard abstraction over GstMixer.</li>
   <li>Use a single GstBus for all GstMixer notifications.</li>
@@ -190,24 +190,24 @@
         German, Hungarian, Indonesian, Japanese, Sinhalese, Spanish.</li>
 </ul>
 
-<h2>Printing Helper <em>(xfprint)</em>:</h2>
+<h2>Printing Helper <em>(xfprint)</em></h2>
 <ul>
   <li>Update Japanese, Sinhalese, Spanish and Danish translations</li>
 </ul>
 
-<h2>Utilities <em>(xfce-utils)</em>:</h2>
+<h2>Utilities <em>(xfce-utils)</em></h2>
 <ul>
   <li>Fix migrating shortcut keys in the xfconf settings migration script.
         Previously keys that had more than one char in the keysym name were
         getting parsed incorrectly.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Translations: cs, da, de, el, en_GB, es, fi, fr, gl, id, ja, lv, pl, pt_BR, pt_PT, sq, uk, ur.</li>
 </ul>
 
-<h2>Calendar <em>(orage)</em>:</h2>
+<h2>Calendar <em>(orage)</em></h2>
 <ul>
   <li>Man page created for orage and globaltime</li>
   <li>Globaltime added.</li>

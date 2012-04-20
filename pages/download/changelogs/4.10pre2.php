@@ -2,12 +2,12 @@
 
 <h1>Xfce 4.10pre2 Changelog</h1>
 
-<h2>Dependency Changes:</h2>
+<h2>Dependency Changes</h2>
 <ul>
   <li>For changes in the 4.10 dependecies, please look at the <a href="/download/changelogs/4.10pre1">4.10pre1 ChangeLog</a>.</li>
 </ul>
 
-<h2>Development Tools <em>(xfce4-dev-tools)</em>:</h2>
+<h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
   <li>Fix license.</li>
   <li>Remove the old BM_ macros.</li>
@@ -15,13 +15,13 @@
   <li>Never disable checks.</li>
 </ul>
 
-<h2>Utility Library <em>(libxfce4util)</em>:</h2>
+<h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
   <li>Bump glib to 2.24.</li>
   <li>Translation updates: German, Japanese, Korean, Portuguese.</li>
 </ul>
 
-<h2>Widget Library <em>(libxfce4ui)</em>:</h2>
+<h2>Widget Library <em>(libxfce4ui)</em></h2>
 <ul>
   <li>Update translators, week 13 and 14.</li>
   <li>Increase gtk and glib versions.</li>
@@ -30,7 +30,7 @@
   <li>Translation updates: German, Greek, Galician, Japanese, Korean, Dutch (Flemish), Polish, Portuguese, Russian, Turkish.</li>
 </ul>
 
-<h2>Extension Library <em>(exo)</em>:</h2>
+<h2>Extension Library <em>(exo)</em></h2>
 <ul>
   <li>Enable startup-notify in the exo-open desktop files.</li>
   <li>Use g_file_set_contents on local files.</li>
@@ -43,7 +43,7 @@
   <li>Translation updates: Arabic, Greek, French, Galician, Japanese, Korean, Dutch (Flemish), Norwegian Nynorsk, Portuguese, Portuguese (Brazilian).</li>
 </ul>
 
-<h2>File Manager <em>(thunar)</em>:</h2>
+<h2>File Manager <em>(thunar)</em></h2>
 <ul>
   <li>Support small property for trash panel applet (bug #8391).</li>
   <li>Make uca.xml readable for humans.</li>
@@ -61,7 +61,7 @@
   <li>Translation updates: Catalan (Valencian), Czech, Greek, Basque, Finnish, French, Galician, Croatian, Japanese, Korean, Dutch (Flemish), Norwegian Nynorsk, Portuguese, Portuguese (Brazilian), Turkish.</li>
 </ul>
 
-<h2>Application Finder <em>(xfce4-appfinder)</em>:</h2>
+<h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
   <li>Don't use deprecated g_mapped_file_free (bug #8649).</li>
   <li>Bump gtk, glib and xfce dependencies.</li>
@@ -69,7 +69,7 @@
   <li>Translation updates: Catalan (Valencian), Danish, German, Greek, Basque, Finnish, French, Galician, Croatian, Italian, Japanese, Kazakh, Korean, Lithuanian, Dutch (Flemish), Norwegian Nynorsk, Polish, Portuguese, Portuguese (Brazilian), Russian, Slovak, Turkish, Ukrainian, Chinese (China).</li>
 </ul>
 
-<h2>Panel <em>(xfce4-panel)</em>:</h2>
+<h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
   <li>Launcher: Fix desktop file monitoring on some systems.</li>
   <li>Panel: Improved DnD markers.</li>
@@ -84,7 +84,7 @@
   <li>Translation updates: Arabic, Catalan (Valencian), Czech, Danish, German, Greek, Esperanto, Spanish (Castilian), Estonian, Basque, Persian, Finnish, French, Galician, Hebrew, Croatian, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Dutch (Flemish), Norwegian Nynorsk, Polish, Portuguese, Portuguese (Brazilian), Russian, Slovak, Telugu, Turkish, Ukrainian, Chinese (China), Chinese (Taiwan).</li>
 </ul>
 
-<h2>Session Manager <em>(xfce4-session)</em>:</h2>
+<h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
   <li>Fix return value of CanSuspend and CanHibernate.</li>
   <li>Make common no-reply error more subtile.</li>
@@ -98,7 +98,7 @@
   <li>Translation updates: Catalan (Valencian), Danish, German, Greek, Basque, Finnish, French, Galician, Croatian, Italian, Japanese, Kazakh, Korean, Lithuanian, Dutch (Flemish), Norwegian Nynorsk, Polish, Portuguese, Portuguese (Brazilian), Slovak, Turkish, Ukrainian, Chinese (China).</li>
 </ul>
 
-<h2>Settings Manager <em>(xfce4-settings)</em>:</h2>
+<h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
   <li>Fix display rate matching.</li>
   <li>Bump package dependency versions.</li>
@@ -109,7 +109,7 @@
   <li>Translation updates: Arabic, Asturian, Bengali, Catalan (Valencian), Czech, Danish, German, Greek, English (United Kingdom), Spanish (Castilian), Basque, Finnish, French, Galician, Hebrew, Croatian, Hungarian, Indonesian, Icelandic, Italian, Japanese, Kazakh, Korean, Lithuanian, Latvian, Norwegian Bokmal, Dutch (Flemish), Norwegian Nynorsk, Panjabi (Punjabi), Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Sinhala, Slovak, Swedish, Telugu, Turkish, Uyghur, Ukrainian, Urdu, Urdu (Pakistan), Chinese (China), Chinese (Taiwan).</li>
 </ul>
 
-<h2>Configuration Manager <em>(xfconf)</em>:</h2>
+<h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
   <li>Use LT_PREREQ and LT_INIT.</li>
   <li>UTF-8 check xfconf strings.</li>
@@ -120,7 +120,7 @@
   <li>Translation updates: German, Greek, Japanese, Korean, Dutch (Flemish), Polish, Portuguese, Turkish.</li>
 </ul>
 
-<h2>Desktop Manager <em>(xfdesktop)</em>:</h2>
+<h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
   <li>Fix dependency versions.</li>
   <li>Hide unneeded message on startup.</li>
@@ -134,7 +134,7 @@
   <li>Translation updates: Amharic, Arabic, Asturian, Azerbaijani, Belarusian, Bulgarian, Bengali, Bengali (India), Catalan (Valencian), Czech, Danish, German, Dzongkha, Greek, English (United Kingdom), Esperanto, Spanish (Castilian), Estonian, Basque, Persian, Finnish, French, Galician, Gujarati, Hebrew, Hindi, Croatian, Hungarian, Armenian, Indonesian, Icelandic, Italian, Japanese, Georgian, Kazakh, Korean, Lithuanian, Latvian, Macedonian, Marathi, Malay, Norwegian Bokmal, Dutch (Flemish), Norwegian Nynorsk, Panjabi (Punjabi), Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Sinhala, Slovak, Albanian, Swedish, Tamil, Telugu, Turkish, Uyghur, Ukrainian, Urdu, Urdu (Pakistan), Vietnamese, Chinese (China), Chinese (Taiwan).</li>
 </ul>
 
-<h2>Window Manager <em>(xfwm4)</em>:</h2>
+<h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
   <li>Improve tiling.</li>
   <li>Reduce tiling distance (bug #8628).</li>
@@ -152,13 +152,13 @@
   <li>Translation updates: Amharic, Arabic, Asturian, Azerbaijani, Belarusian, Bulgarian, Bengali, Bengali (India), Catalan (Valencian), Czech, Danish, German, Dzongkha, Greek, English (United Kingdom), Esperanto, Spanish (Castilian), Estonian, Basque, Persian, Finnish, French, Galician, Gujarati, Hebrew, Hindi, Croatian, Hungarian, Indonesian, Icelandic, Italian, Japanese, Georgian, Kazakh, Korean, Lithuanian, Latvian, Macedonian, Marathi, Malay, Norwegian Bokmal, Dutch (Flemish), Norwegian Nynorsk, Panjabi (Punjabi), Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Sinhala, Slovak, Albanian, Swedish, Tamil, Telugu, Turkish, Uyghur, Ukrainian, Urdu, Urdu (Pakistan), Vietnamese, Chinese (China), Chinese (Taiwan).</li>
 </ul>
 
-<h2>Theme Engine <em>(gtk-xfce-engine)</em>:</h2>
+<h2>Theme Engine <em>(gtk-xfce-engine)</em></h2>
 <ul>
   <li>Link against libm for floor() and ceil().</li>
   <li>Reduce GtkComboBox padding (bug #8455).</li>
 </ul>
 
-<h2>Power Manager <em>(xfce4-power-manager)</em>:</h2>
+<h2>Power Manager <em>(xfce4-power-manager)</em></h2>
 <ul>
   <li>Show dialog in settings category.</li>
   <li>Store brightness properties as uint (bug #7791).</li>
@@ -168,7 +168,7 @@
   <li>Translation updates: Greek, French, Japanese, Korean, Dutch (Flemish), Polish, Portuguese, Turkish.</li>
 </ul>
 
-<h2>Volume Manager <em>(thunar-volman)</em>:</h2>
+<h2>Volume Manager <em>(thunar-volman)</em></h2>
 <ul>
   <li>Translation updates: Greek, Finnish, Galician, Croatian, Japanese, Korean, Dutch (Flemish), Polish, Portuguese, Portuguese (Brazilian), Turkish.</li>
 </ul>
