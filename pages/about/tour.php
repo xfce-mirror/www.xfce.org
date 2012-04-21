@@ -60,8 +60,8 @@ function print_img ($file, $title)
   <p><?php E_("Visually not much changed in Thunar this release. The main window has been enhanced a bit to reduce padding and improve the position of the status bar.") ?></p>
 
 <h2><?php E_("Session Manager") ?> <em>(xfce4-session)</em></h2>
-
-  <p><?php E_("The session manager has a button in the settings dialog to clear the saved session session (no more <tt>rm -r ~/.config/sessions</tt>). It also has an option to lock the screen before suspending or hibernating the system.") ?></p>
+  
+  <p><?php E_("The session manager has a button in the settings dialog to clear the saved session (no more <tt>rm -r ~/.config/sessions</tt>) and xfce4-tips has been removed. It also has an option to lock the screen before suspending or hibernating the system.") ?></p>
 
   <h3><?php E_("Applications Autostart") ?></h3>
 
@@ -71,8 +71,12 @@ function print_img ($file, $title)
 
 <h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
 
-  <h3><?php E_("Settings Manager") ?></h3>
+  <h3><?php E_("Settings Daemon") ?></h3>
+  
+    <p><?php E_("In 4.8 there were two process to apply the settings in Xfce: <tt>xfce4-settings-helper</tt> and <tt>xfsettingsd</tt>. In 4.10 those two are merge, so now <tt>xfsettingsd</tt> applies all your system settings.") ?></p>
 
+  <h3><?php E_("Settings Manager") ?></h3>
+  
     <p><?php E_("The Settings dialog has support for categories and searching. Most of the dialogs are also embedded in the window (this was a compile-time option in 4.8).") ?></p>
     
     <?php print_img ("settings-manager", R_("")) ?>
@@ -96,6 +100,10 @@ function print_img ($file, $title)
     <p><?php E_("The pointer settings dialog has support for handling the basic Synaptics and Wacom properties. In the background the settings daemon has support for setting all kinds of <em>device properties</em>, which is explained in the <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki.") ?></p>
     
     <?php print_img ("settings-mouse", R_("")) ?>
+
+  <h3><?php E_("Appearance Settings") ?></h3>
+  
+    <p><?php E_("In 4.10 you can drop theme tarballs in the Style or Icon list. Xfce will try to extract it and install the files in the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory.") ?></h3>
 
 <h2><?php E_("Desktop Manager") ?> <em> (xfdesktop)</em></h2>
 
