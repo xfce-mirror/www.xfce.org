@@ -47,7 +47,7 @@ function print_img ($file, $title)
 
   <h3><?php E_("Actions Plugin") ?></h3>
 
-    <p><?php E_("This plugin have been rewritten and merges the functionality of the session plugin that was previously shipped with the xfce4-session package.") ?></p>
+    <p><?php E_("This plugin has been rewritten and merges the functionality of the session plugin that was previously shipped with the xfce4-session package.") ?></p>
     
     <?php print_img ("panel-actions", R_("")) ?>
 
@@ -65,7 +65,7 @@ function print_img ($file, $title)
 
   <h3><?php E_("Applications Autostart") ?></h3>
 
-    <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility work. The compatibility check boxes only enable the services that need to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are always visible in the <strong>Applications Autostart</strong>, but listed cursive and not enabled by default if they are for a non-Xfce desktop.") ?></p>
+    <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility work. The compatibility check boxes only enable the services that need to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are always visible in the <strong>Applications Autostart</strong>, but listed italic and not enabled by default if they are for a non-Xfce desktop.") ?></p>
     
     <?php print_img ("session-autostart", R_("")) ?>
 
