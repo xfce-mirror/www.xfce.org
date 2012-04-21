@@ -18,6 +18,8 @@ function print_img ($file, $title)
 <h2><?php E_("Online Documentation") ?></h2>
 
   <p><?php E_("During the 4.10 development we've decided to remove the user manuals from the packages and move all manuals in an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. Reason for this change that there was hardly any documentation contributed after the Xfce 4.6 release and a lot of pages were outdated or missing.") ?></p>
+  
+  <?php print_img ("online-help", R_("")) ?>
 
   <p><?php E_("We hope that with the introduction of a wiki it will be easier for contributers to help maintaining the docs and of course for developers it is easier as well.") ?></p>
 
