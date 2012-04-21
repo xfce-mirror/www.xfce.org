@@ -13,67 +13,67 @@ function print_img ($file, $title)
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to all the new major visual features in Xfce 4.10. This is only the visual part of what has been done; for a full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.10. It only covers the visual part of what has been done; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
 <h2><?php E_("Online Documentation") ?></h2>
 
-  <p><?php E_("During the 4.10 development we've decided to remove the user manuals from the packages and move all manuals in an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. Reason for this change that there was hardly any documentation contributed after the Xfce 4.6 release and a lot of pages were outdated or missing.") ?></p>
+  <p><?php E_("During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. The reason for this change is to make <a href=\"http://docs.xfce.org/wiki/documentation\">contributing</a> and updating the documentation easier.") ?></p>
 
-  <?php print_img ("online-help", R_("Xfce will ask to go online when you click a Help button")) ?>
+  <?php print_img ("online-help", R_("When you click a Help button Xfce will ask you to go to an online wiki page.")) ?>
 
-  <p><?php E_("We hope that with the introduction of a wiki it will be easier for contributers to help maintaining the docs and of course for developers it is easier as well.") ?></p>
+  <p><?php E_("We hope that with the introduction of the wiki it will be easier for developers and contributors to maintain the documentation.") ?></p>
 
 <h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
 
-  <p><?php E_("The application finder has been completely rewritten and merges the functionality of the old appfinder and xfrun4. It also allows to create custom actions that match a prefix or a regex pattern.") ?></p>
+  <p><?php E_("The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.") ?></p>
 
-  <?php print_img ("appfinder-collapsed", R_("Collapsed view of the Application Finder")) ?>
+  <?php print_img ("appfinder-collapsed", R_("Collapsed view of the Application Finder.")) ?>
 
-  <?php print_img ("appfinder-expanded", R_("Expanded view of the Application Finder")) ?>
+  <?php print_img ("appfinder-expanded", R_("Expanded view of the Application Finder.")) ?>
 
 <h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
 
-  <h3><?php E_("Rows") ?></h3>
+  <h3><?php E_("Multiple Rows") ?></h3>
 
-    <p><?php E_("In 4.10 there is a general setting to configure the number of rows of a panel. Rows are used to keep some plugins small (Launchers) and give other plugins more space (like the Window Buttons).") ?></p>
+    <p><?php E_("In 4.10 there is a single panel-wide option for configuring the number of  rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, while others, like window buttons are allowed to occupy full width of the panel.") ?></p>
 
-    <?php print_img ("panel-rows", R_("A horizontal panel with 3 rows")) ?>
+    <?php print_img ("panel-rows", R_("A horizontal panel with the number of rows set to three.")) ?>
 
   <h3><?php E_("Deskbar Mode") ?></h3>
 
-    <p><?php E_("The panel features a new display mode called Deskbar. In Deskbar mode the panel is aligned vertical, but the orientation of the plugins is horizontal. In combination with the new rows setting, this allows to create panels that are suitable for wide-screen setups.") ?></p>
+    <p><?php E_("The panel features a new configuration called a <em>deskbar</em> mode. In the deskbar  mode the panel is aligned vertically, just like in the vertical mode, but the plugins are laid out horizontally. With multiple rows, it allows creating wide vertical panels suitable for wide-screen setups.") ?></p>
 
-    <?php print_img ("panel-deskbar", R_("A panel in Deskbar mode with 5 rows")) ?>
+    <?php print_img ("panel-deskbar", R_("A panel in Deskbar mode with the number of rows set to five.")) ?>
 
   <h3><?php E_("Actions Plugin") ?></h3>
 
-    <p><?php E_("This plugin has been rewritten and merges the functionality of the session plugin that was previously shipped with the xfce4-session package.") ?></p>
+    <p><?php E_("Session plugin from the xfce4-session package has been merged with a rewritten actions plugin") ?></p>
 
-    <?php print_img ("panel-actions", R_("On the left the Action plugin in menu mode, on the right showing buttons")) ?>
+    <?php print_img ("panel-actions", R_("Action plugin in the menu mode (left), and in the button mode (right).")) ?>
 
   <h3><?php E_("Window Buttons") ?></h3>
 
-    <p><?php E_("The Window Buttons plugin does not expand anymore to give users more freedom with positioning the plugin. Use a separator plugin with <strong>Expand</strong> enabled to align plugins on the panel.") ?></p>
+    <p><?php E_("The window buttons plugin no longer expands in order to make the plugin positioning more flexible. To restore the previous behavior please add a transparent <em>separator</em> plugin with the <strong>Expand</strong> option enabled just behind the window buttons plugin.") ?></p>
 
 <h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
 
-  <p><?php E_("Visually not much changed in Thunar this release. The main window has been enhanced a bit to reduce padding and improve the position of the status bar.") ?></p>
+  <p><?php E_("There are few visual changes in this Thunar release. The main window uses less padding and the position of the status bar has been improved.") ?></p>
 
 <h2><?php E_("Session Manager") ?> <em>(xfce4-session)</em></h2>
 
-  <p><?php E_("The session manager has a button in the settings dialog to clear the saved session (no more <tt>rm -r ~/.config/sessions</tt>) and xfce4-tips has been removed. It also has an option to lock the screen before suspending or hibernating the system.") ?></p>
+  <p><?php E_("The session manager&apos;s settings dialog now has a button for clearing  the saved session (no more <tt>rm -r ~/.config/sessions</tt>). Xfce4-tips has been removed and the session manager can now lock the screen before suspending or hibernating the system.") ?></p>
 
   <h3><?php E_("Applications Autostart") ?></h3>
 
-    <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility work. The compatibility check boxes only enable the services that need to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are always visible in the <strong>Applications Autostart</strong>, but listed italic and not enabled by default if they are for a non-Xfce desktop.") ?></p>
+    <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable these services that have to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are available from <strong>Applications Autostart</strong>, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started indepedently from each other.") ?></p>
 
-    <?php print_img ("session-autostart", R_("Italic items are not belonging to Xfce, but can be started separately")) ?>
+    <?php print_img ("session-autostart", R_("Applications, which are not a part of Xfce, are listed using an italic font.")) ?>
 
 <h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
 
   <h3><?php E_("Settings Daemon") ?></h3>
 
-    <p><?php E_("In 4.8 there were two process to apply the settings in Xfce: <tt>xfce4-settings-helper</tt> and <tt>xfsettingsd</tt>. In 4.10 those two are merge, so now <tt>xfsettingsd</tt> applies all your system settings.") ?></p>
+    <p><?php E_("Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-helper</tt> and <tt>xfsettingsd</tt>. In 4.10 those two were merged, so now xfsettingsd handles all system settings.") ?></p>
 
   <h3><?php E_("Settings Manager") ?></h3>
 

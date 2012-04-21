@@ -2,7 +2,7 @@
 
 <h1>Xfce 4.10 Changelog</h1>
 
-<h2>Dependency Changes</h2>
+<h2>General</h2>
 <ul>
   <li>For changes in the 4.10 dependecies, please look at the <a href="/download/changelogs/4.10pre1">4.10pre1</a> ChangeLog.</li>
   <li>See also the <a href="/download/changelogs/4.10pre1">4.10pre1</a> and <a href="/download/changelogs/4.10pre2">4.10pre2</a> ChangeLog for major changes in the 4.10 release.</li>
