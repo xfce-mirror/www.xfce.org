@@ -6,7 +6,7 @@ function print_img ($file, $title)
 {
   global $static_media;
 
-  echo '<p class="image"><img src="'.$static_media.'/about/tour/4.4/'.$file.'.png" alt="'.$file.'" title="'.$title.'" /></p>';
+  echo '<div class="image"><div><img src="'.$static_media.'/about/tour/4.4/'.$file.'.png" alt="'.$file.'"" /></div>'.$title.'</div>';
 }
 
 ?>
