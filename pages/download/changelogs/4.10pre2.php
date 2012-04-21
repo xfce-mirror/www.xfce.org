@@ -4,7 +4,7 @@
 
 <h2>Dependency Changes</h2>
 <ul>
-  <li>For changes in the 4.10 dependecies, please look at the <a href="/download/changelogs/4.10pre1">4.10pre1 ChangeLog</a>.</li>
+  <li>For changes in the 4.10 dependecies, please look at the <a href="/download/changelogs/4.10pre1">4.10pre1</a> ChangeLog.</li>
 </ul>
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
