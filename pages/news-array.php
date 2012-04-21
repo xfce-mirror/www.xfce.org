@@ -7,6 +7,13 @@
  * */
 
 $news = array (
+	array ('title' => R_('Xfce 4.10 released'),
+	       'version' => '4.10',
+	       'date' => '28 apr 2012',
+	       'author' => 'Release Manager',
+	       'paragraphs' => array (
+			R_('Today, after 1 year of work, we have the special pleasure of announcing the much awaited release of Xfce 4.10, the new stable version that supersedes Xfce 4.8.'))
+	       ),
 	array ('title' => R_('Xfce 4.10pre2 released'),
 	       'version' => '4.10pre2',
 	       'date' => '14 apr 2012',
