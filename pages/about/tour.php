@@ -14,9 +14,9 @@
 
 <h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
 
-  <p><?php E_("The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.") ?></p>
-
   <?php print_figure ("about/tour/4.10/appfinder-collapsed.png", R_("Collapsed view of the Application Finder")) ?>
+
+  <p><?php E_("The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.") ?></p>
 
   <?php print_figure ("about/tour/4.10/appfinder-expanded.png", R_("Expanded view of the Application Finder")) ?>
 
