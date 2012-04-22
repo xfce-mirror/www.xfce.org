@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
-"POT-Creation-Date: 2012-04-22 14:30+0900\n"
+"POT-Creation-Date: 2012-04-22 14:57+0200\n"
 "PO-Revision-Date: 2012-04-22 16:20+0900\n"
 "Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -17,513 +17,632 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: feed.php:29
-msgid "Xfce News"
-msgstr "Xfce ニュース"
+#: projects/nav.php:1 download/nav.php:14 getinvolved/nav.php:14
+#: community/nav.php:1
+msgid "Related Sites"
+msgstr "関連サイト"
 
-#: feed.php:30
-msgid "Xfce release announcements"
-msgstr "Xfce リリースのお知らせ"
+#: projects/nav.php:4
+msgid "Docs"
+msgstr "Docs"
 
-#: feed.php:42 about/news.php:34 frontpage.php:104
+#: projects/nav.php:5
+msgid "online documentation for the core modules of Xfce"
+msgstr "Xfce コアモジュールのオンラインドキュメント"
+
+#: projects/nav.php:9 download/nav.php:32
+msgid "Goodies"
+msgstr "Goodies"
+
+#: projects/nav.php:10 download/nav.php:33
+msgid "wiki with information on additional software for Xfce"
+msgstr "Xfce 用拡張ソフトウェア情報 wiki"
+
+#: projects/index.php:3 header.php:60
+msgid "Projects"
+msgstr "プロジェクト"
+
+#: projects/index.php:7
+msgid "Learn&nbsp;More&nbsp;&rarr;"
+msgstr "もっと詳しく&nbsp;&rarr;"
+
+#: projects/index.php:12
+msgid ""
+"The Xfce project contains several separated projects for each part of the "
+"desktop. Every project has it's own project page to provide additionnal "
+"information."
+msgstr ""
+"Xfce プロジェクトには、デスクトップの各部を担当するいくつかのプロジェクトがあ"
+"ります。各プロジェクトは詳しい情報を提供するページを用意しています。"
+
+#: projects/index.php:15 about/releasemodel.php:29
+msgid "Core Components"
+msgstr "コアコンポーネント"
+
+#: projects/index.php:18 about/tour.php:105 about/index.php:29
+#: about/tour46.php:57 about/tour44.php:71
+msgid "Window Manager"
+msgstr "ウィンドウマネージャー"
+
+#: projects/index.php:20
+msgid ""
+"It manages the placement of application windows on the screen, provides "
+"window decorations and manages workspaces or virtual desktops."
+msgstr ""
+"画面上のアプリケーションウィンドウの配置を管理し、ウィンドウ枠とワークスペー"
+"スや仮想デスクトップを提供します。"
+
+#: projects/index.php:25 about/tour.php:23 about/tour48.php:27
+#: about/index.php:35 about/tour46.php:23 about/tour44.php:102
+msgid "Panel"
+msgstr "パネル"
+
+#: projects/index.php:27
+msgid ""
+"The panel is a bar which allows you to have at all times program launchers, "
+"panel menus, a clock, a desktop switcher and more."
+msgstr ""
+"パネルとは、プログラムの起動、パネルメニューや時刻の表示、デスクトップの切り"
+"換えなどを行える、常駐するバーのことです。"
+
+#: projects/index.php:35 about/tour.php:97 about/index.php:32
+#: about/tour46.php:9
+msgid "Desktop Manager"
+msgstr "デスクトップマネージャー"
+
+#: projects/index.php:37
+msgid ""
+"This program sets the background image and provides a root window menu, "
+"desktop icons or minimized icons and a windows list."
+msgstr ""
+"背景画像を設定し、ルートウィンドウメニュー、デスクトップアイコンや最小化アイ"
+"コン、およびウィンドウリストを提供します。"
+
+#: projects/index.php:42 about/tour.php:51 about/index.php:38
+#: about/tour46.php:43
+msgid "Session Manager"
+msgstr "セッションマネージャー"
+
+#: projects/index.php:44
+msgid ""
+"The session manager controls all aspects of the startup and the shutdown of "
+"the user session."
+msgstr "ユーザーセッションの開始から終了までをすべての面から管理します。"
+
+#: projects/index.php:52 about/tour.php:67
+msgid "Settings Manager"
+msgstr "設定マネージャー"
+
+#: projects/index.php:54
+msgid "It allows you to configure every detail of your desktop environment."
+msgstr "デスクトップ環境のあらゆる詳細設定を行えます。"
+
+#: projects/index.php:59 about/tour.php:15 about/index.php:41
+#: about/tour46.php:180
+msgid "Application Finder"
+msgstr "アプリケーションファインダー"
+
+#: projects/index.php:61
+msgid ""
+"Allows you to search, launch and find information about applications "
+"installed on your system."
+msgstr ""
+"システムにインストールされているアプリケーションの検索、起動、情報の表示が行"
+"えます。"
+
+#: projects/index.php:69
+msgid "Xfce Libraries"
+msgstr "Xfce ライブラリ"
+
+#: projects/index.php:71
+msgid ""
+"They provide additional functions and widgets which ease the development of "
+"applications."
+msgstr ""
+"アプリケーション開発を容易にする追加機能やウィジェットを提供しています。"
+
+#: projects/index.php:78
+msgid "Simple client-server configuration storage and query system."
+msgstr "シンプルなクライアント―サーバー型設定格納・問い合わせシステムです。"
+
+#: projects/index.php:86 about/tour44.php:34
+msgid "Thunar File Manager"
+msgstr "Thunar ファイルマネージャー"
+
+#: projects/index.php:88
+msgid ""
+"Thunar is a new modern file manager designed from the ground up to be fast "
+"and easy-to-use."
+msgstr ""
+"Thunar はモダンなファイルマネージャーです。軽快で簡単に使えることを目標に一か"
+"ら設計されました。"
+
+#: projects/index.php:95
+msgid "Applications"
+msgstr "アプリケーション"
+
+#: projects/index.php:98
+msgid "Web Browser"
+msgstr "ウェブブラウザー"
+
+#: projects/index.php:100
+msgid "Midori is a lightweight Web browser."
+msgstr "Midori は軽快なウェブブラウザーです。"
+
+#: projects/index.php:105 about/tour44.php:150
+msgid "Terminal"
+msgstr "ターミナル"
+
+#: projects/index.php:107
+msgid ""
+"Terminal is a modern terminal emulator featuring tabs and transparent "
+"backgrounds."
+msgstr ""
+"Terminal はタブや背景の透明化を特徴とするモダンなターミナルミュレーターです。"
+
+#: projects/index.php:116
+msgid "Xfburn"
+msgstr "Xfburn"
+
+#: projects/index.php:118
+msgid "Xfburn is an application to create and burn CD's and DVD's."
+msgstr "Xfburn は CD や DVD を作成するアプリケーションです。"
+
+#: projects/index.php:122 about/tour44.php:137
+msgid "Orage"
+msgstr "Orage"
+
+#: projects/index.php:124
+msgid "A simple calendar application with reminders."
+msgstr "Orage はシンプルな通知機能付きのカレンダーアプリケーションです。"
+
+#: projects/index.php:132
+msgid "Mixer"
+msgstr "ミキサー"
+
+#: projects/index.php:134
+msgid "Allows you to change the volume of the different audio tracks."
+msgstr "様々なオーディオトラックの音量を調節できます。"
+
+#: projects/index.php:138
+msgid "Image Viewer"
+msgstr "画像ビューアー"
+
+#: projects/index.php:140
+msgid "Ristretto is a lightweight image viewer."
+msgstr "Ristretto は軽量の画像ビューアーです。"
+
+#: header.php:6 frontpage.php:68
+msgid "Xfce Desktop Environment"
+msgstr "Xfce デスクトップ環境"
+
+#: header.php:53
+msgid "Categories"
+msgstr "カテゴリ"
+
+#: header.php:55
+msgid "Home"
+msgstr "Home"
+
+#: header.php:56 about/nav.php:4 about/index.php:1
+msgid "About"
+msgstr "Xfce について"
+
+#: header.php:57 frontpage.php:72 download/nav.php:4 download/index.php:5
+#: about/news.php:54
+msgid "Download"
+msgstr "ダウンロード"
+
+#: header.php:58 community/index.php:3
+msgid "Community"
+msgstr "コミュニティ"
+
+#: header.php:59 getinvolved/nav.php:4 getinvolved/index.php:1
+msgid "Get Involved"
+msgstr "参加する"
+
+#: header.php:64 header.php:78
+msgid "Change language"
+msgstr "言語の変更"
+
+#: footer.php:6
+#, php-format
+msgid ""
+"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
+"was last modified on %s."
+msgstr ""
+"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. このページ"
+"の最終更新日: %s"
+
+#: frontpage.php:15
+msgid ""
+"The default Xfce Desktop provides a simple and attractive desktop for Unix "
+"users."
+msgstr ""
+"デフォルト Xfce デスクトップ環境は Unix ユーザーにとってシンプルで魅力的なデ"
+"スクトップを提供します。"
+
+#: frontpage.php:18
+msgid ""
+"Thunar is the file manager for the Xfce Desktop. It has been designed from "
+"the ground up to be fast and easy-to-use. Its user interface is clean and "
+"intuitive, and does not include any confusing or useless options by default."
+msgstr ""
+"Thunar は Xfce デスクトップ環境用のファイルマネージャーです。高速で使いやすく"
+"なるよう一から作り上げられました。ユーザーインターフェイスはすっきりと直感的"
+"で、ややこしく無駄なオプションは一切含まれていません。"
+
+#: frontpage.php:21
+msgid ""
+"The Xfce Desktop provides all the required settings to configure your "
+"hardware, desktop appearance and other desktop-critical settings allowing "
+"you to easily manage your system."
+msgstr ""
+"Xfce デスクトップ環境はハードウェア構成、デスクトップの外観、その他のシステム"
+"管理に必要なすべての設定を簡単に行えます。"
+
+#: frontpage.php:24
+msgid ""
+"The Xfce Window Manager is the core of the desktop. It can be tuned to make "
+"window management quick and predictable. It also features around 100 border "
+"styles giving it the look you want!"
+msgstr ""
+"Xfce ウィンドウマネージャーはデスクトップのコアとなるコンポーネントです。ウィ"
+"ンドウ管理を素早く、わかりやすくし、100 以上のスタイルを提供しています!"
+
+#: frontpage.php:27
+msgid ""
+"The Xfce Panel can be customized in numerous ways so it provides all the "
+"items you need right where you need them. It has three different display "
+"modes, transparency and a few dozen different plugins."
+msgstr ""
+"Xfce パネルは数え切れないほど多くの方法でカスタマイズでき、必要なアイテムを必"
+"要な場所に配置することができます。3種類の表示モードと透明化をサポートし、数十"
+"の様々なプラグインが提供されています。"
+
+#: frontpage.php:30
+msgid ""
+"Beside the core desktop functionality, a number of other applications are "
+"developed in the Xfce repositories, like an image viewer, the Midori web "
+"browser, task manager, notes plugin and calendar."
+msgstr ""
+"コアデスクトップの機能の他、画像ビューアー、Midori ウェブブラウザー、タスクマ"
+"ネージャー、メモプラグイン、あるいはカレンダーなど、たくさんのアプリケーショ"
+"ンが Xfce リポジトリで開発されています。"
+
+#: frontpage.php:69 about/index.php:7
+msgid ""
+"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
+"It aims to be fast and low on system resources, while still being visually "
+"appealing and user friendly."
+msgstr ""
+"Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境です。"
+"視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としています。"
+
+#: frontpage.php:73
+msgid "get the source tarballs"
+msgstr "ソース tar ボールの入手"
+
+#: frontpage.php:77
+msgid "ChangeLog"
+msgstr "更新履歴"
+
+#: frontpage.php:78
+#, php-format
+msgid "release notes for Xfce %s"
+msgstr "Xfce %s リリースノート"
+
+#: frontpage.php:82
+#, php-format
+msgid "%s Tour"
+msgstr "%s ツアー"
+
+#: frontpage.php:83
+msgid "visual tour about new features in the latest releases"
+msgstr "最新リリースでの新機能の紹介"
+
+#: frontpage.php:87 about/nav.php:25 about/screenshots.php:1
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#: frontpage.php:88 about/nav.php:26
+msgid "examples of Xfce desktops ordered by version"
+msgstr "バージョン別 Xfce デスクトップサンプル"
+
+#: frontpage.php:97 about/news.php:12
+msgid "Subscribe to RSS feed"
+msgstr "RSS フィードの購読"
+
+#: frontpage.php:98
+msgid "Latest News"
+msgstr "最新のニュース"
+
+#: frontpage.php:104 about/news.php:34 feed.php:42
 #, php-format
 msgid "Xfce %s released"
 msgstr ""
 
-#: about/tour46.php:3
-msgid "Xfce 4.6 tour"
-msgstr "Xfce 4.6 ツアー"
+#: 404.php:1
+msgid "Page not found"
+msgstr "ページが見つかりません"
 
-#: about/tour46.php:17
+#: 404.php:5
 msgid ""
-"The long awaited 4.6.0 version of the Xfce Desktop Environment is finally "
-"available. We will try to highlight some of the new features which have been "
-"added since the last stable release."
+"We're sorry, the page or file you requested was not found on this server."
 msgstr ""
-"長い間待たれていた Xfce デスクトップ環境のバージョン 4.6.0 が、ついにリリース"
-"されました。私たちは、直前の安定版リリースから追加されたいくつかの新機能につ"
-"いて紹介したいと思います。"
+"残念ながら、要求されたページまたはファイルはこのサーバー上に見つかりませんで"
+"した。"
 
-#: about/tour46.php:20 about/tour.php:108 about/index.php:32
-#: projects/index.php:35
-msgid "Desktop Manager"
-msgstr "デスクトップマネージャー"
-
-#: about/tour46.php:23
+#: 404.php:7
 msgid ""
-"Since desktop icons have been introduced in Xfce 4.4, people have expressed "
-"the need to allow the selection of multiple icons (rubber banding). With "
-"<b>Xfce 4.6</b>, the <b>Xfdesktop</b> manager finally implements this "
-"feature: you can select multiple icons, remove them, etcetera..."
+"If you clicked on a link that brought you to this page, or you have reached "
+"this page through a search engine or bookmark, it could very well be that "
+"the page you were looking for was removed, renamed or temporary unavailable."
 msgstr ""
-"デスクトップアイコンは Xfce 4.4 から導入されましたが、多くの方々から (ラバー"
-"バンド法で) 複数アイコンの選択ができることを望まれました。<b>Xfce 4.6</b> で"
-"は、<b>Xfdesktop</b> マネージャーがとうとうこの機能を実装しました。これで複数"
-"アイコンの選択、削除などが行えます。"
+"あなたがこのページへジャンプするリンクをクリックしたか、検索エンジンまたは"
+"ブックマークからそのページに来ようとしたのであれば、そのページは削除された"
+"か、名前が変更されたか、あるいは一時的に利用できなくなっています。"
 
-#: about/tour46.php:26
-msgid "Multiple icons selection"
-msgstr "複数アイコンの選択k"
-
-#: about/tour46.php:29
+#: 404.php:10
 msgid ""
-"<b>Xfce 4.6</b> features a brand new desktop menu which allows you to "
-"manipulate files as with the <b>Thunar</b> filemanager contextual menu, but "
-"also to open applications, exit your session, or access the help "
-"documentation."
+"Please try one of the following methods to find the page you are looking for:"
 msgstr ""
-"<b>Xfce 4.6</b> は新しいデスクトップメニューを用意し、<b>Thunar</b> ファイル"
-"マネージャーのコンテキストメニューによりファイルを操作できるようになりまし"
-"た。また、アプリケーションの起動、セッションの終了、あるいはヘルプドキュメン"
-"トへのアクセスも行えます。"
+"あなたがお探しのページを見つけるために、以下の手順のいずれかを試してみてくだ"
+"さい:"
 
-#: about/tour46.php:32
-msgid "New desktop menu"
-msgstr "新しいデスクトップメニュー"
-
-#: about/tour46.php:34 about/tour44.php:113 about/tour.php:34
-#: about/index.php:35 about/tour48.php:38 projects/index.php:25
-msgid "Panel"
-msgstr "パネル"
-
-#: about/tour46.php:37
+#: 404.php:14
 msgid ""
-"A lot of long standing bugs have been fixed in <b>Xfce4 Panel</b>, "
-"particularly for multiple screen setups, but this new release also brings an "
-"improved set of panel plugins."
+"If you typed the page address in the Address bar, make sure that it is "
+"spelled correctly."
 msgstr ""
-"長く残っていた <b>Xfce4 Panel</b> の多くのバグ、特にマルチスクリーンの設定に"
-"関する問題が修正されました。それだけでなく、この新しいリリースではパネルプラ"
-"グインセットの改良も行われました。"
+"アドレスバーにそのページのアドレスを入力したのであれば、それに打ち間違いがな"
+"いか確認してください。"
 
-#: about/tour46.php:40
-msgid "New binary clock"
-msgstr "新しいバイナリ時計"
-
-#: about/tour46.php:43
+#: 404.php:15
 msgid ""
-"The <b>clock plugin</b> has been rewritten to consume fewer system resources "
-"and to fix some display bugs, but there is also a new clock mode for the "
-"geek in you: binary clock! The new <b>notification area plugin</b> allows "
-"you to hide selected notification icons to keep your notification area clean "
-"and readable."
+"Open the <a href=\"/\">Xfce home page</a> and look for links to the "
+"information you want."
 msgstr ""
-"<b>時計プラグイン</b>はシステムリソースの消費を抑え、いくつかの表示上のバグを"
-"修正するために書き直されました。また、ギークなあなたのために、新たなモードと"
-"してバイナリクロックも追加されました!新しい<b>通知エリアプラグイン</b>では、"
-"任意の通知アイコンを表示しないよう指定することができ、あなたの通知エリアを"
-"すっきり見やすくしておくことができます。"
+"<a href=\"/\">Xfce ホームページ</a>を開いて、あなたがほしい情報へのリンクをお"
+"探しください。"
 
-#: about/tour46.php:46
-msgid "Sound Mixer"
-msgstr "サウンドミキサー"
+#: 404.php:16
+msgid "Click the Back button to try another link."
+msgstr "「戻る」ボタンをクリックして他のリンクを試してみてください。"
 
-#: about/tour46.php:49
+#: 404.php:20
 msgid ""
-"<b>Xfce4 Mixer</b> has been rewritten from scratch to use <a href=\"http://"
-"www.gstreamer.net/\">Gstreamer</a>. This allows us to more easily support "
-"multiple sound systems, the user interface is more polished, and you can "
-"manage several different sound cards. Additionally, a panel plugin allows "
-"you to set the system sound quickly using the mouse scroll wheel."
+"You can always <a href=\"mailto:webmaster@xfce.org\">ask the webmaster</a> "
+"to assist you with your search, or report the problem in case you think this "
+"is needed."
 msgstr ""
-"<b>Xfce4 ミキサー</b>は一から書き直され、<a href=\"http://www.gstreamer.net/"
-"\">GStreamer</a> を使用するようになりました。これにより複数のサウンドシステム"
-"のサポートがより容易になり、ユーザーインターフェイスはより洗練され、異なるサ"
-"ウンドカードそれぞれの管理も行えるようになりました。さらに、パネルプラグイン"
-"では、マウスのスクロールホイールを使って速やかにシステムサウンドの設定を行え"
-"ます。"
+"あなたの検索を助けるため、あるいはあなたが問題だと思った場合は、いつでも<a "
+"href=\"mailto:webmaster@xfce.org\">ウェブ管理者に問い合わせることができます。"
+"</a>"
 
-#: about/tour46.php:52
-msgid "New sound mixer"
-msgstr "新しいサウンドミキサー"
+#: download/nav.php:1 about/nav.php:1 getinvolved/nav.php:1
+msgid "Related Pages"
+msgstr "関連ページ"
 
-#: about/tour46.php:54 about/tour.php:62 about/index.php:38
-#: projects/index.php:42
-msgid "Session Manager"
-msgstr "セッションマネージャー"
+#: download/nav.php:7 download/changelogs/index.php:3
+msgid "Changelogs"
+msgstr "更新履歴"
 
-#: about/tour46.php:57
+#: download/nav.php:8
+msgid "release notes of each Xfce release"
+msgstr "各 Xfce リリースのリリースノート"
+
+#: download/nav.php:17
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: download/nav.php:18
+msgid "the Xfce download archive"
+msgstr "Xfce アーカイブのダウンロード"
+
+#: download/nav.php:22
+msgid "Building"
+msgstr "ビルド"
+
+#: download/nav.php:23
+msgid "documentation on building Xfce from source"
+msgstr "Xfce のソースからのビルド手順"
+
+#: download/nav.php:27
+msgid "GIT"
+msgstr "GIT"
+
+#: download/nav.php:28
+msgid "browse the source repositories"
+msgstr "ソースリポジトリの閲覧"
+
+#: download/index.php:12
 msgid ""
-"<b>Xfce 4.6</b> comes with an enhanced session manager: your session should "
-"be started faster, and the settings dialog has been reworked to ease the "
-"management of session-aware applications.  Additionally, the session manager "
-"will now automatically restart session applications which crashed so that "
-"you are not left without a desktop, panel, window manager, etcetera, if a "
-"crash occurs. "
+"Most distributions ship with Xfce in their own packaging format, but if you "
+"want a newer version or you want to build Xfce from scratch, you can find "
+"the packages below. Instructions how to compile Xfce can be found <a href="
+"\"http://docs.xfce.org/xfce/building\" class=\"external\">here</a>."
 msgstr ""
-"<b>Xfce 4.6</b> ではセッションマネージャーが強化されました。セッションの起動"
-"が速くなり、設定ダイアログはシステムが認識するアプリケーションの管理を容易に"
-"行えるよう書き直されました。さらに、セッションマネージャーは、クラッシュした"
-"セッションアプリケーションが、デスクトップ、パネル、ウィンドウマネージャーな"
-"どがない状態で残ってしまわないように、クラッシュした際に自動的に再起動するよ"
-"うになりました。"
+"ほとんどのディストリビューションはそれぞれのパッケージ形式で Xfce を提供して"
+"いますが、より新しいバージョンを使いたい、あるいは Xfce を自分で一からビルド"
+"したい場合は、以下のパッケージを使用できます。コンパイル手順の説明は<a href="
+"\"http://docs.xfce.org/xfce/building\" class=\\\"external\\\">こちら</a>で"
+"す。"
 
-#: about/tour46.php:60
-msgid "Session settings dialog"
-msgstr "セッション設定ダイアログ"
+#: download/index.php:15
+#, php-format
+msgid "Stable release %s"
+msgstr "安定版リリース %s"
 
-#: about/tour46.php:63
+#: download/index.php:18
+#, php-format
 msgid ""
-"The session manager also includes a new long-awaited feature: support for "
-"<b>suspend</b> and <b>hibernate</b> \"out of the box.\"  The logout dialog "
-"now has two additional buttons which offer to suspend or hibernate your "
-"computer."
+"Xfce %s is the most recent version of the Xfce desktop environment. You can "
+"find the changes in this release <a href=\"/download/changelogs/%s\">here</"
+"a>."
 msgstr ""
-"セッションマネージャーはまた、長く待たれていた新機能、\"すぐに使える\" <b>サ"
-"スペンド</b>および<b>ハイバネート</b>をサポートしました。ログアウトダイアログ"
-"には、コンピューターのサスペンドおよびハイバネートの 2 つのボタンが追加されて"
-"います。"
+"Xfce %s は Xfce デスクトップ環境の最新バージョンです。このリリースでの変更内"
+"容は<a href=\"/download/changelogs/%s\">こちら</a>をご覧ください。"
 
-#: about/tour46.php:66
-msgid "Session logout dialog"
-msgstr "セッションログアウトダイアログ"
+#: download/index.php:25
+msgid "Individual releases"
+msgstr "個別のリリース"
 
-#: about/tour46.php:68 about/tour44.php:82 about/tour.php:116
-#: about/index.php:29 projects/index.php:18
-msgid "Window Manager"
-msgstr "ウィンドウマネージャー"
-
-#: about/tour46.php:71
+#: download/index.php:27
 msgid ""
-"As usual, <b>Xfwm4</b> has matured quite a bit during this release cycle: "
-"many bugs have been fixed, support for multiple displays has been added, and "
-"overall performance has been improved."
+"Each package in Xfce can make individual stable or development releases, "
+"including the core packages (as described in the <a href=\"/about/"
+"releasemodel\">release model</a>). You can follow the announcements of the "
+"releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, "
+"watch the <a href=\"http://archive.xfce.org/feeds/project/\">release feeds</"
+"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
+"a>."
 msgstr ""
-"いつも通り、<b>Xfwm4</b> はこのリリースサイクルの間にかなり熟成されました。多"
-"くのバグは修正され、マルチスクリーンがサポートされ、全体のパフォーマンスが向"
-"上しました。"
+"Xfce のコアパッケージを含む各パッケージはそれぞれの安定版または開発版リリース"
+"を個別に作成できます (<a href=\"/about/releasemodel\">リリースモデル</a>を参"
+"照してください)。リリースのお知らせは <a href=\"/community/lists\">Xfce "
+"users mailing list</a>、<a href=\"http://archive.xfce.org/feeds/project/"
+"\">release feeds</a>、あるいは Xfce <a href=\"http://identi.ca/xfce\">identi."
+"ca channel</a> で行われます。"
 
-#: about/tour46.php:74
+#: download/index.php:35
+#, php-format
+msgid "Preview release %s"
+msgstr "プレビューリリース %s"
+
+#: download/index.php:37
+#, php-format
 msgid ""
-"In addition to some other new features, <b>Xfwm4</b> is now able to detect "
-"windows that do not respond and offer to terminate them."
+"Xfce %s is the latest development release of the Xfce desktop environment. "
+"This release should not be used in a production environments. If you are "
+"uncertain about downloading this release, you should probably use the <a "
+"href=\"#stable\">stable release</a> above. You can find the changes in this "
+"release <a href=\"/download/changelogs/%s\">here</a>."
 msgstr ""
-"さらに、他にいくつかの新しい機能が追加され、<b>Xfwm4</b> は応答のないウィンド"
-"ウを検知してそれらの終了を提案することができるようになりました。"
+"Xfce %s は Xfce デスクトップ環境の最新の開発版リリースです。これを実稼働環境"
+"で使用すべきではありません。もしこのリリースをダウンロードすることに不安を覚"
+"えるのであれば、上の<a href=\"#stable\">安定版リリース</a>を使用してくださ"
+"い。このリリースでの変更内容は<a href=\"/download/changelogs/%s\">こちら</a>"
+"をご覧ください。"
 
-#: about/tour46.php:77
-msgid "Dialog to terminate busy applications"
-msgstr "応答のないアプリケーションの中断ダイアログ"
+#: download/index.php:46
+msgid "Distributions"
+msgstr "ディストリビューション"
 
-#: about/tour46.php:80
+#: download/index.php:48
 msgid ""
-"There is also a new <b>actions menu</b> which allows you to quickly move and "
-"resize windows, put them above or below other windows, or fullscreen them."
+"A lot of different distributions provide Xfce packages. Popular examples "
+"build around Xfce are <a href=\"http://www.xubuntu.org/\">Xubuntu</a>, the "
+"<a href=\"http://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a> and <a "
+"href=\"http://www.zenwalk.org/\">Zenwalk</a>, but there is a good chance "
+"your favorite distro provides packages as well."
 msgstr ""
-"また、新しい<b>アクションメニュー</b>では、ウィンドウの移動やサイズの変更、他"
-"のウィンドウの前や後ろに置くこと、全画面化などが速やかに行えるようになりまし"
-"た。"
+"多くの様々なディストリビューションが Xfce パッケージを提供しています。よく知"
+"られているものとして <a href=\"http://www.xubuntu.org/\">Xubuntu</a>、<a "
+"href=\"http://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a>、および "
+"<a href=\"http://www.zenwalk.org/\">Zenwalk</a> などがありますが、おそらくあ"
+"なたのお気に入りのディストリビューションでも同じように提供しているでしょう。"
 
-#: about/tour46.php:83
-msgid "New actions menu"
-msgstr "新しいアクションメニュー"
-
-#: about/tour46.php:86
+#: download/index.php:51
+#, php-format
 msgid ""
-"A new <b>fill</b> operation has been implemented; it expands a given window "
-"to the available space without overlapping other adjacent windows."
+"You can fine a more complete list at <a href=\"http://distrowatch.com/search."
+"php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
 msgstr ""
-"新しく<b>「ウィンドウをいっぱいに拡げる」</b>操作が実装されました。これはウィ"
-"ンドウを他のウィンドウと重ならない範囲で画面いっぱいに拡げます。"
+"より完全なリストは <a href=\"http://distrowatch.com/search.php?"
+"pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a> をご覧ください。"
 
-#: about/tour46.php:89
-msgid "Fill operation"
-msgstr "「ウィンドウをいっぱいに拡げる」操作"
+#: download/index.php:54
+msgid "Artwork"
+msgstr "アートワーク"
 
-#: about/tour46.php:92
+#: download/index.php:56
+#, php-format
 msgid ""
-"The <b>compositor</b> has been optimized to reduce window flickering "
-"duringresize operations."
+"You can download the Xfce artwork tarball <a href=\"%s\">here</a>. It "
+"contains some high-quality logos and banners. Copying of the Xfce logo is "
+"subject to the LGPL copyright license."
 msgstr ""
-"<b>合成処理</b>はサイズ変更時のフリッカーを低減するよう最適化されました。"
+"<a href=\"%s\">こちら</a>から Xfce アートワークの tar ボールをダウンロードで"
+"きます。この中にはいくつかの高品質なロゴとバナーがあります。Xfce ロゴのライセ"
+"ンスは LGPL になります。"
 
-#: about/tour46.php:95
-msgid "Flicker free resizing"
-msgstr "フリッカーなしのサイズ変更"
+#: download/changelogs/index.php:6
+msgid "Xfce 4.10"
+msgstr "Xfce 4.10"
 
-#: about/tour46.php:98
+#: download/changelogs/index.php:7 about/screenshots.php:23
+msgid "Xfce 4.8"
+msgstr "Xfce 4.8"
+
+#: download/changelogs/index.php:8 about/screenshots.php:28
+msgid "Xfce 4.6"
+msgstr "Xfce 4.6"
+
+#: download/changelogs/index.php:9 about/screenshots.php:33
+msgid "Xfce 4.4"
+msgstr "Xfce 4.4"
+
+#: download/changelogs/index.php:10 about/screenshots.php:38
+msgid "Xfce 4.2"
+msgstr "Xfce 4.2"
+
+#: download/changelogs/index.php:47
 msgid ""
-"Some <b>tweakable options</b> have also been added: for example, you can now "
-"disable the blinking of windows when they receive an urgency hint."
+"Xfce release notes are specific to each version. Select your version from "
+"the list below to see the changes in the release. "
 msgstr ""
-"<b>詳細オプション</b>にも追加がなされています。例えば、ウィンドウが緊急通知を"
-"受信した時に点滅するのを抑止できるようになりました。"
+"Xfce リリースノートは各バージョンごとに用意されています。以下のリストから、リ"
+"リースごとの変更点を確認できます。"
 
-#: about/tour46.php:101
-msgid "New tweakable options"
-msgstr "新しい微調整オプション"
+#: about/nav.php:5
+msgid "general information about the Xfce desktop"
+msgstr "Xfce デスクトップの概要"
 
-#: about/tour46.php:103 about/tour44.php:39 about/tour.php:58
-#: about/index.php:44 about/tour48.php:18
-msgid "File Manager"
-msgstr "ファイルマネージャー"
+#: about/nav.php:9
+msgid "4.10 Tour"
+msgstr "4.10 ツアー"
 
-#: about/tour46.php:106
-msgid ""
-"There have been many bug fixes and performance improvements in <b>Thunar</"
-"b>. It can use the mouse forward and backward buttons (if available) to "
-"navigate, and it includes a new plugin that allows you to set an image as "
-"wallpaper from the context menu."
-msgstr ""
-"<b>Thunar</b>では、多くのバグの修正とパフォーマンスの改善が図られました。マウ"
-"スの前進および後退ボタンがあればナビゲートに使用でき、コンテキストメニューか"
-"ら画像ファイルを壁紙に設定するプラグインが統合されました。"
+#: about/nav.php:10
+msgid "visual tour about new features in the last major releases"
+msgstr "最新メジャーリリースの新機能の紹介"
 
-#: about/tour46.php:109
-msgid "Set an image in a Thunar folder as wallpaper"
-msgstr "Thunar からフォルダー内にある画像を壁紙として設定できます"
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "4.8 ツアー"
 
-#: about/tour46.php:112
-msgid ""
-"<b>Thunar</b> now follows the <a href=\"http://freedesktop.org/wiki/Software/"
-"xdg-user-dirs\"> XDG user directories</a> specification; this allows you to "
-"have themed and localized user folders to store your music, documents, "
-"videos, templates, etcetera..."
-msgstr ""
-"<b>Thunar</b> は<a href=\"http://freedesktop.org/wiki/Software/xdg-user-dirs"
-"\">XDG user directories</a>仕様に準拠しており、音楽、ドキュメント、ビデオ、テ"
-"ンプレートなどを保存するフォルダーの構成とフォルダー名のローカライズが行える"
-"ようになっています。"
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "4.6 ツアー"
 
-#: about/tour46.php:115
-msgid "Thunar menu for user directories"
-msgstr "ユーザーディレクトリ用のThunarのメニュー"
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "4.4 ツアー"
 
-#: about/tour46.php:118
-msgid ""
-"<b>Thunar</b> will now display a translucent icon for drives or volumes that "
-"are not mounted, so that you can distinguish them from the mounted ones."
-msgstr ""
-"<b>Thunar</b> はドライブやボリュームがマウントされていないとき、そのアイコン"
-"を半透明で表示し、マウントしているかどうか判別できるようになりました。"
+#: about/nav.php:20 about/news.php:6
+msgid "News"
+msgstr "ニュース"
 
-#: about/tour46.php:121
-msgid "Translucent icons for unmounted drives and volumes"
-msgstr "マウントしていないドライブおよびボリュームアイコンの半透明表示"
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "リリースのお知らせ"
 
-#: about/tour46.php:124
-msgid "Last, but not least, <b>Thunar</b> now supports encrypted devices!"
-msgstr ""
-"大事なことを言い忘れていました、<b>Thunar</b> は暗号化デバイスもサポートしま"
-"した!"
-
-#: about/tour46.php:127
-msgid "Thunar support for encrypted devices"
-msgstr "暗号化デバイスをサポートした Thunar"
-
-#: about/tour46.php:129 about/tour44.php:200 about/tour.php:72
-#: about/tour48.php:82
-msgid "Settings"
-msgstr "設定"
-
-#: about/tour46.php:132
-msgid ""
-"Xfce 4.6 features a new settings interface, <b>Xfce Settings Manager</b>, "
-"which allows you to configure your desktop environment much more easily than "
-"before. The dialogs which are accessible by single clicking on the icons "
-"have been designed to be more compact and to allow you to customize your "
-"desktop quickly and in a more intuitive way."
-msgstr ""
-"Xfce 4.6 の設定インターフェイスは、新しい <b>Xfce 設定マネージャー</b>にな"
-"り、デスクトップの環境設定がこれまでよりもよりもいっそう行いやすくなりまし"
-"た。これらのダイアログにはアイコンのシングルクリックでアクセスでき、よりコン"
-"パクトに、より直感的かつ速やかにデスクトップのカスタマイズが行えるように設計"
-"されています。"
-
-#: about/tour46.php:135
-msgid "Xfce4 Settings Manager"
-msgstr "Xfce4 設定マネージャー"
-
-#: about/tour46.php:137
-msgid "Accessibility settings"
-msgstr "アクセシビリティの設定"
-
-#: about/tour46.php:139
-msgid "Accessibility settings dialog"
-msgstr "アクセシビリティ設定ダイアログ"
-
-#: about/tour46.php:142
-msgid ""
-"The <b>Accessibility settings</b> dialog allows you to set the accessibility "
-"related mouse and keyboard options, such as sticky keys, bounce keys, or "
-"mouse emulation."
-msgstr ""
-"<b>アクセシビリティ設定</b>ダイアログでは、スティッキーキー、バウンスキー、あ"
-"るいはマウスエミュレーションといった、マウスおよびキーボードに関するアクセシ"
-"ビリティの設定が行えます。"
-
-#: about/tour46.php:145
-msgid "Appearance settings"
-msgstr "外観の設定"
-
-#: about/tour46.php:147
-msgid "Appearance settings dialog"
-msgstr "外観の設定ダイアログ"
-
-#: about/tour46.php:150
-msgid ""
-"The <b>Appearance settings</b> dialog allows you to set the widget style, "
-"the icon theme, and font, toolbar and menu options."
-msgstr ""
-"<b>外観の設定</b>ダイアログでは、ウィジェットスタイル、アイコンテーマやフォン"
-"ト、ツールバー、およびメニューオプションの設定が行えます。"
-
-#: about/tour46.php:153
-msgid "Display settings"
-msgstr "ディスプレイの設定"
-
-#: about/tour46.php:155
-msgid "Display settings dialog"
-msgstr "ディスプレイの設定ダイアログ"
-
-#: about/tour46.php:158
-msgid ""
-"The <b>Display settings</b> dialog allows you to set the resolution, refresh "
-"rate, and the rotation for each screen that is connected."
-msgstr ""
-"<b>ディスプレイ設定</b>ダイアログでは、接続されている画面ごとに、解像度、周波"
-"数、および回転の設定が行えます。"
-
-#: about/tour46.php:161
-msgid "Keyboard settings"
-msgstr "キーボードの設定"
-
-#: about/tour46.php:163
-msgid "Keyboard settings dialog, layout tab"
-msgstr "キーボードの設定、レイアウトタブ"
-
-#: about/tour46.php:166
-msgid ""
-"The <b>Keyboard settings</b> dialog allows you to set keyboard preferences "
-"such as key repeating, keyboard shortcuts, and your keyboard layout."
-msgstr ""
-"<b>キーボード設定</b>ダイアログでは、キーリピート、キーボードショートカット、"
-"およびキーボードレイアウトといったキーボードの設定が行えます。"
-
-#: about/tour46.php:169
-msgid "Keyboard settings dialog, shortcuts tab"
-msgstr "キーボードの設定、ショートカットタブ"
-
-#: about/tour46.php:172
-msgid ""
-"You can now configure shortcuts more simply, and any shortcut conflicts are "
-"automatically detected."
-msgstr ""
-"ショートカットの設定はよりシンプルになり、ショートカットの衝突は自動的に検出"
-"されるようになりました。"
-
-#: about/tour46.php:175
-msgid "Mouse settings"
-msgstr "マウスの設定"
-
-#: about/tour46.php:177
-msgid "Mouse settings dialog"
-msgstr "マウスの設定ダイアログ"
-
-#: about/tour46.php:180
-msgid ""
-"The <b>Mouse settings</b> dialog allows you to configure the different mice "
-"connected to your computer: button order, acceleration, double-click speed, "
-"mouse cursor theme, etcetera..."
-msgstr ""
-"<b>マウス設定</b>ダイアログでは、コンピューターに接続されているマウスなどのポ"
-"インティングデバイスごとに、ボタン設定、加速度、ダブルクリック認識、マウス"
-"カーソルのテーマなどが設定できます。"
-
-#: about/tour46.php:183
-msgid "Desktop settings"
-msgstr "デスクトップの設定"
-
-#: about/tour46.php:185
-msgid "Desktop settings dialog"
-msgstr "デスクトップの設定ダイアログ"
-
-#: about/tour46.php:188
-msgid ""
-"The <b>Desktop settings</b> dialog is now much more compact; it allows you "
-"to configure per-screen settings: wallpaper, brightness, desktop menu, "
-"displayed icons, etcetera..."
-msgstr ""
-"<b>デスクトップの設定</b>ダイアログはよりコンパクトになりました。ここで画面ご"
-"との壁紙、明るさ、デスクトップメニュー、表示アイコンなどの設定が行えます。"
-
-#: about/tour46.php:191 about/tour.php:26 about/index.php:41
-#: projects/index.php:59
-msgid "Application Finder"
-msgstr "アプリケーションファインダー"
-
-#: about/tour46.php:194
-msgid ""
-"<b>Xfce 4.6</b> also comes with a brand new application finder which "
-"features a cleaner user interface.  It is also easier to use it with the "
-"keyboard, and it monitors installed applications to update the list \"on the "
-"fly.\"  It also allows you to create panel launchers quickly by dragging an "
-"application icon to the launcher creation window."
-msgstr ""
-"<b>Xfce 4.6</b> では、ユーザーインターフェイスが整理された新しいアプリケー"
-"ションファインダーも用意しました。アプリケーションファインダーは、インストー"
-"ルされたアプリケーションを表示し (リストはキー入力により \"オンザフライ\" で"
-"更新されます)、簡単に検索および起動が行えます。また、アプリケーションアイコン"
-"を、パネルのランチャープラグインの設定ウィンドウにドラッグすることですばやく"
-"パネルランチャーの作成が行えます。"
-
-#: about/tour46.php:197
-msgid "New application finder"
-msgstr "新しいアプリケーションファインダー"
-
-#: about/tour46.php:199 about/tour44.php:226
-msgid "Links"
-msgstr "リンク"
-
-#: about/tour46.php:202 about/tour44.php:229
-msgid "Xfce website"
-msgstr "Xfce ウェブサイト"
-
-#: about/tour46.php:203 about/tour44.php:230
-msgid "Thunar website"
-msgstr "Thunar ウェブサイト"
-
-#: about/tour46.php:206 about/nav.php:30 about/tour44.php:233
+#: about/nav.php:30 about/tour46.php:195 about/tour44.php:222
 #: about/credits.php:8
 msgid "Credits"
 msgstr "クレジット"
 
-#: about/tour46.php:209
-msgid "Written by Jérôme Guelfucci (February 2009)"
-msgstr "Written by Jérôme Guelfucci (February 2009)"
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "協力者の皆様の一覧"
 
-#: about/tour46.php:210
-msgid "Screenshots by Jannis Pohlmann"
-msgstr "Screenshots by Jannis Pohlmann"
-
-#: about/news.php:6 about/nav.php:20
-msgid "News"
-msgstr "ニュース"
-
-#: about/news.php:12 frontpage.php:97
-msgid "Subscribe to RSS feed"
-msgstr "RSS フィードの購読"
-
-#: about/news.php:54 frontpage.php:72 header.php:57 download/nav.php:4
-#: download/index.php:5
-msgid "Download"
-msgstr "ダウンロード"
-
-#: about/news.php:55
-msgid "Changes in this release"
-msgstr "このリリースでの変更点"
-
-#: about/news.php:56
-msgid "Permalink"
-msgstr "固定リンク"
-
-#: about/news.php:74
-msgid "No news articles found."
-msgstr "新しい記事は見つかりませんでした。"
-
-#: about/releasemodel.php:3 about/nav.php:35
+#: about/nav.php:35 about/releasemodel.php:3
 msgid "Release Model"
 msgstr "リリースモデル"
+
+#: about/nav.php:36
+msgid "the Xfce release policy for core modules"
+msgstr "コアモジュールにおける Xfce のリリース方針"
 
 #: about/releasemodel.php:10
 msgid ""
@@ -579,10 +698,6 @@ msgstr ""
 msgid "The Xfce Core Desktop"
 msgstr "Xfce コアデスクトップ"
 
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "コアコンポーネント"
-
 #: about/releasemodel.php:51
 msgid ""
 "All core components of the Xfce desktop must adhere to the release policy "
@@ -623,15 +738,15 @@ msgstr ""
 "以下に Xfce 4.8 の 3 つのコンポーネント (Thunar、exo、xfwm4) のリリースサイク"
 "ルおよびメンテナンスプロセスのスケジュールの例図を示す。"
 
-#: about/releasemodel.php:73
+#: about/releasemodel.php:72
 msgid "Example Release Cycle"
 msgstr "リリースサイクルの例"
 
-#: about/releasemodel.php:77
+#: about/releasemodel.php:75
 msgid "Planning Phase (2(+2) Weeks)"
 msgstr "計画フェイズ (2(+2) 週間)"
 
-#: about/releasemodel.php:80
+#: about/releasemodel.php:78
 msgid ""
 "This phase marks the beginning of the release cycle and is used to decide "
 "which dependencies to use and also to appoint the release team for the cycle "
@@ -642,11 +757,11 @@ msgstr ""
 "サイクルのリリースチームの指名を行う (最初の 2 週間)。その後に依存関係のフ"
 "リーズが行われる (後の 4 週間)。"
 
-#: about/releasemodel.php:83
+#: about/releasemodel.php:81
 msgid "Appointing the Release Team"
 msgstr "リリースチームの指名"
 
-#: about/releasemodel.php:86
+#: about/releasemodel.php:84
 msgid ""
 "At the beginning of the planning phase there is a (formal or informal) "
 "voting for the release team. The release team supervises development and "
@@ -660,11 +775,11 @@ msgstr ""
 "その主な目的は、リリースフェイズの最後の最後に Xfce コアデスクトップリリース"
 "をダブルチェックしリリースを実施することである。"
 
-#: about/releasemodel.php:89
+#: about/releasemodel.php:87
 msgid "Release Team"
 msgstr "リリースチーム"
 
-#: about/releasemodel.php:92
+#: about/releasemodel.php:90
 msgid ""
 "The release team consists of at least two people: one release manager who "
 "can be assisted by others to actually perform the release (tagging, creation "
@@ -679,133 +794,133 @@ msgstr ""
 "のコンポーネントのコンパイルが正しく行えるか、タグ付けの場所は正しいか、リ"
 "リースノートが最新かどうか、などをチェックする。それら詳細を以下に示す。"
 
-#: about/releasemodel.php:96
+#: about/releasemodel.php:94
 msgid "These are the release team roles and their responsibilities:"
 msgstr "リリースチームの役割と責務は以下の通り:"
 
-#: about/releasemodel.php:99
+#: about/releasemodel.php:97
 msgid "Release Manager"
 msgstr "リリースマネージャー"
 
-#: about/releasemodel.php:102
+#: about/releasemodel.php:100
 msgid "Organization of the release cycle"
 msgstr "リリースサイクルの編成"
 
-#: about/releasemodel.php:103
+#: about/releasemodel.php:101
 msgid ""
 "Announce deadlines to developers and translators (repeatedly and early "
 "enough)"
 msgstr "最終期限の開発者および翻訳者への通知 (繰り返し、そして十分に早く)"
 
-#: about/releasemodel.php:104
+#: about/releasemodel.php:102
 msgid "Overseeing of maintainance and development releases"
 msgstr "開発とメンテナンスの監督"
 
-#: about/releasemodel.php:105
+#: about/releasemodel.php:103
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
 msgstr "Xfce-X.Ypre1、Xfce-X.Y.pre2、Xfce-X.Y.pre3、および Xfce-X.Y のタグ付け"
 
-#: about/releasemodel.php:106
+#: about/releasemodel.php:104
 msgid "Generate tarballs from tags (possibly automated)"
 msgstr "タグから tarball の作成 (おそらく自動処理)"
 
-#: about/releasemodel.php:107
+#: about/releasemodel.php:105
 msgid "Write release notes"
 msgstr "リリースノートの執筆"
 
-#: about/releasemodel.php:108
+#: about/releasemodel.php:106
 msgid "Write release announcements"
 msgstr "リリースアナウンスの執筆"
 
-#: about/releasemodel.php:109
+#: about/releasemodel.php:107
 msgid "Create Bugzilla tags"
 msgstr "Bugzilla タグの作成"
 
-#: about/releasemodel.php:110
+#: about/releasemodel.php:108
 msgid "Approve fixes of blocker bugs during code freeze"
 msgstr "コードフリーズ中のブロッカーバグの修正の承認"
 
-#: about/releasemodel.php:113
+#: about/releasemodel.php:111
 msgid "Release Assistant(s)"
 msgstr "リリースアシスタント"
 
-#: about/releasemodel.php:116
+#: about/releasemodel.php:114
 msgid "Update the website(s)"
 msgstr "ウェブサイトの更新"
 
-#: about/releasemodel.php:117
+#: about/releasemodel.php:115
 msgid "Help the release manager with his tasks"
 msgstr "リリースマネージャーの支援"
 
-#: about/releasemodel.php:120
+#: about/releasemodel.php:118
 msgid "QA Official"
 msgstr "QA 担当"
 
-#: about/releasemodel.php:123
+#: about/releasemodel.php:121
 msgid "Have an eye on libtool versions of maintanance and development releases"
 msgstr "libtool のバージョンおよび開発版リリースの監視"
 
-#: about/releasemodel.php:124
+#: about/releasemodel.php:122
 msgid "Remind maintainers about missing NEWS updates"
 msgstr "メンテナーへの NEWS 更新の督促"
 
-#: about/releasemodel.php:125
+#: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
 msgstr "作成された tarball のダブルチェック"
 
-#: about/releasemodel.php:126
+#: about/releasemodel.php:124
 msgid "Proof-read release announcements"
 msgstr "リリースアナウンスの校正"
 
-#: about/releasemodel.php:129
+#: about/releasemodel.php:127
 msgid "Individual Maintainers"
 msgstr "個々のメンテナー"
 
-#: about/releasemodel.php:132
+#: about/releasemodel.php:130
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
 msgstr "メンテナンス用および開発用コンポーネント個別タグの作成"
 
-#: about/releasemodel.php:133
+#: about/releasemodel.php:131
 msgid "Generate tarballs for their maintainance and development releases"
 msgstr "メンテナンスおよび開発版リリース用 tarball の作成"
 
-#: about/releasemodel.php:134
+#: about/releasemodel.php:132
 msgid "Write ChangeLogs and update NEWS files"
 msgstr "ChangeLog および NEWS ファイルの執筆"
 
-#: about/releasemodel.php:135
+#: about/releasemodel.php:133
 msgid "Write component-specific release announcements"
 msgstr "コンポーネント個別リリースのアナウンス"
 
-#: about/releasemodel.php:136
+#: about/releasemodel.php:134
 msgid "Create Bugzilla tags for their releases"
 msgstr "各リリース用 Bugzilla タグの作成"
 
-#: about/releasemodel.php:137
+#: about/releasemodel.php:135
 msgid "Make sure API documentation is up to date"
 msgstr "API ドキュメント更新の確認"
 
-#: about/releasemodel.php:140
+#: about/releasemodel.php:138
 msgid "Dependency Freeze"
 msgstr "依存関係フリーズ"
 
-#: about/releasemodel.php:143
+#: about/releasemodel.php:141
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
 msgstr "開発フェイズの最初の 2 週間の間に各メンテナーは以下を要求される:"
 
-#: about/releasemodel.php:147
+#: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
 msgstr "このリリースサイクルで実装したい機能のリスト"
 
-#: about/releasemodel.php:148
+#: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
 msgstr "そのための依存関係の調査"
 
-#: about/releasemodel.php:152
+#: about/releasemodel.php:150
 msgid ""
 "At the end of this, a decision is made on which dependencies the next stable "
 "release of the Xfce core desktop will depend. In particular this includes "
@@ -816,7 +931,7 @@ msgstr ""
 "特に、Xfce コアデスクトップに必須のすべての依存関係の最小バージョンも含まれ"
 "る。"
 
-#: about/releasemodel.php:156
+#: about/releasemodel.php:154
 msgid ""
 "Maintainers who were not available during the first 2 weeks of the planning "
 "phase have the chance to request dependency changes in the 2 weeks after "
@@ -825,7 +940,7 @@ msgstr ""
 "計画フェイズの最初の 2 週間に作業できなかったメンテナーは、その後の 2 週間に"
 "依存関係の変更を要請する機会が与えられる。"
 
-#: about/releasemodel.php:160
+#: about/releasemodel.php:158
 msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
@@ -835,11 +950,11 @@ msgstr ""
 "るパッケージおよびそのバージョンは変更できない。ただし、任意の依存関係の追加"
 "は認められる。"
 
-#: about/releasemodel.php:163
+#: about/releasemodel.php:161
 msgid "Informing the Community"
 msgstr "コミュニティへの通知"
 
-#: about/releasemodel.php:166
+#: about/releasemodel.php:164
 msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
@@ -849,11 +964,11 @@ msgstr ""
 "能と依存関係の計画をメーリングリスト xfce4-dev@xfce.org および xfce@xfce.org "
 "へ投稿する。"
 
-#: about/releasemodel.php:169
+#: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
 msgstr "開発フェイズ (5 ヶ月)"
 
-#: about/releasemodel.php:172
+#: about/releasemodel.php:170
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
@@ -861,11 +976,11 @@ msgstr ""
 "開発フェイズの間、各メンテナーは各自で担当コンポーネントのメンテナンスおよび"
 "開発版リリースを行える。"
 
-#: about/releasemodel.php:175
+#: about/releasemodel.php:173
 msgid "Development Releases"
 msgstr "開発版リリース"
 
-#: about/releasemodel.php:178
+#: about/releasemodel.php:176
 msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
@@ -875,7 +990,7 @@ msgstr ""
 "それらのバージョンナンバーの表記は X.Y.Z 形式でなければならず、Y は奇数でなけ"
 "ればならない (例: xfwm4-4.7.3、thunar-1.3.10 など)。"
 
-#: about/releasemodel.php:182
+#: about/releasemodel.php:180
 msgid ""
 "Maintainers are encouraged to do development releases for new features they "
 "want to make available to others. Frequent development releases can act as a "
@@ -891,7 +1006,7 @@ msgstr ""
 "が公開されていなければならないことになる。この作業のため、libtool のバージョ"
 "ンは各開発版リリースごとに正しく更新されなければならない。"
 
-#: about/releasemodel.php:186
+#: about/releasemodel.php:184
 msgid ""
 "Care has to be taken of the master branch of each component. The master "
 "branch should always remain in a release-ready state. New features should be "
@@ -906,7 +1021,7 @@ msgstr ""
 "ポーネントが動作する、など) まで、そして Xfce コアデスクトップ全体の最終リ"
 "リース遅延のリスクを低減するために、開発用ブランチで行うべきである。"
 
-#: about/releasemodel.php:190
+#: about/releasemodel.php:188
 msgid ""
 "New features breaking APIs or other core components should be communicated. "
 "Maintainers are suggested to prepare other components for these features in "
@@ -918,42 +1033,42 @@ msgstr ""
 "ための関係コンポーネント別のブランチに用意するよう提案される。このように、他"
 "のコンポーネントはリリース準備状態を維持する。"
 
-#: about/releasemodel.php:194
+#: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
 msgstr "基本的な開発作業の流れを以下に示す:"
 
-#: about/releasemodel.php:199
+#: about/releasemodel.php:196
 msgid "Development Workflow"
 msgstr "開発作業の流れ"
 
-#: about/releasemodel.php:203
+#: about/releasemodel.php:199
 msgid "Release Phase (10+ Weeks)"
 msgstr "リリースフェイズ (10 週以上)"
 
-#: about/releasemodel.php:206
+#: about/releasemodel.php:202
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
 msgstr ""
 "リリースフェイズの間、3 つのプレリリースと 1 つの最終リリースが公開される:"
 
-#: about/releasemodel.php:210
+#: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
 msgstr "Xfce X.Ypre1 (0 週間後、フィーチャーフリーズ)"
 
-#: about/releasemodel.php:211
+#: about/releasemodel.php:207
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
 msgstr "Xfce X.Ypre2 (4 週間後、ストリングフリーズ)"
 
-#: about/releasemodel.php:212
+#: about/releasemodel.php:208
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
 msgstr "Xfce X.Ypre3 (8 週間後、コードフリーズ)"
 
-#: about/releasemodel.php:213
+#: about/releasemodel.php:209
 msgid "Xfce X.Y     (after 10+ weeks)"
 msgstr "Xfce X.Y     (第 10 週以降)"
 
-#: about/releasemodel.php:217
+#: about/releasemodel.php:213
 msgid ""
 "where Y has to be an even number. Each of these releases has to include the "
 "latest development releases of all components (or stable, if there were no "
@@ -967,7 +1082,7 @@ msgstr ""
 "ジョンナンバーは上記命名方式と一致しない場合がある。例えば、Xfce 4.8.0pre2 な"
 "ら、xfwm4 はバージョン 4.7.17 であったり、Thunar は 1.1.9 になったりする。"
 
-#: about/releasemodel.php:221
+#: about/releasemodel.php:217
 msgid ""
 "This means that maintainers don't necessarily have to release new versions "
 "of their components along with one of the pre-releases. The release team "
@@ -979,7 +1094,7 @@ msgstr ""
 "リースに際し、各コンポーネントの提供可能な最新の開発版あるいは安定版リリース"
 "を使用する。"
 
-#: about/releasemodel.php:225
+#: about/releasemodel.php:221
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
@@ -987,19 +1102,19 @@ msgstr ""
 "このフェイズの最後に、Xfce コアデスクトップの新しい安定版リリースとともに新し"
 "いリリースサイクルの開始をマークする。"
 
-#: about/releasemodel.php:228
+#: about/releasemodel.php:224
 msgid "Freezing before Releases"
 msgstr "リリース前のフリーズ"
 
-#: about/releasemodel.php:231
+#: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
 msgstr "リリース前に、様々なタイプのフリーズが行われる。"
 
-#: about/releasemodel.php:234
+#: about/releasemodel.php:230
 msgid "Feature Freeze"
 msgstr "フィーチャーフリーズ"
 
-#: about/releasemodel.php:237
+#: about/releasemodel.php:233
 msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from "
 "there on only translations and bugfixes are allowed to go into the master "
@@ -1008,11 +1123,11 @@ msgstr ""
 "Xfce X.Ypre1 では、すべてのコアコンポーネントはフィーチャーフリーズに入る。こ"
 "れ以降、master ブランチに対しては、翻訳の更新とバグの修正のみが許される。"
 
-#: about/releasemodel.php:240
+#: about/releasemodel.php:236
 msgid "String/UI Freeze"
 msgstr "ストリング/UI フリーズ"
 
-#: about/releasemodel.php:243
+#: about/releasemodel.php:239
 msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes "
@@ -1022,11 +1137,11 @@ msgstr ""
 "以降、翻訳に影響を与える文字列の変更は行えない。同様にユーザーインターフェイ"
 "スもこれ以降変更は行われない。"
 
-#: about/releasemodel.php:246
+#: about/releasemodel.php:242
 msgid "Code Freeze"
 msgstr "コードフリーズ"
 
-#: about/releasemodel.php:249
+#: about/releasemodel.php:245
 msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
@@ -1035,7 +1150,7 @@ msgstr ""
 "各プレリリース直前の 2 日間はコードフリーズとなる。この期間中、リリースマネー"
 "ジャーに承認された場合を除き、コミットは送られない。"
 
-#: about/releasemodel.php:253
+#: about/releasemodel.php:249
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze which means from "
 "there on no code changes are allowed, unless they are signed off by the "
@@ -1047,11 +1162,11 @@ msgstr ""
 "常ブロッキングあるいはリリースクリティカルバグの修正に限られる。翻訳の更新は"
 "引き続き許される。"
 
-#: about/releasemodel.php:256
+#: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
 msgstr "コードフリーズフェイズ (2 週間以上)"
 
-#: about/releasemodel.php:259
+#: about/releasemodel.php:255
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
@@ -1060,7 +1175,7 @@ msgstr ""
 "Xfce X.Ypre3 では、すべてのコンポーネントはコードフリーズに入る。このフェイズ"
 "の詳細について説明する。"
 
-#: about/releasemodel.php:263
+#: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
@@ -1069,15 +1184,15 @@ msgstr ""
 "コードフリーズおよび例外はコミットフックによってサポートされる。更新フックは"
 "リリースマネージャーの承認がない限り、あらゆる変更を許可しない。"
 
-#: about/releasemodel.php:268
+#: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
 msgstr "タグ付けとブランチの作成"
 
-#: about/releasemodel.php:272
+#: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
 msgstr "バグ修正/変更"
 
-#: about/releasemodel.php:275
+#: about/releasemodel.php:269
 msgid ""
 "If a core component requires fixes or changes during code freeze, the "
 "maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
@@ -1090,7 +1205,7 @@ msgstr ""
 "し、そこに修正をコミットする。リリースクリティカルな変更あるいはブロッキング"
 "バクの修正がある場合はコードフリーズ例外のセクションを参照のこと。"
 
-#: about/releasemodel.php:279
+#: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
@@ -1099,15 +1214,15 @@ msgstr ""
 "ELS ブランチは短期間のみ存在し、最終リリース後に master およびコンポーネント"
 "の安定版ブランチ (例: xfwm4-4.8 や thunar-1.2) にマージされる。"
 
-#: about/releasemodel.php:282
+#: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
 msgstr "コードフリーズ例外"
 
-#: about/releasemodel.php:284
+#: about/releasemodel.php:278
 msgid "Blocking Bugs"
 msgstr "ブロッキングバグ"
 
-#: about/releasemodel.php:287
+#: about/releasemodel.php:281
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
@@ -1115,28 +1230,28 @@ msgstr ""
 "以下の問題を含むバグが存在する場合、ブロッカーとして最終リリースを延期する場"
 "合がある:"
 
-#: about/releasemodel.php:291
+#: about/releasemodel.php:285
 msgid "it crashes a core application"
 msgstr "コアアプリケーションがクラッシュする"
 
-#: about/releasemodel.php:292
+#: about/releasemodel.php:286
 msgid "it causes data loss"
 msgstr "データ損失が発生する"
 
-#: about/releasemodel.php:293
+#: about/releasemodel.php:287
 msgid "it causes an ever-growing memory leak"
 msgstr "メモリリークが増え続ける"
 
-#: about/releasemodel.php:294
+#: about/releasemodel.php:288
 msgid "it locks the entire desktop GUI"
 msgstr "デスクトップ GUI 全体をロックする"
 
-#: about/releasemodel.php:298
+#: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
 msgstr ""
 "以下の基準を満たす場合は、そのバグによるリリース延期を行わない場合がある:"
 
-#: about/releasemodel.php:302
+#: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
@@ -1144,7 +1259,7 @@ msgstr ""
 "バグの発生するハードウェアあるいはアーキテクチャが特殊な場合、および/または、"
 "そのバグが開発者側で再現できない場合"
 
-#: about/releasemodel.php:306
+#: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
@@ -1152,11 +1267,11 @@ msgstr ""
 "これらのバグに対する修正は、コードフリーズ期間中であっても、リリースマネー"
 "ジャーの承認があった場合のみ適用が許される。"
 
-#: about/releasemodel.php:309
+#: about/releasemodel.php:303
 msgid "Release-Critical Changes"
 msgstr "リリースクリティカルな変更"
 
-#: about/releasemodel.php:312
+#: about/releasemodel.php:306
 msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
@@ -1165,11 +1280,11 @@ msgstr ""
 "リリースの品質に関して大きな懸念が生じる可能性のある変更については、リリース"
 "マネージャーの承認があった場合のみ適用が許される。"
 
-#: about/releasemodel.php:315
+#: about/releasemodel.php:309
 msgid "Releasing"
 msgstr "リリース"
 
-#: about/releasemodel.php:318
+#: about/releasemodel.php:312
 msgid ""
 "For the final release (Xfce X.Y), all core components are tagged (twice, "
 "once with their own version and once with xfce-X.Y.0) and branched for the "
@@ -1183,11 +1298,11 @@ msgstr ""
 "(次のバージョンのための開発ブランチ) および、thunar-1.2 や xfwm4-4.8 などのブ"
 "ランチにマージされる。"
 
-#: about/releasemodel.php:321
+#: about/releasemodel.php:315
 msgid "Maintenance Process"
 msgstr "メンテナンスプロセス"
 
-#: about/releasemodel.php:324
+#: about/releasemodel.php:318
 msgid ""
 "After the release of a final version, bugfixes and translation updates will "
 "be committed to a stable component-specific branch (like thunar-1.2 or "
@@ -1198,11 +1313,11 @@ msgstr ""
 "との安定版ブランチ (thunar-1.2 や xfwm4-4.8 など) にコミットされる。コンポー"
 "ネント個別のメンテナンスリリースは同期をとる必要はない。"
 
-#: about/releasemodel.php:327
+#: about/releasemodel.php:321
 msgid "Maintenance Releases"
 msgstr "メンテナンスリリース"
 
-#: about/releasemodel.php:330
+#: about/releasemodel.php:324
 msgid ""
 "There may be no API/ABI changes in maintenance releases compared to the "
 "corresponding final release of the Xfce core desktop. They also must follow "
@@ -1215,615 +1330,23 @@ msgstr ""
 "は偶数でなければならない (例: xfwm4-4.8.4、thunar-1.2.4 など)。これらのリリー"
 "スでは新しい機能や文字列の追加は行われない場合がある。"
 
-#: about/releasemodel.php:334
+#: about/releasemodel.php:328
 msgid "Authors"
 msgstr "作者"
 
-#: about/nav.php:1 getinvolved/nav.php:1 download/nav.php:1
-msgid "Related Pages"
-msgstr "関連ページ"
-
-#: about/nav.php:4 about/index.php:1 header.php:56
-msgid "About"
-msgstr "Xfce について"
-
-#: about/nav.php:5
-msgid "general information about the Xfce desktop"
-msgstr "Xfce デスクトップの概要"
-
-#: about/nav.php:9
-msgid "4.10 Tour"
-msgstr "4.10 ツアー"
-
-#: about/nav.php:10
-msgid "visual tour about new features in the last major releases"
-msgstr "最新メジャーリリースの新機能の紹介"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "4.8 ツアー"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "4.6 ツアー"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "4.4 ツアー"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "リリースのお知らせ"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:87
-msgid "Screenshots"
-msgstr "スクリーンショット"
-
-#: about/nav.php:26 frontpage.php:88
-msgid "examples of Xfce desktops ordered by version"
-msgstr "バージョン別 Xfce デスクトップサンプル"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "協力者の皆様の一覧"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "コアモジュールにおける Xfce のリリース方針"
-
-#: about/tour44.php:3
-msgid "Xfce 4.4 tour"
-msgstr "Xfce 4.4.0のツアー"
-
-#: about/tour44.php:17
-msgid ""
-"As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment "
-"is finally available. I will try to highlight some of the new features which "
-"have been added since the last stable release."
-msgstr ""
-"今日、長い間待ちわびられていたXfceデスクトップ環境4.4.0がやっと利用できるよう"
-"になりました。最後の安定版のあとに追加された新しい機能を説明したいと思いま"
-"す。"
-
-#: about/tour44.php:20 about/tour44.php:26
-msgid "Desktop Icons"
-msgstr "デスクトップアイコン"
-
-#: about/tour44.php:23
-msgid ""
-"One of the most often requested features during the 4.0 and 4.2 was support "
-"for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally "
-"added to the desktop manager <b>Xfdesktop</b>."
-msgstr ""
-"4.0と4.2の時に一番よく追加して欲しい機能として聞かれたものの一つとしてはデス"
-"クトップ上のアイコンをサポートして欲しいと言うことでした。Xfce 4.4.0ではこの"
-"機能がようやく<b>Xfdesktop</b>（デスクトップマネージャー）に追加されました。"
-
-#: about/tour44.php:29
-msgid ""
-"The desktop manager utilizes <b>Thunar</b>'s libraries to handle application "
-"launchers and regular files/folders on the desktop. The desktop manager is "
-"also able to display icons for minimized windows on the desktop, which is "
-"quite a popular feature from the CDE world. Of course, you can disable the "
-"desktop icons altogether if you prefer a clean desktop."
-msgstr ""
-"デスクトップマネージャーは<b>Thunar</b>のライブラリをアプリケーションラン"
-"チャーとデスクトップ上でのファイル/フォルダーを扱うために利用しています。この"
-"デスクトップマネージャーはデスクトップの最小化されたウィンドウのアイコンを表"
-"示できるようにするものです。（この機能はCDEの世界では一番有名な機能です。）勿"
-"論、何もないデスクトップの方が良いと思うのであれば、デスクトップアイコンを完"
-"全に無効にすることもできます。"
-
-#: about/tour44.php:32
-msgid "Desktop Settings"
-msgstr "デスクトップの設定"
-
-#: about/tour44.php:35
-msgid ""
-"<b>Xfdesktop</b> also continues to provide access to the applications menu, "
-"as it did in the previous Xfce releases."
-msgstr ""
-"また、<b>Xfdesktop</b>は引き続き以前からのXfceと同じようにアプリケーションメ"
-"ニューへのアクセスを提供します。"
-
-#: about/tour44.php:42
-msgid ""
-"The desktop icon support goes hand in hand with the new file manager <a href="
-"\"http://thunar.xfce.org/\">Thunar</a> which replaces the previous file "
-"manager <b>Xffm</b>."
-msgstr ""
-"デスクトップアイコンサポートは新しいファイルマネージャーである<a href="
-"\"http://thunar.xfce.org/\">Thunar</a>との連携により提供されます。<b>Thunar</"
-"b>はこれまでのファイルマネージャーであった<b>Xffm</b>を置き換えるものです。"
-
-#: about/tour44.php:45 projects/index.php:86
-msgid "Thunar File Manager"
-msgstr "Thunar ファイルマネージャー"
-
-#: about/tour44.php:48
-msgid ""
-"<b>Thunar</b> was written from scratch to provide an easy to use, but still "
-"very lightweight file manager for Xfce. Its user interface was designed to "
-"look similar to the file chooser which was introduced with GTK+ 2.4, and "
-"other file managers such as <b>Nautilus</b> and <b>pcmanfm</b> already "
-"picked up that idea as well."
-msgstr ""
-"<b>Thunar</b>はXfce用の使い勝手が良い一方で軽量なファイルマネージャーを提供す"
-"るために最初の一歩から書き直されたものです。インターフェイスはすでにGTK+ 2.4"
-"のファイル選択UIや、<b>Nautilus</b>や<b>pcmanfm</b>のようなすでにこの考えを採"
-"用しているファイルマネージャーに似ています。"
-
-#: about/tour44.php:52
-msgid ""
-"<b>Thunar</b> supports all the file management functionality which users "
-"will expect, and also several advanced features. For example, a so-called "
-"<i>Bulk Renamer</i> is included which allows users to rename multiple files "
-"at once using a certain criterion."
-msgstr ""
-"<b>Thunar</b>はユーザーが期待すると思われる全てのファイル管理機能といくつかの"
-"先進的なものをサポートします。たとえば、いわゆる<i>Bulk Renamer</i>はユーザー"
-"が任意の基準を使ってを使って複数のファイルを一度にリネームすることができるも"
-"のを含んでいます。"
-
-#: about/tour44.php:55
-msgid "Thunar Bulk Rename"
-msgstr "Thunar バルクリネーム"
-
-#: about/tour44.php:57
-msgid "Removable Drives and Media"
-msgstr "取り外し可能なドライブとメディア"
-
-#: about/tour44.php:60
-msgid ""
-"Xfce 4.4.0 provides easy access to data on removable drives and media. Just "
-"insert the media into the drive or plug the new drive in to the computer and "
-"an icon representing the removable volume will appear on the desktop and in "
-"<b>Thunar</b>'s side pane."
-msgstr ""
-"Xfce 4.4.0では取り外しができるドライブとメディアにあるデータに簡単にアクセス"
-"できます。メディアをドライブに入れるか新しいドライブをコンピューターに接続す"
-"ると、取り外しができるドライブ/メディアのアイコンがデスクトップ上と"
-"<b>Thunar</b>のウィンドウ枠に表示されます。"
-
-#: about/tour44.php:63
-msgid "Removable Volumes"
-msgstr "取り外し可能なドライブ"
-
-#: about/tour44.php:66
-msgid ""
-"Click on the icon to automatically mount the volume. Right-click the icon to "
-"unmount the drive or eject the media from the drive. Note however that this "
-"feature requires <a href=\"http://freedesktop.org/wiki/Software_2fhal\">HAL</"
-"a> and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above "
-"at the time of this writing (there is limited removable media support for "
-"FreeBSD 4.x and 5.x which does not require HAL)."
-msgstr ""
-"アイコンをクリックすると自動的にドライブやメディアがマウントされます。アイコ"
-"ンを右クリックすることでメディアの取り出しや、ドライブのアンマウントを行うこ"
-"とができます。注意して欲しいことはこの機能を使うためには<ahref=\"http://"
-"freedesktop.org/wiki/Software_2fhal\">HAL</a>が必要であることと、Linux 2.6.x"
-"とFreeBSD 6.x以上でしか、この文書を書いている時点では利用できないことです。"
-"（いくつか制限がありますがFreeBSD 4.xと5.xにはHALを使用しない取り出しできるメ"
-"ディアのサポートがあります。）"
-
-#: about/tour44.php:70
-msgid "Text Editor"
-msgstr "テキストエディター"
-
-#: about/tour44.php:73
-msgid ""
-"The new text editor <b>MousePad</b> is included with this release. "
-"<b>MousePad</b> provides all the basic editor functionality, nothing more, "
-"nothing less."
-msgstr ""
-"新しいテキストエディターである<b>MousePad</b>はこのリリースに含まれています。"
-"<b>MousePad</b>はすべての基本的なエディターの機能（それ以上でもそれ以下でもあ"
-"りません。）を提供しています。"
-
-#: about/tour44.php:76
-msgid "MousePad"
-msgstr "MousePad"
-
-#: about/tour44.php:79
-msgid ""
-"You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on "
-"Windows. It starts up very fast, usually in less than one second, even on "
-"older systems."
-msgstr ""
-"Windowsの<b>NotePad</b>と<b>MousePad</b>は同じようなものだと考えることができ"
-"ます。とても早く（たとえ古いシステム上でも通常一秒以下）起動できますしね。"
-
-#: about/tour44.php:85
-msgid "<b>Xfwm4</b> continues to be the window manager of the hearts."
-msgstr "<b>Xfwm4</b>は相変わらずウィンドウマネージャーの心臓部です。"
-
-#: about/tour44.php:88
-msgid "Xfwm4 ARGB32"
-msgstr "Xfwm4 ARGB32"
-
-#: about/tour44.php:91
-msgid ""
-"This release features an enhanced compositor, supporting transparent ARGB "
-"windows, shadows, window frame transparency and much more."
-msgstr ""
-"このリリースでは拡張された文字制御、透過ARGBウィンドウ、影、ウィンドウフレー"
-"ムの透過や更にその他の機能を特徴としています。"
-
-#: about/tour44.php:94
-msgid "Xfwm4 Switcher"
-msgstr "Xfwm4 スイッチャー"
-
-#: about/tour44.php:97
-msgid ""
-"<b>Xfwm4</b> also includes a brand new application switcher, as shown in the "
-"screenshot above, which displays all windows from the current workspace with "
-"icons and window titles."
-msgstr ""
-"<b>Xfwm4</b>は上のスクリーンショットにあるような新しいアプリケーション切り替"
-"え機能を含んでいます。これはアイコンとウィンドウタイトルを使って現在のワーク"
-"スペースから全てのウィンドウを表示します。"
-
-#: about/tour44.php:100
-msgid "Xfwm4 Themes"
-msgstr "Xfwm4 テーマ"
-
-#: about/tour44.php:103
-msgid ""
-"Further on support for multiple image formats for window decoration themes "
-"was added, including <tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images."
-msgstr ""
-"ウィンドウの装飾テーマ用のイメージフォーマットが追加されました。これには"
-"<tt>PNG</tt>と<tt>GIF</tt>と<tt>SVG</tt>が含まれています。"
-
-#: about/tour44.php:106
-msgid "Xfwm4 Tweaks"
-msgstr "Xfwm4 詳細設定"
-
-#: about/tour44.php:109
-msgid ""
-"Advanced controls for the window manager were also added, allowing thorough "
-"tweaking of window behavior."
-msgstr ""
-"また、より進んだウィンドウコントロールが追加されました。これによりウィンドウ"
-"の動作を完全に調整することができるようになりました。"
-
-#: about/tour44.php:116
-msgid ""
-"The <b>Xfce4-panel</b> was completely rewritten for the Xfce 4.4 release. "
-"Multiple panels are supported <i>out of the box</i> now and can easily be "
-"configured using the new <b>Panel Manager</b> shown in the screenshot below."
-msgstr ""
-"<b>Xfce4-panel</b>は完全にXfce4のリリースのために書き直されました。複数パネル"
-"が <i>out of the box</i>をサポートし、簡単に下のスクリーンショットに表示され"
-"ている<b>Panel Manager</b>を使い設定できるようになりました。"
-
-#: about/tour44.php:119
-msgid "Panel Manager"
-msgstr "パネルマネージャー"
-
-#: about/tour44.php:122
-msgid ""
-"One of the major problems in previous Xfce releases was that every plugin "
-"had to be run in the same process as the panel, and hence every plugin was "
-"able to crash the whole panel. To address this issue, support for external "
-"plugins was added to the panel."
-msgstr ""
-"以前のバージョンまでのXfceでは各々のプラグインがパネルを巻き込んで落ちる可能"
-"性があったという大きな問題がありました。これはそれぞれのプラグインはパネルと"
-"同じプロセスで動いていましために起こっていたことです。その結果、この問題を解"
-"決するために、外部プラグインのサポートがパネルに追加されました。"
-
-#: about/tour44.php:125
-msgid "Panel Add Item Dialog"
-msgstr "アイテムの追加ダイアログ"
-
-#: about/tour44.php:128
-msgid ""
-"Developers of panel plugins can now decide whether the plugin should run as "
-"external process or as part of the panel process, depending on the stability "
-"of the plugin."
-msgstr ""
-"パネルプラグインの開発者はプラグインをほかのプロセスで動かすべきか、パネルの"
-"プロセスの一部として動かすべきかプラグインの安定性に応じて決定することができ"
-"ます。"
-
-#: about/tour44.php:131
-msgid "Panel Icon Box Plugin"
-msgstr "アイコン箱プラグイン"
-
-#: about/tour44.php:134
-msgid ""
-"Since there is now support for multiple panels, the separate <b>Xftaskbar4</"
-"b> and <b>Xfce4-iconbox</b> utilities are no longer required. Instead, both "
-"the taskbar and the iconbox are available as panel plugins now."
-msgstr ""
-"複数のパネルをサポートが追加されたため、<b>Xftaskbar4</b>と<b>Xfce4-iconbox</"
-"b>ユーティリティはもはや必要ありません。そのかわり、タスクバーとアイコンボッ"
-"クスはパネルプラグインとして使うことができます。"
-
-#: about/tour44.php:138
-msgid ""
-"Most of the additional panel plugins, available via the <a href=\"http://"
-"goodies.xfce.org/\">Xfce Goodies Project</a>, have been updated for the new "
-"panel, and several new plugins were added. For example, the brand new "
-"<b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel applets to the "
-"Xfce panel."
-msgstr ""
-"パネルプラグインのほとんどは、 <a href=\"http://goodies.xfce.org/\">Xfce "
-"Goodies Project</a>を通して利用でき、新しいパネル用にアップデートされていま"
-"す。また、いくつかの新しいプラグインが追加されていました。たとえば、新しい"
-"<b>xfce4-xfapplet-plugin</b>はユーザーがGNOMEパネルアプレットをXfceパネルに追"
-"加することができるようになりました。"
-
-#: about/tour44.php:142
-msgid "Time Management"
-msgstr "時間管理"
-
-#: about/tour44.php:145
-msgid ""
-"The new time management application <b>Orage</b> replaces the <b>Xfcalendar</"
-"b>, which was introduced with Xfce 4.2.0. <b>Orage</b> provides several "
-"features to efficiently manage your time."
-msgstr ""
-"新しい時間管理アプリケーション <b>Orage</b>が<b>Xfcalendar</b>(Xfce 4.2.0 で"
-"追加されたもの)を置き換えました。<b>Orage</b>は効果的に時間を管理するための幾"
-"つかの機能を備えています。"
-
-#: about/tour44.php:148 projects/index.php:122
-msgid "Orage"
-msgstr "Orage"
-
-#: about/tour44.php:151
-msgid ""
-"While <b>Orage</b> is very lightweight and easy to use, it supports all the "
-"important features found in larger calendar applications like <b>Outlook</b> "
-"or <b>Evolution</b>. While <b>Xfcalendar</b> used the custom <tt>dbh</tt> "
-"format in the past to store your settings, <b>Orage</b> is based on "
-"<tt>ical</tt> and therefore compatible with other calendar applications."
-msgstr ""
-"<b>Orage</b>はとても軽くて簡単に利用できる一方、肥大したカレンダーアプリケー"
-"ション、たとえば<b>Outlook</b>や<b>Evolution</b>にあるようなすべての重要な機"
-"能をサポートしています。<b>Xfcalendar</b>は過去に<tt>dbh</tt>のカスタムフォー"
-"マットを使って設定を保存していましたが、<b>Orage</b>は<tt>ical</tt>を基礎にし"
-"ています。その結果として、ほかのカレンダーアプリケーションと互換性がありま"
-"す。"
-
-#: about/tour44.php:155
-msgid "Terminal Emulator"
-msgstr "ターミナルミュレーター"
-
-#: about/tour44.php:158
-msgid ""
-"While <b>Terminal</b> was already available during the 4.2 days, it was not "
-"mature enough at that time to be part of the core. With this major release, "
-"it was moved into the core desktop."
-msgstr ""
-"<b>Terminal</b>は4.2時代から使えましたが、コアの一部となるには十分に成熟して"
-"いませんでした。今回の主要リリースにより、コアデスクトップに移動になりまし"
-"た。"
-
-#: about/tour44.php:161 projects/index.php:105
-msgid "Terminal"
-msgstr "ターミナル"
-
-#: about/tour44.php:164
-msgid ""
-"Besides the basic features which you might expect from a terminal emulator, "
-"it includes some nice additional features, like multiple tabs per window, "
-"customizable toolbars and the ability to configure nearly every aspect of "
-"the application via <i>hidden options</i>. As can be seen in the screenshot "
-"above, this release also supports real transparency using <b>Xfwm4</b>'s "
-"integrated composition manager."
-msgstr ""
-"ターミナルミュレーターに期待されると考えられる基本的な機能のほか、幾つかのす"
-"ばらしい機能があります。たとえば、ウィンドウごとにタブがつけられたり、ツール"
-"バーをカスタマイズできたり、<i>hidden options (隠された選択肢)</i>によりほと"
-"んどすべてのアプリケーションの側面を調整できたりします。上のスクリーンショッ"
-"トでみることができるように、このリリースでは<b>Xfwm4</b>にあるコンポジション"
-"マネージャーを使った透過機能がサポートされています。"
-
-#: about/tour44.php:168
-msgid "Printing"
-msgstr "印刷"
-
-#: about/tour44.php:171
-msgid ""
-"<b>Xfprint</b>, the Xfce printing management application, saw several small "
-"improvements with this release. First, the <tt>a2ps</tt> converter is not "
-"mandatory anymore, whilst still recommended. Support for <tt>CUPS</tt> 1.2 "
-"was added and <b>Xfprint</b> is now able to display the printer state with "
-"the <tt>CUPS</tt>-backend."
-msgstr ""
-"<b>Xfprint</b>(Xfce印刷管理アプリケーション)は今回のリリースで幾つかの小さな"
-"改善が行われました。最初に、<tt>a2ps</tt>コンバーターは、必ずしも必要ではなく"
-"なりました。(ただし、使うことを推奨はされています。)<tt>CUPS</tt> 1.2へのサ"
-"ポートが追加され、<b>Xfprint</b>は<tt>CUPS</tt>のバックエンドを使い、プリン"
-"ターの状態を表示することができるようになりました。"
-
-#: about/tour44.php:174
-msgid "Xfce Printing"
-msgstr "Xfce 印刷"
-
-#: about/tour44.php:177
-msgid ""
-"<b>Xfprint</b> also integrates with <b>MousePad</b> to provide generic "
-"printing support for different kinds of text documents using the <tt>a2ps</"
-"tt> converter."
-msgstr ""
-"<b>Xfprint</b>は、<tt>a2ps</tt>コンバーターを使い、幾つかの違った種類のテキス"
-"トドキュメント用の基本的な印刷のサポートを提供するために<b>MousePad</b>と一緒"
-"になっています。"
-
-#: about/tour44.php:180
-msgid "Xfce Print Dialog"
-msgstr "Xfce 印刷ダイアログ"
-
-#: about/tour44.php:183
-msgid ""
-"As you can see the print dialog still looks relatively similar to that of "
-"Xfce 4.2, but the internal workings of the printing support were improved, "
-"especially the <tt>CUPS</tt> support. Besides that, the printing management "
-"functionality was moved to a library, so other applications can use the API "
-"to access the printer configuration."
-msgstr ""
-"見ての通り、印刷ダイアログはXfce 4.2にあったものに比較的似ていますが、印刷サ"
-"ポートの内部の動作は、特に<tt>CUPS</tt>サポートにおいて、改善されました。さら"
-"に、印刷管理の機能性はライブラリに移りました。そのおかげで、ほかのアプリケー"
-"ションもプリンターの設定にアクセスするAPIを利用することができます。"
-
-#: about/tour44.php:187
-msgid "Autostart"
-msgstr "自動起動"
-
-#: about/tour44.php:190
-msgid ""
-"Xfce 4.4.0 implements the new <a href=\"http://freedesktop.org/wiki/"
-"Standards_2fautostart_2dspec\">Autostart Specification</a> - actually Xfce "
-"was the first desktop to implement said feature, but the others were faster "
-"to release. ;-)"
-msgstr ""
-"Xfce 4.4.0では新しい<a href=\"http://freedesktop.org/wiki/"
-"Standards_2fautostart_2dspec\">自動起動の仕様</a>を実装しました。 - 実際Xfce "
-"はこの仕様をはじめて実装したデスクトップですが、リリースしたのは他の方が早"
-"かったのです。;-)"
-
-#: about/tour44.php:193
-msgid "Xfce Autostart Editor"
-msgstr "Xfce 自動起動エディター"
-
-#: about/tour44.php:196
-msgid ""
-"The specification consists of two parts, the <i>Autostart of Applications "
-"During Startup</i>, which is implemented in <b>xfce4-session</b> and the "
-"<i>Autostart Of Applications After Mount</i> which is implemented in <a href="
-"\"http://foo-projects.org/~benny/projects/thunar-volman/index.html\">thunar-"
-"volman</a>. This release also includes the <b>xfce4-autostart-editor</b>, "
-"shown in the screenshot above, which allows users to easily add, remove or "
-"disable autostarted applications."
-msgstr ""
-"その仕様は二つに別れています。それらは<b>xfce4-session</b>に実装されている"
-"<i>Autostart of Applications During Startup (セットアップの間のアプリケーショ"
-"ンの自動起動)</i>と、<a href=\"http://foo-projects.org/~benny/projects/"
-"thunar-volman/index.html\">thunar-volman</a>に実装されている<i>Autostart Of "
-"Appications After Mount(マウント後のアプリケーションの自動起動)</i>です。今回"
-"のリリースでは上のスクリーンショットにある<b>xfce4-autostart-editor</b>を含ん"
-"でいます。これでユーザーは簡単にアプリケーションの追加と削除、またはアプリ"
-"ケーションの自動起動を無効にすることができます。"
-
-#: about/tour44.php:203
-msgid ""
-"This release introduces new options to customize the desktop to your needs. "
-"Some examples of new settings dialogs were already shown in the sections "
-"above."
-msgstr ""
-"今回のリリースでは必要な環境を作るためにデスクトップをカスタマイズする新しい"
-"選択肢が追加されています。新しい設定ダイアログはこれまでのセクションで見るこ"
-"とができます。"
-
-#: about/tour44.php:206
-msgid "Preferred Applications"
-msgstr "お気に入りのアプリケーション"
-
-#: about/tour44.php:209
-msgid ""
-"The preferred applications framework, which was previously only available in "
-"<b>Terminal</b>, was imported into Xfce, so users no longer need to edit "
-"shell profiles to specify which browser and terminal emulator should be used "
-"by Xfce applications. The goal was to make it as easy as possible to change "
-"an application for a certain category (GNOME users may have already noticed "
-"that GNOME adopted this approach, because it is such simple)."
-msgstr ""
-"お気に入りのアプリケーションフレームワーク、<b>Terminal</b>のみで以前は使えた"
-"もの、はXfceにも実装されました。結果、ユーザーはどのブラウザーを使うのかや、"
-"Xfce アプリケーションによって使われるべきターミナルミュレーターを指定したりす"
-"るためにわざわざシェルプロファイルを編集する必要はありません。目標はできるだ"
-"け簡単にカテゴリに応じてアプリケーションを変更できるようにすることでした。"
-"(GNOMEのユーザーはGNOMEがこの考え方を採用していたことに既に気づいていたかも知"
-"れません。とても簡単です。)"
-
-#: about/tour44.php:212
-msgid "Keyboard Shortcuts"
-msgstr "キーボードショートカット"
-
-#: about/tour44.php:215
-msgid ""
-"And then there was the problem with the keyboard shortcuts in Xfce 4.2... "
-"Xfce 4.2 limited the number of freely available keyboard shortcuts, while "
-"people wanted to assign any number of keyboard shortcuts. With Xfce 4.4 this "
-"limitation is history and the application shortcuts are now separated from "
-"the window manager shortcuts."
-msgstr ""
-"またXfce 4.2ではキーボードショートカットに問題がありました…。たくさんの人がた"
-"くさんのキーボードショートカットを割り当てたいと思っていたのにもかかわらず"
-"Xfce 4.2は自由に設定できるキーボードショートカットの数が限られていました。"
-"Xfce4.4では、この制限は過去の話となり、アプリケーションショートカットはウィン"
-"ドウマネージャーショートカットから分けられました。"
-
-#: about/tour44.php:219
-msgid "Feedback"
-msgstr "フィードバック"
-
-#: about/tour44.php:222
-msgid ""
-"Please post comments on this article in my <a href=\"http://xfce-diary."
-"blogspot.com/2007/01/visual-tour-of-xfce-440.html\">blog</a> and use the <a "
-"href=\"/community/lists\">xfce</a> mailinglist if you have questions about "
-"Xfce 4.4.0 or trouble with the installation."
-msgstr ""
-"この記事に関してのコメントを私の<a href=\"http://xfce-diary.blogspot."
-"com/2007/01/visual-tour-of-xfce-440.html\">ブログ</a>に書いてください。何か"
-"Xfce 4.4.0に関しての質問がある場合やインストール中に問題が起こった場合は、ぜ"
-"ひ<a href=\"/community/lists\">xfce</a>のメーリングリストを使ってください。"
-
-#: about/tour44.php:235
-msgid "Written by Benedikt Meurer, 21 Jan 2007"
-msgstr "Written by Benedikt Meurer, 21 Jan 2007"
-
-#: about/credits.php:47
-msgid ""
-"A large number of people contributed to the Xfce project. Although more "
-"people contributed to the project then the ones list below, we'd like to say:"
-msgstr ""
-"多くの方々がこの Xfce プロジェクトに貢献してくださいました。以下のリストやそ"
-"の他多くの貢献者の方々に申し上げます:"
-
-#: about/credits.php:49
-msgid "Thanks to all who helped making this software available!"
-msgstr "このソフトウェアを利用できるよう協力していただいた皆様に感謝します!"
-
-#: about/credits.php:52
-msgid "Core developers"
-msgstr "中心開発者"
-
-#: about/credits.php:63
-msgid "Active contributors"
-msgstr "現在の協力者"
-
-#: about/credits.php:78
-msgid "Servers maintained by"
-msgstr "サーバーの管理"
-
-#: about/credits.php:89
-msgid "Goodies supervision"
-msgstr "Goodies の監修"
-
-#: about/credits.php:95
-msgid "Translations supervision"
-msgstr "翻訳の監修"
-
-#: about/credits.php:102
-msgid "Translators"
-msgstr "翻訳者"
-
-#: about/credits.php:107
-msgid "Previous contributors"
-msgstr "以前の協力者"
-
-#: about/tour.php:3
+#: about/screenshots.php:20
+msgid "Some screenshots of Xfce, ordered by version."
+msgstr "バージョン別の Xfce スクリーンショットです。"
+
+#: about/screenshots.php:43
+msgid "Xfce 4.0"
+msgstr "Xfce 4.0"
+
+#: about/tour.php:1
 msgid "Xfce 4.10 tour"
 msgstr "Xfce 4.10 ツアー"
 
-#: about/tour.php:16
+#: about/tour.php:5
 msgid ""
 "This tour will introduce you to new major features of Xfce 4.10. It only "
 "covers the visual part of what has been done; for the full list of changes, "
@@ -1833,25 +1356,32 @@ msgstr ""
 "分のみについて説明していますが、すべての変更点については <a href=\"/download/"
 "changelogs/\">更新履歴</a> をご覧ください。"
 
-#: about/tour.php:18
+#: about/tour.php:7
 msgid "Online Documentation"
 msgstr "オンラインドキュメント"
 
-#: about/tour.php:20
+#: about/tour.php:9
 msgid ""
 "During the 4.10 development we've decided to remove user manuals from the "
 "packages and move them to an online wiki at <a href=\"http://docs.xfce.org"
 "\">docs.xfce.org</a>. The reason for this change is to make <a href=\"http://"
 "docs.xfce.org/wiki/documentation\">contributing</a> and updating the "
 "documentation easier."
-msgstr "4.10 の開発中、私達はパッケージ内のすべてのユーザーマニュアルを廃し、<a href=\"http://docs.xfce.org\">docs.xfce.org</a> のオンライン wiki に移す決定を行いました。これによってドキュメント作成への<a href=\"http://docs.xfce.org/wiki/documentation\">貢献</a>や更新がより行いやすくなると考えています。"
+msgstr ""
+"4.10 の開発中、私達はパッケージ内のすべてのユーザーマニュアルを廃し、<a href="
+"\"http://docs.xfce.org\">docs.xfce.org</a> のオンライン wiki に移す決定を行い"
+"ました。これによってドキュメント作成への<a href=\"http://docs.xfce.org/wiki/"
+"documentation\">貢献</a>や更新がより行いやすくなると考えています。"
 
-#: about/tour.php:22
+#: about/tour.php:11
+#, fuzzy
 msgid ""
-"When you click a Help button Xfce will ask you to go to an online wiki page."
-msgstr "「ヘルプ」ボタンをクリックすると Xfce はオンラインwikiのページを開くかどうか尋ねます。"
+"When you click a Help button Xfce will ask you to go to an online wiki page"
+msgstr ""
+"「ヘルプ」ボタンをクリックすると Xfce はオンラインwikiのページを開くかどうか"
+"尋ねます。"
 
-#: about/tour.php:24
+#: about/tour.php:13
 msgid ""
 "We hope that with the introduction of the wiki it will be easier for "
 "developers and contributors to maintain the documentation."
@@ -1859,250 +1389,632 @@ msgstr ""
 "私達はこの wiki の採用がドキュメントのメンテナンスへの協力や開発者の執筆がよ"
 "り行いやすくなることを期待しています。"
 
-#: about/tour.php:28
+#: about/tour.php:17
 msgid ""
 "The application finder has been completely rewritten and combines the "
 "functionality of the old appfinder and xfrun4. Apart from user interface "
 "improvements, it now allows creating custom actions matching a prefix or a "
 "regex pattern."
-msgstr "アプリケーションファインダーは完全に書き直され、元のアプリケーションファインダーと xfrun4 は機能統合されました。他に、プレフィックスや正規表現にマッチするカスタムアクションの作成も行えるようになりました。"
+msgstr ""
+"アプリケーションファインダーは完全に書き直され、元のアプリケーションファイン"
+"ダーと xfrun4 は機能統合されました。他に、プレフィックスや正規表現にマッチす"
+"るカスタムアクションの作成も行えるようになりました。"
 
-#: about/tour.php:30
-msgid "Collapsed view of the Application Finder."
+#: about/tour.php:19
+#, fuzzy
+msgid "Collapsed view of the Application Finder"
 msgstr "折り畳んだアプリケーションファインダー。"
 
-#: about/tour.php:32
-msgid "Expanded view of the Application Finder."
+#: about/tour.php:21
+#, fuzzy
+msgid "Expanded view of the Application Finder"
 msgstr "展開したアプリケーションファインダー。"
 
-#: about/tour.php:36
+#: about/tour.php:25
 msgid "Multiple Rows"
 msgstr "複数列のパネル"
 
-#: about/tour.php:38
+#: about/tour.php:27
 msgid ""
 "In 4.10 there is a single panel-wide option for configuring the number of  "
 "rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, "
 "while others, like window buttons are allowed to occupy full width of the "
 "panel."
-msgstr "4.10 ではパネルごとの設定で列数を指定できるようになりました。列は、<em>ランチャー</em>などの一部のプラグインの大きさは 1 列分そのままに、例えばウィンドボタンなどではパネルのサイズ全体を使用して配置されます。"
+msgstr ""
+"4.10 ではパネルごとの設定で列数を指定できるようになりました。列は、<em>ラン"
+"チャー</em>などの一部のプラグインの大きさは 1 列分そのままに、例えばウィンド"
+"ボタンなどではパネルのサイズ全体を使用して配置されます。"
 
-#: about/tour.php:40
-msgid "A horizontal panel with the number of rows set to three."
+#: about/tour.php:29
+#, fuzzy
+msgid "A horizontal panel with a number of rows set to three"
 msgstr "列数を 3 に設定した水平パネル。"
 
-#: about/tour.php:42
+#: about/tour.php:31
 msgid "Deskbar Mode"
 msgstr "デスクバーモード"
 
-#: about/tour.php:44
+#: about/tour.php:33
 msgid ""
 "The panel features a new configuration called a <em>deskbar</em> mode. In "
 "the deskbar  mode the panel is aligned vertically, just like in the vertical "
 "mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
-msgstr "「デスクバー」と名付けられた新しい表示モードが追加されました。デスクバーモードでは、パネルは垂直に配置されますが、プラグインは水平方向に配置されます。「列数」設定と組み合わせることで、ワイドスクリーンに適したパネルが作成できます。"
+msgstr ""
+"「デスクバー」と名付けられた新しい表示モードが追加されました。デスクバーモー"
+"ドでは、パネルは垂直に配置されますが、プラグインは水平方向に配置されます。"
+"「列数」設定と組み合わせることで、ワイドスクリーンに適したパネルが作成できま"
+"す。"
 
-#: about/tour.php:46
-msgid "A panel in Deskbar mode with the number of rows set to five."
+#: about/tour.php:35
+#, fuzzy
+msgid "A panel in Deskbar mode with a number of rows set to five"
 msgstr "列数を 5 に設定したデスクバーモードのパネル。"
 
-#: about/tour.php:48
+#: about/tour.php:37
 msgid "Actions Plugin"
 msgstr "アクションボタンプラグイン"
 
-#: about/tour.php:50
+#: about/tour.php:39
+#, fuzzy
 msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
-"rewritten actions plugin"
-msgstr "xfce4-session にあったセッションプラグインは書き直されたアクションプラグインと統合されました。"
+"rewritten <em>actions</em> plugin"
+msgstr ""
+"xfce4-session にあったセッションプラグインは書き直されたアクションプラグイン"
+"と統合されました。"
 
-#: about/tour.php:52
-msgid "Action plugin in the menu mode (left), and in the button mode (right)."
+#: about/tour.php:41
+#, fuzzy
+msgid "Action plugin in a menu mode (left), and in a button mode (right)"
 msgstr "アクションボタンプラグイン。メニューモード (左) とボタンモード (右)。"
 
-#: about/tour.php:54
+#: about/tour.php:43
 msgid "Window Buttons"
 msgstr "ウィンドウボタン"
 
-#: about/tour.php:56
+#: about/tour.php:45
+#, fuzzy
 msgid ""
-"The window buttons plugin no longer expands in order to make the plugin "
-"positioning more flexible. To restore the previous behavior please add a "
-"transparent <em>separator</em> plugin with the <strong>Expand</strong> "
+"The <em>window buttons</em> plugin no longer expands, which makes the plugin "
+"positioning more flexible. In order to restore the previous behavior please "
+"add a transparent <em>separator</em> plugin with the <strong>Expand</strong> "
 "option enabled just behind the window buttons plugin."
-msgstr "ウィンドウボタンプラグインはもう必要もないのに広がったりしたりししません。パネル上のプラグインの配置を維持するためにスペースを埋めたい時には透明な<em>セパレーター</em>プラグインをウィンドウボタンの後ろに追加し、<strong>「拡張する」</strong>オプションを指定してください。"
+msgstr ""
+"ウィンドウボタンプラグインはもう必要もないのに広がったりしたりししません。パ"
+"ネル上のプラグインの配置を維持するためにスペースを埋めたい時には透明な<em>セ"
+"パレーター</em>プラグインをウィンドウボタンの後ろに追加し、<strong>「拡張す"
+"る」</strong>オプションを指定してください。"
 
-#: about/tour.php:60
+#: about/tour.php:47 about/tour48.php:7 about/index.php:44 about/tour46.php:92
+#: about/tour44.php:28
+msgid "File Manager"
+msgstr "ファイルマネージャー"
+
+#: about/tour.php:49
+#, fuzzy
 msgid ""
-"There are few visual changes in this Thunar release. The main window uses "
-"less padding and the position of the status bar has been improved."
-msgstr "このリリースではいくつかの視覚的な変更が加えられました。メインウィンドウ内のパディングが小さくなり、ステータスバーの位置が改善されました。"
+"There are few visual changes in this release of Thunar. The window has less "
+"padding and the position of the status bar has been adjusted."
+msgstr ""
+"このリリースではいくつかの視覚的な変更が加えられました。メインウィンドウ内の"
+"パディングが小さくなり、ステータスバーの位置が改善されました。"
 
-#: about/tour.php:64
+#: about/tour.php:53
+#, fuzzy
 msgid ""
-"The session manager&apos;s settings dialog now has a button for clearing  "
-"the saved session (no more <tt>rm -r ~/.config/sessions</tt>). Xfce4-tips "
-"has been removed and the session manager can now lock the screen before "
-"suspending or hibernating the system."
-msgstr "セッションマネージャーの設定ダイアログ内に、保存セッションをクリアーするボタンが追加されました (もう <tt>rm -r ~/.config/session</tt> する必要はありません)。Xfce4-tips は廃止され、システムがサスペンドやハイバネートに遷移中の時画面をロックするオプションが追加されました。"
+"The <em>session manager</em>&apos;s settings dialog has a button for "
+"clearing the saved session (no more <tt>rm -r ~/.config/sessions</tt>). "
+"Xfce4-tips has been removed and the session manager can now lock the screen "
+"before suspending or hibernating the system."
+msgstr ""
+"セッションマネージャーの設定ダイアログ内に、保存セッションをクリアーするボタ"
+"ンが追加されました (もう <tt>rm -r ~/.config/session</tt> する必要はありませ"
+"ん)。Xfce4-tips は廃止され、システムがサスペンドやハイバネートに遷移中の時画"
+"面をロックするオプションが追加されました。"
 
-#: about/tour.php:66
+#: about/tour.php:55
 msgid "Applications Autostart"
 msgstr "自動開始アプリケーション"
 
-#: about/tour.php:68
+#: about/tour.php:57
+#, fuzzy
 msgid ""
 "Another noticeable change is the way GNOME and KDE compatibility works. "
-"Compatibility check boxes only enable these services that have to be started "
+"Compatibility check boxes only enable services, which have to be started "
 "before other applications (<em>gnome-keyring</em> and <em>gconf</em> for "
 "GNOME and <em>kdeinit</em> for KDE). All other autostart applications are "
 "available from <strong>Applications Autostart</strong>, but they are listed "
 "using an italic font and not enabled by default in order to distinguish them "
 "from Xfce applications. Unlike in previous versions of Xfce, compatibility "
-"services can be started indepedently from each other."
-msgstr "その他の大きな変更点は、GNOME および KDE との互換機能です。互換性チェックボックスはその他のアプリケーションより先に起動しなければならないサービス (GNOME での <em>gnome-keyring</em> や <em>gconf</em>、KDE での <em>kdeinit</em>) を有効にするだけになり、その他のアプリケーションの自動起動は<strong>自動開始アプリケーション</strong>の中から選択する方法になりました。それらは Xfce アプリケーションと区別するため斜体で表示され、デフォルトでは有効になっていません。これまでの Xfce のリリースとは異なり、互換サービスはそれぞれの起動を個別に指定できるようになりました。"
+"services can be started independently from each other."
+msgstr ""
+"その他の大きな変更点は、GNOME および KDE との互換機能です。互換性チェックボッ"
+"クスはその他のアプリケーションより先に起動しなければならないサービス (GNOME "
+"での <em>gnome-keyring</em> や <em>gconf</em>、KDE での <em>kdeinit</em>) を"
+"有効にするだけになり、その他のアプリケーションの自動起動は<strong>自動開始ア"
+"プリケーション</strong>の中から選択する方法になりました。それらは Xfce アプリ"
+"ケーションと区別するため斜体で表示され、デフォルトでは有効になっていません。"
+"これまでの Xfce のリリースとは異なり、互換サービスはそれぞれの起動を個別に指"
+"定できるようになりました。"
 
-#: about/tour.php:70
+#: about/tour.php:59
+#, fuzzy
 msgid ""
-"Applications, which are not a part of Xfce, are listed using an italic font."
+"Applications, which are not a part of Xfce, are listed using an italic font"
 msgstr "Xfce の一部ではないアプリケーションは斜体で表示されます。"
 
-#: about/tour.php:74
+#: about/tour.php:61 about/tour48.php:71 about/tour46.php:118
+#: about/tour44.php:189
+msgid "Settings"
+msgstr "設定"
+
+#: about/tour.php:63
 msgid "Settings Daemon"
 msgstr "設定デーモン"
 
-#: about/tour.php:76
+#: about/tour.php:65
+#, fuzzy
 msgid ""
 "Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-"
-"helper</tt> and <tt>xfsettingsd</tt>. In 4.10 those two were merged, so now "
-"xfsettingsd handles all system settings."
-msgstr "Xfce 4.8 では設定を適用するには 2 つのプロセスを使用していました: <tt>xfce4-settings-helper</tt> と <tt>xfsettingsd</tt> です。4.10 ではこれらは統合されて <tt>xfsettingsd</tt> がすべてのシステム設定を扱います。"
+"helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into "
+"xfsettingsd, which now handles all system settings."
+msgstr ""
+"Xfce 4.8 では設定を適用するには 2 つのプロセスを使用していました: <tt>xfce4-"
+"settings-helper</tt> と <tt>xfsettingsd</tt> です。4.10 ではこれらは統合され"
+"て <tt>xfsettingsd</tt> がすべてのシステム設定を扱います。"
 
-#: about/tour.php:78 projects/index.php:52
-msgid "Settings Manager"
-msgstr "設定マネージャー"
-
-#: about/tour.php:80
+#: about/tour.php:69
+#, fuzzy
 msgid ""
-"The Settings dialog has support for categories and searching. Most of the "
-"dialogs are also embedded in the window (this was a compile-time option in "
-"4.8)."
+"The new <em>settings manager</em> groups configuration dialogs in categories "
+"and allows you to search for their names or descriptions. Most of the "
+"dialogs are also now embedded in the settings manager window (this was a "
+"compile-time option in Xfce 4.8)."
 msgstr ""
 "設定ダイアログはカテゴリ分けと検索機能をサポートしました。ほとんどのダイアロ"
 "グは設定マネージャーウィンドウに埋め込まれます (4.8 からのコンパイルオプショ"
 "ン)。"
 
-#: about/tour.php:82
-msgid "New settings manager with categories and a filter"
+#: about/tour.php:71
+#, fuzzy
+msgid ""
+"The settings manager with icons grouped by category and a search filter "
+"applied"
 msgstr "カテゴリ分けと検索機能が追加された新しい設定マネージャー。"
 
-#: about/tour.php:84
+#: about/tour.php:73
 msgid "Settings Editor"
 msgstr "設定エディター"
 
-#: about/tour.php:86
+#: about/tour.php:75
 msgid ""
-"The Settings Editor has been modified to reload the changed properties per-"
-"cell instead of reloading the entire tree, so it does not collapse when you "
-"modify a property. It also has in-line editing of the values (for most value "
-"types), making it easier to quickly adjust a setting."
-msgstr "設定エディターはツリー全体のプロパティを再読み込みする方法からセルごとに再読み込みする方法に修正されました。もうプロパティを変更した時にツリーが折り畳まれることはありません。また、(ほとんどのデータ型で) 値をインラインで編集できるようになり、速やかな設定の調整が簡単に行えるようになりました。"
+"The <em>settings editor</em> no longer collapses the entire tree when you "
+"edit a property (this is because it now reloads a single cell rather than "
+"the whole tree). Most properties can now be edited in-place, making it "
+"easier to quickly adjust settings."
+msgstr ""
 
-#: about/tour.php:88
+#: about/tour.php:77
+#, fuzzy
 msgid ""
-"Settings editor with a channel monitor dialog opened while in-line editing a "
-"property"
-msgstr "チャンネルモニターダイアログを開いてプロパティをインラインで編集している設定エディター。"
-
-#: about/tour.php:90
-msgid ""
-"Another new feature in the settings editor is channel monitoring. If you "
-"right-click a channel in the main window, you can open a <strong>Monitor</"
-"strong> dialog which will show the property activity in a channel."
+"Using settings editor you can also monitor changes of settings in a selected "
+"channel. Right-click on a channel in the main window, and select "
+"<strong>Monitor</strong> to display the monitor window."
 msgstr ""
 "設定エディターのその他の新機能は、チャンネルのモニタ機能です。メインウィンド"
 "ウでチャネルを右クリックし、<strong>モニター</strong>を選ぶとダイアログが開"
 "き、そのチャンネルのプロパティの状況を表示します。"
 
-#: about/tour.php:92
+#: about/tour.php:79
+#, fuzzy
+msgid ""
+"Settings editor with an open channel monitor, while editing a property in-"
+"place"
+msgstr ""
+"チャンネルモニターダイアログを開いてプロパティをインラインで編集している設定"
+"エディター。"
+
+#: about/tour.php:81
 msgid "MIME Type Editor"
 msgstr "MIME タイプエディター"
 
-#: about/tour.php:94
+#: about/tour.php:83
 msgid ""
-"A lot of people ask for an editor to manage their file associations in the "
-"last couple of years, so there is it is: a simple MIME Type Editor. The "
-"editor does not allow to modify MIME information (add/remove types or modify "
-"icons), but allows you to easily assign a default application to a type, "
-"show your local modifications and reset to the default."
-msgstr "ここ数年、たくさんの方々からファイルタイプへのアプリケーション割り当てを管理するエディターに関する要望を受けたことから、シンプルな MIME タイプエディターを提供しました。このエディターは MIME 情報の変更 (タイプの追加/削除あるいはアイコンの変更) は行えませんが、タイプごとのデフォルトアプリケーションを簡単に割り当てることができ、ローカル変更の識別および初期値へのリセットが行えます。"
+"In the last couple of years, many people were asking for a tool to manage "
+"their file type associations. The new <em>MIME type editor</em> does just "
+"that. It allows you to easily assign a default application to a file type, "
+"see your changes and reset them to default settings when necessary. Note "
+"that it does not allow you to change the system MIME Type definitions (add "
+"or remove types and change icons)."
+msgstr ""
 
-#: about/tour.php:96
-msgid "List of all the MIME types matching the filter"
-msgstr "フィルターにマッチしたすべての MIME タイプの一覧。"
+#: about/tour.php:85
+msgid ""
+"MIME types matching a pattern and a menu for selecting a default application"
+msgstr ""
 
-#: about/tour.php:98
+#: about/tour.php:87
 msgid "Mouse and Touchpad"
 msgstr "マウスとタッチパッド"
 
-#: about/tour.php:100
+#: about/tour.php:89
+#, fuzzy
 msgid ""
-"The pointer settings dialog has support for handling the basic Synaptics and "
-"Wacom properties. In the background the settings daemon has support for "
-"setting all kinds of <em>device properties</em>, which is explained in the "
-"<a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</"
-"a> wiki."
-msgstr "ポインター設定ダイアログは基本的な Synaptic およびワコムタブレットのプロパティをサポートしました。バックグラウンドの設定デーモンでは<a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">マウスとタッチパッドの設定</a> wiki で説明されている全種類の<em>デバイスプロパティ</em>の設定をサポートしています。"
+"The <em>mouse and touchpad</em> dialog is capable of handling basic "
+"Synaptics and Wacom properties in the GUI. A settings daemon running in the "
+"background handles all kinds of device properties, as documented in the <a "
+"href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> "
+"wiki."
+msgstr ""
+"ポインター設定ダイアログは基本的な Synaptic およびワコムタブレットのプロパ"
+"ティをサポートしました。バックグラウンドの設定デーモンでは<a href=\"http://"
+"docs.xfce.org/xfce/xfce4-settings/mouse\">マウスとタッチパッドの設定</a> "
+"wiki で説明されている全種類の<em>デバイスプロパティ</em>の設定をサポートして"
+"います。"
 
-#: about/tour.php:102
-msgid "Synaptics settings in the Mouse and Touchpad dialog"
+#: about/tour.php:91
+#, fuzzy
+msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
 msgstr "マウスとタッチパッドダイアログでの Synaptics の設定。"
 
-#: about/tour.php:104
+#: about/tour.php:93
 msgid "Appearance Settings"
 msgstr "外観の設定"
 
-#: about/tour.php:106
+#: about/tour.php:95
+#, fuzzy
 msgid ""
-"In 4.10 you can drop theme tarballs in the Style or Icon list. Xfce will try "
-"to extract it and install the files in the <tt>~/.themes</tt> or <tt>~/."
-"icons</tt> directory."
-msgstr "Xfce 4.10 から、テーマの tar ボールをスタイルまたはアイコンリストにドロップできるようになりました。Xfce はそれを展開し、<tt>~/.themes</tt> あるいは <tt>~/.icons</tt> ディレクトリへのインストールを試みます。"
+"In 4.10 you can drag and drop a tarball with a downloaded theme onto the "
+"<em>style</em> or <em>icon</em> list. Xfce will attempt to extract and "
+"install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory."
+msgstr ""
+"Xfce 4.10 から、テーマの tar ボールをスタイルまたはアイコンリストにドロップで"
+"きるようになりました。Xfce はそれを展開し、<tt>~/.themes</tt> あるいは "
+"<tt>~/.icons</tt> ディレクトリへのインストールを試みます。"
 
-#: about/tour.php:110
+#: about/tour.php:99
+#, fuzzy
 msgid ""
-"The initial plan for 4.10 was to integrate the desktop in Thunar, but since "
-"we couldn't agree on the implementation Xfdesktop has gained some new "
-"features as well. The most visible improvements are single-click support, "
-"automated background cycling and thumbnail rendering."
-msgstr "当初の計画では 4.10 においてデスクトップを Thunar に統合する予定でしたが、その実装において合意に達することができず、それと同様の機能追加が Xfdesktop に対して行われました。主な改善点は、シングルクリックのサポート、背景の自動変更、およびサムネイルの描画です。"
+"Although the initial plan for Xfce 4.10 was to integrate desktop handling in "
+"Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop "
+"has gained support for single-click operation, automated background image "
+"cycling and thumbnail rendering."
+msgstr ""
+"当初の計画では 4.10 においてデスクトップを Thunar に統合する予定でしたが、そ"
+"の実装において合意に達することができず、それと同様の機能追加が Xfdesktop に対"
+"して行われました。主な改善点は、シングルクリックのサポート、背景の自動変更、"
+"およびサムネイルの描画です。"
 
-#: about/tour.php:112
-msgid "Image thumbnails on the desktop and single-click support"
+#: about/tour.php:101
+#, fuzzy
+msgid "Desktop with image thumbnails and support for single-click operation"
 msgstr "デスクトップアイコンの画像のサムネイルとシングルクリックのサポート。"
 
-#: about/tour.php:114
-msgid ""
-"Xfdesktop also has a new default background and all old backgrounds have "
-"been removed from the package."
-msgstr "Xfdesktop では新しいデフォルトの背景が採用され、過去のすべての背景はパッケージから除去されました。"
-
-#: about/tour.php:118
-msgid ""
-"Xfwm4 has optional support for tiling when you drag a window to the screen "
-"edge. The tab window (Alt+Tab) has better theming options and arrow key "
-"navigation."
-msgstr "Xfwm4 はウィンドウを画面端にドラッグした時にタイル表示するオプションが新たにサポートされました。"
-
-#: about/index.php:7 frontpage.php:69
-msgid ""
-"Xfce is a lightweight desktop environment for UNIX-like operating systems. "
-"It aims to be fast and low on system resources, while still being visually "
-"appealing and user friendly."
+#: about/tour.php:103
+msgid "Xfdesktop is now shipped with a new default background image."
 msgstr ""
-"Xfce は UNIX-like オペレーティングシステム向けの軽量なデスクトップ環境です。"
-"視覚的な充実と使いやすさを保ちつつ、高速で軽量になることを目標としています。"
+
+#: about/tour.php:107
+msgid ""
+"Xfwm4 can now tile a window when you drag it to the edge of the screen. This "
+"feature is optional and is disabled by default. In such a case windows can "
+"still be tiled using a keyboard shortcut. Another improvement is a better "
+"theming support and cursor key navigation in the tab window (Alt+Tab)."
+msgstr ""
+
+#: about/tour48.php:1
+msgid "Xfce 4.8 tour"
+msgstr "Xfce 4.8 ツアー"
+
+#: about/tour48.php:5
+msgid ""
+"This tour will introduce you to all the new major visual features in Xfce "
+"4.8. This is only the visual part of what has been done; for a full list of "
+"changes, see the <a href=\"/download/changelogs/\">changelogs</a>."
+msgstr ""
+"このツアーでは、Xfce 4.8 の主な新機能について紹介します。ここでは目に見える部"
+"分のみについて説明していますが、すべての変更点については<a href=\"/download/"
+"changelogs/\">更新履歴</a>をご覧ください。"
+
+#: about/tour48.php:9
+msgid "Remote shares browsing"
+msgstr "リモート共有のブラウズ"
+
+#: about/tour48.php:11
+msgid ""
+"Thunar now has optional support for GVFS which will allow you to browse "
+"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
+msgstr ""
+"Thunar は GVFS をオプションでサポートし、Thunar 上から、FTP、Windows 共有、"
+"WebDav、あるいは SSH サーバーなどのリモート共有をブラウズできるようになりまし"
+"た。"
+
+#: about/tour48.php:13
+msgid "Thunar browsing a remote share"
+msgstr "Thunar でリモート共有をブラウズ"
+
+#: about/tour48.php:15
+msgid "New file operations progress dialog"
+msgstr "新しいファイル操作進捗ダイアログ"
+
+#: about/tour48.php:17
+msgid ""
+"When several file operations (copy or move) are being handled in parallel, "
+"Thunar now shows a single progress dialog which displays all the relevant "
+"information."
+msgstr ""
+"複数のファイルに対する操作 (コピーや移動) が並列で処理されたとき、Thunar は関"
+"連する情報すべてをひとつのダイアログで表示するようになりました。"
+
+#: about/tour48.php:19
+msgid "Progress dialog"
+msgstr "進捗ダイアログ"
+
+#: about/tour48.php:21
+msgid "Eject button for removable devices"
+msgstr "リムーバブルデバイスの取り出しボタン"
+
+#: about/tour48.php:23
+msgid ""
+"It is is now possible to eject removable devices by clicking the eject "
+"button near each removable device label in the side pane."
+msgstr ""
+"サイドペインの各リムーバブルデバイスラベルのそばにある取り出しボタンをクリッ"
+"クすることより、そのデバイスを取り出すことができるようになりました。"
+
+#: about/tour48.php:25
+msgid "Eject button"
+msgstr "取り出しボタン"
+
+#: about/tour48.php:29
+msgid ""
+"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
+"changes."
+msgstr ""
+"Xfce パネルは、4.8 で全面的に書き直されました。主な変更点は以下のとおりです。"
+
+#: about/tour48.php:31
+msgid "Improved positioning and size handling"
+msgstr "ポジショニングやサイズ変更の改善"
+
+#: about/tour48.php:33
+msgid ""
+"The panel has much better support for positioning panels on the screen. It "
+"can be dragged and snapped to screen borders; floating positions are only "
+"remembered when moving a panel and the length of the panel can be adjusted "
+"as a percentage of the monitor size."
+msgstr ""
+"パネルの画面上でのポジショニングが改善されました。ドラッグおよび画面端へのス"
+"ナップができるようになり、フローティング配置はパネルを移動しているときのみ記"
+"憶され、パネルの長さはモニターサイズに対するパーセンテージで調整できるように"
+"なりました。"
+
+#: about/tour48.php:35
+msgid "Transparent backgrounds"
+msgstr "透明な背景"
+
+#: about/tour48.php:37
+msgid ""
+"The panel is now able to draw transparent panel backgrounds with non "
+"transparent items. Your panel items will remain readable and you will enjoy "
+"a nice panel look."
+msgstr ""
+"パネルの背景を透明にできるようになりました。パネルアイテムは透明になりません"
+"ので利用に支障はありません。ナイスなパネルの見た目を楽しんでください。"
+
+#: about/tour48.php:39
+msgid "Transparent panel background"
+msgstr "透明なパネルの背景"
+
+#: about/tour48.php:41
+msgid "New item editor"
+msgstr "新しいアイテムエディター"
+
+#: about/tour48.php:43
+msgid ""
+"The panel now features an item editor which allows to modify, move, add and "
+"remove items quickly. This is particularly useful for items which are hard "
+"to right click and gives you an easy way to change your panel layout from a "
+"single place."
+msgstr ""
+"新機能のアイテムエディターでは、アイテムの編集、移動、追加、および削除が素早"
+"く行えます。これは特に右クリックのやりにくいアイテムに対して便利であり、そし"
+"てパネルのレイアウト変更を一括で行えます。"
+
+#: about/tour48.php:45
+msgid "Panel item editor"
+msgstr "パネルアイテムエディター"
+
+#: about/tour48.php:47
+msgid "Drag and drop to create launchers"
+msgstr "ドラッグアンドドロップでランチャー作成"
+
+#: about/tour48.php:49
+msgid ""
+"You can now drag and drop menu entries from the panel applications menu, "
+"application finder or Thunar to the panel to create launchers. This feature "
+"should please the huge number of people who had been requesting it for ages. "
+"The launcher also has an integrated application finder to add new items."
+msgstr ""
+"パネルアプリケーションメニュー、アプリケーションファインダー、あるいは "
+"Thunar からパネルへのメニューエントリのドラッグアンドドロップで、ランチャーの"
+"作成ができるようになりました。長い間この機能を待ち望んでいた多くの方々に喜ん"
+"でいただけると思います。また、新しいアイテムを追加するために統合されたアプリ"
+"ケーションファインダーも具備しています。"
+
+#: about/tour48.php:51
+msgid "Window buttons plugin"
+msgstr "ウィンドウボタンプラグイン"
+
+#: about/tour48.php:53
+msgid ""
+"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
+"buttons. It implements different sorting modes, improved handling in "
+"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
+"a button."
+msgstr ""
+"アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されま"
+"した。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボ"
+"タン上にマウスポインタがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠"
+"を描画できるようになりました。"
+
+#: about/tour48.php:55
+msgid "New fuzzy clock"
+msgstr "新しいファジー時計"
+
+#: about/tour48.php:57
+msgid ""
+"An Xfce release without a new clock mode would not be a true Xfce release. "
+"Let us introduce you the 'fuzzy' clock mode!"
+msgstr ""
+"新しい時計モードのない Xfce リリースは本当の Xfce リリースとは言えません。そ"
+"して今回の新しい時計モードは、'ファジー' です!"
+
+#: about/tour48.php:59
+msgid "New fuzzy clock mode"
+msgstr "新しいファジー時計モード"
+
+#: about/tour48.php:61
+msgid "New directory menu plugin"
+msgstr "新しいディレクトリメニュープラグイン"
+
+#: about/tour48.php:63
+msgid ""
+"The directory menu plugin provides a menu reproducing the arborescence of a "
+"particular folder. This allows you to open a terminal or a file manager in a "
+"sub-folder in a very fast and efficient way."
+msgstr ""
+"ディレクトリメニュープラグインは、特定のフォルダーをツリー上に再現したメ"
+"ニューを提供します。これでサブフォルダーの中を速やかかつ効果的にターミナルや"
+"ファイルマネージャーで開くことができます。"
+
+#: about/tour48.php:65
+msgid "Directory menu plugin"
+msgstr "ディレクトリメニュープラグイン"
+
+#: about/tour48.php:67
+msgid "Applications menu edition"
+msgstr "アプリケーションメニューの編集"
+
+#: about/tour48.php:69
+msgid ""
+"You can now edit the applications menu using any Freedesktop compliant menu "
+"editor, Alacarte being the one we used to test."
+msgstr ""
+"freedesktop.org に準拠したメニューエディターでアプリケーションメニューが編集"
+"できるようになりました。わたしたちは Alacarte を使ってテストしています。"
+
+#: about/tour48.php:73
+msgid "Improved multihead setup configuration"
+msgstr "マルチヘッド構成設定の改善"
+
+#: about/tour48.php:75
+msgid ""
+"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
+"driver. Unfortunately, this means it will not work with Nvidia proprietary "
+"drivers."
+msgstr ""
+"RandR 1.2 互換のドライバーに対応したマルチヘッド構成の設定が行えるようになり"
+"ました。残念ながら、これは NVIDIA プロプライエタリドライバーでは動作しないこ"
+"とを意味します。"
+
+#: about/tour48.php:77
+msgid ""
+"You can enable and disable plugged screens, set their resolution, refresh "
+"rate, rotation and reflection, clone screens or extend desktops."
+msgstr ""
+"接続されたモニターの有効化および無効化、それらの解像度、リフレッシュレート、"
+"回転、反転、クローン表示あるいは拡張デスクトップの設定が行えます。"
+
+#: about/tour48.php:79
+msgid "New display settings dialog"
+msgstr "新しいディスプレイの設定ダイアログ"
+
+#: about/tour48.php:81
+msgid "Timed confirmation"
+msgstr "時間内確認"
+
+#: about/tour48.php:83
+msgid ""
+"Any change made with the settings dialog will have to be confirmed within "
+"ten seconds or they will be reverted. This prevents broken video drivers "
+"from leaving your computer unusable."
+msgstr ""
+"設定ダイアログで行われたあらゆる変更は、10 秒以内に確認するか、取り消されなけ"
+"ればなりません。これはビデオドライバーの破壊を回避します。"
+
+#: about/tour48.php:85
+msgid "Timed confirmation for display settings changes"
+msgstr "ディスプレイ設定の変更の確認"
+
+#: about/tour48.php:87
+msgid "Quick setup dialog"
+msgstr "クイックセットアップダイアログ"
+
+#: about/tour48.php:89
+msgid ""
+"The quick setup dialog allows you to configure a dual screen setup in a "
+"second. Plug the second screen, press the display key or Windows + p and "
+"select the wanted layout. Done!"
+msgstr ""
+"クイックセットアップダイアログで、複数画面のセットアップがすぐに行なえます。"
+"追加ディスプレイを接続し、ディスプレイキーあるいは Windows + p を押し、レイア"
+"ウトを選択して完了です!"
+
+#: about/tour48.php:91
+msgid "Quick multihead setup"
+msgstr "マルチヘッド構成を素早くセットアップ"
+
+#: about/tour48.php:93
+msgid "Settings edition in the Xfce Settings Editor"
+msgstr "Xfce 設定エディターでの設定の変更"
+
+#: about/tour48.php:95
+msgid ""
+"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
+"Xfconf settings viewer. You can now modify, delete, add and reset settings "
+"through its interface. It also monitors changes to update its view."
+msgstr ""
+"Xfce 設定エディターは、その名にふさわしいものになり、もう単純な Xfconf 設定"
+"ビューアーではありません。エディター上で、設定の変更、削除、追加、あるいはリ"
+"セットが行えます。また、その表示の更新のため、変更を監視します。"
+
+#: about/tour48.php:97
+msgid "Editing Xfconf properties with the Settings Editor"
+msgstr "設定エディターを使った Xfconf プロパティの編集"
+
+#: about/tour48.php:99
+msgid "Improved keyboard layout selection"
+msgstr "キーボードレイアウト選択の改善"
+
+#: about/tour48.php:101
+msgid ""
+"The layout selection dialog received a lot of love: it no longer displays "
+"cryptic language/variants codes but uses localized languages/variants names. "
+"Layout edition was also made easier by prefilling the dialogs with the "
+"current values."
+msgstr ""
+"レイアウト選択ダイアログにはたくさんの愛情が注がれました。もう難解な言語/バリ"
+"アントコードをお見せすることはありません。そのかわりローカライズされた言語/バ"
+"リアントを使用します。レイアウトの変更は現在の値が初期値となってダイアログに"
+"表示され、設定しやすくなっています。"
+
+#: about/tour48.php:103
+msgid "Layouts and variants list"
+msgstr "レイアウトとバリアントリスト"
+
+#: about/news.php:55
+msgid "Changes in this release"
+msgstr "このリリースでの変更点"
+
+#: about/news.php:56
+msgid "Permalink"
+msgstr "固定リンク"
+
+#: about/news.php:74
+msgid "No news articles found."
+msgstr "新しい記事は見つかりませんでした。"
 
 #: about/index.php:11
 msgid ""
@@ -2224,330 +2136,975 @@ msgstr ""
 "ます。Xfce のモジュールについてのより詳しい情報については、<a href=\"/"
 "projects\">プロジェクト</a>ページをご覧ください。"
 
-#: about/screenshots.php:20
-msgid "Some screenshots of Xfce, ordered by version."
-msgstr "バージョン別の Xfce スクリーンショットです。"
+#: about/tour46.php:1
+msgid "Xfce 4.6 tour"
+msgstr "Xfce 4.6 ツアー"
 
-#: about/screenshots.php:23 download/changelogs/index.php:7
-msgid "Xfce 4.8"
-msgstr "Xfce 4.8"
-
-#: about/screenshots.php:28 download/changelogs/index.php:8
-msgid "Xfce 4.6"
-msgstr "Xfce 4.6"
-
-#: about/screenshots.php:33 download/changelogs/index.php:9
-msgid "Xfce 4.4"
-msgstr "Xfce 4.4"
-
-#: about/screenshots.php:38 download/changelogs/index.php:10
-msgid "Xfce 4.2"
-msgstr "Xfce 4.2"
-
-#: about/screenshots.php:43
-msgid "Xfce 4.0"
-msgstr "Xfce 4.0"
-
-#: about/tour48.php:3
-msgid "Xfce 4.8 tour"
-msgstr "Xfce 4.8 ツアー"
-
-#: about/tour48.php:16
+#: about/tour46.php:6
 msgid ""
-"This tour will introduce you to all the new major visual features in Xfce "
-"4.8. This is only the visual part of what has been done; for a full list of "
-"changes, see the <a href=\"/download/changelogs/\">changelogs</a>."
+"The long awaited 4.6.0 version of the Xfce Desktop Environment is finally "
+"available. We will try to highlight some of the new features which have been "
+"added since the last stable release."
 msgstr ""
-"このツアーでは、Xfce 4.8 の主な新機能について紹介します。ここでは目に見える部"
-"分のみについて説明していますが、すべての変更点については<a href=\"/download/"
-"changelogs/\">更新履歴</a>をご覧ください。"
+"長い間待たれていた Xfce デスクトップ環境のバージョン 4.6.0 が、ついにリリース"
+"されました。私たちは、直前の安定版リリースから追加されたいくつかの新機能につ"
+"いて紹介したいと思います。"
 
-#: about/tour48.php:20
-msgid "Remote shares browsing"
-msgstr "リモート共有のブラウズ"
-
-#: about/tour48.php:22
+#: about/tour46.php:12
 msgid ""
-"Thunar now has optional support for GVFS which will allow you to browse "
-"remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
+"Since desktop icons have been introduced in Xfce 4.4, people have expressed "
+"the need to allow the selection of multiple icons (rubber banding). With "
+"<b>Xfce 4.6</b>, the <b>Xfdesktop</b> manager finally implements this "
+"feature: you can select multiple icons, remove them, etcetera..."
 msgstr ""
-"Thunar は GVFS をオプションでサポートし、Thunar 上から、FTP、Windows 共有、"
-"WebDav、あるいは SSH サーバーなどのリモート共有をブラウズできるようになりまし"
+"デスクトップアイコンは Xfce 4.4 から導入されましたが、多くの方々から (ラバー"
+"バンド法で) 複数アイコンの選択ができることを望まれました。<b>Xfce 4.6</b> で"
+"は、<b>Xfdesktop</b> マネージャーがとうとうこの機能を実装しました。これで複数"
+"アイコンの選択、削除などが行えます。"
+
+#: about/tour46.php:15
+msgid "Multiple icons selection"
+msgstr "複数アイコンの選択k"
+
+#: about/tour46.php:18
+msgid ""
+"<b>Xfce 4.6</b> features a brand new desktop menu which allows you to "
+"manipulate files as with the <b>Thunar</b> filemanager contextual menu, but "
+"also to open applications, exit your session, or access the help "
+"documentation."
+msgstr ""
+"<b>Xfce 4.6</b> は新しいデスクトップメニューを用意し、<b>Thunar</b> ファイル"
+"マネージャーのコンテキストメニューによりファイルを操作できるようになりまし"
+"た。また、アプリケーションの起動、セッションの終了、あるいはヘルプドキュメン"
+"トへのアクセスも行えます。"
+
+#: about/tour46.php:21
+msgid "New desktop menu"
+msgstr "新しいデスクトップメニュー"
+
+#: about/tour46.php:26
+msgid ""
+"A lot of long standing bugs have been fixed in <b>Xfce4 Panel</b>, "
+"particularly for multiple screen setups, but this new release also brings an "
+"improved set of panel plugins."
+msgstr ""
+"長く残っていた <b>Xfce4 Panel</b> の多くのバグ、特にマルチスクリーンの設定に"
+"関する問題が修正されました。それだけでなく、この新しいリリースではパネルプラ"
+"グインセットの改良も行われました。"
+
+#: about/tour46.php:29
+msgid "New binary clock"
+msgstr "新しいバイナリ時計"
+
+#: about/tour46.php:32
+msgid ""
+"The <b>clock plugin</b> has been rewritten to consume fewer system resources "
+"and to fix some display bugs, but there is also a new clock mode for the "
+"geek in you: binary clock! The new <b>notification area plugin</b> allows "
+"you to hide selected notification icons to keep your notification area clean "
+"and readable."
+msgstr ""
+"<b>時計プラグイン</b>はシステムリソースの消費を抑え、いくつかの表示上のバグを"
+"修正するために書き直されました。また、ギークなあなたのために、新たなモードと"
+"してバイナリクロックも追加されました!新しい<b>通知エリアプラグイン</b>では、"
+"任意の通知アイコンを表示しないよう指定することができ、あなたの通知エリアを"
+"すっきり見やすくしておくことができます。"
+
+#: about/tour46.php:35
+msgid "Sound Mixer"
+msgstr "サウンドミキサー"
+
+#: about/tour46.php:38
+msgid ""
+"<b>Xfce4 Mixer</b> has been rewritten from scratch to use <a href=\"http://"
+"www.gstreamer.net/\">Gstreamer</a>. This allows us to more easily support "
+"multiple sound systems, the user interface is more polished, and you can "
+"manage several different sound cards. Additionally, a panel plugin allows "
+"you to set the system sound quickly using the mouse scroll wheel."
+msgstr ""
+"<b>Xfce4 ミキサー</b>は一から書き直され、<a href=\"http://www.gstreamer.net/"
+"\">GStreamer</a> を使用するようになりました。これにより複数のサウンドシステム"
+"のサポートがより容易になり、ユーザーインターフェイスはより洗練され、異なるサ"
+"ウンドカードそれぞれの管理も行えるようになりました。さらに、パネルプラグイン"
+"では、マウスのスクロールホイールを使って速やかにシステムサウンドの設定を行え"
+"ます。"
+
+#: about/tour46.php:41
+msgid "New sound mixer"
+msgstr "新しいサウンドミキサー"
+
+#: about/tour46.php:46
+msgid ""
+"<b>Xfce 4.6</b> comes with an enhanced session manager: your session should "
+"be started faster, and the settings dialog has been reworked to ease the "
+"management of session-aware applications.  Additionally, the session manager "
+"will now automatically restart session applications which crashed so that "
+"you are not left without a desktop, panel, window manager, etcetera, if a "
+"crash occurs. "
+msgstr ""
+"<b>Xfce 4.6</b> ではセッションマネージャーが強化されました。セッションの起動"
+"が速くなり、設定ダイアログはシステムが認識するアプリケーションの管理を容易に"
+"行えるよう書き直されました。さらに、セッションマネージャーは、クラッシュした"
+"セッションアプリケーションが、デスクトップ、パネル、ウィンドウマネージャーな"
+"どがない状態で残ってしまわないように、クラッシュした際に自動的に再起動するよ"
+"うになりました。"
+
+#: about/tour46.php:49
+msgid "Session settings dialog"
+msgstr "セッション設定ダイアログ"
+
+#: about/tour46.php:52
+msgid ""
+"The session manager also includes a new long-awaited feature: support for "
+"<b>suspend</b> and <b>hibernate</b> \"out of the box.\"  The logout dialog "
+"now has two additional buttons which offer to suspend or hibernate your "
+"computer."
+msgstr ""
+"セッションマネージャーはまた、長く待たれていた新機能、\"すぐに使える\" <b>サ"
+"スペンド</b>および<b>ハイバネート</b>をサポートしました。ログアウトダイアログ"
+"には、コンピューターのサスペンドおよびハイバネートの 2 つのボタンが追加されて"
+"います。"
+
+#: about/tour46.php:55
+msgid "Session logout dialog"
+msgstr "セッションログアウトダイアログ"
+
+#: about/tour46.php:60
+msgid ""
+"As usual, <b>Xfwm4</b> has matured quite a bit during this release cycle: "
+"many bugs have been fixed, support for multiple displays has been added, and "
+"overall performance has been improved."
+msgstr ""
+"いつも通り、<b>Xfwm4</b> はこのリリースサイクルの間にかなり熟成されました。多"
+"くのバグは修正され、マルチスクリーンがサポートされ、全体のパフォーマンスが向"
+"上しました。"
+
+#: about/tour46.php:63
+msgid ""
+"In addition to some other new features, <b>Xfwm4</b> is now able to detect "
+"windows that do not respond and offer to terminate them."
+msgstr ""
+"さらに、他にいくつかの新しい機能が追加され、<b>Xfwm4</b> は応答のないウィンド"
+"ウを検知してそれらの終了を提案することができるようになりました。"
+
+#: about/tour46.php:66
+msgid "Dialog to terminate busy applications"
+msgstr "応答のないアプリケーションの中断ダイアログ"
+
+#: about/tour46.php:69
+msgid ""
+"There is also a new <b>actions menu</b> which allows you to quickly move and "
+"resize windows, put them above or below other windows, or fullscreen them."
+msgstr ""
+"また、新しい<b>アクションメニュー</b>では、ウィンドウの移動やサイズの変更、他"
+"のウィンドウの前や後ろに置くこと、全画面化などが速やかに行えるようになりまし"
 "た。"
 
-#: about/tour48.php:24
-msgid "Thunar browsing a remote share"
-msgstr "Thunar でリモート共有をブラウズ"
+#: about/tour46.php:72
+msgid "New actions menu"
+msgstr "新しいアクションメニュー"
 
-#: about/tour48.php:26
-msgid "New file operations progress dialog"
-msgstr "新しいファイル操作進捗ダイアログ"
-
-#: about/tour48.php:28
+#: about/tour46.php:75
 msgid ""
-"When several file operations (copy or move) are being handled in parallel, "
-"Thunar now shows a single progress dialog which displays all the relevant "
-"information."
+"A new <b>fill</b> operation has been implemented; it expands a given window "
+"to the available space without overlapping other adjacent windows."
 msgstr ""
-"複数のファイルに対する操作 (コピーや移動) が並列で処理されたとき、Thunar は関"
-"連する情報すべてをひとつのダイアログで表示するようになりました。"
+"新しく<b>「ウィンドウをいっぱいに拡げる」</b>操作が実装されました。これはウィ"
+"ンドウを他のウィンドウと重ならない範囲で画面いっぱいに拡げます。"
 
-#: about/tour48.php:30
-msgid "Progress dialog"
-msgstr "進捗ダイアログ"
+#: about/tour46.php:78
+msgid "Fill operation"
+msgstr "「ウィンドウをいっぱいに拡げる」操作"
 
-#: about/tour48.php:32
-msgid "Eject button for removable devices"
-msgstr "リムーバブルデバイスの取り出しボタン"
-
-#: about/tour48.php:34
+#: about/tour46.php:81
 msgid ""
-"It is is now possible to eject removable devices by clicking the eject "
-"button near each removable device label in the side pane."
+"The <b>compositor</b> has been optimized to reduce window flickering "
+"duringresize operations."
 msgstr ""
-"サイドペインの各リムーバブルデバイスラベルのそばにある取り出しボタンをクリッ"
-"クすることより、そのデバイスを取り出すことができるようになりました。"
+"<b>合成処理</b>はサイズ変更時のフリッカーを低減するよう最適化されました。"
 
-#: about/tour48.php:36
-msgid "Eject button"
-msgstr "取り出しボタン"
+#: about/tour46.php:84
+msgid "Flicker free resizing"
+msgstr "フリッカーなしのサイズ変更"
 
-#: about/tour48.php:40
+#: about/tour46.php:87
 msgid ""
-"The Xfce panel has been totally rewritten in 4.8, here are the most visible "
-"changes."
+"Some <b>tweakable options</b> have also been added: for example, you can now "
+"disable the blinking of windows when they receive an urgency hint."
 msgstr ""
-"Xfce パネルは、4.8 で全面的に書き直されました。主な変更点は以下のとおりです。"
+"<b>詳細オプション</b>にも追加がなされています。例えば、ウィンドウが緊急通知を"
+"受信した時に点滅するのを抑止できるようになりました。"
 
-#: about/tour48.php:42
-msgid "Improved positioning and size handling"
-msgstr "ポジショニングやサイズ変更の改善"
+#: about/tour46.php:90
+msgid "New tweakable options"
+msgstr "新しい微調整オプション"
 
-#: about/tour48.php:44
+#: about/tour46.php:95
 msgid ""
-"The panel has much better support for positioning panels on the screen. It "
-"can be dragged and snapped to screen borders; floating positions are only "
-"remembered when moving a panel and the length of the panel can be adjusted "
-"as a percentage of the monitor size."
+"There have been many bug fixes and performance improvements in <b>Thunar</"
+"b>. It can use the mouse forward and backward buttons (if available) to "
+"navigate, and it includes a new plugin that allows you to set an image as "
+"wallpaper from the context menu."
 msgstr ""
-"パネルの画面上でのポジショニングが改善されました。ドラッグおよび画面端へのス"
-"ナップができるようになり、フローティング配置はパネルを移動しているときのみ記"
-"憶され、パネルの長さはモニターサイズに対するパーセンテージで調整できるように"
-"なりました。"
+"<b>Thunar</b>では、多くのバグの修正とパフォーマンスの改善が図られました。マウ"
+"スの前進および後退ボタンがあればナビゲートに使用でき、コンテキストメニューか"
+"ら画像ファイルを壁紙に設定するプラグインが統合されました。"
 
-#: about/tour48.php:46
-msgid "Transparent backgrounds"
-msgstr "透明な背景"
+#: about/tour46.php:98
+msgid "Set an image in a Thunar folder as wallpaper"
+msgstr "Thunar からフォルダー内にある画像を壁紙として設定できます"
 
-#: about/tour48.php:48
+#: about/tour46.php:101
 msgid ""
-"The panel is now able to draw transparent panel backgrounds with non "
-"transparent items. Your panel items will remain readable and you will enjoy "
-"a nice panel look."
+"<b>Thunar</b> now follows the <a href=\"http://freedesktop.org/wiki/Software/"
+"xdg-user-dirs\"> XDG user directories</a> specification; this allows you to "
+"have themed and localized user folders to store your music, documents, "
+"videos, templates, etcetera..."
 msgstr ""
-"パネルの背景を透明にできるようになりました。パネルアイテムは透明になりません"
-"ので利用に支障はありません。ナイスなパネルの見た目を楽しんでください。"
+"<b>Thunar</b> は<a href=\"http://freedesktop.org/wiki/Software/xdg-user-dirs"
+"\">XDG user directories</a>仕様に準拠しており、音楽、ドキュメント、ビデオ、テ"
+"ンプレートなどを保存するフォルダーの構成とフォルダー名のローカライズが行える"
+"ようになっています。"
 
-#: about/tour48.php:50
-msgid "Transparent panel background"
-msgstr "透明なパネルの背景"
+#: about/tour46.php:104
+msgid "Thunar menu for user directories"
+msgstr "ユーザーディレクトリ用のThunarのメニュー"
 
-#: about/tour48.php:52
-msgid "New item editor"
-msgstr "新しいアイテムエディター"
-
-#: about/tour48.php:54
+#: about/tour46.php:107
 msgid ""
-"The panel now features an item editor which allows to modify, move, add and "
-"remove items quickly. This is particularly useful for items which are hard "
-"to right click and gives you an easy way to change your panel layout from a "
-"single place."
+"<b>Thunar</b> will now display a translucent icon for drives or volumes that "
+"are not mounted, so that you can distinguish them from the mounted ones."
 msgstr ""
-"新機能のアイテムエディターでは、アイテムの編集、移動、追加、および削除が素早"
-"く行えます。これは特に右クリックのやりにくいアイテムに対して便利であり、そし"
-"てパネルのレイアウト変更を一括で行えます。"
+"<b>Thunar</b> はドライブやボリュームがマウントされていないとき、そのアイコン"
+"を半透明で表示し、マウントしているかどうか判別できるようになりました。"
 
-#: about/tour48.php:56
-msgid "Panel item editor"
-msgstr "パネルアイテムエディター"
+#: about/tour46.php:110
+msgid "Translucent icons for unmounted drives and volumes"
+msgstr "マウントしていないドライブおよびボリュームアイコンの半透明表示"
 
-#: about/tour48.php:58
-msgid "Drag and drop to create launchers"
-msgstr "ドラッグアンドドロップでランチャー作成"
+#: about/tour46.php:113
+msgid "Last, but not least, <b>Thunar</b> now supports encrypted devices!"
+msgstr ""
+"大事なことを言い忘れていました、<b>Thunar</b> は暗号化デバイスもサポートしま"
+"した!"
 
-#: about/tour48.php:60
+#: about/tour46.php:116
+msgid "Thunar support for encrypted devices"
+msgstr "暗号化デバイスをサポートした Thunar"
+
+#: about/tour46.php:121
 msgid ""
-"You can now drag and drop menu entries from the panel applications menu, "
-"application finder or Thunar to the panel to create launchers. This feature "
-"should please the huge number of people who had been requesting it for ages. "
-"The launcher also has an integrated application finder to add new items."
+"Xfce 4.6 features a new settings interface, <b>Xfce Settings Manager</b>, "
+"which allows you to configure your desktop environment much more easily than "
+"before. The dialogs which are accessible by single clicking on the icons "
+"have been designed to be more compact and to allow you to customize your "
+"desktop quickly and in a more intuitive way."
 msgstr ""
-"パネルアプリケーションメニュー、アプリケーションファインダー、あるいは "
-"Thunar からパネルへのメニューエントリのドラッグアンドドロップで、ランチャーの"
-"作成ができるようになりました。長い間この機能を待ち望んでいた多くの方々に喜ん"
-"でいただけると思います。また、新しいアイテムを追加するために統合されたアプリ"
-"ケーションファインダーも具備しています。"
+"Xfce 4.6 の設定インターフェイスは、新しい <b>Xfce 設定マネージャー</b>にな"
+"り、デスクトップの環境設定がこれまでよりもよりもいっそう行いやすくなりまし"
+"た。これらのダイアログにはアイコンのシングルクリックでアクセスでき、よりコン"
+"パクトに、より直感的かつ速やかにデスクトップのカスタマイズが行えるように設計"
+"されています。"
 
-#: about/tour48.php:62
-msgid "Window buttons plugin"
-msgstr "ウィンドウボタンプラグイン"
+#: about/tour46.php:124
+msgid "Xfce4 Settings Manager"
+msgstr "Xfce4 設定マネージャー"
 
-#: about/tour48.php:64
+#: about/tour46.php:126
+msgid "Accessibility settings"
+msgstr "アクセシビリティの設定"
+
+#: about/tour46.php:128
+msgid "Accessibility settings dialog"
+msgstr "アクセシビリティ設定ダイアログ"
+
+#: about/tour46.php:131
 msgid ""
-"The iconbox and tasklist plugins are new merged into 1 plugin, called window "
-"buttons. It implements different sorting modes, improved handling in "
-"vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
-"a button."
+"The <b>Accessibility settings</b> dialog allows you to set the accessibility "
+"related mouse and keyboard options, such as sticky keys, bounce keys, or "
+"mouse emulation."
 msgstr ""
-"アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されま"
-"した。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボ"
-"タン上にマウスポインタがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠"
-"を描画できるようになりました。"
+"<b>アクセシビリティ設定</b>ダイアログでは、スティッキーキー、バウンスキー、あ"
+"るいはマウスエミュレーションといった、マウスおよびキーボードに関するアクセシ"
+"ビリティの設定が行えます。"
 
-#: about/tour48.php:66
-msgid "New fuzzy clock"
-msgstr "新しいファジー時計"
+#: about/tour46.php:134
+msgid "Appearance settings"
+msgstr "外観の設定"
 
-#: about/tour48.php:68
+#: about/tour46.php:136
+msgid "Appearance settings dialog"
+msgstr "外観の設定ダイアログ"
+
+#: about/tour46.php:139
 msgid ""
-"An Xfce release without a new clock mode would not be a true Xfce release. "
-"Let us introduce you the 'fuzzy' clock mode!"
+"The <b>Appearance settings</b> dialog allows you to set the widget style, "
+"the icon theme, and font, toolbar and menu options."
 msgstr ""
-"新しい時計モードのない Xfce リリースは本当の Xfce リリースとは言えません。そ"
-"して今回の新しい時計モードは、'ファジー' です!"
+"<b>外観の設定</b>ダイアログでは、ウィジェットスタイル、アイコンテーマやフォン"
+"ト、ツールバー、およびメニューオプションの設定が行えます。"
 
-#: about/tour48.php:70
-msgid "New fuzzy clock mode"
-msgstr "新しいファジー時計モード"
+#: about/tour46.php:142
+msgid "Display settings"
+msgstr "ディスプレイの設定"
 
-#: about/tour48.php:72
-msgid "New directory menu plugin"
-msgstr "新しいディレクトリメニュープラグイン"
+#: about/tour46.php:144
+msgid "Display settings dialog"
+msgstr "ディスプレイの設定ダイアログ"
 
-#: about/tour48.php:74
+#: about/tour46.php:147
 msgid ""
-"The directory menu plugin provides a menu reproducing the arborescence of a "
-"particular folder. This allows you to open a terminal or a file manager in a "
-"sub-folder in a very fast and efficient way."
+"The <b>Display settings</b> dialog allows you to set the resolution, refresh "
+"rate, and the rotation for each screen that is connected."
 msgstr ""
-"ディレクトリメニュープラグインは、特定のフォルダーをツリー上に再現したメ"
-"ニューを提供します。これでサブフォルダーの中を速やかかつ効果的にターミナルや"
-"ファイルマネージャーで開くことができます。"
+"<b>ディスプレイ設定</b>ダイアログでは、接続されている画面ごとに、解像度、周波"
+"数、および回転の設定が行えます。"
 
-#: about/tour48.php:76
-msgid "Directory menu plugin"
-msgstr "ディレクトリメニュープラグイン"
+#: about/tour46.php:150
+msgid "Keyboard settings"
+msgstr "キーボードの設定"
 
-#: about/tour48.php:78
-msgid "Applications menu edition"
-msgstr "アプリケーションメニューの編集"
+#: about/tour46.php:152
+msgid "Keyboard settings dialog, layout tab"
+msgstr "キーボードの設定、レイアウトタブ"
 
-#: about/tour48.php:80
+#: about/tour46.php:155
 msgid ""
-"You can now edit the applications menu using any Freedesktop compliant menu "
-"editor, Alacarte being the one we used to test."
+"The <b>Keyboard settings</b> dialog allows you to set keyboard preferences "
+"such as key repeating, keyboard shortcuts, and your keyboard layout."
 msgstr ""
-"freedesktop.org に準拠したメニューエディターでアプリケーションメニューが編集"
-"できるようになりました。わたしたちは Alacarte を使ってテストしています。"
+"<b>キーボード設定</b>ダイアログでは、キーリピート、キーボードショートカット、"
+"およびキーボードレイアウトといったキーボードの設定が行えます。"
 
-#: about/tour48.php:84
-msgid "Improved multihead setup configuration"
-msgstr "マルチヘッド構成設定の改善"
+#: about/tour46.php:158
+msgid "Keyboard settings dialog, shortcuts tab"
+msgstr "キーボードの設定、ショートカットタブ"
 
-#: about/tour48.php:86
+#: about/tour46.php:161
 msgid ""
-"Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
-"driver. Unfortunately, this means it will not work with Nvidia proprietary "
-"drivers."
+"You can now configure shortcuts more simply, and any shortcut conflicts are "
+"automatically detected."
 msgstr ""
-"RandR 1.2 互換のドライバーに対応したマルチヘッド構成の設定が行えるようになり"
-"ました。残念ながら、これは NVIDIA プロプライエタリドライバーでは動作しないこ"
-"とを意味します。"
+"ショートカットの設定はよりシンプルになり、ショートカットの衝突は自動的に検出"
+"されるようになりました。"
 
-#: about/tour48.php:88
+#: about/tour46.php:164
+msgid "Mouse settings"
+msgstr "マウスの設定"
+
+#: about/tour46.php:166
+msgid "Mouse settings dialog"
+msgstr "マウスの設定ダイアログ"
+
+#: about/tour46.php:169
 msgid ""
-"You can enable and disable plugged screens, set their resolution, refresh "
-"rate, rotation and reflection, clone screens or extend desktops."
+"The <b>Mouse settings</b> dialog allows you to configure the different mice "
+"connected to your computer: button order, acceleration, double-click speed, "
+"mouse cursor theme, etcetera..."
 msgstr ""
-"接続されたモニターの有効化および無効化、それらの解像度、リフレッシュレート、"
-"回転、反転、クローン表示あるいは拡張デスクトップの設定が行えます。"
+"<b>マウス設定</b>ダイアログでは、コンピューターに接続されているマウスなどのポ"
+"インティングデバイスごとに、ボタン設定、加速度、ダブルクリック認識、マウス"
+"カーソルのテーマなどが設定できます。"
 
-#: about/tour48.php:90
-msgid "New display settings dialog"
-msgstr "新しいディスプレイの設定ダイアログ"
+#: about/tour46.php:172
+msgid "Desktop settings"
+msgstr "デスクトップの設定"
 
-#: about/tour48.php:92
-msgid "Timed confirmation"
-msgstr "時間内確認"
+#: about/tour46.php:174
+msgid "Desktop settings dialog"
+msgstr "デスクトップの設定ダイアログ"
 
-#: about/tour48.php:94
+#: about/tour46.php:177
 msgid ""
-"Any change made with the settings dialog will have to be confirmed within "
-"ten seconds or they will be reverted. This prevents broken video drivers "
-"from leaving your computer unusable."
+"The <b>Desktop settings</b> dialog is now much more compact; it allows you "
+"to configure per-screen settings: wallpaper, brightness, desktop menu, "
+"displayed icons, etcetera..."
 msgstr ""
-"設定ダイアログで行われたあらゆる変更は、10 秒以内に確認するか、取り消されなけ"
-"ればなりません。これはビデオドライバーの破壊を回避します。"
+"<b>デスクトップの設定</b>ダイアログはよりコンパクトになりました。ここで画面ご"
+"との壁紙、明るさ、デスクトップメニュー、表示アイコンなどの設定が行えます。"
 
-#: about/tour48.php:96
-msgid "Timed confirmation for display settings changes"
-msgstr "ディスプレイ設定の変更の確認"
-
-#: about/tour48.php:98
-msgid "Quick setup dialog"
-msgstr "クイックセットアップダイアログ"
-
-#: about/tour48.php:100
+#: about/tour46.php:183
 msgid ""
-"The quick setup dialog allows you to configure a dual screen setup in a "
-"second. Plug the second screen, press the display key or Windows + p and "
-"select the wanted layout. Done!"
+"<b>Xfce 4.6</b> also comes with a brand new application finder which "
+"features a cleaner user interface.  It is also easier to use it with the "
+"keyboard, and it monitors installed applications to update the list \"on the "
+"fly.\"  It also allows you to create panel launchers quickly by dragging an "
+"application icon to the launcher creation window."
 msgstr ""
-"クイックセットアップダイアログで、複数画面のセットアップがすぐに行なえます。"
-"追加ディスプレイを接続し、ディスプレイキーあるいは Windows + p を押し、レイア"
-"ウトを選択して完了です!"
+"<b>Xfce 4.6</b> では、ユーザーインターフェイスが整理された新しいアプリケー"
+"ションファインダーも用意しました。アプリケーションファインダーは、インストー"
+"ルされたアプリケーションを表示し (リストはキー入力により \"オンザフライ\" で"
+"更新されます)、簡単に検索および起動が行えます。また、アプリケーションアイコン"
+"を、パネルのランチャープラグインの設定ウィンドウにドラッグすることですばやく"
+"パネルランチャーの作成が行えます。"
 
-#: about/tour48.php:102
-msgid "Quick multihead setup"
-msgstr "マルチヘッド構成を素早くセットアップ"
+#: about/tour46.php:186
+msgid "New application finder"
+msgstr "新しいアプリケーションファインダー"
 
-#: about/tour48.php:104
-msgid "Settings edition in the Xfce Settings Editor"
-msgstr "Xfce 設定エディターでの設定の変更"
+#: about/tour46.php:188 about/tour44.php:215
+msgid "Links"
+msgstr "リンク"
 
-#: about/tour48.php:106
+#: about/tour46.php:191 about/tour44.php:218
+msgid "Xfce website"
+msgstr "Xfce ウェブサイト"
+
+#: about/tour46.php:192 about/tour44.php:219
+msgid "Thunar website"
+msgstr "Thunar ウェブサイト"
+
+#: about/tour46.php:198
+msgid "Written by Jérôme Guelfucci (February 2009)"
+msgstr "Written by Jérôme Guelfucci (February 2009)"
+
+#: about/tour46.php:199
+msgid "Screenshots by Jannis Pohlmann"
+msgstr "Screenshots by Jannis Pohlmann"
+
+#: about/tour44.php:1
+msgid "Xfce 4.4 tour"
+msgstr "Xfce 4.4.0のツアー"
+
+#: about/tour44.php:6
 msgid ""
-"The Xfce Settings Editor now deserves its name, it is no longer a simpler "
-"Xfconf settings viewer. You can now modify, delete, add and reset settings "
-"through its interface. It also monitors changes to update its view."
+"As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment "
+"is finally available. I will try to highlight some of the new features which "
+"have been added since the last stable release."
 msgstr ""
-"Xfce 設定エディターは、その名にふさわしいものになり、もう単純な Xfconf 設定"
-"ビューアーではありません。エディター上で、設定の変更、削除、追加、あるいはリ"
-"セットが行えます。また、その表示の更新のため、変更を監視します。"
+"今日、長い間待ちわびられていたXfceデスクトップ環境4.4.0がやっと利用できるよう"
+"になりました。最後の安定版のあとに追加された新しい機能を説明したいと思いま"
+"す。"
 
-#: about/tour48.php:108
-msgid "Editing Xfconf properties with the Settings Editor"
-msgstr "設定エディターを使った Xfconf プロパティの編集"
+#: about/tour44.php:9 about/tour44.php:15
+msgid "Desktop Icons"
+msgstr "デスクトップアイコン"
 
-#: about/tour48.php:110
-msgid "Improved keyboard layout selection"
-msgstr "キーボードレイアウト選択の改善"
-
-#: about/tour48.php:112
+#: about/tour44.php:12
 msgid ""
-"The layout selection dialog received a lot of love: it no longer displays "
-"cryptic language/variants codes but uses localized languages/variants names. "
-"Layout edition was also made easier by prefilling the dialogs with the "
-"current values."
+"One of the most often requested features during the 4.0 and 4.2 was support "
+"for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally "
+"added to the desktop manager <b>Xfdesktop</b>."
 msgstr ""
-"レイアウト選択ダイアログにはたくさんの愛情が注がれました。もう難解な言語/バリ"
-"アントコードをお見せすることはありません。そのかわりローカライズされた言語/バ"
-"リアントを使用します。レイアウトの変更は現在の値が初期値となってダイアログに"
-"表示され、設定しやすくなっています。"
+"4.0と4.2の時に一番よく追加して欲しい機能として聞かれたものの一つとしてはデス"
+"クトップ上のアイコンをサポートして欲しいと言うことでした。Xfce 4.4.0ではこの"
+"機能がようやく<b>Xfdesktop</b>（デスクトップマネージャー）に追加されました。"
 
-#: about/tour48.php:114
-msgid "Layouts and variants list"
-msgstr "レイアウトとバリアントリスト"
+#: about/tour44.php:18
+msgid ""
+"The desktop manager utilizes <b>Thunar</b>'s libraries to handle application "
+"launchers and regular files/folders on the desktop. The desktop manager is "
+"also able to display icons for minimized windows on the desktop, which is "
+"quite a popular feature from the CDE world. Of course, you can disable the "
+"desktop icons altogether if you prefer a clean desktop."
+msgstr ""
+"デスクトップマネージャーは<b>Thunar</b>のライブラリをアプリケーションラン"
+"チャーとデスクトップ上でのファイル/フォルダーを扱うために利用しています。この"
+"デスクトップマネージャーはデスクトップの最小化されたウィンドウのアイコンを表"
+"示できるようにするものです。（この機能はCDEの世界では一番有名な機能です。）勿"
+"論、何もないデスクトップの方が良いと思うのであれば、デスクトップアイコンを完"
+"全に無効にすることもできます。"
+
+#: about/tour44.php:21
+msgid "Desktop Settings"
+msgstr "デスクトップの設定"
+
+#: about/tour44.php:24
+msgid ""
+"<b>Xfdesktop</b> also continues to provide access to the applications menu, "
+"as it did in the previous Xfce releases."
+msgstr ""
+"また、<b>Xfdesktop</b>は引き続き以前からのXfceと同じようにアプリケーションメ"
+"ニューへのアクセスを提供します。"
+
+#: about/tour44.php:31
+msgid ""
+"The desktop icon support goes hand in hand with the new file manager <a href="
+"\"http://thunar.xfce.org/\">Thunar</a> which replaces the previous file "
+"manager <b>Xffm</b>."
+msgstr ""
+"デスクトップアイコンサポートは新しいファイルマネージャーである<a href="
+"\"http://thunar.xfce.org/\">Thunar</a>との連携により提供されます。<b>Thunar</"
+"b>はこれまでのファイルマネージャーであった<b>Xffm</b>を置き換えるものです。"
+
+#: about/tour44.php:37
+msgid ""
+"<b>Thunar</b> was written from scratch to provide an easy to use, but still "
+"very lightweight file manager for Xfce. Its user interface was designed to "
+"look similar to the file chooser which was introduced with GTK+ 2.4, and "
+"other file managers such as <b>Nautilus</b> and <b>pcmanfm</b> already "
+"picked up that idea as well."
+msgstr ""
+"<b>Thunar</b>はXfce用の使い勝手が良い一方で軽量なファイルマネージャーを提供す"
+"るために最初の一歩から書き直されたものです。インターフェイスはすでにGTK+ 2.4"
+"のファイル選択UIや、<b>Nautilus</b>や<b>pcmanfm</b>のようなすでにこの考えを採"
+"用しているファイルマネージャーに似ています。"
+
+#: about/tour44.php:41
+msgid ""
+"<b>Thunar</b> supports all the file management functionality which users "
+"will expect, and also several advanced features. For example, a so-called "
+"<i>Bulk Renamer</i> is included which allows users to rename multiple files "
+"at once using a certain criterion."
+msgstr ""
+"<b>Thunar</b>はユーザーが期待すると思われる全てのファイル管理機能といくつかの"
+"先進的なものをサポートします。たとえば、いわゆる<i>Bulk Renamer</i>はユーザー"
+"が任意の基準を使ってを使って複数のファイルを一度にリネームすることができるも"
+"のを含んでいます。"
+
+#: about/tour44.php:44
+msgid "Thunar Bulk Rename"
+msgstr "Thunar バルクリネーム"
+
+#: about/tour44.php:46
+msgid "Removable Drives and Media"
+msgstr "取り外し可能なドライブとメディア"
+
+#: about/tour44.php:49
+msgid ""
+"Xfce 4.4.0 provides easy access to data on removable drives and media. Just "
+"insert the media into the drive or plug the new drive in to the computer and "
+"an icon representing the removable volume will appear on the desktop and in "
+"<b>Thunar</b>'s side pane."
+msgstr ""
+"Xfce 4.4.0では取り外しができるドライブとメディアにあるデータに簡単にアクセス"
+"できます。メディアをドライブに入れるか新しいドライブをコンピューターに接続す"
+"ると、取り外しができるドライブ/メディアのアイコンがデスクトップ上と"
+"<b>Thunar</b>のウィンドウ枠に表示されます。"
+
+#: about/tour44.php:52
+msgid "Removable Volumes"
+msgstr "取り外し可能なドライブ"
+
+#: about/tour44.php:55
+msgid ""
+"Click on the icon to automatically mount the volume. Right-click the icon to "
+"unmount the drive or eject the media from the drive. Note however that this "
+"feature requires <a href=\"http://freedesktop.org/wiki/Software_2fhal\">HAL</"
+"a> and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above "
+"at the time of this writing (there is limited removable media support for "
+"FreeBSD 4.x and 5.x which does not require HAL)."
+msgstr ""
+"アイコンをクリックすると自動的にドライブやメディアがマウントされます。アイコ"
+"ンを右クリックすることでメディアの取り出しや、ドライブのアンマウントを行うこ"
+"とができます。注意して欲しいことはこの機能を使うためには<ahref=\"http://"
+"freedesktop.org/wiki/Software_2fhal\">HAL</a>が必要であることと、Linux 2.6.x"
+"とFreeBSD 6.x以上でしか、この文書を書いている時点では利用できないことです。"
+"（いくつか制限がありますがFreeBSD 4.xと5.xにはHALを使用しない取り出しできるメ"
+"ディアのサポートがあります。）"
+
+#: about/tour44.php:59
+msgid "Text Editor"
+msgstr "テキストエディター"
+
+#: about/tour44.php:62
+msgid ""
+"The new text editor <b>MousePad</b> is included with this release. "
+"<b>MousePad</b> provides all the basic editor functionality, nothing more, "
+"nothing less."
+msgstr ""
+"新しいテキストエディターである<b>MousePad</b>はこのリリースに含まれています。"
+"<b>MousePad</b>はすべての基本的なエディターの機能（それ以上でもそれ以下でもあ"
+"りません。）を提供しています。"
+
+#: about/tour44.php:65
+msgid "MousePad"
+msgstr "MousePad"
+
+#: about/tour44.php:68
+msgid ""
+"You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on "
+"Windows. It starts up very fast, usually in less than one second, even on "
+"older systems."
+msgstr ""
+"Windowsの<b>NotePad</b>と<b>MousePad</b>は同じようなものだと考えることができ"
+"ます。とても早く（たとえ古いシステム上でも通常一秒以下）起動できますしね。"
+
+#: about/tour44.php:74
+msgid "<b>Xfwm4</b> continues to be the window manager of the hearts."
+msgstr "<b>Xfwm4</b>は相変わらずウィンドウマネージャーの心臓部です。"
+
+#: about/tour44.php:77
+msgid "Xfwm4 ARGB32"
+msgstr "Xfwm4 ARGB32"
+
+#: about/tour44.php:80
+msgid ""
+"This release features an enhanced compositor, supporting transparent ARGB "
+"windows, shadows, window frame transparency and much more."
+msgstr ""
+"このリリースでは拡張された文字制御、透過ARGBウィンドウ、影、ウィンドウフレー"
+"ムの透過や更にその他の機能を特徴としています。"
+
+#: about/tour44.php:83
+msgid "Xfwm4 Switcher"
+msgstr "Xfwm4 スイッチャー"
+
+#: about/tour44.php:86
+msgid ""
+"<b>Xfwm4</b> also includes a brand new application switcher, as shown in the "
+"screenshot above, which displays all windows from the current workspace with "
+"icons and window titles."
+msgstr ""
+"<b>Xfwm4</b>は上のスクリーンショットにあるような新しいアプリケーション切り替"
+"え機能を含んでいます。これはアイコンとウィンドウタイトルを使って現在のワーク"
+"スペースから全てのウィンドウを表示します。"
+
+#: about/tour44.php:89
+msgid "Xfwm4 Themes"
+msgstr "Xfwm4 テーマ"
+
+#: about/tour44.php:92
+msgid ""
+"Further on support for multiple image formats for window decoration themes "
+"was added, including <tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images."
+msgstr ""
+"ウィンドウの装飾テーマ用のイメージフォーマットが追加されました。これには"
+"<tt>PNG</tt>と<tt>GIF</tt>と<tt>SVG</tt>が含まれています。"
+
+#: about/tour44.php:95
+msgid "Xfwm4 Tweaks"
+msgstr "Xfwm4 詳細設定"
+
+#: about/tour44.php:98
+msgid ""
+"Advanced controls for the window manager were also added, allowing thorough "
+"tweaking of window behavior."
+msgstr ""
+"また、より進んだウィンドウコントロールが追加されました。これによりウィンドウ"
+"の動作を完全に調整することができるようになりました。"
+
+#: about/tour44.php:105
+msgid ""
+"The <b>Xfce4-panel</b> was completely rewritten for the Xfce 4.4 release. "
+"Multiple panels are supported <i>out of the box</i> now and can easily be "
+"configured using the new <b>Panel Manager</b> shown in the screenshot below."
+msgstr ""
+"<b>Xfce4-panel</b>は完全にXfce4のリリースのために書き直されました。複数パネル"
+"が <i>out of the box</i>をサポートし、簡単に下のスクリーンショットに表示され"
+"ている<b>Panel Manager</b>を使い設定できるようになりました。"
+
+#: about/tour44.php:108
+msgid "Panel Manager"
+msgstr "パネルマネージャー"
+
+#: about/tour44.php:111
+msgid ""
+"One of the major problems in previous Xfce releases was that every plugin "
+"had to be run in the same process as the panel, and hence every plugin was "
+"able to crash the whole panel. To address this issue, support for external "
+"plugins was added to the panel."
+msgstr ""
+"以前のバージョンまでのXfceでは各々のプラグインがパネルを巻き込んで落ちる可能"
+"性があったという大きな問題がありました。これはそれぞれのプラグインはパネルと"
+"同じプロセスで動いていましために起こっていたことです。その結果、この問題を解"
+"決するために、外部プラグインのサポートがパネルに追加されました。"
+
+#: about/tour44.php:114
+msgid "Panel Add Item Dialog"
+msgstr "アイテムの追加ダイアログ"
+
+#: about/tour44.php:117
+msgid ""
+"Developers of panel plugins can now decide whether the plugin should run as "
+"external process or as part of the panel process, depending on the stability "
+"of the plugin."
+msgstr ""
+"パネルプラグインの開発者はプラグインをほかのプロセスで動かすべきか、パネルの"
+"プロセスの一部として動かすべきかプラグインの安定性に応じて決定することができ"
+"ます。"
+
+#: about/tour44.php:120
+msgid "Panel Icon Box Plugin"
+msgstr "アイコン箱プラグイン"
+
+#: about/tour44.php:123
+msgid ""
+"Since there is now support for multiple panels, the separate <b>Xftaskbar4</"
+"b> and <b>Xfce4-iconbox</b> utilities are no longer required. Instead, both "
+"the taskbar and the iconbox are available as panel plugins now."
+msgstr ""
+"複数のパネルをサポートが追加されたため、<b>Xftaskbar4</b>と<b>Xfce4-iconbox</"
+"b>ユーティリティはもはや必要ありません。そのかわり、タスクバーとアイコンボッ"
+"クスはパネルプラグインとして使うことができます。"
+
+#: about/tour44.php:127
+msgid ""
+"Most of the additional panel plugins, available via the <a href=\"http://"
+"goodies.xfce.org/\">Xfce Goodies Project</a>, have been updated for the new "
+"panel, and several new plugins were added. For example, the brand new "
+"<b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel applets to the "
+"Xfce panel."
+msgstr ""
+"パネルプラグインのほとんどは、 <a href=\"http://goodies.xfce.org/\">Xfce "
+"Goodies Project</a>を通して利用でき、新しいパネル用にアップデートされていま"
+"す。また、いくつかの新しいプラグインが追加されていました。たとえば、新しい"
+"<b>xfce4-xfapplet-plugin</b>はユーザーがGNOMEパネルアプレットをXfceパネルに追"
+"加することができるようになりました。"
+
+#: about/tour44.php:131
+msgid "Time Management"
+msgstr "時間管理"
+
+#: about/tour44.php:134
+msgid ""
+"The new time management application <b>Orage</b> replaces the <b>Xfcalendar</"
+"b>, which was introduced with Xfce 4.2.0. <b>Orage</b> provides several "
+"features to efficiently manage your time."
+msgstr ""
+"新しい時間管理アプリケーション <b>Orage</b>が<b>Xfcalendar</b>(Xfce 4.2.0 で"
+"追加されたもの)を置き換えました。<b>Orage</b>は効果的に時間を管理するための幾"
+"つかの機能を備えています。"
+
+#: about/tour44.php:140
+msgid ""
+"While <b>Orage</b> is very lightweight and easy to use, it supports all the "
+"important features found in larger calendar applications like <b>Outlook</b> "
+"or <b>Evolution</b>. While <b>Xfcalendar</b> used the custom <tt>dbh</tt> "
+"format in the past to store your settings, <b>Orage</b> is based on "
+"<tt>ical</tt> and therefore compatible with other calendar applications."
+msgstr ""
+"<b>Orage</b>はとても軽くて簡単に利用できる一方、肥大したカレンダーアプリケー"
+"ション、たとえば<b>Outlook</b>や<b>Evolution</b>にあるようなすべての重要な機"
+"能をサポートしています。<b>Xfcalendar</b>は過去に<tt>dbh</tt>のカスタムフォー"
+"マットを使って設定を保存していましたが、<b>Orage</b>は<tt>ical</tt>を基礎にし"
+"ています。その結果として、ほかのカレンダーアプリケーションと互換性がありま"
+"す。"
+
+#: about/tour44.php:144
+msgid "Terminal Emulator"
+msgstr "ターミナルミュレーター"
+
+#: about/tour44.php:147
+msgid ""
+"While <b>Terminal</b> was already available during the 4.2 days, it was not "
+"mature enough at that time to be part of the core. With this major release, "
+"it was moved into the core desktop."
+msgstr ""
+"<b>Terminal</b>は4.2時代から使えましたが、コアの一部となるには十分に成熟して"
+"いませんでした。今回の主要リリースにより、コアデスクトップに移動になりまし"
+"た。"
+
+#: about/tour44.php:153
+msgid ""
+"Besides the basic features which you might expect from a terminal emulator, "
+"it includes some nice additional features, like multiple tabs per window, "
+"customizable toolbars and the ability to configure nearly every aspect of "
+"the application via <i>hidden options</i>. As can be seen in the screenshot "
+"above, this release also supports real transparency using <b>Xfwm4</b>'s "
+"integrated composition manager."
+msgstr ""
+"ターミナルミュレーターに期待されると考えられる基本的な機能のほか、幾つかのす"
+"ばらしい機能があります。たとえば、ウィンドウごとにタブがつけられたり、ツール"
+"バーをカスタマイズできたり、<i>hidden options (隠された選択肢)</i>によりほと"
+"んどすべてのアプリケーションの側面を調整できたりします。上のスクリーンショッ"
+"トでみることができるように、このリリースでは<b>Xfwm4</b>にあるコンポジション"
+"マネージャーを使った透過機能がサポートされています。"
+
+#: about/tour44.php:157
+msgid "Printing"
+msgstr "印刷"
+
+#: about/tour44.php:160
+msgid ""
+"<b>Xfprint</b>, the Xfce printing management application, saw several small "
+"improvements with this release. First, the <tt>a2ps</tt> converter is not "
+"mandatory anymore, whilst still recommended. Support for <tt>CUPS</tt> 1.2 "
+"was added and <b>Xfprint</b> is now able to display the printer state with "
+"the <tt>CUPS</tt>-backend."
+msgstr ""
+"<b>Xfprint</b>(Xfce印刷管理アプリケーション)は今回のリリースで幾つかの小さな"
+"改善が行われました。最初に、<tt>a2ps</tt>コンバーターは、必ずしも必要ではなく"
+"なりました。(ただし、使うことを推奨はされています。)<tt>CUPS</tt> 1.2へのサ"
+"ポートが追加され、<b>Xfprint</b>は<tt>CUPS</tt>のバックエンドを使い、プリン"
+"ターの状態を表示することができるようになりました。"
+
+#: about/tour44.php:163
+msgid "Xfce Printing"
+msgstr "Xfce 印刷"
+
+#: about/tour44.php:166
+msgid ""
+"<b>Xfprint</b> also integrates with <b>MousePad</b> to provide generic "
+"printing support for different kinds of text documents using the <tt>a2ps</"
+"tt> converter."
+msgstr ""
+"<b>Xfprint</b>は、<tt>a2ps</tt>コンバーターを使い、幾つかの違った種類のテキス"
+"トドキュメント用の基本的な印刷のサポートを提供するために<b>MousePad</b>と一緒"
+"になっています。"
+
+#: about/tour44.php:169
+msgid "Xfce Print Dialog"
+msgstr "Xfce 印刷ダイアログ"
+
+#: about/tour44.php:172
+msgid ""
+"As you can see the print dialog still looks relatively similar to that of "
+"Xfce 4.2, but the internal workings of the printing support were improved, "
+"especially the <tt>CUPS</tt> support. Besides that, the printing management "
+"functionality was moved to a library, so other applications can use the API "
+"to access the printer configuration."
+msgstr ""
+"見ての通り、印刷ダイアログはXfce 4.2にあったものに比較的似ていますが、印刷サ"
+"ポートの内部の動作は、特に<tt>CUPS</tt>サポートにおいて、改善されました。さら"
+"に、印刷管理の機能性はライブラリに移りました。そのおかげで、ほかのアプリケー"
+"ションもプリンターの設定にアクセスするAPIを利用することができます。"
+
+#: about/tour44.php:176
+msgid "Autostart"
+msgstr "自動起動"
+
+#: about/tour44.php:179
+msgid ""
+"Xfce 4.4.0 implements the new <a href=\"http://freedesktop.org/wiki/"
+"Standards_2fautostart_2dspec\">Autostart Specification</a> - actually Xfce "
+"was the first desktop to implement said feature, but the others were faster "
+"to release. ;-)"
+msgstr ""
+"Xfce 4.4.0では新しい<a href=\"http://freedesktop.org/wiki/"
+"Standards_2fautostart_2dspec\">自動起動の仕様</a>を実装しました。 - 実際Xfce "
+"はこの仕様をはじめて実装したデスクトップですが、リリースしたのは他の方が早"
+"かったのです。;-)"
+
+#: about/tour44.php:182
+msgid "Xfce Autostart Editor"
+msgstr "Xfce 自動起動エディター"
+
+#: about/tour44.php:185
+msgid ""
+"The specification consists of two parts, the <i>Autostart of Applications "
+"During Startup</i>, which is implemented in <b>xfce4-session</b> and the "
+"<i>Autostart Of Applications After Mount</i> which is implemented in <a href="
+"\"http://foo-projects.org/~benny/projects/thunar-volman/index.html\">thunar-"
+"volman</a>. This release also includes the <b>xfce4-autostart-editor</b>, "
+"shown in the screenshot above, which allows users to easily add, remove or "
+"disable autostarted applications."
+msgstr ""
+"その仕様は二つに別れています。それらは<b>xfce4-session</b>に実装されている"
+"<i>Autostart of Applications During Startup (セットアップの間のアプリケーショ"
+"ンの自動起動)</i>と、<a href=\"http://foo-projects.org/~benny/projects/"
+"thunar-volman/index.html\">thunar-volman</a>に実装されている<i>Autostart Of "
+"Appications After Mount(マウント後のアプリケーションの自動起動)</i>です。今回"
+"のリリースでは上のスクリーンショットにある<b>xfce4-autostart-editor</b>を含ん"
+"でいます。これでユーザーは簡単にアプリケーションの追加と削除、またはアプリ"
+"ケーションの自動起動を無効にすることができます。"
+
+#: about/tour44.php:192
+msgid ""
+"This release introduces new options to customize the desktop to your needs. "
+"Some examples of new settings dialogs were already shown in the sections "
+"above."
+msgstr ""
+"今回のリリースでは必要な環境を作るためにデスクトップをカスタマイズする新しい"
+"選択肢が追加されています。新しい設定ダイアログはこれまでのセクションで見るこ"
+"とができます。"
+
+#: about/tour44.php:195
+msgid "Preferred Applications"
+msgstr "お気に入りのアプリケーション"
+
+#: about/tour44.php:198
+msgid ""
+"The preferred applications framework, which was previously only available in "
+"<b>Terminal</b>, was imported into Xfce, so users no longer need to edit "
+"shell profiles to specify which browser and terminal emulator should be used "
+"by Xfce applications. The goal was to make it as easy as possible to change "
+"an application for a certain category (GNOME users may have already noticed "
+"that GNOME adopted this approach, because it is such simple)."
+msgstr ""
+"お気に入りのアプリケーションフレームワーク、<b>Terminal</b>のみで以前は使えた"
+"もの、はXfceにも実装されました。結果、ユーザーはどのブラウザーを使うのかや、"
+"Xfce アプリケーションによって使われるべきターミナルミュレーターを指定したりす"
+"るためにわざわざシェルプロファイルを編集する必要はありません。目標はできるだ"
+"け簡単にカテゴリに応じてアプリケーションを変更できるようにすることでした。"
+"(GNOMEのユーザーはGNOMEがこの考え方を採用していたことに既に気づいていたかも知"
+"れません。とても簡単です。)"
+
+#: about/tour44.php:201
+msgid "Keyboard Shortcuts"
+msgstr "キーボードショートカット"
+
+#: about/tour44.php:204
+msgid ""
+"And then there was the problem with the keyboard shortcuts in Xfce 4.2... "
+"Xfce 4.2 limited the number of freely available keyboard shortcuts, while "
+"people wanted to assign any number of keyboard shortcuts. With Xfce 4.4 this "
+"limitation is history and the application shortcuts are now separated from "
+"the window manager shortcuts."
+msgstr ""
+"またXfce 4.2ではキーボードショートカットに問題がありました…。たくさんの人がた"
+"くさんのキーボードショートカットを割り当てたいと思っていたのにもかかわらず"
+"Xfce 4.2は自由に設定できるキーボードショートカットの数が限られていました。"
+"Xfce4.4では、この制限は過去の話となり、アプリケーションショートカットはウィン"
+"ドウマネージャーショートカットから分けられました。"
+
+#: about/tour44.php:208
+msgid "Feedback"
+msgstr "フィードバック"
+
+#: about/tour44.php:211
+msgid ""
+"Please post comments on this article in my <a href=\"http://xfce-diary."
+"blogspot.com/2007/01/visual-tour-of-xfce-440.html\">blog</a> and use the <a "
+"href=\"/community/lists\">xfce</a> mailinglist if you have questions about "
+"Xfce 4.4.0 or trouble with the installation."
+msgstr ""
+"この記事に関してのコメントを私の<a href=\"http://xfce-diary.blogspot."
+"com/2007/01/visual-tour-of-xfce-440.html\">ブログ</a>に書いてください。何か"
+"Xfce 4.4.0に関しての質問がある場合やインストール中に問題が起こった場合は、ぜ"
+"ひ<a href=\"/community/lists\">xfce</a>のメーリングリストを使ってください。"
+
+#: about/tour44.php:224
+msgid "Written by Benedikt Meurer, 21 Jan 2007"
+msgstr "Written by Benedikt Meurer, 21 Jan 2007"
+
+#: about/credits.php:47
+msgid ""
+"A large number of people contributed to the Xfce project. Although more "
+"people contributed to the project then the ones list below, we'd like to say:"
+msgstr ""
+"多くの方々がこの Xfce プロジェクトに貢献してくださいました。以下のリストやそ"
+"の他多くの貢献者の方々に申し上げます:"
+
+#: about/credits.php:49
+msgid "Thanks to all who helped making this software available!"
+msgstr "このソフトウェアを利用できるよう協力していただいた皆様に感謝します!"
+
+#: about/credits.php:52
+msgid "Core developers"
+msgstr "中心開発者"
+
+#: about/credits.php:63
+msgid "Active contributors"
+msgstr "現在の協力者"
+
+#: about/credits.php:78
+msgid "Servers maintained by"
+msgstr "サーバーの管理"
+
+#: about/credits.php:89
+msgid "Goodies supervision"
+msgstr "Goodies の監修"
+
+#: about/credits.php:95
+msgid "Translations supervision"
+msgstr "翻訳の監修"
+
+#: about/credits.php:102
+msgid "Translators"
+msgstr "翻訳者"
+
+#: about/credits.php:107
+msgid "Previous contributors"
+msgstr "以前の協力者"
+
+#: feed.php:29
+msgid "Xfce News"
+msgstr "Xfce ニュース"
+
+#: feed.php:30
+msgid "Xfce release announcements"
+msgstr "Xfce リリースのお知らせ"
 
 #: news-array.php:10
 msgid "Xfce 4.10 released"
@@ -2971,10 +3528,6 @@ msgid ""
 "a>."
 msgstr ""
 
-#: getinvolved/nav.php:4 getinvolved/index.php:1 header.php:59
-msgid "Get Involved"
-msgstr "参加する"
-
 #: getinvolved/nav.php:7 getinvolved/index.php:18
 #: getinvolved/translation.php:3
 msgid "Translation"
@@ -2983,11 +3536,6 @@ msgstr "翻訳"
 #: getinvolved/nav.php:8
 msgid "information about translating Xfce"
 msgstr "Xfce の翻訳に関する情報"
-
-#: getinvolved/nav.php:14 community/nav.php:1 projects/nav.php:1
-#: download/nav.php:14
-msgid "Related Sites"
-msgstr "関連サイト"
 
 #: getinvolved/nav.php:17 community/nav.php:19
 msgid "Bug Tracker"
@@ -3356,179 +3904,6 @@ msgid ""
 "update the translations online."
 msgstr ""
 
-#: footer.php:6
-#, php-format
-msgid ""
-"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. This page "
-"was last modified on %s."
-msgstr ""
-"Copyright %s <a href=\"/about/credits\">Xfce Development Team</a>. このページ"
-"の最終更新日: %s"
-
-#: frontpage.php:15
-msgid ""
-"The default Xfce Desktop provides a simple and attractive desktop for Unix "
-"users."
-msgstr ""
-"デフォルト Xfce デスクトップ環境は Unix ユーザーにとってシンプルで魅力的なデ"
-"スクトップを提供します。"
-
-#: frontpage.php:18
-msgid ""
-"Thunar is the file manager for the Xfce Desktop. It has been designed from "
-"the ground up to be fast and easy-to-use. Its user interface is clean and "
-"intuitive, and does not include any confusing or useless options by default."
-msgstr ""
-"Thunar は Xfce デスクトップ環境用のファイルマネージャーです。高速で使いやすく"
-"なるよう一から作り上げられました。ユーザーインターフェイスはすっきりと直感的"
-"で、ややこしく無駄なオプションは一切含まれていません。"
-
-#: frontpage.php:21
-msgid ""
-"The Xfce Desktop provides all the required settings to configure your "
-"hardware, desktop appearance and other desktop-critical settings allowing "
-"you to easily manage your system."
-msgstr ""
-"Xfce デスクトップ環境はハードウェア構成、デスクトップの外観、その他のシステム"
-"管理に必要なすべての設定を簡単に行えます。"
-
-#: frontpage.php:24
-msgid ""
-"The Xfce Window Manager is the core of the desktop. It can be tuned to make "
-"window management quick and predictable. It also features around 100 border "
-"styles giving it the look you want!"
-msgstr ""
-"Xfce ウィンドウマネージャーはデスクトップのコアとなるコンポーネントです。ウィ"
-"ンドウ管理を素早く、わかりやすくし、100 以上のスタイルを提供しています!"
-
-#: frontpage.php:27
-msgid ""
-"The Xfce Panel can be customized in numerous ways so it provides all the "
-"items you need right where you need them. It has three different display "
-"modes, transparency and a few dozen different plugins."
-msgstr ""
-"Xfce パネルは数え切れないほど多くの方法でカスタマイズでき、必要なアイテムを必"
-"要な場所に配置することができます。3種類の表示モードと透明化をサポートし、数十"
-"の様々なプラグインが提供されています。"
-
-#: frontpage.php:30
-msgid ""
-"Beside the core desktop functionality, a number of other applications are "
-"developed in the Xfce repositories, like an image viewer, the Midori web "
-"browser, task manager, notes plugin and calendar."
-msgstr ""
-"コアデスクトップの機能の他、画像ビューアー、Midori ウェブブラウザー、タスクマ"
-"ネージャー、メモプラグイン、あるいはカレンダーなど、たくさんのアプリケーショ"
-"ンが Xfce リポジトリで開発されています。"
-
-#: frontpage.php:68 header.php:6
-msgid "Xfce Desktop Environment"
-msgstr "Xfce デスクトップ環境"
-
-#: frontpage.php:73
-msgid "get the source tarballs"
-msgstr "ソース tar ボールの入手"
-
-#: frontpage.php:77
-msgid "ChangeLog"
-msgstr "更新履歴"
-
-#: frontpage.php:78
-#, php-format
-msgid "release notes for Xfce %s"
-msgstr "Xfce %s リリースノート"
-
-#: frontpage.php:82
-#, php-format
-msgid "%s Tour"
-msgstr "%s ツアー"
-
-#: frontpage.php:83
-msgid "visual tour about new features in the latest releases"
-msgstr "最新リリースでの新機能の紹介"
-
-#: frontpage.php:98
-msgid "Latest News"
-msgstr "最新のニュース"
-
-#: 404.php:1
-msgid "Page not found"
-msgstr "ページが見つかりません"
-
-#: 404.php:5
-msgid ""
-"We're sorry, the page or file you requested was not found on this server."
-msgstr ""
-"残念ながら、要求されたページまたはファイルはこのサーバー上に見つかりませんで"
-"した。"
-
-#: 404.php:7
-msgid ""
-"If you clicked on a link that brought you to this page, or you have reached "
-"this page through a search engine or bookmark, it could very well be that "
-"the page you were looking for was removed, renamed or temporary unavailable."
-msgstr ""
-"あなたがこのページへジャンプするリンクをクリックしたか、検索エンジンまたは"
-"ブックマークからそのページに来ようとしたのであれば、そのページは削除された"
-"か、名前が変更されたか、あるいは一時的に利用できなくなっています。"
-
-#: 404.php:10
-msgid ""
-"Please try one of the following methods to find the page you are looking for:"
-msgstr ""
-"あなたがお探しのページを見つけるために、以下の手順のいずれかを試してみてくだ"
-"さい:"
-
-#: 404.php:14
-msgid ""
-"If you typed the page address in the Address bar, make sure that it is "
-"spelled correctly."
-msgstr ""
-"アドレスバーにそのページのアドレスを入力したのであれば、それに打ち間違いがな"
-"いか確認してください。"
-
-#: 404.php:15
-msgid ""
-"Open the <a href=\"/\">Xfce home page</a> and look for links to the "
-"information you want."
-msgstr ""
-"<a href=\"/\">Xfce ホームページ</a>を開いて、あなたがほしい情報へのリンクをお"
-"探しください。"
-
-#: 404.php:16
-msgid "Click the Back button to try another link."
-msgstr "「戻る」ボタンをクリックして他のリンクを試してみてください。"
-
-#: 404.php:20
-msgid ""
-"You can always <a href=\"mailto:webmaster@xfce.org\">ask the webmaster</a> "
-"to assist you with your search, or report the problem in case you think this "
-"is needed."
-msgstr ""
-"あなたの検索を助けるため、あるいはあなたが問題だと思った場合は、いつでも<a "
-"href=\"mailto:webmaster@xfce.org\">ウェブ管理者に問い合わせることができます。"
-"</a>"
-
-#: header.php:53
-msgid "Categories"
-msgstr "カテゴリ"
-
-#: header.php:55
-msgid "Home"
-msgstr "Home"
-
-#: header.php:58 community/index.php:3
-msgid "Community"
-msgstr "コミュニティ"
-
-#: header.php:60 projects/index.php:3
-msgid "Projects"
-msgstr "プロジェクト"
-
-#: header.php:64 header.php:78
-msgid "Change language"
-msgstr "言語の変更"
-
 #: community/nav.php:4 community/index.php:28
 msgid "Forums"
 msgstr "フォーラム"
@@ -3631,301 +4006,48 @@ msgstr ""
 "a> には Xfce に関するすべてのアナウンスが自動的に投稿されます。Facebook、"
 "Twitter、および Google+ にも Xfce のページがあります。"
 
-#: projects/nav.php:4
-msgid "Docs"
-msgstr "Docs"
+#~ msgid ""
+#~ "The Settings Editor has been modified to reload the changed properties "
+#~ "per-cell instead of reloading the entire tree, so it does not collapse "
+#~ "when you modify a property. It also has in-line editing of the values "
+#~ "(for most value types), making it easier to quickly adjust a setting."
+#~ msgstr ""
+#~ "設定エディターはツリー全体のプロパティを再読み込みする方法からセルごとに再"
+#~ "読み込みする方法に修正されました。もうプロパティを変更した時にツリーが折り"
+#~ "畳まれることはありません。また、(ほとんどのデータ型で) 値をインラインで編"
+#~ "集できるようになり、速やかな設定の調整が簡単に行えるようになりました。"
 
-#: projects/nav.php:5
-msgid "online documentation for the core modules of Xfce"
-msgstr "Xfce コアモジュールのオンラインドキュメント"
+#~ msgid ""
+#~ "A lot of people ask for an editor to manage their file associations in "
+#~ "the last couple of years, so there is it is: a simple MIME Type Editor. "
+#~ "The editor does not allow to modify MIME information (add/remove types or "
+#~ "modify icons), but allows you to easily assign a default application to a "
+#~ "type, show your local modifications and reset to the default."
+#~ msgstr ""
+#~ "ここ数年、たくさんの方々からファイルタイプへのアプリケーション割り当てを管"
+#~ "理するエディターに関する要望を受けたことから、シンプルな MIME タイプエディ"
+#~ "ターを提供しました。このエディターは MIME 情報の変更 (タイプの追加/削除あ"
+#~ "るいはアイコンの変更) は行えませんが、タイプごとのデフォルトアプリケーショ"
+#~ "ンを簡単に割り当てることができ、ローカル変更の識別および初期値へのリセット"
+#~ "が行えます。"
 
-#: projects/nav.php:9 download/nav.php:32
-msgid "Goodies"
-msgstr "Goodies"
+#~ msgid "List of all the MIME types matching the filter"
+#~ msgstr "フィルターにマッチしたすべての MIME タイプの一覧。"
 
-#: projects/nav.php:10 download/nav.php:33
-msgid "wiki with information on additional software for Xfce"
-msgstr "Xfce 用拡張ソフトウェア情報 wiki"
+#~ msgid ""
+#~ "Xfdesktop also has a new default background and all old backgrounds have "
+#~ "been removed from the package."
+#~ msgstr ""
+#~ "Xfdesktop では新しいデフォルトの背景が採用され、過去のすべての背景はパッ"
+#~ "ケージから除去されました。"
 
-#: projects/index.php:7
-msgid "Learn&nbsp;More&nbsp;&rarr;"
-msgstr "もっと詳しく&nbsp;&rarr;"
-
-#: projects/index.php:12
-msgid ""
-"The Xfce project contains several separated projects for each part of the "
-"desktop. Every project has it's own project page to provide additionnal "
-"information."
-msgstr ""
-"Xfce プロジェクトには、デスクトップの各部を担当するいくつかのプロジェクトがあ"
-"ります。各プロジェクトは詳しい情報を提供するページを用意しています。"
-
-#: projects/index.php:20
-msgid ""
-"It manages the placement of application windows on the screen, provides "
-"window decorations and manages workspaces or virtual desktops."
-msgstr ""
-"画面上のアプリケーションウィンドウの配置を管理し、ウィンドウ枠とワークスペー"
-"スや仮想デスクトップを提供します。"
-
-#: projects/index.php:27
-msgid ""
-"The panel is a bar which allows you to have at all times program launchers, "
-"panel menus, a clock, a desktop switcher and more."
-msgstr ""
-"パネルとは、プログラムの起動、パネルメニューや時刻の表示、デスクトップの切り"
-"換えなどを行える、常駐するバーのことです。"
-
-#: projects/index.php:37
-msgid ""
-"This program sets the background image and provides a root window menu, "
-"desktop icons or minimized icons and a windows list."
-msgstr ""
-"背景画像を設定し、ルートウィンドウメニュー、デスクトップアイコンや最小化アイ"
-"コン、およびウィンドウリストを提供します。"
-
-#: projects/index.php:44
-msgid ""
-"The session manager controls all aspects of the startup and the shutdown of "
-"the user session."
-msgstr "ユーザーセッションの開始から終了までをすべての面から管理します。"
-
-#: projects/index.php:54
-msgid "It allows you to configure every detail of your desktop environment."
-msgstr "デスクトップ環境のあらゆる詳細設定を行えます。"
-
-#: projects/index.php:61
-msgid ""
-"Allows you to search, launch and find information about applications "
-"installed on your system."
-msgstr ""
-"システムにインストールされているアプリケーションの検索、起動、情報の表示が行"
-"えます。"
-
-#: projects/index.php:69
-msgid "Xfce Libraries"
-msgstr "Xfce ライブラリ"
-
-#: projects/index.php:71
-msgid ""
-"They provide additional functions and widgets which ease the development of "
-"applications."
-msgstr ""
-"アプリケーション開発を容易にする追加機能やウィジェットを提供しています。"
-
-#: projects/index.php:78
-msgid "Simple client-server configuration storage and query system."
-msgstr "シンプルなクライアント―サーバー型設定格納・問い合わせシステムです。"
-
-#: projects/index.php:88
-msgid ""
-"Thunar is a new modern file manager designed from the ground up to be fast "
-"and easy-to-use."
-msgstr ""
-"Thunar はモダンなファイルマネージャーです。軽快で簡単に使えることを目標に一か"
-"ら設計されました。"
-
-#: projects/index.php:95
-msgid "Applications"
-msgstr "アプリケーション"
-
-#: projects/index.php:98
-msgid "Web Browser"
-msgstr "ウェブブラウザー"
-
-#: projects/index.php:100
-msgid "Midori is a lightweight Web browser."
-msgstr "Midori は軽快なウェブブラウザーです。"
-
-#: projects/index.php:107
-msgid ""
-"Terminal is a modern terminal emulator featuring tabs and transparent "
-"backgrounds."
-msgstr ""
-"Terminal はタブや背景の透明化を特徴とするモダンなターミナルミュレーターです。"
-
-#: projects/index.php:116
-msgid "Xfburn"
-msgstr "Xfburn"
-
-#: projects/index.php:118
-msgid "Xfburn is an application to create and burn CD's and DVD's."
-msgstr "Xfburn は CD や DVD を作成するアプリケーションです。"
-
-#: projects/index.php:124
-msgid "A simple calendar application with reminders."
-msgstr "Orage はシンプルな通知機能付きのカレンダーアプリケーションです。"
-
-#: projects/index.php:132
-msgid "Mixer"
-msgstr "ミキサー"
-
-#: projects/index.php:134
-msgid "Allows you to change the volume of the different audio tracks."
-msgstr "様々なオーディオトラックの音量を調節できます。"
-
-#: projects/index.php:138
-msgid "Image Viewer"
-msgstr "画像ビューアー"
-
-#: projects/index.php:140
-msgid "Ristretto is a lightweight image viewer."
-msgstr "Ristretto は軽量の画像ビューアーです。"
-
-#: download/changelogs/index.php:3 download/nav.php:7
-msgid "Changelogs"
-msgstr "更新履歴"
-
-#: download/changelogs/index.php:6
-msgid "Xfce 4.10"
-msgstr "Xfce 4.10"
-
-#: download/changelogs/index.php:47
-msgid ""
-"Xfce release notes are specific to each version. Select your version from "
-"the list below to see the changes in the release. "
-msgstr ""
-"Xfce リリースノートは各バージョンごとに用意されています。以下のリストから、リ"
-"リースごとの変更点を確認できます。"
-
-#: download/nav.php:8
-msgid "release notes of each Xfce release"
-msgstr "各 Xfce リリースのリリースノート"
-
-#: download/nav.php:17
-msgid "Archive"
-msgstr "アーカイブ"
-
-#: download/nav.php:18
-msgid "the Xfce download archive"
-msgstr "Xfce アーカイブのダウンロード"
-
-#: download/nav.php:22
-msgid "Building"
-msgstr "ビルド"
-
-#: download/nav.php:23
-msgid "documentation on building Xfce from source"
-msgstr "Xfce のソースからのビルド手順"
-
-#: download/nav.php:27
-msgid "GIT"
-msgstr "GIT"
-
-#: download/nav.php:28
-msgid "browse the source repositories"
-msgstr "ソースリポジトリの閲覧"
-
-#: download/index.php:12
-msgid ""
-"Most distributions ship with Xfce in their own packaging format, but if you "
-"want a newer version or you want to build Xfce from scratch, you can find "
-"the packages below. Instructions how to compile Xfce can be found <a href="
-"\"http://docs.xfce.org/xfce/building\" class=\"external\">here</a>."
-msgstr ""
-"ほとんどのディストリビューションはそれぞれのパッケージ形式で Xfce を提供して"
-"いますが、より新しいバージョンを使いたい、あるいは Xfce を自分で一からビルド"
-"したい場合は、以下のパッケージを使用できます。コンパイル手順の説明は<a href="
-"\"http://docs.xfce.org/xfce/building\" class=\\\"external\\\">こちら</a>で"
-"す。"
-
-#: download/index.php:15
-#, php-format
-msgid "Stable release %s"
-msgstr "安定版リリース %s"
-
-#: download/index.php:18
-#, php-format
-msgid ""
-"Xfce %s is the most recent version of the Xfce desktop environment. You can "
-"find the changes in this release <a href=\"/download/changelogs/%s\">here</"
-"a>."
-msgstr ""
-"Xfce %s は Xfce デスクトップ環境の最新バージョンです。このリリースでの変更内"
-"容は<a href=\"/download/changelogs/%s\">こちら</a>をご覧ください。"
-
-#: download/index.php:25
-msgid "Individual releases"
-msgstr "個別のリリース"
-
-#: download/index.php:27
-msgid ""
-"Each package in Xfce can make individual stable or development releases, "
-"including the core packages (as described in the <a href=\"/about/"
-"releasemodel\">release model</a>). You can follow the announcements of the "
-"releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, "
-"watch the <a href=\"http://archive.xfce.org/feeds/project/\">release feeds</"
-"a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
-"a>."
-msgstr ""
-"Xfce のコアパッケージを含む各パッケージはそれぞれの安定版または開発版リリース"
-"を個別に作成できます (<a href=\"/about/releasemodel\">リリースモデル</a>を参"
-"照してください)。リリースのお知らせは <a href=\"/community/lists\">Xfce "
-"users mailing list</a>、<a href=\"http://archive.xfce.org/feeds/project/"
-"\">release feeds</a>、あるいは Xfce <a href=\"http://identi.ca/xfce\">identi."
-"ca channel</a> で行われます。"
-
-#: download/index.php:35
-#, php-format
-msgid "Preview release %s"
-msgstr "プレビューリリース %s"
-
-#: download/index.php:37
-#, php-format
-msgid ""
-"Xfce %s is the latest development release of the Xfce desktop environment. "
-"This release should not be used in a production environments. If you are "
-"uncertain about downloading this release, you should probably use the <a "
-"href=\"#stable\">stable release</a> above. You can find the changes in this "
-"release <a href=\"/download/changelogs/%s\">here</a>."
-msgstr ""
-"Xfce %s は Xfce デスクトップ環境の最新の開発版リリースです。これを実稼働環境"
-"で使用すべきではありません。もしこのリリースをダウンロードすることに不安を覚"
-"えるのであれば、上の<a href=\"#stable\">安定版リリース</a>を使用してくださ"
-"い。このリリースでの変更内容は<a href=\"/download/changelogs/%s\">こちら</a>"
-"をご覧ください。"
-
-#: download/index.php:46
-msgid "Distributions"
-msgstr "ディストリビューション"
-
-#: download/index.php:48
-msgid ""
-"A lot of different distributions provide Xfce packages. Popular examples "
-"build around Xfce are <a href=\"http://www.xubuntu.org/\">Xubuntu</a>, the "
-"<a href=\"http://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a> and <a "
-"href=\"http://www.zenwalk.org/\">Zenwalk</a>, but there is a good chance "
-"your favorite distro provides packages as well."
-msgstr ""
-"多くの様々なディストリビューションが Xfce パッケージを提供しています。よく知"
-"られているものとして <a href=\"http://www.xubuntu.org/\">Xubuntu</a>、<a "
-"href=\"http://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a>、および "
-"<a href=\"http://www.zenwalk.org/\">Zenwalk</a> などがありますが、おそらくあ"
-"なたのお気に入りのディストリビューションでも同じように提供しているでしょう。"
-
-#: download/index.php:51
-#, php-format
-msgid ""
-"You can fine a more complete list at <a href=\"http://distrowatch.com/search."
-"php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
-msgstr ""
-"より完全なリストは <a href=\"http://distrowatch.com/search.php?"
-"pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a> をご覧ください。"
-
-#: download/index.php:54
-msgid "Artwork"
-msgstr "アートワーク"
-
-#: download/index.php:56
-#, php-format
-msgid ""
-"You can download the Xfce artwork tarball <a href=\"%s\">here</a>. It "
-"contains some high-quality logos and banners. Copying of the Xfce logo is "
-"subject to the LGPL copyright license."
-msgstr ""
-"<a href=\"%s\">こちら</a>から Xfce アートワークの tar ボールをダウンロードで"
-"きます。この中にはいくつかの高品質なロゴとバナーがあります。Xfce ロゴのライセ"
-"ンスは LGPL になります。"
+#~ msgid ""
+#~ "Xfwm4 has optional support for tiling when you drag a window to the "
+#~ "screen edge. The tab window (Alt+Tab) has better theming options and "
+#~ "arrow key navigation."
+#~ msgstr ""
+#~ "Xfwm4 はウィンドウを画面端にドラッグした時にタイル表示するオプションが新た"
+#~ "にサポートされました。"
 
 #~ msgid "Rows"
 #~ msgstr "列"
