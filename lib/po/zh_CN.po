@@ -1275,7 +1275,7 @@ msgid ""
 "covers the visual part of what has been done; for the full list of changes, "
 "see the <a href=\"/download/changelogs/\">changelogs</a>."
 msgstr ""
-"此导航向您介绍 Xfce 4.10 的主要新功能。这仅是用户可见的已完成的部分；"
+"此导航向您介绍 Xfce 4.10 的主要新功能。它仅涉及用户可见的已完成的部分；"
 "参看 <a href=\"/download/changelogs/\">更改日志</a> 上的完整更改列表。"
 
 #: about/tour.php:7
@@ -1335,8 +1335,8 @@ msgid ""
 "while others, like window buttons are allowed to occupy full width of the "
 "panel."
 msgstr ""
-"在 4.10 中有一个单面板宽度的选项用于配置面板的行数。一些插件(如 "
-"<em>启动器</em>)适合单行，其它的插件，如窗口按钮，却可以占用整个面板宽度。"
+"在 4.10 中有一个单一面板范围的选项用于配置面板的行数。一些插件(如 "
+"<em>启动器</em>)适合单行，其它的插件，如窗口按钮，却可以占用整个面板区域。"
 
 #: about/tour.php:29
 msgid "A horizontal panel with a number of rows set to three"
@@ -1373,7 +1373,7 @@ msgstr "xfce4-session 软件包中的会话插件已经与一个重写的 <em>�
 
 #: about/tour.php:41
 msgid "Action plugin in a menu mode (left), and in a button mode (right)"
-msgstr "菜单模式(左)，按钮模式(右)中的动作插件"
+msgstr "菜单模式(左)和按钮模式(右)中的动作插件"
 
 #: about/tour.php:43
 msgid "Window Buttons"
@@ -1409,7 +1409,7 @@ msgid ""
 "Xfce4-tips has been removed and the session manager can now lock the screen "
 "before suspending or hibernating the system."
 msgstr ""
-"<em>会话管理器</em>&apos;s 的设置对话框现在有一个用于清除已保存会话(不再是 rm -r "
+"<em>会话管理器</em> 的设置对话框现在有一个用于清除已保存会话(不再是 rm -r "
 "~/.config/sessions)的按钮。Xfce 启动提示已经移除，会话管理器现在能够"
 "在系统挂起或休眠前锁住屏幕。"
 
@@ -1429,7 +1429,7 @@ msgid ""
 "services can be started independently from each other."
 msgstr ""
 "另一个显著的更改是 Gnome 和 KDE 兼容性运作的方式。兼容性复选框只启用"
-"那些服务，它们在其它应用程序(Gnome 的 <em>gnome-keyring</em> 和 "
+"那些服务，它们必须在其它应用程序(Gnome 的 <em>gnome-keyring</em> 和 "
 "<em>gconf</em>，KDE 的 <em>kdeinit</em>)前启动。其它的自启动应用"
 "程序都可以从 <strong>应用程序自启动</strong> 那里启动，但为了与 Xfce "
 "应用程序区别开来，它们使用斜体列出且默认没有启用。不像先前版本的 Xfce，"
@@ -1456,7 +1456,7 @@ msgid ""
 "xfsettingsd, which now handles all system settings."
 msgstr ""
 "Xfce 4.8 使用两个进程用于设置：<tt>xfce4-settings-helper</tt> "
-"和 <tt>xfsettingsd</tt>。在 4.10 中它们已经合并为 xfsettingsd 中，"
+"和 <tt>xfsettingsd</tt>。在 4.10 中它们已经合并为 xfsettingsd，"
 "它现在处理所有系统设置。"
 
 #: about/tour.php:69
@@ -1519,7 +1519,7 @@ msgid ""
 "or remove types and change icons)."
 msgstr ""
 "在过去的若干年里，很多人都在寻找一个用于管理文件组的工具。此新 "
-"<em>Mime 类型编辑器</em> 就是那个。它让您可以轻松地为某种文件类型分配"
+"<em>Mime 类型编辑器</em> 就是那个。它让您能轻松地为某种文件类型分配"
 "一个默认应用程序、照看您的更改并在需要时将其重置为默认设置。注意"
 "它不允许您更改系统 Mime 类型定义(添加或移除类型和更改图标)。"
 
@@ -1541,9 +1541,9 @@ msgid ""
 "wiki."
 msgstr ""
 "<em>鼠标和触摸板</em> 对话框能够在图形界面中处理基本的触摸板和"
-"数位板属性。一个在后台运行的设置守护进程处理所有种类的设备属性，备注在 "
+"数位板属性。一个在后台运行的设置守护进程处理所有种类的设备属性，在 "
 "<a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">"
-"鼠标设置</a> 百科中。"
+"鼠标设置</a> 百科中有此文档。"
 
 #: about/tour.php:91
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
@@ -2060,9 +2060,8 @@ msgstr ""
 "选中的通知图标以便您的通知区域简洁易读。"
 
 #: about/tour46.php:35
-#, fuzzy
 msgid "Sound Mixer"
-msgstr "新的混音器"
+msgstr "混音器"
 
 #: about/tour46.php:38
 msgid ""
@@ -2423,7 +2422,6 @@ msgstr ""
 "然，如果您偏爱空白桌面，您也可以完全禁用此桌面图标。"
 
 #: about/tour44.php:21
-#, fuzzy
 msgid "Desktop Settings"
 msgstr "桌面设置"
 
@@ -2467,9 +2465,8 @@ msgstr ""
 "在内。"
 
 #: about/tour44.php:44
-#, fuzzy
 msgid "Thunar Bulk Rename"
-msgstr "文件管理器"
+msgstr "Thunar 批量重命名"
 
 #: about/tour44.php:46
 msgid "Removable Drives and Media"
@@ -2590,9 +2587,8 @@ msgstr ""
 "可以使用下面所示的新 <b>面板管理器</b> 轻松地配置。"
 
 #: about/tour44.php:108
-#, fuzzy
 msgid "Panel Manager"
-msgstr "文件管理器"
+msgstr "面板管理器"
 
 #: about/tour44.php:111
 msgid ""
@@ -2605,9 +2601,8 @@ msgstr ""
 "插件都能摧毁整个面板。已在面板中添加了纠正此问题的外部支持插件。"
 
 #: about/tour44.php:114
-#, fuzzy
 msgid "Panel Add Item Dialog"
-msgstr "面板项目编辑器"
+msgstr "面板添加项目对话框"
 
 #: about/tour44.php:117
 msgid ""
@@ -2713,9 +2708,8 @@ msgstr ""
 "持，<b>Xfprint</b> 现在能够用 <tt>CUPS</tt> 后端显示打印状态。"
 
 #: about/tour44.php:163
-#, fuzzy
 msgid "Xfce Printing"
-msgstr "打印"
+msgstr "Xfce 打印"
 
 #: about/tour44.php:166
 msgid ""
@@ -2727,9 +2721,8 @@ msgstr ""
 "类的文本文档提供一般打印支持。"
 
 #: about/tour44.php:169
-#, fuzzy
 msgid "Xfce Print Dialog"
-msgstr "Xfce 设置对话框"
+msgstr "Xfce 打印对话框"
 
 #: about/tour44.php:172
 msgid ""
@@ -2759,9 +2752,8 @@ msgstr ""
 "能的桌面，但其它桌面发布得更快。;-)"
 
 #: about/tour44.php:182
-#, fuzzy
 msgid "Xfce Autostart Editor"
-msgstr "自启动"
+msgstr "Xfce 自启动编辑器"
 
 #: about/tour44.php:185
 msgid ""
@@ -2789,9 +2781,8 @@ msgstr ""
 "上节中显示。"
 
 #: about/tour44.php:195
-#, fuzzy
 msgid "Preferred Applications"
-msgstr "应用程序"
+msgstr "首选应用程序"
 
 #: about/tour44.php:198
 msgid ""
@@ -2808,9 +2799,8 @@ msgstr ""
 "能已注意到 GNOME 采用了此办法，因为它是如此简单。)"
 
 #: about/tour44.php:201
-#, fuzzy
 msgid "Keyboard Shortcuts"
-msgstr "键盘设置"
+msgstr "键盘快捷键"
 
 #: about/tour44.php:204
 msgid ""
@@ -2892,19 +2882,17 @@ msgid "Xfce release announcements"
 msgstr "Xfce 发行公告"
 
 #: news-array.php:10
-#, fuzzy
 msgid "Xfce 4.10 released"
-msgstr "Xfce 4.8 发布了"
+msgstr "Xfce 4.10 发布了"
 
 #: news-array.php:15
-#, fuzzy
 msgid ""
 "Today, after 1 year of work, we have the special pleasure of announcing the "
 "much awaited release of Xfce 4.10, the new stable version that supersedes "
 "Xfce 4.8."
 msgstr ""
-"今天，近乎两年的工作后，我们特别高兴地宣布众所期盼的、新的取代 Xfce 4.6 的、"
-"稳定版 Xfce 4.8 发布了。"
+"今天，一年的工作后，我们特别高兴地宣布众所期盼的、新的取代 Xfce 4.8 的、"
+"稳定版 Xfce 4.10 发布了。"
 
 #: news-array.php:17
 msgid "Xfce 4.10pre2 released"
