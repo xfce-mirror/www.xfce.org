@@ -100,8 +100,8 @@
 
   <?php print_figure ("about/tour/4.10/xfdesktop.png", R_("Desktop with image thumbnails and support for single-click operation.")) ?>
 
-  <p><?php E_("Xfdesktop is now shipped with a new set of background images.") ?></p>
+  <p><?php E_("Xfdesktop is now shipped with a new default background image.") ?></p>
 
 <h2><?php E_("Window Manager") ?> <em>(xfwm4)</em></h2>
 
-  <p><?php E_("Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is automatically disabled when <strong>Wrap workspaces when dragging</strong> is used. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab).") ?></p>
+  <p><?php E_("Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab).") ?></p>
