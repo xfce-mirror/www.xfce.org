@@ -92,7 +92,7 @@
 
   <h3><?php E_("Appearance Settings") ?></h3>
 
-    <p><?php E_("In 4.10 you can drag and drop a tarball with a downloaded theme onto the <em>style</em> or <em>icon</em> list. Xfce will attempt to extract and install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory.") ?></h3>
+    <p><?php E_("In 4.10 you can drag and drop a tarball with a downloaded theme onto the <em>style</em> or <em>icon</em> list. Xfce will attempt to extract and install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory.") ?></p>
 
 <h2><?php E_("Desktop Manager") ?> <em> (xfdesktop)</em></h2>
 
