@@ -1,15 +1,4 @@
-<?php
-
-$head['title'] = R_('Xfce 4.10 tour');
-
-function print_img ($file, $title)
-{
-  global $static_media;
-
-  echo '<div class="image"><div><img src="'.$static_media.'/about/tour/4.10/'.$file.'.png" alt="'.$file.'"" /></div>'.$title.'</div>';
-}
-
-?>
+<?php $head['title'] = R_('Xfce 4.10 tour'); ?>
 
 <h1><?php echo $head['title'] ?></h1>
 
@@ -19,7 +8,7 @@ function print_img ($file, $title)
 
   <p><?php E_("During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. The reason for this change is to make <a href=\"http://docs.xfce.org/wiki/documentation\">contributing</a> and updating the documentation easier.") ?></p>
 
-  <?php print_img ("online-help", R_("When you click a Help button Xfce will ask you to go to an online wiki page.")) ?>
+  <?php print_figure ("about/tour/4.10/online-help.png", R_("When you click a Help button Xfce will ask you to go to an online wiki page.")) ?>
 
   <p><?php E_("We hope that with the introduction of the wiki it will be easier for developers and contributors to maintain the documentation.") ?></p>
 
@@ -27,9 +16,9 @@ function print_img ($file, $title)
 
   <p><?php E_("The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.") ?></p>
 
-  <?php print_img ("appfinder-collapsed", R_("Collapsed view of the Application Finder.")) ?>
+  <?php print_figure ("about/tour/4.10/appfinder-collapsed.png", R_("Collapsed view of the Application Finder.")) ?>
 
-  <?php print_img ("appfinder-expanded", R_("Expanded view of the Application Finder.")) ?>
+  <?php print_figure ("about/tour/4.10/appfinder-expanded.png", R_("Expanded view of the Application Finder.")) ?>
 
 <h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
 
@@ -37,19 +26,19 @@ function print_img ($file, $title)
 
     <p><?php E_("In 4.10 there is a single panel-wide option for configuring the number of  rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, while others, like window buttons are allowed to occupy full width of the panel.") ?></p>
 
-    <?php print_img ("panel-rows", R_("A horizontal panel with a number of rows set to three.")) ?>
+    <?php print_figure ("about/tour/4.10/panel-rows.png", R_("A horizontal panel with a number of rows set to three.")) ?>
 
   <h3><?php E_("Deskbar Mode") ?></h3>
 
     <p><?php E_("The panel features a new configuration called a <em>deskbar</em> mode. In the deskbar  mode the panel is aligned vertically, just like in the vertical mode, but the plugins are laid out horizontally. With multiple rows, it allows creating wide vertical panels suitable for wide-screen setups.") ?></p>
 
-    <?php print_img ("panel-deskbar", R_("A panel in Deskbar mode with a number of rows set to five.")) ?>
+    <?php print_figure ("about/tour/4.10/panel-deskbar.png", R_("A panel in Deskbar mode with a number of rows set to five.")) ?>
 
   <h3><?php E_("Actions Plugin") ?></h3>
 
     <p><?php E_("Session plugin from the xfce4-session package has been merged with a rewritten <em>actions</em> plugin") ?></p>
 
-    <?php print_img ("panel-actions", R_("Action plugin in a menu mode (left), and in a button mode (right).")) ?>
+    <?php print_figure ("about/tour/4.10/panel-actions.png", R_("Action plugin in a menu mode (left), and in a button mode (right).")) ?>
 
   <h3><?php E_("Window Buttons") ?></h3>
 
@@ -67,7 +56,7 @@ function print_img ($file, $title)
 
     <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable services, which have to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are available from <strong>Applications Autostart</strong>, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started independently from each other.") ?></p>
 
-    <?php print_img ("session-autostart", R_("Applications, which are not a part of Xfce, are listed using an italic font.")) ?>
+    <?php print_figure ("about/tour/4.10/session-autostart.png", R_("Applications, which are not a part of Xfce, are listed using an italic font.")) ?>
 
 <h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
 
@@ -79,7 +68,7 @@ function print_img ($file, $title)
 
     <p><?php E_("The new <em>settings manager</em> groups configuration dialogs in categories and allows you to search for their names or descriptions. Most of the dialogs are also now embedded in the settings manager window (this was a compile-time option in Xfce 4.8).") ?></p>
 
-    <?php print_img ("settings-manager", R_("The settings manager with icons grouped by category and a search filter applied.")) ?>
+    <?php print_figure ("about/tour/4.10/settings-manager.png", R_("The settings manager with icons grouped by category and a search filter applied.")) ?>
 
   <h3><?php E_("Settings Editor") ?></h3>
 
@@ -87,19 +76,19 @@ function print_img ($file, $title)
 
     <p><?php E_("Using settings editor you can also monitor changes of settings in a selected channel. Right-click on a channel in the main window, and select <strong>Monitor</strong> to display the monitor window.") ?></p>
 
-    <?php print_img ("settings-editor", R_("Settings editor with an open channel monitor, while editing a property in-place.")) ?>
+    <?php print_figure ("about/tour/4.10/settings-editor.png", R_("Settings editor with an open channel monitor, while editing a property in-place.")) ?>
 
   <h3><?php E_("MIME Type Editor") ?></h3>
 
     <p><?php E_("In the last couple of years, many people were asking for a tool to manage their file type associations. The new <em>MIME type editor</em> does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons).") ?></p>
 
-    <?php print_img ("settings-mime", R_("MIME types matching a pattern and a menu for selecting a default application.")) ?>
+    <?php print_figure ("about/tour/4.10/settings-mime.png", R_("MIME types matching a pattern and a menu for selecting a default application.")) ?>
 
   <h3><?php E_("Mouse and Touchpad") ?></h3>
 
     <p><?php E_("The <em>mouse and touchpad</em> dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki.") ?></p>
 
-    <?php print_img ("settings-mouse", R_("Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog")) ?>
+    <?php print_figure ("about/tour/4.10/settings-mouse.png", R_("Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog")) ?>
 
   <h3><?php E_("Appearance Settings") ?></h3>
 
@@ -109,7 +98,7 @@ function print_img ($file, $title)
 
   <p><?php E_("Although the initial plan for Xfce 4.10 was to integrate desktop handling in Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop has gained support for single-click operation, automated background image cycling and thumbnail rendering.") ?></p>
 
-  <?php print_img ("xfdesktop", R_("Desktop with image thumbnails and support for single-click operation.")) ?>
+  <?php print_figure ("about/tour/4.10/xfdesktop.png", R_("Desktop with image thumbnails and support for single-click operation.")) ?>
 
   <p><?php E_("Xfdesktop is now shipped with a new set of background images.") ?></p>
 

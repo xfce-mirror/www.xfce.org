@@ -68,11 +68,9 @@ $head['title'] = R_('Release Model');
   <?php E_('Below you can see a graphical timeline of an example release cycle and maintenance process for Xfce 4.8 with three components: Thunar, exo and xfwm4.') ?>
 </p>
 
-<p>
-  <a href="<?php echo $static_media; ?>/about/releasemodel/example-release-cycle.svg">
-    <img src="<?php echo $static_media; ?>/about/releasemodel/example-release-cycle.png" title="<?php E_('Example Release Cycle') ?>" alt="" />
-  </a>
-</p>
+<?php print_figure ('about/releasemodel/example-release-cycle.png',
+                    R_('Example Release Cycle'),
+                    $static_media.'/about/releasemodel/example-release-cycle.svg') ?>
 
 <h2><?php E_('Planning Phase (2(+2) Weeks)') ?></h2>
 
@@ -194,11 +192,9 @@ $head['title'] = R_('Release Model');
   <?php E_('This is how the basic development workflow looks like:') ?>
 </p>
 
-<p>
-  <a href="<?php echo $static_media; ?>/about/releasemodel/feature-branching.svg">
-    <img src="<?php echo $static_media; ?>/about/releasemodel/feature-branching.png" title="<?php E_('Development Workflow') ?>" alt="" />
-  </a>
-</p>
+<?php print_figure ('about/releasemodel/feature-branching.png', 
+                    R_('Development Workflow'),
+                    $static_media.'/about/releasemodel/feature-branching.svg') ?>
 
 <h2><?php E_('Release Phase (10+ Weeks)') ?></h2>
 
@@ -263,11 +259,9 @@ $head['title'] = R_('Release Model');
   <?php E_('The code freeze and its exceptions are supported by commit hooks. There is an update hook which doesn\'t allow any changes to master unless they are signed off by the release manager. ') ?>
 </p>
 
-<p>
-  <a href="<?php echo $static_media; ?>/about/releasemodel/code-freeze-branching.svg">
-    <img src="<?php echo $static_media; ?>/about/releasemodel/code-freeze-branching.png" title="<?php E_('Tagging and Branching for Releases') ?>" alt="" />
-  </a>
-</p>
+<?php print_figure ('about/releasemodel/code-freeze-branching.png',
+                    R_('Tagging and Branching for Releases'),
+                    $static_media.'/about/releasemodel/code-freeze-branching.svg') ?>
 
 <h4><?php E_('Bugfixes/Changes') ?></h4>
 
@@ -335,6 +329,6 @@ $head['title'] = R_('Release Model');
 </p>
 
 <ul>
-  <li>Jannis Pohlmann &lt;<?php echo mungify_mail('jannis@xfce.org') ?></li>
-  <li>Stephan Arts &lt;<?php echo mungify_mail('stephan@xfce.org') ?></li>
+  <li>Jannis Pohlmann &lt;<?php echo mungify_mail('jannis@xfce.org') ?>&gt;</li>
+  <li>Stephan Arts &lt;<?php echo mungify_mail('stephan@xfce.org') ?>&gt;</li>
 </ul>
