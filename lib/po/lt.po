@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-04-22 14:57+0200\n"
-"PO-Revision-Date: 2012-04-22 17:14+0300\n"
+"PO-Revision-Date: 2012-04-23 08:11+0300\n"
 "Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
 "Language-Team: Lietuvių <>\n"
 "Language: \n"
@@ -1466,8 +1466,8 @@ msgid ""
 msgstr ""
 "<em>Lango mygtukų</em> įskiepis daugiau nebeišsiplečia, tai daro įskiepio "
 "pozicionavimą lankstesniu. Norėdami atstatyti buvusią elgseną pridėkite "
-"permatomą <em>skirtuko</em> įskiepį su pažymėta <strong>Išplėsti parinktim</"
-"strong>."
+"permatomą <em>skirtuko</em> įskiepį su pažymėta <strong>Išplėsti</strong> "
+"parinktim."
 
 #: about/tour.php:47 about/tour48.php:7 about/index.php:44 about/tour46.php:92
 #: about/tour44.php:28
@@ -1509,11 +1509,19 @@ msgid ""
 "from Xfce applications. Unlike in previous versions of Xfce, compatibility "
 "services can be started independently from each other."
 msgstr ""
+"Dar vienas žymus pakeitimas yra GNOME ir KDE suderinamumo veikimas. "
+"Suderinamumo žymimieji langeliai įjungia tik tarnybas, kurios turi būti "
+"paleistos prieš kitas programas (<em>gnome-keyring</em> ir <em>gconf</em> "
+"GNOME ir <em>kdeinit</em> KDE). Visos kitos automatiškai paleidžiamos "
+"programos prieinamos iš <strong>Programų automatinio paleidimo</strong>, bet "
+"jos surašytos pasvirusiu šriftu(norint išskirti jas iš Xfce programų) ir "
+"pagal nutylėjimą išjungtos. Ne taip kaip ankstesnėse Xfce versijose, "
+"suderinamumo tarnybos gali būti paleistos nepriklausomai viena nuo kitos."
 
 #: about/tour.php:59
 msgid ""
 "Applications, which are not a part of Xfce, are listed using an italic font"
-msgstr ""
+msgstr "Programos kurios nėra Xfce dalis, pavaizduotos pasvirusiu šriftu"
 
 #: about/tour.php:61 about/tour48.php:71 about/tour46.php:118
 #: about/tour44.php:189
@@ -1521,9 +1529,8 @@ msgid "Settings"
 msgstr "Nustatymai"
 
 #: about/tour.php:63
-#, fuzzy
 msgid "Settings Daemon"
-msgstr "Nustatymų tvarkyklė"
+msgstr "Nustatymų demonas"
 
 #: about/tour.php:65
 msgid ""
@@ -1531,6 +1538,9 @@ msgid ""
 "helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into "
 "xfsettingsd, which now handles all system settings."
 msgstr ""
+"Xfce 4.8 nustatymų pritaikymui naudojo du procesus: <tt>xfce4-settings-"
+"helper</tt> ir <tt>xfsettingsd</tt>. 4.10 versijoje jie buvo sujungti į "
+"xfsettingsd, kuris tvarkosi su visais sistemos nustatymais."
 
 #: about/tour.php:69
 msgid ""
@@ -1539,17 +1549,22 @@ msgid ""
 "dialogs are also now embedded in the settings manager window (this was a "
 "compile-time option in Xfce 4.8)."
 msgstr ""
+"Nauja <em>nustatymų tvarkyklė</em> sugrupuoja nustatymų dialogus į "
+"kategorijas ir leidžia ieškoti tarp jų pagal vardus ar aprašymą. Taipogi "
+"dabar dauguma dialogų yra įmontuoti į nustatymų tvarkyklės langą (4.8 tai "
+"buvo kompiliavimo meto parinktis)."
 
 #: about/tour.php:71
 msgid ""
 "The settings manager with icons grouped by category and a search filter "
 "applied"
 msgstr ""
+"Nustatymų tvarkyklė su piktogramomis sugrupuotomis pagal kategoriją, "
+"pritaikius filtrą"
 
 #: about/tour.php:73
-#, fuzzy
 msgid "Settings Editor"
-msgstr "Nustatymai"
+msgstr "Nustatymų redkatorius"
 
 #: about/tour.php:75
 msgid ""
@@ -1558,6 +1573,10 @@ msgid ""
 "the whole tree). Most properties can now be edited in-place, making it "
 "easier to quickly adjust settings."
 msgstr ""
+"<em>Nustatymų redaktorius</em> redaguojant savybę daugiau nebe suskleidžia "
+"viso medžio(nuo šiol iš naujo įkrauna tik vieną langelį, o ne visą medį). "
+"Nuo šiol daugumą savybių galima redaguoti „vietoje“, tai palengvina ir "
+"pagreitina nustatymų keitimą."
 
 #: about/tour.php:77
 msgid ""
@@ -1565,17 +1584,22 @@ msgid ""
 "channel. Right-click on a channel in the main window, and select "
 "<strong>Monitor</strong> to display the monitor window."
 msgstr ""
+"Naudodami nustatymų redaktorių taipogi galite stebėti pasirinkto kanalo "
+"nustatymų pokyčius. Pagrindiniame meniu paspauskite dešiniu mygtuku ant "
+"kanalo ir pasirinkite <strong>Stebėti</strong>, norėdami matyti stebėjimo "
+"langą."
 
 #: about/tour.php:79
 msgid ""
 "Settings editor with an open channel monitor, while editing a property in-"
 "place"
 msgstr ""
+"Nustatymų redaktorius su atverta kanalo stebykle, redaguojant savybę "
+"„vietoje“"
 
 #: about/tour.php:81
-#, fuzzy
 msgid "MIME Type Editor"
-msgstr "Teksto redaktorius"
+msgstr "Mime tipų redaktorius"
 
 #: about/tour.php:83
 msgid ""
@@ -1586,15 +1610,23 @@ msgid ""
 "that it does not allow you to change the system MIME Type definitions (add "
 "or remove types and change icons)."
 msgstr ""
+"Per kelis paskutinius metus, daug žmonių prašė įrankio su kuriuo būtų galima "
+"tvarkyti failų susiejimus. Naujasis  <em>MIME tipų redaktorius</em> būtent "
+"tai ir daro. Jis leidžia paprastai susieti numatytąją programą su failo "
+"tipu, jei reikia peržiūrėkite savo nustatymus ir atstatykite juos į "
+"numatytąją būseną. Turėkite omeny jog tai neleidžia keisti sistemos MIME "
+"tupų aprašymų (pridėti ar pašalinti tipų, keisti piktogramų)."
 
 #: about/tour.php:85
 msgid ""
 "MIME types matching a pattern and a menu for selecting a default application"
 msgstr ""
+"MIME tipai atitinkantys paieškos kriterijus ir numatytosios programos "
+"pasirinkimo meniu"
 
 #: about/tour.php:87
 msgid "Mouse and Touchpad"
-msgstr ""
+msgstr "Pelė ir jutiklinis kilimėlis"
 
 #: about/tour.php:89
 msgid ""
@@ -1604,15 +1636,21 @@ msgid ""
 "href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> "
 "wiki."
 msgstr ""
+"<em>Pelės ir jutiklinio kilimėlio</em> dialogas, grafinėje sąsajoje, sugeba "
+"susidoroti su pagrindinėmis Synaptics ir Wacom savybėmis. Nustatymų demonas "
+"veikiantis fone tvarkosi su visokiomis įrenginio savybėmis, taip kaip "
+"aprašyta <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">pelės "
+"nustatymų</a> wiki."
 
 #: about/tour.php:91
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
 msgstr ""
+"Synaptics jutiklinio kilimėlio nustatymai <em>pelės ir jutiklinio kilimėlio</"
+"em> dialoge"
 
 #: about/tour.php:93
-#, fuzzy
 msgid "Appearance Settings"
-msgstr "Išvaizdos nustatymų dialogas"
+msgstr "Išvaizdos nustatymai"
 
 #: about/tour.php:95
 msgid ""
@@ -1620,6 +1658,9 @@ msgid ""
 "<em>style</em> or <em>icon</em> list. Xfce will attempt to extract and "
 "install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory."
 msgstr ""
+"4.10 versijoje jūs galite nuvilkti ir numesti tarball su parsiųsta tema ant "
+"<em>stiliaus</em> ar <em>piktogramų</em> sąrašo. Xfce pabandys išarchyvuoti "
+"ir įdiegti failus į <tt>~/.themes</tt> ar <tt>~/.icons</tt> aplankus."
 
 #: about/tour.php:99
 msgid ""
@@ -1628,14 +1669,18 @@ msgid ""
 "has gained support for single-click operation, automated background image "
 "cycling and thumbnail rendering."
 msgstr ""
+"Pradinis Xfce 4.10 planas buvo integruoti darbastalio dalį į Thunar, bet mes "
+"nusprendėme kol kas to nedaryti. Šiuo metu Xfdesktop gavo vieno paspaudimo "
+"palaikymą, automatinį fono paveikslėlio keitimą ir miniatiūrų apdorojimą."
 
 #: about/tour.php:101
 msgid "Desktop with image thumbnails and support for single-click operation"
 msgstr ""
+"Darbastalis su paveikslėlių miniatiūromis ir vieno spragtelėjimo palaikymu"
 
 #: about/tour.php:103
 msgid "Xfdesktop is now shipped with a new default background image."
-msgstr ""
+msgstr "Nuo šiol Xfdesktop tiekiamas su nauju numatytuoju fono paveikslėliu."
 
 #: about/tour.php:107
 msgid ""
@@ -1644,6 +1689,11 @@ msgid ""
 "still be tiled using a keyboard shortcut. Another improvement is a better "
 "theming support and cursor key navigation in the tab window (Alt+Tab)."
 msgstr ""
+"Xfwm4 nuo šiol gali pritaikyti lango dydį, kai nuvelkate jį į ekrano kraštą. "
+"Ši galimybė nebūtina ir pagal nutylėjimą išjungta. Tokiu atveju lango dydis "
+"vistiek gali būti pritaikytas naudojant klaviatūros nuorodą. Kitas "
+"pataisymas tai yra geresnis temų palaikymas ir naršymas klavišais kortelių "
+"lange (Alt+Tab)."
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
@@ -2135,9 +2185,8 @@ msgid ""
 msgstr ""
 
 #: about/tour46.php:35
-#, fuzzy
 msgid "Sound Mixer"
-msgstr "Maišiklis"
+msgstr "Garsų maišiklis"
 
 #: about/tour46.php:38
 msgid ""
@@ -2452,7 +2501,6 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:21
-#, fuzzy
 msgid "Desktop Settings"
 msgstr "Darbastalio nustatymai"
 
@@ -2487,9 +2535,8 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:44
-#, fuzzy
 msgid "Thunar Bulk Rename"
-msgstr "Thunar failų tvarkyklė"
+msgstr "Thunar masinis pervadinimas"
 
 #: about/tour44.php:46
 msgid "Removable Drives and Media"
@@ -2592,9 +2639,8 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:108
-#, fuzzy
 msgid "Panel Manager"
-msgstr "Failų tvarkyklė"
+msgstr "Skydelio tvarkyklė"
 
 #: about/tour44.php:111
 msgid ""
@@ -2605,9 +2651,8 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:114
-#, fuzzy
 msgid "Panel Add Item Dialog"
-msgstr "Skydelio elementų redaktorius"
+msgstr "Skydelio elemento pridėjimo dialogas"
 
 #: about/tour44.php:117
 msgid ""
@@ -2702,9 +2747,8 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:169
-#, fuzzy
 msgid "Xfce Print Dialog"
-msgstr "Xfce nustatymų dialogai"
+msgstr "Xfce spausdinimo dialogas"
 
 #: about/tour44.php:172
 msgid ""
@@ -2750,9 +2794,8 @@ msgid ""
 msgstr ""
 
 #: about/tour44.php:195
-#, fuzzy
 msgid "Preferred Applications"
-msgstr "Programos"
+msgstr "Pageidaujamos programos"
 
 #: about/tour44.php:198
 msgid ""
@@ -2842,20 +2885,17 @@ msgid "Xfce release announcements"
 msgstr "Xfce išleidimo naujienos"
 
 #: news-array.php:10
-#, fuzzy
 msgid "Xfce 4.10 released"
-msgstr "Xfce 4.8 išleista"
+msgstr "Xfce 4.10 išleista"
 
 #: news-array.php:15
-#, fuzzy
 msgid ""
 "Today, after 1 year of work, we have the special pleasure of announcing the "
 "much awaited release of Xfce 4.10, the new stable version that supersedes "
 "Xfce 4.8."
 msgstr ""
-"Šiandien, po beveik dviejų metų darbo, mes džiaugiamės galėdami pranešti jog "
-"ilgai laukta Xfce 4.8 pagaliau išleista. Tai yra nauja stabili versija kuri "
-"pakeis Xfce 4.6."
+"Šiandien, po metų darbo, mes džiaugiamės galėdami pranešti jog ilgai laukta "
+"Xfce 4.10, nauja, stabili versija pakeičia Xfce 4.8."
 
 #: news-array.php:17
 msgid "Xfce 4.10pre2 released"
