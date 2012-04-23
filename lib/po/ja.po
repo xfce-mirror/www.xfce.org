@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-04-22 14:57+0200\n"
-"PO-Revision-Date: 2012-04-23 01:49+0900\n"
+"PO-Revision-Date: 2012-04-23 20:16+0900\n"
 "Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -1060,7 +1060,7 @@ msgstr "ウィンドウボタン"
 
 #: about/tour.php:45
 msgid "The <em>window buttons</em> plugin no longer expands, which makes the plugin positioning more flexible. In order to restore the previous behavior please add a transparent <em>separator</em> plugin with the <strong>Expand</strong> option enabled just behind the window buttons plugin."
-msgstr "<em>ウィンドウボタン</em>プラグインはもう必要もないのに広がったりしたりししません。パネル上のプラグインの配置を維持するためにスペースを埋めたい時には透明な<em>セパレーター</em>プラグインをウィンドウボタンの後ろに追加し、<strong>「拡張する」</strong>オプションを有効にしてください。"
+msgstr "<em>ウィンドウボタン</em>プラグインはプラグインの位置決めを柔軟に行えるよう、必要もないのに広がったりしたりしなくなりました。パネル上のプラグインの配置を維持するためにスペースを埋めたい場合は透明な<em>セパレーター</em>プラグインをウィンドウボタンの後ろに追加し、<strong>「拡張する」</strong>オプションを有効にしてください。"
 
 #: about/tour.php:47
 #: about/tour48.php:7
@@ -1084,7 +1084,7 @@ msgstr "自動開始アプリケーション"
 
 #: about/tour.php:57
 msgid "Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable services, which have to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are available from <strong>Applications Autostart</strong>, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started independently from each other."
-msgstr "その他の大きな変更点は、GNOME および KDE との互換機能です。互換性チェックボックスはその他のアプリケーションより先に起動しなければならないサービス (GNOME での <em>gnome-keyring</em> や <em>gconf</em>、KDE での <em>kdeinit</em>) を有効にするだけになり、その他のアプリケーションの自動起動は<strong>自動開始アプリケーション</strong>の中から選択する方式になりました。それらは Xfce アプリケーションと区別するため斜体で表示され、デフォルトでは有効になっていません。これまでの Xfce のリリースとは異なり、互換サービスはそれぞれの起動を個別に指定できるようになりました。"
+msgstr "その他の大きな変更点は、GNOME および KDE との互換機能です。互換性チェックボックスは、その他のアプリケーションより先に起動しなければならないサービス (GNOME での <em>gnome-keyring</em> や <em>gconf</em>、KDE での <em>kdeinit</em>) を有効にするだけになり、その他のアプリケーションの自動起動は<strong>自動開始アプリケーション</strong>の中から選択する方式になりました。それらは Xfce アプリケーションと区別するため斜体で表示され、デフォルトでは有効になっていません。これまでの Xfce のリリースとは異なり、互換サービスはそれぞれの起動を個別に指定できるようになりました。"
 
 #: about/tour.php:59
 msgid "Applications, which are not a part of Xfce, are listed using an italic font"
@@ -1135,7 +1135,7 @@ msgstr "MIME タイプエディター"
 
 #: about/tour.php:83
 msgid "In the last couple of years, many people were asking for a tool to manage their file type associations. The new <em>MIME type editor</em> does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons)."
-msgstr "ここ数年、たくさんの方々からファイルタイプへのアプリケーション割り当てを管理するツールについての要望をいただいてきました。その声に応え、<em>MIMEタイプエディター</em>を用意しました。このエディターでは、ファイルタイプごとのデフォルトアプリケーションの割り当てが簡単に行え、カスタム設定した値とそうでないものとが識別でき、必要に応じてそれらを初期値にリセットすることができるようになります。ただし、システム MIME タイプ定義の変更 (タイプの追加あるいは削除、およびアイコンの変更) は行えません。"
+msgstr "ここ数年、たくさんの方々からファイルタイプへのアプリケーション割り当てを管理するツールについての要望をいただいてきました。その声に応え、<em>MIMEタイプエディター</em>を用意しました。このエディターでは、ファイルタイプごとのデフォルトアプリケーションの割り当てが簡単に行え、ユーザー設定とそうでないものとが識別でき、必要に応じてそれらを初期値にリセットすることができるようになります。ただし、システム MIME タイプ定義の変更 (タイプの追加あるいは削除、およびアイコンの変更) は行えません。"
 
 #: about/tour.php:85
 msgid "MIME types matching a pattern and a menu for selecting a default application"
@@ -1175,7 +1175,7 @@ msgstr "Xfdesktop では新しいデフォルトの背景が採用されまし�
 
 #: about/tour.php:107
 msgid "Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab)."
-msgstr "ウィンドウを画面端にドラッグした時にウィンドウをタイル表示できるようになりました。この機能はデフォルトでは無効になっています。その場合でもキーボードショートカットでタイル表示を行えます。その他の改善点は、テーマサポートの向上と Alt+Tab でのウィンドウ切替時に方向キーでのナビゲーションができるようになりました。"
+msgstr "ウィンドウを画面端にドラッグした時にウィンドウをタイル表示できるようになりました。この機能はデフォルトでは無効になっています。その場合でもキーボードショートカットでタイル表示を行えます。その他に、テーマサポートが向上し、Alt+Tab でのウィンドウ切替時に方向キーでのナビゲーションができるようになりました。"
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
@@ -1271,7 +1271,7 @@ msgstr "ウィンドウボタンプラグイン"
 
 #: about/tour48.php:53
 msgid "The iconbox and tasklist plugins are new merged into 1 plugin, called window buttons. It implements different sorting modes, improved handling in vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering a button."
-msgstr "アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されました。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボタン上にマウスポインタがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠を描画できるようになりました。"
+msgstr "アイコン箱とタスクリストプラグインは、ウィンドウボタンプラグインに統合されました。これには様々な並び替えモードが実装され、垂直パネル時の扱いが向上し、ボタン上にマウスポインターがあるときに、Xfwm4 での Alt+Tab のように、ウィンドウ枠を描画できるようになりました。"
 
 #: about/tour48.php:55
 msgid "New fuzzy clock"
