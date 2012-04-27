@@ -24,9 +24,9 @@ $news = array (
 			R_('An online tour of the changes in Xfce 4.10 can be viewed here:'),
 			'<a href="http://xfce.org/about/tour">http://xfce.org/about/tour</a>',
 			R_('A detailed overview of the changes compared to Xfce 4.8 and Xfce 4.10 preview releases can be found on the following page:'),
-			'<a href="http://xfce.org/download/changelogs/">http://xfce.org/download/changelogs/</a>',
+			'<a href="http://xfce.org/download/changelogs">http://xfce.org/download/changelogs</a>',
 			R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
-			'<a href="http://archive.xfce.org/xfce/4.10">http://archive.xfce.org/xfce/4.10/</a>',
+			'<a href="http://archive.xfce.org/xfce/4.10">http://archive.xfce.org/xfce/4.10</a>',
 			R_('Thank you all the contributors, bug reporters, as well as translators and packagers for your efforts in making this release possible.'),
 			R_('Best regards,<br />The Xfce development team'))
 		),
