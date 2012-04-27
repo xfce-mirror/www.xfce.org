@@ -46,7 +46,12 @@ foreach ($news as $item)
   if ($counter < 2)
     {
       foreach ($item['paragraphs'] as $p)
-        echo '<p>'.$p.'</p>'."\n";
+      {
+        if (strpos ($p, '<ul>') === false)
+          echo '<p>'.$p.'</p>'."\n";
+        else
+          echo $p."\n";
+      }
       
       if (!empty ($item['version']))
       {
@@ -75,5 +80,3 @@ if (!$has_items)
 }
 
 ?>
-
-

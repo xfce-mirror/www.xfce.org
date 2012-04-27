@@ -1,34 +1,50 @@
 <?php
 /* title:      use R_() for translations, can be null in case @version is set.
  * version:    version number, will autoprepend download link and set a title.
- * date:       release date
+ * date:	release date
  * author:     only used in feed
  * paragraphs: array of <p></p> in the article.
  * */
 
 $news = array (
 	array ('title' => R_('Xfce 4.10 released'),
-	       'version' => '4.10',
-	       'date' => '28 apr 2012',
-	       'author' => 'Release Manager',
-	       'paragraphs' => array (
-			R_('Today, after 1 year of work, we have the special pleasure of announcing the much awaited release of Xfce 4.10, the new stable version that supersedes Xfce 4.8.'))
-	       ),
+		'version' => null,
+		'date' => '28 apr 2012',
+		'author' => 'Release Manager',
+		'paragraphs' => array (
+			R_('Today, after 1 year and 4 months of work, we are pleased to announce the release of the Xfce desktop 4.10, a new stable version that supersedes Xfce 4.8.'),
+			R_('In the 4.10 cycle we mainly focused on polishing the desktop and improving the user experience in various ways. Highlights of this release are:'),
+			'<ul>'.
+				'<li>'. R_('A new application finder that has been completely rewritten and combines the functionality of the old xfce4-appfinder and xfrun4.') .'</li>'.
+				'<li>'. R_('The panel now has an alternative vertical display mode (a deskbar). What is more, panel plugins can be arranged in multiple rows, which is particularly useful in the deskbar mode.') .'</li>'.
+				'<li>'. R_('A new MIME type editor that allows you to easily change applications used for opening different file types. The mouse and touchpad settings dialog and the settings editor were extended in terms of functionality. The former now supports tablets in a much better way.') .'</li>'.
+				'<li>'. R_('It is now possible to launch applications and open files on the desktop with a single click of the mouse. In addition, the 4.10 desktop can display thumbnails and automatically advance through the wallpaper list.') .'</li>'.
+				'<li>'. R_('The window manager can be configured to tile windows when dragging them to the screen edges. The tab window (Alt+Tab) supports more flexible theming and cursor key navigation.') .'</li>'.
+			'</ul>',
+			R_('An online tour of the changes in Xfce 4.10 can be viewed here:'),
+			'<a href="http://xfce.org/about/tour">http://xfce.org/about/tour</a>',
+			R_('A detailed overview of the changes compared to Xfce 4.8 and Xfce 4.10 preview releases can be found on the following page:'),
+			'<a href="http://xfce.org/download/changelogs/">http://xfce.org/download/changelogs/</a>',
+			R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+			'<a href="http://archive.xfce.org/xfce/4.10">http://archive.xfce.org/xfce/4.10/</a>',
+			R_('Thank you all the contributors, bug reporters, as well as translators and packagers for your efforts in making this release possible.'),
+			R_('Best regards,<br />The Xfce development team'))
+		),
 	array ('title' => R_('Xfce 4.10pre2 released'),
-	       'version' => '4.10pre2',
-	       'date' => '14 apr 2012',
-	       'author' => 'Release Manager',
-	       'paragraphs' => array (
+		'version' => '4.10pre2',
+		'date' => '14 apr 2012',
+		'author' => 'Release Manager',
+		'paragraphs' => array (
 			R_('The Xfce development team is proud to announce the second preview release for Xfce 4.10. Together with this preview release, the Xfce project announces the string and code (only critical bug fixes or regressions) freeze for the final 4.10 release which is set to be pushed out to the world on April 28th, 2012.'),
 			R_('This release incorporates some new features like improved responsiveness of file operations in Thunar and tiling improvements in Xfwm4. Everything else is bug fixes and a _lot_ of translation updates.'),
 			R_('We hope you will enjoy this release. Please give us feedback by sharing your thoughts, blogging, tweeting or by filing bug reports! With your help, 4.10 will be the best release ever (at least until 4.12)!'),
 			R_('Kind regards and thanks to everyone who has contributed to this release,<br />The Xfce development team'))
 		),
 	array ('title' => R_('Xfce 4.10pre1 released'),
-	       'version' => '4.10pre1',
-	       'date' => '1 apr 2012',
-	       'author' => 'Release Manager',
-	       'paragraphs' => array (
+		'version' => '4.10pre1',
+		'date' => '1 apr 2012',
+		'author' => 'Release Manager',
+		'paragraphs' => array (
 			R_('The Xfce development team is proud to announce the first preview release for Xfce 4.10. Together with this preview release, the Xfce project announces the feature freeze for the final 4.10 release which is set to be pushed out to the world on April 28th, 2012.'),
 			R_('This release incorporates major changes to the core of the Xfce desktop environment and hopefully succeeds in fulfilling a number of long time requests. Among the most notable updates is the new application finder that merges the functionality of the old appfinder and xfrun4. The Panel also has a new vertical mode [aka Deskbar] for better space usage on wide-screen monitors and a new actions plugin. On the settings side the settings helper is integrated in xfsettingsd, saving 1 running process. There is also a reworked settings dialog with categories and pluggable dialogs enabled by default. Basic Synaptics and Wacom settings in the Mouse settings and a new MIME-Type editor. Thunar gained a more polished layout to reduce space usage and more responsive interaction with the thumbnail generator. Because we have not decided on how to merge the desktop functionality into Thunar yet, Xfdesktop has instead received various improvements, including single-click support, desktop icon thumbnails and better pasting of files. The Session Manager has improved power management code, tips have been removed and cleanup sessions from the interface. Last but not least, the Window Manager now has support for tiling windows and arrow key navigation in the task switcher.'),
 			R_('Another big change for users is the removal of user documentation of the packages and introduction of <a href="http://docs.xfce.org">docs.xfce.org</a>. The reason for this change is the limited contribution of documentation since Xfce 4.8, so we hope the wiki will attract more contributors. The help buttons in the interface still work, but you\'ll be asked to open the documentation website in your web browser.'),
@@ -50,11 +66,11 @@ $news = array (
 			R_('We also improved our settings dialogs. The display configuration dialog now supports RandR 1.2, detects screens automatically and allows our users to pick their favorite resolution, refresh rate, rotation. Screens can be configured to either work in clone mode or be placed next to each other. Keyboard selection has become easier and more user-friendly. Also, the manual settings editor has been updated to be more functional.'),
 			R_('Aside from the features implemented in Xfce, the 4.8 development cycle brought us a bunch of other goodies. For the first time we had a serious release strategy formed after the "Xfce Release and Development Model" developed at the Ubuntu Desktop Summit in May 2009. A new web application made release management a lot easier. We worked hard on improving the situation of Xfce translators which led us to setting up our own Transifex server. Something else you will hopefully notice is that our server and mirroring infrastructure has been improved so that our servers hopefully will not suddenly surrender shortly after this release announcement.'),
 			R_('There is a lot more to discover and we hope a lot of you will give Xfce 4.8 a try! There is a brief tour online on'),
-			R_('<a href="http://xfce.org/">http://xfce.org/</a> and <a href="http://xfce.org/about/tour">http://xfce.org/about/tour</a>'),
+			'<a href="http://xfce.org/about/tour48">http://xfce.org/about/tour48</a>',
 			R_('A summary of the changes since the 4.8pre3 preview release is available on the following URL (it also includes links to the changes introduced in all preview releases):'),
-			R_('<a href="http://xfce.org/download/changelogs/4.8.0">http://xfce.org/download/changelogs/4.8.0</a>'),
+			'<a href="http://xfce.org/download/changelogs/4.8">http://xfce.org/download/changelogs/4.8</a>',
 			R_('The release can be downloaded either as individual releases or as a fat tarball including all these individual versions:'),
-			R_('<a href="http://archive.xfce.org/xfce/4.8/">http://archive.xfce.org/xfce/4.8/</a>'),
+			'<a href="http://archive.xfce.org/xfce/4.8/">http://archive.xfce.org/xfce/4.8/</a>',
 			R_('2011 has just begun and we are already planning for the future. The 4.10 schedule will be worked on soon and hopefully, we will be able to turn Xfce into a non-profit organization at this year\'s FOSDEM, so stay tuned!'),
 			R_('But until then we hope you will enjoy today\'s release and join us in celebrating. Thanks go out to all our contributors, bug reporters as well as the awesome efforts of our translators and packagers. '),
 			R_('Best regards,<br />The Xfce development team'))

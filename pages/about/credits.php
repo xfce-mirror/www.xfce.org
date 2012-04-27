@@ -55,8 +55,7 @@ function print_translator_credits()
                 'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org',
                 'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce.org',
                 'Nick Schermer' => 'nick'.ATSIGN.'xfce.org',
-                'Olivier Fourdan' => 'fourdan'.ATSIGN.'xfce.org',
-                'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org'));
+                'Olivier Fourdan' => 'fourdan'.ATSIGN.'xfce.org'));
 ?>
 
 <h2 id="active"><?php E_('Active contributors')?></h2>
@@ -74,6 +73,7 @@ function print_translator_credits()
                 'Lionel Le Folgoc' => 'mrpouit'.ATSIGN.'gmail.com',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
                 'Simon Steinbeiß' => 'simon'.ATSIGN.'xfce.org',
+                'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org',
                 'Peter de Ridder' => 'peter'.ATSIGN.'xfce.org',
                 'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
 ?>
