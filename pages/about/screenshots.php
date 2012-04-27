@@ -8,8 +8,8 @@ function print_shots ($group, $count, $format = 'png')
   for ($i = 1; $i <= $count; $i++)
   {
     echo "<a href=\"$static_media/about/screenshots/$group-$i.$format\">".
-           "<img src=\"$static_media/about/screenshots/$group-$i-small.jpg\" alt=\"$group-$i\" width=\"200\" ".
-           "height=\"150\" hspace=\"2\" vspace=\"2\" border=\"0\" />".
+           "<img src=\"$static_media/about/screenshots/$group-$i-small.jpg\" alt=\"$group-$i\" ".
+           "hspace=\"2\" vspace=\"2\" align=\"top\" border=\"0\" />".
          "</a>";
   }
 }
@@ -18,6 +18,11 @@ function print_shots ($group, $count, $format = 'png')
 <h1><?php echo $head['title'] ?></h1>
 <p>
   <?php E_('Some screenshots of Xfce, ordered by version.') ?>
+</p>
+
+<h2><?php E_('Xfce 4.10') ?></h2>
+<p>
+  <?php print_shots ('4.10', 3); ?>
 </p>
 
 <h2><?php E_('Xfce 4.8') ?></h2>
