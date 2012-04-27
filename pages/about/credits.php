@@ -52,7 +52,6 @@ function print_translator_credits()
 <h2 id="core"><?php E_('Core developers')?></h2>
 <?php
         print_credits (array (
-                'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
                 'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org',
                 'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce.org',
                 'Nick Schermer' => 'nick'.ATSIGN.'xfce.org',
@@ -64,23 +63,24 @@ function print_translator_credits()
 <?php
         print_credits (array (
                 'Ali Abdallah' => 'aliov'.ATSIGN.'xfce.org',
+                'Andrzej Radecki' => 'ndrwrdck'.ATSIGN.'gmail.com',
                 'Benedikt Meurer' => 'benny'.ATSIGN.'xfce.org',
+                'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
                 'David Mohr' => 'squisher'.ATSIGN.'xfce.org',
                 'Enrico Tröger' => 'enrico.troeger'.ATSIGN.'uvena.de',
-                'Jasper Huijsmans' => 'jasper'.ATSIGN.'xfce.org',
+                'Eric Koegel' => 'eric'.ATSIGN.'xfce.org',
                 'Jean-François Wauthy' => 'pollux'.ATSIGN.'xfce.org',
                 'Landry Breuil' => 'landry'.ATSIGN.'openbsd.org',
                 'Lionel Le Folgoc' => 'mrpouit'.ATSIGN.'gmail.com',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
+                'Simon Steinbeiß' => 'simon'.ATSIGN.'xfce.org',
+                'Peter de Ridder' => 'peter'.ATSIGN.'xfce.org',
                 'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
 ?>
 
 <h2 id="servers"><?php E_('Servers maintained by')?></h2>
 <?php
         print_credits (array (
-                'Auke Kok' => 'sofar'.ATSIGN.'foo-projects.org',
-                'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
-                'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org',
                 'Jean-François Wauthy' => 'pollux'.ATSIGN.'xfce.org',
                 'Nick Schermer' => 'nick'.ATSIGN.'xfce.org',
                 'Samuel Verstraete' => 'elangelo'.ATSIGN.'xfce.org'));
@@ -95,7 +95,6 @@ function print_translator_credits()
 <h2 id="translation"><?php E_('Translations supervision')?></h2>
 <?php
         print_credits (array (
-                'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce.org',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com'));
 ?>
 
@@ -107,6 +106,7 @@ function print_translator_credits()
 <h2 id="previous"><?php E_('Previous contributors')?></h2>
 <?php
         print_credits (array (
+                'Auke Kok' => 'sofar'.ATSIGN.'foo-projects.org',
                 'Bernhard Walle' => 'bernhard.walle'.ATSIGN.'gmx.de',
                 'Biju Chacko' => 'botsie'.ATSIGN.'xfce.org',
                 'Craig Betts' => 'craig.betts'.ATSIGN.'dfrc.nasa.gov',
@@ -119,11 +119,14 @@ function print_translator_credits()
                 'Erik Touve' => 'etouve'.ATSIGN.'earthlink.net',
                 'Erik Harrison' => 'erikharrison'.ATSIGN.'xfce.org',
                 'François Le Clainche' => 'fleclainche'.ATSIGN.'wanadoo.fr',
+                'Jasper Huijsmans' => 'jasper'.ATSIGN.'xfce.org',
+                'Jean-François Wauthy' => 'pollux'.ATSIGN.'fce.org',
                 'Jens Guballa' => 'j.guballa'.ATSIGN.'t-online.de',
                 'Jens Luedicke' => 'jens'.ATSIGN.'irs-net.com',
                 'Joakim Andreasson' => 'joakim.andreasson'.ATSIGN.'gmx.net',
                 'Karsten Luetkewitz' => 'phrep'.ATSIGN.'plskthx.org',
                 'Martin Loschwitz' => 'madkiss'.ATSIGN.'debian.org',
+                'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce.org',
                 'Michael Mosier' => 'michael'.ATSIGN.'spyonit.com',
                 'Mickaël Graf' => 'korbinus'.ATSIGN.'xfce.org',
                 'Pau Rul·lan Ferragut' => 'paurullan'.ATSIGN.'bulma.net',
