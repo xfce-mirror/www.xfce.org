@@ -24,6 +24,7 @@
 <h2><?php E_('Development') ?></h2>
 <p>
   <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world.') ?>
+  <a href="https://releases.xfce.org/login/request"><?php E_('Request&nbsp;an&nbsp;account&nbsp;&rarr;') ?></a>
 </p>
 
 <h2><?php E_('Promotion') ?></h2>
