@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2011-09-26 18:33+0200\n"
-"PO-Revision-Date: 2012-07-04 14:11+0100\n"
-"Last-Translator: Daniel Durante <danieldurante@ymail.com>\n"
+"PO-Revision-Date: 2012-07-24 15:26+0100\n"
+"Last-Translator: Daniel Durante <daniedurante@ymail.com>\n"
 "Language-Team: Spanish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2124,9 +2124,8 @@ msgid "Uploading Translations"
 msgstr "Subiedo Traducciones"
 
 #: getinvolved/translation.php:97
-#, fuzzy
 msgid "When you are identified on Transifex and have the upload rights it is very simple to upload new translations. Go to a project and choose the component that corresponds to a stable version or to the development branch &mdash; you can pass through the collection page to find a project &mdash; then click on the small <em>Upload</em> button besides the visualize/download/lock/edit buttons at the right of your language or the <em>Add a new translation</em> button at the bottom of the page if it doesn't exist yet. Fill in the form and click the <em>Send</em> button."
-msgstr "Cuando se identifican en Transifex y tienen los derechos de carga es muy sencillo cargar las nuevas traducciones. Ir a un proyecto y escoja el componente que corresponde a una versión estable o la rama de desarrollo - puede pasar a través de la página de la colección para encontrar un proyecto - a continuación, haga clic en el botón <em>Upload</em> pequeños, además de la visualización / descarga / lock / editar botones en la parte derecha de su idioma o en <em>el</em> botón <em>Añadir nueva traducción</em> en la parte inferior de la página si no existe todavía. Rellene el formulario y haga clic en el botón <em>Enviar.</em>"
+msgstr "Cuando se identifique en Transifex y tenga los permisos para subir archivos, será muy sencillo cargar nuevas traducciones. Vaya a un proyecto y escoja el componente que corresponda a una versión estable o la rama de desarrollo - puede consultar las página de la colección para encontrar un proyecto -, a continuación, haga clic en el botón <em>Upload</em> que está al lado de los de visualización / descarga / lock / editar en la parte derecha correspondiente a su idioma, o en <em>Añadir nueva traducción</em> en la parte inferior de la página, si todavía no existe una nueva. Rellene el formulario y haga clic en el botón <em>Enviar.</em>"
 
 #: getinvolved/translation.php:101
 msgid "It is a good idea to click the <em>Lock</em> button when doing a translation while there is more than one active translator for your current language. Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to update the translations online."
@@ -2367,9 +2366,8 @@ msgid "For the latest code you need to make local copies of the GIT repositories
 msgstr "Para tener la última versión del código necesita hacer copia local de los repositorios GIT; este es el lugar de almacén de código para los desarrolladores. Si usa GIT, trate de usar la misma rama para todos los paquetes, así evitará problemas de dependencia en la versión."
 
 #: download/building.php:67
-#, fuzzy
 msgid "You first need to make clones of each GIT repository, like the command below, where <em>$category</em> is for example <em>xfce</em> and <em>$module</em> <em>xfce4-panel</em>. If you click on a module in the online <a href=\"http://git.xfce.org/xfce\" class=\"external\">repository list</a> the clone uri is shown at the bottom of the page."
-msgstr "Primero tiene que hacer clones de cada repositorio GIT, al igual que el siguiente comando, donde <em>$ categoría</em> es para <em>xfce</em> ejemplo y <em>$ módulo xfce4-panel.</em> Si hace clic en un módulo en la línea <a href=\"http://git.xfce.org/xfce\" class=\"external\">de lista de repositorios</a> la uri clon se muestra en la parte inferior de la página."
+msgstr "Primero tiene que hacer clones de cada repositorio GIT, como especifica el uso del siguiente comando, <em>$ categoría</em>, por ejemlo<em>xfce</em> y <em>$ módulo xfce4-panel.</em> Si hace clic en un módulo en la línea <a href=\"http://git.xfce.org/xfce\" class=\"external\">de lista de repositorios</a>se muestra la uri del clon en la parte inferior de la página."
 
 #: download/building.php:75
 msgid "After the repository is cloned you need to choose which branch you want to compile. By default the <em>master</em> branch is selected, but there are also branches for stable releases like <em>xfce-4.6</em>. The stable branches contain the latest bug fixes without any major new feature, the <em>master</em> branch is the development version for the next release of Xfce. Both should not be used in a production environment."
@@ -2468,9 +2466,8 @@ msgid "To build from GIT you need to install the xfce4-dev-tools package first, 
 msgstr "Para construir a partir de GIT es necesario instalar el paquete xfce4-dev-tools primero, todos los demás paquetes deben ser instalados con este comando:"
 
 #: download/building.php:254
-#, fuzzy
 msgid "Specific configure options for each package can be shown with <em>./configure --help</em>. Note that most packages benefit if you pass the configure option <em>--disable-debug</em>, however if you want to provide backtraces or test new code, no <em>CFLAGS</em>, no binary stripping and <em>--enable-debug=full</em> are recommended. Please note that <em>--disable-debug</em> is not available for xfce4-dev-tools. "
-msgstr "<em>.</em> Configurar las opciones específicas para cada paquete se puede mostrar con <em>/ configure - help.</em> Tenga en cuenta que la mayoría de los paquetes de beneficios si se pasa la opción de configure <em>- disable-debug,</em> sin embargo, si desea proporcionar trazas o el código de prueba de nuevo, no <em>CFLAGS,</em> sin pelar y binario <em>- enable-debug = full</em> se recomienda. Tenga en cuenta que <em>- disable-debug</em> no está disponible para xfce4-dev-tools."
+msgstr "Las opciones específicas de configuración para cada paquete se obtienen con <em>/ configure - help.</em> Tenga en cuenta que en la mayoría de los paquetes se obtendrán mejores resultados si se configura la opción <em>- disable-debug</em>, sin embargo, si desea tracear o testear código, se recomienda no usar las opciones de binary stripping, <em>CFLAGS,</em> y activar la opción<em>- enable-debug = full</em>. Tenga en cuenta que <em>- disable-debug</em> no está disponible para xfce4-dev-tools."
 
 #: download/building.php:259
 msgid "Hopefully everything went fine after reading this guide. If you still have problems or questions you can ask on the <a href=\"/community#mail\">Xfce users mailing list</a>, the <a href=\"http://forum.xfce.org\" class=\"external\">forum</a> or ask distribution related questions on their forums and mailing lists."
@@ -2690,9 +2687,8 @@ msgid "Our panel application has been rewritten, thereby improving positioning, 
 msgstr "Hemos reescrito nuestro panel de aplicaciones mejorando el posicionamiento, transparencia y la gestión del lanzador. Incluye también un nuevo plugin en el menú para ver los directorios. Su plugin para la plataforma  sigue siendo compatible con los de la versión 4.6."
 
 #: news-array.php:20
-#, fuzzy
 msgid "We also improved our settings dialogs. The display configuration dialog now supports RandR 1.2, detects screens automatically and allows our users to pick their favorite resolution, refresh rate, rotation. Screens can be configured to either work in clone mode or be placed next to each other. Keyboard selection has become easier and more user-friendly. Also, the manual settings editor has been updated to be more functional."
-msgstr "También hemos mejorado nuestra configuración de los cuadros de diálogo. El diálogo de configuración de la pantalla ahora es compatible con RandR 1.2, detecta automáticamente las pantallas y permite a nuestros usuarios a escoger su favorita resolución, frecuencia de actualización, la rotación. Pantallas se pueden configurar para funcionar en el modo de clonación o colocar uno junto al otro. Selección de teclado se ha convertido en más fácil y más fácil de usar. Además, el editor de configuración manual ha sido actualizado para que sea más funcional."
+msgstr "También hemos mejorado nuestra configuración de los cuadros de diálogo. El diálogo de configuración de la pantalla es ahora compatible con RandR 1.2, detecta automáticamente las pantallas y permite a nuestros usuarios a escoger la resolución preferida, frecuencia de actualización y rotación. Las pantallas se pueden configurar para funcionar en modo de clonación o situarse una junto a otra. La selección del teclado se ha convertido en más sencilla y fácil de usar. Además, el editor de configuración manual ha sido actualizado para que sea más funcional."
 
 #: news-array.php:21
 msgid "Aside from the features implemented in Xfce, the 4.8 development cycle brought us a bunch of other goodies. For the first time we had a serious release strategy formed after the \"Xfce Release and Development Model\" developed at the Ubuntu Desktop Summit in May 2009. A new web application made release management a lot easier. We worked hard on improving the situation of Xfce translators which led us to setting up our own Transifex server. Something else you will hopefully notice is that our server and mirroring infrastructure has been improved so that our servers hopefully will not suddenly surrender shortly after this release announcement."
