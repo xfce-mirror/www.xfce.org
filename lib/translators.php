@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-09-30 00:21:06";
+$translators_stamp = "2012-10-07 00:21:12";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -148,6 +148,7 @@ $translators = array (
     'anonxero' => 'anonxero'.ATSIGN.'linuxmail'.DOTSIGN.'org',
     'Mehdi Esmaeelpour' => 'ariarat'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ehsan Akhlaghi' => 'esnka'.ATSIGN.'yahoo'.DOTSIGN.'com',
+    'mahmood mahm0ud' => 'mahmud'.DOTSIGN.'tehrani'.ATSIGN.'gmail'.DOTSIGN.'com',
     'numb' => 'amir007ag'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Finnish [fi]' => array (
@@ -292,12 +293,14 @@ $translators = array (
   ),
   'Polish [pl]' => array (
     'Piotr Sokół' => 'psokol'.ATSIGN.'jabster'.DOTSIGN.'pl',
+    'Marcin Romańczuk' => 'abjsyn'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ewelina Drożańska' => 'blinqa'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Paweł Drożański' => 'pawdro'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Kamil Polczak' => 'elderlinx'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ireneusz Gierlach' => 'irek'.DOTSIGN.'gierlach'.ATSIGN.'gmail'.DOTSIGN.'com',
     'jacek2v' => 'jacek2v'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jakub Waśko' => 'javazlaz'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Michał Jeż' => 'michal'.DOTSIGN.'je2u'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Kamil Konieczka' => 'klkkzm'.ATSIGN.'gmail'.DOTSIGN.'com',
     'kolofaza' => 'kolofaza'.ATSIGN.'o2'.DOTSIGN.'pl',
     'Michał Olber' => 'michal'.DOTSIGN.'olber'.ATSIGN.'osworld'.DOTSIGN.'pl',
