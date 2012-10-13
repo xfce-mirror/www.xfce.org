@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-10-07 00:21:12";
+$translators_stamp = "2012-10-14 00:21:17";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -122,8 +122,10 @@ $translators = array (
     'Andres Sanchez' => 'afsanchez93'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Daniel Durante' => 'danieldurante'.ATSIGN.'ymail'.DOTSIGN.'com',
     'Adolfo Jayme Barrientos' => 'fitoschido'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Francisco Javier Serrador' => 'fserrador'.ATSIGN.'gmail'.DOTSIGN.'com',
     'lbazan' => 'bazanluis20'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ma7as' => 'colonizare'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Matias De lellis' => 'mati86dl'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Octavio Bernal Quiroz' => 'octavio'.DOTSIGN.'bernal'.DOTSIGN.'q'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio García' => 'oigres200'.ATSIGN.'gmail'.DOTSIGN.'com',
     'prflr88' => 'prflr88'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -192,6 +194,7 @@ $translators = array (
   ),
   'Hindi [hi]' => array (
     'Anurag Garg' => 'ang'.DOTSIGN.'astronomy'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'chandan kumar' => 'chandankumar'.DOTSIGN.'093047'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Croatian [hr]' => array (
     'Petar Koretić' => 'petar'.DOTSIGN.'koretic'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -349,6 +352,7 @@ $translators = array (
     'Alex Z' => 'ad_user'.ATSIGN.'lavabit'.DOTSIGN.'com',
     'Alexandr Boltris' => 'ua2fgb'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Alexander Yashkin' => 'alex'.DOTSIGN.'aspirine'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Sergey Alyoshin' => 'alyoshin'.DOTSIGN.'s'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Artem Zolochevskiy' => 'artem'.DOTSIGN.'zolochevskiy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Roman Azarenko' => 'x12ozmouse'.ATSIGN.'ya'.DOTSIGN.'ru',
     'brdassign' => 'dmitriy'.DOTSIGN.'borodiy'.ATSIGN.'gmail'.DOTSIGN.'com',
