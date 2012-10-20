@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-10-14 00:21:17";
+$translators_stamp = "2012-10-21 00:21:13";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -38,7 +38,9 @@ $translators = array (
     'Valentin Tunev' => 'hdbuster'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Kiril Kirilov' => 'cybercop_montana'.ATSIGN.'abv'.DOTSIGN.'bg',
     'Milen Milev' => 'fanfolet'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Ognyan Kulev' => 'ogi'.ATSIGN.'tower'.DOTSIGN.'3'.DOTSIGN.'bg',
     'sahwar' => 've4ernik'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Dimitar Dimitrov' => 'insidepower'.ATSIGN.'abv'.DOTSIGN.'bg',
   ),
   'Bengali [bn]' => array (
     'Jamil Ahmed' => 'itsjamil'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -56,6 +58,7 @@ $translators = array (
     'Jordi Clariana' => 'jordiclariana'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Roger Pueyo Centelles' => 'xfce'.ATSIGN.'rogerpueyo'.DOTSIGN.'com',
     'Harald Servat' => 'redcrash'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Marc Pastor Sanz' => 'sandandmercury'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Czech [cs]' => array (
     'David Štancl' => 'dstancl'.ATSIGN.'dstancl'.DOTSIGN.'cz',
@@ -129,7 +132,6 @@ $translators = array (
     'Octavio Bernal Quiroz' => 'octavio'.DOTSIGN.'bernal'.DOTSIGN.'q'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio García' => 'oigres200'.ATSIGN.'gmail'.DOTSIGN.'com',
     'prflr88' => 'prflr88'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Santiago Gil' => 'santix91'.ATSIGN.'gmail'.DOTSIGN.'com',
     'sebikul' => '',
   ),
   'Spanish (Argentinian) [es_AR]' => array (
@@ -152,6 +154,8 @@ $translators = array (
     'Ehsan Akhlaghi' => 'esnka'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'mahmood mahm0ud' => 'mahmud'.DOTSIGN.'tehrani'.ATSIGN.'gmail'.DOTSIGN.'com',
     'numb' => 'amir007ag'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'omead' => 'mehdioa'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'vahid' => 'vahidfardi2011'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Finnish [fi]' => array (
     'Jari Rahkonen' => 'jari'.DOTSIGN.'rahkonen'.ATSIGN.'pp1'.DOTSIGN.'inet'.DOTSIGN.'fi',
