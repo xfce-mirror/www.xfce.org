@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-10-26 23:12+0200\n"
+"PO-Revision-Date: 2012-10-29 19:05+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "Language: \n"
@@ -493,7 +493,7 @@ msgstr ""
 
 #: download/index.php:25
 msgid "Individual releases"
-msgstr ""
+msgstr "Wydania indywidualne"
 
 #: download/index.php:27
 msgid ""
@@ -505,6 +505,14 @@ msgid ""
 "a> or follow the Xfce <a href=\"http://identi.ca/xfce\">identi.ca channel</"
 "a>."
 msgstr ""
+"Każdy pakiet środowiska Xfce może zostać wydany w wersji stabilnej lub "
+"rozwojowej. Dotyczy to również pakietów głównych komponentów (tak jak "
+"opisano w <a href=\"/about/releasemodel\">modelu wydawniczym</a>). Aby nie "
+"przeoczyć nowych wydań oprogramowania, można śledzić ich zapowiedzi na <a "
+"href=\"/community/lists\">liście dyskusyjnej użytkowników Xfce</a>, "
+"zasubskrybować odpowiednie <a href=\"http://archive.xfce.org/feeds/project/"
+"\">źródła wiadomości</a> lub obserwować zawartość <a href=\"http://identi.ca/"
+"xfce\">kanału Xfce identi.ca</a>."
 
 #: download/index.php:35
 #, php-format
@@ -640,7 +648,7 @@ msgstr "zawiera listę wszystkich twórców"
 
 #: about/nav.php:35 about/releasemodel.php:3
 msgid "Release Model"
-msgstr "Model wydań"
+msgstr "Model wydawniczy"
 
 #: about/nav.php:36
 msgid "the Xfce release policy for core modules"
@@ -1261,7 +1269,7 @@ msgid ""
 "documentation easier."
 msgstr ""
 "Podczas prac na wersją 4.10 zdecydowaliśmy się usunąć podręczniki "
-"użytkownika z pakietów oprogramowania i umieścić je w sieci w postaci stron "
+"użytkownika z pakietów oprogramowania i umieścić je w sieci, w postaci stron "
 "wiki, dostępnych pod adresem <a href=\"http://docs.xfce.org\">docs.xfce.org</"
 "a>. Dzięki temu tworzenie i uaktualnianie dokumentacji powinno być teraz "
 "łatwiejsze."
@@ -1282,7 +1290,7 @@ msgstr ""
 
 #: about/tour.php:17
 msgid "Collapsed view of the Application Finder"
-msgstr ""
+msgstr "Widok zwarty Wyszukiwarki programów"
 
 #: about/tour.php:19
 msgid ""
@@ -1291,14 +1299,19 @@ msgid ""
 "improvements, it now allows creating custom actions matching a prefix or a "
 "regex pattern."
 msgstr ""
+"Wyszukiwarka programów została przepisana od podstaw, po to by połączyć "
+"funkcjonalność starej wyszukiwarki i modułu do uruchamiania poleceń xfrun4. "
+"Nowa wyszukiwarka to nie tylko usprawnienia interfejsu. Teraz umożliwia ona "
+"wykonywanie różnych czynności po dopasowaniu wyszukiwanej frazy do prefiksu "
+"lub wyrażenia regularnego."
 
 #: about/tour.php:21
 msgid "Expanded view of the Application Finder"
-msgstr ""
+msgstr "Widok rozwinięty Wyszukiwarki programów"
 
 #: about/tour.php:25
 msgid "Multiple Rows"
-msgstr ""
+msgstr "Wiele wierszy"
 
 #: about/tour.php:27
 msgid ""
@@ -1307,14 +1320,17 @@ msgid ""
 "while others, like window buttons are allowed to occupy full width of the "
 "panel."
 msgstr ""
+"W wersji 4.10 dodano możliwość określenia ilości wierszy w panelu. Niektóre "
+"aplety (np. <em>aktywatory</em>) mieszczą się w jednym wierszu, podczas gdy "
+"inne, takie jak przyciski okien, mogą zajmować całą szerokość panelu."
 
 #: about/tour.php:29
 msgid "A horizontal panel with a number of rows set to three"
-msgstr ""
+msgstr "Pionowy panel posiadający trzy wiersze"
 
 #: about/tour.php:31
 msgid "Deskbar Mode"
-msgstr ""
+msgstr "Układ boczny"
 
 #: about/tour.php:33
 msgid ""
@@ -1323,28 +1339,34 @@ msgid ""
 "mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
 msgstr ""
+"Panel został wyposażony w nowy układ nazwany <em>bocznym</em>. W tym "
+"układzie panel jest ułożony pionowo, ale aplety są wyświetlane poziomo. W "
+"połączeniu z wieloma wierszami, taki układ umożliwia skonfigurowanie "
+"pionowych paneli, dobrze dopasowanych do szerokich ekranów."
 
 #: about/tour.php:35
 msgid "A panel in Deskbar mode with a number of rows set to five"
-msgstr ""
+msgstr "Panel w układzie bocznym posiadający pięć wierszów"
 
 #: about/tour.php:37
 msgid "Actions Plugin"
-msgstr ""
+msgstr "Aplet sesji"
 
 #: about/tour.php:39
 msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
 "rewritten <em>actions</em> plugin"
 msgstr ""
+"W najnowszym wydaniu połączono pakiet xfce4-session z napisanym na nowo "
+"apletem <em>przycisków sesji</em>."
 
 #: about/tour.php:41
 msgid "Action plugin in a menu mode (left), and in a button mode (right)"
-msgstr ""
+msgstr "Aplet sesji w układzie menu (lewo) i układzie przycisków (prawo)"
 
 #: about/tour.php:43
 msgid "Window Buttons"
-msgstr ""
+msgstr "Przyciski okien"
 
 #: about/tour.php:45
 msgid ""
@@ -1353,6 +1375,11 @@ msgid ""
 "add a transparent <em>separator</em> plugin with the <strong>Expand</strong> "
 "option enabled just behind the window buttons plugin."
 msgstr ""
+"<em>Przyciski okien</em> zmodyfikowano tak, by nie zajmowały całej dostępnej "
+"szerokości panelu. Dzięki temu możliwości umiejscowienia panelu są znacznie "
+"większe. Aby sprawić, by aplet zachowywał się tak jak wcześniej, należy "
+"umieścić za nim <em>separator</em> z włączoną opcją <strong>rozciągnięcia</"
+"strong>."
 
 #: about/tour.php:47 about/tour48.php:7 about/index.php:44 about/tour46.php:92
 #: about/tour44.php:28
@@ -1364,6 +1391,9 @@ msgid ""
 "There are few visual changes in this release of Thunar. The window has less "
 "padding and the position of the status bar has been adjusted."
 msgstr ""
+"Nowa wersja menedżera plików Thunar zawiera kilka zmian w interfejsie "
+"graficznym. Okno programu posiada mniejsze dopełnienia i bardziej "
+"dopracowany pasek stanu."
 
 #: about/tour.php:53
 msgid ""
@@ -1372,10 +1402,14 @@ msgid ""
 "Xfce4-tips has been removed and the session manager can now lock the screen "
 "before suspending or hibernating the system."
 msgstr ""
+"Okno <em>menedżera sesji</em> wyposażono w przycisk służący do czyszczenia "
+"zawartości zapisanych sesji (nigdy więcej <tt>rm -r ~/.config/sessions</"
+"tt>). Usunięto pakiet xfce4-tips a menedżer sesji potrafi teraz zablokować "
+"dostęp do komputera przed wstrzymaniem działania lub zahibernowaniem systemu."
 
 #: about/tour.php:55
 msgid "Applications Autostart"
-msgstr ""
+msgstr "Automatyczne uruchamianie programów"
 
 #: about/tour.php:57
 msgid ""
@@ -1397,11 +1431,11 @@ msgstr ""
 #: about/tour.php:61 about/tour48.php:71 about/tour46.php:118
 #: about/tour44.php:189
 msgid "Settings"
-msgstr ""
+msgstr "Ustawienia"
 
 #: about/tour.php:63
 msgid "Settings Daemon"
-msgstr ""
+msgstr "Demon ustawień"
 
 #: about/tour.php:65
 msgid ""
@@ -1409,6 +1443,10 @@ msgid ""
 "helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into "
 "xfsettingsd, which now handles all system settings."
 msgstr ""
+"W wydaniu 4.8 środowisko Xfce używało dwóch procesów do wprowadzania "
+"ustawień: <tt>xfce4-settings-helper</tt> i <tt>xfcsettingsd</tt>. W wydaniu "
+"4.10 fukcje obydwu usług zostały połączone w programie xfsettingsd, który "
+"teraz obsługuje wszystkie ustawienia systemowe."
 
 #: about/tour.php:69
 msgid ""
@@ -1426,7 +1464,7 @@ msgstr ""
 
 #: about/tour.php:73
 msgid "Settings Editor"
-msgstr ""
+msgstr "Edytor ustawień"
 
 #: about/tour.php:75
 msgid ""
