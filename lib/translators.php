@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-10-28 00:21:13";
+$translators_stamp = "2012-11-04 00:21:14";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -445,7 +445,7 @@ $translators = array (
   'Turkish [tr]' => array (
     'Alper Tekinalp' => 'alper'.DOTSIGN.'tekinalp'.ATSIGN.'gmail'.DOTSIGN.'com',
     'gokmen' => 'gokmen'.ATSIGN.'alageek'.DOTSIGN.'com',
-    'necdetyucel' => 'necdetyucel'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Necdet Yücel' => 'necdetyucel'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Adnan Kenar' => 'akenar06'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Akın Ömeroğlu' => 'akin'.ATSIGN.'pardus'.DOTSIGN.'org'.DOTSIGN.'tr',
     'Ramazan Gürbüz' => 'ramazangurbuz'.ATSIGN.'gmail'.DOTSIGN.'com',
