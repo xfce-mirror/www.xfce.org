@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-11-03 15:00+0100\n"
+"PO-Revision-Date: 2012-11-06 17:56+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -655,6 +655,7 @@ msgid "the Xfce release policy for core modules"
 msgstr "opisuje politykę wydań głównych komponentów Xfce"
 
 #: about/releasemodel.php:10
+#, fuzzy
 msgid ""
 "In the past the same questions and discussions have come up over and over "
 "again whenever a new release was in sight, like:"
@@ -691,7 +692,7 @@ msgstr ""
 #: about/releasemodel.php:19
 #, fuzzy
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Ile pre-wersji powinniśmy zrobić i jak będziemy je nazwać?"
+msgstr "Ile wydań kandydujących powinniśmy zrobić i jak będziemy je nazwać?"
 
 #: about/releasemodel.php:20
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
@@ -717,13 +718,12 @@ msgid ""
 msgstr ""
 
 #: about/releasemodel.php:54
-#, fuzzy
 msgid "Essential Dependencies"
 msgstr "Główne zależności"
 
 #: about/releasemodel.php:61
 msgid "The Release Cycle"
-msgstr "Cykl wydawniczy"
+msgstr "Cykl wydania"
 
 #: about/releasemodel.php:64
 msgid ""
@@ -744,7 +744,7 @@ msgstr ""
 
 #: about/releasemodel.php:72
 msgid "Example Release Cycle"
-msgstr "Przykładowy cykl wydania."
+msgstr "Przykładowy cykl wydania"
 
 #: about/releasemodel.php:75
 msgid "Planning Phase (2(+2) Weeks)"
@@ -936,7 +936,7 @@ msgstr ""
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
-msgstr "Informowanie Społeczności"
+msgstr "Poinformowanie społeczności"
 
 #: about/releasemodel.php:164
 msgid ""
@@ -1256,7 +1256,7 @@ msgstr "Xfce 4.0"
 
 #: about/tour.php:1
 msgid "Xfce 4.10 tour"
-msgstr "Prezentacja wydania 4.10"
+msgstr "Prezentacja Xfce 4.10"
 
 #: about/tour.php:5
 msgid ""
@@ -1548,6 +1548,7 @@ msgstr ""
 msgid ""
 "MIME types matching a pattern and a menu for selecting a default application"
 msgstr ""
+"Edytor typów MIME z użytym filtrem, podczas wybierania domyślnego programu"
 
 #: about/tour.php:87
 msgid "Mouse and Touchpad"
@@ -1564,16 +1565,18 @@ msgstr ""
 "Program konfiguracyjny <em>myszy i panelu dotykowego</em> potrafi obsłużyć "
 "podstawowe właściwości Synaptics i Wacom za pośrednictwem interfejsu "
 "graficznego. Demon ustawień uruchomiony w tle wspiera wszystkie rodzaje "
-"właściwości urządzeń, takie jak przedstawione na stronie wiki <a href="
+"właściwości urządzeń, takie jak te przedstawione na stronie wiki <a href="
 "\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">ustawień myszy</a>."
 
 #: about/tour.php:91
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
 msgstr ""
+"Ustawienia Synaptics panelu dotykowego w oknie konfiguracji <em>myszy i "
+"panelu dotykowego</em>"
 
 #: about/tour.php:93
 msgid "Appearance Settings"
-msgstr ""
+msgstr "Ustawienia wyglądu"
 
 #: about/tour.php:95
 msgid ""
@@ -1581,6 +1584,9 @@ msgid ""
 "<em>style</em> or <em>icon</em> list. Xfce will attempt to extract and "
 "install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory."
 msgstr ""
+"W wydaniu 4.10 możliwe jest instalowanie stylów, przeciągając pliki archiwów "
+"na listę <em>stylów</em> lub <em>ikon</em>. Po rozpakowaniu style są "
+"instalowane w położeniach <tt>~/.themes</tt> i <tt>~/.icons</tt>."
 
 #: about/tour.php:99
 msgid ""
@@ -1589,14 +1595,21 @@ msgid ""
 "has gained support for single-click operation, automated background image "
 "cycling and thumbnail rendering."
 msgstr ""
+"Początkowa koncepcja Xfce 4.10 zakładała wprowadzenie obsługi pulpitu przez "
+"program Thunar. Zdecydowaliśmy się jednak na razie tego nie robić. W "
+"międzyczasie Xfdesktop zyskał możliwość uruchamiania elementów jednokrotnym "
+"kliknięciem przycisku myszy, automatyczne zmienianie tła pulpitu i "
+"renderowanie miniatur."
 
 #: about/tour.php:101
 msgid "Desktop with image thumbnails and support for single-click operation"
 msgstr ""
+"Pulpit z miniaturami obrazów i obsługą jednokrotnego kliknięcia przycisku "
+"myszy"
 
 #: about/tour.php:103
 msgid "Xfdesktop is now shipped with a new default background image."
-msgstr ""
+msgstr "Xfdesktop posiada teraz nowy, domyślny obraz tła pulpitu."
 
 #: about/tour.php:107
 msgid ""
@@ -1605,10 +1618,15 @@ msgid ""
 "still be tiled using a keyboard shortcut. Another improvement is a better "
 "theming support and cursor key navigation in the tab window (Alt+Tab)."
 msgstr ""
+"Menedżer okien Xfwm4 potrafi teraz dopasować rozmiar przeciąganego okna do "
+"jednej z krawędzi ekranu. Ta własność jest opcjonalna i domyślnie wyłączona. "
+"Układanie okien po bokach ekranu możliwe jest także przy pomocy skrótów "
+"klawiszowych. Innymi usprawnieniami programu są lepsza obsługa stylów i "
+"sterowanie klawiszami kursora podczas przełączania pomiędzy oknami (Alt+Tab)."
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
-msgstr ""
+msgstr "Prezentacja Xfce 4.8"
 
 #: about/tour48.php:5
 msgid ""
@@ -1616,20 +1634,26 @@ msgid ""
 "4.8. This is only the visual part of what has been done; for a full list of "
 "changes, see the <a href=\"/download/changelogs/\">changelogs</a>."
 msgstr ""
+"Poniżej zaprezentowano najbardziej znaczące nowości środowiska Xfce "
+"wprowadzone w wersji 4.8. Zestawienie obejmuje jedynie zmiany dostrzegalne w "
+"interfejsie graficznym. Pełna lista znajduje się się na stronie <a href=\"/"
+"download/changelogs/\">dziennika zmian</a>."
 
 #: about/tour48.php:9
 msgid "Remote shares browsing"
-msgstr ""
+msgstr "Przeglądanie zdalnych zasobów"
 
 #: about/tour48.php:11
 msgid ""
 "Thunar now has optional support for GVFS which will allow you to browse "
 "remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
 msgstr ""
+"Thunar zyskał obsługę GVFS, która umożliwia przeglądanie zdalnych zasobów, "
+"takich jak serwery FTP, udziałów Windows, WebDav i SSH..."
 
 #: about/tour48.php:13
 msgid "Thunar browsing a remote share"
-msgstr ""
+msgstr "Przeglądanie zdalnego zasobu za pomocą programu Thunar"
 
 #: about/tour48.php:15
 msgid "New file operations progress dialog"
@@ -3194,20 +3218,19 @@ msgstr "Narzędzie śledzenia błędów"
 
 #: getinvolved/nav.php:18 community/nav.php:20
 msgid "report problems, patches or ideas to help making Xfce better"
-msgstr "umożliwia zgłaszanie problemów, poprawek lub pomysłów"
+msgstr "pozwala zgłaszać błędy, poprawki lub pomysły"
 
 #: getinvolved/nav.php:22
 msgid "Transifex"
 msgstr "Transifex"
 
 #: getinvolved/nav.php:23
-#, fuzzy
 msgid "the Xfce translation portal"
 msgstr "umożliwia tłumaczenie Xfce"
 
 #: getinvolved/nav.php:27
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: getinvolved/nav.php:28
 msgid "view the buildslaves activity"
@@ -3223,6 +3246,12 @@ msgid ""
 "of this, just read on and pick an area which interests you or seems "
 "challenging."
 msgstr ""
+"Witamy w społeczności Xfce. Dołączenie do naszego zespołu pozwoli Ci zostać "
+"częścią międzynarodowego ruchu, którego celem jest dostarczanie pozytywnych "
+"doświadczeń związanych z wolnym oprogramowaniem. Tutaj zawrzesz nowe "
+"znajomości i nabędziesz nowych umiejętności, pracując z ludźmi z całego "
+"świata. Przeczytaj poniższe informacje i wybierz sposób, w jaki chciałbyś "
+"zyskać swój udział w tym wszystkim."
 
 #: getinvolved/index.php:9
 msgid ""
@@ -3231,6 +3260,10 @@ msgid ""
 "out with promotion and marketing both on line and at tradeshows and "
 "conferences."
 msgstr ""
+"Możliwości jest wiele. Można testować oprogramowanie, zgłaszać błędy, pisać "
+"kod, opracowywać szatę graficzną, tworzyć dokumentację lub tłumaczenia. "
+"Nieocenioną pomocą będzie również zaangażowanie w działania marketingowe "
+"oraz promowanie na targach i konferencjach."
 
 #: getinvolved/index.php:12
 msgid "Documentation"
@@ -3253,7 +3286,7 @@ msgstr ""
 
 #: getinvolved/index.php:24
 msgid "Development"
-msgstr ""
+msgstr "Programowanie"
 
 #: getinvolved/index.php:26
 msgid ""
@@ -3456,7 +3489,6 @@ msgstr ""
 "panel/plain/po/fr.po\">fr.po</a>."
 
 #: getinvolved/translation.php:51
-#, fuzzy
 msgid ""
 "You can send an email to the i18n mailing-list as well with a copy (CC) to "
 "the current translator if you did find out his email. Let know your "
@@ -3465,7 +3497,10 @@ msgid ""
 "translating the different projects."
 msgstr ""
 "Kontakt z ostatnim tłumaczem można nawiązać wysyłając wiadomość na listę "
-"dyskusyjną wraz z kopią zaadresowan"
+"dyskusyjną wraz z kopią zaadresowaną bezpośrednio do tłumacza. Należy przede "
+"wszystkim poinformować o swoich zamiarach do danego tłumaczenia. Jeśli "
+"odpowiedź nie nadejdzie w najbliższym czasie (1~2 tygodnie), proszę rozważyć "
+"tłumaczenie innych projektów."
 
 #: getinvolved/translation.php:55
 msgid ""
@@ -3649,7 +3684,7 @@ msgstr "Blog"
 
 #: community/nav.php:10
 msgid "read what the contributors to Xfce have the say"
-msgstr ""
+msgstr "przechowuje publikacje twórców Xfce"
 
 #: community/nav.php:14
 msgid "Wiki"
@@ -3658,7 +3693,7 @@ msgstr "Wiki"
 #: community/nav.php:15
 #, fuzzy
 msgid "community wiki and development resources"
-msgstr "udostępnia społecznościową wiki i zasoby twórców"
+msgstr "udostępnia społecznościową wiki i zasoby programistyczne"
 
 #: community/index.php:10
 msgid ""
@@ -3667,6 +3702,9 @@ msgid ""
 "also want to have a look at the communities of the different distributions "
 "which provide Xfce."
 msgstr ""
+"Społeczność Xfce jest odpowiednim miejscem, aby uzyskać pomoc lub podzielić "
+"się swoimi pomysłami. Niektóre dystrybucje, które udostępniają Xfce, również "
+"gromadzą użytkowników wokół swoich projektów."
 
 #: community/index.php:13
 msgid "Mailing lists"
@@ -3679,19 +3717,19 @@ msgid ""
 "xfce.org\">mail.xfce.org</a>. There is also a user-specific list where you "
 "can ask questions and freely discuss about the desktop."
 msgstr ""
-"Prawie cała praca twórców oprogramowani i koordynatorów organizowana jest za "
-"pośrednictwem list dyskusyjnych Xfce. Spis wszystkich list znajduje się na "
-"stronie <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. Dostępna jest "
-"także lista przeznaczona dla użytkowników, na której można zadawać pytania i "
-"swobodnie rozmawiać o środowisku graficznym."
+"Prawie cała praca twórców oprogramowania i koordynatorów organizowana jest "
+"za pośrednictwem list dyskusyjnych Xfce. Spis wszystkich list znajduje się "
+"na stronie <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. Dostępna "
+"jest także lista przeznaczona dla użytkowników, na której można zadawać "
+"pytania i swobodnie rozmawiać o środowisku graficznym."
 
 #: community/index.php:20
 msgid ""
 "<strong>NOTE:</strong> In order to post to these lists, you must first "
 "subscribe."
 msgstr ""
-"<strong>Uwaga:</strong> Aby zamieszczać wpisy na listach, należy najpierw je "
-"zasubskrybować."
+"<strong>Uwaga:</strong> aby zamieszczać wpisy na danych listach "
+"dyskusyjnych, należy najpierw te listy zasubskrybować."
 
 #: community/index.php:23
 msgid "IRC"
@@ -3706,6 +3744,11 @@ msgid ""
 "\"external\">documentation</a> about your problem before asking your "
 "question."
 msgstr ""
+"Rozwiązań niektórych problemów można szukać na kanale IRC <a href=\"irc://"
+"irc.freenode.net/#xfce\">#xfce serwera irc.freenode.net</a>. Udziela się tam "
+"kilku aktywnych użytkowników. Przed zadaniem pytania, zaleca się zapoznać z "
+"informacjami dotyczącymi problemu na stronie <a href=\"http://docs.xfce.org/"
+"\" class=\"external\">dokumentacji</a>."
 
 #: community/index.php:31
 msgid ""
@@ -3713,6 +3756,10 @@ msgid ""
 "\"external\">Xfce Forum</a> is the place to be. Active contributors will be "
 "able to help you, but please do not use it for bug reports."
 msgstr ""
+"Użytkownikom, którzy preferują fora dyskusyjne oferujemy <a href=\"http://"
+"forum.xfce.org/\" class=\"external\">forum Xfce</a>. Publikują tam "
+"programiści, którzy często są w stanie udzielić pomocy. Prosimy jednak o to, "
+"by forum nie używać do zgłaszania błędów."
 
 #: community/index.php:34
 msgid "Social Networks"
@@ -3725,3 +3772,7 @@ msgid ""
 "announcements. It is no surprise tho that most social networks like "
 "Facebook, Twitter and Google+ have Xfce places and pages."
 msgstr ""
+"Wszystkie zapowiedzi wydań publikowane są na kanale <a href=\"http://identi."
+"ca/xfce\" class=\"external\">Xfce</a> serwisu Identi.ca. Większość sieci "
+"społecznościowych, takich jak Facebook, Twitter czy Google+ również "
+"posiadają strony dedykowane Xfce."
