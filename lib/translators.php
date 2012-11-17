@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-11-11 00:21:14";
+$translators_stamp = "2012-11-18 00:21:14";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -209,6 +209,7 @@ $translators = array (
     'Gabor Kelemen' => 'kelemeng'.ATSIGN.'gnome'.DOTSIGN.'hu',
     'László Horváth' => 'leslie'.DOTSIGN.'translate'.ATSIGN.'yahoo'.DOTSIGN.'co'.DOTSIGN.'uk',
     'Zelenak Sandor' => 'nem11nator'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Imre Benedek' => 'nucleo'.ATSIGN.'indamail'.DOTSIGN.'hu',
   ),
   'Armenian [hy]' => array (
     'sssilver' => 'sssilver'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -491,6 +492,7 @@ $translators = array (
     'Yarema aka Knedlyk' => 'yupadmin'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Maxim Dziumanenko' => 'dziumanenko'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Olexandr Nesterenko' => 'olexn'.ATSIGN.'ukr'.DOTSIGN.'net',
+    'Pavlo Bilyak' => 'jpavlo11'.ATSIGN.'ukr'.DOTSIGN.'net',
     'Oleksandr Natalenko' => 'pfactum'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Andriy Matkovsky' => 'sidius'.DOTSIGN.'ua'.ATSIGN.'gmail'.DOTSIGN.'com',
     'tarabopm' => 'tarabopm'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -512,6 +514,7 @@ $translators = array (
     'haobug' => 'qinghao1'.ATSIGN.'foxmail'.DOTSIGN.'com',
     'Ganghua Leng' => 'hiweed'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Michael Lin' => 'linmx0130'.ATSIGN.'163'.DOTSIGN.'com',
+    'Howard Chan' => 'smartboyhw'.ATSIGN.'gmail'.DOTSIGN.'com',
     'tuhaihe' => '1132321739qq'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Chinese (Taiwan) [zh_TW]' => array (
@@ -522,7 +525,7 @@ $translators = array (
     'Yu-Fu Wu' => 'wennynnewenny'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ruei-Yuan Lu' => 'RueiYuan'.DOTSIGN.'Lu'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Howard Chan' => 'smartboyhw'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Chia-Han Lee' => 'gloomysaga'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Chia-Han Lee' => 'sonronlee'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Walter cheuk' => 'wwycheuk'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
 );
