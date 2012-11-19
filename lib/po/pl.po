@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-11-16 18:27+0100\n"
+"PO-Revision-Date: 2012-11-19 20:10+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -655,44 +655,41 @@ msgid "the Xfce release policy for core modules"
 msgstr "opisuje politykę wydań głównych komponentów Xfce"
 
 #: about/releasemodel.php:10
-#, fuzzy
 msgid ""
 "In the past the same questions and discussions have come up over and over "
 "again whenever a new release was in sight, like:"
 msgstr ""
-"W przeszłości, te same pytania i dyskusje wypływały w nieskończoność, za "
-"każdym razem gdy nowe wydanie było w zasięgu wzroku, jak:"
+"W przeszłości, przy okazji prac nad każdym nowym wydaniem, pojawiały się "
+"wciąż te same pytania, np.:"
 
 #: about/releasemodel.php:14
 msgid "What are the core components of Xfce?"
 msgstr "Jakie są główne komponenty środowiska Xfce?"
 
 #: about/releasemodel.php:15
-#, fuzzy
 msgid ""
 "How often do we want to release and in what fashion (time-based, feature-"
 "based)?"
 msgstr ""
-"Jak często wydawane będą kolejne wersje i zależnie od czego (czas, nowe "
-"funkcjonalności)?"
+"Jak często będą pojawiać się kolejne wydawania i od czego jest to zależne "
+"(upływ czasu, nowe cechy)?"
 
 #: about/releasemodel.php:16
 msgid "Who's in charge of the release process?"
-msgstr "Kto nadzoruje cykl wydawniczy?"
+msgstr "Kto nadzoruje cykl wydania?"
 
 #: about/releasemodel.php:17
 msgid "What dependency versions do we depend on?"
-msgstr ""
+msgstr "Które wersje programów przyjąć za referencyjne?"
 
 #: about/releasemodel.php:18
+#, fuzzy
 msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr ""
-"Kiedy mają miejsce blokowanie nowych funkcjonalności, mrożenie kodu itp.?"
+msgstr "Kiedy odbywa się blokowanie nowych cech, zamrażanie kodu itp.?"
 
 #: about/releasemodel.php:19
-#, fuzzy
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Ile wydań kandydujących powinniśmy zrobić i jak będziemy je nazwać?"
+msgstr "Ile powinno zostać opublikowanych wydań testowych?"
 
 #: about/releasemodel.php:20
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
@@ -703,8 +700,8 @@ msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
 msgstr ""
-"Niniejszy dokument ma na celu odpowiedzieć na te pytania i celuje w "
-"zdefiniowanie zasad do których możemy się odwołać planując wydania."
+"Niniejszy dokument ma na celu zgromadzić odpowiedzi na te pytania i opisać "
+"zasady, do których należy się odwoływać podczas planowania wydań."
 
 #: about/releasemodel.php:27
 #, fuzzy
@@ -2091,10 +2088,15 @@ msgid ""
 "<b>Xfce 4.6</b>, the <b>Xfdesktop</b> manager finally implements this "
 "feature: you can select multiple icons, remove them, etcetera..."
 msgstr ""
+"Od czasu wprowadzenia ikon pulpitu w Xfce 4.4, użytkownicy prosili o "
+"możliwość wybierania wielu ikon za pomocą prostokątnego zaznaczenia. Wydanie "
+"<b>Xfce 4.6</b> implementuje tę funkcję w programie <b>Xfdesktop</b>. Od "
+"teraz można na raz zaznaczać po kilka plików znajdujących się na pulpicie, "
+"usuwać je, itp."
 
 #: about/tour46.php:15
 msgid "Multiple icons selection"
-msgstr ""
+msgstr "Zaznaczanie wielu ikon"
 
 #: about/tour46.php:18
 msgid ""
@@ -2114,10 +2116,13 @@ msgid ""
 "particularly for multiple screen setups, but this new release also brings an "
 "improved set of panel plugins."
 msgstr ""
+"Naprawiono wiele błędów programu <b>Xfce Panel</b>, szczególnie te dotyczące "
+"konfiguracji przeznaczonych dla wielu ekranów. Wraz z panelem udostępniono "
+"udoskonalony zestaw apletów."
 
 #: about/tour46.php:29
 msgid "New binary clock"
-msgstr ""
+msgstr "Nowy zegar binarny"
 
 #: about/tour46.php:32
 msgid ""
@@ -2948,10 +2953,10 @@ msgid ""
 "on April 28th, 2012."
 msgstr ""
 "Zespół twórców Xfce z dumą ogłasza wydanie drugiej wersji testowej Xfce "
-"4.10. Wraz z tą odsłoną następuje zamrożenie ciągów i kodu (z wyjątkiem "
-"napraw krytycznych błędów i wycofania zmian). Ten stan będzie utrzymany do "
-"czasu wydania ostatecznej wersji 4.10, które zaplanowane jest na 28 "
-"kwietnia, 2012."
+"4.10. Wraz z tą odsłoną następuje zamrożenie ciągów i kodu oprogramowania (z "
+"wyjątkiem napraw krytycznych błędów i wycofania zmian). Ten stan będzie "
+"utrzymany do czasu wydania ostatecznej wersji 4.10, które zaplanowane jest "
+"na 28 kwietnia, 2012."
 
 #: news-array.php:39
 msgid ""
@@ -2970,12 +2975,18 @@ msgid ""
 "thoughts, blogging, tweeting or by filing bug reports! With your help, 4.10 "
 "will be the best release ever (at least until 4.12)!"
 msgstr ""
+"Mamy nadzieję, że to wydanie sprawi wszystkim użytkownikom dużo satysfakcji. "
+"Prosimy o zamieszczanie opinii na rozmaitych kanałach dyskusyjnych lub w "
+"zgłoszeniach błędów! Z pomocą społeczności, wydanie 4.10 stanie się tym "
+"najlepszym (przynajmniej do czasu wydania 4.12)!"
 
 #: news-array.php:41 news-array.php:54
 msgid ""
 "Kind regards and thanks to everyone who has contributed to this release,<br /"
 ">The Xfce development team"
 msgstr ""
+"Pozdrowienia i podziękowania dla wszystkich, którzy mają swój udział w tym "
+"wydaniu,<br />Zespół twórców Xfce"
 
 #: news-array.php:43
 msgid "Xfce 4.10pre1 released"
@@ -2988,8 +2999,13 @@ msgid ""
 "the feature freeze for the final 4.10 release which is set to be pushed out "
 "to the world on April 28th, 2012."
 msgstr ""
+"Zespół twórców Xfce z dumą ogłasza wydanie pierwszej wersji testowej Xfce "
+"4.10. Wraz z tą odsłoną następuje zamrożenie cech oprogramowania. Ten stan "
+"będzie utrzymany do czasu wydania ostatecznej wersji 4.10, które zaplanowane "
+"jest na 28 kwietnia, 2012."
 
 #: news-array.php:49
+#, fuzzy
 msgid ""
 "This release incorporates major changes to the core of the Xfce desktop "
 "environment and hopefully succeeds in fulfilling a number of long time "
@@ -3010,6 +3026,8 @@ msgid ""
 "now has support for tiling windows and arrow key navigation in the task "
 "switcher."
 msgstr ""
+"To wydanie zawiera kilka dużych zmian w głównych komponentach środowiska. "
+"Mamy nadzieję, że zmiany te zaspokoją większość "
 
 #: news-array.php:50
 msgid ""
