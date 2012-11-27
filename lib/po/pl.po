@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-11-23 20:29+0100\n"
+"PO-Revision-Date: 2012-11-27 11:27+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -1946,7 +1946,7 @@ msgstr "Zmiany w bieżącym wydaniu"
 
 #: about/news.php:61
 msgid "Permalink"
-msgstr ""
+msgstr "Odnośnik bezpośredni"
 
 #: about/news.php:79
 msgid "No news articles found."
@@ -2162,11 +2162,11 @@ msgid ""
 "you to set the system sound quickly using the mouse scroll wheel."
 msgstr ""
 "Program <b>Xfce4 Mixer</b> został przepisany od podstaw, implementując "
-"obsługę serwera<a href=\"http://www.gstreamer.net/\">Gstreamer</a>. Dzięki "
-"temu zabiegowi uzyskano wsparcie dla wielu systemów dźwięku, usprawniono "
-"interfejs użytkownika i umożliwiono działanie z kilkoma różnymi kartami "
-"dźwiękowymi. Dodatkowo aplet panelu daje możliwość ustalenia poziomu "
-"natężenia dźwięku, przy użyciu kółka myszy."
+"obsługę platformy programistycznej <a href=\"http://www.gstreamer.net/"
+"\">Gstreamer</a>. Dzięki temu zabiegowi uzyskano wsparcie dla wielu systemów "
+"dźwięku, usprawniono interfejs użytkownika i umożliwiono działanie z kilkoma "
+"różnymi kartami dźwiękowymi. Dodatkowo aplet panelu daje możliwość ustalenia "
+"poziomu natężenia dźwięku, przy użyciu kółka myszy."
 
 #: about/tour46.php:41
 msgid "New sound mixer"
@@ -2181,10 +2181,15 @@ msgid ""
 "you are not left without a desktop, panel, window manager, etcetera, if a "
 "crash occurs. "
 msgstr ""
+"<b>Xfce 4.6</b> wyposażono w ulepszony menedżer sesji. Przyspieszono proces "
+"logowania użytkownika a okno ustawień zostało zmodyfikowane, tak by uprościć "
+"zarządzanie programami sesji. Od teraz każdy program, który ulegnie awarii "
+"zostanie ponownie uruchomiony. Dzięki temu sesja użytkownika pozostanie "
+"funkcjonalna, bez względu na zaistniałe problemy."
 
 #: about/tour46.php:49
 msgid "Session settings dialog"
-msgstr ""
+msgstr "Okno konfiguracji sesji"
 
 #: about/tour46.php:52
 msgid ""
@@ -2193,10 +2198,13 @@ msgid ""
 "now has two additional buttons which offer to suspend or hibernate your "
 "computer."
 msgstr ""
+"Menedżer sesji zyskał też obsługę <b>wstrzymywania</b> i <b>hibernowania</b> "
+"działania systemu. Okno kończenia sesji posiada teraz dwa dodatkowe "
+"przyciski, które umożliwiają użycie tych funkcji."
 
 #: about/tour46.php:55
 msgid "Session logout dialog"
-msgstr ""
+msgstr "Okno kończenia sesji"
 
 #: about/tour46.php:60
 msgid ""
@@ -2204,56 +2212,71 @@ msgid ""
 "many bugs have been fixed, support for multiple displays has been added, and "
 "overall performance has been improved."
 msgstr ""
+"Podczas cyklu bieżącego wydania, odrobinę udoskonalono menedżer okien "
+"<b>Xfwm4</b>. Naprawiono wiele błędów, dodano obsługę wielu ekranów i "
+"ulepszono ogólną wydajność programu."
 
 #: about/tour46.php:63
 msgid ""
 "In addition to some other new features, <b>Xfwm4</b> is now able to detect "
 "windows that do not respond and offer to terminate them."
 msgstr ""
+"Dodatkowo <b>Xfwm4</b> potrafi teraz wykryć okna, które nie odpowiadają i "
+"zaoferować zakończenie działania ich programów."
 
 #: about/tour46.php:66
 msgid "Dialog to terminate busy applications"
-msgstr ""
+msgstr "Okno kończenia działania nieodpowiadających programów"
 
 #: about/tour46.php:69
 msgid ""
 "There is also a new <b>actions menu</b> which allows you to quickly move and "
 "resize windows, put them above or below other windows, or fullscreen them."
 msgstr ""
+"Dostępne jest także nowe <b>menu poleceń okna</b>, umożliwiające szybie "
+"przemieszczenie okna, zmianę jego rozmiaru, wyświetlanie go nad lub pod "
+"innymi oknami lub wyświetlenie jego zawartości na pełnym ekranie."
 
 #: about/tour46.php:72
 msgid "New actions menu"
-msgstr ""
+msgstr "Nowe menu poleceń okna"
 
 #: about/tour46.php:75
 msgid ""
 "A new <b>fill</b> operation has been implemented; it expands a given window "
 "to the available space without overlapping other adjacent windows."
 msgstr ""
+"Zaimplementowano nowe polecenie okna o nazwie <b>wypełnienie</b>. Umożliwia "
+"ono dopasowanie rozmiaru okna w taki sposób, by wypełnić całą dostępną "
+"powierzchnię pulpitu, nie przykrywając przy tym pozostałych okien."
 
 #: about/tour46.php:78
 msgid "Fill operation"
-msgstr ""
+msgstr "Polecenie wypełniania"
 
 #: about/tour46.php:81
 msgid ""
 "The <b>compositor</b> has been optimized to reduce window flickering "
 "duringresize operations."
 msgstr ""
+"Zoptymalizowany został <b>kompozytor</b> okien. Dzięki temu zmniejszeniu "
+"uległ efekt migania zawartości okien, podczas zmieniania ich rozmiaru."
 
 #: about/tour46.php:84
 msgid "Flicker free resizing"
-msgstr ""
+msgstr "Zmienianie rozmiaru okien bez migania"
 
 #: about/tour46.php:87
 msgid ""
 "Some <b>tweakable options</b> have also been added: for example, you can now "
 "disable the blinking of windows when they receive an urgency hint."
 msgstr ""
+"Dodano kilka <b>nowych opcji</b>. Na przykład można teraz wyłączyć miganie "
+"okien, które otrzymały powiadomienie o pilności."
 
 #: about/tour46.php:90
 msgid "New tweakable options"
-msgstr ""
+msgstr "Usprawnienia w postaci nowych opcji"
 
 #: about/tour46.php:95
 msgid ""
@@ -2805,7 +2828,7 @@ msgstr ""
 
 #: about/tour44.php:224
 msgid "Written by Benedikt Meurer, 21 Jan 2007"
-msgstr ""
+msgstr "Opracował Benedikt Meurer, 21 styczeń 2007"
 
 #: about/credits.php:47
 msgid ""
@@ -2947,8 +2970,8 @@ msgid ""
 "This release can be downloaded either as a set of individual packages or as "
 "a single fat tarball including all these individual versions:"
 msgstr ""
-"Nowe wydanie usostępniono w osobnych plikach pakietów lub w jednym pliku "
-"archiwum, zawierającym wszystkie pakiety:"
+"Nowe wydanie można pobrać w osobnych plikach archiwów lub w jednym pliku, "
+"zawierającym wszystkie pakiety:"
 
 #: news-array.php:30
 msgid ""
@@ -3232,6 +3255,9 @@ msgid ""
 "There is a lot more to discover and we hope a lot of you will give Xfce 4.8 "
 "a try! There is a brief tour online on"
 msgstr ""
+"W Xfce 4.8 zawarto znacznie więcej zmian. Mamy nadzieję, że wielu "
+"użytkowników odważy się przetestować nowe wydanie. Krótka prezentacja "
+"nowości znajduje się na stronie"
 
 #: news-array.php:70
 msgid ""
@@ -3239,12 +3265,17 @@ msgid ""
 "the following URL (it also includes links to the changes introduced in all "
 "preview releases):"
 msgstr ""
+"Podsumowanie zmian wprowadzonych od wydania wersji testowej 4.8pre3 dostępne "
+"jest pod następującym adresem (zawiera także odnośniki do zmian we "
+"wszystkich wersjach testowych):"
 
 #: news-array.php:72
 msgid ""
 "The release can be downloaded either as individual releases or as a fat "
 "tarball including all these individual versions:"
 msgstr ""
+"Nowe wydanie można pobrać w osobnych plikach archiwów lub w jednym pliku, "
+"zawierającym wszystkie pakiety:"
 
 #: news-array.php:74
 msgid ""
@@ -3252,6 +3283,10 @@ msgid ""
 "schedule will be worked on soon and hopefully, we will be able to turn Xfce "
 "into a non-profit organization at this year's FOSDEM, so stay tuned!"
 msgstr ""
+"Rok 2011 właśnie się rozpoczął, a my rozpoczynamy planowanie nowego wydania. "
+"Harmonogram prac dla 4.10 zostanie niedługo udostępniony. Mamy nadzieję, że "
+"uda nam się nasze przedsięwzięcie przekształcić w organizację non-profit "
+"podczas tegorocznej konferencji FOSDEM."
 
 #: news-array.php:75
 msgid ""
@@ -3259,6 +3294,9 @@ msgid ""
 "celebrating. Thanks go out to all our contributors, bug reporters as well as "
 "the awesome efforts of our translators and packagers. "
 msgstr ""
+"Jednak póki co, wraz ze wszystkimi użytkownikami świętujemy dzisiejsze "
+"wydanie. Dziękujemy za wkład wszystkim programistom, zgłaszającym błędy oraz "
+"tłumaczom i twórcom pakietów."
 
 #: news-array.php:83
 msgid ""
@@ -3267,6 +3305,10 @@ msgid ""
 "16th, 2011. Compared to Xfce 4.8pre2 this release mostly features "
 "translation updates and bug fixes."
 msgstr ""
+"Mamy przyjemność ogłosić wydanie trzeciej i miejmy nadzieję ostatniej wersji "
+"testowej Xfce 4.8, które planowane jest na 16 styczeń, 2011. W porównaniu z "
+"wersją Xfce 4.8pre2, na to wydanie składają się głównie uaktualnienia "
+"tłumaczeń i naprawy błędów."
 
 #: news-array.php:84
 msgid ""
@@ -3412,8 +3454,9 @@ msgid ""
 msgstr ""
 
 #: news-array.php:124
+#, fuzzy
 msgid "The first bugfix-release of xfce 4.6 has been released."
-msgstr ""
+msgstr "Wydano pierwszą poprawkę Xfce w wersji 4.6."
 
 #: news-array.php:125
 msgid ""
@@ -3443,12 +3486,17 @@ msgid ""
 "and the rest of Xfce's core components. A list of all the changes since the "
 "last release candidate can be found on this page."
 msgstr ""
+"W wydaniu Xfce 4.6 pojawił się nowy moduł obsługi konfiguracji, nowy "
+"menedżer ustawień, mikser dźwięku i kilka dużych usprawnień menedżera sesji "
+"oraz pozostałych kluczowych komponentów środowiska. Poniżej znajduje się "
+"odnośnik do listy wszystkich zmian wprowadzonych od czasu wersji testowych."
 
 #: news-array.php:135
 msgid ""
 "A visual overview of Xfce 4.6 is available <a href=\"/about/tour46\">here</"
 "a>."
-msgstr "Prezentacja Xfce 4.6 znajduje się <a href=\"/about/tour46\">tutaj</a>."
+msgstr ""
+"Prezentację Xfce 4.6 można zobaczyć <a href=\"/about/tour46\">tutaj</a>."
 
 #: getinvolved/nav.php:7 getinvolved/index.php:18
 #: getinvolved/translation.php:3
