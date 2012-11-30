@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-11-28 16:33+0100\n"
+"PO-Revision-Date: 2012-11-30 13:32+0100\n"
 "Last-Translator: Roland Kübert <roland@upic.de>\n"
 "Language-Team: German <xfce-i18n-de@xfce.org>\n"
 "MIME-Version: 1.0\n"
@@ -1082,8 +1082,9 @@ msgid "There are few visual changes in this release of Thunar. The window has le
 msgstr "Es gibt wenig sichtbare Änderungen in dieser Version von Thunar. Das Fenster hat weniger auffüllende Ränder und die Position der Statusleiste wurde angepasst."
 
 #: about/tour.php:53
+#, fuzzy
 msgid "The <em>session manager</em>&apos;s settings dialog has a button for clearing the saved session (no more <tt>rm -r ~/.config/sessions</tt>). Xfce4-tips has been removed and the session manager can now lock the screen before suspending or hibernating the system."
-msgstr ""
+msgstr "Der Einstellungsdialog der <em>Sitzungsverwaltung</em> verfügt jetzt über einen Knopf um die gespeicherten Sitzungen zu löschen (<tt>rm -r ~/.config/sessions</tt> ist damit nicht mehr nötig). Xfce4-tips wurde entfernt und die Sitzungsverwaltung kann jetzt den Bildschirm sperren bevor das System in den Standy oder den Ruhezustand geht."
 
 #: about/tour.php:55
 msgid "Applications Autostart"
@@ -1113,64 +1114,75 @@ msgid "Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-hel
 msgstr "Xfce 4.8 verwendete zwei Prozesse zum Anwenden von Einstellungen: <tt>xfce4-settings-helper</tt> und <tt>xfsettingsd</tt>. In 4.10 wurden diese in xfsettingsd zusammengefasst, welcher nun alle Systemeinstellungen regelt."
 
 #: about/tour.php:69
+#, fuzzy
 msgid "The new <em>settings manager</em> groups configuration dialogs in categories and allows you to search for their names or descriptions. Most of the dialogs are also now embedded in the settings manager window (this was a compile-time option in Xfce 4.8)."
-msgstr ""
+msgstr "Die neue <em>Einstellungsverwaltung</em> gruppiert Dialoge in Kategorien und erlaubt die einfache Suche nach Namen oder Beschreibungen. Die meisten Dialoge sind auch direkt im Fenster der Einstellungsverwaltung verfügbar (bei Xfce 4.8 war das eine Einstellung die zur Zeit der Programmübersetzung vorgenommen werden musste)."
 
 #: about/tour.php:71
+#, fuzzy
 msgid "The settings manager with icons grouped by category and a search filter applied"
-msgstr ""
+msgstr "Die Einstellungsverwaltung mit Symbolen nach Kategorie angeordnet und mit einem eingegebenen Suchbegriff"
 
 #: about/tour.php:73
 msgid "Settings Editor"
 msgstr "Einstellungseditor"
 
 #: about/tour.php:75
+#, fuzzy
 msgid "The <em>settings editor</em> no longer collapses the entire tree when you edit a property (this is because it now reloads a single cell rather than the whole tree). Most properties can now be edited in-place, making it easier to quickly adjust settings."
-msgstr ""
+msgstr "Der <em>Einstellungseditor</em> klappt nicht mehr den kompletten Baum ein wen eine Eigenschaft bearbeitet wird (der Editor lädt jetzt nur eine einzelne Zelle neu und nicht den kompletten Baum). Die meisten Eigenschaften können jetzt direkt bearbeitet werden, was die schnelle Anpassung von Einstellungen erleichtert."
 
 #: about/tour.php:77
+#, fuzzy
 msgid "Using settings editor you can also monitor changes of settings in a selected channel. Right-click on a channel in the main window, and select <strong>Monitor</strong> to display the monitor window."
-msgstr ""
+msgstr "Mit dem Einstellungseditor können Sie auch die Änderungen von Einstellungen in ausgewählten Kanälen überwachen. Klicken Sie mit rechts auf einen Kanal im Hauptfenster und wählen Sie <strong>Monitor</strong> um ein Monitorfenster anzuzeigen. "
 
 #: about/tour.php:79
+#, fuzzy
 msgid "Settings editor with an open channel monitor, while editing a property in-place"
-msgstr ""
+msgstr "Einstellungseditor mit einem Kanal-Monitor während eine Eigenschaft direkt geändert wird"
 
 #: about/tour.php:81
 msgid "MIME Type Editor"
 msgstr "MIME-Typen-Editor"
 
 #: about/tour.php:83
+#, fuzzy
 msgid "In the last couple of years, many people were asking for a tool to manage their file type associations. The new <em>MIME type editor</em> does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons)."
-msgstr ""
+msgstr "In den letzten Jahren wünschten sich viele Nutzer ein Werkzeug mit dem sie die Zuordnung von Dateitypen zu Anwendungen verwalten könnten.  Der neue <em>MIME-Typ-Editor</em> bietet genau diese Funktionalität. Mit dem MIME-Typ-Editor können Sie sehr leicht eine Standardanwendung für einen Dateityp auswählen, Ihre Änderungen betrachten und diese, falls nötig, auf Standardeinstellungen zurück setzen. Beachten Sie bitte, dass der Editor es Ihnen nicht erlaubt, die System-MIME-Typen zu ändern (hinzufügen oder entfernen von MIME-Typen und Änderungen der Symbole)."
 
 #: about/tour.php:85
+#, fuzzy
 msgid "MIME types matching a pattern and a menu for selecting a default application"
-msgstr ""
+msgstr "MIME-Typen, die einem Muster entsprechen und ein Menü für die Auswahl der Standardanwendung"
 
 #: about/tour.php:87
 msgid "Mouse and Touchpad"
 msgstr "Maus und Touchpad"
 
 #: about/tour.php:89
+#, fuzzy
 msgid "The <em>mouse and touchpad</em> dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki."
-msgstr ""
+msgstr "Mit dem <em>Maus und Touchpad</em>-Dialog können Einstellung für Synaptics und Wacom in der graphischen Benutzeroberfläche vorgenommen werden. Ein Einstellungs-Daemon läuft im Hintergrund und verwaltet alle Eigenschaften der Geräte, wie im <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">Maus-Einstellungen-Wiki</a> angegeben."
 
 #: about/tour.php:91
+#, fuzzy
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
-msgstr ""
+msgstr "Synaptics-Touchpad-Einstellungen im <em>Maus und Touchpad</em>-Dialog"
 
 #: about/tour.php:93
 msgid "Appearance Settings"
 msgstr "Einstellungen des Erscheinungsbildes"
 
 #: about/tour.php:95
+#, fuzzy
 msgid "In 4.10 you can drag and drop a tarball with a downloaded theme onto the <em>style</em> or <em>icon</em> list. Xfce will attempt to extract and install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory."
-msgstr ""
+msgstr "In Xfce 4.10 können Sie einen Tarball mit einem heruntergeladenen Theme auf die <em>Oberfläche</em>- oder <em>Symbole>-Liste ziehen. Xfce versucht, das Theme zu entpacken und die Dateien in <tt>~/.themes</tt> oder <tt>~/.icons</tt> zu installieren."
 
 #: about/tour.php:99
+#, fuzzy
 msgid "Although the initial plan for Xfce 4.10 was to integrate desktop handling in Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop has gained support for single-click operation, automated background image cycling and thumbnail rendering."
-msgstr ""
+msgstr "Ursprünglich war vorgesehen, in Xfce 4.10 die Arbeitsflächenverwaltung in Thunar zu integrieren, die wurde aber bisher noch nicht durchgeführt. In der Zwischenzeit wurde Xfdesktop um Unterstützung für Einfachklicks, automatischen Wechsel von Hintergrundbildern und die Anzeige von Vorschaubildern erweitert."
 
 #: about/tour.php:101
 msgid "Desktop with image thumbnails and support for single-click operation"
@@ -1181,8 +1193,9 @@ msgid "Xfdesktop is now shipped with a new default background image."
 msgstr "Xfdesktop wird nun mit einem neuen Standard-Hintergrundbild ausgeliefert."
 
 #: about/tour.php:107
+#, fuzzy
 msgid "Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab)."
-msgstr ""
+msgstr "Xfwm4 kann jetzt Fenster kacheln, wenn Sie sie an die Kante des Bildschirms ziehen. Diese Eigenschaft ist optional und standardmäßig deaktiviert. In diesem Fall können Fenster immer noch mit einem Tastaturkürzel gekachelt werden. Eine weitere Verbesserung ist bessere Unterstützung für Themes und die Navigation mit den Cursor-Tasten im Tab-Fenster (Alt+Tab)."
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
