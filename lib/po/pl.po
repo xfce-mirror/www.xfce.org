@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-12-04 20:03+0100\n"
+"PO-Revision-Date: 2012-12-07 12:46+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -711,9 +711,8 @@ msgstr ""
 "zasady, do których należy się odwoływać podczas planowania wydań."
 
 #: about/releasemodel.php:27
-#, fuzzy
 msgid "The Xfce Core Desktop"
-msgstr "Rdzeń środowiska Xfce "
+msgstr "Główne komponenty środowiska Xfce"
 
 #: about/releasemodel.php:51
 msgid ""
@@ -907,10 +906,13 @@ msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
 msgstr ""
+"Podczas pierwszych 2 tygodni fazy planowania opiekun każdego komponentu "
+"powinien"
 
 #: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
 msgstr ""
+"sporządzić listę funkcji, które chce zaimplementować w trakcie cyklu wydania,"
 
 #: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
@@ -1016,7 +1018,7 @@ msgid ""
 "release:"
 msgstr ""
 "W czasie fazy publikowania, ogłoszone zostaną trzy wydania testowe i jedno "
-"końcowe:"
+"finalne:"
 
 #: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
@@ -1043,6 +1045,12 @@ msgid ""
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
 msgstr ""
+"gdzie Y jest liczbą parzystą. Każde z tych wydać powinno zawierać ostatnie "
+"wersje robocze (lub stabilne, jeśli nie wydano żadnej wersji roboczej od "
+"czasu ostatniego wydania finalnego) wszystkich głównych komponentów "
+"środowiska. Numeracja wersji tych komponentów może (a nawet powinna) różnić "
+"się od wzoru podanego powyżej. Na przykład w wydaniu Xfce 4.8.0pre2, może "
+"znajdować się program xfwm4 w wersji 4.7.17 a program Thunar w wersji 1.1.9."
 
 #: about/releasemodel.php:217
 msgid ""
@@ -1051,6 +1059,11 @@ msgid ""
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
 msgstr ""
+"Oznacza to, że opiekunowie poszczególnych komponentów nie mają obowiązku "
+"publikować nowych wersji oprogramowania wraz z kolejnymi wydaniami "
+"środowiska. Zespół wydania podczas kompletowania pakietów do wersji testowej "
+"lub finalnej, wybiera zawsze ostatnią dostępną, roboczą lub stabilną wersję "
+"każdego komponentu."
 
 #: about/releasemodel.php:221
 msgid ""
@@ -1060,11 +1073,13 @@ msgstr ""
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "Wstrzymywanie zmian przed publikowaniem wydań"
 
 #: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
 msgstr ""
+"Przed opublikowaniem poszczególnych wydań wstrzymywane są zmiany różnych "
+"cech oprogramowania."
 
 #: about/releasemodel.php:230
 msgid "Feature Freeze"
@@ -1076,10 +1091,13 @@ msgid ""
 "there on only translations and bugfixes are allowed to go into the master "
 "branch."
 msgstr ""
+"Wraz z wydaniem Xfce X.Ypre1, we wszystkich kluczowych komponentach zostają "
+"wstrzymane zmiany funkcji. Oznacza to, że od tego momentu w głównej gałęzi "
+"możliwe jest tylko uaktualnianie tłumaczeń i naprawianie błędów."
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "Wstrzymanie zmian komunikatów/interfejsu użytkownika"
 
 #: about/releasemodel.php:239
 msgid ""
@@ -1087,10 +1105,13 @@ msgid ""
 "from there on no strings which affect translations may be changed. Same goes "
 "for the user interface which may not be changed after this point."
 msgstr ""
+"Wydanie Xfce X.Ypre2 powoduje wstrzymanie zmian tłumaczonych komunikatów "
+"oraz interfejsu użytkownika. Od tej chwili nie można modyfikować "
+"wspomnianych elementów oprogramowania."
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
-msgstr ""
+msgstr "Wstrzymanie zmian kodu"
 
 #: about/releasemodel.php:245
 msgid ""
@@ -1098,6 +1119,9 @@ msgid ""
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
 msgstr ""
+"Przed wydaniem każdej wersji testowej następuje krótkie, 2-dniowe "
+"wstrzymanie zmian w kodzie. W tym czasie, do repozytorium nie można wysyłać "
+"żadnych poprawek, chyba że zezwoli na to menedżer wydania."
 
 #: about/releasemodel.php:249
 msgid ""
@@ -1106,6 +1130,11 @@ msgid ""
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
 msgstr ""
+"Wstrzymanie zmian w kodzie następuje również po wydaniu Xfce X.Ypre3. "
+"Wszelkie zmiany w kodzie są niedozwolone, o ile nie uzyskają akceptacji "
+"menedżera wydania. Zmiany, które zostaną zatwierdzone powinny tylko "
+"naprawiać błędy blokujące wydanie lub krytyczne błędy. Uaktualnienia "
+"tłumaczeń są wciąż możliwe."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
@@ -1131,7 +1160,7 @@ msgstr ""
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
-msgstr "Poprawki błędów/Zmiany"
+msgstr "Naprawy błędów/zmiany"
 
 #: about/releasemodel.php:269
 msgid ""
@@ -2721,7 +2750,7 @@ msgstr ""
 
 #: about/tour44.php:131
 msgid "Time Management"
-msgstr ""
+msgstr "Zarządzanie czasem"
 
 #: about/tour44.php:134
 msgid ""
@@ -2729,6 +2758,9 @@ msgid ""
 "b>, which was introduced with Xfce 4.2.0. <b>Orage</b> provides several "
 "features to efficiently manage your time."
 msgstr ""
+"Nowy organizer i kalendarz <b>Orage</b> zastępuje program <b>Xfcalendar</b> "
+"zaprezentowany wraz z Xfce 4.2.0. Program udostępnia kilka funkcji służących "
+"do efektywnego zarządzania czasem."
 
 #: about/tour44.php:140
 msgid ""
@@ -3202,7 +3234,7 @@ msgid ""
 "announcing the much awaited release of Xfce 4.8, the new stable version that "
 "supersedes Xfce 4.6."
 msgstr ""
-"Dzisiaj, prawie po dwóch latach pracy, mamy przyjemność ogłosić wielce "
+"Dzisiaj, prawie po dwóch latach pracy, mamy przyjemność ogłosić długo "
 "oczekiwane wydanie środowiska Xfce 4.8. Jest to nowa stabilna wersja, która "
 "zastępuje Xfce 4.6."
 
@@ -3230,7 +3262,7 @@ msgid ""
 "efforts to drop pieces like ThunarVFS and HAL with GIO, udev, ConsoleKit and "
 "PolicyKit will help bringing the Xfce desktop to modern distributions."
 msgstr ""
-"Xfce 4.8 jest próbą zaktualizowania w Xfce obsługi wszystkich nowych "
+"Xfce 4.8 jest próbą zaktualizowania w środowisku obsługi wszystkich nowych "
 "platform programistycznych zaprezentowanych w przeciągu kilku ostatnich lat. "
 "Mamy nadzieję, że nasze starania w celu porzucenia takich rozwiązań jak "
 "ThunarVFS i HAL z obsługą GIO, udev, ConsoleKit i PolicyKit, pomoże "
@@ -3477,14 +3509,14 @@ msgstr ""
 "przed ostatecznym wydaniem, zaplanowanym na 16 stycznia, 2011."
 
 #: news-array.php:98
-#, fuzzy
 msgid ""
 "For this release we focused on fixing bugs in all Xfce components. We "
 "managed to close a great number of them thanks to all the persons who "
 "reported them and tested proposed fixes quickly."
 msgstr ""
 "W tym wydaniu skupiono się głównie na naprawie błędów wszystkich komponentów "
-"Xfce. "
+"Xfce. Udało się to dzięki osobom, które zgłaszały problemy i testowały "
+"zaproponowane rozwiązania."
 
 #: news-array.php:99
 msgid ""
@@ -3495,6 +3527,12 @@ msgid ""
 "features a lot of new and improved translations thanks to the amazing work "
 "of our translation teams."
 msgstr ""
+"Panel zyskał kilka pomniejszych funkcji mimo, że wstrzymano ich dodawanie. "
+"Sporo pracy włożono na rzecz prawidłowej obsługi modyfikowania menu "
+"programów za pomocą edytorów menu (przetestowano Alacarte) i zintegrowania "
+"wtyczki obszarów roboczych menedżera okien Compiz. Oczywiście to wydanie "
+"owocuje również wieloma uaktualnionymi tłumaczeniami, dzięki niesamowitej "
+"pracy naszych zespołów tłumaczy."
 
 #: news-array.php:106
 msgid ""
@@ -3503,6 +3541,10 @@ msgid ""
 "feature freeze for the final 4.8 release which is set to be pushed out to "
 "the world on January 16th, 2011."
 msgstr ""
+"Zespół twórców Xfce ma zaszczyt ogłosić wydanie pierwszej wersji testowej "
+"Xfce 4.8. Wraz z tą odsłoną następuje wstrzymanie zmian funkcji "
+"oprogramowania. Ten stan będzie utrzymany do czasu wydania ostatecznej "
+"wersji 4.8, które zaplanowane jest na 16 stycznia, 2011."
 
 #: news-array.php:107
 msgid ""
@@ -3819,12 +3861,13 @@ msgid ""
 "developer will also announce when releases are planned, translations system "
 "changes or anything else you should know as a translators."
 msgstr ""
-"Dołączyć do <a href=\"http://foo-projects.org/mailman/listinfo/xfce-i18n"
-"\">listy dyskusyjnej tłumaczy środowiska Xfce</a>. Z tego miejsca "
-"koordynowany jest cały proces tłumaczenia, dlatego przedstawienie się tutaj "
-"wszystkim na pewno zostanie miło odebrane. Za pośrednictwem tej listy twórcy "
-"środowiska Xfce ogłaszają daty nowych wydań, zmiany w systemie tłumaczeń "
-"oraz wszystko inne, co tłumacze powinni wiedzieć."
+"Wpisać się na <a href=\"https://mail.xfce.org/mailman/listinfo/xfce-i18n-pl"
+"\">listę dyskusyjną polskiego zespołu tłumaczy<a> oraz <a href=\"http://foo-"
+"projects.org/mailman/listinfo/xfce-i18n\">listę dyskusyjną przeznaczoną dla "
+"wszystkich tłumaczy</a>. Z tych miejsc koordynowany jest cały proces "
+"tłumaczenia, dlatego przedstawienie się tutaj wszystkim na pewno zostanie "
+"dobrze odebrane. Za pośrednictwem list ogłaszane są daty nowych wydań, "
+"zmiany w systemie tłumaczeń oraz wszystko inne, co tłumacze powinni wiedzieć."
 
 #: getinvolved/translation.php:27
 msgid ""
@@ -3871,7 +3914,7 @@ msgid ""
 "If you think anything went wrong, ideas? Don't hesitate and send an email to "
 "the Xfce translation mailing list, we're always there to help you!"
 msgstr ""
-"W przypadku gdy coś pójdzie nie tak, najlepiej zasięgnąć rady na liście "
+"W przypadku, gdy coś pójdzie nie tak, najlepiej zasięgnąć rady na liście "
 "dyskusyjnej. Pozostali są tam, aby pomagać."
 
 #: getinvolved/translation.php:40
