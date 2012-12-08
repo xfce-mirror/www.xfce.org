@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2012-12-02 00:21:15";
+$translators_stamp = "2012-12-09 00:21:23";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -131,6 +131,7 @@ $translators = array (
     'lbazan' => 'bazanluis20'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ma7as' => 'colonizare'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Matias De lellis' => 'mati86dl'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Eduardo Mayorga Téllez' => 'mayorgalinux'.ATSIGN.'fedoraproject'.DOTSIGN.'org',
     'Octavio Bernal Quiroz' => 'octavio'.DOTSIGN.'bernal'.DOTSIGN.'q'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio García' => 'oigres200'.ATSIGN.'gmail'.DOTSIGN.'com',
     'prflr88' => 'prflr88'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -179,7 +180,7 @@ $translators = array (
     'Louis Moureaux' => 'm_louis30'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
     'marc doutreloux' => 'mdoutreloux'.ATSIGN.'yahoo'.DOTSIGN.'fr',
-    'douart patrick' => 'patrick'.DOTSIGN.'2'.ATSIGN.'laposte'.DOTSIGN.'net',
+    'patricktwo' => '',
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'fr',
     'Saïd Bouras' => 'said'.DOTSIGN.'bouras'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
