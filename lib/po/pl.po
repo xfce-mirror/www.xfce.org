@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-12-07 12:46+0100\n"
+"PO-Revision-Date: 2012-12-11 13:39+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -751,7 +751,7 @@ msgstr "Przykładowy cykl wydania"
 
 #: about/releasemodel.php:75
 msgid "Planning Phase (2(+2) Weeks)"
-msgstr "Faza planowania  (2(+2) tygodnie)"
+msgstr "Etap planowania  (2(+2) tygodnie)"
 
 #: about/releasemodel.php:78
 msgid ""
@@ -1006,19 +1006,19 @@ msgstr "Oto jak wygląda prosty schemat przebiegu prac:"
 
 #: about/releasemodel.php:196
 msgid "Development Workflow"
-msgstr "Przebieg prac"
+msgstr "Schemat przebiegu prac"
 
 #: about/releasemodel.php:199
 msgid "Release Phase (10+ Weeks)"
-msgstr "Faza publikowania"
+msgstr "Etap publikowania (10 tygodni lub dłużej)"
 
 #: about/releasemodel.php:202
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
 msgstr ""
-"W czasie fazy publikowania, ogłoszone zostaną trzy wydania testowe i jedno "
-"finalne:"
+"W czasie etapu publikowania, ogłoszone zostaną trzy wydania testowe i jedno "
+"końcowe:"
 
 #: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
@@ -1034,7 +1034,7 @@ msgstr "Xfce X.Ypre3 (po 8 tygodniach, wstrzymanie zmian kodu)"
 
 #: about/releasemodel.php:209
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y (po najmniej 10 tygodniach)"
+msgstr "Xfce X.Y (po 10 tygodniach lub później)"
 
 #: about/releasemodel.php:213
 msgid ""
@@ -1047,7 +1047,7 @@ msgid ""
 msgstr ""
 "gdzie Y jest liczbą parzystą. Każde z tych wydać powinno zawierać ostatnie "
 "wersje robocze (lub stabilne, jeśli nie wydano żadnej wersji roboczej od "
-"czasu ostatniego wydania finalnego) wszystkich głównych komponentów "
+"czasu ostatniego wydania końcowego) wszystkich głównych komponentów "
 "środowiska. Numeracja wersji tych komponentów może (a nawet powinna) różnić "
 "się od wzoru podanego powyżej. Na przykład w wydaniu Xfce 4.8.0pre2, może "
 "znajdować się program xfwm4 w wersji 4.7.17 a program Thunar w wersji 1.1.9."
@@ -1062,7 +1062,7 @@ msgstr ""
 "Oznacza to, że opiekunowie poszczególnych komponentów nie mają obowiązku "
 "publikować nowych wersji oprogramowania wraz z kolejnymi wydaniami "
 "środowiska. Zespół wydania podczas kompletowania pakietów do wersji testowej "
-"lub finalnej, wybiera zawsze ostatnią dostępną, roboczą lub stabilną wersję "
+"lub końcowej, wybiera zawsze ostatnią dostępną, roboczą lub stabilną wersję "
 "każdego komponentu."
 
 #: about/releasemodel.php:221
@@ -1070,6 +1070,8 @@ msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
 msgstr ""
+"Zakończenie tego etapu jest jednoznaczne z wydaniem nowej stabilnej wersji "
+"Xfce oraz rozpoczęciem nowego cyklu wydania."
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
@@ -1133,12 +1135,12 @@ msgstr ""
 "Wstrzymanie zmian w kodzie następuje również po wydaniu Xfce X.Ypre3. "
 "Wszelkie zmiany w kodzie są niedozwolone, o ile nie uzyskają akceptacji "
 "menedżera wydania. Zmiany, które zostaną zatwierdzone powinny tylko "
-"naprawiać błędy blokujące wydanie lub krytyczne błędy. Uaktualnienia "
-"tłumaczeń są wciąż możliwe."
+"naprawiać błędy blokujące wydanie lub poważne błędy. Uaktualnienia tłumaczeń "
+"są wciąż możliwe."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "Etap wstrzymania zmian kodu (2 tygodnie lub dłużej)"
 
 #: about/releasemodel.php:255
 msgid ""
@@ -1146,6 +1148,9 @@ msgid ""
 "illustrated in the following figure and is explained in more detail in this "
 "section."
 msgstr ""
+"Wraz z wydaniem Xfce X.Ypre3, następuje wstrzymanie zmian kodu wszystkich "
+"głównych komponentów. Etap ten ilustruje poniższy diagram a bieżąca sekcja "
+"opisuje go bardziej szczegółowo."
 
 #: about/releasemodel.php:259
 msgid ""
@@ -1156,7 +1161,7 @@ msgstr ""
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "Nadawanie etykiet i tworzenie nowych gałęzi dla wydań"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
@@ -1170,6 +1175,10 @@ msgid ""
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
 msgstr ""
+"Jeśli kod któryś z głównych komponentów wymaga wprowadzenia poprawek po "
+"wstrzymaniu zmian, opiekun powinien utworzyć nową gałąź o nazwie ELS (//"
+"NAZWA DO USTALENIA//) i umieścić w niej modyfikacje. Zmiany kodu powinny "
+"dotyczyć błędów blokujących wydanie lub błędów krytycznych."
 
 #: about/releasemodel.php:273
 msgid ""
@@ -1177,56 +1186,65 @@ msgid ""
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2) "
 "after the final release. Only bugfixes are allowed in this branch."
 msgstr ""
+"Gałąź ESL jest w użyciu tylko przez krótki okres czasu. Po wydaniu końcowym "
+"zostaje włączona do głównej gałęzi i do gałęzi stabilnej komponentu (np. "
+"xfwm4-4.8 lub thunar-1.2). Można w niej zamieszczać tylko naprawy błędów."
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "Wyjątki wstrzymania kodu"
 
 #: about/releasemodel.php:278
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "Błędy blokujące wydanie"
 
 #: about/releasemodel.php:281
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
 msgstr ""
+"Niektóre błędy mogą opóźnić końcowe wydanie. Może się to wydarzyć w "
+"przypadku, gdy błąd:"
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
-msgstr "powoduje awarie kluczowych programów"
+msgstr "powoduje awarie kluczowego programu,"
 
 #: about/releasemodel.php:286
 msgid "it causes data loss"
-msgstr "powoduje utratę danych"
+msgstr "powoduje utratę danych,"
 
 #: about/releasemodel.php:287
 msgid "it causes an ever-growing memory leak"
-msgstr "powoduje niekończący się wyciek pamięci"
+msgstr "powoduje niekończący się wyciek pamięci,"
 
 #: about/releasemodel.php:288
 msgid "it locks the entire desktop GUI"
-msgstr "powoduje zablokowanie całego interfejsu graficznego"
+msgstr "powoduje zablokowanie całego interfejsu graficznego."
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "Błąd nie może opóźnić wydania, jeśli spełnia następujące warunki:"
 
 #: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
 msgstr ""
+"występuje w obecności osobliwego osprzętu lub architektury komputera i/lub "
+"nie ma możliwości jego odtworzenia."
 
 #: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
 msgstr ""
+"Naprawy tych błędów można publikować po wstrzymaniu zmian w kodzie tylko, "
+"jeśli zostaną one zaakceptowane przez menedżera wydania."
 
 #: about/releasemodel.php:303
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "Zmiany istotne dla wydania"
 
 #: about/releasemodel.php:306
 msgid ""
@@ -1234,10 +1252,13 @@ msgid ""
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
 msgstr ""
+"Niektóre zmiany mogą mieć duży wpływ na jakość wydania. Ich wprowadzenie "
+"możliwe jest tylko w przypadku, gdy zostaną one zatwierdzone przez menedżera "
+"wydania."
 
 #: about/releasemodel.php:309
 msgid "Releasing"
-msgstr ""
+msgstr "Publikowanie wydań"
 
 #: about/releasemodel.php:312
 msgid ""
@@ -1247,10 +1268,16 @@ msgid ""
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
 msgstr ""
+"W końcowym wydaniu (Xfce X.Y) wszystkim głównym komponentom zostają nadane "
+"etykiety (jedna zawierające ich wersję, druga odpowiadająca wzorowi xfce-X."
+"Y.0) i przydzielone zostają oddzielne gałęzie, które wykorzystywane będą "
+"podczas etapu utrzymania wydania (np. thunar-1.2 lub xfwm4-4.8). Następnie "
+"gałąź ELS zostaje włączona do gałęzi głównej (gdzie przygotowywane jest "
+"kolejne wydanie) i do gałęzi komponentów, np. thunar-1.2 lub xfwm4-4.8."
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
-msgstr ""
+msgstr "Proces utrzymania"
 
 #: about/releasemodel.php:318
 msgid ""
@@ -1259,12 +1286,17 @@ msgid ""
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
 msgstr ""
+"Po wydaniu końcowej wersji, naprawy błędów i uaktualnienia tłumaczeń będą "
+"publikowane w stabilnych gałęziach komponentów (takich jak thunar-1.2 lub "
+"xfwm4-4.8). Wydania utrzymania poszczególnych komponentów nie muszą być "
+"synchronizowane."
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "Wydania utrzymania"
 
 #: about/releasemodel.php:324
+#, fuzzy
 msgid ""
 "There may be no API/ABI changes in maintenance releases compared to the "
 "corresponding final release of the Xfce core desktop. They also must follow "
@@ -1272,6 +1304,8 @@ msgid ""
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
 msgstr ""
+"W porównaniu do końcowego wydania środowiska Xfce, wydania utrzymania nie "
+"mogą zawierać zmian interfejsów API/ABI. "
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -2770,10 +2804,16 @@ msgid ""
 "format in the past to store your settings, <b>Orage</b> is based on "
 "<tt>ical</tt> and therefore compatible with other calendar applications."
 msgstr ""
+"Program <b>Orage</b> wykorzystuje niewielką ilość zasobów i jest prosty w "
+"obsłudze. Posiada wszystkie funkcje spotykane w bardziej popularnych "
+"programach tego typu, jak <b>Outlook</b> lub <b>Evolution</b>. Jego "
+"poprzednik, <b>Xfcalendar</b> używał własnego formatu zapisu danych <tt>dbh</"
+"tt>. <b>Orage</b> używa formatu <tt>ical</tt> i tym samym pod tym wględem "
+"jest kompatybilny z innymi organizerami."
 
 #: about/tour44.php:144
 msgid "Terminal Emulator"
-msgstr ""
+msgstr "Emulator terminala"
 
 #: about/tour44.php:147
 msgid ""
@@ -2781,6 +2821,9 @@ msgid ""
 "mature enough at that time to be part of the core. With this major release, "
 "it was moved into the core desktop."
 msgstr ""
+"Program <b>Terminal</b> był już dostępny dla 4.2, aczkolwiek nie był jeszcze "
+"gotowy, by stać się jednym z głównych komponentów. Z bieżącym wydaniem to "
+"się zmienia."
 
 #: about/tour44.php:153
 msgid ""
@@ -2791,6 +2834,12 @@ msgid ""
 "above, this release also supports real transparency using <b>Xfwm4</b>'s "
 "integrated composition manager."
 msgstr ""
+"Poza podstawowymi funkcjami, jakich można spodziewać się po emulatorze "
+"terminala, program posiada kilka dodatkowych: obsługę wielu kart, możliwość "
+"modyfikowania pasków narzędziowych oraz sposobność konfigurowania cech "
+"programu przy użyciu <i>ukrytych opcji</i>. Jak widać na powyższym obrazie "
+"ekranu, to wydanie oferuje także prawdziwą przezroczystość okien, "
+"wykorzystując wbudowany w <b>Xfwm4</b> menedżer kompozycji."
 
 #: about/tour44.php:157
 msgid "Printing"
@@ -3561,6 +3610,20 @@ msgid ""
 "core libraries have been streamlined a bit, a good example being the newly "
 "introduced libxfce4ui library which is meant to replace libxfcegui4."
 msgstr ""
+"W tym wydaniu wprowadzono wiele zmian w głównych komponentach środowiska "
+"Xfce, uwzględniając przy tym dużą ilość próśb użytkowników. Poza najbardziej "
+"widocznymi modyfikacjami, przeprojektowano wszystkie kluczowe składniki Xfce "
+"(Thunar, xfcesktop i zwłaszcza thunar-volman) porzucając ThunarVFS na rzecz "
+"GIO. Zmiana ta umożliwia korzystanie ze zdalnych systemów plików w całym "
+"środowisku. Panel został przepisany od podstaw zyskując większe możliwości "
+"zarządzania aktywatorami i obsługę wielu ekranów. Lista nowości nowego "
+"panelu jest zbyt długa, by ją przytaczać w tym miejscu. Dzięki nowej "
+"bibliotece menu programów garcon, (znanej wcześniej jako libxfce4menu, ale "
+"przepisanej na nowo) możliwe jest teraz modyfikowanie menu za pomocą "
+"edytorów takich jak Alacarte (Xfce nie udostępnia jeszcze własnego). W "
+"niewielkim stopniu zwiększono wydajność głównych bibliotek. Dobrym "
+"przykładem jest nowa biblioteka libxfce4ui, wprowadzona po to, by zastąpić "
+"libxfcegui4."
 
 #: news-array.php:108
 msgid ""
@@ -3572,6 +3635,12 @@ msgid ""
 "as has happened with HAL and ThunarVFS (which is still around for "
 "compatibility reasons)."
 msgstr ""
+"Chyba największym sukcesem osiągniętym wraz z Xfce 4.8, jest to, że przy "
+"udziale niewielkiego zespołu programistów, udało się przystosować kluczowe "
+"komponenty środowiska do działania z aktualnymi standardami, takimi jak GIO, "
+"ConsoleKit, PolicyKit, udev i wiele innych. Ze środowiska usunięto wiele "
+"przestarzałych rozwiązań, tak jak stało się to z HAL i ThunarVFS (które po "
+"części pozostawiono z powodu kompatybilności z innymi komponentami)."
 
 #: news-array.php:109
 msgid ""
@@ -3579,21 +3648,25 @@ msgid ""
 "have been able to update their translations at an incredible pace. Please "
 "include them when praising this release!"
 msgstr ""
+"Dzięki platformie tłumaczeń Transifex, zespołom tłumaczy udało się w "
+"olbrzymim tempie zaktualizować wersje językowe. Proszę o docenienie ich "
+"wkładu w to wydanie!"
 
 #: news-array.php:116
 msgid "The second bugfix-release of xfce 4.6 has been released."
-msgstr ""
+msgstr "Została wydana druga wersja środowiska poprawiająca błędy Xfce 4.6."
 
 #: news-array.php:117
 msgid ""
 "This release features a lot of updated translations and fixes some bugs or "
 "regressions with new GTK+ versions."
 msgstr ""
+"W tym wydaniu uaktualniono wiele tłumaczeń i naprawiono wiele błędów lub "
+"regresji związanych z nowymi wersjami GTK+."
 
 #: news-array.php:124
-#, fuzzy
 msgid "The first bugfix-release of xfce 4.6 has been released."
-msgstr "Wydano pierwszą poprawkę Xfce w wersji 4.6."
+msgstr "Została wydana pierwsza wersja środowiska poprawiająca błędy Xfce 4.6."
 
 #: news-array.php:125
 msgid ""
@@ -3602,13 +3675,16 @@ msgid ""
 "is supposed to. We have been able to fix several issues during the past few "
 "weeks."
 msgstr ""
+"Dziękujemy wszystkim użytkownikom Xfce 4.6, którzy poświęcili swój czas i "
+"zadali sobie trud zgłaszając sytuacje błędnie działającego oprogramowania. W "
+"przeciągu kilku ostatnich tygodni udało się usunąć kilka usterek."
 
 #: news-array.php:126
 msgid ""
 "thanks to all the translators, several translations have been improved and "
 "completed since the release of 4.6.0."
 msgstr ""
-"dzięki wszystkim tłumaczom, wiele tłumaczeń zostało poprawionych i "
+"dzięki wszystkim tłumaczom, kilka tłumaczeń zostało poprawionych i "
 "ukończonych od czasu wydania wersji 4.6.0."
 
 #: news-array.php:133
