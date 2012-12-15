@@ -2,20 +2,21 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Piotr Sokół <psokol@jabster.pl>, 2012.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-12-11 13:39+0100\n"
+"PO-Revision-Date: 2012-12-15 15:35+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
 "Language: \n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2));\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
+"%100<10 || n%100>=20)) ? 1 : 2));\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
 #: projects/nav.php:1 download/nav.php:14 getinvolved/nav.php:14
@@ -790,11 +791,11 @@ msgstr ""
 
 #: about/releasemodel.php:94
 msgid "These are the release team roles and their responsibilities:"
-msgstr "Rola i obowiązki zespołu wydania:"
+msgstr ""
 
 #: about/releasemodel.php:97
 msgid "Release Manager"
-msgstr "Menadżer wydania"
+msgstr "Menedżer wydania"
 
 #: about/releasemodel.php:100
 msgid "Organization of the release cycle"
@@ -840,7 +841,7 @@ msgstr ""
 
 #: about/releasemodel.php:114
 msgid "Update the website(s)"
-msgstr "Uaktualnienie stron(y)"
+msgstr ""
 
 #: about/releasemodel.php:115
 msgid "Help the release manager with his tasks"
@@ -860,7 +861,7 @@ msgstr ""
 
 #: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
-msgstr "Dokładnie sprawdzenie wygenerowanych tarballi"
+msgstr ""
 
 #: about/releasemodel.php:124
 msgid "Proof-read release announcements"
@@ -905,7 +906,7 @@ msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
 msgstr ""
-"Podczas pierwszych 2 tygodni fazy planowania opiekun każdego komponentu "
+"Podczas pierwszych 2 tygodni etapu planowania opiekun każdego komponentu "
 "powinien"
 
 #: about/releasemodel.php:145
@@ -962,7 +963,7 @@ msgstr ""
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
-msgstr ""
+msgstr "Wydania testowe"
 
 #: about/releasemodel.php:176
 msgid ""
@@ -970,6 +971,10 @@ msgid ""
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
 msgstr ""
+"Wersje testowe oprogramowania zazwyczaj dają obraz funkcji, które zostaną "
+"dołączone do ich następnego stabilnego wydania. Numery ich wersji muszą "
+"pasować do wzoru X.Y.Z, gdzie Y jest liczbą nieparzystą (np. xfwm4-4.7.3 or "
+"thunar-1.3.10)."
 
 #: about/releasemodel.php:180
 msgid ""
@@ -980,6 +985,13 @@ msgid ""
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
 msgstr ""
+"Opiekunowie są zachęcani do wydawania wersji testowych, w celu prezentowania "
+"nowości użytkownikom. Częste wydawanie wersji testowych możne zastąpić "
+"numerowanie wersji systemu SVN, które używane było w przeszłości. Jeśli "
+"komponent A zależy od nowej cechy komponentu B, A może zostać wydane tylko, "
+"jeśli istnieje testowa wersja B, zawierająca tę cechę. Aby takie podejście "
+"było możliwe, wersje libtool muszą być właściwie uaktualniane wraz z każdą "
+"wersją testową."
 
 #: about/releasemodel.php:184
 msgid ""
@@ -1157,6 +1169,10 @@ msgid ""
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
 msgstr ""
+"Wstrzymywanie zmian kodu i jego wyjątki są obsługiwane przez skrypty "
+"zaczepów. Skrypt uruchamiany podczas uaktualniania repozytorium, nie pozwala "
+"na wprowadzenie żadnych zmian, jeśli nie zostały one zatwierdzone przez "
+"menedżera wydania."
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
@@ -1295,7 +1311,6 @@ msgid "Maintenance Releases"
 msgstr "Wydania utrzymania"
 
 #: about/releasemodel.php:324
-#, fuzzy
 msgid ""
 "There may be no API/ABI changes in maintenance releases compared to the "
 "corresponding final release of the Xfce core desktop. They also must follow "
@@ -1304,7 +1319,10 @@ msgid ""
 "releases."
 msgstr ""
 "W porównaniu do końcowego wydania środowiska Xfce, wydania utrzymania nie "
-"mogą zawierać zmian interfejsów API/ABI. "
+"mogą zawierać zmian interfejsów API/ABI. Numery ich wersji muszą pasować do "
+"wzoru X.Y.Z, gdzie Y jest liczbą parzystą (np. xfwm4-4.8.4 lub "
+"thunar-1.2.4). Ponadto wydania utrzymania nie mogą zawierać żadnych nowych "
+"funkcji lub komunikatów."
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -2571,7 +2589,7 @@ msgstr "Obrazy ekranów dostarczył Jannis Pohlmann"
 
 #: about/tour44.php:1
 msgid "Xfce 4.4 tour"
-msgstr "Przewodnik po Xfce 4.4"
+msgstr "Prezentacja Xfce 4.4"
 
 #: about/tour44.php:6
 msgid ""
@@ -2579,6 +2597,9 @@ msgid ""
 "is finally available. I will try to highlight some of the new features which "
 "have been added since the last stable release."
 msgstr ""
+"Od dzisiaj dostępna jest do pobrania długo oczekiwana wersja 4.4.0 "
+"środowiska graficznego Xfce. Poniżej zaprezentowano najbardziej znaczące "
+"nowości, wprowadzone od czasu opublikowania ostatniego stabilnego wydania."
 
 #: about/tour44.php:9 about/tour44.php:15
 msgid "Desktop Icons"
@@ -2590,6 +2611,9 @@ msgid ""
 "for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally "
 "added to the desktop manager <b>Xfdesktop</b>."
 msgstr ""
+"Jedną z najbardziej pożądanych funkcji, zgłaszanych podczas cyklów wydań 4.0 "
+"i 4.2, była obsługa ikon pulpitu. Xfce 4.4.0 przynosi implementację tej "
+"funkcji w menedżerze pulpitu <b>Xfdesktop</b>."
 
 #: about/tour44.php:18
 msgid ""
@@ -2599,10 +2623,15 @@ msgid ""
 "quite a popular feature from the CDE world. Of course, you can disable the "
 "desktop icons altogether if you prefer a clean desktop."
 msgstr ""
+"Menedżer pulpitu wykorzystuje biblioteki programu <b>Thunar</b> zarówno do "
+"obsługi aktywatorów programów jak i zwykłych plików lub katalogów. Program "
+"potrafi również wyświetlać na pulpicie ikony zminimalizowanych okien. Jest "
+"to dosyć popularne rozwiązanie w środowisku CDE. Oczywiście pulpit można "
+"skonfigurować tak, by nie zawierał żadnych elementów."
 
 #: about/tour44.php:21
 msgid "Desktop Settings"
-msgstr ""
+msgstr "Ustawienia pulpitu"
 
 #: about/tour44.php:24
 msgid ""
@@ -2636,7 +2665,7 @@ msgstr ""
 
 #: about/tour44.php:44
 msgid "Thunar Bulk Rename"
-msgstr "Thunar Bulk Rename"
+msgstr ""
 
 #: about/tour44.php:46
 msgid "Removable Drives and Media"
@@ -2677,7 +2706,7 @@ msgstr ""
 
 #: about/tour44.php:65
 msgid "MousePad"
-msgstr "MousePad"
+msgstr ""
 
 #: about/tour44.php:68
 msgid ""
@@ -2713,7 +2742,7 @@ msgstr ""
 
 #: about/tour44.php:89
 msgid "Xfwm4 Themes"
-msgstr "Motywy Xfwm4"
+msgstr ""
 
 #: about/tour44.php:92
 msgid ""
@@ -2723,7 +2752,7 @@ msgstr ""
 
 #: about/tour44.php:95
 msgid "Xfwm4 Tweaks"
-msgstr "Udoskonalenia Xfwm4"
+msgstr ""
 
 #: about/tour44.php:98
 msgid ""
@@ -2803,12 +2832,12 @@ msgid ""
 "format in the past to store your settings, <b>Orage</b> is based on "
 "<tt>ical</tt> and therefore compatible with other calendar applications."
 msgstr ""
-"Program <b>Orage</b> wykorzystuje niewielką ilość zasobów i jest prosty w "
-"obsłudze. Posiada wszystkie funkcje spotykane w bardziej popularnych "
-"programach tego typu, jak <b>Outlook</b> lub <b>Evolution</b>. Jego "
-"poprzednik, <b>Xfcalendar</b> używał własnego formatu zapisu danych <tt>dbh</"
-"tt>. <b>Orage</b> używa formatu <tt>ical</tt> i tym samym pod tym wględem "
-"jest kompatybilny z innymi organizerami."
+"<b>Orage</b> wykorzystuje niewielką ilość zasobów i jest prosty w obsłudze. "
+"Posiada wszystkie funkcje spotykane w bardziej popularnych programach tego "
+"typu, jak <b>Outlook</b> lub <b>Evolution</b>. Jego poprzednik, "
+"<b>Xfcalendar</b> używał własnego formatu zapisu danych <tt>dbh</tt>. "
+"<b>Orage</b> używa formatu <tt>ical</tt> i tym samym pod tym wględem jest "
+"kompatybilny z innymi organizerami."
 
 #: about/tour44.php:144
 msgid "Terminal Emulator"
@@ -2852,10 +2881,15 @@ msgid ""
 "was added and <b>Xfprint</b> is now able to display the printer state with "
 "the <tt>CUPS</tt>-backend."
 msgstr ""
+"Przy okazji tego wydania, program zarządzający usługą drukowania Xfce "
+"<b>Xfprint</b> zyskał kilka usprawnień. Obecność konwertera <tt>a2ps</tt> "
+"nie jest już obowiązkowa, ale wciąż polecana. Dodano obsługę <tt>CUPS</tt> "
+"1.2 a sam program potrafi teraz wyświetlać stan drukarki przy użyciu modułu "
+"obsługi <tt>CUPS</tt>."
 
 #: about/tour44.php:163
 msgid "Xfce Printing"
-msgstr ""
+msgstr "Drukowanie Xfce"
 
 #: about/tour44.php:166
 msgid ""
@@ -2863,10 +2897,13 @@ msgid ""
 "printing support for different kinds of text documents using the <tt>a2ps</"
 "tt> converter."
 msgstr ""
+"<b>Xfprint</b> został także zintegrowany z programem <b>MousePad</b>, "
+"zapewniając obsługę różnych rodzajów dokumentów tekstowych, przy użyciu "
+"konwertera <tt>a2ps</tt>."
 
 #: about/tour44.php:169
 msgid "Xfce Print Dialog"
-msgstr ""
+msgstr "Okno dialogowe drukowania"
 
 #: about/tour44.php:172
 msgid ""
@@ -2876,6 +2913,12 @@ msgid ""
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
 msgstr ""
+"Działanie obsługi drukowania zostało usprawnione, chociaż okno dialogowe "
+"drukowania nadal wygląda podobnie do tego zaprezentowanego w Xfce 4.2. "
+"Udoskonalenia dotyczą zwłaszcza obsługi systemu <tt>CUPS</tt>. Poza tym "
+"funkcje zarządzania drukowaniem zostały przeniesione do biblioteki, aby inne "
+"programy mogły uzyskiwać dostęp do konfiguracji drukarek za pośrednictwem "
+"interfejsu API."
 
 #: about/tour44.php:176
 msgid "Autostart"
