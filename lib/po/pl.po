@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-12-24 10:27+0100\n"
+"PO-Revision-Date: 2012-12-26 13:19+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -515,7 +515,7 @@ msgstr ""
 "Każdy pakiet środowiska Xfce może zostać wydany w wersji stabilnej lub "
 "rozwojowej. Dotyczy to również pakietów głównych komponentów (tak jak "
 "opisano w <a href=\"/about/releasemodel\">modelu wydań</a>). Aby nie "
-"przeoczyć nowych wydań oprogramowania, można śledzić ich zapowiedzi na <a "
+"przeoczyć nowych wydań oprogramowania, można śledzić ich ogłoszenia na <a "
 "href=\"/community/lists\">liście dyskusyjnej użytkowników Xfce</a>, "
 "zasubskrybować odpowiednie <a href=\"http://archive.xfce.org/feeds/project/"
 "\">źródła wiadomości</a> lub obserwować zawartość <a href=\"http://identi.ca/"
@@ -642,7 +642,7 @@ msgstr "Aktualności"
 
 #: about/nav.php:21
 msgid "release announcements"
-msgstr "przechowuje zapowiedzi wydań"
+msgstr "przechowuje ogłoszenia wydań"
 
 #: about/nav.php:30 about/tour46.php:195 about/tour44.php:222
 #: about/credits.php:8
@@ -706,8 +706,8 @@ msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
 msgstr ""
-"Niniejszy dokument ma na celu zgromadzić odpowiedzi na te pytania i opisać "
-"zasady, do których należy się odwoływać podczas planowania wydań."
+"Celem tej publikacji jest zgromadzenie odpowiedzi na powyższe pytania i "
+"opisanie zasad, do których należy się odwoływać podczas planowania wydań."
 
 #: about/releasemodel.php:27
 msgid "The Xfce Core Desktop"
@@ -718,6 +718,8 @@ msgid ""
 "All core components of the Xfce desktop must adhere to the release policy "
 "defined in this document."
 msgstr ""
+"Wszystkie kluczowe komponenty środowiska muszą przestrzegać polityki wydań "
+"opisanej w niniejszym dokumencie."
 
 #: about/releasemodel.php:54
 msgid "Essential Dependencies"
@@ -736,6 +738,11 @@ msgid ""
 "phase, bugfix releases and security fixes will be released for the stable "
 "version of Xfce."
 msgstr ""
+"Na cykl wydania składa się krótki etap planowania, etap rozwoju podczas "
+"którego prezentowane są wydania testowe i etap publikowania, kończący się "
+"wydaniem nowej, stabilnej wersji środowiska Xfce. Równolegle do tych etapów "
+"odbywa się proces utrzymania bieżącego, stabilnego wydania. Podczas niego "
+"publikowane są poprawki błędów stabilnej wersji Xfce."
 
 #: about/releasemodel.php:68
 msgid ""
@@ -761,13 +768,15 @@ msgid ""
 "(first 2 weeks). It eventually leads to the dependency freeze (after 4 "
 "weeks)."
 msgstr ""
+"Ten etap rozpoczyna cykl wydania. W jego trakcie zapadają decyzje o "
+"zależnościach i składzie zespołu wydania dla całego cyklu (pierwsze 2 "
+"tygodnie). Prowadzi do wstrzymania zmian zależności (po 4 tygodniach)."
 
 #: about/releasemodel.php:81
 msgid "Appointing the Release Team"
 msgstr "Wybieranie zespołu wydania"
 
 #: about/releasemodel.php:84
-#, fuzzy
 msgid ""
 "At the beginning of the planning phase there is a (formal or informal) "
 "voting for the release team. The release team supervises development and "
@@ -776,10 +785,12 @@ msgid ""
 "at the very end of the cycle. This is explained in more detail in the "
 "Release Team section of this document."
 msgstr ""
-"Na początku etapu planowania odbywa się głosowanie (formalne lub nie) w "
-"sprawie składu zespołu wydania. Zespół tworzony jest, by nadzorować "
-"publikowanie wydań testowych i utrzymujących podczas cyklu. Jego głównym "
-"zadaniem jest "
+"Na początku etapu planowania odbywa się głosowanie (formalne lub nie) w celu "
+"ustalenia składu zespołu wydania. Zespół nadzoruje publikowanie wydań "
+"testowych i utrzymujących podczas cyklu. Jego głównym zadaniem jest "
+"ostateczne sprawdzanie wydań testowych pod koniec etapu publikowania. "
+"Bardziej szczegółowe informacje na ten temat znajdują się w tym dokumencie, "
+"w sekcji opisującej zespół wydania."
 
 #: about/releasemodel.php:87
 msgid "Release Team"
@@ -796,8 +807,8 @@ msgid ""
 msgstr ""
 "Zespół wydania składa się co najmniej z dwóch osób: menedżera wydania, "
 "któremu w publikowaniu wydania mogą pomagać inni (nadawanie etykiet, "
-"tworzenie archiwów pakietów, zamieszczanie zapowiedzi i informacji o "
-"wydaniu) oraz innej osoby kontrolującej jakość całego procesu (nadzorowanie "
+"tworzenie archiwów pakietów, zamieszczanie ogłoszeń i informacji o wydaniu) "
+"oraz innej osoby kontrolującej jakość całego procesu (nadzorowanie "
 "kompilacji, kontrolowanie etykiet, sprawdzanie aktualności informacji o "
 "wydaniu itp). Szczegóły zamieszczono poniżej."
 
@@ -811,48 +822,47 @@ msgstr "Menedżer wydania"
 
 #: about/releasemodel.php:100
 msgid "Organization of the release cycle"
-msgstr "organizowanie cyklu wydania,"
+msgstr "Organizuje cykl wydania."
 
 #: about/releasemodel.php:101
 msgid ""
 "Announce deadlines to developers and translators (repeatedly and early "
 "enough)"
 msgstr ""
-"zapowiadanie terminów zakończenia prac przez programistów i tłumaczy "
-"(wielokrotnie i wystarczająco wcześnie),"
+"Zapowiada terminy zakończenia prac przez programistów i tłumaczy "
+"(wielokrotnie i wystarczająco wcześnie)."
 
 #: about/releasemodel.php:102
 msgid "Overseeing of maintainance and development releases"
-msgstr "nadzorowanie etapu publikowania wydań utrzymujących i testowych,"
+msgstr "Nadzoruje etap publikowania wydań utrzymujących i testowych."
 
 #: about/releasemodel.php:103
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
 msgstr ""
-"nadawanie etykiet wydaniom Xfce-X.Ypre1, Xfce-X.Ypre2, Xfce-X.Ypre3 i Xfce-X."
-"Y,"
+"Nadaje etykiety wydaniom Xfce-X.Ypre1, Xfce-X.Ypre2, Xfce-X.Ypre3 i Xfce-X.Y."
 
 #: about/releasemodel.php:104
 msgid "Generate tarballs from tags (possibly automated)"
 msgstr ""
-"tworzenie archiwów pakietów na podstawie etykiet (prawdopodobnie w sposób "
-"automatyczny),"
+"Tworzy archiwów pakietów na podstawie etykiet (prawdopodobnie w sposób "
+"automatyczny)."
 
 #: about/releasemodel.php:105
 msgid "Write release notes"
-msgstr "publikowanie informacji o wydaniu,"
+msgstr "Redaguje informacje o wydaniach."
 
 #: about/releasemodel.php:106
 msgid "Write release announcements"
-msgstr "zamieszczanie zapowiedzi wydań,"
+msgstr "Redaguje ogłoszenia o wydaniach."
 
 #: about/releasemodel.php:107
 msgid "Create Bugzilla tags"
-msgstr "tworzenie etykiet w systemie śledzenia błędów Bugzilla,"
+msgstr "Tworzy etykiety w systemie śledzenia błędów Bugzilla."
 
 #: about/releasemodel.php:108
 msgid "Approve fixes of blocker bugs during code freeze"
 msgstr ""
-"akceptowanie poprawek błędów blokujących wydanie w czasie wstrzymania zmian "
+"Akceptuje poprawki błędów blokujących wydanie w czasie wstrzymania zmian "
 "kodu."
 
 #: about/releasemodel.php:111
@@ -861,32 +871,31 @@ msgstr "Asystenci wydania"
 
 #: about/releasemodel.php:114
 msgid "Update the website(s)"
-msgstr "uaktualnianie stron internetowych,"
+msgstr "Uaktualniają strony internetowe."
 
 #: about/releasemodel.php:115
 msgid "Help the release manager with his tasks"
-msgstr "pomaganie w realizacji zadań menedżera wydania,"
+msgstr "Pomagają w realizacji zadań menedżera wydania."
 
 #: about/releasemodel.php:118
-#, fuzzy
 msgid "QA Official"
-msgstr "Zapewnienie jakości"
+msgstr "Kontroler jakości"
 
 #: about/releasemodel.php:121
 msgid "Have an eye on libtool versions of maintanance and development releases"
-msgstr ""
+msgstr "Śledzi wersje libtool wydań utrzymujących i testowych."
 
 #: about/releasemodel.php:122
 msgid "Remind maintainers about missing NEWS updates"
-msgstr ""
+msgstr "Przypomina opiekunom o brakujących uaktualnieniach plików nowości."
 
 #: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
-msgstr ""
+msgstr "Ostatecznie sprawdza wygenerowane archiwa pakietów."
 
 #: about/releasemodel.php:124
 msgid "Proof-read release announcements"
-msgstr ""
+msgstr "Koryguje teksty ogłoszeń o wydaniach."
 
 #: about/releasemodel.php:127
 msgid "Individual Maintainers"
@@ -896,28 +905,28 @@ msgstr "Opiekunowie komponentów"
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
-msgstr "nadawanie etykiet komponentom dla wydań utrzymujących i testowych,"
+msgstr "Nadają etykiety komponentom dla wydań utrzymujących i testowych."
 
 #: about/releasemodel.php:131
 msgid "Generate tarballs for their maintainance and development releases"
-msgstr "tworzenie archiwów pakietów dla wydań utrzymujących i testowych,"
+msgstr "Tworzą archiwa pakietów dla wydań utrzymujących i testowych."
 
 #: about/releasemodel.php:132
 msgid "Write ChangeLogs and update NEWS files"
-msgstr "redagowanie plików zmian i nowości,"
+msgstr "Redagują pliki zmian i nowości."
 
 #: about/releasemodel.php:133
 msgid "Write component-specific release announcements"
-msgstr "redagowanie zapowiedzi wydań komponentów,"
+msgstr "Redagują ogłoszenia o wydaniach komponentów."
 
 #: about/releasemodel.php:134
 msgid "Create Bugzilla tags for their releases"
 msgstr ""
-"tworzenie etykiet dla wydań komponentów w systemie śledzenia błędów Bugzilla,"
+"Nadają etykiety wydań komponentów w systemie śledzenia błędów Bugzilla."
 
 #: about/releasemodel.php:135
 msgid "Make sure API documentation is up to date"
-msgstr "śledzenie stanu aktualności dokumentacji API."
+msgstr "Śledzą stan aktualności dokumentacji API."
 
 #: about/releasemodel.php:138
 msgid "Dependency Freeze"
@@ -929,16 +938,16 @@ msgid ""
 "to "
 msgstr ""
 "Podczas pierwszych 2 tygodni etapu planowania opiekun każdego komponentu "
-"powinien"
+"powinien:"
 
 #: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
 msgstr ""
-"sporządzić listę funkcji, które chce zaimplementować w trakcie cyklu wydania,"
+"Sporządzić listę funkcji, które chce zaimplementować w trakcie cyklu wydania."
 
 #: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
-msgstr ""
+msgstr "Sprawdzić jakich zależności będą one wymagać."
 
 #: about/releasemodel.php:150
 msgid ""
@@ -947,6 +956,9 @@ msgid ""
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
 msgstr ""
+"W wyniku tych czynności zapada decyzja o zależnościach dla następnego "
+"stabilnego wydania głównych komponentów Xfce. Ustalany jest najniższy, "
+"wymagany numer wersji wszystkich kluczowych zależności środowiska."
 
 #: about/releasemodel.php:154
 msgid ""
@@ -954,6 +966,8 @@ msgid ""
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
 msgstr ""
+"Opiekunowie, którzy nie mogli wziąć udziału podczas 2 pierwszych tygodni "
+"etapu planowania, mogą zgłosić zmiany zależności w ciągu 2 kolejnych tygodni."
 
 #: about/releasemodel.php:158
 msgid ""
@@ -961,6 +975,11 @@ msgid ""
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
 msgstr ""
+"Pod koniec etapu zostają wstrzymane zmiany zależności wszystkich "
+"komponentów. Oznacza to, że od tego momentu opiekunowie komponentów nie mogą "
+"modyfikować sporządzonej listy oprogramowania (i jego wersji), od którego "
+"komponenty te zależą. Wyjątkiem jest dodawanie nowych zależności, które w "
+"tej fazie jest wciąż dozwolone."
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
@@ -972,16 +991,21 @@ msgid ""
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
 msgstr ""
+"Pod koniec etapu planowania, na listy dyskusyjne xfce4-dev@xfce.org i "
+"xfce@xfce.org wysyłana jest wiadomość z planowanymi zmianami i zależnościami "
+"wszystkich kluczowych komponentów środowiska Xfce."
 
 #: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
-msgstr ""
+msgstr "Etap rozwoju (5 miesięcy)"
 
 #: about/releasemodel.php:170
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
 msgstr ""
+"Podczas etapu rozwoju opiekun każdego komponentu może wydawać wersje "
+"utrzymujące i testowe, niezależnie od pozostałych składników Xfce."
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
@@ -1024,6 +1048,13 @@ msgid ""
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
 msgstr ""
+"Praca z głównymi gałęziami każdego komponentu wymaga ostrożności. Gałąź "
+"główna powinna zawsze pozostawać w stanie umożliwiającym natychmiastowe "
+"opublikowanie wydania. Nowe funkcje należy opracowywać w osobnych gałęziach, "
+"dopóki nie zostaną ukończone (dzięki temu skompilowanie będzie możliwe, a "
+"komponent pozostanie funkcjonalny nawet po włączeniu nowych funkcji do "
+"gałęzi głównej. Takie postępowanie zmniejsza prawdopodobieństwo opóźnienia "
+"końcowego wydania całego środowiska."
 
 #: about/releasemodel.php:188
 msgid ""
@@ -2660,6 +2691,8 @@ msgid ""
 "<b>Xfdesktop</b> also continues to provide access to the applications menu, "
 "as it did in the previous Xfce releases."
 msgstr ""
+"<b>Xfdesktop</b> wciąż udostępnia menu programów, tak jak to miało miejsce w "
+"poprzednich wydaniach Xfce."
 
 #: about/tour44.php:31
 msgid ""
@@ -2947,7 +2980,6 @@ msgid "Autostart"
 msgstr "Automatyczne uruchamianie"
 
 #: about/tour44.php:179
-#, fuzzy
 msgid ""
 "Xfce 4.4.0 implements the new <a href=\"http://freedesktop.org/wiki/"
 "Standards_2fautostart_2dspec\">Autostart Specification</a> - actually Xfce "
@@ -2957,11 +2989,12 @@ msgstr ""
 "Xfce 4.4.0 implementuje nową <a href=\"http://freedesktop.org/wiki/"
 "Standards_2fautostart_2dspec\">specyfikację automatycznie uruchamianych "
 "programów</a>. Xfce było pierwszym środowiskiem, które zyskało omawianą "
-"funkcjonalność, ale inne zostały szybciej wydane."
+"funkcjonalność. Innym środowiskom udało się szybciej oddać ją w ręce "
+"użytkowników."
 
 #: about/tour44.php:182
 msgid "Xfce Autostart Editor"
-msgstr ""
+msgstr "Edytor automatycznie uruchamianych programów Xfce"
 
 #: about/tour44.php:185
 msgid ""
@@ -2973,6 +3006,14 @@ msgid ""
 "shown in the screenshot above, which allows users to easily add, remove or "
 "disable autostarted applications."
 msgstr ""
+"Specyfikacja składa się z dwóch części: <i>Uruchamianie programów podczas "
+"uruchamiania środowiska</i> zaimplementowanej w menedżerze sesji <b>xfce4-"
+"session</b> i <i>Uruchamianie programów po zamontowaniu nośnika</i> "
+"dostarczonej wraz z komponentem <a href=\"http://foo-projects.org/~benny/"
+"projects/thunar-volman/index.html\">thunar-volman</a>. To wydanie zawiera "
+"także edytor automatycznie uruchamianych programów <b>xfce4-autostart-"
+"editor</b>, którego obraz znajduje się powyżej. Program umożliwia dodawanie, "
+"usuwanie aktywatorów z listy uruchamiania oraz wyłączanie ich."
 
 #: about/tour44.php:192
 msgid ""
@@ -3076,7 +3117,7 @@ msgstr "Aktualności Xfce"
 
 #: feed.php:30
 msgid "Xfce release announcements"
-msgstr "Zapowiedzi wydań Xfce"
+msgstr "Ogłoszenia o wydaniach Xfce"
 
 #: news-array.php:10
 msgid "Xfce 4.10 released"
@@ -3898,7 +3939,7 @@ msgstr ""
 "Posiadacze blogów i witryn internetowych będą pomocni zachęcając swoich "
 "czytelników do korzystania z Xfce. Właściciele kont Identi.ca lub Twitter "
 "mogą pomóc publikując na nich nasze <a href=\"http://identi.ca/xfce"
-"\">komunikaty</a>, aby dotarły do większej ilości odbiorców."
+"\">ogłoszenia</a>, aby dotarły do większej ilości odbiorców."
 
 #: getinvolved/index.php:34
 msgid "Bug Reporting and testing"
