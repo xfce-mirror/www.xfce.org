@@ -12,7 +12,7 @@
 <h2><?php E_('Documentation') ?></h2>
 <p>
   <?php E_('There\'s lots of people using and testing Xfce. By providing useful and up-to-date documentation, you will make a big impact on helping people understand how to make the most of the Xfce Desktop Environment.') ?>
-  <?php learnmore ("http://docs.xfce.org/wiki/documentation"); ?>
+  <?php learnmore ("http://docs.xfce.org/contribute/documentation"); ?>
 </p>
 
 <h2><?php E_('Translation') ?></h2>
