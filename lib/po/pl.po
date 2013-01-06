@@ -1,14 +1,14 @@
 # Polish translation for www.xfce.org site.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Piotr Sokół <psokol@jabster.pl>, 2012.
+# Piotr Sokół <psokol@jabster.pl>, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: www.xfce.org\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2012-05-02 18:32+0200\n"
-"PO-Revision-Date: 2012-12-26 13:19+0100\n"
+"PO-Revision-Date: 2013-01-06 16:02+0100\n"
 "Last-Translator: Piotr Sokół <psokol@jabster.pl>\n"
 "Language-Team: polski <>\n"
 "MIME-Version: 1.0\n"
@@ -1063,6 +1063,11 @@ msgid ""
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
 msgstr ""
+"Nowe funkcje niezgodne z interfejsem API lub innymi kluczowymi komponentami "
+"należy omówić przed ich wprowadzeniem. Zanim niniejsze funkcje trafią do "
+"nowego wydania testowego, komponenty wymagane przez te funkcje są "
+"przygotowywane przez opiekunów w innej gałęzi. W takim stanie komponenty "
+"oczekują stanu umożliwiającego ich wydanie."
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
@@ -2691,8 +2696,8 @@ msgid ""
 "<b>Xfdesktop</b> also continues to provide access to the applications menu, "
 "as it did in the previous Xfce releases."
 msgstr ""
-"<b>Xfdesktop</b> wciąż udostępnia menu programów, tak jak to miało miejsce w "
-"poprzednich wydaniach Xfce."
+"Menedżer pulpitu <b>Xfdesktop</b> wciąż oferuje dostęp do menu programów, "
+"tak jak to miało miejsce w poprzednich wydaniach Xfce."
 
 #: about/tour44.php:31
 msgid ""
@@ -2700,6 +2705,8 @@ msgid ""
 "\"http://thunar.xfce.org/\">Thunar</a> which replaces the previous file "
 "manager <b>Xffm</b>."
 msgstr ""
+"Obsługę ikon pulpitu zapewnia teraz nowy menedżer plików <a href=\"http://"
+"thunar.xfce.org/\">Thunar</a>, który zastąpił poprzedni menedżer <b>Xffm</b>."
 
 #: about/tour44.php:37
 msgid ""
@@ -2709,6 +2716,11 @@ msgid ""
 "other file managers such as <b>Nautilus</b> and <b>pcmanfm</b> already "
 "picked up that idea as well."
 msgstr ""
+"<b>Thunar</b> został napisany od podstaw, dzięki czemu jest prosty w "
+"obsłudze i do działania nie wymaga wielu zasobów komputera. Jego interfejs "
+"graficzny został zaprojektowany na wzór okna wyboru plików, zaprezentowanego "
+"wraz GTK+ 2.4. Inne menedżery plików, takie jak <b>Nautilus</b> czy "
+"<b>pcmanfm</b> oferują podobne rozwiązania."
 
 #: about/tour44.php:41
 msgid ""
@@ -2717,14 +2729,18 @@ msgid ""
 "<i>Bulk Renamer</i> is included which allows users to rename multiple files "
 "at once using a certain criterion."
 msgstr ""
+"Program <b>Thunar</b> posiada możliwości typowego menedżera plików, ale "
+"udostępnia również kilka zaawansowanych funkcji. Na przykład, do programu "
+"dołączony jest moduł <i>Wsadowego zmieniania nazw</i> umożliwiający "
+"zmienienie nazw wielu plików na raz, przy użyciu określonych kryteriów."
 
 #: about/tour44.php:44
 msgid "Thunar Bulk Rename"
-msgstr ""
+msgstr "Wsadowe zmienianie nazw w programie Thunar"
 
 #: about/tour44.php:46
 msgid "Removable Drives and Media"
-msgstr ""
+msgstr "Napędy i nośniki wymienne"
 
 #: about/tour44.php:49
 msgid ""
@@ -2733,10 +2749,14 @@ msgid ""
 "an icon representing the removable volume will appear on the desktop and in "
 "<b>Thunar</b>'s side pane."
 msgstr ""
+"Xfce 4.4.0 oferuje prosty dostęp do danych znajdujących się na napędach i "
+"nośnikach wymiennych. Wystarczy wsunąć nośnik do napędu lub podłączyć nowy "
+"napęd do komputera a na pulpicie i w panelu bocznym programu <b>Thunar</b> "
+"pojawi się ikona reprezentująca wymienny wolumen."
 
 #: about/tour44.php:52
 msgid "Removable Volumes"
-msgstr ""
+msgstr "Wymienne wolumeny"
 
 #: about/tour44.php:55
 msgid ""
@@ -2747,10 +2767,16 @@ msgid ""
 "at the time of this writing (there is limited removable media support for "
 "FreeBSD 4.x and 5.x which does not require HAL)."
 msgstr ""
+"Kliknięcie ikony lewym przyciskiem myszy automatycznie montuje wolumen, a "
+"prawym odmontowuje nośnik lub wysuwa go z napędu. Do działania tej funkcji "
+"wymagana jest obecność oprogramowania <a href=\"http://freedesktop.org/wiki/"
+"Software_2fhal\">HAL</a>, dlatego jest ona dostępna tylko w systemach Linux "
+"2.6.x, FreeBSD 6.x i nowszych (ograniczoną obsługę nośników wymiennych bez "
+"HAL oferuje FreeBSD 4.x i 5.x)."
 
 #: about/tour44.php:59
 msgid "Text Editor"
-msgstr ""
+msgstr "Edytor tekstu"
 
 #: about/tour44.php:62
 msgid ""
@@ -2758,10 +2784,12 @@ msgid ""
 "<b>MousePad</b> provides all the basic editor functionality, nothing more, "
 "nothing less."
 msgstr ""
+"Do wydania włączono nowy edytor tekstu <b>MousePad</b>. Program cechuje się "
+"podstawową funkcjonalnością i niczym ponadto."
 
 #: about/tour44.php:65
 msgid "MousePad"
-msgstr ""
+msgstr "MousePad"
 
 #: about/tour44.php:68
 msgid ""
@@ -2769,24 +2797,29 @@ msgid ""
 "Windows. It starts up very fast, usually in less than one second, even on "
 "older systems."
 msgstr ""
+"Edytor <b>MousePad</b> można traktować jako odpowiednik programu <b>NotePad</"
+"b> pochodzącego z systemu Windows. Program uruchamia się bardzo szybko nawet "
+"na starszych komputerach, zazwyczaj krócej niż jedną sekundą."
 
 #: about/tour44.php:74
 msgid "<b>Xfwm4</b> continues to be the window manager of the hearts."
-msgstr ""
+msgstr "<b>Xfwm4</b> nadal jest menedżerem okien tworzonym z pasją."
 
 #: about/tour44.php:77
 msgid "Xfwm4 ARGB32"
-msgstr ""
+msgstr "Obsługa ARGB32 w Xfwm4"
 
 #: about/tour44.php:80
 msgid ""
 "This release features an enhanced compositor, supporting transparent ARGB "
 "windows, shadows, window frame transparency and much more."
 msgstr ""
+"Jedną z nowości tego wydania, to udoskonalony kompozytor okien, obsługujący "
+"przezroczyste okna ARGB, cienie, przezroczystość obramowań i inne."
 
 #: about/tour44.php:83
 msgid "Xfwm4 Switcher"
-msgstr ""
+msgstr "Przełącznik okien Xfwm4"
 
 #: about/tour44.php:86
 msgid ""
@@ -2794,26 +2827,33 @@ msgid ""
 "screenshot above, which displays all windows from the current workspace with "
 "icons and window titles."
 msgstr ""
+"W <b>Xfwm4</b> zaprezentowano nowy wygląd modułu przełączania okien, "
+"widoczny na powyższym obrazie ekranu. Przełącznik wyświetla wszystkie okna z "
+"bieżącego obszaru roboczego wraz z ikonami i nazwami okien."
 
 #: about/tour44.php:89
 msgid "Xfwm4 Themes"
-msgstr ""
+msgstr "Style Xfwm4"
 
 #: about/tour44.php:92
 msgid ""
 "Further on support for multiple image formats for window decoration themes "
 "was added, including <tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images."
 msgstr ""
+"Style obramowań okien zyskały obsługę wielu formatów obrazów, w tym <tt>PNG</"
+"tt>, <tt>GIF</tt> i <tt>SVG</tt>."
 
 #: about/tour44.php:95
 msgid "Xfwm4 Tweaks"
-msgstr ""
+msgstr "Usprawnienia Xfwm4"
 
 #: about/tour44.php:98
 msgid ""
 "Advanced controls for the window manager were also added, allowing thorough "
 "tweaking of window behavior."
 msgstr ""
+"Menedżer okien wzbogacono również w zaawansowane opcje, umożliwiające "
+"dostosowanie zachowania okien."
 
 #: about/tour44.php:105
 msgid ""
@@ -2821,10 +2861,14 @@ msgid ""
 "Multiple panels are supported <i>out of the box</i> now and can easily be "
 "configured using the new <b>Panel Manager</b> shown in the screenshot below."
 msgstr ""
+"Wraz z wydaniem Xfce 4.4 zaprezentowano napisany na nowo panel <b>Xfce4-"
+"panel</b>. Program <i>domyślnie</i> obsługuje wiele paneli, które można w "
+"prosty sposób konfigurować za pośrednictwem <b>Menedżera paneli</b>. "
+"Poniższy obraz przedstawia program konfiguracyjny menedżera."
 
 #: about/tour44.php:108
 msgid "Panel Manager"
-msgstr ""
+msgstr "Menedżer paneli"
 
 #: about/tour44.php:111
 msgid ""
@@ -2833,10 +2877,14 @@ msgid ""
 "able to crash the whole panel. To address this issue, support for external "
 "plugins was added to the panel."
 msgstr ""
+"Jednym z głównych problemów poprzednich wydań Xfce było to, że wszystkie "
+"aplety panelu były uruchamiane w ramach tego samego procesu co panel. "
+"Pojedynczy aplet mógł zatem spowodować awarię całego panelu. Aby "
+"wyeliminować tę wadę, do panelu dodano obsługę zewnętrznych wtyczek."
 
 #: about/tour44.php:114
 msgid "Panel Add Item Dialog"
-msgstr ""
+msgstr "Okno dodawania apletów panelu"
 
 #: about/tour44.php:117
 msgid ""
@@ -2844,10 +2892,13 @@ msgid ""
 "external process or as part of the panel process, depending on the stability "
 "of the plugin."
 msgstr ""
+"Twórcy apletów panelu mogą teraz decydować, czy aplet powinien być "
+"uruchamiany jako zewnętrzny proces, czy w ramach procesu panelu. Czynnikiem "
+"decydującym powinna być stabilność wtyczki."
 
 #: about/tour44.php:120
 msgid "Panel Icon Box Plugin"
-msgstr ""
+msgstr "Aplet ikon panelu"
 
 #: about/tour44.php:123
 msgid ""
@@ -2855,6 +2906,9 @@ msgid ""
 "b> and <b>Xfce4-iconbox</b> utilities are no longer required. Instead, both "
 "the taskbar and the iconbox are available as panel plugins now."
 msgstr ""
+"Obsługa konfiguracji z wieloma panelami sprawia, że narzędzia <b>Xftaskbar4</"
+"b> i <b>Xfce4-iconbox</b> nie są już potrzebne. Ich funkcje zastępują "
+"wtyczki panelu funkcjonujące jako aplety."
 
 #: about/tour44.php:127
 msgid ""
@@ -2864,6 +2918,11 @@ msgid ""
 "<b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel applets to the "
 "Xfce panel."
 msgstr ""
+"Większość wtyczek paneli dostępnych na stronach dodatków <a href=\"http://"
+"goodies.xfce.org/\">projektu Xfce Goodies</a> została już zaktualizowana i "
+"obsługuje nowe panele. Do tego zestawu dodano kilka zupełnie nowych pozycji. "
+"Na przykład nowy aplet <b>xfce4-xfapplet-plugin</b> umożliwia umieszczanie "
+"na panelach apletów środowiska GNOME."
 
 #: about/tour44.php:131
 msgid "Time Management"
@@ -3021,6 +3080,9 @@ msgid ""
 "Some examples of new settings dialogs were already shown in the sections "
 "above."
 msgstr ""
+"Bieżące wydanie zyskało nowe opcje umożliwiające dostosowanie środowiska do "
+"własnych potrzeb. Niektóre przykłady nowych okien konfiguracyjnych zostały "
+"zaprezentowane w sekcji powyżej."
 
 #: about/tour44.php:195
 msgid "Preferred Applications"
@@ -3035,6 +3097,13 @@ msgid ""
 "an application for a certain category (GNOME users may have already noticed "
 "that GNOME adopted this approach, because it is such simple)."
 msgstr ""
+"Do Xfce zaimportowano moduł obsługi preferowanych programów, który wcześniej "
+"dostępny był tylko w <b>Terminalu</b>. Użytkownicy nie muszą już modyfikować "
+"profilów powłoki, aby określić jakiej przeglądarki i emulatora terminala ma "
+"używać środowisko. Moduł ma za zadanie jak najbardziej ułatwić proces "
+"ustalania domyślnych programów, używanych do wykonywania określonych "
+"czynności (użytkownicy GNOME mogli zauważyć, że ich środowisko również "
+"zaadoptowało takie rozwiązanie, ze względu na prostotę użytkowania)."
 
 #: about/tour44.php:201
 msgid "Keyboard Shortcuts"
@@ -3048,6 +3117,9 @@ msgid ""
 "limitation is history and the application shortcuts are now separated from "
 "the window manager shortcuts."
 msgstr ""
+"W wydaniu Xfce 4.2 znany był problem związany z ograniczoną ilością skrótów "
+"klawiszowych. Xfce 4.4 naprawia ten błąd i rozdziela skróty programów od "
+"skrótów menedżera okien."
 
 #: about/tour44.php:208
 msgid "Feedback"
@@ -3060,10 +3132,10 @@ msgid ""
 "href=\"/community/lists\">xfce</a> mailinglist if you have questions about "
 "Xfce 4.4.0 or trouble with the installation."
 msgstr ""
-"Proszę komentarze do tego artykułu zamieszczać w moim <a href=\"http://xfce-"
-"diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html\">blogu</a> a "
-"wszelkie pytania odnośnie Xfce 4.4.0 i problemów z instalacją kierować na <a "
-"href=\"/community/lists\">listy dyskusyjne Xfce</a>."
+"Proszę o zamieszczanie komentarzy do tego artykułu w moim <a href=\"http://"
+"xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html\">blogu</a>. "
+"Wszelkie pytania odnośnie Xfce 4.4.0 i problemów z instalacją należy "
+"kierować na <a href=\"/community/lists\">listy dyskusyjne Xfce</a>."
 
 #: about/tour44.php:224
 msgid "Written by Benedikt Meurer, 21 Jan 2007"
