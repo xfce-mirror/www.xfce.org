@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-01-06 00:21:16";
+$translators_stamp = "2013-01-13 00:21:23";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -188,7 +188,7 @@ $translators = array (
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
     'marc doutreloux' => 'mdoutreloux'.ATSIGN.'yahoo'.DOTSIGN.'fr',
     'Nicolas Bidault' => 'nico_bidault'.ATSIGN.'yahoo'.DOTSIGN.'fr',
-    'Arnold DUMAS' => 'dumas'.ATSIGN.'efrei'.DOTSIGN.'fr',
+    'Pat0n75' => '',
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'fr',
     'Saïd Bouras' => 'said'.DOTSIGN.'bouras'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -424,9 +424,8 @@ $translators = array (
     'Vladimír Šebo' => 'vladimir'.DOTSIGN.'sebo'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Slovenian [sl]' => array (
-    'Alan Pepelko' => 'alan'.DOTSIGN.'pepelko'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Gašper Tomažič' => 'gasper'.ATSIGN.'gmx'.DOTSIGN.'com',
-    'Klemen Košir' => 'klemen'.DOTSIGN.'kosir'.ATSIGN.'gmx'.DOTSIGN.'com',
+    'Klemen Košir' => 'klemen913'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Albanian [sq]' => array (
     'Besnik Bleta' => 'besnik'.ATSIGN.'programeshqip'.DOTSIGN.'org',
