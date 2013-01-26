@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-01-20 00:21:15";
+$translators_stamp = "2013-01-27 00:21:16";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -205,9 +205,9 @@ $translators = array (
     'xirin' => 'xirin1973'.ATSIGN.'yahoo'.DOTSIGN.'es',
   ),
   'Hebrew [he]' => array (
-    'Yaron Shahrabani' => 'sh'.DOTSIGN.'yaron'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'GenghisKhan' => 'genghiskhan'.ATSIGN.'gmx'.DOTSIGN.'ca',
+    'Nick Schermer' => 'nick'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Hezy Amiel' => 'open'.ATSIGN.'hezyamiel'.DOTSIGN.'com',
+    'nick vurgaft' => 'slipperygate'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Hindi [hi]' => array (
     'Anurag Garg' => 'ang'.DOTSIGN.'astronomy'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -225,7 +225,7 @@ $translators = array (
   ),
   'Armenian [hy]' => array (
     'sssilver' => 'sssilver'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'imandes' => '',
+    'imandes' => 'imandes'.ATSIGN.'spyurk'.DOTSIGN.'am',
     'm_hamlet' => 'contact'.ATSIGN.'hamletmuradyan'.DOTSIGN.'com',
   ),
   'Indonesian [id]' => array (
@@ -311,6 +311,9 @@ $translators = array (
     'Kevin Brubeck Unhammer' => 'javkalas'.ATSIGN.'mm'.DOTSIGN.'st',
     'Eskild Hustvedt' => 'user'.ATSIGN.'zerodogg'.DOTSIGN.'org',
   ),
+  'Ossetian [os]' => array (
+    'Soslan Xwybylty' => 'soslanx'.ATSIGN.'gmail'.DOTSIGN.'com',
+  ),
   'Panjabi (Punjabi) [pa]' => array (
     'A S Alam' => 'apreet'.DOTSIGN.'alam'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
@@ -366,6 +369,7 @@ $translators = array (
     'Mișu Moldovan' => 'dumol'.ATSIGN.'xfce'.DOTSIGN.'org',
     'George Pîrlea' => 'pirlea'.DOTSIGN.'george'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Igor Stirbu' => 'igor'.DOTSIGN.'stirbu'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Tanya Pascal' => 'josephinex21'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ionut Ovejanu' => 'ovejanu'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'strainu' => 'xfce'.ATSIGN.'strainu'.DOTSIGN.'ro',
     'Horia Dutescu' => 'vladi'.DOTSIGN.'linux'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -428,7 +432,9 @@ $translators = array (
   ),
   'Slovenian [sl]' => array (
     'Gašper Tomažič' => 'gasper'.ATSIGN.'gmx'.DOTSIGN.'com',
+    'Nenad Latinović' => 'nenadlatinovic'.ATSIGN.'lavabit'.DOTSIGN.'com',
     'Klemen Košir' => 'klemen913'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Uros Preloznik' => 'uros00'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Albanian [sq]' => array (
     'Besnik Bleta' => 'besnik'.ATSIGN.'programeshqip'.DOTSIGN.'org',
