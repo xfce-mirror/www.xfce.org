@@ -3,7 +3,8 @@
 /* known languages in this directory */
 $languages = array (
 	'en' => 'English',
-	'es' => 'Spanish (Castilian)',
+	'de' => 'German',
+        'es' => 'Spanish (Castilian)',
 	'it' => 'Italian',
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
