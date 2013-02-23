@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-02-17 00:21:16";
+$translators_stamp = "2013-02-24 00:21:09";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -35,7 +35,7 @@ $translators = array (
     'Arthur Schebetau' => 'archisoft6'.ATSIGN.'gmail'.DOTSIGN.'com',
     'belarus' => 'useq'.ATSIGN.'list'.DOTSIGN.'ru',
     'Mikalai Udodau' => 'crom-a'.ATSIGN.'tut'.DOTSIGN.'by',
-    'Mike Gelfand' => 'mike'.DOTSIGN.'dld'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Mike Gelfand' => 'mikedld'.ATSIGN.'mikedld'.DOTSIGN.'com',
   ),
   'Bulgarian [bg]' => array (
     'Valentin Tunev' => 'hdbuster'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -336,6 +336,7 @@ $translators = array (
   ),
   'Portuguese [pt]' => array (
     'Nuno Miguel' => 'nunomgue'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Diogo Alves' => 'empty'.DOTSIGN.'block'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Joel Patrão' => 'joel'.DOTSIGN.'patrao'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Bruno Martins' => 'bmartins712'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio Marques' => 'smarquespt'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -368,7 +369,7 @@ $translators = array (
     'Mișu Moldovan' => 'dumol'.ATSIGN.'xfce'.DOTSIGN.'org',
     'George Pîrlea' => 'pirlea'.DOTSIGN.'george'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Igor Stirbu' => 'igor'.DOTSIGN.'stirbu'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Tanya Pascal' => 'josephinex21'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'josephine' => '',
     'Ionut Ovejanu' => 'ovejanu'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'strainu' => 'xfce'.ATSIGN.'strainu'.DOTSIGN.'ro',
     'Horia Dutescu' => 'vladi'.DOTSIGN.'linux'.ATSIGN.'gmail'.DOTSIGN.'com',
@@ -536,6 +537,7 @@ $translators = array (
     'Qianqian Fang' => 'fangqq'.ATSIGN.'gmail'.DOTSIGN.'com',
     'haobug' => 'qinghao1'.ATSIGN.'foxmail'.DOTSIGN.'com',
     'Ganghua Leng' => 'hiweed'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Frank Lee' => 'lifei'.ATSIGN.'schaeffler'.DOTSIGN.'com',
     'Michael Lin' => 'linmx0130'.ATSIGN.'163'.DOTSIGN.'com',
     'Howard Chan' => 'smartboyhw'.ATSIGN.'gmail'.DOTSIGN.'com',
     'tuhaihe' => '1132321739qq'.ATSIGN.'gmail'.DOTSIGN.'com',
