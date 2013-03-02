@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-02-24 00:21:09";
+$translators_stamp = "2013-03-03 00:21:11";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -94,6 +94,7 @@ $translators = array (
     'Mark Trompell' => 'mark'.ATSIGN.'foresightlinux'.DOTSIGN.'org',
     'Matthias Mailänder' => 'matthias'.ATSIGN.'mailaender'.DOTSIGN.'name',
     'Michael Schmitt' => 'user'.DOTSIGN.'of'.DOTSIGN.'xfce'.ATSIGN.'googlemail'.DOTSIGN.'com',
+    'Simon Steinbeiss' => 'ochosi'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Niklas Reinmuth' => 'Niklas'.DOTSIGN.'Reinmuth'.ATSIGN.'googlemail'.DOTSIGN.'com',
     'Paul Seyfert' => 'pseyfert'.ATSIGN.'mathphys'.DOTSIGN.'fsk'.DOTSIGN.'uni-heidelberg'.DOTSIGN.'de',
     'Roland Kübert' => 'roland'.ATSIGN.'upic'.DOTSIGN.'de',
@@ -174,6 +175,7 @@ $translators = array (
     'Jarno Liimatainen' => 'jarliim'.ATSIGN.'iki'.DOTSIGN.'fi',
   ),
   'French [fr]' => array (
+    'jc jc1' => 'jc1'.DOTSIGN.'quebecos'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Xavier Devlamynck' => 'magicrhesus'.ATSIGN.'ouranos'.DOTSIGN.'be',
     'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Durand-Favreau Arnaud' => 'biginoz'.ATSIGN.'free'.DOTSIGN.'fr',
@@ -181,7 +183,6 @@ $translators = array (
     'Iliyas Jorio' => 'inv'.DOTSIGN.'jorio'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Benoit THIBAUD' => 'frombenny'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Mario Gervais' => 'gervais'.DOTSIGN.'mario'.ATSIGN.'ymail'.DOTSIGN.'com',
-    'jc jc1' => 'jc1'.DOTSIGN.'quebecos'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Jean-Philippe Fleury' => 'contact'.ATSIGN.'jpfleury'.DOTSIGN.'net',
     'Yanice lei00' => 'cherrak'.ATSIGN.'lavabit'.DOTSIGN.'com',
@@ -190,7 +191,6 @@ $translators = array (
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
     'marc doutreloux' => 'mdoutreloux'.ATSIGN.'yahoo'.DOTSIGN.'fr',
     'Nicolas Bidault' => 'nico_bidault'.ATSIGN.'yahoo'.DOTSIGN.'fr',
-    'Pat0n75' => '',
     'Anthony Jorion' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'org',
     'Saïd Bouras' => 'said'.DOTSIGN.'bouras'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
