@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-03-03 00:21:11";
+$translators_stamp = "2013-03-10 00:21:12";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -32,8 +32,10 @@ $translators = array (
   ),
   'Belarusian [be]' => array (
     'Andrej Zakharevich' => 'andrej'.ATSIGN.'zahar'.DOTSIGN.'ws',
+    'Anton Barycheuski' => 'antofa1'.ATSIGN.'mail'.DOTSIGN.'ru',
     'Arthur Schebetau' => 'archisoft6'.ATSIGN.'gmail'.DOTSIGN.'com',
     'belarus' => 'useq'.ATSIGN.'list'.DOTSIGN.'ru',
+    'Юрый Кашчэеў' => 'zowenko'.ATSIGN.'open'.DOTSIGN.'by',
     'Mikalai Udodau' => 'crom-a'.ATSIGN.'tut'.DOTSIGN.'by',
     'Mike Gelfand' => 'mikedld'.ATSIGN.'mikedld'.DOTSIGN.'com',
   ),
@@ -72,6 +74,7 @@ $translators = array (
   ),
   'Danish [da]' => array (
     'Per Kongstad' => 'p_kongstad'.ATSIGN.'op'.DOTSIGN.'pl',
+    'Aputsiaq Janussen' => 'aj'.ATSIGN.'isit'.DOTSIGN.'gl',
     'Kris Thomsen' => 'mail'.ATSIGN.'kristhomsen'.DOTSIGN.'dk',
     'Morten Juhl-Johansen Zölde-Fejér' => 'mjjzf'.ATSIGN.'syntaktisk'.DOTSIGN.'dk',
   ),
@@ -294,6 +297,7 @@ $translators = array (
     'Mohd'.DOTSIGN.' Nadzrin Sapari' => 'terjemah'.DOTSIGN.'puretech'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Norwegian Bokmal [nb]' => array (
+    'Johan Skorild' => 'x'.DOTSIGN.'bluebanana'.ATSIGN.'gmail'.DOTSIGN.'com',
     'takoi' => 'thomas'.DOTSIGN.'amland'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Terje Uriansrud' => 'terje'.ATSIGN.'uriansrud'.DOTSIGN.'net',
     'Kevin Brubeck Unhammer' => 'javkalas'.ATSIGN.'mm'.DOTSIGN.'st',
@@ -541,6 +545,7 @@ $translators = array (
     'Michael Lin' => 'linmx0130'.ATSIGN.'163'.DOTSIGN.'com',
     'Howard Chan' => 'smartboyhw'.ATSIGN.'gmail'.DOTSIGN.'com',
     'tuhaihe' => '1132321739qq'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'winjeg kong' => 'winjeg'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Chinese (Hong Kong) [zh_HK]' => array (
     'Howard Chan' => 'smartboyhw'.ATSIGN.'gmail'.DOTSIGN.'com',
