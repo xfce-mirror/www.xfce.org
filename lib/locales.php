@@ -5,6 +5,7 @@ $languages = array (
 	'en' => 'English',
 	'de' => 'German',
         'es' => 'Spanish (Castilian)',
+        'hu' => 'Hungarian',
 	'it' => 'Italian',
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
