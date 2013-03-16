@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-03-10 00:21:12";
+$translators_stamp = "2013-03-17 00:21:17";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -35,7 +35,7 @@ $translators = array (
     'Anton Barycheuski' => 'antofa1'.ATSIGN.'mail'.DOTSIGN.'ru',
     'Arthur Schebetau' => 'archisoft6'.ATSIGN.'gmail'.DOTSIGN.'com',
     'belarus' => 'useq'.ATSIGN.'list'.DOTSIGN.'ru',
-    'Юрый Кашчэеў' => 'zowenko'.ATSIGN.'open'.DOTSIGN.'by',
+    'Юрый Кашчэеў' => 'kashcheyeu'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Mikalai Udodau' => 'crom-a'.ATSIGN.'tut'.DOTSIGN.'by',
     'Mike Gelfand' => 'mikedld'.ATSIGN.'mikedld'.DOTSIGN.'com',
   ),
@@ -145,7 +145,7 @@ $translators = array (
     'Eduardo Mayorga Téllez' => 'mayorgalinux'.ATSIGN.'fedoraproject'.DOTSIGN.'org',
     'Octavio Bernal Quiroz' => 'octavio'.DOTSIGN.'bernal'.DOTSIGN.'q'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Sergio García' => 'oigres200'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'prflr88' => 'prflr88'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Pablo Roberto Francisco Lezaeta Reyes' => 'prflr88'.ATSIGN.'gmail'.DOTSIGN.'com',
     'David Segura Monroy' => 'davidseg'.ATSIGN.'gmail'.DOTSIGN.'com',
     'sebikul' => '',
   ),
@@ -188,6 +188,7 @@ $translators = array (
     'Mario Gervais' => 'gervais'.DOTSIGN.'mario'.ATSIGN.'ymail'.DOTSIGN.'com',
     'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Jean-Philippe Fleury' => 'contact'.ATSIGN.'jpfleury'.DOTSIGN.'net',
+    'Kppqju77' => 'ju'.DOTSIGN.'adde'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Yanice lei00' => 'cherrak'.ATSIGN.'lavabit'.DOTSIGN.'com',
     'Jourdain Cyril' => 'cyril'.DOTSIGN.'jd'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Louis Moureaux' => 'm_louis30'.ATSIGN.'yahoo'.DOTSIGN.'com',
@@ -215,10 +216,12 @@ $translators = array (
   'Hindi [hi]' => array (
     'Anurag Garg' => 'ang'.DOTSIGN.'astronomy'.ATSIGN.'gmail'.DOTSIGN.'com',
     'chandan kumar' => 'chandankumar'.DOTSIGN.'093047'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Dipanjan Das' => 'saturn'.ATSIGN.'hotmail'.DOTSIGN.'co'.DOTSIGN.'in',
   ),
   'Croatian [hr]' => array (
     'Petar Koretić' => 'petar'.DOTSIGN.'koretic'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Ivica Kolić' => 'ikoli'.ATSIGN.'yahoo'.DOTSIGN.'com',
+    'Denis Štogl' => 'denisstogl'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Luka Kelava' => 'luka'.DOTSIGN.'kelava2009'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Hungarian [hu]' => array (
