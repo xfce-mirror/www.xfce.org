@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-03-31 00:21:17";
+$translators_stamp = "2013-04-07 00:21:12";
 
 $translators = array (
   'Amharic [am]' => array (
