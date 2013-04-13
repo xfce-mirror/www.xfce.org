@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-04-07 00:21:12";
+$translators_stamp = "2013-04-14 00:21:17";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -14,11 +14,11 @@ $translators = array (
   ),
   'Arabic [ar]' => array (
     'كريم أولاد الشلحة' => 'herr'.DOTSIGN.'linux88'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
     'abdilra7eem' => 'abdilra7eem'.ATSIGN.'yahoo'.DOTSIGN.'com',
     'Amine' => 'med'.ATSIGN.'mailoo'.DOTSIGN.'org',
     'khire aldin kajjan' => 'Cransh'.DOTSIGN.'t2'.ATSIGN.'hotmail'.DOTSIGN.'com',
     'Hasen il Judy' => 'hasan'.DOTSIGN.'aljudy'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
     'mohsen' => 'linuxer9'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Noureddin Khatat' => 'noureddin'.ATSIGN.'barid'.DOTSIGN.'com',
     'os_' => 'syriatalks'.ATSIGN.'hotmail'.DOTSIGN.'com',
@@ -463,6 +463,7 @@ $translators = array (
   ),
   'Serbian (Latin) [sr@latin]' => array (
     'mpopovic' => 'gpopac'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Саша Петровић' => 'salepetronije'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Swedish [sv]' => array (
     'Andreas Rönnquist' => 'gusnan'.ATSIGN.'gusnan'.DOTSIGN.'se',
