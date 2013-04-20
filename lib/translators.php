@@ -4,7 +4,7 @@
  * DO NOT EDIT IT MANUALLY!
  */
 
-$translators_stamp = "2013-04-14 00:21:17";
+$translators_stamp = "2013-04-21 00:21:14";
 
 $translators = array (
   'Amharic [am]' => array (
@@ -13,6 +13,7 @@ $translators = array (
     'Fantaw Tesema' => 'fantaw'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Arabic [ar]' => array (
+    'M'.DOTSIGN.'hanny sabbagh' => 'hannysabbagh'.ATSIGN.'hotmail'.DOTSIGN.'com',
     'كريم أولاد الشلحة' => 'herr'.DOTSIGN.'linux88'.ATSIGN.'gmail'.DOTSIGN.'com',
     'محمد الحرقان' => 'malham1'.ATSIGN.'gmail'.DOTSIGN.'com',
     'abdilra7eem' => 'abdilra7eem'.ATSIGN.'yahoo'.DOTSIGN.'com',
@@ -24,7 +25,6 @@ $translators = array (
     'os_' => 'syriatalks'.ATSIGN.'hotmail'.DOTSIGN.'com',
     'sanad' => '0sanad0'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Yassine Bouhadi' => 'yassine'.DOTSIGN.'skiloo'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'suhaib' => 'suhaibothman'.ATSIGN.'gmail'.DOTSIGN.'com',
     'ybanafa' => 'ybanafa'.ATSIGN.'alasersystems'.DOTSIGN.'com',
     'yusuf' => 'ys9889'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
@@ -340,7 +340,6 @@ $translators = array (
     'Ireneusz Gierlach' => 'irek'.DOTSIGN.'gierlach'.ATSIGN.'gmail'.DOTSIGN.'com',
     'jacek2v' => 'jacek2v'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Jakub Waśko' => 'javazlaz'.ATSIGN.'gmail'.DOTSIGN.'com',
-    'Michał Jeż' => 'michal'.DOTSIGN.'je2u'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Kamil Konieczka' => 'klkkzm'.ATSIGN.'gmail'.DOTSIGN.'com',
     'kolofaza' => 'kolofaza'.ATSIGN.'o2'.DOTSIGN.'pl',
     'Michał Olber' => 'michal'.DOTSIGN.'olber'.ATSIGN.'osworld'.DOTSIGN.'pl',
@@ -466,9 +465,9 @@ $translators = array (
     'Саша Петровић' => 'salepetronije'.ATSIGN.'gmail'.DOTSIGN.'com',
   ),
   'Swedish [sv]' => array (
-    'Andreas Rönnquist' => 'gusnan'.ATSIGN.'gusnan'.DOTSIGN.'se',
     'Alexander Nordlund' => 'deep'.DOTSIGN.'alexander'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Emil Karlsson' => 'Emil_1989'.ATSIGN.'hotmail'.DOTSIGN.'com',
+    'Andreas Rönnquist' => 'gusnan'.ATSIGN.'gusnan'.DOTSIGN.'se',
     'Aksel Bergfeldt' => 'aksel'.DOTSIGN.'bergfeldt'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Rickard Larsson' => 'larsson'.ATSIGN.'odus'.DOTSIGN.'se',
     'kim Svensson' => 'ks'.ATSIGN.'linux'.DOTSIGN.'com',
