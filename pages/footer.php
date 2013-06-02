@@ -1,4 +1,13 @@
 	</div> <!-- page-contents -->
+<?php
+	if (isset($toc['filename']))
+	{
+		echo '<hr class="hidden" />';
+		echo '<div id="related">';
+		include ($toc['filename']);
+		echo '</div>';
+	}
+?>
 	<div class="clearboth"></div>
 	</div> <!-- content-wrap -->
 	<div id="footer">

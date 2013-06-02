@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 850px) {
+	body, h2, h3, h4 {
+		font-size: 110%; /* 10% bigger fonts */
+	}
+	h1 {
+		font-size: 26px;
+		text-align: left;
+	}
+	#main {
+		min-width: 380px;
+		width: 380px;
+		padding: 0;
+	}
+	#slidewrap {
+		background-size: 463px 185px;
+	}
+	#slide img, #slide {
+		width: 370px;
+		height: 185px;
+
+	}
+	div.column {
+		float: none;
+		width: 100%;
+
+	}
+	div.lcolumn {
+		margin-right: 0;
+		margin-bottom: 3em;
+	}
+	div.rcolumn {
+		margin-left: 0;
+	}
+	.post-wrap {
+		padding-bottom: 0;
+	}
+	.frontpage_cols {
+		padding: 1em;
+	}
+	#article {
+		margin-right: 0;
+		border-right: 0;
+		padding: 1em;
+	}
+	.figure img {
+		max-width: 330px;
+	}
+	#article.file_screenshots img {
+		max-width: 48%;
+	}
+	#mainnav select {
+		font-size: 110%;
+		height: 32px;
+	}
+	#mainnav-icon {
+		display: block;
+		float: left;
+	}
+	#mainnav div ul {
+		display: none;
+		background: #333;
+		position: absolute;
+		margin-top: 32px;
+		color: #fff !important;
+		width: 200px;
+		float: left;
+		z-index: 99;
+
+	}
+	#mainnav div:hover ul {
+		display: block;
+	}
+	#mainnav div:hover #mainnav-icon {
+		-webkit-border-bottom-right-radius: 0;
+		-webkit-border-bottom-left-radius: 0;
+		-moz-border-radius-bottomright: 0;
+		-moz-border-radius-bottomleft: 0;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	#mainnav ul li {
+		float: none;
+		border-left: 0;
+		border-top: 1px solid #fff;
+		padding: 0;
+	}
+	#mainnav ul li a {
+		display: block;
+		color: #fff;
+		padding: 6px 20px;
+		font-weight: bold;
+	}
+	#mainnav ul li a:hover {
+		background-color: #666;
+		text-decoration: none;
+	}
+	#related {
+		position: relative;
+		border: 0;
+		background-color: #ccc;
+		width: auto;
+		padding: 1em 0;
+		margin-top: 0;
+
+		-webkit-border-bottom-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-bottomright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+	#related-jump {
+		float: right;
+		display: block;
+		background-color: #d7d7d7;
+		margin: 0;
+
+		-webkit-border-top-right-radius: 4px;
+		-webkit-border-bottom-left-radius: 4px;
+		-moz-border-radius-topright: 4px;
+		-moz-border-radius-bottomleft: 4px;
+		border-top-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+	}
+	#related-jump a {
+		padding: 6px;
+		display: block;
+	}
+	#related-jump.file_frontpage {
+		display: none;
+	}
+}

@@ -11,6 +11,7 @@ else
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?php echo $title ?></title>
 	<link rel="icon" href="/favicon.ico" />
 	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
@@ -49,8 +50,10 @@ else
 
 <div id="main">
 	<div id="mainnav">
+
+		<h5 class="hidden"><?php E_('Categories') ?></h5>
 		<div>
-			<h5 class="hidden"><?php E_('Categories') ?></h5>
+			<a href="#" id="mainnav-icon"><?php E_('Navigate') ?></a>
 			<ul>
 				<li><a href="/"><?php E_('Home') ?></a></li>
 				<li><a href="/about"><?php E_('About') ?></a></li>
@@ -81,13 +84,7 @@ else
 	</div>
 
 	<div id="content">
-<?php
-	if (isset($toc['filename']))
-	{
-		echo '<div id="sidebar">';
-		include ($toc['filename']);
-		echo '</div>';
-	}
-?>
-
+<?php if (isset($toc['filename'])) { ?>
+	<p id="related-jump" class="file_<?php echo $page_class ?>"><a href="#related"><?php E_('Related Pages') ?> &darr;</a></p>
+<?php } ?>
 	<div id="article" class="file_<?php echo $page_class ?>">
