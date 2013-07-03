@@ -7,7 +7,7 @@ $head['title'] = R_('Translation');
 <h1><?php echo $head['title'] ?></h1>
 
 <p>
-  <?php E_('Xfce uses the <a href="http://transifex.org">Transifex</a> translation platform as a portal for translators. This allows translators to translate on-line, submit new <em>po</em>-files, watch translations and view statistics. All translation updates are directly submitted in the <a href="http://git.xfce.org">Xfce GIT repositories</a>, so they are directly available for the rest of the world.') ?>
+  <?php E_('Xfce uses the <a href="https://www.transifex.com/">Transifex</a> translation platform as a portal for translators. This allows translators to translate on-line, submit new <em>po</em>-files, watch translations and view statistics. All translation updates are directly submitted in the <a href="http://git.xfce.org">Xfce GIT repositories</a>, so they are directly available for the rest of the world.') ?>
 </p>
 
 <p>
@@ -21,10 +21,9 @@ $head['title'] = R_('Translation');
 </p>
 
 <ol>
-  <li><?php E_('First go to the <a href="https://translations.xfce.org/accounts/register/">registration page</a> and create a new profile. After you\'ve pressed the <em>Register</em>-button, you will receive an email to confirm your account, before you can login.') ?></li>
-  <li><?php E_('After you\'ve logged in, go to your <a href="https://translations.xfce.org/accounts/profile/edit/personal/">profile page</a> and set your <em>First name</em>, <em>Surname</em> and <em>Native Language</em>. Your complete name is <em>required</em> for submitting translations and will be used in the GIT logs, so take this seriously!') ?></li>
-  <li><?php E_('Join the <a href="http://foo-projects.org/mailman/listinfo/xfce-i18n">Xfce translation mailing list</a>. This is where the translation communication is coordinated, so it is nice to introduce yourself here. On this list developer will also announce when releases are planned, translations system changes or anything else you should know as a translators.') ?></li>
-  <li><?php E_('Go to the <a href="https://translations.xfce.org/projects/p/xfce/teams/">Xfce translation teams</a> and request access to a team or request a new language if it doesn\'t exist yet. One of the developers or translation coordinators will approve (or decline) your request. All other product in this Transifex installation outsource the permissions of the Xfce product, so your rights in this product will apply all over <a href="https://translations.xfce.org">translations.xfce.org</a>.') ?></li>
+  <li><?php E_('First go to <a href="https://www.transifex.com/">transifex.com</a> and create a new profile.') ?></li>
+  <li><?php E_('Join the <a href="https://mail.xfce.org/mailman/listinfo/xfce-i18n">Xfce translation mailing list</a>. This is where the translation communication is coordinated, so it is nice to introduce yourself here. On this list developer will also announce when releases are planned, translations system changes or anything else you should know as a translators.') ?></li>
+  <li><?php E_('Go to <a href="https://www.transifex.com/projects/p/xfce/">Xfce hub project</a> and request access to a team or request a new language if it doesn\'t exist yet. One of the developers or translation coordinators will approve (or decline) your request. All other Xfce related projects outsource the permissions of the Xfce hub.') ?></li>
   <li><?php E_('Now wait patently. If it takes too long, leave a message on the translation mailing list.') ?></li>
 </ol>
 
@@ -74,28 +73,7 @@ $head['title'] = R_('Translation');
 
 <h2 id="transifex"><?php E_('Transifex Usage') ?></h2>
 
-<h3><?php E_('Statistics') ?></h3>
 <p>
-  <?php E_('Transifex provides statistics per language and per project. The <a href="https://translations.xfce.org/projects/p/xfce/">Xfce collection project</a> view is the most interesting as it lets you know if the core projects are fully translated. An overview of the language stats in Xfce core master are <a href="https://translations.xfce.org/projects/p/xfce/r/master/">here</a>.  It is also possible to get to such a page by going to the <a href="https://translations.xfce.org/languages/">language page</a> first and picking up your language than a collection. The collection &quot;Xfce&quot; has several components for the different stable versions (<em>xfce-4.4</em>, <em>xfce-4.6</em>, etc) and one for the development branch (<em>master</em>). The other collections, for example Applications, have usually only development components as they aren\'t part of any official Xfce releases.') ?>
+  <?php E_('You can read all about Transifex in their <a href="http://support.transifex.com/">support section</a>.') ?>
 </p>
-
-<h3><?php E_('Downloading Translations') ?></h3>
-
-<p>
-  <?php E_('You can visualize and download PO files from existing translations. For that just go to a project page or select a collection from the languages page, than click one of the small buttons at the right of the statistics. If there is no current translation you can download the source file (the PO template) available on each project page. Also when you are on a collection view you have at the bottom of the statistics table a download section with ZIP files.') ?>
-</p>
-
-<h3><?php E_('Uploading Translations') ?></h3>
-
-<p>
-  <?php E_('When you are identified on Transifex and have the upload rights it is very simple to upload new translations. Go to a project and choose the component that corresponds to a stable version or to the development branch &mdash; you can pass through the collection page to find a project &mdash; then click on the small <em>Upload</em> button besides the visualize/download/lock/edit buttons at the right of your language or the <em>Add a new translation</em> button at the bottom of the page if it doesn\'t exist yet. Fill in the form and click the <em>Send</em> button.') ?>
-</p>
-
-<p>
-  <?php E_('It is a good idea to click the <em>Lock</em> button when doing a translation while there is more than one active translator for your current language. Besides the <em>Upload</em> form, you can click the <em>Edit</em> button to update the translations online.') ?>
-</p>
-
-
-
-
 

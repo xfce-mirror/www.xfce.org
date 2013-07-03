@@ -41,7 +41,7 @@ else
 			<li><a href="http://forum.xfce.org" title="Community forums">Forum</a></li>
 			<li><a href="https://bugzilla.xfce.org" title="Report and track bugs">Bugs</a></li>
 			<li><a href="http://blog.xfce.org" title="Visit the blog">Blog</a></li>
-			<li><a href="https://translations.xfce.org" title="Help translating the Xfce project">Translate</a></li>
+			<li><a href="https://www.transifex.com/projects/p/xfce/" title="Help translating the Xfce project">Translate</a></li>
 			<li><a href="http://git.xfce.org" title="Project repositories">GIT</a></li>
 		</ul>
 	</div>
