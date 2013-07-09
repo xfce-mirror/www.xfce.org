@@ -15,7 +15,7 @@ else
 	<title><?php echo $title ?></title>
 	<link rel="icon" href="/favicon.ico" />
 	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
-	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/apple-touch-icon-iphone.png" />
+	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/apple-touch-icon.png" />
 	<meta name="content-language" content="<?php echo $lang ?>" />
 <?php
 	if (isset ($head['description']))
