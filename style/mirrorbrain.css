@@ -1,67 +1,132 @@
 @import url('header.css');
 
 body {
-  font: 12px/18px "Bitstream Vera Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  margin: 0;
-  line-height: 1.7em;
+	font: 12px/18px "Bitstream Vera Sans", "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	background-color: #eee;
+	color: #000;
+	line-height: 1.7em;
+	margin: 0;
 }
 
 #mirrorbrain-wrap
 {
-  padding: 1em;
-  min-width: 600px;
-  max-width: 1100px;
-  margin: auto;
-  text-align: left;
+	max-width: 1000px;
+	margin: 20px auto;
 }
 
-#mirrorbrain-details address {
-  display: none;
+#mirrorbrain-details {
+	padding: 2em;
+	background-color: #fff;
+	box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .25);
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 }
 
+#mirrorbrain-fileinfo {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-top: 1em;
+}
+
+#mirrorbrain-fileinfo h3 {
+	margin-top: 0;
+}
+
+#mirrorbrain-fileinfo ul {
+	list-style: none;
+	padding: 0;
+}
+
+.mirrorbrain-label {
+	width: 9em;
+	display: inline-block;
+	font-weight: bold;
+}
+#mirrorbrain-fileinfo p {
+	margin-bottom: 10px;
+}
+
+#mirrorbrain-footer {
+	padding:  10px 1em;
+}
+
+.mirrorbrain-btn {
+	background-color: rgba(18,127,210,1);
+	background-image: -webkit-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+	background-image: -moz-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+	background-image: -ms-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+	background-image: -o-linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+	background-image: linear-gradient(top, rgba(54,168,234,1) 0%,rgba(18,127,210,1) 100%);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
+	box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 1px 0px 0px 0px rgba(255,255,255,0.4)inset, -1px 0px 0px 0px rgba(255,255,255,0.4)inset;
+	border: solid 1px rgba(3,94,163,1);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.33);
+	padding: 8px;
+	border: solid 1px rgba(3,94,163,1);
+	color: rgba(255,255,255,1);
+}
+.mirrorbrain-btn:hover {
+	background-image: -webkit-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+	background-image: -moz-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+	background-image: -ms-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+	background-image: -o-linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+	background-image: linear-gradient(top, rgba(47,144,213,1) 0%,rgba(3,81,183,1) 100%);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
+	box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.4)inset, 0px -1px 0px 0px rgba(255,255,255,0.2)inset;
+	border: solid 1px rgba(0,52,129,1);
+	color: rgba(255,255,255,1);
+}
+
+
+h2, h3, h4 { color: #333;}
 h2 {
-  color: #666;
-  border-bottom: 1px solid #ccc;
-  font-weight: normal;
-  margin: 0;
-  padding: 0.5em 0 0 0;
-  font-size: 200%;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
 }
 
 a {
-  color: #06c;
-  text-decoration: none;
+	color: #06c;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #f00;
+	color: #f00;
 }
 
 div.notify {
-  background-color: #dfd;
-  border-bottom: 1px solid #9d9;
-  padding: .2em;
+	background-color: #dfd;
+	border-bottom: 1px solid #9d9;
+	padding: .2em;
 }
 
-hr {
-  height: 1px;
-  background: #ccc;
-  border: 0;
+hr, address {
+	display: none;
 }
 
 th, td {
-  text-align: left;
-  padding-right: 1em;
+	text-align: left;
+	padding-right: 1em;
+	white-space: nowrap;
 }
-
 th.namecol {
-  min-width: 15em;
+	min-width: 15em;
 }
-
 tr:hover td {
-  background-color: #eee;
+	background-color: #eee;
 }
-
 table {
-  margin-top: 1em;
+	margin-top: 1em;
 }
