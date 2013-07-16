@@ -8,10 +8,10 @@ body {
 	margin: 0;
 }
 
-#mirrorbrain-wrap
-{
+#mirrorbrain-wrap {
 	max-width: 1000px;
-	margin: 20px auto;
+	margin: 12px auto;
+	padding: 0 6px;
 }
 
 #mirrorbrain-details {
@@ -32,7 +32,12 @@ body {
 	background-color: #eee;
 	border: 1px solid #ccc;
 	padding: 10px;
+	word-wrap: break-word;
 	margin-top: 1em;
+}
+
+#mirrorbrain-mirrors {
+	word-wrap: break-word;
 }
 
 #mirrorbrain-fileinfo h3 {
@@ -45,9 +50,9 @@ body {
 }
 
 .mirrorbrain-label {
-	width: 9em;
-	display: inline-block;
 	font-weight: bold;
+	display: inline-block;
+	min-width: 9em;
 }
 #mirrorbrain-fileinfo p {
 	margin-bottom: 10px;
@@ -131,4 +136,21 @@ tr:hover td {
 table {
 	margin-top: 1em;
 	border-spacing: 0;
+}
+
+@media screen and (max-width: 500px) {
+	#mirrorbrain-details {
+		padding: 1em .5em;
+	}
+	#mirrorbrain-wrap {
+		padding: 0;
+	}
+	tr td:nth-child(3),
+	tr th:nth-child(3) {
+		/* hide unimportant column */
+		display: none;
+	}
+	.mirrorbrain-label {
+		min-width: 0em;
+	}
 }
