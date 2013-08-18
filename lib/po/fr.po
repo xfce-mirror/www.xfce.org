@@ -957,7 +957,7 @@ msgstr ""
 "org\">docs.xfce.org</a>. La raison de ce changement est la contribution "
 "limitée à la documentation depuis Xfce 4.8, donc nous espérons qu'un wiki "
 "attirer plus de contributeurs. Les boutons Aide dans l'interface "
-"fonctionneront, mais il vous sera demandé d'ouvrir le site Web de la "                                      
+"fonctionneront, mais il vous sera demandé d'ouvrir le site Web de la "
 "documentation dans votre navigateur."
 
 #: news-array.php:51
@@ -970,11 +970,11 @@ msgid ""
 "other components), garcon (menu library, was already a dependency in 4.8), "
 "thunar-volman (volume manager for Thunar)."
 msgstr ""
-"De plus, nous avons supprimé xfce-utils. Son contenu a soit été supprimé, "                                 
+"De plus, nous avons supprimé xfce-utils. Son contenu a soit été supprimé, "
 "soit déplacé vers d'autres paquets Xfce. Touts les autres changements de "
-"dépendances sont listés dans les Notes de version de 4.10pre1. Le cœur a "                                  
+"dépendances sont listés dans les Notes de version de 4.10pre1. Le cœur a "
 "aussi gagné quelques nouveaux composants parce que nous pensons qu'ils sont "
-"indispensables à un bureau minimal : xfce4-power-manager (gestion de "                                      
+"indispensables à un bureau minimal : xfce4-power-manager (gestion de "
 "l'énergie), tumbler (génération des miniatures pour Thunar et d'autres "
 "composants), garcon (bibliothèque du menu, était déjà une dépendance de la "
 "4.8), thunar-volman (gestionnaire de volumes pour Thunar)."
@@ -1257,11 +1257,11 @@ msgid ""
 "for the final release scheduled on January 16th, 2011."
 msgstr ""
 "Nous sommes heureux d'annoncer la seconde version préliminaire de Xfce 4.8. "
-"Cette version marque le commencement du gel des traductions. À partir "                                     
-"d'aujourd'hui jusqu'à la version finale, les chaînes ne peuvent plus être "                                 
+"Cette version marque le commencement du gel des traductions. À partir "
+"d'aujourd'hui jusqu'à la version finale, les chaînes ne peuvent plus être "
 "modifiées dans la branche maître des composants de Xfce. Ceci aidera les "
-"traducteurs à préparer leurs traductions pour cette version prévue pour le "                                
-"16 janvier 2011."                                                                                           
+"traducteurs à préparer leurs traductions pour cette version prévue pour le "
+"16 janvier 2011."
 
 #: news-array.php:98
 msgid ""
@@ -2271,11 +2271,18 @@ msgid ""
 " will now automatically restart session applications which crashed so that "
 "you are not left without a desktop, panel, window manager, etcetera, if a "
 "crash occurs. "
-msgstr "<b> Xfce 4.6 </b> est livré avec un gestionnaire de session amélioré: votre session devrait être lancé rapidement, et la boîte de dialogue des réglages a été retravaillé afin de faciliter la gestion des applications session conscients. En outre, le gestionnaire de session va redémarrer automatiquement les applications de session qui s'est écrasé de sorte que vous ne sont pas laissés sans un ordinateur de bureau, panneau, gestionnaire de fenêtres, etc, si un accident se produit. "
+msgstr ""
+"<b>Xfce 4.6</b> arrive avec un gestionnaire de session amélioré : votre "
+"session devrait démarrer plus rapidement, et les dialogues de paramétrage "
+"ont été revus pour faciliter la gestion des applications avec gestion de "
+"session.De plus, le gestionnaire de session va automatiquement redémarrer "
+"les applications de la session qui ont planté, de manière à ce que vous ne "
+"restiez pas sans bureau, panneau, gestionnaire de fenêtres, etc, si un "
+"plantage se produit."
 
 #: about/tour46.php:49
 msgid "Session settings dialog"
-msgstr "Session  des paramètres de dialogue"
+msgstr "Dialogue des paramètres de session"
 
 #: about/tour46.php:52
 msgid ""
@@ -2283,34 +2290,48 @@ msgid ""
 "<b>suspend</b> and <b>hibernate</b> \"out of the box.\"  The logout dialog "
 "now has two additional buttons which offer to suspend or hibernate your "
 "computer."
-msgstr "Le gestionnaire de session inclut également une nouvelle fonctionnalité attendue depuis longtemps: le soutien aux <b> Suspend </b> et <b> hibernate </b>   La déconnexion dialogue a maintenant deux boutons supplémentaires qui offrent "
+msgstr ""
+"Le gestionnaire de session inclut également une fonctionnalité longuement "
+"attendue : le support de la <b>veille</b> et de l'<b>hibernation</b> « out "
+"of the box ». Le dialogue de déconnexion a maintenant deux boutons "
+"additionnels qui permettent la suspension ou l'hibernation de votre "
+"ordinateur."
 
 #: about/tour46.php:55
 msgid "Session logout dialog"
-msgstr "Session déconnexion dialogue"
+msgstr "Dialogue de déconnexion"
 
 #: about/tour46.php:60
 msgid ""
 "As usual, <b>Xfwm4</b> has matured quite a bit during this release cycle: "
 "many bugs have been fixed, support for multiple displays has been added, and"
 " overall performance has been improved."
-msgstr "Comme d'habitude, <b> Xfwm4 </b> a mûri un peu au cours de ce cycle de sortie: de nombreux bogues ont été corrigés, le support de plusieurs écrans a été ajouté, et la performance globale a été améliorée."
+msgstr ""
+"Comme d'habitude, <b>Xfwm4</b> a bien mûri pendant ce cycle de version : de "
+"nombreux bogues ont été résolus, le support pour plusieurs écrans a été "
+"ajouté et les performances globales ont été améliorées."
 
 #: about/tour46.php:63
 msgid ""
 "In addition to some other new features, <b>Xfwm4</b> is now able to detect "
 "windows that do not respond and offer to terminate them."
-msgstr "En plus de quelques autres nouvelles fonctionnalités, <b> Xfwm4 </b> est maintenant capable de détecter les fenêtres qui ne répondent pas et proposent d'y mettre fin."
+msgstr ""
+"En plus de quelques autres fonctionnalités, <b>Xfwm4</b> est maintenant "
+"capable de détecter les fenêtres qui ne répondent pas et permet de les "
+"arrêter."
 
 #: about/tour46.php:66
 msgid "Dialog to terminate busy applications"
-msgstr "Dialogue pour mettre fin à des applications occupés"
+msgstr "Dialogue pour arrêter les applications occupées"
 
 #: about/tour46.php:69
 msgid ""
 "There is also a new <b>actions menu</b> which allows you to quickly move and"
 " resize windows, put them above or below other windows, or fullscreen them."
-msgstr "Il ya aussi un nouveau menu d'actions <b> </b> qui vous permet de déplacer rapidement et redimensionner les fenêtres, mettez-les au-dessus ou en dessous des autres fenêtres, ou fullscreen eux."
+msgstr ""
+"Il y a également un nouveau <b>menu des actions</b> qui vous permet de "
+"rapidement déplacer et redimensionner les fenêtres, de les passer devant ou "
+"derrière les autres, ou de les faire passer en plein écran."
 
 #: about/tour46.php:72
 msgid "New actions menu"
@@ -2320,31 +2341,38 @@ msgstr "Nouveau menu d'actions"
 msgid ""
 "A new <b>fill</b> operation has been implemented; it expands a given window "
 "to the available space without overlapping other adjacent windows."
-msgstr "Une nouvelle <b> remplir </b> opération a été mise en œuvre, qui agrandit une fenêtre donnée à l'espace disponible sans chevauchement d'autres fenêtres adjacentes."
+msgstr ""
+"Une nouvelle opération <b>remplir</b> a été implémentée : elle étend un "
+"fenêtre donnée à tout l'espace disponible sans recouvrir les autres fenêtres "
+"adjacentes."
 
 #: about/tour46.php:78
 msgid "Fill operation"
-msgstr "Remplir opération"
+msgstr "Opération remplir"
 
 #: about/tour46.php:81
 msgid ""
 "The <b>compositor</b> has been optimized to reduce window flickering "
 "duringresize operations."
-msgstr "Le compositeur de <b> </b> a été optimisé pour réduire la fenêtre vacillantes opérations de duringresize."
+msgstr ""
+"Le <b>compositeur</b> a été optimisé pour réduire les scintillements des "
+"fenêtres pendant les opérations de redimensionnement."
 
 #: about/tour46.php:84
 msgid "Flicker free resizing"
-msgstr "Flicker redimensionnement libre"
+msgstr "Redimensionnement sans scintillement"
 
 #: about/tour46.php:87
 msgid ""
 "Some <b>tweakable options</b> have also been added: for example, you can now"
 " disable the blinking of windows when they receive an urgency hint."
-msgstr "Certaines options tweakable <b> </b> ont également été ajoutés: par exemple, vous pouvez maintenant désactiver le clignotement des fenêtres quand ils reçoivent un indicateur d'urgence."
+msgstr ""
+"Quelques <b>options avancées</b> ont également été ajoutées : par exemple, vous pouvez "
+"maintenant désactiver le clignotement des fenêtres pour notifier une urgence."
 
 #: about/tour46.php:90
 msgid "New tweakable options"
-msgstr "De nouvelles options tweakable"
+msgstr "De nouvelles options avancées"
 
 #: about/tour46.php:95
 msgid ""
@@ -2352,7 +2380,12 @@ msgid ""
 "<b>Thunar</b>. It can use the mouse forward and backward buttons (if "
 "available) to navigate, and it includes a new plugin that allows you to set "
 "an image as wallpaper from the context menu."
-msgstr "Il ya eu de nombreuses corrections de bogues et améliorations de performances dans <b> Thunar </b>. Il peut utiliser la souris vers l'avant et vers l'arrière boutons (si disponible) pour naviguer, et il inclut un nouveau plug-in qui vous permet de définir une image comme fond d'écran à partir du menu contextuel."
+msgstr ""
+"Il y eu beaucoup de corrections de bogues et d'améliorations de performance "
+"dans <b>Thunar</b>. Il peut utiliser les boutons avancer et reculer de la "
+"souris (si disponibles) pour naviguer, et il inclut un nouveau greffon qui "
+"vous permet d'utiliser une image comme fond d'écran depuis le menu "
+"contextuel."
 
 #: about/tour46.php:98
 msgid "Set an image in a Thunar folder as wallpaper"
@@ -2364,21 +2397,29 @@ msgid ""
 "/xdg-user-dirs\"> XDG user directories</a> specification; this allows you to"
 " have themed and localized user folders to store your music, documents, "
 "videos, templates, etcetera..."
-msgstr "<b> Thunar </b> va maintenant le <a XDG annuaires d'utilisateurs </a> spécification href=\"http://freedesktop.org/wiki/Software/xdg-user-dirs\">, ce qui vous permet de avoir des dossiers utilisateur thématiques et localisée pour stocker votre musique, documents, vidéos, modèles, etc ..."
+msgstr ""
+"<b>Thunar</b> suit maintenant la spécification des <a href=\"http://"
+"freedesktop.org/wiki/Software/xdg-user-dirs\"> dossiers utilisateur XDG</a> "
+"; ceci vous permet d'avoir des dossiers utilisateur traduits et avec un "
+"thème pour stocker votre musique, vos documents, vos vidéos, vos modèles, "
+"etc."
 
 #: about/tour46.php:104
 msgid "Thunar menu for user directories"
-msgstr "Menu Thunar pour les répertoires des utilisateurs"
+msgstr "Menu Thunar pour les répertoires utilisateur"
 
 #: about/tour46.php:107
 msgid ""
 "<b>Thunar</b> will now display a translucent icon for drives or volumes that"
 " are not mounted, so that you can distinguish them from the mounted ones."
-msgstr "<b> Thunar </b> affiche maintenant une icône translucide pour les disques ou les volumes ne sont pas montés, de sorte que vous pouvez les distinguer de ceux montés."
+msgstr ""
+"<b>Thunar</b> va maintenant afficher une icône translucide pour les disques "
+"ou les volumes qui ne sont pas montés, de manière à ce que vous puissiez les "
+"distinguer de ceux qui sont montés."
 
 #: about/tour46.php:110
 msgid "Translucent icons for unmounted drives and volumes"
-msgstr "Icônes translucides pour les lecteurs et les volumes démontés"
+msgstr "Icônes translucides pour les disques et les volumes non montés"
 
 #: about/tour46.php:113
 msgid "Last, but not least, <b>Thunar</b> now supports encrypted devices!"
@@ -2395,7 +2436,13 @@ msgid ""
 " before. The dialogs which are accessible by single clicking on the icons "
 "have been designed to be more compact and to allow you to customize your "
 "desktop quickly and in a more intuitive way."
-msgstr "Xfce 4.6 dispose d'une nouvelle interface de réglages, <b> Xfce Settings Manager </b>, qui vous permet de configurer votre environnement de bureau beaucoup plus facilement qu'avant. Les dialogues qui sont accessibles en cliquant sur les icônes unique ont été conçus pour être plus compact et pour vous permettre de personnaliser votre bureau rapidement et de manière plus intuitive."
+msgstr ""
+"Xfce 4.6 apporte une nouvelle interface de configuration, le <b>Gestionnaire "
+"de paramètres de Xfce</b>, qui vous permet de configurer votre environnement "
+"de bureau beaucoup plus facilement qu'avant. Les dialogues qui sont "
+"accessibles par simple clic sur les icônes ont été conçu pour être plus "
+"compacts et vous permettre de personnaliser votre bureau rapidement et de "
+"manière plus intuitive."
 
 #: about/tour46.php:124
 msgid "Xfce4 Settings Manager"
@@ -2407,14 +2454,17 @@ msgstr "Paramètres d'accessibilité"
 
 #: about/tour46.php:128
 msgid "Accessibility settings dialog"
-msgstr "Boite de dialogue des paramètres d'accessibilité"
+msgstr "Dialogue des paramètres d'accessibilité"
 
 #: about/tour46.php:131
 msgid ""
 "The <b>Accessibility settings</b> dialog allows you to set the accessibility"
 " related mouse and keyboard options, such as sticky keys, bounce keys, or "
 "mouse emulation."
-msgstr "Les paramètres d'accessibilité <b> </b> dialogue vous permet de définir les options du clavier, telles que les touches rémanentes, les touches de rebond, ou l'émulation de la souris souris et sur l'accessibilité."
+msgstr ""
+"Le dialogue <b>Paramètres d'accessibilité</b> vous permet de fixer les "
+"options de la souris et du clavier relative à l'accessibilité, comme les "
+"touches rémanentes, les touches lentes, ou l'émulation de la souris."
 
 #: about/tour46.php:134
 msgid "Appearance settings"
@@ -2422,13 +2472,16 @@ msgstr "Paramètres d'apparence"
 
 #: about/tour46.php:136
 msgid "Appearance settings dialog"
-msgstr "Boite de dialogue des paramètres d'apparence"
+msgstr "Dialogue des paramètres d'apparence"
 
 #: about/tour46.php:139
 msgid ""
 "The <b>Appearance settings</b> dialog allows you to set the widget style, "
 "the icon theme, and font, toolbar and menu options."
-msgstr "La boite de dialogue des <b>paramètres d'apparence</b> vous permet de définir le style du widget, le thème d'icônes et la police, de la barre d'outils et des options du menu."
+msgstr ""
+"Le dialogue <b>Paramètres de l'apparence</b> vous permet de fixer le style "
+"graphique, le thème d'icônes et des options de polices, de barres d'outils "
+"et de menus."
 
 #: about/tour46.php:142
 msgid "Display settings"
@@ -2436,13 +2489,16 @@ msgstr "Paramètres d'affichage"
 
 #: about/tour46.php:144
 msgid "Display settings dialog"
-msgstr "Afficher boite de dialogue paramètres"
+msgstr "Dialogue des paramètres d'affichage"
 
 #: about/tour46.php:147
 msgid ""
 "The <b>Display settings</b> dialog allows you to set the resolution, refresh"
 " rate, and the rotation for each screen that is connected."
-msgstr "Les <b> paramètres d'affichage </b> de dialogue vous permet de définir la résolution, fréquence de rafraîchissement et la rotation pour chaque écran qui est connecté."
+msgstr ""
+"Le dialogue <b>Paramètres de l'affichage</b> vous permet de fixer la "
+"résolution, la fréquence de rafraîchissement et la rotation pour chaque "
+"écran qui est connecté."
 
 #: about/tour46.php:150
 msgid "Keyboard settings"
@@ -2450,17 +2506,20 @@ msgstr "Paramètres du clavier"
 
 #: about/tour46.php:152
 msgid "Keyboard settings dialog, layout tab"
-msgstr "dialogue des paramètres du Clavier, onglet de présentation"
+msgstr "Dialogue de paramétrage du clavier, onglet agencement"
 
 #: about/tour46.php:155
 msgid ""
 "The <b>Keyboard settings</b> dialog allows you to set keyboard preferences "
 "such as key repeating, keyboard shortcuts, and your keyboard layout."
-msgstr "Les réglages du clavier <b> </b> dialogue vous permet de définir des préférences du clavier telles que touche répétition, les raccourcis clavier et la disposition du clavier."
+msgstr ""
+"Le dialogue <b>Paramètres du clavier</b> vous permet de fixer des "
+"préférences du clavier comme la répétition des touches, les raccourcis "
+"clavier et votre agencement de clavier."
 
 #: about/tour46.php:158
 msgid "Keyboard settings dialog, shortcuts tab"
-msgstr "dialogue, onglet Réglages du clavier raccourcis"
+msgstr "Dialogue de paramétrage du clavier, onglet raccourcis"
 
 #: about/tour46.php:161
 msgid ""
@@ -2474,14 +2533,17 @@ msgstr "Paramètres de la souris"
 
 #: about/tour46.php:166
 msgid "Mouse settings dialog"
-msgstr "dialogue des paramètres de la souris"
+msgstr "Dialogue des paramètres de la souris"
 
 #: about/tour46.php:169
 msgid ""
 "The <b>Mouse settings</b> dialog allows you to configure the different mice "
 "connected to your computer: button order, acceleration, double-click speed, "
 "mouse cursor theme, etcetera..."
-msgstr "Les paramètres de la souris <b> </b> de dialogue vous permet de configurer les différentes souris connectés à votre ordinateur: l'ordre des boutons, accélération, double-cliquez vitesse, thème de curseur de souris, etc ..."
+msgstr ""
+"Le dialogue <b>Paramètres de la souris</b> vous permet de configurer les "
+"différentes souris connectées à votre ordinateur : ordre des boutons, "
+"accélération, vitesse dou double clic, thème de curseur, etc."
 
 #: about/tour46.php:172
 msgid "Desktop settings"
@@ -2489,14 +2551,17 @@ msgstr "Paramètres du bureau"
 
 #: about/tour46.php:174
 msgid "Desktop settings dialog"
-msgstr "Dialogue des paramètres de bureau"
+msgstr "Dialogue des paramètres du bureau"
 
 #: about/tour46.php:177
 msgid ""
 "The <b>Desktop settings</b> dialog is now much more compact; it allows you "
 "to configure per-screen settings: wallpaper, brightness, desktop menu, "
 "displayed icons, etcetera..."
-msgstr "Les paramètres de bureau <b> </b> dialogue est maintenant beaucoup plus compact, il vous permet de configurer les paramètres pour l'écran: fond d'écran, luminosité, menu du bureau, icônes, etc ..."
+msgstr ""
+"Le dialogue <b>Paramètres du bureau</b> est maintenant beaucoup plus "
+"compact : il vous permet de configurer des paramètres par écran : fond "
+"d'écran, luminosité, menu du bureau, icônes affichées, etc."
 
 #: about/tour46.php:183
 msgid ""
@@ -2505,7 +2570,13 @@ msgid ""
 "keyboard, and it monitors installed applications to update the list \"on the"
 " fly.\"  It also allows you to create panel launchers quickly by dragging an"
 " application icon to the launcher creation window."
-msgstr "<b> Xfce 4.6 </b> est également livré avec un tout nouveau Finder application qui dispose d'une interface utilisateur propre. Il est également plus facile à utiliser avec le clavier, et il surveille les applications installées de mettre à jour la liste   "
+msgstr ""
+"<b>Xfce 4.6</b> arrive aussi avec une toute nouvelle liste des applications "
+"qui affiche une interface utilisateur plus propre. Elle est plus facile d'usage "
+"au clavier, et elle surveille les applications installées permettant la mise à "
+"jour de la liste à la volée. Elle vous permet aussi de créer des lanceurs du "
+"panneau rapidement en glissant une icône d'application vers la fenêtre de "
+"création de lanceur."
 
 #: about/tour46.php:186
 msgid "New application finder"
@@ -2528,7 +2599,11 @@ msgid ""
 "This tour will introduce you to new major features of Xfce 4.10. It only "
 "covers the visual part of what has been done; for the full list of changes, "
 "see the <a href=\"/download/changelogs/\">changelogs</a>."
-msgstr "Cette excursion vous fera découvrir de nouvelles fonctionnalités majeures de Xfce 4.10. Elle ne couvre que la partie visuelle de ce qui a été fait, pour la liste complète des modifications, voir le <a href=\"/download/changelogs/\"> changelog </a>."
+msgstr ""
+"Ce tour va vous présenter les nouvelles fonctionnalités de Xfce 4.10. Il "
+"couvre seulement la partie visuelle de ce qui a été fait : pour la liste "
+"complète des changements, voyez les <a href=\"/download/changelogs/\">notes "
+"de version</a>."
 
 #: about/tour.php:7
 msgid "Online Documentation"
@@ -2542,12 +2617,17 @@ msgid ""
 "is to make <a "
 "href=\"http://docs.xfce.org/wiki/documentation\">contributing</a> and "
 "updating the documentation easier."
-msgstr "Lors de l'élaboration 4.10 nous avons décidé de retirer les manuels d'utilisation des forfaits et les déplacer vers un wiki en ligne à l'adresse <a href=\"http://docs.xfce.org\"> docs.xfce.org </a> . La raison de ce changement est de faire <a href=\"http://docs.xfce.org/wiki/documentation\"> contribuant </a> et mettre à jour la documentation facile."
+msgstr ""
+"Pendant le développement de la version 4.10 nous avons décidé de retirer les "
+"manuels utilisateur des paquets et de les déplacer vers un wiki en ligne à "
+"<a href=\"http://docs.xfce.org\">docs.xfce.org</a>. La raison de ce "
+"changement est de rendre la <a href=\"http://docs.xfce.org/wiki/documentation"
+"\">contribution</a> et la mise à jour de la documentation plus faciles."
 
 #: about/tour.php:11
 msgid ""
 "When you click a Help button Xfce will ask you to go to an online wiki page"
-msgstr "Lorsque vous cliquez sur un bouton Aide Xfce vous demandera d'aller à une page wiki en ligne"
+msgstr "Lorsque vous cliquez sur un bouton Aide, Xfce vous demandera de vous rendre sur une page wiki en ligne"
 
 #: about/tour.php:13
 msgid ""
@@ -2557,7 +2637,7 @@ msgstr "Nous espérons qu'avec l'introduction du wiki, il sera plus facile pour 
 
 #: about/tour.php:17
 msgid "Collapsed view of the Application Finder"
-msgstr "Vue réduite de la recherche d'application"
+msgstr "Vue réduite de la Liste des applications"
 
 #: about/tour.php:19
 msgid ""
@@ -2565,15 +2645,20 @@ msgid ""
 "functionality of the old appfinder and xfrun4. Apart from user interface "
 "improvements, it now allows creating custom actions matching a prefix or a "
 "regex pattern."
-msgstr "Le viseur de l'application a été complètement réécrit et combine toutes les fonctionnalités de l'ancien appfinder et xfrun4. Outre les améliorations de l'interface utilisateur, il permet désormais de créer des actions personnalisées correspondant à un préfixe ou un motif regex."
+msgstr ""
+"La Liste des applications a été complètement réécrite et combine les "
+"fonctionnalités de l'ancienne liste et de xfrun4. Mises à part les "
+"améliorations de l'interface utilisateur, il permet maintenant la création "
+"d'actions personnalisées corresponstant à un préfixe ou une expression "
+"régulière."
 
 #: about/tour.php:21
 msgid "Expanded view of the Application Finder"
-msgstr "Vue étendue de la recherche d'application"
+msgstr "Vue étendue de la Liste des applications"
 
 #: about/tour.php:25
 msgid "Multiple Rows"
-msgstr "Plusieurs lignes"
+msgstr "Lignes multiples"
 
 #: about/tour.php:27
 msgid ""
@@ -2581,7 +2666,11 @@ msgid ""
 "rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, "
 "while others, like window buttons are allowed to occupy full width of the "
 "panel."
-msgstr "En 4.10 il ya une seule option de panneau de l'échelle pour la configuration du nombre de lignes dans le panneau. Certains plugins (par exemple <em> lanceurs </em>) s'adapter à une seule ligne, tandis que d'autres, comme des boutons de fenêtre sont autorisés à occuper toute la largeur du panneau."
+msgstr ""
+"Dans la version 4.10, il y a une option par panneau pour configurer le "
+"nombre de lignes dans le panneau. Certains greffons (par ex. les "
+"<em>lanceurs</em>) prennent une seule ligne, tandis que d'autres, comme les "
+"boutons des fenêtres, peuvent occuper l'entière largeur du panneau."
 
 #: about/tour.php:29
 msgid "A horizontal panel with a number of rows set to three"
@@ -2589,7 +2678,7 @@ msgstr "Un panneau horizontal avec un nombre de lignes défini sur trois"
 
 #: about/tour.php:31
 msgid "Deskbar Mode"
-msgstr "Mode barre de bureau"
+msgstr "Mode Deskbar"
 
 #: about/tour.php:33
 msgid ""
@@ -2597,29 +2686,37 @@ msgid ""
 "the deskbar  mode the panel is aligned vertically, just like in the vertical"
 " mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
-msgstr "Le groupe dispose d'une nouvelle configuration appelée deskbar <em> </em> Mode. Dans le mode de deskbar le panneau est aligné verticalement, tout comme dans le mode vertical, mais les plugins sont disposés horizontalement. Avec plusieurs lignes, il permet de créer des panneaux verticaux larges appropriées pour les configurations à écran large."
+msgstr ""
+"Le panneau a une nouvelle configuration appelée le mode <em>deskbar</em>. En "
+"mode deskbbar, le panneau est aligné verticalement, exactement comme en mode "
+"vertical, mais les greffons sont mis en page horizontalement. Avec de "
+"multiples rangées, il permet la création de larges panneau verticaux "
+"utilisables pour les écrans larges."
 
 #: about/tour.php:35
 msgid "A panel in Deskbar mode with a number of rows set to five"
-msgstr "Un panneau en mode barre de Bureau avec un nombre de lignes défini à cinq"
+msgstr "Un panneau en mode Deskbar avec un nombre de lignes défini à cinq"
 
 #: about/tour.php:37
 msgid "Actions Plugin"
-msgstr "Actions Greffons"
+msgstr "Greffon Actions"
 
 #: about/tour.php:39
 msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
 "rewritten <em>actions</em> plugin"
-msgstr "plugin Session du paquet xfce4-session a été fusionné avec un recours <em> réécrites </em> plugins"
+msgstr ""
+"Le greffon Session du paquet xfce4-session a été fusionné avec un greffon "
+"<em>actions</em> réécrit."
 
 #: about/tour.php:41
 msgid "Action plugin in a menu mode (left), and in a button mode (right)"
-msgstr "plug-in d'action dans un mode de menu (à gauche), et dans un mode de bouton (à droite)"
+msgstr ""
+"Le greffon Actions en mode menu (à gauche), et en mode bouton (à droite)"
 
 #: about/tour.php:43
 msgid "Window Buttons"
-msgstr "Boutons de la fenêtre"
+msgstr "Boutons des fenêtres"
 
 #: about/tour.php:45
 msgid ""
@@ -2628,13 +2725,20 @@ msgid ""
 " add a transparent <em>separator</em> plugin with the "
 "<strong>Expand</strong> option enabled just behind the window buttons "
 "plugin."
-msgstr "Les boutons de la fenêtre <em> </em> plug-in ne se dilate, ce qui rend le positionnement de plugin, plus flexible. Afin de rétablir le comportement précédent merci d'ajouter un séparateur de <em> transparent </em> plugin avec le <strong> Développer </strong> option est activée, juste derrière la fenêtre boutons plugin."
+msgstr ""
+"Le greffon <em>boutons des fenêtres</em> ne s'étend plus, ce qui rend son "
+"positionnement plus flexible. Pour restaurer le comportement précédent, "
+"veuillez ajouter un <em>séparateur</em> transparent avec l'option "
+"<strong>Étendre</strong> activée juste après le greffon des boutons de "
+"fenêtres."
 
 #: about/tour.php:49
 msgid ""
 "There are few visual changes in this release of Thunar. The window has less "
 "padding and the position of the status bar has been adjusted."
-msgstr "Il ya peu de changements visuels dans le présent communiqué de Thunar. La fenêtre a moins de rembourrage et de la position de la barre d'état a été modifiée."
+msgstr ""
+"Il y a quelques changements visuels dans cette version de Thunar. La fenêtre "
+"a moins d’espace inutilisé et la position de la barre d'état a été ajustée."
 
 #: about/tour.php:53
 msgid ""
@@ -2642,11 +2746,15 @@ msgid ""
 "clearing the saved session (no more <tt>rm -r ~/.config/sessions</tt>). "
 "Xfce4-tips has been removed and the session manager can now lock the screen "
 "before suspending or hibernating the system."
-msgstr "Le gestionnaire de session <em> </em> de dialogue de configuration possède un bouton pour effacer la session sauvegardée (pas plus <tt>-r rm sessions ~ / .config / </tt>). Xfce4-conseils a été supprimé et le gestionnaire de session peut maintenant verrouiller l'écran avant la suspension ou l'hibernation du système."
+msgstr ""
+"Le dialogue de paramétrage du <em>gestionnaire de session</em> a un bouton "
+"pour retirer la session enregistrée (plus besoin de <tt>rm -r ~/.config/"
+"sessions</tt>). Xfce4-tips a été supprimé et le gestionnaire de session peut "
+"maintenant verrouiller l'écran avant de suspendre ou d'hiberner le système."
 
 #: about/tour.php:55
 msgid "Applications Autostart"
-msgstr "Applications démarrage automatique"
+msgstr "Démarrage automatique des applications"
 
 #: about/tour.php:57
 msgid ""
@@ -2658,23 +2766,37 @@ msgid ""
 "using an italic font and not enabled by default in order to distinguish them"
 " from Xfce applications. Unlike in previous versions of Xfce, compatibility "
 "services can be started independently from each other."
-msgstr "Un autre changement notable est le moyen GNOME et KDE œuvres de compatibilité. cases de compatibilité seulement permettent aux services qui doivent être démarrés avant les autres applications (<em>gnome-keyring</em> et <em> gconf </em> pour GNOME et <em> kdeinit </em> pour KDE). Toutes les autres applications de démarrage automatique sont disponibles à partir d'applications <strong> Autostart </strong>, mais ils sont répertoriés en utilisant une police en italique et non activé par défaut afin de les distinguer des applications de Xfce. Contrairement aux versions précédentes de Xfce, les services de compatibilité peuvent être lancés indépendamment les uns des autres."
+msgstr ""
+"Un autre changement remarquable est la manière dont la compatibilité avec "
+"GNOME et KDE fonctionne. La case à cocher Compatibilité active seulement les "
+"services qui doivent être démarrés avant les autres applications (<em>gnome-"
+"keyring</em> et <em>gconf</em> pour GNOME et <em>kdeinit</em> pour KDE). "
+"Tous les autres démarrages automatiques sont disponibles depuis "
+"<strong>Démarrage automatique</strong>, mais elles sont listées en utilisant "
+"une police italique et ne sont pas activées par défaut pour les distinguer "
+"des applications Xfce. Contrairement à la version précédent de Xfce, les "
+"services de compatibilité peuvent être démarrés indépendamment les uns des "
+"autres."
 
 #: about/tour.php:59
 msgid ""
 "Applications, which are not a part of Xfce, are listed using an italic font"
-msgstr "Les demandes qui ne sont pas une partie de Xfce, sont énumérés en utilisant une police en italique"
+msgstr "Les applications qui ne font pas partie de Xfce sont listées en italique."
 
 #: about/tour.php:63
 msgid "Settings Daemon"
-msgstr "Réglages Daemon"
+msgstr "Démon des paramètres"
 
 #: about/tour.php:65
 msgid ""
 "Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-"
 "helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into "
 "xfsettingsd, which now handles all system settings."
-msgstr "Xfce 4.8 a utilisé deux procédés pour appliquer des paramètres: <tt> xfce4-settings-helper </tt> et <tt> xfsettingsd </tt>. En 4.10, ils ont été fusionnés en xfsettingsd, qui gère tous les paramètres du système."
+msgstr ""
+"Xfce 4.8 utilisait deux proçessus pour l'application des paramètres : "
+"<tt>xfce4-settings-helper</tt> et <tt>xfsettingsd</tt>. Dans 4.10 ils ont "
+"été fusionnés en xfsettingsd, qui gère maintenant tous les paramètres du "
+"système."
 
 #: about/tour.php:69
 msgid ""
@@ -2682,17 +2804,24 @@ msgid ""
 " and allows you to search for their names or descriptions. Most of the "
 "dialogs are also now embedded in the settings manager window (this was a "
 "compile-time option in Xfce 4.8)."
-msgstr "Le nouveau gestionnaire de paramètres de <em> </em> Groupes dialogues de configuration dans des catégories et vous permet de rechercher leurs noms ou descriptions. La plupart des dialogues sont aussi désormais intégrés dans la fenêtre du gestionnaire des paramètres (ce qui était une option de compilation dans Xfce 4.8)."
+msgstr ""
+"Le nouveau <em>gestionnaire de paramètres</em> groupe les dialogues de "
+"configuration en catégories et voue permet de rechercher leur nom ou "
+"description. La plupart des dialogues sont aussi maintenant intégrés à la "
+"fenêtre du gestionnaire de paramètres (c'était un option de compilation dans "
+"Xfce 4.8)."
 
 #: about/tour.php:71
 msgid ""
 "The settings manager with icons grouped by category and a search filter "
 "applied"
-msgstr "Le gestionnaire de paramètres avec des icônes regroupées par catégorie et un filtre de recherche appliquée"
+msgstr ""
+"Le gestionnaire de paramètres avec les icônes groupées par catégories et un "
+"filtre de recherche appliqué."
 
 #: about/tour.php:73
 msgid "Settings Editor"
-msgstr "Paramètres Éditeur"
+msgstr "Éditeur de paramètres"
 
 #: about/tour.php:75
 msgid ""
@@ -2700,20 +2829,31 @@ msgid ""
 "edit a property (this is because it now reloads a single cell rather than "
 "the whole tree). Most properties can now be edited in-place, making it "
 "easier to quickly adjust settings."
-msgstr "L'éditeur de paramètres <em> </em> s'effondre plus la totalité de l'arbre lorsque vous modifiez une propriété (c'est parce qu'il se recharge désormais une seule cellule plutôt que la totalité de l'arbre). La plupart des propriétés peuvent maintenant être édités en place, ce qui rend plus facile d'ajuster rapidement les paramètres."
+msgstr ""
+"L'<em>éditeur de paramètres</em> ne réduit plus l'arbre entier quand vous "
+"éditez une propriété (c'est parce qu'il recharge maintenant une seule "
+"cellule plutôt que l'arborescence entière). La plupart des propriétés "
+"peuvent maintenant être éditées sur place, rendant l'ajustement des "
+"paramètres plus rapide et facile."
 
 #: about/tour.php:77
 msgid ""
 "Using settings editor you can also monitor changes of settings in a selected"
 " channel. Right-click on a channel in the main window, and select "
 "<strong>Monitor</strong> to display the monitor window."
-msgstr "Utilisant un éditeur de paramètres que vous pouvez également suivre l'évolution des paramètres dans un canal sélectionné. Faites un clic droit sur un canal dans la fenêtre principale et sélectionnez <strong>Moniteur</strong> pour afficher la fenêtre de contrôle."
+msgstr ""
+"En utilisant l'éditeur de paramètres, vous pouvez aussi surveiller les "
+"changements d'un canal sélectionnée. Cliquez avec le bouton droit sur un "
+"canal dans la fenêtre principale et sélectionnez <strong>Surveiller</strong> "
+"pour afficher la fenêtre de surveillance."
 
 #: about/tour.php:79
 msgid ""
 "Settings editor with an open channel monitor, while editing a property in-"
 "place"
-msgstr "éditeur des paramètres avec un moniteur de canal à ciel ouvert, tandis que l'édition d'un bien en place"
+msgstr ""
+"L'éditeur de paramètres avec un moniteur de canal ouvert, pendant l'édition "
+"d'une propriété sur place"
 
 #: about/tour.php:81
 msgid "MIME Type Editor"
@@ -2727,7 +2867,14 @@ msgid ""
 "see your changes and reset them to default settings when necessary. Note "
 "that it does not allow you to change the system MIME Type definitions (add "
 "or remove types and change icons)."
-msgstr "Au cours des deux dernières années, beaucoup de gens ont demandé un outil pour gérer leurs associations de type de fichier. Le nouveau <em> MIME éditeur de type </em> est là pour ça. Il vous permet d'assigner facilement une application par défaut pour un type de fichier, voir vos modifications et rétablir les paramètres par défaut si nécessaire. Notez qu'il ne vous permet pas de modifier le système MIME définitions de type (ajouter ou supprimer des types et modifier les icônes)."
+msgstr ""
+"Ces dernières années, beaucoup de monde nous demandait un outil pour gérer "
+"leurs associations de types de fichiers. Le nouvel <em>éditeur de type MIME</"
+"em> fait justement cela. Il vous permet de facilement assigner une "
+"application par défaut à un type de fichier, voir vos changements et les "
+"réinitialiser aux valeurs par défaut si nécessaire. Notez qu'il ne vous "
+"permet pas de modifier les définitions de type MIME du système (ajouter ou "
+"supprimer des types et changer les icônes)."
 
 #: about/tour.php:85
 msgid ""
@@ -2745,11 +2892,18 @@ msgid ""
 "background handles all kinds of device properties, as documented in the <a "
 "href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> "
 "wiki."
-msgstr "La souris et le touchpad <em> </em> dialogue est capable de gérer Synaptics base et les propriétés Wacom dans l'interface graphique. Un démon de configuration en cours d'exécution en arrière-plan traite de toutes sortes de propriétés du périphérique, comme indiqué dans le href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\"> paramètres de la souris </a> wiki."
+msgstr ""
+"Le dialogue <em>souris et pavé tactile</em> est capable de gérer les "
+"propriétés de base de Wacom et Synaptics dans une GUI. Un démon de "
+"paramètres tournant en arrière-plan gère tous les types de propriétés des "
+"périphériques, comme documenté sur le wiki <a href=\"http://docs.xfce.org/"
+"xfce/xfce4-settings/mouse\">paramètres de la souris</a>."
 
 #: about/tour.php:91
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
-msgstr "Les paramètres du touchpad Synaptics dans la souris et touchpad <em> </em> dialogue"
+msgstr ""
+"Paramètres du pavé tactile Synaptics dans le dialogue <em>souris et pavé "
+"tactile</em>"
 
 #: about/tour.php:93
 msgid "Appearance Settings"
@@ -2761,7 +2915,11 @@ msgid ""
 "<em>style</em> or <em>icon</em> list. Xfce will attempt to extract and "
 "install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> "
 "directory."
-msgstr "En 4.10, vous pouvez glisser et déposer une archive avec un thème téléchargé sur le style de <em> </em> ou <em> icône </em>. Xfce va tenter d'extraire et d'installer les fichiers dans le <tt> ~ themes /. </tt> ou <tt> ~ icons /. </tt>."
+msgstr ""
+"Dans la version 4.10 vous pouvez cliquer-glisser une archive avec un thème "
+"téléchargé sur la liste de <em>styles</em> ou d'<em>icônes</em>. Xfce va "
+"essayer d'extraire et d'installer les fichiers dans le répertoire <tt>~/."
+"themes</tt> ou <tt>~/.icons</tt>."
 
 #: about/tour.php:99
 msgid ""
@@ -2769,11 +2927,15 @@ msgid ""
 " Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop"
 " has gained support for single-click operation, automated background image "
 "cycling and thumbnail rendering."
-msgstr "Bien que le plan initial pour Xfce 4.10 était d'intégrer la manipulation bureau dans Thunar, nous avons décidé de ne pas le faire à ce moment encore. Pendant ce temps, Xfdesktop a obtenu le soutien pour un fonctionnement simple clic, automatisé background image cyclisme et le rendu des vignettes."
+msgstr ""
+"Même si le plan initial pour Xfce 4.10 était d'intégrer la gestion du bureau "
+"dans Thunar, nous avons décidé de ne pas encore le faire. En attendant, "
+"Xfdesktop a acquis le support pour les opérations en un seul clic, un cycle "
+"automatisé d'images d'arrière-plan et le rendu des miniatures."
 
 #: about/tour.php:101
 msgid "Desktop with image thumbnails and support for single-click operation"
-msgstr "Ordinateur de bureau avec les vignettes des images et un soutien pour le fonctionnement d'un simple clic"
+msgstr "Bureau avec miniatures d'images et support pour les opérations en un clic."
 
 #: about/tour.php:103
 msgid "Xfdesktop is now shipped with a new default background image."
@@ -2785,36 +2947,49 @@ msgid ""
 " feature is optional and is disabled by default. In such a case windows can "
 "still be tiled using a keyboard shortcut. Another improvement is a better "
 "theming support and cursor key navigation in the tab window (Alt+Tab)."
-msgstr "Xfwm4 pouvez maintenant carreau d'une fenêtre lorsque vous le faites glisser vers le bord de l'écran. Cette fonctionnalité est facultative et est désactivé par défaut. Dans un tel cas, les fenêtres peuvent encore être carrelé aide d'un raccourci clavier. Une autre amélioration est un meilleur soutien thématisation et la touche de navigation du curseur dans la fenêtre de l'onglet (Alt + Tab)."
+msgstr ""
+"Xfwm4 permet désormais de proportionner les fenêtres en mosaïque lorsqu'elles "
+"sont déplacées vers le bord de l'écran. Cette fonctionnalité est optionnelle et "
+"désactivée par défaut. Il reste toujours possible d'utiliser cette "
+"fonctionnalité avec des raccourcis clavier. D'autre part, le support des thèmes "
+"a été amélioré pour la fenêtre de changement d'applications (Alt+Tab), et la "
+"navigation par clavier a été introduite."
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
-msgstr "Visite Xfce 4.8"
+msgstr "Tour de Xfce 4.8"
 
 #: about/tour48.php:5
 msgid ""
 "This tour will introduce you to all the new major visual features in Xfce "
 "4.8. This is only the visual part of what has been done; for a full list of "
 "changes, see the <a href=\"/download/changelogs/\">changelogs</a>."
-msgstr "Ce circuit vous fera découvrir toutes les nouvelles grandes caractéristiques visuelles dans Xfce 4.8. Ce n'est que la partie visible de ce qui a été fait, pour une liste complète des modifications, voir le <a href=\"/download/changelogs/\"> changelog </a>."
+msgstr ""
+"Ce tour va vous présenter les nouvelles fonctionnalités de Xfce 4.8. Il "
+"couvre seulement la partie visuelle de ce qui a été fait : pour la liste "
+"complète des changements, voyez les <a href=\"/download/changelogs/\">notes "
+"de version</a>."
 
 #: about/tour48.php:9
 msgid "Remote shares browsing"
-msgstr "Partages distants parcourant"
+msgstr "Navigation des fichiers distants"
 
 #: about/tour48.php:11
 msgid ""
 "Thunar now has optional support for GVFS which will allow you to browse "
 "remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
-msgstr "Thunar a maintenant un support optionnel pour GVFS qui vous permettront de parcourir les partages distants en utilisant Thunar: FTP, partage Windows, WebDAV et serveurs SSH ..."
+msgstr ""
+"Thunar a maintenant un support optionnel pour GVFS qui vous permettra de "
+"parcourir des fichiers distants : FTP, partages Windows, WebDav et serveurs "
+"SSH..."
 
 #: about/tour48.php:13
 msgid "Thunar browsing a remote share"
-msgstr "Thunar parcourant un partage distant"
+msgstr "Navigation des fichiers distants"
 
 #: about/tour48.php:15
 msgid "New file operations progress dialog"
-msgstr "Dialogue de progression des opérations Nouveau fichier"
+msgstr "Nouveau dialogue de progression des opérations sur les fichiers"
 
 #: about/tour48.php:17
 msgid ""
@@ -2825,7 +3000,7 @@ msgstr "Lorsque plusieurs opérations sur les fichiers (copier ou déplacer) son
 
 #: about/tour48.php:19
 msgid "Progress dialog"
-msgstr "dialogue Progression"
+msgstr "Dialogue de progression"
 
 #: about/tour48.php:21
 msgid "Eject button for removable devices"
@@ -2849,7 +3024,7 @@ msgstr "Le panneau Xfce a été totalement réécrit dans 4.8, voici les changem
 
 #: about/tour48.php:31
 msgid "Improved positioning and size handling"
-msgstr "Amélioration de la manipulation du positionnement et de  la taille"
+msgstr "Positionnement et gestion de la taille"
 
 #: about/tour48.php:33
 msgid ""
@@ -2857,18 +3032,21 @@ msgid ""
 "can be dragged and snapped to screen borders; floating positions are only "
 "remembered when moving a panel and the length of the panel can be adjusted "
 "as a percentage of the monitor size."
-msgstr "Le groupe a beaucoup mieux soutenir les panneaux de positionnement sur l'écran. Il peut être déplacé et se mit au bords de l'écran, les positions flottantes sont seulement rappeler lors du déplacement du panneau et de la longueur du panneau peut être ajustée en tant que pourcentage de la taille de l'écran."
+msgstr "Le panneau a un meilleur support des positionnements des  panneaux de sur l'écran. Il peut être déplacé et se mettre au bords de l'écran, les positions flottantes sont seulement rappelées lors du déplacement du panneau et la longueur du panneau peut être ajustée en tant que pourcentage de la taille de l'écran."
 
 #: about/tour48.php:35
 msgid "Transparent backgrounds"
-msgstr "Fond transparent"
+msgstr "Fonds transparents"
 
 #: about/tour48.php:37
 msgid ""
 "The panel is now able to draw transparent panel backgrounds with non "
 "transparent items. Your panel items will remain readable and you will enjoy "
 "a nice panel look."
-msgstr "Le groupe est maintenant en mesure de tirer panneau transparent horizons avec des objets non transparents. Vos éléments du panneau restera lisible et vous pourrez profiter d'un look panneau agréable."
+msgstr ""
+"Le panneau est maintenant capable de dessiner des fonds transparents "
+"avec des éléments non transparents. Vos éléments du panneau resteront lisibles "
+"et vous pourrez profiter d'un look de panneau agréable."
 
 #: about/tour48.php:39
 msgid "Transparent panel background"
@@ -2876,7 +3054,7 @@ msgstr "Fond d'écran transparent"
 
 #: about/tour48.php:41
 msgid "New item editor"
-msgstr "Nouvel éditeur d'article"
+msgstr "Nouvel éditeur d'éléments"
 
 #: about/tour48.php:43
 msgid ""
@@ -2884,11 +3062,16 @@ msgid ""
 "remove items quickly. This is particularly useful for items which are hard "
 "to right click and gives you an easy way to change your panel layout from a "
 "single place."
-msgstr "Le groupe dispose désormais d'un éditeur d'élément qui permet de modifier, déplacer, ajouter et supprimer des éléments rapidement. Ceci est particulièrement utile pour les articles qui sont difficiles à faire un clic droit et vous donne un moyen facile de changer la disposition de votre panneau d'un seul endroit."
+msgstr ""
+"Le panneau affiche maintenant un éditeur d'éléments qui permet de modifier, "
+"déplacer, ajouter et supprimer des objets rapidement. C'est particulièrement "
+"utile pour les éléments sur lesquels il est difficile de cliquer avec le "
+"bouton droit et cela vous donne un moyen facile de changer votre agencement "
+"de panneau depuis un seul endroit."
 
 #: about/tour48.php:45
 msgid "Panel item editor"
-msgstr "Éditeur d'élément du panneau"
+msgstr "Éditeur d'éléments du panneau"
 
 #: about/tour48.php:47
 msgid "Drag and drop to create launchers"
@@ -2900,11 +3083,16 @@ msgid ""
 "application finder or Thunar to the panel to create launchers. This feature "
 "should please the huge number of people who had been requesting it for ages."
 " The launcher also has an integrated application finder to add new items."
-msgstr "Vous pouvez maintenant glisser et déposer les entrées du menu du panneau applications supportant menu, trouveur d'application ou Thunar au panneau pour créer des lanceurs. Cette fonctionnalité devrait s'il vous plaît le grand nombre de personnes qui avaient demandé pendant des siècles. Le lanceur a également un viseur application intégrée à ajouter de nouveaux éléments."
+msgstr ""
+"Vous pouvez maintenant glisser et déposer des entrées de menu depuis le menu "
+"des applications du panneau, la Liste des applications ou Thunar vers le "
+"panneau pour créer des lanceurs. Cette fonctionnalité devrait plaire au "
+"grand nombre de personnes qui la réclamaient depuis des années. Le lanceur a "
+"également une liste des applications intégrées pour ajouter de nouveaux "
 
 #: about/tour48.php:51
 msgid "Window buttons plugin"
-msgstr "Boutons de la fenêtre greffon"
+msgstr "Greffon des boutons de fenêtres"
 
 #: about/tour48.php:53
 msgid ""
@@ -2912,7 +3100,11 @@ msgid ""
 " buttons. It implements different sorting modes, improved handling in "
 "vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
 "a button."
-msgstr "Les IconBox et liste des tâches plugins sont de nouveaux boutons de fenêtre ont fusionné en 1 plugin, appelé. Il met en œuvre différents modes de tri, une meilleure maniabilité dans les panneaux verticaux et peut dessiner un cadre similaire à + tab Xfwm4 Alt lors du survol d'un bouton."
+msgstr ""
+"Les greffons boîte à icônes et liste des tâches sont maintenant réunis dans "
+"un greffon, appelé boutons des fenêtres. Il implémente différents modes de "
+"tri, une gestion améliorée dans les panneaux verticaux et peut maintenant "
+"dessiner un cadre similaire au Alt+tab de Xfwm4 quand un bouton est survolé."
 
 #: about/tour48.php:55
 msgid "New fuzzy clock"
@@ -2922,7 +3114,9 @@ msgstr "Nouvelle horloge floue"
 msgid ""
 "An Xfce release without a new clock mode would not be a true Xfce release. "
 "Let us introduce you the 'fuzzy' clock mode!"
-msgstr "Une version Xfce sans un nouveau mode d'horloge ne serait pas une vraie libération de Xfce. Laissez-nous vous présenter le mode d'horloge 'floue'!"
+msgstr ""
+"Une version de Xfce sans un nouveau mode d'horloge ne serait pas une vraie "
+"version de Xfce. Laissez nous vous présenter le mode d'horloge « floue » !"
 
 #: about/tour48.php:59
 msgid "New fuzzy clock mode"
@@ -2930,64 +3124,80 @@ msgstr "Nouveau mode d'horloge floue"
 
 #: about/tour48.php:61
 msgid "New directory menu plugin"
-msgstr "Nouveau répertoire menu greffon "
+msgstr "Nouveau greffon menu de répertoires"
 
 #: about/tour48.php:63
 msgid ""
 "The directory menu plugin provides a menu reproducing the arborescence of a "
 "particular folder. This allows you to open a terminal or a file manager in a"
 " sub-folder in a very fast and efficient way."
-msgstr "Le menu plugin répertoire propose un menu reproduire l'arborescence d'un dossier particulier. Cela vous permet d'ouvrir un terminal ou d'un gestionnaire de fichiers dans un sous-dossier d'une manière très rapide et efficace."
+msgstr ""
+"Le greffon menu de répertoires fournit un menu qui reproduit l'arborescence d'un "
+"dossier particulier. Ceci vous permet d'ouvrir un terminal ou un "
+"gestionnaire de fichiers dans un sous-répertoire d'une manière très rapide et "
+"efficace."
 
 #: about/tour48.php:65
 msgid "Directory menu plugin"
-msgstr "Répertoire menu greffon"
+msgstr "Greffon menu de répertoires"
 
 #: about/tour48.php:67
 msgid "Applications menu edition"
-msgstr "Édition menu Applications"
+msgstr "Édition du menu des applications"
 
 #: about/tour48.php:69
 msgid ""
 "You can now edit the applications menu using any Freedesktop compliant menu "
 "editor, Alacarte being the one we used to test."
-msgstr "Vous pouvez maintenant éditer le menu des applications en utilisant n'importe quel Freedesktop compatible éditeur de menu Alacarte étant celui que nous avons utilisé pour tester."
+msgstr ""
+"Vous pouvez maintenant éditer le menu des applications en utilisant "
+"n'importe quel éditeur compatible Freedesktop, Alacarte étant celui que nous "
+"avons utilisé pour tester."
 
 #: about/tour48.php:73
 msgid "Improved multihead setup configuration"
-msgstr "Amélioration de la configuration d'installation multi-écrans"
+msgstr "Gestion améliorée des configurations multi-écrans"
 
 #: about/tour48.php:75
 msgid ""
 "Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
 "driver. Unfortunately, this means it will not work with Nvidia proprietary "
 "drivers."
-msgstr "Xfce peut maintenant gérer et configurer configurations multi-écrans pour n'importe quel pilote compatible 1.2 randr. Malheureusement, cela signifie qu'il ne fonctionnera pas avec les pilotes propriétaires Nvidia."
+msgstr ""
+"Xfce peut maintenant gérer et configurer des systèmes multi-écrans pour "
+"n'importe quel pilote compatible avec randr 1.2. Malheureusement, cela "
+"signifie que ça ne fonctionnera pas avec les pilote propriétaires Nvidia."
 
 #: about/tour48.php:77
 msgid ""
 "You can enable and disable plugged screens, set their resolution, refresh "
 "rate, rotation and reflection, clone screens or extend desktops."
-msgstr "Vous pouvez activer et désactiver les écrans branchés, fixer leur résolution, taux de rafraîchissement, la rotation et la réflexion, des écrans de clones ou de prolonger les ordinateurs de bureau."
+msgstr ""
+"Vous pouvez activer et désactiver les écrans branchés, modifier leur "
+"résolution, leur fréquence de rafraîchissement, cloner des écrans ou étendre "
+"le bureau."
 
 #: about/tour48.php:79
 msgid "New display settings dialog"
-msgstr "Nouvelle boîte de dialogue des paramètres d'affichage"
+msgstr "Nouveau dialogue des paramètres d'affichage"
 
 #: about/tour48.php:81
 msgid "Timed confirmation"
-msgstr "Confirmation Timed"
+msgstr "Confirmation temporisée"
 
 #: about/tour48.php:83
 msgid ""
 "Any change made with the settings dialog will have to be confirmed within "
 "ten seconds or they will be reverted. This prevents broken video drivers "
 "from leaving your computer unusable."
-msgstr "Toute modification apportée à la boîte de dialogue des réglages devra être confirmée dans les dix secondes ou ils seront annulés. Cela empêche les pilotes vidéo brisés de quitter votre ordinateur inutilisable."
+msgstr ""
+"Tout changement fait avec le dialogue de paramétrage devra être confirmé "
+"dans les dix secondes ou ils seront annulés. Ceci prévient que des pilotes "
+"vidéos cassés rendent votre ordinateur inutilisable."
 
 #: about/tour48.php:85
 msgid "Timed confirmation for display settings changes"
-msgstr "Confirmation chronométré pour les paramètres d'affichage change"
+msgstr "Confirmation temporisée pour les changements des paramètres des écrans"
 
 #: about/tour48.php:87
 msgid "Quick setup dialog"
@@ -2998,30 +3208,37 @@ msgid ""
 "The quick setup dialog allows you to configure a dual screen setup in a "
 "second. Plug the second screen, press the display key or Windows + p and "
 "select the wanted layout. Done!"
-msgstr "La boîte de dialogue de configuration rapide vous permet de configurer une configuration double écran en une seconde. Branchez le second écran, appuyez sur la touche écran ou Windows + P et sélectionnez la mise en page désirée. Fait!"
+msgstr ""
+"Le dialogue de configuration rapide vous permet de configurer un système "
+"double écran en une seconde. Branchez le deuxième écran, appuyez sur la "
+"touche écran ou Windows + P et sélectionnez l'arrangement désiré. C'est fait!"
 
 #: about/tour48.php:91
 msgid "Quick multihead setup"
-msgstr "Installation rapide multihead"
+msgstr "Configuration rapide multi-écrans"
 
 #: about/tour48.php:93
 msgid "Settings edition in the Xfce Settings Editor"
-msgstr "Édition Paramètres dans le Settings Editor Xfce"
+msgstr "Édition des paramètres dans l'Éditeur de paramètres de Xfce"
 
 #: about/tour48.php:95
 msgid ""
 "The Xfce Settings Editor now deserves its name, it is no longer a simpler "
 "Xfconf settings viewer. You can now modify, delete, add and reset settings "
 "through its interface. It also monitors changes to update its view."
-msgstr "La Settings Editor Xfce mérite désormais son nom, il n'est plus un simple spectateur paramètres xfconf. Vous pouvez maintenant modifier, supprimer, ajouter et réinitialiser les paramètres par le biais de son interface. Il surveille également les changements de mettre à jour son point de vue."
+msgstr ""
+"L'Éditeur de paramètres de Xfce mérite maintenant son nom, il n'est plus un "
+"simple visualisateur de paramètres Xfconf. Vous pouvez maintenant modifier, "
+"supprimer, ajouter et réinitialiser les paramètres via son interface. Il "
+"surveille aussi les changements pour mettre à jour son interface."
 
 #: about/tour48.php:97
 msgid "Editing Xfconf properties with the Settings Editor"
-msgstr "Modification des propriétés de xfconf avec le Settings Editor"
+msgstr "Édition de propriétés Xfconf avec l'Éditeur de paramètres"
 
 #: about/tour48.php:99
 msgid "Improved keyboard layout selection"
-msgstr "Amélioration de la sélection de la configuration du clavier"
+msgstr "Sélection améliorée de l'agencement du clavier"
 
 #: about/tour48.php:101
 msgid ""
@@ -3029,75 +3246,87 @@ msgid ""
 "cryptic language/variants codes but uses localized languages/variants names."
 " Layout edition was also made easier by prefilling the dialogs with the "
 "current values."
-msgstr "La boîte de dialogue de sélection de la mise en page a reçu beaucoup d'amour: il n'affiche plus les codes de langue / variantes cryptiques mais utilise des langages / variantes de noms localisés. Édition disposition a également été facilitée par le pré-remplissage des dialogues avec les valeurs actuelles."
+msgstr ""
+"Le dialogue de sélection d'agencement a reçu beaucoup d'amour : il n'affiche "
+"plus de codes de langue/variante sibyllins, mais utilise des noms de langues/"
+"variantes traduits. L'édition de l'agencement a également été rendu plus "
+"facile en remplissant les dialogues avec les valeurs actuelles."
 
 #: about/tour48.php:103
 msgid "Layouts and variants list"
-msgstr "Layouts et la liste des variantes"
+msgstr "Liste d'agencements et de variantes"
 
 #: about/releasemodel.php:3 about/nav.php:35
 msgid "Release Model"
-msgstr "Modèle de sortie"
+msgstr "Modèle de publication"
 
 #: about/releasemodel.php:10
 msgid ""
 "In the past the same questions and discussions have come up over and over "
 "again whenever a new release was in sight, like:"
-msgstr "Dans le passé, les mêmes questions et les discussions ont mis encore et encore à chaque fois qu'une nouvelle version était en vue, comme:"
+msgstr ""
+"Dans le passé les mêmes questions et discussions sont revenues encore et "
+"encore lorsqu'une nouvelle version était en vue, comme :"
 
 #: about/releasemodel.php:14
 msgid "What are the core components of Xfce?"
-msgstr "Quels sont les composants de base de Xfce?"
+msgstr "Quels sont les composants de base de Xfce ?"
 
 #: about/releasemodel.php:15
 msgid ""
 "How often do we want to release and in what fashion (time-based, feature-"
 "based)?"
-msgstr "Combien de fois nous voulons libérer et de quelle façon (basée sur le temps, basée sur les caractéristiques) ?"
+msgstr ""
+"À quelle fréquence sortons-nous des versions et de quelle façon (basé sur la "
+"durée, sur les fonctionnalités) ?"
 
 #: about/releasemodel.php:16
 msgid "Who's in charge of the release process?"
-msgstr "Qui est en charge du processus de libération?"
+msgstr "Qui est en charge du processus de publication ?"
 
 #: about/releasemodel.php:17
 msgid "What dependency versions do we depend on?"
-msgstr "Quelles sont les versions de dépendance dépendons-nous?"
+msgstr "De quelles versions des dépendances sommes-nous dépendants ?"
 
 #: about/releasemodel.php:18
 msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "Quand les fonctionnalités gel, string-gel, code-gel et analogues?"
+msgstr "Quand sont les gels des fonctionnalités, des traductions, du code, etc ?"
 
 #: about/releasemodel.php:19
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Combien de pré-versions que nous devrions faire et comment pouvons-nous les appeler ?"
+msgstr "Combien de pré-versions faisons-nous et comment les appellons-nous ?"
 
 #: about/releasemodel.php:20
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "Qu'est-ce que nous utilisons comme un remplacement pour SVN versions de révision avec Git?"
+msgstr "Qu'utilisons-nous comme remplacement de nommage de versions SVN avec GIT ?"
 
 #: about/releasemodel.php:24
 msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
-msgstr "Ce document vise à répondre à ces questions et vise à définir une politique que nous pouvons nous référer à la planification communiqués."
+msgstr ""
+"Ce document a pour but de répondre aux questions et vise la définition d'une "
+"politique à laquelle nous pouvons nous référer en planifiant les versions."
 
 #: about/releasemodel.php:27
 msgid "The Xfce Core Desktop"
-msgstr "Le Xfce Desktop Core"
+msgstr "Le cœur du bureau Xfce"
 
 #: about/releasemodel.php:51
 msgid ""
 "All core components of the Xfce desktop must adhere to the release policy "
 "defined in this document."
-msgstr "Tous les composants de base de l'ordinateur de bureau Xfce doivent adhérer à la politique de sortie définis dans le présent document."
+msgstr ""
+"Tous les composants principaux du bureau Xfce doivent utiliser la politique "
+"de versions définie dans ce document."
 
 #: about/releasemodel.php:54
 msgid "Essential Dependencies"
-msgstr "Dépendances essentiels"
+msgstr "Dépendances essentielles"
 
 #: about/releasemodel.php:61
 msgid "The Release Cycle"
-msgstr "Le cycle de parution"
+msgstr "Le cycle de publication"
 
 #: about/releasemodel.php:64
 msgid ""
@@ -3107,18 +3336,28 @@ msgid ""
 "maintenance process of the current stable release will continue. During this"
 " phase, bugfix releases and security fixes will be released for the stable "
 "version of Xfce."
-msgstr "Le cycle de publication implique une phase de planification à court, une phase de développement avec les versions de développement et une phase d'annonces finales, pour aboutir à une nouvelle version stable de l'ensemble du bureau central de Xfce. En parallèle à ces phases, un processus de maintenance de la version stable actuelle va se poursuivre. Pendant cette phase, les correctifs de bogues et de sécurité seront publiés pour la version stable de Xfce."
+msgstr ""
+"Le cycle de publication implique une courte phase de planification, une phase de "
+"développement avec des versions de développement et une phase de "
+"publication, menant finalement à une nouvelle version stable de l'entièreté "
+"du cœur du bureau Xfce. En parallèle de ces phases, un processus de "
+"maintenance de la version stable en cours va perdurer. Pendant cette phase, "
+"des versions de correction de bogues et de mises à jour de sécurité vont "
+"être publiées pour la version stable de Xfce."
 
 #: about/releasemodel.php:68
 msgid ""
 "Below you can see a graphical timeline of an example release cycle and "
 "maintenance process for Xfce 4.8 with three components: Thunar, exo and "
 "xfwm4."
-msgstr "Ci-dessous vous pouvez voir une chronologie graphique d'un cycle de libération de l'exemple et processus de maintenance pour Xfce 4.8 avec trois composantes: Thunar, exo et xfwm4."
+msgstr ""
+"Vous pouvez voir ci-dessous une ligne du temps graphique d'un exemple de "
+"cycle de publication et du processus de maintenance pour Xfce 4.8 avec trois "
+"composants : Thunar, exo et xfwm4."
 
 #: about/releasemodel.php:72
 msgid "Example Release Cycle"
-msgstr "Exemple cycle de parution"
+msgstr "Exemple de cycle de publication"
 
 #: about/releasemodel.php:75
 msgid "Planning Phase (2(+2) Weeks)"
@@ -3130,11 +3369,15 @@ msgid ""
 "which dependencies to use and also to appoint the release team for the cycle"
 " (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
 "weeks)."
-msgstr "Cette phase marque le début du cycle de libération et est utilisé pour décider lequel des dépendances à utiliser et aussi de nommer l'équipe de publication pour le cycle (2 premières semaines). Il a finalement conduit au gel de la dépendance (après 4 semaines)."
+msgstr ""
+"Cette phase marque le commencement du cycle de publication et est utilisée pour "
+"décider quelles dépendances utiliser et également pour nommer l'équipe de "
+"publication (2 premières semaines). Elle mène finalement au gel des dépendances "
+"(après 4 semaines)."
 
 #: about/releasemodel.php:81
 msgid "Appointing the Release Team"
-msgstr "Nommer l'équipe de parution"
+msgstr "Nommer l'équipe de publication"
 
 #: about/releasemodel.php:84
 msgid ""
@@ -3144,11 +3387,18 @@ msgid ""
 "perform and double-check the Xfce core desktop releases in the release phase"
 " at the very end of the cycle. This is explained in more detail in the "
 "Release Team section of this document."
-msgstr "Au début de la phase de planification il ya un (formel ou informel) de voter pour l'équipe de publication. L'équipe de publication supervise les versions de développement et de maintenance pendant le cycle de diffusion. Son objectif principal est d'effectuer et de revérifier les versions de bureau de base Xfce dans la phase de libération à la fin du cycle. Ceci est expliqué plus en détail dans la section équipe de publication de ce document."
+msgstr ""
+"Au commencement de la phase de planification, il y a un vote (formel ou "
+"informel) pour l'équipe de publication. L'équipe de publication supervise le "
+"développement et la maintenance pendant le cycle de publication. Son principal "
+"but est de réaliser et de vérifier attentivement les versions du cœur du "
+"bureau Xfce pendant la phase de publication durant la fin du cycle. Ceci est "
+"expliqué avec plus de détails dans la section Équipe de publication de ce "
+"document."
 
 #: about/releasemodel.php:87
 msgid "Release Team"
-msgstr "équipe de parution"
+msgstr "Équipe de publication"
 
 #: about/releasemodel.php:90
 msgid ""
@@ -3158,19 +3408,25 @@ msgid ""
 "for quality assurance (checking if all components compile, tags are in "
 "place, release notes are up to date and so on). This is defined in more "
 "detail below."
-msgstr "L'équipe de l'émission consiste d'au moins deux personnes: un directeur de publication qui peut être assisté par d'autres pour procéder effectivement à la libération (tagging, la création d'archives tar, écrire des notes et des annonces presse) et une autre personne pour l'assurance qualité (vérifier si tous les composants compilation, étiquettes sont en place, les notes de version sont à jour et ainsi de suite). Il est défini plus en détail ci-dessous."
+msgstr ""
+"L'Équipe de publication consiste en au moins deux personnes : un manager "
+"qui peut être assisté par d'autres pour réaliser les publications "
+"(tag, création des archives, écriture des notes de version et des "
+"annonces) et une autre personne pour s'assurer de la qualité (s'assurer que "
+"tous les composants se compilent, que les tags sont en place, que les notes "
+"de version sont à jour etc). Ceci est défini avec plus de détails plus bas."
 
 #: about/releasemodel.php:94
 msgid "These are the release team roles and their responsibilities:"
-msgstr "Ce sont les rôles de l'équipe de parution et leurs responsabilités :"
+msgstr "Voici les rôles de l'équipe de publication et ses responsabilités :"
 
 #: about/releasemodel.php:97
 msgid "Release Manager"
-msgstr "Gestionnaire de parution"
+msgstr "Manager"
 
 #: about/releasemodel.php:100
 msgid "Organization of the release cycle"
-msgstr "Organisation du cycle de parution"
+msgstr "Organisation du cycle de publication"
 
 #: about/releasemodel.php:101
 msgid ""
@@ -3180,15 +3436,15 @@ msgstr "Annoncer des délais pour les développeurs et traducteurs (à plusieurs
 
 #: about/releasemodel.php:102
 msgid "Overseeing of maintainance and development releases"
-msgstr "Supervision des parutions de maintenance et de développement"
+msgstr "Supervision des publications de maintenance et de développement"
 
 #: about/releasemodel.php:103
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "Marquage de Xfce-X.Ypre1, Xfce-XYpre2, Xfce-XYpre3 et Xfce-XY"
+msgstr "Tag de Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 et Xfce-X.Y"
 
 #: about/releasemodel.php:104
 msgid "Generate tarballs from tags (possibly automated)"
-msgstr "Générer des archives tar depuis les étiquettes (peut-être automatisé)"
+msgstr "Générer des archives tar depuis les tags (peut-être automatisé)"
 
 #: about/releasemodel.php:105
 msgid "Write release notes"
@@ -3200,44 +3456,44 @@ msgstr "Rédiger les annonces de parution"
 
 #: about/releasemodel.php:107
 msgid "Create Bugzilla tags"
-msgstr "Création d'étiquettes Bugzilla"
+msgstr "Création des tags Bugzilla"
 
 #: about/releasemodel.php:108
 msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "Approuver corrections de bogues bloquants en période de gel de code"
+msgstr "Approuver des correctifs de bogues bloquants en période de gel de code"
 
 #: about/releasemodel.php:111
 msgid "Release Assistant(s)"
-msgstr "Libération adjoint (s)"
+msgstr "Assistants"
 
 #: about/releasemodel.php:114
 msgid "Update the website(s)"
-msgstr "Mettre à jour le site (s)"
+msgstr "Mettre à jour le(s) site(s) Web"
 
 #: about/releasemodel.php:115
 msgid "Help the release manager with his tasks"
-msgstr "Aider le gestionnaire de libération de ses tâches"
+msgstr "Aider le manager dans ses tâches"
 
 #: about/releasemodel.php:118
 msgid "QA Official"
-msgstr "Officiel QA"
+msgstr "Assurance Qualité"
 
 #: about/releasemodel.php:121
 msgid ""
 "Have an eye on libtool versions of maintanance and development releases"
-msgstr "Ayez l'œil sur les versions de libtool maintanance et développement communiqués"
+msgstr "Porter attention aux versions libtool pour les publications de maintenance et de développement"
 
 #: about/releasemodel.php:122
 msgid "Remind maintainers about missing NEWS updates"
-msgstr "Rappelez responsables de manquer les dernières nouvelles"
+msgstr "Rappeler les mainteneurs d'entrées manquantes dans le fichier NEWS"
 
 #: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
-msgstr "Double-vérifier que le package généré"
+msgstr "Double-vérification sur les archives tar"
 
 #: about/releasemodel.php:124
 msgid "Proof-read release announcements"
-msgstr "Relire les annonces de release"
+msgstr "Relire les annonces de parution"
 
 #: about/releasemodel.php:127
 msgid "Individual Maintainers"
@@ -3247,45 +3503,51 @@ msgstr "Mainteneurs individuels"
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
-msgstr "Création d'étiquettes spécifiques aux composants pour leur maintenance et les versions de développement"
+msgstr ""
+"Créer des tags spécifiques à un composant pour leurs versions de maintenance "
+"et de développement"
 
 #: about/releasemodel.php:131
 msgid "Generate tarballs for their maintainance and development releases"
-msgstr "Générer des archives tar pour leur maintenance et les versions de développement"
+msgstr "Générer des archives tar pour leurs versions de maintenance et de développement"
 
 #: about/releasemodel.php:132
 msgid "Write ChangeLogs and update NEWS files"
-msgstr "Ecrire ChangeLogs et mettre à jour les fichiers NEWS"
+msgstr "Écrire ChangeLogs et mettre à jour les fichiers NEWS"
 
 #: about/releasemodel.php:133
 msgid "Write component-specific release announcements"
-msgstr "Donnez annonces des nouvelles versions spécifiques aux composants"
+msgstr "Écrire les notes de version spécifiques à un composant"
 
 #: about/releasemodel.php:134
 msgid "Create Bugzilla tags for their releases"
-msgstr "Création d'étiquettes de Bugzilla pour leurs rejets"
+msgstr "Créer les tags Bugzilla pour leurs versions"
 
 #: about/releasemodel.php:135
 msgid "Make sure API documentation is up to date"
-msgstr "Assurez-vous que documentation de l'API est à jour"
+msgstr "S'assurer que la documentation de l'API soit à jour"
 
 #: about/releasemodel.php:138
 msgid "Dependency Freeze"
-msgstr "Gel de dépendance"
+msgstr "Gel des dépendances"
 
 #: about/releasemodel.php:141
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
-msgstr "Pendant les 2 premières semaines de la phase de planification à chaque responsable est tenu d' "
+msgstr ""
+"Pendant les 2 premières semaines de la phase de planification, chaque mainteneur "
+"est tenu de :"
 
 #: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
-msgstr "Dressez la liste des fonctionnalités qu'il souhaite mettre en œuvre dans le cycle de publication"
+msgstr ""
+"Faire une liste des fonctionnalités qu'il veut implémenter pendant le cycle "
+"de publication"
 
 #: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
-msgstr "Enquêter sur laquelle dépendances sont dépendants de cette"
+msgstr "Contrôler les dépendances qui seront nécessaire pour les fonctionnalités"
 
 #: about/releasemodel.php:150
 msgid ""
@@ -3293,32 +3555,46 @@ msgid ""
 " release of the Xfce core desktop will depend. In particular this includes "
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
-msgstr "A la fin de cela, une décision est prise sur laquelle les dépendances de la prochaine version stable du bureau central Xfce dépendra. En particulier, cela inclut les versions minimales requises pour toutes les dépendances essentielles du bureau central Xfce."
+msgstr ""
+"À la fin de cela, une décision est prise sur les dépendances desquelles la  "
+"prochaine version stable du cœur du bureau Xfce dépendra. Ceci inclut en "
+"particulier les versions minimales requises de toutes les dépendances du "
+"cœur du bureau Xfce."
 
 #: about/releasemodel.php:154
 msgid ""
 "Maintainers who were not available during the first 2 weeks of the planning "
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
-msgstr "Les responsables qui n'étaient pas disponibles pendant les 2 premières semaines de la phase de planification ont la possibilité de demander des modifications de dépendance dans les 2 semaines après. "
+msgstr ""
+"Les mainteneurs qui n'étaient pas disponibles pendant les 2 premières "
+"semaines de la phase de planning ont une chance de demander des changements "
+"aux dépendances dans les 2 semaines qui suivent."
 
 #: about/releasemodel.php:158
 msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
-msgstr "A la fin de ces 4 semaines, tous les composants entrent gel de dépendance qui signifie qu'ils ne peuvent pas changer les dépendances (et leurs versions) dont ils dépendent. Les dépendances optionnelles pour sont toujours autorisés à ajouter cependant."
+msgstr ""
+"À la fin de ces 4 semaines, tous les composants entrent dans le gel des "
+"dépendances, ce qui veut dire qu'ils ne peuvent pas modifier les dépendances "
+"(ni leur version) dont ils dépendent. Il est cependant toujours permis "
+"d'ajouter des dépendances optionnelles."
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
-msgstr "Informer la communauté"
+msgstr "Informer la Communauté"
 
 #: about/releasemodel.php:164
 msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "À la toute fin de la phase de planification, un e-mail avec des fonctionnalités et des dépendances pour tous les composants de l'ordinateur de bureau de base Xfce prévues est envoyé aux listes de diffusion xfce4-dev@xfce.org et xfce@xfce.org."
+msgstr ""
+"À la toute fin de la phase de planification, un courriel avec les fonctionnalités "
+"prévues et les dépendances pour tous les composants du cœur du bureau Xfce "
+"est envoyé sur les listes de discussion xfce4-dev@xfce.org et xfce@xfce.org."
 
 #: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
@@ -3328,18 +3604,25 @@ msgstr "Phase de développement (5 mois)"
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
-msgstr "Pendant la phase de développement chaque responsable est libre de faire des versions de maintenance et le développement de ses composants indépendamment du reste de Xfce."
+msgstr ""
+"Pendant la phase de développement, chaque mainteneur est libre de faire des "
+"versions de maintenance et de développement de ses composants indépendamment "
+"du reste de Xfce."
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
-msgstr "Les versions de développement"
+msgstr "Versions de développement"
 
 #: about/releasemodel.php:176
 msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "Les versions de développement donnent généralement un aperçu des fonctionnalités de la prochaine version stable. Ils doivent suivre le format de version XYZ, où Y est un nombre impair (par exemple xfwm4-4.7.3 ou thunar-1.3.10)."
+msgstr ""
+"Les versions de développement donnent en général un aperçu des "
+"fonctionnalités de la version stable suivante. Elle doivent suivre le format "
+"de version X.Y.Z, où Y est un nombre impair (par ex. xfwm4-4.7.3 ou "
+"thunar-1.3.10)."
 
 #: about/releasemodel.php:180
 msgid ""
@@ -3349,7 +3632,15 @@ msgid ""
 " A depends on a new feature in component B, A may only be released if there "
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
-msgstr "Les mainteneurs sont encouragés à publier des versions de développement pour les nouvelles fonctionnalités qu'ils souhaitent mettre à la disposition d'autres. Des versions de développement fréquentes peuvent agir comme un remplacement des révisions SVN que nous avions dans le passé. Si le composant A dépend d'une nouvelle fonctionnalité dans le composant B, A ne peut être publié que s'il y a une version de développement du composant B. Pour que cela fonctionne, les versions libtool doivent être correctement mis à jour à chaque nouvelle version de développement."
+msgstr ""
+"Les mainteneurs sont encouragés à faire des versions de développement pour "
+"les nouvelles fonctionnalités qu'ils veulent rendre disponibles aux autres. "
+"Des versions de développement fréquentes peuvent agir en remplacement du "
+"système de révisions SVN que nous avions dans la passé. Si le composant A "
+"dépend d'une nouvelle fonctionnalité du composant B, A peut seulement être "
+"rendu disponible s'il y a une version de développement de B qui fournit "
+"cette fonctionnalité. Pour que ceci fonctionne, les versions de libtool "
+"doivent être mises à jour correctement avec chaque version de développement."
 
 #: about/releasemodel.php:184
 msgid ""
@@ -3359,7 +3650,14 @@ msgid ""
 "component will remain functional even after merging the feature(s) into the "
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
-msgstr "Des précautions doivent être prises de la branche principale de chaque composant. La branche master doit toujours rester dans un état de libération prêt. Les nouvelles fonctionnalités devraient être développées dans les branches jusqu'à ce qu'ils soient prêts (comme dans: compilation et la composante restera fonctionnelle même après la fusion de la fonction (s) dans la branche master), pour réduire le risque de retarder la libération définitive de l'ensemble du noyau de Xfce bureau."
+msgstr ""
+"Il faut prendre soin de chaque branche maître de chaque composant. La "
+"branche maître devrait toujours rester dans un stade prêt à être publié. Les "
+"nouvelles fonctionnalités devraient être développées dans des branches "
+"jusqu'à ce qu'elles soient prêtes (donc : la compilation et le composant "
+"doivent rester fonctionnels même après la fusion des fonctionnalités dans la "
+"branche maître), pour diminuer le risque de différer la version finale du "
+"bureau Xfce entier."
 
 #: about/releasemodel.php:188
 msgid ""
@@ -3367,41 +3665,45 @@ msgid ""
 "Maintainers are suggested to prepare other components for these features in "
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
-msgstr "Les nouvelles fonctionnalités de rupture API ou d'autres composants de base doivent être communiquées. Mainteneurs sont suggérées pour préparer d'autres composants pour ces fonctionnalités dans une branche séparée avant d'inclure les fonctionnalités de la nouvelle version de développement. De cette façon, les autres composants conservent leur état libération prêt."
+msgstr ""
+"Les nouvelles fonctionnalités cassant des APIs ou d'autres composants "
+"principaux devraient être communiquées. Il est suggéré aux mainteneurs de "
+"préparer les autres composants dans une nouvelle version de développement. "
+"De cette manière les autres composants restent prêts à être publiés."
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
-msgstr "C'est ainsi que le flux de développement de base est:"
+msgstr "Voici ce à quoi le flux de travail de base du développement ressemble :"
 
 #: about/releasemodel.php:196
 msgid "Development Workflow"
-msgstr "Développement de flux de travail"
+msgstr "Flux de travail du développement"
 
 #: about/releasemodel.php:199
 msgid "Release Phase (10+ Weeks)"
-msgstr "Phase de presse (10 + Semaines)"
+msgstr "Phase de publication (10+ Semaines)"
 
 #: about/releasemodel.php:202
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
-msgstr "Au cours de la phase de libération, il y aura trois pré-versions et une version finale:"
+msgstr "Pendant la phase de publication, il y aura deux pré-versions et une version finale :"
 
 #: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1 (Aprés 0 semaines gel des fonctionnalités),"
+msgstr "Xfce X.Ypre1 (après 0 semaine, gel des fonctionnalités),"
 
 #: about/releasemodel.php:207
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2 (après 4 semaines, le gel de chaîne) et"
+msgstr "Xfce X.Ypre2 (après 4 semaines, gel des traductions) et"
 
 #: about/releasemodel.php:208
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (après 8 semaines, gel de code)"
+msgstr "Xfce X.Ypre3 (après 8 semaines, gel du code)"
 
 #: about/releasemodel.php:209
 msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce XY (après 10 semaines et +)"
+msgstr "Xfce X.Y (après 10+ semaines)"
 
 #: about/releasemodel.php:213
 msgid ""
@@ -3411,7 +3713,13 @@ msgid ""
 "desktop. The version numbers of these components may (even have to) differ "
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
-msgstr "où Y doit être un nombre pair. Chacune de ces versions doit inclure les dernières versions de développement de tous les composants (ou stable, s'il n'y avait pas les versions de développement depuis la dernière version stable) du bureau central Xfce. Les numéros de version de ces composants peuvent (même devoir) différer le schéma de nommage ci-dessus. Par exemple, pour Xfce 4.8.0pre2, xfwm4 pourrait avoir la version 4.7.17 et 1.1.9 Thunar pourrait avoir."
+msgstr ""
+"Où Y doit être un nombre pair. Chacune de ces versions doit être inclue dans "
+"la dernière version de développement de chaque composant (ou stable, s'il "
+"n'y a pas eu de version de développement depuis la dernière version stable) "
+"du cœur du bureau Xfce. Les numéros de version de ces composants peuvent "
+"(doivent même) différer du schéma de nommage ci-dessus. Par ex. pour Xfce "
+"4.8.0pre2, xfwm4 pourrait être en version 4.6.17 et Thunar en 1.1.9."
 
 #: about/releasemodel.php:217
 msgid ""
@@ -3419,43 +3727,57 @@ msgid ""
 "of their components along with one of the pre-releases. The release team "
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
-msgstr "Cela signifie que les responsables n'ont pas nécessairement de sortir de nouvelles versions de leurs composants ainsi que l'un des pré-versions. L'équipe de libération choisit toujours le dernier développement disponible ou version stable de chaque composant pour les pré-versions et la version finale."
+msgstr ""
+"Ceci veut dire que les mainteneurs ne doivent pas nécessairement sortir de "
+"nouvelles versions de leurs composants en même temps qu'une de ces pré-"
+"versions. L'équipe de version prend toujours la dernière version stable ou "
+"de développement disponible pour chaque composant pour les pré-versions et "
+"la version finale."
 
 #: about/releasemodel.php:221
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr "La fin de cette phase marque une nouvelle version stable du bureau central Xfce et avec elle le début d'un nouveau cycle de sortie."
+msgstr ""
+"La fin de cette phase marque une nouvelle version stable du cœur du bureau "
+"Xfce et en même temps le début d'un nouveau cycle de version."
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
-msgstr "La congélation avant de presse"
+msgstr "Gel avant les publications"
 
 #: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
-msgstr "Il existe différents types de gel avant communiqués."
+msgstr "Il y a différents types de gel avant les publications."
 
 #: about/releasemodel.php:230
 msgid "Feature Freeze"
-msgstr "Gel d'entité"
+msgstr "Gel des fonctionnalités"
 
 #: about/releasemodel.php:233
 msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from"
 " there on only translations and bugfixes are allowed to go into the master "
 "branch."
-msgstr "Avec Xfce X.Ypre1, tous les composants de base entrent gel des fonctionnalités qui signifie à partir de là que des traductions et corrections de bogues sont autorisés à entrer dans la branche master."
+msgstr ""
+"Avec Xfce X.Ypre1, tous les composants principaux entrent dans le gel des "
+"fonctionnalités, ce qui veut dire qu'à partir de ce moment seuls les "
+"traductions et les résolutions de bogues sont permis dans la branche maître."
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
-msgstr "Chaîne / UI Gel"
+msgstr "Gel des traductions/de l'UI"
 
 #: about/releasemodel.php:239
 msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes"
 " for the user interface which may not be changed after this point."
-msgstr "Avec Xfce X.Ypre2, tous les composants de base entrent gel des chaînes / de l'interface utilisateur qui signifie à partir de là sans aucune condition qui affectent traductions peuvent être modifiées. Idem pour l'interface utilisateur qui ne peut être modifiée après ce point."
+msgstr ""
+"Avec Xfce X.Ypre2, tous les composants principaux entrent dans le gel des "
+"traductions/de l'UI, ce qui veut dire qu'à partir de ce moment aucune chaîne "
+"qui affecte la traduction ne peut être modifiée. Il en va de même pour "
+"l'interface utilisateur qui ne peut plus être modifiée après ce point."
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
@@ -3466,7 +3788,10 @@ msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
-msgstr "Il ya un gel du code 2 jours court avant chaque pré-version. Pendant cette période de temps, aucune commet peut être envoyé, sauf s'ils sont signés par le responsable de la publication."
+msgstr ""
+"Il y an un court gel du code de 2 jours avant chaque pré-version. Pendant "
+"cette période de temps, aucune modification ne peut être apportée si elle "
+"n'est pas avalisée par l'équipe de publication."
 
 #: about/releasemodel.php:249
 msgid ""
@@ -3474,29 +3799,38 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr "Avec Xfce X.Ypre3, tous les composants de base entrent gel du code qui signifie à partir de là aucun changement de code sont autorisés, sauf s'ils sont signés par le responsable de la publication. Ceux-ci doivent généralement avoir des correctifs au blocage ou de bogues critiques pour la publication. Les traductions sont toujours autorisés à y entrer"
+msgstr ""
+"Avec Xfce X.Ypre3, tous les composants principaux entrent le gel du code, ce "
+"qui veut dire qu'à partir de ce moment aucune modification du code n'est "
+"permise. Seul l'équipe de publication peut décider de la nécessité d'apporter "
+"une nouvelle modification. Celles-ci devraient en général n'être que des "
+"résolutions à des bogues bloquants ou critiques pour la version. Les traductions "
+"sont toujours autorisées."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr "Phase de gel du code (2 semaines et +)"
+msgstr "Phase de gel du code (2+ semaines)"
 
 #: about/releasemodel.php:255
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr "Avec Xfce X.Ypre3, tous les composants de base entrent gel du code. Cette phase est illustrée dans la figure ci-dessous et est expliquée plus en détail dans cette section."
+msgstr ""
+"Avec Xfce X.Ypre3, tous les composants principaux entrent le gel du code. "
+"Cette phase est illustrée par la figure qui soit et est expliquée avec plus "
+"de détails dans cette section."
 
 #: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr "Le gel du code et de ses exceptions sont pris en charge par des crochets commis. Il ya un crochet de mise à jour qui ne permet pas de changements à maîtriser, sauf s'ils sont signés par le responsable de la publication. "
+msgstr "Le gel du code et ses exceptions sont pris en charge par des hooks. Il y a un hook de mise à jour qui ne permet pas de changements dans master, sauf s'ils sont signés par le responsable de la version."
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
-msgstr "Marquage et branches de presse"
+msgstr "Tag et Branches pour les publications"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
@@ -3509,18 +3843,28 @@ msgid ""
 "DISCUSSION//) to which he or she then commits the fixes. Refer to the "
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
-msgstr "Si un composant de base nécessite des corrections ou des modifications au cours de gel du code, le responsable est nécessaire pour créer une nouvelle branche appelée ELS (/ / NOM ouvert à la discussion / /) pour laquelle il ou elle s'engage ensuite les correctifs. Se référer au Code section Exceptions Freeze si ces changements sont critiques pour une sortie ou des corrections de bogues bloquants."
+msgstr ""
+"Si un composant a besoin de résolutions ou de changements pendant le gel du "
+"code, le mainteneur doit créer une nouvelle branche appelée ELS (//NOM "
+"OUVERT À DISCUSSION//) à laquelle il ou elle réalise ensuite les "
+"résolutions. Référez-vous à la section Exceptions au gel du code si ce sont "
+"des changements critiques pour la version ou des résolutions de bogues "
+"bloquants."
 
 #: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
 " after the final release. Only bugfixes are allowed in this branch."
-msgstr "La branche ELS ne vit que pour une courte période de temps. Il est fusionné dans le maître et dans la branche stable de la composante (par exemple xfwm4-4.8 ou thunar-1.2) après la version finale. Seuls des corrections sont autorisés dans cette branche."
+msgstr ""
+"La branche ELS ne vit que pendant une courte période. Elle est fusionnée "
+"dans master et des branches stables du composant (par ex. xfwm4-4.8 ou "
+"thunar-1.2) après la version finale. Seules les résolutions de bogues sont "
+"permises dans cette branche."
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
-msgstr "Exceptions Freeze Code"
+msgstr "Exceptions au gel du code"
 
 #: about/releasemodel.php:278
 msgid "Blocking Bugs"
@@ -3530,11 +3874,13 @@ msgstr "Bogues bloquants"
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
-msgstr "Certains insectes peuvent retarder la libération finale si elles sont considérées comme bloqueurs. C'est le cas dans l'une des circonstances suivantes:"
+msgstr ""
+"Certains bogues peuvent retarder la version finale s'ils sont considérés "
+"bloquants. C'est le cas dans les circonstances suivantes :"
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
-msgstr "il se bloque une application de base"
+msgstr "il plante une application essentielle"
 
 #: about/releasemodel.php:286
 msgid "it causes data loss"
@@ -3542,42 +3888,51 @@ msgstr "il provoque la perte de données"
 
 #: about/releasemodel.php:287
 msgid "it causes an ever-growing memory leak"
-msgstr "il provoque une fuite de mémoire sans cesse croissante"
+msgstr "il provoque une fuite de mémoire infinie"
 
 #: about/releasemodel.php:288
 msgid "it locks the entire desktop GUI"
-msgstr "il verrouille la totalité du bureau GUI"
+msgstr "il verrouille la totalité du bureau (GUI)"
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "Un bogue peut ne pas retarder une libération si elle répond aux critères suivants:"
+msgstr ""
+"Un bogue ne peut pas retarder une version s'il remplit les critères "
+"suivants :"
 
 #: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
-msgstr "du matériel ou de l'architecture sur laquelle le bogue se produit est exotique et / ou il n'ya aucun moyen pour les développeurs de reproduire le bogue"
+msgstr ""
+"le matériel ou l'architecture sur lequel le bogue apparaît est exotique et/ou "
+"il n'y a pas moyen pour les développeurs de reproduire le bogue."
 
 #: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
-msgstr "De résoudre ces problèmes sont autorisés à appliquer pendant gel du code si et seulement si elles sont signées par le gestionnaire de version."
+msgstr ""
+"Les résolutions de ces bogues peuvent être appliquées durant le gel du code "
+"si et seulement si elles sont approuvées par l'équipe de publication."
 
 #: about/releasemodel.php:303
 msgid "Release-Critical Changes"
-msgstr "Variations critiques pour la publication"
+msgstr "Changements critiques de publication"
 
 #: about/releasemodel.php:306
 msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
-msgstr "Certains changements peuvent être de grande préoccupation en ce qui concerne la qualité de la libération. Ils sont autorisés à aller si, et seulement si elles sont signées par le responsable de la publication."
+msgstr ""
+"Certains changements peuvent être d'importance pour la qualité de la "
+"publication. Ils est permis de les faire si et seulement si ils sont approuvés "
+"par l'équipe de publication."
 
 #: about/releasemodel.php:309
 msgid "Releasing"
-msgstr "Libération"
+msgstr "Publication"
 
 #: about/releasemodel.php:312
 msgid ""
@@ -3586,7 +3941,13 @@ msgid ""
 "maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "Pour la version finale (Xfce XY), tous les composants de base sont marqués (deux fois, une fois avec leur propre version et une fois avec xfce-xy0) et ramifiés pour le cycle de maintenance (par exemple, comme thunar-1.2 ou xfwm4-4.8). Après cela, la branche ELS est fusionnée dans master (où le développement de la prochaine version a lieu) et en ex thunar-1.2 ou xfwm4-4.8."
+msgstr ""
+"Pour la version finale (Xfce X.Y), tous les composants principaux sont "
+"taggés (deux fois, une fois avec leur propre version et une fois avec xfce-X."
+"T.0) et les branches sont créées pour le cycle de maintenance (par ex. en tant que "
+"thunar-1.2 ou xfwm4-4.8). Ensuite, la branche ELS est fusionnée avec "
+"master (où le développement pour la nouvelle version prend la place) et dans "
+"les branches (par ex. thunar-1.2 ou xfwm4-4.8)."
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
@@ -3598,11 +3959,15 @@ msgid ""
 "be committed to a stable component-specific branch (like thunar-1.2 or "
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
-msgstr "Après la sortie d'une version finale, corrections de bogues et des mises à jour de traduction seront engagés dans une branche spécifique au composant stable (comme thunar-1.2 ou xfwm4-4.8). Les versions de maintenance des composants individuels ne sont pas tenus d'être synchronisés."
+msgstr ""
+"Après la publication de la version finale, les résolutions de bogues et les "
+"mises à jour des traductions seront faites sur une branche stable spécifique "
+"au composant (comme thunar-1.2 ou xfwm4-4.8). Les versions de maintenance "
+"des composants individuels ne doivent pas nécessairement être synchronisées."
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
-msgstr "Versions de Maintenance"
+msgstr "Versions de maintenance"
 
 #: about/releasemodel.php:324
 msgid ""
@@ -3611,7 +3976,12 @@ msgid ""
 "the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
-msgstr "Il peut y avoir aucun changement API / ABI dans des versions de maintenance par rapport à la version finale correspondante du bureau central de Xfce. Ils doivent également suivre le format de version XYZ, où Y est un nombre pair (par exemple xfwm4-4.8.4 ou thunar-1.2.4). Pas de nouvelles fonctionnalités ou des chaînes peuvent être introduits dans ces communiqués."
+msgstr ""
+"Il peut n'y avoir aucun changement d'API/ABI dans les versions de "
+"maintenance par rapport à la version finale du cœur du bureau Xfce. Elles "
+"doivent aussi suivre le format de version X.Y.Z, où Y est un nombre pair "
+"(par ex. xfwm4-4.8.4 ou thunar-1.2.4). Ni nouvelle fonctionnalité ni "
+"nouvelle chaîne ne peut être introduite dans ces versions."
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -3624,66 +3994,89 @@ msgid ""
 "functionality one can expect of a modern desktop environment. They are "
 "packaged separately and you can pick among the available packages to create "
 "the optimal personal working environment."
-msgstr "Xfce incarne la philosophie UNIX traditionnel de modularité et de réutilisabilité. Il se compose d'un certain nombre de composants qui fournissent les fonctionnalités qu'on peut attendre d'un environnement de bureau moderne. Ils sont emballés séparément et vous pouvez choisir parmi les forfaits disponibles pour créer l'environnement de travail personnel optimal."
+msgstr ""
+"Xfce incarne la philosophie traditionnelle UNIX de modularité et ré-"
+"utilisabilité. Il consiste en un nombre de composants qui fournissent "
+"l'entière fonctionnalité qu'on peut espérer d'un environnement de bureau "
+"moderne. Ils sont empaquetés séparément et vous pouvez utiliser les paquets "
+"de votre choix pour créer votre environnement de travail optimal."
 
 #: about/index.php:15
 msgid ""
 "Another priority of Xfce is adherence to standards, specifically those "
 "defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr "Une autre priorité de Xfce est le respect des normes, en particulier celles qui sont définies à <a href=\"http://freedesktop.org\">freedesktop.org</a>."
+msgstr "Une autre priorité de Xfce est l'adhérence des normes, en particulier celles qui sont définies par <a href=\"http://freedesktop.org\">freedesktop.org</a>."
 
 #: about/index.php:19
 msgid ""
 "Xfce can be installed on several UNIX platforms. It is known to compile on "
 "Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
 "Sparc, Alpha..."
-msgstr "Xfce peut être installé sur plusieurs plates-formes UNIX. Il est connu pour compiler sur Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin et MacOS X, sur x86, PPC, Sparc, Alpha ..."
+msgstr ""
+"Xfce peut être installé sur plusieurs plates-formes UNIX. Il est connu que "
+"les paquets se compilent sous Linux, NetBSD, FreeBSD, OpenBSD, Solaris, "
+"Cygwin et MacOS X, sur x86, PPC, Sparc, Alpha..."
 
 #: about/index.php:22
 msgid "Features"
-msgstr "Traits"
+msgstr "Fonctionnalités"
 
 #: about/index.php:25
 msgid ""
 "Xfce contains a number of core components for the minimum tasks you'd expect"
 " from a desktop environment:"
-msgstr "Xfce contient un certain nombre de composants de base pour les tâches minimales que vous attendez d'un environnement de bureau:"
+msgstr ""
+"Xfce contient un certain nombre de composants principaux pour les tâches "
+"minimales que vous pouvez espérer d'un environnement de bureau :"
 
 #: about/index.php:30
 msgid ""
 "Manages the placement of windows on the screen, provides window decorations "
 "and manages workspaces or virtual desktops."
-msgstr "Gère le placement des fenêtres à l'écran, fournit des décorations de fenêtre et gère les espaces de travail ou les bureaux virtuels."
+msgstr ""
+"Gère l'emplacement des fenêtres à l'écran, fournit les décorations des "
+"fenêtres, et gère les espaces de travail ou bureaux virtuels."
 
 #: about/index.php:33
 msgid ""
 "Sets the background image and provides a root window menu, desktop icons or "
 "minimized icons and a windows list."
-msgstr "Définit l'image de fond et offre un menu de la fenêtre racine, les icônes du bureau ou des icônes réduites et une liste des fenêtres."
+msgstr ""
+"Fixe l'image d'arrière-plan, fournit un menu principal des fenêtres, des "
+"icônes du bureau ou minimisés et une liste des fenêtres."
 
 #: about/index.php:36
 msgid ""
 "Switch between opened windows, launch applications, switch workspaces and "
 "menu plugins to browse applications or directories."
-msgstr "Basculer entre les fenêtres ouvertes, les applications de lancement, des espaces de travail de commutation et les plugins de menu pour parcourir les applications ou les répertoires."
+msgstr ""
+"Bascule entre les fenêtres ouvertes, lance des applications, change d'espace "
+"de travail, et des greffons de menu pour parcourir des applications ou des "
+"répertoires."
 
 #: about/index.php:39
 msgid ""
 "Controls the login and power management of the desktop and allows you to "
 "store multiple login sessions."
-msgstr "Contrôle le login et gestion de l'alimentation de l'ordinateur de bureau et vous permet de stocker plusieurs sessions de connexion."
+msgstr ""
+"Contrôle la connexion et la gestion de l'énergie du bureau et vous permet de "
+"stocker de multiples session."
 
 #: about/index.php:42
 msgid ""
 "Shows the applications installed on your system in categories, so you can "
 "quickly find and launch them."
-msgstr "Affiche les applications installées sur votre système en catégories, de sorte que vous pouvez rapidement trouver et de les lancer."
+msgstr ""
+"Affiche les applications installées sur votre système par catégorie, de "
+"manière à ce que vous puissiez les trouver et les lancer."
 
 #: about/index.php:45
 msgid ""
 "Provides the basic file management features and unique utilities like the "
 "bulk renamer."
-msgstr "Fournit les fonctionnalités de gestion de fichiers de base et utilitaires uniques comme le Renamer vrac."
+msgstr ""
+"Fournit les fonctions basiques de gestion des fichiers et des utilitaires "
+"uniques comme renommer en masse."
 
 #: about/index.php:47
 msgid "Setting Manager"
@@ -3703,7 +4096,13 @@ msgid ""
 "finder, image viewer, iCal based calendar and a CD and DVD burning "
 "application. You can read more about the modules of Xfce in the <a "
 "href=\"/projects\">projects</a> page."
-msgstr "A côté de l'ensemble de base de modules, Xfce offre également de nombreuses applications et plugins supplémentaires de sorte que vous pouvez étendre votre bureau comme vous le souhaitez, par exemple un émulateur de terminal, éditeur de texte, mixeur de son, l'application Finder, visionneuse d'images, un calendrier basé sur iCal et un CD et la gravure de DVD application. Vous pouvez lire plus sur les modules de Xfce dans le <a href=\"/projects\"> projets </a>."
+msgstr ""
+"À côté de l'ensemble des modules de base, Xfce fournit aussi de nombreuses "
+"applications et greffons additionnels, de manière à ce que vous puissiez "
+"étendre votre bureau de la manière que vous aimez, par exemple un émulateur "
+"de terminal, une visionneuse d'images, un calendrier basé sur iCal, ou une "
+"application de gravure de CD et DVD. Vous pouvez en apprendre plus à propos "
+"de modules de Xfce sur la page <a href=\"/projects\">projets</a>."
 
 #: about/nav.php:5
 msgid "general information about the Xfce desktop"
@@ -3711,23 +4110,23 @@ msgstr "informations générales sur le bureau Xfce"
 
 #: about/nav.php:9
 msgid "4.10 Tour"
-msgstr "4.10 Visite"
+msgstr "4.10 Tour"
 
 #: about/nav.php:10
 msgid "visual tour about new features in the last major releases"
-msgstr "tour visuel sur les nouvelles fonctionnalités dans les dernières versions majeures"
+msgstr "tour visuel des nouvelles fonctionnalités des dernières versions majeures"
 
 #: about/nav.php:14
 msgid "4.8 Tour"
-msgstr "4.8 Visite"
+msgstr "4.8 Tour"
 
 #: about/nav.php:15
 msgid "4.6 Tour"
-msgstr "4.6 Visite"
+msgstr "4.6 Tour"
 
 #: about/nav.php:16
 msgid "4.4 Tour"
-msgstr "4.4 Visite"
+msgstr "4.4 Tour"
 
 #: about/nav.php:21
 msgid "release announcements"
@@ -3739,4 +4138,4 @@ msgstr "liste des contributeurs"
 
 #: about/nav.php:36
 msgid "the Xfce release policy for core modules"
-msgstr "politique de parution Xfce pour les modules de base"
+msgstr "politique de publication Xfce pour les modules de base"
