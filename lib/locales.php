@@ -13,6 +13,7 @@ $languages = array (
         'pl' => 'Polish',
 	'pt_BR' => 'Portuguese (Brazilian)',
 	'sk' => 'Slovak',
+	'sr' => 'Serbian',
 	'zh_CN' => 'Chinese (China)');
 
 /* used in header and language detection functions */
