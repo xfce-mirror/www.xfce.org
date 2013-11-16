@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2013-07-03 22:08+0200\n"
-"PO-Revision-Date: 2013-11-16 11:10+0000\n"
+"PO-Revision-Date: 2013-11-16 12:50+0000\n"
 "Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/xfce/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -885,7 +885,7 @@ msgid ""
 "wiki will attract more contributors. The help buttons in the interface still"
 " work, but you'll be asked to open the documentation website in your web "
 "browser."
-msgstr ""
+msgstr "Інша велика зміна - це вилучення користувацької документації про пакунок і введення <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. Причиною цієї зміни стало обмеження в достарчанню документації, починаючи з версії Xfce 4.8. Надіємося, що вікі більше надихне на написання нових документів. Кнопка допомоги все ще працює, однак тепер вона переводить на відкриття веб-сторінки в переглядачі тенет."
 
 #: news-array.php:51
 msgid ""
@@ -896,7 +896,7 @@ msgid ""
 "manager (power management), tumbler (thumbnail generation for Thunar and "
 "other components), garcon (menu library, was already a dependency in 4.8), "
 "thunar-volman (volume manager for Thunar)."
-msgstr ""
+msgstr "Також ми викинули xfce-utils. Його вміст або вилучено, або перенесено до інших пакунків Xfce. Всі інші зміни описані в списку змін 4.10pre. Ядро Xfce отримало кілка нових компонентів: xfce4-power-manager (керування живленням), tumbler (створення значків для Thunar і його компонент), garcon (бібліотека меню, раніше була в залежностях 4.8), thunar-volman (керування дисками для Thunar)."
 
 #: news-array.php:52
 msgid ""
@@ -2895,7 +2895,7 @@ msgstr "Написання специфічних оголошень щодо к
 
 #: about/releasemodel.php:134
 msgid "Create Bugzilla tags for their releases"
-msgstr ""
+msgstr "Створення міток Bugzilla для їхніх випусків"
 
 #: about/releasemodel.php:135
 msgid "Make sure API documentation is up to date"
@@ -2932,14 +2932,14 @@ msgid ""
 "Maintainers who were not available during the first 2 weeks of the planning "
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
-msgstr ""
+msgstr "Розробники, які були недоступні протягом перших 2 тижнів фази планування, мають шанс надіслати запит про зміну залежностей 2 тижні після цього."
 
 #: about/releasemodel.php:158
 msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
-msgstr ""
+msgstr "Наприкінці цих 4 тижнів всі компоненти входять у фазу замороження залежностей, яка означає, що не дозволяється зміни в залежностях (і їхніх версіях), від яких вони залежать. Однак все ще можливо додати необов'язкові залежності."
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
@@ -2960,7 +2960,7 @@ msgstr "Фаза розробки (5 місяців)"
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
-msgstr ""
+msgstr "Протягом фази розробки кожен розробник може налаштовувати і розробляти випуски своїх компонент незалежно від решти Xfce."
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
@@ -3003,7 +3003,7 @@ msgstr ""
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "Тут є приклад, як виглядає основний робочий процес по розробці:"
 
 #: about/releasemodel.php:196
 msgid "Development Workflow"
@@ -3065,7 +3065,7 @@ msgstr "Замороження перед випуском"
 
 #: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "Є різні типи заморожень перед випуском."
 
 #: about/releasemodel.php:230
 msgid "Feature Freeze"
@@ -3076,7 +3076,7 @@ msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from"
 " there on only translations and bugfixes are allowed to go into the master "
 "branch."
-msgstr ""
+msgstr "З Xfce X.Ypre1 всі основні компоненти входять в фазу замороження властивостей. Це означає, що в головній гілці дозволені тільки переклади і виправлення вад."
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
@@ -3087,7 +3087,7 @@ msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes"
 " for the user interface which may not be changed after this point."
-msgstr ""
+msgstr "З Xfce X.Ypre2 всі основні компоненти входять у фазу замороження стрічок. Це означає, що не дозволяється змін стрічок, які б могли вплинути на переклади. Те саме стосується користувацького інтерфейсу і не може бути змінене, починаючи з цієї точки часу."
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
@@ -3098,7 +3098,7 @@ msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
-msgstr ""
+msgstr "Існує коротка 2-денна фаза замороження коду перед кожним попереднім випуском. Протягом цього часу не приймаються жодні оновлення коду, поки вони не будуть підписані керівником випуску. "
 
 #: about/releasemodel.php:249
 msgid ""
@@ -3106,7 +3106,7 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "З Xfce X.Ypre3 всі основні компоненти входять у фазу замороження коду. Це означає, що не дозволяється змін коді, аж поки вони не будуть підписані керівником випуску. це повинні бути тільки виправлення вад, що блокують вихід випуску, або критичні вади для цілого випуску. Переклади все ще приймаються."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
@@ -3117,18 +3117,18 @@ msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr ""
+msgstr "З Xfce X.Ypre3 всі основні компоненти входять у фазу замороження коду. Ця фаза зображена на малюнку і пояснена детальніше в цьому розділі."
 
 #: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr ""
+msgstr "Замороження коду і всі винятки підтримуються через скрипти оновлення. Є скрипт оновлення, який не дозволяє будь-які зміни до основної гілки, поки не буде підписаний керівником випуску."
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "Позначання і розгалуження випусків"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
@@ -3141,14 +3141,14 @@ msgid ""
 "DISCUSSION//) to which he or she then commits the fixes. Refer to the "
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
-msgstr ""
+msgstr "Якщо основна компонента вимагає виправлення або зміни протягом замороження коду, тоді розробник повинен створити нову гілку з назвою ELS (//ІМ'Я ВІДКРИТЕ ДЛЯ ОБГОВОРЕННЯ//), до якої він або вона будуть надсилати виправлення. Перейдіть до розділу Винятки у фазі замороження коду, якщо маєте критичні для випуску зміни або виправлення для вад."
 
 #: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
 " after the final release. Only bugfixes are allowed in this branch."
-msgstr ""
+msgstr "Гілка ELS може бути тільки короткий період часу. Вона буде об'єднана з основною і зі стабільною гілкою компонент (наприклад, xfwm4-4.8 або thunar-1.2) після фінального випуску. В цій гілці дозволено тільки виправлення вад."
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
