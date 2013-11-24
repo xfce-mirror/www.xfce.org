@@ -10,6 +10,7 @@ $languages = array (
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
 	'lt' => 'Lithuanian',
+	'oc' => 'Occitan',
         'pl' => 'Polish',
 	'pt_BR' => 'Portuguese (Brazilian)',
 	'sk' => 'Slovak',
