@@ -4,17 +4,18 @@
 $languages = array (
 	'en' => 'English',
 	'de' => 'German',
-        'es' => 'Spanish (Castilian)',
-        'hu' => 'Hungarian',
+	'es' => 'Spanish (Castilian)',
+	'hu' => 'Hungarian',
 	'it' => 'Italian',
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
 	'lt' => 'Lithuanian',
 	'oc' => 'Occitan',
-        'pl' => 'Polish',
+	'pl' => 'Polish',
 	'pt_BR' => 'Portuguese (Brazilian)',
 	'sk' => 'Slovak',
 	'sr' => 'Serbian',
+	'uk' => 'Ukrainian',
 	'zh_CN' => 'Chinese (China)');
 
 /* used in header and language detection functions */
