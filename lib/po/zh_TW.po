@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2013-07-03 22:08+0200\n"
-"PO-Revision-Date: 2014-05-28 00:51+0000\n"
+"PO-Revision-Date: 2014-05-28 14:07+0000\n"
 "Last-Translator: 柏諺 黃 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/xfce-www/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -1018,13 +1018,13 @@ msgid ""
 "release of Xfce 4.8 which is set to be pushed out to the public on January "
 "16th, 2011. Compared to Xfce 4.8pre2 this release mostly features "
 "translation updates and bug fixes."
-msgstr ""
+msgstr "今天，我們很高興的宣佈最終版本預定在2011年1月16日發佈的 Xfce 4.8最終預覽版本。相較 Xfce 4.8pre2，這個版本主要是翻譯更新和臭蟲修復。"
 
 #: news-array.php:84
 msgid ""
 "With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no"
 " surprise that for most components only a few issues were tackled."
-msgstr ""
+msgstr "在4.8pre2和4.8pre3中間有耶誕節和新年，因此毫不意外的只處理了多數組件中的少數問題。"
 
 #: news-array.php:85
 msgid ""
@@ -1035,7 +1035,7 @@ msgid ""
 "commands launched from the Xfce run dialog were not set properly, so we "
 "fixed that so that commands launched from the dialog always inherit the "
 "environment of the Xfce session."
-msgstr ""
+msgstr "除此之外，我們還更新了預設的鍵盤快捷鍵，包括監視鍵。檔案管理員進度對話框中的狀態圖示在對話框損毀時可以恰當的隱藏。我們也修復了從 Xfce 執行對話框中所啟動的指令的環境變量無法正確設定的問題，這樣從對話框執行的指令就可以一直沿用 Xfce 工作階段的環境變量。"
 
 #: news-array.php:86
 msgid ""
@@ -1044,7 +1044,7 @@ msgid ""
 " a race condition at session startup and in order to speed things up a "
 "little more we no longer use xrdb to update xft and cursor settings and "
 "instead, update the related XSETTINGS properties ourselves."
-msgstr ""
+msgstr "我們也再次將 xfce4-session-logout 中的 -reboot 及 -halt 參數恢復運作，而先前只是簡單地將目前的使用者登出而已。為了避免工作階段啟動時的紊亂狀況，並為了讓事情能快一點，我們不再使用 xrdb 來更新 xft 及游標設定，而是更新與 XSETTINGS 相關的屬性。"
 
 #: news-array.php:87
 msgid ""
@@ -1054,7 +1054,7 @@ msgid ""
 "the mouse wheel. The window manager now also properly handles resolution "
 "changes in fullscreen windows like those appearing in games. Xfwm4's "
 "application switcher now only appears once in cloned mode."
-msgstr ""
+msgstr "在視窗管理員 xfwm4 中，我們為日常使用的應用程式設定了一段雙擊所需的時間。透過隱藏 /general/mousewheel_rollup 選項，使用者可以禁用由滑鼠滾輪折疊視窗。視窗管理員現在也可以恰當的處理全螢幕視窗中的解析度變更，像是那些在遊戲中出現的。Xfwm4 的應用程式切換器現在只會在複製模式中出現。"
 
 #: news-array.php:88
 msgid ""
@@ -1083,7 +1083,7 @@ msgid ""
 "there are not enough people active to take care of all this at the moment. "
 "So we will continue fixing bugs in master branches as we did between 4.8pre2"
 " and 4.8pre3."
-msgstr ""
+msgstr "既然4.8遵循 Xfce 的 <a href=\"/about/releasemodel\">釋出模式</a> ，我們應該在今天如期宣佈代碼凍結及創建早期的生命週期分支。我們決定不這麼作的原因是，沒有足多活躍的人能夠照料這個版本。所以我們將會繼續修復主線分支中的臭蟲，像我們在4.8pre2與4.8pre3中所作的事一樣。"
 
 #: news-array.php:97
 msgid ""
@@ -1092,14 +1092,14 @@ msgid ""
 "final release, strings may no longer be changed in the master branch of Xfce"
 " core components. This will help translators to prepare their translations "
 "for the final release scheduled on January 16th, 2011."
-msgstr ""
+msgstr "我們很高興的發佈 Xfce 4.8的第二個預覽版本。這個版本標誌著字串凍結的開始，在 Xfce 核心組件的主線分支中的字串不會再更改。這有助於翻譯者為預計在2011年1月16日釋出的最終版本準備他們的翻譯。"
 
 #: news-array.php:98
 msgid ""
 "For this release we focused on fixing bugs in all Xfce components. We "
 "managed to close a great number of them thanks to all the persons who "
 "reported them and tested proposed fixes quickly."
-msgstr ""
+msgstr "這個版本，我們專注於修復所有 Xfce 組件中的臭蟲。我們努力的關閉了相當多的臭蟲回報，並感謝所有報告它們以及快速測試建議修復的人們。"
 
 #: news-array.php:99
 msgid ""
@@ -1109,7 +1109,7 @@ msgid ""
 "and integration with the Compiz viewport. Of course, this release also "
 "features a lot of new and improved translations thanks to the amazing work "
 "of our translation teams."
-msgstr ""
+msgstr "儘管已經進入功能凍結階段，我們還是加入了一些次要的面板功能。我們也努力實現兩個長時間的請求：對使用選單編輯器(我們測試了 Alacarte)編輯應用程式選單的恰當支援，以及 Compiz 視口的整合。當然，這個版本也有許多的新的及改進的翻譯，感謝我們令人驚訝的翻譯團隊。"
 
 #: news-array.php:106
 msgid ""
