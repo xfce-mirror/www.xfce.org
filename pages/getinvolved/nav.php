@@ -19,7 +19,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://www.transifex.com/projects/p/xfce/"><?php E_('Transifex') ?>
+		<a href="https://www.transifex.com/organization/xfce/"><?php E_('Transifex') ?>
 			<span>&ndash; <?php E_('the Xfce translation portal') ?></span>
 		</a>
 	</li>

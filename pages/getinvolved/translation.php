@@ -23,7 +23,7 @@ $head['title'] = R_('Translation');
 <ol>
   <li><?php E_('First go to <a href="https://www.transifex.com/">transifex.com</a> and create a new profile.') ?></li>
   <li><?php E_('Join the <a href="https://mail.xfce.org/mailman/listinfo/xfce-i18n">Xfce translation mailing list</a>. This is where the translation communication is coordinated, so it is nice to introduce yourself here. On this list developer will also announce when releases are planned, translations system changes or anything else you should know as a translators.') ?></li>
-  <li><?php E_('Go to <a href="https://www.transifex.com/projects/p/xfce/">Xfce hub project</a> and request access to a team or request a new language if it doesn\'t exist yet. One of the developers or translation coordinators will approve (or decline) your request. All other Xfce related projects outsource the permissions of the Xfce hub.') ?></li>
+  <li><?php E_('Go to <a href="https://www.transifex.com/organization/xfce/">Xfce organization</a> and request access to a team or request a new language if it doesn\'t exist yet. One of the developers or translation coordinators will approve (or decline) your request. All other Xfce related projects outsource the permissions of the Xfce hub.') ?></li>
   <li><?php E_('Now wait patently. If it takes too long, leave a message on the translation mailing list.') ?></li>
 </ol>
 
