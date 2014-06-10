@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2013-07-03 22:08+0200\n"
-"PO-Revision-Date: 2014-06-09 14:01+0000\n"
+"PO-Revision-Date: 2014-06-10 04:29+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/xfce-www/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -2944,14 +2944,14 @@ msgstr "這 4 個星期結束後，所有組件進入依賴性凍結，這代表
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
-msgstr ""
+msgstr "通知社群"
 
 #: about/releasemodel.php:164
 msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr ""
+msgstr "在計畫階段結束時，一封寫有所有 Xfce 核心桌面組件的計畫好的特性及依賴性的電子郵件會寄到 xfce4-dev@xfce.org 和 xfce@xfce.org 郵件列表。"
 
 #: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
@@ -2961,7 +2961,7 @@ msgstr "開發階段 (5 個月)"
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
-msgstr ""
+msgstr "在開發階段時，每個維護者獨立的去維護及開發他所負責的 Xfce 組件。"
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
@@ -2972,7 +2972,7 @@ msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr ""
+msgstr "開發版本通常會給出下一個穩定版本的功能預覽。它們必須遵守 X.Y.Z 的版本號格式，Y 是奇數(例如 xfwm4-4.7.3或是 thunar-1.3.10)。"
 
 #: about/releasemodel.php:180
 msgid ""
@@ -2982,7 +2982,7 @@ msgid ""
 " A depends on a new feature in component B, A may only be released if there "
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
-msgstr ""
+msgstr "鼓勵維護者釋出包含他們想要讓別人使用的新功能的開發版本。頻繁的開發版本可以取代我們過去所使用的 SVN 修訂版本。如果組件 A 依賴於另一個在組件 B 中所含有的新功能，則 A 只能在包含了這個新功能的組件 B 釋出後才能發佈。要作到這些，libtool 必須恰當的更新每個開發版本。"
 
 #: about/releasemodel.php:184
 msgid ""
@@ -2992,7 +2992,7 @@ msgid ""
 "component will remain functional even after merging the feature(s) into the "
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
-msgstr ""
+msgstr "必須注意每個組件的 master 分支。master 分支應該總是保持待發佈狀態。新功能應該一直到準備好後(例如：在合併到 master 分支後仍能編譯和工作)才在各分支中開發，這是為了降低延遲整個 Xfce 核心桌面的最終發佈的風險。"
 
 #: about/releasemodel.php:188
 msgid ""
@@ -3000,15 +3000,15 @@ msgid ""
 "Maintainers are suggested to prepare other components for these features in "
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
-msgstr ""
+msgstr "應該交流會破壞 API 或是其他核心組件的新功能。建議維護者在包含這些新功能的開發版本釋出前，先在一個單獨的分支中為這些功能準備其他的組件。這樣其他組件就可以保持代發佈狀態了。"
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "這就是基礎開發流程看起來的樣子："
 
 #: about/releasemodel.php:196
 msgid "Development Workflow"
-msgstr ""
+msgstr "開發流程"
 
 #: about/releasemodel.php:199
 msgid "Release Phase (10+ Weeks)"
@@ -3018,7 +3018,7 @@ msgstr "發行階段 (10+ 週)"
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
-msgstr ""
+msgstr "在發行階段時，將會有三個預覽版本及一個最終版本："
 
 #: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
@@ -3044,7 +3044,7 @@ msgid ""
 "desktop. The version numbers of these components may (even have to) differ "
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
-msgstr ""
+msgstr "Y 必須是偶數。每個這樣的版本必須包含 Xfce 核心桌面所有組件的最新開發版本(或是穩定版本，如果在最新的穩定版本釋出後沒有新的開發版本的話)。這些組件的版本號應該(甚至必須)與上述的命名方案不同。例如，對 Xfce 4.8.0pre2來說，xfwm4 可能會是4.7.17版，而 Thunar 則可能會是 1.1.9版。"
 
 #: about/releasemodel.php:217
 msgid ""
@@ -3058,15 +3058,15 @@ msgstr "這代表了維護者並不一定非要與某個預覽版本一同釋出
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr ""
+msgstr "此階段的結束代表了一個 Xfce 核心桌面的新穩定版本發佈，新的發行週期旋即開始。"
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "釋出前的凍結"
 
 #: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "釋出前有不同類型的凍結。"
 
 #: about/releasemodel.php:230
 msgid "Feature Freeze"
@@ -3077,7 +3077,7 @@ msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from"
 " there on only translations and bugfixes are allowed to go into the master "
 "branch."
-msgstr ""
+msgstr "自 Xfce X.Ypre1開始，所有核心組件進入功能凍結，這代表了此時只允許翻譯和錯誤修復進入 master 分支。"
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
@@ -3088,7 +3088,7 @@ msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes"
 " for the user interface which may not be changed after this point."
-msgstr ""
+msgstr "自 Xfce X.Ypre1開始，所有核心組件進入字串/使用者介面凍結，這代表了此時起不會有影響翻譯的字串更改。此後，同樣不會有使用者介驗的變更。"
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
@@ -3099,7 +3099,7 @@ msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
-msgstr ""
+msgstr "每個預覽版本之後會有兩天的短暫代碼凍結。在這段時間內，除非發行管理員簽名，否則不能提交。"
 
 #: about/releasemodel.php:249
 msgid ""
@@ -3107,7 +3107,7 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "自 Xfce X.Ypre3開始，所有核心組件進入代碼凍結，這代表了此時此不允許有任何的代碼修改，除非發行管理員簽名。通常這只會用在修復阻斷或非常嚴重的錯誤上。此時翻譯仍可進入。"
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
@@ -3118,22 +3118,22 @@ msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr ""
+msgstr "自 Xfce X.Ypre3開始，所有核心組件進入代碼凍結。此章節中的下面的圖表更加詳細的解釋了這個階段。"
 
 #: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr ""
+msgstr "代碼凍結及其例外交由提交套鉤去做。有一個更新套鉤，除非發行管理員簽名，否則它不允許任何對 master 分支的更動。"
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "為發佈做標記和分支"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "錯誤修復/更改"
 
 #: about/releasemodel.php:269
 msgid ""
@@ -3142,28 +3142,28 @@ msgid ""
 "DISCUSSION//) to which he or she then commits the fixes. Refer to the "
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
-msgstr ""
+msgstr "如果一個核心組件在代碼凍結期間需要修復或更改，維護者必須創建一個新的分支，稱為 ELS (//公開徵求命名//)讓他/她可以提交修復。如果有非常嚴重的錯誤或是阻斷錯誤，參照此章節的代碼凍結例外。"
 
 #: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
 " after the final release. Only bugfixes are allowed in this branch."
-msgstr ""
+msgstr "ELS 分支只允許短時間存在。在最終版釋出後它會併入組件的 master 分支和穩定版分支(例如 xfwm4-4.8 或 thunar-1.2)。此分支內只能有錯誤修復。"
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "代碼凍結例外"
 
 #: about/releasemodel.php:278
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "阻斷錯誤"
 
 #: about/releasemodel.php:281
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
-msgstr ""
+msgstr "那些會延遲最終發佈的錯誤被認為是阻斷錯誤。如下任一情況即為此情形："
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
@@ -3183,34 +3183,34 @@ msgstr "會導致整個桌面圖像化使用者介面鎖住"
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "如果符合以下標準，則一個錯誤不應該延遲發佈："
 
 #: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
-msgstr ""
+msgstr "在非常奇怪的硬體或架構下發現的錯誤和/或是開發者無法重現此錯誤"
 
 #: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
-msgstr ""
+msgstr "當且僅當在發行管理員簽名後，才允許在代碼凍結期間應用的錯誤修復。"
 
 #: about/releasemodel.php:303
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "非常嚴重的錯誤更動"
 
 #: about/releasemodel.php:306
 msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
-msgstr ""
+msgstr "一些變動會極大的影響版本的品質。當且僅當發行管理員簽名後才允許它們進入。"
 
 #: about/releasemodel.php:309
 msgid "Releasing"
-msgstr ""
+msgstr "發行"
 
 #: about/releasemodel.php:312
 msgid ""
@@ -3219,11 +3219,11 @@ msgid ""
 "maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr ""
+msgstr "對於最終發佈(Xfce X.Y)，所有核心組件都會被標記(兩次，一次以其自己的版本，另一次則是 xfce-X.Y.0)並分支維護週期(例如 thunar-1.2或是 xfwm4-4.8)。然後，ELS 分支會合併到 master 分支中(下一版本開始的地方)並進入像是 thunar-1.2 或是 xfwm-4.8。"
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
-msgstr ""
+msgstr "維護階段"
 
 #: about/releasemodel.php:318
 msgid ""
@@ -3231,11 +3231,11 @@ msgid ""
 "be committed to a stable component-specific branch (like thunar-1.2 or "
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
-msgstr ""
+msgstr "最終版本發佈後，錯誤修復及翻譯更新會提交到特定組件的穩定版本分支中(像是 thunar-1.2 或是 xfwm4-4.8)。獨立組件的維護版本不要求同步。"
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "維護版本"
 
 #: about/releasemodel.php:324
 msgid ""
@@ -3244,7 +3244,7 @@ msgid ""
 "the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
-msgstr ""
+msgstr "不會更動與 Xfce 核心桌面相對應的 API/ABI。它們必須遵照 X.Y.Z 的版本號格式，其中 Y 是偶數(例如 xfwm4-4.8.4或是 thunar-1.2.4)。在這個版本中不會有新的功能或字串被引入。"
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -3257,13 +3257,13 @@ msgid ""
 "functionality one can expect of a modern desktop environment. They are "
 "packaged separately and you can pick among the available packages to create "
 "the optimal personal working environment."
-msgstr ""
+msgstr "Xfce 遵循著 UNIX 模組化和可複用性的哲學傳統。它包含了大量組件，有著您所期待現代桌面環境所應有的功能。它們分別打包，您可以從中挑選要用的軟體來組成您的個人工作環境。"
 
 #: about/index.php:15
 msgid ""
 "Another priority of Xfce is adherence to standards, specifically those "
 "defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr ""
+msgstr "Xfce 的另一個優點是遵循標準，特別是那些被定義在 <a href=\"http://freedesktop.org\">freedesktop.org</a> 中的。"
 
 #: about/index.php:19
 msgid ""
