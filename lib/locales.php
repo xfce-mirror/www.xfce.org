@@ -18,7 +18,8 @@ $languages = array (
 	'sk' => 'Slovak',
 	'sr' => 'Serbian',
 	'uk' => 'Ukrainian',
-	'zh_CN' => 'Chinese (China)');
+	'zh_CN' => 'Chinese (Simplified)',
+	'zh_TW' => 'Chinese (Traditional)');
 
 /* used in header and language detection functions */
 $language_codes = array_keys ($languages);
