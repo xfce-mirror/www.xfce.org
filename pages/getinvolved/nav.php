@@ -4,7 +4,7 @@
 		<a href="/getinvolved"><?php E_('Get Involved') ?></a>
 	</li>
 	<li>
-		<a href="/getinvolved/translation"><?php E_('Translation') ?>
+		<a href="http://docs.xfce.org/contribute/translate/start"><?php E_('Translation') ?>
 			<span>&ndash; <?php E_('information about translating Xfce') ?></span>
 		</a>
 	</li>
