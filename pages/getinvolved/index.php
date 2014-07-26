@@ -35,13 +35,12 @@
 <p>
   <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="https://bugzilla.xfce.org" class="external">bug tracker</a>.') ?>
 </p>
+<p>
+  <?php E_('Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and then submitting a patch file.') ?>
+</p>
 
 <h2><?php E_('Bountysource') ?></h2>
 <p>
   <?php E_('If you want to fund the project, you can reward a bounty to the Xfce project [and leave it to the developers how to spend it] or put a bounty on a bug or feature you would like to get fixed.') ?>
   <?php learnmore ("https://www.bountysource.com/teams/xfce"); ?>
-</p>
-
-<p>
-  <?php E_('Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and then submitting a patch file.') ?>
 </p>
