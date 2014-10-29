@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2013-07-03 22:08+0200\n"
-"PO-Revision-Date: 2014-10-29 17:30+0000\n"
+"PO-Revision-Date: 2014-10-29 19:30+0000\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/xfce-www/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -2678,7 +2678,7 @@ msgstr "V minulosti se objevovaly stále stejné otázky ohledně nových vydán
 
 #: about/releasemodel.php:14
 msgid "What are the core components of Xfce?"
-msgstr "Jaké komponenty jsou v Xfce klíčové?"
+msgstr "Jaké jsou klíčové komponenty Xfce?"
 
 #: about/releasemodel.php:15
 msgid ""
@@ -2714,7 +2714,7 @@ msgstr "Tento dokument má za úkol odpovědět na tyto otázky a definuje zása
 
 #: about/releasemodel.php:27
 msgid "The Xfce Core Desktop"
-msgstr "Klíčové součásti prostředí Xfce"
+msgstr "Jádro prostředí Xfce"
 
 #: about/releasemodel.php:51
 msgid ""
@@ -2860,7 +2860,7 @@ msgstr "Sledování verzí knihovny libtool údržbových a vývojových vydán�
 
 #: about/releasemodel.php:122
 msgid "Remind maintainers about missing NEWS updates"
-msgstr "Upozorňování údržbářů o případných chybějících aktualizacích v sekci ZPRÁVY"
+msgstr "Upozorňování údržbářů o případných chybějících aktualizacích v souborech o novinkách NEWS"
 
 #: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
@@ -2882,15 +2882,15 @@ msgstr "Tvorba značek specifických pro dané komponenty pro údržbová a výv
 
 #: about/releasemodel.php:131
 msgid "Generate tarballs for their maintainance and development releases"
-msgstr ""
+msgstr "Tvorba balíčků tar pro jejich údržbová a vývojová vydání"
 
 #: about/releasemodel.php:132
 msgid "Write ChangeLogs and update NEWS files"
-msgstr ""
+msgstr "Sepsání protokolů o změnách a aktualizace souborů o novinkách NEWS"
 
 #: about/releasemodel.php:133
 msgid "Write component-specific release announcements"
-msgstr ""
+msgstr "Sepsání oznámení o vydání specifických pro dané komponenty"
 
 #: about/releasemodel.php:134
 msgid "Create Bugzilla tags for their releases"
@@ -2898,11 +2898,11 @@ msgstr "Tvorba značek v Bugzille pro jejich vydání"
 
 #: about/releasemodel.php:135
 msgid "Make sure API documentation is up to date"
-msgstr ""
+msgstr "Ujištění se o aktuálnosti dokumentace programového rozhraní API"
 
 #: about/releasemodel.php:138
 msgid "Dependency Freeze"
-msgstr ""
+msgstr "Zmrazení závislostí"
 
 #: about/releasemodel.php:141
 msgid ""
@@ -2912,11 +2912,11 @@ msgstr "Během prvních 2 týdnů plánovací fáze musí každý údržbář"
 
 #: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
-msgstr ""
+msgstr "Vypsat seznam vlastností a funkcí, které mají být v dalším vývojovém cyklu implementovány"
 
 #: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
-msgstr ""
+msgstr "Zjistit, které závislosti jsou tím ovlivněny"
 
 #: about/releasemodel.php:150
 msgid ""
@@ -2924,7 +2924,7 @@ msgid ""
 " release of the Xfce core desktop will depend. In particular this includes "
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
-msgstr ""
+msgstr "Nakonec se rozhodne o závislostech následujícího stabilního vydání jádra prostředí Xfce. To konkrétně zahrnuje nejnižší vyžadované verze všech nezbytných závislostí jádra prostředí Xfce."
 
 #: about/releasemodel.php:154
 msgid ""
@@ -2938,7 +2938,7 @@ msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
-msgstr ""
+msgstr "Ke konci tohoto 4týdenního období vstoupí všechny komponenty do stavu zmrazení závislostí, což znamená, že nemohou změnit závislosti (a své verze) na kterých závisejí. Volitelné závislosti lze přitom stále přidat."
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
@@ -2949,7 +2949,7 @@ msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr ""
+msgstr "Na úplném konci plánovací fáze je odeslán e-mail do e-mailových konferencí xfce4-dev@xfce.org a xfce@xfce.org, obsahující plánované funkce a vlastnosti a závislosti jádra prostředí Xfce."
 
 #: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
@@ -2998,11 +2998,11 @@ msgid ""
 "Maintainers are suggested to prepare other components for these features in "
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
-msgstr ""
+msgstr "Nové funkce a vlastnosti pozměňující programové rozhraní API nebo jiné klíčové komponenty by měly být diskutovány. Údržbářům je doporučeno připravit ostatní komponenty na tyto funkce a vlastnosti v oddělené větvi před zahrnutím funkcí a vlastností do vývojového vydání. Tento způsob zaručí, že ostatní komponenty zůstanou v takovém stavu, ve kterém je lze vydat."
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
-msgstr ""
+msgstr "Takto vypadá základní průběh práce na vývoji:"
 
 #: about/releasemodel.php:196
 msgid "Development Workflow"
@@ -3010,25 +3010,25 @@ msgstr "Průběh práce na vývoji"
 
 #: about/releasemodel.php:199
 msgid "Release Phase (10+ Weeks)"
-msgstr ""
+msgstr "Fáze vydání (10 a více týdnů)"
 
 #: about/releasemodel.php:202
 msgid ""
 "During the release phase, there will be three pre-releases and one final "
 "release:"
-msgstr ""
+msgstr "Během fáze vydání se objeví tři předběžná vydání a jedno finální vydání:"
 
 #: about/releasemodel.php:206
 msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr ""
+msgstr "Xfce X.Ypre1 (po 0 týdnech, zmrazení funkcí a vlastností),"
 
 #: about/releasemodel.php:207
 msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr ""
+msgstr "Xfce X.Ypre2 (po 4 týdnech, zmrazení textů) a"
 
 #: about/releasemodel.php:208
 msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr ""
+msgstr "Xfce X.Ypre3 (po 8 týdnech, zmrazení kódu)"
 
 #: about/releasemodel.php:209
 msgid "Xfce X.Y     (after 10+ weeks)"
@@ -3042,7 +3042,7 @@ msgid ""
 "desktop. The version numbers of these components may (even have to) differ "
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
-msgstr ""
+msgstr "kde Y musí být liché číslo. Každé z těchto vydání musí obsahovat nejnovější vývojové vydání (nebo stabilní, pokud od posledního stabilního vydání nebylo uvolněno žádné vývojové vydání) celého jádra prostředí Xfce. Čísla verzí těchto komponent se mohou (ale nemusejí) lišit od systému pojmenování výše. Např. pro Xfce 4.8.0pre2, xfwm4 může mít verzi 4.7.17 a Thunar verzi 1.1.9."
 
 #: about/releasemodel.php:217
 msgid ""
@@ -3050,54 +3050,54 @@ msgid ""
 "of their components along with one of the pre-releases. The release team "
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
-msgstr ""
+msgstr "To znamená, že údržbáři nemusejí nutně vydávat nové verze svých komponent s jedním z předběžných vydání. Tým pro vydávání vždy vybírá nejnovější dostupné vývojové nebo stabilní vydání každé komponenty pro předběžná vydání a finální vydání."
 
 #: about/releasemodel.php:221
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr ""
+msgstr "Konec této fáze značí nové stabilní vydání jádra prostředí Xfce a začátek nového cyklu pro vydávání."
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
-msgstr ""
+msgstr "Zmrazení před vydáními"
 
 #: about/releasemodel.php:227
 msgid "There are different freeze types before releases."
-msgstr ""
+msgstr "Existuje několik různých druhů zmrazení před vydáními"
 
 #: about/releasemodel.php:230
 msgid "Feature Freeze"
-msgstr ""
+msgstr "Zmrazení funkcí a vlastností"
 
 #: about/releasemodel.php:233
 msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from"
 " there on only translations and bugfixes are allowed to go into the master "
 "branch."
-msgstr ""
+msgstr "S verzí Xfce X.Ypre1 vstupují všechny klíčové komponenty do stavu zmrazení funkcí a vlastností, což znamená, že nyní změny v hlavní větvi povoleny pouze pro úpravu překladů a opravy chyb."
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
-msgstr ""
+msgstr "Zmrazení textů a uživatelského rozhraní"
 
 #: about/releasemodel.php:239
 msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes"
 " for the user interface which may not be changed after this point."
-msgstr ""
+msgstr "S verzí Xfce X.Ypre2 vstupují všechny klíčové komponenty do stavu zmrazení textů a uživatelského rozhraní, což znamená, že nyní nesmí být v hlavní větvi změněny žádné texty, které by ovlivnily překlady. Totéž platí pro uživatelské rozhraní, které by po tomto okamžiku nesmí být měněno."
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
-msgstr ""
+msgstr "Zmrazení kódu"
 
 #: about/releasemodel.php:245
 msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
-msgstr ""
+msgstr "Před každým předběžným vydáním dojde ke krátkému dvoudennímu zmrazení. Během této doby nemohou být zasílány žádné příspěvky, pokud nejsou schváleny správcem vydání."
 
 #: about/releasemodel.php:249
 msgid ""
@@ -3105,18 +3105,18 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "S verzí Xfce X.Ypre3 vstupují všechny klíčové komponenty do stavu zmrazení kódu, což znamená zákaz změn kódu, pokud to nedovolí správce vydání. Obvykle by to měly být pouze chyby, které blokují vydání nebo jsou pro vydání kritické. Překlady se stále mohou měnit."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "Fáze zmrazení kódu (2 a více týdnů)"
 
 #: about/releasemodel.php:255
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr ""
+msgstr "S verzí Xfce X.Ypre3 vstupují všechny klíčové komponenty do stavu zmrazení kódu. Tato fáze je znázorněna v následujícím obrázku a je dále vysvětlena v této kapitole."
 
 #: about/releasemodel.php:259
 msgid ""
@@ -3131,7 +3131,7 @@ msgstr "Označování a vytváření větví pro vydání"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "Opravy chyb a změny"
 
 #: about/releasemodel.php:269
 msgid ""
@@ -3165,7 +3165,7 @@ msgstr "Určité chyby mohou způsobit zpoždění finálního vydání, jsou-li
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
-msgstr ""
+msgstr "způsobuje pád klíčové aplikace"
 
 #: about/releasemodel.php:286
 msgid "it causes data loss"
@@ -3181,34 +3181,34 @@ msgstr "zablokuje celé uživatelské rozhraní pracovního prostředí"
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "Chyba nemůže zpozdit vydání, pokud splňuje následující kritéria:"
 
 #: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
-msgstr ""
+msgstr "hardware nebo architektura, na které se chyba vyskytuje, je exotická nebo vývojáři nejsou schopni chybu reprodukovat"
 
 #: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
-msgstr ""
+msgstr "Opravy těchto chyb jsou povoleny během fáze zmrazení kódu pouze pokud jsou schváleny správce vydání."
 
 #: about/releasemodel.php:303
 msgid "Release-Critical Changes"
-msgstr ""
+msgstr "Změny kritické pro vydání"
 
 #: about/releasemodel.php:306
 msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
-msgstr ""
+msgstr "Některé chyby mohou být velmi významné pro kvalitu vydání.Jejich začlenění je možné pouze se schválením správce vydání."
 
 #: about/releasemodel.php:309
 msgid "Releasing"
-msgstr ""
+msgstr "Vydávání"
 
 #: about/releasemodel.php:312
 msgid ""
@@ -3221,7 +3221,7 @@ msgstr "Pro finální vydání (Xfce X.Y) jsou všechny klíčové komponenty ot
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
-msgstr ""
+msgstr "Proces údržby"
 
 #: about/releasemodel.php:318
 msgid ""
@@ -3229,11 +3229,11 @@ msgid ""
 "be committed to a stable component-specific branch (like thunar-1.2 or "
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
-msgstr ""
+msgstr "Po vydání finální verze jsou do stabilní větve specifické pro dané komponenty (např. thunar-1.2 nebo xfwm4-4.8) odeslány opravy chyb a aktualizace překladů. Údržbová vydání jednotlivých komponent není nutné nutné synchronizovat."
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
-msgstr ""
+msgstr "Údržbová vydání"
 
 #: about/releasemodel.php:324
 msgid ""
@@ -3242,7 +3242,7 @@ msgid ""
 "the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
-msgstr ""
+msgstr "V údržbových vydáních nemůže v porovnání s finálním vydáním jádra prostředí Xfce dojít ke změnách rozhraní API a ABI. Musejí dodržovat formát označování verzí X.Y.Z, kde Y je liché číslo (např. xfwm4-4.8.4 nebo thunar-1.2.4). Do těchto vydání nemohou být přidávány nové funkce a vlastnosti."
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -3255,20 +3255,20 @@ msgid ""
 "functionality one can expect of a modern desktop environment. They are "
 "packaged separately and you can pick among the available packages to create "
 "the optimal personal working environment."
-msgstr ""
+msgstr "Xfce ztělesňuje tradiční filozofii modularity a znovupoužitelnosti systému UNIX. Skládá se z mnoha komponent, které poskytují plnou funkcionalitu očekávanou od moderního desktopového prostředí. Jsou zabaleny zvlášť a můžete si vybrat mezi dostupnými balíčky tak, abyste si vytvořili optimální pracovní prostředí."
 
 #: about/index.php:15
 msgid ""
 "Another priority of Xfce is adherence to standards, specifically those "
 "defined at <a href=\"http://freedesktop.org\">freedesktop.org</a>."
-msgstr ""
+msgstr "Další prioritou Xfce je dodržování standardů, zvláště těch definovaných na webových stránkách <a href=\"http://freedesktop.org\">freedesktop.org</a>."
 
 #: about/index.php:19
 msgid ""
 "Xfce can be installed on several UNIX platforms. It is known to compile on "
 "Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, "
 "Sparc, Alpha..."
-msgstr ""
+msgstr "Xfce je možné nainstalovat na mnoho unixových platforem. Lze jej zkompilovat v systémech Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin a MacOS X, na architekturách x86, PPC, Sparc, Alpha..."
 
 #: about/index.php:22
 msgid "Features"
@@ -3278,43 +3278,43 @@ msgstr "Funkce a vlastnosti"
 msgid ""
 "Xfce contains a number of core components for the minimum tasks you'd expect"
 " from a desktop environment:"
-msgstr ""
+msgstr "Jádro Xfce obsahuje množství komponent pro minimální úlohy, které byste od desktopového prostředí očekávali."
 
 #: about/index.php:30
 msgid ""
 "Manages the placement of windows on the screen, provides window decorations "
 "and manages workspaces or virtual desktops."
-msgstr ""
+msgstr "Spravuje umisťování oken na obrazovce, poskytuje dekorace oken a spravuje pracovní nebo virtuální plochy."
 
 #: about/index.php:33
 msgid ""
 "Sets the background image and provides a root window menu, desktop icons or "
 "minimized icons and a windows list."
-msgstr ""
+msgstr "Nastavuje obrázek na pozadí a poskytuje kořenovou nabídku oken, ikony plochy nebo minimalizované ikony a seznam oken."
 
 #: about/index.php:36
 msgid ""
 "Switch between opened windows, launch applications, switch workspaces and "
 "menu plugins to browse applications or directories."
-msgstr ""
+msgstr "Přepíná mezi otevřenými okny, spouští aplikace, přepíná pracovní plochy a zásuvné moduly nabídky pro procházení aplikací nebo adresářů."
 
 #: about/index.php:39
 msgid ""
 "Controls the login and power management of the desktop and allows you to "
 "store multiple login sessions."
-msgstr ""
+msgstr "Ovládá přihlašování a správu napájení pracovního prostředí a umožňuje ukládat několik relací přihlášení."
 
 #: about/index.php:42
 msgid ""
 "Shows the applications installed on your system in categories, so you can "
 "quickly find and launch them."
-msgstr ""
+msgstr "Zobrazuje aplikace nainstalované v systému v kategoriích, abyste je mohli rychle najít a spouštět."
 
 #: about/index.php:45
 msgid ""
 "Provides the basic file management features and unique utilities like the "
 "bulk renamer."
-msgstr ""
+msgstr "Poskytuje základní správu souborů a jedinečné nástroje, například hromadné přejmenování."
 
 #: about/index.php:47
 msgid "Setting Manager"
@@ -3324,7 +3324,7 @@ msgstr "Správce nastavení"
 msgid ""
 "Tools to control the various settings of the desktop like keyboard "
 "shortcuts, appearance, display settings etcetera."
-msgstr ""
+msgstr "Nástroje pro ovládání různých nastavení pracovního prostředí, například klávesových zkratek, vzhledu, displeje, atd."
 
 #: about/index.php:51
 msgid ""
@@ -3334,7 +3334,7 @@ msgid ""
 "finder, image viewer, iCal based calendar and a CD and DVD burning "
 "application. You can read more about the modules of Xfce in the <a "
 "href=\"/projects\">projects</a> page."
-msgstr ""
+msgstr "Kromě základních modulů poskytuje Xfce také mnoho přídavných aplikací a zásuvných modulů, které mohou pracovní prostředí požadovaným způsobem rozšířit, například emulátor terminálu, textový editor, směšovač zvuku, vyhledávač aplikací, prohlížeč obrázků, kalendář založený na iCal a aplikaci pro vypalování na médie CD a DVD. Více o modulech Xfce se dozvíte na stránce <a href=\"/projects\">projekty</a>."
 
 #: about/nav.php:5
 msgid "general information about the Xfce desktop"
@@ -3370,4 +3370,4 @@ msgstr "seznam všech přispěvatelů"
 
 #: about/nav.php:36
 msgid "the Xfce release policy for core modules"
-msgstr ""
+msgstr "zásady Xfce pro moduly jádra"
