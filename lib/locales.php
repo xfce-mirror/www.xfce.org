@@ -14,6 +14,7 @@ $languages = array (
 	'nl' => 'Dutch',
 	'oc' => 'Occitan',
 	'pl' => 'Polish',
+	'pt' => 'Portuguese',
 	'pt_BR' => 'Portuguese (Brazilian)',
 	'sk' => 'Slovak',
 	'sr' => 'Serbian',
