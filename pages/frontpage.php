@@ -74,7 +74,7 @@ var slideshow=new TINY.slider.slide('slideshow',{
 				</a>
 			</li>
 			<li>
-				<a href="/download/changelogs/4.10"><?php E_('ChangeLog') ?>
+				<a href="/download/changelogs/4.12"><?php E_('ChangeLog') ?>
 					<span>&ndash; <?php printf (R_('release notes for Xfce %s'), $stable_version) ?></span>
 				</a>
 			</li>

@@ -6,11 +6,12 @@
 		</a>
 	</li>
 	<li>
-		<a href="/about/tour"><?php E_('4.10 Tour') ?> 
+		<a href="/about/tour"><?php E_('4.12 Tour') ?>
 			<span>&ndash; <?php E_('visual tour about new features in the last major releases') ?></span>
 		</a>
 		
 		<ul>
+			<li><a href="/about/tour410"><?php E_('4.10 Tour') ?></a></li>
 			<li><a href="/about/tour48"><?php E_('4.8 Tour') ?></a></li>
 			<li><a href="/about/tour46"><?php E_('4.6 Tour') ?></a></li>
 			<li><a href="/about/tour44"><?php E_('4.4 Tour') ?></a></li>
