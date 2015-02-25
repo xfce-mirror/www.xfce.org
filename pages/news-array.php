@@ -7,6 +7,20 @@
  * */
 
 $news = array (
+	array ('title' => R_('Xfce 4.12 released'),
+		'version' => null,
+		'date' => '28 feb 2015',
+		'author' => 'Release Manager',
+		'paragraphs' => array (
+			R_('An online tour of the changes in Xfce 4.12 can be viewed here:'),
+			'<a href="http://xfce.org/about/tour">http://xfce.org/about/tour</a>',
+			R_('A detailed overview of the changes between Xfce 4.10 and Xfce 4.12 releases can be found on the following page:'),
+			'<a href="http://xfce.org/download/changelogs">http://xfce.org/download/changelogs</a>',
+			R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+			'<a href="http://archive.xfce.org/xfce/4.12">http://archive.xfce.org/xfce/4.12</a>',
+			R_('Thank you all the contributors, bug reporters, as well as translators and packagers for your efforts in making this release possible.'),
+			R_('Best regards,<br />The Xfce development team'))
+		),
 	array ('title' => R_('Xfce 4.10 released'),
 		'version' => null,
 		'date' => '28 apr 2012',
