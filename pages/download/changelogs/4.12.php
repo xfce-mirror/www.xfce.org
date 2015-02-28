@@ -122,6 +122,23 @@
 
 <h2>File Manager <em>(thunar)</em></h2>
 <ul>
+   <li>Removed GNU extension -i from sed (Peter de Ridder)</li>
+   <li>Bump default size of file properties dialog a bit (Harald Judt)</li>
+   <li>Respect the "View new folders using" preference (bug #11606) (Harald Judt)</li>
+   <li>Improve check for shell scripts and add hidden option for bug #7596 (Harald Judt)</li>
+   <li>Fix some GTK_STOCK icon usages resulting in missing icons (bug #11608) (Jani Välimaa)</li>
+   <li>plugins/thunar-wallpaper: Fix icon (Jani Välimaa)</li>
+   <li>Fix icon name for folders and a memory leak (bug #11608) (Harald Judt)</li>
+   <li>Also query for network location icons (Nick Schermer)</li>
+   <li>Don't use deprecated function (Nick Schermer)</li>
+   <li>Secure threading in the idle thumbnail loading (Nick Schermer)</li>
+   <li>Sidepane treeview: Do not switch folder when clicking a row expander (Harald Judt)</li>
+   <li>Fix cppcheck possible errors/warnings (Harald Judt)</li>
+   <li>Hide template file extensions in context menu (bug #11571) (Thaddaeus Tintenfisch)</li>
+   <li>thunar-wallpaper: Fix translation in applications other than thunar (Harald Judt)</li>
+   <li>thunar-wallpaper: Check if file is really an image (bug #11565) (Thaddaeus Tintenfisch)</li>
+   <li>Update another copyright string (Harald Judt)</li>
+   <li>Fix endless rename loop in case of error on the properties dialog (bug #11557) (Harald Judt)</li>
    <li>Do not execute but only open shell scripts by default (bug #7596) (Harald Judt)</li>
    <li>Fix typo in error message (Nick Schermer)</li>
    <li>Improve keyboard navigation for thunar-tree-view (bug #4519) (Harald Judt)</li>
@@ -348,6 +365,8 @@
 
 <h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
+   <li>Fix build problems.</li>
+   <li>Add support for AppData.</li>
    <li>Make compilation to GTK3 optional.</li>
    <li>Use GDbus for communication.</li>
    <li>Add execute menu item to launch without closing the window.</li>
@@ -541,6 +560,13 @@
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
+   <li>Actions: Use localization for confirmation dialog titles (bug #11949) (Ramon Dantas).</li>
+   <li>Use actual output geometry to place panels (bug #11058) (John Lindgren).</li>
+   <li>Tasklist: Fix grouped icons sometimes are wrongly rendered as a mini-icon (bug #10846) (Mauro Giubileo).</li>
+   <li>Actions: Use common icon names (bug #11513).</li>
+   <li>Pager &amp; tasklist: Disabled wrapping when scrolling (bug #6401).</li>
+   <li>Clock: Prevent recursion of symlinks.</li>
+   <li>Make panel hide intelligently with shaded windows (bug #11371).</li>
    <li>Fix xfdesktop --reload in spanning mode (bug #10853)</li>
    <li>settings: Fix background color loading</li>
    <li>Add an --enable-debug option added to xfdesktop-settings</li>
