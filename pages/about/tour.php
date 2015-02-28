@@ -8,15 +8,15 @@
 
   <h3><?php E_("Window Switcher Dialog") ?></h3>
 
-<p><?php E_("The window manager's Alt+Tab dialog is now fully themeable and also gained two new modes: a list mode and a mode showing window previews. Furthermore users use their mouse to click/select the window they want to give focus to.") ?></p>
+<p><?php E_("The window manager's Alt+Tab dialog is now fully themeable and also gained two new modes: a 'List' mode and a 'Window Preview' mode. Furthermore users use their mouse to click/select the window they want to give focus to.") ?></p>
 
   <?php print_figure ("about/tour/4.12/tabwin-simple-crop.png", R_("The traditional dialog is fully themable now")) ?>
 
-<p><?php E_("The list mode of the Alt-Tab dialog.") ?></p>
+<p><?php E_("The List mode of the Alt-Tab dialog.") ?></p>
 
-  <?php print_figure ("about/tour/4.12/tabwin-list-crop.png", R_("List mode of Alt-Tag")) ?>
+  <?php print_figure ("about/tour/4.12/tabwin-list-crop.png", R_("List mode of Alt-Tab, showing all window titles")) ?>
 
-<p><?php E_("The new mode shows previews of the window content alongside each respective app's icon. Activating the compositor is a prerequisite for this mode.") ?></p>
+<p><?php E_("The Window Preview mode shows thumbnails of windows' content alongside their icon. Activating the compositor is a prerequisite for this mode.") ?></p>
 
   <?php print_figure ("about/tour/4.12/tabwin-preview-crop.png", R_("Window thumbnails")) ?>
 
@@ -142,3 +142,7 @@
 <p><?php E_("Mousepad was totally rewritten, gained a settings dialog and now supports Gtk3.") ?></p>
 
   <?php print_figure ("about/tour/4.12/mousepad-prefs.png", R_("New mousepad settings")) ?>
+
+<h2><?php E_("Final detail") ?></h2>
+
+<p><?php E_("Note that all those screenshots but one were taken on a desktop and a laptop running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.") ?></p>
