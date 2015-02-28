@@ -412,6 +412,12 @@
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
+   <li>Remove AC_CHECK_HEADER_STDBOOL, it was only added in autoconf 2.69 and we dont use stdbool.h anyway</li>
+   <li>Add symlinks to the old icons (Bug #11513)</li>
+   <li>Rename action icon names (Bug #11513)</li>
+   <li>Gracefully handle the sessions dir being readonly (Bug #11307)</li>
+   <li>Add ConsoleKit2 support</li>
+   <li>Create scripts/xinitrc from scripts/xinitrc.in created by configure</li>
    <li>Add DesktopNames to .desktop file</li>
    <li>Export XDG_CURRENT_DESKTOP (Bug #11239)</li>
    <li>Expand usage of xfsm_verbose for debugging</li>
