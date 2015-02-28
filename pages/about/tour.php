@@ -2,7 +2,7 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to new major features of Xfce 4.12. It only covers the visual part of what has been done; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.12. It only covers improvements made on the surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
 <h2><?php E_("Window Manager") ?> <em>(xfwm4)</em></h2>
 
@@ -22,11 +22,11 @@
 
   <h3><?php E_("Tiling, Zooming, Client-side Decorations") ?></h3>
 
-<p><?php E_("The support by the window manager for client side decorations was improved, so they are positioned and tile correctly.") ?></p>
+<p><?php E_("Support for Client-Side Decorations (CSDs) has been improved. They now properly snap to screen and panel borders, and tile correctly, even with shadows.") ?></p>
 
   <?php print_figure ("about/tour/4.12/xfwm4-csd.png", R_("Gtk3 apps with their decorations drawn by the client")) ?>
 
-<p><?php E_("Window tiling mode was improved providing support for corner-tiling, and a new zooming mode was added using Alt-mousewheel.") ?></p>
+<p><?php E_("Window tiling mode was improved by providing support for corner-tiling, and a new zooming mode was added using Alt + Mouse Wheel.") ?></p>
 
   <?php print_figure ("about/tour/4.12/xfwm4-tiling-small.png", R_("Drag and drop a window to a corner to tile it")) ?>
 
@@ -77,13 +77,13 @@
 
   <h3><?php E_("Panel Plugin") ?></h3>
 
-<p><?php E_("A new panel plugin was created which allows you to quickly control your screen brightness, either via the menu or by simply using your mouse's scrollwheel over the plugin. The plugin's menu also shows all other connected devices with a power status, e.g. bluetooth keyboards or wireless mice. Finally it also offers quick access to the presentation mode, which inhibits your screensaver for as long as the option is active.") ?></p>
+<p><?php E_("A new panel plugin was created which allows you to quickly control your screen brightness, either via the menu or by simply using your mouse's scroll wheel over the plugin. The plugin's menu also shows all other connected devices with a power status, e.g. bluetooth keyboards or wireless mice. It still offers quick access to the presentation mode, which inhibits your screensaver for as long as the option is active.") ?></p>
 
   <?php print_figure ("about/tour/4.12/xfpm-plugin-crop.png", R_("The plugin's menu allows users to control screen brightness and check on the remaining uptime their battery provides.")) ?>
 
   <h3><?php E_("Settings Dialog") ?></h3>
 
-<p><?php E_("The settings dialog was completely restructured and hopefully offers a clearer and userfriendlier way of setting your preferences.") ?></p>
+<p><?php E_("The settings dialog was completely restructured (separating button/lid events from system and display behavior) and offers a clearer way of setting your preferences.") ?></p>
 
   <?php print_figure ("about/tour/4.12/xfpm-prefs-general.png", R_("Configure what action to take when certain buttons are pressed or the laptop lid is closed")) ?>
   <?php print_figure ("about/tour/4.12/xfpm-prefs-system.png", R_("Configure what to do when the user is inactive or battery is drained")) ?>
@@ -97,7 +97,7 @@
 
   <h3><?php E_("Tab Support") ?></h3>
 
-<p><?php E_("A long-awaited feature was added with support for tabs.") ?></p>
+<p><?php E_("A long-awaited feature was added: you can now open multiple folders in the same Thunar window.") ?></p>
 
   <?php print_figure ("about/tour/4.12/thunar-tabs.png", R_("Browse multiple directories")) ?>
 
@@ -111,7 +111,7 @@
 
 <h2><?php E_("Goodies") ?></h2>
 
-<p><?php E_("There's been lots of improvements to various of our goodies, and some new and shiny applications have been added by new contributors.") ?></p>
+<p><?php E_("There have been lots of improvements to our goodies, and some new and shiny applications have been added by new contributors.") ?></p>
 
 <h3><?php E_("Alternative panel menu plugin") ?><em>(xfce4-whiskermenu)</em></h3>
 
@@ -131,9 +131,11 @@
 
 <h3><?php E_("Media Player") ?><em>(parole)</em></h3>
 
-<p><?php E_("Parole's UI was totally redone in Gtk3, parts of it rewritten with many new features added.") ?></p>
+<p><?php E_("Parole's UI was totally redone in Gtk3. It now supports multiple video backends, makes more efficient use of your resources and contains a few novel plugins.") ?></p>
 
   <?php print_figure ("about/tour/4.12/parole.png", R_("Watch videos")) ?>
+
+<p> <?php E_("The media controls are now contained in a slide-over overlay (with a configurable timeout).") ?></p>
 
   <?php print_figure ("about/tour/4.12/parole-audio.png", R_("Listen to music")) ?>
 
@@ -143,6 +145,6 @@
 
   <?php print_figure ("about/tour/4.12/mousepad-prefs.png", R_("New mousepad settings")) ?>
 
-<h2><?php E_("Final detail") ?></h2>
+<h2><?php E_("A note on Xfce's portability") ?></h2>
 
-<p><?php E_("Note that all those screenshots but one were taken on a desktop and a laptop running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.") ?></p>
+<p><?php E_("All but one of those screenshots were taken on machines running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.") ?></p>
