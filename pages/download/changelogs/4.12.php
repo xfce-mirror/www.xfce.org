@@ -61,6 +61,14 @@
 
 <h2>Extension Library <em>(exo)</em></h2>
 <ul>
+   <li>Build updates and improvements (autotools, intltool)</li>
+   <li>Increased required automake and libtool versions</li>
+   <li>Updated mimeapps.list location for glib >= 2.41 (bug #11504)</li>
+   <li>Add an icon-column in the icon view for loading thumbnailed images</li>
+   <li>Add helpers for qtFM, QTerminal, Qupzilla, Surf, Vimprobable2 (bug #10216)</li>
+   <li>Add support for BCC in exo-compose-email (bug #11070)</li>
+   <li>Better handle filenames with spaces in exo-helpers (bug #10731)</li>
+   <li>Drop use of the -remote option in Firefox helpers (bug #11601)</li>
    <li>Fix ATK deprecation warnings (bug #11556).</li>
    <li>long file names into view in compact listview (bug #6014, Thanks Forest).</li>
    <li>Close open fd, fix typo, prevent null dereference and division by 0, remove unused code.</li>
@@ -72,6 +80,15 @@
    <li>Install category icons into categories folder (bug #11364).</li>
    <li>Update mimeapps.list location for glib &gt;= 2.41 (Bug #11504).</li>
    <li>Fix exo_str_looks_like_an_uri() (bug #10098).</li>
+   <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali,
+  Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan),
+  Croatian, Czech, Danish, Dutch (Flemish), English (Australia),
+  English (Great Britain), Estonian, Finnish, French, Galician, German, Greek,
+  Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean,
+  Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan,
+  Panjabi, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian,
+  Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish,
+  Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese</li>
 </ul>
 
 <h2>Menu Library <em>(garcon)</em></h2>
