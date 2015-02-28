@@ -370,6 +370,13 @@
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
+   <li>Actions: Use localization for confirmation dialog titles (bug #11949) (Ramon Dantas).</li>
+   <li>Use actual output geometry to place panels (bug #11058) (John Lindgren).</li>
+   <li>Tasklist: Fix grouped icons sometimes are wrongly rendered as a mini-icon (bug #10846) (Mauro Giubileo).</li>
+   <li>Actions: Use common icon names (bug #11513).</li>
+   <li>Pager &amp; tasklist: Disabled wrapping when scrolling (bug #6401).</li>
+   <li>Clock: Prevent recursion of symlinks.</li>
+   <li>Make panel hide intelligently with shaded windows (bug #11371).</li>
    <li>Added intelligent panel hiding (JPohlmann, ochosi)</li>
    <li>Added --enable-gtk3 configure flag. Note: it produces gtk2/gtk3 versions of libxfce4panel and wrapper binary so that both gtk2 and gtk3 plugins can be embedded. The panel and stock plugins are still using gtk2.</li>
    <li>Action buttons: only save session when requested (bug #7930)</li>
