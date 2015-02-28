@@ -20,12 +20,17 @@
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
+  <li>Require xfce4-panel-4.11 for panel plugins.</li>
+  <li>Restore AC_REVISION.</li>
   <li>Autotools and dependencies updates.</li>
   <li>Remove outdated macros and checks.</li>
 </ul>
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
+  <li>Set xfce_version_string to 4.12 (oops!).</li>
+  <li>Update libtool version to reflect dropped symbols (bug #10737)</li>
+  <li>Don't use freed rc file to avoid crash (bug #9026)</li>
   <li>Autotools updates.</li>
   <li>Remove unused or unrequired API functions: xfce_strjoin, xfce_putenv, xfce_setenv, xfce_unsetenv.</li>
   <li> Translation updates: Arabic, Bulgarian, Welsh, Dzongkha, English (Australia), Georgian, Korean, Macedonian, Malay, Dutch (Flemish), Occitan (post 1500), Slovenian, Serbian, Thai, Tagalog (Philippines), Uyghur, Chinese (Hong Kong).</li>
@@ -93,6 +98,10 @@
 
 <h2>Menu Library <em>(garcon)</em></h2>
 <ul>
+   <li>Update intltool (bug #8930)</li>
+   <li>Fix menu icons for misconfigured desktop files (Bug 10709).</li>
+   <li>Add case insensitive sorting to the menu (bug #10594).</li>
+   <li>Don't force URLs to be opened in a web browser (bug #10212).</li>
    <li>Fix menu icons for misconfigured desktop files (Bug #10709).</li>
    <li>Add case insensitive sorting to the menu (bug #10594).</li>
    <li>Don't force URLs to be opened in a web browser (bug #10212).</li>
