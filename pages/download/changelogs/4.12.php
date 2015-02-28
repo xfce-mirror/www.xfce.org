@@ -883,6 +883,61 @@
  Swedish (sv), Spanish (Castilian) (es), Telugu (te), Thai (th),
  Turkish (tr), Ukrainian (uk), Uyghur (ug), Vietnamese (vi)</li>
 </ul>
+
+<h2>Thumbnail Generator <em>(tumbler)</em></h2>
+
+<ul>
+   <li>Use $XDG_CACHE_HOME/thumbnails as per spec change (bug #10613)</li>
+   <li>Move xdt m4 macros into separate directory</li>
+   <li>Update xdt m4 macros</li>
+   <li>Bump autotools requirements</li>
+   <li>Fix IT_PROG_INTLTOOL warning</li>
+   <li>Fix all m4 warnings</li>
+   <li>Enable support for video/webm in ffmpeg thumbnailer plugin (bug #10360)</li>
+   <li>Only enable keepalive in curl &gt;= 7.25.</li>
+   <li>Support move/copy operations on directories in the cache.</li>
+   <li>Send the cache operation replies after they are completed.</li>
+   <li>Fix memory corruption on 64bit (bug #9766).</li>
+   <li>Translation updates: Japanese, Dutch (Flemish), Serbian.</li>
+   <li>Set nice value of tumblerd to 19 (bug #9627).</li>
+   <li>Fix rendering from pdfs with thumbnail (bug #9972).</li>
+   <li>Add more supported types for gst thumbnailer (bug #9747).</li>
+   <li>Some additional debug checks for bug #9766 and minor optimizations.</li>
+   <li>Fix deprecating warning with glib 2.36.</li>
+   <li>Include string.h (bug #9858).</li>
+   <li>Autotools updates.</li>
+   <li>Remove unmaintained translations.</li>
+   <li>Fix build when using -Wl,-z,defs</li>
+   <li>Add cover-thumbnailer for movies.</li>
+   <li>Add config file system to control thumbnailing plugins.</li>
+   <li>Release thumbnail in gst thumbnailer.</li>
+   <li>Remove INSTALL</li>
+   <li>Directly render the capture in the correct size.</li>
+   <li>New gstreamer thumbnailer based on totem-thumbnailer.</li>
+   <li>Disable http and cdda schemes as well.</li>
+   <li>Add support for MPEG2 transport streams (bug #7421).</li>
+   <li>Rotate jpeg thumbnails (bug #6730).</li>
+   <li>Plug small leak.</li>
+   <li>Don't use collate to check strings.</li>
+   <li>Release lifecycle manager during early exit.</li>
+   <li>Don't abort with warnings in debug mode.</li>
+   <li>Clear 2.32 mutex memory leak.</li>
+   <li>Drop unneeded vfs schemes.</li>
+   <li>Work with an array to store the strings.</li>
+   <li>Don't use GString for a simple concat.</li>
+   <li>Make registry dump a bit smaller.</li>
+   <li>Don't use deprecated glib 2.32 API.</li>
+   <li>Rotate pixbuf loader images (bug #6730).</li>
+   <li>Translation updates: Arabic, Asturian, Bulgarian, Bengali, Catalan
+  (Valencian), Czech, Danish, German, Greek, English (Australia),
+  English (United Kingdom), Spanish (Castilian), Basque, Finnish,
+  French, Galician, Hebrew, Hungarian, Indonesian, Italian, Japanese,
+  Kazakh, Korean, Lithuanian, Latvian, Malay, Norwegian Bokmal, Dutch
+  (Flemish), Norwegian Nynorsk, Occitan (post 1500), Polish,
+  Portuguese, Portuguese (Brazilian), Romanian, Russian, Slovak,
+  Swedish, Thai, Turkish, Uyghur, Ukrainian, Chinese (China), Chinese
+  (Hong Kong), Chinese (Taiwan).</li>
+</ul>
 <!--
 <h2>Volume Manager <em>(thunar-volman)</em></h2>
 <ul>
