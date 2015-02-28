@@ -1,107 +1,150 @@
-<?php $head['title'] = R_('Xfce 4.10 tour'); ?>
+<?php $head['title'] = R_('Xfce 4.12 tour'); ?>
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to new major features of Xfce 4.10. It only covers the visual part of what has been done; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
-
-<h2><?php E_("Online Documentation") ?></h2>
-
-  <p><?php E_("During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. The reason for this change is to make <a href=\"http://docs.xfce.org/wiki/documentation\">contributing</a> and updating the documentation easier.") ?></p>
-
-  <?php print_figure ("about/tour/4.10/online-help.png", R_("When you click a Help button Xfce will ask you to go to an online wiki page")) ?>
-
-  <p><?php E_("We hope that with the introduction of the wiki it will be easier for developers and contributors to maintain the documentation.") ?></p>
-
-<h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
-
-  <?php print_figure ("about/tour/4.10/appfinder-collapsed.png", R_("Collapsed view of the Application Finder")) ?>
-
-  <p><?php E_("The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.") ?></p>
-
-  <?php print_figure ("about/tour/4.10/appfinder-expanded.png", R_("Expanded view of the Application Finder")) ?>
-
-<h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
-
-  <h3><?php E_("Multiple Rows") ?></h3>
-
-    <p><?php E_("In 4.10 there is a single panel-wide option for configuring the number of  rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, while others, like window buttons are allowed to occupy full width of the panel.") ?></p>
-
-    <?php print_figure ("about/tour/4.10/panel-rows.png", R_("A horizontal panel with a number of rows set to three")) ?>
-
-  <h3><?php E_("Deskbar Mode") ?></h3>
-
-    <p><?php E_("The panel features a new configuration called a <em>deskbar</em> mode. In the deskbar  mode the panel is aligned vertically, just like in the vertical mode, but the plugins are laid out horizontally. With multiple rows, it allows creating wide vertical panels suitable for wide-screen setups.") ?></p>
-
-    <?php print_figure ("about/tour/4.10/panel-deskbar.png", R_("A panel in Deskbar mode with a number of rows set to five")) ?>
-
-  <h3><?php E_("Actions Plugin") ?></h3>
-
-    <p><?php E_("Session plugin from the xfce4-session package has been merged with a rewritten <em>actions</em> plugin") ?></p>
-
-    <?php print_figure ("about/tour/4.10/panel-actions.png", R_("Action plugin in a menu mode (left), and in a button mode (right)")) ?>
-
-  <h3><?php E_("Window Buttons") ?></h3>
-
-    <p><?php E_("The <em>window buttons</em> plugin no longer expands, which makes the plugin positioning more flexible. In order to restore the previous behavior please add a transparent <em>separator</em> plugin with the <strong>Expand</strong> option enabled just behind the window buttons plugin.") ?></p>
-
-<h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
-
-  <p><?php E_("There are few visual changes in this release of Thunar. The window has less padding and the position of the status bar has been adjusted.") ?></p>
-
-<h2><?php E_("Session Manager") ?> <em>(xfce4-session)</em></h2>
-
-  <p><?php E_("The <em>session manager</em>&apos;s settings dialog has a button for clearing the saved session (no more <tt>rm -r ~/.config/sessions</tt>). Xfce4-tips has been removed and the session manager can now lock the screen before suspending or hibernating the system.") ?></p>
-
-  <h3><?php E_("Applications Autostart") ?></h3>
-
-    <p><?php E_("Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable services, which have to be started before other applications (<em>gnome-keyring</em> and <em>gconf</em> for GNOME and <em>kdeinit</em> for KDE). All other autostart applications are available from <strong>Applications Autostart</strong>, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started independently from each other.") ?></p>
-
-    <?php print_figure ("about/tour/4.10/session-autostart.png", R_("Applications, which are not a part of Xfce, are listed using an italic font")) ?>
-
-<h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
-
-  <h3><?php E_("Settings Daemon") ?></h3>
-
-    <p><?php E_("Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into xfsettingsd, which now handles all system settings.") ?></p>
-
-  <h3><?php E_("Settings Manager") ?></h3>
-
-    <p><?php E_("The new <em>settings manager</em> groups configuration dialogs in categories and allows you to search for their names or descriptions. Most of the dialogs are also now embedded in the settings manager window (this was a compile-time option in Xfce 4.8).") ?></p>
-
-    <?php print_figure ("about/tour/4.10/settings-manager.png", R_("The settings manager with icons grouped by category and a search filter applied")) ?>
-
-  <h3><?php E_("Settings Editor") ?></h3>
-
-    <p><?php E_("The <em>settings editor</em> no longer collapses the entire tree when you edit a property (this is because it now reloads a single cell rather than the whole tree). Most properties can now be edited in-place, making it easier to quickly adjust settings.") ?></p>
-
-    <p><?php E_("Using settings editor you can also monitor changes of settings in a selected channel. Right-click on a channel in the main window, and select <strong>Monitor</strong> to display the monitor window.") ?></p>
-
-    <?php print_figure ("about/tour/4.10/settings-editor.png", R_("Settings editor with an open channel monitor, while editing a property in-place")) ?>
-
-  <h3><?php E_("MIME Type Editor") ?></h3>
-
-    <p><?php E_("In the last couple of years, many people were asking for a tool to manage their file type associations. The new <em>MIME type editor</em> does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons).") ?></p>
-
-    <?php print_figure ("about/tour/4.10/settings-mime.png", R_("MIME types matching a pattern and a menu for selecting a default application")) ?>
-
-  <h3><?php E_("Mouse and Touchpad") ?></h3>
-
-    <p><?php E_("The <em>mouse and touchpad</em> dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki.") ?></p>
-
-    <?php print_figure ("about/tour/4.10/settings-mouse.png", R_("Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog")) ?>
-
-  <h3><?php E_("Appearance Settings") ?></h3>
-
-    <p><?php E_("In 4.10 you can drag and drop a tarball with a downloaded theme onto the <em>style</em> or <em>icon</em> list. Xfce will attempt to extract and install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> directory.") ?></p>
-
-<h2><?php E_("Desktop Manager") ?> <em> (xfdesktop)</em></h2>
-
-  <p><?php E_("Although the initial plan for Xfce 4.10 was to integrate desktop handling in Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop has gained support for single-click operation, automated background image cycling and thumbnail rendering.") ?></p>
-
-  <?php print_figure ("about/tour/4.10/xfdesktop.png", R_("Desktop with image thumbnails and support for single-click operation")) ?>
-
-  <p><?php E_("Xfdesktop is now shipped with a new default background image.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.12. It only covers improvements made on the surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
 <h2><?php E_("Window Manager") ?> <em>(xfwm4)</em></h2>
 
-  <p><?php E_("Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab).") ?></p>
+  <h3><?php E_("Window Switcher Dialog") ?></h3>
+
+<p><?php E_("The window manager's Alt+Tab dialog is now fully themeable and also gained two new modes: a 'List' mode and a 'Window Preview' mode. Furthermore users use their mouse to click/select the window they want to give focus to.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/tabwin-simple-crop.png", R_("The traditional dialog is fully themable now")) ?>
+
+<p><?php E_("The List mode of the Alt-Tab dialog.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/tabwin-list-crop.png", R_("List mode of Alt-Tab, showing all window titles")) ?>
+
+<p><?php E_("The Window Preview mode shows thumbnails of windows' content alongside their icon. Activating the compositor is a prerequisite for this mode.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/tabwin-preview-crop.png", R_("Window thumbnails")) ?>
+
+  <h3><?php E_("Tiling, Zooming, Client-side Decorations") ?></h3>
+
+<p><?php E_("Support for Client-Side Decorations (CSDs) has been improved. They now properly snap to screen and panel borders, and tile correctly, even with shadows.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfwm4-csd.png", R_("Gtk3 apps with their decorations drawn by the client")) ?>
+
+<p><?php E_("Window tiling mode was improved by providing support for corner-tiling, and a new zooming mode was added using Alt + Mouse Wheel.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfwm4-tiling-small.png", R_("Drag and drop a window to a corner to tile it")) ?>
+
+  <h3><?php E_("HiDPI Support") ?></h3>
+<p><?php E_("In order to better support modern hi-resolution screens, two new Xfwm4 themes were added (hdpi, xhdpi).") ?></p>
+
+<h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
+
+  <h3><?php E_("Intelligent Hiding") ?></h3>
+<p><?php E_("The panel can now intelligently hide itself when a window is dragged near it.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/panel-shown.png", R_("Oh what is this window??")) ?>
+
+  <?php print_figure ("about/tour/4.12/panel-shown-stack.png", R_("Don't come closer!")) ?>
+
+  <?php print_figure ("about/tour/4.12/panel-hidden.png", R_("Hah! Now you don't see me!")) ?>
+
+  <h3><?php E_("Gtk3 plugins") ?></h3>
+
+<p><?php E_("Infrastructure was added to be able to load Gtk3 plugins alongside Gtk2 plugins.") ?></p>
+
+<h2><?php E_("Desktop Manager") ?> <em> (xfdesktop)</em></h2>
+
+<p><?php E_("The desktop has a new wallpaper settings dialog with many new options and better multi-monitor support. Drag the dialog to the display or workspace where you want to change the wallpaper.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfdesktop-properties-multiworkspace.png", R_("Better multi-monitor support")) ?>
+
+<p><?php E_("Uncheck 'apply to all workspaces' to set a different wallpaper for each workspace.") ?></p>
+
+<h2><?php E_("Settings") ?> <em>(xfce4-settings)</em></h2>
+
+  <h3><?php E_("Display Settings") ?></h3>
+
+<p><?php E_("Support for multi-monitor use was vastly improved in the display settings dialog. Upon connecting a new display, a quick setup popup offers some of the most-used modes for users to quickly change their layout.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfce4-display-settings-twoscreens.png", R_("Configure multiple displays")) ?>
+  <?php print_figure ("about/tour/4.12/xfce4-display-layout.png", R_("Choose your layout when plugging in a new display")) ?>
+
+  <h3><?php E_("Appearance Settings") ?></h3>
+
+<p><?php E_("The appearance dialog now showcases previews for styles and icons.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfce4-appearance-settings-style.png", R_("Gtk style preview")) ?>
+
+  <?php print_figure ("about/tour/4.12/xfce4-appearance-settings-icons.png", R_("Icon theme preview")) ?>
+
+<h2><?php E_("Power Manager") ?> <em>(xfce4-power-manager)</em></h2>
+
+  <h3><?php E_("Panel Plugin") ?></h3>
+
+<p><?php E_("A new panel plugin was created which allows you to quickly control your screen brightness, either via the menu or by simply using your mouse's scroll wheel over the plugin. The plugin's menu also shows all other connected devices with a power status, e.g. bluetooth keyboards or wireless mice. It still offers quick access to the presentation mode, which inhibits your screensaver for as long as the option is active.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfpm-plugin-crop.png", R_("The plugin's menu allows users to control screen brightness and check on the remaining uptime their battery provides.")) ?>
+
+  <h3><?php E_("Settings Dialog") ?></h3>
+
+<p><?php E_("The settings dialog was completely restructured (separating button/lid events from system and display behavior) and offers a clearer way of setting your preferences.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfpm-prefs-general.png", R_("Configure what action to take when certain buttons are pressed or the laptop lid is closed")) ?>
+  <?php print_figure ("about/tour/4.12/xfpm-prefs-system.png", R_("Configure what to do when the user is inactive or battery is drained")) ?>
+  <?php print_figure ("about/tour/4.12/xfpm-prefs-display.png", R_("Manage display power management")) ?>
+  <?php print_figure ("about/tour/4.12/xfpm-prefs-devices.png", R_("Display information on all connected devices")) ?>
+
+<p><?php E_("When light-locker is available, you can control its settings directly via the power manager.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/xfpm-prefs-security.png", R_("Setup light-locker integration")) ?>
+<h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
+
+  <h3><?php E_("Tab Support") ?></h3>
+
+<p><?php E_("A long-awaited feature was added: you can now open multiple folders in the same Thunar window.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/thunar-tabs.png", R_("Browse multiple directories")) ?>
+
+<p><?php E_("Thunar now displays the remaining free space with a bar in a folder properties.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/thunar-freespace.png", R_("Freespace bar")) ?>
+
+<p><?php E_("And you can select multiple files to see their properties at once.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/thunar-multifiles-props.png", R_("Multiple File Properties")) ?>
+
+<h2><?php E_("Goodies") ?></h2>
+
+<p><?php E_("There have been lots of improvements to our goodies, and some new and shiny applications have been added by new contributors.") ?></p>
+
+<h3><?php E_("Alternative panel menu plugin") ?><em>(xfce4-whiskermenu)</em></h3>
+
+<p><?php E_("The whisker menu is an alternative to the traditional menu plugin, showing favourites, allowing to search through existing apps and much more.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/whiskermenu-default.png", R_("Browse through categories")) ?>
+
+  <?php print_figure ("about/tour/4.12/whiskermenu-search.png", R_("Search for an application")) ?>
+
+<h3><?php E_("Task Manager") ?><em>(xfce4-taskmanager)</em></h3>
+
+<p><?php E_("The task manager got a revamped user interface, a filter and also supports Gtk3 now.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/taskman-tree.png", R_("Show processes as a tree")) ?>
+
+  <?php print_figure ("about/tour/4.12/taskman-filter.png", R_("Filter processes by name")) ?>
+
+<h3><?php E_("Media Player") ?><em>(parole)</em></h3>
+
+<p><?php E_("Parole's UI was totally redone in Gtk3. It now supports multiple video backends, makes more efficient use of your resources and contains a few novel plugins.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/parole.png", R_("Watch videos")) ?>
+
+<p> <?php E_("The media controls are now contained in a slide-over overlay (with a configurable timeout).") ?></p>
+
+  <?php print_figure ("about/tour/4.12/parole-audio.png", R_("Listen to music")) ?>
+
+<h3><?php E_("Text Editor") ?><em>(mousepad)</em></h3>
+
+<p><?php E_("Mousepad was totally rewritten, gained a settings dialog and now supports Gtk3.") ?></p>
+
+  <?php print_figure ("about/tour/4.12/mousepad-prefs.png", R_("New mousepad settings")) ?>
+
+<h2><?php E_("A note on Xfce's portability") ?></h2>
+
+<p><?php E_("All but one of those screenshots were taken on machines running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.") ?></p>
