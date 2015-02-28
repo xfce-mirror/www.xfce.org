@@ -426,6 +426,11 @@
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
+   <li>Do not change properties on disabled libinput devices</li>
+   <li>Increased required automake and libtool versions</li>
+   <li>Fix crashes for missing icons (bug #11568)</li>
+   <li>Fix warnings during configure</li>
+   <li>Fix primary checkbox expansion in the display settings</li>
    <li>Add touchpad support with libinput</li>
    <li>Add previews for icon themes in appearance settings</li>
    <li>Add Gtk+ theme palettes in the appearance dialog</li>
