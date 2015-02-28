@@ -736,6 +736,8 @@
 
 <h2>Theme Engine <em>(gtk-xfce-engine)</em></h2>
 <ul>
+   <li>Add new theme Xfce-flat</li>
+   <li>Fix invalid free on theme parse error</li>
    <li>Added default colors to xfce basic theme</li>
    <li>Fix uinitialized value (bug #10877)</li>
    <li>Support trough-side-details</li>
@@ -748,6 +750,15 @@
 
 <h2>Power Manager <em>(xfce4-power-manager)</em></h2>
 <ul>
+   <li>Handle autotools m4 stuff properly</li>
+   <li>Plug a memory leak (Bug #11538)</li>
+   <li>Add support for ConsoleKit2</li>
+   <li>Correctly check for hibernation permissions (bug #11529)</li>
+   <li>Use sysctl(3) to get or set brightness level on FreeBSD and DragonFly systems</li>
+   <li>Light Locker Integration (Bug #11488)</li>
+   <li>Add gmux_backlight as supported interface (bug #11406)</li>
+   <li>Reformat code in xfpm_power_get_property</li>
+   <li>Reformat code in xfpm_power_set_property</li>
    <li>Shorten label for system inactivity time (bug #11129)</li>
    <li>Initially disable DPMS widgets when not handling DPMS</li>
    <li>Use translated device type for unknown devices (bug #11217)</li>
