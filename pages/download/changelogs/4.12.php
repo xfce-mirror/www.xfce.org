@@ -489,6 +489,11 @@
    <li>Fix crashes for missing icons (bug #11568)</li>
    <li>Fix warnings during configure</li>
    <li>Fix primary checkbox expansion in the display settings</li>
+   <li>Do not change properties on disabled libinput devices</li>
+   <li>Increased required automake and libtool versions</li>
+   <li>Fix crashes for missing icons (bug #11568)</li>
+   <li>Fix warnings during configure</li>
+   <li>Fix primary checkbox expansion in the display settings</li>
    <li>Add touchpad support with libinput</li>
    <li>Add previews for icon themes in appearance settings</li>
    <li>Add Gtk+ theme palettes in the appearance dialog</li>
@@ -732,6 +737,22 @@
 
 <h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
+   <li>Add support for gtk window menu</li>
+   <li>Avoid window decorations in preview</li>
+   <li>Clean-up compositor state in case of error</li>
+   <li>Compute struts based on reported screen size</li>
+   <li>Do not tile windows if they don't fit in</li>
+   <li>Enable compositing by default</li>
+   <li>Enable window preview in cycling by default</li>
+   <li>Fix build with compositor disabled</li>
+   <li>Fix window menu positioning with CSD</li>
+   <li>Fix window preview disappearing on themes reload</li>
+   <li>Reuse client macros in compositor</li>
+   <li>Revert "Optionally remove frame on tiling as well"</li>
+   <li>Set maximum valid struts values</li>
+   <li>Use larger window preview by default</li>
+   <li>Use opaque background color for preview</li>
+   <li>Use smallest screen area</li>
    <li>Add a zoom_desktop xfconf setting</li>
    <li>Add corner tiling</li>
    <li>Add support for extended XSync counter</li>
