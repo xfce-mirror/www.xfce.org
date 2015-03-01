@@ -98,7 +98,7 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
   <h3><?php E_('Web Browser') ?></h3>
   <p class="colicon" style="background-image: url('<?php echo $static_media; ?>/projects/midori.png')">
     <?php E_('Midori is a lightweight Web browser.') ?>
-    <?php learnmore ("http://www.twotoasts.de/index.php?/pages/midori_summary.html") ?>
+    <?php learnmore ("http://www.midori-browser.org/") ?>
   </p>
 </div></div>
 <div class="column"><div class="rcolumn">
