@@ -55,7 +55,7 @@ function print_translator_credits()
                 'Andrzej Radecki' => 'ndrwrdck'.ATSIGN.'gmail.com',
                 'Eric Koegel' => 'eric'.ATSIGN.'xfce.org',
                 'Harald Judt' => 'hjudt'.ATSIGN.'xfce.org',
-                'Landry Breuil' => 'landry'.ATSIGN.'openbsd.org',
+                'Landry Breuil' => 'landry'.ATSIGN.'xfce.org',
                 'Nick Schermer' => 'nick'.ATSIGN.'xfce.org',
                 'Olivier Fourdan' => 'fourdan'.ATSIGN.'xfce.org',
                 'Sean Davis' => 'bluesabre'.ATSIGN.'xfce.org',
@@ -66,11 +66,11 @@ function print_translator_credits()
 <h2 id="active"><?php E_('Active contributors')?></h2>
 <?php
         print_credits (array (
+                'Guido Berhoerster' => 'guido+xfce'.ATSIGN.'berhoerster.name',
                 'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org',
-                'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce.org',
-                'Lionel Le Folgoc' => 'mrpouit'.ATSIGN.'gmail.com',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
-                'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org',
+                'Silvio Knizek' => 'killermoehre'.ATSIGN.'gmx.net',
+                'Steve Dodier-Lazaro' => 'sidi'.ATSIGN.'xfce.org',
                 'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
 ?>
 
@@ -85,13 +85,15 @@ function print_translator_credits()
 <h2 id="goodies"><?php E_('Goodies supervision')?></h2>
 <?php
         print_credits (array (
-                'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org'));
+                'Harald Judt' => 'hjudt'.ATSIGN.'xfce.org',
+                'Landry Breuil' => 'landry'.ATSIGN.'xfce.org'));
 ?>
 
 <h2 id="translation"><?php E_('Translations supervision')?></h2>
 <?php
         print_credits (array (
-                'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com'));
+                'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
+                'Nick Schermer' => 'nick'.ATSIGN.'xfce.org'));
 ?>
 
 <h2 id="translators"><?php E_('Translators')?></h2>
@@ -121,16 +123,19 @@ function print_translator_credits()
                 'Erik Harrison' => 'erikharrison'.ATSIGN.'xfce.org',
                 'François Le Clainche' => 'fleclainche'.ATSIGN.'wanadoo.fr',
                 'Jasper Huijsmans' => 'jasper'.ATSIGN.'xfce.org',
+                'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce.org',
                 'Jean-François Wauthy' => 'pollux'.ATSIGN.'fce.org',
                 'Jens Guballa' => 'j.guballa'.ATSIGN.'t-online.de',
                 'Jens Luedicke' => 'jens'.ATSIGN.'irs-net.com',
                 'Joakim Andreasson' => 'joakim.andreasson'.ATSIGN.'gmx.net',
+                'Lionel Le Folgoc' => 'mrpouit'.ATSIGN.'gmail.com',
                 'Karsten Luetkewitz' => 'phrep'.ATSIGN.'plskthx.org',
                 'Martin Loschwitz' => 'madkiss'.ATSIGN.'debian.org',
                 'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce.org',
                 'Michael Mosier' => 'michael'.ATSIGN.'spyonit.com',
                 'Mickaël Graf' => 'korbinus'.ATSIGN.'xfce.org',
                 'Pau Rul·lan Ferragut' => 'paurullan'.ATSIGN.'bulma.net',
+                'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org',
                 'Thomas Leonard' => 'tal00r'.ATSIGN.'ecs.soton.ac.uk',
                 'Tobias Henle' => 'tobias'.ATSIGN.'page23.de',
                 'Xavier Maillard' => 'zedek'.ATSIGN.'fxgsproject.org'));
