@@ -33,7 +33,7 @@ function print_translator_credits()
       echo $person.' &lt;'.mungify_mail($mail).'&gt;';
 
       if ($mail != $last)
-        echo '<br />\n';
+        echo "<br />\n";
     }
 
     echo "</dd>\n";
