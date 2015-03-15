@@ -2,7 +2,7 @@
 
 /* This file has been generated automatically. */
 
-$translators_stamp = "2015-03-06 15:36:47 UTC";
+$translators_stamp = "2015-03-15 16:42:48 UTC";
 
 $translators = array (
   'Albanian [sq]' => array (
@@ -163,6 +163,7 @@ $translators = array (
     'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Mike Massonnet' => 'mmassonnet'.ATSIGN.'xfce'.DOTSIGN.'org',
     'Pedwo51' => 'pedwo51'.ATSIGN.'gmail'.DOTSIGN.'com',
+    'Pierre Albiero' => 'trepalum'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Pingax' => 'pingax'.ATSIGN.'frugalware'.DOTSIGN.'org',
     'Remi Andruccioli' => 'remi'.DOTSIGN.'andruccioli'.ATSIGN.'gmail'.DOTSIGN.'com',
     'Steve Dodier' => 'sidnioulz'.ATSIGN.'gmail'.DOTSIGN.'com',
