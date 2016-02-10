@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2015-03-28 09:10+0100\n"
-"PO-Revision-Date: 2016-02-09 20:10+0000\n"
+"PO-Revision-Date: 2016-02-10 16:25+0000\n"
 "Last-Translator: Elishai Eliyahu <e1907@mm.st>\n"
 "Language-Team: Hebrew (http://www.transifex.com/xfce/xfce-www/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -2025,33 +2025,33 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "עם Xfce X.Ypre3, כל רכיבי הליבה נכנסים להקפאת קוד שמשמעותה שמעתה והלאה לא מותרים שינויי קוד, אלא אם כן הם חתומים בידי מנהל הגרסה. אלו בדרך כלל יהיו רק תיקונים לבאגים חוסמים או קריטיים לגרסה. תרגומים יכולים להימשך."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
-msgstr ""
+msgstr "שלב הקפאת קוד (2+ שבועות)"
 
 #: about/releasemodel.php:255
 msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr ""
+msgstr "עם Xfce X.Ypre3, כל רכיבי הליבה נכנסים להקפאת קוד. שלב זה מודגם באיור הבא ומוסבר בפירוט בסעיף זה."
 
 #: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr ""
+msgstr "הקפאת הקוד והיוצאים מהכלל שלה נתמכים ע\"י ווים של עדכוני קוד. ישנו וו עדכון שלא מאפשר אף שינוי לעיקרי אלא אם כן הוא חתום בידי מנהל הגרסה."
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
-msgstr ""
+msgstr "מתן תוויות והסתעפות עבור גרסאות"
 
 #: about/releasemodel.php:266
 msgid "Bugfixes/Changes"
-msgstr ""
+msgstr "תיקוני באגים/שינויים"
 
 #: about/releasemodel.php:269
 msgid ""
@@ -2060,44 +2060,44 @@ msgid ""
 "DISCUSSION//) to which he or she then commits the fixes. Refer to the "
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
-msgstr ""
+msgstr "אם רכיב ליבה דורש תיקונים או שינויים במהלך הקפאת קוד, המתחזק נדרש ליצור ענף חדש הנקרא ELS (שם פתוח לדיון) שאליו הוא מעדכן את הקוד עבור התיקונים. פנה לסעיף יוצאים מהכלל של הקפאת קוד אם אלו שינויים קריטיים לגרסה או תיקונים לבאגים חוסמים."
 
 #: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
 " after the final release. Only bugfixes are allowed in this branch."
-msgstr ""
+msgstr "ענף ELS קיים לתקופת זמן קצרה. הוא מתמזג לראשי ולענף היציב של הרכיב (למשל xfwm4-4.8, thunar-1.2) לאחר הגרסה הסופית. רק תיקוני באגים מותרים בענף זה."
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
-msgstr ""
+msgstr "יוצאים מהכלל של הקפאת קוד"
 
 #: about/releasemodel.php:278
 msgid "Blocking Bugs"
-msgstr ""
+msgstr "באגים חוסמים"
 
 #: about/releasemodel.php:281
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
-msgstr ""
+msgstr "באגים מסויימים יכולים לעכב את הגרסה הסופית אם הם נחשבים חוסמים. זהו המקרה בכל אחת מהנסיבות הבאות:"
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
-msgstr ""
+msgstr "הוא גורם לקריסה של תוכנת ליבה"
 
 #: about/releasemodel.php:286
 msgid "it causes data loss"
-msgstr ""
+msgstr "הוא גורם לאיבוד מידע"
 
 #: about/releasemodel.php:287
 msgid "it causes an ever-growing memory leak"
-msgstr ""
+msgstr "הוא גורם לדליפת זיכרון הולכת וגודלת"
 
 #: about/releasemodel.php:288
 msgid "it locks the entire desktop GUI"
-msgstr ""
+msgstr "הוא נועל את כל ממשק המשתמש הגרפי של שולחן העבודה"
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
