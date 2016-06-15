@@ -89,9 +89,6 @@ var slideshow=new TINY.slider.slide('slideshow',{
 				</a>
 			</li>
 		</ul>
-		<a href="http://ilovefs.org">
-			<img src="<?php echo $static_media; ?>/frontpage/ilovefs-banner-medium-en.png" style="border: 0 !important; margin-top: 2em;" alt="I love Free Software!">
-		</a>
 	</div>
 </div>
 
