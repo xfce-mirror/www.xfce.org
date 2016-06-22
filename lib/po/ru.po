@@ -15,6 +15,7 @@
 # Sergey Alyoshin <alyoshin.s@gmail.com>, 2012-2016
 # Sergey Shlyapugin <shlyapugin@gmail.com>, 2013
 # Sergey Shlyapugin <shlyapugin@gmail.com>, 2013
+# Simple88, 2016
 # Someniatko <someniatko@gmail.com>, 2014
 # vilyus <bvilyus@gmail.com>, 2013
 # WalkieTalkie <walkie.talkie@rambler.ru>, 2014
@@ -24,8 +25,8 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2015-03-28 09:10+0100\n"
-"PO-Revision-Date: 2016-06-11 22:44+0000\n"
-"Last-Translator: Alex Bigdai\n"
+"PO-Revision-Date: 2016-06-22 06:20+0000\n"
+"Last-Translator: Simple88\n"
 "Language-Team: Russian (http://www.transifex.com/xfce/xfce-www/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2895,34 +2896,34 @@ msgid ""
 "windows preview and a list mode. Initial Client side decoration support was "
 "implemented, window tiling mode was improved providing support for corner-"
 "tiling, and a new zooming mode was added. A HiDPI Xfwm theme was also added."
-msgstr ""
+msgstr "Оконный менеджер получил новый настраиваемый диалог Alt+Tab с опциональным просмотром окна и режимом списка. Была реализована начальная поддержка декораций на стороне клиента, была улучшена поддержка плиток окон с новым режимом масштабирования. Также была добавлена HiDPI-тема Xfwm."
 
 #: news-array.php:23
 msgid ""
 "The panel can now intelligently hide itself, supports Gtk3 plugins, and saw "
 "lots of its third-party plugins updated to take full advantage of the "
 "features added in 4.10."
-msgstr ""
+msgstr "Теперь панель может автоматически спрятаться, поддерживает плагины Gtk3 и обнаруживает больше сторонних модулей, обновлённых для использования в полной мере функций, добавленных в 4.10."
 
 #: news-array.php:25
 msgid ""
 "The desktop has a new wallpaper settings dialog, per workspace wallpaper "
 "support, and better multi-monitor handling. It also supports displaying "
 "folder cover art and emblems on icons now."
-msgstr ""
+msgstr "Рабочий стол получил новый диалог настройки фонового изображения с новыми опциями и улучшенным управлением многоэкранного режима. Теперь он также поддерживает отображение эскизов папок и эмблем иконов."
 
 #: news-array.php:27
 msgid ""
 "Our session manager was updated to use logind and/or upower if available for"
 " hibernate/suspend support. For portability and to respect our users' "
 "choices, fallback modes were implemented relying on os-specific backends."
-msgstr ""
+msgstr "Наш менеджер сеансов был обновлён для использования logind и/или upower, если поддерживается гибернация/приостановка. Для переносимости, чтобы уважать выбор наших пользователей, был реализован резервный режим, опирающийся на ОС-специфичные среды."
 
 #: news-array.php:29
 msgid ""
 "Support for multi-monitor use was improved in a new display settings dialog "
 "and a quick setup popup on monitor plugging."
-msgstr ""
+msgstr "Поддержка многоэкранной конфигурации в диалоге настройки монитора и окне быстрого переключения была чрезвычайно улучшена. "
 
 #: news-array.php:31
 msgid "The appearance dialog now showcases previews for icons and themes."
@@ -2938,7 +2939,7 @@ msgid ""
 "logind/upower support was added to handle battery/lid/brightness events, and"
 " locking via light-locker was implemented. The settings dialog was also "
 "revamped, and support for X11 screenblanking was added."
-msgstr ""
+msgstr "Управление питанием не было забыто: новый модуль для панели был создан, в logind/upower была добавлена поддержка обработки событий батареи/крышки/яркости, реализована блокировка при отключении экрана. Диалог настройки также переделан, и была добавлена поддержка гашения экрана X11."
 
 #: news-array.php:37
 msgid ""
@@ -2948,7 +2949,7 @@ msgid ""
 "tweaks for the renamer and other dialogs, improved keyboard navigation, "
 "fixes for the treeview pane, better wallpaper support, Gtk3 bookmarks "
 "support, multiple file properties... need we say more?"
-msgstr ""
+msgstr "Наш файловый менеджер, всеми любимый Thunar, увидел безумное количество улучшение: поддержка вкладок, тонны исправлений ошибок, ускорения, горячие клавиши для заданных действий, лучшее именование копий и ссылок, красивая полоска свободного пространства в свойствах,  твики для переименования и других диалогов, улучшенная клавиатурная навигация, исправления для древовидной панели, улучшенная поддержка обоев, поддержка закладок Gtk3, множество свойств файлов... нужно ли говорить больше?"
 
 #: news-array.php:39
 msgid ""
@@ -2956,7 +2957,7 @@ msgid ""
 "engines, we are stopping the development of our Gtk theme engine, and "
 "dropping our Gtk3 engine - theme makers, please update your themes  to CSS "
 "if you want them to work on the next Xfce version."
-msgstr ""
+msgstr "Для того, чтобы подготовить будущее Xfce с Gtk3, который больше не требует движков тем, мы останавливаем развитие нашей темы для движка Gtk, и опускаем наш движок Gtk3. Создатели тем, пожалуйста, адаптируйте ваши темы под CSS, если вы хотите, чтобы они работали на следующей версии Xfce."
 
 #: news-array.php:41
 msgid ""
@@ -2964,13 +2965,13 @@ msgid ""
 "xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, "
 "our mixer application and volume daemon cannot be ported to 1.0 and are "
 "consequently not maintained anymore."
-msgstr ""
+msgstr "В связи с использованием gstreamer1.0 была опущена поддержка встроенного микшера, поскольку xfce4-mixer и xfce4-volumed, опиравшиеся на этот интерфейс и использующие gstreamer0.10, не могут быть портированы на 1.0."
 
 #: news-array.php:44
 msgid ""
 "Xfce wouldn't be what it is right now without all its goodies. In this area,"
 " we also saw a flurry of activity, most notably:"
-msgstr ""
+msgstr "Xfce не было бы тем, чем является сейчас, без всех своих улучшений. В этой области мы также увидели всплеск активности, в первую очередь:"
 
 #: news-array.php:46
 msgid "Xfburn gained BluRay Disc burning support."
@@ -2984,7 +2985,7 @@ msgstr "Графический интерфейс менеджера задач 
 msgid ""
 "Parole's UI was totally redone, parts of it rewritten with many features "
 "added. Furthermore it was ported to Gtk3 and gstreamer1.0."
-msgstr ""
+msgstr "Интерфейс Parole был полностью переписан, было добавлено множество функций. Кроме того, он портирован на Gtk3 и gstreamer1.0."
 
 #: news-array.php:49
 msgid "Mousepad was totally rewritten and got an initial port to Gtk3."
@@ -3016,7 +3017,7 @@ msgstr "Модуль погоды получил полностью новый �
 msgid ""
 "Eyes plugin uses 3D coordinates to calculate its eye position, so even more "
 "sometimes scary, sometimes funny eyes will spy on you!"
-msgstr ""
+msgstr "Модуль Eyes использует 3D-координаты для вычисления положения глаз, так что иногда вам даже будет страшно, что забавные глаза следят за вами!"
 
 #: news-array.php:56
 msgid ""
@@ -3083,7 +3084,7 @@ msgid ""
 "or entirely new features! You can get in touch with us on the Freenode IRC "
 "channel #xfce-dev and our <a "
 "href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">mailing list</a>."
-msgstr ""
+msgstr "Как всегда, мы приветствуем всех, кто хотел бы внести свой вклад в развитие Xfce! Вы можете <a href=\"http://docs.xfce.org/xfce/building\">проверять Xfce</a> и сообщать об <a href=\"http://bugzilla.xfce.org\">ошибках</a>, вы можете помочь нам с <a href=\"https://www.transifex.com/tag/xfce/\">переводом</a> и <a href=\"http://docs.xfce.org\">документацией</a>, с <a href=\"https://wiki.xfce.org/design/start\">удобством и пользовательским опытом</a> по встраиванию Xfce в ваш дистрибутив, и <a href=\"https://wiki.xfce.org/dev/howto/contribute\">предоставив патчи</a> или совершенно новые возможности! Вы можете связаться с нами на канале Freenode IRC #xfce-dev и нашем <a href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">списке рассылки</a>."
 
 #: news-array.php:69 news-array.php:92 news-array.php:137
 msgid "Best regards,<br />The Xfce development team"
@@ -3430,7 +3431,7 @@ msgid ""
 "there are not enough people active to take care of all this at the moment. "
 "So we will continue fixing bugs in master branches as we did between 4.8pre2"
 " and 4.8pre3."
-msgstr ""
+msgstr "Поскольку мы следуем <a href=\"/about/releasemodel\">модели выпуска</a> Xfce для версии 4.8, мы, как обычно, сегодня должны объявить о заморозке кода и создании раннего цикла поддержки выпусков. Мы решили в этот раз не делать этого в связи с нехваткой активных людей для того, чтобы на данный момент этим заниматься. Поэтому мы продолжим исправлять ошибки в мастер-ветвях, как мы делали это с 4.8pre2 и 4.8pre3."
 
 #: news-array.php:158
 msgid ""
@@ -3439,7 +3440,7 @@ msgid ""
 "final release, strings may no longer be changed in the master branch of Xfce"
 " core components. This will help translators to prepare their translations "
 "for the final release scheduled on January 16th, 2011."
-msgstr ""
+msgstr "Мы рады объявить о втором предварительном релизе Xfce 4.8. Этот релиз знаменует собой начало замораживания строк. С сегодняшнего дня до офинального выпуска, строки больше не могут быть изменены в мастер-ветви основных компонентов Xfce. Это поможет переводчикам подготовить свои переводы для финального выпуска запланированного на 16 января 2011 года."
 
 #: news-array.php:159
 msgid ""
@@ -3480,7 +3481,7 @@ msgid ""
 " third-party menu editor such as Alacarte (we do not ship our own yet). Our "
 "core libraries have been streamlined a bit, a good example being the newly "
 "introduced libxfce4ui library which is meant to replace libxfcegui4."
-msgstr ""
+msgstr "Этот релиз включает в себя значительные изменения ядра среды рабочего стола Xfce и, надеемся, успешно выполняет ряд длинных запросов времени. Среди наиболее заметных обновлений является то, что мы портировали всё ядро Xfce (в частности, Thunar, xfdesktop и thunar-volman) от ThunarVFS в GIO и, в результате, удалённые файловые системы на рабочий стол Xfce. Панель была переписана с нуля и обеспечивает лучшее управление пусковой средой и улучшенную поддержку нескольких мониторов. Список новых функций панели слишком длинный, чтобы быть описанным в полном объёме здесь. Благодаря новой библиотеке меню garcon (ранее известное как libxfce4menu, но переписанное с нуля) мы теперь поддерживаем редактирование меню с помощью сторонних редакторов меню, таких как Alacarte (пока мы не пишем наши собственные). Наши основные библиотеки были немного упорядочены, хорошим примером является недавно введённая библиотека libxfce4ui, которая призвана заменить libxfcegui4."
 
 #: news-array.php:169
 msgid ""
@@ -3491,7 +3492,7 @@ msgid ""
 "many more. A lot of old cruft like has been stripped from the core as well, "
 "as has happened with HAL and ThunarVFS (which is still around for "
 "compatibility reasons)."
-msgstr ""
+msgstr "Пожалуй, важнейшим достижением, которое мы отметим в Xfce 4.8 − это то, что несмотря на порой малую численность команды разработчиков, ядро среды рабочего стола было приведено в соответствие с настольными технологиями вроде GIO, ConsoleKit, PolicyKit, udev и многими другими, а также множество старого хлама было убрано из ядра, как это случилось с HAL и ThunarVFS (которые до сих пор присутствуют из соображений совместимости)."
 
 #: news-array.php:170
 msgid ""
