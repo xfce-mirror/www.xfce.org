@@ -6,7 +6,7 @@ include ('pages/news-array.php');
 function fixup ($str)
 {
   $search = array ('<a href="/');
-  $replace = array ('<a href="http://www.xfce.org/');
+  $replace = array ('<a href="https://www.xfce.org/');
 
   return str_replace ($search, $replace, $str);
 }
@@ -32,7 +32,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>'.
        '<copyright>Olivier Fourdan 1996 - '. date ('Y') .'</copyright>'.
        '<language>'.$lang.'</language>'.
        '<generator>Xfce feed spawner</generator>'.
-       '<atom:link href="http://www.xfce.org/feed?lang='.$lang.'" rel="self" type="application/rss+xml" />';
+       '<atom:link href="https://www.xfce.org/feed?lang='.$lang.'" rel="self" type="application/rss+xml" />';
 
 foreach ($news as $item)
 {
@@ -52,11 +52,11 @@ foreach ($news as $item)
             echo '<p>'.fixup ($p).'</p>';
 
     echo   ']]></content:encoded>'.
-           '<link>http://www.xfce.org/about/news/?post='.$stamp.'</link>'.
+           '<link>https://www.xfce.org/about/news/?post='.$stamp.'</link>'.
            '<dc:creator>'. $item['author'] .'</dc:creator>'.
            '<pubDate>'. date ($format, $stamp) .'</pubDate>'.
            '<category>Xfce News</category>'.
-           '<guid isPermaLink="false">http://www.xfce.org/about/news/?post='.$stamp.'</guid>'.
+           '<guid isPermaLink="false">https://www.xfce.org/about/news/?post='.$stamp.'</guid>'.
          '</item>';
 
     if ($item_limit-- < 0)

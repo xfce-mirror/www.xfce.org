@@ -1,10 +1,7 @@
 <h2><?php E_('Related Pages') ?></h2>
 <ul>
 	<li>
-		<a href="/getinvolved"><?php E_('Get Involved') ?></a>
-	</li>
-	<li>
-		<a href="http://docs.xfce.org/contribute/translate/start"><?php E_('Translation') ?>
+		<a href="https://docs.xfce.org/contribute/translate/start"><?php E_('Translation') ?>
 			<span>&ndash; <?php E_('information about translating Xfce') ?></span>
 		</a>
 	</li>

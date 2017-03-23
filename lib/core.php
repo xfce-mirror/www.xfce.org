@@ -43,14 +43,16 @@ function print_figure ($src, $title, $url = null)
 {
 	global $static_media;
 
-	echo '<table class="figure"><tbody>'.
-		'<tr><th>'.$title.'</th></tr><tr><td>';
+	echo '<div class="figure">';
+	echo '<p class="image">';
 	if ($url != null)
 		echo '<a href="'.$url.'">';
 	echo '<img src="'.$static_media.'/'.$src.'" border="0" alt="'.basename ($src, '.png').'" />';
 	if ($url != null)
 		echo '</a>';
-	echo '</td></tr></tbody></table>';
+	echo '</p>';
+	echo '<p>'.$title.'</p>';
+	echo '</div>';
 }
 
 /* lookup the coresponding page for an uri */

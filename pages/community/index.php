@@ -22,13 +22,13 @@ $head['title'] = R_('Community');
 
 <h2 id="irc"><?php E_('IRC') ?></h2>
 <p>
-    <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our IRC channel <a href="irc://irc.freenode.net/#xfce">#xfce on irc.freenode.net</a>. The channel has several active users. It is recommended that you consult the <a href="http://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
+    <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our IRC channel <a href="irc://irc.freenode.net/#xfce">#xfce on irc.freenode.net</a>. The channel has several active users. It is recommended that you consult the <a href="https://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
 </p>
 
 <h2 id="forum"><?php E_('Forums') ?></h2>
 
 <p>
-  <?php E_('For users who prefer forums, the <a href="http://forum.xfce.org/" class="external">Xfce Forum</a> is the place to be. Active contributors will be able to help you, but please do not use it for bug reports.') ?>
+  <?php E_('For users who prefer forums, the <a href="https://forum.xfce.org/" class="external">Xfce Forum</a> is the place to be. Active contributors will be able to help you, but please do not use it for bug reports.') ?>
 </p>
 
 <h2 id="social"><?php E_('Social Networks') ?></h2>

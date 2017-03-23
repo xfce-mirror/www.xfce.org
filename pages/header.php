@@ -13,7 +13,7 @@ else
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title><?php echo $title ?></title>
-	<link rel="icon" href="/favicon.ico" />
+	<link rel="icon" href="/style/favicon.png" />
 	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
 	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/apple-touch-icon.png" />
 	<meta name="content-language" content="<?php echo $lang ?>" />
@@ -32,25 +32,25 @@ else
 <div id="xfce-header">
 	<div>
 		<h1 id="xfce-header-title">Xfce</h1>
-		<h5 id="xfce-header-subtitle">Sub domains</h5>
+		<h5 id="xfce-header-subtitle">Subdomains</h5>
 		&nbsp;
 		<ul>
-			<li><a href="http://www.xfce.org" title="Go to the homepage" class="active">Home</a></li>
-			<li><a href="http://docs.xfce.org" title="Official documentation">Docs</a></li>
+			<li><a href="https://xfce.org" title="Go to the homepage" class="active">Home</a></li>
+			<li><a href="https://docs.xfce.org" title="Official documentation">Docs</a></li>
 			<li><a href="http://archive.xfce.org" title="Download location of tarballs">Archive</a></li>
-			<li><a href="http://wiki.xfce.org" title="Community documentation">Wiki</a></li>
-			<li><a href="http://forum.xfce.org" title="Community forums">Forum</a></li>
+			<li><a href="https://wiki.xfce.org" title="Community documentation">Wiki</a></li>
+			<li><a href="https://forum.xfce.org" title="Community forums">Forum</a></li>
 			<li><a href="https://bugzilla.xfce.org" title="Report and track bugs">Bugs</a></li>
 			<li><a href="http://blog.xfce.org" title="Visit the blog">Blog</a></li>
-			<li><a href="http://www.xfce.org/getinvolved/translation" title="Help translating the Xfce project">Translate</a></li>
-			<li><a href="http://git.xfce.org" title="Project repositories">GIT</a></li>
+			<li><a href="https://xfce.org/getinvolved/translation" title="Help translating the Xfce project">Translate</a></li>
+			<li><a href="https://git.xfce.org" title="Project repositories">GIT</a></li>
 		</ul>
 	</div>
 	<div  id="xfce-header-clear"></div>
 </div>
 
 <div id="main">
-	<div id="mainnav">
+	<div id="mainnav" class="group">
 
 		<h5 class="hidden"><?php E_('Categories') ?></h5>
 		<div>
@@ -81,11 +81,10 @@ else
 			</select>
 			<button type="submit" class="hidden"><?php E_('Change language') ?></button>
 		</form>
-		<div class="clearboth"></div>
 	</div>
 
 	<div id="content">
+	<div id="article" class="file_<?php echo $page_class ?>">
 <?php if (isset($toc['filename'])) { ?>
 	<p id="related-jump" class="file_<?php echo $page_class ?>"><a href="#related"><?php E_('Related Pages') ?> &darr;</a></p>
 <?php } ?>
-	<div id="article" class="file_<?php echo $page_class ?>">

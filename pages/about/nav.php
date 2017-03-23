@@ -1,11 +1,6 @@
 <h2><?php E_('Related Pages') ?></h2>
 <ul>
 	<li>
-		<a href="/about"><?php E_('About') ?> 
-			<span>&ndash; <?php E_('general information about the Xfce desktop') ?></span>
-		</a>
-	</li>
-	<li>
 		<a href="/about/tour"><?php E_('4.12 Tour') ?>
 			<span>&ndash; <?php E_('visual tour about new features in the last major releases') ?></span>
 		</a>

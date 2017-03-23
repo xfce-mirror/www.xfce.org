@@ -35,14 +35,16 @@ foreach ($news as $item)
     else
       $title = $item['title'];
 
+  echo '<div class="newsitem">';
+
   echo '<h2 id="post-'.$stamp.'">'.$title.'</h2>'."\n";
 
   echo '<div class="post-date"><span class="post-month">'. date ('M', $stamp).
-       '</span> <span class="post-day">'. date ('d', $stamp).
-       '<br />'.date ('Y', $stamp).'</span></div>';
+       '</span> <span class="post-day"><span class="day">'. date ('d', $stamp).
+       '</span><br /><span class="year">'.date ('Y', $stamp).'</span></span></div>';
 
   echo '<div class="post-wrap">';
-  
+
   if ($counter < 2)
     {
       foreach ($item['paragraphs'] as $p)
@@ -69,7 +71,9 @@ foreach ($news as $item)
       echo '</p>';
     }
 
-  echo '</div>';
+  echo '</div>'; # .post-wrap
+
+  echo '</div>'; # .newsitem
 
   $has_items = true;
 }

@@ -1,16 +1,43 @@
-.post-date {
-	width: 50px;
-	height: 50px;
-	float: left;
+.newsitem {
+	clear: both;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 1em;
 }
+	.newsitem .post-date {
+		flex: 1;
+		min-width: 50px;
+		max-width: 50px;
+		order: 2;
+	}
+	.newsitem .post-wrap {
+		flex: 80;
+		order: 3;
+		padding-left: 1.2em;
+	}
+		.newsitem h2,
+		.newsitem h3 {
+			flex: 100;
+			order: 1;
+			min-width: 100%;
+			margin: 0 0 0.3em 0;
+		}
+		.newsitem h2 {
+			margin-bottom: 1em;
+		}	
+		.newsitem .post-wrap p:first-child {
+			margin-top: 0;
+		}
+
+
+
 .post-month {
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
 	display:block;
-	padding: 2px;
+	padding: 0.15em;
 	background: #2284f2;
-	border-bottom: 1px dotted #2284f2;
 }
 .post-day {
 	text-transform: uppercase;
@@ -18,19 +45,28 @@
 	text-align: center;
 	display: block;
 	background: #fff;
-	border: 1px dotted #000;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
 	border-top: 0;
 	padding: 2px;
-	line-height: 11px;
+	line-height: 13px;
 }
-
-.post-wrap {
-	margin-left: 65px;
-	padding-bottom: 1em;
-}
+	.post-day .day {
+		font-size: 115%;
+		line-height: 1.3em;
+		font-weight: 500;
+	}
+	.post-day .year {
+		font-size: 85%;
+		color: #6d6d6d;
+	}
 
 .rss {
-	padding-right: 17px;
+	padding: 2px 20px 0 0;
 	background: url('img/feed.gif') no-repeat right center;
 	float: right;
 }
+
+h1 + .rss {
+	margin-top: -3.5em;
+}
+	

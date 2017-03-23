@@ -8,7 +8,6 @@
 		echo '</div>';
 	}
 ?>
-	<div class="clearboth"></div>
 	</div> <!-- content-wrap -->
 	<div id="footer">
 		<hr class="hidden" />
