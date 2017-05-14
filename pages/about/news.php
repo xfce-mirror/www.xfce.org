@@ -51,10 +51,17 @@ foreach ($news as $item)
     {
       foreach ($item['paragraphs'] as $p)
       {
-        if (strpos ($p, '<ul>') === false)
-          echo '<p>'.$p.'</p>'."\n";
+        if (is_array($p))
+        {
+          foreach ($p as $whatever)
+          {
+            echo $whatever."\n";
+          }
+        }
         else
-          echo $p."\n";
+        {
+          echo '<p>'.$p.'</p>'."\n";
+        }
       }
       
       if (!empty ($item['version']))
