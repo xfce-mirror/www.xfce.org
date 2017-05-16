@@ -10,54 +10,20 @@ $head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
 
 <div id="slidewrap">
 <div id="slide">
-	<ul>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-desktop.jpg" width="800" height="400" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>" />
-		</li>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-thunar.jpg" width="800" height="400" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>" />
-		</li>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-settings.jpg" width="800" height="400" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>" />
-		</li>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-xfwm4.jpg" width="800" height="400" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>" />
-		</li>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-panel.jpg" width="800" height="400" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>" />
-		</li>
-		<li>
-			<img src="<?php echo $static_media; ?>/frontpage/slider-apps.jpg" width="800" height="400" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>" />
-		</li>
-	</ul>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-desktop.jpg);" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-thunar.jpg);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-settings.jpg);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-xfwm4.jpg);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-panel.jpg);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-apps.jpg);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
 </div>
-<div id="slidenavwrap" class="group">
-	<ul id="slidenav">
-		<li onclick="slideshow.pos(0)"></li>
-		<li onclick="slideshow.pos(1)"></li>
-		<li onclick="slideshow.pos(2)"></li>
-		<li onclick="slideshow.pos(3)"></li>
-		<li onclick="slideshow.pos(4)"></li>
-		<li onclick="slideshow.pos(5)"></li>
-	</ul>
-</div>
+<div id="slidenav"></div>
 </div>
 
 <script type="text/javascript">
 //<![CDATA[
-<?php include ('style/tinyslider.js'); ?>
+<?php include ('style/slider.js'); ?>
 //]]>
-
-var slideshow=new TINY.slider.slide('slideshow',{
-	id:'slide',
-	auto:10,
-	vertical:false,
-	navid:'slidenav',
-	activeclass:'current',
-	position:0,
-	rewind:false,
-	elastic:false
-});
 </script>
 
 <div class="frontpage_cols">
