@@ -10,12 +10,13 @@ $head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
 
 <div id="slidewrap">
 <div id="slide">
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-desktop.jpg);" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-thunar.jpg);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-settings.jpg);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-xfwm4.jpg);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-panel.jpg);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-apps.jpg);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
+	<!----><div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-desktop.jpg);" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>"></div>
+	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slide-th	unar.png);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
+	<!--<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-thunar.jpg);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>-->
+	<!----><div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-settings.jpg);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
+	<!----><div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-xfwm4.jpg);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
+	<!----><div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-panel.jpg);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>"></div>
+	<!----><div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-apps.jpg);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
 </div>
 <div id="slidenav"></div>
 </div>
@@ -88,6 +89,27 @@ $head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
 			if (--$count <= 0)
 				break;
 		}
+	?>
+</div>
+
+<div class="column">
+	<span class="rss"><a href="http://blog.xfce.org/feed"><?php E_('Subscribe to RSS feed') ?></a></span>
+	<h2><?php E_('On the Xfce Blog') ?></h2>
+	<?php
+		require_once('lib/simplepie/autoloader.php');
+		$feed = new SimplePie();
+		$feed->set_feed_url(array('https://blog.xfce.org/feed/'));
+		$feed->set_cache_location('lib/simplepie/cache');
+		$feed->init();
+		$feed->handle_content_type();
+
+		echo '<ul class="feeds group">';
+		foreach($feed->get_items(0,4) as $item){
+			echo '<li><strong><a href="'.$item->get_permalink().'">'.$item->get_title().'</a></strong><br />';
+			echo '<span class="meta">'.$item->get_author()->get_name().' on '.$item->get_date('M d Y').'</span></li>';
+		}
+		echo '</ul>';
+		echo '<p><a href="https://blog.xfce.org/">'.R_('Read more articles on the Xfce Blog &rarr;').'</a></p>';
 	?>
 </div>
 
