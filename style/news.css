@@ -64,7 +64,14 @@
 	padding: 2px 20px 0 0;
 	background: url('img/feed.gif') no-repeat right center;
 	float: right;
+	font-size: 85%;
 }
+	.rss a:link, .rss a:visited {
+		color: rgba(0,0,0,0.8);
+	}
+	.rss a:hover, .rss a:active, .rss a:focus {
+		color: #fa6e08;
+	}
 
 h1 + .rss {
 	margin-top: -3.5em;

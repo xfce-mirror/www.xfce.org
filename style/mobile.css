@@ -1,3 +1,12 @@
+@media screen and (max-width: 1200px) {
+	.frontpage_cols .column:nth-child(3) {
+		min-width: 90%;
+	}
+	.frontpage_cols .feeds {
+		margin-bottom: 0.5em;
+	}
+}
+
 @media screen and (max-width: 850px) {
 	/* Elements */
 	h1 {
@@ -69,17 +78,12 @@
 		width: 370px;
 		height: 185px;
 	}
+		#slide div {
+			background-position: 50% 0;
+			background-size: auto 185px;
+		}
 
-
-
-
-
-
-
-
-
-
-
+	/* Frontpage: Columns */
 	.post-wrap {
 		padding-bottom: 0;
 	}
@@ -93,6 +97,8 @@
 	#article.file_screenshots img {
 		max-width: 48%;
 	}
+
+	/* Navigation */
 
 	#mainnav-icon {
 		display: block;
