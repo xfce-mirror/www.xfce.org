@@ -1,4 +1,4 @@
-
+<?php $head['title'] = 'Xfce 4.4 rc 2 (4.3.99.2) Changelog'; ?>
 
 <h1>Xfce 4.4 rc 2 (4.3.99.2) Changelog</h1>
 

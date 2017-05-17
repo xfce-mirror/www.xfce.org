@@ -1,3 +1,5 @@
+<?php $head['title'] = 'Xfce 4.6.0 Changelog'; ?>
+
 <h1>Xfce 4.6.0 Changelog</h1>
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>

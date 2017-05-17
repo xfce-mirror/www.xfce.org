@@ -1,3 +1,5 @@
+<?php $head['title'] = 'Xfce 4.4.3 Changelog'; ?>
+
 <h1>Xfce 4.4.3 Changelog</h1>
 
 <h2>Panel <em>(xfce4-panel)</em></h2>

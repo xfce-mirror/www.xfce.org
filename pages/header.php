@@ -1,7 +1,7 @@
 <?php
 /* setup the page title */
 if (isset ($head['title']))
-	$title = $head['title'].' - Xfce';
+	$title = $head['title'].' – Xfce';
 else
 	$title = R_('Xfce Desktop Environment');
 
