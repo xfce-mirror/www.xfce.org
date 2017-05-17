@@ -35,6 +35,8 @@ foreach ($news as $item)
     else
       $title = $item['title'];
 
+	$head['title'] .= ' – ' . $title;
+
   echo '<div class="newsitem">';
 
   echo '<h2 id="post-'.$stamp.'">'.$title.'</h2>'."\n";
