@@ -25,14 +25,24 @@
  */
 
 .frontpage_cols {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
+
+	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+
 	padding: 2em 0.5em;
 }
 	.frontpage_cols .column {
 		box-sizing: border-box;
 		margin: 0 1.5em;
+
+		-webkit-box-flex: 50;
+		-ms-flex: 50;
 		flex: 50;
+
+		max-width: 33%; /* try to be nice to midori */
 	}
 
 	.frontpage_cols .column h2 {
@@ -71,6 +81,8 @@
 			height: 400px;
 			text-align: center;
 
+			-webkit-transform: translateX(100%);
+			-ms-transform: translateX(100%);
 			transform: translateX(100%);
 
 			background-size: contain;
@@ -79,24 +91,61 @@
 			background-size: auto 400px;
 		}
 			#slide div:first-child {
+				-webkit-transform: translateX(0%);
+				-ms-transform: translateX(0%);
 				transform: translateX(0%);
 				z-index: 1000;
 			}
 			#slide .current {
+				-webkit-animation: slide-in 1s forwards;
 				animation: slide-in 1s forwards;
 			}
 			#slide .prev {
+				-webkit-animation: slide-out 1s forwards;
 				animation: slide-out 1s forwards;
 			}
 
 	/* Slide animations */
+	@-webkit-keyframes slide-in {
+		0% {
+			-webkit-transform: translateX(100%);
+			transform: translateX(100%);
+		}
+		100% {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+	}
 	@keyframes slide-in {
-		0% { transform: translateX(100%); }
-		100% { transform: translateX(0%); }
+		0% {
+			-ms-transform: translateX(100%);
+			transform: translateX(100%);
+		}
+		100% {
+			-ms-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+	}
+
+	@-webkit-keyframes slide-out {
+		0% {
+			-webkit-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+		100% {
+			-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+		}
 	}
 	@keyframes slide-out {
-		0% { transform: translateX(0%); }
-		100% { transform: translateX(-100%); }
+		0% {
+			-ms-transform: translateX(0%);
+			transform: translateX(0%);
+		}
+		100% {
+			-ms-transform: translateX(-100%);
+			transform: translateX(-100%);
+		}
 	}
 
 	/* Slide navigation */
@@ -117,13 +166,7 @@
 			background: #dcdcdc;
 
 			border-radius: 7px;
-			-moz-border-radius: 7px;
-			-webkit-border-radius: 7px;
-
 			transition: background 0.2s linear;
-			-moz-transition: background 0.2s linear;
-			-webkit-transition: background 0.2s linear;
-			-o-transition: background 0.2s linear;
 		}
 			#slidenav a:hover {
 				background: #bababa;
