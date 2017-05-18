@@ -24,6 +24,8 @@ else
 		echo "\t<meta name=\"keywords\" content=\"".$head['keywords']."\" />\n";
 	if (isset ($head['feed']))
 		echo "\t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS 2.0\" href=\"".$head['feed']."\" />\n";
+	if (isset ($head['css']))
+		echo "\t<style type=\"text/css\">\n".$head['css']."\n</style>\n";
 ?>
 </head>
 

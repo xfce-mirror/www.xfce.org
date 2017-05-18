@@ -60,6 +60,7 @@
 	}
 		#slide div:first-child {
 			transform: translateX(0%);
+			z-index: 1000;
 		}
 		#slide .current {
 			animation: slide-in 1s forwards;
@@ -157,7 +158,10 @@
 	}
 	#slide div span#slide-desktop-panel { background-repeat: repeat-x; }
 	#slide div span#slide-desktop-panel-left { z-index: 2; }
-	#slide div span#slide-desktop-panel-right { z-index: 2; background-position: 100% 0; }
+
+	#slide div span#slide-desktop-icons {
+		background-position: 24px 96px;
+	}
 
 	/* Panel slide */
 

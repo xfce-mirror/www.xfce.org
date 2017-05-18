@@ -6,20 +6,28 @@ include ('pages/versions.php');
 $head['description'] = 'Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
 $head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
+$head['css'] = '@media screen and (max-width:830px) {
+#slide div#slide-thunar { background-image: url(' . $static_media . '/slider/thunar_mobile.png) !important; }
+#slide div#slide-settings { background-image: url(' . $static_media . '/slider/settings_mobile.png) !important; }
+#slide div#slide-xfwm4 { background-image: url(' . $static_media . '/slider/xfwm4_mobile.png) !important; }
+#slide div#slide-panel { background-image: url(' . $static_media . '/slider/panel_mobile.png) !important; }
+#slide div#slide-apps { background-image: url(' . $static_media . '/slider/apps_mobile.png) !important; }
+}';
 ?>
 
 <div id="slidewrap">
 <div id="slide">
-	<div alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
+	<div id="slide-desktop" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
 		<span id="slide-desktop-panel" style="background-image: url(<?php echo $static_media; ?>/slider/panel_bg.png);"><span id="slide-desktop-panel-left" style="background-image: url(<?php echo $static_media; ?>/slider/panel_left.png);"></span><span id="slide-desktop-panel-right" style="background-image: url(<?php echo $static_media; ?>/slider/panel_right.png);"></span></span>
+		<span id="slide-desktop-icons" style="background-image: url(<?php echo $static_media; ?>/slider/desktop_icons.png);"></span>
 	</div>
-	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_thunar.png);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_settings.png);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_xfwm4.png);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
-	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_panel.png);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>">
+	<div id="slide-thunar" style="background-image: url(<?php echo $static_media; ?>/slider/thunar.png);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
+	<div id="slide-settings" style="background-image: url(<?php echo $static_media; ?>/slider/settings.png);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
+	<div id="slide-xfwm4" style="background-image: url(<?php echo $static_media; ?>/slider/xfwm4.png);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
+	<div id="slide-panel" style="background-image: url(<?php echo $static_media; ?>/slider/panel.png);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>">
 		<span id="slide-panel-deskbar" style="background-image: url(<?php echo $static_media; ?>/slider/panel_deskbar.png);"></span><span id="slide-panel-vertical" style="background-image: url(<?php echo $static_media; ?>/slider/panel_vertical.png);"></span>
 	</div>
-	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_apps.png);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
+	<div id="slide-apps" style="background-image: url(<?php echo $static_media; ?>/slider/apps.png);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
 </div>
 <div id="slidenav"></div>
 </div>
