@@ -22,7 +22,7 @@ $uri = trim (strtolower ($uri_a[0]), '/');
 if (isset ($_GET['feed']) && $_GET['feed'] == 'rss2')
 {
   header ('HTTP/1.1 301 Moved Permanently');
-  header ('Location: http://www.xfce.org/feed');
+  header ('Location: https://xfce.org/feed');
   exit;
 }
 

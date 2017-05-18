@@ -11,7 +11,7 @@
 </ul>
 
 <h2>Widget Library <em>(libxfcegui4)</em></h2>
-<p>Note that there have been <a href="http://git.xfce.org/xfce/libxfcegui4/plain/NEWS?h=xfce-4.6">standalone releases</a>
+<p>Note that there have been <a href="https://git.xfce.org/xfce/libxfcegui4/plain/NEWS?h=xfce-4.6">standalone releases</a>
    of this packages after 4.6.1, hence the version number 4.6.4 in Xfce 4.6.2.</p>
 <ul>
   <li>Build fixes for GIT.</li>
@@ -20,7 +20,7 @@
 </ul>
 
 <h2>Extension Library <em>(exo)</em></h2>
-<p>Note that there have been <a href="http://git.xfce.org/xfce/exo/plain/NEWS?h=xfce-4.6">standalone releases</a>
+<p>Note that there have been <a href="https://git.xfce.org/xfce/exo/plain/NEWS?h=xfce-4.6">standalone releases</a>
    for this packages after 4.6.1, hence the version number 0.3.107 in Xfce 4.6.2.</p>
 <ul>
   <li>Make the treeview work again with gtk 2.20 (bug #6230).</li>
@@ -72,7 +72,7 @@
 </ul>
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
-<p>Note that there have been <a href="http://git.xfce.org/xfce/xfce4-panel/plain/NEWS?h=xfce-4.6">standalone releases</a>
+<p>Note that there have been <a href="https://git.xfce.org/xfce/xfce4-panel/plain/NEWS?h=xfce-4.6">standalone releases</a>
    for this packages after 4.6.1, hence the version number 4.6.4 in Xfce 4.6.2.</p>
 <ul>
   <li>Destroy windowlist menu in an idle (bug #3853).</li>
@@ -90,7 +90,7 @@
 </ul>
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
-<p>Note that there have been <a href="http://git.xfce.org/xfce/xfce4-settings/plain/NEWS?h=xfce-4.6">standalone releases</a>
+<p>Note that there have been <a href="https://git.xfce.org/xfce/xfce4-settings/plain/NEWS?h=xfce-4.6">standalone releases</a>
    for this packages after 4.6.1, hence the version number 4.6.5 in Xfce 4.6.2.</p>
 <ul>
   <li>Port to libxklavier 5.0 API.</li>
@@ -109,7 +109,7 @@
 </ul>
 
 <h2>File Manager <em>(thunar)</em></h2>
-<p>Note that there has been an <a href="http://git.xfce.org/xfce/thunar/plain/NEWS?h=xfce-4.6">individual release</a>
+<p>Note that there has been an <a href="https://git.xfce.org/xfce/thunar/plain/NEWS?h=xfce-4.6">individual release</a>
    for this packages after 4.6.1, hence the version number 1.0.2 in Xfce 4.6.2.</p>
 <ul>
   <li>Build fixes for GIT and some cleanups.</li>

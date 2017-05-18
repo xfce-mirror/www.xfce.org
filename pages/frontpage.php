@@ -5,7 +5,7 @@ include ('pages/versions.php');
 
 $head['description'] = 'Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.';
 $head['keywords'] = 'desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment';
-$head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
+$head['feed'] = 'https://xfce.org/feed?lang='.$lang;
 $head['css'] = '@media screen and (max-width:830px) {
 #slide div#slide-thunar { background-image: url(' . $static_media . '/slider/thunar_mobile.png) !important; }
 #slide div#slide-settings { background-image: url(' . $static_media . '/slider/settings_mobile.png) !important; }
@@ -69,7 +69,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 
 <div class="column">
 	<h2><?php E_('Latest News') ?></h2>
-	<span class="rss"><a href="https://www.xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
+	<span class="rss"><a href="https://xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
 	<?php
 		$count = 2;
 		foreach ($news as $item)

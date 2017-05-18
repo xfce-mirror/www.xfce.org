@@ -52,7 +52,7 @@
 <?php print_figure ('about/tour/4.4/removable-volumes.png', R_('Removable Volumes')) ?>
 
 <p>
-  <?php E_('Click on the icon to automatically mount the volume. Right-click the icon to unmount the drive or eject the media from the drive. Note however that this feature requires <a href="http://freedesktop.org/wiki/Software_2fhal">HAL</a> and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above at the time of this writing (there is limited removable media support for FreeBSD 4.x and 5.x which does not require HAL).') ?>
+  <?php E_('Click on the icon to automatically mount the volume. Right-click the icon to unmount the drive or eject the media from the drive. Note however that this feature requires <a href="https://freedesktop.org/wiki/Software_2fhal">HAL</a> and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above at the time of this writing (there is limited removable media support for FreeBSD 4.x and 5.x which does not require HAL).') ?>
 </p>
 
 
@@ -124,7 +124,7 @@
 </p>
 
 <p>
-  <?php E_('Most of the additional panel plugins, available via the <a href="http://goodies.xfce.org/">Xfce Goodies Project</a>, have been updated for the new panel, and several new plugins were added. For example, the brand new <b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel applets to the Xfce panel.') ?>
+  <?php E_('Most of the additional panel plugins, available via the <a href="https://goodies.xfce.org/">Xfce Goodies Project</a>, have been updated for the new panel, and several new plugins were added. For example, the brand new <b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel applets to the Xfce panel.') ?>
 </p>
 
 
@@ -176,7 +176,7 @@
 <h2><?php E_('Autostart') ?></h2>
 
 <p>
-  <?php E_('Xfce 4.4.0 implements the new <a href="http://freedesktop.org/wiki/Standards_2fautostart_2dspec">Autostart Specification</a> - actually Xfce was the first desktop to implement said feature, but the others were faster to release. ;-)') ?>
+  <?php E_('Xfce 4.4.0 implements the new <a href="https://freedesktop.org/wiki/Standards_2fautostart_2dspec">Autostart Specification</a> - actually Xfce was the first desktop to implement said feature, but the others were faster to release. ;-)') ?>
 </p>
 
 <?php print_figure ('about/tour/4.4/autostart.png', R_('Xfce Autostart Editor')) ?>
@@ -215,7 +215,7 @@
 <h2><?php E_('Links') ?></h2>
 
 <ul>
-  <li><a href="http://www.xfce.org/"><?php E_('Xfce website') ?></a></li>
+  <li><a href="https://xfce.org/"><?php E_('Xfce website') ?></a></li>
   <li><a href="http://thunar.xfce.org/"><?php E_('Thunar website') ?></a></li>
 </ul>
 

@@ -10,7 +10,7 @@
   <li>Improved support for Cygwin.</li>
   <li>Support for partial struts in xfwm4, xftaskbar4 and xfce4-panel.</li>
   <li>Freedesktop specifications compliance for menu and icons themes.</li>
-  <li>New file locations based on the Freedesktop.org <a href="http://freedesktop.org/wiki/Standards/basedir-spec">XDG Basedir Specification</a> (all Xfce settings are now stored under the <tt>~/.config/xfce4/</tt> directory).</li>
+  <li>New file locations based on the Freedesktop.org <a href="https://freedesktop.org/wiki/Standards/basedir-spec">XDG Basedir Specification</a> (all Xfce settings are now stored under the <tt>~/.config/xfce4/</tt> directory).</li>
   <li>New and updated translations.</li>
   <li>Support for <i>kiosk mode</i>, in which the allowed user actions can be restricted in xfce4-session, xfce4-panel, and xfdesktop (see included doc/README.Kiosk files).</li>
 </ul>

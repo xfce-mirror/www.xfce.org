@@ -12,13 +12,13 @@
 <h2><?php E_('Documentation') ?></h2>
 <p>
   <?php E_('There\'s lots of people using and testing Xfce. By providing useful and up-to-date documentation, you will make a big impact on helping people understand how to make the most of the Xfce Desktop Environment.') ?>
-  <?php learnmore ("http://docs.xfce.org/contribute/documentation"); ?>
+  <?php learnmore ("https://docs.xfce.org/contribute/documentation"); ?>
 </p>
 
 <h2><?php E_('Translation') ?></h2>
 <p>
   <?php E_('Are you fluent in multiple languages? By contributing your translations of text to the Xfce Desktop Environment, you will help Xfce be a better part of the global market and more accessible to the millions of potential users out there.') ?>
-  <?php learnmore ("http://docs.xfce.org/contribute/translate/start"); ?>
+  <?php learnmore ("https://docs.xfce.org/contribute/translate/start"); ?>
 </p>
 
 <h2><?php E_('Development') ?></h2>
@@ -28,7 +28,7 @@
 
 <h2><?php E_('Promotion') ?></h2>
 <p>
-  <?php E_('If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Identi.ca or Twitter account you can also help by reposting any <a href="http://identi.ca/xfce">announcements</a> we make to help us reach a larger audience.') ?>
+  <?php E_('If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Twitter account you can also help by reposting any <a href="https://twitter.com/xfceofficial">announcements</a> we make to help us reach a larger audience.') ?>
 </p>
 
 <h2><?php E_('Bug Reporting and testing') ?></h2>

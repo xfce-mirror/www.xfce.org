@@ -6,7 +6,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="http://blog.xfce.org"><?php E_('Blog') ?>
+		<a href="https://blog.xfce.org"><?php E_('Blog') ?>
 			<span>&ndash; <?php E_('read what the contributors to Xfce have the say') ?></span>
 		</a>
 	</li>

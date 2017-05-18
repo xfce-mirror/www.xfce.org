@@ -43,7 +43,7 @@ else
 			<li><a href="https://wiki.xfce.org" title="Community documentation">Wiki</a></li>
 			<li><a href="https://forum.xfce.org" title="Community forums">Forum</a></li>
 			<li><a href="https://bugzilla.xfce.org" title="Report and track bugs">Bugs</a></li>
-			<li><a href="http://blog.xfce.org" title="Visit the blog">Blog</a></li>
+			<li><a href="https://blog.xfce.org" title="Visit the blog">Blog</a></li>
 			<li><a href="https://xfce.org/getinvolved/translation" title="Help translating the Xfce project">Translate</a></li>
 			<li><a href="https://git.xfce.org" title="Project repositories">GIT</a></li>
 		</ul>

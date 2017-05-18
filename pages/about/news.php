@@ -4,7 +4,7 @@
 include ('pages/news-array.php');
 
 $head['title'] = R_('News');
-$head['feed'] = 'http://www.xfce.org/feed?lang='.$lang;
+$head['feed'] = 'https://xfce.org/feed?lang='.$lang;
 
 echo '<h1>'.$head['title'].'</h1>';
 

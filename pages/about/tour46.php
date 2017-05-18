@@ -35,7 +35,7 @@
 <h2><?php E_("Sound Mixer") ?> <em>(xfce4-mixer)</em></h2>
 
 <p>
-<?php E_('<b>Xfce4 Mixer</b> has been rewritten from scratch to use <a href="http://www.gstreamer.net/">Gstreamer</a>. This allows us to more easily support multiple sound systems, the user interface is more polished, and you can manage several different sound cards. Additionally, a panel plugin allows you to set the system sound quickly using the mouse scroll wheel.') ?>
+<?php E_('<b>Xfce4 Mixer</b> has been rewritten from scratch to use <a href="https://gstreamer.freedesktop.org/">Gstreamer</a>. This allows us to more easily support multiple sound systems, the user interface is more polished, and you can manage several different sound cards. Additionally, a panel plugin allows you to set the system sound quickly using the mouse scroll wheel.') ?>
 </p>
 
 <?php print_figure ('about/tour/4.6/xfce4-mixer.png', R_('New sound mixer')) ?>
@@ -98,7 +98,7 @@
 <?php print_figure ('about/tour/4.6/thunar-wallpaper-plugin.png', R_('Set an image in a Thunar folder as wallpaper')) ?>
 
 <p>
-  <?php E_('<b>Thunar</b> now follows the <a href="http://freedesktop.org/wiki/Software/xdg-user-dirs"> XDG user directories</a> specification; this allows you to have themed and localized user folders to store your music, documents, videos, templates, etcetera...') ?>
+  <?php E_('<b>Thunar</b> now follows the <a href="https://freedesktop.org/wiki/Software/xdg-user-dirs"> XDG user directories</a> specification; this allows you to have themed and localized user folders to store your music, documents, videos, templates, etcetera...') ?>
 </p>
 
 <?php print_figure ('about/tour/4.6/thunar-xdg-user-dirs.png', R_('Thunar menu for user directories')) ?>
@@ -188,8 +188,8 @@
 <h2><?php E_('Links') ?></h2>
 
 <ul>
-  <li><a href="http://www.xfce.org/"><?php E_('Xfce website') ?></a></li>
-  <li><a href="http://www.xfce.org/projects/thunar"><?php E_('Thunar website') ?></a></li>
+  <li><a href="https://xfce.org/"><?php E_('Xfce website') ?></a></li>
+  <li><a href="https://xfce.org/projects/thunar"><?php E_('Thunar website') ?></a></li>
 </ul>
 
 <h2><?php E_('Credits') ?></h2>

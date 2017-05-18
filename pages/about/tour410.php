@@ -6,7 +6,7 @@
 
 <h2><?php E_("Online Documentation") ?></h2>
 
-  <p><?php E_("During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at <a href=\"http://docs.xfce.org\">docs.xfce.org</a>. The reason for this change is to make <a href=\"http://docs.xfce.org/wiki/documentation\">contributing</a> and updating the documentation easier.") ?></p>
+  <p><?php E_("During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at <a href=\"https://docs.xfce.org\">docs.xfce.org</a>. The reason for this change is to make <a href=\"https://docs.xfce.org/wiki/documentation\">contributing</a> and updating the documentation easier.") ?></p>
 
   <?php print_figure ("about/tour/4.10/online-help.png", R_("When you click a Help button Xfce will ask you to go to an online wiki page")) ?>
 
@@ -86,7 +86,7 @@
 
   <h3><?php E_("Mouse and Touchpad") ?></h3>
 
-    <p><?php E_("The <em>mouse and touchpad</em> dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the <a href=\"http://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki.") ?></p>
+    <p><?php E_("The <em>mouse and touchpad</em> dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the <a href=\"https://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> wiki.") ?></p>
 
     <?php print_figure ("about/tour/4.10/settings-mouse.png", R_("Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog")) ?>
 
