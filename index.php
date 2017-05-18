@@ -1,6 +1,6 @@
 <?php
 
-$static_media = "http://cdn.xfce.org";
+$static_media = "//cdn.xfce.org";
 
 /*error_reporting(E_ALL | E_STRICT);*/
 date_default_timezone_set ('UTC');
