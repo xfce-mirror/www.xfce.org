@@ -68,8 +68,8 @@ $head['css'] = '@media screen and (max-width:830px) {
 </div>
 
 <div class="column">
-	<span class="rss"><a href="http://www.xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
 	<h2><?php E_('Latest News') ?></h2>
+	<span class="rss"><a href="https://www.xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
 	<?php
 		$count = 2;
 		foreach ($news as $item)
@@ -104,8 +104,8 @@ $head['css'] = '@media screen and (max-width:830px) {
 </div>
 
 <div class="column">
-	<span class="rss"><a href="http://blog.xfce.org/feed"><?php E_('Subscribe to RSS feed') ?></a></span>
 	<h2><?php E_('On the Xfce Blog') ?></h2>
+	<span class="rss"><a href="https://blog.xfce.org/feed"><?php E_('Subscribe to RSS feed') ?></a></span>
 	<?php
 		require_once('lib/simplepie/autoloader.php');
 		$feed = new SimplePie();

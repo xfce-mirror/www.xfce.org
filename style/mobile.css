@@ -6,6 +6,12 @@
 		margin-bottom: 0.5em;
 	}
 }
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+	.frontpage_cols .column:nth-child(3) .rss {
+		float: none;
+		margin-left: 2em;
+	}
+}
 
 @media screen and (max-width: 850px) {
 	/* Elements */
@@ -54,9 +60,48 @@
 					padding: 0.3em 0.6em;
 					display: block;
 				}
-				#related-jump.file_frontpage {
-					display: none;
-				}
+
+	/* Navigation */
+	#mainnav-icon {
+		display: block;
+		float: left;
+	}
+	#mainnav div ul {
+		display: none;
+		background: #fff;
+		position: absolute;
+		margin-top: 32px;
+		width: 200px;
+		float: left;
+		z-index: 2000;
+		border: 1px solid rgba(0,0,0,0.2);
+		box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	}
+	#mainnav div:hover ul {
+		display: block;
+	}
+	#mainnav div:hover #mainnav-icon {
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+	#mainnav ul li {
+		float: none;
+		border-left: 0;
+		border-top: 1px solid #fff;
+		padding: 0;
+	}
+	
+	#mainnav ul li a {
+		display: block;
+		padding: 0.4em 1em;
+		border-top: 1px solid rgba(0,0,0,0.1);
+	}
+		#mainnav ul li:first-child a { border-top: none; }
+
+	#mainnav ul li a:hover {
+		background-color: #eee;
+		text-decoration: none;
+	}
 
 	/* Templates */
 	div.grid {
@@ -67,7 +112,7 @@
 		width: 90%;
 	}
 
-	/* Frontpage: Slider */
+	/* Front page: Slider */
 	#slidewrap {
 		background-size: auto 185px;
 	}
@@ -90,59 +135,20 @@
 		#slide div span#slide-panel-vertical { display: none; }
 		#slide div span#slide-panel-deskbar { background-position: 0 0; }
 
-	/* Frontpage: Columns */
+	/* Front page: Columns */
 	.post-wrap {
 		padding-bottom: 0;
 	}
 	.frontpage_cols {
 		display: block;
-		padding: 1em;
+		padding: 1em 0 2em 0;
 	}
 		.frontpage_cols .column {
 			margin-bottom: 2em;
 		}
+
+	/* Screenshots page */
 	#article.file_screenshots img {
 		max-width: 48%;
-	}
-
-	/* Navigation */
-
-	#mainnav-icon {
-		display: block;
-		float: left;
-	}
-	#mainnav div ul {
-		display: none;
-		background: #333;
-		position: absolute;
-		margin-top: 32px;
-		color: #fff !important;
-		width: 200px;
-		float: left;
-		z-index: 99;
-
-	}
-	#mainnav div:hover ul {
-		display: block;
-	}
-	#mainnav div:hover #mainnav-icon {
-		border-bottom-right-radius: 0;
-		border-bottom-left-radius: 0;
-	}
-	#mainnav ul li {
-		float: none;
-		border-left: 0;
-		border-top: 1px solid #fff;
-		padding: 0;
-	}
-	#mainnav ul li a {
-		display: block;
-		color: #fff;
-		padding: 6px 20px;
-		font-weight: bold;
-	}
-	#mainnav ul li a:hover {
-		background-color: #666;
-		text-decoration: none;
 	}
 }

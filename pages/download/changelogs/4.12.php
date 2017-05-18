@@ -1,4 +1,4 @@
-<?php $head['title'] = 'Xfce 4.14 Changelog'; ?>
+<?php $head['title'] = 'Xfce 4.12 Changelog'; ?>
 
 <h1>Xfce 4.12 Changelog</h1>
 

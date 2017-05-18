@@ -54,7 +54,7 @@ $buf = '';
 $mtime = 0;
 
 /* load contents */
-$files = array ('header.css', 'base.css', 'frontpage.css', 'news.css', 'mobile.css');
+$files = array ('header.css', 'base.css', 'frontpage.css', 'mobile.css');
 foreach ($files as $file)
   {
     $buf .= file_get_contents ($file);
