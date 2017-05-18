@@ -110,7 +110,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 		require_once('lib/simplepie/autoloader.php');
 		$feed = new SimplePie();
 		$feed->set_feed_url(array('https://blog.xfce.org/feed/'));
-		$feed->set_cache_location('lib/simplepie/cache');
+		$feed->set_cache_location('cache');
 		$feed->init();
 		$feed->handle_content_type();
 
