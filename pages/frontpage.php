@@ -10,7 +10,7 @@ $head['feed'] = 'https://www.xfce.org/feed?lang='.$lang;
 
 <div id="slidewrap">
 <div id="slide">
-	<div style="background-image: url(<?php echo $static_media; ?>/frontpage/slider-desktop.jpg);" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
+	<div alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
 		<span id="slide-desktop-panel"><span id="slide-desktop-panel-left"></span><span id="slide-desktop-panel-right"></span></span>
 	</div>
 	<div style="background-image: url(<?php echo $static_media; ?>/slider/collase_thunar.png);" alt="File Manager" title="<?php E_('Thunar is the file manager for the Xfce Desktop. It has been designed from the ground up to be fast and easy-to-use. Its user interface is clean and intuitive, and does not include any confusing or useless options by default.') ?>"></div>
