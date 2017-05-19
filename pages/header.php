@@ -11,7 +11,7 @@ else
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 	<title><?php echo $title ?></title>
 	<link rel="icon" href="/style/favicon.png" />
 	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
