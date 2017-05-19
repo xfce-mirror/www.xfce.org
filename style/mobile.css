@@ -16,6 +16,19 @@
 	}
 }
 
+@media screen and (max-width: 400px) {
+	.frontpage_cols .column h2 {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.frontpage_cols .rss {
+		display: block;
+		float: none;
+		clear: both;
+		margin-bottom: 1em;
+	}
+}
+
 @media screen and (max-width: 850px) {
 	/* Elements */
 	h1 {
@@ -26,7 +39,7 @@
 
 	/* Main layout */
 	#main {
-		min-width: 360px;
+		min-width: 300px;
 	}
 
 		/* Main navigation */
