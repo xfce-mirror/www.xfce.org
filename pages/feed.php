@@ -49,6 +49,9 @@ foreach ($news as $item)
            '<content:encoded><![CDATA[';
 
     foreach ($item['paragraphs'] as $p)
+        if (is_array( $p ) )
+            foreach ( $p as $curp ) { echo '<p>'.fixup ($p).'</p>'; }
+        else
             echo '<p>'.fixup ($p).'</p>';
 
     echo   ']]></content:encoded>'.
