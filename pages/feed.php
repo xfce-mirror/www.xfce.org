@@ -50,7 +50,7 @@ foreach ($news as $item)
 
     foreach ($item['paragraphs'] as $p)
         if (is_array( $p ) )
-            foreach ( $p as $curp ) { echo '<p>'.fixup ($p).'</p>'; }
+            foreach ( $p as $curp ) { echo '<p>'.fixup ($curp).'</p>'; }
         else
             echo '<p>'.fixup ($p).'</p>';
 
