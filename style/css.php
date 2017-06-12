@@ -1,5 +1,14 @@
 <?php
 
+/* change this prefix when you want to make sure cache is claered */
+$apc_cache_prefix = '2017-06-12-e';
+
+$site = urlencode ($_GET['site']);
+
+/*if ($site == 'wiki' || $site == 'www' ) {
+	$apc_cache_prefix = mt_rand(1,2000);
+} */
+
 /* this file loads all the css required for the Xfce website
  * and bundles it in a single file. The css files are split
  * to make them both readable and some files are fetched for
@@ -36,10 +45,10 @@ function base64data ($matches)
 $have_apc = false;
 if (function_exists ('apc_fetch'))
   {
-    $buf = @apc_fetch ('wxo410_css');
+    $buf = @apc_fetch ($apc_cache_prefix.$site.'_css');
     if ($buf != false)
       {
-        $mtime = @apc_fetch ('wxo410_css_mtime');
+        $mtime = @apc_fetch ($apc_cache_prefix.$site.'_css_mtime');
         write_header ($mtime);
         echo $buf;
 
@@ -54,7 +63,14 @@ $buf = '';
 $mtime = 0;
 
 /* load contents */
-$files = array ('header.css', 'base.css', 'frontpage.css', 'mobile.css');
+$files = array ('base_header.css', 'base.css');
+if ($site && file_exists ('site_'. urlencode ($site).'.css')) {
+	$files[] = 'site_'. urlencode ($site).'.css';
+}
+$files[] = 'base_mobile.css';
+if ($site && file_exists ('site_'. urlencode ($site).'_mobile.css')) {
+	$files[] = 'site_'. urlencode ($site).'_mobile.css';
+}
 foreach ($files as $file)
   {
     $buf .= file_get_contents ($file);
@@ -81,8 +97,8 @@ if ($have_apc)
   {
     $ttl = 3600; /* 1 hour */
 
-    @apc_store ('wxo410_css', $buf, $ttl);
-    @apc_store ('wxo410_css_mtime', $mtime, $ttl);
+    @apc_store ($apc_cache_prefix.$site.'_css', $buf, $ttl);
+    @apc_store ($apc_cache_prefix.$site.'_css_mtime', $mtime, $ttl);
   }
 
 ?>

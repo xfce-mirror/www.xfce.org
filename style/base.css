@@ -1,4 +1,10 @@
 /*
+ *  The base style for all xfce.org websites
+ *  CSS definitions specific for different sites can be found in the site_*.css files
+ *
+ */
+
+/*
  *  Elements
  * 
  */
@@ -50,6 +56,12 @@ a:hover span {
 	color: #f00;
 }
 
+hr {
+	border: none;
+	border-top: 1px solid rgba( 0, 0, 0, 0.2 );
+	margin: 2em 0;
+}
+
 ul {
 	list-style-type: square;
 }
@@ -62,11 +74,90 @@ dl dd {
 	margin: 0 0 1em 3em;
 }
 
+table {
+	width: 100%;
+	font-size: 90%;
+	border-collapse: collapse;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+}
+	table tr {
+		border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );
+	}
+	table thead th {
+		background-color: rgba( 0, 0, 0, 0.05 );
+	}
+	table th,
+	table td {
+		padding: 0.2em 0.5em;
+		vertical-align: top;
+		border-right: 1px solid rgba( 0, 0, 0, 0.05 );
+	}
+
+/*  Forms  */
+
+/*
+ *  Form stuff and links dressed as buttons
+ *
+ */
+
+input[type="submit"],
+button,
+select {
+	border-radius: 0.2em;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	background: #f7f7f7 linear-gradient( to bottom, rgba( 255, 255, 255, 0.5 ), rgba( 0, 0, 0, 0.02 ) 1px, rgba( 0, 0, 0, 0.05 ) ) repeat-x;
+	color: #000;
+	padding: 0.2em 0.5em;
+	outline: none !important;
+	transition: 150ms all;
+}
+	select {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+	}
+
+	input[type="submit"]:hover,
+	button:hover,
+	select:hover {
+		background-color: #fff;
+	}
+
+input,
+input[type="text"],
+textarea {
+	background-color: #f7f7f7;
+	color: #000;
+	border-radius: 0.2em;
+	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	padding: 0.2em 0.5em;
+}
+	input[type="file"] {
+		border: none;
+	}
+	textarea {
+		font-size: 90%;
+	}
+
+input[type="checkbox"] {
+	float: left;
+	display: block;
+	opacity: 0.75;
+	margin-top: 0.15em;
+	margin-right: 0.5em;
+	transition: 150ms all;
+}
+	input[type="checkbox"]:checked {
+		opacity: 1;
+	}
+
+
 /*
  *  Main layout
  *
  */
 
+.main_width,
 #main {
 	width: 95%;
 	min-width: 830px;
@@ -75,55 +166,6 @@ dl dd {
 	margin: 0 auto;
 	padding: 0 0.5em;
 }
-
-	/* Main navigation */
-	#mainnav {
-		padding: 0.4em 0;
-	}
-	#mainnav ul {
-		list-style: none;
-		line-height: 2em;
-	}
-
-	#mainnav ul li {
-		border-left: 1px solid rgba( 0, 0, 0, .15 );
-		float: left;
-		font-weight: bold;
-	}
-
-	#mainnav ul li:first-child {
-		border-left: 0;
-		border-top: 0;
-	}
-
-	#mainnav ul li a {
-		display: block;
-		padding: 0.1em 1em;
-	}
-
-	#mainnav select {
-		float: right;
-		margin-top: 0.15em;
-	}
-		#mainnav select option {
-			font-size: 90%;
-	}
-	#mainnav-icon {
-		display: none;
-		height: 32px;
-		background: #1b68bf url('img/menu-button.png') no-repeat 9px 50%;
-
-		padding: 0 9px 0 39px;
-		line-height: 32px;
-
-		color: #fff;
-		font-weight: bold;
-		border-radius: 3px;
-	}
-		#mainnav-icon:hover, #mainnav-icon:active, #mainnav-icon:focus {
-			background-color: #2284f2;
-			text-decoration: none;
-		}
 
 	/* Content */
 	#content {
@@ -156,6 +198,9 @@ dl dd {
 			max-width: 230px;
 			padding: 1em 1.5em;
 		}
+			#related:empty {
+				display: none;
+			}
 			#related h2 {
 				margin: 1em 0 0.5em 0;
 				font-weight: normal;
@@ -177,166 +222,6 @@ dl dd {
 	#footer {
 		color: #999;
 		text-align: center;
-	}
-
-/*
- *  Templates
- *
- */
-
-/* News */
-
-.newsitem {
-	clear: both;
-
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-
-	padding-bottom: 1em;
-}
-	.newsitem .post-date {
-		-webkit-box-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
-
-		min-width: 50px;
-		max-width: 50px;
-		order: 2;
-	}
-		.post-month {
-			text-transform: uppercase;
-			color: #fff;
-			text-align: center;
-			display:block;
-			padding: 0.15em;
-			background: #2284f2;
-		}
-		.post-day {
-			text-transform: uppercase;
-			color: #3d3d3d;
-			text-align: center;
-			display: block;
-			background: #fff;
-			border: 1px solid rgba( 0, 0, 0, 0.2 );
-			border-top: 0;
-			padding: 2px;
-			line-height: 13px;
-		}
-			.post-day .day {
-				font-size: 115%;
-				line-height: 1.3em;
-				font-weight: 500;
-			}
-			.post-day .year {
-				font-size: 85%;
-				color: #6d6d6d;
-			}
-
-	.newsitem .post-wrap {
-		-webkit-box-flex: 80;
-		-ms-flex: 80;
-		flex: 80;
-
-		order: 3;
-		padding-left: 1.2em;
-	}
-		.newsitem h2,
-		.newsitem h3 {
-			-webkit-box-flex: 100;
-			-ms-flex: 100;
-			flex: 100;
-
-			order: 1;
-			min-width: 100%;
-			margin: 0 0 0.3em 0;
-		}
-		.newsitem h2 {
-			margin-bottom: 1em;
-		}	
-		.newsitem .post-wrap p:first-child {
-			margin-top: 0;
-		}
-
-/* RSS icons */
-
-.rss {
-	padding: 2px 20px 0 0;
-	background: url('img/feed.gif') no-repeat right center;
-	float: right;
-	font-size: 85%;
-}
-	.rss a:link, .rss a:visited {
-		color: rgba(0,0,0,0.8);
-	}
-	.rss a:hover, .rss a:active, .rss a:focus {
-		color: #fa6e08;
-	}
-
-h1 + .rss {
-	margin-top: -3.5em;
-}
-
-/* Grid for projects */
-
-div.grid {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-}
-	div.grid .item {
-		-webkit-box-flex: 50;
-		-ms-flex: 50;
-		flex: 50;
-
-		min-width: 45%;
-		margin-right: 2em;
-	}
-		div.grid .item:nth-child(even) {
-			margin-right: 0;
-		}
-		div.grid .item:last-child:nth-child(odd) {
-			margin-right: 50%;
-		}
-			div.grid.icons .item p:first-of-type {
-				padding-left: 58px;
-				background-repeat: no-repeat;
-				background-position: 0 0;
-				min-height: 48px;
-			}
-
-/* Figures */
-
-div.figure {
-	width: 75%;
-	margin: auto;
-	border: 1px solid #ccc;
-	background-color: #eee;
-	color: #333;
-	padding: 0.5em;
-	text-align: center;
-	font-weight: bold;
-}
-	div.figure p.image {
-		border: 1px solid #ccc;
-		background-color: #fff;
-		padding: 0.5em;
-	}
-	div.figure img {
-		max-width: 100%;
-		height: auto;
-	}
-	div.figure p {
-		margin: 0;
-	}
-	div.figure + div.figure {
-		margin-top: 1em;
 	}
 
 /*

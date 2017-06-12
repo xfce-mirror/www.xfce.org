@@ -1,7 +1,222 @@
 /*
- *  Some frontpage-specific tweaks
+ *  Additional styles for www.xfce.org
  *
  */
+
+/*
+ *   Main navigation 
+ *
+ */
+
+#mainnav {
+	padding: 0.4em 0;
+}
+#mainnav ul {
+	list-style: none;
+	line-height: 2em;
+}
+
+#mainnav ul li {
+	border-left: 1px solid rgba( 0, 0, 0, .15 );
+	float: left;
+	font-weight: bold;
+}
+
+#mainnav ul li:first-child {
+	border-left: 0;
+	border-top: 0;
+}
+
+#mainnav ul li a {
+	display: block;
+	padding: 0.1em 1em;
+}
+
+#mainnav select {
+	float: right;
+	margin-top: 0.15em;
+}
+	#mainnav select option {
+		font-size: 90%;
+}
+#mainnav-icon {
+	display: none;
+	height: 32px;
+	background: #1b68bf url('img/menu-button.png') no-repeat 9px 50%;
+
+	padding: 0 9px 0 39px;
+	line-height: 32px;
+
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+}
+	#mainnav-icon:hover, #mainnav-icon:active, #mainnav-icon:focus {
+		background-color: #2284f2;
+		text-decoration: none;
+	}
+
+/* News */
+
+.newsitem {
+	clear: both;
+
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	padding-bottom: 1em;
+}
+	.newsitem .post-date {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+
+		min-width: 50px;
+		max-width: 50px;
+		order: 2;
+	}
+		.post-month {
+			text-transform: uppercase;
+			color: #fff;
+			text-align: center;
+			display:block;
+			padding: 0.15em;
+			background: #2284f2;
+		}
+		.post-day {
+			text-transform: uppercase;
+			color: #3d3d3d;
+			text-align: center;
+			display: block;
+			background: #fff;
+			border: 1px solid rgba( 0, 0, 0, 0.2 );
+			border-top: 0;
+			padding: 2px;
+			line-height: 13px;
+		}
+			.post-day .day {
+				font-size: 115%;
+				line-height: 1.3em;
+				font-weight: 500;
+			}
+			.post-day .year {
+				font-size: 85%;
+				color: #6d6d6d;
+			}
+
+	.newsitem .post-wrap {
+		-webkit-box-flex: 80;
+		-ms-flex: 80;
+		flex: 80;
+
+		order: 3;
+		padding-left: 1.2em;
+	}
+		.newsitem h2,
+		.newsitem h3 {
+			-webkit-box-flex: 100;
+			-ms-flex: 100;
+			flex: 100;
+
+			order: 1;
+			min-width: 100%;
+			margin: 0 0 0.3em 0;
+		}
+		.newsitem h2 {
+			margin-bottom: 1em;
+		}	
+		.newsitem .post-wrap p:first-child {
+			margin-top: 0;
+		}
+
+/* RSS icons */
+
+.rss {
+	padding: 2px 20px 0 0;
+	background: url('img/feed.gif') no-repeat right center;
+	float: right;
+	font-size: 85%;
+}
+	.rss a:link, .rss a:visited {
+		color: rgba(0,0,0,0.8);
+	}
+	.rss a:hover, .rss a:active, .rss a:focus {
+		color: #fa6e08;
+	}
+
+h1 + .rss {
+	margin-top: -3.5em;
+}
+
+/* Grid for projects */
+
+div.grid {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+	div.grid .item {
+		-webkit-box-flex: 50;
+		-ms-flex: 50;
+		flex: 50;
+
+		min-width: 45%;
+		margin-right: 2em;
+	}
+		div.grid .item:nth-child(even) {
+			margin-right: 0;
+		}
+		div.grid .item:last-child:nth-child(odd) {
+			margin-right: 50%;
+		}
+			div.grid.icons .item p:first-of-type {
+				padding-left: 58px;
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				min-height: 48px;
+			}
+
+/* Figures */
+
+div.figure {
+	width: 75%;
+	margin: auto;
+	border: 1px solid #ccc;
+	background-color: #eee;
+	color: #333;
+	padding: 0.5em;
+	text-align: center;
+	font-weight: bold;
+}
+	div.figure p.image {
+		border: 1px solid #ccc;
+		background-color: #fff;
+		padding: 0.5em;
+	}
+	div.figure img {
+		max-width: 100%;
+		height: auto;
+	}
+	div.figure p {
+		margin: 0;
+	}
+	div.figure + div.figure {
+		margin-top: 1em;
+	}
+
+/*
+ *  Frontpage
+ *
+ */
+
+/*  No padding between the slider and content  */
 
 #article.file_frontpage {
 	margin-right: 0;
@@ -19,10 +234,7 @@
 	margin-bottom: 0;
 }
 
-/*
- *  Columns
- *
- */
+/*  Flex columns for frontpage  */
 
 .frontpage_cols {
 	display: -webkit-box;
@@ -50,10 +262,7 @@
 		display: inline-block;
 	}
 
-/*
- *  Slider
- *
- */
+/*  Slider  */
 
 #slidewrap {
 	margin: auto;
@@ -213,10 +422,7 @@
 			#slide div span#slide-panel-deskbar { background-position: 100% 0; }
 			#slide div span#slide-panel-vertical { background-position: 0 100%; }
 
-/*
- *  Feeds
- *
- */
+/*  Feeds  */
 
 ul.feeds {
 	margin-left: 0 !important;
@@ -229,3 +435,39 @@ ul.feeds {
 			color: rgba(0,0,0,0.8);
 			margin-left: 2em;
 		}
+
+/*
+ *  Responsive design
+ *
+ */
+
+@media screen and (max-width: 1200px) {
+	.frontpage_cols .column {
+		max-width: 50%; /* try to be nice to midori */
+	}
+	.frontpage_cols .column:nth-child(3) {
+		min-width: 90%;
+	}
+	.frontpage_cols .feeds {
+		margin-bottom: 0.5em;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 851px) {
+	.frontpage_cols .column:nth-child(3) .rss {
+		float: none;
+		margin-left: 2em;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.frontpage_cols .column h2 {
+		display: block;
+		margin-bottom: 0.5em;
+	}
+	.frontpage_cols .rss {
+		display: block;
+		float: none;
+		clear: both;
+		margin-bottom: 1em;
+	}
+}

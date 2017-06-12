@@ -1,0 +1,87 @@
+/*
+ *  Additional styles for blog.xfce.org
+ *
+ */
+
+#article .single + .single,
+#article .pagination {
+	border-top: 1px solid rgba( 0, 0, 0, 0.1 );
+	margin-top: 3em;
+	padding-top: 2em;
+
+	position: relative;
+}
+
+#article .single + .single::before,
+#article .pagination::before {
+	position: absolute;
+	display: inline-block;
+	top: -0.5em;
+
+	width: 8%;
+	left: 46%;
+	text-align: center;
+	content: "~";
+
+	background-color: #fff;
+	color: rgba( 0, 0, 0, 0.2 );
+	font-size: 200%;
+}
+
+#article .single .xfce-title a {
+	color: #333;
+}
+#article .single .xfce-title a:hover {
+	color: #f00;
+	text-decoration: underline;
+}
+
+
+#article .single ul.meta {
+	list-style-type: none;
+	margin-left: 0;
+	color: rgba( 0, 0, 0, 0.7 );
+	font-size: 90%;
+	margin-top: -1em;
+}
+
+	#article .single ul.meta li {
+		display: inline;
+		margin-right: 2em;
+	}
+
+		#article .single ul.meta li::before {
+			font-weight: bold;
+			font-size: 80%;
+			margin-right: 0.75em;
+		}
+		#article .single ul.meta li.date::before { content: "ON"; }
+		#article .single ul.meta li.author::before { content: "BY"; }
+
+#article .pagination {
+	display: flex;
+	font-weight: bold;
+}
+	#article .pagination::before {
+		content: "…";
+		top: -0.72em;
+	}
+	#article .pagination div {
+		flex: 1;
+	}
+	#article .pagination .next {
+		text-align: right;
+	}
+
+/* Styles for the imported posts */
+	
+#article .single img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+#article .single figure {
+	margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+#header .breadcrumbs {
+	float: left;
+}
+#header .tools {
+	float: right;
+	margin-top: -0.4em;
+}
+
+.mobileTools {
+	display: none;
+}
+
+@media screen and (max-width: 850px) {
+	#header .tools div,
+	#header .tools select,
+	#header .tools form,
+	.mobileTools {
+		display: inline;
+	}
+
+}
+
+.dokuwiki div.page {
+	box-shadow: none;
+	border: none;
+}
+
+#dw__toc {
+	margin: 0;
+	width: auto;
+	border: none;
+}
+	#dw__toc ul {
+		margin-left: 0;
+	}
+
+#header,
+#footer {
+	padding: 0.4em 0;
+}
+	#header {
+		padding-top: 0.8em;
+	}
+
+#footer .bar-left form,
+#footer .bar-right form {
+	display: inline;
+}
