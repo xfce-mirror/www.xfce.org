@@ -79,6 +79,7 @@ table {
 	font-size: 90%;
 	border-collapse: collapse;
 	border: 1px solid rgba( 0, 0, 0, 0.2 );
+	margin: 1em 0;
 }
 	table tr {
 		border-bottom: 1px solid rgba( 0, 0, 0, 0.2 );
@@ -90,8 +91,16 @@ table {
 	table td {
 		padding: 0.2em 0.5em;
 		vertical-align: top;
-		border-right: 1px solid rgba( 0, 0, 0, 0.05 );
 	}
+		table td {
+			border-right: 1px solid transparent;
+		}
+		table td:last-child,
+		table th,
+		table tr:hover td {
+			border-right: 1px solid rgba( 0, 0, 0, 0.2 );
+		}
+
 
 /*  Forms  */
 

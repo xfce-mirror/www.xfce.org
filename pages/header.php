@@ -14,7 +14,7 @@ else
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 	<title><?php echo $title ?></title>
 	<link rel="icon" href="/style/favicon.ico" />
-	<link rel="stylesheet" media="screen" href="/style/css.php" type="text/css" />
+	<link rel="stylesheet" media="screen" href="/style/css.php?site=www" type="text/css" />
 	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/apple-touch-icon.png" />
 	<meta name="content-language" content="<?php echo $lang ?>" />
 <?php

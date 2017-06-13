@@ -1,13 +1,9 @@
 <?php
 
-/* change this prefix when you want to make sure cache is claered */
-$apc_cache_prefix = '2017-06-12-e';
+/* change this prefix when you want to make sure cache is cleared */
+$apc_cache_prefix = '2017-06-13-b';
 
 $site = urlencode ($_GET['site']);
-
-/*if ($site == 'wiki' || $site == 'www' ) {
-	$apc_cache_prefix = mt_rand(1,2000);
-} */
 
 /* this file loads all the css required for the Xfce website
  * and bundles it in a single file. The css files are split
@@ -29,7 +25,7 @@ function write_header ($mtime)
 function base64data ($matches)
 {
   $file = $matches[1] .'.'. $matches[2];
-  
+
   $buf = file_get_contents ($file);
   if ($buf != false)
     {
