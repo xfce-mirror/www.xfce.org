@@ -1,3 +1,7 @@
+a span {
+	color: inherit;
+}
+
 #header .breadcrumbs {
 	float: left;
 }
@@ -27,12 +31,28 @@
 
 #dw__toc {
 	margin: 0;
-	width: auto;
+	width: 100%;
 	border: none;
 }
+	#dw__toc h3 {
+		font-weight: normal;
+		font-size: 125%;
+		letter-spacing: inherit;
+		padding: 0;
+	}
+	#dw__toc > div {
+		font-size: 100%;
+	}
 	#dw__toc ul {
 		margin-left: 0;
 	}
+		#dw__toc ul li {
+			list-style-image: none;
+			list-style-type: square;
+		}
+		#dw__toc li ul {
+			margin-top: 0.5em;
+		}
 
 #header,
 #footer {
