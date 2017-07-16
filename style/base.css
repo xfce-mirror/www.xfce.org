@@ -38,7 +38,7 @@ h2 em {
 	font-weight: normal;
 }
 
-a {
+a, a:link, a:visited {
 	color: #06c;
 	text-decoration: none;
 	outline: none;
@@ -130,7 +130,9 @@ select {
 	input[type="submit"]:hover,
 	button:hover,
 	select:hover {
-		background-color: #fff;
+		background-color: #fff;	
+		color: #06c;
+		text-decoration: none;
 	}
 
 input,
