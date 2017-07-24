@@ -3,23 +3,13 @@
  *
  */
 
-/*
- *  Note: This is a straight copy of global.css and bug.css from the Bugzilla skin
- *  TODO: Clean up duplication and merge common styles to main stylesheets
- *
- */
+body {
+	background-image: none;
+}
 
 #bugzilla-body * {
-	font-family: 'Noto Sans', sans-serif !important;
 	box-sizing: border-box;
 }
-
-a.no-color:link, a.no-color:visited {
-	color: #000;
-}
-	a.no-color:hover, a.no-color:active, a.no-color:focus {
-		color: #06c;
-	}
 
 /*  Links dressed as buttons  */
 
@@ -39,15 +29,34 @@ a.no-color:link, a.no-color:visited {
 		background-color: #fff;
 	}
 	a.action-link {
-        	font-size: 85%;
-	        line-height: 1em;
-		color: #000;
+		font-size: 85%;
+		line-height: 1em;
 	}
-        	.action-link:hover, .action-link:active, .action-link:focus,
+	a.action-link, a.action-link:link, a.action-link:visited {
+		color: #000;
+
+	}
+		a.action-link:hover, a.action-link:active, a.action-link:focus,
 		.comment_tab:hover, .comment_tab:active, .comment_tab:focus {
-        	        color: #06c;
+			color: #06c;
 			text-decoration: none;
 		}
+
+/*  Links with no color unless hover  */
+
+a.no-color:link, a.no-color:visited {
+	color: #000;
+}
+	a.no-color:hover, a.no-color:active, a.no-color:focus {
+		color: #f00;
+	}
+
+
+
+
+
+
+
 
 /*
  *  Move to main stylesheets?
@@ -55,7 +64,6 @@ a.no-color:link, a.no-color:visited {
  */
 
 #main * {
-	font-family: 'Noto Sans', sans-serif !important;
 	box-sizing: border-box; /* do we want this? */
 }
 
@@ -100,10 +108,8 @@ hr {
 		/* Used in the default template... */
 		display: none;
 	}
-/*	#header a {
-		color: #fff;
-	} */
 	#header a:hover, #header a:active, #header a:focus {
+		border-bottom-color: #fff;
 		border-bottom: 1px solid rgba( 255, 255, 255, 0.7 );
 	}
 
@@ -128,7 +134,7 @@ hr {
 #bugzilla-body {
 	position: relative;
 	margin: 0 !important;
-	padding: 3em 1em 1em 1em !important;
+	padding: 2em 1em !important;
 }
 	#bugzilla-body > h1:first-child,
 	#bugzilla-body > h2:first-child,
@@ -241,15 +247,15 @@ hr {
  *
  */
 
-#bugzilla-body  .navigation {
-	width: 100%;
-	position: absolute;
+.navigation {
+/*	width: 100%; */
+/*	position: absolute; */
 	margin: 0;
 	top: 0;
 	left: 0;
 
 	padding: 0.25em 1em;
-	background-color: #eee;
+	background-color: #fff;
 }
 	#bugzilla-body > dl:first-child {
 		background-color: #eee;
@@ -585,28 +591,6 @@ a.bz_closed:hover, a.bz_closed:active, a.bz_closed:focus  {
 	.bz_VERIFIED .bz_short_desc_column {
 		padding-left: 0.4em;
 	}
-
-
-@media screen and (max-width: 1100px) {
-	.links.links-secondary {
-		clear: left;
-		float: left;
-		display: block;
-		width: 100%;
-		background-color: rgba( 0, 0, 0, 0.1 );
-		margin-top: 0;
-	}
-}
-@media screen and (max-width: 800px) {
-	#bugzilla-body {
-		padding-top: 4.5em !important;
-	}
-	.navigation .nav_right {
-		clear: left;
-		float: left;
-		margin-top: 0.3em;
-	}
-}
 
 /*
  *  BUG VIEW
