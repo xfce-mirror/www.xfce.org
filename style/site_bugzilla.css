@@ -890,6 +890,29 @@ body #comments pre.bz_comment_text {
 	border-left: 7px solid rgba( 0, 220, 0, 1 );
 }
 
+/*  "Changes submitted" notification messages   */
+
+#article > dl:first-child {
+	margin: 0 0 2em 0;
+	background-color: #f3f3f3;
+}
+	#article > dl:first-child > dt:first-child {
+		padding: 0.5em 1em;
+		background-color: #e0e0e0;
+	}
+	#article > dl:first-child > dd {
+		margin: 0;
+		padding: 0.5em 1em;
+	}
+		#article > dl:first-child > dd dt,
+		#article > dl:first-child > dd dd {
+			margin: 0;
+			display: inline;
+		}
+		#article > dl:first-child > dd code {
+			font-family: 'Noto Sans', sans-serif;
+			font-size: 100%;
+		}
 /* ... */
 
 .enter_bug_form hr {
