@@ -620,7 +620,7 @@ a.bz_closed:hover, a.bz_closed:active, a.bz_closed:focus  {
 #bug-layout {
 	display: flex;
 }
-	#bug-main { flex: 70; }
+	#bug-main { flex: 70; width: 0; max-width: 70%; }
 	#bug-sidebar { flex: 30; margin-left: 3em; min-width: 310px; }
 		#bug-sidebar .field,
 		#bug-sidebar .sidebar-item { margin-bottom: 1em; }
@@ -668,7 +668,7 @@ body #comments pre.bz_comment_text * {
 	font-family: 'Noto Sans', sans-serif !important;
 }
 body #comments pre.bz_comment_text {
-	word-break: break-all;
+	overflow: hidden;
 }
 
 /*  SIDEBAR
