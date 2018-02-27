@@ -5,6 +5,7 @@
 # Translators:
 # Aputsiak Niels Janussen (Skjalden) <aj@isit.gl>, 2013-2014
 # Chris Darnell <chris@cedeel.com>, 2013,2016
+# Linuxbruger <y.z@live.dk>, 2018
 # scootergrisen, 2016
 # scootergrisen, 2016-2017
 msgid ""
@@ -12,8 +13,8 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2017-11-27 21:41+0000\n"
-"Last-Translator: scootergrisen\n"
+"PO-Revision-Date: 2018-02-27 17:32+0000\n"
+"Last-Translator: Linuxbruger <y.z@live.dk>\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/xfce-www/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -335,33 +336,33 @@ msgstr "Hvad Xfce's kernekomponenter?"
 msgid ""
 "How often do we want to release and in what fashion (time-based, feature-"
 "based)?"
-msgstr ""
+msgstr "Hvor ofte vil vi gerne udgive og i hvilken facon (tids-baseret, funktioner)"
 
 #: about/releasemodel.php:16
 msgid "Who's in charge of the release process?"
-msgstr ""
+msgstr "Hvem står for udgivelses-processen?"
 
 #: about/releasemodel.php:17
 msgid "What dependency versions do we depend on?"
-msgstr ""
+msgstr "Hvilke afhængige versioner er vi afhængige af?"
 
 #: about/releasemodel.php:18
 msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr ""
+msgstr "Hvornår er funktions-frys, streng-frys, kode-frys og lignende?"
 
 #: about/releasemodel.php:19
 msgid "How many pre-releases should we do and how do we call them?"
-msgstr ""
+msgstr "Hvor mange før-udgivelser burde vi lave og hvordan kalder vi dem?"
 
 #: about/releasemodel.php:20
 msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr ""
+msgstr "Hvad bruger vi som erstatning for SVN revision versionering med Git?"
 
 #: about/releasemodel.php:24
 msgid ""
 "This document intends to answer these questions and aims at defining a "
 "policy that we can refer to when planning releases."
-msgstr ""
+msgstr "Dette dokument har formålet med at svare på disse spørgsmål og sigter efter definering af politik som vi kan referere til når vi planlægger udgivelser."
 
 #: about/releasemodel.php:27
 msgid "The Xfce Core Desktop"
@@ -393,14 +394,14 @@ msgid ""
 "maintenance process of the current stable release will continue. During this"
 " phase, bugfix releases and security fixes will be released for the stable "
 "version of Xfce."
-msgstr ""
+msgstr "Udgivelses-cyklussen involverer en kort planlægnings-fase, en udviklings-fase med udviklings-udgivelser og en udgivelses-fase, der eventuelt fører til en ny stabil udgivelse af hele Xfce kerne skrivebordet. I parallel til disse faser, en vedligeholdelses-process af den nuværende stabile udgivelse vil forsætte. I løbet af denne fase, vil fejl-retninger og sikkerheds-fejl udgives med den stabile version af Xfce."
 
 #: about/releasemodel.php:68
 msgid ""
 "Below you can see a graphical timeline of an example release cycle and "
 "maintenance process for Xfce 4.8 with three components: Thunar, exo and "
 "xfwm4."
-msgstr ""
+msgstr "Nedenfor kan du se den grafiske livslinje af et eksempel udgivelse-cyklus og vedligeholdes-process for Xfce 4.8 med disse tre komponenter: Thunar, exo og xfwm4."
 
 #: about/releasemodel.php:72
 msgid "Example Release Cycle"
@@ -416,11 +417,11 @@ msgid ""
 "which dependencies to use and also to appoint the release team for the cycle"
 " (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
 "weeks)."
-msgstr ""
+msgstr "Denne fase markerer begyndelsen af udgivelses-cyklussen og bruges til at bestemme hvilke afhængigheder der bruges og også til at vælge udgivelses-holdet for cyklussen (Første 2 uger). Det vil eventuelt føre til afhængigheds-frys (efter 4 uger)"
 
 #: about/releasemodel.php:81
 msgid "Appointing the Release Team"
-msgstr ""
+msgstr "Udpegelse af Udgivelses-Teamet"
 
 #: about/releasemodel.php:84
 msgid ""
@@ -430,7 +431,7 @@ msgid ""
 "perform and double-check the Xfce core desktop releases in the release phase"
 " at the very end of the cycle. This is explained in more detail in the "
 "Release Team section of this document."
-msgstr ""
+msgstr "Ved begyndelsen af planlægnings-fasen vil der være et (format eller formel) stemme for udgivelses-teamet. Selve udgivelses-holdet fører tilsyn med udvikling og vedligeholdelses-udgivelser i løbet af udgivelses-cyklussen. Dets primære formål er at udføre opgaver og dobbelt-tjekke Xfce kerne-skrivebords udgivelser i den udgivelses-fase ved slutningen af cyklussen. Dette er uddybet i flere detaljer i Udgivelses-Teamets sektion af dette dokument."
 
 #: about/releasemodel.php:87
 msgid "Release Team"
@@ -444,11 +445,11 @@ msgid ""
 "for quality assurance (checking if all components compile, tags are in "
 "place, release notes are up to date and so on). This is defined in more "
 "detail below."
-msgstr ""
+msgstr "Udgivelses-teamet består af mindst to personer: En udgivelses-manager der kan assisteres af andre til at udføre udgivelsen (tagge, skabelsen af tarballs, skrive udgivelses-notater og annonceringer) og en anden person der står for kvalitets-forsikring (tjekker om alle komponenter kompileres, tagges er på plads, udgivelses-notater er opdateret og så videre) Dette er defineret i flere detaljer nedenunder."
 
 #: about/releasemodel.php:94
 msgid "These are the release team roles and their responsibilities:"
-msgstr ""
+msgstr "Disse er udgivelses-teamets roller og deres ansvarligheder:"
 
 #: about/releasemodel.php:97
 msgid "Release Manager"
@@ -462,19 +463,19 @@ msgstr "Organisering af udgivelsescyklus"
 msgid ""
 "Announce deadlines to developers and translators (repeatedly and early "
 "enough)"
-msgstr ""
+msgstr "Annoncer deadlines til udviklere og oversættere\n(gentaget og tidligt nok)"
 
 #: about/releasemodel.php:102
 msgid "Overseeing of maintainance and development releases"
-msgstr ""
+msgstr "Overse vedligeholdelse og udviklings-udgivelser"
 
 #: about/releasemodel.php:103
 msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr ""
+msgstr "Tagge af Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 og Xfce-X.Y"
 
 #: about/releasemodel.php:104
 msgid "Generate tarballs from tags (possibly automated)"
-msgstr ""
+msgstr "Generer tarballs fra tags (muligvis automatiseret)"
 
 #: about/releasemodel.php:105
 msgid "Write release notes"
@@ -490,7 +491,7 @@ msgstr "Opret Bugzilla-tags"
 
 #: about/releasemodel.php:108
 msgid "Approve fixes of blocker bugs during code freeze"
-msgstr ""
+msgstr "Godkend løsninger af blokerings-fejl mens kode fryser"
 
 #: about/releasemodel.php:111
 msgid "Release Assistant(s)"
@@ -506,20 +507,20 @@ msgstr "Hjælp udgivelsesmanageren med hans opgaver"
 
 #: about/releasemodel.php:118
 msgid "QA Official"
-msgstr ""
+msgstr "Officiel QA"
 
 #: about/releasemodel.php:121
 msgid ""
 "Have an eye on libtool versions of maintanance and development releases"
-msgstr ""
+msgstr "Hav et øje på libtool versioner af vedligeholdelse og udviklings-udgivelser"
 
 #: about/releasemodel.php:122
 msgid "Remind maintainers about missing NEWS updates"
-msgstr ""
+msgstr "Påmind vedligeholdere om manglende NYHEDS opdateringer"
 
 #: about/releasemodel.php:123
 msgid "Double-check the generated tarballs"
-msgstr ""
+msgstr "Dobbelt-tjek de generede tarballs"
 
 #: about/releasemodel.php:124
 msgid "Proof-read release announcements"
@@ -533,15 +534,15 @@ msgstr "Individuelle vedligeholdere"
 msgid ""
 "Create component-specific tags for their maintainance and development "
 "releases"
-msgstr ""
+msgstr "Skab komponent-specifikke tags for deres vedligeholdelse og udviklings-udgivelser"
 
 #: about/releasemodel.php:131
 msgid "Generate tarballs for their maintainance and development releases"
-msgstr ""
+msgstr "Generer tarballs for deres vedligeholdelse og udviklings-udgivelser"
 
 #: about/releasemodel.php:132
 msgid "Write ChangeLogs and update NEWS files"
-msgstr ""
+msgstr "Skrive Ændrings-Notat og opdater NYHEDS filer"
 
 #: about/releasemodel.php:133
 msgid "Write component-specific release announcements"
@@ -563,15 +564,15 @@ msgstr "Afhængighedsfrysning"
 msgid ""
 "During the first 2 weeks of the planning phase each maintainer is required "
 "to "
-msgstr ""
+msgstr "De første 2 uger af planlægnings-fasen er hvert enkel vedligeholder påkrævet til"
 
 #: about/releasemodel.php:145
 msgid "List the features he wants to implement in the release cycle"
-msgstr ""
+msgstr "List de funktioner han gerne vil have implementeret i udgivelses-cyklussen"
 
 #: about/releasemodel.php:146
 msgid "Investigate which dependencies are implied by that"
-msgstr ""
+msgstr "Undersøg hvilke afhængigheder er forudsat af dét"
 
 #: about/releasemodel.php:150
 msgid ""
@@ -579,21 +580,21 @@ msgid ""
 " release of the Xfce core desktop will depend. In particular this includes "
 "the minimum required versions for all essential dependencies of the Xfce "
 "core desktop."
-msgstr ""
+msgstr "I slutningen af dette, er et valg taget på hvilke afhængigheder den næste stabile udgivelse af Xfce kerne-skrivebordet vil afhænge. Særligt inkluderer dette minimums-krav af versioner for all essensielle afhængigheder af Xfce kerne-skrivebordet."
 
 #: about/releasemodel.php:154
 msgid ""
 "Maintainers who were not available during the first 2 weeks of the planning "
 "phase have the chance to request dependency changes in the 2 weeks after "
 "that. "
-msgstr ""
+msgstr "Vedligeholdere der ikke er tilgængelige, de første 2 uger af planlægnings-fasen har chancen for at be om afhængigheds-ændringer de første 2 uger efter dét."
 
 #: about/releasemodel.php:158
 msgid ""
 "At the end of these 4 weeks, all components enter dependency freeze which "
 "means they may not change the dependencies (and their versions) they depend "
 "on. Optional dependencies for are still allowed to be added though."
-msgstr ""
+msgstr "I slutningen af disse 4 uger, indtræffer alle komponenter afhængigheds-frys hvilket betyder de ikke må ændre afhængighederne (og de versioner) de er afhængige af.\nValgfrie afhængigheder er dog stadigt tilladt at tilsætte."
 
 #: about/releasemodel.php:161
 msgid "Informing the Community"
@@ -604,7 +605,7 @@ msgid ""
 "At the very end of the planning phase, a mail with planned features and "
 "dependencies for all components of the Xfce core desktop is sent to the "
 "xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr ""
+msgstr "I slutningen af planlægnings-fasen, er en mail med planlagte funktioner og afhængigheder for at alle komponenter af Xfce kerne-skrivebordet sendt til xfce4-dev@xfce.org og xfce@xfce.org's mailing liste."
 
 #: about/releasemodel.php:167
 msgid "Development Phase (5 Months)"
@@ -614,7 +615,7 @@ msgstr "Udviklingsfase (5 måneder)"
 msgid ""
 "During the development phase every maintainer is free to do maintenance and "
 "development releases of his components independently of the rest of Xfce."
-msgstr ""
+msgstr "I løbet af udviklings-fasen er hver vedligeholder fri til at vedligeholde og udvikle udgivelser of hans komponenter uafhængigt af resten af Xfce."
 
 #: about/releasemodel.php:173
 msgid "Development Releases"
@@ -625,7 +626,7 @@ msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr ""
+msgstr "Udviklings-udgivelser giver som regel funktions-forhåndsvisning af den næste stabile udgivelse. De må følge X.Y.Z versionerings-formatet, hvor Y er et mærkeligt nummer (f.eks xfwm4-4.7.3 eller thunar-1.3.10)"
 
 #: about/releasemodel.php:180
 msgid ""
