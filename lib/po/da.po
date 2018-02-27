@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2018-02-27 17:32+0000\n"
+"PO-Revision-Date: 2018-02-27 19:40+0000\n"
 "Last-Translator: Linuxbruger <y.z@live.dk>\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/xfce-www/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -636,7 +636,7 @@ msgid ""
 " A depends on a new feature in component B, A may only be released if there "
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
-msgstr ""
+msgstr "Vedligeholdere er opfordret til udviklings-udgivelser for nye funktioner de gerne vil gøre tilgængelige for andre. \nUdviklings-udgivelser kan ofte virke som en erstatning af SVN revision versionering vi tidligere har haft. Hvis komponent A afhænger af en ny funktion i komponent B. A må kun udgives hvis der er en udviklings-udgivelse af B der udgiver denne funktion. For at det virker, skal libtool versionerne være opdateret ordenligt, med hver udviklings-udgivelse."
 
 #: about/releasemodel.php:184
 msgid ""
@@ -646,7 +646,7 @@ msgid ""
 "component will remain functional even after merging the feature(s) into the "
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
-msgstr ""
+msgstr "Hoved-grenen af hver komponent, skal tilgås med forsigtighed. Hoved-grenen burde altid blive i et udgivelse-klar stadie. Nye funktioner burde blive udviklet i grene til de er klar (som i: kompilering og komponenten vil blive funktionel, selv efter sammenlægning af funktion(er) til hoved-grenen) til at mindske forsinkelsen af den sidste udgivelse af hele Xfce kerne-desktoppen."
 
 #: about/releasemodel.php:188
 msgid ""
@@ -654,7 +654,7 @@ msgid ""
 "Maintainers are suggested to prepare other components for these features in "
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
-msgstr ""
+msgstr "Nye funktioner knækker API'er og andre kerne komponenter, burde blive kommunikeret. Vedligeholdere er opfordret til at klargøre andre komponenter for disse funktioner, i en separat gren. Før funktionerne er inkluderet i en ny udviklings-udgivelse. På den måde beholder de andre komponenter deres udgivelses-klar stadie."
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
@@ -698,7 +698,7 @@ msgid ""
 "desktop. The version numbers of these components may (even have to) differ "
 "from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
 "version 4.7.17 and Thunar could have 1.1.9."
-msgstr ""
+msgstr "Hvor Y skal være et lige tal. Hvert enkel af disse udgivelser, skal inkludere den seneste udvikling-udgivelse af alle komponenter. (eller stabil, hvis der ikke er nogen udviklings-udgivelser siden sidste stabile udgivelse) af Xfce kerne-skrivebordet. Version nummeret af disse komponenter har (eller skal) ændre sig fra navne-ordningen ovenfor. F.eks for Xfce 4.8.0pre2, xfwm4 kunne have version 4.7.17 og thunar kunne have 1.1.9."
 
 #: about/releasemodel.php:217
 msgid ""
@@ -706,13 +706,13 @@ msgid ""
 "of their components along with one of the pre-releases. The release team "
 "always picks the latest available development or stable release of each "
 "component for pre-releases and the final release."
-msgstr ""
+msgstr "Dette betyder at vedligeholdere ikke behøver at udgive nye versioner af deres komponenter, samtidig med en af deres før-udgivelser. Dette udgivelses-hold vælger altid den seneste tilgængelige udviklings eller stabile udgivelse, af hver komponent til før-udgivelse og den endelige udgivelse."
 
 #: about/releasemodel.php:221
 msgid ""
 "The end of this phase marks a new stable release of the Xfce core desktop "
 "and therewith the start of a new release cycle."
-msgstr ""
+msgstr "Slutningen af denne fase, markerer en ny stabil udgivelse af Xfce kerne-skrivebordet og dermed starten af en ny udgivelses-cyklus."
 
 #: about/releasemodel.php:224
 msgid "Freezing before Releases"
@@ -731,7 +731,7 @@ msgid ""
 "With Xfce X.Ypre1, all core components enter feature freeze which means from"
 " there on only translations and bugfixes are allowed to go into the master "
 "branch."
-msgstr ""
+msgstr "Med Xfce X.Ypre1, alle kerne komponenter træder i funktions-frys, hvilket betyder at der derfra kun er oversættelser og fejl-retninger der er tilladt ind i hoved-grenen."
 
 #: about/releasemodel.php:236
 msgid "String/UI Freeze"
@@ -742,7 +742,7 @@ msgid ""
 "With Xfce X.Ypre2, all core components enter string/UI freeze which means "
 "from there on no strings which affect translations may be changed. Same goes"
 " for the user interface which may not be changed after this point."
-msgstr ""
+msgstr "Med Xfce X.Yfør2, vil alle kerne komponenter træde i streng/UI-frys, hvilket betyder at der derfra ingen strenge vil påvirke oversættelser, kan blive ændret. Det samme gælder for bruger-grænsefladen, hvilket ikke må ændres efter dette punkt."
 
 #: about/releasemodel.php:242
 msgid "Code Freeze"
@@ -753,7 +753,7 @@ msgid ""
 "There is a short 2-days code freeze before every pre-release. During this "
 "period of time, no commits may be sent unless they are signed off by the "
 "release manager."
-msgstr ""
+msgstr "Der er en kort 2-dags kode-frysning før hver før-udgivelse. Under denne periode må ingen forpligter sendes, udover hvis de er underskrevet af udgivelses-manageren. "
 
 #: about/releasemodel.php:249
 msgid ""
@@ -761,7 +761,7 @@ msgid ""
 "there on no code changes are allowed, unless they are signed off by the "
 "release manager. These should usually only be fixes to blocking or release-"
 "critical bugs. Translations are still allowed to go in."
-msgstr ""
+msgstr "Med Xfce X.Yfør3, alle kerne komponenter går i kode-frysning, hvilket betyder ingen kode-ændringer er tilladet, medmindre de er underskrevet af udgivelses-manageren. Disse burde egentlig kun være løsninger til blokering eller udgivelses-kritiske fejl. Oversættelser er stadig tilladt at gå ind."
 
 #: about/releasemodel.php:252
 msgid "Code Freeze Phase (2+ weeks)"
@@ -772,14 +772,14 @@ msgid ""
 "With Xfce X.Ypre3, all core components enter code freeze. This phase is "
 "illustrated in the following figure and is explained in more detail in this "
 "section."
-msgstr ""
+msgstr "Med Xfce X.Yfør3, alle kerne komponenter træder i kode-frys. Denne fase er illustreret i den følgende figur og er uddybet i flere detaljer i denne sektion."
 
 #: about/releasemodel.php:259
 msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr ""
+msgstr "Kode-frysningen og dets undtagelser er understøttet af begå kroge. Der er en opdaterings-krog hvilket ikke tillader nogen ændringer til hoved, hvis ikke de er underskrevet af udgivelses-manageren."
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
@@ -796,14 +796,14 @@ msgid ""
 "DISCUSSION//) to which he or she then commits the fixes. Refer to the "
 "section Code Freeze Exceptions if these are release-critical changes or "
 "fixes for blocking bugs."
-msgstr ""
+msgstr "Hvis en kerne komponent, behøver fejl-retninger eller ændringer under kode-frys, behøver vedligeholderen at skabe en ny gren kaldet ELS (//NAVN ÅBEN FOR DISKUSSION//) til hvillket han eller hun så sender fejl-retningerne. Referer til sektion Kode Frys Undtagelser, hvis disse er udgivelses-kritiske ændringer eller fejl-retninger for blokerende fejl."
 
 #: about/releasemodel.php:273
 msgid ""
 "The ELS branch only lives for a short period of time. It is merged into "
 "master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
 " after the final release. Only bugfixes are allowed in this branch."
-msgstr ""
+msgstr "ELS grenen lever kun i én kort periode. Dette er sammenlagt til hoved og ind i komponentens stabile gren. (f.eks xfwm4-4.8 eller thunar-1.2) efter den endelige udgivelse. Kun fejl-retninger er tilladt i denne gren. "
 
 #: about/releasemodel.php:276
 msgid "Code Freeze Exceptions"
@@ -817,7 +817,7 @@ msgstr "Blokerende fejl"
 msgid ""
 "Certain bugs may delay the final release if they are considered blockers. "
 "This is the case under any of the following circumstances:"
-msgstr ""
+msgstr "Specifikke fejl har forsinkede endelige udgivelser, hvis de er taget i betragtning som blokeringer. Dette er sagen under nogen som helst, følgende omstændigheder:"
 
 #: about/releasemodel.php:285
 msgid "it crashes a core application"
@@ -837,19 +837,19 @@ msgstr "det låser hele skrivebordsbrugerfladen"
 
 #: about/releasemodel.php:292
 msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr ""
+msgstr "En fejl må ikke forsinke en udgivelse, hvis den følger følgende kriterier:"
 
 #: about/releasemodel.php:296
 msgid ""
 "the hardware or architecture on which the bug occurs is exotic and/or "
 "there's no way for developers to reproduce the bug"
-msgstr ""
+msgstr "Hardwaren eller arkitekturen på hvilket fejl foregår er exotisk og/eller der på ingen måde for udviklere at gen-producere fejlen"
 
 #: about/releasemodel.php:300
 msgid ""
 "Fixes for these bugs are allowed to be applied during code freeze if, and "
 "only if they are signed off by the release manager."
-msgstr ""
+msgstr "Fejl-retninger for disse fejl er tilladt, at blive sat på under kode-frys og kun hvis de er underskrevet af udgivelses-manageren."
 
 #: about/releasemodel.php:303
 msgid "Release-Critical Changes"
@@ -860,7 +860,7 @@ msgid ""
 "Some changes may be of big concern with regards to the quality of the "
 "release. They are allowed to go in if, and only if they are signed off by "
 "the release manager."
-msgstr ""
+msgstr "Nogle ændringer må være en stor bekymring med hensyn til kvaliteten af udgivelsen. De er tilladt at gå ind, hvis og kun hvis de er underskrevet af udgivelses-manageren."
 
 #: about/releasemodel.php:309
 msgid "Releasing"
@@ -873,7 +873,7 @@ msgid ""
 "maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr ""
+msgstr "For den endelige udgivelse (Xfce X.Y), alle kerne komponenter er tagget (to gange, enkelt med deres egen version og endnu engang med xfce-X.Y.0) og deres grene for vedligeholdeses-cyklussen (f.eks som thunar-1.2 eller xfwm4-4.8). Efter dette er ELS grenen sammenlagt ind i hoved-grenen (hvor udviklingen for den næste udgivelse tager finder sted) og ind i f.eks thunar-1.2 eller xfwm4-4.8. "
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
@@ -885,7 +885,7 @@ msgid ""
 "be committed to a stable component-specific branch (like thunar-1.2 or "
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
-msgstr ""
+msgstr "Efter udgivelsen af den endelige version, vil fejl-retninger og oversættelses-opdateringer blive sat ind i stabil komponent-specifik grenen (Som thunar-1.2 eller xfwm4-4.8). Vedligeholdelses-udgivelser af individuelle komponenter kræver ikke synkronisation."
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
@@ -898,7 +898,7 @@ msgid ""
 "the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
-msgstr ""
+msgstr "Der er muligvis ingen API/ABI ændringer i vedligeholdses-udgivelsen, sammenlignet med den korresponderende endelige udgivelse af Xfce kerne-skrivebordet. De skal også følge X.Y.Z versionerings-formatet, hvor Y er et lige tal (f.eks xfwm4-4.8.4 eller thunar-1.2.4). Ingen nye funktioner eller strenge må introduceres i disse udgivelser."
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -999,7 +999,7 @@ msgstr "Gtk3-programmer hvor deres dekorationer er tegnet af klienten"
 msgid ""
 "Window tiling mode was improved by providing support for corner-tiling, and "
 "a new zooming mode was added using Alt + Mouse Wheel."
-msgstr ""
+msgstr "Vindue-tilering måden var forbedret ved at forsyne understøttelse for hjørne-tilering, og en ny zooming funktion var tilføjet ved brug af Alt + Mus-hjulet."
 
 #: about/tour.php:31
 msgid "Drag and drop a window to a corner to tile it"
