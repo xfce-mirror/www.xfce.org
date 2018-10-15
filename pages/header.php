@@ -13,9 +13,9 @@ else
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
 	<title><?php echo $title ?></title>
-	<link rel="icon" href="/style/favicon.ico" />
-	<link rel="stylesheet" media="screen" href="/style/css.php?site=www" type="text/css" />
-	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/apple-touch-icon.png" />
+	<link rel="icon" href="<?php echo $static_media; ?>/images/favicon.ico" />
+	<link rel="stylesheet" media="screen" href="<?php echo $static_media; ?>/style/css.php?site=www" type="text/css" />
+	<link rel="apple-touch-icon" href="<?php echo $static_media ?>/images/logo_apple-touch-icon.png" />
 	<meta name="content-language" content="<?php echo $lang ?>" />
 <?php
 	if (isset ($head['description']))
