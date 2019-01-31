@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2019-01-30 23:24+0000\n"
+"PO-Revision-Date: 2019-01-31 00:55+0000\n"
 "Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>\n"
 "Language-Team: Galician (http://www.transifex.com/xfce/xfce-www/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -3477,7 +3477,7 @@ msgid ""
 "A summary of the changes since the 4.8pre3 preview release is available on "
 "the following URL (it also includes links to the changes introduced in all "
 "preview releases):"
-msgstr "Está dispoñíbel na seguinte URL un resumo das modificacións desde a versión de provisoria 4.8pre3 (tamén inclúe ligazóns aos cambios introducidos en todas as versións provisorias):"
+msgstr "Está dispoñíbel na seguinte URL un resumo das modificacións desde a versión preliminar 4.8pre3 (tamén inclúe ligazóns aos cambios introducidos en todas as versións preliminares):"
 
 #: news-array.php:127
 msgid ""
@@ -3505,7 +3505,7 @@ msgid ""
 "release of Xfce 4.8 which is set to be pushed out to the public on January "
 "16th, 2011. Compared to Xfce 4.8pre2 this release mostly features "
 "translation updates and bug fixes."
-msgstr "Hoxe temos o pracer de anunciar a terceira e, con sorte, a versión final de Xfce 4.8 que está prevista para o público o 16 de xaneiro de 2011. En comparación co Xfce 4.8pre2 esta versión inclúe principalmente actualizacións de tradución e corrección de erros."
+msgstr "Hoxe temos o pracer de anunciar a terceira e, con sorte, a versión previa á final do Xfce 4.8 que está prevista para o público o 16 de xaneiro de 2011. En comparación co Xfce 4.8pre2 esta versión inclúe principalmente actualizacións de tradución e corrección de erros."
 
 #: news-array.php:139
 msgid ""
@@ -3531,7 +3531,7 @@ msgid ""
 " a race condition at session startup and in order to speed things up a "
 "little more we no longer use xrdb to update xft and cursor settings and "
 "instead, update the related XSETTINGS properties ourselves."
-msgstr ""
+msgstr "Tamén fixemos funcionar novamente os parámetros reinicio e saír da sesión do «xfce4-session-logout» , que anteriormente non remataban a sesión do usuario activo. Para evitar unha situación de concorrencia no inicio da sesión e para acelerar un pouco máis, xa non usamos «xrdb» para actualizar as opcións «xft» e no seu lugar, actualízanse as propiedades «XSETTINGS» relacionadas."
 
 #: news-array.php:142
 msgid ""
@@ -3541,7 +3541,7 @@ msgid ""
 "the mouse wheel. The window manager now also properly handles resolution "
 "changes in fullscreen windows like those appearing in games. Xfwm4's "
 "application switcher now only appears once in cloned mode."
-msgstr ""
+msgstr "No xestor de xanelas xfwm4, axustamos o período de tempo necesario para un dobre clic co de aplicativos normais. A través da opción agochada /xeral/roda do rato pode agora desactivar a xanela que se enrola a través da roda do rato. O xestor de xanelas agora tamén manexa correctamente os cambios de resolución nas xanelas a pantalla completa como aquelas que aparecen nos xogos. O conmutador de aplicativos do Xfwm4 agora só aparece unha vez en modo copiar pantalas."
 
 #: news-array.php:143
 msgid ""
@@ -3554,13 +3554,13 @@ msgid ""
 "removes them from the panel again, tasklist windows can now be filtered by "
 "monitor. Another issue that appeared recently and has now been fixed is the "
 "icon sizing in the notification area, also known as the systray."
-msgstr ""
+msgstr "Isto pode soar como algunhas correccións útiles, pero non é nada en comparación coa cantidade de traballo que entrou no novo panel do Xfce unha vez máis. Aproximáronse foron solucionados máis de 20 erros e regresións coñecidas. Aquí tes un pequeno fragmento do rexistro completo: os dominios de tradución foron fixados para engadidos externos, os engadidos poden ser reordenados de novo con DND, os elementos de dobre clic no editor de elementos amosan as súas preferencias, arrastrando elementos ao diálogo de edición de elementos elimínaos do panel de novo, as xanelas de tarefas agora poden ser filtradas polo monitor. Outro problema que apareceu recentemente e agora foi corrixido é o tamaño das iconas na zona de notificación, tamén coñecida como zona do sistema."
 
 #: news-array.php:144
 msgid ""
 "Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
 "the complete changelog."
-msgstr ""
+msgstr "O Xfce 4.8pre3 tamén presenta moitas actualizacións de tradución, como se pode ver no rexistro completo."
 
 #: news-array.php:145
 msgid ""
@@ -3570,7 +3570,7 @@ msgid ""
 "there are not enough people active to take care of all this at the moment. "
 "So we will continue fixing bugs in master branches as we did between 4.8pre2"
 " and 4.8pre3."
-msgstr ""
+msgstr "Dado que estamos seguindo o <a href=\"/about/releasemodel\">modelo de versión</a> do Xfce para 4.8, normalmente anunciaríamos a conxelación de código e a creación de ramas compatibles no ciclo de vida actual. Decidimos contra isto porque non hai moita xente activa para coidar de todo neste momento. Así que seguiremos resolvendo erros en ramas mestras como fixemos entre 4.8pre2 e 4.8pre3."
 
 #: news-array.php:152
 msgid ""
@@ -3579,14 +3579,14 @@ msgid ""
 "final release, strings may no longer be changed in the master branch of Xfce"
 " core components. This will help translators to prepare their translations "
 "for the final release scheduled on January 16th, 2011."
-msgstr ""
+msgstr "Temos o pracer de anunciar a segunda versión preliminar do Xfce 4.8. Esta versión marca o inicio da fixación de cadeas. A partir de hoxe até a versión final, as cadeas non poden ser modificadas na rama principal dos compoñentes do núcleo do Xfce. Isto axudará aos tradutores a preparar as súas traducións para a versión final programada o 16 de xaneiro de 2011."
 
 #: news-array.php:153
 msgid ""
 "For this release we focused on fixing bugs in all Xfce components. We "
 "managed to close a great number of them thanks to all the persons who "
 "reported them and tested proposed fixes quickly."
-msgstr ""
+msgstr "Para este versión centrámonos en corrixir erros en todos os compoñentes do Xfce. Conseguimos pechar un gran número deles grazas a todas as persoas que os informaron e probaron rapidamente as correccións propostas."
 
 #: news-array.php:154
 msgid ""
@@ -3596,7 +3596,7 @@ msgid ""
 "and integration with the Compiz viewport. Of course, this release also "
 "features a lot of new and improved translations thanks to the amazing work "
 "of our translation teams."
-msgstr ""
+msgstr "Engadíronse algunhas funcións menores a pesar da fixación de características. Tamén conseguimos traballar en dúas solicitudes solicitadas hai tempo: permitir a edición do menú de aplicativos cos editores de menús (sendo Alacarte o que probamos) e a integración co visor de Compiz. Por suposto, esta versión tamén achega moitas traducións novas e melloradas grazas ao sorprendente traballo dos nosos equipos de tradución."
 
 #: news-array.php:161
 msgid ""
@@ -3604,7 +3604,7 @@ msgid ""
 " Xfce 4.8. Together with this preview release, the Xfce project announces "
 "the feature freeze for the final 4.8 release which is set to be pushed out "
 "to the world on January 16th, 2011."
-msgstr ""
+msgstr "O equipo de desenvolvemento do Xfce está orgulloso de anunciar a primeira versión preliminar do Xfce 4.8. Xunto con esta versión preliminar, o proxecto Xfce anuncia a fixación dos recursos para a versión final do 4.8 que estará lista para o mundo o 16 de xaneiro de 2011."
 
 #: news-array.php:162
 msgid ""
@@ -3620,7 +3620,7 @@ msgid ""
 " third-party menu editor such as Alacarte (we do not ship our own yet). Our "
 "core libraries have been streamlined a bit, a good example being the newly "
 "introduced libxfce4ui library which is meant to replace libxfcegui4."
-msgstr ""
+msgstr "Esta versión incorpora importantes modificacións no núcleo do contorno de traballo do Xfce e, con sorte, consegue cumprir unha serie de solicitudes de hai xa tempo. Entre as actualizacións máis notábeis, foi a migración de todo o núcleo Xfce (Thunar, «xfdesktop» e «thunar-volman» en particular) de ThunarVFS a GIO, traendo os sistemas de ficheiros remotos ao escritorio Xfce. O panel foi reescrito de cero e fornece unha mellor xestión de iniciadores e unha compatibilidade multi-cabeza mellorado. A lista de novas funcionalidades do panel é demasiado longa para mencionar na súa totalidade aquí. Grazas á nova biblioteca de menús «garcon» (anteriormente coñecida como «libxfce4menu», pero reescrita unha vez máis) agora permite a edición de menús a través dun editor de menús de terceiros como Alacarte (aínda non temos o noso propio). As nosas bibliotecas do núcleo foron optimizadas un pouco, un bo exemplo é a biblioteca libxfce4ui introducida hai pouco a cal ten como obxectivo substituír a libxfcegui4."
 
 #: news-array.php:163
 msgid ""
@@ -3631,28 +3631,28 @@ msgid ""
 "many more. A lot of old cruft like has been stripped from the core as well, "
 "as has happened with HAL and ThunarVFS (which is still around for "
 "compatibility reasons)."
-msgstr ""
+msgstr "Quizais o logro máis importante que realizaremos co Xfce 4.8 é que, a pesar de sufrir polo pequeno tamaño do equipo de desenvolvemento de cando en vez, o núcleo do contorno de traballo foi axustado coas tecnoloxías de escritorio de hoxe como GIO, ConsoleKit, PolicyKit, udev e moitos máis. Tamén foron eliminadas do núcleo unha chea de cousas vellas, como aconteceu con HAL e ThunarVFS (que aínda está por razóns de compatibilidade)."
 
 #: news-array.php:164
 msgid ""
 "Thanks to the awesome Transifex translation platform, our language teams "
 "have been able to update their translations at an incredible pace. Please "
 "include them when praising this release!"
-msgstr ""
+msgstr "Grazas á sorprendente plataforma de tradución Transifex, os nosos equipos de idiomas puideron actualizar as súas traducións a un ritmo incrible. Inclúaos ao eloxiar esta versión!."
 
 #: news-array.php:171
 msgid "The second bugfix-release of xfce 4.6 has been released."
-msgstr ""
+msgstr "Publicouse a segunda versión de corrección de erros do xfce 4.6."
 
 #: news-array.php:172
 msgid ""
 "This release features a lot of updated translations and fixes some bugs or "
 "regressions with new GTK+ versions."
-msgstr ""
+msgstr "Esta versión presenta moitas traducións actualizadas e resolve algúns erros ou regresións con novas versións GTK+."
 
 #: news-array.php:179
 msgid "The first bugfix-release of xfce 4.6 has been released."
-msgstr ""
+msgstr "Publicouse a primeira versión de corrección de erros do xfce 4.6."
 
 #: news-array.php:180
 msgid ""
@@ -3660,18 +3660,18 @@ msgid ""
 "effort to submit bugreports for stuff that wasn't quite working the way it "
 "is supposed to. We have been able to fix several issues during the past few "
 "weeks."
-msgstr ""
+msgstr "Grazas a todas as persoas que estiveron usando o Xfce 4.6 e aproveitou o tempo e esforzo para enviar informes de erro para cousas que non funcionaban de maneira correcta. Temos sido quen de solucionar varios problemas durante as últimas semanas."
 
 #: news-array.php:181
 msgid ""
 "thanks to all the translators, several translations have been improved and "
 "completed since the release of 4.6.0."
-msgstr ""
+msgstr "grazas a todos os tradutores, varias traducións foron melloradas e completadas desde a versión 4.6.0."
 
 #: news-array.php:188
 msgid ""
 "After more than two years of development, Xfce 4.6.0 has just been released."
-msgstr ""
+msgstr "Despois de máis de dous anos de desenvolvemento, a versión do Xfce 4.6.0 acaba de ser publicada."
 
 #: news-array.php:189
 msgid ""
@@ -3679,13 +3679,13 @@ msgid ""
 "brand new sound mixer, and several huge improvements to the session manager "
 "and the rest of Xfce's core components. A list of all the changes since the "
 "last release candidate can be found on this page."
-msgstr ""
+msgstr "O Xfce 4.6 dispón dunha nova infraestrutura de configuración, un novo xestor de configuración, un mesturador de son completamente novo e varias melloras enormes para o xestor de sesións e do resto dos compoñentes básicos do Xfce. Pode atopar nesta páxina unha lista de todos os cambios desde a último versión do lanzamento."
 
 #: news-array.php:190
 msgid ""
 "A visual overview of Xfce 4.6 is available <a "
 "href=\"/about/tour46\">here</a>."
-msgstr ""
+msgstr "Está dispoñíbel <a href=\"/about/tour46\">aquí</a> unha vista xeral do Xfce 4.6."
 
 #: projects/index.php:7
 msgid "Learn&nbsp;More&nbsp;&rarr;"
@@ -3696,7 +3696,7 @@ msgid ""
 "The Xfce project contains several separated projects for each part of the "
 "desktop. Some projects have their own project pages to provide additional "
 "information."
-msgstr ""
+msgstr "O proxecto Xfce contén varios proxectos separados para cada parte do escritorio. Algúns proxectos teñen as súas propias páxinas de proxecto para fornecer información adicional."
 
 #: projects/index.php:22
 msgid ""
