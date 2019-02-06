@@ -12,6 +12,7 @@ $languages = array (
 	'en_GB' => 'English (United Kingdom)',
 	'es' => 'Spanish (Castilian)',
 	'fr' => 'French',
+	'gl' => 'Galician',
 	'he' => 'Hebrew',
 	'hu' => 'Hungarian',
 	'it' => 'Italian',
