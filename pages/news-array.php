@@ -7,6 +7,28 @@
  * */
 
 $news = array (
+	array ('title' => R_('Xfce 4.14 released'),
+		'version' => null,
+		'date' => '12 aug 2019',
+		'author' => 'Release Manager',
+		'paragraphs' => array (
+			R_('Today, after 4 years and 5 months of work, we are pleased to announce the release of the Xfce desktop 4.14, a new stable version that supersedes Xfce 4.12.'),
+			R_('In this 4.14 cycle the main goal was to port all core components to Gtk3 (over Gtk2) and GDBus (over D-Bus GLib). Most components also received GObject Introspection support.'),
+			R_('Along the way we ended up polishing our user experience and introducing some new features (read below).'),
+			R_('The main highlights of this release are:'),
+			array(
+				'<ul>',
+					'<li>'.R_('').'</li>',
+				'</ul>'
+			),
+			R_('An online tour of the changes in Xfce 4.14 can be viewed here:'),
+			'<a href="https://xfce.org/about/tour">https://xfce.org/about/tour</a>',
+			R_('A detailed overview of the changes between Xfce 4.12 and Xfce 4.14 releases can be found on the following page:'),
+			'<a href="https://xfce.org/download/changelogs">https://xfce.org/download/changelogs</a>',
+			R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+			'<a href="http://archive.xfce.org/xfce/4.14">http://archive.xfce.org/xfce/4.14</a>',
+			R_('Best regards,<br />The Xfce development team'))
+		),
 	array ('title' => R_('Xfce 4.12 released'),
 		'version' => null,
 		'date' => '28 feb 2015',
