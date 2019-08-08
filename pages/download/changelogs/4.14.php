@@ -6,16 +6,9 @@
 
 <h2>Dependency changes</h2>
 <ul>
-  <li>GTK+ dependency &gt;= 2.24 and GLib &gt;= 2.30.</li>
-  <li>Garcon has a new libxfce4ui dependency.</li>
-  <li>Libxfce4ui has an optional dependency on GTK+3.</li>
-  <li>Libxfce4util major library version was bumped, some symbols were dropped.</li>
-  <li>Xfce4-panel can be optionally built against GTK+3.</li>
-  <li>Xfce4-appfinder now uses GDbus instead of dbus-glib, and can be potentially built against GTK+3.</li>
-  <li>Xfce4-session has an optional dependency on upower.</li>
-  <li>Xfce4-power-manager has a new dependency on upower, and can build a battery plugin for Xfce4-panel and LXPanel</li>
-  <li>Xfce4-settings has an optional dependency on libinput Xorg driver and upower.</li>
-  <li>Xfwm4 has an optional dependency on libdrm.</li>
+  <li>GTK+ dependency &gt;= 3.22, GLib &gt;= 2.42 and GDBus.</li>
+  <li>Libxfce4ui has an optional dependency on GTK2.</li>
+  <li>Xfce4-panel has an optional dependency on GTK2.</li>
 </ul>
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
