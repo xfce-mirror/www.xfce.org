@@ -94,7 +94,26 @@
 
 <h2>Menu Library <em>(garcon)</em></h2>
 <ul>
-
+  <li>Fix missing menus when all items are in submenus (Bug #11801)</li>
+  <li>Fix assertion 'GTK_IS_WIDGET (widget)' failed</li>
+  <li>Don't add a placeholder menu (Bug #11626)</li>
+  <li>Added support for desktop actions (Bug #11268)</li>
+  <li>garcon-gtk: Add an option to edit launchers</li>
+  <li>Fix left-alignment of labels in menuitems</li>
+  <li>Make building garcon-gtk2 optional</li>
+  <li>Drop libgarcon-2</li>
+  <li>Remove extraneous libxfce4ui-1 check</li>
+  <li>Fix some autogen warnings</li>
+  <li>Fix make distcheck build</li>
+  <li>Fix documentation generation</li>
+  <li>Added support for freedesktop Keyword item (Bug #10683)</li>
+  <li>Replace hash table for application actions with a list</li>
+  <li>Decrement allocation counter on item unref (Bug #12700)</li>
+  <li>Support composite XDG_CURRENT_DESKTOP (Bug #14137)</li>
+  <li>Fix some menu icons are too big (Bug #13785)</li>
+  <li>Fix g_type_class_add_private deprecation in recent GLib</li>
+  <li>Fix use after free crash (Bug #15679)</li>
+  <li>Translation updates: Albanian, Amharic, Armenian, Asturian, Basque, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Esperanto, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian, Norwegian Bokmål, Norwegian Nynorsk, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Uighur, Ukrainian, Uzbek, Uzbek (Latin).</li>
 </ul>
 
 <h2>File Manager <em>(thunar)</em></h2>
