@@ -139,7 +139,51 @@
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
-
+  <li>Feature: Color Profiles (colord frontend)</li>
+  <li>Feature: Default monospace font option in the Appearance dialog</li>
+  <li>Feature: Display Profiles, allowing for saving/restoring display configurations</li>
+  <li>Feature: GTK3 window scaling (1x or 2x)</li>
+  <li>Feature: Show the location of the mouse pointer with a keyboard shortcut</li>
+  <li>Feature: XRandR display scaling (configured via Xfconf)</li>
+  <li>General: Improved layout and spacing of each dialog</li>
+  <li>Accessibility: Use transient notifications for improved logging</li>
+  <li>Appearance: Drop the Gtk Theme previews</li>
+  <li>Display: Add interactive information about primary display setting</li>
+  <li>Display: Always draw active display last so it's on top</li>
+  <li>Display: Always show the 'primary display' option</li>
+  <li>Display: Correctly hide primary setting with 1 display</li>
+  <li>Display: Improved display manufucturer name recognition and labelling</li>
+  <li>Display: Improved support for embedded DisplayPort connectors</li>
+  <li>Display: Ensure the settings dialog gets properly destroyed</li>
+  <li>Display: Fix calculation of offset</li>
+  <li>Display: Fix crash when no RRMode is available (bug #12607)</li>
+  <li>Display: Fix division by 0 crash from gdk_screen_height_mm()</li>
+  <li>Display: Fix race condition with monitor connect and disconnect</li>
+  <li>Display: Fix segfault on monitor reconnect</li>
+  <li>Display: Leave monitors where they were if possible (Bug #14096)</li>
+  <li>Display: Make primary indicator a star icon</li>
+  <li>Display: Re-introduce display numbering</li>
+  <li>Display: Sync display when applying config</li>
+  <li>Display: Throw warning when monitors exceed max screen size</li>
+  <li>Display: Visualize all three display configuration states</li>
+  <li>Display: Visually note if two displays overlap (mirrored) but are not cloned</li>
+  <li>Display (Minimal Dialog): Add mnemonics to minimal dialog buttons (Bug #15449)</li>
+  <li>Display (Minimal Dialog): Correctly position monitors in extended mode</li>
+  <li>Display (Minimal Dialog): Fix alignment of buttons in minimal dialog</li>
+  <li>Display (Minimal Dialog): Make minimal dialog single instance (Bug #11169)</li>
+  <li>Display (Minimal Dialog): New icons for the minimal display dialog</li>
+  <li>Settings Manager: Fix missing icons on resize/add/remove (Bugs #15428, #15613)</li>
+  <li>Settings Manager: Fix scrolling in embedded settings dialogs (Bug #14285)</li>
+  <li>Settings Manager: Fix search change clearing and hiding sections (Bug #14792)</li>
+  <li>Settings Manager: Remove existing socket from socket viewport (Bug #13847)</li>
+  <li>Xfsettingsd: Fix numlock state restoration (Bug #15642)</li>
+  <li>Xfsettingsd: Fix incremental sending from the clipboard manager (Bug #13537)</li>
+  <li>Xfsettingsd: Fix syncdaemon not starting with certain locales</li>
+  <li>Xfsettingsd: Force using a period as a decimal separator (Bug #11906)</li>
+  <li>Xfsettingsd: Increase startup priority</li>
+  <li>Xfsettingsd: Start settings prior to complete startup (Bug #15725)</li>
+  <li>Xsettings: Grab and sync XServer on startup (Bug #15725)</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Uyghur.</li>
 </ul>
 
 <h2>Configuration Manager <em>(xfconf)</em></h2>
