@@ -8,6 +8,7 @@
 <ul>
   <li>GTK+ dependency &gt;= 3.22, GLib &gt;= 2.42 and GDBus.</li>
   <li>Exo has an optional dependency on GTK2.</li>
+  <li>Garcon has an optional dependency on GTK2.</li>
   <li>Libxfce4ui has an optional dependency on GTK2.</li>
   <li>Xfce4-panel has an optional dependency on GTK2.</li>
 </ul>
