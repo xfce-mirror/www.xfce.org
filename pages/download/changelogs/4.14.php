@@ -65,7 +65,30 @@
 
 <h2>Extension Library <em>(exo)</em></h2>
 <ul>
-
+  <li>Appearance: Improved spacing and alignment in the Preferred Applications dialog</li>
+  <li>ExoIconChooserDialog: Dropped deprecated International icon context, add Stock icon context</li>
+  <li>ExoIconChooserDialog: Increased icon chooser context title length to support long translations</li>
+  <li>ExoIconChooserDialog: Skip symbolic icons to boost performance</li>
+  <li>Feature: exo-csource: Add --output flag to write output to a file (Xfce #12901)</li>
+  <li>Feature: exo-helper: Add --query flag to query the preferred application (Xfce #8579)</li>
+  <li>Feature: exo-helper: Enable dismissal of "Failed to open default" dialogs</li>
+  <li>Feature: ExoString: Added new exo_str_is_flag</li>
+  <li>Feature: GTK Extensions: Added new exo_gtk_dialog_get_action_area and exo_gtk_dialog_add_secondary_button</li>
+  <li>Fix: Add google-chrome-stable binary for the google-chrome helper (Xfce #13876)</li>
+  <li>Fix: Discard preferred application selection if dialog is canceled (Xfce #8802)</li>
+  <li>Fix: exo-helper: Use full custom command path (Xfce #4093)</li>
+  <li>Fix: exo-launch: Pass flags to preferred application (Xfce #9427)</li>
+  <li>Fix: Hide exo launchers from GNOME Software to prevent accidental uninstallation (Xfce #14588)</li>
+  <li>Fix: Improved handling of mimeapps.list (Xfce #15046, #15087, #15238)</li>
+  <li>Fix: Synchronize default applications to gio-mime (Xfce #14633)</li>
+  <li>Fix: Use the standard shared thumbnails directory (Xfce #14799)</li>
+  <li>Icons: Replaced gnome-*, internet-mail, missing-image, user-bookmarks icons with FreeDesktop.org standard icons</li>
+  <li>Icons: Stopped shipping generic category icons, these are now standard (Xfce #9992)</li>
+  <li>Helpers (File Manager): Added PCManFM-Qt</li>
+  <li>Helpers (Mail Reader): Added Geary; Dropped Opera Mail</li>
+  <li>Helpers (Terminal Emulator): Added Terminator</li>
+  <li>Helpers (Web Browser): Added Brave, Google Chrome</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kannada, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Panjabi, Panjabi (Punjabi), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Uighur, Ukrainian, Urdu, Urdu (Pakistan), Vietnamese.</li>
 </ul>
 
 <h2>Menu Library <em>(garcon)</em></h2>
