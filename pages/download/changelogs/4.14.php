@@ -709,9 +709,27 @@
 </ul>
 
 <h2>Thumbnail Generator <em>(tumbler)</em></h2>
-
 <ul>
-
+  <li>Feature: Add support for loading thumbnailers from *.thumbnailer files (Bug #7475)</li>
+  <li>Feature: Add Fujifilm RAF support (Bug #14522)</li>
+  <li>Fix: Accept network paths in ffmpeg thumbnailer plugin</li>
+  <li>Fix: Add check to avoid sparse files that cause high cpu and memory load (Bug #12259)</li>
+  <li>Fix: Add more media types for audio cover thumbnails (Bug #12041)</li>
+  <li>Fix: Avoid loading specialized tumbnailers twice (Bug #13618)</li>
+  <li>Fix: Check for sparse video files only on plugin side</li>
+  <li>Fix: Close desktop thumbnailers directory when done from it</li>
+  <li>Fix: Do not close GdkPixbufLoader on error (causes SIGABRT) (Bug #13360)</li>
+  <li>Fix: Finding of libopenraw-0.1.0 (Bug #13201)</li>
+  <li>Fix: Handle 0 mtime threshold on Cleanup DBus method (Bug #9231)</li>
+  <li>Fix: Missing entry of the new desktop thumbnailer plugin in tumbler.rc</li>
+  <li>Fix: Set max file sizes</li>
+  <li>Fix: Test sparse files only for regular files (Bug #14693)</li>
+  <li>Fix: Typo in desktop-thumbnailer-provider.c (Bug #14925)</li>
+  <li>Fix: Typo in exif tag for image height (Bug #13240)</li>
+  <li>Fix: Uninitialized variable (Bug #14688)</li>
+  <li>Fix: Use hash table to avoid scanning xdg user path twice when searching for desktop thumbnailers</li>
+  <li>Fix: Use pkg-config to find FreeType > 2.9.1</li>
+  <li>Translation updates: Albanian, Armenian, Basque, Belarusian, Catalan, Czech, Danish, Dutch (Flemish), English (Australia), Finnish, French, Galician, Greek, Hebrew, Hungarian, Italian, Kazakh, Lithuanian, Norwegian Bokmål, Polish, Portuguese (Brazilian), Romanian, Russian, Slovak, Swedish, Ukrainian.</li>
 </ul>
 <!--
 <h2>Volume Manager <em>(thunar-volman)</em></h2>
