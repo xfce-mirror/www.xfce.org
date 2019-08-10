@@ -218,7 +218,7 @@
   <li>thunar-sendto-email.desktop: use xdg mail-send icon</li>
   <li>URLs: Replace links from "http://thunar.xfce.org/" to "https://docs.xfce.org/xfce/thunar/start"</li>
   <li>URLs: Use https where possible</li>
-  <li>Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Bangla, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Esperanto, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Bangla, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Esperanto, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Application Finder <em>(xfce4-appfinder)</em></h2>
@@ -241,7 +241,7 @@
   <li>General: Improve spacing and resizing (Bug #14651)</li>
   <li>General: Improve xfce4-run comment (Bug #15473)</li>
   <li>General: Update app icons to new standard names</li>
-  <li>Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
@@ -346,7 +346,7 @@
   <li>Fix: usability: Add more accelerators to dialog buttons (Bug #15490)</li>
   <li>Fix: usability: Move "Separator" to the top of the "Add New Items..." menu (Bug #14086)</li>
   <li>Fix: windowmenu: Icon size in menu</li>
-  <li>Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (Great Britain), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (Great Britain), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
@@ -426,7 +426,7 @@
   <li>xflock4: Add support for xfce4-screensaver to xflock4</li>
   <li>xflock4: Do not override PATH with hardcoded value.</li>
   <li>xfsm-manager: pass manager variable to g_timeout_add (Bug #13802)</li>
-  <li>Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Esperanto, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Esperanto, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
@@ -501,7 +501,7 @@
   <li>Fix: Path in xfconf_cache_set where the mutex isn't locked (Bug #13790)</li>
   <li>Tests: Added .NOTPARALLEL to property change test (Bug #13840)</li>
   <li>Tests: Explicitly handle error reply from Ping method call</li>
-  <li>Armenian (Armenia), Basque, Belarusian, Bulgarian, Catalan, Czech, Danish, English (Australia), Icelandic, Italian, Lithuanian, Portuguese (Brazilian), Romanian, Slovak, Swedish.</li>
+  <li>Translation updates: Armenian (Armenia), Basque, Belarusian, Bulgarian, Catalan, Czech, Danish, English (Australia), Icelandic, Italian, Lithuanian, Portuguese (Brazilian), Romanian, Slovak, Swedish.</li>
 </ul>
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
@@ -562,12 +562,80 @@
   <li>Fix: Use custom CSS for the iconview as a fallback (Bug #13609)</li>
   <li>Fix: Warning about ignored return value (Bug #15410)</li>
   <li>Fix: Xfdesktop crashes after multiple --reload calls (Bug #15060)</li>
-  <li>Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Nepali, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Uyghur, Uzbek.</li>
+  <li>Translation updates: Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Nepali, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Uyghur, Uzbek.</li>
 </ul>
 
 <h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
-
+  <li>Feature: Add command line option "--vblank" to select vblank method</li>
+  <li>Feature: Add style class to tabwin modes</li>
+  <li>Feature: Add support for NET_WM_BYPASS_COMPOSITOR (Bug #12434)</li>
+  <li>Feature: Add support for scaled cursor when zooming</li>
+  <li>Feature: Add support for VSYNC using either Present or OpenGL</li>
+  <li>Feature: Add support for XI2</li>
+  <li>Feature: Add xfconf setting for selecting permanent vblank method</li>
+  <li>Feature: Allow hiding windows using NET_WM_STATE_HIDDEN (Bug #15356)</li>
+  <li>Feature: Allow resizing of borderless maximized window with [Alt] + mouse</li>
+  <li>Feature: Daemon mode is now deprecated (--daemon has no effect)</li>
+  <li>Feature: Improved GLX support with NVIDIA proprietary/closed source driver (Bug #15453)</li>
+  <li>Feature: New default theme</li>
+  <li>Feature: Optionally raise window while cycling (Bug #2701)</li>
+  <li>Feature: Remove support for environment variable "XFWM4_USE_PRESENT"</li>
+  <li>General: Allow the top of the frame to be cropped when maximised, update default theme to use maximized cropping (Bug #14470)</li>
+  <li>General: Change default compositor background to plain black</li>
+  <li>General: Compositor updates with GLX</li>
+  <li>General: Increase X11 client priority of xfwm4</li>
+  <li>General: Remove icons from window menu</li>
+  <li>General: Small optimization with zoom on GLX</li>
+  <li>General: Use cairo for pixmaps and masks</li>
+  <li>General: Various compositor improvements and optimizations with GLX</li>
+  <li>HiDPI: Adjust default theme with scale</li>
+  <li>HiDPI: Fix menu alignment with scaled UI</li>
+  <li>HiDPI: Fix monitor geometry with scaled UI (Bug #14566)</li>
+  <li>HiDPI: Fix size increment with scaled UI</li>
+  <li>HiDPI: Fix tabwin placement with scaled UI (Bug #14931)</li>
+  <li>HiDPI: Use GTK3 scaling attributes for window titles</li>
+  <li>Fix: Adjust zoom update based on monitor refresh rate (Bug #15391)</li>
+  <li>Fix: Allow transients to be minimized (Bug #14953)</li>
+  <li>Fix: Build out of tree (Bug #14542)</li>
+  <li>Fix: Build without compositor (Bug #15432)</li>
+  <li>Fix: Check for appropriate XSync version and increase xfwm4 priority</li>
+  <li>Fix: Clear shortcut in settings-dialog when removed (Bug #12802)</li>
+  <li>Fix: Crash with button layout setting (Bug #14606)</li>
+  <li>Fix: Crash/stack smash in startup-notification on some architectures (Bug #15028)</li>
+  <li>Fix: Double-click distance setting</li>
+  <li>Fix: Enable root pixmap with compositor (Bug #15709)</li>
+  <li>Fix: Fallback to resource class name for icons (Bug #15510)</li>
+  <li>Fix: Flickering with GLX backend (Bugs #14564, #13519)</li>
+  <li>Fix: GL texture filter (Bug #15676)</li>
+  <li>Fix: GTK_FRAME_EXTENTS support (Bug #14511)</li>
+  <li>Fix: Ignore XErrors caused by damages</li>
+  <li>Fix: Initial pointer location when zooming</li>
+  <li>Fix: Issue with Android Virtual Device emulator (Bug #12206)</li>
+  <li>Fix: Logic error in bottom struts validation (Bug #13964)</li>
+  <li>Fix: Maximization on expected output (Bugs #13284, #13954)</li>
+  <li>Fix: Maximization with GTK clients using size increments (Bug #13954)</li>
+  <li>Fix: Monitor output size update (Bug #15085)</li>
+  <li>Fix: Place windows on current monitor (Bug #14959)</li>
+  <li>Fix: Pointer enter/leave with decoration buttons (Bug #14741)</li>
+  <li>Fix: Preview with shaded windows (Bug #14899)</li>
+  <li>Fix: Raise all transients together (Bug #15303)</li>
+  <li>Fix: Raise on activate only with raise-on-focus (Bug #14656)</li>
+  <li>Fix: Raising of parent transients (Bug #15580)</li>
+  <li>Fix: Reduce repaint timeout (Bug #14335)</li>
+  <li>Fix: Remove the old vblank code (Bug #13613)</li>
+  <li>Fix: Revert to GLX as default vblank method (Bug #15325)</li>
+  <li>Fix: Support for 1bpp icons</li>
+  <li>Fix: Update "presentproto" requirement to avoid XPresent issue on 32bit (Bug #13257)</li>
+  <li>Fix: Update CSS for tabwin only on theme change</li>
+  <li>Fix: Use after release of client picture with hidden (Bug #14990)</li>
+  <li>Fix: Use the primary monitor by default for placement (Bug #13454)</li>
+  <li>Fix: Use xinerama indices for EWMH's NET_WM_FULLSCREEN_MONITORS (Bugs #9351, #13608)</li>
+  <li>Fix: Window type for broken clients (Bug #15399)</li>
+  <li>Fix: Withdraw the frame before the client window (Bug #15061)</li>
+  <li>Fix: XI2 mask (Bug #14695)</li>
+  <li>Fix: Zooming without GL</li>
+  <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Urdu.</li>
 </ul>
 
 <h2>Theme Engine <em>(gtk-xfce-engine)</em></h2>
