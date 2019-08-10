@@ -351,7 +351,82 @@
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
-
+  <li>Feature: Add a switch user button to the logout dialog (Bug #10345)</li>
+  <li>Feature: Add/Edit Application Autostart Entries (Bug #13271)</li>
+  <li>Feature: Drop splash screens</li>
+  <li>Feature: Hybrid Sleep support - "hibernate" and suspend the system</li>
+  <li>Feature: Introduce priority-group startup for FailSafe Session</li>
+  <li>Feature: Optionally run commands on logout, suspend etc. (Bug #10172)</li>
+  <li>Feature: Use screensaver DBUS APIs for lock and inhibit calls (Bug #12603)</li>
+  <li>Feature: xfsm now does session management for clients using the Gtk application dbus interface</li>
+  <li>Appearance: Improve column layout of autostart tab (Bug #15448)</li>
+  <li>Appearance: Improve layout of autostart add/edit dialogs</li>
+  <li>Builds: Remove unused checks on configure step</li>
+  <li>Builds: Report optional dependency on polkit (Bug #12761)</li>
+  <li>Builds: UPower dependency has been removed as the suspend/hibernate dbus calls were dropped from it</li>
+  <li>chooser: Add fallback theming to chooser dialogs</li>
+  <li>chooser: Enable keypress response to session creation</li>
+  <li>chooser: Fix case in session chooser buttons</li>
+  <li>chooser: Improve look and feel of the session chooser</li>
+  <li>chooser: Improve UI and add delete button (Bug #12799)</li>
+  <li>chooser: Update session name in xfconf after chooser</li>
+  <li>Fix: Coverity: 'Constant' variable guards dead code (CID 178988)</li>
+  <li>Fix: Coverity: Dereference after null check (CID 178989)</li>
+  <li>Fix: Coverity: Dereference after null check (CID 87608)</li>
+  <li>Fix: Coverity: Logically dead code (CID 178987)</li>
+  <li>Fix: Coverity: Resource leak (CID 178990)</li>
+  <li>Fix: Coverity: Unchecked return value from library (CID 87607)</li>
+  <li>Fix: Added better shutdown fallback support for the BSDs (Bug #14722)</li>
+  <li>Fix: Check accessibility depending on xfsm configuration</li>
+  <li>Fix: Compilation error with --disable-polkit (Bug #12760)</li>
+  <li>Fix: Compiler warning "cast between incompatible function types" introduced in GCC 8</li>
+  <li>Fix: Do not auto start consolekit daemon if it is not running</li>
+  <li>Fix: Do not install generic icon names (Bug #11912)</li>
+  <li>Fix: Export the SSH_AUTH_SOCK when spawning client (Bug #13486)</li>
+  <li>Fix: Build failure when dbus is not in the system include path (Bug #14386)</li>
+  <li>Fix: Fadeout window using Xlib API</li>
+  <li>Fix: GVariant format string in dbus server</li>
+  <li>Fix: Keyboard grab for logout window</li>
+  <li>Fix: Process Gtk events prior to starting D-Bus (Bug #15712)</li>
+  <li>Fix: Read data from correct group when editing autostart entry (Bug #10423)</li>
+  <li>Fix: Remove non-existent grid properties (Bug #13271)</li>
+  <li>Fix: Remove now useless XFCE_GLADE_*_PATH variables (Bug #13945)</li>
+  <li>Fix: Remove old unused autostart_migrate function</li>
+  <li>Fix: Remove useless ioprio.h check</li>
+  <li>Fix: Reset font-size of logout dialog to default (Bug #15505)</li>
+  <li>Fix: scripts/xinitrc.in.in: use "command" shell builtin instead of which(1)</li>
+  <li>Fix: Tell intltool how to extract .ui files (Bug #14582)</li>
+  <li>Fix: Use exec to launch xfce4-session from xinitrc</li>
+  <li>Fix: Use sysconf(_SC_NGROUPS_MAX) instead of #defining an arbitrary MAX_USER_GROUPS (bug #14722)</li>
+  <li>Fix: Use systemd-logind methods instead of polkit permissions (Bug #14707)</li>
+  <li>Fix: xinitrc: Remove fallback path when xfce4-session is not installed</li>
+  <li>logout-dialog: Add styleclass to make logout dialog themeable</li>
+  <li>logout-dialog: Fix mnemonic conflict on logout dialog</li>
+  <li>logout-dialog: Fix sensitivity of switch user button</li>
+  <li>logout-dialog: Improve default style of the logout dialog</li>
+  <li>logout-dialog: Remove blue border from logout dialog (Bug #15284)</li>
+  <li>logout-dialog: Set logout dialog icons from icon_name</li>
+  <li>logout-dialog: Support scaling in logout dialog (Bug #14951)</li>
+  <li>logout-dialog: Use a different icon for hybrid sleep when possible</li>
+  <li>settings: Add a "delete session" button to the session list</li>
+  <li>settings: Add a label for the currently active session</li>
+  <li>settings: Add column headers to autostart list</li>
+  <li>settings: Fix alignment of session lock property</li>
+  <li>settings: Fix crash when terminating programs (Bug #15489)</li>
+  <li>settings: Fix PID showing in "Current Session" tab</li>
+  <li>settings: Improve icon matching in "Current Session" tab</li>
+  <li>settings: In autostart some apps (e.g. xfce-polkit) have bigger icons</li>
+  <li>settings: Initialize the session list treeview if necessary</li>
+  <li>settings: Make entries expand in add/edit app startup dialog (Bug #15321)</li>
+  <li>settings: Make the Autostart buttons an inline toolbar</li>
+  <li>settings: More settings dialog UI improvements</li>
+  <li>settings: Move "lock screen before sleep" option to general tab</li>
+  <li>settings: Show saved sessions in settings dialog</li>
+  <li>xfce4-session-logout: deconflict -h option (Bug #12806)</li>
+  <li>xflock4: Add support for xfce4-screensaver to xflock4</li>
+  <li>xflock4: Do not override PATH with hardcoded value.</li>
+  <li>xfsm-manager: pass manager variable to g_timeout_add (Bug #13802)</li>
+  <li>Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Esperanto, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
