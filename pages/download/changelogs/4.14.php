@@ -44,24 +44,24 @@
 
 <h2>Widget Library <em>(libxfce4ui)</em></h2>
 <ul>
-  <li>Add garcon to the list of components</li>
-  <li>Add api indices in gtk-doc</li>
-  <li>feat: Switch to Gtk3 default, Gtk2 Optional</li>
-  <li>Better documentation processing</li>
-  <li>Fix the dialog widget placement in Gtk3</li>
-  <li>Export the glade catalog for Gtk3</li>
-  <li>Set the XfceHeading style class to enable theming in Gtk3.20</li>
-  <li>Fix build error with –disable-gtk3 (Bug #12648)</li>
-  <li>Remove exo dependancy (Bug #13326)</li>
-  <li>Let autotools find and invoke glib-compile-resources (Bug #13326)</li>
-  <li>fix: add libxfce4ui_get_resource to abi check symbols (Bug #13326)</li>
-  <li>Add support for GOBJECT-INTROSPECTION (Bug #13461)</li>
-  <li>Attempt to fix missing gresource file (Bug #13705)</li>
-  <li>Fix gladeui2 path detection (Bug #13944)</li>
-  <li>Add Ctrl + Alt + t as default shortcut for terminal (Bug #14510)</li>
-  <li>Add PrintScreen as shortcut for xfce4-screenshooter (Bug #14524)</li>
-  <li>Remove styling of emails in about dialog (Bug #14638)</li>
-  <li>Install icons when gladeui2 is set (Bug #15207)</li>
+  <li>Feature: Add Ctrl + Alt + t as default shortcut for terminal (Bug #14510)</li>
+  <li>Feature: Add PrintScreen as shortcut for xfce4-screenshooter (Bug #14524)</li>
+  <li>Feature: Add support for GOBJECT-INTROSPECTION (Bug #13461)</li>
+  <li>Feature: Export the glade catalog for Gtk3</li>
+  <li>Feature: Switch to Gtk3 default, Gtk2 optional</li>
+  <li>General: Add api indices in gtk-doc</li>
+  <li>General: Add garcon to the list of components</li>
+  <li>General: Better documentation processing</li>
+  <li>General: Let autotools find and invoke glib-compile-resources (Bug #13326)</li>
+  <li>General: Remove exo dependancy (Bug #13326)</li>
+  <li>General: Remove styling of emails in about dialog (Bug #14638)</li>
+  <li>General: Set the XfceHeading style class to enable theming in Gtk3.20</li>
+  <li>Fix: Add libxfce4ui_get_resource to abi check symbols (Bug #13326)</li>
+  <li>Fix: Build error with –disable-gtk3 (Bug #12648)</li>
+  <li>Fix: Dialog widget placement in Gtk3</li>
+  <li>Fix: Fix gladeui2 path detection (Bug #13944)</li>
+  <li>Fix: Fix missing gresource file (Bug #13705)</li>
+  <li>Fix: Install icons when gladeui2 is set (Bug #15207)</li>
   <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur.</li>
 </ul>
 
