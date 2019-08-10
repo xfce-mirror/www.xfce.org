@@ -506,7 +506,63 @@
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
-
+  <li>Feature: Add orientation option to arrange icons (Bug #14979)</li>
+  <li>Feature: Add support for RandR's primary monitor (Bug #10688)</li>
+  <li>Feature: Add "Next Background" context menu option (Bug #12261)</li>
+  <li>Feature: Sync user's wallpaper selection to AccountsService</li>
+  <li>General: Change "Create Launcher..." icon (Bug #14161)</li>
+  <li>General: Improve fallback CSS</li>
+  <li>General: Make "another desktop manager is running" messages critical (Bug #13653)</li>
+  <li>General: Make a couple of strings translatable (Bug #14374)</li>
+  <li>General: Port Settings UI to Glade 3</li>
+  <li>General: Reorder checkboxes in Settings UI</li>
+  <li>General: Update copyright year</li>
+  <li>General: Update README.xfconf (Bug #15457)</li>
+  <li>General: Use https where possible</li>
+  <li>General: Use the new Thunarx-3 API (Thunar >= 1.7)</li>
+  <li>Appearance: Add padding to various context menu icons (Bug #14628)</li>
+  <li>Translations: Add translation string for Trash desktop icon</li>
+  <li>Fix: Allow directories to be selected in Settings dialog (Bug #12832)</li>
+  <li>Fix: Autotools build warnings</li>
+  <li>Fix: Crash in the backdrop loader (Bug #12339)</li>
+  <li>Fix: Crash when displays change (Bug #14609)</li>
+  <li>Fix: Desktop icon order resets (Bug #11266)</li>
+  <li>Fix: Display correct icon size of minimized apps (Bug #8951)</li>
+  <li>Fix: Do not cycle backdrop twice</li>
+  <li>Fix: Do not popup a single "Applications" menu when right clicking on desktop (Bug #13866)</li>
+  <li>Fix: Do not redraw the icons on focus change events (Bug #12071)</li>
+  <li>Fix: Do not try to divide by 0 (Bug #12115)</li>
+  <li>Fix: Drag data being received multiple times (Bug #14471)</li>
+  <li>Fix: Enable loading non-theme icons (Bug #15294)</li>
+  <li>Fix: Ensure that CSD is not applied to desktop window (Bug #15241)</li>
+  <li>Fix: Get/set _NET_DESKTOP_MANAGER_S&lt;screen&gt; atom (Bug #13653)</li>
+  <li>Fix: Highlight drag target when hovering it (Bug #12695)</li>
+  <li>Fix: Icon size in "Open with" submenu (Bug #14774)</li>
+  <li>Fix: Implementation of has_mime_type (Bug #15295)</li>
+  <li>Fix: Invalid memory access when moving icons to a display where icons are disabled (Bug #15299)</li>
+  <li>Fix: loading of wallpaper previews is Settings dialgo (Bug #11892)</li>
+  <li>Fix: Make 'Move to Trash' icon the same as Thunar (Bug #15234)</li>
+  <li>Fix: Match Thunar Drag and Drop behavior (Bug #14919)</li>
+  <li>Fix: Memory leak while cycling wallpapers (Bug #13555)</li>
+  <li>Fix: Memory leaks when displays change (Bugs #12805, #14844)</li>
+  <li>Fix: Menu popup issue with desktop icons disabled (Bug #14415)</li>
+  <li>Fix: Open all selected icons on key press (Bug #15420)</li>
+  <li>Fix: Properly center workspace header in windowlist (Bug #15405)</li>
+  <li>Fix: Remove faulty line in glade file (Bug #15293)</li>
+  <li>Fix: Restore icons of custom actions</li>
+  <li>Fix: Retain icon relative position when moving a group</li>
+  <li>Fix: Scaling, stretching, and zooming of images with orientation metadata (Bugs #14644, #15292)</li>
+  <li>Fix: Set desktop environment for garcon app menu (Bug #14599)</li>
+  <li>Fix: Single-click mode executes desktop items twice (Bug #14021)</li>
+  <li>Fix: Stop ongoing drag/selection if middle/right mouse button is pressed (Bug #14180)</li>
+  <li>Fix: Timer leak when docking-undocking monitors (Bug #13887)</li>
+  <li>Fix: Title of Open dialog (Bug #12560)</li>
+  <li>Fix: Use async dbus proxy initialization (Bug #15418)</li>
+  <li>Fix: Use clipboard target "text/uri-list" when copying/cutting (Bug #13379)</li>
+  <li>Fix: Use custom CSS for the iconview as a fallback (Bug #13609)</li>
+  <li>Fix: Warning about ignored return value (Bug #15410)</li>
+  <li>Fix: Xfdesktop crashes after multiple --reload calls (Bug #15060)</li>
+  <li>Albanian, Amharic, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (Canada), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Nepali, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Thai, Turkish, Uighur, Ukrainian, Uyghur, Uzbek.</li>
 </ul>
 
 <h2>Window Manager <em>(xfwm4)</em></h2>
