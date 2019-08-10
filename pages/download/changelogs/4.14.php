@@ -39,7 +39,7 @@
   <li>Add support for GOBJECT-INTROSPECTION (Bug #12159)</li>
   <li>Allow everyone to build introspection files (Bug #13638)</li>
   <li>Allow language-specific keys before language-neutral ones (Bug #13979)</li>
-  <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (Great Britain), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Widget Library <em>(libxfce4ui)</em></h2>
@@ -62,7 +62,7 @@
   <li>Add PrintScreen as shortcut for xfce4-screenshooter (Bug #14524)</li>
   <li>Remove styling of emails in about dialog (Bug #14638)</li>
   <li>Install icons when gladeui2 is set (Bug #15207)</li>
-  <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (Great Britain), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur.</li>
+  <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur.</li>
 </ul>
 
 <h2>Extension Library <em>(exo)</em></h2>
@@ -346,7 +346,7 @@
   <li>Fix: usability: Add more accelerators to dialog buttons (Bug #15490)</li>
   <li>Fix: usability: Move "Separator" to the top of the "Add New Items..." menu (Bug #14086)</li>
   <li>Fix: windowmenu: Icon size in menu</li>
-  <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (Great Britain), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
+  <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
@@ -645,7 +645,67 @@
 
 <h2>Power Manager <em>(xfce4-power-manager)</em></h2>
 <ul>
-
+  <li>Feature: Add option to show percentage and/or remaining time in the panel plugin (Bug #4499)</li>
+  <li>Feature: Add support for XF86Battery button (Bug #14055)</li>
+  <li>Feature: Add support of xfce4-screensaver</li>
+  <li>Feature: Drop LXDE panel plugin</li>
+  <li>Feature: Make inhibition affect dimming and inactivity action (Bug #14687)</li>
+  <li>General: The about dialog has been restored (Bug #11982)</li>
+  <li>General: The panel plugin now uses UPower's icon names directly and is consequently compatible with all major icon themes out of the box</li>
+  <li>General: The panel plugin uses symbolic icons, while the systray icon now uses colored icons</li>
+  <li>General: The settings dialog has been ported to GtkApplication</li>
+  <li>General: The settings dialog now has a unique icon name (xfce4-power-manager-settings)</li>
+  <li>Fix: Add bitrig to backend detection (Bug #12242)</li>
+  <li>Fix: Add MATE to NotShowIn list (Bug #12506)</li>
+  <li>Fix: Build on FreeBSD and DragonFlyBSD (Bug #13984)</li>
+  <li>Fix: Compiler warning (Bug #14104)</li>
+  <li>Fix: Crash on device update (Bug #11932)</li>
+  <li>Fix: Crash on logout (Bug #12465)</li>
+  <li>Fix: Crash when the brightness slider is released</li>
+  <li>Fix: Crash when warning about the screenlocker (Bug #12603)</li>
+  <li>Fix: Disable trayicon when panel plugin is present (Bug #15682)</li>
+  <li>Fix: Do not autostart the power manager in the LXQt DE (Bug #14450)</li>
+  <li>Fix: Do not crash when UPower returns "" for the icon-name (Bug #11756)</li>
+  <li>Fix: Do not overwrite the user's XScreensaver settings (Bug #14968)</li>
+  <li>Fix: Draw border around device details</li>
+  <li>Fix: Drop period at end of all tooltip texts (Bug #12342)</li>
+  <li>Fix: g_object_bindings in xfce-screensaver</li>
+  <li>Fix: Handle screensaver activity with it's own class (Bug #12603)</li>
+  <li>Fix: Handling of dialog responses for suspend and hibernate (Bug #13405)</li>
+  <li>Fix: Install Appdata in metainfo (Bug #15380)</li>
+  <li>Fix: Keyboard-brightness icon names (Bug #12292)</li>
+  <li>Fix: Loading of icons for plugin and systray</li>
+  <li>Fix: Look up the schema for light-locker's settings recursively (Bug #11488)</li>
+  <li>Fix: Make the settings-app icon 256px for the about dialog</li>
+  <li>Fix: Make tooltip more concise (Bug #12342)</li>
+  <li>Fix: Never use symbolic icons for the systray (Bug #11756)</li>
+  <li>Fix: Panel icon on Desktop systems (Bug #11840)</li>
+  <li>Fix: plugin: Add properties dialog (Bug #13270)</li>
+  <li>Fix: plugin: Block panel autohide if the menu is open</li>
+  <li>Fix: plugin: Drop deprecated CSS styles</li>
+  <li>Fix: plugin: Fix menu leak, attach menu to button (Bug #13466)</li>
+  <li>Fix: plugin: Hide label by default on desktop systems</li>
+  <li>Fix: plugin: Hide label in unknown state (Bug #12851)</li>
+  <li>Fix: plugin: Set ac-adapter icon for desktop systems (Bug #13959)</li>
+  <li>Fix: plugin: Show discharge level even in unknown state (Bug #15280)</li>
+  <li>Fix: plugin: Use libxfce4panel function to obtain desired icon size</li>
+  <li>Fix: plugin: Various memory leaks (Bug #12332)</li>
+  <li>Fix: Replace xfconf_channel_new by xfconf_channel_get</li>
+  <li>Fix: Replace XTestFakeKeyEvent with inhibit/heartbeat (Bug #11083)</li>
+  <li>Fix: Scale description and values for light-locker (Bug #13303)</li>
+  <li>Fix: Set label so we do not crash (Bug #11967)</li>
+  <li>Fix: Set the transient hint for notifications</li>
+  <li>Fix: settings: change "going from sleep" to "going to sleep"(Bug #15144)</li>
+  <li>Fix: settings: Improve devices tab visually by adding frame</li>
+  <li>Fix: Show inhibitors in the plugin menu (Bug #9090)</li>
+  <li>Fix: Showing inhibits in the systray (Bug #12605)</li>
+  <li>Fix: Slider labels (Bug #14395)</li>
+  <li>Fix: Use the kernel-supplied backlight type rather than a whitelist (Bug #12553)</li>
+  <li>Fix: Use the newer up_client_get_devices2</li>
+  <li>Fix: When locking fallback to xflock4 first (Bug #12603)</li>
+  <li>Fix: Wrong panel plugin button size (bug #11898)</li>
+  <li>Fix: Xfpm startup dialog ignoring response (Bug #13700)</li>
+  <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Spanish (Castilian), Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Thumbnail Generator <em>(tumbler)</em></h2>
