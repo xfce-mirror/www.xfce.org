@@ -224,7 +224,25 @@
 
 <h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
-
+  <li>Feature: Add hide category preference (Bug #14893)</li>
+  <li>Feature: Add single window option</li>
+  <li>Fix: Change default action conflicting pattern (Bug #12103)</li>
+  <li>Fix: Crash when toggling bookmarks (Bug #14134)</li>
+  <li>Fix: Do not wrap when Text beside icons is enabled (Bug #8490)</li>
+  <li>Fix: Ignore menu items without name (Bug #14655)</li>
+  <li>Fix: Preferences button height</li>
+  <li>Fix: Save command in history even if it matches Exec (Bug #9023)</li>
+  <li>Fix: When expanded, launch apps with single enter press (Bug #14469)</li>
+  <li>General: Allow case-insensitive search</li>
+  <li>General: Convert AppData file to AppStream (Bug #14624)</li>
+  <li>General: Fuzzy search matching (Bug #10393)</li>
+  <li>General: Icon view: reduce padding/spacing with small icons</li>
+  <li>General: Improve app sorting</li>
+  <li>General: Improve keyboard navigation in List View</li>
+  <li>General: Improve spacing and resizing (Bug #14651)</li>
+  <li>General: Improve xfce4-run comment (Bug #15473)</li>
+  <li>General: Update app icons to new standard names</li>
+  <li>Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
