@@ -45,12 +45,12 @@ $head['css'] = '@media screen and (max-width:830px) {
 	<p><?php E_('Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.') ?></p>
 	<ul>
 		<li>
-			<a href="/download"><?php E_('Download') ?> 
+			<a href="/download"><?php E_('Download') ?>
 				<span>&ndash; <?php E_('get the source tarballs') ?></span>
 			</a>
 		</li>
 		<li>
-			<a href="/download/changelogs/4.12"><?php E_('ChangeLog') ?>
+			<a href="/download/changelogs/4.14"><?php E_('ChangeLog') ?>
 				<span>&ndash; <?php printf (R_('release notes for Xfce %s'), $stable_version) ?></span>
 			</a>
 		</li>
