@@ -22,23 +22,23 @@
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
-  <li>Better documentation processing</li>
-  <li>Fix GObject Introspection language bindings</li>
-  <li>Add support for rc files as symlinks</li>
-  <li>Avoid excessive type-casting</li>
-  <li>Fix documentation warnings</li>
-  <li>Fix some gtk-doc warnings</li>
-  <li>Migrate away from sgml templates for documentation</li>
-  <li>Fix abicheck to handle ppc64 architecture</li>
-  <li>Add a super basic python example</li>
-  <li>Make sure introspection users find the header file in the correct spot.</li>
-  <li>Make sure our gir/vapi gets the Xfce namespace, and not 'xfce'.</li>
-  <li>Add VAPIGEN for vala binding generation.</li>
-  <li>Add xfce_kiosk_get_type to abi symbols</li>
-  <li>Fix some autotools warnings, default debug to yes</li>
-  <li>Add support for GOBJECT-INTROSPECTION (Bug #12159)</li>
-  <li>Allow everyone to build introspection files (Bug #13638)</li>
-  <li>Allow language-specific keys before language-neutral ones (Bug #13979)</li>
+  <li>Feature: Add Python code example</li>
+  <li>Feature: Add support for GOBJECT-INTROSPECTION (Bug #12159)</li>
+  <li>Feature: Add VAPIGEN for vala binding generation</li>
+  <li>Feature: Add xfce_kiosk_get_type to abi symbols</li>
+  <li>General: Better documentation processing</li>
+  <li>General: Migrate away from sgml templates for documentation</li>
+  <li>Fix: Add support for rc files as symlinks</li>
+  <li>Fix: Allow everyone to build introspection files (Bug #13638)</li>
+  <li>Fix: Allow language-specific keys before language-neutral ones (Bug #13979)</li>
+  <li>Fix: Avoid excessive type-casting</li>
+  <li>Fix: Abicheck to handle ppc64 architecture</li>
+  <li>Fix: Documentation warnings</li>
+  <li>Fix: GObject Introspection language bindings</li>
+  <li>Fix: Some autotools warnings, default debug to yes</li>
+  <li>Fix: Some gtk-doc warnings</li>
+  <li>Fix: Make sure introspection users find the header file in the correct spot</li>
+  <li>Fix: Make sure our gir/vapi gets the Xfce namespace, and not "xfce"</li>
   <li>Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 </ul>
 
