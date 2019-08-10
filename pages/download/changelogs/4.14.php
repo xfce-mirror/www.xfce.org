@@ -219,7 +219,6 @@
   <li>URLs: Replace links from "http://thunar.xfce.org/" to "https://docs.xfce.org/xfce/thunar/start"</li>
   <li>URLs: Use https where possible</li>
   <li>Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Bangla, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Esperanto, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
-
 </ul>
 
 <h2>Application Finder <em>(xfce4-appfinder)</em></h2>
@@ -247,7 +246,107 @@
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
-
+  <li>Feature: Add per-panel setting "icon-size"</li>
+  <li>Feature: Add support for gobject-introspection (Vidar Haarr)</li>
+  <li>Feature: Continued support for Gtk2 plugins</li>
+  <li>Feature: Drop the panel's welcome dialog (Bug #14388)</li>
+  <li>Feature: Make vala and gobject-introspection optional</li>
+  <li>Feature: Support for the "primary" monitor option in RandR</li>
+  <li>Feature: systray: Allow ordering of items (Bug #11929)</li>
+  <li>Feature: tasklist: Add styleclass to make life easier for themers</li>
+  <li>Update: Update default panel layout</li>
+  <li>Update: actions: Add support for dm-tool</li>
+  <li>Update: appearance: Hide systray frame in default panel config</li>
+  <li>Update: clock: Add short weekday and date to default clock layout (Bug #15456)</li>
+  <li>Update: prefs: Improve position of panel profiles button (Bug #15657)</li>
+  <li>Update: tic-tac-toe: Add mnemonic to Close button</li>
+  <li>Fix: actions: GPtrArray usage (Bug #13981)</li>
+  <li>Fix: actions: Show Hybrid Sleep option (Bug #12771)</li>
+  <li>Fix: actions: Use a different icon for hybrid sleep when possible (Bug #15204)</li>
+  <li>Fix: appearance: Add orientation-related style classes for improved theming</li>
+  <li>Fix: appearance: Ensure the orientation style classes are always applied</li>
+  <li>Fix: appearance: Make the settings dialog more HIG compliant</li>
+  <li>Fix: appearance: Support alpha-transparent background images (Bug #14850)</li>
+  <li>Fix: appmenu: Add support for other menu editors (Bug #11684)</li>
+  <li>Fix: arrow-button: Allow connect_after signals on draw</li>
+  <li>Fix: arrow-button: Remove timeout on dispose (Bug #15696)</li>
+  <li>Fix: builds: Compiler error -Wcast-function-type (GCC 8)</li>
+  <li>Fix: builds: Compiler error 'This use of "defined" may not be portable'</li>
+  <li>Fix: builds: datarootdir declaration in .pc files (Bug #13589)</li>
+  <li>Fix: builds: make distcheck (But #14040)</li>
+  <li>Fix: clock: Add a validator for digital custom formats (Bug #11527)</li>
+  <li>Fix: clock: Improve discoverability of tooltip help-texts (Bug #11708)</li>
+  <li>Fix: clock: Invalid datetime formats appearing in list (Bug #11527)</li>
+  <li>Fix: clock: Make the default date and time format translatable (Bug #9637)</li>
+  <li>Fix: clock: Use freedesktop.org compliant icon (Bug #13779)</li>
+  <li>Fix: directory-menu: Plugin menu autohide behaviour</li>
+  <li>Fix: directory-menu: Use natural order for sorting (Bug #15413)</li>
+  <li>Fix: docs: Improve gtkdoc</li>
+  <li>Fix: general: Anchors for gtk_menu_popup_at_widget (Bug #14803)</li>
+  <li>Fix: general: Correctly initialize return value (Bug #10873)</li>
+  <li>Fix: general: DND between external plugins (Bug #13687)</li>
+  <li>Fix: general: Make double-click add plugin in the "Add item" dialog (Bug #9784)</li>
+  <li>Fix: general: Make sure panel plugin icons are not clipped (LP #1756608)</li>
+  <li>Fix: general: Pass socket id to D-Bus service to embed settings window (Bug #13854)</li>
+  <li>Fix: general: Struts on the bottom and right of the screen (Bug #14886)</li>
+  <li>Fix: general: Wrapper crash on unknown properties (Bug #13614)</li>
+  <li>Fix: icons: Missing icons with Adwaita icon theme (Bug #14133)</li>
+  <li>Fix: icons: Use fd.org terminal icon name (Bug #13592)</li>
+  <li>Fix: launcher: Add 'New Link' button to properties (Bug #14855)</li>
+  <li>Fix: launcher: Empty button in remove launcher dialog (Bug #13962)</li>
+  <li>Fix: launcher: Make sure the appropriate icon size is used</li>
+  <li>Fix: launcher: Plugin sizing improvements</li>
+  <li>Fix: launcher: Rely on icon-size provided by panel</li>
+  <li>Fix: launcher: Resizing of pixbuf based icons (Bug #14138)</li>
+  <li>Fix: launcher: Support for custom images</li>
+  <li>Fix: launcher: Tooltip icon size (Bugs #14774, #15319)</li>
+  <li>Fix: libxfce4panel: Arrow button size improvements</li>
+  <li>Fix: pager: Ensure bg color is set correctly (Bug #15690)</li>
+  <li>Fix: panel-window: Set struts with monitor scaling</li>
+  <li>Fix: prefs: Add missing mnemonic accelerators (Bug #15652)</li>
+  <li>Fix: prefs: Correct capitalization of labels (Bug #15651)</li>
+  <li>Fix: prefs: Crash on removing certain plugins (Bug #14418)</li>
+  <li>Fix: prefs: Improve window title (Bug #15653)</li>
+  <li>Fix: prefs: Make "Automatic" the default selection in the panel config dialog</li>
+  <li>Fix: prefs: Make compositor info a GtkInfoBar, add "configure" button</li>
+  <li>Fix: prefs: Set default panel-2 size of default settings</li>
+  <li>Fix: separator: Use symbolic icon for more clarity (Bug #15359)</li>
+  <li>Fix: show-desktop: Toggle also when DND-ing (Bug #15654)</li>
+  <li>Fix: systray: Add option to display icons with square sizing (Bug #12093)</li>
+  <li>Fix: systray: Alignment of single non-square items (Bug #9095)</li>
+  <li>Fix: systray: Crash when systray is empty (Bug #13927)</li>
+  <li>Fix: systray: Do not lookup hash table for null keys (Bug #11929)</li>
+  <li>Fix: tasklist: Activate parent windows (Bug #15307)</li>
+  <li>Fix: tasklist: Add 'group-button' styleclass</li>
+  <li>Fix: tasklist: Add fallback for missing window icons (Bug #15511)</li>
+  <li>Fix: tasklist: Alignment of labels when orientation is changed (Bug #13864)</li>
+  <li>Fix: tasklist: Allow to hide label decorations (Bug #10546)</li>
+  <li>Fix: tasklist: Avoid draw signal loop</li>
+  <li>Fix: tasklist: Define cosmetic default padding for images (Bug #13865)</li>
+  <li>Fix: tasklist: Do not listen for monitor changes in the plugin (Bug #10725)</li>
+  <li>Fix: tasklist: Do not show actionsmenu in grouped windows (Bug #15622)</li>
+  <li>Fix: tasklist: Draw grouped windows count indicator (Bug #10844)</li>
+  <li>Fix: tasklist: Ensure pressed buttons with open menus</li>
+  <li>Fix: tasklist: Keep groupbutton active after closing menu</li>
+  <li>Fix: tasklist: Make all-minimized group buttons translucent (Bug #10862)</li>
+  <li>Fix: tasklist: Make grouped buttons active (Bug #9129)</li>
+  <li>Fix: tasklist: Make sure icons in the group menu are 16px</li>
+  <li>Fix: tasklist: Only base bg color of group indicator on Gtk theme</li>
+  <li>Fix: tasklist: Overlapping vertical window titles (Bug #14901)</li>
+  <li>Fix: tasklist: Position of group indicator in vertical mode</li>
+  <li>Fix: tasklist: Replace exo-lucency with gtkcss</li>
+  <li>Fix: tasklist: Scrolling to cycle through open windows (Bug #13789)</li>
+  <li>Fix: tasklist: Support for group-button states</li>
+  <li>Fix: tasklist: Switch from wnck* icons to standard names</li>
+  <li>Fix: tasklist: Urgency blinking for group buttons (Bug #6904)</li>
+  <li>Fix: tasklist: Use Gdk to to determine which monitor contains a window</li>
+  <li>Fix: tic-tac-toe: Avoid use-after-free/double-free (Bug #15649)</li>
+  <li>Fix: translations: Make a couple of strings translatable (Bug #14338)</li>
+  <li>Fix: translations: Make former GtkStock dialog buttons translateable (Bug #14338)</li>
+  <li>Fix: usability: Add more accelerators to dialog buttons (Bug #15490)</li>
+  <li>Fix: usability: Move "Separator" to the top of the "Add New Items..." menu (Bug #14086)</li>
+  <li>Fix: windowmenu: Icon size in menu</li>
+  <li>Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (Great Britain), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Panjabi, Polish, Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
