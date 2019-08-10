@@ -17,7 +17,7 @@
 <ul>
   <li>Remove svn support in xdt-autogen</li>
   <li>Update xdt-csource with latest exo-csource modifications</li>
-  <li>No -Wshadow flag for enable_debug=full (bug #11637)</li>
+  <li>No -Wshadow flag for enable_debug=full (Bug #11637)</li>
 </ul>
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
@@ -396,7 +396,7 @@
   <li>Fix: scripts/xinitrc.in.in: use "command" shell builtin instead of which(1)</li>
   <li>Fix: Tell intltool how to extract .ui files (Bug #14582)</li>
   <li>Fix: Use exec to launch xfce4-session from xinitrc</li>
-  <li>Fix: Use sysconf(_SC_NGROUPS_MAX) instead of #defining an arbitrary MAX_USER_GROUPS (bug #14722)</li>
+  <li>Fix: Use sysconf(_SC_NGROUPS_MAX) instead of #defining an arbitrary MAX_USER_GROUPS (Bug #14722)</li>
   <li>Fix: Use systemd-logind methods instead of polkit permissions (Bug #14707)</li>
   <li>Fix: xinitrc: Remove fallback path when xfce4-session is not installed</li>
   <li>logout-dialog: Add styleclass to make logout dialog themeable</li>
@@ -447,7 +447,7 @@
   <li>Display: Improved support for embedded DisplayPort connectors</li>
   <li>Display: Ensure the settings dialog gets properly destroyed</li>
   <li>Display: Fix calculation of offset</li>
-  <li>Display: Fix crash when no RRMode is available (bug #12607)</li>
+  <li>Display: Fix crash when no RRMode is available (Bug #12607)</li>
   <li>Display: Fix division by 0 crash from gdk_screen_height_mm()</li>
   <li>Display: Fix race condition with monitor connect and disconnect</li>
   <li>Display: Fix segfault on monitor reconnect</li>
@@ -702,7 +702,7 @@
   <li>Fix: Use the kernel-supplied backlight type rather than a whitelist (Bug #12553)</li>
   <li>Fix: Use the newer up_client_get_devices2</li>
   <li>Fix: When locking fallback to xflock4 first (Bug #12603)</li>
-  <li>Fix: Wrong panel plugin button size (bug #11898)</li>
+  <li>Fix: Wrong panel plugin button size (Bug #11898)</li>
   <li>Fix: Xfpm startup dialog ignoring response (Bug #13700)</li>
   <li>Translation updates: Albanian, Arabic, Armenian (Armenia), Asturian, Basque, Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Dutch (Flemish), English (Australia), English (United Kingdom), Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Occitan (post 1500), Polish, Portuguese, Portuguese (Brazil), Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Spanish (Castilian), Swedish, Telugu, Thai, Turkish, Ukrainian, Uyghur, Vietnamese.</li>
 </ul>
