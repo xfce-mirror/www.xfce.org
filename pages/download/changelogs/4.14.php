@@ -119,6 +119,106 @@
 
 <h2>File Manager <em>(thunar)</em></h2>
 <ul>
+  <li>Feature: Add Ctrl+= as alternative accelerator for Zoom In (Bug #14586)</li>
+  <li>Feature: Add custom date format (Bug #14527)</li>
+  <li>Feature: Add GObject-Introspection support for thunarx-3</li>
+  <li>Feature: Add more options for thumbnail size (Bug #14451)</li>
+  <li>Feature: Add preference to open new thunar instances as tabs (Bug #13314)</li>
+  <li>Feature: Add preference to show file sizes in bytes in detailed view (Bug #11690)</li>
+  <li>Feature: Add preference to toggle 'delete' in the context menu (Bug #13327)</li>
+  <li>Feature: Add support for custom accelerators with custom actions</li>
+  <li>Feature: Add support for folder.jpg (Bug #14576)</li>
+  <li>Feature: Add support for org.freedesktop.FileManager1 (Bug #12414)</li>
+  <li>Feature: Allow tab switching with Ctrl + PgUp/PgDown (Bug #9585)</li>
+  <li>Feature: Show numeric (%) progress in file operation dialog (Bug #14102)</li>
+  <li>API: Bump thunarx to version 3</li>
+  <li>API: Job is now optional for thunar_io_scan_directory</li>
+  <li>API: Update thunarx documentation and fix its generation</li>
+  <li>Appearance: Improve Pathbar style for Location Selector</li>
+  <li>Appearance: Many minor styling fixes</li>
+  <li>Appearance: Refresh folder-copy and -move icons from Adwaita icon theme</li>
+  <li>Appearance: Use symbolic icon for edit button in pathbar</li>
+  <li>General: Add a systemd user unit for the two D-Bus session services (Bug #12236)</li>
+  <li>General: Add infobox to preferences in order to inform about missing gvfs</li>
+  <li>General: Add the right-click menu item "Open with" as well for folders</li>
+  <li>General: Convert AppData file to AppStream (Bug #14037)</li>
+  <li>General: Hide unneeded context menu entries for folder "Trash" in tree view</li>
+  <li>General: Introduce ellipsis to Detailed View filename</li>
+  <li>General: Make tree-view "Move to Trash" icon the same as in main pane</li>
+  <li>General: Show exact size in bytes in directory properties dialog (Bug #12858)</li>
+  <li>General: Show file size in binary units by default (Bug #14653)</li>
+  <li>Fix: "Open With" custom command doesn't escape the path (Bug #10883)</li>
+  <li>Fix: 100% CPU utilization when the parent directory is not readable (Bug #14900)</li>
+  <li>Fix: 8 second delay on logout when there is an open thunar window (Bug #15008)</li>
+  <li>Fix: Add support for CTRL+Z in rename dialog (Bug #14956)</li>
+  <li>Fix: Always show the executable checkbox (Bug #15605)</li>
+  <li>Fix: Application freeze when switching to tree-view (Bug #14960)</li>
+  <li>Fix: Build without HAVE_GIO_UNIX (Bug #12863)</li>
+  <li>Fix: Correctly check if destination is writable (Bug #14718)</li>
+  <li>Fix: Crash after clicking when XDG_SESSION_TYPE isn't set (Bug #15366)</li>
+  <li>Fix: Crash after updating thunar if old thunar deamon is still running</li>
+  <li>Fix: Crash due to passing null to strcmp (FreeBSD) (Bug #15059)</li>
+  <li>Fix: Crash in thunar_file_is_gfile_ancestor (Bug #14202)</li>
+  <li>Fix: Crash in tree-view when multiple windows are open (Bug #14714)</li>
+  <li>Fix: Crash on file operations (Bug #14281)</li>
+  <li>Fix: Crash on unavailable file move copy (Bug #14056)</li>
+  <li>Fix: Crash on unmounted volume in tree pane right click (Bug #15452)</li>
+  <li>Fix: Crash on USB-flash connection (Bug #13813)</li>
+  <li>Fix: Crash when thumbnailer is under heavy load after opening many tabs (Bug #13756)</li>
+  <li>Fix: Crash while clicking or typing when using wayland (Bug #14461)</li>
+  <li>Fix: Creation of .desktop file when dropping URL into folder (Bug #14239)</li>
+  <li>Fix: Custom actions do not work for remote locations (Bugs #7652, #7305)</li>
+  <li>Fix: Custom actions forget keyboard shortcuts (Bug #14617)</li>
+  <li>Fix: Custom actions without an icon could caused the file manager to crash (Bug #14464)</li>
+  <li>Fix: Deactivate "Move to Trash" menu entry on volumes without trash (Bug #15352)</li>
+  <li>Fix: Delete key in tree-view can delete the user home folder (Bug #15095)</li>
+  <li>Fix: Directories opened in a previous session are not recovered (Bug #14969)</li>
+  <li>Fix: Do not check G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE anymore (Bug #15367)</li>
+  <li>Fix: Do not register "send to" as last used app (Bug #14118)</li>
+  <li>Fix: Do not restart the folder monitor on each refresh (Bug #13364)</li>
+  <li>Fix: Do not translate "Trash" files and folders (Bug #14211)</li>
+  <li>Fix: Expand scroll window of file operation progress dialog (Bug #14946)</li>
+  <li>Fix: Failure to scan for file templates if the Templates directory is a symbolic link (Bug #12032)</li>
+  <li>Fix: Inconsistency between thumbnail view and details box (Bug #12435)</li>
+  <li>Fix: Killing thunar kills all launched sub-processes (Bug #14277)</li>
+  <li>Fix: Load templates synchronously (Bug #15200)</li>
+  <li>Fix: Make toggle for the delete entry affect tree-view side pane too</li>
+  <li>Fix: Man page incorrectly suggests '-v' instead of '-V'</li>
+  <li>Fix: Messed up row-height with disabled "automatically expand columns as needed" in detailed view. (Bug #14548)</li>
+  <li>Fix: Missing codegen for "make dist" in thunar-tpa (Bug #14190)</li>
+  <li>Fix: New bookmarks added to sidebar when dragging files (Bug #14921)</li>
+  <li>Fix: No bool argument available for dbus signal "TrashChanged"</li>
+  <li>Fix: Only show additional "real_name" of user in detailed_view if it is different from "name" (Bug #13648)</li>
+  <li>Fix: Pathbar buttons are now resized on folder rename (Bug #15024)</li>
+  <li>Fix: Pathbar to on middle click open folders in new tabs (Bug #15302)</li>
+  <li>Fix: Potential buffer overflow (Bug #12444)</li>
+  <li>Fix: Queued context menu popup</li>
+  <li>Fix: Removed start limit from Bulk Renamer to rename by number (Bug #14437)</li>
+  <li>Fix: Replace Trash action with Delete as needed (Bug #15352)</li>
+  <li>Fix: Restore "Empty File" menu icon (Bug #15540)</li>
+  <li>Fix: Restoring non-empty folders leaves copy in Trash (Bug #13535)</li>
+  <li>Fix: Right mouse click will not display icons for custom actions (Bug #14685)</li>
+  <li>Fix: Session startup priority</li>
+  <li>Fix: Setting wallpaper on GNOME</li>
+  <li>Fix: Sometimes mounting USB drives with root permission (Bug #14719)</li>
+  <li>Fix: Spinner still active after user cancels to mount volume (Bug #14536)</li>
+  <li>Fix: Standard view border during drag and drop (Bug #14523)</li>
+  <li>Fix: thunarx-provider-module.h missing inside tar.bz2 file created by "make dist" (Bug #14070)</li>
+  <li>Fix: tree view jumps (scrolls) when clicking on a directory (Bug #15174)</li>
+  <li>Fix: Uncritical "use after free"</li>
+  <li>Fix: Unexpected overshoot fade on icon view</li>
+  <li>Fix: Update mimeapps.list only when necessary (Bug #15533)</li>
+  <li>Fix: Update progress when deleting files (Bug #14102)</li>
+  <li>Fix: Use display_name instead of basename to display filenames (Bug #13532) </li>
+  <li>Fix: Use e.g. instead of i.e. (Bug #14035)</li>
+  <li>Fix: XML declaratation in uca.xml (Bug #13623)</li>
+  <li>Strings: Change inappropriate word "Sentence" in upper-/lowercase renamer (Bug #9483)</li>
+  <li>Strings: Improve description of custom action command parameters (Bug #14720)</li>
+  <li>Strings: Rename "Camelcase" to "Title Case" (Bug #15579)</li>
+  <li>thunar-sendto-email.desktop: use xdg mail-send icon</li>
+  <li>URLs: Replace links from "http://thunar.xfce.org/" to "https://docs.xfce.org/xfce/thunar/start"</li>
+  <li>URLs: Use https where possible</li>
+  <li>Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Asturian, Bangla, Basque, Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, English (Australia), English (United Kingdom), Esperanto, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Icelandic, Indonesian, Interlingue, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Persian (Iran), Polish, Portuguese, Portuguese (Brazil), Punjabi, Romanian, Russian, Serbian, Slovak, Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese.</li>
 
 </ul>
 
