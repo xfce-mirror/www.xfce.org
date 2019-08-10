@@ -405,7 +405,28 @@
 
 <h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
-
+  <li>Feature: Add support for GObject introspection and vala</li>
+  <li>Feature: Disable perl bindings by default</li>
+  <li>Feature: Implement an optional GSettings backend, disabled by default (Bug #15122)</li>
+  <li>Docs: Better documentation processing</li>
+  <li>Docs: Update API gtk documentation</li>
+  <li>Fix: Allow storage of empty arrays (Bug #13791)</li>
+  <li>Fix: Build issues in AM subdir-objects</li>
+  <li>Fix: Build warnings in autogen.sh</li>
+  <li>Fix: Cache corruption due to a wrong g_value_unset call</li>
+  <li>Fix: Check for invalid GPtrArrays in the conversion from GValue to GVariant</li>
+  <li>Fix: Compiler warning -Wcast-function-type (GCC 8)</li>
+  <li>Fix: Compiler warning 'this use of "defined" may not be portable'</li>
+  <li>Fix: Compiler warnings reported by GCC 8 (Bug #15112)</li>
+  <li>Fix: Correctly use xfconf_shutdown in xfconf-query</li>
+  <li>Fix: Crash in xfconf_cache_set_property_reply_handler when multiple calls are made (Bug #13825)</li>
+  <li>Fix: Flush gdbus connection on xfconf_shutdown</li>
+  <li>Fix: Handle empty arrays by initializing the GValue to G_TYPE_PTR_ARRAY (Bug #13780)</li>
+  <li>Fix: make distcheck (Bug #14082)</li>
+  <li>Fix: Path in xfconf_cache_set where the mutex isn't locked (Bug #13790)</li>
+  <li>Tests: Added .NOTPARALLEL to property change test (Bug #13840)</li>
+  <li>Tests: Explicitly handle error reply from Ping method call</li>
+  <li>Armenian (Armenia), Basque, Belarusian, Bulgarian, Catalan, Czech, Danish, English (Australia), Icelandic, Italian, Lithuanian, Portuguese (Brazilian), Romanian, Slovak, Swedish.</li>
 </ul>
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
