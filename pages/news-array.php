@@ -50,6 +50,12 @@ $news = array (
 					'<li>'.R_('Finally Panel Profiles, which allows you to backup and restore your panel layouts, has moved under the Xfce umbrella.').'</li>',
 				'</ul>',
 			),
+			R_('As always it\'s also time to say goodbye to some older <strong>unmaintained or deprecated projects</strong>. (Luckily our projects only go to the attic aka the archive on git.xfce.org when they die.) With a salty teardrop of sadness we bid farewell to:'),
+			array(
+				'<ul>',
+					'<li>'.R_('garcon-vala, gtk-xfce-engine, pyxfce, thunar-actions-plugin, xfbib, xfc, xfce4-kbdleds-plugin, xfce4-mm, xfce4-taskbar-plugin, xfce4-windowlist-plugin, xfce4-wmdock-plugin and xfswitch-plugin').'</li>',
+				'</ul>',
+			),
 			R_('An online tour of the changes in Xfce 4.14 can be viewed here:'),
 			'<a href="https://xfce.org/about/tour">https://xfce.org/about/tour</a>',
 			R_('A detailed overview of the changes between Xfce 4.12 and Xfce 4.14 releases can be found on the following page:'),
