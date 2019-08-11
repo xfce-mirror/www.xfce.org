@@ -87,7 +87,6 @@ function print_translator_credits()
 <h2 id="goodies"><?php E_('Goodies supervision')?></h2>
 <?php
         print_credits (array (
-                'Harald Judt' => 'hjudt'.ATSIGN.'xfce.org',
                 'Landry Breuil' => 'landry'.ATSIGN.'xfce.org'));
 ?>
 
