@@ -69,7 +69,7 @@ function print_translator_credits()
         print_credits (array (
                 'Alistair Buxton' => 'a.j.buxton'.ATSIGN.'gmail.com',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
-                'Olivier Duchateau' => 'duchateau.olivier'.ATSIGN'gmail.com',
+                'Olivier Duchateau' => 'duchateau.olivier'.ATSIGN.'gmail.com',
                 'Silvio Knizek' => 'killermoehre'.ATSIGN.'gmx.net',
                 'Theo Linkspfeifer' => 'lastonestanding'.ATSIGN.'tutanota.com',
                 'Tony Paulic' => 'tony.paulic'.ATSIGN.'gmail.com',
