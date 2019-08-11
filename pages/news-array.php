@@ -13,8 +13,7 @@ $news = array (
 		'author' => 'Release Manager',
 		'paragraphs' => array (
 			R_('Today, after 4 years and 5 months of work, we are pleased to announce the release of the Xfce desktop 4.14, a new stable version that supersedes Xfce 4.12.'),
-			R_('In this 4.14 cycle the main goal was to port all core components to Gtk3 (over Gtk2) and GDBus (over D-Bus GLib). Most components also received GObject Introspection support.'),
-			R_('Along the way we ended up polishing our user experience and introducing quite a few new features and improvements (read below).'),
+			R_('In this 4.14 cycle the main goal was to port all core components to Gtk3 (over Gtk2) and GDBus (over D-Bus GLib). Most components also received GObject Introspection support. Along the way we ended up polishing our user experience and introducing quite a few new features and improvements (read below).'),
 			R_('The <strong>main highlights of this release</strong> are:'),
 			array(
 				'<ul>',
