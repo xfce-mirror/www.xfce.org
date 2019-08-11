@@ -18,6 +18,13 @@ $news = array (
 			R_('The main highlights of this release are:'),
 			array(
 				'<ul>',
+					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfwm4/start">window manager</a> received a slew of updates and features, including support for VSync (using either Present or OpenGL as backend), HiDPI support, improved GLX support with NVIDIA proprietary/closed source drivers, support for XInput2, various compositor improvements and finally a new default theme.').'</li>',
+					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-panel/start">panel</a> got support for RandR\'s primary monitor feature, improved window grouping in the tasklist plugin (better UX, visual group indicator etc), a per-panel “icon-size” setting, a new default clock format and clock format evaluator as well as an improved default panel layout.').'</li>',
+					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> now has an orientation option for icon arrangement, support for RandR\'s primary monitor, a “Next Background” context menu option to advance the wallpaper and it now syncs the user\'s wallpaper selection to AccountsService.').'</li>',
+					'<li>'.R_('').'</li>',
+					'<li>'.R_('').'</li>',
+					'<li>'.R_('').'</li>',
+					'<li>'.R_('').'</li>',
 					'<li>'.R_('').'</li>',
 				'</ul>'
 			),
