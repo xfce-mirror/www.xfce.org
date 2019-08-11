@@ -14,16 +14,16 @@ $news = array (
 		'paragraphs' => array (
 			R_('Today, after 4 years and 5 months of work, we are pleased to announce the release of the Xfce desktop 4.14, a new stable version that supersedes Xfce 4.12.'),
 			R_('In this 4.14 cycle the main goal was to port all core components to Gtk3 (over Gtk2) and GDBus (over D-Bus GLib). Most components also received GObject Introspection support.'),
-			R_('Along the way we ended up polishing our user experience and introducing some new features (read below).'),
+			R_('Along the way we ended up polishing our user experience and introducing quite a few new features and improvements (read below).'),
 			R_('The main highlights of this release are:'),
 			array(
 				'<ul>',
 					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfwm4/start">window manager</a> received a slew of updates and features, including support for VSync (using either Present or OpenGL as backend), HiDPI support, improved GLX support with NVIDIA proprietary/closed source drivers, support for XInput2, various compositor improvements and finally a new default theme.').'</li>',
 					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-panel/start">panel</a> got support for RandR\'s primary monitor feature, improved window grouping in the tasklist plugin (better UX, visual group indicator etc), a per-panel “icon-size” setting, a new default clock format and clock format evaluator as well as an improved default panel layout.').'</li>',
-					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> now has an orientation option for icon arrangement, support for RandR\'s primary monitor, a “Next Background” context menu option to advance the wallpaper and it now syncs the user\'s wallpaper selection to AccountsService.').'</li>',
-					'<li>'.R_('').'</li>',
-					'<li>'.R_('').'</li>',
-					'<li>'.R_('').'</li>',
+					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> now has support for RandR\'s primary monitor feature, an orientation option for icon arrangement, a “Next Background” context menu option to advance the wallpaper and it now syncs the user\'s wallpaper selection to AccountsService.').'</li>',
+					'<li>'.R_('A completely new settings dialog to <a href="https://docs.xfce.org/xfce/xfce4-settings/color">manage color profiles</a> has been created. For most users this means out of the box support for color-managed printing (through cupsd) and scanning (through saned). For monitor profiles you will have to install an additional service like xiccd.').'</li>',
+					'<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-settings/display">display dialog</a> received a lot of attention during this cycle and a big feature: Users are now able to save and (automatically) restore complete multi-display configurations, which is especially helpful for those who frequently connect their laptop to varying docking stations or setups. Furthermore a lot of time was spent on making the user interface more unituitive and a hidden option was added to support RandR display scaling (configured via Xfconf).').'</li>',
+					'<li>'.R_('We added an option to enable Gtk window scaling to the <a href="https://docs.xfce.org/xfce/xfce4-settings/appearance">appearance dialog</a> and a monospace font option as well. However we had to drop theme previews as they didn\'t produce consistent results with Gtk3.').'</li>',
 					'<li>'.R_('').'</li>',
 					'<li>'.R_('').'</li>',
 				'</ul>'
