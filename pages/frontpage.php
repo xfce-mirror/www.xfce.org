@@ -20,11 +20,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 	<div id="slide-desktop" alt="Xfce Desktop" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
 		<span id="slide-desktop-panel" style="background-image: url(<?php echo $static_media; ?>/slider/panel_bg.png);"><span id="slide-desktop-panel-left" style="background-image: url(<?php echo $static_media; ?>/slider/panel_left.png);"></span><span id="slide-desktop-panel-right" style="background-image: url(<?php echo $static_media; ?>/slider/panel_right.png);"></span></span>
 		<span id="slide-desktop-icons" style="background-image: url(<?php echo $static_media; ?>/slider/desktop_icons.png);"></span>
-	</div>
-	<div id="slide-opensuse" alt="OpenSUSE Xfce" title="<?php E_('The default Xfce Desktop provides a simple and attractive desktop for Unix users.') ?>">
-		<span id="slide-opensuse-panel" style="background-image: url(<?php echo $static_media; ?>/slider/opensuse-panel-repeat.png);"><span id="slide-opensuse-panel-left" style="background-image: url(<?php echo $static_media; ?>/slider/opensuse-panel-left.png);"></span><span id="slide-opensuse-panel-right" style="background-image: url(<?php echo $static_media; ?>/slider/opensuse-panel-repeat.png);"></span></span>
-		<span id="slide-opensuse-icons" style="background-image: url(<?php echo $static_media; ?>/slider/opensuse-desktop-icons.png);"></span>
-		<span id="slide-opensuse-yast" style="background-image: url(<?php echo $static_media; ?>/slider/opensuse-yast.png);"></span>
+		<span id="slide-desktop-thunar" style="background-image: url(<?php echo $static_media; ?>/slider/thunar_windows.png);"></span>
 	</div>
 	<div id="slide-settings" style="background-image: url(<?php echo $static_media; ?>/slider/color-profiles.png);" alt="Settings" title="<?php E_('The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system.') ?>"></div>
 	<div id="slide-xfwm4" style="background-image: url(<?php echo $static_media; ?>/slider/xfwm4.png);" alt="Window Manager" title="<?php E_('The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!') ?>"></div>
