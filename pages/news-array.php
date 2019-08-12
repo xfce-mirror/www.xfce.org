@@ -45,9 +45,9 @@ $news = array (
 			array(
 				'<ul>',
 					'<li>'.R_('We finally have our own <a href="https://docs.xfce.org/apps/screensaver/start">screensaver</a> (yes - we realize it\'s 2019 ;)). With lots of features and tight Xfce integration (obviously) it is a great addition to our catalog.').'</li>',
-					'<li>'.R_('The status notifier plugin provides a next-generation system tray where applications can show indicators. It supersedes the Ubuntu-centric xfce4-indicator-plugin for most application indicators.').'</li>',
+					'<li>'.R_('The <a href="https://goodies.xfce.org/projects/panel-plugins/xfce4-statusnotifier-plugin">status notifier panel plugin</a> provides a next-generation system tray where applications can show indicators. It supersedes the Ubuntu-centric xfce4-indicator-plugin for most application indicators.').'</li>',
 					'<li>'.R_('<a href="https://docs.xfce.org/apps/catfish/start">Catfish file search</a> is like an old friend for most Xfce users - now it\'s officially part of Xfce!').'</li>',
-					'<li>'.R_('Finally Panel Profiles, which allows you to backup and restore your panel layouts, has moved under the Xfce umbrella.').'</li>',
+					'<li>'.R_('Finally <a href="https://git.xfce.org/apps/xfce4-panel-profiles/about/">Panel Profiles</a>, which allows you to backup and restore your panel layouts, has moved under the Xfce umbrella.').'</li>',
 				'</ul>',
 			),
 			R_('As always it\'s also time to say goodbye to some older <strong>unmaintained or deprecated projects</strong>. (Luckily our projects only go to the attic aka the archive on git.xfce.org when they die.) With a salty teardrop of sadness we bid farewell to:'),
