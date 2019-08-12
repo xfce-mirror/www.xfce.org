@@ -123,7 +123,7 @@ function print_translator_credits()
                 'François Le Clainche' => 'fleclainche'.ATSIGN.'wanadoo.fr',
                 'Guido Berhoerster' => 'guido+xfce'.ATSIGN.'berhoerster.name',
                 'Harald Judt' => 'hjudt'.ATSIGN.'xfce.org',
-                'Jannis Pohlmann' => 'jannis'.ATSIGN.'http://xfce.alteroot.org/xfce.org',
+                'Jannis Pohlmann' => 'jannis'.ATSIGN.'xfce.org',
                 'Jasper Huijsmans' => 'jasper'.ATSIGN.'xfce.org',
                 'Jérôme Guelfucci' => 'jeromeg'.ATSIGN.'xfce.org',
                 'Jean-François Wauthy' => 'pollux'.ATSIGN.'fce.org',
