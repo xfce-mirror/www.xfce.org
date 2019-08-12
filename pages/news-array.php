@@ -39,6 +39,7 @@ $news = array (
 					'<li>'.R_('The <a href="https://docs.xfce.org/apps/screenshooter/start">screenshooter</a> now allows users to move the selection rectangle and at the same time displays its width and height. The imgur upload dialog was revamped and the command line allows for more flexibility.').'</li>',
 					'<li>'.R_('Our <a href="https://docs.xfce.org/panel-plugins/clipman/start">clipboard manager</a> now has improved keyboard shortcut support (through a port to GtkApplication), improved and more consistent icon sizing as well as a new application icon.').'</li>',
 					'<li>'.R_('The <a href="https://docs.xfce.org/apps/pulseaudio-plugin/start">pulseaudio panel plugin</a> received MPRIS2 support to be able to remotely control media players and desktop-wide multimedia key support, essentially rendering xfce4-volumed-pulse a superfluous additional daemon.').'</li>',
+					'<li>'.R_('And finally the <a href="https://docs.xfce.org/apps/terminal/start">terminal emulator</a> saw a huge amount of bug fixes and improvements since Xfce 4.12.').'</li>',
 				'</ul>',
 			),
 			R_('There is also a group of <strong>new projects</strong> that have become part of our project. Say hi to:'),
