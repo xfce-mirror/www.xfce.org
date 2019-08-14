@@ -22,6 +22,20 @@
 
   <h3><?php E_("Accessibility") ?></h3>
 
-<p><?php E_("One accessibility feature that people coming from other desktop environments or operating systems were still missing is to set a keyboard shortcut to visually locate the mouse pointer. This feature was added in Xfce 4.14.") ?></p>
+<p><?php E_("One accessibility feature that people coming from other desktop environments or operating systems were still missing is to set a (custom) keyboard shortcut (by default: Super+F1) to visually locate the mouse pointer. This feature was added in Xfce 4.14.") ?></p>
 
-  <?php print_figure ("about/tour/4.14/locate-mouse.gif", R_("The mouse location animation")) ?>
+  <?php print_figure ("about/tour/4.14/locate-mouse.gif", R_("The mouse pointer location animation")) ?>
+
+  <h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
+
+  <h3><?php E_("General: Icon size") ?></h3>
+
+<p><?php E_("A new feature that we introduced in the panel is being able to control the icon size of all plugins. ('All' may not be technically correct, as not all plugins support the new API as of now, but now they <i>can</i>. Plus the Window buttons plugin is an exception, because libwnck doesn't allow anything other than 16px or 32px.) This means setups that were previously impossible, because icons would upscale automatically according to size-steps hard-coded in the panel, are now possible (see below).") ?></p>
+
+  <?php print_figure ("about/tour/4.14/panel-iconsize.png", R_("A 32px tall panel with 16px icons")) ?>
+
+  <h3><?php E_("Window buttons: Grouping") ?></h3>
+
+<p><?php E_("Grouping was improved in the Window buttons plugin, both functionally (by improving the matching and icon-finding) and visually by providing a new group indicator that is less likely to clash with window titles containing an enumeration in brackets.") ?></p>
+
+  <?php print_figure ("about/tour/4.14/panel-group.png", R_("The new group indicator (two terminal windows)")) ?>
