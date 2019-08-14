@@ -39,3 +39,11 @@
 <p><?php E_("Grouping was improved in the Window buttons plugin, both functionally (by improving the matching and icon-finding) and visually by providing a new group indicator that is less likely to clash with window titles containing an enumeration in brackets.") ?></p>
 
   <?php print_figure ("about/tour/4.14/panel-group.png", R_("The new group indicator (two terminal windows)")) ?>
+
+  <h2><?php E_("Session") ?> <em>(xfce4-session)</em></h2>
+
+  <h3><?php E_("Settings Dialog") ?></h3>
+
+<p><?php E_("As soon as a session has been saved a new tab is dynamically added to the settings dialog displaying all saved sessions and allowing to delete one or all of them. This should make it way more discoverable for users if they actually have saved sessions that influence the startup behavior - previously this had to be checked manually in the filesystem.") ?></p>
+
+  <?php print_figure ("about/tour/4.14/session-saved.png", R_("The settings dialog after saving a session")) ?>
