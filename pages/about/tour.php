@@ -18,6 +18,7 @@
 
   <?php print_figure ("about/tour/4.14/display-general.png", R_("The primary indicator")) ?>
   <?php print_figure ("about/tour/4.14/display-advanced.png", R_("The display profile list")) ?>
+  <?php print_figure ("about/tour/4.14/display-minimal.png", R_("The improved minimal dialog - in this case only showing one profile only which never happens anymore now ;)")) ?>
 
   <h3><?php E_("Accessibility") ?></h3>
 
