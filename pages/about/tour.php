@@ -47,3 +47,11 @@
 <p><?php E_("As soon as a session has been saved a new tab is dynamically added to the settings dialog displaying all saved sessions and allowing to delete one or all of them. This should make it way more discoverable for users if they actually have saved sessions that influence the startup behavior - previously this had to be checked manually in the filesystem.") ?></p>
 
   <?php print_figure ("about/tour/4.14/session-saved.png", R_("The settings dialog after saving a session")) ?>
+
+  <h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
+
+  <h3><?php E_("Pathbar") ?></h3>
+
+<p><?php E_("Up to Xfce 4.12 two options were available for the pathbar/locationbar. The best of both worlds has now been mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. folders), an easily accessible way to hand-type a path as well as an improved look.") ?></p>
+
+  <?php print_figure ("about/tour/4.14/thunar-pathbar.png", R_("Thunar's new pathbar")) ?>
