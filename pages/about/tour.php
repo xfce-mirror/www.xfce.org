@@ -55,3 +55,11 @@
 <p><?php E_("Up to Xfce 4.12 two options were available for the pathbar/locationbar. The best of both worlds has now been mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. folders), an easily accessible way to hand-type a path as well as an improved look.") ?></p>
 
   <?php print_figure ("about/tour/4.14/thunar-pathbar.png", R_("Thunar's new pathbar")) ?>
+
+  <h2><?php E_("Power Manager") ?> <em>(xfce4-power-manager)</em></h2>
+
+  <h3><?php E_("Panel Plugin") ?></h3>
+
+<p><?php E_("The panel plugin supports symbolic icons now and uses the standard UPower icon names (making it more compatible with all icon themes). It also shows an indicator if applications inhibit power management functions like suspend (when power is low) or display dimming (after a defined timeout).") ?></p>
+
+  <?php print_figure ("about/tour/4.14/xfpm-inhibitors.png", R_("Parole's video playback is inhibiting power management")) ?>
