@@ -63,3 +63,17 @@
 <p><?php E_("The panel plugin supports symbolic icons now and uses the standard UPower icon names (making it more compatible with all icon themes). It also shows an indicator if applications inhibit power management functions like suspend (when power is low) or display dimming (after a defined timeout).") ?></p>
 
   <?php print_figure ("about/tour/4.14/xfpm-inhibitors.png", R_("Parole's video playback is inhibiting power management")) ?>
+
+  <h2><?php E_("Notification Service") ?> <em>(xfce4-notifyd)</em></h2>
+
+  <h3><?php E_("Settings") ?></h3>
+
+<p><?php E_("Several new features have been added in Xfce's notification service, including a notifications log, the possibility to disable notifications per application, a global 'Do Not Disturb' mode, which inhibits all notifications, and finally a new animation ('slide out').") ?></p>
+
+  <h3><?php E_("Panel Plugin") ?></h3>
+
+  <?php print_figure ("about/tour/4.14/notifyd-slideout.gif", R_("The new notification animation 'slide out'")) ?>
+
+<p><?php E_("Furthermore a new panel plugin was added which provides quick access to both the 'Do Not Disturb' mode as well as the log of recent notifications.") ?></p>
+
+  <?php print_figure ("about/tour/4.14/notifyd-panel.png", R_("The new panel plugin")) ?>
