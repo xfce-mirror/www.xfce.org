@@ -70,9 +70,9 @@
 
 <p><?php E_("Several new features have been added in Xfce's notification service, including a notifications log, the possibility to disable notifications per application, a global 'Do Not Disturb' mode, which inhibits all notifications, and finally a new animation ('slide out').") ?></p>
 
-  <h3><?php E_("Panel Plugin") ?></h3>
-
   <?php print_figure ("about/tour/4.14/notifyd-slideout.gif", R_("The new notification animation 'slide out'")) ?>
+
+  <h3><?php E_("Panel Plugin") ?></h3>
 
 <p><?php E_("Furthermore a new panel plugin was added which provides quick access to both the 'Do Not Disturb' mode as well as the log of recent notifications.") ?></p>
 
