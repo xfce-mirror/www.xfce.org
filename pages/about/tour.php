@@ -83,3 +83,12 @@
 <p><?php E_("Furthermore a new panel plugin was added which provides quick access to both the 'Do Not Disturb' mode as well as the log of recent notifications.") ?></p>
 
   <?php print_figure ("about/tour/4.14/notifyd-panel.png", R_("The new panel plugin")) ?>
+
+  <h2><?php E_("Screensaver") ?> <em>(xfce4-screensaver)</em></h2>
+
+  <h3><?php E_("A Modern Locking Experience") ?></h3>
+
+<p><?php E_("The new Xfce Screensaver provides a configurable lockscreen experience. You can selectively toggle the lock screen and screensaver, and all Xscreensaver themes are supported (with configuration options) out of the box. If you prefer a blank screen, Xfce Screensaver also includes a blank screen option with DPMS integration."); ?></p>
+
+  <?php print_figure ("about/tour/4.14/saver-dialog.png", R_("The new lock screen, sharing styles with LightDM GTK+ Greeter for a consistent experience.")) ?>
+  <?php print_figure ("about/tour/4.14/saver-preferences.png", R_("Make it your own. Xfce Screensaver supports a multitude of configuration options.")) ?>
