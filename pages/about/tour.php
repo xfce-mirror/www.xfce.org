@@ -102,3 +102,9 @@
 
   <?php print_figure ("about/tour/4.14/saver-dialog.png", R_("The new lock screen, sharing styles with LightDM GTK+ Greeter for a consistent experience.")) ?>
   <?php print_figure ("about/tour/4.14/saver-preferences.png", R_("Make it your own. Xfce Screensaver supports a multitude of configuration options.")) ?>
+
+  <h2><?php E_("Terminal") ?> <em>(xfce4-terminal)</em></h2>
+
+<p><?php E_("Lots and lots of features have accumulated in the <a href='https://docs.xfce.org/apps/terminal/start'>Terminal</a> over the last years. Amongst them 'Undo Close Tab' and 'Close Other Tabs' functionality (similar to web browsers), 'Copy Input to All Tabs', 'Set Title Color' (allows to customize tab text color), 'Save Contents' (saves tab contents to a file), an 'Unsafe Paste' dialog (which prevents the terminal from auto-executing pasted text as a command) and support for zooming. Finally when closing a tab or window, there is a new check for running processes which prevents accidentally closing a terminal that is running a process."); ?></p>
+
+  <?php print_figure ("about/tour/4.14/terminal.png", R_("Zooming, 'Save Contents' and much more!")) ?>
