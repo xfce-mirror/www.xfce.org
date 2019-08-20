@@ -84,6 +84,16 @@
 
   <?php print_figure ("about/tour/4.14/notifyd-panel.png", R_("The new panel plugin")) ?>
 
+  <h2><?php E_("Media Player") ?> <em>(parole)</em></h2>
+
+  <h3><?php E_("Mini Mode") ?></h3>
+
+<p><?php E_("Parole now features a 'Mini Mode', where the interface is simplified to just display the album artwork and can be positioned over other windows without getting in the way.") ?>
+
+  <?php print_figure ("about/tour/4.14/parole-normal-mode.png", R_("Just right-click anywhere in the player window to select 'Mini Mode'...")) ?>
+
+  <?php print_figure ("about/tour/4.14/parole-mini-mode.png", R_("Afterwards, enjoy a truly minimalistic playback experience!")) ?>
+
   <h2><?php E_("Screensaver") ?> <em>(xfce4-screensaver)</em></h2>
 
   <h3><?php E_("A Modern Locking Experience") ?></h3>
