@@ -108,3 +108,9 @@
 <p><?php E_("Lots and lots of features have accumulated in the <a href='https://docs.xfce.org/apps/terminal/start'>Terminal</a> over the last years. Amongst them 'Undo Close Tab' and 'Close Other Tabs' functionality (similar to web browsers), 'Copy Input to All Tabs', 'Set Title Color' (allows to customize tab text color), 'Save Contents' (saves tab contents to a file), an 'Unsafe Paste' dialog (which prevents the terminal from auto-executing pasted text as a command) and support for zooming. Finally when closing a tab or window, there is a new check for running processes which prevents accidentally closing a terminal that is running a process."); ?></p>
 
   <?php print_figure ("about/tour/4.14/terminal.png", R_("Zooming, 'Save Contents' and much more!")) ?>
+
+  <h2><?php E_("Screenshooter") ?> <em>(xfce4-screenshooter)</em></h2>
+
+<p><?php E_("The Xfce <a href='https://docs.xfce.org/apps/screenshooter/start'>Screenshooter</a> gained several notable features, amongst others seeing the size of the screenshot while dragging, moving the selection with the mouse and better <a href=https://imgur.com'>imgur</a> integration."); ?></p>
+
+  <?php print_figure ("about/tour/4.14/screenshooter.gif", R_("I can drag and move the screenshot area, whoop whoop!")) ?>
