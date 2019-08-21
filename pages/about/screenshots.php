@@ -22,7 +22,7 @@ function print_shots ($group, $count, $format = 'png')
 
 <h2><?php E_('Xfce 4.14') ?></h2>
 <p>
-  <?php print_shots ('4.14', 2); ?>
+  <?php print_shots ('4.14', 3); ?>
 </p>
 
 <h2><?php E_('Xfce 4.12') ?></h2>
