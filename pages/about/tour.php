@@ -111,6 +111,6 @@
 
   <h2><?php E_("Screenshooter") ?> <em>(xfce4-screenshooter)</em></h2>
 
-<p><?php E_("The Xfce <a href='https://docs.xfce.org/apps/screenshooter/start'>Screenshooter</a> gained several notable features, amongst others seeing the size of the screenshot while dragging, moving the selection with the mouse and better <a href=https://imgur.com'>imgur</a> integration."); ?></p>
+<p><?php E_("The Xfce <a href='https://docs.xfce.org/apps/screenshooter/start'>Screenshooter</a> gained several notable features, amongst others seeing the size of the screenshot while dragging, moving the selection with the mouse and better <a href='https://imgur.com'>imgur</a> integration."); ?></p>
 
   <?php print_figure ("about/tour/4.14/screenshooter.gif", R_("I can drag and move the screenshot area, whoop whoop!")) ?>
