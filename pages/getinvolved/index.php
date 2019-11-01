@@ -23,7 +23,7 @@
 
 <h2><?php E_('Development') ?></h2>
 <p>
-  <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world.') ?>
+  <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world. You can start by browsing the <a href="https://git.xfce.org" class="external">source code<a/>.') ?>
 </p>
 
 <h2><?php E_('Promotion') ?></h2>
