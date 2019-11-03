@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2019-11-03 08:59+0000\n"
+"PO-Revision-Date: 2019-11-03 16:18+0000\n"
 "Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/xfce/xfce-www/language/nb/)\n"
 "MIME-Version: 1.0\n"
@@ -874,7 +874,7 @@ msgid ""
 "maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
 "branch is merged into master (where the development for the next release "
 "takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr ""
+msgstr "Ved den endelige utgivelsen (Xfce X.Y) merkes alle kjernekomponentene (to ganger, både med sin egen versjon og med xfce-X.Y.0) og forgreines til vedlikeholdssyklusen (f.eks. som thunar-1.2 eller xfwm4-4.8).  Deretter flettes ELS-greina inn i hovedgreina (der utviklinga for neste utgivelse skjer) og til f.eks. thunar-1.2 eller xfwm4-4.8."
 
 #: about/releasemodel.php:315
 msgid "Maintenance Process"
@@ -886,7 +886,7 @@ msgid ""
 "be committed to a stable component-specific branch (like thunar-1.2 or "
 "xfwm4-4.8). Maintenance releases of individual components are not required "
 "to be synchronized."
-msgstr ""
+msgstr "Etter utgivelsen av en endelig versjon innsjekkes feilrettinger og oppdaterte oversettelser til en stabil komponentspesifikk grein (som thunar-1.2 eller xfwm4-4.8). Vedlikeholdsutgivelser av enkeltkomponentene behøver ikke være synkroniserte."
 
 #: about/releasemodel.php:321
 msgid "Maintenance Releases"
@@ -899,7 +899,7 @@ msgid ""
 "the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
 "thunar-1.2.4). No new features or strings may be introduced in these "
 "releases."
-msgstr ""
+msgstr "API/ABI kan ikke endres i vedlikeholdsutgivelser, men må samsvare med endelig utgivelse av skrivebordsmiljøet Xfce. De må også følge X.Y.Z-formatet, der Y er et partall (f.eks. xfwm4-4.8.4 eller thunar-1.2.4). Disse utgivelsene kan ikke få ny funksjonalitet eller tekst. "
 
 #: about/releasemodel.php:328
 msgid "Authors"
@@ -957,54 +957,54 @@ msgid ""
 "The window manager's Alt+Tab dialog is now fully themeable and also gained "
 "two new modes: a 'List' mode and a 'Window Preview' mode. Furthermore users "
 "use their mouse to click/select the window they want to give focus to."
-msgstr ""
+msgstr "Vindusbehandlerens Alt + Tab-dialog kan nå stiles fullstendig og har også fått to nye moduser: en som lister opp vinduer og en som forhåndsviser dem. Brukere kan nå velge med musa de vinduene de vil gi fokus til."
 
 #: about/tour.php:13
 msgid "The traditional dialog is fully themable now"
-msgstr ""
+msgstr "Den tradisjonelle dialogen kan nå stiles fullstendig"
 
 #: about/tour.php:15
 msgid "The List mode of the Alt-Tab dialog."
-msgstr ""
+msgstr "Opplistingsmodusen til Alt + Tab-dialogvinduet"
 
 #: about/tour.php:17
 msgid "List mode of Alt-Tab, showing all window titles"
-msgstr ""
+msgstr "Opplistingsmodusen til Alt + Tab, som viser alle vindustitlene"
 
 #: about/tour.php:19
 msgid ""
 "The Window Preview mode shows thumbnails of windows' content alongside their"
 " icon. Activating the compositor is a prerequisite for this mode."
-msgstr ""
+msgstr "Forhåndsvisning av vinduer viser miniatyrbilder av vindusinnholdet ved ikonet. For å bruke denne modusen må kompositteffekter slås på."
 
 #: about/tour.php:21
 msgid "Window thumbnails"
-msgstr ""
+msgstr "Miniatyrbilder av vinduer"
 
 #: about/tour.php:23
 msgid "Tiling, Zooming, Client-side Decorations"
-msgstr ""
+msgstr "Flislegging, zooming, klientdekorasjoner"
 
 #: about/tour.php:25
 msgid ""
 "Support for Client-Side Decorations (CSDs) has been improved. They now "
 "properly snap to screen and panel borders, and tile correctly, even with "
 "shadows."
-msgstr ""
+msgstr "Støtten for klientdekorasjoner (CSD) er forbedret. De kan nå feste seg til skjerm- og panelkanter og flislegges riktig, selv med skygger."
 
 #: about/tour.php:27
 msgid "Gtk3 apps with their decorations drawn by the client"
-msgstr ""
+msgstr "Gtk3-programmer der dekorasjonene tegnes av klienten"
 
 #: about/tour.php:29
 msgid ""
 "Window tiling mode was improved by providing support for corner-tiling, and "
 "a new zooming mode was added using Alt + Mouse Wheel."
-msgstr ""
+msgstr "Flisleggingsmodusen kan nå legge vinduer i hjørner, og en ny zoom-modus kan brukes med Alt + musehjulet."
 
 #: about/tour.php:31
 msgid "Drag and drop a window to a corner to tile it"
-msgstr ""
+msgstr "Dra og slipp et vindu i et hjørne for å flislegge det"
 
 #: about/tour.php:33
 msgid "HiDPI Support"
@@ -1014,7 +1014,7 @@ msgstr "HiDPI-støtte"
 msgid ""
 "In order to better support modern hi-resolution screens, two new Xfwm4 "
 "themes were added (hdpi, xhdpi)."
-msgstr ""
+msgstr "To nye Xfwm4-temaer (hdpi og xhdpi) er lagt til for å bedre støtte moderne skjermer med høy oppløsning."
 
 #: about/tour.php:38
 msgid "Intelligent Hiding"
@@ -1024,11 +1024,11 @@ msgstr "Intelligent skjuling"
 msgid ""
 "The panel can now intelligently hide itself when a window is dragged near "
 "it."
-msgstr ""
+msgstr "Panelet kan nå skjule seg selv når vinduer dras nær."
 
 #: about/tour.php:41
 msgid "Oh what is this window??"
-msgstr "Åh hva er dette vinduet??"
+msgstr "Åh, hva er dette vinduet??"
 
 #: about/tour.php:43
 msgid "Don't come closer!"
@@ -1046,14 +1046,14 @@ msgstr "Gtk3-tillegg"
 msgid ""
 "Infrastructure was added to be able to load Gtk3 plugins alongside Gtk2 "
 "plugins."
-msgstr ""
+msgstr "La til infrastruktur som gjør det mulig å laste Gtk3-tillegg samtidig som Gtk2-tillegg."
 
 #: about/tour.php:53
 msgid ""
 "The desktop has a new wallpaper settings dialog with many new options and "
 "better multi-monitor support. Drag the dialog to the display or workspace "
 "where you want to change the wallpaper."
-msgstr "Skrivebordet har et nytt innstillingsvindu for skrivebordsbakgrunn med mange nye alternativer og bedre støtte for flere skjermer. Drag dialogboksen til den skjermen eller arbeidsområdet hvor du vil endre skrivebordsbakgrunnen."
+msgstr "Skrivebordet har et nytt innstillingsvindu for skrivebordsbakgrunn med mange nye alternativer og bedre støtte for flere skjermer. Dra dialogvinduet til den skjermen eller arbeidsområdet hvor du vil endre skrivebordsbakgrunnen."
 
 #: about/tour.php:55
 msgid "Better multi-monitor support"
@@ -1063,7 +1063,7 @@ msgstr "Bedre støtte for flere skjermer"
 msgid ""
 "Uncheck 'apply to all workspaces' to set a different wallpaper for each "
 "workspace."
-msgstr "Avmerk «bruk for alle arbeidsområder» for å sette en ulik skrivebordsbakgrunn for hvert arbeidsområde."
+msgstr "Fravelg «bruk for alle arbeidsområder» for å sette en ulik skrivebordsbakgrunn for hvert arbeidsområde."
 
 #: about/tour.php:59 about/tour410.php:61 about/tour44.php:189
 #: about/tour46.php:118 about/tour48.php:71
@@ -1083,7 +1083,7 @@ msgstr "Støtte for bruk av flere skjermer ble betydelig forbedret i dialogvindu
 
 #: about/tour.php:65
 msgid "Configure multiple displays"
-msgstr "Konfigurere flere skjermer"
+msgstr "Sett opp flere skjermer"
 
 #: about/tour.php:66
 msgid "Choose your layout when plugging in a new display"
@@ -1099,7 +1099,7 @@ msgstr "Utseendevinduet viser nå forhåndsvisninger for stiler og ikoner."
 
 #: about/tour.php:72
 msgid "Gtk style preview"
-msgstr "Gtk stilforhåndsvisning"
+msgstr "Forhåndsvisning av Gtk-stiler"
 
 #: about/tour.php:74
 msgid "Icon theme preview"
@@ -1111,7 +1111,7 @@ msgstr "Strømbehandler"
 
 #: about/tour.php:78
 msgid "Panel Plugin"
-msgstr ""
+msgstr "Paneltillegg"
 
 #: about/tour.php:80
 msgid ""
@@ -1127,7 +1127,7 @@ msgstr "Et nytt programtillegg for panelet ble laget, som gjør at du kjapt kan 
 msgid ""
 "The plugin's menu allows users to control screen brightness and check on the"
 " remaining uptime their battery provides."
-msgstr ""
+msgstr "Tilleggets meny gjør det mulig å styre skjermens lysstyrke og undersøke gjenværende batteritid."
 
 #: about/tour.php:84
 msgid "Settings Dialog"
@@ -1162,11 +1162,11 @@ msgstr "Vis informasjon om alle tilkoblede enheter"
 msgid ""
 "When light-locker is available, you can control its settings directly via "
 "the power manager."
-msgstr "Når \"light-locker\" (en sesjonslåser) er tilgjengelig, kan du styre dens innstillinger direkte via strømbehandleren."
+msgstr "Når øktlåseren «light-locker» er tilgjengelig, kan du styre dens innstillinger direkte via strømbehandleren."
 
 #: about/tour.php:95
 msgid "Setup light-locker integration"
-msgstr ""
+msgstr "Still inn «light-locker»-integrasjon"
 
 #: about/tour.php:98
 msgid "Tab Support"
@@ -1202,17 +1202,17 @@ msgstr "Filegenskaper for flere filer"
 
 #: about/tour.php:112 download/nav.php:29 projects/nav.php:9
 msgid "Goodies"
-msgstr "Godbiter"
+msgstr "Ekstraprogrammer"
 
 #: about/tour.php:114
 msgid ""
 "There have been lots of improvements to our goodies, and some new and shiny "
 "applications have been added by new contributors."
-msgstr ""
+msgstr "Mange av ekstraprogrammene har fått forbedringer, og noen nye programmer har kommet til fra nye utviklere."
 
 #: about/tour.php:116
 msgid "Alternative panel menu plugin"
-msgstr ""
+msgstr "Alternativ panelmeny"
 
 #: about/tour.php:118
 msgid ""
@@ -1255,7 +1255,7 @@ msgid ""
 "Parole's UI was totally redone in Gtk3. It now supports multiple video "
 "backends, makes more efficient use of your resources and contains a few "
 "novel plugins."
-msgstr ""
+msgstr "Paroles brukergrensesnitt ble endret fra bunnen av i Gtk3. Programmet støtter nå flere videobakstykker og gjør bedre bruk av systemressurser, og inneholder et par ualminnelige tillegg."
 
 #: about/tour.php:136
 msgid "Watch videos"
@@ -1265,7 +1265,7 @@ msgstr "Se videoer"
 msgid ""
 "The media controls are now contained in a slide-over overlay (with a "
 "configurable timeout)."
-msgstr ""
+msgstr "Avspillingsknappene er nå i et glidende overlag (som glir ut etter valgt tid)."
 
 #: about/tour.php:140
 msgid "Listen to music"
@@ -1287,18 +1287,18 @@ msgstr "Ny innstillingsdialog for Mousepad"
 
 #: about/tour.php:148
 msgid "A note on Xfce's portability"
-msgstr ""
+msgstr "En merknad om Xfces kompatibilitet"
 
 #: about/tour.php:150
 msgid ""
 "All but one of those screenshots were taken on machines running OpenBSD "
 "-current, a good proof that Xfce is still portable and friendly to all Unix "
 "systems."
-msgstr ""
+msgstr "Alle unntatt ett av disse skjermbildene ble tatt på maskiner som kjører OpenBSD-current, et godt eksempel på at Xfce er kompatibelt med de fleste Unix-systemene."
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
-msgstr "Xfce 4.10 omvisning"
+msgstr "Xfce 4.10 – omvisning"
 
 #: about/tour410.php:5
 msgid ""
@@ -1319,22 +1319,22 @@ msgid ""
 " is to make <a "
 "href=\"https://docs.xfce.org/wiki/documentation\">contributing</a> and "
 "updating the documentation easier."
-msgstr ""
+msgstr "I løpet av utviklingen av 4.10 bestemte vi oss for å fjerne brukerhåndbøkene fra pakkene og flytte dem til en wiki på <a href=\"https://docs.xfce.org\">docs.xfce.org</a>. Dette gjør det enklere å <a href=\"https://docs.xfce.org/wiki/documentation\">bidra</a> og å oppdatere hjelpeteksten."
 
 #: about/tour410.php:11
 msgid ""
 "When you click a Help button Xfce will ask you to go to an online wiki page"
-msgstr ""
+msgstr "Når du trykker på hjelpknappen vil Xfce spør deg om å gå til en wiki-nettside"
 
 #: about/tour410.php:13
 msgid ""
 "We hope that with the introduction of the wiki it will be easier for "
 "developers and contributors to maintain the documentation."
-msgstr ""
+msgstr "Vi håper at denne wikien vil gjøre det lettere for utviklere og bidragsytere å vedlikeholde hjelpeteksten."
 
 #: about/tour410.php:17
 msgid "Collapsed view of the Application Finder"
-msgstr ""
+msgstr "Sammenfoldet visning av programsøkeren"
 
 #: about/tour410.php:19
 msgid ""
@@ -1342,15 +1342,15 @@ msgid ""
 "functionality of the old appfinder and xfrun4. Apart from user interface "
 "improvements, it now allows creating custom actions matching a prefix or a "
 "regex pattern."
-msgstr ""
+msgstr "Programsøkeren er fullstendig skrevet om og kombinerer funksjonaliteten til den gamle programsøkeren og xfrun4. I tillegg til forbedringer i brukergrensesnittet lar den deg lage tilpassede handlinger som samsvarer med et prefiks eller regex-mønster."
 
 #: about/tour410.php:21
 msgid "Expanded view of the Application Finder"
-msgstr ""
+msgstr "Utfoldet visning av programsøkeren"
 
 #: about/tour410.php:25
 msgid "Multiple Rows"
-msgstr ""
+msgstr "Flere rader"
 
 #: about/tour410.php:27
 msgid ""
@@ -1358,15 +1358,15 @@ msgid ""
 "rows in the panel. Some plugins (e.g. <em>launchers</em>) fit a single row, "
 "while others, like window buttons are allowed to occupy full width of the "
 "panel."
-msgstr ""
+msgstr "I 4.10 er det ett valg som stiller inn antall rader i panelet. Noen tillegg (f.eks. <em>programstartere</em>) passer i en enkelt rad, mens andre, som vindusknapper, kan bruke hele panelets bredde."
 
 #: about/tour410.php:29
 msgid "A horizontal panel with a number of rows set to three"
-msgstr ""
+msgstr "Et vannrett panel med tre rader"
 
 #: about/tour410.php:31
 msgid "Deskbar Mode"
-msgstr ""
+msgstr "Bardisk-modus"
 
 #: about/tour410.php:33
 msgid ""
@@ -1374,29 +1374,29 @@ msgid ""
 "the deskbar  mode the panel is aligned vertically, just like in the vertical"
 " mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
-msgstr ""
+msgstr "Panelet har et nytt oppsett som kalles <em>bardisk</em>-modus. I bardisk-modus justeres panelet loddrett, som i loddrett modus, men tilleggene plasseres vannrett. Og med flere rader er det mulig å lage breie loddrette panel som passer breiskjermoppsett."
 
 #: about/tour410.php:35
 msgid "A panel in Deskbar mode with a number of rows set to five"
-msgstr ""
+msgstr "Et panel i bardisk-modus med fem rader"
 
 #: about/tour410.php:37
 msgid "Actions Plugin"
-msgstr ""
+msgstr "Programtillegget «Handlinger»"
 
 #: about/tour410.php:39
 msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
 "rewritten <em>actions</em> plugin"
-msgstr ""
+msgstr "Økt-tillegget fra pakken «xfce4-session» er flettet med tillegget «Handlinger», som er omskrevet."
 
 #: about/tour410.php:41
 msgid "Action plugin in a menu mode (left), and in a button mode (right)"
-msgstr ""
+msgstr "Tillegget «Handlinger» i menymodus (venstre) og i knappemodus (høyre)"
 
 #: about/tour410.php:43
 msgid "Window Buttons"
-msgstr ""
+msgstr "Vindusknapper"
 
 #: about/tour410.php:45
 msgid ""
@@ -1405,13 +1405,13 @@ msgid ""
 " add a transparent <em>separator</em> plugin with the "
 "<strong>Expand</strong> option enabled just behind the window buttons "
 "plugin."
-msgstr ""
+msgstr "Tillegget «Vindusknapper» utvider seg ikke lenger, noe som gjør plasseringen av tillegget mer fleksibelt. For å etterligne den gamle oppførselen kan du legge til et gjennomsiktig <em>skille</em>-tillegg, der <strong>Utvid</strong>-valget er aktivert, like bak vindusknapp-tillegget."
 
 #: about/tour410.php:49
 msgid ""
 "There are few visual changes in this release of Thunar. The window has less "
 "padding and the position of the status bar has been adjusted."
-msgstr ""
+msgstr "Det er noen få visuelle endringer i denne utgivelsen av Thunar. Vinduet har mindre utfylling og statuslinjas plassering er justert."
 
 #: about/tour410.php:53
 msgid ""
@@ -1419,11 +1419,11 @@ msgid ""
 "clearing the saved session (no more <tt>rm -r ~/.config/sessions</tt>). "
 "Xfce4-tips has been removed and the session manager can now lock the screen "
 "before suspending or hibernating the system."
-msgstr ""
+msgstr "<em>Øktbehandleren</em>s innstillingsdialog har en knapp for å tømme den lagrede økta (du slipper altså <tt>rm -r ~/.config/sessions</tt>). Xfce4-tips er fjernet og øktbehandleren kan nå låse skjermen før hvile- eller dvalemodus."
 
 #: about/tour410.php:55
 msgid "Applications Autostart"
-msgstr ""
+msgstr "Autostart av programmer"
 
 #: about/tour410.php:57
 msgid ""
@@ -1435,27 +1435,27 @@ msgid ""
 "using an italic font and not enabled by default in order to distinguish them"
 " from Xfce applications. Unlike in previous versions of Xfce, compatibility "
 "services can be started independently from each other."
-msgstr ""
+msgstr "En annen merkbar endring er hvordan GNOME- og KDE-kompatibiliteten virker. Avkryssingsboksene for kompatibilitet slår kun på tjenester som må startes før andre programmer (<em>gnome-keyring</em> og <em>gconf</em> for GNOME og <em>kdeinit</em> for KDE). Alle andre programmer med automatisk oppstart er tilgjengelige fra <strong>Autostart av programmer</strong>, men de listes opp med kursiv skrift og er ikke slått på som forvalg for å skille dem fra Xfce-programmer. I motsetning til tidligere utgivelser av Xfce kan kompatibilitetstjenester startes uavhengig av hverandre. "
 
 #: about/tour410.php:59
 msgid ""
 "Applications, which are not a part of Xfce, are listed using an italic font"
-msgstr "Programvare som ikke er en del av Xfce er listet med kursiv tekst."
+msgstr "Programvare som ikke er en del av Xfce er listet med kursiv skrift."
 
 #: about/tour410.php:63
 msgid "Settings Daemon"
-msgstr ""
+msgstr "Innstillingsnisse"
 
 #: about/tour410.php:65
 msgid ""
 "Xfce 4.8 used two processes for applying settings: <tt>xfce4-settings-"
 "helper</tt> and <tt>xfsettingsd</tt>. In 4.10 they have been merged into "
 "xfsettingsd, which now handles all system settings."
-msgstr ""
+msgstr "Xfce 4.8 brukte to prosesser for å aktivere innstillinger: <tt>xfce4-settings-helper</tt> og <tt>xfsettingsd</tt>. I 4.10 er de slått sammen til xfsettingsd, som nå håndterer alle systeminnstillingene."
 
 #: about/tour410.php:67 projects/index.php:50
 msgid "Settings Manager"
-msgstr "Innstillings-behandler"
+msgstr "Innstillingsbehandler"
 
 #: about/tour410.php:69
 msgid ""
@@ -1463,17 +1463,17 @@ msgid ""
 " and allows you to search for their names or descriptions. Most of the "
 "dialogs are also now embedded in the settings manager window (this was a "
 "compile-time option in Xfce 4.8)."
-msgstr ""
+msgstr "Den nye <em>innstillingsbehandleren</em> grupperer oppsettsdialoger i kategorier og lar deg søke etter navn og beskrivelse. De fleste av dialogvinduene er også bygd inn i vinduet til innstillingsbehandleren (dette var et kompileringsvalg i Xfce 4.8)."
 
 #: about/tour410.php:71
 msgid ""
 "The settings manager with icons grouped by category and a search filter "
 "applied"
-msgstr ""
+msgstr "Innstillingsbehandleren med ikoner gruppert etter kategori og med søkefilter slått på"
 
 #: about/tour410.php:73
 msgid "Settings Editor"
-msgstr ""
+msgstr "Redigering av innstillinger"
 
 #: about/tour410.php:75
 msgid ""
@@ -1481,24 +1481,24 @@ msgid ""
 "edit a property (this is because it now reloads a single cell rather than "
 "the whole tree). Most properties can now be edited in-place, making it "
 "easier to quickly adjust settings."
-msgstr ""
+msgstr "<em>Redigeringsprogrammet for innstillinger</em> folder ikke lenger sammen hele treet når du redigerer en egenskap (dette er fordi det laster inn en enkelt celle på nytt istedenfor hele tree). De fleste egenskapene kan nå redigeres på stedet, noe som gjør det raskere å justere innstillinger."
 
 #: about/tour410.php:77
 msgid ""
 "Using settings editor you can also monitor changes of settings in a selected"
 " channel. Right-click on a channel in the main window, and select "
 "<strong>Monitor</strong> to display the monitor window."
-msgstr ""
+msgstr "Redigeringsprogrammet for innstillinger kan også overvåke endringer av innstillinger i en valgt kanal. Høyreklikk på kanalen i hovedvinduet og velg <strong>Overvåk</strong> for å vise overvåkingsvinduet."
 
 #: about/tour410.php:79
 msgid ""
 "Settings editor with an open channel monitor, while editing a property in-"
 "place"
-msgstr ""
+msgstr "Redigeringsprogrammet for innstillinger med åpen kanalovervåking, mens en egenskap redigeres på stedet"
 
 #: about/tour410.php:81
 msgid "MIME Type Editor"
-msgstr ""
+msgstr "Redigering av MIME-typer"
 
 #: about/tour410.php:83
 msgid ""
@@ -1508,12 +1508,12 @@ msgid ""
 "see your changes and reset them to default settings when necessary. Note "
 "that it does not allow you to change the system MIME Type definitions (add "
 "or remove types and change icons)."
-msgstr ""
+msgstr "De siste årene har mange etterspurt et verktøy for å behandle sine filtypeassosiasjoner. Det nye <em>redigeringsprogrammet for MIME-typer</em> gjør nettopp det. Det lar deg tilordne et forvalgt program til en filtype, se dine endringer og tilbakestille dem til forvalgte innstillinger om nødvendig. Legg merke til at det ikke lar deg endre systemets MIME-typedefinisjoner (legge til eller fjerne typer eller ikoner)."
 
 #: about/tour410.php:85
 msgid ""
 "MIME types matching a pattern and a menu for selecting a default application"
-msgstr ""
+msgstr "MIME-typer som svarer til et mønster og en meny for å endre forvalgt program"
 
 #: about/tour410.php:87
 msgid "Mouse and Touchpad"
@@ -1526,11 +1526,11 @@ msgid ""
 "background handles all kinds of device properties, as documented in the <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-settings/mouse\">mouse settings</a> "
 "wiki."
-msgstr ""
+msgstr "Dialogvinduet <em>Mus og styreplate</em> kan håndtere grunnleggende Synaptics- og Wacom-egenskaper i brukergrensesnittet. En innstillingsnisse i bakgrunnen håndterer alle slags enhetsegenskaper, slik som dokumentert i wikien <a href=\"https://docs.xfce.org/xfce/xfce4-settings/mouse\">museoppsett</a>."
 
 #: about/tour410.php:91
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
-msgstr ""
+msgstr "Innstilling av Synaptics styreplate i dialogvinduet <em>mus og styreplate</em>"
 
 #: about/tour410.php:95
 msgid ""
@@ -1538,7 +1538,7 @@ msgid ""
 "<em>style</em> or <em>icon</em> list. Xfce will attempt to extract and "
 "install the files into the <tt>~/.themes</tt> or <tt>~/.icons</tt> "
 "directory."
-msgstr ""
+msgstr "I 4.10 kan du dra og slippe et tar-arkiv med nedlastede temaer til <em>stil</em>- eller <em>ikon</em>-listene. Xfce vil forsøke å pakke ut og installere filene i mappa <tt>~/.themes</tt> eller <tt>~/.icons</tt>."
 
 #: about/tour410.php:99
 msgid ""
@@ -1546,11 +1546,11 @@ msgid ""
 " Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop"
 " has gained support for single-click operation, automated background image "
 "cycling and thumbnail rendering."
-msgstr ""
+msgstr "Vi hadde tenkt å bygge inn skrivebordsbehandling i Thunar i 4.10, men bestemte oss for at tiden ikke var moden. I mellomtiden har Xfdesktop fått støtte for enkeltklikkshandlinger, automatisk bytting av bakgrunnsbilder og opptegning av miniatyrbilder."
 
 #: about/tour410.php:101
 msgid "Desktop with image thumbnails and support for single-click operation"
-msgstr ""
+msgstr "Skrivebord med miniatyrbilder og støtte for enkeltklikkshandlinger"
 
 #: about/tour410.php:103
 msgid "Xfdesktop is now shipped with a new default background image."
@@ -1562,11 +1562,11 @@ msgid ""
 " feature is optional and is disabled by default. In such a case windows can "
 "still be tiled using a keyboard shortcut. Another improvement is a better "
 "theming support and cursor key navigation in the tab window (Alt+Tab)."
-msgstr ""
+msgstr "Xfwm4 kan nå flislegge et vindu når du drar det til kanten av skjermen. Denne funksjonen er valgfri og er avslått som standard. I slike tilfeller kan vinduer flislegges med en hurtigtast. En annen forbedring er bedre temastøtte og navigasjon med piltastene i Tab-vinduet (Alt + Tab)."
 
 #: about/tour44.php:1
 msgid "Xfce 4.4 tour"
-msgstr "Xfce 4.4 omvisning"
+msgstr "Xfce 4.4 – omvisning"
 
 #: about/tour44.php:6
 msgid ""
@@ -1593,7 +1593,7 @@ msgid ""
 "also able to display icons for minimized windows on the desktop, which is "
 "quite a popular feature from the CDE world. Of course, you can disable the "
 "desktop icons altogether if you prefer a clean desktop."
-msgstr ""
+msgstr "Skrivebordsbehandleren bruker <b>Thunar</b>s biblioteker for å håndtere programstartere og vanlige filer og mapper på skrivebordet. Skrivebordsbehandleren kan også vise ikoner for minimerte vinduer på skrivebordet, noe som er populært i CDE-miljøet. Du kan selvfølgelig slå av alle skrivebordsikoner hvis du vil ha et rent skrivebord."
 
 #: about/tour44.php:21
 msgid "Desktop Settings"
@@ -1603,18 +1603,18 @@ msgstr "Skrivebordsinnstillinger"
 msgid ""
 "<b>Xfdesktop</b> also continues to provide access to the applications menu, "
 "as it did in the previous Xfce releases."
-msgstr ""
+msgstr "<b>Xfdesktop</b> gir tilgang til programmenyen, som i forrige Xfce-utgivelser."
 
 #: about/tour44.php:31
 msgid ""
 "The desktop icon support goes hand in hand with the new file manager <a "
 "href=\"http://thunar.xfce.org/\">Thunar</a> which replaces the previous file"
 " manager <b>Xffm</b>."
-msgstr ""
+msgstr "Støtten for skrivebordsikoner går hand i hand med den nye filbehandleren <a href=\"http://thunar.xfce.org/\">Thunar</a>, som erstatter den forrige filbehandleren <b>Xffm</b>."
 
 #: about/tour44.php:34 projects/index.php:80
 msgid "Thunar File Manager"
-msgstr "Thunar filutforsker"
+msgstr "Filbehandleren Thunar"
 
 #: about/tour44.php:37
 msgid ""
@@ -1623,7 +1623,7 @@ msgid ""
 "look similar to the file chooser which was introduced with GTK+ 2.4, and "
 "other file managers such as <b>Nautilus</b> and <b>pcmanfm</b> already "
 "picked up that idea as well."
-msgstr ""
+msgstr "<b>Thunar</b> er et nytt program som er enkelt å bruke, og en lettvekts filbehandler for Xfce. Brukergrensesnittet er utformet til å ligne filvelgeren til GTK+ 2.4. Andre filbehandlere som <b>Nautilus</b> og <b>pcmanfm</b> har også plukket opp den ideen."
 
 #: about/tour44.php:41
 msgid ""
@@ -1631,15 +1631,15 @@ msgid ""
 "will expect, and also several advanced features. For example, a so-called "
 "<i>Bulk Renamer</i> is included which allows users to rename multiple files "
 "at once using a certain criterion."
-msgstr ""
+msgstr "<b>Thunar</b> støtter den funksjonaliteten som brukerne forventer, men har også flere avanserte muligheter, for eksempel <i>massivendring av filnavn</i> som lar brukere endre navn på flere filer samtidig i henhold til et bestemt kriterium."
 
 #: about/tour44.php:44
 msgid "Thunar Bulk Rename"
-msgstr ""
+msgstr "Thunars massivendring av filnavn"
 
 #: about/tour44.php:46
 msgid "Removable Drives and Media"
-msgstr "Fjernbare stasjoner og medium"
+msgstr "Flyttbare lagringsenheter og media"
 
 #: about/tour44.php:49
 msgid ""
@@ -1647,11 +1647,11 @@ msgid ""
 "insert the media into the drive or plug the new drive in to the computer and"
 " an icon representing the removable volume will appear on the desktop and in"
 " <b>Thunar</b>'s side pane."
-msgstr ""
+msgstr "Xfce 4.4.0 gir enkel tilgang til data på flyttbare lagringsenheter og media. Sett inn media i enheten eller enheten i maskinen for å vise et ikon på skrivebordet og i <b>Thunar</b>s siderute som representerer det flyttbare dataområdet."
 
 #: about/tour44.php:52
 msgid "Removable Volumes"
-msgstr ""
+msgstr "Flyttbare dataområder"
 
 #: about/tour44.php:55
 msgid ""
@@ -1662,14 +1662,14 @@ msgid ""
 "therefore only available for Linux 2.6.x and FreeBSD 6.x and above at the "
 "time of this writing (there is limited removable media support for FreeBSD "
 "4.x and 5.x which does not require HAL)."
-msgstr ""
+msgstr "Klikk på ikonet for å montere dataområdet automatisk. Høyreklikk ikonet for å avmontere lagringsenheten eller løse ut mediet fra enheten. Legg merke til at denne funksjonaliteten krever <a href=\"https://freedesktop.org/wiki/Software_2fhal\">HAL</a> og er dermed i skrivende stund kun tilgjengelig for Linux 2.6.x og FreeBSD 6.x og over. (Det er begrenset støtte for flyttbare media i FreeBSD 4.x og 5.x som ikke krever HAL)."
 
 #: about/tour44.php:62
 msgid ""
 "The new text editor <b>MousePad</b> is included with this release. "
 "<b>MousePad</b> provides all the basic editor functionality, nothing more, "
 "nothing less."
-msgstr ""
+msgstr "Det nye tekstprogrammet <b>MousePad</b> er inkludert i denne utgivelsen. <b>MousePad</b> har grunnleggende redigeringsfunksjonalitet, verken mer eller mindre."
 
 #: about/tour44.php:65
 msgid "MousePad"
@@ -1680,32 +1680,32 @@ msgid ""
 "You can think of <b>MousePad</b> as the equivalent to <b>NotePad</b> on "
 "Windows. It starts up very fast, usually in less than one second, even on "
 "older systems."
-msgstr ""
+msgstr "<b>MousePad</b> svarer til <b>Notisblokk</b> i Windows. Det starter veldig raskt, vanligvis fortere enn ett sekund, også på eldre systemer."
 
 #: about/tour44.php:74
 msgid "<b>Xfwm4</b> continues to be the window manager of the hearts."
-msgstr ""
+msgstr "<b>Xfwm4</b> er fortsatt Xfces vindusbehandler."
 
 #: about/tour44.php:77
 msgid "Xfwm4 ARGB32"
-msgstr ""
+msgstr "Xfwm4 ARGB32"
 
 #: about/tour44.php:80
 msgid ""
 "This release features an enhanced compositor, supporting transparent ARGB "
 "windows, shadows, window frame transparency and much more."
-msgstr ""
+msgstr "Denne utgivelsen har et forbedret komposittprogram som støtter gjennomsiktige ARGB-vinduer, skygger, gjennomsiktige vindusrammer og mye mer."
 
 #: about/tour44.php:83
 msgid "Xfwm4 Switcher"
-msgstr ""
+msgstr "Xfwm4-veksler"
 
 #: about/tour44.php:86
 msgid ""
 "<b>Xfwm4</b> also includes a brand new application switcher, as shown in the"
 " screenshot above, which displays all windows from the current workspace "
 "with icons and window titles."
-msgstr ""
+msgstr "<b>Xfwm4</b> har en ny programveksler som vist i skjermbildet over. Veksleren viser alle vinduene fra gjeldende arbeidsområde med ikoner og vindustitler."
 
 #: about/tour44.php:89
 msgid "Xfwm4 Themes"
@@ -1715,28 +1715,28 @@ msgstr "Xfwm4-drakter"
 msgid ""
 "Further on support for multiple image formats for window decoration themes "
 "was added, including <tt>PNG</tt>, <tt>GIF</tt> and <tt>SVG</tt> images."
-msgstr ""
+msgstr "Vindusdekorasjoner støtter nå flere bildeformater, inkludert <tt>PNG</tt>, <tt>GIF</tt> og <tt>SVG</tt>."
 
 #: about/tour44.php:95
 msgid "Xfwm4 Tweaks"
-msgstr ""
+msgstr "Finjustering av Xfwm4"
 
 #: about/tour44.php:98
 msgid ""
 "Advanced controls for the window manager were also added, allowing thorough "
 "tweaking of window behavior."
-msgstr ""
+msgstr "Avansert oppsett av vindusbehandleren ble også lagt til, og tillater nøye finjustering av vindusoppførsel."
 
 #: about/tour44.php:105
 msgid ""
 "The <b>Xfce4-panel</b> was completely rewritten for the Xfce 4.4 release. "
 "Multiple panels are supported <i>out of the box</i> now and can easily be "
 "configured using the new <b>Panel Manager</b> shown in the screenshot below."
-msgstr ""
+msgstr "<b>Xfce4-panelet</b> ble omskrevet for Xfce 4.4-utgivelsen. Flere paneler kan nå brukes samtidig. Dettesettes opp med den nye <b>Panelbehandlingen</b> vist i skjermbildet nedenfor."
 
 #: about/tour44.php:108
 msgid "Panel Manager"
-msgstr ""
+msgstr "Panelbehandling"
 
 #: about/tour44.php:111
 msgid ""
@@ -1744,22 +1744,22 @@ msgid ""
 "had to be run in the same process as the panel, and hence every plugin was "
 "able to crash the whole panel. To address this issue, support for external "
 "plugins was added to the panel."
-msgstr ""
+msgstr "Et av hovedproblemene i forrige Xfce-utgivelser var at hvert tillegg måtte kjøre i samme prosess som panelet, og dermed kunne hvert tillegg krasje hele panelet. For å bøte på dette la vi til støtte for eksterne tillegg."
 
 #: about/tour44.php:114
 msgid "Panel Add Item Dialog"
-msgstr ""
+msgstr "Dialogvindu for å legge til panelelementer"
 
 #: about/tour44.php:117
 msgid ""
 "Developers of panel plugins can now decide whether the plugin should run as "
 "external process or as part of the panel process, depending on the stability"
 " of the plugin."
-msgstr ""
+msgstr "Utviklere av paneltillegg kan nå bestemme om tillegget skal kjøres som en ekstern prosess eller som en del av panelprosessen. Dette avhenger av om tillegget er stabilt."
 
 #: about/tour44.php:120
 msgid "Panel Icon Box Plugin"
-msgstr ""
+msgstr "Panelets ikonboks-tillegg"
 
 #: about/tour44.php:123
 msgid ""
@@ -1767,7 +1767,7 @@ msgid ""
 "<b>Xftaskbar4</b> and <b>Xfce4-iconbox</b> utilities are no longer required."
 " Instead, both the taskbar and the iconbox are available as panel plugins "
 "now."
-msgstr ""
+msgstr "Siden flere paneler nå støttes trengs ikke de separate verktøyene <b>Xftaskbar4</b> og <b>Xfce4-iconbox</b>. Nå er både oppgavelinja og ikonboksen tilgjengelig som paneltillegg."
 
 #: about/tour44.php:127
 msgid ""
@@ -1776,7 +1776,7 @@ msgid ""
 "updated for the new panel, and several new plugins were added. For example, "
 "the brand new <b>xfce4-xfapplet-plugin</b> allows users to add GNOME panel "
 "applets to the Xfce panel."
-msgstr ""
+msgstr "De fleste ekstra paneltilleggene, som er tilgjengelige via <a href=\"https://goodies.xfce.org/\">Xfce godbit-prosjektet</a>, er oppdatert for det nye panelet. Flere nye tillegg er lagt til. For eksempel lar det nye tillegget <b>xfce4-xfapplet-plugin</b> brukere legge til GNOME-småprogram til Xfce-panelet."
 
 #: about/tour44.php:131
 msgid "Time Management"
@@ -1811,7 +1811,7 @@ msgid ""
 "While <b>Terminal</b> was already available during the 4.2 days, it was not "
 "mature enough at that time to be part of the core. With this major release, "
 "it was moved into the core desktop."
-msgstr ""
+msgstr "Selv om <b>Terminal</b> var tilgjengelig allerede i 4.2 var det ikke modent nok til å være et kjerneprogram. Med denne hovedutgivelsen ble det flyttet til kjernedelen av skrivebordsmiljøet."
 
 #: about/tour44.php:150 projects/index.php:101
 msgid "Terminal"
@@ -1825,7 +1825,7 @@ msgid ""
 "the application via <i>hidden options</i>. As can be seen in the screenshot "
 "above, this release also supports real transparency using <b>Xfwm4</b>'s "
 "integrated composition manager."
-msgstr ""
+msgstr "Utover de grunnleggende funksjonene du forventer fra en terminaletterligner har den tilleggsfunksjonalitet som f.eks. flere faner per vindu, verktøylinjer som kan tilpasses, og hver del av programmet kan settes opp via <i>skjulte valg</i>. Som du ser i skjermbildet over støtter denne utgivelsen ekte gjennomsiktighet med <b>Xfwm4</b>s innebygde komposittbehandler."
 
 #: about/tour44.php:157
 msgid "Printing"
@@ -1838,22 +1838,22 @@ msgid ""
 "mandatory anymore, whilst still recommended. Support for <tt>CUPS</tt> 1.2 "
 "was added and <b>Xfprint</b> is now able to display the printer state with "
 "the <tt>CUPS</tt>-backend."
-msgstr ""
+msgstr "<b>Xfprint</b>, Xfces utskriftsbehandler, fikk flere små forbedringer i denne utgivelsen. Først må nevnes at <tt>a2ps</tt>-konverteren ikke lenger er påkrevd, men anbefalt. Støtte for <tt>CUPS</tt> 1.2 ble lagt til, og <b>Xfprint</b> kan nå vise skriverstatus med <tt>CUPS</tt>-bakstykket."
 
 #: about/tour44.php:163
 msgid "Xfce Printing"
-msgstr ""
+msgstr "Utskrift med Xfce"
 
 #: about/tour44.php:166
 msgid ""
 "<b>Xfprint</b> also integrates with <b>MousePad</b> to provide generic "
 "printing support for different kinds of text documents using the "
 "<tt>a2ps</tt> converter."
-msgstr ""
+msgstr "<b>Xfprint</b> er integrert med <b>MousePad</b> og tilbyr generell utskriftsstøtte for flere typer tekstdokumenter med <tt>a2ps</tt>-konverteren."
 
 #: about/tour44.php:169
 msgid "Xfce Print Dialog"
-msgstr ""
+msgstr "Xfces utskriftsdialog"
 
 #: about/tour44.php:172
 msgid ""
@@ -1862,11 +1862,11 @@ msgid ""
 "especially the <tt>CUPS</tt> support. Besides that, the printing management "
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
-msgstr ""
+msgstr "Som du ser ligner utskriftsdialogen ganske mye på den i 4.2, men internt er utskriftsstøtten forbedret, spesielt <tt>CUPS</tt>-støtten. Utover det ble utskriftsbehandlingen flyttet til et bibliotek slik at andre programmer kan bruke API-et for å få tilgang til skriveroppsettet.  "
 
 #: about/tour44.php:176
 msgid "Autostart"
-msgstr ""
+msgstr "Automatisk oppstart"
 
 #: about/tour44.php:179
 msgid ""
@@ -1874,11 +1874,11 @@ msgid ""
 "href=\"https://freedesktop.org/wiki/Standards_2fautostart_2dspec\">Autostart"
 " Specification</a> - actually Xfce was the first desktop to implement said "
 "feature, but the others were faster to release. ;-)"
-msgstr ""
+msgstr "Xfce 4.4.0 implementerer den nye <a href=\"https://freedesktop.org/wiki/Standards_2fautostart_2dspec\">Autostart-spesifikasjonen</a> – Xfce var faktisk det første skrivebordsmiljøet til å implementere denne funksjonaliteten, men andre var raskere til å gi ut. ;-)"
 
 #: about/tour44.php:182
 msgid "Xfce Autostart Editor"
-msgstr ""
+msgstr "Redigering av automatisk oppstart i Xfce"
 
 #: about/tour44.php:185
 msgid ""
@@ -1889,14 +1889,14 @@ msgid ""
 "\">thunar-volman</a>. This release also includes the <b>xfce4-autostart-"
 "editor</b>, shown in the screenshot above, which allows users to easily add,"
 " remove or disable autostarted applications."
-msgstr ""
+msgstr "Spesifikasjonen har to deler, <i>automatisk programstart ved oppstart</i>, som er implementert i <b>xfce4-session</b>, og <i>automatisk programstart etter montering</i>, som er implementert i <a href=\"http://foo-projects.org/~benny/projects/thunar-volman/index.html\">thunar-volman</a>. Denne utgivelsen inkluderer også <b>xfce4-autostart-editor</b>, vist i skjermbildet over, som lar brukere enkelt legge til, fjerne eller slå av autostartede programmer."
 
 #: about/tour44.php:192
 msgid ""
 "This release introduces new options to customize the desktop to your needs. "
 "Some examples of new settings dialogs were already shown in the sections "
 "above."
-msgstr ""
+msgstr "Denne utgivelsen har også nye valg som tilpasser skrivebordet til dine behov. Noen eksempler på nye innstillingsdialoger er allerede vist i bolkene ovenfor."
 
 #: about/tour44.php:195
 msgid "Preferred Applications"
@@ -1910,11 +1910,11 @@ msgid ""
 " by Xfce applications. The goal was to make it as easy as possible to change"
 " an application for a certain category (GNOME users may have already noticed"
 " that GNOME adopted this approach, because it is such simple)."
-msgstr ""
+msgstr "Rammeverket for forvalgte programmer, som tidligere kun var tilgjengelig i <b>Terminal</b>, er importert til Xfce slik at brukere ikke behøver redigere skallprofiler for å angi hvilken nettleser og terminaletterligner som Xfce-programmene skal bruke. Målet var å gjøre det så enkelt som mulig å endre et program for en bestemt kategori (GNOME-brukere har vel lagt merke til at GNOME bruker denne tilnærmingen fordi det er så enkelt). "
 
 #: about/tour44.php:201
 msgid "Keyboard Shortcuts"
-msgstr "Tastatursnarveier"
+msgstr "Hurtigtaster"
 
 #: about/tour44.php:204
 msgid ""
@@ -1923,7 +1923,7 @@ msgid ""
 "people wanted to assign any number of keyboard shortcuts. With Xfce 4.4 this"
 " limitation is history and the application shortcuts are now separated from "
 "the window manager shortcuts."
-msgstr ""
+msgstr "Det var problemer med hurtigtaster i Xfce 4.2 … Xfce 4.2 begrenset antall fritt tilgjengelige hurtigtaster, mens brukerne ville bruke et større antall hurtigtaster. Denne begrensingen ble fjernet i Xfce 4.4, og programhurtigtastene er nå skilt fra vindusbehandlerens hurtigtaster."
 
 #: about/tour44.php:208
 msgid "Feedback"
@@ -1935,7 +1935,7 @@ msgid ""
 "diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html\">blog</a> and use "
 "the <a href=\"/community/lists\">xfce</a> mailinglist if you have questions "
 "about Xfce 4.4.0 or trouble with the installation."
-msgstr ""
+msgstr "Har du spørsmål om Xfce 4.4.0 eller problemer med installasjonen? Legg igjen en kommentar på denne artikkelen i <a href=\"http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html\">bloggen</a> og bruk <a href=\"/community/lists\">e-postlisten</a>."
 
 #: about/tour44.php:215 about/tour46.php:188
 msgid "Links"
@@ -1955,7 +1955,7 @@ msgstr "Skrevet av Benedikt Meurer, 21 Jan 2007"
 
 #: about/tour46.php:1
 msgid "Xfce 4.6 tour"
-msgstr "Xfce 4.6 omvisning"
+msgstr "Xfce 4.6 – omvisning"
 
 #: about/tour46.php:6
 msgid ""
@@ -1970,7 +1970,7 @@ msgid ""
 "the need to allow the selection of multiple icons (rubber banding). With "
 "<b>Xfce 4.6</b>, the <b>Xfdesktop</b> manager finally implements this "
 "feature: you can select multiple icons, remove them, etcetera..."
-msgstr ""
+msgstr "Etter at skrivebordsikoner ble innført i Xfce 4.4 har folk ønsket å  kunne velge flere ikoner ved å dra rundt dem. I <b>Xfce 4.6</b> har <b>Xfdesktop</b>-behandleren endelig denne funksjonaliteten: Du kan velge flere ikoner, fjerne dem og så videre."
 
 #: about/tour46.php:15
 msgid "Multiple icons selection"
@@ -2006,7 +2006,7 @@ msgid ""
 "geek in you: binary clock! The new <b>notification area plugin</b> allows "
 "you to hide selected notification icons to keep your notification area clean"
 " and readable."
-msgstr ""
+msgstr "<b>Klokke-tillegget</b> er omskrevet for å bruke færre systemressurser og rette noen visningsfeil. Det er også en ny klokkemodus for fagidiotene blant oss: Binærklokka! Det nye <b>varslingstillegget</b> lar deg skjule valgte varslingsikoner for å gjøre varslingsområdet rent og lesbart."
 
 #: about/tour46.php:35
 msgid "Sound Mixer"
@@ -2020,11 +2020,11 @@ msgid ""
 "polished, and you can manage several different sound cards. Additionally, a "
 "panel plugin allows you to set the system sound quickly using the mouse "
 "scroll wheel."
-msgstr ""
+msgstr "<b>Xfce4-mikseren</b> er omskrevet fra bunnen av for å bruke <a href=\"https://gstreamer.freedesktop.org/\">Gstreamer</a>. Dette gjør det enklere å støtte flere lydsystemer, brukergrensesnittet er mer polert, og du kan behandle flere lydkort. Dessuten kan du via et paneltillegg raskt endre systemlyden med musehjulet."
 
 #: about/tour46.php:41
 msgid "New sound mixer"
-msgstr "Ny lydmixer"
+msgstr "Ny lydmikser"
 
 #: about/tour46.php:46
 msgid ""
@@ -2093,7 +2093,7 @@ msgstr "Fylleoperasjon"
 msgid ""
 "The <b>compositor</b> has been optimized to reduce window flickering "
 "duringresize operations."
-msgstr ""
+msgstr "<b>Komposittprogrammet</b> vil nå minke vindusblafring når en endrer vindusstørrelse."
 
 #: about/tour46.php:84
 msgid "Flicker free resizing"
@@ -2127,7 +2127,7 @@ msgid ""
 "href=\"https://freedesktop.org/wiki/Software/xdg-user-dirs\"> XDG user "
 "directories</a> specification; this allows you to have themed and localized "
 "user folders to store your music, documents, videos, templates, etcetera..."
-msgstr ""
+msgstr "<b>Thunar</b> følger nå spesifikasjonen <a href=\"https://freedesktop.org/wiki/Software/xdg-user-dirs\">XDG brukermapper</a>. Dette lar deg ha stilede og lokaliserte brukermapper der musikk, dokumenter, videoer, og maler lagres. "
 
 #: about/tour46.php:104
 msgid "Thunar menu for user directories"
@@ -2205,7 +2205,7 @@ msgstr "Dialogvindu for skjerminnstillinger"
 msgid ""
 "The <b>Display settings</b> dialog allows you to set the resolution, refresh"
 " rate, and the rotation for each screen that is connected."
-msgstr ""
+msgstr "Dialogvinduet for <b>skjerminnstillinger</b> lar deg velge oppløsning, oppdateringsfrekvens og rotasjon for hver skjerm som er koblet til."
 
 #: about/tour46.php:150
 msgid "Keyboard settings"
@@ -2213,23 +2213,23 @@ msgstr "Tastatur-innstillinger"
 
 #: about/tour46.php:152
 msgid "Keyboard settings dialog, layout tab"
-msgstr ""
+msgstr "Dialogvindu for tastaturinnstillinger, utformingsfanen"
 
 #: about/tour46.php:155
 msgid ""
 "The <b>Keyboard settings</b> dialog allows you to set keyboard preferences "
 "such as key repeating, keyboard shortcuts, and your keyboard layout."
-msgstr ""
+msgstr "Dialogvinduet for <b>tastaturinnstillinger</b> lar deg endre innstillinger slik som tasterepetisjon, hurtigtaster og tastaturutforming."
 
 #: about/tour46.php:158
 msgid "Keyboard settings dialog, shortcuts tab"
-msgstr ""
+msgstr "Dialogvinduet for tastaturoppsettet, hurtigtastfanen"
 
 #: about/tour46.php:161
 msgid ""
 "You can now configure shortcuts more simply, and any shortcut conflicts are "
 "automatically detected."
-msgstr ""
+msgstr "Du kan nå lettere sette opp hurtigtaster, og alle konflikter gjenkjennes automatisk."
 
 #: about/tour46.php:164
 msgid "Mouse settings"
@@ -2237,14 +2237,14 @@ msgstr "Muse-innstillinger"
 
 #: about/tour46.php:166
 msgid "Mouse settings dialog"
-msgstr ""
+msgstr "Dialogvinduet for museinnstillinger"
 
 #: about/tour46.php:169
 msgid ""
 "The <b>Mouse settings</b> dialog allows you to configure the different mice "
 "connected to your computer: button order, acceleration, double-click speed, "
 "mouse cursor theme, etcetera..."
-msgstr ""
+msgstr "Dialogvinduet for <b>museinnstillinger</b> lar deg sette opp musene som er koblet til maskinen: Knapperekkefølge, akselerasjon, dobbeltklikk-hastighet, pekerdrakt, osv …"
 
 #: about/tour46.php:172
 msgid "Desktop settings"
@@ -2252,14 +2252,14 @@ msgstr "Skrivebords-innstillinger"
 
 #: about/tour46.php:174
 msgid "Desktop settings dialog"
-msgstr ""
+msgstr "Dialogvinduet for skrivebordsinnstillinger"
 
 #: about/tour46.php:177
 msgid ""
 "The <b>Desktop settings</b> dialog is now much more compact; it allows you "
 "to configure per-screen settings: wallpaper, brightness, desktop menu, "
 "displayed icons, etcetera..."
-msgstr ""
+msgstr "Dialogvinduet for <b>skrivebordsinnstillinger</b> er nå langt mer kompakt. Det lar deg sette opp innstillinger for hver skjerm: Bakgrunnsbilde, lysstyrke, skrivebordsmeny, viste ikoner, osv …"
 
 #: about/tour46.php:183
 msgid ""
@@ -2268,11 +2268,11 @@ msgid ""
 "keyboard, and it monitors installed applications to update the list \"on the"
 " fly.\"  It also allows you to create panel launchers quickly by dragging an"
 " application icon to the launcher creation window."
-msgstr ""
+msgstr "<b>Xfce 4.6</b> har nå en ny programsøker med et renere brukergrensesnitt. Den er lettere å bruke med tastaturet, og den overvåker installerte programmer for å kunne oppdatere listen i sanntid. Den lar deg raskt lage panelstartere ved å dra programikonet til vinduet for opprettelse av startere."
 
 #: about/tour46.php:186
 msgid "New application finder"
-msgstr ""
+msgstr "Ny programsøker"
 
 #: about/tour46.php:198
 msgid "Written by Jérôme Guelfucci (February 2009)"
@@ -2284,14 +2284,14 @@ msgstr "Skjermbilder av Jannis Pohlmann"
 
 #: about/tour48.php:1
 msgid "Xfce 4.8 tour"
-msgstr "Xfce 4.8 omvisning"
+msgstr "Xfce 4.8 – omvisning"
 
 #: about/tour48.php:5
 msgid ""
 "This tour will introduce you to all the new major visual features in Xfce "
 "4.8. This is only the visual part of what has been done; for a full list of "
 "changes, see the <a href=\"/download/changelogs/\">changelogs</a>."
-msgstr ""
+msgstr "Denne omvisningen vil ta for seg ny overfladisk funksjonalitet i Xfce 4.8. Den dekker kun de visuelle endringene som er gjort. For en fullstendig liste over endringer se <a href=\"/download/changelogs/\">endringsloggen</a>."
 
 #: about/tour48.php:9
 msgid "Remote shares browsing"
@@ -2309,18 +2309,18 @@ msgstr "Thunar blar gjennom en ekstern delt ressurs"
 
 #: about/tour48.php:15
 msgid "New file operations progress dialog"
-msgstr ""
+msgstr "Ny framdriftsdialog for filoperasjoner"
 
 #: about/tour48.php:17
 msgid ""
 "When several file operations (copy or move) are being handled in parallel, "
 "Thunar now shows a single progress dialog which displays all the relevant "
 "information."
-msgstr "Når flere filoperasjoner (kopiering eller flytting) gjøres parallelt, viser Thunar nå et felles prosessvindu for fremdriften som viser all relevant informasjon."
+msgstr "Når flere filoperasjoner (kopiering eller flytting) gjøres parallelt, viser Thunar nå et felles framdriftsvindu som viser all relevant informasjon."
 
 #: about/tour48.php:19
 msgid "Progress dialog"
-msgstr "Framdriftsveiviser"
+msgstr "Framdriftsviser"
 
 #: about/tour48.php:21
 msgid "Eject button for removable devices"
@@ -2352,22 +2352,22 @@ msgid ""
 "can be dragged and snapped to screen borders; floating positions are only "
 "remembered when moving a panel and the length of the panel can be adjusted "
 "as a percentage of the monitor size."
-msgstr ""
+msgstr "Panelet har mye bedre støtte for å flytte paneler på skjermen. Det kan dras og festes til skjermkantene. Flytende posisjoner huskes kun når paneler flyttes, og panelets lengde kan justeres som en prosentdel av skjermstørrelsen."
 
 #: about/tour48.php:35
 msgid "Transparent backgrounds"
-msgstr "Transparente bakgrunner"
+msgstr "Gjennomsiktige bakgrunner"
 
 #: about/tour48.php:37
 msgid ""
 "The panel is now able to draw transparent panel backgrounds with non "
 "transparent items. Your panel items will remain readable and you will enjoy "
 "a nice panel look."
-msgstr ""
+msgstr "Panelet kan nå tegne gjennomsiktige bakgrunner med ikke-gjennomsiktige elementer. Panelelementene vil forbli lesbare og panelet vil se bra ut."
 
 #: about/tour48.php:39
 msgid "Transparent panel background"
-msgstr "Transparent panelbakgrunn"
+msgstr "Gjennomsiktig panelbakgrunn"
 
 #: about/tour48.php:41
 msgid "New item editor"
@@ -2379,11 +2379,11 @@ msgid ""
 "remove items quickly. This is particularly useful for items which are hard "
 "to right click and gives you an easy way to change your panel layout from a "
 "single place."
-msgstr ""
+msgstr "Panelet har nå elementredigering som raskt gjør det mulig å endre, flytte, legge til og fjerne elementer. Dette er spesielt nyttig for elementer som vanskelig kan fjernes med høyreklikking, og gir deg en enkelt måte å endre panelutformingen fra et enkelt sted."
 
 #: about/tour48.php:45
 msgid "Panel item editor"
-msgstr ""
+msgstr "Redigering av panelelementer"
 
 #: about/tour48.php:47
 msgid "Drag and drop to create launchers"
@@ -2395,11 +2395,11 @@ msgid ""
 "application finder or Thunar to the panel to create launchers. This feature "
 "should please the huge number of people who had been requesting it for ages."
 " The launcher also has an integrated application finder to add new items."
-msgstr ""
+msgstr "Du kan nå dra og slippe menyoppføringer fra panelets programmeny, programsøker eller Thunar til panelet for å lage programstartere. Dette har vært etterspurt i årevis. Programstarteren har også en innebygd programsøker for å legge til nye elementer."
 
 #: about/tour48.php:51
 msgid "Window buttons plugin"
-msgstr ""
+msgstr "Vindusknapper-tillegg"
 
 #: about/tour48.php:53
 msgid ""
@@ -2407,67 +2407,67 @@ msgid ""
 " buttons. It implements different sorting modes, improved handling in "
 "vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
 "a button."
-msgstr ""
+msgstr "Tilleggene «iconbox» og «tasklist» er slått sammen til ett tillegg, kalt vindusknapper. Det har ulike sorteringsmoduser, forbedret utforming i loddrette paneler og kan tegne en lignende ramme som Xfwm4s Alt + Tab når musepekeren er over en knapp."
 
 #: about/tour48.php:55
 msgid "New fuzzy clock"
-msgstr ""
+msgstr "Ny ordklokke"
 
 #: about/tour48.php:57
 msgid ""
 "An Xfce release without a new clock mode would not be a true Xfce release. "
 "Let us introduce you the 'fuzzy' clock mode!"
-msgstr ""
+msgstr "Alle Xfce-utgivelser har en ny klokkemodus. Vi presenterer ordklokka!"
 
 #: about/tour48.php:59
 msgid "New fuzzy clock mode"
-msgstr ""
+msgstr "Ny ordklokke"
 
 #: about/tour48.php:61
 msgid "New directory menu plugin"
-msgstr ""
+msgstr "Nytt mappemeny-tillegg"
 
 #: about/tour48.php:63
 msgid ""
 "The directory menu plugin provides a menu reproducing the arborescence of a "
 "particular folder. This allows you to open a terminal or a file manager in a"
 " sub-folder in a very fast and efficient way."
-msgstr ""
+msgstr "Mappemeny-tillegget gir en meny som gjenskaper trestrukturen til en bestemt mappe. Dette lar deg åpne en terminal eller filbehandler i en undermappe raskt og effektivt."
 
 #: about/tour48.php:65
 msgid "Directory menu plugin"
-msgstr ""
+msgstr "Mappemeny-tillegget"
 
 #: about/tour48.php:67
 msgid "Applications menu edition"
-msgstr ""
+msgstr "Redigering av programmenyen"
 
 #: about/tour48.php:69
 msgid ""
 "You can now edit the applications menu using any Freedesktop compliant menu "
 "editor, Alacarte being the one we used to test."
-msgstr ""
+msgstr "Du kan nå redigere programmenyen med ethvert Freedesktop-kompatibelt redigeringsprogram. Vi testet med Alacarte."
 
 #: about/tour48.php:73
 msgid "Improved multihead setup configuration"
-msgstr ""
+msgstr "Forbedret oppsett av flere skjermer"
 
 #: about/tour48.php:75
 msgid ""
 "Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
 "driver. Unfortunately, this means it will not work with Nvidia proprietary "
 "drivers."
-msgstr ""
+msgstr "Xfce kan nå håndtere og sette opp flere skjermer for enhver randr 1.2-kompatibel driver. Dette vil dessverre ikke virke med Nvidias proprietære drivere."
 
 #: about/tour48.php:77
 msgid ""
 "You can enable and disable plugged screens, set their resolution, refresh "
 "rate, rotation and reflection, clone screens or extend desktops."
-msgstr ""
+msgstr "Du kan nå slå av og på tilkoblede skjermer, endre deres oppløsning, oppdateringsfrekvens, rotasjon og refleksjon, klone skjermer og utvide skrivebord."
 
 #: about/tour48.php:79
 msgid "New display settings dialog"
-msgstr ""
+msgstr "Nytt dialogvindu for skjerminnstillinger"
 
 #: about/tour48.php:81
 msgid "Timed confirmation"
@@ -2493,26 +2493,26 @@ msgid ""
 "The quick setup dialog allows you to configure a dual screen setup in a "
 "second. Plug the second screen, press the display key or Windows + p and "
 "select the wanted layout. Done!"
-msgstr ""
+msgstr "Hurtigoppsettsdialogen lar deg sette opp to skjermer på et blunk. Plugg inn den andre skjermen, trykk visningsknappen eller Win + P og velg ønsket utforming. Ferdig!"
 
 #: about/tour48.php:91
 msgid "Quick multihead setup"
-msgstr ""
+msgstr "Raskt oppsett av flere skjermer"
 
 #: about/tour48.php:93
 msgid "Settings edition in the Xfce Settings Editor"
-msgstr ""
+msgstr "Redigering av Xfce-innstillinger"
 
 #: about/tour48.php:95
 msgid ""
 "The Xfce Settings Editor now deserves its name, it is no longer a simpler "
 "Xfconf settings viewer. You can now modify, delete, add and reset settings "
 "through its interface. It also monitors changes to update its view."
-msgstr ""
+msgstr "Redigering av Xfce-innstillinger er ikke lenger et rent visningsprogram for Xfconf-innstillingene. Du kan nå endre, slette, legge til og tilbakestille innstillingene gjennom grensesnittet. Det kan også overvåke endringene for oppdatering av visningen."
 
 #: about/tour48.php:97
 msgid "Editing Xfconf properties with the Settings Editor"
-msgstr ""
+msgstr "Redigering av Xfconf-innstillingene med redigeringsprogrammet"
 
 #: about/tour48.php:99
 msgid "Improved keyboard layout selection"
@@ -2524,11 +2524,11 @@ msgid ""
 "cryptic language/variants codes but uses localized languages/variants names."
 " Layout edition was also made easier by prefilling the dialogs with the "
 "current values."
-msgstr ""
+msgstr "Dialogvinduet for utformingsvalg har fått mye oppmerksomhet. Det viser ikke lenger kryptiske språk- og variantkoder, men bruker lokaltilpassede navn. Redigering av utforming er også lettere ved at dialogvinduet er forhåndsutfylt med gjeldende verdier."
 
 #: about/tour48.php:103
 msgid "Layouts and variants list"
-msgstr ""
+msgstr "Utforminger og variantliste"
 
 #: community/index.php:3 header.php:64
 msgid "Community"
@@ -2553,7 +2553,7 @@ msgid ""
 "href=\"https://mail.xfce.org\">mail.xfce.org</a>. There is also a user-"
 "specific list where you can ask questions and freely discuss about the "
 "desktop."
-msgstr "Nesten all utviklings og koordineringsarbeid finner sted på Xfce e-postlister. Et sammendrag av alle listene finnes på <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. Det er også en bruker-spesifikk liste der du kan stille spørsmål og diskutere skrivebordsmiljøet."
+msgstr "Nesten all utviklings- og koordineringsarbeid finner sted på Xfce e-postlister. Et sammendrag av alle listene finnes på <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. Det er også en bruker-spesifikk liste der du kan stille spørsmål og diskutere skrivebordsmiljøet."
 
 #: community/index.php:20
 msgid ""
@@ -2620,7 +2620,7 @@ msgstr "Wiki"
 
 #: community/nav.php:15
 msgid "community wiki and development resources"
-msgstr "gemenskapswiki og utviklingsressurser"
+msgstr "fellesskapswiki og utviklingsressurser"
 
 #: community/nav.php:19 getinvolved/nav.php:14
 msgid "Bug Tracker"
@@ -2674,12 +2674,12 @@ msgid ""
 " mailing list</a>, watch the <a "
 "href=\"http://archive.xfce.org/feeds/project/\">release feeds</a> or follow "
 "the Xfce <a href=\"https://twitter.com/xfceofficial\">Twitter account</a>."
-msgstr ""
+msgstr "Hver pakke i Xfce kan ha sine egne stabile eller utviklingsutgivelser, også kjernepakkene (som beskrevet i <a href=\"/about/releasemodel\">utgivelsesmodellen</a>). Du kan følge annonseringene av utgivelsene på <a href=\"/community/lists\">Xfces e-postliste for brukere</a>, se gjennom <a href=\"http://archive.xfce.org/feeds/project/\">utgivelseskanalene</a> eller følge Xfces <a href=\"https://twitter.com/xfceofficial\">Twitter-konto</a>."
 
 #: download/index.php:35
 #, php-format
 msgid "Preview release %s"
-msgstr "Forhåndsvis utgivelse %s"
+msgstr "Forhåndsutgivelse %s"
 
 #: download/index.php:37
 #, php-format
@@ -2722,7 +2722,7 @@ msgid ""
 "You can download the Xfce artwork tarball <a href=\"%s\">here</a>. It "
 "contains some high-quality logos and banners. Copying of the Xfce logo is "
 "subject to the LGPL copyright license."
-msgstr "Du kan laste ned en tarball med Xfce-grafikk <a href=\"%s\">her</a>. Den inneholder noen høykvalitets-logoer og -bannere. Kopiering av Xfce-logoen er underlagt LGPL-kopirettslisens."
+msgstr "Du kan laste ned et tar-arkiv med Xfce-grafikk <a href=\"%s\">her</a>. Det inneholder noen høykvalitets-logoer og -bannere. Kopiering av Xfce-logoen er underlagt opphavsrettslisensen LGPL."
 
 #: download/nav.php:5
 msgid "release notes of each Xfce release"
@@ -2734,7 +2734,7 @@ msgstr "Arkiv"
 
 #: download/nav.php:15
 msgid "the Xfce download archive"
-msgstr "Xfce nedlastings-arkiv"
+msgstr "Xfces nedlastingsarkiv"
 
 #: download/nav.php:19
 msgid "Building"
@@ -2762,7 +2762,7 @@ msgstr "Xfce-nyheter"
 
 #: feed.php:30
 msgid "Xfce release announcements"
-msgstr "Xfce utgivelsesannonseringer"
+msgstr "Xfces utgivelsesannonseringer"
 
 #: footer.php:14
 #, php-format
@@ -2810,15 +2810,15 @@ msgid ""
 "Beside the core desktop functionality, a number of other applications are "
 "developed in the Xfce repositories, like an image viewer, the Midori web "
 "browser, task manager, notes plugin and calendar."
-msgstr ""
+msgstr "Også programmer utover kjerneprogrammene med skrivebordsfunksjonalitet utvikles i Xfces kodelagre, som f.eks. bildevisning, nettleseren Midori, oppgavebehandler, notat-tillegg og kalender."
 
 #: frontpage.php:44 header.php:6
 msgid "Xfce Desktop Environment"
-msgstr "Xfce skrivebordsmiljø"
+msgstr "Skrivebordsmiljøet Xfce"
 
 #: frontpage.php:49
 msgid "get the source tarballs"
-msgstr "hent tarball-filer med kildekode"
+msgstr "hent tar-arkiv med kildekode"
 
 #: frontpage.php:53
 msgid "ChangeLog"
@@ -2863,7 +2863,7 @@ msgid ""
 "from all around the globe. There are many different ways you can become part"
 " of this, just read on and pick an area which interests you or seems "
 "challenging."
-msgstr "Velkommen til Xfce fellesskapet. Ved å bli med i vårt team vil du være en del av en internasjonal innsats av hundrevis av mennesker som jobber for å levere en fantastisk opplevelse av fri programvare. Du vil møte nye venner, lære nye ferdigheter og gjøre en forskjell for millioner av brukere mens du arbeider med mennesker fra hele verden. Det er mange forskjellige måter du kan bli en del av dette, bare les videre og velg deg et område som interesserer deg eller som synes utfordrende."
+msgstr "Velkommen til Xfce-fellesskapet. Ved å bli med i vårt team vil du være en del av en internasjonal innsats av hundrevis av mennesker som jobber for å levere en fantastisk opplevelse av fri programvare. Du vil møte nye venner, lære nye ferdigheter og gjøre en forskjell for millioner av brukere mens du arbeider med mennesker fra hele verden. Det er mange forskjellige måter du kan bli en del av dette, bare les videre og velg deg et område som interesserer deg eller som synes utfordrende."
 
 #: getinvolved/index.php:9
 msgid ""
@@ -2894,7 +2894,7 @@ msgid ""
 "text to the Xfce Desktop Environment, you will help Xfce be a better part of"
 " the global market and more accessible to the millions of potential users "
 "out there."
-msgstr "Er du dyktig i flere språk? Ved å bidra med dine tekstoversettelser til Xfce skrivebordsmiljøet vil du hjelpe til med å gjøre Xfce til å bli en bedre del av det globale markedet og mer tilgjengelig for millioner av potensielle brukere der ute."
+msgstr "Er du dyktig i flere språk? Ved å bidra med dine tekstoversettelser til skrivebordsmiljøet Xfce vil du hjelpe til med å gjøre Xfce til å bli en bedre del av det globale markedet og mer tilgjengelig for millioner av potensielle brukere der ute."
 
 #: getinvolved/index.php:24
 msgid "Development"
@@ -2945,14 +2945,14 @@ msgstr "Når en feil er blitt funnet så må årsaken til feilen spores opp, og 
 
 #: getinvolved/index.php:42
 msgid "Bountysource"
-msgstr ""
+msgstr "Bountysource"
 
 #: getinvolved/index.php:44
 msgid ""
 "If you want to fund the project, you can reward a bounty to the Xfce project"
 " [and leave it to the developers how to spend it] or put a bounty on a bug "
 "or feature you would like to get fixed."
-msgstr ""
+msgstr "Hvis du vil finansiere prosjektet så kan du gi en donasjon til Xfce-prosjektet (og la utviklerne bestemme hvordan pengene skal brukes), eller utlove en dusør på en feil eller funksjonalitet du vil få fikset."
 
 #: getinvolved/nav.php:5
 msgid "information about translating Xfce"
@@ -2968,11 +2968,11 @@ msgstr "Xfce oversettelsesportal"
 
 #: getinvolved/nav.php:24
 msgid "Buildbot"
-msgstr ""
+msgstr "Buildbot"
 
 #: getinvolved/nav.php:25
 msgid "view the buildslaves activity"
-msgstr ""
+msgstr "vis aktivitet til byggeslaver"
 
 #: header.php:57
 msgid "Categories"
@@ -3004,7 +3004,7 @@ msgstr "Xfce 4.12 er den beste utgivelsen noensinne (ja, vi liker å feire!)!"
 
 #: news-array.php:16
 msgid "Source : Internet comments."
-msgstr "Kilde : Kommentarer på internett."
+msgstr "Kilde: Kommentarer på internett."
 
 #: news-array.php:17
 msgid ""
@@ -3020,18 +3020,18 @@ msgid ""
 "contributors providing valuable feedback, features and bugfixes. As always, "
 "Xfce follows its steady pace of evolution without revolution that seems to "
 "match our users' needs."
-msgstr ""
+msgstr "Denne lange ventetiden kan kun forklares med hvor fantastisk Xfce 4.10 var. Men som med andre ting trengs oppdateringer – vi fikk mange nye bidragsytere med verdifulle tilbakemeldinger, funksjonalitet og feilrettinger. Xfce vil som alltid følge sitt evolusjonstempo uten revolusjoner, og tilpasse seg sine brukeres behov."
 
 #: news-array.php:19
 msgid ""
 "In this 4.12 cycle, we mainly focused on polishing our user experience on "
 "the desktop and window manager, and on updating some components to take "
 "advantage of newly available technologies."
-msgstr ""
+msgstr "I denne 4.12-syklusen fokuserte vi på å finpusse brukernes opplevelse av skrivebordet og vindusbehandleren, og på å oppdatere noen komponenter for å ta i bruk ny tilgjengelig teknologi."
 
 #: news-array.php:20
 msgid "The main highlights of this release are:"
-msgstr ""
+msgstr "Høydepunktene til denne utgivelsen er:"
 
 #: news-array.php:23
 msgid ""
@@ -3039,42 +3039,42 @@ msgid ""
 "windows preview and a list mode. Initial Client side decoration support was "
 "implemented, window tiling mode was improved providing support for corner-"
 "tiling, and a new zooming mode was added. A HiDPI Xfwm theme was also added."
-msgstr ""
+msgstr "Vindusbehandleren fikk en ny stilbar Alt + Tab-dialog med valgfri forhåndsvisning av vinduer og en listemodus. Grunnleggende klientdekorasjoner ble implementert, flislegging av vinduer ble forbedret med støtte for hjørner, og en ny zoom-modus ble lagt til. Et HiDPI-tema for Xfwm ble også lagt til."
 
 #: news-array.php:24
 msgid ""
 "The panel can now intelligently hide itself, supports Gtk3 plugins, and saw "
 "lots of its third-party plugins updated to take full advantage of the "
 "features added in 4.10."
-msgstr ""
+msgstr "Panelet kan nå skjule seg selv, støtter Gtk3-tillegg, og mange av tredjepartstilleggene ble oppdatert for å støtte ny funksjonalitet i 4.10."
 
 #: news-array.php:25
 msgid ""
 "The desktop has a new wallpaper settings dialog, per workspace wallpaper "
 "support, and better multi-monitor handling. It also supports displaying "
 "folder cover art and emblems on icons now."
-msgstr ""
+msgstr "Skrivebordet har et nytt dialogvindu for oppsett av bakgrunnsbilder, støtte for separate bakgrunnsbilder per arbeidsområde, og håndterer flere skjermer bedre. Det viser også albumomslag og merkelapper på ikoner."
 
 #: news-array.php:26
 msgid ""
 "Our session manager was updated to use logind and/or upower if available for"
 " hibernate/suspend support. For portability and to respect our users' "
 "choices, fallback modes were implemented relying on os-specific backends."
-msgstr ""
+msgstr "Øktbehandleren ble oppdatert til å bruke logind og/eller upower hvis tilgjengelig for å støtte hvile- og dvalemodus. Øktbehandleren kan falle tilbake på OS-spesifikke bakstykker for økt kompatibilitet og for å respektere brukernes valg. "
 
 #: news-array.php:27
 msgid ""
 "Support for multi-monitor use was improved in a new display settings dialog "
 "and a quick setup popup on monitor plugging."
-msgstr ""
+msgstr "Støtte for bruk av flere skjermer ble forbedret i et nytt dialogvindu for skjerminnstillinger. Når nye skjermer kobles til vil et vindu med hurtigoppsett sprette opp."
 
 #: news-array.php:28
 msgid "The appearance dialog now showcases previews for icons and themes."
-msgstr ""
+msgstr "Dialogvinduet for utseende vil nå forhåndsvise ikoner og stiler."
 
 #: news-array.php:29
 msgid "Xfsettingsd now supports libinput."
-msgstr ""
+msgstr "Xfsettingsd støtter nå libinput."
 
 #: news-array.php:30
 msgid ""
@@ -3082,7 +3082,7 @@ msgid ""
 "logind/upower support was added to handle battery/lid/brightness events, and"
 " locking via light-locker was implemented. The settings dialog was also "
 "revamped, and support for X11 screenblanking was added."
-msgstr ""
+msgstr "Strømstyringen er ikke glemt: Et nytt paneltillegg er kommet til, logind/upower-støtte ble lagt til for å håndtere batteri-/lokk-/lysstyrke-hendelser, og låsing med «light-locker» ble implementert. Oppsettsdialogen ble også pusset opp, og støtte for X11-skjermblanking ble lagt til."
 
 #: news-array.php:31
 msgid ""
@@ -3092,7 +3092,7 @@ msgid ""
 "tweaks for the renamer and other dialogs, improved keyboard navigation, "
 "fixes for the treeview pane, better wallpaper support, Gtk3 bookmarks "
 "support, multiple file properties... need we say more?"
-msgstr ""
+msgstr "Filbehandleren Thunar fikk en drøss med forbedringer: Faner, feilrettinger, økt hastighet, hurtigtaster for selvvalgte handlinger, bedre navnehåndtering av filkopier og lenker, ledig plass-indikator i egenskapene, finjustering av massivendring av filnavn og andre dialogvinduer, forbedret tastaturnavigasjon, feilretting av trevisningsruta, bedre støtte for bakgrunnsbilder, Gtk3-bokmerker, egenskaper for flere filer … vi sier ikke mer!"
 
 #: news-array.php:32
 msgid ""
@@ -3100,7 +3100,7 @@ msgid ""
 "engines, we are stopping the development of our Gtk theme engine, and "
 "dropping our Gtk3 engine - theme makers, please update your themes  to CSS "
 "if you want them to work on the next Xfce version."
-msgstr ""
+msgstr "For å forberede framtida til Xfce med Gtk3, som ikke lenger krever temamotorer, stopper vi utviklinga av vår Gtk-temamotor og dropper vår Gtk3-motor. Lager du temaer? Oppdater dem til CSS hvis du vil at de skal virke i neste Xfce-versjon."
 
 #: news-array.php:33
 msgid ""
@@ -3108,13 +3108,13 @@ msgid ""
 "xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, "
 "our mixer application and volume daemon cannot be ported to 1.0 and are "
 "consequently not maintained anymore."
-msgstr ""
+msgstr "Gstreamer1.0 har tatt bort mikser-grensesnittet i sin helhet. Xfce4-mixer og xfce4-volumed brukte dette grensesnittet og kan ikke overføres til 1.0. De vedlikeholdes derfor ikke lenger."
 
 #: news-array.php:36
 msgid ""
 "Xfce wouldn't be what it is right now without all its goodies. In this area,"
 " we also saw a flurry of activity, most notably:"
-msgstr ""
+msgstr "Xfce ville ikke vært hva det er uten alle ekstraprogrammene. Også her var det mye aktivitet:"
 
 #: news-array.php:39
 msgid "Xfburn gained BluRay Disc burning support."
@@ -3122,67 +3122,67 @@ msgstr "Xfburn fikk støtte for å brenne Blu-ray-disker."
 
 #: news-array.php:40
 msgid "Task manager UI was totally revamped, and got ported to Gtk3."
-msgstr ""
+msgstr "Brukergrensesnittet til oppgavebehandlingen ble lagt om i sin helhet og overført til Gtk3."
 
 #: news-array.php:41
 msgid ""
 "Parole's UI was totally redone, parts of it rewritten with many features "
 "added. Furthermore it was ported to Gtk3 and gstreamer1.0."
-msgstr ""
+msgstr "Brukergrensesnittet til Parole ble lagt om i sin helhet, og deler av programmet ble omskrevet med ny funksjonalitet. Det ble dessuten overført til Gtk3 og gstreamer1.0."
 
 #: news-array.php:42
 msgid "Mousepad was totally rewritten and got an initial port to Gtk3."
-msgstr ""
+msgstr "Mousepad ble omskrevet i sin helhet og overført til Gtk3."
 
 #: news-array.php:43
 msgid "Imgur.com support was added to the screenshooter."
-msgstr ""
+msgstr "Skjermbildeprogrammet støtter nå Imgur.com."
 
 #: news-array.php:44
 msgid "A new GNOME-Shell-like dashboard named xfdashboard is now available."
-msgstr ""
+msgstr "Et nytt GNOME-lignende instrumentpanel som heter xfdashboard er nå tilgjengelig."
 
 #: news-array.php:45
 msgid "A new alternative menu for the panel named whiskermenu was added."
-msgstr ""
+msgstr "En alternativ panelmeny som heter whiskermenu er lagt til."
 
 #: news-array.php:46
 msgid "The GNOME2 hardware monitor plugin was ported to our panel."
-msgstr ""
+msgstr "GNOME2-tillegget maskinvareovervåkning ble overført til Xfce-panelet."
 
 #: news-array.php:47
 msgid ""
 "Weather plugin got a totally new user interface with powerful customization "
 "options and provides tons of detailed information."
-msgstr ""
+msgstr "Vær-tillegget fikk et helt nytt brukergrensesnitt med mange tilpasningsmuligheter og en drøss med detaljert informasjon."
 
 #: news-array.php:48
 msgid ""
 "Eyes plugin uses 3D coordinates to calculate its eye position, so even more "
 "sometimes scary, sometimes funny eyes will spy on you!"
-msgstr ""
+msgstr "Eyes-tillegget bruker 3D-koordinater for å beregne øyneposisjonene slik at det blir enda mer skremmende og gøyalt med spionerende øyne!"
 
 #: news-array.php:49
 msgid ""
 "Netload plugin works with the new udev net interface names and can be "
 "configured to show transfer rates in the panel."
-msgstr ""
+msgstr "Netload-tillegget virker nå med nye udev-grensesnittnavn og kan settes opp til å vise overføringshastigheter i panelet."
 
 #: news-array.php:50
 msgid "Clipboard manager plugin optionally displays a QR code."
-msgstr ""
+msgstr "Utklippstavle-tillegget kan nå vise en QR-kode."
 
 #: news-array.php:51
 msgid ""
 "Cpufreq plugin now supports the intel pstate driver and can adapt better for"
 " different panel sizes and information displayed."
-msgstr ""
+msgstr "Cpufreq-tillegget støtter nå Intel pstate-driveren og kan tilpasse seg bedre ulike panelstørrelser og informasjonen som skal vises."
 
 #: news-array.php:52
 msgid ""
 "Nearly all plugins have been improved to give the same look and feel and to "
 "support the new deskbar panel mode."
-msgstr ""
+msgstr "Nesten alle tilleggene er forbedret for å ligne hverandre utseendemessig og støtte den nye bardisk-modusen til panelet."
 
 #: news-array.php:55
 msgid "An online tour of the changes in Xfce 4.12 can be viewed here:"
@@ -3198,7 +3198,7 @@ msgstr "En detaljert oversikt over endringene mellom utgivelsene Xfce 4.10 og Xf
 msgid ""
 "This release can be downloaded either as a set of individual packages or as "
 "a single fat tarball including all these individual versions:"
-msgstr ""
+msgstr "Denne utgivelsen kan lastes ned enten som frittstående pakker eller ett stort tar-arkiv med alle disse versjonene:"
 
 #: news-array.php:61
 msgid ""
@@ -3211,7 +3211,7 @@ msgid ""
 "money to our project via <a "
 "href=\"https://www.bountysource.com/teams/xfce\">Bounty Source</a>. This "
 "will help us meet and hack on Xfce in the future!"
-msgstr ""
+msgstr "En hjertelig takk til alle bidragsytere, oversettere og pakkere for dine strabaser med å gjøre denne utgivelsen mulig. Vi vil også takke våre fantastiske brukere som har bidratt med feilrapporter og hjulpet oss å finne problemer og noen ganger kommet med feilrettinger. Vi går nå igjennom alle feilrettingene vi har mottatt og vil ta med mange av dem i neste utgivelse. Vi vil også takke alle de som har donert penger til prosjektet via <a href=\"https://www.bountysource.com/teams/xfce\">Bounty Source</a>. Dette vil hjelpe oss å treffes og utvikle Xfce i framtida!"
 
 #: news-array.php:62
 msgid ""
@@ -3227,7 +3227,7 @@ msgid ""
 "or entirely new features! You can get in touch with us on the Freenode IRC "
 "channel #xfce-dev and our <a "
 "href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">mailing list</a>."
-msgstr ""
+msgstr "Som alltid vil vi ønske velkommen alle som vil bidra til utviklinga av Xfce. Du kan <a href=\"https://docs.xfce.org/xfce/building\">teste Xfce</a> og <a href=\"https://bugzilla.xfce.org\">rapportere feil</a>, du kan hjelpe oss med <a href=\"https://www.transifex.com/tag/xfce/\">oversettinger</a> og <a href=\"https://docs.xfce.org\">hjelpetekster</a>, med <a href=\"https://wiki.xfce.org/design/start\">brukskvalitet og erfaringer</a> ved å pakke Xfce med distribusjonen din, og ved å sende inn <a href=\"https://wiki.xfce.org/dev/howto/contribute\">feilrettinger</a> eller helt ny funksjonalitet. Du kan kontakte oss via Freenode-IRC-kanalen #xfce-dev og vår <a href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">e-postliste</a>."
 
 #: news-array.php:63 news-array.php:86 news-array.php:131
 msgid "Best regards,<br />The Xfce development team"
