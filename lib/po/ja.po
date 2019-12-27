@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2019-12-26 18:33+0000\n"
+"PO-Revision-Date: 2019-12-27 04:32+0000\n"
 "Last-Translator: UTUMI Hirosi <utuhiro78@yahoo.co.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/xfce/xfce-www/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3097,7 +3097,7 @@ msgid ""
 "engines, we are stopping the development of our Gtk theme engine, and "
 "dropping our Gtk3 engine - theme makers, please update your themes  to CSS "
 "if you want them to work on the next Xfce version."
-msgstr ""
+msgstr "テーマエンジンを必要としない将来のGtk3対応Xfceに備えて、XfceはGtkテーマエンジンの開発を停止し、Gtk3エンジンを削除します。テーマ作成者はテーマを次のバージョンのXfceで動かしたい場合は、CSSに更新してください。"
 
 #: news-array.php:33
 msgid ""
@@ -3105,59 +3105,59 @@ msgid ""
 "xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, "
 "our mixer application and volume daemon cannot be ported to 1.0 and are "
 "consequently not maintained anymore."
-msgstr ""
+msgstr "gstreamer1.0はミキサーインターフェイスを完全に削除し、xfce4-mixerとxfce4-volumedはこのインターフェイスをgstreamer0.10に依存しているため、ミキサーアプリケーションとボリュームデーモンを1.0に移植できず、結果としてメンテナンスされなくなりました。"
 
 #: news-array.php:36
 msgid ""
 "Xfce wouldn't be what it is right now without all its goodies. In this area,"
 " we also saw a flurry of activity, most notably:"
-msgstr ""
+msgstr "Xfceは、そのすべてのアプリがなければ今の状態にはなりません。この領域では次のものに顕著な活動が見られました:"
 
 #: news-array.php:39
 msgid "Xfburn gained BluRay Disc burning support."
-msgstr ""
+msgstr "Xfburnはブルーレイディスクの書き込みをサポートしました。"
 
 #: news-array.php:40
 msgid "Task manager UI was totally revamped, and got ported to Gtk3."
-msgstr ""
+msgstr "タスクマネージャーのUIは完全に刷新され、Gtk3に移植されました。"
 
 #: news-array.php:41
 msgid ""
 "Parole's UI was totally redone, parts of it rewritten with many features "
 "added. Furthermore it was ported to Gtk3 and gstreamer1.0."
-msgstr ""
+msgstr "ParoleのUIは完全に作り直され、その一部には多くの機能が追加されました。さらに、Gtk3とgstreamer1.0に移植されました。"
 
 #: news-array.php:42
 msgid "Mousepad was totally rewritten and got an initial port to Gtk3."
-msgstr ""
+msgstr "Mousepadは完全に書き直され、Gtk3への初期ポートが行われました。"
 
 #: news-array.php:43
 msgid "Imgur.com support was added to the screenshooter."
-msgstr ""
+msgstr "スクリーンショットにImgur.comのサポートが追加されました。"
 
 #: news-array.php:44
 msgid "A new GNOME-Shell-like dashboard named xfdashboard is now available."
-msgstr ""
+msgstr "xfdashboardという名前の新しいGNOMEシェルふうのダッシュボードが利用可能になりました。"
 
 #: news-array.php:45
 msgid "A new alternative menu for the panel named whiskermenu was added."
-msgstr ""
+msgstr "パネルの新しい代替メニューであるwhiskermenuが追加されました。"
 
 #: news-array.php:46
 msgid "The GNOME2 hardware monitor plugin was ported to our panel."
-msgstr ""
+msgstr "GNOME2ハードウェアモニタープラグインがパネルに移植されました。"
 
 #: news-array.php:47
 msgid ""
 "Weather plugin got a totally new user interface with powerful customization "
 "options and provides tons of detailed information."
-msgstr ""
+msgstr "天気プラグインは強力なカスタマイズオプションを備えたまったく新しいユーザーインターフェースになり、膨大な詳細情報を提供します。"
 
 #: news-array.php:48
 msgid ""
 "Eyes plugin uses 3D coordinates to calculate its eye position, so even more "
 "sometimes scary, sometimes funny eyes will spy on you!"
-msgstr ""
+msgstr "Eyesプラグインは3D座標を使用して目の位置を計算するので、さらに恐ろしい、時にはこっけいな目があなたを見張ります！"
 
 #: news-array.php:49
 msgid ""
@@ -3363,7 +3363,7 @@ msgid ""
 "cleanup sessions from the interface. Last but not least, the Window Manager "
 "now has support for tiling windows and arrow key navigation in the task "
 "switcher."
-msgstr ""
+msgstr "このリリースにはXfceデスクトップ環境のコアに対するメジャーな変更が組み込まれており、長期間に渡ったリクエストを満たすことができれば幸いです。最も注目すべき更新プログラムには、古いappfinderとxfrun4の機能を統合する新しいアプリケーションファインダーがあります。パネルには、ワイドスクリーンモニターのスペースの使用効率を高めるため、新しい垂直モード [Deskbar] と新しいアクションプラグインもあります。設定側では設定ヘルパーがxfsettingsdに統合され、実行中のプロセスが1つ節約されます。カテゴリとプラグ可能なダイアログがデフォルトで有効になった、手直しされた設定ダイアログもあります。SynapticsとWacomの基本的なマウス設定、新しいMIMEタイプエディター。 Thunarはより洗練されたレイアウトになり、スペースの使用量を削減し、サムネイルジェネレーターの応答性を向上させました。デスクトップ機能をThunarに統合する方法がまだ決定していないため、代わりにXfdesktopのさまざまな改善を行いました。シングルクリックのサポート、デスクトップアイコンのサムネイル、ファイルの貼り付けの改善など。セッションマネージャーの電源管理コードが改善され、ヒントが削除され、インターフェイスからセッションがクリーンアップされました。最後になりましたが、ウィンドウマネージャーはタスクスイッチャーでタイルウィンドウと方向キーナビゲーションをサポートするようになりました。"
 
 #: news-array.php:105
 msgid ""
