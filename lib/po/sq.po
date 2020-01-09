@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://bugzilla.xfce.org\n"
 "POT-Creation-Date: 2017-05-24 12:49+0200\n"
-"PO-Revision-Date: 2020-01-08 11:45+0000\n"
+"PO-Revision-Date: 2020-01-09 13:40+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: Albanian (http://www.transifex.com/xfce/xfce-www/language/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -621,7 +621,7 @@ msgid ""
 "Development releases usually give a feature preview for the next stable "
 "release. They must follow the X.Y.Z versioning format, where Y is an odd "
 "number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr ""
+msgstr "Hedhjet zhvillim në qarkullim zakonisht lejojnë një paraparje të veçorive për hedhjen pasuese të qëndrueshme në qarkullim. Duhet të ndjekin formatin X.Y.Z për numra versionesh, ku Y është një numër tek (p.sh., xfwm4-4.7.3 ose thunar-1.3.10)."
 
 #: about/releasemodel.php:180
 msgid ""
@@ -631,7 +631,7 @@ msgid ""
 " A depends on a new feature in component B, A may only be released if there "
 "is a development release of B shipping this feature. For this to work, "
 "libtool versions must be updated properly with every development release."
-msgstr ""
+msgstr "Mirëmbajtësit nxiten të krijojnë hedhje zhvillim në qarkullim për veçori të reja që duan t’u japin të tjerëve. Hedhje të shpeshta zhvillim në qarkullim mund të luajnë rolin e versioneve rishikim SVN që kishim dikur. Nëse një përbërës A varet nga një veçori e re në përbërësin B, A mund të hidhet në qarkullim vetëm nëse ka një hedhje zhvillim në qarkullim për B-në që ofron këtë veçori. Që kjo të funksionojë, versionet e libtool-it duhen përditësuar si duhet me çdo hedhje në qarkullim zhvillim."
 
 #: about/releasemodel.php:184
 msgid ""
@@ -641,7 +641,7 @@ msgid ""
 "component will remain functional even after merging the feature(s) into the "
 "master branch), to lower the risk of delaying the final release of the "
 "entire Xfce core desktop."
-msgstr ""
+msgstr "Për degën <em>master</em> të çdo përbërësi duhet treguar kujdes. Dega <em>master</em> duhet të mbetet gjithmonë në një gjendje gati-për-hedhje-në-qarkullim. Veçoritë e reja duhen zhvilluar në degë, derisa të jenë gati (as in: përpilimi dhe përbërësi do të mbeten funksionalë edhe pas kalimit të veçorisë(ve) në degën <em>master</em>), për të ulur rrezikun e vonesës së hedhjes përfundimtare në qarkullim të krejt desktopit bazë Xfce."
 
 #: about/releasemodel.php:188
 msgid ""
@@ -649,7 +649,7 @@ msgid ""
 "Maintainers are suggested to prepare other components for these features in "
 "a separate branch before including the features in a new development "
 "release. That way the other components retain their release-ready state."
-msgstr ""
+msgstr "Veçori të reja që prishin funksionimin e API-ve ose të tjerë përbërësish bazë duhen bërë të ditur. Mirëmbajtësve u sugjerohet të përgatisin përbërës të tjerë për këto veçori në një degë ndaras, përpara se t’i përfshijnë veçoritë në një hedhje të re zhvillim në qarkullim. Në këtë mënyrë përbërësit e tjerë ruajnë gjendjen e tyre gati-për-hedhje-në-qarkullim."
 
 #: about/releasemodel.php:192
 msgid "This is how the basic development workflow looks like:"
@@ -774,7 +774,7 @@ msgid ""
 "The code freeze and its exceptions are supported by commit hooks. There is "
 "an update hook which doesn't allow any changes to master unless they are "
 "signed off by the release manager. "
-msgstr ""
+msgstr "Ngrirja e kodit dhe përjashtime prej saj mbulohen përmes hook-e depozitimesh. Ka një <em>hook</em> përditësimesh që nuk lejon çfarëdo ndryshimesh te dega <em>master</em>, veç në qofshin të nënshkruara nga përgjegjësi i hedhjes në qarkullim. "
 
 #: about/releasemodel.php:263
 msgid "Tagging and Branching for Releases"
@@ -977,7 +977,7 @@ msgstr "Miniatura dritaresh"
 
 #: about/tour.php:23
 msgid "Tiling, Zooming, Client-side Decorations"
-msgstr ""
+msgstr "Tjegullzim, Zoom-im, Zbukurime Më Anë Klienti"
 
 #: about/tour.php:25
 msgid ""
@@ -994,11 +994,11 @@ msgstr "Aplikacione Gtk3 me zbukurimet të vizatuara nga klienti"
 msgid ""
 "Window tiling mode was improved by providing support for corner-tiling, and "
 "a new zooming mode was added using Alt + Mouse Wheel."
-msgstr ""
+msgstr "Mënyra e tjegullzimit të dritareve u përmirësua për të furnizuar mbulim për tjegullzim cepash, dhe u shtua një mënyrë e re zoom-esh duke përdorur Alt + Rrotëz Miu."
 
 #: about/tour.php:31
 msgid "Drag and drop a window to a corner to tile it"
-msgstr ""
+msgstr "Tërhiqeni dhe lëreni një dritare te një cep që të tjegullzohet"
 
 #: about/tour.php:33
 msgid "HiDPI Support"
@@ -1115,7 +1115,7 @@ msgid ""
 "connected devices with a power status, e.g. bluetooth keyboards or wireless "
 "mice. It still offers quick access to the presentation mode, which inhibits "
 "your screensaver for as long as the option is active."
-msgstr ""
+msgstr "Është krijuar një shtojcë e re paneli që ju lejon të kontrolloni shpejt ndriçimin e ekranit, ose përmes menusë, ose thjesht duke përdorur rrotëzën e miut sipër shtojcës. Menuja e shtojcës shfaq gjithashtu krejt pajisjet e tjera të lidhura me një gjendje energjie, p.sh., tastiera <em>bluetooth</em> ose minj pa fill. Ende ofron kalim të shpejtë nën mënyrën paraqitje, e cila pengon ekrankursyesin tuaj për sa kohë që mundësia është aktive."
 
 #: about/tour.php:82
 msgid ""
@@ -1202,7 +1202,7 @@ msgstr "Gjëra të Mira"
 msgid ""
 "There have been lots of improvements to our goodies, and some new and shiny "
 "applications have been added by new contributors."
-msgstr ""
+msgstr "Ka pasur plot përmirësime te gjërat tona të mira, dhe janë shtuar disa aplikacione fringo të rinj nga kontribues të rinj."
 
 #: about/tour.php:116
 msgid "Alternative panel menu plugin"
@@ -1212,7 +1212,7 @@ msgstr "Shtojcë menuje alternative panelesh"
 msgid ""
 "The whisker menu is an alternative to the traditional menu plugin, showing "
 "favourites, allowing to search through existing apps and much more."
-msgstr ""
+msgstr "Menuja mustaqe është një alternativë ndaj shtojcës së menusë tradicionale, që shfaq të parapëlqyerat, duke lejuar të kërkohet nëpër aplikacione ekzistuese dhe më tepër."
 
 #: about/tour.php:120
 msgid "Browse through categories"
@@ -1556,7 +1556,7 @@ msgid ""
 " feature is optional and is disabled by default. In such a case windows can "
 "still be tiled using a keyboard shortcut. Another improvement is a better "
 "theming support and cursor key navigation in the tab window (Alt+Tab)."
-msgstr ""
+msgstr "Tanimë Xfwm4-a mund të tjegullzojë një dritare, kur e tërhiqni te skaji i ekranit. Kjo veçori është opsionale dhe, si parazgjedhje, është e çaktivizuar. Në një rast të tillë dritaret prapë mund të tjegullzohen duke përdorur një shkurtore tastiere. Një tjetër përmirësim është mbulimi më i mirë për përdorim temash dhe lëvizjes së kursorit përmes tastesh te dritarja skedë (Alt+Tab)."
 
 #: about/tour44.php:1
 msgid "Xfce 4.4 tour"
@@ -1567,7 +1567,7 @@ msgid ""
 "As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment "
 "is finally available. I will try to highlight some of the new features which"
 " have been added since the last stable release."
-msgstr ""
+msgstr "Nga sot, versioni i shumëpritur 4.4.0 i Mjedisit Xfce për Desktop është më në fund gati. Do të provoj të nxjerr në pah disa nga veçoritë e reja që janë shtuar që nga hedhja e fundit e qëndrueshme në qarkulllim."
 
 #: about/tour44.php:9 about/tour44.php:15
 msgid "Desktop Icons"
@@ -1578,7 +1578,7 @@ msgid ""
 "One of the most often requested features during the 4.0 and 4.2 was support "
 "for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally "
 "added to the desktop manager <b>Xfdesktop</b>."
-msgstr ""
+msgstr "Një nga veçoritë e kërkuara më shpesh gjatë 4.0 dhe 4.2 qe mbulim për ikona te desktopi. Tanimë, me Xfce 4.4.0, kjo veçori i është shtuar më në fund përgjegjësit të desktopit, <b>Xfdesktop</b>."
 
 #: about/tour44.php:18
 msgid ""
@@ -1587,7 +1587,7 @@ msgid ""
 "also able to display icons for minimized windows on the desktop, which is "
 "quite a popular feature from the CDE world. Of course, you can disable the "
 "desktop icons altogether if you prefer a clean desktop."
-msgstr ""
+msgstr "Përgjegjësi i desktopit përdor librari të <b>Thunar</b>'-it për të trajtuar nisës aplikacionesh dhe kartela/dosje të rregullta te desktop-i. Përgjegjësi i desktopit është gjithashtu në gjendje të shfaqë ikona për dritare të minimizuara në desktop, e cila është një veçori goxha popullore prej botës CDE. Sigurisht që mund t’i çaktivizoni fare ikonat e desktop-it, nëse parapëlqeni një desktop të qëruar."
 
 #: about/tour44.php:21
 msgid "Desktop Settings"
@@ -1597,14 +1597,14 @@ msgstr "Rregullime Desktopi"
 msgid ""
 "<b>Xfdesktop</b> also continues to provide access to the applications menu, "
 "as it did in the previous Xfce releases."
-msgstr ""
+msgstr "<b>Xfdesktop</b> gjithashtu vazhdon të furnizojë hyrje te menuja e aplikacioneve, siç bënte në hedhje të dikurshme në qarkullim të Xfce-së."
 
 #: about/tour44.php:31
 msgid ""
 "The desktop icon support goes hand in hand with the new file manager <a "
 "href=\"http://thunar.xfce.org/\">Thunar</a> which replaces the previous file"
 " manager <b>Xffm</b>."
-msgstr ""
+msgstr "Mbulimi për ikona desktopi ecën krah për kraj me përgjegjësin e ri të kartelave <a href=\"http://thunar.xfce.org/\">Thunar</a>, i cili zëvendësom përgjegjësin e dikurshëm të kartelave, <b>Xffm</b>."
 
 #: about/tour44.php:34 projects/index.php:80
 msgid "Thunar File Manager"
@@ -1641,7 +1641,7 @@ msgid ""
 "insert the media into the drive or plug the new drive in to the computer and"
 " an icon representing the removable volume will appear on the desktop and in"
 " <b>Thunar</b>'s side pane."
-msgstr ""
+msgstr "Xfce 4.4.0 furnizon hyrje të lehtë te të dhëna në disqe dhe media të heqshme. Thjesht futeni median te pajisja ose futni një disk të ri te kompjuteri dhe te desktopi dhe te kuadrati anësor i <b>Thunar</b>-it do të shfaqet një ikonë që përfaqëson vëllimin e heqshëm."
 
 #: about/tour44.php:52
 msgid "Removable Volumes"
@@ -2097,7 +2097,7 @@ msgstr "Ripërmasim pa xixëllim"
 msgid ""
 "Some <b>tweakable options</b> have also been added: for example, you can now"
 " disable the blinking of windows when they receive an urgency hint."
-msgstr ""
+msgstr "Janë shtuar edhe disa <b>mundësi të përimtueshme</b>: për shembull, tanimë mund të çaktivizoni xixëllimin e dritareve kur marrin një njoftim urgjence."
 
 #: about/tour46.php:90
 msgid "New tweakable options"
@@ -2109,7 +2109,7 @@ msgid ""
 "<b>Thunar</b>. It can use the mouse forward and backward buttons (if "
 "available) to navigate, and it includes a new plugin that allows you to set "
 "an image as wallpaper from the context menu."
-msgstr "Ka patur plot ndreqje të metash dhe përmirësime punimi në <b>Thunar</b>. Mund të përdoren për lëvizje butonat për përpara dhe prapa të miut (në pastë), dhe përfshin një shtojcë të re që ju lejon të caktoni një figurë si sfond që nga menuja e kontekstit."
+msgstr "Ka pasur plot ndreqje të metash dhe përmirësime punimi në <b>Thunar</b>. Mund të përdoren për lëvizje butonat për përpara dhe prapa të miut (në pastë), dhe përfshin një shtojcë të re që ju lejon të caktoni një figurë si sfond që nga menuja e kontekstit."
 
 #: about/tour46.php:98
 msgid "Set an image in a Thunar folder as wallpaper"
@@ -2171,7 +2171,7 @@ msgid ""
 "The <b>Accessibility settings</b> dialog allows you to set the accessibility"
 " related mouse and keyboard options, such as sticky keys, bounce keys, or "
 "mouse emulation."
-msgstr ""
+msgstr "Dialogu <b>Rregullime përdorshmërie</b> ju lejon të caktoni mundësi miu dhe tastiere të lidhura me përdorimin nga persona me aftësi të kufizuara, të tilla si taste ngjitës, taste <em>bounce</em>, ose simulim miu."
 
 #: about/tour46.php:134
 msgid "Appearance settings"
@@ -2185,7 +2185,7 @@ msgstr "Dialog rregullimesh dukjeje"
 msgid ""
 "The <b>Appearance settings</b> dialog allows you to set the widget style, "
 "the icon theme, and font, toolbar and menu options."
-msgstr ""
+msgstr "Dialogu <b>Rregullime dukjeje</b> ju lejon të caktoni stile widget-i, temën e ikonave, si dhe mundësi shkronjash, panelesh dhe menush."
 
 #: about/tour46.php:142
 msgid "Display settings"
@@ -2199,7 +2199,7 @@ msgstr "Dialog rregullimesh ekrani"
 msgid ""
 "The <b>Display settings</b> dialog allows you to set the resolution, refresh"
 " rate, and the rotation for each screen that is connected."
-msgstr ""
+msgstr "Dialogu <b>Rregullime ekranit</b> ju lejon të caktoni qartësinë, shpeshti rifreskimi, dhe rrotullimin për çdo skenë që është e lidhur."
 
 #: about/tour46.php:150
 msgid "Keyboard settings"
@@ -2207,23 +2207,23 @@ msgstr "Rregullime tastiere"
 
 #: about/tour46.php:152
 msgid "Keyboard settings dialog, layout tab"
-msgstr ""
+msgstr "Dialog rregullimesh tastiere, skedë skemash"
 
 #: about/tour46.php:155
 msgid ""
 "The <b>Keyboard settings</b> dialog allows you to set keyboard preferences "
 "such as key repeating, keyboard shortcuts, and your keyboard layout."
-msgstr ""
+msgstr "Dialogu <b>Rregullime tastiere</b> ju lejon të caktoni parapëlqime rreth tastierës, të tilla si përsëritje tastesh, shkurtore tastierash dhe skemën tuaj për tastierën."
 
 #: about/tour46.php:158
 msgid "Keyboard settings dialog, shortcuts tab"
-msgstr ""
+msgstr "Dialog rregullimesh tastiere, skedë shkurtoresh"
 
 #: about/tour46.php:161
 msgid ""
 "You can now configure shortcuts more simply, and any shortcut conflicts are "
 "automatically detected."
-msgstr ""
+msgstr "Tani e tutje mund të formësoni shkurtore më thjesht, dhe çfarëdo përplasje shkurtoresh pikasen vetvetiu."
 
 #: about/tour46.php:164
 msgid "Mouse settings"
@@ -2238,7 +2238,7 @@ msgid ""
 "The <b>Mouse settings</b> dialog allows you to configure the different mice "
 "connected to your computer: button order, acceleration, double-click speed, "
 "mouse cursor theme, etcetera..."
-msgstr ""
+msgstr "Dialogu <b>Rregullime miu</b> ju lejon të formësoni minj të ndryshëm të lidhur me kompjuterin tuaj: radhë butonash, përshpjetim, shpejtësi dyklikimi, pamje kursori miu, etj…"
 
 #: about/tour46.php:172
 msgid "Desktop settings"
@@ -2253,7 +2253,7 @@ msgid ""
 "The <b>Desktop settings</b> dialog is now much more compact; it allows you "
 "to configure per-screen settings: wallpaper, brightness, desktop menu, "
 "displayed icons, etcetera..."
-msgstr ""
+msgstr "Dialogu <b>Rregullime desktopi</b> tanimë është shumë më tepër kompakt; Ju lejon të formësoni rregullime për ekran: sfond desktopi, ndriçim, menu desktopi, ikona të shfaqura, etj…"
 
 #: about/tour46.php:183
 msgid ""
@@ -2295,7 +2295,7 @@ msgstr "Shfletim ndarjesh të largëta"
 msgid ""
 "Thunar now has optional support for GVFS which will allow you to browse "
 "remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers..."
-msgstr ""
+msgstr "Thunar-i tanimë përmban mbulim opsional për GVFS, çka do t’ju lejojë të shfletoni ndarje të largëta duke përdorur Thunar-in: shërbyes FTP, Windows Shares, WebDav dhe SSH…"
 
 #: about/tour48.php:13
 msgid "Thunar browsing a remote share"
@@ -2303,14 +2303,14 @@ msgstr "Shfletim i një ndarjeje të largët nën Thunar"
 
 #: about/tour48.php:15
 msgid "New file operations progress dialog"
-msgstr ""
+msgstr "Dialog i ri ecurie veprimesh kartele"
 
 #: about/tour48.php:17
 msgid ""
 "When several file operations (copy or move) are being handled in parallel, "
 "Thunar now shows a single progress dialog which displays all the relevant "
 "information."
-msgstr ""
+msgstr "Kur bëhen në paralel disa veprime kartele (kopjim ose lëvizje), Thunar-i tani shfaq një dialog të vetëm ecurie i cili shfaq krejt të dhënat përkatëse."
 
 #: about/tour48.php:19
 msgid "Progress dialog"
@@ -2324,7 +2324,7 @@ msgstr "Buton nxjerrjesh për pajisje të heqshme"
 msgid ""
 "It is is now possible to eject removable devices by clicking the eject "
 "button near each removable device label in the side pane."
-msgstr ""
+msgstr "Tani është e mundur të nxirren pajisje të heqshme duke klikuar mbi butonin e nxjerrje pranë etiketës së secilës pajisje të heqshme te kuadrati anësor."
 
 #: about/tour48.php:25
 msgid "Eject button"
@@ -2334,7 +2334,7 @@ msgstr "Buton nxjerrjesh"
 msgid ""
 "The Xfce panel has been totally rewritten in 4.8, here are the most visible "
 "changes."
-msgstr ""
+msgstr "Paneli i Xfce-së për 4.8 është rishkruar tërësisht, ja ndryshimet më të dukshme."
 
 #: about/tour48.php:31
 msgid "Improved positioning and size handling"
@@ -2346,7 +2346,7 @@ msgid ""
 "can be dragged and snapped to screen borders; floating positions are only "
 "remembered when moving a panel and the length of the panel can be adjusted "
 "as a percentage of the monitor size."
-msgstr ""
+msgstr "Paneli përmban mbulim shumë më të mirë për pozicionim panelesh në ekran. Mund të tërhiqet dhe të lihet të thithet nga anët e ekranit; pozicione pezull mbahen mend vetëm kur lëvizet një panel dhe gjatësia e panelit mund të përimtohet si një përqindje e madhësisë së ekranit."
 
 #: about/tour48.php:35
 msgid "Transparent backgrounds"
@@ -2357,7 +2357,7 @@ msgid ""
 "The panel is now able to draw transparent panel backgrounds with non "
 "transparent items. Your panel items will remain readable and you will enjoy "
 "a nice panel look."
-msgstr ""
+msgstr "Paneli tani është në gjendje të vizatojë sfonde paneli me elementë jo të tejdukshëm sfondi. Elementët e panelit tuaj do të mbesin të lexueshëm dhe do të shijoni një pamje të hijshme të panelit."
 
 #: about/tour48.php:39
 msgid "Transparent panel background"
@@ -2373,7 +2373,7 @@ msgid ""
 "remove items quickly. This is particularly useful for items which are hard "
 "to right click and gives you an easy way to change your panel layout from a "
 "single place."
-msgstr ""
+msgstr "Paneli tani përmban një përpunues elementësh i cili lejon të ndryshohen, lëvizen, shtohen dhe hiqen elementë shpejt e shpejt. Kjo është veçanërisht e dobishme për elementë që janë të vështirë për t’u djathtasklikuar dhe ju jep një rrugë të lehtë të ndryshoni skemën e panelit tuaj që nga një vend i vetëm."
 
 #: about/tour48.php:45
 msgid "Panel item editor"
@@ -2389,7 +2389,7 @@ msgid ""
 "application finder or Thunar to the panel to create launchers. This feature "
 "should please the huge number of people who had been requesting it for ages."
 " The launcher also has an integrated application finder to add new items."
-msgstr ""
+msgstr "Tani mund të tërhiqni dhe lini zëra menuje nga menuja e aplikacioneve të panelit, gjetësi i aplikacioneve ose Thunar-i te paneli, për të krijuar nisës. Kjo veçori do të duhej të kënaqte numrin e madh të personave që e kanë kërkuar qëkur nuk mbahet mend. Nisësi gjithashtu ka një gjetës të integruar aplikacionesh për të shtuar objekte të rinj."
 
 #: about/tour48.php:51
 msgid "Window buttons plugin"
@@ -2401,7 +2401,7 @@ msgid ""
 " buttons. It implements different sorting modes, improved handling in "
 "vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering "
 "a button."
-msgstr ""
+msgstr "Shtojcat Kuti ikonash dhe Listë punësh janë shkrirë në 1 shtojcë, të quajtur Butona dritaresh. Kjo sendërton mënyra të ndryshme renditjeje, përmirësoi trajtimin e paneleve vertikalë dhe mund të vizatojë një kornizë të ngjashme me atë që bëhet me shkurtoren <em>Alt+tab</em> në Xfwm4, kur kursori kalohet sipër një butoni."
 
 #: about/tour48.php:55
 msgid "New fuzzy clock"
@@ -2426,7 +2426,7 @@ msgid ""
 "The directory menu plugin provides a menu reproducing the arborescence of a "
 "particular folder. This allows you to open a terminal or a file manager in a"
 " sub-folder in a very fast and efficient way."
-msgstr ""
+msgstr "Shtojca menu drejtorie furnizon strukturën pemë të një dosje të dhënë. Kjo ju lejon të hapni një terminal ose një përgjegjës kartelash në një nëndosje në një mënyrë shumë të shpejtë dhe efikase."
 
 #: about/tour48.php:65
 msgid "Directory menu plugin"
@@ -2440,7 +2440,7 @@ msgstr "Përpunim menuje aplikacionesh"
 msgid ""
 "You can now edit the applications menu using any Freedesktop compliant menu "
 "editor, Alacarte being the one we used to test."
-msgstr ""
+msgstr "Tanimë mund të përpunoni menunë e aplikacioneve duke përdorur çfarëdo përpunuesi menush të përputhshëm me Freedesktop-in, me Alacarte-in si ai me të cilin e kemi vënë në provë."
 
 #: about/tour48.php:73
 msgid "Improved multihead setup configuration"
@@ -2451,13 +2451,13 @@ msgid ""
 "Xfce can now handle and setup multihead setups for any randr 1.2 compatible "
 "driver. Unfortunately, this means it will not work with Nvidia proprietary "
 "drivers."
-msgstr ""
+msgstr "Xfce tanimë mund të funksionojë dhe ujdisë instanca me shumë ekrane me çfarëdo përudhësi të përputhshëm me <em>randr 1.2</em>. Mjerisht, kjo do të thotë se nuk do të funksionojë me përudhës pronësorë të Nvidia-s."
 
 #: about/tour48.php:77
 msgid ""
 "You can enable and disable plugged screens, set their resolution, refresh "
 "rate, rotation and reflection, clone screens or extend desktops."
-msgstr ""
+msgstr "Mund të aktivizoni dhe çaktivizoni ekrane të lidhur në kompjuter, të caktoni qartësinë e tyre, shpeshti rifreskimi, rrotullim dhe pasqyrim, të klononi ekrane ose të zgjeroni desktopë."
 
 #: about/tour48.php:79
 msgid "New display settings dialog"
@@ -2465,18 +2465,18 @@ msgstr "Dialog i ri rregullimesh ekrani"
 
 #: about/tour48.php:81
 msgid "Timed confirmation"
-msgstr ""
+msgstr "Ripohim me afat"
 
 #: about/tour48.php:83
 msgid ""
 "Any change made with the settings dialog will have to be confirmed within "
 "ten seconds or they will be reverted. This prevents broken video drivers "
 "from leaving your computer unusable."
-msgstr ""
+msgstr "Çfarëdo ndryshimi i bërë me dialogun e rregullimeve do të duhet të ripohohet brenda dhjetë sekondash ose përndryshe do të rikthehet ku qe. Kjo parandalon lënien e kompjuterit tuaj në gjendje të papërdorshme nga përudhës të dëmtuar video."
 
 #: about/tour48.php:85
 msgid "Timed confirmation for display settings changes"
-msgstr ""
+msgstr "Ripohim me afat për ndryshime rregullimesh ekrani"
 
 #: about/tour48.php:87
 msgid "Quick setup dialog"
@@ -2487,11 +2487,11 @@ msgid ""
 "The quick setup dialog allows you to configure a dual screen setup in a "
 "second. Plug the second screen, press the display key or Windows + p and "
 "select the wanted layout. Done!"
-msgstr ""
+msgstr "Dialogu i ujdisjes së shpejtë ju lejon të formësoni në një sekondë një instancë me dy ekrane. Lidhni ekranin e dytë, shtypni tastin <em>display</em> ose atë <em>Windows</em> + p dhe përzgjidhni skemën e dëshiruar. Kaq!"
 
 #: about/tour48.php:91
 msgid "Quick multihead setup"
-msgstr "Rregullim i shpejtë për përdorim shumëekranësh"
+msgstr "Ujdisje shpejt e shpejt instance me shumë ekrane"
 
 #: about/tour48.php:93
 msgid "Settings edition in the Xfce Settings Editor"
@@ -2502,7 +2502,7 @@ msgid ""
 "The Xfce Settings Editor now deserves its name, it is no longer a simpler "
 "Xfconf settings viewer. You can now modify, delete, add and reset settings "
 "through its interface. It also monitors changes to update its view."
-msgstr ""
+msgstr "Përpunuesi Xfce i Rregullimeve tani e meriton emrin e vet, s’është më një parës më i thjeshtë i rregullimeve në Xfconf. Tanimë, përmes ndërfaqes së tij mund të modifikoni, fshini, shtoni dhe riktheni te parazgjedhjet rregullime. Ai mbikëqyr gjithashtu ndryshimet për të përditësuar punën e tij."
 
 #: about/tour48.php:97
 msgid "Editing Xfconf properties with the Settings Editor"
@@ -2518,7 +2518,7 @@ msgid ""
 "cryptic language/variants codes but uses localized languages/variants names."
 " Layout edition was also made easier by prefilling the dialogs with the "
 "current values."
-msgstr ""
+msgstr "Dialogu i përzgjedhjes së skemës ka përfituar shumë përkujdesje: nuk shfaq më kode të mistershëm gjuhësh/variantesh, por përdor emra të përkthyer gjuhësh/variantesh. Edhe përpunimi i skemave është bërë gjithashtu më i lehtë, përmes plotësimit paraprak të dialogëve me vlerat e atëçastme."
 
 #: about/tour48.php:103
 msgid "Layouts and variants list"
@@ -2534,7 +2534,7 @@ msgid ""
 "communities are a good place to get help or to share your ideas. You might "
 "also want to have a look at the communities of the different distributions "
 "which provide Xfce."
-msgstr ""
+msgstr "Qoftë kur bëhet fjalë për të zgjidhur një problem ose për të dhënë ndihmesë në çfarëdo mënyrë, bashkësitë e Xfce-së janë një vend i mirë për të marrë ndihmë ose për të shkëmbyer ide. Mund të doni t’i hidhni një sy bashkësive të shpërndarjeve të ndryshme që ofrojnë Xfce."
 
 #: community/index.php:13
 msgid "Mailing lists"
@@ -2567,7 +2567,7 @@ msgid ""
 "recommended that you consult the <a href=\"https://docs.xfce.org/\" "
 "class=\"external\">documentation</a> about your problem before asking your "
 "question."
-msgstr ""
+msgstr "Nëse keni një problem që s’e zgjidhni dot, mund të doni të provoni të bëni një pyetje te kanali ynë IRC <a href=\"irc://irc.freenode.net/#xfce\">#xfce on irc.freenode.net</a>. Kanali ka disa përdorues aktivë. Është e këshillueshme që të konsultoni <a href=\"https://docs.xfce.org/\" class=\"external\">dokumentimin</a>, përpara se të bëni pyetjen tuaj."
 
 #: community/index.php:28 community/nav.php:4
 msgid "Forums"
@@ -2578,7 +2578,7 @@ msgid ""
 "For users who prefer forums, the <a href=\"https://forum.xfce.org/\" "
 "class=\"external\">Xfce Forum</a> is the place to be. Active contributors "
 "will be able to help you, but please do not use it for bug reports."
-msgstr ""
+msgstr "Për përdorues që parapëlqejnë forume, <a href=\"https://forum.xfce.org/\" class=\"external\">Forumi i Xfce-së</a> është vendi i duhur. Kontribues aktivë do të jenë në gjendje t’ju ndihmojnë, por, ju lutemi, mos e përdorni për njoftim të metash."
 
 #: community/index.php:34
 msgid "Social Networks"
@@ -2589,7 +2589,7 @@ msgid ""
 "You can follow us on the official <a "
 "href=\"https://twitter.com/xfceofficial\" class=\"external\">Twitter "
 "account</a>"
-msgstr ""
+msgstr "Mund të na ndiqni në <a href=\"https://twitter.com/xfceofficial\" class=\"external\">llogarinë zyrtare në Twitter</a>"
 
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
@@ -2598,7 +2598,7 @@ msgstr "Sajte të Afërt"
 
 #: community/nav.php:5
 msgid "talk about Xfce in the community forums"
-msgstr ""
+msgstr "bisedoni rreth Xfce-së në forumet e bashkësisë"
 
 #: community/nav.php:9
 msgid "Blog"
@@ -2606,7 +2606,7 @@ msgstr "Blog"
 
 #: community/nav.php:10
 msgid "read what the contributors to Xfce have the say"
-msgstr ""
+msgstr "lexoni ç’kanë për të thënë kontribuesit te Xfce"
 
 #: community/nav.php:14
 msgid "Wiki"
