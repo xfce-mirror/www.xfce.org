@@ -65,42 +65,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 			</a>
 		</li>
 	</ul>
-</div>
-
-<div class="column">
-	<h2><?php E_('Latest News') ?></h2>
-	<span class="rss"><a href="https://xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
-	<?php
-		$count = 2;
-		foreach ($news as $item)
-		{
-			echo '<div class="newsitem group">';
-
-			if (isset ($item['version']) && !empty ($item['version']))
-				$title = sprintf (R_('Xfce %s released'), $item['version']);
-			else
-				$title = $item['title'];
-
-			echo '<h3>'.$title.'</h3>';
-
-			$link = '/about/news/?post='.strtotime ($item['date']);
-
-			echo '<div class="post-wrap">';
-			echo '<p>'.$item['paragraphs'][0] .' ';
-			learnmore ($link);
-			echo '</p></div>';
-
-			$stamp = strtotime ($item['date']);
-			echo '<div class="post-date"><span class="post-month">'. date ('M', $stamp).
-				 '</span> <span class="post-day"><span class="day">'. date ('d', $stamp).
-				 '</span><br /><span class="year">'.date ('Y', $stamp).'</span></span></div>';
-
-			echo '</div>';
-
-			if (--$count <= 0)
-				break;
-		}
-	?>
+    <p></p>
 </div>
 
 <div class="column">
@@ -121,6 +86,43 @@ $head['css'] = '@media screen and (max-width:830px) {
 		}
 		echo '</ul>';
 		echo '<p><a href="https://blog.xfce.org/">'.R_('Read more articles on the Xfce Blog &rarr;').'</a></p>';
+
+	?>
+</div>
+
+<div class="column">
+	<h2><?php E_('Xfce Release Updates') ?></h2>
+	<span class="rss"><a href="https://xfce.org/feed?lang=<?php echo $lang ?>"><?php E_('Subscribe to RSS feed') ?></a></span>
+	<?php
+		$count = 2;
+		foreach ($news as $item)
+		{
+			echo '<div class="newsitem group">';
+
+			if (isset ($item['version']) && !empty ($item['version']))
+				$title = sprintf (R_('Xfce %s released'), $item['version']);
+			else
+				$title = $item['title'];
+
+			echo '<h3>'.$title.'</h3>';
+
+			$link = '/about/news/?post='.strtotime ($item['date']);
+
+			echo '<div class="post-wrap">';
+			echo '<p>'.$item['paragraphs'][0] .' '.'<br>';
+			learnmore ($link);
+			echo '</p></div>';
+
+			$stamp = strtotime ($item['date']);
+			echo '<div class="post-date"><span class="post-month">'. date ('M', $stamp).
+				 '</span> <span class="post-day"><span class="day">'. date ('d', $stamp).
+				 '</span><br /><span class="year">'.date ('Y', $stamp).'</span></span></div>';
+
+			echo '</div>';
+
+			if (--$count <= 0)
+				break;
+		}
 	?>
 </div>
 
