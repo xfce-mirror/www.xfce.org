@@ -80,7 +80,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 		$feed->handle_content_type();
 
 		echo '<ul class="feeds group">';
-		foreach($feed->get_items(0,4) as $item){
+		foreach($feed->get_items(0,5) as $item){
 			echo '<li><strong><a href="'.$item->get_permalink().'">'.$item->get_title().'</a></strong><br />';
 			echo '<span class="meta">'.$item->get_author()->get_name().' on '.$item->get_date('M d Y').'</span></li>';
 		}
