@@ -74,7 +74,8 @@ function print_translator_credits()
                 'Theo Linkspfeifer' => 'lastonestanding'.ATSIGN.'tutanota.com',
                 'Tony Paulic' => 'tony.paulic'.ATSIGN.'gmail.com',
                 'Viktor Odintsev' => 'ninetls'.ATSIGN.'xfce.org',
-                'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
+                'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org',
+                'Jason Yavorska' => 'jyavorska'.ATSIGN.'protonmail.com'));
 ?>
 
 <h2 id="servers"><?php E_('Servers maintained by')?></h2>
