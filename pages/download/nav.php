@@ -21,13 +21,8 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://git.xfce.org"><?php E_('GIT') ?>
+		<a href="https://gitlab.xfce.org"><?php E_('Git') ?>
 			<span>&ndash; <?php E_('browse the source repositories') ?></span>
-		</a>
-	</li>
-	<li>
-		<a href="https://goodies.xfce.org"><?php E_('Goodies') ?>
-			<span>&ndash; <?php E_('wiki with information on additional software for Xfce') ?></span>
 		</a>
 	</li>
 </ul>

@@ -5,9 +5,4 @@
 			<span>&ndash; <?php E_('online documentation for the core modules of Xfce') ?></span>
 		</a>
 	</li>
-	<li>
-		<a href="https://goodies.xfce.org"><?php E_('Goodies') ?>
-			<span>&ndash; <?php E_('wiki with information on additional software for Xfce') ?></span>
-		</a>
-	</li>
 </ul>

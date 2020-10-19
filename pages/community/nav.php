@@ -7,7 +7,7 @@
 	</li>
 	<li>
 		<a href="https://blog.xfce.org"><?php E_('Blog') ?>
-			<span>&ndash; <?php E_('read what the contributors to Xfce have the say') ?></span>
+			<span>&ndash; <?php E_('read what the contributors to Xfce have to say') ?></span>
 		</a>
 	</li>
 	<li>
@@ -16,7 +16,12 @@
 		</a>
 	</li>
 	<li>
-		<a href="https://bugzilla.xfce.org"><?php E_('Bug Tracker') ?>
+		<a href="https://docs.xfce.org"><?php E_('Docs') ?>
+			<span>&ndash; <?php E_('official documentation for Xfce projects') ?></span>
+		</a>
+	</li>
+	<li>
+		<a href="https://gitlab.xfce.org"><?php E_('Gitlab') ?>
 			<span>&ndash; <?php E_('report problems, patches or ideas to help making Xfce better') ?></span>
 		</a>
 	</li>

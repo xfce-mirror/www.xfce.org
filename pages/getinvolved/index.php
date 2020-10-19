@@ -23,7 +23,7 @@
 
 <h2><?php E_('Development') ?></h2>
 <p>
-  <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world. You can start by browsing the <a href="https://git.xfce.org" class="external">source code</a>.') ?>
+  <?php E_('By becoming a developer, you can make a big difference while enjoying a challenging and fun experience. You\'ll learn to be a better coder, you will get to implement new features and defeat daunting bugs, creating a stunning product, all the while collaborating with people from all around the world. You can start by browsing the <a href="https://gitlab.xfce.org" class="external">source code</a>.') ?>
 </p>
 
 <h2><?php E_('Promotion') ?></h2>
@@ -33,7 +33,7 @@
 
 <h2><?php E_('Bug Reporting and testing') ?></h2>
 <p>
-  <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="https://bugzilla.xfce.org" class="external">bug tracker</a>.') ?>
+  <?php E_('One of the most useful tasks that we rely on the community for is testing and reporting of bugs. Since Xfce runs on various platform and in a lot of different setups, testing all changes in every possible situation is an impossible task. As such we kindly ask users to assist in testing, and reporting all bugs they may find, using our <a href="https://gitlab.xfce.org" class="external">bug tracker</a>.') ?>
 </p>
 <p>
   <?php E_('Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and then submitting a patch file.') ?>
