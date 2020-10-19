@@ -41,6 +41,6 @@
 
 <h2><?php E_('Bountysource') ?></h2>
 <p>
-  <?php E_('If you want to fund the project, you can reward a bounty to the Xfce project [and leave it to the developers how to spend it] or put a bounty on a bug or feature you would like to get fixed.') ?>
+  <?php E_('If you want to fund the project, you can reward a bounty to the Xfce project [and leave it to the developers how to spend it] ) ?>
   <?php learnmore ("https://www.bountysource.com/teams/xfce"); ?>
 </p>
