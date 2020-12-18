@@ -3,6 +3,7 @@
 /* known languages in this directory */
 $languages = array (
 	'en' => 'English',
+	'sq' => 'Albanian',
 	'ar' => 'Arabic',
 	'cs' => 'Czech',
 	'da' => 'Danish',
