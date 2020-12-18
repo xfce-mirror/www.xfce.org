@@ -7,6 +7,32 @@
  * */
 
 $news = array (
+  array ('title' => R_('Xfce 4.16 released'),
+     'version' => null,
+     'date' => '18 dec 2020',
+     'author' => 'Release Manager',
+     'paragraphs' => array (
+             R_('Today, after 1 year and 4 months of work, we are pleased to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
+             R_('CONTINUE'),
+             R_('Along the way we ended up polishing our user experience and introducing some new features (read below).'),
+             R_('The main highlights of this release are:'),
+             array(
+                     '<ul>',
+                             '<li>'.R_('CSD').'</li>',
+                             '<li>'.R_('New icons set').'</li>',
+                             '<li>'.R_('Drop of Gtk2 support').'</li>',
+                             '<li>'.R_('...').'</li>',
+                     '</ul>'
+             ),
+             R_('An online tour of the changes in Xfce 4.16 can be viewed here:'),
+             '<a href="https://xfce.org/about/tour">https://www.xfce.org/about/tour</a>',
+             R_('A detailed overview of the changes between Xfce 4.14 and Xfce 4.16 releases can be found on the following page:'),
+             '<a href="https://www.xfce.org/download/changelogs">https://www.xfce.org/download/changelogs</a>',
+             R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+             '<a href="https://archive.xfce.org/xfce/4.16">https://archive.xfce.org/xfce/4.16</a>',
+             R_('Best regards,<br />The Xfce development team'))
+     ),
+
 	array ('title' => R_('Xfce 4.14 released'),
 		'version' => null,
 		'date' => '12 aug 2019',
