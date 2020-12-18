@@ -5,8 +5,8 @@
    **/
 
   /* latest stable release version */
-  $stable_version = '4.14';
-  $stable_date = '2019-08-12';
+  $stable_version = '4.16';
+  $stable_date = '2020-12-18';
 
   /* latest development version */
   $preview_version = '4.13pre3';
