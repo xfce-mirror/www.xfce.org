@@ -15,6 +15,7 @@ $languages = array (
 	'gl' => 'Galician',
 	'he' => 'Hebrew',
 	'hu' => 'Hungarian',
+	'id' => 'Indonesian',
 	'it' => 'Italian',
 	'ja' => 'Japanese',
 	'ko' => 'Korean',
