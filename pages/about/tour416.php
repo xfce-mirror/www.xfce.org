@@ -4,9 +4,15 @@
 
   <p><?php E_("This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
+<h2><?php E_("Visual identity: New icons and palette") ?></h2>
+
+  <p><?php E_("") ?>
+
 <h2><?php E_("Settings Manager") ?> <em>(xfce4-settings)</em></h2>
 
-<p><?php E_("The Settings Manager itself received a visual refresh of its filter box, which can now be hidden permanently. At the same time the search capabilities of the filter box were improved.") ?>
+<p><?php E_("The Settings Manager itself received a visual refresh of its filter box, which can now be hidden permanently. At the same time the search capabilities of the filter box were improved by searching the descriptive 'Comments' part of each dialog's launcher (aka .desktop) file.") ?>
+
+  <?php print_figure ("about/tour/4.16/settings-manager.png", R_("Visually cleaner, more powerful filter box")) ?>
 
   <h3><?php E_("Default Applications") ?></h3>
 
