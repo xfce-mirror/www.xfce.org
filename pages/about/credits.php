@@ -22,22 +22,7 @@ function print_credits($people)
 function print_translator_credits()
 {
   global $translators;
-
-  foreach ($translators as $language => $people)
-  {
-    echo "<dt>$language</dt>\n<dd>";
-
-    $last = end ($people);
-    foreach ($people as $person => $mail)
-    {
-      echo $person.' &lt;'.mungify_mail($mail).'&gt;';
-
-      if ($mail != $last)
-        echo "<br />\n";
-    }
-
-    echo "</dd>\n";
-  }
+  echo implode(', ', $translators);
 }
 ?>
 
@@ -96,7 +81,7 @@ function print_translator_credits()
                 'Vinzenz Vietzke' => 'vinz'.ATSIGN.'vinzv.de'));
 ?>
 
-<h2 id="translators"><?php E_('Translators')?></h2>
+<h2 id="translators"><?php E_('Our beloved translators')?></h2>
 <dl>
 <?php   print_translator_credits(); ?>
 </dl>
