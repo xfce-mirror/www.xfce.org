@@ -1,4 +1,4 @@
-<?php $head['title'] = 'Xfce 4.14 Changelog'; ?>
+<?php $head['title'] = 'Xfce 4.16 Changelog'; ?>
 
 <h1>Xfce 4.16 Changelog</h1>
 
@@ -6,14 +6,15 @@
 
 <h2>Dependency changes</h2>
 <ul>
-  <li>GTK+ dependency &gt;= 3.22, GLib &gt;= 2.50 and GDBus.</li>
-  <li>Drop of GTK2 support</li>
-  <li>CONTINUE</li>
+  <li>Gtk &gt;= 3.22, GLib &gt;= 2.50 and GDBus.</li>
+  <li>Add libgtop</li>
+  <li>Remove Gtk2 support</li>
 </ul>
 
 <h2>Development Tools <em>(xfce4-dev-tools)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Add several helpers to gather release notes etc and actually perform releases</li>
+  <li>Add xfce-build Docker container (which is also used in GitLab CI)</li>
 </ul>
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
@@ -85,8 +86,7 @@
 <ul>
   <li>TODO</li>
 </ul>
-<!--
+
 <h2>Volume Manager <em>(thunar-volman)</em></h2>
 <ul>
 </ul>
--->
