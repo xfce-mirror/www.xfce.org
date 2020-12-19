@@ -1,8 +1,8 @@
 <?php $head['title'] = 'Xfce 4.14 Changelog'; ?>
 
-<h1>Xfce 4.14 Changelog</h1>
+<h1>Xfce 4.16 Changelog</h1>
 
-<p>Note: the changelogs shown here are since the version of the components that shipped with Xfce 4.12.</p>
+<p>Note: the changelogs shown here are since the version of the components that shipped with Xfce 4.14.</p>
 
 <h2>Dependency changes</h2>
 <ul>

@@ -6,9 +6,10 @@
 
 <h2><?php E_("Settings Manager") ?> <em>(xfce4-settings)</em></h2>
 
-  <h3><?php E_("New stuff") ?></h3>
+<p><?php E_("The Settings Manager itself received a visual refresh of its filter box, which can now be hidden permanently. At the same time the search capabilities of the filter box were improved.") ?>
 
-<p><?php E_("New stuff for settings manager") ?>
+  <h3><?php E_("Display Dialog") ?></h3>
 
-  <?php print_figure ("about/tour/4.16/file.png", R_("A nice screenshot")) ?>
+<p><?php E_("To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the mechanism for determining a fallback in case of misconfiguration was improved to always fall back to a valid mode.") ?>
 
+  <?php print_figure ("about/tour/4.16/display-dialog.png", R_("Fractional scaling support")) ?>
