@@ -2,9 +2,9 @@
 <ul>
 	<li>
 		<a href="/about/tour416"><?php E_('4.16 Tour') ?>
-			<span>&ndash; <?php E_('visual tour about new features in the last major releases') ?></span>
+			<span>&ndash; <?php E_('visual tour of new features in the last few major releases') ?></span>
 		</a>
-		
+
 		<ul>
 			<li><a href="/about/tour414"><?php E_('4.14 Tour') ?></a></li>
 			<li><a href="/about/tour412"><?php E_('4.12 Tour') ?></a></li>
@@ -15,22 +15,22 @@
 		</ul>
 	</li>
 	<li>
-		<a href="/about/news"><?php E_('News') ?> 
+		<a href="/about/news"><?php E_('News') ?>
 			<span>&ndash; <?php E_('release announcements') ?></span>
 		</a>
 	</li>
 	<li>
-		<a href="/about/screenshots"><?php E_('Screenshots') ?> 
-			<span>&ndash; <?php E_('examples of Xfce desktops ordered by version') ?></span>
+		<a href="/about/screenshots"><?php E_('Screenshots') ?>
+			<span>&ndash; <?php E_('see examples of Xfce desktops') ?></span>
 		</a>
 	</li>
 	<li>
-		<a href="/about/credits"><?php E_('Credits') ?> 
+		<a href="/about/credits"><?php E_('Credits') ?>
 			<span>&ndash; <?php E_('list of all contributors') ?></span>
 		</a>
 	</li>
 	<li>
-		<a href="/about/releasemodel"><?php E_('Release Model') ?> 
+		<a href="/about/releasemodel"><?php E_('Release Model') ?>
 			<span>&ndash; <?php E_('the Xfce release policy for core modules') ?></span>
 		</a>
 	</li>
