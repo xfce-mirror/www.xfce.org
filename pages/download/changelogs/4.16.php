@@ -19,7 +19,13 @@
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Update configure.ac.in syntax</li>
+  <li>Namespace of the gir needs capital first letter</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>remove typedef already defined by G_DECLARE_FINAL_TYPE macro (fixes #4)</li>
+  <li>Complete the field codes expansion</li>
+  <li>docs: Unhide the misc utils section</li>
+  <li>Add field codes expansion and related utilities</li>
 </ul>
 
 <h2>Widget Library <em>(libxfce4ui)</em></h2>
