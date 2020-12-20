@@ -846,7 +846,128 @@
 
 <h2>Window Manager <em>(xfwm4)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Add `cycle_minimized` option</li>
+  <li>Add new xfwm4 icons</li>
+  <li>build: Increase GTK+ requirement to 3.22</li>
+  <li>cleanup: prefer zero initialized memory allocation</li>
+  <li>client: Allow transients for group to be minimized</li>
+  <li>client: Complete client state even on different workspaces</li>
+  <li>client: Do not always send a synthetic configure event</li>
+  <li>client: Fix hostname not showing initially</li>
+  <li>client: Keep tiled size of windows</li>
+  <li>client: Make above/below consistent</li>
+  <li>client: Protect against XError in XKillClient()</li>
+  <li>client: Really send synthetic configure notify</li>
+  <li>client: Rely in XRes reported PID is available</li>
+  <li>client: Send synthetic configure on force redraw</li>
+  <li>client: Small cleanup</li>
+  <li>client: Small cleanup</li>
+  <li>client: Toggle tiling on key shortcut</li>
+  <li>client: Use GdkRectangle for saved size/position</li>
+  <li>clients: Fix a crash on FreeBSD</li>
+  <li>common: Add a xfwm_monitor_is_primary function</li>
+  <li>common: There might be no primary monitor</li>
+  <li>compositor: Add cwindow_hash to optimize find_cwindow_in_screen</li>
+  <li>compositor: Add define for compositor_timeout_cb interval</li>
+  <li>compositor: Add support for GL_ARB_sync</li>
+  <li>compositor: Add support for opaque regions</li>
+  <li>compositor: Adjust to the actual number of buffers</li>
+  <li>compositor: Avoid XError when disabling compositor</li>
+  <li>compositor: bind/release texture on each GLX swap</li>
+  <li>compositor: Blacklist SVGA3D renderer</li>
+  <li>compositor: Check for XError when adding windows</li>
+  <li>compositor: Check if compositor is enabled</li>
+  <li>compositor: Clip opaque region against window shape</li>
+  <li>compositor: Copy entire content for GLX buffers</li>
+  <li>compositor: Damage on opaque region update only if visible</li>
+  <li>compositor: Damage opaque region if changed</li>
+  <li>compositor: Do not try to clip opaque region if none</li>
+  <li>compositor: Don't draw shadow on maximized windows</li>
+  <li>compositor: Don't repaint a screen of zero size</li>
+  <li>compositor: Fix build with older epoxy versions</li>
+  <li>compositor: Fix compilation issue with Xpresent</li>
+  <li>compositor: Fix unwanted change</li>
+  <li>compositor: Free GLX data when really using GLX</li>
+  <li>compositor: Handle XFixes XError</li>
+  <li>compositor: Ignore opaque region for shaded windows</li>
+  <li>compositor: Limit damage region to the screen</li>
+  <li>compositor: Limit opaque region clipping to window extents</li>
+  <li>compositor: Log fence and GLX swap time in debug mode</li>
+  <li>compositor: Make cursor zoom optional</li>
+  <li>compositor: Move fence sync to redraw_glx</li>
+  <li>compositor: Move fence triggered to its own function</li>
+  <li>compositor: No hashtable if compositor is disabled</li>
+  <li>compositor: No need to update compositor window on configure</li>
+  <li>compositor: Only accumulate damage with multiple buffers</li>
+  <li>compositor: Opaque region applies to client window</li>
+  <li>compositor: Optimize repaint without vblank</li>
+  <li>compositor: Really avoid painting a screen of zero size</li>
+  <li>compositor: Release current GLX context on teardown</li>
+  <li>compositor: Release overlay window last</li>
+  <li>compositor: Remove automatic redirect support</li>
+  <li>compositor: Remove useless trace message</li>
+  <li>compositor: Return early if a Present swap is pending</li>
+  <li>compositor: Reuse client size</li>
+  <li>compositor: Set swap control if possible</li>
+  <li>compositor: Smarter vblank auto mode</li>
+  <li>compositor: Trap XErrors when disabling compositor</li>
+  <li>compositor: Use a GLX drawable per buffer</li>
+  <li>compositor: Use a message instead of warning</li>
+  <li>compositor: use actual atom</li>
+  <li>compositor: Use actual surface position and size</li>
+  <li>compositor: use g_slice allocator for compositor windows</li>
+  <li>compositor: Warn for missing epoxy GL function</li>
+  <li>cycle: Do not grab the pointer for alt-tab</li>
+  <li>cycle: Revert to original window when clicking</li>
+  <li>debug: Fix build in debug mode</li>
+  <li>device: Check standard passive button grabs</li>
+  <li>device: Move error trap/push closer to X11 grabs</li>
+  <li>device: Remove leftover conditional</li>
+  <li>display: Add support for XRes X11 extension</li>
+  <li>display: Remove custom XError handler</li>
+  <li>frame: Do not use the pre-computed font height</li>
+  <li>frame: Protect XShape requests</li>
+  <li>frame: Update frames when scale-factor is changed</li>
+  <li>icons: Fix background of svgs and png exports</li>
+  <li>input: Disable XI2 by default</li>
+  <li>main: Add debug command line option</li>
+  <li>main: Add short command line options</li>
+  <li>main: Clean up long lines</li>
+  <li>main: Don't use the compositor if not available</li>
+  <li>main: Enable compositor by default</li>
+  <li>menu: Restore “Always below” options</li>
+  <li>More XError traps</li>
+  <li>More XErrors traps</li>
+  <li>moveresize: Restore window state on move</li>
+  <li>netwm: Do not raise window if activate is set to none</li>
+  <li>pixmap: Fix rendering without XRender</li>
+  <li>pixmap: Use a safer strncpy()</li>
+  <li>pixmap: Use strncpy()</li>
+  <li>Remove useless autotools macros and Makefile targets</li>
+  <li>screen: Add a myScreenHasPrimaryMonitor function</li>
+  <li>screen: Remove pre-computed font height</li>
+  <li>setting-dialog: Add keywords to .desktop files</li>
+  <li>settings-dialog: Fix drag and drop of buttons</li>
+  <li>settings: Add 'Always on top' to the double click action</li>
+  <li>settings: Add a UI option for desktop zooming</li>
+  <li>settings: Duplicate string gvalues</li>
+  <li>settings: Fix compiler warning</li>
+  <li>settings: Remove default alphabetical sorting of keyboard shortcuts </li>
+  <li>stacking : Fix raise delay</li>
+  <li>tabwin: Comply with the primary monitor setting</li>
+  <li>tabwin: Ensure selected windows remain selected</li>
+  <li>themes: Adjust shadows size/opacity</li>
+  <li>themes: Fix leftover SVG overlay</li>
+  <li>themes: Remove title shadow</li>
+  <li>themes: Use smaller, lighter shadows</li>
+  <li>Fix errorTrap leak in free_win_data</li>
+  <li>Fix g_type_class_add_private deprecation</li>
+  <li>Fix GTimeVal deprecation</li>
+  <li>transients: Do no search for parent in lower layers</li>
+  <li>Use --enable-debug=yes when compiling from git</li>
+  <li>workarea: Ignore change without a primary monitor</li>
+  <li>xfwm4-settings: Keyboard: Enable column sorting</li>
+  <li>xsync: Handle XError</li>
 </ul>
 
 <h2>Power Manager <em>(xfce4-power-manager)</em></h2>
