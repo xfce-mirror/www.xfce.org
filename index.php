@@ -54,14 +54,6 @@ $page_class = str_replace (array ('pages/', '/'), array ('', '_'),
 /* load the page header */
 include ('pages/header.php');
 
-/* maybe we need to do something with the content first */
-if (strpos ($uri, 'download/changelogs/') == 0)
-{
-        /* replace #???? with bug tracker links */
-        $bugurl = '<a href="https://bugzilla.xfce.org/show_bug.cgi?id=$1">#$1</a>';
-        $contents = preg_replace ('/#(\d+)/', $bugurl, $contents);
-}
-
 /* write the contents */
 echo $contents;
 
