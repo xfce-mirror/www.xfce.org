@@ -30,7 +30,94 @@
 
 <h2>Widget Library <em>(libxfce4ui)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Bump libepoxy version to 1.2</li>
+  <li>Drop support for Gtk2</li>
+  <li>Bump gtk to 3.22 (Bug #15781)</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Make glibtop an optional dependency</li>
+  <li>Namespace of the gir needs capital first letter</li>
+  <li>about: Revamp About Xfce tab</li>
+  <li>about: Add xfce version and vendor info</li>
+  <li>about: Add system info tab</li>
+  <li>about: Hide system tab conditionally</li>
+  <li>about: Use more understandable arch labels (Issue #27)</li>
+  <li>about: Print GPU name in system info</li>
+  <li>about: Support multiple GPUs and print GPU memory size</li>
+  <li>about: Drop window subtitle</li>
+  <li>shortcut-dialog Improve UI for setting shortcuts</li>
+  <li>shortcut-dialog: Add label to clear button</li>
+  <li>shortcut-dialog: Port to new XfceTitledDialog API</li>
+  <li>shortcut-dialog: Only grab keyboard</li>
+  <li>shortcut-dialog: Show dialog content (Bug #16338)</li>
+  <li>shortcuts: Also map Homepage to browser</li>
+  <li>shortcuts: Remove calculator shortcut</li>
+  <li>shortcuts: Replace xfrun4 by xfce4-appfinder</li>
+  <li>XfceTitledDialog: Move buttons from headerbar to actionarea</li>
+  <li>Switch XfceTitledDialog to headerbar layout</li>
+  <li>XfceTitledDialog: Add _create_action_area, _add_button and _add_action_widget</li>
+  <li>XfceTitledDialog: Make sure windows can be dragged</li>
+  <li>XfceTitledDialog: Also repack xfce_titled_dialog_new</li>
+  <li>XfceTitledDialog: Keep buttons in the action area</li>
+  <li>Mark xfce_titled_dialog_new_with_buttons as deprecated</li>
+  <li>tests: Improve UI</li>
+  <li>xfce-dialogs: Improve layout of confirm_close_tabs</li>
+  <li>xfce-dialogs: Add right margin back to labels</li>
+  <li>xfce-dialogs: Drop default window titles</li>
+  <li>xfce-dialogs: Improve alignment and layout of dialogs</li>
+  <li>xfce-dialogs: Use GtkMessageDialog as base class</li>
+  <li>dialogs: Use symbolic window-close icon</li>
+  <li>tests: Add xfce_dialog_confirm_close_tabs</li>
+  <li>tests: Add icons to dialog buttons</li>
+  <li>tests: Simplify code by using XfceTitledDialog</li>
+  <li>tests: Re-order buttons</li>
+  <li>Rename test-ui-gtk3 to test-ui</li>
+  <li>Introduce xfce_spawn and xfce_spawn_command_line</li>
+  <li>Add xfce_has_gtk_frame_extents to better handle CSD</li>
+  <li>Add two new functions to search for app icons</li>
+  <li>Remove hardcoded translators list</li>
+  <li>Always perform sanity check</li>
+  <li>Add default shortcuts for tiling (Fixes #4)</li>
+  <li>Avoid checking for epoxy if libgtop is disabled</li>
+  <li>XfceTitledDialog: Fix erroneous check (Fixes #30)</li>
+  <li>No startup notification in wayland to prevent crash (Issue #17)</li>
+  <li>Display userspace bitness if it differs from OS kernel bitness</li>
+  <li>Improve xfce_icon_name API</li>
+  <li>Avoid redundant key re-grabbing</li>
+  <li>Silence compiler warnings (Fixes #25)</li>
+  <li>AC_CONFIG_MACRO_DIR → AC_CONFIG_MACRO_DIRS</li>
+  <li>Avoid shortening the keycodes GArray while walking it.</li>
+  <li>Always return GTK_RESPONSE_OK for accepted shortcut keys (fixes #20)</li>
+  <li>Replace deprecated 'gdk_keyboard_ungrab' function (Fixes #15)</li>
+  <li>shortcuts-grabber: Correctly ungrab keys on updating shortcuts (Fixes #16)</li>
+  <li>Add "xfce_gtk_accel_group_disconnect_action_entries" to be able to revert "xfce_gtk_accel_group_connect_action_entries"</li>
+  <li>Allow more granular control over menu item accelerators. - No automatic accelerator activation formenu items - Added 'gtk_menu_item_set_accel_label' - Added 'xfce_gtk_accel_group_connect_action_entries'</li>
+  <li>renamed 'xfce_gtk_accel_group_append' to 'xfce_gtk_accel_map_add_entries' and modified internals accoringly. - No automatic add to an accel_group any more, since this may lead to double-activation in some cases.</li>
+  <li>Add title to xfce_dialog_confirm_close_tabs</li>
+  <li>Add more default keyboard shortcuts (Bug #16470)</li>
+  <li>removed some superfluous 'gtk_widget_show()' in order to be consistent with GTK creation methods.</li>
+  <li>Usage of g_warning instead of g_error on unknown action_id in 'xfce_gtk_get_action_entry_by_id'</li>
+  <li>Enabled doc generation for XfceGtkActionEntry and related methods</li>
+  <li>Enabled doc generation for new widget 'xfce-filename-input'</li>
+  <li>Fixed two "Missing (transfer) annotation" warnings</li>
+  <li>Added methods to replace deprecated GtkAction, GtkActionEntry and GtkUiManager in order to keep simple menu creation</li>
+  <li>Add a widget for filename input (Bug #16542)</li>
+  <li>Switch Ctrl+Alt+Del to xfce4-session-logout (Bug #11979)</li>
+  <li>Always provides needed files for vala binding in dist tarball</li>
+  <li>Drop xfce-header from pot files</li>
+  <li>Drop gladeui Gtk2 from distcheck options</li>
+  <li>Introduce xfce_titled_dialog_set_default_response</li>
+  <li>Fix license text box too small (Bug #16259)</li>
+  <li>Fix typo in test-ui.c (Bug #16253)</li>
+  <li>system-info: Clean up code and UI</li>
+  <li>Fix Window has not been made visible when grabbing keyboard (Bug #16054)</li>
+  <li>Do not use gdk_screen_get_monitor_at_point (Bug #15781)</li>
+  <li>Replace gtk_show_uri (Bug #15781)</li>
+  <li>Replace gdk_display_get_screen (Bug #15781)</li>
+  <li>Replace gdk_keymap_get_default (Bug #15781)</li>
+  <li>Replace deprecated device functions (Bug #15781)</li>
+  <li>Replace gdk_error_trap_* and gdk_flush (Bug #15781)</li>
+  <li>Ignore what is hard to replace (Bug #15781)</li>
+  <li>Add a dialog to confirm closure of multiple tabs (bug #15873)</li>
 </ul>
 
 <h2>Extension Library <em>(exo)</em></h2>
