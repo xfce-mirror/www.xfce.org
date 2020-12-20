@@ -25,3 +25,16 @@
 <p><?php E_("To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the mechanism for determining a fallback in case of misconfiguration was improved to always fall back to a valid mode.") ?>
 
   <?php print_figure ("about/tour/4.16/display-dialog.png", R_("Fractional scaling support")) ?>
+
+  <h3><?php E_("Keyboard Shortcuts") ?></h3>
+
+<p><?php E_("In order to make things easier for our users we added more default keyboard shortcuts out of the box, for instance for window tiling or to open Thunar. The keyboard shortcuts dialog itself was also visually updated.") ?>
+
+  <?php print_figure ("about/tour/4.16/keyboard-shortcuts.png", R_("Visually updated keyboard shortcuts dialog")) ?>
+
+<h2><?php E_("About Dialog") ?> <em>(xfce4-about)</em></h2>
+
+<p><?php E_("Not only was the Xfce tab reworked to be more visually appealing and easily parsable, a separate tab showing basic information about the user's system was also added.") ?>
+
+  <?php print_figure ("about/tour/4.16/about-xfce.png", R_("About Xfce")) ?>
+  <?php print_figure ("about/tour/4.16/about-system.png", R_("About System")) ?>
