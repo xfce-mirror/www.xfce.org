@@ -15,6 +15,8 @@
 <ul>
   <li>Add several helpers to gather release notes etc and actually perform releases</li>
   <li>Add xfce-build Docker container (which is also used in GitLab CI)</li>
+  <li>New macro XDT_VERSION_INIT which takes care of setting up the version numbering</li>
+  <li>xdt-csource now replace exo-csource</li>
 </ul>
 
 <h2>Utility Library <em>(libxfce4util)</em></h2>
