@@ -576,4 +576,10 @@
 
 <h2>Volume Manager <em>(thunar-volman)</em></h2>
 <ul>
+  <li>Bump GLib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Use icons from icon theme in the dialog (!3)</li>
+  <li>Add new app icon and switch to rDNS</li>
+  <li>Remove PDA tab (!1)</li>
+  <li>Avoid critical error when closing preferences dialog</li>
+  <li>Support libxfce4ui XfceTitledDialog new API</li>
 </ul>
