@@ -244,7 +244,101 @@
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Bump GLib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Add dependency to python</li>
+  <li>settings-manager: Correctly show/hide the filterbar</li>
+  <li>settings-manager: Switch to GtkSearchEntry</li>
+  <li>settings-manager: Put filter in separate bar (Fixes #226)</li>
+  <li>settings-manager: Simplify redrawing of search results (Fixes #141)</li>
+  <li>settings-manager: Hide filter entry in plugged dialogs</li>
+  <li>settings-manager: Ensure searchbox has initial focus (Bug #16890)</li>
+  <li>settings-manager: Fix XfceTitledDialog layout with CSD</li>
+  <li>settings-manager: Drop setting the old header style</li>
+  <li>settings-manager: Make sure content determines size</li>
+  <li>settings-manager: Use symbolic find/clear icons</li>
+  <li>settings-manager: Improve search by including keywords (Bug #10694)</li>
+  <li>settings-manager: Show min and max buttons</li>
+  <li>mime: Merge in exo-preferred-applications</li>
+  <li>mime: Add 'Open with...' button</li>
+  <li>mime: Accept Thunar's old id name (Fixes #247)</li>
+  <li>mime: Rename dialog and icon to 'Default Applications'</li>
+  <li>mime: Add new generic launcher icons</li>
+  <li>mime: Add close and help button icons</li>
+  <li>mime: Fix double free</li>
+  <li>mime: Fix Nautilus icon name</li>
+  <li>mime: Fix window icon name</li>
+  <li>mime: Rename Thunar to thunar</li>
+  <li>settings-editor: Fix scrollbar for channels</li>
+  <li>settings-editor: Point to correct docs URL (#245)</li>
+  <li>keyboard: Improve inline toolbar alignment</li>
+  <li>keyboard: Make 'system defaults' a GtkSwitch</li>
+  <li>keyboard: Make all table columns sortable</li>
+  <li>keyboard: Adjust width of shortcut column (Fixes #223)</li>
+  <li>keyboard: Update dialog UI</li>
+  <li>keyboard: Show shortcuts with keycap class</li>
+  <li>keyboard: Fix log flood (bug #16521)</li>
+  <li>keyboard: Fix crash when editing shortcut (Bug #15958)</li>
+  <li>keyboard: Support libxfce4ui XfceTitledDialog new API</li>
+  <li>display: Center minimal dialog on monitor where cursor is</li>
+  <li>display: Custom scale changes are display changes</li>
+  <li>display: Improve layout in settings dialog</li>
+  <li>display: Allow resizing of minimal dialog (Bug #15450)</li>
+  <li>display: Resize display widget according to scale</li>
+  <li>display: Move scaling presets to glade</li>
+  <li>display: Set minimum scale to 0.1</li>
+  <li>display: Improve state machine for scaling option</li>
+  <li>display: Initial fractional scaling support (Fixes #162)</li>
+  <li>display: Mark preferred mode with an asterisk</li>
+  <li>display: Add init function for aspect ratios</li>
+  <li>display: Right-align the display ratio</li>
+  <li>display: Fixed warning and removed ratio</li>
+  <li>display: Improve look of ratio</li>
+  <li>display: Show ratio next to display resolution</li>
+  <li>display: Fix icon name for primary indicator</li>
+  <li>display: Initialize crtc->scalex/y (Bug #15971)</li>
+  <li>appearance: Add 'Add' button to install themes (Fixes #193)</li>
+  <li>appearence: Sync theme, icon, font names to gsettings</li>
+  <li>appearance: Drop toolbar style setting (Bug #16665)</li>
+  <li>appearance: Fix width of DPI spinbutton (Bug #16125)</li>
+  <li>appearance: Fix list refresh on DnD (Fixes #213)</li>
+  <li>appearance: Only show themes that support Gtk3 (Bug #15849)</li>
+  <li>settings-editor: Add labels to toolbar items</li>
+  <li>settings-editor: Enable tooltips and ellipsizing for `Value` column</li>
+  <li>settings-editor: Add consistent inline-toolbar</li>
+  <li>color: Adjust padding of dialog</li>
+  <li>color: Add labels to toolbar</li>
+  <li>color: Tweak colors  of icon</li>
+  <li>color: Fix crash in add-profiles dialog (Bug #15876)</li>
+  <li>xfsettingsd: avoid default double fork</li>
+  <li>xfsettingsd: Correctly get current xrandr scale</li>
+  <li>xfsettingsd: Add --disable-wm-check flag (Bug #16128)</li>
+  <li>Replace README file with README.md</li>
+  <li>Disable UPower support by default</li>
+  <li>Use just binary name (instead of full path) as argument</li>
+  <li>Convert xfce4-compose-mail to python</li>
+  <li>Expand desktop entry field codes</li>
+  <li>Don't crash when upowerd isnt present (bug #60)</li>
+  <li>Fix xfconf-related memory leaks</li>
+  <li>Switch to new app icons and rDNS icon names</li>
+  <li>Increase mouse cursor upper bound for HiDPI (bug #16042)</li>
+  <li>exo-compose-email -> xfce4-compose-email</li>
+  <li>Fix various alignments and comments</li>
+  <li>Drop no-longer-needed XfceMimeHelperChooserDialog</li>
+  <li>Bug #16679: Make "Profiles matching" sentence translatable</li>
+  <li>Bug #16717: Move from exo-csource to xdt-csource</li>
+  <li>Handle failure to get Xkl engine for display (bug #16017)</li>
+  <li>Fix GTimeVal deprecation (Bug #16645)</li>
+  <li>Fix keywords and mark them  as translateable</li>
+  <li>Use proper fallback configuration on "apply" and "toggle off" (Bug #16476)</li>
+  <li>Add keywords to .desktop files (Bug #10694)</li>
+  <li>Set "gtk-titlebar-middle-click" to "lower" by default</li>
+  <li>dialogs: Ensure dialogs have min and max buttons</li>
+  <li>Bump libxfce4ui dependency to 4.15.1</li>
+  <li>xsettings: Use CSD for GtkDialogs by default</li>
+  <li>Ensure the newly labeled 'Xfce Settings Daemon' is translated</li>
+  <li>Switch to symbolic window-close icon</li>
+  <li>Improve string for session managers</li>
+  <li>Do not show translation info on --help output</li>
 </ul>
 
 <h2>Configuration Manager <em>(xfconf)</em></h2>
