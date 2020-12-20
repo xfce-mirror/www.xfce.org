@@ -241,7 +241,49 @@
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Bump GLib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Remove GSourceFunc casts</li>
+  <li>settings: Accept all types of GIcon</li>
+  <li>settings: Add tooltips to image-buttons</li>
+  <li>settings: Better app icon lookup</li>
+  <li>settings: Be more precise in infobar wording</li>
+  <li>settings: Drop inline-toolbar button labels</li>
+  <li>settings: Move autostart info to docs.xfce</li>
+  <li>settings: Don't make 'saved sessions' tab reorderable</li>
+  <li>settings: Adjust inline toolbar</li>
+  <li>settings: Tweak 'Current Session' tab</li>
+  <li>settings: Make 'App Autostart' columns sortable</li>
+  <li>settings: Fix 'Current session' column width (!10)</li>
+  <li>settings: Add sort-on-click to columns in "Current Session" tab (!3)</li>
+  <li>settings: Don't warn when there are no saved sessions (Fixes #62)</li>
+  <li>settings: Add keywords for discoverability (Bug #10694)</li>
+  <li>logout-dialog: Add new icons</li>
+  <li>logout-dialog: Swap icon names and fallbacks</li>
+  <li>logout-dialog: Bump icon size to 48px</li>
+  <li>Fix session crash at logout (Bug #16105)</li>
+  <li>Update .gitignore</li>
+  <li>Add README.md to EXTRA_DIST</li>
+  <li>Avoid potential format-string vulns (Issue #65)</li>
+  <li>Add more guards around GErrors</li>
+  <li>Fix potential crash in suspend and shutdown (Fixes #65)</li>
+  <li>Only clean generated sources when in maintainer mode.</li>
+  <li>Field codes expansion API update</li>
+  <li>Expand field codes</li>
+  <li>Use new icon in settings dialog (Bug #16885)</li>
+  <li>Add new application icon and rDNS icon name</li>
+  <li>Switch to symbolic window-close icons</li>
+  <li>Drop GDM compatibility code otherwise the session locale might be set to an invalid value.</li>
+  <li>Bug #16632: Segfault when suspending without pm-suspend installed</li>
+  <li>Silence runtime warning (Bug #15731)</li>
+  <li>Add a GnuPG 2.1+ mode</li>
+  <li>Free the intermediate "cmd" variable in xfsm_startup_init()</li>
+  <li>Re-add xfsm_startup_shutdown() call to xfce4-session main()</li>
+  <li>Remove sys/sysctl.h on linux platform</li>
+  <li>Bug #16717: Move from exo-csource to xdt-csource</li>
+  <li>Try xfce screensaver before cinnamon (Bug #16223)</li>
+  <li>Add support for xfce4-screensaver (Bug #16522)</li>
+  <li>Sort saved sessions by most recently used (Bug #15338)</li>
+  <li>Do not show translation info on --help output</li>
 </ul>
 
 <h2>Settings Manager <em>(xfce4-settings)</em></h2>
