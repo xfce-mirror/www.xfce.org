@@ -179,7 +179,25 @@
 
 <h2>Menu Library <em>(garcon)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Drop support for Gtk2</li>
+  <li>relax automake requirement to 1.15</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Use the symbolic close icon in the error dialog</li>
+  <li>Don't launch apps as children</li>
+  <li>Add new icon needed for xfce4-about-dialog</li>
+  <li>Fix missing transfer annotation</li>
+  <li>Improve GObject introspection annotations (Fixes #8)</li>
+  <li>Add support for GObject Introspection (Fixes #4)</li>
+  <li>Field codes expansion API update</li>
+  <li>Transfer some code to libxfce4util</li>
+  <li>Fix default merge rules in xfce-applications.menu (Bug #15504)</li>
+  <li>Fix a stupid typo introduced in previous commit</li>
+  <li>Rename exo-helpers to the new xfce4-xx ones</li>
+  <li>Do not add INSTALL in dist tarball</li>
+  <li>Fix a memory leak</li>
+  <li>Switch to xfce_gtk_image_menu_item</li>
+  <li>Add garcon_menu_item_[g|s]et_keywords to docs</li>
+  <li>Add garcon_gtk_menu_get_desktop_actions_menu</li>
 </ul>
 
 <h2>File Manager <em>(thunar)</em></h2>
