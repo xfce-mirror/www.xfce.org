@@ -375,7 +375,35 @@
 
 <h2>Power Manager <em>(xfce4-power-manager)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>settings: Unclutter system and display tabs</li>
+  <li>settings: Adjust title and show min/max buttons</li>
+  <li>settings: Allow critical battery level up to 70% (Fixes #67)</li>
+  <li>settings: Fix GtkSwitch signal handlers (Issue #99)</li>
+  <li>settings: Move % sign out of spinbutton (Bug #15994)</li>
+  <li>settings: Add keywords for discoverability (Bug #10694)</li>
+  <li>panel-plugin: Add (optional) Presentation mode indicator (Bug #15773)</li>
+  <li>panel-plugin: Toggle presentation mode on middle click</li>
+  <li>panel-plugin: Prefer ac-adapter-symbolic (Fixes #103)</li>
+  <li>panel-plugin: Properly show 'About' menu item</li>
+  <li>systray: Ensure presentation mode can be toggled (Bug #16337)</li>
+  <li>xfpm: avoid default double fork</li>
+  <li>Add new app icon and switch to rDNS icon name</li>
+  <li>Only update blank time when appropriate</li>
+  <li>Move default icon names into one place</li>
+  <li>Also use symbolic icons in battery notifications</li>
+  <li>Use more accurate status icons (Fixes #95)</li>
+  <li>Reorder screensavers so Xfce comes first (Fixes #101)</li>
+  <li>Silence compiler warnings</li>
+  <li>Guard against NULL pointer dereference</li>
+  <li>Dismiss critical notification when connecting to AC</li>
+  <li>Respect the notification daemon's timeouts (Fixes #57)</li>
+  <li>Fix spelling mistake (Bug #16698)</li>
+  <li>Fix Laptop lid settings (Bug #15300)</li>
+  <li>Bug #16717: Move from exo-csource to xdt-csource</li>
+  <li>Fix inhibiting xfce4-screensaver (Bug #16364)</li>
+  <li>Make brightness steps configurable (Bug #12062)</li>
+  <li>Switch to symbolic window-close icons</li>
 </ul>
 
 <h2>Thumbnail Generator <em>(tumbler)</em></h2>
