@@ -407,7 +407,35 @@
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Add keywords to .desktop files in xfdesktop</li>
+  <li>Remove extra separator from context menu</li>
+  <li>Move 'Open in New Window' of root window context menu (#59)</li>
+  <li>Remove "Properties..." entry from desktop context menu (#59)</li>
+  <li>Replace links to bugzilla by gitlab and update copyright year</li>
+  <li>Pull in new fallback icon from Adwaita</li>
+  <li>Add new app icon and switch to rDNS icon name</li>
+  <li>Avoid redundant calls to backdrop_changed_cb (Bug #16773)</li>
+  <li>Bug #16717: Move from exo-csource to xdt-csource</li>
+  <li>Increase minimum desktop icon size to 16 (Bug #16667)</li>
+  <li>Correct spelling of file system (Bug #16543)</li>
+  <li>Increase desktop icon increments to 2 (Bug #16668)</li>
+  <li>Unselect all items after single click activation</li>
+  <li>Fix memory leak when reconnecting DP monitor (Bug #16314)</li>
+  <li>Fix regression caused by Bug #16342</li>
+  <li>Fix transparent background color (Bug #16380)</li>
+  <li>Add Shift+Ctrl+N keybinding for Create Folder (Bug #15660)</li>
+  <li>Ignore modifier key events in type-ahead find (Bug #11149)</li>
+  <li>Added type-ahead find for Desktop icons (Bug #11149)</li>
+  <li>Do not insert hyphens at intra-word line breaks (Bug #16339)</li>
+  <li>Replace deprecated G_FILE_MONITOR_EVENT_MOVED (Bug #16342)</li>
+  <li>Update thumbnail when file changes (Bug #14919)</li>
+  <li>Add DnD support for application/octet-stream (Bug #14919)</li>
+  <li>Add padding to custom actions without icon (Bug #14628)</li>
+  <li>Fix yet another rubber band DnD issue (Bug #16046)</li>
+  <li>Reintroduce workaround for Bug #11283</li>
+  <li>Show file names in tooltips (Bug #15899)</li>
+  <li>fallback style: Highlight selected icons (Bug #15866)</li>
+  <li>windowlist: Fix ellipsizing (Bug # 15851)</li>
 </ul>
 
 <h2>Window Manager <em>(xfwm4)</em></h2>
