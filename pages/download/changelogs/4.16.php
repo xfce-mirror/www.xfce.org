@@ -207,7 +207,29 @@
 
 <h2>Application Finder <em>(xfce4-appfinder)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Launch application reparenting them to init</li>
+  <li>Bump gtk minimum version to 3.22.0</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Sort by frecency (Bug #9265)</li>
+  <li>Add small delay before reloading menu tree (!6)</li>
+  <li>Add new app icon and switch to rDNS</li>
+  <li>Add keywords to .desktop files to xfce4-appfinder</li>
+  <li>Switch to a few symbolic icons</li>
+  <li>Clear entry's error icon and tooltip</li>
+  <li>Remove unnecessary code for unsupported glib versions</li>
+  <li>Remove padding from context menu</li>
+  <li>Fix memory leaks when sorting items</li>
+  <li>Simplify buttons layout</li>
+  <li>Drop close button</li>
+  <li>Fix Makefile for scalable to use svg</li>
+  <li>Use shared field codes expansion</li>
+  <li>Limit popup completion width to be same as entry</li>
+  <li>Record last commands only once (Bug #15767)</li>
+  <li>Bug #16717: Move from exo-csource to xdt-csource</li>
+  <li>Make Preferences button always visible (Bug #16489)</li>
+  <li>Fix gtk version checking</li>
+  <li>Hidden option to disable entry completion (Bug #15827)</li>
+  <li>Use casefolded string when searching for apps not commands (Bug #15893)</li>
 </ul>
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
