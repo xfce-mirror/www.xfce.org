@@ -571,7 +571,18 @@
 
 <h2>Thumbnail Generator <em>(tumbler)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Add libgepub thumbnailer plugin</li>
+  <li>Adjust bug report URL</li>
+  <li>Fix documentation URL</li>
+  <li>Add new icon needed for xfce4-about-dialog</li>
+  <li>Fix GTimeVal deprecation</li>
+  <li>Use exif jpeg orientation hint</li>
+  <li>Use guint32 for request handle</li>
+  <li>Fix type of handle and handle further occurrences of 0</li>
+  <li>Fix handles starting from zero</li>
+  <li>This commit implements Excludes paths</li>
+  <li>Fix thumbnail orientation (Bug #15011)</li>
+  <li>prepend $XDG_DATA_HOME/thumbnailers/ to thumbnailers directory (Bug #15858)</li>
 </ul>
 
 <h2>Volume Manager <em>(thunar-volman)</em></h2>
