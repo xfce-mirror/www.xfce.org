@@ -249,7 +249,22 @@
 
 <h2>Configuration Manager <em>(xfconf)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>bump glib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Remove xfconf perl binding</li>
+  <li>Enable GSettings backend by default</li>
+  <li>Initialize Xfconf when the backend is to be used</li>
+  <li>Use gsettings as a common channel name</li>
+  <li>Add Bash completion for xfconf-query</li>
+  <li>Fix make distcheck and enable it on gitlab CI</li>
+  <li>xfconf-cache: Fix access to freed data (#16)</li>
+  <li>Test for #16</li>
+  <li>Disable parallelism on all tests</li>
+  <li>Fix stray double-quote in bash-completion PKG_CONFIG invocation</li>
+  <li>Fix distcheck bash-completion file error</li>
+  <li>Use a custom test-driver</li>
+  <li>Always provide files for vala bindings in dist tarball</li>
+  <li>Bug #15960: Add some missing xfconf_shutdown() in xfconf-query</li>
+  <li>Bug #15951: Fix 'xfconf_get_error_quark' introspecting warning</li>
 </ul>
 
 <h2>Desktop Manager <em>(xfdesktop)</em></h2>
