@@ -236,7 +236,100 @@
 
 <h2>Panel <em>(xfce4-panel)</em></h2>
 <ul>
-  <li>TODO</li>
+  <li>Bump GLib (and gio, gthread, etc) minimum to 2.50.0</li>
+  <li>Make dbusmenu-gtk3-0.4 optional, disables StatusNotifier integration</li>
+  <li>gobject introspection wants a capital letter for the gir file</li>
+  <li>Drop support for Gtk2 and 4.6 plugins</li>
+  <li>Don't show or try to load Gtk2 plugins anymore</li>
+  <li>panel: Fix intellihide with CSD (Fixes #368)</li>
+  <li>panel: Fix autohide state machine</li>
+  <li>panel: Fix cancellation of autohide animation</li>
+  <li>panel: Immediately show panel in intellihide</li>
+  <li>panel: Don't tamper with leave_opacity value (Bug #16296)</li>
+  <li>panel: Add "popdown-speed" property to adjust autohide animation</li>
+  <li>panel: Make sure "span monitors" is conditionally sensitive</li>
+  <li>panel: Add dark mode preference</li>
+  <li>panel: Improve the marching ants animation</li>
+  <li>panel: Draw border based on position and length</li>
+  <li>autohide: Improve animation support for intellihide</li>
+  <li>autohide: Don't animate hiding of floating panels</li>
+  <li>autohide: Add sliding out animation</li>
+  <li>settings: Use spinbuttons for size and nrows</li>
+  <li>settings: Update item listview toolbar</li>
+  <li>settings: Add keywords for discoverability (Bug #10694)</li>
+  <li>tasklist: Fix wireframe for CSD windows (Fixes #338)</li>
+  <li>tasklist: Auto-adjust icon size (Closes #90)</li>
+  <li>tasklist: Hide brackets for min windows by default</li>
+  <li>tasklist: Fix crash middle-click-closing grouped windows (Bug #16410)</li>
+  <li>tasklist: Add "Launch New Instance" item to menu (Fixes #158)</li>
+  <li>tasklist: Allow keyboard navigation within groups (Fixes #270)</li>
+  <li>tasklist: Fix drag&drop in deskbar mode (Bug #16298)</li>
+  <li>tasklist: Resize when windows get removed (Bug #14394)</li>
+  <li>tasklist: Limit blinking notification</li>
+  <li>action buttons: Switch to new session icons (Fixes #332)</li>
+  <li>action buttons: Fix combobox signal</li>
+  <li>action buttons: Drop 'inverted buttons' setting (#223)</li>
+  <li>action buttons: Add button title options (Bug #8980)</li>
+  <li>action buttons: Fix separator width (Bug #15558)</li>
+  <li>launcher: Set plugin icon as fallback (Fixes #329)</li>
+  <li>launcher: Fix launcher menu button state (Fixes #264)</li>
+  <li>launcher: Fix crash with actions menu (Bug #16823)</li>
+  <li>launcher: Show desktop actions in context menu</li>
+  <li>launcher: Fix visual state of arrow-button (Bug #15818)</li>
+  <li>launcher: Avoid excessive left padding on popup menu (Bug #15819)</li>
+  <li>applicationsmenu: Correctly block autohiding (Fixes #287)</li>
+  <li>applicationsmenu: Use panel's icon size</li>
+  <li>applicationsmenu: Listen to icon theme changes (Bug #15861)</li>
+  <li>directorymenu: Add create folder/document menuitems (Bug #15639)</li>
+  <li>directorymenu: Add option to hide folder/terminal menuitems (Bug #15630)</li>
+  <li>windowlist: Make layout consistent with xfdesktop</li>
+  <li>windowmenu: Replace deprecated gtk_widget_modify_font</li>
+  <li>pager: Finish face-lift of settings dialog</li>
+  <li>pager: Rework settings dialog layout</li>
+  <li>pager: Silence warning</li>
+  <li>pager: Only show scroll-option with buttons</li>
+  <li>pager: Add option to show ws number</li>
+  <li>pager: Fix scrolling in pager-buttons (Bug #15614)</li>
+  <li>clock: Drop leading zeros for days in default layout</li>
+  <li>clock: Add back hour:min to format presets (Bug #16035)</li>
+  <li>clock: Validate timezone entry (Bug #16036)</li>
+  <li>systray: Basic support for symbolic icons</li>
+  <li>systray: Drop "Show frame" option (Bug #14186)</li>
+  <li>systray: Fix icons without compositing (Bug #14577)</li>
+  <li>systray: Improve app icon lookup</li>
+  <li>Merge xfce4-statusnotifier-plugin to the panel</li>
+  <li>add-items: Drop not-so-helpful dialog subtitle</li>
+  <li>add-items: Bump default dialog size (Fixes #258)</li>
+  <li>add-items: Fix XfceTitledDialog with CSD</li>
+  <li>plugins: Add new rDNS icons</li>
+  <li>plugins: Show custom menu items below plugin name</li>
+  <li>plugins: Fix enter/leave opacity w/o compositing (Bug #14577)</li>
+  <li>tic-tac-toe: Fix XfceTitledDialog with CSD</li>
+  <li>Fix launcher in default panel configuration</li>
+  <li>Use new xfce_spawn API</li>
+  <li>Enable dark-mode by default</li>
+  <li>Fixed icon for about dialog and added more icons for better scaling</li>
+  <li>intellihide: Check if cursor is over the panel (Fixes #311)</li>
+  <li>Add Zoom to known applications</li>
+  <li>Extend list of known (legacy) applications</li>
+  <li>Drop statusnotifier from default panel layout</li>
+  <li>Rename statusnotifier to systray</li>
+  <li>Add Python statusnotifier for testing</li>
+  <li>Use shared field codes expansion</li>
+  <li>dark-mode: Make property unique across panels</li>
+  <li>Add Gio to libxfce4panel gir includes</li>
+  <li>Improve docs for xfce_panel_plugin_position_widget (Bug #9438)</li>
+  <li>Add new app icon and rDNS icon name</li>
+  <li>Fix panel build with vala 0.48 (Bug #16426)</li>
+  <li>Fix GTimeVal deprecation (Bug #16643)</li>
+  <li>Fix memory leak in panel plugin wrapper (Bug #16640)</li>
+  <li>Add xfce_panel_plugin_menu_destroy to plugin API</li>
+  <li>Improve wording in "Remove plugin" dialog (Bug #9000)</li>
+  <li>Always provide files for vala binding in dist tarball</li>
+  <li>Use an empty placeholder icon for launcher (Bug #15819)</li>
+  <li>Remove extra underscore (Bug #16266)</li>
+  <li>Fix autohide with bg color or image (Bug #16064)</li>
+  <li>docs: Fix build by dropping unused refs (Bug #16031)</li>
 </ul>
 
 <h2>Session Manager <em>(xfce4-session)</em></h2>
