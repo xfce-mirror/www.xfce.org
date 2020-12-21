@@ -13,9 +13,10 @@ $news = array (
      'author' => 'Release Manager',
      'paragraphs' => array (
              R_('Today, after 1 year and 4 months of work, we are pleased to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
-             R_('During the 4.16 cycle, we migrated to Gitlab, added CI on all components, welcome new contributors (thank to the new Gitlab workflow !), and our hosting is now sponsored by <a href="https://gandi.net">Gandi</a> and <a href="https://fosshost.org">Fosshost</a>'),
-             R_('Along the way we ended up polishing our user experience and introducing some new features (read below).'),
-             R_('The main highlights of this release are:'),
+             R_('The 4.16 was a special cycle in many respects (not only pandemic-wise, but also). One of the corner-stones of the non-code changes concerns our migration to GitLab, which is a change in development workflow and a huge step forward in terms of becoming more contributor-friendly and approachable. In parts, the <a href="https://www.xfce.org/download/changelogs/4.16">humungous changelog of Xfce 4.16</a> can be attributed to new contributors proposing merge requests. We also created a reference Docker container (xfce/xfce-build) and added CI pipelines to all components to ensure we don´t break the build. None of this would have been possible without our hosting being sponsored by <a href="https://gandi.net">Gandi</a> and <a href="https://fosshost.org">Fosshost</a>!'),
+             R_('Another big change concerns our visual identity, which we updated from a strange mix random (partly Tango-based) icons and not following any naming scheme to a new, visually consistent set (following the freedesktop.org naming specification). We´re aware this will generate some work for icon theme maintainers (if they really want to override our gorgeous icons ;)) but we believe the longterm benefit outweighs this one-time effort.'),
+             R_('And then finally we did some housekeeping (e.g. by dropping Gtk2 support code) and added features - all while sticking to a reasonable release cycle timeframe.'),
+             R_(' So without further ado, here go the <strong>main highlights of this release</strong>:'),
              array(
                      '<ul>',
                              '<li>'.R_('CSD').'</li>',
@@ -29,7 +30,7 @@ $news = array (
              R_('An online tour of the changes in Xfce 4.16 can be viewed here:'),
              '<a href="https://www.xfce.org/about/tour416">https://www.xfce.org/about/tour416</a>',
              R_('A detailed overview of the changes between Xfce 4.14 and Xfce 4.16 releases can be found on the following page:'),
-             '<a href="https://www.xfce.org/download/changelogs">https://www.xfce.org/download/changelogs</a>',
+             '<a href="https://www.xfce.org/download/changelogs/4.16">https://www.xfce.org/download/changelogs</a>',
              R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
              '<a href="https://archive.xfce.org/xfce/4.16">https://archive.xfce.org/xfce/4.16</a>',
              R_('Best regards,<br />The Xfce development team'))
