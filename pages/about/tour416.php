@@ -2,7 +2,7 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the (user-visible) surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
 
 <h2><?php E_("Visual identity: New icons and palette") ?></h2>
 
@@ -25,7 +25,7 @@
 
   <h3><?php E_("Display Dialog") ?></h3>
 
-<p><?php E_("To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the mechanism for determining a fallback in case of misconfiguration was improved to always fall back to a valid mode.") ?>
+<p><?php E_("To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the preferred mode of a display is now marked with an asterisk and aspect ratios are shown along display resolutions.") ?>
 
   <?php print_figure ("about/tour/4.16/display-dialog.png", R_("Fractional scaling support")) ?>
 
