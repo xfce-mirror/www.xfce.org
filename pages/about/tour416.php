@@ -47,6 +47,7 @@
 
   <?php print_figure ("about/tour/4.16/panel-dark.png", R_("Dark mode enabled in the panel's settings dialog")) ?>
   <?php print_figure ("about/tour/4.16/panel-statustray.png", R_("The new statustray plugin")) ?>
+  <?php print_figure ("about/tour/4.16/panel-autohide.gif", R_("Autohide animation")) ?>
 
 <h2><?php E_("About Dialog") ?> <em>(xfce4-about)</em></h2>
 
