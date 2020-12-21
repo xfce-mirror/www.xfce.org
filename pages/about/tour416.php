@@ -35,6 +35,13 @@
 
   <?php print_figure ("about/tour/4.16/keyboard-shortcuts.png", R_("Visually updated keyboard shortcuts dialog")) ?>
 
+<h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
+
+<p><?php E_("The panel received quite a few noteworthy updates, an animation for autohide and intellihide, a new 'Status Tray' plugin that combines both legacy Systray item support with modern StatusNotifier item support, dark mode support, launchers showing additional actions on right-click, window buttons offering to 'Launch a new instance...' and much more.") ?>
+
+  <?php print_figure ("about/tour/4.16/panel-dark.png", R_("Dark mode enabled in the panel's settings dialog")) ?>
+  <?php print_figure ("about/tour/4.16/panel-statustray.png", R_("The new statustray plugin")) ?>
+
 <h2><?php E_("About Dialog") ?> <em>(xfce4-about)</em></h2>
 
 <p><?php E_("Not only was the Xfce tab reworked to be more visually appealing and easily parsable, a separate tab showing basic information about the user's system was also added.") ?>
