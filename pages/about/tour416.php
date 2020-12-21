@@ -2,7 +2,7 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the (user-visible) surface; for the full list of changes, see the <a href=\"/download/changelogs/\">changelogs</a>.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the (user-visible) surface; for the full list of changes, see the <a href=\"/download/changelogs/4.16/\">changelog</a>.") ?></p>
 
 <h2><?php E_("Visual identity: New icons and palette") ?></h2>
 
