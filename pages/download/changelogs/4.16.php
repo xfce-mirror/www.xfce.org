@@ -6,7 +6,7 @@
 
 <h2>Dependency changes</h2>
 <ul>
-  <li>Gtk &gt;= 3.22, GLib &gt;= 2.50 and GDBus.</li>
+  <li>Gtk &gt;= 3.22, GLib and GDBus &gt;= 2.50.</li>
   <li>Add libgtop</li>
   <li>Remove Gtk2 support</li>
 </ul>
