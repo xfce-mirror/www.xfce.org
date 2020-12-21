@@ -71,6 +71,14 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
 </div>
 
 <div class="item">
+  <h3><?php E_('Power Manager') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-power-manager.png')">
+    <?php E_('Manages the power sources of the computer and connected devices.') ?>
+    <?php learnmore ("https://docs.xfce.org/xfce/xfce4-power-manager/start") ?>
+  </p>
+</div>
+
+<div class="item">
   <h3><?php E_('Xfce Libraries') ?></h3>
   <p style="background-image: url('<?php echo $static_media; ?>/projects/libxfce4ui.png')">
     <?php E_('Widgets library for the Xfce desktop environment.') ?>
