@@ -35,6 +35,12 @@
 
   <?php print_figure ("about/tour/4.16/keyboard-shortcuts.png", R_("Visually updated keyboard shortcuts dialog")) ?>
 
+<h2><?php E_("File Manager") ?> <em>(thunar)</em></h2>
+
+<p><?php E_("In Thunar's copy and move dialogs users can now easily pause the respective file operation. Furthermore support for queued file transfer, remembering view settings per folder and support for transparency in Gtk themes was added.") ?>
+
+  <?php print_figure ("about/tour/4.16/thunar.png", R_("Thunar can now pause copy/move")) ?>
+
 <h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
 
 <p><?php E_("The panel received quite a few noteworthy updates, an animation for autohide and intellihide, a new 'Status Tray' plugin that combines both legacy Systray item support with modern StatusNotifier item support, dark mode support, launchers showing additional actions on right-click, window buttons offering to 'Launch a new instance...' and much more.") ?>
