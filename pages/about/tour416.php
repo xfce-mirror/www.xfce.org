@@ -54,3 +54,9 @@
 
   <?php print_figure ("about/tour/4.16/about-xfce.png", R_("About Xfce")) ?>
   <?php print_figure ("about/tour/4.16/about-system.png", R_("About System")) ?>
+
+<h2><?php E_("Power Manager") ?> <em>(xfce4-power-manager)</em></h2>
+
+<p><?php E_("The settings dialog of the power manager was cleaned up and shows either 'on battery' or 'plugged in' settings as opposed to both in a huge table.") ?>
+
+  <?php print_figure ("about/tour/4.16/powermanager.png", R_("Power Manager settings")) ?>
