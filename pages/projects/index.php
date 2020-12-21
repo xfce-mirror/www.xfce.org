@@ -53,6 +53,15 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
     <?php learnmore ("https://docs.xfce.org/xfce/xfce4-settings/start") ?>
   </p>
 </div>
+
+<div class="item">
+  <h3><?php E_('Thunar File Manager') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/thunar.png')">
+    <?php E_('Thunar is a modern file manager designed from the ground up to be fast and easy-to-use.') ?>
+    <?php learnmore ("https://docs.xfce.org/xfce/thunar/start") ?>
+  </p>
+</div>
+
 <div class="item">
   <h3><?php E_('Application Finder') ?></h3>
   <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-appfinder.png')">
@@ -63,24 +72,17 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
 
 <div class="item">
   <h3><?php E_('Xfce Libraries') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/library.png')">
-    <?php E_('They provide additional functions and widgets which ease the development of applications.') ?>
-    <?php learnmore ("https://docs.xfce.org/xfce/exo/start") ?>
-  </p>
-</div>
-<div class="item">
-  <h3>Xfconf</h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/library.png')">
-    <?php E_('Simple client-server configuration storage and query system.') ?>
-    <?php learnmore ("https://docs.xfce.org/xfce/xfconf/start") ?>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/libxfce4ui.png')">
+    <?php E_('Widgets library for the Xfce desktop environment.') ?>
+    <?php learnmore ("https://docs.xfce.org/xfce/libxfce4ui/start") ?>
   </p>
 </div>
 
 <div class="item">
-  <h3><?php E_('Thunar File Manager') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/thunar.png')">
-    <?php E_('Thunar is a new modern file manager designed from the ground up to be fast and easy-to-use.') ?>
-    <?php learnmore ("https://docs.xfce.org/xfce/thunar/start") ?>
+  <h3>Xfconf</h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfconf.png')">
+    <?php E_('Simple client-server configuration storage and query system.') ?>
+    <?php learnmore ("https://docs.xfce.org/xfce/xfconf/start") ?>
   </p>
 </div>
 
@@ -91,15 +93,8 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
 <div class="grid icons">
 
 <div class="item">
-  <h3><?php E_('Web Browser') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/midori.png')">
-    <?php E_('Midori is a lightweight Web browser.') ?>
-    <?php learnmore ("http://www.midori-browser.org/") ?>
-  </p>
-</div>
-<div class="item">
   <h3><?php E_('Terminal') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/terminal.png')">
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-terminal.png')">
     <?php E_('Terminal is a modern terminal emulator featuring tabs and transparent backgrounds.') ?>
     <?php learnmore ("https://docs.xfce.org/apps/terminal/start") ?>
   </p>
@@ -111,24 +106,44 @@ $foo = R_('Learn&nbsp;More&nbsp;&rarr;');
     <?php E_('Xfburn is an application to create and burn CD\'s and DVD\'s.') ?>
   </p>
 </div>
-<div class="item">
-  <h3><?php E_('Orage') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/orage.png')">
-    <?php E_('A simple calendar application with reminders.') ?>
-  </p>
-</div>
 
-<div class="item">
-  <h3><?php E_('Mixer') ?></h3>
-  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-mixer.png')">
-    <?php E_('Allows you to change the volume of the different audio tracks.') ?>
-  </p>
-</div>
 <div class="item">
   <h3><?php E_('Image Viewer') ?></h3>
   <p style="background-image: url('<?php echo $static_media; ?>/projects/ristretto.png')">
     <?php E_('Ristretto is a lightweight image viewer.') ?>
     <?php learnmore ("https://docs.xfce.org/apps/ristretto/start") ?>
+  </p>
+</div>
+
+<div class="item">
+  <h3><?php E_('Screen Saver') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-screensaver.png')">
+    <?php E_('A simple screen saver and locker.') ?>
+    <?php learnmore ("https://docs.xfce.org/apps/xfce4-screensaver/start") ?>
+  </p>
+</div>
+
+<div class="item">
+  <h3><?php E_('Screen Shooter') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-screenshooter.png')">
+    <?php E_('An application to take screenshots.') ?>
+    <?php learnmore ("https://docs.xfce.org/apps/xfce4-screenshooter/start") ?>
+  </p>
+</div>
+
+<div class="item">
+  <h3><?php E_('Text Editor') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/mousepad.png')">
+    <?php E_('A simple text editor.') ?>
+    <?php learnmore ("https://docs.xfce.org/apps/mousepad/start") ?>
+  </p>
+</div>
+
+<div class="item">
+  <h3><?php E_('Notifications') ?></h3>
+  <p style="background-image: url('<?php echo $static_media; ?>/projects/xfce4-notifyd.png')">
+    <?php E_('Easily themable notification daemon with transparency effects.') ?>
+    <?php learnmore ("https://docs.xfce.org/apps/xfce4-notifyd/start") ?>
   </p>
 </div>
 
