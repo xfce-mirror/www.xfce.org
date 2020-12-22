@@ -32,8 +32,8 @@ $news = array (
                              '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-power-manager/start">power manager</a> received a lot of bugfixes and some smaller features - among them a cleanup of its settings dialog, an optional visual indicator for when `Presentation Mode` is enabled, more accurate battery status icons and automatically dismissing low-power notifications upon the connection of a charger.').'</li>',
                              '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> mostly received bugfixes and small improvements - and the new default wallpaper!').'</li>',
                              '<li>'.R_('Our menu library <a href="https://docs.xfce.org/xfce/garcon/start">garcon</a> received new APIs and now doesn´t launch applications as children of the process hosting the menu anymore. The previous behavior led to applications crashing along with e.g. the panel.').'</li>',
+                             '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-appfinder/start">applicaton finder</a> now allows for sorting applications by "frecency" - a combination of frequency and recency.').'</li>',
                              '<li>'.R_('Dependency updates: Drop Gtk2, add LibGTop, bump Gtk >= 3.22, GLib and GDBus >= 2.50').'</li>',
-                             '<li>'.R_('...').'</li>',
                      '</ul>'
              ),
              R_('An online tour of the changes in Xfce 4.16 can be viewed here:'),
