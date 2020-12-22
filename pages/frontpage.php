@@ -50,18 +50,18 @@ $head['css'] = '@media screen and (max-width:830px) {
 			</a>
 		</li>
 		<li>
-			<a href="/download/changelogs/4.14"><?php E_('ChangeLog') ?>
-				<span>&ndash; <?php printf (R_('release notes for Xfce %s'), $stable_version) ?></span>
+			<a href="/download/changelogs/4.16"><?php E_('ChangeLog') ?>
+				<span>&ndash; <?php printf (R_('read the full release notes'), $stable_version) ?></span>
 			</a>
 		</li>
 		<li>
-			<a href="/about/tour"><?php printf (R_('%s Tour'), $stable_version) ?>
-				<span>&ndash; <?php E_('visual tour about new features in the latest releases') ?></span>
+			<a href="/about/tour416"><?php printf (R_('%s Tour'), $stable_version) ?>
+				<span>&ndash; <?php E_('take a visual tour of new features') ?></span>
 			</a>
 		</li>
 		<li>
 			<a href="/about/screenshots"><?php E_('Screenshots') ?>
-				<span>&ndash; <?php E_('examples of Xfce desktops ordered by version') ?></span>
+				<span>&ndash; <?php E_('see examples of Xfce desktops') ?></span>
 			</a>
 		</li>
 	</ul>
