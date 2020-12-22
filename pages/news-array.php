@@ -19,11 +19,13 @@ $news = array (
              R_(' So without further ado, here go the <strong>main highlights of this release</strong>:'),
              array(
                      '<ul>',
-                             '<li>'.R_('CSD').'</li>',
-                             '<li>'.R_('Visual identity: New icons and palette').'</li>',
-                             '<li>'.R_('Better support for high-density displays').'</li>',
-                             '<li>'.R_('A new "About" dialog tab, showing basic information about the user\'s system ').'</li>',
-                             '<li>'.R_('Drop of Gtk2 support').'</li>',
+                             '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfwm4/start">window manager</a> received lots of updates and improvements again in the area of compositing and GLX. If a primary display was set, the alt-tab dialog will now only be shown there. Furthermore some handy new options to zoom the cursor along with rest of the display as well as an option to keep minimized windows in the most recently used list complement this release.').'</li>',
+                             '<li>'.R_('We added a new plugin to the <a href="https://docs.xfce.org/xfce/xfce4-panel/start">panel</a> dubbed "statustray", as it combines both StatusNotifier and legacy Systray items. An animated autohide transition now clearly shows the user "where the panel has gone" and a dark mode (enabled by default) makes the panel drop into the background a bit more with bright themes like the Gtk default Adwaita. Quite a few more smaller improvements like accessing desktop actions from a Launcher´s right-click menu, the Window Buttons plugin now offering to `Launch a new instance` of an application and the Workspace Switcher now optionally shows automatic numbering for workspaces.').'</li>',
+                             '<li>'.R_('The "Mime Settings" and "Preferred Applications" dialogs were merged into the "Default Applications" dialog - making it easier for users to set which application handles which filetype or action from one place.').'</li>',
+                             '<li>'.R_('Our <a href="https://docs.xfce.org/xfce/thunar/tumbler">thumbnailing service tumbler</a> became more flexible by now being able to exclude paths. Furthermore support for .epub (e-book format) was added.').'</li>',
+                             '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-session/start">session manager</a> now offers improved support for GPG agent 2.1 and the setting dialog was visually improved.').'</li>',
+                             '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> mostly received bugfixes and small improvements - and the new default wallpaper!').'</li>',
+                             '<li>'.R_('Dependecy updates: Drop Gtk2, add LibGTop, bump to GLib>=2.50').'</li>',
                              '<li>'.R_('...').'</li>',
                      '</ul>'
              ),
