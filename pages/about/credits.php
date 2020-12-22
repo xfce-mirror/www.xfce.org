@@ -72,7 +72,7 @@ function print_translator_credits()
                 'Vinzenz Vietzke' => 'vinz'.ATSIGN.'vinzv.de'));
 ?>
 
-<h2 id="documentation"><?php E_('Documenation supervision')?></h2>
+<h2 id="documentation"><?php E_('Documentation supervision')?></h2>
 <?php
         print_credits (array (
                 'Kevin Bowen' => 'kevin.bowen'.ATSIGN.'gmail.com'));
