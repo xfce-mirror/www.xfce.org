@@ -12,11 +12,11 @@ $news = array (
      'date' => '21 dec 2020',
      'author' => 'Release Manager',
      'paragraphs' => array (
-             R_('Today, after 1 year and 4 months of work, we are pleased to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
-             R_('The 4.16 was a special cycle in many respects (not only pandemic-wise, but also). One of the corner-stones of the non-code changes concerns our migration to GitLab, which is a change in development workflow and a huge step forward in terms of becoming more contributor-friendly and approachable. In parts, the <a href="https://www.xfce.org/download/changelogs/4.16">humungous changelog of Xfce 4.16</a> can be attributed to new contributors proposing merge requests. We also created a reference Docker container (xfce/xfce-build) and added CI pipelines to all components to ensure we don´t break the build. None of this would have been possible without our hosting being sponsored by <a href="https://gandi.net">Gandi</a> and <a href="https://fosshost.org">Fosshost</a>!'),
+             R_('Today, after 1 year and 4 months of work, we are happy to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
+             R_('4.16 was a special cycle in many respects (not only pandemic-wise, but also). One of the corner-stones of the non-code changes concerns our migration to GitLab, which is a change in development workflow and a huge step forward in terms of becoming more contributor-friendly and welcoming. In parts, the <a href="https://www.xfce.org/download/changelogs/4.16">humungous changelog of Xfce 4.16</a> can be attributed to new contributors proposing merge requests. We also created a reference Docker container (xfce/xfce-build) and added CI pipelines to all components to ensure we don´t break the build. None of this would have been possible without our hosting being sponsored by <a href="https://gandi.net">Gandi</a> and <a href="https://fosshost.org">Fosshost</a>!'),
              R_('Another big change concerns our visual identity, which we updated from a strange mix random (partly Tango-based) icons and not following any naming scheme to a new, visually consistent set (following the freedesktop.org naming specification). We´re aware this will generate some work for icon theme maintainers (if they really want to override our gorgeous icons ;)) but we believe the longterm benefit outweighs this one-time effort.'),
-             R_('And then finally we did some housekeeping (e.g. by dropping Gtk2 support code) and added features - all while sticking to a reasonable release cycle timeframe.'),
-             R_(' So without further ado, here go the <strong>main highlights of this release</strong>:'),
+             R_('And then finally we did some housekeeping (e.g. by dropping Gtk2 support code) and we also added features - all while sticking to a reasonable release cycle timeframe.'),
+             R_('So without further ado, here go the <strong>main highlights of this release</strong>:'),
              array(
                      '<ul>',
                              '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfwm4/start">window manager</a> received lots of updates and improvements again in the area of compositing and GLX. If a primary display was set, the alt-tab dialog will now only be shown there. Furthermore some handy new options to zoom the cursor along with rest of the display as well as an option to keep minimized windows in the most recently used list complement this release.').'</li>',
@@ -31,7 +31,7 @@ $news = array (
                              '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfce4-power-manager/start">power manager</a> received a lot of bugfixes and some smaller features - among them a cleanup of its settings dialog, an optional visual indicator for when `Presentation Mode` is enabled, more accurate battery status icons and automatically dismissing low-power notifications upon the connection of a charger.').'</li>',
                              '<li>'.R_('The <a href="https://docs.xfce.org/xfce/xfdesktop/start">desktop</a> mostly received bugfixes and small improvements - and the new default wallpaper!').'</li>',
                              '<li>'.R_('Our menu library <a href="https://docs.xfce.org/xfce/garcon/start">garcon</a> received new APIs and now doesn´t launch applications as children of the process hosting the menu anymore. The previous behavior led to applications crashing along with e.g. the panel.').'</li>',
-                             '<li>'.R_('Dependency updates: Drop Gtk2, add LibGTop, bump to GLib>=2.50').'</li>',
+                             '<li>'.R_('Dependency updates: Drop Gtk2, add LibGTop, bump Gtk >= 3.22, GLib and GDBus >= 2.50').'</li>',
                              '<li>'.R_('...').'</li>',
                      '</ul>'
              ),
