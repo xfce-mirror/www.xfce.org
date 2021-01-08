@@ -1,4 +1,6 @@
 #!/bin/bash
+# Only kept here for history, we don't need to use it anymore, this is done by the txcron.sh and transifex magic
+exit 0
 
 pagespath=../../pages
 potfile=../po/www.pot
