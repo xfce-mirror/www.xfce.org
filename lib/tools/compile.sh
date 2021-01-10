@@ -8,6 +8,8 @@ localedir=$root/lib/locale
 
 for po in $(find $pofiles -name "*.po")
 do
+  file=$(basename $po)
+  lang=${file%.po}
   # Compile catalog
   path=$localedir/$lang/LC_MESSAGES
   mkdir -p $path
