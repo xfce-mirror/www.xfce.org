@@ -58,7 +58,7 @@
 
   <h3><?php E_("Folder Thumbnailer") ?></h3>
 
-<p><?php E_("Same as on the Desktop you can now save an image with the name 'folder.jpg' in a folder and get it displayed as its icon in the File Manager. Note: <a href='https://docs.xfce.org/xfce/thunar/tumbler#customized_thumbnailer_for_folders'>Please read the docs</a> on how to set this up (if your distribution hasn't enabled it by default).") ?></p>
+<p><?php E_("Same as on the Desktop you can now save an image with the name 'folder.jpg' in a folder and get it displayed as its icon in the File Manager. Note: <a href='https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders'>Please read the docs</a> on how to set this up (if your distribution hasn't enabled it by default).") ?></p>
 
   <?php print_figure ("about/tour/4.14/thunar-folder-jpg.png", R_("Thunar's new folder thumbnails")) ?>
 
