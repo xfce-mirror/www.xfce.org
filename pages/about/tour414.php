@@ -30,7 +30,7 @@
 
   <h3><?php E_("General: Icon size") ?></h3>
 
-<p><?php E_("A new feature that we introduced in the <a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/start'>panel is being able to control the icon size of all plugins. ('All' may not be technically correct, as not all plugins support the new API as of now, but now they <i>can</i>. Plus the Window buttons plugin is an exception, because libwnck doesn't allow anything other than 16px or 32px.) This means setups that were previously impossible, because icons would upscale automatically according to size-steps hard-coded in the panel, are now possible (see below).") ?></p>
+<p><?php E_("A new feature that we introduced in the <a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/start'>panel</a> is being able to control the icon size of all plugins. ('All' may not be technically correct, as not all plugins support the new API as of now, but now they <i>can</i>. Plus the Window buttons plugin is an exception, because libwnck doesn't allow anything other than 16px or 32px.) This means setups that were previously impossible, because icons would upscale automatically according to size-steps hard-coded in the panel, are now possible (see below).") ?></p>
 
   <?php print_figure ("about/tour/4.14/panel-iconsize.png", R_("A 32px tall panel with 16px icons")) ?>
 
