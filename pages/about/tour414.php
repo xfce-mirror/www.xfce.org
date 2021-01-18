@@ -14,7 +14,7 @@
 
   <h3><?php E_("Display Dialog") ?></h3>
 
-<p><?php E_("Several improvements were made to the <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/display'>display dialog</a>. Apart from tweaks to the user interface to make the interaction more intuitive (introducing display numbering, showing a primary indicator with quick access to panel, notification and desktop settings etc.) a feature to save a restore complete display profiles was added. If a single profile exists for a setup, the Xfce settings daemon will automatically enable it. If multiple profiles exist, it will pop up the minimal dialog and offer all profiles in addition to the previously available pre-sets (internal only, mirror, extend and external only).") ?></p>
+<p><?php E_("Several improvements were made to the <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/display'>display dialog</a>. Apart from tweaks to the user interface to make the interaction more intuitive (introducing display numbering, showing a primary indicator with quick access to panel, notification and desktop settings etc.) a feature to save and restore complete display profiles was added. If a single profile exists for a setup, the Xfce settings daemon will automatically enable it. If multiple profiles exist, it will pop up the minimal dialog and offer all profiles in addition to the previously available pre-sets (internal only, mirror, extend and external only).") ?></p>
 
   <?php print_figure ("about/tour/4.14/display-general.png", R_("The primary indicator")) ?>
   <?php print_figure ("about/tour/4.14/display-advanced.png", R_("The display profile list")) ?>
