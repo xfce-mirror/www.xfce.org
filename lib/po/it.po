@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2021-01-19 00:49+0100\n"
-"PO-Revision-Date: 2021-02-16 11:36+0000\n"
+"PO-Revision-Date: 2021-02-16 21:02+0000\n"
 "Last-Translator: Dmytro Tokayev\n"
 "Language-Team: Italian (http://www.transifex.com/xfce/xfce-www/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -2603,7 +2603,7 @@ msgid ""
 "file operation. Furthermore support for queued file transfer, remembering "
 "view settings per folder and support for transparency in Gtk themes was "
 "added."
-msgstr "Ora è possibile mettere in pausa le operazioni su file senza difficoltà sulle finestre di copia e spostamento di Thunar. Inoltre è stato aggiunto supporto per trasferimento di file in coda, memorizzazione sulle impostazioni di visualizzazione per cartelle e supporto per trasparenza nei temi Gtk."
+msgstr "Ora è possibile mettere in pausa le operazioni su file senza difficoltà sulle finestre di copia e spostamento di Thunar. Inoltre è stato aggiunto supporto per trasferimento di file in coda, memorizzazione delle impostazioni di visualizzazione per cartelle e supporto per trasparenza nei temi Gtk."
 
 #: about/tour.php:42 about/tour416.php:42
 msgid "Thunar can now pause copying/moving files"
@@ -2672,7 +2672,7 @@ msgid ""
 "This tour will introduce you to new major features of Xfce 4.14. It only "
 "covers improvements made on the surface; for the full list of changes, see "
 "the <a href=\"/download/changelogs/\">changelogs</a>."
-msgstr ""
+msgstr "Questo tour descrive le principali novità introdotte da Xfce 4.14. Le novità descritte rappresentano solamente quelle visibili dall'utente. Per un elenco completo dei cambiamenti, consultare l'<a href=\"/download/changelogs/\">elenco delle modifiche</a>."
 
 #: about/tour414.php:9
 msgid "Color Profiles Dialog"
@@ -2685,11 +2685,11 @@ msgid ""
 "profiles</a> for monitors, printers and scanners was introduced. It acts as "
 "a frontend to various daemons that talk directly to colord, e.g. saned "
 "(scanners), cupsd (printers) or xiccd (monitors)."
-msgstr ""
+msgstr "È stata introdotta una nuova finestra per impostare <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/color'>profili dei colori</a> per schermi, stampanti e scanner. Esso si comporta come un frontend per vari demoni che comunicano direttamente con colord, come ad esempio saned (scanner), cupsd (stampanti) o xiccd (schermi). "
 
 #: about/tour414.php:13
 msgid "The new color profiles dialog"
-msgstr ""
+msgstr "La nuova finestra di profili dei colori"
 
 #: about/tour414.php:17
 msgid ""
@@ -2703,7 +2703,7 @@ msgid ""
 "enable it. If multiple profiles exist, it will pop up the minimal dialog and"
 " offer all profiles in addition to the previously available pre-sets "
 "(internal only, mirror, extend and external only)."
-msgstr ""
+msgstr "Sono stati fatti molti miglioramenti alla finestra delle <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/display'>impostazioni dello schermo</a>. Oltre ad alcuni cambiamenti alla interfaccia utente per rendere l'interazione più intuitiva (introducendo numerazione di schermi, mostrando l'indicatore dello schermo primario con un accesso veloce alle impostazioni del pannello, notifiche, scrivania, ecc.) è stata aggiunta una opzione per salvare e ripristinare profili completi di colori. Se esiste un solo profilo per una configurazione, il demone delle impostazioni di Xfce lo abiliterà automaticamente. Se ci sono più profili, comparirà una finestra che offrirà tutti i profili oltre a quelli presenti precedentemente (solo schermo interno, specchio, estensione, solo schermo esterno)."
 
 #: about/tour414.php:19
 msgid "The primary indicator"
@@ -2711,13 +2711,13 @@ msgstr "L'indicatore di schermo principale"
 
 #: about/tour414.php:20
 msgid "The display profile list"
-msgstr ""
+msgstr "La lista dei profili dello schermo"
 
 #: about/tour414.php:21
 msgid ""
 "The improved minimal dialog - in this case only showing one profile only "
 "which never happens anymore now ;)"
-msgstr ""
+msgstr "La finestra minimale migliorata - in questo caso mostra un solo profilo, cosa che ora non succede più ;)"
 
 #: about/tour414.php:23
 msgid "Accessibility"
@@ -2731,15 +2731,15 @@ msgid ""
 "systems were still missing is to set a (custom) keyboard shortcut (by "
 "default: Super+F1) to visually locate the mouse pointer. This feature was "
 "added in Xfce 4.14."
-msgstr ""
+msgstr "Una opzione di <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/accessibility'>accessibilità</a> che mancava ancora alle persone arrivate da altri ambienti desktop o sistemi operativi era quella di impostare una scorciatoia da tastiera personalizzata (predefinito: Super+F1) per localizzare visualmente il puntatore del mouse. Questa opzione è stata aggiunta con Xfce 4.14."
 
 #: about/tour414.php:27
 msgid "The mouse pointer location animation"
-msgstr ""
+msgstr "L'animazione della localizzazione del puntatore del mouse"
 
 #: about/tour414.php:31
 msgid "General: Icon size"
-msgstr ""
+msgstr "Generale: Dimensione delle icone"
 
 #: about/tour414.php:33
 msgid ""
@@ -2751,7 +2751,7 @@ msgid ""
 "doesn't allow anything other than 16px or 32px.) This means setups that were"
 " previously impossible, because icons would upscale automatically according "
 "to size-steps hard-coded in the panel, are now possible (see below)."
-msgstr ""
+msgstr "Una nuova opzione che abbiamo introdotto nel <a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/start'>pannello</a> è la possibilità di controllare la dimensione delle icone per tutte le estensioni. (Dire \"tutti\" non è tecnicamente corretto, in quanto per ora alcune estensioni non supportano il nuovo API, ma adesso <i>possono</i>. Inoltre l'estensione dei tasti delle finestre è una eccezione, in quanto libwnck non dà la possibilità di usare valori diversi da 16px e 32px.) Questo significa che le configurazioni che erano impossibili in precedenza, poiché le icone si ingrandirebbero basandosi su hard-coded size-steps nel pannello, adesso sono possibili (vedi sotto)."
 
 #: about/tour414.php:35
 msgid "A 32px tall panel with 16px icons"
@@ -2759,7 +2759,7 @@ msgstr "Un pannello alto 32px con icone di 16px"
 
 #: about/tour414.php:37
 msgid "Window buttons: Grouping"
-msgstr ""
+msgstr "Pulsanti delle finestre: Raggruppamento"
 
 #: about/tour414.php:39
 msgid ""
@@ -2768,11 +2768,11 @@ msgid ""
 "plugin</a>, both functionally (by improving the matching and icon-finding) "
 "and visually by providing a new group indicator that is less likely to clash"
 " with window titles containing an enumeration in brackets."
-msgstr ""
+msgstr "Raggruppamento è stato migliorato nell'<a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/tasklist'>estensione dei pulsanti delle finestre</a>, sia funzionalmente (migliorando la corrispondenza e la ricerca delle icone) che visualmente, fornendo un nuovo indicatore di gruppo che è meno probabile che si scontri con i titoli delle finestre che contengono un'enumerazione tra le parentesi. "
 
 #: about/tour414.php:41
 msgid "The new group indicator (two terminal windows)"
-msgstr ""
+msgstr "Il nuovo indicatore di gruppo (due finestre del terminale)"
 
 #: about/tour414.php:43
 msgid "Session"
@@ -2787,11 +2787,11 @@ msgid ""
 "This should make it way more discoverable for users if they actually have "
 "saved sessions that influence the startup behavior - previously this had to "
 "be checked manually in the filesystem."
-msgstr ""
+msgstr "Quando una <a href='https://docs.xfce.org/xfce/xfce4-session/4.14/preferences'>sessione</a> viene salvata, una nuova scheda viene dinamicamente aggiunta alla finestra delle impostazioni che mostra tutte le sessioni salvate e permette di cancellarne una oppure tutte. Questo dovrebbe permettere agli utenti di capire più facilmente se hanno delle sessioni salvate che influenzano il comportamento di avvio - in precedenza tale cosa doveva essere controllata manualmente nel filesystem."
 
 #: about/tour414.php:49
 msgid "The settings dialog after saving a session"
-msgstr ""
+msgstr "La finestra delle impostazioni dopo aver salvato una sessione"
 
 #: about/tour414.php:53
 msgid "Pathbar"
@@ -2805,7 +2805,7 @@ msgid ""
 "mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. "
 "folders), an easily accessible way to hand-type a path as well as an "
 "improved look."
-msgstr ""
+msgstr "Fino a Xfce 4.12 <a href='https://docs.xfce.org/xfce/thunar/4.14/start'>Thunar</a> offriva due opzioni per la barra del persorso/posizione. Il meglio dei due mondi è stato messo in un'unica, potente barra del percorso, che offre breadcrumb cliccabili (ovvero le cartelle), una via facilmente accessibile per scrivere manualmente il percorso ed un aspetto migliorato."
 
 #: about/tour414.php:57
 msgid "Thunar's new pathbar"
@@ -2813,7 +2813,7 @@ msgstr "La nuova barra di navigazione di Thunar"
 
 #: about/tour414.php:59
 msgid "Folder Thumbnailer"
-msgstr ""
+msgstr "Thumbnailer delle cartelle"
 
 #: about/tour414.php:61
 msgid ""
@@ -2822,11 +2822,11 @@ msgid ""
 "href='https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders'>Please"
 " read the docs</a> on how to set this up (if your distribution hasn't "
 "enabled it by default)."
-msgstr ""
+msgstr "Cosi come sulla Scrivania, ora potete salvare una immagine con nome \"folder.jpg\" in una cartella per usarla come icona della cartella stessa nel Gestore di File. Nota: <a href='https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders'>Per favore leggi la documentazione</a> sulla configurazione (se la tua distribuzione non ha abilitato questa opzione di default)."
 
 #: about/tour414.php:63
 msgid "Thunar's new folder thumbnails"
-msgstr ""
+msgstr "Le nuove miniature delle cartelle di Thunar"
 
 #: about/tour414.php:69
 msgid ""
@@ -2836,11 +2836,11 @@ msgid ""
 " themes). It also shows an indicator if applications inhibit power "
 "management functions like suspend (when power is low) or display dimming "
 "(after a defined timeout)."
-msgstr ""
+msgstr "L'<a href='https://docs.xfce.org/xfce/xfce4-power-manager/4.14/panel-plugin'>estensione del pannello del Gestore di Energia</a> ora supporta icone simboliche e usa i nomi standard delle icone di UPower (per renderla compatibile con tutti i temi delle icone). Inolte essa mostra un indicatore nel caso in cui delle applicazioni inibiscono funzioni della gestione di energia come sospensione (quando la batteria è scarica) o oscuramento dello schermo (dopo un tempo definito)."
 
 #: about/tour414.php:71
 msgid "Parole's video playback is inhibiting power management"
-msgstr ""
+msgstr "Riproduttore di video Parole sta inibendo la gestione di energia"
 
 #: about/tour414.php:73
 msgid "Notification Service"
@@ -2853,21 +2853,21 @@ msgid ""
 "including a notifications log, the possibility to disable notifications per "
 "application, a global 'Do Not Disturb' mode, which inhibits all "
 "notifications, and finally a new animation ('slide out')."
-msgstr ""
+msgstr "Sono state aggiunte molte nuove opzioni nel <a href='https://docs.xfce.org/apps/notifyd/start'>Servizio di notifiche</a> di Xfce, come il registro delle notifiche, la possibilità di disabilitare le notifiche per una certa applicazione, una modalità globale \"Non disturbare\", che inibisce tutte le notifiche, e la nuova animazione (\"slide out\")."
 
 #: about/tour414.php:79
 msgid "The new notification animation 'slide out'"
-msgstr ""
+msgstr "La nuova animazione di notifica \"slide out\""
 
 #: about/tour414.php:83
 msgid ""
 "Furthermore a new panel plugin was added which provides quick access to both"
 " the 'Do Not Disturb' mode as well as the log of recent notifications."
-msgstr ""
+msgstr "Inoltre è stata aggiunta una nuova estensione di pannello che offre un accesso rapido sia alla modalità \"Non disturbare\" che al registro delle notifiche recenti."
 
 #: about/tour414.php:85
 msgid "The new panel plugin"
-msgstr ""
+msgstr "La nuova estensione del pannello"
 
 #: about/tour414.php:89
 msgid "Mini Mode"
@@ -2878,16 +2878,16 @@ msgid ""
 "<a href='https://docs.xfce.org/apps/parole/start'>Parole</a> now features a "
 "'Mini Mode', where the interface is simplified to just display the album "
 "artwork and can be positioned over other windows without getting in the way."
-msgstr ""
+msgstr "<a href='https://docs.xfce.org/apps/parole/start'>Parole</a> ora presenta la \"Modalità Mini\", dove l'interfaccia è semplificata per mostrare solo la copertina del album e può essere posizionato sopra altre finestre senza essere d'intralcio."
 
 #: about/tour414.php:93
 msgid ""
 "Just right-click anywhere in the player window to select 'Mini Mode'..."
-msgstr ""
+msgstr "Premere con un clic destro del mouse in un'area qualsiasi della finestra del player per selezionare \"Modalità Mini\"..."
 
 #: about/tour414.php:95
 msgid "Afterwards, enjoy a truly minimalistic playback experience!"
-msgstr ""
+msgstr "Dopodiché, godetevi un'esperienza di riproduzione veramente minimalista!"
 
 #: about/tour414.php:97
 msgid "Screensaver"
@@ -2895,7 +2895,7 @@ msgstr "Salvaschermo"
 
 #: about/tour414.php:99
 msgid "A Modern Locking Experience"
-msgstr ""
+msgstr "Un'esperienza di chiusura moderna"
 
 #: about/tour414.php:101
 msgid ""
@@ -2905,19 +2905,19 @@ msgid ""
 "screen and screensaver, and all Xscreensaver themes are supported (with "
 "configuration options) out of the box. If you prefer a blank screen, Xfce "
 "Screensaver also includes a blank screen option with DPMS integration."
-msgstr ""
+msgstr "Il nuovo <a href='https://docs.xfce.org/apps/screensaver/start'>Salvaschermo</a> di Xfce offre un'esperienza configurabile della schermata di blocco. È possibile alternare selettivamente la schermata di blocco ed il salvaschermo, e tutti i temi di Xscreensaver sono supportati (con opzioni di configurazione) out of the box. Se preferite uno schermo vuoto, Salvaschermo di Xfce include anche l'opzione per schermo vuoto con integrazione DPMS."
 
 #: about/tour414.php:103
 msgid ""
 "The new lock screen, sharing styles with LightDM GTK+ Greeter for a "
 "consistent experience."
-msgstr ""
+msgstr "La nuova schermata di blocco che condivide lo stile con LightDM GTK+ Greeter per un'esperienza consistente."
 
 #: about/tour414.php:104
 msgid ""
 "Make it your own. Xfce Screensaver supports a multitude of configuration "
 "options."
-msgstr ""
+msgstr "Rendetelo vostro. Il Salvaschermo di Xfce supporta una moltitudine di opzioni di configurazione."
 
 #: about/tour414.php:108
 msgid ""
@@ -2930,15 +2930,15 @@ msgid ""
 "executing pasted text as a command) and support for zooming. Finally when "
 "closing a tab or window, there is a new check for running processes which "
 "prevents accidentally closing a terminal that is running a process."
-msgstr ""
+msgstr "Un sacco di feature si sono accumulate nel <a href='https://docs.xfce.org/apps/terminal/start'>Terminale</a> nel corso degli ultimi anni. Tra queste la possibilità di \"Annullare chiusura scheda\" e \"Chiudere altre schede\" (simile ai browser web), \"Copia input su tutte le schede\", \"Imposta il colore del titolo\" (permette di configurare il colore del testo della scheda), \"Salva contenuti\" (salva contenuti della scheda su un file), una finestra di \"Operazione di incollatura non sicura\" (la quale impedisce al terminale di eseguire automaticamente il testo incollato come un comando) e supporto per ingrandimento. Per concludere quando una scheda/finestra viene chiusa, c'è un nuovo controllo per processi in esecuzione che blocca la chiusura accidentale di un terminale che ha un processo in esecuzione."
 
 #: about/tour414.php:110
 msgid "Zooming, 'Save Contents' and much more!"
-msgstr ""
+msgstr "Ingrandimento, \"Salva contenuti\" e molto altro!"
 
 #: about/tour414.php:112
 msgid "Screenshooter"
-msgstr ""
+msgstr "Istantanea"
 
 #: about/tour414.php:114
 msgid ""
@@ -2947,11 +2947,11 @@ msgid ""
 "gained several notable features, amongst others seeing the size of the "
 "screenshot while dragging, moving the selection with the mouse and better <a"
 " href='https://imgur.com'>imgur</a> integration."
-msgstr ""
+msgstr "L'<a href='https://docs.xfce.org/apps/screenshooter/start'>Istantanea</a> di Xfce ha ricevuto feature degne di nota, tra le quali la possibilità di vedere la dimensione della schermata mentre si trascina e si sposta la selezione con il mouse ed una migliore integrazione con <a href='https://imgur.com'>imgur</a>."
 
 #: about/tour414.php:116
 msgid "I can drag and move the screenshot area, whoop whoop!"
-msgstr ""
+msgstr "Posso trascinare e spostare l'area della schermata, whoop whoop!"
 
 #: community/index.php:3 header.php:63
 msgid "Community"
@@ -3035,7 +3035,7 @@ msgstr "Blog"
 
 #: community/nav.php:10
 msgid "read what the contributors to Xfce have to say"
-msgstr ""
+msgstr "Leggi cosa hanno da dire i contributori di Xfce"
 
 #: community/nav.php:14
 msgid "Wiki"
@@ -3363,7 +3363,7 @@ msgstr "Permette di configurare ogni aspetto del proprio ambiente grafico."
 msgid ""
 "Thunar is a modern file manager designed from the ground up to be fast and "
 "easy-to-use."
-msgstr ""
+msgstr "Thunar è un moderno gestore di file progettato fin dall'inizio per essere veloce e facile da usare."
 
 #: projects/index.php:68
 msgid ""
@@ -3373,7 +3373,7 @@ msgstr "Permette di cercare, avviare e trovare informazioni relative alle applic
 
 #: projects/index.php:76
 msgid "Manages the power sources of the computer and connected devices."
-msgstr ""
+msgstr "Gestisce le sorgenti di energia del computer e dei dispositivi connessi."
 
 #: projects/index.php:82
 msgid "Xfce Libraries"
@@ -3381,7 +3381,7 @@ msgstr "Librerie di Xfce"
 
 #: projects/index.php:84
 msgid "Widgets library for the Xfce desktop environment."
-msgstr ""
+msgstr "Libreria di widget per ambiente desktop Xfce."
 
 #: projects/index.php:92
 msgid "Simple client-server configuration storage and query system."
@@ -3415,31 +3415,31 @@ msgstr "Ristretto è un visualizzatore di immagini leggero."
 
 #: projects/index.php:127
 msgid "Screen Saver"
-msgstr ""
+msgstr "Salvaschemo"
 
 #: projects/index.php:129
 msgid "A simple screen saver and locker."
-msgstr ""
+msgstr "Un semplice salvaschermo e locker."
 
 #: projects/index.php:135
 msgid "Screen Shooter"
-msgstr ""
+msgstr "Istantanea"
 
 #: projects/index.php:137
 msgid "An application to take screenshots."
-msgstr ""
+msgstr "Un'applicazione per scattare un'istantanea dello schermo."
 
 #: projects/index.php:145
 msgid "A simple text editor."
-msgstr ""
+msgstr "Un semplice editor di testo."
 
 #: projects/index.php:151
 msgid "Notifications"
-msgstr ""
+msgstr "Notifiche"
 
 #: projects/index.php:153
 msgid "Easily themable notification daemon with transparency effects."
-msgstr ""
+msgstr "Un demone delle notifiche facilmente personalizzabile con effetti di trasparenza."
 
 #: 404.php:1
 msgid "Page not found"
@@ -3506,7 +3506,7 @@ msgid ""
 "Hosted by <a href=\"https://gandi.net\" target=\"_blank\">Gandi</a>. "
 "Additional servers provided by <a href=\"https://fosshost.org\" "
 "target=\"_blank\">fosshost.org</a>."
-msgstr ""
+msgstr "Ospitato da <a href=\"https://gandi.net\" target=\"_blank\">Gandi</a>. Ulteriori server forniti da <a href=\"https://fosshost.org\" target=\"_blank\">fosshost.org</a>."
 
 #: header.php:6 frontpage.php:44
 msgid "Xfce Desktop Environment"
@@ -3572,7 +3572,7 @@ msgstr "Elenco dei cambiamenti"
 
 #: frontpage.php:54
 msgid "read the full release notes"
-msgstr ""
+msgstr "leggi tutte le note di rilascio"
 
 #: frontpage.php:58
 #, php-format
@@ -3597,14 +3597,14 @@ msgstr ""
 
 #: news-array.php:10
 msgid "Xfce 4.16 released"
-msgstr ""
+msgstr "Rilasciato Xfce 4.16"
 
 #: news-array.php:15
 msgid ""
 "Today, after 1 year and 4 months of work, we are happy to announce the "
 "release of the Xfce desktop 4.16, a new stable version that supersedes Xfce "
 "4.14."
-msgstr ""
+msgstr "Oggi, dopo 1 anno e 4 mesi di lavoro, siamo contenti di annunciare il rilascio di desktop Xfce 4.16, una nuova versione stabile che sostituisce Xfce 4.14."
 
 #: news-array.php:16
 msgid ""
