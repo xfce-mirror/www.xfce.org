@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2021-01-19 00:49+0100\n"
-"PO-Revision-Date: 2021-02-15 14:40+0000\n"
+"PO-Revision-Date: 2021-04-13 08:25+0000\n"
 "Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/xfce/xfce-www/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -2707,7 +2707,7 @@ msgid ""
 "enable it. If multiple profiles exist, it will pop up the minimal dialog and"
 " offer all profiles in addition to the previously available pre-sets "
 "(internal only, mirror, extend and external only)."
-msgstr ""
+msgstr "对<a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/display'>显示对话框</a>进行了一些改进。除了调整用户界面以使交互更加直观（引入显示编号，显示主要指示器以及可快速访问面板，通知和桌面设置等）之外，还添加了保存和还原完整显示配置文件的功能。如果安装程序使用单个配置文件，则 Xfce 设置守护程序将自动启用它。如果存在多个配置文件，则它将弹出最小对话框，并提供除先前可用的预设（仅内部，仅镜像，扩展和外部）之外的所有配置文件。"
 
 #: about/tour414.php:19
 msgid "The primary indicator"
@@ -2755,7 +2755,7 @@ msgid ""
 "doesn't allow anything other than 16px or 32px.) This means setups that were"
 " previously impossible, because icons would upscale automatically according "
 "to size-steps hard-coded in the panel, are now possible (see below)."
-msgstr ""
+msgstr "我们在<a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/start'>面板</a>中引入的一项新功能是能够控制所有插件的图标大小。（“所有”在技术上可能不正确，因为到目前为止，并非所有插件都支持新的 API，但现在<i>可以</i>了。窗口按钮插件是一个例外，因为 libwnck 不允许 16px 或 32px 以外的任何东西。）这意味着以前不可能进行的设置，因为现在图标可以根据面板中硬编码的尺寸比例自动进行缩放，变得可能了（请看下面）"
 
 #: about/tour414.php:35
 msgid "A 32px tall panel with 16px icons"
@@ -2809,7 +2809,7 @@ msgid ""
 "mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. "
 "folders), an easily accessible way to hand-type a path as well as an "
 "improved look."
-msgstr ""
+msgstr "在 Xfce 4.12 之前，<a href='https://docs.xfce.org/xfce/thunar/4.14/start'>Thunar</a>提供了路径栏/位置栏两个选项。两项功能现已整合到一个功能强大的路径栏中，它提供了可点击的面包屑（即文件夹），改善了外观，并易于手动输入路径。 "
 
 #: about/tour414.php:57
 msgid "Thunar's new pathbar"
@@ -3626,7 +3626,7 @@ msgid ""
 "None of this would have been possible without our hosting being sponsored by"
 " <a href=\"https://gandi.net\">Gandi</a> and <a "
 "href=\"https://fosshost.org\">Fosshost</a>!"
-msgstr ""
+msgstr "在许多方面（不仅在大流行方面，是在整个方面），4.16 版本都是一个特殊的周期。非代码更改的基石之一是我们向 GitLab 的迁移，开发工作流程发生了变化，使协作更加友好和更受欢迎。在某些情况下，<a href=\"https://www.xfce.org/download/changelogs/4.16\">xfce 4.16 巨大的变更日志</a>可以归因于提出合并请求的新贡献者（仅我们的核心组件就合并或关闭了288个合并请求！）。我们还创建了一个参考 Docker 容器（<a href=\"https://hub.docker.com/r/xfce/xfce-build\">xfce/xfce-build</a>），并向所有组件添加了 CI 管道，以确保我们不会破坏构建。如果没有 <a href=\"https://gandi.net\">Gandi</a> 和 <a href=\"https://fosshost.org\">Fosshost</a> 赞助我们的托管服务，这一切都不可能实现！"
 
 #: news-array.php:17
 msgid ""
@@ -3637,7 +3637,7 @@ msgid ""
 " this will generate some work for icon theme maintainers (if they really "
 "want to override our gorgeous icons ;)) but we believe the longterm benefit "
 "outweighs this one-time effort."
-msgstr ""
+msgstr "另一个很大的变化涉及到我们的视觉标识，我们从随机图标（部分基于 Tango）提取，混合更新为不遵循任何命名方案的，一个新的视觉一致的集合（遵循 freedesktop.org 命名规范和固定的调色板）。我们知道这将为图标主题维护者带来一些工作（如果他们真的想覆盖我们华丽的图标的话），但是我们相信长期的利益大于一次性的努力。"
 
 #: news-array.php:19
 msgid ""
@@ -3660,7 +3660,7 @@ msgid ""
 "shown there. Furthermore some handy new options to zoom the cursor along "
 "with rest of the display as well as an option to keep minimized windows in "
 "the most recently used list complement this release."
-msgstr ""
+msgstr "<a href=\"https://docs.xfce.org/xfce/xfwm4/start\">窗口管理器</a>在合成和 GLX 方面再次获得了许多更新和改进。如果设置了主显示器，则现在仅在此处显示 alt-tab 对话框。此外，该版本进行了补充一些方便的新选项，可将光标与其他显示一起缩放，以及将最小化窗口保留在最近使用的列表中。"
 
 #: news-array.php:24
 msgid ""
@@ -3675,7 +3675,7 @@ msgid ""
 "plugin now offering to `Launch a new instance` of an application and the "
 "Workspace Switcher now optionally showing automatic numbering for "
 "workspaces."
-msgstr ""
+msgstr "我们在<a href=\"https://docs.xfce.org/xfce/xfce4-panel/start\">面板</a>中添加了一个名为“statustray“的新插件，它结合了 StatusNotifier 和传统的 Systray 项目。动画自动隐藏过渡现在清楚地显示用户“面板去了哪里”，暗黑模式（默认启用）使面板与 Gtk 默认的 Adwaita 这样的亮主题更接近背景。此外，还引入了一些更小的改进，比如从启动器的右键菜单访问桌面操作，窗口按钮插件现在提供应用程序的“启动新实例”操作，工作区切换器现在可以选择显示工作区的自动编号。"
 
 #: news-array.php:25
 msgid ""
