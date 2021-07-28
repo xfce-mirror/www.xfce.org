@@ -39,8 +39,8 @@
   <?php E_('Once a bug has been found, the cause of the bug needs to be tracked down, and then (obviously) fixed. If you want to get involved in the actual development process of Xfce a great way to start is by solving bugs and then submitting a patch file.') ?>
 </p>
 
-<h2><?php E_('Bountysource') ?></h2>
+<h2><?php E_('OpenCollective') ?></h2>
 <p>
-  <?php E_('If you want to fund the project, you can reward a bounty to the Xfce project [and leave it to the developers how to spend it]')?>
-  <?php learnmore ("https://www.bountysource.com/teams/xfce"); ?>
+  <?php E_('If you want to fund the project, you can use OpenCollective. Xfce has created two collectives, known as <a href="https://opencollective.com/xfce">Xfce ($)</a> and <a href="https://opencollective.com/xfce-eu">Xfce-Eu (€)</a> respectively.') ?>
+  <?php learnmore ("https://mail.xfce.org/pipermail/xfce/2021-May/037348.html"); ?>
 </p>
