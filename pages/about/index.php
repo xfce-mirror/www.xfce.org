@@ -42,10 +42,10 @@
   <dd><?php E_('Shows the applications installed on your system in categories, so you can quickly find and launch them.') ?></dd>
 
   <dt><?php E_('File Manager') ?></dt>
-  <dd><?php E_('Provides the basic file management features and unique utilities like the bulk renamer.') ?></dd>
+  <dd><?php E_('Provides the basic file-management features and unique utilities like the bulk renamer.') ?></dd>
   
-  <dt><?php E_('Setting Manager') ?></dt>
-  <dd><?php E_('Tools to control the various settings of the desktop like keyboard shortcuts, appearance, display settings etcetera.') ?></dd>
+  <dt><?php E_('Settings Manager') ?></dt>
+  <dd><?php E_('Tools to control the various settings of the desktop; like keyboard shortcuts, appearance, display settings, etc.') ?></dd>
 </dl>
 <p>
   <?php E_('Beside the basic set of modules, Xfce also provides numerous additional applications and plugins so you can extend your desktop the way you like, for example a terminal emulator, text editor, sound mixer, application finder, image viewer, iCal based calendar and a CD and DVD burning application. You can read more about the modules of Xfce in the <a href="/projects">projects</a> page.') ?>
