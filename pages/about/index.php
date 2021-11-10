@@ -42,7 +42,7 @@
   <dd><?php E_('Shows the applications installed on your system in categories, so you can quickly find and launch them.') ?></dd>
 
   <dt><?php E_('File Manager') ?></dt>
-  <dd><?php E_('Provides the basic file management features and unique utilities like the bulk renamer.') ?></dd>
+  <dd><?php E_('Provides the basic file-management features and unique utilities like the bulk renamer.') ?></dd>
   
   <dt><?php E_('Settings Manager') ?></dt>
   <dd><?php E_('Tools to control the various settings of the desktop; like keyboard shortcuts, appearance, display settings, etc.') ?></dd>
