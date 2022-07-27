@@ -2876,7 +2876,7 @@ msgid ""
 "Xfce is a lightweight desktop environment for UNIX-like operating systems. "
 "It aims to be fast and low on system resources, while still being visually "
 "appealing and user friendly."
-msgstr "Xfce — нетребовательное к ресурсам окружение рабочего стола для UNIX-подобных операционных систем. Его разработчики делают акцент на обеспечении быстродействия и низкого потребления системных ресурсов, не забывая о внешней привлекательности и удобстве для пользователей."
+msgstr "Xfce — это облегченная среда рабочего стола для UNIX-подобных операционных систем. Она стремится быть быстрой и потреблять мало системных ресурсов, при этом оставаясь визуально привлекательной и удобной для пользователя."
 
 #: about/index.php:11
 msgid ""
@@ -3633,7 +3633,7 @@ msgid ""
 "None of this would have been possible without our hosting being sponsored by"
 " <a href=\"https://gandi.net\">Gandi</a> and <a "
 "href=\"https://fosshost.org\">Fosshost</a>!"
-msgstr ""
+msgstr "4.16 был особым циклом во многих отношениях (не только с точки зрения пандемии, но и). Одним из краеугольных камней изменений, не связанных с кодом, является наш переход на GitLab, который представляет собой изменение рабочего процесса разработки и огромный шаг вперед с точки зрения того, чтобы стать более дружелюбным и гостеприимным для участников. Частично <a href=\"https://www.xfce.org/download/changelogs/4.16\">огромный список изменений в Xfce 4.16</a> можно отнести на счет новых участников, предлагающих запросы на слияние (только для наших основных компонентов было объединено или закрыто 288 запросов на слияние!). Мы также создали эталонный Docker контейнер (<a href=\"https://hub.docker.com/r/xfce/xfce-build\">xfce/xfce-build</a>) и добавили конвейеры CI ко всем компонентам, чтобы гарантировать, что мы не нарушим сборку. Все это было бы невозможно, если бы наш хостинг не спонсировался <a href=\"https://gandi.net\">Gandi</a> и <a href=\"https://fosshost.org\">Fosshost</a>!"
 
 #: news-array.php:17
 msgid ""
@@ -3667,7 +3667,7 @@ msgid ""
 "shown there. Furthermore some handy new options to zoom the cursor along "
 "with rest of the display as well as an option to keep minimized windows in "
 "the most recently used list complement this release."
-msgstr ""
+msgstr "<a href=\"https://docs.xfce.org/xfce/xfwm4/start\">Оконный менеджер</a> снова получил множество обновлений и улучшений в области компоновки и GLX. Если был установлен основной дисплей, диалоговое окно alt-tab теперь будет отображаться только там. Кроме того, этот выпуск дополняют некоторые удобные новые опции для масштабирования курсора вместе с остальной частью дисплея, а также возможность сохранения свернутых окон в списке последних использованных."
 
 #: news-array.php:24
 msgid ""
@@ -3682,7 +3682,7 @@ msgid ""
 "plugin now offering to `Launch a new instance` of an application and the "
 "Workspace Switcher now optionally showing automatic numbering for "
 "workspaces."
-msgstr ""
+msgstr "Мы добавили новый плагин к <a href=\"https://docs.xfce.org/xfce/xfce4-panel/start\">панели</a> названный \"statustray\", который сочетает в себе как StatusNotifier, так и устаревшие элементы Systray. Анимированный автоматический переход теперь четко показывает пользователю, \"куда ушла панель\", а темный режим (включен по умолчанию) заставляет панель немного отступать на задний план с помощью ярких тем, таких как по умолчанию Gtk Adwaita. Также было внесено еще несколько небольших улучшений, таких как доступ к действиям на рабочем столе из контекстного меню Launcher, плагин Window Buttons теперь предлагает \"Запустить новый экземпляр\" приложения, а переключатель Workspace теперь дополнительно показывает автоматическую нумерацию рабочих пространств."
 
 #: news-array.php:25
 msgid ""
@@ -3692,14 +3692,14 @@ msgid ""
 "asterisk and adding aspect ratios next to resolutions. Falling back to a "
 "working mode after misconfiguring the display layout has also been made more"
 " robust."
-msgstr ""
+msgstr "В <a href=\"https://docs.xfce.org/xfce/xfce4-settings/display\">диалоговое окно дисплея</a> была добавлена поддержка дробного масштабирования, а также выделение предпочтительного режима отображения звездочкой и добавление соотношений сторон рядом с разрешениями. Возврат к рабочему режиму после неправильной настройки макета дисплея также стал более надежным."
 
 #: news-array.php:26
 msgid ""
 "A new tab in the \"About Xfce\" dialog shows basic system information like "
 "CPU or GPU type. Furthermore the layout and visuals of the dialog were "
 "improved."
-msgstr ""
+msgstr "Новая вкладка в диалоговом окне \"О Xfce\" показывает основную системную информацию, такую как тип процессора или графического процессора. Кроме того, были улучшены макет и визуальные эффекты диалогового окна."
 
 #: news-array.php:27
 msgid ""
@@ -3707,14 +3707,14 @@ msgid ""
 "manager</a> has improved search and filter capabilities. Furthermore all "
 "settings dialogs now use window decorations drawn by Gtk (client side "
 "decorations)."
-msgstr ""
+msgstr "<a href=\"https://docs.xfce.org/xfce/xfce4-settings/start\">Менеджер настроек</a> имеет улучшенные возможности поиска и фильтрации. Кроме того, во всех диалоговых окнах настроек теперь используются украшения окон, нарисованные Gtk (украшения на стороне клиента)."
 
 #: news-array.php:28
 msgid ""
 "The \"Mime Settings\" and \"Preferred Applications\" dialogs were merged "
 "into the \"Default Applications\" dialog - making it easier for users to set"
 " which application handles which filetype or action from one place."
-msgstr ""
+msgstr "Диалоговые окна \"Настройки Mime\" и \"Предпочтительные приложения\" были объединены в диалоговое окно \"Приложения по умолчанию\", что упрощает пользователям настройку того, какое приложение обрабатывает тот или иной тип файла или действие из одного места."
 
 #: news-array.php:29
 msgid ""
@@ -3723,21 +3723,21 @@ msgid ""
 "boatload of fixes and quite a few notable features, including pause for "
 "copy/move operations, support for queued file transfer, remembering view "
 "settings per directory and support for transparency in Gtk themes."
-msgstr ""
+msgstr "Наш файловый менеджер <a href=\"https://docs.xfce.org/xfce/thunar/start\">Thunar</a> получил множество исправлений и довольно много примечательных функций, включая приостановку операций копирования / перемещения, поддержку передачи файлов в очереди, запоминание настроек просмотра для каждого каталога и поддержку прозрачности в темах Gtk."
 
 #: news-array.php:30
 msgid ""
 "Our <a href=\"https://docs.xfce.org/xfce/thunar/tumbler\">thumbnailing "
 "service tumbler</a> became more flexible by being able to exclude paths. "
 "Furthermore support for .epub (e-book format) was added."
-msgstr ""
+msgstr "Наша <a href=\"https://docs.xfce.org/xfce/thunar/tumbler\">служба создания миниатюр tumbler</a> стала более гибкой благодаря возможности исключать пути. Кроме того, была добавлена поддержка .epub (формат электронной книги)."
 
 #: news-array.php:31
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-session/start\">session "
 "manager</a> offers improved support for GPG agent 2.1 and the setting dialog"
 " was visually improved."
-msgstr ""
+msgstr "<a href=\"https://docs.xfce.org/xfce/xfce4-session/start\">Диспетчер сеансов</a> предлагает улучшенную поддержку GPG агента 2.1, а диалоговое окно настройки было визуально улучшено."
 
 #: news-array.php:32
 msgid ""
@@ -3747,7 +3747,7 @@ msgid ""
 " `Presentation Mode` is enabled, more accurate battery status icons and "
 "automatically dismissing low-power notifications upon the connection of a "
 "charger."
-msgstr ""
+msgstr "<a href=\"https://docs.xfce.org/xfce/xfce4-power-manager/start\">Диспетчер энергопотребления</a> получил множество исправлений и некоторые более мелкие функции - среди них очистка диалогового окна настроек, дополнительный визуальный индикатор включения режима презентации, более точные значки состояния батареи и автоматическое отключение уведомлений о низком энергопотреблении при подключении зарядного устройства."
 
 #: news-array.php:33
 msgid ""
