@@ -9,13 +9,13 @@ $head['title'] = R_('Download');
 <h1><?php echo $head['title'] ?></h1>
 
 <p>
-  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. Instructions how to compile Xfce can be found <a href="https://docs.xfce.org/xfce/building" class="external">here</a>.') ?>
+  <?php E_('Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. <a href="https://docs.xfce.org/xfce/building" class="external">How to compile Xfce </a>.') ?>
 </p>
 
 <h2 id="stable"><?php printf (R_('Stable release %s'), $stable_version) ?></h2>
 
 <p>
-  <?php printf (R_('Xfce %s is the most recent version of the Xfce desktop environment. You can find the changes in this release <a href="/download/changelogs/%s">here</a>.'), $stable_version, $stable_version) ?>
+  <?php printf (R_('Xfce %s is the most recent version of the Xfce desktop environment. <a href="/download/changelogs/%s">Changes in this release </a>.'), $stable_version, $stable_version) ?>
 </p>
 
 <ul>
@@ -34,7 +34,7 @@ $head['title'] = R_('Download');
 <?php if ($preview_visible) { ?>
 <h2 id="unstable"><?php printf (R_('Preview release %s'), $preview_version) ?></h2>
 <p>
-  <?php printf (R_('Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href="#stable">stable release</a> above. You can find the changes in this release <a href="/download/changelogs/%s">here</a>.'), $preview_version, $preview_version) ?>
+  <?php printf (R_('Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href="#stable">stable release</a> above. <a href="/download/changelogs/%s">Changes in this release </a>.'), $preview_version, $preview_version) ?>
 </p>
 
 <ul>
@@ -53,6 +53,6 @@ $head['title'] = R_('Download');
 
 <h2 id="artwork"><?php E_('Artwork') ?></h2>
 <p>
-  <?php printf (R_('You can download the Xfce artwork tarball <a href="%s">here</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license.'),
+  <?php printf (R_('<a href="%s"> Download the Xfce artwork tarball .</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license.'),
                 $static_media .'/downloads/xfce_artwork.tar.bz2') ?>
 </p>
