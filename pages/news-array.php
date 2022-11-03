@@ -7,6 +7,20 @@
  * */
 
 $news = array (
+  array ('title' => R_('Xfce 4.18 released'),
+     'version' => null,
+     'date' => 'XX dec 2022',
+     'author' => 'Release Manager',
+     'paragraphs' => array (
+             R_('Today, after 1 year and 4 months of work, we are happy to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
+             R_('An online tour of the changes in Xfce 4.18 can be viewed here:'),
+             '<a href="https://www.xfce.org/about/tour418">https://www.xfce.org/about/tour418</a>',
+             R_('A detailed overview of the changes between Xfce 4.16 and Xfce 4.18 releases can be found on the following page:'),
+             '<a href="https://www.xfce.org/download/changelogs/4.16">https://www.xfce.org/download/changelogs</a>',
+             R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+             '<a href="https://archive.xfce.org/xfce/4.18">https://archive.xfce.org/xfce/4.18</a>',
+             R_('Best regards,<br />The Xfce development team'))
+     ),
   array ('title' => R_('Xfce 4.16 released'),
      'version' => null,
      'date' => '22 dec 2020',
