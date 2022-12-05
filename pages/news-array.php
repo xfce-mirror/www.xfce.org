@@ -9,14 +9,19 @@
 $news = array (
   array ('title' => R_('Xfce 4.18 released'),
      'version' => null,
-     'date' => 'XX dec 2022',
+     'date' => '15 dec 2022',
      'author' => 'Release Manager',
      'paragraphs' => array (
-             R_('Today, after 1 year and 4 months of work, we are happy to announce the release of the Xfce desktop 4.16, a new stable version that supersedes Xfce 4.14.'),
-             R_('An online tour of the changes in Xfce 4.18 can be viewed here:'),
+             R_('After almost two years of work, we are happy to announce the release of Xfce 4.18 !'),
+             R_('Since Xfce 4.16 a lot of major development happened. Our team added multiple nice new features, did a gazillion of bug fixes and did various minor improvements. Finally, all that is going to be released for your pleasure.'),
+
+             R_('This development cycle was influenced a lot by <a href="https://summerofcode.withgoogle.com/archive/2021/organizations/5706869816950784">GSoC 2021</a> and <a href="https://summerofcode.withgoogle.com/programs/2022/organizations/xfce">GSoC 2022</a>, which led to various new features, most of them for Thunar, the Xfce File Manager.
+            Though as well multiple other Xfce components got a lot of love and many improvements were done under the hood.'),
+             R_('Assuming you have installed Xfce 4.16, here is an overview on the major changes you will see on an upgrade to Xfce 4.18:'),
+
              '<a href="https://www.xfce.org/about/tour418">https://www.xfce.org/about/tour418</a>',
              R_('A detailed overview of the changes between Xfce 4.16 and Xfce 4.18 releases can be found on the following page:'),
-             '<a href="https://www.xfce.org/download/changelogs/4.16">https://www.xfce.org/download/changelogs</a>',
+             '<a href="https://www.xfce.org/download/changelogs/4.18">https://www.xfce.org/download/changelogs</a>',
              R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
              '<a href="https://archive.xfce.org/xfce/4.18">https://archive.xfce.org/xfce/4.18</a>',
              R_('Best regards,<br />The Xfce development team'))
