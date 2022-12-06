@@ -11,18 +11,13 @@
 <h2><?php E_('Related Sites') ?></h2>
 <ul>
 	<li>
-		<a href="https://bugzilla.xfce.org"><?php E_('Bug Tracker') ?>
+		<a href="https://gitlab.xfce.org"><?php E_('GitLab Instance') ?>
 			<span>&ndash; <?php E_('report problems, patches or ideas to help making Xfce better') ?></span>
 		</a>
 	</li>
 	<li>
 		<a href="https://www.transifex.com/organization/xfce/"><?php E_('Transifex') ?>
 			<span>&ndash; <?php E_('the Xfce translation portal') ?></span>
-		</a>
-	</li>
-	<li>
-		<a href="http://buildbot.xfce.org"><?php E_('Buildbot') ?>
-			<span>&ndash; <?php E_('view the buildslaves activity') ?></span>
 		</a>
 	</li>
 </ul>
