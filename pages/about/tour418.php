@@ -2,7 +2,8 @@
 
 <h1><?php echo $head['title'] ?></h1>
 
-  <p><?php E_("This tour will introduce you to new major features of Xfce 4.18. It only covers improvements made on the (user-visible) surface. Check the full <a href=\"/download/changelogs/4.18/\">Xfce 4.18 changelog</a> for a detailed list of changes.") ?></p>
+  <p><?php E_("This tour will introduce you to new major features of Xfce 4.18. It only covers improvements made on the (user-visible) surface.") ?></p>
+  <p><?php E_("Check the full <a href=\"/download/changelogs/4.18/\">Xfce 4.18 changelog</a> for a detailed list of changes.") ?></p>
 
 <h2><?php E_("Widget Library") ?> <em>(libxfce4ui)</em></h2>
   <h3><?php E_("Filename Input Dialog") ?></h3>
