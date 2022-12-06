@@ -26,7 +26,7 @@
      <?php print_figure ("about/tour/4.18/panel-clock2.png", R_("All possible Clock Modes")) ?>
 
 <h2><?php xfdesktop ?></h2>
-  <p><?php E_("Like in thunar, the "Delete" menu entry in the context menu can now be hidden.") ?></p>
+  <p><?php E_("Like in thunar, the 'Delete' menu entry in the context menu can now be hidden.") ?></p>
   <p><?php E_("In order to don't mess the desktop by accident on pressing 'rearrange desktop icons', the user is asked for confirmation now.") ?></p>
 
 <h2><?php xfce4-settings ?></h2>
