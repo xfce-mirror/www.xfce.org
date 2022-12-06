@@ -87,22 +87,22 @@
      <?php print_figure ("about/tour/4.18/thunar-trash.png", R_("Thunar - Trash Infobar and Date Deleted Column")) ?>
 <h3><?php E_("Default Applications") ?></h3>
   <p><?php E_("The management to set/unset default applications for specific mime types was improved. The context menu got a dedicated item 'Set Default Application' which will open the 'ApplicationChooserDialog' with 'use as default' preselected. The dialog now has a section 'Default Application' in order to make clear which default application currently is set. If you want to remove applications from the list, right click it and select 'forget association'.") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-default-application1.png", R_("Thunar - Context Menu Entry to set Default Application") ?>
-     <?php print_figure ("about/tour/4.18/thunar-default-application2.png", R_("Thunar - Revamped Application Chooser Dialog") ?>
+     <?php print_figure ("about/tour/4.18/thunar-default-application1.png", R_("Thunar - Context Menu Entry to set Default Application")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-default-application2.png", R_("Thunar - Revamped Application Chooser Dialog")) ?>
 <h3><?php E_("Custom Actions") ?></h3>
   <p><?php E_("It is now possible to arrange custom actions in cascading submenus. Just enter the same submenu name for a custom action in order to place it into the same menu. If you require multiple menu levels, you can achieve that by using '/' in the path of the 'Submenu' entry.") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-uca-submenu1.png", R_("Thunar - Custom Action Submenu") ?>
-     <?php print_figure ("about/tour/4.18/thunar-uca-submenu2.png", R_("Thunar - Custom Action Configuration Dialog") ?>
+     <?php print_figure ("about/tour/4.18/thunar-uca-submenu1.png", R_("Thunar - Custom Action Submenu")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-uca-submenu2.png", R_("Thunar - Custom Action Configuration Dialog")) ?>
 <h3><?php E_("Preferences") ?></h3>
   <p><?php E_("The thumbnail settings in the preferences dialog got grouped together, and meanwhile it is possible to limit the file size for which thumbnails should be generated. That should mitigate possible performance issues by preventing thumbnail generation for huge video files.") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-preferences1.png", R_("Thunar - Thumbnail Preferences") ?>
+     <?php print_figure ("about/tour/4.18/thunar-preferences1.png", R_("Thunar - Thumbnail Preferences")) ?>
   <p><?php E_("File transfer operations optionally can use *.partial~ as an intermediate file now. After a transfer operation, there is now the option to verify the file checksums in order to make sure that no single bit got corrupted. Note that the checksum feature will require some extra time during copy when activated.") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-preferences2.png", R_("Thunar - File Transfer Preferences") ?>
+     <?php print_figure ("about/tour/4.18/thunar-preferences2.png", R_("Thunar - File Transfer Preferences")) ?>
   <p><?php E_("For more information on the new file transfer options, check the <a href=\"https://dev.ikx.kr/GSOC-5th/\">related blog post</a>.") ?></p>
   <p><?php E_("A checkbox was added in order to allow running shell scripts. In Thunar 4.18 it only was possible to change that behavior by changing a hidden setting. Use that option with caution!") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-preferences3.png", R_("Thunar - Script Execution Preferences") ?>
+     <?php print_figure ("about/tour/4.18/thunar-preferences3.png", R_("Thunar - Script Execution Preferences")) ?>
   <p><?php E_("There is now the possibility to restore tabs on startup, and to show the full directory path in the tab title.") ?></p>
-     <?php print_figure ("about/tour/4.18/thunar-preferences4.png", R_("Thunar - Tab and Window Preferences") ?>
+     <?php print_figure ("about/tour/4.18/thunar-preferences4.png", R_("Thunar - Tab and Window Preferences")) ?>
 
 <h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
   <h3><?php E_("Configuration") ?></h3>
@@ -110,7 +110,7 @@
     <p><?php E_("Environment variables are now parsed when passed in collapsed mode.") ?></p>
   <h3><?php E_("Appearance") ?></h3>
     <p><?php E_("An option to hide the window decorations was added.") ?></p>
-       <?php print_figure ("about/tour/4.18/appfinder.png", R_("xfce4-appfinder without window decorations") ?>
+       <?php print_figure ("about/tour/4.18/appfinder.png", R_("xfce4-appfinder without window decorations")) ?>
 
 <h2><?php E_("Window Manager") ?> <em>(xfwm4)</em></h2>
   <h3><?php E_("Workspaces") ?></h3>
@@ -123,4 +123,4 @@
     <p><?php E_("Improved support for UI scaling and fix for many blurry icons in the core components when scaling is used. This will be particularly useful for Hi DPI screens.") ?></p>
   <h3><?php E_("Window Header Bars") ?></h3>
     <p><?php E_("All header bars of Xfce Windows/Dialogs by default will be drawn by the window manager now (Xfwm4). Some dialogs optionally support 'GtkHeaderBar' (CSD) which can be enabled via a xfconf setting.") ?></p>
-       <?php print_figure ("about/tour/4.18/general-gtkheaderbar.png", R_("xfce-appearance-settings - Preference to enable GtkHeaderBar") ?>
+       <?php print_figure ("about/tour/4.18/general-gtkheaderbar.png", R_("xfce-appearance-settings - Preference to enable GtkHeaderBar")) ?>
