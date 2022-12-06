@@ -5,11 +5,11 @@
   <p><?php E_("This tour will introduce you to new major features of Xfce 4.18. It only covers improvements made on the (user-visible) surface. Check the full <a href=\"/download/changelogs/4.18/\">Xfce 4.18 changelog</a> for a detailed list of changes.") ?></p>
 
 <h2><?php E_("Widget Library") ?> <em>(libxfce4ui)</em></h2>
-  <h3><?php E_("Filename Input Dialog") ?> <em>(XfceFilenameInput)</em></h3>
+  <h3><?php E_("Filename Input Dialog") ?></h3>
     <p><?php E_("XfceFilenameInput is a comfortable widget for filename input, which was added in order to prevent invalid filenames at an early stage and to give detailed feedback on the concrete problem.") ?></p>
        <?php print_figure ("about/tour/4.18/xfce4ui-new-file-dialog1.png", R_("XfceFilenameInput - trailing whitespaces")) ?>
        <?php print_figure ("about/tour/4.18/xfce4ui-new-file-dialog2.png", R_("XfceFilenameInput - slash")) ?>
-  <h3><?php E_("Generic Shortcut Editor") ?> <em>(XfceShortcutsEditor)</em></h3>
+  <h3><?php E_("Generic Shortcut Editor") ?></h3>
     <p><?php E_("This widget is a shortcut editor which was introduced in order to have a graphical interface to modify component-specific shortcuts. Currently, it is only used inside Thunar, Xfce4-terminal and Mousepad, though other components might follow.") ?></p>
        <?php print_figure ("about/tour/4.18/xfce4ui-shortcuts-editor.png", R_("XfceShortcutsEditor in Thunar")) ?>
 
