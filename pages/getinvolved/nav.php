@@ -20,9 +20,4 @@
 			<span>&ndash; <?php E_('the Xfce translation portal') ?></span>
 		</a>
 	</li>
-	<li>
-		<a href="http://buildbot.xfce.org"><?php E_('Buildbot') ?>
-			<span>&ndash; <?php E_('view the buildslaves activity') ?></span>
-		</a>
-	</li>
 </ul>
