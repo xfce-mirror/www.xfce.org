@@ -3,6 +3,7 @@
 $head['title'] = R_('Changelogs');
 
 $major_versions = array (
+        '/^4\.18(|pre)/' => R_('Xfce 4.18'),
         '/^4\.16(|pre)/' => R_('Xfce 4.16'),
         '/^4\.14(|pre)/' => R_('Xfce 4.14'),
         '/^4\.12(|pre)/' => R_('Xfce 4.12'),
