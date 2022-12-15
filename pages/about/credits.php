@@ -37,26 +37,32 @@ function print_translator_credits()
 <h2 id="core"><?php E_('Core developers')?></h2>
 <?php
         print_credits (array (
-                'Ali Abdallah' => 'aliov'.ATSIGN.'xfce.org',
                 'André Miranda' => 'andreldm'.ATSIGN.'xfce.org',
                 'Alexander Schwinn' => 'alexxcons'.ATSIGN.'xfce.org',
+                'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
+                'Gaël Bonithon' => 'gael'.ATSIGN.'xfce.org',
                 'Olivier Fourdan' => 'fourdan'.ATSIGN.'xfce.org',
                 'Romain Bouvier' => 'skunnyk'.ATSIGN.'xfce.org',
-                'Sean Davis' => 'bluesabre'.ATSIGN.'xfce.org',
-                'Simon Steinbeiß' => 'simon'.ATSIGN.'xfce.org'));
+                'Sergios Anestis Kefalidis' => 'skefalidis'.ATSIGN.'xfce.org',
+                'Simon Steinbeiß' => 'simon'.ATSIGN.'xfce.org',
+                'Theo Linkspfeifer' => 'lastonestanding'.ATSIGN.'tutanota.com'));
 ?>
 
 <h2 id="active"><?php E_('Active contributors')?></h2>
 <?php
         print_credits (array (
+                'Akbarkhon Variskhanov' => 'akbarkhon.variskhanov'.ATSIGN.'gmail.com',
+                'Ali Abdallah' => 'aliov'.ATSIGN.'xfce.org',
                 'Alistair Buxton' => 'a.j.buxton'.ATSIGN.'gmail.com',
-                'Gaël Bonithon' => 'gael'.ATSIGN.'xfce.org',
+                'Arkadiy Illarionov' => 'qarkai'.ATSIGN.'gmail.com',
+                'Erkki Moorits' => 'erkki.moorits'.ATSIGN.'mail.ee',
+                'Graeme Gott' => 'graeme'.ATSIGN.'gottcode.org',
+                'Jan Ziak' => '0xe2.0x9a.0x9b'.ATSIGN.'xfce.org',
                 'Landry Breuil' => 'landry'.ATSIGN.'xfce.org',
-                'Maurizio Galli' => 'maurizio.galli'.ATSIGN.'gmail.com',
-                'Olivier Duchateau' => 'duchateau.olivier'.ATSIGN.'gmail.com',
-                'Theo Linkspfeifer' => 'lastonestanding'.ATSIGN.'tutanota.com',
+                'Sean Davis' => 'bluesabre'.ATSIGN.'xfce.org',
+                'Stephan Haller' => 'nomad'.ATSIGN.'froevel.de',
                 'Tony Paulic' => 'tony.paulic'.ATSIGN.'gmail.com',
-                'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
+                'Yongha Hwang' => 'mshrimp'.ATSIGN.'sogang.ac.kr'));
 ?>
 
 <h2 id="servers"><?php E_('Servers maintained by')?></h2>
@@ -91,7 +97,6 @@ function print_translator_credits()
                 'Benedikt Meurer' => 'benny'.ATSIGN.'xfce.org',
                 'Bernhard Walle' => 'bernhard.walle'.ATSIGN.'gmx.de',
                 'Biju Chacko' => 'botsie'.ATSIGN.'xfce.org',
-                'Brian J. Tarricone' => 'kelnos'.ATSIGN.'xfce.org',
                 'Craig Betts' => 'craig.betts'.ATSIGN.'dfrc.nasa.gov',
                 'Daichi Kawahata' => 'daichi'.ATSIGN.'xfce.org',
                 'Danny Milosavljevic' => 'dannym'.ATSIGN.'xfce.org',
@@ -117,11 +122,13 @@ function print_translator_credits()
                 'Karsten Luetkewitz' => 'phrep'.ATSIGN.'plskthx.org',
                 'Lionel Le Folgoc' => 'mrpouit'.ATSIGN.'gmail.com',
                 'Martin Loschwitz' => 'madkiss'.ATSIGN.'debian.org',
+                'Maurizio Galli' => 'maurizio.galli'.ATSIGN.'gmail.com',
                 'Maximilian Schleiss' => 'maximilian'.ATSIGN.'xfce.org',
                 'Michael Mosier' => 'michael'.ATSIGN.'spyonit.com',
                 'Mickaël Graf' => 'korbinus'.ATSIGN.'xfce.org',
                 'Mike Massonnet' => 'mmassonnet'.ATSIGN.'gmail.com',
                 'Nick Schermer' => 'nick'.ATSIGN.'xfce.org',
+                'Olivier Duchateau' => 'duchateau.olivier'.ATSIGN.'gmail.com',
                 'Pau Rul·lan Ferragut' => 'paurullan'.ATSIGN.'bulma.net',
                 'Stephan Arts' => 'stephan'.ATSIGN.'xfce.org',
                 'Steve Dodier-Lazaro' => 'sidi'.ATSIGN.'xfce.org',
@@ -129,5 +136,6 @@ function print_translator_credits()
                 'Thomas Leonard' => 'tal00r'.ATSIGN.'ecs.soton.ac.uk',
                 'Tobias Henle' => 'tobias'.ATSIGN.'page23.de',
                 'Viktor Odintsev' => 'ninetls'.ATSIGN.'xfce.org',
-                'Xavier Maillard' => 'zedek'.ATSIGN.'fxgsproject.org'));
+                'Xavier Maillard' => 'zedek'.ATSIGN.'fxgsproject.org',
+                'Yves-Alexis Perez' => 'corsac'.ATSIGN.'debian.org'));
 ?>
