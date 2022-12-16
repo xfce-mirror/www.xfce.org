@@ -32,7 +32,7 @@
 
 <h2><?php E_("Settings Manager") ?> <em>(xfce4-settings)</em></h2>
   <p><?php E_("The search entry for xfce4-settings-manager was a bit simplified. Now it will always be shown, without any slider or button.") ?></p>
-     <?php print_figure ("about/tour/4.18/settings-main-dialog.png", R_("")) ?>
+     <?php print_figure ("about/tour/4.18/settings-main-dialog.png", R_("xfce4-settings-manager - the search entry is always shown")) ?>
   <h3><?php E_("Display Settings") ?></h3>
     <p><?php E_("xfce4-display-settings got some minor improvements and the possibility to decide what to do when new displays are connected.") ?></p>
        <?php print_figure ("about/tour/4.18/settings-display.png", R_("xfce4-display-settings - minor improvements")) ?>
