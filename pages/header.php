@@ -30,25 +30,23 @@ else
 
 <body id="top">
 
-<div id="xfce-header">
-	<div>
-		<h1 id="xfce-header-title">Xfce</h1>
-		<h5 id="xfce-header-subtitle">Subdomains</h5>
-		&nbsp;
-		<ul>
-			<li><a href="https://xfce.org" title="Go to the homepage" class="active">Home</a></li>
-			<li><a href="https://docs.xfce.org" title="Official documentation">Docs</a></li>
-			<li><a href="http://archive.xfce.org" title="Download location of tarballs">Archive</a></li>
-			<li><a href="https://wiki.xfce.org" title="Community documentation">Wiki</a></li>
-			<li><a href="https://forum.xfce.org" title="Community forums">Forum</a></li>
-			<li><a href="https://gitlab.xfce.org" title="Report and track bugs">Bugs</a></li>
-			<li><a href="https://blog.xfce.org" title="Visit the blog">Blog</a></li>
-			<li><a href="https://docs.xfce.org/contribute/translate/start" title="Help translating the Xfce project">Translate</a></li>
-			<li><a href="https://gitlab.xfce.org" title="Project repositories">Git</a></li>
-		</ul>
-	</div>
-	<div  id="xfce-header-clear"></div>
-</div>
+<header id="xfce-header">
+	<h1 id="xfce-header-title">Xfce</h1>
+	<h2 id="xfce-header-subtitle">Subdomains</h2>
+	&nbsp;
+	<ul>
+		<li><a href="https://xfce.org" title="Go to the homepage" class="active">Home</a></li>
+		<li><a href="https://docs.xfce.org" title="Official documentation">Docs</a></li>
+		<li><a href="http://archive.xfce.org" title="Download location of tarballs">Archive</a></li>
+		<li><a href="https://wiki.xfce.org" title="Community documentation">Wiki</a></li>
+		<li><a href="https://forum.xfce.org" title="Community forums">Forum</a></li>
+		<li><a href="https://gitlab.xfce.org" title="Report and track bugs">Bugs</a></li>
+		<li><a href="https://blog.xfce.org" title="Visit the blog">Blog</a></li>
+		<li><a href="https://docs.xfce.org/contribute/translate/start" title="Help translating the Xfce project">Translate</a></li>
+		<li><a href="https://gitlab.xfce.org" title="Project repositories">Git</a></li>
+	</ul>
+	<div id="xfce-header-clear"></div>
+</header>
 
 <div id="main">
 	<div id="mainnav" class="group">
