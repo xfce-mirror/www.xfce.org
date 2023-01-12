@@ -27,7 +27,7 @@ $head['css'] = '@media screen and (max-width:830px) {
 	<div id="slide-panel" style="background-image: url(<?php echo $static_media; ?>/slider/panel.png);" alt="Panel" title="<?php E_('The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins.') ?>">
 		<span id="slide-panel-notifyd" style="background-image: url(<?php echo $static_media; ?>/slider/notifyd-settings.png);"></span>
 	</div>
-	<div id="slide-apps" style="background-image: url(<?php echo $static_media; ?>/slider/apps.png);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, the Midori web browser, task manager, notes plugin and calendar.') ?>"></div>
+	<div id="slide-apps" style="background-image: url(<?php echo $static_media; ?>/slider/apps.png);" alt="Applications" title="<?php E_('Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, task manager, notes plugin and calendar.') ?>"></div>
 </div>
 <div id="slidenav"></div>
 </div>
