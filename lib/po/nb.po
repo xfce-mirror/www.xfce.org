@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2021-11-11 00:53+0100\n"
-"PO-Revision-Date: 2021-11-10 23:53+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"POT-Creation-Date: 2022-12-18 00:49+0100\n"
+"PO-Revision-Date: 2013-07-04 19:27+0000\n"
+"Last-Translator: heskjestad <cato@heskjestad.xyz>, 2019\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/xfce/xfce-www/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: about/news.php:6 about/nav.php:18
+#: about/news.php:6 about/nav.php:19
 msgid "News"
 msgstr "Nyheter"
 
@@ -52,7 +52,7 @@ msgstr "Permanent lenke"
 msgid "No news articles found."
 msgstr "Ingen nye artikler funnet."
 
-#: about/releasemodel.php:3 about/nav.php:33
+#: about/releasemodel.php:3 about/nav.php:34
 msgid "Release Model"
 msgstr "Utgivelses-modell"
 
@@ -675,7 +675,7 @@ msgid ""
 msgstr "Vi håper at denne wikien vil gjøre det lettere for utviklere og bidragsytere å vedlikeholde hjelpeteksten."
 
 #: about/tour410.php:15 about/tour46.php:180 about/index.php:41
-#: projects/index.php:66
+#: about/tour.php:108 about/tour418.php:108 projects/index.php:66
 msgid "Application Finder"
 msgstr "Programsøker"
 
@@ -696,9 +696,9 @@ msgid "Expanded view of the Application Finder"
 msgstr "Utfoldet visning av programsøkeren"
 
 #: about/tour410.php:23 about/tour412.php:36 about/tour44.php:102
-#: about/tour46.php:23 about/tour48.php:27 about/tour.php:44
-#: about/tour416.php:44 about/tour414.php:29 about/index.php:35
-#: projects/index.php:27
+#: about/tour46.php:23 about/tour48.php:27 about/tour416.php:44
+#: about/tour414.php:29 about/index.php:35 about/tour.php:23
+#: about/tour418.php:23 projects/index.php:27
 msgid "Panel"
 msgstr "Panel"
 
@@ -762,8 +762,9 @@ msgid ""
 msgstr "Tillegget «Vindusknapper» utvider seg ikke lenger, noe som gjør plasseringen av tillegget mer fleksibelt. For å etterligne den gamle oppførselen kan du legge til et gjennomsiktig <em>skille</em>-tillegg, der <strong>Utvid</strong>-valget er aktivert, like bak vindusknapp-tillegget."
 
 #: about/tour410.php:47 about/tour412.php:96 about/tour44.php:28
-#: about/tour46.php:92 about/tour48.php:7 about/tour.php:38
-#: about/tour416.php:38 about/tour414.php:51 about/index.php:44
+#: about/tour46.php:92 about/tour48.php:7 about/tour416.php:38
+#: about/tour414.php:51 about/index.php:44 about/tour.php:43
+#: about/tour418.php:43
 msgid "File Manager"
 msgstr "Filutforsker"
 
@@ -823,8 +824,9 @@ msgid ""
 "xfsettingsd, which now handles all system settings."
 msgstr "Xfce 4.8 brukte to prosesser for å aktivere innstillinger: <tt>xfce4-settings-helper</tt> og <tt>xfsettingsd</tt>. I 4.10 er de slått sammen til xfsettingsd, som nå håndterer alle systeminnstillingene."
 
-#: about/tour410.php:67 about/tour.php:14 about/tour416.php:14
-#: about/tour414.php:7 about/index.php:47 projects/index.php:50
+#: about/tour410.php:67 about/tour416.php:14 about/tour414.php:7
+#: about/index.php:47 about/tour.php:33 about/tour418.php:33
+#: projects/index.php:50
 msgid "Settings Manager"
 msgstr "Innstillingsbehandler"
 
@@ -903,7 +905,8 @@ msgstr "Dialogvinduet <em>Mus og styreplate</em> kan håndtere grunnleggende Syn
 msgid "Synaptics touchpad settings in the <em>mouse and touchpad</em> dialog"
 msgstr "Innstilling av Synaptics styreplate i dialogvinduet <em>mus og styreplate</em>"
 
-#: about/tour410.php:93 about/tour412.php:68
+#: about/tour410.php:93 about/tour412.php:68 about/tour.php:39
+#: about/tour418.php:39
 msgid "Appearance Settings"
 msgstr "Utseende-innstillinger"
 
@@ -916,7 +919,8 @@ msgid ""
 msgstr "I 4.10 kan du dra og slippe et tar-arkiv med nedlastede temaer til <em>stil</em>- eller <em>ikon</em>-listene. Xfce vil forsøke å pakke ut og installere filene i mappa <tt>~/.themes</tt> eller <tt>~/.icons</tt>."
 
 #: about/tour410.php:97 about/tour412.php:51 about/tour46.php:9
-#: about/index.php:32 projects/index.php:35
+#: about/index.php:32 about/tour.php:29 about/tour418.php:29
+#: projects/index.php:35
 msgid "Desktop Manager"
 msgstr "Skrivebordsbehandler"
 
@@ -937,7 +941,8 @@ msgid "Xfdesktop is now shipped with a new default background image."
 msgstr "Xfdesktop leveres nå med et nytt standard bakgrunnsbilde."
 
 #: about/tour410.php:105 about/tour412.php:7 about/tour44.php:71
-#: about/tour46.php:57 about/index.php:29 projects/index.php:20
+#: about/tour46.php:57 about/index.php:29 about/tour.php:116
+#: about/tour418.php:116 projects/index.php:20
 msgid "Window Manager"
 msgstr "Vindusbehandler"
 
@@ -1077,7 +1082,7 @@ msgid ""
 "workspace."
 msgstr "Fravelg «bruk for alle arbeidsområder» for å sette en ulik skrivebordsbakgrunn for hvert arbeidsområde."
 
-#: about/tour412.php:61
+#: about/tour412.php:61 about/tour.php:36 about/tour418.php:36
 msgid "Display Settings"
 msgstr "Skjerminnstillinger"
 
@@ -1108,8 +1113,8 @@ msgstr "Forhåndsvisning av Gtk-stiler"
 msgid "Icon theme preview"
 msgstr "Forhåndsvisning av ikontema"
 
-#: about/tour412.php:76 about/tour.php:60 about/tour416.php:60
-#: about/tour414.php:65 projects/index.php:74
+#: about/tour412.php:76 about/tour416.php:60 about/tour414.php:65
+#: projects/index.php:74
 msgid "Power Manager"
 msgstr "Strømbehandler"
 
@@ -1621,10 +1626,10 @@ msgid ""
 "The specification consists of two parts, the <i>Autostart of Applications "
 "During Startup</i>, which is implemented in <b>xfce4-session</b> and the "
 "<i>Autostart Of Applications After Mount</i> which is implemented in <a "
-"href=\"http://foo-projects.org/~benny/projects/thunar-volman/index.html"
-"\">thunar-volman</a>. This release also includes the <b>xfce4-autostart-"
-"editor</b>, shown in the screenshot above, which allows users to easily add,"
-" remove or disable autostarted applications."
+"href=\"http://foo-projects.org/~benny/projects/thunar-"
+"volman/index.html\">thunar-volman</a>. This release also includes the "
+"<b>xfce4-autostart-editor</b>, shown in the screenshot above, which allows "
+"users to easily add, remove or disable autostarted applications."
 msgstr "Spesifikasjonen har to deler, <i>automatisk programstart ved oppstart</i>, som er implementert i <b>xfce4-session</b>, og <i>automatisk programstart etter montering</i>, som er implementert i <a href=\"http://foo-projects.org/~benny/projects/thunar-volman/index.html\">thunar-volman</a>. Denne utgivelsen inkluderer også <b>xfce4-autostart-editor</b>, vist i skjermbildet over, som lar brukere enkelt legge til, fjerne eller slå av autostartede programmer."
 
 #: about/tour44.php:192
@@ -1648,7 +1653,7 @@ msgid ""
 " that GNOME adopted this approach, because it is such simple)."
 msgstr "Rammeverket for forvalgte programmer, som tidligere kun var tilgjengelig i <b>Terminal</b>, er importert til Xfce slik at brukere ikke behøver redigere skallprofiler for å angi hvilken nettleser og terminaletterligner som Xfce-programmene skal bruke. Målet var å gjøre det så enkelt som mulig å endre et program for en bestemt kategori (GNOME-brukere har vel lagt merke til at GNOME bruker denne tilnærmingen fordi det er så enkelt). "
 
-#: about/tour44.php:201 about/tour.php:32 about/tour416.php:32
+#: about/tour44.php:201 about/tour416.php:32
 msgid "Keyboard Shortcuts"
 msgstr "Hurtigtaster"
 
@@ -1686,7 +1691,7 @@ msgid "Thunar website"
 msgstr "Thunar-nettside"
 
 #: about/tour44.php:222 about/tour46.php:195 about/credits.php:8
-#: about/nav.php:28
+#: about/nav.php:29
 msgid "Credits"
 msgstr "Bidragsytere"
 
@@ -2271,157 +2276,22 @@ msgstr "Dialogvinduet for utformingsvalg har fått mye oppmerksomhet. Det viser 
 msgid "Layouts and variants list"
 msgstr "Utforminger og variantliste"
 
-#: about/credits.php:32
-msgid ""
-"A large number of people contributed to the Xfce project. Although more "
-"people contributed to the project then the ones list below, we'd like to "
-"say:"
-msgstr "Et stort antall mennesker har bidratt til Xfce-prosjektet. Selv om flere har bidratt enn de som er listet nedenfor, ønsker vi likevel å si: "
-
-#: about/credits.php:34
-msgid "Thanks to all who helped making this software available!"
-msgstr "Takk til alle som bidro til å gjøre denne programvaren tilgjengelig!"
-
-#: about/credits.php:37
-msgid "Core developers"
-msgstr "Utviklere av sentrale komponenter"
-
-#: about/credits.php:49
-msgid "Active contributors"
-msgstr "Aktive bidragsytere"
-
-#: about/credits.php:62
-msgid "Servers maintained by"
-msgstr "Tjenere vedlikeholdt av"
-
-#: about/credits.php:69
-msgid "Translations supervision"
-msgstr "Oversettelsesoppsyn"
-
-#: about/credits.php:75
-msgid "Documentation supervision"
-msgstr ""
-
-#: about/credits.php:81
-msgid "Our beloved translators"
-msgstr ""
-
-#: about/credits.php:86
-msgid "Previous contributors"
-msgstr "Tidligere bidragsytere"
-
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "Relaterte sider"
-
-#: about/nav.php:4
-msgid "4.16 Tour"
-msgstr ""
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr ""
-
-#: about/nav.php:9
-msgid "4.14 Tour"
-msgstr ""
-
-#: about/nav.php:10
-msgid "4.12 Tour"
-msgstr "4.12 – omvisning"
-
-#: about/nav.php:11
-msgid "4.10 Tour"
-msgstr "4.10 – omvisning"
-
-#: about/nav.php:12
-msgid "4.8 Tour"
-msgstr "4.8 – omvisning"
-
-#: about/nav.php:13
-msgid "4.6 Tour"
-msgstr "4.6 – omvisning"
-
-#: about/nav.php:14
-msgid "4.4 Tour"
-msgstr "4.4 – omvisning"
-
-#: about/nav.php:19
-msgid "release announcements"
-msgstr "annonsering av utgivelser"
-
-#: about/nav.php:23 about/screenshots.php:1 frontpage.php:63
-msgid "Screenshots"
-msgstr "Skjermbilder"
-
-#: about/nav.php:24 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr ""
-
-#: about/nav.php:29
-msgid "list of all contributors"
-msgstr "Liste over alle bidragsytere"
-
-#: about/nav.php:34
-msgid "the Xfce release policy for core modules"
-msgstr "Xfces utgivelsespolicy for kjernemoduler"
-
-#: about/screenshots.php:20
-msgid "Some screenshots of Xfce, ordered by version."
-msgstr "Noen skjermbilder av Xfce, arrangert etter versjon."
-
-#: about/screenshots.php:23 download/changelogs/index.php:6
-msgid "Xfce 4.16"
-msgstr ""
-
-#: about/screenshots.php:28 download/changelogs/index.php:7
-msgid "Xfce 4.14"
-msgstr ""
-
-#: about/screenshots.php:33 download/changelogs/index.php:8
-msgid "Xfce 4.12"
-msgstr "Xfce 4.12"
-
-#: about/screenshots.php:38 download/changelogs/index.php:9
-msgid "Xfce 4.10"
-msgstr "Xfce 4.10"
-
-#: about/screenshots.php:43 download/changelogs/index.php:10
-msgid "Xfce 4.8"
-msgstr "Xfce 4.8"
-
-#: about/screenshots.php:48 download/changelogs/index.php:11
-msgid "Xfce 4.6"
-msgstr "Xfce 4.6"
-
-#: about/screenshots.php:53 download/changelogs/index.php:12
-msgid "Xfce 4.4"
-msgstr "Xfce 4.4"
-
-#: about/screenshots.php:58 download/changelogs/index.php:13
-msgid "Xfce 4.2"
-msgstr "Xfce 4.2"
-
-#: about/screenshots.php:63
-msgid "Xfce 4.0"
-msgstr "Xfce 4.0"
-
-#: about/tour.php:1 about/tour416.php:1
+#: about/tour416.php:1
 msgid "Xfce 4.16 tour"
 msgstr ""
 
-#: about/tour.php:5 about/tour416.php:5
+#: about/tour416.php:5
 msgid ""
 "This tour will introduce you to new major features of Xfce 4.16. It only "
 "covers improvements made on the (user-visible) surface; for the full list of"
 " changes, see the <a href=\"/download/changelogs/4.16/\">changelog</a>."
 msgstr ""
 
-#: about/tour.php:7 about/tour416.php:7
+#: about/tour416.php:7
 msgid "Visual identity: New icons and palette"
 msgstr ""
 
-#: about/tour.php:9 about/tour416.php:9
+#: about/tour416.php:9
 msgid ""
 "In order to make Xfce shine a little more out of the box and to strengthen "
 "its visual identity we created new icons for all of our core applications "
@@ -2430,15 +2300,15 @@ msgid ""
 "principles."
 msgstr ""
 
-#: about/tour.php:11 about/tour416.php:11
+#: about/tour416.php:11
 msgid "The Xfce palette"
 msgstr ""
 
-#: about/tour.php:12 about/tour416.php:12
+#: about/tour416.php:12
 msgid "New upstream Xfce icons, coming in many sizes for sharp appearance"
 msgstr ""
 
-#: about/tour.php:16 about/tour416.php:16
+#: about/tour416.php:16
 msgid ""
 "The Settings Manager itself received a visual refresh of its filter box, "
 "which can now be hidden permanently. At the same time the search "
@@ -2448,15 +2318,15 @@ msgid ""
 "entry-spec-latest.html'>.desktop</a>) file."
 msgstr ""
 
-#: about/tour.php:18 about/tour416.php:18
+#: about/tour416.php:18
 msgid "Visually cleaner, more powerful filter box"
 msgstr ""
 
-#: about/tour.php:20 about/tour416.php:20
+#: about/tour416.php:20 about/tour.php:89 about/tour418.php:89
 msgid "Default Applications"
 msgstr ""
 
-#: about/tour.php:22 about/tour416.php:22
+#: about/tour416.php:22
 msgid ""
 "This new dialog represents a merger between the previously available 'Mime "
 "Settings' and the 'Preferred Applications' dialogs. Consolidating both in "
@@ -2464,15 +2334,15 @@ msgid ""
 "handle certain file types."
 msgstr ""
 
-#: about/tour.php:24 about/tour416.php:24
+#: about/tour416.php:24
 msgid "The new Default Applications dialog"
 msgstr ""
 
-#: about/tour.php:26 about/tour416.php:26 about/tour414.php:15
+#: about/tour416.php:26 about/tour414.php:15
 msgid "Display Dialog"
 msgstr ""
 
-#: about/tour.php:28 about/tour416.php:28
+#: about/tour416.php:28
 msgid ""
 "To better support high-density displays - which come in various sizes and "
 "densities - we added fractional scaling based on the RandR extension of X11."
@@ -2480,22 +2350,22 @@ msgid ""
 "and aspect ratios are shown along display resolutions."
 msgstr ""
 
-#: about/tour.php:30 about/tour416.php:30
+#: about/tour416.php:30
 msgid "Fractional scaling support"
 msgstr ""
 
-#: about/tour.php:34 about/tour416.php:34
+#: about/tour416.php:34
 msgid ""
 "In order to make things easier for our users we added more default keyboard "
 "shortcuts out of the box, for instance for window tiling or to open Thunar. "
 "The keyboard shortcuts dialog itself was also visually updated."
 msgstr ""
 
-#: about/tour.php:36 about/tour416.php:36
+#: about/tour416.php:36
 msgid "Visually updated keyboard shortcuts dialog"
 msgstr ""
 
-#: about/tour.php:40 about/tour416.php:40
+#: about/tour416.php:40
 msgid ""
 "In Thunar's copy and move dialogs users can now easily pause the respective "
 "file operation. Furthermore support for queued file transfer, remembering "
@@ -2503,11 +2373,11 @@ msgid ""
 "added."
 msgstr ""
 
-#: about/tour.php:42 about/tour416.php:42
+#: about/tour416.php:42
 msgid "Thunar can now pause copying/moving files"
 msgstr ""
 
-#: about/tour.php:46 about/tour416.php:46
+#: about/tour416.php:46
 msgid ""
 "The panel received quite a few noteworthy updates, an animation for autohide"
 " and intellihide, a new 'Status Tray' plugin that combines both legacy "
@@ -2516,48 +2386,48 @@ msgid ""
 " offering to 'Launch a new instance...' and much more."
 msgstr ""
 
-#: about/tour.php:48 about/tour416.php:48
+#: about/tour416.php:48
 msgid "Dark mode enabled in the panel's settings dialog"
 msgstr ""
 
-#: about/tour.php:49 about/tour416.php:49
+#: about/tour416.php:49
 msgid "The new statustray plugin"
 msgstr ""
 
-#: about/tour.php:50 about/tour416.php:50
+#: about/tour416.php:50
 msgid "Autohide animation"
 msgstr ""
 
-#: about/tour.php:51 about/tour416.php:51
+#: about/tour416.php:51
 msgid "Launch a new instance!"
 msgstr ""
 
-#: about/tour.php:53 about/tour416.php:53
+#: about/tour416.php:53
 msgid "About Dialog"
 msgstr ""
 
-#: about/tour.php:55 about/tour416.php:55
+#: about/tour416.php:55
 msgid ""
 "Not only was the Xfce tab reworked to be more visually appealing and easily "
 "parsable, a separate tab showing basic information about the user's system "
 "was also added."
 msgstr ""
 
-#: about/tour.php:57 about/tour416.php:57
+#: about/tour416.php:57
 msgid "About Xfce"
 msgstr ""
 
-#: about/tour.php:58 about/tour416.php:58
+#: about/tour416.php:58
 msgid "About System"
 msgstr ""
 
-#: about/tour.php:62 about/tour416.php:62
+#: about/tour416.php:62
 msgid ""
 "The settings dialog of the power manager was cleaned up and shows either 'on"
 " battery' or 'plugged in' settings as opposed to both in a huge table."
 msgstr ""
 
-#: about/tour.php:64 about/tour416.php:64
+#: about/tour416.php:64
 msgid "Power Manager settings"
 msgstr ""
 
@@ -2946,6 +2816,709 @@ msgid ""
 "href=\"/projects\">projects</a> page."
 msgstr "I tillegg til et grunnleggende sett med moduler tilbyr Xfce også en rekke ytterligere programmer slik at du kan utvide brukeropplevelsen slik du foretrekker. For eksempel tilbyr Xfce en terminalemulator, en iCal-basert kalender og et program for å brenne CD-er og DVD-er. Du kan lese mer om Xfce sine moduler på <a href=\"/projects\">prosjektsiden</a>."
 
+#: about/credits.php:32
+msgid ""
+"A large number of people contributed to the Xfce project. Although more "
+"people contributed to the project then the ones list below, we'd like to "
+"say:"
+msgstr "Et stort antall mennesker har bidratt til Xfce-prosjektet. Selv om flere har bidratt enn de som er listet nedenfor, ønsker vi likevel å si: "
+
+#: about/credits.php:34
+msgid "Thanks to all who helped making this software available!"
+msgstr "Takk til alle som bidro til å gjøre denne programvaren tilgjengelig!"
+
+#: about/credits.php:37
+msgid "Core developers"
+msgstr "Utviklere av sentrale komponenter"
+
+#: about/credits.php:51
+msgid "Active contributors"
+msgstr "Aktive bidragsytere"
+
+#: about/credits.php:68
+msgid "Servers maintained by"
+msgstr "Tjenere vedlikeholdt av"
+
+#: about/credits.php:75
+msgid "Translations supervision"
+msgstr "Oversettelsesoppsyn"
+
+#: about/credits.php:81
+msgid "Documentation supervision"
+msgstr ""
+
+#: about/credits.php:87
+msgid "Our beloved translators"
+msgstr ""
+
+#: about/credits.php:92
+msgid "Previous contributors"
+msgstr "Tidligere bidragsytere"
+
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "Relaterte sider"
+
+#: about/nav.php:4
+msgid "4.18 Tour"
+msgstr ""
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr ""
+
+#: about/nav.php:9
+msgid "4.16 Tour"
+msgstr ""
+
+#: about/nav.php:10
+msgid "4.14 Tour"
+msgstr ""
+
+#: about/nav.php:11
+msgid "4.12 Tour"
+msgstr "4.12 – omvisning"
+
+#: about/nav.php:12
+msgid "4.10 Tour"
+msgstr "4.10 – omvisning"
+
+#: about/nav.php:13
+msgid "4.8 Tour"
+msgstr "4.8 – omvisning"
+
+#: about/nav.php:14
+msgid "4.6 Tour"
+msgstr "4.6 – omvisning"
+
+#: about/nav.php:15
+msgid "4.4 Tour"
+msgstr "4.4 – omvisning"
+
+#: about/nav.php:20
+msgid "release announcements"
+msgstr "annonsering av utgivelser"
+
+#: about/nav.php:24 about/screenshots.php:1 frontpage.php:63
+msgid "Screenshots"
+msgstr "Skjermbilder"
+
+#: about/nav.php:25 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr ""
+
+#: about/nav.php:30
+msgid "list of all contributors"
+msgstr "Liste over alle bidragsytere"
+
+#: about/nav.php:35
+msgid "the Xfce release policy for core modules"
+msgstr "Xfces utgivelsespolicy for kjernemoduler"
+
+#: about/screenshots.php:20
+msgid "Some screenshots of Xfce, ordered by version."
+msgstr "Noen skjermbilder av Xfce, arrangert etter versjon."
+
+#: about/screenshots.php:23 download/changelogs/index.php:6
+msgid "Xfce 4.18"
+msgstr ""
+
+#: about/screenshots.php:28 download/changelogs/index.php:7
+msgid "Xfce 4.16"
+msgstr ""
+
+#: about/screenshots.php:33 download/changelogs/index.php:8
+msgid "Xfce 4.14"
+msgstr ""
+
+#: about/screenshots.php:38 download/changelogs/index.php:9
+msgid "Xfce 4.12"
+msgstr "Xfce 4.12"
+
+#: about/screenshots.php:43 download/changelogs/index.php:10
+msgid "Xfce 4.10"
+msgstr "Xfce 4.10"
+
+#: about/screenshots.php:48 download/changelogs/index.php:11
+msgid "Xfce 4.8"
+msgstr "Xfce 4.8"
+
+#: about/screenshots.php:53 download/changelogs/index.php:12
+msgid "Xfce 4.6"
+msgstr "Xfce 4.6"
+
+#: about/screenshots.php:58 download/changelogs/index.php:13
+msgid "Xfce 4.4"
+msgstr "Xfce 4.4"
+
+#: about/screenshots.php:63 download/changelogs/index.php:14
+msgid "Xfce 4.2"
+msgstr "Xfce 4.2"
+
+#: about/screenshots.php:68
+msgid "Xfce 4.0"
+msgstr "Xfce 4.0"
+
+#: about/tour.php:1 about/tour418.php:1
+msgid "Xfce 4.18 tour"
+msgstr ""
+
+#: about/tour.php:5 about/tour418.php:5
+msgid ""
+"This tour will introduce you to new major features of Xfce 4.18. It only "
+"covers improvements made on the (user-visible) surface."
+msgstr ""
+
+#: about/tour.php:6 about/tour418.php:6
+msgid ""
+"Check the full <a href=\"/download/changelogs/4.18/\">Xfce 4.18 "
+"changelog</a> for a detailed list of changes."
+msgstr ""
+
+#: about/tour.php:8 about/tour418.php:8
+msgid "Widget Library"
+msgstr ""
+
+#: about/tour.php:9 about/tour418.php:9
+msgid "Filename Input Dialog"
+msgstr ""
+
+#: about/tour.php:10 about/tour418.php:10
+msgid ""
+"XfceFilenameInput is a comfortable widget for filename input, which was "
+"added in order to prevent invalid filenames at an early stage and to give "
+"detailed feedback on the concrete problem."
+msgstr ""
+
+#: about/tour.php:11 about/tour418.php:11
+msgid "XfceFilenameInput - trailing whitespaces"
+msgstr ""
+
+#: about/tour.php:12 about/tour418.php:12
+msgid "XfceFilenameInput - slash"
+msgstr ""
+
+#: about/tour.php:13 about/tour418.php:13
+msgid "Generic Shortcut Editor"
+msgstr ""
+
+#: about/tour.php:14 about/tour418.php:14
+msgid ""
+"This widget is a shortcut editor which was introduced in order to have a "
+"graphical interface to modify component-specific shortcuts. Currently, it is"
+" only used inside Thunar, Xfce4-terminal and Mousepad, though other "
+"components might follow."
+msgstr ""
+
+#: about/tour.php:15 about/tour418.php:15
+msgid "XfceShortcutsEditor in Thunar"
+msgstr ""
+
+#: about/tour.php:17 about/tour418.php:17
+msgid "Thumbnail Service"
+msgstr ""
+
+#: about/tour.php:18 about/tour418.php:18
+msgid ""
+"Some performance improvements for the pixbuf-thumbnailer and the scheduler "
+"were done. As well now there are multiple overwrite options for the desktop-"
+"thumbnailer."
+msgstr ""
+
+#: about/tour.php:19 about/tour418.php:19
+msgid ""
+"There is now support for the thumbnail sizes x-large and xx-large, which are"
+" very useful for high resolution displays."
+msgstr ""
+
+#: about/tour.php:20 about/tour418.php:20
+msgid ""
+"Tumbler and Thunar now support shared thumbnail repositories, like described"
+" in the freedesktop.org thumbnail specification. This feature can be used to"
+" produce thumbnails for a folder in advance, directly located near the "
+"pictures. Like that, the thumbnails don't need to be re-generated for each "
+"individual user."
+msgstr ""
+
+#: about/tour.php:21 about/tour418.php:21
+msgid ""
+"For more information on shared thumbnails, check the <a "
+"href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html\">related "
+"blog post</a>."
+msgstr ""
+
+#: about/tour.php:24 about/tour418.php:24
+msgid ""
+"The DateTime and the Clock plugin provided overlapping functionallity. In "
+"order to prevent parallel development, they have been merged into a single "
+"plugin."
+msgstr ""
+
+#: about/tour.php:25 about/tour418.php:25
+msgid "The new 'Clock' panel widget"
+msgstr ""
+
+#: about/tour.php:26 about/tour418.php:26
+msgid ""
+"The new Clock plugin received a new binary time mode now and provides a "
+"sleep monitor. Here's a screenshot of all possible layouts which are: "
+"Analog, Binary, Digital, Fuzzy and LCD."
+msgstr ""
+
+#: about/tour.php:27 about/tour418.php:27
+msgid "All possible Clock Modes"
+msgstr ""
+
+#: about/tour.php:30 about/tour418.php:30
+msgid ""
+"Like in thunar, the 'Delete' menu entry in the context menu can now be "
+"hidden."
+msgstr ""
+
+#: about/tour.php:31 about/tour418.php:31
+msgid ""
+"In order to don't mess the desktop by accident on pressing 'rearrange "
+"desktop icons', the user is asked for confirmation now."
+msgstr ""
+
+#: about/tour.php:34 about/tour418.php:34
+msgid ""
+"The search entry for xfce4-settings-manager was a bit simplified. Now it "
+"will always be shown, without any slider or button."
+msgstr ""
+
+#: about/tour.php:35 about/tour418.php:35
+msgid "xfce4-settings-manager - the search entry is always shown"
+msgstr ""
+
+#: about/tour.php:37 about/tour418.php:37
+msgid ""
+"xfce4-display-settings got some minor improvements and the possibility to "
+"decide what to do when new displays are connected."
+msgstr ""
+
+#: about/tour.php:38 about/tour418.php:38
+msgid "xfce4-display-settings - minor improvements"
+msgstr ""
+
+#: about/tour.php:40 about/tour418.php:40
+msgid ""
+"On selecting a new theme, there is now the option to automatically set a "
+"matching xfwm4 theme, if available."
+msgstr ""
+
+#: about/tour.php:41 about/tour418.php:41
+msgid "xfce4-appearance-settings - toggle to set matching Xfwm4 theme"
+msgstr ""
+
+#: about/tour.php:44 about/tour418.php:44
+msgid "List View"
+msgstr ""
+
+#: about/tour.php:45 about/tour418.php:45
+msgid ""
+"For directories, the count of containing files can now be displayed in the "
+"size column. It is now possible to add a 'file creation date' column, and "
+"the 'configure columns' dialog can be opened with a right-click on any "
+"column head."
+msgstr ""
+
+#: about/tour.php:46 about/tour418.php:46
+msgid "Thunar - List View - Preferences"
+msgstr ""
+
+#: about/tour.php:47 about/tour418.php:47
+msgid "Thunar - List View - File count and file creation date"
+msgstr ""
+
+#: about/tour.php:48 about/tour418.php:48
+msgid "Image Preview"
+msgstr ""
+
+#: about/tour.php:49 about/tour418.php:49
+msgid ""
+"Finally, an image preview side pane has been added to Thunar. No, wait, "
+"actually two of them! You can choose to either use the 'embedded' mode which"
+" will take no extra space, but hide parts of the left side pane. Or you can "
+"go for the 'standalone' mode, which will use a separate pane on the right "
+"and display as well some basic information."
+msgstr ""
+
+#: about/tour.php:50 about/tour418.php:50
+msgid "Thunar - Embedded Image Preview"
+msgstr ""
+
+#: about/tour.php:51 about/tour418.php:51
+msgid "Thunar - Standalone Image Preview"
+msgstr ""
+
+#: about/tour.php:52 about/tour418.php:52
+msgid "Undo and Redo"
+msgstr ""
+
+#: about/tour.php:53 about/tour418.php:53
+msgid ""
+"It is now possible to undo basic file operations and to redo them. Undo and "
+"Redo can be used for 'move', 'rename', 'trash', 'link' and 'create' "
+"operations. Per default, a history of the last 10 operations is stored, "
+"though the history length is configurable. Whenever an Undo/Redo is "
+"triggered, a notification with few details will be shown."
+msgstr ""
+
+#: about/tour.php:54 about/tour418.php:54
+msgid "Thunar - Undo and Redo"
+msgstr ""
+
+#: about/tour.php:55 about/tour418.php:55
+msgid "File Highlight"
+msgstr ""
+
+#: about/tour.php:56 about/tour418.php:56
+msgid ""
+"Files now can be highlighted by setting the background and the filename to "
+"different colors. This can be done via an additional tab, located in the "
+"'properties' dialog. The view menu provides a checkbox in order to "
+"enable/disable the feature. Once enabled, files now can be shown in all the "
+"colors of the rainbow."
+msgstr ""
+
+#: about/tour.php:57 about/tour418.php:57
+msgid "Thunar - File Highlight Options"
+msgstr ""
+
+#: about/tour.php:58 about/tour418.php:58
+msgid "Thunar - Hightlighted file in List View"
+msgstr ""
+
+#: about/tour.php:59 about/tour418.php:59
+msgid "Thunar - Hightlighted files in Icon View"
+msgstr ""
+
+#: about/tour.php:60 about/tour418.php:60
+msgid ""
+"For more information on file highlight, check the <a href=\"https://elessar-"
+"space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">related"
+" blog post</a>."
+msgstr ""
+
+#: about/tour.php:61 about/tour418.php:61
+msgid "Toolbar"
+msgstr ""
+
+#: about/tour.php:62 about/tour418.php:62
+msgid ""
+"It is now possible to customize the toolbar according to your personal "
+"needs! An additional dialog has been added for that purpose, on which the "
+"visibility and position of specific items can be managed. As well custom "
+"actions, which appear for folders can be used in the toolbar."
+msgstr ""
+
+#: about/tour.php:63 about/tour418.php:63
+msgid ""
+"When the menubar is hidden, an additional toolbar button which can be used "
+"to show the menu will be displayed."
+msgstr ""
+
+#: about/tour.php:64 about/tour418.php:64
+msgid "Thunar - Toolbar with all configurable Elements"
+msgstr ""
+
+#: about/tour.php:65 about/tour418.php:65
+msgid "Thunar - Toolbar Configuration Dialog"
+msgstr ""
+
+#: about/tour.php:66 about/tour418.php:66
+msgid "Thunar - Show Menubar button"
+msgstr ""
+
+#: about/tour.php:67 about/tour418.php:67
+msgid ""
+"For more information on the configurable toolbar, check the <a "
+"href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html\">related "
+"blog post</a>."
+msgstr ""
+
+#: about/tour.php:68 about/tour418.php:68
+msgid "Split View"
+msgstr ""
+
+#: about/tour.php:69 about/tour418.php:69
+msgid ""
+"Thunar now provides the option to use split panes. The pane separator can be"
+" moved, and its position will be stored. Via a xfconf setting, it is as well"
+" possible to have a vertical split. "
+msgstr ""
+
+#: about/tour.php:70 about/tour418.php:70
+msgid "Thunar - Split Panes"
+msgstr ""
+
+#: about/tour.php:71 about/tour418.php:71
+msgid "Statusbar"
+msgstr ""
+
+#: about/tour.php:72 about/tour418.php:72
+msgid ""
+"The status bar style was tweaked and '|' is now used to separate entries. "
+"Furthermore, it is now possible to customize it by using the context menu."
+msgstr ""
+
+#: about/tour.php:73 about/tour418.php:73
+msgid "Thunar - Statusbar Customization"
+msgstr ""
+
+#: about/tour.php:74 about/tour418.php:74
+msgid "Recursive Search"
+msgstr ""
+
+#: about/tour.php:75 about/tour418.php:75
+msgid ""
+"Thunar has now the possibility to search recursively, dircetly inside Thunar"
+" itself. The search is done in a separate thread and search results are "
+"added rapidly into a List View. A new row 'Location' shows where the search "
+"results are located, and the context menu provides the option 'Open Item "
+"Location' in order to travel there quickly. The preferences dialog provides "
+"an option to limit recursive search to local folders, or to disable it. "
+msgstr ""
+
+#: about/tour.php:76 about/tour418.php:76
+msgid "Thunar - Recursive Search"
+msgstr ""
+
+#: about/tour.php:77 about/tour418.php:77
+msgid "Thunar - Recursive Search Preferences"
+msgstr ""
+
+#: about/tour.php:78 about/tour418.php:78
+msgid ""
+"For more information on the recursive search feature, check the <a "
+"href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html\">related "
+"blog post</a>."
+msgstr ""
+
+#: about/tour.php:79 about/tour418.php:79
+msgid "Recently used Files"
+msgstr ""
+
+#: about/tour.php:80 about/tour418.php:80
+msgid ""
+"Recently used files now can be accessed in the side pane. Like for the "
+"'Recursive Search' feature, the new 'Location' row can be used in List View."
+" Additionally, for 'Recent' a new row 'Recency' can be added to sort the "
+"files by their latest usage. "
+msgstr ""
+
+#: about/tour.php:81 about/tour418.php:81
+msgid "Thunar - Recently Used Files"
+msgstr ""
+
+#: about/tour.php:82 about/tour418.php:82
+msgid ""
+"For more information on 'Recent' in Thunar check the <a "
+"href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html\">related "
+"blog post</a>."
+msgstr ""
+
+#: about/tour.php:83 about/tour418.php:83
+msgid "Bookmark Menu"
+msgstr ""
+
+#: about/tour.php:84 about/tour418.php:84
+msgid ""
+"In order to keep the 'Go' menu compact, bookmarks have been moved into a "
+"separate, new 'Bookmarks' menu. The menu item 'add Bookmark' was rather "
+"hidden in the 'send to' menu in Thunar 4.18. As part of the new 'Bookmarks' "
+"menu, it is more prominent now."
+msgstr ""
+
+#: about/tour.php:85 about/tour418.php:85
+msgid "Thunar - Bookmarks Menu"
+msgstr ""
+
+#: about/tour.php:86 about/tour418.php:86
+msgid "Trash directory"
+msgstr ""
+
+#: about/tour.php:87 about/tour418.php:87
+msgid ""
+"With the new release, the trash directory provides an info bar which gives "
+"easy access to `Empty Trash` and 'Restore' functionality. When using List "
+"View, a 'Date Deleted' column will be shown, so that the files can be sorted"
+" by deletion date. Via context menu, it is now possible to select 'Restore "
+"and Show' in order to automatically open a new tab in the folder of the "
+"restored file(s)."
+msgstr ""
+
+#: about/tour.php:88 about/tour418.php:88
+msgid "Thunar - Trash Infobar and Date Deleted Column"
+msgstr ""
+
+#: about/tour.php:90 about/tour418.php:90
+msgid ""
+"The management to set/unset default applications for specific mime types was"
+" improved. The context menu got a dedicated item 'Set Default Application' "
+"which will open the 'ApplicationChooserDialog' with 'use as default' "
+"preselected. The dialog now has a section 'Default Application' in order to "
+"make clear which default application currently is set. If you want to remove"
+" applications from the list, right click it and select 'forget association'."
+msgstr ""
+
+#: about/tour.php:91 about/tour418.php:91
+msgid "Thunar - Context Menu Entry to set Default Application"
+msgstr ""
+
+#: about/tour.php:92 about/tour418.php:92
+msgid "Thunar - Revamped Application Chooser Dialog"
+msgstr ""
+
+#: about/tour.php:93 about/tour418.php:93
+msgid "Custom Actions"
+msgstr ""
+
+#: about/tour.php:94 about/tour418.php:94
+msgid ""
+"It is now possible to arrange custom actions in cascading submenus. Just "
+"enter the same submenu name for a custom action in order to place it into "
+"the same menu. If you require multiple menu levels, you can achieve that by "
+"using '/' in the path of the 'Submenu' entry."
+msgstr ""
+
+#: about/tour.php:95 about/tour418.php:95
+msgid "Thunar - Custom Action Submenu"
+msgstr ""
+
+#: about/tour.php:96 about/tour418.php:96
+msgid "Thunar - Custom Action Configuration Dialog"
+msgstr ""
+
+#: about/tour.php:97 about/tour418.php:97
+msgid "Preferences"
+msgstr ""
+
+#: about/tour.php:98 about/tour418.php:98
+msgid ""
+"The thumbnail settings in the preferences dialog got grouped together, and "
+"meanwhile it is possible to limit the file size for which thumbnails should "
+"be generated. That should mitigate possible performance issues by preventing"
+" thumbnail generation for huge video files."
+msgstr ""
+
+#: about/tour.php:99 about/tour418.php:99
+msgid "Thunar - Thumbnail Preferences"
+msgstr ""
+
+#: about/tour.php:100 about/tour418.php:100
+msgid ""
+"File transfer operations optionally can use *.partial~ as an intermediate "
+"file now. After a transfer operation, there is now the option to verify the "
+"file checksums in order to make sure that no single bit got corrupted. Note "
+"that the checksum feature will require some extra time during copy when "
+"activated."
+msgstr ""
+
+#: about/tour.php:101 about/tour418.php:101
+msgid "Thunar - File Transfer Preferences"
+msgstr ""
+
+#: about/tour.php:102 about/tour418.php:102
+msgid ""
+"For more information on the new file transfer options, check the <a "
+"href=\"https://dev.ikx.kr/GSOC-5th/\">related blog post</a>."
+msgstr ""
+
+#: about/tour.php:103 about/tour418.php:103
+msgid ""
+"A checkbox was added in order to allow running shell scripts. In Thunar 4.18"
+" it only was possible to change that behavior by changing a hidden setting. "
+"Use that option with caution!"
+msgstr ""
+
+#: about/tour.php:104 about/tour418.php:104
+msgid "Thunar - Script Execution Preferences"
+msgstr ""
+
+#: about/tour.php:105 about/tour418.php:105
+msgid ""
+"There is now the possibility to restore tabs on startup, and to show the "
+"full directory path in the tab title."
+msgstr ""
+
+#: about/tour.php:106 about/tour418.php:106
+msgid "Thunar - Tab and Window Preferences"
+msgstr ""
+
+#: about/tour.php:109 about/tour418.php:109
+msgid "Configuration"
+msgstr ""
+
+#: about/tour.php:110 about/tour418.php:110
+msgid ""
+"Appfinder got support for the 'PrefersNonDefaultGPU' property, which is "
+"useful for systems with hybrid graphic cards."
+msgstr ""
+
+#: about/tour.php:111 about/tour418.php:111
+msgid "Environment variables are now parsed when passed in collapsed mode."
+msgstr ""
+
+#: about/tour.php:112 about/tour418.php:112
+msgid "Appearance"
+msgstr ""
+
+#: about/tour.php:113 about/tour418.php:113
+msgid "An option to hide the window decorations was added."
+msgstr ""
+
+#: about/tour.php:114 about/tour418.php:114
+msgid "xfce4-appfinder without window decorations"
+msgstr ""
+
+#: about/tour.php:117 about/tour418.php:117
+msgid "Workspaces"
+msgstr ""
+
+#: about/tour.php:118 about/tour418.php:118
+msgid "Workspace setting will now work as well with other window managers."
+msgstr ""
+
+#: about/tour.php:119 about/tour418.php:119
+msgid "Compositor"
+msgstr ""
+
+#: about/tour.php:120 about/tour418.php:120
+msgid "The compositor now supports adaptive vsync with GLX."
+msgstr ""
+
+#: about/tour.php:122 about/tour418.php:122
+msgid "General"
+msgstr ""
+
+#: about/tour.php:123 about/tour418.php:123
+msgid "Scaling"
+msgstr ""
+
+#: about/tour.php:124 about/tour418.php:124
+msgid ""
+"Improved support for UI scaling and fix for many blurry icons in the core "
+"components when scaling is used. This will be particularly useful for Hi DPI"
+" screens."
+msgstr ""
+
+#: about/tour.php:125 about/tour418.php:125
+msgid "Window Header Bars"
+msgstr ""
+
+#: about/tour.php:126 about/tour418.php:126
+msgid ""
+"All header bars of Xfce Windows/Dialogs by default will be drawn by the "
+"window manager now (Xfwm4). Some dialogs optionally support 'GtkHeaderBar' "
+"(CSD) which can be enabled via a xfconf setting."
+msgstr ""
+
+#: about/tour.php:127 about/tour418.php:127
+msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
+msgstr ""
+
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
 msgid "Related Sites"
@@ -3058,95 +3631,11 @@ msgstr "Du kan følge oss på den offisielle <a href=\"https://twitter.com/xfceo
 msgid "Changelogs"
 msgstr "Versjonsnotater"
 
-#: download/changelogs/index.php:50
+#: download/changelogs/index.php:51
 msgid ""
 "Xfce release notes are specific to each version. Select your version from "
 "the list below to see the changes in the release. "
 msgstr "Xfce-versjonsnotater er spesifikke for hver versjon. Velg din versjon fra listen nedenfor for å se endringer tilknyttet utgivelsen."
-
-#: download/index.php:12
-msgid ""
-"Most distributions ship with Xfce in their own packaging format, but if you "
-"want a newer version or you want to build Xfce from scratch, you can find "
-"the packages below. Instructions how to compile Xfce can be found <a "
-"href=\"https://docs.xfce.org/xfce/building\" class=\"external\">here</a>."
-msgstr "De fleste distribusjoner leveres med Xfce i sine egne pakkeformat, men hvis du ønsker en nyere versjon eller du vil bygge Xfce fra bunnen av så finner du programpakkene nedenfor. Instruksjoner for hvordan Xfce kan kompileres finnes <a href=\"https://docs.xfce.org/xfce/building\" class=\"external\">her</a>."
-
-#: download/index.php:15
-#, php-format
-msgid "Stable release %s"
-msgstr "Stabil utgivelse %s"
-
-#: download/index.php:18
-#, php-format
-msgid ""
-"Xfce %s is the most recent version of the Xfce desktop environment. You can "
-"find the changes in this release <a "
-"href=\"/download/changelogs/%s\">here</a>."
-msgstr "Xfce %s er den nyeste versjonen av Xfce skrivebordsmiljøet. Du kan finne endringene for denne utgivelsen <a href=\"/download/changelogs/%s\">her</a>."
-
-#: download/index.php:25
-msgid "Individual releases"
-msgstr "Enkeltstående utgivelser"
-
-#: download/index.php:27
-msgid ""
-"Each package in Xfce can make individual stable or development releases, "
-"including the core packages (as described in the <a "
-"href=\"/about/releasemodel\">release model</a>). You can follow the "
-"announcements of the releases on the <a href=\"/community/lists\">Xfce users"
-" mailing list</a>, watch the <a "
-"href=\"https://archive.xfce.org/feeds/project/\">release feeds</a> or follow"
-" the Xfce <a href=\"https://twitter.com/xfceofficial\">Twitter account</a>."
-msgstr ""
-
-#: download/index.php:35
-#, php-format
-msgid "Preview release %s"
-msgstr "Forhåndsutgivelse %s"
-
-#: download/index.php:37
-#, php-format
-msgid ""
-"Xfce %s is the latest development release of the Xfce desktop environment. "
-"This release should not be used in a production environments. If you are "
-"uncertain about downloading this release, you should probably use the <a "
-"href=\"#stable\">stable release</a> above. You can find the changes in this "
-"release <a href=\"/download/changelogs/%s\">here</a>."
-msgstr "Xfce %s er den seneste utviklingsutgivelsen av skrivebordsmiljøet Xfce. Denne utgivelsen må ikke anvendes i et produksjonsmiljø. Hvis du er usikker på om du skal laste ned denne utgivelsen så skal du sannsynligvis heller bruke den <a href=\"#stable\">stabile utgivelsen</a> ovenfor. Du kan finne endringene for denne utgivelsen <a href=\"/download/changelogs/%s\">her</a>."
-
-#: download/index.php:46
-msgid "Distributions"
-msgstr "Distribusjoner"
-
-#: download/index.php:48
-msgid ""
-"A lot of different distributions provide Xfce packages. Popular examples "
-"built around Xfce are <a href=\"https://xubuntu.org/\">Xubuntu</a>, the <a "
-"href=\"https://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a>, <a "
-"href=\"https://manjaro.org/get-manjaro/\">Manjaro</a> or <a "
-"href=\"http://zenwalkgnulinux.blogspot.com/\">Zenwalk</a>, but there is a "
-"good chance your favorite distro provides packages as well."
-msgstr ""
-
-#: download/index.php:51
-#, php-format
-msgid ""
-"You can find a more complete list at <a "
-"href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
-msgstr "En mer komplett liste finnes på <a href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
-
-#: download/index.php:54
-msgid "Artwork"
-msgstr "Kunstverk"
-
-#: download/index.php:56
-#, php-format
-msgid ""
-"You can download the Xfce artwork tarball <a href=\"%s\">here</a>. It "
-"contains some high-quality logos and banners. Copying of the Xfce logo is "
-"subject to the LGPL copyright license."
-msgstr "Du kan laste ned et tar-arkiv med Xfce-grafikk <a href=\"%s\">her</a>. Det inneholder noen høykvalitets-logoer og -bannere. Kopiering av Xfce-logoen er underlagt opphavsrettslisensen LGPL."
 
 #: download/nav.php:5
 msgid "release notes of each Xfce release"
@@ -3176,33 +3665,88 @@ msgstr ""
 msgid "browse the source repositories"
 msgstr "utforsk kilde-pakkebrønnene"
 
-#: getinvolved/nav.php:4 getinvolved/index.php:18
-msgid "Translation"
-msgstr "Oversettelse"
+#: download/index.php:12
+msgid ""
+"Most distributions ship with Xfce in their own packaging format, but if you "
+"want a newer version or you want to build Xfce from scratch, you can find "
+"the packages below. <a href=\"https://docs.xfce.org/xfce/building\" "
+"class=\"external\">How to compile Xfce </a>."
+msgstr ""
 
-#: getinvolved/nav.php:5
-msgid "information about translating Xfce"
-msgstr "Informasjon om oversetting av Xfce"
+#: download/index.php:15
+#, php-format
+msgid "Stable release %s"
+msgstr "Stabil utgivelse %s"
 
-#: getinvolved/nav.php:14
-msgid "Bug Tracker"
-msgstr "Feilmeldingstjeneste"
+#: download/index.php:18
+#, php-format
+msgid ""
+"Xfce %s is the most recent version of the Xfce desktop environment. <a "
+"href=\"/download/changelogs/%s\">Changes in this release </a>."
+msgstr ""
 
-#: getinvolved/nav.php:19
-msgid "Transifex"
-msgstr "Transifex"
+#: download/index.php:25
+msgid "Individual releases"
+msgstr "Enkeltstående utgivelser"
 
-#: getinvolved/nav.php:20
-msgid "the Xfce translation portal"
-msgstr "Xfce oversettelsesportal"
+#: download/index.php:27
+msgid ""
+"Each package in Xfce can make individual stable or development releases, "
+"including the core packages (as described in the <a "
+"href=\"/about/releasemodel\">release model</a>). You can follow the "
+"announcements of the releases on the <a href=\"/community/lists\">Xfce users"
+" mailing list</a>, watch the <a "
+"href=\"https://archive.xfce.org/feeds/project/\">release feeds</a> or follow"
+" the Xfce <a href=\"https://twitter.com/xfceofficial\">Twitter account</a>."
+msgstr ""
 
-#: getinvolved/nav.php:24
-msgid "Buildbot"
-msgstr "Buildbot"
+#: download/index.php:35
+#, php-format
+msgid "Preview release %s"
+msgstr "Forhåndsutgivelse %s"
 
-#: getinvolved/nav.php:25
-msgid "view the buildslaves activity"
-msgstr "vis aktivitet til byggeslaver"
+#: download/index.php:37
+#, php-format
+msgid ""
+"Xfce %s is the latest development release of the Xfce desktop environment. "
+"This release should not be used in a production environments. If you are "
+"uncertain about downloading this release, you should probably use the <a "
+"href=\"#stable\">stable release</a> above. <a "
+"href=\"/download/changelogs/%s\">Changes in this release </a>."
+msgstr ""
+
+#: download/index.php:46
+msgid "Distributions"
+msgstr "Distribusjoner"
+
+#: download/index.php:48
+msgid ""
+"A lot of different distributions provide Xfce packages. Popular examples "
+"built around Xfce are <a href=\"https://xubuntu.org/\">Xubuntu</a>, the <a "
+"href=\"https://spins.fedoraproject.org/xfce/\">Fedora Xfce Spin</a>, <a "
+"href=\"https://manjaro.org/get-manjaro/\">Manjaro</a> or <a "
+"href=\"http://zenwalkgnulinux.blogspot.com/\">Zenwalk</a>, but there is a "
+"good chance your favorite distro provides packages as well."
+msgstr ""
+
+#: download/index.php:51
+#, php-format
+msgid ""
+"You can find a more complete list at <a "
+"href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
+msgstr "En mer komplett liste finnes på <a href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>."
+
+#: download/index.php:54
+msgid "Artwork"
+msgstr "Kunstverk"
+
+#: download/index.php:56
+#, php-format
+msgid ""
+"<a href=\"%s\"> Download the Xfce artwork tarball .</a>. It contains some "
+"high-quality logos and banners. Copying of the Xfce logo is subject to the "
+"LGPL copyright license."
+msgstr ""
 
 #: getinvolved/index.php:1 header.php:64
 msgid "Get Involved"
@@ -3237,6 +3781,10 @@ msgid ""
 "to-date documentation, you will make a big impact on helping people "
 "understand how to make the most of the Xfce Desktop Environment."
 msgstr "Det er mange mennesker som bruker og tester Xfce. Ved å kunne tilby nyttig og oppdatert dokumentasjon, vil du ha en stor innvirkning på å hjelpe folk med å forstå hvordan de får mest mulig ut av Xfce skrivebordsmiljøet."
+
+#: getinvolved/index.php:18 getinvolved/nav.php:4
+msgid "Translation"
+msgstr "Oversettelse"
 
 #: getinvolved/index.php:20
 msgid ""
@@ -3306,6 +3854,22 @@ msgid ""
 "href=\"https://opencollective.com/xfce\">Xfce ($)</a> and <a "
 "href=\"https://opencollective.com/xfce-eu\">Xfce-Eu (€)</a> respectively."
 msgstr ""
+
+#: getinvolved/nav.php:5
+msgid "information about translating Xfce"
+msgstr "Informasjon om oversetting av Xfce"
+
+#: getinvolved/nav.php:14
+msgid "GitLab Instance"
+msgstr ""
+
+#: getinvolved/nav.php:19
+msgid "Transifex"
+msgstr "Transifex"
+
+#: getinvolved/nav.php:20
+msgid "the Xfce translation portal"
+msgstr "Xfce oversettelsesportal"
 
 #: projects/nav.php:5
 msgid "online documentation for the core modules of Xfce"
@@ -3591,17 +4155,64 @@ msgid "Xfce Release Updates"
 msgstr ""
 
 #: news-array.php:10
-msgid "Xfce 4.16 released"
+msgid "Xfce 4.18 released"
 msgstr ""
 
 #: news-array.php:15
+msgid ""
+"After almost two years of work, we are happy to announce the release of Xfce"
+" 4.18 !"
+msgstr ""
+
+#: news-array.php:16
+msgid ""
+"Since Xfce 4.16 a lot of major development happened. Our team added multiple"
+" nice new features, did a gazillion of bug fixes and did various minor "
+"improvements. Finally, all that is going to be released for your pleasure."
+msgstr ""
+
+#: news-array.php:20
+msgid ""
+"This development cycle was influenced a lot by <a href=\"https://summerofcode.withgoogle.com/archive/2021/organizations/5706869816950784\">GSoC 2021</a> and <a href=\"https://summerofcode.withgoogle.com/programs/2022/organizations/xfce\">GSoC 2022</a>, which led to various new features, most of them for Thunar, the Xfce File Manager.\n"
+"            Though as well multiple other Xfce components got a lot of love and many improvements were done under the hood."
+msgstr ""
+
+#: news-array.php:22
+msgid ""
+"Assuming you have installed Xfce 4.16, here is an overview on the major "
+"changes you will see on an upgrade to Xfce 4.18:"
+msgstr ""
+
+#: news-array.php:25
+msgid ""
+"A detailed overview of the changes between Xfce 4.16 and Xfce 4.18 releases "
+"can be found on the following page:"
+msgstr ""
+
+#: news-array.php:27 news-array.php:64 news-array.php:123 news-array.php:176
+#: news-array.php:200
+msgid ""
+"This release can be downloaded either as a set of individual packages or as "
+"a single fat tarball including all these individual versions:"
+msgstr "Denne utgivelsen kan lastes ned enten som frittstående pakker eller ett stort tar-arkiv med alle disse versjonene:"
+
+#: news-array.php:29 news-array.php:66 news-array.php:125 news-array.php:180
+#: news-array.php:203 news-array.php:248
+msgid "Best regards,<br />The Xfce development team"
+msgstr "Beste hilsener,<br />Xfce utviklingsteam"
+
+#: news-array.php:31
+msgid "Xfce 4.16 released"
+msgstr ""
+
+#: news-array.php:36
 msgid ""
 "Today, after 1 year and 4 months of work, we are happy to announce the "
 "release of the Xfce desktop 4.16, a new stable version that supersedes Xfce "
 "4.14."
 msgstr ""
 
-#: news-array.php:16
+#: news-array.php:37
 msgid ""
 "4.16 was a special cycle in many respects (not only pandemic-wise, but "
 "also). One of the corner-stones of the non-code changes concerns our "
@@ -3619,7 +4230,7 @@ msgid ""
 "href=\"https://fosshost.org\">Fosshost</a>!"
 msgstr ""
 
-#: news-array.php:17
+#: news-array.php:38
 msgid ""
 "Another big change concerns our visual identity, which we updated from a "
 "strange mix of random (partly Tango-based) icons and not following any "
@@ -3630,20 +4241,20 @@ msgid ""
 "outweighs this one-time effort."
 msgstr ""
 
-#: news-array.php:19
+#: news-array.php:40
 msgid ""
 "And then finally we did some housekeeping (e.g. by dropping Gtk2 support "
 "code) and we also added features and improvements - all while sticking to a "
 "reasonable release cycle timeframe."
 msgstr ""
 
-#: news-array.php:20
+#: news-array.php:41
 msgid ""
 "So without further ado, here go the <strong>main highlights of this "
 "release</strong>:"
 msgstr ""
 
-#: news-array.php:23
+#: news-array.php:44
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfwm4/start\">window manager</a> "
 "received lots of updates and improvements again in the area of compositing "
@@ -3653,7 +4264,7 @@ msgid ""
 "the most recently used list complement this release."
 msgstr ""
 
-#: news-array.php:24
+#: news-array.php:45
 msgid ""
 "We added a new plugin to the <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-panel/start\">panel</a> dubbed "
@@ -3668,7 +4279,7 @@ msgid ""
 "workspaces."
 msgstr ""
 
-#: news-array.php:25
+#: news-array.php:46
 msgid ""
 "Support for fractional scaling was added to the <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-settings/display\">display "
@@ -3678,14 +4289,14 @@ msgid ""
 " robust."
 msgstr ""
 
-#: news-array.php:26
+#: news-array.php:47
 msgid ""
 "A new tab in the \"About Xfce\" dialog shows basic system information like "
 "CPU or GPU type. Furthermore the layout and visuals of the dialog were "
 "improved."
 msgstr ""
 
-#: news-array.php:27
+#: news-array.php:48
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-settings/start\">settings "
 "manager</a> has improved search and filter capabilities. Furthermore all "
@@ -3693,14 +4304,14 @@ msgid ""
 "decorations)."
 msgstr ""
 
-#: news-array.php:28
+#: news-array.php:49
 msgid ""
 "The \"Mime Settings\" and \"Preferred Applications\" dialogs were merged "
 "into the \"Default Applications\" dialog - making it easier for users to set"
 " which application handles which filetype or action from one place."
 msgstr ""
 
-#: news-array.php:29
+#: news-array.php:50
 msgid ""
 "Our file manager <a "
 "href=\"https://docs.xfce.org/xfce/thunar/start\">Thunar</a> received a "
@@ -3709,21 +4320,21 @@ msgid ""
 "settings per directory and support for transparency in Gtk themes."
 msgstr ""
 
-#: news-array.php:30
+#: news-array.php:51
 msgid ""
 "Our <a href=\"https://docs.xfce.org/xfce/thunar/tumbler\">thumbnailing "
 "service tumbler</a> became more flexible by being able to exclude paths. "
 "Furthermore support for .epub (e-book format) was added."
 msgstr ""
 
-#: news-array.php:31
+#: news-array.php:52
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-session/start\">session "
 "manager</a> offers improved support for GPG agent 2.1 and the setting dialog"
 " was visually improved."
 msgstr ""
 
-#: news-array.php:32
+#: news-array.php:53
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-power-manager/start\">power "
 "manager</a> received a lot of bugfixes and some smaller features - among "
@@ -3733,14 +4344,14 @@ msgid ""
 "charger."
 msgstr ""
 
-#: news-array.php:33
+#: news-array.php:54
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfdesktop/start\">desktop</a> "
 "mostly received bugfixes and small improvements - and the new default "
 "wallpaper!"
 msgstr ""
 
-#: news-array.php:34
+#: news-array.php:55
 msgid ""
 "Our menu library <a "
 "href=\"https://docs.xfce.org/xfce/garcon/start\">garcon</a> received new "
@@ -3749,52 +4360,41 @@ msgid ""
 "with e.g. the panel."
 msgstr ""
 
-#: news-array.php:35
+#: news-array.php:56
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-appfinder/start\">applicaton "
 "finder</a> now allows for sorting applications by \"frecency\" - a "
 "combination of frequency and recency."
 msgstr ""
 
-#: news-array.php:36
+#: news-array.php:57
 msgid ""
 "Dependency updates: Drop Gtk2, add LibGTop, bump Gtk >= 3.22, GLib and GDBus"
 " >= 2.50"
 msgstr ""
 
-#: news-array.php:39
+#: news-array.php:60
 msgid "An online tour of the changes in Xfce 4.16 can be viewed here:"
 msgstr ""
 
-#: news-array.php:41
+#: news-array.php:62
 msgid ""
 "A detailed overview of the changes between Xfce 4.14 and Xfce 4.16 releases "
 "can be found on the following page:"
 msgstr ""
 
-#: news-array.php:43 news-array.php:102 news-array.php:155 news-array.php:179
-msgid ""
-"This release can be downloaded either as a set of individual packages or as "
-"a single fat tarball including all these individual versions:"
-msgstr "Denne utgivelsen kan lastes ned enten som frittstående pakker eller ett stort tar-arkiv med alle disse versjonene:"
-
-#: news-array.php:45 news-array.php:104 news-array.php:159 news-array.php:182
-#: news-array.php:227
-msgid "Best regards,<br />The Xfce development team"
-msgstr "Beste hilsener,<br />Xfce utviklingsteam"
-
-#: news-array.php:48
+#: news-array.php:69
 msgid "Xfce 4.14 released"
 msgstr ""
 
-#: news-array.php:53
+#: news-array.php:74
 msgid ""
 "Today, after 4 years and 5 months of work, we are pleased to announce the "
 "release of the Xfce desktop 4.14, a new stable version that supersedes Xfce "
 "4.12."
 msgstr ""
 
-#: news-array.php:54
+#: news-array.php:75
 msgid ""
 "In this 4.14 cycle the main goal was to port all core components to Gtk3 "
 "(over Gtk2) and GDBus (over D-Bus GLib). Most components also received "
@@ -3803,11 +4403,11 @@ msgid ""
 "below) and fixings a boatload of bugs (read changelog)."
 msgstr ""
 
-#: news-array.php:55
+#: news-array.php:76
 msgid "The <strong>main highlights of this release</strong> are:"
 msgstr ""
 
-#: news-array.php:58
+#: news-array.php:79
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfwm4/start\">window manager</a> "
 "received a slew of updates and features, including support for VSync (using "
@@ -3817,7 +4417,7 @@ msgid ""
 "default theme."
 msgstr ""
 
-#: news-array.php:59
+#: news-array.php:80
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-panel/start\">panel</a> got "
 "support for RandR's primary monitor feature, improved window grouping in the"
@@ -3826,7 +4426,7 @@ msgid ""
 " as an improved default panel layout."
 msgstr ""
 
-#: news-array.php:60
+#: news-array.php:81
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfdesktop/start\">desktop</a> now "
 "has support for RandR's primary monitor feature, an orientation option for "
@@ -3835,7 +4435,7 @@ msgid ""
 "AccountsService."
 msgstr ""
 
-#: news-array.php:61
+#: news-array.php:82
 msgid ""
 "A completely new settings dialog to <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-settings/color\">manage color "
@@ -3845,7 +4445,7 @@ msgid ""
 "like xiccd."
 msgstr ""
 
-#: news-array.php:62
+#: news-array.php:83
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-settings/display\">display "
 "dialog</a> received a lot of attention during this cycle and a big feature: "
@@ -3857,7 +4457,7 @@ msgid ""
 "Xfconf)."
 msgstr ""
 
-#: news-array.php:63
+#: news-array.php:84
 msgid ""
 "We added an option to enable Gtk window scaling to the <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-settings/appearance\">appearance "
@@ -3865,7 +4465,7 @@ msgid ""
 " previews as they didn't produce consistent results with Gtk3."
 msgstr ""
 
-#: news-array.php:64
+#: news-array.php:85
 msgid ""
 "While we decided to drop splash screens from the <a "
 "href=\"https://docs.xfce.org/xfce/xfce4-session/start\">session manager</a>,"
@@ -3880,7 +4480,7 @@ msgid ""
 "(e.g. inhibited) over DBus."
 msgstr ""
 
-#: news-array.php:65
+#: news-array.php:86
 msgid ""
 "As always, <a href=\"https://docs.xfce.org/xfce/thunar/start\">Thunar</a> - "
 "our file manager - received a lot of features and fixes. Among the visible "
@@ -3891,21 +4491,21 @@ msgid ""
 "gained Bluray support."
 msgstr ""
 
-#: news-array.php:66
+#: news-array.php:87
 msgid ""
 "Our <a href=\"https://docs.xfce.org/xfce/thunar/tumbler\">thumbnailing "
 "service tumbler</a> received a lot of fixes and support for the Fujifilm RAF"
 " format."
 msgstr ""
 
-#: news-array.php:67
+#: news-array.php:88
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-appfinder/start\">application"
 " finder</a> can now optionally be opened as a single window and can now be "
 "more easily navigated with the keyboard only."
 msgstr ""
 
-#: news-array.php:68
+#: news-array.php:89
 msgid ""
 "The <a href=\"https://docs.xfce.org/xfce/xfce4-power-manager/start\">power "
 "manager</a> received a lot of bugfixes and some smaller features, including "
@@ -3916,7 +4516,7 @@ msgid ""
 "box. With LXDE moving on to a QT base the LXDE panel plugin was dropped."
 msgstr ""
 
-#: news-array.php:71
+#: news-array.php:92
 msgid ""
 "A lot of <strong>applications and plugins</strong> that are part of the Xfce"
 " eco-system - often dubbed \"goodies\" - are part of what makes Xfce great. "
@@ -3924,7 +4524,7 @@ msgid ""
 "4.14 release. To highlight a few:"
 msgstr ""
 
-#: news-array.php:74
+#: news-array.php:95
 msgid ""
 "Our <a href=\"https://docs.xfce.org/apps/notifyd/start\">notification "
 "service</a> has gained support for persistence - in other words: "
@@ -3935,7 +4535,7 @@ msgid ""
 "showing notifications on RandR's primary monitor was added."
 msgstr ""
 
-#: news-array.php:75
+#: news-array.php:96
 msgid ""
 "Our media player <a "
 "href=\"https://docs.xfce.org/apps/parole/start\">Parole</a> received "
@@ -3946,7 +4546,7 @@ msgid ""
 "periodically while enjoying a movie."
 msgstr ""
 
-#: news-array.php:76
+#: news-array.php:97
 msgid ""
 "Our image viewer <a "
 "href=\"https://docs.xfce.org/apps/ristretto/start\">Ristretto</a> has seen "
@@ -3955,7 +4555,7 @@ msgid ""
 "release."
 msgstr ""
 
-#: news-array.php:77
+#: news-array.php:98
 msgid ""
 "The <a "
 "href=\"https://docs.xfce.org/apps/screenshooter/start\">screenshooter</a> "
@@ -3964,7 +4564,7 @@ msgid ""
 "command line allows for more flexibility."
 msgstr ""
 
-#: news-array.php:78
+#: news-array.php:99
 msgid ""
 "Our <a href=\"https://docs.xfce.org/panel-plugins/clipman/start\">clipboard "
 "manager</a> now has improved keyboard shortcut support (through a port to "
@@ -3972,7 +4572,7 @@ msgid ""
 "application icon."
 msgstr ""
 
-#: news-array.php:79
+#: news-array.php:100
 msgid ""
 "The <a href=\"https://docs.xfce.org/apps/pulseaudio-"
 "plugin/start\">pulseaudio panel plugin</a> received MPRIS2 support to be "
@@ -3981,20 +4581,20 @@ msgid ""
 "daemon."
 msgstr ""
 
-#: news-array.php:80
+#: news-array.php:101
 msgid ""
 "And finally the <a "
 "href=\"https://docs.xfce.org/apps/terminal/start\">terminal emulator</a> saw"
 " a huge amount of bug fixes and improvements since Xfce 4.12."
 msgstr ""
 
-#: news-array.php:83
+#: news-array.php:104
 msgid ""
 "There is also a group of <strong>new projects</strong> that have become part"
 " of our project. Say hi to:"
 msgstr ""
 
-#: news-array.php:86
+#: news-array.php:107
 msgid ""
 "We finally have our own <a "
 "href=\"https://docs.xfce.org/apps/screensaver/start\">screensaver</a> (yes -"
@@ -4002,29 +4602,30 @@ msgid ""
 "(obviously) it is a great addition to our catalog."
 msgstr ""
 
-#: news-array.php:87
+#: news-array.php:108
 msgid ""
-"The <a href=\"https://goodies.xfce.org/projects/panel-plugins/xfce4"
-"-statusnotifier-plugin\">status notifier panel plugin</a> provides a next-"
-"generation system tray where applications can show indicators. It supersedes"
-" the Ubuntu-centric xfce4-indicator-plugin for most application indicators."
+"The <a href=\"https://goodies.xfce.org/projects/panel-"
+"plugins/xfce4-statusnotifier-plugin\">status notifier panel plugin</a> "
+"provides a next-generation system tray where applications can show "
+"indicators. It supersedes the Ubuntu-centric xfce4-indicator-plugin for most"
+" application indicators."
 msgstr ""
 
-#: news-array.php:88
+#: news-array.php:109
 msgid ""
 "<a href=\"https://docs.xfce.org/apps/catfish/start\">Catfish file search</a>"
 " is like an old friend for most Xfce users - now it's officially part of "
 "Xfce!"
 msgstr ""
 
-#: news-array.php:89
+#: news-array.php:110
 msgid ""
 "Finally <a href=\"https://git.xfce.org/apps/xfce4-panel-"
 "profiles/about/\">Panel Profiles</a>, which allows you to backup and restore"
 " your panel layouts, has moved under the Xfce umbrella."
 msgstr ""
 
-#: news-array.php:92
+#: news-array.php:113
 msgid ""
 "As always it's also time to say goodbye to some older <strong>unmaintained "
 "or deprecated projects</strong>. (Luckily our projects only go to the attic "
@@ -4032,43 +4633,43 @@ msgid ""
 "sadness we bid farewell to:"
 msgstr ""
 
-#: news-array.php:95
+#: news-array.php:116
 msgid ""
 "garcon-vala, gtk-xfce-engine, pyxfce, thunar-actions-plugin, xfbib, xfc, "
 "xfce4-kbdleds-plugin, xfce4-mm, xfce4-taskbar-plugin, xfce4-windowlist-"
 "plugin, xfce4-wmdock-plugin and xfswitch-plugin"
 msgstr ""
 
-#: news-array.php:98
+#: news-array.php:119
 msgid "An online tour of the changes in Xfce 4.14 can be viewed here:"
 msgstr ""
 
-#: news-array.php:100
+#: news-array.php:121
 msgid ""
 "A detailed overview of the changes between Xfce 4.12 and Xfce 4.14 releases "
 "can be found on the following page:"
 msgstr ""
 
-#: news-array.php:106
+#: news-array.php:127
 msgid "Xfce 4.12 released"
 msgstr "Xfce 4.12 utgitt"
 
-#: news-array.php:111
+#: news-array.php:132
 msgid "Xfce 4.12 is be the best release ever (yes, we like to party!)!"
 msgstr "Xfce 4.12 er den beste utgivelsen noensinne (ja, vi liker å feire!)!"
 
-#: news-array.php:112
+#: news-array.php:133
 msgid "Source : Internet comments."
 msgstr "Kilde: Kommentarer på internett."
 
-#: news-array.php:113
+#: news-array.php:134
 msgid ""
 "Today, after 2 years and 10 months of work, we are pleased to announce the "
 "release of the Xfce desktop 4.12, a new stable version that supersedes Xfce "
 "4.10."
 msgstr "Idag, etter 2 år og 10 måneder med arbeid har vi gleden av å annonsere 4.12-utgaven av Xfce-skrivebordet, en ny stabil versjon som tar over for Xfce 4.10."
 
-#: news-array.php:114
+#: news-array.php:135
 msgid ""
 "This long period can only be explained by how awesome Xfce 4.10 was. But as "
 "all things, it needed some refreshing -  and for that we saw lots of new "
@@ -4077,18 +4678,18 @@ msgid ""
 "match our users' needs."
 msgstr "Denne lange ventetiden kan kun forklares med hvor fantastisk Xfce 4.10 var. Men som med andre ting trengs oppdateringer – vi fikk mange nye bidragsytere med verdifulle tilbakemeldinger, funksjonalitet og feilrettinger. Xfce vil som alltid følge sitt evolusjonstempo uten revolusjoner, og tilpasse seg sine brukeres behov."
 
-#: news-array.php:115
+#: news-array.php:136
 msgid ""
 "In this 4.12 cycle, we mainly focused on polishing our user experience on "
 "the desktop and window manager, and on updating some components to take "
 "advantage of newly available technologies."
 msgstr "I denne 4.12-syklusen fokuserte vi på å finpusse brukernes opplevelse av skrivebordet og vindusbehandleren, og på å oppdatere noen komponenter for å ta i bruk ny tilgjengelig teknologi."
 
-#: news-array.php:116
+#: news-array.php:137
 msgid "The main highlights of this release are:"
 msgstr "Høydepunktene til denne utgivelsen er:"
 
-#: news-array.php:119
+#: news-array.php:140
 msgid ""
 "The window manager gained a new themable Alt+Tab dialog with optional "
 "windows preview and a list mode. Initial Client side decoration support was "
@@ -4096,42 +4697,42 @@ msgid ""
 "tiling, and a new zooming mode was added. A HiDPI Xfwm theme was also added."
 msgstr "Vindusbehandleren fikk en ny stilbar Alt + Tab-dialog med valgfri forhåndsvisning av vinduer og en listemodus. Grunnleggende klientdekorasjoner ble implementert, flislegging av vinduer ble forbedret med støtte for hjørner, og en ny zoom-modus ble lagt til. Et HiDPI-tema for Xfwm ble også lagt til."
 
-#: news-array.php:120
+#: news-array.php:141
 msgid ""
 "The panel can now intelligently hide itself, supports Gtk3 plugins, and saw "
 "lots of its third-party plugins updated to take full advantage of the "
 "features added in 4.10."
 msgstr "Panelet kan nå skjule seg selv, støtter Gtk3-tillegg, og mange av tredjepartstilleggene ble oppdatert for å støtte ny funksjonalitet i 4.10."
 
-#: news-array.php:121
+#: news-array.php:142
 msgid ""
 "The desktop has a new wallpaper settings dialog, per workspace wallpaper "
 "support, and better multi-monitor handling. It also supports displaying "
 "folder cover art and emblems on icons now."
 msgstr "Skrivebordet har et nytt dialogvindu for oppsett av bakgrunnsbilder, støtte for separate bakgrunnsbilder per arbeidsområde, og håndterer flere skjermer bedre. Det viser også albumomslag og merkelapper på ikoner."
 
-#: news-array.php:122
+#: news-array.php:143
 msgid ""
 "Our session manager was updated to use logind and/or upower if available for"
 " hibernate/suspend support. For portability and to respect our users' "
 "choices, fallback modes were implemented relying on os-specific backends."
 msgstr "Øktbehandleren ble oppdatert til å bruke logind og/eller upower hvis tilgjengelig for å støtte hvile- og dvalemodus. Øktbehandleren kan falle tilbake på OS-spesifikke bakstykker for økt kompatibilitet og for å respektere brukernes valg. "
 
-#: news-array.php:123
+#: news-array.php:144
 msgid ""
 "Support for multi-monitor use was improved in a new display settings dialog "
 "and a quick setup popup on monitor plugging."
 msgstr "Støtte for bruk av flere skjermer ble forbedret i et nytt dialogvindu for skjerminnstillinger. Når nye skjermer kobles til vil et vindu med hurtigoppsett sprette opp."
 
-#: news-array.php:124
+#: news-array.php:145
 msgid "The appearance dialog now showcases previews for icons and themes."
 msgstr "Dialogvinduet for utseende vil nå forhåndsvise ikoner og stiler."
 
-#: news-array.php:125
+#: news-array.php:146
 msgid "Xfsettingsd now supports libinput."
 msgstr "Xfsettingsd støtter nå libinput."
 
-#: news-array.php:126
+#: news-array.php:147
 msgid ""
 "Power management was not forgotten: A new panel plugin was created, "
 "logind/upower support was added to handle battery/lid/brightness events, and"
@@ -4139,7 +4740,7 @@ msgid ""
 "revamped, and support for X11 screenblanking was added."
 msgstr "Strømstyringen er ikke glemt: Et nytt paneltillegg er kommet til, logind/upower-støtte ble lagt til for å håndtere batteri-/lokk-/lysstyrke-hendelser, og låsing med «light-locker» ble implementert. Oppsettsdialogen ble også pusset opp, og støtte for X11-skjermblanking ble lagt til."
 
-#: news-array.php:127
+#: news-array.php:148
 msgid ""
 "Our file manager, the beloved Thunar, saw an insane amount of improvements: "
 "tab support, tons of bug fixes, speed-ups, key shortcuts for custom actions,"
@@ -4149,7 +4750,7 @@ msgid ""
 "support, multiple file properties... need we say more?"
 msgstr "Filbehandleren Thunar fikk en drøss med forbedringer: Faner, feilrettinger, økt hastighet, hurtigtaster for selvvalgte handlinger, bedre navnehåndtering av filkopier og lenker, ledig plass-indikator i egenskapene, finjustering av massivendring av filnavn og andre dialogvinduer, forbedret tastaturnavigasjon, feilretting av trevisningsruta, bedre støtte for bakgrunnsbilder, Gtk3-bokmerker, egenskaper for flere filer … vi sier ikke mer!"
 
-#: news-array.php:128
+#: news-array.php:149
 msgid ""
 "To prepare the future of Xfce with Gtk3, which no longer requires theme "
 "engines, we are stopping the development of our Gtk theme engine, and "
@@ -4157,7 +4758,7 @@ msgid ""
 "if you want them to work on the next Xfce version."
 msgstr "For å forberede framtida til Xfce med Gtk3, som ikke lenger krever temamotorer, stopper vi utviklinga av vår Gtk-temamotor og dropper vår Gtk3-motor. Lager du temaer? Oppdater dem til CSS hvis du vil at de skal virke i neste Xfce-versjon."
 
-#: news-array.php:129
+#: news-array.php:150
 msgid ""
 "Due to gstreamer1.0 having dropped the mixer-interface entirely, and "
 "xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, "
@@ -4165,91 +4766,91 @@ msgid ""
 "consequently not maintained anymore."
 msgstr "Gstreamer1.0 har tatt bort mikser-grensesnittet i sin helhet. Xfce4-mixer og xfce4-volumed brukte dette grensesnittet og kan ikke overføres til 1.0. De vedlikeholdes derfor ikke lenger."
 
-#: news-array.php:132
+#: news-array.php:153
 msgid ""
 "Xfce wouldn't be what it is right now without all its goodies. In this area,"
 " we also saw a flurry of activity, most notably:"
 msgstr "Xfce ville ikke vært hva det er uten alle ekstraprogrammene. Også her var det mye aktivitet:"
 
-#: news-array.php:135
+#: news-array.php:156
 msgid "Xfburn gained BluRay Disc burning support."
 msgstr "Xfburn fikk støtte for å brenne Blu-ray-disker."
 
-#: news-array.php:136
+#: news-array.php:157
 msgid "Task manager UI was totally revamped, and got ported to Gtk3."
 msgstr "Brukergrensesnittet til oppgavebehandlingen ble lagt om i sin helhet og overført til Gtk3."
 
-#: news-array.php:137
+#: news-array.php:158
 msgid ""
 "Parole's UI was totally redone, parts of it rewritten with many features "
 "added. Furthermore it was ported to Gtk3 and gstreamer1.0."
 msgstr "Brukergrensesnittet til Parole ble lagt om i sin helhet, og deler av programmet ble omskrevet med ny funksjonalitet. Det ble dessuten overført til Gtk3 og gstreamer1.0."
 
-#: news-array.php:138
+#: news-array.php:159
 msgid "Mousepad was totally rewritten and got an initial port to Gtk3."
 msgstr "Mousepad ble omskrevet i sin helhet og overført til Gtk3."
 
-#: news-array.php:139
+#: news-array.php:160
 msgid "Imgur.com support was added to the screenshooter."
 msgstr "Skjermbildeprogrammet støtter nå Imgur.com."
 
-#: news-array.php:140
+#: news-array.php:161
 msgid "A new GNOME-Shell-like dashboard named xfdashboard is now available."
 msgstr "Et nytt GNOME-lignende instrumentpanel som heter xfdashboard er nå tilgjengelig."
 
-#: news-array.php:141
+#: news-array.php:162
 msgid "A new alternative menu for the panel named whiskermenu was added."
 msgstr "En alternativ panelmeny som heter whiskermenu er lagt til."
 
-#: news-array.php:142
+#: news-array.php:163
 msgid "The GNOME2 hardware monitor plugin was ported to our panel."
 msgstr "GNOME2-tillegget maskinvareovervåkning ble overført til Xfce-panelet."
 
-#: news-array.php:143
+#: news-array.php:164
 msgid ""
 "Weather plugin got a totally new user interface with powerful customization "
 "options and provides tons of detailed information."
 msgstr "Vær-tillegget fikk et helt nytt brukergrensesnitt med mange tilpasningsmuligheter og en drøss med detaljert informasjon."
 
-#: news-array.php:144
+#: news-array.php:165
 msgid ""
 "Eyes plugin uses 3D coordinates to calculate its eye position, so even more "
 "sometimes scary, sometimes funny eyes will spy on you!"
 msgstr "Eyes-tillegget bruker 3D-koordinater for å beregne øyneposisjonene slik at det blir enda mer skremmende og gøyalt med spionerende øyne!"
 
-#: news-array.php:145
+#: news-array.php:166
 msgid ""
 "Netload plugin works with the new udev net interface names and can be "
 "configured to show transfer rates in the panel."
 msgstr "Netload-tillegget virker nå med nye udev-grensesnittnavn og kan settes opp til å vise overføringshastigheter i panelet."
 
-#: news-array.php:146
+#: news-array.php:167
 msgid "Clipboard manager plugin optionally displays a QR code."
 msgstr "Utklippstavle-tillegget kan nå vise en QR-kode."
 
-#: news-array.php:147
+#: news-array.php:168
 msgid ""
 "Cpufreq plugin now supports the intel pstate driver and can adapt better for"
 " different panel sizes and information displayed."
 msgstr "Cpufreq-tillegget støtter nå Intel pstate-driveren og kan tilpasse seg bedre ulike panelstørrelser og informasjonen som skal vises."
 
-#: news-array.php:148
+#: news-array.php:169
 msgid ""
 "Nearly all plugins have been improved to give the same look and feel and to "
 "support the new deskbar panel mode."
 msgstr "Nesten alle tilleggene er forbedret for å ligne hverandre utseendemessig og støtte den nye bardisk-modusen til panelet."
 
-#: news-array.php:151
+#: news-array.php:172
 msgid "An online tour of the changes in Xfce 4.12 can be viewed here:"
 msgstr "En nettbasert omvisning av endringene i Xfce 4.12 kan sees her:"
 
-#: news-array.php:153
+#: news-array.php:174
 msgid ""
 "A detailed overview of the changes between Xfce 4.10 and Xfce 4.12 releases "
 "can be found on the following page:"
 msgstr "En detaljert oversikt over endringene mellom utgivelsene Xfce 4.10 og Xfce 4.12 kan finnes på følgende side:"
 
-#: news-array.php:157
+#: news-array.php:178
 msgid ""
 "A warm thank you all the contributors, translators and packagers for your "
 "efforts in making this release possible. We would also like to thank our "
@@ -4261,7 +4862,7 @@ msgid ""
 "Xfce in the future!"
 msgstr ""
 
-#: news-array.php:158
+#: news-array.php:179
 msgid ""
 "As always, we welcome everyone who would like to contribute to the "
 "development of Xfce! You can either <a "
@@ -4277,37 +4878,37 @@ msgid ""
 "href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">mailing list</a>."
 msgstr "Som alltid vil vi ønske velkommen alle som vil bidra til utviklinga av Xfce. Du kan <a href=\"https://docs.xfce.org/xfce/building\">teste Xfce</a> og <a href=\"https://bugzilla.xfce.org\">rapportere feil</a>, du kan hjelpe oss med <a href=\"https://www.transifex.com/tag/xfce/\">oversettinger</a> og <a href=\"https://docs.xfce.org\">hjelpetekster</a>, med <a href=\"https://wiki.xfce.org/design/start\">brukskvalitet og erfaringer</a> ved å pakke Xfce med distribusjonen din, og ved å sende inn <a href=\"https://wiki.xfce.org/dev/howto/contribute\">feilrettinger</a> eller helt ny funksjonalitet. Du kan kontakte oss via Freenode-IRC-kanalen #xfce-dev og vår <a href=\"https://mail.xfce.org/mailman/listinfo/xfce4-dev\">e-postliste</a>."
 
-#: news-array.php:161
+#: news-array.php:182
 msgid "Xfce 4.10 released"
 msgstr "Xfce 4.10 utgitt"
 
-#: news-array.php:166
+#: news-array.php:187
 msgid ""
 "Today, after 1 year and 4 months of work, we are pleased to announce the "
 "release of the Xfce desktop 4.10, a new stable version that supersedes Xfce "
 "4.8."
 msgstr "Idag, etter 1 år og 4 måneder med arbeid har vi gleden av å annonsere 4.10-utgaven av Xfce-skrivebordet, en ny stabil versjon som tar over for Xfce 4.8."
 
-#: news-array.php:167
+#: news-array.php:188
 msgid ""
 "In the 4.10 cycle we mainly focused on polishing the desktop and improving "
 "the user experience in various ways. Highlights of this release are:"
 msgstr "I 4.10 utgaven har vi fokusert mest på å finpusse skrivebordet og bedre brukeropplevelsen på forksjellige måten. Høydepunkter for denne utgaven er:"
 
-#: news-array.php:169
+#: news-array.php:190
 msgid ""
 "A new application finder that has been completely rewritten and combines the"
 " functionality of the old xfce4-appfinder and xfrun4."
 msgstr "En ny programsøker har blitt fullstendig omskrevet og kombinerer funksjonaliteten til den gamle xfce4-appfinder og xfrun4."
 
-#: news-array.php:170
+#: news-array.php:191
 msgid ""
 "The panel now has an alternative vertical display mode (a deskbar). What is "
 "more, panel plugins can be arranged in multiple rows, which is particularly "
 "useful in the deskbar mode."
 msgstr "Panelet har nå en alternativ loddrett visningsmodus (en bardisk). Paneltillegg kan ordnes i flere rader, noe som er nyttig i bardiskmodus."
 
-#: news-array.php:171
+#: news-array.php:192
 msgid ""
 "A new MIME type editor that allows you to easily change applications used "
 "for opening different file types. The mouse and touchpad settings dialog and"
@@ -4315,41 +4916,41 @@ msgid ""
 " supports tablets in a much better way."
 msgstr "Et nytt redigeringsprogram for MIME-typer lar deg endre de programmene som åpner ulike filtyper. Dialogvinduet for mus og styreplate og innstillinger fikk utvidet funksjonalitet. Førstnevnte støtter tegnebrett bedre."
 
-#: news-array.php:172
+#: news-array.php:193
 msgid ""
 "It is now possible to launch applications and open files on the desktop with"
 " a single click of the mouse. In addition, the 4.10 desktop can display "
 "thumbnails and automatically advance through the wallpaper list."
 msgstr "Man kan nå starte programmer og åpne filer på skrivebordet med et enkeltklikk. Dessuten kan skrivebordet i 4.10 vise miniatyrbilder og automatisk gå gjennom listen med bakgrunnsbilder."
 
-#: news-array.php:173
+#: news-array.php:194
 msgid ""
 "The window manager can be configured to tile windows when dragging them to "
 "the screen edges. The tab window (Alt+Tab) supports more flexible theming "
 "and cursor key navigation."
 msgstr "Vindusbehandleren kan settes opp slik at vinduer flislegges når de dras til skjermkantene. Tab-vinduet (Alt + Tab) støtter mer fleksibel stiling og navigering med piltastene."
 
-#: news-array.php:175
+#: news-array.php:196
 msgid "An online tour of the changes in Xfce 4.10 can be viewed here:"
 msgstr "En nettbasert omvisning av endringene i Xfce 4.10 kan sees her:"
 
-#: news-array.php:177
+#: news-array.php:198
 msgid ""
 "A detailed overview of the changes compared to Xfce 4.8 and Xfce 4.10 "
 "preview releases can be found on the following page:"
 msgstr "En detaljert oversikt over endringene sammenlignet med forhåndsutgivelsene til Xfce 4.8 og Xfce 4.10 finnes på følgende side:"
 
-#: news-array.php:181
+#: news-array.php:202
 msgid ""
 "Thank you all the contributors, bug reporters, as well as translators and "
 "packagers for your efforts in making this release possible."
 msgstr "Tak til alle bidragsytere, de som meldte fra om feil, oversatte eller pakket denne utgivelsen."
 
-#: news-array.php:184
+#: news-array.php:205
 msgid "Xfce 4.10pre2 released"
 msgstr "Xfce 4.10pre2 utgitt"
 
-#: news-array.php:189
+#: news-array.php:210
 msgid ""
 "The Xfce development team is proud to announce the second preview release "
 "for Xfce 4.10. Together with this preview release, the Xfce project "
@@ -4358,31 +4959,31 @@ msgid ""
 " on April 28th, 2012."
 msgstr "Utviklingslaget til Xfce er stolt av å annonsere den andre forhåndsutgivelsen av Xfce 4.10. I tillegg annonserer Xfce-prosjektet streng- og kodefrys (kun retting av kritiske feil og regresjoner tillatt) for den endelige utgivelsen av 4.10 som kommer den 28. april 2012."
 
-#: news-array.php:190
+#: news-array.php:211
 msgid ""
 "This release incorporates some new features like improved responsiveness of "
 "file operations in Thunar and tiling improvements in Xfwm4. Everything else "
 "is bug fixes and a _lot_ of translation updates."
 msgstr "Denne utgivelsen har blant annet økt hastighet for filoperasjoner i Thunar og forbedret flislegging i Xfwm4. Resten er feilrettinger og _mange_ nye og forbedrede oversettelser."
 
-#: news-array.php:191
+#: news-array.php:212
 msgid ""
 "We hope you will enjoy this release. Please give us feedback by sharing your"
 " thoughts, blogging, tweeting or by filing bug reports! With your help, 4.10"
 " will be the best release ever (at least until 4.12)!"
 msgstr "Vi håper du vil trives med denne utgivelsen. Vennligst gi oss din tilbakemelding ved å dele dine tanker, blogge, tvitre eller ved å sende oss feilrapporter! Med din hjelp, vil 4.10 være den beste utgivelsen noensinne (i hvert fall inntil 4.12)!"
 
-#: news-array.php:192 news-array.php:205
+#: news-array.php:213 news-array.php:226
 msgid ""
 "Kind regards and thanks to everyone who has contributed to this release,<br "
 "/>The Xfce development team"
 msgstr "Med vennlig hilsen og takk til alle som har bidratt til denne utgivelsen, <br />Xfce utviklingsteam"
 
-#: news-array.php:194
+#: news-array.php:215
 msgid "Xfce 4.10pre1 released"
 msgstr "Xfce 4.10pre1 utgitt"
 
-#: news-array.php:199
+#: news-array.php:220
 msgid ""
 "The Xfce development team is proud to announce the first preview release for"
 " Xfce 4.10. Together with this preview release, the Xfce project announces "
@@ -4390,7 +4991,7 @@ msgid ""
 "to the world on April 28th, 2012."
 msgstr "Utviklingslaget til Xfce er stolt av å annonsere den første forhåndsutgivelsen til Xfce 4.10. I tillegg annonserer Xfce-prosjektet streng- og kodefrys for den endelige utgivelsen av 4.10, som kommer den 28. april 2012."
 
-#: news-array.php:200
+#: news-array.php:221
 msgid ""
 "This release incorporates major changes to the core of the Xfce desktop "
 "environment and hopefully succeeds in fulfilling a number of long time "
@@ -4412,7 +5013,7 @@ msgid ""
 "switcher."
 msgstr "Denne utgivelsen har mange store og sentrale endringer i skrivebordsmiljøet, og oppfyller forhåpentligvis mange gamle ønsker. Blant de mest nevneverdige oppdateringene er den nye programsøkeren som slår sammen funksjonaliteten til den gamle programsøkeren og xfrun4. Panelet har en ny loddrett modus (bardisk) som bedre utnytter plassen til breiskjermer, og et nytt handlingstillegg. Innstillingshjelperen er bygd inn i xfsettingsd, altså én prosess mindre. Innstillingsdialogen er omarbeidet med kategorier og pluggbare dialoger som standard. Museinnstillingene har nå grunnleggende støtte for Synaptics og Wacom. Det er også et nytt redigeringsprogram for MIME-typer. Thunar fikk finpusset utformingen sin for å minske plassbruk og øke samhandlingshastigheten med miniatyrbilder. Vi har ikke bestemt oss ennå for hvordan skrivebordsfunksjonalitet kan bygges inn i Thunar. Xfdesktop har derfor fått mange forbedringer, inkludert støtte for enkeltklikk, miniatyrbilder for ikoner og bedre innliming av filer. Øktbehandleren har bedre strømstyringskode, tips er fjernet og økter kan tømmes fra grensesnittet. Sist, men ikke minst, så støtter vindusbehandleren nå flislegging av vinduer og navigasjon med piltastene i oppgaveveksleren."
 
-#: news-array.php:201
+#: news-array.php:222
 msgid ""
 "Another big change for users is the removal of user documentation of the "
 "packages and introduction of <a "
@@ -4423,7 +5024,7 @@ msgid ""
 "web browser."
 msgstr "En annen vesentlig endring for brukerne er at hjelpeteksten er fjernet fra pakkene, og lanseringen av <a href=\"https://docs.xfce.org\">docs.xfce.org</a>. Dette er fordi antall bidrag til hjelpetekstene har minket siden Xfce 4.8, så vi håper at wikien vil få mer oppmerksomhet fra bidragsytere. Hjelpeknappene i brukergrensesnittet vil fortsatt virke, men du vil bli spurt om å åpne hjelpenettsiden i nettleseren din."
 
-#: news-array.php:202
+#: news-array.php:223
 msgid ""
 "Furthermore we dropped xfce-utils. Its content has either been removed or "
 "moved to other Xfce packages. All other dependency changes are listed in the"
@@ -4434,31 +5035,31 @@ msgid ""
 "thunar-volman (volume manager for Thunar)."
 msgstr "Dessuten har vi lagt ned xfce-utils. Innholdet er enten fjernet eller flyttet til andre Xfce-pakker. Alle andre endringer av avhengigheter er opplistet i endringsloggen til 4.10pre1. Xfce-kjernen har også fått noen nye komponenter fordi vi synes de er viktige for et minimalt skrivebord: xfce4-power-manager (strømstyring), tumbler (lager miniatyrbilder for Thunar og andre komponenter), garcon (menybibliotek, var allerede en avhengighet i 4.8) og thunar-volman (behandling av dataområder i Thunar)."
 
-#: news-array.php:203
+#: news-array.php:224
 msgid ""
 "Of course translations also improved a lot, thanks to the amazing work of "
 "our translation teams."
 msgstr "Oversettelsene våre har også sett en kraftig forbedring, hvis årsak er det fantastisk arbeidet lagt ned av fra våre oversettelseslag."
 
-#: news-array.php:204
+#: news-array.php:225
 msgid ""
 "We hope you will enjoy this release. Please give us feedback by sharing your"
 " thoughts, blogging, tweeting, denting or by filing bug reports. With your "
 "help, 4.10 will be the best release ever (at least until 4.12)!"
 msgstr "Vi håper du vil trives med denne utgivelsen. Vennligst gi oss din tilbakemelding ved å dele dine tanker, blogge, tvitre eller ved å sende oss feilrapporter! Med din hjelp, vil 4.10 være den beste utgivelsen noensinne (i hvert fall inntil 4.12)!"
 
-#: news-array.php:207
+#: news-array.php:228
 msgid "Xfce 4.8 released"
 msgstr "Xfce 4.8 utgitt"
 
-#: news-array.php:212
+#: news-array.php:233
 msgid ""
 "Today, after almost two years of work, we have the special pleasure of "
 "announcing the much awaited release of Xfce 4.8, the new stable version that"
 " supersedes Xfce 4.6."
 msgstr "Idag, etter nesten to års arbeid, har vi den spesielle gleden av å annonsere den etterlengtede 4.8-utgivelsen av Xfce, en ny stabil versjon som etterfølger Xfce 4.6."
 
-#: news-array.php:213
+#: news-array.php:234
 msgid ""
 "We hope that everyone will enjoy this release as much as we do. Sadly, this "
 "will not be the case as the folks using any of the BSD systems will notice a"
@@ -4468,7 +5069,7 @@ msgid ""
 "utilities we need in desktop environments."
 msgstr "Vi håper alle har like mye glede av denne utgivelsen som vi har. For brukere av BSD-systemer er dette dog en ambivalent utgave, da mange funksjoner bortfaller. Vi synes dette oppropet er en god anledning til å markere vår misnøye  den seneste 'eksklusivt-til-linux'-trenden i utvikling av åpen-kildekode økosystemet, spesielt med tanke på verktøyene vi trenger til bruk i skrivebordsmiljø."
 
-#: news-array.php:214
+#: news-array.php:235
 msgid ""
 "Xfce 4.8 is our attempt to update the Xfce code base to all the new desktop "
 "frameworks that were introduced in the past few years. We hope that our "
@@ -4476,14 +5077,14 @@ msgid ""
 " PolicyKit will help bringing the Xfce desktop to modern distributions."
 msgstr "Xfce 4.8 er vårt forsøk på å oppdatere Xfce-kodebasen til alle nye skrivebords-rammeverk som har blitt introdusert de seneste årene. Vi håper vår innsats for å droppe ting som ThunarVFS og HAL med GIO, udev, ConsoleKit og PolicyKit hjelper Xfce på vei i i moderne distribusjoner."
 
-#: news-array.php:215
+#: news-array.php:236
 msgid ""
 "With Xfce 4.8 our users will be able to browse remote shares using a variety"
 " of protocols (SFTP, SMB, FTP and many more). The window clutter has been "
 "reduced by merging all file progress dialogs into a single one."
 msgstr "Med Xfce 4.8 vil våre brukere kunne utforske fjerntliggende filsystem med et utvalg av protokoller (SFTP, SMB, FTP og flere til). Vindusrotet har også blitt redusert ved å bruke én enkelt framdriftsviser."
 
-#: news-array.php:216
+#: news-array.php:237
 msgid ""
 "Our panel application has been rewritten, thereby improving positioning, "
 "transparency, item and launcher management. It also introduces a new menu "
@@ -4491,7 +5092,7 @@ msgid ""
 " plugins."
 msgstr "Vårt panel-program har blitt skrevet om, hvilket bedrer posisjonering, gjennomsiktighet, element og oppstarter-behandling. Det introduserer også et nytt meny-tillegg for å vise mapper. Tilleggs-rammeverket er fremdeles kompatibelt med 4.6-tillegg. "
 
-#: news-array.php:217
+#: news-array.php:238
 msgid ""
 "We also improved our settings dialogs. The display configuration dialog now "
 "supports RandR 1.2, detects screens automatically and allows our users to "
@@ -4501,7 +5102,7 @@ msgid ""
 "manual settings editor has been updated to be more functional."
 msgstr "Vi har også forbedret våre dialogvinduer for innstillinger. Skjermoppsettet støtter nå RandR 1.2, oppdager skjermer automatisk og lar brukerne velge sine favorittoppløsninger, oppdateringsfrekvenser og rotasjoner. Skjermer kan nå klones eller plasseres ved siden av hverandre. Tastaturvalg er lettere og mer brukervennlig. Det manuelle redigeringsprogrammet for innstillinger er nå mer funksjonelt. "
 
-#: news-array.php:218
+#: news-array.php:239
 msgid ""
 "Aside from the features implemented in Xfce, the 4.8 development cycle "
 "brought us a bunch of other goodies. For the first time we had a serious "
@@ -4514,40 +5115,40 @@ msgid ""
 "will not suddenly surrender shortly after this release announcement."
 msgstr "I tillegg til funksjonaliteten i Xfce 4.8 har utviklingssyklusen brakt oss flere godsaker. For første gang har vi en seriøs utgivelsesstrategi basert på «Xfce utgivelses- og utviklingsmodell» som ble utviklet på Ubuntu Desktop Summit i mai 2009. Et nytt nettprogram gjorde utgivelseshåndtering mye enklere. Vi jobbet hardt for å forbedre situasjonen for våre oversettere, og satte derfor opp vår egen Transifex-tjener. Vi har også oppgradert våre tjenere og speil slik at de ikke kneler etter denne annonseringen."
 
-#: news-array.php:219
+#: news-array.php:240
 msgid ""
 "There is a lot more to discover and we hope a lot of you will give Xfce 4.8 "
 "a try! There is a brief tour online on"
 msgstr "Det er mye mer å oppdage, og vi håper du gir Xfce 4.8 en sjangs! Det er en kort nettbasert omvisning på"
 
-#: news-array.php:221
+#: news-array.php:242
 msgid ""
 "A summary of the changes since the 4.8pre3 preview release is available on "
 "the following URL (it also includes links to the changes introduced in all "
 "preview releases):"
 msgstr "En oppsummering av endringene siden forhåndsutgivelsen 4.8pre3 er nå tilgjengelig på følgende URL (den har også lenker til endringene i alle forhåndsutgivelsene):"
 
-#: news-array.php:223
+#: news-array.php:244
 msgid ""
 "The release can be downloaded either as individual releases or as a fat "
 "tarball including all these individual versions:"
 msgstr "Utgivelsen kan enten lastes ned som frittstående pakker eller ett stort tar-arkiv med alle disse versjonene:"
 
-#: news-array.php:225
+#: news-array.php:246
 msgid ""
 "2011 has just begun and we are already planning for the future. The 4.10 "
 "schedule will be worked on soon and hopefully, we will be able to turn Xfce "
 "into a non-profit organization at this year's FOSDEM, so stay tuned!"
 msgstr "Vi er i 2011 og planlegger allerede framtida. Vi jobber med framdrifta til 4.10 og håper vi kan gjøre Xfce til en veldedig organisasjon når FOSDEM kommer, så følg med!"
 
-#: news-array.php:226
+#: news-array.php:247
 msgid ""
 "But until then we hope you will enjoy today's release and join us in "
 "celebrating. Thanks go out to all our contributors, bug reporters as well as"
 " the awesome efforts of our translators and packagers. "
 msgstr "Inntil videre håper vi du liker dagens utgivelse og feirer med oss. Takk til alle bidragsytere og dere som rapporterer feil, våre oversettere og pakkere."
 
-#: news-array.php:234
+#: news-array.php:255
 msgid ""
 "Today we are pleased to announce the third and hopefully final preview "
 "release of Xfce 4.8 which is set to be pushed out to the public on January "
@@ -4555,13 +5156,13 @@ msgid ""
 "translation updates and bug fixes."
 msgstr "Vi annonserer idag den tredje og forhåpentligvis den siste forhåndsutgivelsen av Xfce 4.8, som etter planen lanseres den 16. januar 2011. Sammenlignet med Xfce 4.8pre2 har denne utgivelsen for det meste nye oversettinger og feilrettinger."
 
-#: news-array.php:235
+#: news-array.php:256
 msgid ""
 "With christmas and new year's eve between 4.8pre2 and 4.8pre3 it comes as no"
 " surprise that for most components only a few issues were tackled."
 msgstr "Romjula kom imellom 4.8pre2 og 4.8pre3, og det sier vel seg selv at kun småting ble håndtert."
 
-#: news-array.php:236
+#: news-array.php:257
 msgid ""
 "Among other things we updated the default keyboard shortcuts to include "
 "monitor keys. The status icon of the file manager's progress dialog is now "
@@ -4572,7 +5173,7 @@ msgid ""
 "environment of the Xfce session."
 msgstr ""
 
-#: news-array.php:237
+#: news-array.php:258
 msgid ""
 "We also made the --reboot and --halt parameters of xfce4-session-logout work"
 " again which previously simply logged out the active user. In order to avoid"
@@ -4581,7 +5182,7 @@ msgid ""
 "instead, update the related XSETTINGS properties ourselves."
 msgstr "Xfce4-session-logouts parametre --reboot og --halt virker nå som de skal istedenfor å logge ut brukeren. For å unngå rekkefølgeproblemer ved oppstart av økt, og for å gjøre ting litt raskere, bruker vi ikke lenger xrdb til å oppdatere xft og pekerinnstillinger, men oppdaterer istedenfor XSETTINGS-egenskapene."
 
-#: news-array.php:238
+#: news-array.php:259
 msgid ""
 "In the window manager xfwm4, we aligned the time period required for a "
 "double click with that of normal applications. Via the hidden option "
@@ -4591,7 +5192,7 @@ msgid ""
 "application switcher now only appears once in cloned mode."
 msgstr "Vindusbehandleren xfwm4 justerte tidsintervallet som kreves for dobbeltklikking likt vanlige programmer. Via det skjulte valget /general/mousewheel_rollup kan man nå slå av at vinduer rulles opp med musehjulet. Vindusbehandleren støtter bedre endringer i oppløsning for fullskjermer slik som i spill. Xfwm4s programveksler dukker bare opp én gang i klonet modus. "
 
-#: news-array.php:239
+#: news-array.php:260
 msgid ""
 "This may sound like a few useful fixes but it's nothing compared to the "
 "amount of work that went into the new Xfce panel once again. Around 20+ "
@@ -4604,13 +5205,13 @@ msgid ""
 "icon sizing in the notification area, also known as the systray."
 msgstr "Dette høres ut som noen få nyttige feilrettinger, men det er ingenting mot arbeidet som ble lagt ned i Xfce-panelet. Rundt 20+ feil og regresjoner ble rettet. Her er et utdrag av endringsloggen: Fikset oversettingsdomener for eksterne tillegg, tillegg kan nå gjenordnes med DND, dobbeltklikking av elementer i redigeringsprogrammet viser nå deres innstillinger, dra et element til redigeringsvinduet for elementer for å fjerne det fra panelet, oppgavevinduer kan nå filtreres etter skjerm. En annen nylig feil som ble rettet er ikonstørrelsen i varslingsområdet."
 
-#: news-array.php:240
+#: news-array.php:261
 msgid ""
 "Xfce 4.8pre3 also features a lot of translation updates, as can be seen in "
 "the complete changelog."
 msgstr "Xfce 4.8pre3 har også en rekke oversettelsesoppdateringer, som kan sees i den fullstendige endringsloggen."
 
-#: news-array.php:241
+#: news-array.php:262
 msgid ""
 "Since we're following the Xfce <a href=\"/about/releasemodel\">release "
 "model</a> for 4.8, we'd normally announce code freeze and the creation of "
@@ -4620,7 +5221,7 @@ msgid ""
 " and 4.8pre3."
 msgstr "Siden vi følger Xfces <a href=\"/about/releasemodel\">utgivelsesmodell</a> for 4.8 ville vi vanligvis ha annonsert kodefrys og laget støttegreiner idag. Vi er imidlertid for få folk til å håndtere alt dette, så vi fortsetter feilretting i hovedgreinene slik vi gjorde mellom 4.8pre2 og 4.8pre3."
 
-#: news-array.php:248
+#: news-array.php:269
 msgid ""
 "We are pleased to announce the second preview release of Xfce 4.8. This "
 "release marks the beginning of the string freeze. From today on until the "
@@ -4629,14 +5230,14 @@ msgid ""
 "for the final release scheduled on January 16th, 2011."
 msgstr "Vi er stolte av å annonsere den andre forhåndsutgivelsen til Xfce 4.8. Strengene fryses fra denne utgivelsen fram til endelig utgivelse. Oversetterne kan dermed forberede sine oversettinger til den endelige utgivelsen den 16. januar 2011."
 
-#: news-array.php:249
+#: news-array.php:270
 msgid ""
 "For this release we focused on fixing bugs in all Xfce components. We "
 "managed to close a great number of them thanks to all the persons who "
 "reported them and tested proposed fixes quickly."
 msgstr "Vi fokuserte på feilretting av alle Xfce-komponentene. Vi har fikset ganske mange takket være alle som har meldt dem inn og testet de foreslåtte løsningene."
 
-#: news-array.php:250
+#: news-array.php:271
 msgid ""
 "A few minor panel features were added despite feature freeze. We also "
 "managed to work on two long time requests: proper support for editing the "
@@ -4646,7 +5247,7 @@ msgid ""
 "of our translation teams."
 msgstr "Vi la til noen få panelfunksjoner til tross for funksjonalitetsfrys. Vi jobbet også med to gamle ønsker: ordentlig støtte for redigering av programmenyen med menyprogrammer (f.eks. Alacarte), og integrasjon med Compiz. Denne utgivelsen har også mange nye og forbedrede oversettelser takket være oversettingslagene."
 
-#: news-array.php:257
+#: news-array.php:278
 msgid ""
 "The Xfce development team is proud to announce the first preview release for"
 " Xfce 4.8. Together with this preview release, the Xfce project announces "
@@ -4654,7 +5255,7 @@ msgid ""
 "to the world on January 16th, 2011."
 msgstr "Utviklingslaget til Xfce er stolte av å annonsere den første forhåndsutgivelsen av Xfce 4.8. Vi annonserer også funksjonalitetsfrys fram til den endelige utgivelsen av 4.8, som etter planen kommer den 16. januar 2011."
 
-#: news-array.php:258
+#: news-array.php:279
 msgid ""
 "This release incorporates major changes to the core of the Xfce desktop "
 "environment and hopefully succeeds in fulfilling a number of long time "
@@ -4670,7 +5271,7 @@ msgid ""
 "introduced libxfce4ui library which is meant to replace libxfcegui4."
 msgstr "Denne utgivelsen har mange store endringer av kjerneprogrammene til Xfce, og vil forhåpentligvis oppfylle mange gamle ønsker. Vi har overført hele Xfce-kjernen (bl.a. Thunar, xfdesktop og thunar-volman) fra ThunarVFS til GIO, slik at skrivebordsmiljøet får eksterne filsystemer. Panelet er omskrevet fra bunnen av og har bedre programstartere, og støtter flere skjermer bedre. Vi kan ikke liste alle de nye funksjonene her. Takket være det nye menybiblioteket garcon (tidligere kjent som libxfce4menu) støtter vi nå menyredigering med tredjepartsprogrammer slik som Alacarte (vi har ikke vårt eget). Kjernebibliotekene har mindre sideflesk, og vi trekker spesielt fram libxfce4ui, som er ment å erstatte libxfcegui4.  "
 
-#: news-array.php:259
+#: news-array.php:280
 msgid ""
 "Perhaps the most important achievement we will accomplish with Xfce 4.8 is "
 "that, despite suffering from the small size of the development team from "
@@ -4681,28 +5282,28 @@ msgid ""
 "compatibility reasons)."
 msgstr "Kanskje det viktigste med Xfce 4.8 er at kjerneprogrammene nå bruker dagens skrivebordsteknologi, slik som GIO, ConsoleKit, PolicyKit, udev og mange flere. Dette har vi klart selv om utviklingslaget til tider er lite. Mye gammel daukode er fjernet fra kjerneprogrammene, slik som HAL og ThunarVFS (som fortsatt er der for å være kompatibel)."
 
-#: news-array.php:260
+#: news-array.php:281
 msgid ""
 "Thanks to the awesome Transifex translation platform, our language teams "
 "have been able to update their translations at an incredible pace. Please "
 "include them when praising this release!"
 msgstr "De forskjellige bidragsyterne som oversetter Xfce er å finne på Transifex. Ta dem med i betraktningen når du tenker over hva som skulle til for å få denne utgaven ut av døra."
 
-#: news-array.php:267
+#: news-array.php:288
 msgid "The second bugfix-release of xfce 4.6 has been released."
 msgstr "Den andre feilretting-utgivelsen av Xfce 4.6 har blitt utgitt."
 
-#: news-array.php:268
+#: news-array.php:289
 msgid ""
 "This release features a lot of updated translations and fixes some bugs or "
 "regressions with new GTK+ versions."
 msgstr "Denne utgivelsen har mange oppdaterte oversettinger og rettinger av feil og regresjoner med nye GTK+-versjoner."
 
-#: news-array.php:275
+#: news-array.php:296
 msgid "The first bugfix-release of xfce 4.6 has been released."
 msgstr "Den første feilretting-utgivelsen av Xfce 4.6 har blitt utgitt."
 
-#: news-array.php:276
+#: news-array.php:297
 msgid ""
 "Thanks to all the people who have been using xfce 4.6 and took the time and "
 "effort to submit bugreports for stuff that wasn't quite working the way it "
@@ -4710,18 +5311,18 @@ msgid ""
 "weeks."
 msgstr "Takk til alle de menneskene som har brukt Xfce 4.6 og tok seg tid og anstrengelse til å sende inn feilrapporter for ting som ikke helt fungerte slik det skulle. Vi har vært i stand til å løse flere problemer i løpet av de siste ukene."
 
-#: news-array.php:277
+#: news-array.php:298
 msgid ""
 "thanks to all the translators, several translations have been improved and "
 "completed since the release of 4.6.0."
 msgstr "takk til alle oversettere, flere oversettelser har blitt forbedret og fullført siden utgivelsen av 4.6.0."
 
-#: news-array.php:284
+#: news-array.php:305
 msgid ""
 "After more than two years of development, Xfce 4.6.0 has just been released."
 msgstr "Etter mer enn to års utvikling, har Xfce 4.6.0 nettopp blitt utgitt."
 
-#: news-array.php:285
+#: news-array.php:306
 msgid ""
 "Xfce 4.6 features a new configuration backend, a new settings manager, a "
 "brand new sound mixer, and several huge improvements to the session manager "
@@ -4729,7 +5330,7 @@ msgid ""
 "last release candidate can be found on this page."
 msgstr "Xfce 4.6 har et nytt oppsettsbakstykke, en ny innstillingsbehandler, ny lydmikser og forbedringer av øktbehandleren og de andre kjerneprogrammene i Xfce. En liste med alle endringene siden forhåndsutgivelsen finnes på denne siden."
 
-#: news-array.php:286
+#: news-array.php:307
 msgid ""
 "A visual overview of Xfce 4.6 is available <a "
 "href=\"/about/tour46\">here</a>."
