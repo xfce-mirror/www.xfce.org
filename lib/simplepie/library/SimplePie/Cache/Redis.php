@@ -65,6 +65,12 @@ class SimplePie_Cache_Redis implements SimplePie_Cache_Base {
         $parsed = SimplePie_Cache::parse_URL($location);
         $redis = new Redis();
         $redis->connect($parsed['host'], $parsed['port']);
+        if (isset($parsed['pass'])) {
+            $redis->auth($parsed['pass']);
+        }
+        if (isset($parsed['path'])) {
+            $redis->select((int)substr($parsed['path'], 1));
+        }
         $this->cache = $redis;
 
         if (!is_null($options) && is_array($options)) {
@@ -146,7 +152,7 @@ class SimplePie_Cache_Redis implements SimplePie_Cache_Base {
         if ($data !== false) {
             $return = $this->cache->set($this->name, $data);
             if ($this->options['expire']) {
-                return $this->cache->expire($this->name, $this->ttl);
+                return $this->cache->expire($this->name, $this->options['expire']);
             }
             return $return;
         }
