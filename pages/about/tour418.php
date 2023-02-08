@@ -21,13 +21,13 @@
   <p><?php E_("For more information on shared thumbnails, check the <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html\">related blog post</a>.") ?></p>
 
 <h2><?php E_("Panel") ?> <em>(xfce4-panel)</em></h2>
-  <p><?php E_("The DateTime and the Clock plugin provided overlapping functionallity. In order to prevent parallel development, they have been merged into a single plugin.") ?></p>
+  <p><?php E_("The DateTime and the Clock plugins provided overlapping functionality. In order to prevent parallel development, they have been merged into a single plugin.") ?></p>
      <?php print_figure ("about/tour/4.18/panel-clock1.png", R_("The new 'Clock' panel widget")) ?>
   <p><?php E_("The new Clock plugin received a new binary time mode now and provides a sleep monitor. Here's a screenshot of all possible layouts which are: Analog, Binary, Digital, Fuzzy and LCD.") ?></p>
      <?php print_figure ("about/tour/4.18/panel-clock2.png", R_("All possible Clock Modes")) ?>
 
 <h2><?php E_("Desktop Manager") ?> <em>(xfdesktop)</em></h2>
-  <p><?php E_("Like in thunar, the 'Delete' menu entry in the context menu can now be hidden.") ?></p>
+  <p><?php E_("Like in Thunar, the 'Delete' menu entry in the context menu can now be hidden.") ?></p>
   <p><?php E_("In order to don't mess the desktop by accident on pressing 'rearrange desktop icons', the user is asked for confirmation now.") ?></p>
 
 <h2><?php E_("Settings Manager") ?> <em>(xfce4-settings)</em></h2>
@@ -55,8 +55,8 @@
 <h3><?php E_("File Highlight") ?></h3>
   <p><?php E_("Files now can be highlighted by setting the background and the filename to different colors. This can be done via an additional tab, located in the 'properties' dialog. The view menu provides a checkbox in order to enable/disable the feature. Once enabled, files now can be shown in all the colors of the rainbow.") ?></p>
      <?php print_figure ("about/tour/4.18/thunar-hightlight1.png", R_("Thunar - File Highlight Options")) ?>
-     <?php print_figure ("about/tour/4.18/thunar-hightlight2.png", R_("Thunar - Hightlighted file in List View")) ?>
-     <?php print_figure ("about/tour/4.18/thunar-hightlight3.png", R_("Thunar - Hightlighted files in Icon View")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-hightlight2.png", R_("Thunar - Highlighted file in List View")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-hightlight3.png", R_("Thunar - Hightighted files in Icon View")) ?>
   <p><?php E_("For more information on file highlight, check the <a href=\"https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">related blog post</a>.") ?></p>
 <h3><?php E_("Toolbar") ?></h3>
   <p><?php E_("It is now possible to customize the toolbar according to your personal needs! An additional dialog has been added for that purpose, on which the visibility and position of specific items can be managed. As well custom actions, which appear for folders can be used in the toolbar.") ?></p>
@@ -72,7 +72,7 @@
   <p><?php E_("The status bar style was tweaked and '|' is now used to separate entries. Furthermore, it is now possible to customize it by using the context menu.") ?></p>
      <?php print_figure ("about/tour/4.18/thunar-statusbar.png", R_("Thunar - Statusbar Customization")) ?>
 <h3><?php E_("Recursive Search") ?></h3>
-  <p><?php E_("Thunar has now the possibility to search recursively, dircetly inside Thunar itself. The search is done in a separate thread and search results are added rapidly into a List View. A new row 'Location' shows where the search results are located, and the context menu provides the option 'Open Item Location' in order to travel there quickly. The preferences dialog provides an option to limit recursive search to local folders, or to disable it. ") ?></p>
+  <p><?php E_("Thunar has now the possibility to search recursively, directly inside Thunar itself. The search is done in a separate thread and search results are added rapidly into a List View. A new row 'Location' shows where the search results are located, and the context menu provides the option 'Open Item Location' in order to travel there quickly. The preferences dialog provides an option to limit recursive search to local folders, or to disable it. ") ?></p>
      <?php print_figure ("about/tour/4.18/thunar-search1.png", R_("Thunar - Recursive Search")) ?>
      <?php print_figure ("about/tour/4.18/thunar-search2.png", R_("Thunar - Recursive Search Preferences")) ?>
   <p><?php E_("For more information on the recursive search feature, check the <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html\">related blog post</a>.") ?></p>
