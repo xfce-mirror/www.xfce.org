@@ -66,6 +66,7 @@ else
 		<form id="languageform" action="" method="get">
 			<select name="lang" onchange="document.getElementById('languageform').submit(); return true;" title="<?php E_('Change language') ?>">
 <?php
+				asort($languages);
 				foreach ($languages as $code => $name)
 				{
 					/* select active language */
