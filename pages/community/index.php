@@ -34,5 +34,5 @@ $head['title'] = R_('Community');
 <h2 id="social"><?php E_('Social Networks') ?></h2>
 
 <p>
-  <?php E_('You can follow us on the official <a href="https://floss.social/@xfce" class="external">Mastodon account<a> or <a href="https://twitter.com/xfceofficial" class="external">Twitter account</a>') ?>
+  <?php E_('You can follow us on the official <a href="https://floss.social/@xfce" class="external">Mastodon account</a> or <a href="https://twitter.com/xfceofficial" class="external">Twitter account</a>') ?>
 </p>
