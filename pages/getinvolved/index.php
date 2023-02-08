@@ -28,7 +28,7 @@
 
 <h2><?php E_('Promotion') ?></h2>
 <p>
-  <?php E_('If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Twitter account you can also help by reposting any <a href="https://twitter.com/xfceofficial">announcements</a> we make to help us reach a larger audience.') ?>
+  <?php E_('If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Mastodon or Twitter account you can also help by reposting any announcements we make to help us reach a larger audience.') ?>
 </p>
 
 <h2><?php E_('Bug Reporting and testing') ?></h2>

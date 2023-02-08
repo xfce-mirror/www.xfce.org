@@ -24,7 +24,7 @@ $head['title'] = R_('Download');
 
 <h2 id="individual"><?php E_('Individual releases') ?></h2>
 <p>
-  <?php E_('Each package in Xfce can make individual stable or development releases, including the core packages (as described in the <a href="/about/releasemodel">release model</a>). You can follow the announcements of the releases on the <a href="/community/lists">Xfce users mailing list</a>, watch the <a href="https://archive.xfce.org/feeds/project/">release feeds</a> or follow the Xfce <a href="https://twitter.com/xfceofficial">Twitter account</a>.') ?>
+  <?php E_('Each package in Xfce can make individual stable or development releases, including the core packages (as described in the <a href="/about/releasemodel">release model</a>). You can follow the announcements of the releases on the <a href="/community/lists">Xfce users mailing list</a>, watch the <a href="https://archive.xfce.org/feeds/project/">release feeds</a> or follow the Xfce <a href="https://floss.social/@xfce">Mastodon</a> or <a href="https://twitter.com/xfceofficial">Twitter account</a>.') ?>
 </p>
 
 <ul>
