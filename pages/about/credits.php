@@ -29,7 +29,7 @@ function print_translator_credits()
 <h1><?php echo $head['title'] ?></h1>
 
 <p>
-  <?php E_('A large number of people contributed to the Xfce project. Although more people contributed to the project then the ones list below, we\'d like to say:') ?>
+  <?php E_('A large number of people contributed to the Xfce project. Although more people contributed to the project than the ones listed below, we\'d like to say:') ?>
 
   <b><?php E_('Thanks to all who helped making this software available!') ?></b>
 </p>
