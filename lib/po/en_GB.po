@@ -3319,7 +3319,7 @@ msgid ""
 "preselected. The dialog now has a section 'Default Application' in order to "
 "make clear which default application currently is set. If you want to remove"
 " applications from the list, right click it and select 'forget association'."
-msgstr ""
+msgstr "The management to set/unset default applications for specific mime types was improved. The context menu got a dedicated item 'Set Default Application' which will open the 'ApplicationChooserDialog' with 'use as default' preselected. The dialogue now has a section 'Default Application' in order to make clear which default application currently is set. If you want to remove applications from the list, right-click it and select 'forget association'."
 
 #: about/tour.php:91 about/tour418.php:91
 msgid "Thunar - Context Menu Entry to set Default Application"
@@ -4184,14 +4184,14 @@ msgid ""
 "asterisk and adding aspect ratios next to resolutions. Falling back to a "
 "working mode after misconfiguring the display layout has also been made more"
 " robust."
-msgstr ""
+msgstr "Support for fractional scaling was added to the <a href=\"https://docs.xfce.org/xfce/xfce4-settings/display\">display dialogue</a>, along with highlighting the preferred mode of a display with an asterisk and adding aspect ratios next to resolutions. Falling back to a working mode after misconfiguring the display layout has also been made more robust."
 
 #: news-array.php:47
 msgid ""
 "A new tab in the \"About Xfce\" dialog shows basic system information like "
 "CPU or GPU type. Furthermore the layout and visuals of the dialog were "
 "improved."
-msgstr ""
+msgstr "A new tab in the \"About Xfce\" dialogue shows basic system information like CPU or GPU type. Furthermore, the layout and visuals of the dialogue were improved."
 
 #: news-array.php:48
 msgid ""
@@ -4215,7 +4215,7 @@ msgid ""
 "boatload of fixes and quite a few notable features, including pause for "
 "copy/move operations, support for queued file transfer, remembering view "
 "settings per directory and support for transparency in Gtk themes."
-msgstr ""
+msgstr "Our file manager <a href=\"https://docs.xfce.org/xfce/thunar/start\">Thunar</a> received a boatload of fixes and quite a few notable features, including pause for copy/move operations, support for queued file transfer, remembering view settings per directory and support for transparency in Gtk themes."
 
 #: news-array.php:51
 msgid ""
@@ -4239,7 +4239,7 @@ msgid ""
 " `Presentation Mode` is enabled, more accurate battery status icons and "
 "automatically dismissing low-power notifications upon the connection of a "
 "charger."
-msgstr ""
+msgstr "The <a href=\"https://docs.xfce.org/xfce/xfce4-power-manager/start\">power manager</a> received a lot of bugfixes and some smaller features - among them a cleanup of its settings dialogue, an optional visual indicator for when `Presentation Mode` is enabled, more accurate battery status icons and automatically dismissing low-power notifications upon the connection of a charger."
 
 #: news-array.php:54
 msgid ""
@@ -4255,7 +4255,7 @@ msgid ""
 "APIs and now doesn´t launch applications as children of the process hosting "
 "the menu anymore. The previous behavior led to applications crashing along "
 "with e.g. the panel."
-msgstr ""
+msgstr "Our menu library <a href=\"https://docs.xfce.org/xfce/garcon/start\">garcon</a> received new APIs and now doesn´t launch applications as children of the process hosting the menu anymore. The previous behaviour led to applications crashing along with e.g. the panel."
 
 #: news-array.php:56
 msgid ""
@@ -4312,7 +4312,7 @@ msgid ""
 " HiDPI support, improved GLX support with NVIDIA proprietary/closed source "
 "drivers, support for XInput2, various compositor improvements and a new "
 "default theme."
-msgstr ""
+msgstr "The <a href=\"https://docs.xfce.org/xfce/xfwm4/start\">window manager</a> received a slew of updates and features, including support for VSync (using either Present or OpenGL as backend) to reduce or remove display flickering, HiDPI support, improved GLX support with NVIDIA proprietary/closed source drivers, support for XInput2, various compositor improvements and a new default theme."
 
 #: news-array.php:80
 msgid ""
@@ -4352,7 +4352,7 @@ msgid ""
 "lot of time was spent on making the user interface more intuitive and a "
 "hidden option was added to support RandR display scaling (configured via "
 "Xfconf)."
-msgstr ""
+msgstr "The <a href=\"https://docs.xfce.org/xfce/xfce4-settings/display\">display dialogue</a> received a lot of attention during this cycle and a big feature: Users are now able to save and (automatically) restore complete multi-display configurations, which is especially helpful for those who frequently connect their laptop to varying docking stations or setups. Furthermore a lot of time was spent on making the user interface more intuitive and a hidden option was added to support RandR display scaling (configured via Xfconf)."
 
 #: news-array.php:84
 msgid ""
@@ -4476,7 +4476,7 @@ msgid ""
 "able to remotely control media players and desktop-wide multimedia key "
 "support, essentially rendering xfce4-volumed-pulse a superfluous additional "
 "daemon."
-msgstr ""
+msgstr "The <a href=\"https://docs.xfce.org/apps/pulseaudio-plugin/start\">pulseaudio panel plugin</a> received MPRIS2 support to be able to remotely control media players and desktop-wide multimedia key support, essentially rendering xfce4-volumed-pulse a superfluous additional daemon."
 
 #: news-array.php:101
 msgid ""
@@ -4520,7 +4520,7 @@ msgid ""
 "Finally <a href=\"https://git.xfce.org/apps/xfce4-panel-"
 "profiles/about/\">Panel Profiles</a>, which allows you to backup and restore"
 " your panel layouts, has moved under the Xfce umbrella."
-msgstr ""
+msgstr "Finally <a href=\"https://git.xfce.org/apps/xfce4-panel-profiles/about/\">Panel Profiles</a>, which allows you to backup and restore your panel layouts, has moved under the Xfce umbrella."
 
 #: news-array.php:113
 msgid ""
@@ -4623,7 +4623,7 @@ msgstr "Support for multi-monitor use was improved in a new display settings dia
 
 #: news-array.php:145
 msgid "The appearance dialog now showcases previews for icons and themes."
-msgstr ""
+msgstr "The appearance dialogue now showcases previews for icons and themes."
 
 #: news-array.php:146
 msgid "Xfsettingsd now supports libinput."
@@ -4635,7 +4635,7 @@ msgid ""
 "logind/upower support was added to handle battery/lid/brightness events, and"
 " locking via light-locker was implemented. The settings dialog was also "
 "revamped, and support for X11 screenblanking was added."
-msgstr ""
+msgstr "Power management was not forgotten: A new panel plugin was created, logind/upower support was added to handle battery/lid/brightness events, and locking via light-locker was implemented. The settings dialogue was also revamped, and support for X11 screenblanking was added."
 
 #: news-array.php:148
 msgid ""
@@ -4653,7 +4653,7 @@ msgid ""
 "engines, we are stopping the development of our Gtk theme engine, and "
 "dropping our Gtk3 engine - theme makers, please update your themes  to CSS "
 "if you want them to work on the next Xfce version."
-msgstr ""
+msgstr "To prepare the future of Xfce with Gtk3, which no longer requires theme engines, we are stopping the development of our Gtk theme engine, and dropping our Gtk3 engine - theme makers, please update your themes to CSS if you want them to work on the next Xfce version."
 
 #: news-array.php:150
 msgid ""
@@ -4661,13 +4661,13 @@ msgid ""
 "xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, "
 "our mixer application and volume daemon cannot be ported to 1.0 and are "
 "consequently not maintained anymore."
-msgstr ""
+msgstr "Due to gstreamer1.0 having dropped the mixer-interface entirely, and xfce4-mixer and xfce4-volumed relying on this interface with gstreamer0.10, our mixer application and volume daemon cannot be ported to 1.0 and are consequently not maintained anymore."
 
 #: news-array.php:153
 msgid ""
 "Xfce wouldn't be what it is right now without all its goodies. In this area,"
 " we also saw a flurry of activity, most notably:"
-msgstr ""
+msgstr "Xfce wouldn't be what it is right now without all its goodies. In this area, we also saw a flurry of activity, most notably:"
 
 #: news-array.php:156
 msgid "Xfburn gained BluRay Disc burning support."
@@ -4757,7 +4757,7 @@ msgid ""
 " the next release. We would also like to thank the many people who donated "
 "money to our project via Bounty Source. This will help us meet and hack on "
 "Xfce in the future!"
-msgstr ""
+msgstr "A warm thank you to all the contributors, translators and packagers for your efforts in making this release possible. We would also like to thank our fantastic users and occasional contributors who submitted bug reports, helped us find issues and sometimes provided patches. We are currently reviewing all patches sent to us and will include many more fixes to Xfce in the next release. We would also like to thank the many people who donated money to our project via Bounty Source. This will help us meet and hack on Xfce in the future!"
 
 #: news-array.php:179
 msgid ""
