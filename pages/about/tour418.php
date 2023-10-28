@@ -107,7 +107,7 @@
 
 <h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
   <h3><?php E_("Configuration") ?></h3>
-    <p><?php E_("Appfinder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.") ?></p>
+    <p><?php E_("Application Finder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.") ?></p>
     <p><?php E_("Environment variables are now parsed when passed in collapsed mode.") ?></p>
   <h3><?php E_("Appearance") ?></h3>
     <p><?php E_("An option to hide the window decorations was added.") ?></p>
