@@ -55,7 +55,7 @@
 <h3><?php E_("File Highlight") ?></h3>
   <p><?php E_("Files now can be highlighted by setting the background and the filename to different colors. This can be done via an additional tab, located in the 'properties' dialog. The view menu provides a checkbox in order to enable/disable the feature. Once enabled, files now can be shown in all the colors of the rainbow.") ?></p>
      <?php print_figure ("about/tour/4.18/thunar-hightlight1.png", R_("Thunar - File Highlight Options")) ?>
-     <?php print_figure ("about/tour/4.18/thunar-hightlight2.png", R_("Thunar - Highlighted file in List View")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-hightlight2.png", R_("Thunar - Highlighted files in List View")) ?>
      <?php print_figure ("about/tour/4.18/thunar-hightlight3.png", R_("Thunar - Hightighted files in Icon View")) ?>
   <p><?php E_("For more information on file highlight, check the <a href=\"https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">related blog post</a>.") ?></p>
 <h3><?php E_("Toolbar") ?></h3>
@@ -107,7 +107,7 @@
 
 <h2><?php E_("Application Finder") ?> <em>(xfce4-appfinder)</em></h2>
   <h3><?php E_("Configuration") ?></h3>
-    <p><?php E_("Appfinder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.") ?></p>
+    <p><?php E_("Application Finder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.") ?></p>
     <p><?php E_("Environment variables are now parsed when passed in collapsed mode.") ?></p>
   <h3><?php E_("Appearance") ?></h3>
     <p><?php E_("An option to hide the window decorations was added.") ?></p>
