@@ -56,7 +56,7 @@
   <p><?php E_("Files now can be highlighted by setting the background and the filename to different colors. This can be done via an additional tab, located in the 'properties' dialog. The view menu provides a checkbox in order to enable/disable the feature. Once enabled, files now can be shown in all the colors of the rainbow.") ?></p>
      <?php print_figure ("about/tour/4.18/thunar-hightlight1.png", R_("Thunar - File Highlight Options")) ?>
      <?php print_figure ("about/tour/4.18/thunar-hightlight2.png", R_("Thunar - Highlighted file in List View")) ?>
-     <?php print_figure ("about/tour/4.18/thunar-hightlight3.png", R_("Thunar - Hightighted files in Icon View")) ?>
+     <?php print_figure ("about/tour/4.18/thunar-hightlight3.png", R_("Thunar - Highlighted files in Icon View")) ?>
   <p><?php E_("For more information on file highlight, check the <a href=\"https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">related blog post</a>.") ?></p>
 <h3><?php E_("Toolbar") ?></h3>
   <p><?php E_("It is now possible to customize the toolbar according to your personal needs! An additional dialog has been added for that purpose, on which the visibility and position of specific items can be managed. As well custom actions, which appear for folders can be used in the toolbar.") ?></p>
