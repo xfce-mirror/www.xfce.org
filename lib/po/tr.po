@@ -7,7 +7,7 @@
 # Alper Tekinalp <alper.tekinalp@gmail.com>, 2014
 # aybuke <aybuke.147@gmail.com>, 2013
 # Burak Erdem <burakerdem@gmail.com>, 2021
-# Demiray Muhterem <mdemiray@msn.com>, 2021-2022
+# Demiray Muhterem <mdemiray@msn.com>, 2021-2022,2024
 # Emin Tufan Çetin <etcetin@gmail.com>, 2021-2022
 # Emin Tufan Çetin <etcetin@gmail.com>, 2020
 # Kaan BODUR <kaanbodur@gmail.com>, 2015
@@ -30,9 +30,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2023-05-11 12:52+0200\n"
+"POT-Creation-Date: 2023-11-01 00:53+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
-"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>, 2021-2022\n"
+"Last-Translator: Demiray Muhterem <mdemiray@msn.com>, 2021-2022,2024\n"
 "Language-Team: Turkish (http://app.transifex.com/xfce/xfce-www/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2488,7 +2488,7 @@ msgid ""
 "enable it. If multiple profiles exist, it will pop up the minimal dialog and"
 " offer all profiles in addition to the previously available pre-sets "
 "(internal only, mirror, extend and external only)."
-msgstr ""
+msgstr "Birkaç iyileştirme, <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/display'>ekran iletişim kutusuna</a> yapıldı. Kullanıcı arayüzünde etkileşimi daha sezgisel hale getirmek için (ekran numaralandırması tanıtma, panel, bildirim ve masaüstü ayarlarına hızlı erişim sağlayan birincil bir gösterge vb.) ayarlamalar yapıldı. Ayrıca, tam ekran profillerini kaydetme ve geri yükleme özelliği eklendi. Bir kurulum için tek bir profil varsa, Xfce ayarları hizmeti otomatik olarak etkinleştirir. Birden fazla profil varsa, minimum iletişim kutusunu açar ve daha önce mevcut olan önceden ayarlanmışlara (yalnızca dahili, ayna, genişlet ve yalnızca harici) ek olarak tüm profilleri sunar."
 
 #: about/tour414.php:19
 msgid "The primary indicator"
@@ -2516,7 +2516,7 @@ msgid ""
 "systems were still missing is to set a (custom) keyboard shortcut (by "
 "default: Super+F1) to visually locate the mouse pointer. This feature was "
 "added in Xfce 4.14."
-msgstr ""
+msgstr "Bir <a href='https://docs.xfce.org/xfce/xfce4-settings/4.14/accessibility'>erişilebilirlik</a> özelliği, diğer masaüstü ortamlarından veya işletim sistemlerinden gelen insanların hala eksik olduğu bir özellik, fare imlecinin görsel olarak yerini belirlemek için bir (özel) klavye kısayolu ayarlamaktır (varsayılan olarak: Super+F1). Bu özellik Xfce 4.14'te eklendi."
 
 #: about/tour414.php:27
 msgid "The mouse pointer location animation"
@@ -2536,7 +2536,7 @@ msgid ""
 "doesn't allow anything other than 16px or 32px.) This means setups that were"
 " previously impossible, because icons would upscale automatically according "
 "to size-steps hard-coded in the panel, are now possible (see below)."
-msgstr ""
+msgstr "Yeni bir özellik, <a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/start'>panel</a>'de tanıttığımız şey, tüm eklentilerin simge boyutunu kontrol edebilme yeteneğidir. ('Tüm' teknik olarak doğru olmayabilir, çünkü şu anda tüm eklentiler yeni API'yi desteklememektedir, ancak artık destekleyebilirler. Ayrıca Pencere düğmeleri eklentisi bir istisnadır, çünkü libwnck 16px veya 32px dışında başka bir şeye izin vermez.) Bu, simgelerin panelde sabitlenmiş boyut adımlarına göre otomatik olarak büyümesi nedeniyle önceden imkansız olan yapılandırmaların artık mümkün olduğu anlamına gelir (aşağıya bakınız)."
 
 #: about/tour414.php:35
 msgid "A 32px tall panel with 16px icons"
@@ -2553,7 +2553,7 @@ msgid ""
 "plugin</a>, both functionally (by improving the matching and icon-finding) "
 "and visually by providing a new group indicator that is less likely to clash"
 " with window titles containing an enumeration in brackets."
-msgstr ""
+msgstr "Gruplama, <a href='https://docs.xfce.org/xfce/xfce4-panel/4.14/tasklist'>Pencere düğmeleri eklentisi</a>'nde işlevsel olarak (eşleştirmeyi ve simge bulmayı iyileştirerek) ve görsel olarak yeni bir grup göstergesi sağlayarak geliştirildi. Bu grup göstergesi, parantez içinde bir numaralama içeren pencere başlıklarıyla çakışma olasılığı daha düşük olan bir şekilde tasarlandı."
 
 #: about/tour414.php:41
 msgid "The new group indicator (two terminal windows)"
@@ -2572,7 +2572,7 @@ msgid ""
 "This should make it way more discoverable for users if they actually have "
 "saved sessions that influence the startup behavior - previously this had to "
 "be checked manually in the filesystem."
-msgstr ""
+msgstr "Bir <a href='https://docs.xfce.org/xfce/xfce4-session/4.14/preferences'>oturum</a> kaydedildiğinde, ayarlar iletişim kutusuna dinamik olarak yeni bir sekme eklenir ve tüm kaydedilmiş oturumlar görüntülenir ve birini veya tümünü silme imkanı sağlar. Bu, kullanıcıların başlangıç davranışını etkileyen kaydedilmiş oturumları olup olmadığını keşfetmelerini çok daha kolay hale getirmelidir - önceden bunu dosya sisteminde manuel olarak kontrol etmek gerekiyordu."
 
 #: about/tour414.php:49
 msgid "The settings dialog after saving a session"
@@ -2590,7 +2590,7 @@ msgid ""
 "mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. "
 "folders), an easily accessible way to hand-type a path as well as an "
 "improved look."
-msgstr ""
+msgstr "Xfce 4.12'ye kadar <a href='https://docs.xfce.org/xfce/thunar/4.14/start'>Thunar</a>, yol çubuğu/yer çubuğu için iki seçenek sunuyordu. İki dünyanın en iyisi şimdi tek bir güçlü yol çubuğunda birleştirildi, tıklanabilir kırıntılar (yani klasörler), bir yol yazmanın kolay erişilebilir bir yolu ve geliştirilmiş bir görünüm içeriyor."
 
 #: about/tour414.php:57
 msgid "Thunar's new pathbar"
@@ -2607,7 +2607,7 @@ msgid ""
 "href='https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders'>Please"
 " read the docs</a> on how to set this up (if your distribution hasn't "
 "enabled it by default)."
-msgstr ""
+msgstr "Aynı şekilde Masaüstünde olduğu gibi, bir klasöre 'folder.jpg' adıyla bir resim kaydedebilir ve Dosya Yöneticisinde simgesi olarak görüntüleyebilirsiniz. Not: Bu ayarın nasıl yapılacağı hakkında <a href='https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders'>dokümantasyonu</a> okuyun (eğer dağıtımınız varsayılan olarak etkinleştirmediyse)."
 
 #: about/tour414.php:63
 msgid "Thunar's new folder thumbnails"
@@ -2621,7 +2621,7 @@ msgid ""
 " themes). It also shows an indicator if applications inhibit power "
 "management functions like suspend (when power is low) or display dimming "
 "(after a defined timeout)."
-msgstr ""
+msgstr "<a href='https://docs.xfce.org/xfce/xfce4-power-manager/4.14/panel-plugin'>Power Manager'ın panel eklentisi</a> artık sembolik simgeleri destekliyor ve standart UPower simge adlarını kullanıyor (tüm simge temalarıyla daha uyumlu hale getiriyor). Ayrıca uygulamaların askıya alma (güç düşük olduğunda) veya ekran karartma (tanımlanmış bir zaman aşımı sonrasında) gibi güç yönetimi işlevlerini engelleyip engellemediğine dair bir gösterge de gösterir. "
 
 #: about/tour414.php:71
 msgid "Parole's video playback is inhibiting power management"
@@ -2638,7 +2638,7 @@ msgid ""
 "including a notifications log, the possibility to disable notifications per "
 "application, a global 'Do Not Disturb' mode, which inhibits all "
 "notifications, and finally a new animation ('slide out')."
-msgstr ""
+msgstr "Xfce'nin <a href='https://docs.xfce.org/apps/notifyd/start'>Bildirim hizmeti</a>ne birkaç yeni özellik eklenmiştir, bunlar arasında bildirim kaydı, uygulama başına bildirimleri devre dışı bırakma olasılığı, tüm bildirimleri engelleyen genel bir 'Rahatsız Etmeyin' modu ve son olarak yeni bir animasyon ('kaydırma dışarı') bulunmaktadır."
 
 #: about/tour414.php:79
 msgid "The new notification animation 'slide out'"
@@ -2648,7 +2648,7 @@ msgstr "Yeni bildirim animasyonu 'dışarı kaydır' "
 msgid ""
 "Furthermore a new panel plugin was added which provides quick access to both"
 " the 'Do Not Disturb' mode as well as the log of recent notifications."
-msgstr ""
+msgstr "Ayrıca, son bildirimlerin günlüğüne ve 'Rahatsız Etmeyin' moduna hızlı erişim sağlayan yeni bir panel eklentisi eklendi."
 
 #: about/tour414.php:85
 msgid "The new panel plugin"
@@ -2663,7 +2663,7 @@ msgid ""
 "<a href='https://docs.xfce.org/apps/parole/start'>Parole</a> now features a "
 "'Mini Mode', where the interface is simplified to just display the album "
 "artwork and can be positioned over other windows without getting in the way."
-msgstr ""
+msgstr "<a href='https://docs.xfce.org/apps/parole/start'>Parole</a> artık 'Mini Mod' özelliğine sahip, burada arayüz sadece albüm kapak resmini gösterir ve diğer pencerelerin üzerine yerleştirilebilir."
 
 #: about/tour414.php:93
 msgid ""
@@ -2690,7 +2690,7 @@ msgid ""
 "screen and screensaver, and all Xscreensaver themes are supported (with "
 "configuration options) out of the box. If you prefer a blank screen, Xfce "
 "Screensaver also includes a blank screen option with DPMS integration."
-msgstr ""
+msgstr "Yeni Xfce <a href='https://docs.xfce.org/apps/screensaver/start'>Ekran Koruyucu</a>, yapılandırılabilir bir kilit ekranı deneyimi sunar. Kilit ekranını ve ekran koruyucusunu seçici olarak açıp kapatabilirsiniz ve tüm Xscreensaver temaları (yapılandırma seçenekleriyle birlikte) kutudan çıkar desteklenir. Boş bir ekran tercih ederseniz, Xfce Ekran Koruyucu ayrıca DPMS entegrasyonuyla birlikte boş bir ekran seçeneği sunar."
 
 #: about/tour414.php:103
 msgid ""
@@ -2715,7 +2715,7 @@ msgid ""
 "executing pasted text as a command) and support for zooming. Finally when "
 "closing a tab or window, there is a new check for running processes which "
 "prevents accidentally closing a terminal that is running a process."
-msgstr ""
+msgstr "Yıllar boyunca <a href='https://docs.xfce.org/apps/terminal/start'>Terminal</a> içinde birçok özellik birikti. Bunlar arasında 'Geri Al' ve 'Diğer Sekmeleri Kapat' işlevi (web tarayıcılarına benzer), 'Tüm Sekmelere Girişi Kopyala', 'Başlık Rengini Ayarla' (sekme metin rengini özelleştirme imkanı sağlar), 'İçeriği Kaydet' (sekme içeriğini bir dosyaya kaydeder), 'Güvensiz Yapıştır' iletişim kutusu (yapıştırılan metni otomatik olarak bir komut olarak çalıştırmayı engeller) ve yakınlaştırma desteği bulunur. Son olarak, bir sekme veya pencere kapatılırken, yanlışlıkla bir işlem çalıştıran bir terminalin kapatılmasını önleyen yeni bir işlem çalıştırma kontrolü bulunur."
 
 #: about/tour414.php:110
 msgid "Zooming, 'Save Contents' and much more!"
@@ -2732,7 +2732,7 @@ msgid ""
 "gained several notable features, amongst others seeing the size of the "
 "screenshot while dragging, moving the selection with the mouse and better <a"
 " href='https://imgur.com'>imgur</a> integration."
-msgstr ""
+msgstr "Xfce <a href='https://docs.xfce.org/apps/screenshooter/start'>Ekran Görüntüsü Alıcı</a>, sürükleme sırasında ekran görüntüsü boyutunu görme, fareyle seçimi taşıma ve daha iyi <a href='https://imgur.com'>imgur</a> entegrasyonu gibi birkaç dikkate değer özellik kazandı."
 
 #: about/tour414.php:116
 msgid "I can drag and move the screenshot area, whoop whoop!"
@@ -2966,19 +2966,19 @@ msgid ""
 "XfceFilenameInput is a comfortable widget for filename input, which was "
 "added in order to prevent invalid filenames at an early stage and to give "
 "detailed feedback on the concrete problem."
-msgstr ""
+msgstr "XfceFilenameInput, geçersiz dosya adlarını erken aşamada önlemek ve somut sorun hakkında detaylı geri bildirim sağlamak amacıyla eklenen rahat bir dosya adı girişi bileşenidir."
 
 #: about/tour.php:11 about/tour418.php:11
 msgid "XfceFilenameInput - trailing whitespaces"
-msgstr ""
+msgstr "XfceFilenameInput - sonlarda boşluklar"
 
 #: about/tour.php:12 about/tour418.php:12
 msgid "XfceFilenameInput - slash"
-msgstr ""
+msgstr "XfceDosyaAdıGirişi - slash"
 
 #: about/tour.php:13 about/tour418.php:13
 msgid "Generic Shortcut Editor"
-msgstr ""
+msgstr "Genel Kısayol Düzenleyici"
 
 #: about/tour.php:14 about/tour418.php:14
 msgid ""
@@ -2986,28 +2986,28 @@ msgid ""
 "graphical interface to modify component-specific shortcuts. Currently, it is"
 " only used inside Thunar, Xfce4-terminal and Mousepad, though other "
 "components might follow."
-msgstr ""
+msgstr "Bu widget, bileşen özel kısayolları değiştirmek için grafik arayüze sahip olmak amacıyla tanıtılan bir kısayol düzenleyicisidir. Şu anda yalnızca Thunar, Xfce4-terminal ve Mousepad içinde kullanılmaktadır, ancak diğer bileşenler de takip edebilir."
 
 #: about/tour.php:15 about/tour418.php:15
 msgid "XfceShortcutsEditor in Thunar"
-msgstr ""
+msgstr "XfceShortcutsEditor Thunar'da"
 
 #: about/tour.php:17 about/tour418.php:17
 msgid "Thumbnail Service"
-msgstr ""
+msgstr "Önizleme Hizmeti"
 
 #: about/tour.php:18 about/tour418.php:18
 msgid ""
 "Some performance improvements for the pixbuf-thumbnailer and the scheduler "
 "were done. As well now there are multiple overwrite options for the desktop-"
 "thumbnailer."
-msgstr ""
+msgstr "pixbuf-thumbnailer ve zamanlayıcı için bazı performans iyileştirmeleri yapıldı. Ayrıca masaüstü-thumbnailer için artık birden fazla üzerine yazma seçeneği bulunuyor."
 
 #: about/tour.php:19 about/tour418.php:19
 msgid ""
 "There is now support for the thumbnail sizes x-large and xx-large, which are"
 " very useful for high resolution displays."
-msgstr ""
+msgstr "Şimdi yüksek çözünürlüklü ekranlar için çok kullanışlı olan x-large ve xx-large ölçülerinde küçük resim desteği bulunmaktadır."
 
 #: about/tour.php:20 about/tour418.php:20
 msgid ""
@@ -3016,82 +3016,82 @@ msgid ""
 " produce thumbnails for a folder in advance, directly located near the "
 "pictures. Like that, the thumbnails don't need to be re-generated for each "
 "individual user."
-msgstr ""
+msgstr "Tumbler ve Thunar artık freedesktop.org küçük resim özelliklerinde açıklanan gibi paylaşılan küçük resim depolarını destekliyor. Bu özellik, resimlere yakın konumlanmış bir klasör için önceden küçük resimler üretmek için kullanılabilir. Böylece, küçük resimler her bir kullanıcı için yeniden oluşturulmak zorunda kalmaz."
 
 #: about/tour.php:21 about/tour418.php:21
 msgid ""
 "For more information on shared thumbnails, check the <a "
 "href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html\">related "
 "blog post</a>."
-msgstr ""
+msgstr "Paylaşılan küçük resimler hakkında daha fazla bilgi için, ilgili blog yazısını kontrol edin: <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html\">ilgili blog yazısı</a>."
 
 #: about/tour.php:24 about/tour418.php:24
 msgid ""
 "The DateTime and the Clock plugins provided overlapping functionality. In "
 "order to prevent parallel development, they have been merged into a single "
 "plugin."
-msgstr ""
+msgstr "DateTime ve Clock eklentileri, örtüşen işlevselliği sağlamaktadır. Paralel gelişimi önlemek için, bunlar tek bir eklentiye birleştirildi."
 
 #: about/tour.php:25 about/tour418.php:25
 msgid "The new 'Clock' panel widget"
-msgstr ""
+msgstr "Yeni 'Saat' paneli bileşeni"
 
 #: about/tour.php:26 about/tour418.php:26
 msgid ""
 "The new Clock plugin received a new binary time mode now and provides a "
 "sleep monitor. Here's a screenshot of all possible layouts which are: "
 "Analog, Binary, Digital, Fuzzy and LCD."
-msgstr ""
+msgstr "Yeni Clock eklentisi şimdi yeni bir ikili zaman modu aldı ve bir uyku izleyici sağlıyor. İşte Analog, İkili, Dijital, Bulanık ve LCD olmak üzere tüm olası düzenlemelerin bir ekran görüntüsü."
 
 #: about/tour.php:27 about/tour418.php:27
 msgid "All possible Clock Modes"
-msgstr ""
+msgstr "Tüm olası Saat Modları"
 
 #: about/tour.php:30 about/tour418.php:30
 msgid ""
 "Like in Thunar, the 'Delete' menu entry in the context menu can now be "
 "hidden."
-msgstr ""
+msgstr "Thunar'da olduğu gibi, bağlam menüsündeki 'Sil' menü girişi artık gizlenebilir."
 
 #: about/tour.php:31 about/tour418.php:31
 msgid ""
 "In order to don't mess the desktop by accident on pressing 'rearrange "
 "desktop icons', the user is asked for confirmation now."
-msgstr ""
+msgstr "Masaüstü simgelerini yanlışlıkla karıştırmamak için 'masaüstü simgelerini yeniden düzenle' düğmesine basıldığında, kullanıcıdan onay istenir."
 
 #: about/tour.php:34 about/tour418.php:34
 msgid ""
 "The search entry for xfce4-settings-manager was a bit simplified. Now it "
 "will always be shown, without any slider or button."
-msgstr ""
+msgstr "xfce4-settings-manager arama girişi biraz basitleştirildi. Artık her zaman kaydırıcı veya düğme olmadan gösterilecek."
 
 #: about/tour.php:35 about/tour418.php:35
 msgid "xfce4-settings-manager - the search entry is always shown"
-msgstr ""
+msgstr "xfce4-settings-manager - arama girişi her zaman gösterilir"
 
 #: about/tour.php:37 about/tour418.php:37
 msgid ""
 "xfce4-display-settings got some minor improvements and the possibility to "
 "decide what to do when new displays are connected."
-msgstr ""
+msgstr "xfce4-display-settings, bazı küçük iyileştirmeler ve yeni ekranlar bağlandığında ne yapılacağına karar verme olasılığı kazandı."
 
 #: about/tour.php:38 about/tour418.php:38
 msgid "xfce4-display-settings - minor improvements"
-msgstr ""
+msgstr "xfce4-display-settings - küçük iyileştirmeler"
 
 #: about/tour.php:40 about/tour418.php:40
 msgid ""
 "On selecting a new theme, there is now the option to automatically set a "
 "matching xfwm4 theme, if available."
-msgstr ""
+msgstr "Yeni bir tema seçildiğinde, mevcutsa otomatik olarak eşleşen bir xfwm4 teması ayarlama seçeneği bulunmaktadır."
 
 #: about/tour.php:41 about/tour418.php:41
 msgid "xfce4-appearance-settings - toggle to set matching Xfwm4 theme"
-msgstr ""
+msgstr "xfce4-appearance-settings - eşleşen Xfwm4 temasını ayarlamak için geçiş yap"
 
 #: about/tour.php:44 about/tour418.php:44
 msgid "List View"
-msgstr ""
+msgstr "Liste Görünümü"
 
 #: about/tour.php:45 about/tour418.php:45
 msgid ""
@@ -3099,19 +3099,19 @@ msgid ""
 "size column. It is now possible to add a 'file creation date' column, and "
 "the 'configure columns' dialog can be opened with a right-click on any "
 "column head."
-msgstr ""
+msgstr "Dizinler için, içeren dosyaların sayısı artık boyut sütununda görüntülenebilir. Şimdi 'dosya oluşturma tarihi' sütunu eklemek mümkün ve 'sütunları yapılandır' iletişim kutusu herhangi bir sütun başlığına sağ tıklama ile açılabilir."
 
 #: about/tour.php:46 about/tour418.php:46
 msgid "Thunar - List View - Preferences"
-msgstr ""
+msgstr "Thunar - Liste Görünümü - Tercihler"
 
 #: about/tour.php:47 about/tour418.php:47
 msgid "Thunar - List View - File count and file creation date"
-msgstr ""
+msgstr "Thunar - Liste Görünümü - Dosya sayısı ve dosya oluşturma tarihi"
 
 #: about/tour.php:48 about/tour418.php:48
 msgid "Image Preview"
-msgstr ""
+msgstr "Resim Görüntüleyici"
 
 #: about/tour.php:49 about/tour418.php:49
 msgid ""
@@ -3120,19 +3120,19 @@ msgid ""
 " will take no extra space, but hide parts of the left side pane. Or you can "
 "go for the 'standalone' mode, which will use a separate pane on the right "
 "and display as well some basic information."
-msgstr ""
+msgstr "Sonunda, Thunar'a bir görüntü önizleme yan paneli eklenmiştir. Hayır, bekleyin, aslında ikisi de var! 'Gömülü' modu kullanmayı tercih edebilirsiniz, bu ekstra yer kaplamaz, ancak sol yan panelin bazı bölümlerini gizler. Veya 'bağımsız' modu seçebilirsiniz, bu sağ tarafta ayrı bir panel kullanacak ve aynı zamanda bazı temel bilgileri de gösterecektir."
 
 #: about/tour.php:50 about/tour418.php:50
 msgid "Thunar - Embedded Image Preview"
-msgstr ""
+msgstr "Thunar - Gömülü Resim Önizleme"
 
 #: about/tour.php:51 about/tour418.php:51
 msgid "Thunar - Standalone Image Preview"
-msgstr ""
+msgstr "Thunar - Gömülü Resim Önizleme"
 
 #: about/tour.php:52 about/tour418.php:52
 msgid "Undo and Redo"
-msgstr ""
+msgstr "Geri Al ve Yinele"
 
 #: about/tour.php:53 about/tour418.php:53
 msgid ""
@@ -3141,15 +3141,15 @@ msgid ""
 "operations. Per default, a history of the last 10 operations is stored, "
 "though the history length is configurable. Whenever an Undo/Redo is "
 "triggered, a notification with few details will be shown."
-msgstr ""
+msgstr "Şimdi temel dosya işlemlerini geri almak ve yeniden yapmak mümkün. Geri Al ve Yeniden Yap, 'taşı', 'yeniden adlandır', 'çöp', 'bağlantı' ve 'oluştur' işlemleri için kullanılabilir. Varsayılan olarak, son 10 işlemin geçmişi saklanır, ancak geçmiş uzunluğu yapılandırılabilir. Herhangi bir Geri Al/Yeniden Yap tetiklendiğinde, birkaç ayrıntı içeren bir bildirim gösterilir."
 
 #: about/tour.php:54 about/tour418.php:54
 msgid "Thunar - Undo and Redo"
-msgstr ""
+msgstr "Thunar - Geri Al ve Yinele"
 
 #: about/tour.php:55 about/tour418.php:55
 msgid "File Highlight"
-msgstr ""
+msgstr "Dosya Vurgusu"
 
 #: about/tour.php:56 about/tour418.php:56
 msgid ""
@@ -3158,30 +3158,30 @@ msgid ""
 "'properties' dialog. The view menu provides a checkbox in order to "
 "enable/disable the feature. Once enabled, files now can be shown in all the "
 "colors of the rainbow."
-msgstr ""
+msgstr "Dosyalar artık arka planı ve dosya adını farklı renklere ayarlayarak vurgulanabilir. Bu, 'özellikler' iletişim kutusunda bulunan ek bir sekme aracılığıyla yapılabilir. Görünüm menüsü, özelliği etkinleştirmek/devre dışı bırakmak için bir onay kutusu sağlar. Etkinleştirildiğinde, dosyalar artık gökkuşağının tüm renklerinde gösterilebilir."
 
 #: about/tour.php:57 about/tour418.php:57
 msgid "Thunar - File Highlight Options"
-msgstr ""
+msgstr "Thunar - Dosya Vurgulama Seçenekleri"
 
 #: about/tour.php:58 about/tour418.php:58
-msgid "Thunar - Highlighted file in List View"
-msgstr ""
+msgid "Thunar - Highlighted files in List View"
+msgstr "Thunar - Liste Görünümünde Vurgulanan Dosyalar"
 
 #: about/tour.php:59 about/tour418.php:59
-msgid "Thunar - Hightighted files in Icon View"
-msgstr ""
+msgid "Thunar - Highlighted files in Icon View"
+msgstr "Thunar - İkon Görünümünde Vurgulanan Dosyalar"
 
 #: about/tour.php:60 about/tour418.php:60
 msgid ""
 "For more information on file highlight, check the <a href=\"https://elessar-"
 "space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">related"
 " blog post</a>."
-msgstr ""
+msgstr "Dosya vurgulama hakkında daha fazla bilgi için ilgili blog yazısını kontrol edin: <a href=\"https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html\">ilgili blog yazısı</a>."
 
 #: about/tour.php:61 about/tour418.php:61
 msgid "Toolbar"
-msgstr ""
+msgstr "Araç çubuğu"
 
 #: about/tour.php:62 about/tour418.php:62
 msgid ""
@@ -3189,65 +3189,65 @@ msgid ""
 "needs! An additional dialog has been added for that purpose, on which the "
 "visibility and position of specific items can be managed. As well custom "
 "actions, which appear for folders can be used in the toolbar."
-msgstr ""
+msgstr "Şimdi kişisel ihtiyaçlarınıza göre araç çubuğunu özelleştirmek mümkün! Bu amaçla ek bir iletişim kutusu eklenmiştir, bu iletişim kutusunda belirli öğelerin görünürlüğü ve konumu yönetilebilir. Ayrıca klasörler için görünen özel eylemler araç çubuğunda kullanılabilir."
 
 #: about/tour.php:63 about/tour418.php:63
 msgid ""
 "When the menubar is hidden, an additional toolbar button which can be used "
 "to show the menu will be displayed."
-msgstr ""
+msgstr "Menü çubuğu gizlendiğinde, menüyü göstermek için kullanılabilecek ek bir araç çubuğu düğmesi görüntülenir."
 
 #: about/tour.php:64 about/tour418.php:64
 msgid "Thunar - Toolbar with all configurable Elements"
-msgstr ""
+msgstr "Thunar - Tüm yapılandırılabilir Öğelerle Araç Çubuğu"
 
 #: about/tour.php:65 about/tour418.php:65
 msgid "Thunar - Toolbar Configuration Dialog"
-msgstr ""
+msgstr "Thunar - Araç Çubuğu Yapılandırma Diyaloğu"
 
 #: about/tour.php:66 about/tour418.php:66
 msgid "Thunar - Show Menubar button"
-msgstr ""
+msgstr "Thunar - Menü Çubuğu düğmesini göster"
 
 #: about/tour.php:67 about/tour418.php:67
 msgid ""
 "For more information on the configurable toolbar, check the <a "
 "href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html\">related "
 "blog post</a>."
-msgstr ""
+msgstr "Paylaşılan küçük resimler hakkında daha fazla bilgi için, ilgili blog yazısını kontrol edin: <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html\">ilgili blog yazısı</a>."
 
 #: about/tour.php:68 about/tour418.php:68
 msgid "Split View"
-msgstr ""
+msgstr "Bölünmüş Görünüm"
 
 #: about/tour.php:69 about/tour418.php:69
 msgid ""
 "Thunar now provides the option to use split panes. The pane separator can be"
 " moved, and its position will be stored. Via a xfconf setting, it is as well"
 " possible to have a vertical split. "
-msgstr ""
+msgstr "Thunar artık bölünmüş panelleri kullanma seçeneği sunuyor. Panel ayırıcısı hareket ettirilebilir ve konumu kaydedilecektir. Bir xfconf ayarı aracılığıyla dikey bir bölünme de mümkündür."
 
 #: about/tour.php:70 about/tour418.php:70
 msgid "Thunar - Split Panes"
-msgstr ""
+msgstr "Thunar - Bölünmüş Paneller"
 
 #: about/tour.php:71 about/tour418.php:71
 msgid "Statusbar"
-msgstr ""
+msgstr "Durum çubuğu"
 
 #: about/tour.php:72 about/tour418.php:72
 msgid ""
 "The status bar style was tweaked and '|' is now used to separate entries. "
 "Furthermore, it is now possible to customize it by using the context menu."
-msgstr ""
+msgstr "Durum çubuğu stili ayarlandı ve '|' girişleri ayırmak için kullanılıyor. Ayrıca, bağlam menüsünü kullanarak özelleştirmek mümkün hale geldi."
 
 #: about/tour.php:73 about/tour418.php:73
 msgid "Thunar - Statusbar Customization"
-msgstr ""
+msgstr "Thunar - Durum Çubuğu Özelleştirme"
 
 #: about/tour.php:74 about/tour418.php:74
 msgid "Recursive Search"
-msgstr ""
+msgstr "Özyinelemeli Arama"
 
 #: about/tour.php:75 about/tour418.php:75
 msgid ""
@@ -3257,26 +3257,26 @@ msgid ""
 "results are located, and the context menu provides the option 'Open Item "
 "Location' in order to travel there quickly. The preferences dialog provides "
 "an option to limit recursive search to local folders, or to disable it. "
-msgstr ""
+msgstr "Thunar artık Thunar içinde doğrudan arama yapma olanağına sahiptir. Arama ayrı bir iş parçacığında yapılır ve arama sonuçları hızla bir Liste Görünümüne eklenir. Yeni bir satır olan 'Konum', arama sonuçlarının nerede bulunduğunu gösterir ve bağlam menüsü hızlı bir şekilde oraya gitmek için 'Öğe Konumunu Aç' seçeneğini sunar. Tercihler iletişim kutusu, özyinelemeli aramayı yerel klasörlere sınırlama veya devre dışı bırakma seçeneği sunar."
 
 #: about/tour.php:76 about/tour418.php:76
 msgid "Thunar - Recursive Search"
-msgstr ""
+msgstr "Thunar - Özyinelemeli Arama"
 
 #: about/tour.php:77 about/tour418.php:77
 msgid "Thunar - Recursive Search Preferences"
-msgstr ""
+msgstr "Thunar - Özyinelemeli Arama Tercihleri"
 
 #: about/tour.php:78 about/tour418.php:78
 msgid ""
 "For more information on the recursive search feature, check the <a "
 "href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html\">related "
 "blog post</a>."
-msgstr ""
+msgstr "Daha fazla bilgi için, ilgili blog yazısını kontrol edin: <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html\">ilgili blog yazısı</a>."
 
 #: about/tour.php:79 about/tour418.php:79
 msgid "Recently used Files"
-msgstr ""
+msgstr "Son kullanılan Dosyalar"
 
 #: about/tour.php:80 about/tour418.php:80
 msgid ""
@@ -3284,22 +3284,22 @@ msgid ""
 "'Recursive Search' feature, the new 'Location' row can be used in List View."
 " Additionally, for 'Recent' a new row 'Recency' can be added to sort the "
 "files by their latest usage. "
-msgstr ""
+msgstr "Son kullanılan dosyalara artık yan panelde erişilebilir. 'Yinelemeli Arama' özelliği için olduğu gibi, yeni 'Konum' satırı List Görünümünde kullanılabilir. Ayrıca, 'Son' için dosyaları en son kullanımlarına göre sıralamak için 'Yenilik' adında yeni bir satır eklenebilir."
 
 #: about/tour.php:81 about/tour418.php:81
 msgid "Thunar - Recently Used Files"
-msgstr ""
+msgstr "Son kullanılan Dosyalar - Thunar"
 
 #: about/tour.php:82 about/tour418.php:82
 msgid ""
 "For more information on 'Recent' in Thunar check the <a "
 "href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html\">related "
 "blog post</a>."
-msgstr ""
+msgstr "Thunar'daki 'Son' hakkında daha fazla bilgi için, ilgili blog yazısını kontrol edin: <a href=\"http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html\">ilgili blog yazısı</a>."
 
 #: about/tour.php:83 about/tour418.php:83
 msgid "Bookmark Menu"
-msgstr ""
+msgstr "Yer İmleri Menüsü"
 
 #: about/tour.php:84 about/tour418.php:84
 msgid ""
@@ -3307,15 +3307,15 @@ msgid ""
 "separate, new 'Bookmarks' menu. The menu item 'add Bookmark' was rather "
 "hidden in the 'send to' menu in Thunar 4.18. As part of the new 'Bookmarks' "
 "menu, it is more prominent now."
-msgstr ""
+msgstr "'Go' menüyü kompakt tutmak için yer imleri ayrı bir, yeni 'Yer İmleri' menüsüne taşındı. Thunar 4.18'de 'Yer İmi Ekle' menü öğesi 'Gönder'e gizlenmişti. Yeni 'Yer İmleri' menüsünün bir parçası olarak, şimdi daha belirgin hale geldi."
 
 #: about/tour.php:85 about/tour418.php:85
 msgid "Thunar - Bookmarks Menu"
-msgstr ""
+msgstr "Thunar - Yer İmleri Menüsü"
 
 #: about/tour.php:86 about/tour418.php:86
 msgid "Trash directory"
-msgstr ""
+msgstr "Çöp dizini"
 
 #: about/tour.php:87 about/tour418.php:87
 msgid ""
@@ -3325,11 +3325,11 @@ msgid ""
 " by deletion date. Via context menu, it is now possible to select 'Restore "
 "and Show' in order to automatically open a new tab in the folder of the "
 "restored file(s)."
-msgstr ""
+msgstr "Yeni sürümle birlikte, çöp dizini, 'Çöpü Boşalt' ve 'Geri Yükle' işlevine kolay erişim sağlayan bir bilgi çubuğu sunar. Liste Görünümü kullanırken, 'Silinme Tarihi' sütunu gösterilecek, böylece dosyalar silinme tarihine göre sıralanabilir. Bağlam menüsü aracılığıyla, geri yüklenen dosyanın klasöründe otomatik olarak yeni bir sekme açmak için 'Geri Yükle ve Göster' seçeneğini seçmek şimdi mümkündür."
 
 #: about/tour.php:88 about/tour418.php:88
 msgid "Thunar - Trash Infobar and Date Deleted Column"
-msgstr ""
+msgstr "Thunar - Çöp Bilgi Çubuğu ve Silinme Tarihi Sütunu"
 
 #: about/tour.php:90 about/tour418.php:90
 msgid ""
@@ -3339,19 +3339,19 @@ msgid ""
 "preselected. The dialog now has a section 'Default Application' in order to "
 "make clear which default application currently is set. If you want to remove"
 " applications from the list, right click it and select 'forget association'."
-msgstr ""
+msgstr "Yönetim, belirli mime türleri için varsayılan uygulamaları ayarlamak/ayarları kaldırmak için iyileştirildi. İçerik menüsüne 'Varsayılan Uygulamayı Ayarla' adında ayrılmış bir öğe eklendi, bu öğe 'ApplicationChooserDialog'ı 'varsayılan olarak kullan' seçeneğiyle açacaktır. Diyaloğun içinde şu anda hangi varsayılan uygulamanın ayarlandığını belirtmek için 'Varsayılan Uygulama' bölümü bulunmaktadır. Listeden uygulamaları kaldırmak isterseniz, üzerine sağ tıklayın ve 'ilişkiyi unut' seçeneğini seçin."
 
 #: about/tour.php:91 about/tour418.php:91
 msgid "Thunar - Context Menu Entry to set Default Application"
-msgstr ""
+msgstr "Thunar - Varsayılan Uygulamayı Ayarlamak için İçerik Menüsü Girişi"
 
 #: about/tour.php:92 about/tour418.php:92
 msgid "Thunar - Revamped Application Chooser Dialog"
-msgstr ""
+msgstr "Thunar - Yenilenmiş Uygulama Seçici Diyaloğu"
 
 #: about/tour.php:93 about/tour418.php:93
 msgid "Custom Actions"
-msgstr ""
+msgstr "Özel Eylemler"
 
 #: about/tour.php:94 about/tour418.php:94
 msgid ""
@@ -3359,19 +3359,19 @@ msgid ""
 "enter the same submenu name for a custom action in order to place it into "
 "the same menu. If you require multiple menu levels, you can achieve that by "
 "using '/' in the path of the 'Submenu' entry."
-msgstr ""
+msgstr "Özel eylemleri kademeli alt menülerde düzenlemek artık mümkündür. Aynı menüye yerleştirmek için özel bir eylem için aynı alt menü adını girin. Birden fazla menü seviyesi gerekiyorsa, 'Alt Menü' girişinin yolunda '/' kullanarak bunu başarabilirsiniz."
 
 #: about/tour.php:95 about/tour418.php:95
 msgid "Thunar - Custom Action Submenu"
-msgstr ""
+msgstr "Thunar - Özel Eylem Alt Menüsü"
 
 #: about/tour.php:96 about/tour418.php:96
 msgid "Thunar - Custom Action Configuration Dialog"
-msgstr ""
+msgstr "Thunar - Özel Eylem Yapılandırma Diyaloğu"
 
 #: about/tour.php:97 about/tour418.php:97
 msgid "Preferences"
-msgstr ""
+msgstr "Tercihler"
 
 #: about/tour.php:98 about/tour418.php:98
 msgid ""
@@ -3379,11 +3379,11 @@ msgid ""
 "meanwhile it is possible to limit the file size for which thumbnails should "
 "be generated. That should mitigate possible performance issues by preventing"
 " thumbnail generation for huge video files."
-msgstr ""
+msgstr "Tercihler iletişim kutusundaki küçük resim ayarları bir arada gruplandırılmıştır ve bu arada küçük resimlerin oluşturulması gereken dosya boyutunu sınırlamak da mümkündür. Bu, büyük video dosyaları için küçük resim oluşturulmasını engelleyerek olası performans sorunlarını azaltacaktır."
 
 #: about/tour.php:99 about/tour418.php:99
 msgid "Thunar - Thumbnail Preferences"
-msgstr ""
+msgstr "Thunar - Küçük Resim Tercihleri"
 
 #: about/tour.php:100 about/tour418.php:100
 msgid ""
@@ -3392,24 +3392,24 @@ msgid ""
 "file checksums in order to make sure that no single bit got corrupted. Note "
 "that the checksum feature will require some extra time during copy when "
 "activated."
-msgstr ""
+msgstr "Dosya transfer işlemleri artık ara bir dosya olarak *.partial~ kullanabilir. Bir transfer işleminden sonra, dosya bütünlüğünü kontrol etmek için dosya toplam kontrol değerlerini doğrulama seçeneği bulunmaktadır, böylece hiçbir tek bitin bozulmadığından emin olunur. Toplam kontrol özelliğinin etkinleştirildiğinde, kopyalama sırasında ekstra zaman gerektireceğini unutmayın."
 
 #: about/tour.php:101 about/tour418.php:101
 msgid "Thunar - File Transfer Preferences"
-msgstr ""
+msgstr "Thunar - Dosya Aktarımı Tercihleri"
 
 #: about/tour.php:102 about/tour418.php:102
 msgid ""
 "For more information on the new file transfer options, check the <a "
 "href=\"https://dev.ikx.kr/GSOC-5th/\">related blog post</a>."
-msgstr ""
+msgstr "Yeni dosya transfer seçenekleri hakkında daha fazla bilgi için, ilgili blog yazısını kontrol edin: <a href=\"https://dev.ikx.kr/GSOC-5th/\">ilgili blog yazısı</a>."
 
 #: about/tour.php:103 about/tour418.php:103
 msgid ""
 "A checkbox was added in order to allow running shell scripts. In Thunar 4.18"
 " it only was possible to change that behavior by changing a hidden setting. "
 "Use that option with caution!"
-msgstr ""
+msgstr "Bir onay kutusu eklenmiştir, böylece kabuk komutlarının çalışmasına izin verilir. Thunar 4.18'de, bu davranışı değiştirmek için yalnızca gizli bir ayarı değiştirmek mümkündü. Bu seçeneği dikkatli kullanın!"
 
 #: about/tour.php:104 about/tour418.php:104
 msgid "Thunar - Script Execution Preferences"
@@ -3431,8 +3431,8 @@ msgstr ""
 
 #: about/tour.php:110 about/tour418.php:110
 msgid ""
-"Appfinder got support for the 'PrefersNonDefaultGPU' property, which is "
-"useful for systems with hybrid graphic cards."
+"Application Finder got support for the 'PrefersNonDefaultGPU' property, "
+"which is useful for systems with hybrid graphic cards."
 msgstr ""
 
 #: about/tour.php:111 about/tour418.php:111
