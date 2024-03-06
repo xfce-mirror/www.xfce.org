@@ -20,7 +20,7 @@ $head['title'] = R_('Community');
   <?php E_('<strong>NOTE:</strong> In order to post to these lists, you must first subscribe.') ?>
 </p>
 
-<h2 id="irc"><?php E_('IRC') ?></h2>
+<h2 id="matrix"><?php E_('Matrix') ?></h2>
 <p>
     <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our Matrix channel <a href="https://matrix.to/#/#xfce:matrix.org">#xfce</a>. The channel has several active users. It is recommended that you consult the <a href="https://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
 </p>
