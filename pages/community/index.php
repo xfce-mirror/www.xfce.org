@@ -22,7 +22,7 @@ $head['title'] = R_('Community');
 
 <h2 id="irc"><?php E_('IRC') ?></h2>
 <p>
-    <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our IRC channel <a href="https://web.libera.chat/#xfce">#xfce on irc.libera.chat</a>. The channel has several active users. It is recommended that you consult the <a href="https://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
+    <?php E_('If you have a problem that you cannot resolve, you might want to try asking a question in our Matrix channel <a href="https://matrix.to/#/#xfce:matrix.org">#xfce</a>. The channel has several active users. It is recommended that you consult the <a href="https://docs.xfce.org/" class="external">documentation</a> about your problem before asking your question.') ?>
 </p>
 
 <h2 id="forum"><?php E_('Forums') ?></h2>
