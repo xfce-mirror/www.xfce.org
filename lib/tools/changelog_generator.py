@@ -66,7 +66,7 @@ def generate_html(package, package_label, parsed_news, start_version):
 
     html_lines = []
 
-    html_lines.append (f"<h2>{package_label} <em>({package})</em></h2>")
+    html_lines.append (f'<h2><a href="{xfce_gitlab_url}/{package}">{package_label}</a> <em>({package})</em></h2>')
     html_lines.append ("<ul>")
 
     # Find the indices of the start and end versions
@@ -135,7 +135,11 @@ def main():
     file = open(output_filename, "w")
     file.write(f"<?php $head['title'] = 'Xfce {release_version_string} Changelog'; ?>\n")
     file.write(f"<h1>Xfce {release_version_string} Changelog</h1>\n\n")
-    file.write(f"<p>Important: The changelogs displayed here reflect updates made since the version of the components included with Xfce {old_version_string}.</p>\n\n")
+    file.write(f"<p>This changelog summary shows relevant user facing changes made since Xfce {old_version_string}.</p>\n")
+
+    file.write(f"<p>To keep this summary changelog readable, this page provides a simplified extraction of each components' full changelog.\n")
+    file.write(f"If you are interested in the full, unmodified changelog of a specific component, please follow the component link and open the according NEWS file.</p>\n\n")
+
     file.write("<h2>Dependency changes</h2>\n")
     file.write("<ul>\n")
     file.write("   <li>glib-2.0 &gt;= ??? - Same version for gmodule-2.0, gobject-2.0, gthread-2.0, gio-2.0 and gdbus</li>\n")
