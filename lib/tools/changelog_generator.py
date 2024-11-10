@@ -50,17 +50,18 @@ def parse_news(news):
 
     return new_parsed
 
-def transform_issue_numbers(package, line):
-    base_url = xfce_gitlab_url + "/" + package + "/-/issues/"
+def link_issue_and_merge_request_numbers(package, line):
+    base_url = xfce_gitlab_url + "/" + package
     
-    def replace_func(match):
-        issue_number = match.group(1)
-        return f'<a href="{base_url}{issue_number}">#{issue_number}</a>'
-    
-    pattern = r'#(\d+)'
-    transformed_line = re.sub(pattern, replace_func, line)
-    
-    return transformed_line
+    def replace_match(match):
+            prefix, number = match.groups()
+            if prefix == '#':
+                return f'<a href="{base_url}/-/issues/{number}">#{number}</a>'
+            elif prefix == '!':
+                return f'<a href="{base_url}/-/merge_requests/{number}">!{number}</a>'
+
+    pattern = r'(#|!)(\d+)'
+    return re.sub(pattern, replace_match, line)
 
 def generate_html(package, package_label, parsed_news, start_version):
 
@@ -81,7 +82,7 @@ def generate_html(package, package_label, parsed_news, start_version):
                 continue
 
             html_line = f"   <li>{line}</li>"
-            html_line = transform_issue_numbers (package, html_line)
+            html_line = link_issue_and_merge_request_numbers (package, html_line)
             html_lines.append (html_line)
 
     html_lines.append ("</ul>")
