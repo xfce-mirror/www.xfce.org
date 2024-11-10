@@ -85,7 +85,7 @@ def generate_html(package, package_label, parsed_news, start_version):
             html_line = link_issue_and_merge_request_numbers (package, html_line)
             html_lines.append (html_line)
 
-    html_lines.append ("</ul>")
+    html_lines.append ("</ul>\n\n")
 
     return "\n".join(html_lines)
 
