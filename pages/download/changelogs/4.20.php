@@ -19,6 +19,7 @@
    <li>Switch all components from intltool to gettext (<a href="https://gitlab.xfce.org/xfce/exo/-/issues/41">xfce4-dev-tools#41</a>)</li>
    <li>Usage of .clang-format file for most core projects, integration into automated ci-build</li>
    <li>Major abstraction efforts to add experimental support for wayland while keeping X11 functional (Done for all components, except xfwm4)</li>
+   <li>Various minor and some major memory leaks were fixed across all Xfce components</li>
 </ul>
 
 <h2><a href="https://gitlab.xfce.org/xfce/exo">Extension Library</a> <em>(exo)</em></h2>
@@ -30,7 +31,6 @@
    <li>exo-die: Resolve symlink when saving .desktop file</li>
    <li>IconView,TreeView : Keep type ahead search box inside view widget</li>
    <li>Load icons using icon theme scaling functions correctly</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -60,7 +60,6 @@
    <li>screensaver: Remove support for gnome-screensaver (Fixes <a href="https://gitlab.xfce.org/xfce/libxfce4ui/-/issues/62">#62</a>)</li>
    <li>screensaver: Run lock command synchronously (Fixes <a href="https://gitlab.xfce.org/xfce/libxfce4ui/-/issues/70">#70</a>)</li>
    <li>XfceFileNameInput - wrap error message (Issue <a href="https://gitlab.xfce.org/xfce/libxfce4ui/-/issues/60">#60</a>)</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -164,7 +163,6 @@
    <li>Dialog when closing split-pane with multiple tabs</li>
    <li>Preserve trusted state when launchers are copied</li>
    <li>Prevent build failure for NixOS (Issue <a href="https://gitlab.xfce.org/xfce/thunar/-/issues/972">#972</a>)</li>
-   <li>Fixed a lot of memory leaks and possible use after free cases</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -182,7 +180,6 @@
    <li>Disambiguate thumbnailer signals</li>
    <li>scheduler: Fix ready/error signal forwarding</li>
    <li>xdg-cache: Fix temporary file management when saving thumbnail</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -252,7 +249,6 @@
    <li>panel: Always include borders to compute snap position</li>
    <li>clock: Fix sync timeout</li>
    <li>clock: Do not override custom font formats (<a href="https://gitlab.xfce.org/xfce/xfce4-panel/-/issues/675">#675</a>)</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
    
@@ -287,7 +283,6 @@
    <li>Simplify brightness level management (Fixes <a href="https://gitlab.xfce.org/xfce/xfce4-power-manager/-/issues/139">#139</a>)</li>
    <li>screensaver: Fall back on lock command if D-Bus call failed</li>
    <li>Fix blurriness in icons when UI scale factor > 1</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -312,7 +307,6 @@
    <li>Fix 'trigger on suspend' (<a href="https://gitlab.xfce.org/xfce/xfce4-session/-/issues/106">#106</a>)</li>
    <li>Fix suspend/hibernation bug on ConsoleKit2 (Fixes <a href="https://gitlab.xfce.org/xfce/xfce4-session/-/issues/164">#164</a>)</li>
    <li>Fix blurry icons in autostart tab when UI scale > 1</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -356,7 +350,6 @@
    <li>Add a systemd user unit corresponding to the D-Bus session service</li>
    <li>channel: Warn if queried type does not match property type</li>
    <li>xml-backend: Escape whitespaces when writing file to disk</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -398,7 +391,6 @@
    <li>Properly thread UI scale factor to file icon loading functions</li>
    <li>Add preliminary Wayland support using libxfce4windowing</li>
    <li>backdrop: render gamma-correct gradients</li>
-   <li>Fixed various memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
 
@@ -413,6 +405,5 @@
    <li>stacking: Use WIN_LAYER_FULLSCREEN for focused fullscreen windows</li>
    <li>drop obsolete xfwm4rc</li>
    <li>compositor: Expose just the window area</li>
-   <li>Fixed some memory leaks</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>
