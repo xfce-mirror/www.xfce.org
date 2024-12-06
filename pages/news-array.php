@@ -17,7 +17,7 @@ $news = array (
 
              '<img src="'. $static_media .'/about/screenshots/4.20-1.png" border="0" alt="Xfce 4.20 screenshot" style="max-width: 100%;"/>',
 
-             R_('The major focus during this development cycle was the preparation of the codebase to be ready for Wayland. So that we meanwhile have experimental Wayland support for most components. More details in the 'Wayland' links below.'),
+             R_('The major focus during this development cycle was the preparation of the codebase to be ready for Wayland. So that we meanwhile have experimental Wayland support for most components. More details in the links below.'),
              R_('Assuming you have installed Xfce 4.18, here is an overview on the major changes you will see on an upgrade to Xfce 4.20:'),
 
              '<a href="https://www.xfce.org/about/tour420">https://www.xfce.org/about/tour420</a>',
