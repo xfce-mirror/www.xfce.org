@@ -5,11 +5,11 @@
    **/
 
   /* latest stable release version */
-  $stable_version = '4.18';
-  $stable_date = '2022-12-xx';
+  $stable_version = '4.20';
+  $stable_date = '2024-12-15';
 
   /* latest development version */
-  $preview_version = '4.18pre1';
-  $preview_date = '2020-11-19';
+  $preview_version = '4.20pre2';
+  $preview_date = '2024-12-01';
   $preview_visible = false /* set to true if preview is *newer* then stable */
 ?>
