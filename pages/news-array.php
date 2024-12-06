@@ -7,6 +7,26 @@
  * */
 
 $news = array (
+  array ('title' => R_('Xfce 4.20 released'),
+     'version' => null,
+     'date' => '15 dec 2024',
+     'author' => 'Release Manager',
+     'paragraphs' => array (
+             R_('After almost two years of work, we are happy to announce the release of Xfce 4.20 !'),
+             R_('Since Xfce 4.18 a lot of major development happened. Our team added many nice new features, did a gazillion of bug fixes and did various minor improvements. Finally, all that was released for your pleasure.'),
+
+             '<img src="'. $static_media .'/about/screenshots/4.20-1.png" border="0" alt="Xfce 4.20 screenshot" style="max-width: 100%;"/>',
+
+             R_('The major focus during this development cycle was the preparation of the codebase to be ready for Wayland. So that we meanwhile have experimental Wayland support for most components. More details in the 'Wayland' links below.'),
+             R_('Assuming you have installed Xfce 4.18, here is an overview on the major changes you will see on an upgrade to Xfce 4.20:'),
+
+             '<a href="https://www.xfce.org/about/tour420">https://www.xfce.org/about/tour420</a>',
+             R_('A detailed overview of the changes between Xfce 4.18 and Xfce 4.20 releases can be found on the following page:'),
+             '<a href="https://www.xfce.org/download/changelogs/4.20">https://www.xfce.org/download/changelogs</a>',
+             R_('This release can be downloaded either as a set of individual packages or as a single fat tarball including all these individual versions:'),
+             '<a href="https://archive.xfce.org/xfce/4.20">https://archive.xfce.org/xfce/4.20</a>',
+             R_('Best regards,<br />The Xfce development team'))
+     ),
   array ('title' => R_('Xfce 4.18 released'),
      'version' => null,
      'date' => '15 dec 2022',
