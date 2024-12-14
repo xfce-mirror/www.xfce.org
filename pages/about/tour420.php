@@ -290,7 +290,7 @@
     <p><?php E_("Fix crash when alt-tabbing (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)") ?></p>
 </div>
 
-<p><small><?php E_("Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\".") ?></small></p>
+<p align="right"><small><?php E_("Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\".") ?></small></p>
 
 </div>
 
