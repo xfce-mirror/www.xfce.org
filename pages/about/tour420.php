@@ -291,9 +291,3 @@
 </div>
 
 <p align="right"><small><?php E_("Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\".") ?></small></p>
-
-</div>
-
-
-
-
