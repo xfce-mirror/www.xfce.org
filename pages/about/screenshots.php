@@ -20,6 +20,11 @@ function print_shots ($group, $count, $format = 'png')
   <?php E_('Some screenshots of Xfce, ordered by version.') ?>
 </p>
 
+<h2><?php E_('Xfce 4.20') ?></h2>
+<p>
+  <?php print_shots ('4.20', 1); ?>
+</p>
+
 <h2><?php E_('Xfce 4.18') ?></h2>
 <p>
   <?php print_shots ('4.18', 1); ?>

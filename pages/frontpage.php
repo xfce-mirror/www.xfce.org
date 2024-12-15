@@ -50,12 +50,12 @@ $head['css'] = '@media screen and (max-width:830px) {
 			</a>
 		</li>
 		<li>
-			<a href="/download/changelogs/4.18"><?php E_('ChangeLog') ?>
+			<a href="/download/changelogs/4.20"><?php E_('ChangeLog') ?>
 				<span>&ndash; <?php printf (R_('read the full release notes'), $stable_version) ?></span>
 			</a>
 		</li>
 		<li>
-			<a href="/about/tour418"><?php printf (R_('%s Tour'), $stable_version) ?>
+			<a href="/about/tour420"><?php printf (R_('%s Tour'), $stable_version) ?>
 				<span>&ndash; <?php E_('take a visual tour of new features') ?></span>
 			</a>
 		</li>

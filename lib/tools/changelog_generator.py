@@ -40,6 +40,7 @@ def parse_news(news):
         
         if version_match:
             version = version_match.group(1)
+
             # Parse changes
             changes = [line.strip('- ') for line in lines[2:] if line.strip().startswith('-')]
             
@@ -136,10 +137,12 @@ def main():
     file = open(output_filename, "w")
     file.write(f"<?php $head['title'] = 'Xfce {release_version_string} Changelog'; ?>\n")
     file.write(f"<h1>Xfce {release_version_string} Changelog</h1>\n\n")
+
     file.write(f"<p>This changelog summary shows relevant user facing changes made since Xfce {old_version_string}.</p>\n")
 
     file.write(f"<p>To keep this summary changelog readable, this page provides a simplified extraction of each components' full changelog.\n")
     file.write(f"If you are interested in the full, unmodified changelog of a specific component, please follow the component link and open the according NEWS file.</p>\n\n")
+
 
     file.write("<h2>Dependency changes</h2>\n")
     file.write("<ul>\n")
@@ -153,9 +156,11 @@ def main():
         package_name = package[0]
         package_label = package[1]
         print ("generating html for package " + package_name)
+
         news_lines = download_news_file (package_name)
         parsed_news = parse_news (news_lines)
         html_output = generate_html(package_name, package_label, parsed_news, dev_version_string)
+
         #print(html_output)
         file.write(html_output)
 

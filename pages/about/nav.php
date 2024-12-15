@@ -1,11 +1,12 @@
 <h2><?php E_('Related Pages') ?></h2>
 <ul>
 	<li>
-		<a href="/about/tour418"><?php E_('4.18 Tour') ?>
+		<a href="/about/tour420"><?php E_('4.20 Tour') ?>
 			<span>&ndash; <?php E_('visual tour of new features in the last few major releases') ?></span>
 		</a>
 
 		<ul>
+		        <li><a href="/about/tour416"><?php E_('4.18 Tour') ?></a></li>
 			<li><a href="/about/tour416"><?php E_('4.16 Tour') ?></a></li>
 			<li><a href="/about/tour414"><?php E_('4.14 Tour') ?></a></li>
 			<li><a href="/about/tour412"><?php E_('4.12 Tour') ?></a></li>
