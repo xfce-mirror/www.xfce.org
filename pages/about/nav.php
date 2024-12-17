@@ -31,9 +31,4 @@
 			<span>&ndash; <?php E_('list of all contributors') ?></span>
 		</a>
 	</li>
-	<li>
-		<a href="/about/releasemodel"><?php E_('Release Model') ?>
-			<span>&ndash; <?php E_('the Xfce release policy for core modules') ?></span>
-		</a>
-	</li>
 </ul>
