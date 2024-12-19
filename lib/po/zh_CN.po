@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2024-12-15 12:53+0100\n"
+"POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: 玉堂白鹤 <yjwork@qq.com>, 2015,2017,2021-2024\n"
 "Language-Team: Chinese (China) (http://app.transifex.com/xfce/xfce-www/language/zh_CN/)\n"
@@ -59,592 +59,6 @@ msgstr "预链接"
 #: about/news.php:91
 msgid "No news articles found."
 msgstr "未找到新闻文章。"
-
-#: about/releasemodel.php:3 about/nav.php:35
-msgid "Release Model"
-msgstr "发行模式"
-
-#: about/releasemodel.php:10
-msgid ""
-"In the past the same questions and discussions have come up over and over "
-"again whenever a new release was in sight, like:"
-msgstr "只要新版本在望，同样的问题和讨论在过去出现了一次又一次，如："
-
-#: about/releasemodel.php:14
-msgid "What are the core components of Xfce?"
-msgstr "Xfce 的核心组件是什么？"
-
-#: about/releasemodel.php:15
-msgid ""
-"How often do we want to release and in what fashion (time-based, feature-"
-"based)?"
-msgstr "我们要多久发行一次，模式(基于时间、基于功能)是什么？"
-
-#: about/releasemodel.php:16
-msgid "Who's in charge of the release process?"
-msgstr "谁在掌管发行进度？"
-
-#: about/releasemodel.php:17
-msgid "What dependency versions do we depend on?"
-msgstr "我们依赖的版本是什么？"
-
-#: about/releasemodel.php:18
-msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "诸如功能冻结、字符串冻结、代码冻结等是在什么时候？"
-
-#: about/releasemodel.php:19
-msgid "How many pre-releases should we do and how do we call them?"
-msgstr "我们要做多少个预览版，如何称呼它们？"
-
-#: about/releasemodel.php:20
-msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "我们使用 Git 代替 SVN 修订版本的什么东西？"
-
-#: about/releasemodel.php:24
-msgid ""
-"This document intends to answer these questions and aims at defining a "
-"policy that we can refer to when planning releases."
-msgstr "此文档试图回答这些问题并旨在定义一个我们在筹划新版本时可以参考的策略。"
-
-#: about/releasemodel.php:27
-msgid "The Xfce Core Desktop"
-msgstr "Xfce 核心桌面"
-
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "核心组件"
-
-#: about/releasemodel.php:51
-msgid ""
-"All core components of the Xfce desktop must adhere to the release policy "
-"defined in this document."
-msgstr "所有 Xfce 桌面的核心组件必须遵循此文档中定义的发行策略。"
-
-#: about/releasemodel.php:54
-msgid "Essential Dependencies"
-msgstr "必须的依赖关系"
-
-#: about/releasemodel.php:61
-msgid "The Release Cycle"
-msgstr "发行周期"
-
-#: about/releasemodel.php:64
-msgid ""
-"The release cycle involves a short planning phase, a development phase with "
-"development releases and a release phase, eventually leading to a new stable"
-" release of the entire Xfce core desktop. In parallel to these phases, a "
-"maintenance process of the current stable release will continue. During this"
-" phase, bugfix releases and security fixes will be released for the stable "
-"version of Xfce."
-msgstr "发行周期包含一个短暂的计划阶段、一个以开发版形式进行的开发阶段、一个发行阶段，直至最终的整个 Xfce 核心桌面新稳定版发布。与这些阶段并行的是继续维护当前稳定版。此阶段期间，会发布当前 Xfce 稳定版的缺陷和安全修复版。"
-
-#: about/releasemodel.php:68
-msgid ""
-"Below you can see a graphical timeline of an example release cycle and "
-"maintenance process for Xfce 4.8 with three components: Thunar, exo and "
-"xfwm4."
-msgstr "如下，您可以看到以 Xfce 4.8 三个组件为例的发行周期图形时间表：thunar、exo 和 xfwm4。"
-
-#: about/releasemodel.php:72
-msgid "Example Release Cycle"
-msgstr "发行周期示例"
-
-#: about/releasemodel.php:75
-msgid "Planning Phase (2(+2) Weeks)"
-msgstr "计划阶段(2(+2)星期)"
-
-#: about/releasemodel.php:78
-msgid ""
-"This phase marks the beginning of the release cycle and is used to decide "
-"which dependencies to use and also to appoint the release team for the cycle"
-" (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
-"weeks)."
-msgstr "此阶段标志着发行周期的开始，用来决定要使用哪些依赖，也任命此周期的发行团队(头 2 个星期)。直至最终的依赖冻结(4 星期后)。"
-
-#: about/releasemodel.php:81
-msgid "Appointing the Release Team"
-msgstr "任命发行团队"
-
-#: about/releasemodel.php:84
-msgid ""
-"At the beginning of the planning phase there is a (formal or informal) "
-"voting for the release team. The release team supervises development and "
-"maintenance releases during the release cycle. Its main purpose is to "
-"perform and double-check the Xfce core desktop releases in the release phase"
-" at the very end of the cycle. This is explained in more detail in the "
-"Release Team section of this document."
-msgstr "在计划阶段的开始会(正式或非正式地)选举发行团队。发行团队在发行周期期间监管项目的开发和维护。其主要目的是在发行周期就要结束的发行阶段内执行和复核 Xfce 核心桌面。这些会在此文档中的发行团队一节作更详细的解释。"
-
-#: about/releasemodel.php:87
-msgid "Release Team"
-msgstr "发行团队"
-
-#: about/releasemodel.php:90
-msgid ""
-"The release team consists of at least two people: one release manager who "
-"can be assisted by others to actually perform the release (tagging, creation"
-" of tarballs, writing release notes and announcements) and another person "
-"for quality assurance (checking if all components compile, tags are in "
-"place, release notes are up to date and so on). This is defined in more "
-"detail below."
-msgstr "发行团队至少包括两个人：一个可由其他人协助的真正执行发布(标记、创建 tarball、撰写发行日志和文档)的发行管理员，另一个人检测质量(检查所有组件的编译、标记是否恰当、发行日志是否最新等等)。在下面有详细的定义。"
-
-#: about/releasemodel.php:94
-msgid "These are the release team roles and their responsibilities:"
-msgstr "这些是发行团队成员和他们的责任："
-
-#: about/releasemodel.php:97
-msgid "Release Manager"
-msgstr "发行管理员"
-
-#: about/releasemodel.php:100
-msgid "Organization of the release cycle"
-msgstr "发行周期的组织"
-
-#: about/releasemodel.php:101
-msgid ""
-"Announce deadlines to developers and translators (repeatedly and early "
-"enough)"
-msgstr "宣布开发和翻译的最后期限(重复并尽早)"
-
-#: about/releasemodel.php:102
-msgid "Overseeing of maintainance and development releases"
-msgstr "维护版和开发版的监督"
-
-#: about/releasemodel.php:103
-msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "标记 Xfce-X.Ypre1、Xfce-X.Y.pre2、Xfce-X.Y.pre3 和 Xfce-X.Y"
-
-#: about/releasemodel.php:104
-msgid "Generate tarballs from tags (possibly automated)"
-msgstr "从标记处生成(可能是自动地) tarball"
-
-#: about/releasemodel.php:105
-msgid "Write release notes"
-msgstr "撰写发行日志"
-
-#: about/releasemodel.php:106
-msgid "Write release announcements"
-msgstr "撰写发行公告"
-
-#: about/releasemodel.php:107
-msgid "Create Bugzilla tags"
-msgstr "创建 Bugzilla 标记"
-
-#: about/releasemodel.php:108
-msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "代码冻结期间批准修复阻断缺陷"
-
-#: about/releasemodel.php:111
-msgid "Release Assistant(s)"
-msgstr "发行助理"
-
-#: about/releasemodel.php:114
-msgid "Update the website(s)"
-msgstr "更新网站"
-
-#: about/releasemodel.php:115
-msgid "Help the release manager with his tasks"
-msgstr "帮助发行管理员完成任务"
-
-#: about/releasemodel.php:118
-msgid "QA Official"
-msgstr "质检员"
-
-#: about/releasemodel.php:121
-msgid ""
-"Have an eye on libtool versions of maintanance and development releases"
-msgstr "照看 libtool 维护版和开发版的版本"
-
-#: about/releasemodel.php:122
-msgid "Remind maintainers about missing NEWS updates"
-msgstr "提醒维护者记得更新相关的新闻"
-
-#: about/releasemodel.php:123
-msgid "Double-check the generated tarballs"
-msgstr "复核已生成的 tarball"
-
-#: about/releasemodel.php:124
-msgid "Proof-read release announcements"
-msgstr "校正发行公告"
-
-#: about/releasemodel.php:127
-msgid "Individual Maintainers"
-msgstr "独立维护者"
-
-#: about/releasemodel.php:130
-msgid ""
-"Create component-specific tags for their maintainance and development "
-"releases"
-msgstr "为他们维护和开发的特定组件创建标记"
-
-#: about/releasemodel.php:131
-msgid "Generate tarballs for their maintainance and development releases"
-msgstr "为他们维护和开发的版本生成 tarball"
-
-#: about/releasemodel.php:132
-msgid "Write ChangeLogs and update NEWS files"
-msgstr "撰写更改日志和更新新闻文件"
-
-#: about/releasemodel.php:133
-msgid "Write component-specific release announcements"
-msgstr "撰写特定组件的发行公告"
-
-#: about/releasemodel.php:134
-msgid "Create Bugzilla tags for their releases"
-msgstr "为其版本创建 Bugzilla 标记"
-
-#: about/releasemodel.php:135
-msgid "Make sure API documentation is up to date"
-msgstr "确保 API 文档最新"
-
-#: about/releasemodel.php:138
-msgid "Dependency Freeze"
-msgstr "依赖冻结"
-
-#: about/releasemodel.php:141
-msgid ""
-"During the first 2 weeks of the planning phase each maintainer is required "
-"to "
-msgstr "计划阶段的头 2 个星期期间要求每个维护者"
-
-#: about/releasemodel.php:145
-msgid "List the features he wants to implement in the release cycle"
-msgstr "列出在此发行周期内他要实现的功能"
-
-#: about/releasemodel.php:146
-msgid "Investigate which dependencies are implied by that"
-msgstr "调查它们包含哪些依赖"
-
-#: about/releasemodel.php:150
-msgid ""
-"At the end of this, a decision is made on which dependencies the next stable"
-" release of the Xfce core desktop will depend. In particular this includes "
-"the minimum required versions for all essential dependencies of the Xfce "
-"core desktop."
-msgstr "结束时，会决定下一个 Xfce 核心桌面稳定版会有哪些依赖。特别是所有 Xfce 核心桌面必须依赖所需的最低版本。"
-
-#: about/releasemodel.php:154
-msgid ""
-"Maintainers who were not available during the first 2 weeks of the planning "
-"phase have the chance to request dependency changes in the 2 weeks after "
-"that. "
-msgstr "在计划阶段的最初 2 个星期期间没到位的维护者有机会在之后的 2 个星期内提请依赖更改。"
-
-#: about/releasemodel.php:158
-msgid ""
-"At the end of these 4 weeks, all components enter dependency freeze which "
-"means they may not change the dependencies (and their versions) they depend "
-"on. Optional dependencies for are still allowed to be added though."
-msgstr "这 4 个星期结束时，所有组件进入依赖冻结，意味着不能更改其依赖(和它们的版本)了。但仍然允许添加可选依赖。"
-
-#: about/releasemodel.php:161
-msgid "Informing the Community"
-msgstr "通知社区"
-
-#: about/releasemodel.php:164
-msgid ""
-"At the very end of the planning phase, a mail with planned features and "
-"dependencies for all components of the Xfce core desktop is sent to the "
-"xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "就在计划阶段结束时，带有所有计划好的 Xfce 核心桌面组件的功能和依赖的邮件会发送至 xfce4-dev@xfce.org 和 xfce@xfce.org 邮件列表。"
-
-#: about/releasemodel.php:167
-msgid "Development Phase (5 Months)"
-msgstr "开发阶段(5 个月)"
-
-#: about/releasemodel.php:170
-msgid ""
-"During the development phase every maintainer is free to do maintenance and "
-"development releases of his components independently of the rest of Xfce."
-msgstr "开发阶段期间每个维护者独立地、自由地去维护和开发他负责的 Xfce 组件。"
-
-#: about/releasemodel.php:173
-msgid "Development Releases"
-msgstr "开发版"
-
-#: about/releasemodel.php:176
-msgid ""
-"Development releases usually give a feature preview for the next stable "
-"release. They must follow the X.Y.Z versioning format, where Y is an odd "
-"number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "开发版通常给出下一个稳定版功能的预览。它们必须依照 X.Y.Z 的版本格式，Y 是奇数(比如 xfwm4-4.7.3 或 thunar-1.3.10)。"
-
-#: about/releasemodel.php:180
-msgid ""
-"Maintainers are encouraged to do development releases for new features they "
-"want to make available to others. Frequent development releases can act as a"
-" replacement of the SVN revision versioning we had in the past. If component"
-" A depends on a new feature in component B, A may only be released if there "
-"is a development release of B shipping this feature. For this to work, "
-"libtool versions must be updated properly with every development release."
-msgstr "鼓励维护者发布预览新功能的开发版，他们要给其他人实现这些新功能。频繁的开发版可以取代我们过去所用的 SVN 修订版本。如果组件 A 依赖组件 B 中的一个新功能，A 只能在包含此新功能的组件 B 发布后才能发布。要做到这些，libtool 必须恰当地更新每个开发版。"
-
-#: about/releasemodel.php:184
-msgid ""
-"Care has to be taken of the master branch of each component. The master "
-"branch should always remain in a release-ready state. New features should be"
-" developed in branches until they are ready (as in: compiling and the "
-"component will remain functional even after merging the feature(s) into the "
-"master branch), to lower the risk of delaying the final release of the "
-"entire Xfce core desktop."
-msgstr "必须注意每个组件的主分支。主分支应该总是保持在待发布状态。为了降低耽误整个 Xfce 核心桌面最终发布的风险，新功能在直到准备好(如在：即使合并入主分支后编译和组件仍能工作)时才应该在各分支中开发。"
-
-#: about/releasemodel.php:188
-msgid ""
-"New features breaking APIs or other core components should be communicated. "
-"Maintainers are suggested to prepare other components for these features in "
-"a separate branch before including the features in a new development "
-"release. That way the other components retain their release-ready state."
-msgstr "应该交流破坏 API 或其它核心组件的新功能。建议维护者在包含这些功能的新开发版发布之前，在一个单独的分支中为这些功能准备其它组件。那样其它组件就可以保持其待发布状态了。"
-
-#: about/releasemodel.php:192
-msgid "This is how the basic development workflow looks like:"
-msgstr "这就是基本开发流程看起来的样子："
-
-#: about/releasemodel.php:196
-msgid "Development Workflow"
-msgstr "开发流程"
-
-#: about/releasemodel.php:199
-msgid "Release Phase (10+ Weeks)"
-msgstr "发行阶段(10+ 星期)"
-
-#: about/releasemodel.php:202
-msgid ""
-"During the release phase, there will be three pre-releases and one final "
-"release:"
-msgstr "发行阶段期间，会有三个预览版和一个最终版："
-
-#: about/releasemodel.php:206
-msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1(0 星期后，功能冻结)，"
-
-#: about/releasemodel.php:207
-msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2(4 星期后，字符串冻结)和"
-
-#: about/releasemodel.php:208
-msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3(8 星期后，代码冻结)"
-
-#: about/releasemodel.php:209
-msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y(10+ 星期后)"
-
-#: about/releasemodel.php:213
-msgid ""
-"where Y has to be an even number. Each of these releases has to include the "
-"latest development releases of all components (or stable, if there were no "
-"development releases since the last stable release) of the Xfce core "
-"desktop. The version numbers of these components may (even have to) differ "
-"from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
-"version 4.7.17 and Thunar could have 1.1.9."
-msgstr "Y 必须是偶数。每个这样的版本必须包括 Xfce 核心桌面所有组件的最新开发版(或稳定版，如果在最新的稳定版之后没有开发版)。这些组件的版本号应(甚至必须)与上述的命名方案不同。比如对于 Xfce 4.8.0pre2，xfwm4 可能是 4.7.17 版，thunar 可能是 1.1.9。"
-
-#: about/releasemodel.php:217
-msgid ""
-"This means that maintainers don't necessarily have to release new versions "
-"of their components along with one of the pre-releases. The release team "
-"always picks the latest available development or stable release of each "
-"component for pre-releases and the final release."
-msgstr "这意味着维护者不一定非要与某个预览版一道发布其组件的新版本，发行团队挑选各组件可用的最新开发版或稳定版作为预览版和最终版。"
-
-#: about/releasemodel.php:221
-msgid ""
-"The end of this phase marks a new stable release of the Xfce core desktop "
-"and therewith the start of a new release cycle."
-msgstr "此阶段的结束标志着 Xfce 核心桌面新稳定版的发布，新发行周期旋即开始。"
-
-#: about/releasemodel.php:224
-msgid "Freezing before Releases"
-msgstr "发布前的冻结"
-
-#: about/releasemodel.php:227
-msgid "There are different freeze types before releases."
-msgstr "发布前有不同的冻结类型。"
-
-#: about/releasemodel.php:230
-msgid "Feature Freeze"
-msgstr "功能冻结"
-
-#: about/releasemodel.php:233
-msgid ""
-"With Xfce X.Ypre1, all core components enter feature freeze which means from"
-" there on only translations and bugfixes are allowed to go into the master "
-"branch."
-msgstr "自 Xfce X.Ypre1，所有核心组件进入功能冻结，这意味着从此时起只允许译文和缺陷修复进入主分支。"
-
-#: about/releasemodel.php:236
-msgid "String/UI Freeze"
-msgstr "字符串/用户界面冻结"
-
-#: about/releasemodel.php:239
-msgid ""
-"With Xfce X.Ypre2, all core components enter string/UI freeze which means "
-"from there on no strings which affect translations may be changed. Same goes"
-" for the user interface which may not be changed after this point."
-msgstr "自 Xfce X.Ypre2，所有核心组件进入字符串/用户界面冻结，这意味着从此时起不会有影响译文的字符串更改。此后，同样不会有影响用户界面的更改。"
-
-#: about/releasemodel.php:242
-msgid "Code Freeze"
-msgstr "代码冻结"
-
-#: about/releasemodel.php:245
-msgid ""
-"There is a short 2-days code freeze before every pre-release. During this "
-"period of time, no commits may be sent unless they are signed off by the "
-"release manager."
-msgstr "每个预览版之前有两天的短暂代码冻结。此段时间期间，除非由发行管理员签名，否则不能提交。"
-
-#: about/releasemodel.php:249
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze which means from "
-"there on no code changes are allowed, unless they are signed off by the "
-"release manager. These should usually only be fixes to blocking or release-"
-"critical bugs. Translations are still allowed to go in."
-msgstr "自 Xfce X.Ypre3，所有核心组件进入代码冻结，这意味着从此时起不允许有代码更改，除非由发行管理员签名。通常，这些应该只用在修复阻断缺陷或致命缺陷上。仍然允许译文进入。"
-
-#: about/releasemodel.php:252
-msgid "Code Freeze Phase (2+ weeks)"
-msgstr "代码冻结阶段(2+ 星期)"
-
-#: about/releasemodel.php:255
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze. This phase is "
-"illustrated in the following figure and is explained in more detail in this "
-"section."
-msgstr "自 Xfce X.Ypre3，所有核心组件进入代码冻结。此节中的以下图表更加详细地解释了此阶段。"
-
-#: about/releasemodel.php:259
-msgid ""
-"The code freeze and its exceptions are supported by commit hooks. There is "
-"an update hook which doesn't allow any changes to master unless they are "
-"signed off by the release manager. "
-msgstr "代码冻结及其例外由提交套钩去做。有一更新套钩，除非由发行管理员签名，否则它不允许对主分支作任何更改。"
-
-#: about/releasemodel.php:263
-msgid "Tagging and Branching for Releases"
-msgstr "为发布作标记和分支"
-
-#: about/releasemodel.php:266
-msgid "Bugfixes/Changes"
-msgstr "缺陷修复/更改"
-
-#: about/releasemodel.php:269
-msgid ""
-"If a core component requires fixes or changes during code freeze, the "
-"maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
-"DISCUSSION//) to which he or she then commits the fixes. Refer to the "
-"section Code Freeze Exceptions if these are release-critical changes or "
-"fixes for blocking bugs."
-msgstr "如果一个核心组件在代码冻结期间需要修复或更改，维护者需要创建一个新的称为 ELS(//公开征集命名//)的分支让他或她去提交修复。如果有致命缺陷更改或阻断缺陷修复，参照此节的代码冻结例外。"
-
-#: about/releasemodel.php:273
-msgid ""
-"The ELS branch only lives for a short period of time. It is merged into "
-"master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
-" after the final release. Only bugfixes are allowed in this branch."
-msgstr "ELS 分支只在短时间内存在。在最终版发布后它会合并入主分支和组件的稳定版分支(比如 xfwm4-4.8 或 thunar-1.2)。只允许缺陷修复进入此分支。"
-
-#: about/releasemodel.php:276
-msgid "Code Freeze Exceptions"
-msgstr "代码冻结例外"
-
-#: about/releasemodel.php:278
-msgid "Blocking Bugs"
-msgstr "阻断缺陷"
-
-#: about/releasemodel.php:281
-msgid ""
-"Certain bugs may delay the final release if they are considered blockers. "
-"This is the case under any of the following circumstances:"
-msgstr "如果被认为是阻断缺陷，那么这些特定缺陷会耽误最终发布。如下任一情况即为此情形："
-
-#: about/releasemodel.php:285
-msgid "it crashes a core application"
-msgstr "它摧毁某一核心组件"
-
-#: about/releasemodel.php:286
-msgid "it causes data loss"
-msgstr "它引起数据丢失"
-
-#: about/releasemodel.php:287
-msgid "it causes an ever-growing memory leak"
-msgstr "它引起日益增长的内存泄漏"
-
-#: about/releasemodel.php:288
-msgid "it locks the entire desktop GUI"
-msgstr "它锁住了整个桌面图形界面"
-
-#: about/releasemodel.php:292
-msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "如果符合以下标准，则一个缺陷不应耽误发布："
-
-#: about/releasemodel.php:296
-msgid ""
-"the hardware or architecture on which the bug occurs is exotic and/or "
-"there's no way for developers to reproduce the bug"
-msgstr "缺陷出现的硬件或架构奇异和/或开发者无法再现此缺陷"
-
-#: about/releasemodel.php:300
-msgid ""
-"Fixes for these bugs are allowed to be applied during code freeze if, and "
-"only if they are signed off by the release manager."
-msgstr "当且仅当在发行管理员签名后，才允许在代码冻结期间应用这些缺陷的修复。"
-
-#: about/releasemodel.php:303
-msgid "Release-Critical Changes"
-msgstr "致命缺陷更改"
-
-#: about/releasemodel.php:306
-msgid ""
-"Some changes may be of big concern with regards to the quality of the "
-"release. They are allowed to go in if, and only if they are signed off by "
-"the release manager."
-msgstr "一些更改会极大地影响版本的质量。当且仅当在发行管理员签名后，才允许它们进入。"
-
-#: about/releasemodel.php:309
-msgid "Releasing"
-msgstr "发布"
-
-#: about/releasemodel.php:312
-msgid ""
-"For the final release (Xfce X.Y), all core components are tagged (twice, "
-"once with their own version and once with xfce-X.Y.0) and branched for the "
-"maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
-"branch is merged into master (where the development for the next release "
-"takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "对于最终发布(Xfce X.Y)，会标记所有核心组件(两次，一次以其自己的版本，一次以 xfce-X.Y.0)和分支维护周期(比如 thunar-1.2 或 xfwm4-4.8)。其后，ELS 合并入主分支(下一个版本开始的地方)并进入 thunar-1.2 或 xfwm4-4.8。"
-
-#: about/releasemodel.php:315
-msgid "Maintenance Process"
-msgstr "维护阶段"
-
-#: about/releasemodel.php:318
-msgid ""
-"After the release of a final version, bugfixes and translation updates will "
-"be committed to a stable component-specific branch (like thunar-1.2 or "
-"xfwm4-4.8). Maintenance releases of individual components are not required "
-"to be synchronized."
-msgstr "最终版本发布后，缺陷修复和译文更新会提交到特定组件的稳定分支中(如 thunar-1.2 和 xfwm4-4.8)。独立组件的维护版不要求同步。"
-
-#: about/releasemodel.php:321
-msgid "Maintenance Releases"
-msgstr "维护版"
-
-#: about/releasemodel.php:324
-msgid ""
-"There may be no API/ABI changes in maintenance releases compared to the "
-"corresponding final release of the Xfce core desktop. They also must follow "
-"the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
-"thunar-1.2.4). No new features or strings may be introduced in these "
-"releases."
-msgstr "不会更改与 Xfce 核心桌面相对应的维护版 API/ABI。它们必须按照 X.Y.Z 版本格式，Y 是偶数(比如 xfwm4-4.8.4 或 thunar-1.2.4)。不会在这些版本中加入新功能或新字符串。"
-
-#: about/releasemodel.php:328
-msgid "Authors"
-msgstr "作者群"
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
@@ -3423,69 +2837,9 @@ msgstr "默认情况下，Xfce 窗口/对话框的所有标题栏都将由窗口
 msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
 msgstr "xfce-appearance-settings 外观设置 - 启用 GtkHeaderBar 标题栏首选项"
 
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "相关页面"
-
-#: about/nav.php:4
-msgid "4.20 Tour"
-msgstr "4.20 导航"
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr "最新主版本新功能的魅力之旅"
-
-#: about/nav.php:9
-msgid "4.18 Tour"
-msgstr "4.18 导航"
-
-#: about/nav.php:10
-msgid "4.16 Tour"
-msgstr "4.16 导航"
-
-#: about/nav.php:11
-msgid "4.14 Tour"
-msgstr "4.14 导航"
-
-#: about/nav.php:12
-msgid "4.12 Tour"
-msgstr "4.12 导航"
-
-#: about/nav.php:13
-msgid "4.10 Tour"
-msgstr "4.10 导航"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "4.8 导航"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "4.6 导航"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "4.4 导航"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "发行公告"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:63
+#: about/screenshots.php:1 about/nav.php:25 frontpage.php:63
 msgid "Screenshots"
 msgstr "截图"
-
-#: about/nav.php:26 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr "请欣赏 Xfce 桌面示例"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "所有贡献者的列表"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "Xfce 核心模块的发行策略"
 
 #: about/screenshots.php:20
 msgid "Some screenshots of Xfce, ordered by version."
@@ -4430,6 +3784,62 @@ msgstr "修复 alt-tab 时的崩溃问题 (<a href=\"https://gitlab.xfce.org/xfc
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
 msgstr "使用主题:  \"Greybird-dark\"。 使用图标主题:  \"elementary Xfce dark\"。"
 
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "相关页面"
+
+#: about/nav.php:4
+msgid "4.20 Tour"
+msgstr "4.20 导航"
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr "最新主版本新功能的魅力之旅"
+
+#: about/nav.php:9
+msgid "4.18 Tour"
+msgstr "4.18 导航"
+
+#: about/nav.php:10
+msgid "4.16 Tour"
+msgstr "4.16 导航"
+
+#: about/nav.php:11
+msgid "4.14 Tour"
+msgstr "4.14 导航"
+
+#: about/nav.php:12
+msgid "4.12 Tour"
+msgstr "4.12 导航"
+
+#: about/nav.php:13
+msgid "4.10 Tour"
+msgstr "4.10 导航"
+
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "4.8 导航"
+
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "4.6 导航"
+
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "4.4 导航"
+
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "发行公告"
+
+#: about/nav.php:26 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr "请欣赏 Xfce 桌面示例"
+
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "所有贡献者的列表"
+
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
 msgid "Related Sites"
@@ -4801,6 +4211,10 @@ msgid ""
 "desktop. Some projects have their own project pages to provide additional "
 "information."
 msgstr "Xfce 项目包含若干独立的项目，对应桌面的各个部分。某些项目拥有自己的独立页面以提供更多信息。"
+
+#: projects/index.php:15
+msgid "Core Components"
+msgstr "核心组件"
 
 #: projects/index.php:22
 msgid ""
