@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2024-12-15 12:53+0100\n"
+"POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2020-2024\n"
 "Language-Team: Albanian (http://app.transifex.com/xfce/xfce-www/language/sq/)\n"
@@ -47,592 +47,6 @@ msgstr "Permalidhje"
 #: about/news.php:91
 msgid "No news articles found."
 msgstr "S’u gjetën artikuj të rinj."
-
-#: about/releasemodel.php:3 about/nav.php:35
-msgid "Release Model"
-msgstr "Model Hedhjeje Në Qarkullim"
-
-#: about/releasemodel.php:10
-msgid ""
-"In the past the same questions and discussions have come up over and over "
-"again whenever a new release was in sight, like:"
-msgstr "Në të kaluarën, të njëjtat pyetje dhe diskutime janë shfaqur herë pas here kurdo që fillonte të dukej një hedhje e re në qarkullim, b.f.:"
-
-#: about/releasemodel.php:14
-msgid "What are the core components of Xfce?"
-msgstr "Cilët janë përbërësit bazë të Xfce-së?"
-
-#: about/releasemodel.php:15
-msgid ""
-"How often do we want to release and in what fashion (time-based, feature-"
-"based)?"
-msgstr "Sa shpesh duam të hedhim në qarkullim dhe mbi ç’bazë (me bazë kohën, me bazë veçoritë)?"
-
-#: about/releasemodel.php:16
-msgid "Who's in charge of the release process?"
-msgstr "Kush e ka përsipër procesin e hedhjeve në qarkullim?"
-
-#: about/releasemodel.php:17
-msgid "What dependency versions do we depend on?"
-msgstr "Nga cilat versione varësish varemi?"
-
-#: about/releasemodel.php:18
-msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "Kur ndodhin ngrirje të veçorive, ngrirje të vargjeve, ngrirje të kodit, dhe të ngjashme?"
-
-#: about/releasemodel.php:19
-msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Sa hedhje paraprake në qarkullim na duhet të bëjmë dhe si i quajmë ato?"
-
-#: about/releasemodel.php:20
-msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "Çfarë përdorim si zëvendësim për rishikime SVN me Git?"
-
-#: about/releasemodel.php:24
-msgid ""
-"This document intends to answer these questions and aims at defining a "
-"policy that we can refer to when planning releases."
-msgstr "Ky dokument synon t’u përgjigjet këtyre pyetjeve dhe të përkufizojë një politikë të cilës mund t’i referohemi kur planifikojmë hedhje në qarkullim."
-
-#: about/releasemodel.php:27
-msgid "The Xfce Core Desktop"
-msgstr "Desktopi Xfce Bazë"
-
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "Përbërësit Bazë"
-
-#: about/releasemodel.php:51
-msgid ""
-"All core components of the Xfce desktop must adhere to the release policy "
-"defined in this document."
-msgstr "Krejt përbërësit bazë të desktopit Xfce duhet të jenë në përputhje me rregullat e hedhjes në qarkullim të përkufizuara në këtë dokument."
-
-#: about/releasemodel.php:54
-msgid "Essential Dependencies"
-msgstr "Varësi Thelbësore"
-
-#: about/releasemodel.php:61
-msgid "The Release Cycle"
-msgstr "Cikël Hedhjesh Në Qarkullim"
-
-#: about/releasemodel.php:64
-msgid ""
-"The release cycle involves a short planning phase, a development phase with "
-"development releases and a release phase, eventually leading to a new stable"
-" release of the entire Xfce core desktop. In parallel to these phases, a "
-"maintenance process of the current stable release will continue. During this"
-" phase, bugfix releases and security fixes will be released for the stable "
-"version of Xfce."
-msgstr "Cikli i hedhjeve në qarkullim përfshin një fazë të shkurtër planifikimi, një fazë zhvillimi me hedhje në qarkullim zhvillimi dhe një fazë hedhjeje në qarkullim, që shpien më në fund në një version të ri të qëndrueshëm të krejt desktopit bazë Xfce. Në paralel me këto faza, do të vazhdojë procesi i mirëmbajtjes së hedhjes së qëndrueshme në fuqi. Gjatë kësaj faze, për versionin e qëndrueshëm të Xfce-së do të hidhen në qarkullim versione për ndreqje të metash dhe ndreqje të sigurisë."
-
-#: about/releasemodel.php:68
-msgid ""
-"Below you can see a graphical timeline of an example release cycle and "
-"maintenance process for Xfce 4.8 with three components: Thunar, exo and "
-"xfwm4."
-msgstr "Më poshtë mund të shihni një kronologji grafike të një shembulli procesi cikli hedhjeje në qarkullim dhe mirëmbajtjeje për Xfce 4.8 me tre përbërës: Thunar, exo dhe xfwm4."
-
-#: about/releasemodel.php:72
-msgid "Example Release Cycle"
-msgstr "Shembull Cikli Hedhjesh Në Qarkullim"
-
-#: about/releasemodel.php:75
-msgid "Planning Phase (2(+2) Weeks)"
-msgstr "Fazë Planifikimi (2(+2) Javë)"
-
-#: about/releasemodel.php:78
-msgid ""
-"This phase marks the beginning of the release cycle and is used to decide "
-"which dependencies to use and also to appoint the release team for the cycle"
-" (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
-"weeks)."
-msgstr "Kjo fazë shënon fillimin e ciklit të hedhjes në qarkullim dhe përdoret për të vendosur se cilat varësi të përdoren dhe për të caktuar ekipin e hedhjes në qarkullim për ciklin (2 javët e para). Së fundi ky shpie te ngrirja për varësitë (pas 4 javësh)."
-
-#: about/releasemodel.php:81
-msgid "Appointing the Release Team"
-msgstr "Caktim i Ekipit të Hedhjes Në Qarkullim"
-
-#: about/releasemodel.php:84
-msgid ""
-"At the beginning of the planning phase there is a (formal or informal) "
-"voting for the release team. The release team supervises development and "
-"maintenance releases during the release cycle. Its main purpose is to "
-"perform and double-check the Xfce core desktop releases in the release phase"
-" at the very end of the cycle. This is explained in more detail in the "
-"Release Team section of this document."
-msgstr "Në fillim të fazës së planifikimit ka një votim (formal ose informal) për ekipin e hedhjes në qarkullim. Ekipi i hedhjes në qarkullim mbikëqyr hedhjet në qarkullim zhvillim dhe mirëmbajtje gjatë ciklit të hedhjeve në qarkullim. Synimi i tij kryesori është të realizojë dhe kontrollojë dyfish hedhjet në qarkullim të desktopit bazë Xfce gjatë fazës së hedhjeve në qarkullim në funt të ciklit. Kjo shpjegohet më në hollësi në ndarjen Ekipi i Hedhjeve në Qarkullim në këtë dokument."
-
-#: about/releasemodel.php:87
-msgid "Release Team"
-msgstr "Ekip i Hedhjes Në Qarkullim"
-
-#: about/releasemodel.php:90
-msgid ""
-"The release team consists of at least two people: one release manager who "
-"can be assisted by others to actually perform the release (tagging, creation"
-" of tarballs, writing release notes and announcements) and another person "
-"for quality assurance (checking if all components compile, tags are in "
-"place, release notes are up to date and so on). This is defined in more "
-"detail below."
-msgstr "Ekipi i hedhjeve në qarkullim përbëhet të paktën nga dy vetë: një përgjegjës për hedhjet në qarkullim që mund të ndihmohet nga të tjerët për të realizuar faktikisht hedhjen në qarkullim (etiketim versionesh, krijim paketash, shkrim shënimesh hedhjeje në qarkullim dhe njoftimesh) dhe një person tjetër për sigurim cilësie (kontroll që krejt përbërësit përpilohen, etiketat janë atje ku duhet, shënimet për hedhjen në qarkullim janë të përditësuara, e me radhë). Kjo përkufizohet më me hollësi më poshtë."
-
-#: about/releasemodel.php:94
-msgid "These are the release team roles and their responsibilities:"
-msgstr "Këto janë rolet në ekipin e hedhjeve në qarkullim dhe përgjegjësitë e secilit:"
-
-#: about/releasemodel.php:97
-msgid "Release Manager"
-msgstr "Përgjegjës Hedhjeje Në Qarkullim"
-
-#: about/releasemodel.php:100
-msgid "Organization of the release cycle"
-msgstr "Organizim i ciklit të hedhjes në qarkullim"
-
-#: about/releasemodel.php:101
-msgid ""
-"Announce deadlines to developers and translators (repeatedly and early "
-"enough)"
-msgstr "Njoftim për zhvillues dhe përkthyes i afateve (në mënyrë të përsëritur dhe herët)"
-
-#: about/releasemodel.php:102
-msgid "Overseeing of maintainance and development releases"
-msgstr "Përkujdesje për versione mirëmbajtje dhe zhvillimi"
-
-#: about/releasemodel.php:103
-msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "Krijimi i degëve me etiketat Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 dhe Xfce-X.Y"
-
-#: about/releasemodel.php:104
-msgid "Generate tarballs from tags (possibly automated)"
-msgstr "Krijim paketash nga versionet e etiketuar (mundësisht në mënyrë të automatizuar)"
-
-#: about/releasemodel.php:105
-msgid "Write release notes"
-msgstr "Shkrim i shënimeve të versionit"
-
-#: about/releasemodel.php:106
-msgid "Write release announcements"
-msgstr "Shkrim i njoftimeve për hedhjesh në qarkullim"
-
-#: about/releasemodel.php:107
-msgid "Create Bugzilla tags"
-msgstr "Krijim etiketash Bugzilla"
-
-#: about/releasemodel.php:108
-msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "Miratim ndreqjes për të meta që bllokojnë procesin gjatë ngrirjes së kodit"
-
-#: about/releasemodel.php:111
-msgid "Release Assistant(s)"
-msgstr "Ndihmës Hedhjeje Në Qarkullim"
-
-#: about/releasemodel.php:114
-msgid "Update the website(s)"
-msgstr "Përditësim sajti(esh)"
-
-#: about/releasemodel.php:115
-msgid "Help the release manager with his tasks"
-msgstr "Ndihmë përgjegjësit të hedhjes në qarkullim në punët e tij"
-
-#: about/releasemodel.php:118
-msgid "QA Official"
-msgstr "SC Zyrtar"
-
-#: about/releasemodel.php:121
-msgid ""
-"Have an eye on libtool versions of maintanance and development releases"
-msgstr "Vëzhgim i versioneve libtool të hedhjeve në qarkullim zhvillim dhe mirëmbajtje"
-
-#: about/releasemodel.php:122
-msgid "Remind maintainers about missing NEWS updates"
-msgstr "Kujtesë mirëmbajtësve rreth përditësimesh ende jo gati për LAJME"
-
-#: about/releasemodel.php:123
-msgid "Double-check the generated tarballs"
-msgstr "Kontroll i dyfishtë i paketave tar të prodhuara"
-
-#: about/releasemodel.php:124
-msgid "Proof-read release announcements"
-msgstr "Korrektim i njoftimeve për hedhjet në qarkullim"
-
-#: about/releasemodel.php:127
-msgid "Individual Maintainers"
-msgstr "Mirëmbajtës Individualë"
-
-#: about/releasemodel.php:130
-msgid ""
-"Create component-specific tags for their maintainance and development "
-"releases"
-msgstr "Krijim versionesh të etiketuar, për përbërës specifikë, për hedhje të tyret në qarkullim zhvillimi dhe mirëmbajtje"
-
-#: about/releasemodel.php:131
-msgid "Generate tarballs for their maintainance and development releases"
-msgstr "Prodhim paketash tarball për hedhje në qarkullim dhe mirëmbajtje"
-
-#: about/releasemodel.php:132
-msgid "Write ChangeLogs and update NEWS files"
-msgstr "Shkrim Regjistri Ndryshimesh dhe përditësim kartelash LAJME"
-
-#: about/releasemodel.php:133
-msgid "Write component-specific release announcements"
-msgstr "Shkrim i njoftimeve për hedhjesh në qarkullim për përbërës të veçantë"
-
-#: about/releasemodel.php:134
-msgid "Create Bugzilla tags for their releases"
-msgstr "Krijim etiketash Bugzilla për versionet e tyre"
-
-#: about/releasemodel.php:135
-msgid "Make sure API documentation is up to date"
-msgstr "Sigurim i përditësimit të dokumentimit të API-t"
-
-#: about/releasemodel.php:138
-msgid "Dependency Freeze"
-msgstr "Ngrirje Varësish"
-
-#: about/releasemodel.php:141
-msgid ""
-"During the first 2 weeks of the planning phase each maintainer is required "
-"to "
-msgstr "Gjatë 2 javëve të para të fazës së planifikimit, çdo mirëmbajtësi i kërkohet të "
-
-#: about/releasemodel.php:145
-msgid "List the features he wants to implement in the release cycle"
-msgstr "Paraqitje e një liste me veçoritë që dëshiron të sendërtohen në ciklin e hedhjes në qarkullim"
-
-#: about/releasemodel.php:146
-msgid "Investigate which dependencies are implied by that"
-msgstr "Të hetojë cilat varësi kërkohen nga kjo"
-
-#: about/releasemodel.php:150
-msgid ""
-"At the end of this, a decision is made on which dependencies the next stable"
-" release of the Xfce core desktop will depend. In particular this includes "
-"the minimum required versions for all essential dependencies of the Xfce "
-"core desktop."
-msgstr "Në fund të kësaj, të merret një vendim se nga cilat varësi do të varet hedhja pasuese në qarkullim e versionit të qëndrueshëm të desktopit Xfce bazë. Në veçanti kjo përfshin versionet minimum të domosdoshëm për krejt varësitë themelore të desktopit Xfce bazë."
-
-#: about/releasemodel.php:154
-msgid ""
-"Maintainers who were not available during the first 2 weeks of the planning "
-"phase have the chance to request dependency changes in the 2 weeks after "
-"that. "
-msgstr "Mirëmbajtësit që nuk janë të lirë gjatë 2 javëve të para të fazës së planifikimit kanë shansin të kërkojnë ndryshime varësish në 2 javët që pasojnë. "
-
-#: about/releasemodel.php:158
-msgid ""
-"At the end of these 4 weeks, all components enter dependency freeze which "
-"means they may not change the dependencies (and their versions) they depend "
-"on. Optional dependencies for are still allowed to be added though."
-msgstr "Në fund të këtyre 4 javëve, krejt përbërësit hyjnë në fazën e ngrirjes së varësive, që do të thotë se nuk mund të ndryshojnë varësitë (dhe versione të tyre)nga të cilat varen. Lejohet ama të shtohen varësi opsionale."
-
-#: about/releasemodel.php:161
-msgid "Informing the Community"
-msgstr "Informim i Bashkësisë"
-
-#: about/releasemodel.php:164
-msgid ""
-"At the very end of the planning phase, a mail with planned features and "
-"dependencies for all components of the Xfce core desktop is sent to the "
-"xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "Në fund fare të fazës së planifikimit, te listat e postimeve xfce4-dev@xfce.org dhe xfce@xfce.org dërgohet një email me veçoritë dhe varësitë e planifikuara për krejt përbërësit e desktopit bazë Xfce."
-
-#: about/releasemodel.php:167
-msgid "Development Phase (5 Months)"
-msgstr "Fazë Zhvillimi (5 Muaj)"
-
-#: about/releasemodel.php:170
-msgid ""
-"During the development phase every maintainer is free to do maintenance and "
-"development releases of his components independently of the rest of Xfce."
-msgstr "Gjatë fazës së zhvillimit çdo mirëmbajtës është i lirë të hedhë në qarkullim versione mirëmbajtje ose zhvillimi të përbërësve të tij, pavarësisht nga pjesa tjetër e Xfce-së."
-
-#: about/releasemodel.php:173
-msgid "Development Releases"
-msgstr "Versione Zhvillim"
-
-#: about/releasemodel.php:176
-msgid ""
-"Development releases usually give a feature preview for the next stable "
-"release. They must follow the X.Y.Z versioning format, where Y is an odd "
-"number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "Hedhjet zhvillim në qarkullim zakonisht lejojnë një paraparje të veçorive për hedhjen pasuese të qëndrueshme në qarkullim. Duhet të ndjekin formatin X.Y.Z për numra versionesh, ku Y është një numër tek (p.sh., xfwm4-4.7.3 ose thunar-1.3.10)."
-
-#: about/releasemodel.php:180
-msgid ""
-"Maintainers are encouraged to do development releases for new features they "
-"want to make available to others. Frequent development releases can act as a"
-" replacement of the SVN revision versioning we had in the past. If component"
-" A depends on a new feature in component B, A may only be released if there "
-"is a development release of B shipping this feature. For this to work, "
-"libtool versions must be updated properly with every development release."
-msgstr "Mirëmbajtësit nxiten të krijojnë hedhje zhvillim në qarkullim për veçori të reja që duan t’u japin të tjerëve. Hedhje të shpeshta zhvillim në qarkullim mund të luajnë rolin e versioneve rishikim SVN që kishim dikur. Nëse një përbërës A varet nga një veçori e re në përbërësin B, A mund të hidhet në qarkullim vetëm nëse ka një hedhje zhvillim në qarkullim për B-në që ofron këtë veçori. Që kjo të funksionojë, versionet e libtool-it duhen përditësuar si duhet me çdo hedhje në qarkullim zhvillim."
-
-#: about/releasemodel.php:184
-msgid ""
-"Care has to be taken of the master branch of each component. The master "
-"branch should always remain in a release-ready state. New features should be"
-" developed in branches until they are ready (as in: compiling and the "
-"component will remain functional even after merging the feature(s) into the "
-"master branch), to lower the risk of delaying the final release of the "
-"entire Xfce core desktop."
-msgstr "Për degën <em>master</em> të çdo përbërësi duhet treguar kujdes. Dega <em>master</em> duhet të mbetet gjithmonë në një gjendje gati-për-hedhje-në-qarkullim. Veçoritë e reja duhen zhvilluar në degë, derisa të jenë gati (as in: përpilimi dhe përbërësi do të mbeten funksionalë edhe pas kalimit të veçorisë(ve) në degën <em>master</em>), për të ulur rrezikun e vonesës së hedhjes përfundimtare në qarkullim të krejt desktopit bazë Xfce."
-
-#: about/releasemodel.php:188
-msgid ""
-"New features breaking APIs or other core components should be communicated. "
-"Maintainers are suggested to prepare other components for these features in "
-"a separate branch before including the features in a new development "
-"release. That way the other components retain their release-ready state."
-msgstr "Veçori të reja që prishin funksionimin e API-ve ose të tjerë përbërësish bazë duhen bërë të ditur. Mirëmbajtësve u sugjerohet të përgatisin përbërës të tjerë për këto veçori në një degë ndaras, përpara se t’i përfshijnë veçoritë në një hedhje të re zhvillim në qarkullim. Në këtë mënyrë përbërësit e tjerë ruajnë gjendjen e tyre gati-për-hedhje-në-qarkullim."
-
-#: about/releasemodel.php:192
-msgid "This is how the basic development workflow looks like:"
-msgstr "Ja se si duket afërsisht një rrjedhë pune zhvillimi e thjeshtë:"
-
-#: about/releasemodel.php:196
-msgid "Development Workflow"
-msgstr "Rrjedhë Pune Zhvillimi"
-
-#: about/releasemodel.php:199
-msgid "Release Phase (10+ Weeks)"
-msgstr "Fazë Hedhjeje Në Qarkullim (10+ Javë)"
-
-#: about/releasemodel.php:202
-msgid ""
-"During the release phase, there will be three pre-releases and one final "
-"release:"
-msgstr "Gjatë fazës së hedhjes në qarkullim, do të ketë tre hedhje paraprake në qarkullim dhe një përfundimtare:"
-
-#: about/releasemodel.php:206
-msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1 (pas  0  javësh, ngrirje veçorish),"
-
-#: about/releasemodel.php:207
-msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2 (pas  4  javësh, ngrirje vargjesh) dhe"
-
-#: about/releasemodel.php:208
-msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (pas  8  javësh, ngrirje kodi),"
-
-#: about/releasemodel.php:209
-msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y     (pas 10+ javësh)"
-
-#: about/releasemodel.php:213
-msgid ""
-"where Y has to be an even number. Each of these releases has to include the "
-"latest development releases of all components (or stable, if there were no "
-"development releases since the last stable release) of the Xfce core "
-"desktop. The version numbers of these components may (even have to) differ "
-"from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
-"version 4.7.17 and Thunar could have 1.1.9."
-msgstr "ku Y duhet të jetë një numër çift. Secila prej këtyre hedhjeve në qarkullim duhet të përfshijë hedhjet më të reja në qarkullim të versioneve zhvillim të krejt përbërësve (ose të versioneve të qëndrueshëm, nëse nuk ka pasur hedhje në qarkullim versionesh zhvillim që nga ai i fundit i qëndrueshëm) të desktopit bazë Xfce. Numrat e versionit të këtyre përbërësve mund (në fakt duhet) të ndryshojnë nga skema e mësipërme e emërtimeve. Për shembull, për Xfce 4.8.0pre2, xfwm4 mund të ketë versionin 4.7.17 dhe Thunar-i atë 1.1.9."
-
-#: about/releasemodel.php:217
-msgid ""
-"This means that maintainers don't necessarily have to release new versions "
-"of their components along with one of the pre-releases. The release team "
-"always picks the latest available development or stable release of each "
-"component for pre-releases and the final release."
-msgstr "Kjo do të thotë që mirëmbajtësve s’do t’u duhet të hedhin doemos në qarkullim versione të rinj të përbërësve të tyre tok me ata të hedhjes paraprake në qarkullim. Ekipi i hedhjeve në qarkullim zgjedh përherë hedhjen më të re në qarkullim të gatshme, version zhvillim ose i qëndrueshëm, të çdo përbërësi për hedhjen paraprake dhe atë përfundimtare në qarkullim."
-
-#: about/releasemodel.php:221
-msgid ""
-"The end of this phase marks a new stable release of the Xfce core desktop "
-"and therewith the start of a new release cycle."
-msgstr "Fundi i kësaj faze shënon një hedhje të re të qëndrueshme në qarkullim të desktopit bazë Xfce dhe rrjedhimisht fillimin e një cikli të ri hedhjesh në qarkullim."
-
-#: about/releasemodel.php:224
-msgid "Freezing before Releases"
-msgstr "Ngrirje përpara Hedhjesh Në Qarkullim"
-
-#: about/releasemodel.php:227
-msgid "There are different freeze types before releases."
-msgstr "Ka lloje të ndryshme ngrirjesh përpara hedhjeve në qarkullim."
-
-#: about/releasemodel.php:230
-msgid "Feature Freeze"
-msgstr "Ngrirje Veçorish"
-
-#: about/releasemodel.php:233
-msgid ""
-"With Xfce X.Ypre1, all core components enter feature freeze which means from"
-" there on only translations and bugfixes are allowed to go into the master "
-"branch."
-msgstr "Me Xfce X.Ypre1, krejt përbërësit bazë hyjnë në fazë ngrirjeje veçorish, që do të thotë se tani e tutje lejohen të barten në degën kryesore vetëm përkthime dhe ndreqje të metash."
-
-#: about/releasemodel.php:236
-msgid "String/UI Freeze"
-msgstr "Ngrirje Vargjesh/NP-je"
-
-#: about/releasemodel.php:239
-msgid ""
-"With Xfce X.Ypre2, all core components enter string/UI freeze which means "
-"from there on no strings which affect translations may be changed. Same goes"
-" for the user interface which may not be changed after this point."
-msgstr "Me Xfce X.Ypre2, krejt përbërësit bazë hyjnë në fazë ngrirjeje vargjesh/UI, që do të thotë se tani e tutje nuk mund të ndryshohen vargje që prekin përkthimet. E njëjta gjë vlen edhe për ndërfaqen e përdoruesit, e cila pas kësaj pike nuk mund të ndryshohet."
-
-#: about/releasemodel.php:242
-msgid "Code Freeze"
-msgstr "Ngrirje Kodi"
-
-#: about/releasemodel.php:245
-msgid ""
-"There is a short 2-days code freeze before every pre-release. During this "
-"period of time, no commits may be sent unless they are signed off by the "
-"release manager."
-msgstr "Përpara çdo hedhjeje paraprake në qarkullim ka një ngrirje të shkurtër dyditore të kodit. Gjatë kësaj periudhe kohore, nuk mund të dërgohen parashtrime kodi, veç në qofshin të lejuara nga përgjegjësi i hedhjes në qarkullim."
-
-#: about/releasemodel.php:249
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze which means from "
-"there on no code changes are allowed, unless they are signed off by the "
-"release manager. These should usually only be fixes to blocking or release-"
-"critical bugs. Translations are still allowed to go in."
-msgstr "Me Xfce X.Ypre3, krejt përbërësit bazë hyjnë në fazë ngrirjeje kodi, që do të thotë se tani e tutje nuk lejohen ndryshime kodi, veç në mos qofshin të lejuara nga përgjegjësi i hedhjes në qarkullim. Zakonisht këto duhet të jenë vetëm ndreqje të metash bllokuese ose kritike për hedhjen në qarkullim. Përkthimet lejohen ende të parashtrohen."
-
-#: about/releasemodel.php:252
-msgid "Code Freeze Phase (2+ weeks)"
-msgstr "Faza e Ngrirjes së Kodit (2+ javë)"
-
-#: about/releasemodel.php:255
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze. This phase is "
-"illustrated in the following figure and is explained in more detail in this "
-"section."
-msgstr "Me Xfce X.Ypre3, krejt përbërësit bazë hyjnë në fazë ngrirjeje kodi. Kjo fazë ilustrohet në figurën vijuese dhe shpjegohet më hollësisht në këtë ndarje."
-
-#: about/releasemodel.php:259
-msgid ""
-"The code freeze and its exceptions are supported by commit hooks. There is "
-"an update hook which doesn't allow any changes to master unless they are "
-"signed off by the release manager. "
-msgstr "Ngrirja e kodit dhe përjashtime prej saj mbulohen përmes hook-e depozitimesh. Ka një <em>hook</em> përditësimesh që nuk lejon çfarëdo ndryshimesh te dega <em>master</em>, veç në qofshin të nënshkruara nga përgjegjësi i hedhjes në qarkullim. "
-
-#: about/releasemodel.php:263
-msgid "Tagging and Branching for Releases"
-msgstr "Caktim Etiketash dhe Degësh për Hedhjen Në Qarkullim"
-
-#: about/releasemodel.php:266
-msgid "Bugfixes/Changes"
-msgstr "Ndreqje të metash/Ndryshime"
-
-#: about/releasemodel.php:269
-msgid ""
-"If a core component requires fixes or changes during code freeze, the "
-"maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
-"DISCUSSION//) to which he or she then commits the fixes. Refer to the "
-"section Code Freeze Exceptions if these are release-critical changes or "
-"fixes for blocking bugs."
-msgstr "Nëse një përbërës bazë lyp ndreqje ose ndryshime gjatë fazës së ngrirjes së kodit, mirëmbajtësit i kërkohet të krijojë një degë të re të quajtur ELS (//EMËR I HAPUR PËR DISKUTIM//) te e cila ai ose ajo depoziton ndreqjet. Shihni ndarjen Përjashtime Nga Ngrirje Kodi, nëse bëhet fjalë për ndryshime kritike për hedhjen në qarkullim ose ndreqje të metash që bllokojnë hedhjet në qarkullim."
-
-#: about/releasemodel.php:273
-msgid ""
-"The ELS branch only lives for a short period of time. It is merged into "
-"master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
-" after the final release. Only bugfixes are allowed in this branch."
-msgstr "Dega ELS rron vetëm për një periudhë të shkurtër kohore. Pas hedhjes përfundimtare në qarkullim, ajo përzihet me degën kryesore dhe me përbërësit e degës së qëndrueshme (p.sh., xfwm4-4.8 ose thunar-1.2). Në këtë degë lejohen vetëm ndreqje të metash."
-
-#: about/releasemodel.php:276
-msgid "Code Freeze Exceptions"
-msgstr "Përjashtime Nga Ngrirje Kodi"
-
-#: about/releasemodel.php:278
-msgid "Blocking Bugs"
-msgstr "Të meta Bllokuese"
-
-#: about/releasemodel.php:281
-msgid ""
-"Certain bugs may delay the final release if they are considered blockers. "
-"This is the case under any of the following circumstances:"
-msgstr "Disa të meta mund të shkaktojnë vonesa në hedhjen përfundimtare në qarkullim, nëse konsiderohen si bllokuese. Këtu hyjnë rastet nën cilëndo nga rrethanat vijuese:"
-
-#: about/releasemodel.php:285
-msgid "it crashes a core application"
-msgstr "vithis një aplikacion bazë"
-
-#: about/releasemodel.php:286
-msgid "it causes data loss"
-msgstr "shkakton humbje të dhënash"
-
-#: about/releasemodel.php:287
-msgid "it causes an ever-growing memory leak"
-msgstr "shkakton rrjedhje kujtese gjithnjë e më të madhe"
-
-#: about/releasemodel.php:288
-msgid "it locks the entire desktop GUI"
-msgstr "bllokon krejt NGP-në desktop"
-
-#: about/releasemodel.php:292
-msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "Një e metë s’e ndal dot një hedhje në qarkullim, nëse ajo plotëson kushtin vijues:"
-
-#: about/releasemodel.php:296
-msgid ""
-"the hardware or architecture on which the bug occurs is exotic and/or "
-"there's no way for developers to reproduce the bug"
-msgstr "hardware-i ose arkitektura në të cilën shfaqet e meta është ekzotike dhe/ose nuk ka mundësi që zhvilluesit të riprodhojnë të metën"
-
-#: about/releasemodel.php:300
-msgid ""
-"Fixes for these bugs are allowed to be applied during code freeze if, and "
-"only if they are signed off by the release manager."
-msgstr "Ndreqjet për këto të meta lejohet të zbatohen gjatë fazës së ngrirjes së kodit, vetëm nëse lejohen nga përgjegjësi i hedhjes në qarkullim."
-
-#: about/releasemodel.php:303
-msgid "Release-Critical Changes"
-msgstr "Ndryshime Kritike për Hedhjen në Qarkullim"
-
-#: about/releasemodel.php:306
-msgid ""
-"Some changes may be of big concern with regards to the quality of the "
-"release. They are allowed to go in if, and only if they are signed off by "
-"the release manager."
-msgstr "Disa ndryshime mund të jenë problem i madh lidhur me cilësinë e hedhjes në qarkullim. Ato lejohet të përfshihen vetëm nëse lejohen nga përgjegjësi i hedhjes në qarkullim."
-
-#: about/releasemodel.php:309
-msgid "Releasing"
-msgstr "Hedhje Në Qarkullim"
-
-#: about/releasemodel.php:312
-msgid ""
-"For the final release (Xfce X.Y), all core components are tagged (twice, "
-"once with their own version and once with xfce-X.Y.0) and branched for the "
-"maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
-"branch is merged into master (where the development for the next release "
-"takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "Për hedhjen përfundimtare në qarkullim (Xfce X.Y), krejt përbërësit etiketohen (dy herë, një me versionin e vet dhe një me xfce-X.Y.0) dhe degëzohen për ciklin e mirëmbajtjes (p.sh., si thunar-1.2 ose xfwm4-4.8). Pas kësaj, dega ELS përzihet te dega kryesore (ku kryhet zhvillimi për hedhjen pasuese në qarkullim) dhe te, për shembull, thunar-1.2 ose xfwm4-4.8."
-
-#: about/releasemodel.php:315
-msgid "Maintenance Process"
-msgstr "Proces Mirëmbajtjeje"
-
-#: about/releasemodel.php:318
-msgid ""
-"After the release of a final version, bugfixes and translation updates will "
-"be committed to a stable component-specific branch (like thunar-1.2 or "
-"xfwm4-4.8). Maintenance releases of individual components are not required "
-"to be synchronized."
-msgstr "Pas hedhjes në qarkullim të versionit përfundimtar, ndreqjet e të metave dhe përditësimet e përkthimeve do të depozitohen në një degë të qëndrueshme specifike e përbërësit (b.f., thunar-1.2 ose xfwm4-4.8). Hedhjet në qarkullim mirëmbajtje të përbërësve individualë s’është e domosdoshme të jenë të njëkohësuara."
-
-#: about/releasemodel.php:321
-msgid "Maintenance Releases"
-msgstr "Versione Mirëmbajtje"
-
-#: about/releasemodel.php:324
-msgid ""
-"There may be no API/ABI changes in maintenance releases compared to the "
-"corresponding final release of the Xfce core desktop. They also must follow "
-"the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
-"thunar-1.2.4). No new features or strings may be introduced in these "
-"releases."
-msgstr "Te hedhjet në qarkullim mirëmbajtje s’mund të ketë ndryshime API/ABI, krahasuar me hedhjen përfundimtare përgjegjëse në qarkullim të desktopit bazë Xfce. Ato duhet edhe të ndjekin formatin X.Y.Z për versionet, ku Y është një numër çift (p.sh. xfwm4-4.8.4 ose thunar-1.2.4). Në këto hedhjen në qarkullim s’mund të sillen veçori ose vargje të reja."
-
-#: about/releasemodel.php:328
-msgid "Authors"
-msgstr "Autorë"
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
@@ -3411,69 +2825,9 @@ msgstr "Si parazgjedhje, krejt shtyllat e kreut të dritareve/dialogëve të Xfc
 msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
 msgstr "xfce-appearance-settings - Parapëlqim për aktivizim të GtkHeaderBar-it"
 
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "Faqe të Afërta"
-
-#: about/nav.php:4
-msgid "4.20 Tour"
-msgstr "Tur për 4.20-n"
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr "tur pamor rreth veçorish të reja në hedhjet në qarkullim të rëndësishme së fundi"
-
-#: about/nav.php:9
-msgid "4.18 Tour"
-msgstr "Tur për 4,18-n"
-
-#: about/nav.php:10
-msgid "4.16 Tour"
-msgstr "Tur për 4.16"
-
-#: about/nav.php:11
-msgid "4.14 Tour"
-msgstr "Tur për 4.14"
-
-#: about/nav.php:12
-msgid "4.12 Tour"
-msgstr "Tur i 4.12-s"
-
-#: about/nav.php:13
-msgid "4.10 Tour"
-msgstr "Tur i 4.10-s"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "Tur i 4.8-s"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "Tur i 4.6-s"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "Tur i 4.4-s"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "njoftime për hedhjet në qarkullim"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:63
+#: about/screenshots.php:1 about/nav.php:25 frontpage.php:63
 msgid "Screenshots"
 msgstr "Foto ekrani"
-
-#: about/nav.php:26 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr "shihni shembuj desktopi Xfce"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "listë e krejt pjesëmarrësve"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "rregullat e hedhjes në qarkullim të Xfce-së për modulet bazë"
 
 #: about/screenshots.php:20
 msgid "Some screenshots of Xfce, ordered by version."
@@ -3881,7 +3235,7 @@ msgid ""
 "href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>number "
 "of integration test cases</a> will be used in order to keep performance on "
 "the current level in the future."
-msgstr ""
+msgstr "Do të përdoret një <a href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>numër provash integrimi</a>, për ta mbajtur funksionimin në shkallën e tanishme në të ardhmen."
 
 #: about/tour.php:119 about/tour420.php:119
 msgid ""
@@ -3955,7 +3309,7 @@ msgstr "thunar - dosje të zgjerueshme"
 msgid ""
 "A shortcut now can be used to toggle between split-view panes, and the "
 "focused pane now uses different coloring."
-msgstr ""
+msgstr "Tanimë mund të përdore një shkurtore për të shfaqur/fshehur kuadrate me pamje të ndarë dhe kuadrati që ka fokusin tanimë përdor ngjyrosje tjetër."
 
 #: about/tour.php:141 about/tour420.php:141
 msgid "thunar - split view"
@@ -3965,7 +3319,7 @@ msgstr "thunar - pamje e ndarë"
 msgid ""
 "A dialog will now ask for confirmation when closing a split-pane with "
 "multiple tabs."
-msgstr ""
+msgstr "Tanimë do të shfaqet një dialog për të kërkuar ripohimin, kur mbyllet një kuadrat me pamje të ndarë me shumë skeda."
 
 #: about/tour.php:148 about/tour420.php:148
 msgid ""
@@ -4176,7 +3530,7 @@ msgstr "Për tema ikonash që dihet se janë jo të plota, tani do të shfaqet n
 
 #: about/tour.php:219 about/tour420.php:219
 msgid "The usage of client side decorations is opt-in now, not opt-out."
-msgstr ""
+msgstr "Tanimë duhet zgjedhur përdorimi i zbukurimeve më anë të klientit, jo lënia jashtë tij (mospërdorimi)"
 
 #: about/tour.php:220 about/tour420.php:220
 msgid ""
@@ -4227,7 +3581,7 @@ msgstr "Rregullime Miu"
 msgid ""
 "A checkbox was added to toggle between adaptive and flat mouse accel "
 "profile."
-msgstr ""
+msgstr "U shtua një kutizë për të kaluar nga profil që përshtatet përshpejtimi miu në një të sheshtë dhe anasjelltas."
 
 #: about/tour.php:232 about/tour420.php:232
 msgid ""
@@ -4417,6 +3771,62 @@ msgstr ""
 #: about/tour.php:293 about/tour420.php:293
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
 msgstr "Temë e përdorur: “Greybird-dark”. Temë ikonash e përdorur: “elementary Xfce dark”."
+
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "Faqe të Afërta"
+
+#: about/nav.php:4
+msgid "4.20 Tour"
+msgstr "Tur për 4.20-n"
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr "tur pamor rreth veçorish të reja në hedhjet në qarkullim të rëndësishme së fundi"
+
+#: about/nav.php:9
+msgid "4.18 Tour"
+msgstr "Tur për 4,18-n"
+
+#: about/nav.php:10
+msgid "4.16 Tour"
+msgstr "Tur për 4.16"
+
+#: about/nav.php:11
+msgid "4.14 Tour"
+msgstr "Tur për 4.14"
+
+#: about/nav.php:12
+msgid "4.12 Tour"
+msgstr "Tur i 4.12-s"
+
+#: about/nav.php:13
+msgid "4.10 Tour"
+msgstr "Tur i 4.10-s"
+
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "Tur i 4.8-s"
+
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "Tur i 4.6-s"
+
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "Tur i 4.4-s"
+
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "njoftime për hedhjet në qarkullim"
+
+#: about/nav.php:26 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr "shihni shembuj desktopi Xfce"
+
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "listë e krejt pjesëmarrësve"
 
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
@@ -4789,6 +4199,10 @@ msgid ""
 "desktop. Some projects have their own project pages to provide additional "
 "information."
 msgstr "Projekti Xfce përmban disa projekte ndarazi, për çdo pjesë të desktopit. Disa projekte kanë faqet e tyre të projektit, për të dhënë informacion shtesë."
+
+#: projects/index.php:15
+msgid "Core Components"
+msgstr "Përbërësit Bazë"
 
 #: projects/index.php:22
 msgid ""
