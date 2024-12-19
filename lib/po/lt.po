@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2024-12-15 12:53+0100\n"
+"POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Moo, 2023-2024\n"
 "Language-Team: Lithuanian (http://app.transifex.com/xfce/xfce-www/language/lt/)\n"
@@ -48,592 +48,6 @@ msgstr "Nuolatinė nuoroda"
 #: about/news.php:91
 msgid "No news articles found."
 msgstr "Nėra naujų straipsnių."
-
-#: about/releasemodel.php:3 about/nav.php:35
-msgid "Release Model"
-msgstr "Išleidimo modelis"
-
-#: about/releasemodel.php:10
-msgid ""
-"In the past the same questions and discussions have come up over and over "
-"again whenever a new release was in sight, like:"
-msgstr "Praeityje buvo daug klausimų ir diskusijų apie tai, kaskart išėjus naujai versijai kyla tie patys klausimai:"
-
-#: about/releasemodel.php:14
-msgid "What are the core components of Xfce?"
-msgstr "Kurie komponentai priklauso Xfce branduoliui?"
-
-#: about/releasemodel.php:15
-msgid ""
-"How often do we want to release and in what fashion (time-based, feature-"
-"based)?"
-msgstr "Kaip dažnai mes norime išleisti naują versiją, kuo remiantis(pagal laiką, pagal naujas galimybes)?"
-
-#: about/releasemodel.php:16
-msgid "Who's in charge of the release process?"
-msgstr "Kas atsakingas už išleidimo procesą?"
-
-#: about/releasemodel.php:17
-msgid "What dependency versions do we depend on?"
-msgstr "Nuo kokių priklausomybių versijų mes priklausomi?"
-
-#: about/releasemodel.php:18
-msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "Kada būna galimybių-užšaldymas, vertimo-užšaldymas, kodo-užšaldymas ir panašūs?"
-
-#: about/releasemodel.php:19
-msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Kiek turėtų būti peržiūros leidimų ir kaip juos reiktų pavadinti?"
-
-#: about/releasemodel.php:20
-msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "Ką mes naudojame kaip SVN leidimų versijas su GIT?"
-
-#: about/releasemodel.php:24
-msgid ""
-"This document intends to answer these questions and aims at defining a "
-"policy that we can refer to when planning releases."
-msgstr "Šis dokumentas turėtų atsakyti į šiuos klausimus."
-
-#: about/releasemodel.php:27
-msgid "The Xfce Core Desktop"
-msgstr "Xfce branduolys"
-
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "Branduolio komponentai"
-
-#: about/releasemodel.php:51
-msgid ""
-"All core components of the Xfce desktop must adhere to the release policy "
-"defined in this document."
-msgstr "Visi Xfce branduolio komponentai turi būti čia, taip kaip aprašyta leidimo politikos dokumente."
-
-#: about/releasemodel.php:54
-msgid "Essential Dependencies"
-msgstr "Pagrindinės priklausomybės"
-
-#: about/releasemodel.php:61
-msgid "The Release Cycle"
-msgstr "Išleidimo ciklas"
-
-#: about/releasemodel.php:64
-msgid ""
-"The release cycle involves a short planning phase, a development phase with "
-"development releases and a release phase, eventually leading to a new stable"
-" release of the entire Xfce core desktop. In parallel to these phases, a "
-"maintenance process of the current stable release will continue. During this"
-" phase, bugfix releases and security fixes will be released for the stable "
-"version of Xfce."
-msgstr "Išleidimo ciklas įtraukia trumpą planavimo fazę, kūrimo fazę su kūrimo leidimais ir išleidimo fazę, galiausiai vedančią į naują stabilų viso Xfce branduolio leidimą. Kartu su šiomis fazėmis stabilių leidimų priežiūra nenutrūksta ir tęsiama. Šios fazės metu, stabiliai versijai bus išleisti klaidų pataisymai ir saugumo pataisos."
-
-#: about/releasemodel.php:68
-msgid ""
-"Below you can see a graphical timeline of an example release cycle and "
-"maintenance process for Xfce 4.8 with three components: Thunar, exo and "
-"xfwm4."
-msgstr "Žemiau galite peržiūrėti grafinę laiko liniją, tai Xfce 4.8 su trimis elementais(Thunar, exo ir xfwm4) išleidimo ciklo ir priežiūros pavyzdys."
-
-#: about/releasemodel.php:72
-msgid "Example Release Cycle"
-msgstr "Pavyzdinis išleidimo ciklas"
-
-#: about/releasemodel.php:75
-msgid "Planning Phase (2(+2) Weeks)"
-msgstr "Planavimo fazė (2(+2) savaitės)"
-
-#: about/releasemodel.php:78
-msgid ""
-"This phase marks the beginning of the release cycle and is used to decide "
-"which dependencies to use and also to appoint the release team for the cycle"
-" (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
-"weeks)."
-msgstr "Ši fazė žymi išleidimo ciklo pradžią ir naudojama nuspręsti, kurios priklausomybės bus naudojamos, taipogi paskirti išleidimo komandą šiam ciklui (pirmos 2 savaitės). Tai galiausiai veda į priklausomybių užšaldymą (po 4 savaičių)."
-
-#: about/releasemodel.php:81
-msgid "Appointing the Release Team"
-msgstr "Išleidimo komandos paskyrimas"
-
-#: about/releasemodel.php:84
-msgid ""
-"At the beginning of the planning phase there is a (formal or informal) "
-"voting for the release team. The release team supervises development and "
-"maintenance releases during the release cycle. Its main purpose is to "
-"perform and double-check the Xfce core desktop releases in the release phase"
-" at the very end of the cycle. This is explained in more detail in the "
-"Release Team section of this document."
-msgstr "Planavimo fazės pradžioje būna balsavimas (formalus arba ne) dėl išleidimo komandos. Išleidimo komanda prižiūri kūrimo ir priežiūros leidimus, per visą išleidimo ciklą. Pagrindinis to tikslas yra atlikti dvigubą Xfce branduolio leidimo patikrą, išleidimo fazėje ir pačioje ciklo pabaigoje. Plačiau apie tai parašyta šio dokumento išleidimo komandos sekcijoje."
-
-#: about/releasemodel.php:87
-msgid "Release Team"
-msgstr "Išleidimo komanda"
-
-#: about/releasemodel.php:90
-msgid ""
-"The release team consists of at least two people: one release manager who "
-"can be assisted by others to actually perform the release (tagging, creation"
-" of tarballs, writing release notes and announcements) and another person "
-"for quality assurance (checking if all components compile, tags are in "
-"place, release notes are up to date and so on). This is defined in more "
-"detail below."
-msgstr "Išleidimo komandą sudaro bent du žmonės: vienas leidimo prižiūrėtojas, kuriam padės ir kiti. Kuris ir atliks tikrąjį leidimą (žymėjimas, tarball kūrimas, leidimo pranešimų rašymas ir pranešimai) ir kitas žmogus kuris užtikrins kokybę (patikrins ar visi komponentai sukompiliuojami, ar žymės yra vietoje, ar išleidimo pastabos yra nepasenę ir taip toliau). Žemiau aprašyta plačiau."
-
-#: about/releasemodel.php:94
-msgid "These are the release team roles and their responsibilities:"
-msgstr "Išleidimo komandos vaidmenys ir jų atsakomybės:"
-
-#: about/releasemodel.php:97
-msgid "Release Manager"
-msgstr "Leidimo prižiūrėtojas"
-
-#: about/releasemodel.php:100
-msgid "Organization of the release cycle"
-msgstr "Išleidimo ciklų organizavimas"
-
-#: about/releasemodel.php:101
-msgid ""
-"Announce deadlines to developers and translators (repeatedly and early "
-"enough)"
-msgstr "Pranešimas apie paskutinius terminus (pakartotinai ir iš anksto)"
-
-#: about/releasemodel.php:102
-msgid "Overseeing of maintainance and development releases"
-msgstr "Priežiūros ir kūrimo leidimo peržiūrėjimas"
-
-#: about/releasemodel.php:103
-msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "Žymėjimas Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 ir Xfce-X.Y"
-
-#: about/releasemodel.php:104
-msgid "Generate tarballs from tags (possibly automated)"
-msgstr "Tarballs generavimas (greičiausiai automatinis)"
-
-#: about/releasemodel.php:105
-msgid "Write release notes"
-msgstr "Leidimo pastabų rašymas"
-
-#: about/releasemodel.php:106
-msgid "Write release announcements"
-msgstr "Leidimo pranešimų rašymas"
-
-#: about/releasemodel.php:107
-msgid "Create Bugzilla tags"
-msgstr "Žymių Bugzilla puslapyje kūrimas"
-
-#: about/releasemodel.php:108
-msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "Kodo užšaldymo fazėje pataisų patvirtinimas"
-
-#: about/releasemodel.php:111
-msgid "Release Assistant(s)"
-msgstr "Leidimo pagalbininkas(-ai)"
-
-#: about/releasemodel.php:114
-msgid "Update the website(s)"
-msgstr "Svetainių atnaujinimas"
-
-#: about/releasemodel.php:115
-msgid "Help the release manager with his tasks"
-msgstr "Pagalba leidimo prižiūrėtojui"
-
-#: about/releasemodel.php:118
-msgid "QA Official"
-msgstr "Oficialus kokybės užtikrintojas"
-
-#: about/releasemodel.php:121
-msgid ""
-"Have an eye on libtool versions of maintanance and development releases"
-msgstr "Libtool priežiūros ir kūrimo leidimų stebėjimas"
-
-#: about/releasemodel.php:122
-msgid "Remind maintainers about missing NEWS updates"
-msgstr "Priminimas prižiūrėtojams apie trūkstamus NAUJIENŲ atnaujinimus"
-
-#: about/releasemodel.php:123
-msgid "Double-check the generated tarballs"
-msgstr "Pakartotinis sugeneruotų tarballs patikrinimas"
-
-#: about/releasemodel.php:124
-msgid "Proof-read release announcements"
-msgstr "Leidimo pranešimų klaidų taisymas"
-
-#: about/releasemodel.php:127
-msgid "Individual Maintainers"
-msgstr "Individualūs prižiūrėtojai"
-
-#: about/releasemodel.php:130
-msgid ""
-"Create component-specific tags for their maintainance and development "
-"releases"
-msgstr "Priežiūros ir kūrimo leidimų žymių kūrimas"
-
-#: about/releasemodel.php:131
-msgid "Generate tarballs for their maintainance and development releases"
-msgstr "Kūrimo ir priežiūros leidimų tarballs generavimas"
-
-#: about/releasemodel.php:132
-msgid "Write ChangeLogs and update NEWS files"
-msgstr "Keitimo žurnalų ir NAUJIENŲ failo atnaujinimas"
-
-#: about/releasemodel.php:133
-msgid "Write component-specific release announcements"
-msgstr "Konkrečių komponentų išleidimo pranešimų rašymas"
-
-#: about/releasemodel.php:134
-msgid "Create Bugzilla tags for their releases"
-msgstr "Bugzilla žymių sukūrimas"
-
-#: about/releasemodel.php:135
-msgid "Make sure API documentation is up to date"
-msgstr "Įsitikinimas jog API dokumentacija yra naujausia"
-
-#: about/releasemodel.php:138
-msgid "Dependency Freeze"
-msgstr "Priklausomybių užšaldymas"
-
-#: about/releasemodel.php:141
-msgid ""
-"During the first 2 weeks of the planning phase each maintainer is required "
-"to "
-msgstr "Per pirmas 2 planavimo fazės savaites, kiekvienas prižiūrėtojas turi:"
-
-#: about/releasemodel.php:145
-msgid "List the features he wants to implement in the release cycle"
-msgstr "Padaryti sąrašą galimybių kurias jis nori įtraukti į išleidimo ciklą"
-
-#: about/releasemodel.php:146
-msgid "Investigate which dependencies are implied by that"
-msgstr "Ištirti kurių priklausomybių tam reikia"
-
-#: about/releasemodel.php:150
-msgid ""
-"At the end of this, a decision is made on which dependencies the next stable"
-" release of the Xfce core desktop will depend. In particular this includes "
-"the minimum required versions for all essential dependencies of the Xfce "
-"core desktop."
-msgstr "Pabaigoje, priimamas sprendimas kokios bus naujos stabilios Xfce branduolio versijos priklausomybės. Iš esmės tai minimalios būtinos versijos visoms pagrindinėms priklausomybėms."
-
-#: about/releasemodel.php:154
-msgid ""
-"Maintainers who were not available during the first 2 weeks of the planning "
-"phase have the chance to request dependency changes in the 2 weeks after "
-"that. "
-msgstr "Prižiūrėtojai kurie nebuvo prieinami per pirmas 2 planavimo fazės savaites turi šansą prašyti priklausomybių pakeitimo per sekančias 2 savaites po to."
-
-#: about/releasemodel.php:158
-msgid ""
-"At the end of these 4 weeks, all components enter dependency freeze which "
-"means they may not change the dependencies (and their versions) they depend "
-"on. Optional dependencies for are still allowed to be added though."
-msgstr "Po 4 savaičių, visos komponentų priklausomybės užšaldomos, tai reiškia jog jos negali keisti savo priklausomybių(ir jų versijų). Vis dar galima pridėti nebūtinas priklausomybes."
-
-#: about/releasemodel.php:161
-msgid "Informing the Community"
-msgstr "Pranešimas bendruomenei"
-
-#: about/releasemodel.php:164
-msgid ""
-"At the very end of the planning phase, a mail with planned features and "
-"dependencies for all components of the Xfce core desktop is sent to the "
-"xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "Planavimo fazės pabaigoje, laiškas su visomis planuojamomis galimybėmis ir priklausomybėmis nusiunčiamas į xfce4-dev@xfce.org ir xfce@xfce.org pašto konferencijas."
-
-#: about/releasemodel.php:167
-msgid "Development Phase (5 Months)"
-msgstr "Kūrimo fazė (5 mėnesiai)"
-
-#: about/releasemodel.php:170
-msgid ""
-"During the development phase every maintainer is free to do maintenance and "
-"development releases of his components independently of the rest of Xfce."
-msgstr "Kūrimo fazėje kiekvienas prižiūrėtojas gali kurti priežiūros ir kūrimo leidimus neatsižvelgiant į likusią Xfce."
-
-#: about/releasemodel.php:173
-msgid "Development Releases"
-msgstr "Kūrimo leidimai"
-
-#: about/releasemodel.php:176
-msgid ""
-"Development releases usually give a feature preview for the next stable "
-"release. They must follow the X.Y.Z versioning format, where Y is an odd "
-"number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "Kūrimo leidimai paprastai suteikia naujų galimybių (kurios bus kitame stabiliame leidime) peržiūrą. Jie turi atitikti tokį versijų formatą X.Y.Z, Y yra nelyginis skaičius (pvz. xfwm4-4.7.3 ar thunar-1.3.10)."
-
-#: about/releasemodel.php:180
-msgid ""
-"Maintainers are encouraged to do development releases for new features they "
-"want to make available to others. Frequent development releases can act as a"
-" replacement of the SVN revision versioning we had in the past. If component"
-" A depends on a new feature in component B, A may only be released if there "
-"is a development release of B shipping this feature. For this to work, "
-"libtool versions must be updated properly with every development release."
-msgstr "Prižiūrėtojai skatinami daryti kūrimo leidimus naujoms galimybėms. Dažni kūrimo ciklai gali būti pakaita SVN leidimų versijoms, kurias turėjome anksčiau. Jei komponentas A priklauso nuo naujos galimybės komponente B, A gali būti išleistas tik tada jei yra išleistas B kūrimo leidimas. Tam kad tai veiktų, libtool versijos turi būti tinkamai atnaujinamos su kiekvienu kūrimo leidimu."
-
-#: about/releasemodel.php:184
-msgid ""
-"Care has to be taken of the master branch of each component. The master "
-"branch should always remain in a release-ready state. New features should be"
-" developed in branches until they are ready (as in: compiling and the "
-"component will remain functional even after merging the feature(s) into the "
-"master branch), to lower the risk of delaying the final release of the "
-"entire Xfce core desktop."
-msgstr "Daugiausia dėmesio turi būti skiriama kiekvieno komponento „master“ šakai. „Master“ šaka visada turi būti paruošta išleidimui. Naujos galimybės turi būti kuriamos šakose, tol kol jos paruošiamos naudoti (tai yra sukompiliuojamos ir komponentas liks funkcionaliu net ir įliejus naujas galimybes į „master“ šaką), tai daroma norint apsidrausti nuo galutinio išleidimo vėlavimo."
-
-#: about/releasemodel.php:188
-msgid ""
-"New features breaking APIs or other core components should be communicated. "
-"Maintainers are suggested to prepare other components for these features in "
-"a separate branch before including the features in a new development "
-"release. That way the other components retain their release-ready state."
-msgstr "Apie naujas galimybes, kurios gadina API ar kitus komponentus turi būti pranešta. Prižiūrėtojams patariama paruošti kitus komponentus šioms galimybėms atskirose šakose, prieš įtraukiant naujas galimybes į naują kūrimo leidimą. Taip kiti komponentai išlaikys savo „paruošta leidimui“ būseną."
-
-#: about/releasemodel.php:192
-msgid "This is how the basic development workflow looks like:"
-msgstr "Štai kaip veikia pagrindinis kūrimo procesas:"
-
-#: about/releasemodel.php:196
-msgid "Development Workflow"
-msgstr "Kūrimo procesas"
-
-#: about/releasemodel.php:199
-msgid "Release Phase (10+ Weeks)"
-msgstr "Išleidimo fazė (10+ savaičių)"
-
-#: about/releasemodel.php:202
-msgid ""
-"During the release phase, there will be three pre-releases and one final "
-"release:"
-msgstr "Per išleidimo fazę, bus trys peržiūros leidimai ir tada paskutinis leidimas:"
-
-#: about/releasemodel.php:206
-msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1 (po  0  savaičių, galimybių užšaldymas),"
-
-#: about/releasemodel.php:207
-msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2 (po  4  savaičių, vertimo užšaldymas) ir"
-
-#: about/releasemodel.php:208
-msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (po  8  savaičių, kodo užšaldymas)"
-
-#: about/releasemodel.php:209
-msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y     (po 10+ savaičių)"
-
-#: about/releasemodel.php:213
-msgid ""
-"where Y has to be an even number. Each of these releases has to include the "
-"latest development releases of all components (or stable, if there were no "
-"development releases since the last stable release) of the Xfce core "
-"desktop. The version numbers of these components may (even have to) differ "
-"from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
-"version 4.7.17 and Thunar could have 1.1.9."
-msgstr "kur Y turi būti lyginis skaičius. Kiekvienas iš šių leidimų turi turėti paskutines visų komponentų kūrimo versijas (arba stabilias, jei po stabilaus leidimo neišleista nei viena kūrimo versija). Šių komponentų versijų numeriai gali (netgi privalo) skirtis nuo pavadinimo schemos, esančios aukščiau. pvz. Xfce 4.8.0pre2, xfwm4 gali turėti versiją 4.7.17 ir Thunar gali turėti 1.1.9."
-
-#: about/releasemodel.php:217
-msgid ""
-"This means that maintainers don't necessarily have to release new versions "
-"of their components along with one of the pre-releases. The release team "
-"always picks the latest available development or stable release of each "
-"component for pre-releases and the final release."
-msgstr "Tai reiškia jog prižiūrėtojai neprivalo išleisti naujos savo komponento versijos su kiekvienu peržiūros leidimu. Leidimo komanda visada paima naujausią prieinamą kūrimo ar stabilų leidimą."
-
-#: about/releasemodel.php:221
-msgid ""
-"The end of this phase marks a new stable release of the Xfce core desktop "
-"and therewith the start of a new release cycle."
-msgstr "Šios fazės pabaiga reiškia naują stabilų Xfce leidimą ir naujo išleidimo ciklo pradžią."
-
-#: about/releasemodel.php:224
-msgid "Freezing before Releases"
-msgstr "Užšaldymas prieš leidimus"
-
-#: about/releasemodel.php:227
-msgid "There are different freeze types before releases."
-msgstr "Yra keli užšaldymo tipai."
-
-#: about/releasemodel.php:230
-msgid "Feature Freeze"
-msgstr "Galimybių užšaldymas"
-
-#: about/releasemodel.php:233
-msgid ""
-"With Xfce X.Ypre1, all core components enter feature freeze which means from"
-" there on only translations and bugfixes are allowed to go into the master "
-"branch."
-msgstr "Su Xfce X.Ypre1 visi branduolio komponentai patenka į galimybių užšaldymo stadiją, tai reiškia jog nuo šiol bus atnaujinami vertimai ir taisomos klaidos."
-
-#: about/releasemodel.php:236
-msgid "String/UI Freeze"
-msgstr "Vertimo/UI užšaldymas"
-
-#: about/releasemodel.php:239
-msgid ""
-"With Xfce X.Ypre2, all core components enter string/UI freeze which means "
-"from there on no strings which affect translations may be changed. Same goes"
-" for the user interface which may not be changed after this point."
-msgstr "Su Xfce X.Ypre2 visi branduolio komponentai patenka į vertimo/UI užšaldymo stadiją, tai reiškia, jog nuo šiol negali būti keičiamos eilutės, kurios paveiktų vertimą. Tas pats galioja naudotojo sąsajai, kurios nuo šiol negalima keisti."
-
-#: about/releasemodel.php:242
-msgid "Code Freeze"
-msgstr "Kodo užšaldymas"
-
-#: about/releasemodel.php:245
-msgid ""
-"There is a short 2-days code freeze before every pre-release. During this "
-"period of time, no commits may be sent unless they are signed off by the "
-"release manager."
-msgstr "Tai trumpas 2 dienų kodo užšaldymas, prieš kiekvieną peržiūros leidimą. Per šį laikotarpį, negali būti siunčiami jokie patobulinimai, nebent juos palaimino leidimo prižiūrėtojas."
-
-#: about/releasemodel.php:249
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze which means from "
-"there on no code changes are allowed, unless they are signed off by the "
-"release manager. These should usually only be fixes to blocking or release-"
-"critical bugs. Translations are still allowed to go in."
-msgstr "Su Xfce X.Ypre3, visi branduolio komponentai patenka į kodo užšaldymo stadiją, tai reiškia jog nuo šiol kodas negali būti keičiamas, nebent tai leido leidimo prižiūrėtojas. Paprastai tai turėtų būti tik pataisymai. Vertimai vis dar leidžiami."
-
-#: about/releasemodel.php:252
-msgid "Code Freeze Phase (2+ weeks)"
-msgstr "Kodo užšaldymo fazė (2+ savaitės)"
-
-#: about/releasemodel.php:255
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze. This phase is "
-"illustrated in the following figure and is explained in more detail in this "
-"section."
-msgstr "Su Xfce X.Ypre3 visi branduolio komponentai patenka į kodo užšaldymo fazę. Ši fazė iliustruota sekančiame paveiksle ir paaiškinta šiame skyriuje."
-
-#: about/releasemodel.php:259
-msgid ""
-"The code freeze and its exceptions are supported by commit hooks. There is "
-"an update hook which doesn't allow any changes to master unless they are "
-"signed off by the release manager. "
-msgstr "Kodo užšaldymas ir jo išimtys yra palaikomos siuntimo „hooks“. Yra atnaujinimo „hook“ kuris neleidžia jokių keitimų „master“ šakoje nebent juos leido leidimo prižiūrėtojas."
-
-#: about/releasemodel.php:263
-msgid "Tagging and Branching for Releases"
-msgstr "Leidimų žymėjimas ir šakų kūrimas"
-
-#: about/releasemodel.php:266
-msgid "Bugfixes/Changes"
-msgstr "Klaidų taisymas/Pakeitimai"
-
-#: about/releasemodel.php:269
-msgid ""
-"If a core component requires fixes or changes during code freeze, the "
-"maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
-"DISCUSSION//) to which he or she then commits the fixes. Refer to the "
-"section Code Freeze Exceptions if these are release-critical changes or "
-"fixes for blocking bugs."
-msgstr "Jei branduolio komponentui reikia pataisymų ar keitimų, kodo užšaldymo fazėje, prižiūrėtojas turi sukurti naują šaką pavadintą ELS(//PAVADINIMAS ATVIRAS DISKUSIJOMS//) į kurį jis siunčia reikiamus pataisymus. Remiantis kodo užšaldymo išimčių sekcija šie keitimai turi būti būtini."
-
-#: about/releasemodel.php:273
-msgid ""
-"The ELS branch only lives for a short period of time. It is merged into "
-"master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
-" after the final release. Only bugfixes are allowed in this branch."
-msgstr "ELS šaka gyvena trumpą laiko tarpą. Ji sujungiama su „master“ ir su komponentų stabiliomis šakomis (pvz. xfwm4-4.8 ar thunar-1.2) iškart po paskutinio leidimo. Šioje šakoje leidžiami tik klaidų pataisymai."
-
-#: about/releasemodel.php:276
-msgid "Code Freeze Exceptions"
-msgstr "Kodo užšaldymo išimtys"
-
-#: about/releasemodel.php:278
-msgid "Blocking Bugs"
-msgstr "Blokuojančios klaidos"
-
-#: about/releasemodel.php:281
-msgid ""
-"Certain bugs may delay the final release if they are considered blockers. "
-"This is the case under any of the following circumstances:"
-msgstr "Dėl kai kurių klaidų xfce išleidimas gali vėluoti, tokios klaidos laikomos blokuojančiomis. Tokiomis klaidomis laikomos klaidos, kurios atitinka šiuos kriterijus:"
-
-#: about/releasemodel.php:285
-msgid "it crashes a core application"
-msgstr "dėl jos lūžta branduolio programa"
-
-#: about/releasemodel.php:286
-msgid "it causes data loss"
-msgstr "dėl jos prarandami duomenys"
-
-#: about/releasemodel.php:287
-msgid "it causes an ever-growing memory leak"
-msgstr "ji sukelia atminties nutekėjimą"
-
-#: about/releasemodel.php:288
-msgid "it locks the entire desktop GUI"
-msgstr "ji užrakina visą darbalaukio GUI"
-
-#: about/releasemodel.php:292
-msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "Klaida negali pavėlinti leidimo jei ji atitinka šiuos kriterijus:"
-
-#: about/releasemodel.php:296
-msgid ""
-"the hardware or architecture on which the bug occurs is exotic and/or "
-"there's no way for developers to reproduce the bug"
-msgstr "aparatinė įranga ar architektūra kurioje ši klaida įvyksta yra egzotinė ar/ir kūrėjai negali jos atkurti"
-
-#: about/releasemodel.php:300
-msgid ""
-"Fixes for these bugs are allowed to be applied during code freeze if, and "
-"only if they are signed off by the release manager."
-msgstr "Pataisymus šiai klaidai galima pritaikyti kodo užšaldymo fazėje tik tada jei tai patvirtino leidimo prižiūrėtojas."
-
-#: about/releasemodel.php:303
-msgid "Release-Critical Changes"
-msgstr "Leidimo-kritiniai keitimai"
-
-#: about/releasemodel.php:306
-msgid ""
-"Some changes may be of big concern with regards to the quality of the "
-"release. They are allowed to go in if, and only if they are signed off by "
-"the release manager."
-msgstr "Kai kurie keitimai gali kelti abejones kokybės atžvilgiu. Jie leidžiami jei juos palaimino leidimo prižiūrėtojas."
-
-#: about/releasemodel.php:309
-msgid "Releasing"
-msgstr "Išleidimas"
-
-#: about/releasemodel.php:312
-msgid ""
-"For the final release (Xfce X.Y), all core components are tagged (twice, "
-"once with their own version and once with xfce-X.Y.0) and branched for the "
-"maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
-"branch is merged into master (where the development for the next release "
-"takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "Paskutiniam leidimui (Xfce X.Y) visi branduolio komponentai yra pažymėti (dukart, vieną kartą su jų versija ir kitą su xfce-X.Y.0) ir patalpinti į prižiūrėjimo šaką (pvz. thunar-1.2 ar xfwm4-4.8). Po to ELS šaka yra sujungiama su „master“ šaka (kurioje bus kuriama nauja versija) ir į pvz. thunar-1.2 ar xfwm4-4.8."
-
-#: about/releasemodel.php:315
-msgid "Maintenance Process"
-msgstr "Prižiūrėjimo procesas"
-
-#: about/releasemodel.php:318
-msgid ""
-"After the release of a final version, bugfixes and translation updates will "
-"be committed to a stable component-specific branch (like thunar-1.2 or "
-"xfwm4-4.8). Maintenance releases of individual components are not required "
-"to be synchronized."
-msgstr "Kai išleidžiama galutinė versija, klaidų pataisymai ir vertimų atnaujinimai bus nusiųsti į stabilią to komponento šaką (pvz. thunar-1.2 ar xfwm4-4.8). Individualių komponentų priežiūros leidimų sinchronizuoti nereikia."
-
-#: about/releasemodel.php:321
-msgid "Maintenance Releases"
-msgstr "Priežiūros leidimas"
-
-#: about/releasemodel.php:324
-msgid ""
-"There may be no API/ABI changes in maintenance releases compared to the "
-"corresponding final release of the Xfce core desktop. They also must follow "
-"the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
-"thunar-1.2.4). No new features or strings may be introduced in these "
-"releases."
-msgstr "Priežiūros leidime negali būti API/ABI keitimų lyginant su paskutine versija. Jie taipogi turi naudoti formatą X.Y.Z, kur Y yra lyginis skaičius (pvz. xfwm4-4.8 ar thunar-1.2.4). Šiuose leidimuose neturi būti naujų eilučių ar galimybių."
-
-#: about/releasemodel.php:328
-msgid "Authors"
-msgstr "Autoriai"
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
@@ -3412,69 +2826,9 @@ msgstr ""
 msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
 msgstr ""
 
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "Susiję puslapiai"
-
-#: about/nav.php:4
-msgid "4.20 Tour"
-msgstr "4.20 Turas"
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr "vizualus turas parodantis naujas kelių paskiausių versijų galimybes"
-
-#: about/nav.php:9
-msgid "4.18 Tour"
-msgstr "4.18 Turas"
-
-#: about/nav.php:10
-msgid "4.16 Tour"
-msgstr "4.16 Turas"
-
-#: about/nav.php:11
-msgid "4.14 Tour"
-msgstr "4.14 Turas"
-
-#: about/nav.php:12
-msgid "4.12 Tour"
-msgstr "4.12 Turas"
-
-#: about/nav.php:13
-msgid "4.10 Tour"
-msgstr "4.10 Turas"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "4.8 Turas"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "4.6 Turas"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "4.4 Turas"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "išleidimo pranešimai"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:63
+#: about/screenshots.php:1 about/nav.php:25 frontpage.php:63
 msgid "Screenshots"
 msgstr "Ekrano kopijos"
-
-#: about/nav.php:26 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr "žiūrėti Xfce darbalaukio pavyzdžius"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "visų bendraautorių sąrašas"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "Xfce branduolio modulių leidimo politika"
 
 #: about/screenshots.php:20
 msgid "Some screenshots of Xfce, ordered by version."
@@ -4419,6 +3773,62 @@ msgstr ""
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
 msgstr ""
 
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "Susiję puslapiai"
+
+#: about/nav.php:4
+msgid "4.20 Tour"
+msgstr "4.20 Turas"
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr "vizualus turas parodantis naujas kelių paskiausių versijų galimybes"
+
+#: about/nav.php:9
+msgid "4.18 Tour"
+msgstr "4.18 Turas"
+
+#: about/nav.php:10
+msgid "4.16 Tour"
+msgstr "4.16 Turas"
+
+#: about/nav.php:11
+msgid "4.14 Tour"
+msgstr "4.14 Turas"
+
+#: about/nav.php:12
+msgid "4.12 Tour"
+msgstr "4.12 Turas"
+
+#: about/nav.php:13
+msgid "4.10 Tour"
+msgstr "4.10 Turas"
+
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "4.8 Turas"
+
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "4.6 Turas"
+
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "4.4 Turas"
+
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "išleidimo pranešimai"
+
+#: about/nav.php:26 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr "žiūrėti Xfce darbalaukio pavyzdžius"
+
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "visų bendraautorių sąrašas"
+
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
 msgid "Related Sites"
@@ -4790,6 +4200,10 @@ msgid ""
 "desktop. Some projects have their own project pages to provide additional "
 "information."
 msgstr "Xfce projektas kiekvienai darbalaukio daliai apjungia kelis atskirus projektus. Kai kurie projektai turi savo asmeninius projekto puslapius, kuriuose teikia papildomą informaciją."
+
+#: projects/index.php:15
+msgid "Core Components"
+msgstr "Branduolio komponentai"
 
 #: projects/index.php:22
 msgid ""
