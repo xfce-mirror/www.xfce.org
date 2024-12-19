@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2024-12-15 12:53+0100\n"
+"POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: The Cat, 2023-2024\n"
 "Language-Team: Portuguese (Brazil) (http://app.transifex.com/xfce/xfce-www/language/pt_BR/)\n"
@@ -57,592 +57,6 @@ msgstr "Link permanente"
 #: about/news.php:91
 msgid "No news articles found."
 msgstr "Nenhum artigo foi encontrado."
-
-#: about/releasemodel.php:3 about/nav.php:35
-msgid "Release Model"
-msgstr "Modelo de lançamento"
-
-#: about/releasemodel.php:10
-msgid ""
-"In the past the same questions and discussions have come up over and over "
-"again whenever a new release was in sight, like:"
-msgstr "No passado, as mesmas perguntas e discussões apareciam várias vezes quando uma nova versão estava para ser lançada, como:"
-
-#: about/releasemodel.php:14
-msgid "What are the core components of Xfce?"
-msgstr "Quais são os componentes centrais do Xfce?"
-
-#: about/releasemodel.php:15
-msgid ""
-"How often do we want to release and in what fashion (time-based, feature-"
-"based)?"
-msgstr "Com qual frequência nós queremos lançar e de que forma (baseado-no-tempo, baseado-em-recurso)?"
-
-#: about/releasemodel.php:16
-msgid "Who's in charge of the release process?"
-msgstr "Quem é o encarregado do processo de lançamento?"
-
-#: about/releasemodel.php:17
-msgid "What dependency versions do we depend on?"
-msgstr "Quais as versões de dependências das quais nós dependemos?"
-
-#: about/releasemodel.php:18
-msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "Quando ocorrem os congelamentos dos recursos, de strings, de código ou similares?"
-
-#: about/releasemodel.php:19
-msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Quantos pré-lançamentos nós deveríamos fazer e como nós deveríamos chamá-los?"
-
-#: about/releasemodel.php:20
-msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "O que nós usamos como substituição para versionamento de revisões SVN com o GIT?"
-
-#: about/releasemodel.php:24
-msgid ""
-"This document intends to answer these questions and aims at defining a "
-"policy that we can refer to when planning releases."
-msgstr "Este tem a intenção de responder essas perguntas e visa definir uma política que nós podemos nos referir quando estivermos planejando os lançamentos."
-
-#: about/releasemodel.php:27
-msgid "The Xfce Core Desktop"
-msgstr "O ambiente central do Xfce"
-
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "Componentes centrais"
-
-#: about/releasemodel.php:51
-msgid ""
-"All core components of the Xfce desktop must adhere to the release policy "
-"defined in this document."
-msgstr "Todos os componentes na ambiente do Xfce deve aderir às políticas de lançamento definidas neste documento."
-
-#: about/releasemodel.php:54
-msgid "Essential Dependencies"
-msgstr "Dependências essenciais"
-
-#: about/releasemodel.php:61
-msgid "The Release Cycle"
-msgstr "O ciclo de lançamento"
-
-#: about/releasemodel.php:64
-msgid ""
-"The release cycle involves a short planning phase, a development phase with "
-"development releases and a release phase, eventually leading to a new stable"
-" release of the entire Xfce core desktop. In parallel to these phases, a "
-"maintenance process of the current stable release will continue. During this"
-" phase, bugfix releases and security fixes will be released for the stable "
-"version of Xfce."
-msgstr "O ciclo de lançamento envolve uma fase curta de planejamento, uma fase de desenvolvimento com lançamentos de desenvolvimento e uma fase de lançamento, eventualmente levando a um lançamento estável de todo o ambiente central do Xfce. Em paralelo a essas fases, o processo de manutenção no atual lançamento estável irá continuar. durante esta fase, versões de correções de bugs e correções de segurança serão lançados para a versão estável do Xfce."
-
-#: about/releasemodel.php:68
-msgid ""
-"Below you can see a graphical timeline of an example release cycle and "
-"maintenance process for Xfce 4.8 with three components: Thunar, exo and "
-"xfwm4."
-msgstr "Abaixo você pode ver uma linha do tempo gráfica com um exemplo de ciclo de lançamento e o processo de manutenção do Xfce 4.8 com três componentes: Thunar, exo e xfwm4."
-
-#: about/releasemodel.php:72
-msgid "Example Release Cycle"
-msgstr "Exemplo de ciclo de lançamento"
-
-#: about/releasemodel.php:75
-msgid "Planning Phase (2(+2) Weeks)"
-msgstr "Fase de planejamento (2(+2) semanas)"
-
-#: about/releasemodel.php:78
-msgid ""
-"This phase marks the beginning of the release cycle and is used to decide "
-"which dependencies to use and also to appoint the release team for the cycle"
-" (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
-"weeks)."
-msgstr "Essa fase marca o começo do ciclo de lançamento e é usada para decidir quais dependências serão usadas e também para definir a equipe de lançamento para o ciclo (primeiras 2 semanas). Isso eventualmente vai levar a um congelamento das dependências (depois de 4 semanas)."
-
-#: about/releasemodel.php:81
-msgid "Appointing the Release Team"
-msgstr "Definição da equipe de lançamento"
-
-#: about/releasemodel.php:84
-msgid ""
-"At the beginning of the planning phase there is a (formal or informal) "
-"voting for the release team. The release team supervises development and "
-"maintenance releases during the release cycle. Its main purpose is to "
-"perform and double-check the Xfce core desktop releases in the release phase"
-" at the very end of the cycle. This is explained in more detail in the "
-"Release Team section of this document."
-msgstr "No começo da fase de planejamento, há uma votação (formal ou informal) para a equipe de lançamento. Esta equipe supervisiona os lançamentos de desenvolvimento e manutenção durante o ciclo de lançamento. Seu propósito principal é fazer e verificar os lançamentos do ambiente central do Xfce na fase de lançamento ao final do ciclo. Isso será explicado em mais detalhes na seção de Equipe de lançamento, deste documento."
-
-#: about/releasemodel.php:87
-msgid "Release Team"
-msgstr "Equipe de lançamento"
-
-#: about/releasemodel.php:90
-msgid ""
-"The release team consists of at least two people: one release manager who "
-"can be assisted by others to actually perform the release (tagging, creation"
-" of tarballs, writing release notes and announcements) and another person "
-"for quality assurance (checking if all components compile, tags are in "
-"place, release notes are up to date and so on). This is defined in more "
-"detail below."
-msgstr "A equipe de lançamento consiste em pelo menos duas pessoas: um gerente de lançamento que pode ser assistido por outros para realizar o lançamento (fazer tags, criação de tarballs, escrever notas de lançamento e anúncios) e outra pessoa para a QA - garantia de qualidade  (verificação se todos os componentes compilam, tags estão nos seus lugares, notas de lançamento estão atualizadas e por aí vai). Isso é definido com mais detalhes abaixo."
-
-#: about/releasemodel.php:94
-msgid "These are the release team roles and their responsibilities:"
-msgstr "São estes os papeis na equipe de lançamento e suas responsabilidades:"
-
-#: about/releasemodel.php:97
-msgid "Release Manager"
-msgstr "Gerencia de lançamento"
-
-#: about/releasemodel.php:100
-msgid "Organization of the release cycle"
-msgstr "Organização do ciclo de lançamento"
-
-#: about/releasemodel.php:101
-msgid ""
-"Announce deadlines to developers and translators (repeatedly and early "
-"enough)"
-msgstr "Anunciar prazos para os desenvolvedores e tradutores (repetidamente e o mais cedo possível)"
-
-#: about/releasemodel.php:102
-msgid "Overseeing of maintainance and development releases"
-msgstr "Supervisão dos lançamentos de manutenção e desenvolvimento"
-
-#: about/releasemodel.php:103
-msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "Fazer os tags def Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 e Xfce-X.Y"
-
-#: about/releasemodel.php:104
-msgid "Generate tarballs from tags (possibly automated)"
-msgstr "Gerar os tarballs a partir dos tags (possivelmente automatizado)"
-
-#: about/releasemodel.php:105
-msgid "Write release notes"
-msgstr "Escrever notas de lançamentos"
-
-#: about/releasemodel.php:106
-msgid "Write release announcements"
-msgstr "Escrever anúncios de lançamento"
-
-#: about/releasemodel.php:107
-msgid "Create Bugzilla tags"
-msgstr "Criar tags no Bugzilla"
-
-#: about/releasemodel.php:108
-msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "Aprovar correções de bugs obstáculo durante o congelamento de código"
-
-#: about/releasemodel.php:111
-msgid "Release Assistant(s)"
-msgstr "Assistente(s) de lançamento"
-
-#: about/releasemodel.php:114
-msgid "Update the website(s)"
-msgstr "Atualizar o(s) site(s)"
-
-#: about/releasemodel.php:115
-msgid "Help the release manager with his tasks"
-msgstr "Ajudar o gerente de lançamento com suas tarefas"
-
-#: about/releasemodel.php:118
-msgid "QA Official"
-msgstr "QA Oficial"
-
-#: about/releasemodel.php:121
-msgid ""
-"Have an eye on libtool versions of maintanance and development releases"
-msgstr "Ter um olho nas versões de libtool de lançamentos de manutenção e desenvolvimento"
-
-#: about/releasemodel.php:122
-msgid "Remind maintainers about missing NEWS updates"
-msgstr "Lembrar os mantenedores sobre a falta de atualizações de notícias - NEWS"
-
-#: about/releasemodel.php:123
-msgid "Double-check the generated tarballs"
-msgstr "Verificar as tarballs geradas"
-
-#: about/releasemodel.php:124
-msgid "Proof-read release announcements"
-msgstr "Revisar os anúncios de lançamento"
-
-#: about/releasemodel.php:127
-msgid "Individual Maintainers"
-msgstr "Mantenedores individuais"
-
-#: about/releasemodel.php:130
-msgid ""
-"Create component-specific tags for their maintainance and development "
-"releases"
-msgstr "Criar tags para componentes específicos para os lançamentos de manutenção e de desenvolvimento"
-
-#: about/releasemodel.php:131
-msgid "Generate tarballs for their maintainance and development releases"
-msgstr "Gerar tarballs para seus lançamentos de manutenção e de desenvolvimento"
-
-#: about/releasemodel.php:132
-msgid "Write ChangeLogs and update NEWS files"
-msgstr "Escrever ChangeLogs e autalizar os arquivo de notícias - NEWS"
-
-#: about/releasemodel.php:133
-msgid "Write component-specific release announcements"
-msgstr "Escrever anúncios de lançamentos de componentes específicos"
-
-#: about/releasemodel.php:134
-msgid "Create Bugzilla tags for their releases"
-msgstr "Criar tags no Bugzilla para seus lançamentos"
-
-#: about/releasemodel.php:135
-msgid "Make sure API documentation is up to date"
-msgstr "Certificar de que a documentação de API está atualizada"
-
-#: about/releasemodel.php:138
-msgid "Dependency Freeze"
-msgstr "Congelamento das dependências"
-
-#: about/releasemodel.php:141
-msgid ""
-"During the first 2 weeks of the planning phase each maintainer is required "
-"to "
-msgstr "Durante as primeiras 2 semanas da fase de planejamento, cada mantenedor é obrigado a"
-
-#: about/releasemodel.php:145
-msgid "List the features he wants to implement in the release cycle"
-msgstr "Listar os recursos que deseja implementar no ciclo de lançamento"
-
-#: about/releasemodel.php:146
-msgid "Investigate which dependencies are implied by that"
-msgstr "Investigar quais dependências se implicarão com isso"
-
-#: about/releasemodel.php:150
-msgid ""
-"At the end of this, a decision is made on which dependencies the next stable"
-" release of the Xfce core desktop will depend. In particular this includes "
-"the minimum required versions for all essential dependencies of the Xfce "
-"core desktop."
-msgstr "Ao final desta, a decisão é tomada sobre as quais dependências para o próximo lançamento estável do ambiente central do Xfce. Em particular, isto inclui a versão mínima necessária para todas as dependências esseciais do ambiente central do Xfce."
-
-#: about/releasemodel.php:154
-msgid ""
-"Maintainers who were not available during the first 2 weeks of the planning "
-"phase have the chance to request dependency changes in the 2 weeks after "
-"that. "
-msgstr "Mantenedores que não estejam disponíveis durante as primeiras semanas da fase de planejamento têm a chance de solicitar alterações das dependências nas próximas 2 semanas seguintes."
-
-#: about/releasemodel.php:158
-msgid ""
-"At the end of these 4 weeks, all components enter dependency freeze which "
-"means they may not change the dependencies (and their versions) they depend "
-"on. Optional dependencies for are still allowed to be added though."
-msgstr "Ao final dessas 4 semenas, todos os componentes entram em congelamento de dependências, o que significa que não pode haver alteração das dependências (e suas versões). Apesar disso, dependências opcionais ainda podem ser adicionadas."
-
-#: about/releasemodel.php:161
-msgid "Informing the Community"
-msgstr "Informando a comunidade"
-
-#: about/releasemodel.php:164
-msgid ""
-"At the very end of the planning phase, a mail with planned features and "
-"dependencies for all components of the Xfce core desktop is sent to the "
-"xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "Ao final da fase de planejamento, um e-mail com os recursos planejados e as dependências de todos os componentes do ambiente central do Xfce é enviado para as listas de discussões xfce4-dev@xfce.org e xfce@xfce.org."
-
-#: about/releasemodel.php:167
-msgid "Development Phase (5 Months)"
-msgstr "Fase de desenvolvimento (5 meses)"
-
-#: about/releasemodel.php:170
-msgid ""
-"During the development phase every maintainer is free to do maintenance and "
-"development releases of his components independently of the rest of Xfce."
-msgstr "Durante a fase de desenvolvimento, cada mantenedor é livre para fazer qualquer lançamento de manutenção e desenvolvimento de seus componentes independentemente do resto do Xfce."
-
-#: about/releasemodel.php:173
-msgid "Development Releases"
-msgstr "Lançamentos de desenvolvimento"
-
-#: about/releasemodel.php:176
-msgid ""
-"Development releases usually give a feature preview for the next stable "
-"release. They must follow the X.Y.Z versioning format, where Y is an odd "
-"number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "Lançamentos de desenvolvimento normalmente dá uma pré-visualização dos recursos para o próximo lançamento estável. Eles devem seguir o formato de versionamento X.Y.Z, sendo Y um número ímpar (ex: xfwm4-4.7.3 ou thunar-1.3.10)."
-
-#: about/releasemodel.php:180
-msgid ""
-"Maintainers are encouraged to do development releases for new features they "
-"want to make available to others. Frequent development releases can act as a"
-" replacement of the SVN revision versioning we had in the past. If component"
-" A depends on a new feature in component B, A may only be released if there "
-"is a development release of B shipping this feature. For this to work, "
-"libtool versions must be updated properly with every development release."
-msgstr "Mantenedores são encorajados a fazer lançamentos de desenvolvimento para novos recursos que eles querem tornar disponíveis para outros. Lançamentos de desenvolvimento frequentes podem servir como uma substituição de versionamento de revisões SVN que nós tínhamos no passado. Se o componente A depende de um novo recurso no componente B, A só pode ser lançado se há um lançamento de desenvolvimento de B junto com este recurso. Para isso funcionar, as versões de libtool devem estar adequadamente atualizadas com todos os lançamentos de desenvolvimento."
-
-#: about/releasemodel.php:184
-msgid ""
-"Care has to be taken of the master branch of each component. The master "
-"branch should always remain in a release-ready state. New features should be"
-" developed in branches until they are ready (as in: compiling and the "
-"component will remain functional even after merging the feature(s) into the "
-"master branch), to lower the risk of delaying the final release of the "
-"entire Xfce core desktop."
-msgstr "Deve-se ter cuidado com o ramo mestre (master branch) de cada componente. O ramo mestre deveria sempre se manter em um estado pronto para lançamento. Novos recursos devem ser desenvolvidos em outros ramos até que estejam prontos (como em: compilando e o componente vai se manter funcional mesmo depois de mesclar o(s) recurso(s) com o ramo principal), para reduzir o risco de atrasar o lançamento final do ambiente central do Xfce como um todo."
-
-#: about/releasemodel.php:188
-msgid ""
-"New features breaking APIs or other core components should be communicated. "
-"Maintainers are suggested to prepare other components for these features in "
-"a separate branch before including the features in a new development "
-"release. That way the other components retain their release-ready state."
-msgstr "Novos recursos que quebrem APIs, ou outros componentes centrais, devem ser comunicados. Mantenedores são aconselhados a preparar outros componentes para estes recursos em um ramo separado antes de incluir os recursos em um novo lançamento de desenvolvimento. Dessa forma, outros componentes retêm seu estado de pronto para lançamento."
-
-#: about/releasemodel.php:192
-msgid "This is how the basic development workflow looks like:"
-msgstr "É assim que o fluxo de trabalho de desenvolvimento básico se parece:"
-
-#: about/releasemodel.php:196
-msgid "Development Workflow"
-msgstr "Fluxo de trabalho de desenvolvimento"
-
-#: about/releasemodel.php:199
-msgid "Release Phase (10+ Weeks)"
-msgstr "Fase de lançamento (10 ou mais semanas)"
-
-#: about/releasemodel.php:202
-msgid ""
-"During the release phase, there will be three pre-releases and one final "
-"release:"
-msgstr "Durante a fase de lançamento, haverá três pré-lançamentos e um lançamento final:"
-
-#: about/releasemodel.php:206
-msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1 (depois de 0 semanas, congelamento de recursos),"
-
-#: about/releasemodel.php:207
-msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2 (depois de 4 semanas, congelamento de strings) e"
-
-#: about/releasemodel.php:208
-msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (depois de 8 semanas, congelamento de código)"
-
-#: about/releasemodel.php:209
-msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y     (depois de 10 ou mais semanas)"
-
-#: about/releasemodel.php:213
-msgid ""
-"where Y has to be an even number. Each of these releases has to include the "
-"latest development releases of all components (or stable, if there were no "
-"development releases since the last stable release) of the Xfce core "
-"desktop. The version numbers of these components may (even have to) differ "
-"from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
-"version 4.7.17 and Thunar could have 1.1.9."
-msgstr "onde Y tem que ser um número par. Cada um desses lançamentos tem que incluir os últimos lançamentos de desenvolvimento de todos os componentes (ou estável, se não houve lançamentos de desenvolvimento desde o último lançamento estável) do ambiente central do Xfce. Os números da versão desses componentes pode (ou até deva) ser diferente do esquema de nomenclatura acima. Por exemplo, para Xfce 4.8.0pre2, xfwm4 poderia ter a versão 4.7.17 e Thunar poderia ter 1.1.9."
-
-#: about/releasemodel.php:217
-msgid ""
-"This means that maintainers don't necessarily have to release new versions "
-"of their components along with one of the pre-releases. The release team "
-"always picks the latest available development or stable release of each "
-"component for pre-releases and the final release."
-msgstr "Isso significa que mantenedores não necessariamente têm que lançar novas versões de seus componentes junto com a dos pré-lançamentos. A equipe de lançamento sempre pega o último lançamento estável ou de desenvolvimento disponível de cada componente para pré-lançamentos e para o lançamento final."
-
-#: about/releasemodel.php:221
-msgid ""
-"The end of this phase marks a new stable release of the Xfce core desktop "
-"and therewith the start of a new release cycle."
-msgstr "O final desta fase marca um novo lançamento estável do ambiente central do Xfce e, daqui para frente, se inicia um novo ciclo de lançamento."
-
-#: about/releasemodel.php:224
-msgid "Freezing before Releases"
-msgstr "Congelamentos antes de laçamentos"
-
-#: about/releasemodel.php:227
-msgid "There are different freeze types before releases."
-msgstr "Há diferentes tipos de congelamentos antes dos lançamentos"
-
-#: about/releasemodel.php:230
-msgid "Feature Freeze"
-msgstr "Congelamento de recursos"
-
-#: about/releasemodel.php:233
-msgid ""
-"With Xfce X.Ypre1, all core components enter feature freeze which means from"
-" there on only translations and bugfixes are allowed to go into the master "
-"branch."
-msgstr "Com Xfce X.Ypre1, todos os componentes centrais entram em congelamento de recursos, o que significa que daqui para frente somente traduções e correções de bugs podem entrar no ramo principal."
-
-#: about/releasemodel.php:236
-msgid "String/UI Freeze"
-msgstr "Congelamento de strings/UI"
-
-#: about/releasemodel.php:239
-msgid ""
-"With Xfce X.Ypre2, all core components enter string/UI freeze which means "
-"from there on no strings which affect translations may be changed. Same goes"
-" for the user interface which may not be changed after this point."
-msgstr "Com Xfce X.Ypre2, todos os componentes centrais entrem em congelamento de strings/UI, o que significa que daqui para frente nenhuma strings que afete as traduções pode ser alterada. O mesmo vale para a interface do usuário (UI), a qual não pode ser alterada após esse ponto."
-
-#: about/releasemodel.php:242
-msgid "Code Freeze"
-msgstr "Congelamento de código"
-
-#: about/releasemodel.php:245
-msgid ""
-"There is a short 2-days code freeze before every pre-release. During this "
-"period of time, no commits may be sent unless they are signed off by the "
-"release manager."
-msgstr "Há um congelamento de código de 2 dias antes de cada pré-lançamento. Durante este período de tempo, nenhum commit pode ser enviar a não ser que eles sejam autorizados pelo gerente de lançamentos."
-
-#: about/releasemodel.php:249
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze which means from "
-"there on no code changes are allowed, unless they are signed off by the "
-"release manager. These should usually only be fixes to blocking or release-"
-"critical bugs. Translations are still allowed to go in."
-msgstr "Com Xfce X.Ypre3, todos os componentes centrais entram em congelamento de código, o que significa que daqui para frente nenhuma alteração nos códigos é permitida, a não ser que elas sejam autorizadas pelo gerente de lançamento. Normalmente haveria somente correções de bugs críticos"
-
-#: about/releasemodel.php:252
-msgid "Code Freeze Phase (2+ weeks)"
-msgstr "Fase de congelamento de código (2 ou mais semanas)"
-
-#: about/releasemodel.php:255
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze. This phase is "
-"illustrated in the following figure and is explained in more detail in this "
-"section."
-msgstr "Com o Xfce X.Ypre3, todos os componentes centrais entram em congelamento de código. Essa fase é ilustrada na imagem a seguir e é explicada em mais detalhes nesta seção."
-
-#: about/releasemodel.php:259
-msgid ""
-"The code freeze and its exceptions are supported by commit hooks. There is "
-"an update hook which doesn't allow any changes to master unless they are "
-"signed off by the release manager. "
-msgstr "O congelamento de código e suas exceções são suportadas por hooks de commit. Há um hook de atualização, o qual não permite qualquer alteração no ramo mestre a não ser que seja autorizado pelo gerente de lançamento"
-
-#: about/releasemodel.php:263
-msgid "Tagging and Branching for Releases"
-msgstr "Criação de tags e ramos para lançamentos"
-
-#: about/releasemodel.php:266
-msgid "Bugfixes/Changes"
-msgstr "Correções de bugs/Alterações"
-
-#: about/releasemodel.php:269
-msgid ""
-"If a core component requires fixes or changes during code freeze, the "
-"maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
-"DISCUSSION//) to which he or she then commits the fixes. Refer to the "
-"section Code Freeze Exceptions if these are release-critical changes or "
-"fixes for blocking bugs."
-msgstr "Se um componente central requer correções ou alterações durante o congelamento de código, o mantenedor precisará criar um novo ramo chamado ELS (//NOME ABERTO PARA DISCUSSÃO//) para o qual ele ou ela vai então fazer o commit das correções. Veja a seção de exceções ao congelamento de dódigo, se essas são alterações ou correções críticas para o lançamento de bugs impeditivos."
-
-#: about/releasemodel.php:273
-msgid ""
-"The ELS branch only lives for a short period of time. It is merged into "
-"master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
-" after the final release. Only bugfixes are allowed in this branch."
-msgstr "O ramo ELS somente se mantém vivo por um pequeno período de tempo. Ele é mesclado com o ramo mestre e com os ramos estáveis dos componentes (ex: xfwm4-4.8 ou thunar-1.2) depois do lançamento final. Somente correções de bugs são permitidas neste ramos."
-
-#: about/releasemodel.php:276
-msgid "Code Freeze Exceptions"
-msgstr "Exceções ao congelamento de código"
-
-#: about/releasemodel.php:278
-msgid "Blocking Bugs"
-msgstr "Bugs impeditivos"
-
-#: about/releasemodel.php:281
-msgid ""
-"Certain bugs may delay the final release if they are considered blockers. "
-"This is the case under any of the following circumstances:"
-msgstr "Certos bugs podem atrasar o lançamento final, se eles forem considerados como impeditivos. Este é o caso de qualquer uma das circunstâncias a seguir:"
-
-#: about/releasemodel.php:285
-msgid "it crashes a core application"
-msgstr "ele trava um aplicativo central"
-
-#: about/releasemodel.php:286
-msgid "it causes data loss"
-msgstr "ele causa perda de dados"
-
-#: about/releasemodel.php:287
-msgid "it causes an ever-growing memory leak"
-msgstr "ele causa um vazamento de memória sem parar"
-
-#: about/releasemodel.php:288
-msgid "it locks the entire desktop GUI"
-msgstr "ele trava toda a interface gráfica do ambiente de trabalho."
-
-#: about/releasemodel.php:292
-msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "Um bug pode não atrasar um lançamento, se ele corresponder aos critérios a seguir:"
-
-#: about/releasemodel.php:296
-msgid ""
-"the hardware or architecture on which the bug occurs is exotic and/or "
-"there's no way for developers to reproduce the bug"
-msgstr "o hardware ou a arquitetura no qual o bug ocorre é exótica e/ou não tem como os desenvolvedores reproduzir o bug"
-
-#: about/releasemodel.php:300
-msgid ""
-"Fixes for these bugs are allowed to be applied during code freeze if, and "
-"only if they are signed off by the release manager."
-msgstr "Correções desses bugs podem ser aplicados durante o congelamento de código se, e somente se, eles forem autorizados pelo gerente de lançamento."
-
-#: about/releasemodel.php:303
-msgid "Release-Critical Changes"
-msgstr "Alterações críticas para o lançamento"
-
-#: about/releasemodel.php:306
-msgid ""
-"Some changes may be of big concern with regards to the quality of the "
-"release. They are allowed to go in if, and only if they are signed off by "
-"the release manager."
-msgstr "Algumas alterações podem ser uma grande preocupação no que tange à qualidade do lançamento. Elas podem ser aceitas se, e somente se, forem autorizadas pelo gerente de lançamento."
-
-#: about/releasemodel.php:309
-msgid "Releasing"
-msgstr "Lançamento"
-
-#: about/releasemodel.php:312
-msgid ""
-"For the final release (Xfce X.Y), all core components are tagged (twice, "
-"once with their own version and once with xfce-X.Y.0) and branched for the "
-"maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
-"branch is merged into master (where the development for the next release "
-"takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "Para o lançamento final (Xfce X.Y), todos os componentes centrais coterão tags (duas vezes, sendo uma com sua própria versão e outra com xfce-X.Y.0) e ramos para o ciclo de manutenção (ex: como thunar-1.2 ou xfwm4-4.8). Depois disso, o ramo ELS é mesclado com o mestre (onde o desenvolvimento para o próximo lançamento terá início) e com, por exemplo, thunar-1.2 ou xfwm4-4.8."
-
-#: about/releasemodel.php:315
-msgid "Maintenance Process"
-msgstr "Processo de manutenção"
-
-#: about/releasemodel.php:318
-msgid ""
-"After the release of a final version, bugfixes and translation updates will "
-"be committed to a stable component-specific branch (like thunar-1.2 or "
-"xfwm4-4.8). Maintenance releases of individual components are not required "
-"to be synchronized."
-msgstr "Depois do lançamento da versão final, as correções de bugs e as atualização das traduções serão enviadas para um ramo estável específico de cada componente (como thunar-1.2 ou xfwm4-4.8). Lançamentos de manutenção de componentes individuais não precisam obrigatoriamente estar sincronizados."
-
-#: about/releasemodel.php:321
-msgid "Maintenance Releases"
-msgstr "Lançamentos de manutenção"
-
-#: about/releasemodel.php:324
-msgid ""
-"There may be no API/ABI changes in maintenance releases compared to the "
-"corresponding final release of the Xfce core desktop. They also must follow "
-"the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
-"thunar-1.2.4). No new features or strings may be introduced in these "
-"releases."
-msgstr "Não pode haver alterações de API/ABI nos lançamentos de manutenção em comparação com o lançamento final correspondente do ambiente central do Xfce. Eles também podem seguir o formato de versionamento X.Y.Z, onde Y é um número par (ex: xfwm4-4.8.4 ou thunar-1.2.4). Nenhum novo recurso ou string pode ser introduzido nestes lançamentos."
-
-#: about/releasemodel.php:328
-msgid "Authors"
-msgstr "Autores"
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
@@ -3421,69 +2835,9 @@ msgstr "Todas as barras de cabeçalho do Xfce Janelas/Caixas por padrão serão 
 msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
 msgstr "Definições de aparência do Xfce - Preferência para ativar a GtkHeaderBar"
 
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "Páginas relacionadas"
-
-#: about/nav.php:4
-msgid "4.20 Tour"
-msgstr "Tour do 4.20"
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr "tour visual de novos recursos nos últimos lançamentos importantes"
-
-#: about/nav.php:9
-msgid "4.18 Tour"
-msgstr "Visita Guiada do 4.18"
-
-#: about/nav.php:10
-msgid "4.16 Tour"
-msgstr "Conheça o 4.16"
-
-#: about/nav.php:11
-msgid "4.14 Tour"
-msgstr "Conheça o 4.14"
-
-#: about/nav.php:12
-msgid "4.12 Tour"
-msgstr "4.12 Tour"
-
-#: about/nav.php:13
-msgid "4.10 Tour"
-msgstr "4.10 Tour"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "4.8 Tour"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "4.6 Tour"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "4.4 Tour"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "anúncios de lançamentos"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:63
+#: about/screenshots.php:1 about/nav.php:25 frontpage.php:63
 msgid "Screenshots"
 msgstr "Capturas de tela"
-
-#: about/nav.php:26 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr "veja exemplos de áreas de trabalho do Xfce"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "lista de todos os contribuidores"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "A política de lançamentos do Xfce para módulos centrais"
 
 #: about/screenshots.php:20
 msgid "Some screenshots of Xfce, ordered by version."
@@ -4428,6 +3782,62 @@ msgstr ""
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
 msgstr ""
 
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "Páginas relacionadas"
+
+#: about/nav.php:4
+msgid "4.20 Tour"
+msgstr "Tour do 4.20"
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr "tour visual de novos recursos nos últimos lançamentos importantes"
+
+#: about/nav.php:9
+msgid "4.18 Tour"
+msgstr "Visita Guiada do 4.18"
+
+#: about/nav.php:10
+msgid "4.16 Tour"
+msgstr "Conheça o 4.16"
+
+#: about/nav.php:11
+msgid "4.14 Tour"
+msgstr "Conheça o 4.14"
+
+#: about/nav.php:12
+msgid "4.12 Tour"
+msgstr "4.12 Tour"
+
+#: about/nav.php:13
+msgid "4.10 Tour"
+msgstr "4.10 Tour"
+
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "4.8 Tour"
+
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "4.6 Tour"
+
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "4.4 Tour"
+
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "anúncios de lançamentos"
+
+#: about/nav.php:26 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr "veja exemplos de áreas de trabalho do Xfce"
+
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "lista de todos os contribuidores"
+
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
 msgid "Related Sites"
@@ -4799,6 +4209,10 @@ msgid ""
 "desktop. Some projects have their own project pages to provide additional "
 "information."
 msgstr "O projeto Xfce contém diversos projetos separados para cada parte do ambiente. Alguns dos projetos têm sua própria página de projeto para fornecer informações adicionais."
+
+#: projects/index.php:15
+msgid "Core Components"
+msgstr "Componentes centrais"
 
 #: projects/index.php:22
 msgid ""
