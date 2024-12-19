@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
-"POT-Creation-Date: 2024-12-15 12:53+0100\n"
+"POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: scootergrisen, 2016-2019,2021-2024\n"
 "Language-Team: Danish (http://app.transifex.com/xfce/xfce-www/language/da/)\n"
@@ -50,592 +50,6 @@ msgstr "Permalink"
 #: about/news.php:91
 msgid "No news articles found."
 msgstr "Ingen nyhedsartikler fundet."
-
-#: about/releasemodel.php:3 about/nav.php:35
-msgid "Release Model"
-msgstr "Udgivelsesmodel"
-
-#: about/releasemodel.php:10
-msgid ""
-"In the past the same questions and discussions have come up over and over "
-"again whenever a new release was in sight, like:"
-msgstr "Før i tiden kom de samme spørgsmål op igen og igen hver gang der var udsigt til en ny udgivelse, såsom:"
-
-#: about/releasemodel.php:14
-msgid "What are the core components of Xfce?"
-msgstr "Hvad er Xfce's kernekomponenter?"
-
-#: about/releasemodel.php:15
-msgid ""
-"How often do we want to release and in what fashion (time-based, feature-"
-"based)?"
-msgstr "Hvor ofte vil vi gerne udgive og i hvilken facon (tidsbaseret, funktionsbaseret)"
-
-#: about/releasemodel.php:16
-msgid "Who's in charge of the release process?"
-msgstr "Hvem står for udgivelses-processen?"
-
-#: about/releasemodel.php:17
-msgid "What dependency versions do we depend on?"
-msgstr "Hvilke afhængige versioner er vi afhængige af?"
-
-#: about/releasemodel.php:18
-msgid "When are feature-freeze, string-freeze, code-freeze and thelike?"
-msgstr "Hvornår er funktions-frys, streng-frys, kode-frys og lignende?"
-
-#: about/releasemodel.php:19
-msgid "How many pre-releases should we do and how do we call them?"
-msgstr "Hvor mange før-udgivelser burde vi lave og hvordan kalder vi dem?"
-
-#: about/releasemodel.php:20
-msgid "What do we use as a replacement for SVN revision versioning with Git?"
-msgstr "Hvad bruger vi som erstatning for SVN revision versionering med Git?"
-
-#: about/releasemodel.php:24
-msgid ""
-"This document intends to answer these questions and aims at defining a "
-"policy that we can refer to when planning releases."
-msgstr "Dette dokument har formålet med at svare på disse spørgsmål og sigter efter definering af politik som vi kan referere til når vi planlægger udgivelser."
-
-#: about/releasemodel.php:27
-msgid "The Xfce Core Desktop"
-msgstr "Xfce-kerneskrivebord"
-
-#: about/releasemodel.php:29 projects/index.php:15
-msgid "Core Components"
-msgstr "Kernekomponenter"
-
-#: about/releasemodel.php:51
-msgid ""
-"All core components of the Xfce desktop must adhere to the release policy "
-"defined in this document."
-msgstr "Alle kernekomponenter af Xfce-skrivebordet skal følge udgivelsesretningslinjer som er defineret i dette dokument."
-
-#: about/releasemodel.php:54
-msgid "Essential Dependencies"
-msgstr "Essentielle afhængigheder"
-
-#: about/releasemodel.php:61
-msgid "The Release Cycle"
-msgstr "Udgivelsescyklussen"
-
-#: about/releasemodel.php:64
-msgid ""
-"The release cycle involves a short planning phase, a development phase with "
-"development releases and a release phase, eventually leading to a new stable"
-" release of the entire Xfce core desktop. In parallel to these phases, a "
-"maintenance process of the current stable release will continue. During this"
-" phase, bugfix releases and security fixes will be released for the stable "
-"version of Xfce."
-msgstr "Udgivelses-cyklussen involverer en kort planlægnings-fase, en udviklings-fase med udviklings-udgivelser og en udgivelses-fase, der eventuelt fører til en ny stabil udgivelse af hele Xfce kerne skrivebordet. I parallel til disse faser, en vedligeholdelses-process af den nuværende stabile udgivelse vil forsætte. I løbet af denne fase, vil fejl-retninger og sikkerheds-fejl udgives med den stabile version af Xfce."
-
-#: about/releasemodel.php:68
-msgid ""
-"Below you can see a graphical timeline of an example release cycle and "
-"maintenance process for Xfce 4.8 with three components: Thunar, exo and "
-"xfwm4."
-msgstr "Nedenfor kan du se den grafiske livslinje af et eksempel udgivelse-cyklus og vedligeholdes-process for Xfce 4.8 med disse tre komponenter: Thunar, exo og xfwm4."
-
-#: about/releasemodel.php:72
-msgid "Example Release Cycle"
-msgstr "Eksempel på udgivelsescyklus"
-
-#: about/releasemodel.php:75
-msgid "Planning Phase (2(+2) Weeks)"
-msgstr "Planlægningsfase (2(+2) uger)"
-
-#: about/releasemodel.php:78
-msgid ""
-"This phase marks the beginning of the release cycle and is used to decide "
-"which dependencies to use and also to appoint the release team for the cycle"
-" (first 2 weeks). It eventually leads to the dependency freeze (after 4 "
-"weeks)."
-msgstr "Denne fase markerer begyndelsen af udgivelses-cyklussen og bruges til at bestemme hvilke afhængigheder der bruges og også til at vælge udgivelses-holdet for cyklussen (Første 2 uger). Det vil eventuelt føre til afhængigheds-frys (efter 4 uger)"
-
-#: about/releasemodel.php:81
-msgid "Appointing the Release Team"
-msgstr "Udpegelse af Udgivelses-Teamet"
-
-#: about/releasemodel.php:84
-msgid ""
-"At the beginning of the planning phase there is a (formal or informal) "
-"voting for the release team. The release team supervises development and "
-"maintenance releases during the release cycle. Its main purpose is to "
-"perform and double-check the Xfce core desktop releases in the release phase"
-" at the very end of the cycle. This is explained in more detail in the "
-"Release Team section of this document."
-msgstr "Ved begyndelsen af planlægnings-fasen vil der være et (format eller formel) stemme for udgivelses-teamet. Selve udgivelses-holdet fører tilsyn med udvikling og vedligeholdelses-udgivelser i løbet af udgivelses-cyklussen. Dets primære formål er at udføre opgaver og dobbelt-tjekke Xfce kerne-skrivebords udgivelser i den udgivelses-fase ved slutningen af cyklussen. Dette er uddybet i flere detaljer i Udgivelses-Teamets sektion af dette dokument."
-
-#: about/releasemodel.php:87
-msgid "Release Team"
-msgstr "Udgivelsesteam"
-
-#: about/releasemodel.php:90
-msgid ""
-"The release team consists of at least two people: one release manager who "
-"can be assisted by others to actually perform the release (tagging, creation"
-" of tarballs, writing release notes and announcements) and another person "
-"for quality assurance (checking if all components compile, tags are in "
-"place, release notes are up to date and so on). This is defined in more "
-"detail below."
-msgstr "Udgivelses-teamet består af mindst to personer: En udgivelses-manager der kan assisteres af andre til at udføre udgivelsen (tagge, skabelsen af tarballs, skrive udgivelses-notater og annonceringer) og en anden person der står for kvalitets-forsikring (tjekker om alle komponenter kompileres, tagges er på plads, udgivelses-notater er opdateret og så videre) Dette er defineret i flere detaljer nedenunder."
-
-#: about/releasemodel.php:94
-msgid "These are the release team roles and their responsibilities:"
-msgstr "Disse er udgivelses-teamets roller og deres ansvarligheder:"
-
-#: about/releasemodel.php:97
-msgid "Release Manager"
-msgstr "Udgivelsesmanager"
-
-#: about/releasemodel.php:100
-msgid "Organization of the release cycle"
-msgstr "Organisering af udgivelsescyklus"
-
-#: about/releasemodel.php:101
-msgid ""
-"Announce deadlines to developers and translators (repeatedly and early "
-"enough)"
-msgstr "Annoncer deadlines til udviklere og oversættere (gentaget og tidligt nok)"
-
-#: about/releasemodel.php:102
-msgid "Overseeing of maintainance and development releases"
-msgstr "Overse vedligeholdelse og udviklings-udgivelser"
-
-#: about/releasemodel.php:103
-msgid "Tagging of Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 and Xfce-X.Y"
-msgstr "Tagge af Xfce-X.Ypre1, Xfce-X.Y.pre2, Xfce-X.Y.pre3 og Xfce-X.Y"
-
-#: about/releasemodel.php:104
-msgid "Generate tarballs from tags (possibly automated)"
-msgstr "Generer tarballs fra tags (muligvis automatiseret)"
-
-#: about/releasemodel.php:105
-msgid "Write release notes"
-msgstr "Skriv udgivelsesbemærkninger"
-
-#: about/releasemodel.php:106
-msgid "Write release announcements"
-msgstr "Skriv udgivelsesbekendtgørelser"
-
-#: about/releasemodel.php:107
-msgid "Create Bugzilla tags"
-msgstr "Opret Bugzilla-tags"
-
-#: about/releasemodel.php:108
-msgid "Approve fixes of blocker bugs during code freeze"
-msgstr "Godkend løsninger af blokerings-fejl mens kode fryser"
-
-#: about/releasemodel.php:111
-msgid "Release Assistant(s)"
-msgstr "Udgivelsesassistent(er)"
-
-#: about/releasemodel.php:114
-msgid "Update the website(s)"
-msgstr "Opdater webstedet/webstederne"
-
-#: about/releasemodel.php:115
-msgid "Help the release manager with his tasks"
-msgstr "Hjælp udgivelsesmanageren med hans opgaver"
-
-#: about/releasemodel.php:118
-msgid "QA Official"
-msgstr "Officiel QA"
-
-#: about/releasemodel.php:121
-msgid ""
-"Have an eye on libtool versions of maintanance and development releases"
-msgstr "Hav et øje på libtool versioner af vedligeholdelse og udviklings-udgivelser"
-
-#: about/releasemodel.php:122
-msgid "Remind maintainers about missing NEWS updates"
-msgstr "Påmind vedligeholdere om manglende NYHEDS opdateringer"
-
-#: about/releasemodel.php:123
-msgid "Double-check the generated tarballs"
-msgstr "Dobbelt-tjek de generede tarballs"
-
-#: about/releasemodel.php:124
-msgid "Proof-read release announcements"
-msgstr "Korrekturlæs udgivelsesbekendtgørelser"
-
-#: about/releasemodel.php:127
-msgid "Individual Maintainers"
-msgstr "Individuelle vedligeholdere"
-
-#: about/releasemodel.php:130
-msgid ""
-"Create component-specific tags for their maintainance and development "
-"releases"
-msgstr "Skab komponent-specifikke tags for deres vedligeholdelse og udviklings-udgivelser"
-
-#: about/releasemodel.php:131
-msgid "Generate tarballs for their maintainance and development releases"
-msgstr "Generer tarballs for deres vedligeholdelse og udviklings-udgivelser"
-
-#: about/releasemodel.php:132
-msgid "Write ChangeLogs and update NEWS files"
-msgstr "Skrive Ændrings-Notat og opdater NYHEDS filer"
-
-#: about/releasemodel.php:133
-msgid "Write component-specific release announcements"
-msgstr "Skriv komponent-specifikke udgivelsesbekendtgørelser"
-
-#: about/releasemodel.php:134
-msgid "Create Bugzilla tags for their releases"
-msgstr "Opret Bugzilla-tags til deres udgivelser"
-
-#: about/releasemodel.php:135
-msgid "Make sure API documentation is up to date"
-msgstr "Sørg for at API-dokumentation er up-to-date"
-
-#: about/releasemodel.php:138
-msgid "Dependency Freeze"
-msgstr "Afhængighedsfrysning"
-
-#: about/releasemodel.php:141
-msgid ""
-"During the first 2 weeks of the planning phase each maintainer is required "
-"to "
-msgstr "De første 2 uger af planlægnings-fasen er hvert enkel vedligeholder påkrævet til"
-
-#: about/releasemodel.php:145
-msgid "List the features he wants to implement in the release cycle"
-msgstr "List de funktioner han gerne vil have implementeret i udgivelses-cyklussen"
-
-#: about/releasemodel.php:146
-msgid "Investigate which dependencies are implied by that"
-msgstr "Undersøg hvilke afhængigheder er forudsat af dét"
-
-#: about/releasemodel.php:150
-msgid ""
-"At the end of this, a decision is made on which dependencies the next stable"
-" release of the Xfce core desktop will depend. In particular this includes "
-"the minimum required versions for all essential dependencies of the Xfce "
-"core desktop."
-msgstr "I slutningen af dette, er et valg taget på hvilke afhængigheder den næste stabile udgivelse af Xfce kerne-skrivebordet vil afhænge. Særligt inkluderer dette minimums-krav af versioner for all essensielle afhængigheder af Xfce kerne-skrivebordet."
-
-#: about/releasemodel.php:154
-msgid ""
-"Maintainers who were not available during the first 2 weeks of the planning "
-"phase have the chance to request dependency changes in the 2 weeks after "
-"that. "
-msgstr "Vedligeholdere der ikke er tilgængelige, de første 2 uger af planlægnings-fasen har chancen for at be om afhængigheds-ændringer de første 2 uger efter dét."
-
-#: about/releasemodel.php:158
-msgid ""
-"At the end of these 4 weeks, all components enter dependency freeze which "
-"means they may not change the dependencies (and their versions) they depend "
-"on. Optional dependencies for are still allowed to be added though."
-msgstr "I slutningen af disse 4 uger, indtræffer alle komponenter afhængigheds-frys hvilket betyder de ikke må ændre afhængighederne (og de versioner) de er afhængige af.\nValgfrie afhængigheder er dog stadigt tilladt at tilsætte."
-
-#: about/releasemodel.php:161
-msgid "Informing the Community"
-msgstr "Informere fællesskabet"
-
-#: about/releasemodel.php:164
-msgid ""
-"At the very end of the planning phase, a mail with planned features and "
-"dependencies for all components of the Xfce core desktop is sent to the "
-"xfce4-dev@xfce.org and xfce@xfce.org mailing lists."
-msgstr "I slutningen af planlægnings-fasen, er en mail med planlagte funktioner og afhængigheder for at alle komponenter af Xfce kerne-skrivebordet sendt til xfce4-dev@xfce.org og xfce@xfce.org's mailing liste."
-
-#: about/releasemodel.php:167
-msgid "Development Phase (5 Months)"
-msgstr "Udviklingsfase (5 måneder)"
-
-#: about/releasemodel.php:170
-msgid ""
-"During the development phase every maintainer is free to do maintenance and "
-"development releases of his components independently of the rest of Xfce."
-msgstr "I løbet af udviklings-fasen er hver vedligeholder fri til at vedligeholde og udvikle udgivelser of hans komponenter uafhængigt af resten af Xfce."
-
-#: about/releasemodel.php:173
-msgid "Development Releases"
-msgstr "Udviklingsudgivelser"
-
-#: about/releasemodel.php:176
-msgid ""
-"Development releases usually give a feature preview for the next stable "
-"release. They must follow the X.Y.Z versioning format, where Y is an odd "
-"number (e.g. xfwm4-4.7.3 or thunar-1.3.10)."
-msgstr "Udviklings-udgivelser giver som regel funktions-forhåndsvisning af den næste stabile udgivelse. De må følge X.Y.Z versionerings-formatet, hvor Y er et mærkeligt nummer (f.eks xfwm4-4.7.3 eller thunar-1.3.10)"
-
-#: about/releasemodel.php:180
-msgid ""
-"Maintainers are encouraged to do development releases for new features they "
-"want to make available to others. Frequent development releases can act as a"
-" replacement of the SVN revision versioning we had in the past. If component"
-" A depends on a new feature in component B, A may only be released if there "
-"is a development release of B shipping this feature. For this to work, "
-"libtool versions must be updated properly with every development release."
-msgstr "Vedligeholdere er opfordret til udviklings-udgivelser for nye funktioner de gerne vil gøre tilgængelige for andre. \nUdviklings-udgivelser kan ofte virke som en erstatning af SVN revision versionering vi tidligere har haft. Hvis komponent A afhænger af en ny funktion i komponent B. A må kun udgives hvis der er en udviklings-udgivelse af B der udgiver denne funktion. For at det virker, skal libtool versionerne være opdateret ordenligt, med hver udviklings-udgivelse."
-
-#: about/releasemodel.php:184
-msgid ""
-"Care has to be taken of the master branch of each component. The master "
-"branch should always remain in a release-ready state. New features should be"
-" developed in branches until they are ready (as in: compiling and the "
-"component will remain functional even after merging the feature(s) into the "
-"master branch), to lower the risk of delaying the final release of the "
-"entire Xfce core desktop."
-msgstr "Hoved-grenen af hver komponent, skal tilgås med forsigtighed. Hoved-grenen burde altid blive i et udgivelse-klar stadie. Nye funktioner burde blive udviklet i grene til de er klar (som i: kompilering og komponenten vil blive funktionel, selv efter sammenlægning af funktion(er) til hoved-grenen) til at mindske forsinkelsen af den sidste udgivelse af hele Xfce kerne-desktoppen."
-
-#: about/releasemodel.php:188
-msgid ""
-"New features breaking APIs or other core components should be communicated. "
-"Maintainers are suggested to prepare other components for these features in "
-"a separate branch before including the features in a new development "
-"release. That way the other components retain their release-ready state."
-msgstr "Nye funktioner knækker API'er og andre kerne komponenter, burde blive kommunikeret. Vedligeholdere er opfordret til at klargøre andre komponenter for disse funktioner, i en separat gren. Før funktionerne er inkluderet i en ny udviklings-udgivelse. På den måde beholder de andre komponenter deres udgivelses-klar stadie."
-
-#: about/releasemodel.php:192
-msgid "This is how the basic development workflow looks like:"
-msgstr "Sådan ser den grundlæggende udviklingsarbejdsgang ud:"
-
-#: about/releasemodel.php:196
-msgid "Development Workflow"
-msgstr "Udviklingsarbejdsgang"
-
-#: about/releasemodel.php:199
-msgid "Release Phase (10+ Weeks)"
-msgstr "Udgivelsesfase (10+ uger)"
-
-#: about/releasemodel.php:202
-msgid ""
-"During the release phase, there will be three pre-releases and one final "
-"release:"
-msgstr "Under udgivelsesfasen er der tre præudgivelser og en endelig udgivelse:"
-
-#: about/releasemodel.php:206
-msgid "Xfce X.Ypre1 (after  0  weeks, feature freeze),"
-msgstr "Xfce X.Ypre1 (efter 0 uger, funktionalitetsfrysning),"
-
-#: about/releasemodel.php:207
-msgid "Xfce X.Ypre2 (after  4  weeks, string freeze) and"
-msgstr "Xfce X.Ypre2 (efter 4 uger, strengfrysning) og"
-
-#: about/releasemodel.php:208
-msgid "Xfce X.Ypre3 (after  8  weeks, code freeze)"
-msgstr "Xfce X.Ypre3 (efter 8 uger, kodefrysning)"
-
-#: about/releasemodel.php:209
-msgid "Xfce X.Y     (after 10+ weeks)"
-msgstr "Xfce X.Y     (efter 10+ uger)"
-
-#: about/releasemodel.php:213
-msgid ""
-"where Y has to be an even number. Each of these releases has to include the "
-"latest development releases of all components (or stable, if there were no "
-"development releases since the last stable release) of the Xfce core "
-"desktop. The version numbers of these components may (even have to) differ "
-"from the naming scheme above. E.g. for Xfce 4.8.0pre2, xfwm4 could have the "
-"version 4.7.17 and Thunar could have 1.1.9."
-msgstr "Hvor Y skal være et lige tal. Hvert enkel af disse udgivelser, skal inkludere den seneste udvikling-udgivelse af alle komponenter. (eller stabil, hvis der ikke er nogen udviklings-udgivelser siden sidste stabile udgivelse) af Xfce kerne-skrivebordet. Version nummeret af disse komponenter har (eller skal) ændre sig fra navne-ordningen ovenfor. F.eks for Xfce 4.8.0pre2, xfwm4 kunne have version 4.7.17 og thunar kunne have 1.1.9."
-
-#: about/releasemodel.php:217
-msgid ""
-"This means that maintainers don't necessarily have to release new versions "
-"of their components along with one of the pre-releases. The release team "
-"always picks the latest available development or stable release of each "
-"component for pre-releases and the final release."
-msgstr "Dette betyder at vedligeholdere ikke behøver at udgive nye versioner af deres komponenter, samtidig med en af deres før-udgivelser. Dette udgivelses-hold vælger altid den seneste tilgængelige udviklings eller stabile udgivelse, af hver komponent til før-udgivelse og den endelige udgivelse."
-
-#: about/releasemodel.php:221
-msgid ""
-"The end of this phase marks a new stable release of the Xfce core desktop "
-"and therewith the start of a new release cycle."
-msgstr "Slutningen af denne fase, markerer en ny stabil udgivelse af Xfce kerne-skrivebordet og dermed starten af en ny udgivelses-cyklus."
-
-#: about/releasemodel.php:224
-msgid "Freezing before Releases"
-msgstr "Frysning inden udgivelser"
-
-#: about/releasemodel.php:227
-msgid "There are different freeze types before releases."
-msgstr "Der er forskellige frysningstyper inden udgivelser."
-
-#: about/releasemodel.php:230
-msgid "Feature Freeze"
-msgstr "Funktionalitetsfrysning"
-
-#: about/releasemodel.php:233
-msgid ""
-"With Xfce X.Ypre1, all core components enter feature freeze which means from"
-" there on only translations and bugfixes are allowed to go into the master "
-"branch."
-msgstr "Med Xfce X.Ypre1, alle kerne komponenter træder i funktions-frys, hvilket betyder at der derfra kun er oversættelser og fejl-retninger der er tilladt ind i hoved-grenen."
-
-#: about/releasemodel.php:236
-msgid "String/UI Freeze"
-msgstr "Streng-/brugerfladefrysning"
-
-#: about/releasemodel.php:239
-msgid ""
-"With Xfce X.Ypre2, all core components enter string/UI freeze which means "
-"from there on no strings which affect translations may be changed. Same goes"
-" for the user interface which may not be changed after this point."
-msgstr "Med Xfce X.Yfør2, vil alle kerne komponenter træde i streng/UI-frys, hvilket betyder at der derfra ingen strenge vil påvirke oversættelser, kan blive ændret. Det samme gælder for bruger-grænsefladen, hvilket ikke må ændres efter dette punkt."
-
-#: about/releasemodel.php:242
-msgid "Code Freeze"
-msgstr "Kodefrysning"
-
-#: about/releasemodel.php:245
-msgid ""
-"There is a short 2-days code freeze before every pre-release. During this "
-"period of time, no commits may be sent unless they are signed off by the "
-"release manager."
-msgstr "Der er en kort 2-dags kode-frysning før hver før-udgivelse. Under denne periode må ingen forpligter sendes, udover hvis de er underskrevet af udgivelses-manageren."
-
-#: about/releasemodel.php:249
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze which means from "
-"there on no code changes are allowed, unless they are signed off by the "
-"release manager. These should usually only be fixes to blocking or release-"
-"critical bugs. Translations are still allowed to go in."
-msgstr "Med Xfce X.Yfør3, alle kerne komponenter går i kode-frysning, hvilket betyder ingen kode-ændringer er tilladet, medmindre de er underskrevet af udgivelses-manageren. Disse burde egentlig kun være løsninger til blokering eller udgivelses-kritiske fejl. Oversættelser er stadig tilladt at gå ind."
-
-#: about/releasemodel.php:252
-msgid "Code Freeze Phase (2+ weeks)"
-msgstr "Kodefrysningsfase (2+ uger)"
-
-#: about/releasemodel.php:255
-msgid ""
-"With Xfce X.Ypre3, all core components enter code freeze. This phase is "
-"illustrated in the following figure and is explained in more detail in this "
-"section."
-msgstr "Med Xfce X.Yfør3, alle kerne komponenter træder i kode-frys. Denne fase er illustreret i den følgende figur og er uddybet i flere detaljer i denne sektion."
-
-#: about/releasemodel.php:259
-msgid ""
-"The code freeze and its exceptions are supported by commit hooks. There is "
-"an update hook which doesn't allow any changes to master unless they are "
-"signed off by the release manager. "
-msgstr "Kode-frysningen og dets undtagelser er understøttet af begå kroge. Der er en opdaterings-krog hvilket ikke tillader nogen ændringer til hoved, hvis ikke de er underskrevet af udgivelses-manageren."
-
-#: about/releasemodel.php:263
-msgid "Tagging and Branching for Releases"
-msgstr "Tagging og forgrening af udgivelser"
-
-#: about/releasemodel.php:266
-msgid "Bugfixes/Changes"
-msgstr "Fejlrettelser/ændringer"
-
-#: about/releasemodel.php:269
-msgid ""
-"If a core component requires fixes or changes during code freeze, the "
-"maintainer is required to create a new branch called ELS (//NAME OPEN FOR "
-"DISCUSSION//) to which he or she then commits the fixes. Refer to the "
-"section Code Freeze Exceptions if these are release-critical changes or "
-"fixes for blocking bugs."
-msgstr "Hvis en kerne komponent, behøver fejl-retninger eller ændringer under kode-frys, behøver vedligeholderen at skabe en ny gren kaldet ELS (//NAVN ÅBEN FOR DISKUSSION//) til hvillket han eller hun så sender fejl-retningerne. Referer til sektion Kode Frys Undtagelser, hvis disse er udgivelses-kritiske ændringer eller fejl-retninger for blokerende fejl."
-
-#: about/releasemodel.php:273
-msgid ""
-"The ELS branch only lives for a short period of time. It is merged into "
-"master and into the component's stable branch (e.g. xfwm4-4.8 or thunar-1.2)"
-" after the final release. Only bugfixes are allowed in this branch."
-msgstr "ELS grenen lever kun i én kort periode. Dette er sammenlagt til hoved og ind i komponentens stabile gren. (f.eks xfwm4-4.8 eller thunar-1.2) efter den endelige udgivelse. Kun fejl-retninger er tilladt i denne gren."
-
-#: about/releasemodel.php:276
-msgid "Code Freeze Exceptions"
-msgstr "Kodefrysningsundtagelser"
-
-#: about/releasemodel.php:278
-msgid "Blocking Bugs"
-msgstr "Blokerende fejl"
-
-#: about/releasemodel.php:281
-msgid ""
-"Certain bugs may delay the final release if they are considered blockers. "
-"This is the case under any of the following circumstances:"
-msgstr "Specifikke fejl har forsinkede endelige udgivelser, hvis de er taget i betragtning som blokeringer. Dette er sagen under nogen som helst, følgende omstændigheder:"
-
-#: about/releasemodel.php:285
-msgid "it crashes a core application"
-msgstr "det får et kerneprogram til at holde op med at virke"
-
-#: about/releasemodel.php:286
-msgid "it causes data loss"
-msgstr "det forårsager tab af data"
-
-#: about/releasemodel.php:287
-msgid "it causes an ever-growing memory leak"
-msgstr "det foresager et evigt voksende hukommelseslæk"
-
-#: about/releasemodel.php:288
-msgid "it locks the entire desktop GUI"
-msgstr "det låser hele skrivebordsbrugerfladen"
-
-#: about/releasemodel.php:292
-msgid "A bug may not delay a release if it meets the following criteria:"
-msgstr "En fejl må ikke forsinke en udgivelse, hvis den følger følgende kriterier:"
-
-#: about/releasemodel.php:296
-msgid ""
-"the hardware or architecture on which the bug occurs is exotic and/or "
-"there's no way for developers to reproduce the bug"
-msgstr "Hardwaren eller arkitekturen på hvilket fejl foregår er exotisk og/eller der på ingen måde for udviklere at gen-producere fejlen"
-
-#: about/releasemodel.php:300
-msgid ""
-"Fixes for these bugs are allowed to be applied during code freeze if, and "
-"only if they are signed off by the release manager."
-msgstr "Fejl-retninger for disse fejl er tilladt, at blive sat på under kode-frys og kun hvis de er underskrevet af udgivelses-manageren."
-
-#: about/releasemodel.php:303
-msgid "Release-Critical Changes"
-msgstr "Udgivelseskritiske ændringer"
-
-#: about/releasemodel.php:306
-msgid ""
-"Some changes may be of big concern with regards to the quality of the "
-"release. They are allowed to go in if, and only if they are signed off by "
-"the release manager."
-msgstr "Nogle ændringer må være en stor bekymring med hensyn til kvaliteten af udgivelsen. De er tilladt at gå ind, hvis og kun hvis de er underskrevet af udgivelses-manageren."
-
-#: about/releasemodel.php:309
-msgid "Releasing"
-msgstr "Udgiver"
-
-#: about/releasemodel.php:312
-msgid ""
-"For the final release (Xfce X.Y), all core components are tagged (twice, "
-"once with their own version and once with xfce-X.Y.0) and branched for the "
-"maintenance cycle (e.g. as thunar-1.2 or xfwm4-4.8). After that, the ELS "
-"branch is merged into master (where the development for the next release "
-"takes place) and into e.g. thunar-1.2 or xfwm4-4.8."
-msgstr "For den endelige udgivelse (Xfce X.Y), alle kerne komponenter er tagget (to gange, enkelt med deres egen version og endnu engang med xfce-X.Y.0) og deres grene for vedligeholdeses-cyklussen (f.eks som thunar-1.2 eller xfwm4-4.8). Efter dette er ELS grenen sammenlagt ind i hoved-grenen (hvor udviklingen for den næste udgivelse tager finder sted) og ind i f.eks thunar-1.2 eller xfwm4-4.8."
-
-#: about/releasemodel.php:315
-msgid "Maintenance Process"
-msgstr "Vedligeholdelsesforløb"
-
-#: about/releasemodel.php:318
-msgid ""
-"After the release of a final version, bugfixes and translation updates will "
-"be committed to a stable component-specific branch (like thunar-1.2 or "
-"xfwm4-4.8). Maintenance releases of individual components are not required "
-"to be synchronized."
-msgstr "Efter udgivelsen af den endelige version, vil fejl-retninger og oversættelses-opdateringer blive sat ind i stabil komponent-specifik grenen (Som thunar-1.2 eller xfwm4-4.8). Vedligeholdelses-udgivelser af individuelle komponenter kræver ikke synkronisation."
-
-#: about/releasemodel.php:321
-msgid "Maintenance Releases"
-msgstr "Vedligeholdelsesudgivelser"
-
-#: about/releasemodel.php:324
-msgid ""
-"There may be no API/ABI changes in maintenance releases compared to the "
-"corresponding final release of the Xfce core desktop. They also must follow "
-"the X.Y.Z versioning format, where Y is an even number (e.g. xfwm4-4.8.4 or "
-"thunar-1.2.4). No new features or strings may be introduced in these "
-"releases."
-msgstr "Der er muligvis ingen API/ABI ændringer i vedligeholdses-udgivelsen, sammenlignet med den korresponderende endelige udgivelse af Xfce kerne-skrivebordet. De skal også følge X.Y.Z versionerings-formatet, hvor Y er et lige tal (f.eks xfwm4-4.8.4 eller thunar-1.2.4). Ingen nye funktioner eller strenge må introduceres i disse udgivelser."
-
-#: about/releasemodel.php:328
-msgid "Authors"
-msgstr "Forfattere"
 
 #: about/tour410.php:1
 msgid "Xfce 4.10 tour"
@@ -3414,69 +2828,9 @@ msgstr "Alle headerlinjer i Xfce-vinduer/-dialoger tegnes nu som standard af vin
 msgid "xfce-appearance-settings - Preference to enable GtkHeaderBar"
 msgstr "xfce-appearance-settings - Præference til at aktivere GtkHeaderBar"
 
-#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
-msgid "Related Pages"
-msgstr "Relaterede sider"
-
-#: about/nav.php:4
-msgid "4.20 Tour"
-msgstr "4.20 rundvisning"
-
-#: about/nav.php:5
-msgid "visual tour of new features in the last few major releases"
-msgstr "visuel rundvisning over nye funktionaliteter i de sidste få større udgivelser"
-
-#: about/nav.php:9
-msgid "4.18 Tour"
-msgstr "4.18 rundvisning"
-
-#: about/nav.php:10
-msgid "4.16 Tour"
-msgstr "4.16 rundvisning"
-
-#: about/nav.php:11
-msgid "4.14 Tour"
-msgstr "4.14 rundvisning"
-
-#: about/nav.php:12
-msgid "4.12 Tour"
-msgstr "4.12 rundvisning"
-
-#: about/nav.php:13
-msgid "4.10 Tour"
-msgstr "4.10 rundvisning"
-
-#: about/nav.php:14
-msgid "4.8 Tour"
-msgstr "4.8 rundvisning"
-
-#: about/nav.php:15
-msgid "4.6 Tour"
-msgstr "4.6 rundvisning"
-
-#: about/nav.php:16
-msgid "4.4 Tour"
-msgstr "4.4 rundvisning"
-
-#: about/nav.php:21
-msgid "release announcements"
-msgstr "udgivelsesbekendtgørelser"
-
-#: about/nav.php:25 about/screenshots.php:1 frontpage.php:63
+#: about/screenshots.php:1 about/nav.php:25 frontpage.php:63
 msgid "Screenshots"
 msgstr "Skærmbilleder"
-
-#: about/nav.php:26 frontpage.php:64
-msgid "see examples of Xfce desktops"
-msgstr "se eksempler på Xfce-skriveborde"
-
-#: about/nav.php:31
-msgid "list of all contributors"
-msgstr "liste over alle bidragydere"
-
-#: about/nav.php:36
-msgid "the Xfce release policy for core modules"
-msgstr "Xfce's udgivelsesretningslinje for kernemoduler"
 
 #: about/screenshots.php:20
 msgid "Some screenshots of Xfce, ordered by version."
@@ -3564,7 +2918,7 @@ msgid ""
 " specific calls and making use of Wayland/Wlroots protocols. A whole new "
 "Xfce library, \"libxfce4windowing\" was introduced during that process. "
 "XWayland will not be required to run any of the ported Xfce components."
-msgstr ""
+msgstr "Det store arbejde blev opnået ved at gå væk fra X11-/Wayland-windowing specifikke kald og bruge Wayland-/Wlroots-protokoller. I processen blev et helt nyt Xfce-bibliotek introduceret kaldet \"libxfce4windowing\". XWayland kræves ikke for at køre de porterede Xfce-komponenter."
 
 #: about/tour.php:15 about/tour420.php:15
 msgid ""
@@ -3573,7 +2927,7 @@ msgid ""
 "results. A detailed instruction on this can be found <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">here</a>. "
 "Please be aware that Wayland support is still experimental!"
-msgstr ""
+msgstr "Indtil videre har Xfce ikke en kompositør der understøtter Wayland. Hvis du vil køre Xfce i Wayland, så giver Labwc og Wayfire de bedste resultater. Du kan finde detaljeret intruktioners om det <a href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">her</a>. Vær venligst opmærksom på at understøttelse af Wayland er eksperimental!"
 
 #: about/tour.php:16 about/tour420.php:16
 msgid ""
@@ -3581,27 +2935,27 @@ msgid ""
 "existing X11 functionality. However, such a restructurization will be a "
 "major effort and we cannot tell yet when/if it will be done, so please don't"
 " hold your breath waiting for it."
-msgstr ""
+msgstr "Der er planer om at tilføje understøttelse af Wayland til Xfwm4 samtidig med at den eksisterende X11-funktionalitet bevares. Men sådan en omstrukturering vil kræve meget arbejde og vi kan endnu ikke sige hvornår/om det vil ske, så vent venligst ikke på at det kommer til at ske snart."
 
 #: about/tour.php:18 about/tour420.php:18
 msgid ""
 "For few components and multiple features, it was not possible to port them "
 "to Wayland, partly because there are no standardized Wayland protocols "
 "available yet to provide the required services:"
-msgstr ""
+msgstr "Nogle få komponenter og adskillige funktioner kunne ikke porteres til Wayland, delvist pga. at der endnu ikke findes nogen standardiserede Wayland-protokoller til at levere de nødvendige tjenester:"
 
 #: about/tour.php:20 about/tour420.php:20
 msgid ""
 "Workspace support is missing (ext-workspace protocol <a "
 "href=\"https://gitlab.freedesktop.org/wayland/wayland-"
 "protocols/-/merge_requests/40\">was just merged</a>)."
-msgstr ""
+msgstr "Understøttelse af arbejdsområder mangler (protokollen ext-workspace <a href=\"https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40\">er netop blevet sammenlagt</a>)."
 
 #: about/tour.php:21 about/tour420.php:21
 msgid ""
 "Systray icons will be missing for multiple applications (required to use "
 "StatusNotifier instead of GtkStatusIcon)"
-msgstr ""
+msgstr "Systembakkeikoner mangler for adskillige programmer (der kræves brug af StatusNotifier i stedet for GtkStatusIcon)"
 
 #: about/tour.php:22 about/tour420.php:22
 msgid ""
@@ -3649,18 +3003,18 @@ msgstr ""
 msgid ""
 "Xfce4-windowck-plugin (needs to be <a href=\"https://gitlab.xfce.org/panel-"
 "plugins/xfce4-windowck-plugin/-/issues/37\">ported to libxfce4windowing</a>)"
-msgstr ""
+msgstr "Xfce4-windowck-plugin (skal <a href=\"https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37\">porteres til libxfce4windowing</a>)"
 
 #: about/tour.php:32 about/tour420.php:32
 msgid ""
 "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)"
-msgstr ""
+msgstr "Xfce4-xkb-plugin (tastaturhandling er interne for Wayland-kompositøren)"
 
 #: about/tour.php:35 about/tour420.php:35
 msgid ""
 "More detailed info on the current Wayland status can be found on our <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland roadmap.</a>"
-msgstr ""
+msgstr "Mere detaljeret information om den nuværende status for Wayland kan findes i vores <a href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland roadmap.</a>"
 
 #: about/tour.php:38 about/tour420.php:38
 msgid ""
@@ -3730,7 +3084,7 @@ msgstr "Monterede og fjernplaceringer"
 
 #: about/tour.php:71 about/tour420.php:71
 msgid "Mount points now show an emblem and have a specific type description."
-msgstr ""
+msgstr "Monteringspunkter viser nu et emblem og har en bestemt typebeskrivelse."
 
 #: about/tour.php:72 about/tour420.php:72
 msgid "Ipv6 remote URLs are now supported."
@@ -3739,7 +3093,7 @@ msgstr "Ipv6 fjern-URL'er understøttes nu."
 #: about/tour.php:73 about/tour420.php:73
 msgid ""
 "It is now possible to create symbolic links as well on remote locations."
-msgstr ""
+msgstr "Det er nu muligt at oprette symbolske henvisninger på fjernplaceringer."
 
 #: about/tour.php:75 about/tour420.php:75
 msgid "Search"
@@ -3812,7 +3166,7 @@ msgstr "thunar - klientside-dekorationer uden menu"
 #: about/tour.php:98 about/tour420.php:98
 msgid ""
 "An option to show the number of hidden files in the statusbar was added."
-msgstr ""
+msgstr "Der blev tilføjet en valgmulighed til at vise antallet af skjulte filer i statuslinjen."
 
 #: about/tour.php:100 about/tour420.php:100
 msgid "Recently Used Files"
@@ -3822,11 +3176,11 @@ msgstr "Seneste brugte filer"
 msgid ""
 "Only files which were successfully opened are now added to the list of "
 "recently used files."
-msgstr ""
+msgstr "Det er nu kun filer som det lykkedes at åbne der bliver tilføjet til listen over seneste brugte filer."
 
 #: about/tour.php:102 about/tour420.php:102
 msgid "Directories won't be added to the recently used files anymore."
-msgstr ""
+msgstr "Mapper tilføjes ikke længere til de seneste brugte filer."
 
 #: about/tour.php:104 about/tour420.php:104
 msgid "Symbolic Icons"
@@ -3836,7 +3190,7 @@ msgstr "Symbolske ikoner"
 msgid ""
 "There is now an option to use symbolic icons in the side pane and colored "
 "icons in the toolbar."
-msgstr ""
+msgstr "Der er nu en valgmulighed til at bruge symbolske ikoner i sidepanalet og farvede ikoner på værktøjslinjen."
 
 #: about/tour.php:106 about/tour420.php:106
 msgid "thunar - symbolic icons"
@@ -3852,13 +3206,13 @@ msgstr "Træk og slip"
 
 #: about/tour.php:110 about/tour420.php:110
 msgid "While dragging files, folders are now opened automatically on hover."
-msgstr ""
+msgstr "Mapper åbnes nu automatisk når filer trækkes henover."
 
 #: about/tour.php:111 about/tour420.php:111
 msgid ""
 "While dragging files, the focus of the split view pane is now updated when "
 "hovered."
-msgstr ""
+msgstr "Fokussen af ruden opdelt visning opdateres nu når filer trækkes henover."
 
 #: about/tour.php:113 about/tour420.php:113
 msgid "Performance"
@@ -3890,7 +3244,7 @@ msgstr ""
 msgid ""
 "Shortcuts for custom action will now as well work when the custom action is "
 "located in a sub-menu."
-msgstr ""
+msgstr "Genveje for tilpasset handling virker nu også når den tilpasset handling er placeret i en undermenu."
 
 #: about/tour.php:121 about/tour420.php:121
 msgid "File Transfer"
@@ -3974,7 +3328,7 @@ msgstr ""
 msgid ""
 "The application list now as well can be navigated via Ctrl+N / Ctrl+P keys "
 "(VI default)."
-msgstr ""
+msgstr "Programlisten kan nu også navigeres via tasterne Ctrl+N / Ctrl+P (standard i VI)."
 
 #: about/tour.php:149 about/tour420.php:149
 msgid ""
@@ -3986,7 +3340,7 @@ msgstr ""
 msgid ""
 "Ctrl+Enter can be used to execute commands immediately when selecting "
 "entries from the dropdown."
-msgstr ""
+msgstr "Ctrl+Enter kan bruges til at udføre kommandoer med det samme når der vælges punkter i dropdown'en."
 
 #: about/tour.php:151 about/tour420.php:151
 msgid ""
@@ -4124,7 +3478,7 @@ msgstr ""
 
 #: about/tour.php:196 about/tour420.php:196
 msgid "There is now support for the hybrid sleep mode."
-msgstr ""
+msgstr "Der er nu understøttelse af tilstanden hybrid søvn."
 
 #: about/tour.php:197 about/tour420.php:197
 msgid "The device details tab now as well shows the energy rate."
@@ -4258,7 +3612,7 @@ msgstr ""
 #: about/tour.php:242 about/tour420.php:242
 msgid ""
 "Whitespaces are now properly escaped when writing a xfconf channel to disk."
-msgstr ""
+msgstr "Blanktegn undviges nu korrekt når der skrives en xfconf-kanal til disk."
 
 #: about/tour.php:243 about/tour420.php:243
 msgid "Xfconf-query now displays array contents."
@@ -4278,7 +3632,7 @@ msgstr ""
 msgid ""
 "Old Xfce backgrounds were ported from .png to .svg to be usable for large "
 "screens."
-msgstr ""
+msgstr "Gamle Xfce-baggrunde blev porteret fra .png til .svg, så de kan bruges på store skærme."
 
 #: about/tour.php:252 about/tour420.php:252
 msgid "Gradients will now be rendered in a gamma-correct way."
@@ -4290,16 +3644,16 @@ msgstr "Ikongitter"
 
 #: about/tour.php:255 about/tour420.php:255
 msgid "The confirmation dialog for arranging desktop icons now is optional."
-msgstr ""
+msgstr "Bekræftigelsesdialogen til at opstille skrivebordsikoner er nu valgfri."
 
 #: about/tour.php:256 about/tour420.php:256
 msgid ""
 "It is now possible to set custom colors for icon labels and icon background."
-msgstr ""
+msgstr "Det er nu muligt at indstille tilpassede farver for ikoners etiketter og baggrund."
 
 #: about/tour.php:257 about/tour420.php:257
 msgid "The icon grid on each monitor is now independent of one another."
-msgstr ""
+msgstr "Ikongitteret på hver skærm fungerer nu uafhængigt af hinanden."
 
 #: about/tour.php:259 about/tour420.php:259
 msgid "Minimized Application Icons"
@@ -4323,7 +3677,7 @@ msgstr "Filikoner"
 
 #: about/tour.php:264 about/tour420.php:264
 msgid "There is now an option to sort folders before files."
-msgstr ""
+msgstr "Der er nu en valgmulighed til at sortere mapper før filer."
 
 #: about/tour.php:265 about/tour420.php:265
 msgid ""
@@ -4335,7 +3689,7 @@ msgstr ""
 msgid ""
 "New files and dropped files now will be placed near the current cursor "
 "location."
-msgstr ""
+msgstr "Nye filer og filer som slippes placeres nu nær den nuværende markørposition."
 
 #: about/tour.php:267 about/tour420.php:267
 msgid "Icons of fixed disks and drives can now be optionally shown."
@@ -4343,7 +3697,7 @@ msgstr ""
 
 #: about/tour.php:270 about/tour420.php:270
 msgid "The 'Desktop Icons' tab was fully reworked."
-msgstr ""
+msgstr "Fanebladet 'Skrivebordsikoner' blev lavet helt om."
 
 #: about/tour.php:271 about/tour420.php:271
 msgid "xfdesktop - settings - desktop icons"
@@ -4353,7 +3707,7 @@ msgstr "xfdesktop - indstillinger - skrivebordsikoner"
 msgid ""
 "All shortcuts of Xfdesktop now can be configured, using the "
 "XfceShortcutsManagers widget."
-msgstr ""
+msgstr "Alle genveje i Xfdesktop kan nu konfigureres med XfceShortcutsManagers-widget'en."
 
 #: about/tour.php:273 about/tour420.php:273
 msgid "xfdesktop - settings - keyboard shortcuts"
@@ -4401,11 +3755,11 @@ msgstr ""
 
 #: about/tour.php:287 about/tour420.php:287
 msgid "Support for stretch theme variants"
-msgstr ""
+msgstr "Understøttelse af strukket tema varianter"
 
 #: about/tour.php:288 about/tour420.php:288
 msgid "compositor: Block softpipe for GLX vsync"
-msgstr ""
+msgstr "kompositør: Bloker softpipe for GLX vsync"
 
 #: about/tour.php:289 about/tour420.php:289
 msgid "focus: Include skip taskbar/pager when passing focus"
@@ -4415,11 +3769,67 @@ msgstr ""
 msgid ""
 "Fix crash when alt-tabbing (<a "
 "href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
-msgstr "Ret nedbrud ved brug af alt-tab (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
+msgstr "Ret nedbrud når alt-tab bruges (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
 
 #: about/tour.php:293 about/tour420.php:293
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
-msgstr ""
+msgstr "Anvendt tema: \"Greybird-dark\". Anvendt ikontema: \"elementary Xfce dark\"."
+
+#: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
+msgid "Related Pages"
+msgstr "Relaterede sider"
+
+#: about/nav.php:4
+msgid "4.20 Tour"
+msgstr "4.20 rundvisning"
+
+#: about/nav.php:5
+msgid "visual tour of new features in the last few major releases"
+msgstr "visuel rundvisning over nye funktionaliteter i de sidste få større udgivelser"
+
+#: about/nav.php:9
+msgid "4.18 Tour"
+msgstr "4.18 rundvisning"
+
+#: about/nav.php:10
+msgid "4.16 Tour"
+msgstr "4.16 rundvisning"
+
+#: about/nav.php:11
+msgid "4.14 Tour"
+msgstr "4.14 rundvisning"
+
+#: about/nav.php:12
+msgid "4.12 Tour"
+msgstr "4.12 rundvisning"
+
+#: about/nav.php:13
+msgid "4.10 Tour"
+msgstr "4.10 rundvisning"
+
+#: about/nav.php:14
+msgid "4.8 Tour"
+msgstr "4.8 rundvisning"
+
+#: about/nav.php:15
+msgid "4.6 Tour"
+msgstr "4.6 rundvisning"
+
+#: about/nav.php:16
+msgid "4.4 Tour"
+msgstr "4.4 rundvisning"
+
+#: about/nav.php:21
+msgid "release announcements"
+msgstr "udgivelsesbekendtgørelser"
+
+#: about/nav.php:26 frontpage.php:64
+msgid "see examples of Xfce desktops"
+msgstr "se eksempler på Xfce-skriveborde"
+
+#: about/nav.php:31
+msgid "list of all contributors"
+msgstr "liste over alle bidragydere"
 
 #: community/nav.php:1 download/nav.php:11 getinvolved/nav.php:11
 #: projects/nav.php:1
@@ -4793,6 +4203,10 @@ msgid ""
 "information."
 msgstr "Xfce-projektet indeholder flere separate projekter til hver del af skrivebordet. Nogle projekter har deres egne projektpakker til at give yderligere information."
 
+#: projects/index.php:15
+msgid "Core Components"
+msgstr "Kernekomponenter"
+
 #: projects/index.php:22
 msgid ""
 "It manages the placement of application windows on the screen, provides "
@@ -5069,14 +4483,14 @@ msgid ""
 "Since Xfce 4.18 a lot of major development happened. Our team added many "
 "nice new features, did a gazillion of bug fixes and did various minor "
 "improvements. Finally, all that was released for your pleasure."
-msgstr "Siden Xfce 4.18 har der været massere af udvikling. Vores team har tilføjet mange nye fine funktionaliteter, lavede en kæmpe mænge fejlrettelser og diverse mindre forbedringer. Det bliver altsammen langt om længe udgivet til glæde for dig."
+msgstr "Siden Xfce 4.18 har der været massere af udvikling. Vores team har tilføjet mange nye fine funktionaliteter, lavede en kæmpe mængde fejlrettelser og diverse mindre forbedringer. Det bliver altsammen langt om længe udgivet til glæde for dig."
 
 #: news-array.php:20
 msgid ""
 "The major focus during this development cycle was the preparation of the "
 "codebase to be ready for Wayland. So that we meanwhile have experimental "
 "Wayland support for most components. More details in the links below."
-msgstr ""
+msgstr "Det store fokus i denne udviklingscyklus var forberedelse af kodebasen, så den kan være klar til Wayland. Så vi i mellemtiden har eksperimental understøttelse af Wayland for de fleste komponenter. Der er flere detaljer i linkene nedenfor."
 
 #: news-array.php:21
 msgid ""
@@ -5117,7 +4531,7 @@ msgid ""
 "Since Xfce 4.16 a lot of major development happened. Our team added multiple"
 " nice new features, did a gazillion of bug fixes and did various minor "
 "improvements. Finally, all that is going to be released for your pleasure."
-msgstr "Siden Xfce 4.16 har der været massere af udvikling. Vores team har tilføjet adskillige nye fine funktionaliteter, lavede en kæmpe mænge fejlrettelser og diverse mindre forbedringer. Det bliver altsammen langt om længe udgivet til glæde for dig."
+msgstr "Siden Xfce 4.16 har der været massere af udvikling. Vores team har tilføjet adskillige nye fine funktionaliteter, lavede en kæmpe mængde fejlrettelser og diverse mindre forbedringer. Det bliver altsammen langt om længe udgivet til glæde for dig."
 
 #: news-array.php:40
 msgid ""
