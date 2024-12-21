@@ -217,7 +217,7 @@
       <p><?php E_("Icon themes are now loaded in a separate thread, in order to prevent a possible freeze.") ?></p>
       <p><?php E_("For icon themes which are known to be incomplete, a warning now will be shown.") ?></p>
       <p><?php E_("The usage of client side decorations is opt-in now, not opt-out.") ?></p>
-      <p><?php E_("Dark themes now are identified and supported in a more reliable way. (Relevant e.g. for the Qogir and Orchis themes)") ?></p>´
+      <p><?php E_("Dark themes now are identified and supported in a more reliable way. (Relevant e.g. for the Qogir and Orchis themes)") ?></p>
 
     <h3><?php E_("Display Settings") ?></h3>
       <p><?php E_("The default display profile has been added to the list of profiles that can match, and will be used if more than one matches now.") ?></p>
