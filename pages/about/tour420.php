@@ -113,7 +113,7 @@
     <h3><?php E_("Performance") ?></h3>
       <p><?php E_("In the past, you might have faced situation involving bigger numbers of files in which thunar showed a freeze. Due to various different performance measures, thunar now is much more bullet-proof for action involving huge numbers of files.") ?></p>
       <p><?php E_("This was achieved by using appropriate container types, moving some actions into separate jobs and throttling of view-updates.") ?></p>
-      <p><?php E_("A <a href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>number of integration test cases</a> will be used in order to keep performance on the current level in the future.") ?></p>
+      <p><?php E_("A <a href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\">number of integration test cases</a> will be used in order to keep performance on the current level in the future.") ?></p>
 
     <h3><?php E_("Custom Actions") ?></h3>
       <p><?php E_("Shortcuts for custom action will now as well work when the custom action is located in a sub-menu.") ?></p>
