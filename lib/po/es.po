@@ -36,6 +36,7 @@
 # LoboGuardian, 2023
 # David Segura Monroy <davidseg@gmail.com>, 2013
 # Reinaldo Espinosa, 2024
+# Reinaldo Espinosa, 2024
 # Brian Peraza-Orozco <brian.peraza@gmail.com>, 2013
 # Toni Estévez <toni.estevez@gmail.com>, 2021
 msgid ""
@@ -44,7 +45,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
-"Last-Translator: Reinaldo Espinosa, 2024\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
 "Language-Team: Spanish (http://app.transifex.com/xfce/xfce-www/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2924,7 +2925,7 @@ msgstr "Este paseo le permitirá conocer las nuevas características de Xfce 4.2
 msgid ""
 "Check the full <a href=\"/download/changelogs/4.20/\">Xfce 4.20 "
 "changelog</a> for a detailed list of changes."
-msgstr ""
+msgstr "Revise la  <a href=\"/download/changelogs/4.20/\">lista de cambios de Xfce 4.20 </a> para obtener una lista detallada de los cambios."
 
 #: about/tour.php:11 about/tour420.php:11
 msgid ""
@@ -2932,7 +2933,7 @@ msgid ""
 "4.20 is experimental. It is recommended for advanced users only, as you may "
 "encounter bugs and experience incomplete functionality. Proceed with "
 "caution!"
-msgstr ""
+msgstr "<b>Atención:</> Por favor, tenga en cuenta que el soporte para Wayland es experimental en Xfce 4.20. Solo se recomienda su uso por usuarios avanzados, puesto que puede encontrar errores y funcionalidad incompleta. Proceda con precaución!"
 
 #: about/tour.php:13 about/tour420.php:13
 msgid ""
@@ -2940,7 +2941,7 @@ msgid ""
 "href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> almost all Xfce "
 "components are able to run on Wayland windowing, while still keeping support"
 " for X11 windowing."
-msgstr ""
+msgstr "Gracias a <a href=\"https://gitlab.xfce.org/kelnos\">Brian</a> y <a href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> casi todos los componentes de Xfce se pueden ejecutar en Wayland, mientras mantienen el soporte para X11."
 
 #: about/tour.php:14 about/tour420.php:14
 msgid ""
@@ -2948,7 +2949,7 @@ msgid ""
 " specific calls and making use of Wayland/Wlroots protocols. A whole new "
 "Xfce library, \"libxfce4windowing\" was introduced during that process. "
 "XWayland will not be required to run any of the ported Xfce components."
-msgstr ""
+msgstr "Esto se logró abstrayendo cualquier llamada específica de X11/Wayland y usando los protocolos Wayland/Wlroots. Una nueva librería de Xfce, \"libxfce4windowing\" se introdujo durante este proceso.  No será necesario ejecutar XWayland para la ejecución de ninguno de los componentes de Xfce portados."
 
 #: about/tour.php:15 about/tour420.php:15
 msgid ""
@@ -2957,7 +2958,7 @@ msgid ""
 "results. A detailed instruction on this can be found <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">here</a>. "
 "Please be aware that Wayland support is still experimental!"
-msgstr ""
+msgstr "Hasta el momento Xfce no tiene un compositor con soporte para Wayland. Si usted desea ejecutar Xfce en Wayland, Labwc y Wayfire le darán los mejores resultados. Instrucciones detallas están disponibles <a href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">aquí</a>. Por favor, tenga en cuenta que el soporte para Wayland es experimental!"
 
 #: about/tour.php:16 about/tour420.php:16
 msgid ""
@@ -2965,41 +2966,41 @@ msgid ""
 "existing X11 functionality. However, such a restructurization will be a "
 "major effort and we cannot tell yet when/if it will be done, so please don't"
 " hold your breath waiting for it."
-msgstr ""
+msgstr "Existen planes para añadir soporte para Wayland a Xfwm4 mientras se preserva la funcionalidad en X11. Sin embargo, semejante reestructuración requiere un esfuerzo importante y no podemos decir cuando o si será completado, así que, por favor, espere sentado."
 
 #: about/tour.php:18 about/tour420.php:18
 msgid ""
 "For few components and multiple features, it was not possible to port them "
 "to Wayland, partly because there are no standardized Wayland protocols "
 "available yet to provide the required services:"
-msgstr ""
+msgstr "Algunos componentes y múltiples funcionalidades no pudieron ser portadas a Wayland, en parte porque no existen protocolos estandarizados en Wayland disponibles para proveer los servicios requeridos:"
 
 #: about/tour.php:20 about/tour420.php:20
 msgid ""
 "Workspace support is missing (ext-workspace protocol <a "
 "href=\"https://gitlab.freedesktop.org/wayland/wayland-"
 "protocols/-/merge_requests/40\">was just merged</a>)."
-msgstr ""
+msgstr "El soporte para los espacios de trabajo no está disponible (el protocolo ext-workspace <a href=\"https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40\">acaba de ser añadido</a>)."
 
 #: about/tour.php:21 about/tour420.php:21
 msgid ""
 "Systray icons will be missing for multiple applications (required to use "
 "StatusNotifier instead of GtkStatusIcon)"
-msgstr ""
+msgstr "Los íconos en la bandeja de estado no se mostrarán para múltiples aplicaciones (requieren usar StatusNotifier en lugar de GtkStatusIcon)"
 
 #: about/tour.php:22 about/tour420.php:22
 msgid ""
 "Xfce4-settings: Keyboard and mouse settings so far are internal to the "
 "Wayland compositor and as such the according Xfce dialogs won't be available"
 " on Wayland yet."
-msgstr ""
+msgstr "Xfce4-settings: Las configuraciones de teclado y ratón hasta ahora son internas del compositorWayland y por tanto estas opciones de Xfce no estarán disponibles en Wayland todavía."
 
 #: about/tour.php:23 about/tour420.php:23
 msgid ""
 "Power related keyboard handling (brightness keys, suspend, etc.) is internal"
 " to the Wayland compositor and as such cannot be supported yet by Xfce "
 "components."
-msgstr ""
+msgstr "El soporte para teclas especiales relacionadas con la energía (teclas de brillo, suspender, etc.) es interno al compositor Wayland y como tal no puede ser soportado aún por los componentes de Xfce. "
 
 #: about/tour.php:24 about/tour420.php:24
 msgid ""
@@ -3007,19 +3008,19 @@ msgid ""
 "xfce4-screenshooter already supports screenshots via the wlroots "
 "'screencopy' protocol (entire screen). Screenshots of a rectangle selection "
 "or the active window are not yet supported via Wayland."
-msgstr ""
+msgstr "Wayland no especifica un protocolo nativo para realizar capturas de pantalla. Sin embargo xfce4-screenshooter ya soporta capturas de pantalla a través del protocolo wlroots 'screencopy' (pantalla completa). Las capturas de pantalla de una selección rectangular o de la ventana activa aún no están soportadas en Wayland."
 
 #: about/tour.php:26 about/tour420.php:26
 msgid "Some other Xfce components don't run at all on Wayland:"
-msgstr ""
+msgstr "Otros componentes de Xfce no funcionan en Wayland:"
 
 #: about/tour.php:28 about/tour420.php:28
 msgid "Xfwm4"
-msgstr ""
+msgstr "Xfwm4"
 
 #: about/tour.php:29 about/tour420.php:29
 msgid "Xfdashboard"
-msgstr ""
+msgstr "Xfdashboard"
 
 #: about/tour.php:30 about/tour420.php:30
 msgid ""
@@ -3027,41 +3028,41 @@ msgid ""
 "href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">completed"
 " but not merged</a>, as it requires the experimental <a "
 "href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed library</a>)"
-msgstr ""
+msgstr "Xfce4-screensaver (Portado a Wayland <a href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">pero no añadido</a>, debido a que requiere la librería experimental <a href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed</a>)"
 
 #: about/tour.php:31 about/tour420.php:31
 msgid ""
 "Xfce4-windowck-plugin (needs to be <a href=\"https://gitlab.xfce.org/panel-"
 "plugins/xfce4-windowck-plugin/-/issues/37\">ported to libxfce4windowing</a>)"
-msgstr ""
+msgstr "Xfce4-windowck-plugin (necesita <a href=\"https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37\">ser portado a libxfce4windowing</a>)"
 
 #: about/tour.php:32 about/tour420.php:32
 msgid ""
 "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)"
-msgstr ""
+msgstr "Xfce4-xkb-plugin (el manejo del teclado es interno en el compositor Wayland)"
 
 #: about/tour.php:35 about/tour420.php:35
 msgid ""
 "More detailed info on the current Wayland status can be found on our <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland roadmap.</a>"
-msgstr ""
+msgstr "Información más detallada en el estado actual del soporte de Wayland está disponible en nuestra <a href=\"https://wiki.xfce.org/releng/wayland_roadmap\"> hoja de ruta de Wayland.</a>"
 
 #: about/tour.php:38 about/tour420.php:38
 msgid ""
 "Icons and thumbnail scaling was fixed for various components. Various "
 "missing icons for larger scales were added. Any blurriness when using Xfce "
 "components on a HiDPI display should be gone now."
-msgstr ""
+msgstr "Se ha corregido la escala de los iconos y las miniaturas de varios componentes. Varios iconos que faltaban para escalas mayores. Cualquier borrosidad al usar componentes Xfce en una pantalla HiDPI debería haber desaparecido."
 
 #: about/tour.php:43 about/tour420.php:43
 msgid "Icon View Performance"
-msgstr ""
+msgstr "Rendimiento de la Vista de Íconos"
 
 #: about/tour.php:44 about/tour420.php:44
 msgid ""
 "By using different container types, the \"Exo-Icon-View\" now can handle "
 "100,000 files and more without freezing."
-msgstr ""
+msgstr "Mediante el uso de diferentes tipos de contenedores, el «Exo-Icon-View» ahora puede manejar 100.000 archivos y más sin congelarse."
 
 #: about/tour.php:46 about/tour420.php:46
 msgid "Type ahead search box"
@@ -3075,30 +3076,30 @@ msgstr ""
 
 #: about/tour.php:52 about/tour420.php:52
 msgid "Shortcut Editor"
-msgstr ""
+msgstr "Editor de Atajos"
 
 #: about/tour.php:53 about/tour420.php:53
 msgid ""
 "Shortcuts now can be used for multiple actions if they don't conflict with "
 "each other."
-msgstr ""
+msgstr "Los atajos de teclado ahora se pueden utilizar para varias acciones si no entran en conflicto entre sí. "
 
 #: about/tour.php:56 about/tour420.php:56
 msgid ""
 "The dialog now shows the distribution logo, information about the used "
 "windowing system and the used GPU."
-msgstr ""
+msgstr "El cuadro de diálogo muestra ahora el logotipo de la distribución, información sobre el sistema de ventanas utilizado y la GPU utilizada."
 
 #: about/tour.php:57 about/tour420.php:57
 msgid "libxfce4ui - about dialog"
-msgstr ""
+msgstr "libxfce4ui - diálogo acerca de"
 
 #: about/tour.php:62 about/tour420.php:62
 msgid ""
 "This library is new to Xfce. Libxfce4windowing is an abstraction library "
 "that attempts to present windowing concepts (screens, top level windows, "
 "workspaces, etc.) in a windowing-system-independent manner."
-msgstr ""
+msgstr "Esta biblioteca es nueva en Xfce. Libxfce4windowing es una biblioteca de abstracción que intenta presentar conceptos de ventanas (pantallas, ventanas de nivel superior, espacios de trabajo, etc.) de una manera independiente del sistema de ventanas."
 
 #: about/tour.php:64 about/tour420.php:64
 msgid ""
@@ -3106,147 +3107,147 @@ msgid ""
 "supported by using various Wayland protocol extensions. However, the full "
 "range of operations available on X11 is not available on Wayland, due to "
 "missing features in these protocols extensions."
-msgstr ""
+msgstr "Actualmente, X11 está totalmente soportado a través de libwnck. Wayland está parcialmente soportado mediante el uso de varias extensiones del protocolo Wayland. Sin embargo, toda la gama de operaciones disponibles en X11 no está disponible en Wayland, debido a características que faltan en estas extensiones de protocolos."
 
 #: about/tour.php:70 about/tour420.php:70
 msgid "Mounted and Remote Locations"
-msgstr ""
+msgstr "Ubicaciones Montadas y Remotas"
 
 #: about/tour.php:71 about/tour420.php:71
 msgid "Mount points now show an emblem and have a specific type description."
-msgstr ""
+msgstr "Los puntos de montaje muestran ahora un emblema y tienen una descripción de tipo específica."
 
 #: about/tour.php:72 about/tour420.php:72
 msgid "Ipv6 remote URLs are now supported."
-msgstr ""
+msgstr "Ahora se admiten las URL remotas IPv6."
 
 #: about/tour.php:73 about/tour420.php:73
 msgid ""
 "It is now possible to create symbolic links as well on remote locations."
-msgstr ""
+msgstr "Ahora también es posible crear enlaces simbólicos en ubicaciones remotas."
 
 #: about/tour.php:75 about/tour420.php:75
 msgid "Search"
-msgstr ""
+msgstr "Búsqueda"
 
 #: about/tour.php:76 about/tour420.php:76
 msgid ""
 "It is not required any more to wait until a search is finished to open the "
 "context menu on search results."
-msgstr ""
+msgstr "Ya no es necesario esperar a que finalice una búsqueda para abrir el menú contextual en los resultados de la búsqueda."
 
 #: about/tour.php:79 about/tour420.php:79
 msgid "A couple of new toolbar buttons were added:"
-msgstr ""
+msgstr "Se han añadido un par de nuevos botones a la barra de herramientas:"
 
 #: about/tour.php:81 about/tour420.php:81
 msgid "View Switcher - A drop-down button to select a view."
-msgstr ""
+msgstr "Conmutador de vistas: botón desplegable para seleccionar una vista."
 
 #: about/tour.php:82 about/tour420.php:82
 msgid ""
 "Menu - This hamburger button will show automatically in the toolbar, when "
 "the menubar is hidden. It will reveal a vertical menu, bar, when pressed."
-msgstr ""
+msgstr "Menú - Este botón se mostrará automáticamente en la barra de herramientas, cuando la barra de menús esté oculta. Revelará un menú vertical, barra, cuando se pulsa."
 
 #: about/tour.php:83 about/tour420.php:83
 msgid "New Tab - Open a new tab using the current directory."
-msgstr ""
+msgstr "Nueva pestaña - Abre una nueva pestaña utilizando el directorio actual."
 
 #: about/tour.php:84 about/tour420.php:84
 msgid "New Window - Open a new window using the current directory."
-msgstr ""
+msgstr "Nueva ventana - Abre una nueva ventana utilizando el directorio actual."
 
 #: about/tour.php:86 about/tour420.php:86
 msgid "thunar - new toolbar buttons"
-msgstr ""
+msgstr "thunar - nuevos botones en la barra de herramientas"
 
 #: about/tour.php:87 about/tour420.php:87
 msgid "thunar - improved hamburger toolbar button"
-msgstr ""
+msgstr "thunar - botón de la barra de herramientas mejorado"
 
 #: about/tour.php:89 about/tour420.php:89
 msgid ""
 "On shrinking the Thunar window, toolbar items will now be moved to an "
 "overflow menu. Like that, it is possible to maintain smaller thunar windows."
-msgstr ""
+msgstr "On shrinking the Thunar window, toolbar items will now be moved to an overflow menu. Like that, it is possible to maintain smaller thunar windows."
 
 #: about/tour.php:90 about/tour420.php:90
 msgid ""
 "Furthermore, a bug was fixed which prevented the usage of submenu custom "
 "actions in the toolbar."
-msgstr ""
+msgstr "Además, se ha corregido un error que impedía utilizar las acciones personalizadas en un submenúen la barra de herramientas."
 
 #: about/tour.php:92 about/tour420.php:92
 msgid "Window Decorations"
-msgstr ""
+msgstr "Decoración de Ventanas"
 
 #: about/tour.php:93 about/tour420.php:93
 msgid "There is now an option to use client side decorations in Thunar (CSD)."
-msgstr ""
+msgstr "Ahora existe la opción de utilizar decoraciones del lado del cliente en Thunar (CSD)."
 
 #: about/tour.php:94 about/tour420.php:94
 msgid "thunar - CSD with menu"
-msgstr ""
+msgstr "thunar - CSD con menú"
 
 #: about/tour.php:95 about/tour420.php:95
 msgid "thunar - CSD without menu"
-msgstr ""
+msgstr "thunar - CSD sin el menú"
 
 #: about/tour.php:98 about/tour420.php:98
 msgid ""
 "An option to show the number of hidden files in the statusbar was added."
-msgstr ""
+msgstr "Se ha añadido una opción para mostrar el número de archivos ocultos en la barra de estado."
 
 #: about/tour.php:100 about/tour420.php:100
 msgid "Recently Used Files"
-msgstr ""
+msgstr "Archivos Usados Recientemente"
 
 #: about/tour.php:101 about/tour420.php:101
 msgid ""
 "Only files which were successfully opened are now added to the list of "
 "recently used files."
-msgstr ""
+msgstr "Sólo los archivos que se abrieron con éxito se añaden ahora a la lista de archivos utilizados recientemente."
 
 #: about/tour.php:102 about/tour420.php:102
 msgid "Directories won't be added to the recently used files anymore."
-msgstr ""
+msgstr "Los directorios ya no se añadirán a los archivos utilizados recientemente."
 
 #: about/tour.php:104 about/tour420.php:104
 msgid "Symbolic Icons"
-msgstr ""
+msgstr "Íconos Simbólicos"
 
 #: about/tour.php:105 about/tour420.php:105
 msgid ""
 "There is now an option to use symbolic icons in the side pane and colored "
 "icons in the toolbar."
-msgstr ""
+msgstr "Ahora existe la opción de utilizar iconos simbólicos en el panel lateral e iconos de color en la barra de herramientas."
 
 #: about/tour.php:106 about/tour420.php:106
 msgid "thunar - symbolic icons"
-msgstr ""
+msgstr "thunar - íconos simbólicos"
 
 #: about/tour.php:107 about/tour420.php:107
 msgid "thunar - colored icons"
-msgstr ""
+msgstr "thunar - íconos a color"
 
 #: about/tour.php:109 about/tour420.php:109
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Arrastrar y Soltar"
 
 #: about/tour.php:110 about/tour420.php:110
 msgid "While dragging files, folders are now opened automatically on hover."
-msgstr ""
+msgstr "Al arrastrar archivos, ahora las carpetas se abren automáticamente al pasar el cursos por encima."
 
 #: about/tour.php:111 about/tour420.php:111
 msgid ""
 "While dragging files, the focus of the split view pane is now updated when "
 "hovered."
-msgstr ""
+msgstr "Al arrastrar archivos, el foco del panel de vista dividida se actualiza ahora al al pasar el cursor por encima."
 
 #: about/tour.php:113 about/tour420.php:113
 msgid "Performance"
-msgstr ""
+msgstr "Rendimiento"
 
 #: about/tour.php:114 about/tour420.php:114
 msgid ""
@@ -3254,13 +3255,13 @@ msgid ""
 "files in which thunar showed a freeze. Due to various different performance "
 "measures, thunar now is much more bullet-proof for action involving huge "
 "numbers of files."
-msgstr ""
+msgstr "En el pasado, es posible que se haya enfrentado a situaciones que implican un gran número de archivos en los que thunar mostraba un congelamiento. Debido a varias medidas de rendimiento, thunar ahora es mucho más resiliente en acciones que involucran grandes  cantidades de archivos."
 
 #: about/tour.php:115 about/tour420.php:115
 msgid ""
 "This was achieved by using appropriate container types, moving some actions "
 "into separate jobs and throttling of view-updates."
-msgstr ""
+msgstr "Esto se consiguió utilizando tipos de contenedores adecuados, trasladando algunas acciones en trabajos separados y acelerando la actualización de las vistas."
 
 #: about/tour.php:116 about/tour420.php:116
 msgid ""
@@ -3268,247 +3269,247 @@ msgid ""
 "href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>number "
 "of integration test cases</a> will be used in order to keep performance on "
 "the current level in the future."
-msgstr ""
+msgstr "Un <a href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>grupo de análisis de integración</a> serán usados para mantener el rendimiento al mismo nivel en el futuro. "
 
 #: about/tour.php:119 about/tour420.php:119
 msgid ""
 "Shortcuts for custom action will now as well work when the custom action is "
 "located in a sub-menu."
-msgstr ""
+msgstr "Los atajos para acciones personalizadas ahora también funcionan cuando la acción personalizadase encuentra en un submenú."
 
 #: about/tour.php:121 about/tour420.php:121
 msgid "File Transfer"
-msgstr ""
+msgstr "Transferencia de archivos"
 
 #: about/tour.php:122 about/tour420.php:122
 msgid ""
 "For file validation in thunar 4.18.x a md5 checksum was calculated for source and target file. This calculation turned out to be rather slow and actually superfluous.\n"
 "      Now files are just compared directly. In addition, the usage of direct I/O operations now attempts to prevent comparison of possibly cached buffers."
-msgstr ""
+msgstr "Para la validación de archivos en thunar 4.18.x se calculaba una suma de comprobación md5 para el archivo de origen y el archivo de destino. Este cálculo resultó ser bastante lento y en realidad superfluo.\n      Ahora los archivos se comparan directamente. Además, el uso de operaciones directas de E/S intenta evitar la comparación de posibles búferes almacenados en caché."
 
 #: about/tour.php:124 about/tour420.php:124
 msgid ""
 "An option was added to only copy files in parallel if the relevant devices "
 "are in idle state. This prevents possible fragmentation during copy for HDD "
 "drives."
-msgstr ""
+msgstr "Se ha añadido una opción para copiar archivos en paralelo sólo si los dispositivos correspondientes están en estado de reposo. Esto evita la posible fragmentación durante la copia para discos duro HDD."
 
 #: about/tour.php:125 about/tour420.php:125
 msgid "Transferring files no longer steals the current focus."
-msgstr ""
+msgstr "La transferencia de archivos ya no roba el foco actual."
 
 #: about/tour.php:126 about/tour420.php:126
 msgid ""
 "The file transfer question dialog now provides the same options while having"
 " less buttons. In addition, file thumbnails now are properly requested by "
 "the dialog."
-msgstr ""
+msgstr "El cuadro de diálogo de preguntas sobre la transferencia de archivos ofrece ahora las mismas opciones pero con menos botones. Además, ahora las miniaturas de los archivos son solicitadas correctamente por el diálogo."
 
 #: about/tour.php:127 about/tour420.php:127
 msgid "thunar - file transfer dialog"
-msgstr ""
+msgstr "thunar - diálogo de transferencia de archivos"
 
 #: about/tour.php:129 about/tour420.php:129
 msgid "Launchers"
-msgstr ""
+msgstr "Lanzadores"
 
 #: about/tour.php:130 about/tour420.php:130
 msgid ""
 "By default, launcher names instead of filenames are shown now for trusted "
 "launchers."
-msgstr ""
+msgstr "Por defecto, ahora se muestran los nombres de los lanzadores en lugar de los nombres de los archivos para los lanzadores de confianza. "
 
 #: about/tour.php:132 about/tour420.php:132
 msgid "Undo/Redo"
-msgstr ""
+msgstr "Deshacer/Rehacer"
 
 #: about/tour.php:133 about/tour420.php:133
 msgid ""
 "The user now will be asked before any deletion will be done by an undo "
 "operation."
-msgstr ""
+msgstr "Ahora se preguntará al usuario antes de realizar cualquier borrado mediante una operación de deshacer."
 
 #: about/tour.php:136 about/tour420.php:136
 msgid ""
 "Similar to the tree-view side pane, the main view now also supports folder "
 "expansion."
-msgstr ""
+msgstr "Al igual que el panel lateral de la vista en árbol, la vista principal ahora también admite la expansión de carpetas. "
 
 #: about/tour.php:137 about/tour420.php:137
 msgid "thunar - expandable folders"
-msgstr ""
+msgstr "thunar - carpetas ampliables"
 
 #: about/tour.php:140 about/tour420.php:140
 msgid ""
 "A shortcut now can be used to toggle between split-view panes, and the "
 "focused pane now uses different coloring."
-msgstr ""
+msgstr "Ahora se puede utilizar un acceso directo para alternar entre paneles de vista dividida, y el panel enfocado ahora utiliza diferentes colores."
 
 #: about/tour.php:141 about/tour420.php:141
 msgid "thunar - split view"
-msgstr ""
+msgstr "thunar - vista dividida"
 
 #: about/tour.php:142 about/tour420.php:142
 msgid ""
 "A dialog will now ask for confirmation when closing a split-pane with "
 "multiple tabs."
-msgstr ""
+msgstr "Ahora un diálogo pedirá confirmación al cerrar un panel dividido con múltiples pestañas."
 
 #: about/tour.php:148 about/tour420.php:148
 msgid ""
 "The application list now as well can be navigated via Ctrl+N / Ctrl+P keys "
 "(VI default)."
-msgstr ""
+msgstr "La lista de aplicaciones ahora también puede ser navegada via Ctrl+N / Ctrl+P  (Comportamiento de VI)."
 
 #: about/tour.php:149 about/tour420.php:149
 msgid ""
 "An option was added to close the Appfinder window automatically when focus "
 "is lost."
-msgstr ""
+msgstr "Se añadió la opción de cerrar automáticamente la ventana de Appfinder cuando pierde el foco."
 
 #: about/tour.php:150 about/tour420.php:150
 msgid ""
 "Ctrl+Enter can be used to execute commands immediately when selecting "
 "entries from the dropdown."
-msgstr ""
+msgstr "Ctrl+Enter puede usarse para ejecutar comandos inmediatamente cuando se seleccionan entradas del menú deslizable. "
 
 #: about/tour.php:151 about/tour420.php:151
 msgid ""
 "Within the new version, application specific actions will show on right "
 "click."
-msgstr ""
+msgstr "En la versión actual, acciones específicas de cada aplicación se mostrarán con un click derecho. "
 
 #: about/tour.php:152 about/tour420.php:152
 msgid "An option to show generic names of launchers was added."
-msgstr ""
+msgstr "Se añadió la opción para mostrar nombres genéricos de los lanzadores."
 
 #: about/tour.php:153 about/tour420.php:153
 msgid ""
 "Appfinder optionally can now be launched as a daemon, so that it will "
 "respond even quicker."
-msgstr ""
+msgstr "Appfinder opcionalmente ahora puede ser ejecutado como un demonio,  de esta manera responderá incluso más rápido."
 
 #: about/tour.php:154 about/tour420.php:154
 msgid "An option allows now to launch items on a single click."
-msgstr ""
+msgstr "Una opción permite ahora ejecutar elementos con un solo click."
 
 #: about/tour.php:155 about/tour420.php:155
 msgid "xfce4-appfinder - settings"
-msgstr ""
+msgstr "xfce4-appfinder - configuraciones"
 
 #: about/tour.php:163 about/tour420.php:163
 msgid "The border width of the panel is now configurable."
-msgstr ""
+msgstr "La anchura del borde del panel es ahora configurable."
 
 #: about/tour.php:164 about/tour420.php:164
 msgid ""
 "For manual installations: the panel now does its best to find plugins in XDG"
 " base directories, and better preserves its configuration when it can't find"
 " them."
-msgstr ""
+msgstr "Para instalaciones manuales: el panel ahora hace todo lo posible para  encontrar plugins en XDG  y preserva mejor su configuración cuando  no puede encontrarlos."
 
 #: about/tour.php:166 about/tour420.php:166
 msgid "Clock"
-msgstr ""
+msgstr "Reloj"
 
 #: about/tour.php:167 about/tour420.php:167
 msgid "LCD clock: An option was added to visualize inactive segments."
-msgstr ""
+msgstr "Reloj LCD: Se añadió la opción para visualizar segmentos inactivos. "
 
 #: about/tour.php:168 about/tour420.php:168
 msgid "Analog: There is now an optional 24h mode."
-msgstr ""
+msgstr "Analógico: Ahora hay un modo opcional de 24 horas. "
 
 #: about/tour.php:169 about/tour420.php:169
 msgid "Digital: Week numbers now are shown optionally."
-msgstr ""
+msgstr "Digital: Los números de la semana ahora se muestran opcionalmente."
 
 #: about/tour.php:171 about/tour420.php:171
 msgid "Show Desktop"
-msgstr ""
+msgstr "Mostrar Escritorio"
 
 #: about/tour.php:172 about/tour420.php:172
 msgid ""
 "There is now the possibility to show the desktop when hovering the mouse on "
 "the \"show desktop\" panel icon."
-msgstr ""
+msgstr "Ahora es posible mostrar el escritorio cuando el cursor pasa por encima del  ícono del panel \"mostrar escritorio\"."
 
 #: about/tour.php:174 about/tour420.php:174
 msgid "Tasklist"
-msgstr ""
+msgstr "Lista de tareas"
 
 #: about/tour.php:175 about/tour420.php:175
 msgid ""
 "Icon size management has been improved overall, notably by switching to "
 "libxfce4windowing."
-msgstr ""
+msgstr "La gestión del tamaño de los iconos se ha mejorado en general, debido al cambio a libxfce4windowing."
 
 #: about/tour.php:178 about/tour420.php:178
 msgid ""
 "The 'delete' key can now be used to remove panel objects, and several "
 "objects can be removed at once."
-msgstr ""
+msgstr "La tecla «delete» permite ahora eliminar objetos del panel, y se pueden eliminar varios objetos a la vez."
 
 #: about/tour.php:179 about/tour420.php:179
 msgid ""
 "Panel objects in the panel configuration list now will have the same icons "
 "as in the panel itself."
-msgstr ""
+msgstr "Los objetos del panel en la lista de configuración del panel ahora tendrán los mismos iconos que en el propio panel."
 
 #: about/tour.php:180 about/tour420.php:180
 msgid "xfce4-panel - panel configuration list"
-msgstr ""
+msgstr "xfce4-panel - lista de configuración del panel"
 
 #: about/tour.php:186 about/tour420.php:186
 msgid "Screen Locking"
-msgstr ""
+msgstr "Bloqueo de Pantalla"
 
 #: about/tour.php:187 about/tour420.php:187
 msgid ""
 "There is no dedicated \"security\" tab anymore. Lock screen management was "
 "massively simplified and \"Light Locker\" was dropped. \"lock-on-sleep\" is "
 "now synchronized with xfce4-session and xfce4-screensaver."
-msgstr ""
+msgstr "Ya no hay una pestaña dedicada a la «seguridad». La gestión de la pantalla de bloqueofue simplificado y «Light Locker» fue eliminado.  «lock-on-sleep» está ahorasincronizado con xfce4-session y xfce4-screensaver."
 
 #: about/tour.php:188 about/tour420.php:188
 msgid ""
 "Screen locking settings are now only handled by xfce4-screensaver to avoid "
 "conflicts. A button to open xfce4-screensaver-preferences was added:"
-msgstr ""
+msgstr "Los ajustes de bloqueo de pantalla ahora sólo son manejados por xfce4-screensaver para evitar conflictos. Se ha añadido un botón para abrir xfce4-screensaver-preferences:"
 
 #: about/tour.php:189 about/tour420.php:189
 msgid "xfce4-power-manager - settings"
-msgstr ""
+msgstr "xfce4-power-manager - configuración"
 
 #: about/tour.php:190 about/tour420.php:190
 msgid "xfce4-screensaver - settings"
-msgstr ""
+msgstr "xfce4-screensaver - configuración"
 
 #: about/tour.php:192 about/tour420.php:192
 msgid "Power Settings"
-msgstr ""
+msgstr "Configuración de Energía"
 
 #: about/tour.php:193 about/tour420.php:193
 msgid ""
 "Support for handling different power profiles via power-profiles-daemon was "
 "added."
-msgstr ""
+msgstr "Se agregó soporte para el manejo de diferentes perfiles de energía a través de power-profiles-daemon."
 
 #: about/tour.php:194 about/tour420.php:194
 msgid ""
 "The overall charge state calculation was wrong for some cases and is now "
 "fixed."
-msgstr ""
+msgstr "El cálculo del estado de carga global era erróneo en algunos casos y ahora fue corregido."
 
 #: about/tour.php:195 about/tour420.php:195
 msgid ""
 "When the critical power dialog pops up, unintentional user actions are now "
 "prevented."
-msgstr ""
+msgstr "Cuando aparece el cuadro de diálogo de energía crítica, ahora se evitan las acciones involuntarias del usuario."
 
 #: about/tour.php:196 about/tour420.php:196
 msgid "There is now support for the hybrid sleep mode."
-msgstr ""
+msgstr "Ahora hay soporte para el modo de suspensión híbrido."
 
 #: about/tour.php:197 about/tour420.php:197
 msgid "The device details tab now as well shows the energy rate."
@@ -3516,78 +3517,78 @@ msgstr ""
 
 #: about/tour.php:199 about/tour420.php:199
 msgid "Others"
-msgstr ""
+msgstr "Otros"
 
 #: about/tour.php:200 about/tour420.php:200
 msgid "Several use-cases for lid close were fixed."
-msgstr ""
+msgstr "Se han corregido varios casos de uso del cierre de la tapa del portátil."
 
 #: about/tour.php:201 about/tour420.php:201
 msgid "There are now the options \"shutdown\" and \"do nothing\" on lid close."
-msgstr ""
+msgstr "Ahora existen las opciones «apagar» y «no hacer nada» al cerrar la tapa del portátil."
 
 #: about/tour.php:202 about/tour420.php:202
 msgid ""
 "Buttons to change the brightness exponentially and keyboard backlight toggle"
 " keys now are supported."
-msgstr ""
+msgstr "Los botones para cambiar el brillo exponencialmente y los botones para modificar las luces del teclado  ahora son soportados."
 
 #: about/tour.php:207 about/tour420.php:207
 msgid ""
 "The logout dialog will not provide a checkbox to enable session saving "
 "anymore."
-msgstr ""
+msgstr "El cuadro de diálogo de cierre de sesión ya no proporcionará una casilla de verificación para permitir guardar la sesión."
 
 #: about/tour.php:208 about/tour420.php:208
 msgid ""
 "It is now possible to start a Wayland session via 'startxfce4 --wayland'."
-msgstr ""
+msgstr "Ahora es posible iniciar una sesión Wayland mediante 'startxfce4 --wayland'."
 
 #: about/tour.php:210 about/tour420.php:210
 msgid ""
 "Minimal support for xdg-desktop-portal was added by registering for a "
 "wallpaper, screenshot and background xapp."
-msgstr ""
+msgstr "Se ha añadido un soporte mínimo para xdg-desktop-portal mediante el registro  para el fondo de pantalla, captura de pantalla y fondo xapp."
 
 #: about/tour.php:217 about/tour420.php:217
 msgid ""
 "Icon themes are now loaded in a separate thread, in order to prevent a "
 "possible freeze."
-msgstr ""
+msgstr "Los temas de iconos se cargan ahora en un hilo separado, para evitar un posible congelación."
 
 #: about/tour.php:218 about/tour420.php:218
 msgid ""
 "For icon themes which are known to be incomplete, a warning now will be "
 "shown."
-msgstr ""
+msgstr "Para los temas de iconos que se sabe que están incompletos, ahora se mostrará una advertencia."
 
 #: about/tour.php:219 about/tour420.php:219
 msgid "The usage of client side decorations is opt-in now, not opt-out."
-msgstr ""
+msgstr "El uso de decoraciones del lado del cliente es ahora opt-in, no opt-out."
 
 #: about/tour.php:220 about/tour420.php:220
 msgid ""
 "Dark themes now are identified and supported in a more reliable way. "
 "(Relevant e.g. for the Qogir and Orchis themes)"
-msgstr ""
+msgstr "Ahora los temas oscuros se identifican y soportan de forma más fiable. (Relevante, por ejemplo, para los temas Qogir y Orchis)."
 
 #: about/tour.php:223 about/tour420.php:223
 msgid ""
 "The default display profile has been added to the list of profiles that can "
 "match, and will be used if more than one matches now."
-msgstr ""
+msgstr "El perfil de visualización por defecto se ha añadido a la lista de perfiles que pueden coincidir, y se utilizará si ahora coincide más de uno."
 
 #: about/tour.php:224 about/tour420.php:224
 msgid ""
 "Profile management has been extended to all profiles, not just those that "
 "match, and their names can now be edited."
-msgstr ""
+msgstr "La gestión de perfiles se ha ampliado a todos los perfiles, no sólo a los que coinciden, y ahora se pueden editar sus nombres."
 
 #: about/tour.php:225 about/tour420.php:225
 msgid ""
 "Scaling now always is done for both dimensions, and the preview shows the "
 "resulting size."
-msgstr ""
+msgstr "El escalado ahora siempre se realiza para ambas dimensiones, y la vista previa muestra el tamaño resultante."
 
 #: about/tour.php:226 about/tour420.php:226
 msgid ""
@@ -3600,210 +3601,210 @@ msgid ""
 "The minimal dialog has been improved, in particular by allowing the display "
 "to be extended to the left and from top to bottom, and with compact profile "
 "display."
-msgstr ""
+msgstr "Se ha mejorado el diálogo mínimo, en particular permitiendo que la visualización sea extendidaa la izquierda y de arriba hacia abajo, y con la visualización compacta de los perfiles."
 
 #: about/tour.php:228 about/tour420.php:228
 msgid "xfce4-settings - minimal display"
-msgstr ""
+msgstr "xfce4-settings - visualización mínima"
 
 #: about/tour.php:230 about/tour420.php:230
 msgid "Mouse Settings"
-msgstr ""
+msgstr "Configuraciones del Cursor"
 
 #: about/tour.php:231 about/tour420.php:231
 msgid ""
 "A checkbox was added to toggle between adaptive and flat mouse accel "
 "profile."
-msgstr ""
+msgstr "Se ha añadido una casilla de verificación para alternar entre el perfil de aceleración del ratón adaptativo y plano. "
 
 #: about/tour.php:232 about/tour420.php:232
 msgid ""
 "High resolution scrolling can now be enabled for mice which do support it."
-msgstr ""
+msgstr "Ahora se puede activar el desplazamiento de alta resolución para los ratones que lo admiten."
 
 #: about/tour.php:233 about/tour420.php:233
 msgid "xfce4-settings - mouse"
-msgstr ""
+msgstr "xfce4-settings - ratón"
 
 #: about/tour.php:235 about/tour420.php:235
 msgid "Mime Settings"
-msgstr ""
+msgstr "Configuraciones de Mime"
 
 #: about/tour.php:236 about/tour420.php:236
 msgid "It is now possible to select/change multiple items at once."
-msgstr ""
+msgstr "Ahora es posible seleccionar/modificar varios elementos a la vez."
 
 #: about/tour.php:241 about/tour420.php:241
 msgid ""
 "A systemd user unit, corresponding to the D-Bus session service, is now "
 "added."
-msgstr ""
+msgstr "Se añadió una unidad de usuario de systemd, correspondiente al servicio de sesión de D-Bus."
 
 #: about/tour.php:242 about/tour420.php:242
 msgid ""
 "Whitespaces are now properly escaped when writing a xfconf channel to disk."
-msgstr ""
+msgstr "Ahora los espacios en blanco se escapan correctamente al escribir un canal xfconf en disco."
 
 #: about/tour.php:243 about/tour420.php:243
 msgid "Xfconf-query now displays array contents."
-msgstr ""
+msgstr "Xfconf-query muestra ahora el contenido de las matrices."
 
 #: about/tour.php:249 about/tour420.php:249
 msgid "Background Management"
-msgstr ""
+msgstr "Manejo del Fondo de Pantalla"
 
 #: about/tour.php:250 about/tour420.php:250
 msgid ""
 "For random wallpaper cycling, wallpapers now are only repeated after all "
 "other wallpapers were shown."
-msgstr ""
+msgstr "Para el ciclo de fondos de pantalla aleatorios, los fondos de pantalla ahora sólo se repiten después de que todos los demás fondos de pantalla se mostraron."
 
 #: about/tour.php:251 about/tour420.php:251
 msgid ""
 "Old Xfce backgrounds were ported from .png to .svg to be usable for large "
 "screens."
-msgstr ""
+msgstr "Los fondos de pantalla de Xce antiguos se portaron de .png a .svg para ser usados en pantallas grandes. "
 
 #: about/tour.php:252 about/tour420.php:252
 msgid "Gradients will now be rendered in a gamma-correct way."
-msgstr ""
+msgstr "Los degradados se renderizarán ahora con corrección gamma."
 
 #: about/tour.php:254 about/tour420.php:254
 msgid "Icon grid"
-msgstr ""
+msgstr "Parrilla de Iconos"
 
 #: about/tour.php:255 about/tour420.php:255
 msgid "The confirmation dialog for arranging desktop icons now is optional."
-msgstr ""
+msgstr "El diálogo de confirmación para organizar los iconos del escritorio ahora es opcional."
 
 #: about/tour.php:256 about/tour420.php:256
 msgid ""
 "It is now possible to set custom colors for icon labels and icon background."
-msgstr ""
+msgstr "Ahora es posible establecer colores personalizados para las etiquetas y el fondo de los iconos."
 
 #: about/tour.php:257 about/tour420.php:257
 msgid "The icon grid on each monitor is now independent of one another."
-msgstr ""
+msgstr "La parrilla de iconos de cada monitor es ahora independiente."
 
 #: about/tour.php:259 about/tour420.php:259
 msgid "Minimized Application Icons"
-msgstr ""
+msgstr "Iconos de Aplicación Minimizados"
 
 #: about/tour.php:260 about/tour420.php:260
 msgid ""
 "Window icons are now initially shown on the monitor where the window was "
 "present before being minimized."
-msgstr ""
+msgstr "Los iconos de ventana se muestran ahora inicialmente en el monitor en el que la ventana estaba antes de ser minimizada."
 
 #: about/tour.php:261 about/tour420.php:261
 msgid ""
 "The context menu (when clicking on an empty space) now has more useful "
 "options than before."
-msgstr ""
+msgstr "El menú contextual (al hacer clic en un espacio vacío) ahora tiene más opciones útiles que antes."
 
 #: about/tour.php:263 about/tour420.php:263
 msgid "File Icons"
-msgstr ""
+msgstr "Iconos de Archivos"
 
 #: about/tour.php:264 about/tour420.php:264
 msgid "There is now an option to sort folders before files."
-msgstr ""
+msgstr "Ahora hay una opción para ordenar los directorios antes que los archivos"
 
 #: about/tour.php:265 about/tour420.php:265
 msgid ""
 "The positions of the icons are now saved in a way that should avoid icons "
 "moving around in unexpected ways when monitors are added and removed."
-msgstr ""
+msgstr "La posición de los iconos ahora se guarda de manera que se debería evitar que se muevan de manera inesperada al añadir y retirar monitores. "
 
 #: about/tour.php:266 about/tour420.php:266
 msgid ""
 "New files and dropped files now will be placed near the current cursor "
 "location."
-msgstr ""
+msgstr "Los nuevos archivos y los archivos arrastrados ahora se colocarán cerca  de la posición actual del cursor."
 
 #: about/tour.php:267 about/tour420.php:267
 msgid "Icons of fixed disks and drives can now be optionally shown."
-msgstr ""
+msgstr "Los iconos de los discos y dispositivos fijados ahora pueden  mostrarse opcionalmente."
 
 #: about/tour.php:270 about/tour420.php:270
 msgid "The 'Desktop Icons' tab was fully reworked."
-msgstr ""
+msgstr "La pestaña «Iconos de Escritorio» se reescribió completamente."
 
 #: about/tour.php:271 about/tour420.php:271
 msgid "xfdesktop - settings - desktop icons"
-msgstr ""
+msgstr "xfdesktop - configuraciones - iconos del escritorio"
 
 #: about/tour.php:272 about/tour420.php:272
 msgid ""
 "All shortcuts of Xfdesktop now can be configured, using the "
 "XfceShortcutsManagers widget."
-msgstr ""
+msgstr "Todos los atajos de Xfdesktop ahora pueden ser configurados, usando el widget XfceShortcutsManagers."
 
 #: about/tour.php:273 about/tour420.php:273
 msgid "xfdesktop - settings - keyboard shortcuts"
-msgstr ""
+msgstr "xfdesktop - configuraciones - atajos de teclado"
 
 #: about/tour.php:274 about/tour420.php:274
 msgid ""
 "More folders that hold background images were added as shortcuts in the "
 "settings dialog."
-msgstr ""
+msgstr "Se han añadido más carpetas que contienen imágenes de fondo como accesos directos en el diálogo de configuración."
 
 #: about/tour.php:275 about/tour420.php:275
 msgid ""
 "The settings dialog will update if the background is changed from outside "
 "the dialog."
-msgstr ""
+msgstr "El diálogo de configuración se actualizará si el fondo se cambia desde fuera de del diálogo."
 
 #: about/tour.php:276 about/tour420.php:276
 msgid ""
 "Wallpaper image folders now are loaded fully asynchronously to prevent lag."
-msgstr ""
+msgstr "Las carpetas de imágenes de fondo de pantalla se cargan ahora de forma totalmente asíncrona para evitar retrasos."
 
 #: about/tour.php:278 about/tour420.php:278
 msgid "Context Menu"
-msgstr ""
+msgstr "Menú Contextual "
 
 #: about/tour.php:279 about/tour420.php:279
 msgid ""
 "Cascading custom actions will now as well shown correctly in Xfdesktop."
-msgstr ""
+msgstr "Las acciones personalizadas en cascada ahora también se muestran correctamente en Xfdesktop."
 
 #: about/tour.php:280 about/tour420.php:280
 msgid "It is now possible to open multiple selected folders at once."
-msgstr ""
+msgstr "Ahora es posible abrir varias carpetas seleccionadas a la vez."
 
 #: about/tour.php:281 about/tour420.php:281
 msgid ""
 "The context menu now opens on button press rather than button release, as "
 "most users will expect."
-msgstr ""
+msgstr "El menú contextual se abre ahora al pulsar el botón en lugar de al soltarlo, como esperaríala mayoría de los usuarios."
 
 #: about/tour.php:282 about/tour420.php:282
 msgid "The middle-click window list menu has new styling and added features."
-msgstr ""
+msgstr "La lista de ventana del menú accesible con click central tiene un nuevo estilo y características añadidas."
 
 #: about/tour.php:287 about/tour420.php:287
 msgid "Support for stretch theme variants"
-msgstr ""
+msgstr "Soporte para variantes de temas extensibles"
 
 #: about/tour.php:288 about/tour420.php:288
 msgid "compositor: Block softpipe for GLX vsync"
-msgstr ""
+msgstr "compositor: Bloqueo de softpipe para GLX vsync"
 
 #: about/tour.php:289 about/tour420.php:289
 msgid "focus: Include skip taskbar/pager when passing focus"
-msgstr ""
+msgstr "focus: Incluir omitir la barra de tareas/páginador al pasar el foco"
 
 #: about/tour.php:290 about/tour420.php:290
 msgid ""
 "Fix crash when alt-tabbing (<a "
 "href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
-msgstr ""
+msgstr "Corregido el error al pulsar alt-tab  (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
 
 #: about/tour.php:293 about/tour420.php:293
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
-msgstr ""
+msgstr "Tema usado: «Greybird-dark». Tema de iconos usado: «elementary Xfce dark»."
 
 #: about/nav.php:1 download/nav.php:1 getinvolved/nav.php:1 header.php:90
 msgid "Related Pages"
@@ -3811,7 +3812,7 @@ msgstr "Páginas relacionadas"
 
 #: about/nav.php:4
 msgid "4.20 Tour"
-msgstr ""
+msgstr "Paseo de 4.20"
 
 #: about/nav.php:5
 msgid "visual tour of new features in the last few major releases"
