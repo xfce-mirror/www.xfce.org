@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>, 2022,2024\n"
+"Last-Translator: Andreas Eitel <github-aneitel@online.de>, 2021-2024\n"
 "Language-Team: German (http://app.transifex.com/xfce/xfce-www/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2904,7 +2904,7 @@ msgid ""
 "4.20 is experimental. It is recommended for advanced users only, as you may "
 "encounter bugs and experience incomplete functionality. Proceed with "
 "caution!"
-msgstr ""
+msgstr "<b>Wichtiger Hinweis:</b> Bitte beachten Sie, dass die Wayland-Unterstützung in Xfce 4.20 experimentell ist. Sie wird nur für fortgeschrittene Benutzer empfohlen, da Sie auf Fehler und unvollständige Funktionalität stoßen könnten. Gehen Sie mit Bedacht vor!"
 
 #: about/tour.php:13 about/tour420.php:13
 msgid ""
@@ -2912,7 +2912,7 @@ msgid ""
 "href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> almost all Xfce "
 "components are able to run on Wayland windowing, while still keeping support"
 " for X11 windowing."
-msgstr ""
+msgstr "Dank <a href=\"https://gitlab.xfce.org/kelnos\">Brian</a> und <a href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> sind fast alle Xfce-Komponenten in der Lage, in Wayland-Fenster zu laufen, während die Unterstützung für X11-Fenster erhalten bleibt."
 
 #: about/tour.php:14 about/tour420.php:14
 msgid ""
@@ -2920,7 +2920,7 @@ msgid ""
 " specific calls and making use of Wayland/Wlroots protocols. A whole new "
 "Xfce library, \"libxfce4windowing\" was introduced during that process. "
 "XWayland will not be required to run any of the ported Xfce components."
-msgstr ""
+msgstr "Diese große Anstrengung wurde durch die Abstraktion aller X11/Wayland-Fensteraufrufe und die Verwendung von Wayland/Wlroots-Protokollen erreicht. Eine ganz neue Xfce-Bibliothek, \"libxfce4windowing\", wurde während dieses Prozesses eingeführt. XWayland wird nicht benötigt, um eine der portierten Xfce-Komponenten auszuführen."
 
 #: about/tour.php:15 about/tour420.php:15
 msgid ""
@@ -2929,7 +2929,7 @@ msgid ""
 "results. A detailed instruction on this can be found <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">here</a>. "
 "Please be aware that Wayland support is still experimental!"
-msgstr ""
+msgstr "Bislang verfügt Xfce nicht über einen Kompositor, der Wayland unterstützt. Wenn Sie Xfce in Wayland betreiben wollen, werden Sie mit Labwc und Wayfire die besten Ergebnisse erzielen. Eine detaillierte Anleitung dazu finden Sie <a href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">hier</a>. Bitte beachten Sie, dass die Wayland-Unterstützung noch experimentell ist!"
 
 #: about/tour.php:16 about/tour420.php:16
 msgid ""
@@ -2937,41 +2937,41 @@ msgid ""
 "existing X11 functionality. However, such a restructurization will be a "
 "major effort and we cannot tell yet when/if it will be done, so please don't"
 " hold your breath waiting for it."
-msgstr ""
+msgstr "Es gibt Pläne, Xfwm4 um Wayland-Unterstützung zu erweitern, während die bestehende X11-Funktionalität erhalten bleibt. Eine solche Umstrukturierung wird jedoch ein großer Aufwand sein und wir können noch nicht sagen, ob und wann sie abgeschlossen sein wird, also warten Sie bitte nicht zu lange."
 
 #: about/tour.php:18 about/tour420.php:18
 msgid ""
 "For few components and multiple features, it was not possible to port them "
 "to Wayland, partly because there are no standardized Wayland protocols "
 "available yet to provide the required services:"
-msgstr ""
+msgstr "Bei wenigen Komponenten und mehreren Funktionen war eine Portierung auf Wayland nicht möglich. Unter anderem, weil es noch keine standardisierten Wayland-Protokolle gibt, die die erforderlichen Dienste bereitstellen:"
 
 #: about/tour.php:20 about/tour420.php:20
 msgid ""
 "Workspace support is missing (ext-workspace protocol <a "
 "href=\"https://gitlab.freedesktop.org/wayland/wayland-"
 "protocols/-/merge_requests/40\">was just merged</a>)."
-msgstr ""
+msgstr "Die Unterstützung von Arbeitsbereichen fehlt (das Protokoll <a href=\"https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40\">ext-workspace</a> wurde gerade zusammengeführt)."
 
 #: about/tour.php:21 about/tour420.php:21
 msgid ""
 "Systray icons will be missing for multiple applications (required to use "
 "StatusNotifier instead of GtkStatusIcon)"
-msgstr ""
+msgstr "Systray-Symbole werden für mehrere Anwendungen fehlen (erforderlich, um StatusNotifier anstelle von GtkStatusIcon zu verwenden)"
 
 #: about/tour.php:22 about/tour420.php:22
 msgid ""
 "Xfce4-settings: Keyboard and mouse settings so far are internal to the "
 "Wayland compositor and as such the according Xfce dialogs won't be available"
 " on Wayland yet."
-msgstr ""
+msgstr "Xfce4-settings: Tastatur- und Mauseinstellungen sind bisher intern im Wayland-Kompositor und daher sind die entsprechenden Xfce-Dialoge noch nicht auf Wayland verfügbar."
 
 #: about/tour.php:23 about/tour420.php:23
 msgid ""
 "Power related keyboard handling (brightness keys, suspend, etc.) is internal"
 " to the Wayland compositor and as such cannot be supported yet by Xfce "
 "components."
-msgstr ""
+msgstr "Die Handhabung von Tastaturen im Zusammenhang mit dem Stromverbrauch (Helligkeitstasten, Ruhezustand, usw.) ist eine interne Funktion des Wayland-Kompositors und kann als solche noch nicht von Xfce-Komponenten unterstützt werden."
 
 #: about/tour.php:24 about/tour420.php:24
 msgid ""
@@ -2979,11 +2979,11 @@ msgid ""
 "xfce4-screenshooter already supports screenshots via the wlroots "
 "'screencopy' protocol (entire screen). Screenshots of a rectangle selection "
 "or the active window are not yet supported via Wayland."
-msgstr ""
+msgstr "Wayland spezifiziert kein natives Protokoll für die Erstellung von Bildschirmfotos. Allerdings unterstützt xfce4-screenshooter bereits Bildschirmfotos über das wlroots 'screencopy' Protokoll (gesamter Bildschirm). Bildschirmfotos einer rechteckigen Auswahl oder des aktiven Fensters werden von Wayland noch nicht unterstützt."
 
 #: about/tour.php:26 about/tour420.php:26
 msgid "Some other Xfce components don't run at all on Wayland:"
-msgstr ""
+msgstr "Einige andere Xfce-Komponenten laufen überhaupt nicht auf Wayland:"
 
 #: about/tour.php:28 about/tour420.php:28
 msgid "Xfwm4"
@@ -2999,51 +2999,51 @@ msgid ""
 "href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">completed"
 " but not merged</a>, as it requires the experimental <a "
 "href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed library</a>)"
-msgstr ""
+msgstr "Xfce4-screensaver (Portierung auf Wayland <a href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">abgeschlossen, aber nicht zusammengeführt</a>, da er die experimentelle <a href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed-Bibliothek</a> benötigt)"
 
 #: about/tour.php:31 about/tour420.php:31
 msgid ""
 "Xfce4-windowck-plugin (needs to be <a href=\"https://gitlab.xfce.org/panel-"
 "plugins/xfce4-windowck-plugin/-/issues/37\">ported to libxfce4windowing</a>)"
-msgstr ""
+msgstr "Xfce4-windowck-plugin (muss auf <a href=\"https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37\">libxfce4windowing</a> portiert werden)"
 
 #: about/tour.php:32 about/tour420.php:32
 msgid ""
 "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)"
-msgstr ""
+msgstr "Xfce4-xkb-plugin (Tastaturhandling ist intern im Wayland- Kompositor)"
 
 #: about/tour.php:35 about/tour420.php:35
 msgid ""
 "More detailed info on the current Wayland status can be found on our <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland roadmap.</a>"
-msgstr ""
+msgstr "Ausführlichere Informationen zum aktuellen Stand von Wayland finden Sie in unserer <a href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland-Roadmap</a>."
 
 #: about/tour.php:38 about/tour420.php:38
 msgid ""
 "Icons and thumbnail scaling was fixed for various components. Various "
 "missing icons for larger scales were added. Any blurriness when using Xfce "
 "components on a HiDPI display should be gone now."
-msgstr ""
+msgstr "Die Skalierung von Symbolen und Miniaturbildern wurde für verschiedene Komponenten korrigiert. Verschiedene fehlende Symbole für größere Skalen wurden hinzugefügt. Jegliche Unschärfe bei der Verwendung von Xfce-Komponenten auf einem HiDPI-Display sollte nun verschwunden sein."
 
 #: about/tour.php:43 about/tour420.php:43
 msgid "Icon View Performance"
-msgstr ""
+msgstr "Symbolansicht Performance"
 
 #: about/tour.php:44 about/tour420.php:44
 msgid ""
 "By using different container types, the \"Exo-Icon-View\" now can handle "
 "100,000 files and more without freezing."
-msgstr ""
+msgstr "Durch die Verwendung verschiedener Containertypen kann die \"Exo-Icon-Ansicht\" nun 100.000 Dateien und mehr verarbeiten, ohne einzufrieren."
 
 #: about/tour.php:46 about/tour420.php:46
 msgid "Type ahead search box"
-msgstr ""
+msgstr "Tippen Sie in das Suchfeld ein"
 
 #: about/tour.php:47 about/tour420.php:47
 msgid ""
 "The type ahead search box in the exo icon view now always stays inside the "
 "according view widget."
-msgstr ""
+msgstr "Das Suchfeld für die Vorauswahl des Typs in der Exo-Symbolansicht bleibt nun immer innerhalb des entsprechenden Ansichtswidgets."
 
 #: about/tour.php:52 about/tour420.php:52
 msgid "Shortcut Editor"
@@ -3053,13 +3053,13 @@ msgstr "Kurzbefehl-Editor"
 msgid ""
 "Shortcuts now can be used for multiple actions if they don't conflict with "
 "each other."
-msgstr ""
+msgstr "Tastenkombinationen können jetzt für mehrere Aktionen verwendet werden, wenn sie nicht miteinander kollidieren."
 
 #: about/tour.php:56 about/tour420.php:56
 msgid ""
 "The dialog now shows the distribution logo, information about the used "
 "windowing system and the used GPU."
-msgstr ""
+msgstr "Der Dialog zeigt nun das Distributionslogo, Informationen über das verwendete Fenstersystem und die verwendete GPU."
 
 #: about/tour.php:57 about/tour420.php:57
 msgid "libxfce4ui - about dialog"
@@ -3082,20 +3082,20 @@ msgstr ""
 
 #: about/tour.php:70 about/tour420.php:70
 msgid "Mounted and Remote Locations"
-msgstr ""
+msgstr "Eingehängte und entfernte Speicherorte"
 
 #: about/tour.php:71 about/tour420.php:71
 msgid "Mount points now show an emblem and have a specific type description."
-msgstr ""
+msgstr "Einhängepunkte zeigen jetzt ein Emblem und haben eine spezifische Typenbeschreibung."
 
 #: about/tour.php:72 about/tour420.php:72
 msgid "Ipv6 remote URLs are now supported."
-msgstr ""
+msgstr "IPv6 Remote-URLs werden jetzt unterstützt."
 
 #: about/tour.php:73 about/tour420.php:73
 msgid ""
 "It is now possible to create symbolic links as well on remote locations."
-msgstr ""
+msgstr "Es ist jetzt möglich, symbolische Links auch an entfernten Speicherorten zu erstellen."
 
 #: about/tour.php:75 about/tour420.php:75
 msgid "Search"
@@ -3105,11 +3105,11 @@ msgstr "Suche"
 msgid ""
 "It is not required any more to wait until a search is finished to open the "
 "context menu on search results."
-msgstr ""
+msgstr "Es ist nicht mehr erforderlich, zu warten, bis eine Suche beendet ist, um das Kontextmenü der Suchergebnisse zu öffnen."
 
 #: about/tour.php:79 about/tour420.php:79
 msgid "A couple of new toolbar buttons were added:"
-msgstr ""
+msgstr "Es wurden einige neue Schaltflächen in der Symbolleiste hinzugefügt:"
 
 #: about/tour.php:81 about/tour420.php:81
 msgid "View Switcher - A drop-down button to select a view."
@@ -3131,11 +3131,11 @@ msgstr ""
 
 #: about/tour.php:86 about/tour420.php:86
 msgid "thunar - new toolbar buttons"
-msgstr ""
+msgstr "thunar - neue Schaltflächen in der Symbolleiste"
 
 #: about/tour.php:87 about/tour420.php:87
 msgid "thunar - improved hamburger toolbar button"
-msgstr ""
+msgstr "thunar - Verbesserte Hamburger-Schaltfläche in der Symbolleiste"
 
 #: about/tour.php:89 about/tour420.php:89
 msgid ""
@@ -3151,7 +3151,7 @@ msgstr ""
 
 #: about/tour.php:92 about/tour420.php:92
 msgid "Window Decorations"
-msgstr ""
+msgstr "Fensterdekorationen"
 
 #: about/tour.php:93 about/tour420.php:93
 msgid "There is now an option to use client side decorations in Thunar (CSD)."
@@ -3186,7 +3186,7 @@ msgstr ""
 
 #: about/tour.php:104 about/tour420.php:104
 msgid "Symbolic Icons"
-msgstr ""
+msgstr "Symbolische Icons"
 
 #: about/tour.php:105 about/tour420.php:105
 msgid ""
@@ -3576,7 +3576,7 @@ msgstr ""
 
 #: about/tour.php:228 about/tour420.php:228
 msgid "xfce4-settings - minimal display"
-msgstr ""
+msgstr "xfce4-settings - minimale Anzeige"
 
 #: about/tour.php:230 about/tour420.php:230
 msgid "Mouse Settings"
@@ -3586,12 +3586,12 @@ msgstr "Mauseinstellungen"
 msgid ""
 "A checkbox was added to toggle between adaptive and flat mouse accel "
 "profile."
-msgstr ""
+msgstr "Es wurde ein Kontrollkästchen hinzugefügt, mit dem zwischen dem adaptiven und dem flachen Mausbeschleunigungsprofil umgeschaltet werden kann."
 
 #: about/tour.php:232 about/tour420.php:232
 msgid ""
 "High resolution scrolling can now be enabled for mice which do support it."
-msgstr ""
+msgstr "Der hochauflösende Bildlauf kann nun für Mäuse, die ihn unterstützen, aktiviert werden."
 
 #: about/tour.php:233 about/tour420.php:233
 msgid "xfce4-settings - mouse"
@@ -3599,26 +3599,26 @@ msgstr "xfce4-settings - Maus"
 
 #: about/tour.php:235 about/tour420.php:235
 msgid "Mime Settings"
-msgstr ""
+msgstr "Mime Einstellungen"
 
 #: about/tour.php:236 about/tour420.php:236
 msgid "It is now possible to select/change multiple items at once."
-msgstr ""
+msgstr "Es ist jetzt möglich, mehrere Elemente auf einmal auszuwählen/zu ändern."
 
 #: about/tour.php:241 about/tour420.php:241
 msgid ""
 "A systemd user unit, corresponding to the D-Bus session service, is now "
 "added."
-msgstr ""
+msgstr "Eine systemd-Benutzereinheit, die dem D-Bus-Sitzungsdienst entspricht, ist jetzt hinzugefügt."
 
 #: about/tour.php:242 about/tour420.php:242
 msgid ""
 "Whitespaces are now properly escaped when writing a xfconf channel to disk."
-msgstr ""
+msgstr "Leerzeichen werden nun beim Schreiben eines xfconf-Kanals auf die Festplatte korrekt maskiert."
 
 #: about/tour.php:243 about/tour420.php:243
 msgid "Xfconf-query now displays array contents."
-msgstr ""
+msgstr "Xfconf-query zeigt jetzt Array-Inhalte an."
 
 #: about/tour.php:249 about/tour420.php:249
 msgid "Background Management"
@@ -3628,17 +3628,17 @@ msgstr "Hintergrundverwaltung"
 msgid ""
 "For random wallpaper cycling, wallpapers now are only repeated after all "
 "other wallpapers were shown."
-msgstr ""
+msgstr "Bei der zufälligen Wiederholung von Hintergrundbildern werden diese jetzt erst wiederholt, nachdem alle anderen Hintergrundbilder angezeigt wurden."
 
 #: about/tour.php:251 about/tour420.php:251
 msgid ""
 "Old Xfce backgrounds were ported from .png to .svg to be usable for large "
 "screens."
-msgstr ""
+msgstr "Alte Xfce-Hintergründe wurden von .png nach .svg portiert, um auch auf großen Bildschirmen verwendet werden zu können."
 
 #: about/tour.php:252 about/tour420.php:252
 msgid "Gradients will now be rendered in a gamma-correct way."
-msgstr ""
+msgstr "Farbverläufe werden nun gammakorrekt gerendert."
 
 #: about/tour.php:254 about/tour420.php:254
 msgid "Icon grid"
@@ -3679,7 +3679,7 @@ msgstr "Dateisymbole"
 
 #: about/tour.php:264 about/tour420.php:264
 msgid "There is now an option to sort folders before files."
-msgstr ""
+msgstr "Es gibt jetzt eine Option zum Sortieren von Ordnern vor Dateien."
 
 #: about/tour.php:265 about/tour420.php:265
 msgid ""
@@ -3713,7 +3713,7 @@ msgstr ""
 
 #: about/tour.php:273 about/tour420.php:273
 msgid "xfdesktop - settings - keyboard shortcuts"
-msgstr ""
+msgstr "xfdesktop - Einstellungen - Tastaturkürzel"
 
 #: about/tour.php:274 about/tour420.php:274
 msgid ""
