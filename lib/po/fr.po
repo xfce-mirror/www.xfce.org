@@ -7,7 +7,7 @@
 # Anthony Jorion <pingax@gmail.com>, 2013
 # Charles Monzat <c.monzat@laposte.net>, 2018
 # David D, 2017
-# David D, 2017-2019
+# David D, 2017-2019,2024
 # Guillaume Bernard, 2014
 # 884f67cbb4b8877bc6f908f001273e00_09ec0ed, 2014
 # jc1 <jc1.quebecos@gmail.com>, 2013
@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2024-12-19 00:52+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
-"Last-Translator: Wallon Wallon, 2023-2024\n"
+"Last-Translator: David D, 2017-2019,2024\n"
 "Language-Team: French (http://app.transifex.com/xfce/xfce-www/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2855,7 +2855,7 @@ msgstr "Quelques captures d’écran de Xfce, classées par version."
 
 #: about/screenshots.php:23 download/changelogs/index.php:6
 msgid "Xfce 4.20"
-msgstr ""
+msgstr "Xfce 4.20"
 
 #: about/screenshots.php:28 download/changelogs/index.php:7
 msgid "Xfce 4.18"
@@ -2899,19 +2899,19 @@ msgstr "Xfce 4.0"
 
 #: about/tour.php:1 about/tour420.php:1
 msgid "Xfce 4.20 tour"
-msgstr ""
+msgstr "Présentation de Xfce 4.20"
 
 #: about/tour.php:5 about/tour420.php:5
 msgid ""
 "This tour will introduce you to new major features of Xfce 4.20. It only "
 "covers improvements made on the (user-visible) surface."
-msgstr ""
+msgstr "Cette présentation vous présentera les nouvelles fonctionnalités majeures de Xfce 4.20. Elle ne couvre que les améliorations apportées à la surface (visible par l’utilisateur)."
 
 #: about/tour.php:6 about/tour420.php:6
 msgid ""
 "Check the full <a href=\"/download/changelogs/4.20/\">Xfce 4.20 "
 "changelog</a> for a detailed list of changes."
-msgstr ""
+msgstr "Consultez le <a href=\"/download/changelogs/4.18/\">journal des modifications de Xfce 4.20</a> pour une liste détaillée des modifications."
 
 #: about/tour.php:11 about/tour420.php:11
 msgid ""
@@ -2919,7 +2919,7 @@ msgid ""
 "4.20 is experimental. It is recommended for advanced users only, as you may "
 "encounter bugs and experience incomplete functionality. Proceed with "
 "caution!"
-msgstr ""
+msgstr "<b>Note importante :</b> Veuillez noter que le support de Wayland dans Xfce 4.20 est expérimental. Il est recommandé aux utilisateurs avancés seulement, car vous pouvez rencontrer des bogues et des fonctionnalités incomplètes. Procédez avec prudence !"
 
 #: about/tour.php:13 about/tour420.php:13
 msgid ""
@@ -2927,7 +2927,7 @@ msgid ""
 "href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> almost all Xfce "
 "components are able to run on Wayland windowing, while still keeping support"
 " for X11 windowing."
-msgstr ""
+msgstr "Grâce à <a href=\"https://gitlab.xfce.org/kelnos\">Brian</a> et <a href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> presque tous les composants Xfce peuvent fonctionner sur des fenêtres Wayland, tout en maintenant le support pour les fenêtres X11."
 
 #: about/tour.php:14 about/tour420.php:14
 msgid ""
@@ -2935,7 +2935,7 @@ msgid ""
 " specific calls and making use of Wayland/Wlroots protocols. A whole new "
 "Xfce library, \"libxfce4windowing\" was introduced during that process. "
 "XWayland will not be required to run any of the ported Xfce components."
-msgstr ""
+msgstr "Cet effort majeur a été réalisé en supprimant les appels spécifiques X11/Wayland et en utilisant les protocoles Wayland/Wlroots. Une toute nouvelle bibliothèque Xfce, \"libxfce4windowing\" a été introduite pendant ce processus. XWayland ne sera pas nécessaire pour exécuter les composants Xfce portés."
 
 #: about/tour.php:15 about/tour420.php:15
 msgid ""
@@ -2944,7 +2944,7 @@ msgid ""
 "results. A detailed instruction on this can be found <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">here</a>. "
 "Please be aware that Wayland support is still experimental!"
-msgstr ""
+msgstr "Jusqu’à présent, Xfce ne propose pas de compositeur qui supporte Wayland. Si vous voulez exécuter Xfce dans Wayland, Labwc et Wayfire vous donneront les meilleurs résultats. Une instruction détaillée à ce sujet peut être trouvée <a href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">ici</a>. Veuillez noter que le support de Wayland est encore expérimental !"
 
 #: about/tour.php:16 about/tour420.php:16
 msgid ""
@@ -2952,14 +2952,14 @@ msgid ""
 "existing X11 functionality. However, such a restructurization will be a "
 "major effort and we cannot tell yet when/if it will be done, so please don't"
 " hold your breath waiting for it."
-msgstr ""
+msgstr "Des plans sont en cours pour ajouter le support de Wayland à Xfwm4 tout en préservant ses fonctionnalités X11 existantes. Cependant, une telle restructuration sera un effort majeur et nous ne pouvons pas encore dire quand/si elle sera faite, alors s’il vous plaît ne retenez pas votre souffle en attendant."
 
 #: about/tour.php:18 about/tour420.php:18
 msgid ""
 "For few components and multiple features, it was not possible to port them "
 "to Wayland, partly because there are no standardized Wayland protocols "
 "available yet to provide the required services:"
-msgstr ""
+msgstr "Pour quelques composants et de nombreuses fonctionnalités, il n’a pas été possible de les porter à Wayland, en partie parce qu’il n’y a pas encore de protocoles normalisés de Wayland disponibles pour fournir les services requis :"
 
 #: about/tour.php:20 about/tour420.php:20
 msgid ""
