@@ -53,7 +53,7 @@ msgstr "RSS beslemesine abone ol"
 #: about/news.php:33 feed.php:42 frontpage.php:103
 #, php-format
 msgid "Xfce %s released"
-msgstr "Xfce %s yayımlandı"
+msgstr "Xfce %s yayınlandı"
 
 #: about/news.php:69 download/index.php:5 header.php:61 frontpage.php:48
 msgid "Download"
@@ -2914,7 +2914,7 @@ msgstr "Kullanıcıların görebileceği yüzeysel iyileştirmeleri kapsayan bu 
 msgid ""
 "Check the full <a href=\"/download/changelogs/4.20/\">Xfce 4.20 "
 "changelog</a> for a detailed list of changes."
-msgstr ""
+msgstr "Değişikliklerin ayrıntılı listesi için <a href=\"/download/changelogs/4.20/\">Xfce 4.20 değişiklik günlüğünü</a> inceleyin."
 
 #: about/tour.php:11 about/tour420.php:11
 msgid ""
@@ -2922,7 +2922,7 @@ msgid ""
 "4.20 is experimental. It is recommended for advanced users only, as you may "
 "encounter bugs and experience incomplete functionality. Proceed with "
 "caution!"
-msgstr ""
+msgstr "<b>Önemli Uyarı:</b> Lütfen Xfce 4.20'deki Wayland desteğinin deneysel olduğunu unutmayın. Hatalarla karşılaşabileceğiniz ve eksik işlevsellik yaşayabileceğiniz için yalnızca ileri düzey kullanıcılar için önerilir. Dikkatli olun!"
 
 #: about/tour.php:13 about/tour420.php:13
 msgid ""
@@ -2930,7 +2930,7 @@ msgid ""
 "href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> almost all Xfce "
 "components are able to run on Wayland windowing, while still keeping support"
 " for X11 windowing."
-msgstr ""
+msgstr "<a href=\"https://gitlab.xfce.org/kelnos\">Brian</a> ve <a href=\"https://gitlab.xfce.org/Tamaranch\">Gaël</a> sayesinde neredeyse tüm Xfce bileşenleri Wayland pencerelemesinde çalışabilirken, X11 pencereleme desteği de devam ediyor."
 
 #: about/tour.php:14 about/tour420.php:14
 msgid ""
@@ -2938,7 +2938,7 @@ msgid ""
 " specific calls and making use of Wayland/Wlroots protocols. A whole new "
 "Xfce library, \"libxfce4windowing\" was introduced during that process. "
 "XWayland will not be required to run any of the ported Xfce components."
-msgstr ""
+msgstr "Bu büyük çaba, X11/Wayland pencereleme özel çağrılarını soyutlayarak ve Wayland/Wlroots protokollerini kullanarak gerçekleştirildi. Bu süreçte yepyeni bir Xfce kütüphanesi olan \"libxfce4windowing\" tanıtıldı. XWayland'ın taşınan Xfce bileşenlerinden hiçbirini çalıştırması gerekmeyecek."
 
 #: about/tour.php:15 about/tour420.php:15
 msgid ""
@@ -2947,7 +2947,7 @@ msgid ""
 "results. A detailed instruction on this can be found <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">here</a>. "
 "Please be aware that Wayland support is still experimental!"
-msgstr ""
+msgstr "Şimdiye kadar Xfce, Wayland'ı destekleyen bir kompozitör içermiyor. Xfce'ı Wayland'da çalıştırmak istiyorsanız, Labwc ve Wayfire size en iyi sonuçları verecektir. Bununla ilgili ayrıntılı bir talimat <a href=\"https://wiki.xfce.org/releng/wayland_roadmap#testing\">burada</a> bulunabilir. Lütfen Wayland desteğinin hala deneysel olduğunu unutmayın!"
 
 #: about/tour.php:16 about/tour420.php:16
 msgid ""
@@ -2969,27 +2969,27 @@ msgid ""
 "Workspace support is missing (ext-workspace protocol <a "
 "href=\"https://gitlab.freedesktop.org/wayland/wayland-"
 "protocols/-/merge_requests/40\">was just merged</a>)."
-msgstr ""
+msgstr "Çalışma alanı desteği eksik (ext-workspace protokolü <a href=\"https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40\">yeni birleştirildi</a>)."
 
 #: about/tour.php:21 about/tour420.php:21
 msgid ""
 "Systray icons will be missing for multiple applications (required to use "
 "StatusNotifier instead of GtkStatusIcon)"
-msgstr ""
+msgstr "Systray simgeleri birden fazla uygulama için kaybolacak (GtkStatusIcon yerine StatusNotifier kullanmak için gerekli)"
 
 #: about/tour.php:22 about/tour420.php:22
 msgid ""
 "Xfce4-settings: Keyboard and mouse settings so far are internal to the "
 "Wayland compositor and as such the according Xfce dialogs won't be available"
 " on Wayland yet."
-msgstr ""
+msgstr "Xfce4-settings: Klavye ve fare ayarları şu ana kadar Wayland kompozitörüne ait olduğundan, ilgili Xfce iletişim kutuları henüz Wayland'da kullanılamayacak."
 
 #: about/tour.php:23 about/tour420.php:23
 msgid ""
 "Power related keyboard handling (brightness keys, suspend, etc.) is internal"
 " to the Wayland compositor and as such cannot be supported yet by Xfce "
 "components."
-msgstr ""
+msgstr "Güçle ilgili klavye kullanımı (parlaklık tuşları, askıya alma, vb.) Wayland kompozitörüne dahildir ve bu nedenle henüz Xfce bileşenleri tarafından desteklenememektedir."
 
 #: about/tour.php:24 about/tour420.php:24
 msgid ""
@@ -2997,11 +2997,11 @@ msgid ""
 "xfce4-screenshooter already supports screenshots via the wlroots "
 "'screencopy' protocol (entire screen). Screenshots of a rectangle selection "
 "or the active window are not yet supported via Wayland."
-msgstr ""
+msgstr "Wayland ekran görüntüleri almak için yerel bir protokol belirtmez. Ancak, xfce4-screenshooter zaten wlroots 'screencopy' protokolü (tüm ekran) aracılığıyla ekran görüntülerini destekler. Bir dikdörtgen seçiminin veya etkin pencerenin ekran görüntüleri henüz Wayland aracılığıyla desteklenmemektedir."
 
 #: about/tour.php:26 about/tour420.php:26
 msgid "Some other Xfce components don't run at all on Wayland:"
-msgstr ""
+msgstr "Diğer bazı Xfce bileşenleri Wayland'da hiç çalışmıyor:"
 
 #: about/tour.php:28 about/tour420.php:28
 msgid "Xfwm4"
@@ -3017,51 +3017,51 @@ msgid ""
 "href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">completed"
 " but not merged</a>, as it requires the experimental <a "
 "href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed library</a>)"
-msgstr ""
+msgstr "Xfce4-screensaver (Wayland'a taşıma <a href=\"https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28\">tamamlandı ancak birleştirilmedi</a>, çünkü deneysel <a href=\"https://gitlab.xfce.org/kelnos/libwlembed\">libwlembed kütüphanesini</a> gerektiriyor)"
 
 #: about/tour.php:31 about/tour420.php:31
 msgid ""
 "Xfce4-windowck-plugin (needs to be <a href=\"https://gitlab.xfce.org/panel-"
 "plugins/xfce4-windowck-plugin/-/issues/37\">ported to libxfce4windowing</a>)"
-msgstr ""
+msgstr "Xfce4-windowck-plugin (<a href=\"https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37\">libxfce4windowing</a>'e taşınması gerekiyor)"
 
 #: about/tour.php:32 about/tour420.php:32
 msgid ""
 "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)"
-msgstr ""
+msgstr "Xfce4-xkb-plugin (klavye kullanımı Wayland kompozitörüne dahilidir)"
 
 #: about/tour.php:35 about/tour420.php:35
 msgid ""
 "More detailed info on the current Wayland status can be found on our <a "
 "href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland roadmap.</a>"
-msgstr ""
+msgstr "Wayland'ın mevcut durumu hakkında daha detaylı bilgiye <a href=\"https://wiki.xfce.org/releng/wayland_roadmap\">Wayland yol haritamız</a>dan ulaşabilirsiniz."
 
 #: about/tour.php:38 about/tour420.php:38
 msgid ""
 "Icons and thumbnail scaling was fixed for various components. Various "
 "missing icons for larger scales were added. Any blurriness when using Xfce "
 "components on a HiDPI display should be gone now."
-msgstr ""
+msgstr "Çeşitli bileşenler için simgeler ve küçük resim ölçeklemesi düzeltildi. Daha büyük ölçekler için çeşitli eksik simgeler eklendi. Xfce bileşenlerini bir HiDPI ekranda kullanırken oluşan bulanıklık artık ortadan kalkmış olmalı."
 
 #: about/tour.php:43 about/tour420.php:43
 msgid "Icon View Performance"
-msgstr ""
+msgstr "Simge Görünümü Performansı"
 
 #: about/tour.php:44 about/tour420.php:44
 msgid ""
 "By using different container types, the \"Exo-Icon-View\" now can handle "
 "100,000 files and more without freezing."
-msgstr ""
+msgstr "\"Exo-Icon-View\" farklı konteyner tiplerinin kullanılmasıyla artık 100.000'den fazla dosyayı donmadan işleyebiliyor."
 
 #: about/tour.php:46 about/tour420.php:46
 msgid "Type ahead search box"
-msgstr ""
+msgstr "İleriye yönelik arama kutusuna yazın"
 
 #: about/tour.php:47 about/tour420.php:47
 msgid ""
 "The type ahead search box in the exo icon view now always stays inside the "
 "according view widget."
-msgstr ""
+msgstr "Exo simge görünümündeki önceden yazma arama kutusu artık her zaman ilgili görünüm widget'ının içinde kalıyor."
 
 #: about/tour.php:52 about/tour420.php:52
 msgid "Shortcut Editor"
@@ -3077,18 +3077,18 @@ msgstr "Artık kısayollar birbirleri arasında uyuşmazlık yoksa birden fazla 
 msgid ""
 "The dialog now shows the distribution logo, information about the used "
 "windowing system and the used GPU."
-msgstr ""
+msgstr "İletişim kutusunda artık dağıtım logosu, kullanılan pencere sistemi ve kullanılan GPU hakkında bilgiler gösteriliyor."
 
 #: about/tour.php:57 about/tour420.php:57
 msgid "libxfce4ui - about dialog"
-msgstr ""
+msgstr "libxfce4ui - hakkında diyalogu"
 
 #: about/tour.php:62 about/tour420.php:62
 msgid ""
 "This library is new to Xfce. Libxfce4windowing is an abstraction library "
 "that attempts to present windowing concepts (screens, top level windows, "
 "workspaces, etc.) in a windowing-system-independent manner."
-msgstr ""
+msgstr "Bu kütüphane Xfce'ye yeni eklendi. Libxfce4windowing, pencereleme kavramlarını (ekranlar, üst düzey pencereler, çalışma alanları, vb.) pencereleme sisteminden bağımsız bir şekilde sunmaya çalışan bir soyutlama kütüphanesidir."
 
 #: about/tour.php:64 about/tour420.php:64
 msgid ""
@@ -3096,24 +3096,24 @@ msgid ""
 "supported by using various Wayland protocol extensions. However, the full "
 "range of operations available on X11 is not available on Wayland, due to "
 "missing features in these protocols extensions."
-msgstr ""
+msgstr "Şu anda X11, libwnck aracılığıyla tamamen destekleniyor. Wayland, çeşitli Wayland protokol uzantıları kullanılarak kısmen destekleniyor. Ancak, X11'de mevcut olan işlemlerin tam aralığı, bu protokol uzantılarındaki eksik özellikler nedeniyle Wayland'da mevcut değil."
 
 #: about/tour.php:70 about/tour420.php:70
 msgid "Mounted and Remote Locations"
-msgstr ""
+msgstr "Monte edilmiş ve Uzak Konumlar"
 
 #: about/tour.php:71 about/tour420.php:71
 msgid "Mount points now show an emblem and have a specific type description."
-msgstr ""
+msgstr "Bağlantı noktaları artık bir amblem gösterecek ve belirli bir tür açıklamasına sahip olacak."
 
 #: about/tour.php:72 about/tour420.php:72
 msgid "Ipv6 remote URLs are now supported."
-msgstr ""
+msgstr "Artık IPv6 uzak URL'leri destekleniyor."
 
 #: about/tour.php:73 about/tour420.php:73
 msgid ""
 "It is now possible to create symbolic links as well on remote locations."
-msgstr ""
+msgstr "Uzak konumlarda da sembolik bağlantılar oluşturmak artık mümkün."
 
 #: about/tour.php:75 about/tour420.php:75
 msgid "Search"
@@ -3123,29 +3123,29 @@ msgstr "Arama"
 msgid ""
 "It is not required any more to wait until a search is finished to open the "
 "context menu on search results."
-msgstr ""
+msgstr "Arama sonuçlarında içerik menüsünü açmak için artık aramanın bitmesini beklemenize gerek yok."
 
 #: about/tour.php:79 about/tour420.php:79
 msgid "A couple of new toolbar buttons were added:"
-msgstr ""
+msgstr "Birkaç yeni araç çubuğu düğmesi eklendi:"
 
 #: about/tour.php:81 about/tour420.php:81
 msgid "View Switcher - A drop-down button to select a view."
-msgstr ""
+msgstr "Görünüm Değiştirici - Bir görünümü seçmek için açılan düğme."
 
 #: about/tour.php:82 about/tour420.php:82
 msgid ""
 "Menu - This hamburger button will show automatically in the toolbar, when "
 "the menubar is hidden. It will reveal a vertical menu, bar, when pressed."
-msgstr ""
+msgstr "Menü - Bu hamburger düğmesi, menü çubuğu gizlendiğinde araç çubuğunda otomatik olarak gösterilecektir. Basıldığında dikey bir menü, çubuk ortaya çıkaracaktır."
 
 #: about/tour.php:83 about/tour420.php:83
 msgid "New Tab - Open a new tab using the current directory."
-msgstr ""
+msgstr "Yeni Sekme - Geçerli dizini kullanarak yeni bir sekme açın."
 
 #: about/tour.php:84 about/tour420.php:84
 msgid "New Window - Open a new window using the current directory."
-msgstr ""
+msgstr "Yeni Pencere - Geçerli dizini kullanarak yeni bir pencere açın."
 
 #: about/tour.php:86 about/tour420.php:86
 msgid "thunar - new toolbar buttons"
@@ -3159,7 +3159,7 @@ msgstr "thunar - geliştirilmiş hamburger araç çubuğu düğmesi"
 msgid ""
 "On shrinking the Thunar window, toolbar items will now be moved to an "
 "overflow menu. Like that, it is possible to maintain smaller thunar windows."
-msgstr ""
+msgstr "Thunar penceresi küçültüldüğünde, araç çubuğu öğeleri artık bir taşma menüsüne taşınacak. Bu şekilde, daha küçük Thunar pencereleri tutmak mümkün."
 
 #: about/tour.php:90 about/tour420.php:90
 msgid ""
@@ -3177,11 +3177,11 @@ msgstr "Thunar'da (CSD) artık istemci tarafı dekorasyonlarını kullanma seçe
 
 #: about/tour.php:94 about/tour420.php:94
 msgid "thunar - CSD with menu"
-msgstr ""
+msgstr "thunar - Menülü CSD"
 
 #: about/tour.php:95 about/tour420.php:95
 msgid "thunar - CSD without menu"
-msgstr ""
+msgstr "thunar - Menüsüz CSD"
 
 #: about/tour.php:98 about/tour420.php:98
 msgid ""
@@ -3190,7 +3190,7 @@ msgstr "Durum çubuğunda gizli dosya sayısını gösterme seçeneği eklendi."
 
 #: about/tour.php:100 about/tour420.php:100
 msgid "Recently Used Files"
-msgstr ""
+msgstr "Son Kullanılan Dosyalar"
 
 #: about/tour.php:101 about/tour420.php:101
 msgid ""
@@ -3200,11 +3200,11 @@ msgstr "Artık yalnızca başarıyla açılan dosyalar son kullanılan dosyalar 
 
 #: about/tour.php:102 about/tour420.php:102
 msgid "Directories won't be added to the recently used files anymore."
-msgstr ""
+msgstr "Son kullanılan dosyalara artık dizin eklenmeyecek."
 
 #: about/tour.php:104 about/tour420.php:104
 msgid "Symbolic Icons"
-msgstr ""
+msgstr "Sembolik Simgeler"
 
 #: about/tour.php:105 about/tour420.php:105
 msgid ""
@@ -3214,11 +3214,11 @@ msgstr "Artık yan bölmede sembolik ikonlar, araç çubuğunda ise renkli ikonl
 
 #: about/tour.php:106 about/tour420.php:106
 msgid "thunar - symbolic icons"
-msgstr ""
+msgstr "thunar - sembolik simgeler"
 
 #: about/tour.php:107 about/tour420.php:107
 msgid "thunar - colored icons"
-msgstr ""
+msgstr "thunar - renkli simgeler"
 
 #: about/tour.php:109 about/tour420.php:109
 msgid "Drag and Drop"
@@ -3258,13 +3258,13 @@ msgid ""
 "href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>number "
 "of integration test cases</a> will be used in order to keep performance on "
 "the current level in the future."
-msgstr ""
+msgstr "Gelecekte de performansın mevcut seviyede tutulabilmesi için <a href=\"https://wiki.xfce.org/thunar/dev/integration_testcases\"></a>bir dizi entegrasyon test senaryosu</a> kullanılacaktır."
 
 #: about/tour.php:119 about/tour420.php:119
 msgid ""
 "Shortcuts for custom action will now as well work when the custom action is "
 "located in a sub-menu."
-msgstr ""
+msgstr "Özel eylemin kısayolları artık özel eylem bir alt menüde yer aldığında da çalışacak."
 
 #: about/tour.php:121 about/tour420.php:121
 msgid "File Transfer"
@@ -3281,26 +3281,26 @@ msgid ""
 "An option was added to only copy files in parallel if the relevant devices "
 "are in idle state. This prevents possible fragmentation during copy for HDD "
 "drives."
-msgstr ""
+msgstr "İlgili cihazların boşta olması durumunda dosyaların yalnızca paralel olarak kopyalanması seçeneği eklendi. Bu, HDD sürücüler için kopyalama sırasında olası parçalanmayı önler."
 
 #: about/tour.php:125 about/tour420.php:125
 msgid "Transferring files no longer steals the current focus."
-msgstr ""
+msgstr "Dosya aktarımı artık geçerli odağı almıyor."
 
 #: about/tour.php:126 about/tour420.php:126
 msgid ""
 "The file transfer question dialog now provides the same options while having"
 " less buttons. In addition, file thumbnails now are properly requested by "
 "the dialog."
-msgstr ""
+msgstr "Dosya transferi soru iletişim kutusu artık daha az düğmeyle aynı seçenekleri sunuyor. Ek olarak, dosya küçük resimleri artık iletişim kutusu tarafından düzgün bir şekilde isteniyor."
 
 #: about/tour.php:127 about/tour420.php:127
 msgid "thunar - file transfer dialog"
-msgstr ""
+msgstr "thunar - dosya aktarım iletişim kutusu"
 
 #: about/tour.php:129 about/tour420.php:129
 msgid "Launchers"
-msgstr ""
+msgstr "Başlatıcılar"
 
 #: about/tour.php:130 about/tour420.php:130
 msgid ""
@@ -3310,7 +3310,7 @@ msgstr "Varsayılan olarak, güvenilir başlatıcılar için artık dosya adlar�
 
 #: about/tour.php:132 about/tour420.php:132
 msgid "Undo/Redo"
-msgstr ""
+msgstr "Geri al/Yinele"
 
 #: about/tour.php:133 about/tour420.php:133
 msgid ""
@@ -3326,7 +3326,7 @@ msgstr "Ağaç görünümlü yan panele benzer şekilde, ana görünüm artık k
 
 #: about/tour.php:137 about/tour420.php:137
 msgid "thunar - expandable folders"
-msgstr ""
+msgstr "thunar - genişletilebilir klasörler"
 
 #: about/tour.php:140 about/tour420.php:140
 msgid ""
@@ -3336,25 +3336,25 @@ msgstr "Artık bölünmüş görünüm bölmeleri arasında geçiş yapmak için
 
 #: about/tour.php:141 about/tour420.php:141
 msgid "thunar - split view"
-msgstr ""
+msgstr "thunar - bölünmüş görünüm"
 
 #: about/tour.php:142 about/tour420.php:142
 msgid ""
 "A dialog will now ask for confirmation when closing a split-pane with "
 "multiple tabs."
-msgstr ""
+msgstr "Birden fazla sekmesi olan bölünmüş bir bölmeyi kapatırken artık bir iletişim kutusu onay isteyecek."
 
 #: about/tour.php:148 about/tour420.php:148
 msgid ""
 "The application list now as well can be navigated via Ctrl+N / Ctrl+P keys "
 "(VI default)."
-msgstr ""
+msgstr "Uygulama listesi artık Ctrl+N / Ctrl+P tuşlarıyla da gezilebiliyor (varsayılan VI)."
 
 #: about/tour.php:149 about/tour420.php:149
 msgid ""
 "An option was added to close the Appfinder window automatically when focus "
 "is lost."
-msgstr ""
+msgstr "Odak kaybolduğunda Appfinder penceresini otomatik olarak kapatmak için bir seçenek eklendi."
 
 #: about/tour.php:150 about/tour420.php:150
 msgid ""
@@ -3370,7 +3370,7 @@ msgstr "Yeni versiyonda uygulamaya özel eylemler sağ tıklandığında göster
 
 #: about/tour.php:152 about/tour420.php:152
 msgid "An option to show generic names of launchers was added."
-msgstr ""
+msgstr "Başlatıcıların genel isimlerini gösterme seçeneği eklendi."
 
 #: about/tour.php:153 about/tour420.php:153
 msgid ""
@@ -3384,7 +3384,7 @@ msgstr "Artık tek bir tıklamayla öğelerin başlatılmasına olanak tanıyan 
 
 #: about/tour.php:155 about/tour420.php:155
 msgid "xfce4-appfinder - settings"
-msgstr ""
+msgstr "xfce4-appfinder - ayarlar"
 
 #: about/tour.php:163 about/tour420.php:163
 msgid "The border width of the panel is now configurable."
@@ -3431,7 +3431,7 @@ msgstr "Görev listesi"
 msgid ""
 "Icon size management has been improved overall, notably by switching to "
 "libxfce4windowing."
-msgstr ""
+msgstr "Simge boyut yönetimi genel olarak iyileştirildi, özellikle libxfce4windowing'e geçilmesiyle."
 
 #: about/tour.php:178 about/tour420.php:178
 msgid ""
@@ -3447,7 +3447,7 @@ msgstr "Panel yapılandırma listesindeki panel nesneleri artık panelin kendisi
 
 #: about/tour.php:180 about/tour420.php:180
 msgid "xfce4-panel - panel configuration list"
-msgstr ""
+msgstr "xfce4-panel - panel yapılandırma listesi"
 
 #: about/tour.php:186 about/tour420.php:186
 msgid "Screen Locking"
@@ -3458,21 +3458,21 @@ msgid ""
 "There is no dedicated \"security\" tab anymore. Lock screen management was "
 "massively simplified and \"Light Locker\" was dropped. \"lock-on-sleep\" is "
 "now synchronized with xfce4-session and xfce4-screensaver."
-msgstr ""
+msgstr "Artık özel bir \"güvenlik\" sekmesi yok. Kilit ekranı yönetimi büyük ölçüde basitleştirildi ve \"Light Locker\" kaldırıldı. \"lock-on-sleep\" artık xfce4-session ve xfce4-screensaver ile senkronize ediliyor."
 
 #: about/tour.php:188 about/tour420.php:188
 msgid ""
 "Screen locking settings are now only handled by xfce4-screensaver to avoid "
 "conflicts. A button to open xfce4-screensaver-preferences was added:"
-msgstr ""
+msgstr "Ekran kilitleme ayarları artık çakışmaları önlemek için yalnızca xfce4-screensaver tarafından işleniyor. xfce4-screensaver-preferences'ı açmak için bir düğme eklendi:"
 
 #: about/tour.php:189 about/tour420.php:189
 msgid "xfce4-power-manager - settings"
-msgstr ""
+msgstr "xfce4-power-manager - ayarlar"
 
 #: about/tour.php:190 about/tour420.php:190
 msgid "xfce4-screensaver - settings"
-msgstr ""
+msgstr "xfce4-screensaver - ayarlar"
 
 #: about/tour.php:192 about/tour420.php:192
 msgid "Power Settings"
@@ -3537,13 +3537,13 @@ msgstr "Artık 'startxfce4 --wayland' komutuyla bir Wayland oturumu başlatmak m
 msgid ""
 "Minimal support for xdg-desktop-portal was added by registering for a "
 "wallpaper, screenshot and background xapp."
-msgstr ""
+msgstr "Duvar kağıdı, ekran görüntüsü ve arka plan xapp'i kaydedilerek xdg-desktop-portal için minimum destek eklendi."
 
 #: about/tour.php:217 about/tour420.php:217
 msgid ""
 "Icon themes are now loaded in a separate thread, in order to prevent a "
 "possible freeze."
-msgstr ""
+msgstr "Olası bir donmayı önlemek amacıyla simge temaları artık ayrı bir başlıkta yükleniyor."
 
 #: about/tour.php:218 about/tour420.php:218
 msgid ""
@@ -3553,7 +3553,7 @@ msgstr "Eksik olduğu bilinen simge temaları için artık bir uyarı gösterile
 
 #: about/tour.php:219 about/tour420.php:219
 msgid "The usage of client side decorations is opt-in now, not opt-out."
-msgstr ""
+msgstr "İstemci tarafı dekorasyonlarının kullanımı artık devre dışı bırakılamaz, isteğe bağlı olarak kullanılabilir."
 
 #: about/tour.php:220 about/tour420.php:220
 msgid ""
@@ -3594,7 +3594,7 @@ msgstr "Minimal diyaloglar iyileştirildi, özellikle ekranın sola ve yukarıda
 
 #: about/tour.php:228 about/tour420.php:228
 msgid "xfce4-settings - minimal display"
-msgstr ""
+msgstr "xfce4-settings - minimal ekran"
 
 #: about/tour.php:230 about/tour420.php:230
 msgid "Mouse Settings"
@@ -3613,11 +3613,11 @@ msgstr "Yüksek çözünürlüklü kaydırma özelliği artık bunu destekleyen 
 
 #: about/tour.php:233 about/tour420.php:233
 msgid "xfce4-settings - mouse"
-msgstr ""
+msgstr "xfce4-settings - fare"
 
 #: about/tour.php:235 about/tour420.php:235
 msgid "Mime Settings"
-msgstr ""
+msgstr "Mime Ayarları"
 
 #: about/tour.php:236 about/tour420.php:236
 msgid "It is now possible to select/change multiple items at once."
@@ -3627,16 +3627,16 @@ msgstr "Artık birden fazla öğeyi aynı anda seçmek/değiştirmek mümkün."
 msgid ""
 "A systemd user unit, corresponding to the D-Bus session service, is now "
 "added."
-msgstr ""
+msgstr "D-Bus oturum hizmetine karşılık gelen bir systemd kullanıcı birimi artık eklendi."
 
 #: about/tour.php:242 about/tour420.php:242
 msgid ""
 "Whitespaces are now properly escaped when writing a xfconf channel to disk."
-msgstr ""
+msgstr "Diske bir xfconf kanalı yazarken boşluklardan artık düzgün şekilde çıkılıyor."
 
 #: about/tour.php:243 about/tour420.php:243
 msgid "Xfconf-query now displays array contents."
-msgstr ""
+msgstr "Xfconf-query artık dizi içeriklerini görüntüler."
 
 #: about/tour.php:249 about/tour420.php:249
 msgid "Background Management"
@@ -3656,7 +3656,7 @@ msgstr "Eski Xfce arka planları büyük ekranlarda kullanılabilmesi için .png
 
 #: about/tour.php:252 about/tour420.php:252
 msgid "Gradients will now be rendered in a gamma-correct way."
-msgstr ""
+msgstr "Degradeler artık gama açısından doğru bir şekilde oluşturulacak."
 
 #: about/tour.php:254 about/tour420.php:254
 msgid "Icon grid"
@@ -3689,7 +3689,7 @@ msgstr "Pencere simgeleri artık başlangıçta pencerenin küçültülmeden ön
 msgid ""
 "The context menu (when clicking on an empty space) now has more useful "
 "options than before."
-msgstr ""
+msgstr "İçerik menüsü (boş bir alana tıklandığında) artık eskisinden daha kullanışlı seçeneklere sahip."
 
 #: about/tour.php:263 about/tour420.php:263
 msgid "File Icons"
@@ -3713,7 +3713,7 @@ msgstr "Yeni dosyalar ve bırakılan dosyalar artık geçerli imleç konumunun y
 
 #: about/tour.php:267 about/tour420.php:267
 msgid "Icons of fixed disks and drives can now be optionally shown."
-msgstr ""
+msgstr "Sabit disk ve sürücülerin simgeleri artık isteğe bağlı olarak gösterilebilecek."
 
 #: about/tour.php:270 about/tour420.php:270
 msgid "The 'Desktop Icons' tab was fully reworked."
@@ -3721,7 +3721,7 @@ msgstr "'Masaüstü Simgeleri' sekmesi tamamen yeniden düzenlendi."
 
 #: about/tour.php:271 about/tour420.php:271
 msgid "xfdesktop - settings - desktop icons"
-msgstr ""
+msgstr "xfdesktop - ayarlar - masaüstü simgeleri"
 
 #: about/tour.php:272 about/tour420.php:272
 msgid ""
@@ -3731,7 +3731,7 @@ msgstr "Xfdesktop'un tüm kısayolları artık XfceShortcutsManagers widget'ı k
 
 #: about/tour.php:273 about/tour420.php:273
 msgid "xfdesktop - settings - keyboard shortcuts"
-msgstr ""
+msgstr "xfdesktop - ayarlar - klavye kısayolları"
 
 #: about/tour.php:274 about/tour420.php:274
 msgid ""
@@ -3743,7 +3743,7 @@ msgstr "Ayarlar iletişim kutusuna arka plan resimlerinin tutulduğu daha fazla 
 msgid ""
 "The settings dialog will update if the background is changed from outside "
 "the dialog."
-msgstr ""
+msgstr "Ayarlar iletişim kutusu, arka plan iletişim kutusunun dışından değiştirildiğinde güncellenecektir."
 
 #: about/tour.php:276 about/tour420.php:276
 msgid ""
@@ -3752,7 +3752,7 @@ msgstr "Duvar kağıdı resim klasörleri artık gecikmeyi önlemek için tamame
 
 #: about/tour.php:278 about/tour420.php:278
 msgid "Context Menu"
-msgstr ""
+msgstr "İçerik Menüsü"
 
 #: about/tour.php:279 about/tour420.php:279
 msgid ""
@@ -3767,11 +3767,11 @@ msgstr "Artık birden fazla seçili klasörü aynı anda açmak mümkün."
 msgid ""
 "The context menu now opens on button press rather than button release, as "
 "most users will expect."
-msgstr ""
+msgstr "İçerik menüsü artık çoğu kullanıcının beklediği gibi düğmeyi bırakmak yerine düğmeye basıldığında açılıyor."
 
 #: about/tour.php:282 about/tour420.php:282
 msgid "The middle-click window list menu has new styling and added features."
-msgstr ""
+msgstr "Orta tıklamayla açılan pencere listesi menüsü yeni bir stile ve ek özelliklere sahip."
 
 #: about/tour.php:287 about/tour420.php:287
 msgid "Support for stretch theme variants"
@@ -3779,17 +3779,17 @@ msgstr "Esnek tema çeşitleri için destek"
 
 #: about/tour.php:288 about/tour420.php:288
 msgid "compositor: Block softpipe for GLX vsync"
-msgstr ""
+msgstr "compositor: GLX vsync için softpipe'ı engelle"
 
 #: about/tour.php:289 about/tour420.php:289
 msgid "focus: Include skip taskbar/pager when passing focus"
-msgstr ""
+msgstr "odak: Odaklanmayı geçerken görev çubuğunu/sayfalayıcıyı atla seçeneğini ekle"
 
 #: about/tour.php:290 about/tour420.php:290
 msgid ""
 "Fix crash when alt-tabbing (<a "
 "href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
-msgstr ""
+msgstr "Alt-tab yaparken oluşan çökmeyi düzeltin (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)"
 
 #: about/tour.php:293 about/tour420.php:293
 msgid "Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\"."
@@ -4214,7 +4214,7 @@ msgstr "Projeler"
 
 #: projects/index.php:7
 msgid "Learn&nbsp;More&nbsp;&rarr;"
-msgstr "Daha&nbsp;Çoğu&nbsp;&rarr;"
+msgstr "Daha Fazlasını&nbsp;Öğren&nbsp;&rarr;"
 
 #: projects/index.php:12
 msgid ""
@@ -4538,7 +4538,7 @@ msgstr "Saygılar,<br />Xfce geliştirme takımı"
 
 #: news-array.php:30
 msgid "Xfce 4.18 released"
-msgstr "Xfce 4.18 çıktı"
+msgstr "Xfce 4.18 yayınlandı"
 
 #: news-array.php:35
 msgid ""
@@ -4573,7 +4573,7 @@ msgstr "Xfce 4.16 ve Xfce 4.18 sürümleri arasındaki değişikliklerin ayrınt
 
 #: news-array.php:51
 msgid "Xfce 4.16 released"
-msgstr "Xfce 4.16 çıktı"
+msgstr "Xfce 4.16 yayınlandı"
 
 #: news-array.php:56
 msgid ""
@@ -4755,7 +4755,7 @@ msgstr "Xfce 4.14 ve 4.16 sürümleri arasındaki değişikliklerin ayrıntılı
 
 #: news-array.php:89
 msgid "Xfce 4.14 released"
-msgstr "Xfce 4.14 çıktı"
+msgstr "Xfce 4.14 yayınlandı"
 
 #: news-array.php:94
 msgid ""
@@ -5022,7 +5022,7 @@ msgstr "Xfce 4.12 ve Xfce 4.14 sürümleri arasındaki değişikliklere ilişkin
 
 #: news-array.php:147
 msgid "Xfce 4.12 released"
-msgstr "Xfce 4.12 çıktı"
+msgstr "Xfce 4.12 yayınlandı"
 
 #: news-array.php:152
 msgid "Xfce 4.12 is be the best release ever (yes, we like to party!)!"
@@ -5250,7 +5250,7 @@ msgstr "Her zaman olduğu gibi, Xfce geliştirme sürecine katkı vermek isteye 
 
 #: news-array.php:202
 msgid "Xfce 4.10 released"
-msgstr "Xfce 4.10 çıktı"
+msgstr "Xfce 4.10 yayınlandı"
 
 #: news-array.php:207
 msgid ""
@@ -5318,7 +5318,7 @@ msgstr "Bu sürümü mümkün kılan çabalarınız için,t üm katılımcılar�
 
 #: news-array.php:225
 msgid "Xfce 4.10pre2 released"
-msgstr "Xfce 4.10pre2 çıktı"
+msgstr "Xfce 4.10pre2 yayınlandı"
 
 #: news-array.php:230
 msgid ""
@@ -5351,7 +5351,7 @@ msgstr "Bu sürümde katkıda bulunan herkese saygılarımızı sunar ve teşekk
 
 #: news-array.php:235
 msgid "Xfce 4.10pre1 released"
-msgstr "Xfce 4.10pre1 çıktı"
+msgstr "Xfce 4.10pre1 yayınlandı"
 
 #: news-array.php:240
 msgid ""
@@ -5420,7 +5420,7 @@ msgstr "Umarız bu sürümü beğenmişsinizdir. Lütfen düşüncelerinizi gün
 
 #: news-array.php:248
 msgid "Xfce 4.8 released"
-msgstr "Xfce 4.8 çıktı"
+msgstr "Xfce 4.8 yayınlandı"
 
 #: news-array.php:253
 msgid ""
@@ -5661,7 +5661,7 @@ msgstr "Muhteşem Transifex çeviri platformuna teşkkür ederiz, dil takımlar�
 
 #: news-array.php:308
 msgid "The second bugfix-release of xfce 4.6 has been released."
-msgstr "xfce 4.6 için ikinci hata düzeltme sürümü çıktı."
+msgstr "xfce 4.6 için ikinci hata düzeltme sürümü yayınlandı."
 
 #: news-array.php:309
 msgid ""
@@ -5671,7 +5671,7 @@ msgstr "Bu sürüm pek çok güncellenmiş çeviri, hata düzeltmesi ve yeni GTK
 
 #: news-array.php:316
 msgid "The first bugfix-release of xfce 4.6 has been released."
-msgstr "xfce 4.6 için ilk hata düzeltme sürümü çıktı."
+msgstr "xfce 4.6 için ilk hata düzeltme sürümü yayınlandı."
 
 #: news-array.php:317
 msgid ""
@@ -5690,7 +5690,7 @@ msgstr "tüm çevirmenlere teşekkürler, 4.6.0 sürümünden bu yana bir çok d
 #: news-array.php:325
 msgid ""
 "After more than two years of development, Xfce 4.6.0 has just been released."
-msgstr "İki yıldan uzun süren geliştirme sürecinin ardından Xfce 4.6 artık hazır."
+msgstr "İki yıldan fazla süren geliştirmenin ardından Xfce 4.6.0 yayınlandı."
 
 #: news-array.php:326
 msgid ""
