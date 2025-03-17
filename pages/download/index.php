@@ -45,7 +45,7 @@ $head['title'] = R_('Download');
 
 <h2 id="distros"><?php E_('Distributions') ?></h2>
 <p>
-  <?php E_('A lot of different distributions provide Xfce packages. Popular examples built around Xfce are <a href="https://xubuntu.org/">Xubuntu</a>, the <a href="https://spins.fedoraproject.org/xfce/">Fedora Xfce Spin</a>, <a href="https://manjaro.org/get-manjaro/">Manjaro</a> or <a href="http://zenwalkgnulinux.blogspot.com/">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well.') ?>
+  <?php E_('A lot of different distributions provide Xfce packages. Popular examples built around Xfce are <a href="https://xubuntu.org/">Xubuntu</a>, the <a href="https://fedoraproject.org/spins/xfce">Fedora Xfce Spin</a>, <a href="https://manjaro.org/products/download/">Manjaro</a> or <a href="http://www.zenwalk.org/">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well.') ?>
 </p>
 <p>
   <?php printf (R_('You can find a more complete list at <a href="https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s">DistroWatch.com</a>.'), $stable_version) ?>
