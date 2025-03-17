@@ -397,13 +397,13 @@
 <h2><a href="https://gitlab.xfce.org/xfce/xfwm4">Window Manager</a> <em>(xfwm4)</em></h2>
 <ul>
    <li>Support for stretch theme variants</li>
-   <li>compositor: Block softpipe for GLX vsync</li>
-   <li>focus: Include skip taskbar/pager when passing focus</li>
-   <li>add missing break to fix crash when alt-tabbing (<a href="https://gitlab.xfce.org/xfce/xfwm4/-/issues/762">#762</a>)</li>
+   <li>Compositor: Block softpipe for GLX vsync</li>
+   <li>Focus: Include skip taskbar/pager when passing focus</li>
+   <li>Add missing break to fix crash when alt-tabbing (<a href="https://gitlab.xfce.org/xfce/xfwm4/-/issues/762">#762</a>)</li>
    <li>Added check for working with external compositors</li>
-   <li>screen: Fix uninitialized rect in myScreenGetXineramaMonitorGeometry</li>
-   <li>stacking: Use WIN_LAYER_FULLSCREEN for focused fullscreen windows</li>
-   <li>drop obsolete xfwm4rc</li>
-   <li>compositor: Expose just the window area</li>
+   <li>Screen: Fix uninitialized rect in myScreenGetXineramaMonitorGeometry</li>
+   <li>Stacking: Use WIN_LAYER_FULLSCREEN for focused fullscreen windows</li>
+   <li>Drop obsolete xfwm4rc</li>
+   <li>Compositor: Expose just the window area</li>
    <li>Various minor improvements, tweaks and maintenance changes</li>
 </ul>

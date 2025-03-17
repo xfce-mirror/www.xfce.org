@@ -285,8 +285,8 @@
 <h2><a href="https://docs.xfce.org/xfce/xfwm4/start" target="_blank">xfwm4</a></h2>
 <div class="t1">
     <p><?php E_("Support for stretch theme variants") ?></p>
-    <p><?php E_("compositor: Block softpipe for GLX vsync") ?></p>
-    <p><?php E_("focus: Include skip taskbar/pager when passing focus") ?></p>
+    <p><?php E_("Compositor: Block softpipe for GLX vsync") ?></p>
+    <p><?php E_("Focus: Include skip taskbar/pager when passing focus") ?></p>
     <p><?php E_("Fix crash when alt-tabbing (<a href=\"https://gitlab.xfce.org/xfce/xfwm4/-/issues/762\">#762</a>)") ?></p>
 </div>
 
