@@ -6,14 +6,14 @@
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2013
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2017
 # 남도현, 2021
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2012,2015,2021-2025
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2012,2015,2021-2026
 msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/www/www.xfce.org\n"
 "POT-Creation-Date: 2025-03-18 00:53+0100\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
-"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2012,2015,2021-2025\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2012,2015,2021-2026\n"
 "Language-Team: Korean (http://app.transifex.com/xfce/xfce-www/language/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2901,7 +2901,7 @@ msgid ""
 "4.20 is experimental. It is recommended for advanced users only, as you may "
 "encounter bugs and experience incomplete functionality. Proceed with "
 "caution!"
-msgstr ""
+msgstr "<b>중요 공지:</b> Xfce 4.20의 웨일랜드 지원은 아직 시험중임을 참고하십시오. 수많은 버그와 완성하지 못한 기능을 경험해볼 고급 사용자에게만 추천합니다. 위험을 감수하고 진행하십시오!"
 
 #: about/tour.php:13 about/tour420.php:13
 msgid ""
@@ -2941,27 +2941,27 @@ msgid ""
 "For few components and multiple features, it was not possible to port them "
 "to Wayland, partly because there are no standardized Wayland protocols "
 "available yet to provide the required services:"
-msgstr ""
+msgstr "일부 구성 요소와 다양한 기능을 위해, 일부를 웨일랜드로 포팅할 수 없었는데, 다음의 필요한 서비스를 제공할 표준 웨일랜드 프로토콜이 아직 없기 때문입니다:"
 
 #: about/tour.php:20 about/tour420.php:20
 msgid ""
 "Workspace support is missing (ext-workspace protocol <a "
 "href=\"https://gitlab.freedesktop.org/wayland/wayland-"
 "protocols/-/merge_requests/40\">was just merged</a>)."
-msgstr ""
+msgstr "작업 공간 지원은 빠졌습니다 (이전 작업공간 프로토콜 <a href=\"https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40\">은 이미 병합했습니다만</a>)."
 
 #: about/tour.php:21 about/tour420.php:21
 msgid ""
 "Systray icons will be missing for multiple applications (required to use "
 "StatusNotifier instead of GtkStatusIcon)"
-msgstr ""
+msgstr "다양한 프로그램의 작업 표시줄 아이콘이 빠질 예정입니다(GtkStatusIcon 대신 StatusNotifier를 사용하려면 필요함)."
 
 #: about/tour.php:22 about/tour420.php:22
 msgid ""
 "Xfce4-settings: Keyboard and mouse settings so far are internal to the "
 "Wayland compositor and as such the according Xfce dialogs won't be available"
 " on Wayland yet."
-msgstr ""
+msgstr "Xfce4-settings: 키보드 및 마우스 설정은 웨일랜드 콤포지터의 내부 요소를 사용하나, Xfce 대화 상자는 아직 웨일랜드용으로는 사용할 수 없습니다."
 
 #: about/tour.php:23 about/tour420.php:23
 msgid ""
@@ -3067,7 +3067,7 @@ msgid ""
 "This library is new to Xfce. Libxfce4windowing is an abstraction library "
 "that attempts to present windowing concepts (screens, top level windows, "
 "workspaces, etc.) in a windowing-system-independent manner."
-msgstr ""
+msgstr "이 라이브러리는 Xfce에 새로 도입한 요소입니다. Libxfce4windowing은 시스템 독립 창구현 방식으로 현재 창 구현 개념(화면, 최상위 창, 작업 공간 등)에 적용해보려는 추상화 라이브러리 입니다."
 
 #: about/tour.php:64 about/tour420.php:64
 msgid ""
@@ -3075,7 +3075,7 @@ msgid ""
 "supported by using various Wayland protocol extensions. However, the full "
 "range of operations available on X11 is not available on Wayland, due to "
 "missing features in these protocols extensions."
-msgstr ""
+msgstr "현재, X11은 libwnck에서 완벽히 지원합니다. 웨일랜드의 경우 다양한 웨일랜드 프로토콜 확장을 사용하여 일부 지원합니다. 그러나 X11에서 전반적인 영역에 있어 가능한 처리 기능이 웨일랜드에 없는데, 다음 프로토콜 확장이 기능에서 빠졌기 때문입니다."
 
 #: about/tour.php:70 about/tour420.php:70
 msgid "Mounted and Remote Locations"
@@ -3102,7 +3102,7 @@ msgstr "검색"
 msgid ""
 "It is not required any more to wait until a search is finished to open the "
 "context menu on search results."
-msgstr ""
+msgstr "더 이상은 검색 결과에서 컨텍스트 메뉴를 열 때 검색이 끝날 때까지 기다릴 필요가 없습니다."
 
 #: about/tour.php:79 about/tour420.php:79
 msgid "A couple of new toolbar buttons were added:"
@@ -3175,11 +3175,11 @@ msgstr "최근 사용한 파일"
 msgid ""
 "Only files which were successfully opened are now added to the list of "
 "recently used files."
-msgstr ""
+msgstr "성공적으로 연 파일에 대해서만 최근 사용한 파일 목록에 들어갑니다."
 
 #: about/tour.php:102 about/tour420.php:102
 msgid "Directories won't be added to the recently used files anymore."
-msgstr ""
+msgstr "디렉터리는 더이상 최근 사용한 파일 목록에 들어가지 않습니다."
 
 #: about/tour.php:104 about/tour420.php:104
 msgid "Symbolic Icons"
@@ -3205,13 +3205,13 @@ msgstr "끌어다 놓기"
 
 #: about/tour.php:110 about/tour420.php:110
 msgid "While dragging files, folders are now opened automatically on hover."
-msgstr ""
+msgstr "파일을 끌어 이동하는 동안, 파일을 폴더 위로 가져다 두면 폴더가 자동으로 열립니다."
 
 #: about/tour.php:111 about/tour420.php:111
 msgid ""
 "While dragging files, the focus of the split view pane is now updated when "
 "hovered."
-msgstr ""
+msgstr "파일을 끌어 이동하는 동안, 분할 보기 창 위로 파일을 끌어 올려두면 창이 새로 바뀝니다."
 
 #: about/tour.php:113 about/tour420.php:113
 msgid "Performance"
@@ -3304,7 +3304,7 @@ msgstr ""
 
 #: about/tour.php:137 about/tour420.php:137
 msgid "thunar - expandable folders"
-msgstr ""
+msgstr "투나 - 확장 폴더"
 
 #: about/tour.php:140 about/tour420.php:140
 msgid ""
@@ -3314,7 +3314,7 @@ msgstr ""
 
 #: about/tour.php:141 about/tour420.php:141
 msgid "thunar - split view"
-msgstr ""
+msgstr "투나 - 분할 보기"
 
 #: about/tour.php:142 about/tour420.php:142
 msgid ""
@@ -3498,24 +3498,24 @@ msgstr ""
 msgid ""
 "Buttons to change the brightness exponentially and keyboard backlight toggle"
 " keys now are supported."
-msgstr ""
+msgstr "밝기를 지수적으로 바꾸는 단추와 키보드 백라이트 전환 키를 지원합니다."
 
 #: about/tour.php:207 about/tour420.php:207
 msgid ""
 "The logout dialog will not provide a checkbox to enable session saving "
 "anymore."
-msgstr ""
+msgstr "로그아웃 대화 상자는 더이상 세션 저장을 사용하도록 표시하는 확인 상자를 제공하지 않습니다."
 
 #: about/tour.php:208 about/tour420.php:208
 msgid ""
 "It is now possible to start a Wayland session via 'startxfce4 --wayland'."
-msgstr ""
+msgstr "이제 웨일랜드 세션을 'startxfce4 --wayland' 명령으로 시작할 수 있습니다."
 
 #: about/tour.php:210 about/tour420.php:210
 msgid ""
 "Minimal support for xdg-desktop-portal was added by registering for a "
 "wallpaper, screenshot and background xapp."
-msgstr ""
+msgstr "배경 화면, 스크린샷, 백그라운드 xapp을 위해 등록하는 방식으로 xdg-desktop-portal의 최소 지원을 추가했습니다."
 
 #: about/tour.php:217 about/tour420.php:217
 msgid ""
@@ -3527,41 +3527,41 @@ msgstr ""
 msgid ""
 "For icon themes which are known to be incomplete, a warning now will be "
 "shown."
-msgstr ""
+msgstr "미완성 아이콘 테마에 이제부터 경고 표시를 띄웁니다."
 
 #: about/tour.php:219 about/tour420.php:219
 msgid "The usage of client side decorations is opt-in now, not opt-out."
-msgstr ""
+msgstr "클라이언트 측 장식 사용은 이제 별도 방식이 아닌 내장 방식입니다."
 
 #: about/tour.php:220 about/tour420.php:220
 msgid ""
 "Dark themes now are identified and supported in a more reliable way. "
 "(Relevant e.g. for the Qogir and Orchis themes)"
-msgstr ""
+msgstr "이제 어두운 테마를 보실 수 있고, (관련 예: Qogir, Orchis 테마에 대해) 더 확실한 방식으로 지원합니다. "
 
 #: about/tour.php:223 about/tour420.php:223
 msgid ""
 "The default display profile has been added to the list of profiles that can "
 "match, and will be used if more than one matches now."
-msgstr ""
+msgstr "기본 디스플레이 프로파일은 일치할 수 있는 프로파일 목록에 추가하였으며, 일치하는 프로파일이 하나 이상인 경우 사용합니다."
 
 #: about/tour.php:224 about/tour420.php:224
 msgid ""
 "Profile management has been extended to all profiles, not just those that "
 "match, and their names can now be edited."
-msgstr ""
+msgstr "프로파일 관리자에서는 일치하는 프로파일 만이 아닌 모든 프로파일로 확장하였으며, 해당 프로파일의 이름을 편집할 수 있습니다."
 
 #: about/tour.php:225 about/tour420.php:225
 msgid ""
 "Scaling now always is done for both dimensions, and the preview shows the "
 "resulting size."
-msgstr ""
+msgstr "비율 조정은 각 모니터의 치수에 맞춰 동작하며, 미리보기에서는 결과 크기를 보여줍니다."
 
 #: about/tour.php:226 about/tour420.php:226
 msgid ""
 "Mirror state management has been improved overall, in particular by removing"
 " the need to match refresh rates."
-msgstr ""
+msgstr "반전 상태 관리를 전체적으로 개선했으며, 일부는 재생율을 맞추기 위해 제거했습니다."
 
 #: about/tour.php:227 about/tour420.php:227
 msgid ""
@@ -3582,12 +3582,12 @@ msgstr "마우스 설정"
 msgid ""
 "A checkbox was added to toggle between adaptive and flat mouse accel "
 "profile."
-msgstr ""
+msgstr "마우스 가속 프로파일에 적응형, 평이가속형 둘 중 한가지 방식으로 마우스 가속기능을 활용할 수 있도록 확인 상자를 추가했습니다."
 
 #: about/tour.php:232 about/tour420.php:232
 msgid ""
 "High resolution scrolling can now be enabled for mice which do support it."
-msgstr ""
+msgstr "이제 마우스의 고해상도 스크롤을 지원하여 사용할 수 있습니다."
 
 #: about/tour.php:233 about/tour420.php:233
 msgid "xfce4-settings - mouse"
@@ -3599,22 +3599,22 @@ msgstr "MIME 설정"
 
 #: about/tour.php:236 about/tour420.php:236
 msgid "It is now possible to select/change multiple items at once."
-msgstr ""
+msgstr "이제 여러 항목을 한번에 선택하고 바꿀 수 있습니다."
 
 #: about/tour.php:241 about/tour420.php:241
 msgid ""
 "A systemd user unit, corresponding to the D-Bus session service, is now "
 "added."
-msgstr ""
+msgstr "D-Bus 세션 서비스와 관련 있는 systemd 사용자 유닛을 추가했습니다."
 
 #: about/tour.php:242 about/tour420.php:242
 msgid ""
 "Whitespaces are now properly escaped when writing a xfconf channel to disk."
-msgstr ""
+msgstr "이제 xfconf 채널을 디스크에 기록할 때 공백 문자를 제대로 이스케이핑합니다."
 
 #: about/tour.php:243 about/tour420.php:243
 msgid "Xfconf-query now displays array contents."
-msgstr ""
+msgstr "Xfconf-query에서는 이제 배열 컨텐트를 표시해줍니다."
 
 #: about/tour.php:249 about/tour420.php:249
 msgid "Background Management"
@@ -3624,17 +3624,17 @@ msgstr "배경 관리"
 msgid ""
 "For random wallpaper cycling, wallpapers now are only repeated after all "
 "other wallpapers were shown."
-msgstr ""
+msgstr "임의 배경화면 순환 기능에서, 이제부터 배경화면은 모든 다른 배경화면을 표시한 다음 반복 표시해줍니다."
 
 #: about/tour.php:251 about/tour420.php:251
 msgid ""
 "Old Xfce backgrounds were ported from .png to .svg to be usable for large "
 "screens."
-msgstr ""
+msgstr "이전 Xfce 백그라운드는 .png에서 .svg로 포팅하여 거대 화면에서도 사용할 수 있게 했습니다."
 
 #: about/tour.php:252 about/tour420.php:252
 msgid "Gradients will now be rendered in a gamma-correct way."
-msgstr ""
+msgstr "그레디언트는 이제 감마 보정 방식으로 렌더링합니다."
 
 #: about/tour.php:254 about/tour420.php:254
 msgid "Icon grid"
@@ -3642,16 +3642,16 @@ msgstr "아이콘 격자 배치"
 
 #: about/tour.php:255 about/tour420.php:255
 msgid "The confirmation dialog for arranging desktop icons now is optional."
-msgstr ""
+msgstr "데스크톱 아이콘 정렬 확인 대화상자는 이제 옵션입니다."
 
 #: about/tour.php:256 about/tour420.php:256
 msgid ""
 "It is now possible to set custom colors for icon labels and icon background."
-msgstr ""
+msgstr "개별 아이콘 레이블과 아이콘 배경 색상을 설정할 수 있습니다."
 
 #: about/tour.php:257 about/tour420.php:257
 msgid "The icon grid on each monitor is now independent of one another."
-msgstr ""
+msgstr "각 모니터의 아이콘 격자 공간은 모니터 별로 독립 배정할 수 있습니다."
 
 #: about/tour.php:259 about/tour420.php:259
 msgid "Minimized Application Icons"
@@ -3661,13 +3661,13 @@ msgstr "단순화한 앱 아이콘"
 msgid ""
 "Window icons are now initially shown on the monitor where the window was "
 "present before being minimized."
-msgstr ""
+msgstr "창 아이콘은 이제 창을 최소화하기 전에 창이 있던 모니터에 처음부터 나타납니다."
 
 #: about/tour.php:261 about/tour420.php:261
 msgid ""
 "The context menu (when clicking on an empty space) now has more useful "
 "options than before."
-msgstr ""
+msgstr "(빈 공간을 누르면 나오는) 컨텍스트 메뉴에서는 이전보다 쓸모있는 옵션을 더 많이 배치했습니다."
 
 #: about/tour.php:263 about/tour420.php:263
 msgid "File Icons"
@@ -3675,27 +3675,27 @@ msgstr "파일 아이콘"
 
 #: about/tour.php:264 about/tour420.php:264
 msgid "There is now an option to sort folders before files."
-msgstr ""
+msgstr "이제 파일 보다 폴더를 앞서 표시하는 옵션이 있습니다."
 
 #: about/tour.php:265 about/tour420.php:265
 msgid ""
 "The positions of the icons are now saved in a way that should avoid icons "
 "moving around in unexpected ways when monitors are added and removed."
-msgstr ""
+msgstr "모니터를 추가하거나 제거할 경우 아이콘이 엉뚱한 방식으로 여기저기 왔다갔다 하는 일을 막기 위해 아이콘의 위치를 저장합니다."
 
 #: about/tour.php:266 about/tour420.php:266
 msgid ""
 "New files and dropped files now will be placed near the current cursor "
 "location."
-msgstr ""
+msgstr "새 파일과 끌어다 놓은 파일은 이제 현재 커서 위치 근처로 갑니다."
 
 #: about/tour.php:267 about/tour420.php:267
 msgid "Icons of fixed disks and drives can now be optionally shown."
-msgstr ""
+msgstr "이제 고정 디스크와 드라이브의 아이콘 표시를 선택할 수 있습니다."
 
 #: about/tour.php:270 about/tour420.php:270
 msgid "The 'Desktop Icons' tab was fully reworked."
-msgstr ""
+msgstr "'데스크톱 아이콘' 탭을 완전히 재작업했습니다."
 
 #: about/tour.php:271 about/tour420.php:271
 msgid "xfdesktop - settings - desktop icons"
@@ -3730,22 +3730,22 @@ msgstr ""
 
 #: about/tour.php:278 about/tour420.php:278
 msgid "Context Menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 #: about/tour.php:279 about/tour420.php:279
 msgid ""
 "Cascading custom actions will now as well shown correctly in Xfdesktop."
-msgstr ""
+msgstr "계층별 개별 동작이 이제부터는 Xfdesktop에서 올바르게 나타납니다."
 
 #: about/tour.php:280 about/tour420.php:280
 msgid "It is now possible to open multiple selected folders at once."
-msgstr ""
+msgstr "이제 선택한 여러 개의 폴더를 한번에 열 수 있습니다."
 
 #: about/tour.php:281 about/tour420.php:281
 msgid ""
 "The context menu now opens on button press rather than button release, as "
 "most users will expect."
-msgstr ""
+msgstr "이제 컨텍스트 메뉴는 대부분의 사용자 분들이 기대하던대로 단추를 뗐을 때가 아닌 눌렀을 때 나타납니다."
 
 #: about/tour.php:282 about/tour420.php:282
 msgid "The middle-click window list menu has new styling and added features."
@@ -4468,20 +4468,20 @@ msgstr "Xfce 출시 업데이트"
 
 #: news-array.php:10
 msgid "Xfce 4.20 released"
-msgstr ""
+msgstr "Xfce 4.20을 출시했습니다"
 
 #: news-array.php:15
 msgid ""
 "After almost two years of work, we are happy to announce the release of Xfce"
 " 4.20 !"
-msgstr ""
+msgstr "거의 2년동안 열심히 작업한 결과물로서, Xfce 4.20의 출시 발표를 기쁘게 생각합니다!"
 
 #: news-array.php:16
 msgid ""
 "Since Xfce 4.18 a lot of major development happened. Our team added many "
 "nice new features, did a gazillion of bug fixes and did various minor "
 "improvements. Finally, all that was released for your pleasure."
-msgstr ""
+msgstr "Xfce 4.18 부터 다양한 주요 개발 활동이 벌어졌습니다. 우리 팀에서는 멋진 여러가지 새 기능을 넣었는데, 방대한 양의 버그를 수정했고 다양한 부수적 기능 개선을 이루었습니다. 마지막으로, 여러분을 기쁘게 해드릴 개선 사항을 곧 내놓을 예정입니다."
 
 #: news-array.php:20
 msgid ""
@@ -4494,13 +4494,13 @@ msgstr ""
 msgid ""
 "Assuming you have installed Xfce 4.18, here is an overview on the major "
 "changes you will see on an upgrade to Xfce 4.20:"
-msgstr ""
+msgstr "Xfce 4.18을 설치한 여러분이 Xfce 4.20으로 업그레이드 했을 때 기대할만한 주요 개선점을 살펴보겠습니다:"
 
 #: news-array.php:24
 msgid ""
 "A detailed overview of the changes between Xfce 4.18 and Xfce 4.20 releases "
 "can be found on the following page:"
-msgstr ""
+msgstr "Xfce 4.18과 Xfce 4.20 릴리즈에서 바뀐 내용을 자세히 살펴보려면 다음 페이지에서 찾아보세요:"
 
 #: news-array.php:26 news-array.php:47 news-array.php:84 news-array.php:143
 #: news-array.php:196 news-array.php:220
@@ -4522,7 +4522,7 @@ msgstr "Xfce 4.18을 출시했습니다"
 msgid ""
 "After almost two years of work, we are happy to announce the release of Xfce"
 " 4.18 !"
-msgstr "거의 2년동안 열심히 해서, Xfce 4.18 출시 발표가 정말로 기쁩니다!"
+msgstr "거의 2년동안 열심히 작업한 결과물로서, Xfce 4.18의 출시 발표를 기쁘게 생각합니다!"
 
 #: news-array.php:36
 msgid ""
