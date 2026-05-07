@@ -62,6 +62,11 @@ for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
   done
 done
 
+# Because using Hugo's resources.GetRemote fail in the docker container
+echo "==> Fetching blog feed..."
+mkdir -p "$REPO_ROOT/generated/assets"
+curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/generated/assets/blogfeed.xml"
+
 echo "==> Checking language translation thresholds..."
 python3 "$REPO_ROOT/scripts/check-lang-threshold.py"
 

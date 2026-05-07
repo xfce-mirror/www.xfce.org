@@ -58,7 +58,7 @@
 <div class="column">
   <h2>{{ i18n "On the Xfce Blog" }}</h2>
   <span class="rss"><a href="https://blog.xfce.org/feed">{{ i18n "Subscribe to RSS feed" }}</a></span>
-  {{- $blogFeed := resources.GetRemote "https://blog.xfce.org/feed/" }}
+  {{- $blogFeed := resources.Get "blogfeed.xml" }}
   {{- if $blogFeed }}
   {{- $blog := $blogFeed | transform.Unmarshal }}
   <ul class="feeds group">

@@ -4,13 +4,23 @@ Hugo static site for the Xfce desktop environment website.
 
 ## Building
 
+With Docker (recommended — pins Hugo and tool versions):
+
+```bash
+docker compose run --rm build              # full build → public/
+docker compose run --rm build-update-po    # same, but also updates PO/POT translation files
+docker compose up server                   # dev server at http://localhost:1313
+```
+
+Without Docker:
+
 ```bash
 ./build.sh              # full build → public/
 ./build.sh --update-po  # same, but also updates PO/POT translation files
 hugo server             # dev server (run ./build.sh first to populate generated/)
 ```
 
-Requirements: Hugo (extended), Python 3 with `polib`, po4a, gettext (`msgmerge`).
+Requirements: Hugo extended, Python 3 with `polib`, po4a, gettext (`msgmerge`).
 
 ## Content vs layouts
 

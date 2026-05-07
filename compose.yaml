@@ -1,0 +1,24 @@
+services:
+  build:
+    image: xfce/www-xfce-org
+    build: .
+    volumes:
+      - .:/src
+    command: ./build.sh
+
+  build-update-po:
+    image: xfce/www-xfce-org
+    build: .
+    volumes:
+      - .:/src
+    command: ./build.sh --update-po
+
+  server:
+    image: xfce/www-xfce-org
+    build: .
+    volumes:
+      - .:/src
+    ports:
+      - "1313:1313"
+    command: >
+      sh -c "./build.sh && hugo server --source /src --bind 0.0.0.0"
