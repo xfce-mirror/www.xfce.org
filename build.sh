@@ -16,11 +16,13 @@ po4a --no-update "$REPO_ROOT/po4a.cfg"
 echo "==> Fixing tight lists in translated files..."
 python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
 
-echo "==> Generating credits stubs for all languages..."
-CREDITS_LANGS="ar bg ca cs da de el es fa-IR fr gl he hu id it ja kk ko lt ms nb nl oc pl pt pt-BR ro ru sk sl sq sr sv th tr uk vi zh-CN zh-TW en-AU en-GB"
-for lang in $CREDITS_LANGS; do
+echo "==> Generating language stubs..."
+for po in "$REPO_ROOT/legacy/lib/po"/*.po; do
+  lang="$(basename "$po" .po | tr '_' '-')"
   stub="$REPO_ROOT/generated/about/credits.$lang.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
+  stub="$REPO_ROOT/generated/about/screenshots.$lang.md"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
 done
 
 echo "==> Building Hugo site..."
