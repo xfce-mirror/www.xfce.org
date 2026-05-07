@@ -115,6 +115,36 @@ def find_translation(msgid: str, lookup: dict[str, str]) -> str:
             result = stripped.replace(inner, inner_translation.rstrip('\n'), 1)
             return result + '\n' if trailing_newline else result
 
+    # Strategy 7: markdown link — translate link text, keep URL.
+    # "[Download](http://example.com)" → look up "Download", reconstruct link.
+    m = re.match(r'^\[([^\]]+)\]\(([^)]+)\)$', stripped)
+    if m:
+        link_text, url = m.group(1), m.group(2)
+        translated_text = find_translation(link_text, lookup)
+        if translated_text:
+            result = f'[{translated_text.rstrip(chr(10))}]({url})'
+            return result + '\n' if trailing_newline else result
+
+    # Strategy 8: multi-line — try translating each line independently, succeed if all match.
+    # Handles po4a joining lines that were separate msgids in legacy PO.
+    lines = stripped.split('\n')
+    if len(lines) > 1:
+        translated_lines = [find_translation(line, lookup) for line in lines]
+        if all(translated_lines):
+            result = '\n'.join(t.rstrip('\n') for t in translated_lines)
+            return result + '\n' if trailing_newline else result
+
+    # Strategy 9: printf pattern — "Xfce 4.8pre3 released" matches "Xfce %s released"
+    # Finds legacy printf-style patterns and substitutes the version back in.
+    for pattern_msgid, pattern_msgstr in lookup.items():
+        if '%s' not in pattern_msgid or '%' in pattern_msgid.replace('%s', '', 1):
+            continue
+        regex = re.escape(pattern_msgid.replace('%s', '\x00')).replace('\x00', '(.+)')
+        m = re.fullmatch(regex, stripped)
+        if m:
+            result = pattern_msgstr.replace('%s', m.group(1))
+            return result + '\n' if trailing_newline else result
+
     return ''
 
 
@@ -131,9 +161,15 @@ def seed_po(pot_path: Path, lang: str, legacy_lang: str) -> None:
     out.metadata = pot.metadata.copy()
     out.metadata['Language'] = lang
 
+    # Strings that should never be translated (pass through as-is)
+    PASSTHROUGH = {'<!--more-->\n'}
+
     translated = 0
     for entry in pot:
-        msgstr = find_translation(entry.msgid, lookup)
+        if entry.msgid in PASSTHROUGH:
+            msgstr = entry.msgid
+        else:
+            msgstr = find_translation(entry.msgid, lookup)
         if msgstr:
             # Mirror trailing newline: po4a no-wrap msgids end with \n; msgstr must match
             if entry.msgid.endswith('\n') and not msgstr.endswith('\n'):

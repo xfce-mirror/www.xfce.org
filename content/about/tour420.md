@@ -267,7 +267,7 @@ Buttons to change the brightness exponentially and keyboard backlight toggle key
 
 The logout dialog will not provide a checkbox to enable session saving anymore.
 
-It is now possible to start a Wayland session via 'startxfce4 --wayland'.
+It is now possible to start a Wayland session via `startxfce4 --wayland`.
 
 Minimal support for xdg-desktop-portal was added by registering for a wallpaper, screenshot and background xapp.
 

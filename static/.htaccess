@@ -1,1 +1,6 @@
 Redirect 301 /about/releasemodel https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release
+
+# Redirect legacy ?post=TIMESTAMP query-param news permalinks to individual post pages
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^post=([0-9]+)$
+RewriteRule ^about/news/?$ /about/news/%1/ [R=301,L]

@@ -1,7 +1,6 @@
 {{ define "main" }}
 {{- $cdn := .Site.Params.staticMedia }}
 {{- $versions := hugo.Data.versions }}
-{{- $news := hugo.Data.news }}
 
 <div id="slidewrap">
 <div id="slide">
@@ -77,24 +76,17 @@
 <div class="column">
   <h2>{{ i18n "Xfce Release Updates" }}</h2>
   <span class="rss"><a href="{{ .Permalink }}feed{{ if ne .Language.Lang "en" }}?lang={{ .Language.Lang }}{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
-  {{- range first 2 $news }}
-  {{- $stamp := .timestamp }}
-  {{- $link := printf "/about/news/?post=%d" $stamp }}
-  {{- if ne $.Language.Lang "en" }}{{ $link = printf "/%s/about/news/?post=%d" $.Language.Lang $stamp }}{{ end }}
+  {{- $newsSection := site.GetPage "/about/news" }}
+  {{- range first 2 $newsSection.Pages.ByDate.Reverse }}
   <div class="newsitem group">
-    {{- if .version }}
-    <h3>{{ i18n "Xfce %s released" (dict "s1" .version) }}</h3>
-    {{- else }}
-    <h3>{{ i18n .title }}</h3>
-    {{- end }}
+    <h3>{{ .Title }}</h3>
     <div class="post-wrap">
-      <p>{{ i18n .first_paragraph | safeHTML }}
-      <br /><a href="{{ $link }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
+      {{ strings.TrimSuffix "</p>" (.Summary | strings.TrimRight "\n ") | safeHTML }}
+      <a href="{{ .RelPermalink }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
     </div>
     <div class="post-date">
-      {{- $t := time .date }}
-      <span class="post-month">{{ $t.Format "Jan" }}</span>
-      <span class="post-day"><span class="day">{{ $t.Format "02" }}</span><br /><span class="year">{{ $t.Format "2006" }}</span></span>
+      <span class="post-month">{{ .Date.Format "Jan" }}</span>
+      <span class="post-day"><span class="day">{{ .Date.Format "02" }}</span><br /><span class="year">{{ .Date.Format "2006" }}</span></span>
     </div>
   </div>
   {{- end }}
