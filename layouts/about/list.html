@@ -1,42 +1,6 @@
 {{ define "main" }}
-<h1>{{ i18n "About" }}</h1>
-
-<p>{{ i18n "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly." }}</p>
-
-<p>{{ i18n "Xfce embodies the traditional UNIX philosophy of modularity and re-usability. It consists of a number of components that provide the full functionality one can expect of a modern desktop environment. They are packaged separately and you can pick among the available packages to create the optimal personal working environment." }}</p>
-
-<p>{{ i18n "Another priority of Xfce is adherence to standards, specifically those defined at <a href=\"https://freedesktop.org\">freedesktop.org</a>." | safeHTML }}</p>
-
-<p>{{ i18n "Xfce can be installed on several UNIX platforms. It is known to compile on Linux, NetBSD, FreeBSD, OpenBSD, Solaris, Cygwin and MacOS X, on x86, PPC, Sparc, Alpha..." }}</p>
-
-<h2>{{ i18n "Features" }}</h2>
-
-<p>{{ i18n "Xfce contains a number of core components for the minimum tasks you'd expect from a desktop environment:" }}</p>
-
-<dl>
-  <dt>{{ i18n "Window Manager" }}</dt>
-  <dd>{{ i18n "Manages the placement of windows on the screen, provides window decorations and manages workspaces or virtual desktops." }}</dd>
-
-  <dt>{{ i18n "Desktop Manager" }}</dt>
-  <dd>{{ i18n "Sets the background image and provides a root window menu, desktop icons or minimized icons and a windows list." }}</dd>
-
-  <dt>{{ i18n "Panel" }}</dt>
-  <dd>{{ i18n "Switch between opened windows, launch applications, switch workspaces and menu plugins to browse applications or directories." }}</dd>
-
-  <dt>{{ i18n "Session Manager" }}</dt>
-  <dd>{{ i18n "Controls the login and power management of the desktop and allows you to store multiple login sessions." }}</dd>
-
-  <dt>{{ i18n "Application Finder" }}</dt>
-  <dd>{{ i18n "Shows the applications installed on your system in categories, so you can quickly find and launch them." }}</dd>
-
-  <dt>{{ i18n "File Manager" }}</dt>
-  <dd>{{ i18n "Provides the basic file-management features and unique utilities like the bulk renamer." }}</dd>
-
-  <dt>{{ i18n "Settings Manager" }}</dt>
-  <dd>{{ i18n "Tools to control the various settings of the desktop; like keyboard shortcuts, appearance, display settings, etc." }}</dd>
-</dl>
-
-<p>{{ i18n "Beside the basic set of modules, Xfce also provides numerous additional applications and plugins so you can extend your desktop the way you like, for example a terminal emulator, text editor, sound mixer, application finder, image viewer, iCal based calendar and a CD and DVD burning application. You can read more about the modules of Xfce in the <a href=\"/projects\">projects</a> page." | safeHTML }}</p>
+<h1>{{ .Title }}</h1>
+{{ .Content }}
 {{ end }}
 
 {{ define "related" }}
