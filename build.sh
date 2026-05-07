@@ -7,7 +7,10 @@
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
 
-echo "==> Converting PO files to Hugo i18n YAML..."
+echo "==> Extracting UI strings from templates..."
+python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
+
+echo "==> Converting PO files to Hugo i18n JSON..."
 python3 "$REPO_ROOT/scripts/po2hugo.py"
 
 echo "==> Generating translated content files..."
