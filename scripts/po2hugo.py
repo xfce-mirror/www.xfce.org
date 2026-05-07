@@ -1,19 +1,12 @@
 #!/usr/bin/env python3
-"""Convert PO files to Hugo i18n YAML files.
+"""Convert PO files to Hugo i18n JSON files.
 
 Run from repo root: python3 scripts/po2hugo.py
-Reads:  lib/po/*.po
-Writes: hugo/i18n/<lang>.yaml  (and hugo/i18n/en.yaml as English source)
-
-All entries use Hugo's explicit nested format:
-  "Key":
-    translation: "Value"
-This avoids conflicts with Hugo's reserved structural keys (translation, one,
-other, few, many, zero) regardless of capitalisation, because Hugo only treats
-those names as reserved when they appear as *nested* subkeys, not as entry IDs.
-Plural entries use one:/other: subkeys as Hugo expects.
+Reads:  legacy/lib/po/*.po
+Writes: i18n/<lang>.json
 """
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -41,37 +34,16 @@ def convert_printf(s: str) -> str:
     return s
 
 
-def yaml_str(s: str) -> str:
-    """Serialize a string as a YAML double-quoted scalar."""
-    s = s.replace('\\', '\\\\')
-    s = s.replace('"', '\\"')
-    s = s.replace('\n', '\\n')
-    s = s.replace('\r', '\\r')
-    s = s.replace('\t', '\\t')
-    return f'"{s}"'
-
-
-def write_yaml(translations: dict, out_path: Path) -> None:
-    """Write translations using Hugo's explicit nested format.
-
-    Simple strings:
-      "Key":
-        translation: "Value"
-
-    Plural forms:
-      "Key":
-        one: "Singular"
-        other: "Plural"
-    """
+def write_json(translations: dict, out_path: Path) -> None:
+    nested = {}
+    for key, value in translations.items():
+        if isinstance(value, dict):
+            nested[key] = value
+        else:
+            nested[key] = {'translation': value}
     with open(out_path, 'w', encoding='utf-8') as f:
-        for key in sorted(translations.keys()):
-            value = translations[key]
-            f.write(f'{yaml_str(key)}:\n')
-            if isinstance(value, dict):
-                for form, text in value.items():
-                    f.write(f'  {form}: {yaml_str(text)}\n')
-            else:
-                f.write(f'  translation: {yaml_str(value)}\n')
+        json.dump(nested, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write('\n')
 
 
 def build_en_source(po_files: list[Path]) -> dict:
@@ -113,7 +85,7 @@ def convert_po(po_path: Path, out_path: Path) -> None:
         elif entry.msgstr:
             translations[entry.msgid] = convert_printf(entry.msgstr)
 
-    write_yaml(translations, out_path)
+    write_json(translations, out_path)
     print(f'  {po_path.name:12} → {out_path.name}  ({len(translations)} strings)')
 
 
@@ -131,11 +103,11 @@ def main() -> None:
     print(f'Converting {len(po_files)} PO files → {i18n_dir}')
 
     en_strings = build_en_source(po_files)
-    write_yaml(en_strings, i18n_dir / 'en.yaml')
-    print(f'  (source)     → en.yaml  ({len(en_strings)} strings)')
+    write_json(en_strings, i18n_dir / 'en.json')
+    print(f'  (source)     → en.json  ({len(en_strings)} strings)')
 
     for po_path in po_files:
-        convert_po(po_path, i18n_dir / f'{po_path.stem}.yaml')
+        convert_po(po_path, i18n_dir / f'{po_path.stem}.json')
 
     print('\nDone.')
 
