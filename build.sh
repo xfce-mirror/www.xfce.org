@@ -25,6 +25,10 @@ for po in "$REPO_ROOT/legacy/lib/po"/*.po; do
   [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/about/news/_index.$lang.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
+  stub="$REPO_ROOT/generated/download/_index.$lang.md"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\nhasToc: true\n---\n" > "$stub"
+  stub="$REPO_ROOT/generated/projects/_index.$lang.md"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\nhasToc: true\n---\n" > "$stub"
 done
 
 echo "==> Building Hugo site..."
