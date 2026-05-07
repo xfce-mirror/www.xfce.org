@@ -11,19 +11,24 @@ if [ "$1" = "--update-po" ]; then
   UPDATE_PO=true
 fi
 
-echo "==> Extracting UI strings from templates..."
-python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
-
-echo "==> Converting PO files to Hugo i18n JSON..."
-python3 "$REPO_ROOT/scripts/po2hugo.py"
-
 if $UPDATE_PO; then
+  echo "==> Extracting UI strings from templates..."
+  python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
+
+  echo "==> Merging UI POT into PO files..."
+  for po in "$REPO_ROOT/po"/ui.*.po; do
+    msgmerge --quiet --update --backup=none "$po" "$REPO_ROOT/po/ui.pot"
+  done
+
   echo "==> Updating POT and PO files from content..."
   po4a "$REPO_ROOT/po4a.cfg"
 else
   echo "==> Generating translated content files..."
   po4a --no-update "$REPO_ROOT/po4a.cfg"
 fi
+
+echo "==> Converting PO files to Hugo i18n JSON..."
+python3 "$REPO_ROOT/scripts/po2hugo.py"
 
 echo "==> Fixing tight lists in translated files..."
 python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
