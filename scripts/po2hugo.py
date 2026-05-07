@@ -19,19 +19,6 @@ import sys
 from pathlib import Path
 import polib
 
-LANG_CODE_MAP = {
-    'en_AU': 'en-AU',
-    'en_GB': 'en-GB',
-    'pt_BR': 'pt-BR',
-    'zh_CN': 'zh-CN',
-    'zh_TW': 'zh-TW',
-    'fa_IR': 'fa-IR',
-}
-
-
-def po_to_hugo_lang(lang: str) -> str:
-    return LANG_CODE_MAP.get(lang, lang)
-
 
 def convert_printf(s: str) -> str:
     """Replace PHP printf format specifiers with Hugo i18n Go template vars."""
@@ -148,7 +135,7 @@ def main() -> None:
     print(f'  (source)     → en.yaml  ({len(en_strings)} strings)')
 
     for po_path in po_files:
-        convert_po(po_path, i18n_dir / f'{po_to_hugo_lang(po_path.stem)}.yaml')
+        convert_po(po_path, i18n_dir / f'{po_path.stem}.yaml')
 
     print('\nDone.')
 

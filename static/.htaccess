@@ -5,8 +5,16 @@ RewriteCond %{QUERY_STRING} ^post=([0-9]+)$
 RewriteRule ^about/news/?$ /about/news/%1/ [R=301,L]
 
 # Redirect legacy ?lang=XX to localized path
-RewriteCond %{QUERY_STRING} ^lang=([a-zA-Z-]+)$
-RewriteRule ^(.*)$ /$1 [R=301,L,QSD]
+RewriteCond %{QUERY_STRING} ^lang=([a-zA-Z_-]+)$
+RewriteRule ^(.*)$ /%1/$1 [R=301,L,QSD]
+
+# Redirect old hyphenated language URLs to underscore form
+RewriteRule ^en-AU(/.*)?$ /en_au$1 [R=301,L]
+RewriteRule ^en-GB(/.*)?$ /en_gb$1 [R=301,L]
+RewriteRule ^fa-IR(/.*)?$ /fa_ir$1 [R=301,L]
+RewriteRule ^pt-BR(/.*)?$ /pt_br$1 [R=301,L]
+RewriteRule ^zh-CN(/.*)?$ /zh_cn$1 [R=301,L]
+RewriteRule ^zh-TW(/.*)?$ /zh_tw$1 [R=301,L]
 
 # Redirect ~user homepages
 RewriteRule ^(~.*)$ https://users.xfce.org/$1 [R=301,L]

@@ -22,15 +22,6 @@ REPO_ROOT = Path(__file__).parent.parent
 PO_DIR = REPO_ROOT / 'po'
 LEGACY_PO = REPO_ROOT / 'legacy' / 'lib' / 'po'
 
-LANG_MAP = {
-    'en-AU': 'en_AU',
-    'en-GB': 'en_GB',
-    'fa-IR': 'fa_IR',
-    'pt-BR': 'pt_BR',
-    'zh-CN': 'zh_CN',
-    'zh-TW': 'zh_TW',
-}
-
 
 def strip_html_attrs(text: str) -> str:
     """Normalize HTML links: strip all attributes except href."""
@@ -200,9 +191,7 @@ def main() -> None:
         print(f'Seeding {pot.name}:')
         for po_file in sorted(LEGACY_PO.glob('*.po')):
             legacy_lang = po_file.stem
-            hugo_lang = next((h for h, l in LANG_MAP.items() if l == legacy_lang),
-                             legacy_lang)
-            seed_po(pot, hugo_lang, legacy_lang)
+            seed_po(pot, legacy_lang, legacy_lang)
 
     print('\nDone. Commit po/*.po and run po4a po4a.cfg to generate translated content.')
 

@@ -18,7 +18,7 @@ python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
 
 echo "==> Generating language stubs..."
 for po in "$REPO_ROOT/legacy/lib/po"/*.po; do
-  lang="$(basename "$po" .po | tr '_' '-')"
+  lang="$(basename "$po" .po)"
   stub="$REPO_ROOT/generated/about/credits.$lang.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/about/screenshots.$lang.md"
