@@ -2,8 +2,8 @@
 """Convert PO files to Hugo i18n JSON files.
 
 Run from repo root: python3 scripts/po2hugo.py
-Reads:  legacy/lib/po/*.po
-Writes: i18n/<lang>.json
+Reads:  po/ui.*.po
+Writes: generated/i18n/<lang>.json
 """
 
 import json
@@ -91,11 +91,11 @@ def convert_po(po_path: Path, out_path: Path) -> None:
 
 def main() -> None:
     repo_root = Path(__file__).parent.parent
-    po_dir = repo_root / 'legacy' / 'lib' / 'po'
+    po_dir = repo_root / 'po'
     i18n_dir = repo_root / 'generated' / 'i18n'
     i18n_dir.mkdir(parents=True, exist_ok=True)
 
-    po_files = sorted(po_dir.glob('*.po'))
+    po_files = sorted(po_dir.glob('ui.*.po'))
     if not po_files:
         print('No PO files found!', file=sys.stderr)
         sys.exit(1)
@@ -107,7 +107,7 @@ def main() -> None:
     print(f'  (source)     → en.json  ({len(en_strings)} strings)')
 
     for po_path in po_files:
-        hugo_lang = po_path.stem.replace('_', '-')
+        hugo_lang = po_path.stem.removeprefix('ui.').replace('_', '-')
         convert_po(po_path, i18n_dir / f'{hugo_lang}.json')
 
     print('\nDone.')
