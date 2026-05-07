@@ -43,7 +43,7 @@ def extract_strings(layouts_dir: Path) -> dict[str, list[str]]:
 
 
 def build_pot(strings: dict[str, list[str]], out_path: Path) -> None:
-    pot = polib.POFile()
+    pot = polib.POFile(wrapwidth=0)
     pot.metadata = {
         "Project-Id-Version": "www.xfce.org",
         "Report-Msgid-Bugs-To": "https://gitlab.xfce.org/websites/www.xfce.org/-/issues",

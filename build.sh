@@ -17,7 +17,7 @@ if $UPDATE_PO; then
 
   echo "==> Merging UI POT into PO files..."
   for po in "$REPO_ROOT/po"/ui.*.po; do
-    msgmerge --quiet --update --backup=none "$po" "$REPO_ROOT/po/ui.pot"
+    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/ui.pot"
   done
 
   echo "==> Updating POT and PO files from content..."
