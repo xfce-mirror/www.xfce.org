@@ -1,0 +1,53 @@
+{{ define "main" }}
+<h1>{{ i18n "Community" }}</h1>
+
+<p>{{ i18n "Whether it be to solve a problem or to contribute in any way, the Xfce communities are a good place to get help or to share your ideas. You might also want to have a look at the communities of the different distributions which provide Xfce." }}</p>
+
+<h2 id="mail">{{ i18n "Mailing lists" }}</h2>
+
+<p>{{ i18n "Almost all development and coordination work is taking place on the Xfce mailing lists. A summary of all lists is available at <a href=\"https://mail.xfce.org\">mail.xfce.org</a>. There is also a user-specific list where you can ask questions and freely discuss about the desktop." | safeHTML }}</p>
+
+<p>{{ i18n "<strong>NOTE:</strong> In order to post to these lists, you must first subscribe." | safeHTML }}</p>
+
+<h2 id="matrix">{{ i18n "Matrix" }}</h2>
+<p>{{ i18n "If you have a problem that you cannot resolve, you might want to try asking a question in our Matrix channel <a href=\"https://matrix.to/#/#xfce:matrix.org\">#xfce</a>. The channel has several active users. It is recommended that you consult the <a href=\"https://docs.xfce.org/\" class=\"external\">documentation</a> about your problem before asking your question." | safeHTML }}</p>
+
+<h2 id="forum">{{ i18n "Forums" }}</h2>
+
+<p>{{ i18n "For users who prefer forums, the <a href=\"https://forum.xfce.org/\" class=\"external\">Xfce Forum</a> is the place to be. Active contributors will be able to help you, but please do not use it for bug reports." | safeHTML }}</p>
+
+<h2 id="social">{{ i18n "Social Networks" }}</h2>
+
+<p>{{ i18n "You can follow us on the official <a href=\"https://floss.social/@xfce\" class=\"external\">Mastodon account</a> or <a href=\"https://twitter.com/xfceofficial\" class=\"external\">Twitter account</a>" | safeHTML }}</p>
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "Related Sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://forum.xfce.org">{{ i18n "Forums" }}
+      <span>&ndash; {{ i18n "talk about Xfce in the community forums" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://blog.xfce.org">{{ i18n "Blog" }}
+      <span>&ndash; {{ i18n "read what the contributors to Xfce have to say" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://wiki.xfce.org">{{ i18n "Wiki" }}
+      <span>&ndash; {{ i18n "community wiki and development resources" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.xfce.org">{{ i18n "Docs" }}
+      <span>&ndash; {{ i18n "official documentation for Xfce projects" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "Gitlab" }}
+      <span>&ndash; {{ i18n "report problems, patches or ideas to help making Xfce better" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

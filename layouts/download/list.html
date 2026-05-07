@@ -1,0 +1,69 @@
+{{ define "main" }}
+{{- $cdn := .Site.Params.staticMedia }}
+{{- $v := hugo.Data.versions }}
+
+<h1>{{ i18n "Download" }}</h1>
+
+<p>{{ i18n "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. <a href=\"https://docs.xfce.org/xfce/building\" class=\"external\">How to compile Xfce </a>." | safeHTML }}</p>
+
+<h2 id="stable">{{ i18n "Stable release %s" (dict "s1" $v.stable) }}</h2>
+
+<p>{{ i18n "Xfce %s is the most recent version of the Xfce desktop environment. <a href=\"/download/changelogs/%s\">Changes in this release </a>." (dict "s1" $v.stable "s2" $v.stable) | safeHTML }}</p>
+
+<ul>
+  <li><a href="https://archive.xfce.org/xfce/{{ $v.stable }}/">https://archive.xfce.org/xfce/{{ $v.stable }}/</a></li>
+</ul>
+
+<h2 id="individual">{{ i18n "Individual releases" }}</h2>
+<p>{{ i18n "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the <a href=\"/about/releasemodel\">release model</a>). You can follow the announcements of the releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, watch the <a href=\"https://archive.xfce.org/feeds/project/\">release feeds</a> or follow the Xfce <a href=\"https://floss.social/@xfce\">Mastodon</a> or <a href=\"https://twitter.com/xfceofficial\">Twitter account</a>." | safeHTML }}</p>
+
+<ul>
+  <li><a href="https://archive.xfce.org/src/">https://archive.xfce.org/src/</a></li>
+</ul>
+
+{{- if $v.preview_visible }}
+<h2 id="unstable">{{ i18n "Preview release %s" (dict "s1" $v.preview) }}</h2>
+<p>{{ i18n "Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href=\"#stable\">stable release</a> above. <a href=\"/download/changelogs/%s\">Changes in this release </a>." (dict "s1" $v.preview "s2" $v.preview) | safeHTML }}</p>
+
+<ul>
+  <li><a href="https://archive.xfce.org/xfce/{{ $v.preview }}/">https://archive.xfce.org/xfce/{{ $v.preview }}/</a></li>
+</ul>
+{{- end }}
+
+<h2 id="distros">{{ i18n "Distributions" }}</h2>
+<p>{{ i18n "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are <a href=\"https://xubuntu.org/\">Xubuntu</a>, the <a href=\"https://fedoraproject.org/spins/xfce\">Fedora Xfce Spin</a>, <a href=\"https://manjaro.org/products/download/\">Manjaro</a> or <a href=\"http://www.zenwalk.org/\">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well." | safeHTML }}</p>
+<p>{{ i18n "You can find a more complete list at <a href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>." (dict "s1" $v.stable) | safeHTML }}</p>
+
+<h2 id="artwork">{{ i18n "Artwork" }}</h2>
+<p>{{ i18n "<a href=\"%s\"> Download the Xfce artwork tarball .</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license." (dict "s1" (printf "%s/downloads/xfce_artwork.tar.bz2" $cdn)) | safeHTML }}</p>
+{{ end }}
+
+{{ define "related" }}
+{{- $prefix := cond (eq .Language.Lang "en") "" (printf "/%s" .Language.Lang) }}
+<h2>{{ i18n "Related Pages" }}</h2>
+<ul>
+  <li>
+    <a href="{{ $prefix }}/download/changelogs">{{ i18n "Changelogs" }}
+      <span>&ndash; {{ i18n "release notes of each Xfce release" }}</span>
+    </a>
+  </li>
+</ul>
+<h2>{{ i18n "Related Sites" }}</h2>
+<ul>
+  <li>
+    <a href="http://archive.xfce.org">{{ i18n "Archive" }}
+      <span>&ndash; {{ i18n "the Xfce download archive" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.xfce.org/xfce/building">{{ i18n "Building" }}
+      <span>&ndash; {{ i18n "documentation on building Xfce from source" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "Git" }}
+      <span>&ndash; {{ i18n "browse the source repositories" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

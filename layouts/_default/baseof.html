@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+{{ partial "head.html" . }}
+<body id="top">
+
+{{ partial "xfce-header.html" . }}
+
+<div id="main">
+  {{ partial "mainnav.html" . }}
+
+  <div id="content">
+  {{- $pageClass := "frontpage" }}
+  {{- if not .IsHome }}
+    {{- $path := strings.TrimPrefix "/" .RelPermalink }}
+    {{- $path = strings.TrimSuffix "/" $path }}
+    {{- $path = strings.TrimPrefix (printf "%s/" .Language.Lang) $path }}
+    {{- $pageClass = replace (replace $path "/" "_") "-" "_" }}
+  {{- end }}
+  <div id="article" class="file_{{ $pageClass }}">
+    {{- if .Params.hasToc }}
+    <p id="related-jump" class="file_{{ $pageClass }}"><a href="#related">{{ i18n "Related Pages" }} &darr;</a></p>
+    {{- end }}
+
+    {{ block "main" . }}{{ end }}
+
+  </div> <!-- page-contents -->
+  {{- if .Params.hasToc }}
+  <hr class="hidden" />
+  <div id="related">
+    {{ block "related" . }}{{ end }}
+  </div>
+  {{- end }}
+  </div> <!-- content-wrap -->
+</div> <!-- page-wrap -->
+
+{{ partial "footer.html" . }}
+</body>
+</html>

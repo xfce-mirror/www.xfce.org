@@ -1,0 +1,40 @@
+{{ define "main" }}
+{{- $news := hugo.Data.news }}
+<h1>{{ i18n "News" }}</h1>
+<span class="rss"><a href="{{ if eq .Language.Lang "en" }}/feed{{ else }}/{{ .Language.Lang }}/feed{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+
+{{- range $news }}
+{{- $stamp := .timestamp }}
+{{- $link := printf "/about/news/?post=%d" $stamp }}
+{{- if ne $.Language.Lang "en" }}{{ $link = printf "/%s/about/news/?post=%d" $.Language.Lang $stamp }}{{ end }}
+{{- $t := time .date }}
+<div class="newsitem">
+  {{- if .version }}
+  <h2 id="post-{{ $stamp }}">{{ i18n "Xfce %s released" (dict "s1" .version) }}</h2>
+  {{- else }}
+  <h2 id="post-{{ $stamp }}">{{ i18n .title }}</h2>
+  {{- end }}
+
+  <div class="post-date">
+    <span class="post-month">{{ $t.Format "Jan" }}</span>
+    <span class="post-day"><span class="day">{{ $t.Format "02" }}</span><br /><span class="year">{{ $t.Format "2006" }}</span></span>
+  </div>
+
+  <div class="post-wrap">
+    <p>{{ i18n .first_paragraph | safeHTML }}
+    <a href="{{ $link }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
+    {{- if .version }}
+    <ul>
+      <li><a href="http://archive.xfce.org/xfce/{{ .version }}/">{{ i18n "Download" }} <span>&ndash; http://archive.xfce.org/xfce/{{ .version }}/</span></a></li>
+      <li><a href="{{ if eq $.Language.Lang "en" }}/download/changelogs/{{ .version }}{{ else }}/{{ $.Language.Lang }}/download/changelogs/{{ .version }}{{ end }}/">{{ i18n "Changes in this release" }}</a></li>
+      <li><a href="{{ $link }}">{{ i18n "Permalink" }}</a></li>
+    </ul>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

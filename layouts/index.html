@@ -1,0 +1,104 @@
+{{ define "main" }}
+{{- $cdn := .Site.Params.staticMedia }}
+{{- $versions := hugo.Data.versions }}
+{{- $news := hugo.Data.news }}
+
+<div id="slidewrap">
+<div id="slide">
+  <div id="slide-desktop" alt="Xfce Desktop" title="{{ i18n "The default Xfce Desktop provides a simple and attractive desktop for Unix users." }}">
+    <span id="slide-desktop-panel" style="background-image: url({{ $cdn }}/slider/panel_bg.png);"><span id="slide-desktop-panel-left" style="background-image: url({{ $cdn }}/slider/panel_left.png);"></span><span id="slide-desktop-panel-right" style="background-image: url({{ $cdn }}/slider/panel_right.png);"></span></span>
+    <span id="slide-desktop-icons" style="background-image: url({{ $cdn }}/slider/desktop_icons.png);"></span>
+    <span id="slide-desktop-thunar" style="background-image: url({{ $cdn }}/slider/thunar_windows.png);"></span>
+  </div>
+  <div id="slide-settings" style="background-image: url({{ $cdn }}/slider/settings.png);" alt="Settings" title="{{ i18n "The Xfce Desktop provides all the required settings to configure your hardware, desktop appearance and other desktop-critical settings allowing you to easily manage your system." }}"></div>
+  <div id="slide-xfwm4" style="background-image: url({{ $cdn }}/slider/xfwm4.png);" alt="Window Manager" title="{{ i18n "The Xfce Window Manager is the core of the desktop. It can be tuned to make window management quick and predictable. It also features around 100 border styles giving it the look you want!" }}"></div>
+  <div id="slide-panel" style="background-image: url({{ $cdn }}/slider/panel.png);" alt="Panel" title="{{ i18n "The Xfce Panel can be customized in numerous ways so it provides all the items you need right where you need them. It has three different display modes, transparency and a few dozen different plugins." }}">
+    <span id="slide-panel-notifyd" style="background-image: url({{ $cdn }}/slider/notifyd-settings.png);"></span>
+  </div>
+  <div id="slide-apps" style="background-image: url({{ $cdn }}/slider/apps.png);" alt="Applications" title="{{ i18n "Beside the core desktop functionality, a number of other applications are developed in the Xfce repositories, like an image viewer, task manager, notes plugin and calendar." }}"></div>
+</div>
+<div id="slidenav"></div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+{{ readFile "static/style/slider.js" | safeJS }}
+//]]>
+</script>
+
+<div class="frontpage_cols">
+
+<div class="column">
+  <h2>{{ i18n "Xfce Desktop Environment" }}</h2>
+  <p>{{ i18n "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly." }}</p>
+  <ul>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/download{{ else }}/{{ .Language.Lang }}/download{{ end }}">{{ i18n "Download" }}
+        <span>&ndash; {{ i18n "get the source tarballs" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/download/changelogs/{{ $versions.stable }}{{ else }}/{{ .Language.Lang }}/download/changelogs/{{ $versions.stable }}{{ end }}">{{ i18n "ChangeLog" }}
+        <span>&ndash; {{ i18n "read the full release notes" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/about/tour420{{ else }}/{{ .Language.Lang }}/about/tour420{{ end }}">{{ i18n "%s Tour" (dict "s1" $versions.stable) }}
+        <span>&ndash; {{ i18n "take a visual tour of new features" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/about/screenshots{{ else }}/{{ .Language.Lang }}/about/screenshots{{ end }}">{{ i18n "Screenshots" }}
+        <span>&ndash; {{ i18n "see examples of Xfce desktops" }}</span>
+      </a>
+    </li>
+  </ul>
+  <p></p>
+</div>
+
+<div class="column">
+  <h2>{{ i18n "On the Xfce Blog" }}</h2>
+  <span class="rss"><a href="https://blog.xfce.org/feed">{{ i18n "Subscribe to RSS feed" }}</a></span>
+  {{- $blogFeed := resources.GetRemote "https://blog.xfce.org/feed/" }}
+  {{- if $blogFeed }}
+  {{- $blog := $blogFeed | transform.Unmarshal }}
+  <ul class="feeds group">
+    {{- range first 5 $blog.channel.item }}
+    <li><strong><a href="{{ .link }}">{{ .title }}</a></strong><br />
+    <span class="meta">{{ .creator }} on {{ dateFormat "Jan 02 2006" .pubDate }}</span></li>
+    {{- end }}
+  </ul>
+  <p><a href="https://blog.xfce.org/">{{ i18n "Read more articles on the Xfce Blog &rarr;" | safeHTML }}</a></p>
+  {{- else }}
+  <p><a href="https://blog.xfce.org/">{{ i18n "Read more articles on the Xfce Blog &rarr;" | safeHTML }}</a></p>
+  {{- end }}
+</div>
+
+<div class="column">
+  <h2>{{ i18n "Xfce Release Updates" }}</h2>
+  <span class="rss"><a href="{{ .Permalink }}feed{{ if ne .Language.Lang "en" }}?lang={{ .Language.Lang }}{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+  {{- range first 2 $news }}
+  {{- $stamp := .timestamp }}
+  {{- $link := printf "/about/news/?post=%d" $stamp }}
+  {{- if ne $.Language.Lang "en" }}{{ $link = printf "/%s/about/news/?post=%d" $.Language.Lang $stamp }}{{ end }}
+  <div class="newsitem group">
+    {{- if .version }}
+    <h3>{{ i18n "Xfce %s released" (dict "s1" .version) }}</h3>
+    {{- else }}
+    <h3>{{ i18n .title }}</h3>
+    {{- end }}
+    <div class="post-wrap">
+      <p>{{ i18n .first_paragraph | safeHTML }}
+      <br /><a href="{{ $link }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
+    </div>
+    <div class="post-date">
+      {{- $t := time .date }}
+      <span class="post-month">{{ $t.Format "Jan" }}</span>
+      <span class="post-day"><span class="day">{{ $t.Format "02" }}</span><br /><span class="year">{{ $t.Format "2006" }}</span></span>
+    </div>
+  </div>
+  {{- end }}
+</div>
+
+</div>
+{{ end }}

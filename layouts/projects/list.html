@@ -1,0 +1,164 @@
+{{ define "main" }}
+{{- $cdn := .Site.Params.staticMedia }}
+<h1>{{ i18n "Projects" }}</h1>
+
+<p>{{ i18n "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information." }}</p>
+
+<h2 id="core">{{ i18n "Core Components" }}</h2>
+
+<div class="grid icons">
+
+<div class="item">
+  <h3>{{ i18n "Window Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfwm4.png')">
+    {{ i18n "It manages the placement of application windows on the screen, provides window decorations and manages workspaces or virtual desktops." }}
+    <a href="https://docs.xfce.org/xfce/xfwm4/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Panel" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-panel.png')">
+    {{ i18n "The panel is a bar which allows you to have at all times program launchers, panel menus, a clock, a desktop switcher and more." }}
+    <a href="https://docs.xfce.org/xfce/xfce4-panel/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Desktop Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfdesktop.png')">
+    {{ i18n "This program sets the background image and provides a root window menu, desktop icons or minimized icons and a windows list." }}
+    <a href="https://docs.xfce.org/xfce/xfdesktop/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Session Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-session.png')">
+    {{ i18n "The session manager controls all aspects of the startup and the shutdown of the user session." }}
+    <a href="https://docs.xfce.org/xfce/xfce4-session/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Settings Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-settings.png')">
+    {{ i18n "It allows you to configure every detail of your desktop environment." }}
+    <a href="https://docs.xfce.org/xfce/xfce4-settings/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Thunar File Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/thunar.png')">
+    {{ i18n "Thunar is a modern file manager designed from the ground up to be fast and easy-to-use." }}
+    <a href="https://docs.xfce.org/xfce/thunar/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Application Finder" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-appfinder.png')">
+    {{ i18n "Allows you to search, launch and find information about applications installed on your system." }}
+    <a href="https://docs.xfce.org/xfce/xfce4-appfinder/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Power Manager" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-power-manager.png')">
+    {{ i18n "Manages the power sources of the computer and connected devices." }}
+    <a href="https://docs.xfce.org/xfce/xfce4-power-manager/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Xfce Libraries" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/libxfce4ui.png')">
+    {{ i18n "Widgets library for the Xfce desktop environment." }}
+    <a href="https://docs.xfce.org/xfce/libxfce4ui/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>Xfconf</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfconf.png')">
+    {{ i18n "Simple client-server configuration storage and query system." }}
+    <a href="https://docs.xfce.org/xfce/xfconf/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+</div>
+
+<h2 id="applications">{{ i18n "Applications" }}</h2>
+
+<div class="grid icons">
+
+<div class="item">
+  <h3>{{ i18n "Terminal" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-terminal.png')">
+    {{ i18n "Terminal is a modern terminal emulator featuring tabs and transparent backgrounds." }}
+    <a href="https://docs.xfce.org/apps/terminal/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Xfburn" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfburn.png')">
+    {{ i18n "Xfburn is an application to create and burn CD's and DVD's." }}
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Image Viewer" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/ristretto.png')">
+    {{ i18n "Ristretto is a lightweight image viewer." }}
+    <a href="https://docs.xfce.org/apps/ristretto/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Screen Saver" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-screensaver.png')">
+    {{ i18n "A simple screen saver and locker." }}
+    <a href="https://docs.xfce.org/apps/xfce4-screensaver/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Screen Shooter" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-screenshooter.png')">
+    {{ i18n "An application to take screenshots." }}
+    <a href="https://docs.xfce.org/apps/xfce4-screenshooter/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Text Editor" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/mousepad.png')">
+    {{ i18n "A simple text editor." }}
+    <a href="https://docs.xfce.org/apps/mousepad/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "Notifications" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-notifyd.png')">
+    {{ i18n "Easily themable notification daemon with transparency effects." }}
+    <a href="https://docs.xfce.org/apps/xfce4-notifyd/start">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a>
+  </p>
+</div>
+
+</div>
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "Related Sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://docs.xfce.org">{{ i18n "Docs" }}
+      <span>&ndash; {{ i18n "online documentation for the core modules of Xfce" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}
