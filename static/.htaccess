@@ -2,6 +2,9 @@ ErrorDocument 404 /404.html
 
 RewriteEngine On
 
+# Serve feed.xml for clean /feed URLs
+RewriteRule ^(.+/)?feed$ $1feed.xml [L]
+
 # Redirect legacy ?post=TIMESTAMP query-param news permalinks to individual post pages
 RewriteCond %{QUERY_STRING} ^post=([0-9]+)$
 RewriteRule ^about/news/?$ /about/news/%1/ [R=301,L]

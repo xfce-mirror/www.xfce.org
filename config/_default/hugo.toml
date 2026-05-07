@@ -20,6 +20,10 @@ disableKinds = ["taxonomy", "term"]
     baseName = "feed"
     isPlainText = false
 
+[services]
+  [services.rss]
+    limit = 10
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
