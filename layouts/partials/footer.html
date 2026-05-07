@@ -1,7 +1,11 @@
 <footer>
   <hr class="hidden" />
   {{ $creditsUrl := relLangURL "/about/credits" }}
-  {{ $copyright := i18n "Copyright %s %sXfce Development Team%s. This page was last modified on %s." (dict "s1" (printf "2003-%d" now.Year) "s2" (printf `<a href="%s">` $creditsUrl) "s3" "</a>" "s4" (.Lastmod.Format "2006/01/02")) }}
+  {{ $lastmod := .Lastmod }}
+  {{ range .Translations }}
+    {{ if eq .Lang "en" }}{{ $lastmod = .Lastmod }}{{ end }}
+  {{ end }}
+  {{ $copyright := i18n "Copyright %s %sXfce Development Team%s. This page was last modified on %s." (dict "s1" (printf "2003-%d" now.Year) "s2" (printf `<a href="%s">` $creditsUrl) "s3" "</a>" "s4" ($lastmod.Format "2006/01/02")) }}
   <div>{{ $copyright | safeHTML }}</div>
   <div>{{ i18n "Hosted by %sGandi%s." (dict "s1" `<a href="https://gandi.net" target="_blank">` "s2" `</a>`) | safeHTML }}</div>
 </footer>
