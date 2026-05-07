@@ -1,8 +1,8 @@
 #!/bin/bash
 # Build pipeline for www.xfce.org Hugo site
-# 1. Convert PO translation files to Hugo i18n JSON
-# 2. Generate translated content markdown files via po4a
-# 3. Build static site with Hugo
+#
+# Default:       generate translated content (po4a) → i18n JSON → stubs → hugo
+# --update-po:   also extract UI strings (POT) → merge into PO → update content PO
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
