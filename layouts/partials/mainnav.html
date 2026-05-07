@@ -19,7 +19,7 @@
   {{- end }}
   <form id="languageform" action="" method="get">
     <select name="lang" title="{{ i18n "Change language" }}" onchange="window.location.href=this.value">
-      {{- range hugo.Sites }}
+      {{- range sort hugo.Sites ".Language.Label" }}
       {{- $lang := .Language.Lang }}
       {{- $url := $barePath }}
       {{- if ne $lang "en" }}{{ $url = printf "/%s%s" $lang $barePath }}{{ end }}
