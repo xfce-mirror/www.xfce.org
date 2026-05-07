@@ -6,6 +6,10 @@
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
+UPDATE_PO=false
+if [ "$1" = "--update-po" ]; then
+  UPDATE_PO=true
+fi
 
 echo "==> Extracting UI strings from templates..."
 python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
@@ -13,8 +17,13 @@ python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
 echo "==> Converting PO files to Hugo i18n JSON..."
 python3 "$REPO_ROOT/scripts/po2hugo.py"
 
-echo "==> Generating translated content files..."
-po4a --no-update "$REPO_ROOT/po4a.cfg"
+if $UPDATE_PO; then
+  echo "==> Updating POT and PO files from content..."
+  po4a "$REPO_ROOT/po4a.cfg"
+else
+  echo "==> Generating translated content files..."
+  po4a --no-update "$REPO_ROOT/po4a.cfg"
+fi
 
 echo "==> Fixing tight lists in translated files..."
 python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
