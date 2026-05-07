@@ -65,6 +65,14 @@ def build_pot(strings: dict[str, list[str]], out_path: Path) -> None:
         )
         pot.append(entry)
 
+    if out_path.exists():
+        old = polib.pofile(str(out_path))
+        old_ids = set(e.msgid for e in old)
+        new_ids = set(e.msgid for e in pot)
+        if old_ids == new_ids:
+            print(f"po/ui.pot unchanged ({len(pot)} strings)")
+            return
+
     pot.save(str(out_path))
     print(f"Extracted {len(pot)} strings → {out_path}")
 
