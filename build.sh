@@ -23,8 +23,8 @@ if $UPDATE_PO; then
   echo "==> Updating POT and PO files from content..."
   po4a "$REPO_ROOT/po4a.cfg"
 
-  echo "==> Stripping untranslatable link references from content PO files..."
-  python3 "$REPO_ROOT/scripts/strip-po-linkrefs.py"
+  echo "==> Stripping untranslatable entries from content PO files..."
+  python3 "$REPO_ROOT/scripts/strip-po-untranslatables.py"
 else
   echo "==> Generating translated content files..."
   po4a --no-update "$REPO_ROOT/po4a.cfg"
