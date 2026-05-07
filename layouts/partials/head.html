@@ -1,7 +1,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-  <title>{{ if .IsHome }}{{ i18n "Xfce Desktop Environment" }}{{ else }}{{ i18n .Title }} – Xfce{{ end }}</title>
+  <title>{{ if .IsHome }}{{ i18n "Xfce Desktop Environment" }}{{ else }}{{ with i18n .Title }}{{ . }}{{ else }}{{ $.Title }}{{ end }} – Xfce{{ end }}</title>
   <link rel="icon" href="{{ .Site.Params.staticMedia }}/images/favicon.ico" />
   {{- $css := resources.GetRemote "https://cdn.xfce.org/style/css.php?site=www" | minify | fingerprint }}
   <link rel="stylesheet" media="screen" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" type="text/css" />
