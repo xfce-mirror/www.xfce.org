@@ -29,6 +29,19 @@ for po in "$REPO_ROOT/legacy/lib/po"/*.po; do
   [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/projects/_index.$lang.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\nhasToc: true\n---\n" > "$stub"
+  stub="$REPO_ROOT/generated/download/changelogs/_index.$lang.md"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Changelogs\"\nhasToc: true\n---\n" > "$stub"
+done
+
+# Generate changelog page stubs for all languages (full copy — changelogs aren't translated)
+for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
+  [ -f "$md" ] || continue
+  base="$(basename "$md" .md)"
+  for po in "$REPO_ROOT/legacy/lib/po"/*.po; do
+    lang="$(basename "$po" .po)"
+    stub="$REPO_ROOT/generated/download/changelogs/$base.$lang.md"
+    [ -f "$stub" ] || cp "$md" "$stub"
+  done
 done
 
 echo "==> Building Hugo site..."
