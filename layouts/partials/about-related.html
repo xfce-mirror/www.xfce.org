@@ -1,0 +1,35 @@
+{{- $lang := .Language.Lang }}
+{{- $prefix := cond (eq $lang "en") "" (printf "/%s" $lang) }}
+<h2>{{ i18n "Related Pages" }}</h2>
+<ul>
+  <li>
+    <a href="{{ $prefix }}/about/tour420">{{ i18n "4.20 Tour" }}
+      <span>&ndash; {{ i18n "visual tour of new features in the last few major releases" }}</span>
+    </a>
+    <ul>
+      <li><a href="{{ $prefix }}/about/tour418">{{ i18n "4.18 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour416">{{ i18n "4.16 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour414">{{ i18n "4.14 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour412">{{ i18n "4.12 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour410">{{ i18n "4.10 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour48">{{ i18n "4.8 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour46">{{ i18n "4.6 Tour" }}</a></li>
+      <li><a href="{{ $prefix }}/about/tour44">{{ i18n "4.4 Tour" }}</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="{{ $prefix }}/about/news">{{ i18n "News" }}
+      <span>&ndash; {{ i18n "release announcements" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ $prefix }}/about/screenshots">{{ i18n "Screenshots" }}
+      <span>&ndash; {{ i18n "see examples of Xfce desktops" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="{{ $prefix }}/about/credits">{{ i18n "Credits" }}
+      <span>&ndash; {{ i18n "list of all contributors" }}</span>
+    </a>
+  </li>
+</ul>

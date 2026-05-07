@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{- $credits := hugo.Data.credits }}
+{{- $translators := hugo.Data.translators }}
+<h1>{{ i18n "Credits" }}</h1>
+
+<p>
+  {{ i18n "A large number of people contributed to the Xfce project. Although more people contributed to the project than the ones listed below, we'd like to say:" }}
+  <b>{{ i18n "Thanks to all who helped making this software available!" }}</b>
+</p>
+
+<h2 id="core">{{ i18n "Core developers" }}</h2>
+{{ range $credits.core -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="active">{{ i18n "Active contributors" }}</h2>
+{{ range $credits.active -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="servers">{{ i18n "Servers maintained by" }}</h2>
+{{ range $credits.servers -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="translation">{{ i18n "Translations supervision" }}</h2>
+{{ range $credits.translation -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="documentation">{{ i18n "Documentation supervision" }}</h2>
+{{ range $credits.documentation -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="translators">{{ i18n "Our beloved translators" }}</h2>
+<dl>{{ delimit $translators ", " }}</dl>
+
+<h2 id="previous">{{ i18n "Previous contributors" }}</h2>
+{{ range $credits.previous -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "Related Pages" }}</h2>
+<ul>
+  <li>
+    <a href="https://docs.xfce.org/contribute/translate/start">{{ i18n "Translation" }}
+      <span>&ndash; {{ i18n "information about translating Xfce" }}</span>
+    </a>
+  </li>
+</ul>
+<h2>{{ i18n "Related Sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "GitLab Instance" }}
+      <span>&ndash; {{ i18n "report problems, patches or ideas to help making Xfce better" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.transifex.com/organization/xfce/">{{ i18n "Transifex" }}
+      <span>&ndash; {{ i18n "the Xfce translation portal" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{- $cdn := .Site.Params.staticMedia }}
+
+{{ $shots := slice
+  (dict "version" "4.20" "count" 1 "format" "png")
+  (dict "version" "4.18" "count" 1 "format" "png")
+  (dict "version" "4.16" "count" 1 "format" "png")
+  (dict "version" "4.14" "count" 5 "format" "png")
+  (dict "version" "4.12" "count" 3 "format" "png")
+  (dict "version" "4.10" "count" 4 "format" "png")
+  (dict "version" "4.8"  "count" 4 "format" "png")
+  (dict "version" "4.6"  "count" 7 "format" "png")
+  (dict "version" "4.4"  "count" 6 "format" "png")
+  (dict "version" "4.2"  "count" 5 "format" "jpg")
+  (dict "version" "4.0"  "count" 2 "format" "png")
+}}
+
+<h1>{{ i18n "Screenshots" }}</h1>
+<p>{{ i18n "Some screenshots of Xfce, ordered by version." }}</p>
+
+{{- range $shots }}
+{{- $ver := .version }}
+{{- $fmt := .format }}
+<h2>{{ i18n (printf "Xfce %s" $ver) }}</h2>
+<p>
+  {{- range seq 1 .count }}
+  <a href="{{ $cdn }}/about/screenshots/{{ $ver }}-{{ . }}.{{ $fmt }}"><img src="{{ $cdn }}/about/screenshots/{{ $ver }}-{{ . }}-small.jpg" alt="{{ $ver }}-{{ . }}" hspace="2" vspace="2" align="top" border="0" /></a>
+  {{- end }}
+</p>
+{{- end }}
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

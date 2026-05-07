@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ i18n "News" }}</h1>
+<span class="rss"><a href="{{ if eq .Language.Lang "en" }}/feed{{ else }}/{{ .Language.Lang }}/feed{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+
+{{- range $i, $page := .Pages.ByDate.Reverse }}
+<div class="newsitem">
+  <h2>{{ $page.Title }}</h2>
+
+  <div class="post-date">
+    <span class="post-month">{{ $page.Date.Format "Jan" }}</span>
+    <span class="post-day"><span class="day">{{ $page.Date.Format "02" }}</span><br /><span class="year">{{ $page.Date.Format "2006" }}</span></span>
+  </div>
+
+  <div class="post-wrap">
+    {{- if eq $i 0 }}
+    {{ $page.Content }}
+    {{- else }}
+    {{ strings.TrimSuffix "</p>" ($page.Summary | strings.TrimRight "\n ") | safeHTML }}
+    <a href="{{ $page.RelPermalink }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
+    {{- end }}
+  </div>
+</div>
+{{- end }}
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

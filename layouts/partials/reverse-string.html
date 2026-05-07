@@ -1,0 +1,5 @@
+{{- $result := "" -}}
+{{- range (split . "") -}}
+  {{- $result = printf "%s%s" . $result -}}
+{{- end -}}
+{{- return $result -}}

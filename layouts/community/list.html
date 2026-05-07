@@ -1,0 +1,35 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "Related Sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://forum.xfce.org">{{ i18n "Forums" }}
+      <span>&ndash; {{ i18n "talk about Xfce in the community forums" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://blog.xfce.org">{{ i18n "Blog" }}
+      <span>&ndash; {{ i18n "read what the contributors to Xfce have to say" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://wiki.xfce.org">{{ i18n "Wiki" }}
+      <span>&ndash; {{ i18n "community wiki and development resources" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.xfce.org">{{ i18n "Docs" }}
+      <span>&ndash; {{ i18n "official documentation for Xfce projects" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "Gitlab" }}
+      <span>&ndash; {{ i18n "report problems, patches or ideas to help making Xfce better" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

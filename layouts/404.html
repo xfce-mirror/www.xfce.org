@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ i18n "Page not found" }}</h1>
+
+<h3>{{ i18n "We're sorry, the page or file you requested was not found on this server." }}</h3>
+<p>
+  {{ i18n "If you clicked on a link that brought you to this page, or you have reached this page through a search engine or bookmark, it could very well be that the page you were looking for was removed, renamed or temporary unavailable." }}
+</p>
+<p>
+  {{ i18n "Please try one of the following methods to find the page you are looking for:" }}
+</p>
+
+<ul>
+  <li>{{ i18n "If you typed the page address in the Address bar, make sure that it is spelled correctly." }}</li>
+  <li>{{ i18n "Open the %sXfce home page%s and look for links to the information you want." (dict "s1" `<a href="/">` "s2" `</a>`) | safeHTML }}</li>
+  <li>{{ i18n "Click the Back button to try another link." }}</li>
+</ul>
+
+<p>
+  {{ i18n "You can always %sask the webmaster%s to assist you with your search, or report the problem in case you think this is needed." (dict "s1" `<a href="mailto:webmaster@xfce.org">` "s2" `</a>`) | safeHTML }}
+</p>
+{{ end }}

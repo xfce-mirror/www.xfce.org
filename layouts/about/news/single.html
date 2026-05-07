@@ -1,0 +1,19 @@
+{{ define "main" }}
+<h1>{{ i18n "News" }}</h1>
+<span class="rss"><a href="{{ if eq .Language.Lang "en" }}/feed{{ else }}/{{ .Language.Lang }}/feed{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+
+<div class="newsitem">
+  <h2>{{ .Title }}</h2>
+  <div class="post-date">
+    <span class="post-month">{{ .Date.Format "Jan" }}</span>
+    <span class="post-day"><span class="day">{{ .Date.Format "02" }}</span><br /><span class="year">{{ .Date.Format "2006" }}</span></span>
+  </div>
+  <div class="post-wrap">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

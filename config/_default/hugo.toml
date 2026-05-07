@@ -1,0 +1,48 @@
+baseURL = "https://www.xfce.org/"
+title = "Xfce Desktop Environment"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = false
+enableGitInfo = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  staticMedia = "//cdn.xfce.org"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]
+  page = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
+    isPlainText = false
+
+[services]
+  [services.rss]
+    limit = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      wrapStandaloneImageWithinParagraph = false
+
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "generated"
+  target = "content"
+
+[[module.mounts]]
+  source = "generated/i18n"
+  target = "i18n"
+
+[[module.mounts]]
+  source = "generated/assets"
+  target = "assets"
