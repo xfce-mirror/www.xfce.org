@@ -92,7 +92,7 @@ def convert_po(po_path: Path, out_path: Path) -> None:
 def main() -> None:
     repo_root = Path(__file__).parent.parent
     po_dir = repo_root / 'legacy' / 'lib' / 'po'
-    i18n_dir = repo_root / 'i18n'
+    i18n_dir = repo_root / 'generated' / 'i18n'
     i18n_dir.mkdir(parents=True, exist_ok=True)
 
     po_files = sorted(po_dir.glob('*.po'))
