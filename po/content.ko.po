@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-29 12:09+0200\n"
+"POT-Creation-Date: 2026-05-03 13:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,8 +119,8 @@ msgstr "특징"
 msgid "Xfce contains a number of core components for the minimum tasks you'd expect from a desktop environment:\n"
 msgstr "Xfce는 데스크톱 환경에서 기대할 수 있는 최소 단위의 작업에 대해 수많은 핵심 구성요소를 포함하고 있습니다:\n"
 
-#. type: Title ###
-#: content/about/_index.md:18
+#. type: Title ##
+#: content/about/_index.md:18 content/about/tour44.md:49
 #, no-wrap
 msgid "Window Manager"
 msgstr "창 관리자"
@@ -143,8 +143,8 @@ msgstr "데스크톱 관리자"
 msgid "Sets the background image and provides a root window menu, desktop icons or minimized icons and a windows list.\n"
 msgstr "배경 그림을 설정하고 루트 창 메뉴, 데스크톱 아이콘 또는 최소화한 아이콘 그리고 창 목록을 제공합니다.\n"
 
-#. type: Title ###
-#: content/about/_index.md:26
+#. type: Title ##
+#: content/about/_index.md:26 content/about/tour44.md:69
 #, no-wrap
 msgid "Panel"
 msgstr "패널"
@@ -179,8 +179,8 @@ msgstr "프로그램 탐색기"
 msgid "Shows the applications installed on your system in categories, so you can quickly find and launch them.\n"
 msgstr "분류에 따라 여러분의 시스템에 설치한 프로그램을 보여주어, 여러분이 빠르게 찾고 실행할 수 있습니다.\n"
 
-#. type: Title ###
-#: content/about/_index.md:38
+#. type: Title ##
+#: content/about/_index.md:38 content/about/tour44.md:21
 #, no-wrap
 msgid "File Manager"
 msgstr "파일 관리자"
@@ -192,7 +192,7 @@ msgid "Provides the basic file-management features and unique utilities like the
 msgstr "기본 파일 관리 기능과 일괄 이름 바꾸기 같은 고유한 유틸리티를 제공합니다.\n"
 
 #. type: Title ###
-#: content/about/_index.md:42
+#: content/about/_index.md:42 content/about/tour410.md:69
 #, no-wrap
 msgid "Settings Manager"
 msgstr "설정 관리자"
@@ -303,4 +303,5194 @@ msgstr "오픈콜렉티브"
 #: content/getinvolved/_index.md:34
 #, no-wrap
 msgid "If you want to fund the project, you can use OpenCollective. Xfce has created two collectives, known as [Xfce ($)](https://opencollective.com/xfce) and [Xfce-Eu (€)](https://opencollective.com/xfce-eu) respectively. [Learn More →](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)\n"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour420.md:1
+#, no-wrap
+msgid "Xfce 4.20 tour"
+msgstr "Xfce 4.20 둘러보기"
+
+#. type: Plain text
+#: content/about/tour420.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.20. It only covers improvements made on the (user-visible) surface.\n"
+msgstr "이 둘러보기에서는 xfce 4.20 새 주요기능을 소개합니다. 표면적으로 드러나는(사용자에게 나타나는) 개선 사항만을 다룹니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:10
+#, no-wrap
+msgid "Check the full [Xfce 4.20 changelog](/download/changelogs/4.20/) for a detailed list of changes.\n"
+msgstr "바뀐 내용의 세부 정보는 [Xfce 4.20 changelog](/download/changelogs/4.20/) 전체 내용을 확인하십시오.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:11 content/about/tour420.md:204
+#: content/about/tour418.md:223
+#, no-wrap
+msgid "General"
+msgstr "일반"
+
+#. type: Title ###
+#: content/about/tour420.md:13
+#, no-wrap
+msgid "Wayland"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:16
+#, no-wrap
+msgid "**Important Notice:** Please be aware that the Wayland support in Xfce 4.20 is experimental. It is recommended for advanced users only, as you may encounter bugs and experience incomplete functionality. Proceed with caution!\n"
+msgstr "<b>중요 공지:</b> Xfce 4.20의 웨일랜드 지원은 아직 시험중임을 참고하십시오. 수많은 버그와 완성하지 못한 기능을 경험해볼 고급 사용자에게만 추천합니다. 위험을 감수하고 진행하십시오!\n"
+
+#. type: Plain text
+#: content/about/tour420.md:18
+#, no-wrap
+msgid "Thanks to [Brian](https://gitlab.xfce.org/kelnos) and [Gaël](https://gitlab.xfce.org/Tamaranch) almost all Xfce components are able to run on Wayland windowing, while still keeping support for X11 windowing.\n"
+msgstr "상당수의 xfce 구성 요소가 여전히 지원을 유지하던 X11 창 구현 상태를 웨일랜드에서 실행할 수 있게 해준 [Brian](https://gitlab.xfce.org/kelnos)과 [Gaël](https://gitlab.xfce.org/Tamaranch)에게 감사를 전합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:20
+#, no-wrap
+msgid "This major effort was achieved by abstracting away any X11/Wayland windowing specific calls and making use of Wayland/Wlroots protocols. A whole new Xfce library, \"libxfce4windowing\" was introduced during that process. XWayland will not be required to run any of the ported Xfce components.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:22
+#, no-wrap
+msgid "So far Xfce does not feature a compositor which supports Wayland. If you want to run Xfce in Wayland, Labwc and Wayfire will give you the best results. A detailed instruction on this can be found [here](https://wiki.xfce.org/releng/wayland_roadmap#testing). Please be aware that Wayland support is still experimental!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:24
+#, no-wrap
+msgid "Plans are underway to add Wayland support to Xfwm4 while preserving its existing X11 functionality. However, such a restructurization will be a major effort and we cannot tell yet when/if it will be done, so please don't hold your breath waiting for it.\n"
+msgstr "Xfwm4 에 기존의 X11 기능을 유지한 채로 웨일랜드를 지원하는 계획은 계속 진행중입니다. 그러나 재구조화 같은 작업은 주된 작업일 것이며, 언제 이게 끝날지 확언할 수 없습니다. 그러니, 이 부분의 구현을 한숨을 쉬며 기다리고 계시지 않는 것이 좋겠습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:26
+#, no-wrap
+msgid "For few components and multiple features, it was not possible to port them to Wayland, partly because there are no standardized Wayland protocols available yet to provide the required services:\n"
+msgstr "일부 구성 요소와 다양한 기능을 위해, 일부를 웨일랜드로 포팅할 수 없었는데, 다음의 필요한 서비스를 제공할 표준 웨일랜드 프로토콜이 아직 없기 때문입니다:\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Workspace support is missing (ext-workspace protocol [was just merged](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40)).\n"
+msgstr "작업 공간 지원은 빠졌습니다 (이전 작업공간 프로토콜 [은 이미 병합했습니다만](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40)).\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Systray icons will be missing for multiple applications (required to use StatusNotifier instead of GtkStatusIcon)\n"
+msgstr "다양한 프로그램의 작업 표시줄 아이콘이 빠질 예정입니다(GtkStatusIcon 대신 StatusNotifier를 사용하려면 필요함).\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Xfce4-settings: Keyboard and mouse settings so far are internal to the Wayland compositor and as such the according Xfce dialogs won't be available on Wayland yet.\n"
+msgstr "Xfce4-settings: 키보드 및 마우스 설정은 웨일랜드 콤포지터의 내부 요소를 사용하나, Xfce 대화 상자는 아직 웨일랜드용으로는 사용할 수 없습니다.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Power related keyboard handling (brightness keys, suspend, etc.) is internal to the Wayland compositor and as such cannot be supported yet by Xfce components.\n"
+msgstr "전원 관련 키보드 관리 (키 밝기, 대기 모드, 등)은 웨일랜드 컴포지터의 내부 기능이기 때문에, Xfce 컴포넌트에서 아직 지원할 수 없습니다.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Wayland does not specify a native protocol for taking screenshots. However, xfce4-screenshooter already supports screenshots via the wlroots 'screencopy' protocol (entire screen). Screenshots of a rectangle selection or the active window are not yet supported via Wayland.\n"
+msgstr "웨일랜드는 스크린샷을 찍을 때 자체 프로토콜을 지정하지 않습니다. 그러나 xfce4-screenshooter에서는 이미 wlroots 'screencopy' 프로토콜을 지원합니다 (전체 화면에 대해). 사각형 선택 영역 또는 활성 창의 스크린샷은 웨일랜드에서 아직 지원하지 않습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:34
+#, no-wrap
+msgid "Some other Xfce components don't run at all on Wayland:\n"
+msgstr "일부 다른 Xfce 구성 요소는 웨일랜드에서 완전히 동작하지 못합니다:\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfwm4\n"
+msgstr "Xfwm4\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfdashboard\n"
+msgstr "Xfdashboard\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-screensaver (porting to Wayland [completed but not merged](https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28), as it requires the experimental [libwlembed library](https://gitlab.xfce.org/kelnos/libwlembed))\n"
+msgstr "xfce4-screensaver (필요한[libwlembed 라이브러리](https://gitlab.xfce.org/kelnos/libwlembed)가 여전히 시험중이어서 웨일랜드로의 이식이 [끝났지만 병합하지 않았음](https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28))\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-windowck-plugin (needs to be [ported to libxfce4windowing](https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37))\n"
+msgstr "xfce4-windowck-plugin ([libxfce4windowing으로 포팅](https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37)해야 함) \n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)\n"
+msgstr "xfce4-xkb-plugin (웨일랜드 콤포지터 내부에서 키보드 처리를 담당함)\n"
+
+#. type: Plain text
+#: content/about/tour420.md:42
+#, no-wrap
+msgid "More detailed info on the current Wayland status can be found on our [Wayland roadmap.](https://wiki.xfce.org/releng/wayland_roadmap)\n"
+msgstr "현재 웨일랜드 지원 상황의 자세한 정보는[웨일랜드 로드맵](https://wiki.xfce.org/releng/wayland_roadmap)에서 찾아보실 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:43 content/about/tour418.md:225
+#, no-wrap
+msgid "Scaling"
+msgstr "배율 조정"
+
+#. type: Plain text
+#: content/about/tour420.md:46
+#, no-wrap
+msgid "Icons and thumbnail scaling was fixed for various components. Various missing icons for larger scales were added. Any blurriness when using Xfce components on a HiDPI display should be gone now.\n"
+msgstr "다양한 구성 요소에서 살펴볼 아이콘과 미리 보기 그림의 크기 조절을 수정했습니다. 여러가지 큰 크기를 가진 빠진 아이콘을 추가했습니다. 이제 xfce를 HiDPI 화면에서 사용할 때 침침하게 보이던 요소가 사라졌습니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:47
+#, no-wrap
+msgid "[exo](https://docs.xfce.org/xfce/exo/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:49
+#, no-wrap
+msgid "Icon View Performance"
+msgstr "아이콘 보기 성능"
+
+#. type: Plain text
+#: content/about/tour420.md:52
+#, no-wrap
+msgid "By using different container types, the \"Exo-Icon-View\" now can handle 100,000 files and more without freezing.\n"
+msgstr "이제 \"Exo-Icon-View\"에서는 제각기 다른 컨테이너 형식을 사용하여 100,000개 이상의 파일을 무리 없이 처리할 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:53
+#, no-wrap
+msgid "Type ahead search box"
+msgstr "자동 완성 검색 상자"
+
+#. type: Plain text
+#: content/about/tour420.md:56
+#, no-wrap
+msgid "The type ahead search box in the exo icon view now always stays inside the according view widget.\n"
+msgstr "exo 아이콘 보기의 자동 완성 검색 상자는 보기 위젯에 따라 항상 그 자리에 나타납니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:57
+#, no-wrap
+msgid "[libxfce4ui](https://docs.xfce.org/xfce/libxfce4ui/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:59
+#, no-wrap
+msgid "Shortcut Editor"
+msgstr "바로 가기 아이콘 편집기"
+
+#. type: Plain text
+#: content/about/tour420.md:62
+#, no-wrap
+msgid "Shortcuts now can be used for multiple actions if they don't conflict with each other.\n"
+msgstr "바로 가기 아이콘은 서로 겹치지만 않으면 여러 동작 목적으로 사용할 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:63
+#, no-wrap
+msgid "About Dialog"
+msgstr "대화상자 정보"
+
+#. type: Plain text
+#: content/about/tour420.md:66
+#, no-wrap
+msgid "The dialog now shows the distribution logo, information about the used windowing system and the used GPU.\n"
+msgstr "이제 대화 상자에는 배포판 로고, 창 시스템 정보, 사용 GPU 정보를 나타냅니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:68
+#, no-wrap
+msgid "![libxfce4ui - about dialog][img-libxfce4ui_about]\n"
+msgstr "![libxfce4ui - 정보 대화상자][img-libxfce4ui_about]\n"
+
+#. type: Title ##
+#: content/about/tour420.md:69
+#, no-wrap
+msgid "[libxfce4windowing](https://docs.xfce.org/xfce/libxfce4windowing/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:72
+#, no-wrap
+msgid "This library is new to Xfce. Libxfce4windowing is an abstraction library that attempts to present windowing concepts (screens, top level windows, workspaces, etc.) in a windowing-system-independent manner.\n"
+msgstr "이 라이브러리는 Xfce에 새로 도입한 요소입니다. Libxfce4windowing은 시스템 독립 창구현 방식으로 현재 창 구현 개념(화면, 최상위 창, 작업 공간 등)에 적용해보려는 추상화 라이브러리 입니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:74
+#, no-wrap
+msgid "Currently, X11 is fully supported via libwnck. Wayland is partially supported by using various Wayland protocol extensions. However, the full range of operations available on X11 is not available on Wayland, due to missing features in these protocols extensions.\n"
+msgstr "현재, X11은 libwnck에서 완벽히 지원합니다. 웨일랜드의 경우 다양한 웨일랜드 프로토콜 확장을 사용하여 일부 지원합니다. 그러나 X11에서 전반적인 영역에 있어 가능한 처리 기능이 웨일랜드에 없는데, 다음 프로토콜 확장이 기능에서 빠졌기 때문입니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:75
+#, no-wrap
+msgid "[thunar](https://docs.xfce.org/xfce/thunar/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:77
+#, no-wrap
+msgid "Mounted and Remote Locations"
+msgstr "마운트한 원격 위치"
+
+#. type: Plain text
+#: content/about/tour420.md:80
+#, no-wrap
+msgid "Mount points now show an emblem and have a specific type description.\n"
+msgstr "이제 마운트 위치에 엠블렘과 형식 설명이 나타납니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:82
+#, no-wrap
+msgid "Ipv6 remote URLs are now supported.\n"
+msgstr "이제 IPv6 원격 URL을 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:84
+#, no-wrap
+msgid "It is now possible to create symbolic links as well on remote locations.\n"
+msgstr "이제 원격 위치의 심볼릭 링크를 만들 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:85
+#, no-wrap
+msgid "Search"
+msgstr "검색"
+
+#. type: Plain text
+#: content/about/tour420.md:88
+#, no-wrap
+msgid "It is not required any more to wait until a search is finished to open the context menu on search results.\n"
+msgstr "더 이상은 검색 결과에서 컨텍스트 메뉴를 열 때 검색이 끝날 때까지 기다릴 필요가 없습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:89 content/about/tour418.md:107
+#, no-wrap
+msgid "Toolbar"
+msgstr "도구 모음"
+
+#. type: Plain text
+#: content/about/tour420.md:92
+#, no-wrap
+msgid "A couple of new toolbar buttons were added:\n"
+msgstr "여러가지 새 도구 모음 단추를 추가했습니다:\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "View Switcher - A drop-down button to select a view.\n"
+msgstr "보기 전환 프로그램 - 드롭다운 단추를 보기 선택에 채용하였습니다.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "Menu - This hamburger button will show automatically in the toolbar, when the menubar is hidden. It will reveal a vertical menu, bar, when pressed.\n"
+msgstr "메뉴 - 메뉴 표시줄을 숨기면 햄버거 단추가 자동으로 도구 모음에 나타납니다. 햄버거 단추를 누르면 수직 메뉴와 구분선이 나타납니다.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "New Tab - Open a new tab using the current directory.\n"
+msgstr "새 탭 - 현재 디렉터리의 새 탭을 엽니다.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "New Window - Open a new window using the current directory.\n"
+msgstr "새 창 - 현재 디렉터리의 새 창을 엽니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:99
+#, no-wrap
+msgid "![thunar - new toolbar buttons][img-thunar_toolbar_new_items]\n"
+msgstr "![투나 - 새 도구 모음 단추][img-thunar_toolbar_new_items]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:101
+#, no-wrap
+msgid "![thunar - improved hamburger toolbar button][img-thunar_toolbar_hamburger]\n"
+msgstr "![투나 - 새 햄버거 도구 모음 단추 ][img-thunar_toolbar_hamburger]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:103
+#, no-wrap
+msgid "On shrinking the Thunar window, toolbar items will now be moved to an overflow menu. Like that, it is possible to maintain smaller thunar windows.\n"
+msgstr "투나 창의 크기를 줄이면 도구 모음 항목이 오버플로우 메뉴로 넘어갑니다. 이리하여, 투나 창을 작게 하더라도 사용성을 유지할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:105
+#, no-wrap
+msgid "Furthermore, a bug was fixed which prevented the usage of submenu custom actions in the toolbar.\n"
+msgstr "게다가 도구 모음에서 하위 메뉴 동작 개별 지정 사용에 방해를 주는 문제를 수정했습니다. \n"
+
+#. type: Title ###
+#: content/about/tour420.md:106
+#, no-wrap
+msgid "Window Decorations"
+msgstr "창 장식"
+
+#. type: Plain text
+#: content/about/tour420.md:109
+#, no-wrap
+msgid "There is now an option to use client side decorations in Thunar (CSD).\n"
+msgstr "이제 투나의 클라이언트 장식(CSD)을 선택지로 채용했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:111
+#, no-wrap
+msgid "![thunar - CSD with menu][img-thunar_csd_with_menu]\n"
+msgstr "![투나 - CSD와 메뉴 혼용][img-thunar_csd_with_menu]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:113
+#, no-wrap
+msgid "![thunar - CSD without menu][img-thunar_csd_without_menu]\n"
+msgstr "![투나 - 메뉴를 사용하지 않는 CSD][img-thunar_csd_without_menu]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:114 content/about/tour418.md:127
+#, no-wrap
+msgid "Statusbar"
+msgstr "상태 표시줄"
+
+#. type: Plain text
+#: content/about/tour420.md:117
+#, no-wrap
+msgid "An option to show the number of hidden files in the statusbar was added.\n"
+msgstr "상태 표시줄에 숨겨진 여러 파일을 나타내는 선택지를 추가했습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:118
+#, no-wrap
+msgid "Recently Used Files"
+msgstr "최근 사용한 파일"
+
+#. type: Plain text
+#: content/about/tour420.md:121
+#, no-wrap
+msgid "Only files which were successfully opened are now added to the list of recently used files.\n"
+msgstr "성공적으로 연 파일에 대해서만 최근 사용한 파일 목록에 들어갑니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:123
+#, no-wrap
+msgid "Directories won't be added to the recently used files anymore.\n"
+msgstr "디렉터리는 더이상 최근 사용한 파일 목록에 들어가지 않습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:124
+#, no-wrap
+msgid "Symbolic Icons"
+msgstr "심볼릭 아이콘"
+
+#. type: Plain text
+#: content/about/tour420.md:127
+#, no-wrap
+msgid "There is now an option to use symbolic icons in the side pane and colored icons in the toolbar.\n"
+msgstr "가장자리 창의 심볼 아이콘과 도구 모음의 색상 아이콘의 사용을 옵션으로 두었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:129
+#, no-wrap
+msgid "![thunar - symbolic icons][img-thunar_symbolic_icons]\n"
+msgstr "![thunar - 심볼릭 아이콘][img-thunar_symbolic_icons]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:131
+#, no-wrap
+msgid "![thunar - colored icons][img-thunar_colored_icons]\n"
+msgstr "![thunar - 색상 아이콘][img-thunar_colored_icons]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:132
+#, no-wrap
+msgid "Drag and Drop"
+msgstr "끌어다 놓기"
+
+#. type: Plain text
+#: content/about/tour420.md:135
+#, no-wrap
+msgid "While dragging files, folders are now opened automatically on hover.\n"
+msgstr "파일을 끌어 이동하는 동안, 파일을 폴더 위로 가져다 두면 폴더가 자동으로 열립니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:137
+#, no-wrap
+msgid "While dragging files, the focus of the split view pane is now updated when hovered.\n"
+msgstr "파일을 끌어 이동하는 동안, 분할 보기 창 위로 파일을 끌어 올려두면 창이 새로 바뀝니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:138
+#, no-wrap
+msgid "Performance"
+msgstr "성능"
+
+#. type: Plain text
+#: content/about/tour420.md:141
+#, no-wrap
+msgid "In the past, you might have faced situation involving bigger numbers of files in which thunar showed a freeze. Due to various different performance measures, thunar now is much more bullet-proof for action involving huge numbers of files.\n"
+msgstr "이전에는 몇가지 파일의 크기가 크면 투나가 파일을 표시하는 도중 일시적으로 멈추는 상황이 있었습니다. 다양한 성능 측정 방식을 동원한 덕분에, 이제 투나는 몇가지 큰 파일로 인해 일어나는 동작을 견뎌낼 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:143
+#, no-wrap
+msgid "This was achieved by using appropriate container types, moving some actions into separate jobs and throttling of view-updates.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:145
+#, no-wrap
+msgid "A [number of integration test cases](https://wiki.xfce.org/thunar/dev/integration_testcases) will be used in order to keep performance on the current level in the future.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:146 content/about/tour418.md:171
+#, no-wrap
+msgid "Custom Actions"
+msgstr "개별 동작"
+
+#. type: Plain text
+#: content/about/tour420.md:149
+#, no-wrap
+msgid "Shortcuts for custom action will now as well work when the custom action is located in a sub-menu.\n"
+msgstr "개별 동작 바로 가기는 개별 동작을 하위 메뉴에 두고 동작할 때 처럼 잘 동작합니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:150
+#, no-wrap
+msgid "File Transfer"
+msgstr "파일 전송"
+
+#. type: Plain text
+#: content/about/tour420.md:153
+#, no-wrap
+msgid "For file validation in thunar 4.18.x a md5 checksum was calculated for source and target file. This calculation turned out to be rather slow and actually superfluous. Now files are just compared directly. In addition, the usage of direct I/O operations now attempts to prevent comparison of possibly cached buffers.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:155
+#, no-wrap
+msgid "An option was added to only copy files in parallel if the relevant devices are in idle state. This prevents possible fragmentation during copy for HDD drives.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:157
+#, no-wrap
+msgid "Transferring files no longer steals the current focus.\n"
+msgstr "파일 전송은 더이상 현재 포커스를 빼돌리지 않고 그대로 둡니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:159
+#, no-wrap
+msgid "The file transfer question dialog now provides the same options while having less buttons. In addition, file thumbnails now are properly requested by the dialog.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:161
+#, no-wrap
+msgid "![thunar - file transfer dialog][img-thunar_transfer_dialog]\n"
+msgstr "![투나 - 파일 전송 대화 상자][img-thunar_transfer_dialog]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:162
+#, no-wrap
+msgid "Launchers"
+msgstr "실행 아이콘"
+
+#. type: Plain text
+#: content/about/tour420.md:165
+#, no-wrap
+msgid "By default, launcher names instead of filenames are shown now for trusted launchers.\n"
+msgstr "기본적으로 파일 이름을 대신하는 실행 아이콘 이름은 이제부터 신뢰할 수 있는 실행 주체에만 나타냅니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:166
+#, no-wrap
+msgid "Undo/Redo"
+msgstr "실행 취소/다시 실행"
+
+#. type: Plain text
+#: content/about/tour420.md:169
+#, no-wrap
+msgid "The user now will be asked before any deletion will be done by an undo operation.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:170 content/about/tour418.md:73
+#, no-wrap
+msgid "List View"
+msgstr "목록 보기"
+
+#. type: Plain text
+#: content/about/tour420.md:173
+#, no-wrap
+msgid "Similar to the tree-view side pane, the main view now also supports folder expansion.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:175
+#, no-wrap
+msgid "![thunar - expandable folders][img-thunar_expandable_folders]\n"
+msgstr "![투나 - 확장 폴더][img-thunar_expandable_folders]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:176 content/about/tour418.md:121
+#, no-wrap
+msgid "Split View"
+msgstr "분할 보기"
+
+#. type: Plain text
+#: content/about/tour420.md:179
+#, no-wrap
+msgid "A shortcut now can be used to toggle between split-view panes, and the focused pane now uses different coloring.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:181
+#, no-wrap
+msgid "![thunar - split view][img-thunar_split_view]\n"
+msgstr "![투나 - 분할 보기][img-thunar_split_view]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:183
+#, no-wrap
+msgid "A dialog will now ask for confirmation when closing a split-pane with multiple tabs.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:184
+#, no-wrap
+msgid "[xfce4-appfinder](https://docs.xfce.org/xfce/xfce4-appfinder/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:187
+#, no-wrap
+msgid "The application list now as well can be navigated via Ctrl+N / Ctrl+P keys (VI default).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:189
+#, no-wrap
+msgid "An option was added to close the Appfinder window automatically when focus is lost.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:191
+#, no-wrap
+msgid "Ctrl+Enter can be used to execute commands immediately when selecting entries from the dropdown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:193
+#, no-wrap
+msgid "Within the new version, application specific actions will show on right click.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:195
+#, no-wrap
+msgid "An option to show generic names of launchers was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:197
+#, no-wrap
+msgid "Appfinder optionally can now be launched as a daemon, so that it will respond even quicker.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:199
+#, no-wrap
+msgid "An option allows now to launch items on a single click.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:201
+#, no-wrap
+msgid "![xfce4-appfinder - settings][img-appfinder_new]\n"
+msgstr "![xfce4-appfinder - 설정][img-appfinder_new]\n"
+
+#. type: Title ##
+#: content/about/tour420.md:202
+#, no-wrap
+msgid "[xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:207
+#, no-wrap
+msgid "The border width of the panel is now configurable.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:209
+#, no-wrap
+msgid "For manual installations: the panel now does its best to find plugins in XDG base directories, and better preserves its configuration when it can't find them.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:210
+#, no-wrap
+msgid "Clock"
+msgstr "시계"
+
+#. type: Plain text
+#: content/about/tour420.md:213
+#, no-wrap
+msgid "LCD clock: An option was added to visualize inactive segments.\n"
+msgstr "LCD 시계: 비활성 세그먼트 등을 나타내는 옵션을 추가했습니다\n"
+
+#. type: Plain text
+#: content/about/tour420.md:215
+#, no-wrap
+msgid "Analog: There is now an optional 24h mode.\n"
+msgstr "아날로그: 24시간 모드를 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:217
+#, no-wrap
+msgid "Digital: Week numbers now are shown optionally.\n"
+msgstr "디지털: 이제 주차 번호를 선택하여 표시할 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:218
+#, no-wrap
+msgid "Show Desktop"
+msgstr "데스크톱 보기"
+
+#. type: Plain text
+#: content/about/tour420.md:221
+#, no-wrap
+msgid "There is now the possibility to show the desktop when hovering the mouse on the \"show desktop\" panel icon.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:222
+#, no-wrap
+msgid "Tasklist"
+msgstr "작업 목록"
+
+#. type: Plain text
+#: content/about/tour420.md:225
+#, no-wrap
+msgid "Icon size management has been improved overall, notably by switching to libxfce4windowing.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:226 content/about/tour420.md:354
+#: content/about/tour418.md:179
+#, no-wrap
+msgid "Preferences"
+msgstr "기본 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:229
+#, no-wrap
+msgid "The 'delete' key can now be used to remove panel objects, and several objects can be removed at once.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:231
+#, no-wrap
+msgid "Panel objects in the panel configuration list now will have the same icons as in the panel itself.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:233
+#, no-wrap
+msgid "![xfce4-panel - panel configuration list][img-panel_item_list]\n"
+msgstr "![xfce4-panel - 창 설정 목록][img-panel_item_list]\n"
+
+#. type: Title ##
+#: content/about/tour420.md:234
+#, no-wrap
+msgid "[xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:236
+#, no-wrap
+msgid "Screen Locking"
+msgstr "화면 잠금"
+
+#. type: Plain text
+#: content/about/tour420.md:239
+#, no-wrap
+msgid "There is no dedicated \"security\" tab anymore. Lock screen management was massively simplified and \"Light Locker\" was dropped. \"lock-on-sleep\" is now synchronized with xfce4-session and xfce4-screensaver.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:241
+#, no-wrap
+msgid "Screen locking settings are now only handled by xfce4-screensaver to avoid conflicts. A button to open xfce4-screensaver-preferences was added:\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:243
+#, no-wrap
+msgid "![xfce4-power-manager - settings][img-power_manager_settings]\n"
+msgstr "![xfce4-power-manager - 설정][img-power_manager_settings]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:245
+#, no-wrap
+msgid "![xfce4-screensaver - settings][img-power_manager_screensaver]\n"
+msgstr "![xfce4-screensaver - 설정][img-power_manager_screensaver]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:246
+#, no-wrap
+msgid "Power Settings"
+msgstr "전원 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:249
+#, no-wrap
+msgid "Support for handling different power profiles via power-profiles-daemon was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:251
+#, no-wrap
+msgid "The overall charge state calculation was wrong for some cases and is now fixed.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:253
+#, no-wrap
+msgid "When the critical power dialog pops up, unintentional user actions are now prevented.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:255
+#, no-wrap
+msgid "There is now support for the hybrid sleep mode.\n"
+msgstr "이제 하이브리드 대기 모드를 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:257
+#, no-wrap
+msgid "The device details tab now as well shows the energy rate.\n"
+msgstr "이제 장치 세부 정보 탭에서 에너지 소비율을 보여줍니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:258
+#, no-wrap
+msgid "Others"
+msgstr "기타"
+
+#. type: Plain text
+#: content/about/tour420.md:261
+#, no-wrap
+msgid "Several use-cases for lid close were fixed.\n"
+msgstr "덮개를 닫을 경우의 몇가지 사용 동작을 수정했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:263
+#, no-wrap
+msgid "There are now the options \"shutdown\" and \"do nothing\" on lid close.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:265
+#, no-wrap
+msgid "Buttons to change the brightness exponentially and keyboard backlight toggle keys now are supported.\n"
+msgstr "밝기를 지수적으로 바꾸는 단추와 키보드 백라이트 전환 키를 지원합니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:266
+#, no-wrap
+msgid "[xfce4-session](https://docs.xfce.org/xfce/xfce4-session/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:269
+#, no-wrap
+msgid "The logout dialog will not provide a checkbox to enable session saving anymore.\n"
+msgstr "로그아웃 대화 상자는 더이상 세션 저장을 사용하도록 표시하는 확인 상자를 제공하지 않습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:271
+#, no-wrap
+msgid "It is now possible to start a Wayland session via 'startxfce4 --wayland'.\n"
+msgstr "이제 웨일랜드 세션을 'startxfce4 --wayland' 명령으로 시작할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:273
+#, no-wrap
+msgid "Minimal support for xdg-desktop-portal was added by registering for a wallpaper, screenshot and background xapp.\n"
+msgstr "배경 화면, 스크린샷, 백그라운드 xapp을 위해 등록하는 방식으로 xdg-desktop-portal의 최소 지원을 추가했습니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:274
+#, no-wrap
+msgid "[xfce4-settings](https://docs.xfce.org/xfce/xfce4-settings/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:276 content/about/tour418.md:65
+#: content/about/tour412.md:73 content/about/tour410.md:95
+#, no-wrap
+msgid "Appearance Settings"
+msgstr "모양새 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:279
+#, no-wrap
+msgid "Icon themes are now loaded in a separate thread, in order to prevent a possible freeze.\n"
+msgstr "아이콘 테마는 동작이 멈추는 일을 막기 위해 별개 스레드에서 불러옵니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:281
+#, no-wrap
+msgid "For icon themes which are known to be incomplete, a warning now will be shown.\n"
+msgstr "미완성 아이콘 테마에 이제부터 경고 표시를 띄웁니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:283
+#, no-wrap
+msgid "The usage of client side decorations is opt-in now, not opt-out.\n"
+msgstr "클라이언트 측 장식 사용은 이제 별도 방식이 아닌 내장 방식입니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:285
+#, no-wrap
+msgid "Dark themes now are identified and supported in a more reliable way. (Relevant e.g. for the Qogir and Orchis themes)\n"
+msgstr "이제 어두운 테마를 보실 수 있고, (관련 예: Qogir, Orchis 테마에 대해) 더 확실한 방식으로 지원합니다. \n"
+
+#. type: Title ###
+#: content/about/tour420.md:286 content/about/tour418.md:59
+#: content/about/tour412.md:65
+#, no-wrap
+msgid "Display Settings"
+msgstr "디스플레이 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:289
+#, no-wrap
+msgid "The default display profile has been added to the list of profiles that can match, and will be used if more than one matches now.\n"
+msgstr "기본 디스플레이 프로파일은 일치할 수 있는 프로파일 목록에 추가하였으며, 일치하는 프로파일이 하나 이상인 경우 사용합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:291
+#, no-wrap
+msgid "Profile management has been extended to all profiles, not just those that match, and their names can now be edited.\n"
+msgstr "프로파일 관리자에서는 일치하는 프로파일 만이 아닌 모든 프로파일로 확장하였으며, 해당 프로파일의 이름을 편집할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:293
+#, no-wrap
+msgid "Scaling now always is done for both dimensions, and the preview shows the resulting size.\n"
+msgstr "비율 조정은 각 모니터의 치수에 맞춰 동작하며, 미리보기에서는 결과 크기를 보여줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:295
+#, no-wrap
+msgid "Mirror state management has been improved overall, in particular by removing the need to match refresh rates.\n"
+msgstr "반전 상태 관리를 전체적으로 개선했으며, 일부는 재생율을 맞추기 위해 제거했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:297
+#, no-wrap
+msgid "The minimal dialog has been improved, in particular by allowing the display to be extended to the left and from top to bottom, and with compact profile display.\n"
+msgstr "최소 대화 상자를 개선하여, 소형 프로파일 디스플레이와 함께 왼편으로 확장 표시할 수 있게 하거나 위 아래로 확장하여 보이게끔 하였습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:299
+#, no-wrap
+msgid "![xfce4-settings - minimal display][img-settings_display]\n"
+msgstr "![xfce4-settings - 최소 표시][img-settings_display]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:300
+#, no-wrap
+msgid "Mouse Settings"
+msgstr "마우스 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:303
+#, no-wrap
+msgid "A checkbox was added to toggle between adaptive and flat mouse accel profile.\n"
+msgstr "마우스 가속 프로파일에 적응형, 평이가속형 둘 중 한가지 방식으로 마우스 가속기능을 활용할 수 있도록 확인 상자를 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:305
+#, no-wrap
+msgid "High resolution scrolling can now be enabled for mice which do support it.\n"
+msgstr "이제 마우스의 고해상도 스크롤을 지원하여 사용할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:307
+#, no-wrap
+msgid "![xfce4-settings - mouse][img-settings_mouse]\n"
+msgstr "![xfce4-settings - 마우스][img-settings_mouse]\n"
+
+#. type: Title ###
+#: content/about/tour420.md:308
+#, no-wrap
+msgid "Mime Settings"
+msgstr "MIME 설정"
+
+#. type: Plain text
+#: content/about/tour420.md:311
+#, no-wrap
+msgid "It is now possible to select/change multiple items at once.\n"
+msgstr "이제 여러 항목을 한번에 선택하고 바꿀 수 있습니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:312
+#, no-wrap
+msgid "[xfconf](https://docs.xfce.org/xfce/xfconf/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:315
+#, no-wrap
+msgid "A systemd user unit, corresponding to the D-Bus session service, is now added.\n"
+msgstr "D-Bus 세션 서비스와 관련 있는 systemd 사용자 유닛을 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:317
+#, no-wrap
+msgid "Whitespaces are now properly escaped when writing a xfconf channel to disk.\n"
+msgstr "이제 xfconf 채널을 디스크에 기록할 때 공백 문자를 제대로 이스케이핑합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:319
+#, no-wrap
+msgid "Xfconf-query now displays array contents.\n"
+msgstr "Xfconf-query에서는 이제 배열 컨텐트를 표시해줍니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:320
+#, no-wrap
+msgid "[xfdesktop](https://docs.xfce.org/xfce/xfdesktop/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:322
+#, no-wrap
+msgid "Background Management"
+msgstr "배경 관리"
+
+#. type: Plain text
+#: content/about/tour420.md:325
+#, no-wrap
+msgid "For random wallpaper cycling, wallpapers now are only repeated after all other wallpapers were shown.\n"
+msgstr "임의 배경화면 순환 기능에서, 이제부터 배경화면은 모든 다른 배경화면을 표시한 다음 반복 표시해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:327
+#, no-wrap
+msgid "Old Xfce backgrounds were ported from .png to .svg to be usable for large screens.\n"
+msgstr "이전 Xfce 백그라운드는 .png에서 .svg로 포팅하여 거대 화면에서도 사용할 수 있게 했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:329
+#, no-wrap
+msgid "Gradients will now be rendered in a gamma-correct way.\n"
+msgstr "그레디언트는 이제 감마 보정 방식으로 렌더링합니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:330
+#, no-wrap
+msgid "Icon grid"
+msgstr "아이콘 격자 배치"
+
+#. type: Plain text
+#: content/about/tour420.md:333
+#, no-wrap
+msgid "The confirmation dialog for arranging desktop icons now is optional.\n"
+msgstr "데스크톱 아이콘 정렬 확인 대화상자는 이제 옵션입니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:335
+#, no-wrap
+msgid "It is now possible to set custom colors for icon labels and icon background.\n"
+msgstr "개별 아이콘 레이블과 아이콘 배경 색상을 설정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:337
+#, no-wrap
+msgid "The icon grid on each monitor is now independent of one another.\n"
+msgstr "각 모니터의 아이콘 격자 공간은 모니터 별로 독립 배정할 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:338
+#, no-wrap
+msgid "Minimized Application Icons"
+msgstr "단순화한 앱 아이콘"
+
+#. type: Plain text
+#: content/about/tour420.md:341
+#, no-wrap
+msgid "Window icons are now initially shown on the monitor where the window was present before being minimized.\n"
+msgstr "창 아이콘은 이제 창을 최소화하기 전에 창이 있던 모니터에 처음부터 나타납니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:343
+#, no-wrap
+msgid "The context menu (when clicking on an empty space) now has more useful options than before.\n"
+msgstr "(빈 공간을 누르면 나오는) 컨텍스트 메뉴에서는 이전보다 쓸모있는 옵션을 더 많이 배치했습니다.\n"
+
+#. type: Title ###
+#: content/about/tour420.md:344
+#, no-wrap
+msgid "File Icons"
+msgstr "파일 아이콘"
+
+#. type: Plain text
+#: content/about/tour420.md:347
+#, no-wrap
+msgid "There is now an option to sort folders before files.\n"
+msgstr "이제 파일 보다 폴더를 앞서 표시하는 옵션이 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:349
+#, no-wrap
+msgid "The positions of the icons are now saved in a way that should avoid icons moving around in unexpected ways when monitors are added and removed.\n"
+msgstr "모니터를 추가하거나 제거할 경우 아이콘이 엉뚱한 방식으로 여기저기 왔다갔다 하는 일을 막기 위해 아이콘의 위치를 저장합니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:351
+#, no-wrap
+msgid "New files and dropped files now will be placed near the current cursor location.\n"
+msgstr "새 파일과 끌어다 놓은 파일은 이제 현재 커서 위치 근처로 갑니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:353
+#, no-wrap
+msgid "Icons of fixed disks and drives can now be optionally shown.\n"
+msgstr "이제 고정 디스크와 드라이브의 아이콘 표시를 선택할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:357
+#, no-wrap
+msgid "The 'Desktop Icons' tab was fully reworked.\n"
+msgstr "'데스크톱 아이콘' 탭을 완전히 재작업했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:359
+#, no-wrap
+msgid "![xfdesktop - settings - desktop icons][img-xfdesktop_settings_icons]\n"
+msgstr "![xfdesktop - 설정 - 데스크톱 아이콘][img-xfdesktop_settings_icons]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:361
+#, no-wrap
+msgid "All shortcuts of Xfdesktop now can be configured, using the XfceShortcutsManagers widget.\n"
+msgstr "Xfdesktop의 모든 바로가기는 이제 XfceShortcutsManagers위젯으로 설정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:363
+#, no-wrap
+msgid "![xfdesktop - settings - keyboard shortcuts][img-xfdesktop_settings_shortcuts]\n"
+msgstr "![xfdesktop - 설정 - 키보드 바로 가기 키][img-xfdesktop_settings_shortcuts]\n"
+
+#. type: Plain text
+#: content/about/tour420.md:365
+#, no-wrap
+msgid "More folders that hold background images were added as shortcuts in the settings dialog.\n"
+msgstr "설정 대화상자에서 더 많은 배경 화면 그림이 들어간 폴더를 바로가기로 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:367
+#, no-wrap
+msgid "The settings dialog will update if the background is changed from outside the dialog.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:369
+#, no-wrap
+msgid "Wallpaper image folders now are loaded fully asynchronously to prevent lag.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:370
+#, no-wrap
+msgid "Context Menu"
+msgstr "컨텍스트 메뉴"
+
+#. type: Plain text
+#: content/about/tour420.md:373
+#, no-wrap
+msgid "Cascading custom actions will now as well shown correctly in Xfdesktop.\n"
+msgstr "계층별 개별 동작이 이제부터는 Xfdesktop에서 올바르게 나타납니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:375
+#, no-wrap
+msgid "It is now possible to open multiple selected folders at once.\n"
+msgstr "이제 선택한 여러 개의 폴더를 한번에 열 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:377
+#, no-wrap
+msgid "The context menu now opens on button press rather than button release, as most users will expect.\n"
+msgstr "이제 컨텍스트 메뉴는 대부분의 사용자 분들이 기대하던대로 단추를 뗐을 때가 아닌 눌렀을 때 나타납니다.\n"
+
+#. type: Plain text
+#: content/about/tour420.md:379
+#, no-wrap
+msgid "The middle-click window list menu has new styling and added features.\n"
+msgstr "가운데 단추 창 목록 메뉴의 모양새를 새로 다듬었고 기능을 추가했습니다.\n"
+
+#. type: Title ##
+#: content/about/tour420.md:380
+#, no-wrap
+msgid "[xfwm4](https://docs.xfce.org/xfce/xfwm4/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:383
+#, no-wrap
+msgid "Support for stretch theme variants\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:385
+#, no-wrap
+msgid "Compositor: Block softpipe for GLX vsync\n"
+msgstr "컴포지터: GLX vsync 소프트 파이프 차단\n"
+
+#. type: Plain text
+#: content/about/tour420.md:387
+#, no-wrap
+msgid "Focus: Include skip taskbar/pager when passing focus\n"
+msgstr "포커싱: 포커싱 상태를 전달할 때 작업 표시줄/페이저를 건너뜀\n"
+
+#. type: Plain text
+#: content/about/tour420.md:389
+#, no-wrap
+msgid "Fix crash when alt-tabbing ([#762](https://gitlab.xfce.org/xfce/xfwm4/-/issues/762))\n"
+msgstr "Alt-Tab 창 전환시 나타나는 치명적인 오류 수정 ([#762](https://gitlab.xfce.org/xfce/xfwm4/-/issues/762))\n"
+
+#. type: Plain text
+#: content/about/tour420.md:391
+#, no-wrap
+msgid "<p align=\"right\"><small>Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\".</small></p>\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:392
+#, no-wrap
+msgid "[img-libxfce4ui_about]: //cdn.xfce.org/about/tour/4.20/libxfce4ui_about.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:393
+#, no-wrap
+msgid "[img-thunar_toolbar_new_items]: //cdn.xfce.org/about/tour/4.20/thunar_toolbar_new_items.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:394
+#, no-wrap
+msgid "[img-thunar_toolbar_hamburger]: //cdn.xfce.org/about/tour/4.20/thunar_toolbar_hamburger.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:395
+#, no-wrap
+msgid "[img-thunar_csd_with_menu]: //cdn.xfce.org/about/tour/4.20/thunar_csd_with_menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:396
+#, no-wrap
+msgid "[img-thunar_csd_without_menu]: //cdn.xfce.org/about/tour/4.20/thunar_csd_without_menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:397
+#, fuzzy, no-wrap
+#| msgid "![thunar - symbolic icons][img-thunar_symbolic_icons]\n"
+msgid "[img-thunar_symbolic_icons]: //cdn.xfce.org/about/tour/4.20/thunar_symbolic_icons.png"
+msgstr "![thunar - 심볼릭 아이콘][img-thunar_symbolic_icons]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:398
+#, fuzzy, no-wrap
+#| msgid "![thunar - colored icons][img-thunar_colored_icons]\n"
+msgid "[img-thunar_colored_icons]: //cdn.xfce.org/about/tour/4.20/thunar_colored_icons.png"
+msgstr "![thunar - 색상 아이콘][img-thunar_colored_icons]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:399
+#, fuzzy, no-wrap
+#| msgid "![thunar - file transfer dialog][img-thunar_transfer_dialog]\n"
+msgid "[img-thunar_transfer_dialog]: //cdn.xfce.org/about/tour/4.20/thunar_transfer_dialog.png"
+msgstr "![투나 - 파일 전송 대화 상자][img-thunar_transfer_dialog]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:400
+#, fuzzy, no-wrap
+#| msgid "![thunar - expandable folders][img-thunar_expandable_folders]\n"
+msgid "[img-thunar_expandable_folders]: //cdn.xfce.org/about/tour/4.20/thunar_expandable_folders.png"
+msgstr "![투나 - 확장 폴더][img-thunar_expandable_folders]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:401
+#, no-wrap
+msgid "[img-thunar_split_view]: //cdn.xfce.org/about/tour/4.20/thunar_split_view.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:402
+#, no-wrap
+msgid "[img-appfinder_new]: //cdn.xfce.org/about/tour/4.20/appfinder_new.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:403
+#, no-wrap
+msgid "[img-panel_item_list]: //cdn.xfce.org/about/tour/4.20/panel_item_list.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:404
+#, fuzzy, no-wrap
+#| msgid "![xfce4-power-manager - settings][img-power_manager_settings]\n"
+msgid "[img-power_manager_settings]: //cdn.xfce.org/about/tour/4.20/power_manager_settings.png"
+msgstr "![xfce4-power-manager - 설정][img-power_manager_settings]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:405
+#, no-wrap
+msgid "[img-power_manager_screensaver]: //cdn.xfce.org/about/tour/4.20/power_manager_screensaver.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:406
+#, no-wrap
+msgid "[img-settings_display]: //cdn.xfce.org/about/tour/4.20/settings_display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:407
+#, no-wrap
+msgid "[img-settings_mouse]: //cdn.xfce.org/about/tour/4.20/settings_mouse.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:408
+#, fuzzy, no-wrap
+#| msgid "![xfdesktop - settings - desktop icons][img-xfdesktop_settings_icons]\n"
+msgid "[img-xfdesktop_settings_icons]: //cdn.xfce.org/about/tour/4.20/xfdesktop_settings_icons.png"
+msgstr "![xfdesktop - 설정 - 데스크톱 아이콘][img-xfdesktop_settings_icons]\n"
+
+#. type: Link reference
+#: content/about/tour420.md:409
+#, fuzzy, no-wrap
+#| msgid "![xfdesktop - settings - keyboard shortcuts][img-xfdesktop_settings_shortcuts]\n"
+msgid "[img-xfdesktop_settings_shortcuts]: //cdn.xfce.org/about/tour/4.20/xfdesktop_settings_shortcuts.png"
+msgstr "![xfdesktop - 설정 - 키보드 바로 가기 키][img-xfdesktop_settings_shortcuts]\n"
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour418.md:1
+#, no-wrap
+msgid "Xfce 4.18 tour"
+msgstr "Xfce 4.18 둘러보기"
+
+#. type: Plain text
+#: content/about/tour418.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.18. It only covers improvements made on the (user-visible) surface.\n"
+msgstr "이번 둘러보기에서는 Xfce 4.18의 새 주요 기능을 소개합니다. 표면적으로 (사용자가 볼 수 있는) 개선점만 다루도록 하겠습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:10
+#, no-wrap
+msgid "Check the full [Xfce 4.18 changelog](/download/changelogs/4.18/) for a detailed list of changes.\n"
+msgstr "자세한 변경 내용은 [Xfce 4.18 changelog](/download/changelogs/4.18/) 전체 내용을 확인하세요.\n"
+
+#. type: Title ##
+#: content/about/tour418.md:11
+#, no-wrap
+msgid "Widget Library *(libxfce4ui)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:13
+#, no-wrap
+msgid "Filename Input Dialog"
+msgstr "파일 이름 입력 대화상자"
+
+#. type: Plain text
+#: content/about/tour418.md:16
+#, no-wrap
+msgid "XfceFilenameInput is a comfortable widget for filename input, which was added in order to prevent invalid filenames at an early stage and to give detailed feedback on the concrete problem.\n"
+msgstr "XfceFilenameInput 은 파일 이름 입력에 최적화한 위젯입니다. 잘못된 파일 이름을 입력하지 않게 미리 막아주며, 근본적인 문제에 대해 자세한 답변을 제공해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:18
+#, no-wrap
+msgid "![XfceFilenameInput - trailing whitespaces][img-xfce4ui-new-file-dialog1]\n"
+msgstr "![XfceFilenameInput - 공백 이어치기][img-xfce4ui-new-file-dialog1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:20
+#, no-wrap
+msgid "![XfceFilenameInput - slash][img-xfce4ui-new-file-dialog2]\n"
+msgstr "![XfceFilenameInput - / 문자 입력][img-xfce4ui-new-file-dialog2]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:21
+#, no-wrap
+msgid "Generic Shortcut Editor"
+msgstr "일반 바로가기 편집기"
+
+#. type: Plain text
+#: content/about/tour418.md:24
+#, no-wrap
+msgid "This widget is a shortcut editor which was introduced in order to have a graphical interface to modify component-specific shortcuts. Currently, it is only used inside Thunar, Xfce4-terminal and Mousepad, though other components might follow.\n"
+msgstr "이 위젯은 요소별 바로 가기를 수정하는 그래픽 인터페이스로 도입한 바로 가기 편집기입니다. 현재 투나, Xfce4-터미널, 마우스패드에만 도입하여 다른 요소가 유기적으로 따라오게 했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:26
+#, no-wrap
+msgid "![XfceShortcutsEditor in Thunar][img-xfce4ui-shortcuts-editor]\n"
+msgstr "![투나의 XfceShortcutsEditor][img-xfce4ui-shortcuts-editor]\n"
+
+#. type: Title ##
+#: content/about/tour418.md:27
+#, no-wrap
+msgid "Thumbnail Service *(tumbler)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:30
+#, no-wrap
+msgid "Some performance improvements for the pixbuf-thumbnailer and the scheduler were done. As well now there are multiple overwrite options for the desktop-thumbnailer.\n"
+msgstr "pixbuf-thumbnailer와 스케쥴러의 성능 개선을 완료했습니다. 따라서 이제는 desktop-thumbnailer의 옵션 여러가지를 덮어씁니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:32
+#, no-wrap
+msgid "There is now support for the thumbnail sizes x-large and xx-large, which are very useful for high resolution displays.\n"
+msgstr "이제 고해상도 화면에서 쓸 수 있는 x-large 및 xx-large 크기의 섬네일을 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:34
+#, no-wrap
+msgid "Tumbler and Thunar now support shared thumbnail repositories, like described in the freedesktop.org thumbnail specification. This feature can be used to produce thumbnails for a folder in advance, directly located near the pictures. Like that, the thumbnails don't need to be re-generated for each individual user.\n"
+msgstr "텀블러와 투나에서는 이제 freedesktop.org 섬네일 명세에 기술한 대로 섬네일 저장소를 공유합니다. 이 기능은 앞서, 그림이 들어간 폴더의 섬네일을 미리 만들 때 사용할 수 있습니다. 이에 따라, 개별 사용자에 대해 섬네일을 다시 만들 필요는 없습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:36
+#, no-wrap
+msgid "For more information on shared thumbnails, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html).\n"
+msgstr "공유 미리 보기 그림에 대한 자세한 정보는 [관련 블로그 게시글](http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html)을 확인하세요.\n"
+
+#. type: Title ##
+#: content/about/tour418.md:37 content/about/tour416.md:47
+#: content/about/tour414.md:33 content/about/tour412.md:39
+#: content/about/tour410.md:25 content/about/tour48.md:29
+#: content/about/tour46.md:19
+#, no-wrap
+msgid "Panel *(xfce4-panel)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:40
+#, no-wrap
+msgid "The DateTime and the Clock plugins provided overlapping functionality. In order to prevent parallel development, they have been merged into a single plugin.\n"
+msgstr "날짜/시간 및 시계 플러그인에서는 중복 기능을 제공합니다. 중복 개발을 막기 위해 단일 플러그인으로 병합했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:42
+#, no-wrap
+msgid "![The new 'Clock' panel widget][img-panel-clock1]\n"
+msgstr "![새 '시계' 패널 위젯][img-panel-clock1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:44
+#, no-wrap
+msgid "The new Clock plugin received a new binary time mode now and provides a sleep monitor. Here's a screenshot of all possible layouts which are: Analog, Binary, Digital, Fuzzy and LCD.\n"
+msgstr "새 시계 플러그인에서는 새 이진 시간 모드를 제공하며, 취침 모니터를 제공합니다. 아날로그, 이진, 디지털, 퍼지, LCD 모양새의 스크린샷은 아래와 같습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:46
+#, no-wrap
+msgid "![All possible Clock Modes][img-panel-clock2]\n"
+msgstr "![가능한 모든 시계 모드][img-panel-clock2]\n"
+
+#. type: Title ##
+#: content/about/tour418.md:47 content/about/tour412.md:55
+#: content/about/tour410.md:99 content/about/tour46.md:9
+#, no-wrap
+msgid "Desktop Manager *(xfdesktop)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:50
+#, no-wrap
+msgid "Like in Thunar, the 'Delete' menu entry in the context menu can now be hidden.\n"
+msgstr "투나와 비슷하게 단축 메뉴의 '삭제' 메뉴 항목을 숨길 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:52
+#, no-wrap
+msgid "In order to don't mess the desktop by accident on pressing 'rearrange desktop icons', the user is asked for confirmation now.\n"
+msgstr "'데스크톱 아이콘 재정렬'을 눌러서 데스크톱이 꼬이는 경우를 막기 위해, 이제 사용자에게 확인 창을 제공합니다.\n"
+
+#. type: Title ##
+#: content/about/tour418.md:53 content/about/tour416.md:17
+#: content/about/tour414.md:9
+#, no-wrap
+msgid "Settings Manager *(xfce4-settings)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:56
+#, no-wrap
+msgid "The search entry for xfce4-settings-manager was a bit simplified. Now it will always be shown, without any slider or button.\n"
+msgstr "xfce4-settings-manager 검색 항목을 단순화했습니다. 이제 항상 나타나며, 슬라이더나 단추는 없습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:58
+#, no-wrap
+msgid "![xfce4-settings-manager - the search entry is always shown][img-settings-main-dialog]\n"
+msgstr "![xfce4-settings-manager - 검색 항목을 항상 표시][img-settings-main-dialog]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:62
+#, no-wrap
+msgid "xfce4-display-settings got some minor improvements and the possibility to decide what to do when new displays are connected.\n"
+msgstr "xfce4-display-settings에 부차적 개선을 이루었으며, 화면을 연결했을 때 무얼할 지 결정할 수 있는 선택지를 넣었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:64
+#, no-wrap
+msgid "![xfce4-display-settings - minor improvements][img-settings-display]\n"
+msgstr "![xfce4-display-settings - 부차적 개선][img-settings-display]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:68
+#, no-wrap
+msgid "On selecting a new theme, there is now the option to automatically set a matching xfwm4 theme, if available.\n"
+msgstr "새 테마를 선택하면 xfwm4 테마에 일치하는 자동 설정 옵션이 주어집니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:70
+#, no-wrap
+msgid "![xfce4-appearance-settings - toggle to set matching Xfwm4 theme][img-settings-appearance]\n"
+msgstr "![xfce4-appearance-settings - Xfwm4 테마에 일치하는 설정 전환][img-settings-appearance]\n"
+
+#. type: Title ##
+#: content/about/tour418.md:71 content/about/tour416.md:41
+#: content/about/tour414.md:55 content/about/tour412.md:105
+#: content/about/tour410.md:49 content/about/tour48.md:9
+#: content/about/tour46.md:67
+#, no-wrap
+msgid "File Manager *(thunar)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:76
+#, no-wrap
+msgid "For directories, the count of containing files can now be displayed in the size column. It is now possible to add a 'file creation date' column, and the 'configure columns' dialog can be opened with a right-click on any column head.\n"
+msgstr "디렉터리의 경우, 파일 갯수가 용량 칸에 나타납니다. '파일 생성 일시' 컬럼을 추가하고, '컬럼 설정' 대화상자를 어떤 컬럼 제목에서든 오른쪽 단추로 열 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:78
+#, no-wrap
+msgid "![Thunar - List View - Preferences][img-thunar-listview1]\n"
+msgstr "![투나 - 목록 보기 - 기본 설정][img-thunar-listview1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:80
+#, no-wrap
+msgid "![Thunar - List View - File count and file creation date][img-thunar-listview2]\n"
+msgstr "![투나 - 목록 보기 - 파일 갯수 및 파일 생성 일자][img-thunar-listview2]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:81
+#, no-wrap
+msgid "Image Preview"
+msgstr "그림 미리 보기"
+
+#. type: Plain text
+#: content/about/tour418.md:84
+#, no-wrap
+msgid "Finally, an image preview side pane has been added to Thunar. No, wait, actually two of them! You can choose to either use the 'embedded' mode which will take no extra space, but hide parts of the left side pane. Or you can go for the 'standalone' mode, which will use a separate pane on the right and display as well some basic information.\n"
+msgstr "마지막으로 이미지 보기 가장자리 창을 투나에 추가했습니다. 아뇨, 잠깐만요(?), 기능이 두가지나 들어갔단 말이죠(오우)! 별도의 공간을 차지하지 않지만 좌측 가장자리 창 일부를 숨기는 '내장' 모드가 있는가 하면, 별도의  창을 우측에 띄워 기본 정보와 그림을 같이 나타내는 '독립' 모드도 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:86
+#, no-wrap
+msgid "![Thunar - Embedded Image Preview][img-thunar-preview1]\n"
+msgstr "![투나 - 내장형 그림 미리 보기][img-thunar-preview1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:88
+#, no-wrap
+msgid "![Thunar - Standalone Image Preview][img-thunar-preview2]\n"
+msgstr "![투나 - 독립형 그림 미리 보기][img-thunar-preview2]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:89
+#, no-wrap
+msgid "Undo and Redo"
+msgstr "실행 취소 및 다시 실행"
+
+#. type: Plain text
+#: content/about/tour418.md:92
+#, no-wrap
+msgid "It is now possible to undo basic file operations and to redo them. Undo and Redo can be used for 'move', 'rename', 'trash', 'link' and 'create' operations. Per default, a history of the last 10 operations is stored, though the history length is configurable. Whenever an Undo/Redo is triggered, a notification with few details will be shown.\n"
+msgstr "이제부턴 기본 파일 동작을 취소하거나 다시 실행할 수도 있습니다. 실행 취소와 다시 실행으로 '이동', '이름 바꾸기', '휴지통으로 이동', '링크 만들기', '파일 만들기' 동작을 처리할 수 있습니다. 기본적으로는 최근 동작 10개 기록을 저장하지만, 기록 동작 갯수는 원하는대로 설정할 수 있다구요. 실행 취소/다시 실행을 실행하는 언제든, 몇가지 자세한 내용을 알림으로 알려줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:94
+#, no-wrap
+msgid "![Thunar - Undo and Redo][img-thunar-undo-redo]\n"
+msgstr "![투나 - 실행 취소 및 다시 실행][img-thunar-undo-redo]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:95
+#, no-wrap
+msgid "File Highlight"
+msgstr "파일 강조"
+
+#. type: Plain text
+#: content/about/tour418.md:98
+#, no-wrap
+msgid "Files now can be highlighted by setting the background and the filename to different colors. This can be done via an additional tab, located in the 'properties' dialog. The view menu provides a checkbox in order to enable/disable the feature. Once enabled, files now can be shown in all the colors of the rainbow.\n"
+msgstr "이제 파일을 파일 이름과 배경 색상을 달리 지정하여 강조할 수 있습니다. '속성' 대화상자 추가 탭에서 설정할 수 있습니다. 보기 메뉴에서는 기능을 켜거나 끄는 확인 상자를 제공합니다. 이 기능을 사용하면, 파일을 무지개 색상으로 나타낼 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:100
+#, no-wrap
+msgid "![Thunar - File Highlight Options][img-thunar-hightlight1]\n"
+msgstr "![투나 - 파일 강조 옵션][img-thunar-hightlight1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:102
+#, no-wrap
+msgid "![Thunar - Highlighted files in List View][img-thunar-hightlight2]\n"
+msgstr "![투나 - 목록 보기에서 강조한 파일][img-thunar-hightlight2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:104
+#, no-wrap
+msgid "![Thunar - Highlighted files in Icon View][img-thunar-hightlight3]\n"
+msgstr "![투나 - 아이콘 보기에서 강조한 파일][img-thunar-hightlight3]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:106
+#, no-wrap
+msgid "For more information on file highlight, check the [related blog post](https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html).\n"
+msgstr "파일 강조의 자세한 내용은 [관련 블로그 게시물](https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html)을 확인하세요.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:110
+#, no-wrap
+msgid "It is now possible to customize the toolbar according to your personal needs! An additional dialog has been added for that purpose, on which the visibility and position of specific items can be managed. As well custom actions, which appear for folders can be used in the toolbar.\n"
+msgstr "이제 개인이 원하는대로 도구 모음을 개별 설정할 수가 있어요! 추가 대화상자를 넣어서 뭘 보일지, 항목을 어디에 넣을지를 설정할 수가 있단 말이죠. 개별 동작 또한 추가해서 도구 모음에서 폴더에 어떤 동작을 나타낼 지도 지정할 수가 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:112
+#, no-wrap
+msgid "When the menubar is hidden, an additional toolbar button which can be used to show the menu will be displayed.\n"
+msgstr "메뉴 표시줄을 숨겼을 때, 추가 도구 모음 단추를 넣어 매뉴 표시 여부를 설정할 수 있게 했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:114
+#, no-wrap
+msgid "![Thunar - Toolbar with all configurable Elements][img-thunar-toolbar1]\n"
+msgstr "![투나 - 모든 항목을 설정할 수 있는 도구 모음][img-thunar-toolbar1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:116
+#, no-wrap
+msgid "![Thunar - Toolbar Configuration Dialog][img-thunar-toolbar2]\n"
+msgstr "![투나 - 도구 모음 설정 대화상자][img-thunar-toolbar2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:118
+#, no-wrap
+msgid "![Thunar - Show Menubar button][img-thunar-toolbar3]\n"
+msgstr "![투나 - 메뉴 표시줄 단추 표시][img-thunar-toolbar3]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:120
+#, no-wrap
+msgid "For more information on the configurable toolbar, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html).\n"
+msgstr "도구 모음 설정 세부 정보는 [관련 블로그 게시글](http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html)을 확인하세요.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:124
+#, no-wrap
+msgid "Thunar now provides the option to use split panes. The pane separator can be moved, and its position will be stored. Via a xfconf setting, it is as well possible to have a vertical split.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:126
+#, no-wrap
+msgid "![Thunar - Split Panes][img-thunar-splitpanes]\n"
+msgstr "![투나 - 분할 창][img-thunar-splitpanes]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:130
+#, no-wrap
+msgid "The status bar style was tweaked and '|' is now used to separate entries. Furthermore, it is now possible to customize it by using the context menu.\n"
+msgstr "상태 표시줄 모양새를 다듬었고, '|'은 이제 항목 분할에 사용합니다. 게다가 단축 메뉴 사용시 개별 설정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:132
+#, no-wrap
+msgid "![Thunar - Statusbar Customization][img-thunar-statusbar]\n"
+msgstr "![투나 - 상태 표시줄 개별 설정][img-thunar-statusbar]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:133
+#, no-wrap
+msgid "Recursive Search"
+msgstr "재귀 검색"
+
+#. type: Plain text
+#: content/about/tour418.md:136
+#, no-wrap
+msgid "Thunar has now the possibility to search recursively, directly inside Thunar itself. The search is done in a separate thread and search results are added rapidly into a List View. A new row 'Location' shows where the search results are located, and the context menu provides the option 'Open Item Location' in order to travel there quickly. The preferences dialog provides an option to limit recursive search to local folders, or to disable it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:138
+#, no-wrap
+msgid "![Thunar - Recursive Search][img-thunar-search1]\n"
+msgstr "![투나 - 재귀 검색][img-thunar-search1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:140
+#, no-wrap
+msgid "![Thunar - Recursive Search Preferences][img-thunar-search2]\n"
+msgstr "![투나 - 재귀 검색 기본 설정][img-thunar-search2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:142
+#, no-wrap
+msgid "For more information on the recursive search feature, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html).\n"
+msgstr "재귀 검색 기능의 자세한 정보는 [관련 블로그 게시글](http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html)을 확인하세요.\n"
+
+#. type: Title ###
+#: content/about/tour418.md:143
+#, no-wrap
+msgid "Recently used Files"
+msgstr "최근 사용한 파일"
+
+#. type: Plain text
+#: content/about/tour418.md:146
+#, no-wrap
+msgid "Recently used files now can be accessed in the side pane. Like for the 'Recursive Search' feature, the new 'Location' row can be used in List View. Additionally, for 'Recent' a new row 'Recency' can be added to sort the files by their latest usage.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:148
+#, no-wrap
+msgid "![Thunar - Recently Used Files][img-thunar-recent]\n"
+msgstr "![투나 - 최근 사용한 파일][img-thunar-recent]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:150
+#, no-wrap
+msgid "For more information on 'Recent' in Thunar check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html).\n"
+msgstr "투나에서 제공하는 '최근 항목' 기능의 자세한 정보는 [관련 블로그 게시글](http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html)을 확인하세요.\n"
+
+#. type: Title ###
+#: content/about/tour418.md:151
+#, no-wrap
+msgid "Bookmark Menu"
+msgstr "책갈피 메뉴"
+
+#. type: Plain text
+#: content/about/tour418.md:154
+#, no-wrap
+msgid "In order to keep the 'Go' menu compact, bookmarks have been moved into a separate, new 'Bookmarks' menu. The menu item 'add Bookmark' was rather hidden in the 'send to' menu in Thunar 4.18. As part of the new 'Bookmarks' menu, it is more prominent now.\n"
+msgstr "'이동' 메뉴 를 간소하게 유지할 목적으로, 책갈피 기능을 별도로 분리하여, 새 '책갈피' 메뉴를 만들었습니다. '책갈피 추가' 메뉴 항목은 투나 4.18의 '보내기' 에서 숨겼습니다. 새 '책갈피' 메뉴 부분은 이제 더욱 중요해졌습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:156
+#, no-wrap
+msgid "![Thunar - Bookmarks Menu][img-thunar-bookmarks]\n"
+msgstr "![투나 - 책갈피 메뉴][img-thunar-bookmarks]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:157
+#, no-wrap
+msgid "Trash directory"
+msgstr "휴지통 디렉터리"
+
+#. type: Plain text
+#: content/about/tour418.md:160
+#, no-wrap
+msgid "With the new release, the trash directory provides an info bar which gives easy access to `Empty Trash` and 'Restore' functionality. When using List View, a 'Date Deleted' column will be shown, so that the files can be sorted by deletion date. Via context menu, it is now possible to select 'Restore and Show' in order to automatically open a new tab in the folder of the restored file(s).\n"
+msgstr "새 출시작에서, 휴지통 디렉터리에서는 '휴지통 비우기'와 '복원' 기능에 쉽게 접근할 수 있도록 정보 표시줄을 제공합니다. 목록 보기를 활용할 때 '삭제 일시' 부분이 나타나서, 파일을 삭제 일시 별로 정렬할 수 있게 했습니다. 단축 메뉴에서 '복원 후 나타내기'를 선택하면 복원한 파일의 폴더를 나타내는 새 탭을 자동으로 열어줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:162
+#, no-wrap
+msgid "![Thunar - Trash Infobar and Date Deleted Column][img-thunar-trash]\n"
+msgstr "![투나 - 휴지통 안내 표시줄 및 삭제일시 열][img-thunar-trash]\n"
+
+#. type: Title ###
+#: content/about/tour418.md:163 content/about/tour416.md:23
+#, no-wrap
+msgid "Default Applications"
+msgstr "기본 프로그램"
+
+#. type: Plain text
+#: content/about/tour418.md:166
+#, no-wrap
+msgid "The management to set/unset default applications for specific mime types was improved. The context menu got a dedicated item 'Set Default Application' which will open the 'ApplicationChooserDialog' with 'use as default' preselected. The dialog now has a section 'Default Application' in order to make clear which default application currently is set. If you want to remove applications from the list, right click it and select 'forget association'.\n"
+msgstr "MIME 형식별 기본 프로그램 설정/해제 관리 기능을 개선했습니다. 단축 메뉴에 '기본 프로그램 설정' 항목을 넣어 '기본으로 사용'으로 미리 선택한 'ApplicationShooserDialog'를 열 수 있습니다. 대화 상자에서는 이미 선택한 '기본 프로그램'을 나타내어 현재 설정한 기본 프로그램이 어떤 프로그램인지 보여줍니다. 만약 목록에서 프로그램을 지우고 싶다면, 해당 항목에 커서를 올려둔 후 오른쪽 단추를 눌러 '관계 지우기' 를 선택합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:168
+#, no-wrap
+msgid "![Thunar - Context Menu Entry to set Default Application][img-thunar-default-application1]\n"
+msgstr "![투나 - 기본 프로그램 설정 단축 메뉴 항목][img-thunar-default-application1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:170
+#, no-wrap
+msgid "![Thunar - Revamped Application Chooser Dialog][img-thunar-default-application2]\n"
+msgstr "![투나 - 프로그램 선택 대화상자 개선][img-thunar-default-application2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:174
+#, no-wrap
+msgid "It is now possible to arrange custom actions in cascading submenus. Just enter the same submenu name for a custom action in order to place it into the same menu. If you require multiple menu levels, you can achieve that by using '/' in the path of the 'Submenu' entry.\n"
+msgstr "이제 단계별 하위 메뉴를 구성하여 개별 동작을 정돈 구성할 수 있습니다. 개별 동작에 대해 동일한 하위 메뉴 이름을 입력하여 해당 메뉴를 동일한 메뉴로 들억가게 합니다. 다중 메뉴 수준이 필요하다면, '하위 메뉴' 항목에 '/' 문자를 사용하여 경로 형식으로 기록하면 됩니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:176
+#, no-wrap
+msgid "![Thunar - Custom Action Submenu][img-thunar-uca-submenu1]\n"
+msgstr "![투나 - 개별 동작 하위 메뉴][img-thunar-uca-submenu1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:178
+#, no-wrap
+msgid "![Thunar - Custom Action Configuration Dialog][img-thunar-uca-submenu2]\n"
+msgstr "![투나 - 개별 동작 설정 대화상자][img-thunar-uca-submenu2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:182
+#, no-wrap
+msgid "The thumbnail settings in the preferences dialog got grouped together, and meanwhile it is possible to limit the file size for which thumbnails should be generated. That should mitigate possible performance issues by preventing thumbnail generation for huge video files.\n"
+msgstr "기본 설정 대화 상자에서의 미리 보기 그림 설정을 한데 묶었으며, 이와 더불어 미리 보기 그림을 만들 대상 파일의 크기를 제한할 수 있게 됐습니다. 이렇게 하면 큰 동영상 파일에서 미리 보기 그림을 만들 때 나타날 수 있는 성능 문제를 완화합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:184
+#, no-wrap
+msgid "![Thunar - Thumbnail Preferences][img-thunar-preferences1]\n"
+msgstr "![투나 - 미리 보기 그림(섬네일) 기본 설정][img-thunar-preferences1]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:186
+#, no-wrap
+msgid "File transfer operations optionally can use *.partial~ as an intermediate file now. After a transfer operation, there is now the option to verify the file checksums in order to make sure that no single bit got corrupted. Note that the checksum feature will require some extra time during copy when activated.\n"
+msgstr "파일 전송 동작 진행시 별도로 *.partial~ 중간 파일을 사용할 수 있습니다. 전송 동작을 처리한 다음 일부 비트 정보가 깨졌는지 파일 체크섬을 검증하는 옵션을 사용할 수 있습니다. 참고로 체크섬 기능을 켰을 경우 추가 시간이 필요합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:188
+#, no-wrap
+msgid "![Thunar - File Transfer Preferences][img-thunar-preferences2]\n"
+msgstr "![투나 - 파일 전송 기본 설정][img-thunar-preferences2]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:190
+#, no-wrap
+msgid "For more information on the new file transfer options, check the [related blog post](https://dev.ikx.kr/GSOC-5th/).\n"
+msgstr "새 파일 전송 옵션의 상세 정보는 [관련 블로그 게시글](https://dev.ikx.kr/GSOC-5th/)을 확인하세요.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:192
+#, no-wrap
+msgid "A checkbox was added in order to allow running shell scripts. In Thunar 4.18 it only was possible to change that behavior by changing a hidden setting. Use that option with caution!\n"
+msgstr "확인 상자를 추가했습니다. 셸 스크립트 실행을 허용할 수가 있죠. 투나 4.18에서는 숨김 설정을 바꾸었을 경우에만 가능합니다. 조심해서 사용하세요!\n"
+
+#. type: Plain text
+#: content/about/tour418.md:194
+#, no-wrap
+msgid "![Thunar - Script Execution Preferences][img-thunar-preferences3]\n"
+msgstr "![투나 - 스크립트 실행 기본 설정][img-thunar-preferences3]\n"
+
+#. type: Plain text
+#: content/about/tour418.md:196
+#, no-wrap
+msgid "There is now the possibility to restore tabs on startup, and to show the full directory path in the tab title.\n"
+msgstr "데스크톱을 시작할 때 탭을 복원할 수 있는 방법이 있으며, 탭 제목에 전체 디렉터리 경로도 나타냅니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:198
+#, no-wrap
+msgid "![Thunar - Tab and Window Preferences][img-thunar-preferences4]\n"
+msgstr "![투나 - 탭 및 창 기본 설정][img-thunar-preferences4]\n"
+
+#. type: Title ##
+#: content/about/tour418.md:199 content/about/tour410.md:17
+#: content/about/tour46.md:131
+#, no-wrap
+msgid "Application Finder *(xfce4-appfinder)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:201
+#, no-wrap
+msgid "Configuration"
+msgstr "설정"
+
+#. type: Plain text
+#: content/about/tour418.md:204
+#, no-wrap
+msgid "Application Finder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.\n"
+msgstr "프로그램 탐색기에서 하이브리드 그래픽 카드를 장착한 시스템에서 쓸 수 있는 'PrefersNonDefaultGPU' 속성을 지원하기 시작했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:206
+#, no-wrap
+msgid "Environment variables are now parsed when passed in collapsed mode.\n"
+msgstr "이제 축소 모드에서 환경 변수를 해석합니다.\n"
+
+#. type: Title ###
+#: content/about/tour418.md:207
+#, no-wrap
+msgid "Appearance"
+msgstr "모양새"
+
+#. type: Plain text
+#: content/about/tour418.md:210
+#, no-wrap
+msgid "An option to hide the window decorations was added.\n"
+msgstr "창 장식 숨김 옵션을 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:212
+#, no-wrap
+msgid "![xfce4-appfinder without window decorations][img-appfinder]\n"
+msgstr "![창 장식을 뺀 xfce4-appfinder][img-appfinder]\n"
+
+#. type: Title ##
+#: content/about/tour418.md:213 content/about/tour412.md:9
+#: content/about/tour410.md:107 content/about/tour46.md:43
+#, no-wrap
+msgid "Window Manager *(xfwm4)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:215
+#, no-wrap
+msgid "Workspaces"
+msgstr "작업 공간"
+
+#. type: Plain text
+#: content/about/tour418.md:218
+#, no-wrap
+msgid "Workspace setting will now work as well with other window managers.\n"
+msgstr "작업 공간 설정은 이제 다른 창 관리자처럼 동적합니다.\n"
+
+#. type: Title ###
+#: content/about/tour418.md:219
+#, no-wrap
+msgid "Compositor"
+msgstr "컴포지터"
+
+#. type: Plain text
+#: content/about/tour418.md:222
+#, no-wrap
+msgid "The compositor now supports adaptive vsync with GLX.\n"
+msgstr "컴포지터에서는 이제 GLX의 적응형 vsync 값을 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:228
+#, no-wrap
+msgid "Improved support for UI scaling and fix for many blurry icons in the core components when scaling is used. This will be particularly useful for Hi DPI screens.\n"
+msgstr "인터페이스 비율 조정 지원을 개선하여 핵심 구성요소에 들어간 흐릿흐릿한 아이콘을 또렷하게 나타내도록 수정했습니다. HiDPI 화면 해상도를 사용할 때 쓸만합니다.\n"
+
+#. type: Title ###
+#: content/about/tour418.md:229
+#, no-wrap
+msgid "Window Header Bars"
+msgstr "창 헤더바"
+
+#. type: Plain text
+#: content/about/tour418.md:232
+#, no-wrap
+msgid "All header bars of Xfce Windows/Dialogs by default will be drawn by the window manager now (Xfwm4). Some dialogs optionally support 'GtkHeaderBar' (CSD) which can be enabled via a xfconf setting.\n"
+msgstr "이제 창 관리자(xfwm4)에서 기본적으로 xfce 창/대화상자의 모든 헤더바를 나타냅니다. 일부 대화상자는 xfconf 설정으로 나타낼 수 있는  'GtkHeaderBar'(CSD)를 별도로 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour418.md:234
+#, no-wrap
+msgid "![xfce-appearance-settings - Preference to enable GtkHeaderBar][img-general-gtkheaderbar]\n"
+msgstr "![xfce-appearance-settings - GtkHeaderBar를 켜는 기본 설정][img-general-gtkheaderbar]\n"
+
+#. type: Link reference
+#: content/about/tour418.md:235
+#, no-wrap
+msgid "[img-xfce4ui-new-file-dialog1]: //cdn.xfce.org/about/tour/4.18/xfce4ui-new-file-dialog1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:236
+#, no-wrap
+msgid "[img-xfce4ui-new-file-dialog2]: //cdn.xfce.org/about/tour/4.18/xfce4ui-new-file-dialog2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:237
+#, no-wrap
+msgid "[img-xfce4ui-shortcuts-editor]: //cdn.xfce.org/about/tour/4.18/xfce4ui-shortcuts-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:238
+#, no-wrap
+msgid "[img-panel-clock1]: //cdn.xfce.org/about/tour/4.18/panel-clock1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:239
+#, no-wrap
+msgid "[img-panel-clock2]: //cdn.xfce.org/about/tour/4.18/panel-clock2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:240
+#, no-wrap
+msgid "[img-settings-main-dialog]: //cdn.xfce.org/about/tour/4.18/settings-main-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:241
+#, no-wrap
+msgid "[img-settings-display]: //cdn.xfce.org/about/tour/4.18/settings-display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:242
+#, no-wrap
+msgid "[img-settings-appearance]: //cdn.xfce.org/about/tour/4.18/settings-appearance.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:243
+#, no-wrap
+msgid "[img-thunar-listview1]: //cdn.xfce.org/about/tour/4.18/thunar-listview1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:244
+#, no-wrap
+msgid "[img-thunar-listview2]: //cdn.xfce.org/about/tour/4.18/thunar-listview2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:245
+#, no-wrap
+msgid "[img-thunar-preview1]: //cdn.xfce.org/about/tour/4.18/thunar-preview1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:246
+#, no-wrap
+msgid "[img-thunar-preview2]: //cdn.xfce.org/about/tour/4.18/thunar-preview2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:247
+#, no-wrap
+msgid "[img-thunar-undo-redo]: //cdn.xfce.org/about/tour/4.18/thunar-undo-redo.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:248
+#, no-wrap
+msgid "[img-thunar-hightlight1]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:249
+#, no-wrap
+msgid "[img-thunar-hightlight2]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:250
+#, no-wrap
+msgid "[img-thunar-hightlight3]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:251
+#, no-wrap
+msgid "[img-thunar-toolbar1]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:252
+#, no-wrap
+msgid "[img-thunar-toolbar2]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:253
+#, no-wrap
+msgid "[img-thunar-toolbar3]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:254
+#, no-wrap
+msgid "[img-thunar-splitpanes]: //cdn.xfce.org/about/tour/4.18/thunar-splitpanes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:255
+#, no-wrap
+msgid "[img-thunar-statusbar]: //cdn.xfce.org/about/tour/4.18/thunar-statusbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:256
+#, no-wrap
+msgid "[img-thunar-search1]: //cdn.xfce.org/about/tour/4.18/thunar-search1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:257
+#, no-wrap
+msgid "[img-thunar-search2]: //cdn.xfce.org/about/tour/4.18/thunar-search2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:258
+#, no-wrap
+msgid "[img-thunar-recent]: //cdn.xfce.org/about/tour/4.18/thunar-recent.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:259
+#, no-wrap
+msgid "[img-thunar-bookmarks]: //cdn.xfce.org/about/tour/4.18/thunar-bookmarks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:260
+#, no-wrap
+msgid "[img-thunar-trash]: //cdn.xfce.org/about/tour/4.18/thunar-trash.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:261
+#, no-wrap
+msgid "[img-thunar-default-application1]: //cdn.xfce.org/about/tour/4.18/thunar-default-application1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:262
+#, no-wrap
+msgid "[img-thunar-default-application2]: //cdn.xfce.org/about/tour/4.18/thunar-default-application2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:263
+#, no-wrap
+msgid "[img-thunar-uca-submenu1]: //cdn.xfce.org/about/tour/4.18/thunar-uca-submenu1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:264
+#, no-wrap
+msgid "[img-thunar-uca-submenu2]: //cdn.xfce.org/about/tour/4.18/thunar-uca-submenu2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:265
+#, no-wrap
+msgid "[img-thunar-preferences1]: //cdn.xfce.org/about/tour/4.18/thunar-preferences1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:266
+#, no-wrap
+msgid "[img-thunar-preferences2]: //cdn.xfce.org/about/tour/4.18/thunar-preferences2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:267
+#, no-wrap
+msgid "[img-thunar-preferences3]: //cdn.xfce.org/about/tour/4.18/thunar-preferences3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:268
+#, no-wrap
+msgid "[img-thunar-preferences4]: //cdn.xfce.org/about/tour/4.18/thunar-preferences4.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:269
+#, no-wrap
+msgid "[img-appfinder]: //cdn.xfce.org/about/tour/4.18/appfinder.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:270
+#, no-wrap
+msgid "[img-general-gtkheaderbar]: //cdn.xfce.org/about/tour/4.18/general-gtkheaderbar.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour416.md:1
+#, no-wrap
+msgid "Xfce 4.16 tour"
+msgstr "Xfce 4.16 둘러보기"
+
+#. type: Plain text
+#: content/about/tour416.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the (user-visible) surface; for the full list of changes, see the [changelog](/download/changelogs/4.16/).\n"
+msgstr "이 둘러보기 페이지에서는 Xfce 4.16의 새 주요 기능을 소개합니다. 이 페이지에서는 표면적인 (사용자가 볼 수 있는) 개선 사항만 다룹니다. 바뀐 내용 전부를 보시려면 [changelog](/download/changelogs/4.16/)를 살펴보십시오.\n"
+
+#. type: Title ##
+#: content/about/tour416.md:9
+#, no-wrap
+msgid "Visual identity: New icons and palette"
+msgstr "시각 독자성: 새 아이콘과 색상표"
+
+#. type: Plain text
+#: content/about/tour416.md:12
+#, no-wrap
+msgid "In order to make Xfce shine a little more out of the box and to strengthen its visual identity we created new icons for all of our core applications and based them on a shared palette to ensure consistency. We also set some further (implicit) design constraints, loosely following Adwaita's principles.\n"
+msgstr "Xfce를 좀 더 특별히 빛나게 하고, 독자적 시각 정체성을 강화하려 핵심 프로그램에 모든 새 아이콘을 도입하였고, 일관성을 확보하기 위해 공유 색상 배치를 도입했습니다. 또한 애드와이타의 기본 디자인 개념을 살짝 넣어 (암시적) 디자인 일관성을 확보했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:14
+#, no-wrap
+msgid "![The Xfce palette][img-palette]\n"
+msgstr "![Xfce 색상표][img-palette]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:16
+#, no-wrap
+msgid "![New upstream Xfce icons, coming in many sizes for sharp appearance][img-upstream-icons]\n"
+msgstr "![또렷한 모양새를 나타내는 다양한 크기의 새 업스트림 Xfce 아이콘][img-upstream-icons]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:20
+#, no-wrap
+msgid "The Settings Manager itself received a visual refresh of its filter box, which can now be hidden permanently. At the same time the search capabilities of the filter box were improved by searching the descriptive 'Comments' part of each dialog's launcher (aka [.desktop](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)) file.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:22
+#, no-wrap
+msgid "![Visually cleaner, more powerful filter box][img-settings-manager]\n"
+msgstr "![더욱 깔끔한 모양새로, 강력해진 검색 상자][img-settings-manager]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:26
+#, no-wrap
+msgid "This new dialog represents a merger between the previously available 'Mime Settings' and the 'Preferred Applications' dialogs. Consolidating both in one place means users have an easier time setting default applications to handle certain file types.\n"
+msgstr "이 새 대화상자는 'MIME 설정' 과 '기본 프로그램' 대화상자를 합친 모양새입니다. 두 기능을 하나로 모아서 사용자가 각 파일 형식을 처리할 기본 프로그램을 쉽게 설정하게 했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:28
+#, no-wrap
+msgid "![The new Default Applications dialog][img-default-applications]\n"
+msgstr "![새 기본 프로그램 대화상자][img-default-applications]\n"
+
+#. type: Title ###
+#: content/about/tour416.md:29 content/about/tour414.md:17
+#, no-wrap
+msgid "Display Dialog"
+msgstr "대화상자 표시"
+
+#. type: Plain text
+#: content/about/tour416.md:32
+#, no-wrap
+msgid "To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the preferred mode of a display is now marked with an asterisk and aspect ratios are shown along display resolutions.\n"
+msgstr "다양한 크기와 해상도로 도입하는 고해상도 화면을 지원하기 위해 X11의 RandR에 기반한 화면크기 비례 조정 기능을 추가했습니다. 게다가 화면 기본 모드는 별표로 나타내며, 종횡비를 화면 해상도와 함께 나타냅니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:34
+#, no-wrap
+msgid "![Fractional scaling support][img-display-dialog]\n"
+msgstr "![화면크기 비례 조정 지원][img-display-dialog]\n"
+
+#. type: Title ###
+#: content/about/tour416.md:35
+#, no-wrap
+msgid "Keyboard Shortcuts"
+msgstr "키보드 바로 가기 키"
+
+#. type: Plain text
+#: content/about/tour416.md:38
+#, no-wrap
+msgid "In order to make things easier for our users we added more default keyboard shortcuts out of the box, for instance for window tiling or to open Thunar. The keyboard shortcuts dialog itself was also visually updated.\n"
+msgstr "사용자가 작업 환경을 더욱 쉽게 활용할 수 있도록 기본 바로가기 키 설정을 특별히 추가하였습니다. 예를 들면, 창 배치, 투나 열기 등에 바로가기 키 설정을 할당했습니다. 바로가기 키 대화상자 자체도 모양새를 개선했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:40
+#, no-wrap
+msgid "![Visually updated keyboard shortcuts dialog][img-keyboard-shortcuts]\n"
+msgstr "![키보드 바로 가기 대화 상자가 시각적으로 업데이트 되었습니다.][img-keyboard-shortcuts]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:44
+#, no-wrap
+msgid "In Thunar's copy and move dialogs users can now easily pause the respective file operation. Furthermore support for queued file transfer, remembering view settings per folder and support for transparency in Gtk themes was added.\n"
+msgstr "투나의 복사와 이동 대화 상자에서 사용자는 이제 각각의 파일 작업들을 쉽게 일시 중지할 수 있습니다. 또한 파일 전송 대기열을 지원하고, 폴더 보기 폴더별 설정을 기억하며, Gtk 테마의 투명도 지원이 추가되었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:46
+#, no-wrap
+msgid "![Thunar can now pause copying/moving files][img-thunar-copy]\n"
+msgstr "![이제 투나가 파일의 복사/이동 중 일시정지를 할 수 있습니다.][img-thunar-copy]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:50
+#, no-wrap
+msgid "The panel received quite a few noteworthy updates, an animation for autohide and intellihide, a new 'Status Tray' plugin that combines both legacy Systray item support with modern StatusNotifier item support, dark mode support, launchers showing additional actions on right-click, window buttons offering to 'Launch a new instance...' and much more.\n"
+msgstr "패널은 자동 숨김과 intellihide를 위한 애니매이션, 이전 시스템의 작업 표시줄과 현재의 상태 알림을 모두 지원하는 새로운 상태 표시줄 플러그인, 다크 모드 지원, 우클릭 시 추가 동작을 보여주는 런처, '새로운 인스턴스 시작'을 제공하는 윈도우 버튼 등과 그 외 꽤나 주목할 만한 많은 업데이트들을 받았습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:52
+#, no-wrap
+msgid "![Dark mode enabled in the panel's settings dialog][img-panel-dark]\n"
+msgstr "![패널 세팅 대화 상자에서 다크 모드가 가능해졌습니다.][img-panel-dark]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:54
+#, no-wrap
+msgid "![The new statustray plugin][img-panel-statustray]\n"
+msgstr "![새 상태 표시줄 플러그인][img-panel-statustray]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:56
+#, no-wrap
+msgid "![Autohide animation][img-panel-autohide]\n"
+msgstr "![자동 숨김 움직임][img-panel-autohide]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:58
+#, no-wrap
+msgid "![Launch a new instance!][img-panel-launch]\n"
+msgstr "![새로운 인스턴스를 시작하세요!][img-panel-launch]\n"
+
+#. type: Title ##
+#: content/about/tour416.md:59
+#, no-wrap
+msgid "About Dialog *(xfce4-about)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:62
+#, no-wrap
+msgid "Not only was the Xfce tab reworked to be more visually appealing and easily parsable, a separate tab showing basic information about the user's system was also added.\n"
+msgstr "Xfce 탭은 시각적으로 더 보기 좋고 알아보기 쉽게 수정되었을 뿐만 아니라, 사용자의 시스템에 대한 기본적인 정보를 보여주는 별도의 탭도 추가되었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:64
+#, no-wrap
+msgid "![About Xfce][img-about-xfce]\n"
+msgstr "![Xfce 정보][img-about-xfce]\n"
+
+#. type: Plain text
+#: content/about/tour416.md:66
+#, no-wrap
+msgid "![About System][img-about-system]\n"
+msgstr "![시스템 정보][img-about-system]\n"
+
+#. type: Title ##
+#: content/about/tour416.md:67 content/about/tour414.md:69
+#: content/about/tour412.md:81
+#, no-wrap
+msgid "Power Manager *(xfce4-power-manager)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:70
+#, no-wrap
+msgid "The settings dialog of the power manager was cleaned up and shows either 'on battery' or 'plugged in' settings as opposed to both in a huge table.\n"
+msgstr "전원 관리자 설정 대화 상자는 더 깔끔해졌고 '배터리 전원 사용' 또는 '전원에 연결됨' 설정이 큰 테이블에 각각 표시됩니다.\n"
+
+#. type: Plain text
+#: content/about/tour416.md:72
+#, no-wrap
+msgid "![Power Manager settings][img-powermanager]\n"
+msgstr "![전원 관리자 설정][img-powermanager]\n"
+
+#. type: Link reference
+#: content/about/tour416.md:73
+#, no-wrap
+msgid "[img-palette]: //cdn.xfce.org/about/tour/4.16/palette.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:74
+#, no-wrap
+msgid "[img-upstream-icons]: //cdn.xfce.org/about/tour/4.16/upstream-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:75
+#, no-wrap
+msgid "[img-settings-manager]: //cdn.xfce.org/about/tour/4.16/settings-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:76
+#, no-wrap
+msgid "[img-default-applications]: //cdn.xfce.org/about/tour/4.16/default-applications.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:77
+#, no-wrap
+msgid "[img-display-dialog]: //cdn.xfce.org/about/tour/4.16/display-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:78
+#, no-wrap
+msgid "[img-keyboard-shortcuts]: //cdn.xfce.org/about/tour/4.16/keyboard-shortcuts.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:79
+#, no-wrap
+msgid "[img-thunar-copy]: //cdn.xfce.org/about/tour/4.16/thunar-copy.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:80
+#, no-wrap
+msgid "[img-panel-dark]: //cdn.xfce.org/about/tour/4.16/panel-dark.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:81
+#, no-wrap
+msgid "[img-panel-statustray]: //cdn.xfce.org/about/tour/4.16/panel-statustray.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:82
+#, no-wrap
+msgid "[img-panel-autohide]: //cdn.xfce.org/about/tour/4.16/panel-autohide.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:83
+#, no-wrap
+msgid "[img-panel-launch]: //cdn.xfce.org/about/tour/4.16/panel-launch.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:84
+#, no-wrap
+msgid "[img-about-xfce]: //cdn.xfce.org/about/tour/4.16/about-xfce.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:85
+#, no-wrap
+msgid "[img-about-system]: //cdn.xfce.org/about/tour/4.16/about-system.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:86
+#, no-wrap
+msgid "[img-powermanager]: //cdn.xfce.org/about/tour/4.16/powermanager.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour414.md:1
+#, no-wrap
+msgid "Xfce 4.14 tour"
+msgstr "Xfce 4.14 둘러보기"
+
+#. type: Plain text
+#: content/about/tour414.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.14. It only covers improvements made on the surface; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "이 둘러보기 페이지에서는 Xfce 4.14의 새로운 주요 기능을 소개합니다. 이 페이지에서는 겉으로 보이는 개선 내용만을 다룹니다. 바뀐 내용 전부를 보시려면 [changelogs](/download/changelogs/)를 살펴보십시오.\n"
+
+#. type: Title ###
+#: content/about/tour414.md:11
+#, no-wrap
+msgid "Color Profiles Dialog"
+msgstr "색상 프로파일 대화상자"
+
+#. type: Plain text
+#: content/about/tour414.md:14
+#, no-wrap
+msgid "A new dialog for setting [color profiles](https://docs.xfce.org/xfce/xfce4-settings/4.14/color) for monitors, printers and scanners was introduced. It acts as a frontend to various daemons that talk directly to colord, e.g. saned (scanners), cupsd (printers) or xiccd (monitors).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:16
+#, no-wrap
+msgid "![The new color profiles dialog][img-color-profiles]\n"
+msgstr "![새 색상 프로파일 대화상자][img-color-profiles]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:20
+#, no-wrap
+msgid "Several improvements were made to the [display dialog](https://docs.xfce.org/xfce/xfce4-settings/4.14/display). Apart from tweaks to the user interface to make the interaction more intuitive (introducing display numbering, showing a primary indicator with quick access to panel, notification and desktop settings etc.) a feature to save and restore complete display profiles was added. If a single profile exists for a setup, the Xfce settings daemon will automatically enable it. If multiple profiles exist, it will pop up the minimal dialog and offer all profiles in addition to the previously available pre-sets (internal only, mirror, extend and external only).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:22
+#, no-wrap
+msgid "![The primary indicator][img-display-general]\n"
+msgstr "![우선 순위 지표][img-display-general]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:24
+#, no-wrap
+msgid "![The display profile list][img-display-advanced]\n"
+msgstr "![디스플레이 프로파일 목록][img-display-advanced]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:26
+#, no-wrap
+msgid "![The improved minimal dialog - in this case only showing one profile only which never happens anymore now ;)][img-display-minimal]\n"
+msgstr "![개선된 최소 대화 상자 - 이 경우에 오직 하나의 프로필만을 보여주는 건 이제 절대 일어나지 않을 것입니다 ;)][img-display-minimal]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:27
+#, no-wrap
+msgid "Accessibility"
+msgstr "접근성"
+
+#. type: Plain text
+#: content/about/tour414.md:30
+#, no-wrap
+msgid "One [accessibility](https://docs.xfce.org/xfce/xfce4-settings/4.14/accessibility) feature that people coming from other desktop environments or operating systems were still missing is to set a (custom) keyboard shortcut (by default: Super+F1) to visually locate the mouse pointer. This feature was added in Xfce 4.14.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:32
+#, no-wrap
+msgid "![The mouse pointer location animation][img-locate-mouse]\n"
+msgstr "![마우스 포인터 위치 표시 움직임 ][img-locate-mouse]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:35
+#, no-wrap
+msgid "General: Icon size"
+msgstr "일반: 아이콘 크기"
+
+#. type: Plain text
+#: content/about/tour414.md:38
+#, no-wrap
+msgid "A new feature that we introduced in the [panel](https://docs.xfce.org/xfce/xfce4-panel/4.14/start) is being able to control the icon size of all plugins. ('All' may not be technically correct, as not all plugins support the new API as of now, but now they *can*. Plus the Window buttons plugin is an exception, because libwnck doesn't allow anything other than 16px or 32px.) This means setups that were previously impossible, because icons would upscale automatically according to size-steps hard-coded in the panel, are now possible (see below).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:40
+#, no-wrap
+msgid "![A 32px tall panel with 16px icons][img-panel-iconsize]\n"
+msgstr "![16픽셀 아이콘이 있는 32픽셀 높이 패널][img-panel-iconsize]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:41
+#, no-wrap
+msgid "Window buttons: Grouping"
+msgstr "창 단추: 모으기"
+
+#. type: Plain text
+#: content/about/tour414.md:44
+#, no-wrap
+msgid "Grouping was improved in the [Window buttons plugin](https://docs.xfce.org/xfce/xfce4-panel/4.14/tasklist), both functionally (by improving the matching and icon-finding) and visually by providing a new group indicator that is less likely to clash with window titles containing an enumeration in brackets.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:46
+#, no-wrap
+msgid "![The new group indicator (two terminal windows)][img-panel-group]\n"
+msgstr "![새로운 그룹 지표(두 개의 윈도우 터미널)][img-panel-group]\n"
+
+#. type: Title ##
+#: content/about/tour414.md:47
+#, no-wrap
+msgid "Session *(xfce4-session)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:49 content/about/tour412.md:89
+#, no-wrap
+msgid "Settings Dialog"
+msgstr "설정 대화상자"
+
+#. type: Plain text
+#: content/about/tour414.md:52
+#, no-wrap
+msgid "As soon as a [session](https://docs.xfce.org/xfce/xfce4-session/4.14/preferences) has been saved a new tab is dynamically added to the settings dialog displaying all saved sessions and allowing to delete one or all of them. This should make it way more discoverable for users if they actually have saved sessions that influence the startup behavior - previously this had to be checked manually in the filesystem.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:54
+#, no-wrap
+msgid "![The settings dialog after saving a session][img-session-saved]\n"
+msgstr "![세션 저장 후 설정 대화 상자][img-session-saved]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:57
+#, no-wrap
+msgid "Pathbar"
+msgstr "경로 표시줄"
+
+#. type: Plain text
+#: content/about/tour414.md:60
+#, no-wrap
+msgid "Up to Xfce 4.12 [Thunar](https://docs.xfce.org/xfce/thunar/4.14/start) offered two options for the pathbar/locationbar. The best of both worlds has now been mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. folders), an easily accessible way to hand-type a path as well as an improved look.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:62
+#, no-wrap
+msgid "![Thunar's new pathbar][img-thunar-pathbar]\n"
+msgstr "![투나의 새 경로 표시줄][img-thunar-pathbar]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:63
+#, no-wrap
+msgid "Folder Thumbnailer"
+msgstr "폴더 미리보기 그림 표시"
+
+#. type: Plain text
+#: content/about/tour414.md:66
+#, no-wrap
+msgid "Same as on the Desktop you can now save an image with the name 'folder.jpg' in a folder and get it displayed as its icon in the File Manager. Note: [Please read the docs](https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders) on how to set this up (if your distribution hasn't enabled it by default).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:68
+#, no-wrap
+msgid "![Thunar's new folder thumbnails][img-thunar-folder-jpg]\n"
+msgstr "![투나의 새로운 폴더 썸네일][img-thunar-folder-jpg]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:71 content/about/tour414.md:85
+#: content/about/tour412.md:83
+#, no-wrap
+msgid "Panel Plugin"
+msgstr "패널 플러그인"
+
+#. type: Plain text
+#: content/about/tour414.md:74
+#, no-wrap
+msgid "The [Power Manager's panel plugin](https://docs.xfce.org/xfce/xfce4-power-manager/4.14/panel-plugin) supports symbolic icons now and uses the standard UPower icon names (making it more compatible with all icon themes). It also shows an indicator if applications inhibit power management functions like suspend (when power is low) or display dimming (after a defined timeout).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:76
+#, no-wrap
+msgid "![Parole's video playback is inhibiting power management][img-xfpm-inhibitors]\n"
+msgstr "![전원 관리자 동작을 막는 빠롤 동영상 재생기][img-xfpm-inhibitors]\n"
+
+#. type: Title ##
+#: content/about/tour414.md:77
+#, no-wrap
+msgid "Notification Service *(xfce4-notifyd)*"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:79 content/about/tour44.md:123
+#, no-wrap
+msgid "Settings"
+msgstr "설정"
+
+#. type: Plain text
+#: content/about/tour414.md:82
+#, no-wrap
+msgid "Several new features have been added in Xfce's [Notification service](https://docs.xfce.org/apps/notifyd/start), including a notifications log, the possibility to disable notifications per application, a global 'Do Not Disturb' mode, which inhibits all notifications, and finally a new animation ('slide out').\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:84
+#, no-wrap
+msgid "![The new notification animation 'slide out'][img-notifyd-slideout]\n"
+msgstr "![새 알림 표시 움직임 '슬라이드 아웃'][img-notifyd-slideout]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:88
+#, no-wrap
+msgid "Furthermore a new panel plugin was added which provides quick access to both the 'Do Not Disturb' mode as well as the log of recent notifications.\n"
+msgstr "또한 '방해 금지' 모드와 최근 알림 로그에 모두 빠르게 액세스할 수 있게 해 주는 새로운 패널 플러그인이 추가되었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour414.md:90
+#, no-wrap
+msgid "![The new panel plugin][img-notifyd-panel]\n"
+msgstr "![새 패널 플러그인][img-notifyd-panel]\n"
+
+#. type: Title ###
+#: content/about/tour414.md:91 content/about/tour412.md:141
+#, no-wrap
+msgid "Media Player *(parole)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:93
+#, no-wrap
+msgid "Mini Mode"
+msgstr "최소화 모드"
+
+#. type: Plain text
+#: content/about/tour414.md:96
+#, no-wrap
+msgid "[Parole](https://docs.xfce.org/apps/parole/start) now features a 'Mini Mode', where the interface is simplified to just display the album artwork and can be positioned over other windows without getting in the way.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:98
+#, no-wrap
+msgid "![Just right-click anywhere in the player window to select 'Mini Mode'...][img-parole-normal-mode]\n"
+msgstr "!['미니 모드'를 선택하려면 플레이어 창의 아무 곳이나 우클릭하면 됩니다.][img-parole-normal-mode]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:100
+#, no-wrap
+msgid "![Afterwards, enjoy a truly minimalistic playback experience!][img-parole-mini-mode]\n"
+msgstr "![그 후에, 진정한 미니멀리즘 재생 환경을 즐기세요!][img-parole-mini-mode]\n"
+
+#. type: Title ##
+#: content/about/tour414.md:101
+#, no-wrap
+msgid "Screensaver *(xfce4-screensaver)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:103
+#, no-wrap
+msgid "A Modern Locking Experience"
+msgstr "최신 잠금 기능"
+
+#. type: Plain text
+#: content/about/tour414.md:106
+#, no-wrap
+msgid "The new Xfce [Screensaver](https://docs.xfce.org/apps/screensaver/start) provides a configurable lockscreen experience. You can selectively toggle the lock screen and screensaver, and all Xscreensaver themes are supported (with configuration options) out of the box. If you prefer a blank screen, Xfce Screensaver also includes a blank screen option with DPMS integration.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:108
+#, no-wrap
+msgid "![The new lock screen, sharing styles with LightDM GTK+ Greeter for a consistent experience.][img-saver-dialog]\n"
+msgstr "![일관된 사용자 경험을 위해 LightDM GTK+ Greeter와 스타일을 공유하는 새로운 잠금 화면][img-saver-dialog]\n"
+
+#. type: Plain text
+#: content/about/tour414.md:110
+#, no-wrap
+msgid "![Make it your own. Xfce Screensaver supports a multitude of configuration options.][img-saver-preferences]\n"
+msgstr "![당신만의 화면 보호기를 만드세요. Xfce 화면 보호기는 아주 많은 구성 옵션을 지원합니다.][img-saver-preferences]\n"
+
+#. type: Title ##
+#: content/about/tour414.md:111
+#, no-wrap
+msgid "Terminal *(xfce4-terminal)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:114
+#, no-wrap
+msgid "Lots and lots of features have accumulated in the [Terminal](https://docs.xfce.org/apps/terminal/start) over the last years. Amongst them 'Undo Close Tab' and 'Close Other Tabs' functionality (similar to web browsers), 'Copy Input to All Tabs', 'Set Title Color' (allows to customize tab text color), 'Save Contents' (saves tab contents to a file), an 'Unsafe Paste' dialog (which prevents the terminal from auto-executing pasted text as a command) and support for zooming. Finally when closing a tab or window, there is a new check for running processes which prevents accidentally closing a terminal that is running a process.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:116
+#, no-wrap
+msgid "![Zooming, 'Save Contents' and much more!][img-terminal]\n"
+msgstr "![확대 및 축소, '내용 저장' 과 더 많은 기능들!][img-terminal]\n"
+
+#. type: Title ##
+#: content/about/tour414.md:117
+#, no-wrap
+msgid "Screenshooter *(xfce4-screenshooter)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:120
+#, no-wrap
+msgid "The Xfce [Screenshooter](https://docs.xfce.org/apps/screenshooter/start) gained several notable features, amongst others seeing the size of the screenshot while dragging, moving the selection with the mouse and better [imgur](https://imgur.com) integration.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:122
+#, no-wrap
+msgid "![I can drag and move the screenshot area, whoop whoop!][img-screenshooter]\n"
+msgstr "![이제 스크린샷 영역을 끌고 이동할 수 있습니다. whoop whoop!][img-screenshooter]\n"
+
+#. type: Link reference
+#: content/about/tour414.md:123
+#, no-wrap
+msgid "[img-color-profiles]: //cdn.xfce.org/about/tour/4.14/color-profiles.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:124
+#, no-wrap
+msgid "[img-display-general]: //cdn.xfce.org/about/tour/4.14/display-general.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:125
+#, no-wrap
+msgid "[img-display-advanced]: //cdn.xfce.org/about/tour/4.14/display-advanced.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:126
+#, no-wrap
+msgid "[img-display-minimal]: //cdn.xfce.org/about/tour/4.14/display-minimal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:127
+#, no-wrap
+msgid "[img-locate-mouse]: //cdn.xfce.org/about/tour/4.14/locate-mouse.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:128
+#, no-wrap
+msgid "[img-panel-iconsize]: //cdn.xfce.org/about/tour/4.14/panel-iconsize.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:129
+#, no-wrap
+msgid "[img-panel-group]: //cdn.xfce.org/about/tour/4.14/panel-group.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:130
+#, no-wrap
+msgid "[img-session-saved]: //cdn.xfce.org/about/tour/4.14/session-saved.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:131
+#, no-wrap
+msgid "[img-thunar-pathbar]: //cdn.xfce.org/about/tour/4.14/thunar-pathbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:132
+#, no-wrap
+msgid "[img-thunar-folder-jpg]: //cdn.xfce.org/about/tour/4.14/thunar-folder-jpg.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:133
+#, no-wrap
+msgid "[img-xfpm-inhibitors]: //cdn.xfce.org/about/tour/4.14/xfpm-inhibitors.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:134
+#, no-wrap
+msgid "[img-notifyd-slideout]: //cdn.xfce.org/about/tour/4.14/notifyd-slideout.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:135
+#, no-wrap
+msgid "[img-notifyd-panel]: //cdn.xfce.org/about/tour/4.14/notifyd-panel.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:136
+#, no-wrap
+msgid "[img-parole-normal-mode]: //cdn.xfce.org/about/tour/4.14/parole-normal-mode.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:137
+#, no-wrap
+msgid "[img-parole-mini-mode]: //cdn.xfce.org/about/tour/4.14/parole-mini-mode.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:138
+#, no-wrap
+msgid "[img-saver-dialog]: //cdn.xfce.org/about/tour/4.14/saver-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:139
+#, no-wrap
+msgid "[img-saver-preferences]: //cdn.xfce.org/about/tour/4.14/saver-preferences.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:140
+#, no-wrap
+msgid "[img-terminal]: //cdn.xfce.org/about/tour/4.14/terminal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:141
+#, no-wrap
+msgid "[img-screenshooter]: //cdn.xfce.org/about/tour/4.14/screenshooter.gif"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour412.md:1
+#, no-wrap
+msgid "Xfce 4.12 tour"
+msgstr "Xfce 4.12 둘러보기"
+
+#. type: Plain text
+#: content/about/tour412.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.12. It only covers improvements made on the surface; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "이 둘러보기 페이지에서는 Xfce 4.12의 새로운 주요 기능을 소개합니다. 이 페이지에서는 겉으로 보이는 개선 내용만을 다룹니다. 바뀐 내용 전부를 보시려면 [changelogs](/download/changelogs/)를 살펴보십시오.\n"
+
+#. type: Title ###
+#: content/about/tour412.md:11
+#, no-wrap
+msgid "Window Switcher Dialog"
+msgstr "창 전환기 대화 상자"
+
+#. type: Plain text
+#: content/about/tour412.md:14
+#, no-wrap
+msgid "The window manager's Alt+Tab dialog is now fully themeable and also gained two new modes: a 'List' mode and a 'Window Preview' mode. Furthermore users use their mouse to click/select the window they want to give focus to.\n"
+msgstr "창 과일자의 Alt+Tab 대화상자는 제대로 테마설정이 가능해졌으며 '목록' 모드와 '창 미리보기' 모드라는 새 모드를 도입했습니다. 게다가 사용자는 선택할 창을 마우스로 클릭하여 선택할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:16
+#, no-wrap
+msgid "![The traditional dialog is fully themable now][img-tabwin-simple-crop]\n"
+msgstr "![기존 대화상자를 이제는 완전히 테마로 설정할 수 있습니다][img-tabwin-simple-crop]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:18
+#, no-wrap
+msgid "The List mode of the Alt-Tab dialog.\n"
+msgstr "Alt-Tab 대화상자의 목록 보기 모드입니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:20
+#, no-wrap
+msgid "![List mode of Alt-Tab, showing all window titles][img-tabwin-list-crop]\n"
+msgstr "![Alt-Tab 목록 보기 모드에서는 모든 창 제목을 보여줍니다][img-tabwin-list-crop]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:22
+#, no-wrap
+msgid "The Window Preview mode shows thumbnails of windows' content alongside their icon. Activating the compositor is a prerequisite for this mode.\n"
+msgstr "창 미리보기 모드에서는 아이콘과 함께 있는 창 내용의 미리 보기 이미지를 보여줍니다. 이 모드를 사용하려면 우선 콤포지터를 활성화해야 합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:24
+#, no-wrap
+msgid "![Window thumbnails][img-tabwin-preview-crop]\n"
+msgstr "![창 미리보기 그림][img-tabwin-preview-crop]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:25
+#, no-wrap
+msgid "Tiling, Zooming, Client-side Decorations"
+msgstr "바둑판 배치, 확대, 클라이언트 장식"
+
+#. type: Plain text
+#: content/about/tour412.md:28
+#, no-wrap
+msgid "Support for Client-Side Decorations (CSDs) has been improved. They now properly snap to screen and panel borders, and tile correctly, even with shadows.\n"
+msgstr "클라이언트 장식(CSD) 지원 기능을 개선했습니다. 이제 화면, 패널 테두리, 타일에 적당하게 맞출 수 있으며, 그림자 효과도 넣을 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:30
+#, no-wrap
+msgid "![Gtk3 apps with their decorations drawn by the client][img-xfwm4-csd]\n"
+msgstr "![Gtk3 앱의 장식을 클라이언트에서 그립니다.][img-xfwm4-csd]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:32
+#, no-wrap
+msgid "Window tiling mode was improved by providing support for corner-tiling, and a new zooming mode was added using Alt + Mouse Wheel.\n"
+msgstr "창 바둑판 정렬 모드는 구석 바둑판 정렬 기능을 추가하여 개선했으며, Alt+마우스 휠 을 사용한 새 확대 모드를 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:34
+#, no-wrap
+msgid "![Drag and drop a window to a corner to tile it][img-xfwm4-tiling-small]\n"
+msgstr "![창을 구석으로 끌어놓으면 바둑판 모양으로 정렬합니다][img-xfwm4-tiling-small]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:35
+#, no-wrap
+msgid "HiDPI Support"
+msgstr "HiDPI 지원"
+
+#. type: Plain text
+#: content/about/tour412.md:38
+#, no-wrap
+msgid "In order to better support modern hi-resolution screens, two new Xfwm4 themes were added (hdpi, xhdpi).\n"
+msgstr "최신 고해상도 화면을 좀 더 잘 지원하기 위해, 두개의 Xfwm4 테마(hdpi, xhdpi)를 추가했습니다.\n"
+
+#. type: Title ###
+#: content/about/tour412.md:41
+#, no-wrap
+msgid "Intelligent Hiding"
+msgstr "지능적 숨기기"
+
+#. type: Plain text
+#: content/about/tour412.md:44
+#, no-wrap
+msgid "The panel can now intelligently hide itself when a window is dragged near it.\n"
+msgstr "이제 패널 근처에 창을 끌어다놓으면 알아서 숨을 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:46
+#, no-wrap
+msgid "![Oh what is this window??][img-panel-shown]\n"
+msgstr "![엥? 이 창은 뭔가요??][img-panel-shown]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:48
+#, no-wrap
+msgid "![Don't come closer!][img-panel-shown-stack]\n"
+msgstr "![가까이 오지 맠!][img-panel-shown-stack]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:50
+#, no-wrap
+msgid "![Hah! Now you don't see me!][img-panel-hidden]\n"
+msgstr "![허... 이젠 내가 안보이네 ㅁㄴㅇㄹ][img-panel-hidden]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:51
+#, no-wrap
+msgid "Gtk3 plugins"
+msgstr "Gtk3 플러그인"
+
+#. type: Plain text
+#: content/about/tour412.md:54
+#, no-wrap
+msgid "Infrastructure was added to be able to load Gtk3 plugins alongside Gtk2 plugins.\n"
+msgstr "Gtk2 플러그인 뿐만 아니라 Gtk3 플러그인도 불러올 수 있도록 기반을 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:58
+#, no-wrap
+msgid "The desktop has a new wallpaper settings dialog with many new options and better multi-monitor support. Drag the dialog to the display or workspace where you want to change the wallpaper.\n"
+msgstr "데스크톱의 새 바탕 화면 설정 대화상자에 여러가지 새로운 옵션을 추가했으며, 더 나은 다중 모니터 지원 기능을 넣었습니다. 대화상자를 디스플레이로 끌어다놓거나 바탕 화면을 바꿀 작업 공간으로 끌어다놓아보십시오.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:60
+#, no-wrap
+msgid "![Better multi-monitor support][img-xfdesktop-properties-multiworkspace]\n"
+msgstr "![더 나은 다중 모니터 지원][img-xfdesktop-properties-multiworkspace]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:62
+#, no-wrap
+msgid "Uncheck 'apply to all workspaces' to set a different wallpaper for each workspace.\n"
+msgstr "'모든 작업 공간에 적용' 표시를 꺼서 각각의 작업 공간에 다른 바탕 화면을 설정해보십시오.\n"
+
+#. type: Title ##
+#: content/about/tour412.md:63 content/about/tour410.md:63
+#: content/about/tour48.md:73 content/about/tour46.md:85
+#, no-wrap
+msgid "Settings *(xfce4-settings)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:68
+#, no-wrap
+msgid "Support for multi-monitor use was vastly improved in the display settings dialog. Upon connecting a new display, a quick setup popup offers some of the most-used modes for users to quickly change their layout.\n"
+msgstr "디스플레이 설정 대화상자의 다중 모니더 사용 지원 기능을 엄청나게 개선했습니다. 새 화면을 연결하면, 빠른 설정 팝업 창이 떠서 사용자가 모니터 배치를 빨리 바꿀 수 있게 자주 사용하는 모드를 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:70
+#, no-wrap
+msgid "![Configure multiple displays][img-xfce4-display-settings-twoscreens]\n"
+msgstr "![다중 디스플레이 설정][img-xfce4-display-settings-twoscreens]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:72
+#, no-wrap
+msgid "![Choose your layout when plugging in a new display][img-xfce4-display-layout]\n"
+msgstr "![새 화면을 연결하면 배치를 선택하십시오][img-xfce4-display-layout]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:76
+#, no-wrap
+msgid "The appearance dialog now showcases previews for styles and icons.\n"
+msgstr "모양새 대화상자는 모양새와 아이콘을 미리보는 미리보기 상자를 갖추었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:78
+#, no-wrap
+msgid "![Gtk style preview][img-xfce4-appearance-settings-style]\n"
+msgstr "![Gtk 방식 미리보기][img-xfce4-appearance-settings-style]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:80
+#, no-wrap
+msgid "![Icon theme preview][img-xfce4-appearance-settings-icons]\n"
+msgstr "![아이콘 테마 미리보기][img-xfce4-appearance-settings-icons]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:86
+#, no-wrap
+msgid "A new panel plugin was created which allows you to quickly control your screen brightness, either via the menu or by simply using your mouse's scroll wheel over the plugin. The plugin's menu also shows all other connected devices with a power status, e.g. bluetooth keyboards or wireless mice. It still offers quick access to the presentation mode, which inhibits your screensaver for as long as the option is active.\n"
+msgstr "화면 밝기를 빠르게 조절할 수 있는 새 패널 플러그인을 만들었으며, 메뉴 또는 플러그인 위에서 마우스 스크롤을 사용하면 화면 밝기를 조절할 수 있습니다. 플러그인 메뉴는 또한 블루투스 키보드나 무선 마우스와 같은 무선 연결 장치의 전원 상태를 보여줍니다. 옵션을 활성화한 동안에는 화면 보호기 동작을 막는 프리젠테이션 모드로 빠르게 접근할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:88
+#, no-wrap
+msgid "![The plugin's menu allows users to control screen brightness and check on the remaining uptime their battery provides.][img-xfpm-plugin-crop]\n"
+msgstr "![플러그인 메뉴는 사용자 여러분이 화면 밝기를 조절하고 남은 배터리 용량을 확인할 수 있도록 합니다.][img-xfpm-plugin-crop]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:92
+#, no-wrap
+msgid "The settings dialog was completely restructured (separating button/lid events from system and display behavior) and offers a clearer way of setting your preferences.\n"
+msgstr "설정 대화상자를 완전히 재구성(버튼/덮개 이벤트를 시스템과 디스플레이 동작에서 따로 분류했음)했으며 기본 설정의 설정 항목을 좀 더 깔끔한 방식으로 갖추어 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:94
+#, no-wrap
+msgid "![Configure what action to take when certain buttons are pressed or the laptop lid is closed][img-xfpm-prefs-general]\n"
+msgstr "![각각의 단추를 눌렀을 때 또는 랩톱 덮개를 닫았을 때 어떤 동작을 취할지 설정하기][img-xfpm-prefs-general]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:96
+#, no-wrap
+msgid "![Configure what to do when the user is inactive or battery is drained][img-xfpm-prefs-system]\n"
+msgstr "![사용자가 컴퓨터를 사용중이 아니거나 배터리 전원이 거의 바닥났을때 어떤 동작을 취할지 설정하기][img-xfpm-prefs-system]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:98
+#, no-wrap
+msgid "![Manage display power management][img-xfpm-prefs-display]\n"
+msgstr "![디스플레이 전원 관리자 관리][img-xfpm-prefs-display]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:100
+#, no-wrap
+msgid "![Display information on all connected devices][img-xfpm-prefs-devices]\n"
+msgstr "![연결한 모든 장치의 정보 표시][img-xfpm-prefs-devices]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:102
+#, no-wrap
+msgid "When light-locker is available, you can control its settings directly via the power manager.\n"
+msgstr "light-docker를 사용할 수 있다면 전원 관리자에서 직접 설정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:104
+#, no-wrap
+msgid "![Setup light-locker integration][img-xfpm-prefs-security]\n"
+msgstr "![통합 light-docker 설정][img-xfpm-prefs-security]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:107
+#, no-wrap
+msgid "Tab Support"
+msgstr "탭 지원"
+
+#. type: Plain text
+#: content/about/tour412.md:110
+#, no-wrap
+msgid "A long-awaited feature was added: you can now open multiple folders in the same Thunar window.\n"
+msgstr "오래 기다려왔던 기능을 추가했습니다 이제 동일한 투나 창에 여러 폴더를 열 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:112
+#, no-wrap
+msgid "![Browse multiple directories][img-thunar-tabs]\n"
+msgstr "![여러 디렉터리 탐색][img-thunar-tabs]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:114
+#, no-wrap
+msgid "Thunar now displays the remaining free space with a bar in a folder properties.\n"
+msgstr "투나에서는 이제 남은 공간을 폴더 속성에서 막대 그래프로 표시합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:116
+#, no-wrap
+msgid "![Freespace bar][img-thunar-freespace]\n"
+msgstr "![남은 공간 막대][img-thunar-freespace]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:118
+#, no-wrap
+msgid "And you can select multiple files to see their properties at once.\n"
+msgstr "또한 속성을 살펴볼 여러 파일을 한번에 선택할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:120
+#, no-wrap
+msgid "![Multiple File Properties][img-thunar-multifiles-props]\n"
+msgstr "![여러 파일 속성 보기][img-thunar-multifiles-props]\n"
+
+#. type: Title ##
+#: content/about/tour412.md:121
+#, no-wrap
+msgid "Goodies"
+msgstr "Goodies"
+
+#. type: Plain text
+#: content/about/tour412.md:124
+#, no-wrap
+msgid "There have been lots of improvements to our goodies, and some new and shiny applications have been added by new contributors.\n"
+msgstr "Goodies에 상당히 많은 개선 사항이 있으며, 새 기여자가 몇가지 새롭고 멋진 프로그램을 추가했습니다.\n"
+
+#. type: Title ###
+#: content/about/tour412.md:125
+#, no-wrap
+msgid "Alternative panel menu plugin *(xfce4-whiskermenu)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:128
+#, no-wrap
+msgid "The whisker menu is an alternative to the traditional menu plugin, showing favourites, allowing to search through existing apps and much more.\n"
+msgstr "휘스커 메뉴는 기존 메뉴 플러그인을 대체하고, 즐겨찾기를 표시하며 기존 앱을 검색하는 등의 기능을 갖추었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:130
+#, no-wrap
+msgid "![Browse through categories][img-whiskermenu-default]\n"
+msgstr "![분류별 탐색][img-whiskermenu-default]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:132
+#, no-wrap
+msgid "![Search for an application][img-whiskermenu-search]\n"
+msgstr "![프로그램 검색][img-whiskermenu-search]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:133
+#, no-wrap
+msgid "Task Manager *(xfce4-taskmanager)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:136
+#, no-wrap
+msgid "The task manager got a revamped user interface, a filter and also supports Gtk3 now.\n"
+msgstr "작업 관리자는 새로 꾸민 사용자 인터페이스, 필터를 갖추었으며, 이제 Gtk3를 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:138
+#, no-wrap
+msgid "![Show processes as a tree][img-taskman-tree]\n"
+msgstr "![트리 모양으로 프로세스 표시][img-taskman-tree]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:140
+#, no-wrap
+msgid "![Filter processes by name][img-taskman-filter]\n"
+msgstr "![이름순 프로세스 걸러보기][img-taskman-filter]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:144
+#, no-wrap
+msgid "Parole's UI was totally redone in Gtk3. It now supports multiple video backends, makes more efficient use of your resources and contains a few novel plugins.\n"
+msgstr "빠롤의 UI는 Gtk3로 완전히 바꾸었습니다. 이제 자원을 효율적으로 사용할 수 있고, 몇가지 새로운 플러그인을 넣은 다중 비디오 백엔드를 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:146
+#, no-wrap
+msgid "![Watch videos][img-parole]\n"
+msgstr "![동영상을 봅니다][img-parole]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:148
+#, no-wrap
+msgid "The media controls are now contained in a slide-over overlay (with a configurable timeout).\n"
+msgstr "미디어 컨트롤은 슬라이드 방식 오버레이 기능을 넣었습니다(설정할 수 있는 제한 시간 기능 포함).\n"
+
+#. type: Plain text
+#: content/about/tour412.md:150
+#, no-wrap
+msgid "![Listen to music][img-parole-audio]\n"
+msgstr "![음악을 듣습니다][img-parole-audio]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:151
+#, no-wrap
+msgid "Text Editor *(mousepad)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:154
+#, no-wrap
+msgid "Mousepad was totally rewritten, gained a settings dialog and now supports Gtk3.\n"
+msgstr "마우스패드는 완전히 다시 작성했으며 설정 대화상자를 갖추었고, 이제부터 Gtk3를 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour412.md:156
+#, no-wrap
+msgid "![New mousepad settings][img-mousepad-prefs]\n"
+msgstr "![새 마우스패드 설정][img-mousepad-prefs]\n"
+
+#. type: Title ##
+#: content/about/tour412.md:157
+#, no-wrap
+msgid "A note on Xfce's portability"
+msgstr "Xfce 이식성 참고"
+
+#. type: Plain text
+#: content/about/tour412.md:160
+#, no-wrap
+msgid "All but one of those screenshots were taken on machines running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.\n"
+msgstr "모든 프로그램이 현재 OpenBSD에서 실행중이지만 그 중 한 프로그램을 찍었으며, 모든 유닉스 관련 시스템에대해 여전히 Xfce가 이식성이 높음을 보여주고 있는 좋은 예입니다.\n"
+
+#. type: Link reference
+#: content/about/tour412.md:161
+#, no-wrap
+msgid "[img-tabwin-simple-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-simple-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:162
+#, no-wrap
+msgid "[img-tabwin-list-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-list-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:163
+#, no-wrap
+msgid "[img-tabwin-preview-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-preview-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:164
+#, no-wrap
+msgid "[img-xfwm4-csd]: //cdn.xfce.org/about/tour/4.12/xfwm4-csd.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:165
+#, no-wrap
+msgid "[img-xfwm4-tiling-small]: //cdn.xfce.org/about/tour/4.12/xfwm4-tiling-small.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:166
+#, no-wrap
+msgid "[img-panel-shown]: //cdn.xfce.org/about/tour/4.12/panel-shown.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:167
+#, no-wrap
+msgid "[img-panel-shown-stack]: //cdn.xfce.org/about/tour/4.12/panel-shown-stack.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:168
+#, no-wrap
+msgid "[img-panel-hidden]: //cdn.xfce.org/about/tour/4.12/panel-hidden.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:169
+#, no-wrap
+msgid "[img-xfdesktop-properties-multiworkspace]: //cdn.xfce.org/about/tour/4.12/xfdesktop-properties-multiworkspace.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:170
+#, no-wrap
+msgid "[img-xfce4-display-settings-twoscreens]: //cdn.xfce.org/about/tour/4.12/xfce4-display-settings-twoscreens.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:171
+#, no-wrap
+msgid "[img-xfce4-display-layout]: //cdn.xfce.org/about/tour/4.12/xfce4-display-layout.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:172
+#, no-wrap
+msgid "[img-xfce4-appearance-settings-style]: //cdn.xfce.org/about/tour/4.12/xfce4-appearance-settings-style.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:173
+#, no-wrap
+msgid "[img-xfce4-appearance-settings-icons]: //cdn.xfce.org/about/tour/4.12/xfce4-appearance-settings-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:174
+#, no-wrap
+msgid "[img-xfpm-plugin-crop]: //cdn.xfce.org/about/tour/4.12/xfpm-plugin-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:175
+#, no-wrap
+msgid "[img-xfpm-prefs-general]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-general.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:176
+#, no-wrap
+msgid "[img-xfpm-prefs-system]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-system.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:177
+#, no-wrap
+msgid "[img-xfpm-prefs-display]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:178
+#, no-wrap
+msgid "[img-xfpm-prefs-devices]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-devices.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:179
+#, no-wrap
+msgid "[img-xfpm-prefs-security]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-security.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:180
+#, no-wrap
+msgid "[img-thunar-tabs]: //cdn.xfce.org/about/tour/4.12/thunar-tabs.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:181
+#, no-wrap
+msgid "[img-thunar-freespace]: //cdn.xfce.org/about/tour/4.12/thunar-freespace.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:182
+#, no-wrap
+msgid "[img-thunar-multifiles-props]: //cdn.xfce.org/about/tour/4.12/thunar-multifiles-props.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:183
+#, no-wrap
+msgid "[img-whiskermenu-default]: //cdn.xfce.org/about/tour/4.12/whiskermenu-default.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:184
+#, no-wrap
+msgid "[img-whiskermenu-search]: //cdn.xfce.org/about/tour/4.12/whiskermenu-search.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:185
+#, no-wrap
+msgid "[img-taskman-tree]: //cdn.xfce.org/about/tour/4.12/taskman-tree.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:186
+#, no-wrap
+msgid "[img-taskman-filter]: //cdn.xfce.org/about/tour/4.12/taskman-filter.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:187
+#, no-wrap
+msgid "[img-parole]: //cdn.xfce.org/about/tour/4.12/parole.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:188
+#, no-wrap
+msgid "[img-parole-audio]: //cdn.xfce.org/about/tour/4.12/parole-audio.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:189
+#, no-wrap
+msgid "[img-mousepad-prefs]: //cdn.xfce.org/about/tour/4.12/mousepad-prefs.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour410.md:1
+#, no-wrap
+msgid "Xfce 4.10 tour"
+msgstr "Xfce 4.10 둘러보기"
+
+#. type: Plain text
+#: content/about/tour410.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.10. It only covers the visual part of what has been done; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "이번 둘러보기에서는 Xfce 4.10의 새로운 주요 모양새와 기능을 소개하겠습니다. 구현 기능에 대한 내용만을 다룹니다. 바뀐 내용의 전체 내역을 보시려면 [ChangeLogs](/download/changelogs/)를 참조하십시오.\n"
+
+#. type: Title ##
+#: content/about/tour410.md:9
+#, no-wrap
+msgid "Online Documentation"
+msgstr "온라인 문서"
+
+#. type: Plain text
+#: content/about/tour410.md:12
+#, no-wrap
+msgid "During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at [docs.xfce.org](https://docs.xfce.org). The reason for this change is to make [contributing](https://docs.xfce.org/wiki/documentation) and updating the documentation easier.\n"
+msgstr "4.10을 개발하는 동안 패키지에서 사용자 도움말을 제거하기로 했고 [docs.xfce.org](https://docs.xfce.org)에 있는 온라인 위키에 옮겼습니다. 이렇게 바꾼 이유는 문서를 [공헌](https://docs.xfce.org/wiki/documentation)하고 업데이트하는 일련의 작업을 더 쉽게 하려면서입니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:14
+#, no-wrap
+msgid "![When you click a Help button Xfce will ask you to go to an online wiki page][img-online-help]\n"
+msgstr "![도움말 단추를 누르면 Xfce는 온라인 위키 페이지로 가시겠느냐고 묻습니다][img-online-help]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:16
+#, no-wrap
+msgid "We hope that with the introduction of the wiki it will be easier for developers and contributors to maintain the documentation.\n"
+msgstr "위키의 소개 부분에서와 같이 개발자와 공헌자가 문서를 관리하는데 더 쉬워졌으면 좋겠습니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:20
+#, no-wrap
+msgid "![Collapsed view of the Application Finder][img-appfinder-collapsed]\n"
+msgstr "![프로그램 탐색기 축소 뷰][img-appfinder-collapsed]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:22
+#, no-wrap
+msgid "The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.\n"
+msgstr "프로그램 탐색기는 완전히 재작성했고 이전 앱 탐색기와 xfrun4의 기능을 통합했습니다. 사용자 인터페이스 향상 중 일부에서는 접두문 또는 정규식 패턴과 일치하는 사용자 정의 동작을 만들 수 있게 해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:24
+#, no-wrap
+msgid "![Expanded view of the Application Finder][img-appfinder-expanded]\n"
+msgstr "![프로그램 탐색기 확장 뷰][img-appfinder-expanded]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:27
+#, no-wrap
+msgid "Multiple Rows"
+msgstr "다중 행"
+
+#. type: Plain text
+#: content/about/tour410.md:30
+#, no-wrap
+msgid "In 4.10 there is a single panel-wide option for configuring the number of rows in the panel. Some plugins (e.g. *launchers*) fit a single row, while others, like window buttons are allowed to occupy full width of the panel.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:32
+#, no-wrap
+msgid "![A horizontal panel with a number of rows set to three][img-panel-rows]\n"
+msgstr "![3행으로 설정한 수평 패널][img-panel-rows]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:33
+#, no-wrap
+msgid "Deskbar Mode"
+msgstr "데스크 표시줄 모드"
+
+#. type: Plain text
+#: content/about/tour410.md:36
+#, no-wrap
+msgid "The panel features a new configuration called a *deskbar* mode. In the deskbar mode the panel is aligned vertically, just like in the vertical mode, but the plugins are laid out horizontally. With multiple rows, it allows creating wide vertical panels suitable for wide-screen setups.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:38
+#, no-wrap
+msgid "![A panel in Deskbar mode with a number of rows set to five][img-panel-deskbar]\n"
+msgstr "![5행으로 설정한 데스크 표시줄 모드의 패널][img-panel-deskbar]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:39
+#, no-wrap
+msgid "Actions Plugin"
+msgstr "동작 플러그인"
+
+#. type: Plain text
+#: content/about/tour410.md:42
+#, no-wrap
+msgid "Session plugin from the xfce4-session package has been merged with a rewritten *actions* plugin\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:44
+#, no-wrap
+msgid "![Action plugin in a menu mode (left), and in a button mode (right)][img-panel-actions]\n"
+msgstr "![메뉴 모드(좌)와 단추 모드(우)의 동작 플러그인][img-panel-actions]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:45
+#, no-wrap
+msgid "Window Buttons"
+msgstr "창 단추"
+
+#. type: Plain text
+#: content/about/tour410.md:48
+#, no-wrap
+msgid "The *window buttons* plugin no longer expands, which makes the plugin positioning more flexible. In order to restore the previous behavior please add a transparent *separator* plugin with the **Expand** option enabled just behind the window buttons plugin.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:52
+#, no-wrap
+msgid "There are few visual changes in this release of Thunar. The window has less padding and the position of the status bar has been adjusted.\n"
+msgstr "투나의 이번 릴리즈에 약간의 눈에 띄는 변화가 있습니다. 창의 내부 간격을 줄이고 상태 표시줄의 위치를 조절했습니다.\n"
+
+#. type: Title ##
+#: content/about/tour410.md:53 content/about/tour46.md:33
+#, no-wrap
+msgid "Session Manager *(xfce4-session)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:56
+#, no-wrap
+msgid "The *session manager*'s settings dialog has a button for clearing the saved session (no more `rm -r ~/.config/sessions`). Xfce4-tips has been removed and the session manager can now lock the screen before suspending or hibernating the system.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour410.md:57
+#, no-wrap
+msgid "Applications Autostart"
+msgstr "프로그램 자동 시작"
+
+#. type: Plain text
+#: content/about/tour410.md:60
+#, no-wrap
+msgid "Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable services, which have to be started before other applications (*gnome-keyring* and *gconf* for GNOME and *kdeinit* for KDE). All other autostart applications are available from **Applications Autostart**, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started independently from each other.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:62
+#, no-wrap
+msgid "![Applications, which are not a part of Xfce, are listed using an italic font][img-session-autostart]\n"
+msgstr "![Xfce의 일부가 아닌 프로그램은 기울임체로 표시합니다][img-session-autostart]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:65
+#, no-wrap
+msgid "Settings Daemon"
+msgstr "설정 데몬"
+
+#. type: Plain text
+#: content/about/tour410.md:68
+#, no-wrap
+msgid "Xfce 4.8 used two processes for applying settings: `xfce4-settings-helper` and `xfsettingsd`. In 4.10 they have been merged into xfsettingsd, which now handles all system settings.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:72
+#, no-wrap
+msgid "The new *settings manager* groups configuration dialogs in categories and allows you to search for their names or descriptions. Most of the dialogs are also now embedded in the settings manager window (this was a compile-time option in Xfce 4.8).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:74
+#, no-wrap
+msgid "![The settings manager with icons grouped by category and a search filter applied][img-settings-manager]\n"
+msgstr "![분류별로 아이콘과 함께 표시하며 검색 필터를 적용한 설정 관리자][img-settings-manager]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:75
+#, no-wrap
+msgid "Settings Editor"
+msgstr "설정 편집기"
+
+#. type: Plain text
+#: content/about/tour410.md:78
+#, no-wrap
+msgid "The *settings editor* no longer collapses the entire tree when you edit a property (this is because it now reloads a single cell rather than the whole tree). Most properties can now be edited in-place, making it easier to quickly adjust settings.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:80
+#, no-wrap
+msgid "Using settings editor you can also monitor changes of settings in a selected channel. Right-click on a channel in the main window, and select **Monitor** to display the monitor window.\n"
+msgstr "설정 편집기를 사용하여 선택한 채널의 설정에 대한 바꿈 행위를 감시할 수 있습니다. 감시 창을 표시하려면 메인 창에서 채널 이름을 마우스 오른쪽 단추로 누르고 **감시**를 선택합니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:82
+#, no-wrap
+msgid "![Settings editor with an open channel monitor, while editing a property in-place][img-settings-editor]\n"
+msgstr "![제자리의 속성을 편집할 때, 채널 감시기를 연 설정 편집기][img-settings-editor]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:83
+#, no-wrap
+msgid "MIME Type Editor"
+msgstr "MIME 형식 편집기"
+
+#. type: Plain text
+#: content/about/tour410.md:86
+#, no-wrap
+msgid "In the last couple of years, many people were asking for a tool to manage their file type associations. The new *MIME type editor* does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:88
+#, no-wrap
+msgid "![MIME types matching a pattern and a menu for selecting a default application][img-settings-mime]\n"
+msgstr "![MIME 형식 일치 패턴과 기본 프로그램을 선택하는 메뉴][img-settings-mime]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:89
+#, no-wrap
+msgid "Mouse and Touchpad"
+msgstr "마우스와 터치패드"
+
+#. type: Plain text
+#: content/about/tour410.md:92
+#, no-wrap
+msgid "The *mouse and touchpad* dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the [mouse settings](https://docs.xfce.org/xfce/xfce4-settings/mouse) wiki.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:94
+#, no-wrap
+msgid "![Synaptics touchpad settings in the mouse and touchpad dialog][img-settings-mouse]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:98
+#, no-wrap
+msgid "In 4.10 you can drag and drop a tarball with a downloaded theme onto the *style* or *icon* list. Xfce will attempt to extract and install the files into the `~/.themes` or `~/.icons` directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:102
+#, no-wrap
+msgid "Although the initial plan for Xfce 4.10 was to integrate desktop handling in Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop has gained support for single-click operation, automated background image cycling and thumbnail rendering.\n"
+msgstr "비록 Xfce 4.10의 초기 계획에서는 투나의 데스크톱 제어를 통합하는 것이었지만, 아직 하지 않기로 했습니다. Xfdesktop은 한번 누르기 동작, 자동 배경 순환, 섬네일 표현을 지원합니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:104
+#, no-wrap
+msgid "![Desktop with image thumbnails and support for single-click operation][img-xfdesktop]\n"
+msgstr "![그림 섬네일과 한 번 누르기 동작을 지원하는 데스크톱][img-xfdesktop]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:106
+#, no-wrap
+msgid "Xfdesktop is now shipped with a new default background image.\n"
+msgstr "Xfdesktop은 이제 새로운 기본 배경 그림을 포함했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:110
+#, no-wrap
+msgid "Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab).\n"
+msgstr "Xfwm4는 이제 창을 화면의 가장자리로 끌어다 놓으면 창을 바둑판 정렬할 수 있습니다. 이 기능은 선택적이며 기본적으로 비활성화 되어 있습니다. 대부분의 경우 키보드 바로 가기 키를 사용해서라도 창 들을 바둑판 정렬할 수 있습니다. 다른 개선 사항은 더 좋아진 테마 지원과 탭 창의 커서 키 탐색 기능입니다.\n"
+
+#. type: Link reference
+#: content/about/tour410.md:111
+#, no-wrap
+msgid "[img-online-help]: //cdn.xfce.org/about/tour/4.10/online-help.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:112
+#, no-wrap
+msgid "[img-appfinder-collapsed]: //cdn.xfce.org/about/tour/4.10/appfinder-collapsed.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:113
+#, no-wrap
+msgid "[img-appfinder-expanded]: //cdn.xfce.org/about/tour/4.10/appfinder-expanded.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:114
+#, no-wrap
+msgid "[img-panel-rows]: //cdn.xfce.org/about/tour/4.10/panel-rows.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:115
+#, no-wrap
+msgid "[img-panel-deskbar]: //cdn.xfce.org/about/tour/4.10/panel-deskbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:116
+#, no-wrap
+msgid "[img-panel-actions]: //cdn.xfce.org/about/tour/4.10/panel-actions.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:117
+#, no-wrap
+msgid "[img-session-autostart]: //cdn.xfce.org/about/tour/4.10/session-autostart.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:118
+#, no-wrap
+msgid "[img-settings-manager]: //cdn.xfce.org/about/tour/4.10/settings-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:119
+#, no-wrap
+msgid "[img-settings-editor]: //cdn.xfce.org/about/tour/4.10/settings-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:120
+#, no-wrap
+msgid "[img-settings-mime]: //cdn.xfce.org/about/tour/4.10/settings-mime.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:121
+#, no-wrap
+msgid "[img-settings-mouse]: //cdn.xfce.org/about/tour/4.10/settings-mouse.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:122
+#, no-wrap
+msgid "[img-xfdesktop]: //cdn.xfce.org/about/tour/4.10/xfdesktop.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour48.md:1
+#, no-wrap
+msgid "Xfce 4.8 tour"
+msgstr "Xfce 4.8 둘러보기"
+
+#. type: Plain text
+#: content/about/tour48.md:8
+#, no-wrap
+msgid "This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "이번 둘러보기에서는 Xfce 4.8의 새로운 주요 모양새와 기능을 소개하겠습니다. 이는 구현 기능에 대한 내용일 뿐이며, 바뀐 내용의 전체 내역을 보시려면 [ChangeLogs](/download/changelogs/)를 참조하십시오.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:11
+#, no-wrap
+msgid "Remote shares browsing"
+msgstr "원격 공유 탐색"
+
+#. type: Plain text
+#: content/about/tour48.md:14
+#, no-wrap
+msgid "Thunar now has optional support for GVFS which will allow you to browse remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers...\n"
+msgstr "투나는 이제 투나를 사용하여 원격 공유 내용을 탐색할 수 있도록 하는 GVFS( FTP, 윈도우 공유, WebDav, SSH 서버)를 추가적으로 지원합니다...\n"
+
+#. type: Plain text
+#: content/about/tour48.md:16
+#, no-wrap
+msgid "![Thunar browsing a remote share][img-thunar-remote]\n"
+msgstr "![원격 공유를 탐색하는 투나][img-thunar-remote]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:17
+#, no-wrap
+msgid "New file operations progress dialog"
+msgstr "새로운 파일 처리 과정 대화상자"
+
+#. type: Plain text
+#: content/about/tour48.md:20
+#, no-wrap
+msgid "When several file operations (copy or move) are being handled in parallel, Thunar now shows a single progress dialog which displays all the relevant information.\n"
+msgstr "여러 개의 파일에 대한 처리(복사 또는 이동)를 동시에 다룰 때, 투나는 이제 모든 관련 정보를 하나의 과정 대화상자에 보여줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:22
+#, no-wrap
+msgid "![Progress dialog][img-thunar-progress]\n"
+msgstr "![진행상황 대화상자][img-thunar-progress]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:23
+#, no-wrap
+msgid "Eject button for removable devices"
+msgstr "이동식 장치에 대한 꺼내기 단추"
+
+#. type: Plain text
+#: content/about/tour48.md:26
+#, no-wrap
+msgid "It is is now possible to eject removable devices by clicking the eject button near each removable device label in the side pane.\n"
+msgstr "가장자리 창의 각각의 이동식 장치 레이블 근처에 있는 꺼내기 단추를 눌러 이동식 장치를 꺼낼 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:28
+#, no-wrap
+msgid "![Eject button][img-thunar-eject]\n"
+msgstr "![꺼내기 단추][img-thunar-eject]\n"
+
+#. type: Plain text
+#: content/about/tour48.md:32
+#, no-wrap
+msgid "The Xfce panel has been totally rewritten in 4.8, here are the most visible changes.\n"
+msgstr "Xfce 패널은 4.8에서 완전히 재작성되었으며, 대부분의 눈에 띄는 바뀐점은 여기에 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:33
+#, no-wrap
+msgid "Improved positioning and size handling"
+msgstr "개선된 위치 지정과 사이즈 조정"
+
+#. type: Plain text
+#: content/about/tour48.md:36
+#, no-wrap
+msgid "The panel has much better support for positioning panels on the screen. It can be dragged and snapped to screen borders; floating positions are only remembered when moving a panel and the length of the panel can be adjusted as a percentage of the monitor size.\n"
+msgstr "패널은 화면에서의 패널 위치지정에 대해 좀 더 나은 지원을 하게 됐습니다. 화면 구석에 끌어놓을 수 있으며 이동 위치는 모니터 크기의 백분율로 패널의 길이를 조정할 수 있고 패널을 이동할 수 있을 때만 기억합니다.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:37
+#, no-wrap
+msgid "Transparent backgrounds"
+msgstr "불투명 배경"
+
+#. type: Plain text
+#: content/about/tour48.md:40
+#, no-wrap
+msgid "The panel is now able to draw transparent panel backgrounds with non transparent items. Your panel items will remain readable and you will enjoy a nice panel look.\n"
+msgstr "패얼은 이제 투명한 항목과 함께 불투명 패널 배경을 그릴 수 있습니다. 여러분의 패널 항목은 여전히 알아 볼 수 있게 될 것이며 보기좋은 패널 모양을 즐기게 될 것입니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:42
+#, no-wrap
+msgid "![Transparent panel background][img-panel-transparent]\n"
+msgstr "![불투명 패널 배경][img-panel-transparent]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:43
+#, no-wrap
+msgid "New item editor"
+msgstr "새로운 항목 편집기"
+
+#. type: Plain text
+#: content/about/tour48.md:46
+#, no-wrap
+msgid "The panel now features an item editor which allows to modify, move, add and remove items quickly. This is particularly useful for items which are hard to right click and gives you an easy way to change your panel layout from a single place.\n"
+msgstr "패널은 이제부터 항목을 빨리 수정하고 옮기고 추가하며 제거할 수 있는 항목 편집기 기능을 갖추었습니다. 이는 오른쪽 단추로 누르기 어려운 항목에 대해 요긴하며, 단일 위치에서 패널 배치를 쉽게 바꿀 수 있는 방법을 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:48
+#, no-wrap
+msgid "![Panel item editor][img-panel-editor]\n"
+msgstr "![패널 항목 편집기][img-panel-editor]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:49
+#, no-wrap
+msgid "Drag and drop to create launchers"
+msgstr "실행 아이콘을 끌어놓아 작성하기"
+
+#. type: Plain text
+#: content/about/tour48.md:52
+#, no-wrap
+msgid "You can now drag and drop menu entries from the panel applications menu, application finder or Thunar to the panel to create launchers. This feature should please the huge number of people who had been requesting it for ages. The launcher also has an integrated application finder to add new items.\n"
+msgstr "패널 프러그램 메뉴, 프로그램 탐색기 또는 투나에서 패널로 실행 아이콘을 만들려고 메뉴 항목을 끌어다 놓을 수 있습니다. 이 기능은 수년간 수 많은 사람이 바래왔떤 기능입니다. 실행기는 또한 새 항목을 추가하려면 프로그램 탐색기에 통합했습니다.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:53
+#, no-wrap
+msgid "Window buttons plugin"
+msgstr "창 단추 플러그인"
+
+#. type: Plain text
+#: content/about/tour48.md:56
+#, no-wrap
+msgid "The iconbox and tasklist plugins are new merged into 1 plugin, called window buttons. It implements different sorting modes, improved handling in vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering a button.\n"
+msgstr "아이콘 상자와 작업 항목 플러그인은 창 단추라는 하나의 플러그인으로 새로 통합했습니다. 제각각의 정렬 모드를 구현하였으며 수직 패널을 다루는 기능을 향상했고, 단추 위에 마우스 커서를 가져갈 때 Xfwm4의 Alt+tab과 같은 유사한 틀을 그릴 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:57
+#, no-wrap
+msgid "New fuzzy clock"
+msgstr "새로운 퍼지 시계"
+
+#. type: Plain text
+#: content/about/tour48.md:60
+#, no-wrap
+msgid "An Xfce release without a new clock mode would not be a true Xfce release. Let us introduce you the 'fuzzy' clock mode!\n"
+msgstr "새로운 시계가 없는 Xfce 릴리즈는 제대로 된 Xfce 릴리즈가 될 수 없었습니다. '퍼지' 시계 모드를 소개합니다!\n"
+
+#. type: Plain text
+#: content/about/tour48.md:62
+#, no-wrap
+msgid "![New fuzzy clock mode][img-panel-fuzzy-clock]\n"
+msgstr "![새로운 퍼지 시계 모드][img-panel-fuzzy-clock]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:63
+#, no-wrap
+msgid "New directory menu plugin"
+msgstr "새 디렉터리 메뉴 플러그인"
+
+#. type: Plain text
+#: content/about/tour48.md:66
+#, no-wrap
+msgid "The directory menu plugin provides a menu reproducing the arborescence of a particular folder. This allows you to open a terminal or a file manager in a sub-folder in a very fast and efficient way.\n"
+msgstr "디렉터리 메뉴 플러그인은 제각각의 폴더를 나무 모양으로 다시 만든 메뉴를 제공합니다. 이를 통해 하위 폴더에서 아주 빠르고 효율적인 방법으로 터미널이나 파일 관리자를 열 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:68
+#, no-wrap
+msgid "![Directory menu plugin][img-panel-directorymenu]\n"
+msgstr "![디렉터리 메뉴 플러그인][img-panel-directorymenu]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:69
+#, no-wrap
+msgid "Applications menu edition"
+msgstr "프로그램 메뉴 편집"
+
+#. type: Plain text
+#: content/about/tour48.md:72
+#, no-wrap
+msgid "You can now edit the applications menu using any Freedesktop compliant menu editor, Alacarte being the one we used to test.\n"
+msgstr "이제 우리가 시험중인 Freedesktop 호환 메뉴 편집기 Alacarte를 사용하여 프로그램 메뉴를 편집할 수 있습니다.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:75
+#, no-wrap
+msgid "Improved multihead setup configuration"
+msgstr "개선된 다중 모니터 설치 설정"
+
+#. type: Plain text
+#: content/about/tour48.md:78
+#, no-wrap
+msgid "Xfce can now handle and setup multihead setups for any randr 1.2 compatible driver. Unfortunately, this means it will not work with Nvidia proprietary drivers.\n"
+msgstr "Xfce는 이제 randr 1.2 호환 드라이버를 위한 다중 모니터 설치를 다루고 설치할 수 있습니다. 불행하게도 Nvidia 상용 드라이버와는 동작하지 않는다는 뜻입니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:80
+#, no-wrap
+msgid "You can enable and disable plugged screens, set their resolution, refresh rate, rotation and reflection, clone screens or extend desktops.\n"
+msgstr "연결한 화면을 활성화, 비활성화 할 수 있고 해상도, 주사율, 회전, 뒤집기, 화면 복제 또는 데스크톱 확장에 대해 설정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:82
+#, no-wrap
+msgid "![New display settings dialog][img-display-settings]\n"
+msgstr "![새 디스플레이 설정 대화상자][img-display-settings]\n"
+
+#. type: Title ####
+#: content/about/tour48.md:83
+#, no-wrap
+msgid "Timed confirmation"
+msgstr "시간 제한 확인"
+
+#. type: Plain text
+#: content/about/tour48.md:86
+#, no-wrap
+msgid "Any change made with the settings dialog will have to be confirmed within ten seconds or they will be reverted. This prevents broken video drivers from leaving your computer unusable.\n"
+msgstr "설정 대화상자로 바꾼 내용에 대해 10초의 확인 기회를 주거나 복귀합니다. 이는 관련없는 깨진 비디오 드라이버가 여러분의 컴퓨터를 못쓰게 하는 것을 막습니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:88
+#, no-wrap
+msgid "![Timed confirmation for display settings changes][img-display-settings-confirmation]\n"
+msgstr "![디스플레이 설정 바꾸기 시간 제한][img-display-settings-confirmation]\n"
+
+#. type: Title ####
+#: content/about/tour48.md:89
+#, no-wrap
+msgid "Quick setup dialog"
+msgstr "빠른 설정 대화상자"
+
+#. type: Plain text
+#: content/about/tour48.md:92
+#, no-wrap
+msgid "The quick setup dialog allows you to configure a dual screen setup in a second. Plug the second screen, press the display key or Windows + p and select the wanted layout. Done!\n"
+msgstr "빠른 설정 대화상자는 잠깐동안 두 화면 설치를 설정할 수 있게 해줍니다. 두번째 화면을 연력하고 디스플레이 단추를 누르거나 Windows + p를 누르고 원하는 배치를 선택하십시오. 다 되었습니다!\n"
+
+#. type: Plain text
+#: content/about/tour48.md:94
+#, no-wrap
+msgid "![Quick multihead setup][img-minimal-display-settings]\n"
+msgstr "![빠른 다중 모니터 설치][img-minimal-display-settings]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:95
+#, no-wrap
+msgid "Settings edition in the Xfce Settings Editor"
+msgstr "Xfce 설정 편집기의 편집 설정"
+
+#. type: Plain text
+#: content/about/tour48.md:98
+#, no-wrap
+msgid "The Xfce Settings Editor now deserves its name, it is no longer a simpler Xfconf settings viewer. You can now modify, delete, add and reset settings through its interface. It also monitors changes to update its view.\n"
+msgstr "Xfce 설정 편집기는 이제 이름을 받아야 마땅합니다. 더 이상 단순한 Xfconf 설정 보기 프로그램이 아닙니다. 인터페이스를 통해 설정을 편집하고 지우고 추가하며 초기화 할 수 있습니다. 또한 보이는 모습을 업데이트하려면 바뀐 내용을 감시합니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:100
+#, no-wrap
+msgid "![Editing Xfconf properties with the Settings Editor][img-settings-editor]\n"
+msgstr "![설정 편집기로 Xfconf 설정 편집하기][img-settings-editor]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:101
+#, no-wrap
+msgid "Improved keyboard layout selection"
+msgstr "개선된 키보드 배치 선택"
+
+#. type: Plain text
+#: content/about/tour48.md:104
+#, no-wrap
+msgid "The layout selection dialog received a lot of love: it no longer displays cryptic language/variants codes but uses localized languages/variants names. Layout edition was also made easier by prefilling the dialogs with the current values.\n"
+msgstr "배치 선택 대화상자에 좋아할 만한 것을 도입했습니다. 더 이상 암호 같은 언어/다양한 코드를 보여주지 않고 지역화된 언어와 다양한 명칭을 사용합니다. 배치 편집은 현재 값을 미리 채운 대화상자를 통해 더 쉽게 다가갈 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:106
+#, no-wrap
+msgid "![Layouts and variants list][img-keyboard-settings-list]\n"
+msgstr "![배치와 변종 목록][img-keyboard-settings-list]\n"
+
+#. type: Link reference
+#: content/about/tour48.md:107
+#, no-wrap
+msgid "[img-thunar-remote]: //cdn.xfce.org/about/tour/4.8/thunar-remote.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:108
+#, no-wrap
+msgid "[img-thunar-progress]: //cdn.xfce.org/about/tour/4.8/thunar-progress.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:109
+#, no-wrap
+msgid "[img-thunar-eject]: //cdn.xfce.org/about/tour/4.8/thunar-eject.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:110
+#, no-wrap
+msgid "[img-panel-transparent]: //cdn.xfce.org/about/tour/4.8/panel-transparent.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:111
+#, no-wrap
+msgid "[img-panel-editor]: //cdn.xfce.org/about/tour/4.8/panel-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:112
+#, no-wrap
+msgid "[img-panel-fuzzy-clock]: //cdn.xfce.org/about/tour/4.8/panel-fuzzy-clock.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:113
+#, no-wrap
+msgid "[img-panel-directorymenu]: //cdn.xfce.org/about/tour/4.8/panel-directorymenu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:114
+#, no-wrap
+msgid "[img-display-settings]: //cdn.xfce.org/about/tour/4.8/display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:115
+#, no-wrap
+msgid "[img-display-settings-confirmation]: //cdn.xfce.org/about/tour/4.8/display-settings-confirmation.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:116
+#, no-wrap
+msgid "[img-minimal-display-settings]: //cdn.xfce.org/about/tour/4.8/minimal-display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:117
+#, no-wrap
+msgid "[img-settings-editor]: //cdn.xfce.org/about/tour/4.8/settings-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:118
+#, no-wrap
+msgid "[img-keyboard-settings-list]: //cdn.xfce.org/about/tour/4.8/keyboard-settings-list.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour46.md:1
+#, no-wrap
+msgid "Xfce 4.6 tour"
+msgstr "Xfce 4.6 둘러보기"
+
+#. type: Plain text
+#: content/about/tour46.md:8
+#, no-wrap
+msgid "The long awaited 4.6.0 version of the Xfce Desktop Environment is finally available. We will try to highlight some of the new features which have been added since the last stable release.\n"
+msgstr "오랫동안 기다려오던 Xfce 데스크톱 환경 버전 4.6.0이 드디어 나왔습니다. 최근 안정 릴리즈 이후로 추가한 새 기능 중 일부 주요 부분을 소개해보도록 하겠습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:12
+#, no-wrap
+msgid "Since desktop icons have been introduced in Xfce 4.4, people have expressed the need to allow the selection of multiple icons (rubber banding). With **Xfce 4.6**, the **Xfdesktop** manager finally implements this feature: you can select multiple icons, remove them, etcetera...\n"
+msgstr "Xfce 4.4에서 데스크톱 아이콘을 도입한 이후, 여러 사람은 다중 아이콘 선택(고무줄 늘이기 방식)이 필요하다는 의사표현을 했습니다. <b>Xfce 4.6</b>를 통해, 마침내 <b>Xfdesktop</b> 관리자에서 이 기능을 구현해냈습니다. 여러 아이콘을 선택할 수 있고 제거할 수 있는 등 수많은 작업을 할 수 있습니다...\n"
+
+#. type: Plain text
+#: content/about/tour46.md:14
+#, no-wrap
+msgid "![Multiple icons selection][img-xfdesktop-rubberbanding]\n"
+msgstr "![다중 아이콘 선택][img-xfdesktop-rubberbanding]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:16
+#, no-wrap
+msgid "**Xfce 4.6** features a brand new desktop menu which allows you to manipulate files as with the **Thunar** filemanager contextual menu, but also to open applications, exit your session, or access the help documentation.\n"
+msgstr "<b>Xfce 4.6</b>은 <b>투나</b> 파일 관리자의 상황별 메뉴를 통해 파일을 다룰 수 있는 완전히 새로운 데스크톱 메뉴 기능을 갖췄을 뿐만 아니라 프로그램을 열고, 세션을 빠져 나가거나 도움말 문서에 접근할 수도 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:18
+#, no-wrap
+msgid "![New desktop menu][img-xfdesktop-menu]\n"
+msgstr "![새로운 데스크톱 메뉴][img-xfdesktop-menu]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:22
+#, no-wrap
+msgid "A lot of long standing bugs have been fixed in **Xfce4 Panel**, particularly for multiple screen setups, but this new release also brings an improved set of panel plugins.\n"
+msgstr "<b>Xfce4 패널</b>에 오래 머물고 있던 수많은 버그들, 부분적으로는 다눙 화면 설정에 대해 수정했지만, 이번 새 릴리즈에는 여러가지 패널 플러그인도 도입했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:24
+#, no-wrap
+msgid "![New binary clock][img-xfce4-panel-clock]\n"
+msgstr "![새로운 이진 시계][img-xfce4-panel-clock]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:26
+#, no-wrap
+msgid "The **clock plugin** has been rewritten to consume fewer system resources and to fix some display bugs, but there is also a new clock mode for the geek in you: binary clock! The new **notification area plugin** allows you to hide selected notification icons to keep your notification area clean and readable.\n"
+msgstr "<b>시계 플러그인</b>은 적은 시스템 자원을 소모하도록 재작성했으며, 일부 표시 버그를 해결했고 또한 괴짜 여러분을 위한 새로운 시계 모드, 이진 시계를 도입했습니다! 새 <b>알림 영역 플러그인</b>은  선택한 알림 아이콘을 숨겨서, 알림 영역을 깔끔하고 쉽게 알아볼 수 있는 상태를 유지할 수 있게 해줍니다.\n"
+
+#. type: Title ##
+#: content/about/tour46.md:27
+#, no-wrap
+msgid "Sound Mixer *(xfce4-mixer)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:30
+#, no-wrap
+msgid "**Xfce4 Mixer** has been rewritten from scratch to use [Gstreamer](https://gstreamer.freedesktop.org/). This allows us to more easily support multiple sound systems, the user interface is more polished, and you can manage several different sound cards. Additionally, a panel plugin allows you to set the system sound quickly using the mouse scroll wheel.\n"
+msgstr "<b>Xfce4 음량 조절기</b>는 [Gstreamer](https://gstreamer.freedesktop.org/)를 사용하여 처음부터 완전히 새로 작성했습니다. 이를 통해 다중 사운드 시스템을 쉽게 지원할 수 있게 되었고, 사용자 인터페이스가 좀 더 매력적으로 바뀌었으며, 제각각의 사운드 카드를 관리할 수 있게 되었습니다. 덧붙여, 패널 플러그인은 마우스 스크롤 휠을 사용하여 시스템 사운드를 빠르게 조절할 수 있게 해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:32
+#, no-wrap
+msgid "![New sound mixer][img-xfce4-mixer]\n"
+msgstr "![새로운 음량 조절기][img-xfce4-mixer]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:36
+#, no-wrap
+msgid "**Xfce 4.6** comes with an enhanced session manager: your session should be started faster, and the settings dialog has been reworked to ease the management of session-aware applications. Additionally, the session manager will now automatically restart session applications which crashed so that you are not left without a desktop, panel, window manager, etcetera, if a crash occurs.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:38
+#, no-wrap
+msgid "![Session settings dialog][img-xfce4-session-settings]\n"
+msgstr "![세션 설정 대화상자][img-xfce4-session-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:40
+#, no-wrap
+msgid "The session manager also includes a new long-awaited feature: support for **suspend** and **hibernate** \"out of the box.\" The logout dialog now has two additional buttons which offer to suspend or hibernate your computer.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:42
+#, no-wrap
+msgid "![Session logout dialog][img-xfce4-session-logout]\n"
+msgstr "![세션 로그아웃 대화상자][img-xfce4-session-logout]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:46
+#, no-wrap
+msgid "As usual, **Xfwm4** has matured quite a bit during this release cycle: many bugs have been fixed, support for multiple displays has been added, and overall performance has been improved.\n"
+msgstr "종종 <b>Xfwm4</b>는 이 릴리즈 주기동안 조금씩 성숙해왔습니다. 수많은 버그를 수정하고 다중 디스플레이 지원을 추가했으며 전체적인 성능을 향상시켰습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:48
+#, no-wrap
+msgid "In addition to some other new features, **Xfwm4** is now able to detect windows that do not respond and offer to terminate them.\n"
+msgstr "다른 새로운 기능에 대해 덧붙이자면, <b>Xfwm4</b>는 이제 응답하지 않는 창을 감지할 수 있고 이를 중지할 수 있게 해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:50
+#, no-wrap
+msgid "![Dialog to terminate busy applications][img-xfwm4-net-ping]\n"
+msgstr "![사용중인 프로그램을 중단하기 위한 대화상자][img-xfwm4-net-ping]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:52
+#, no-wrap
+msgid "There is also a new **actions menu** which allows you to quickly move and resize windows, put them above or below other windows, or fullscreen them.\n"
+msgstr "창을 빠르게 이동하고 크기를 조절하며, 다른 창의 위 아래로 놓거나 전체 화면으로 확장하는 <b>동작 메뉴</b>가 새로워졌습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:54
+#, no-wrap
+msgid "![New actions menu][img-xfwm4-new-menu]\n"
+msgstr "![새로운 동작 메뉴][img-xfwm4-new-menu]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:56
+#, no-wrap
+msgid "A new **fill** operation has been implemented; it expands a given window to the available space without overlapping other adjacent windows.\n"
+msgstr "새로운 <b>채우기</b> 동작을 구현했습니다. 근처의 다른 창과 겹치지 않게 화면의 창을 사용할 수 있는 공간으로 확장합니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:58
+#, no-wrap
+msgid "![Fill operation][img-xfwm4-fill-operation]\n"
+msgstr "![채우기 동작][img-xfwm4-fill-operation]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:60
+#, no-wrap
+msgid "The **compositor** has been optimized to reduce window flickering during resize operations.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:62
+#, no-wrap
+msgid "![Flicker free resizing][img-xfwm4-resize]\n"
+msgstr "![깜빡임 없는 크기조절][img-xfwm4-resize]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:64
+#, no-wrap
+msgid "Some **tweakable options** have also been added: for example, you can now disable the blinking of windows when they receive an urgency hint.\n"
+msgstr "<b>고급 설정할 수 있는 일부 옵션</b>을 추가했습니다: 예를 들자면, 이제부터는 긴급한 알림을 받았을 때 창을 깜빡이는 기능을 비활성화 할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:66
+#, no-wrap
+msgid "![New tweakable options][img-xfwm4-new-tweaks]\n"
+msgstr "![새로운 고급 설정 옵션][img-xfwm4-new-tweaks]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:70
+#, no-wrap
+msgid "There have been many bug fixes and performance improvements in **Thunar**. It can use the mouse forward and backward buttons (if available) to navigate, and it includes a new plugin that allows you to set an image as wallpaper from the context menu.\n"
+msgstr "<b>투나</b>의 수많은 버그를 수정하고 성능을 향상시켰습니다. 탐색을 위해 마우스의 이전과 다음 단추(가능하다면)를 사용할 수 있고 상황 메뉴에서 그림을 바탕 화면으로 설정할 수 있게 하는 새로운 플러그인을 포함했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:72
+#, no-wrap
+msgid "![Set an image in a Thunar folder as wallpaper][img-thunar-wallpaper-plugin]\n"
+msgstr "![Thunar 폴더의 그림을 바탕 화면으로 설정하기][img-thunar-wallpaper-plugin]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:74
+#, no-wrap
+msgid "**Thunar** now follows the [XDG user directories](https://freedesktop.org/wiki/Software/xdg-user-dirs) specification; this allows you to have themed and localized user folders to store your music, documents, videos, templates, etcetera...\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:76
+#, no-wrap
+msgid "![Thunar menu for user directories][img-thunar-xdg-user-dirs]\n"
+msgstr "![사용자 디렉터리에 대한 투나 메뉴][img-thunar-xdg-user-dirs]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:78
+#, no-wrap
+msgid "**Thunar** will now display a translucent icon for drives or volumes that are not mounted, so that you can distinguish them from the mounted ones.\n"
+msgstr "<b>투나</b> 는 마운트 하지 않은 드라이브나 볼륨을 위해 반투명 아이콘을 표시합니다. 그래서 어떤 것을 마운트 했는지 구별할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:80
+#, no-wrap
+msgid "![Translucent icons for unmounted drives and volumes][img-thunar-mounting]\n"
+msgstr "![마운트 하지 않은 드라이브와 볼륨에 대한 반투명 아이콘][img-thunar-mounting]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:82
+#, no-wrap
+msgid "Last, but not least, **Thunar** now supports encrypted devices!\n"
+msgstr "마지막으로, 하지만 앞에서 이야기 했던 것과 마찬가지로 <b>투나</b>는 이제 암호화 장치를 지원합니다!\n"
+
+#. type: Plain text
+#: content/about/tour46.md:84
+#, no-wrap
+msgid "![Thunar support for encrypted devices][img-thunar-encrypted]\n"
+msgstr "![암호화 장치를 위한 투나의 지원][img-thunar-encrypted]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:88
+#, no-wrap
+msgid "Xfce 4.6 features a new settings interface, **Xfce Settings Manager**, which allows you to configure your desktop environment much more easily than before. The dialogs which are accessible by single clicking on the icons have been designed to be more compact and to allow you to customize your desktop quickly and in a more intuitive way.\n"
+msgstr "Xfce 4.6은 예전보다 훨씬 쉽게 데스크톱 환경을 설정할 수 있도록 하는 새로운 설정 인터페이스 <b>Xfce 설정 관리자</b> 기능을 갖췄습니다. 아이콘을 단 한번 눌러 접근할 수 있는 대화상자를 더 작게 설계했으며, 더욱 빠르고 이해하기 쉬운 방법으로 여러분의 데스크톱을 설정할 수 있게 해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:90
+#, no-wrap
+msgid "![Xfce4 Settings Manager][img-xfce4-settings-manager]\n"
+msgstr "![Xfce4 설정 관리자][img-xfce4-settings-manager]\n"
+
+#. type: Title ###
+#: content/about/tour46.md:91
+#, no-wrap
+msgid "Accessibility settings"
+msgstr "접근성 설정"
+
+#. type: Plain text
+#: content/about/tour46.md:94
+#, no-wrap
+msgid "![Accessibility settings dialog][img-xfce4-accessibility-settings]\n"
+msgstr "![접근성 설정 대화상자][img-xfce4-accessibility-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:96
+#, no-wrap
+msgid "The **Accessibility settings** dialog allows you to set the accessibility related mouse and keyboard options, such as sticky keys, bounce keys, or mouse emulation.\n"
+msgstr "<b>접근성 설정</b> 대화상자는 끈적이 키, 탄력 키, 마우스 흉내내기와 같은 마우스와 키보드와 관련한 접근성 옵션을 설정할 수 있게 해줍니다.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:97
+#, no-wrap
+msgid "Appearance settings"
+msgstr "모양새 설정"
+
+#. type: Plain text
+#: content/about/tour46.md:100
+#, no-wrap
+msgid "![Appearance settings dialog][img-xfce4-appearance-settings]\n"
+msgstr "![모양새 설정 대화상자][img-xfce4-appearance-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:102
+#, no-wrap
+msgid "The **Appearance settings** dialog allows you to set the widget style, the icon theme, and font, toolbar and menu options.\n"
+msgstr "<b>모양새 설정</b> 대화상자는 위젯 스타일, 아이콘 테마, 글꼴, 도구 상자, 메뉴 옵션을 설정할 수 있게 해줍니다.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:103
+#, no-wrap
+msgid "Display settings"
+msgstr "디스플레이 설정"
+
+#. type: Plain text
+#: content/about/tour46.md:106
+#, no-wrap
+msgid "![Display settings dialog][img-xfce4-display-settings]\n"
+msgstr "![디스플레이 설정 대화상자][img-xfce4-display-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:108
+#, no-wrap
+msgid "The **Display settings** dialog allows you to set the resolution, refresh rate, and the rotation for each screen that is connected.\n"
+msgstr "<b>디스플레이 설정</b> 대화상자는 연결한 화면의 해상도, 주사율, 각 화면의 회전을 설정할 수 있게 해줍니다.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:109
+#, no-wrap
+msgid "Keyboard settings"
+msgstr "키보드 설정"
+
+#. type: Plain text
+#: content/about/tour46.md:112
+#, no-wrap
+msgid "![Keyboard settings dialog, layout tab][img-xfce4-keyboard-settings-layout]\n"
+msgstr "![키보드 설정 대화상자, 배치 탭][img-xfce4-keyboard-settings-layout]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:114
+#, no-wrap
+msgid "The **Keyboard settings** dialog allows you to set keyboard preferences such as key repeating, keyboard shortcuts, and your keyboard layout.\n"
+msgstr "<b>키보드 설정</b> 대화상자는 키 반복, 키보드 바로 가기 키, 키보드 배치와 같은 키보드의 기본 사항을 설정할 수 있게 해줍니다.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:116
+#, no-wrap
+msgid "![Keyboard settings dialog, shortcuts tab][img-xfce4-keyboard-settings-shortcuts]\n"
+msgstr "![키보드 설정 대화상자, 바로 가기 탭][img-xfce4-keyboard-settings-shortcuts]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:118
+#, no-wrap
+msgid "You can now configure shortcuts more simply, and any shortcut conflicts are automatically detected.\n"
+msgstr "이제 바로 가기 키를 더 간단하게 설정할 수 있으며, 어떤 바로 가기 키의 충돌이라도 자동으로 감지합니다.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:119
+#, no-wrap
+msgid "Mouse settings"
+msgstr "마우스 설정 대화상자"
+
+#. type: Plain text
+#: content/about/tour46.md:122
+#, no-wrap
+msgid "![Mouse settings dialog][img-xfce4-mouse-settings]\n"
+msgstr "![마우스 설정 대화상자][img-xfce4-mouse-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:124
+#, no-wrap
+msgid "The **Mouse settings** dialog allows you to configure the different mice connected to your computer: button order, acceleration, double-click speed, mouse cursor theme, etcetera...\n"
+msgstr "<b>마우스 설정</b> 대화상자는 여러분의 컴퓨터에 연결한 제각기 다른 마우스를 단추 순서, 가속, 두번 누름 속도, 마우스 커서 테마 등에 대해 설정할 수 있게 해줍니다...\n"
+
+#. type: Title ###
+#: content/about/tour46.md:125
+#, no-wrap
+msgid "Desktop settings"
+msgstr "데스크톱 설정"
+
+#. type: Plain text
+#: content/about/tour46.md:128
+#, no-wrap
+msgid "![Desktop settings dialog][img-xfdesktop-settings]\n"
+msgstr "![데스크톱 설정 대화상자][img-xfdesktop-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:130
+#, no-wrap
+msgid "The **Desktop settings** dialog is now much more compact; it allows you to configure per-screen settings: wallpaper, brightness, desktop menu, displayed icons, etcetera...\n"
+msgstr "<b>데스크톱 설정</b> 대화상자는 이제 더욱 작아졌습니다. 바탕 화면, 밝기, 데스크톱 메뉴, 표시할 아이콘 등에 대한 화면별 설정이 가능합니다...\n"
+
+#. type: Plain text
+#: content/about/tour46.md:134
+#, no-wrap
+msgid "**Xfce 4.6** also comes with a brand new application finder which features a cleaner user interface. It is also easier to use it with the keyboard, and it monitors installed applications to update the list \"on the fly.\" It also allows you to create panel launchers quickly by dragging an application icon to the launcher creation window.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:136
+#, no-wrap
+msgid "![New application finder][img-xfce4-appfinder]\n"
+msgstr "![새로운 프로그램 탐색기][img-xfce4-appfinder]\n"
+
+#. type: Title ##
+#: content/about/tour46.md:137 content/about/tour44.md:139
+#, no-wrap
+msgid "Links"
+msgstr "링크"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:141 content/about/tour44.md:143
+#, no-wrap
+msgid "[Xfce website](https://xfce.org/)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:141
+#, no-wrap
+msgid "[Thunar website](https://xfce.org/projects/thunar)\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour46.md:142 content/about/tour44.md:144
+#, no-wrap
+msgid "Credits"
+msgstr "제작자"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:146
+#, no-wrap
+msgid "Written by Jérôme Guelfucci (February 2009)\n"
+msgstr "Jérôme Guelfucci(2009년 2월)가 작성함\n"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:146
+#, no-wrap
+msgid "Screenshots by Jannis Pohlmann\n"
+msgstr "Jannis Pohlmann이 스크린샷 찍음\n"
+
+#. type: Link reference
+#: content/about/tour46.md:147
+#, no-wrap
+msgid "[img-xfdesktop-rubberbanding]: //cdn.xfce.org/about/tour/4.6/xfdesktop-rubberbanding.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:148
+#, no-wrap
+msgid "[img-xfdesktop-menu]: //cdn.xfce.org/about/tour/4.6/xfdesktop-menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:149
+#, no-wrap
+msgid "[img-xfce4-panel-clock]: //cdn.xfce.org/about/tour/4.6/xfce4-panel-clock.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:150
+#, no-wrap
+msgid "[img-xfce4-mixer]: //cdn.xfce.org/about/tour/4.6/xfce4-mixer.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:151
+#, no-wrap
+msgid "[img-xfce4-session-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-session-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:152
+#, no-wrap
+msgid "[img-xfce4-session-logout]: //cdn.xfce.org/about/tour/4.6/xfce4-session-logout.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:153
+#, no-wrap
+msgid "[img-xfwm4-net-ping]: //cdn.xfce.org/about/tour/4.6/xfwm4-net-ping.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:154
+#, no-wrap
+msgid "[img-xfwm4-new-menu]: //cdn.xfce.org/about/tour/4.6/xfwm4-new-menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:155
+#, no-wrap
+msgid "[img-xfwm4-fill-operation]: //cdn.xfce.org/about/tour/4.6/xfwm4-fill-operation.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:156
+#, no-wrap
+msgid "[img-xfwm4-resize]: //cdn.xfce.org/about/tour/4.6/xfwm4-resize.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:157
+#, no-wrap
+msgid "[img-xfwm4-new-tweaks]: //cdn.xfce.org/about/tour/4.6/xfwm4-new-tweaks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:158
+#, no-wrap
+msgid "[img-thunar-wallpaper-plugin]: //cdn.xfce.org/about/tour/4.6/thunar-wallpaper-plugin.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:159
+#, no-wrap
+msgid "[img-thunar-xdg-user-dirs]: //cdn.xfce.org/about/tour/4.6/thunar-xdg-user-dirs.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:160
+#, no-wrap
+msgid "[img-thunar-mounting]: //cdn.xfce.org/about/tour/4.6/thunar-mounting.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:161
+#, no-wrap
+msgid "[img-thunar-encrypted]: //cdn.xfce.org/about/tour/4.6/thunar-encrypted.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:162
+#, fuzzy, no-wrap
+#| msgid "![Xfce4 Settings Manager][img-xfce4-settings-manager]\n"
+msgid "[img-xfce4-settings-manager]: //cdn.xfce.org/about/tour/4.6/xfce4-settings-manager.png"
+msgstr "![Xfce4 설정 관리자][img-xfce4-settings-manager]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:163
+#, fuzzy, no-wrap
+#| msgid "![Accessibility settings dialog][img-xfce4-accessibility-settings]\n"
+msgid "[img-xfce4-accessibility-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-accessibility-settings.png"
+msgstr "![접근성 설정 대화상자][img-xfce4-accessibility-settings]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:164
+#, fuzzy, no-wrap
+#| msgid "![Appearance settings dialog][img-xfce4-appearance-settings]\n"
+msgid "[img-xfce4-appearance-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-appearance-settings.png"
+msgstr "![모양새 설정 대화상자][img-xfce4-appearance-settings]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:165
+#, no-wrap
+msgid "[img-xfce4-display-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:166
+#, fuzzy, no-wrap
+#| msgid "![Keyboard settings dialog, layout tab][img-xfce4-keyboard-settings-layout]\n"
+msgid "[img-xfce4-keyboard-settings-layout]: //cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-layout.png"
+msgstr "![키보드 설정 대화상자, 배치 탭][img-xfce4-keyboard-settings-layout]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:167
+#, fuzzy, no-wrap
+#| msgid "![Keyboard settings dialog, shortcuts tab][img-xfce4-keyboard-settings-shortcuts]\n"
+msgid "[img-xfce4-keyboard-settings-shortcuts]: //cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-shortcuts.png"
+msgstr "![키보드 설정 대화상자, 바로 가기 탭][img-xfce4-keyboard-settings-shortcuts]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:168
+#, no-wrap
+msgid "[img-xfce4-mouse-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-mouse-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:169
+#, no-wrap
+msgid "[img-xfdesktop-settings]: //cdn.xfce.org/about/tour/4.6/xfdesktop-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:170
+#, no-wrap
+msgid "[img-xfce4-appfinder]: //cdn.xfce.org/about/tour/4.6/xfce4-appfinder.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour44.md:1
+#, no-wrap
+msgid "Xfce 4.4 tour"
+msgstr "Xfce 4.4 둘러보기"
+
+#. type: Plain text
+#: content/about/tour44.md:8
+#, no-wrap
+msgid "As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment is finally available. I will try to highlight some of the new features which have been added since the last stable release.\n"
+msgstr "이제, 오랫동안 기다려오던 Xfce 데스크톱 환경 버전 4.4.0이 드디어 나왔습니다. 최근 안정 릴리즈 이후로 추가한 새 기능 중 일부 주요 부분을 소개해보도록 하겠습니다.\n"
+
+#. type: Title ##
+#: content/about/tour44.md:9
+#, no-wrap
+msgid "Desktop Icons"
+msgstr "데스크톱 아이콘"
+
+#. type: Plain text
+#: content/about/tour44.md:12
+#, no-wrap
+msgid "One of the most often requested features during the 4.0 and 4.2 was support for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally added to the desktop manager **Xfdesktop**.\n"
+msgstr "버전 4.0과 4.2일 동안 자주 요청하던 기능은 데스크톱의 아이콘을 지원하는 것입니다. 이제 드디어 Xfce 4.4.0에서 <b>Xfdesktop</b>에 이 기능을 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:14
+#, no-wrap
+msgid "![Desktop Icons][img-desktop-icons]\n"
+msgstr "![데스크톱 아이콘][img-desktop-icons]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:16
+#, no-wrap
+msgid "The desktop manager utilizes **Thunar**'s libraries to handle application launchers and regular files/folders on the desktop. The desktop manager is also able to display icons for minimized windows on the desktop, which is quite a popular feature from the CDE world. Of course, you can disable the desktop icons altogether if you prefer a clean desktop.\n"
+msgstr "데스크톱 매니저는 데스크톱의 프로그램 실행 아이콘과 일반 파일 또는 폴더를 다루려 <b>투나</b> 라이브러리를 활용했습니다. 또한 CDE 세계에서 조금 인기있는 기능인, 데스크톱의 최소화한 창에 대해 아이콘을 표시하는 기능도 가능해졌습니다. 물론 깔끔한 데스크톱을 선호한다면 이들 데스크톱 아이콘을 비활성화 할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:18
+#, no-wrap
+msgid "![Desktop Settings][img-desktop-settings]\n"
+msgstr "![데스크톱 설정][img-desktop-settings]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:20
+#, no-wrap
+msgid "**Xfdesktop** also continues to provide access to the applications menu, as it did in the previous Xfce releases.\n"
+msgstr "<b>Xfdesktop</b>은 또한 이전 Xfce 릴리즈에서 동작했던 것처럼 프로그램 메뉴로의 접근을 지속적으로 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:24
+#, no-wrap
+msgid "The desktop icon support goes hand in hand with the new file manager [Thunar](http://thunar.xfce.org/) which replaces the previous file manager **Xffm**.\n"
+msgstr "이전 파일 관리자 <b>Xffm</b>을 바꿀 새로운 파일 관리자 [투나](http://thunar.xfce.org/)에서도 데스크톱 아이콘 지원은 계속됩니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:26
+#, no-wrap
+msgid "![Thunar File Manager][img-thunar]\n"
+msgstr "![투나 파일 관리자][img-thunar]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:28
+#, no-wrap
+msgid "**Thunar** was written from scratch to provide an easy to use, but still very lightweight file manager for Xfce. Its user interface was designed to look similar to the file chooser which was introduced with GTK+ 2.4, and other file managers such as **Nautilus** and **pcmanfm** already picked up that idea as well.\n"
+msgstr "<b>투나</b> 는 간편성을 제공하려면 처음부터 새로 작성했지만, 여전히 가장 가벼운 Xfce의 파일 관리자입니다. 사용자 인터페이스는 GTK+ 2.4에서 도입한 파일 선택기와 유사한 모양새로 디자인하였으며,  <b>노틸러스</b>와 <b>pcmanfm</b>과 같은 다른 파일 관리자에서 유사 개념을 가져왔습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:30
+#, no-wrap
+msgid "**Thunar** supports all the file management functionality which users will expect, and also several advanced features. For example, a so-called *Bulk Renamer* is included which allows users to rename multiple files at once using a certain criterion.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:32
+#, no-wrap
+msgid "![Thunar Bulk Rename][img-thunar-bulk-rename]\n"
+msgstr "![투나 일괄 이름 바꾸기][img-thunar-bulk-rename]\n"
+
+#. type: Title ##
+#: content/about/tour44.md:33
+#, no-wrap
+msgid "Removable Drives and Media"
+msgstr "이동식 드라이브와 미디어"
+
+#. type: Plain text
+#: content/about/tour44.md:36
+#, no-wrap
+msgid "Xfce 4.4.0 provides easy access to data on removable drives and media. Just insert the media into the drive or plug the new drive in to the computer and an icon representing the removable volume will appear on the desktop and in **Thunar**'s side pane.\n"
+msgstr "Xfce 4.4.0에서는 이동식 드라이브와 미디어에 있는 데이터에 쉽게 접근하는 기능을 제공합니다. 미디어를 드라이브에 넣거나 새로운 드라이브를 컴퓨터에 부착하기만 하면 이동식 볼륨을 나타내는 아이콘이 데스크톱과 <b>투나</b>의 가장자리 창에 나타납니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:38
+#, no-wrap
+msgid "![Removable Volumes][img-removable-volumes]\n"
+msgstr "![이동식 볼륨][img-removable-volumes]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:40
+#, no-wrap
+msgid "Click on the icon to automatically mount the volume. Right-click the icon to unmount the drive or eject the media from the drive. Note however that this feature requires [HAL](https://freedesktop.org/wiki/Software_2fhal) and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above at the time of this writing (there is limited removable media support for FreeBSD 4.x and 5.x which does not require HAL).\n"
+msgstr "볼륨을 자동으로 마운트 하려면 아이콘을 누릅니다. 아이콘을 오른쪽 마우스 단추로 누르면 드라이브 마운트를 해제하거나 드라이브에서 미디어를 꺼냅니다. 그러나 이 기능은 [HAL](https://freedesktop.org/wiki/Software_2fhal)을 필요하기 때문에 이 안내문을 쓰는 시점에서 Linux 2.6.x와 FreeBSD 6.x 이상이 필요합니다(FreeBSD 4.x와 5.x 에서는 HAL을 지원하지 않아 이동식 미디어 지원에 제한이 있습니다).\n"
+
+#. type: Title ##
+#: content/about/tour44.md:41
+#, no-wrap
+msgid "Text Editor"
+msgstr "텍스트 편집기"
+
+#. type: Plain text
+#: content/about/tour44.md:44
+#, no-wrap
+msgid "The new text editor **MousePad** is included with this release. **MousePad** provides all the basic editor functionality, nothing more, nothing less.\n"
+msgstr "새로운 텍스트 편집기 <b>마우스패드</b>가 이 릴리즈에 들어갔습니다. <b>마우스패드</b>는 그 이상도 그 이하도 아닌 기본적인 편집기 기능을 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:46
+#, no-wrap
+msgid "![MousePad][img-mousepad]\n"
+msgstr "![마우스패드][img-mousepad]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:48
+#, no-wrap
+msgid "You can think of **MousePad** as the equivalent to **NotePad** on Windows. It starts up very fast, usually in less than one second, even on older systems.\n"
+msgstr "<b>마우스패드</b>를 윈도우의 <b>메모장</b>과 동일하게 생각할 수 있습니다. 오래된 시스템에서도 1초 이내로 매우 빠르게 시작합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:52
+#, no-wrap
+msgid "**Xfwm4** continues to be the window manager of the hearts.\n"
+msgstr "<b>Xfwm4</b>은 심장부 로서의 창 관리자 역할을 계속합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:54
+#, no-wrap
+msgid "![Xfwm4 ARGB32][img-xfwm4-argb32]\n"
+msgstr "![Xfwm4 ARGB32][img-xfwm4-argb32]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:56
+#, no-wrap
+msgid "This release features an enhanced compositor, supporting transparent ARGB windows, shadows, window frame transparency and much more.\n"
+msgstr "이 릴리즈에서는 투명 ARGB창, 그림자, 창 틀 투명성 등을 지원하는 개선된 합성처리 기능을 갖추고 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:58
+#, no-wrap
+msgid "![Xfwm4 Switcher][img-xfwm4-switcher]\n"
+msgstr "![Xfwm4 전환기][img-xfwm4-switcher]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:60
+#, no-wrap
+msgid "**Xfwm4** also includes a brand new application switcher, as shown in the screenshot above, which displays all windows from the current workspace with icons and window titles.\n"
+msgstr "<b>Xfwm4</b>는 또한 위의 스크린샷에서 보이는 바와 같이 현재 작업공간의 모든 창을 아이콘과 창 제목을 함께 보여주는 새로운 프로그램 전환기를 포함했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:62
+#, no-wrap
+msgid "![Xfwm4 Themes][img-xfwm4-themes]\n"
+msgstr "![Xfwm4 테마][img-xfwm4-themes]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:64
+#, no-wrap
+msgid "Further on support for multiple image formats for window decoration themes was added, including `PNG`, `GIF` and `SVG` images.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:66
+#, no-wrap
+msgid "![Xfwm4 Tweaks][img-xfwm4-tweaks]\n"
+msgstr "![Xfwm4 기능향상][img-xfwm4-tweaks]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:68
+#, no-wrap
+msgid "Advanced controls for the window manager were also added, allowing thorough tweaking of window behavior.\n"
+msgstr "창 동작의 빈틈 없는 고급 설정을 허용하는 창 관리자 고급 설정 또한 추가 되었습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:72
+#, no-wrap
+msgid "The **Xfce4-panel** was completely rewritten for the Xfce 4.4 release. Multiple panels are supported *out of the box* now and can easily be configured using the new **Panel Manager** shown in the screenshot below.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:74
+#, no-wrap
+msgid "![Panel Manager][img-panel-manager]\n"
+msgstr "![패널 관리자][img-panel-manager]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:76
+#, no-wrap
+msgid "One of the major problems in previous Xfce releases was that every plugin had to be run in the same process as the panel, and hence every plugin was able to crash the whole panel. To address this issue, support for external plugins was added to the panel.\n"
+msgstr "이전 Xfce 릴리즈의 주된 문제중 하나는 모든 플러그인이 패널에서 같은 프로세스로 실행해야 했고 그래서 전체 패널에서 모든 플러그인이 충돌할 수 있다는 것이었습니다. 이 문제를 바로 잡으려면 패널에 외부 플러그인 기능을 추가했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:78
+#, no-wrap
+msgid "![Panel Add Item Dialog][img-panel-additem]\n"
+msgstr "![패널 항목 추가 대화상자][img-panel-additem]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:80
+#, no-wrap
+msgid "Developers of panel plugins can now decide whether the plugin should run as external process or as part of the panel process, depending on the stability of the plugin.\n"
+msgstr "패널 플러그인 개발자는 플러그인이 외부 프로세스에서 실행할지, 아니면 플러그인의 안정성에 의존하여 패널 프로세스의 일부로 실행할지 결정할 수 있습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:82
+#, no-wrap
+msgid "![Panel Icon Box Plugin][img-panel-iconbox]\n"
+msgstr "![패널 아이콘 상자 플러그인][img-panel-iconbox]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:84
+#, no-wrap
+msgid "Since there is now support for multiple panels, the separate **Xftaskbar4** and **Xfce4-iconbox** utilities are no longer required. Instead, both the taskbar and the iconbox are available as panel plugins now.\n"
+msgstr "다중 패널을 지원할 때부터 <b>Xftaskbar4</b>와 <b>Xfce4-iconbox</b> 유틸리티는 더 이상 필요하지 않게 되었습니다. 대신 이제부터 작업 표시즐과 아이콘 상자는 패널 플러그인으로 존재합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:86
+#, no-wrap
+msgid "Most of the additional panel plugins, available via the [Xfce Goodies Project](https://goodies.xfce.org/), have been updated for the new panel, and several new plugins were added. For example, the brand new **xfce4-xfapplet-plugin** allows users to add GNOME panel applets to the Xfce panel.\n"
+msgstr "추가 패널 플러그인의 대부분은 [Xfce Goodies 프로젝트](https://goodies.xfce.org/)에 있으며, 새 패널에 대해 업데이트 했고, 수많은 새 플러그인을 추가했습니다. 예를 들어, 완전히 새로운 <b>xfce4-xfapplet-plugin</b>은 그놈 패널 애플릿을 Xfce 패널에 추가할 수 있게 해줍니다.\n"
+
+#. type: Title ##
+#: content/about/tour44.md:87
+#, no-wrap
+msgid "Time Management"
+msgstr "시간관리"
+
+#. type: Plain text
+#: content/about/tour44.md:90
+#, no-wrap
+msgid "The new time management application **Orage** replaces the **Xfcalendar**, which was introduced with Xfce 4.2.0. **Orage** provides several features to efficiently manage your time.\n"
+msgstr "새 시간 관리 프로그램 <b>오라쥬</b>는 Xfce 4.2.0에서 도입한 <b>Xfcalendar</b>를 대신합니다. <b>오라쥬</b>는 여러분의 시간을 효율적으로 관리하는 수많은 기능을 제공합니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:92
+#, no-wrap
+msgid "![Orage][img-orage]\n"
+msgstr "![오라쥬][img-orage]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:94
+#, no-wrap
+msgid "While **Orage** is very lightweight and easy to use, it supports all the important features found in larger calendar applications like **Outlook** or **Evolution**. While **Xfcalendar** used the custom `dbh` format in the past to store your settings, **Orage** is based on `ical` and therefore compatible with other calendar applications.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:95
+#, no-wrap
+msgid "Terminal Emulator"
+msgstr "터미널 에뮬레이터"
+
+#. type: Plain text
+#: content/about/tour44.md:98
+#, no-wrap
+msgid "While **Terminal** was already available during the 4.2 days, it was not mature enough at that time to be part of the core. With this major release, it was moved into the core desktop.\n"
+msgstr "<b>터미널</b>은 4.2 때부터 사용할 수 있었지만, 핵심 요소로서 제때 성숙하지 못했습니다. 이번 주 릴리즈에서는 핵심 데스크톱 요소로 자리매김했습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:100
+#, no-wrap
+msgid "![Terminal][img-terminal]\n"
+msgstr "![터미널][img-terminal]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:102
+#, no-wrap
+msgid "Besides the basic features which you might expect from a terminal emulator, it includes some nice additional features, like multiple tabs per window, customizable toolbars and the ability to configure nearly every aspect of the application via *hidden options*. As can be seen in the screenshot above, this release also supports real transparency using **Xfwm4**'s integrated composition manager.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:103
+#, no-wrap
+msgid "Printing"
+msgstr "인쇄"
+
+#. type: Plain text
+#: content/about/tour44.md:106
+#, no-wrap
+msgid "**Xfprint**, the Xfce printing management application, saw several small improvements with this release. First, the `a2ps` converter is not mandatory anymore, whilst still recommended. Support for `CUPS` 1.2 was added and **Xfprint** is now able to display the printer state with the `CUPS`-backend.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:108
+#, no-wrap
+msgid "![Xfce Printing][img-xfprint]\n"
+msgstr "![Xfce 인쇄][img-xfprint]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:110
+#, no-wrap
+msgid "**Xfprint** also integrates with **MousePad** to provide generic printing support for different kinds of text documents using the `a2ps` converter.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:112
+#, no-wrap
+msgid "![Xfce Print Dialog][img-xfprint-dialog]\n"
+msgstr "![Xfce 인쇄 대화상자][img-xfprint-dialog]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:114
+#, no-wrap
+msgid "As you can see the print dialog still looks relatively similar to that of Xfce 4.2, but the internal workings of the printing support were improved, especially the `CUPS` support. Besides that, the printing management functionality was moved to a library, so other applications can use the API to access the printer configuration.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:115
+#, no-wrap
+msgid "Autostart"
+msgstr "자동 시작"
+
+#. type: Plain text
+#: content/about/tour44.md:118
+#, no-wrap
+msgid "Xfce 4.4.0 implements the new [Autostart Specification](https://freedesktop.org/wiki/Standards_2fautostart_2dspec) - actually Xfce was the first desktop to implement said feature, but the others were faster to release. ;-)\n"
+msgstr "Xfce 4.4.0은 새로운 [자동시작 명세](https://freedesktop.org/wiki/Standards_2fautostart_2dspec)를 구현했습니다 - 실제로 Xfce가 언급한 기능을 처음 구현한 데스크톱이지만 다른 데스크톱이 먼저 릴리즈 했습니다. ;-)\n"
+
+#. type: Plain text
+#: content/about/tour44.md:120
+#, no-wrap
+msgid "![Xfce Autostart Editor][img-autostart]\n"
+msgstr "![Xfce 자동 시작 편집기][img-autostart]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:122
+#, no-wrap
+msgid "The specification consists of two parts, the *Autostart of Applications During Startup*, which is implemented in **xfce4-session** and the *Autostart Of Applications After Mount* which is implemented in [thunar-volman](http://foo-projects.org/~benny/projects/thunar-volman/index.html). This release also includes the **xfce4-autostart-editor**, shown in the screenshot above, which allows users to easily add, remove or disable autostarted applications.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:126
+#, no-wrap
+msgid "This release introduces new options to customize the desktop to your needs. Some examples of new settings dialogs were already shown in the sections above.\n"
+msgstr "이 릴리즈는 여러분이 데스크톱을 취향대로 설정하기 위한 새 옵션을 도입했습니다. 새 설정 대화상자의 예는 섹션 상단에서 이미 보여드렸습니다.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:128
+#, no-wrap
+msgid "![Preferred Applications][img-preferences-applications]\n"
+msgstr "![기본 프로그램][img-preferences-applications]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:130
+#, no-wrap
+msgid "The preferred applications framework, which was previously only available in **Terminal**, was imported into Xfce, so users no longer need to edit shell profiles to specify which browser and terminal emulator should be used by Xfce applications. The goal was to make it as easy as possible to change an application for a certain category (GNOME users may have already noticed that GNOME adopted this approach, because it is such simple).\n"
+msgstr "이전에는 <b>터미널</b> 에서만 가능하던 기본 프로그램 프레임워크가 Xfce에 들어옴으로서, 사용자가 더 이상 Xfce 프로그램에서 사용할 브라우저와 터미널 에뮬레이터를 지정하려면 쉘 프로파일을 편집할 필요가 없어졌습니다. 이의 목표는 제각각의 분류에 대해 프로그램을 쉽게 바꿀 수 있게 하려는 것이었습니다(그놈 사용자는 아마도 이 방법이 단순한 방법이기 때문에 GNOME과 비슷한 방법인 것으로 알고 있을지도 모릅니다).\n"
+
+#. type: Plain text
+#: content/about/tour44.md:132
+#, no-wrap
+msgid "![Keyboard Shortcuts][img-preferences-keyboard]\n"
+msgstr "![키보드 바로 가기 키][img-preferences-keyboard]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:134
+#, no-wrap
+msgid "And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number of freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts. With Xfce 4.4 this limitation is history and the application shortcuts are now separated from the window manager shortcuts.\n"
+msgstr "그리고 Xfce 4.2의 키보드 바로 가기 키에 문제가 있었습니다... Xfce 4.2는 비록 사용자가 몇가지 키보드 바로 가기 키를 할당하기를 원했지만 자유롭게 사용가능한 키보드 바로 가기 키의 수에 제한을 두었습니다. Xfce 4.4에서는 이 제한을 역사속에 남겨두고 이제부터 프로그램 바로 가기 키를 창 관리자 바로 가기 키로부터 구분지었습니다.\n"
+
+#. type: Title ##
+#: content/about/tour44.md:135
+#, no-wrap
+msgid "Feedback"
+msgstr "피드백"
+
+#. type: Plain text
+#: content/about/tour44.md:138
+#, no-wrap
+msgid "Please post comments on this article in my [blog](http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html) and use the [xfce](/community/lists) mailinglist if you have questions about Xfce 4.4.0 or trouble with the installation.\n"
+msgstr "제 [블로그](http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html)의 게시글에 댓글을 달아 주시기 바라며 Xfce 4.4.0에 대한 질문이 있거나 설치에 문제가 있는경우 [xfce](/community/lists) 메일링 리스트를 사용해주십시오.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour44.md:143
+#, no-wrap
+msgid "[Thunar website](http://thunar.xfce.org/)\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:147
+#, no-wrap
+msgid "Written by Benedikt Meurer, 21 Jan 2007\n"
+msgstr "Benedikt Meurer가 2007년 1월 21일 작성함\n"
+
+#. type: Link reference
+#: content/about/tour44.md:148
+#, no-wrap
+msgid "[img-desktop-icons]: //cdn.xfce.org/about/tour/4.4/desktop-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:149
+#, no-wrap
+msgid "[img-desktop-settings]: //cdn.xfce.org/about/tour/4.4/desktop-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:150
+#, no-wrap
+msgid "[img-thunar]: //cdn.xfce.org/about/tour/4.4/thunar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:151
+#, no-wrap
+msgid "[img-thunar-bulk-rename]: //cdn.xfce.org/about/tour/4.4/thunar-bulk-rename.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:152
+#, no-wrap
+msgid "[img-removable-volumes]: //cdn.xfce.org/about/tour/4.4/removable-volumes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:153
+#, no-wrap
+msgid "[img-mousepad]: //cdn.xfce.org/about/tour/4.4/mousepad.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:154
+#, no-wrap
+msgid "[img-xfwm4-argb32]: //cdn.xfce.org/about/tour/4.4/xfwm4-argb32.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:155
+#, no-wrap
+msgid "[img-xfwm4-switcher]: //cdn.xfce.org/about/tour/4.4/xfwm4-switcher.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:156
+#, no-wrap
+msgid "[img-xfwm4-themes]: //cdn.xfce.org/about/tour/4.4/xfwm4-themes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:157
+#, no-wrap
+msgid "[img-xfwm4-tweaks]: //cdn.xfce.org/about/tour/4.4/xfwm4-tweaks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:158
+#, no-wrap
+msgid "[img-panel-manager]: //cdn.xfce.org/about/tour/4.4/panel-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:159
+#, no-wrap
+msgid "[img-panel-additem]: //cdn.xfce.org/about/tour/4.4/panel-additem.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:160
+#, no-wrap
+msgid "[img-panel-iconbox]: //cdn.xfce.org/about/tour/4.4/panel-iconbox.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:161
+#, no-wrap
+msgid "[img-orage]: //cdn.xfce.org/about/tour/4.4/orage.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:162
+#, no-wrap
+msgid "[img-terminal]: //cdn.xfce.org/about/tour/4.4/terminal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:163
+#, no-wrap
+msgid "[img-xfprint]: //cdn.xfce.org/about/tour/4.4/xfprint.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:164
+#, no-wrap
+msgid "[img-xfprint-dialog]: //cdn.xfce.org/about/tour/4.4/xfprint-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:165
+#, no-wrap
+msgid "[img-autostart]: //cdn.xfce.org/about/tour/4.4/autostart.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:166
+#, fuzzy, no-wrap
+#| msgid "![Preferred Applications][img-preferences-applications]\n"
+msgid "[img-preferences-applications]: //cdn.xfce.org/about/tour/4.4/preferences-applications.png"
+msgstr "![기본 프로그램][img-preferences-applications]\n"
+
+#. type: Link reference
+#: content/about/tour44.md:167
+#, no-wrap
+msgid "[img-preferences-keyboard]: //cdn.xfce.org/about/tour/4.4/preferences-keyboard.png"
 msgstr ""

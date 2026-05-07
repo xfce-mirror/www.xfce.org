@@ -57,7 +57,7 @@ def html_to_md(text: str) -> str:
 
 def build_lookup(po_path: Path) -> dict[str, str]:
     """Build msgid → msgstr map with raw, stripped, and HTML-normalized keys."""
-    po = polib.pofile(str(po_path))
+    po = polib.pofile(str(po_path), wrapwidth=0)
     lookup: dict[str, str] = {}
     for entry in po:
         if entry.msgstr and 'fuzzy' not in entry.flags:
@@ -74,6 +74,7 @@ def build_lookup(po_path: Path) -> dict[str, str]:
 def find_translation(msgid: str, lookup: dict[str, str]) -> str:
     """Look up translation using exact, stripped-newline, and HTML-equivalent strategies."""
     stripped = msgid.rstrip('\n')
+    trailing_newline = msgid.endswith('\n')
 
     # Strategy 1 & 2: exact and stripped
     for key in (msgid, stripped):
@@ -86,6 +87,34 @@ def find_translation(msgid: str, lookup: dict[str, str]) -> str:
         msgstr = html_to_md(lookup[html_equiv])
         return msgstr
 
+    # Strategy 4: normalize <strong>/<em> → <b>/<i> to match legacy PO style
+    # (markdown **bold** converts to <strong> but legacy PHP used <b>)
+    normalized_b = (html_equiv
+                    .replace('<strong>', '<b>').replace('</strong>', '</b>')
+                    .replace('<em>', '<i>').replace('</em>', '</i>'))
+    if normalized_b in lookup:
+        msgstr = html_to_md(lookup[normalized_b])
+        return msgstr
+
+    # Strategy 5: reference-style image ![caption][ref] — look up caption alone,
+    # reconstruct translated image line with same reference key.
+    m = re.match(r'^!\[([^\]]+)\]\[([^\]]+)\]$', stripped)
+    if m:
+        caption, ref = m.group(1), m.group(2)
+        translated_caption = find_translation(caption, lookup)
+        if translated_caption:
+            result = f'![{translated_caption.rstrip(chr(10))}][{ref}]'
+            return result + '\n' if trailing_newline else result
+
+    # Strategy 6: HTML-wrapped block — extract inner text, translate it, substitute back.
+    # Handles e.g. <p align="right"><small>text</small></p> where legacy PO has just "text".
+    inner = re.sub(r'<[^>]+>', '', stripped).strip()
+    if inner and inner != stripped:
+        inner_translation = find_translation(inner, lookup)
+        if inner_translation:
+            result = stripped.replace(inner, inner_translation.rstrip('\n'), 1)
+            return result + '\n' if trailing_newline else result
+
     return ''
 
 
@@ -95,10 +124,10 @@ def seed_po(pot_path: Path, lang: str, legacy_lang: str) -> None:
         print(f'  skip {lang}: no legacy PO found')
         return
 
-    pot = polib.pofile(str(pot_path))
+    pot = polib.pofile(str(pot_path), wrapwidth=0)
     lookup = build_lookup(compendium)
 
-    out = polib.POFile()
+    out = polib.POFile(wrapwidth=0)
     out.metadata = pot.metadata.copy()
     out.metadata['Language'] = lang
 

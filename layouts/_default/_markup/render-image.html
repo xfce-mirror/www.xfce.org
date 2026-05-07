@@ -1,0 +1,12 @@
+{{- /*
+  Render hook: matches the legacy PHP print_figure() output so existing
+  CDN CSS (div.figure, p.image) applies without changes.
+  Use reference-style images so po4a extracts clean captions:
+    ![Caption text][ref]
+    [ref]: //cdn.xfce.org/path/to/image.png
+*/ -}}
+<div class="figure">
+<p class="image"><img src="{{ .Destination }}" alt="{{ .Text }}"></p>
+<p>{{ .Text }}</p>
+</div>
+

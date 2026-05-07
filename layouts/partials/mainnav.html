@@ -23,7 +23,7 @@
       {{- $lang := .Lang }}
       {{- $url := $barePath }}
       {{- if ne $lang "en" }}{{ $url = printf "/%s%s" $lang $barePath }}{{ end }}
-      <option value="{{ $url }}"{{ if eq $lang $currentLang }} selected="selected"{{ end }}>{{ .LanguageName }}</option>
+      <option value="{{ $url }}"{{ if eq $lang $currentLang }} selected="selected"{{ end }}>{{ .Label }}</option>
       {{- end }}
     </select>
     <button type="submit" class="hidden">{{ i18n "Change language" }}</button>

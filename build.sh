@@ -13,6 +13,9 @@ python3 "$REPO_ROOT/scripts/po2hugo.py"
 echo "==> Generating translated content files..."
 po4a --no-update "$REPO_ROOT/po4a.cfg"
 
+echo "==> Fixing tight lists in translated files..."
+python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
+
 echo "==> Building Hugo site..."
 hugo --source "$REPO_ROOT" --destination "$REPO_ROOT/dist"
 

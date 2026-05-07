@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-04-29 12:09+0200\n"
+"POT-Creation-Date: 2026-05-03 13:50+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -119,8 +119,8 @@ msgstr "Traits"
 msgid "Xfce contains a number of core components for the minimum tasks you'd expect from a desktop environment:\n"
 msgstr "Xfce conten un certan nombre de components de basa per los prètzfaits minimals que vous attendez d'un environament de burèu :\n"
 
-#. type: Title ###
-#: content/about/_index.md:18
+#. type: Title ##
+#: content/about/_index.md:18 content/about/tour44.md:49
 #, no-wrap
 msgid "Window Manager"
 msgstr "Gestionari de fenèstras"
@@ -143,8 +143,8 @@ msgstr "Gestionari de burèu"
 msgid "Sets the background image and provides a root window menu, desktop icons or minimized icons and a windows list.\n"
 msgstr "Definís l'imatge de fons e ofrís un menú de la fenèstra raiç, las icònas del burèu o de las icònas redusidas e una lista de las fenèstras.\n"
 
-#. type: Title ###
-#: content/about/_index.md:26
+#. type: Title ##
+#: content/about/_index.md:26 content/about/tour44.md:69
 #, no-wrap
 msgid "Panel"
 msgstr "Panèl"
@@ -179,8 +179,8 @@ msgstr "Recèrca d'aplicacion"
 msgid "Shows the applications installed on your system in categories, so you can quickly find and launch them.\n"
 msgstr "Aficha las aplicacions installadas sus vòstre sistèma en categorias, de tal biais que las poscatz trobar e las aviar rapidament.\n"
 
-#. type: Title ###
-#: content/about/_index.md:38
+#. type: Title ##
+#: content/about/_index.md:38 content/about/tour44.md:21
 #, no-wrap
 msgid "File Manager"
 msgstr "Gestionari de fichièrs"
@@ -192,7 +192,7 @@ msgid "Provides the basic file-management features and unique utilities like the
 msgstr ""
 
 #. type: Title ###
-#: content/about/_index.md:42
+#: content/about/_index.md:42 content/about/tour410.md:69
 #, no-wrap
 msgid "Settings Manager"
 msgstr "Gestionari de paramètres"
@@ -303,4 +303,5187 @@ msgstr ""
 #: content/getinvolved/_index.md:34
 #, no-wrap
 msgid "If you want to fund the project, you can use OpenCollective. Xfce has created two collectives, known as [Xfce ($)](https://opencollective.com/xfce) and [Xfce-Eu (€)](https://opencollective.com/xfce-eu) respectively. [Learn More →](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)\n"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour420.md:1
+#, no-wrap
+msgid "Xfce 4.20 tour"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.20. It only covers improvements made on the (user-visible) surface.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:10
+#, no-wrap
+msgid "Check the full [Xfce 4.20 changelog](/download/changelogs/4.20/) for a detailed list of changes.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:11 content/about/tour420.md:204
+#: content/about/tour418.md:223
+#, no-wrap
+msgid "General"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:13
+#, no-wrap
+msgid "Wayland"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:16
+#, no-wrap
+msgid "**Important Notice:** Please be aware that the Wayland support in Xfce 4.20 is experimental. It is recommended for advanced users only, as you may encounter bugs and experience incomplete functionality. Proceed with caution!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:18
+#, no-wrap
+msgid "Thanks to [Brian](https://gitlab.xfce.org/kelnos) and [Gaël](https://gitlab.xfce.org/Tamaranch) almost all Xfce components are able to run on Wayland windowing, while still keeping support for X11 windowing.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:20
+#, no-wrap
+msgid "This major effort was achieved by abstracting away any X11/Wayland windowing specific calls and making use of Wayland/Wlroots protocols. A whole new Xfce library, \"libxfce4windowing\" was introduced during that process. XWayland will not be required to run any of the ported Xfce components.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:22
+#, no-wrap
+msgid "So far Xfce does not feature a compositor which supports Wayland. If you want to run Xfce in Wayland, Labwc and Wayfire will give you the best results. A detailed instruction on this can be found [here](https://wiki.xfce.org/releng/wayland_roadmap#testing). Please be aware that Wayland support is still experimental!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:24
+#, no-wrap
+msgid "Plans are underway to add Wayland support to Xfwm4 while preserving its existing X11 functionality. However, such a restructurization will be a major effort and we cannot tell yet when/if it will be done, so please don't hold your breath waiting for it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:26
+#, no-wrap
+msgid "For few components and multiple features, it was not possible to port them to Wayland, partly because there are no standardized Wayland protocols available yet to provide the required services:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Workspace support is missing (ext-workspace protocol [was just merged](https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/40)).\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Systray icons will be missing for multiple applications (required to use StatusNotifier instead of GtkStatusIcon)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Xfce4-settings: Keyboard and mouse settings so far are internal to the Wayland compositor and as such the according Xfce dialogs won't be available on Wayland yet.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Power related keyboard handling (brightness keys, suspend, etc.) is internal to the Wayland compositor and as such cannot be supported yet by Xfce components.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:32
+#, no-wrap
+msgid "Wayland does not specify a native protocol for taking screenshots. However, xfce4-screenshooter already supports screenshots via the wlroots 'screencopy' protocol (entire screen). Screenshots of a rectangle selection or the active window are not yet supported via Wayland.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:34
+#, no-wrap
+msgid "Some other Xfce components don't run at all on Wayland:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfwm4\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfdashboard\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-screensaver (porting to Wayland [completed but not merged](https://gitlab.xfce.org/apps/xfce4-screensaver/-/merge_requests/28), as it requires the experimental [libwlembed library](https://gitlab.xfce.org/kelnos/libwlembed))\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-windowck-plugin (needs to be [ported to libxfce4windowing](https://gitlab.xfce.org/panel-plugins/xfce4-windowck-plugin/-/issues/37))\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:40
+#, no-wrap
+msgid "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:42
+#, no-wrap
+msgid "More detailed info on the current Wayland status can be found on our [Wayland roadmap.](https://wiki.xfce.org/releng/wayland_roadmap)\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:43 content/about/tour418.md:225
+#, no-wrap
+msgid "Scaling"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:46
+#, no-wrap
+msgid "Icons and thumbnail scaling was fixed for various components. Various missing icons for larger scales were added. Any blurriness when using Xfce components on a HiDPI display should be gone now.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:47
+#, no-wrap
+msgid "[exo](https://docs.xfce.org/xfce/exo/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:49
+#, no-wrap
+msgid "Icon View Performance"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:52
+#, no-wrap
+msgid "By using different container types, the \"Exo-Icon-View\" now can handle 100,000 files and more without freezing.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:53
+#, no-wrap
+msgid "Type ahead search box"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:56
+#, no-wrap
+msgid "The type ahead search box in the exo icon view now always stays inside the according view widget.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:57
+#, no-wrap
+msgid "[libxfce4ui](https://docs.xfce.org/xfce/libxfce4ui/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:59
+#, no-wrap
+msgid "Shortcut Editor"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:62
+#, no-wrap
+msgid "Shortcuts now can be used for multiple actions if they don't conflict with each other.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:63
+#, no-wrap
+msgid "About Dialog"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:66
+#, no-wrap
+msgid "The dialog now shows the distribution logo, information about the used windowing system and the used GPU.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:68
+#, no-wrap
+msgid "![libxfce4ui - about dialog][img-libxfce4ui_about]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:69
+#, no-wrap
+msgid "[libxfce4windowing](https://docs.xfce.org/xfce/libxfce4windowing/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:72
+#, no-wrap
+msgid "This library is new to Xfce. Libxfce4windowing is an abstraction library that attempts to present windowing concepts (screens, top level windows, workspaces, etc.) in a windowing-system-independent manner.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:74
+#, no-wrap
+msgid "Currently, X11 is fully supported via libwnck. Wayland is partially supported by using various Wayland protocol extensions. However, the full range of operations available on X11 is not available on Wayland, due to missing features in these protocols extensions.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:75
+#, no-wrap
+msgid "[thunar](https://docs.xfce.org/xfce/thunar/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:77
+#, no-wrap
+msgid "Mounted and Remote Locations"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:80
+#, no-wrap
+msgid "Mount points now show an emblem and have a specific type description.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:82
+#, no-wrap
+msgid "Ipv6 remote URLs are now supported.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:84
+#, no-wrap
+msgid "It is now possible to create symbolic links as well on remote locations.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:85
+#, no-wrap
+msgid "Search"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:88
+#, no-wrap
+msgid "It is not required any more to wait until a search is finished to open the context menu on search results.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:89 content/about/tour418.md:107
+#, no-wrap
+msgid "Toolbar"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:92
+#, no-wrap
+msgid "A couple of new toolbar buttons were added:\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "View Switcher - A drop-down button to select a view.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "Menu - This hamburger button will show automatically in the toolbar, when the menubar is hidden. It will reveal a vertical menu, bar, when pressed.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "New Tab - Open a new tab using the current directory.\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour420.md:97
+#, no-wrap
+msgid "New Window - Open a new window using the current directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:99
+#, no-wrap
+msgid "![thunar - new toolbar buttons][img-thunar_toolbar_new_items]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:101
+#, no-wrap
+msgid "![thunar - improved hamburger toolbar button][img-thunar_toolbar_hamburger]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:103
+#, no-wrap
+msgid "On shrinking the Thunar window, toolbar items will now be moved to an overflow menu. Like that, it is possible to maintain smaller thunar windows.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:105
+#, no-wrap
+msgid "Furthermore, a bug was fixed which prevented the usage of submenu custom actions in the toolbar.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:106
+#, no-wrap
+msgid "Window Decorations"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:109
+#, no-wrap
+msgid "There is now an option to use client side decorations in Thunar (CSD).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:111
+#, no-wrap
+msgid "![thunar - CSD with menu][img-thunar_csd_with_menu]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:113
+#, no-wrap
+msgid "![thunar - CSD without menu][img-thunar_csd_without_menu]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:114 content/about/tour418.md:127
+#, no-wrap
+msgid "Statusbar"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:117
+#, no-wrap
+msgid "An option to show the number of hidden files in the statusbar was added.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:118
+#, no-wrap
+msgid "Recently Used Files"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:121
+#, no-wrap
+msgid "Only files which were successfully opened are now added to the list of recently used files.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:123
+#, no-wrap
+msgid "Directories won't be added to the recently used files anymore.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:124
+#, no-wrap
+msgid "Symbolic Icons"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:127
+#, no-wrap
+msgid "There is now an option to use symbolic icons in the side pane and colored icons in the toolbar.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:129
+#, no-wrap
+msgid "![thunar - symbolic icons][img-thunar_symbolic_icons]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:131
+#, no-wrap
+msgid "![thunar - colored icons][img-thunar_colored_icons]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:132
+#, no-wrap
+msgid "Drag and Drop"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:135
+#, no-wrap
+msgid "While dragging files, folders are now opened automatically on hover.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:137
+#, no-wrap
+msgid "While dragging files, the focus of the split view pane is now updated when hovered.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:138
+#, no-wrap
+msgid "Performance"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:141
+#, no-wrap
+msgid "In the past, you might have faced situation involving bigger numbers of files in which thunar showed a freeze. Due to various different performance measures, thunar now is much more bullet-proof for action involving huge numbers of files.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:143
+#, no-wrap
+msgid "This was achieved by using appropriate container types, moving some actions into separate jobs and throttling of view-updates.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:145
+#, no-wrap
+msgid "A [number of integration test cases](https://wiki.xfce.org/thunar/dev/integration_testcases) will be used in order to keep performance on the current level in the future.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:146 content/about/tour418.md:171
+#, no-wrap
+msgid "Custom Actions"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:149
+#, no-wrap
+msgid "Shortcuts for custom action will now as well work when the custom action is located in a sub-menu.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:150
+#, no-wrap
+msgid "File Transfer"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:153
+#, no-wrap
+msgid "For file validation in thunar 4.18.x a md5 checksum was calculated for source and target file. This calculation turned out to be rather slow and actually superfluous. Now files are just compared directly. In addition, the usage of direct I/O operations now attempts to prevent comparison of possibly cached buffers.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:155
+#, no-wrap
+msgid "An option was added to only copy files in parallel if the relevant devices are in idle state. This prevents possible fragmentation during copy for HDD drives.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:157
+#, no-wrap
+msgid "Transferring files no longer steals the current focus.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:159
+#, no-wrap
+msgid "The file transfer question dialog now provides the same options while having less buttons. In addition, file thumbnails now are properly requested by the dialog.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:161
+#, no-wrap
+msgid "![thunar - file transfer dialog][img-thunar_transfer_dialog]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:162
+#, no-wrap
+msgid "Launchers"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:165
+#, no-wrap
+msgid "By default, launcher names instead of filenames are shown now for trusted launchers.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:166
+#, no-wrap
+msgid "Undo/Redo"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:169
+#, no-wrap
+msgid "The user now will be asked before any deletion will be done by an undo operation.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:170 content/about/tour418.md:73
+#, no-wrap
+msgid "List View"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:173
+#, no-wrap
+msgid "Similar to the tree-view side pane, the main view now also supports folder expansion.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:175
+#, no-wrap
+msgid "![thunar - expandable folders][img-thunar_expandable_folders]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:176 content/about/tour418.md:121
+#, no-wrap
+msgid "Split View"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:179
+#, no-wrap
+msgid "A shortcut now can be used to toggle between split-view panes, and the focused pane now uses different coloring.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:181
+#, no-wrap
+msgid "![thunar - split view][img-thunar_split_view]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:183
+#, no-wrap
+msgid "A dialog will now ask for confirmation when closing a split-pane with multiple tabs.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:184
+#, no-wrap
+msgid "[xfce4-appfinder](https://docs.xfce.org/xfce/xfce4-appfinder/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:187
+#, no-wrap
+msgid "The application list now as well can be navigated via Ctrl+N / Ctrl+P keys (VI default).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:189
+#, no-wrap
+msgid "An option was added to close the Appfinder window automatically when focus is lost.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:191
+#, no-wrap
+msgid "Ctrl+Enter can be used to execute commands immediately when selecting entries from the dropdown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:193
+#, no-wrap
+msgid "Within the new version, application specific actions will show on right click.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:195
+#, no-wrap
+msgid "An option to show generic names of launchers was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:197
+#, no-wrap
+msgid "Appfinder optionally can now be launched as a daemon, so that it will respond even quicker.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:199
+#, no-wrap
+msgid "An option allows now to launch items on a single click.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:201
+#, no-wrap
+msgid "![xfce4-appfinder - settings][img-appfinder_new]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:202
+#, no-wrap
+msgid "[xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:207
+#, no-wrap
+msgid "The border width of the panel is now configurable.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:209
+#, no-wrap
+msgid "For manual installations: the panel now does its best to find plugins in XDG base directories, and better preserves its configuration when it can't find them.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:210
+#, no-wrap
+msgid "Clock"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:213
+#, no-wrap
+msgid "LCD clock: An option was added to visualize inactive segments.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:215
+#, no-wrap
+msgid "Analog: There is now an optional 24h mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:217
+#, no-wrap
+msgid "Digital: Week numbers now are shown optionally.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:218
+#, no-wrap
+msgid "Show Desktop"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:221
+#, no-wrap
+msgid "There is now the possibility to show the desktop when hovering the mouse on the \"show desktop\" panel icon.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:222
+#, no-wrap
+msgid "Tasklist"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:225
+#, no-wrap
+msgid "Icon size management has been improved overall, notably by switching to libxfce4windowing.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:226 content/about/tour420.md:354
+#: content/about/tour418.md:179
+#, no-wrap
+msgid "Preferences"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:229
+#, no-wrap
+msgid "The 'delete' key can now be used to remove panel objects, and several objects can be removed at once.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:231
+#, no-wrap
+msgid "Panel objects in the panel configuration list now will have the same icons as in the panel itself.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:233
+#, no-wrap
+msgid "![xfce4-panel - panel configuration list][img-panel_item_list]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:234
+#, no-wrap
+msgid "[xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:236
+#, no-wrap
+msgid "Screen Locking"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:239
+#, no-wrap
+msgid "There is no dedicated \"security\" tab anymore. Lock screen management was massively simplified and \"Light Locker\" was dropped. \"lock-on-sleep\" is now synchronized with xfce4-session and xfce4-screensaver.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:241
+#, no-wrap
+msgid "Screen locking settings are now only handled by xfce4-screensaver to avoid conflicts. A button to open xfce4-screensaver-preferences was added:\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:243
+#, no-wrap
+msgid "![xfce4-power-manager - settings][img-power_manager_settings]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:245
+#, no-wrap
+msgid "![xfce4-screensaver - settings][img-power_manager_screensaver]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:246
+#, no-wrap
+msgid "Power Settings"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:249
+#, no-wrap
+msgid "Support for handling different power profiles via power-profiles-daemon was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:251
+#, no-wrap
+msgid "The overall charge state calculation was wrong for some cases and is now fixed.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:253
+#, no-wrap
+msgid "When the critical power dialog pops up, unintentional user actions are now prevented.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:255
+#, no-wrap
+msgid "There is now support for the hybrid sleep mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:257
+#, no-wrap
+msgid "The device details tab now as well shows the energy rate.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:258
+#, no-wrap
+msgid "Others"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:261
+#, no-wrap
+msgid "Several use-cases for lid close were fixed.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:263
+#, no-wrap
+msgid "There are now the options \"shutdown\" and \"do nothing\" on lid close.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:265
+#, no-wrap
+msgid "Buttons to change the brightness exponentially and keyboard backlight toggle keys now are supported.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:266
+#, no-wrap
+msgid "[xfce4-session](https://docs.xfce.org/xfce/xfce4-session/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:269
+#, no-wrap
+msgid "The logout dialog will not provide a checkbox to enable session saving anymore.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:271
+#, no-wrap
+msgid "It is now possible to start a Wayland session via 'startxfce4 --wayland'.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:273
+#, no-wrap
+msgid "Minimal support for xdg-desktop-portal was added by registering for a wallpaper, screenshot and background xapp.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:274
+#, no-wrap
+msgid "[xfce4-settings](https://docs.xfce.org/xfce/xfce4-settings/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:276 content/about/tour418.md:65
+#: content/about/tour412.md:73 content/about/tour410.md:95
+#, no-wrap
+msgid "Appearance Settings"
+msgstr "Paramètres d'aparéncia"
+
+#. type: Plain text
+#: content/about/tour420.md:279
+#, no-wrap
+msgid "Icon themes are now loaded in a separate thread, in order to prevent a possible freeze.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:281
+#, no-wrap
+msgid "For icon themes which are known to be incomplete, a warning now will be shown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:283
+#, no-wrap
+msgid "The usage of client side decorations is opt-in now, not opt-out.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:285
+#, no-wrap
+msgid "Dark themes now are identified and supported in a more reliable way. (Relevant e.g. for the Qogir and Orchis themes)\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:286 content/about/tour418.md:59
+#: content/about/tour412.md:65
+#, no-wrap
+msgid "Display Settings"
+msgstr "Paramètres d’afichatge"
+
+#. type: Plain text
+#: content/about/tour420.md:289
+#, no-wrap
+msgid "The default display profile has been added to the list of profiles that can match, and will be used if more than one matches now.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:291
+#, no-wrap
+msgid "Profile management has been extended to all profiles, not just those that match, and their names can now be edited.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:293
+#, no-wrap
+msgid "Scaling now always is done for both dimensions, and the preview shows the resulting size.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:295
+#, no-wrap
+msgid "Mirror state management has been improved overall, in particular by removing the need to match refresh rates.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:297
+#, no-wrap
+msgid "The minimal dialog has been improved, in particular by allowing the display to be extended to the left and from top to bottom, and with compact profile display.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:299
+#, no-wrap
+msgid "![xfce4-settings - minimal display][img-settings_display]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:300
+#, no-wrap
+msgid "Mouse Settings"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:303
+#, no-wrap
+msgid "A checkbox was added to toggle between adaptive and flat mouse accel profile.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:305
+#, no-wrap
+msgid "High resolution scrolling can now be enabled for mice which do support it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:307
+#, no-wrap
+msgid "![xfce4-settings - mouse][img-settings_mouse]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:308
+#, no-wrap
+msgid "Mime Settings"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:311
+#, no-wrap
+msgid "It is now possible to select/change multiple items at once.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:312
+#, no-wrap
+msgid "[xfconf](https://docs.xfce.org/xfce/xfconf/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:315
+#, no-wrap
+msgid "A systemd user unit, corresponding to the D-Bus session service, is now added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:317
+#, no-wrap
+msgid "Whitespaces are now properly escaped when writing a xfconf channel to disk.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:319
+#, no-wrap
+msgid "Xfconf-query now displays array contents.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:320
+#, no-wrap
+msgid "[xfdesktop](https://docs.xfce.org/xfce/xfdesktop/start)"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:322
+#, no-wrap
+msgid "Background Management"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:325
+#, no-wrap
+msgid "For random wallpaper cycling, wallpapers now are only repeated after all other wallpapers were shown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:327
+#, no-wrap
+msgid "Old Xfce backgrounds were ported from .png to .svg to be usable for large screens.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:329
+#, no-wrap
+msgid "Gradients will now be rendered in a gamma-correct way.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:330
+#, no-wrap
+msgid "Icon grid"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:333
+#, no-wrap
+msgid "The confirmation dialog for arranging desktop icons now is optional.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:335
+#, no-wrap
+msgid "It is now possible to set custom colors for icon labels and icon background.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:337
+#, no-wrap
+msgid "The icon grid on each monitor is now independent of one another.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:338
+#, no-wrap
+msgid "Minimized Application Icons"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:341
+#, no-wrap
+msgid "Window icons are now initially shown on the monitor where the window was present before being minimized.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:343
+#, no-wrap
+msgid "The context menu (when clicking on an empty space) now has more useful options than before.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:344
+#, no-wrap
+msgid "File Icons"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:347
+#, no-wrap
+msgid "There is now an option to sort folders before files.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:349
+#, no-wrap
+msgid "The positions of the icons are now saved in a way that should avoid icons moving around in unexpected ways when monitors are added and removed.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:351
+#, no-wrap
+msgid "New files and dropped files now will be placed near the current cursor location.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:353
+#, no-wrap
+msgid "Icons of fixed disks and drives can now be optionally shown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:357
+#, no-wrap
+msgid "The 'Desktop Icons' tab was fully reworked.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:359
+#, no-wrap
+msgid "![xfdesktop - settings - desktop icons][img-xfdesktop_settings_icons]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:361
+#, no-wrap
+msgid "All shortcuts of Xfdesktop now can be configured, using the XfceShortcutsManagers widget.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:363
+#, no-wrap
+msgid "![xfdesktop - settings - keyboard shortcuts][img-xfdesktop_settings_shortcuts]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:365
+#, no-wrap
+msgid "More folders that hold background images were added as shortcuts in the settings dialog.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:367
+#, no-wrap
+msgid "The settings dialog will update if the background is changed from outside the dialog.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:369
+#, no-wrap
+msgid "Wallpaper image folders now are loaded fully asynchronously to prevent lag.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour420.md:370
+#, no-wrap
+msgid "Context Menu"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:373
+#, no-wrap
+msgid "Cascading custom actions will now as well shown correctly in Xfdesktop.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:375
+#, no-wrap
+msgid "It is now possible to open multiple selected folders at once.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:377
+#, no-wrap
+msgid "The context menu now opens on button press rather than button release, as most users will expect.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:379
+#, no-wrap
+msgid "The middle-click window list menu has new styling and added features.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour420.md:380
+#, no-wrap
+msgid "[xfwm4](https://docs.xfce.org/xfce/xfwm4/start)"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:383
+#, no-wrap
+msgid "Support for stretch theme variants\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:385
+#, no-wrap
+msgid "Compositor: Block softpipe for GLX vsync\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:387
+#, no-wrap
+msgid "Focus: Include skip taskbar/pager when passing focus\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:389
+#, no-wrap
+msgid "Fix crash when alt-tabbing ([#762](https://gitlab.xfce.org/xfce/xfwm4/-/issues/762))\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour420.md:391
+#, no-wrap
+msgid "<p align=\"right\"><small>Used theme: \"Greybird-dark\". Used icon-theme: \"elementary Xfce dark\".</small></p>\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:392
+#, no-wrap
+msgid "[img-libxfce4ui_about]: //cdn.xfce.org/about/tour/4.20/libxfce4ui_about.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:393
+#, no-wrap
+msgid "[img-thunar_toolbar_new_items]: //cdn.xfce.org/about/tour/4.20/thunar_toolbar_new_items.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:394
+#, no-wrap
+msgid "[img-thunar_toolbar_hamburger]: //cdn.xfce.org/about/tour/4.20/thunar_toolbar_hamburger.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:395
+#, no-wrap
+msgid "[img-thunar_csd_with_menu]: //cdn.xfce.org/about/tour/4.20/thunar_csd_with_menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:396
+#, no-wrap
+msgid "[img-thunar_csd_without_menu]: //cdn.xfce.org/about/tour/4.20/thunar_csd_without_menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:397
+#, no-wrap
+msgid "[img-thunar_symbolic_icons]: //cdn.xfce.org/about/tour/4.20/thunar_symbolic_icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:398
+#, no-wrap
+msgid "[img-thunar_colored_icons]: //cdn.xfce.org/about/tour/4.20/thunar_colored_icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:399
+#, no-wrap
+msgid "[img-thunar_transfer_dialog]: //cdn.xfce.org/about/tour/4.20/thunar_transfer_dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:400
+#, no-wrap
+msgid "[img-thunar_expandable_folders]: //cdn.xfce.org/about/tour/4.20/thunar_expandable_folders.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:401
+#, no-wrap
+msgid "[img-thunar_split_view]: //cdn.xfce.org/about/tour/4.20/thunar_split_view.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:402
+#, no-wrap
+msgid "[img-appfinder_new]: //cdn.xfce.org/about/tour/4.20/appfinder_new.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:403
+#, no-wrap
+msgid "[img-panel_item_list]: //cdn.xfce.org/about/tour/4.20/panel_item_list.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:404
+#, no-wrap
+msgid "[img-power_manager_settings]: //cdn.xfce.org/about/tour/4.20/power_manager_settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:405
+#, no-wrap
+msgid "[img-power_manager_screensaver]: //cdn.xfce.org/about/tour/4.20/power_manager_screensaver.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:406
+#, no-wrap
+msgid "[img-settings_display]: //cdn.xfce.org/about/tour/4.20/settings_display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:407
+#, no-wrap
+msgid "[img-settings_mouse]: //cdn.xfce.org/about/tour/4.20/settings_mouse.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:408
+#, no-wrap
+msgid "[img-xfdesktop_settings_icons]: //cdn.xfce.org/about/tour/4.20/xfdesktop_settings_icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour420.md:409
+#, no-wrap
+msgid "[img-xfdesktop_settings_shortcuts]: //cdn.xfce.org/about/tour/4.20/xfdesktop_settings_shortcuts.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour418.md:1
+#, no-wrap
+msgid "Xfce 4.18 tour"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.18. It only covers improvements made on the (user-visible) surface.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:10
+#, no-wrap
+msgid "Check the full [Xfce 4.18 changelog](/download/changelogs/4.18/) for a detailed list of changes.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:11
+#, no-wrap
+msgid "Widget Library *(libxfce4ui)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:13
+#, no-wrap
+msgid "Filename Input Dialog"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:16
+#, no-wrap
+msgid "XfceFilenameInput is a comfortable widget for filename input, which was added in order to prevent invalid filenames at an early stage and to give detailed feedback on the concrete problem.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:18
+#, no-wrap
+msgid "![XfceFilenameInput - trailing whitespaces][img-xfce4ui-new-file-dialog1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:20
+#, no-wrap
+msgid "![XfceFilenameInput - slash][img-xfce4ui-new-file-dialog2]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:21
+#, no-wrap
+msgid "Generic Shortcut Editor"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:24
+#, no-wrap
+msgid "This widget is a shortcut editor which was introduced in order to have a graphical interface to modify component-specific shortcuts. Currently, it is only used inside Thunar, Xfce4-terminal and Mousepad, though other components might follow.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:26
+#, no-wrap
+msgid "![XfceShortcutsEditor in Thunar][img-xfce4ui-shortcuts-editor]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:27
+#, no-wrap
+msgid "Thumbnail Service *(tumbler)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:30
+#, no-wrap
+msgid "Some performance improvements for the pixbuf-thumbnailer and the scheduler were done. As well now there are multiple overwrite options for the desktop-thumbnailer.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:32
+#, no-wrap
+msgid "There is now support for the thumbnail sizes x-large and xx-large, which are very useful for high resolution displays.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:34
+#, no-wrap
+msgid "Tumbler and Thunar now support shared thumbnail repositories, like described in the freedesktop.org thumbnail specification. This feature can be used to produce thumbnails for a folder in advance, directly located near the pictures. Like that, the thumbnails don't need to be re-generated for each individual user.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:36
+#, no-wrap
+msgid "For more information on shared thumbnails, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog03.html).\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:37 content/about/tour416.md:47
+#: content/about/tour414.md:33 content/about/tour412.md:39
+#: content/about/tour410.md:25 content/about/tour48.md:29
+#: content/about/tour46.md:19
+#, no-wrap
+msgid "Panel *(xfce4-panel)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:40
+#, no-wrap
+msgid "The DateTime and the Clock plugins provided overlapping functionality. In order to prevent parallel development, they have been merged into a single plugin.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:42
+#, no-wrap
+msgid "![The new 'Clock' panel widget][img-panel-clock1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:44
+#, no-wrap
+msgid "The new Clock plugin received a new binary time mode now and provides a sleep monitor. Here's a screenshot of all possible layouts which are: Analog, Binary, Digital, Fuzzy and LCD.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:46
+#, no-wrap
+msgid "![All possible Clock Modes][img-panel-clock2]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:47 content/about/tour412.md:55
+#: content/about/tour410.md:99 content/about/tour46.md:9
+#, no-wrap
+msgid "Desktop Manager *(xfdesktop)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:50
+#, no-wrap
+msgid "Like in Thunar, the 'Delete' menu entry in the context menu can now be hidden.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:52
+#, no-wrap
+msgid "In order to don't mess the desktop by accident on pressing 'rearrange desktop icons', the user is asked for confirmation now.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:53 content/about/tour416.md:17
+#: content/about/tour414.md:9
+#, no-wrap
+msgid "Settings Manager *(xfce4-settings)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:56
+#, no-wrap
+msgid "The search entry for xfce4-settings-manager was a bit simplified. Now it will always be shown, without any slider or button.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:58
+#, no-wrap
+msgid "![xfce4-settings-manager - the search entry is always shown][img-settings-main-dialog]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:62
+#, no-wrap
+msgid "xfce4-display-settings got some minor improvements and the possibility to decide what to do when new displays are connected.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:64
+#, no-wrap
+msgid "![xfce4-display-settings - minor improvements][img-settings-display]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:68
+#, no-wrap
+msgid "On selecting a new theme, there is now the option to automatically set a matching xfwm4 theme, if available.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:70
+#, no-wrap
+msgid "![xfce4-appearance-settings - toggle to set matching Xfwm4 theme][img-settings-appearance]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:71 content/about/tour416.md:41
+#: content/about/tour414.md:55 content/about/tour412.md:105
+#: content/about/tour410.md:49 content/about/tour48.md:9
+#: content/about/tour46.md:67
+#, no-wrap
+msgid "File Manager *(thunar)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:76
+#, no-wrap
+msgid "For directories, the count of containing files can now be displayed in the size column. It is now possible to add a 'file creation date' column, and the 'configure columns' dialog can be opened with a right-click on any column head.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:78
+#, no-wrap
+msgid "![Thunar - List View - Preferences][img-thunar-listview1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:80
+#, no-wrap
+msgid "![Thunar - List View - File count and file creation date][img-thunar-listview2]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:81
+#, no-wrap
+msgid "Image Preview"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:84
+#, no-wrap
+msgid "Finally, an image preview side pane has been added to Thunar. No, wait, actually two of them! You can choose to either use the 'embedded' mode which will take no extra space, but hide parts of the left side pane. Or you can go for the 'standalone' mode, which will use a separate pane on the right and display as well some basic information.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:86
+#, no-wrap
+msgid "![Thunar - Embedded Image Preview][img-thunar-preview1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:88
+#, no-wrap
+msgid "![Thunar - Standalone Image Preview][img-thunar-preview2]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:89
+#, no-wrap
+msgid "Undo and Redo"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:92
+#, no-wrap
+msgid "It is now possible to undo basic file operations and to redo them. Undo and Redo can be used for 'move', 'rename', 'trash', 'link' and 'create' operations. Per default, a history of the last 10 operations is stored, though the history length is configurable. Whenever an Undo/Redo is triggered, a notification with few details will be shown.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:94
+#, no-wrap
+msgid "![Thunar - Undo and Redo][img-thunar-undo-redo]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:95
+#, no-wrap
+msgid "File Highlight"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:98
+#, no-wrap
+msgid "Files now can be highlighted by setting the background and the filename to different colors. This can be done via an additional tab, located in the 'properties' dialog. The view menu provides a checkbox in order to enable/disable the feature. Once enabled, files now can be shown in all the colors of the rainbow.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:100
+#, no-wrap
+msgid "![Thunar - File Highlight Options][img-thunar-hightlight1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:102
+#, no-wrap
+msgid "![Thunar - Highlighted files in List View][img-thunar-hightlight2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:104
+#, no-wrap
+msgid "![Thunar - Highlighted files in Icon View][img-thunar-hightlight3]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:106
+#, no-wrap
+msgid "For more information on file highlight, check the [related blog post](https://elessar-space.blogspot.com/2022/08/gsoc22-file-highlighting-in-thunar.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:110
+#, no-wrap
+msgid "It is now possible to customize the toolbar according to your personal needs! An additional dialog has been added for that purpose, on which the visibility and position of specific items can be managed. As well custom actions, which appear for folders can be used in the toolbar.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:112
+#, no-wrap
+msgid "When the menubar is hidden, an additional toolbar button which can be used to show the menu will be displayed.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:114
+#, no-wrap
+msgid "![Thunar - Toolbar with all configurable Elements][img-thunar-toolbar1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:116
+#, no-wrap
+msgid "![Thunar - Toolbar Configuration Dialog][img-thunar-toolbar2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:118
+#, no-wrap
+msgid "![Thunar - Show Menubar button][img-thunar-toolbar3]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:120
+#, no-wrap
+msgid "For more information on the configurable toolbar, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog10.html).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:124
+#, no-wrap
+msgid "Thunar now provides the option to use split panes. The pane separator can be moved, and its position will be stored. Via a xfconf setting, it is as well possible to have a vertical split.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:126
+#, no-wrap
+msgid "![Thunar - Split Panes][img-thunar-splitpanes]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:130
+#, no-wrap
+msgid "The status bar style was tweaked and '|' is now used to separate entries. Furthermore, it is now possible to customize it by using the context menu.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:132
+#, no-wrap
+msgid "![Thunar - Statusbar Customization][img-thunar-statusbar]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:133
+#, no-wrap
+msgid "Recursive Search"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:136
+#, no-wrap
+msgid "Thunar has now the possibility to search recursively, directly inside Thunar itself. The search is done in a separate thread and search results are added rapidly into a List View. A new row 'Location' shows where the search results are located, and the context menu provides the option 'Open Item Location' in order to travel there quickly. The preferences dialog provides an option to limit recursive search to local folders, or to disable it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:138
+#, no-wrap
+msgid "![Thunar - Recursive Search][img-thunar-search1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:140
+#, no-wrap
+msgid "![Thunar - Recursive Search Preferences][img-thunar-search2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:142
+#, no-wrap
+msgid "For more information on the recursive search feature, check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog04.html).\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:143
+#, no-wrap
+msgid "Recently used Files"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:146
+#, no-wrap
+msgid "Recently used files now can be accessed in the side pane. Like for the 'Recursive Search' feature, the new 'Location' row can be used in List View. Additionally, for 'Recent' a new row 'Recency' can be added to sort the files by their latest usage.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:148
+#, no-wrap
+msgid "![Thunar - Recently Used Files][img-thunar-recent]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:150
+#, no-wrap
+msgid "For more information on 'Recent' in Thunar check the [related blog post](http://users.uoa.gr/~sdi1800073/sources/xfce_blog02.html).\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:151
+#, no-wrap
+msgid "Bookmark Menu"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:154
+#, no-wrap
+msgid "In order to keep the 'Go' menu compact, bookmarks have been moved into a separate, new 'Bookmarks' menu. The menu item 'add Bookmark' was rather hidden in the 'send to' menu in Thunar 4.18. As part of the new 'Bookmarks' menu, it is more prominent now.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:156
+#, no-wrap
+msgid "![Thunar - Bookmarks Menu][img-thunar-bookmarks]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:157
+#, no-wrap
+msgid "Trash directory"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:160
+#, no-wrap
+msgid "With the new release, the trash directory provides an info bar which gives easy access to `Empty Trash` and 'Restore' functionality. When using List View, a 'Date Deleted' column will be shown, so that the files can be sorted by deletion date. Via context menu, it is now possible to select 'Restore and Show' in order to automatically open a new tab in the folder of the restored file(s).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:162
+#, no-wrap
+msgid "![Thunar - Trash Infobar and Date Deleted Column][img-thunar-trash]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:163 content/about/tour416.md:23
+#, no-wrap
+msgid "Default Applications"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:166
+#, no-wrap
+msgid "The management to set/unset default applications for specific mime types was improved. The context menu got a dedicated item 'Set Default Application' which will open the 'ApplicationChooserDialog' with 'use as default' preselected. The dialog now has a section 'Default Application' in order to make clear which default application currently is set. If you want to remove applications from the list, right click it and select 'forget association'.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:168
+#, no-wrap
+msgid "![Thunar - Context Menu Entry to set Default Application][img-thunar-default-application1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:170
+#, no-wrap
+msgid "![Thunar - Revamped Application Chooser Dialog][img-thunar-default-application2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:174
+#, no-wrap
+msgid "It is now possible to arrange custom actions in cascading submenus. Just enter the same submenu name for a custom action in order to place it into the same menu. If you require multiple menu levels, you can achieve that by using '/' in the path of the 'Submenu' entry.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:176
+#, no-wrap
+msgid "![Thunar - Custom Action Submenu][img-thunar-uca-submenu1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:178
+#, no-wrap
+msgid "![Thunar - Custom Action Configuration Dialog][img-thunar-uca-submenu2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:182
+#, no-wrap
+msgid "The thumbnail settings in the preferences dialog got grouped together, and meanwhile it is possible to limit the file size for which thumbnails should be generated. That should mitigate possible performance issues by preventing thumbnail generation for huge video files.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:184
+#, no-wrap
+msgid "![Thunar - Thumbnail Preferences][img-thunar-preferences1]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:186
+#, no-wrap
+msgid "File transfer operations optionally can use *.partial~ as an intermediate file now. After a transfer operation, there is now the option to verify the file checksums in order to make sure that no single bit got corrupted. Note that the checksum feature will require some extra time during copy when activated.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:188
+#, no-wrap
+msgid "![Thunar - File Transfer Preferences][img-thunar-preferences2]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:190
+#, no-wrap
+msgid "For more information on the new file transfer options, check the [related blog post](https://dev.ikx.kr/GSOC-5th/).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:192
+#, no-wrap
+msgid "A checkbox was added in order to allow running shell scripts. In Thunar 4.18 it only was possible to change that behavior by changing a hidden setting. Use that option with caution!\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:194
+#, no-wrap
+msgid "![Thunar - Script Execution Preferences][img-thunar-preferences3]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:196
+#, no-wrap
+msgid "There is now the possibility to restore tabs on startup, and to show the full directory path in the tab title.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:198
+#, no-wrap
+msgid "![Thunar - Tab and Window Preferences][img-thunar-preferences4]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:199 content/about/tour410.md:17
+#: content/about/tour46.md:131
+#, no-wrap
+msgid "Application Finder *(xfce4-appfinder)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:201
+#, no-wrap
+msgid "Configuration"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:204
+#, no-wrap
+msgid "Application Finder got support for the 'PrefersNonDefaultGPU' property, which is useful for systems with hybrid graphic cards.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:206
+#, no-wrap
+msgid "Environment variables are now parsed when passed in collapsed mode.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:207
+#, no-wrap
+msgid "Appearance"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:210
+#, no-wrap
+msgid "An option to hide the window decorations was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:212
+#, no-wrap
+msgid "![xfce4-appfinder without window decorations][img-appfinder]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour418.md:213 content/about/tour412.md:9
+#: content/about/tour410.md:107 content/about/tour46.md:43
+#, no-wrap
+msgid "Window Manager *(xfwm4)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:215
+#, no-wrap
+msgid "Workspaces"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:218
+#, no-wrap
+msgid "Workspace setting will now work as well with other window managers.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:219
+#, no-wrap
+msgid "Compositor"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:222
+#, no-wrap
+msgid "The compositor now supports adaptive vsync with GLX.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:228
+#, no-wrap
+msgid "Improved support for UI scaling and fix for many blurry icons in the core components when scaling is used. This will be particularly useful for Hi DPI screens.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour418.md:229
+#, no-wrap
+msgid "Window Header Bars"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:232
+#, no-wrap
+msgid "All header bars of Xfce Windows/Dialogs by default will be drawn by the window manager now (Xfwm4). Some dialogs optionally support 'GtkHeaderBar' (CSD) which can be enabled via a xfconf setting.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour418.md:234
+#, no-wrap
+msgid "![xfce-appearance-settings - Preference to enable GtkHeaderBar][img-general-gtkheaderbar]\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:235
+#, no-wrap
+msgid "[img-xfce4ui-new-file-dialog1]: //cdn.xfce.org/about/tour/4.18/xfce4ui-new-file-dialog1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:236
+#, no-wrap
+msgid "[img-xfce4ui-new-file-dialog2]: //cdn.xfce.org/about/tour/4.18/xfce4ui-new-file-dialog2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:237
+#, no-wrap
+msgid "[img-xfce4ui-shortcuts-editor]: //cdn.xfce.org/about/tour/4.18/xfce4ui-shortcuts-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:238
+#, no-wrap
+msgid "[img-panel-clock1]: //cdn.xfce.org/about/tour/4.18/panel-clock1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:239
+#, no-wrap
+msgid "[img-panel-clock2]: //cdn.xfce.org/about/tour/4.18/panel-clock2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:240
+#, no-wrap
+msgid "[img-settings-main-dialog]: //cdn.xfce.org/about/tour/4.18/settings-main-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:241
+#, no-wrap
+msgid "[img-settings-display]: //cdn.xfce.org/about/tour/4.18/settings-display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:242
+#, no-wrap
+msgid "[img-settings-appearance]: //cdn.xfce.org/about/tour/4.18/settings-appearance.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:243
+#, no-wrap
+msgid "[img-thunar-listview1]: //cdn.xfce.org/about/tour/4.18/thunar-listview1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:244
+#, no-wrap
+msgid "[img-thunar-listview2]: //cdn.xfce.org/about/tour/4.18/thunar-listview2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:245
+#, no-wrap
+msgid "[img-thunar-preview1]: //cdn.xfce.org/about/tour/4.18/thunar-preview1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:246
+#, no-wrap
+msgid "[img-thunar-preview2]: //cdn.xfce.org/about/tour/4.18/thunar-preview2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:247
+#, no-wrap
+msgid "[img-thunar-undo-redo]: //cdn.xfce.org/about/tour/4.18/thunar-undo-redo.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:248
+#, no-wrap
+msgid "[img-thunar-hightlight1]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:249
+#, no-wrap
+msgid "[img-thunar-hightlight2]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:250
+#, no-wrap
+msgid "[img-thunar-hightlight3]: //cdn.xfce.org/about/tour/4.18/thunar-hightlight3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:251
+#, no-wrap
+msgid "[img-thunar-toolbar1]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:252
+#, no-wrap
+msgid "[img-thunar-toolbar2]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:253
+#, no-wrap
+msgid "[img-thunar-toolbar3]: //cdn.xfce.org/about/tour/4.18/thunar-toolbar3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:254
+#, no-wrap
+msgid "[img-thunar-splitpanes]: //cdn.xfce.org/about/tour/4.18/thunar-splitpanes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:255
+#, no-wrap
+msgid "[img-thunar-statusbar]: //cdn.xfce.org/about/tour/4.18/thunar-statusbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:256
+#, no-wrap
+msgid "[img-thunar-search1]: //cdn.xfce.org/about/tour/4.18/thunar-search1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:257
+#, no-wrap
+msgid "[img-thunar-search2]: //cdn.xfce.org/about/tour/4.18/thunar-search2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:258
+#, no-wrap
+msgid "[img-thunar-recent]: //cdn.xfce.org/about/tour/4.18/thunar-recent.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:259
+#, no-wrap
+msgid "[img-thunar-bookmarks]: //cdn.xfce.org/about/tour/4.18/thunar-bookmarks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:260
+#, no-wrap
+msgid "[img-thunar-trash]: //cdn.xfce.org/about/tour/4.18/thunar-trash.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:261
+#, no-wrap
+msgid "[img-thunar-default-application1]: //cdn.xfce.org/about/tour/4.18/thunar-default-application1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:262
+#, no-wrap
+msgid "[img-thunar-default-application2]: //cdn.xfce.org/about/tour/4.18/thunar-default-application2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:263
+#, no-wrap
+msgid "[img-thunar-uca-submenu1]: //cdn.xfce.org/about/tour/4.18/thunar-uca-submenu1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:264
+#, no-wrap
+msgid "[img-thunar-uca-submenu2]: //cdn.xfce.org/about/tour/4.18/thunar-uca-submenu2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:265
+#, no-wrap
+msgid "[img-thunar-preferences1]: //cdn.xfce.org/about/tour/4.18/thunar-preferences1.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:266
+#, no-wrap
+msgid "[img-thunar-preferences2]: //cdn.xfce.org/about/tour/4.18/thunar-preferences2.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:267
+#, no-wrap
+msgid "[img-thunar-preferences3]: //cdn.xfce.org/about/tour/4.18/thunar-preferences3.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:268
+#, no-wrap
+msgid "[img-thunar-preferences4]: //cdn.xfce.org/about/tour/4.18/thunar-preferences4.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:269
+#, no-wrap
+msgid "[img-appfinder]: //cdn.xfce.org/about/tour/4.18/appfinder.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour418.md:270
+#, no-wrap
+msgid "[img-general-gtkheaderbar]: //cdn.xfce.org/about/tour/4.18/general-gtkheaderbar.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour416.md:1
+#, no-wrap
+msgid "Xfce 4.16 tour"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.16. It only covers improvements made on the (user-visible) surface; for the full list of changes, see the [changelog](/download/changelogs/4.16/).\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour416.md:9
+#, no-wrap
+msgid "Visual identity: New icons and palette"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:12
+#, no-wrap
+msgid "In order to make Xfce shine a little more out of the box and to strengthen its visual identity we created new icons for all of our core applications and based them on a shared palette to ensure consistency. We also set some further (implicit) design constraints, loosely following Adwaita's principles.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:14
+#, no-wrap
+msgid "![The Xfce palette][img-palette]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:16
+#, no-wrap
+msgid "![New upstream Xfce icons, coming in many sizes for sharp appearance][img-upstream-icons]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:20
+#, no-wrap
+msgid "The Settings Manager itself received a visual refresh of its filter box, which can now be hidden permanently. At the same time the search capabilities of the filter box were improved by searching the descriptive 'Comments' part of each dialog's launcher (aka [.desktop](https://specifications.freedesktop.org/desktop-entry-spec/desktop-entry-spec-latest.html)) file.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:22
+#, no-wrap
+msgid "![Visually cleaner, more powerful filter box][img-settings-manager]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:26
+#, no-wrap
+msgid "This new dialog represents a merger between the previously available 'Mime Settings' and the 'Preferred Applications' dialogs. Consolidating both in one place means users have an easier time setting default applications to handle certain file types.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:28
+#, no-wrap
+msgid "![The new Default Applications dialog][img-default-applications]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour416.md:29 content/about/tour414.md:17
+#, no-wrap
+msgid "Display Dialog"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:32
+#, no-wrap
+msgid "To better support high-density displays - which come in various sizes and densities - we added fractional scaling based on the RandR extension of X11. Furthermore the preferred mode of a display is now marked with an asterisk and aspect ratios are shown along display resolutions.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:34
+#, no-wrap
+msgid "![Fractional scaling support][img-display-dialog]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour416.md:35
+#, no-wrap
+msgid "Keyboard Shortcuts"
+msgstr "Acorchis clavièr"
+
+#. type: Plain text
+#: content/about/tour416.md:38
+#, no-wrap
+msgid "In order to make things easier for our users we added more default keyboard shortcuts out of the box, for instance for window tiling or to open Thunar. The keyboard shortcuts dialog itself was also visually updated.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:40
+#, no-wrap
+msgid "![Visually updated keyboard shortcuts dialog][img-keyboard-shortcuts]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:44
+#, no-wrap
+msgid "In Thunar's copy and move dialogs users can now easily pause the respective file operation. Furthermore support for queued file transfer, remembering view settings per folder and support for transparency in Gtk themes was added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:46
+#, no-wrap
+msgid "![Thunar can now pause copying/moving files][img-thunar-copy]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:50
+#, no-wrap
+msgid "The panel received quite a few noteworthy updates, an animation for autohide and intellihide, a new 'Status Tray' plugin that combines both legacy Systray item support with modern StatusNotifier item support, dark mode support, launchers showing additional actions on right-click, window buttons offering to 'Launch a new instance...' and much more.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:52
+#, no-wrap
+msgid "![Dark mode enabled in the panel's settings dialog][img-panel-dark]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:54
+#, no-wrap
+msgid "![The new statustray plugin][img-panel-statustray]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:56
+#, no-wrap
+msgid "![Autohide animation][img-panel-autohide]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:58
+#, no-wrap
+msgid "![Launch a new instance!][img-panel-launch]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour416.md:59
+#, no-wrap
+msgid "About Dialog *(xfce4-about)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:62
+#, no-wrap
+msgid "Not only was the Xfce tab reworked to be more visually appealing and easily parsable, a separate tab showing basic information about the user's system was also added.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:64
+#, no-wrap
+msgid "![About Xfce][img-about-xfce]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:66
+#, no-wrap
+msgid "![About System][img-about-system]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour416.md:67 content/about/tour414.md:69
+#: content/about/tour412.md:81
+#, no-wrap
+msgid "Power Manager *(xfce4-power-manager)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:70
+#, no-wrap
+msgid "The settings dialog of the power manager was cleaned up and shows either 'on battery' or 'plugged in' settings as opposed to both in a huge table.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour416.md:72
+#, no-wrap
+msgid "![Power Manager settings][img-powermanager]\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:73
+#, no-wrap
+msgid "[img-palette]: //cdn.xfce.org/about/tour/4.16/palette.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:74
+#, no-wrap
+msgid "[img-upstream-icons]: //cdn.xfce.org/about/tour/4.16/upstream-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:75
+#, no-wrap
+msgid "[img-settings-manager]: //cdn.xfce.org/about/tour/4.16/settings-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:76
+#, no-wrap
+msgid "[img-default-applications]: //cdn.xfce.org/about/tour/4.16/default-applications.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:77
+#, no-wrap
+msgid "[img-display-dialog]: //cdn.xfce.org/about/tour/4.16/display-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:78
+#, no-wrap
+msgid "[img-keyboard-shortcuts]: //cdn.xfce.org/about/tour/4.16/keyboard-shortcuts.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:79
+#, no-wrap
+msgid "[img-thunar-copy]: //cdn.xfce.org/about/tour/4.16/thunar-copy.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:80
+#, no-wrap
+msgid "[img-panel-dark]: //cdn.xfce.org/about/tour/4.16/panel-dark.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:81
+#, no-wrap
+msgid "[img-panel-statustray]: //cdn.xfce.org/about/tour/4.16/panel-statustray.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:82
+#, no-wrap
+msgid "[img-panel-autohide]: //cdn.xfce.org/about/tour/4.16/panel-autohide.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:83
+#, no-wrap
+msgid "[img-panel-launch]: //cdn.xfce.org/about/tour/4.16/panel-launch.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:84
+#, no-wrap
+msgid "[img-about-xfce]: //cdn.xfce.org/about/tour/4.16/about-xfce.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:85
+#, no-wrap
+msgid "[img-about-system]: //cdn.xfce.org/about/tour/4.16/about-system.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour416.md:86
+#, no-wrap
+msgid "[img-powermanager]: //cdn.xfce.org/about/tour/4.16/powermanager.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour414.md:1
+#, no-wrap
+msgid "Xfce 4.14 tour"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.14. It only covers improvements made on the surface; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:11
+#, no-wrap
+msgid "Color Profiles Dialog"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:14
+#, no-wrap
+msgid "A new dialog for setting [color profiles](https://docs.xfce.org/xfce/xfce4-settings/4.14/color) for monitors, printers and scanners was introduced. It acts as a frontend to various daemons that talk directly to colord, e.g. saned (scanners), cupsd (printers) or xiccd (monitors).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:16
+#, no-wrap
+msgid "![The new color profiles dialog][img-color-profiles]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:20
+#, no-wrap
+msgid "Several improvements were made to the [display dialog](https://docs.xfce.org/xfce/xfce4-settings/4.14/display). Apart from tweaks to the user interface to make the interaction more intuitive (introducing display numbering, showing a primary indicator with quick access to panel, notification and desktop settings etc.) a feature to save and restore complete display profiles was added. If a single profile exists for a setup, the Xfce settings daemon will automatically enable it. If multiple profiles exist, it will pop up the minimal dialog and offer all profiles in addition to the previously available pre-sets (internal only, mirror, extend and external only).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:22
+#, no-wrap
+msgid "![The primary indicator][img-display-general]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:24
+#, no-wrap
+msgid "![The display profile list][img-display-advanced]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:26
+#, no-wrap
+msgid "![The improved minimal dialog - in this case only showing one profile only which never happens anymore now ;)][img-display-minimal]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:27
+#, no-wrap
+msgid "Accessibility"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:30
+#, no-wrap
+msgid "One [accessibility](https://docs.xfce.org/xfce/xfce4-settings/4.14/accessibility) feature that people coming from other desktop environments or operating systems were still missing is to set a (custom) keyboard shortcut (by default: Super+F1) to visually locate the mouse pointer. This feature was added in Xfce 4.14.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:32
+#, no-wrap
+msgid "![The mouse pointer location animation][img-locate-mouse]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:35
+#, no-wrap
+msgid "General: Icon size"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:38
+#, no-wrap
+msgid "A new feature that we introduced in the [panel](https://docs.xfce.org/xfce/xfce4-panel/4.14/start) is being able to control the icon size of all plugins. ('All' may not be technically correct, as not all plugins support the new API as of now, but now they *can*. Plus the Window buttons plugin is an exception, because libwnck doesn't allow anything other than 16px or 32px.) This means setups that were previously impossible, because icons would upscale automatically according to size-steps hard-coded in the panel, are now possible (see below).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:40
+#, no-wrap
+msgid "![A 32px tall panel with 16px icons][img-panel-iconsize]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:41
+#, no-wrap
+msgid "Window buttons: Grouping"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:44
+#, no-wrap
+msgid "Grouping was improved in the [Window buttons plugin](https://docs.xfce.org/xfce/xfce4-panel/4.14/tasklist), both functionally (by improving the matching and icon-finding) and visually by providing a new group indicator that is less likely to clash with window titles containing an enumeration in brackets.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:46
+#, no-wrap
+msgid "![The new group indicator (two terminal windows)][img-panel-group]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:47
+#, no-wrap
+msgid "Session *(xfce4-session)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:49 content/about/tour412.md:89
+#, no-wrap
+msgid "Settings Dialog"
+msgstr "Bóstia de dialòg dels paramètres"
+
+#. type: Plain text
+#: content/about/tour414.md:52
+#, no-wrap
+msgid "As soon as a [session](https://docs.xfce.org/xfce/xfce4-session/4.14/preferences) has been saved a new tab is dynamically added to the settings dialog displaying all saved sessions and allowing to delete one or all of them. This should make it way more discoverable for users if they actually have saved sessions that influence the startup behavior - previously this had to be checked manually in the filesystem.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:54
+#, no-wrap
+msgid "![The settings dialog after saving a session][img-session-saved]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:57
+#, no-wrap
+msgid "Pathbar"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:60
+#, no-wrap
+msgid "Up to Xfce 4.12 [Thunar](https://docs.xfce.org/xfce/thunar/4.14/start) offered two options for the pathbar/locationbar. The best of both worlds has now been mixed into one powerful pathbar, featuring both clickable breadcrumbs (i.e. folders), an easily accessible way to hand-type a path as well as an improved look.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:62
+#, no-wrap
+msgid "![Thunar's new pathbar][img-thunar-pathbar]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:63
+#, no-wrap
+msgid "Folder Thumbnailer"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:66
+#, no-wrap
+msgid "Same as on the Desktop you can now save an image with the name 'folder.jpg' in a folder and get it displayed as its icon in the File Manager. Note: [Please read the docs](https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders) on how to set this up (if your distribution hasn't enabled it by default).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:68
+#, no-wrap
+msgid "![Thunar's new folder thumbnails][img-thunar-folder-jpg]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:71 content/about/tour414.md:85
+#: content/about/tour412.md:83
+#, no-wrap
+msgid "Panel Plugin"
+msgstr "Empeuton del tablèu de bòrd"
+
+#. type: Plain text
+#: content/about/tour414.md:74
+#, no-wrap
+msgid "The [Power Manager's panel plugin](https://docs.xfce.org/xfce/xfce4-power-manager/4.14/panel-plugin) supports symbolic icons now and uses the standard UPower icon names (making it more compatible with all icon themes). It also shows an indicator if applications inhibit power management functions like suspend (when power is low) or display dimming (after a defined timeout).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:76
+#, no-wrap
+msgid "![Parole's video playback is inhibiting power management][img-xfpm-inhibitors]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:77
+#, no-wrap
+msgid "Notification Service *(xfce4-notifyd)*"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:79 content/about/tour44.md:123
+#, no-wrap
+msgid "Settings"
+msgstr "Paramètres"
+
+#. type: Plain text
+#: content/about/tour414.md:82
+#, no-wrap
+msgid "Several new features have been added in Xfce's [Notification service](https://docs.xfce.org/apps/notifyd/start), including a notifications log, the possibility to disable notifications per application, a global 'Do Not Disturb' mode, which inhibits all notifications, and finally a new animation ('slide out').\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:84
+#, no-wrap
+msgid "![The new notification animation 'slide out'][img-notifyd-slideout]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:88
+#, no-wrap
+msgid "Furthermore a new panel plugin was added which provides quick access to both the 'Do Not Disturb' mode as well as the log of recent notifications.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:90
+#, no-wrap
+msgid "![The new panel plugin][img-notifyd-panel]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:91 content/about/tour412.md:141
+#, no-wrap
+msgid "Media Player *(parole)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:93
+#, no-wrap
+msgid "Mini Mode"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:96
+#, no-wrap
+msgid "[Parole](https://docs.xfce.org/apps/parole/start) now features a 'Mini Mode', where the interface is simplified to just display the album artwork and can be positioned over other windows without getting in the way.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:98
+#, no-wrap
+msgid "![Just right-click anywhere in the player window to select 'Mini Mode'...][img-parole-normal-mode]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:100
+#, no-wrap
+msgid "![Afterwards, enjoy a truly minimalistic playback experience!][img-parole-mini-mode]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:101
+#, no-wrap
+msgid "Screensaver *(xfce4-screensaver)*"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour414.md:103
+#, no-wrap
+msgid "A Modern Locking Experience"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:106
+#, no-wrap
+msgid "The new Xfce [Screensaver](https://docs.xfce.org/apps/screensaver/start) provides a configurable lockscreen experience. You can selectively toggle the lock screen and screensaver, and all Xscreensaver themes are supported (with configuration options) out of the box. If you prefer a blank screen, Xfce Screensaver also includes a blank screen option with DPMS integration.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:108
+#, no-wrap
+msgid "![The new lock screen, sharing styles with LightDM GTK+ Greeter for a consistent experience.][img-saver-dialog]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:110
+#, no-wrap
+msgid "![Make it your own. Xfce Screensaver supports a multitude of configuration options.][img-saver-preferences]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:111
+#, no-wrap
+msgid "Terminal *(xfce4-terminal)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:114
+#, no-wrap
+msgid "Lots and lots of features have accumulated in the [Terminal](https://docs.xfce.org/apps/terminal/start) over the last years. Amongst them 'Undo Close Tab' and 'Close Other Tabs' functionality (similar to web browsers), 'Copy Input to All Tabs', 'Set Title Color' (allows to customize tab text color), 'Save Contents' (saves tab contents to a file), an 'Unsafe Paste' dialog (which prevents the terminal from auto-executing pasted text as a command) and support for zooming. Finally when closing a tab or window, there is a new check for running processes which prevents accidentally closing a terminal that is running a process.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:116
+#, no-wrap
+msgid "![Zooming, 'Save Contents' and much more!][img-terminal]\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour414.md:117
+#, no-wrap
+msgid "Screenshooter *(xfce4-screenshooter)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:120
+#, no-wrap
+msgid "The Xfce [Screenshooter](https://docs.xfce.org/apps/screenshooter/start) gained several notable features, amongst others seeing the size of the screenshot while dragging, moving the selection with the mouse and better [imgur](https://imgur.com) integration.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour414.md:122
+#, no-wrap
+msgid "![I can drag and move the screenshot area, whoop whoop!][img-screenshooter]\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:123
+#, no-wrap
+msgid "[img-color-profiles]: //cdn.xfce.org/about/tour/4.14/color-profiles.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:124
+#, no-wrap
+msgid "[img-display-general]: //cdn.xfce.org/about/tour/4.14/display-general.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:125
+#, no-wrap
+msgid "[img-display-advanced]: //cdn.xfce.org/about/tour/4.14/display-advanced.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:126
+#, no-wrap
+msgid "[img-display-minimal]: //cdn.xfce.org/about/tour/4.14/display-minimal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:127
+#, no-wrap
+msgid "[img-locate-mouse]: //cdn.xfce.org/about/tour/4.14/locate-mouse.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:128
+#, no-wrap
+msgid "[img-panel-iconsize]: //cdn.xfce.org/about/tour/4.14/panel-iconsize.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:129
+#, no-wrap
+msgid "[img-panel-group]: //cdn.xfce.org/about/tour/4.14/panel-group.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:130
+#, no-wrap
+msgid "[img-session-saved]: //cdn.xfce.org/about/tour/4.14/session-saved.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:131
+#, no-wrap
+msgid "[img-thunar-pathbar]: //cdn.xfce.org/about/tour/4.14/thunar-pathbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:132
+#, no-wrap
+msgid "[img-thunar-folder-jpg]: //cdn.xfce.org/about/tour/4.14/thunar-folder-jpg.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:133
+#, no-wrap
+msgid "[img-xfpm-inhibitors]: //cdn.xfce.org/about/tour/4.14/xfpm-inhibitors.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:134
+#, no-wrap
+msgid "[img-notifyd-slideout]: //cdn.xfce.org/about/tour/4.14/notifyd-slideout.gif"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:135
+#, no-wrap
+msgid "[img-notifyd-panel]: //cdn.xfce.org/about/tour/4.14/notifyd-panel.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:136
+#, no-wrap
+msgid "[img-parole-normal-mode]: //cdn.xfce.org/about/tour/4.14/parole-normal-mode.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:137
+#, no-wrap
+msgid "[img-parole-mini-mode]: //cdn.xfce.org/about/tour/4.14/parole-mini-mode.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:138
+#, no-wrap
+msgid "[img-saver-dialog]: //cdn.xfce.org/about/tour/4.14/saver-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:139
+#, no-wrap
+msgid "[img-saver-preferences]: //cdn.xfce.org/about/tour/4.14/saver-preferences.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:140
+#, no-wrap
+msgid "[img-terminal]: //cdn.xfce.org/about/tour/4.14/terminal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour414.md:141
+#, no-wrap
+msgid "[img-screenshooter]: //cdn.xfce.org/about/tour/4.14/screenshooter.gif"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour412.md:1
+#, no-wrap
+msgid "Xfce 4.12 tour"
+msgstr "Visita Xfce 4.12"
+
+#. type: Plain text
+#: content/about/tour412.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.12. It only covers improvements made on the surface; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "Aquesta visita vous fera descobrir de novèlas foncionalitats majeures de Xfce 4.12. Cobrís pas que la partida visuala d'aqueste qu'es estada faita, per la lista completa de las modificacions, veire lo [la lista dels modificacions](/download/changelogs/).\n"
+
+#. type: Title ###
+#: content/about/tour412.md:11
+#, no-wrap
+msgid "Window Switcher Dialog"
+msgstr "Lo mòde lista de la fenèstra Alt-Tab"
+
+#. type: Plain text
+#: content/about/tour412.md:14
+#, no-wrap
+msgid "The window manager's Alt+Tab dialog is now fully themeable and also gained two new modes: a 'List' mode and a 'Window Preview' mode. Furthermore users use their mouse to click/select the window they want to give focus to.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:16
+#, no-wrap
+msgid "![The traditional dialog is fully themable now][img-tabwin-simple-crop]\n"
+msgstr "![L'aspècte de la fenèstra es d'ara enlà entièrament modificable][img-tabwin-simple-crop]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:18
+#, no-wrap
+msgid "The List mode of the Alt-Tab dialog.\n"
+msgstr "Lo mòde lista de la fenèstra Alt-Tab\n"
+
+#. type: Plain text
+#: content/about/tour412.md:20
+#, no-wrap
+msgid "![List mode of Alt-Tab, showing all window titles][img-tabwin-list-crop]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:22
+#, no-wrap
+msgid "The Window Preview mode shows thumbnails of windows' content alongside their icon. Activating the compositor is a prerequisite for this mode.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:24
+#, no-wrap
+msgid "![Window thumbnails][img-tabwin-preview-crop]\n"
+msgstr "![Apercebuts de fenèstras][img-tabwin-preview-crop]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:25
+#, no-wrap
+msgid "Tiling, Zooming, Client-side Decorations"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:28
+#, no-wrap
+msgid "Support for Client-Side Decorations (CSDs) has been improved. They now properly snap to screen and panel borders, and tile correctly, even with shadows.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:30
+#, no-wrap
+msgid "![Gtk3 apps with their decorations drawn by the client][img-xfwm4-csd]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:32
+#, no-wrap
+msgid "Window tiling mode was improved by providing support for corner-tiling, and a new zooming mode was added using Alt + Mouse Wheel.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:34
+#, no-wrap
+msgid "![Drag and drop a window to a corner to tile it][img-xfwm4-tiling-small]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour412.md:35
+#, no-wrap
+msgid "HiDPI Support"
+msgstr "Presa en carga de HiDPI"
+
+#. type: Plain text
+#: content/about/tour412.md:38
+#, no-wrap
+msgid "In order to better support modern hi-resolution screens, two new Xfwm4 themes were added (hdpi, xhdpi).\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour412.md:41
+#, no-wrap
+msgid "Intelligent Hiding"
+msgstr "Amagament intelligent"
+
+#. type: Plain text
+#: content/about/tour412.md:44
+#, no-wrap
+msgid "The panel can now intelligently hide itself when a window is dragged near it.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:46
+#, no-wrap
+msgid "![Oh what is this window??][img-panel-shown]\n"
+msgstr "![Ò, quala es aquela fenèstra ??][img-panel-shown]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:48
+#, no-wrap
+msgid "![Don't come closer!][img-panel-shown-stack]\n"
+msgstr "![Aprochetz pas !][img-panel-shown-stack]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:50
+#, no-wrap
+msgid "![Hah! Now you don't see me!][img-panel-hidden]\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour412.md:51
+#, no-wrap
+msgid "Gtk3 plugins"
+msgstr "Empeutons Gtk3"
+
+#. type: Plain text
+#: content/about/tour412.md:54
+#, no-wrap
+msgid "Infrastructure was added to be able to load Gtk3 plugins alongside Gtk2 plugins.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:58
+#, no-wrap
+msgid "The desktop has a new wallpaper settings dialog with many new options and better multi-monitor support. Drag the dialog to the display or workspace where you want to change the wallpaper.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:60
+#, no-wrap
+msgid "![Better multi-monitor support][img-xfdesktop-properties-multiworkspace]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:62
+#, no-wrap
+msgid "Uncheck 'apply to all workspaces' to set a different wallpaper for each workspace.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour412.md:63 content/about/tour410.md:63
+#: content/about/tour48.md:73 content/about/tour46.md:85
+#, no-wrap
+msgid "Settings *(xfce4-settings)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:68
+#, no-wrap
+msgid "Support for multi-monitor use was vastly improved in the display settings dialog. Upon connecting a new display, a quick setup popup offers some of the most-used modes for users to quickly change their layout.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:70
+#, no-wrap
+msgid "![Configure multiple displays][img-xfce4-display-settings-twoscreens]\n"
+msgstr "![Configuratz mantun monitor][img-xfce4-display-settings-twoscreens]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:72
+#, no-wrap
+msgid "![Choose your layout when plugging in a new display][img-xfce4-display-layout]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:76
+#, no-wrap
+msgid "The appearance dialog now showcases previews for styles and icons.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:78
+#, no-wrap
+msgid "![Gtk style preview][img-xfce4-appearance-settings-style]\n"
+msgstr "![Previsualizacion del tèma Gtk][img-xfce4-appearance-settings-style]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:80
+#, no-wrap
+msgid "![Icon theme preview][img-xfce4-appearance-settings-icons]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:86
+#, no-wrap
+msgid "A new panel plugin was created which allows you to quickly control your screen brightness, either via the menu or by simply using your mouse's scroll wheel over the plugin. The plugin's menu also shows all other connected devices with a power status, e.g. bluetooth keyboards or wireless mice. It still offers quick access to the presentation mode, which inhibits your screensaver for as long as the option is active.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:88
+#, no-wrap
+msgid "![The plugin's menu allows users to control screen brightness and check on the remaining uptime their battery provides.][img-xfpm-plugin-crop]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:92
+#, no-wrap
+msgid "The settings dialog was completely restructured (separating button/lid events from system and display behavior) and offers a clearer way of setting your preferences.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:94
+#, no-wrap
+msgid "![Configure what action to take when certain buttons are pressed or the laptop lid is closed][img-xfpm-prefs-general]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:96
+#, no-wrap
+msgid "![Configure what to do when the user is inactive or battery is drained][img-xfpm-prefs-system]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:98
+#, no-wrap
+msgid "![Manage display power management][img-xfpm-prefs-display]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:100
+#, no-wrap
+msgid "![Display information on all connected devices][img-xfpm-prefs-devices]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:102
+#, no-wrap
+msgid "When light-locker is available, you can control its settings directly via the power manager.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:104
+#, no-wrap
+msgid "![Setup light-locker integration][img-xfpm-prefs-security]\n"
+msgstr "![Configurar l’integracion de Light locker][img-xfpm-prefs-security]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:107
+#, no-wrap
+msgid "Tab Support"
+msgstr "Presa en carga dels onglets"
+
+#. type: Plain text
+#: content/about/tour412.md:110
+#, no-wrap
+msgid "A long-awaited feature was added: you can now open multiple folders in the same Thunar window.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:112
+#, no-wrap
+msgid "![Browse multiple directories][img-thunar-tabs]\n"
+msgstr "![Percórrer mantun repertòri][img-thunar-tabs]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:114
+#, no-wrap
+msgid "Thunar now displays the remaining free space with a bar in a folder properties.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:116
+#, no-wrap
+msgid "![Freespace bar][img-thunar-freespace]\n"
+msgstr "![Barra d’espaci liure][img-thunar-freespace]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:118
+#, no-wrap
+msgid "And you can select multiple files to see their properties at once.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:120
+#, no-wrap
+msgid "![Multiple File Properties][img-thunar-multifiles-props]\n"
+msgstr "![Proprietats de fichièrs multiples][img-thunar-multifiles-props]\n"
+
+#. type: Title ##
+#: content/about/tour412.md:121
+#, no-wrap
+msgid "Goodies"
+msgstr "Goodies"
+
+#. type: Plain text
+#: content/about/tour412.md:124
+#, no-wrap
+msgid "There have been lots of improvements to our goodies, and some new and shiny applications have been added by new contributors.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour412.md:125
+#, no-wrap
+msgid "Alternative panel menu plugin *(xfce4-whiskermenu)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:128
+#, no-wrap
+msgid "The whisker menu is an alternative to the traditional menu plugin, showing favourites, allowing to search through existing apps and much more.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:130
+#, no-wrap
+msgid "![Browse through categories][img-whiskermenu-default]\n"
+msgstr "![Percórrer las categorias][img-whiskermenu-default]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:132
+#, no-wrap
+msgid "![Search for an application][img-whiskermenu-search]\n"
+msgstr "![Cercar una aplicacion][img-whiskermenu-search]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:133
+#, no-wrap
+msgid "Task Manager *(xfce4-taskmanager)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:136
+#, no-wrap
+msgid "The task manager got a revamped user interface, a filter and also supports Gtk3 now.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:138
+#, no-wrap
+msgid "![Show processes as a tree][img-taskman-tree]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:140
+#, no-wrap
+msgid "![Filter processes by name][img-taskman-filter]\n"
+msgstr "![Filtrar los processus per nom][img-taskman-filter]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:144
+#, no-wrap
+msgid "Parole's UI was totally redone in Gtk3. It now supports multiple video backends, makes more efficient use of your resources and contains a few novel plugins.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:146
+#, no-wrap
+msgid "![Watch videos][img-parole]\n"
+msgstr "![Gaitar las vidèos][img-parole]\n"
+
+#. type: Plain text
+#: content/about/tour412.md:148
+#, no-wrap
+msgid "The media controls are now contained in a slide-over overlay (with a configurable timeout).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:150
+#, no-wrap
+msgid "![Listen to music][img-parole-audio]\n"
+msgstr "![Escotar de musica][img-parole-audio]\n"
+
+#. type: Title ###
+#: content/about/tour412.md:151
+#, no-wrap
+msgid "Text Editor *(mousepad)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:154
+#, no-wrap
+msgid "Mousepad was totally rewritten, gained a settings dialog and now supports Gtk3.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour412.md:156
+#, no-wrap
+msgid "![New mousepad settings][img-mousepad-prefs]\n"
+msgstr "![Paramètres novèls mousepad][img-mousepad-prefs]\n"
+
+#. type: Title ##
+#: content/about/tour412.md:157
+#, no-wrap
+msgid "A note on Xfce's portability"
+msgstr "Una precision sus la portabilitat de Xfce"
+
+#. type: Plain text
+#: content/about/tour412.md:160
+#, no-wrap
+msgid "All but one of those screenshots were taken on machines running OpenBSD -current, a good proof that Xfce is still portable and friendly to all Unix systems.\n"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:161
+#, no-wrap
+msgid "[img-tabwin-simple-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-simple-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:162
+#, no-wrap
+msgid "[img-tabwin-list-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-list-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:163
+#, no-wrap
+msgid "[img-tabwin-preview-crop]: //cdn.xfce.org/about/tour/4.12/tabwin-preview-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:164
+#, no-wrap
+msgid "[img-xfwm4-csd]: //cdn.xfce.org/about/tour/4.12/xfwm4-csd.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:165
+#, no-wrap
+msgid "[img-xfwm4-tiling-small]: //cdn.xfce.org/about/tour/4.12/xfwm4-tiling-small.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:166
+#, no-wrap
+msgid "[img-panel-shown]: //cdn.xfce.org/about/tour/4.12/panel-shown.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:167
+#, no-wrap
+msgid "[img-panel-shown-stack]: //cdn.xfce.org/about/tour/4.12/panel-shown-stack.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:168
+#, no-wrap
+msgid "[img-panel-hidden]: //cdn.xfce.org/about/tour/4.12/panel-hidden.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:169
+#, no-wrap
+msgid "[img-xfdesktop-properties-multiworkspace]: //cdn.xfce.org/about/tour/4.12/xfdesktop-properties-multiworkspace.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:170
+#, no-wrap
+msgid "[img-xfce4-display-settings-twoscreens]: //cdn.xfce.org/about/tour/4.12/xfce4-display-settings-twoscreens.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:171
+#, no-wrap
+msgid "[img-xfce4-display-layout]: //cdn.xfce.org/about/tour/4.12/xfce4-display-layout.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:172
+#, no-wrap
+msgid "[img-xfce4-appearance-settings-style]: //cdn.xfce.org/about/tour/4.12/xfce4-appearance-settings-style.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:173
+#, no-wrap
+msgid "[img-xfce4-appearance-settings-icons]: //cdn.xfce.org/about/tour/4.12/xfce4-appearance-settings-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:174
+#, no-wrap
+msgid "[img-xfpm-plugin-crop]: //cdn.xfce.org/about/tour/4.12/xfpm-plugin-crop.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:175
+#, no-wrap
+msgid "[img-xfpm-prefs-general]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-general.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:176
+#, no-wrap
+msgid "[img-xfpm-prefs-system]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-system.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:177
+#, no-wrap
+msgid "[img-xfpm-prefs-display]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-display.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:178
+#, no-wrap
+msgid "[img-xfpm-prefs-devices]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-devices.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:179
+#, no-wrap
+msgid "[img-xfpm-prefs-security]: //cdn.xfce.org/about/tour/4.12/xfpm-prefs-security.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:180
+#, no-wrap
+msgid "[img-thunar-tabs]: //cdn.xfce.org/about/tour/4.12/thunar-tabs.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:181
+#, no-wrap
+msgid "[img-thunar-freespace]: //cdn.xfce.org/about/tour/4.12/thunar-freespace.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:182
+#, no-wrap
+msgid "[img-thunar-multifiles-props]: //cdn.xfce.org/about/tour/4.12/thunar-multifiles-props.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:183
+#, no-wrap
+msgid "[img-whiskermenu-default]: //cdn.xfce.org/about/tour/4.12/whiskermenu-default.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:184
+#, no-wrap
+msgid "[img-whiskermenu-search]: //cdn.xfce.org/about/tour/4.12/whiskermenu-search.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:185
+#, no-wrap
+msgid "[img-taskman-tree]: //cdn.xfce.org/about/tour/4.12/taskman-tree.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:186
+#, no-wrap
+msgid "[img-taskman-filter]: //cdn.xfce.org/about/tour/4.12/taskman-filter.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:187
+#, no-wrap
+msgid "[img-parole]: //cdn.xfce.org/about/tour/4.12/parole.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:188
+#, no-wrap
+msgid "[img-parole-audio]: //cdn.xfce.org/about/tour/4.12/parole-audio.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour412.md:189
+#, no-wrap
+msgid "[img-mousepad-prefs]: //cdn.xfce.org/about/tour/4.12/mousepad-prefs.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour410.md:1
+#, no-wrap
+msgid "Xfce 4.10 tour"
+msgstr "Visita Xfce 4.10"
+
+#. type: Plain text
+#: content/about/tour410.md:8
+#, no-wrap
+msgid "This tour will introduce you to new major features of Xfce 4.10. It only covers the visual part of what has been done; for the full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "Aquesta visita vous fera descobrir de novèlas foncionalitats majeures de Xfce 4.10. Elle ne couvre que la partie visuala d'aqueste que es estada fait, per la lista completa dels modificacions, veire lo [la lista dels modificacions](/download/changelogs/).\n"
+
+#. type: Title ##
+#: content/about/tour410.md:9
+#, no-wrap
+msgid "Online Documentation"
+msgstr "Documentacion en linha"
+
+#. type: Plain text
+#: content/about/tour410.md:12
+#, no-wrap
+msgid "During the 4.10 development we've decided to remove user manuals from the packages and move them to an online wiki at [docs.xfce.org](https://docs.xfce.org). The reason for this change is to make [contributing](https://docs.xfce.org/wiki/documentation) and updating the documentation easier.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:14
+#, no-wrap
+msgid "![When you click a Help button Xfce will ask you to go to an online wiki page][img-online-help]\n"
+msgstr "![Quand clicatz sus un boton Aide Xfce vous demandara d'aller a una pagina wiki en linha][img-online-help]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:16
+#, no-wrap
+msgid "We hope that with the introduction of the wiki it will be easier for developers and contributors to maintain the documentation.\n"
+msgstr "Esperam qu'amb l'introduccion del wiki, il sera mai aisit pels desvolopaires e los contributors de manténer la documentacion.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:20
+#, no-wrap
+msgid "![Collapsed view of the Application Finder][img-appfinder-collapsed]\n"
+msgstr "![Vista redusida de la recèrca d'aplicacion][img-appfinder-collapsed]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:22
+#, no-wrap
+msgid "The application finder has been completely rewritten and combines the functionality of the old appfinder and xfrun4. Apart from user interface improvements, it now allows creating custom actions matching a prefix or a regex pattern.\n"
+msgstr "La lista l'aplicacion es estada completament reescrich e combine totas las foncionalitats de l'ancien appfinder e xfrun4. Outre los melhoraments de l'interfàcia utilizaire, permet d'ara enlà de crear dels actions personalizadas correspondent a un préfixe o un motiu regex.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:24
+#, no-wrap
+msgid "![Expanded view of the Application Finder][img-appfinder-expanded]\n"
+msgstr "![Vista espandida de la recèrca d'aplicacion][img-appfinder-expanded]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:27
+#, no-wrap
+msgid "Multiple Rows"
+msgstr "Mantuna linha"
+
+#. type: Plain text
+#: content/about/tour410.md:30
+#, no-wrap
+msgid "In 4.10 there is a single panel-wide option for configuring the number of rows in the panel. Some plugins (e.g. *launchers*) fit a single row, while others, like window buttons are allowed to occupy full width of the panel.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:32
+#, no-wrap
+msgid "![A horizontal panel with a number of rows set to three][img-panel-rows]\n"
+msgstr "![Un panèl orizontal amb un nombre de linhas definit a trois][img-panel-rows]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:33
+#, no-wrap
+msgid "Deskbar Mode"
+msgstr "Mòde barra de burèu"
+
+#. type: Plain text
+#: content/about/tour410.md:36
+#, no-wrap
+msgid "The panel features a new configuration called a *deskbar* mode. In the deskbar mode the panel is aligned vertically, just like in the vertical mode, but the plugins are laid out horizontally. With multiple rows, it allows creating wide vertical panels suitable for wide-screen setups.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:38
+#, no-wrap
+msgid "![A panel in Deskbar mode with a number of rows set to five][img-panel-deskbar]\n"
+msgstr "![Un panèl en mòde barra de Burèu amb un nombre de linhas definit a cinq][img-panel-deskbar]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:39
+#, no-wrap
+msgid "Actions Plugin"
+msgstr "Accions Empeutons"
+
+#. type: Plain text
+#: content/about/tour410.md:42
+#, no-wrap
+msgid "Session plugin from the xfce4-session package has been merged with a rewritten *actions* plugin\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:44
+#, no-wrap
+msgid "![Action plugin in a menu mode (left), and in a button mode (right)][img-panel-actions]\n"
+msgstr "![L'empeuton Action dins un mòde de menú (a esquèrra), e dins un mòde boton (à drecha)][img-panel-actions]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:45
+#, no-wrap
+msgid "Window Buttons"
+msgstr "Botons de la fenèstra"
+
+#. type: Plain text
+#: content/about/tour410.md:48
+#, no-wrap
+msgid "The *window buttons* plugin no longer expands, which makes the plugin positioning more flexible. In order to restore the previous behavior please add a transparent *separator* plugin with the **Expand** option enabled just behind the window buttons plugin.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:52
+#, no-wrap
+msgid "There are few visual changes in this release of Thunar. The window has less padding and the position of the status bar has been adjusted.\n"
+msgstr "I a peu de cambiaments visuals dins aquesta version de Thunar. La fenèstra a mens de emplenatge e la posicion de la barra d'estat es estada ajustada.\n"
+
+#. type: Title ##
+#: content/about/tour410.md:53 content/about/tour46.md:33
+#, no-wrap
+msgid "Session Manager *(xfce4-session)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:56
+#, no-wrap
+msgid "The *session manager*'s settings dialog has a button for clearing the saved session (no more `rm -r ~/.config/sessions`). Xfce4-tips has been removed and the session manager can now lock the screen before suspending or hibernating the system.\n"
+msgstr ""
+
+#. type: Title ###
+#: content/about/tour410.md:57
+#, no-wrap
+msgid "Applications Autostart"
+msgstr "Aplicacions aviada automatica"
+
+#. type: Plain text
+#: content/about/tour410.md:60
+#, no-wrap
+msgid "Another noticeable change is the way GNOME and KDE compatibility works. Compatibility check boxes only enable services, which have to be started before other applications (*gnome-keyring* and *gconf* for GNOME and *kdeinit* for KDE). All other autostart applications are available from **Applications Autostart**, but they are listed using an italic font and not enabled by default in order to distinguish them from Xfce applications. Unlike in previous versions of Xfce, compatibility services can be started independently from each other.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:62
+#, no-wrap
+msgid "![Applications, which are not a part of Xfce, are listed using an italic font][img-session-autostart]\n"
+msgstr "![Las aplicacions, que son pas una partie de Xfce, son listées en utilizant una poliça en italica][img-session-autostart]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:65
+#, no-wrap
+msgid "Settings Daemon"
+msgstr "Reglatges Daemon"
+
+#. type: Plain text
+#: content/about/tour410.md:68
+#, no-wrap
+msgid "Xfce 4.8 used two processes for applying settings: `xfce4-settings-helper` and `xfsettingsd`. In 4.10 they have been merged into xfsettingsd, which now handles all system settings.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:72
+#, no-wrap
+msgid "The new *settings manager* groups configuration dialogs in categories and allows you to search for their names or descriptions. Most of the dialogs are also now embedded in the settings manager window (this was a compile-time option in Xfce 4.8).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:74
+#, no-wrap
+msgid "![The settings manager with icons grouped by category and a search filter applied][img-settings-manager]\n"
+msgstr "![Lo gestionari de paramètres amb dels icònas regropadas per categoria e un filtre de recèrca aplicada][img-settings-manager]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:75
+#, no-wrap
+msgid "Settings Editor"
+msgstr "Paramètres Editor"
+
+#. type: Plain text
+#: content/about/tour410.md:78
+#, no-wrap
+msgid "The *settings editor* no longer collapses the entire tree when you edit a property (this is because it now reloads a single cell rather than the whole tree). Most properties can now be edited in-place, making it easier to quickly adjust settings.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:80
+#, no-wrap
+msgid "Using settings editor you can also monitor changes of settings in a selected channel. Right-click on a channel in the main window, and select **Monitor** to display the monitor window.\n"
+msgstr "Utilizant un editor de paramètres que podètz tanben seguir l'evolucion dels paramètres dins un canal seleccionat. Fasètz un clic drech sus un canal dins la fenèstra principala e seleccionatz **Monitor** per afichar la fenèstra del monitor.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:82
+#, no-wrap
+msgid "![Settings editor with an open channel monitor, while editing a property in-place][img-settings-editor]\n"
+msgstr "![L'editor dels paramètres amb un monitor de canal dobèrt, en train d’editar una proprietat][img-settings-editor]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:83
+#, no-wrap
+msgid "MIME Type Editor"
+msgstr "Editor de tipe MIME"
+
+#. type: Plain text
+#: content/about/tour410.md:86
+#, no-wrap
+msgid "In the last couple of years, many people were asking for a tool to manage their file type associations. The new *MIME type editor* does just that. It allows you to easily assign a default application to a file type, see your changes and reset them to default settings when necessary. Note that it does not allow you to change the system MIME Type definitions (add or remove types and change icons).\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:88
+#, no-wrap
+msgid "![MIME types matching a pattern and a menu for selecting a default application][img-settings-mime]\n"
+msgstr "![Types MIME correspondent a un motiu e un menú que permet de seleccionar una aplicacion per defaut][img-settings-mime]\n"
+
+#. type: Title ###
+#: content/about/tour410.md:89
+#, no-wrap
+msgid "Mouse and Touchpad"
+msgstr "Mirga e pavat tactil"
+
+#. type: Plain text
+#: content/about/tour410.md:92
+#, no-wrap
+msgid "The *mouse and touchpad* dialog is capable of handling basic Synaptics and Wacom properties in the GUI. A settings daemon running in the background handles all kinds of device properties, as documented in the [mouse settings](https://docs.xfce.org/xfce/xfce4-settings/mouse) wiki.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:94
+#, no-wrap
+msgid "![Synaptics touchpad settings in the mouse and touchpad dialog][img-settings-mouse]\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:98
+#, no-wrap
+msgid "In 4.10 you can drag and drop a tarball with a downloaded theme onto the *style* or *icon* list. Xfce will attempt to extract and install the files into the `~/.themes` or `~/.icons` directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour410.md:102
+#, no-wrap
+msgid "Although the initial plan for Xfce 4.10 was to integrate desktop handling in Thunar, we have decided not to do it at this time yet. Meanwhile, Xfdesktop has gained support for single-click operation, automated background image cycling and thumbnail rendering.\n"
+msgstr "Mentre que lo plan inicial per Xfce 4.10 èra d'integrar la manipulacion del burèu dins Thunar, avèm decidit de ne pas lo far encara a aqueste moment . Pendent aqueste temps, Xfdesktop a obtengut lo supòrt pel foncionament simple clic, automatizat lo changent d'imatge del fons d'ecran e lo rendu dels vinhetas.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:104
+#, no-wrap
+msgid "![Desktop with image thumbnails and support for single-click operation][img-xfdesktop]\n"
+msgstr "![Lo burèu amb las vinhetas dels imatges e un soutien pel foncionament d'un simple clic][img-xfdesktop]\n"
+
+#. type: Plain text
+#: content/about/tour410.md:106
+#, no-wrap
+msgid "Xfdesktop is now shipped with a new default background image.\n"
+msgstr "Xfdesktop es d'ara enlà fourni amb un novèl imatge de fons per defaut.\n"
+
+#. type: Plain text
+#: content/about/tour410.md:110
+#, no-wrap
+msgid "Xfwm4 can now tile a window when you drag it to the edge of the screen. This feature is optional and is disabled by default. In such a case windows can still be tiled using a keyboard shortcut. Another improvement is a better theming support and cursor key navigation in the tab window (Alt+Tab).\n"
+msgstr "Xfwm4 pòt ara mosaïquer una fenèstra quand vous la faites lisar vers lo bòrd de l'ecran. Aquesta foncionalitat es facultative e es desactivada per defaut. Dins un tel cas, las fenèstras pòdon encara èsser mosaïquées amb l'ajuda d'un acorchi clavièr. Una autra melhorament es un melhor supòrt de la thématisation e de la tòca de navigation del curseur dins la fenèstra de l'onglet (Alt + Tab).\n"
+
+#. type: Link reference
+#: content/about/tour410.md:111
+#, no-wrap
+msgid "[img-online-help]: //cdn.xfce.org/about/tour/4.10/online-help.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:112
+#, no-wrap
+msgid "[img-appfinder-collapsed]: //cdn.xfce.org/about/tour/4.10/appfinder-collapsed.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:113
+#, no-wrap
+msgid "[img-appfinder-expanded]: //cdn.xfce.org/about/tour/4.10/appfinder-expanded.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:114
+#, no-wrap
+msgid "[img-panel-rows]: //cdn.xfce.org/about/tour/4.10/panel-rows.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:115
+#, no-wrap
+msgid "[img-panel-deskbar]: //cdn.xfce.org/about/tour/4.10/panel-deskbar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:116
+#, no-wrap
+msgid "[img-panel-actions]: //cdn.xfce.org/about/tour/4.10/panel-actions.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:117
+#, no-wrap
+msgid "[img-session-autostart]: //cdn.xfce.org/about/tour/4.10/session-autostart.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:118
+#, no-wrap
+msgid "[img-settings-manager]: //cdn.xfce.org/about/tour/4.10/settings-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:119
+#, no-wrap
+msgid "[img-settings-editor]: //cdn.xfce.org/about/tour/4.10/settings-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:120
+#, no-wrap
+msgid "[img-settings-mime]: //cdn.xfce.org/about/tour/4.10/settings-mime.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:121
+#, no-wrap
+msgid "[img-settings-mouse]: //cdn.xfce.org/about/tour/4.10/settings-mouse.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour410.md:122
+#, no-wrap
+msgid "[img-xfdesktop]: //cdn.xfce.org/about/tour/4.10/xfdesktop.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour48.md:1
+#, no-wrap
+msgid "Xfce 4.8 tour"
+msgstr "Visita Xfce 4.8"
+
+#. type: Plain text
+#: content/about/tour48.md:8
+#, no-wrap
+msgid "This tour will introduce you to all the new major visual features in Xfce 4.8. This is only the visual part of what has been done; for a full list of changes, see the [changelogs](/download/changelogs/).\n"
+msgstr "Aquesta visita vous fera descobrir totas las novèlas caracteristicas majeures visualas dins Xfce 4.8. Ce n'est que la partie visible d'aqueste que es estada fait, per una lista completa dels modificacions, veire la [ liste dels cambiaments](/download/changelogs/).\n"
+
+#. type: Title ###
+#: content/about/tour48.md:11
+#, no-wrap
+msgid "Remote shares browsing"
+msgstr "Partages distants"
+
+#. type: Plain text
+#: content/about/tour48.md:14
+#, no-wrap
+msgid "Thunar now has optional support for GVFS which will allow you to browse remote shares using Thunar: FTP, Windows Shares, WebDav and SSH servers...\n"
+msgstr "Thunar a ara un supòrt opcional per GVFS  que vos permetrà de percórrer los partiment s distants en utilizant Thunar : FTP, partiment Windows, WebDAV e servidors SSH ...\n"
+
+#. type: Plain text
+#: content/about/tour48.md:16
+#, no-wrap
+msgid "![Thunar browsing a remote share][img-thunar-remote]\n"
+msgstr "![Thunar percor un partiment distant][img-thunar-remote]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:17
+#, no-wrap
+msgid "New file operations progress dialog"
+msgstr "Fenèstra de progression de las operacions Novèl fichièr"
+
+#. type: Plain text
+#: content/about/tour48.md:20
+#, no-wrap
+msgid "When several file operations (copy or move) are being handled in parallel, Thunar now shows a single progress dialog which displays all the relevant information.\n"
+msgstr "Quand mantuna operacion suls fichièrs (copiar o desplaçar) son tractadas en parallèl, Thunar aficha d'ara enlà una bóstia de dialòg de progression unica qu'aficha totas las informacions pertinentas.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:22
+#, no-wrap
+msgid "![Progress dialog][img-thunar-progress]\n"
+msgstr "![Fenèstra Progression][img-thunar-progress]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:23
+#, no-wrap
+msgid "Eject button for removable devices"
+msgstr "Boton d'ejeccion pels periferics amovibles"
+
+#. type: Plain text
+#: content/about/tour48.md:26
+#, no-wrap
+msgid "It is is now possible to eject removable devices by clicking the eject button near each removable device label in the side pane.\n"
+msgstr "Es ara possible d'ejectar de periferics amovibles en clicant sul boton d'ejeccion prèp de l'etiqueta de cada periferic amovible dins lo panèl lateral.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:28
+#, no-wrap
+msgid "![Eject button][img-thunar-eject]\n"
+msgstr "![Boton d'ejeccion][img-thunar-eject]\n"
+
+#. type: Plain text
+#: content/about/tour48.md:32
+#, no-wrap
+msgid "The Xfce panel has been totally rewritten in 4.8, here are the most visible changes.\n"
+msgstr "Lo panèl Xfce es estada totalament reescrich dins 4.8, aquí los cambiaments los mai visibles.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:33
+#, no-wrap
+msgid "Improved positioning and size handling"
+msgstr "Melhorament de la manipulacion del posicionament e de la talha"
+
+#. type: Plain text
+#: content/about/tour48.md:36
+#, no-wrap
+msgid "The panel has much better support for positioning panels on the screen. It can be dragged and snapped to screen borders; floating positions are only remembered when moving a panel and the length of the panel can be adjusted as a percentage of the monitor size.\n"
+msgstr "Lo panèl a un melhor supòrt dels posicionaments dels panèls sus l'ecran. Pòt èsser desplaçat e se metre al bòrds de l'ecran, las posicions flotantas son solament rapeladas al moment del desplaçament del panèl e la longor del panèl pòt èsser ajustada en tant que percentatge de la talha de l'ecran.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:37
+#, no-wrap
+msgid "Transparent backgrounds"
+msgstr "Fons transparent"
+
+#. type: Plain text
+#: content/about/tour48.md:40
+#, no-wrap
+msgid "The panel is now able to draw transparent panel backgrounds with non transparent items. Your panel items will remain readable and you will enjoy a nice panel look.\n"
+msgstr "Lo panèl es ara en mesure de dessiner un panèl amb un fons transparent amb dels objets non transparents. Vos elements del panèl demoraràn lisibles e poiretz profiechar d'un look de panèl agréable.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:42
+#, no-wrap
+msgid "![Transparent panel background][img-panel-transparent]\n"
+msgstr "![Fons del panèl transparent][img-panel-transparent]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:43
+#, no-wrap
+msgid "New item editor"
+msgstr "Novèl editor d'article"
+
+#. type: Plain text
+#: content/about/tour48.md:46
+#, no-wrap
+msgid "The panel now features an item editor which allows to modify, move, add and remove items quickly. This is particularly useful for items which are hard to right click and gives you an easy way to change your panel layout from a single place.\n"
+msgstr "Lo panèl dispausa d'ara enlà d'un editor d'element que permet de modificar, desplaçar, apondre e suprimir dels elements rapidament. Aquò es particulièrement utile pels elements que son difficiles a far amb un clic drech e vous donne un mejan aisit de changer la disposicion de votre panèl dempuèi un seul endroit.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:48
+#, no-wrap
+msgid "![Panel item editor][img-panel-editor]\n"
+msgstr "![Editor d'element del panèl][img-panel-editor]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:49
+#, no-wrap
+msgid "Drag and drop to create launchers"
+msgstr "Glisser-depausar per crear d'aviadors"
+
+#. type: Plain text
+#: content/about/tour48.md:52
+#, no-wrap
+msgid "You can now drag and drop menu entries from the panel applications menu, application finder or Thunar to the panel to create launchers. This feature should please the huge number of people who had been requesting it for ages. The launcher also has an integrated application finder to add new items.\n"
+msgstr "Podètz ara lisar e depausar las entradas del menú del panèl aplicacions supportant menú, la lista d'aplicacion o Thunar dempuèi lo panèl per crear d'aviadors. Aquesta foncionalitat deuriá plaire al grand nombre de personas que avaient demandé aquò dempuèi longtemps. L'aviador a tanben un listeur d'aplicacion integrada per apondre de novèls elements.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:53
+#, no-wrap
+msgid "Window buttons plugin"
+msgstr "Botons de la fenèstra empeuton"
+
+#. type: Plain text
+#: content/about/tour48.md:56
+#, no-wrap
+msgid "The iconbox and tasklist plugins are new merged into 1 plugin, called window buttons. It implements different sorting modes, improved handling in vertical panels and can draw a similar frame as Xfwm4 Alt+tab when hovering a button.\n"
+msgstr "Los empeutons de la bóstia d’icòna e la lista dels prètzfaits an de novèl fusionat en 1 empeuton, apelat botons de fenèstra. Met en òbra diferents modes de tri, un melhor maniement dins los panèls verticals e pòt dessiner un quadre similar al Alt+tab de Xfwm4 al moment del susvòl d'un boton.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:57
+#, no-wrap
+msgid "New fuzzy clock"
+msgstr "Novèl relòtge fosca"
+
+#. type: Plain text
+#: content/about/tour48.md:60
+#, no-wrap
+msgid "An Xfce release without a new clock mode would not be a true Xfce release. Let us introduce you the 'fuzzy' clock mode!\n"
+msgstr "Una version Xfce sens un novèl mòde de relòtge ne serait pas una vraie version de Xfce. Laissez-nous vous présenter lo mòde de relòtge 'fosc' !\n"
+
+#. type: Plain text
+#: content/about/tour48.md:62
+#, no-wrap
+msgid "![New fuzzy clock mode][img-panel-fuzzy-clock]\n"
+msgstr "![Novèl mòde de relòtge fosc][img-panel-fuzzy-clock]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:63
+#, no-wrap
+msgid "New directory menu plugin"
+msgstr "Novèl repertòri menú empeuton "
+
+#. type: Plain text
+#: content/about/tour48.md:66
+#, no-wrap
+msgid "The directory menu plugin provides a menu reproducing the arborescence of a particular folder. This allows you to open a terminal or a file manager in a sub-folder in a very fast and efficient way.\n"
+msgstr "L'empeuton menú repertòri prepausa un menú que reprodusís l'arborescéncia d'un dorsièr particular. Aquò vos permet de dobrir un terminal o d'un gestionari de fichièrs dins un sosdorsièr d'una manièra fòrça rapida e eficaça.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:68
+#, no-wrap
+msgid "![Directory menu plugin][img-panel-directorymenu]\n"
+msgstr "![Repertòri menú empeuton][img-panel-directorymenu]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:69
+#, no-wrap
+msgid "Applications menu edition"
+msgstr "Edicion menú Aplicacions"
+
+#. type: Plain text
+#: content/about/tour48.md:72
+#, no-wrap
+msgid "You can now edit the applications menu using any Freedesktop compliant menu editor, Alacarte being the one we used to test.\n"
+msgstr "Podètz ara editar lo menú de las aplicacions en utilizant quin editor de menú que siá, compatible Freedesktop, Alacarte essent lo qu'avèm utilizat per testar.\n"
+
+#. type: Title ###
+#: content/about/tour48.md:75
+#, no-wrap
+msgid "Improved multihead setup configuration"
+msgstr "Melhorament de la configuracion d'installacion multiecrans"
+
+#. type: Plain text
+#: content/about/tour48.md:78
+#, no-wrap
+msgid "Xfce can now handle and setup multihead setups for any randr 1.2 compatible driver. Unfortunately, this means it will not work with Nvidia proprietary drivers.\n"
+msgstr "Xfce pòt ara manipuler e configurar las configuracions multiecrans per n'importe quel pilòt compatible randr 1.2. Malheureusement, aquò significa que foncionarà pas amb los pilòts proprietaris Nvidia.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:80
+#, no-wrap
+msgid "You can enable and disable plugged screens, set their resolution, refresh rate, rotation and reflection, clone screens or extend desktops.\n"
+msgstr "Podètz activar e desactivar los ecrans brancats, fixer lor resolucion, lor taus de refrescament, la rotacion e la reflexion, cloner dels ecrans o de étendre los burèus.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:82
+#, no-wrap
+msgid "![New display settings dialog][img-display-settings]\n"
+msgstr "![Novèla fenèstra dels paramètres d'afichatge][img-display-settings]\n"
+
+#. type: Title ####
+#: content/about/tour48.md:83
+#, no-wrap
+msgid "Timed confirmation"
+msgstr "Confirmacion cronometrada"
+
+#. type: Plain text
+#: content/about/tour48.md:86
+#, no-wrap
+msgid "Any change made with the settings dialog will have to be confirmed within ten seconds or they will be reverted. This prevents broken video drivers from leaving your computer unusable.\n"
+msgstr "Toute modificacion aportada a la bóstia de dialòg dels reglatges devra èsser confirmada dins las dix segondas o ils seràn anullats. Aquò empêche los pilòts vidéo copats de quitar vòstre ordenador inutilizable.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:88
+#, no-wrap
+msgid "![Timed confirmation for display settings changes][img-display-settings-confirmation]\n"
+msgstr "![Confirmacion cronometrat pel cambiament dels paramètres d'afichatge ][img-display-settings-confirmation]\n"
+
+#. type: Title ####
+#: content/about/tour48.md:89
+#, no-wrap
+msgid "Quick setup dialog"
+msgstr "Fenèstra de configuracion rapide"
+
+#. type: Plain text
+#: content/about/tour48.md:92
+#, no-wrap
+msgid "The quick setup dialog allows you to configure a dual screen setup in a second. Plug the second screen, press the display key or Windows + p and select the wanted layout. Done!\n"
+msgstr "La bóstia de dialòg de configuracion rapide vos permet de configurar una configuracion double ecran en una segonda. Brancatz lo segond ecran, quichatz sus la tòca ecran o Windows + p e seleccionatz la mesa en pagina desirada. Es fait !\n"
+
+#. type: Plain text
+#: content/about/tour48.md:94
+#, no-wrap
+msgid "![Quick multihead setup][img-minimal-display-settings]\n"
+msgstr "![Installacion rapide multimonitor][img-minimal-display-settings]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:95
+#, no-wrap
+msgid "Settings edition in the Xfce Settings Editor"
+msgstr "Edicion Paramètres dins l'editor de paramètres Xfce"
+
+#. type: Plain text
+#: content/about/tour48.md:98
+#, no-wrap
+msgid "The Xfce Settings Editor now deserves its name, it is no longer a simpler Xfconf settings viewer. You can now modify, delete, add and reset settings through its interface. It also monitors changes to update its view.\n"
+msgstr "L'editor de paramètres Xfce mérite d'ara enlà son nom, il n'est mai un simple spectateur de paramètres xfconf. Podètz ara modificar, suprimir, apondre e reïnicializar los paramètres pel biais de son interfàcia. Il surveille tanben los cambiaments de metre a jorn son punt de vista.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:100
+#, no-wrap
+msgid "![Editing Xfconf properties with the Settings Editor][img-settings-editor]\n"
+msgstr "![Edicion dels proprietats de Xfconf amb l'Editor de paramètres][img-settings-editor]\n"
+
+#. type: Title ###
+#: content/about/tour48.md:101
+#, no-wrap
+msgid "Improved keyboard layout selection"
+msgstr "Melhorament de la seleccion de la configuracion del clavièr"
+
+#. type: Plain text
+#: content/about/tour48.md:104
+#, no-wrap
+msgid "The layout selection dialog received a lot of love: it no longer displays cryptic language/variants codes but uses localized languages/variants names. Layout edition was also made easier by prefilling the dialogs with the current values.\n"
+msgstr "La bóstia de dialòg de seleccion de la mesa en pagina a recebut fòrça atencion : aficha pas mai los còdis de lenga / variantas cryptiques mas utiliza de langages / variantas de noms localizats. La disposicion de l'édition a tanben été facilitée pel preemplenatge dels bóstia de dialòg amb las valors courantes.\n"
+
+#. type: Plain text
+#: content/about/tour48.md:106
+#, no-wrap
+msgid "![Layouts and variants list][img-keyboard-settings-list]\n"
+msgstr "![Organizacions e la lista dels variantas][img-keyboard-settings-list]\n"
+
+#. type: Link reference
+#: content/about/tour48.md:107
+#, no-wrap
+msgid "[img-thunar-remote]: //cdn.xfce.org/about/tour/4.8/thunar-remote.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:108
+#, no-wrap
+msgid "[img-thunar-progress]: //cdn.xfce.org/about/tour/4.8/thunar-progress.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:109
+#, no-wrap
+msgid "[img-thunar-eject]: //cdn.xfce.org/about/tour/4.8/thunar-eject.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:110
+#, no-wrap
+msgid "[img-panel-transparent]: //cdn.xfce.org/about/tour/4.8/panel-transparent.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:111
+#, no-wrap
+msgid "[img-panel-editor]: //cdn.xfce.org/about/tour/4.8/panel-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:112
+#, no-wrap
+msgid "[img-panel-fuzzy-clock]: //cdn.xfce.org/about/tour/4.8/panel-fuzzy-clock.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:113
+#, no-wrap
+msgid "[img-panel-directorymenu]: //cdn.xfce.org/about/tour/4.8/panel-directorymenu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:114
+#, no-wrap
+msgid "[img-display-settings]: //cdn.xfce.org/about/tour/4.8/display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:115
+#, no-wrap
+msgid "[img-display-settings-confirmation]: //cdn.xfce.org/about/tour/4.8/display-settings-confirmation.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:116
+#, no-wrap
+msgid "[img-minimal-display-settings]: //cdn.xfce.org/about/tour/4.8/minimal-display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:117
+#, no-wrap
+msgid "[img-settings-editor]: //cdn.xfce.org/about/tour/4.8/settings-editor.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour48.md:118
+#, no-wrap
+msgid "[img-keyboard-settings-list]: //cdn.xfce.org/about/tour/4.8/keyboard-settings-list.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour46.md:1
+#, no-wrap
+msgid "Xfce 4.6 tour"
+msgstr "Visita Xfce 4.6"
+
+#. type: Plain text
+#: content/about/tour46.md:8
+#, no-wrap
+msgid "The long awaited 4.6.0 version of the Xfce Desktop Environment is finally available. We will try to highlight some of the new features which have been added since the last stable release.\n"
+msgstr "Lo tant attendu la version 4.6.0 de l'environament de burèu Xfce es enfin disponible. Nous allons essayer de metre en évidence qualques-unes dels novèlas foncionalitats que son estadas apondudas dempuèi la darrièra version establa.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:12
+#, no-wrap
+msgid "Since desktop icons have been introduced in Xfce 4.4, people have expressed the need to allow the selection of multiple icons (rubber banding). With **Xfce 4.6**, the **Xfdesktop** manager finally implements this feature: you can select multiple icons, remove them, etcetera...\n"
+msgstr "Depuis que las icònas del burèu son estadas introduites dins Xfce 4.4, lo monde an exprimé la nécessité de permetre la seleccion de plusieurs icònas (seleccion élastique). Amb <b>Xfce 4.6</b>, lo gestionari <b>Xfdesktop</b>met en òbra enfin aquesta foncionalitat : podètz seleccionar mantuna icòna, las suprimir, etc ...\n"
+
+#. type: Plain text
+#: content/about/tour46.md:14
+#, no-wrap
+msgid "![Multiple icons selection][img-xfdesktop-rubberbanding]\n"
+msgstr "![Seleccion dels icònas multiples][img-xfdesktop-rubberbanding]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:16
+#, no-wrap
+msgid "**Xfce 4.6** features a brand new desktop menu which allows you to manipulate files as with the **Thunar** filemanager contextual menu, but also to open applications, exit your session, or access the help documentation.\n"
+msgstr "<b>Xfce 4.6</b> prepausa una novèla version del menú del burèu  que vos permet de manipular de fichièrs coma amb lo gestionari de fichièrs del menú contextual <b>Thunar</b>, mas tanben per dobrir d'aplicacions, quitar vòstra session, o d'accedir amb l'ajuda documentacion.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:18
+#, no-wrap
+msgid "![New desktop menu][img-xfdesktop-menu]\n"
+msgstr "![Novèl menú del burèu][img-xfdesktop-menu]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:22
+#, no-wrap
+msgid "A lot of long standing bugs have been fixed in **Xfce4 Panel**, particularly for multiple screen setups, but this new release also brings an improved set of panel plugins.\n"
+msgstr "Un grand nombre de bugs de longa data son estats corregits dins <b>panèl Xfce4</b>, en particular pels configuracions a plusieurs ecrans, mas aquesta novèla version apporte tanben un ensemble melhorat del panèl dels empeutons\n"
+
+#. type: Plain text
+#: content/about/tour46.md:24
+#, no-wrap
+msgid "![New binary clock][img-xfce4-panel-clock]\n"
+msgstr "![Novèl relòtge binari][img-xfce4-panel-clock]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:26
+#, no-wrap
+msgid "The **clock plugin** has been rewritten to consume fewer system resources and to fix some display bugs, but there is also a new clock mode for the geek in you: binary clock! The new **notification area plugin** allows you to hide selected notification icons to keep your notification area clean and readable.\n"
+msgstr "Lo <b>empeuton relòtge</b> es estada reescrich per consomenar mens de ressorsas sistèma e corregir qualques bugs d'afichatge, mas i a tanben un novèl mòde de relòtge pel geek en vous : relòtge binaire ! Lo novèl <b>empeuton de la zòna de notificacion</b> vos permet d'amagar las icònas de notificacion seleccionats per gardar votre zòna de notificacion pròpria e lisible.\n"
+
+#. type: Title ##
+#: content/about/tour46.md:27
+#, no-wrap
+msgid "Sound Mixer *(xfce4-mixer)*"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:30
+#, no-wrap
+msgid "**Xfce4 Mixer** has been rewritten from scratch to use [Gstreamer](https://gstreamer.freedesktop.org/). This allows us to more easily support multiple sound systems, the user interface is more polished, and you can manage several different sound cards. Additionally, a panel plugin allows you to set the system sound quickly using the mouse scroll wheel.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:32
+#, no-wrap
+msgid "![New sound mixer][img-xfce4-mixer]\n"
+msgstr "![Novèl mesclador sonòr][img-xfce4-mixer]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:36
+#, no-wrap
+msgid "**Xfce 4.6** comes with an enhanced session manager: your session should be started faster, and the settings dialog has been reworked to ease the management of session-aware applications. Additionally, the session manager will now automatically restart session applications which crashed so that you are not left without a desktop, panel, window manager, etcetera, if a crash occurs.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:38
+#, no-wrap
+msgid "![Session settings dialog][img-xfce4-session-settings]\n"
+msgstr "![Session dels paramètres de dialòg][img-xfce4-session-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:40
+#, no-wrap
+msgid "The session manager also includes a new long-awaited feature: support for **suspend** and **hibernate** \"out of the box.\" The logout dialog now has two additional buttons which offer to suspend or hibernate your computer.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:42
+#, no-wrap
+msgid "![Session logout dialog][img-xfce4-session-logout]\n"
+msgstr "![Session desconnexion dialòg][img-xfce4-session-logout]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:46
+#, no-wrap
+msgid "As usual, **Xfwm4** has matured quite a bit during this release cycle: many bugs have been fixed, support for multiple displays has been added, and overall performance has been improved.\n"
+msgstr "Coma d'habitude, <b>Xfwm4</b> a muri un peu al cors d'aqueste cicle de version : de nombreux bugs son estats corregits, lo supòrt de plusieurs ecrans es estada apondut, e la performància globale es estada melhorada.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:48
+#, no-wrap
+msgid "In addition to some other new features, **Xfwm4** is now able to detect windows that do not respond and offer to terminate them.\n"
+msgstr "En mai de qualques autres novèlas foncionalitats, <b>Xfwm4</b> es ara capable de détecter las fenèstras que ne répondent pas e proposent d'y metre fin.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:50
+#, no-wrap
+msgid "![Dialog to terminate busy applications][img-xfwm4-net-ping]\n"
+msgstr "![Dialòg per metre fin a d'aplicacions ocupadas][img-xfwm4-net-ping]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:52
+#, no-wrap
+msgid "There is also a new **actions menu** which allows you to quickly move and resize windows, put them above or below other windows, or fullscreen them.\n"
+msgstr "Tanben i a un novèl <b>menú actions</b>  que vos permet de desplaçar rapidament e redimensionar las fenèstras, de las metre en dessús o en dejós dels autres fenèstras, o en ecran complet.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:54
+#, no-wrap
+msgid "![New actions menu][img-xfwm4-new-menu]\n"
+msgstr "![Novèl menú d'accions][img-xfwm4-new-menu]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:56
+#, no-wrap
+msgid "A new **fill** operation has been implemented; it expands a given window to the available space without overlapping other adjacent windows.\n"
+msgstr "Una novèla operacion <b>remplir</b> es estada mesa en òbra, elle agrandit una fenèstra donada dins l'espace disponible sens chevauchement dels autres fenèstras adjacentes.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:58
+#, no-wrap
+msgid "![Fill operation][img-xfwm4-fill-operation]\n"
+msgstr "![Emplenar operacion][img-xfwm4-fill-operation]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:60
+#, no-wrap
+msgid "The **compositor** has been optimized to reduce window flickering during resize operations.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:62
+#, no-wrap
+msgid "![Flicker free resizing][img-xfwm4-resize]\n"
+msgstr "![Redimensionament liure Flicker][img-xfwm4-resize]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:64
+#, no-wrap
+msgid "Some **tweakable options** have also been added: for example, you can now disable the blinking of windows when they receive an urgency hint.\n"
+msgstr "Certaines <b> opcions per personalizar</b> an tanben été aponduts : per exemple, podètz ara desactivar lo clignotement de las fenèstras quand ils reçoivent un indicador d'urgence.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:66
+#, no-wrap
+msgid "![New tweakable options][img-xfwm4-new-tweaks]\n"
+msgstr "![De novèlas opcions personalizablas][img-xfwm4-new-tweaks]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:70
+#, no-wrap
+msgid "There have been many bug fixes and performance improvements in **Thunar**. It can use the mouse forward and backward buttons (if available) to navigate, and it includes a new plugin that allows you to set an image as wallpaper from the context menu.\n"
+msgstr "I a eu de nombreuses correccions de bugs e melhoraments de performàncias dins <b>Thunar</b>. Il pòt utilizar los botons de la mirga vers l'avant e vers l'arrièr (si disponibles) per navigar, e il inclutz un novèl empeuton  que vos permet de definir un imatge coma fons d'ecran a partir del menú contextual.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:72
+#, no-wrap
+msgid "![Set an image in a Thunar folder as wallpaper][img-thunar-wallpaper-plugin]\n"
+msgstr "![Definir un imatge dins un dorsièr Thunar coma fons d'ecran][img-thunar-wallpaper-plugin]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:74
+#, no-wrap
+msgid "**Thunar** now follows the [XDG user directories](https://freedesktop.org/wiki/Software/xdg-user-dirs) specification; this allows you to have themed and localized user folders to store your music, documents, videos, templates, etcetera...\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:76
+#, no-wrap
+msgid "![Thunar menu for user directories][img-thunar-xdg-user-dirs]\n"
+msgstr "![Menú Thunar pels repertòris dels utilizaires][img-thunar-xdg-user-dirs]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:78
+#, no-wrap
+msgid "**Thunar** will now display a translucent icon for drives or volumes that are not mounted, so that you can distinguish them from the mounted ones.\n"
+msgstr "<b>Thunar</b> aficha ara una icòna translucida pels disques o los volums que son pas montats, de tal biais que los poscatz distinguir de los que son montats.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:80
+#, no-wrap
+msgid "![Translucent icons for unmounted drives and volumes][img-thunar-mounting]\n"
+msgstr "![Icònas translucidas pels lectors e los volums demonitats][img-thunar-mounting]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:82
+#, no-wrap
+msgid "Last, but not least, **Thunar** now supports encrypted devices!\n"
+msgstr "Darrièr punt, mas non lo moindre, <b>Thunar</b> supporte ara los periferics chifrats !\n"
+
+#. type: Plain text
+#: content/about/tour46.md:84
+#, no-wrap
+msgid "![Thunar support for encrypted devices][img-thunar-encrypted]\n"
+msgstr "![Supòrt Thunar per periferics chifrats][img-thunar-encrypted]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:88
+#, no-wrap
+msgid "Xfce 4.6 features a new settings interface, **Xfce Settings Manager**, which allows you to configure your desktop environment much more easily than before. The dialogs which are accessible by single clicking on the icons have been designed to be more compact and to allow you to customize your desktop quickly and in a more intuitive way.\n"
+msgstr "Xfce 4.6 dispausa d'una novèla interfàcia de parametratge, lo <b>gestionari de paramètres Xfce</b>,  que vos permet de configurar votre environament de burèu beaucoup mai aisidament qu'de per abans. Les bóstia de dialògs que son accessibles en clicant sus ​​las icònas unicas son estats concebuts per èsser mai compactes e per vos permetre de personalizar vòstre burèu rapidament e de manière mai intuitiva.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:90
+#, no-wrap
+msgid "![Xfce4 Settings Manager][img-xfce4-settings-manager]\n"
+msgstr "![Gestionari de paramètres Xfce4][img-xfce4-settings-manager]\n"
+
+#. type: Title ###
+#: content/about/tour46.md:91
+#, no-wrap
+msgid "Accessibility settings"
+msgstr "Paramètres d'accessibilitat"
+
+#. type: Plain text
+#: content/about/tour46.md:94
+#, no-wrap
+msgid "![Accessibility settings dialog][img-xfce4-accessibility-settings]\n"
+msgstr "![Bóstia de dialòg dels paramètres d'accessibilitat][img-xfce4-accessibility-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:96
+#, no-wrap
+msgid "The **Accessibility settings** dialog allows you to set the accessibility related mouse and keyboard options, such as sticky keys, bounce keys, or mouse emulation.\n"
+msgstr "La fenèstra dels <b>paramètres d'accessibilitat</b> vos permet de definir las opcions del clavièr, telles que las tòcas rémanentes, las tòcas de rebomb, o l'émulation de la mirga mirga e sus l'accessibilitat.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:97
+#, no-wrap
+msgid "Appearance settings"
+msgstr "Paramètres d'aparéncia"
+
+#. type: Plain text
+#: content/about/tour46.md:100
+#, no-wrap
+msgid "![Appearance settings dialog][img-xfce4-appearance-settings]\n"
+msgstr "![Bóstia de dialòg dels paramètres d'aparéncia][img-xfce4-appearance-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:102
+#, no-wrap
+msgid "The **Appearance settings** dialog allows you to set the widget style, the icon theme, and font, toolbar and menu options.\n"
+msgstr "La bóstia de dialòg dels <b>paramètres d'aparéncia</b> vos permet de definir lo style del widget, lo tèma d'icònas e la poliça, de la barra d'aisinas e dels opcions del menú.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:103
+#, no-wrap
+msgid "Display settings"
+msgstr "Paramètres d'afichatge"
+
+#. type: Plain text
+#: content/about/tour46.md:106
+#, no-wrap
+msgid "![Display settings dialog][img-xfce4-display-settings]\n"
+msgstr "![Afichar bóstia de dialòg paramètres][img-xfce4-display-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:108
+#, no-wrap
+msgid "The **Display settings** dialog allows you to set the resolution, refresh rate, and the rotation for each screen that is connected.\n"
+msgstr "La fenèstra dels <b> paramètres d'afichatge </b> vos permet de definir la resolucion, frequéncia de refrescament e la rotacion per cada ecran que es connectat.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:109
+#, no-wrap
+msgid "Keyboard settings"
+msgstr "Paramètres del clavièr"
+
+#. type: Plain text
+#: content/about/tour46.md:112
+#, no-wrap
+msgid "![Keyboard settings dialog, layout tab][img-xfce4-keyboard-settings-layout]\n"
+msgstr "![Fenèstra dels paramètres del Clavièr, onglet de presentacion][img-xfce4-keyboard-settings-layout]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:114
+#, no-wrap
+msgid "The **Keyboard settings** dialog allows you to set keyboard preferences such as key repeating, keyboard shortcuts, and your keyboard layout.\n"
+msgstr "La fenèstra dels <b>paramètres del clavièr</b> vos permet de definir dels preferéncias del clavièr telles que répétition dels tòcas , los acorchis de clavièr e la disposicion del clavièr.\n"
+
+#. type: Plain text
+#: content/about/tour46.md:116
+#, no-wrap
+msgid "![Keyboard settings dialog, shortcuts tab][img-xfce4-keyboard-settings-shortcuts]\n"
+msgstr "![Fenèstra dels paramètres del Clavièr, acorchis onglet][img-xfce4-keyboard-settings-shortcuts]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:118
+#, no-wrap
+msgid "You can now configure shortcuts more simply, and any shortcut conflicts are automatically detected.\n"
+msgstr "Podètz ara configurar dels acorchis, mai simplement, e los conflits d'acorchis son automaticament détectés.\n"
+
+#. type: Title ###
+#: content/about/tour46.md:119
+#, no-wrap
+msgid "Mouse settings"
+msgstr "Paramètres de la mirga"
+
+#. type: Plain text
+#: content/about/tour46.md:122
+#, no-wrap
+msgid "![Mouse settings dialog][img-xfce4-mouse-settings]\n"
+msgstr "![Fenèstra dels paramètres de la mirga][img-xfce4-mouse-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:124
+#, no-wrap
+msgid "The **Mouse settings** dialog allows you to configure the different mice connected to your computer: button order, acceleration, double-click speed, mouse cursor theme, etcetera...\n"
+msgstr "La fenèstra dels <b>paramètres de la mirga </b> vos permet de configurar las diferentas mirga connectadas a vòstre ordenador : l'òrdre dels botons, l'accélération, la vitesse del clic doble , lo tèma de curseur de mirga, etc ...\n"
+
+#. type: Title ###
+#: content/about/tour46.md:125
+#, no-wrap
+msgid "Desktop settings"
+msgstr "Paramètres del burèu"
+
+#. type: Plain text
+#: content/about/tour46.md:128
+#, no-wrap
+msgid "![Desktop settings dialog][img-xfdesktop-settings]\n"
+msgstr "![Fenèstra dels paramètres de burèu][img-xfdesktop-settings]\n"
+
+#. type: Plain text
+#: content/about/tour46.md:130
+#, no-wrap
+msgid "The **Desktop settings** dialog is now much more compact; it allows you to configure per-screen settings: wallpaper, brightness, desktop menu, displayed icons, etcetera...\n"
+msgstr "La bóstia de dialòg dels <b>paramètres del burèu</b> es ara beaucoup mai compacte; elle vos permet de configurar los paramètres de l'ecran : fons d'ecran, luminositat, menú del burèu, icònas, etc ...\n"
+
+#. type: Plain text
+#: content/about/tour46.md:134
+#, no-wrap
+msgid "**Xfce 4.6** also comes with a brand new application finder which features a cleaner user interface. It is also easier to use it with the keyboard, and it monitors installed applications to update the list \"on the fly.\" It also allows you to create panel launchers quickly by dragging an application icon to the launcher creation window.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour46.md:136
+#, no-wrap
+msgid "![New application finder][img-xfce4-appfinder]\n"
+msgstr "![Novèla recèrca d'aplicacion (finder)][img-xfce4-appfinder]\n"
+
+#. type: Title ##
+#: content/about/tour46.md:137 content/about/tour44.md:139
+#, no-wrap
+msgid "Links"
+msgstr "Ligams"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:141 content/about/tour44.md:143
+#, no-wrap
+msgid "[Xfce website](https://xfce.org/)\n"
+msgstr ""
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:141
+#, no-wrap
+msgid "[Thunar website](https://xfce.org/projects/thunar)\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour46.md:142 content/about/tour44.md:144
+#, no-wrap
+msgid "Credits"
+msgstr "Crédits"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:146
+#, no-wrap
+msgid "Written by Jérôme Guelfucci (February 2009)\n"
+msgstr "Escrich per Jérôme Guelfucci (Febrièr de 2009)\n"
+
+#. type: Bullet: '- '
+#: content/about/tour46.md:146
+#, no-wrap
+msgid "Screenshots by Jannis Pohlmann\n"
+msgstr "Capturas d'ecran de Jannis Pohlmann\n"
+
+#. type: Link reference
+#: content/about/tour46.md:147
+#, no-wrap
+msgid "[img-xfdesktop-rubberbanding]: //cdn.xfce.org/about/tour/4.6/xfdesktop-rubberbanding.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:148
+#, no-wrap
+msgid "[img-xfdesktop-menu]: //cdn.xfce.org/about/tour/4.6/xfdesktop-menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:149
+#, no-wrap
+msgid "[img-xfce4-panel-clock]: //cdn.xfce.org/about/tour/4.6/xfce4-panel-clock.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:150
+#, no-wrap
+msgid "[img-xfce4-mixer]: //cdn.xfce.org/about/tour/4.6/xfce4-mixer.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:151
+#, no-wrap
+msgid "[img-xfce4-session-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-session-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:152
+#, no-wrap
+msgid "[img-xfce4-session-logout]: //cdn.xfce.org/about/tour/4.6/xfce4-session-logout.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:153
+#, no-wrap
+msgid "[img-xfwm4-net-ping]: //cdn.xfce.org/about/tour/4.6/xfwm4-net-ping.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:154
+#, no-wrap
+msgid "[img-xfwm4-new-menu]: //cdn.xfce.org/about/tour/4.6/xfwm4-new-menu.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:155
+#, no-wrap
+msgid "[img-xfwm4-fill-operation]: //cdn.xfce.org/about/tour/4.6/xfwm4-fill-operation.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:156
+#, no-wrap
+msgid "[img-xfwm4-resize]: //cdn.xfce.org/about/tour/4.6/xfwm4-resize.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:157
+#, no-wrap
+msgid "[img-xfwm4-new-tweaks]: //cdn.xfce.org/about/tour/4.6/xfwm4-new-tweaks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:158
+#, no-wrap
+msgid "[img-thunar-wallpaper-plugin]: //cdn.xfce.org/about/tour/4.6/thunar-wallpaper-plugin.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:159
+#, no-wrap
+msgid "[img-thunar-xdg-user-dirs]: //cdn.xfce.org/about/tour/4.6/thunar-xdg-user-dirs.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:160
+#, no-wrap
+msgid "[img-thunar-mounting]: //cdn.xfce.org/about/tour/4.6/thunar-mounting.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:161
+#, no-wrap
+msgid "[img-thunar-encrypted]: //cdn.xfce.org/about/tour/4.6/thunar-encrypted.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:162
+#, fuzzy, no-wrap
+#| msgid "![Xfce4 Settings Manager][img-xfce4-settings-manager]\n"
+msgid "[img-xfce4-settings-manager]: //cdn.xfce.org/about/tour/4.6/xfce4-settings-manager.png"
+msgstr "![Gestionari de paramètres Xfce4][img-xfce4-settings-manager]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:163
+#, fuzzy, no-wrap
+#| msgid "![Accessibility settings dialog][img-xfce4-accessibility-settings]\n"
+msgid "[img-xfce4-accessibility-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-accessibility-settings.png"
+msgstr "![Bóstia de dialòg dels paramètres d'accessibilitat][img-xfce4-accessibility-settings]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:164
+#, fuzzy, no-wrap
+#| msgid "![Appearance settings dialog][img-xfce4-appearance-settings]\n"
+msgid "[img-xfce4-appearance-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-appearance-settings.png"
+msgstr "![Bóstia de dialòg dels paramètres d'aparéncia][img-xfce4-appearance-settings]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:165
+#, no-wrap
+msgid "[img-xfce4-display-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-display-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:166
+#, fuzzy, no-wrap
+#| msgid "![Keyboard settings dialog, layout tab][img-xfce4-keyboard-settings-layout]\n"
+msgid "[img-xfce4-keyboard-settings-layout]: //cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-layout.png"
+msgstr "![Fenèstra dels paramètres del Clavièr, onglet de presentacion][img-xfce4-keyboard-settings-layout]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:167
+#, fuzzy, no-wrap
+#| msgid "![Keyboard settings dialog, shortcuts tab][img-xfce4-keyboard-settings-shortcuts]\n"
+msgid "[img-xfce4-keyboard-settings-shortcuts]: //cdn.xfce.org/about/tour/4.6/xfce4-keyboard-settings-shortcuts.png"
+msgstr "![Fenèstra dels paramètres del Clavièr, acorchis onglet][img-xfce4-keyboard-settings-shortcuts]\n"
+
+#. type: Link reference
+#: content/about/tour46.md:168
+#, no-wrap
+msgid "[img-xfce4-mouse-settings]: //cdn.xfce.org/about/tour/4.6/xfce4-mouse-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:169
+#, no-wrap
+msgid "[img-xfdesktop-settings]: //cdn.xfce.org/about/tour/4.6/xfdesktop-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour46.md:170
+#, no-wrap
+msgid "[img-xfce4-appfinder]: //cdn.xfce.org/about/tour/4.6/xfce4-appfinder.png"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: content/about/tour44.md:1
+#, no-wrap
+msgid "Xfce 4.4 tour"
+msgstr "Visita Xfce 4.4"
+
+#. type: Plain text
+#: content/about/tour44.md:8
+#, no-wrap
+msgid "As of today, the long awaited version 4.4.0 of the Xfce Desktop Environment is finally available. I will try to highlight some of the new features which have been added since the last stable release.\n"
+msgstr "À compter d'uèi, la tant attendue version 4.4.0 de l'environament de burèu Xfce es enfin disponible. Je vais essayer de metre en évidence qualques-unes dels novèlas foncionalitats que son estadas apondudas dempuèi la darrièra version establa.\n"
+
+#. type: Title ##
+#: content/about/tour44.md:9
+#, no-wrap
+msgid "Desktop Icons"
+msgstr "Icònas del burèu"
+
+#. type: Plain text
+#: content/about/tour44.md:12
+#, no-wrap
+msgid "One of the most often requested features during the 4.0 and 4.2 was support for icons on the desktop. Now, with Xfce 4.4.0, this feature was finally added to the desktop manager **Xfdesktop**.\n"
+msgstr "Una de las caracteristicas lo mai sovent demandés pendent la 4.0 e la 4.2 es estada lo soutien dels icònas sul burèu. Ara, amb Xfce 4.4.0, aquesta fonction a finalament été apondut al gestionari de burèu <b>Xfdesktop</b>.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:14
+#, no-wrap
+msgid "![Desktop Icons][img-desktop-icons]\n"
+msgstr "![Icònas del burèu][img-desktop-icons]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:16
+#, no-wrap
+msgid "The desktop manager utilizes **Thunar**'s libraries to handle application launchers and regular files/folders on the desktop. The desktop manager is also able to display icons for minimized windows on the desktop, which is quite a popular feature from the CDE world. Of course, you can disable the desktop icons altogether if you prefer a clean desktop.\n"
+msgstr "Lo gestionari de burèu utiliza las bibliotècas<b>Thunar</b>per manipular d'aviadors d'aplicacions e de fichièrs / dorsièrs regulars sul burèu. Lo gestionari de burèu es tanben capable d'afichar las icònas de las fenèstras redusidas sul burèu, aquò's una caracteristica populara dins lo monde de CDE. Solide, podètz desactivar totalament las icònas del burèu se vos agrada mai un burèu pròpri.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:18
+#, no-wrap
+msgid "![Desktop Settings][img-desktop-settings]\n"
+msgstr "![Paramètres del burèu][img-desktop-settings]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:20
+#, no-wrap
+msgid "**Xfdesktop** also continues to provide access to the applications menu, as it did in the previous Xfce releases.\n"
+msgstr "<b>Xfdesktop</b> contunha tanben de provesir l'accès al menú aplicacions, coma l'a fait dins las versions precedentas de Xfce.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:24
+#, no-wrap
+msgid "The desktop icon support goes hand in hand with the new file manager [Thunar](http://thunar.xfce.org/) which replaces the previous file manager **Xffm**.\n"
+msgstr "Lo supòrt de las icònas del burèu va de cotria amb lo novèl gestionari de fichièrs [Thunar](http://thunar.xfce.org/) que remplaça lo gestionari de fichièrs precedent <b>xffm</b >.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:26
+#, no-wrap
+msgid "![Thunar File Manager][img-thunar]\n"
+msgstr "![Gestionari de fichièrs Thunar][img-thunar]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:28
+#, no-wrap
+msgid "**Thunar** was written from scratch to provide an easy to use, but still very lightweight file manager for Xfce. Its user interface was designed to look similar to the file chooser which was introduced with GTK+ 2.4, and other file managers such as **Nautilus** and **pcmanfm** already picked up that idea as well.\n"
+msgstr "<b>Thunar</b> es estat escrich a partir de zèro per provesir una aisina de bon utilizar, mas un gestionari de fichièrs fòrça leugièr per Xfce. Son interfàcia d'utilizaire es estada concebuda per la combinar amb l'explorador de fichièr qu'es estat introdusit amb GTK + 2.4, e d'autres gestionaris de fichièrs tals coma <b>Nautilus</b> e <b>pcmanfm</b> an ja représ aquesta idèa tanben.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:30
+#, no-wrap
+msgid "**Thunar** supports all the file management functionality which users will expect, and also several advanced features. For example, a so-called *Bulk Renamer* is included which allows users to rename multiple files at once using a certain criterion.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:32
+#, no-wrap
+msgid "![Thunar Bulk Rename][img-thunar-bulk-rename]\n"
+msgstr "![Renomenar en massa amb Thunar][img-thunar-bulk-rename]\n"
+
+#. type: Title ##
+#: content/about/tour44.md:33
+#, no-wrap
+msgid "Removable Drives and Media"
+msgstr "Lectors e supòrts amovibles"
+
+#. type: Plain text
+#: content/about/tour44.md:36
+#, no-wrap
+msgid "Xfce 4.4.0 provides easy access to data on removable drives and media. Just insert the media into the drive or plug the new drive in to the computer and an icon representing the removable volume will appear on the desktop and in **Thunar**'s side pane.\n"
+msgstr "Xfce 4.4.0 provesís un accès aisit a las donadas suls lectors e supòrts amovibles. Sufís d'inserir lo supòrt dins lo lector o de brancar lo novèl lector a l'ordenador e una icòna que representa lo volum amovible apareis sul burèu e dins lo panèl lateral de <b>Thunar</b>.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:38
+#, no-wrap
+msgid "![Removable Volumes][img-removable-volumes]\n"
+msgstr "![Volums amovibles][img-removable-volumes]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:40
+#, no-wrap
+msgid "Click on the icon to automatically mount the volume. Right-click the icon to unmount the drive or eject the media from the drive. Note however that this feature requires [HAL](https://freedesktop.org/wiki/Software_2fhal) and is therefore only available for Linux 2.6.x and FreeBSD 6.x and above at the time of this writing (there is limited removable media support for FreeBSD 4.x and 5.x which does not require HAL).\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:41
+#, no-wrap
+msgid "Text Editor"
+msgstr "Editor de tèxte"
+
+#. type: Plain text
+#: content/about/tour44.md:44
+#, no-wrap
+msgid "The new text editor **MousePad** is included with this release. **MousePad** provides all the basic editor functionality, nothing more, nothing less.\n"
+msgstr "Lo novèl editor de tèxte <b>MousePad</b> es inclús amb aquesta version. <b>MousePad</b> provesís totas las foncionalitats de l'editor de basa, res mai, res mens.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:46
+#, no-wrap
+msgid "![MousePad][img-mousepad]\n"
+msgstr "![MousePad][img-mousepad]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:48
+#, no-wrap
+msgid "You can think of **MousePad** as the equivalent to **NotePad** on Windows. It starts up very fast, usually in less than one second, even on older systems.\n"
+msgstr "Podètz pensar a <b>MousePad</b> coma equivalent del <b>blòtnòtas</b>sus Windows. S'avia fòrça rapidament, generalament en mens d'una segonda, quitament sus de sistèmas mai ancians.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:52
+#, no-wrap
+msgid "**Xfwm4** continues to be the window manager of the hearts.\n"
+msgstr "<b>Xfwm4 </b> contunha d'èsser lo còr del gestionari de fenèstras .\n"
+
+#. type: Plain text
+#: content/about/tour44.md:54
+#, no-wrap
+msgid "![Xfwm4 ARGB32][img-xfwm4-argb32]\n"
+msgstr "![Xfwm4 ARGB32][img-xfwm4-argb32]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:56
+#, no-wrap
+msgid "This release features an enhanced compositor, supporting transparent ARGB windows, shadows, window frame transparency and much more.\n"
+msgstr "Aquesta version dispausa d'un melhor composidor, en sostenent de fenèstras transparentas ARGB, d'ombras, la transparéncia del quadre de la fenèstra e plan mai encara.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:58
+#, no-wrap
+msgid "![Xfwm4 Switcher][img-xfwm4-switcher]\n"
+msgstr "![Xfwm4 Switcher][img-xfwm4-switcher]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:60
+#, no-wrap
+msgid "**Xfwm4** also includes a brand new application switcher, as shown in the screenshot above, which displays all windows from the current workspace with icons and window titles.\n"
+msgstr "<b>Xfwm4</b> inclutz tanben un novèl selector d'aplicacion, coma lo fa veire la captura d'ecran çaisús, qu'aficha totas las fenèstras de l'espaci de trabalh amb d'icònas e de títols de fenèstras.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:62
+#, no-wrap
+msgid "![Xfwm4 Themes][img-xfwm4-themes]\n"
+msgstr "![Tèmas Xfwm4][img-xfwm4-themes]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:64
+#, no-wrap
+msgid "Further on support for multiple image formats for window decoration themes was added, including `PNG`, `GIF` and `SVG` images.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:66
+#, no-wrap
+msgid "![Xfwm4 Tweaks][img-xfwm4-tweaks]\n"
+msgstr "![Tweaks Xfwm4][img-xfwm4-tweaks]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:68
+#, no-wrap
+msgid "Advanced controls for the window manager were also added, allowing thorough tweaking of window behavior.\n"
+msgstr "Las comandas avançadas pel gestionari de fenèstras tanben son estadas apondudas, que permeton d'afinar d'un biais aprigondit lo comportament de la fenèstra.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:72
+#, no-wrap
+msgid "The **Xfce4-panel** was completely rewritten for the Xfce 4.4 release. Multiple panels are supported *out of the box* now and can easily be configured using the new **Panel Manager** shown in the screenshot below.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:74
+#, no-wrap
+msgid "![Panel Manager][img-panel-manager]\n"
+msgstr "![Gestionari de panèl][img-panel-manager]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:76
+#, no-wrap
+msgid "One of the major problems in previous Xfce releases was that every plugin had to be run in the same process as the panel, and hence every plugin was able to crash the whole panel. To address this issue, support for external plugins was added to the panel.\n"
+msgstr "Un dels problèmas màgers dins los comunicats de Xfce precedent èra que cada empeuton deviá èsser executat dins lo meteis processus que lo panèl, e doncas cada empeuton es estada en mesura de blocar l'ensemble del panèl. Per resòlvre aqueste problèma, lo supòrt dels empeutons externes es estada apondut al panèl.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:78
+#, no-wrap
+msgid "![Panel Add Item Dialog][img-panel-additem]\n"
+msgstr "![Panèl fenèstra Apondre article][img-panel-additem]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:80
+#, no-wrap
+msgid "Developers of panel plugins can now decide whether the plugin should run as external process or as part of the panel process, depending on the stability of the plugin.\n"
+msgstr "Los desvolopaires d'empeutons del panèl pòdon ara decidir se l'empeuton deuriá fonctionner coma un processus extèrne o dins lo quadre de la procedura de grop especial, en foncion de l'estabilitat de l'empeuton.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:82
+#, no-wrap
+msgid "![Panel Icon Box Plugin][img-panel-iconbox]\n"
+msgstr "![Panèl empeuton bóstia d'Icòna][img-panel-iconbox]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:84
+#, no-wrap
+msgid "Since there is now support for multiple panels, the separate **Xftaskbar4** and **Xfce4-iconbox** utilities are no longer required. Instead, both the taskbar and the iconbox are available as panel plugins now.\n"
+msgstr "Coma il es d'ara enlà en carga de plusieurs panèls, los utilitaris separats <b>Xftaskbar4</b> e <b>Xfce4-iconbox</b> son pas mai necessaris. Al lieu de aquò, a la fois la barra dels prètzfaits e la bóstia a icònas son disponibles sous forme d'un empeuton del panèl ara.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:86
+#, no-wrap
+msgid "Most of the additional panel plugins, available via the [Xfce Goodies Project](https://goodies.xfce.org/), have been updated for the new panel, and several new plugins were added. For example, the brand new **xfce4-xfapplet-plugin** allows users to add GNOME panel applets to the Xfce panel.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:87
+#, no-wrap
+msgid "Time Management"
+msgstr "Gestion del temps"
+
+#. type: Plain text
+#: content/about/tour44.md:90
+#, no-wrap
+msgid "The new time management application **Orage** replaces the **Xfcalendar**, which was introduced with Xfce 4.2.0. **Orage** provides several features to efficiently manage your time.\n"
+msgstr "La novèla aplicacion de gestion del temps <b>Orage</b> remplace <b>xfcalendar</b>, que es estada introduit amb Xfce 4.2.0. <b>Orage</b> fournit plusieurs foncionalitats per gerir efficacement votre temps.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:92
+#, no-wrap
+msgid "![Orage][img-orage]\n"
+msgstr "![Orage][img-orage]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:94
+#, no-wrap
+msgid "While **Orage** is very lightweight and easy to use, it supports all the important features found in larger calendar applications like **Outlook** or **Evolution**. While **Xfcalendar** used the custom `dbh` format in the past to store your settings, **Orage** is based on `ical` and therefore compatible with other calendar applications.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:95
+#, no-wrap
+msgid "Terminal Emulator"
+msgstr "Emulator de terminal"
+
+#. type: Plain text
+#: content/about/tour44.md:98
+#, no-wrap
+msgid "While **Terminal** was already available during the 4.2 days, it was not mature enough at that time to be part of the core. With this major release, it was moved into the core desktop.\n"
+msgstr "Alors que lo <b>Terminal</b> èra ja disponible pendent los 4,2 jours, il n'était pas assez mature a aqueste moment de far partie del còr. Amb aquesta version majeure, il es estada desplaçat dins lo còr del burèu.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:100
+#, no-wrap
+msgid "![Terminal][img-terminal]\n"
+msgstr "![Terminal][img-terminal]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:102
+#, no-wrap
+msgid "Besides the basic features which you might expect from a terminal emulator, it includes some nice additional features, like multiple tabs per window, customizable toolbars and the ability to configure nearly every aspect of the application via *hidden options*. As can be seen in the screenshot above, this release also supports real transparency using **Xfwm4**'s integrated composition manager.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:103
+#, no-wrap
+msgid "Printing"
+msgstr "Impression en cors..."
+
+#. type: Plain text
+#: content/about/tour44.md:106
+#, no-wrap
+msgid "**Xfprint**, the Xfce printing management application, saw several small improvements with this release. First, the `a2ps` converter is not mandatory anymore, whilst still recommended. Support for `CUPS` 1.2 was added and **Xfprint** is now able to display the printer state with the `CUPS`-backend.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:108
+#, no-wrap
+msgid "![Xfce Printing][img-xfprint]\n"
+msgstr "![Impression de Xfce][img-xfprint]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:110
+#, no-wrap
+msgid "**Xfprint** also integrates with **MousePad** to provide generic printing support for different kinds of text documents using the `a2ps` converter.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:112
+#, no-wrap
+msgid "![Xfce Print Dialog][img-xfprint-dialog]\n"
+msgstr "![Bóstia de dialòg imprimer Xfce][img-xfprint-dialog]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:114
+#, no-wrap
+msgid "As you can see the print dialog still looks relatively similar to that of Xfce 4.2, but the internal workings of the printing support were improved, especially the `CUPS` support. Besides that, the printing management functionality was moved to a library, so other applications can use the API to access the printer configuration.\n"
+msgstr ""
+
+#. type: Title ##
+#: content/about/tour44.md:115
+#, no-wrap
+msgid "Autostart"
+msgstr "Aviada automatica"
+
+#. type: Plain text
+#: content/about/tour44.md:118
+#, no-wrap
+msgid "Xfce 4.4.0 implements the new [Autostart Specification](https://freedesktop.org/wiki/Standards_2fautostart_2dspec) - actually Xfce was the first desktop to implement said feature, but the others were faster to release. ;-)\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:120
+#, no-wrap
+msgid "![Xfce Autostart Editor][img-autostart]\n"
+msgstr "![Editor de aviada automatica Xfce][img-autostart]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:122
+#, no-wrap
+msgid "The specification consists of two parts, the *Autostart of Applications During Startup*, which is implemented in **xfce4-session** and the *Autostart Of Applications After Mount* which is implemented in [thunar-volman](http://foo-projects.org/~benny/projects/thunar-volman/index.html). This release also includes the **xfce4-autostart-editor**, shown in the screenshot above, which allows users to easily add, remove or disable autostarted applications.\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:126
+#, no-wrap
+msgid "This release introduces new options to customize the desktop to your needs. Some examples of new settings dialogs were already shown in the sections above.\n"
+msgstr "Aquesta version introduit de novèlas opcions per personalizar lo burèu a vos besoins. Qualques exemples de novèlas fenèstras de paramètres son estats ja présentés dins las seccions precedentas.\n"
+
+#. type: Plain text
+#: content/about/tour44.md:128
+#, no-wrap
+msgid "![Preferred Applications][img-preferences-applications]\n"
+msgstr "![Aplicacions preferidas][img-preferences-applications]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:130
+#, no-wrap
+msgid "The preferred applications framework, which was previously only available in **Terminal**, was imported into Xfce, so users no longer need to edit shell profiles to specify which browser and terminal emulator should be used by Xfce applications. The goal was to make it as easy as possible to change an application for a certain category (GNOME users may have already noticed that GNOME adopted this approach, because it is such simple).\n"
+msgstr "Lo quadre d'aplicacions preferit, que èra de per abans unicament disponible en <b>Terminal</b>, es estada importat dins Xfce, per tal que los utilizaires ajan pas mai besonh de modificar los perfils shell per préciser quel navigador e emulator de terminal deu èsser utilizada per las aplicacions Xfce. Lo but èra de lo rendre tant aisit coma possible per modificar una aplicacion per una certana categoria (utilizaires de GNOME an benlèu ja remarcat que GNOME a adopté aquesta approche, parce qu'il es se simple).\n"
+
+#. type: Plain text
+#: content/about/tour44.md:132
+#, no-wrap
+msgid "![Keyboard Shortcuts][img-preferences-keyboard]\n"
+msgstr "![Acorchis clavièr][img-preferences-keyboard]\n"
+
+#. type: Plain text
+#: content/about/tour44.md:134
+#, no-wrap
+msgid "And then there was the problem with the keyboard shortcuts in Xfce 4.2... Xfce 4.2 limited the number of freely available keyboard shortcuts, while people wanted to assign any number of keyboard shortcuts. With Xfce 4.4 this limitation is history and the application shortcuts are now separated from the window manager shortcuts.\n"
+msgstr "E puèi i a eu lo problèma amb los acorchis de clavièr dins Xfce 4.2 ... Xfce 4.2 limite lo nombre d'acorchis de clavièr librement disponibles, mentre que lo monde voulaient atribuir un certan nombre d'acorchis de clavièr. Amb Xfce 4.4 aquesta limitacion es una histoire anciana e los acorchis d'aplicacions son d'ara enlà separats dels acorchis del gestionari de fenèstras.\n"
+
+#. type: Title ##
+#: content/about/tour44.md:135
+#, no-wrap
+msgid "Feedback"
+msgstr "Retour"
+
+#. type: Plain text
+#: content/about/tour44.md:138
+#, no-wrap
+msgid "Please post comments on this article in my [blog](http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html) and use the [xfce](/community/lists) mailinglist if you have questions about Xfce 4.4.0 or trouble with the installation.\n"
+msgstr "Se vos plai, daissatz vòstres comentaris sus aqueste article dins mon [blog](http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html) e utilizar la lista de difusion [xfce](/community/lists)se avètz de questions a prepaus de Xfce 4.4.0 o de problèmas amb l'installacion.\n"
+
+#. type: Bullet: '- '
+#: content/about/tour44.md:143
+#, no-wrap
+msgid "[Thunar website](http://thunar.xfce.org/)\n"
+msgstr ""
+
+#. type: Plain text
+#: content/about/tour44.md:147
+#, no-wrap
+msgid "Written by Benedikt Meurer, 21 Jan 2007\n"
+msgstr "Écrit per Benedikt Meurer, 21 Jan 2007\n"
+
+#. type: Link reference
+#: content/about/tour44.md:148
+#, no-wrap
+msgid "[img-desktop-icons]: //cdn.xfce.org/about/tour/4.4/desktop-icons.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:149
+#, no-wrap
+msgid "[img-desktop-settings]: //cdn.xfce.org/about/tour/4.4/desktop-settings.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:150
+#, no-wrap
+msgid "[img-thunar]: //cdn.xfce.org/about/tour/4.4/thunar.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:151
+#, no-wrap
+msgid "[img-thunar-bulk-rename]: //cdn.xfce.org/about/tour/4.4/thunar-bulk-rename.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:152
+#, no-wrap
+msgid "[img-removable-volumes]: //cdn.xfce.org/about/tour/4.4/removable-volumes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:153
+#, no-wrap
+msgid "[img-mousepad]: //cdn.xfce.org/about/tour/4.4/mousepad.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:154
+#, no-wrap
+msgid "[img-xfwm4-argb32]: //cdn.xfce.org/about/tour/4.4/xfwm4-argb32.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:155
+#, no-wrap
+msgid "[img-xfwm4-switcher]: //cdn.xfce.org/about/tour/4.4/xfwm4-switcher.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:156
+#, no-wrap
+msgid "[img-xfwm4-themes]: //cdn.xfce.org/about/tour/4.4/xfwm4-themes.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:157
+#, no-wrap
+msgid "[img-xfwm4-tweaks]: //cdn.xfce.org/about/tour/4.4/xfwm4-tweaks.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:158
+#, no-wrap
+msgid "[img-panel-manager]: //cdn.xfce.org/about/tour/4.4/panel-manager.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:159
+#, no-wrap
+msgid "[img-panel-additem]: //cdn.xfce.org/about/tour/4.4/panel-additem.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:160
+#, no-wrap
+msgid "[img-panel-iconbox]: //cdn.xfce.org/about/tour/4.4/panel-iconbox.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:161
+#, no-wrap
+msgid "[img-orage]: //cdn.xfce.org/about/tour/4.4/orage.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:162
+#, no-wrap
+msgid "[img-terminal]: //cdn.xfce.org/about/tour/4.4/terminal.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:163
+#, no-wrap
+msgid "[img-xfprint]: //cdn.xfce.org/about/tour/4.4/xfprint.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:164
+#, no-wrap
+msgid "[img-xfprint-dialog]: //cdn.xfce.org/about/tour/4.4/xfprint-dialog.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:165
+#, no-wrap
+msgid "[img-autostart]: //cdn.xfce.org/about/tour/4.4/autostart.png"
+msgstr ""
+
+#. type: Link reference
+#: content/about/tour44.md:166
+#, fuzzy, no-wrap
+#| msgid "![Preferred Applications][img-preferences-applications]\n"
+msgid "[img-preferences-applications]: //cdn.xfce.org/about/tour/4.4/preferences-applications.png"
+msgstr "![Aplicacions preferidas][img-preferences-applications]\n"
+
+#. type: Link reference
+#: content/about/tour44.md:167
+#, no-wrap
+msgid "[img-preferences-keyboard]: //cdn.xfce.org/about/tour/4.4/preferences-keyboard.png"
 msgstr ""
