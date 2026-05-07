@@ -107,7 +107,7 @@ def main() -> None:
     print(f'  (source)     → en.json  ({len(en_strings)} strings)')
 
     for po_path in po_files:
-        hugo_lang = po_path.stem.removeprefix('ui.').replace('_', '-')
+        hugo_lang = po_path.stem.removeprefix('ui.').replace('_', '-').lower()
         convert_po(po_path, i18n_dir / f'{hugo_lang}.json')
 
     print('\nDone.')

@@ -57,6 +57,9 @@ for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
   done
 done
 
+echo "==> Checking language translation thresholds..."
+python3 "$REPO_ROOT/scripts/check-lang-threshold.py"
+
 echo "==> Building Hugo site..."
 hugo --source "$REPO_ROOT"
 
