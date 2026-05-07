@@ -4,18 +4,18 @@
 
 <h1>{{ i18n "Download" }}</h1>
 
-<p>{{ i18n "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. <a href=\"https://docs.xfce.org/xfce/building\" class=\"external\">How to compile Xfce </a>." | safeHTML }}</p>
+<p>{{ i18n "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. %sHow to compile Xfce%s." (dict "s1" `<a href="https://docs.xfce.org/xfce/building" class="external">` "s2" `</a>`) | safeHTML }}</p>
 
 <h2 id="stable">{{ i18n "Stable release %s" (dict "s1" $v.stable) }}</h2>
 
-<p>{{ i18n "Xfce %s is the most recent version of the Xfce desktop environment. <a href=\"/download/changelogs/%s\">Changes in this release </a>." (dict "s1" $v.stable "s2" $v.stable) | safeHTML }}</p>
+<p>{{ i18n "Xfce %s is the most recent version of the Xfce desktop environment. %sChanges in this release%s." (dict "s1" $v.stable "s2" (printf `<a href="/download/changelogs/%s">` $v.stable) "s3" "</a>") | safeHTML }}</p>
 
 <ul>
   <li><a href="https://archive.xfce.org/xfce/{{ $v.stable }}/">https://archive.xfce.org/xfce/{{ $v.stable }}/</a></li>
 </ul>
 
 <h2 id="individual">{{ i18n "Individual releases" }}</h2>
-<p>{{ i18n "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the <a href=\"/about/releasemodel\">release model</a>). You can follow the announcements of the releases on the <a href=\"/community/lists\">Xfce users mailing list</a>, watch the <a href=\"https://archive.xfce.org/feeds/project/\">release feeds</a> or follow the Xfce <a href=\"https://floss.social/@xfce\">Mastodon</a> or <a href=\"https://twitter.com/xfceofficial\">Twitter account</a>." | safeHTML }}</p>
+<p>{{ i18n "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the %srelease model%s). You can follow the announcements of the releases on the %sXfce users mailing list%s, watch the %srelease feeds%s or follow the Xfce %sMastodon%s or %sTwitter account%s." (dict "s1" `<a href="/about/releasemodel">` "s2" `</a>` "s3" `<a href="/community/lists">` "s4" `</a>` "s5" `<a href="https://archive.xfce.org/feeds/project/">` "s6" `</a>` "s7" `<a href="https://floss.social/@xfce">` "s8" `</a>` "s9" `<a href="https://twitter.com/xfceofficial">` "s10" `</a>`) | safeHTML }}</p>
 
 <ul>
   <li><a href="https://archive.xfce.org/src/">https://archive.xfce.org/src/</a></li>
@@ -23,7 +23,7 @@
 
 {{- if $v.preview_visible }}
 <h2 id="unstable">{{ i18n "Preview release %s" (dict "s1" $v.preview) }}</h2>
-<p>{{ i18n "Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the <a href=\"#stable\">stable release</a> above. <a href=\"/download/changelogs/%s\">Changes in this release </a>." (dict "s1" $v.preview "s2" $v.preview) | safeHTML }}</p>
+<p>{{ i18n "Xfce %s is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the %sstable release%s above. %sChanges in this release%s." (dict "s1" $v.preview "s2" `<a href="#stable">` "s3" `</a>` "s4" (printf `<a href="/download/changelogs/%s">` $v.preview) "s5" "</a>") | safeHTML }}</p>
 
 <ul>
   <li><a href="https://archive.xfce.org/xfce/{{ $v.preview }}/">https://archive.xfce.org/xfce/{{ $v.preview }}/</a></li>
@@ -31,11 +31,11 @@
 {{- end }}
 
 <h2 id="distros">{{ i18n "Distributions" }}</h2>
-<p>{{ i18n "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are <a href=\"https://xubuntu.org/\">Xubuntu</a>, the <a href=\"https://fedoraproject.org/spins/xfce\">Fedora Xfce Spin</a>, <a href=\"https://manjaro.org/products/download/\">Manjaro</a> or <a href=\"http://www.zenwalk.org/\">Zenwalk</a>, but there is a good chance your favorite distro provides packages as well." | safeHTML }}</p>
-<p>{{ i18n "You can find a more complete list at <a href=\"https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s\">DistroWatch.com</a>." (dict "s1" $v.stable) | safeHTML }}</p>
+<p>{{ i18n "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are %sXubuntu%s, the %sFedora Xfce Spin%s, %sManjaro%s or %sZenwalk%s, but there is a good chance your favorite distro provides packages as well." (dict "s1" `<a href="https://xubuntu.org/">` "s2" `</a>` "s3" `<a href="https://fedoraproject.org/spins/xfce">` "s4" `</a>` "s5" `<a href="https://manjaro.org/products/download/">` "s6" `</a>` "s7" `<a href="http://www.zenwalk.org/">` "s8" `</a>`) | safeHTML }}</p>
+<p>{{ i18n "You can find a more complete list at %sDistroWatch.com%s." (dict "s1" (printf `<a href="https://distrowatch.com/search.php?pkg=xfdesktop&amp;pkgver=%s">` $v.stable) "s2" "</a>") | safeHTML }}</p>
 
 <h2 id="artwork">{{ i18n "Artwork" }}</h2>
-<p>{{ i18n "<a href=\"%s\"> Download the Xfce artwork tarball .</a>. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license." (dict "s1" (printf "%s/downloads/xfce_artwork.tar.bz2" $cdn)) | safeHTML }}</p>
+<p>{{ i18n "%sDownload the Xfce artwork tarball%s. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license." (dict "s1" (printf `<a href="%s/downloads/xfce_artwork.tar.bz2">` $cdn) "s2" "</a>") | safeHTML }}</p>
 {{ end }}
 
 {{ define "related" }}

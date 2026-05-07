@@ -11,11 +11,11 @@
 
 <ul>
   <li>{{ i18n "If you typed the page address in the Address bar, make sure that it is spelled correctly." }}</li>
-  <li>{{ i18n "Open the <a href=\"/\">Xfce home page</a> and look for links to the information you want." | safeHTML }}</li>
+  <li>{{ i18n "Open the %sXfce home page%s and look for links to the information you want." (dict "s1" `<a href="/">` "s2" `</a>`) | safeHTML }}</li>
   <li>{{ i18n "Click the Back button to try another link." }}</li>
 </ul>
 
 <p>
-  {{ i18n "You can always <a href=\"mailto:webmaster@xfce.org\">ask the webmaster</a> to assist you with your search, or report the problem in case you think this is needed." | safeHTML }}
+  {{ i18n "You can always %sask the webmaster%s to assist you with your search, or report the problem in case you think this is needed." (dict "s1" `<a href="mailto:webmaster@xfce.org">` "s2" `</a>`) | safeHTML }}
 </p>
 {{ end }}
