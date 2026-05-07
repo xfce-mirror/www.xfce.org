@@ -107,7 +107,8 @@ def main() -> None:
     print(f'  (source)     → en.json  ({len(en_strings)} strings)')
 
     for po_path in po_files:
-        convert_po(po_path, i18n_dir / f'{po_path.stem}.json')
+        hugo_lang = po_path.stem.replace('_', '-')
+        convert_po(po_path, i18n_dir / f'{hugo_lang}.json')
 
     print('\nDone.')
 
