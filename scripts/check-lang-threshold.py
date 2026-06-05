@@ -7,6 +7,7 @@ so Hugo won't render them.
 
 import glob
 import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -42,9 +43,10 @@ def remove_lang_files(lang: str, generated_dir: Path) -> int:
         json_path.unlink()
         count += 1
 
-    for md in generated_dir.rglob(f"*.{lang}.md"):
-        md.unlink()
-        count += 1
+    lang_dir = generated_dir / lang
+    if lang_dir.is_dir():
+        count += sum(1 for _ in lang_dir.rglob("*.md"))
+        shutil.rmtree(lang_dir)
 
     return count
 

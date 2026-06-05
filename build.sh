@@ -1,8 +1,8 @@
 #!/bin/bash
 # Build pipeline for www.xfce.org Hugo site
 #
-# Default:       generate translated content (po4a) → i18n JSON → stubs → hugo
-# --update-po:   also extract UI strings (POT) → merge into PO → update content PO
+# Default:       generate translated content (hugo-gettext) → i18n JSON → stubs → hugo
+# --update-po:   also extract UI strings (POT) → merge into PO → extract content POT
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -20,47 +20,55 @@ if $UPDATE_PO; then
     msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/ui.pot"
   done
 
-  echo "==> Updating POT and PO files from content..."
-  po4a "$REPO_ROOT/po4a.cfg"
+  echo "==> Extracting content POT with hugo-gettext..."
+  hugo-gettext extract -f "$REPO_ROOT/hugo-gettext.toml" "$REPO_ROOT/po"
 
-  echo "==> Stripping untranslatable entries from content PO files..."
-  python3 "$REPO_ROOT/scripts/strip-po-untranslatables.py"
-else
-  echo "==> Generating translated content files..."
-  po4a --no-update "$REPO_ROOT/po4a.cfg"
+  echo "==> Merging content POT into PO files..."
+  for po in "$REPO_ROOT/po"/content.*.po; do
+    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/content.pot"
+  done
 fi
+
+echo "==> Compiling content PO files..."
+rm -rf "$REPO_ROOT/locale"
+mkdir -p "$REPO_ROOT/locale"
+for po in "$REPO_ROOT/po"/content.*.po; do
+  lang="$(basename "$po" .po)"; lang="${lang#content.}"
+  mkdir -p "$REPO_ROOT/locale/$lang/LC_MESSAGES"
+  msgfmt -o "$REPO_ROOT/locale/$lang/LC_MESSAGES/content.mo" "$po"
+done
+
+echo "==> Generating translated content files..."
+hugo-gettext generate -f "$REPO_ROOT/hugo-gettext.toml" --keep-locale
+
+echo "==> Cleaning up locale directory..."
+rm -rf "$REPO_ROOT/locale"
 
 echo "==> Converting PO files to Hugo i18n JSON..."
 python3 "$REPO_ROOT/scripts/po2hugo.py"
 
-echo "==> Fixing tight lists in translated files..."
-python3 "$REPO_ROOT/scripts/fix-tight-lists.py"
-
 echo "==> Generating language stubs..."
-mkdir -p "$REPO_ROOT/generated/about/news" "$REPO_ROOT/generated/download/changelogs" "$REPO_ROOT/generated/projects"
 for po in "$REPO_ROOT/po"/ui.*.po; do
   lang="$(basename "$po" .po)"; lang="${lang#ui.}"
-  stub="$REPO_ROOT/generated/about/credits.$lang.md"
+  mkdir -p "$REPO_ROOT/generated/$lang/about/news" "$REPO_ROOT/generated/$lang/download/changelogs" "$REPO_ROOT/generated/$lang/projects"
+  stub="$REPO_ROOT/generated/$lang/about/credits.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/about/screenshots.$lang.md"
+  stub="$REPO_ROOT/generated/$lang/about/screenshots.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/about/news/_index.$lang.md"
+  stub="$REPO_ROOT/generated/$lang/about/news/_index.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/download/_index.$lang.md"
+  stub="$REPO_ROOT/generated/$lang/download/_index.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/projects/_index.$lang.md"
+  stub="$REPO_ROOT/generated/$lang/projects/_index.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/download/changelogs/_index.$lang.md"
+  stub="$REPO_ROOT/generated/$lang/download/changelogs/_index.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"Changelogs\"\nhasToc: true\n---\n" > "$stub"
-done
 
-# Generate changelog page stubs for all languages (full copy — changelogs aren't translated)
-for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
-  [ -f "$md" ] || continue
-  base="$(basename "$md" .md)"
-  for po in "$REPO_ROOT/po"/ui.*.po; do
-    lang="$(basename "$po" .po)"; lang="${lang#ui.}"
-    stub="$REPO_ROOT/generated/download/changelogs/$base.$lang.md"
+  # Changelog page stubs (full copy — changelogs aren't translated)
+  for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
+    [ -f "$md" ] || continue
+    base="$(basename "$md" .md)"
+    stub="$REPO_ROOT/generated/$lang/download/changelogs/$base.md"
     [ -f "$stub" ] || cp "$md" "$stub"
   done
 done

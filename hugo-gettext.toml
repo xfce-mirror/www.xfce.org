@@ -1,0 +1,20 @@
+defaultContentLanguage = "en"
+
+[i18n]
+  package = "xfce-www"
+  defaultDomain = "content"
+  reportAddress = "https://gitlab.xfce.org/websites/www.xfce.org/-/issues"
+  srcDir = "content"
+  genDir = "generated"
+  genToOtherDir = true
+  excludedKeys = "layout hasToc date"
+
+  [i18n.content]
+    [i18n.content.default]
+      globs = [
+        "content/about/_index.md",
+        "content/about/tour*.md",
+        "content/about/news/[0-9]*.md",
+        "content/community/_index.md",
+        "content/getinvolved/_index.md",
+      ]

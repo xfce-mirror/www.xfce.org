@@ -20,13 +20,13 @@ Without Docker:
 hugo server             # dev server (run ./build.sh first to populate generated/)
 ```
 
-Requirements: Hugo extended, Python 3 with `polib`, po4a, gettext (`msgmerge`).
+Requirements: Hugo extended, Python 3 with `polib`, `hugo-gettext`, gettext (`msgfmt`, `msgmerge`).
 
 ## Content vs layouts
 
 There are two kinds of translatable text, handled by separate pipelines:
 
-**Content** (`content/`) is prose written in Markdown. Translations are managed via po4a: English source files are extracted into `po/content.pot`, translators work on `po/content.LANG.po`, and po4a generates translated Markdown into `generated/`. New content files must be registered in `po4a.cfg` manually.
+**Content** (`content/`) is prose written in Markdown. Translations are managed via hugo-gettext: English source files matching globs in `hugo-gettext.toml` are extracted into `po/content.pot`, translators work on `po/content.LANG.po`, and hugo-gettext generates translated Markdown into `generated/LANG/`. New content files matching existing globs are auto-discovered; new sections need a glob added to `hugo-gettext.toml`.
 
 **UI strings** (`layouts/`) are short labels, navigation, and structured text embedded in Hugo templates via `{{ i18n "string" }}`. These are extracted into `po/ui.pot` and translated via `po/ui.LANG.po`, then converted to Hugo i18n JSON files in `generated/i18n/`.
 
@@ -34,13 +34,7 @@ Both pipelines feed into `generated/`, which is gitignored and mounted alongside
 
 ## Adding a content page
 
-Write the English Markdown in `content/SECTION/page.md`, then register it in `po4a.cfg`:
-
-```
-[type:text] content/SECTION/page.md $lang:generated/SECTION/page.$lang.md opt:"-o markdown" opt:"-o yfm_lenient=1" opt:"-o yfm_keys=title" opt:"-o neverwrap"
-```
-
-Add language stubs in `build.sh` so the page renders for all languages, then run `./build.sh --update-po` to extract strings.
+Write the English Markdown in `content/SECTION/page.md`. If the file doesn't match an existing glob in `hugo-gettext.toml`, add one under `[i18n.content.default]`. Add language stubs in `build.sh` so the page renders for all languages, then run `./build.sh --update-po` to extract strings.
 
 ## Adding a UI-only page
 
