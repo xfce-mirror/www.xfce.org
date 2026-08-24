@@ -13,6 +13,7 @@ error from Hugo. This turns that into a build failure naming the string.
 import argparse
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -63,7 +64,6 @@ def annotate(uses: dict, strings: dict, pot_path: Path) -> None:
     key_of = {v['other']: k for k, v in strings.items()}
 
     pot = polib.pofile(str(pot_path))
-    pot.wrapwidth = 0
     annotated = 0
     for entry in pot:
         if not entry.msgid:
@@ -73,6 +73,9 @@ def annotate(uses: dict, strings: dict, pot_path: Path) -> None:
             entry.occurrences = found
             annotated += 1
     pot.save(str(pot_path))
+    # polib wraps reference comments differently from gettext; hand the file back
+    # to msgcat so it matches what hugo-gettext wrote
+    subprocess.run(['msgcat', '-o', str(pot_path), str(pot_path)], check=True)
     print(f'  {annotated} po/ui.pot entries pointed at templates')
 
 

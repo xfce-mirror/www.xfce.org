@@ -22,7 +22,7 @@ if $UPDATE_PO; then
   echo "==> Merging POT into PO files..."
   for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
     domain="$(basename "$po")"; domain="${domain%%.*}"
-    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/$domain.pot"
+    msgmerge --quiet --update --backup=none "$po" "$REPO_ROOT/po/$domain.pot"
   done
 fi
 
