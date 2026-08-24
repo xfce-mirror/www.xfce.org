@@ -28,7 +28,7 @@ There are two kinds of translatable text, handled by separate pipelines:
 
 **Content** (`content/`) is prose written in Markdown. Translations are managed via hugo-gettext: English source files matching globs in `hugo-gettext.toml` are extracted into `po/content.pot`, translators work on `po/content.LANG.po`, and hugo-gettext generates translated Markdown into `generated/LANG/`. New content files matching existing globs are auto-discovered; new sections need a glob added to `hugo-gettext.toml`.
 
-**UI strings** (`layouts/`) are short labels, navigation, and structured text embedded in Hugo templates via `{{ i18n "key" }}`. The English source is `i18n/en.json`, which is hand-maintained and committed. hugo-gettext extracts it into `po/ui.pot`, translators work on `po/ui.LANG.po`, and hugo-gettext writes the translations back out as `i18n/LANG.json` (gitignored).
+**UI strings** (`layouts/`) are short labels, navigation, and structured text embedded in Hugo templates via `{{ i18n "key" }}`. The English source is `i18n/en.yaml`, which is hand-maintained and committed. hugo-gettext extracts it into `po/ui.pot`, translators work on `po/ui.LANG.po`, and hugo-gettext writes the translations back out as `i18n/LANG.yaml` (gitignored).
 
 Translated content lands in `generated/`, translated UI strings in `i18n/`; both are gitignored build output.
 
@@ -49,12 +49,13 @@ titleKey: "section-page-title"
 ---
 ```
 
-Every visible string needs an entry in `i18n/en.json` and a matching `{{ i18n "key" }}` in the template. Keys are `<area>-<what>`, using `common-` for anything more than one template uses.
+Every visible string needs an entry in `i18n/en.yaml` and a matching `{{ i18n "key" }}` in the template. Keys are `<area>-<what>`, using `common-` for anything more than one template uses.
 
 Markup never reaches translators. Put `{{ .s1 }}`, `{{ .s2 }}` … where the tags go, and pass the tags in from the template:
 
-```json
-"about-visit-website": { "other": "Visit the {{ .s1 }}Xfce website{{ .s2 }}." }
+```yaml
+about-visit-website:
+  other: Visit the {{ .s1 }}Xfce website{{ .s2 }}.
 ```
 
 ```go
@@ -63,7 +64,7 @@ Markup never reaches translators. Put `{{ .s1 }}`, `{{ .s2 }}` … where the tag
 
 Add language stubs in `build.sh`, then run `./build.sh --update-po`.
 
-`i18n/en.json` is the source of truth, so a template asking for a key that isn't there renders an empty string. Every build runs `scripts/ui-strings.py --check`, which fails and names the string if the two drift apart.
+`i18n/en.yaml` is the source of truth, so a template asking for a key that isn't there renders an empty string. Every build runs `scripts/ui-strings.py --check`, which fails and names the string if the two drift apart.
 
 ## Translations
 

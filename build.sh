@@ -13,7 +13,7 @@ fi
 
 if $UPDATE_PO; then
   echo "==> Extracting POT files with hugo-gettext..."
-  # i18n/en.json -> po/ui.pot, content markdown -> po/content.pot
+  # i18n/en.yaml -> po/ui.pot, content markdown -> po/content.pot
   hugo-gettext extract -f "$REPO_ROOT/hugo-gettext.toml" "$REPO_ROOT/po"
 
   echo "==> Pointing po/ui.pot at the templates that use each string..."
@@ -39,7 +39,7 @@ for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
 done
 
 echo "==> Generating translated content and UI strings..."
-find "$REPO_ROOT/i18n" -name '*.json' ! -name 'en.json' -delete
+find "$REPO_ROOT/i18n" -type f ! -name 'en.yaml' -delete
 hugo-gettext generate -f "$REPO_ROOT/hugo-gettext.toml" --keep-locale
 
 echo "==> Cleaning up locale directory..."
