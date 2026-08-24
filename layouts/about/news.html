@@ -1,6 +1,6 @@
 {{ define "main" }}
-<h1>{{ i18n "News" }}</h1>
-<span class="rss"><a href="{{ "feed" | relLangURL }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+<h1>{{ i18n "common-news" }}</h1>
+<span class="rss"><a href="{{ "feed" | relLangURL }}">{{ i18n "common-subscribe-rss" }}</a></span>
 
 {{- range $i, $page := .Pages.ByDate.Reverse }}
 <div class="newsitem">
@@ -16,7 +16,7 @@
     {{ $page.Content }}
     {{- else }}
     {{ strings.TrimSuffix "</p>" ($page.Summary | strings.TrimRight "\n ") | safeHTML }}
-    <a href="{{ $page.RelPermalink }}">{{ i18n "Learn&nbsp;More&nbsp;&rarr;" | safeHTML }}</a></p>
+    <a href="{{ $page.RelPermalink }}">{{ i18n "common-learn-more" | safeHTML }}</a></p>
     {{- end }}
   </div>
 </div>

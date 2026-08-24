@@ -18,7 +18,7 @@
   {{- end }}
   <div id="article" class="file_{{ $pageClass }}">
     {{- if .Params.hasToc }}
-    <p id="related-jump" class="file_{{ $pageClass }}"><a href="#related">{{ i18n "Related Pages" }} &darr;</a></p>
+    <p id="related-jump" class="file_{{ $pageClass }}"><a href="#related">{{ i18n "common-related-pages" }} &darr;</a></p>
     {{- end }}
 
     {{ block "main" . }}{{ end }}

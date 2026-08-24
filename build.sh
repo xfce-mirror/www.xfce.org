@@ -1,8 +1,8 @@
 #!/bin/bash
 # Build pipeline for www.xfce.org Hugo site
 #
-# Default:       generate translated content (hugo-gettext) → i18n JSON → stubs → hugo
-# --update-po:   also extract UI strings (POT) → merge into PO → extract content POT
+# Default:       compile PO → hugo-gettext generate (content + i18n strings) → stubs → hugo
+# --update-po:   also extract po/ui.pot + po/content.pot and merge them into the PO files
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -12,57 +12,55 @@ if [ "$1" = "--update-po" ]; then
 fi
 
 if $UPDATE_PO; then
-  echo "==> Extracting UI strings from templates..."
-  python3 "$REPO_ROOT/scripts/extract-ui-pot.py"
-
-  echo "==> Merging UI POT into PO files..."
-  for po in "$REPO_ROOT/po"/ui.*.po; do
-    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/ui.pot"
-  done
-
-  echo "==> Extracting content POT with hugo-gettext..."
+  echo "==> Extracting POT files with hugo-gettext..."
+  # i18n/en.json -> po/ui.pot, content markdown -> po/content.pot
   hugo-gettext extract -f "$REPO_ROOT/hugo-gettext.toml" "$REPO_ROOT/po"
 
-  echo "==> Merging content POT into PO files..."
-  for po in "$REPO_ROOT/po"/content.*.po; do
-    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/content.pot"
+  echo "==> Pointing po/ui.pot at the templates that use each string..."
+  python3 "$REPO_ROOT/scripts/ui-strings.py" --annotate
+
+  echo "==> Merging POT into PO files..."
+  for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
+    domain="$(basename "$po")"; domain="${domain%%.*}"
+    msgmerge --quiet --update --backup=none --no-wrap "$po" "$REPO_ROOT/po/$domain.pot"
   done
 fi
 
-echo "==> Compiling content PO files..."
+echo "==> Checking UI strings..."
+python3 "$REPO_ROOT/scripts/ui-strings.py" --check
+
+echo "==> Compiling PO files..."
 rm -rf "$REPO_ROOT/locale"
-mkdir -p "$REPO_ROOT/locale"
-for po in "$REPO_ROOT/po"/content.*.po; do
-  lang="$(basename "$po" .po)"; lang="${lang#content.}"
+for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
+  base="$(basename "$po" .po)"
+  domain="${base%%.*}"; lang="${base#*.}"
   mkdir -p "$REPO_ROOT/locale/$lang/LC_MESSAGES"
-  msgfmt -o "$REPO_ROOT/locale/$lang/LC_MESSAGES/content.mo" "$po"
+  msgfmt -o "$REPO_ROOT/locale/$lang/LC_MESSAGES/$domain.mo" "$po"
 done
 
-echo "==> Generating translated content files..."
+echo "==> Generating translated content and UI strings..."
+find "$REPO_ROOT/i18n" -name '*.json' ! -name 'en.json' -delete
 hugo-gettext generate -f "$REPO_ROOT/hugo-gettext.toml" --keep-locale
 
 echo "==> Cleaning up locale directory..."
 rm -rf "$REPO_ROOT/locale"
-
-echo "==> Converting PO files to Hugo i18n JSON..."
-python3 "$REPO_ROOT/scripts/po2hugo.py"
 
 echo "==> Generating language stubs..."
 for po in "$REPO_ROOT/po"/ui.*.po; do
   lang="$(basename "$po" .po)"; lang="${lang#ui.}"
   mkdir -p "$REPO_ROOT/generated/$lang/about/news" "$REPO_ROOT/generated/$lang/download/changelogs" "$REPO_ROOT/generated/$lang/projects"
   stub="$REPO_ROOT/generated/$lang/about/credits.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\ntitleKey: \"common-credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/about/screenshots.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\ntitleKey: \"common-screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/about/news/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\ntitleKey: \"common-news\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/download/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\ntitleKey: \"common-download\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/projects/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\ntitleKey: \"common-projects\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/download/changelogs/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Changelogs\"\nhasToc: true\n---\n" > "$stub"
+  [ -f "$stub" ] || printf -- "---\ntitle: \"Changelogs\"\ntitleKey: \"common-changelogs\"\nhasToc: true\n---\n" > "$stub"
 
   # Changelog page stubs (full copy — changelogs aren't translated)
   for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do

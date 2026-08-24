@@ -33,12 +33,11 @@ def get_translation_pct(lang: str, po_dir: Path) -> tuple[int, int]:
     return translated, total
 
 
-def remove_lang_files(lang: str, generated_dir: Path) -> int:
+def remove_lang_files(lang: str, repo_root: Path, generated_dir: Path) -> int:
     """Remove all generated files for a language. Return count removed."""
-    hugo_lang = lang.replace("_", "-").lower()
     count = 0
 
-    json_path = generated_dir / "i18n" / f"{hugo_lang}.json"
+    json_path = repo_root / "i18n" / f"{lang}.json"
     if json_path.exists():
         json_path.unlink()
         count += 1
@@ -70,7 +69,7 @@ def main() -> None:
             continue
         pct = translated / total * 100
         if pct < THRESHOLD:
-            removed = remove_lang_files(lang, generated_dir)
+            removed = remove_lang_files(lang, repo_root, generated_dir)
             disabled.append((lang, pct, removed))
 
     if disabled:

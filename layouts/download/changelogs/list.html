@@ -1,6 +1,6 @@
 {{ define "main" }}
-<h1>{{ i18n "Changelogs" }}</h1>
-<p>{{ i18n "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. " }}</p>
+<h1>{{ i18n "common-changelogs" }}</h1>
+<p>{{ i18n "changelogs-intro" }}</p>
 
 {{- $pages := .Pages.ByParam "weight" | collections.Reverse }}
 {{- $groups := slice }}
@@ -26,29 +26,29 @@
 
 {{ define "related" }}
 {{- $prefix := cond (eq .Language.Lang "en") "" (printf "/%s" .Language.Lang) }}
-<h2>{{ i18n "Related Pages" }}</h2>
+<h2>{{ i18n "common-related-pages" }}</h2>
 <ul>
   <li>
-    <a href="{{ $prefix }}/download/changelogs">{{ i18n "Changelogs" }}
-      <span>&ndash; {{ i18n "release notes of each Xfce release" }}</span>
+    <a href="{{ $prefix }}/download/changelogs">{{ i18n "common-changelogs" }}
+      <span>&ndash; {{ i18n "common-changelogs-desc" }}</span>
     </a>
   </li>
 </ul>
-<h2>{{ i18n "Related Sites" }}</h2>
+<h2>{{ i18n "common-related-sites" }}</h2>
 <ul>
   <li>
-    <a href="https://archive.xfce.org">{{ i18n "Archive" }}
-      <span>&ndash; {{ i18n "the Xfce download archive" }}</span>
+    <a href="https://archive.xfce.org">{{ i18n "common-archive" }}
+      <span>&ndash; {{ i18n "common-archive-desc" }}</span>
     </a>
   </li>
   <li>
-    <a href="https://docs.xfce.org/xfce/building">{{ i18n "Building" }}
-      <span>&ndash; {{ i18n "documentation on building Xfce from source" }}</span>
+    <a href="https://docs.xfce.org/xfce/building">{{ i18n "common-building" }}
+      <span>&ndash; {{ i18n "common-building-desc" }}</span>
     </a>
   </li>
   <li>
-    <a href="https://gitlab.xfce.org">{{ i18n "Git" }}
-      <span>&ndash; {{ i18n "browse the source repositories" }}</span>
+    <a href="https://gitlab.xfce.org">{{ i18n "common-git" }}
+      <span>&ndash; {{ i18n "common-git-desc" }}</span>
     </a>
   </li>
 </ul>

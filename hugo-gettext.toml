@@ -2,15 +2,20 @@ defaultContentLanguage = "en"
 
 [i18n]
   package = "xfce-www"
-  defaultDomain = "content"
+  # UI strings in i18n/en.json belong to the default domain -> po/ui.pot
+  defaultDomain = "ui"
   reportAddress = "https://gitlab.xfce.org/websites/www.xfce.org/-/issues"
   srcDir = "content"
   genDir = "generated"
   genToOtherDir = true
-  excludedKeys = "layout hasToc date"
+  excludedKeys = "layout hasToc date titleKey"
+
+  [i18n.others]
+    strings = true
 
   [i18n.content]
-    [i18n.content.default]
+    # markdown pages -> po/content.pot
+    [i18n.content.content]
       globs = [
         "content/about/_index.md",
         "content/about/tour*.md",

@@ -1,14 +1,14 @@
 <div id="mainnav" class="group">
-  <h5 class="hidden">{{ i18n "Categories" }}</h5>
+  <h5 class="hidden">{{ i18n "nav-categories" }}</h5>
   <div>
-    <a href="#" id="mainnav-icon">{{ i18n "Navigate" }}</a>
+    <a href="#" id="mainnav-icon">{{ i18n "nav-navigate" }}</a>
     <ul>
-      <li><a href="{{ if eq .Language.Lang "en" }}/{{ else }}/{{ .Language.Lang }}/{{ end }}">{{ i18n "Home" }}</a></li>
-      <li><a href="{{ if eq .Language.Lang "en" }}/about{{ else }}/{{ .Language.Lang }}/about{{ end }}">{{ i18n "About" }}</a></li>
-      <li><a href="{{ if eq .Language.Lang "en" }}/download{{ else }}/{{ .Language.Lang }}/download{{ end }}">{{ i18n "Download" }}</a></li>
-      <li><a href="{{ if eq .Language.Lang "en" }}/community{{ else }}/{{ .Language.Lang }}/community{{ end }}">{{ i18n "Community" }}</a></li>
-      <li><a href="{{ if eq .Language.Lang "en" }}/getinvolved{{ else }}/{{ .Language.Lang }}/getinvolved{{ end }}">{{ i18n "Get Involved" }}</a></li>
-      <li><a href="{{ if eq .Language.Lang "en" }}/projects{{ else }}/{{ .Language.Lang }}/projects{{ end }}">{{ i18n "Projects" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/{{ else }}/{{ .Language.Lang }}/{{ end }}">{{ i18n "nav-home" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/about{{ else }}/{{ .Language.Lang }}/about{{ end }}">{{ i18n "nav-about" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/download{{ else }}/{{ .Language.Lang }}/download{{ end }}">{{ i18n "common-download" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/community{{ else }}/{{ .Language.Lang }}/community{{ end }}">{{ i18n "nav-community" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/getinvolved{{ else }}/{{ .Language.Lang }}/getinvolved{{ end }}">{{ i18n "nav-get-involved" }}</a></li>
+      <li><a href="{{ if eq .Language.Lang "en" }}/projects{{ else }}/{{ .Language.Lang }}/projects{{ end }}">{{ i18n "common-projects" }}</a></li>
     </ul>
   </div>
   {{- /* Strip current lang prefix from RelPermalink to get the bare path */}}
@@ -18,17 +18,16 @@
     {{- $barePath = strings.TrimPrefix (printf "/%s" $currentLang) $barePath }}
   {{- end }}
   <form id="languageform" action="" method="get">
-    <select name="lang" title="{{ i18n "Change language" }}" onchange="window.location.href=this.value">
+    <select name="lang" title="{{ i18n "nav-change-language" }}" onchange="window.location.href=this.value">
       {{- range sort hugo.Sites ".Language.Label" }}
       {{- $lang := .Language.Lang }}
-      {{- $i18nLang := replace $lang "_" "-" }}
-      {{- $i18nFile := printf "generated/i18n/%s.json" $i18nLang }}
-      {{- if and (ne $lang "en") (not (fileExists $i18nFile)) }}{{ continue }}{{ end }}
+      {{- /* skip languages with no pages, e.g. below the translation threshold */}}
+      {{- if and (ne $lang "en") (not (.GetPage "/about")) }}{{ continue }}{{ end }}
       {{- $url := $barePath }}
       {{- if ne $lang "en" }}{{ $url = printf "/%s%s" $lang $barePath }}{{ end }}
       <option value="{{ $url }}"{{ if eq $lang $currentLang }} selected="selected"{{ end }}>{{ .Language.Label }}</option>
       {{- end }}
     </select>
-    <button type="submit" class="hidden">{{ i18n "Change language" }}</button>
+    <button type="submit" class="hidden">{{ i18n "nav-change-language" }}</button>
   </form>
 </div>
