@@ -2,6 +2,7 @@
 title: "Xfce 4.20 tour"
 layout: "tour"
 hasToc: true
+aliases: ["tour"]
 ---
 
 This tour will introduce you to new major features of Xfce 4.20. It only covers improvements made on the (user-visible) surface.
