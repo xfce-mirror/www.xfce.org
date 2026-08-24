@@ -82,6 +82,6 @@ echo "==> Checking language translation thresholds..."
 python3 "$REPO_ROOT/scripts/check-lang-threshold.py"
 
 echo "==> Building Hugo site..."
-hugo --source "$REPO_ROOT"
+hugo --source "$REPO_ROOT" --cleanDestinationDir
 
 echo "==> Done. Output in $REPO_ROOT/public/"
