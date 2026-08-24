@@ -65,7 +65,9 @@ mkdir -p "$REPO_ROOT/generated/assets"
 curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/generated/assets/blogfeed.xml"
 
 echo "==> Checking language translation thresholds..."
-python3 "$REPO_ROOT/scripts/check-lang-threshold.py"
+# under-translated languages are not built at all
+HUGO_DISABLELANGUAGES="$(python3 "$REPO_ROOT/scripts/check-lang-threshold.py")"
+export HUGO_DISABLELANGUAGES
 
 echo "==> Building Hugo site..."
 hugo --source "$REPO_ROOT" --cleanDestinationDir

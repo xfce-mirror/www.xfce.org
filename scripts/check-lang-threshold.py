@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""Disable languages below a combined translation threshold.
+"""Print the languages below the translation threshold, comma-separated.
 
-Removes generated i18n JSON and content files for under-translated languages
-so Hugo won't render them.
+build.sh feeds the result to Hugo as HUGO_DISABLELANGUAGES, so an
+under-translated language is not built at all. Percentages go to stderr so they
+still show up in the build log.
 """
 
-import glob
-import os
-import shutil
 import sys
 from pathlib import Path
 
@@ -16,69 +14,35 @@ import polib
 THRESHOLD = 50
 
 
-def get_translation_pct(lang: str, po_dir: Path) -> tuple[int, int]:
-    """Return (translated, total) across UI and content PO files."""
-    translated = 0
-    total = 0
-
-    for prefix in ("ui", "content"):
-        po_path = po_dir / f"{prefix}.{lang}.po"
-        if not po_path.exists():
+def translated_pct(po_dir: Path, lang: str) -> float:
+    translated = total = 0
+    for domain in ('ui', 'content'):
+        path = po_dir / f'{domain}.{lang}.po'
+        if not path.exists():
             continue
-        po = polib.pofile(str(po_path))
-        entries = [e for e in po if not e.obsolete and e.msgid]
-        total += len(entries)
+        po = polib.pofile(str(path))
+        total += sum(1 for e in po if e.msgid)
         translated += len(po.translated_entries())
-
-    return translated, total
-
-
-def remove_lang_files(lang: str, repo_root: Path, generated_dir: Path) -> int:
-    """Remove all generated files for a language. Return count removed."""
-    count = 0
-
-    json_path = repo_root / "i18n" / f"{lang}.json"
-    if json_path.exists():
-        json_path.unlink()
-        count += 1
-
-    lang_dir = generated_dir / lang
-    if lang_dir.is_dir():
-        count += sum(1 for _ in lang_dir.rglob("*.md"))
-        shutil.rmtree(lang_dir)
-
-    return count
+    return translated / total * 100 if total else 0.0
 
 
 def main() -> None:
-    repo_root = Path(__file__).parent.parent
-    po_dir = repo_root / "po"
-    generated_dir = repo_root / "generated"
-
-    langs = set()
-    for po_path in po_dir.glob("ui.*.po"):
-        langs.add(po_path.stem.removeprefix("ui."))
-    for po_path in po_dir.glob("content.*.po"):
-        if po_path.name != "content.pot":
-            langs.add(po_path.stem.removeprefix("content."))
+    po_dir = Path(__file__).parent.parent / 'po'
+    langs = sorted({p.name.split('.')[1] for p in po_dir.glob('*.*.po')})
 
     disabled = []
-    for lang in sorted(langs):
-        translated, total = get_translation_pct(lang, po_dir)
-        if total == 0:
-            continue
-        pct = translated / total * 100
+    for lang in langs:
+        pct = translated_pct(po_dir, lang)
         if pct < THRESHOLD:
-            removed = remove_lang_files(lang, repo_root, generated_dir)
-            disabled.append((lang, pct, removed))
+            disabled.append(lang)
+            print(f'  {lang}: {pct:.0f}% translated — disabled', file=sys.stderr)
 
-    if disabled:
-        for lang, pct, removed in disabled:
-            print(f"  {lang}: {pct:.0f}% translated — disabled ({removed} files removed)")
-        print(f"  ({len(disabled)} languages below {THRESHOLD}% threshold)")
-    else:
-        print(f"  All languages above {THRESHOLD}% threshold")
+    print(f'  ({len(disabled)} of {len(langs)} languages below {THRESHOLD}%)'
+          if disabled else f'  all {len(langs)} languages above {THRESHOLD}%',
+          file=sys.stderr)
+    # Hugo lowercases language keys, so pt_BR is disabled as pt_br
+    print(','.join(lang.lower() for lang in disabled))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
