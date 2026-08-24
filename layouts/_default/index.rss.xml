@@ -7,13 +7,11 @@
   <channel>
     <title>{{ i18n "Xfce News" }}</title>
     <description>{{ i18n "Xfce release announcements" }}</description>
-    <link>{{ absURL "about/news" }}</link>
+    <link>{{ absLangURL "about/news" }}</link>
     <copyright>Olivier Fourdan 1996 - {{ now.Year }}</copyright>
     <language>{{ .Language.Lang }}</language>
     <generator>Hugo</generator>
-    {{- $feedPath := "feed" }}
-    {{- if ne .Language.Lang "en" }}{{ $feedPath = printf "%s/feed" .Language.Lang }}{{ end }}
-    <atom:link href="{{ $feedPath | absURL }}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ "feed" | absLangURL }}" rel="self" type="application/rss+xml" />
     {{- range $pages }}
     <item>
       <title>{{ .Title }}</title>

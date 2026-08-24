@@ -14,9 +14,7 @@
   {{- with .Params.keywords }}
   <meta name="keywords" content="{{ . }}" />
   {{- end }}
-  {{- $feedPath := "feed" }}
-  {{- if ne .Language.Lang "en" }}{{ $feedPath = printf "%s/feed" .Language.Lang }}{{ end }}
-  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ $feedPath | absURL }}" />
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "feed" | absLangURL }}" />
 
   {{- with .Params.css }}
   <style type="text/css">

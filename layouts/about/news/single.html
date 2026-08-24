@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ i18n "News" }}</h1>
-<span class="rss"><a href="{{ if eq .Language.Lang "en" }}/feed{{ else }}/{{ .Language.Lang }}/feed{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+<span class="rss"><a href="{{ "feed" | relLangURL }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
 
 <div class="newsitem">
   <h2>{{ .Title }}</h2>

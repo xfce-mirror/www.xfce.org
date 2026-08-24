@@ -75,7 +75,7 @@
 
 <div class="column">
   <h2>{{ i18n "Xfce Release Updates" }}</h2>
-  <span class="rss"><a href="{{ .Permalink }}feed{{ if ne .Language.Lang "en" }}?lang={{ .Language.Lang }}{{ end }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
+  <span class="rss"><a href="{{ "feed" | relLangURL }}">{{ i18n "Subscribe to RSS feed" }}</a></span>
   {{- $newsSection := site.GetPage "/about/news" }}
   {{- range first 2 $newsSection.Pages.ByDate.Reverse }}
   <div class="newsitem group">
