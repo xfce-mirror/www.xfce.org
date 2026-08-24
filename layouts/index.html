@@ -29,7 +29,7 @@
 
 <div class="column">
   <h2>{{ i18n "common-site-title" }}</h2>
-  <p>{{ i18n "home-intro" }}</p>
+  {{ .Content }}
   <ul>
     <li>
       <a href="{{ if eq .Language.Lang "en" }}/download{{ else }}/{{ .Language.Lang }}/download{{ end }}">{{ i18n "common-download" }}

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 13:44+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,15 +12,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: content/_index.md:0
+msgid "Xfce Desktop Environment"
+msgstr ""
+
+#. type: Plain text
+#: content/_index.md:0 content/_index.md:15 content/about/_index.md:6
+msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+msgstr "Xfce-ja është mjedis desktop i peshës së lehtë, për sisteme operativë të ngjashëm me UNIX-in. Ai synon të jetë i shpejtë dhe me konsum të ulët të burimeve të sistemit, teksa ende të jetë tërheqës nga ana pamore dhe miqësor ndaj përdoruesit."
+
+#: content/_index.md:0
+msgid "desktop environment, window manager, desktop, speed, lightweight, gtk+, open source, xforms common environment"
+msgstr ""
+
+#: content/_index.md:0
+msgid ""
+"@media screen and (max-width:830px) {\n"
+"#slide div#slide-thunar { background-image: url(//cdn.xfce.org/slider/thunar_mobile.png) !important; }\n"
+"#slide div#slide-settings { background-image: url(//cdn.xfce.org/slider/settings_mobile.png) !important; }\n"
+"#slide div#slide-xfwm4 { background-image: url(//cdn.xfce.org/slider/xfwm4_mobile.png) !important; }\n"
+"#slide div#slide-panel { background-image: url(//cdn.xfce.org/slider/panel_mobile.png) !important; }\n"
+"#slide div#slide-apps { background-image: url(//cdn.xfce.org/slider/apps_mobile.png) !important; }\n"
+"}"
+msgstr ""
+
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/_index.md:0
 msgid "About"
 msgstr "Mbi"
-
-#. type: Plain text
-#: content/about/_index.md:6
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Xfce-ja është mjedis desktop i peshës së lehtë, për sisteme operativë të ngjashëm me UNIX-in. Ai synon të jetë i shpejtë dhe me konsum të ulët të burimeve të sistemit, teksa ende të jetë tërheqës nga ana pamore dhe miqësor ndaj përdoruesit."
 
 #. type: Plain text
 #: content/about/_index.md:8
@@ -4639,6 +4658,81 @@ msgstr "Rrjete Shoqërore"
 msgid "You can follow us on the official [Mastodon account](https://floss.social/@xfce) or [Twitter account](https://twitter.com/xfceofficial)"
 msgstr "Mund të na ndiqni te llogaritë zyrtare [Mastodon](https://floss.social/@xfce), ose [Twitter](https://twitter.com/xfceofficial)"
 
+#: content/download/_index.md:0
+msgid "Download"
+msgstr "Shkarkim"
+
+#: content/download/_index.md:7
+msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. [How to compile Xfce](https://docs.xfce.org/xfce/building)."
+msgstr "Shumica e shpërndarjeve vijnë me Xfce-në në formatin e tyre të paketimit, por, nëse doni një version më të ri, ose doni ta montoni Xfce nga e para, mund të gjeni paketa më poshtë. [Si të përpilohet Xfce-ja](https://docs.xfce.org/xfce/building)."
+
+#: content/download/_index.md:9
+msgid "Stable release {{% version \"stable\" %}}"
+msgstr "Hedhje e qëndrueshme në qarkullim {{% version \"stable\" %}}"
+
+#: content/download/_index.md:11
+msgid "Xfce {{% version \"stable\" %}} is the most recent version of the Xfce desktop environment. [Changes in this release](/download/changelogs/{{% version \"stable\" %}})."
+msgstr "Xfce {{% version \"stable\" %}} është versioni më i freskët i mjedisit desktop Xfce. [Ndryshime në këtë hedhje në qarkullim](/download/changelogs/{{% version \"stable\" %}})."
+
+#: content/download/_index.md:13
+#, fuzzy
+msgid "<https://archive.xfce.org/xfce/{{% version \"stable\" %}}/>"
+msgstr "[Shkarkim](http://archive.xfce.org/xfce/4.8pre3/)"
+
+#: content/download/_index.md:15
+msgid "Individual releases"
+msgstr "Hedhje individuale në qarkullim"
+
+#: content/download/_index.md:17
+msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the [release model](https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release)). You can follow the announcements of the releases on the [Xfce users mailing list](/community), watch the [release feeds](https://archive.xfce.org/feeds/project/) or follow the Xfce [Mastodon](https://floss.social/@xfce) or [Twitter account](https://twitter.com/xfceofficial)."
+msgstr "Çdo paketë në Xfce mund të hedhë në qarkullim versione individuale të qëndrueshme, ose zhvillim, përfshi paketat bazë (siç përshkruhet te [modeli i hedhjeve në qarkullim](https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release)). Lajmërimet për hedhjet në qarkullim mund t’i ndiqni te [lista e postimeve të përdoruesve Xfce](/community), të vëzhgoni [prurjet për hedhje në qarkullim](https://archive.xfce.org/feeds/project/), ose të ndiqni llogaritë Xfce në [Mastodon](https://floss.social/@xfce), ose [Twitter](https://twitter.com/xfceofficial)."
+
+#: content/download/_index.md:19
+#, fuzzy
+msgid "<https://archive.xfce.org/src/>"
+msgstr "[Shkarkim](http://archive.xfce.org/xfce/4.6.2/)"
+
+#: content/download/_index.md:22
+msgid "Preview release {{% version \"preview\" %}}"
+msgstr "Hedhje paraprake në qarkullim {{% version \"preview\" %}}"
+
+#: content/download/_index.md:24
+msgid "Xfce {{% version \"preview\" %}} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the [stable release](#stable) above. [Changes in this release](/download/changelogs/{{% version \"preview\" %}})."
+msgstr "Xfce {{% version \"preview\" %}} është hedhja më e re në qarkullim zhvillim i mjedisit desktop Xfce. Kjo hedhje në qarkullim s’duhet përdorur në mjedise faktikë. Nëse jeni i paqartë rreth shkarkimit të kësaj hedhjeje në qarkullim, ka mundësi që duhet të përdorni [hedhjen e qëndrueshme në qarkullim](#stable) më sipër. [Ndryshime në këtë hedhje në qarkullim](/download/changelogs/{{% version \"preview\" %}})."
+
+#: content/download/_index.md:26
+#, fuzzy
+msgid "<https://archive.xfce.org/xfce/{{% version \"preview\" %}}/>"
+msgstr "[Shkarkim](http://archive.xfce.org/xfce/4.8pre3/)"
+
+#: content/download/_index.md:30
+msgid "Distributions"
+msgstr "Shpërndarje"
+
+#: content/download/_index.md:32
+msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are [Xubuntu](https://xubuntu.org/), the [Fedora Xfce Spin](https://fedoraproject.org/spins/xfce), [Manjaro](https://manjaro.org/products/download/) or [Zenwalk](http://www.zenwalk.org/), but there is a good chance your favorite distro provides packages as well."
+msgstr "Paketa Xfce japin një numër shpërndarjesh të ndryshme. Shembuj popullorë të hartuar me Xfce-në janë [Xubuntu](https://xubuntu.org/), the [Fedora Xfce Spin](https://fedoraproject.org/spins/xfce), [Manjaro](https://manjaro.org/products/download/) ose [Zenwalk](http://www.zenwalk.org/), por ka një probabilitet të mirë që edhe shpërndarja juaj e parapëlqyer të ofrojë paketa Xfce."
+
+#: content/download/_index.md:34
+msgid "You can find a more complete list at [DistroWatch.com](https://distrowatch.com/search.php?pkg=xfdesktop&pkgver={{% version \"stable\" %}})."
+msgstr "Një listë më të plotë mund ta gjeni te [DistroWatch.com](https://distrowatch.com/search.php?pkg=xfdesktop&pkgver={{% version \"stable\" %}})."
+
+#: content/download/_index.md:36
+msgid "Artwork"
+msgstr "Artwork"
+
+#: content/download/_index.md:38
+msgid "[Download the Xfce artwork tarball](//cdn.xfce.org/downloads/xfce_artwork.tar.bz2). It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
+msgstr "[Shkarkoni paketën grafike të Xfce-së .](//cdn.xfce.org/downloads/xfce_artwork.tar.bz2). Përmban disa stema dhe banderola në cilësi të lartë. Kopjimi i stemës së Xfce është subjekt i licencës LGPL për të drejta kopjimi."
+
+#: content/download/changelogs/_index.md:0
+msgid "Changelogs"
+msgstr ""
+
+#: content/download/changelogs/_index.md:7
+msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release."
+msgstr "Shënimet për hedhje në qarkullim të Xfce-së janë specifike për çdo version. Që të shihni ndryshimet te hedhja në qarkullim, përzgjidhni versionin tuaj prej listës më poshtë."
+
 #. type: Yaml Front Matter Hash Value: title
 #: content/getinvolved/_index.md:0
 msgid "Get Involved"
@@ -4718,3 +4812,11 @@ msgstr "OpenCollective"
 #: content/getinvolved/_index.md:34
 msgid "If you want to fund the project, you can use OpenCollective. Xfce has created two collectives, known as [Xfce ($)](https://opencollective.com/xfce) and [Xfce-Eu (€)](https://opencollective.com/xfce-eu) respectively. [Learn More →](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 msgstr ""
+
+#: content/projects/_index.md:0
+msgid "Projects"
+msgstr ""
+
+#: content/projects/_index.md:7
+msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+msgstr "Projekti Xfce përmban disa projekte ndarazi, për çdo pjesë të desktopit. Disa projekte kanë faqet e tyre të projektit, për të dhënë informacion shtesë."

@@ -11,3 +11,5 @@ css: |
   #slide div#slide-apps { background-image: url(//cdn.xfce.org/slider/apps_mobile.png) !important; }
   }
 ---
+
+Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.

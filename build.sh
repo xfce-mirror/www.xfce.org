@@ -55,12 +55,6 @@ for po in "$REPO_ROOT/po"/ui.*.po; do
   [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\ntitleKey: \"common-screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
   stub="$REPO_ROOT/generated/$lang/about/news/_index.md"
   [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\ntitleKey: \"common-news\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/$lang/download/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Download\"\ntitleKey: \"common-download\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/$lang/projects/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Projects\"\ntitleKey: \"common-projects\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/$lang/download/changelogs/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Changelogs\"\ntitleKey: \"common-changelogs\"\nhasToc: true\n---\n" > "$stub"
 
   # Changelog page stubs (full copy — changelogs aren't translated)
   for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do

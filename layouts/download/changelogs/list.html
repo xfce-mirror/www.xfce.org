@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ i18n "common-changelogs" }}</h1>
-<p>{{ i18n "changelogs-intro" }}</p>
+{{ .Content }}
 
 {{- $pages := .Pages.ByParam "weight" | collections.Reverse }}
 {{- $groups := slice }}

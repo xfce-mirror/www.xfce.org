@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 15:48+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Wallon Wallon, 2023-2025\n"
 "Language-Team: French (http://app.transifex.com/xfce/xfce-www/language/fr/)\n"
@@ -13,17 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: layouts/download/changelogs/list.html:3
-msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
-msgstr "Les notes de versions sont propres à chaque publication. Sélectionnez celle que vous souhaitez dans la liste ci-dessous pour en voir les changements."
-
 #: layouts/download/changelogs/list.html:40
-#: layouts/download/changelogs/single.html:19 layouts/download/list.html:57
+#: layouts/download/changelogs/single.html:19 layouts/download/list.html:19
 msgid "Archive"
 msgstr "Archives"
 
 #: layouts/download/changelogs/list.html:41
-#: layouts/download/changelogs/single.html:20 layouts/download/list.html:58
+#: layouts/download/changelogs/single.html:20 layouts/download/list.html:20
 msgid "the Xfce download archive"
 msgstr "téléchargement des archives Xfce"
 
@@ -32,23 +28,23 @@ msgid "report problems, patches or ideas to help making Xfce better"
 msgstr "signaler des problèmes, soumettre des correctifs ou idées pour améliorer Xfce"
 
 #: layouts/download/changelogs/list.html:45
-#: layouts/download/changelogs/single.html:24 layouts/download/list.html:62
+#: layouts/download/changelogs/single.html:24 layouts/download/list.html:24
 msgid "Building"
 msgstr "Compilation"
 
 #: layouts/download/changelogs/list.html:46
-#: layouts/download/changelogs/single.html:25 layouts/download/list.html:63
+#: layouts/download/changelogs/single.html:25 layouts/download/list.html:25
 msgid "documentation on building Xfce from source"
 msgstr "guide de compilation de Xfce à partir des sources"
 
 #: layouts/download/changelogs/list.html:2
 #: layouts/download/changelogs/list.html:32
-#: layouts/download/changelogs/single.html:11 layouts/download/list.html:49
+#: layouts/download/changelogs/single.html:11 layouts/download/list.html:11
 msgid "Changelogs"
 msgstr "Journaux des modifications"
 
 #: layouts/download/changelogs/list.html:33
-#: layouts/download/changelogs/single.html:12 layouts/download/list.html:50
+#: layouts/download/changelogs/single.html:12 layouts/download/list.html:12
 msgid "release notes of each Xfce release"
 msgstr "notes de version de chaque publication de Xfce"
 
@@ -60,18 +56,17 @@ msgstr "Crédits"
 msgid "Docs"
 msgstr "Documents"
 
-#: layouts/download/list.html:8 layouts/index.html:35
-#: layouts/partials/mainnav.html:8
+#: layouts/index.html:35 layouts/partials/mainnav.html:8
 msgid "Download"
 msgstr "Télécharger"
 
 #: layouts/download/changelogs/list.html:50
-#: layouts/download/changelogs/single.html:29 layouts/download/list.html:67
+#: layouts/download/changelogs/single.html:29 layouts/download/list.html:29
 msgid "Git"
 msgstr "Git"
 
 #: layouts/download/changelogs/list.html:51
-#: layouts/download/changelogs/single.html:30 layouts/download/list.html:68
+#: layouts/download/changelogs/single.html:30 layouts/download/list.html:30
 msgid "browse the source repositories"
 msgstr "parcourir les dépôts des sources"
 
@@ -97,13 +92,13 @@ msgid "Projects"
 msgstr "Projets"
 
 #: layouts/_default/baseof.html:21 layouts/download/changelogs/list.html:29
-#: layouts/download/changelogs/single.html:8 layouts/download/list.html:46
+#: layouts/download/changelogs/single.html:8 layouts/download/list.html:8
 #: layouts/getinvolved/list.html:7 layouts/partials/about-related.html:3
 msgid "Related Pages"
 msgstr "Pages connexes"
 
 #: layouts/community/list.html:7 layouts/download/changelogs/list.html:37
-#: layouts/download/changelogs/single.html:16 layouts/download/list.html:54
+#: layouts/download/changelogs/single.html:16 layouts/download/list.html:16
 #: layouts/getinvolved/list.html:15 layouts/projects/list.html:156
 msgid "Related Sites"
 msgstr "Sites connexes"
@@ -194,54 +189,6 @@ msgstr "Supervision des traductions"
 msgid "Our beloved translators"
 msgstr "Nos traducteurs bien-aimés"
 
-#: layouts/download/list.html:41
-msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
-msgstr "{{ .s1 }}Téléchargez l’archive d’illustrations Xfce{{ .s2 }}. Elle contient des logos et des bannières de haute qualité. La copie du logo Xfce est soumise à la licence de copyright LGPL."
-
-#: layouts/download/list.html:40
-msgid "Artwork"
-msgstr "Illustrations"
-
-#: layouts/download/list.html:37
-msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
-msgstr "Beaucoup de distributions différentes fournissent des paquets Xfce. Des projets populaires construits autour de Xfce sont {{ .s1 }}Xubuntu{{ .s2 }}, le {{ .s3 }}Spin Fedora Xfce{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} et {{ .s7 }}Zenwalk{{ .s8 }}, mais il y a de grandes chances que votre distribution favorite fournisse également des paquets."
-
-#: layouts/download/list.html:36
-msgid "Distributions"
-msgstr "Distributions"
-
-#: layouts/download/list.html:38
-msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
-msgstr "Vous pouvez trouver une liste plus complète sur {{ .s1 }}DistroWatch.com{{ .s2 }}."
-
-#: layouts/download/list.html:21
-msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
-msgstr "Chaque paquet dans Xfce peut avoir des versions stables ou en développement individuelles, y compris des paquets de base (comme décrit dans le {{ .s1 }}modèle de publication{{ .s2 }}). Vous pouvez suivre les annonces des versions sur la {{ .s3 }}liste de diffusion des utilisateurs de Xfce{{ .s4 }}, regarder le {{ .s5 }}flux des versions{{ .s6 }} ou suivre le {{ .s7 }}compte Mastodon{{ .s8 }} ou le {{ .s9 }}compte Twitter{{ .s10 }} de Xfce."
-
-#: layouts/download/list.html:20
-msgid "Individual releases"
-msgstr "Publications individuelles"
-
-#: layouts/download/list.html:10
-msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
-msgstr "La plupart des distributions sont livrées avec Xfce dans leur propre format d’emballage, mais si vous voulez une version plus récente ou si vous voulez construire Xfce à partir de zéro, vous pouvez trouver les packages ci-dessous. {{ .s1 }}Comment compiler Xfce{{ .s2 }}."
-
-#: layouts/download/list.html:29
-msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
-msgstr "Xfce {{ .s1 }} est la dernière version de développement de l’environnement de bureau Xfce. Cette version ne doit pas être utilisée dans un environnement de production. Si vous n’êtes pas sûr de télécharger cette version, vous devriez probablement utiliser la {{ .s2 }}version stable{{ .s3 }} ci-dessus. {{ .s4 }}Changements dans cette version{{ .s5 }}."
-
-#: layouts/download/list.html:28
-msgid "Preview release {{ .s1 }}"
-msgstr "Préversion {{ .s1 }}"
-
-#: layouts/download/list.html:14
-msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
-msgstr "Xfce {{ .s1 }} est la version la plus récente de l’environnement de bureau Xfce. {{ .s2 }}Changements dans cette version{{ .s3 }}."
-
-#: layouts/download/list.html:12
-msgid "Stable release {{ .s1 }}"
-msgstr "Version stable {{ .s1 }}"
-
 #: layouts/partials/footer.html:8
 msgid "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. This page was last modified on {{ .s4 }}."
 msgstr "Copyright {{ .s1 }} {{ .s2 }}Équipe de développement Xfce{{ .s3 }}. Dernière modification de cette page effectuée le {{ .s4 }}."
@@ -289,10 +236,6 @@ msgstr "Lire les notes de version complètes"
 #: layouts/index.html:36
 msgid "get the source tarballs"
 msgstr "obtenir les fichiers sources"
-
-#: layouts/index.html:32
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Xfce est un environnement de bureau léger pour les systèmes d’exploitation de type UNIX. Il vise à être rapide, peu gourmand en ressources système, tout en étant visuellement attrayant et convivial."
 
 #: layouts/index.html:77
 msgid "Xfce Release Updates"
@@ -405,10 +348,6 @@ msgstr "Composants de base"
 #: layouts/projects/list.html:160
 msgid "online documentation for the core modules of Xfce"
 msgstr "documentation en ligne pour les modules de base de Xfce"
-
-#: layouts/projects/list.html:5
-msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
-msgstr "Le projet Xfce contient plusieurs projets séparés pour chaque partie du bureau. Certains projets disposent de leur propre page de projet pour fournir des informations supplémentaires."
 
 #: layouts/projects/list.html:76
 msgid "Xfce Libraries"
@@ -585,6 +524,51 @@ msgstr "découverte visuelle des nouvelles fonctionnalités des dernières versi
 #: layouts/about/screenshots.html:19
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr "Quelques captures d’écran de Xfce, classées par version."
+
+#~ msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
+#~ msgstr "Les notes de versions sont propres à chaque publication. Sélectionnez celle que vous souhaitez dans la liste ci-dessous pour en voir les changements."
+
+#~ msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
+#~ msgstr "{{ .s1 }}Téléchargez l’archive d’illustrations Xfce{{ .s2 }}. Elle contient des logos et des bannières de haute qualité. La copie du logo Xfce est soumise à la licence de copyright LGPL."
+
+#~ msgid "Artwork"
+#~ msgstr "Illustrations"
+
+#~ msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
+#~ msgstr "Beaucoup de distributions différentes fournissent des paquets Xfce. Des projets populaires construits autour de Xfce sont {{ .s1 }}Xubuntu{{ .s2 }}, le {{ .s3 }}Spin Fedora Xfce{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} et {{ .s7 }}Zenwalk{{ .s8 }}, mais il y a de grandes chances que votre distribution favorite fournisse également des paquets."
+
+#~ msgid "Distributions"
+#~ msgstr "Distributions"
+
+#~ msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
+#~ msgstr "Vous pouvez trouver une liste plus complète sur {{ .s1 }}DistroWatch.com{{ .s2 }}."
+
+#~ msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
+#~ msgstr "Chaque paquet dans Xfce peut avoir des versions stables ou en développement individuelles, y compris des paquets de base (comme décrit dans le {{ .s1 }}modèle de publication{{ .s2 }}). Vous pouvez suivre les annonces des versions sur la {{ .s3 }}liste de diffusion des utilisateurs de Xfce{{ .s4 }}, regarder le {{ .s5 }}flux des versions{{ .s6 }} ou suivre le {{ .s7 }}compte Mastodon{{ .s8 }} ou le {{ .s9 }}compte Twitter{{ .s10 }} de Xfce."
+
+#~ msgid "Individual releases"
+#~ msgstr "Publications individuelles"
+
+#~ msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
+#~ msgstr "La plupart des distributions sont livrées avec Xfce dans leur propre format d’emballage, mais si vous voulez une version plus récente ou si vous voulez construire Xfce à partir de zéro, vous pouvez trouver les packages ci-dessous. {{ .s1 }}Comment compiler Xfce{{ .s2 }}."
+
+#~ msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
+#~ msgstr "Xfce {{ .s1 }} est la dernière version de développement de l’environnement de bureau Xfce. Cette version ne doit pas être utilisée dans un environnement de production. Si vous n’êtes pas sûr de télécharger cette version, vous devriez probablement utiliser la {{ .s2 }}version stable{{ .s3 }} ci-dessus. {{ .s4 }}Changements dans cette version{{ .s5 }}."
+
+#~ msgid "Preview release {{ .s1 }}"
+#~ msgstr "Préversion {{ .s1 }}"
+
+#~ msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
+#~ msgstr "Xfce {{ .s1 }} est la version la plus récente de l’environnement de bureau Xfce. {{ .s2 }}Changements dans cette version{{ .s3 }}."
+
+#~ msgid "Stable release {{ .s1 }}"
+#~ msgstr "Version stable {{ .s1 }}"
+
+#~ msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+#~ msgstr "Xfce est un environnement de bureau léger pour les systèmes d’exploitation de type UNIX. Il vise à être rapide, peu gourmand en ressources système, tout en étant visuellement attrayant et convivial."
+
+#~ msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+#~ msgstr "Le projet Xfce contient plusieurs projets séparés pour chaque partie du bureau. Certains projets disposent de leur propre page de projet pour fournir des informations supplémentaires."
 
 #~ msgid "Xfce 4.0"
 #~ msgstr "Xfce 4.0"

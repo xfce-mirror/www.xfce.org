@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 15:48+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2012,2015,2021-2026\n"
 "Language-Team: Korean (http://app.transifex.com/xfce/xfce-www/language/ko/)\n"
@@ -13,17 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: layouts/download/changelogs/list.html:3
-msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
-msgstr "Xfce 릴리즈 노트는 제각기 버전에 따릅니다. 릴리즈의 바뀐 내용을 보시려면 아래 목록에서 여러분의 버전을 선택하십시오."
-
 #: layouts/download/changelogs/list.html:40
-#: layouts/download/changelogs/single.html:19 layouts/download/list.html:57
+#: layouts/download/changelogs/single.html:19 layouts/download/list.html:19
 msgid "Archive"
 msgstr "저장소"
 
 #: layouts/download/changelogs/list.html:41
-#: layouts/download/changelogs/single.html:20 layouts/download/list.html:58
+#: layouts/download/changelogs/single.html:20 layouts/download/list.html:20
 msgid "the Xfce download archive"
 msgstr "Xfce 다운로드 저장소"
 
@@ -32,23 +28,23 @@ msgid "report problems, patches or ideas to help making Xfce better"
 msgstr "더 나은 Xfce를 만드는데 도움이 될 문제사항, 패치, 의견을 보내주세요"
 
 #: layouts/download/changelogs/list.html:45
-#: layouts/download/changelogs/single.html:24 layouts/download/list.html:62
+#: layouts/download/changelogs/single.html:24 layouts/download/list.html:24
 msgid "Building"
 msgstr "빌드하기"
 
 #: layouts/download/changelogs/list.html:46
-#: layouts/download/changelogs/single.html:25 layouts/download/list.html:63
+#: layouts/download/changelogs/single.html:25 layouts/download/list.html:25
 msgid "documentation on building Xfce from source"
 msgstr "소스로부터 Xfce 빌드하기 문서"
 
 #: layouts/download/changelogs/list.html:2
 #: layouts/download/changelogs/list.html:32
-#: layouts/download/changelogs/single.html:11 layouts/download/list.html:49
+#: layouts/download/changelogs/single.html:11 layouts/download/list.html:11
 msgid "Changelogs"
 msgstr "ChangeLog"
 
 #: layouts/download/changelogs/list.html:33
-#: layouts/download/changelogs/single.html:12 layouts/download/list.html:50
+#: layouts/download/changelogs/single.html:12 layouts/download/list.html:12
 msgid "release notes of each Xfce release"
 msgstr "각각의 Xfce 릴리즈에 대한 릴리즈 노트"
 
@@ -60,18 +56,17 @@ msgstr "제작자"
 msgid "Docs"
 msgstr "문서"
 
-#: layouts/download/list.html:8 layouts/index.html:35
-#: layouts/partials/mainnav.html:8
+#: layouts/index.html:35 layouts/partials/mainnav.html:8
 msgid "Download"
 msgstr "다운로드"
 
 #: layouts/download/changelogs/list.html:50
-#: layouts/download/changelogs/single.html:29 layouts/download/list.html:67
+#: layouts/download/changelogs/single.html:29 layouts/download/list.html:29
 msgid "Git"
 msgstr "깃"
 
 #: layouts/download/changelogs/list.html:51
-#: layouts/download/changelogs/single.html:30 layouts/download/list.html:68
+#: layouts/download/changelogs/single.html:30 layouts/download/list.html:30
 msgid "browse the source repositories"
 msgstr "소스 저장소 탐색"
 
@@ -97,13 +92,13 @@ msgid "Projects"
 msgstr "프로젝트"
 
 #: layouts/_default/baseof.html:21 layouts/download/changelogs/list.html:29
-#: layouts/download/changelogs/single.html:8 layouts/download/list.html:46
+#: layouts/download/changelogs/single.html:8 layouts/download/list.html:8
 #: layouts/getinvolved/list.html:7 layouts/partials/about-related.html:3
 msgid "Related Pages"
 msgstr "관련 페이지"
 
 #: layouts/community/list.html:7 layouts/download/changelogs/list.html:37
-#: layouts/download/changelogs/single.html:16 layouts/download/list.html:54
+#: layouts/download/changelogs/single.html:16 layouts/download/list.html:16
 #: layouts/getinvolved/list.html:15 layouts/projects/list.html:156
 msgid "Related Sites"
 msgstr "관련 사이트"
@@ -194,54 +189,6 @@ msgstr "번역 총괄"
 msgid "Our beloved translators"
 msgstr "소중한 번역자 여러분"
 
-#: layouts/download/list.html:41
-msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
-msgstr "{{ .s1 }}xfce 아트웍 타르볼을 다운로드합니다{{ .s2 }}. 고화질 로고와 배너가 들어있습니다. xfce 로고의 복제는 LGPL 저작권 라이선스를 따릅니다."
-
-#: layouts/download/list.html:40
-msgid "Artwork"
-msgstr "아트"
-
-#: layouts/download/list.html:37
-msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
-msgstr "제각기 수많은 배포판은 Xfce 패키지를 제공합니다. Xfce를 기반으로 빌드한 잘 알려진 예로는 {{ .s1 }}주분투{{ .s2 }}, {{ .s3 }}페도라 Xfce 스핀{{ .s4 }}, {{ .s5 }}만자로{{ .s6 }}, {{ .s7 }}젠워크{{ .s8 }}가 있는데, 이것 말고도 여러분이 좋아하는 배포판에서 패키지처럼 제공해 줄 가능성도 있습니다."
-
-#: layouts/download/list.html:36
-msgid "Distributions"
-msgstr "배포판"
-
-#: layouts/download/list.html:38
-msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
-msgstr "{{ .s1 }}DistroWatch.com{{ .s2 }} 에서 좀 더 완전한 목록을 찾을 수 있습니다.."
-
-#: layouts/download/list.html:21
-msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
-msgstr "Xfce 각각의 패키지는 개별 안정화 또는 ({{ .s1 }}릴리즈 모델{{ .s2 }}에서 설명한 것과 같은) 핵심 패키지가 들어간 개발 릴리즈로 만들 수 있습니다. {{ .s3 }}Xfce 사용자 메일링 리스트{{ .s4 }}의 릴리즈 알림을 보시거나 {{ .s5 }}릴리즈 피드{{ .s6 }}를 관찰하거나, Xfce {{ .s7 }}마스토돈{{ .s8 }} 또는 {{ .s9 }}트위터 계정{{ .s10 }}을 구독해볼 수 있습니다."
-
-#: layouts/download/list.html:20
-msgid "Individual releases"
-msgstr "개별 릴리즈"
-
-#: layouts/download/list.html:10
-msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
-msgstr "대부분 xfce를 올려주는 배포판에서는 자체 꾸러미 형식이 있지만, 새 버전을 받고 싶거나 xfce를 바닥부터 빌드할 경우, 아래에서 꾸러미를 찾아볼 수 있습니다. {{ .s1 }}xfce 컴파일 방법은 이와 같습니다{{ .s2 }}."
-
-#: layouts/download/list.html:29
-msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
-msgstr "xfce {{ .s1 }}은(는) xfce 데스크톱 환경 최신 개발 릴리스입니다. 이 릴리스는 실제 활용 환경에서 사용하면 안됩니다. 이 릴리스 다운로드에 확신이 안선다면, 위 {{ .s2 }}안정 릴리스{{ .s3 }}를 사용하셔야 합니다. {{ .s4 }}이 릴리스에서 바뀐 내용은 이와 같습니다{{ .s5 }}."
-
-#: layouts/download/list.html:28
-msgid "Preview release {{ .s1 }}"
-msgstr "이전 릴리즈 {{ .s1 }}"
-
-#: layouts/download/list.html:14
-msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
-msgstr "Xfce {{ .s1 }}는 Xfce 데스크톱 환경의 최신 버전입니다. {{ .s2 }}이번 릴리스의 변경 사항{{ .s3 }}을 확인하십시오."
-
-#: layouts/download/list.html:12
-msgid "Stable release {{ .s1 }}"
-msgstr "안정 릴리즈 {{ .s1 }}"
-
 #: layouts/partials/footer.html:8
 msgid "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. This page was last modified on {{ .s4 }}."
 msgstr "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. 이 페이지는 {{ .s4 }}에 마지막으로 수정했습니다."
@@ -289,10 +236,6 @@ msgstr "전체 릴리스 노트 읽기"
 #: layouts/index.html:36
 msgid "get the source tarballs"
 msgstr "소스 타르볼을 얻습니다"
-
-#: layouts/index.html:32
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Xfce는 UNIX 계열 운영체제를 위한 가벼운 데스크톱 환경입니다. 시각적인 매력을 끌고 사용자에게 친숙하면서도 빠른 속도를 지니고 적은 시스템 자원을 차지하는 것을 목표로 하였습니다."
 
 #: layouts/index.html:77
 msgid "Xfce Release Updates"
@@ -405,10 +348,6 @@ msgstr "핵심 구성요소"
 #: layouts/projects/list.html:160
 msgid "online documentation for the core modules of Xfce"
 msgstr "Xfce 핵심 모듈에 대한 온라인 문서"
-
-#: layouts/projects/list.html:5
-msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
-msgstr "Xfce 프로젝트는 데스크톱의 각 부분에 대한 제각각의 수많은 프로젝트를 포함합니다. 모든 프로젝트는 부가정보를 제공는 해당 프로젝트의 페이지를 제공합니다."
 
 #: layouts/projects/list.html:76
 msgid "Xfce Libraries"
@@ -585,6 +524,51 @@ msgstr "최근 주 릴리즈의 새 기능을 눈으로 살펴봅니다"
 #: layouts/about/screenshots.html:19
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr "버전순 Xfce 스크린샷들 입니다."
+
+#~ msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
+#~ msgstr "Xfce 릴리즈 노트는 제각기 버전에 따릅니다. 릴리즈의 바뀐 내용을 보시려면 아래 목록에서 여러분의 버전을 선택하십시오."
+
+#~ msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
+#~ msgstr "{{ .s1 }}xfce 아트웍 타르볼을 다운로드합니다{{ .s2 }}. 고화질 로고와 배너가 들어있습니다. xfce 로고의 복제는 LGPL 저작권 라이선스를 따릅니다."
+
+#~ msgid "Artwork"
+#~ msgstr "아트"
+
+#~ msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
+#~ msgstr "제각기 수많은 배포판은 Xfce 패키지를 제공합니다. Xfce를 기반으로 빌드한 잘 알려진 예로는 {{ .s1 }}주분투{{ .s2 }}, {{ .s3 }}페도라 Xfce 스핀{{ .s4 }}, {{ .s5 }}만자로{{ .s6 }}, {{ .s7 }}젠워크{{ .s8 }}가 있는데, 이것 말고도 여러분이 좋아하는 배포판에서 패키지처럼 제공해 줄 가능성도 있습니다."
+
+#~ msgid "Distributions"
+#~ msgstr "배포판"
+
+#~ msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
+#~ msgstr "{{ .s1 }}DistroWatch.com{{ .s2 }} 에서 좀 더 완전한 목록을 찾을 수 있습니다.."
+
+#~ msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
+#~ msgstr "Xfce 각각의 패키지는 개별 안정화 또는 ({{ .s1 }}릴리즈 모델{{ .s2 }}에서 설명한 것과 같은) 핵심 패키지가 들어간 개발 릴리즈로 만들 수 있습니다. {{ .s3 }}Xfce 사용자 메일링 리스트{{ .s4 }}의 릴리즈 알림을 보시거나 {{ .s5 }}릴리즈 피드{{ .s6 }}를 관찰하거나, Xfce {{ .s7 }}마스토돈{{ .s8 }} 또는 {{ .s9 }}트위터 계정{{ .s10 }}을 구독해볼 수 있습니다."
+
+#~ msgid "Individual releases"
+#~ msgstr "개별 릴리즈"
+
+#~ msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
+#~ msgstr "대부분 xfce를 올려주는 배포판에서는 자체 꾸러미 형식이 있지만, 새 버전을 받고 싶거나 xfce를 바닥부터 빌드할 경우, 아래에서 꾸러미를 찾아볼 수 있습니다. {{ .s1 }}xfce 컴파일 방법은 이와 같습니다{{ .s2 }}."
+
+#~ msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
+#~ msgstr "xfce {{ .s1 }}은(는) xfce 데스크톱 환경 최신 개발 릴리스입니다. 이 릴리스는 실제 활용 환경에서 사용하면 안됩니다. 이 릴리스 다운로드에 확신이 안선다면, 위 {{ .s2 }}안정 릴리스{{ .s3 }}를 사용하셔야 합니다. {{ .s4 }}이 릴리스에서 바뀐 내용은 이와 같습니다{{ .s5 }}."
+
+#~ msgid "Preview release {{ .s1 }}"
+#~ msgstr "이전 릴리즈 {{ .s1 }}"
+
+#~ msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
+#~ msgstr "Xfce {{ .s1 }}는 Xfce 데스크톱 환경의 최신 버전입니다. {{ .s2 }}이번 릴리스의 변경 사항{{ .s3 }}을 확인하십시오."
+
+#~ msgid "Stable release {{ .s1 }}"
+#~ msgstr "안정 릴리즈 {{ .s1 }}"
+
+#~ msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+#~ msgstr "Xfce는 UNIX 계열 운영체제를 위한 가벼운 데스크톱 환경입니다. 시각적인 매력을 끌고 사용자에게 친숙하면서도 빠른 속도를 지니고 적은 시스템 자원을 차지하는 것을 목표로 하였습니다."
+
+#~ msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+#~ msgstr "Xfce 프로젝트는 데스크톱의 각 부분에 대한 제각각의 수많은 프로젝트를 포함합니다. 모든 프로젝트는 부가정보를 제공는 해당 프로젝트의 페이지를 제공합니다."
 
 #~ msgid "Xfce 4.0"
 #~ msgstr "Xfce 4.0"

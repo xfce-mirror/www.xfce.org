@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 15:48+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Robert Huszar, 2022\n"
 "Language-Team: Hungarian (http://app.transifex.com/xfce/xfce-www/language/hu/)\n"
@@ -13,17 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: layouts/download/changelogs/list.html:3
-msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
-msgstr "Az Xfce kiadási megjegyzések az egyes verziókhoz tartoznak. Válassza ki az Ön verzióját a lenti listából az adott kiadás változásainak megjelenítéséhez."
-
 #: layouts/download/changelogs/list.html:40
-#: layouts/download/changelogs/single.html:19 layouts/download/list.html:57
+#: layouts/download/changelogs/single.html:19 layouts/download/list.html:19
 msgid "Archive"
 msgstr "Archívum"
 
 #: layouts/download/changelogs/list.html:41
-#: layouts/download/changelogs/single.html:20 layouts/download/list.html:58
+#: layouts/download/changelogs/single.html:20 layouts/download/list.html:20
 msgid "the Xfce download archive"
 msgstr "Xfce letöltési archívum"
 
@@ -32,23 +28,23 @@ msgid "report problems, patches or ideas to help making Xfce better"
 msgstr "jelentse be a problémákat, küldjön javításokat és ötleteket az Xfce tökéletesítéséhez"
 
 #: layouts/download/changelogs/list.html:45
-#: layouts/download/changelogs/single.html:24 layouts/download/list.html:62
+#: layouts/download/changelogs/single.html:24 layouts/download/list.html:24
 msgid "Building"
 msgstr "Felépítés"
 
 #: layouts/download/changelogs/list.html:46
-#: layouts/download/changelogs/single.html:25 layouts/download/list.html:63
+#: layouts/download/changelogs/single.html:25 layouts/download/list.html:25
 msgid "documentation on building Xfce from source"
 msgstr "dokumentáció az Xfce forrásból történő felépítéséhez"
 
 #: layouts/download/changelogs/list.html:2
 #: layouts/download/changelogs/list.html:32
-#: layouts/download/changelogs/single.html:11 layouts/download/list.html:49
+#: layouts/download/changelogs/single.html:11 layouts/download/list.html:11
 msgid "Changelogs"
 msgstr "Módosítási naplók"
 
 #: layouts/download/changelogs/list.html:33
-#: layouts/download/changelogs/single.html:12 layouts/download/list.html:50
+#: layouts/download/changelogs/single.html:12 layouts/download/list.html:12
 msgid "release notes of each Xfce release"
 msgstr "az egyes Xfce kiadások kiadási megjegyzései"
 
@@ -60,18 +56,17 @@ msgstr "Köszönet"
 msgid "Docs"
 msgstr "Dokumentáció"
 
-#: layouts/download/list.html:8 layouts/index.html:35
-#: layouts/partials/mainnav.html:8
+#: layouts/index.html:35 layouts/partials/mainnav.html:8
 msgid "Download"
 msgstr "Letöltés"
 
 #: layouts/download/changelogs/list.html:50
-#: layouts/download/changelogs/single.html:29 layouts/download/list.html:67
+#: layouts/download/changelogs/single.html:29 layouts/download/list.html:29
 msgid "Git"
 msgstr ""
 
 #: layouts/download/changelogs/list.html:51
-#: layouts/download/changelogs/single.html:30 layouts/download/list.html:68
+#: layouts/download/changelogs/single.html:30 layouts/download/list.html:30
 msgid "browse the source repositories"
 msgstr "forrástárolók böngészése"
 
@@ -97,13 +92,13 @@ msgid "Projects"
 msgstr "Projektek"
 
 #: layouts/_default/baseof.html:21 layouts/download/changelogs/list.html:29
-#: layouts/download/changelogs/single.html:8 layouts/download/list.html:46
+#: layouts/download/changelogs/single.html:8 layouts/download/list.html:8
 #: layouts/getinvolved/list.html:7 layouts/partials/about-related.html:3
 msgid "Related Pages"
 msgstr "Kapcsolódó oldalak"
 
 #: layouts/community/list.html:7 layouts/download/changelogs/list.html:37
-#: layouts/download/changelogs/single.html:16 layouts/download/list.html:54
+#: layouts/download/changelogs/single.html:16 layouts/download/list.html:16
 #: layouts/getinvolved/list.html:15 layouts/projects/list.html:156
 msgid "Related Sites"
 msgstr "Kapcsolódó weboldalak"
@@ -194,54 +189,6 @@ msgstr "Fordítások felügyelete"
 msgid "Our beloved translators"
 msgstr ""
 
-#: layouts/download/list.html:41
-msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
-msgstr ""
-
-#: layouts/download/list.html:40
-msgid "Artwork"
-msgstr "Grafikák"
-
-#: layouts/download/list.html:37
-msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
-msgstr ""
-
-#: layouts/download/list.html:36
-msgid "Distributions"
-msgstr "Disztribúciók"
-
-#: layouts/download/list.html:38
-msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
-msgstr ""
-
-#: layouts/download/list.html:21
-msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
-msgstr ""
-
-#: layouts/download/list.html:20
-msgid "Individual releases"
-msgstr "Egyedi kiadások"
-
-#: layouts/download/list.html:10
-msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
-msgstr ""
-
-#: layouts/download/list.html:29
-msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
-msgstr ""
-
-#: layouts/download/list.html:28
-msgid "Preview release {{ .s1 }}"
-msgstr "Előzetes kiadás: {{ .s1 }}"
-
-#: layouts/download/list.html:14
-msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
-msgstr ""
-
-#: layouts/download/list.html:12
-msgid "Stable release {{ .s1 }}"
-msgstr "Stabil kiadás: {{ .s1 }}"
-
 #: layouts/partials/footer.html:8
 msgid "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. This page was last modified on {{ .s4 }}."
 msgstr "Copyright {{ .s1 }} {{ .s2 }}Xfce fejlesztőcsapat{{ .s3 }}. Az oldal utolsó módosításának dátuma: {{ .s4 }}."
@@ -289,10 +236,6 @@ msgstr ""
 #: layouts/index.html:36
 msgid "get the source tarballs"
 msgstr "a forrás tarballok letöltése"
-
-#: layouts/index.html:32
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Az Xfce egy könnyűsúlyú asztali környezet UNIX-szerű operációs rendszerekhez. Célja, hogy gyors, tetszetős és felhasználóbarát legyen, miközben takarékosan bánjon a rendszer-erőforrásokkal."
 
 #: layouts/index.html:77
 msgid "Xfce Release Updates"
@@ -405,10 +348,6 @@ msgstr "Központi elemek"
 #: layouts/projects/list.html:160
 msgid "online documentation for the core modules of Xfce"
 msgstr "online dokumentáció az Xfce központi moduljaihoz"
-
-#: layouts/projects/list.html:5
-msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
-msgstr "Az Xfce projekt több különböző projektet tartalmaz az asztal minden egyes részéhez. Egyes projekteknek saját projektoldaluk van, amelyek további információkat nyújtanak."
 
 #: layouts/projects/list.html:76
 msgid "Xfce Libraries"
@@ -586,6 +525,30 @@ msgstr ""
 #: layouts/about/screenshots.html:19
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr "Néhány Xfce képernyőkép, verzió szerinti sorrendben"
+
+#~ msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
+#~ msgstr "Az Xfce kiadási megjegyzések az egyes verziókhoz tartoznak. Válassza ki az Ön verzióját a lenti listából az adott kiadás változásainak megjelenítéséhez."
+
+#~ msgid "Artwork"
+#~ msgstr "Grafikák"
+
+#~ msgid "Distributions"
+#~ msgstr "Disztribúciók"
+
+#~ msgid "Individual releases"
+#~ msgstr "Egyedi kiadások"
+
+#~ msgid "Preview release {{ .s1 }}"
+#~ msgstr "Előzetes kiadás: {{ .s1 }}"
+
+#~ msgid "Stable release {{ .s1 }}"
+#~ msgstr "Stabil kiadás: {{ .s1 }}"
+
+#~ msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+#~ msgstr "Az Xfce egy könnyűsúlyú asztali környezet UNIX-szerű operációs rendszerekhez. Célja, hogy gyors, tetszetős és felhasználóbarát legyen, miközben takarékosan bánjon a rendszer-erőforrásokkal."
+
+#~ msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+#~ msgstr "Az Xfce projekt több különböző projektet tartalmaz az asztal minden egyes részéhez. Egyes projekteknek saját projektoldaluk van, amelyek további információkat nyújtanak."
 
 #~ msgid "Xfce 4.0"
 #~ msgstr "Xfce 4.0"

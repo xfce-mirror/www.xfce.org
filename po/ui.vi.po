@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 15:48+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Loc Huynh <https://github.com/hthienloc>, 2025\n"
 "Language-Team: Vietnamese (http://app.transifex.com/xfce/xfce-www/language/vi/)\n"
@@ -13,17 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: layouts/download/changelogs/list.html:3
-msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
-msgstr "Ghi chú phát hành Xfce dành riêng cho từng phiên bản. Chọn phiên bản của bạn từ danh sách bên dưới để xem những thay đổi trong bản phát hành. "
-
 #: layouts/download/changelogs/list.html:40
-#: layouts/download/changelogs/single.html:19 layouts/download/list.html:57
+#: layouts/download/changelogs/single.html:19 layouts/download/list.html:19
 msgid "Archive"
 msgstr "Lưu trữ"
 
 #: layouts/download/changelogs/list.html:41
-#: layouts/download/changelogs/single.html:20 layouts/download/list.html:58
+#: layouts/download/changelogs/single.html:20 layouts/download/list.html:20
 msgid "the Xfce download archive"
 msgstr "kho lưu trữ tải xuống Xfce"
 
@@ -32,23 +28,23 @@ msgid "report problems, patches or ideas to help making Xfce better"
 msgstr "báo cáo sự cố, bản vá hoặc ý tưởng để giúp Xfce tốt hơn"
 
 #: layouts/download/changelogs/list.html:45
-#: layouts/download/changelogs/single.html:24 layouts/download/list.html:62
+#: layouts/download/changelogs/single.html:24 layouts/download/list.html:24
 msgid "Building"
 msgstr "Xây dựng"
 
 #: layouts/download/changelogs/list.html:46
-#: layouts/download/changelogs/single.html:25 layouts/download/list.html:63
+#: layouts/download/changelogs/single.html:25 layouts/download/list.html:25
 msgid "documentation on building Xfce from source"
 msgstr "tài liệu về xây dựng Xfce từ nguồn"
 
 #: layouts/download/changelogs/list.html:2
 #: layouts/download/changelogs/list.html:32
-#: layouts/download/changelogs/single.html:11 layouts/download/list.html:49
+#: layouts/download/changelogs/single.html:11 layouts/download/list.html:11
 msgid "Changelogs"
 msgstr "Nhật ký thay đổi"
 
 #: layouts/download/changelogs/list.html:33
-#: layouts/download/changelogs/single.html:12 layouts/download/list.html:50
+#: layouts/download/changelogs/single.html:12 layouts/download/list.html:12
 msgid "release notes of each Xfce release"
 msgstr "ghi chú phát hành của mỗi bản phát hành Xfce"
 
@@ -60,18 +56,17 @@ msgstr "Tín dụng"
 msgid "Docs"
 msgstr "Tài liệu"
 
-#: layouts/download/list.html:8 layouts/index.html:35
-#: layouts/partials/mainnav.html:8
+#: layouts/index.html:35 layouts/partials/mainnav.html:8
 msgid "Download"
 msgstr "Tải xuống"
 
 #: layouts/download/changelogs/list.html:50
-#: layouts/download/changelogs/single.html:29 layouts/download/list.html:67
+#: layouts/download/changelogs/single.html:29 layouts/download/list.html:29
 msgid "Git"
 msgstr "Git"
 
 #: layouts/download/changelogs/list.html:51
-#: layouts/download/changelogs/single.html:30 layouts/download/list.html:68
+#: layouts/download/changelogs/single.html:30 layouts/download/list.html:30
 msgid "browse the source repositories"
 msgstr "duyệt các kho nguồn"
 
@@ -97,13 +92,13 @@ msgid "Projects"
 msgstr "Dự án"
 
 #: layouts/_default/baseof.html:21 layouts/download/changelogs/list.html:29
-#: layouts/download/changelogs/single.html:8 layouts/download/list.html:46
+#: layouts/download/changelogs/single.html:8 layouts/download/list.html:8
 #: layouts/getinvolved/list.html:7 layouts/partials/about-related.html:3
 msgid "Related Pages"
 msgstr "Trang liên quan"
 
 #: layouts/community/list.html:7 layouts/download/changelogs/list.html:37
-#: layouts/download/changelogs/single.html:16 layouts/download/list.html:54
+#: layouts/download/changelogs/single.html:16 layouts/download/list.html:16
 #: layouts/getinvolved/list.html:15 layouts/projects/list.html:156
 msgid "Related Sites"
 msgstr "Trang web liên quan"
@@ -194,54 +189,6 @@ msgstr "Giám sát dịch thuật"
 msgid "Our beloved translators"
 msgstr "Các dịch giả yêu quý của chúng tôi"
 
-#: layouts/download/list.html:41
-msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
-msgstr "{{ .s1 }}Tải xuống tarball tác phẩm nghệ thuật Xfce .{{ .s2 }}. Nó chứa một số logo và banner chất lượng cao. Việc sao chép logo Xfce phải tuân theo giấy phép bản quyền LGPL."
-
-#: layouts/download/list.html:40
-msgid "Artwork"
-msgstr "Tác phẩm nghệ thuật"
-
-#: layouts/download/list.html:37
-msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
-msgstr "Rất nhiều bản phân phối khác nhau cung cấp gói Xfce. Các ví dụ phổ biến được xây dựng xung quanh Xfce là {{ .s1 }}Xubuntu{{ .s2 }}, {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} hoặc {{ .s7 }}Zenwalk{{ .s8 }}, nhưng rất có thể bản phân phối yêu thích của bạn cũng cung cấp các gói."
-
-#: layouts/download/list.html:36
-msgid "Distributions"
-msgstr "Phân phối"
-
-#: layouts/download/list.html:38
-msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
-msgstr "Bạn có thể tìm thấy danh sách đầy đủ hơn tại {{ .s1 }}DistroWatch.com{{ .s2 }}."
-
-#: layouts/download/list.html:21
-msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
-msgstr "Mỗi gói trong Xfce có thể tạo ra các bản phát hành phát triển hoặc ổn định riêng lẻ, bao gồm các gói cốt lõi (như được mô tả trong {{ .s1 }}mô hình phát hành{{ .s2 }}). Bạn có thể theo dõi thông báo về các bản phát hành trên {{ .s3 }}danh sách gửi thư của người dùng Xfce{{ .s4 }}, xem {{ .s5 }}nguồn cấp dữ liệu phát hành{{ .s6 }} hoặc theo dõi {{ .s7 }}Mastodon{{ .s8 }} hoặc {{ .s9 }}tài khoản Twitter{{ .s10 }} của Xfce."
-
-#: layouts/download/list.html:20
-msgid "Individual releases"
-msgstr "Bản phát hành riêng lẻ"
-
-#: layouts/download/list.html:10
-msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
-msgstr "Hầu hết các bản phân phối đều đi kèm Xfce ở định dạng đóng gói riêng, nhưng nếu bạn muốn có phiên bản mới hơn hoặc muốn xây dựng Xfce từ đầu, bạn có thể tìm thấy các gói bên dưới. {{ .s1 }}Cách biên dịch Xfce{{ .s2 }}."
-
-#: layouts/download/list.html:29
-msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
-msgstr "Xfce {{ .s1 }} là bản phát triển mới nhất của môi trường máy tính để bàn Xfce. Bản phát hành này không nên được sử dụng trong môi trường sản xuất. Nếu bạn không chắc chắn về việc tải xuống bản phát hành này, có lẽ bạn nên sử dụng {{ .s2 }}bản phát hành ổn định{{ .s3 }} ở trên. {{ .s4 }}Những thay đổi trong bản phát hành này{{ .s5 }}."
-
-#: layouts/download/list.html:28
-msgid "Preview release {{ .s1 }}"
-msgstr "Bản phát hành xem trước {{ .s1 }}"
-
-#: layouts/download/list.html:14
-msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
-msgstr "Xfce {{ .s1 }} là phiên bản mới nhất của môi trường máy tính để bàn Xfce. {{ .s2 }}Những thay đổi trong bản phát hành này{{ .s3 }}."
-
-#: layouts/download/list.html:12
-msgid "Stable release {{ .s1 }}"
-msgstr "Phát hành ổn định {{ .s1 }}"
-
 #: layouts/partials/footer.html:8
 msgid "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. This page was last modified on {{ .s4 }}."
 msgstr "Bản quyền {{ .s1 }} {{ .s2 }}Nhóm phát triển Xfce{{ .s3 }}. Trang này được sửa đổi lần cuối vào {{ .s4 }}."
@@ -289,10 +236,6 @@ msgstr "đọc ghi chú phát hành đầy đủ"
 #: layouts/index.html:36
 msgid "get the source tarballs"
 msgstr "lấy tarball nguồn"
-
-#: layouts/index.html:32
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Xfce là môi trường máy tính để bàn nhẹ dành cho các hệ điều hành giống UNIX. Nó nhằm mục đích nhanh và ít tiêu tốn tài nguyên hệ thống, trong khi vẫn hấp dẫn về mặt trực quan và thân thiện với người dùng."
 
 #: layouts/index.html:77
 msgid "Xfce Release Updates"
@@ -405,10 +348,6 @@ msgstr "Thành phần cốt lõi"
 #: layouts/projects/list.html:160
 msgid "online documentation for the core modules of Xfce"
 msgstr "tài liệu trực tuyến về các mô-đun cốt lõi của Xfce"
-
-#: layouts/projects/list.html:5
-msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
-msgstr "Dự án Xfce chứa một số dự án riêng biệt cho từng phần của màn hình. Một số dự án có trang dự án riêng để cung cấp thêm thông tin."
 
 #: layouts/projects/list.html:76
 msgid "Xfce Libraries"
@@ -585,6 +524,51 @@ msgstr "chuyến tham quan trực quan về các tính năng mới trong một s
 #: layouts/about/screenshots.html:19
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr "Một số ảnh chụp màn hình của Xfce, sắp xếp theo phiên bản."
+
+#~ msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
+#~ msgstr "Ghi chú phát hành Xfce dành riêng cho từng phiên bản. Chọn phiên bản của bạn từ danh sách bên dưới để xem những thay đổi trong bản phát hành. "
+
+#~ msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
+#~ msgstr "{{ .s1 }}Tải xuống tarball tác phẩm nghệ thuật Xfce .{{ .s2 }}. Nó chứa một số logo và banner chất lượng cao. Việc sao chép logo Xfce phải tuân theo giấy phép bản quyền LGPL."
+
+#~ msgid "Artwork"
+#~ msgstr "Tác phẩm nghệ thuật"
+
+#~ msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
+#~ msgstr "Rất nhiều bản phân phối khác nhau cung cấp gói Xfce. Các ví dụ phổ biến được xây dựng xung quanh Xfce là {{ .s1 }}Xubuntu{{ .s2 }}, {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} hoặc {{ .s7 }}Zenwalk{{ .s8 }}, nhưng rất có thể bản phân phối yêu thích của bạn cũng cung cấp các gói."
+
+#~ msgid "Distributions"
+#~ msgstr "Phân phối"
+
+#~ msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
+#~ msgstr "Bạn có thể tìm thấy danh sách đầy đủ hơn tại {{ .s1 }}DistroWatch.com{{ .s2 }}."
+
+#~ msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
+#~ msgstr "Mỗi gói trong Xfce có thể tạo ra các bản phát hành phát triển hoặc ổn định riêng lẻ, bao gồm các gói cốt lõi (như được mô tả trong {{ .s1 }}mô hình phát hành{{ .s2 }}). Bạn có thể theo dõi thông báo về các bản phát hành trên {{ .s3 }}danh sách gửi thư của người dùng Xfce{{ .s4 }}, xem {{ .s5 }}nguồn cấp dữ liệu phát hành{{ .s6 }} hoặc theo dõi {{ .s7 }}Mastodon{{ .s8 }} hoặc {{ .s9 }}tài khoản Twitter{{ .s10 }} của Xfce."
+
+#~ msgid "Individual releases"
+#~ msgstr "Bản phát hành riêng lẻ"
+
+#~ msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
+#~ msgstr "Hầu hết các bản phân phối đều đi kèm Xfce ở định dạng đóng gói riêng, nhưng nếu bạn muốn có phiên bản mới hơn hoặc muốn xây dựng Xfce từ đầu, bạn có thể tìm thấy các gói bên dưới. {{ .s1 }}Cách biên dịch Xfce{{ .s2 }}."
+
+#~ msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
+#~ msgstr "Xfce {{ .s1 }} là bản phát triển mới nhất của môi trường máy tính để bàn Xfce. Bản phát hành này không nên được sử dụng trong môi trường sản xuất. Nếu bạn không chắc chắn về việc tải xuống bản phát hành này, có lẽ bạn nên sử dụng {{ .s2 }}bản phát hành ổn định{{ .s3 }} ở trên. {{ .s4 }}Những thay đổi trong bản phát hành này{{ .s5 }}."
+
+#~ msgid "Preview release {{ .s1 }}"
+#~ msgstr "Bản phát hành xem trước {{ .s1 }}"
+
+#~ msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
+#~ msgstr "Xfce {{ .s1 }} là phiên bản mới nhất của môi trường máy tính để bàn Xfce. {{ .s2 }}Những thay đổi trong bản phát hành này{{ .s3 }}."
+
+#~ msgid "Stable release {{ .s1 }}"
+#~ msgstr "Phát hành ổn định {{ .s1 }}"
+
+#~ msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+#~ msgstr "Xfce là môi trường máy tính để bàn nhẹ dành cho các hệ điều hành giống UNIX. Nó nhằm mục đích nhanh và ít tiêu tốn tài nguyên hệ thống, trong khi vẫn hấp dẫn về mặt trực quan và thân thiện với người dùng."
+
+#~ msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+#~ msgstr "Dự án Xfce chứa một số dự án riêng biệt cho từng phần của màn hình. Một số dự án có trang dự án riêng để cung cấp thêm thông tin."
 
 #~ msgid "Xfce 4.0"
 #~ msgstr "Xfce 4.0"

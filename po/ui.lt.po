@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Xfce Websites\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
-"POT-Creation-Date: 2026-08-24 15:48+0000\n"
+"POT-Creation-Date: 2026-08-24 19:56+0000\n"
 "PO-Revision-Date: 2013-07-04 19:27+0000\n"
 "Last-Translator: Moo, 2023-2024\n"
 "Language-Team: Lithuanian (http://app.transifex.com/xfce/xfce-www/language/lt/)\n"
@@ -13,17 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n % 10 == 1 && (n % 100 > 19 || n % 100 < 11) ? 0 : (n % 10 >= 2 && n % 10 <=9) && (n % 100 > 19 || n % 100 < 11) ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: layouts/download/changelogs/list.html:3
-msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
-msgstr "Xfce leidimo pastabos yra skirtos tik tai versijai. Norėdami pamatyti keitimus pasirinkite savo versiją, iš žemiau esančio sąrašo."
-
 #: layouts/download/changelogs/list.html:40
-#: layouts/download/changelogs/single.html:19 layouts/download/list.html:57
+#: layouts/download/changelogs/single.html:19 layouts/download/list.html:19
 msgid "Archive"
 msgstr "Archyvas"
 
 #: layouts/download/changelogs/list.html:41
-#: layouts/download/changelogs/single.html:20 layouts/download/list.html:58
+#: layouts/download/changelogs/single.html:20 layouts/download/list.html:20
 msgid "the Xfce download archive"
 msgstr "Xfce atsisiuntimų archyvas"
 
@@ -32,23 +28,23 @@ msgid "report problems, patches or ideas to help making Xfce better"
 msgstr "praneškite apie bėdas, pataisas ar mintis, kurios padės padaryti Xfce geresnę"
 
 #: layouts/download/changelogs/list.html:45
-#: layouts/download/changelogs/single.html:24 layouts/download/list.html:62
+#: layouts/download/changelogs/single.html:24 layouts/download/list.html:24
 msgid "Building"
 msgstr "Kūrimas"
 
 #: layouts/download/changelogs/list.html:46
-#: layouts/download/changelogs/single.html:25 layouts/download/list.html:63
+#: layouts/download/changelogs/single.html:25 layouts/download/list.html:25
 msgid "documentation on building Xfce from source"
 msgstr "dokumentacija apie tai kaip sukurti Xfce iš pradinio kodo"
 
 #: layouts/download/changelogs/list.html:2
 #: layouts/download/changelogs/list.html:32
-#: layouts/download/changelogs/single.html:11 layouts/download/list.html:49
+#: layouts/download/changelogs/single.html:11 layouts/download/list.html:11
 msgid "Changelogs"
 msgstr "Keitimų žurnalai"
 
 #: layouts/download/changelogs/list.html:33
-#: layouts/download/changelogs/single.html:12 layouts/download/list.html:50
+#: layouts/download/changelogs/single.html:12 layouts/download/list.html:12
 msgid "release notes of each Xfce release"
 msgstr "kiekvieno Xfce leidimo pranešimai"
 
@@ -60,18 +56,17 @@ msgstr "Padėkos"
 msgid "Docs"
 msgstr "Dokumentai"
 
-#: layouts/download/list.html:8 layouts/index.html:35
-#: layouts/partials/mainnav.html:8
+#: layouts/index.html:35 layouts/partials/mainnav.html:8
 msgid "Download"
 msgstr "Atsisiųsti"
 
 #: layouts/download/changelogs/list.html:50
-#: layouts/download/changelogs/single.html:29 layouts/download/list.html:67
+#: layouts/download/changelogs/single.html:29 layouts/download/list.html:29
 msgid "Git"
 msgstr "„Git“"
 
 #: layouts/download/changelogs/list.html:51
-#: layouts/download/changelogs/single.html:30 layouts/download/list.html:68
+#: layouts/download/changelogs/single.html:30 layouts/download/list.html:30
 msgid "browse the source repositories"
 msgstr "naršyti pradinio kodo saugyklas"
 
@@ -97,13 +92,13 @@ msgid "Projects"
 msgstr "Projektai"
 
 #: layouts/_default/baseof.html:21 layouts/download/changelogs/list.html:29
-#: layouts/download/changelogs/single.html:8 layouts/download/list.html:46
+#: layouts/download/changelogs/single.html:8 layouts/download/list.html:8
 #: layouts/getinvolved/list.html:7 layouts/partials/about-related.html:3
 msgid "Related Pages"
 msgstr "Susiję puslapiai"
 
 #: layouts/community/list.html:7 layouts/download/changelogs/list.html:37
-#: layouts/download/changelogs/single.html:16 layouts/download/list.html:54
+#: layouts/download/changelogs/single.html:16 layouts/download/list.html:16
 #: layouts/getinvolved/list.html:15 layouts/projects/list.html:156
 msgid "Related Sites"
 msgstr "Susijusios svetainės"
@@ -194,55 +189,6 @@ msgstr "Vertimų priežiūra"
 msgid "Our beloved translators"
 msgstr "Mūsų mylimi vertėjai"
 
-#: layouts/download/list.html:41
-msgid "{{ .s1 }}Download the Xfce artwork tarball{{ .s2 }}. It contains some high-quality logos and banners. Copying of the Xfce logo is subject to the LGPL copyright license."
-msgstr ""
-
-#: layouts/download/list.html:40
-msgid "Artwork"
-msgstr "Meninis apipavidalinimas"
-
-#: layouts/download/list.html:37
-msgid "A lot of different distributions provide Xfce packages. Popular examples built around Xfce are {{ .s1 }}Xubuntu{{ .s2 }}, the {{ .s3 }}Fedora Xfce Spin{{ .s4 }}, {{ .s5 }}Manjaro{{ .s6 }} or {{ .s7 }}Zenwalk{{ .s8 }}, but there is a good chance your favorite distro provides packages as well."
-msgstr ""
-
-#: layouts/download/list.html:36
-msgid "Distributions"
-msgstr "Distributyvai"
-
-#: layouts/download/list.html:38
-msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
-msgstr "Išsamesnį sąrašą galite rasti {{ .s1 }}DistroWatch.com{{ .s2 }}."
-
-#: layouts/download/list.html:21
-msgid "Each package in Xfce can make individual stable or development releases, including the core packages (as described in the {{ .s1 }}release model{{ .s2 }}). You can follow the announcements of the releases on the {{ .s3 }}Xfce users mailing list{{ .s4 }}, watch the {{ .s5 }}release feeds{{ .s6 }} or follow the Xfce {{ .s7 }}Mastodon{{ .s8 }} or {{ .s9 }}Twitter account{{ .s10 }}."
-msgstr ""
-
-#: layouts/download/list.html:20
-msgid "Individual releases"
-msgstr "Individualūs leidimai"
-
-#: layouts/download/list.html:10
-msgid "Most distributions ship with Xfce in their own packaging format, but if you want a newer version or you want to build Xfce from scratch, you can find the packages below. {{ .s1 }}How to compile Xfce{{ .s2 }}."
-msgstr ""
-
-#: layouts/download/list.html:29
-msgid "Xfce {{ .s1 }} is the latest development release of the Xfce desktop environment. This release should not be used in a production environments. If you are uncertain about downloading this release, you should probably use the {{ .s2 }}stable release{{ .s3 }} above. {{ .s4 }}Changes in this release{{ .s5 }}."
-msgstr ""
-
-#: layouts/download/list.html:28
-msgid "Preview release {{ .s1 }}"
-msgstr "Peržiūros leidimas {{ .s1 }}"
-
-#: layouts/download/list.html:14
-#, fuzzy
-msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
-msgstr "Xfce darbalaukio aplinkos valdiklių biblioteka."
-
-#: layouts/download/list.html:12
-msgid "Stable release {{ .s1 }}"
-msgstr "Stabilus leidimas {{ .s1 }}"
-
 #: layouts/partials/footer.html:8
 msgid "Copyright {{ .s1 }} {{ .s2 }}Xfce Development Team{{ .s3 }}. This page was last modified on {{ .s4 }}."
 msgstr "Autorių teisės {{ .s1 }} {{ .s2 }}Xfce kūrėjų komanda{{ .s3 }}. Šis puslapis paskutinį kartą keistas {{ .s4 }}."
@@ -290,10 +236,6 @@ msgstr "skaityti visą laidos informaciją"
 #: layouts/index.html:36
 msgid "get the source tarballs"
 msgstr "parsisiųskite pradinio kodo „tarballs“"
-
-#: layouts/index.html:32
-msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
-msgstr "Xfce yra supaprastinta darbalaukio aplinka, skirta Unix tipo sistemoms. Ji stengiasi būti greita ir naudoti kuo mažiau sistemos išteklių, tuo pačiu išlaikant patogumą naudotojui ir malonią išvaizdą."
 
 #: layouts/index.html:77
 msgid "Xfce Release Updates"
@@ -406,10 +348,6 @@ msgstr "Branduolio komponentai"
 #: layouts/projects/list.html:160
 msgid "online documentation for the core modules of Xfce"
 msgstr "Xfce branduolio modulių dokumentacija internete"
-
-#: layouts/projects/list.html:5
-msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
-msgstr "Xfce projektas kiekvienai darbalaukio daliai apjungia kelis atskirus projektus. Kai kurie projektai turi savo asmeninius projekto puslapius, kuriuose teikia papildomą informaciją."
 
 #: layouts/projects/list.html:76
 msgid "Xfce Libraries"
@@ -586,6 +524,37 @@ msgstr "vizualus turas parodantis naujas kelių paskiausių versijų galimybes"
 #: layouts/about/screenshots.html:19
 msgid "Some screenshots of Xfce, ordered by version."
 msgstr "Kelios Xfce ekrano kopijos, išrikiuotos pagal versiją."
+
+#~ msgid "Xfce release notes are specific to each version. Select your version from the list below to see the changes in the release. "
+#~ msgstr "Xfce leidimo pastabos yra skirtos tik tai versijai. Norėdami pamatyti keitimus pasirinkite savo versiją, iš žemiau esančio sąrašo."
+
+#~ msgid "Artwork"
+#~ msgstr "Meninis apipavidalinimas"
+
+#~ msgid "Distributions"
+#~ msgstr "Distributyvai"
+
+#~ msgid "You can find a more complete list at {{ .s1 }}DistroWatch.com{{ .s2 }}."
+#~ msgstr "Išsamesnį sąrašą galite rasti {{ .s1 }}DistroWatch.com{{ .s2 }}."
+
+#~ msgid "Individual releases"
+#~ msgstr "Individualūs leidimai"
+
+#~ msgid "Preview release {{ .s1 }}"
+#~ msgstr "Peržiūros leidimas {{ .s1 }}"
+
+#, fuzzy
+#~ msgid "Xfce {{ .s1 }} is the most recent version of the Xfce desktop environment. {{ .s2 }}Changes in this release{{ .s3 }}."
+#~ msgstr "Xfce darbalaukio aplinkos valdiklių biblioteka."
+
+#~ msgid "Stable release {{ .s1 }}"
+#~ msgstr "Stabilus leidimas {{ .s1 }}"
+
+#~ msgid "Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly."
+#~ msgstr "Xfce yra supaprastinta darbalaukio aplinka, skirta Unix tipo sistemoms. Ji stengiasi būti greita ir naudoti kuo mažiau sistemos išteklių, tuo pačiu išlaikant patogumą naudotojui ir malonią išvaizdą."
+
+#~ msgid "The Xfce project contains several separated projects for each part of the desktop. Some projects have their own project pages to provide additional information."
+#~ msgstr "Xfce projektas kiekvienai darbalaukio daliai apjungia kelis atskirus projektus. Kai kurie projektai turi savo asmeninius projekto puslapius, kuriuose teikia papildomą informaciją."
 
 #~ msgid "Xfce 4.0"
 #~ msgstr "Xfce 4.0"
