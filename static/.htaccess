@@ -24,8 +24,13 @@ RewriteRule ^zh-TW(/.*)?$ /zh_tw$1 [R=301,L]
 # Redirect ~user homepages
 RewriteRule ^(~.*)$ https://users.xfce.org/$1 [R=301,L]
 
+# Retired pages linked from translated content, so the language prefix varies:
+#   /community/lists      /de/community/lists      -> /community  /de/community
+#   /about/releasemodel   /pt_br/about/releasemodel -> docs.xfce.org
+RewriteRule ^([a-z_]{2,5}/)?community/lists/?$ /$1community [R=301,L]
+RewriteRule ^([a-z_]{2,5}/)?about/releasemodel/?$ https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release [R=301,L,NE]
+
 # Permanent redirects to new locations
-Redirect 301 /about/releasemodel https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release
 Redirect 301 /blog https://blog.xfce.org/
 Redirect 301 /projects/ristretto https://goodies.xfce.org/projects/applications/ristretto
 Redirect 301 /projects/xfmedia https://spuriousinterrupt.org/projects/xfmedia
@@ -33,7 +38,6 @@ Redirect 301 /documentation/changelogs /download/changelogs
 Redirect 301 /documentation/requirements /download/building
 RedirectMatch 301 ^/documentation(.*)$ https://docs.xfce.org/
 Redirect 301 /community/irc /community
-Redirect 301 /community/lists /community
 Redirect 301 /development /getinvolved
 Redirect 301 /getinvolved/translation https://docs.xfce.org/contribute/translate/start
 RedirectMatch 301 /archive/xfce-(.*) https://archive.xfce.org/xfce/$1

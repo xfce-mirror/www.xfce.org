@@ -1,0 +1,14 @@
+{{- /*
+  Content is authored once in English, so its links need the page's language.
+  On a /de/ page:
+    [x](/download)              -> /de/download
+    [x][ref]  ref: /about/news  -> /de/about/news
+    [x](https://docs.xfce.org)  -> unchanged
+    [x](//cdn.xfce.org/i.png)   -> unchanged, external despite the leading /
+    [x](#stable)                -> unchanged
+*/ -}}
+{{- $dest := .Destination -}}
+{{- if and (hasPrefix $dest "/") (not (hasPrefix $dest "//")) -}}
+  {{- $dest = $dest | relLangURL -}}
+{{- end -}}
+<a href="{{ $dest }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>
