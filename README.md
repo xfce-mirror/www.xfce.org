@@ -36,6 +36,8 @@ Translated content lands in `generated/`, translated UI strings in `i18n/`; both
 
 Write the English Markdown in `content/SECTION/page.md`. If the file doesn't match an existing glob in `hugo-gettext.toml`, add one under `[i18n.content.content]`. Add language stubs in `build.sh` so the page renders for all languages, then run `./build.sh --update-po` to extract strings.
 
+A page with a prose body must not also have a stub in `build.sh`: the stub is frontmatter-only and shadows the generated file, leaving the page blank in every language but English.
+
 ## Adding a UI-only page
 
 Create `content/SECTION/page.md` (frontmatter only, no prose body) and a matching `layouts/SECTION/page.html`. Give the page a `titleKey` so its `<title>` is translated:
