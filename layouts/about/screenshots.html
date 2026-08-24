@@ -21,7 +21,7 @@
 {{- range $shots }}
 {{- $ver := .version }}
 {{- $fmt := .format }}
-<h2>{{ i18n (printf "Xfce %s" $ver) }}</h2>
+<h2>Xfce {{ $ver }}</h2>
 <p>
   {{- range seq 1 .count }}
   <a href="{{ $cdn }}/about/screenshots/{{ $ver }}-{{ . }}.{{ $fmt }}"><img src="{{ $cdn }}/about/screenshots/{{ $ver }}-{{ . }}-small.jpg" alt="{{ $ver }}-{{ . }}" hspace="2" vspace="2" align="top" border="0" /></a>
