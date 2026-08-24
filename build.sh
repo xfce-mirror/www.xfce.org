@@ -49,12 +49,6 @@ echo "==> Generating language stubs..."
 for po in "$REPO_ROOT/po"/ui.*.po; do
   lang="$(basename "$po" .po)"; lang="${lang#ui.}"
   mkdir -p "$REPO_ROOT/generated/$lang/about/news" "$REPO_ROOT/generated/$lang/download/changelogs" "$REPO_ROOT/generated/$lang/projects"
-  stub="$REPO_ROOT/generated/$lang/about/credits.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Credits\"\ntitleKey: \"common-credits\"\nlayout: \"credits\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/$lang/about/screenshots.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"Screenshots\"\ntitleKey: \"common-screenshots\"\nlayout: \"screenshots\"\nhasToc: true\n---\n" > "$stub"
-  stub="$REPO_ROOT/generated/$lang/about/news/_index.md"
-  [ -f "$stub" ] || printf -- "---\ntitle: \"News\"\ntitleKey: \"common-news\"\nlayout: \"news\"\nhasToc: true\n---\n" > "$stub"
 
   # Changelog page stubs (full copy — changelogs aren't translated)
   for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
