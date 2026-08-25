@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Keep templates and i18n/en.yaml in agreement, and point po/ui.pot at templates.
+"""Keep templates and i18n/en.yaml in agreement, and point po/strings.pot at templates.
 
 i18n/en.yaml is hand-maintained and is the source of truth for UI strings, so a
 template asking for a key that isn't in it renders an empty string with no
 error from Hugo. This turns that into a build failure naming the string.
 
     --check      templates and i18n/en.yaml agree (run on every build)
-    --annotate   rewrite po/ui.pot references to point at the templates,
+    --annotate   rewrite po/strings.pot references to point at the templates,
                  replacing hugo-gettext's "i18n/en.yaml:0" (run after extract)
 """
 
@@ -76,14 +76,14 @@ def annotate(uses: dict, strings: dict, pot_path: Path) -> None:
     # polib wraps reference comments differently from gettext; hand the file back
     # to msgcat so it matches what hugo-gettext wrote
     subprocess.run(['msgcat', '-o', str(pot_path), str(pot_path)], check=True)
-    print(f'  {annotated} po/ui.pot entries pointed at templates')
+    print(f'  {annotated} po/strings.pot entries pointed at templates')
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('--check', action='store_true', help='verify templates match i18n/en.yaml')
-    parser.add_argument('--annotate', action='store_true', help='rewrite po/ui.pot references')
+    parser.add_argument('--annotate', action='store_true', help='rewrite po/strings.pot references')
     args = parser.parse_args()
     if not (args.check or args.annotate):
         parser.error('pass --check and/or --annotate')
@@ -95,7 +95,7 @@ def main() -> None:
     if args.check and check(uses, strings) != 0:
         sys.exit(1)
     if args.annotate:
-        annotate(uses, strings, repo_root / 'po' / 'ui.pot')
+        annotate(uses, strings, repo_root / 'po' / 'strings.pot')
 
 
 if __name__ == '__main__':

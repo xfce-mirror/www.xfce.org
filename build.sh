@@ -2,7 +2,7 @@
 # Build pipeline for www.xfce.org Hugo site
 #
 # Default:       compile PO → hugo-gettext generate (content + i18n strings) → stubs → hugo
-# --update-po:   also extract po/ui.pot + po/content.pot and merge them into the PO files
+# --update-po:   also extract po/strings.pot + po/content.pot and merge them into the PO files
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
@@ -13,14 +13,14 @@ fi
 
 if $UPDATE_PO; then
   echo "==> Extracting POT files with hugo-gettext..."
-  # i18n/en.yaml -> po/ui.pot, content markdown -> po/content.pot
+  # i18n/en.yaml -> po/strings.pot, content markdown -> po/content.pot
   hugo-gettext extract -f "$REPO_ROOT/hugo-gettext.toml" "$REPO_ROOT/po"
 
-  echo "==> Pointing po/ui.pot at the templates that use each string..."
+  echo "==> Pointing po/strings.pot at the templates that use each string..."
   python3 "$REPO_ROOT/scripts/ui-strings.py" --annotate
 
   echo "==> Merging POT into PO files..."
-  for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
+  for po in "$REPO_ROOT/po"/strings.*.po "$REPO_ROOT/po"/content.*.po; do
     domain="$(basename "$po")"; domain="${domain%%.*}"
     msgmerge --quiet --update --backup=none "$po" "$REPO_ROOT/po/$domain.pot"
   done
@@ -31,7 +31,7 @@ python3 "$REPO_ROOT/scripts/ui-strings.py" --check
 
 echo "==> Compiling PO files..."
 rm -rf "$REPO_ROOT/locale"
-for po in "$REPO_ROOT/po"/ui.*.po "$REPO_ROOT/po"/content.*.po; do
+for po in "$REPO_ROOT/po"/strings.*.po "$REPO_ROOT/po"/content.*.po; do
   base="$(basename "$po" .po)"
   domain="${base%%.*}"; lang="${base#*.}"
   mkdir -p "$REPO_ROOT/locale/$lang/LC_MESSAGES"
@@ -46,8 +46,8 @@ echo "==> Cleaning up locale directory..."
 rm -rf "$REPO_ROOT/locale"
 
 echo "==> Generating language stubs..."
-for po in "$REPO_ROOT/po"/ui.*.po; do
-  lang="$(basename "$po" .po)"; lang="${lang#ui.}"
+for po in "$REPO_ROOT/po"/strings.*.po; do
+  lang="$(basename "$po" .po)"; lang="${lang#strings.}"
   mkdir -p "$REPO_ROOT/generated/$lang/about/news" "$REPO_ROOT/generated/$lang/download/changelogs" "$REPO_ROOT/generated/$lang/projects"
 
   # Changelog page stubs (full copy — changelogs aren't translated)

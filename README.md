@@ -28,7 +28,7 @@ There are two kinds of translatable text, handled by separate pipelines:
 
 **Content** (`content/`) is prose written in Markdown. Translations are managed via hugo-gettext: English source files matching globs in `hugo-gettext.toml` are extracted into `po/content.pot`, translators work on `po/content.LANG.po`, and hugo-gettext generates translated Markdown into `generated/LANG/`. New content files matching existing globs are auto-discovered; new sections need a glob added to `hugo-gettext.toml`.
 
-**UI strings** (`layouts/`) are short labels, navigation, and structured text embedded in Hugo templates via `{{ i18n "key" }}`. The English source is `i18n/en.yaml`, which is hand-maintained and committed. hugo-gettext extracts it into `po/ui.pot`, translators work on `po/ui.LANG.po`, and hugo-gettext writes the translations back out as `i18n/LANG.yaml` (gitignored).
+**UI strings** (`i18n/en.yaml`) are short labels, navigation, and structured text, hand-maintained and committed, referenced from templates as `{{ i18n "key" }}`. hugo-gettext extracts it into `po/strings.pot`, translators work on `po/strings.LANG.po`, and hugo-gettext writes the translations back out as `i18n/LANG.yaml` (gitignored).
 
 Translated content lands in `generated/`, translated UI strings in `i18n/`; both are gitignored build output.
 

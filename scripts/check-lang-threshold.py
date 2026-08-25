@@ -16,7 +16,7 @@ THRESHOLD = 50
 
 def translated_pct(po_dir: Path, lang: str) -> float:
     translated = total = 0
-    for domain in ('ui', 'content'):
+    for domain in ('strings', 'content'):
         path = po_dir / f'{domain}.{lang}.po'
         if not path.exists():
             continue
