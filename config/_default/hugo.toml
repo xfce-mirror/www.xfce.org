@@ -31,9 +31,3 @@ disableKinds = ["taxonomy", "term"]
     [markup.goldmark.parser]
       wrapStandaloneImageWithinParagraph = false
 
-# hugo-gettext writes the blog feed here; each language's content directory
-# is declared in languages.toml.
-
-[[module.mounts]]
-  source = "generated/assets"
-  target = "assets"

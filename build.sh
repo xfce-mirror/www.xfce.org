@@ -61,8 +61,8 @@ done
 
 # Because using Hugo's resources.GetRemote fail in the docker container
 echo "==> Fetching blog feed..."
-mkdir -p "$REPO_ROOT/generated/assets"
-curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/generated/assets/blogfeed.xml"
+mkdir -p "$REPO_ROOT/assets"
+curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/assets/blogfeed.xml"
 
 echo "==> Checking language translation thresholds..."
 # under-translated languages are not built at all
