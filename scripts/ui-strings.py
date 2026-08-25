@@ -19,7 +19,7 @@ from pathlib import Path
 import polib
 import yaml
 
-CALL = re.compile(r'i18n\s+"((?:[^"\\]|\\.)*)"')
+CALL = re.compile(r'i18n\s+"([^"]+)"')
 
 
 def find_uses(layouts_dir: Path) -> dict[str, list[tuple[str, str]]]:
@@ -29,12 +29,11 @@ def find_uses(layouts_dir: Path) -> dict[str, list[tuple[str, str]]]:
         rel = path.relative_to(layouts_dir.parent)
         for lineno, line in enumerate(path.read_text(encoding='utf-8').splitlines(), 1):
             for m in CALL.finditer(line):
-                key = m.group(1).encode().decode('unicode_escape')
-                uses.setdefault(key, []).append((str(rel), str(lineno)))
+                uses.setdefault(m.group(1), []).append((str(rel), str(lineno)))
     return uses
 
 
-def check(uses: dict, strings: dict) -> int:
+def check(uses: dict, strings: dict) -> None:
     missing = sorted(set(uses) - set(strings))
     unused = sorted(set(strings) - set(uses))
 
@@ -50,11 +49,10 @@ def check(uses: dict, strings: dict) -> int:
         print('Add them there as "<key>:" followed by an indented '
               '"other: <English text>", using {{ .s1 }}, {{ .s2 }} ... for anything '
               'the template passes in, then run ./build.sh --update-po.', file=sys.stderr)
-        return 1
+        sys.exit(1)
 
     print(f'  {len(uses)} UI strings, templates and i18n/en.yaml agree'
           + (f' ({len(unused)} unused)' if unused else ''))
-    return 0
 
 
 def annotate(uses: dict, strings: dict, pot_path: Path) -> None:
@@ -92,8 +90,8 @@ def main() -> None:
     strings = yaml.safe_load((repo_root / 'i18n' / 'en.yaml').read_text(encoding='utf-8'))
     uses = find_uses(repo_root / 'layouts')
 
-    if args.check and check(uses, strings) != 0:
-        sys.exit(1)
+    if args.check:
+        check(uses, strings)
     if args.annotate:
         annotate(uses, strings, repo_root / 'po' / 'strings.pot')
 

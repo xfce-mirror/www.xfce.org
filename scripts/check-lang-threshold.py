@@ -35,7 +35,7 @@ def main() -> None:
         pct = translated_pct(po_dir, lang)
         if pct < THRESHOLD:
             disabled.append(lang)
-            print(f'  {lang}: {pct:.0f}% translated — disabled', file=sys.stderr)
+            print(f'  {lang}: {pct:.0f}% translated, disabled', file=sys.stderr)
 
     print(f'  ({len(disabled)} of {len(langs)} languages below {THRESHOLD}%)'
           if disabled else f'  all {len(langs)} languages above {THRESHOLD}%',

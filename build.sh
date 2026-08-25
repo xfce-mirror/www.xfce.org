@@ -6,12 +6,8 @@
 
 set -e
 REPO_ROOT="$(cd "$(dirname "$0")" && pwd)"
-UPDATE_PO=false
-if [ "$1" = "--update-po" ]; then
-  UPDATE_PO=true
-fi
 
-if $UPDATE_PO; then
+if [ "$1" = "--update-po" ]; then
   echo "==> Extracting POT files with hugo-gettext..."
   # i18n/en.yaml -> po/strings.pot, content markdown -> po/content.pot
   hugo-gettext extract -f "$REPO_ROOT/hugo-gettext.toml" "$REPO_ROOT/po"
@@ -48,15 +44,10 @@ rm -rf "$REPO_ROOT/locale"
 echo "==> Generating language stubs..."
 for po in "$REPO_ROOT/po"/strings.*.po; do
   lang="$(basename "$po" .po)"; lang="${lang#strings.}"
-  mkdir -p "$REPO_ROOT/generated/$lang/about/news" "$REPO_ROOT/generated/$lang/download/changelogs" "$REPO_ROOT/generated/$lang/projects"
-
-  # Changelog page stubs (full copy — changelogs aren't translated)
-  for md in "$REPO_ROOT/content/download/changelogs"/[0-9]*.md; do
-    [ -f "$md" ] || continue
-    base="$(basename "$md" .md)"
-    stub="$REPO_ROOT/generated/$lang/download/changelogs/$base.md"
-    [ -f "$stub" ] || cp "$md" "$stub"
-  done
+  # Changelogs are not translated, so every language gets the English file
+  mkdir -p "$REPO_ROOT/generated/$lang/download/changelogs"
+  cp -n "$REPO_ROOT/content/download/changelogs"/[0-9]*.md \
+        "$REPO_ROOT/generated/$lang/download/changelogs/"
 done
 
 # Because using Hugo's resources.GetRemote fail in the docker container
@@ -65,7 +56,7 @@ mkdir -p "$REPO_ROOT/assets"
 curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/assets/blogfeed.xml"
 
 echo "==> Checking language translation thresholds..."
-# under-translated languages are not built at all
+# under-translated languages should not be built at all
 HUGO_DISABLELANGUAGES="$(python3 "$REPO_ROOT/scripts/check-lang-threshold.py")"
 export HUGO_DISABLELANGUAGES
 
