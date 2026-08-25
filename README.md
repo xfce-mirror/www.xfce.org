@@ -4,7 +4,7 @@ Hugo static site for the Xfce desktop environment website.
 
 ## Building
 
-With Docker (recommended — pins Hugo and tool versions):
+With Docker (recommended, since it pins Hugo and tool versions):
 
 ```bash
 docker compose run --rm build              # full build → public/
@@ -38,7 +38,7 @@ Write the English Markdown in `content/SECTION/page.md`. If the file doesn't mat
 
 A page with a prose body must not also have a stub in `build.sh`: the stub is frontmatter-only and shadows the generated file, leaving the page blank in every language but English.
 
-## Adding a UI-only page
+## Adding a layout page
 
 Create `content/SECTION/page.md` (frontmatter only, no prose body) and a matching `layouts/SECTION/page.html`. Give the page a `titleKey` so its `<title>` is translated:
 
@@ -66,9 +66,25 @@ Add language stubs in `build.sh`, then run `./build.sh --update-po`.
 
 `i18n/en.yaml` is the source of truth, so a template asking for a key that isn't there renders an empty string. Every build runs `scripts/ui-strings.py --check`, which fails and names the string if the two drift apart.
 
+## Publishing a release
+
+For a new stable release, say 4.22:
+
+1. Set `stable` and `stable_date` in `data/versions.yaml`. Reset `preview`/`preview_date`, and set `preview_visible` to `true` only while a preview is *newer* than stable.
+2. Write the announcement in `content/about/news/<unix-timestamp>.md`, with frontmatter `title`, `date`, `layout: "news-post"` and `hasToc: true`. Put `<!--more-->` after the first paragraph to mark the summary used on the news list and homepage, and the tour, changelog and archive links in the body.
+3. Add `content/download/changelogs/4.22.md` with frontmatter `version`, `group`, `hasToc: true` and `weight: 110` (each release is +10). Changelogs are not translated; `build.sh` copies them into every language.
+4. Add `content/about/tour422.md` with `layout: "tour"` and `hasToc: true`, and move `aliases: ["tour"]` off the previous tour so `/tour` points at the newest one.
+5. Add `related-tour-422` to `i18n/en.yaml` and a matching entry to `layouts/partials/about-related.html`.
+6. Add the release to the `$shots` list in `layouts/about/screenshots.html`.
+7. Run `./build.sh --update-po`.
+
+The news post, tour and changelog index are picked up by existing globs in `hugo-gettext.toml`. The download page and the homepage tour link read `data/versions.yaml`, so they need no edit.
+
 ## Translations
 
 Translations are managed on [Transifex](https://app.transifex.com/xfce/xfce-www/) and committed as PO files in `po/`. Languages below 50% combined translation are automatically disabled at build time.
+
+Individual pages have their own threshold: hugo-gettext skips a page whose body is under 50% translated and whose frontmatter is untranslated. The page is then missing in that language instead of falling back to English, so links to it 404.
 
 ## Data files
 
