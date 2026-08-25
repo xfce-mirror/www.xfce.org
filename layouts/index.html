@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $cdn := .Site.Params.staticMedia }}
 {{- $versions := hugo.Data.versions }}
+{{- $tour := replace $versions.stable "." "" }}
 
 <div id="slidewrap">
 <div id="slide">
@@ -42,7 +43,7 @@
       </a>
     </li>
     <li>
-      <a href="{{ if eq .Language.Lang "en" }}/about/tour420{{ else }}/{{ .Language.Lang }}/about/tour420{{ end }}">{{ i18n "home-tour" (dict "s1" $versions.stable) }}
+      <a href="{{ if eq .Language.Lang "en" }}/about/tour{{ $tour }}{{ else }}/{{ .Language.Lang }}/about/tour{{ $tour }}{{ end }}">{{ i18n "home-tour" (dict "s1" $versions.stable) }}
         <span>&ndash; {{ i18n "home-tour-desc" }}</span>
       </a>
     </li>
