@@ -60,7 +60,11 @@ echo "==> Checking language translation thresholds..."
 HUGO_DISABLELANGUAGES="$(python3 "$REPO_ROOT/scripts/check-lang-threshold.py")"
 export HUGO_DISABLELANGUAGES
 
-echo "==> Building Hugo site..."
-hugo --source "$REPO_ROOT" --cleanDestinationDir
-
-echo "==> Done. Output in $REPO_ROOT/public/"
+if [ "$1" = "--server" ] || [ "${2:-}" = "--server" ]; then
+  echo "==> Starting Hugo dev server..."
+  exec hugo server --source "$REPO_ROOT" --bind 0.0.0.0
+else
+  echo "==> Building Hugo site..."
+  hugo --source "$REPO_ROOT" --cleanDestinationDir
+  echo "==> Done. Output in $REPO_ROOT/public/"
+fi
