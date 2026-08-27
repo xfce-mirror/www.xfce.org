@@ -70,10 +70,19 @@ Add language stubs in `build.sh`, then run `./build.sh --update-po`.
 
 For a new stable release, say 4.22:
 
-1. Set `stable` and `stable_date` in `data/versions.yaml`. Reset `preview`/`preview_date`, and set `preview_visible` to `true` only while a preview is *newer* than stable.
-2. Write the announcement in `content/about/news/<unix-timestamp>.md`, with frontmatter `title`, `date`, `layout: "news-post"` and `hasToc: true`. Put `<!--more-->` after the first paragraph to mark the summary used on the news list and homepage, and the tour, changelog and archive links in the body.
-3. Add `content/download/changelogs/4.22.md` with frontmatter `version`, `group`, `hasToc: true` and `weight: 110` (each release is +10). Changelogs are not translated; `build.sh` copies them into every language.
-4. Add `content/about/tour422.md` with `layout: "tour"` and `hasToc: true`, and move `aliases: ["tour"]` off the previous tour so `/tour` points at the newest one.
+1. Set `stable` and `stable_date` in `data/versions.yaml`.
+   - Reset `preview`/`preview_date`, and set `preview_visible` to `true` only while a preview is *newer* than stable.
+2. Write the announcement in `content/about/news/<unix-timestamp>.md`.
+   - Frontmatter: `title`, `date`, `layout: "news-post"`, `hasToc: true`.
+   - Put `<!--more-->` after the first paragraph to mark the summary used on the news list and homepage.
+   - Add tour, changelog and archive links in the body.
+3. Generate a changelog draft with `python3 scripts/changelog-generator.py 22`.
+   - It fetches NEWS files from all core components and writes `content/download/changelogs/4.22.md`.
+   - Review the output and drop irrelevant lines by hand.
+   - Set frontmatter `weight: 110` (each release is +10).
+   - Changelogs are not translated; `build.sh` copies them into every language.
+4. Add `content/about/tour422.md` with `layout: "tour"` and `hasToc: true`.
+   - Move `aliases: ["tour"]` off the previous tour so `/tour` points at the newest one.
 5. Add `related-tour-422` to `i18n/en.yaml` and a matching entry to `layouts/partials/about-related.html`.
 6. Add the release to the `$shots` list in `layouts/about/screenshots.html`.
 7. Run `./build.sh --update-po`.

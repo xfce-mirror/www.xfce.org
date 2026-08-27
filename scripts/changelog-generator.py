@@ -67,6 +67,11 @@ def generate_markdown(package, package_label, parsed_news, start_version):
         None,
     )
 
+    if start_index is None:
+        print(f"  WARNING: version {start_version} not found in NEWS for {package}")
+        lines.append(f'*Could not find version {start_version} in NEWS — review manually.*\n')
+        return '\n'.join(lines)
+
     for version_block in parsed_news[0:start_index + 1]:
         for change in version_block['changes']:
             if "Translation Updates:" in change or "Update copyright year" in change:
