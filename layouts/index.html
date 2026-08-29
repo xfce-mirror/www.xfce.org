@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{- $cdn := .Site.Params.staticMedia }}
+{{- $cdn := "//cdn.xfce.org" }}
 {{- $versions := hugo.Data.versions }}
 {{- $tour := replace $versions.stable "." "" }}
 
