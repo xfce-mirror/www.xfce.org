@@ -49,7 +49,8 @@ titleKey: "section-page-title"
 ---
 ```
 
-Every visible string needs an entry in `i18n/en.yaml` and a matching `{{ i18n "key" }}` in the template. Keys are `<area>-<what>`, using `common-` for anything more than one template uses.
+Every visible string needs an entry in `i18n/en.yaml` and a matching `{{ i18n "key" }}` in the template.
+Keys are `<area>-<what>`, using `common-` for anything more than one template uses.
 
 Markup never reaches translators. Put `{{ .s1 }}`, `{{ .s2 }}` … where the tags go, and pass the tags in from the template:
 
@@ -64,14 +65,22 @@ about-visit-website:
 
 Add language stubs in `build.sh`, then run `./build.sh --update-po`.
 
-`i18n/en.yaml` is the source of truth, so a template asking for a key that isn't there renders an empty string. Every build runs `scripts/ui-strings.py --check`, which fails and names the string if the two drift apart.
+`i18n/en.yaml` is the source of truth, so a template asking for a key that isn't there renders an empty string.
+Every build runs `scripts/ui-strings.py --check`, which fails and names the string if the two drift apart.
 
 ## Publishing a release
+
+For a new preview release, say 4.22pre1:
+
+1. Set `preview` and `preview_date` in `data/versions.yaml`.
+   - The preview section on the download page appears automatically when `preview_date` is newer than `stable_date`.
+2. Add `content/download/changelogs/4.22pre1.md` if applicable.
+3. Commit, push & publish a blog post.
 
 For a new stable release, say 4.22:
 
 1. Set `stable` and `stable_date` in `data/versions.yaml`.
-   - Reset `preview`/`preview_date`, and set `preview_visible` to `true` only while a preview is *newer* than stable.
+   - The preview section on the download page hides automatically when `stable_date` is newer than `preview_date`.
 2. Write the announcement in `content/about/news/<unix-timestamp>.md`.
    - Frontmatter: `title`, `date`, `layout: "news-post"`, `hasToc: true`.
    - Put `<!--more-->` after the first paragraph to mark the summary used on the news list and homepage.
@@ -85,17 +94,20 @@ For a new stable release, say 4.22:
    - Move `aliases: ["tour"]` off the previous tour so `/tour` points at the newest one.
 5. Add `related-tour-422` to `i18n/en.yaml` and a matching entry to `layouts/partials/about-related.html`.
 6. Add the release to the `$shots` list in `layouts/about/screenshots.html`.
-7. Run `./build.sh --update-po`.
+7. Commit, push & publish a blog post.
 
-The news post, tour and changelog index are picked up by existing globs in `hugo-gettext.toml`. The download page and the homepage tour link read `data/versions.yaml`, so they need no edit.
+The news post, tour and changelog index are picked up by existing globs in `hugo-gettext.toml`.
+The download page and the homepage tour link read `data/versions.yaml`, so they need no edit.
 
 ## Translations
 
-Translations are managed on [Transifex](https://app.transifex.com/xfce/xfce-www/) and committed as PO files in `po/`. Languages below 50% combined translation are automatically disabled at build time.
+Translations are managed on [Transifex](https://app.transifex.com/xfce/xfce-www/) and committed as PO files in `po/`.
+Languages below 50% combined translation are automatically disabled at build time.
 
-Individual pages have their own threshold: hugo-gettext skips a page whose body is under 50% translated and whose frontmatter is untranslated. The page is then missing in that language instead of falling back to English, so links to it 404.
+Individual pages have their own threshold: hugo-gettext skips a page whose body is under 50% translated and whose frontmatter is untranslated.
+The page is then missing in that language instead of falling back to English, so links to it 404.
 
 ## Data files
 
-`data/versions.yaml` holds stable/preview version numbers.
+`data/versions.yaml` holds stable/preview version numbers and dates.
 `data/credits.json` and `data/translators.json` hold contributor lists for the credits page.
