@@ -1,1 +1,1 @@
-{{- if hugo.Data.versions.preview_visible }}{{ .Inner | .Page.RenderString (dict "display" "block") }}{{ end -}}
+{{- if gt hugo.Data.versions.preview_date hugo.Data.versions.stable_date }}{{ .Inner | .Page.RenderString (dict "display" "block") }}{{ end -}}
