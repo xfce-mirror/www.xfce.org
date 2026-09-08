@@ -1,0 +1,97 @@
+stages:
+  - build
+  - sync
+
+variables:
+  HUGO_VERSION: "0.161.1"
+  HUGO_GETTEXT_VERSION: "0.6.0"
+  TX_VERSION: "1.6.17"
+
+build:
+  stage: build
+  image: python:3.13-slim
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
+        curl gettext git > /dev/null
+    - curl -sfL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+        | tar -xzf - -C /usr/local/bin hugo
+    - pip install --no-cache-dir hugo-gettext==${HUGO_GETTEXT_VERSION} polib > /dev/null
+  script:
+    - ./build.sh --update-po
+  artifacts:
+    paths:
+      - public/
+      - po/strings.pot
+      - po/content.pot
+    expire_in: 1 day
+
+tx-push:
+  stage: sync
+  image: python:3.13-slim
+  needs: [build]
+  rules:
+    - changes:
+        - i18n/en.yaml
+        - content/**/*.md
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
+        curl git > /dev/null
+    - curl -sfL -o /usr/local/bin/tx
+        "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
+    - chmod +x /usr/local/bin/tx
+  script:
+    # POT files come from build artifact, compare against git
+    - |
+      if git diff --quiet po/strings.pot po/content.pot; then
+        echo "POT files unchanged"
+        exit 0
+      fi
+    - tx push --source --no-interactive
+
+tx-pull:
+  stage: sync
+  image: python:3.13-slim
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
+        curl gettext git > /dev/null
+    - curl -sfL -o /usr/local/bin/tx
+        "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
+    - chmod +x /usr/local/bin/tx
+  script:
+    - tx pull --all --minimum-perc=50 --no-interactive --force
+
+    # Validate, revert invalid PO files
+    - |
+      for po in po/strings.*.po po/content.*.po; do
+        if ! msgfmt --check --output-file=/dev/null "$po" 2>&1; then
+          echo "INVALID: $po"
+          git checkout -- "$po"
+        fi
+      done
+
+    # Exit early if nothing changed
+    - |
+      if git diff --quiet po/; then
+        echo "No translation changes"
+        exit 0
+      fi
+
+    # Commit and push
+    - git config user.name "Transifex Bot"
+    - git config user.email "noreply@xfce.org"
+    - git remote set-url origin
+        "https://gitlab-ci-token:${GIT_PUSH_TOKEN}@gitlab.xfce.org/${CI_PROJECT_PATH}.git"
+    - git add po/*.po
+    - |
+      changed=$(git diff --cached --name-only po/ \
+        | sed 's|po/[^.]*\.\(.*\)\.po|\1|' \
+        | sort -u | tr '\n' ' ')
+      count=$(git diff --cached --name-only po/ | wc -l)
+      git commit -m "I18n: Update translations
+
+      Updated ${count} file(s): ${changed}"
+    - git push origin HEAD:master

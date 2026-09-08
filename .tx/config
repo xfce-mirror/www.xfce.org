@@ -1,0 +1,16 @@
+[main]
+host = https://app.transifex.com
+
+[o:xfce:p:xfce-www:r:strings]
+file_filter  = po/strings.<lang>.po
+source_file  = po/strings.pot
+source_lang  = en
+type         = PO
+minimum_perc = 0
+
+[o:xfce:p:xfce-www:r:content]
+file_filter  = po/content.<lang>.po
+source_file  = po/content.pot
+source_lang  = en
+type         = PO
+minimum_perc = 0
