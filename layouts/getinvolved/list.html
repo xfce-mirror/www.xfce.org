@@ -1,0 +1,28 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "common-related-pages" }}</h2>
+<ul>
+  <li>
+    <a href="https://docs.xfce.org/contribute/translate/start">{{ i18n "getinvolved-translation" }}
+      <span>&ndash; {{ i18n "getinvolved-translation-desc" }}</span>
+    </a>
+  </li>
+</ul>
+<h2>{{ i18n "common-related-sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "getinvolved-gitlab" }}
+      <span>&ndash; {{ i18n "common-bugs-desc" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://www.transifex.com/organization/xfce/">{{ i18n "getinvolved-transifex" }}
+      <span>&ndash; {{ i18n "getinvolved-transifex-desc" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

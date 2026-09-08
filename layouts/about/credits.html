@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{- $credits := hugo.Data.credits }}
+{{- $translators := hugo.Data.translators }}
+<h1>{{ i18n "common-credits" }}</h1>
+
+<p>
+  {{ i18n "credits-intro" }}
+  <b>{{ i18n "credits-thanks" }}</b>
+</p>
+
+<h2 id="core">{{ i18n "credits-core" }}</h2>
+{{ range $credits.core -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="active">{{ i18n "credits-active" }}</h2>
+{{ range $credits.active -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="servers">{{ i18n "credits-servers" }}</h2>
+{{ range $credits.servers -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="translation">{{ i18n "credits-translation" }}</h2>
+{{ range $credits.translation -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="documentation">{{ i18n "credits-documentation" }}</h2>
+{{ range $credits.documentation -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+
+<h2 id="translators">{{ i18n "credits-translators" }}</h2>
+<dl>{{ delimit $translators ", " }}</dl>
+
+<h2 id="previous">{{ i18n "credits-previous" }}</h2>
+{{ range $credits.previous -}}
+{{ .name }} &lt;<span class="mungify">{{ partial "reverse-string.html" .email }}</span>&gt;<br />
+{{ end }}
+{{ end }}
+
+{{ define "related" }}
+{{ partial "about-related.html" . }}
+{{ end }}

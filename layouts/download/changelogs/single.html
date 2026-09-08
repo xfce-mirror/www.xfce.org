@@ -1,0 +1,34 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ end }}
+
+{{ define "related" }}
+{{- $prefix := cond (eq .Language.Lang "en") "" (printf "/%s" .Language.Lang) }}
+<h2>{{ i18n "common-related-pages" }}</h2>
+<ul>
+  <li>
+    <a href="{{ $prefix }}/download/changelogs">{{ i18n "common-changelogs" }}
+      <span>&ndash; {{ i18n "common-changelogs-desc" }}</span>
+    </a>
+  </li>
+</ul>
+<h2>{{ i18n "common-related-sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://archive.xfce.org">{{ i18n "common-archive" }}
+      <span>&ndash; {{ i18n "common-archive-desc" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://docs.xfce.org/xfce/building">{{ i18n "common-building" }}
+      <span>&ndash; {{ i18n "common-building-desc" }}</span>
+    </a>
+  </li>
+  <li>
+    <a href="https://gitlab.xfce.org">{{ i18n "common-git" }}
+      <span>&ndash; {{ i18n "common-git-desc" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

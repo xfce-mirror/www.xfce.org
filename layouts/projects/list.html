@@ -1,0 +1,164 @@
+{{ define "main" }}
+{{- $cdn := "//cdn.xfce.org" }}
+<h1>{{ i18n "common-projects" }}</h1>
+
+{{ .Content }}
+
+<h2 id="core">{{ i18n "projects-core" }}</h2>
+
+<div class="grid icons">
+
+<div class="item">
+  <h3>{{ i18n "projects-xfwm" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfwm4.png')">
+    {{ i18n "projects-xfwm-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfwm4/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-panel" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-panel.png')">
+    {{ i18n "projects-panel-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfce4-panel/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-xfdesktop" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfdesktop.png')">
+    {{ i18n "projects-xfdesktop-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfdesktop/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-session" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-session.png')">
+    {{ i18n "projects-session-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfce4-session/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-settings" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-settings.png')">
+    {{ i18n "projects-settings-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfce4-settings/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-thunar" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/thunar.png')">
+    {{ i18n "projects-thunar-desc" }}
+    <a href="https://docs.xfce.org/xfce/thunar/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-appfinder" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-appfinder.png')">
+    {{ i18n "projects-appfinder-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfce4-appfinder/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-power" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-power-manager.png')">
+    {{ i18n "projects-power-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfce4-power-manager/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-libraries" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/libxfce4ui.png')">
+    {{ i18n "projects-libraries-desc" }}
+    <a href="https://docs.xfce.org/xfce/libxfce4ui/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>Xfconf</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfconf.png')">
+    {{ i18n "projects-xfconf-desc" }}
+    <a href="https://docs.xfce.org/xfce/xfconf/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+</div>
+
+<h2 id="applications">{{ i18n "projects-applications" }}</h2>
+
+<div class="grid icons">
+
+<div class="item">
+  <h3>{{ i18n "projects-terminal" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-terminal.png')">
+    {{ i18n "projects-terminal-desc" }}
+    <a href="https://docs.xfce.org/apps/terminal/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-xfburn" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfburn.png')">
+    {{ i18n "projects-xfburn-desc" }}
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-ristretto" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/ristretto.png')">
+    {{ i18n "projects-ristretto-desc" }}
+    <a href="https://docs.xfce.org/apps/ristretto/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-screensaver" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-screensaver.png')">
+    {{ i18n "projects-screensaver-desc" }}
+    <a href="https://docs.xfce.org/apps/xfce4-screensaver/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-screenshooter" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-screenshooter.png')">
+    {{ i18n "projects-screenshooter-desc" }}
+    <a href="https://docs.xfce.org/apps/xfce4-screenshooter/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-mousepad" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/mousepad.png')">
+    {{ i18n "projects-mousepad-desc" }}
+    <a href="https://docs.xfce.org/apps/mousepad/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+<div class="item">
+  <h3>{{ i18n "projects-notifyd" }}</h3>
+  <p style="background-image: url('{{ $cdn }}/projects/xfce4-notifyd.png')">
+    {{ i18n "projects-notifyd-desc" }}
+    <a href="https://docs.xfce.org/apps/xfce4-notifyd/start">{{ i18n "common-learn-more" | safeHTML }}</a>
+  </p>
+</div>
+
+</div>
+{{ end }}
+
+{{ define "related" }}
+<h2>{{ i18n "common-related-sites" }}</h2>
+<ul>
+  <li>
+    <a href="https://docs.xfce.org">{{ i18n "common-docs" }}
+      <span>&ndash; {{ i18n "projects-docs-desc" }}</span>
+    </a>
+  </li>
+</ul>
+{{ end }}

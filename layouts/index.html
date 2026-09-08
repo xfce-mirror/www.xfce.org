@@ -1,0 +1,97 @@
+{{ define "main" }}
+{{- $cdn := "//cdn.xfce.org" }}
+{{- $versions := hugo.Data.versions }}
+{{- $tour := replace $versions.stable "." "" }}
+
+<div id="slidewrap">
+<div id="slide">
+  <div id="slide-desktop" alt="Xfce Desktop" title="{{ i18n "home-slide-desktop" }}">
+    <span id="slide-desktop-panel" style="background-image: url({{ $cdn }}/slider/panel_bg.png);"><span id="slide-desktop-panel-left" style="background-image: url({{ $cdn }}/slider/panel_left.png);"></span><span id="slide-desktop-panel-right" style="background-image: url({{ $cdn }}/slider/panel_right.png);"></span></span>
+    <span id="slide-desktop-icons" style="background-image: url({{ $cdn }}/slider/desktop_icons.png);"></span>
+    <span id="slide-desktop-thunar" style="background-image: url({{ $cdn }}/slider/thunar_windows.png);"></span>
+  </div>
+  <div id="slide-settings" style="background-image: url({{ $cdn }}/slider/settings.png);" alt="Settings" title="{{ i18n "home-slide-settings" }}"></div>
+  <div id="slide-xfwm4" style="background-image: url({{ $cdn }}/slider/xfwm4.png);" alt="Window Manager" title="{{ i18n "home-slide-xfwm" }}"></div>
+  <div id="slide-panel" style="background-image: url({{ $cdn }}/slider/panel.png);" alt="Panel" title="{{ i18n "home-slide-panel" }}">
+    <span id="slide-panel-notifyd" style="background-image: url({{ $cdn }}/slider/notifyd-settings.png);"></span>
+  </div>
+  <div id="slide-apps" style="background-image: url({{ $cdn }}/slider/apps.png);" alt="Applications" title="{{ i18n "home-slide-apps" }}"></div>
+</div>
+<div id="slidenav"></div>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+{{ readFile "static/style/slider.js" | safeJS }}
+//]]>
+</script>
+
+<div class="frontpage_cols">
+
+<div class="column">
+  <h2>{{ i18n "common-site-title" }}</h2>
+  {{ .Content }}
+  <ul>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/download{{ else }}/{{ .Language.Lang }}/download{{ end }}">{{ i18n "common-download" }}
+        <span>&ndash; {{ i18n "home-download-desc" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/download/changelogs/{{ $versions.stable }}{{ else }}/{{ .Language.Lang }}/download/changelogs/{{ $versions.stable }}{{ end }}">{{ i18n "home-changelog" }}
+        <span>&ndash; {{ i18n "home-changelog-desc" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/about/tour{{ $tour }}{{ else }}/{{ .Language.Lang }}/about/tour{{ $tour }}{{ end }}">{{ i18n "home-tour" (dict "s1" $versions.stable) }}
+        <span>&ndash; {{ i18n "home-tour-desc" }}</span>
+      </a>
+    </li>
+    <li>
+      <a href="{{ if eq .Language.Lang "en" }}/about/screenshots{{ else }}/{{ .Language.Lang }}/about/screenshots{{ end }}">{{ i18n "common-screenshots" }}
+        <span>&ndash; {{ i18n "common-screenshots-desc" }}</span>
+      </a>
+    </li>
+  </ul>
+  <p></p>
+</div>
+
+<div class="column">
+  <h2>{{ i18n "home-blog-heading" }}</h2>
+  <span class="rss"><a href="https://blog.xfce.org/feed">{{ i18n "common-subscribe-rss" }}</a></span>
+  {{- $blogFeed := resources.Get "blogfeed.xml" }}
+  {{- if $blogFeed }}
+  {{- $blog := $blogFeed | transform.Unmarshal }}
+  <ul class="feeds group">
+    {{- range first 5 $blog.channel.item }}
+    <li><strong><a href="{{ .link }}">{{ .title }}</a></strong><br />
+    <span class="meta">{{ .creator }} on {{ dateFormat "Jan 02 2006" .pubDate }}</span></li>
+    {{- end }}
+  </ul>
+  <p><a href="https://blog.xfce.org/">{{ i18n "home-blog-more" | safeHTML }}</a></p>
+  {{- else }}
+  <p><a href="https://blog.xfce.org/">{{ i18n "home-blog-more" | safeHTML }}</a></p>
+  {{- end }}
+</div>
+
+<div class="column">
+  <h2>{{ i18n "home-news-heading" }}</h2>
+  <span class="rss"><a href="{{ "feed" | relLangURL }}">{{ i18n "common-subscribe-rss" }}</a></span>
+  {{- $newsSection := site.GetPage "/about/news" }}
+  {{- range first 2 $newsSection.Pages.ByDate.Reverse }}
+  <div class="newsitem group">
+    <h3>{{ .Title }}</h3>
+    <div class="post-wrap">
+      {{ strings.TrimSuffix "</p>" (.Summary | strings.TrimRight "\n ") | safeHTML }}
+      <a href="{{ .RelPermalink }}">{{ i18n "common-learn-more" | safeHTML }}</a></p>
+    </div>
+    <div class="post-date">
+      <span class="post-month">{{ .Date.Format "Jan" }}</span>
+      <span class="post-day"><span class="day">{{ .Date.Format "02" }}</span><br /><span class="year">{{ .Date.Format "2006" }}</span></span>
+    </div>
+  </div>
+  {{- end }}
+</div>
+
+</div>
+{{ end }}

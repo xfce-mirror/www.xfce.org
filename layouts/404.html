@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>{{ i18n "notfound-title" }}</h1>
+
+<h3>{{ i18n "notfound-subtitle" }}</h3>
+<p>
+  {{ i18n "notfound-explanation" }}
+</p>
+<p>
+  {{ i18n "notfound-suggestions" }}
+</p>
+
+<ul>
+  <li>{{ i18n "notfound-check-spelling" }}</li>
+  <li>{{ i18n "notfound-open-homepage" (dict "s1" `<a href="/">` "s2" `</a>`) | safeHTML }}</li>
+  <li>{{ i18n "notfound-go-back" }}</li>
+</ul>
+
+<p>
+  {{ i18n "notfound-ask-webmaster" (dict "s1" `<a href="mailto:webmaster@xfce.org">` "s2" `</a>`) | safeHTML }}
+</p>
+{{ end }}
