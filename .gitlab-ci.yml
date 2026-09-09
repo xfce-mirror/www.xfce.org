@@ -51,36 +51,4 @@ tx-pull:
         "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
     - chmod +x /usr/local/bin/tx
   script:
-    - tx pull --all --minimum-perc=50 --force
-
-    # Validate, revert invalid PO files
-    - |
-      for po in po/strings.*.po po/content.*.po; do
-        if ! msgfmt --check --output-file=/dev/null "$po" 2>&1; then
-          echo "INVALID: $po"
-          git checkout -- "$po"
-        fi
-      done
-
-    # Exit early if nothing changed
-    - |
-      if git diff --quiet po/; then
-        echo "No translation changes"
-        exit 0
-      fi
-
-    # Commit and push
-    - git config user.name "Transifex Bot"
-    - git config user.email "noreply@xfce.org"
-    - git remote set-url origin
-        "https://gitlab-ci-token:${GIT_PUSH_TOKEN}@gitlab.xfce.org/${CI_PROJECT_PATH}.git"
-    - git add po/*.po
-    - |
-      changed=$(git diff --cached --name-only po/ \
-        | sed 's|po/[^.]*\.\(.*\)\.po|\1|' \
-        | sort -u | tr '\n' ' ')
-      count=$(git diff --cached --name-only po/ | wc -l)
-      git commit -m "I18n: Update translations
-
-      Updated ${count} file(s): ${changed}"
-    - git push origin HEAD:master
+    - ./scripts/tx-pull.sh
