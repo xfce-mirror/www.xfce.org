@@ -29,26 +29,14 @@ build:
 
 tx-push:
   stage: sync
-  image: python:3.13-slim
+  image: transifex/txcli:v1.6
   needs: [build]
   rules:
     - changes:
         - i18n/en.yaml
         - content/**/*.md
-  before_script:
-    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
-        curl git > /dev/null
-    - curl -sfL -o /usr/local/bin/tx
-        "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
-    - chmod +x /usr/local/bin/tx
   script:
-    # POT files come from build artifact, compare against git
-    - |
-      if git diff --quiet po/strings.pot po/content.pot; then
-        echo "POT files unchanged"
-        exit 0
-      fi
-    - tx push --source --no-interactive
+    - tx push --source
 
 tx-pull:
   stage: sync
@@ -62,7 +50,7 @@ tx-pull:
         "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
     - chmod +x /usr/local/bin/tx
   script:
-    - tx pull --all --minimum-perc=50 --no-interactive --force
+    - tx pull --all --minimum-perc=50 --force
 
     # Validate, revert invalid PO files
     - |
