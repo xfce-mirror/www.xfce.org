@@ -32,7 +32,8 @@ tx-push:
   image: transifex/txcli:v1.6
   needs: [build]
   rules:
-    - changes:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+      changes:
         - i18n/en.yaml
         - content/**/*.md
   script:
