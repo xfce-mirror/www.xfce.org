@@ -61,8 +61,10 @@ git remote set-url origin \
   "https://gitlab-ci-token:${GIT_PUSH_TOKEN}@gitlab.xfce.org/${CI_PROJECT_PATH}.git"
 
 while read -r status po; do
-  lang=${po#*.}      # po/strings.pt_BR.po -> pt_BR.po
-  lang=${lang%.po}   #                     -> pt_BR
+  file=${po#po/}          # po/strings.pt_BR.po -> strings.pt_BR.po
+  resource=${file%%.*}    #                     -> strings
+  lang=${file#*.}         #                     -> pt_BR.po
+  lang=${lang%.po}        #                     -> pt_BR
 
   if [ "$status" = "??" ]; then
     action="Add new"
@@ -72,7 +74,7 @@ while read -r status po; do
 
   git add "$po"
   git commit --quiet --author "Anonymous <noreply@xfce.org>" \
-    -m "I18n: ${action} translation ${lang} ($(perc "$po")%)." \
+    -m "I18n: ${action} translation ${lang} (${resource}, $(perc "$po")%)." \
     -m "$(stats "$po")" \
     -m "Transifex (https://explore.transifex.com/xfce/)." \
     -- "$po"
