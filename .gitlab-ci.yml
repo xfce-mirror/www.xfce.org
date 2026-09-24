@@ -47,8 +47,7 @@ tx-pull:
   before_script:
     - apt-get update -qq && apt-get install -y -qq --no-install-recommends
         curl gettext git > /dev/null
-    - curl -sfL -o /usr/local/bin/tx
-        "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
-    - chmod +x /usr/local/bin/tx
+    - curl -sfL "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64.tar.gz"
+        | tar -xzf - -C /usr/local/bin tx
   script:
     - ./scripts/tx-pull.sh
