@@ -44,6 +44,7 @@ tx-push:
       changes:
         - i18n/en.yaml
         - content/**/*.md
+        - .gitlab-ci.yml # temporary
   script:
     # Without a terminal, tx cuts every line at 80 characters, error messages
     # included. --silent prints only errors, and prints them in full.
