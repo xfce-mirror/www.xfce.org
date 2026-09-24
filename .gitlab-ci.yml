@@ -45,7 +45,9 @@ tx-push:
         - i18n/en.yaml
         - content/**/*.md
   script:
-    - tx push --source
+    # Without a terminal, tx cuts every line at 80 characters, error messages
+    # included. --silent prints only errors, and prints them in full.
+    - tx push --source --silent
 
 tx-pull:
   extends: .tx
