@@ -1,0 +1,54 @@
+stages:
+  - build
+  - sync
+
+variables:
+  HUGO_VERSION: "0.161.1"
+  HUGO_GETTEXT_VERSION: "0.6.0"
+  TX_VERSION: "1.6.17"
+
+build:
+  stage: build
+  image: python:3.13-slim
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
+        curl gettext git > /dev/null
+    - curl -sfL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+        | tar -xzf - -C /usr/local/bin hugo
+    - pip install --no-cache-dir hugo-gettext==${HUGO_GETTEXT_VERSION} polib > /dev/null
+  script:
+    - ./build.sh --update-po
+  artifacts:
+    paths:
+      - public/
+      - po/strings.pot
+      - po/content.pot
+    expire_in: 1 day
+
+tx-push:
+  stage: sync
+  image: transifex/txcli:v1.6
+  needs: [build]
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+      changes:
+        - i18n/en.yaml
+        - content/**/*.md
+  script:
+    - tx push --source
+
+tx-pull:
+  stage: sync
+  image: python:3.13-slim
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+  before_script:
+    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
+        curl gettext git > /dev/null
+    - curl -sfL -o /usr/local/bin/tx
+        "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64"
+    - chmod +x /usr/local/bin/tx
+  script:
+    - ./scripts/tx-pull.sh
