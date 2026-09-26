@@ -4,10 +4,10 @@
 # Italang, 2026
 # Vincenzo Reale <smart2128vr@gmail.com>, 2026
 # Cristian Marchi <cri.penta@gmail.com>, 2026
-# Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2026
 # Nick Schermer <nick@xfce.org>, 2026
 # Dmytro Tokayev, 2026
 # Andre Miranda <andre@andreldm.com>, 2026
+# Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2026
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
 "POT-Creation-Date: 2026-09-24 22:09+0000\n"
 "PO-Revision-Date: 2026-09-09 19:46+0000\n"
-"Last-Translator: Andre Miranda <andre@andreldm.com>, 2026\n"
+"Last-Translator: Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2026\n"
 "Language-Team: Italian (https://app.transifex.com/xfce/teams/16840/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -54,6 +54,13 @@ msgid ""
 "#slide div#slide-apps { background-image: url(//cdn.xfce.org/slider/apps_mobile.png) !important; }\n"
 "}"
 msgstr ""
+"@media screen and (max-width:830px) {\n"
+"#slide div#slide-thunar { background-image: url(//cdn.xfce.org/slider/thunar_mobile.png) !important; }\n"
+"#slide div#slide-settings { background-image: url(//cdn.xfce.org/slider/settings_mobile.png) !important; }\n"
+"#slide div#slide-xfwm4 { background-image: url(//cdn.xfce.org/slider/xfwm4_mobile.png) !important; }\n"
+"#slide div#slide-panel { background-image: url(//cdn.xfce.org/slider/panel_mobile.png) !important; }\n"
+"#slide div#slide-apps { background-image: url(//cdn.xfce.org/slider/apps_mobile.png) !important; }\n"
+"}"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/_index.md:0
@@ -254,7 +261,7 @@ msgstr "Dopo più di due anni di sviluppo, Xfce 4.6.0 è stata rilasciata"
 #: content/about/news/1608595200.md:9 content/about/news/1671062400.md:9
 #: content/about/news/1734220800.md:9
 msgid "<!--more-->\n"
-msgstr ""
+msgstr "<!--more-->\n"
 
 #. type: Plain text
 #: content/about/news/1235692800.md:11
@@ -348,6 +355,9 @@ msgid ""
 "features a lot of updated translations and fixes some bugs or regressions "
 "with new GTK+ versions."
 msgstr ""
+"È stata rilasciata la seconda versione correttiva di Xfce 4.6. Questa "
+"versione include numerosi aggiornamenti delle traduzioni e risolve alcuni "
+"bug o regressioni introdotti dalle nuove versioni di GTK+."
 
 #. type: Bullet: '- '
 #: content/about/news/1274572800.md:12
@@ -583,6 +593,12 @@ msgid ""
 "little more we no longer use xrdb to update xft and cursor settings and "
 "instead, update the related XSETTINGS properties ourselves."
 msgstr ""
+"Abbiamo inoltre ripristinato il funzionamento dei parametri `--reboot` e "
+"`--halt` di xfce4-session-logout, che in precedenza si limitavano "
+"semplicemente a disconnettere l'utente attivo. Per evitare una condizione di"
+" competizione all'avvio della sessione e per velocizzare ulteriormente il "
+"processo, non utilizziamo più xrdb per aggiornare le impostazioni di xft e "
+"del cursore, ma aggiorniamo direttamente le relative proprietà XSETTINGS."
 
 #. type: Plain text
 #: content/about/news/1293926400.md:17
@@ -795,7 +811,7 @@ msgstr ""
 
 #: content/about/news/1295136000.md:25
 msgid "<https://xfce.org/about/tour48>"
-msgstr ""
+msgstr "<https://xfce.org/about/tour48>"
 
 #. type: Plain text
 #: content/about/news/1295136000.md:27
@@ -810,7 +826,7 @@ msgstr ""
 
 #: content/about/news/1295136000.md:29
 msgid "<https://xfce.org/download/changelogs/4.8>"
-msgstr ""
+msgstr "<https://xfce.org/download/changelogs/4.8>"
 
 #. type: Plain text
 #: content/about/news/1295136000.md:31
@@ -823,7 +839,7 @@ msgstr ""
 
 #: content/about/news/1295136000.md:33
 msgid "<http://archive.xfce.org/xfce/4.8/>"
-msgstr ""
+msgstr "<http://archive.xfce.org/xfce/4.8/>"
 
 #. type: Plain text
 #: content/about/news/1295136000.md:35
@@ -843,6 +859,10 @@ msgid ""
 "celebrating. Thanks go out to all our contributors, bug reporters as well as"
 " the awesome efforts of our translators and packagers."
 msgstr ""
+"Nel frattempo, speriamo che possiate apprezzare la versione rilasciata oggi "
+"e unirvi a noi nei festeggiamenti. Un ringraziamento va a tutti i nostri "
+"collaboratori, a chi ha segnalato bug, nonché allo straordinario lavoro "
+"svolto dai nostri traduttori e dai responsabili dei pacchetti."
 
 #. type: Plain text
 #: content/about/news/1295136000.md:39 content/about/news/1335571200.md:33
@@ -1147,7 +1167,7 @@ msgstr ""
 #: content/about/news/1335571200.md:21 content/about/news/1425081600.md:52
 #: content/about/news/1565568000.md:50
 msgid "<https://xfce.org/about/tour>"
-msgstr ""
+msgstr "<https://xfce.org/about/tour>"
 
 #. type: Plain text
 #: content/about/news/1335571200.md:23
@@ -1161,7 +1181,7 @@ msgstr ""
 #: content/about/news/1335571200.md:25 content/about/news/1425081600.md:56
 #: content/about/news/1565568000.md:54
 msgid "<https://xfce.org/download/changelogs>"
-msgstr ""
+msgstr "<https://xfce.org/download/changelogs>"
 
 #. type: Plain text
 #: content/about/news/1335571200.md:27 content/about/news/1425081600.md:58
@@ -1176,7 +1196,7 @@ msgstr ""
 
 #: content/about/news/1335571200.md:29
 msgid "<http://archive.xfce.org/xfce/4.10>"
-msgstr ""
+msgstr "<http://archive.xfce.org/xfce/4.10>"
 
 #. type: Plain text
 #: content/about/news/1335571200.md:31
@@ -1222,6 +1242,12 @@ msgid ""
 "Xfce follows its steady pace of evolution without revolution that seems to "
 "match our users' needs."
 msgstr ""
+"Questo lungo periodo può essere spiegato solo da quanto Xfce 4.10 fosse "
+"straordinario. Tuttavia, come ogni cosa, anche Xfce aveva bisogno di un "
+"rinnovamento, per questo abbiamo visto molti nuovi collaboratori fornire "
+"preziosi contributi sotto forma di feedback, funzionalità e correzioni di "
+"bug. Come sempre, Xfce segue il suo ritmo costante di evoluzione senza "
+"rivoluzioni, che sembra adattarsi alle esigenze dei nostri utenti."
 
 #. type: Plain text
 #: content/about/news/1425081600.md:17
@@ -1351,6 +1377,10 @@ msgid ""
 "dropping our Gtk3 engine - theme makers, please update your themes to CSS if"
 " you want them to work on the next Xfce version."
 msgstr ""
+"Per preparare il futuro di Xfce con Gtk3, che non utilizza più i motori dei "
+"temi, interrompiamo lo sviluppo del nostro motore di temi Gtk e dismettiamo "
+"il motore Gtk3. Agli autori di temi chiediamo di aggiornare i propri temi a "
+"CSS affinché continuino a funzionare nella prossima versione di Xfce."
 
 #. type: Bullet: '- '
 #: content/about/news/1425081600.md:31
@@ -1500,7 +1530,7 @@ msgstr ""
 
 #: content/about/news/1425081600.md:60
 msgid "<http://archive.xfce.org/xfce/4.12>"
-msgstr ""
+msgstr "<http://archive.xfce.org/xfce/4.12>"
 
 #. type: Plain text
 #: content/about/news/1425081600.md:62
@@ -1611,6 +1641,13 @@ msgid ""
 "setting, a new default clock format and clock format evaluator as well as an"
 " improved default panel layout."
 msgstr ""
+"Il [pannello](https://docs.xfce.org/xfce/xfce4-panel/start) ha ricevuto il "
+"supporto alla funzionalità di monitor principale di RandR, un miglioramento "
+"del raggruppamento delle finestre nel plugin elenco finestre (migliore "
+"esperienza utente, indicatore visivo dei gruppi, ecc.), un'impostazione per "
+"la dimensione delle icone specifica per ciascun pannello, un nuovo formato "
+"predefinito dell'orologio e un valutatore del formato dell'orologio, oltre a"
+" un layout predefinito del pannello migliorato."
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:17
@@ -1972,7 +2009,7 @@ msgstr ""
 
 #: content/about/news/1565568000.md:58
 msgid "<http://archive.xfce.org/xfce/4.14>"
-msgstr ""
+msgstr "<http://archive.xfce.org/xfce/4.14>"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/news/1608595200.md:0
@@ -2046,6 +2083,8 @@ msgid ""
 "<img src=\"//cdn.xfce.org/about/tour/4.16/upstream-icons.png\" border=\"0\" "
 "alt=\"upstream-icons\" style=\"max-width: 100%;\"/>\n"
 msgstr ""
+"<img src=\"//cdn.xfce.org/about/tour/4.16/upstream-icons.png\" border=\"0\" "
+"alt=\"upstream-icons\" style=\"max-width: 100%;\"/>\n"
 
 #. type: Plain text
 #: content/about/news/1608595200.md:17
@@ -2244,7 +2283,7 @@ msgstr ""
 
 #: content/about/news/1608595200.md:38
 msgid "<https://www.xfce.org/about/tour416>"
-msgstr ""
+msgstr "<https://www.xfce.org/about/tour416>"
 
 #. type: Plain text
 #: content/about/news/1608595200.md:40
@@ -2257,11 +2296,11 @@ msgstr ""
 
 #: content/about/news/1608595200.md:42
 msgid "<https://www.xfce.org/download/changelogs/4.16>"
-msgstr ""
+msgstr "<https://www.xfce.org/download/changelogs/4.16>"
 
 #: content/about/news/1608595200.md:46
 msgid "<https://archive.xfce.org/xfce/4.16>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/4.16>"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/news/1671062400.md:0
@@ -2294,6 +2333,8 @@ msgid ""
 "<img src=\"//cdn.xfce.org/about/screenshots/4.18-1.png\" border=\"0\" "
 "alt=\"Xfce 4.18 screenshot\" style=\"max-width: 100%;\"/>\n"
 msgstr ""
+"<img src=\"//cdn.xfce.org/about/screenshots/4.18-1.png\" border=\"0\" "
+"alt=\"Xfce 4.18 screenshot\" style=\"max-width: 100%;\"/>\n"
 
 #. type: Plain text
 #: content/about/news/1671062400.md:15
@@ -2318,7 +2359,7 @@ msgstr ""
 
 #: content/about/news/1671062400.md:19
 msgid "<https://www.xfce.org/about/tour418>"
-msgstr ""
+msgstr "<https://www.xfce.org/about/tour418>"
 
 #. type: Plain text
 #: content/about/news/1671062400.md:21
@@ -2331,11 +2372,11 @@ msgstr ""
 
 #: content/about/news/1671062400.md:23
 msgid "<https://www.xfce.org/download/changelogs/4.18>"
-msgstr ""
+msgstr "<https://www.xfce.org/download/changelogs/4.18>"
 
 #: content/about/news/1671062400.md:27
 msgid "<https://archive.xfce.org/xfce/4.18>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/4.18>"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/news/1734220800.md:0
@@ -2368,6 +2409,8 @@ msgid ""
 "<img src=\"//cdn.xfce.org/about/screenshots/4.20-1.png\" border=\"0\" "
 "alt=\"Xfce 4.20 screenshot\" style=\"max-width: 100%;\"/>\n"
 msgstr ""
+"<img src=\"//cdn.xfce.org/about/screenshots/4.20-1.png\" border=\"0\" "
+"alt=\"Xfce 4.20 screenshot\" style=\"max-width: 100%;\"/>\n"
 
 #. type: Plain text
 #: content/about/news/1734220800.md:15
@@ -2392,7 +2435,7 @@ msgstr ""
 
 #: content/about/news/1734220800.md:19
 msgid "<https://www.xfce.org/about/tour420>"
-msgstr ""
+msgstr "<https://www.xfce.org/about/tour420>"
 
 #. type: Plain text
 #: content/about/news/1734220800.md:21
@@ -2405,11 +2448,11 @@ msgstr ""
 
 #: content/about/news/1734220800.md:23
 msgid "<https://www.xfce.org/download/changelogs/4.20>"
-msgstr ""
+msgstr "<https://www.xfce.org/download/changelogs/4.20>"
 
 #: content/about/news/1734220800.md:27
 msgid "<https://archive.xfce.org/xfce/4.20>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/4.20>"
 
 #: content/about/news/_index.md:0
 msgid "News"
@@ -5081,7 +5124,7 @@ msgstr ""
 
 #: content/about/tour420.md:48
 msgid "[exo](https://docs.xfce.org/xfce/exo/start)"
-msgstr ""
+msgstr "[exo](https://docs.xfce.org/xfce/exo/start)"
 
 #. type: Title ###
 #: content/about/tour420.md:50
@@ -5113,7 +5156,7 @@ msgstr ""
 
 #: content/about/tour420.md:58
 msgid "[libxfce4ui](https://docs.xfce.org/xfce/libxfce4ui/start)"
-msgstr ""
+msgstr "[libxfce4ui](https://docs.xfce.org/xfce/libxfce4ui/start)"
 
 #. type: Title ###
 #: content/about/tour420.md:60
@@ -5152,6 +5195,7 @@ msgstr "![libxfce4ui - finestra delle informazioni][img-libxfce4ui_about]"
 msgid ""
 "[libxfce4windowing](https://docs.xfce.org/xfce/libxfce4windowing/start)"
 msgstr ""
+"[libxfce4windowing](https://docs.xfce.org/xfce/libxfce4windowing/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:72
@@ -5181,7 +5225,7 @@ msgstr ""
 
 #: content/about/tour420.md:76
 msgid "[thunar](https://docs.xfce.org/xfce/thunar/start)"
-msgstr ""
+msgstr "[thunar](https://docs.xfce.org/xfce/thunar/start)"
 
 #. type: Title ###
 #: content/about/tour420.md:78
@@ -5546,7 +5590,7 @@ msgstr ""
 
 #: content/about/tour420.md:185
 msgid "[xfce4-appfinder](https://docs.xfce.org/xfce/xfce4-appfinder/start)"
-msgstr ""
+msgstr "[xfce4-appfinder](https://docs.xfce.org/xfce/xfce4-appfinder/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:187
@@ -5611,7 +5655,7 @@ msgstr "![xfce4-appfinder - impostazioni][img-appfinder_new]"
 
 #: content/about/tour420.md:203
 msgid "[xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start)"
-msgstr ""
+msgstr "[xfce4-panel](https://docs.xfce.org/xfce/xfce4-panel/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:207
@@ -5708,6 +5752,7 @@ msgstr ""
 msgid ""
 "[xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start)"
 msgstr ""
+"[xfce4-power-manager](https://docs.xfce.org/xfce/xfce4-power-manager/start)"
 
 #. type: Title ###
 #: content/about/tour420.md:237
@@ -5817,7 +5862,7 @@ msgstr ""
 
 #: content/about/tour420.md:267
 msgid "[xfce4-session](https://docs.xfce.org/xfce/xfce4-session/start)"
-msgstr ""
+msgstr "[xfce4-session](https://docs.xfce.org/xfce/xfce4-session/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:269
@@ -5845,7 +5890,7 @@ msgstr ""
 
 #: content/about/tour420.md:275
 msgid "[xfce4-settings](https://docs.xfce.org/xfce/xfce4-settings/start)"
-msgstr ""
+msgstr "[xfce4-settings](https://docs.xfce.org/xfce/xfce4-settings/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:279
@@ -5972,7 +6017,7 @@ msgstr ""
 
 #: content/about/tour420.md:313
 msgid "[xfconf](https://docs.xfce.org/xfce/xfconf/start)"
-msgstr ""
+msgstr "[xfconf](https://docs.xfce.org/xfce/xfconf/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:315
@@ -5998,7 +6043,7 @@ msgstr "Xfconf-query ora visualizza il contenuto degli array."
 
 #: content/about/tour420.md:321
 msgid "[xfdesktop](https://docs.xfce.org/xfce/xfdesktop/start)"
-msgstr ""
+msgstr "[xfdesktop](https://docs.xfce.org/xfce/xfdesktop/start)"
 
 #. type: Title ###
 #: content/about/tour420.md:323
@@ -6206,7 +6251,7 @@ msgstr ""
 
 #: content/about/tour420.md:381
 msgid "[xfwm4](https://docs.xfce.org/xfce/xfwm4/start)"
-msgstr ""
+msgstr "[xfwm4](https://docs.xfce.org/xfce/xfwm4/start)"
 
 #. type: Plain text
 #: content/about/tour420.md:383
@@ -7792,7 +7837,7 @@ msgstr ""
 
 #: content/download/_index.md:13
 msgid "<https://archive.xfce.org/xfce/{{% version \"stable\" %}}/>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/{{% version \"stable\" %}}/>"
 
 #: content/download/_index.md:15
 msgid "Individual releases"
@@ -7820,7 +7865,7 @@ msgstr ""
 
 #: content/download/_index.md:19
 msgid "<https://archive.xfce.org/src/>"
-msgstr ""
+msgstr "<https://archive.xfce.org/src/>"
 
 #: content/download/_index.md:22
 msgid "Preview release {{% version \"preview\" %}}"
@@ -7842,7 +7887,7 @@ msgstr ""
 
 #: content/download/_index.md:26
 msgid "<https://archive.xfce.org/xfce/{{% version \"preview\" %}}/>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/{{% version \"preview\" %}}/>"
 
 #: content/download/_index.md:30
 msgid "Distributions"
@@ -7954,6 +7999,10 @@ msgid ""
 "understand how to make the most of the Xfce Desktop Environment. [Learn More"
 " →](https://docs.xfce.org/contribute/documentation)"
 msgstr ""
+"Molte persone utilizzano e testano Xfce. Fornendo una documentazione utile e"
+" aggiornata, è possibile dare un contributo importante per aiutare gli "
+"utenti a comprendere come ottenere il massimo dall'ambiente desktop Xfce. "
+"[Ulteriori informazioni →](https://docs.xfce.org/contribute/documentation)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:14
@@ -7968,6 +8017,10 @@ msgid ""
 " the global market and more accessible to the millions of potential users "
 "out there. [Learn More →](https://docs.xfce.org/contribute/translate/start)"
 msgstr ""
+"Parli più lingue? Contribuendo con le tue traduzioni all'ambiente desktop "
+"Xfce, aiuterai Xfce a essere più presente nel mercato globale e più "
+"accessibile ai milioni di potenziali utenti in tutto il mondo. [Ulteriori "
+"informazioni →](https://docs.xfce.org/contribute/translate/start)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:18
@@ -8058,6 +8111,11 @@ msgid ""
 "(€)](https://opencollective.com/xfce-eu) respectively. [Learn More "
 "→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 msgstr ""
+"Per sostenere finanziariamente il progetto, è possibile utilizzare "
+"OpenCollective. Xfce ha creato due collettivi, denominati rispettivamente  "
+"[Xfce ($)](https://opencollective.com/xfce) e [Xfce-Eu "
+"(€)](https://opencollective.com/xfce-eu). [Ulteriori informazioni "
+"→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 
 #: content/projects/_index.md:0
 msgid "Projects"
