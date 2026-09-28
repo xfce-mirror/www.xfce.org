@@ -15,10 +15,4 @@
   <meta name="keywords" content="{{ . }}" />
   {{- end }}
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ "feed" | absLangURL }}" />
-
-  {{- with .Params.css }}
-  <style type="text/css">
-{{ . | safeCSS }}
-  </style>
-  {{- end }}
 </head>
