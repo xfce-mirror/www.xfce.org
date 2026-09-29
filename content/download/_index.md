@@ -14,7 +14,7 @@ Xfce {{% version "stable" %}} is the most recent version of the Xfce desktop env
 
 ## Individual releases {#individual}
 
-Each package in Xfce can make individual stable or development releases, including the core packages (as described in the [release model](https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release)). You can follow the announcements of the releases on the [Xfce users mailing list](/community), watch the [release feeds](https://archive.xfce.org/feeds/project/) or follow the Xfce [Mastodon](https://floss.social/@xfce) or [Twitter account](https://twitter.com/xfceofficial).
+Each package in Xfce can make individual stable or development releases, including the core packages (as described in the [release model](https://docs.xfce.org/contribute/dev/make-a-platform-release#making_a_platform_release)). You can follow the announcements of the releases on the [Xfce users mailing list](/community), watch the [release feeds](https://archive.xfce.org/feeds/project/) or follow the Xfce [Mastodon](https://floss.social/@xfce).
 
 - <https://archive.xfce.org/src/>
 
