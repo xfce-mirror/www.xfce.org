@@ -490,6 +490,9 @@ msgid ""
 "little more we no longer use xrdb to update xft and cursor settings and "
 "instead, update the related XSETTINGS properties ourselves."
 msgstr ""
+"我们还再次使用 xfce4-session-logout 的参数 `--reboot` 和 "
+"`--halt`，而此前仅仅是注销当前用户。为了避免会话启动时的紊乱状况，为了使事情更快一点，我们不再使用 xrdb 更新 xft "
+"和光标设置，而是更新了 XSETTINGS 相关的属性。"
 
 #. type: Plain text
 #: content/about/news/1293926400.md:17
@@ -694,7 +697,7 @@ msgid ""
 "But until then we hope you will enjoy today's release and join us in "
 "celebrating. Thanks go out to all our contributors, bug reporters as well as"
 " the awesome efforts of our translators and packagers."
-msgstr ""
+msgstr "但到那时我们希望您仍会喜欢今天的发布并加入我们的庆祝行列。我们的谢意送给四方的贡献者、缺陷报告者，同样送给翻译者和打包者的精彩成果。"
 
 #. type: Plain text
 #: content/about/news/1295136000.md:39 content/about/news/1335571200.md:33
@@ -1004,6 +1007,9 @@ msgid ""
 "Xfce follows its steady pace of evolution without revolution that seems to "
 "match our users' needs."
 msgstr ""
+"漫长的周期只能通过 Xfce 4.10 "
+"有多棒来解释。就像所有的事情，需要重新整理，以及我们看到许多新的贡献者提供了有价值的回馈、功能与错误修复。和以前一样，Xfce "
+"依循着它自己的稳健步伐，进步而非革命，似乎也满足了使用者的需求。"
 
 #. type: Plain text
 #: content/about/news/1425081600.md:17
@@ -1105,6 +1111,8 @@ msgid ""
 "dropping our Gtk3 engine - theme makers, please update your themes to CSS if"
 " you want them to work on the next Xfce version."
 msgstr ""
+"考虑到 Xfce 与 Gtk3 的未来（即抛弃了对主题引擎的依赖），我们已停止对 Gtk 主题引擎 theme makers "
+"的开发并逐渐弃之。若您想继续使用下一个 Xfce 版本，请使用 CSS（层叠式样式表）升级您的主题。"
 
 #. type: Bullet: '- '
 #: content/about/news/1425081600.md:31
@@ -1315,6 +1323,9 @@ msgid ""
 "setting, a new default clock format and clock format evaluator as well as an"
 " improved default panel layout."
 msgstr ""
+" [面板](https://docs.xfce.org/xfce/xfce4-panel/start) 已支持 RandR "
+"的主显示器功能，改进了tasklist "
+"任务列表插件中的窗口分组（更好的用户体验、可视组指示器等），每个面板的“图标大小”设置，新的默认时钟格式和时钟格式，以及改进的默认面板布局。"
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:17
@@ -1325,6 +1336,8 @@ msgid ""
 "wallpaper and it now syncs the user's wallpaper selection to "
 "AccountsService."
 msgstr ""
+"[桌面](https://docs.xfce.org/xfce/xfdesktop/start) 现在支持 RandR "
+"的主显示功能，拥有一个图标排列的方向选项，以及一个“下一个壁纸”交互菜单选项来推进墙纸，它现在也同步用户选择的墙纸到 AccountsService。"
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:18
@@ -1454,6 +1467,10 @@ msgid ""
 "Disturb\" mode. Finally support for showing notifications on RandR's primary"
 " monitor was added."
 msgstr ""
+"我们的[通知服务](https://docs.xfce.org/apps/notifyd/start) 已获得对持久性的支持 - 也就是说：通知日志记录"
+" - 和“请勿打扰”模式，该模式禁止显示所有通知。 "
+"我们创建了一个新的面板插件，该插件将显示错过的通知（在“请勿打扰”模式下特别有用），并能快速访问切换至“请勿打扰”模式。 最后，添加了在 RandR "
+"的主显示器上显示通知的支持。"
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:30
@@ -1580,6 +1597,8 @@ msgid ""
 "archive on git.xfce.org when they die.) With a salty teardrop of sadness we "
 "bid farewell to:"
 msgstr ""
+"像往常一样，是时候告别一些旧的**未维护或弃用的项目**了。（幸运的是，当他们停用之后，我们将它们束之高阁，放入  git.xfce.org "
+"网站档案馆。）带着一滴咸咸的悲伤的泪水，我们告别："
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:46
@@ -1680,7 +1699,7 @@ msgstr "最后，我们做了一些整理工作（例如，删除了 Gtk2 支持
 #: content/about/news/1608595200.md:19
 msgid ""
 "So without further ado, here go the **main highlights of this release**:"
-msgstr ""
+msgstr "因此，不再多说，**本次发布的主要亮点**如下："
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:21
@@ -1710,6 +1729,10 @@ msgid ""
 "offering to `Launch a new instance` of an application and the Workspace "
 "Switcher now optionally showing automatic numbering for workspaces."
 msgstr ""
+"我们在[面板中](https://docs.xfce.org/xfce/xfce4-panel/start) "
+"添加了一个名为“statustray“的新插件，它结合了 StatusNotifier 和传统的 Systray "
+"项目。动画自动隐藏过渡现在清楚地显示用户“面板去了哪里”，暗黑模式（默认启用）使面板与 Gtk 默认的 Adwaita "
+"这样的亮主题更接近背景。此外，还引入了一些更小的改进，比如从启动器的右键菜单访问桌面操作，窗口按钮插件现在提供应用程序的“启动新实例”操作，工作区切换器现在可以选择显示工作区的自动编号。"
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:23
@@ -1728,7 +1751,7 @@ msgid ""
 "A new tab in the “About Xfce” dialog shows basic system information like CPU"
 " or GPU type. Furthermore the layout and visuals of the dialog were "
 "improved."
-msgstr ""
+msgstr "“关于 Xfce” 对话框中的一个新选项卡显示了基本的系统信息，如 CPU 或 GPU 类型。此外，对话框的布局和视觉效果也得到了改进。"
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:25
