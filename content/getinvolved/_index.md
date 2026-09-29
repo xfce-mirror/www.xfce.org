@@ -21,7 +21,7 @@ By becoming a developer, you can make a big difference while enjoying a challeng
 
 ## Promotion
 
-If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Mastodon or Twitter account you can also help by reposting any announcements we make to help us reach a larger audience.
+If you own a blog or website you can greatly help by spreading the word and encouraging new users to give Xfce a try. If you have a Mastodon account you can also help by reposting any announcements we make to help us reach a larger audience.
 
 ## Bug Reporting and testing
 

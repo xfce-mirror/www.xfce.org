@@ -21,4 +21,4 @@ For users who prefer forums, the [Xfce Forum](https://forum.xfce.org/) is the pl
 
 ## Social Networks
 
-You can follow us on the official [Mastodon account](https://floss.social/@xfce) or [Twitter account](https://twitter.com/xfceofficial)
+You can follow us on the official [Mastodon account](https://floss.social/@xfce).
