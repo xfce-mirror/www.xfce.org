@@ -1770,6 +1770,7 @@ msgid ""
 "the “Default Applications” dialog - making it easier for users to set which "
 "application handles which filetype or action from one place."
 msgstr ""
+"“Mime 设置”和“首选应用程序”对话框被合并到“默认应用程序”对话框中，使用户可以更轻松地从一个位置设置哪个应用程序处理或操作哪种文件类型。"
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:27
@@ -1842,13 +1843,15 @@ msgid ""
 "now allows for sorting applications by “frecency” - a combination of "
 "frequency and recency."
 msgstr ""
+"[应用程序查找器](https://docs.xfce.org/xfce/xfce4-appfinder/start) "
+"现在允许按“频率”对应用程序进行排序 - 一种基于频率和最近使用的组合。"
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:34
 msgid ""
 "Dependency updates: Drop Gtk2, add LibGTop, bump Gtk &gt;= 3.22, GLib and "
 "GDBus &gt;= 2.50"
-msgstr ""
+msgstr "依赖更新：删除 Gtk2, 增加 LibGTop, 版本更新 Gtk = 3.22, GLib 和 GDBus = 2.50"
 
 #. type: Plain text
 #: content/about/news/1608595200.md:36
@@ -1915,6 +1918,8 @@ msgid ""
 "Manager. Though as well multiple other Xfce components got a lot of love and"
 " many improvements were done under the hood."
 msgstr ""
+"这个开发周期受 [GSoC 2021](https://summerofcode.withgoogle.com/archive/2021/organizations/5706869816950784)  和[GSoC 2022](https://summerofcode.withgoogle.com/programs/2022/organizations/xfce) 的影响很大，影响了各种新功能，其中大部分是 Xfce 文件管理器 Thunar。\n"
+"      尽管如此，其他多个 Xfce 组件也得到了很多人的喜爱，并且在底层进行了许多改进。"
 
 #. type: Plain text
 #: content/about/news/1671062400.md:17
@@ -2064,7 +2069,7 @@ msgstr "我们希望随着百科的引入，开发者和贡献者可以更加容
 #: content/about/tour410.md:17 content/about/tour418.md:199
 #: content/about/tour46.md:131
 msgid "Application Finder *(xfce4-appfinder)*"
-msgstr ""
+msgstr "应用程序查找器 *(xfce4-appfinder)*"
 
 #. type: Plain text
 #: content/about/tour410.md:19
@@ -2093,7 +2098,7 @@ msgstr "![应用程序查找器的扩展视图][img-appfinder-expanded]"
 #: content/about/tour418.md:37 content/about/tour46.md:19
 #: content/about/tour48.md:29
 msgid "Panel *(xfce4-panel)*"
-msgstr ""
+msgstr "面板 *(xfce4-panel)*"
 
 #. type: Title ###
 #: content/about/tour410.md:27
@@ -2107,6 +2112,7 @@ msgid ""
 "rows in the panel. Some plugins (e.g. *launchers*) fit a single row, while "
 "others, like window buttons are allowed to occupy full width of the panel."
 msgstr ""
+"在 4.10 中有一个单一面板范围的选项用于配置面板的行数。一些插件(如 *启动器*)适合单行，其它的插件，如窗口按钮，却可以占用整个面板区域。"
 
 #. type: Plain text
 #: content/about/tour410.md:31
@@ -2127,6 +2133,8 @@ msgid ""
 "mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
 msgstr ""
+"面板的亮点是一个称为 *桌面栏* "
+"模式的新配置。在桌面栏模式中，与竖直模式一样，面板竖直放置，插件却水平放置。由于支持多列，它让我们能创建适合宽屏设置的宽竖直面板。"
 
 #. type: Plain text
 #: content/about/tour410.md:37
@@ -2145,7 +2153,7 @@ msgstr "动作插件"
 msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
 "rewritten *actions* plugin"
-msgstr ""
+msgstr "xfce4-session 软件包中的会话插件已经与一个重写的 *动作* 插件合并"
 
 #. type: Plain text
 #: content/about/tour410.md:43
@@ -2167,6 +2175,7 @@ msgid ""
 "add a transparent *separator* plugin with the **Expand** option enabled just"
 " behind the window buttons plugin."
 msgstr ""
+"为了使插件的定位更加灵活，*窗口按钮* 插件已不再扩展。要恢复先前的行为，请在窗口按钮插件之后添加一个透明 *分隔符* 插件，且启动其 *扩展* 选项。"
 
 #. type: Title ##
 #: content/about/tour410.md:49 content/about/tour412.md:105
@@ -2174,7 +2183,7 @@ msgstr ""
 #: content/about/tour418.md:71 content/about/tour46.md:67
 #: content/about/tour48.md:9
 msgid "File Manager *(thunar)*"
-msgstr ""
+msgstr "文件管理器 *(thunar)*"
 
 #. type: Plain text
 #: content/about/tour410.md:51
@@ -2186,7 +2195,7 @@ msgstr "在 Thunar 的此版本中有少数可见的更改。主窗口使用更�
 #. type: Title ##
 #: content/about/tour410.md:53 content/about/tour46.md:33
 msgid "Session Manager *(xfce4-session)*"
-msgstr ""
+msgstr "会话管理器 *(xfce4-session)*"
 
 #. type: Plain text
 #: content/about/tour410.md:55
@@ -2196,6 +2205,8 @@ msgid ""
 "and the session manager can now lock the screen before suspending or "
 "hibernating the system."
 msgstr ""
+"*会话管理器* 的设置对话框现在有一个用于清除已保存会话(`rm -r ~/.config/sessions`)的按钮。Xfce4 "
+"启动提示已经移除，会话管理器现在能够在系统挂起或休眠前锁住屏幕。"
 
 #. type: Title ###
 #: content/about/tour410.md:57
@@ -2214,6 +2225,9 @@ msgid ""
 "Unlike in previous versions of Xfce, compatibility services can be started "
 "independently from each other."
 msgstr ""
+"另一个显著的更改是 Gnome 和 KDE 兼容性运作的方式。兼容性复选框只启用那些服务，它们必须在其它应用程序(Gnome 的 *gnome-"
+"keyring*和 *gconf*，KDE 的 *kdeinit*)前启动。其它的自启动应用程序都可以从 *应用程序自启动* 那里启动，但为了与 "
+"Xfce 应用程序区别开来，它们使用斜体列出且默认没有启用。不像先前版本的 Xfce，兼容性服务可以相互独立地启动。"
 
 #. type: Plain text
 #: content/about/tour410.md:61
@@ -2226,7 +2240,7 @@ msgstr "![不是 Xfce 一部分的应用程序，也使用斜体列出][img-sess
 #: content/about/tour410.md:63 content/about/tour412.md:63
 #: content/about/tour46.md:85 content/about/tour48.md:73
 msgid "Settings *(xfce4-settings)*"
-msgstr ""
+msgstr "设置 *(xfce4-settings)*"
 
 #. type: Title ###
 #: content/about/tour410.md:65
@@ -2240,6 +2254,8 @@ msgid ""
 "and `xfsettingsd`. In 4.10 they have been merged into xfsettingsd, which now"
 " handles all system settings."
 msgstr ""
+"Xfce 4.8 使用两个进程用于设置： `xfce4-settings-helper`和   `xfsettingsd`。在 4.10 "
+"中它们已经合并为 xfsettingsd，它现在处理所有系统设置。"
 
 #. type: Plain text
 #: content/about/tour410.md:71
@@ -2249,6 +2265,7 @@ msgid ""
 "are also now embedded in the settings manager window (this was a compile-"
 "time option in Xfce 4.8)."
 msgstr ""
+"新的 *设置管理器* 以类别分组配置对话框，且能让您搜索其名称或描述。大多数对话框也已嵌入进设置管理器窗口中了(在 4.8 中这是一个编译选项)。"
 
 #. type: Plain text
 #: content/about/tour410.md:73
@@ -2270,6 +2287,8 @@ msgid ""
 " tree). Most properties can now be edited in-place, making it easier to "
 "quickly adjust settings."
 msgstr ""
+"在您编辑一个属性时，*设置编辑器* "
+"不再摧毁整个属性树(这是因为它现在重载单个属性单元而不是重载整个属性树)。大多数属性现在都可以在原处编辑，使得快速调整某个设置变得更加容易。"
 
 #. type: Plain text
 #: content/about/tour410.md:79
@@ -2301,6 +2320,9 @@ msgid ""
 " not allow you to change the system MIME Type definitions (add or remove "
 "types and change icons)."
 msgstr ""
+"在过去的若干年里，很多人都在寻找一个用于管理文件组的工具。此新的  *Mime 类型编辑器* "
+"就是那个。它让您能轻松地为某种文件类型分配一个默认应用程序、照看您的更改并在需要时将其重置为默认设置。注意它不允许您更改系统 Mime "
+"类型定义(添加或移除类型和更改图标)。"
 
 #. type: Plain text
 #: content/about/tour410.md:87
@@ -2322,13 +2344,15 @@ msgid ""
 "handles all kinds of device properties, as documented in the [mouse "
 "settings](https://docs.xfce.org/xfce/xfce4-settings/mouse) wiki."
 msgstr ""
+" *鼠标及触摸板*对话框能够在图形界面中处理基本的触摸板和数位板属性。一个在后台运行的设置守护进程处理所有种类的设备属性，在 "
+"[鼠标设置](https://docs.xfce.org/xfce/xfce4-settings/mouse)  中有此维基页面。."
 
 #. type: Plain text
 #: content/about/tour410.md:93
 msgid ""
 "![Synaptics touchpad settings in the mouse and touchpad dialog][img-"
 "settings-mouse]"
-msgstr ""
+msgstr "![在鼠标和触摸板对话框中的触摸板设置][img-settings-mouse]"
 
 #. type: Title ###
 #: content/about/tour410.md:95 content/about/tour412.md:73
