@@ -42,6 +42,8 @@ msgid ""
 "desktop environment, window manager, desktop, speed, lightweight, gtk+, open"
 " source, xforms common environment"
 msgstr ""
+"Desktop-Umgebung, Fensterverwaltung, Schreibtisch, Geschwindigkeit, "
+"ressourcenschonend, GTK+, Open Source, XFormsCommon Environment"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/_index.md:0
@@ -338,6 +340,9 @@ msgid ""
 "features a lot of updated translations and fixes some bugs or regressions "
 "with new GTK+ versions."
 msgstr ""
+"Die zweite Bugfix-Version von Xfce 4.6 wurde veröffentlicht. Diese Version "
+"enthält zahlreiche aktualisierteÜbersetzungen und behebt einige Fehler bzw. "
+"Regressionen, die durch neue GTK+-Versionen verursacht wurden."
 
 #. type: Bullet: '- '
 #: content/about/news/1274572800.md:12
@@ -571,6 +576,12 @@ msgid ""
 "little more we no longer use xrdb to update xft and cursor settings and "
 "instead, update the related XSETTINGS properties ourselves."
 msgstr ""
+"Außerdem haben wir dafür gesorgt, dass die Parameter `--reboot` und `--halt`"
+" von xfce4-session-logout wieder funktionieren, die zuvor lediglich den "
+"aktiven Benutzer abgemeldet haben. Um eine Race Condition beim Start der "
+"Sitzung zu vermeiden und den Vorgang noch etwas zu beschleunigen, verwenden "
+"wir xrdb nicht mehr zur Aktualisierung der xft- und Cursor-Einstellungen, "
+"sondern aktualisieren die entsprechenden XSETTINGS-Eigenschaften nun selbst."
 
 #. type: Plain text
 #: content/about/news/1293926400.md:17
@@ -833,6 +844,10 @@ msgid ""
 "celebrating. Thanks go out to all our contributors, bug reporters as well as"
 " the awesome efforts of our translators and packagers."
 msgstr ""
+"Bis dahin hoffen wir jedoch, dass euch die heutige Veröffentlichung gefällt "
+"und ihr mit uns feiert. Unser Dank gilt allen Mitwirkenden, denjenigen, die "
+"Fehler gemeldet haben, sowie unseren Übersetzern und Paketierern für ihren "
+"großartigen Einsatz."
 
 #. type: Plain text
 #: content/about/news/1295136000.md:39 content/about/news/1335571200.md:33
@@ -1222,6 +1237,12 @@ msgid ""
 "Xfce follows its steady pace of evolution without revolution that seems to "
 "match our users' needs."
 msgstr ""
+"Diese lange Zeitspanne lässt sich nur damit erklären, wie großartig Xfce "
+"4.10 war. Aber wie alles andere auch, musste es etwas aufgefrischt werden - "
+"und dafür haben wir viele neue Mitwirkende gewonnen, die wertvolles "
+"Feedback, neue Funktionen und Fehlerbehebungen beigesteuert haben. Wie immer"
+" verfolgt Xfce seinen stetigen Weg der Evolution ohne Revolution, der den "
+"Bedürfnissen unserer Nutzer zu entsprechen scheint."
 
 #. type: Plain text
 #: content/about/news/1425081600.md:17
@@ -1352,6 +1373,11 @@ msgid ""
 "dropping our Gtk3 engine - theme makers, please update your themes to CSS if"
 " you want them to work on the next Xfce version."
 msgstr ""
+"Um Xfce für die Zukunft mit GTK3 vorzubereiten, das keine Theme-Engines mehr"
+" benötigt, stellen wir die Entwicklung unserer GTK-Theme-Engine ein und "
+"verzichten auf unsere GTK3-Engine - Theme-Entwickler, bitte aktualisiert "
+"eure Themes auf CSS, wenn ihr möchtet, dass sie in der nächsten Xfce-Version"
+" funktionieren."
 
 #. type: Bullet: '- '
 #: content/about/news/1425081600.md:31
@@ -1500,7 +1526,7 @@ msgstr ""
 
 #: content/about/news/1425081600.md:60
 msgid "<http://archive.xfce.org/xfce/4.12>"
-msgstr ""
+msgstr "<http://archive.xfce.org/xfce/4.12>"
 
 #. type: Plain text
 #: content/about/news/1425081600.md:62
@@ -1614,6 +1640,12 @@ msgid ""
 "setting, a new default clock format and clock format evaluator as well as an"
 " improved default panel layout."
 msgstr ""
+"Das [Panel](https://docs.xfce.org/xfce/xfce4-panel/start) erhielt "
+"Unterstützung für die RandR-Funktion \"Primärmonitor\", eine verbesserte "
+"Fenstergruppierung im Taskleisten-Plugin (bessere Benutzererfahrung, "
+"visuelle Gruppenanzeige usw.), eine Einstellung für die \"Symbolgröße\" pro "
+"Panel, ein neues Standard-Uhrformat und einen neuen Uhrformat-Evaluator "
+"sowie ein verbessertes Standard-Panel-Layout."
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:17
@@ -1624,6 +1656,11 @@ msgid ""
 "wallpaper and it now syncs the user's wallpaper selection to "
 "AccountsService."
 msgstr ""
+"Der [Schreibtisch](https://docs.xfce.org/xfce/xfdesktop/start) unterstützt "
+"nun die RandR-Funktion für den primären Monitor, bietet eine Option zur "
+"Ausrichtung der Symbole, verfügt über den Kontextmenü-Eintrag \"Nächster "
+"Hintergrund\" zum Wechseln des Hintergrundbildes und synchronisiert die "
+"Auswahl der Hintergrundbilder des Benutzers nun mit AccountsService."
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:18
@@ -1792,6 +1829,15 @@ msgid ""
 "Disturb\" mode. Finally support for showing notifications on RandR's primary"
 " monitor was added."
 msgstr ""
+"Unser [Benachrichtigungsdienst](https://docs.xfce.org/apps/notifyd/start) "
+"unterstützt nun die Persistenz - mit anderen Worten: die Protokollierung von"
+" Benachrichtigungen - sowie einen \"Nicht stören\"-Modus, der alle "
+"Benachrichtigungen unterdrückt. Es wurde ein neues Panel-Plugin erstellt, "
+"das verpasste Benachrichtigungen anzeigt (besonders hilfreich im \"Nicht "
+"stören\"-Modus) und einen schnellen Zugriff auf das Ein- und Ausschalten des"
+" \"Nicht stören\"-Modus ermöglicht. Schließlich wurde die Unterstützung für "
+"die Anzeige von Benachrichtigungen auf dem primären Monitor von RandR "
+"hinzugefügt."
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:30
@@ -1942,6 +1988,11 @@ msgid ""
 "archive on git.xfce.org when they die.) With a salty teardrop of sadness we "
 "bid farewell to:"
 msgstr ""
+"Wie immer ist es auch an der Zeit, uns von einigen älteren **nicht mehr "
+"gepflegten oder veralteten Projekten** zu verabschieden. (Glücklicherweise "
+"wandern unsere Projekte nur auf den Dachboden, also ins Archiv auf "
+"git.xfce.org, wenn sie eingestellt werden.) Mit einer bitteren Träne der "
+"Wehmut nehmen wir Abschied von:"
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:46
@@ -2067,6 +2118,8 @@ msgstr ""
 msgid ""
 "So without further ado, here go the **main highlights of this release**:"
 msgstr ""
+"Also, ohne lange Umschweife, hier sind die **wichtigsten Highlights dieser "
+"Veröffentlichung**:"
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:21
@@ -2124,6 +2177,9 @@ msgid ""
 " or GPU type. Furthermore the layout and visuals of the dialog were "
 "improved."
 msgstr ""
+"Ein neuer Reiter im Dialogfeld \"Über Xfce\" zeigt grundlegende "
+"Systeminformationen wie den CPU- oder GPU-Typ an. Außerdem wurden das Layout"
+" und die Darstellung des Dialogfelds verbessert."
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:25
@@ -2145,6 +2201,10 @@ msgid ""
 "the “Default Applications” dialog - making it easier for users to set which "
 "application handles which filetype or action from one place."
 msgstr ""
+"Die Dialoge \"MIME-Einstellungen\" und \"Bevorzugte Anwendungen\" wurden im "
+"Dialog \"Standardanwendungen\" zusammengefasst - so können Benutzer an einer"
+" einzigen Stelle einfacher festlegen, welche Anwendung welchen Dateityp oder"
+" welche Aktion verarbeitet."
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:27
@@ -2231,6 +2291,9 @@ msgid ""
 "now allows for sorting applications by “frecency” - a combination of "
 "frequency and recency."
 msgstr ""
+"Der [App-Finder](https://docs.xfce.org/xfce/xfce4-appfinder/start) "
+"ermöglicht nun das Sortieren von Apps nach \"Frecency\" - einer Kombination "
+"aus Häufigkeit und Aktualität."
 
 #. type: Bullet: '- '
 #: content/about/news/1608595200.md:34
@@ -2238,6 +2301,8 @@ msgid ""
 "Dependency updates: Drop Gtk2, add LibGTop, bump Gtk &gt;= 3.22, GLib and "
 "GDBus &gt;= 2.50"
 msgstr ""
+"Aktualisierungen der Abhängigkeiten: Gtk2 entfernen, LibGTop hinzugefügt, "
+"Gtk auf >= 3.22, GLib und GDBus auf >= 2.50 erhöht"
 
 #. type: Plain text
 #: content/about/news/1608595200.md:36
@@ -2312,6 +2377,14 @@ msgid ""
 "Manager. Though as well multiple other Xfce components got a lot of love and"
 " many improvements were done under the hood."
 msgstr ""
+"Dieser Entwicklungszyklus wurde stark von [GSoC "
+"2021](https://summerofcode.withgoogle.com/archive/2021/organizations/5706869816950784)"
+" und [GSoC "
+"2022](https://summerofcode.withgoogle.com/programs/2022/organizations/xfce) "
+"beeinflusst, was zu verschiedenen neuen Funktionen führte, von denen die "
+"meisten für Thunar, den Xfce-Dateiverwaltung, bestimmt waren. Aber auch "
+"zahlreiche andere Xfce-Komponenten wurden intensiv gepflegt, und hinter den "
+"Kulissen wurden viele Verbesserungen vorgenommen."
 
 #. type: Plain text
 #: content/about/news/1671062400.md:17
@@ -2520,7 +2593,7 @@ msgstr "![Ausgeklappte Ansicht im Anwendungsfinder][img-appfinder-expanded]"
 #: content/about/tour418.md:37 content/about/tour46.md:19
 #: content/about/tour48.md:29
 msgid "Panel *(xfce4-panel)*"
-msgstr ""
+msgstr "Panel *(xfce4-panel)*"
 
 #. type: Title ###
 #: content/about/tour410.md:27
@@ -2534,6 +2607,10 @@ msgid ""
 "rows in the panel. Some plugins (e.g. *launchers*) fit a single row, while "
 "others, like window buttons are allowed to occupy full width of the panel."
 msgstr ""
+"In 4.10 gibt es eine einzige, für das gesamte Panel geltende Option zur "
+"Konfiguration der Zeilenzahl im Panel. Einige Plugins (z. B. *Launcher*) "
+"passen in eine einzige Zeile, während andere, wie beispielsweise Fenster-"
+"Schaltflächen, die gesamte Breite des Panels einnehmen dürfen."
 
 #. type: Plain text
 #: content/about/tour410.md:31
@@ -2554,6 +2631,11 @@ msgid ""
 "mode, but the plugins are laid out horizontally. With multiple rows, it "
 "allows creating wide vertical panels suitable for wide-screen setups."
 msgstr ""
+"Das Panel verfügt über eine neue Konfiguration, den sogenannten "
+"*Deskbar*-Modus. Im Deskbar-Modus ist das Panel vertikal ausgerichtet, genau"
+" wie im vertikalen Modus, doch die Plugins sind horizontal angeordnet. Bei "
+"mehreren Reihen lassen sich so breite vertikale Panels erstellen, die sich "
+"für Breitbild-Konfigurationen eignen."
 
 #. type: Plain text
 #: content/about/tour410.md:37
@@ -2573,6 +2655,8 @@ msgid ""
 "Session plugin from the xfce4-session package has been merged with a "
 "rewritten *actions* plugin"
 msgstr ""
+"Das Sitzungs-Plugin aus dem Paket \"xfce4-session\" wurde mit einem neu "
+"geschriebenen *actions*-Plugin zusammengeführt."
 
 #. type: Plain text
 #: content/about/tour410.md:43
@@ -2596,6 +2680,11 @@ msgid ""
 "add a transparent *separator* plugin with the **Expand** option enabled just"
 " behind the window buttons plugin."
 msgstr ""
+"Das Plugin *Fenster-Schaltflächen* wird nicht mehr erweitert, wodurch die "
+"Positionierung des Plugins flexibler wird. Um das bisherige Verhalten "
+"wiederherzustellen, fügen Sie bitte direkt hinter dem Plugin *Fenster-"
+"Schaltflächen* ein transparentes *Trennzeichen*-Plugin hinzu, bei dem die "
+"Option **Erweitern** aktiviert ist."
 
 #. type: Title ##
 #: content/about/tour410.md:49 content/about/tour412.md:105
@@ -2628,6 +2717,11 @@ msgid ""
 "and the session manager can now lock the screen before suspending or "
 "hibernating the system."
 msgstr ""
+"Der Einstellungsdialog der *Sitzungsverwaltung* verfügt über eine "
+"Schaltfläche zum Löschen der gespeicherten Sitzung (kein `rm -r "
+"~/.config/sessions` mehr). Xfce4-tips wurde entfernt, und die "
+"Sitzungsverwaltung kann nun den Bildschirm sperren, bevor das System in den "
+"Ruhezustand oder den Ruhemodus versetzt wird."
 
 #. type: Title ###
 #: content/about/tour410.md:57
@@ -2674,6 +2768,9 @@ msgid ""
 "and `xfsettingsd`. In 4.10 they have been merged into xfsettingsd, which now"
 " handles all system settings."
 msgstr ""
+"Xfce 4.8 verwendete zwei Prozesse zur Anwendung von Einstellungen: "
+"`xfce4-settings-helper` und `xfsettingsd`. In Version 4.10 wurden diese zu "
+"`xfsettingsd` zusammengeführt, das nun alle Systemeinstellungen verwaltet."
 
 #. type: Plain text
 #: content/about/tour410.md:71
@@ -2683,6 +2780,11 @@ msgid ""
 "are also now embedded in the settings manager window (this was a compile-"
 "time option in Xfce 4.8)."
 msgstr ""
+"Die neue *Einstellungsverwaltung* fasst Konfigurationsdialoge in Kategorien "
+"zusammen und ermöglicht es Ihnen, nach deren Namen oder Beschreibungen zu "
+"suchen. Die meisten Dialoge sind nun auch direkt in das Fenster der "
+"Einstellungsverwaltung integriert (in Xfce 4.8 war dies noch eine Option zur"
+" Kompilierungszeit)."
 
 #. type: Plain text
 #: content/about/tour410.md:73
@@ -2706,6 +2808,11 @@ msgid ""
 " tree). Most properties can now be edited in-place, making it easier to "
 "quickly adjust settings."
 msgstr ""
+"Der *Einstellungseditor* klappt nicht mehr den gesamten Baum ein, wenn Sie "
+"eine Eigenschaft bearbeiten (das liegt daran, dass nun nur noch eine "
+"einzelne Zelle statt des gesamten Baums neu geladen wird). Die meisten "
+"Eigenschaften können nun direkt an Ort und Stelle bearbeitet werden, was "
+"eine schnelle Anpassung der Einstellungen erleichtert."
 
 #. type: Plain text
 #: content/about/tour410.md:79
@@ -2773,6 +2880,8 @@ msgid ""
 "![Synaptics touchpad settings in the mouse and touchpad dialog][img-"
 "settings-mouse]"
 msgstr ""
+"![Synaptics-Touchpad-Einstellungen im Dialogfeld \"Maus und Touchpad\"][img-"
+"settings-mouse]"
 
 #. type: Title ###
 #: content/about/tour410.md:95 content/about/tour412.md:73
@@ -2787,6 +2896,10 @@ msgid ""
 "*style* or *icon* list. Xfce will attempt to extract and install the files "
 "into the `~/.themes` or `~/.icons` directory."
 msgstr ""
+"In Version 4.10 können Sie ein Tarball-Archiv mit einem heruntergeladenen "
+"Design per Drag & Drop in die Liste *style* oder *icon* ziehen. Xfce "
+"versucht dann, die Dateien zu entpacken und im Verzeichnis `~/.themes` bzw. "
+"`~/.icons` zu installieren."
 
 #. type: Title ##
 #: content/about/tour410.md:99 content/about/tour412.md:55
@@ -3600,7 +3713,7 @@ msgstr ""
 #. type: Title ##
 #: content/about/tour414.md:77
 msgid "Notification Service *(xfce4-notifyd)*"
-msgstr ""
+msgstr "Benachrichtigungsdienst *(xfce4-notifyd)*"
 
 #. type: Title ##
 #: content/about/tour414.md:79 content/about/tour44.md:123
@@ -3649,6 +3762,10 @@ msgid ""
 "Mode', where the interface is simplified to just display the album artwork "
 "and can be positioned over other windows without getting in the way."
 msgstr ""
+"[Parole](https://docs.xfce.org/apps/parole/start) verfügt nun über einen "
+"\"Mini-Modus\", in dem die Benutzeroberfläche vereinfacht wurde, sodass nur "
+"noch das Albumcover angezeigt wird und der über anderen Fenstern "
+"positioniert werden kann, ohne zu stören."
 
 #. type: Plain text
 #: content/about/tour414.md:97
@@ -3671,7 +3788,7 @@ msgstr ""
 #. type: Title ##
 #: content/about/tour414.md:101
 msgid "Screensaver *(xfce4-screensaver)*"
-msgstr ""
+msgstr "Bildschirmschoner *(xfce4-screensaver)*"
 
 #. type: Title ###
 #: content/about/tour414.md:103
@@ -3743,6 +3860,11 @@ msgid ""
 "screenshot while dragging, moving the selection with the mouse and better "
 "[imgur](https://imgur.com) integration."
 msgstr ""
+"Der Xfce [Screenshooter](https://docs.xfce.org/apps/screenshooter/start) "
+"wurde um mehrere nützliche Funktionen erweitert, darunter die Anzeige der "
+"Größe des Screenshots während des Ziehens, das Verschieben des "
+"Auswahlbereichs mit der Maus und eine verbesserte "
+"[imgur](https://imgur.com)-Integration."
 
 #. type: Plain text
 #: content/about/tour414.md:121
@@ -4430,6 +4552,10 @@ msgid ""
 " moved, and its position will be stored. Via a xfconf setting, it is as well"
 " possible to have a vertical split."
 msgstr ""
+"Thunar bietet nun die Möglichkeit, geteilte Fensterbereiche zu verwenden. "
+"Der Trennbalken zwischen den Bereichen kann verschoben werden, wobei seine "
+"Position gespeichert wird. Über eine xfconf-Einstellung ist es zudem "
+"möglich, eine vertikale Aufteilung vorzunehmen."
 
 #. type: Plain text
 #: content/about/tour418.md:125
@@ -4505,6 +4631,11 @@ msgid ""
 " Additionally, for 'Recent' a new row 'Recency' can be added to sort the "
 "files by their latest usage."
 msgstr ""
+"Auf zuletzt verwendete Dateien kann nun im Seitenbereich zugegriffen werden."
+" Ähnlich wie bei der Funktion \"RekursiveSuche\" kann die neue Zeile "
+"\"Speicherort\" in der Listenansicht verwendet werden. Zudem kann für "
+"\"Zuletzt verwendet\" eine neue Zeile \"Aktualität\" hinzugefügt werden, um "
+"die Dateien nach ihrer letzten Verwendung zu sortieren."
 
 #. type: Plain text
 #: content/about/tour418.md:147
@@ -5835,6 +5966,8 @@ msgstr ""
 msgid ""
 "It is now possible to start a Wayland session via `startxfce4 --wayland`."
 msgstr ""
+"Es ist nun möglich, eine Wayland-Sitzung über `startxfce4 --wayland` zu "
+"starten."
 
 #. type: Plain text
 #: content/about/tour420.md:273
@@ -6243,6 +6376,8 @@ msgid ""
 "<p align=\"right\"><small>Used theme: \"Greybird-dark\". Used icon-theme: "
 "\"elementary Xfce dark\".</small></p>\n"
 msgstr ""
+"<p align=\"right\"><small>Verwendetes Theme: \"Greybird-dark\". Verwendetes "
+"Symbol-Theme: \"elementary Xfce dark\".</small></p>\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/tour44.md:0
@@ -6354,6 +6489,10 @@ msgid ""
 "Renamer* is included which allows users to rename multiple files at once "
 "using a certain criterion."
 msgstr ""
+"**Thunar** bietet alle Funktionen zur Dateiverwaltung die Nutzer erwarten, "
+"sowie einige erweiterte Funktionen. So ist beispielsweise ein sogenannter "
+"*Massenumbenennungsassistent* enthalten, mit dem Nutzer mehrere Dateien "
+"gleichzeitig nach bestimmten Kriterien umbenennen können."
 
 #. type: Plain text
 #: content/about/tour44.md:31
@@ -6481,6 +6620,9 @@ msgid ""
 "Further on support for multiple image formats for window decoration themes "
 "was added, including `PNG`, `GIF` and `SVG` images."
 msgstr ""
+"Außerdem wurde die Unterstützung für verschiedene Bildformate für "
+"Fensterdekorationsdesigns hinzugefügt, darunter `PNG`-, `GIF`- und "
+"`SVG`-Bilder."
 
 #. type: Plain text
 #: content/about/tour44.md:65
@@ -6504,6 +6646,10 @@ msgid ""
 "Multiple panels are supported *out of the box* now and can easily be "
 "configured using the new **Panel Manager** shown in the screenshot below."
 msgstr ""
+"Das **Xfce4-Panel** wurde für die Version Xfce 4.4 komplett neu geschrieben."
+" Mehrere Panels werden nun *von Haus aus* unterstützt und lassen sich "
+"mithilfe des neuen **Panel-Managers**, der im folgenden Bildschirmfoto zu "
+"sehen ist, ganz einfach konfigurieren."
 
 #. type: Plain text
 #: content/about/tour44.md:73
@@ -6649,6 +6795,11 @@ msgid ""
 "**Xfprint** is now able to display the printer state with the "
 "`CUPS`-backend."
 msgstr ""
+"**Xfprint**, die Druckverwaltungsanwendung von Xfce, wurde in dieser Version"
+" um einige kleinere Verbesserungen erweitert. Zum einen ist der "
+"`a2ps`-Konverter nun nicht mehr zwingend erforderlich, wird aber weiterhin "
+"empfohlen. Außerdem wurde die Unterstützung für `CUPS` 1.2 hinzugefügt und "
+"**Xfprint** kann nun den Druckerstatus mit dem `CUPS`-Backend anzeigen."
 
 #. type: Plain text
 #: content/about/tour44.md:107
@@ -6661,6 +6812,9 @@ msgid ""
 "**Xfprint** also integrates with **MousePad** to provide generic printing "
 "support for different kinds of text documents using the `a2ps` converter."
 msgstr ""
+"**Xfprint** lässt sich zudem mit **MousePad** integrieren, um mithilfe des "
+"`a2ps`-Konverters eine generische Druckunterstützung für verschiedene Arten "
+"von Textdokumenten bereitzustellen."
 
 #. type: Plain text
 #: content/about/tour44.md:111
@@ -6676,6 +6830,12 @@ msgid ""
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
 msgstr ""
+"Wie Sie sehen können, sieht der Druckdialog noch immer relativ ähnlich aus "
+"wie der von Xfce 4.2, doch die interne Funktionsweise der Druckunterstützung"
+" wurde verbessert, insbesondere die `CUPS`-Unterstützung. Außerdem wurden "
+"die Funktionen zur Druckverwaltung in eine Bibliothek ausgelagert, sodass "
+"andere Anwendungen über die API auf die Druckerkonfiguration zugreifen "
+"können."
 
 #. type: Title ##
 #: content/about/tour44.md:115
@@ -6711,6 +6871,14 @@ msgid ""
 "screenshot above, which allows users to easily add, remove or disable "
 "autostarted applications."
 msgstr ""
+"Die Spezifikation besteht aus zwei Teilen: dem *Autostart von Anwendungen "
+"beim Systemstart*, der in **xfce4-session** implementiert ist, und dem "
+"*Autostart von Anwendungen nach dem Einhängen*, der in [thunar-"
+"volman](http://foo-projects.org/~benny/projects/thunar-volman/index.html) "
+"implementiert ist. Diese Version enthält außerdem den **xfce4-autostart-"
+"editor**, der im obigen Screenshot zu sehen ist und es Benutzern ermöglicht,"
+" Anwendungen, die automatisch gestartet werden, einfach hinzuzufügen, zu "
+"entfernen oder zu deaktivieren."
 
 #. type: Plain text
 #: content/about/tour44.md:125
@@ -6926,6 +7094,12 @@ msgid ""
 "you are not left without a desktop, panel, window manager, etcetera, if a "
 "crash occurs."
 msgstr ""
+"**Xfce 4.6** verfügt über einen verbesserten Sitzungsmanager: Ihre Sitzung "
+"sollte nun schneller starten und der Einstellungsdialog wurde überarbeitet, "
+"um die Verwaltung sitzungsabhängiger Anwendungen zu vereinfachen. Zudem "
+"startet der Sitzungsmanager nun automatisch abgestürzte Sitzungsanwendungen "
+"neu, sodass Sie im Falle eines Absturzes nicht ohne Desktop, Panel, "
+"Fenstermanager usw. dastehen."
 
 #. type: Plain text
 #: content/about/tour46.md:37
@@ -6939,6 +7113,11 @@ msgid ""
 "**suspend** and **hibernate** \"out of the box.\" The logout dialog now has "
 "two additional buttons which offer to suspend or hibernate your computer."
 msgstr ""
+"Die Sitzungsverwaltung enthält außerdem eine neue, lang erwartete Funktion: "
+"die Unterstützung für **Bereitschaftsmodus** und **Ruhezustand** \"out of "
+"the box\". Der Abmeldedialog verfügt nun über zwei zusätzliche "
+"Schaltflächen, über die Sie Ihren Computer in den Bereitschafts- oder "
+"Ruhezustandmodus versetzen können."
 
 #. type: Plain text
 #: content/about/tour46.md:41
@@ -7007,6 +7186,8 @@ msgid ""
 "The **compositor** has been optimized to reduce window flickering during "
 "resize operations."
 msgstr ""
+"Der **Compositor** wurde optimiert, um das Flackern von Fenstern bei "
+"Größenänderungen zu reduzieren."
 
 #. type: Plain text
 #: content/about/tour46.md:61
@@ -7058,6 +7239,10 @@ msgid ""
 "specification; this allows you to have themed and localized user folders to "
 "store your music, documents, videos, templates, etcetera..."
 msgstr ""
+"**Thunar** hält sich nun an die Spezifikation der [XDG-"
+"Benutzerverzeichnisse](https://freedesktop.org/wiki/Software/xdg-user-dirs);"
+" dadurch können Sie themenbezogene und lokalisierte Benutzerordner zum "
+"Speichern Ihrer Musik, Dokumente, Videos, Vorlagen usw. verwenden..."
 
 #. type: Plain text
 #: content/about/tour46.md:75
@@ -7271,6 +7456,12 @@ msgid ""
 "also allows you to create panel launchers quickly by dragging an application"
 " icon to the launcher creation window."
 msgstr ""
+"**Xfce 4.6** verfügt außerdem über einen brandneuen Anwendungsfinder mit "
+"einer übersichtlicheren Benutzeroberfläche. Die Bedienung über die Tastatur "
+"ist einfacher geworden und das Programm überwacht dieinstallierten "
+"Anwendungen, um die Liste \"in Echtzeit\" zu aktualisieren. Außerdem können "
+"Sie schnell Startsymbole für das Panel erstellen, indem Sie ein "
+"Anwendungssymbol in das Fenster zur Erstellung von Startsymbolen ziehen."
 
 #. type: Plain text
 #: content/about/tour46.md:135
@@ -7961,6 +8152,11 @@ msgid ""
 "understand how to make the most of the Xfce Desktop Environment. [Learn More"
 " →](https://docs.xfce.org/contribute/documentation)"
 msgstr ""
+"Es gibt viele Menschen, die Xfce nutzen und testen. Indem Sie nützliche und "
+"aktuelle Dokumentation bereitstellen, tragen Sie wesentlich dazu bei, dass "
+"die Nutzer verstehen, wie sie das Beste aus der Xfce-Desktopumgebung "
+"herausholen können. [Mehr erfahren "
+"→](https://docs.xfce.org/contribute/documentation)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:14
@@ -7975,6 +8171,11 @@ msgid ""
 " the global market and more accessible to the millions of potential users "
 "out there. [Learn More →](https://docs.xfce.org/contribute/translate/start)"
 msgstr ""
+"Sprechen Sie mehrere Sprachen fließend? Indem Sie Ihre Übersetzungen zur "
+"Xfce-Desktopumgebung beitragen, helfen Sie Xfce dabei, sich besser auf dem "
+"globalen Markt zu etablieren und für Millionen potenzieller Nutzer "
+"zugänglicher zu werden. [Mehr erfahren "
+"→](https://docs.xfce.org/contribute/translate/start)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:18
@@ -8066,6 +8267,11 @@ msgid ""
 "(€)](https://opencollective.com/xfce-eu) respectively. [Learn More "
 "→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 msgstr ""
+"Wenn Sie das Projekt finanziell unterstützen möchten, können Sie "
+"OpenCollective nutzen. Xfce hat zwei Collectives eingerichtet, nämlich [Xfce"
+" ($)](https://opencollective.com/xfce) und [Xfce-Eu "
+"(€)](https://opencollective.com/xfce-eu). [Mehr erfahren "
+"→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 
 #: content/projects/_index.md:0
 msgid "Projects"
