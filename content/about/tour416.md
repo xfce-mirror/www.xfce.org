@@ -22,7 +22,7 @@ The Settings Manager itself received a visual refresh of its filter box, which c
 
 ### Default Applications
 
-This new dialog represents a merger between the previously available 'Mime Settings' and the 'Preferred Applications' dialogs. Consolidating both in one place means users have an easier time setting default applications to handle certain file types.
+This new dialog represents a merger between the previously available 'MIME Type Editor' and the 'Preferred Applications' dialogs. Consolidating both in one place means users have an easier time setting default applications to handle certain file types.
 
 ![The new Default Applications dialog][img-default-applications]
 
