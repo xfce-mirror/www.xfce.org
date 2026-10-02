@@ -1,23 +1,16 @@
 stages:
+  - .pre
   - build
   - sync
 
 variables:
-  HUGO_VERSION: "0.161.1"
-  HUGO_GETTEXT_VERSION: "0.6.0"
-  TX_VERSION: "1.6.17"
+  BUILD_IMAGE: "index.docker.io/xfce/www-xfce-org:latest"
 
 build:
   stage: build
-  image: python:3.13-slim
+  image: $BUILD_IMAGE
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
-  before_script:
-    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
-        curl gettext git > /dev/null
-    - curl -sfL "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-        | tar -xzf - -C /usr/local/bin hugo
-    - pip install --no-cache-dir hugo-gettext==${HUGO_GETTEXT_VERSION} polib > /dev/null
   script:
     - ./build.sh --update-po
   artifacts:
@@ -27,17 +20,9 @@ build:
       - po/content.pot
     expire_in: 1 day
 
-.tx:
-  image: python:3.13-slim
-  before_script:
-    - apt-get update -qq && apt-get install -y -qq --no-install-recommends
-        curl gettext git > /dev/null
-    - curl -sfL "https://github.com/transifex/cli/releases/download/v${TX_VERSION}/tx-linux-amd64.tar.gz"
-        | tar -xzf - -C /usr/local/bin tx
-
 tx-push:
-  extends: .tx
   stage: sync
+  image: $BUILD_IMAGE
   needs: [build]
   rules:
     - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
@@ -50,9 +35,30 @@ tx-push:
     - tx push --source --silent
 
 tx-pull:
-  extends: .tx
   stage: sync
+  image: $BUILD_IMAGE
   rules:
     - if: '$CI_PIPELINE_SOURCE == "schedule"'
   script:
     - ./scripts/tx-pull.sh
+
+build-image:
+  stage: .pre
+  image: docker:29
+  services:
+    - docker:29-dind
+  variables:
+    CI_REGISTRY: "docker.io"
+    DOCKER_TLS_CERTDIR: "/certs"
+    # Set secrets in project environment variables as follows:
+    # CI_REGISTRY_USER=your_user
+    # CI_REGISTRY_PASSWORD=********
+  rules:
+    - if: '$CI_PROJECT_PATH == "www/www.xfce.org" && $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+      changes:
+        - .gitlab-ci.yml
+        - Dockerfile
+  script:
+    - docker build -t $BUILD_IMAGE .
+    - echo "$CI_REGISTRY_PASSWORD" | docker login -u "$CI_REGISTRY_USER" --password-stdin $CI_REGISTRY
+    - docker push $BUILD_IMAGE
