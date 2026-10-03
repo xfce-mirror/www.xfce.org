@@ -8,7 +8,7 @@ This tour will introduce you to new major features of Xfce 4.16. It only covers 
 
 ## Visual identity: New icons and palette
 
-In order to make Xfce shine a little more out of the box and to strengthen its visual identity we created new icons for all of our core applications and based them on a shared palette to ensure consistency. We also set some further (implicit) design constraints, loosely following Adwaita's principles.
+In order to make Xfce shine a little more out of the box and to strengthen its visual identity we created new icons for all of our core applications and based them on a shared palette to ensure consistency. We also set some further (implicit) design constraints, loosely following [Adwaita](https://en.wikipedia.org/wiki/Adwaita_(design_language))'s principles.
 
 ![The Xfce palette][img-palette]
 
