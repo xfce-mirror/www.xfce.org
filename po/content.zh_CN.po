@@ -4679,6 +4679,8 @@ msgid ""
 " usage of direct I/O operations now attempts to prevent comparison of "
 "possibly cached buffers."
 msgstr ""
+"对于thunar 4.18.x 中的文件验证，计算了源文件和目标文件的 md5 "
+"校验和。这个计算结果相当缓慢，实际上是多余的。现在，文件仅仅直接比较。此外，使用直接 I/O 操作会尝试阻止比较可能缓存的缓冲区。"
 
 #. type: Plain text
 #: content/about/tour420.md:155
@@ -5006,7 +5008,7 @@ msgstr "注销对话框将不再提供启用会话保存的复选框。"
 #: content/about/tour420.md:271
 msgid ""
 "It is now possible to start a Wayland session via `startxfce4 --wayland`."
-msgstr ""
+msgstr "现在可以通过 “startxfce4 --wayland” 启动 Wayland 会话。"
 
 #. type: Plain text
 #: content/about/tour420.md:273
@@ -5342,6 +5344,8 @@ msgid ""
 "<p align=\"right\"><small>Used theme: \"Greybird-dark\". Used icon-theme: "
 "\"elementary Xfce dark\".</small></p>\n"
 msgstr ""
+"<p align=\"right\"><small>使用主题:  \"Greybird-dark\"。 使用图标主题:  \"elementary "
+"Xfce dark\"。</small></p>\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/tour44.md:0
@@ -5435,6 +5439,8 @@ msgid ""
 "Renamer* is included which allows users to rename multiple files at once "
 "using a certain criterion."
 msgstr ""
+"**Thunar** 支持所有用户会期待的文件管理器功能，而且还有若干高级功能。比如，一个所谓的让用户一次性按一定标准重命名多个文件的 *批量重命名* "
+"也包括在内。"
 
 #. type: Plain text
 #: content/about/tour44.md:31
@@ -5542,7 +5548,7 @@ msgstr "![Xfwm4 主题][img-xfwm4-themes]"
 msgid ""
 "Further on support for multiple image formats for window decoration themes "
 "was added, including `PNG`, `GIF` and `SVG` images."
-msgstr ""
+msgstr "添加了更多用于窗口修饰主题的多图片格式支持，包括 `PNG`, `GIF` 和  `SVG` 图片。"
 
 #. type: Plain text
 #: content/about/tour44.md:65
@@ -5563,6 +5569,7 @@ msgid ""
 "Multiple panels are supported *out of the box* now and can easily be "
 "configured using the new **Panel Manager** shown in the screenshot below."
 msgstr ""
+"**Xfce4-panel** 为 Xfce 4.4 完全重写。多面板现在支持*开箱即用* ，且它可以使用下面所示的新 **面板管理器**轻松地配置。"
 
 #. type: Plain text
 #: content/about/tour44.md:73
@@ -5649,6 +5656,9 @@ msgid ""
 "past to store your settings, **Orage** is based on `ical` and therefore "
 "compatible with other calendar applications."
 msgstr ""
+"虽然 **Orage** 非常轻便易用，但它支持所有大型日历应用程序中可找到的重要功能，如**Outlook** 或 "
+"**Evolution**。虽然过去 **Xfcalendar**使用自定义的 `dbh` 格式存储您的设置，但 **Orage** 基于 `ical`"
+" ，因而与其它日历应用程序兼容。"
 
 #. type: Title ##
 #: content/about/tour44.md:95
@@ -5678,6 +5688,8 @@ msgid ""
 "above, this release also supports real transparency using **Xfwm4**'s "
 "integrated composition manager."
 msgstr ""
+"除了您所期待的对于终端模拟器应具有的基本功能之外，它还包括其它一些优秀功能，如单窗口多标签、可自定义的工具栏、由 "
+"*隐藏选项*配置应用程序几乎每一方面的能力。就像在上面的截图中可看到的一样，此版本还使用 **Xfwm4** 中集成的合成管理器，支持正宗透明。"
 
 #. type: Title ##
 #: content/about/tour44.md:103
@@ -5693,6 +5705,8 @@ msgid ""
 "**Xfprint** is now able to display the printer state with the "
 "`CUPS`-backend."
 msgstr ""
+"**Xfprint**，Xfce 打印管理应用程序，在此版本中可看到若干小改进。首先，不再强制使用 `a2ps`  转换器，尽管依然推荐。添加了对 "
+"`CUPS` 1.2 的支持，**Xfprint** 现在能够用`CUPS`后端显示打印状态。"
 
 #. type: Plain text
 #: content/about/tour44.md:107
@@ -5704,7 +5718,7 @@ msgstr "![Xfce 打印][img-xfprint]"
 msgid ""
 "**Xfprint** also integrates with **MousePad** to provide generic printing "
 "support for different kinds of text documents using the `a2ps` converter."
-msgstr ""
+msgstr "**Xfprint** 还与 **MousePad** 结合，为使用 `a2ps` 转换器的不同种类的文本文档提供一般打印支持。"
 
 #. type: Plain text
 #: content/about/tour44.md:111
@@ -5720,6 +5734,8 @@ msgid ""
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
 msgstr ""
+"如您所见，打印对话框与 Xfce 4.2 中的相类似，但改进了打印支持的内部工作，特别是 `CUPS` "
+"支持。除此之外，打印管理功能移进入一个库文件中，这样其它应用程序就可以使用此 API 访问打印配置了。"
 
 #. type: Title ##
 #: content/about/tour44.md:115
@@ -5754,6 +5770,9 @@ msgid ""
 "screenshot above, which allows users to easily add, remove or disable "
 "autostarted applications."
 msgstr ""
+"此规范由两部分组成， *桌面启动期间的应用程序自启动*已在 **xfce4-session**中实现， *挂载后的应用程序自启动*已在 [thunar-"
+"volman](http://foo-projects.org/~benny/projects/thunar-volman/index.html) "
+"中实现。如上面的截图所示，此版本还包括**xfce4-autostart-editor**，它让用户轻松地添加、移除或禁用自启动应用程序。"
 
 #. type: Plain text
 #: content/about/tour44.md:125
@@ -5909,7 +5928,7 @@ msgstr ""
 #. type: Title ##
 #: content/about/tour46.md:27
 msgid "Sound Mixer *(xfce4-mixer)*"
-msgstr ""
+msgstr "混音器 *(xfce4-mixer)*"
 
 #. type: Plain text
 #: content/about/tour46.md:29
@@ -5939,6 +5958,8 @@ msgid ""
 "you are not left without a desktop, panel, window manager, etcetera, if a "
 "crash occurs."
 msgstr ""
+"伴随**Xfce "
+"4.6**而来的是一增强的会话管理器：您的会话应该可以启动得快些，且重写了设置对话框以便降低会话性应用程序管理的难度。而且，在崩溃出现时，会话管理器会自动重启已崩溃的会话应用程序，这样您就不会丢失桌面、面板、窗口管理器等等。"
 
 #. type: Plain text
 #: content/about/tour46.md:37
@@ -5952,6 +5973,7 @@ msgid ""
 "**suspend** and **hibernate** \"out of the box.\" The logout dialog now has "
 "two additional buttons which offer to suspend or hibernate your computer."
 msgstr ""
+"会话管理器还包括一个期盼已久的功能：对**待机** 和**休眠**的 “开箱即用” 的支持。注销对话框现在有另外两个按钮用来让您的计算机待机或休眠。"
 
 #. type: Plain text
 #: content/about/tour46.md:41
@@ -6007,7 +6029,7 @@ msgstr "![填充操作][img-xfwm4-fill-operation]"
 msgid ""
 "The **compositor** has been optimized to reduce window flickering during "
 "resize operations."
-msgstr ""
+msgstr "**合成器** 已优化从而在调整窗口大小时减少了窗口闪烁。"
 
 #. type: Plain text
 #: content/about/tour46.md:61
@@ -6050,6 +6072,8 @@ msgid ""
 "specification; this allows you to have themed and localized user folders to "
 "store your music, documents, videos, templates, etcetera..."
 msgstr ""
+"**Thunar** 现已遵从 [XDG 用户目录](https://freedesktop.org/wiki/Software/xdg-user-"
+"dirs)规范；这让您有主题化和本地化的用户文件夹去存储您的音乐、文档、视频、模板等等..."
 
 #. type: Plain text
 #: content/about/tour46.md:75
@@ -6225,6 +6249,8 @@ msgid ""
 "also allows you to create panel launchers quickly by dragging an application"
 " icon to the launcher creation window."
 msgstr ""
+"伴随**Xfce 4.6** 而来的还有一个崭新的应用程序查找器，其亮点是用户界面更加清晰。用键盘使用它更加容易，它还监视已安装的应用程序并 “立马” "
+"更新其列表。它还让您通过将一个应用程序图标拖入启动器创建窗口去创建面板启动器。"
 
 #. type: Plain text
 #: content/about/tour46.md:135
