@@ -5765,6 +5765,12 @@ msgid ""
 " usage of direct I/O operations now attempts to prevent comparison of "
 "possibly cached buffers."
 msgstr ""
+"Pour la validation des fichiers dans Thunar 4.18.x, une somme de contrôle "
+"MD5 a été calculée pour les fichiers source et cible. Ce calcul s’est avéré "
+"plutôt lent et en fait superflu. Maintenant, les fichiers sont simplement "
+"comparés directement. De plus, l’utilisation d’opérations d’E/S directes "
+"tente désormais d’empêcher la comparaison de tampons éventuellement mis en "
+"cache."
 
 #. type: Plain text
 #: content/about/tour420.md:155
@@ -6694,7 +6700,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour44.md:31
 msgid "![Thunar Bulk Rename][img-thunar-bulk-rename]"
-msgstr ""
+msgstr "![Renommage en masse de Thunar][img-thunar-bulk-rename]"
 
 #. type: Title ##
 #: content/about/tour44.md:33
@@ -6729,6 +6735,12 @@ msgid ""
 "time of this writing (there is limited removable media support for FreeBSD "
 "4.x and 5.x which does not require HAL)."
 msgstr ""
+"Cliquez sur l’icône pour monter automatiquement le volume. Faites un clic "
+"droit sur celle-ci pour démonter le disque ou éjecter le média du lecteur. "
+"Notez cependant que cette fonctionnalité nécessite "
+"[HAL](https://freedesktop.org/wiki/Software_2fhal) et n’est donc disponible "
+"que pour Linux 2.6.xn FreeBSD 6.x et au-delà au moment où nous écrivons "
+"(FreeBSD 4.x et 5.x gère de façon minimale les médias amovibles sans HAL)."
 
 #. type: Title ##
 #: content/about/tour44.md:41
@@ -6808,6 +6820,8 @@ msgid ""
 "Further on support for multiple image formats for window decoration themes "
 "was added, including `PNG`, `GIF` and `SVG` images."
 msgstr ""
+"De plus, les thèmes de décoration de fenêtres gèrent désormais différents "
+"formats d’images, dont « PNG », « GIF » et « SVG »."
 
 #. type: Plain text
 #: content/about/tour44.md:65
@@ -7028,6 +7042,12 @@ msgid ""
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
 msgstr ""
+"Comme vous pouvez le voir, la fenêtre d’impression est assez similaire à "
+"celle de Xfce 4.2, mais les mécanismes internes de gestion de l’impression "
+"ont été améliorés, notamment avec le support de « CUPS ». En dehors de ça, "
+"la fonction de gestion de l’impression a été déplacée dans une bibliothèque "
+"afin que d’autres applications puissent se servir de l’interface de "
+"programmation pour accéder à la configuration de l’imprimante."
 
 #. type: Title ##
 #: content/about/tour44.md:115
@@ -7042,6 +7062,10 @@ msgid ""
 "actually Xfce was the first desktop to implement said feature, but the "
 "others were faster to release. ;-)"
 msgstr ""
+"Xfce 4.4.0 intègre les nouvelles  [spécifications de démarrage "
+"automatique](https://freedesktop.org/wiki/Standards_2fautostart_2dspec) - "
+"Xfce a été le premier environnement de bureau à le faire, mais les autres "
+"ont été plus rapide à le sortir. ;-)"
 
 #. type: Plain text
 #: content/about/tour44.md:119
@@ -7136,6 +7160,10 @@ msgid ""
 "[xfce](/community/lists) mailinglist if you have questions about Xfce 4.4.0 "
 "or trouble with the installation."
 msgstr ""
+"Merci de poster vos commentaires à propos de cet article sur mon "
+"[blog](http://xfce-diary.blogspot.com/2007/01/visual-tour-of-xfce-440.html) "
+"et d’utiliser la liste de diffusion [xfce](/community/lists) si vous avez "
+"des questions sur Xfce 4.4.0 ou des problèmes avec l’installation."
 
 #. type: Title ##
 #: content/about/tour44.md:139 content/about/tour46.md:137
@@ -7190,7 +7218,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:13
 msgid "![Multiple icons selection][img-xfdesktop-rubberbanding]"
-msgstr ""
+msgstr "![Sélection de plusieurs icônes][img-xfdesktop-rubberbanding]"
 
 #. type: Plain text
 #: content/about/tour46.md:15
@@ -7208,7 +7236,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:17
 msgid "![New desktop menu][img-xfdesktop-menu]"
-msgstr ""
+msgstr "![Nouveau menu de bureau][img-xfdesktop-menu]"
 
 #. type: Plain text
 #: content/about/tour46.md:21
@@ -7225,7 +7253,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:23
 msgid "![New binary clock][img-xfce4-panel-clock]"
-msgstr ""
+msgstr "![Nouvelle horloge binaire][img-xfce4-panel-clock]"
 
 #. type: Plain text
 #: content/about/tour46.md:25
@@ -7367,7 +7395,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:57
 msgid "![Fill operation][img-xfwm4-fill-operation]"
-msgstr ""
+msgstr "![Opération de remplissage][img-xfwm4-fill-operation]"
 
 #. type: Plain text
 #: content/about/tour46.md:59
@@ -7396,7 +7424,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:65
 msgid "![New tweakable options][img-xfwm4-new-tweaks]"
-msgstr ""
+msgstr "![Nouvelles options ajustables][img-xfwm4-new-tweaks]"
 
 #. type: Plain text
 #: content/about/tour46.md:69
@@ -7501,6 +7529,8 @@ msgstr "Paramètres d’accessibilité"
 #: content/about/tour46.md:93
 msgid "![Accessibility settings dialog][img-xfce4-accessibility-settings]"
 msgstr ""
+"![Boîte de dialogue des paramètres d'accessibilité][img-xfce4-accessibility-"
+"settings]"
 
 #. type: Plain text
 #: content/about/tour46.md:95
@@ -7523,6 +7553,8 @@ msgstr "Paramètres d’apparence"
 #: content/about/tour46.md:99
 msgid "![Appearance settings dialog][img-xfce4-appearance-settings]"
 msgstr ""
+"![Boîte de dialogue des paramètres d'apparence][img-xfce4-appearance-"
+"settings]"
 
 #. type: Plain text
 #: content/about/tour46.md:101
@@ -7542,7 +7574,7 @@ msgstr "Paramètres d’affichage"
 #. type: Plain text
 #: content/about/tour46.md:105
 msgid "![Display settings dialog][img-xfce4-display-settings]"
-msgstr ""
+msgstr "![Fenêtre des paramètres d’affichage][img-xfce4-display-settings]"
 
 #. type: Plain text
 #: content/about/tour46.md:107
@@ -7564,6 +7596,8 @@ msgstr "Paramètres du clavier"
 msgid ""
 "![Keyboard settings dialog, layout tab][img-xfce4-keyboard-settings-layout]"
 msgstr ""
+"![Boîte de dialogue des paramètres du clavier, onglet mise en page][img-"
+"xfce4-keyboard-settings-layout]"
 
 #. type: Plain text
 #: content/about/tour46.md:113
@@ -7581,6 +7615,8 @@ msgid ""
 "![Keyboard settings dialog, shortcuts tab][img-xfce4-keyboard-settings-"
 "shortcuts]"
 msgstr ""
+"![Boîte de dialogue des paramètres du clavier, onglet raccourcis][img-"
+"xfce4-keyboard-settings-shortcuts]"
 
 #. type: Plain text
 #: content/about/tour46.md:117
@@ -7600,6 +7636,7 @@ msgstr "Paramètres de la souris"
 #: content/about/tour46.md:121
 msgid "![Mouse settings dialog][img-xfce4-mouse-settings]"
 msgstr ""
+"![Boîte de dialogue des paramètres de la souris][img-xfce4-mouse-settings]"
 
 #. type: Plain text
 #: content/about/tour46.md:123
@@ -7621,7 +7658,7 @@ msgstr "Paramètres du bureau"
 #. type: Plain text
 #: content/about/tour46.md:127
 msgid "![Desktop settings dialog][img-xfdesktop-settings]"
-msgstr ""
+msgstr "![Boîte de dialogue des paramètres du bureau][img-xfdesktop-settings]"
 
 #. type: Plain text
 #: content/about/tour46.md:129
@@ -7654,7 +7691,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour46.md:135
 msgid "![New application finder][img-xfce4-appfinder]"
-msgstr ""
+msgstr "![Nouvelle application finder][img-xfce4-appfinder]"
 
 #. type: Bullet: '- '
 #: content/about/tour46.md:140
@@ -7726,7 +7763,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour48.md:21
 msgid "![Progress dialog][img-thunar-progress]"
-msgstr ""
+msgstr "![Boîte de dialogue de progression][img-thunar-progress]"
 
 #. type: Title ###
 #: content/about/tour48.md:23
@@ -7745,7 +7782,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour48.md:27
 msgid "![Eject button][img-thunar-eject]"
-msgstr ""
+msgstr "![Bouton d'éjection][img-thunar-eject]"
 
 #. type: Plain text
 #: content/about/tour48.md:31
@@ -7769,6 +7806,11 @@ msgid ""
 "remembered when moving a panel and the length of the panel can be adjusted "
 "as a percentage of the monitor size."
 msgstr ""
+"Le tableau de bord offre une bien meilleure prise en charge du "
+"positionnement à l'écran. Il peut être déplacé par glisser-déposer et "
+"aimanté aux bords de l'écran ; les positions flottantes ne sont mémorisées "
+"que lors du déplacement du tableau de bord, et sa longueur peut être ajustée"
+" en pourcentage de la taille de l'écran."
 
 #. type: Title ###
 #: content/about/tour48.md:37
@@ -7813,7 +7855,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour48.md:47
 msgid "![Panel item editor][img-panel-editor]"
-msgstr ""
+msgstr "![Éditeur d'éléments du tableau de bord][img-panel-editor]"
 
 #. type: Title ###
 #: content/about/tour48.md:49
@@ -7863,11 +7905,14 @@ msgid ""
 "An Xfce release without a new clock mode would not be a true Xfce release. "
 "Let us introduce you the 'fuzzy' clock mode!"
 msgstr ""
+"Une version d'Xfce sans nouveau mode d'affichage de l'horloge ne serait pas "
+"une véritable version d'Xfce. Laissez-nous vous présenter le mode d'horloge "
+"« approximatif » !"
 
 #. type: Plain text
 #: content/about/tour48.md:61
 msgid "![New fuzzy clock mode][img-panel-fuzzy-clock]"
-msgstr ""
+msgstr "![Nouveau mode d'horloge « approximatif »][img-panel-fuzzy-clock]"
 
 #. type: Title ###
 #: content/about/tour48.md:63
@@ -7889,7 +7934,7 @@ msgstr ""
 #. type: Plain text
 #: content/about/tour48.md:67
 msgid "![Directory menu plugin][img-panel-directorymenu]"
-msgstr ""
+msgstr "![Greffon de menu d'annuaire][img-panel-directorymenu]"
 
 #. type: Title ###
 #: content/about/tour48.md:69
@@ -7902,6 +7947,9 @@ msgid ""
 "You can now edit the applications menu using any Freedesktop compliant menu "
 "editor, Alacarte being the one we used to test."
 msgstr ""
+"Vous pouvez désormais modifier le menu des applications à l'aide de "
+"n'importe quel éditeur de menu compatible avec les normes Freedesktop ; nous"
+" avons utilisé Alacarte pour nos tests."
 
 #. type: Title ###
 #: content/about/tour48.md:75
@@ -7971,11 +8019,15 @@ msgid ""
 "second. Plug the second screen, press the display key or Windows + p and "
 "select the wanted layout. Done!"
 msgstr ""
+"La boîte de dialogue de configuration rapide vous permet de paramétrer une "
+"configuration à deux écrans en une seconde. Branchez le second écran, "
+"appuyez sur la touche d'affichage ou sur Windows + P, puis sélectionnez la "
+"disposition souhaitée. C'est tout !"
 
 #. type: Plain text
 #: content/about/tour48.md:93
 msgid "![Quick multihead setup][img-minimal-display-settings]"
-msgstr ""
+msgstr "![Configuration rapide multi-écran][img-minimal-display-settings]"
 
 #. type: Title ###
 #: content/about/tour48.md:95
@@ -7989,6 +8041,11 @@ msgid ""
 "Xfconf settings viewer. You can now modify, delete, add and reset settings "
 "through its interface. It also monitors changes to update its view."
 msgstr ""
+"L'éditeur de paramètres Xfce mérite désormais bien son nom ; il ne s'agit "
+"plus d'un simple visualiseur de paramètres Xfconf. Vous pouvez maintenant "
+"modifier, supprimer, ajouter et réinitialiser des paramètres via son "
+"interface. Il surveille également les changements pour mettre à jour son "
+"affichage."
 
 #. type: Plain text
 #: content/about/tour48.md:99
@@ -8011,11 +8068,16 @@ msgid ""
 " Layout edition was also made easier by prefilling the dialogs with the "
 "current values."
 msgstr ""
+"La boîte de dialogue de sélection de la disposition a fait l'objet d'une "
+"attention particulière : elle n'affiche plus de codes obscurs pour les "
+"langues ou les variantes, mais utilise leurs noms localisés. La modification"
+" de la disposition a également été facilitée grâce au pré-remplissage des "
+"boîtes de dialogue avec les valeurs actuelles."
 
 #. type: Plain text
 #: content/about/tour48.md:105
 msgid "![Layouts and variants list][img-keyboard-settings-list]"
-msgstr ""
+msgstr "![Liste mises en page et variantes][img-keyboard-settings-list]"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/community/_index.md:0
@@ -8094,6 +8156,10 @@ msgid ""
 "the place to be. Active contributors will be able to help you, but please do"
 " not use it for bug reports."
 msgstr ""
+"Pour les utilisateurs qui préfèrent les forums, le [forum "
+"Xfce](https://forum.xfce.org/) est l'endroit tout indiqué. Des contributeurs"
+" actifs pourront vous aider, mais veuillez ne pas l'utiliser pour signaler "
+"des bugs."
 
 #. type: Title ##
 #: content/community/_index.md:22
@@ -8105,6 +8171,8 @@ msgid ""
 "You can follow us on the official [Mastodon "
 "account](https://floss.social/@xfce)."
 msgstr ""
+"Vous pouvez nous suivre sur le [compte Mastodon](https://floss.social/@xfce)"
+" officiel."
 
 #: content/download/_index.md:0
 msgid "Download"
@@ -8117,6 +8185,10 @@ msgid ""
 "the packages below. [How to compile "
 "Xfce](https://docs.xfce.org/xfce/building)."
 msgstr ""
+"La plupart des distributions fournissent Xfce dans leur propre format de "
+"paquet, mais si vous souhaitez une version plus récente ou compiler Xfce à "
+"partir des sources, vous trouverez les paquets ci-dessous. [Comment compiler"
+" Xfce](https://docs.xfce.org/xfce/building)."
 
 #: content/download/_index.md:9
 msgid "Stable release {{% version \"stable\" %}}"
@@ -8150,6 +8222,15 @@ msgid ""
 "feeds](https://archive.xfce.org/feeds/project/) or follow the Xfce "
 "[Mastodon](https://floss.social/@xfce)."
 msgstr ""
+"Chaque paquet Xfce peut faire l'objet de publications individuelles, qu'il "
+"s'agisse de versions stables ou de développement, y compris pour les paquets"
+" du cœur du système (comme décrit dans le [modèle de "
+"publication](https://docs.xfce.org/contribute/dev/make-a-platform-"
+"release#making_a_platform_release)). Vous pouvez suivre les annonces de "
+"publication sur la [liste de diffusion des utilisateurs de "
+"Xfce](/community), surveiller les [flux de "
+"publication](https://archive.xfce.org/feeds/project/) ou suivre Xfce sur "
+"[Mastodon](https://floss.social/@xfce)."
 
 #: content/download/_index.md:19
 msgid "<https://archive.xfce.org/src/>"
@@ -8191,6 +8272,12 @@ msgid ""
 "[Zenwalk](http://www.zenwalk.org/), but there is a good chance your favorite"
 " distro provides packages as well."
 msgstr ""
+"De nombreuses distributions proposent des paquets Xfce. Parmi les exemples "
+"populaires basés sur Xfce, on trouve [Xubuntu](https://xubuntu.org/), "
+"[Fedora Xfce Spin](https://fedoraproject.org/spins/xfce), "
+"[Manjaro](https://manjaro.org/products/download/) ou "
+"[Zenwalk](http://www.zenwalk.org/), mais il est fort probable que votre "
+"distribution préférée en propose également."
 
 #: content/download/_index.md:34
 msgid ""
@@ -8213,6 +8300,10 @@ msgid ""
 "high-quality logos and banners. Copying of the Xfce logo is subject to the "
 "LGPL copyright license."
 msgstr ""
+"[Téléchargez l'archive des éléments graphiques de "
+"Xfce](//cdn.xfce.org/downloads/xfce_artwork.tar.bz2). Elle contient des "
+"logos et des bannières de haute qualité. La reproduction du logo Xfce est "
+"régie par la licence LGPL."
 
 #: content/download/changelogs/_index.md:0
 msgid "Changelogs"
@@ -8223,6 +8314,8 @@ msgid ""
 "Xfce release notes are specific to each version. Select your version from "
 "the list below to see the changes in the release."
 msgstr ""
+"Les notes de versions sont propres à chaque publication. Sélectionnez celle "
+"que vous souhaitez dans la liste ci-dessous pour en voir les changements."
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/getinvolved/_index.md:0
@@ -8274,6 +8367,10 @@ msgid ""
 "understand how to make the most of the Xfce Desktop Environment. [Learn More"
 " →](https://docs.xfce.org/contribute/documentation)"
 msgstr ""
+"De nombreuses personnes utilisent et testent Xfce. En fournissant une "
+"documentation utile et à jour, vous contribuerez grandement à aider les "
+"utilisateurs à tirer le meilleur parti de l'environnement de bureau Xfce. "
+"[En savoir plus →](https://docs.xfce.org/contribute/documentation)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:14
@@ -8288,6 +8385,11 @@ msgid ""
 " the global market and more accessible to the millions of potential users "
 "out there. [Learn More →](https://docs.xfce.org/contribute/translate/start)"
 msgstr ""
+"Parlez-vous couramment plusieurs langues ? En apportant vos traductions de "
+"texte à l'environnement de bureau Xfce, vous aiderez Xfce à devenir une "
+"meilleure partie du marché mondial et à être plus accessible aux millions "
+"d'utilisateurs potentiels. [En savoir plus "
+"→](https://docs.xfce.org/contribute/translate/start)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:18
@@ -8303,6 +8405,12 @@ msgid ""
 "product, all the while collaborating with people from all around the world. "
 "You can start by browsing the [source code](https://gitlab.xfce.org)."
 msgstr ""
+"En devenant développeur, vous pouvez avoir un impact significatif tout en "
+"vivant une expérience aussi stimulante qu'amusante. Vous apprendrez à mieux "
+"coder, vous mettrez en œuvre de nouvelles fonctionnalités et viendrez à bout"
+" de bugs complexes pour créer un produit remarquable, le tout en collaborant"
+" avec des personnes du monde entier. Vous pouvez commencer par explorer le "
+"[code source](https://gitlab.xfce.org)."
 
 #. type: Title ##
 #: content/getinvolved/_index.md:22
@@ -8316,6 +8424,11 @@ msgid ""
 " can also help by reposting any announcements we make to help us reach a "
 "larger audience."
 msgstr ""
+"Si vous possédez un blog ou un site web, vous pouvez apporter une aide "
+"précieuse en faisant passer le message et en encourageant de nouveaux "
+"utilisateurs à essayer Xfce. Si vous avez un compte Mastodon, vous pouvez "
+"également nous aider en repartageant nos annonces afin de nous permettre "
+"d'atteindre un public plus large."
 
 #. type: Title ##
 #: content/getinvolved/_index.md:26
@@ -8332,6 +8445,13 @@ msgid ""
 "reporting all bugs they may find, using our [bug "
 "tracker](https://gitlab.xfce.org)."
 msgstr ""
+"L'une des tâches les plus utiles pour lesquelles nous comptons sur la "
+"communauté est le test et le signalement de bugs. Comme Xfce fonctionne sur "
+"diverses plateformes et dans de nombreuses configurations différentes, "
+"tester toutes les modifications dans toutes les situations possibles est une"
+" tâche impossible. C'est pourquoi nous invitons les utilisateurs à "
+"participer aux tests et à signaler tout bug rencontré via notre [outil de "
+"suivi des bugs](https://gitlab.xfce.org)."
 
 #. type: Plain text
 #: content/getinvolved/_index.md:30
@@ -8360,6 +8480,11 @@ msgid ""
 "(€)](https://opencollective.com/xfce-eu) respectively. [Learn More "
 "→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 msgstr ""
+"Si vous souhaitez financer le projet, vous pouvez utiliser OpenCollective. "
+"Xfce a créé deux collectifs, nommés respectivement [Xfce "
+"($)](https://opencollective.com/xfce) et [Xfce-Eu "
+"(€)](https://opencollective.com/xfce-eu). [En savoir plus "
+"→](https://mail.xfce.org/pipermail/xfce/2021-May/037348.html)"
 
 #: content/projects/_index.md:0
 msgid "Projects"
