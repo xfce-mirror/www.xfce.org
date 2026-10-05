@@ -2,10 +2,10 @@
 # Mariana Santos Prazeres <mariana123p@gmail.com>, 2026
 # Alexandre Fidalgo <alexandremagnos15@gmail.com>, 2026
 # Sérgio Marques <smarquespt@gmail.com>, 2026
-# Nuno Miguel <nunomgue@gmail.com>, 2026
 # Nick Schermer <nick@xfce.org>, 2026
 # Andre Miranda <andre@andreldm.com>, 2026
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2026
+# Nuno Miguel <nunomgue@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/websites/www.xfce.org/-/issues\n"
 "POT-Creation-Date: 2026-10-03 14:35+0000\n"
 "PO-Revision-Date: 2026-09-09 19:46+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2026\n"
+"Last-Translator: Nuno Miguel <nunomgue@gmail.com>, 2026\n"
 "Language-Team: Portuguese (https://app.transifex.com/xfce/teams/16840/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -5442,6 +5442,10 @@ msgid ""
 " usage of direct I/O operations now attempts to prevent comparison of "
 "possibly cached buffers."
 msgstr ""
+"Para a validação de ficheiros no thunar 4.18.x a soma md5 é calculada para o"
+" ficheiro original e a cópia. Este cálculo torna-se algo lento e supérfluo. "
+"Agora os ficheiros são comparados diretamente. Além disso, o uso direto de "
+"operações E/S, agora tenta prevenir comparação de canais de memória."
 
 #. type: Plain text
 #: content/about/tour420.md:155
@@ -5829,6 +5833,8 @@ msgstr ""
 msgid ""
 "It is now possible to start a Wayland session via `startxfce4 --wayland`."
 msgstr ""
+"É possível agora iniciar uma sessão Wayland através de `startxfce4 "
+"--wayland`."
 
 #. type: Plain text
 #: content/about/tour420.md:273
@@ -6235,6 +6241,8 @@ msgid ""
 "<p align=\"right\"><small>Used theme: \"Greybird-dark\". Used icon-theme: "
 "\"elementary Xfce dark\".</small></p>\n"
 msgstr ""
+"<p align=\"right\"><small>Tema usado: \"Greybird-dark\". Tema de ícone: "
+"\"elementary Xfce dark\".</small></p>\n"
 
 #. type: Yaml Front Matter Hash Value: title
 #: content/about/tour44.md:0
@@ -6343,6 +6351,10 @@ msgid ""
 "Renamer* is included which allows users to rename multiple files at once "
 "using a certain criterion."
 msgstr ""
+"**Thunar** suporta todas as funções da gestão de ficheiros que os "
+"utilizadores esperam e ainda diversas funções avançadas. Por exemplo, o "
+"*Renomeador em Massa* é incluído para permitir aos utilizadores renomear "
+"diversos ficheiros duma vez, usando certos critérios."
 
 #. type: Plain text
 #: content/about/tour44.md:31
@@ -6644,6 +6656,9 @@ msgid ""
 "**Xfprint** also integrates with **MousePad** to provide generic printing "
 "support for different kinds of text documents using the `a2ps` converter."
 msgstr ""
+"**Xfprint também se integra com o **Mousepad** para oferecer suporte "
+"genérico à impressão para diferentes tipos de documentos de texto, usando o "
+"conversor `a2ps`."
 
 #. type: Plain text
 #: content/about/tour44.md:111
@@ -6659,6 +6674,11 @@ msgid ""
 "functionality was moved to a library, so other applications can use the API "
 "to access the printer configuration."
 msgstr ""
+"Como pode ver, o diálogo de impressão ainda aparenta semelhança com o Xfce "
+"4.2, mas as funções internas do suporte de impressão foram melhoradas, em "
+"especial o suporte ao `CUPS`. Além disso, a função da gestão de impressão "
+"foi movida para uma biblioteca para as outras aplicações usarem a API para "
+"aceder à configuração da impressão."
 
 #. type: Title ##
 #: content/about/tour44.md:115
@@ -6920,6 +6940,10 @@ msgid ""
 "**suspend** and **hibernate** \"out of the box.\" The logout dialog now has "
 "two additional buttons which offer to suspend or hibernate your computer."
 msgstr ""
+"O gestor de sessão também inclui uma nova funcionalidade muito esperada: "
+"suporte para **suspensão** e **hibernação** \"fora da caixa.\" A caixa de "
+"diálogo agora tem dois novos butões que permitem suspender ou hibernar o "
+"computador."
 
 #. type: Plain text
 #: content/about/tour46.md:41
@@ -7800,7 +7824,7 @@ msgstr ""
 
 #: content/download/_index.md:26
 msgid "<https://archive.xfce.org/xfce/{{% version \"preview\" %}}/>"
-msgstr ""
+msgstr "<https://archive.xfce.org/xfce/{{versão %  \"previsão\" %}}/>"
 
 #: content/download/_index.md:30
 msgid "Distributions"
@@ -7910,6 +7934,10 @@ msgid ""
 "understand how to make the most of the Xfce Desktop Environment. [Learn More"
 " →](https://docs.xfce.org/contribute/documentation)"
 msgstr ""
+"Muitas pessoas usam e testam o Xfce. Ao fornecer documentação útil e "
+"atualizada, pode fazer um grande impacto em ajudar as pessoas a entender "
+"melhor o ambiente de trabalho Xfce. [Saiba mais "
+"→](https://docs.xfce.org/contribute/documentation)"
 
 #. type: Title ##
 #: content/getinvolved/_index.md:14
