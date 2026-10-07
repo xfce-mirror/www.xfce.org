@@ -50,7 +50,7 @@ for po in "$REPO_ROOT/po"/strings.*.po; do
         "$REPO_ROOT/generated/$lang/download/changelogs/"
 done
 
-# Because using Hugo's resources.GetRemote fail in the docker container
+# Fetched with curl because Hugo's resources.GetRemote fails in the docker container
 echo "==> Fetching blog feed..."
 mkdir -p "$REPO_ROOT/assets"
 curl -sf "https://blog.xfce.org/feed/" -o "$REPO_ROOT/assets/blogfeed.xml"

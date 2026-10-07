@@ -65,7 +65,7 @@
   <ul class="feeds group">
     {{- range first 5 $blog.channel.item }}
     <li><strong><a href="{{ .link }}">{{ .title }}</a></strong><br />
-    <span class="meta">{{ .creator }} on {{ dateFormat "Jan 02 2006" .pubDate }}</span></li>
+    <span class="meta">{{ .creator | htmlUnescape }} on {{ dateFormat "Jan 02 2006" .pubDate }}</span></li>
     {{- end }}
   </ul>
   <p><a href="https://blog.xfce.org/">{{ i18n "home-blog-more" | safeHTML }}</a></p>
