@@ -1,7 +1,7 @@
 #!/bin/bash
 # Build pipeline for www.xfce.org Hugo site
 #
-# Default:       compile PO → hugo-gettext generate (content + i18n strings) → stubs → hugo
+# Default:       compile PO → hugo-gettext generate (content + i18n strings) → changelog copies → hugo
 # --update-po:   also extract po/strings.pot + po/content.pot and merge them into the PO files
 
 set -e
@@ -41,7 +41,7 @@ hugo-gettext generate -f "$REPO_ROOT/hugo-gettext.toml" --keep-locale
 echo "==> Cleaning up locale directory..."
 rm -rf "$REPO_ROOT/locale"
 
-echo "==> Generating language stubs..."
+echo "==> Copying untranslated changelogs..."
 for po in "$REPO_ROOT/po"/strings.*.po; do
   lang="$(basename "$po" .po)"; lang="${lang#strings.}"
   # Changelogs are not translated, so every language gets the English file
