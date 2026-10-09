@@ -1573,7 +1573,8 @@ msgstr ""
 "aktualizacji i funkcji, w tym obsługę VSync (przy użyciu Present lub OpenGL "
 "jako backendu) w celu zmniejszenia lub usunięcia migotania ekranu, obsługę "
 "HiDPI, ulepszoną obsługę GLX z własnościowymi/zamkniętymi sterownikami "
-"NVIDIA, obsługę XInput2, różne ulepszenia kompozytora i nowy motyw domyślny."
+"NVIDIA, obsługę XInput2, różne ulepszenia menedżera składania i nowy motyw "
+"domyślny."
 
 #. type: Bullet: '- '
 #: content/about/news/1565568000.md:16
@@ -2060,7 +2061,7 @@ msgid ""
 " used list complement this release."
 msgstr ""
 "[Menedżer okien](https://docs.xfce.org/xfce/xfwm4/start) ponownie otrzymał "
-"wiele aktualizacji i ulepszeń w kwestii kompozycji i GLX. Jeśli ustawiono "
+"wiele aktualizacji i ulepszeń w kwestii składania i GLX. Jeśli ustawiono "
 "główny wyświetlacz, okno dialogowe alt-tab będzie teraz wyświetlane tylko "
 "tam. Co więcej, kilka przydatnych nowych opcji powiększania kursora wraz z "
 "resztą ekranu, a także opcja utrzymywania zminimalizowanych okien na "
@@ -2959,7 +2960,7 @@ msgid ""
 " icon. Activating the compositor is a prerequisite for this mode."
 msgstr ""
 "Podgląd okien pokazuje miniatury zawartości okien wraz z ich ikonami. Musisz"
-" włączyć kompozytowanie okien aby z tego korzystać."
+" włączyć składanie okien, aby z tego korzystać."
 
 #. type: Plain text
 #: content/about/tour412.md:23
@@ -4909,12 +4910,13 @@ msgstr ""
 #. type: Title ###
 #: content/about/tour418.md:219
 msgid "Compositor"
-msgstr "Kompozytor"
+msgstr "Menedżer składania"
 
 #. type: Plain text
 #: content/about/tour418.md:221
 msgid "The compositor now supports adaptive vsync with GLX."
-msgstr "Kompozytor obsługuje teraz adaptacyjną synchronizację pionowę z GLX."
+msgstr ""
+"Menedżer składania obsługuje teraz adaptacyjną synchronizację pionowę z GLX."
 
 #. type: Title ##
 #: content/about/tour418.md:223 content/about/tour420.md:12
@@ -5039,8 +5041,8 @@ msgid ""
 "[here](https://wiki.xfce.org/releng/wayland_roadmap#testing). Please be "
 "aware that Wayland support is still experimental!"
 msgstr ""
-"Jak dotąd Xfce nie miał kompozytora obsługującego Waylanda. Jeśli chcesz "
-"uruchomić Xfce w Wayland, Labwc i Wayfire dadzą najlepsze rezultaty. "
+"Jak dotąd Xfce nie miał menedżera składania obsługującego Waylanda. Jeśli "
+"chcesz uruchomić Xfce w Wayland, Labwc i Wayfire dadzą najlepsze rezultaty. "
 "Szczegółową instrukcję na ten temat znajdziesz "
 "[tutaj](https://wiki.xfce.org/releng/wayland_roadmap#testing). Należy "
 "pamiętać, że wsparcie Waylanda jest wciąż eksperymentalne!"
@@ -5098,8 +5100,8 @@ msgid ""
 " on Wayland yet."
 msgstr ""
 "Xfce4-settings: ustawienia klawiatury i myszy są jak dotąd wewnętrzne w "
-"kompozytorze Wayland i jako takie odpowiednie okna dialogowe Xfce nie będą "
-"jeszcze dostępne w Wayland."
+"menedżerze składania Wayland i jako takie odpowiednie okna dialogowe Xfce "
+"nie będą jeszcze dostępne w Wayland."
 
 #. type: Bullet: '- '
 #: content/about/tour420.md:31
@@ -5109,8 +5111,8 @@ msgid ""
 "components."
 msgstr ""
 "Obsługa klawiatury związana z zasilaniem (klawisze jasności, zawieszenie "
-"itp.) jest wewnętrzna w kompozytorze Wayland i jako taka nie może być "
-"jeszcze obsługiwana przez komponenty Xfce."
+"itp.) jest wewnętrzna w menedżerze składania Wayland i jako taka nie może "
+"być jeszcze obsługiwana przez komponenty Xfce."
 
 #. type: Bullet: '- '
 #: content/about/tour420.md:32
@@ -5169,8 +5171,8 @@ msgstr ""
 msgid ""
 "Xfce4-xkb-plugin (keyboard handling is internal to the Wayland compositor)"
 msgstr ""
-"Xfce4-xkb-plugin (obsługa klawiatury jest wewnętrzna dla kompozytora "
-"Wayland)"
+"Xfce4-xkb-plugin (obsługa klawiatury jest wewnętrzna dla menedżera składania"
+" Wayland)"
 
 #. type: Plain text
 #: content/about/tour420.md:42
@@ -6315,7 +6317,7 @@ msgstr "Obsługa wariantów motywu rozciągliwego"
 #. type: Plain text
 #: content/about/tour420.md:385
 msgid "Compositor: Block softpipe for GLX vsync"
-msgstr "Kompozytor: blokada softpipe dla vsync GLX"
+msgstr "Menedżer składania: blokada softpipe dla vsync GLX"
 
 #. type: Plain text
 #: content/about/tour420.md:387
@@ -6542,8 +6544,9 @@ msgid ""
 "This release features an enhanced compositor, supporting transparent ARGB "
 "windows, shadows, window frame transparency and much more."
 msgstr ""
-"Jedną z nowości tego wydania, to udoskonalony kompozytor okien, obsługujący "
-"przezroczyste okna ARGB, cienie, przezroczystość obramowań i inne."
+"Jedną z nowości tego wydania, to udoskonalony menedżer składania okien, "
+"obsługujący przezroczyste okna ARGB, cienie, przezroczystość obramowań i "
+"inne."
 
 #. type: Plain text
 #: content/about/tour44.md:57
@@ -6739,7 +6742,7 @@ msgstr ""
 " jednym oknie, konfigurowalne paski narzędzi oraz możliwość dostosowania "
 "niemal każdego aspektu aplikacji za pomocą *ukrytych opcji*. Jak widać na "
 "powyższym zrzucie ekranu, ta wersja obsługuje również prawdziwą "
-"przezroczystość, wykorzystując wbudowany w **Xfwm4** menedżer kompozycji."
+"przezroczystość, wykorzystując wbudowany w **Xfwm4** menedżer składania."
 
 #. type: Title ##
 #: content/about/tour44.md:103
@@ -7143,8 +7146,8 @@ msgid ""
 "The **compositor** has been optimized to reduce window flickering during "
 "resize operations."
 msgstr ""
-"**Kompozytor** został zoptymalizowany pod kątem ograniczenia migotania okien"
-" podczas zmiany ich rozmiaru."
+"**Menedżer składania** został zoptymalizowany pod kątem ograniczenia "
+"migotania okien podczas zmiany ich rozmiaru."
 
 #. type: Plain text
 #: content/about/tour46.md:61
