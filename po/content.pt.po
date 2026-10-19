@@ -2846,6 +2846,10 @@ msgid ""
 "handles all kinds of device properties, as documented in the [mouse "
 "settings](https://docs.xfce.org/xfce/xfce4-settings/mouse) wiki."
 msgstr ""
+"A janela do *rato e painel de toque* é capaz de lidar com propriedades "
+"básicas de Synaptics e Wacom na interface gráfica. Um serviço em segundo "
+"plano manipula todas as propriedades de dispositivo, conforme documentado na"
+" wiki [definições do rato](https://docs.xfce.org/xfce/xfce4-settings/mouse)."
 
 #. type: Plain text
 #: content/about/tour410.md:93
@@ -2869,6 +2873,9 @@ msgid ""
 "*style* or *icon* list. Xfce will attempt to extract and install the files "
 "into the `~/.themes` or `~/.icons` directory."
 msgstr ""
+"No 4.10 pode arrastar e largar um tema descarregado para dentro da lista de "
+"*estilos* ou *ícones*. O Xfce irá tentar extrair e instalar os ficheiros "
+"para o diretórios `~/.themes` ou `~/.icons`."
 
 #. type: Title ##
 #: content/about/tour410.md:99 content/about/tour412.md:55
@@ -3471,6 +3478,11 @@ msgid ""
 "various daemons that talk directly to colord, e.g. saned (scanners), cupsd "
 "(printers) or xiccd (monitors)."
 msgstr ""
+"Foi introduzida uma nova janela para definir [perfis de "
+"cor](https://docs.xfce.org/xfce/xfce4-settings/4.14/color) para monitores, "
+"impressoras e digitalizadoras. Atua como um painel para vários  serviços que"
+" interagem diretamente com o colord, por exemplo saned (digitalizadoras), "
+"cupsd (impressoras) ou xiccd (monitores)."
 
 #. type: Plain text
 #: content/about/tour414.md:15
@@ -3496,6 +3508,17 @@ msgid ""
 "profiles in addition to the previously available pre-sets (internal only, "
 "mirror, extend and external only)."
 msgstr ""
+"Foram feitas várias melhorias na [janela do "
+"ecrã](https://docs.xfce.org/xfce/xfce4-settings/4.14/display). Para além de "
+"ajustes na interface do utilizador para tornar a interação mais intuitiva "
+"(introduzindo numeração do ecrã, apresentado um indicador principal com "
+"acesso rápido às definições do painel, notificações e ambiente de trabalho, "
+"etc.) foi adicionada uma funcionalidade para guardar um restauro de perfil "
+"de ecrã inteiro. Se existir um único perfil para uma configuração, o daemon "
+"das definições do Xfce irá ativá-lo automaticamente. Se existirem vários "
+"perfis, ele abrirá uma janela mínima e oferecerá todos os perfis para além "
+"dos predefinidos anteriormente disponíveis (apenas interno, espelho, "
+"extensão e apenas externo)."
 
 #. type: Plain text
 #: content/about/tour414.md:21
@@ -3531,6 +3554,12 @@ msgid ""
 "default: Super+F1) to visually locate the mouse pointer. This feature was "
 "added in Xfce 4.14."
 msgstr ""
+"Uma funcionalidade de "
+"[acessibilidade](https://docs.xfce.org/xfce/xfce4-settings/4.14/accessibility)"
+" que as pessoas provenientes de outros ambientes de trabalho ou sistemas "
+"operativos ainda não tinham é definir uma tecla de atalho (personalizada) "
+"(por predefinição: Super+F1) para localizar visualmente o cursor do rato. "
+"Esta funcionalidade foi adicionada no Xfce 4.14."
 
 #. type: Plain text
 #: content/about/tour414.md:31
@@ -3554,6 +3583,16 @@ msgid ""
 "impossible, because icons would upscale automatically according to size-"
 "steps hard-coded in the panel, are now possible (see below)."
 msgstr ""
+"Uma nova funcionalidade que introduzimos no "
+"[painel](https://docs.xfce.org/xfce/xfce4-panel/4.14/start) é a "
+"possibilidade de controlar o tamanho dos ícones de todos os plugins. "
+"('Todos' pode não ser tecnicamente correcto, pois nem todos os plugins "
+"suportam o novo API a partir de agora, mas agora *podem*. Além disso, o "
+"plugin de botões de janela é uma excepção, porque o libwnck não permite nada"
+" mais do que 16px ou 32px). Isto significa que as configurações que "
+"anteriormente eram impossíveis, porque os ícones subiriam automaticamente de"
+" acordo com o tamanho dos passos codificados no painel, são agora possíveis "
+"(ver abaixo)."
 
 #. type: Plain text
 #: content/about/tour414.md:39
@@ -3574,6 +3613,12 @@ msgid ""
 "providing a new group indicator that is less likely to clash with window "
 "titles containing an enumeration in brackets."
 msgstr ""
+"O agrupamento foi melhorado no [plugin de botões da "
+"janela](https://docs.xfce.org/xfce/xfce4-panel/4.14/tasklist), tanto "
+"funcionalmente (melhorando a correspondência e localização de ícones) e "
+"visualmente, fornecendo um novo indicador de grupo que é menos provável de "
+"entrar em conflito com os títulos das janelas contendo uma enumeração entre "
+"parênteses."
 
 #. type: Plain text
 #: content/about/tour414.md:45
@@ -3597,6 +3642,14 @@ msgid ""
 " that influence the startup behavior - previously this had to be checked "
 "manually in the filesystem."
 msgstr ""
+"Assim que uma "
+"[sessão](https://docs.xfce.org/xfce/xfce4-session/4.14/preferences) tenha "
+"sido guardada, um novo separador é dinamicamente adicionado à janela de "
+"definições, mostrando todas as sessões guardadas e permitindo eliminar uma "
+"ou todas elas. Isto deve torná-lo muito mais detetável para os utilizadores "
+"se tiverem realmente guardado sessões que influenciam o comportamento de "
+"arranque - anteriormente isto tinha de ser verificado manualmente no sistema"
+" de ficheiros."
 
 #. type: Plain text
 #: content/about/tour414.md:53
@@ -3617,6 +3670,11 @@ msgid ""
 "breadcrumbs (i.e. folders), an easily accessible way to hand-type a path as "
 "well as an improved look."
 msgstr ""
+"Até ao Xfce 4.12, o [Thunar](https://docs.xfce.org/xfce/thunar/4.14/start) "
+"oferecia duas opções para a barra de caminho/localização. O melhor dos dois "
+"mundos foi agora misturado numa barra de caminho poderosa, apresentando "
+"trilhos de navegação clicáveis (ou seja, pastas), uma forma fácil de "
+"introduzir manualmente um caminho, bem como um aspeto melhorado."
 
 #. type: Plain text
 #: content/about/tour414.md:61
@@ -3637,6 +3695,12 @@ msgid ""
 "docs](https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders)"
 " on how to set this up (if your distribution hasn't enabled it by default)."
 msgstr ""
+"Tal como no Ambiente de trabalho, pode agora guardar uma imagem com o nome "
+"'pasta.jpg' numa pasta e tê-la apresentada como ícone no Gestor de "
+"Ficheiros. Nota: [Leia a "
+"documentação](https://docs.xfce.org/xfce/tumbler/available_plugins#customized_thumbnailer_for_folders)"
+" sobre como configurar isto (se a sua distribuição não o tiver ativado por "
+"predefinição)."
 
 #. type: Plain text
 #: content/about/tour414.md:67
@@ -3652,6 +3716,13 @@ msgid ""
 " shows an indicator if applications inhibit power management functions like "
 "suspend (when power is low) or display dimming (after a defined timeout)."
 msgstr ""
+"O [plugin de painel Gestor de "
+"energia](https://docs.xfce.org/xfce/xfce4-power-manager/4.14/panel-plugin) "
+"suporta agora ícones simbólicos e utiliza os nomes de ícones UPower "
+"predefinidos (tornando-o mais compatível com todos os temas de ícones). "
+"Também apresenta um indicador se as aplicações inibem as funções de gestão "
+"de energia, como suspender (quando a energia é baixa) ou escurecimento do "
+"ecrã (após um tempo limite definido)."
 
 #. type: Plain text
 #: content/about/tour414.md:75
@@ -3681,6 +3752,11 @@ msgid ""
 " a global 'Do Not Disturb' mode, which inhibits all notifications, and "
 "finally a new animation ('slide out')."
 msgstr ""
+"Várias novas funcionalidades foram adicionadas ao [Serviço de "
+"notificações](https://docs.xfce.org/apps/notifyd/start) do Xfce, incluindo "
+"um registo de notificações, a possibilidade de desativar notificações por "
+"aplicação, um modo global 'Não incomodar', que inibe todas as notificações, "
+"e finalmente uma nova animação ('deslizar')."
 
 #. type: Plain text
 #: content/about/tour414.md:83
@@ -3714,6 +3790,9 @@ msgid ""
 "Mode', where the interface is simplified to just display the album artwork "
 "and can be positioned over other windows without getting in the way."
 msgstr ""
+"O [Parole](https://docs.xfce.org/apps/parole/start) apresenta agora um 'Modo"
+" miniatura', onde a interface é simplificada para mostrar apenas a capa do "
+"álbum e pode ser posicionada sobre outras janelas sem atrapalhar."
 
 #. type: Plain text
 #: content/about/tour414.md:97
@@ -3752,6 +3831,12 @@ msgid ""
 "(with configuration options) out of the box. If you prefer a blank screen, "
 "Xfce Screensaver also includes a blank screen option with DPMS integration."
 msgstr ""
+"O novo [Protetor de ecrã](https://docs.xfce.org/apps/screensaver/start) do "
+"Xfce proporciona uma experiência de ecrã de bloqueio configurável. Pode "
+"alternar seletivamente o ecrã de bloqueio e o protetor de ecrã e todos os "
+"temas do Xscreensaver são suportados (com opções de configuração) prontos "
+"para utilização. Se preferir um ecrã vazio, o protetor de ecrã do Xfce "
+"também inclui uma opção de ecrã vazio com integração DPMS."
 
 #. type: Plain text
 #: content/about/tour414.md:107
@@ -3789,6 +3874,17 @@ msgid ""
 "tab or window, there is a new check for running processes which prevents "
 "accidentally closing a terminal that is running a process."
 msgstr ""
+"Muitas e muitas funcionalidades acumularam-se no "
+"[Terminal](https://docs.xfce.org/apps/terminal/start) ao longo dos últimos "
+"anos. Entre elas o 'Desfazer Fechar Separador' e 'Fechar Outros Separadores'"
+" (semelhante aos navegadores de Internet), 'Copiar Entrada para Todos os "
+"separadores', 'Definir Cor do título' (permite personalizar a cor do texto "
+"do separador), 'Guardar conteúdo' (guarda o conteúdo do separador num "
+"ficheiro), uma janela 'Colar inseguro' (que impede que o terminal execute "
+"automaticamente o texto colado como um comando) e suporte para a ampliação. "
+"Finalmente, ao fechar um separador ou janela, há uma nova verificação para "
+"processos em execução que impede o fecho acidental de um terminal que esteja"
+" a executar um processo."
 
 #. type: Plain text
 #: content/about/tour414.md:115
@@ -3808,6 +3904,10 @@ msgid ""
 "screenshot while dragging, moving the selection with the mouse and better "
 "[imgur](https://imgur.com) integration."
 msgstr ""
+"O [Capturador de ecra](https://docs.xfce.org/apps/screenshooter/start) do "
+"Xfce ganhou várias funcionalidades notáveis, entre outras, ver o tamanho da "
+"imagem do ecrã enquanto se arrasta, ao mover a seleção com o rato e melhor "
+"integração no [imgur](https://imgur.com)."
 
 #. type: Plain text
 #: content/about/tour414.md:121
@@ -3848,6 +3948,12 @@ msgid ""
 "[Adwaita](https://en.wikipedia.org/wiki/Adwaita_(design_language))'s "
 "principles."
 msgstr ""
+"A fim de fazer o Xfce brilhar um pouco mais quando pronto a utilizar e "
+"reforçar a sua identidade visual, criámos novos ícones para todas as nossas "
+"principais aplicações e baseámo-los numa paleta partilhada para assegurar a "
+"consistência. Também estabelecemos mais algumas restrições de design "
+"(implícitas), seguindo vagamente os princípios do "
+"[Adwaita](https://en.wikipedia.org/wiki/Adwaita_(design_language))."
 
 #. type: Plain text
 #: content/about/tour416.md:13
@@ -3873,6 +3979,13 @@ msgid ""
 "[.desktop](https://specifications.freedesktop.org/desktop-entry-"
 "spec/desktop-entry-spec-latest.html)) file."
 msgstr ""
+"O próprio Gestor de definições recebeu uma atualização visual do seu campo "
+"de filtro, que agora pode ser ocultado permanentemente. Ao mesmo tempo, as "
+"capacidades de pesquisa do campo de filtro foram melhoradas através da "
+"pesquisa da parte descritiva 'Comentários' do ficheiro de lançamento de cada"
+" janela (também conhecido como "
+"[.desktop](https://specifications.freedesktop.org/desktop-entry-"
+"spec/desktop-entry-spec-latest.html))."
 
 #. type: Plain text
 #: content/about/tour416.md:21
@@ -3892,6 +4005,10 @@ msgid ""
 " one place means users have an easier time setting default applications to "
 "handle certain file types."
 msgstr ""
+"Esta nova janela representa a fusão entre as janelas 'Editor de tipos MIME' "
+"e 'Aplicações preferidas', anteriormente disponíveis. A consolidação de "
+"ambas num único local facilita aos utilizadores a definição de aplicações "
+"predefinidas para lidar com determinados tipos de ficheiros."
 
 #. type: Plain text
 #: content/about/tour416.md:27
@@ -4489,7 +4606,7 @@ msgid ""
 msgstr ""
 "Thunar agora oferece a opção de dividir secções. A secção do separador pode "
 "ser movida e a sua posição ser gravada. Através uma definição do xfconf, é "
-"possível ter uma divisória vertical"
+"possível ter uma divisória vertical."
 
 #. type: Plain text
 #: content/about/tour418.md:125
@@ -4531,6 +4648,14 @@ msgid ""
 "Location' in order to travel there quickly. The preferences dialog provides "
 "an option to limit recursive search to local folders, or to disable it."
 msgstr ""
+"O Thunar tem agora a possibilidade de pesquisar recursivamente, diretamente "
+"dentro do próprio Thunar. A pesquisa é feita num segmento separado e os "
+"resultados da pesquisa são adicionados rapidamente a uma Vista de lista. Uma"
+" nova linha 'Localização' mostra onde se encontram os resultados da "
+"pesquisa, e o menu de contexto fornece a opção 'Abrir localização do item', "
+"a fim de viajar rapidamente para lá. A janela de Preferências fornece uma "
+"opção para limitar a pesquisa recursiva a pastas locais, ou para a "
+"desativar."
 
 #. type: Plain text
 #: content/about/tour418.md:137
@@ -6659,6 +6784,11 @@ msgid ""
 "past to store your settings, **Orage** is based on `ical` and therefore "
 "compatible with other calendar applications."
 msgstr ""
+"O **Orage** é bastante leve e rápido mas, mesmo assim, possui diversas "
+"opções existentes noutras aplicações como por exemplo o **Outlook** ou o "
+"**Evolution**. Enquanto que o **Xfcalendar** utilizava o formato 'dbh' para "
+"guardar as suas definições, o **Orage** é baseado no formato 'ical' e "
+"compatível com outras aplicações de calendário."
 
 #. type: Title ##
 #: content/about/tour44.md:95
@@ -6692,6 +6822,13 @@ msgid ""
 "above, this release also supports real transparency using **Xfwm4**'s "
 "integrated composition manager."
 msgstr ""
+"Para além das funções básicas que se espera de um emulador de terminal, "
+"também incluímos algumas funcionalidades extra, como por exemplo os "
+"separadores múltiplos, as barras de ferramentas com possibilidade de "
+"personalização e a configuração de todas as áreas da aplicação através das "
+"*opções ocultas*. Como pode ver na imagem acima, esta versão adicionou a "
+"possibilidade do terminal transparente através do gestor de composição do "
+"**Xfwm4**."
 
 #. type: Title ##
 #: content/about/tour44.md:103
@@ -6782,6 +6919,14 @@ msgid ""
 "screenshot above, which allows users to easily add, remove or disable "
 "autostarted applications."
 msgstr ""
+"A especificação consiste em duas partes: a *Inicialização automática de "
+"aplicações durante o arranque*, o que é implementado no **xfce4-session** e "
+"a *Inicialização automática depois de montar* o qual é implementado no "
+"[thunar-volman](http://foo-projects.org/~benny/projects/thunar-"
+"volman/index.html). Este lançamento também inclui o **xfce4-autostart-"
+"editor**, apresentado na captura de ecrã acima, o qual permite que "
+"utilizadores facilmente adicionem, removam ou desativem aplicações a serem "
+"inicializadas automaticamente."
 
 #. type: Plain text
 #: content/about/tour44.md:125
@@ -6995,6 +7140,12 @@ msgid ""
 "you are not left without a desktop, panel, window manager, etcetera, if a "
 "crash occurs."
 msgstr ""
+"O **Xfce 4.6** possui um gestor de sessões melhorado: a sua sessão deve "
+"iniciar mais rápido e a janela de definições foi trabalhada para uma melhor "
+"gestão das aplicações iniciadas com o sistema. Adicionalmente, o gestor de "
+"sessões irá agora reiniciar automaticamente aquelas aplicações que "
+"terminaram abruptamente, de modo a que não fique sem um ambiente de "
+"trabalho, painel ou gestor de janelas caso ocorra um erro."
 
 #. type: Plain text
 #: content/about/tour46.md:37
@@ -7345,6 +7496,11 @@ msgid ""
 "also allows you to create panel launchers quickly by dragging an application"
 " icon to the launcher creation window."
 msgstr ""
+"O **Xfce 4.6** também vem com uma nova aplicação para encontrar aplicações "
+"com uma interface de utilizador limpa. É fácil de utilizar com o teclado e "
+"monitoriza aplicações instaladas para atualizar a lista em \"tempo real\". "
+"Também permite criar lançadores de painel rapidamente ao arrastar um ícone "
+"de aplicação para a janela de criação do lançador."
 
 #. type: Plain text
 #: content/about/tour46.md:135
@@ -7874,6 +8030,13 @@ msgid ""
 "feeds](https://archive.xfce.org/feeds/project/) or follow the Xfce "
 "[Mastodon](https://floss.social/@xfce)."
 msgstr ""
+"Cada pacote do Xfce pode ter versões estáveis ou de desenvolvimento "
+"próprias, incluindo os pacotes principais (conforme descrito no [modelo de "
+"lançamento](https://docs.xfce.org/contribute/dev/make-a-platform-"
+"release#making_a_platform_release)). Pode acompanhar os anúncios das versões"
+" na [lista de correio dos utilizadores do Xfce](/community), consultar os "
+"[feeds de lançamento](https://archive.xfce.org/feeds/project/) ou seguir o "
+"Xfce no [Mastodon](https://floss.social/@xfce)."
 
 #: content/download/_index.md:19
 msgid "<https://archive.xfce.org/src/>"
